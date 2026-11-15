@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzqtIAg64Kt7KKFIChDaG9sZWRvY2hhbCBDeXN0KS5tZA
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 2세 여아가 일주일 동안 피부가 노랗게 변하고 식욕이 떨어지며 세 차례 구토하여 내원했다. 부모는 소변 색이 진해지고 대변 색이 옅어졌다고 한다. 지난 2일 동안 복부와 팔을 긁고 심하게 울었다. 임신과 분만은 합병증 없이 38주에 태어났다. 가족은 8년 전 일본에서 이주했다. 예방접종은 최신 상태이다. 진찰에서 피부와 공막에 황달이 보이며 오른쪽 상복부에 종괴가 만져진다. 혈청검사에서 총 빌리루빈 5 mg/dL, 직접 빌리루빈 4.2 mg/dL, AST 20 U/L, ALT 40 U/L, γ-GT 110 U/L이다. 복부 초음파에서 담낭 확장과 간외 담관의 방추형 확장이 보인다. 다음 중 가장 가능성 높은 진단은?
+2세 여아에게 황달, 짙은 소변과 회색 변이 생겼다. 직접 빌리루빈이 상승했고, 초음파에서 간외 총담관 전체가 방추형으로 확장돼 있다. 담석은 보이지 않는다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 총담관 낭종
-B. 담도 폐쇄증
-C. 간농양
-D. 췌장 가성낭종
+A. 담도폐쇄증
+B. 췌장 가성낭종
+C. 급성 바이러스간염
+D. 총담관 낭종
 
 ## 해설
 
-2세의 황달·옅은 변·소양감과 직접 빌리루빈 상승은 담즙정체를 시사한다. 초음파에 명시된 간외 담관의 방추형 확장은 총담관 낭종(A)에 특징적이며, 담도폐쇄증과 같은 의미가 아니다. 이 환자는 신생아가 아니다.
+직접 고빌리루빈혈증과 간외 담관의 방추형 확장은 총담관 낭종에 합당하다. 담관염이나 췌장염이 동반될 수 있어 소아간담도 전문 평가가 필요하다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 췌장 가성낭종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006396
+- https://pubmed.ncbi.nlm.nih.gov/39038350/

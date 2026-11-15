@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-uvuOyEuO2YiOq0gOuzkeyEsSDsmqntmIgg67mI7ZiIIChNaWNyb2FuZ2lvcGF0aGljIEhlbW9seXRpYyBBbmVtaWEsIE1BSEEpLm1k
 question_type: management
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-이전에 건강했던 32세 남성이 발작 후 응급실에 왔다. 그날 코피가 30분간 지속되었고 현재 혼란스럽고 지남력이 없다. 창백하고 몸통과 팔에 점상출혈이 있으며 혈소판 34,000/mm³, 크레아티닌 2.9 mg/dL, 비포합 빌리루빈과 LDH가 상승하고 말초혈액도말에서 많은 분열적혈구가 보인다. PT와 PTT, 섬유소분해산물은 정상이다. 다음 중 가장 적절한 치료의 다음 단계는?
+혈소판이 19,000/μL이고 분열 적혈구와 용혈 소견이 있는 환자에게 새 혼돈이 생겼다. PT와 aPTT는 정상이고 혈액 진료팀이 면역성 혈전성 혈소판감소성 자반증 가능성이 높다고 판단했다. ADAMTS13 검체를 확보한 뒤 바로 할 처치는?
 
 ## 선택지
 
-A. 농축적혈구 수혈
-B. 혈장교환술
-C. 혈소판 수혈
-D. 정맥 트라넥삼산
+A. 결과가 확정될 때까지 혈장교환을 미룬다
+B. 혈소판 수만 보고 예방적 혈소판 수혈을 한다
+C. 치료적 혈장교환과 전신 스테로이드를 신속히 시작한다
+D. 아스피린만 투여하고 경과를 본다
 
 ## 해설
 
 
-혈소판감소, schistocyte를 동반한 미세혈관병성 용혈, 발작·혼란과 신기능 저하에 비해 PT/PTT가 정상인 양상은 TTP를 강하게 시사한다. 보기 중 긴급 plasma exchange B가 적절하며 ADAMTS13 검체는 가능하면 교환 전에 채취하되 결과를 기다려 치료를 지연하지 않는다. 면역매개 TTP의 실제 치료에는 glucocorticoid를 병합하고 상황에 따라 rituximab·caplacizumab도 고려한다. 혈소판 수치만을 이유로 예방적 혈소판 수혈을 우선하는 선택은 적절하지 않다.
+면역성 혈전성 혈소판감소성 자반증이 강하게 의심되면 검사 결과를 기다리지 않고 혈장교환과 스테로이드를 시작한다. 전문팀이 카플라시주맙·리툭시맙 등의 추가 치료를 평가한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 정맥 트라넥삼산
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002592
+- https://pubmed.ncbi.nlm.nih.gov/40533296/

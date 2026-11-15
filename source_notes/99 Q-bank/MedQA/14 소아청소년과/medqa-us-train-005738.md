@@ -13,11 +13,11 @@ related_diseases:
   - "지적장애"
   - "발달 지연"
   - "소두증"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yngOyggSDsnqXslaAgKEludGVsbGVjdHVhbCBEaXNhYmlsaXR5KS5tZA
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-6세 남아가 부모와 함께 소아과를 방문했다. 예방접종은 모두 받았고 대부분의 발달 이정표를 달성했다. 미세운동 발달이 지연되어 현재 혼자 식사하지 못하고 옷을 입는 데 어려움이 있다. 지능지수(IQ)는 65이다. 말을 걸면 조용히 듣고 반 친구들과 놀이에 참여한다. 말을 지나치게 많이 하거나 전혀 하지 않는 것이 아니라 정상적인 사회적 대화를 한다. 발작 병력은 없고 장기간 치료 중인 약물도 없다. 신체검사에서 활력징후는 안정적이다. 키와 체중은 연령과 성별에 맞게 정상이지만 후두전두둘레는 해당 연령 및 성별의 3백분위수 미만이다. 신경학적 검사도 정상이다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+7세 아이의 표준화 지능검사에서 지적 기능 저하가 확인됐다. 학교와 집에서도 시간 개념, 돈 사용, 옷 입기 등 연령에 맞는 일상 과제에 반복적으로 도움이 필요하다. 지적발달장애를 평가할 때 지능검사와 함께 확인할 핵심은?
 
 ## 선택지
 
-A. 자폐증
-B. 주의력결핍 과잉행동장애
-C. 지적장애
-D. 강박장애
+A. 여러 환경에서의 적응 기능
+B. 오래 앉아 있는 시간
+C. 수면 뇌파 이상
+D. 머리둘레가 3백분위수 미만인지
 
 ## 해설
 
-IQ 65로 지적 기능이 낮고, 6세에 혼자 식사하거나 옷 입기가 어려운 적응 기능의 제한이 함께 제시되어 지적장애(C)가 보기 중 적절하다. 발달기에 나타난 지적·적응 기능의 어려움이 핵심이며 소두증은 가능한 동반 소견이지 지적장애의 정의나 필수 조건이 아니다.
+지적발달장애는 발달기에 나타난 지적 기능과 적응 기능의 제한을 함께 확인해 진단한다. 지원 필요도는 지능지수 하나가 아니라 실제 적응 기능을 바탕으로 평가한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ IQ 65로 지적 기능이 낮고, 6세에 혼자 식사하거나 옷 입기가 �
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005738
+- https://pubmed.ncbi.nlm.nih.gov/33928910/

@@ -17,7 +17,7 @@ question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,23 +34,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-17세 여아가 식욕부진과 4개월간 4 kg 체중감소로 진료를 받으러 왔다. 동공이 9 mm로 확대되고 빛에 거의 반응하지 않으며 손 떨림과 빈맥이 있다. 학업 성적이 떨어지고 부모와 갈등이 많으며 불안하고 안절부절못한다. 할머니에게 갑상선 질환이 있고 두 남성과 성관계를 하며 콘돔은 불규칙하게 사용한다. 진단을 위한 가장 적절한 다음 단계는?
+17세 청소년이 갑자기 심하게 불안해하며 땀을 많이 흘리고, 동공이 크고 맥박과 혈압이 높다. 발열과 저혈당 등 다른 응급 원인도 평가하고 있다. 교감신경 자극 물질 중독이 의심되는데 소변 선별검사는 음성이다. 적절한 해석은?
 
 ## 선택지
 
-A. 혈청 전해질 측정
-B. 복부 초음파
-C. 독성학 선별검사
-D. HIV 선별검사
+A. 선별검사가 음성이어도 노출을 배제할 수 없으므로 병력과 임상 상태에 따라 평가·처치한다
+B. 검사가 음성이므로 중독 관련 감시는 중단한다
+C. 선별검사가 음성이면 정신질환으로 확진한다
+D. 검사 결과가 나올 때까지 활력 이상은 치료하지 않는다
 
 ## 해설
 
-현저한 동공 확대·떨림·빈맥과 식욕·행동 변화는 교감신경 자극 물질 사용 가능성을 평가하게 하므로 제시된 다음 진단검사 중 독성 선별검사가 적절하다. 선별검사만으로 물질·중독을 확증하거나 음성으로 완전 배제하지 않으며 병력·진찰과 필요 시 확증 분석으로 해석한다. 갑상선 원인과 성위험에 따른 HIV/STI 예방검진도 임상적으로 따로 평가할 사항이다.
+소변 선별검사에 포함되지 않은 물질이 있고 검출 시점에도 제한이 있다. 중독의 평가는 병력과 진찰을 바탕으로 하고, 현재의 체온·순환 등 위험 소견을 먼저 관리한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001182
+- https://pubmed.ncbi.nlm.nih.gov/38669101/
 
 ## 검수 근거
 

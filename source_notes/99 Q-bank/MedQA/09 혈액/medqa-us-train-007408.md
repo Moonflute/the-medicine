@@ -17,9 +17,9 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-ycoOyghCDqtaztmIjsoIHtmIjqtazspp0gKEhlcmVkaXRhcnkgU3BoZXJvY3l0b3NpcykubWQ
   - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
-question_type: management
+question_type: prevention
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-8세 남아가 지속되는 피로로 추적 진료를 위해 내원했다. 어머니는 아들이 일주일 동안 매일 쉬는 시간에 놀지 않고 앉아 있었다고 선생님에게 들었다. 몇 년 전부터 피로와 쇠약 증상이 생겼고 1년에 한두 번 비슷한 에피소드로 진료를 받았다. 일부는 바이러스 감염으로 유발되는 것 같지만 원인이 없는 경우도 있다. 매일 엽산을 보충하면서 약간 호전되었고 1년에 여러 차례 적혈구 수혈이 필요하다. 설파제 알레르기가 있으며 지난달 귀 감염으로 아목시실린을 복용했다. 친할아버지가 최근 다발골수종을 진단받았지만 부모는 다른 혈액질환 가족력은 없다고 한다. 체온은 99.0°F(37.2°C), 혈압 103/76 mmHg, 맥박 95회/분, 호흡수 14회/분이다. 결막이 창백하고 피곤해 보인다. 검사에서 백혈구 수 9,700/mm³, 헤모글로빈 8.4 g/dL, 헤마토크릿 27%, MCV 97 µm³, MCHC 40%, 혈소판 수 338,000/mm³, 망상적혈구 지수 4.2%이다. 다음 중 가장 적절한 치료 단계는 무엇인가?
+유전구형적혈구증이 확진된 8세 아이가 한 해에 여러 번 적혈구 수혈을 받는다. 만성 빈혈로 활동이 어렵고 가족이 비장절제술을 고려 중이다. 수술과 관련해 반드시 마련할 계획은?
 
 ## 선택지
 
-A. 하이드록시우레아
-B. 글루코코르티코이드
-C. 예방접종 후 비장절제술
-D. 예방접종 후 비장절제술과 1년간 페니실린
+A. 수술 전에 폐렴구균 등 필요한 예방접종을 확인하고, 수술 뒤 감염 예방과 발열 시 응급 대응을 교육한다
+B. 예방접종 없이 수술하고 고열이 나면 집에서 관찰한다
+C. 비장절제로 적혈구의 유전적 막 이상이 없어지므로 감염 예방은 중단한다
+D. 수술하면 감염 위험이 감소하므로 수술 뒤 항생제 예방은 고려하지 않는다
 
 ## 해설
 
 
-수혈이 반복되는 중증 HS 의심에서8세의 비장절제는 용혈을 줄일 수 있고 접종·항균 예방을 동반하는 D가 선택지 중 적절하다. 수술이 막 유전결함을 교정하는 것은 아니며 평생 감염 위험이 남는다. BSH는 수술 직후와1–3년 예방, 고위험에는 장기/평생 요법을 권고하므로 D의1년을 모든 환자의 강제 종료 시점으로 해석하지 않는다. 백신·응급 항생제·발열 시 신속 진료 교육과 개인별 기간 재평가가 필요하다.
+수혈이 반복되는 중증 구형적혈구증에서 비장절제술은 용혈을 줄일 수 있다. 수술 뒤 침습 감염 위험은 지속되므로 필요한 예방접종, 항생제 예방 및 발열 시 신속 진료를 계획한다.
 
 ## 검수 근거
 
@@ -63,3 +63,5 @@ D. 예방접종 후 비장절제술과 1년간 페니실린
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007408
+- https://register.awmf.org/assets/guidelines/025-018l-S1_Hereditaere-Sphaerozytose_2023-09_1.pdf
+- https://pubmed.ncbi.nlm.nih.gov/38600782/

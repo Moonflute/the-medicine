@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-u5hOygleyDgSDsnpDqtoEg7Lac7ZiIIChBYm5vcm1hbCBVdGVyaW5lIEJsZWVkaW5nKS5tZA
   - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4kg7Kad7Iud7KadIChFbmRvbWV0cmlhbCBIeXBlcnBsYXNpYSkubWQ
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-39세 여성이 6개월 동안 2~3주 간격으로 2~5일간 지속되는 질 출혈로 내원했다. 출혈량이 많고 혈전이 나온다. 초경은 10세였고 이전에는 28~32일 간격으로 규칙적이며 5일간 정상량으로 지속되었다. 자녀는 없고 어머니는 60세에 난소암을 진단받았다. 키 158 cm, 체중 86 kg, BMI 34 kg/m²이다. 골반검사에서 자궁 크기는 정상이고 혈구, 갑상선, 응고검사는 정상이며 임신검사는 음성이다. 다음 중 가장 적절한 다음 처치는?
+39세 여성이 6개월째 불규칙하고 많은 자궁출혈이 있다. BMI 34 kg/m²이며 수년간 월경 간격이 2–3개월이었고, 프로게스틴 치료 후에도 출혈이 반복된다. 임신검사는 음성이고 초음파에서 뚜렷한 근종은 없다. 다음 평가는?
 
 ## 선택지
 
-A. 자궁내막 절제
-B. 자궁내막 생검
-C. 복부 초음파
-D. 진단적 복강경
+A. 자궁내막 조직검사
+B. 복부 CT로 난소 크기 측정
+C. 국가 자궁경부암 검진으로 평가 종료
+D. 조직검사 없이 자궁내막 소작
 
 ## 해설
 
-39세라도 6개월 지속된 비정상 자궁출혈과 비만 등 비길항 에스트로겐 노출 위험이 있어 자궁내막 생검(B)이 적절하다. 연령이 40세 이상이기 때문이라는 설명은 이 사례에 맞지 않는다. 악성·전암 병변 평가 전 내막절제를 시행하지 않는다.
+45세 미만이라도 장기간 무배란·비만 등 내막 증식 위험이 있고 비정상 출혈이 지속되면 내막 조직을 평가한다. 자궁근종이 안 보이거나 자궁경부 검사가 정상이어도 내막 질환을 배제할 수 없다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 진단적 복강경
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008106
+- https://www.nice.org.uk/guidance/ng88/chapter/Recommendations
+- https://www.ejgo.org/DOIx.php?id=10.3802%2Fjgo.2024.35.e45

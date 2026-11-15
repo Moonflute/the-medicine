@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-61세 여자가 2주 동안 식후 복통으로 급성 진료실에 내원했다. 최근 며칠간 구토도 했다. 골관절염과 전신홍반루푸스 병력이 있다. 술을 규칙적으로 마시고 담배는 피우지 않는다. 활력징후는 정상이다. 중등도로 괴로워 보이지만 의식은 명료하고 지남력은 정상이다. 복부 촉진에서 심와부 압통이 있다. 복부 CT에서 급성 소견은 없다. 검사 결과는 나트륨 139 mEq/L, 칼륨 4.4 mEq/L, 염소 109 mmol/L, 중탄산염 20 mEq/L, BUN 14 mg/dL, 크레아티닌 1.0 mg/dL, 포도당 101 mg/dL, 총 콜레스테롤 187 mg/dL, LDL 110 mg/dL, HDL 52 mg/dL, 중성지방 120 mg/dL, AST 65 IU/L, ALT 47 IU/L, GGT 27 IU/L, 아밀라아제 512 U/L, 리파아제 1,262 U/L이다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+61세 여성이 갑자기 시작된 심한 명치 통증으로 왔다. 통증은 등으로 뻗치고 구토가 있다. 리파아제는 정상 상한의 6배다. 발병 첫날의 CT에서 뚜렷한 췌장 변화가 보이지 않았다. 적절한 해석은?
 
 ## 선택지
 
-A. 급성 간부전
-B. 급성 담낭염
-C. 급성 췌장염
-D. 급성 장간막 허혈
+A. CT가 정상이므로 급성 췌장염이 아니다
+B. 정상 CT를 근거로 급성 담낭염으로 진단한다
+C. 전형적 통증과 리파아제 상승으로 급성 췌장염 진단 기준을 충족한다
+D. 리파아제가 정상의 10배를 넘기 전에는 급성 췌장염이 아니다
 
 ## 해설
 
 
-식후 복통, 구토, 혈청 아밀라아제·리파아제 상승은 급성 췌장염을 나타낸다. 알코올 섭취와 연관이 있다. 정답은 C이다.
+전형적인 통증, 췌장효소가 정상 상한의 3배 이상, 특징적인 영상 중 두 가지가 있으면 급성 췌장염에 부합한다. 초기 CT가 정상이어도 전형적인 증상과 효소 상승을 무효로 하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 급성 장간막 허혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007362
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9840919/

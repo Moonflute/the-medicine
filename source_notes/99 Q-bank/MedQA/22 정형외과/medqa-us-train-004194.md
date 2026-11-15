@@ -17,9 +17,9 @@ question_type: 임상증례 객관식
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64SZ64uk66as67yIIOuouOumrCDrsrzrgZ0g67K8IOyXsOqzqOymnSAoTGVnZy1DYWx2ZS1QZXJ0aGVzIERpc2Vhc2UpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-8세 남아가 오른쪽 다리를 편드는 절뚝거림으로 내원했다. 어머니는 6개월 동안 불평 없이 절뚝거리는 것을 보았다. 지난해 독감 외에는 과거력이 없고 예방접종은 최신 상태다. 체온 37.0°C, 혈압 100/60 mmHg, 맥박 74회/분, 호흡수 19회/분, 산소포화도 99%이며 BMI 17.2kg/m²이다. 걸을 때 오른쪽 다리를 편드는 절뚝거림을 보이고 왼쪽 요추 부위를 깊게 누르면 경미한 압통이 있지만 홍반, 부종, 열감은 없다. 왼쪽 고관절 운동범위가 감소되어 있다. 가장 가능성 높은 진단은 무엇인가?
+8세 남아가 수개월간 절뚝거린다. 오른쪽 고관절의 내회전과 벌림이 제한되고, X선에서 같은 쪽 대퇴골두가 납작해지고 경화됐다. 열은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
 A. 대퇴골두 골단분리증
-B. 발달성 고관절 이형성증
-C. 바이러스 유발 활막염
-D. 레그-칼베-페르테스병
+B. 레그-칼베-페르테스병
+C. 일과성 고관절 활막염
+D. 발달성 고관절 이형성증
 
 ## 해설
 
-8세에서 6개월간 지속된 절뚝거림과 고관절 운동범위 제한, 뚜렷한 감염·염증 소견 없음은 레그-칼베-페르테스병(D), 즉 성장기 대퇴골두의 무혈성 괴사를 가장 시사한다. 영문은 오른쪽 다리를 편드는 보행과 왼쪽 고관절 운동제한을 기술하므로 오른쪽 고관절 병변이라고 새로 단정하지 않는다. SCFE는 대개 더 나이 많은 청소년에서, 일과성 바이러스성 활막염은 더 급성·일시적 경과로 나타난다.
+학령기 소아가 서서히 절뚝거리며 고관절 움직임이 줄고 골두 경화와 편평화가 보이면 페르테스병을 의심한다. 성장기 골두의 무혈성 골괴사다.
 
 ## 검수 근거
 

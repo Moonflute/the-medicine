@@ -18,7 +18,7 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-q4ieyEsSDrtoDqs6DtmZjsl7wgKEFjdXRlIGVwaWRpZHltaXRpcykubWQ
   - MTMg67aA7J246rO8L-yEseunpOqwnOqwkOyXvC5tZA
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 22세 남성이 5일 동안 점점 심해지는 음낭 통증과 부종으로 대학 보건진료소에 내원했다. 배뇨통과 빈뇨도 있다. 이런 통증은 처음이다. 평소 건강하다고 생각하며 복용하는 약은 없다. 성관계를 하는 상대는 한 명이고 콘돔은 일관되게 사용하지 않는다. 체온은 36.7℃(98.1℉), 혈압은 115/70 mm Hg, 맥박은 분당 84회, 호흡수는 분당 14회이다. 진찰에서 오른쪽 음낭이 붓고 압통이 있으며, 특히 오른쪽 고환 뒤쪽에서 심하다. 프렌 징후는 양성이다. 그 외 신체진찰은 특이사항이 없다. 도플러 초음파에서 고환 혈류가 증가되어 있다. 다음 중 처치로 가장 적절한 것은?
+22세 남성이 5일에 걸쳐 심해진 음낭 통증과 배뇨통, 요도 분비물로 내원했다. 도플러에서 고환 혈류는 보존되고 부고환의 혈류는 증가했다. 전신 상태는 안정적이고 임균·클라미디아에 의한 부고환염을 의심한다. 가장 적절한 경험적 치료는?
 
 ## 선택지
 
-A. 근육주사 세프트리악손과 경구 독시사이클린
-B. 환자와 성 파트너에게 경구 메트로니다졸
-C. 근치적 고환절제술
-D. 수술적 탐색
+A. 경구 메트로니다졸 단독
+B. 경구 니트로푸란토인 단독
+C. 세프트리악손 근육주사와 경구 독시사이클린
+D. 경구 독시사이클린 단독
 
 ## 해설
 
-점진적인 음낭 통증, 부고환 부위 압통, 배뇨 증상과 증가한 혈류는 급성 부고환염에 합당하다. 성매개 원인이 의심되는 안정된 외래 환자의 CDC 권고는 ceftriaxone 근육주사와 경구 doxycycline 조합이므로 A의 경로를 IM으로 교정하였다. 원문에는 IV라고 되어 있었으나 이를 표준 외래 경로라고 그대로 설명하지 않았다. 원인균 NAAT와 배양, 파트너 평가 및 추적이 필요하며 Prehn 징후 하나만으로 염전을 배제해서는 안 된다.
+임균과 클라미디아가 모두 의심되는 급성 부고환염에서는 두 균을 함께 치료한다. 핵산증폭검사 등을 시행하고 결과에 따라 조정한다. 음낭 급성 통증에서는 먼저 염전 가능성을 평가한다.
 
 ## 검수 근거
 
@@ -61,3 +61,5 @@ D. 수술적 탐색
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006333
+- https://uroweb.org/guidelines/urological-infections/chapter/the-guideline
+- https://www.sjcidc.or.kr/board/bbs_download2.php?code=tb_inf_dise&dn=2&fn=2&idx=42&sd=%2FbbsDown%2Finf_dise

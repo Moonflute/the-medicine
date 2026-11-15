@@ -17,7 +17,7 @@ question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-3세 여아가 6개월 동안 유방 발달과 음모가 자라 내원했다. 유방은 태너 3단계, 음모는 2단계이며 GnRH 자극검사에서 LH 반응이 5 IU/L 미만이다. 진단을 위한 다음 단계는?
+4세 여아에게 빠른 유방 발달과 키 성장, 앞선 골연령이 있고 GnRH 자극검사에서 사춘기 수준의 LH 반응이 확인됐다. 중추성 성조숙증의 원인을 확인할 검사는?
 
 ## 선택지
 
-A. LH 반응을 보기 위해 GnRH 자극검사 반복
-B. LH:FSH 비율을 보기 위해 GnRH 검사
-C. 에스트라디올 수치를 보기 위해 류프로라이드 검사
-D. FSH 수치를 보기 위해 GnRH 검사
+A. 뇌 MRI
+B. 난소 동맥조영술
+C. 혈청 AFP 단독 검사
+D. 소변 임신검사만 반복
 
 ## 해설
 
-진행한 유방 발달이 있지만 GnRH 자극 LH가 낮은 여아에서도 중추성 성조숙증을 완전히 배제할 수 없다. Leuprolide 자극 후 지연 estradiol 반응(C)은 전체 시상하부–뇌하수체–성선 축 활성의 보조 평가에 쓰일 수 있다. 단일 LH 경계값은 검사법·채혈 시점의 영향을 받는다. Estradiol 상승만으로 말초성, 정상만으로 중추성이라고 분류하지 않는다.
+6세 미만 여아의 확진된 중추성 성조숙증은 증상이 없어도 뇌 MRI로 시상하부·뇌하수체 병변을 평가한다. 6세 이상은 진행 양상과 신경 증상 등에 따라 판단한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. FSH 수치를 보기 위해 GnRH 검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005226
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/

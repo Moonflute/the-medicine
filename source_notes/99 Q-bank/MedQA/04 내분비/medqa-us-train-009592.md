@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
   - MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsg4nshozsuajssKnspp0gKEhlcmVkaXRhcnkgSGVtb2Nocm9tYXRvc2lzKS5tZA
-question_type: prevention
+question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-60세 백인 남자가 4개월 동안 진행되는 피로, 호흡곤란, 다리 부종으로 내원했다. 한 층 계단을 오를 때 여러 번 멈춰야 한다. 10년간 손, 손목, 무릎 관절통이 있었고 당뇨병과 고혈압을 인슐린 및 저열량·저염식으로 조절한다. 관절통에 이부프로펜을 필요 시 복용하며 밤에 코를 곤다. 매일 맥주 2~3잔을 마시고 40년간 하루 반 갑을 흡연했다. 진찰에서 경정맥 팽창, 발목 함요부종, 검게 그을린 피부, 양쪽 폐기저부 수포음, 심첨부 S3, 경미한 간비대가 있다. 심전도에서 좌각차단, 심초음파에서 좌심방·좌심실 확대, 좌심실 박출률 감소, 경미한 승모판 역류가 보인다. 이 상태를 예방했을 가능성이 가장 높은 방법은 무엇인가?
+48세 남성이 유전성 혈색소증으로 진단됐다. 트랜스페린 포화도 82%, 페리틴 970 ng/mL이며 MRI로 간 철 침착을 확인했다. 빈혈이 없고 혈역학적으로 안정적이다. 철 과다로 인한 장기 손상을 막기 위한 표준 치료는?
 
 ## 선택지
 
-A. 금연
-B. 야간 지속적 양압치료
-C. 판막 수술
-D. 정기적 사혈
+A. 경구 데페라시록
+B. 정기적인 페리틴 검사만 시행
+C. 수혈 후 철 제거 치료
+D. 정기적 치료적 사혈
 
 ## 해설
 
 
-정답 D. 피부색소침착·당뇨·장기간 관절병과 확장성 심근증은 혈색소침착증의 철과다 장기손상을 시사한다. 조기 규칙적 사혈은 철 부담을 낮춰 장기 합병증을 예방할 수 있다. 이미 진행한 심근증의 모든 변화가 완전히 회복된다는 뜻은 아니며 실제 철검사와 원인 평가가 필요하다. 금연과 일반 심부전 관리의 이점까지 부정하지 않는다.
+사혈을 견딜 수 있는 유전성 혈색소증에서는 치료적 사혈이 우선이다. 혈색소와 페리틴을 확인하며 빈도를 조정한다. 사혈이 어려운 환자에서는 원인과 상태에 따라 다른 치료를 검토한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 정기적 사혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009592
+- https://doi.org/10.1016/j.jhep.2022.03.033

@@ -14,7 +14,7 @@ related_diseases:
   - "flashes and floaters"
   - "curtain-like visual field loss"
   - "post-cataract surgery complication"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTgg7JWI6rO8L-unneunieuwleumrCAocmV0aW5hbCBkZXRhY2htZW50KS5tZA
 difficulty: complex
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 남성이 24시간 동안 왼쪽 눈의 시력 저하와 눈앞에 검은 점이 보이는 증상으로 응급실에 왔다. 눈 위에 커튼이 드리워진 것 같고 간헐적으로 섬광이 보인다고 한다. 통증이나 복시가 없고 2주 전 왼쪽 백내장 수술을 받았다. 고혈압과 제2형 당뇨병이 있으며 활력징후는 정상이다. 오른쪽 시력은 20/25, 왼쪽은 3피트에서 손가락 세기만 가능하고 동공은 양측 같으며 반응성이다. 각막반사는 있고 전방에는 이상이 없다. 대면시야검사에서 오른쪽은 정상, 왼쪽은 비측과 하측 결손이 있다. 안저검사를 위해 산동을 기다리는 중이다. 다음 중 가장 가능성 높은 진단은?
+백내장 수술력이 있는 67세 환자에게 갑자기 섬광과 비문이 늘고, 한쪽 눈의 바깥쪽 시야가 커튼처럼 가려졌다. 통증은 없다. 다음 조치는?
 
 ## 선택지
 
-A. 퇴행성 망막분리
-B. 망막박리
-C. 안내염
-D. 출혈성 맥락막박리
+A. 인공눈물을 주고 일주일 뒤 본다
+B. 망막열공·박리를 의심해 당일 긴급 산동 안저검사를 한다
+C. 편두통으로 보고 진통제만 처방한다
+D. 도수 검사를 먼저 예약한다
 
 ## 해설
 
-급성 비문증, 섬광과 커튼 같은 시야 가림, 무통성 시력저하 및 최근 백내장 수술력은 B, 망막박리에 가장 합당하다. 열공성 망막박리는 망막 열공을 통해 액체가 망막 아래로 들어가 신경망막이 분리되는 기전으로 설명한다. 안압 변화가 일반적인 핵심 원인이라는 설명은 부정확하다. 심한 통증과 전방 염증이 더 전형적인 수술 후 안내염과 구별된다.
+갑작스러운 섬광과 비문에 고정된 시야 가림이 더해지면 망막열공 또는 박리 가능성이 있다. 지연 없이 산동 안저로 주변 망막을 평가한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 출혈성 맥락막박리
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003030
+- https://www.aao.org/education/preferred-practice-pattern/posterior-vitreous-detachment-retinal-breaks-latti

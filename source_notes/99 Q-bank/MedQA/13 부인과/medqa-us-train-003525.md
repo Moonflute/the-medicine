@@ -14,14 +14,14 @@ related_diseases:
   - "hypergonadotropic hypogonadism"
   - "amenorrhea"
   - "low estradiol"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YG065287J247Y6g7YSwIOymne2bhOq1sCAoS2xpbmVmZWx0ZXIgU3luZHJvbWUpLm1k
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-36세 여성이 4개월간 월경이 없어 내원했다. 지난 1년간 월경 주기는 30~45일로 불규칙했고 양이 적었다. 검사에서 에스트라디올 8 pg/mL, 난포자극호르몬 200 mIU/mL, 황체형성호르몬 180 mIU/mL, 프로락틴 16 ng/mL였다. 다음 중 가장 가능성 높은 진단은?
+36세 여성이 원인이 명확하지 않은 조기 난소기능부전으로 확진됐다. 항암치료와 난소수술 병력은 없다. 유전 상담과 함께 고려할 원인 검사는?
 
 ## 선택지
 
-A. 원발성 갑상샘기능저하증
-B. 임신
-C. 조기 난소부전
-D. 다낭성 난소 증후군
+A. BRCA1·2 검사만 시행
+B. 무월경이 있으면 원인 평가 없이 추적
+C. 배란 시기만 확인하는 황체기 프로게스테론
+D. 염색체 핵형과 FMR1 전돌연변이 검사
 
 ## 해설
 
 
-에스트라디올이 매우 낮고 FSH·LH가 현저히 상승한 것은 난소에서의 기능 저하를 의미한다. 이는 원발성 난소부전(조기 난소부전)에서 나타나는 고곤다트성 저성선증이다. 따라서 가장 가능성 높은 진단은 조기 난소부전이다.
+의인성이 아닌 조기 난소기능부전은 염색체 이상과 FMR1 전돌연변이를 평가한다. 결과가 환자와 가족에게 미칠 의미를 검사 전후 상담한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003525
+- https://academic.oup.com/hropen/article/2024/4/hoae065/7918369

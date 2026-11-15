@@ -13,11 +13,11 @@ related_diseases:
   - "백내장"
   - "수정체 경화"
   - "적색반사 소실"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTgg7JWI6rO8L-uwseuCtOyepSAoY2F0YXJhY3QpLm1k
 difficulty: simple
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-78세 여성이 지난 1년 동안 악화된 통증 없는 흐린 시력으로 안과를 방문했다. 불빛 주변에 달무리가 보이고 특히 밤에 전조등 눈부심 때문에 운전하기 어렵다고 한다. 신체검사에서 적색반사가 없다. 다음 중 이 환자의 시각 증상을 일으키는 가장 가능성 높은 병리는 무엇인가?
+78세 환자가 야간 눈부심과 무통성 시력저하로 운전과 독서가 어렵다. 교정 안경을 바꿔도 개선되지 않고 세극등에서 증상을 설명할 수정체 혼탁이 확인됐다. 다음 계획은?
 
 ## 선택지
 
-A. 각막부종
-B. 망막 변성
-C. 수정체 경화
-D. 시신경유두 손상
+A. 항균 점안제로 혼탁을 없앤다
+B. 각막 굴절교정술을 안내한다
+C. 교정시력이 특정 숫자까지 떨어질 때만 평가한다
+D. 생활 불편과 수술 위험을 고려해 백내장 수술을 상의한다
 
 ## 해설
 
-고령에서 진행하는 무통성 시력저하, 야간 눈부심·달무리와 적색반사 소실은 백내장에 합당하다. C의 수정체 경화는 노화에 따른 핵경화성 백내장의 변화와 연결되며, 수정체 단백질·구조 변화로 혼탁과 빛 산란이 생겨 증상을 일으킨다. 적색반사 소실은 광학매체 혼탁의 단서이지 혼탁이 없다는 뜻이 아니다. 단순한 노안의 조절력 감소와는 다르다.
+백내장 수술은 시력표 수치만이 아니라 눈부심과 일상 기능의 제한, 환자 선호와 수술 위험을 종합해 결정한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 시신경유두 손상
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005749
+- https://www.aaojournal.org/article/S0161-6420%2821%2900750-8/fulltext

@@ -13,12 +13,12 @@ related_diseases:
   - "소아 요로감염"
   - "변비"
   - "요로감염 위험인자"
-question_type: etiology
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67OA67mEIChDb25zdGlwYXRpb24pLm1k
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-3세 남아가 1일간의 복통과 잦은 배뇨로 진료를 받으러 왔다. 밤에 이불에 오줌을 쌌고 아침 소변 냄새가 이상했으며 마지막 배변은 3일 전이었다. 소변검사에서 백혈구 에스터레이스, 아질산염, 혈액, 백혈구와 그람음성 막대균이 보인다. 이 상태의 가장 가능성 높은 소인 요인은?
+배변 훈련을 마친 6세 아이에게 배양으로 확인된 요로감염이 반복된다. 평소 소변을 오래 참다가 속옷에 지리고, 딱딱한 변을 주 1–2회 본다. 재발을 줄이기 위해 함께 할 처치는?
 
 ## 선택지
 
-A. 사회적 스트레스
-B. 변비
-C. 후부 요도판막
-D. 호흡기 감염
+A. 학교에 있는 동안에는 배뇨를 참게 한다
+B. 수분 섭취를 줄이고 변비는 그대로 둔다
+C. 정해진 시간에 배뇨하게 하고 변비를 적극 치료한다
+D. 열이 없으면 배뇨·배변 증상은 평가하지 않는다
 
 ## 해설
 
-소변검사는 세균성 UTI를 시사하며 3일간 배변이 없었던 변비(B)는 방광 기능·배출 장애에 기여할 수 있다. 후부 요도판막도 UTI 소인이 될 수 있으나 이 사례에는 변비의 직접 병력이 제시된다. 이혼 같은 스트레스만으로 감염 소견을 설명하지 않는다.
+배뇨를 참는 습관과 변비가 함께 있으면 방광·장 기능장애를 평가한다. 시간을 정해 소변을 보게 하고 변비를 치료하면 배출 기능을 개선하고 감염 재발을 줄이는 데 도움이 된다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 호흡기 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000479
+- https://uroweb.org/guidelines/paediatric-urology/chapter/daytime-lower-urinary-tract-conditions

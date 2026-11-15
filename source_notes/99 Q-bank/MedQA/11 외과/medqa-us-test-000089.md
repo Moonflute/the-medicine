@@ -16,9 +16,9 @@ related_diseases:
   - "Traumatic aortic injury"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-26세 여성이 안전벨트를 매고 고속 자동차 충돌 사고를 당한 지 20분 후 응급실에 왔다. 기면 상태이고 일관성 없이 말하며 얼굴에 심한 열상이 있고 호흡곤란이 있다. 맥박 분당 130회, 호흡수 분당 29회, 혈압 90/58 mmHg, 실내 공기 산소포화도 70%이다. 왼쪽 폐기저부 타진에서 둔탁음과 호흡음 감소가 있고 복부는 전반적으로 압통이 있으나 경직이나 반발통은 없다. 혈색소 12.1 g/dL이다. 흉부 X선에서 왼쪽 제2늑골 골절, 왼쪽 주기관지 함몰, 비위관의 오른쪽 편위, 종격동 확장이 보인다. 다음 중 가장 가능성 높은 진단은?
+26세 여성이 고속 충돌 사고 후 흉통으로 왔다. 기도와 호흡을 안정시키고 혈압은 유지된다. 흉부 X선에서 종격동이 넓다. 둔상에 의한 흉부 대동맥 손상 확인을 위한 우선 검사는?
 
 ## 선택지
 
-A. 횡격막 파열
-B. 외상성 기관지 파열
-C. 흉부 대동맥 파열
-D. 긴장성 기흉
+A. 추적 흉부 X선만 촬영
+B. 흉부 비조영 CT
+C. 핵의학 심근 관류검사
+D. 흉부 CT 혈관조영술
 
 ## 해설
 
 
-고속 충돌 뒤 종격동 확장, 왼쪽 주기관지의 하방 편위와 비위관의 오른쪽 편위는 외상성 흉부 대동맥 손상과 종격동 혈종을 강하게 시사한다. 왼쪽 폐기저부 둔탁음은 동반 혈흉 가능성을 뒷받침한다. 선택지에서는 C가 가장 적절하다. 단순 흉부 X선만으로 파열의 범위나 형태를 확정할 수 없으며, 생존하여 내원하는 봉쇄성 손상도 있어 모든 대동맥 파열이 즉시 사망한다는 뜻은 아니다.
+감속 손상 뒤 종격동이 넓으면 흉부 대동맥 손상을 의심한다. 안정된 환자는 흉부 CTA로 손상 유무와 위치를 확인하며, 단순 X선만으로 확진하거나 배제하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 긴장성 기흉
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000089
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/
+- https://pubmed.ncbi.nlm.nih.gov/41874481/

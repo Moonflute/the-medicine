@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-21세 여성이 몇 주 동안 지속된 마른기침과 약간의 흉부 답답함을 평가받기 위해 내원했다. 기침은 밤과 배구를 할 때 더 심하다. 콧물과 코막힘도 자주 있다. 어머니는 전신홍반루푸스가 있다. 환자는 지난 5년 동안 매일 담배 한 갑을 피웠고 음주는 하지 않는다. 유일한 복용약은 세티리진이다. 활력징후는 정상 범위이다. 실내 공기에서 맥박산소측정 산소포화도는 98%이다. 그 외 신체검사에서 이상은 없다. 다음 중 관리에서 가장 적절한 다음 단계는 무엇인가?
+21세 여성이 몇 주째 밤과 운동할 때 마른기침과 흉부 답답함이 반복된다고 한다. 증상이 없는 오늘 진찰과 흉부 X선은 정상이다. 천식을 평가하는 첫 폐기능검사는?
 
 ## 선택지
 
-A. 폐활량검사
-B. 메타콜린 유발검사
-C. 흉부 CT
-D. 혈액검사
+A. 기관지확장제 투여 전후 폐활량검사
+B. 메타콜린 기관지유발검사를 바로 시행한다
+C. 폐 일산화탄소 확산능 검사만 시행한다
+D. 폐동맥 CT 혈관조영술
 
 ## 해설
 
 
-청소년의 마른 기침·운동 시 악화는 기침형 천식을 시사하고, 폐활량검사로 폐기능을 평가하는 것이 첫 단계이다. 따라서 폐활량검사가 적절하다.
+천식이 의심되면 폐활량검사로 기류제한을 평가하고 기관지확장제 전후 차이로 가변성을 확인한다. 첫 검사 결과가 정상이어도 천식을 완전히 배제할 수는 없다. 증상이 있을 때 다시 검사하거나 필요시 유발검사를 고려한다.
 
 ## 검수 근거
 
@@ -61,3 +61,5 @@ D. 혈액검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004407
+- https://new.lungkorea.org/board/guide/view/14959
+- https://ginasthma.org/2026-gina-strategy-report/

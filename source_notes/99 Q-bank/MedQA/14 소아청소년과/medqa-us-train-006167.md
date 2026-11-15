@@ -14,12 +14,12 @@ related_diseases:
   - "신생아 농포성 발진"
   - "생리적 신생아 발진"
   - "neonatal toxic erythema"
-question_type: diagnosis
+question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 4일 된 신생아가 하루 동안 지속된 전신 발진으로 내원했다. 만삭으로 태어났고 산전관리를 받지 않은 어머니는 4년 전 치료받은 임질 병력이 있다. 체온은 36.8°C(98.2°F), 맥박은 분당 152회, 호흡수는 분당 51회이다. 몸통과 사지에 홍반성 반구진 발진과 홍반성 바탕의 농포가 있으나 손바닥과 발바닥은 침범하지 않는다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+생후 4일 만삭 신생아에게 몸통과 팔다리의 붉은 반점 위로 작은 구진·농포가 있다. 손바닥과 발바닥은 깨끗하고 발열 없이 잘 먹는다. 다음 처치는?
 
 ## 선택지
 
-A. 말단 농포증
-B. 선천성 매독
-C. 신생아 독성 홍반
-D. 농포성 흑색증
+A. 농포가 보이므로 모두 항진균제를 사용
+B. 손발에 병변이 없어도 항생제를 먼저 정맥 투여
+C. 예방적으로 모든 병변을 절개한다
+D. 신생아 독성 홍반으로 설명하고 별도 치료 없이 관찰한다
 
 ## 해설
 
 
-생후 4일에 전신에 홍반성 반구진과 농포가 나타나며 손바닥·발바닥을 제외하고는 전형적인 발진을 보이는 것이 신생아 독성 홍반의 특징이다. 이 발진은 생후 2~5일에 급성으로 나타나며 전신에 분포하지만 손발은 보통 침범하지 않는다. 따라서 가장 가능성 높은 진단은 신생아 독성 홍반이다. 선천성 매독은 손바닥·발바닥에 병변이 나타나는 것이 흔하므로 차이가 있다.
+건강한 신생아의 붉은 바탕에 생긴 작은 농포가 손바닥·발바닥을 피하면 독성 홍반이 흔하다. 발열, 전신 상태 변화 또는 전형적이지 않은 수포가 있으면 감염 등 다른 원인을 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006167
+- https://med.stanford.edu/newborns/professional-education/photo-gallery/general.html

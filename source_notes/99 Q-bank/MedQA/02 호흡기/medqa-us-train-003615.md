@@ -18,6 +18,7 @@ related_disease_slugs: []
 question_type: management
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-34세 남성이 3개월간 지속된 비생산성 기침으로 추적 진료를 받으러 왔다. 디펜히드라민을 복용했지만 호전되지 않았고 흡연은 하지 않는다. 신체검사와 흉부 X선은 정상이었다. 다음 중 가장 적절한 다음 처치는?
+34세 남성이 3개월간 지속된 마른기침으로 추적 진료를 받으러 왔다. 디펜히드라민을 복용했지만 호전되지 않았고 흡연은 하지 않는다. 신체검사와 흉부 X선은 정상이었다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

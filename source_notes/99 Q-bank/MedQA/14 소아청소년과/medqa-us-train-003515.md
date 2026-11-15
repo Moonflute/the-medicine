@@ -19,9 +19,9 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rOg7JaR7J20IOyauOydjCDspp3tm4TqtbAgKENyaS1kdS1jaGF0IFN5bmRyb21lKS5tZA
   - MTIg7IKw6rO8L-2DnOyVhCDshLHsnqUg7KeA7JewIChGZXRhbCBHcm93dGggUmVzdHJpY3Rpb24pLm1k
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-39주 임신에서 태어난 남자 신생아를 출생 2시간 후 평가했다. 출생 체중은 2.6 kg으로 5백분위수였고 근긴장도가 낮았으며, 넓은 콧등, 아래로 기울어진 눈꺼풀틈새, 넓은 눈 간격, 높은 음조의 울음이 있었다. 이 환자에서 가장 가능성 높은 염색체 결실은?
+만삭 신생아가 작게 태어났고, 머리둘레도 작으며 근긴장이 낮다. 차분할 때와 달리 울 때는 유난히 높은 고양이 울음 같은 소리가 난다. 염색체 검사에서 가장 가능성 높은 소견은?
 
 ## 선택지
 
-A. 4p
-B. 5p
-C. 5q
-D. 15q
+A. 4번 염색체 단완 결실
+B. 22q11.2 결실
+C. 5번 염색체 단완 결실
+D. 17p11.2 결실
 
 ## 해설
 
 
-‘크리-두-챗’ 증후군은 5p 말단 결실(5p-증후군)과 일치하며, 고음성 울음과 저체중, 특징적인 얼굴 형태가 나타난다. 따라서 가장 가능성 높은 염색체 결실은 5p이다.
+고양이 울음과 비슷한 높은 울음에 성장부진·소두증·저긴장이 동반되면 5p 결실 증후군을 의심한다. 임상 소견만으로 확정하지 않고 염색체 검사로 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003515
+- https://pubmed.ncbi.nlm.nih.gov/7726173/

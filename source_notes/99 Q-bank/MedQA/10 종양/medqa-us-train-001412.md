@@ -15,7 +15,7 @@ related_diseases:
 related_disease_slugs: []
 question_type: diagnosis
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -32,19 +32,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-55세 남성 보디빌더가 오른팔의 쇠약으로 응급실에 내원했다. 몇 주 동안 증상이 있었으나 오늘 손에 힘이 없어 찻잔을 떨어뜨렸다고 한다. 당뇨병 병력이 있다. 하루 2–7잔의 술을 마시고 25세부터 하루 두 갑을 피웠다. 단백동화 스테로이드를 사용한다고 인정한다. 한 달 전 응급실에 왔을 때보다 17파운드가 빠졌다. 체온은 99.5°F (37.5°C), 혈압은 177/108 mmHg, 맥박은 90회/분, 호흡수는 17회/분, 산소포화도는 98%이다. 오른팔 감각 저하와 근력 2/5, 왼팔 근력 5/5가 보인다. 검사 중 오른팔에 둔하고 타는 듯한 통증이 있다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+55세 흡연 남성의 오른쪽 어깨와 팔 안쪽 통증이 수주간 악화되고 손 근력이 저하됐다. 같은 쪽에 경한 눈꺼풀처짐과 동공축소가 있고 눈운동은 정상이다. 하나의 병변으로 설명할 진단은?
 
 ## 선택지
 
-A. 폐첨부 종양
-B. 뇌경색
-C. 사각근 전방 증후군
-D. 쇄골하동맥 도혈 증후군
+A. 경추 추간판탈출증
+B. 상완신경총 신경염
+C. 정중신경 포착
+D. 폐첨부 종양
 
 ## 해설
 
 
-장기간 흡연과 큰 체중감소, 수주간 진행한 한쪽 팔의 통증·감각저하·근력저하는 폐첨부 종양이 상완신경총을 침범하는 Pancoast 양상을 시사한다(A). 급성 뇌경색보다 진행성 통증성 신경총병증에 더 잘 맞는다. Anabolic steroid 사용을 폐첨부 종양의 확립된 위험인자로 제시하지 않는다. 실제로는 흉부 및 신경학적 평가로 병변을 확인해야 한다.
+폐첨부 종양은 하부 상완신경총과 교감신경줄을 함께 침범해 팔의 통증·위약과 같은 쪽 호너증후군을 일으킬 수 있다. 이런 조합이면 흉부 영상으로 폐첨부를 확인한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 쇄골하동맥 도혈 증후군
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001412
+- https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq

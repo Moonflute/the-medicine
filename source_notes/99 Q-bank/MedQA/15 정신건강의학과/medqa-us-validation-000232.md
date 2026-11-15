@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uylCDrtojslYgg7J6l7JWgIChHZW5lcmFsaXplZCBBbnhpZXR5IERpc29yZGVyKS5tZA
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,24 +34,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-43세 여성이 불안감을 호소하며 새로운 일차진료 의사를 찾아왔다. 최근 남편이 교사 직업을 잃을 가능성을 끊임없이 걱정하고 있다. 함께 온 남편은 직업이 매우 안정적이며 아내가 결혼생활 내내 걱정이 많았지만 불안의 대상은 시간이 지나며 달라졌다고 말한다. 환자는 기차를 제시간에 탈 수 있을지, 남부 캘리포니아의 집이 지진에 충분히 대비되어 있는지 등 일상적인 일도 과도하게 걱정하며 이런 걱정을 떨쳐낼 방법이 없다고 한다. 걱정으로 생각이 꼬리를 물어 잠을 잘 못 자고, 피로와 업무 집중력 저하도 있으며 모두 적어도 1년 동안 지속되었다. 활력징후와 신체진찰은 정상이다. 가장 가능성 높은 진단은?
+43세 환자가 1년째 가족 건강, 돈, 업무처럼 여러 문제를 거의 매일 과도하게 걱정한다. 걱정을 멈추기 어렵고 근육 긴장과 불면, 집중력 저하로 일에 지장이 있다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 사회공포증
-B. 광장공포증
-C. 외상후스트레스장애
-D. 범불안장애
+A. 공황장애
+B. 범불안장애
+C. 사회불안장애
+D. 질병불안장애
 
 ## 해설
 
 
-1년 이상 지속되는 과도한 걱정이 여러 상황에 걸쳐 나타나고, 수면 장애와 피로가 동반되는 경우는 범불안장애의 전형적인 임상양상이다. 사회공포증·광장공포증은 특정 상황에 대한 회피가 특징이며, PTSD는 외상 후 증상이 있다. 따라서 범불안장애가 가장 가능성 높다.
+범불안장애는 여러 영역에 대한 통제하기 어려운 걱정이 적어도 6개월 지속되고 일상 기능에 지장을 주는 양상이다. 짧은 발작이나 특정 상황에만 묶인 불안과 구분한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000232
+- https://www.nice.org.uk/guidance/cg113/chapter/recommendations
 
 ## 검수 근거
 

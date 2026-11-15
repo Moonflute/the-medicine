@@ -21,6 +21,7 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIOuwjyDtj5Dsg4nsoITspp0gKERlZXAgVmVpbiBUaHJvbWJvc2lzIGFuZCBQdWxtb25hcnkgRW1ib2xpc20pLm1k
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct

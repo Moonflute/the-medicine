@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-2ajOyghOq3vOqwnO2MjOyXtCAoUm90YXRvciBDdWZmIFRlYXIpLm1k
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-20세 대학 배구 선수가 5일 전 경기 후 시작된 왼쪽 어깨 통증과 팔을 올리기 어려운 증상으로 내원했다. 통증은 팔을 베개 아래 두고 자거나 팔을 들어 올리고 벌릴 때 심하다. 능동적 외전은 70°로 제한되지만 수동적 외전은 정상 범위에서 통증이 유발되고 왼쪽 어깨 근력은 4/5이다. 가장 가능성 높은 원인은?
+62세 남성이 넘어지며 어깨를 다쳤다. X선에 골절은 없고 수동으로는 팔이 끝까지 올라가지만 스스로 들면 약하다. 팔을 비스듬히 들어 올린 상태에서 아래로 누르는 힘을 버티지 못한다. 의심하는 힘줄은?
 
 ## 선택지
 
-A. C4-5 경추 추간판 돌출
-B. 극상근 파열
-C. 관절 내 상완골 골절
-D. 어깨관절 탈구
+A. 위팔두갈래근 긴갈래
+B. 어깨밑근
+C. 극상근
+D. 극하근
 
 ## 해설
 
-머리 위 동작 후 어깨 통증, 능동 외전 제한과 근력저하에 비해 보존된 수동 운동범위는 회전근개, 특히 극상근 손상을 시사한다. 선지 중 극상근 파열(B)이 가장 합당하다. 다만 20세 과사용 운동선수에서 완전 파열이 흔하다고 일반화할 수 없으며 통증에 의한 힘 억제·건병증과 실제 파열은 추가 평가로 구별한다. 탈구나 관절내 골절을 시사하는 변형·뚜렷한 외상은 없고 감각·반사 보존은 경추 신경근병증보다 어깨 국소 문제를 지지한다.
+능동 거상은 약하지만 수동 범위가 유지되고 극상근 저항 검사에서 힘이 떨어지면 극상근 파열을 고려한다. 영상으로 회전근개의 손상 범위를 확인할 수 있다.
 
 ## 검수 근거
 

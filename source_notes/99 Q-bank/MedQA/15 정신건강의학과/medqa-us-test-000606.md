@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uMgOuniCDqs4QgKENhbm5hYmlzKS5tZA
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-25세 남성이 경찰에 의해 응급실로 이송되었다. 지역 축제에서 매우 이상하게 행동하는 모습이 목격되었다. 매우 불안해하며 질문에 답하기를 주저했고 약물은 사용하지 않았으며 단지 즐기려 했다고 말했다. 대답이 약간 느리고 생각을 처리하는 데 어려워 보였다. 진정시킬 약을 달라고 요청했다. 건선으로 국소 스테로이드를 사용하는 것 외에는 과거력이 없다. 체온 99.5°F(37.5°C), 혈압 120/75 mmHg, 맥박 110회/분, 호흡 15회/분, 산소포화도 99%였다. 불안한 모습, 구강 건조, 결막 충혈, 빈맥이 있었으나 신경학적 진찰은 정상이었다. 가장 가능성 높은 중독은?
+25세 환자가 갑자기 불안하고 시간 감각이 이상하다고 한다. 반응이 느리고 입이 마르며 양쪽 눈이 충혈됐다. 맥박은 빠르지만 뚜렷한 발한·고열은 없고, 동행인이 직전 대마 성분이 든 제품을 먹었다고 한다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 알코올
-B. 대마
-C. 코카인
-D. 펜시클리딘
+A. 교감신경 자극제 중독
+B. 오피오이드 중독
+C. 알코올 금단
+D. 급성 대마 중독
 
 ## 해설
 
 
-불안, 구강 건조, 결막 충혈, 빈맥이 급성 대마 사용 후 나타나는 증상이다. 대마는 정신운동 속도 저하와 불안감을 유발한다. 따라서 가장 가능성 높은 중독은 대마이다.
+대마 노출 뒤 시간 지각과 주의력 변화, 결막 충혈, 구강 건조, 빈맥이 생길 수 있다. 양상이 심하거나 비전형적이면 다른 물질이나 의학적 원인도 함께 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000606
+- https://pubmed.ncbi.nlm.nih.gov/37159059/
+- https://pubmed.ncbi.nlm.nih.gov/41421829/

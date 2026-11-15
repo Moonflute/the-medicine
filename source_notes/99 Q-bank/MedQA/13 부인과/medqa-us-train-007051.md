@@ -18,9 +18,9 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-2PkOqyvSAoTWVub3BhdXNlKS5tZA
   - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-63세 여자가 고혈압 병력이 있으며 질 건조, 성욕 저하, 안면홍조를 평가하기 위해 외래에 내원했다. 증상은 지난 3개월 동안 점점 악화되었다. 활력징후는 혈압 131/81 mmHg, 맥박 68회/분, 호흡수 16회/분이며 발열은 없다. 추가 문진에서 거의 1년 동안 생리가 불규칙했다고 하며 폐경이 시작된 것인지 묻는다. 이 환자에서 폐경을 공식적으로 진단하려면 어떤 기준이 필요한가?
+52세 여성이 월경 간격이 늘어나다 13개월째 월경이 없고 안면홍조가 있다. 호르몬제를 사용하지 않고 다른 무월경 원인을 시사하는 병력은 없다. 폐경 진단에 적절한 판단은?
 
 ## 선택지
 
-A. 최소 12개월 동안 월경이 중단됨
-B. 혈청 난포자극호르몬(FSH) 증가
-C. 혈청 황체형성호르몬(LH) 증가
-D. 총 콜레스테롤 증가
+A. FSH가 한 번 상승해야 자연 폐경을 진단
+B. 임상 소견으로 자연 폐경을 판단하며 FSH를 일률적으로 검사하지 않음
+C. 난소 초음파에서 난포가 하나도 없을 때만 진단
+D. 에스트라디올이 두 차례 낮을 때만 진단
 
 ## 해설
 
 
-폐경은 월경이 12개월 연속 중단된 경우로 정의된다. 따라서 정답은 A이다.
+전형적인 연령의 자연 폐경은 다른 원인 없이 12개월 연속 월경이 없었을 때 임상적으로 판단한다. 젊은 나이에 무월경이 생기거나 양상이 비전형적이면 별도 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007051
+- https://www.e-jmm.org/DOIx.php?id=10.6118%2Fjmm.25103

@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-4기 만성콩팥병(CKD) 병력이 있는 63세 남자에게 치료에 반응하지 않는 빈혈이 발생하기 시작했다. 본인은 혈전 병력이 없지만 어머니가 과거 심부정맥혈전색전증 치료를 받았다고 한다. 제2형 당뇨병, 고혈압, 비정상피종 고환암, 고콜레스테롤혈증의 병력이 있다. 현재 하루 담배 한 갑을 피우고 매일 와인 한 잔을 마시며 불법 약물은 사용하지 않는다. 체온 36.7°C, 혈압 126/74 mm Hg, 심박수 87회/분, 호흡수 17회/분이다. 맥박은 강하고 안색은 창백하지만 호흡음은 깨끗하다. 처음 실내 공기 산소포화도는 91%였고 비강 캐뉼라로 산소 2 L가 새로 필요하다. 주치의가 혈액내과에 의뢰했으며 다베포에틴과 같은 적혈구생성자극제(ESA) 투여를 고려 중이다. 다음 중 ESA 사용에 대해 옳은 것은?
+투석을 받지 않는 4기 만성콩팥병 환자가 피로를 호소한다. 혈색소 9.1 g/dL, 페리틴 25 ng/mL, 트랜스페린 포화도 10%이다. 현재 혈역학적으로 안정적이고 출혈은 보이지 않는다. 적혈구생성자극제(ESA) 투여를 고려할 때 먼저 할 처치는?
 
 ## 선택지
 
-A. ESA는 유방암과 자궁경부암 환자의 생존율을 향상시킬 수 있다
-B. 치유 목적이 예상되는 골수억제 화학요법을 받는 환자에게 ESA를 사용한다
-C. 헤모글로빈 수치가 10 g/dL 미만일 때만 ESA를 사용해야 한다
-D. 철분 수치가 낮아도 ESA는 효과가 있다
+A. 혈색소가 10 g/dL 미만이므로 철 평가 없이 ESA부터 시작한다
+B. 증상과 무관하게 수혈로 혈색소를 정상화한다
+C. 철결핍의 원인을 평가하고 철을 보충한다
+D. 철 보충 없이 엽산만 경험적으로 투여한다
 
 ## 해설
 
 
-미국 darbepoetin 허가사항의 성인 CKD 맥락에서 Hb<10g/dL 조건을 고려하는 C가 선택지 중 맞다. 비투석 CKD는 빈혈 증상·수혈 가능성 및 위험을 개별화하고 먼저 철 등 교정 가능한 원인을 평가한다. <10이면 무조건 투여하거나 Hb를 정상화한다는 뜻이 아니며 혈전·뇌졸중·암 관련 위험을 검토하여 최소 유효용량을 사용한다. 치료 목적이 근치인 항암 환자에게 routine ESA를 권하지 않는다.
+페리틴과 트랜스페린 포화도가 모두 낮아 철결핍을 교정해야 한다. ESA에 앞서 철결핍 등 교정 가능한 원인을 평가·치료한다. 비투석 만성콩팥병에서 ESA를 시작할지는 교정 후에도 남는 증상과 빈혈 정도, 수혈 필요성 및 치료 위험을 종합해 결정한다.
 
 ## 검수 근거
 
@@ -60,3 +61,4 @@ D. 철분 수치가 낮아도 ESA는 효과가 있다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007672
+- KDIGO 2026 만성콩팥병 빈혈 지침, Practice Point 3.1.2: https://kdigo.org/wp-content/uploads/2026/01/KDIGO-2026-Anemia-in-CKD-Guideline.pdf

@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 남자가 정기 건강검진을 위해 내원했다. 특별한 증상은 없다. 맥박은 75회/분, 혈압은 155/90 mmHg, 호흡수는 15회/분, BMI는 25 kg/m²이다. 신체검사는 정상이다. 호흡곤란, 주간 졸림, 두통, 발한, 심계항진은 없고 이전에 혈압이 높았던 적도 기억하지 못한다. 다음 중 가장 적절한 다음 단계는 무엇인가?
+45세 남성이 건강검진에서 처음 혈압이 높게 나왔다. 안정한 뒤 올바른 자세로 반복 측정한 진료실 평균 혈압은 150/92 mmHg이다. 증상이나 급성 장기손상 소견은 없다. 지속성 고혈압과 백의고혈압을 구분하기 위해 다음에 할 검사는?
 
 ## 선택지
 
-A. 심장내과 의뢰
-B. 티아지드 이뇨제로 치료
-C. 혈압을 다시 측정
-D. 안심시킨다
+A. 운동부하 심전도
+B. 신동맥 CT 혈관조영술
+C. 가정혈압 또는 24시간 활동혈압 측정
+D. 6개월 후 같은 진료실에서 한 번만 재측정
 
 ## 해설
 
 
-고혈압 진단은 한 번의 측정만으로는 확정되지 않으며, 반복 측정이 필요하다. 혈압을 다시 측정하여 지속적인 고혈압 여부를 확인한다. 따라서 혈압을 다시 측정하는 것이 정답이다.
+진료실 혈압이 높아도 진료실 밖에서 정상인 백의고혈압일 수 있다. 표준화한 가정혈압이나 활동혈압 측정으로 진료실 밖 혈압을 확인한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 안심시킨다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007284
+- 대한고혈압학회 고혈압 진료지침: https://guideline.or.kr/guide/view.php?cate=A&number=1143

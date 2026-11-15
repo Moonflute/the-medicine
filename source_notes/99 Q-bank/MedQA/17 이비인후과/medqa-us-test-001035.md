@@ -14,13 +14,13 @@ related_diseases:
   - "코성형 합병증"
   - "비강 휘파람"
   - "Septal perforation"
-question_type: mechanism
+question_type: diagnosis
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7LKc6rO1IChQZXJmb3JhdGlvbikubWQ
 difficulty: simple
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,19 +33,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-34세 여성이 코성형술 3개월 후 성형외과에 왔다. 회복은 순조롭지만 코로 숨을 쉴 때 작은 휘파람 소리가 나며 진찰에서도 들렸다. 이 현상의 가장 가능성 높은 원인은?
+코 수술 후 숨을 들이쉴 때 휘파람 소리가 나고 코딱지와 소량의 코피가 반복된다. 비강 내시경에서 비중격 앞부분을 관통하는 작은 결손이 확인됐다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 수술 후 부종
-B. 천공을 일으킨 비중격 혈종
-C. 현재 곧아진 비중격으로 인한 비강 공기 흐름 변화
-D. 과도한 비주 노출로 인한 비강 공기 흐름 증가
+A. 비중격 천공
+B. 비중격 혈종
+C. 비밸브 허탈
+D. 하비갑개 비대
 
 ## 해설
 
 
-코성형 후 비중격에 혈종이 형성되어 천공이 생기면 공기 흐름이 변해 휘파람 소리가 난다. 가장 가능성 높은 원인은 비중격 혈종에 의한 천공이다.
+앞쪽 비중격의 작은 천공은 공기가 통과할 때 휘파람 소리와 건조·가피·코피를 유발할 수 있다. 혈종이 반드시 선행했다는 뜻은 아니다.
 
 ## 출처
 

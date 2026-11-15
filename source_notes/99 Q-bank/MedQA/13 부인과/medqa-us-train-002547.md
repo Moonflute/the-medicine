@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-u2iOyZhOyghCDsnKDsgrAgKEluY29tcGxldGUgQWJvcnRpb24pLm1k
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,21 +36,22 @@ related_drug_slugs:
 
 ## 문제
 
-24세 G2P1 여성이 임신 10주에 질출혈, 경련성 하복부 통증, 어지럼으로 응급실에 왔다. 2일간 발열, 오한, 악취 나는 질 분비물도 있었다. 체온 38.9°C, 맥박 120회/분, 호흡 22회/분, 혈압 88/50 mmHg이며 급성 병색을 보인다. 골반검사에서 압통이 있는 자궁경부가 열려 있고 혈괴와 자궁경관 내 단단한 혈성 종괴가 보인다. β-hCG는 15,000 mIU/mL이고 초음파에서 태아 심박동이 없는 자궁내 임신낭이 보인다. 다음 중 가장 적절한 치료의 다음 단계는?
+임신 10주 무렵 조직을 일부 배출한 여성이 오한·악취 분비물과 자궁 압통으로 내원했다. 체온 39.0℃, 혈압 85/51 mmHg이며 초음파에 잔류 임신조직이 있다. 적절한 초기 치료는?
 
 ## 선택지
 
-A. 경구 클린다마이신 후 2주 뒤 외래 추적
-B. 정맥 클린다마이신과 겐타마이신 후 흡인 소파술
-C. 정맥 클린다마이신과 겐타마이신 후 면밀한 관찰
-D. 경구 클린다마이신 후 흡인 소파술
+A. 즉시 소생과 광범위 정맥 항생제를 시작하고 자궁 내 잔류 조직을 신속히 제거
+B. 경구 항생제로 바꾸고 외래 추적
+C. 항생제 반응을 며칠 지켜본 뒤 출혈이 있을 때만 처치
+D. 메토트렉세이트를 투여하고 hCG만 추적
 
 ## 해설
 
 
-불완전 유산에서 자궁경부가 개방되고 감염 증상이 있으면, 광범위 항생제(클린다마이신·겐타마이신) 투여 후 흡인 소파술이 필요하다. 따라서 가장 적절한 치료는 정맥 항생제 후 흡인 소파술이다.
+패혈성 유산이 의심되면 소생과 광범위 정맥 항생제를 즉시 시작한다. 남은 감염 조직은 상태를 안정화하면서 흡인 등으로 신속히 제거한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002547
+- https://www.who.int/publications/i/item/9789240075207

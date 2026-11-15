@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOuptOymnSAoTmFyY29sZXBzeSkubWQ
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-17세 남성이 평생 지속된 과도한 졸림으로 일차진료에 내원했다. 낮에 갑자기 잠들어 웨이터 일에 어려움을 겪고 잠들 때 깨어 있다고 느끼면서 꿈꾸는 느낌이 든다. 하루 약 10시간 자도 계속 피곤하고 운전 중 잠들어 나무에 부딪힌 적도 있다. 밤늦게까지 컴퓨터를 한다. 피곤해 보이는 비만 남아이며 높은 구개와 양호한 치아위생이 있다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+17세 남성이 평생 지속된 과도한 졸림으로 일차진료에 내원했다. 낮에 갑자기 잠들어 웨이터 일에 어려움을 겪고 잠들 때 깨어 있다고 느끼면서 꿈꾸는 느낌이 든다. 하루 약 10시간 자도 계속 피곤하고 운전 중 잠들어 나무에 부딪힌 적도 있다. 밤늦게까지 컴퓨터를 한다. 피곤해 보이는 비만 남아이며 높은 구개와 양호한 치아위생이 있다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

@@ -19,7 +19,7 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-38세 남자가 2주 동안 발열, 권태감, 생산성 기침, 왼쪽 흉통으로 내원했다. 그동안 아침에 베개가 젖을 정도로 땀을 흘리고 식욕이 감소했다. 1년 전 HIV를 진단받았고 현재 노숙인 보호시설에 머문다. 22년간 하루 담배 한 갑을 피우고 정맥주사 약물 사용력이 있으며 하루 맥주 5~6잔을 마신다. 복합 항레트로바이러스 치료를 받지만 때때로 복용을 빠뜨린다. 체온 38.6°C, 맥박 106회/분, 혈압 125/85 mmHg, 실내 공기 산소포화도 94%이다. 왼쪽 폐기저부 호흡음이 감소하고 타진에서 둔탁하다. CD4 240/mm³, GGT 65 U/L, 크레아티닌 0.9 mg/dL이다. 흉부 X선에서 왼쪽 흉수와 폐문 림프절병증이 보인다. 흉수는 림프구 우세 백혈구증가, 높은 단백질, LDH 500 U/L, 높은 아데노신 탈아미나제 소견이다. 가장 가능성 높은 원인은 무엇인가?
+수 주째 미열과 야간발한이 있는 환자에서 한쪽 흉수가 확인됐다. 흉수는 림프구 우세 삼출액이고 ADA가 75U/L다. 뚜렷한 폐 종괴는 없으며 아직 결핵균 검사와 세포검사 결과는 나오지 않았다. 우선 의심할 원인은?
 
 ## 선택지
 
-A. 류마티스관절염
-B. 폐포자충 폐렴
-C. 폐암
-D. 폐결핵
+A. 심부전 흉수
+B. 바이러스성 상기도감염
+C. 간경변에 의한 흉수
+D. 결핵성 흉막염
 
 ## 해설
 
 
-HIV 환자에서 림프구 우세, 고단백, 높은 LDH, 높은 ADA를 동반한 흉수는 결핵성 흉수와 가장 일치한다. 따라서 가장 가능성 높은 원인은 폐결핵이다.
+림프구 우세 삼출액과 높은 ADA는 결핵성 흉막염을 뒷받침하지만 단독 확진 소견은 아니다. 필요하면 흉수·흉막 조직의 미생물검사와 조직검사를 통해 다른 원인과 구분한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ HIV 환자에서 림프구 우세, 고단백, 높은 LDH, 높은 ADA를 동반�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009393
+- https://www.kdca.go.kr/bbs/kdca/55/259948/download.do
+- https://thorax.bmj.com/content/78/Suppl_3/s1

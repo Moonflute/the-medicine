@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISx7ZmN7Je0IChTY2FybGV0IEZldmVyKS5tZA
   - MDUg7Iug7J6lL-yXsOyHhOyDgeq1rOq3oCDqsJDsl7wg7ZuEIOyCrOq1rOyytOyLoOyXvCAoUFNHTikgKFBvc3QtU3RyZXB0b2NvY2NhbCBHbG9tZXJ1bG9uZXBocml0aXMpLm1k
-question_type: prognosis
+question_type: complication
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-10세 남아가 발열, 인후통과 전신의 비가려운 발진으로 내원했다. 얼굴이 붉고 입 주변은 창백하며 몸통에 압박으로 창백해지는 반점구진성 홍반성 발진과 액와 점상출혈의 융합, 딸기혀가 있다. 다음 중 이 질환의 가장 가능성 높은 후유증은?
+9세 남아가 A군 사슬알균으로 확인된 성홍열을 앓았다. 2주 뒤 눈 주위가 붓고 갈색 소변을 보며 혈압이 올랐다. 요침사에서 적혈구 원주가 보이고 혈청 C3가 낮다. 가장 가능성 높은 합병증은?
 
 ## 선택지
 
-A. 관상동맥류
-B. 용혈성 빈혈
-C. 호지킨 림프종
-D. 연쇄상구균 감염 후 사구체신염
+A. IgA 신병증
+B. 급성 간질신염
+C. 급성 류마티스열
+D. 사슬알균 감염 후 사구체신염
 
 ## 해설
 
 
-인두염·딸기혀·입주위 창백·압박 시 옅어지는 발진과 주름 부위 점상출혈은 성홍열을 시사한다. 연쇄상구균 감염 뒤 면역성 사구체신염 D가 발생할 수 있다. 제시된 후유증 중의 선택이지 대부분의 성홍열이 신염으로 진행하거나 이것이 모든 합병증 중 반드시 가장 흔하다는 의미는 아니다.
+인두염이 호전된 뒤 시간 간격을 두고 나타난 혈뇨, 고혈압, 낮은 C3는 사슬알균 감염 후 사구체신염에 부합한다. IgA 신병증의 혈뇨는 상기도 감염과 거의 동시에 발생하는 경우가 많다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 연쇄상구균 감염 후 사구체신염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005483
+- https://kdca.go.kr/bbs/kdca/55/304967/download.do

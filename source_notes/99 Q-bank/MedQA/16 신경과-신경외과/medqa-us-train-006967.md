@@ -14,11 +14,11 @@ related_diseases:
   - "척추동맥 박리"
   - "소뇌성 운동실조"
   - "지시점 과오증"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 남자가 6시간 전 갑자기 시작된 목 통증과 심한 회전성 감각으로 응급실에 내원했다. 증상은 헬스장에서 역기를 들던 중 처음 발생했다. 방이 계속 빙빙 도는 느낌이 들고 눈을 뜨거나 균형을 유지할 수 없다. 어지럼과 통증에 오심과 구토가 동반된다. 과거 병력은 특이사항이 없다. 혈압은 124/88 mmHg, 심박수 84회/분, 체온 37.0°C(98.6°F), 호흡수 12회/분, BMI 21.6 kg/m²이다. 신체검사에서 의식은 명료하고 사람·장소·시간에 대한 지남력이 있다. 고위 정신기능은 정상이다. 왼쪽으로 주시할 때 수평 방향의 불수의적 안구진탕이 여러 차례 나타난다. 왼쪽에서 반복적인 회내·회외 운동을 수행하기 어렵다. 심전도는 정상 동리듬이다. 추가로 어떤 임상 소견이 나타날 것으로 예상되는가?
+25세 환자가 갑작스러운 목 통증 뒤 6시간째 현훈과 구토를 겪는다. 도움 없이 서지 못하고 왼손 손가락–코 검사에서 목표를 계속 지나친다. 가장 적절한 대응은?
 
 ## 선택지
 
-A. 표현성 실어증
-B. 편마비
-C. 지시점 과오증
-D. 감각성 실어증
+A. 후반고리관 이석증으로 판단하고 이석정복술만 시행한다
+B. 후순환 뇌졸중을 의심해 응급 뇌·두경부 혈관영상 평가를 진행한다
+C. 청력검사만 시행한 뒤 외래 추적한다
+D. 말초 현훈으로 보고 전정억제제를 투여한 뒤 귀가시킨다
 
 ## 해설
 
-급성 현훈·구토·안진에 좌측 반복길항운동장애가 동반되어 소뇌 기능장애를 시사한다. 같은 쪽 표적을 지나치는 겨냥이상(past-pointing, C)이 추가로 나타날 수 있다. 이는 단독으로 특정 질환을 확진하는 징후는 아니다. 무거운 물건을 든 뒤 갑작스러운 경부통과 국소 소뇌징후가 생긴 맥락에서는 척추동맥 박리 등 후순환 혈관 원인을 고려해야 한다.
+지속성 급성 현훈에 심한 보행 불안정과 팔다리 겨냥이상이 있으면 중추 원인을 의심한다. 새 목 통증까지 있으면 후순환 허혈과 척추동맥 박리 가능성을 응급 평가한다.
 
 ## 검수 근거
 
@@ -56,3 +56,5 @@ D. 감각성 실어증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006967
+- https://pubmed.ncbi.nlm.nih.gov/37166022/
+- https://pubmed.ncbi.nlm.nih.gov/38299330/

@@ -16,9 +16,9 @@ related_diseases:
   - "Essential thrombocythemia"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-uzuO2DnOyEsSDtmIjshoztjJDspp3qsIDspp0gKEVUKSAoRXNzZW50aWFsIFRocm9tYm9jeXRoZW1pYSAoRVQpKS5tZA
-question_type: investigation
+question_type: management
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-50세 흑인 여성이 오른쪽 팔꿈치의 급성 통증과 발열로 진료를 받으러 왔다. 3개월 전 혈전성 정맥염이 있었고 이부프로펜·압박요법으로 호전되었다. 혈소판 853,000/mm³, 요산 10.5 mg/dL였고 피부가 붉고 심한 압통이 있었다. 추가 평가에서 가장 가능성 높은 소견은?
+본태성 혈소판혈증으로 확진된 50세 환자다. 혈소판은 85만/μL이고 이전에 심부정맥혈전증을 앓았다. 현재 항응고 등 혈전 관리와 별도로 재발 위험을 낮추기 위해 고려할 혈구감소 치료는?
 
 ## 선택지
 
-A. JAK2 유전자 돌연변이
-B. 하웰-졸리 소체
-C. 시트룰린화 펩타이드 항체
-D. 항인지질 항체
+A. 반복 사혈
+B. 아나그렐리드와 하이드록시우레아의 일률적인 병합
+C. 하이드록시우레아
+D. 적혈구 교환수혈
 
 ## 해설
 
 
-현저한 혈소판증가와 혈전성 정맥염 병력은 본태성 혈소판증가증 등 골수증식종양을 의심하게 한다. 선택지 중 JAK2 변이(A)가 가장 부합한다. JAK2가 모든 ET에서 양성인 것은 아니며 지속적 혈소판증가·골수 형태와 반응성 원인 배제가 필요하다. 고요산혈증과 급성 팔꿈치 통증은 통풍 가능성을 시사하나 감염성 관절염도 별도 감별한다.
+본태성 혈소판혈증에서 과거 혈전은 고위험 소견이다. 하이드록시우레아는 금기가 없는 환자의 대표적인 초기 혈구감소 약제이며, 동반질환과 환자 상황에 맞춰 다른 약도 선택할 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 항인지질 항체
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000130
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7820646/

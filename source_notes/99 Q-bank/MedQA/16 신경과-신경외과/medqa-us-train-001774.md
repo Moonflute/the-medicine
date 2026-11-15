@@ -13,11 +13,11 @@ related_diseases:
   - "basilar skull fracture"
   - "cerebrospinal fluid rhinorrhea"
   - "halo sign"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDqsJzsoIAg6rOo7KCIIChCYXNhbCBza3VsbCBmcmFjdHVyZSkubWQ
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-24세 남성이 안전벨트를 착용한 운전자로서 고속 자동차 충돌에 연루된 지 30분 후 응급실에 왔다. 도착 당시 의식이 명료하고 지남력이 있다. 맥박 112/min, 호흡 29/min, 혈압 100/60 mm Hg이다. 동공은 양측 같고 빛에 반응한다. 이마에 3-cm 열상과 몸통에 여러 멍이 있다. 폐 청진은 정상이고 심장과 복부 진찰도 특이사항이 없다. 오른쪽 무릎이 붓고 압통이 있으며 통증 때문에 관절운동이 제한된다. 0.9% 생리식염수와 정맥 acetaminophen을 투여했다. 2시간 후 양쪽 콧구멍에서 피가 섞인 액체가 저절로 흐르고 앞으로 숙이면 심해진다. 거즈에 묻히면 피 주위로 맑은 액체 고리가 빠르게 확장된다. 추가 평가에서 가장 가능성 높은 소견은 무엇인가?
+24세 환자가 두부외상 뒤 맑은 콧물을 흘리고 양쪽 눈 주위에 멍이 생겼다. 의식은 명료하지만 두개저골절과 뇌척수액 누출이 의심된다. 초기 영상은?
 
 ## 선택지
 
-A. 제12뇌신경 마비
-B. 양측 눈둘레 멍
-C. 상부 뺨 부위 감각저하
-D. 귀 뒤 멍
+A. 두개골 단순 X선
+B. 경동맥 도플러
+C. 외래 뇌 MRI만 예약
+D. 두개저를 포함하는 응급 비조영 두부 CT
 
 ## 해설
 
-고에너지 두부 외상 후 체위에 따라 늘어나는 혈성 비루는 전두개저 골절과 CSF 누출을 의심하게 한다. 선지 중 양측 눈둘레 멍(B)은 전두개저 골절에 합당하다. Halo sign은 누출을 시사할 수 있지만 CSF에 특이적이지 않으므로 단독 확진 검사는 아니다. 귀 뒤 멍(Battle sign)도 두개저 골절의 소견이며 CSF 누출과 전혀 무관하다는 설명은 틀리다.
+외상 뒤 맑은 비루와 양쪽 눈둘레 멍은 두개저골절의 단서다. 의식이 명료해도 CT로 골절과 두개내 손상을 확인한다. 필요하면 뇌척수액 누출 자체를 추가 평가한다.
 
 ## 검수 근거
 
@@ -56,3 +56,5 @@ D. 귀 뒤 멍
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001774
+- https://www.nice.org.uk/guidance/ng232/chapter/recommendations
+- https://acsearch.acr.org/docs/69481/Narrative/

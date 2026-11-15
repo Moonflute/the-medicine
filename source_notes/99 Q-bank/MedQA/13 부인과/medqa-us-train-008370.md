@@ -13,14 +13,14 @@ related_diseases:
   - "genital herpes"
   - "vesicle"
   - "herpes simplex virus"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-uLqOyInO2PrOynhCAoR2VuaXRhbCBoZXJwZXMpLm1k
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64uo7Iic7Y-s7KeE67CU7J2065-s7IqkIOqwkOyXvCAoSGVycGVzIFNpbXBsZXggVmlydXMgSW5mZWN0aW9uKS5tZA
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 24주인 30세 여성이 발열, 배뇨통, 두통으로 응급실에 왔다. 혈압 111/67 mm Hg, 맥박 95회/분, 호흡수 16회/분, 체온 38.3°C(101.1°F)이다. 양측 압통성 서혜부 림프절병증과 통증성 생식기 병변이 있으며 병변은 맑은 액체를 포함한 지름 5~6 mm 크기이다. 이 병변의 적절한 형태학적 명칭은?
+생식기 헤르페스가 반복된 임신부가 36주에 내원했다. 현재 외음부 병변과 전구 증상은 없다. 분만 시 재발을 줄이기 위한 처치는?
 
 ## 선택지
 
-A. 궤양
-B. 소수포
-C. 구진
-D. 대수포
+A. 분만 때까지 아시클로버 또는 발라시클로버 경구 억제요법
+B. 아시클로버를 외용제로만 바른다
+C. 증상이 없어도 지금 응급 제왕절개
+D. 산모에게만 면역글로불린 투여
 
 ## 해설
 
 
-질 부위에 투명한 액체가 들어있는 5~6 mm 크기의 병변은 물집(소수포)이며, 이는 헤르페스 심플렉스 바이러스 감염의 전형적인 형태이다. 따라서 정답은 B이다.
+재발 생식기 헤르페스 병력이 있으면 36주부터 경구 억제요법을 사용해 분만 무렵 재발을 줄인다. 다만 전파 위험이 완전히 없어지지 않으므로 분만 때 병변과 전구 증상을 다시 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008370
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10789539/

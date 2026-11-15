@@ -19,8 +19,9 @@ related_disease_slugs:
   - MTkg7ZS867aA6rO8L-qxtOyEoCAoUHNvcmlhc2lzKS5tZA
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,7 +36,7 @@ related_drug_slugs:
 
 ## 문제
 
-27세 남성이 팔꿈치에 여러 개의 건조하고 비늘 모양인 병변이 생겨 내원했다. 4개월 전 나타난 병변이 점점 커졌고 가려우며 긁으면 피가 난다. 통증이나 분비물은 없다. 6년 전 HIV 감염을 진단받았고 10년 동안 하루 한 갑의 담배를 피웠다. 랄테그라비르, 라미부딘, 아바카비르, 코트리목사졸을 복용하며 CD4+ T 림프구 수는 470/mm³이다. 병변 사진이 제시되어 있다. 다음 중 이 피부 소견의 가장 가능성 높은 원인은?
+27세 남성이 수개월 동안 심해진 팔꿈치의 가려운 발진으로 내원했다. 양쪽 팔꿈치에 경계가 뚜렷한 붉은 판과 은백색 인설이 있고 인설을 긁으면 점상출혈이 생긴다. 이 병변의 주요 기전은?
 
 ## 선택지
 
@@ -47,7 +48,7 @@ D. 각질형성세포 증식 증가
 ## 해설
 
 
-HIV 감염 환자에서 비늘 모양 건조 병변은 건선의 전형적인 병변이며, 건선은 각질형성세포 증식 증가에 의해 발생한다. 따라서 각질형성세포 증식 증가가 주요 병리 메커니즘이다.
+팔꿈치 폄면의 붉은 판과 은백색 인설은 판상 건선의 단서다. 염증 신호로 표피 각질형성세포의 증식이 증가한다.
 
 ## 출처
 

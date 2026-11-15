@@ -13,11 +13,12 @@ related_diseases:
   - "necrotizing enterocolitis"
   - "pneumatosis intestinalis"
   - "prematurity"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOq0tOyCrOyEsSDsnqXsl7wgKE5lb25hdGFsIE5lY3JvdGl6aW5nIEVudGVyb2NvbGl0aXMpLm1k
 difficulty: standard
-answer: C
+answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 27주에 태어난 생후 4주 남아가 조기양막파수와 융모양막염으로 입원 중이다. 계면활성제를 2회 투여받고 인공호흡기에서 CPAP로 전환되었으나 지난 6시간 동안 복부 팽만과 튜브 수유 불내성이 발생해 괴사성 장염이 의심된다. 다음 중 진단에 가장 유용한 소견은?
+재태 27주 출생아가 수유를 늘리던 중 복부가 팽만하고 혈변을 봤다. X선에서 장벽 안 가스가 보이지만 복강 내 유리공기는 없다. 현재 혈역학적으로 안정적이다. 적절한 초기 처치는?
 
 ## 선택지
 
-A. 복부 초음파에서 유문 두께 3 mm 초과
-B. 복부 X선의 이중 기포 징후
-C. 복부 X선의 장벽 공기
-D. 신경절세포 소실을 보이는 흡인 생검
+A. 경관 수유량만 줄이고 계속 먹인다
+B. 장중첩으로 판단하고 공기 관장을 한다
+C. 장벽 내 가스만으로 즉시 장절제술을 한다
+D. 수유를 중단해 위를 감압하고 정맥 항생제를 시작하며 소아외과와 함께 경과를 본다
 
 ## 해설
 
-극소 미숙아의 복부팽만·수유 불내성에서 괴사성 장염을 의심한다. 특징적인 영상 소견은 장벽 내 공기(pneumatosis intestinalis, C)이다. 단순 장폐쇄나 복강 내 유리공기와 다른 소견이며, '폐쇄성 장벽 공기'는 정확한 용어가 아니다.
+미숙아의 혈변·복부팽만과 장벽 내 가스는 괴사성 장염을 시사한다. 천공이 없으면 금식, 감압, 수액과 항생제 및 반복 평가가 기본이며, 천공이나 상태 악화 시 수술을 검토한다.
 
 ## 검수 근거
 
@@ -57,3 +58,4 @@ D. 신경절세포 소실을 보이는 흡인 생검
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008246
+- https://pubmed.ncbi.nlm.nih.gov/39925108/

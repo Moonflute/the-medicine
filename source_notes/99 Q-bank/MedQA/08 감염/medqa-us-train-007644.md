@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
   - MDIg7Zi47Z2h6riwL-uzkeybkO2ajeuTnSDtj5DroLQgKEhvc3BpdGFsLUFjcXVpcmVkIFBuZXVtb25pYSkubWQ
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-68세 여성이 선택적 우측 결장반절제술을 위해 입원했다. 독립적으로 걸을 수 있고 장도 직접 본다. 제2형 당뇨병을 20년, 본태성 고혈압을 15년, 운동 시 협심증을 6년째 앓고 있으며 30갑년의 흡연력이 있다. 수술은 합병증 없이 끝났다. 수술 후 5일째 혼돈이 발생했다. 체온 38.5°C, 호흡수 28회/분, 산소 2 L 투여 시 산소포화도 92%이다. 맥박은 118회/분, 혈압은 110/65 mm Hg이다. 흉부 청진에서 우측 폐기저부에 거친 수포음이 들린다. 수술 상처는 잘 아물고 있고 복부는 부드러우며 압통이 없다. 다음 중 가장 가능성 높은 진단은?
+수술 뒤 폐렴으로 패혈증이 발생한 환자다. 항생제와 초기 수액을 투여했고 수액 반응은 더 이상 없지만 평균동맥압은 56mmHg, 젖산은 4.2mmol/L다. 우선 시작할 혈압상승제는?
 
 ## 선택지
 
-A. 비감염성 전신 염증 반응 증후군(SIRS)
-B. 다발장기 기능장애 증후군
-C. 패혈증
-D. 약물 유발 발열
+A. 도파민
+B. 바소프레신 단독
+C. 노르에피네프린
+D. 페닐에프린
 
 ## 해설
 
 
-수술 후 폐렴 의심 감염에 새 의식저하·저산소증 등 장기기능장애가 나타나 sepsis C를 의심한다. 현재 정의의 핵심은 감염에 대한 조절장애 숙주반응으로 인한 생명위협성 장기기능장애이며 저혈압이 반드시 있어야 하는 것은 아니다. SIRS만 있으면 모두 sepsis라고 하지 않으며 원인 감염·산소화/순환을 신속히 평가한다.
+초기 수액 후에도 저혈압이 지속되는 패혈성 쇼크에서는 노르에피네프린이 1차 혈압상승제다. 평균동맥압은 초기에는 대개 65mmHg를 목표로 하고 관류와 환자 상태에 따라 조정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 약물 유발 발열
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007644
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11617831/

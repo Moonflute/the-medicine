@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 question_type: management
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,26 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-5세 남아가 3주 동안 멍이 늘어나 어머니와 함께 내원했다. 지난주에는 코피가 두 번 났지만 몇 분 안에 저절로 멎었다. 만삭으로 태어났고 5주 전 치료 없이 호전된 위장염을 앓은 것 외에는 건강했다. 키는 48백분위수, 체중은 43백분위수이다. 건강하고 영양 상태가 좋아 보인다. 체온은 36.5°C (97.7°F), 맥박은 분당 100회, 혈압은 100/65 mm Hg이다. 몸통과 등에 산발적인 점상출혈이 보인다. 그 외 신체검사에서는 이상이 없다. 검사 결과는 다음과 같다.
-헤모글로빈 12.5 g/dL
-평균 적혈구 용적 88 μm3
-백혈구 9,000/mm3
-혈소판 45,000/mm3
-적혈구 분포 폭 14% (정상 13~15%)
-혈액도말은 정상이다.
-다음 중 관리에서 가장 적절한 단계는 무엇인가?
+5세 아이가 감기 뒤 멍과 점상출혈로 왔다. 활발하고 점막출혈은 없다. 혈소판은 36,000/μL이고 다른 혈구 수치와 말초도말은 정상이다. 단기간에 다시 진료받을 수 있을 때 적절한 처치는?
 
 ## 선택지
 
-A. 항혈소판 항체 검사
-B. 로미플로스팀 치료
-C. 비장절제술
-D. 관찰
+A. 지금 바로 정맥 면역글로불린을 투여한다
+B. 장기 스테로이드를 시작한다
+C. 출혈 시 대처를 안내하고 가까운 시일에 추적 관찰한다
+D. 예방적으로 혈소판을 수혈한다
 
 ## 해설
 
 
-감염 후 단독 혈소판감소45,000/µL, 양호한 전신 상태와 경미하고 짧게 자가 소실된 코피는 소아 ITP에 합당하다. 현재 심한/지속 점막출혈이 없으므로 관찰 D와 출혈 교육·신속한 추적이 적절하다. 치료 여부는 혈소판 수 하나뿐 아니라 출혈·삶의 질·추적 가능성을 고려한다. 원문 수치를30,000미만이라고 바꾸지 않으며 romiplostim·비장절제술을 초기에 일률 시행하지 않는다.
+피부에 국한된 가벼운 출혈이 있는 소아 면역성 혈소판감소증은 대개 경과 관찰이 가능하다. 혈소판 수만으로 치료하지 않고 점막·중증 출혈, 삶의 질과 추적 가능성을 함께 본다.
 
 ## 검수 근거
 
@@ -66,3 +59,4 @@ D. 관찰
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004575
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8958378/

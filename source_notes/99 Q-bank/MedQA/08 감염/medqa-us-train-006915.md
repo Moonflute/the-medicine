@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA
 question_type: management
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,19 +40,19 @@ related_drug_slugs:
 
 ## 문제
 
-조절이 잘 안 되는 당뇨병 병력이 있는 64세 여성이 오심과 구토로 응급실에 내원했다. 어제 시작되어 점점 악화되었고 먹을 수 없다. 체온은 102°F(38.9°C), 혈압은 115/68 mmHg, 맥박은 분당 120회, 호흡수는 분당 17회, 산소포화도는 98%이다. 왼쪽 늑골척추각 압통이 있고 소변검사에서 세균뇨와 농뇨가 보인다. 입원하여 정맥 세프트리악손을 시작했다. 입원 3일째 발열이 없고 먹고 마실 수 있으며 호전되었다. 퇴원 시 외래에서 시작하거나 계속해야 할 항생제 요법은?
+급성 신우신염으로 세프트리악손을 정맥 투여한 비임신 환자가 이틀째 열이 없고 식사가 가능하다. 소변의 대장균은 트리메토프림/설파메톡사졸에 감수성이고 플루오로퀴놀론에는 내성이다. 신기능과 칼륨은 정상이다. 적절한 경구 전환 약제는?
 
 ## 선택지
 
-A. 아목시실린
-B. 메로페넴
-C. 니트로푸란토인
-D. 트리메토프림-설파메톡사졸
+A. 니트로푸란토인
+B. 시프로플록사신
+C. 트리메토프림/설파메톡사졸
+D. 포스포마이신 트로메타몰 단회
 
 ## 해설
 
 
-임상적으로 안정되고 경구섭취가 가능하면 유효한 경구약으로 전환할 수 있어 선택지 중 TMP-SMX D가 적절한 옵션이다. 배양 감수성을 확인하여 선택하며 ceftriaxone에 호전되었다고 TMP-SMX 내성이 없다는 뜻은 아니다. Nitrofurantoin은 신실질 치료에 적절하지 않고 meropenem은 일반적인 경구 퇴원약이 아니다. 전체 유효 치료기간은 반응·합병증·현행 지침에 맞추며 무조건 최소1주 추가라는 규칙으로 정하지 않는다.
+배양 감수성이 확인되고 경구 복용이 가능하면 트리메토프림/설파메톡사졸로 전환할 수 있다. 니트로푸란토인과 방광염용 단회 포스포마이신은 신실질 감염에 적합하지 않다.
 
 ## 검수 근거
 
@@ -65,3 +65,4 @@ D. 트리메토프림-설파메톡사졸
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006915
+- https://doi.org/10.3947/ic.2018.50.1.67

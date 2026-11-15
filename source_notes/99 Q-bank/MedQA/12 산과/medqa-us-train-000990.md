@@ -15,7 +15,7 @@ question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 여성이 1시간 전 갑자기 시작된 우측 하복부 통증으로 응급실에 내원하였다. 환자는 통증으로 몸부림치고 있으며 내원 후 두 차례 구토를 하였다. 만성 질환은 없으나 과거에 클라미디아(chlamydia) 감염이 두세 번 있었다고 한다. 복부는 단단하고 방어근 긴장(guarding)이 관찰된다. 골반 검사상 질 내 혈액 고임과 우측 부속기 압통이 확인된다. 마지막 월경은 7주 전이었다. 임신 검사 결과는 양성이다. 다음 중 적절한 다음 진단 단계는 무엇인가?
+임신반응이 양성인 23세 여성이 한쪽 골반 통증과 소량 질출혈로 왔다. 혈압·맥박은 정상이고 복막 자극 징후는 없다. 임신 위치와 부속기를 바로 확인할 검사는?
 
 ## 선택지
 
-A. 복부 초음파(Transabdominal ultrasound).
-B. 자궁경관 확장 및 소파술(Dilation and curettage)
-C. 질 초음파(Transvaginal ultrasound)
-D. 메토트렉세이트(Methotrexate) 투여 및 엄격한 추적 관찰 지침과 함께 퇴원.
+A. 임신 위치를 확인하지 않고 메토트렉세이트 투여
+B. 복부 조영 CT부터 시행
+C. 자궁내용물 흡인부터 시행
+D. 질식 초음파
 
 ## 해설
 
-무월경·양성 임신검사, 우측 하복부/부속기 통증, 질출혈과 과거 클라미디아 감염은 자궁외임신을 의심하게 한다. 진단 선택지 중 질식 초음파(C)가 적절하다. 복부 방어는 파열 가능성을 우려하게 하므로 혈역학 평가·소생 및 산부인과 응급 평가를 병행하며, 불안정하면 영상 때문에 수술을 지연하지 않는다.
+임신 초기 통증·출혈에서 질식 초음파로 자궁내 임신 여부와 양쪽 부속기를 평가한다. 결과가 불확실하면 정량 β-hCG와 추적 영상을 함께 해석한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 메토트렉세이트(Methotrexate) 투여 및 엄격한 추적 관찰 지침
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000990
+- https://www.nice.org.uk/guidance/ng126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy

@@ -14,9 +14,9 @@ related_diseases:
   - "Staphylococcus epidermidis"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-63세 남성이 2주 동안의 발열과 비생산성 기침으로 내원했다. 그동안 피로, 근육통 및 호흡곤란도 있었다. 5주 전 고도 대동맥 협착으로 인공 대동맥판막 치환술을 받았다. 고혈압, 천식 및 제2형 당뇨병 병력이 있다. 2년 전 대장내시경은 정상이었다. 40년 동안 하루 한 갑을 피웠고 불법 약물 사용은 한 적이 없다. 아스피린, 와파린, 리시노프릴, 메트포르민, 흡입 알부테롤 및 종합비타민을 복용한다. 무기력해 보인다. 체온은 38.6°C (101.5°F), 맥박은 105회/분, 혈압은 140/60 mm Hg이다. 폐 청진에서 수포음이 들리고 왼쪽 흉골 가장자리에서 들려 오른쪽 흉골 가장자리로 방사되는 2/6등급 이완기 바람잡음이 있다. 오른쪽 검지 사진이 제시되어 있다. 백혈구 수는 13,800/mm3, 적혈구 침강속도는 48 mm/h이다. 다음 중 가장 가능성 높은 원인균은 무엇인가?
+인공 대동맥판막 환자가 항생제 치료 중에도 열이 계속 나고 새 방실차단이 생겼다. 경식도 심초음파는 인공판막의 음영 때문에 판막 주변 농양을 확인하거나 배제하지 못했다. 긴급 수술팀 평가와 병행할 영상검사는?
 
 ## 선택지
 
-A. Streptococcus gallolyticus
-B. Staphylococcus epidermidis
-C. Viridans 연쇄구균
-D. Streptococcus pyogenes
+A. 운동부하 심초음파
+B. 폐환기·관류 스캔
+C. 심전도 동기화 조영 심장 CT
+D. 복부 비조영 CT
 
 ## 해설
 
 
-판막치환 5주 뒤 발열, 새 역류성 잡음과 염증 소견은 조기 인공판막 심내막염을 의심하게 한다. 표피포도알균(Staphylococcus epidermidis)은 보철물에 부착하여 biofilm을 형성하는 대표적 원인으로 보기 중 B가 가장 부합한다. 모든 인공판막 감염이 이 균에 의한 것은 아니며 원인 확인에는 혈액배양 등이 필요하다. 제공되지 않은 손가락 사진의 병변 종류는 추정하여 덧붙이지 않았다.
+인공판막 심내막염에서 새 방실차단은 판막 주변 감염 확장의 단서다. 경식도 심초음파가 불확실할 때 심장 CT는 농양이나 가성동맥류 평가를 보완한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. Streptococcus pyogenes
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001425
+- https://doi.org/10.1093/eurheartj/ehad193

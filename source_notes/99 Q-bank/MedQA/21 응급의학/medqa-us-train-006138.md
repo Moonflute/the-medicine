@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -35,7 +36,7 @@ related_drug_slugs:
 
 ## 문제
 
-29세 건설 노동자가 3m 높이 비계에서 떨어져 응급실에 왔다. 팔을 뻗은 채 착지하여 양팔에 10점 만점에 10점의 심한 통증이 있다. 오피오이드 사용장애로 메타돈 유지치료 중이다. 맥박은 분당 100회, 호흡수는 분당 20회, 혈압은 140/90 mmHg, 실내 공기 산소포화도는 98%이다. 우측 전완에 혈종이 있고 X선에서 비전위성 척골 골절이 보인다. 복부와 골반 CT는 정상이다. 손상 치료와 함께 가장 적절한 다음 관리 단계는 무엇인가?
+29세 건설 노동자가 3m 높이 비계에서 떨어져 응급실에 왔다. 팔을 뻗은 채 착지하여 양팔에 10점 만점에 10점의 심한 통증이 있다. 오피오이드 사용장애로 메타돈 유지치료 중이다. 맥박은 분당 100회, 호흡수는 분당 20회, 혈압은 140/90 mmHg, 실내 공기 산소포화도는 98%이다. 우측 전완에 혈종이 있고 X선에서 비전위성 척골 골절이 보인다. 복부와 골반 CT는 정상이다. 손상 치료와 함께 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

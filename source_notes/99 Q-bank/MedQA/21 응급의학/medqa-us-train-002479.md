@@ -19,7 +19,7 @@ question_type: management
 related_disease_slugs:
   - MTEg7Jm46rO8L-uzteqwlSDqtaztmo0g7Kad7ZuE6rWwIChBYmRvbWluYWwgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,18 +40,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-간질이 발프로산, 페니토인, 레베티라세탐에 반응하지 않는 24세 남성이 뇌 MRI 중 심전도 전극으로 왼쪽 다리 둘레에 심한 열화상을 입었다. 지속적 뇌파 모니터링을 위해 미다졸람을 주입하고 화상 지지치료를 받던 중 왼쪽 발가락이 차갑고 심한 부종이 생겼으며 족배동맥과 후경골동맥 맥박이 만져지지 않는다. 왼쪽 다리 구획의 델타 압력은 25 mmHg이다. 다음 중 가장 적절한 치료의 다음 단계는?
+24세 환자의 왼쪽 하퇴에 다리 둘레 전체를 둘러싼 깊은 전층 화상이 있다. 부종이 늘며 발가락이 차고 발목 아래 도플러 혈류가 약해졌다. 단단한 화상 가피로 인한 혈류 장애를 바로 풀어줄 처치는?
 
 ## 선택지
 
-A. 절단
-B. 가피절개술
-C. 근막절개술
-D. 화상센터로 이송
+A. 석고로 더 단단히 고정
+B. 수포 배액만 시행
+C. 응급 가피절개술
+D. 보존 치료를 하며 맥박이 돌아오는지 관찰
 
 ## 해설
 
-환상성 심한 열화상 뒤 차가운 발가락·부종·원위 맥박 소실은 비탄성 가피가 부은 조직을 조여 관류를 방해하는 응급상황을 시사한다. 우선 가피를 충분히 절개하여 외부 조임을 푸는 가피절개술(B)이 필요하다. 델타압은 이완기혈압−구획압이며25 mmHg처럼 낮을수록 관류가 위험하다는 뜻이지 혈압25 이상이 수술 기준이라는 뜻이 아니다. 가피절개 후 관류·구획압을 재평가하고, 깊은 구획압 상승이 지속되거나 근육층 구획증후군이 확인되면 근막절개술이 추가로 필요하다. 이송만 하며 감압을 지연하지 않는다.
+환상 전층 화상에서 비탄성 가피가 부종을 압박해 혈류가 줄면 가피절개로 감압한다. 가피를 풀어도 깊은 구획압 상승이 남으면 근막절개가 필요한지 평가한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 화상센터로 이송
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002479
+- https://www.phsa.ca/Documents/Trauma-Services/Escharotomy_Adult_Burn_Patients_May_2024.pdf

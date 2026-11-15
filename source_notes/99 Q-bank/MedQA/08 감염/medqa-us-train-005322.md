@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ related_drug_slugs:
 
 ## 문제
 
-22세 남자가 2주 동안 발열, 인후통과 점점 심해지는 피로로 내원했다. 편도 삼출, 후경부 림프절병증과 비장비대가 있다. 다음 중 가장 적절한 다음 단계는?
+22세 남자가 2주 동안 발열, 인후통과 점점 심해지는 피로로 내원했다. 편도 삼출, 후경부 림프절병증과 비장비대가 있다. 가장 적절한 다음 단계는?
 
 ## 선택지
 

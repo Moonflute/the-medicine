@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-umrOyKpO2FjOumrOyVhCAoTGlzdGVyaWEpLm1k
 question_type: management
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,19 +39,19 @@ related_drug_slugs:
 
 ## 문제
 
-67세 남성이 의식 변화로 응급실에 왔다. 은퇴자 공동체에 거주하며 평소보다 의식이 저하된 상태로 발견되었다. 알츠하이머 치매와 잘 조절되는 당뇨병 병력이 있다. 체온은 103°F(39.4°C), 혈압은 157/108 mmHg, 맥박은 분당 110회, 호흡수는 분당 17회, 산소포화도는 98%이다. 졸리고 말을 하지 않으며 기저 상태는 알려지지 않았다. 하지 근골격 검사를 하면 통증으로 움찔하고 목의 운동범위가 감소되어 있으며 목을 굽히면 불편해한다. 림프절병증은 없다. 기본검사와 소변검사를 시행했다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+고열과 경부강직이 있는 67세 환자에게 의식저하와 새로운 편마비가 있다. 혈액배양은 채취했다. 국소 신경징후 때문에 요추천자 전 두부 영상이 필요하다. 영상 준비 중 항균 치료는 어떻게 하는가?
 
 ## 선택지
 
-A. 세프트리악손과 반코마이신
-B. 세프트리악손, 반코마이신 및 암피실린
-C. 세프트리악손, 반코마이신, 암피실린 및 스테로이드
-D. 두부 CT
+A. 두부 영상과 요추천자를 모두 끝낸 뒤 시작한다
+B. 정맥 항생제를 즉시 시작하고, 보조 덱사메타손은 적응 시 첫 항생제 직전이나 동시에 투여한다
+C. 두부 영상 결과를 확인할 때까지 덱사메타손만 투여한다
+D. 뇌척수액 그람염색에서 균을 확인한 뒤 시작한다
 
 ## 해설
 
 
-고열·수막자극과 의식저하로 세균성 수막염을 의심하여 배양 후 지체 없이 ceftriaxone+vancomycin과 Listeria 범위 ampicillin을 시작한다. Dexamethasone은 가능하면 첫 항생제 직전/동시에 투여하는 맥락이므로 C가 적절하다. 기도·순환 지지와 LP 전 영상 적응 평가를 병행하며 CT나 LP 때문에 치료를 늦추지 않는다. 원인균·CSF 결과에 따라 보조 steroid와 항균제를 재평가한다.
+영상 때문에 요추천자가 지연되더라도 세균성 수막염의 경험적 항생제는 지연하지 않는다. 덱사메타손을 쓰는 경우 초기 항생제 직전 또는 동시에 투여한다.
 
 ## 검수 근거
 
@@ -64,3 +64,5 @@ D. 두부 CT
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005882
+- https://www.icjournal.org/DOIx.php?id=10.3947%2Fic.2012.44.3.140
+- https://www.who.int/publications/i/item/9789240108042

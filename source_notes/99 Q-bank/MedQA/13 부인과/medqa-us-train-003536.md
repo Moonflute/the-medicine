@@ -20,6 +20,7 @@ related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여성이 갑자기 시작된 전반적인 복통과 오심으로 응급실에 왔다. 마지막 월경은 6주 전이었고 경구피임약을 불규칙하게 복용했다. 창백하고 식은땀을 흘렸으며 맥박은 120회/분, 혈압은 85/70 mmHg였다. 복부 전반에 압통이 있고 오른쪽 부속기 압통이 있었다. 임신검사 결과는 아직 나오지 않았다. 다음 중 가장 적절한 다음 처치는?
+25세 여성이 갑자기 시작된 전반적인 복통과 오심으로 응급실에 왔다. 마지막 월경은 6주 전이었고 경구피임약을 불규칙하게 복용했다. 창백하고 식은땀을 흘렸으며 맥박은 120회/분, 혈압은 85/70 mmHg였다. 복부 전반에 압통이 있고 오른쪽 부속기 압통이 있었다. 임신검사 결과는 아직 나오지 않았다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

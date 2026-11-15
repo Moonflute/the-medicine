@@ -13,13 +13,13 @@ related_diseases:
   - "색소성 피부병변"
   - "흑색종 감별"
   - "접촉피부염"
-question_type: 임상증례 객관식
+question_type: investigation
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-ygkey0ie2UvOu2gOyXvCAoQ29udGFjdCBEZXJtYXRpdGlzKS5tZA
 difficulty: simple
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-47세 여자가 새로 생긴 가려운 발진으로 일차의료기관을 방문했다. 이틀 전 정원일을 했고 현재 양쪽 발목에 습진성 구진수포성 발진이 있다. 왼쪽 허벅지에는 경계가 약간 융기된 5mm 크기의 갈색 병변 하나도 보인다. 접촉피부염에 국소 코르티코스테로이드를 처방했다. 허벅지 병변에 대해 다음 중 적절한 조치는 무엇인가?
+47세 환자의 허벅지에 새 갈색 반점이 생겨 수개월 사이 커졌다. 모양이 비대칭이고 경계가 불규칙하며 검정과 갈색이 섞여 있다. 위치상 병변 전체를 제거하기 어렵지 않다. 진단에 적절한 방법은?
 
 ## 선택지
 
-A. 추가 문진
-B. 안심시키기
-C. 단순 면도 생검
-D. 전층 생검
+A. 사진만 남기고 1년 기다린다
+B. 액체질소로 얼려 없앤다
+C. 좁은 여유를 두고 전층 절제생검한다
+D. 처음부터 넓은 안전거리로 광범위 절제한다
 
 ## 해설
 
 
-허벅지에 보이는 갈색 병변은 색소성 병변으로, 악성 가능성을 배제하기 위해 추가 문진을 통해 병변의 변화를 확인하고 필요 시 추적한다. 따라서 가장 적절한 조치는 ‘추가 문진’이다.
+흑색종이 의심되면 가능한 경우 좁은 경계를 둔 전층 절제생검으로 병변 전체와 침윤 깊이를 평가한다. 확진 뒤 깊이에 맞춰 치료 절제 범위를 정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004085
+- https://pubmed.ncbi.nlm.nih.gov/39550033/

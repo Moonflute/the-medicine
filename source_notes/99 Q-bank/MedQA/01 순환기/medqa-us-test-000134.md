@@ -19,7 +19,7 @@ question_type: mechanism
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 남성이 발기부전으로 내원했다. 한 달 동안 성욕은 적절하지만 아내와 성관계를 할 수 없었다. 걸을 때 깊고 타는 듯한 엉덩이와 고관절 통증이 생기며 쉬면 호전된다. 밤이나 아침 발기는 없다. 당뇨병, 관상동맥질환, 고혈압이 있고 40갑년의 흡연력이 있다. 하지와 대퇴동맥 맥박이 약하다. 다음 중 증상의 가장 특이적인 원인은?
+67세 남성이 일정 거리를 걸으면 양쪽 엉덩이와 허벅지에 통증이 생기고 쉬면 호전된다고 한다. 발기부전이 함께 생겼고 양측 대퇴동맥 맥박은 약하다. 이 증상 조합을 가장 잘 설명하는 병변은?
 
 ## 선택지
 
-A. 불안
-B. 대동맥-장골동맥 죽상경화증
-C. 척추관 협착증
-D. 혈관성 파행
+A. 요추 척추관 협착
+B. 복부 대동맥–장골동맥 폐색
+C. 양측 대퇴정맥 혈전증
+D. 양측 무릎 골관절염
 
 ## 해설
 
 
-고관절·엉덩이 통증과 발기부전, 대퇴동맥 맥박 약화는 대동맥-장골동맥 협착(레리셰 증후군) 때문이며, 이는 혈관 폐색이 가장 특이적인 원인이다.
+엉덩이·허벅지 파행과 양측 대퇴맥박 저하는 대퇴동맥보다 위쪽의 혈류 저하를 시사한다. 골반 혈류 저하에 따른 발기부전까지 동반되면 대동맥–장골동맥 폐색이 가장 잘 설명한다.
 
 ## 검수 근거
 

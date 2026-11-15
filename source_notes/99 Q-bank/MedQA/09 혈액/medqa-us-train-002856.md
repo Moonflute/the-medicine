@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: adverse_effect
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-39세 남성이 잠복결핵감염을 진단받은 지 3개월 후 추적 진료를 위해 내원했다. 6주 동안 전신 피로와 운동 시 호흡곤란이 있었고 결막은 창백하다. 혈색소 7.8 g/dL, 평균적혈구용적 72 μm³, 적혈구분포폭 17%, 망상적혈구 0.7%, 백혈구 6,800/mm³, 혈소판 175,000/mm³이다. 크레아티닌은 0.8 mg/dL, 철 246 μg/dL, 페리틴 446 ng/mL, 총 철결합능 212 μg/dL이다. 다음 중 이 환자 증상의 가장 가능성 높은 원인은?
+39세 남성이 잠복결핵으로 이소니아지드를 복용하기 시작한 지 3개월 뒤 피로와 호흡곤란으로 내원했다. 혈색소 7.8 g/dL, MCV 71 fL이며 혈청 철과 페리틴은 높다. 골수 철 염색에서 고리철적모구가 보인다. 이 환자의 빈혈 원인으로 가장 적절한 것은?
 
 ## 선택지
 
 A. 철결핍
-B. 만성 염증
-C. 베타 지중해빈혈 소지자
-D. 약물의 이상반응
+B. 염증으로 인한 철 격리
+C. 만성콩팥병으로 인한 적혈구생성인자 부족
+D. 이소니아지드에 의한 피리독신 의존성 헴 합성 장애
 
 ## 해설
 
 
-높은 철·ferritin과 낮은 TIBC를 동반한 소구성 저망상적혈구 빈혈은 철적모구빈혈을 고려하게 한다. 잠복결핵 진단 후 isoniazid를 복용했다면 pyridoxine(B6) 이용 장애로 ALA synthase 및 heme 합성이 저하되어 이러한 빈혈이 생길 수 있어 D가 출제 의도에 부합한다. 이는 myoglobin 합성 장애나 철결핍이 아니다. 다만 원문에는 실제 처방 약명이 없으므로 복약 확인 없이 isoniazid 원인으로 확정해서는 안 된다.
+이소니아지드는 피리독신 이용에 영향을 줘 피리독신 의존 효소인 ALA 합성효소를 통한 헴 합성을 떨어뜨릴 수 있다. 철과 페리틴이 높고 골수에 고리철적모구가 보이는 점이 철결핍빈혈과 구별되는 단서다.
 
 ## 검수 근거
 

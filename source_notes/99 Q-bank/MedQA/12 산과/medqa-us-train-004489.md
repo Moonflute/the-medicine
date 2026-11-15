@@ -13,11 +13,11 @@ related_diseases:
   - "자궁 파열"
   - "이전 제왕절개"
   - "태아 선진부 하강 소실"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yekOq2ge2MjOyXtCAoVXRlcmluZSBSdXB0dXJlKS5tZA
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-분만이 시작된 지 3시간 후, 임신 2회 출산 1회의 39세 여성이 임신 40주에 갑자기 악화된 복통과 질출혈을 보였다. 18개월 전 첫 아이를 아두골반 불균형 때문에 하부 자궁절개 횡제왕절개로 분만했다. 체온은 37.5°C (99.5°F), 맥박은 분당 120회, 호흡수는 분당 20회, 혈압은 90/50 mm Hg이다. 복부 압통과 자궁 수축 소실이 보인다. 자궁경부는 100% 소실되고 10cm 개대되어 있으며 태아 선진부는 -3 station이다. 한 시간 전 선진부는 0 station이었다. 태아심박동감시에서 태아 서맥, 후기 감속과 자궁 수축 진폭 감소가 보인다. 다음 중 이 환자 상태에서 가장 특이적인 소견은 무엇인가?
+이전 제왕절개 흉터가 있는 만삭 산모가 질식분만을 시도하던 중 갑자기 심한 복통과 출혈을 보인다. 태아 심박수가 떨어지고 선진부가 0에서 −3으로 물러났다. 응급 처치는?
 
 ## 선택지
 
-A. 태아 선진부의 상승(기존 하강 위치 소실)
-B. 혈역학적 불안정
-C. 태아 곤란
-D. 복부 압통
+A. 진통 촉진을 위해 옥시토신을 늘린다
+B. 자궁이완제를 투여한 뒤 외래 추적한다
+C. 자궁 파열을 의심해 응급 개복·분만을 준비한다
+D. 높아진 선진부를 흡입기로 끌어내린다
 
 ## 해설
 
-선진부가 0 station에서 -3 station으로 위로 물러난 것은 단순히 하강이 멈춘 것이 아니라 이미 내려왔던 위치를 잃은 소견이다. 이전 제왕절개 흉터, 갑작스러운 통증·출혈, 수축 소실과 함께 자궁 파열을 강하게 시사하며 A가 가장 특이적이다. 쇼크·태아곤란·복부압통은 다른 응급상황에서도 나타날 수 있다.
+이전 자궁 흉터, 갑작스러운 통증과 태아 심박 이상, 선진부 하강 위치 소실은 자궁 파열을 강하게 시사한다. 수혈과 소생을 준비하면서 응급 개복으로 분만하고 출혈을 조절한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 복부 압통
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004489
+- https://doi.org/10.1002/ijgo.70406

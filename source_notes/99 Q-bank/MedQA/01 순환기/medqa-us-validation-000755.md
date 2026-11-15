@@ -20,7 +20,7 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-48세 여성이 무거운 물건을 옮긴 후 발생한 2일간의 지속적인 흉통으로 응급실에 왔다. 흉골 근처 왼쪽 3~4번째 갈비뼈에 압통이 있고 심전도와 트로포닌 I는 정상이다. 가장 적절한 초기 처치는?
+48세 여성이 무거운 상자를 옮긴 뒤 이틀째 왼쪽 앞가슴이 아프다. 제3~4 늑연골 접합부를 누르면 같은 통증이 재현된다. 붓기는 없다. 문진, 심전도와 연속 트로포닌 평가에서 급성 관상동맥증후군 가능성은 낮았다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 이부프로펜
-B. 늑간신경차단
-C. 12시간 동안 연속 심전도
-D. 설하 니트로글리세린
+A. 늑연골염
+B. 급성 심낭염
+C. 혈관연축 협심증
+D. 갈비뼈 골수염
 
 ## 해설
 
 
-흉골 근처 갈비뼈 압통과 정상 심전도·트로포닌은 근골격성 흉통을 의미한다. 비스테로이드성 소염진통제인 이부프로펜이 통증과 염증을 완화하는 1차 치료이다. 따라서 초기 처치는 이부프로펜이다.
+힘을 쓴 뒤 시작된 국소 통증이 늑연골 접합부 압박으로 재현되고 붓기나 전신 염증이 없어 늑연골염에 합당하다. 압통 하나만으로 심장 원인을 배제하지는 않는다.
 
 ## 검수 근거
 

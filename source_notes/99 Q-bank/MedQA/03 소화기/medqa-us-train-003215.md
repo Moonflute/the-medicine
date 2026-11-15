@@ -20,7 +20,7 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-고혈압, 말초동맥질환, 편두통 병력이 있는 74세 여성이 2시간 동안 지속된 심한 복통으로 응급실에 왔다. 배꼽 주위의 날카로운 통증이 있고 최근 식후 간헐적 복부 불편감이 있었지만 비슷한 에피소드는 없었다. 발열, 오한, 오심, 구토, 설사는 없고 전날 저녁 정상적으로 배변했다. 체온 37.1°C, 맥박 110회/분, 혈압 140/80 mmHg, 호흡수 20회/분이며 복부는 부드럽고 팽창되지 않았지만 배꼽 주위에 미만성 압통이 있다. 혈청 젖산은 7.0 mmol/L이다. 다음 중 진단에서 가장 적절한 다음 단계는?
+항응고제를 복용하지 않는 심방세동 환자에게 갑자기 매우 심한 배꼽 주위 통증이 생겼다. 통증에 비해 배는 부드럽고 압통이 약하며 복막 자극은 없다. 젖산은 상승했고 혈압은 유지된다. 장간막 허혈이 의심될 때 즉시 시행할 검사는?
 
 ## 선택지
 
-A. 복부 단순 방사선촬영
-B. 탐색적 개복술
-C. CT 혈관조영술
-D. 복부 이중 초음파
+A. 복부 단순 X선
+B. 복부 도플러 초음파
+C. 복부 CT 혈관조영술
+D. 하부위장관 내시경
 
 ## 해설
 
 
-복통이 통증과 양상에서 ‘통증이 과도하게 심함’은 장간막 혈류 부족을 시사한다. 급성 장간막 허혈은 CT 혈관조영술로 진단이 확정된다. 따라서 다음 단계는 CT 혈관조영술이다.
+통증에 비해 가벼운 초기 복부 진찰 소견과 심방세동은 장간막 동맥 폐색의 단서다. 의심하면 CT 혈관조영으로 혈관 폐색과 장 손상 여부를 지체 없이 평가한다. 젖산이 정상이라고 초기 허혈이 배제되는 것은 아니다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 복부 이중 초음파
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003215
+- https://doi.org/10.1186/s13017-022-00443-x

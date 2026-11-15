@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
 question_type: prevention
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-34세 여성이 정기 건강검진을 위해 내원했다. 위식도역류질환이 있고 최근 새 도시로 이사했다. 아버지는 46세에 대장암을 진단받았고 큰아버지는 소장암, 친할아버지는 위암으로 사망했다. 대장내시경은 정상이며 DNA 염기서열검사에서 DNA 복구 유전자 MLH1과 MSH2 변이가 보인다. 이 환자가 일생 중 가장 필요할 가능성이 높은 처치는?
+42세 여성에게 병적 MSH2 변이가 확인됐다. 출산을 마쳤고 더 임신할 계획은 없다. 대장내시경 감시와 별도로 린치증후군 관련 부인암 위험을 줄이기 위해 논의할 수술은?
 
 ## 선택지
 
-A. 자궁적출술과 양측 난관난소절제술
-B. 셀레콕시브 또는 설린닥 치료
-C. 예방적 양측 유방절제술
-D. 회장항문문합을 동반한 예방적 전대장직장절제술
+A. 예방적 양측 유방절제술
+B. 난관절제술로 모든 자궁내막암 위험 제거
+C. 위험감소 자궁절제술 및 양측 난관난소절제술
+D. 자궁내막 소작술
 
 ## 해설
 
 
-MLH1/MSH2 관련 Lynch syndrome은 자궁내막암과 난소암 위험이 높아 장기계획에서 risk-reducing hysterectomy와 bilateral salpingo-oophorectomy A를 고려한다. 이는34세현재 모든 환자에게 즉시수술하라는 뜻이 아니다. 출산 완료, 유전자별위험·가족력, 폐경·동반질환과 수술로 인한 조기폐경의 위해를 함께 상의해 시기를 개별화한다. 정상 대장내시경이 이 유전위험을 없애지는 않는다.
+MSH2 관련 린치증후군에서는 자궁내막암과 난소암 위험을 같이 고려한다. 출산 계획이 끝나면 위험감소 자궁절제술과 양측 난관난소절제술을 상담하되 시기는 변이별 위험과 수술로 인한 조기폐경의 영향을 반영한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ MLH1/MSH2 관련 Lynch syndrome은 자궁내막암과 난소암 위험이 높아
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008113
+- https://www.ncbi.nlm.nih.gov/books/NBK1211/

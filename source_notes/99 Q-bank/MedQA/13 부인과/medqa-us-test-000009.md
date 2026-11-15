@@ -13,12 +13,12 @@ related_diseases:
   - "구리 자궁내장치"
   - "골반염증성 질환"
   - "피임 금기"
-question_type: prevention
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geuCtOyepey5mCAoSW50cmF1dGVyaW5lIERldmljZSkubWQ
   - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-37세 여성이 새로운 피임법을 원해 일차진료의에게 내원했다. 8년 동안 경구피임약을 사용했지만 자궁내장치로 바꾸고 싶어 한다. 혈압 118/78 mmHg, 맥박 분당 73회, 호흡수 분당 16회, 발열은 없다. 다음 중 어떤 과거력이 구리 자궁내장치 삽입의 금기인가?
+37세 여성이 구리 자궁내장치를 원하지만 오늘 발열과 골반통으로 활동성 골반염이 확인됐다. 지금 가장 적절한 계획은?
 
 ## 선택지
 
-A. 뇌졸중 또는 정맥혈전색전증 병력
-B. 활동성 또는 재발성 골반염증성 질환
-C. 유방암 병력
-D. 간 종양 진단
+A. 삽입하고 골반염 치료는 생략한다
+B. 항생제 첫 회와 동시에 바로 삽입한다
+C. 과거 골반염이 있었으므로 평생 어떤 자궁내장치도 쓸 수 없다
+D. 골반염을 먼저 치료하고 회복 후 삽입을 다시 검토한다
 
 ## 해설
 
-현재 활동성 골반염증성 질환이 있다면 구리 IUD 삽입 시작은 U.S. MEC 범주 4에 해당하여 B가 가장 적합하다. 다만 과거 PID 또는 재발 병력만 있고 현재 감염이 없는 경우까지 모두 절대금기로 보는 것은 옳지 않다. 과거 감염과 현재 감염을 구별하고 STI 평가를 시행한다. 뇌졸중·정맥혈전색전증, 유방암 또는 간 종양 병력은 호르몬 피임법의 고려사항과 달리 구리 IUD의 동일한 감염성 삽입 금기가 아니다.
+활동성 골반염에서는 새 자궁내장치 삽입을 미룬다. 감염이 치료된 후에는 과거 골반염 병력만으로 장치 삽입이 영구적으로 금기인 것은 아니다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 간 종양 진단
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000009
+- https://www.ncbi.nlm.nih.gov/books/NBK619474/table/ch5.tab4/

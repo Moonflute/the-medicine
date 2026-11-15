@@ -16,9 +16,9 @@ related_diseases:
   - "Amoebic liver abscess"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsIQg64aN7JaRIChMaXZlciBBYnNjZXNzKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-36세 남성이 3일 전 시작된 우상복부 복통으로 응급실에 왔다. 통증은 방사되지 않고 악화·완화 요인도 없다. 오심이나 구토는 없다. 6개월 전 멕시코에서 이민 왔고 현재 애완동물 가게에서 일한다. 5개월 전 1주 동안 혈성 설사를 했던 것 외에는 건강했다. 키는 182cm, 체중은 120kg, BMI는 36kg/m²이다. 체온은 101.8°F(38.8°C), 맥박은 분당 85회, 호흡수는 분당 14회, 혈압은 120/75 mmHg이다. 폐 청진은 깨끗하고 우상복부 압통이 있다. 검사에서 혈색소 11.7 g/dL, 백혈구 14,000/mm³(호중구 74%, 호산구 2%, 림프구 17%, 단핵구 7%), 혈소판 140,000/mm³, 혈청 Na⁺ 139 mEq/L, Cl⁻ 101 mEq/L, K⁺ 4.4 mEq/L, HCO₃⁻ 25 mEq/L, 요소질소 8 mg/dL, 크레아티닌 1.6 mg/dL, 총 빌리루빈 0.4 mg/dL, AST 76 U/L, ALT 80 U/L, 알칼리성 인산분해효소 103 U/L이다. 복부초음파에서 간 우엽에 내부 저에코를 동반한 4cm 둥근 저에코 병변이 보인다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+유행 지역에 머물다 돌아온 36세 환자가 발열과 우상복부 통증을 호소한다. 영상에서 간 우엽 단일 농양이 있고, 최근 혈성 설사 때 대변에서 이질아메바가 확인됐지만 치료받지 않았다. 항아메바 혈청검사도 양성이다. 아메바성 간농양에 적절한 약물치료 순서는?
 
 ## 선택지
 
-A. 아메바증
-B. 간 포충낭종
-C. 화농성 간농양
-D. 간세포암
+A. 파로모마이신만 투여한다
+B. 메트로니다졸로 치료한 뒤 파로모마이신 등 장관 내 약제를 투여한다
+C. 메트로니다졸만 투여하고 장관 내 약제는 생략한다
+D. 세프트리악손만 투여한다
 
 ## 해설
 
 
-유행지역 거주 뒤 혈성 설사 병력과 수개월 후 발열·우상복부 통증·우엽 단일 병변은 아메바성 간농양 A에 부합한다. Entamoeba histolytica의 주요 경로는 분변-경구이며 단순 애완동물 가게 근무가 핵심 전파 단서는 아니다. 영상만으로 화농성 농양을 완전히 배제할 수 없으므로 임상·혈청/미생물 검사를 통합한다.
+조직 침범에는 메트로니다졸 같은 조직 작용 약제가 필요하다. 이후 장관 내에 남은 원충을 없애기 위해 파로모마이신 등 장관 내 약제를 투여한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 간세포암
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005837
+- https://www.cdc.gov/yellow-book/hcp/post-travel-evaluation/post-travel-diarrhea.html

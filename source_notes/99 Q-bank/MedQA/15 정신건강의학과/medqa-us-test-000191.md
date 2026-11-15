@@ -16,7 +16,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qzte2ZqSDsnqXslaAgKFBhbmljIERpc29yZGVyKS5tZA
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,23 +35,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 대학생이 간헐적인 흉부 불편감으로 진료를 받으러 왔다. 지난 8~9개월 동안 한 달에 한 번 정도 “가슴이 터질 것 같다”고 느끼는 발작이 있었다. 발작 중에는 호흡곤란, 팔과 다리 전체의 떨림, 셔츠를 갈아입어야 할 정도의 심한 발한도 느꼈다. 뚜렷한 유발 요인은 모르지만 중요한 시험이나 큰 과제 마감 시기에 더 자주 발생하는 것 같다고 한다. 발작이 반복되면서 수업이나 식당에서 발작이 일어날까 봐 불안이 점점 커졌고, 그 결과 외출을 점점 줄이고 있다. 과거력은 없고 신체진찰은 정상이었다. 이 상태의 장기 관리를 위한 가장 적절한 약물은?
+반복되는 예기치 않은 공황발작과 예기불안 때문에 외출이 줄어든 27세 환자가 장기 약물치료를 원한다. 물질 사용이나 의학적 원인은 평가했다. 첫 약으로 적절한 것은?
 
 ## 선택지
 
-A. 시탈로프람
-B. 리튬
-C. 프로프라놀롤
+A. 클로나제팜 장기 단독
+B. 에스시탈로프람
+C. 프로프라놀롤 단독
 D. 쿠에티아핀
 
 ## 해설
 
-반복되는 공황발작과 이후의 예기불안·외출 회피는 공황장애에 부합한다. 장기 약물치료에는 SSRI 등이 사용되며, 제시된 약물 중 시탈로프람이 적절하다. 리튬과 쿠에티아핀은 통상적인 공황장애 장기치료제가 아니고 프로프라놀롤은 이 장애의 핵심 증상과 재발을 다루는 표준 장기치료가 아니다.
+공황장애의 장기 약물치료는 SSRI가 일차 선택이다. 초기 불안이 일시적으로 심해질 수 있어 저용량에서 시작해 반응과 부작용을 확인한다. 벤조디아제핀 장기 단독치료는 기본 치료가 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000191
+- https://www.nice.org.uk/guidance/cg113/chapter/recommendations
 
 ## 검수 근거
 

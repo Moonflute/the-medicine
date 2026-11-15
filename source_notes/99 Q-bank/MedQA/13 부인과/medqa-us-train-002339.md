@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -38,7 +39,7 @@ related_drug_slugs:
 
 ## 문제
 
-34세 G4P0 여성이 임신 8주에 산전 진료를 위해 내원했다. 이전 임신은 모두 임신 8~10주 사이 자연유산으로 끝났다. 건강하지만 또 유산할까 걱정한다. 하지에 자반성 그물망 발진이 있고 혈소판 120,000/mm³, PT 13초, PTT 49초, 항β2 당단백질-1 항체 양성이다. 다음 중 가장 적절한 치료의 다음 단계는?
+34세 G4P0 여성이 임신 8주에 산전 진료를 위해 내원했다. 이전 임신은 모두 임신 8~10주 사이 자연유산으로 끝났다. 건강하지만 또 유산할까 걱정한다. 하지에 자반성 그물망 발진이 있고 혈소판 120,000/mm³, PT 13초, PTT 49초, 항β2 당단백질-1 항체 양성이다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

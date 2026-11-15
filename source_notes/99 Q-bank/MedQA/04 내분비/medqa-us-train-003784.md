@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KCA7Iug7J6lIChTaG9ydCBTdGF0dXJlKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv6rCA7KGx7ISxIOuLqOyLoOymnSAoRmFtaWxpYWwgU2hvcnQgU3RhdHVyZSkubWQ
-question_type: complication
+question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-6세 여아가 같은 반에서 가장 작고 키 때문에 놀림을 받아 내원했다. 키는 10백분위수, 낮은 헤어라인과 높은 아치형 입천장, 넓게 떨어진 유두, 손의 부종이 있었다. 다음 중 위험이 증가하는 합병증은?
+6세 여아가 핵형검사로 터너 증후군을 진단받았다. 심잡음이 없고 심혈관 증상도 없다. 진단 시 이첨대동맥판과 대동맥축착을 확인하기 위해 시행할 검사는?
 
 ## 선택지
 
-A. 신세포암
-B. 성조숙증
-C. 대동맥판막 기능부전
-D. 급성 림프모구성 백혈병
+A. 심전도만 시행
+B. 트레드밀 운동부하검사
+C. 경흉부 심장초음파
+D. 24시간 홀터검사
 
 ## 해설
 
-저신장·낮은 헤어라인·넓은 유두간격·손의 림프부종은 Turner 증후군을 시사한다. 이첨대동맥판과 대동맥축착 등 좌심계 기형 위험이 증가하며 이첨판은 역류/협착을 유발할 수 있어 선택지 C가 부합한다. 대동맥판 기능부전 자체가 Turner에서 항상 가장 흔한 합병증이라는 뜻은 아니다.
+정상 진찰만으로 터너 증후군에 동반되는 선천성 심혈관 이상을 배제할 수 없다. 진단 시 경흉부 심장초음파를 시행한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 급성 림프모구성 백혈병
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003784
+- https://doi.org/10.1093/ejendo/lvae050

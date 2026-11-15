@@ -17,9 +17,9 @@ related_diseases:
 related_disease_slugs:
   - MDgg6rCQ7Je8L-uLqOyInO2PrOynhCDqsJDsl7wgKEhlcnBlcyBTaW1wbGV4IEluZmVjdGlvbikubWQ
   - MDgg6rCQ7Je8L-uwlOydtOufrOyKpC5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강했던 15세 여아가 심한 두통이 시작된 지 24시간 후 응급실에 왔다. 3일 전 일주일간의 캠핑에서 돌아왔고 동굴 탐험과 민물 호수 수영을 했다. 초조하고 비협조적이며 사람에 대해서만 지남력이 있다. 체온 38.9°C, 맥박 112회/분, 호흡수 20회/분, 혈압 100/68 mmHg이고 사지에 딱지가 앉은 곤충 물린 자국이 여러 개 있다. 신경학적 검사에서 미만성 반사항진과 양측 신전성 족저반응이 보인다. 뇌 MRI에서 비대칭 양측 측두엽 고신호가 보이고 뇌척수액에 림프구 우세 백혈구증가와 단백질 상승이 있다. 다음 중 가장 가능성 높은 원인 병원체는?
+발열과 국소 발작을 보인 24세 환자의 MRI에서 비대칭 측두엽 이상이 보였다. 정맥 아시클로버를 시작했지만 증상 첫날 채취한 뇌척수액 HSV PCR은 음성이다. 의심이 여전히 높을 때 다음 조치는?
 
 ## 선택지
 
-A. 웨스트나일바이러스
-B. 라크로스바이러스
-C. 엔테로바이러스
-D. 단순포진바이러스
+A. 검사 한 번이 음성이므로 아시클로버를 바로 중단한다
+B. 정맥 아시클로버를 유지하면서 며칠 내 뇌척수액 HSV PCR을 다시 시행한다
+C. 정맥 치료를 중단하고 경구 아시클로버로 바꾼다
+D. 뇌척수액 대신 혈청 HSV IgG만으로 확진한다
 
 ## 해설
 
 
-급성 행동·의식 변화와 비대칭 양측 측두엽 고신호는 HSV 뇌염에 전형적이어서 D가 가장 가능하다. 림프구 우세와 단백 상승은 바이러스성 뇌염을 뒷받침하지만 HSV만의 전유 소견은 아니며 다른 원인도 감별한다. 캠핑 노출만으로 곤충매개 바이러스를 선택하기보다 병변의 측두엽 분포를 함께 해석한다.
+발병 초기에 채취하면 뇌척수액 HSV PCR이 위음성일 수 있다. 의심이 높으면 정맥 치료를 유지하고 재검하며 다른 원인도 함께 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 단순포진바이러스
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003179
+- https://doi.org/10.1111/ene.70647
+- https://academic.oup.com/cid/article/47/3/303/313455

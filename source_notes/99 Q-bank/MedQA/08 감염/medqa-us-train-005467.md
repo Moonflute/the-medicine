@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
   - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
-question_type: prognosis
+question_type: complication
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-HIV가 있는 43세 남자가 15일 동안 발열, 야간발한, 두통과 전신쇠약으로 내원했다. 정맥주사 약물 사용력이 있고 흡기 시 커지는 좌측 흉골연의 전수축기 잡음이 들린다. 백혈구 12,800/mm³, ESR 52 mm/h, CD4 450 cells/mm³이다. 이 질환의 가장 가능성 높은 후유증은?
+삼첨판 감염성 심내막염 환자에게 흉막성 흉통과 혈담이 생겼다. 흉부 CT에서 양쪽 폐 말초에 공동을 동반한 결절이 여러 개 보인다. 가장 가능성 높은 합병증은?
 
 ## 선택지
 
-A. 폐색전증
-B. 손가락 끝 패드의 통증성 결절
-C. 손발톱 밑 출혈
-D. 망막출혈
+A. 패혈성 폐색전
+B. 심부정맥혈전증에 의한 일반 폐색전
+C. 심부전으로 인한 폐부종
+D. 석회화된 폐 육아종
 
 ## 해설
 
 
-주사약물 사용·지속 발열과 흡기 시 커지는 전수축기 잡음은 우측 삼첨판 감염성 심내막염을 시사한다. 우심계 감염 식생이 떨어져 폐혈관으로 이동하는 패혈성 폐색전 A가 중요한 합병증이다. 단순 하지 DVT의 비감염성 혈전색전이나 기존 폐렴 병력이 확정된 것처럼 설명하지 않는다. 손끝 결절·Roth 반점 등은 IE에서 가능하지만 이 사례의 우심계 색전 경로와 구별한다.
+우측 판막 증식물에서 떨어져 나온 감염성 물질은 폐로 갈 수 있다. 폐 말초의 다발성 결절과 공동은 패혈성 폐색전에 부합한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 망막출혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005467
+- https://doi.org/10.1093/eurheartj/ehad193

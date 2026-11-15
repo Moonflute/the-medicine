@@ -17,6 +17,7 @@ question_type: biostatistics
 related_disease_slugs: []
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct

@@ -16,11 +16,11 @@ related_diseases:
   - "glycogen and lipid accumulation"
 related_disease_slugs:
   - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
-question_type: risk_factor
+question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 여성의 복부 초음파에서 여러 간 종괴가 발견되었다. 생검에서 정상 간세포보다 큰 선종 세포 판과 글리코겐 및 지질이 보였고 정상 격막, 문맥, 담관은 없었다. 다음 중 이 상태와 관련된 것은?
+에스트로겐 함유 피임약을 복용하는 45세 여성의 MRI에서 3.2 cm 간세포선종이 확인됐다. 무증상이고 출혈이나 악성 고위험 소견은 없다. 우선 할 일은?
 
 ## 선택지
 
-A. 사염화탄소
-B. 아플라톡신
-C. 경구피임약
-D. 흡연
+A. 즉시 간 절제술
+B. 피임약을 유지하고 추적 영상을 하지 않는다.
+C. 에스트로겐 함유 피임약을 중단하고 영상으로 추적한다.
+D. 예방적 간동맥 색전술
 
 ## 해설
 
 
-간 선종은 경구 피임약(에스트로겐/프로게스틴) 장기간 복용과 강하게 연관된다. 호르몬 노출이 간세포 증식을 촉진해 선종을 유발한다. 따라서 정답은 경구피임약이다.
+고위험 소견이 없는 여성의 5 cm 미만 간세포선종은 에스트로겐 노출을 중단하고 크기 변화를 영상으로 추적할 수 있다. 크기가 커지거나 고위험 소견이 나타나면 치료 방침을 다시 정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 흡연
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003696
+- https://doi.org/10.14309/ajg.0000000000002857

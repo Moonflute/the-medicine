@@ -15,11 +15,11 @@ related_diseases:
   - "결정뇨"
 related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
-question_type: investigation
+question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,24 +38,25 @@ medical_review_status: "content-reviewed"
 
 ## 문제
 
-정맥주사 아시클로버 치료를 시작했다. 3일 후 점점 심해지는 피로, 두통, 오른쪽 옆구리의 산통이 발생했다. 체온 36.7°C, 맥박 분당 85회, 혈압 135/80 mmHg이다. 진찰에서 새로운 병변은 없다. 혈색소 11.3 g/dL, 혈청 Na⁺ 140 mEq/L, Cl⁻ 99 mEq/L, K⁺ 5.5 mEq/L, HCO₃⁻ 22 mEq/L, 요소질소 56 mg/dL, 크레아티닌 3.2 mg/dL이다. 다음 중 요검사에서 가장 가능성 높은 소견은?
+정맥 아시클로버를 시작한 지 이틀 만에 옆구리 통증과 급성 신손상이 생겼다. 약물은 최근 빠르게 주입됐고, 소변에는 바늘 모양 결정이 보인다. 가장 적절한 대응은?
 
 ## 선택지
 
-A. 호산구와 적혈구
-B. 그람음성 막대균과 백혈구 원주
-C. 결정체와 백혈구
-D. 지방 원주와 단백뇨
+A. 신장 기능과 관계없이 같은 속도와 용량으로 계속 투여한다
+B. 루프 이뇨제만 추가하고 같은 투약을 유지한다
+C. 약제와 투여 방법을 즉시 재검토하고 체액 상태에 맞춰 수분을 보충한다
+D. 요검사 결과와 무관하게 고용량 스테로이드를 먼저 투여한다
 
 ## 해설
 
 
-아시클로버는 신장에서 결정이 형성되어 급성 신손상을 일으키며, 소변에 결정과 백혈구가 동반된다. 따라서 소변에서 결정체와 백혈구가 가장 가능성 있다.
+정맥 아시클로버는 세뇨관 내 결정 침착으로 신손상을 일으킬 수 있다. 약의 필요성, 용량과 주입 속도를 즉시 검토하고, 계속 투여가 필요하면 신기능에 맞춘 용량과 적절한 수액·주입 속도를 적용한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009826
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/dosing-recommendations-drugs-used
 
 ## 검수 근거
 

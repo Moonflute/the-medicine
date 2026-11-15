@@ -15,7 +15,7 @@ related_diseases:
   - "migratory polyarthritis"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
-question_type: diagnosis
+question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-14세 남자가 3일간 발열, 권태감, 심한 오른쪽 무릎 통증과 부종으로 내원했다. 같은 기간 복통과 코피가 있었고 5일 전 부어 아팠던 왼쪽 발목은 호전되었다. 3주 전 숲에서 캠핑 중 인후통이 있어 대증치료를 받았다. 체온 38.7°C, 맥박 119회/분, 혈압 90/60 mmHg이다. 오른쪽 무릎은 붓고 압통이 있으며 운동 범위가 제한된다. 팔꿈치에 통증 없는 3~4 mm 결절이 있다. 심폐 진찰은 정상이다. 혈색소 12.3 g/dL, 백혈구 11,800/mm³, ESR 58 mm/시간이다. 관절천자에서 맑은 황색 액체가 나오고 그람염색에서 균은 보이지 않으며 백혈구 1,350/mm³(호중구 17%)이다. 가장 가능성 높은 진단은 무엇인가?
+14세 남자가 급성 류마티스열과 승모판염 치료 후 회복했다. 페니실린 알레르기는 없다. 재발과 판막 손상 진행을 막기 위한 퇴원 후 계획은?
 
 ## 선택지
 
-A. 급성 류마티스열
-B. 라임병
-C. 가와사키병
-D. 소아 특발성 관절염
+A. 장기 벤자틴 페니실린 G 근육주사 예방요법
+B. 이번 항생제 치료가 끝나면 예방은 하지 않는다
+C. 인후통이 생길 때만 임의로 남은 항생제를 먹는다
+D. 장기 아스피린만 복용한다
 
 ## 해설
 
 
-인두염3주 뒤 이동성 큰관절염과 통증 없는 피하결절, 발열 및 염증수치 상승은 acute rheumatic fever A를 시사한다. 원문 심폐진찰은 정상으로 심잡음이 있다고 만들어 설명하면 안 된다. 확진에는 위험군에 맞는 Jones 기준과 선행 GAS 증거를 확인하고 심초음파로 subclinical carditis도 평가한다. 단회 Gram 음성 관절액만으로 모든 감염을 배제하지 않는다.
+급성 류마티스열을 앓은 뒤에는 재발을 막기 위한 항생제 예방이 필요하다. 벤자틴 페니실린 G 근육주사가 우선이며, 기간은 심장 침범과 판막 상태에 따라 결정한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 소아 특발성 관절염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009545
+- https://www.who.int/publications/i/item/9789240100077

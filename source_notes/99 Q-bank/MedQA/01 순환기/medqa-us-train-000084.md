@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
   - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
-question_type: management
+question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -40,19 +40,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 여성이 정기 건강검진을 위해 일차 진료 의사를 방문했습니다. 환자는 현재 특별한 불편함은 없으며 건강 상태를 확인하고 싶어 합니다. 과거력상 천식, 고혈압, 불안 장애가 있습니다. 현재 복용 중인 약물은 알부테롤(albuterol), 플루티카손(fluticasone), 하이드로클로로티아자이드(hydrochlorothiazide), 리시노프릴(lisinopril), 펙소페나딘(fexofenadine)입니다. 체온은 99.5°F(37.5°C), 혈압은 165/95 mmHg, 맥박은 70회/분, 호흡수는 15회/분, 실내 공기에서의 산소 포화도는 98%입니다. 신체 검진상 마른 체형의 건강한 젊은 여성입니다. 심장 검진에서 S1 및 S2 심음이 정상 속도로 들립니다. 폐 검진에서 양측 폐음은 깨끗하며 공기 이동이 원활합니다. 복부 검진에서 혈관 잡음(bruit)이 들리고, 장음은 정상이며, 복명(borborygmus)이 들립니다. 신경학적 검진에서 뇌신경 II-XII는 정상이며 상하지의 근력과 반사도 정상입니다. 다음 중 가장 적절한 다음 관리 단계는 무엇입니까?
+32세 여성이 적절한 용량의 혈압약 세 가지를 복용해도 혈압이 165/95 mmHg이다. 복약을 지키고 가정혈압도 높다. 상복부 옆쪽에서 혈관잡음이 들리며 콩팥기능은 안정적이다. 숙련된 검사가 가능한 곳에서 신동맥 협착을 비침습적으로 평가할 검사는?
 
 ## 선택지
 
-A. 리시노프릴 용량 증량
-B. 푸로세미드(furosemide) 추가
-C. 도플러 초음파 검사
-D. 추가적인 관리 불필요
+A. 운동부하 심전도
+B. 신장 단순 X선
+C. 신동맥 이중 도플러 초음파
+D. 정맥 신우조영술
 
 ## 해설
 
 
-고혈압 환자에게 복부 혈관 잡음이 들리면 신동맥 협착을 의심한다. 진단을 위해 비침습적 혈관 영상인 도플러 초음파 검사가 가장 적절하다. 따라서 다음 관리 단계는 도플러 초음파 검사이다.
+젊은 환자의 조절되지 않는 고혈압과 옆구리 혈관잡음은 섬유근이형성증 등을 포함한 신혈관성 고혈압을 의심하게 한다. 경험 있는 검사실에서 도플러 초음파로 혈류를 평가할 수 있다. 상황에 따라 CT·MR 혈관조영도 고려한다.
 
 ## 검수 근거
 

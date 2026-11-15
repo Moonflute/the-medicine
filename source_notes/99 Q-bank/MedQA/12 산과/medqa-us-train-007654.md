@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,7 +39,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 28주인 26세 여성(임신 2회, 출산 1회)이 산전 진찰을 위해 내원했다. 특별한 증상은 없다. 첫 임신과 분만은 합병증 없이 진행되었다. 체온은 37.2°C(99°F), 혈압은 163/105 mm Hg이다. 10주 전 혈압은 128/84 mm Hg였고, 2주 전 진료에서는 142/92 mm Hg였다. 골반검사에서 자궁 크기는 임신 28주에 해당한다. 전혈구검사와 전해질, 크레아티닌, 간 트랜스아미나제 혈청 농도는 정상 범위이다. 소변검사도 정상이다. 다음 중 가장 적절한 다음 처치는?
+임신 28주인 26세 여성(임신 2회, 출산 1회)이 산전 진찰을 위해 내원했다. 특별한 증상은 없다. 첫 임신과 분만은 합병증 없이 진행되었다. 체온은 37.2°C(99°F), 혈압은 163/105 mm Hg이다. 10주 전 혈압은 128/84 mm Hg였고, 2주 전 진료에서는 142/92 mm Hg였다. 골반검사에서 자궁 크기는 임신 28주에 해당한다. 전혈구검사와 전해질, 크레아티닌, 간 트랜스아미나제 혈청 농도는 정상 범위이다. 소변검사도 정상이다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

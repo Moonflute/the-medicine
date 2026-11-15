@@ -15,9 +15,9 @@ related_diseases:
   - "세페핌"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
-question_type: management
+question_type: prevention
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-절제할 수 없는 소세포폐암으로 여러 화학요법을 받은 52세 남성이 2일간의 발열로 응급실에 왔다. 마지막 시스플라틴과 에토포사이드 치료는 10일 전에 끝났다. 체온은 38.5°C, 혈압은 100/60 mm Hg, 맥박은 115회/분이며 백혈구 4,000/mm³, 총 호중구 비율 8%이다. 혈액배양 검체를 채취했다. 가장 적절한 다음 처치는?
+소세포폐암 환자가 항암치료 첫 주기 뒤 발열성 호중구감소증으로 입원했다가 회복했다. 첫 주기에는 예방적 G-CSF를 사용하지 않았다. 치료 목적상 투여 간격과 용량을 유지하는 것이 중요하다. 다음 주기에 재발을 줄일 조치는?
 
 ## 선택지
 
-A. 세페핌
-B. 피페라실린
-C. 클린다마이신
-D. 고해상도 흉부 CT
+A. 발열이 없을 때도 반코마이신을 정맥 투여한다
+B. 한 번 회복했으므로 모든 예방을 생략한다
+C. 반드시 용량을 줄이고 다른 방법은 고려하지 않는다
+D. 다음 주기부터 G-CSF 이차 예방을 고려한다
 
 ## 해설
 
 
-백혈구 4,000/µL의 호중구 8%이면 ANC는 약 320/µL이며 항암 후 발열 38.5°C와 함께 발열성 호중구감소증에 해당한다. 배양 검체를 신속히 채취하되 영상 결과 때문에 항생제를 지연하지 않고 항녹농균 활성이 있는 정주 cefepime A 같은 경험적 치료를 시작한다. 신기능에 따라 용량을 조절하며 혈역학적 불안정·내성 위험·특정 감염 병소가 있으면 추가 또는 대체 항균 범위가 필요하다. Piperacillin 단독은 piperacillin-tazobactam과 같지 않다.
+이전 주기에 호중구감소 합병증이 있었고 치료 강도를 유지하는 것이 중요하면 G-CSF 이차 예방을 고려한다. 감량·연기도 치료 목표에 따라 가능한 대안이다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ D. 고해상도 흉부 CT
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000960
+- https://doi.org/10.1200/JCO-25-02938

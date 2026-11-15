@@ -18,9 +18,9 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-2XpO2MjOumsCDsnKDrsJwg7ZiI7IaM7YyQ6rCQ7IaM7KadIChIZXBhcmluLUluZHVjZWQgVGhyb21ib2N5dG9wZW5pYSwgSElUKS5tZA
   - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-64세 남자가 갑자기 시작된 흉막성 흉통과 운동 시 호흡곤란으로 응급실에 왔다. 폐암으로 외래 화학요법 중이다. 체온 98.9°F(37.2°C), 혈압 111/64 mmHg, 맥박 130회/분, 호흡수 25회/분, 산소포화도 90%이다. CT 혈관조영술에서 폐혈관 혈전이 보이고 헤파린을 시작했다. 6일 후 혈소판이 157,000에서 22,000/mm³로 감소했다. 가장 적절한 다음 처치는?
+폐색전증으로 헤파린을 시작한 환자의 6일째 혈소판이 15만에서 4만/μL로 떨어졌고 새 하지 혈전이 생겼다. 헤파린 유발 혈소판감소증이 강하게 의심된다. 확인검사를 보내면서 할 처치는?
 
 ## 선택지
 
-A. 수혈
-B. 치료 변경 불필요
-C. 혈소판 수혈
-D. 헤파린 중단
+A. 모든 헤파린을 중단하고 비헤파린 항응고제로 전환한다
+B. 저분자량 헤파린으로 바꾼다
+C. 헤파린을 유지하며 혈소판만 수혈한다
+D. 헤파린을 유지하면서 와파린 단독을 추가한다
 
 ## 해설
 
 
-헤파린 투여 후 5~10일 내 혈소판이 급격히 감소하면 헤파린 유도 혈소판 감소증(HIT) 가능성이 높으며, 즉시 헤파린을 중단하고 대체 항응고제로 전환해야 한다.
+헤파린 시작 5–10일 뒤 혈소판이 크게 줄고 새 혈전이 생기면 HIT를 강하게 의심한다. 확진을 기다리는 동안에도 모든 헤파린을 중단하고 비헤파린 항응고제를 시작한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008301
+- https://www.hematology.org/resources/clinical-practice-guidelines/venous-thromboembolism-guidelines/heparin-induced-thrombocytopenia

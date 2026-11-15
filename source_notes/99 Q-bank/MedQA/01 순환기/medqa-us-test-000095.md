@@ -28,7 +28,7 @@ explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 흉부 자상·압전이라는 원래 사례를 유지하고 질문 시점을 이미 원문에 있는 삽관 전 자발호흡 상태로 명시해 양압환기와 기이맥의 충돌을 해소했다."
 curation_status: "revised"
 curation_reason: "흉부 자상·압전이라는 원래 사례를 유지하고 질문 시점을 이미 원문에 있는 삽관 전 자발호흡 상태로 명시해 양압환기와 기이맥의 충돌을 해소했다."

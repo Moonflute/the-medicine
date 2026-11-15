@@ -17,7 +17,7 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 question_type: management
 difficulty: standard
-answer: "D"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -39,23 +39,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-41세 여성이 6시간 동안 지속된 심한 파동성 오른쪽 옆구리 통증과 구역·구토로 응급실에 왔다. 소변검사에서 육안적 혈뇨가 있고 비조영 CT에서 오른쪽 요관신우이행부를 막는 4 mm 방사선불투과성 결석이 보인다. 정맥 수액과 온단세트론을 투여했다. 가장 적절한 다음 처치는?
+41세 비임신 여성이 4mm 요관결석에 의한 심한 산통으로 내원했다. 감염 소견이 없고 신기능은 정상이다. 소화성 궤양, 출혈 위험, NSAID 알레르기는 없다. 우선 사용할 진통제는?
 
 ## 선택지
 
-A. 신장 초음파
-B. 24시간 소변 화학검사
-C. 구연산칼륨
-D. 하이드로코돈/아세트아미노펜
+A. 경구 모르핀
+B. 정맥 펜타닐
+C. 경구 구연산칼륨
+D. NSAID 계열 진통제
 
 ## 해설
 
-현재 심한 통증이 조절되지 않았으므로 제시된 보기 중 진통제 투여 D가 우선이다. 실제 신산통에서는 금기가 없으면 NSAID가 일반적인 일차 약제이며 필요하면 다른 진통제를 추가한다. Hydrocodone/acetaminophen이 모든 환자의 일차 표준이라는 뜻은 아니다. 수액은 체액 상태에 맞춰 사용하며 강제 과수액으로 결석 배출을 촉진하지 않는다.
+금기가 없는 급성 신산통에는 NSAID가 우선 진통제다. 진통이 충분하지 않거나 금기가 있으면 다른 약제를 검토한다. 감염성 폐색이나 지속되는 조절 불능 통증에는 추가 처치가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001248
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10330415/
 
 ## 오답 포인트
 

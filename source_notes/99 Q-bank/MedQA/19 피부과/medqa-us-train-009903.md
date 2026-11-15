@@ -13,11 +13,11 @@ related_diseases:
   - "독성표피괴사용해"
   - "스티븐스-존슨 증후군"
   - "카르바마제핀"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-yKpO2LsOu4kOyKpC3sobTsiqgg7Kad7ZuE6rWwLeuPheyEsSDtkZztlLwg6rS07IKsIChTdGV2ZW5zLUpvaG5zb24gU3luZHJvbWUgLSBUb3hpYyBFcGlkZXJtYWwgTmVjcm9seXNpcykubWQ
 difficulty: simple
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 여성이 발열, 기침, 편도 비대, 입술 출혈로 응급실에 내원했다. 손바닥과 발바닥을 포함해 전신 체표면적의 55%를 덮는 미만성 수포성 발진이 있다. 가볍게 문지르면 표피 상층이 쉽게 벗겨진다. 24시간 이내 발진이 체표면적의 88%로 진행되었고 호흡곤란으로 기계환기가 필요하다. 다음 중 이 환자 상태의 가장 가능성 높은 원인은?
+카르바마제핀을 시작한 지 2주 된 환자가 발열, 눈과 입의 통증, 넓은 피부 박리로 내원했다. 스티븐스–존슨증후군·독성표피괴사용해가 의심된다. 지금 할 일은?
 
 ## 선택지
 
-A. 단순포진바이러스
-B. 전염성 연속종
-C. 카르바마제핀 노출
-D. 거대세포바이러스
+A. 의심 약을 즉시 중단하고 중증 피부·점막 손상에 대한 응급 입원 치료를 진행한다
+B. 생검 결과가 나올 때까지 카르바마제핀을 유지한다
+C. 약을 절반으로 줄이고 외래에서 추적한다
+D. 점막 침범과 별개로 국소 스테로이드만 바른다
 
 ## 해설
 
-전신의 급성 수포·점막 침범과 광범위 표피 박리는 SJS/TEN 스펙트럼의 중증 피부약물반응을 시사한다. 박리가 체표면적 30%를 넘으면 TEN으로 분류하며, 제시된 광범위 침범을 단순 SJS라 부르면 부정확하다. Carbamazepine(C)은 대표적인 유발 약물이다. 발진 전체 면적과 실제 박리 면적은 구분해 평가해야 한다.
+중증 피부약물반응이 의심되면 원인 약을 즉시 끊는다. 기도·체액·상처를 관리하고 안과를 포함한 다학제 평가를 지연하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 거대세포바이러스
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009903
+- https://onlinelibrary.wiley.com/doi/10.1111/ddg.15515

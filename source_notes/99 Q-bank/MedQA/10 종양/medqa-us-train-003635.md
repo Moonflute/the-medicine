@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
 question_type: management
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-진행성 췌장 전이 자궁경부암으로 복합항암치료를 받고 있는 40세 여성이 2주간의 식욕부진, 구강건조, 체중감소, 피로와 일상생활 수행 불능으로 내원했다. 마르고 창백하며 전신 쇠약과 골격근 위축이 있었다. 다음 중 가장 적절한 다음 처치는?
+진행암 항암치료 중인 64세 여성이 입맛 저하와 근육 감소로 체중이 8% 줄었다. 장폐색이나 삼킴곤란은 없고, 통증을 조절하고 영양 상담을 했지만 식욕 저하가 지속된다. 식욕과 체중 개선을 위해 고려할 약은?
 
 ## 선택지
 
-A. 미르타자핀
-B. 메게스트롤 아세테이트
-C. 사이프로헵타딘
-D. 인지행동치료
+A. 고용량 덱사메타손을 장기 사용
+B. 드로나비놀
+C. 저용량 올란자핀
+D. 메토클로프라미드 정기 복용
 
 ## 해설
 
 
-진행암의 식욕저하·체중감소·근육위축은 암성 악액증에 부합한다. 선택지 중 megestrol acetate(B)는 식욕과 체중 증가를 위해 고려할 수 있는 progestin이다. 증가 체중은 주로 지방이며 근육·기능·생존의 회복을 보장하지 않는다. 영양 상담과 가역적 원인 평가를 우선 병행하고 혈전·체액저류·부신억제 위험을 고려한다. 현행 ASCO는 저용량 olanzapine도 제안하므로 megestrol이 모든 환자의 유일한 1차약이라는 설명은 부정확하다.
+저용량 올란자핀은 항암치료 중 지속되는 식욕 저하와 체중 감소에 고려할 수 있다. 진정 등 이상반응을 확인하며, 약을 추가해도 영양 관리와 가역적 원인 교정은 계속한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 인지행동치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003635
+- https://pubmed.ncbi.nlm.nih.gov/37467399/

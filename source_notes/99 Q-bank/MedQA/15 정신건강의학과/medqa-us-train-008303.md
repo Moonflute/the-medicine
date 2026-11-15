@@ -13,12 +13,12 @@ related_diseases:
   - "major depressive disorder in older adults"
   - "suicide risk assessment"
   - "bereavement"
-question_type: management
+question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ygleyDgSDslaDrj4Qg67CY7J2RIChCZXJlYXZlbWVudCkubWQ
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,24 +35,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-82세 여성이 불면과 점점 심해지는 피로로 내원했다. 3개월 동안 일찍 깨고 밤에 다시 잠들기 어려웠으며 식욕이 감소하고 체중이 3.2 kg 줄었다. 남편이 사망한 후 아들과 며느리와 살면서 가족에게 부담이 될까 걱정하고 죄책감을 느낀다. 노인센터 모임을 즐기지 못해 중단했고 아들에게 차를 부탁하기도 미안해한다. 체질량지수는 21 kg/m²이고 활력징후와 신체검사는 정상이다. 정신상태검사에서 피곤하고 정동이 둔하지만 인지는 정상이다. 가장 적절한 초기 처치는?
+82세 여성이 불면, 흥미 저하, 체중 감소로 내원했다. 가족에게 짐이 된다고 반복해 말하며 모임도 끊었다. 우울증 치료를 정하기 전에 면담에서 먼저 확인할 것은?
 
 ## 선택지
 
-A. 성인보호서비스 신고
-B. 요양원으로 이주 권고
-C. 인지행동치료 시작
-D. 자살사고 평가
+A. 죽고 싶은 생각이나 자살 의도가 있는지 직접 묻는다
+B. 기억력 선별검사부터 시행한다
+C. 갑상샘 검사 결과가 나올 때까지 위험 평가는 미룬다
+D. 먼저 가족에게서 독립적으로 생활할 수 있는지 확인한다
 
 ## 해설
 
 
-노인에서 우울증 증상이 나타나면 자살 위험을 먼저 평가해야 하며, 급성 자살 위험이 있으면 즉시 평가와 안전 계획을 수립한다. 따라서 가장 적절한 초기 조치는 자살 사고 평가이다.
+노년기 우울 증상에 부담감과 사회적 위축이 동반되면 자살사고와 의도를 직접 묻는다. 답에 따라 안전 확보나 응급 평가가 필요한지 결정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008303
+- https://www.nice.org.uk/guidance/ng222/chapter/Recommendations
 
 ## 검수 근거
 

@@ -15,9 +15,9 @@ related_diseases:
   - "면역복합체 사구체신염"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-9세 여아가 3일 동안 얼굴과 발이 붓고 소변이 어두워졌으며 손발에 발진이 생겨 어머니와 함께 내원했다. 어머니는 딸이 8일 동안 미열, 호흡곤란 및 마른기침을 앓았다고 말한다. 전신 쇠약과 오른쪽 무릎 및 발목 통증도 있다. 출생 당시 심실중격결손을 진단받았다. 환자는 무기력해 보인다. 체온은 38.4°C(101.1°F), 맥박은 분당 130회, 호흡수는 분당 34회, 혈압은 110/60 mmHg이다. 손바닥, 발바닥 및 손발톱 아래에 작고 눌러도 사라지지 않는 자주색 병변이 보이고 눈꺼풀과 발에 부종이 있다. 안저검사에서 망막 출혈이 보인다. 범수축기 잡음과 초기 이완기 잡음이 들린다. 검사에서 혈색소 11.3 g/dL, 적혈구침강속도 61 mm/h, 백혈구 15,000/mm³, 혈소판 326,000/mm³이며 소변 혈액 4+, 포도당 음성, 단백 1+, 케톤 음성이다. 경흉부 심초음파에서 작은 유출로 심실중격결손과 경도의 우심실 비대가 보이지만 벽운동 이상, 판막 심장질환 또는 심장 펌프기능 저하는 없다. 혈액배양에서 Streptococcus pyogenes가 자랐다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+인공 대동맥판막을 가진 58세 환자가 발열하고, 혈액배양 두 세트에서 황색포도알균이 확인됐다. 경흉부 심초음파에서는 증식물이 보이지 않는다. 다음으로 가장 적절한 검사는?
 
 ## 선택지
 
-A. 감염성 심내막염
-B. 급성 림프모구성 백혈병
-C. 심근염
-D. 가와사키병
+A. 관상동맥 조영술
+B. 운동부하 심초음파
+C. 경식도 심초음파
+D. 24시간 심전도
 
 ## 해설
 
 
-선천 심장병 배경의 지속 발열·혈관/면역 소견·균혈증은 선택지 중 IE A를 가장 의심하게 한다. Streptococcus pyogenes는 흔한 전형 원인균은 아니나 IE를 일으킬 수 있다. TTE에서 식생이나 판막병이 없다는 이유만으로 배제하지 않고 임상 의심에 따라 반복 영상/TEE와 배양 등을 통합한다. 신염·출혈성 병변은 면역/색전 현상으로 해석하며 박리성이라는 질환명을 만들어내지 않는다.
+인공판막과 황색포도알균 균혈증이 있으면 경흉부 검사 음성만으로 심내막염을 배제할 수 없다. 경식도 심초음파로 증식물과 판막 주변 합병증을 확인한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 가와사키병
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005664
+- https://doi.org/10.1093/eurheartj/ehad193

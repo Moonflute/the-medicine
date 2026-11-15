@@ -16,9 +16,9 @@ related_diseases:
   - "Cat-scratch disease"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-usmOyGjOuzkSAoQ2F0IFNjcmF0Y2ggRGlzZWFzZSkubWQ
-question_type: management
+question_type: diagnosis
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,19 +39,19 @@ related_drug_slugs:
 
 ## 문제
 
-7세 여아가 2주 전 고양이에게 물린 왼쪽 허벅지의 붉은 구진과 오른쪽 액와 부종으로 내원했다. 발열, 간비장비대와 치유 중인 손의 홍반이 있다. 다음 중 가장 적절한 치료는?
+새끼 고양이에게 왼쪽 손등을 긁힌 12세 환자가 2주 뒤 왼쪽 겨드랑이 통증을 호소한다. 긁힌 자리에 작은 구진이 남아 있고 같은 쪽 겨드랑이에 압통성 림프절이 만져진다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 독시사이클린과 리팜핀
-B. 리팜핀과 아지스로마이신
-C. 치료가 필요하지 않다
-D. 림프절 수술적 절제
+A. 고양이할큄병
+B. 화농성 연쇄상구균 림프관염
+C. 감염성 단핵구증
+D. 결핵성 림프절염
 
 ## 해설
 
 
-고양이 노출·접종 피부 병변·림프절염에 발열과 간비장비대가 있어 단순 국소 CSD보다 파종/장기침범을 평가한다. 이런 소아 질환에서 rifampin+azithromycin B가 사용된 보고가 있어 선택지 중 부합한다. 단순 국소 CSD에는 관찰 또는 azithromycin만 고려할 수도 있으므로 모든 고양이긁힘병의 보편적 병용 표준이라고 단정하지 않는다. 왼쪽 허벅지 노출과 오른쪽 액와/왼손 병변의 원문 부위도 그대로 두고 혈청/조직·영상으로 확인한다.
+접촉 부위의 구진 뒤 그 부위를 배액하는 국소 림프절이 커지는 양상은 고양이할큄병에 부합한다. 급성 림프관염에서는 선형 홍반과 빠른 진행이 더 흔하다.
 
 ## 검수 근거
 

@@ -16,11 +16,11 @@ related_diseases:
   - "Sickle cell disease"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
-question_type: diagnosis
+question_type: management
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-23세 남성이 심한 통증으로 응급실에 왔다. 건설 노동자로 일하던 중 팔, 다리, 가슴 및 등에 갑작스러운 심한 통증이 발생했다. 2개월 전에도 비슷한 증상으로 치료받은 적이 있다. 체온은 100°F(37.8°C), 혈압은 127/68 mmHg, 맥박은 분당 120회, 호흡수는 분당 17회, 실내 공기 산소포화도는 98%이다. 사지, 가슴, 복부 및 팔을 누르면 압통이 있고 혈색소 10 g/dL, LDH 327 U/L 외에는 검사에서 특이소견이 없다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+겸상적혈구병이 있는 환자가 양쪽 허벅지와 허리의 심한 통증으로 응급실에 왔다. 이전 통증 위기와 같다고 한다. 산소포화도는 98%이고 아직 흉통·호흡기 증상은 없다. 합병증을 평가하는 동안 우선 할 처치는?
 
 ## 선택지
 
-A. 자가면역 용혈
-B. 주요 장기 경색
-C. 뼈 감염
-D. 미세혈관 폐쇄
+A. 혈액검사가 모두 끝날 때까지 진통을 보류한다
+B. 산소포화도가 정상이어도 고농도 산소만 우선 투여한다
+C. 이전 효과와 통증 강도를 고려한 진통제를 신속히 투여하고 반응을 반복 평가한다
+D. 통증이 심하면 적혈구 교환수혈을 일률적으로 시행한다
 
 ## 해설
 
 
-급성 통증 발작, 빈혈, LDH 상승은 겸상 적혈구 위기와 연관된 미세혈관 폐쇄를 시사한다. 이는 겸상세포병의 전형적인 급성 합병증이다. 자가면역 용혈이나 장기 경색은 다른 임상 양상을 보인다.
+혈관폐쇄성 통증 위기는 합병증 평가와 병행해 신속히 진통하고 자주 재평가한다. 단순 통증 위기에서 정상 산소포화도에 대한 일률적 산소나 교환수혈이 초기 진통을 대신하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 미세혈관 폐쇄
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006135
+- https://doi.org/10.1182/bloodadvances.2020001851

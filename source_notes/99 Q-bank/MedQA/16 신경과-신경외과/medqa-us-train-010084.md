@@ -13,11 +13,11 @@ related_diseases:
   - "손목터널증후군"
   - "정중신경병증"
   - "신경전도검사"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-44세 여성이 오른손에 반복되는 통증으로 일차진료의에게 내원했다. 통증은 밤에 가장 심해 여러 번 잠에서 깬다. 통증이 생기면 즉시 따뜻한 물에 손을 담그거나 손을 흔든다. 해당 손에 무감각 증상도 있다. 운전하거나 오른팔을 펴면 증상이 유발된다. 손 외상이나 동반된 근력 약화는 없다. 레보티록신으로 치료 중인 갑상선기능저하증 병력이 있다. 법률회사 비서로 일한다. 손목을 과도하게 굽히면 오른손 첫 세 손가락에 통증과 감각이상이 생긴다. 이 환자에서 확진에 사용하는 검사는?
+44세 여성이 밤에 엄지·검지·중지가 저려 깬다. 손목을 굽히면 재현되고 손을 흔들면 줄어든다. 엄지 힘과 무지구는 정상이다. 증상이 가벼운 전형적 손목터널증후군에서 우선 시도할 처치는?
 
 ## 선택지
 
-A. 자기공명영상
-B. 신경전도검사
-C. 신경 생검
-D. 틴엘 검사
+A. 밤에 손목을 중립으로 유지하는 보조기
+B. 밤에 손목을 굽혀 고정하는 보조기
+C. 즉시 손목터널 감압술
+D. 장기간 경구 스테로이드
 
 ## 해설
 
-야간 정중신경 영역 증상과 손목 굴곡 유발은 수근관증후군에 맞는다. 신경전도검사(B)는 손목 부위 정중신경 전도 이상을 확인하고 중증도·다른 신경병증을 평가할 수 있다. 다만 현행 AAOS 지침은 전형적 사례에서 CTS-6 등 임상적 평가를 활용할 수 있어 모든 환자에게 일률적으로 NCS를 요구하지는 않는다. Tinel 검사는 보조 유발징후이고 MRI나 신경생검은 통상적인 확인검사가 아니다.
+운동 약화나 무지구 위축이 없는 가벼운 손목터널증후군에는 야간 중립 손목 보조기를 먼저 시도할 수 있다. 전형적 소견에서 모든 환자에게 신경전도검사가 필요한 것은 아니다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 틴엘 검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010084
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11928260/

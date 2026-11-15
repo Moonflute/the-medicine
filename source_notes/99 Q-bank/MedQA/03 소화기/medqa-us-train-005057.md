@@ -15,7 +15,7 @@ related_diseases:
   - "간 굴모세혈관 압력 증가"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA
-question_type: mechanism
+question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-간경변이 있는 58세 남자가 복부 둘레 증가와 조기 포만감으로 내원했다. 거미혈관종, 경한 비장비대, 단단하게 만져지는 간, 이동탁음이 있다. 복부 초음파에서 복수가 확인되었고 진단적 복수천자에서 다형핵세포 10개/mm³, 복수 단백 1 g/dL이다. 이 환자의 복수 발생 기전을 가장 잘 설명하는 것은?
+58세 남성이 새 복수로 진단적 복수천자를 받았다. 같은 날 혈청 알부민은 3.1 g/dL, 복수 알부민은 1.3 g/dL이다. 복수 총단백은 1.6 g/dL이고, 비장비대와 결절성 간 표면이 보인다. 검사 결과에 가장 부합하는 복수의 원인은?
 
 ## 선택지
 
 A. 복막 암종증
-B. 장막염
-C. 높은 굴모세혈관 압력
-D. 췌장 질환
+B. 췌관 누출
+C. 간경변에 따른 문맥고혈압
+D. 결핵성 복막염
 
 ## 해설
 
-문맥고혈압은 간 굴모세혈관(sinusoid)의 정수압을 높여 복수 C에 기여한다. 내장혈관 확장·Na수분저류도 관련된다. PMN10은 SBP 진단 범위가 아니다.
+혈청–복수 알부민차(SAAG)는 1.8 g/dL로, 1.1 g/dL 이상이면 문맥고혈압을 지지한다. SAAG가 높으면서 복수 단백은 낮고 간경변 소견이 있어 심장성 복수보다 간경변성 복수에 부합한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 췌장 질환
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005057
+- https://doi.org/10.3350/cmh.2026.0281

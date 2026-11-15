@@ -16,9 +16,9 @@ related_diseases:
   - "만성 물 설사"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
-question_type: diagnosis
+question_type: management
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-48세 남자가 수 주 동안 지속된 물 설사와 발열을 동반한 오른쪽 상복부 통증으로 내원했다. 권태감, 오심, 식욕부진도 있다. HIV 양성으로 항레트로바이러스 치료 중이지만 약을 잘 복용하지 않는다. 체온은 37°C(98.6°F), 호흡수 15회/분, 맥박 70회/분, 혈압 100/84 mmHg이다. 신체검사는 정상이다. 혈액검사에서 헤모글로빈 11 g/dL, 백혈구 수 3,400/mm³, 호중구 70%, 림프구 25%, 단핵구 5%, CD4+ 세포 수 88/mm³이다. 대변 현미경검사는 진행 중이다. 가장 가능성 높은 진단은 무엇인가?
+항레트로바이러스제를 중단한 HIV 환자에게 3주째 지속되는 물설사가 있다. CD4는 79/μL이고 대변 분자검사에서 크립토스포리디움이 확인됐다. 수분·전해질 보충과 함께 회복에 가장 중요한 치료는?
 
 ## 선택지
 
-A. 크립토스포리디움증
-B. 과민성 장 증후군
-C. 노로바이러스 감염
-D. ETEC에 의한 여행자 설사
+A. 고용량 스테로이드로 장 염증을 억제한다
+B. 설사가 없어질 때까지 HIV 치료를 보류한다
+C. 메트로니다졸 단독으로 치료한다
+D. 항레트로바이러스 치료를 재개해 면역 회복을 유도한다
 
 ## 해설
 
 
-CD4 88/µL와 지속적인 물설사·복통은 선택지 중 cryptosporidiosis A에 가장 부합한다. 진행 면역저하에서는 담도 침범으로 우상복부 증상이 생길 수도 있다. 다만 현재 체중감소는 본문에 없고 병원체 검사도 대기 중이므로 임의 추가하거나 확진되었다고 하지 않는다. 대변의 적절한 항원/분자/염색 검사로 확인한다.
+진행된 HIV 환자의 크립토스포리디움증에서는 효과적인 항레트로바이러스 치료를 통한 면역 회복이 핵심이다. 수분과 전해질도 보충하며, 항원충제를 고려하더라도 HIV 치료를 대신하지는 못한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ CD4 88/µL와 지속적인 물설사·복통은 선택지 중 cryptosporidiosis 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007634
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cryptosporidiosis

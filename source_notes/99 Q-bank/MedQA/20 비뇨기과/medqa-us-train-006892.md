@@ -13,13 +13,13 @@ related_diseases:
   - "후방 요도 손상"
   - "골반 골절"
   - "요도구 출혈"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yalOuPhCDshpDsg4EgKFVyZXRocmFsIGluanVyeSkubWQ
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-40세 해군 선원이 해군 함정 충돌 사고 20분 후 군 의료시설로 이송되었다. 아파 보이며 소변이 마려운데 볼 수 없다고 한다. 맥박은 분당 140회, 호흡수는 분당 28회, 혈압은 104/70 mm Hg이다. 골반 진찰에서 음낭과 회음부에 멍이 있고 치골상부 압통 및 요도구의 혈액이 보인다. 직장수지검사에서 전립선이 높이 위치해 있다. 복부 초음파에서 방광이 중등도로 팽창되어 있고 골반 X선에서 네 치골지 모두 골절되어 있다. 다음 중 증상의 가장 가능성 높은 원인은?
+교통사고로 골반 골절이 생긴 40세 남성이 소변을 보지 못한다. 요도 입구에 피가 보이고 회음부에 멍이 있다. 혈역학은 안정적이다. 요도 손상이 의심될 때 도뇨관을 무리하게 넣기 전에 할 검사는?
 
 ## 선택지
 
-A. 전방 요도 파열
-B. 음경해면체 파열
-C. 후방 요도 파열
-D. 요관 파열
+A. 방광 스캔만 시행한다
+B. 복부 단순촬영을 반복한다
+C. 요도 손상 평가 없이 도뇨관부터 넣는다
+D. 역행성 요도조영술
 
 ## 해설
 
 
-후방 요도 파열은 골반 골절과 연관되며, 혈뇨와 전립선 상승이 특징이다. 따라서 후방 요도 파열이 가장 가능성 있다.
+골반 골절 뒤 요도구에 피가 보이면 요도 손상을 의심한다. 안정된 남성에서는 역행성 요도조영술로 요도를 평가한다. 맹목적이거나 반복적인 도뇨 시도는 피한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006892
+- https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines

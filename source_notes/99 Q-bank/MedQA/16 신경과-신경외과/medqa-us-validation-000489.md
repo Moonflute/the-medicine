@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rs7jtg5zshLEg65ao66a8IChFc3NlbnRpYWwgdHJlbW9yKS5tZA
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-51세 여성이 수년간 점점 악화되는 양손 떨림으로 진료를 받으러 왔다. 컵이나 펜을 들 때 두드러지고 스트레스나 피로로 악화되며 휴식 시에는 손이 가만히 있다. 보행장애, 언어문제, 근력저하는 없다. 천식 악화로 입원한 적이 있어 살메테롤과 플루티카손을 복용한다. 가장 적절한 치료는?
+본태떨림이 있는 51세 환자가 손 떨림 때문에 글을 쓰기 어렵다. 최근 입원할 만큼 천식이 악화됐다. 프로프라놀롤을 피해야 하는 이 환자에서 근거가 있는 대안은?
 
 ## 선택지
 
-A. 바클로펜
-B. 프리미돈
-C. 프로프라놀롤
-D. 발프로산나트륨
+A. 프리미돈
+B. 레보도파/카비도파
+C. 바클로펜
+D. 페니토인
 
 ## 해설
 
-동작/자세 시 심해지고 안정 시 소실되는 양측 손 떨림은 본태성 떨림에 맞는다. Primidone(B)과 propranolol은 모두 효과가 입증된 약물이지만, 이 환자는 최근 입원이 필요했던 천식으로 비선택적 베타차단제의 위험이 있어 primidone이 적합하다. Primidone은 항경련제로 phenobarbital 등으로 대사되며 GABA-B 수용체 작용제가 아니다. GABA-B 작용제는 baclofen이다.
+프로프라놀롤은 비선택적 베타차단제라 천식에서 기관지 수축을 일으킬 수 있다. 프리미돈은 대안이며 시작할 때 졸림과 어지럼에 주의한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 발프로산나트륨
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000489
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3208950/

@@ -18,7 +18,7 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -33,19 +33,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 남성이 지난 2일간 점진적으로 악화되는 기침, 쌕쌕거림(wheezes), 가슴 답답함으로 응급실에 내원했다. 환자는 중등도 지속성 천식(moderate persistent asthma) 병력이 있으며, 유지 요법으로 흡입용 코르티코스테로이드, 지속성 베타 작용제(long-acting beta-agonist), 그리고 구제 요법으로 알부테롤(albuterol)을 사용하고 있다. 구제 흡입기 사용을 늘렸음에도 증상이 호전되지 않았다. 환자는 호흡기 감염 증상이 있는 사람과 접촉한 적이 있다고 보고했다. 체온은 37.4°C, 혈압은 101/68 mm Hg, 심박수는 분당 99회, 호흡수는 분당 32회이다. 신체 검진상 전반적인 다성 쌕쌕거림(polyphonic wheezes)이 들리지만 공기 유입은 양측이 대칭적이다. 실내 공기 상태에서 산소 포화도는 92%이다. 다음 중 어떤 소견이 이 환자의 상태를 생명을 위협하는(life-threatening) 상태로 분류하게 하는가?
+27세 남성이 중증 천식 악화로 응급실에서 반복 흡입 치료를 받고 있다. 호흡수는 분당 34회로 여전히 빠르다. 여러 소견 중 환기가 나빠지고 있을 가능성을 가장 강하게 시사하는 것은?
 
 ## 선택지
 
-A. 최대 호기 유속(PEFR) >70%
-B. 일상 활동을 제한하는 호흡곤란
-C. 치료 시작 후 3일 이상 지속되는 증상
-D. 호흡성 산증(respiratory acidosis)
+A. 대화가 가능해지고 산소포화도가 개선된다
+B. 최대호기유량이 점차 증가한다
+C. 치료 뒤 천명과 호흡수가 함께 줄고 의식은 명료하다
+D. PaCO₂가 점차 올라가면서 동맥혈 pH가 떨어진다
 
 ## 해설
 
 
-환자의 호흡곤란과 저산소증에 동반된 호흡성 산증은 가스 교환이 급격히 악화된 것을 의미한다. 호흡성 산증은 천식 악화 시 생명을 위협하는 위기 상태의 핵심 판단 기준이다. 따라서 호흡성 산증이 존재하면 life‑threatening asthma로 분류한다.
+심한 천식 악화 초반에는 과호흡 때문에 PaCO₂가 낮기 쉽다. 호흡곤란이 지속되는데 PaCO₂가 올라가고 산증이 나타나면 호흡근 피로와 환기부전을 의심해 기도 확보 필요성을 신속히 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 호흡성 산증(respiratory acidosis)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000892
+- https://new.lungkorea.org/board/guide/view/14959
+- https://ginasthma.org/2026-gina-strategy-report/

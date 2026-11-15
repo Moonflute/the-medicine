@@ -13,12 +13,12 @@ related_diseases:
   - "dermatitis herpetiformis"
   - "포진상 피부염"
   - "celiac disease"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-uMgOyDgSDtj6zsp4QgKEhlcnBlcyBab3N0ZXIpLm1k
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA
 difficulty: simple
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 남자가 가려운 발진으로 내원했다. 그 외 문진은 정상이다. 진찰에서 홍반을 바탕으로 등 상부에 딱지가 있는 소수포 군집과 주변 부종이 보인다. 진단을 확정하는 데 도움이 될 추가 소견은 무엇인가?
+22세 남성의 양쪽 팔꿈치와 무릎에 심하게 가려운 작은 군집 수포가 반복된다. 포진피부염을 확진하는 검사는?
 
 ## 선택지
 
-A. 부갑상선기능항진증
-B. 제2형 당뇨병
-C. 철결핍성 빈혈
-D. 육안적 혈뇨
+A. 수포액의 단순포진바이러스 PCR
+B. 수포 주변의 정상처럼 보이는 피부를 이용한 직접면역형광
+C. 항핵항체 검사
+D. 말초혈액 철 검사
 
 ## 해설
 
-심한 소양성 군집 수포는 포진상피부염을 시사한다. 연관 celiac disease의 흡수장애로 철결핍빈혈(C)이 동반될 수 있어 선지 중 진단을 지지하는 추가 소견으로 가장 적절하다. 철결핍빈혈만으로 피부 진단을 확정할 수는 없으며 병변 분포·직접면역형광·관련 혈청검사 등과 함께 평가한다.
+포진피부염에서는 병변 바로 옆의 비병변 피부를 채취해 직접면역형광으로 진피 유두의 과립상 IgA 침착을 확인한다. 철결핍은 동반될 수 있지만 피부 진단을 확정하지 못한다.
 
 ## 검수 근거
 

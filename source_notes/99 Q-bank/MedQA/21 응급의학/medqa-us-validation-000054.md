@@ -17,7 +17,7 @@ question_type: mechanism
 related_disease_slugs:
   - MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 남성이 신체 표면적 30%의 2·3도 화상으로 중환자실에 입원했다. 수액, 항생제, 진통제를 투여한 지 24시간 후 호흡곤란과 흡기성 천명이 생겨 신속연속삽관이 필요했다. 이때 숙시닐콜린을 투여하면 가장 가능성 높은 합병증은?
+체표면적 30% 화상을 입은 지 열흘 된 환자가 수술을 위해 재삽관을 준비한다. 숙시닐콜린을 피해야 하는 직접적인 이유는?
 
 ## 선택지
 
-A. 지속성 근력저하
-B. 악성 고체온증
-C. 심장 부정맥
-D. 호흡억제
+A. 칼륨이 급상승해 치명적 부정맥이 생길 수 있다
+B. 혈당이 급격히 내려갈 수 있다
+C. 나트륨이 감소해 뇌부종이 생긴다
+D. 억제되지 않는 저칼슘혈증이 생긴다
 
 ## 해설
 
-대화상 뒤에는 근육의 접합부 외 니코틴성 아세틸콜린 수용체가 증가하여 숙시닐콜린 투여 시 칼륨 유출이 커지고 치명적인 부정맥이나 심정지가 발생할 수 있다. 따라서 이 문항은 C의 고칼륨혈증성 심장 부정맥을 묻는다. 위험은 손상 후 시간에 따라 증가하며 정확한 시작과 지속 기간은 일정하지 않아, 24시간 전후를 절대적인 안전 경계로 삼아서는 안 된다. 급성기 이후 대화상은 약품 허가사항상 금기에 해당하며 다른 근이완제를 선택해야 한다. 악성 고열증도 가능한 부작용이지만 여기서 화상 병력이 강조하는 위험과는 다르다.
+큰 화상 뒤 근육의 접합부 밖 아세틸콜린 수용체가 늘어난다. 아급성기에 숙시닐콜린을 쓰면 칼륨 유출이 커져 심정지로 이어질 수 있다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 호흡억제
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000054
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/008845s080lbl.pdf

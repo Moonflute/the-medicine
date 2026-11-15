@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekO2PkCDsiqTtjpntirjrn7wg7J6l7JWgIChBdXRpc20gU3BlY3RydW0gRGlzb3JkZXIpLm1k
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-3세 남아가 건강검진을 위해 부모와 소아과에 왔다. 부모는 아미시 교인이고 아이는 이번이 첫 진료이다. 병력은 알려져 있지 않으며 임신 39주에 태어났다. 체온 98.3°F(36.8°C), 혈압 97/58 mmHg, 맥박 90회/분, 호흡수 23회/분, 산소포화도 99%이다. 아이는 구석에서 블록을 쌓고 있다. 의사와 눈을 맞추지 않고 질문에도 대답하지 않는다. 계속 블록으로 돌아가려 하고 블록을 보관함에 넣으면 매우 화를 낸다. 부모는 아직 말을 시작하지 않았고 집에서도 장난감 블록과 비슷한 행동을 자주 하며 가끔 팔꿈치를 문다고 한다. 다음 중 가장 적절한 다음 단계는?
+3세 남아가 건강검진을 위해 부모와 소아과에 왔다. 부모는 아미시 교인이고 아이는 이번이 첫 진료이다. 병력은 알려져 있지 않으며 임신 39주에 태어났다. 체온 98.3°F(36.8°C), 혈압 97/58 mmHg, 맥박 90회/분, 호흡수 23회/분, 산소포화도 99%이다. 아이는 구석에서 블록을 쌓고 있다. 의사와 눈을 맞추지 않고 질문에도 대답하지 않는다. 계속 블록으로 돌아가려 하고 블록을 보관함에 넣으면 매우 화를 낸다. 부모는 아직 말을 시작하지 않았고 집에서도 장난감 블록과 비슷한 행동을 자주 하며 가끔 팔꿈치를 문다고 한다. 가장 적절한 다음 단계는?
 
 ## 선택지
 

@@ -20,6 +20,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,7 +39,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-8세 남아가 하루 동안 무기력하고 여러 차례 오심과 구토가 있어 응급실에 내원했다. 2개월 동안 갈증이 증가했고 그동안 5.4 kg (11.9 lbs)이 감소했다. 그 외에는 건강하고 중증 질환 병력은 없다. 체온은 37.5°C (99.5°F), 혈압은 95/68 mm Hg, 맥박은 110회/분, 호흡수는 30회/분이다. 졸리고 약간 혼란스러우며 점막은 건조하다. 헤모글로빈 16.2 g/dL, 백혈구 9,500/mm3, 혈소판 380,000/mm3, 혈청 Na+ 130 mEq/L, K+ 5.5 mEq/L, Cl− 99 mEq/L, HCO3− 16 mEq/L, 크레아티닌 1.2 mg/dL, 포도당 570 mg/dL, 케톤 양성, 동맥혈 pH 7.25, pCO2 21 mm Hg이다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+8세 남아가 하루 동안 무기력하고 여러 차례 오심과 구토가 있어 응급실에 내원했다. 2개월 동안 갈증이 증가했고 그동안 5.4 kg (11.9 lbs)이 감소했다. 그 외에는 건강하고 중증 질환 병력은 없다. 체온은 37.5°C (99.5°F), 혈압은 95/68 mm Hg, 맥박은 110회/분, 호흡수는 30회/분이다. 졸리고 약간 혼란스러우며 점막은 건조하다. 헤모글로빈 16.2 g/dL, 백혈구 9,500/mm3, 혈소판 380,000/mm3, 혈청 Na+ 130 mEq/L, K+ 5.5 mEq/L, Cl− 99 mEq/L, HCO3− 16 mEq/L, 크레아티닌 1.2 mg/dL, 포도당 570 mg/dL, 케톤 양성, 동맥혈 pH 7.25, pCO2 21 mm Hg이다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

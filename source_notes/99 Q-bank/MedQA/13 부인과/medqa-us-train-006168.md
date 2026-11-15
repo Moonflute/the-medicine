@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-38세 여성이 1년 동안 임신이 되지 않아 일차진료를 받으러 왔다. 월경은 규칙적이고 남편과 매일 피임 없이 성관계를 한다. 호주에서 이민 왔고 과거력은 알려져 있지 않다. 엽산과 종합비타민을 복용하며 남편의 정자 수는 두 차례 정상으로 확인되었다. 임신이 되지 않아 자신이 너무 늙은 것 같아 매우 걱정한다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+38세 여성이 1년 동안 임신이 되지 않아 일차진료를 받으러 왔다. 월경은 규칙적이고 남편과 매일 피임 없이 성관계를 한다. 호주에서 이민 왔고 과거력은 알려져 있지 않다. 엽산과 종합비타민을 복용하며 남편의 정자 수는 두 차례 정상으로 확인되었다. 임신이 되지 않아 자신이 너무 늙은 것 같아 매우 걱정한다. 다음 중 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

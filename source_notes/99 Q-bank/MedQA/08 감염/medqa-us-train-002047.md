@@ -17,9 +17,9 @@ related_diseases:
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k
   - MDgg6rCQ7Je8L-yImOunieyVjOq3oCAoTWVuaW5nb2NvY2N1cykubWQ
-question_type: management
+question_type: prevention
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -44,19 +44,19 @@ related_drug_slugs:
 
 ## 문제
 
-이전에 건강했던 1세 남아가 2일간의 보챔과 발열로 응급실에 왔다. 증상은 가족과 캐나다 여행을 다녀온 직후 시작되었다. 만삭으로 태어났고 예방접종은 최신 상태이다. 6세 형은 건강하며 중대한 질환의 가족력은 없다. 아이는 쇠약하고 기면 상태로 보인다. 키는 50백분위수, 체중은 75백분위수이다. 체온 39.2°C, 맥박 110회/분, 호흡 28회/분, 혈압 92/55 mmHg이다. 신체검사에서 몸통과 사지에 지름 1 mm의 자주색 반점이 여러 개 보인다. 모세혈관 재충만 시간은 4초이다. 나머지 신체검사는 정상이다. 혈색소 12 g/dL, 백혈구 19,000/mm³, 혈소판 225,000/mm³이다. 요추천자를 시행했더니 뇌척수액에서 분절 호중구가 다량 보이고 포도당은 감소했으며 단백질은 증가했다. 다음 중 가장 적절한 치료의 다음 단계는?
+고열, 자반과 관류 저하가 있는 아이에서 침습성 수막구균 감염을 의심한다. 소생술과 경험적 항생제를 시작했다. 병원 내 초기 격리 방법은?
 
 ## 선택지
 
-A. 환자에게 암피실린을 투여하고 밀접 접촉자에게 시프로플록사신 예방요법을 시행한다
-B. 환자에게 세포탁심과 반코마이신을 투여하고 밀접 접촉자에게 독시사이클린 예방요법을 시행한다
-C. 환자에게 반코마이신을 투여하고 밀접 접촉자에게 리팜핀 예방요법을 시행한다
-D. 환자에게 세프트리악손과 반코마이신을 투여하고 밀접 접촉자에게 리팜핀 예방요법을 시행한다
+A. 표준주의만 시행한다
+B. 공기주의를 치료 종료까지 유지한다
+C. 표준주의에 비말주의를 병행하고 유효 항생제를 시작한 뒤 24시간까지 유지한다
+D. 접촉주의만 시행하고 기침이 멎으면 해제한다
 
 ## 해설
 
 
-점상자반·세균성 뇌척수액과 관류 지연이 있어 수막구균 감염을 강하게 의심하며 세균성 수막염·패혈증을 신속히 치료한다. D의 ceftriaxone과 vancomycin은 원인 미확정 세균성 수막염의 경험적 치료 맥락에서 적절하고, 수막구균의 밀접 접촉자는 예방약이 필요하다. 수막구균으로 확정되고 감수성이 확인되면 ceftriaxone 등으로 좁힐 수 있어 vancomycin을 끝까지 일률 병용하는 것은 아니다. Rifampin 예방요법은 1회가 아니라 통상 2일간이며 접촉 범위·금기·지역 내성에 맞춰 결정한다.
+침습성 수막구균 감염 의심 환자는 표준주의와 비말주의를 적용한다. 효과적인 항생제 투여를 시작하고 24시간이 지날 때까지 유지하며 밀접 접촉자는 별도로 평가한다.
 
 ## 검수 근거
 
@@ -70,3 +70,4 @@ D. 환자에게 세프트리악손과 반코마이신을 투여하고 밀접 접
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002047
+- https://kdca.go.kr/bbs/kdca/55/304967/download.do

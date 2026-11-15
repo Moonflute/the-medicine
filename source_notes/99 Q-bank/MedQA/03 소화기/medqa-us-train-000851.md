@@ -18,11 +18,11 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
   - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
   - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -41,19 +41,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-72세 남성이 직장 출혈을 주소로 응급실에 내원하였다. 환자는 대변에 혈액이 섞여 나오며, 평소보다 배변 횟수가 잦아지는 등 배변 습관의 변화가 동반되었다고 설명한다. 또한 좌측 복부에 쥐어짜는 듯한 통증과 체중 감소가 있다. 증상은 2개월 전 시작되었으나, 환자는 식이섬유 섭취 부족과 붉은 육류의 과다 섭취 때문이라고 생각했다. 35년간 제2형 당뇨병을 앓고 있으며 메트포르민(metformin)을 복용 중이다. 또한 심장 보호를 위해 매일 저용량 아스피린을 복용하고, 무릎 통증으로 가끔 나프록센(naproxen)을 사용한다. 가족력은 특이사항이 없다. 신체 검진에서 복부 및 직장 수지 검사는 정상이다. 대장내시경 검사에서 장 내강이 좁아진 궤양성 점막 병변이 관찰되었고, 조직검사 결과 중등도 분화 선암종(moderately differentiated adenocarcinoma)으로 확인되었다. 이 환자에서 대장암의 가장 큰 위험 인자는 무엇인가?
+대장내시경 생검으로 결장 선암이 확인된 72세 남성의 병기 평가 CT에서 간에 1.3 cm 결절 하나가 보인다. 다른 전이는 없고 이 결절의 성격에 따라 수술 계획이 달라진다. 간 병변을 구분할 다음 검사는?
 
 ## 선택지
 
-A. 식이섬유 섭취 부족
-B. 고령
-C. 저용량 아스피린 사용
-D. 나프록센 사용
+A. 간 비조영 CT
+B. 조영 증강 간 MRI
+C. 대장내시경 재검
+D. CEA 재검만 시행
 
 ## 해설
 
 
-대장암 위험인자는 연령이 가장 큰 비가역적 요인이다. 72세라는 고령은 다른 위험요인보다 암 발생 위험을 크게 증가시킨다. 따라서 고령이 가장 큰 위험인자이다.
+CT에서 간전이가 의심되고 간 병변이 수술 전략을 바꿀 수 있는 경우 조영 간 MRI로 병변의 성격과 개수·분포를 더 정확히 평가한다. CEA만으로는 전이 여부를 판단할 수 없다.
 
 ## 검수 근거
 
@@ -66,3 +66,4 @@ D. 나프록센 사용
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000851
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11082542/

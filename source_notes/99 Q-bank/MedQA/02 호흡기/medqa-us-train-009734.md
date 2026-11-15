@@ -15,11 +15,11 @@ related_diseases:
   - "bronchiolitis"
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIOyEuOq4sOq0gOyngOyXvCAoQWN1dGUgQnJvbmNoaW9saXRpcykubWQ
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강하던 생후 6주 여아가 24시간 동안 발열, 피로, 마른기침으로 응급실에 왔다. 수유가 감소하고 코가 막혔으며 젖병을 잘 물지 못한다. 평소보다 젖은 기저귀 수가 줄었다. 임신 42주에 합병증 없이 질식분만했고 어머니는 낭성섬유증 보인자이다. 체온 38.2°C, 호흡수 64회/분, 실내 공기 산소포화도 92%이며 기침, 코벌렁거림, 점막 건조, 늑간·쇄골상부 함몰, 호기성 천명이 있다. 가장 가능성 높은 원인균은 무엇인가?
+생후 6개월 영아가 콧물에 이어 첫 천명과 기침이 생겼다. 늑간 함몰은 가볍고 실내 공기 산소포화도는 95%로 유지된다. 분유를 평소처럼 마시고 무호흡은 없다. 세기관지염으로 판단했을 때 적절한 초기 치료는?
 
 ## 선택지
 
-A. 파라인플루엔자바이러스
-B. 호흡기세포융합바이러스
-C. 라이노바이러스
-D. B군 연쇄구균
+A. 항생제를 시작한다
+B. 코막힘을 완화하고 수유·수분 상태를 보면서 지지요법을 한다
+C. 전신 스테로이드를 일률적으로 투여한다
+D. 천명이 있으므로 모든 영아에게 정기 살부타몰 흡입을 시작한다
 
 ## 해설
 
 
-6주 영아의 급성 호흡기 증상, 빠른 호흡, 청진에서 호흡음이 들리며, RSV는 영아에서 가장 흔한 원인이다. RSV는 호흡기세포융합바이러스(RSV)로 분류된다. 따라서 RSV가 가장 가능성 높은 원인균이다.
+전형적인 영아 세기관지염은 산소화와 수유 상태에 맞춘 지지요법이 기본이다. 산소포화도가 유지되고 수유가 가능하면 약을 일률적으로 쓰지 않는다. 호흡노력 증가, 무호흡이나 수유 저하 시 재평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. B군 연쇄구균
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009734
+- https://www.ncbi.nlm.nih.gov/books/NBK622567/

@@ -18,9 +18,9 @@ related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yymey2lOyghOuwqeyghOychOymnSAoU3BvbmR5bG9saXN0aGVzaXMpLm1k
   - MjIg7KCV7ZiV7Jm46rO8L-yymey2lOu2hOumrOymnSAoU3BvbmR5bG9seXNpcykubWQ
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-14세 남아가 6개월간 지속된 허리 통증으로 내원했다. 통증은 운동하거나 누워 있을 때 악화된다. 고등학생이며 수영팀에 속해 있고 정기적으로 웨이트 트레이닝도 한다. 허리 외상이나 이전 관절 문제는 없고 중대한 질환 병력도 없다. 아버지는 추간판 탈출증이 있다. 요천추 부위 극돌기를 촉진하면 인접한 두 척추가 서로 어긋나 서로 다른 높이에 있다. 근력은 정상이고 핀 자극과 가벼운 촉각도 전신에서 정상이다. 걷게 하자 뒤뚱거리는 보행이 보이며 오른쪽 또는 왼쪽 다리를 수동으로 들어 올리면 같은 쪽 다리로 방사되는 통증이 유발된다. 다음 중 가장 가능성 높은 진단은?
+허리 젖히는 동작을 반복하는 14세 체조 선수가 수개월간 요통을 호소한다. 측면 X선에서 제5요추가 제1천추보다 앞쪽으로 밀려 있다. 이 영상 소견의 이름은?
 
 ## 선택지
 
-A. 척추전방전위증
-B. 후관절 증후군
-C. 추간판 탈출증
-D. 과사용 손상
+A. 요추 추간판 탈출증
+B. 척추전방전위증
+C. 척추관 협착증
+D. 척추 압박골절
 
 ## 해설
 
-청소년의 과신전·부하 운동, 요천추 극돌기에서 만져지는 계단 변형과 만성 통증은 척추전방전위증(A)을 시사한다. 청소년 운동선수에서는 관절간부(pars interarticularis)의 피로손상·척추분리증과 연관되어 상위 척추가 아래 척추에 대해 앞으로 전위할 수 있다. 이는 단순 성장판 연골 약화나 극돌기 비대만의 문제가 아니다. 방사통은 동반 신경근 자극을 시사할 수 있다.
+아래 척추에 대해 위 척추가 앞으로 이동한 소견은 척추전방전위증이다. 성장기에는 협부 피로 손상인 척추분리증이 원인이 될 수 있다.
 
 ## 검수 근거
 

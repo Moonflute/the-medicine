@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-yXrOuTnOumhCAoQWNuZSBWdWxnYXJpcykubWQ
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-17세 여아가 3년간 얼굴과 가슴의 여드름으로 진료를 받으러 왔다. 얼굴과 가슴에 열린 면포가 여러 개 있고 가려움이나 비늘은 없었다. 가장 적절한 초기 치료는?
+17세 여아의 이마와 턱에 개방면포와 폐쇄면포가 다수 있다. 염증성 병변이나 흉터는 없다. 면포를 줄이기 위한 초기 치료는?
 
 ## 선택지
 
-A. 경구 항생제
-B. 국소 벤조일퍼옥사이드
-C. 국소 항생제
-D. 경구 이소트레티노인
+A. 경구 독시사이클린
+B. 국소 클린다마이신 단독
+C. 경구 이소트레티노인
+D. 국소 아다팔렌
 
 ## 해설
 
-면포는 모낭 입구의 각질·피지 정체로 형성되는 여드름 병변이다. 선지 중 topical benzoyl peroxide(B)는 경증 여드름의 적절한 초기 국소 치료이며 항균 작용과 항생제 내성 억제의 장점이 있다. Topical retinoid도 면포 치료의 중요 선택지지만 이 문항 선지에는 없다. 국소 항생제 단독이나 처음부터 경구 isotretinoin을 사용할 필요는 없다.
+국소 레티노이드는 모낭 각화를 정상화해 면포 위주 여드름의 초기 치료에 적합하다. 경구 항생제나 이소트레티노인은 이 정도의 면포 여드름에 우선 쓰지 않는다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 경구 이소트레티노인
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000090
+- https://www.aad.org/member/clinical-quality/guidelines/acne/

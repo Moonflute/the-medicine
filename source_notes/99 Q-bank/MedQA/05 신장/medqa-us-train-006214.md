@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k
 question_type: management
 difficulty: complex
-answer: "D"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -41,23 +41,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-57세 여성이 소변량 감소로 내원했다. 2주 동안 매일 소변량이 줄었고 식이와 수분 섭취 변화는 없다. 루푸스 신염으로 말기 신장질환이 발생해 2개월 전 신장이식을 받았다. 이후 미코페놀레이트와 사이클로스포린을 처방대로 복용한다. 체온은 99°F(37.2°C), 혈압은 172/102 mmHg, 맥박은 분당 88회, 호흡수는 분당 17회, 산소포화도는 97%이다. 혈청 크레아티닌과 BUN이 상승하고 양측 하지에 2+ 함요부종이 있다. 폐는 깨끗하고 소변검사에서 단백이 증가했다. 배뇨 후 방광 스캔은 정상이며 신장생검에서 림프구 침윤과 내막 부종이 보인다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+신장이식 2개월 뒤 크레아티닌이 1.1에서 2.4 mg/dL로 올랐다. 생검에서 동맥염 없이 간질 염증과 세뇨관염이 보여 Banff IA 급성 T세포매개 거부반응이 확인됐다. 초기 치료는?
 
 ## 선택지
 
-A. 세프트리악손 추가
-B. 딜티아젬 추가
-C. 신장 절제술
-D. 정맥 내 스테로이드 시작
+A. 혈장교환 단독
+B. 마이코페놀레이트 중단
+C. 응급 이식신 절제
+D. 고용량 정맥 메틸프레드니솔론
 
 ## 해설
 
-이식 두 달 뒤 이식신 기능 악화와 생검의 림프구 침윤·내막 변화는 급성 세포매개 거부반응을 지지한다. 선택지 중 정맥 corticosteroid가 초기 치료에 해당한다. 거부 유형·중증도·치료 반응에 따라 추가 치료가 달라지며 감염·폐색·약물 독성도 평가한다.
+급성 T세포매개 거부반응의 기본 초기 치료는 고용량 스테로이드다. 반응과 조직 등급에 따라 추가 면역억제를 검토한다. 혈장교환은 일반적인 세포매개 거부반응의 1차 단독 치료가 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006214
+- https://uroweb.org/guidelines/renal-transplantation/chapter/the-guideline
 
 ## 오답 포인트
 

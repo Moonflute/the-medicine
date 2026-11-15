@@ -13,13 +13,13 @@ related_diseases:
   - "fetal growth restriction"
   - "head sparing"
   - "maternal smoking"
-question_type: risk_factor
+question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-2DnOyVhCDshLHsnqUg7KeA7JewIChGZXRhbCBHcm93dGggUmVzdHJpY3Rpb24pLm1k
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-38세 G1P0 여성이 산전진료를 위해 내원했다. 현재 임신 28주이며 매일 엽산을 복용한다. 자궁은 부드럽고 둥글며 자궁저부는 배꼽 높이 정도다. 태아 초음파에서 간 용적과 피하 지방이 감소하고 머리는 상대적으로 보존되어 있다. 다음 중 초음파 소견의 가장 가능성 높은 원인은 무엇인가?
+임신 29주 초음파에서 태아 예상 체중과 복부둘레가 모두 6백분위수다. 양수량과 현재 심박은 안정적이다. 태반 저항을 평가하고 추적 계획을 정할 검사는?
 
 ## 선택지
 
-A. 염색체 이상
-B. 담배 흡연
-C. 태아 선천성 심장질환
-D. 태아 감염
+A. 제대동맥 도플러
+B. 산모 혈중 AFP 재검
+C. 태아 폐성숙을 위한 양수천자
+D. 태아 체중만 분만 직전 한 번 더 계산
 
 ## 해설
 
 
-임신 중 흡연은 태아의 성장 제한을 일으키며, 초음파에서 머리 보존형 저체중(‘head sparing’)을 보이는 주요 원인이다. 엽산 결핍은 신경관 결손을, 감염은 장기 손상을, 염색체 이상은 전반적 성장 저하를 초래한다. 따라서 가장 가능성 높은 원인은 담배 흡연이다.
+태아성장제한에서는 제대동맥 도플러로 태반 혈류 저항을 평가한다. 특히 이완기 혈류 소실·역전은 추적 강도와 분만 시기 결정을 바꾼다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001875
+- https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/

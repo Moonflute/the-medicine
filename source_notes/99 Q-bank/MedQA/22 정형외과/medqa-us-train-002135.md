@@ -19,7 +19,7 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-36세 남성이 양쪽 허리 아래쪽 통증으로 내원했다. 통증 강도는 10점 만점에 5점이며 지속적이고 쑤시는 양상이다. 앞으로 숙이거나 반듯이 누우면 악화되고 중립 자세로 쉬면 완화된다. 3일 전 헬스장에서 무리한 뒤 통증이 시작되었다. 감각 변화나 사지 위약은 없다. 직업은 비즈니스 분석가이다. 체중 88 kg, 키 186 cm이며 활력징후는 정상이다. 신경학적검사에서 양쪽 하지 반사는 정상이고 근긴장도와 근력도 보존되어 있다. 요추 부척추 부위를 누르면 통증이 증가한다. 다음 중 이 환자에게 가장 적절한 비약물적 중재는?
+36세 남성이 운동 뒤 사흘째 허리가 아프다. 다리 증상과 발열은 없고 하지 신경 진찰은 정상이다. 위험 신호 없는 급성 요통에서 권할 조치는?
 
 ## 선택지
 
-A. 3일간 침상안정
-B. 도수 견인
-C. 허용되는 범위에서 평소 활동을 유지한다
-D. 근전도 바이오피드백
+A. 통증이 없어질 때까지 침상에서만 지낸다
+B. 당일 요추 MRI를 정례 검사로 한다
+C. 통증이 허용하는 범위에서 일상 활동을 계속한다
+D. 요추 견인 치료부터 시작한다
 
 ## 해설
 
 
-급성 요통은 보통 6주 이내에 활동을 유지하고 통증을 허용 범위 내에서 지속하는 것이 회복에 도움이 된다. 침상안정은 오히려 지연을 초래한다. 따라서 허용되는 범위에서 평소 활동을 유지하는 것이 정답이다.
+비특이적 급성 요통은 활동을 허용하는 편이 낫다. 위험 신호가 없는 초기에는 일률적으로 영상을 찍거나 침상 안정을 권하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002135
+- https://www.nice.org.uk/guidance/ng59/chapter/Recommendations

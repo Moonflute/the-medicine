@@ -18,6 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-q1kOyDgSDqsJDsl7wgKEJpdGUgV291bmQgSW5mZWN0aW9uKS5tZA
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -34,7 +35,7 @@ related_drug_slugs:
 
 ## 문제
 
-26세 여성이 이웃집 고양이에게 물린 지 30분 후 응급실에 왔다. 중대한 질환 병력이나 복용 약물은 없다. 소아기 권장 예방접종은 모두 받았지만 이후에는 받지 않았다. 활력징후는 정상이다. 우측 손 무지구에 네 개의 자상과 경미한 부종이 있으나 홍반은 없다. 우측 엄지와 손목의 운동 범위는 정상이다. 포비돈 요오드로 상처를 닦고 생리식염수로 세척했다. 다음 중 가장 적절한 다음 처치는?
+26세 여성이 이웃집 고양이에게 물린 지 30분 후 응급실에 왔다. 중대한 질환 병력이나 복용 약물은 없다. 소아기 권장 예방접종은 모두 받았지만 이후에는 받지 않았다. 활력징후는 정상이다. 우측 손 무지구에 네 개의 자상과 경미한 부종이 있으나 홍반은 없다. 우측 엄지와 손목의 운동 범위는 정상이다. 포비돈 요오드로 상처를 닦고 생리식염수로 세척했다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

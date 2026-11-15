@@ -13,14 +13,14 @@ related_diseases:
   - "surgical site infection"
   - "postoperative fever"
   - "wound infection"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTEg7Jm46rO8L-yImOyIoCDtm4Qg67Cc7Je0IChQb3N0b3BlcmF0aXZlIEZldmVyKS5tZA
   - MTEg7Jm46rO8L-ywveyDgSDqsJDsl7wgKFdvdW5kIEluZmVjdGlvbikubWQ
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-37세 여성이 발열과 복통으로 응급실에 왔다. 혈압 130/74 mmHg, 맥박 98회/분, 체온 101.5°F(38.6°C), 호흡 23회/분이다. 4일 전 복강경 담낭절제술을 받았고 그 외에는 건강했다. 네브래스카에서 가족을 방문 중이며 오늘 아침 12시간 운전 후 도착했다. 신체검사에서 복부 절개 부위의 홍반과 흰색 분비물, 오른쪽 상복부 압통이 보인다. 다음 중 발열의 가장 가능성 높은 원인은?
+복강경 수술 4일 뒤 절개 부위가 붉고 눌렀을 때 아프며 고름이 나온다. 발적과 고름은 피부와 피하층에 국한돼 있고 안쪽에는 농양이 없다. 표재 절개부 감염의 기본 처치는?
 
 ## 선택지
 
-A. 폐무기폐
-B. 잔류 담석
-C. 요로감염
-D. 수술 상처 감염
+A. 상처를 더 단단히 봉합한다
+B. 필요한 봉합을 풀어 상처를 열고 배농한다
+C. 해열제만 처방하고 기다린다
+D. 국소 항진균제를 바른다
 
 ## 해설
 
-복강경 수술 후4일째 절개부 발적과 흰 분비물, 압통은 수술 상처 감염(D)을 직접 시사한다. 수술 후 발열의 원인을 날짜만으로 확정하거나 48–72시간 이내라면 가장 흔히 상처 감염이라고 일반화하지 않는다. 현재는 절개부의 실제 국소 감염징후가 무기폐·요로감염·잔류 담석보다 더 직접적인 근거다.
+절개창에 고름이 차면 상처를 열어 배농한다. 전신증상이나 주변 염증이 뚜렷하면 필요시 전신 항생제를 병행하고 깊은 감염도 평가한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 수술 상처 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002196
+- https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/

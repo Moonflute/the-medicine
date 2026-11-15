@@ -20,7 +20,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOuptCDsnqXslaAgKEluc29tbmlhIERpc29yZGVyKS5tZA
   - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -40,18 +40,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-54세 G2P2 여성이 2주 전부터 시작된 잦은 안면 홍조, 권태감, 불면증, 경미한 기분 변화를 주소로 산부인과에 내원했습니다. 환자는 또한 이 기간 동안 성교통과 질 건조감을 느꼈습니다. 아토르바스타틴(atorvastatin)으로 조절 중인 고지혈증 외에는 건강하며, 다른 과거력은 없으나 산후 출혈로 자궁절제술을 받은 적이 있습니다. 환자는 증상 조절을 위한 약물 치료를 원하고 있습니다. 이 환자의 증상 완화를 위한 가장 적절한 단기 약물 치료는 무엇입니까?
+54세 여성이 안면홍조와 야간 발한 때문에 잠을 못 잔다. 과거 산후출혈로 전자궁절제술을 받았다. 전신 호르몬 치료 금기가 없고 이를 원한다. 적절한 호르몬 치료는?
 
 ## 선택지
 
-A. 에스트로겐 단독 호르몬 대체 요법
-B. 에스트로겐/프로게스테론 복합 호르몬 대체 요법
-C. 파록세틴(Paroxetine)
-D. 가바펜틴(Gabapentin)
+A. 프로게스테론 단독 요법
+B. 전신 에스트로겐 단독 요법
+C. 자궁내막 보호를 위한 에스트로겐·프로게스토겐 필수 병용
+D. 질 에스트로겐 단독으로 심한 안면홍조 치료
 
 ## 해설
 
-혈관운동증상과 질건조가 있고 자궁절제술을 받았으므로 금기 없으면 전신 에스트로겐 단독(A)이 적절하다. 자궁내막 보호 목적의 프로게스틴이 필요하지 않다는 점이 B와의 차이다. 투여 경로·용량·기간은 개인 위험과 선호에 따라 정하고 정기 재평가한다.
+자궁이 없는 환자는 자궁내막 보호를 위한 프로게스토겐이 일반적으로 필요 없다. 전신 에스트로겐이 혈관운동 증상에 효과적이고, 국소 질 에스트로겐은 주로 비뇨생식기 증상에 사용한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 가바펜틴(Gabapentin)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000165
+- https://www.e-jmm.org/DOIx.php?id=10.6118%2Fjmm.25103

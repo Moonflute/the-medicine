@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
   - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 백인 여성이 과도한 얼굴 및 팔 털로 내원했다. 지난 1년 동안 3개월 이상 월경이 없는 경우가 자주 있었다. 체온 98.6°F, 혈압 120/80 mmHg, 맥박 60회/분, BMI 30 kg/m²이며 검사로 의심 진단이 확인되었다. 이 질환의 최선의 초기 치료와 현재 검사해야 할 동반질환은?
+32세 다낭성난소증후군 환자의 BMI는 32 kg/m²다. 75 g 당부하검사 2시간 혈당이 165 mg/dL이고 신기능은 정상이다. 식사·운동 치료와 함께 대사 이상 개선에 고려할 약은?
 
 ## 선택지
 
-A. 치료: 복합 경구 피임약, 동반질환: 불임과 인슐린 저항성
-B. 치료: 체중 감량, 동반질환: 불임과 인슐린 저항성
-C. 치료: 체중 감량, 동반질환: 불임과 지질 이상
-D. 치료: 체중 감량, 동반질환: 인슐린 저항성과 지질 이상
+A. 스피로놀락톤
+B. 레트로졸
+C. 메트포르민
+D. 복합피임약만 사용
 
 ## 해설
 
-PCOS에서는 생활습관·체중관리와 당대사·지질 평가가 중요하여 D가 선택지 중 적절하다. 인슐린저항성을 혈중 인슐린 검사만으로 일상 선별하기보다 OGTT 등으로 혈당 상태를 평가한다. 희발월경의 내막 보호와 고안드로겐 증상에는 복합피임약 등 추가 치료도 상담한다.
+체중이 높거나 내당능장애가 있는 다낭성난소증후군 환자에서는 생활습관 관리와 함께 메트포르민을 고려할 수 있다. 다모·월경 조절이나 난임 치료를 위한 약과 목적이 다르다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ PCOS에서는 생활습관·체중관리와 당대사·지질 평가가 중요�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002340
+- https://doi.org/10.1210/clinem/dgad463

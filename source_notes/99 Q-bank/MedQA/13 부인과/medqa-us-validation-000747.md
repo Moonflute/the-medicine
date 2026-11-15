@@ -17,7 +17,7 @@ question_type: investigation
 related_disease_slugs:
   - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-31세 여성과 32세 남성이 결혼 후 1년 반 동안 임신하지 못해 진료를 받으러 왔다. 여성은 규칙적인 월경을 하고 과거 클라미디아 자궁경부염을 치료받았으나 현재 두 사람의 신체진찰은 정상이다. 가장 적절한 다음 단계는?
+31세 여성과 32세 배우자가 18개월 동안 피임 없이 임신을 시도했지만 임신되지 않았다. 여성의 월경은 규칙적이고 배우자는 외견상 건강하다. 두 사람을 함께 평가할 때 남성에게 우선 시행할 검사는?
 
 ## 선택지
 
-A. 염색체 핵형검사
-B. 성교 후 검사
-C. 사정 후 소변검사
-D. 정액검사
+A. 정상 진찰 소견이면 남성 검사는 생략
+B. 일률적인 염색체 핵형검사
+C. 정액검사
+D. 사정 뒤 소변에서 정자를 찾는 검사부터 시행
 
 ## 해설
 
-18개월 동안 피임 없이 성생활을 했는데 임신되지 않았다면 부부를 함께 평가한다. 제시된 선택지 중 남성의 초기 평가에 포함되는 정액검사(D)가 가장 적합하다. 규칙적인 월경은 배란을 시사할 수 있지만 정상 자궁·난관을 보장하지 않으며, 과거 클라미디아 병력에 따른 여성의 난관 요인도 별도로 평가해야 한다. 신체검사가 정상이라고 남성 요인을 배제할 수 없다. 성교 후 검사, 핵형검사, 사정 후 소변검사는 이 사례의 일률적인 초기 검사로 적절하지 않다.
+난임은 두 사람을 동시에 평가한다. 남성 요인은 진찰만으로 배제할 수 없으므로 정액검사부터 한다. 여성의 배란과 난관 상태도 함께 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 정액검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000747
+- https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2026

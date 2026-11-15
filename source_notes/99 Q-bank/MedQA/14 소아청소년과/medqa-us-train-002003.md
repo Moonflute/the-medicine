@@ -13,7 +13,7 @@ related_diseases:
   - "caustic ingestion"
   - "oropharyngeal injury"
   - "drooling"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA
 difficulty: complex
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-11세 남아가 침을 많이 흘리고 삼킬 수 없어 응급실에 왔다. 체온 99.1°F (37.3°C), 혈압 107/58 mmHg, 맥박 119/min, 호흡 14/min, 산소포화도 98%이며 혀가 비정상적으로 커지고 붉어져 있다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+아이가 가정용 세정제를 마신 뒤 침을 흘리고 목이 아파 삼키지 못한다. 응급 평가에서 부식성 식도 손상이 의심된다. 가장 적절한 초기 조치는?
 
 ## 선택지
 
-A. 부식성 물질 섭취
-B. Diphenhydramine 섭취
-C. 살충제 노출
-D. 철분 과다복용
+A. 기도를 먼저 평가하고 금식시키며 소아 전문팀에 신속히 연락한다
+B. 마신 물질을 빼내도록 구토를 유도한다
+C. 산성인지 알칼리성인지 추정해 반대 성질의 음료로 중화한다
+D. 활성탄을 먹이고 증상이 사라지는지 본다
 
 ## 해설
 
-심한 구강 통증, 혀의 홍반·부종과 침흘림/삼킴 불가는 부식성 물질 섭취(A)를 시사한다. 산과 알칼리 모두 구강·상부 소화관을 손상할 수 있으며 본문은 실제 물질을 확인하지 않아 강산이라고 확정할 수 없다. 정상 산소포화도만으로 잠재적 상기도 손상이 배제되는 것도 아니다.
+삼킴 곤란과 침 흘림은 기도나 상부 소화관 손상의 경고 신호다. 기도 평가와 금식을 우선하고, 안정화한 뒤 전문팀이 내시경 필요성을 판단한다. 구토 유도나 중화는 하지 않는다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 철분 과다복용
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002003
+- https://www.esge.com/assets/downloads/pdfs/guidelines/2016_s_0042_111002.pdf

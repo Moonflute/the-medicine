@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-44세 여성이 혼란과 초조로 경찰과 함께 응급실에 왔다. 남동생은 소화성 궤양과 고혈압이 있으며 매일 보드카 반 병 정도를 마신다고 한다. 환자는 사람·장소·시간에 대한 지남력이 없고 수평 안진과 넓은 보폭의 작은 걸음이 있다. 혈색소 9 g/dL, 혈청 호모시스테인 상승, 메틸말론산 정상, 말초도말에서 과분엽 호중구가 보인다. 빈혈의 가장 가능성 높은 원인은 무엇인가?
+영양 섭취가 부족한 환자의 혈액도말에서 큰 타원형 적혈구와 과분엽 호중구가 보인다. 신기능은 정상이다. 호모시스테인은 높지만 메틸말론산은 정상이고 비타민 B12는 정상 범위다. 가장 가능성 높은 결핍은?
 
 ## 선택지
 
-A. 엽산 결핍
-B. 비타민 E 결핍
-C. 비타민 B1 결핍
-D. 비타민 B12 결핍
+A. 철분
+B. 비타민 B1
+C. 비타민 B12
+D. 엽산
 
 ## 해설
 
 
-거대적아구성 빈혈을 시사하는 말초혈액도말의 과분엽 호중구, homocysteine 증가와 정상 methylmalonic acid는 엽산 결핍(A)에 맞는다. B12 결핍에서는 보통 methylmalonic acid도 증가한다. 혼란·안진·보행실조는 음주 관련 thiamine 결핍을 별도로 의심하게 하지만, 질문은 빈혈의 원인을 묻고 있으므로 이 신경증상을 엽산 결핍 하나로 설명하지 않는다.
+엽산과 B12 결핍은 모두 거대적아구성 빈혈과 높은 호모시스테인을 일으킬 수 있다. B12가 정상이고 메틸말론산이 상승하지 않은 점은 엽산 결핍을 더 지지한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 비타민 B12 결핍
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009641
+- https://www.nice.org.uk/guidance/ng239/chapter/recommendations

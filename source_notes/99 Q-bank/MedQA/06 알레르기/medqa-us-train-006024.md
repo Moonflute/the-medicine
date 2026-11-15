@@ -16,7 +16,7 @@ related_diseases:
   - "Hereditary angioedema"
 related_disease_slugs:
   - MDYg7JWM66CI66W06riwL-2YiOq0gOu2gOyihSAo7Jyg7KCE7ISxKSAoSGVyZWRpdGFyeSBBbmdpb2VkZW1hKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-64세 여성이 입술 부종과 호흡곤란으로 응급진료센터에 왔다. 오늘 여러 차례 근관치료를 받은 후 2시간 전부터 입술이 붓기 시작했고 호흡이 어려워졌다. 과거에도 이와 같은 소수술 후 비슷한 발작이 있었다. 혈압은 118/76 mmHg, 심박수는 분당 84회, 호흡수는 분당 16회이다. 입술 부종과 경한 흡기성 협착음이 있고 검사에서 C1 에스터라제 억제제가 낮다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+C1 억제인자 결핍형 유전성 혈관부종이 확진된 24세 여성이 치과 시술 뒤 목소리가 쉬고 숨쉬기 어렵다. 응급 기도 평가와 확보 준비를 시작했다. 기도 처치와 동시에 투여할 질환 특이 약제는?
 
 ## 선택지
 
-A. 유전성 혈관부종
-B. 접촉피부염
-C. 약물 유발 혈관부종
-D. 알레르기 반응
+A. 정맥 혈장유래 C1 억제인자 농축제
+B. 경구 세티리진 단독
+C. 정맥 메틸프레드니솔론 단독
+D. 경구 다나졸 단독
 
 ## 해설
 
 
-낮은 C1 에스터라제 억제인자와 반복되는 시술 유발 혈관부종은 C1 억제인자 결핍성 혈관부종을 지지하므로 선지 중 A가 가장 가깝다. 다만 고령 환자에서는 후천성 C1 억제인자 결핍도 감별해야 하며, 연령만으로 유전성을 확정할 수 없다. 발병 연령·가족력·C1q 등을 추가 평가한다.
+후두 침범은 즉각적인 기도 대처와 발작 치료가 필요하다. C1 억제인자 농축제는 급성 발작에 사용하는 표적 치료이며, 항히스타민제나 스테로이드만으로 브래디키닌 매개 부종을 치료하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 알레르기 반응
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006024
+- https://doi.org/10.1016/j.waojou.2026.101335

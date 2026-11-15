@@ -13,11 +13,11 @@ related_diseases:
   - "신경모세포종"
   - "신경능선 세포"
   - "히르슈스프룽병"
-question_type: mechanism
+question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug6rK966qo7IS47Y-s7KKFIChOZXVyb2JsYXN0b21hKS5tZA
 difficulty: simple
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-3세 여아가 빠르고 무작위적인 수평·수직 안구운동과 간헐적인 사지·머리 경련으로 내원했다. CT에서 정중선을 가로지르는 복부 종괴가 보이고 24시간 소변 호모바닐린산과 바닐릴만델산이 상승했다. 이 환자의 진단과 같은 세포에서 병리학적으로 기원하는 질환은?
+3세 아이가 여러 방향으로 튀는 빠른 안구운동과 팔다리의 불규칙한 경련성 움직임을 보인다. 최근 보행도 불안정해졌다. 안구간대–근간대–운동실조 증후군에서 동반 여부를 평가할 종양은?
 
 ## 선택지
 
 A. 두개인두종
-B. 히르슈스프룽병
-C. 파리노 증후군
-D. 털모양세포성 성상세포종
+B. 윌름스종양
+C. 망막모세포종
+D. 신경모세포종
 
 ## 해설
 
-정중선을 가로지르는 복부 종괴, 증가한 HVA/VMA 및 안구간대·근간대 양상은 신경모세포종을 시사한다. 이는 신경능선 유래 교감신경 계통 종양이다. 히르슈스프룽병(B)은 신경능선 세포의 장관 이동·발달 이상으로 장 신경절이 없는 질환으로 같은 발생 세포 계통과 관련되지만 종양이 아니다. 환아의 복부 종괴를 히르슈스프룽병 자체라고 설명해서는 안 된다.
+소아의 안구간대–근간대–운동실조는 신경모세포종의 종양연관 증상일 수 있다. 모든 환자가 종양에 의한 것은 아니지만 동반 여부를 평가한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 털모양세포성 성상세포종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005204
+- https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma-treatment-pdq

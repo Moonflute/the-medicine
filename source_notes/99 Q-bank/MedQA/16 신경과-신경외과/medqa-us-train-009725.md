@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,21 +36,22 @@ related_drug_slugs:
 
 ## 문제
 
-31세 남자가 수개월 동안 발 감각이 변해 내원했다. 바닥의 나무와 카펫을 구분하기 어렵고 최근 두 번 넘어졌다. 가족력은 모른다. 하지와 발 근육 위축, 근력 4/5, 종아리 중간까지 촉각·통각 저하, 양측 발목반사 소실, 심한 요족이 있다. 신경전도검사에서 양측 비골신경 전도속도가 감소했다. 가장 적절한 치료는 무엇인가?
+샤르코–마리–투스병으로 진단된 31세 환자가 발처짐으로 자주 넘어진다. 무릎과 고관절 근력은 충분하며 아직 보조기를 쓰지 않는다. 우선 제안할 기능 개선 방법은?
 
 ## 선택지
 
-A. 아스피린
-B. 실로스타졸
-C. 정형외과 의뢰
-D. 물리치료 의뢰
+A. 면역글로불린을 정기적으로 주입한다
+B. 넘어질 수 있으므로 걷기를 모두 금지한다
+C. 항혈소판제로 다리 혈류를 개선한다
+D. 발목–발 보조기와 보행·균형 재활을 적용한다
 
 ## 해설
 
 
-양측 발의 감각 저하와 근육 위축, 발목반사 소실은 Charcot-Marie-Tooth 병의 전형적인 증상이다. 이 유전성 말초신경병증은 물리치료와 보조기구 사용으로 기능 유지와 통증 감소를 목표로 한다. 따라서 물리치료 의뢰가 가장 적절한 치료이다.
+발처짐이 있는 유전성 말초신경병에서 보조기와 맞춤 재활은 발끝이 걸리는 것을 줄이고 이동 기능을 돕는다. 약화와 변형에 따라 보조기를 조정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009725
+- https://www.ncbi.nlm.nih.gov/books/NBK1358/

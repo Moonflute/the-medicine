@@ -13,7 +13,7 @@ related_diseases:
   - "WAGR syndrome"
   - "Wilms tumor"
   - "11p13 deletion"
-question_type: mechanism
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JyM66aE7Iqk7KKF7JaRIChXaWxtcyBUdW1vcikubWQ
 difficulty: simple
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-신생아의 배를 입힐 때 부어 있는 것을 발견한 어머니가 소아과에 데려왔다. 압통 없는 상복부 종괴, 홍채 결여, 잠복고환이 보인다. 복부 MRI에서 신장 내 기원의 종괴가 확인되었다. 다음 중 어떤 유전질환이 이 신생아의 소견을 가장 잘 설명하는가?
+선천성 양측 무홍채증과 잠복고환이 있는 영아에게 유전 평가를 계획한다. 윌름스종양 감시가 필요한 WAGR 스펙트럼 여부를 확인할 검사는?
 
 ## 선택지
 
-A. WT1 미스센스 돌연변이
-B. 11p13 결실
-C. 11p15 결실
-D. 11p15 중복
+A. PAX6 점변이만 확인하는 검사
+B. WT1과 PAX6를 포함한 11p13 결실 검사
+C. 11p15.5 메틸화 검사만 시행
+D. FMR1 CGG 반복 수 검사
 
 ## 해설
 
-신장 내 종괴(윌름스종양), 홍채 결여와 잠복고환은 WAGR 스펙트럼을 시사한다. 11p13 영역 결실(B)은 WT1과 PAX6 등을 포함해 신장 종양 위험·비뇨생식기 이상·무홍채증을 설명할 수 있다. 본문은 무릎 결손을 기술하지 않으며 WAGR의 G는 비뇨생식기 이상을 뜻한다.
+WAGR은 PAX6와 WT1이 함께 결실된 경우에 무홍채증과 종양 위험이 동반된다. 염색체 마이크로어레이 등으로 결실 범위를 확인하면 단독 무홍채증과 구분하고 신장 종양 감시를 계획할 수 있다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ D. 11p15 중복
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009033
+- https://pubmed.ncbi.nlm.nih.gov/41818601/
+- https://pubmed.ncbi.nlm.nih.gov/39320341/

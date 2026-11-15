@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: prevention
 difficulty: simple
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct

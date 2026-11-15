@@ -17,7 +17,7 @@ related_diseases:
 question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-7세 남아가 밤에 자주 이불에 오줌을 싸 부모와 함께 소아과에 내원했다. 4세 이후 낮 동안 요실금은 없었지만 밤에 1주일 연속 마른 적은 한 번도 없다. 요로감염, 요절박, 빈뇨, 배뇨 곤란은 없다. 진찰은 정상이고 첫 아침 소변 비중 1.035, 적혈구와 고름세포 없음, 배양 음성이다. 다음 중 가장 적절한 처치는?
+8세 남아는 낮에는 소변을 잘 가리지만 밤에는 일주일에 네 번 이불을 적신다. 낮 배뇨 증상이나 변비는 없다. 생활습관을 조정해도 지속되고, 가족은 시간이 걸려도 치료를 멈춘 뒤 효과가 오래가길 원한다. 무엇을 권할까?
 
 ## 선택지
 
-A. 척추 MRI
-B. 부모를 안심시키고 야뇨 경보기 사용
-C. 경구 옥시부티닌
-D. 경구 이미프라민
+A. 야뇨 경보기
+B. 취침 전 데스모프레신
+C. 취침 전 항무스카린제 단독 투여
+D. 매일 정해진 시각에 부모가 깨워 화장실에 데려가기
 
 ## 해설
 
-낮 증상·요로감염·진찰 이상 없이 지속된 야뇨는 일차 단일증상성 야뇨에 합당하다. 비난하지 않고 교육·행동관리와 경보기(B)를 사용할 수 있다. 데스모프레신도 상황에 따른 선택지이며 이미프라민·항콜린제를 일반적인 첫 치료로 사용하지 않는다.
+낮 증상이 없는 야뇨증에서 경보기는 아이와 가족이 꾸준히 사용할 수 있으면 효과적이며 치료 종료 후 재발이 적다. 데스모프레신은 빠르게 마른 밤이 필요한 상황에 유용하다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 경구 이미프라민
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000139
+- https://uroweb.org/guidelines/paediatric-urology/chapter/monosymptomatic-nocturnal-enuresis-bedwetting

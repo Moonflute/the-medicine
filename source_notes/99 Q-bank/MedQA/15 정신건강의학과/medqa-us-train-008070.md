@@ -13,11 +13,11 @@ related_diseases:
   - "excoriation disorder"
   - "skin-picking disorder"
   - "SSRI"
-question_type: management
+question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2UvOu2gOucr-q4sOq4sOyepeyVoCAoRXhjb3JpYXRpb24gRGlzb3JkZXIpLm1k
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,23 +36,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 남자 의대생이 피부를 뜯는 증상으로 학생보건센터에 왔다. 때때로 피부를 뜯고 싶은 충동을 억제하기 어렵고, 기말고사나 과제가 너무 많을 때 행동을 한다. 이 행동이 자신에게 해롭고 상황을 개선하지 못한다는 것을 알지만 멈추기 어렵다. 책임에 대해 반복적으로 생각할수록 증상이 악화된다. 팔과 얼굴에 흉터가 있고 신경학적 검사는 정상이다. 가장 적절한 초기 처치는?
+24세 여성이 수개월간 팔의 피부를 뜯어 상처가 반복된다. 여러 번 멈추려 했지만 실패했고 상처 때문에 사람을 피한다. 외모 결함을 고치려는 생각이나 자신을 다치게 하려는 의도는 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 클로미프라민
-B. 플루옥세틴
-C. 변증법적 행동치료
-D. 대인관계 정신치료
+A. 피부뜯기장애
+B. 신체이형장애
+C. 발모광
+D. 망상장애의 신체형
 
 ## 해설
 
-반복 피부뜯기와 이를 멈추려는 시도의 어려움, 피부 손상은 피부뜯기장애를 시사한다. 원문은 플루옥세틴을 선택하지만 피부뜯기의 확립된 보편적 일차 약이라고 단정하지 않는다. 실제 치료에서는 유발 요인과 피부질환을 평가하고 습관반전훈련을 포함한 CBT를 우선 고려하며, 약물은 동반 질환과 제한적인 근거를 바탕으로 전문적으로 논의할 수 있다. 근거 기반 습관반전/CBT가 선택지에 빠져 있다는 문항의 한계가 있다.
+피부를 반복해서 뜯어 병변이 생기고, 멈추려 해도 지속되어 일상에 지장을 주면 피부뜯기장애를 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008070
+- https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/dsm-5-fact-sheets
 
 ## 검수 근거
 

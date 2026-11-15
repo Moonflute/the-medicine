@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-33세 여성이 정기 건강검진을 위해 내원했다. 특별한 증상은 없다. 1년 전 다발성 경화증을 진단받았고, 이후 각각 약 1주일간 지속되며 입원해 코르티코스테로이드 치료가 필요했던 악화가 두 차례 있었다. 가장 최근 악화는 3주 전이었다. 그 사이에는 신경학적 증상이 없었다. 매일 종합비타민과 칼슘 보충제를 복용한다. 활력징후와 신경학적 검사를 포함한 진찰은 정상이다. 다음 중 약물치료에서 가장 적절한 다음 단계는?
+33세 환자가 재발형 다발성경화증으로 1년 동안 두 차례 입원했다. 스테로이드로 최근 재발에서 회복했으며 현재는 신경학적 증상이 없다. 이후 재발 위험을 줄이기 위한 계획은?
 
 ## 선택지
 
-A. 미톡산트론
-B. 메틸프레드니솔론
-C. 인터페론 베타
-D. 필요할 때만 지지요법
+A. 활성도와 임신 계획 등을 고려해 질병조절치료를 시작한다
+B. 증상이 없어 재발할 때만 스테로이드를 사용한다
+C. 예방 목적으로 고용량 스테로이드를 매달 일률 투여한다
+D. 신경 결손이 영구적으로 남을 때까지 장기 치료는 미룬다
 
 ## 해설
 
-반복 재발을 경험한 MS에서는 현재 증상이 없더라도 질병조절치료(DMT)를 논의해야 한다. 보기 중 interferon beta(C)는 재발형 MS에 사용하는 DMT이다. Methylprednisolone은 임상적으로 의미 있는 급성 재발 치료이지 장기 재발 예방을 대신하지 않는다. 현행 치료에는 여러 DMT가 있어 interferon이 모든 환자의 유일한 일차 선택은 아니다. 재발 중증도·MRI 활성도·안전성·임신 계획 등을 고려하여 전문적으로 선택한다.
+다발성경화증의 급성 재발 치료가 장기 재발 예방을 대신하지 않는다. 임상·MRI 활성도, 안전성, 동반 상태와 환자 선호에 맞춰 질병조절제를 선택한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 필요할 때만 지지요법
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007659
+- https://ectrims.eu/app/uploads/2024/01/ECTRIMS-EAN-Guideline-on-the-pharmacological-treatment-of-people-with-multiple-sclerosis-1.pdf

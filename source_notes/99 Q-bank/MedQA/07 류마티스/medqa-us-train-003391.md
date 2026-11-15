@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -35,7 +36,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-39세 여성이 2개월간 점점 심해지는 손목과 손의 통증 및 부종으로 내원했다. 아침에 손이 뻣뻣하지만 집안일을 시작하면 호전된다. 3주간 이른 아침에 안정 시 목 통증도 있었다. 진찰에서 양쪽 손목과 두 번째, 세 번째, 네 번째 중수지관절의 부종과 압통이 있었고 통증으로 관절운동범위가 제한되었다. 류마티스인자는 양성이었다. 다음 중 가장 적절한 다음 처치는?
+39세 여성이 2개월간 점점 심해지는 손목과 손의 통증 및 부종으로 내원했다. 아침에 손이 뻣뻣하지만 집안일을 시작하면 호전된다. 3주간 이른 아침에 안정 시 목 통증도 있었다. 진찰에서 양쪽 손목과 두 번째, 세 번째, 네 번째 중수지관절의 부종과 압통이 있었고 통증으로 관절운동범위가 제한되었다. 류마티스인자는 양성이었다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

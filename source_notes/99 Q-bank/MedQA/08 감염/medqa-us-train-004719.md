@@ -15,9 +15,9 @@ related_diseases:
   - "체액성 면역결핍"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
-question_type: investigation
+question_type: diagnosis
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-20세 여성이 7일 동안 지속된 코막힘으로 학생보건센터에 내원했다. 발열, 인후통과 감염성 위장염도 있었다. 자세히 묻자 기억하는 한 1년에 2~3회 비슷한 문제가 있었다고 한다. 부비동염, 귀 감염과 폐 감염이 포함되었다. 체온은 38.6°C (101.4°F), 심박수 분당 70회, 혈압 126/78 mm Hg, 호흡수 분당 18회, 실내 공기 산소포화도 98%이다. 양쪽 콧구멍에서 점액농성 분비물이 나오고 양쪽 상악동에 압통이 있다. 객담 그람염색에서 그람양성 쌍구균이 보인다. 혈청 면역글로불린 검사에서 예상되는 결과는 무엇인가?
+20세 환자가 반복하는 부비동염과 중이염으로 내원했다. 반복 측정한 혈청 IgA는 5mg/dL이고 IgG와 IgM은 정상이다. 약물 등 이차 원인은 확인되지 않았다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. IgM 정상, IgG 낮음, IgA 낮음
-B. IgM 상승, IgG 낮음, IgA 낮음
-C. IgM 정상, IgG 정상, IgA 낮음
-D. IgM 정상, IgG 정상, IgA 정상
+A. 공통 가변성 면역결핍
+B. 선택적 IgA 결핍
+C. 고IgM 증후군
+D. X연관 무감마글로불린혈증
 
 ## 해설
 
 
-반복 점막 호흡기·위장관 감염의 출제 맥락은 선택적 IgA 결핍으로, C의 IgM·IgG 정상/IgA 저하가 해당한다. IgA는 점막 방어에 중요하므로 감소 시 이런 감염이 나타날 수 있다. IgG까지 낮다면 CVID 등 다른 항체결핍을 고려하며 모든 면역글로불린이 정상인 D는 선택적 IgA 결핍의 검사 패턴이 아니다.
+4세 이후 IgA가 현저히 낮지만 IgG와 IgM이 정상이고 이차 원인이 없으면 선택적 IgA 결핍에 부합한다. IgG도 낮다면 공통 가변성 면역결핍 등 다른 항체결핍을 확인한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. IgM 정상, IgG 정상, IgA 정상
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004719
+- https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/2025-Inborn-errors-of-immunity-pp.pdf

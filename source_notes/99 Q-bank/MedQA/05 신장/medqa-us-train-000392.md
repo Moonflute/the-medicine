@@ -14,11 +14,11 @@ related_diseases:
   - "amyloidosis"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-63세 남성이 안와 주위 부종(periorbital swelling)을 주소로 응급실에 내원하였다. 환자는 정원 일을 하다가 실내로 들어와 거울을 보았을 때 눈꺼풀이 부어 있는 것을 발견했다고 한다. 통증, 가려움증, 시력 장애는 부인하였다. 오늘 아침 날씨가 더워 탈수를 예방하기 위해 '물을 많이' 마셨다고 한다. 과거력상 류마티스 관절염이 있으며, 필요 시 메토트렉세이트(methotrexate)와 아세트아미노펜을 복용한다. 체온은 98°F(36.7°C), 혈압은 168/108 mmHg, 맥박은 75회/분이다. 신체 검진상 안와 주위 부종, 간비대, 양측 1+ 함요 부종(pitting edema)이 하지에서 관찰된다. 검사 결과 및 소변 검사 결과는 다음과 같다: 백혈구 수: 11,000/mm^3, 혈색소: 14 g/dL. 혈청: Na 138 mEq/L, K+ 4.3 mEq/L, Cl- 104 mEq/L, HCO3- 25 mEq/L, 요소질소(BUN) 26 mg/dL, 크레아티닌 1.4 mg/dL, 포도당 85 mg/dL, AST 15 U/L, ALT 19 U/L, 알부민 2.0 g/dL. 소변: 단백질 150 mg/dL, 크레아티닌 35 mg/dL. 복부 초음파상 불균일한 에코 발생을 보이는 간비대와 신실질의 에코 발생이 증가된 신장 비대가 관찰된다. 신장 생검을 시행하였다. 다음 중 환자의 가장 가능성 높은 진단과 관련된 생검 소견은 무엇인가?
+오랫동안 조절되지 않은 류마티스관절염이 있는 63세 남성에게 신증후군이 생겼다. 신장 생검의 콩고레드 양성 침착물에서 AA형 아밀로이드가 확인됐다. 신장 악화를 늦추기 위한 원인 치료는?
 
 ## 선택지
 
-A. 콩고 레드(Congo red) 염색 시 사과 녹색 복굴절(apple green birefringence)
-B. 사구체 기저막 분절(glomerular basement membrane splitting)
-C. 상피하 고밀도 침착물(subepithelial dense deposits)
-D. 세뇨관 간질 섬유화(tubulointerstitial fibrosis)
+A. 류마티스관절염의 만성 염증을 적극 조절한다
+B. 다발골수종 치료를 바로 시작한다
+C. AA형인데도 트랜스티레틴 안정화제만 투여한다
+D. 부종이 사라지면 기저염증 관리는 중단한다
 
 ## 해설
 
 
-류마티스 관절염 환자에서 전신 아밀로이드증이 발생하면 신장에 Congo red 양성, 사과 녹색 복굴절을 보인다. 환자의 단백뇨와 저알부민혈증이 이를 뒷받침한다.
+AA형 아밀로이드는 만성 염증에 의해 증가한 혈청 아밀로이드 A에서 유래한다. 기저 염증을 조절하는 것이 핵심이며, 조직으로 확인된 유형에 맞춰 치료한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 세뇨관 간질 섬유화(tubulointerstitial fibrosis)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000392
+- https://doi.org/10.1056/NEJMoa070265

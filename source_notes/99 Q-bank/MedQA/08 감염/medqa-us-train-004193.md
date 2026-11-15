@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
-question_type: 임상증례 객관식
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-61세 남자가 수년간 진료를 받지 않다가 일차의료기관에 등록하러 왔다. 특별한 호소는 없지만 추가 문진에서 막연한 복부 불편감이 있다. 알려진 과거력과 복용약은 없다. 10대 후반과 20대에 헤로인을 주사했지만 10년 넘게 약물과 술을 끊고 지냈다. 활력징후는 심박수 90회/분, 호흡수 17회/분, 혈압 110/65 mmHg, 체온 37.0°C이다. 복부가 약간 팽만하고 혈소판 77,000/μL, INR 1.7이다. 진단을 위한 다음 단계는 무엇인가?
+56세 환자가 올해 국가건강검진에서 C형간염 항체 양성 통보를 받았다. 간수치는 정상이고 과거 C형간염 치료력은 없다. 현재 감염 여부를 확인할 다음 검사는?
 
 ## 선택지
 
-A. 항핵항체 검사
-B. C형 간염 항체 검사
-C. HIV ELISA
-D. 혈소판 응집검사
+A. 간 탄성도 검사
+B. 혈청 HCV RNA 검사
+C. C형간염 항체검사만 반복
+D. HCV 유전자형 검사부터 시행
 
 ## 해설
 
 
-주사약물 병력과 혈소판감소·INR 상승은 만성 간질환/문맥고혈압 가능성을 시사한다. 선택지 B의 anti-HCV로 평가하되 양성이면 reflex HCV RNA로 현재 감염을 확인한다. 항체만으로 활동성 감염을 확정하지 않으며 간 기능·섬유화·다른 바이러스 등도 함께 평가한다.
+국가검진에서 항-HCV가 검출돼도 현재 감염이 확정된 것은 아니다. 간수치에 관계없이 HCV RNA로 현재 감염을 확인한 뒤 치료와 간섬유화 평가를 계획한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 혈소판 응집검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004193
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12835810/

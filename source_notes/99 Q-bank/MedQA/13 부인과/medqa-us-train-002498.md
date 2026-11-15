@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 G1P1 여성이 1년간 임신이 되지 않아 내원했다. 첫 아이의 임신과 분만은 순조로웠고 최근 직장 복귀 후 스트레스를 많이 받았다. 과거 월경은 30일 간격이었으나 마지막 월경은 3개월 전이고 질 건조감이 있다. 매일 5~10마일을 달리며 BMI는 19.0 kg/m²이다. 임신검사는 음성, 프로락틴 18 μg/L, TSH 2.5 mU/L, FSH 3.6 U/L, LH 2.3 U/L이고 골반 초음파는 정상이다. 식이와 운동 상담 외에 다음 중 가장 적절한 치료의 다음 단계는?
+29세 G1P1 여성이 1년간 임신이 되지 않아 내원했다. 첫 아이의 임신과 분만은 순조로웠고 최근 직장 복귀 후 스트레스를 많이 받았다. 과거 월경은 30일 간격이었으나 마지막 월경은 3개월 전이고 질 건조감이 있다. 매일 5~10마일을 달리며 BMI는 19.0 kg/m²이다. 임신검사는 음성, 프로락틴 18 μg/L, TSH 2.5 mU/L, FSH 3.6 U/L, LH 2.3 U/L이고 골반 초음파는 정상이다. 식이와 운동 상담 외에 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

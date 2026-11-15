@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCrO2ajCDrtojslYgg7J6l7JWgIChTb2NpYWwgQW54aWV0eSBEaXNvcmRlcikubWQ
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,23 +38,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여자가 2일 동안 지속된 두통과 수면 곤란으로 내원했다. 지난 몇 달 동안 비슷한 증상이 있었고 매달 거의 같은 시기에 발생한다고 한다. 증상에는 집중력 저하, 화난 감정, 단 음식에 대한 갈망이 자주 동반된다. 이 기간에는 일을 효율적으로 할 수 없고 동료와 친구들과 자주 다툰다고 한다. 월경은 26일 간격으로 규칙적이고 5일간 지속된다. 마지막 월경은 약 3주 전에 시작되었다. 8년 동안 매일 담배 한 갑을 피웠고 복용 약물은 없다. 과민해 보이지만 사람·장소·시간에 대한 지남력은 정상이다. 신체검사에서 이상은 없다. 다음 중 가장 적절한 치료는 무엇인가?
+25세 환자가 매일 증상을 기록했다. 두 주기 모두 월경 직전 과민과 우울, 집중 곤란 때문에 일에 지장이 컸지만 월경이 시작되면 사라졌다. 월경전불쾌장애로 진단했고 정서 증상에 약물치료를 원한다. 적절한 약은?
 
 ## 선택지
 
-A. 인지행동치료
-B. 니코틴 회피
-C. 나프록센
-D. 플루옥세틴
+A. 나프록센
+B. 알프라졸람을 매일 장기 복용
+C. 플루옥세틴
+D. 카르바마제핀
 
 ## 해설
 
-월경 전 시기에 반복되는 과민·집중 저하·식욕 변화와 기능장애는 월경전불쾌장애를 시사한다. 제시된 약물 중 SSRI인 플루옥세틴이 핵심 정서 증상을 치료하는 선택이다. 실제 진단은 전향적 증상 기록으로 월경주기 연관성과 다른 질환의 악화를 확인한다. CBT와 생활습관 관리도 도움이 될 수 있고 나프록센은 통증 등 신체 증상에 사용할 수 있으므로 모두 무효라고 설명하지 않는다.
+월경전불쾌장애의 정서 증상에는 SSRI를 일차 약으로 고려한다. 증상이 뚜렷한 시기에만 쓰거나 계속 복용하는 방법을 증상과 선호에 따라 정할 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007127
+- https://pubmed.ncbi.nlm.nih.gov/37973069/
 
 ## 검수 근거
 

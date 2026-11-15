@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-49세 남성이 6개월 동안 발기가 어려워 내원했다. 건설 노동자로 일하지만 허리와 허벅지 통증, 장거리 보행 시 점점 심해지는 하지 위약으로 근무시간을 줄였다. 몇 분 쉬면 통증이 호전되지만 다시 일하면 재발하고 가만히 서 있으면 통증이 좋아진다. 여성 파트너 4명과 성생활을 하며 콘돔은 불규칙하게 사용한다. 아버지는 관상동맥질환, 어머니는 53세에 파열성 두개내 동맥류로 사망했다. 35년 동안 하루 한 갑을 피웠고 친구에게 받은 실데나필은 효과가 없었다. 체온 36.9°C(98.4°F), 맥박 76회/분, 혈압 169/98mmHg, BMI 34.2kg/m²이다. 혈액검사와 전해질, BUN, 크레아티닌은 정상이고 HbA1c는 6.2%이다. 신체검사에서 가장 가능성 높은 소견은 무엇인가?
+49세 남성이 6개월 동안 걸을 때마다 양쪽 엉덩이와 허벅지가 아프고 발기가 어려워졌다고 한다. 허리를 굽히지 않고 서서 쉬어도 통증은 몇 분 안에 가라앉는다. 흡연력과 고혈압이 있고 양쪽 대퇴동맥 맥박이 약하다. 가장 가능성 높은 병변 위치는?
 
 ## 선택지
 
-A. 양측 대퇴동맥 맥박 감소
-B. 핵간안근마비
-C. 손바닥과 발바닥의 구진성 발진
-D. 경정맥 팽창
+A. 대동맥–장골동맥 분지부
+B. 한쪽 슬와동맥
+C. 양쪽 하지 심부정맥
+D. 요추 척추관
 
 ## 해설
 
 
-흡연, 고혈압, 비만, 말초동맥질환 위험인자를 가진 환자에게 발기부전과 함께 다리 통증이 나타나는 경우는 간헐성 파행(claudication)이다. 이는 양측 대퇴동맥 혈류 감소와 일치한다. 따라서 양측 대퇴동맥 맥박 감소가 가장 가능성 높은 소견이다.
+엉덩이·허벅지의 운동유발 통증, 양측 대퇴맥 감소와 발기부전의 조합은 대동맥–장골동맥 폐색질환을 시사한다. 척추관협착의 신경성 파행은 자세에 따라 달라질 수 있으나 약해진 대퇴맥은 설명하지 못한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 경정맥 팽창
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009058
+- https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2024/05/09/15/00/2024-guideline-for-lower-extremity-pad

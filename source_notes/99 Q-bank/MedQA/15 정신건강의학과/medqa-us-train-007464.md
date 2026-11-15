@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,24 +39,26 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-33세 여자가 10개월 동안 불안, 수면 부족, 간헐적인 손 떨림과 발한으로 내원했다. 증상에 가장 좋은 치료는 퇴근 후 ‘좋은 코냑 한 잔’이라고 한다. 자신을 ‘적당히 마시는 사람’이라고 생각하지만 자세히 묻자 근무일에는 하루 1~2잔, 쉬는 날 파티를 할 때는 3~5잔을 마신다고 인정한다. 술에 취한 상태로 자동차 사고를 낸 적이 있다. 금융 보조원으로 일하며 직업이 ‘힘들다’고 한다. 이혼했고 15세 딸과 함께 산다. 딸에게 술을 끊으라는 말을 자주 듣는다. 문제의 범위가 생각보다 클 수 있음을 깨닫지만 술을 끊으려 한 적은 없다. 절망감을 느끼지는 않지만 자신의 행동 때문에 때때로 죄책감을 느낀다. 담배와 불법 약물은 사용하지 않는다. 다음 중 이 환자의 치료에 적절한 약물은 무엇인가?
+알코올 사용장애 환자가 현재 위험한 금단 상태는 아니며 음주량을 줄이고 싶다. 오피오이드 진통제는 사용하지 않고 간기능을 평가해 금기가 없음을 확인했다. 상담과 함께 과음을 줄이기 위한 일차 약은?
 
 ## 선택지
 
-A. 날트렉손
-B. 디설피람
-C. 아미트립틸린
-D. 토피라메이트
+A. 디아제팜
+B. 아미트립틸린
+C. 가바펜틴을 우선 단독 투여
+D. 날트렉손
 
 ## 해설
 
 
-알코올 사용장애에서 갈망을 감소시키는 날트렉손이 1차 약물 치료로 권고된다.
+날트렉손은 알코올 사용장애에서 과음과 갈망을 줄이는 일차 선택 중 하나다. 시작 전 오피오이드 사용이나 금단 여부와 간 상태를 확인한다. 급성 알코올 금단을 치료하는 약은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007464
+- https://pubmed.ncbi.nlm.nih.gov/37844924/
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f821dd49-3fa7-4d33-99de-19023ff1ae65
 
 ## 검수 근거
 

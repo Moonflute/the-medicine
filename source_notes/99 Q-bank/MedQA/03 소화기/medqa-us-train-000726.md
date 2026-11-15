@@ -17,11 +17,11 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shLjqt6Ag6rO864uk7Kad7IudIOymne2bhOq1sCAoU21hbGwgSW50ZXN0aW5hbCBCYWN0ZXJpYWwgT3Zlcmdyb3d0aCBTeW5kcm9tZSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -39,19 +39,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-76세 일본인 남성이 3개월간 지속된 묽은 변과 악화되는 말초 부종으로 입원하였다. 그는 또한 피로감, 지난 6주간 10파운드의 체중 감소, 그리고 같은 기간 동안 손발의 저린 감각을 호소한다. 반려견 외에는 1년 넘게 동물과 접촉한 적이 없으며, 해외 여행을 다녀온 적도 없다. 고혈압과 양성 전립선 비대증이 있다. 5년 전 위암으로 공장 문합술을 동반한 부분 위절제술을 받았다. 현재 복용 중인 약물은 하이드로클로로티아자이드(hydrochlorothiazide)와 탐스로신(tamsulosin)이다. 체온은 36.8°C, 맥박은 103회/분, 혈압은 132/83 mm Hg이다. 진찰상 복부는 부드럽고 압통은 없다. 상복부에 잘 치유된 흉터가 있다. 심폐 검사상 이상 소견은 없다. 결막은 창백해 보인다. 하지의 진동 및 위치 감각이 소실되었다. 혈색소 농도는 9.9 g/dL, MCV는 108 μm3, 총 단백질은 3.9 g/dL, 알부민은 1.9 g/dL이다. 이 환자 상태의 가장 가능성 높은 원인은 무엇인가?
+위암으로 위 부분 절제 후 공장과 문합한 76세 남성이 식후 복부팽만, 지방변과 체중 감소를 보인다. CT상 재발이나 폐색은 없지만 길게 남은 맹관이 있다. 소장세균과증식이 의심될 때 사용할 비침습 검사는?
 
 ## 선택지
 
-A. 종양성 증식
-B. 장 운동성 증가
-C. 세균 과증식
-D. 문합부 협착
+A. 혈청 항내인자 항체
+B. 4시간 위배출 신티그래피
+C. 포도당 수소·메탄 호기검사
+D. 대변 칼프로텍틴
 
 ## 해설
 
 
-부분 위절제 후 장간 폐쇄가 없고, 저단백혈증·거대적혈구증·말초 신경 손상이 동반된 경우 세균 과증식이 흔히 발생한다. 장내 세균 과증식은 영양소 흡수 장애와 비타민 결핍을 일으켜 위의 이상 소견을 설명한다. 따라서 가장 가능성 높은 원인은 세균 과증식이다.
+수술 뒤 장 내용물이 맹관에 정체되면 소장세균과증식 위험이 높아진다. 증상과 수술력을 바탕으로 포도당 호기검사를 고려할 수 있다. 위장관 수술 후에는 장 통과 속도가 결과에 영향을 줄 수 있어 단독 확진으로 쓰지 않는다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ D. 문합부 협착
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000726
+- https://doi.org/10.14309/AJG.0000000000000501

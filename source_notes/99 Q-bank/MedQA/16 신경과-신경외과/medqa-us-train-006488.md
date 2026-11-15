@@ -14,11 +14,11 @@ related_diseases:
   - "체위성 안진"
   - "전정 억제제"
   - "Benign paroxysmal positional vertigo"
-question_type: management
+question_type: investigation
 related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-ydtOyEneymnSAoQmVuaWduIHBhcm94eXNtYWwgcG9zaXRpb25hbCB2ZXJ0aWdvKS5tZA
 difficulty: complex
-answer: "D"
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -42,18 +42,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-55세 여성이 일주일 동안 지속된 어지럼증으로 가정의에게 내원했다. 누우면 빙빙 도는 느낌이 생기고 고개를 오른쪽으로 돌릴 때 심해진다. 증상은 일시적이고 간헐적이며 1분 이내로 지속되고 하루에도 여러 차례 발생하며 오심이 동반된다. 증상 사이에는 정상으로 일상생활을 할 수 있다. 발열, 청력 이상, 복시, 이명 또는 최근 독감·바이러스 감염은 부인한다. 과거력으로 제2형 당뇨병, 고혈압 및 고콜레스테롤혈증이 있다. 흡연과 음주는 하지 않는다. 혈압은 124/78 mm Hg, 심박수는 분당 79회, 호흡수는 분당 13회이다. 검사 중 앉은 자세에서 머리를 오른쪽으로 45도 돌린 채 바로 눕게 하자 수평 안진이 관찰되었다. 다음 중 처치로 가장 적절한 다음 단계는?
+55세 여성이 침대에서 돌아눕고 나면 30초 정도 현훈이 있다. 다른 신경학적 이상은 없고 딕스–홀파이크 검사에서 회선성 대신 수평 안진이 보인다. 어느 검사를 다음으로 시행할까?
 
 ## 선택지
 
-A. 광범위 항생제
-B. 고용량 스테로이드
-C. 가돌리늄 조영 뇌 MRI
-D. 누운 자세 머리회전검사(supine roll test)로 수평반고리관 BPPV를 평가하고 해당 반고리관에 맞는 이석정복술 시행 또는 의뢰
+A. 청력역치검사
+B. 누운 자세 머리회전검사
+C. 기립경 검사
+D. 머리충동검사만 반복
 
 ## 해설
 
-체위 변화로 유발되는 1분 미만의 반복 현훈과 발작 사이 정상 상태는 BPPV를 시사한다. 다만 제시된 안진이 수평성이므로 후반고리관 BPPV로 단정해 Epley 술기를 일률적으로 적용하지 않는다. Supine roll test로 수평반고리관 침범을 평가하고 확인된 유형에 맞는 이석정복술을 시행한다. 전정억제제의 일상적인 사용은 권장되지 않는다. 비전형적 안진이나 중추신경계 소견이 생기면 별도 평가가 필요하지만 현재 문항에는 그런 소견이 제시되지 않았다.
+병력은 이석증에 맞지만 딕스–홀파이크에서 수평 안진이 나오면 누운 자세 머리회전검사로 수평반고리관 침범을 확인한다.
 
 ## 검수 근거
 
@@ -66,6 +66,7 @@ D. 누운 자세 머리회전검사(supine roll test)로 수평반고리관 BPPV
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006488
+- https://pubmed.ncbi.nlm.nih.gov/28248609/
 
 ## 오답 포인트
 

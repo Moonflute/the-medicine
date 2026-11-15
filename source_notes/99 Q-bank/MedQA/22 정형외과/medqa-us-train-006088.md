@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,7 +38,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 남성이 수개월 동안 지속된 요통으로 추적진료를 받으러 왔다. 통증은 우측 다리를 따라 발까지 방사되고 활동 후 악화된다. 과거력은 특이하지 않고 약물도 복용하지 않는다. 우측 하지직거상검사는 양성이다. 검사에서 혈색소 14 g/dL, 백혈구 5,500/mm³(감별계수 정상), 혈소판 350,000/mm³, 칼슘 9.0 mg/dL, 알부민 3.8 g/dL, BUN 14 mg/dL, 크레아티닌 0.9 mg/dL이다. 혈청 면역전기영동에서 IgG형 단클론 성분 40 g/L, 골수 형질세포 20%가 보이지만 골격조사에서 골병변은 없다. MRI에서 L5 추간판 탈출이 확인된다. 다음 중 가장 적절한 다음 단계는 무엇인가?
+67세 남성이 수개월 동안 지속된 요통으로 추적진료를 받으러 왔다. 통증은 우측 다리를 따라 발까지 방사되고 활동 후 악화된다. 과거력은 특이하지 않고 약물도 복용하지 않는다. 우측 하지직거상검사는 양성이다. 검사에서 혈색소 14 g/dL, 백혈구 5,500/mm³(감별계수 정상), 혈소판 350,000/mm³, 칼슘 9.0 mg/dL, 알부민 3.8 g/dL, BUN 14 mg/dL, 크레아티닌 0.9 mg/dL이다. 혈청 면역전기영동에서 IgG형 단클론 성분 40 g/L, 골수 형질세포 20%가 보이지만 골격조사에서 골병변은 없다. MRI에서 L5 추간판 탈출이 확인된다. 가장 적절한 다음 단계는 무엇인가?
 
 ## 선택지
 

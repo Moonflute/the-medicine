@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rOo7Jyh7KKFIChPc3Rlb3NhcmNvbWEpLm1k
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,19 +32,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-13세 남아가 한 달 전 시작되어 점점 심해지는 왼쪽 무릎의 통증, 부종, 발적을 평가받으러 왔다. 축구를 해서 생긴 통증이라고 생각하며 타이레놀에도 호전되지 않아 답답해한다. 과거력은 특이사항이 없다. 진찰에서 무릎의 압통과 열감, 운동 제한이 있다. 백혈구 수는 정상이고 알칼리성 인산분해효소가 상승했다. 무릎 방사선촬영에서 혼합성 용해성 및 경화성 병변이 보인다. 증상의 가장 가능성 높은 원인은?
+13세 남아의 무릎 통증이 한 달 동안 심해지고 붓는다. X선에서 원위 대퇴골 골간단에 뼈를 파괴하는 병변과 불규칙한 골 형성, 가시 모양 골막 반응이 보인다. 가장 의심되는 진단은?
 
 ## 선택지
 
-A. 골수염
-B. 골육종
-C. 유잉육종
-D. 연골육종
+A. 단순 골낭종
+B. 골연골종
+C. 오스굿-슐라터병
+D. 골육종
 
 ## 해설
 
 
-청소년기에 나타나는 혼합성 용해·경화성 골 병변과 알칼리성 인산분해효소 상승은 골육종을 시사한다. 골육종은 가장 흔한 악성 골종양이며, 다른 선택지는 연령·영상 소견과 맞지 않는다. 따라서 골육종이 정답이다.
+성장기 무릎 주위 골간단의 골파괴와 비정상 신생골은 골육종을 의심할 소견이다. 확진과 생검 경로 계획은 근골격 종양 전문팀에서 진행한다.
 
 ## 출처
 

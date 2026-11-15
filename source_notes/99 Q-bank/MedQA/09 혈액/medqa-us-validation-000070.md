@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
 question_type: prevention
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-급성 골수성 백혈병 유도 화학요법을 시작한 지 7일 후 56세 남성에게 백혈구감소증이 생겼다. 호중구 감소 외에 증상은 없고 진찰도 정상이다. 혈색소 9g/dL, 백혈구 1,500/mm³(분절호중구 50%), 혈소판 85,000/mm³이다. 합병증 위험을 줄이기 위해 가장 적절히 투여할 것은?
+급성 골수성 백혈병으로 유도항암을 받는 환자다. 열이나 활동성 감염은 없지만 절대호중구수가 100/μL 미만인 상태가 7일 넘게 지속될 것으로 예상된다. 기관의 내성 자료를 고려했을 때 항균 예방 계획으로 적절한 것은?
 
 ## 선택지
 
-A. 시프로플록사신
-B. 과립구집락자극인자
-C. 반코마이신
-D. 현재 약물 예방이 필요하지 않다
+A. 모든 환자에게 정맥 반코마이신을 예방적으로 투여한다
+B. 위험도에 맞춰 플루오로퀴놀론 계열의 항균 예방을 고려한다
+C. 호중구감소가 아무리 깊어도 항균 예방을 고려하지 않는다
+D. 발열이 새로 생겨도 예방 약제만 유지하며 관찰한다
 
 ## 해설
 
 
-AML 유도요법 후에는 깊고 오래 지속될 호중구감소가 예상되어 fluoroquinolone 예방(A)을 고려하는 고위험군이다. 원문 WBC 1,500/µL와 호중구 50%로 현재 ANC는 약 750/µL이며, 이 수치 하나만으로 모든 환자에게 예방약을 권하는 것은 아니다. 예상 깊이·기간, 점막염·지역 내성·금기를 함께 판단한다. 발열이 발생하면 예방이 아닌 신속한 경험적 치료로 전환한다.
+매우 깊고 오래 지속될 호중구감소는 세균 감염 고위험이다. 항균 예방을 검토하되 지역 내성과 부작용을 고려하고, 열이 나면 즉시 경험적 치료가 필요한지 평가한다.
 
 ## 검수 근거
 
@@ -63,3 +63,5 @@ AML 유도요법 후에는 깊고 오래 지속될 호중구감소가 예상되�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000070
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3110859/
+- https://www.idsociety.org/practice-guideline/antimicrobial-prophylaxis-for-adult-patients-with-cancer-related-immunosuppression/

@@ -17,7 +17,7 @@ related_diseases:
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
   - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpC5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -39,19 +39,19 @@ related_drug_slugs:
 
 ## 문제
 
-48세 여자가 2개월 동안 점점 아파지는 오른쪽 무릎 뒤 부종으로 내원했다. 이 기간 동안 간헐적인 미열과 평소보다 심한 피로도 있었다. 무릎 외상은 없었다. 지난 1년 동안 양손과 손목에 간헐적인 통증이 있었다. 고혈압과 제2형 당뇨병이 있다. 매일 와인 1~2잔을 마시고 주말에는 가끔 더 마신다. 에날라프릴, 메트포르민, 글리메피리드를 복용한다. 어머니와 오빠가 골관절염을 앓고 있다. 키는 165cm(5피트 5인치), 체중은 68kg(150lb), BMI는 25kg/m²이다. 활력징후는 정상이다. 신체검사에서 오른쪽 오금오목에 3cm 크기의 압통 없는 종괴가 있고 무릎을 펴면 더 뚜렷해진다. 오른쪽 무릎 관절에 경미한 부종과 발적이 있다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+류마티스관절염으로 무릎 삼출이 있고 오금낭종을 진단받은 48세 여성이 갑자기 한쪽 종아리가 붓고 아프다고 한다. 낭종 파열과 심부정맥혈전증을 구분할 첫 검사는?
 
 ## 선택지
 
-A. 골관절염
-B. 건선관절염
-C. 류마티스관절염
-D. 전신홍반루푸스
+A. 무릎 단순촬영만 시행
+B. 혈청 항CCP 항체 재검
+C. 하지 정맥 압박 도플러 초음파
+D. 근전도 검사
 
 ## 해설
 
 
-오금의 종괴가 무릎 신전에서 뚜렷해지는 것은 Baker 낭종(오금낭종)을 시사한다. 이는 관절삼출과 연결되며 OA뿐 아니라 RA 등 염증성 관절염에도 동반될 수 있다. 이 환자의 양손/손목 통증·피로·미열을 함께 고려하면 선택지 C가 가장 가능성이 높다. 낭종만으로 RA를 확진하는 것은 아니며 신체검사·항체·영상으로 확인한다.
+오금낭종이 파열돼도 깊은정맥혈전증처럼 종아리가 아프고 부을 수 있다. 압박 초음파로 혈전을 먼저 확인하고 필요하면 낭종이나 액체의 분포도 살핀다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 전신홍반루푸스
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007210
+- https://acsearch.acr.org/docs/69416/Narrative/

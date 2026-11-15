@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE64yAIOuCoOusuCDtmJHssKnspp0gKEh5cGVydHJvcGhpYyBQeWxvcmljIFN0ZW5vc2lzKS5tZA
 difficulty: standard
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -32,7 +33,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 4주 남아가 영유아 검진을 위해 부모와 내원했다. 일주일 전까지 잘 먹었으나 이후 모유수유 후 구토하기 시작했다. 수유 빈도를 늘리고 양을 줄였지만 구토가 악화되어 이제 매 수유 후 구토한다. 구토물은 모유처럼 보인다. 모유수유를 계속하고 싶지만 영양을 충분히 받지 못할까 걱정한다. 2주 전 체중은 75백분위수였으나 지금은 60백분위수로 떨어졌다. 점막이 건조하고 복부는 부드럽고 팽만이 없다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+생후 4주 남아가 영유아 검진을 위해 부모와 내원했다. 일주일 전까지 잘 먹었으나 이후 모유수유 후 구토하기 시작했다. 수유 빈도를 늘리고 양을 줄였지만 구토가 악화되어 이제 매 수유 후 구토한다. 구토물은 모유처럼 보인다. 모유수유를 계속하고 싶지만 영양을 충분히 받지 못할까 걱정한다. 2주 전 체중은 75백분위수였으나 지금은 60백분위수로 떨어졌다. 점막이 건조하고 복부는 부드럽고 팽만이 없다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

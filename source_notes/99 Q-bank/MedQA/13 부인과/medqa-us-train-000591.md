@@ -21,7 +21,7 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-30세 여성이 남편과 함께 내원하였다. 15개월 동안 임신을 시도했으나 성공하지 못했다. 부부는 최소 주 2회 성관계를 가지고 있다. 남편은 성관계 중 발기 유지에 가끔 어려움을 겪는다. 질 삽입 시도 시 환자는 불편감을 느끼며 골반저근이 긴장된다. 3년 전 환자는 신체이형장애(body dysmorphic disorder)를 진단받았다. 심각한 질환의 가족력은 없다. 환자는 흡연이나 음주를 하지 않는다. 복용 중인 약물은 없다. 활력징후는 정상 범위 내에 있다. 골반 검사상 외음부는 정상적으로 보이며 발적은 없고, 질 분비물은 없다. 질경 검사를 시도했으나 환자의 골반저근이 긴장되고 불편감을 호소하여 중단하였다. 가장 가능성이 높은 진단은 무엇인가?
+30세 여성이 6개월째 탐폰 삽입과 성관계 때 질 입구가 타는 듯 아프다. 감염검사는 음성이고 피부 병변은 없다. 동의하에 면봉으로 질 전정을 가볍게 건드리면 평소 통증이 재현되고 골반저 과긴장은 뚜렷하지 않다. 진단은?
 
 ## 선택지
 
-A. 외음부통(Vulvodynia)
-B. 외음질염(Vulvovaginitis)
-C. 방광통증증후군(Painful bladder syndrome)
-D. 생식골반통증장애(Genitopelvic pain disorder)
+A. 질 칸디다증
+B. 골반 심부 자궁내막증
+C. 골반저 근육 경련만으로 인한 통증
+D. 유발성 전정통
 
 ## 해설
 
 
-성교 시 통증·골반저근 긴장은 골반통증장애(Genitopelvic pain disorder)와 연관된다. 외음부통·질염·방광통증증후군은 다른 특징(통증 부위, 배뇨통 등)을 보인다. 따라서 Genitopelvic pain disorder가 가장 가능성 있다.
+다른 원인이 배제된 3개월 이상의 국소 외음부 통증이 질 전정 접촉으로 유발되면 유발성 전정통을 고려한다. 면봉 검사로 통증 부위를 확인하고 골반저 과긴장과 구분한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000591
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2016/09/persistent-vulvar-pain

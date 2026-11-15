@@ -14,14 +14,14 @@ related_diseases:
   - "blunt abdominal trauma in pregnancy"
   - "painful vaginal bleeding"
   - "uterine hypertonicity"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
   - MTEg7Jm46rO8L-uRlOyDgSDrs7XrtoDsmbjsg4EgKEJsdW50IEFiZG9taW5hbCBUcmF1bWEpLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 39주인 35세 G3P2 여성이 자동차 사고 직후 발생한 통증성 질 출혈로 응급실에 왔다. 안전벨트를 착용했고 에어백이 전개되었다. 혈압은 90/60 mmHg, 맥박은 130회/분이었고 자궁은 압통이 있으며 단단했다. 가장 가능성 높은 진단은?
+임신 31주 산모가 교통사고로 복부에 둔상을 입었다. 초기 외상 평가 후 혈압은 안정적이고 질출혈은 없으며, 초음파에서 명확한 태반 혈종은 없었다. 태반 박리와 태아 이상을 놓치지 않기 위한 다음 조치는?
 
 ## 선택지
 
-A. 조산
-B. 전치혈관
-C. 태반조기박리
-D. 자간증
+A. 외상 초음파에 혈종이 없으므로 즉시 귀가
+B. 태아 심박과 자궁수축을 연속 감시하며 산모도 관찰
+C. 질출혈이 생길 때만 태아를 평가
+D. 분만 예정일까지 초음파를 하지 않음
 
 ## 해설
 
 
-외상 후 복통·통증성 질 출혈·자궁 긴장(경직)은 태반이 자궁 내에서 조기 박리되어 혈액이 자궁강에 고이면서 발생하는 태반조기박리를 시사한다. 고혈압·저혈압, 빈맥과 함께 급성 출혈이 동반된다. 따라서 가장 가능성 높은 진단은 태반조기박리이다.
+초음파가 정상이더라도 외상 후 태반조기박리는 배제되지 않는다. 생존 가능 주수의 임신에서는 초기 안정화 후 최소 수 시간 산모·태아를 감시하고, 수축·출혈 등이 있으면 감시를 연장한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003543
+- https://pubmed.ncbi.nlm.nih.gov/40454982/

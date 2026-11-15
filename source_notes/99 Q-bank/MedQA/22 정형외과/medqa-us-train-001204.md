@@ -13,13 +13,13 @@ related_diseases:
   - "multiple myeloma"
   - "hip fracture"
   - "femoral neck fracture"
-question_type: mechanism
+question_type: prevention
 related_disease_slugs:
   - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-72세 여성이 집 안에서 걷다가 넘어진 후 1시간 만에 오른쪽 고관절 통증으로 응급실에 내원했다. 넘어진 이후로 서거나 걸을 수 없는 상태이다. 고혈압과 통풍 병력이 있다. 자매가 55세에 다발성 골수종(multiple myeloma)으로 사망했다. 현재 복용 중인 약물은 암로디핀(amlodipine)과 페북소스타트(febuxostat)이다. 담배는 피우지 않는다. 매일 와인 한 잔을 마신다. 체온은 37.3°C, 맥박은 101회/분, 혈압은 128/86 mm Hg이다. 진찰 결과 오른쪽 서혜부 압통이 관찰된다. 오른쪽 고관절의 관절 가동 범위는 통증으로 인해 제한된다. 나머지 신체 검진 결과는 정상이다. 전혈구 검사(CBC)와 혈청 크레아티닌 농도는 참고 범위 내에 있다. 고관절 X-선 검사에서 오른쪽 대퇴경부의 선형 골절이 확인되었다. 환자는 수술이 예정되어 있다. 이 환자의 골절에 대한 가장 가능성 있는 기저 원인은 무엇인가?
+72세 여성이 평지에서 넘어져 대퇴경부 골절 수술을 받았다. 영상에서 종양 의심 소견은 없고 높은 에너지 외상도 아니었다. 퇴원 전 재골절을 줄이기 위해 할 일은?
 
 ## 선택지
 
-A. 골모세포 활성 감소
-B. 단클론항체 생성
-C. 골 무기질화 장애
-D. 파골세포 기능 결함
+A. 골절이 유합되면 뼈 상태는 더 이상 평가하지 않는다
+B. 젊은 환자가 아니므로 재골절 예방은 하지 않는다
+C. 칼슘만 먹고 새 골절이 생기면 다시 검사한다
+D. 골다공증과 낙상 위험을 평가하고 항골절 치료를 계획한다
 
 ## 해설
 
-낮은 에너지의 실내 낙상 후 생긴 대퇴경부골절은 고령 여성의 골다공증성 취약골절에 합당하다. 노화에 따른 골형성 저하와 골재형성 불균형이 관여하며 선지 중 골모세포 활성 감소(A)가 가장 적절하다. 실제로 낙상 외상이 있었고 환자는 비흡연자이므로 외상 없음·흡연력을 추가해서는 안 된다. 골다공증은 골량이 감소하지만 남은 골기질의 무기질화는 보통 정상이다.
+낮은 에너지의 고관절 골절은 취약골절이다. 골밀도와 별개로 재골절 위험이 높으므로 골다공증 평가·치료와 낙상 예방을 계획한다.
 
 ## 검수 근거
 

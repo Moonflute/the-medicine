@@ -15,11 +15,11 @@ related_diseases:
   - "소구성 빈혈"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-55세 남자가 피로와 기억력 변화로 응급실에 왔다. 몇 주 동안 혼란과 과민, 집중력 저하가 있었고 전신 근육·관절통과 변비가 있다. 혈압은 172/99 mmHg, 혈색소 9.0 g/dL, MCV 78 fL, 칼슘 10.2 mg/dL이다. 다음 중 가장 가능성 높은 진단은?
+오래된 건축물 도료를 제거하는 일을 하는 환자에게 변비와 복통, 집중력 저하가 생겼다. 소구성 빈혈이 있고 철검사로는 설명되지 않는다. 납중독을 확인하기 위한 검사는?
 
 ## 선택지
 
-A. 길랭-바레 증후군
-B. 중금속 노출
-C. 철결핍
-D. 전신홍반루푸스
+A. 머리카락의 중금속 종합 검사
+B. 혈청 아연 농도
+C. 정맥혈 납 농도
+D. 소변 포르포빌리노겐 단독
 
 ## 해설
 
 
-피로, 기억력 저하, 근육·관절통, 변비와 함께 미세소구성 빈혈(저MCV)과 고혈압이 동반된 경우, 납 등 중금속 노출이 흔한 원인이다. 중금속은 신경·근육 증상을 일으키며 빈혈을 유발한다. 따라서 중금속 노출이 가장 가능성 높은 진단이다.
+노출력과 임상상으로 납중독이 의심되면 정맥혈 납 농도를 확인한다. 적혈구 형태나 증상만으로 납중독을 확진하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 전신홍반루푸스
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005155
+- https://www.who.int/publications/i/item/9789240037045

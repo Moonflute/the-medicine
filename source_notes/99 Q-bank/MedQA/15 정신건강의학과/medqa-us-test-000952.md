@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,23 +37,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 여성이 정기 건강검진에서 금연 상담을 요청했다. 7년간 하루 한 갑을 피웠고 여러 번 끊으려 했지만 실패했다. 이전 시도에서 극도로 불안했고 체중도 증가했다. 니코틴 사탕도 사용했지만 심한 두통과 불면 때문에 중단했다. 신경성 폭식증이 있고 약물은 복용하지 않는다. 신체·신경학적 진찰은 정상이었다. 다음 중 가장 적절한 처치는?
+22세 환자가 금연 보조약을 고르고 있다. 신경성 폭식증 치료를 받은 병력이 있다. 이 병력 때문에 발작 위험을 고려해 피해야 할 금연약은?
 
 ## 선택지
 
-A. 디아제팜
-B. 니코틴 패치
-C. 바레니클린
-D. 동기강화 면담
+A. 부프로피온
+B. 바레니클린
+C. 니코틴 패치
+D. 니코틴 껌
 
 ## 해설
 
-바레니클린은 니코틴성 아세틸콜린 수용체 부분 작용제로 금연을 돕는다. 금연 의지가 있고 니코틴 사탕을 견디지 못한 이 환자에서 제시된 선택지 중 적절하다. 니코틴 패치도 유효한 금연 방법이며 사탕의 부작용만으로 모든 니코틴 대체요법이 금기는 아니다. 행동적 지원은 약물과 함께 제공할 수 있다. 폭식증 병력이 있으므로 선택지에는 없지만 부프로피온은 발작 위험 때문에 금기이다.
+신경성 폭식증의 현재 또는 과거 병력은 부프로피온 금기다. 환자 선호와 다른 금기를 확인해 바레니클린이나 니코틴 대체요법 등 대안을 검토하고 상담을 병행한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000952
+- https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=200702571
+- https://pubmed.ncbi.nlm.nih.gov/41084884/
 
 ## 검수 근거
 

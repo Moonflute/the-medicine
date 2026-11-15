@@ -15,9 +15,9 @@ related_diseases:
   - "단클론 단백 추적"
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
-question_type: management
+question_type: monitoring
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-76세 여성이 추적 진료를 위해 내원했다. 지난달 혈색소가 10.5 g/dL였고 운동 시 경미한 호흡곤란이 있다. 30년 동안 매일 운동했고 비교적 건강하며 특별한 과거력은 없다. 무릎 통증으로 가끔 이부프로펜을 복용하고 음주와 흡연력은 없다. 체온은 37.1°C(98.8°F), 맥박은 분당 65회, 호흡수는 분당 13회, 혈압은 115/65 mm Hg이다. 검사에서 혈색소 10.5 g/dL, 평균적혈구용적 75 μm³, 백혈구 6,500/mm³(감별계수 정상), 혈소판 400,000/mm³, 혈청 철 35, 총철결합능 450 μg/dL, 페리틴 8, 칼슘 9.0 mg/dL, 알부민 3.9 g/dL, BUN 10 mg/dL, 크레아티닌 0.9 mg/dL이다. 혈청 단백 전기영동과 면역고정에서 비IgM 단클론 단백 20 g/L가 보이고 골수 형질세포증은 5%이며 골격조사에서 이상이 없다. 철결핍성 빈혈 평가와 더불어 다음 중 가장 적절한 다음 단계는?
+76세 환자의 혈청에서 IgG 단클론 단백이 2.0g/dL, 골수에서 클론성 형질세포가 5% 확인됐다. 신기능·칼슘과 영상은 정상이고 빈혈은 뚜렷한 철결핍으로 설명된다. 단클론 단백에 대한 적절한 계획은?
 
 ## 선택지
 
-A. 매년 검사와 함께 추적 관찰
-B. 베타-2 마이크로글로불린 측정
-C. 방사선치료 의뢰
-D. 현재 추가 조치 불필요
+A. 단클론 단백이 있으므로 골수종 항암을 시작한다
+B. 철결핍을 치료하면서 단클론 감마병증은 일정 기간 뒤 재평가하고 위험도에 맞춰 추적한다
+C. 골수종 골병변이 없더라도 전신 방사선 치료를 시작한다
+D. 골수 형질세포가 10% 미만이므로 앞으로 검사를 하지 않는다
 
 ## 해설
 
 
-M단백20g/L(<30), 골수 형질세포5%(<10)이며 칼슘/신기능·골격에 MM 관련 이상이 없고 빈혈은 철결핍으로 설명되어 MGUS에 부합한다. 선택지 A의 정기 검사 추적이 적절하다. M단백≥15g/L로 저위험만은 아니므로 보통 초기6개월 재평가 후 안정 시 연1회 등 위험도에 맞춰 추적하며 빈혈 원인검사도 계속한다. 이 케이스에는 PR 간격/방실차단 소견이 없다.
+골수종으로 인한 장기 손상이나 정의 사건이 없고 단클론 단백과 골수 형질세포가 진단 경계보다 낮아 MGUS에 해당한다. 보통 약 6개월 뒤 수치와 증상을 재평가하고 이후 위험도에 맞춰 추적한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ M단백20g/L(<30), 골수 형질세포5%(<10)이며 칼슘/신기능·골격에 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006909
+- https://www.nature.com/articles/leu201060

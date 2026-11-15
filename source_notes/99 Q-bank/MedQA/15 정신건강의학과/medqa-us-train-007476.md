@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 남자가 한 달 동안 지속된 피로로 내원했다. 에너지가 낮고 대부분의 시간을 방에서 보낸다. 친구를 만날 기분이 아니며 예전에는 즐기던 축구와 아버지와 사격장에 가는 활동에도 흥미를 잃었다. 집중력 저하로 학교생활에 어려움이 있고 식욕이 낮으며 잠들기 어렵다. 자살을 생각한 적은 있지만 구체적인 계획은 없다. 부모는 재정 문제로 자주 다투고 있다. 담배는 피우지 않고 주말에 맥주 2~3캔을 마시며 불법 약물은 사용하지 않는다. 활력징후와 신체검사는 정상이다. 정신상태검사에서 사람·장소·시간에 대한 지남력은 정상이다. 적절한 약물치료와 함께 다음 중 가장 적절한 다음 단계는 무엇인가?
+16세 남자가 한 달 동안 지속된 피로로 내원했다. 에너지가 낮고 대부분의 시간을 방에서 보낸다. 친구를 만날 기분이 아니며 예전에는 즐기던 축구와 아버지와 사격장에 가는 활동에도 흥미를 잃었다. 집중력 저하로 학교생활에 어려움이 있고 식욕이 낮으며 잠들기 어렵다. 자살을 생각한 적은 있지만 구체적인 계획은 없다. 부모는 재정 문제로 자주 다투고 있다. 담배는 피우지 않고 주말에 맥주 2~3캔을 마시며 불법 약물은 사용하지 않는다. 활력징후와 신체검사는 정상이다. 정신상태검사에서 사람·장소·시간에 대한 지남력은 정상이다. 적절한 약물치료와 함께 가장 적절한 다음 단계는 무엇인가?
 
 ## 선택지
 

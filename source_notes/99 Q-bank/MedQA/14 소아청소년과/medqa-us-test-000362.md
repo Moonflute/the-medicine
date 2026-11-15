@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,21 +38,22 @@ related_drug_slugs:
 
 ## 문제
 
-생후 6일 된 남아가 지난 2일 동안 점점 보채고 안절부절못해 병원에 왔다. 이 기간 동안 12번 배변했고 하루 10~12번 수유했다. 임신 38주에 태어났고 출생체중은 1,800 g(3 lb 15 oz), 현재 체중은 1,700 g(3 lb 12 oz)이다. 어머니는 그레이브스병이 있어 임신 마지막 삼분기에 프로필티오우라실을 복용했으며 정맥주사 헤로인 사용력이 있다. 체온 36.9°C(98.4°F), 맥박 180회/분, 호흡 50회/분이었다. 경미한 발한과 정중선 목에 단단한 2 cm 종창이 보였고 폐 청진은 정상이었다. 다음 중 가장 적절한 처치는?
+그레이브스병 산모의 생후 6일 아기가 빈맥과 보챔, 갑상샘 비대를 보인다. 유리 T4는 크게 높고 TSH는 억제됐으며 TSH 수용체 항체가 양성이다. 전문팀과 함께 시작할 항갑상샘약은?
 
 ## 선택지
 
-A. 메티마졸과 프로프라놀롤 치료
-B. 요오드화칼륨 치료
-C. 날록손 치료
-D. 글루콘산칼슘 치료
+A. 프로필티오우라실
+B. 메티마졸
+C. 레보티록신
+D. 글루콘산칼슘
 
 ## 해설
 
 
-신생아 갑상선 항진증은 모체의 갑상선 자극 항체에 의해 발생하며, 베타 차단제와 티아마졸이 증상 완화에 사용된다. 따라서 정답은 메티마졸과 프로프라놀롤 치료이다.
+산모 자극 항체에 의한 신생아 갑상샘기능항진증은 메티마졸이 우선이다. 심한 빈맥 등은 상태에 따라 베타차단제 등을 추가하며 심장과 갑상샘 기능을 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000362
+- https://pubmed.ncbi.nlm.nih.gov/26980880/

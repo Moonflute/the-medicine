@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-7세 남아가 최근 상기도감염이 호전된 지 2주 후 갑자기 발생한 전신 점상출혈로 내원했다. 혈소판은 6만5천/mm3였고 다른 혈구 수치는 정상이었다. 아이는 전반적으로 건강해 보였다. 다음 중 가장 적절한 치료는?
+7세 아이가 감기 뒤 점상출혈과 멍을 보인다. 혈소판은 25,000/μL지만 혈색소·백혈구와 말초도말의 다른 소견은 정상이다. 면역성 혈소판감소증으로 판단했다. 점막출혈은 없고 빠른 추적 진료가 가능하다. 초기 처치는?
 
 ## 선택지
 
-A. 정맥 면역글로불린
-B. 관찰
-C. 리툭시맙
-D. 비장절제술
+A. 혈소판 수혈
+B. 정맥 면역글로불린
+C. 출혈 경고 증상을 안내하고 약물 없이 관찰
+D. 전신 스테로이드
 
 ## 해설
 
-감염 후 발생한 고립성 혈소판감소와 피부 점상출혈은 소아 ITP에 부합한다. 중대한 점막출혈 없이 혈소판 65,000/μL인 이 경우 관찰(B)이 적절하며 추적·출혈 경고 교육이 필요하다. 치료는 출혈·생활 영향 등에 따라 결정하며 특정 수치 미만이면 모두 IVIG나 비장절제술을 시행하는 것은 아니다.
+소아 면역성 혈소판감소증의 초기 치료는 혈소판 수치만으로 결정하지 않는다. 점상출혈이나 멍만 있고 추적이 가능하면 약물을 시작하기보다 관찰한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 비장절제술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003638
+- https://ashpublications.org/bloodadvances/article/3/23/3829/429213/

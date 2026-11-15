@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yekOqwhOymnSAoRWNsYW1wc2lhKS5tZA
   - MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,18 +40,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 초임부가 임신 36주에 심한 전두부 두통으로 입원했다. 초기 활력징후는 혈압 170/90 mmHg, 심박수 분당 85회, 호흡수 분당 15회, 체온 36.9℃이고 태아 심박수는 분당 159회이다. 하지에 함요부종이 있고 요시험지에서 단백뇨 2+가 보인다. 평가 중 전신 강직간대발작이 발생했다. 다음 중 발작을 조절하기 위해 사용해야 하는 약물은?
+임신 36주 산모가 심한 두통과 반복 측정한 수축기 혈압 170 mmHg로 평가받던 중 전신 강직간대 발작을 했다. 기도와 산소화를 확보하면서 자간증 발작을 치료하고 재발을 막기 위한 1차 약은?
 
 ## 선택지
 
-A. 디아제팜
-B. 페니토인
-C. 황산마그네슘
+A. 디아제팜을 첫 약으로 정기 투여
+B. 황산마그네슘
+C. 페니토인
 D. 라모트리진
 
 ## 해설
 
-고혈압·단백뇨와 전신 발작은 자간증이며 경련 치료·재발 예방에 황산마그네슘(C)을 사용한다. 혈압강하제는 별도로 필요할 수 있으며 Mg가 항고혈압제를 대체하지 않는다. 호흡·반사·신기능을 감시하며 안정화 후 분만을 계획한다.
+자간증의 발작 치료와 재발 예방에는 황산마그네슘을 우선 사용한다. 중증 고혈압 치료와 산모 안정화, 분만 준비를 별도로 병행한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 라모트리진
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010028
+- https://www.nice.org.uk/guidance/ng133/chapter/recommendations

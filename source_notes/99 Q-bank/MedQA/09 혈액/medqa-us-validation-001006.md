@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITqtqTslpEgKEdhc3RyaWMgVWxjZXIpLm1k
 question_type: diagnosis
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-45세 여성이 소화성 궤양 출혈로 대량 수혈과 내시경적 지혈을 받은 뒤 2시간 후 열감과 간헐적 오한을 호소했다. 체온은 38.3°C로 상승했지만 호흡기 증상이나 발진은 없고 폐 청진도 정상이다. 가장 가능성 높은 진단은?
+수혈을 시작한 뒤 체온이 37.0°C에서 38.4°C로 오르고 오한이 생겼다. 수혈을 중단했고 혈압과 산소포화도는 안정적이다. 환자·제제가 일치하며 용혈과 세균오염은 평가에서 배제됐다. 가장 가능성 높은 반응은?
 
 ## 선택지
 
-A. 발열성 용혈성 수혈반응
-B. 발열성 비용혈성 수혈반응
-C. 수혈 관련 세균 오염
+A. 급성 용혈성 수혈반응
+B. 수혈 관련 순환과부하
+C. 발열성 비용혈성 수혈반응
 D. 수혈 관련 급성 폐손상
 
 ## 해설
 
 
-수혈 뒤 새 발열과 오한이 있으나 호흡곤란·저산소증·발진이 없어 선택지 중 발열성 비용혈성 수혈반응(B)이 가장 부합한다. 수혜자의 항백혈구 항체 또는 혈액제제에 축적된 염증 cytokine이 관련된다. 발열만으로 확정할 수는 없으며 급성 용혈이나 세균 오염을 배제한 뒤 진단한다.
+수혈 중 또는 종료 후 수 시간 내 발생한 열과 오한에서 위험한 용혈과 세균오염을 배제했다면 발열성 비용혈성 수혈반응에 부합한다. 발열만으로 처음부터 확정하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 수혈 관련 급성 폐손상
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001006
+- https://www.transfusion.or.kr/KOR/images/file/2022_5.pdf
+- https://profedu.blood.ca/en/transfusion/clinical-guide/transfusion-reactions

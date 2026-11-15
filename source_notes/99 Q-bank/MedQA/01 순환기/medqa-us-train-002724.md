@@ -31,7 +31,7 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvQ2xvcGlkb2dyZWwubWQ
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 파행 증상 개선 목표를 명확히 하여 항혈소판 예방치료와 구분."
 curation_status: "revised"
 curation_reason: "파행 증상 개선 목표를 명확히 하여 항혈소판 예방치료와 구분."

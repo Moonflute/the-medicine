@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTEg7Jm46rO8L-uwsOq8vSDtg4jsnqUgKFVtYmlsaWNhbCBIZXJuaWEpLm1k
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 3주 여아가 정기 진료를 위해 부모와 함께 소아과에 왔다. 수유와 배변은 잘하고 가끔 배꼽이 부풀어 오르지만 블루베리보다 크지 않으며 분비물은 없다. 진찰에서 배꼽에 부드러운 1 cm 돌출이 있고 울 때 커지지만 통증 없이 쉽게 배꼽고리 안으로 밀어 넣을 수 있다. 가장 적절한 다음 단계는?
+건강한 생후 3주 영아가 울 때 1 cm가량 배꼽이 불룩해진다. 통증 없이 쉽게 환원되며 평소 수유와 배변은 정상이다. 가장 적절한 처치는?
 
 ## 선택지
 
-A. 기대요법
-B. 조직병리학적 평가
-C. 계획적 수술
-D. 즉시 수술
+A. 지금 즉시 수술한다
+B. 매일 동전과 테이프로 배꼽을 눌러 둔다
+C. 환원이 되더라도 매번 응급실로 보낸다
+D. 자연 폐쇄를 기대하며 관찰하고 감돈 경고 증상을 안내한다
 
 ## 해설
 
-작고 부드럽게 환원되는 무증상 1cm 배꼽탈장은 자연 폐쇄 가능성이 높아 기대요법(A)이 적절하다. 많은 경우 4–5세까지 관찰하며, 통증·환원 불가·구토 등 감돈 의심이면 즉시 평가한다. 큰 결손의 경과까지 동일하게 단정하지 않는다.
+작고 환원되는 무증상 배꼽탈장은 상당수가 4–5세까지 자연히 닫힌다. 통증·구토나 환원되지 않는 돌출이 생기면 감돈을 의심해 즉시 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 즉시 수술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000362
+- https://pubmed.ncbi.nlm.nih.gov/38466296/

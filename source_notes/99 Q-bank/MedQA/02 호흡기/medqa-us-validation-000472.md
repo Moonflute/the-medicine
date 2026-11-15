@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,7 +40,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-52세 남성이 경도의 COPD로 필요할 때 알부테롤을 사용해 왔지만 최근 호흡곤란, 천명, 생산성 기침이 악화되었다. FEV1은 예측값의 60%이다. COPD 관리의 다음 단계는?
+52세 남성이 경도의 COPD로 필요할 때 알부테롤을 사용해 왔지만 최근 호흡곤란, 천명, 가래가 섞인 기침이 악화되었다. FEV1은 예측값의 60%이다. COPD 관리의 다음 단계는?
 
 ## 선택지
 

@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yeoOuztSDqsrDtlbUgKOyEseyduCkgKExhdGVudCBUdWJlcmN1bG9zaXMgKEFkdWx0KSkubWQ
 question_type: management
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-33세 간호사가 PPD 피부검사에서 17mm 경결을 보여 감염내과로 의뢰되었다. 최근 수개월 동안 기침, 호흡곤란, 객혈, 체중 감소, 피로, 발열, 야간 발한은 없었다. 체온 36.1°C(97.0°F), 혈압 120/81 mmHg, 맥박 분당 82회, 호흡수 분당 15회, 산소포화도 98%이며 초기 흉부 방사선촬영은 정상이다. 다음 중 가장 적절한 처치는?
+약제 감수성 폐결핵 환자와 동거하는 33세 성인이 IGRA 양성이다. 무증상이며 영상 등 평가에서 활동성 결핵을 배제했다. 리팜핀 금기나 상호작용이 없을 때 국내 지침에서 우선 고려할 치료는?
 
 ## 선택지
 
-A. 이소니아지드
-B. 치료 필요 없음
-C. 1주 후 PPD 반복
-D. 리팜핀, 이소니아지드, 피라진아미드, 에탐부톨
+A. 활동성 결핵과 같은 표준 4제 치료
+B. 이소니아지드 1개월
+C. 에탐부톨 4개월
+D. 리팜핀 4개월
 
 ## 해설
 
 
-양성 TST와 증상·흉부사진상 활동성 결핵 근거 부재는 잠복결핵감염을 시사한다. 선지 중 이소니아지드(A)는 유효한 치료 대안이다. 다만 현행 지침은 가능한 경우 단기 rifamycin 기반 요법을 선호하며 이소니아지드 단독이 항상 최우선은 아니다.
+활동성 결핵을 배제한 약제 감수성 환자의 접촉자에서는 리팜핀 4개월 또는 이소니아지드·리팜핀 3개월 등 단기 리팜핀 기반 요법이 우선이다. 이소니아지드 장기 단독요법은 리팜핀을 쓰기 어려울 때 대안이다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 리팜핀, 이소니아지드, 피라진아미드, 에탐부톨
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000126
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11704725/

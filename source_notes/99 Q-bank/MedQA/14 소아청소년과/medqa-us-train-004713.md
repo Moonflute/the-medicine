@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-5세 남아가 더 이상 어머니 말을 듣지 않는 것 같아 어머니와 함께 내원했다. 몇 분 이상 지속되는 과제에 집중하지 못한다. 유치원 교사들은 다른 아이들보다 더 활동적이고 다른 아이들을 자주 방해하며 매우 잘 잊는다고 한다. 지난해 원하는 것을 얻지 못하면 교사와 반 친구를 때리고 수업을 방해해 다른 유치원에서 퇴학당했다. 만삭 질식분만으로 태어났고 2세에 급성 중이염을 세 번 앓은 것 외에는 건강하다. 발달 이정표는 모두 충족했다. 어머니는 주요우울장애, 아버지는 그레이브스병이 있다. 건강하고 영양 상태가 좋아 보이며 직접 말을 걸어도 듣지 않는 듯하다. 치료에서 가장 적절한 다음 단계는 무엇인가?
+5세 아이가 가정과 유치원에서 주의력 저하와 충동성으로 일상 기능에 어려움을 겪는다. 평가를 통해 ADHD가 확인됐고 이전에 치료한 적은 없다. 우선 권할 치료는?
 
 ## 선택지
 
-A. 행동치료
-B. 메티마졸
-C. 플루옥세틴
-D. 보청기
+A. 메틸페니데이트 단독 치료
+B. 아토목세틴 단독 치료
+C. 아동의 개인 상담만 시행
+D. 부모 행동관리 훈련과 유치원에서의 행동 지원
 
 ## 해설
 
-5세 ADHD에서 첫 접근은 근거 기반 부모 행동관리 훈련과 유치원/교실 행동중재(A)이다. 충분한 행동중재에도 중등도 이상 기능 장애가 지속되면 methylphenidate를 고려할 수 있다. 학령기 아동의 약물치료 권고는 다르므로 이 결론을 모든 연령의 ADHD에 일반화하지 않는다.
+학령전기 ADHD는 부모 행동관리 훈련과 교실 행동중재를 우선한다. 충분한 행동중재에도 중등도 이상의 기능 손상이 지속되면 약물 치료를 검토한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 보청기
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004713
+- https://eqipp.aap.org/courses/adhd/mn/clinical-guide/popups/key-action-statement-5a

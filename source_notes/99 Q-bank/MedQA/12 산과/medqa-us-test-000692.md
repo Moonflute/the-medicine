@@ -15,9 +15,9 @@ related_diseases:
   - "임신 전 관리"
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Y6Y64uQ7LyA7Yak64eo7KadIChQaGVueWxrZXRvbnVyaWEpLm1k
-question_type: prevention
+question_type: management
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 여성이 임신 전 상담을 위해 산부인과에 왔다. 수개월 내 임신을 원한다. 페닐케톤뇨증(PKU)이 있어 특정 음식을 피하는 식이요법을 지시받았지만 잘 지키지 않았다고 한다. 혈장 페닐알라닌은 20.2 mg/dL(정상 <2 mg/dL)였다. 다음 중 가장 적절한 설명은?
+페닐케톤뇨증이 있는 여성이 임신을 계획한다. 혈중 페닐알라닌은 20 mg/dL로 높다. 태아 위험을 줄이기 위해 현재 가장 적절한 계획은?
 
 ## 선택지
 
-A. PKU 치료를 개선하면 자연유산과 자궁 내 태아 사망 위험이 감소한다
-B. 임신 3개월 전부터 제한식이를 시작하여 페닐알라닌을 6 mg/dL 미만으로 낮춘다
-C. 태아 이환 위험을 줄이기 위해 임신 1분기에 제한식이를 시작한다
-D. 현재 페닐알라닌 수치는 향후 임신에 위험하지 않다
+A. 임신 확인 뒤에만 저페닐알라닌 식이를 시작한다
+B. 신생아 검사만 받도록 하고 임신 전 치료는 하지 않는다
+C. 대사 전문팀과 임신 전에 페닐알라닌을 목표 범위로 맞추고 임신 중에도 유지한다
+D. 임신 전부터 고단백 일반식을 시작해 성장 위험을 줄인다
 
 ## 해설
 
-고페닐알라닌혈증은 태아 소두증·신경발달 장애·심장기형 위험을 높인다. B가 가장 적절하며 임신 전 최소 3개월 동안 페닐알라닌 <6 mg/dL를 달성하고 임신 중 2–6 mg/dL로 관리한다. 임신 1기에 이르러서야 조절을 시작하는 것보다 임신 전 조절이 중요하며 대사 전문팀과 공동 관리한다.
+모체 페닐알라닌이 높으면 태아가 페닐케톤뇨증 유전형을 가지지 않아도 발달 지연, 소두증과 심장기형 위험이 증가한다. 임신 전부터 보통 120–360 μmol/L(약 2–6 mg/dL)를 유지하도록 관리한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 현재 페닐알라닌 수치는 향후 임신에 위험하지 않다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000692
+- https://pubmed.ncbi.nlm.nih.gov/39630157/

@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
   - MTcg7J2067mE7J247ZuE6rO8L-uyqOuniOu5hCAoQmVsbCdzIHBhbHN5KS5tZA
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-50세 남성이 잠에서 깬 후 발견한 오른쪽 얼굴 마비로 응급실에 내원했다. 한 달 전 뉴햄프셔 사냥여행에서 돌아온 뒤 오른쪽 목 통증과 두통이 생겼고 일주일 후 호전되었다. 5년 동안 약물로 조절되는 고혈압이 있다. 35년 동안 하루 한 갑을 피웠고 매일 맥주 두 잔을 마신다. 활력징후는 정상이다. 오른쪽 얼굴 위·아래 절반이 처지고 웃기 어렵고 오른쪽 눈을 감을 수 없다. 나머지 진찰은 정상이다. 다음 중 진단의 다음 단계로 가장 적절한 것은 무엇인가?
+환자가 라임병 유행 지역에서 야외활동을 한 뒤 한쪽 얼굴 전체가 마비됐다. 여행 중 피부에 서서히 커지는 고리 모양 발진이 있었다고 한다. 특발성 벨마비 외에 라임병을 감별할 검사는?
 
 ## 선택지
 
-A. 안면 피부 중합효소연쇄반응
-B. 뇌척수액 분석
-C. 효소결합면역흡착검사
-D. 비조영 CT
+A. 안면 피부의 진균 배양
+B. 소변 항원검사
+C. 급성기 혈청 배양 단독
+D. 혈청 라임병 2단계 항체검사
 
 ## 해설
 
-유행 지역 야외 활동 후 발생한 말초성 안면신경마비는 신경계 라임병을 의심할 역학·임상 근거가 된다. 선지 중 혈청 ELISA/EIA(C)가 적절한 시작 검사다. 진드기 물림 자체는 본문에 확인되어 있지 않다. 결과는 단독 ELISA가 아니라 양성·경계 결과의 2차 검사까지 포함한 표준 또는 수정 2단계 혈청검사로 해석한다.
+유행 지역 노출과 확대되는 발진 뒤 말초성 안면신경마비가 생기면 라임병 가능성을 평가한다. 혈청 항체를 표준 또는 수정된 2단계 검사로 해석한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 비조영 CT
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001502
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6303

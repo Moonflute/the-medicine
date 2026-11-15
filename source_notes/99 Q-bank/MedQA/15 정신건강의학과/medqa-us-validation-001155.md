@@ -14,7 +14,7 @@ related_diseases:
   - "외상 후 해리"
   - "정신치료"
   - "Depersonalization/derealization disorder"
-question_type: management
+question_type: diagnosis
 related_disease_slugs: []
 difficulty: standard
 answer: D
@@ -34,24 +34,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-30세 남성이 갑자기 자신이 ‘실재하지 않는 것 같다’는 생각이 생겨 수주간 지속되어 진료를 받으러 왔다. 3주 전 무장강도를 목격하며 사람이 가슴에 총을 맞는 장면을 본 뒤부터 현실에서 떠 있는 듯하고 삶을 꿈처럼 지각하는 경험이 반복된다. 이러한 이인감 증상을 조절하기 위한 가장 좋은 치료는?
+큰 사고를 목격한 뒤 환자가 가끔 자기 몸을 바깥에서 보는 것처럼 느낀다. 그때도 자신이 실제로 몸 밖에 나간 것은 아니며 느낌이 달라졌을 뿐임을 안다. 이 경험을 부르는 말은?
 
 ## 선택지
 
-A. 아만타딘
-B. 부토르파놀
-C. 덱스트로메토르판
-D. 정신치료
+A. 환각
+B. 피해망상
+C. 이인성 기억상실
+D. 이인감
 
 ## 해설
 
 
-외상 후 이인감(현실감 상실)은 주로 심리사회적 치료가 효과적이며, 약물보다는 정신치료가 1차 권고이다. 따라서 증상 조절을 위한 최선의 치료는 정신치료이다.
+이인감은 자기 자신이나 몸, 감정과 분리된 듯한 경험이다. 현실검증이 유지되는 점이 망상과 다르다. 외상 직후 이런 경험만으로 이인증 장애를 확진하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001155
+- https://www.ptsd.va.gov/professional/treat/essentials/dissociative_subtype.asp
 
 ## 검수 근거
 

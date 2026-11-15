@@ -13,13 +13,13 @@ related_diseases:
   - "trimethoprim-sulfamethoxazole adverse effect"
   - "drug-induced neutropenia"
   - "viral upper respiratory infection"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Zi47KSR6rWsIOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-6세 남아가 그날 아침부터 시작된 두통, 기침, 콧물, 미열로 내원했다. 일주일 전 요로감염이 있었지만 트리메토프림-설파메톡사졸 치료로 호전되었다. 양쪽 부모 모두 알레르기 비염 병력이 있다. 체온은 37.8°C(100°F)이다. 신체검사에서 콧물과 전두동·상악동 압통이 있고 경부 림프절병증이 있다. 검사에서 혈색소 14.2g/dL, 백혈구 2,700/mm³, 분절 호중구 30%, 밴드 1%, 호산구 4%, 호염기구 0%, 림프구 56%, 단핵구 9%, 혈소판 155,000/mm³이다. 다음 중 이 환자 증상의 가장 가능성 높은 기저 원인은 무엇인가?
+아이가 요로감염으로 트리메토프림–설파메톡사졸을 복용 중이다. 투여 전 혈구 수는 정상이었는데, 열흘 뒤 절대 호중구 수가 480/μL로 떨어졌다. 혈색소와 혈소판은 정상이다. 가장 적절한 조치는?
 
 ## 선택지
 
-A. 약물 부작용
-B. CMV 감염
-C. EBV 감염
-D. 급성 골수성 백혈병
+A. 감염이 재발하지 않도록 같은 약을 더 오래 준다
+B. 혈소판이 정상이므로 아무 추적 없이 투약을 계속한다
+C. 먼저 철분을 주고 한 달 뒤 혈구 수를 확인한다
+D. 원인 약을 중단하고, 감염 여부와 혈구 수를 신속히 평가한다
 
 ## 해설
 
 
-트리메토프림‑설파메톡사졸은 골수 억제성을 일으켜 호중구 감소증을 유발할 수 있다. 환자의 백혈구 감소와 호중구 비율 저하가 약물 부작용을 가장 잘 설명한다.
+새로운 중증 호중구감소가 약제 사용과 시간상 맞으면 의심 약제를 중단한다. 감염 징후와 다른 원인을 평가하고 혈구 수를 추적한다. 발열이 동반되면 응급 감염 평가가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008627
+- https://pubmed.ncbi.nlm.nih.gov/29222255/

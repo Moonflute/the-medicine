@@ -15,9 +15,9 @@ related_diseases:
   - "간질성 종양"
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yXveyDgSDsooXslpEgKFBoeWxsb2RlcyBUdW1vcikubWQ
-question_type: diagnosis
+question_type: management
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-45세 여성이 3주 전 발견한 오른쪽 유방 종괴를 평가받으러 왔다. 빠르게 커졌지만 통증은 없었다. 오른쪽 외측에 5 cm의 압통 없는 다결절성 종괴가 만져졌고 피부나 유두 변화 및 림프절병증은 없었다. 유방촬영에서 매끈하고 다엽성인 종괴가 보였으며 생검에서 상피로 둘러싸인 간질의 유두상 돌기와 증식·비정형이 확인되었다. 가장 가능성 높은 진단은?
+45세 환자의 유방 종괴가 6주 만에 5cm로 커졌다. 중심바늘생검에서는 세포성 섬유상피 병변으로 나오며 엽상종양을 배제할 수 없다. 영상과 성장 속도를 종합했을 때 다음 조치는?
 
 ## 선택지
 
-A. 엽상종양
-B. 섬유선종
-C. 유방 섬유낭성 질환
-D. 침윤성 소엽암
+A. 양성 섬유선종으로 단정하고 추적을 종료한다
+B. 조직 등급을 확인하지 않고 항암치료를 시작한다
+C. 완전 절제생검으로 병변 전체를 평가한다
+D. 모든 엽상종양 의심 병변에서 먼저 전유방절제술을 시행한다
 
 ## 해설
 
 
-빠른 성장과 잎모양 상피-간질 구조는 엽상종양(A)을 지지한다. 엽상종양은 양성·경계성·악성으로 나뉘므로 이 명칭만으로 양성이라 단정하지 않는다. 정확한 등급은 간질 세포성·비정형·유사분열·경계 등 병리 기준으로 평가한다.
+빠르게 자라고 엽상종양이 의심되는 섬유상피 병변은 전체를 절제해 진단과 등급을 확인한다. 제한된 바늘 검체만으로 엽상종양과 섬유선종이 확실히 구분되지 않을 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 침윤성 소엽암
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001070
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12374188/

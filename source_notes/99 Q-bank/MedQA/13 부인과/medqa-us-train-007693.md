@@ -28,7 +28,7 @@ explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 세포검사 단독 음성 뒤의 선별 간격 교정."
 curation_status: "revised"
 curation_reason: "세포검사 단독 음성 뒤의 선별 간격 교정."

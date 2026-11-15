@@ -17,7 +17,7 @@ related_diseases:
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yCvOyyqO2MkOuniSDsl63rpZggKFRyaWN1c3BpZCBSZWd1cmdpdGF0aW9uKS5tZA
   - MTAg7KKF7JaRL-y5tOultOyLnOuFuOydtOuTnCDspp3tm4TqtbAgKENhcmNpbm9pZCBTeW5kcm9tZSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-48세 남성이 수개월간 악화되는 설사와 체중감소로 내원했다. 개울물을 여과하지 않고 마신 뒤 얼굴이 간헐적으로 뜨겁고 붉어지는 느낌이 생겼다. 왼쪽 아래 흉골연에서 심잡음이 들리고 양쪽 폐에서 천명이 있었다. 다음 중 가장 적절한 초기 처치는?
+48세 남성이 수개월째 물설사를 한다. 얼굴과 목이 갑자기 붉어지면서 천명이 반복된다. 신경내분비종양에 의한 카르시노이드 증후군이 의심된다. 이 증상을 뒷받침할 검사는?
 
 ## 선택지
 
-A. 심초음파
-B. 혈장 유리 메타네프린 수치
-C. 폐기능검사
-D. 소변 5-하이드록시인돌아세트산 수치
+A. 혈장 유리 메타네프린
+B. 공복 혈청 가스트린
+C. 혈청 트립타제
+D. 24시간 소변 5-하이드록시인돌아세트산(5-HIAA)
 
 ## 해설
 
-반복 홍조·천명과 우측 판막 잡음이 만성 설사·체중감소에 동반되어 carcinoid syndrome을 의심하므로 소변 5-HIAA D를 측정한다. 오염된 물은 Giardia 등 별도 감별의 단서이지 carcinoid 종양을 일으키는 원인이 아니다. 증상과 검사조건을 고려하고 단일 소변검사만으로 종양 위치까지 확정하지 않는다.
+5-HIAA는 세로토닌의 대사산물이다. 24시간 소변 5-HIAA로 세로토닌 과다 분비를 평가한다. 식품·약물이 결과에 영향을 줄 수 있으며 이 검사만으로 종양 위치를 정하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 소변 5-하이드록시인돌아세트산 수치
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003662
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9539661/

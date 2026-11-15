@@ -16,7 +16,7 @@ related_diseases:
   - "alcohol binge"
 related_disease_slugs:
   - MTEg7Jm46rO8L-ychOyepeq0gCDstpztmIggKEdhc3Ryb2ludGVzdGluYWwgQmxlZWRpbmcpLm1k
-question_type: diagnosis
+question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-19세 대학생 남성이 밤새 지속된 구토로 응급실에 왔다. 전날 대학 파티에서 하루 종일 맥주를 마셨고 쇼크 상태로 보이며 한 시간 전 피를 토했다고 한다. 토사물에 혈액 줄무늬가 있고 혈압 90/68 mmHg이다. 즉시 상부위장관 내시경에서 원위 식도에 세로 방향 점막 열상이 보였다. 가장 가능성 높은 진단은?
+19세 남성이 수차례 힘주어 구토한 뒤 토혈했다. 소생 후 상부 내시경에서 위식도 접합부의 세로 점막 열상에서 출혈이 계속 보인다. 지금 적절한 처치는?
 
 ## 선택지
 
-A. 보어하브 증후군
-B. 말로리-바이스 열상
-C. 알약 식도염
-D. Dieulafoy 병변
+A. 열상을 관찰만 하고 내시경을 종료
+B. 내시경 클립 지혈
+C. 출혈 예방 목적의 식도 전체 점막 절제
+D. 식도 정맥류 결찰 계획만 세우고 퇴원
 
 ## 해설
 
-반복 구토 뒤 토혈이 있고 내시경에서 원위 식도의 세로 방향 점막 열상이 확인되어 Mallory-Weiss tear B이다. 이는 점막 열상이며 전층 파열인 Boerhaave와 다르다. 가로 방향이라는 기존 해설은 원문·본문과 반대이다.
+말로리–바이스 열상은 저절로 멎는 경우가 많지만 내시경에서 출혈이 계속 보이면 클립 등으로 지혈한다. 출혈이 멎은 얕은 열상을 보존적으로 관리하는 경우와 다르다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. Dieulafoy 병변
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003296
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12285778/

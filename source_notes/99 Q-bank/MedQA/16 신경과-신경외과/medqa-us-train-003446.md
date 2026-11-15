@@ -14,11 +14,11 @@ related_diseases:
   - "major neurocognitive disorder"
   - "progressive memory loss"
   - "donepezil"
-question_type: management
+question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy4oO2VmOydtOuouCDsuZjrp6QgKEFsemhlaW1lcidzIERpc2Vhc2UpLm1k
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-77세 여성이 딸과 함께 정기 검진을 받으러 왔다. 2년 전부터 간단한 지시를 잊거나 심부름을 하기 어려워졌고, 최근에는 공과금을 납부하지 못하며 때때로 집으로 가는 길도 잊는다. 최근 남편이 사망하여 때때로 슬프다고 하며 혼자 살고 엄격한 채식(vegan)을 한다. 비만, 고혈압, 판토프라졸로 조절되는 위식도역류질환, 당뇨병의 병력이 있다. 다음 중 이 환자의 증상에 가장 도움이 될 치료는?
+77세 여성이 진행하는 기억 저하와 보행 불안정으로 왔다. 엄격한 채식을 오래 했고 큰적혈구빈혈 및 양발 진동·위치감각 저하가 있다. 신경퇴행성 치매로 단정하기 전에 우선 확인할 검사는?
 
 ## 선택지
 
-A. 도네페질
-B. 플루옥세틴과 인지행동치료
-C. 비타민 B12 투여와 판토프라졸 중단
-D. 중재가 필요하지 않다
+A. 아밀로이드 PET
+B. 아포지단백 E 유전자형
+C. 혈청 비타민 B12
+D. 뇌척수액 타우 단독
 
 ## 해설
 
-점진적 기억 저하와 재무·길찾기 등 일상 기능 저하는 알츠하이머병을 포함한 치매를 시사한다. 적절한 평가로 진단한 경우 도네페질(A)은 인지·기능 증상을 완화하는 선택이다. 근본 병리를 치료해 질병 진행을 멈추는 약으로 단정해서는 안 된다. 실제 평가에서는 식이·PPI 관련 B12 결핍, 우울증 등 가역적 원인도 확인한다.
+채식, 큰적혈구빈혈과 후주 감각저하의 조합은 비타민 B12 결핍의 단서다. 결핍 여부를 평가하고 신경 증상이 있으면 교정을 지체하지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 중재가 필요하지 않다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003446
+- https://www.nice.org.uk/guidance/ng239/chapter/Recommendations

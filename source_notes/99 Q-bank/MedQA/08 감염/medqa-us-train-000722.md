@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-yggO2YiOuLuSAoSHlwb2dseWNlbWlhKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOyggO2YiOuLueymnSAoTmVvbmF0YWwgSHlwb2dseWNlbWlhKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-63세 남성이 길가에 의식을 잃고 쓰러져 있는 상태로 경찰에 의해 응급실로 이송되었다. 양측 동공은 정상 크기이며 빛에 반응한다. 머리 외상의 뚜렷한 징후는 없다. 손가락 끝 혈당 검사 결과 혈당 수치는 20 mg/dL이다. 그는 급성 알코올 중독으로 여러 번 응급실에 이송된 적이 있다. 활력 징후는 혈압 100/70 mm Hg, 심박수 110회/분, 호흡수 22회/분, 체온 35℃이다. 전신 검사상 창백해 보이고 흐트러진 모습이며 에탄올(EtOH) 냄새가 난다. 신체 검진에서 복부는 부드럽고 압통이 없으며 간비대나 비장비대는 없다. 정맥 내 포도당, 티아민, 날록손을 일시 투여한 후 환자는 자발적으로 눈을 뜬다. 독성 검사를 위해 혈액 및 소변 샘플을 채취하였다. 혈중 알코올 농도는 300 mg/dL로 확인되었다. 이 환자에서 가장 가능성이 높은 검사 결과는 무엇인가?
+영양 상태가 좋지 않고 과음력이 있는 환자가 의식을 잃은 채 이송됐다. 기도와 호흡을 평가하는 중 측정한 혈당은 20mg/dL이고 정맥로는 확보됐다. 포도당과 티아민 투여 순서에 대한 판단으로 맞는 것은?
 
 ## 선택지
 
-A. 과분엽 호중구(Hypersegmented neutrophils)
-B. 낫적혈구(Sickle cells)
-C. 대적혈구증가증(Macrocytosis) MCV > 100fL
-D. 하웰-졸리 소체(Howell-Jolly bodies)
+A. 혈중 알코올 결과가 나올 때까지 포도당을 주지 않는다
+B. 티아민 투여 후 충분히 기다린 다음에만 포도당을 준다
+C. 정맥 포도당으로 저혈당을 즉시 교정하고 티아민도 지체 없이 투여한다
+D. 의식이 없으므로 경구 주스로만 교정한다
 
 ## 해설
 
 
-반복적인 과음은 대적혈구증(MCV>100fL, C)과 관련된다. 알코올의 직접적인 골수/적혈구 생성 영향으로 영양결핍 없이도 비거대적아구성 대적혈구증이 생길 수 있으며, 엽산결핍이나 간질환 등이 동반될 수도 있다. 따라서 모든 경우를 B12·엽산 결핍으로 단정하거나 과분엽 호중구가 반드시 있다고 가정하지 않는다. 본문의 저혈당은 즉시 교정해야 하는 별도의 응급문제이다.
+중증 저혈당에서는 정맥 포도당 투여를 티아민 때문에 지연하지 않는다. 영양결핍 위험이 큰 환자에게는 티아민을 동시에 또는 가능한 한 빨리 투여한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 하웰-졸리 소체(Howell-Jolly bodies)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000722
+- https://doi.org/10.1097/ADM.0000000000000668

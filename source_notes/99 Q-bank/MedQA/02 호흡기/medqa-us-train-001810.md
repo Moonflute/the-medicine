@@ -21,7 +21,7 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-63세 남성이 호흡곤란을 동반한 발열로 내원했다. 일주일 전 증상이 시작되어 지난 2일간 점점 악화되었다. 걸쭉한 노란 가래가 나오는 기침이 있다. 3년 전 만성폐쇄성폐질환 진단을 받아 치료 중이며 10년 전 금연했다. 가끔 흡입기 사용으로 호전되는 호흡곤란과 흉부 답답함이 있었지만 이번에는 더 심하고 지속적이다. 체온 38.6°C (101.4°F), 호흡 21/min, 혈압 100/60 mm Hg, 맥박 105/min이다. 양측 수포음과 호기성 천명음이 들리고 실내 공기 산소포화도는 95%이다. 병력에 근거할 때 다음 관리 단계는 무엇인가?
+63세 남성이 평소 COPD로 치료받다가 갑자기 숨이 차고 열이 나서 내원했다. 체온은 38.6°C이며 새로 생긴 오른쪽 폐기저부 수포음이 들린다. 산소포화도와 혈압은 안정적이다. 단순 악화 외에 폐렴을 평가할 첫 영상은?
 
 ## 선택지
 
 A. 흉부 X선
-B. CT 촬영
-C. 기관지경검사
-D. 기관지유발검사
+B. 흉부 MRI
+C. 폐동맥 CT 혈관조영술
+D. 흉부 영상 없이 폐활량검사만 시행
 
 ## 해설
 
 
-COPD 악화와 동시에 발열·가래가 있을 때 우선 흉부 X-ray를 시행해 폐렴 여부를 확인한다. 이는 진단의 첫 단계이며, CT나 기관지검사는 필요 시 추후 고려한다.
+COPD 환자라도 고열과 국소 청진 이상이 생기면 폐렴 등 다른 원인을 확인해야 한다. 흉부 X선이 초기 검사이며, 결과와 임상상에 따라 추가 영상을 고려한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ COPD 악화와 동시에 발열·가래가 있을 때 우선 흉부 X-ray를 시
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001810
+- https://new.lungkorea.org/board/guide/view/13792

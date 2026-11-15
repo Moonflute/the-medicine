@@ -15,9 +15,9 @@ related_diseases:
   - "유람선 설사"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-uFuOuhnOuwlOydtOufrOyKpCDqsJDsl7wgKE5vcm92aXJ1cyBJbmZlY3Rpb24pLm1k
-question_type: diagnosis
+question_type: prevention
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-52세 여성이 며칠 동안 지속된 구토와 설사로 내원했다. 두통, 근육통과 발열도 있지만 뒤무직, 절박변이나 혈성 설사는 없다. 과거력은 특이하지 않다. 최근 여행을 묻자 유람선 휴가를 다녀왔다고 한다. 체온은 37°C (98.6°F), 호흡수 분당 15회, 맥박 분당 67회, 혈압 122/98 mm Hg이다. 신체검사에서 특이사항은 없고 대변 현미경검사에서 충란이나 기생충은 보이지 않는다. 가장 가능성 높은 진단은 무엇인가?
+요양시설에서 한나절 사이에 입소자와 직원 여러 명이 구토와 물설사를 시작했다. 노로바이러스 집단발생이 의심된다. 검사 결과를 기다리는 동안 시설이 먼저 취할 조치는?
 
 ## 선택지
 
-A. 지아르디아증
-B. C. difficile 대장염
-C. 과민성 장증후군
-D. 노로바이러스 감염
+A. 증상자를 분리하고 접촉주의를 적용하며 관할 보건소와 집단발생 대응을 시작한다
+B. 공용 식사와 프로그램을 유지하고 확진자만 분리한다
+C. 전체 입소자에게 예방 항생제를 투여한다
+D. 기침 증상이 있는 사람만 비말주의를 적용한다
 
 ## 해설
 
 
-유람선 여행 후 급성 구토·설사와 발열은 노로바이러스 감염이 가장 흔하다. 대변 검사에서 기생충이 없고 증상이 짧게 지속되는 점이 특징이다. 다른 선택지는 증상 양상과 맞지 않는다.
+노로바이러스가 의심되는 시설 집단발생은 결과를 기다리지 말고 증상자 분리·접촉주의와 보건소 협조를 시작한다. 손은 비누와 물로 씻고 시설 내 오염을 관리한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 노로바이러스 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004792
+- https://kdca.go.kr/bbs/kdca/55/259114/download.do

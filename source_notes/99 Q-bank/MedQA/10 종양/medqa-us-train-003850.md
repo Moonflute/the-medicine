@@ -15,9 +15,9 @@ related_diseases:
   - "aprepitant"
   - "5-HT3 antagonist"
 related_disease_slugs: []
-question_type: prevention
+question_type: management
 difficulty: complex
-answer: "B"
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -43,18 +43,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-유방암이 있는 58세 여성이 고도 구토 유발 항암요법을 시작할 예정이다. 다음 중 당일 항암치료 중 구토 예방에 가장 적절한 요법은?
+58세 유방암 환자가 구토 위험이 높은 독소루비신·사이클로포스파미드 항암을 시작한다. 당일 구토 예방에 NK1 길항제, 5-HT3 길항제, 덱사메타손을 계획했다. 금기가 없다면 보통 추가하는 약은?
 
 ## 선택지
 
-A. 드로나비놀과 덱사메타손
-B. NK1 길항제(예: 아프레피탄트), 덱사메타손, 5-HT3 길항제, 올란자핀
-C. 덱사메타손과 5-HT3 수용체 길항제
-D. 아프레피탄트와 드로나비놀
+A. 메토클로프라미드
+B. 올란자핀
+C. 로라제팜
+D. 프로클로르페라진
 
 ## 해설
 
-고도 구토유발 항암치료의 당일 예방에는 일반적으로 5-HT3 길항제·NK1 길항제·dexamethasone·olanzapine의 네 기전을 함께 사용한다. 환자별 금기, 진정과 대사 부작용 및 약물 상호작용을 확인한다. 고위험 요법에서 금기 설명 없이 olanzapine이 빠진 3제를 항상 최선이라고 제시하지 않는다.
+이 항암요법은 구토 위험이 높아 올란자핀을 포함한 4제 예방요법을 사용한다. 진정 위험, 상호작용과 환자별 금기는 함께 확인한다.
 
 ## 검수 근거
 

@@ -21,7 +21,7 @@ question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-51세 여성이 3주간의 피로, 마른기침, 보행 시 악화되는 호흡곤란으로 진료를 받으러 왔다. 11년 전 HIV 진단을 받았고 CD4 수는 67/mm³, HIV 바이러스량은 높으며 흉부 X선에서 양측 미만성 간질성 침윤이 보인다. 항레트로바이러스 치료와 함께 현재 질환에 대한 치료를 시작한다. 재발을 예방하기 위해 이 약을 계속 투여하면 다음 중 어떤 병원체 감염도 예방할 수 있는가?
+항레트로바이러스 치료를 시작한 지 얼마 안 된 HIV 환자의 CD4가 74/μL이며 톡소포자충 IgG는 양성이다. 활동성 감염은 없고 약물 알레르기도 없다. 폐포자충 폐렴과 톡소포자충 뇌염을 함께 예방할 약제는?
 
 ## 선택지
 
-A. 수두-대상포진 바이러스
-B. 톡소플라스마 곤디
-C. 크립토코쿠스 네오포르만스
-D. 칸디다 알비칸스
+A. 아지트로마이신
+B. 트리메토프림/설파메톡사졸
+C. 플루코나졸
+D. 흡입 펜타미딘
 
 ## 해설
 
 
-HIV 환자에서 TMP‑SMX는 PCP 예방뿐 아니라 톡소플라스마 감염도 억제한다. 따라서 지속 투여 시 톡소플라스마 감염을 예방할 수 있다. 정답은 B이다.
+CD4가 100/μL 미만이고 톡소포자충 IgG가 양성이면 톡소포자충 예방이 필요하다. 트리메토프림/설파메톡사졸은 폐포자충과 톡소포자충을 함께 예방할 수 있다.
 
 ## 검수 근거
 

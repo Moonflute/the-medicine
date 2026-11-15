@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-40세 여자가 반복되는 두통, 시야 변화와 함께 이마와 턱이 돌출되어 보이고 새로 진단된 당뇨병과 고혈압이 있어 내원했다. 호르몬 이상이 의심될 때 초기 선별검사는?
+40세 여성이 손과 발이 커져 반지와 신발을 바꿨다. 아래턱이 돌출됐고 최근 당뇨병과 고혈압이 생겼다. 말단비대증이 의심될 때 우선 시행할 생화학 검사는?
 
 ## 선택지
 
-A. 뇌하수체 MRI
-B. 혈청 인슐린유사성장인자-1
-C. 포도당 억제검사
-D. 흉부 X선
+A. 무작위 성장호르몬 단독 측정
+B. 연령별 정상범위로 해석한 혈청 IGF-1
+C. 아침 혈청 코르티솔
+D. 혈청 프로락틴
 
 ## 해설
 
 
-성장호르몬 과다에 의한 말단비대증을 선별할 때는 혈청 IGF-1(인슐린 유사 성장인자-1) 수치를 측정한다. IGF-1은 GH 분비의 장기적 지표이며, GH 억제검사보다 먼저 시행한다. 따라서 초기 선별검사는 혈청 IGF-1이다.
+말단비대증이 의심되면 연령에 맞는 혈청 IGF-1을 먼저 본다. 성장호르몬은 박동성으로 분비되어 단회 측정만으로 배제할 수 없다. 결과가 애매하면 재검이나 포도당부하 뒤 성장호르몬 억제 평가를 고려한다.
 
 ## 검수 근거
 

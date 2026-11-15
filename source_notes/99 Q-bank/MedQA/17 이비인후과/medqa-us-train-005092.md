@@ -13,13 +13,13 @@ related_diseases:
   - "턱관절장애"
   - "측두하악관절 기능부전"
   - "저작근 경련"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sgrzssKjsi6Dqsr3thrUgKFRyaWdlbWluYWwgbmV1cmFsZ2lhKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-30세 남자가 3개월 동안 반복되는 오른쪽 턱 통증으로 내원했다. 통증은 둔하고 하루가 지나거나 씹을 때 악화되며 오른쪽 귀에서도 느껴진다. 식사 중 딱딱거리는 소리가 나고 최근 심한 두통이 여러 차례 있었다. 진찰에서 입 벌리기가 제한되고 얼굴 근육 경련이 만져진다. 증상의 가장 가능성 높은 원인은?
+30세 환자가 석 달째 씹으면 오른쪽 턱과 관자놀이가 아프다. 귀와 치아 진찰은 정상이고, 입을 크게 벌리거나 저작근을 눌렀을 때 평소 통증이 재현된다. 초기 치료는?
 
 ## 선택지
 
-A. 치과 농양
-B. 하악골 감염
-C. 턱관절 기능장애
-D. 부비동 만성 염증
+A. 턱관절 수술을 먼저 시행한다
+B. 감염 소견 없이 항생제를 장기 투여한다
+C. 턱을 과하게 쓰는 습관을 줄이고 운동·물리치료를 포함한 보존치료를 한다
+D. 통증을 없애기 위해 치아 교합을 영구적으로 바꾼다
 
 ## 해설
 
 
-턱관절 통증, 씹을 때 악화, 귀 통증, 입 벌리기 제한 및 안면 근육 경련은 턱관절 기능장애(TMJ disorder)의 특징이다. 따라서 가장 가능성 높은 원인은 턱관절 기능장애이다.
+저작이나 턱 움직임이 익숙한 통증을 재현하는 만성 턱관절장애는 교육, 턱 운동과 물리치료 등 되돌릴 수 있는 치료부터 시작한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005092
+- https://pubmed.ncbi.nlm.nih.gov/38101929/

@@ -14,11 +14,11 @@ related_diseases:
   - "약물 사용장애"
   - "자율신경 과활성"
   - "Opioid withdrawal"
-question_type: management
+question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,23 +39,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-변비와 섬유근육통 과거력이 있는 25세 남성이 전신 권태감과 심한 설사로 응급실에 왔다. 지난 24시간 동안 몸이 좋지 않았고 증상을 더는 견딜 수 없다고 한다. 약물이나 불법 약물은 복용하지 않으며 평소 건강하다고 했다. 체온 99.3°F(37.4°C), 혈압 122/88 mmHg, 맥박 107회/분, 호흡 19회/분, 실내 공기 산소포화도 99%였다. 아파 보였고 콧물, 눈물, 입모, 동공 확장 및 빛에 대한 반응이 있었다. 초음파 유도 정맥로를 확보하는 동안 팔오금에 여러 주사 흉터가 보였고 정맥로 확보가 매우 어려웠다. 진찰 중 구토도 시작했다. 다음 중 이 환자 증상에 적절한 치료가 될 수 있는 것은?
+장기간 복용하던 오피오이드 진통제가 끊긴 다음 날부터 콧물, 눈물, 소름과 복통·설사가 생겼다. 동공은 커져 있고 호흡은 느리지 않다. 가장 가능성 높은 상태는?
 
 ## 선택지
 
-A. 클로니딘
-B. 디아제팜 감량요법
-C. 할로페리돌과 디펜히드라민
-D. 오셀타미비르
+A. 오피오이드 중독
+B. 오피오이드 금단
+C. 알코올 중독
+D. 항콜린성 중독
 
 ## 해설
 
-설사·구토·동공 확대·콧물·눈물·입모와 주사 흔적은 오피오이드 금단을 시사한다. 제시된 선택지 중 알파2 작용제인 클로니딘은 교감신경 과활성에 따른 금단 증상을 완화할 수 있다. 이는 증상 조절에 대한 답이며 오피오이드 사용장애의 장기 치료 전체를 뜻하지 않는다.
+오피오이드 금단에서는 산동, 콧물·눈물, 입모와 장운동 증가가 함께 나타날 수 있다. 중독에서 흔히 보는 의식 저하, 축동과 호흡 억제와 구별한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000339
+- https://pubmed.ncbi.nlm.nih.gov/39532476/
 
 ## 검수 근거
 

@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2SiO2WiSDsnqXslaAgKENvbmR1Y3QgRGlzb3JkZXIpLm1k
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-11세 남아의 부모가 학교 교사의 의뢰로 심리학자를 찾아왔다. 여러 차례 처벌을 받았는데도 어린 반 친구들을 자주 괴롭힌다. 어머니는 1년 전 아들이 동네 가게에서 물건을 훔쳤다는 신고를 받았다고 한다. 부모가 밤 10시까지 돌아오라고 엄격히 지시해도 밤늦게까지 밖에 있다. 자세한 병력에서 이런 행동 외에는 대개 화를 내거나 과민하지 않다. 경고와 처벌에도 이상행동이 계속되지만 부모나 교사와 논쟁하지 않고 언어적·신체적 공격성도 보이지 않는다. 다음 중 가장 가능성 높은 진단은?
+11세 아이가 1년 가까이 또래를 반복해서 위협하고, 남의 물건을 부수고, 집과 가게에서 물건을 훔쳤다. 지난달에도 행동이 반복돼 학교생활에 큰 지장이 있다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 주의력결핍/과잉행동장애, 과잉행동-충동형
-B. 품행장애
-C. 간헐적 폭발장애
-D. 반항성 장애
+A. 품행장애
+B. 적대적 반항장애
+C. 주의력결핍 과잉행동장애
+D. 간헐적 폭발장애
 
 ## 해설
 
 
-반복적인 규칙 위반, 권위에 대한 무시, 사회적 규범을 무시하는 행동이 지속되는 경우는 품행장애이며, ADHD와는 과잉 행동이 없고, 반항성 장애는 주로 가족·학교에 대한 반항이 중심이다. 따라서 가장 가능성 높은 진단은 품행장애이다.
+또래 위협, 재산 파괴와 절도가 반복되면 다른 사람의 권리를 지속적으로 침해하는 품행장애를 고려한다. 권위자와의 말다툼이나 반항만 두드러지는 적대적 반항장애와 구분한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006764
+- https://www.nice.org.uk/guidance/cg158/chapter/recommendations

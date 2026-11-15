@@ -18,7 +18,7 @@ related_diseases:
 question_type: investigation
 related_disease_slugs: []
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 16주인 27세 초임부가 정기검진을 받으러 왔다. 동반 질환은 없고 주관적인 증상도 없지만 삼중 선별검사 결과를 걱정한다. 매일 엽산 400 µg과 철분 30 mg을 복용한다. 산모 혈청 알파태아단백은 2.9 MoM(정상 0.85~2.5), β-hCG 1.1 MoM, 비결합 에스트리올 1 MoM이었다. 다음 중 가장 적절한 관리 단계는?
+임신 17주 산모의 혈청 알파태아단백(AFP)이 2.9 MoM으로 높다. 산전 정밀 초음파는 아직 하지 않았다. 우선 평가는?
 
 ## 선택지
 
-A. 양수천자
-B. 인히빈 A 추가검사
-C. 초음파검사
-D. 융모막융모검사
+A. 융모막융모검사부터 시행
+B. 비침습 산전검사(NIPT)로 신경관 결손 확진
+C. 산모 혈청 hCG만 재측정
+D. 초음파로 임신 주수·태아 수와 신경관 등 태아 구조를 확인
 
 ## 해설
 
-MSAFP 2.9 MoM은 선별검사 이상이지 신경관결손 확진이 아니다. 먼저 초음파로 임신 주수, 다태임신 및 태아 구조를 확인한다(C). 결과와 상담에 따라 양수 AFP 검사 등을 고려할 수 있으므로 침습 검사가 항상 불필요한 것은 아니다. 일상 예방용 엽산은 400 µg이며 원문의 400 mg 표기는 단위 오류다.
+AFP 상승은 개방성 신경관결손 등의 선별 소견이지 확진이 아니다. 먼저 주수와 태아 수를 확인하고 초음파로 척추와 복벽 등 구조를 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ MSAFP 2.9 MoM은 선별검사 이상이지 신경관결손 확진이 아니다. 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003263
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7834900/

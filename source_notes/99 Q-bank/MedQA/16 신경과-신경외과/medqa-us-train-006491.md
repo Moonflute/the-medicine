@@ -13,11 +13,11 @@ related_diseases:
   - "정상압 수두증"
   - "보행 장애"
   - "요실금과 치매"
-question_type: management
+question_type: investigation
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_soJXsg4HslZUg7IiY65GQ7KadIChOb3JtYWwgcHJlc3N1cmUgaHlkcm9jZXBoYWx1cykubWQ
 difficulty: simple
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-76세 남성이 기억을 잃어가는 것 같다는 딸의 말과 함께 노인의학 전문의를 방문했다. 이전에는 모든 집안일을 혼자 했지만 최근 납부하지 않은 청구서가 여러 개 있었다. 운전하다 길을 잃고 화장실에 도착하기 전에 ‘실수’를 한 뒤 딸에게 여러 번 전화하기도 했다. 진찰에서 대화가 가능하고 사람, 장소 및 시간에 대한 지남력은 정상이지만 보행은 다리를 넓게 벌리고 느리다. 다음 중 이 환자의 증상을 호전시킬 가능성이 가장 높은 치료는?
+76세 환자에게 짧은 걸음과 요절박이 있고 영상에서 정상압 수두증에 합당한 소견이 있다. 단락술 전, 뇌척수액을 줄이면 보행이 좋아지는지 평가할 검사는?
 
 ## 선택지
 
-A. 메만틴
-B. 요추천자
-C. 카르비도파/레보도파
-D. 와파린
+A. 요역동학검사
+B. 척수 신경전도검사
+C. 보행검사 없이 뇌척수액 단백만 확인
+D. 요추천자로 뇌척수액을 배액하고 전후 보행을 비교
 
 ## 해설
 
-보행장애·인지저하·요절박의 조합은 정상압수두증을 시사한다. 뇌영상으로 뇌실확장과 감별진단을 평가한 뒤 시행하는 대량 요추천자(B)는 보행 등의 일시적 개선을 보이고 션트 반응을 예측하는 데 도움이 될 수 있다. 요추천자 자체가 장기적인 확정치료는 아니며, 적절한 환자에서 뇌척수액 션트술을 검토한다.
+뇌척수액 배액 전후 보행 속도나 걸음 수를 비교하면 단락술 반응을 예측하는 데 도움 된다. 반응이 없다고 모든 환자에서 치료 효과가 없는 것은 아니다.
 
 ## 검수 근거
 

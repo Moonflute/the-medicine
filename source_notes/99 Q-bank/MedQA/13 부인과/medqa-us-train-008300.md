@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyXvCAoQ2VydmljaXRpcykubWQ
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 여성이 비정상 질 분비물과 가려움으로 응급실에 왔다. 며칠 전 시작되어 악화되었고 1년 전 의학적 유산을 했다. 체온 98.6°F(37.0°C), 혈압 129/68 mmHg, 맥박 80회/분, 호흡수 14회/분이다. 골반검사에서 노란색 자궁경부 분비물이 보이고 핵산증폭검사에서 Neisseria 종은 음성이다. 가장 적절한 다음 처치는?
+임신하지 않은 23세 여성의 점액고름성 자궁경부염에서 클라미디아 핵산증폭검사가 양성이고 임균은 음성이다. 약제 금기는 없고 7일 복용이 가능하다. 국내 진료지침의 우선 치료는?
 
 ## 선택지
 
-A. 아지스로마이신
-B. 아지스로마이신과 세프트리악손
-C. 세프트리악손
-D. 자궁경부 배양
+A. 아지스로마이신 경구 1회
+B. 세프트리악손 근육주사 1회
+C. 독시사이클린 경구 7일
+D. 메트로니다졸 경구 7일
 
 ## 해설
 
-점액농성 자궁경부염에서 임질 NAAT는 음성이고 클라미디아 평가·치료가 필요하다. 현재 비임신 성인의 우선 요법은 독시사이클린 7일이며 아지스로마이신은 대체요법이다. 보기 중 A가 유효한 선택이다. 임질 음성만으로 클라미디아를 확진하지 않으며 파트너 평가도 필요하다.
+국내 지침의 비임신 성인 단순 클라미디아 감염 1차 치료는 독시사이클린 100 mg을 하루 두 번 7일 사용하는 것이다. 아지스로마이신 1회는 대안이다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 자궁경부 배양
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008300
+- https://www.icurology.org/DOIx.php?id=10.4111%2Ficu.20230322

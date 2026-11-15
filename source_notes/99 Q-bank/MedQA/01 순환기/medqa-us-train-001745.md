@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MTEg7Jm46rO8L-uzteqwlSDqtaztmo0g7Kad7ZuE6rWwIChBYmRvbWluYWwgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k
   - MDEg7Iic7ZmY6riwL-q4ieyEsSDrj5nrp6Ug7Y-Q7IOJIChBY3V0ZSBBcnRlcmlhbCBPY2NsdXNpb24pLm1k
-question_type: mechanism
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-왼쪽 대퇴동맥 색전절제술 2시간 후 63세 비만 여성이 왼쪽 다리의 심한 통증, 저림 및 이상감각을 보인다. 수술은 합병증 없이 끝났으나 시술 후 말초맥박은 약하게 만져졌다. 왼쪽 하지가 붓고 뻣뻣하며 압통이 있고 발을 발등굽힘하면 종아리에 심한 통증이 생긴다. 양측 대퇴맥박은 만져지고 왼쪽 발맥박은 약하다. 다음 중 소견의 가장 가능성 높은 원인은 무엇인가?
+63세 여성이 급성 하지허혈로 색전제거술을 받았다. 재관류 2시간 뒤 발등동맥 맥박은 살아 있지만 종아리 통증이 심해지고 근육이 팽팽하며 저림이 생겼다. 발목을 수동으로 위로 젖히면 심한 통증을 호소한다. 사지를 보존하기 위한 다음 조치는?
 
 ## 선택지
 
-A. 심부정맥혈전증
-B. 재관류 손상
-C. 횡문근융해증
-D. 콜레스테롤 색전증
+A. 하지를 압박하고 경과를 관찰한다
+B. 급성 구획증후군으로 판단해 응급 근막절개술을 시행한다
+C. 정맥 초음파 결과가 나올 때까지 기다린다
+D. 진통제를 증량하고 다음 날 재평가한다
 
 ## 해설
 
 
-색전 절제술 후 재관류 손상은 조직 부종과 압력 상승을 일으켜 급성 구획 증후군을 초래한다. 따라서 이 환자의 증상은 재관류 손상에 의한 구획 증후군이 가장 가능성 높다.
+재관류 뒤 생긴 팽팽한 종아리, 수동 신장 통증과 감각 이상은 급성 구획증후군의 단서다. 맥박이 만져져도 배제할 수 없으며, 임상적으로 명확하면 검사를 기다리며 근막절개를 미루지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 콜레스테롤 색전증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001745
+- https://www.jacc.org/doi/10.1016/j.jacc.2024.02.013

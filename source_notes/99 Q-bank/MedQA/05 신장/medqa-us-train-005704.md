@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ
   - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
-question_type: prognosis
+question_type: diagnosis
 difficulty: complex
-answer: "B"
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -38,23 +38,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-신생아 여아가 응급 제왕절개 후 분만 뒤 불안정한 활력징후로 신생아 중환자실에 이송되었다. 임신 중 양수과소증과 폐저형성이 있었다. 임신 38주였다. 아프가 점수는 1분 6점, 5분 8점이다. 체온은 37.0°C(98.6°F), 혈압은 60/40 mmHg, 호흡수는 분당 45회, 맥박은 분당 140회이다. 신체검사에서 양측 복부에 윤곽이 불규칙한 종괴가 만져진다. 복부초음파에서 세로 길이 5cm로 크게 커지고 에코가 증가한 신장이 보이며 피질과 수질에 여러 낭종이 있다. 다음 중 이 환자가 가장 위험이 높은 합병증은 무엇인가?
+상염색체열성 다낭성 신장질환이 있는 8세 아이가 추적 진료 중이다. 이전보다 비장이 커졌고 혈소판 수가 줄었다. 간효소는 크게 오르지 않았다. 우선 의심할 간 관련 합병증은?
 
 ## 선택지
 
-A. 지주막하 출혈
-B. 문맥 고혈압
-C. 재발성 요로감염
-D. 자해
+A. 급성 바이러스간염
+B. 선천 간섬유화에 의한 문맥고혈압
+C. 담석에 의한 급성 담낭염
+D. 비알코올성 지방간의 급성 악화
 
 ## 해설
 
-출생 전 양수과소증·폐저형성과 크게 커진 고에코 다낭성 신장은 ARPKD를 시사한다. ARPKD에는 담관판 발달 이상·선천 간섬유화가 동반될 수 있어 문맥고혈압이 중요한 합병증이다. 신장 낭종이 신정맥을 눌러 문맥고혈압이 생긴다는 기전은 잘못이다.
+상염색체열성 다낭성 신장질환에 동반되는 선천 간섬유화는 간효소가 정상에 가깝더라도 문맥고혈압을 일으킬 수 있다. 비장 비대와 혈소판 감소가 단서다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005704
+- https://www.erknet.org/guidelines-pathways/kidney-malformations-ciliopathies/arpkd
 
 ## 오답 포인트
 

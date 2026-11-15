@@ -13,14 +13,14 @@ related_diseases:
   - "디조지 증후군"
   - "팔로 4징"
   - "저칼슘혈증성 발작"
-question_type: diagnosis
+question_type: prevention
 related_disease_slugs:
   - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7Iq07IOYIOustO2YleyEseymnSAoRGlHZW9yZ2UgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-건강한 만삭 여아가 출생 후 1일째 평가를 받았다. 구개열과 좌측 늑간에서 수축기 박출성 잡음이 들리고, 낮게 위치한 귀와 소하악증도 있다. 흉부 X선에서 장화 모양 심장과 흉선의 부재가 보인다. 심초음파에서 심실중격결손, 폐동맥판 협착, 대동맥 기승 및 우심실 벽 비후가 확인된다. 가족력은 특이하지 않고 아버지에 대해서는 알려진 정보가 많지 않다. 다음 중 이 아기에게 나타날 가능성이 있는 것은 무엇인가?
+22q11.2 결실과 뚜렷한 T세포 감소가 확인된 영아가 예방접종을 받으러 왔다. 면역기능 평가가 아직 끝나지 않았다. 접종 계획은?
 
 ## 선택지
 
-A. 발작
-B. 고양이 울음소리
-C. 갑상선기능항진증
-D. 익상경
+A. 생백신은 면역기능을 평가한 뒤 결정하고 불활성화 백신은 일정에 맞춰 검토
+B. T세포 수와 무관하게 모든 생백신을 즉시 접종
+C. 폐렴구균 등 불활성화 백신부터 모두 평생 금지
+D. 생백신 접종 전에 칼슘만 확인하면 충분
 
 ## 해설
 
 
-제시된 선천성 심장·구개열·귀·턱 기형은 디조지(22q11.2 결손) 증후군과 일치한다. 이 증후군은 저칼슘혈증에 의한 경련 위험이 높다. 따라서 가장 가능성 있는 합병증은 저칼슘혈증성 발작이며, 이는 선택지 A에 해당한다.
+흉선 발달저하가 있는 22q11.2 결실에서는 중증 T세포 결핍 여부가 생백신 안전성을 좌우한다. 필요한 면역검사와 전문의 평가로 시행 여부를 정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005790
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9892161/

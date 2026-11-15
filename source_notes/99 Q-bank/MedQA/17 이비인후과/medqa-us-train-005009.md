@@ -13,13 +13,13 @@ related_diseases:
   - "급성 세균성 부비동염"
   - "Moraxella catarrhalis"
   - "소아 부비동염"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67aA67mE64-Z7Je8IChTaW51c2l0aXMpLm1k
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-8세 여아가 2주 가까이 코막힘과 야간기침이 지속되다가 4일 전부터 화농성 콧물과 39.2°C 발열이 악화되어 내원했다. 비갑개가 붓고 붉으며 후비루로 화농성 점액이 보이고 양쪽 상악동에 압통이 있다. 현재 상태를 일으킨 가장 가능성 높은 균은?
+8세 아이가 부비동염 증상을 보이다 한쪽 눈이 붓고 고열이 난다. 눈을 움직일 때 통증이 있고 겹쳐 보인다고 한다. 가장 적절한 다음 조치는?
 
 ## 선택지
 
-A. Moraxella catarrhalis
-B. Pseudomonas aeruginosa
-C. Staphylococcus aureus
-D. Streptococcus pyogenes
+A. 항히스타민제를 주고 다음 주에 재진한다
+B. 코 분비물 배양부터 하고 결과가 나올 때까지 기다린다
+C. 안와 합병증을 의심해 응급 영상과 전문 평가를 진행한다
+D. 단순 알레르기 결막염으로 판단해 점안제만 쓴다
 
 ## 해설
 
 
-소아 급성 부비동염의 흔한 원인균은 Moraxella catarrhalis이며, 화농성 분비물과 전형적인 증상이 일치한다. 따라서 가장 가능성 높은 균은 Moraxella catarrhalis이다.
+안구운동통·복시·눈 주위 부종은 부비동염이 안와로 번졌을 가능성을 높인다. 조영 영상과 안과·이비인후과 평가를 서두른다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005009
+- https://www.kdca.go.kr/bbs/kdca/263/306993/download.do

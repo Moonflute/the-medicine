@@ -20,6 +20,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -40,7 +41,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-합병증 없이 갑상샘전절제술을 받은 지 2일 후 63세 여성이 급격히 진행하는 흉통으로 내원했다. 통증은 날카롭고 작열감이 있으며 오심과 호흡곤란이 있다. 고혈압, 제1형 당뇨병, 갑상샘 수질암, 다발성 내분비샘종양 2A형, 불안, 관상동맥질환, 위식도역류질환이 있다. 불안하고 식은땀을 흘리며 목 절개 부위에는 경미한 홍반과 장액성 분비물이 있다. 다음 중 가장 적절한 다음 단계는?
+합병증 없이 갑상샘전절제술을 받은 지 2일 후 63세 여성이 급격히 진행하는 흉통으로 내원했다. 통증은 날카롭고 작열감이 있으며 오심과 호흡곤란이 있다. 고혈압, 제1형 당뇨병, 갑상샘 수질암, 다발성 내분비샘종양 2A형, 불안, 관상동맥질환, 위식도역류질환이 있다. 불안하고 식은땀을 흘리며 목 절개 부위에는 경미한 홍반과 장액성 분비물이 있다. 가장 적절한 다음 단계는?
 
 ## 선택지
 

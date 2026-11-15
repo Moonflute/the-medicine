@@ -17,9 +17,9 @@ question_type: prevention
 related_disease_slugs:
   - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-61세 여성이 류마티스관절염으로 메틸프레드니솔론을 복용하고 있으며, 최근 1년간 가벼운 낙상으로 상완골과 경골 골절이 두 번 있었다. 폐경 후 호르몬대체요법은 받지 않고, 운동을 하지 않는다. 선별검사에서 예상되는 결과는?
+61세 폐경 여성이 류마티스관절염으로 프레드니솔론을 매일 복용하기 시작했다. 몇 달 이상 투여가 예상된다. 골절을 예방하기 위해 처음 할 일은?
 
 ## 선택지
 
-A. PHQ-9 점수 17점
-B. DEXA 검사 T 점수 -2.01
-C. 복부 초음파에서 대동맥 확장
-D. 유방촬영술에서 국소 고음영
+A. 골절이 생길 때까지 평가하지 않는다
+B. 1년 뒤 칼슘 수치만 잰다
+C. 골밀도와 골절 위험을 조기에 평가한다
+D. 약을 끊은 뒤에만 뼈를 검사한다
 
 ## 해설
 
-폐경, 류마티스관절염, 전신 스테로이드와 저에너지 골절은 낮은 골밀도·골절 위험 증가를 시사하여 선지 중 DEXA T점수 -2.01(B)이 가장 합당하다. -2.01은 골밀도 수치 분류상 골감소증 범위(-1에서 -2.5 사이)이며 -2.5 이하라는 골다공증 역치를 만족하는 수치가 아니다. 임상적 골절 위험과 치료 필요성은 골밀도 수치만이 아니라 취약골절·스테로이드 등도 종합한다. 이 병력만으로 실제 T점수가 정확히 -2.01일 것이라고 예측할 수는 없다.
+전신 스테로이드 사용 초기에 골절 위험이 높아질 수 있다. 장기 복용이 예상되면 골밀도와 기존 골절 등 위험을 일찍 평가해 예방 치료를 결정한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 유방촬영술에서 국소 고음영
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000624
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6288607/

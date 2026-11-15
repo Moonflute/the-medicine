@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
   - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
-question_type: 임상증례 객관식
+question_type: management
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-47세 여자가 정기 건강검진을 받으러 왔다. 6개월간 전신 피로와 무기력이 있고 특별한 병력과 복용약은 없다. 일주일에 6일 밤 ‘사교적으로’ 술을 마시며 매일 밤 자기 전에 와인 1~2잔을 마신다. 약물이나 흡연력은 없다. 신체검사에서 점막이 창백하고 평균적혈구용적 72 fL, 백혈구 5,300/µL, 헤모글로빈 11.0 g/dL, 혈소판 420,000/µL이다. 이 환자의 혈소판증가증 원인으로 가장 가능성 높은 것은 무엇인가?
+자궁근종으로 월경량이 많은 환자의 혈색소는 10.1g/dL, 페리틴은 6ng/mL, 혈소판은 54만/μL다. 다른 혈구는 정상이고 비장비대나 혈전은 없다. 철결핍성 빈혈을 치료할 때 혈소판에 대한 적절한 계획은?
 
 ## 선택지
 
-A. 철결핍성 빈혈
-B. 만성 알코올 남용
-C. 만성 골수성 백혈병
-D. 재생불량성 빈혈
+A. 반응성 증가 가능성을 무시하고 즉시 하이드록시우레아를 시작한다
+B. 철결핍과 출혈 원인을 치료한 뒤 혈소판 수를 다시 확인한다
+C. 혈소판 수만으로 본태성 혈소판혈증을 확진한다
+D. 급성 혈전이 없어도 혈소판 성분채집을 시행한다
 
 ## 해설
 
 
-MCV72fL의 소구성 빈혈에서는 철결핍 A가 선택지 중 경계성 혈소판 증가의 가장 가능한 관련 원인이다. 철결핍은 반응성 혈소판 증가를 동반할 수 있다. 혈소판420,000/µL는 검사실 기준에 따라 경계 수준이고 흔히 쓰는450,000/µL의 명백한 혈소판증가증 기준에는 미달하므로 수치만으로 골수증식종양을 진단하지 않는다. Ferritin·염증 지표 등으로 원인을 확인한다.
+철결핍은 반응성 혈소판 증가를 일으킬 수 있다. 원인 치료 뒤에도 증가가 지속되거나 다른 단서가 나타나면 골수증식종양 등 다른 원인을 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ MCV72fL의 소구성 빈혈에서는 철결핍 A가 선택지 중 경계성 혈�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004318
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7820646/
+- https://doi.org/10.1182/bloodadvances.2025015950

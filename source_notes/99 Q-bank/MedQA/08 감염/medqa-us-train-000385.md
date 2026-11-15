@@ -20,6 +20,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -38,19 +39,19 @@ related_drug_slugs:
 
 ## 문제
 
-17세 소년이 12일간 지속된 발열, 피로, 인후통으로 내원하였다. 다른 병원에서 아목시실린(amoxicillin)을 처방받았으며 현재 전신에 광범위한 발진이 나타났다. 1년 전 임질(gonorrhea)로 치료받은 적이 있다. 여러 명의 성 파트너가 있으며 콘돔을 일관되게 사용하지 않는다. 환자는 무기력하고 말라 보이며, 체질량지수(BMI)는 19.0 kg/m2이다. 체온은 38.4°C, 맥박은 94회/분, 혈압은 106/72 mmHg이다. 신체 검진상 사지에 홍역양 발진(morbilliform rash)이 관찰된다. 구인두 검진상 편도 비대와 삼출물을 동반한 발적이 보인다. 압통이 있는 경부 및 서혜부 림프절병증이 있다. 복부 검진상 경미한 비장비대가 관찰된다. 검사실 검사 결과는 다음과 같다: 혈색소 14 g/dL, 백혈구 수 13,200/mm3, 혈소판 수 160,000/mm3. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+17세 남학생이 12일째 발열, 심한 피로와 인후통을 호소한다. 아목시실린을 복용한 뒤 전신에 반점구진 발진이 생겼다. 삼출성 편도염, 뒤목 림프절 비대와 비장비대가 있다. 일차 EBV 감염을 지지하는 항체 조합은?
 
 ## 선택지
 
-A. 항-CMV IgM 검사
-B. HIV ELISA 검사
-C. 이종항체 응집 검사(Heterophile agglutination test)
-D. 유세포 분석(Flow cytometry)
+A. VCA IgM 음성, VCA IgG 양성, EBNA IgG 양성
+B. VCA IgM 음성, VCA IgG 음성, EBNA IgG 음성
+C. VCA IgM 양성, VCA IgG 양성, EBNA IgG 음성
+D. VCA IgM 음성, VCA IgG 양성, EBNA IgG 음성
 
 ## 해설
 
 
-발열·삼출성 인두염·림프절병증·비장비대와 amoxicillin 뒤 홍역양 발진은 EBV 감염단핵구증을 지지한다. 제시된 검사 중 heterophile 응집검사(C)가 이 임상 의심을 뒷받침할 수 있다. 다만 위양성·위음성이 있고 CDC는 일반적 사용을 권장하지 않으므로 양성만으로 EBV를 확진하거나 음성으로 배제하지 않는다. 필요하면 VCA IgM/IgG와 EBNA 등 EBV 특이 혈청검사를 사용한다. 성접촉 위험에 따른 HIV 검사도 별도로 고려해야 한다.
+증상과 비장비대, 아목시실린 뒤 발진은 전염성 단핵구증을 시사한다. 일차 EBV 감염 초기에는 VCA IgM이 나타나고 EBNA IgG는 아직 검출되지 않는다. VCA IgG와 EBNA IgG가 모두 양성이면서 VCA IgM이 음성이면 대개 과거 감염이다.
 
 ## 검수 근거
 
@@ -63,3 +64,4 @@ D. 유세포 분석(Flow cytometry)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000385
+- 미국 CDC, EBV 특이 항체 해석: https://www.cdc.gov/epstein-barr/php/laboratories/

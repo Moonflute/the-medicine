@@ -13,13 +13,13 @@ related_diseases:
   - "cervical insufficiency"
   - "short cervix"
   - "preterm birth risk"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yhsOyCsCAoUHJldGVybSBiaXJ0aCkubWQ
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 20주인 38세 여성(임신 4회, 출산 3회)이 산전 진찰을 위해 내원했다. 현재 임신에서 난임 치료를 받았고 이전 자녀들은 모두 임신 37주 전에 태어났다. 키 170 cm, 체중 82 kg, BMI 28.4 kg/m²이며 활력징후는 정상이다. 복부는 압통이 없고 자궁수축도 느껴지지 않는다. 초음파에서 자궁경부 길이 22 mm, 태아 심박동 140회/분이다. 가장 가능성 높은 진단은?
+임신 20주 단태임신 산모의 자궁경부가 통증 없이 2 cm 열려 있고 양막이 보이지만 파수는 없다. 자궁수축·출혈·감염도 없다. 조산을 줄이기 위해 전문팀이 고려할 처치는?
 
 ## 선택지
 
-A. 쌍각자궁
-B. 태반부전
-C. 디에틸스틸베스트롤 노출
-D. 자궁경부무력증
+A. 필요 여부와 관계없이 즉시 유도분만
+B. 산모 상태와 관계없이 절대 침상안정만 유지
+C. 자궁 수축이 없지만 자궁수축억제제만 장기 투여
+D. 임상 상태를 평가한 뒤 응급 자궁경부봉축술을 고려한다
 
 ## 해설
 
 
-자궁경부 길이가 22 mm(≤25 mm)이고 과거 조산력이 있으면 자궁경부 무력증 위험이 높다. 이는 조기 파열 및 조산을 초래할 수 있다. 따라서 진단은 자궁경부 무력증이다.
+임신 중기에 통증 없이 경부가 열리고 양막이 노출됐지만 파수·감염·출혈·진통이 없으면 선택적으로 응급 봉축술을 고려할 수 있다. 이미 파수되었거나 감염이 있으면 이 접근을 그대로 적용하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008074
+- https://www.nice.org.uk/guidance/ng25/chapter/recommendations

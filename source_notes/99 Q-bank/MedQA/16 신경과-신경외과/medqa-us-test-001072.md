@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6ri4656RLeuwlOugiCDspp3tm4TqtbAgKEd1aWxsYWluLUJhcnJlIFN5bmRyb21lKS5tZA
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quLjrnpEt67CU66CIIOymne2bhOq1sCAoR3VpbGxhaW4tQmFycsOpIHN5bmRyb21lKS5tZA
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-10세 남아가 아침에 일어난 뒤 걷지 못해 응급실에 왔다. 3주 전 발열, 마른기침, 인후통이 있었고 발열과 인후통은 호전되었지만 기침은 지속되었다. 양쪽 하지에 심한 근력저하와 손발의 경한 감각저하, 무릎·발목 반사 소실이 있었다. 뇌척수액에서 백혈구 2/mm³, 포도당 60 mg/dL, 단백질 91 mg/dL였다. 가장 적절한 치료는?
+10세 아이가 감염 2주 뒤 양쪽 다리에 힘이 빠지고 반사가 사라졌다. 뇌척수액 단백은 91 mg/dL, 백혈구는 2/μL다. 길랭–바레 증후군으로 이제 혼자 걷지 못한다. 호흡 감시와 함께 시작할 면역치료는?
 
 ## 선택지
 
-A. 정맥 면역글로불린(IVIG)
-B. 프레드니손
-C. 보툴리눔 항독소
-D. 가바펜틴
+A. 경구 프레드니솔론 단독
+B. 정맥 면역글로불린
+C. 경험적 정맥 항생제 단독
+D. 아자티오프린 단독
 
 ## 해설
 
-감염 후 급성 양측 위약·무반사와 뇌척수액 단백질 상승/세포수 정상은 Guillain-Barré 증후군에 부합한다. 보행이 불가능한 이 환자에서는 IVIG(A)가 적절하며 혈장교환도 효과적인 대안이다. IVIG가 혈장교환보다 항상 우월한 것은 아니고 스테로이드는 효과적인 단독치료가 아니다. 호흡근 기능과 심박·혈압 등 자율신경 불안정을 면밀히 감시한다.
+혼자 걷지 못하는 진행성 길랭–바레 증후군에는 정맥 면역글로불린 또는 혈장교환을 사용한다. 스테로이드는 효과적인 단독치료가 아니다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 가바펜틴
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001072
+- https://pubmed.ncbi.nlm.nih.gov/37814552/

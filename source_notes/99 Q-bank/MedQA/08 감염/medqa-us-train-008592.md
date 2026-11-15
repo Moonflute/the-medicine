@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2BrOumve2GoOy9lOy_oOyKpOymnSAoQ3J5cHRvY29jY29zaXMpLm1k
 question_type: investigation
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-66세 남성이 3일 동안 점점 심해지는 두통, 구토, 미열, 혼란으로 다른 병원에서 전원되었다. 동반자에 따르면 지난 2주 동안 기억력이 떨어지고 두통을 호소했다. 2년 전 폐이식이 필요했던 간질성 폐질환 병력이 있다. 입원 당시 혈압 160/100mmHg, 맥박 58회/분, 호흡수 15회/분, 체온 36°C(97°F)였다. 구강 칸디다증이 보이고 동공은 대칭적이며 빛에 반응한다. 국소 신경학적 징후나 유두부종은 없다. 요추천자를 시행했다. 다음 중 예상되는 뇌척수액 소견은 무엇인가?
+폐이식 후 면역억제제를 복용 중인 환자가 3주 동안 심해지는 두통과 혼돈으로 왔다. 뇌척수액에서 림프구가 늘고 포도당이 낮다. 크립토코쿠스 수막염이 의심될 때 뇌척수액에서 신속히 확인할 항목은?
 
 ## 선택지
 
-A. 외관 황색, 개방압 정상, 적혈구 증가, 단백질 정상, 포도당 정상
-B. 외관 혼탁, 개방압 상승, 호중구 증가, 단백질 상승, 포도당 감소
-C. 외관 맑음, 개방압 정상, 림프구 증가, 단백질 정상, 포도당 정상
-D. 외관 혼탁, 개방압 상승, 림프구 증가, 단백질 상승, 포도당 감소
+A. 올리고클론 띠
+B. HSV 항체 단독
+C. 크립토코쿠스 항원
+D. VDRL 단독
 
 ## 해설
 
 
-이식 후 면역억제 환자의 수 주에 걸친 두통과 혼란은 크립토코쿠스 등 아급성 진균성 수막염을 의심하게 한다. 선택지 중 개방압 상승, 림프구 우세, 단백질 상승과 포도당 감소를 묶은 D가 가장 부합한다. 실제 진균성 CSF는 맑을 수도 있고 면역억제 시 세포 반응이 약할 수도 있다. C의 림프구 증가 소견 역시 완전한 정상 CSF라는 뜻은 아니다.
+크립토코쿠스 항원은 뇌척수액에서 신속하게 진단에 도움을 주며, 진균 배양과 개방압 평가도 병행한다. 뇌척수액 세포 수나 당만으로 원인균을 특정할 수는 없다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 외관 혼탁, 개방압 상승, 림프구 증가, 단백질 상승, 포도�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008592
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/

@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
   - MDkg7ZiI7JWhL-qzqOyImO2YleyEseydtOyDgSDspp3tm4TqtbAgKE15ZWxvZHlzcGxhc3RpYyBTeW5kcm9tZSwgTURTKS5tZA
-question_type: 임상증례 객관식
+question_type: diagnosis
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-73세 남자가 2일간 지속된 발열과 가래 기침으로 응급실에 왔다. 2주간 피로와 호흡곤란이 점점 심해졌고 3kg의 체중 감소가 있었다. 1년 전 골수이형성증후군으로 항암화학요법을 받았으며 현재 지지요법과 정기 수혈을 받고 있다. 체온 38.5°C, 맥박 93회/분, 호흡수 18회/분, 혈압 110/65 mmHg이다. 하지 말단 점상출혈과 몸통·사지의 자반, 양측 겨드랑이 및 경부 림프절 비대, 왼쪽 하엽 수포음이 있다. 헤모글로빈 9 g/dL, 평균적혈구용적 95 μm³, 백혈구 18,000/mm³, 혈소판 40,000/mm³, PT 11초이다. 이 환자에서 가장 발생했을 가능성이 높은 것은 무엇인가?
+골수형성이상종양을 추적 중인 73세 환자에게 피로와 잇몸 출혈이 심해졌다. 혈색소와 혈소판이 더 떨어졌고 반복 검사에서 말초혈액 골수모세포가 28%다. 가장 우려되는 변화는?
 
 ## 선택지
 
-A. 급성 골수성 백혈병
-B. 버킷 림프종
-C. 비심인성 폐부종
-D. 소세포폐암
+A. 만성 림프구성 백혈병 발생
+B. 철결핍성 빈혈의 악화
+C. 급성 골수성 백혈병으로 진행
+D. 골수형성이상종양의 관해
 
 ## 해설
 
 
-골수이형성증후군 환자에서 급성 골수성 백혈병(AML)으로 전이될 위험이 높으며, 빈혈·백혈구증가·혈소판감소와 전신 증상이 AML을 시사한다. 따라서 가장 가능성 높은 진단은 급성 골수성 백혈병이다.
+추적 중 다계열 혈구감소가 악화되고 골수계 모세포가 뚜렷하게 늘면 급성 골수성 백혈병으로의 진행을 의심한다. 골수와 유전검사로 세부 분류를 확인한다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 소세포폐암
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004364
+- https://doi.org/10.1038/s41375-022-01613-1
+- https://ashpublications.org/blood/article/140/12/1345/485985

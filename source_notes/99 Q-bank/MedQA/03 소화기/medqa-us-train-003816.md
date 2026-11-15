@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 남성이 수개월간 진행된 쇠약과 25파운드 체중감소, 간헐적 복통으로 내원했다. 수년 전 복통으로 응급실에 갔을 때 과음에 따른 간효소 상승과 우연히 발견된 담석이 있었다. 50갑년의 흡연력이 있다. 신체검사에서 쇠약해 보였고 복부 압통은 없으며 머피 징후는 음성이었다. 다음 중 가장 적절한 다음 처치는?
+55세 남성이 수개월간 진행된 쇠약과 25파운드 체중감소, 간헐적 복통으로 내원했다. 수년 전 복통으로 응급실에 갔을 때 과음에 따른 간효소 상승과 우연히 발견된 담석이 있었다. 50갑년의 흡연력이 있다. 신체검사에서 쇠약해 보였고 복부 압통은 없으며 머피 징후는 음성이었다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

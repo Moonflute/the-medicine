@@ -19,7 +19,7 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-47세 여자가 2년 동안 체중 증가와 불규칙한 월경으로 내원했다. 복부와 얼굴에 체중이 주로 증가했고 조절하기 어려운 제2형 당뇨병과 고혈압이 있다. 늦은 밤 침 코르티솔과 아침 혈장 ACTH가 상승했으며 뇌 MRI에서 2 cm 뇌하수체 선종이 보인다. 최적의 치료는?
+47세 여성이 ACTH를 분비하는 뇌하수체 선종에 의한 쿠싱병으로 확진됐다. 종양은 절제가 가능하고 환자는 수술을 견딜 수 있다. 일차적인 근본 치료는?
 
 ## 선택지
 
-A. 약물치료
-B. 편측 부신절제술
-C. 양측 부신절제술
+A. 코르티솔 합성 억제약을 일률적으로 평생 사용
+B. 한쪽 부신절제술
+C. 처음부터 양쪽 부신절제술
 D. 경접형동 뇌하수체 선종절제술
 
 ## 해설
 
 
-뇌하수체 ACTH 분비 선종에 의한 쿠싱병은 수술적 절제가 가장 효과적인 치료이다. 경접형동 뇌하수체 선종절제술이 표준 치료법이다.
+절제 가능한 ACTH 분비 뇌하수체 선종에서 일차 치료는 경험 있는 센터의 경접형동 수술이다. 약물이나 방사선 등은 수술이 어렵거나 잔존·재발한 경우 등에 검토한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 경접형동 뇌하수체 선종절제술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005073
+- https://www.endocrine.org/clinical-practice-guidelines/treatment-of-cushing-syndrome

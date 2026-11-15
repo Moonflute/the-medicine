@@ -14,13 +14,13 @@ related_diseases:
   - "contact sports"
   - "skiing injury risk"
   - "pregnancy counseling"
-question_type: prevention
+question_type: management
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yghOuwqSDsi63snpAg7J2464yAIOyGkOyDgSAoQW50ZXJpb3IgQ3J1Y2lhdGUgTGlnYW1lbnQgSW5qdXJ5KS5tZA
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-21세 여성이 임신 양성으로 내원했다. 대학 대표 축구팀에서 활동하며 매일 달리기와 근력운동을 하고 겨울 스키 시즌권을 갱신하고 싶어 한다. 다음 중 가장 적절한 권고는?
+합병증 없는 임신 12주 산모가 평소 하던 축구와 가벼운 근력운동을 계속할지 묻는다. 적절한 권고는?
 
 ## 선택지
 
-A. 축구와 근력운동을 계속하고 스키 시즌권은 사지 않는다
-B. 축구와 근력운동을 모두 중단하고 스키 시즌권도 사지 않는다
-C. 축구는 계속하고 근력운동은 중단하며 스키 시즌권은 사지 않는다
-D. 축구는 중단하고 근력운동은 계속하며 스키 시즌권은 사지 않는다
+A. 임신부는 운동을 전부 중단한다
+B. 축구 경기는 하되 수영과 걷기는 피한다
+C. 낙상 위험이 큰 스키로 축구를 대체한다
+D. 접촉이 있는 축구 경기는 피하고, 걷기와 무리하지 않는 근력운동을 이어간다
 
 ## 해설
 
 
-임신 중에는 접촉 스포츠와 고위험 스키와 같은 낙상 위험이 높은 활동을 피해야 한다. 근력운동은 저강도라 지속 가능하지만, 축구와 스키는 중단이 권고된다. 따라서 축구는 중단하고 근력운동은 계속하며 스키는 사지 않는 것이 맞다.
+합병증 없는 임신에서는 적절한 유산소와 근력운동을 지속할 수 있다. 충돌·복부 외상 또는 낙상 위험이 있는 종목은 피하도록 안내한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003612
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/04/physical-activity-and-exercise-during-pregnancy-and-the-postpartum-period

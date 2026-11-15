@@ -13,12 +13,12 @@ related_diseases:
   - "조현병"
   - "올란자핀"
   - "대사증후군"
-question_type: monitoring
+question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
   - MDQg64K067aE67mEL-uMgOyCrOymne2bhOq1sCAoTWV0YWJvbGljIFN5bmRyb21lKS5tZA
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,24 +37,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 남성이 기이한 행동으로 응급실에 왔다. 몇 주 동안 집을 판자로 막고 밖으로 나가기를 거부했다. 집에서 악취가 나 이웃이 당국에 연락했고 경찰이 출동했다. 환자는 평생 요정들에게 쫓겨왔다고 말한다. 두려움 속에서 사는 데 지쳐 집에 자신을 가두었다고 한다. 위생 상태가 나쁘고 치아도 매우 불량하다. 과거력으로 올란자핀으로 잘 조절되던 조현병이 있다. 올란자핀을 다시 시작하고 며칠 동안 관찰했다. 이 환자에게 장기적으로 모니터링해야 하는 것은 무엇인가?
+올란자핀을 시작한 지 3개월 된 환자가 이전보다 체중이 늘었다. 치료 전 혈당과 지질은 정상이었다. 추적할 항목으로 가장 적절한 것은?
 
 ## 선택지
 
-A. 전혈구검사
-B. 심전도
-C. HbA1c 수치
-D. 신장기능검사
+A. 혈청 리튬 농도와 갑상샘기능
+B. 절대호중구 수만 정해진 간격으로 검사
+C. 혈청 프로락틴만 반복 검사
+D. 체중·혈압과 혈당 또는 당화혈색소, 지질
 
 ## 해설
 
 
-올란자핀은 대사증후군(당뇨, 고지혈증, 체중 증가)을 유발할 수 있어 장기 치료 시 HbA1c 측정으로 혈당 관리 여부를 모니터링한다.
+올란자핀은 체중 증가, 혈당 조절 악화와 지질 이상을 일으킬 수 있다. 치료 전 기준치를 확인한 뒤 대사 지표를 정기적으로 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004678
+- https://www.nice.org.uk/guidance/cg178/chapter/recommendations
 
 ## 검수 근거
 

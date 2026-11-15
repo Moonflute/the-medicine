@@ -20,7 +20,7 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-24세 여성이 하루 동안 지속된 메스꺼움과 쇠약으로 병원에 왔다. 심각한 질환 병력은 없고 남성 2명과 성생활을 하며 경구피임약을 사용하지만 콘돔은 일관되게 사용하지 않는다. 마지막 월경은 4일 전이었다. 체온 37.8°C(100°F), 맥박 88회/분, 호흡 18회/분, 혈압 115/70 mmHg였다. 오른쪽 늑골척추각 압통이 있었고 복부는 부드럽고 압통이 없었다. 혈색소 14 g/dL, 백혈구 13,000/mm³, 혈소판 250,000/mm³, BUN 18 mg/dL, 크레아티닌 0.8 mg/dL, 포도당 95 mg/dL, CRP 16.4 mg/L(정상 0.08~3.1)였다. 다음 중 가장 적절한 처치는?
+24세 비임신 여성이 열과 오한, 배뇨통, 오른쪽 늑골척추각 압통으로 내원했다. 혈압은 안정적이고 급성 신우신염이 의심된다. 경험적 항생제를 시작하기 전에 우선 채취할 검체는?
 
 ## 선택지
 
-A. 요검사
-B. 자궁경부 면봉검사
-C. 혈액배양
-D. 복부 CT
+A. 소변 일반검사와 배양을 위한 중간뇨
+B. 질 면봉 검체
+C. 대변배양 검체
+D. 소변 세포진검사 검체
 
 ## 해설
 
 
-발열·오른쪽 옆쪽척추각 압통 및 높은 CRP는 급성 신우신염을 시사한다. 초기 진단은 소변검사(배양 포함)로 확인한다. 따라서 가장 적절한 검사는 A이다.
+신우신염이 의심되면 항생제 전에 소변검사와 배양 검체를 채취한다. 이후 감수성에 따라 항생제를 조정한다. 중증 환자의 경우 검체 채취를 이유로 필요한 항생제 투여를 지연하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 복부 CT
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000816
+- https://doi.org/10.3947/ic.2018.50.1.67

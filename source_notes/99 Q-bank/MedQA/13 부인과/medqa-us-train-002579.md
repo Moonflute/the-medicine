@@ -18,7 +18,7 @@ question_type: investigation
 related_disease_slugs:
   - MDkg7ZiI7JWhL1JoIOyaqe2YiOyEseyniO2ZmCAoUmgg7Jqp7ZiI7ISx7KeI7ZmYKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 G2P1 여성이 임신 12주에 내원했다. 이전 임신은 합병증 없이 39주 1일에 건강한 남아를 질식분만했다. 이번 산전검사에서 태아 심박수는 180회/분이고 혈액형은 A 음성이다. 다음 중 이 환자에게 필요한 검사는?
+RhD 음성인 임신 12주 산모가 첫 산전 검사를 받는다. 이전 임신력은 있으나 동종항체 검사 기록은 없다. 모체가 항-D 등 적혈구 동종항체를 갖는지 확인할 검사는?
 
 ## 선택지
 
-A. 직접 쿰스 검사
-B. 백혈구 감별검사
-C. 간접 쿰스 검사
-D. 혈청 비타민 B12 측정
+A. 모체 적혈구 표면 항체를 보는 직접항글로불린검사
+B. 태아 염색체 선별검사
+C. 신생아 혈액형을 확인할 때까지 기다림
+D. 모체 혈청의 비예기항체 선별검사(간접항글로불린검사)
 
 ## 해설
 
-간접 항글로불린검사(C)는 모체 혈청의 항적혈구 동종항체를 선별한다. 태아가 RhD 양성인지 직접 확인하는 검사가 아니다. 감작 여부와 태아·신생아 Rh형에 따라 예방 및 감시를 계획한다.
+임신 초기 모체 혈청에서 임상적으로 중요한 적혈구 동종항체를 선별한다. 양성이면 항체 특이성과 수치 등을 평가해 이미 감작된 상태와 예방이 필요한 상태를 구분한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 혈청 비타민 B12 측정
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002579
+- https://doi.org/10.1111/tme.13098

@@ -31,7 +31,7 @@ related_drug_slugs:
   - ZHJ1ZzowOSDtmIjslaHCt-ydkeqzoC9XYXJmYXJpbi5tZA
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 응급 수술 전 와파린 역전 선택지를 현행 권고로 교정"
 curation_status: "revised"
 curation_reason: "응급 수술 전 와파린 역전 선택지를 현행 권고로 교정"

@@ -15,7 +15,7 @@ related_diseases:
   - "직장주위 농양"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -34,23 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-24세 여성이 만성 복부 불편감과 경련성 통증으로 내원했다. 가끔 작은 혈액 줄무늬가 섞이는 설사가 생겨 걱정되어 진료를 받으러 왔다. 과거력으로 유당불내증과 천식이 있다. 가족 중 밀 알레르기가 있으며 체중 감량을 위해 여러 차례 스스로 구토를 유발해 보았다고 한다. 폭식증의 위험성을 상담한 후 신체진찰에서 직장은 붉고 염증이 있으며 압통이 있고, 직장주위 농양에서 고름이 배출되고 있었다. 대장내시경에서 대장과 말단회장을 침범하는 산재한 점막 병변이 보였다. 전혈구검사 결과는 다음과 같다.
-혈색소 10 g/dL
-총 백혈구 수 12,500/mm³
-호중구 50%, 림프구 40%, 단핵구 5%
-적혈구침강속도 22 mm/hr
-가장 가능성 높은 진단은?
+크론병이 있는 24세 여성에게 새 항문 통증과 38.5°C의 발열이 생겼다. 골반 MRI에서 항문 누공과 연결된 3 cm 농양이 보인다. 생물학적 제제 시작 전 먼저 할 처치는?
 
 ## 선택지
 
-A. 과민성장증후군
-B. 셀리악병
-C. 궤양성 대장염
-D. 크론병
+A. 전신 스테로이드 증량
+B. 인플릭시맙 즉시 시작
+C. 경구 항생제만 처방하고 외래 추적
+D. 항문주위 농양 배농
 
 ## 해설
 
-회장·결장의 분절성 병변과 항문주위농양은 Crohn D를 지지한다. 장벽전층 염증이 누공/농양에 기여하는 것이지 암처럼 전이하는 염증을 의미하지 않는다.
+발열을 동반한 항문주위 농양은 배농해 감염원을 조절한다. 누공과 농양은 외과와 함께 평가하고, 감염 조절 뒤 생물학적 치료 시점을 정한다.
 
 ## 검수 근거
 
@@ -63,3 +58,5 @@ D. 크론병
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006343
+- https://doi.org/10.1093/ecco-jcc/jjae089
+- https://pubmed.ncbi.nlm.nih.gov/42928005/

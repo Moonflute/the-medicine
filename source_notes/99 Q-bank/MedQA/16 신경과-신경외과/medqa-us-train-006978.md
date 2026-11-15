@@ -14,13 +14,13 @@ related_diseases:
   - "결신발작"
   - "3Hz 극파-서파 복합체"
   - "에토숙시미드"
-question_type: management
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM67Cc7J6RIChBYnNlbmNlIFNlaXp1cmUpLm1k
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,21 +37,22 @@ related_drug_slugs:
 
 ## 문제
 
-7세 남아가 지난 한 달 동안 선생님들이 아이가 여러 차례 멍하니 응시하는 것을 보았다는 이유로 어머니와 함께 내원했다. 이러한 에피소드는 몇 초 동안 지속되며 때때로 눈꺼풀이 파르르 떨린다. 만삭으로 태어났고 심각한 질환 병력은 없다. 발달 단계는 모두 정상적으로 달성했다. 건강해 보이며 신경학적 검사에서 국소 소견은 없다. 30초 동안 과호흡을 시키자 7초간 반응이 없고 눈꺼풀이 떨리는 에피소드가 유발되었으며, 직후 의식을 회복했다. 뇌파검사에서 3Hz 극파-서파 복합체가 보인다. 이 환자에게 가장 적절한 약물치료는 무엇인가?
+7세 아이가 하루 수십 번 5–10초씩 하던 일을 멈추고 불러도 반응하지 않는다. 끝나면 혼돈 없이 바로 하던 일을 이어간다. 주의력 문제와 결신발작을 구분할 우선 검사는?
 
 ## 선택지
 
-A. 카르바마제핀
-B. 에토숙시미드
-C. 페니토인
-D. 레베티라세탐
+A. 일주일간 수면다원검사
+B. 청각 유발전위검사
+C. 과호흡을 포함한 뇌파검사
+D. 조영 뇌 CT
 
 ## 해설
 
 
-3 Hz 뇌전도 파형은 소발작(결신발작)의 특징이며, 에토숙시미드는 소발작에 가장 효과적인 약물이다. 따라서 정답은 B이다.
+짧고 갑작스러운 반응 소실이 반복되고 발작 후 혼돈이 없으면 전형 결신발작을 의심한다. 과호흡을 포함한 뇌파에서 전반성 3 Hz 극서파를 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006978
+- https://www.nice.org.uk/guidance/ng217/chapter/diagnosis-and-assessment-of-epilepsy

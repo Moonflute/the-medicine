@@ -17,11 +17,11 @@ related_diseases:
 related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDrsKnqtJHsl7wgKEFjdXRlIEN5c3RpdGlzKS5tZA
   - MDUg7Iug7J6lL-q4ieyEsSDsi6DsmrDsi6Dsl7wgKEFjdXRlIFB5ZWxvbmVwaHJpdGlzKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 여성이 발열, 오한, 구역질, 요절박 및 빈뇨를 주소로 내원하였다. 증상은 4일 전 시작되어 점진적으로 악화되었다고 한다. 과거력상 6개월간 재발성 요로감염(UTI) 병력이 있다. 활력징후는 체온 39.0°C, 혈압 100/70 mm Hg, 맥박 92회/분, 호흡수 25회/분이다. 신체 검진상 좌측 늑골척추각 압통(costovertebral angle tenderness)이 중등도로 관찰된다. 검사실 소견은 다음과 같다: 백혈구 8,500/mm3, 적혈구 4.20 x 10^6/mm3, 헤마토크릿 41.5%, 헤모글로빈 13.0 g/dL, 혈소판 수 225,000/mm3. 소변검사 결과: 색깔 짙은 노란색, 혼탁도 혼탁함, pH 6.5, 비중 1.026, 포도당 음성, 케톤 음성, 아질산염 양성, 백혈구 에스테라제 양성, 빌리루빈 음성, 유로빌리루빈 0.6 mg/dL, 단백질 흔적(trace), 혈액 음성, 백혈구 25/hpf, 세균 다수. 이 환자에서 가장 가능성이 높은 진단은 무엇인가?
+23세 여성이 고열, 오한, 오른쪽 옆구리 통증으로 내원했다. 농뇨가 있고 CT에서 우측 요관결석이 소변 배출을 막아 수신증이 있다. 정맥 항생제를 시작했다. 감염 조절에 필요한 다음 조치는?
 
 ## 선택지
 
-A. 신우신염(Pyelonephritis)
-B. 단순 방광염(Uncomplicated cystitis)
-C. 요로감염(UTI)
-D. 급성 폐쇄성 신결석증(Acute obstructing nephrolithiasis)
+A. 요관 스텐트 또는 경피적 신루로 즉시 배액한다
+B. 경구 항생제로 바꾸고 결석이 자연 배출되기를 기다린다
+C. 체외충격파쇄석술부터 시행한다
+D. 수액만 늘리고 다음 주에 초음파를 재검한다
 
 ## 해설
 
 
-소변에 백혈구, 아질산염 양성, 고열, 측면 통증은 급성 신우신염을 나타낸다. 단순 방광염은 보통 증상이 국소적이며, 신우신염에서는 신장 부위 통증과 전신 증상이 동반된다. 따라서 가장 가능성 높은 진단은 신우신염이다.
+감염된 상부 요로의 폐색은 비뇨기계 응급이다. 항생제와 함께 즉시 배액하고, 결석 제거는 감염과 전신 상태가 안정된 뒤 시행한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 급성 폐쇄성 신결석증(Acute obstructing nephrolithiasis)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000491
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10330415/

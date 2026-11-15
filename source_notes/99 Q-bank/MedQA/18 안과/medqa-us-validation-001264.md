@@ -13,11 +13,11 @@ related_diseases:
   - "특발성 두개내 고혈압"
   - "시신경유두 부종"
   - "이소트레티노인"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tirnrsJzshLEg65GQ6rCc64K0IOqzoO2YiOyVlSAoSWRpb3BhdGhpYyBJbnRyYWNyYW5pYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-30세 여성이 3주간의 전반적 두통과 구역으로 진료를 받으러 왔다. 양쪽 귀에서 머리를 돌리면 감소하는 윙윙거리는 소리가 들리고, 시야 흐림과 복시, 구토가 있다. 비만, 다낭성난소질환과 결절성 낭성 여드름이 있으며 이소트레티노인을 복용 중이다. 추가 평가에서 예상되는 소견은?
+이소트레티노인을 복용하기 시작한 뒤 두통, 박동성 귀울림과 일시적인 시야 흐림이 생겼다. 안저에 양쪽 유두부종이 확인된다. 다음 조치는?
 
 ## 선택지
 
-A. 손바닥 주름의 과색소침착
-B. 양측 시신경유두 부종
-C. 안압 상승
-D. 왼쪽 상·하지 근력약화
+A. 체중에 의한 특발 두개내고혈압으로 단정하고 약은 그대로 쓴다
+B. 두개내압 대신 안압만 추적한다
+C. 진통제를 추가하고 다음 달까지 기다린다
+D. 이소트레티노인을 중단하고 시기능과 두개내고혈압 원인을 신속히 평가한다
 
 ## 해설
 
-두통·구역·박동성 이명·일과성 시야 흐림과 복시는 두개내압 상승을 의심하게 하며 B, 양측 시신경유두부종이 예상된다. 비만은 관련 위험요인이고 isotretinoin은 두개내고혈압과 연관된 약물이므로 약물 관련 이차성 원인을 평가해야 한다. 원인이 되는 약물 노출을 확인하지 않은 채 단순히 특발성으로 확정해서는 안 된다. 안압 상승과 두개내압 상승은 서로 다르다.
+이소트레티노인은 두개내고혈압을 유발할 수 있다. 유두부종이 확인되면 의심 약을 중단하고 시기능 손상과 정맥동혈전 등 다른 원인을 평가한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 왼쪽 상·하지 근력약화
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001264
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c2917c3d-3499-48a0-ba53-120cb979195d

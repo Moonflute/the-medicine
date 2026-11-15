@@ -15,11 +15,11 @@ related_diseases:
   - "헤파린 저항성"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
-question_type: mechanism
+question_type: monitoring
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-21세 남성이 2시간 전 시작된 왼쪽 하퇴의 부종과 심한 통증으로 응급실에 왔다. 중증 질환이나 외상 병력은 없다. 아버지는 폐색전증 병력이 있고, 3년 전 대학 입학 후 하루 한 갑씩 흡연했다. 환자는 매우 불안해 보였다. 키 173 cm, 체중 92 kg, BMI 30.7 kg/m²였다. 체온 37°C(98.6°F), 맥박 94회/분, 호흡 17회/분, 혈압 130/78 mmHg였다. 왼쪽 하퇴가 압통과 경도 부종을 보였고 발을 발등굽힘하면 종아리에 심한 통증이 유발되었다. 혈소판 184,000/mm³, PT 11초, aPTT 26초, 피브린 분해산물 양성이었다. 초음파에서 오금정맥이 압박되지 않고 고에코성 종괴와 혈류 소실이 보였다. 비분획 헤파린 5,000 IU를 정맥 일시주입한 뒤 지속 주입했으나 6시간 후 aPTT는 30초였다. 증상의 가장 가능성 높은 원인은?
+급성 심부정맥혈전증으로 비분획 헤파린을 적정 체중 용량으로 투여 중이다. 주입 상태는 정상인데 aPTT는 낮고, 같은 시점 항-Xa 활성은 치료 범위다. 혈전은 악화하지 않았다. 헤파린 용량에 대한 적절한 판단은?
 
 ## 선택지
 
-A. 항트롬빈 III 결핍
-B. 인자 V 라이덴
-C. 단백질 C 결핍
-D. 항인지질 증후군
+A. aPTT 수치만 보고 즉시 용량을 두 배로 늘린다
+B. 검사 불일치만으로 선천성 항트롬빈 결핍을 확진한다
+C. 항응고를 전면 중단한다
+D. 항-Xa를 기준으로 용량을 평가하고 aPTT만 보고 증량하지 않는다
 
 ## 해설
 
 
-헤파린 투여 후 aPTT가 충분히 연장되지 않고 혈전이 지속되는 경우 항트롬빈 III 결핍이 원인일 수 있다. 이는 헤파린 저항성을 일으켜 혈전 형성을 지속시킨다.
+급성기 인자 VIII·피브리노겐 증가 등으로 aPTT가 헤파린 효과를 작게 보일 수 있다. 적절한 항-Xa 결과가 치료 범위라면 aPTT만을 근거로 더 투여하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 항인지질 증후군
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000868
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11665620/

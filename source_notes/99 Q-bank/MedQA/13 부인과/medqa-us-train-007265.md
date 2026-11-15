@@ -14,11 +14,11 @@ related_diseases:
   - "비만"
   - "말초 에스트로겐 생성"
   - "무월경"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-54세 여자가 지난 5개월 동안 월경이 없어서 내원했다. 초경은 11세에 시작했고, 2년 전까지 28일 간격으로 규칙적이었으나 이후 30~45일 간격의 불규칙하고 양이 적은 월경으로 변했다. 질 건조나 성욕 감소는 없다. 네 번의 임신에 성공했고 모든 아이에게 2세까지 모유 수유를 했다. 심각한 질환의 개인력이나 가족력은 없다. 임신 중인 기간을 제외하고 30년 동안 매일 담배 한 갑을 피웠으며 술은 마시지 않는다. 키는 167cm(5피트 5인치), 체중은 92kg(203lb), BMI는 33kg/m²이다. 활력징후는 정상이고 신체검사에서 이상은 없다. 무월경 외에 증상이 없는 것을 가장 잘 설명하는 것은 무엇인가?
+52세 여성이 폐경 2년 뒤 심한 안면홍조로 잠을 못 잔다. 자궁은 있고 BMI는 34 kg/m²다. 설명되지 않는 출혈·유방암·혈전 병력은 없고 전신 호르몬 치료를 선택했다. 적절한 조합은?
 
 ## 선택지
 
-A. 모유 수유
-B. 비만
-C. 흡연
-D. 다산
+A. 경피 에스트라디올과 자궁내막 보호용 프로게스토겐
+B. 경구 에스트로겐 단독
+C. 경피 에스트라디올 단독
+D. 저용량 질 에스트로겐 단독
 
 ## 해설
 
-폐경 이행기에 지방조직의 방향화효소가 안드로겐을 에스트로겐으로 전환해 말초 에스트로겐 공급을 유지하면 질 건조 등 저에스트로겐 증상이 덜 뚜렷할 수 있다. 따라서 다른 증상이 적은 이유로 비만(B)이 가장 적절하다. 이 문항은 비만이 무월경의 직접 원인임을 증명하는 것이 아니며 5개월 무월경만으로 자연 폐경이 확정된 것도 아니다.
+자궁이 있으면 전신 에스트로겐에 프로게스토겐을 병용해 내막을 보호한다. 비만처럼 정맥혈전 위험을 높이는 요인이 있다면 경구보다 경피 경로를 우선 고려한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 다산
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007265
+- https://www.e-jmm.org/DOIx.php?id=10.6118%2Fjmm.25103

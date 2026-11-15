@@ -18,9 +18,9 @@ question_type: risk_factor
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YOc7JWE7JWM7L2U7Jis7Kad7ZuE6rWwIChGZXRhbCBBbGNvaG9sIFN5bmRyb21lKS5tZA
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-6세 남아가 집중하지 못하고 학교 과제를 끝내기 어려워 소아과에 내원했다. 어머니는 집에서 대화 중 다른 사람의 말을 자주 끊고 학교에서는 말을 너무 많이 해 교사에게 자주 꾸중을 듣는다고 한다. 다른 아이들과 놀기를 거부하고 반 친구들과 신체적 다툼을 자주 한다. 위아래로 뛰기는 하지만 한 발로 뛰지는 못한다. 도움 없이 먹을 수는 있으나 식기를 사용하기 어렵고 세 단계 지시를 따르지 못한다. 가족력에 중대한 질환은 없다. 진찰에서 머리가 작고 눈 사이가 넓으며 눈꺼풀틈새가 짧다. 윗입술은 얇고 평평하며 콧등이 함몰되고 턱이 작다. 좌측 하부 흉골연에서 3/6 범수축기 잡음이 들린다. 다음 중 이 소견들의 가장 가능성 높은 원인은?
+6세 아이가 또래보다 작고 학습·주의조절에 어려움이 있다. 짧은 눈꺼풀틈새, 매끈한 인중, 얇은 윗입술이 함께 보인다. 감별 진단에 가장 도움이 될 산전 병력은?
 
 ## 선택지
 
-A. 21번 염색체 비분리
-B. 7번 염색체 장완 결실
-C. 출생 전 알코올 노출
-D. FMR1 유전자 돌연변이
+A. 태아의 산전 알코올 노출
+B. 임신 초기 엽산 보충
+C. 임신 후기 단기간의 아목시실린 사용
+D. 임신 중 B형간염 예방접종
 
 ## 해설
 
 
-태아 알코올 노출은 미세두부·안면 기형·심장 결함을 동반한다. 환아의 얼굴 특징과 심잡음은 태아 알코올 증후군에 일치한다. 따라서 C가 원인이다.
+세 가지 특징적 안면 소견에 성장과 신경발달 문제가 동반되면 태아알코올스펙트럼장애를 고려한다. 외모나 행동만으로 확진하지 않고 비난 없이 노출 병력을 확인하며 전문 평가를 한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002777
+- https://pubmed.ncbi.nlm.nih.gov/26668194/

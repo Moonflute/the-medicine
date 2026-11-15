@@ -20,7 +20,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67aA67mE64-Z7Je8IChTaW51c2l0aXMpLm1k
   - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -40,18 +40,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-59세 남성이 정원 일을 하러 밖에 나간 지 30분 만에 얼굴과 손에 통증을 동반한 화끈거리는 붉은 발진이 생겨 내원했다. 환자는 긴소매 셔츠를 입고 있었으며 약 10분 동안 직사광선에 노출되었다. 환자는 피부가 밝은 편이며 자외선 차단제를 바르지 않을 때 가끔 일광 화상을 입는 병력이 있다. 환자는 2개월 전 소세포폐암(small cell lung carcinoma)을 진단받고 현재 화학요법을 받고 있다. 현재 악성종양 관련 저나트륨혈증으로 데메클로사이클린(demeclocycline)을, 부비동염으로 아목시실린(amoxicillin)을 복용 중이다. 또한 가끔 요통이 있었다. 매일 밤 잠들기 전에 졸피뎀(zolpidem)을 복용하고 브랜디 1~2잔을 마신다. 20년 동안 매일 담배 한 갑을 피웠다. 맥박은 분당 72회, 혈압은 120/75 mmHg이다. 신체 검진상 이마, 뺨, 목에 뚜렷한 홍반이 관찰된다. 양손 등에는 홍반과 구진성 발진이 보인다. 이 환자 증상의 가장 가능성 있는 원인은 무엇인가?
+23세 여성이 여드름으로 독시사이클린을 복용하기 시작했다. 짧게 햇볕을 쬔 뒤 얼굴과 양손등이 화끈거리며 붉어졌다. 긴소매로 덮인 피부는 정상이다. 가장 가능성 높은 원인은?
 
 ## 선택지
 
-A. 유로포르피린(uroporphyrin) 축적
-B. 전신홍반루푸스(systemic lupus erythematosus)
-C. 데메클로사이클린(demeclocycline) 사용
-D. 정상적인 일광 화상 반응
+A. 약물 유발 광독성 반응
+B. 알레르기성 접촉피부염
+C. 다형홍반
+D. 만발성 피부 포르피린증
 
 ## 해설
 
-Demeclocycline은 tetracycline 계열 약물로 광독성 반응을 유발할 수 있다. 짧은 햇빛 노출 뒤 긴소매로 가려지지 않은 얼굴·목·손등에 심한 화끈거림과 홍반이 나타난 분포가 약물성 광과민(C)을 지지한다. 전신에 발진이 퍼진 것으로 서술해서는 안 된다. 포르피린증의 피부 취약성·수포와 만성 경과는 제시되지 않았다.
+일부 테트라사이클린계 약물은 햇빛에 노출된 부위에 과장된 일광화상처럼 따갑고 붉은 광독성 반응을 일으킬 수 있다. 의심 약과 햇빛 노출 경과를 확인한다.
 
 ## 검수 근거
 

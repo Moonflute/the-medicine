@@ -18,9 +18,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA
 difficulty: simple
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-36세 G4P0A3 여성이 임신 18주에 예정된 태아 기형 선별검사를 위해 산전진단센터에 내원했다. 과거력에서 자연유산이 반복되었다. 첫째, 둘째, 셋째 임신 손실은 각각 임신 8주, 10주, 12주에 발생했다. 초음파에서 낭성 림프관종(4×5cm)과 태아수종이 있는 여아 태아가 확인되었다. 다음 중 태아가 가질 가능성이 가장 높은 핵형은 무엇인가?
+임신 18주 초음파에서 태아 목 뒤에 큰 격막성 낭성 병변이 보이고 전신 수종이 동반됐다. 산전 유전상담에서 특히 고려할 성염색체 소견은?
 
 ## 선택지
 
-A. 21번 삼염색체증
-B. 18번 단염색체증
-C. 13번 삼염색체증
-D. 45,X0
+A. 47,XXY
+B. 47,XYY
+C. 45,X
+D. 47,XXX
 
 ## 해설
 
 
-태아의 낭성 림프관종·수종은 태아 부종과 연관된 45,X0(터너 증후군)에서 흔히 나타난다. 따라서 가장 가능성 높은 핵형은 45,X0이다.
+격막성 낭성수종과 태아수종이 함께 있으면 터너증후군(45,X)을 감별한다. 다른 염색체·구조 이상도 가능하므로 초음파만으로 확정하지 않고 유전상담과 진단 검사를 논의한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008470
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11759048/

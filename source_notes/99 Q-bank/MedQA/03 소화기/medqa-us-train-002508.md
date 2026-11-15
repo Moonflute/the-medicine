@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITqtqTslpEgKEdhc3RyaWMgVWxjZXIpLm1k
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsnqXqtIAg7ZiI6rSA7KeI7ZmYLm1k
-question_type: risk_factor
+question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 남성이 2개월간 식후 즉시 발생하는 상복부 통증으로 내원했다. 통증은 날카롭고 심와부에 국한되며 방사되지 않는다. 통증을 피하려고 식사 횟수를 줄여 4 kg 체중이 감소했다. 20년간 하루 담배 한 갑을 피우고 매일 맥주 3병을 마신다. 상복부에 경미한 압통이 있지만 경직이나 반발통은 없고 검사실 결과는 정상이다. 이 환자는 다음 중 어떤 상태의 위험이 가장 큰가?
+체중이 줄고 흑변이 있었던 58세 남성의 내시경에서 가장자리가 불규칙한 2 cm 위궤양이 보였다. 채취한 조직 한 조각에서는 악성이 확인되지 않았다. 치료 8주 뒤에도 궤양이 남아 있다. 다음 처치는?
 
 ## 선택지
 
-A. 악성 변환
-B. 담도 감염
-C. 위장관 출혈
-D. 간 아래 농양 형성
+A. 첫 조직 결과가 음성이므로 내시경 평가 종료
+B. 요소호기검사만 시행
+C. 궤양 가장자리와 의심 부위에서 여러 개의 표적 생검
+D. PPI만 늘리고 1년 뒤 증상 확인
 
 ## 해설
 
-식사 직후 심와부 통증으로 식사를 줄이는 양상은 위궤양을 시사하며, 소화성 궤양의 주요 합병증인 위장관 출혈 C가 선택지 중 가장 적절하다. 본문에는 NSAID 사용이 제시되지 않았다. 체중감소가 있으므로 실제로는 내시경 등으로 악성 병변도 평가해야 하며 양성 궤양의 악성 전환으로 설명하지 않는다.
+불규칙하고 치료 후에도 남는 위궤양은 위암을 다시 평가해야 한다. 첫 조직 한 조각이 음성이라는 이유로 암을 배제하지 않고, 반복 내시경에서 궤양 가장자리와 의심 부위를 충분히 생검한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 간 아래 농양 형성
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002508
+- https://doi.org/10.1136/flgastro-2025-103316

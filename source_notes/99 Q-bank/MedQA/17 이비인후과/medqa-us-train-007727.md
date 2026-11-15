@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-19세 여성이 인후통 평가를 위해 가정의학과에 내원했다. 콧물, 기침, 인후 가려움은 없다. 과거력은 없지만 8세 때 충수절제술을 받았다. 두통이 있을 때 아세트아미노펜을 복용하며 담배는 피우지 않는다. 혈압 112/68 mm Hg, 심박수 72회/분, 호흡수 10회/분, 체온 39.2°C(102.6°F)이다. 불편해 보이지만 의식은 명료하고 지남력이 있다. 촉진에서 전경부 림프절이 부어 있다. 인두와 편도에 홍반이나 삼출물은 없다. 다음 중 가장 적절한 다음 단계는?
+19세 환자가 인후통과 39.2°C 발열로 내원했다. 기침과 콧물은 없고 앞목 림프절을 누르면 아프다. 편도 삼출은 없으며 합병증의 단서도 없다. 신속 항원검사가 가능할 때 다음은?
 
 ## 선택지
 
-A. 항생제 투여
-B. 신속 연쇄상구균 검사
-C. 대증 치료
-D. 경부 초음파
+A. 인두 소견과 관계없이 항생제를 즉시 시작한다
+B. 경부 CT를 일률적으로 시행한다
+C. 인두 도말로 A군 사슬알균 신속 항원검사를 시행한다
+D. 기침이 없으므로 바이러스 감염으로 확정한다
 
 ## 해설
 
 
-인후통과 발열이 있으며 편도·인두에 발적이 없고 경부 림프절만 부은 경우, 급성 연쇄상구균 인두염을 배제하기 위해 신속 연쇄상구균 검사가 필요하다. 따라서 가장 적절한 단계는 신속 검사이다.
+국내 성인 지침에서는 변형 센터 점수가 3점 이상이면 신속 항원검사를 시행해 양성일 때 항생제를 쓴다. 발열·전경부 압통·기침 없음이 이 사례에서 각각 단서다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 경부 초음파
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007727
+- https://kdca.go.kr/bbs/kdca/55/306853/download.do

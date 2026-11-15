@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: management
 difficulty: complex
-answer: "B"
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -43,23 +43,25 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-61세 여성이 4개월 동안 지속된 피로, 5.5kg(12.1lb) 체중 증가, 간헐적 오심으로 일차진료의에게 내원했다. 식단 변화는 없었다. 27년 동안 제2형 당뇨병을 앓았고 당뇨병성 신경병증이 합병되었다. 체온 37.0°C, 혈압 167/98 mmHg, 맥박 분당 80회이다. 양쪽 하지에 함요부종이 있고 안저검사에서 양측 미세동맥류와 면화반이 보인다. 혈청 크레아티닌은 2.6 mg/dL이다. 다음 중 가장 적절한 일차 치료는?
+고혈압과 알부민뇨가 있는 제2형 당뇨병 환자가 ACE 억제제를 시작했다. 2주 뒤 크레아티닌은 1.5에서 1.7 mg/dL, K는 4.5 mmol/L이다. 탈수나 증상성 저혈압은 없고 혈압은 호전됐다. 약제를 어떻게 관리할까?
 
 ## 선택지
 
-A. 히드로클로로티아지드
-B. 페린도프릴
-C. 메토프롤롤
-D. 딜티아젬
+A. 크레아티닌이 조금 올랐으므로 즉시 영구 중단
+B. 같은 용량을 유지하며 크레아티닌과 칼륨을 추적
+C. ARB를 추가해 크레아티닌을 낮춘다
+D. 검사를 중단하고 바로 최대 용량으로 증량
 
 ## 해설
 
-당뇨병과 고혈압을 동반한 CKD에서 선택지 중 ACE억제제 perindopril이 합리적이며 특히 albuminuria가 있으면 신장 보호 근거가 강하다. 현재 자료에는 요 albumin 값이 없어 확인해야 한다. 시작 전후 칼륨·creatinine과 체액 상태를 감시하며 부종·혈압에 따라 다른 약제를 병용한다. 다른 선택지가 본질적으로 혈압을 덜 낮춘다는 의미는 아니다.
+ACE 억제제 시작 직후 크레아티닌이 소폭 오를 수 있다. 4주 이내 상승 폭이 30% 이하이고 고칼륨혈증·증상성 저혈압이 없다면 추적하며 유지할 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009966
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/
+- https://doi.org/10.1016/j.kint.2023.10.016
 
 ## 오답 포인트
 

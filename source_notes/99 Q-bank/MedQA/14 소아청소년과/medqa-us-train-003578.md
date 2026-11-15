@@ -15,11 +15,11 @@ related_diseases:
   - "hyperactivity"
   - "executive dysfunction"
   - "Attention-deficit hyperactivity disorder"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-9세 남아가 학업 성적 저하로 소아심리학자에게 의뢰되었다. 유치원과 1학년 때는 성적이 좋았지만 2~3학년 교사들은 매우 말이 많고 과제를 끝내지 못하며 부주의한 실수를 자주 한다고 보고했다. 수업 중 다른 학생이나 창밖을 자주 보고 수업 내용을 놓치며 집에서도 말이 많고 정리가 안 된다. 지능지수는 95였고 연령에 맞는 책을 유창하고 정확하게 읽었다. 가장 가능성 높은 진단은?
+9세 아이의 담임이 과제를 자주 빠뜨리고 수업 중 자주 자리에서 일어난다고 한다. 집에서도 정리나 일상 과제를 끝내지 못한다. ADHD가 의심될 때 진단에 가장 도움이 되는 첫 평가는?
 
 ## 선택지
 
-A. 주의력결핍 과잉행동장애
-B. 난독증
-C. 지속성 우울장애
-D. 지적장애
+A. 지능검사 점수만으로 ADHD 여부를 결정한다
+B. 부모와 교사 양쪽에서 증상의 기간과 기능 손상을 확인하고 다른 원인을 평가한다
+C. 뇌파에서 특징적 파형이 있는지 확인한다
+D. 자극제에 반응하는지 보고 진단한다
 
 ## 해설
 
-학교와 가정 모두에서 지속되는 부주의, 과제 미완료, 잦은 실수, 과도한 말하기와 정리의 어려움이 학업 기능을 떨어뜨리므로 주의력결핍 과잉행동장애(A)가 가장 적합하다. 여러 환경의 증상과 기능 저하를 확인하는 것이 핵심이다. IQ 95는 지적장애를 지지하지 않고, 연령에 맞는 글을 유창하고 정확하게 읽으므로 난독증을 뒷받침하지 않는다. 지속성 우울장애에 필요한 만성 우울 기분도 제시되지 않았다. 야간 발기 검사는 이 사례와 관계없다.
+ADHD는 여러 환경에서 연령에 맞지 않는 증상과 기능 손상이 있는지 평가한다. 부모·교사 정보가 필요하며 학습장애, 수면 문제 등 다른 설명도 확인한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 지적장애
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003578
+- https://doi.org/10.1542/peds.2019-2528

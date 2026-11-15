@@ -16,7 +16,7 @@ related_diseases:
   - "nutritional rehabilitation"
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
-question_type: adverse_effect
+question_type: investigation
 difficulty: simple
 answer: A
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-20세 여성이 집에서 발작하는 것을 발견한 부모에 의해 응급실로 이송되었다. 알려진 질환은 없고 목격된 발작은 이번이 처음이다. 응급실에서 안정화한 뒤 자세한 병력을 확인하니, 수년 동안 음식 섭취를 점점 제한해 왔다. 마지막으로 알려진 키와 체중을 바탕으로 계산한 체질량지수(BMI)는 16.5 kg/m²였다. 다음 중 이 환자에게 다시 음식을 먹이기 시작할 때 가장 우려되는 전해질 이상은?
+영양결핍이 심한 20세 여성이 식사를 재개한 지 이틀 뒤 근력저하와 호흡곤란이 생겼다. 혈청 칼륨과 마그네슘은 정상인데 호흡근이 약해졌다. 재급식증후군으로 의심할 때 우선 확인할 전해질은?
 
 ## 선택지
 
-A. 저인산혈증
-B. 고마그네슘혈증
-C. 저나트륨혈증
-D. 저칼륨혈증
+A. 인산염
+B. 나트륨
+C. 칼슘
+D. 염소
 
 ## 해설
 
-영양결핍 뒤 재급식으로 insulin이 증가하면 인산·칼륨·마그네슘이 세포 안으로 이동한다. 저인산혈증 A는 재급식증후군의 대표적이고 위험한 이상으로 호흡근 약화·심기능 저하 등을 유발할 수 있다. 저칼륨혈증과 저마그네슘혈증도 초기부터 함께 발생할 수 있으므로 나중에만 나타난다고 해서는 안 된다.
+재급식으로 인슐린이 증가하면 인산이 세포 내로 이동해 저인산혈증이 생길 수 있다. 심하면 호흡근 약화가 나타나므로 인산을 확인하고, 칼륨·마그네슘도 함께 추적한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 저칼륨혈증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002726
+- https://doi.org/10.1002/ncp.10474

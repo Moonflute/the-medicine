@@ -13,7 +13,7 @@ related_diseases:
   - "선천성 부신과형성증"
   - "21-수산화효소 결핍"
   - "염분 소실 위기"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKc7ISxIOu2gOyLoCDqs7ztmJXshLHspp0gKENvbmdlbml0YWwgQWRyZW5hbCBIeXBlcnBsYXNpYSkubWQ
 difficulty: complex
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 6일 된 여아가 심한 구토와 수유 불량으로 어머니와 함께 병원에 내원했다. 어머니는 산전 진찰을 받지 않았다. 체온은 36.8°C(98.2°F), 혈압은 50/30 mm Hg, 맥박은 분당 150회이다. 진찰에서 탈수되어 있고 쇼크 징후가 보인다. 외부 생식기는 모호하며 소음순이 붙어 있고 음핵이 커져 있다. 검사 결과 혈청 나트륨 125 mEq/L, 혈청 칼륨 6 mEq/L, 혈청 17-하이드록시프로게스테론 100,000 ng/dL(정상 1,000~3,000 ng/dL)이다. 다음 중 이 영아의 상태를 일으킨 가장 가능성 높은 원인은?
+생후 8일 신생아에게 구토·탈수·저혈압이 있다. 혈당 42 mg/dL, 나트륨 122 mmol/L, 칼륨 6.5 mmol/L이고 17-하이드록시프로게스테론이 현저히 높다. 염분소실형 부신과형성증이 의심된다. 초기 소생과 함께 투여할 약은?
 
 ## 선택지
 
-A. 21-수산화효소 결핍
-B. 11β-수산화효소 결핍
-C. 17α-수산화효소 결핍
-D. 태반 아로마타제 결핍
+A. 정맥 하이드로코르티손
+B. 경구 플루드로코르티손만 투여
+C. 레보티록신
+D. 덱스트로스만 투여하고 확진 때까지 스테로이드는 보류
 
 ## 해설
 
-21-수산화효소 결핍(A)은 코르티솔·알도스테론 합성을 저하시켜 염분 소실, 저나트륨혈증·고칼륨혈증·쇼크를 일으킬 수 있다. 전구물질이 안드로겐 합성으로 전환되어 안드로겐은 증가하며 46,XX 영아의 음핵 비대·음순 융합 등 남성화가 생긴다. 현저한 17-hydroxyprogesterone 상승도 이 진단에 부합한다.
+저혈압, 저혈당, 저나트륨혈증과 고칼륨혈증은 부신위기를 시사한다. 응급 하이드로코르티손, 수액과 포도당을 투여하며 고칼륨혈증도 즉시 평가·관리한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 태반 아로마타제 결핍
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006390
+- https://www.endocrine.org/clinical-practice-guidelines/congenital-adrenal-hyperplasia-guideline-resources

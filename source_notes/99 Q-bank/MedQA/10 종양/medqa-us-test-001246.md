@@ -16,9 +16,9 @@ related_diseases:
   - "Malignant mesothelioma"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-79세 여성이 2개월간 마른기침, 피로, 체중 4.5 kg 감소, 경미한 운동 시 호흡곤란으로 진료를 받으러 왔다. 심부전과 고혈압이 있고 3개월 전 인도에 다녀왔으며 50년간 섬유공장에서 일했다. 47갑년 흡연력이 있고 오른쪽 흉부 X선에서 결절성 흉막 병변과 중등도 흉수가 보였다. 흉수는 탁하고 단백질 3.8 g/dL, LDH 248 U/L였다. 가장 가능성 높은 원인은?
+과거 석면에 노출된 환자의 CT에 한쪽 흉수를 둘러싸는 결절성 흉막 비후가 있다. 첫 흉수 세포검사에서 악성세포가 확인되지 않았지만 흉막 중피종 의심이 높고 시술은 가능하다. 다음 단계는?
 
 ## 선택지
 
-A. 기관지 선암
-B. 중피종
-C. 신증후군
-D. 울혈성 심부전
+A. 흉강경 또는 영상 유도 흉막 조직검사
+B. 혈청 종양표지자만 측정해 질환을 배제한다
+C. 흉수 세포검사가 음성이면 추적을 중단한다
+D. 흉막 병변을 확인하기 위해 복부 내시경부터 시행한다
 
 ## 해설
 
 
-흉막 결절과 흉수는 중피종(B)을 시사하며 오래된 섬유산업 직업력은 석면 노출 가능성을 확인할 단서이다. 그러나 본문만으로 석면 노출을 입증하거나 선암이 흉막 전이를 하지 않는다고 단정하지 않는다. 확진에는 적절한 조직 평가가 필요하다.
+흉수 세포검사 음성만으로 흉막 중피종을 배제할 수 없다. 충분한 흉막 조직을 얻어 형태와 면역염색을 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 울혈성 심부전
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001246
+- https://thorax.bmj.com/content/78/Suppl_3/s1
+- https://pubmed.ncbi.nlm.nih.gov/39778125/

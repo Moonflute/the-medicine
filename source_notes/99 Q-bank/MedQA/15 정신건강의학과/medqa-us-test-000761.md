@@ -13,12 +13,12 @@ related_diseases:
   - "섬망"
   - "탈수"
   - "전해질 이상"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k
   - MDUg7Iug7J6lL-yghO2VtOyniCDsnbTsg4EubWQ
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,24 +37,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-77세 여성이 2일 동안 점점 심해진 혼돈과 이상행동으로 남편과 함께 응급실에 왔다. 혼잣말을 중얼거리고 동네를 배회했으며 저녁에 악화되고 밤에 거의 잠을 자지 못했다. 지난 6일 동안 먹고 마시는 양이 적었다. 히드로클로로티아지드로 고혈압을 치료 중이고 12년 전 왼쪽 유방절제술을 받았다. 사람에 대해서만 지남력이 있었고 체온 37.1°C(98.8°F), 혈압 122/80 mmHg, 맥박 78회/분, 호흡 18회/분이었다. 정신운동성 초조, 주의력과 집중력 저하, 연속 7 빼기 계산의 오류, 와해된 언어가 있었다. 모세혈당은 122 mg/dL였다. 다음 중 가장 적절한 처치는?
+77세 환자가 며칠 동안 거의 못 먹고 못 마신 뒤 갑자기 산만해졌다. 대화에 집중하지 못하고 저녁이면 혼란이 심해졌다가 낮에는 비교적 또렷하다. 혈당은 정상이고 최근 이뇨제를 복용했다. 적절한 초기 계획은?
 
 ## 선택지
 
-A. 혈청 TSH 측정
-B. 혈청 전해질 측정
-C. 두부 CT
-D. 흉부 X선
+A. 알츠하이머병으로 새로 진단하고 도네페질을 시작한다
+B. 새 환각이 있으므로 일차성 정신병부터 가정한다
+C. 섬망을 의심하고 수분·전해질 상태와 약물, 감염 등 유발 원인을 평가한다
+D. 밤에 더 불안하므로 로라제팜만 투여한다
 
 ## 해설
 
 
-노인에서 급성 혼돈은 탈수와 전해질 불균형이 흔한 원인이다. 혈청 전해질 검사는 저나트륨, 고칼륨 등 원인을 확인하는 첫 단계이다. 따라서 전해질 측정이 가장 적절한 검사이다.
+급성으로 시작한 주의력 저하와 하루 중 변동은 섬망에 합당하다. 노인 섬망에서는 탈수·전해질 이상, 약물과 감염 등 교정 가능한 원인을 먼저 찾는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000761
+- https://www.nice.org.uk/guidance/cg103/chapter/Recommendations
 
 ## 검수 근거
 

@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 question_type: management
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -41,19 +41,19 @@ related_drug_slugs:
 
 ## 문제
 
-60세 여자가 2일 동안 발열과 통증성 왼쪽 무릎 부종으로 내원했다. 류마티스관절염과 당뇨병이 있고 메토트렉세이트, 메트포르민, 아스피린, 프레드니솔론을 복용한다. 체온 38.5°C이고 왼쪽 무릎은 전반적으로 붓고 따뜻하며 능동·수동 운동 모두 아프다. 관절액은 혼탁한 화농성이며 백혈구 25,000~250,000/μL, 호중구 90% 이상이다. 다음 중 가장 적절한 초기 약물치료는?
+류마티스관절염으로 면역억제제를 복용하는 60세 환자가 열과 갑작스러운 무릎 부종으로 왔다. 관절액이 혼탁하고 호중구가 우세하다. 피로인산칼슘 결정도 보이지만 세균배양은 아직 나오지 않았다. 다음 조치는?
 
 ## 선택지
 
-A. 관절강 내 트리암시놀론 아세토나이드
-B. 정맥 내 메틸프레드니솔론
-C. 정맥 내 반코마이신
-D. 경구 시프로플록사신
+A. 결정성 관절염 치료에 반응하지 않을 때까지 감염 평가를 미룬다
+B. 가성통풍으로 보고 관절강 스테로이드를 바로 주사한다
+C. 그람염색이 음성이면 감염을 배제하고 배양은 취소한다
+D. 결정만으로 감염을 배제하지 말고 배양 채취 뒤 경험적 정맥 항생제와 배액 평가를 시작한다
 
 ## 해설
 
 
-발열·뜨겁고 아픈 관절과 화농성 호중구성 관절액은 감염성 관절염을 우선 의심한다. 배양을 신속히 채취하고 선택지 중 정주 vancomycin C로 포도상구균/MRSA를 포함해 치료하되 그람음성 위험·지역 내성에 따라 추가 범위를 고려한다. 관절 배액/세척과 전문평가도 필요하다. 결정이 보이더라도 동시 감염을 배제하지 않으며 감염 배제 전 관절강 steroid를 우선 투여하지 않는다.
+관절액에서 결정이 보여도 감염성 관절염이 함께 있을 수 있다. 발열, 면역저하, 심한 국소 염증이 있으므로 배양을 채취하고 항생제 및 배액 필요성을 평가한다.
 
 ## 검수 근거
 
@@ -66,3 +66,4 @@ D. 경구 시프로플록사신
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004995
+- https://jbji.copernicus.org/articles/8/29/2023/

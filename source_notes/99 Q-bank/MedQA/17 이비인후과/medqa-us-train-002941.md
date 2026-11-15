@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-ykkeydtOyXvCAoT3RpdGlzIG1lZGlhKS5tZA
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-33세 남성이 4개월 동안 오른쪽 귀의 청력이 감소해 내원했다. 그동안 어지럼증이 여러 차례 있었고 오른쪽 귀에 지속적인 이명이 있다. 지난 5주 동안 오른쪽 귀에서 소량의 분비물도 관찰했다. 어린 시절부터 여러 차례 귀 감염으로 항생제 치료를 받았다. 이경검사에서 오른쪽 고막 뒤에 진주빛 흰색 종괴가 보인다. 512 Hz 소리굽쇠를 이마 중앙에 대면 오른쪽 귀로 편위된다. 다음 중 증상에 대한 가장 적절한 치료는?
+33세 환자에게 한쪽 만성 이루와 전음성 난청이 있다. 이비인후과에서 중이 진주종과 이소골 침식을 확인했다. 병변의 진행과 합병증을 막기 위한 치료는?
 
 ## 선택지
 
-A. 국소 시프로플록사신
-B. 전신 코르티코스테로이드
-C. 보청기 맞춤
-D. 수술적 절제
+A. 이비인후과에서 진주종 제거 수술을 계획한다
+B. 점이 항균제만 계속 써 병변을 없앤다
+C. 경구 스테로이드만 장기 투여한다
+D. 병변 치료 없이 보청기만 맞춘다
 
 ## 해설
 
 
-고막 뒤에 보이는 진주빛 흰 종괴는 콜레스테아톰을 시사하며, 이는 외과적 절제가 필요하다. 보존적 치료나 약물은 종괴를 제거하지 못한다. 따라서 수술적 절제가 가장 적절한 치료이다.
+진주종은 점이제로 없앨 수 있는 병변이 아니다. 진주종 제거와 중이 구조 평가가 필요하며 청력 재건 여부는 침범 범위에 맞춘다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002941
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11913933/

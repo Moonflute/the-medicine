@@ -15,7 +15,7 @@ related_diseases:
   - "mortality risk"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
-question_type: prognosis
+question_type: complication
 difficulty: simple
 answer: A
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-59세 남자가 전반적인 복통, 오심, 구토로 응급실에 왔다. 입원 시 혈당 2,410 mg/dL, AST 321 IU/L, 백혈구 21,200/mL였다. 중환자실에서 지지요법을 받은 지 3일 이내에 임상 상태가 호전되기 시작했다. 다른 관련 요인은 모두 음성이라고 할 때, Ranson 기준에 따른 이 환자의 전체 사망 위험은?
+급성 췌장염으로 입원한 환자들에게 다음 경과가 관찰됐다. 개정 애틀랜타 분류에서 중증 급성 췌장염에 해당하는 것은?
 
 ## 선택지
 
-A. 15%
-B. 40%
-C. 80%
-D. 100%
+A. 저산소성 호흡부전이 72시간 지속됨
+B. 저혈압이 수액으로 회복되어 24시간 내 장기부전이 사라짐
+C. 장기부전 없이 췌장 주변 액체 저류가 생김
+D. 장기부전 없이 리파아제가 정상 상한의 20배로 상승함
 
 ## 해설
 
 
-입원 시 확인 가능한 Ranson 항목은 나이 >55세, glucose >200mg/dL, AST >250의 3가지다. 백혈구 21,200을 통상 /µL 값으로 의도했다면 1점이 더해져 4점이지만 원문의 /mL 단위는 확인이 필요하다. 다른 항목은 모두 음성이라고 했으므로 LDH나 48시간 칼슘·산소·BUN 등을 임의 가산하지 않는다. 역사적인 Ranson 3–4점 범주의 사망률 약15%(A)를 묻는 문항이며 현 환자의 확정 예후로 해석하지 않는다.
+중증은 호흡·순환·신장 중 한 가지 이상의 장기부전이 48시간을 넘어 지속될 때다. 48시간 이내 회복되는 장기부전이나 장기부전 없는 국소 합병증은 중등증에 해당할 수 있다. 효소 상승폭만으로 중증도를 정하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 100%
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007770
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9840919/

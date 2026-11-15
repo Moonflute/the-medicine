@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,7 +39,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-62세 남성이 걷거나 오르막을 오를 때 양쪽 종아리에 생기는 1년간의 경련성 통증으로 내원했다. 흡연력과 고혈압이 있고, 양쪽 대퇴맥박은 만져지지만 발등맥박은 소실되었다. 발목상완지수는 0.6이었다. 다음 중 가장 적절한 다음 처치는?
+62세 남성이 걷거나 오르막을 오를 때 양쪽 종아리에 생기는 1년간의 경련성 통증으로 내원했다. 흡연력과 고혈압이 있고, 양쪽 대퇴맥박은 만져지지만 발등맥박은 소실되었다. 발목상완지수는 0.6이었다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

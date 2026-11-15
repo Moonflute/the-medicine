@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: investigation
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-67세 남성이 의식 변화로 응급실에 왔다. 평소에는 말을 하지 않지만 요양원 직원들이 최근 특히 졸려한다고 했다. 과거력으로 당뇨병과 알츠하이머 치매가 있다. 체온은 99.7°F (37.6°C), 혈압은 157/98 mmHg, 맥박은 분당 150회, 호흡수는 분당 16회, 실내 공기 산소포화도는 98%이다. 검사 결과 헤모글로빈 9 g/dL, 헤마토크릿 33%, 백혈구 8,500/mm3 (감별계산 정상), 혈소판 197,000/mm3, 나트륨 139 mEq/L, 염소 102 mEq/L, 칼륨 4.3 mEq/L, 중탄산염 25 mEq/L, BUN 37 mg/dL, 포도당 99 mg/dL, 크레아티닌 2.4 mg/dL, 칼슘 12.2 mg/dL이다. 지난 한 달 동안 체중이 20파운드 감소했고 부갑상샘호르몬은 정상이며 소변 칼슘은 증가했다. 신체검사에서 허리와 사지를 만질 때 불편해한다. 이 환자 기저 질환의 가장 정확한 진단검사는 무엇인가?
+70세 환자에게 전기영동으로 단클론 단백이 확인됐다. 골통과 빈혈이 있고 저선량 전신 CT에서 용해성 병변이 보인다. 다발골수종을 확진하기 위해 필요한 다음 검사는?
 
 ## 선택지
 
-A. 골수 생검
-B. 요추 방사선촬영
-C. 소변, 혈액과 뇌척수액 배양
-D. 소변 단백 수치
+A. 혈청 단백 전기영동만 다시 시행
+B. 뼈스캔 한 번으로 형질세포 확인
+C. 소변 시험지 단백 검사로 형질세포 확인
+D. 골수 흡인·생검으로 클론성 형질세포 평가
 
 ## 해설
 
 
-빈혈·신손상·골통과 고칼슘혈증은 MM을 의심하게 하며 선택지 중 골수검사 A로 클론성 형질세포를 확인하는 것이 가장 확진에 가깝다. 실제 진단은 단클론단백/유리경쇄·영상 및 골수 소견을 통합한다. 한편 고칼슘혈증에서는 PTH가 억제되어야 하므로 원문의 정상범위 PTH를 곧 비PTH성 확진이라고 해석하면 안 되며 정확한 수치·동반 원인도 재평가한다.
+골수에서 클론성 형질세포를 확인하고 골수종 정의 사건과 함께 해석한다. 단클론 단백만으로 활동성 다발골수종을 확정할 수 없다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 소변 단백 수치
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004773
+- https://www.myeloma.org/international-myeloma-working-group-imwg-criteria-diagnosis-multiple-myeloma

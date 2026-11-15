@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDslYjsoJXsoJwgKE1vb2QgU3RhYmlsaXplcnMpLm1k
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,7 +39,7 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 양극성장애 여성이 임신했다고 생각해 산부인과에 내원했다. 소변 임신검사는 양성이며 경한 양극성장애로 리튬을 간헐적으로 2년간 복용했지만 재발 증상은 없었다. 수개월 동안 정신과 의사를 만나지 못했다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+32세 양극성장애 여성이 임신했다고 생각해 산부인과에 내원했다. 소변 임신검사는 양성이며 경한 양극성장애로 리튬을 간헐적으로 2년간 복용했지만 재발 증상은 없었다. 수개월 동안 정신과 의사를 만나지 못했다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

@@ -20,7 +20,7 @@ question_type: adverse_effect
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-니카라과 봉사활동 후 3주 동안 지속되는 기침과 간헐적 객혈이 있는 25세 의대생이 내원했다. 투베르쿨린 피부반응검사와 흉부 X선에서 폐문 림프절병증이 보여 활동성 결핵으로 진단하고 치료를 시작했다. 처방된 약물 중 병원체 세포벽의 탄수화물 중합을 억제하는 약물로 인해 나타날 수 있는 증상은?
+폐결핵으로 에탐부톨을 포함한 치료를 시작한 지 2개월 된 환자가 글자 중앙이 흐리고 빨강과 초록을 구별하기 어렵다고 한다. 가장 적절한 조치는?
 
 ## 선택지
 
-A. 관절통
-B. 다리 무감각
-C. 주황색 소변
-D. 시야 변화
+A. 에탐부톨을 유지하고 피리독신만 추가한다
+B. 에탐부톨을 유지하고 다음 달에 색각을 다시 확인한다
+C. 에탐부톨을 유지하고 이소니아지드만 중단한다
+D. 에탐부톨을 중단하고 신속히 안과 평가를 받게 한다
 
 ## 해설
 
 
-에탐부톨은 결핵균 세포벽의 탄수화물 합성을 억제하며, 시신경염을 일으켜 시야 결손을 초래할 수 있다. 따라서 시야 변화가 해당 약물의 부작용이다.
+시력 및 색각 변화는 에탐부톨 시신경병증을 의심할 소견이다. 회복 가능성을 높이려면 조기에 중단하고 신속히 평가하며, 나머지 결핵치료 조정은 진료팀과 상의한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 시야 변화
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005285
+- https://www.kdca.go.kr/kdca/2861/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjU1JTJGMjI4MTc4JTJGYXJ0Y2xWaWV3LmRvJTNG

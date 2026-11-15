@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDsnKDrkZDslZQgKFRoeXJvaWQgUGFwaWxsYXJ5IENhcmNpbm9tYSkubWQ
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-36세 여성이 3개월 동안 점점 커지는 목의 통증 없는 덩이로 병원에 왔다. 건강해 보였다. 진찰에서 왼쪽 목에 2.5 cm(1인치) 크기의 단단하고 불규칙한 종창이 있었으며 삼킬 때 움직였다. 통증 없는 경부 림프절병증도 있었다. 목 초음파에서 혈류가 증가하고 고에코성 점상 부위가 있는 왼쪽 갑상샘 엽의 단일 종괴가 보였다. 다음 주 미세침흡인 생검을 예약했다. 다음 중 가장 가능성 높은 진단은?
+36세 여성의 초음파에서 2.5 cm 갑상선 고형 저에코 결절에 불규칙한 경계와 점상 고에코가 보인다. 경부에 낭성 변화를 보이는 림프절도 있고 TSH는 정상이다. 다음 진단 단계는?
 
 ## 선택지
 
-A. 갑상샘 여포암
-B. 갑상샘 휘르틀세포암
-C. 갑상샘 유두암
-D. 갑상샘 역형성암
+A. 갑상선 섭취 스캔만 시행
+B. 6개월 뒤 초음파만 반복
+C. 결절과 의심 경부 림프절을 초음파 유도 세침흡인으로 평가
+D. 혈청 갑상선글로불린만 측정
 
 ## 해설
 
 
-갑상선 초음파에서 고에코성 점상 부위와 혈류 증가가 보이는 단일 결절은 갑상선 유두암의 전형적인 영상소견이다. 따라서 정답은 갑상선 유두암이다.
+고위험 초음파 소견이 있는 결절은 병리 평가가 필요하다. 의심 림프절을 함께 평가하면 수술 범위 결정에도 도움이 된다. 초음파만으로 유두암이나 림프절 전이를 확정하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 갑상샘 역형성암
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000364
+- https://doi.org/10.3348/kjr.2021.0713

@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-2VreydtOuHqO2YuOultOuqrCDrtoDsoIHsoIgg67aE67mEIOymne2bhOq1sCAoU0lBREgpIChTeW5kcm9tZSBvZiBJbmFwcHJvcHJpYXRlIEFudGlkaXVyZXRpYyBIb3Jtb25lIFNlY3JldGlvbiAoU0lBREgpKS5tZA
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-71세 남성이 전신 강직-간대 발작(generalized tonic-clonic seizure)을 겪은 후 응급실에 내원했다. 아들의 말에 따르면 환자는 발작 병력은 없으나 지난 몇 주간 혼란과 쇠약감이 점차 심해졌다고 한다. 전해질 검사 결과 나트륨 수치는 120 mEq/L, 혈청 삼투압은 248 mOsm/kg으로 나타났다. 소변 검사에서 높은 소변 삼투압이 확인되었다. 체온은 37°C, 호흡수는 분당 15회, 맥박은 분당 67회, 혈압은 122/88 mm Hg이다. 진찰 결과 환자는 지남력이 없고, 동공은 원형이며 빛과 조절에 반응하고 점막은 촉촉하다. 심장 박동은 규칙적이고 잡음은 없으며, 폐는 양측 청진 시 깨끗하고, 복부는 부드러우며, 사지에 부종은 없으나 근력은 양측 모두 3/5이다. 사지 모두에서 반사 저하(hyporeflexia)가 관찰된다. 환자 증상의 가장 가능성 있는 원인은 무엇인가?
+71세 남성이 전신 발작 후 응급실에 왔다. 기도와 호흡은 확보했다. 혈청 Na 114 mmol/L, 혈청 삼투질농도 242 mOsm/kg, 혈당은 정상이다. 저나트륨혈증에 대한 즉각적 치료는?
 
 ## 선택지
 
-A. 항이뇨호르몬 부적절 분비 증후군(SIADH)
-B. 시한 증후군(Sheehan’s syndrome)
-C. 리튬(Lithium) 사용
-D. 당뇨병성 케톤산증(Diabetic ketoacidosis)
+A. 3% 고장성 식염수의 정맥 일시 주입
+B. 수분 제한 단독
+C. 경구 톨밥탄
+D. 5% 포도당 수액
 
 ## 해설
 
 
-저나트륨 혈증, 저삼투압 혈청, 고농도 소변 삼투압은 부적절 항이뇨호르몬 분비(SIADH)를 나타낸다. SIADH는 저나트륨성 혼수와 경련을 유발할 수 있다. 따라서 정답은 SIADH이다.
+발작은 중증 증상성 저장성 저나트륨혈증의 신호다. 3% 고장성 식염수를 신속히 투여하고 증상과 나트륨을 자주 확인해 과교정을 막는다. 원인 평가를 위해 응급 치료를 늦추지 않는다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 당뇨병성 케톤산증(Diabetic ketoacidosis)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000353
+- https://www.kjim.org/journal/view.php?number=170730

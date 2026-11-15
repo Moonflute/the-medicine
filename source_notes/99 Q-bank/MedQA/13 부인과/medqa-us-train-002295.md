@@ -19,6 +19,7 @@ question_type: prevention
 related_disease_slugs: []
 difficulty: standard
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -33,7 +34,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-17세 여아가 정기 건강검진을 위해 내원했다. 건강하고 중대한 질환 병력은 없으며 유일한 약물은 경구 피임약이다. 어머니는 42세에 유방암 진단을 받았다. 현재 남성 파트너 한 명과 성생활을 하며 콘돔은 일관되게 사용하지 않는다. 예방접종은 최신 상태이고 신체 및 골반검사는 정상이다. HIV 검사는 음성이다. 다음 중 가장 적절한 치료의 다음 단계는?
+17세 여아가 정기 건강검진을 위해 내원했다. 건강하고 중대한 질환 병력은 없으며 유일한 약물은 경구 피임약이다. 어머니는 42세에 유방암 진단을 받았다. 현재 남성 파트너 한 명과 성생활을 하며 콘돔은 일관되게 사용하지 않는다. 예방접종은 최신 상태이고 신체 및 골반검사는 정상이다. HIV 검사는 음성이다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

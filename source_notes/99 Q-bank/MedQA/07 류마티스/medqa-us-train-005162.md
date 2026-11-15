@@ -16,11 +16,11 @@ related_diseases:
   - "polymyositis"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
-question_type: investigation
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-32세 여자가 6주 동안 어깨와 다리 근력저하로 내원했다. 계단 오르기와 머리 빗기가 어렵고 최근 음식 삼키기도 힘들다. 휴식해도 호전되지 않으며 양측 장요근, 햄스트링, 삼각근, 이두근이 약하다. CK 7,047 U/L, LDH 2,785 U/L이다. 다음 중 가장 적절한 다음 단계는?
+32세 여성이 계단을 오르거나 머리를 빗기 어려울 정도의 대칭성 근위부 근력저하와 CK 7,000 U/L로 평가받는다. 최근 물을 마실 때 사레가 잦고 목소리가 젖은 듯 변한다. 근육병 원인 검사와 함께 우선 할 조치는?
 
 ## 선택지
 
-A. 요추천자
-B. 근전도검사
-C. 텐실론 검사
-D. 측두동맥 생검
+A. CK가 정상화될 때까지 삼킴 평가를 미룬다
+B. 삼킴 기능과 흡인 위험을 신속히 평가한다
+C. 음식 질감과 무관하게 고형식만 권한다
+D. 목소리 변화가 일시적이므로 진통제만 투여한다
 
 ## 해설
 
 
-급성 근육 효소 상승과 전신 근력 저하는 다발성 근염을 의심하게 하며, 전기생리학적 특성을 확인하기 위해 근전도(EMG) 검사가 필요하다. EMG는 근섬유 손상 패턴을 보여준다. 따라서 근전도 검사가 다음 단계이다.
+염증성 근병증의 연하곤란은 흡인 위험을 높인다. 병형을 확인하는 검사와 별개로 삼킴 안전성을 평가하고 영양·흡인 예방을 계획한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 측두동맥 생검
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005162
+- https://doi.org/10.1093/rheumatology/keac115

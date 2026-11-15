@@ -19,7 +19,7 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-57세 여성이 24시간 동안 지속된 왼쪽 아랫배 통증, 메스꺼움, 구토로 응급실에 왔다. 복부 CT에서 장벽 비후와 줄무늬 모양 장간막 지방이 보인다. 이 환자의 주된 질환은?
+57세 여성이 왼쪽 아랫배 통증과 미열로 왔다. 조영증강 CT에서 구불결장의 게실을 중심으로 장벽이 두꺼워지고 주변 지방에 염증이 보이지만 농양, 복강 내 자유공기나 장폐색은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 충수 내강 폐쇄
-B. 신장 실질, 신배, 신우의 염증
-C. 결장 근육층을 통한 점막과 점막하층의 탈출
-D. 상부 생식기의 염증
+A. 급성 충수염
+B. 급성 신우신염
+C. 합병증 없는 급성 대장 게실염
+D. 대장 게실 출혈
 
 ## 해설
 
 
-CT에서 장벽 비후와 줄무늬 모양 장간막 지방은 장벽을 통과한 점막과 점막하층이 장 근육층을 통해 탈출한 장 게실염을 시사한다. 따라서 주된 질환은 장 게실 탈출이다.
+게실을 중심으로 한 장벽 비후와 주변 지방 침윤은 급성 대장 게실염을 지지한다. 농양·천공·폐색이 확인되지 않으면 비복잡성으로 분류한다. 통증 없이 다량 혈변이 나는 게실 출혈과는 다르다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ CT에서 장벽 비후와 줄무늬 모양 장간막 지방은 장벽을 통과�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000526
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13434530/

@@ -14,7 +14,7 @@ related_diseases:
   - "status epilepticus"
   - "postictal neurologic deficit"
   - "hemiparesis"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64eM7KCE7KadIOyngOyGjeymnSAoU3RhdHVzIEVwaWxlcHRpY3VzKS5tZA
 difficulty: complex
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-간질 병력이 있는 45세 남성이 2주간 지속된 오른쪽 몸의 움직임 장애로 내원했다. 3주 전 전신 경련발작으로 입원해 정맥 로라제팜과 페니토인을 투여받았고, 발작은 약 50분 후 멈췄다. 최근 진찰에서 오른쪽 편마비, 오른쪽 동측성 반맹, 수용성 실어증이 있었다. 다음 중 현재 증상의 가장 가능성 높은 원인은?
+45세 환자가 전신 경련을 계속한다. 기도·혈당을 평가했고 적절한 용량의 정맥 벤조디아제핀을 두 차례 투여했지만 경련이 멈추지 않았다. 다음 약물 단계는?
 
 ## 선택지
 
-A. 뇌농양
-B. 피질 층판 괴사
-C. 뇌실내 출혈
-D. 두개내 동맥류 파열
+A. 라모트리진을 경구로 천천히 증량한다
+B. 레베티라세탐 같은 2차 항발작약을 정맥으로 부하한다
+C. 기도 감시만 하며 30분 더 기다린다
+D. 경련이 지속되는 동안 정규용량 경구 약만 투여한다
 
 ## 해설
 
-50분간 지속된 발작 후 지속적인 편마비·동측성 반맹·수용성 실어증은 좌측 대뇌피질의 구조적 손상 가능성을 시사한다. 장시간 발작은 대사 요구량 증가, 에너지 불균형 및 흥분독성 손상을 통해 피질 층판 괴사(B)를 일으킬 수 있다. 이는 외부 전류에 의한 전기적 손상을 뜻하지 않는다. 2주간 지속되는 결손을 일시적 발작후 마비만으로 설명하지 않으며 실제로는 영상 등으로 다른 뇌혈관·구조적 원인도 평가한다.
+경련성 뇌전증지속상태가 초기 벤조디아제핀에 반응하지 않으면 정맥 2차 약물을 투여한다. 레베티라세탐, 포스페니토인 또는 발프로산 중 금기와 환자 상태를 고려한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 두개내 동맥류 파열
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003501
+- https://pubmed.ncbi.nlm.nih.gov/26900382/
+- https://www.nice.org.uk/guidance/ng217/chapter/treating-status-epilepticus-repeated-or-cluster-seizures-and-prolonged-seizures

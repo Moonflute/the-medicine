@@ -15,9 +15,9 @@ related_diseases:
   - "HCV RNA"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQ-2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEMgKEhDVikpLm1k
-question_type: 임상증례 객관식
+question_type: management
 difficulty: simple
-answer: "D"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -43,18 +43,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-정맥 약물 사용력이 있는 42세 남자가 3주간 지속된 피로와 권태감으로 응급실에 왔다. 무기력하고 공막에 황달이 있으며 간비대가 있다. AST 600, ALT 750으로 상승했고 HCV RNA 양성이다. 알부민 3.8 g/dL, PT 12초이며 간 생검에서 심한 염증과 가교성 섬유화가 보인다. 현재 가장 적절한 치료는 무엇인가?
+HCV RNA 양성인 환자에게 복수와 간성뇌증 병력이 있고, 현재 Child-Pugh B 간경변으로 평가됐다. C형간염 치료를 계획할 때 피해야 하는 조합은?
 
 ## 선택지
 
-A. 인터페론
-B. 리바비린
-C. 라미부딘
-D. 간기능·병용약·이전 치료력을 평가한 뒤 적합한 경구 DAA 병합요법
+A. 글레카프레비르/피브렌타스비르
+B. 소포스부비르/벨파타스비르
+C. 소포스부비르/벨파타스비르에 리바비린 추가
+D. 소포스부비르/레디파스비르에 리바비린 추가
 
 ## 해설
 
-HCV RNA 양성과 가교성 섬유화가 있어 치료 평가가 필요하다. 현행 치료는 경구 직접작용항바이러스제(DAA) 병합요법을 중심으로 하며, 간경변·간기능, 이전 치료력, 약물 상호작용 및 HBV 동시감염을 평가해 적합한 요법을 선택한다. 과거 interferon-ribavirin 병합을 표준 첫 치료로 제시하지 않는다. Lamivudine은 HCV 치료제가 아니다.
+비대상성 간경변에서는 글레카프레비르 등 NS3/4A 단백분해효소 억제제가 들어간 요법을 피한다. 가능한 치료 조합과 기간은 이전 치료력과 리바비린 사용 가능 여부를 확인해 결정한다.
 
 ## 검수 근거
 
@@ -67,6 +67,7 @@ HCV RNA 양성과 가교성 섬유화가 있어 치료 평가가 필요하다. �
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004309
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12835810/
 
 ## 오답 포인트
 

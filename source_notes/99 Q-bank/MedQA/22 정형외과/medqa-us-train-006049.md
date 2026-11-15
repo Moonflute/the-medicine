@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-2ajOyghOq3vOqwnO2MjOyXtCAoUm90YXRvciBDdWZmIFRlYXIpLm1k
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ related_drug_slugs:
 
 ## 문제
 
-27세 남성이 2주 동안 간헐적인 우측 어깨 통증으로 내원했다. 밤에 통증 때문에 깨고 우측 어깨를 대고 누우면 악화된다. 우측 팔의 감각이상이나 저림은 없다. 화가로서 통증 때문에 일을 제대로 하지 못한다. 어깨 위로 팔을 벌리면 통증이 있고 팔꿈치를 굽힌 채 우측 어깨를 안쪽으로 돌리면 심한 통증이 난다. 안쪽으로 돌린 채 뻗은 팔을 들어 올리면 어깨 앞가쪽에 통증이 있다. 어깨 X선은 정상이다. 우측 견봉하 공간에 1% 리도카인 5mL를 주사하자 통증이 완화되고 운동범위가 증가했다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+도장 작업을 하는 27세 남성이 팔을 머리 위로 올릴 때 어깨 바깥이 아프다. 큰 외상은 없고 수동 범위와 근력은 정상이다. 회전근개 건병증의 초기 치료는?
 
 ## 선택지
 
-A. 어깨 MRI
-B. 관절 내 글루코코르티코이드
-C. 물리치료
-D. 흉곽출구 감압술
+A. 즉시 견봉성형술을 한다
+B. 유발 동작의 부하를 조절하고 단계적 재활 운동을 시작한다
+C. 장기간 팔을 고정한다
+D. 수술 전까지 활동을 전면 금지한다
 
 ## 해설
 
 
-견봉하 충돌증후군은 회전근개 건염으로 인해 통증이 주로 팔을 들어올릴 때 악화된다. 물리치료는 근육 강화와 스트레칭으로 증상을 완화시키는 1차 치료이다.
+외상이나 뚜렷한 약화가 없는 힘줄 관련 어깨통증은 부하 조절과 점진적 운동이 첫 단계다. 기능이 돌아오는지 추적하고 약화나 악화가 있으면 재평가한다.
 
 ## 출처
 

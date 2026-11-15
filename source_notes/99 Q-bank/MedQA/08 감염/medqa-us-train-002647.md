@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-35세 남성이 1주간 지속된 피부와 눈의 황달, 식욕부진, 오심, 권태감, 심한 피로로 내원했다. 두통 때문에 일반의약품 아세트아미노펜을 복용한다. 새 파트너와 성관계를 시작한 지 한 달 되었고 콘돔을 일관되게 사용하지 않으며, 중국에 거주하는 부모를 지난해 방문했다. 피부와 공막이 황달이고 오른쪽 상복부 압통과 간비대가 있다. 총 빌리루빈 3.4 mg/dL(직접 2.5), AST 2,100 U/L, ALT 2,435 U/L, ALP 130 U/L이다. 다음 중 가장 적절한 치료의 다음 단계는?
+35세 남성이 1주간 지속된 피부와 눈의 황달, 식욕부진, 오심, 권태감, 심한 피로로 내원했다. 두통 때문에 일반의약품 아세트아미노펜을 복용한다. 새 파트너와 성관계를 시작한 지 한 달 되었고 콘돔을 일관되게 사용하지 않으며, 중국에 거주하는 부모를 지난해 방문했다. 피부와 공막이 황달이고 오른쪽 상복부 압통과 간비대가 있다. 총 빌리루빈 3.4 mg/dL(직접 2.5), AST 2,100 U/L, ALT 2,435 U/L, ALP 130 U/L이다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

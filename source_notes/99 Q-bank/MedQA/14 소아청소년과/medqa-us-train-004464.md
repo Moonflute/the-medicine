@@ -13,11 +13,11 @@ related_diseases:
   - "장중첩증"
   - "소아 급성 복통"
   - "혈성 점액변"
-question_type: management
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J6l7KSR7LKp7KadIChJbnR1c3N1c2NlcHRpb24pLm1k
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-2세 여아가 지난 2일 동안 간헐적으로 발생하는 심한 복통과 구토로 소아과에 왔다. 지난주 가족 전체가 며칠 동안 가벼운 발열, 식욕부진과 설사를 동반한 장염을 앓았지만 모두 완전히 회복했다. 현재 통증은 감염 당시와 다르다. 통증이 시작되면 아이는 울면서 다리를 공중으로 차올리거나 가슴 쪽으로 끌어당긴다. 부모는 점액성 변과 간헐적으로 선홍색 피와 점액이 섞인 변도 관찰했다. 잠시 후 통증이 가라앉으면 평소 활동으로 돌아온다. 다음 중 이 환자 관리에서 가장 적절한 단계는 무엇인가?
+18개월 아이가 갑자기 다리를 배 쪽으로 끌어당기며 심하게 울다가 잠잠해지기를 반복한다. 두 번 토했고, 통증 사이에는 비교적 편안하다. 활력징후는 안정적이고 복막 자극 소견은 없다. 가장 적절한 첫 영상검사는?
 
 ## 선택지
 
-A. 공기 관장
-B. 복부 CT
-C. 복부 방사선촬영
-D. 24시간 관찰
+A. 단순 복부 X선
+B. 복부 초음파
+C. 조영증강 복부 CT
+D. 상부위장관 조영검사
 
 ## 해설
 
-장중첩증을 의심하며 초음파가 권장되는 초기 확인 검사이다. 제시된 보기에서는 천공·복막염 등의 금기가 없는 경우 공기관장(A)이 진단과 비수술적 정복에 이용될 수 있다. 초음파가 보기에서 빠져 있다는 이유로 공기관장이 항상 가장 민감한 초기 검사라는 뜻은 아니다.
+발작처럼 반복되는 통증과 구토는 장중첩증을 시사한다. 복부 초음파가 일차 검사이며 혈성 점액변이 나올 때까지 기다리지 않는다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 24시간 관찰
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004464
+- https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/

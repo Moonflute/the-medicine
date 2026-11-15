@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2gSDtg4jstpwgKFV0ZXJpbmUgUHJvbGFwc2UpLm1k
   - MjAg67mE64eo6riw6rO8L-yalOuhnCDtj5Dsg4kgKFVyaW5hcnkgdHJhY3Qgb2JzdHJ1Y3Rpb24pLm1k
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-66세 여성(G3P3)이 8년 동안의 요통, 회음부 불편감, 배뇨곤란, 반복되는 권태감과 미열로 내원했다. 지난 5–6년 동안 증상이 반복되었고 때로 질 안에 이물감이 있다고 한다. 처음 증상이 생겼을 때 의사가 검사 후 약을 처방하고 질 페사리를 권했으나 따르지 않았다. 질식분만 3회를 했고 51세부터 폐경이었다. 제2형 당뇨병은 식이와 메트포르민으로 조절 중이다. 혈압은 110/60 mm Hg, 심박수는 91회/분, 호흡수는 13회/분, 체온은 37.4℃ (99.3℉)이다. 양측 늑골척추각 압통이 있고 방광은 만져지지 않는다. 부인과검사에서 자궁경부가 질 입구 높이까지 내려와 있고 발살바법에서 자궁 완전탈출이 유발된다. 영상검사에서 가장 가능성 높은 병리는 무엇인가?
+66세 여성에게 질 입구 밖까지 내려오는 심한 자궁탈출이 있다. 배뇨가 어렵고 크레아티닌이 평소보다 상승했으며 양쪽 옆구리가 불편하다. 탈출에 의한 상부 요로 폐쇄를 확인할 검사는?
 
 ## 선택지
 
-A. 신장 종양
-B. 수신증
-C. 방광 폴립
-D. 신장 낭종
+A. 방광 세포검사만 시행
+B. 질 분비물 배양
+C. 신장 초음파로 수신증 확인
+D. 골반저 근전도검사
 
 ## 해설
 
-심한 자궁탈출은 요관을 당기거나 꺾어 소변 유출을 방해할 수 있고 양측 수신증(B)을 유발할 수 있다. 수신증은 신우·신배 확장이며 요관확장(hydroureter)과 같은 말은 아니다. 배뇨곤란·반복 감염 맥락에서 폐쇄와 신기능을 평가한다.
+심한 골반장기탈출은 요관을 꺾거나 압박해 수신증과 신기능저하를 일으킬 수 있다. 이런 징후가 있으면 잔뇨와 신기능을 확인하고 상부 요로 영상검사를 시행한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 신장 낭종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001570
+- https://pubmed.ncbi.nlm.nih.gov/26194290/

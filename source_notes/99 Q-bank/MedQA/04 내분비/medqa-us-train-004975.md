@@ -16,7 +16,7 @@ related_diseases:
   - "nonclassic congenital adrenal hyperplasia"
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKc7ISxIOu2gOyLoCDqs7ztmJXshLHspp0gKENvbmdlbml0YWwgQWRyZW5hbCBIeXBlcnBsYXNpYSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-17세 여자가 건강검진을 받으러 왔다. 학업과 운동을 잘하고 과거 소아 비만은 식이와 운동으로 치료되었다. 월경은 1~3개월마다 불규칙하게 발생한다. 얼굴, 어깨, 가슴에 여드름이 있고 윗입술과 가슴에 굵고 검은 털이 있다. 혈청 테스토스테론은 82 ng/dL, 17-하이드록시프로게스테론은 상승되어 있다. 다음 중 가장 가능성 높은 진단과 관련된 소견은?
+17세 여성이 월경 간격이 길고 여드름과 굵은 털이 늘었다. 임신검사는 음성이고, 아침 난포기에 측정한 기본 17-하이드록시프로게스테론이 경계 수준으로 높다. 비고전적 선천성 부신과형성을 확인할 다음 검사는?
 
 ## 선택지
 
-A. 11-수산화효소 결핍
-B. 17-수산화효소 결핍
-C. 21-수산화효소 결핍
-D. 악성 종양
+A. 저용량 덱사메타손 억제검사
+B. 수분제한 검사
+C. 코신트로핀 자극 뒤 부신 스테로이드 측정
+D. 24시간 소변 유리 코르티솔
 
 ## 해설
 
-희발월경·여드름·다모증과 상승한 testosterone 및 17-hydroxyprogesterone은 비고전형 21-hydroxylase 결핍 C를 시사한다. Cortisol 합성 경로 장애로 androgen 쪽 합성이 증가해 남성화/고androgen 증상이 나타나는 것이지 testosterone 저하나 여성화가 원인이 아니다.
+다모증과 희발월경만으로 다낭난소증후군과 비고전적 21-수산화효소 결핍을 구별할 수 없다. 기저 17-하이드록시프로게스테론이 경계에 있으면 코신트로핀 자극 뒤 스테로이드 반응을 확인한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 악성 종양
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004975
+- https://doi.org/10.1210/jc.2018-01865

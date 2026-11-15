@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 21세 남성이 30분 전 축구를 하던 중 갑자기 발생한 의식 소실을 평가받기 위해 응급실에 왔다. 경련은 없었고 약 30초 후 의식을 회복했다. 지난 3개월 동안 운동할 때 간헐적인 호흡곤란과 심장이 빠르게 뛰는 느낌이 여러 차례 있었다. 흡연과 음주는 하지 않으며 복용하는 약도 없다. 활력징후는 정상 범위이다. 정신상태검사에서 사람, 장소와 시간에 대한 지남력은 정상이다. 심장 진찰에서 발살바 수기와 기립 시 심해지는 수축기 박출 잡음과 제4심음이 들린다. 그 외 신체검사에서 이상은 없다. 심전도에서 V1 유도의 깊은 S파와 V5 및 V6 유도의 높은 R파가 보인다. 심초음파에서 다음 중 어떤 소견이 가장 잘 나타나는가?
+21세 남성이 축구 중 실신했다. 좌측 흉골연에 수축기 박출 잡음이 들리고, 서거나 발살바 수기를 하면 잡음이 더 커진다. 동적 좌심실 유출로 폐쇄가 의심된다. 심초음파에서 예상되는 소견은?
 
 ## 선택지
 
-A. 승모판의 비정상 운동
-B. 심실중격 결손
-C. 승모판 판엽 두께 5mm 이상
-D. 좌심실 박출률 감소
+A. 비대칭 중격 비후와 승모판의 수축기 전방운동
+B. 좌심실의 대칭 확장과 전반적 수축 저하
+C. 석회화 대동맥판과 고정된 판막 협착
+D. 심낭삼출과 우심실 이완기 허탈
 
 ## 해설
 
 
-운동 중 실신과 V1 깊은 S파, V5‑V6 높은 R파는 승모판 전방 운동(승모판 비정상 운동)과 연관된 비후성 폐쇄성 심근병증을 시사한다. 초음파에서 가장 흔히 보이는 소견은 승모판의 비정상 운동이다.
+전부하를 줄이는 동작에서 잡음이 커지는 것은 비후성 심근병증의 동적 폐쇄에 맞는다. 비대해진 중격 쪽으로 승모판이 수축기에 이동하면 유출로가 더 좁아질 수 있다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 좌심실 박출률 감소
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004480
+- AHA/ACC 비후성 심근병증 진료지침(2024): https://professional.heart.org/en/-/media/PHD-Files/2/Science-News/2/2024/2024-Guideline-for-HCM-Slide-Set.pdf

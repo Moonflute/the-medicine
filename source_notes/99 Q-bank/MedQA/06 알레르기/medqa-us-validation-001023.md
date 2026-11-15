@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDYg7JWM66CI66W06riwL-yVhOuCmO2VhOudveyLnOyKpCAoQW5hcGh5bGF4aXMpLm1k
   - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sC5tZA
-question_type: management
+question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-22세 남성이 트레일 믹스를 먹은 한 시간 후 갑자기 얼굴이 붓고 복통과 구역이 생겨 응급실에 왔다. 알부테롤 흡입제를 월 1회 미만으로 사용하는 천식 병력이 있다. 입 주위 부종과 얼굴 및 오른손 손가락의 두드러기가 있으나 호흡곤란, 쉰 목소리, 인두 부종이나 천명은 없다. 정맥 디펜히드라민 투여 후 증상이 호전되었다. 가장 적절한 다음 처치는?
+22세 남성이 견과류를 먹은 뒤 두드러기·천명과 저혈압으로 치료받았다. 에피네프린을 투여한 뒤 회복했고 관찰 후 퇴원 기준을 충족했다. 재노출 시 신속히 대처하도록 할 퇴원 조치는?
 
 ## 선택지
 
-A. 땅콩 회피를 권고
-B. 첩포검사 시행
-C. 에피네프린 자동주사기 처방
-D. 경구 프레드니손 투여
+A. 매일 항히스타민제를 복용하도록 한다
+B. 천식 흡입기만 가지고 다니도록 한다
+C. 에피네프린 자동주사기를 처방하고 사용법·응급계획을 교육한다
+D. 재노출 전에 경구 스테로이드만 복용하도록 한다
 
 ## 해설
 
 
-음식 섭취 후 두드러기·입 주위 부종과 위장관 증상이 함께 발생해 재노출 시 중증 반응 위험에 대비해야 한다. 호전된 뒤 에피네프린 자동주사기 처방과 사용 교육(C), 유발 음식 평가가 적절하다. 자동주사기가 재발 자체를 막는 것은 아니며 호흡기 증상 부재만으로 중등도 아나필락시스라고 분류할 수 없다.
+자가주사용 에피네프린 사용법을 직접 교육하고 재발 시 지체 없이 투여·응급 연락하도록 안내한다. 의심 음식을 피하도록 하고 원인 평가를 연계한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 경구 프레드니손 투여
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001023
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6684

@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-61세 남성이 점점 악화되는 호흡곤란과 흉부 불편감으로 내원했다. 5년 동안 운동 시 문제가 점점 심해져 이제 평지에서 50m 이상 걷지 못하고 대부분 집에서 쉰다. 40년 동안 하루 1~2갑을 흡연했다. 괴로워 보이며 맥박은 분당 85회, 혈압은 140/80 mmHg, 호흡수는 분당 25회이다. 얼굴이 다혈성이고 경정맥이 팽창되어 있으며 양측 폐에서 천명이 들린다. 오른손 손가락은 노랗게 변색되어 있고 하지에 2+ 부종이 있다. 다음 중 증상의 가장 가능성 높은 원인은 무엇인가?
+오래된 COPD가 있는 61세 남성에게 발목 부종과 경정맥 팽창이 새로 생겼다. 심초음파에서 좌심실 수축기능은 보존돼 있지만 우심실이 비대하고 폐동맥압이 높다. 이 환자의 전신 정맥 울혈을 가장 잘 설명하는 기전은?
 
 ## 선택지
 
-A. 폐동맥압 상승
-B. 만성 호흡성 산증
-C. 관상동맥 죽상경화반
-D. 흉강 내 가스량 감소
+A. 폐고혈압으로 우심실 후부하가 증가했다
+B. 기관지 수축으로 좌심실 후부하가 줄었다
+C. 폐 과팽창 때문에 혈액량이 감소했다
+D. 좌심실의 급성 국소 수축장애가 생겼다
 
 ## 해설
 
 
-운동 제한, 호흡곤란, 말초 부종, 정맥 팽창, 청색증은 폐동맥압 상승에 의한 우심부전 소견이다. 폐고혈압이 우심부전과 전신 울혈을 일으키므로 가장 가능성 높은 원인은 폐동맥압 상승이다.
+만성 폐질환과 저산소혈증은 폐혈관저항을 높일 수 있다. 우심실이 높은 압력을 오래 견디면 우심실 기능이 떨어져 경정맥 팽창과 말초부종이 생길 수 있다. COPD 환자에게 부종이 있다는 사실만으로 폐성심을 확진하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 흉강 내 가스량 감소
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005870
+- https://new.lungkorea.org/board/guide/view/13792

@@ -18,9 +18,9 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA
   - MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-임신 35주인 35세 여성(임신 6회, 출산 5회)이 2시간 동안의 질출혈로 응급실에 왔다. 복통이나 자궁수축은 없고 선홍색 출혈이 계속되며 혈압 88/59 mmHg, 맥박 122회/분이다. 수액과 혈액 준비를 시작했다. 가장 적절한 처치는?
+임신 35주 산모의 태반이 내자궁구를 덮고 있다. 통증 없이 많은 질출혈이 계속되고, 수혈을 시작했는데도 혈압은 86/54 mmHg다. 다음 조치는?
 
 ## 선택지
 
-A. 제왕절개 분만
-B. 입원하여 관찰
-C. 황산마그네슘 투여
-D. 자궁경부 봉축술
+A. 태아 폐성숙제를 완료할 때까지 분만을 미룬다
+B. 출혈 소생을 지속하면서 응급 제왕절개한다
+C. 질식분만이 가능한지 손가락으로 경부를 반복 확인한다
+D. 출혈이 잠시 줄면 외래 추적한다
 
 ## 해설
 
 
-무통성 선홍색 질출혈은 전치태반을 의심하게 하며, 출혈량이 많고 혈역학적 불안정이 있으면 즉시 제왕절개로 출산을 진행해야 한다. 이는 산모와 태아의 생명을 보호하는 최선의 치료이다.
+전치태반으로 출혈이 계속되고 산모가 불안정하면 주수와 관계없이 소생을 병행해 응급 분만을 진행한다. 태반이 내자궁구를 덮고 있으므로 제왕절개가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000682
+- https://pubmed.ncbi.nlm.nih.gov/42374711/

@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: complex
-answer: "A"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -40,23 +40,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-39세 남성이 다음 날 예정된 오른쪽 서혜부 탈장 수술 전 평가를 위해 내원했다. 다낭성 신장질환과 고혈압이 있고 리시노프릴과 비타민 D3를 복용한다. 아버지도 같은 신장질환이 있었고 환자가 2세 때 뇌내동맥류로 사망했다. 체온은 37°C(98.6°F), 맥박은 분당 87회, 혈압은 108/68 mm Hg이다. 양쪽 다리에 함요부종이 있고 기침 충격이 있는 오른쪽 서혜부 탈장이 있다. 혈색소 9.0 g/dL, Na+ 132, K+ 6.5, Cl− 94, HCO3− 21 mEq/L, 포도당 86 mg/dL, 크레아티닌 2.9 mg/dL, 칼슘 8.7 mg/dL, 인 4.9 mg/dL이며 심전도에서 높은 T파가 보인다. 정맥 칼슘 글루콘산을 투여했다. 다음 중 이 환자의 확정적 치료는?
+진행된 다낭성 신장질환 환자가 소변이 거의 나오지 않으며 혈청 K 7.0 mmol/L와 QRS 연장이 있다. 정맥 칼슘과 인슐린·포도당을 투여했지만 고칼륨혈증이 지속된다. 칼륨을 몸 밖으로 신속히 제거할 치료는?
 
 ## 선택지
 
-A. 혈액투석 시행
-B. 소금과 칼륨 섭취 제한
-C. 중탄산나트륨 투여
-D. 농축 적혈구 수혈
+A. 응급 혈액투석
+B. 정맥 칼슘 투여만 반복
+C. 저칼륨 식이만 시작
+D. 정맥 인슐린 단독으로 유지
 
 ## 해설
 
-K6.5와 ECG 변화가 있어 calcium으로 심근을 안정화한 뒤에도 칼륨을 낮추는 처치가 필요하다. 제시된 선택지 중 혈액투석은 체내 칼륨을 신속히 제거하는 방법이다. 투석 준비 중 insulin·glucose 등 이동 치료와 원인 교정을 병행할 수 있으며 실제 투석 필요성은 신기능·재발·치료 반응을 함께 판단한다. Calcium 자체는 칼륨을 제거하지 않는다.
+칼슘은 심근을 안정화하고 인슐린은 칼륨을 세포 안으로 이동시킨다. 심전도 변화가 동반된 중증 고칼륨혈증이 초기 치료에도 지속되고 소변이 거의 없으면 응급 투석으로 칼륨을 제거한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006904
+- https://guidelines.ukkidney.org/hyperkalaemia/
 
 ## 오답 포인트
 

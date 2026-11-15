@@ -19,9 +19,9 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
   - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
   - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
-question_type: diagnosis
+question_type: adverse_effect
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -40,19 +40,19 @@ related_drug_slugs:
 
 ## 문제
 
-51세 여성이 2주간의 피로감과 전신 쇠약감을 주소로 내원하였다. 과거력상 당뇨병, 고혈압, 고지혈증이 있다. 최근 류마티스 관절염(rheumatoid arthritis)을 진단받고 질환 조절 항류마티스제(DMARDs) 치료를 시작하였다. 환자는 즐기던 활동을 하기 어렵고 아이들과 운동을 할 수 없다는 것에 죄책감을 느낀다고 말한다. 계통 문진상 가끔 화장지에 소량의 선홍색 혈변이 묻어난다는 점이 확인된다. 검사 결과는 다음과 같다. 혈색소(Hemoglobin): 12 g/dL, 헤마토크릿(Hematocrit): 36%, 백혈구 수(Leukocyte count): 7,700/mm^3(정상 감별 계산), 혈소판 수(Platelet count): 207,000/mm^3, 평균 적혈구 용적(MCV): 110 fL. 이 환자의 피로감에 대한 가장 가능성 높은 원인은 무엇인가?
+류마티스관절염 환자가 주 1회로 처방받은 메토트렉세이트를 실수로 매일 복용했다. 잇몸이 헐고 열이 나며 호중구와 혈소판이 크게 줄었다. 가장 적절한 초기 대응은?
 
 ## 선택지
 
-A. 우울증
-B. 철 결핍
-C. 약물 부작용
-D. 비타민 B12 결핍
+A. 메토트렉세이트를 매일 유지하고 엽산만 늘린다
+B. 다음 외래까지 기다렸다 혈구를 확인한다
+C. 류마티스 악화로 판단해 메토트렉세이트를 증량한다
+D. 메토트렉세이트를 중단하고 즉시 입원 평가와 폴린산 구제치료를 검토한다
 
 ## 해설
 
 
-RA 질병조절 치료를 시작한 뒤 발생한 MCV110 fL는 methotrexate 같은 엽산 대사 관련 약물의 영향을 의심하게 하므로 C가 출제 의도에 부합한다. 실제 처방 약명과 엽산 보충 여부, B12/엽산·간기능·신기능 등을 확인해야 하며 정상 혈구 수와 Hb12 g/dL만으로 심한 골수억제를 확진할 수 없다. 약물 부작용을 가장 흔한 모든 원인으로 단정하지 않는다. 소량 혈변과 피로의 다른 원인도 별도로 평가해야 한다.
+염증성 질환에서 메토트렉세이트를 매일 잘못 복용하면 점막염과 중증 골수억제가 생길 수 있다. 약을 중단하고 폴린산 구제와 발열성 호중구감소 등 응급 합병증을 평가한다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ RA 질병조절 치료를 시작한 뒤 발생한 MCV110 fL는 methotrexate 같�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000663
+- https://www.ema.europa.eu/en/news/new-measures-avoid-potentially-fatal-dosing-errors-methotrexate-inflammatory-diseases

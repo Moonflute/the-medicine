@@ -13,7 +13,7 @@ related_diseases:
   - "무통성 혈뇨"
   - "방광암"
   - "요로 종양"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-uwqeq0keyVlCAoQmxhZGRlciBjYW5jZXIpLm1k
 difficulty: simple
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 65세 남성이 한 달 동안 소변이 붉게 보이는 증상으로 일차 진료를 받으러 왔다. 배뇨통은 없고 신체진찰에서 늑골척추각 압통도 없었다. 이 환자 혈뇨의 가장 가능성 높은 원인은?
+30갑년 흡연력이 있는 65세 남성이 통증 없는 육안적 혈뇨로 내원했다. 소변 현미경에서 적혈구가 확인됐고 배양은 음성이다. 방광 내 종양을 확인하는 데 가장 적합한 검사는?
 
 ## 선택지
 
-A. 방광 종양
-B. 신세포암
-C. 비트 섭취로 인한 적뇨
-D. 요로감염
+A. 방광경검사
+B. 소변세포검사 단독
+C. 혈청 PSA 측정
+D. 소변검사만 1년 뒤 반복
 
 ## 해설
 
-정답은 A, 방광 종양이다. 고령자의 한 달간 지속되는 무통성 붉은 소변은 방광암을 포함한 요로 악성종양을 배제해야 하는 증상이다. 신세포암도 무통성 혈뇨를 일으킬 수 있으나 제시된 선택지와 임상 양상에서는 방광 종양이 가장 가능성이 높다. 소변색만으로 혈뇨를 확진하지 않고 요검사와 적절한 요로 평가가 필요하다.
+고령의 흡연자에서 통증 없는 육안적 혈뇨는 방광암을 배제해야 한다. 방광경으로 방광 점막을 직접 확인하며 환자 위험도에 맞춰 상부 요로도 평가한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 요로감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000551
+- https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/diagnosis

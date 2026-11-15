@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: diagnosis
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-45세 흑인 여성이 객혈로 병원에 왔다. 8개월 동안 비생산성 기침, 피로, 체중 9 kg(20 lb) 감소가 있었다. 매일 밤 와인 한 잔을 마시고 담배는 피우지 않는다. 고혈압과 골관절염 병력이 있으나 약물은 복용하지 않는다. 해외여행력은 없고 회계사로 일한다. 체온 37.0°C(98.6°F), 맥박 94회/분, 혈압 130/90 mmHg였다. 폐 청진은 정상이었고 흉부 X선에서 왼쪽 폐첨부에 종격동·폐문 확대 없이 경계가 불규칙한 2.5 cm 결절이 보였다. 가장 가능성 높은 진단은?
+45세 흑인 여성이 객혈로 병원에 왔다. 8개월 동안 마른기침, 피로, 체중 9 kg(20 lb) 감소가 있었다. 매일 밤 와인 한 잔을 마시고 담배는 피우지 않는다. 고혈압과 골관절염 병력이 있으나 약물은 복용하지 않는다. 해외여행력은 없고 회계사로 일한다. 체온 37.0°C(98.6°F), 맥박 94회/분, 혈압 130/90 mmHg였다. 폐 청진은 정상이었고 흉부 X선에서 왼쪽 폐첨부에 종격동·폐문 확대 없이 경계가 불규칙한 2.5 cm 결절이 보였다. 가장 가능성 높은 진단은?
 
 ## 선택지
 

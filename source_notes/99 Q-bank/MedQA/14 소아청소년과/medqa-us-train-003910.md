@@ -20,6 +20,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,18 +41,18 @@ answer_change_reason: "분만 전 1주 HIV RNA 678은 고위험 노출이므로 
 
 ## 문제
 
-HIV 감염 산모가 임신 중 삼제 항레트로바이러스 치료를 받았고 분만 1주 전 바이러스량은 678 copies/mL였다. 체중 2,300 g으로 태어난 신생아의 신체검사는 정상이었다. 다음 중 가장 적절한 다음 처치는?
+HIV 감염 산모가 분만 직전 진단되어 임신 중 항레트로바이러스 치료를 받지 못했다. 혈중 HIV RNA가 높으며 만삭으로 태어난 신생아는 무증상이다. 출생 직후 적절한 조치는?
 
 ## 선택지
 
-A. 지도부딘, 라미부딘, 네비라핀 투여
-B. 라미부딘과 네비라핀 투여
-C. 네비라핀 투여
-D. 지도부딘 투여
+A. HIV 핵산검사 검체를 채취하고 신생아 고위험군 항레트로바이러스 요법을 즉시 시작한다
+B. 출생 시 항체검사가 음성이면 예방 약제를 투여하지 않는다
+C. 신생아에게 증상이 생길 때까지 기다린다
+D. 첫 핵산검사 결과가 양성일 때에만 약을 시작한다
 
 ## 해설
 
-분만 전 4주 내 산모 HIV RNA가 50 copies/mL 이상이면 신생아는 고위험 노출로 분류한다. 이 경우 출생 직후 가능한 빨리 ZDV·3TC와 NVP 또는 DTG의 삼제 추정 치료/강화 예방을 시작하므로 보기 중 A가 적절하다. 재태주수·체중에 맞춰 용법을 정하고 HIV NAT를 시행하되 결과를 기다리며 투약을 지연하지 않는다. 신체검사가 정상이라는 이유로 저위험 ZDV 단독 요법을 적용하지 않는다.
+치료받지 못한 산모의 높은 바이러스량에 노출된 신생아는 고위험군이다. 출생 직후 HIV 핵산검사 검체를 얻고 결과를 기다리지 않고 고위험군 요법을 시작한다. 신생아의 항체검사는 모체 항체 때문에 확진에 적합하지 않다. 약제와 기간은 재태주수, 체중, 노출 위험에 맞춰 정한다.
 
 ## 검수 근거
 
@@ -63,3 +64,4 @@ D. 지도부딘 투여
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003910
+- 미국 NIH 주산기 HIV 노출 신생아 관리 지침(2026): https://clinicalinfo.hiv.gov/en/guidelines/pediatric-arv/management-infants-utero-intrapartum-breastfeeding-hiv-exposure

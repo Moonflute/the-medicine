@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITslZQgKEdhc3RyaWMgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: simple
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-71세 남성이 3주 동안 지속된 피로, 체중 감소 및 조기 포만감으로 내원했다. 이전에는 건강했으나 과거 흡연력이 있다. 진찰에서 피곤하고 마른 모습이며 대변잠혈검사가 양성이다. 위십이지장내시경에서 위 전정부에 종괴가 보이고 병리검사에서 선암이 확인되었다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+위내시경 조직검사에서 진행성 위선암이 확인됐다. 아직 원격전이나 절제 가능성을 평가하지 않았다. 우선 시행할 병기 검사는?
 
 ## 선택지
 
-A. 복부 및 골반 CT
-B. PET-CT
-C. 복부 및 골반 MRI
-D. 내시경 초음파(EUS)
+A. 위내시경 초음파만 사용해 원격전이 평가
+B. 복부 단순촬영
+C. 혈청 CEA만 측정해 병기를 확정
+D. 흉부와 복부·골반의 조영증강 CT
 
 ## 해설
 
 
-내시경생검으로 위 선암이 확인되면 절제 가능성 및 원격전이를 평가하기 위한 CT가 필요하여 보기 중 A가 적절하다. 실제 병기평가는 흉부도 포함하는 CT 등으로 시행하고 잠재적 근치 대상은 staging laparoscopy를 고려한다. EUS는 국소 병기를 알아야 치료 결정이 달라지는 경우에 보완적으로 사용하며 전신 전이평가를 대신하지 않는다.
+위암의 초기 병기 검사는 장기와 림프절 전이 등을 평가하는 조영 CT가 기본이다. 내시경 초음파와 병기복강경은 국소 병기나 복막 전이 위험에 따라 보완한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 내시경 초음파(EUS)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006170
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11739648/

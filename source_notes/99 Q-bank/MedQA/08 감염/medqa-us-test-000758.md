@@ -15,9 +15,9 @@ related_diseases:
   - "황색포도상구균 독소"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
-question_type: diagnosis
+question_type: management
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-18세 여성이 어지러움과 현기증으로 응급실에 왔다. 일주일 동안 메스꺼움, 간헐적 구토, 근육통, 전신 발진, 기면이 있었다. 호흡곤란은 없었다. 아파 보였고 체온 39.1°C(102.3°F), 맥박 118회/분, 혈압 94/60 mmHg였다. 심장 진찰은 정상이었고 몸통과 사지에 넓은 홍반성 발진 및 손바닥·발바닥 피부 박리가 있었다. 혈색소 13.6 g/dL, 백혈구 19,300/mm³, 혈소판 98,000/mm³, BUN 47 mg/dL, 포도당 88 mg/dL, 크레아티닌 1.8 mg/dL, 총 빌리루빈 2.1 mg/dL, AST 190 U/L, ALT 175 U/L였고 요검사는 정상이었다. 추가 병력에서 가장 가능성 높은 내용은?
+월경 중인 22세 환자가 고열, 전신 홍반, 저혈압으로 왔다. 질 검사에서 제거하지 않은 탐폰이 확인된다. 수액과 경험적 항생제를 시작하면서 즉시 할 처치는?
 
 ## 선택지
 
-A. 최근 하이킹 여행
-B. 정맥주사 헤로인 남용
-C. 수막구균혈증 환자와의 접촉
-D. 현재 월경 중
+A. 탐폰을 제거한다
+B. 혈액배양 결과를 확인할 때까지 탐폰은 그대로 둔다
+C. 발진의 피부생검을 먼저 한다
+D. 쇼크가 회복될 때까지 감염원 조절을 미룬다
 
 ## 해설
 
 
-고열, 미만성 홍반, 손발의 피부 박리와 다장기 이상은 독성쇼크증후군을 시사한다. 선택지 중 월경 중이라는 병력(D)은 탐폰 사용과 연관된 포도알균 독성쇼크 가능성을 뒷받침한다. 탐폰을 생리식염수라고 설명한 기존 문구는 오류이다.
+독성쇼크증후군이 의심되면 소생술과 항생제에 더해 감염원을 즉시 제거한다. 내부 생리용품을 제거하는 데 배양 결과를 기다리지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 현재 월경 중
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000758
+- https://www.nhs.uk/conditions/toxic-shock-syndrome/

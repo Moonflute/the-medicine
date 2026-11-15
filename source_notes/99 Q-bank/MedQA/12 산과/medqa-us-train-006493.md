@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: simple
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-37세 여성이 첫 아이를 질식분만한 후 몇 시간 동안 소변을 보지 못해 내원했다. 분만 중 경막외마취를 시행했고 겸자 사용으로 골반 외상이 있었다. 현재 소변이 새고 하복부 압박감이 증가했다고 호소한다. 다음 중 이 환자 상태의 치료로 가장 적절한 것은?
+겸자 질식분만을 한 지 7시간이 지났는데 소변을 보지 못한 산모가 치골 위 통증을 호소한다. 방광 스캔에서 720 mL가 확인됐다. 다음 조치는?
 
 ## 선택지
 
-A. 항무스카린제
-B. 골반저근 강화
-C. 페서리 삽입
-D. 요도 카테터 삽입
+A. 도뇨로 방광을 감압한다
+B. 정맥 이뇨제로 소변 생성을 늘린다
+C. 골반저 운동을 가르치고 다음 날 배뇨를 기다린다
+D. 복압성 요실금으로 보고 페서리를 삽입한다
 
 ## 해설
 
 
-분만 후 몇 시간 동안 소변을 보지 못하고 복부 압박감과 요실금이 나타난 것은 급성 요폐를 의미한다. 경막외마취와 골반 외상으로 일시적인 방광 신경마비가 흔히 발생한다. 방광을 즉시 감압하기 위해 요도(삽입) 카테터가 가장 적절한 치료이다.
+분만 뒤 배뇨가 안 되고 방광이 과팽창하면 즉시 감압한다. 경막외 진통과 기구 분만은 위험 요인이다. 이후 자발 배뇨와 잔뇨를 재평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006493
+- https://pubmed.ncbi.nlm.nih.gov/35932877/

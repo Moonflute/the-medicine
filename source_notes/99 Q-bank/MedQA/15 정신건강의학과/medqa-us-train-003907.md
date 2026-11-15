@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -37,7 +38,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 남성이 FBI가 평생 자신을 따라다니고 웨이터가 자신을 감시하는 요원이라고 주장하며 난동을 부려 응급실에 왔다. 할로페리돌과 디펜히드라민을 투여했지만 계속 초조했고 골내 접근로를 확보했다. 다음 중 가장 적절한 다음 처치는?
+23세 남성이 FBI가 평생 자신을 따라다니고 웨이터가 자신을 감시하는 요원이라고 주장하며 난동을 부려 응급실에 왔다. 할로페리돌과 디펜히드라민을 투여했지만 계속 초조했고 골내 접근로를 확보했다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

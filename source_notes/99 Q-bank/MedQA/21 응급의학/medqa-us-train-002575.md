@@ -18,6 +18,7 @@ question_type: adverse_effect
 related_disease_slugs: []
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct

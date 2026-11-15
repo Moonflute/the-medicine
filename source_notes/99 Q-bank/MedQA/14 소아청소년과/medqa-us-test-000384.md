@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7KadIOuzte2VqSDrqbTsl60g6rKw7ZWN7KadIChTZXZlcmUgQ29tYmluZWQgSW1tdW5vZGVmaWNpZW5jeSkubWQ
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-5개월 남아가 3일 동안의 발열과 기침으로 병원에 왔다. 어머니는 지난 3개월 동안 묽은 변을 여러 번 보았다고 한다. 출생 후 중이염으로 4회, 세기관지염으로 3회 치료받았다. 임신 37주에 태어났고 신생아기는 합병증 없이 지냈다. 키는 10백분위수, 체중은 3백분위수였다. 체온 38.3°C(100.9°F), 맥박 126회/분, 호흡 35회/분이었다. 몸통과 사지에 홍반성 인설성 발진이 있었고 혀와 볼점막의 흰 반점은 긁으면 출혈했다. 오른쪽 폐 기저부에서 흡기 수포음이 들렸고 흉부 X선에서 오른쪽 하엽 침윤과 흉선 음영 소실이 보였다. 이 상태의 가장 확실한 치료는?
+생후 3개월 영아에게 전형적인 X연관 중증 복합면역결핍이 확진됐다. 폐렴을 치료 중이며 조직적합성이 맞는 형제 공여자가 있다. 면역 기능을 회복시키기 위한 근본 치료는?
 
 ## 선택지
 
-A. 조혈모세포 이식
-B. 정맥 면역글로불린
-C. 류코보린 보충
-D. 흉선 이식
+A. 정맥 면역글로불린 단독 유지
+B. 항진균 예방요법 단독 유지
+C. 동종 조혈모세포이식
+D. 흉선 조직 이식
 
 ## 해설
 
-생후 초기에 반복 감염·설사·성장부진·칸디다와 흉선 음영 부재는 SCID를 시사한다. 보기 중 조혈모세포이식(A)이 근본적인 면역 회복 치료다. 유전형에 따라 유전자치료 등도 가능하므로 모든 SCID에서 유일한 치료라고 단정하지 않는다.
+전형적인 X연관 중증 복합면역결핍에서 동종 조혈모세포이식은 근본 치료다. 면역글로불린과 감염 치료는 이식까지의 중요한 보조 조치다. 선천성 흉선 무형성에서 고려하는 흉선 이식과는 적응증이 다르다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 흉선 이식
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000384
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13349871/

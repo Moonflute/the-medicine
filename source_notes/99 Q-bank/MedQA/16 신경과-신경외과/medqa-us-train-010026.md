@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qtbDrsJzrkZDthrUgKENsdXN0ZXIgaGVhZGFjaGUpLm1k
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 남성이 1시간 동안 지속된 심한 두통으로 내원했다. 지난 일주일 동안 매일 왼쪽 이마에 심한 통증이 3~4차례 발생했다. 각 발작은 약 30~45분 지속되고 그동안 안절부절못하며 서성거린다. 아세트아미노펜을 사용했지만 효과는 미미했다. 금융 분석가로 일하며 직업이 매우 스트레스가 많다고 한다. 4개월 전에도 비슷한 증상이 있었지만 치료받지 않았다. 중대한 질환은 없고 다른 약물은 복용하지 않는다. 7년 동안 매일 담배 한 갑을 피웠다. 불안해 보이며 왼쪽 눈의 결막충혈과 눈물이 있다. 나머지 진찰은 정상이다. 다음 중 이 두통을 급성으로 완화할 가능성이 가장 높은 처치는?
+군발두통으로 진단된 환자가 눈물·결막충혈을 동반한 익숙한 편측 안와 통증으로 왔다. 발작을 빨리 가라앉힐 치료는?
 
 ## 선택지
 
-A. 카르바마제핀
-B. 옥시코돈
-C. 나프록센
-D. 산소요법
+A. 경구 베라파밀
+B. 경구 나프록센
+C. 비재호흡 마스크를 이용한 고유량 100% 산소
+D. 저유량 비강 산소
 
 ## 해설
 
-30~45분의 심한 일측 두통이 하루 여러 번 발생하고 안절부절못함, 동측 충혈·눈물이 동반되어 군발두통이다. 급성 치료로 보기 중 100% 산소요법(D)을 비재호흡 마스크와 적절한 유량으로 시행하는 것이 맞다. Carbamazepine은 주로 삼차신경통에 쓰이고 opioid는 군발두통의 일상적 급성 치료로 적합하지 않다. 산소의 효과를 단순한 한 가지 혈관수축 기전으로 확정할 필요는 없다.
+군발두통 발작에는 비재호흡 마스크로 고유량 100% 산소를 투여한다. 베라파밀은 발작 빈도를 줄이는 예방치료다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 산소요법
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010026
+- https://www.e-hpr.org/journal/view.php?number=949

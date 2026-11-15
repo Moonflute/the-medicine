@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MDgg6rCQ7Je8L-uFueuGjeq3oCAoUHNldWRvbW9uYXMgQWVydWdpbm9zYSkubWQ
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-제2형 당뇨병이 있는 66세 여성이 10일 동안 지속된 심한 우측 귀 통증과 분비물로 내원했다. 귀 통증은 갑자기 시작되었고 지속적이다. 일반의약품 귀약을 사용했지만 증상이 악화되었다. 유일한 약물은 불규칙하게 사용하는 인슐린이다. 체온 39°C, 맥박 분당 108회, 혈압 130/90 mmHg이다. 우측 귀에 귓바퀴와 귓불의 부종, 악취 나는 화농성 분비물, 접촉 시 압통이 있다. 후이개 림프절병증과 우측 경도의 난청이 있다. 이경검사에서 외이도가 부어 있고 육아조직이 보인다. 혈색소 13.3 g/dL, HbA1c 12.2%, 백혈구 18,300/mm³(분절 호중구 76%, 호산구 1%, 림프구 20%, 단핵구 3%), 혈청 포도당 212 mg/dL, 크레아티닌 1.7 mg/dL이다. 두부 CT에서 외이도 연조직의 심한 비후와 조영증강, 유양돌기의 반점상 파괴가 보인다. 귀 분비물 배양 결과는 아직 나오지 않았다. 다음 중 가장 적절한 약물치료는?
+당뇨병 환자가 괴사성 외이도염과 두개저 골수염으로 입원했다. 외이도 배양은 진행 중이고 턱을 움직일 때도 통증이 심하다. 초기 치료 방침은?
 
 ## 선택지
 
-A. 경구 클라리트로마이신
-B. 국소 클로트리마졸
-C. 정맥주사 시프로플록사신
-D. 정맥주사 트리메토프림-설파메톡사졸
+A. 국소 항균 점이제만 쓰고 퇴원한다
+B. 배양 결과가 나올 때까지 모든 치료를 미룬다
+C. 경구 항진균제만 경험적으로 처방한다
+D. 전신 항균제를 시작해 녹농균을 포함하고 배양 결과에 맞춰 조정한다
 
 ## 해설
 
-심한 이통과 이루, 외이도 육아조직, 혈당 조절 불량 및 인접 골 파괴는 괴사성 외이도염/두개저 골수염에 합당하다. 녹농균이 중요한 원인으로 선지 중 전신 항녹농균 작용을 갖는 C, 정맥 ciprofloxacin이 적절하다. 실제 치료는 배양과 감수성, 신기능, 중증도 및 약제 안전성을 고려해 ENT/감염내과와 조정하며 국소 항진균제만으로 치료할 상태가 아니다. 모든 유양돌기염이 녹농균성이라는 뜻은 아니다.
+괴사성 외이도염은 국소 외이도염과 달리 전신 항균치료가 필요하다. 초기에는 녹농균을 고려하고 배양, 중증도, 약제 감수성과 신기능에 따라 조정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 정맥주사 트리메토프림-설파메톡사졸
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009798
+- https://pubmed.ncbi.nlm.nih.gov/36806133/
+- https://tac-int-qg-app-liv.azurewebsites.net/hospital-guidelines/adult-antimicrobial-guide/empiric-treatment/ent-and-orofacial/necrotising-malignant-otitis-externa/

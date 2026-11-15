@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7Lap7IiY7Je8IChBY3V0ZSBBcHBlbmRpY2l0aXMpLm1k
 difficulty: standard
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-12세 남아가 어제부터 시작된 복통, 발열, 오심, 구토, 식욕부진으로 어머니와 함께 응급실에 왔다. 처음에는 단순한 장염이라고 생각했지만 점점 상태가 나빠져 걱정하고 있다. 체온은 102.3°F, 맥박 110회/분, 혈압 120/89 mmHg, 호흡수 16회/분, 산소포화도 100%이다. 복부 진찰에서 오른쪽 하복부에 통증이 있다. 정맥 수액과 진통제 외에 다음 중 가장 적절한 다음 단계는?
+12세 남아가 어제부터 시작된 복통, 발열, 오심, 구토, 식욕부진으로 어머니와 함께 응급실에 왔다. 처음에는 단순한 장염이라고 생각했지만 점점 상태가 나빠져 걱정하고 있다. 체온은 102.3°F, 맥박 110회/분, 혈압 120/89 mmHg, 호흡수 16회/분, 산소포화도 100%이다. 복부 진찰에서 오른쪽 하복부에 통증이 있다. 정맥 수액과 진통제 외에 가장 적절한 다음 단계는?
 
 ## 선택지
 

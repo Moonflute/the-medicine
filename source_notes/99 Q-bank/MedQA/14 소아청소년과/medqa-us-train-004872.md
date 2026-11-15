@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 2일 된 남아가 2시간 동안 보채고 구토하여 응급실에 왔다. 이 기간에 담즙성 구토를 세 번 했고 아직 대변을 보지 못했다. 만삭으로 가정 분만되었으며 산전 진찰은 없었다. 복부가 팽창되어 있고 장음은 드물다. 조영제를 사용한 복부 X선에서 늘어난 소장 고리, 미세결장, 우하복부의 가스와 태변 혼합물이 보인다. 비위관을 삽입하고 수액 소생을 시작했다. 다음 중 가장 적절한 처치는?
+만삭 신생아가 생후 2일이 지나도 태변을 보지 못했고, 복부가 불러오며 녹색으로 토한다. 영상에서 말단 회장의 농축 태변과 작은 대장이 보인다. 천공·염전·복막염 소견은 없으며 위 감압과 정맥 수액을 시작했다. 다음 치료는?
 
 ## 선택지
 
-A. 안심시키고 2주 후 추적 관찰
-B. 가스트로그라핀 관장
-C. 시험적 개복술
-D. 대장내시경
+A. 글리세린 좌약을 주고 수유를 재개한다
+B. 대장내시경으로 태변을 제거한다
+C. 합병증이 없어도 즉시 개복한다
+D. 소아외과와 협의해 투시하 수용성 조영제 관장을 한다
 
 ## 해설
 
-태변 미배출, 담즙성 구토, microcolon과 우하복부의 태변·가스 혼합은 태변성 장폐색(meconium ileus)에 부합한다. 수액과 위 감압 후 합병증이 없는 경우 전문팀이 희석 수용성 조영제 관장(B)을 진단·치료 목적으로 시행할 수 있다. 고삼투 조영제에 따른 체액 이동을 감시하고 천공·복막염 또는 실패 시 수술을 고려한다.
+합병증 없는 태변성 장폐색에는 전문팀이 수용성 조영제 관장으로 정복을 시도할 수 있다. 실패하거나 천공·염전 등이 있으면 수술을 검토하고, 안정화 뒤 낭성섬유증도 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 대장내시경
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004872
+- https://pubmed.ncbi.nlm.nih.gov/42372757/

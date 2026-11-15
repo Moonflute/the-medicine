@@ -15,9 +15,9 @@ related_diseases:
 question_type: management
 related_disease_slugs: []
 difficulty: simple
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -32,18 +32,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 남성이 자전거에서 떨어지는 것이 목격되었다. 환자는 자전거를 타고 가다 연석에 부딪혀 난간에 얼굴을 부딪혔다. 환자는 의식을 잃지 않았으며 현장에서 걸어 다닐 수 있는 상태였다. 환자의 입안에 피가 나고 있었고, 치아 하나가 보도에서 발견되었다. 환자는 지역 응급실로 이송되었다. 다음 중 이 환자의 치아를 운반하는 가장 좋은 방법은 무엇인가?
+자전거에서 넘어진 27세 남성의 영구 앞니가 완전히 빠졌다. 현장에서 바로 다시 넣을 수 없어 치과로 가져가려 한다. 치아를 말리지 않고 보존할 방법은?
 
 ## 선택지
 
-A. 우유에 담가서
-B. 생리식염수에 담가서
-C. 물에 담가서
-D. 생리식염수에 적신 거즈에 싸서
+A. 치근을 솔로 문지른 뒤 말린다
+B. 치관을 잡고 우유에 담아 가져간다
+C. 마른 거즈로 단단히 감싼다
+D. 소독용 알코올에 담근다
 
 ## 해설
 
-성인의 탈락 영구치는 가능한 빨리 재식할수록 치주인대세포 보존에 유리하다. 즉시 재식할 수 없어 운반하는 경우, 제시 선지 중 우유에 담그는 A가 물·건조 또는 거즈 보관보다 적절하다. 우유의 적절한 삼투압과 pH가 세포 생존을 돕고 건조를 막으며, 저산성으로 만들어야 한다는 뜻은 아니다. 치근을 문지르지 말고 치관을 잡아 신속히 치과로 이송한다.
+빠진 영구치는 가능하면 조기에 재식한다. 즉시 재식할 수 없다면 치관을 잡아 우유 등 적절한 매질에 넣고 신속히 치과 평가를 받는다. 치근을 문지르지 않는다.
 
 ## 검수 근거
 
@@ -54,3 +54,4 @@ D. 생리식염수에 적신 거즈에 싸서
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001153
+- https://pubmed.ncbi.nlm.nih.gov/32460393/

@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: management
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-겸상적혈구병이 있는 10세 흑인 여아가 감염 중 급성 빈혈이 발생했다. 수혈을 시작한 직후 발열, 오한, 정맥주사 부위 작열감, 갑작스러운 저혈압이 생겼다. 이 반응의 이름과 최선의 치료는?
+농축적혈구 수혈을 시작한 지 10분 만에 발열, 오한과 옆구리 통증이 생기고 혈압이 떨어졌다. 소변이 갑자기 붉어졌다. 우선 할 처치는?
 
 ## 선택지
 
-A. 비용혈성 발열성 반응; 항히스타민제 투여
-B. 경미한 알레르기 반응; 수혈 중단
-C. 용혈성 수혈반응; 항히스타민제 투여
-D. 용혈성 수혈반응; 수혈 중단
+A. 즉시 수혈을 중단하고 정맥로를 유지하면서 혈액은행에 알린다
+B. 항히스타민제만 주고 같은 제제를 느린 속도로 계속 투여한다
+C. 수혈을 모두 마친 뒤 용혈 검사를 한다
+D. 수혈은 유지하고 혈압만 반복 측정한다
 
 ## 해설
 
 
-수혈 직후 발열·오한·주입부 작열감·저혈압은 급성 용혈성 수혈반응을 강하게 의심하게 하므로 수혈을 즉시 중단하는 D가 맞다. 수혈을 재개하지 말고 응급 소생·혈액은행 통보·환자/제제 확인 및 용혈·오염 등 감별검사를 진행한다. 중단만으로 관리가 끝나는 것은 아니다.
+급성 용혈성 수혈반응을 의심하면 즉시 수혈을 중단한다. 소생술과 함께 환자·제제 확인, 직접항글로불린검사와 용혈·세균오염 평가를 진행한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 용혈성 수혈반응; 수혈 중단
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001116
+- https://www.transfusion.or.kr/KOR/images/file/2022_5.pdf
+- https://doi.org/10.1111/bjh.18789

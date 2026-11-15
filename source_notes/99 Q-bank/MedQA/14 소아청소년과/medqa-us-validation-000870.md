@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-ygleunpSDsnqHsnYwgKFZlbm91cyBIdW0pLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-6세 여아의 왼쪽 흉골 상연에서 목으로 방사되는 2/6등급 지속성 저음 잡음이 들리지만 목을 굴곡하면 사라진다. 가장 가능성 높은 진단은?
+건강한 6세 아이의 쇄골 위에서 부드러운 연속성 잡음이 들린다. 앉아 있을 때 뚜렷하나 바로 누우면 사라진다. 맥박과 산소포화도는 정상이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 동맥관 개존증
-B. 정맥성 잡음
-C. 관상동맥루
-D. 대동맥판 협착증
+A. 동맥관개존
+B. 심실중격결손
+C. 대동맥폐동맥 창
+D. 정맥성 윙윙거림(venous hum)
 
 ## 해설
 
-정맥성 잡음(B)은 경부 정맥의 생리적 혈류에 따른 연속성 잡음으로 자세·목 움직임이나 경정맥 압박에 따라 사라질 수 있다. 이 사례처럼 건강한 아동의 자세 의존 소견은 이를 지지하며 정맥류나 심장 기형을 의미하지 않는다.
+정맥성 윙윙거림은 앉은 자세에서 목이나 쇄골 주위에 잘 들리고 누우면 약해지거나 사라지는 무해한 잡음이다. 자세에 따라 사라지는 점이 동맥관개존의 연속성 잡음과 구분되는 단서다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 대동맥판 협착증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000870
+- https://www.med.upenn.edu/pedsinpractice/innocent-murmurs

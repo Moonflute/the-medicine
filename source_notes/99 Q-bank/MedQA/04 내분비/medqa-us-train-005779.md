@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCR7IOB7ISgIOq4sOuKpSDsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 26일 된 신생아가 2주 동안 지속된 수유곤란과 무기력으로 내원했다. 이 기간 동안 쉰 울음소리가 있었다. 만삭으로 집에서 태어났고 아직 의사의 진찰을 받지 않았다. 머리둘레는 90백분위수, 키는 50백분위수, 체중은 60백분위수이다. 활력징후는 정상이다. 공막 황달과 큰 혀가 보인다. 복부가 팽창되어 있고 배꼽에 부드럽고 환원되는 돌출 종괴가 있다. 네 사지 모두 근긴장도가 감소되어 있다. 다음 중 이러한 소견의 가장 가능성 높은 원인은 무엇인가?
+생후 26일 영아에게 수유 저하와 오래가는 황달이 있다. 정맥혈 검사에서 TSH가 연령 정상범위보다 크게 높고 유리 T4는 낮다. 선천성 일차 갑상선기능저하증이 확인됐을 때 다음 처치는?
 
 ## 선택지
 
-A. 갑상선 발생 이상
-B. 산성 말타아제 결핍
-C. 21번 삼염색체증
-D. 11p 염색체 이상
+A. 원인 영상검사를 기다리지 말고 레보티록신 시작
+B. 영상에서 갑상선이 없다고 확인된 경우에만 치료
+C. 생후 3개월에 다시 검사할 때까지 기다림
+D. 요오드가 든 보충제로 치료
 
 ## 해설
 
-신생아의 지속 공막황달·거대혀·쉰울음·제대탈장·저긴장은 선천성 갑상선기능저하를 시사하며 원인 중 갑상선 발생이상 A가 적합하다. 다른 증후군도 일부 소견을 공유할 수 있으므로 실제로 TSH/freeT4 확인이 필요하다.
+선천성 갑상선기능저하증에서는 신경 발달을 위해 레보티록신을 빨리 시작한다. 초음파나 핵의학 검사로 원인을 확인할 수 있지만 이를 기다리며 치료를 미루지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 11p 염색체 이상
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005779
+- https://doi.org/10.1089/thy.2020.0333

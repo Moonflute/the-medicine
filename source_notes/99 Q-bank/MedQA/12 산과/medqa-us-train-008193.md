@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ answer_change_reason: "RCOG Green-top 27a(2026): 태반이 내자궁구를 덮�
 
 ## 문제
 
-34세 여성(G3P2)이 임신 33주에 최근 2주 동안 여러 차례의 혈성 점상출혈과 경미한 질 출혈로 내원했다. 출혈은 특별한 유발 요인이 없고 저절로 멎는다. 복통이나 자궁수축은 없다. 두 차례 제왕절개를 받았다. 임신 20주 초음파에서 태반 가장자리는 내자궁구에서 5 cm 떨어져 있었다. 현재 활력징후는 정상이고 자궁은 압통이 있으며 자궁수축은 없고 회음부에 혈액 줄무늬가 있지만 활동성 출혈은 없다. 초음파에서 태반 가장자리가 내자궁구에서 1 cm 떨어져 있다. 두 초음파에서 태반 위치를 가장 잘 설명한 것은?
+임신 33주 질식 초음파에서 태반의 가장자리가 내자궁구에서 10 mm 떨어져 있고 안쪽을 덮지는 않는다. 이 소견을 무엇이라 하는가?
 
 ## 선택지
 
-A. 정상 위치 태반 → 변연 전치태반
-B. 정상 위치 태반 → 저위태반
-C. 변연 전치태반 → 부분 전치태반
-D. 저위태반 → 변연 전치태반
+A. 저위태반
+B. 전치태반
+C. 태반조기박리
+D. 태반유착스펙트럼
 
 ## 해설
 
-임신 20주의 태반 가장자리-내자궁구 거리가 5cm이면 정상 위치이다. 33주에 거리가 1cm(10mm)이고 내구를 덮는다고 기술되지 않았으므로 현행 분류상 저위태반(low-lying placenta)이며 B가 맞다. RCOG는 내구를 부분 또는 완전히 덮는 경우를 전치태반(praevia), 덮지 않으면서 가장자리 거리가 20mm 미만인 경우를 저위태반으로 구분한다. 원정답 A는 보존 이력에 기록하고 B로 교정한다.
+임신 중기 이후 태반이 내자궁구를 덮지 않으면서 가장자리가 20 mm 미만으로 가까우면 저위태반이다. 내자궁구를 덮는 전치태반과 다르며 추적 영상과 산과 상황으로 분만 방법을 정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 저위태반 → 변연 전치태반
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008193
+- https://pubmed.ncbi.nlm.nih.gov/42374711/

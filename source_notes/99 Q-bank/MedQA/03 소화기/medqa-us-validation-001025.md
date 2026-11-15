@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-45세 여성이 2년간 피로, 감각이상, 간헐적 비혈성 설사와 경련성 복통으로 진료를 받으러 왔다. 양손과 양발에 장갑·양말 형태의 저림과 작열감이 있고, 혈색소 7.2 g/dL, MCV 110 fL, 혈소판 10,000/mm³이다. 말초혈액도말에서 과분엽 호중구가 보이며, 소장조영술에서 말단회장의 내강이 실처럼 좁아진 소견이 있다. 가장 가능성 높은 진단은?
+크론병으로 말단 회장을 절제한 45세 여성이 손발 저림과 보행 불안정을 호소한다. 혈색소 9.2 g/dL, MCV 110 fL이고 혈액도말에서 과분엽 호중구가 보인다. 가장 먼저 의심할 결핍은?
 
 ## 선택지
 
-A. 셀리악병
-B. 크론병
-C. 세균 과증식
-D. 갑상선기능저하증
+A. 엽산
+B. 비타민 B12
+C. 철
+D. 비타민 D
 
 ## 해설
 
 
-말단 회장의 협착, 비혈성 설사, 복통, 저림·작열감, 거대 적혈구성 빈혈, 저혈소판증, 과분엽 호중구는 크론병에 동반되는 비타민 B12 결핍을 시사한다. 따라서 가장 가능성 높은 진단은 크론병이다.
+비타민 B12는 말단 회장에서 흡수된다. 회장 절제 후 거대적혈구 빈혈과 신경 증상이 함께 생기면 B12 결핍을 의심한다. 엽산 결핍도 거대적혈구 빈혈을 일으키지만 이 회장 절제력과 신경 소견은 B12에 더 잘 맞는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 갑상선기능저하증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001025
+- https://doi.org/10.1093/ecco-jcc/jjad108

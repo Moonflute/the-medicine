@@ -13,9 +13,9 @@ related_diseases:
   - "disseminated gonococcal infection"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-yehOq3oCDqsJDsl7wgKEdvbm9jb2NjYWwgSW5mZWN0aW9uKS5tZA
-question_type: management
+question_type: investigation
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-32세 남성이 오른쪽 무릎, 왼쪽 팔꿈치, 왼쪽 손목의 통증으로 내원하였다. 증상은 약 일주일 전 시작되었으나 특히 손목에 국한되어 나타나고 있다. 환자는 2명의 성 파트너가 있다고 밝혔다. 또한 음경에서 흰색 분비물이 나오고 가려움증과 배뇨 시 통증이 있다고 한다. 체온은 36.4°C, 혈압은 124/84 mmHg, 맥박은 80회/분, 호흡수는 12회/분, 실내 공기에서 산소 포화도는 98%이다. 신체 검진상 왼쪽 손목을 촉진할 때 통증이 있으며, 해당 부위는 발적과 부종이 관찰된다. 이 환자의 관리로 가장 적절한 다음 단계는 무엇인가?
+배뇨통이 생긴 뒤 여러 관절이 아프다가 한쪽 손목이 붉고 부었다. 혈압은 안정적이고 아직 항생제를 쓰지 않았다. 감염성 관절염과 파종성 임균 감염이 의심될 때 손목에서 우선 할 검사는?
 
 ## 선택지
 
-A. 관절천자(Arthrocentesis)
-B. 아지스로마이신(Azithromycin), 세프트리악손(Ceftriaxone), 반코마이신(Vancomycin)
-C. 메토트렉세이트(Methotrexate)
-D. MRI
+A. 손목 MRI 결과가 나온 뒤 모든 검체 채취를 시작한다
+B. 손목 X선만으로 관절 감염을 배제한다
+C. 관절강에 스테로이드를 주사한 뒤 반응을 본다
+D. 관절천자로 세포 수, 그람염색·배양과 결정을 검사한다
 
 ## 해설
 
 
-요도염 증상과 이동성 관절통 뒤 생긴 붉고 부은 손목은 파종 임균감염을 포함한 감염성 관절염을 의심하게 한다. 현재 쇼크가 없는 환자에서는 항생제 전 관절천자로 세포수, Gram 염색·배양과 결정 검사를 시행하는 A가 적절하다. 임균은 관절액에서 검출되지 않을 수도 있어 요도 등 노출 부위 NAAT·배양과 혈액배양도 함께 고려한다. 검사를 이유로 필요한 항생제를 지연하거나 methotrexate를 시작하지 않는다.
+안정적인 감염성 관절염 의심 환자에서는 항생제 전 관절액을 신속히 채취한다. 임균이 의심되면 관절액 검사가 음성이더라도 노출된 점막 등에서 별도로 검사한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. MRI
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001129
+- https://jbji.copernicus.org/articles/8/29/2023/

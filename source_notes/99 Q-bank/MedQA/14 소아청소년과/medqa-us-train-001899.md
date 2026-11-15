@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64eM7KCE7KadIOyngOyGjeymnSAoU3RhdHVzIEVwaWxlcHRpY3VzKS5tZA
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ related_drug_slugs:
 
 ## 문제
 
-이전에 건강하던 5세 남아가 하루 동안 지속된 고열로 응급실에 왔다. 도착 전 체온은 40.0°C (104°F)였다. 직장 acetaminophen을 투여했으나 대기실에서 의식이 없어지고 팔다리를 반복적으로 떨기 시작했다. 혈당은 86 mg/dL이다. 5분 후에도 경련이 지속되고 말이나 통증 자극에 반응하지 않는다. 다음 중 가장 적절한 관리 단계는 무엇인가?
+5세 아이가 열이 나면서 6분째 전신 경련을 한다. 기도와 호흡을 평가했고 혈당은 정상이다. 정맥로가 이미 있다. 가장 먼저 투여할 항경련제는?
 
 ## 선택지
 
-A. lorazepam 정맥투여
-B. phenobarbital 정맥투여
-C. 혈액 배양 채취
-D. fosphenytoin 정맥투여
+A. 경구 발프로산
+B. 정맥 페니토인 단독으로 시작
+C. 정맥 로라제팜
+D. 정맥 레베티라세탐을 첫 약으로 투여
 
 ## 해설
 
 
-고열에 의한 지속적인 전신 발작(상태성 발작)에서는 즉시 벤조디아제핀(예: 로라제팜) 정맥주사가 1차 치료이다. 다른 항경련제는 2차 옵션이며 혈액 배양은 급성 상황에서 우선순위가 아니다. 따라서 가장 적절한 조치는 로라제팜 정맥투여이다.
+5분 이상 계속되는 전신 경련은 응급 치료가 필요하다. 정맥로가 확보돼 있으면 로라제팜 등 벤조디아제핀을 먼저 투여하고 호흡을 감시한다. 경련이 계속되면 다음 단계 치료로 넘어간다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001899
+- https://www.nice.org.uk/guidance/ng217/chapter/treating-status-epilepticus-repeated-or-cluster-seizures-and-prolonged-seizures

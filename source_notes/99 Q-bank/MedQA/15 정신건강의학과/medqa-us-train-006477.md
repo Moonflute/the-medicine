@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOu2hCDsnqXslaAgKEJpcG9sYXIgYW5kIFJlbGF0ZWQgRGlzb3JkZXJzKS5tZA
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,23 +38,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여성이 번화한 도심 광장에서 옷을 벗은 채 발견되어 구급대에 의해 응급실로 이송되었다. 환자는 물질적 욕망에서 사람들을 해방시키고 있다고 말하며 물건을 부수고 있었다. 체온은 99.5°F(37.5°C), 혈압은 127/68 mmHg, 맥박은 분당 120회, 호흡수는 분당 22회, 실내 공기에서 산소포화도는 98%이다. 환자가 공격적이어서 신체진찰은 시행하지 못했다. 디펜히드라민과 할로페리돌을 투여하고 정신과 병동으로 이송했다. 병동 입원 1일째에는 공격성과 초조가 사라지고 진정되었으나 심한 우울감을 느끼며 자살하고 싶다고 말했다. 약물을 시작하고 면밀히 관찰했다. 입원 3일째 방에서 국가의 에너지 문제를 개혁할 거대한 계획을 세우고 있는 모습이 발견되었다. 다음 중 이 환자에게 시작된 약물로 가장 가능성 높은 것은?
+양극성 I형 장애 환자가 우울 삽화로 항우울제를 복용 중이었다. 며칠 동안 잠을 거의 자지 않아도 피곤하지 않고 말이 빨라졌으며, 위험한 지출과 과대망상으로 입원했다. 약을 어떻게 조정할까?
 
 ## 선택지
 
-A. 리튬
-B. 올란자핀
-C. 쿠에티아핀
-D. 설트랄린
+A. 항우울제를 증량해 기다린다
+B. 항우울제 중단을 검토하고 급성 조증 치료를 시작한다
+C. 현재 입원했으므로 항우울제를 그대로 두고 수면제만 추가한다
+D. 항우울제를 한 종류 더 추가한다
 
 ## 해설
 
-이미 조증 양상이 있었던 환자에게 새 약을 투여한 뒤 다시 과대성·목표지향 활동 증가가 나타났으므로, 제시된 약물 중 항우울제 설트랄린에 의한 조증 전환을 추론하는 문제이다. 설트랄린이 양극성 우울의 적절한 단독 일차 처방이라는 뜻은 아니다. 조증이나 혼재 양상이 있으면 항우울제를 재평가하고 적절한 기분조절 치료를 선택해야 한다.
+뚜렷한 조증이 생기면 항우울제를 재평가하고 항조증 치료를 시작한다. 항우울제 증량이나 항우울제 단독 지속은 조증 치료가 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006477
+- https://www.jknpa.org/DOIx.php?id=10.4306%2Fjknpa.2026.65.2.108
 
 ## 검수 근거
 

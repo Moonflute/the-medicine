@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: diagnosis
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-68세 남성이 1년간 점점 심해지는 호흡곤란과 생산성 기침으로 건강검진을 받으러 왔다. 30년간 하루 한 갑을 피웠지만 16년 전 금연했고 조선소에서 일하다 5년 전 은퇴했다. 산소포화도는 93%, 양쪽 폐에 산재한 호기성 천명과 거친 호흡음이 있으며 폐활량검사에서 FEV1/FVC 63%, FEV1 65%, DLCO 40%이다. 소견의 가장 가능성 높은 원인은?
+68세 남성이 1년간 점점 심해지는 호흡곤란과 가래가 섞인 기침으로 건강검진을 받으러 왔다. 30년간 하루 한 갑을 피웠지만 16년 전 금연했고 조선소에서 일하다 5년 전 은퇴했다. 산소포화도는 93%, 양쪽 폐에 산재한 호기성 천명과 거친 호흡음이 있으며 폐활량검사에서 FEV1/FVC 63%, FEV1 65%, DLCO 40%이다. 소견의 가장 가능성 높은 원인은?
 
 ## 선택지
 

@@ -23,6 +23,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64-Z66el6rSAIOqwnOyhtOymnSAoUGF0ZW50IER1Y3R1cyBBcnRlcmlvc3VzKS5tZA
 difficulty: simple
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: gemini-2.5-flash-lite

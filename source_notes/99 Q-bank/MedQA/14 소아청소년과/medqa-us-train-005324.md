@@ -13,10 +13,10 @@ related_diseases:
   - "아동 성적 학대 의심"
   - "의무 신고"
   - "성적 학대 전문 평가"
-question_type: ethics
+question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,18 +33,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-13세 여아가 한 달 동안 친구와 부모에게 화를 내고 학교를 자주 빠지며, 새 미술교사가 부적절하게 만졌다는 이야기를 반복해 부모가 내원했다. 어머니는 최근 이혼 때문이라고 생각하지만 성적 학대 가능성이 있다. 다음 중 평가에서 가장 적절한 다음 단계는?
+13세 청소년이 진료 중 교사에게 원하지 않는 신체 접촉을 당했다고 말한다. 급성 손상이나 불안정 소견은 없고 다시 마주치는 것이 두렵다고 한다. 의료진의 대응은?
 
 ## 선택지
 
-A. 성병 선별검사
-B. 철저한 비뇨생식기 진찰
-C. 성적 학대 확인을 위한 전문기관 의뢰
-D. 환자와 부모를 가족치료에 의뢰
+A. 교사와 대면해 진술이 일치할 때까지 조치를 보류한다
+B. 보호자가 확신하지 않으면 신고나 진료가 필요 없다
+C. 여러 사람이 같은 진술을 상세히 반복해서 받는다
+D. 안전을 확보하고 학대 의심을 신고하며 전문 평가·지원을 연결한다
 
 ## 해설
 
-아동의 진술을 이혼에 따른 꾸며낸 이야기로 일축하지 않는다. 안전을 확인하고 의심 단계에서 해당 관할의 신고 의무를 이행하며 전문 성학대 평가기관(C)에 연계한다. 전문 평가에는 외상에 민감한 면담·진찰 및 필요시 감염검사가 포함된다. 학대의 확정을 기다리거나 필요한 응급 진료를 뒤로 미룬다는 뜻은 아니다.
+의료진은 의심만으로도 신고 의무가 있으며 청소년이 다시 위험에 노출되지 않는지 확인한다. 비난하거나 불필요하게 진술을 반복시키지 않고 전문기관의 외상에 민감한 진료와 지원을 연결한다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ D. 환자와 부모를 가족치료에 의뢰
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005324
+- https://law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1033213513
+- https://www.ncbi.nlm.nih.gov/books/NBK493107/

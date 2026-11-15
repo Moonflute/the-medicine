@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-u-sOyhsSDsvZjrlJzroZzrp4ggKENvbmR5bG9tYSBBY3VtaW5hdHVtKS5tZA
 question_type: prevention
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-19세 남자가 연례 건강검진을 받으러 왔다. 영유아와 10세까지의 예방접종은 완료했고 12세에 Tdap과 4가 수막구균 백신을 1회 접종했다. 다음 중 가장 적절한 추가 예방접종 권고는?
+2026년 5월 이후 국내에서 2014년생 남아가 처음 HPV 예방접종을 받으러 왔다. 면역저하나 접종 금기는 없다. 국가예방접종 사업으로 안내할 방법은?
 
 ## 선택지
 
-A. A형간염 백신
-B. 대상포진 백신
-C. 사람유두종바이러스 백신
-D. 파상풍 및 감량 디프테리아 톡소이드 추가접종
+A. 남아는 국가예방접종 사업에서 제외된다
+B. HPV 4가 백신을 6개월 간격으로 총 2회 접종한다
+C. HPV 백신을 1회 접종하면 사업 기준에 따라 완료된다
+D. HPV 9가 백신을 0·2·6개월에 3회 무료 접종한다
 
 ## 해설
 
 
-19세 미완료 HPV 백신은26세까지 catch-up 대상이므로 C가 적절하다.12세 Tdap 후7년이라 일반적인10년 Td/Tdap booster 시점이 아직 아니지만 과거 Tdap1회가 평생 파상풍/디프테리아 추가접종을 없애는 것은 아니다. 수막구균 등 전체 접종력 보완도 실제 진료에서 확인하며 이 문항은 주어진 선택지의 비교다.
+질병관리청은 2026년 5월 6일부터 2014년생 남아를 국가 HPV 예방접종 대상에 넣었다. 지원 백신은 HPV 4가이며 이 연령은 첫 접종과 6개월 뒤 접종을 받는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 파상풍 및 감량 디프테리아 톡소이드 추가접종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005243
+- https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=132&menuLv=1

@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-q4sOumveyEsSDsoIDtmIjslZUgKE9ydGhvc3RhdGljIEh5cG90ZW5zaW9uKS5tZA
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,7 +40,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-말초동맥질환으로 왼쪽 하지 무릎 위 절단술을 받은 70세 남성이 수술 24시간 후 쇠약과 어지럼증으로 내원했다. 제2형 당뇨병과 고혈압으로 메트포르민 및 리시노프릴을 복용한다. 체온은 38.2°C이고, 수술 중 출혈이 많았고 누운 자세에서 혈압 120/70 mmHg, 일어선 자세에서 90/65 mmHg로 떨어졌다. 다음 중 가장 적절한 다음 처치는?
+말초동맥질환으로 왼쪽 하지 무릎 위 절단술을 받은 70세 남성이 수술 24시간 후 쇠약과 어지럼증으로 내원했다. 제2형 당뇨병과 고혈압으로 메트포르민 및 리시노프릴을 복용한다. 체온은 38.2°C이고, 수술 중 출혈이 많았고 누운 자세에서 혈압 120/70 mmHg, 일어선 자세에서 90/65 mmHg로 떨어졌다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

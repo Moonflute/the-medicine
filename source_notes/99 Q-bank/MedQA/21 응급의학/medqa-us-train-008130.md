@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,19 +32,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-27세 남자가 정면충돌 교통사고 후 응급실에 왔다. 안전벨트를 매지 않은 운전자였고 의식은 흐리며 통증을 호소한다. 큰 열상이 여러 개 있고 금속 조각에 찔렸다. 정맥로 확보가 되지 않아 FAST 검사를 시행 중이다. 체온 98.2°F(36.8°C), 혈압 90/48 mmHg, 맥박 150회/분, 호흡수 13회/분, 산소포화도 98%이다. 다음 중 가장 적절한 다음 처치는?
+교통사고 뒤 혈압 76/42 mmHg인 환자에게 출혈성 쇼크가 의심된다. 지혈과 소생을 진행 중인데 말초 정맥로 확보에 반복해 실패했다. 수혈과 응급약 투여를 위해 신속히 확보할 경로는?
 
 ## 선택지
 
-A. 경구 수액 투여
-B. 탐색적 개복술
-C. 골내 접근 확보
-D. 정맥로 재확보 시도
+A. 경구 투여
+B. 골내 접근
+C. 피하 주입
+D. 혈압이 회복될 때까지 확보 보류
 
 ## 해설
 
 
-심한 저혈압·빈맥·외상 상황에서 정맥 접근이 어려우면 골내 접근이 가장 빠른 혈관 확보 방법이다. 따라서 골내 접근이 적절하다.
+응급 소생에서 말초 정맥로가 확보되지 않으면 골내 접근으로 약과 수액 또는 혈액제제를 투여할 수 있다. 지혈과 소생을 계속하며 추가 접근로를 확보한다.
 
 ## 출처
 

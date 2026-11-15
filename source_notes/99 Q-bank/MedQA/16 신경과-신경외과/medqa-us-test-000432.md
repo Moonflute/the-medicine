@@ -13,11 +13,11 @@ related_diseases:
   - "다발성경화증"
   - "뇌간 병변"
   - "신경인성 방광"
-question_type: investigation
+question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-24세 여성이 소변을 볼 수 없어 응급실에 왔다. 최근 여러 증상이 있었으며 때때로 말하기 어렵고 시야 변화가 있었지만 한 달 전 발생한 뒤 호전되었다. 이틀 전에는 양치하거나 얼굴 털을 뽑을 때 악화되는 극심한 얼굴 통증이 있었다. 관련 과거력은 없으나 지난 1년 동안 남자친구에게 성적 학대를 당했다고 한다. 생리통에 이부프로펜을 복용한다. 진찰에서 왼쪽으로 주시할 때 왼쪽 눈만 왼쪽을 향하고 오른쪽 눈은 움직이지 않는 소견이 보였다. 활력징후는 정상이었고 창백하고 겁에 질린 젊은 여성이 추가 평가를 기다리고 있었다. 주호소에 대한 초기 검사로 가장 적절한 것은?
+24세 환자가 왼쪽을 볼 때 오른눈이 코 쪽으로 움직이지 못하고 왼눈은 바깥쪽으로 떨린다. 양안 모음은 유지되고 동공은 정상이다. 병변의 위치는?
 
 ## 선택지
 
-A. 두부 CT
-B. 두부 MRI
-C. 요추천자
-D. 가정폭력 선별 및 생활 스트레스 탐색
+A. 왼쪽 외전신경
+B. 오른쪽 동안신경 전체
+C. 왼쪽 안쪽세로다발
+D. 오른쪽 안쪽세로다발
 
 ## 해설
 
-좌측 주시에서 왼눈은 외전하지만 오른눈이 내전하지 못하는 것은 오른쪽 핵간안근마비를 시사한다. 이전 시각·언어 증상, 삼차신경통 양상 및 배뇨장애와 함께 다발성 탈수초질환을 고려하므로 제시된 검사 중 뇌 MRI(B)가 적절하다. MRI만으로 MS를 확진하는 것은 아니며 병력·진찰·검사와 진단기준을 함께 적용한다. 성폭력 진술에 대한 안전평가와 지원도 신경학적 평가와 병행해야 한다.
+오른눈의 내전 장애와 왼눈의 외전 안진은 오른쪽 핵간안근마비다. 내전이 안 되는 쪽의 안쪽세로다발(MLF)에 병변이 있다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 가정폭력 선별 및 생활 스트레스 탐색
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000432
+- https://pubmed.ncbi.nlm.nih.gov/40975101/

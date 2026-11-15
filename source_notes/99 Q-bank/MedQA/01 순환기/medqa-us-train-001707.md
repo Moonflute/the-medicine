@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-75세 남성이 3개월 동안 지속된 왼쪽 허벅지와 종아리 통증으로 응급실에 내원했다. 통증은 안정 시에도 있고 걸으면 심해지며 발을 침대 아래로 늘어뜨리면 약간 호전된다. 25년 동안 고혈압, 30년 동안 제2형 당뇨병이 있고 45년 동안 하루 30–40개비를 피웠다. 양측 대퇴·오금·발등동맥 맥박은 약하고 발목-상완지수는 0.30이다. 항혈소판제와 위험인자 교정을 시작했다. 다음 중 가장 적절한 다음 단계는 무엇인가?
+75세 남성이 3개월 동안 지속된 왼쪽 허벅지와 종아리 통증으로 응급실에 내원했다. 통증은 안정 시에도 있고 걸으면 심해지며 발을 침대 아래로 늘어뜨리면 약간 호전된다. 25년 동안 고혈압, 30년 동안 제2형 당뇨병이 있고 45년 동안 하루 30–40개비를 피웠다. 양측 대퇴·오금·발등동맥 맥박은 약하고 발목-상완지수는 0.30이다. 항혈소판제와 위험인자 교정을 시작했다. 가장 적절한 다음 단계는 무엇인가?
 
 ## 선택지
 

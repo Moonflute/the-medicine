@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-50세 백인 남성이 8시간 동안 지속된 등으로 방사되는 심한 복통, 오심 및 여러 차례 구토로 응급실에 내원했다. 특별한 과거력은 없다. 혈압은 90/60 mm Hg, 맥박은 분당 120회, 호흡수는 분당 20회, 체온은 37.8°C(100°F)이다. 진찰에서 심한 심와부 압통과 감소된 장음이 있다. 혈청 리파아제와 아밀라아제가 상승했고 빠르게 악화되어 한 달 동안 중환자실 치료를 받았다. 안정된 후 일반병동으로 전실되었으며 복부 CT에서 균일한 밀도의 경계가 잘 지어진 액체 저류가 보였다. 다음 중 발생한 상태를 가장 잘 설명하는 것은?
+급성 췌장염이 발생한 지 6주 됐다. CT에서 췌장 주변에 벽이 뚜렷하고 내용물이 균일한 액체 저류가 보인다. 고형 잔해나 괴사 소견은 없다. 무엇인가?
 
 ## 선택지
 
 A. 췌장 가성낭종
 B. 피막화 괴사
 C. 급성 괴사성 저류
-D. 췌장암
+D. 급성 췌장주위 액체 저류
 
 ## 해설
 
 
-급성 췌장염 후 CT에서 균일한 밀도의 경계가 뚜렷한 액체 저류는 가성낭종을 의미한다. 괴사성 변형은 불균일하고 고형성 물질이 포함된다. 따라서 가장 적절한 설명은 췌장 가성낭종이다.
+4주가 지난 뒤 벽이 형성되고 고형 괴사물 없이 액체만 찬 병변은 가성낭종이다. 피막화 괴사는 벽이 있어도 내부에 괴사물이 있다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 췌장암
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006519
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9840919/

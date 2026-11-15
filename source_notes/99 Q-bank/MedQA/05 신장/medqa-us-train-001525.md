@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55갑년 흡연력, 제2형 당뇨병 및 고지혈증이 있는 67세 남성이 연례검진을 위해 내원했다. 증상은 없고 혈당은 잘 조절되며 5개월 전부터 담배를 피우지 않았다. 체온은 97.5°F (36.4°C), 혈압은 182/112 mmHg, 맥박은 85회/분, 호흡수는 15회/분, 산소포화도는 95%이다. 배꼽 양옆에서 양측성 혈관잡음이 들린다. 베타차단제, 티아지드 이뇨제 및 칼슘통로차단제로 치료했으나 한 달 후에도 혈압 변화가 없다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+67세 남성이 이뇨제를 포함한 항고혈압제 3제를 충분히 복용하는데도 혈압이 168/96 mmHg다. 복부 혈관잡음이 들리고 eGFR은 24 mL/min/1.73m²이다. 조영제 없이 신동맥 협착을 평가할 첫 검사는?
 
 ## 선택지
 
-A. 복부·골반 CT
-B. 현재 혈압약 용량 증가
-C. 리시노프릴
-D. 도플러를 이용한 신장 초음파
+A. 조영증강 복부 CT 혈관조영술
+B. 신장 생검
+C. 조영증강 자기공명혈관조영술
+D. 신동맥 이중 도플러 초음파
 
 ## 해설
 
 
-고혈압 치료에도 혈압이 조절되지 않을 때 신장동맥 협착을 의심한다. 도플러 초음파는 비침습적으로 신장동맥 혈류를 평가해 협착 여부를 확인하는 첫 번째 검사이다. 따라서 도플러를 이용한 신장 초음파가 적절하다.
+신동맥 도플러 초음파로 조영제 없이 신동맥의 혈류 속도와 협착 가능성을 평가한다. 검사 적합성과 후속 영상은 신기능, 체형과 검사 결과에 따라 결정한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 도플러를 이용한 신장 초음파
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001525
+- https://acsearch.acr.org/docs/69374/Narrative/

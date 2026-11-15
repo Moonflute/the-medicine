@@ -16,9 +16,9 @@ related_diseases:
   - "Patellar tendinitis"
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yVhO2CrOugiOyKpCDqsbTrs5Hspp0gKEFjaGlsbGVzIFRlbmRpbm9wYXRoeSkubWQ
-question_type: diagnosis
+question_type: management
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-17세 여아가 한 달 동안 점점 악화된 오른쪽 무릎 통증으로 진료를 받으러 왔다. 계단을 오르내릴 때와 수업이 끝날 무렵 더 뚜렷하며, 슬개골 하극에 부종이나 피부 변화 없이 압통이 있다. 통증 때문에 농구를 하기 어려워 아버지가 걱정하며, 대학 스카우트가 경기를 보러 올 예정이다. 만성질환은 없고 소아기에 편도절제술을 받았다. 종합비타민과 필요시 ibuprofen을 복용한다. 가장 가능성 높은 진단은?
+22세 농구 동호인이 점프와 착지 때 무릎 앞이 아프다. 압통은 슬개골 바로 아래 힘줄에 국한되고, 관절 삼출 없이 무릎을 완전히 펼 수 있다. 슬개건병증의 초기 치료는?
 
 ## 선택지
 
-A. 오스구드-슐라터병
-B. 슬개골 피로골절
-C. 슬개건염
-D. 슬개대퇴증후군
+A. 무릎 고정 후 증상이 없어질 때까지 운동 금지
+B. 통증을 유발하는 부하를 조절하고 힘줄·넙다리네갈래근 강화 운동을 단계적으로 시행
+C. 슬개건에 스테로이드 주사를 우선 시행
+D. 증상 지속 기간과 관계없이 슬개건 수술 시행
 
 ## 해설
 
 
-무릎 전방 통증과 압통이 슬개골 하극에 국한된 경우 슬개건염이 가장 흔한 원인이다. 따라서 진단은 슬개건염이다.
+슬개건병증은 점프량 등 급격한 부하를 줄이면서 통증 반응에 맞춰 단계적으로 강화·복귀하는 운동 치료를 우선한다. 힘줄 주사나 수술부터 시작하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 슬개대퇴증후군
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001184
+- https://pubmed.ncbi.nlm.nih.gov/39045713/

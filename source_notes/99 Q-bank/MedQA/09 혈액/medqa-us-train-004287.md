@@ -15,9 +15,9 @@ related_diseases:
   - "부분트롬보플라스틴시간"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-2PsCDruYzroIjruIzrnoDtirjrs5EgKHZvbiBXaWxsZWJyYW5kIERpc2Vhc2UsIHZXRCkubWQ
-question_type: 임상증례 객관식
+question_type: investigation
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-15세 여자가 4개월간 지속된 과다월경으로 내원했다. 어머니는 4개월 전 초경을 시작한 뒤 월경량이 많고 오래 지속되었다고 한다. 3년 전 치아를 뽑은 후 출혈이 지속된 적이 있다. 다른 병력과 복용약은 없고 활력징후와 신체검사는 정상이다. 이 환자 평가에서 진단적 가치가 가장 높은 검사는 무엇인가?
+발치 뒤 출혈력과 과다월경이 있는 15세 환자다. 대량 출혈로 응급실에 왔을 때 채취한 폰빌레브란트인자 항원과 활성은 모두 하한선 가까이 정상이었다. 유전 출혈질환 의심이 여전히 높다면 어떻게 하는가?
 
 ## 선택지
 
-A. 제9응고인자 검사
-B. 부분트롬보플라스틴시간(PTT)
-C. 항카디오리핀 항체
-D. 프로트롬빈시간(PT)
+A. 급성 출혈과 스트레스가 가라앉고 건강 상태가 안정된 뒤 검사를 다시 시행한다
+B. 정상 결과이므로 앞으로 출혈력은 확인하지 않는다
+C. 출혈이 가장 심할 때만 검사해 가장 낮은 값을 얻는다
+D. 급성기 수치만으로 특정 폰빌레브란트병 아형을 확진한다
 
 ## 해설
 
 
-초경부터의 과다월경과 발치 후 지속 출혈은 vWD 등 선천 출혈질환을 의심하게 한다. 선택지 중 aPTT B는 vWF 저하에 동반된 VIII 감소 등 내인성 경로 이상을 발견할 수 있어 의미가 있다. 하지만 aPTT는 혈소판 기능검사가 아니고 경한 vWD에서 정상일 수 있어 가장 민감한 확진검사라고 할 수 없다. 실제로 혈소판 수·vWF 항원/활성·VIII 등을 출혈 병력과 함께 평가한다.
+폰빌레브란트인자는 급성기 반응물질이라 출혈과 스트레스 중 높아져 결핍이 가려질 수 있다. 의심이 남으면 안정 상태에서 항원과 활성을 다시 확인한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 프로트롬빈시간(PT)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004287
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7805340/

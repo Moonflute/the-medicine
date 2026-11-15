@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-qzqOyImO2YleyEseydtOyDgSDspp3tm4TqtbAgKE15ZWxvZHlzcGxhc3RpYyBTeW5kcm9tZSwgTURTKS5tZA
 question_type: diagnosis
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-75세 남성이 운동 시 호흡곤란과 피로로 진료를 받으러 왔다. 결막이 창백하고 혈색소 8.5 g/dL, MCV 105 μm³이며 말초도말에서 큰 저과립 혈소판과 저분절 또는 고리 모양 핵의 호중구가 보인다. 골수는 과세포성이고 고리철적아구와 이형성이 있고 골수모세포는 4%이다. 가장 잘 설명하는 진단은?
+75세 환자의 대적혈구성 빈혈과 혈소판감소가 수개월간 지속된다. 비타민 B12·엽산·구리 검사는 정상이다. 말초도말에 저과립 혈소판과 저분절 호중구가 보이고, 골수에 여러 혈구 계열의 이형성이 있으며 모세포는 4%다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 급성 골수성 백혈병
-B. 재생불량성 빈혈
-C. 골수이형성증후군
-D. 원발성 골수섬유증
+A. 재생불량성 빈혈
+B. 골수형성이상종양
+C. 급성 림프모구성 백혈병
+D. 철결핍성 빈혈
 
 ## 해설
 
 
-거대적혈구성 빈혈, 저과립 혈소판과 저분절 호중구(pseudo-Pelger-Huët 양상), 과세포성 골수의 다계열 이형성은 골수이형성증후군(C)에 부합한다. 원문의 골수모세포는 4%이며, 저분절을 거대핵성 호중구라고 부르는 것은 부정확하다. 고리철적아구는 보조 단서이며 분자·염색체 검사를 포함한 정식 분류가 필요하다.
+지속적인 혈구감소와 다계열 이형성은 골수형성이상종양을 시사한다. 가역적인 원인을 배제하고 골수의 염색체·분자 소견으로 세부 분류와 위험도를 판단한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 원발성 골수섬유증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000872
+- https://doi.org/10.1038/s41375-022-01613-1

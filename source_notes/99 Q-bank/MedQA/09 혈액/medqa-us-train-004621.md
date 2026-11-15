@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-yaqe2YiOyEsSDruYjtmIggKEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: investigation
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,26 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-3세 남아가 4주 동안 지속된 전신 피로와 권태감으로 내원했다. 만삭으로 태어났고 그 후 건강했다. 어머니에게 반복적인 빈혈 병력이 있다. 창백해 보인다. 체온은 37°C (98.6°F), 맥박은 분당 97회이다. 진찰에서 창백한 결막과 황달이 보이고 비장이 왼쪽 늑골연 아래 3~4cm 만져진다. 검사 결과는 다음과 같다.
-헤모글로빈 9.3 g/dL
-평균 적혈구 용적 81.3 μm3
-평균 적혈구 혈색소 농도 39% Hb/cell
-백혈구 7,300/mm3
-혈소판 200,000/mm3
-적혈구 분포 폭 19% (정상 13~15)
-다음 중 진단을 가장 잘 확진할 검사는 무엇인가?
+3세 아이가 반복 황달과 빈혈로 진료받는다. 어머니도 비슷한 병력이 있다. 비장비대와 구형적혈구가 있고 용혈 지표는 증가했지만 직접항글로불린검사는 음성이다. 유전구형적혈구증을 확인하는 데 도움이 되는 검사는?
 
 ## 선택지
 
-A. 형광점 검사
-B. Eosin-5-maleimide 결합검사
-C. 간접 항글로불린검사
-D. 말초혈액도말
+A. CD55·CD59 결핍 검사
+B. 비타민 B12 농도
+C. 에오신-5-말레이미드 결합 유세포분석
+D. 직접항글로불린검사 양성 여부만 반복
 
 ## 해설
 
 
-가족성 빈혈·황달·비장비대와 MCHC 증가가 유전구형적혈구증을 시사한다. Eosin-5-maleimide(EMA)는 band3 등 막 단백에 결합하는 형광염료로, 유세포분석에서 결합 형광이 감소하면 진단을 지지하여 B가 적절하다. EMA를 적혈구막 단백의 이름이라고 설명하면 안 된다. 일부 다른 막질환에서도 감소할 수 있어 임상 및 다른 용혈 검사와 결합한다.
+구형적혈구가 보이는 비면역성 용혈에 가족력이 있으면 유전구형적혈구증을 의심한다. 에오신-5-말레이미드 결합 검사의 형광 감소는 진단에 도움이 된다.
 
 ## 검수 근거
 
@@ -66,3 +59,4 @@ D. 말초혈액도말
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004621
+- https://pubmed.ncbi.nlm.nih.gov/35593002/

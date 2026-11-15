@@ -13,13 +13,13 @@ related_diseases:
   - "다발성경화증"
   - "나탈리주맙"
   - "진행성 다초점 백질뇌병증"
-question_type: adverse_effect
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ related_drug_slugs:
 
 ## 문제
 
-38세 여자가 다발성경화증 추적 진료를 받으러 왔다. 3주 전 우측 하퇴 근력저하 악화로 입원해 고용량 메틸프레드니솔론을 5일간 투여받았다. 지난 6개월 동안 4번의 악화가 있었고 현재 인터페론 베타를 사용 중이다. 반복되는 악화와 입원에 불안해하여 2차 치료인 나탈리주맙에 동의했지만 부작용을 걱정한다. 이 환자에서 위험이 증가하는 합병증은?
+나탈리주맙 치료 중인 다발성경화증 환자에게 수주에 걸쳐 실어증과 한쪽 팔다리의 위약이 진행한다. MRI에서 새 비전형적 백질 병변이 보인다. 다음 처치는?
 
 ## 선택지
 
-A. 진행성 다초점 백질뇌병증
-B. 파킨슨증
-C. 결핵
-D. 재생불량성 빈혈
+A. 나탈리주맙을 보류하고 진행성 다초점 백질뇌병증을 신속히 평가한다
+B. 평소 재발과 같다고 보고 나탈리주맙을 유지한다
+C. MRI를 확인하지 않고 장기간 경구 스테로이드를 투여한다
+D. 언어 재활만 시행하고 다음 투여일에 재평가한다
 
 ## 해설
 
 
-나탈리주맙은 PML(진행성 다초점 백질뇌병증) 위험을 증가시킨다. 이는 JC 바이러스 재활성화에 의한 중증 뇌질환이다. 따라서 진행성 다초점 백질뇌병증이 가장 위험한 합병증이다.
+나탈리주맙 치료 중 점진적인 새 신경 결손과 비전형적 백질 병변이 나타나면 진행성 다초점 백질뇌병증을 의심해 투여를 보류하고 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004871
+- https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=201209483

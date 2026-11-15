@@ -16,11 +16,11 @@ related_diseases:
   - "postmenopausal breast mass"
 related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
-question_type: management
+question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-59세 여성이 6개월간 지속된 유방 종괴로 내원했다. 왼쪽 유방에서 2×2 cm 종괴가 만져졌고 액와 림프절병증은 없었다. 다음 중 병력에 근거한 가장 적절한 다음 처치는?
+59세 여성이 새로 생겨 지속되는 왼쪽 유방 종괴로 내원했다. 최근 유방 영상은 없으며 액와 림프절은 만져지지 않는다. 첫 영상 평가로 적절한 것은?
 
 ## 선택지
 
-A. 일반외과 의뢰
-B. 유방촬영술
-C. 종괴 생검
-D. 유방 자가검진을 계속한다
+A. 무증상 국가암검진 유방촬영만 신청
+B. 진단 유방촬영술을 시행하고 필요에 따라 표적 초음파를 추가
+C. 조영증강 유방 MRI부터 시행
+D. 흉부 조영 CT로 먼저 평가
 
 ## 해설
 
 
-6개월간 지속된 2 cm 크기의 촉진 가능한 유방 종괴는 영상 검사가 우선이다. 유방촬영술은 종양의 형태와 밀도를 평가하고, 추가 조직검사의 필요성을 판단한다. 따라서 가장 적절한 다음 처치는 유방촬영술이다.
+40세 이상에서 만져지는 유방 종괴는 검진이 아닌 진단 목적의 유방촬영으로 먼저 평가한다. 촉진 부위에 표적 초음파를 추가해 영상과 진찰 소견을 연결한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 유방 자가검진을 계속한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003760
+- https://acsearch.acr.org/docs/69495/narrative/

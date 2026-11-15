@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 환자가 자동차 충돌 후 응급실로 이송되었다. 외상 소생실에서 환자를 안정화하려면 기관내 삽관이 필요하다. 파편으로 대퇴동맥이 열상되어 많은 양의 출혈이 있었던 것으로 보인다. 농축 적혈구 13단위를 수혈했다. 활력징후는 체온 96.5°F, 심박수 150회/분, 혈압 90/40mmHg이다. 대퇴동맥을 직접 압박해도 계속 출혈한다. 지난 한 시간 안에 채취한 검사 결과는 아직 대기 중이다. 다음 중 무엇을 투여하는 것이 이 환자의 출혈을 멎게 할 가능성이 가장 높은가?
+외상 환자가 대량수혈 중이고 출혈이 계속된다. 체온과 이온화 칼슘을 교정 중이며 피브리노겐이 95 mg/dL로 확인됐다. 이 응고 이상을 직접 교정할 제제는?
 
 ## 선택지
 
-A. 신선동결혈장과 혈소판
-B. 포도당
-C. 생리식염수
-D. 동결침전제
+A. 농축적혈구만 추가
+B. 프로타민
+C. 피브리노겐 농축제 또는 동결침전제
+D. 헤파린
 
 ## 해설
 
-적혈구만 13단위 투여한 뒤에는 혈소판과 응고인자 부족이 출혈을 악화시킬 수 있어 혈장과 혈소판을 포함한 균형 소생(A)이 필요하다. 동결침전제는 주로 피브리노겐을 보충하는 제제이며 혈소판을 제공하는 제제가 아니다. 실제로는 혈소판 수, 피브리노겐과 응고 상태에 따라 성분을 조절하고 저체온·저칼슘혈증도 교정한다. 열상된 대퇴동맥의 기계적 출혈은 혈액제제만으로 해결되지 않으므로 지혈대 등 적절한 임시 출혈 통제와 응급 혈관 수술을 병행해야 한다.
+심한 출혈과 낮은 피브리노겐이 함께 있으면 농축제나 동결침전제로 보충한다. 다른 혈액제제와 별도로 수치와 응고 상태를 추적하고 출혈원 통제를 계속한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 동결침전제
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008581
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9977110/

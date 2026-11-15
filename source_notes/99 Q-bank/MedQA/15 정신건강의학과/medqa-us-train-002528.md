@@ -13,11 +13,11 @@ related_diseases:
   - "clozapine"
   - "agranulocytosis"
   - "neutropenia"
-question_type: adverse_effect
+question_type: management
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2YuOykkeq1rOqwkOyGjOymnSAoTmV1dHJvcGVuaWEpLm1k
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,24 +38,26 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-30세 남성이 4일간의 발열과 가래 기침으로 응급실에 왔다. 호흡곤란과 흡기 시 악화되는 흉통도 있다. 난치성 조현병과 반복적인 천식 발작이 있으며 2개월 전 교수에게 위해를 가하겠다고 위협해 대학에서 퇴학당했다. 체온 38.5°C, 맥박 90회/분, 호흡 20회/분, 혈압 120/80 mmHg이고 왼쪽 폐에서 수포음과 기관지 호흡음이 들린다. 백혈구 1,100/mm³, 분절 호중구 5%이다. 다음 중 이 환자가 복용 중일 가능성이 가장 높은 약물은?
+클로자핀을 복용하는 38세 환자가 발열과 오한으로 내원했다. 체온 39.1°C, 혈압 88/56 mmHg, 절대호중구수 55/μL다. 즉시 할 처치는?
 
 ## 선택지
 
-A. 클로자핀
-B. 할로페리돌
-C. 리스페리돈
-D. 클로르프로마진
+A. 클로자핀을 감량하고 다음 날 혈구검사를 반복한다
+B. 클로자핀을 중단하고 경험적 정맥 항균제를 즉시 투여한다
+C. 클로자핀을 중단하고 배양 결과가 나온 뒤 항균제를 시작한다
+D. 클로자핀을 유지하고 과립구집락자극인자만 투여한다
 
 ## 해설
 
 
-클로자핀은 백혈구 감소증(특히 호중구 감소증)을 일으키는 위험이 높으며, 환자의 백혈구 수치가 1,100/mm³·호중구 5%인 것은 클로자핀 치료와 일치한다. 따라서 복용 중인 약물은 클로자핀이다.
+중증 호중구감소와 발열·저혈압은 감염 응급상황이다. 클로자핀을 중단하고, 배양을 채취하되 결과를 기다리지 않고 경험적 정맥 항균제를 시작한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002528
+- https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=200307798
+- https://www.idsociety.org/practice-guideline/neutropenic-patients-with-cancer/
 
 ## 검수 근거
 

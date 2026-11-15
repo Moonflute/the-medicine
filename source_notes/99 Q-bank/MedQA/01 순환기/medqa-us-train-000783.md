@@ -17,7 +17,7 @@ question_type: management
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-고혈압을 진단받은 71세 아프리카계 미국인 남성이 외래 진료소에 내원했습니다. 진료소에서 측정한 혈압은 161/88 mm Hg이고 맥박은 88회/분입니다. 과거에도 비슷한 혈압 수치를 보였으며, 이에 캡토프릴(captopril)을 처방했습니다. 그는 약물 복용 시작 직후 입술, 혀, 얼굴이 심하게 부어오르는 증상으로 다시 내원했습니다. 캡토프릴을 중단한 후, 그의 고혈압 관리를 위한 가장 적절한 조치는 무엇입니까?
+71세 남성이 캡토프릴을 시작한 뒤 두드러기 없이 입술과 혀가 부었다. 응급 평가 후 캡토프릴을 중단하자 부종이 호전됐다. 혈압은 여전히 161/88 mmHg이고 심부전이나 알부민뇨는 없다. 이후 사용할 항고혈압제로 적절한 것은?
 
 ## 선택지
 
-A. 캡토프릴 재투여
-B. ARB 투여 시작
-C. 베타 차단제 투여 시작
-D. 티아지드 이뇨제 투여 시작
+A. 저용량 캡토프릴 재투여
+B. 에날라프릴로 변경
+C. 사쿠비트릴/발사르탄으로 변경
+D. 암로디핀으로 변경
 
 ## 해설
 
 
-ACE 억제제에 의한 혈관성 부종이 발생했으므로 캡토프릴을 중단하고 티아지드 이뇨제로 혈압을 조절하는 것이 안전하다. 따라서 다음 단계는 티아지드 이뇨제 투여이다.
+혀와 입술의 부종은 ACE 억제제에 의한 혈관부종에 합당하다. 같은 계열 약은 재투여하지 않으며 ACE 억제제로 인한 혈관부종 병력이 있으면 사쿠비트릴/발사르탄도 피한다. 암로디핀은 이 상황에서 선택할 수 있는 다른 계열의 혈압약이다.
 
 ## 검수 근거
 
@@ -59,3 +59,6 @@ ACE 억제제에 의한 혈관성 부종이 발생했으므로 캡토프릴을 �
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000783
+- https://koreanhypertension.org/reference/guide?idno=10446&mode=read
+- https://www.aaem.org/statements/ed-patients-angioedema-secondary/
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/207620s018lbl.pdf

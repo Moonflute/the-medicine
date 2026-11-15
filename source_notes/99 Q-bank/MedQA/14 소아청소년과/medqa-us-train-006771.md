@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Zi47Z2h6rOk656AIOymne2bhOq1sCAoUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-출생 2시간 후 체중 1,900g(4lb 3oz)인 여아 신생아에게 호흡곤란이 발생했다. 임신 32주에 태어났고 임신성 고혈압이 있었다. 체온은 36.8°C(98.2°F), 맥박은 분당 140회, 호흡수는 분당 64회이다. 사지가 파랗고 끙끙거림과 중등도 늑골하 함몰이 있다. 양쪽 폐의 호흡음이 감소되어 있다. 흉부 X선에서 폐 용적 감소와 미만성 망상과립상 음영이 보인다. 산소를 보충하고 있다. 다음 중 처치로 가장 적절한 다음 단계는?
+재태 32주 미숙아가 출생 직후부터 신음호흡과 흉곽 함몰을 보인다. 자발호흡은 유지되고 심박수는 분당 150회다. 흉부 X선에서 폐 용적 감소와 미만성 망상과립 음영이 보인다. 초기 호흡 지원은?
 
 ## 선택지
 
-A. 코르티코스테로이드 치료
-B. 지속적 양압기도환기
-C. 암피실린과 겐타마이신 치료
-D. 계면활성제 치료
+A. 산소만 투여하고 호흡곤란이 악화될 때까지 지켜본다
+B. 모든 미숙아에게 즉시 침습적 기계환기를 시작한다
+C. 비강 지속양압(CPAP)을 시작한다
+D. 출생 후 스테로이드만 투여한다
 
 ## 해설
 
-미숙아의 조기 호흡곤란과 저용적 망상과립 음영은 계면활성제 결핍 RDS에 부합한다. 자발호흡이 있는 이 경우 초기 비침습적 CPAP(B)가 적절하다. CPAP에도 산소 요구·호흡곤란이 증가하면 구제 계면활성제를 투여할 수 있으므로 CPAP가 모든 상황에서 단독으로 가장 효과적이라는 의미는 아니다.
+미숙아 호흡곤란증후군에 자발호흡이 있으면 비침습적 지속양압으로 폐를 펴는 것이 초기 선택이다. 산소 요구량과 임상 상태가 악화되면 구제 계면활성제를 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 계면활성제 치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006771
+- https://doi.org/10.1159/000551062

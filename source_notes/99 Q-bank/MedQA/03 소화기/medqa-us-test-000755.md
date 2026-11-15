@@ -15,11 +15,11 @@ related_diseases:
   - "담석증"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-38세 여성이 1시간 동안 세 차례 발생한 심한 날카로운 오른쪽 상복부 통증으로 응급실에 왔다. 발작 중 메스꺼움과 구토가 있었으며 설사, 배뇨통, 혈뇨는 없고 발작 사이에는 무증상이다. 고혈압과 고지혈증이 있고 7년 전 중증 크론병으로 회장 말단 절제술을 받았다. 키 155 cm, 체중 79 kg, BMI 32 kg/m²였다. 체온 36.9°C(98.5°F), 맥박 80회/분, 혈압 130/95 mmHg였다. 경미한 공막 황달과 오른쪽 상복부 압통이 있었으나 방어성 긴장이나 반발통은 없었다. 대변 잠혈검사는 음성이었다. 총 빌리루빈 4.1 mg/dL, ALP 348 U/L, AST 187 U/L, ALT 260 U/L였다. 초음파에서 간은 정상이고 총담관은 10 mm로 확장되었으며 담낭에 담석 여러 개가 있지만 벽 비후나 담낭 주위 액체는 없었다. 이 소견의 가장 가능성 높은 원인은?
+38세 여성이 우상복부 통증으로 왔다. 열이나 오한은 없다. 총 빌리루빈 2.0 mg/dL이고 ALP는 상승했다. 초음파에 담낭결석과 8 mm 총담관 확장이 있지만 총담관 안의 돌은 보이지 않는다. 담관결석을 확인할 다음 검사는?
 
 ## 선택지
 
-A. 급성 A형간염
-B. 총담관결석증
-C. 담낭염
-D. 췌장염
+A. 바로 내시경 역행 담췌관조영술(ERCP)
+B. 자기공명 담췌관조영술(MRCP)
+C. 담낭 핵의학 검사
+D. 상부위장관 내시경
 
 ## 해설
 
 
-총담관이 확장되고 담석이 확인된 영상 소견은 총담관결석증을 가장 가능성 있게 만든다. 담즙 정체와 황달이 나타나며 간 효소는 담즙성 패턴을 보인다. 따라서 총담관결석증이 가장 높은 원인이다.
+담관이 늘어나고 간 검사에 이상이 있지만 담관염이나 영상으로 확인된 담관결석은 없으므로 중간 위험이다. MRCP 또는 내시경초음파로 확인하고, ERCP는 중재가 필요한 경우에 사용해 진단 목적으로 인한 합병증을 줄인다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 췌장염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000755
+- https://doi.org/10.15279/kpba.2024.29.4.122

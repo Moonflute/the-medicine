@@ -16,9 +16,9 @@ related_diseases:
 question_type: investigation
 related_disease_slugs: []
 difficulty: simple
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -31,21 +31,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-25세 G1P0000 여성이 첫 산전 진료를 위해 산과에 내원했다. 6주 전 임신반응검사가 양성이었고 마지막 월경은 약 2개월 전이지만 평소 월경이 불규칙하다. 아침에 약간의 오심이 있는 것 외에는 건강하다. 다음 중 이 환자의 임신 주수를 가장 정확하게 추정할 수 있는 측정치는 무엇인가?
+생리 주기가 불규칙한 초임부의 임신 1삼분기 초음파에서 배아가 보인다. 마지막 월경일을 신뢰하기 어려울 때 임신 주수를 가장 정확하게 정할 계측은?
 
 ## 선택지
 
-A. 양두정경
+A. 머리엉덩길이(CRL)
 B. 대퇴골 길이
-C. 혈청 β-hCG
-D. 머리-엉덩이 길이
+C. 양두정골 지름
+D. 양수지수
 
 ## 해설
 
 
-임신 초기에는 초음파로 측정하는 머리-엉덩이 길이(CR 길이)가 월경 주수보다 정확한 임신 주수 추정법이다.
+임신 1삼분기에는 머리엉덩길이로 재태 주수를 가장 정확하게 추정한다. 초기 초음파로 예정일을 정한 뒤에는 후기 성장 계측만으로 예정일을 자주 바꾸지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007416
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date

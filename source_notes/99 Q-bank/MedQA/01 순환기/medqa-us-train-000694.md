@@ -26,6 +26,7 @@ related_disease_slugs:
 question_type: management
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
@@ -42,7 +43,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-42세 여성이 시력 상실을 주소로 일차 진료 의사를 방문하였다. 환자는 지난 2주 동안 두 번에 걸쳐 오른쪽 눈의 시야가 갑자기 '깜깜해지는(black out)' 증상을 겪었다고 보고하였다. 두 번의 에피소드 모두 통증이 없었으며 약 1분 만에 저절로 회복되었다고 한다. 환자의 과거력상 고혈압, 식이요법으로 조절 중인 당뇨병, 갑상선기능저하증이 있다. 가족력상 아버지의 관상동맥질환과 어머니의 다발성 경화증이 있다. 안과 및 신경학적 검사 결과는 정상이다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+42세 여성이 시력 상실을 주소로 일차 진료 의사를 방문하였다. 환자는 지난 2주 동안 두 번에 걸쳐 오른쪽 눈의 시야가 갑자기 '깜깜해지는(black out)' 증상을 겪었다고 보고하였다. 두 번의 에피소드 모두 통증이 없었으며 약 1분 만에 저절로 회복되었다고 한다. 환자의 과거력상 고혈압, 식이요법으로 조절 중인 당뇨병, 갑상선기능저하증이 있다. 가족력상 아버지의 관상동맥질환과 어머니의 다발성 경화증이 있다. 안과 및 신경학적 검사 결과는 정상이다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

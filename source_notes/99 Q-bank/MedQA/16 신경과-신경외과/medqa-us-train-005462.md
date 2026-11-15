@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qtbDrsJzrkZDthrUgKENsdXN0ZXIgaGVhZGFjaGUpLm1k
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-50세 남자가 일주일 동안 하루에도 여러 번, 특히 밤에 발생하는 왼쪽 눈 뒤의 찌르는 듯한 두통으로 내원했다. 왼쪽 이마 발한, 콧물과 눈물흘림이 있고 비조영 두부 CT는 정상이다. 고유량 산소와 수액, 이부프로펜을 투여했지만 통증이 지속된다. 다음 중 가장 적절한 처치는?
+군발두통 환자에게 매일 발작이 반복된다. 발작은 고유량 산소로 가라앉지만, 앞으로 발생 빈도를 줄이고 싶다. 심전도에 전도 이상은 없다. 초기 예방치료와 감시로 적절한 것은?
 
 ## 선택지
 
-A. 베라파밀
-B. CT 혈관조영술
-C. 피하 수마트립탄
-D. 뒤아래 시상하부 심부뇌자극술
+A. 고유량 산소를 증상 없는 날에도 예정대로 투여한다
+B. 발작 때마다 아세트아미노펜을 복용한다
+C. 심전도 추적 없이 베라파밀을 증량한다
+D. 베라파밀을 시작하고 증량 시 심전도를 추적한다
 
 ## 해설
 
-밤에 반복되는 일측 안와뒤 찌르는 통증과 동측 눈물·콧물·발한은 군발두통에 합당하다. 고유량 산소 후에도 지속되면 금기를 확인하여 피하 수마트립탄(C)을 사용할 수 있다. 베라파밀은 주로 예방 치료이고 뇌심부자극은 일반적인 급성기 치료가 아니다. 새로 발생한 비전형 두통·신경징후 등이 있으면 이차 원인 영상평가가 필요할 수 있으므로 정상 단순 CT만으로 모든 혈관영상이 항상 불필요하다고 하지 않는다.
+베라파밀은 군발두통의 대표적 예방치료다. 서맥이나 방실전도 장애를 확인하기 위해 시작 전과 증량 중 심전도를 본다. 산소는 발작 중 급성 치료에 사용한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 뒤아래 시상하부 심부뇌자극술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005462
+- https://www.e-hpr.org/journal/view.php?number=949

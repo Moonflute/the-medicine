@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-uwseuwmOymnSAoVml0aWxpZ28pLm1k
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 남성이 2년 동안 양손, 눈 밑, 목 피부가 밝아져 내원했다. 이 기간 동안 병변은 천천히 커졌다. 가렵거나 아프지는 않다. 인도에 있는 가족을 정기적으로 방문한다. 활력징후는 정상이다. 양손 손등, 눈 주위, 목에 경계가 뚜렷한 탈색 반점이 보이고 피부 감각은 정상이다. 우드등에서 병변이 청백색으로 형광을 낸다. 다음 중 이 환자 진단과 가장 관련이 높은 소견은 무엇인가?
+23세 남성의 양손등과 눈 주위에 가렵지 않은, 경계가 뚜렷한 흰색 반점이 서서히 넓어진다. 인설이 없고 감각은 정상이다. 우드등 아래에서 병변과 정상 피부의 경계가 청백색으로 뚜렷해진다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. KOH 검사에서 ‘스파게티와 미트볼’ 모양
-B. 멜라닌세포 수는 정상인 채 색소 감소
-C. 항TPO 항체 수치 상승
-D. 복부 MRI에서 신장 혈관근지방종
+A. 백반증
+B. 어루러기
+C. 백색비강진
+D. 염증 후 저색소침착
 
 ## 해설
 
-무증상의 경계 뚜렷한 탈색, 정상 감각과 Wood등의 청백색 강조는 백반증에 합당하다. 백반증은 멜라닌세포 소실·파괴와 연관되며 정상 멜라닌세포 수를 특징으로 하지 않는다. 자가면역 갑상선질환과 연관되어 anti-TPO 증가(C)가 동반될 수 있다. Anti-TPO가 모든 백반증 환자에서 양성이거나 이 검사만으로 피부 질환이 확진되는 것은 아니다.
+완전한 탈색에 가까운 경계 뚜렷한 반점이 손과 눈 주위에 생기고 우드등에서 구분이 선명해지면 백반증을 지지한다. 미세 인설이 있는 어루러기와 구별한다.
 
 ## 검수 근거
 
@@ -56,3 +56,5 @@ D. 복부 MRI에서 신장 혈관근지방종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008631
+- https://www.kvpcr.org/html/vitiligo2
+- https://pubmed.ncbi.nlm.nih.gov/37746876/

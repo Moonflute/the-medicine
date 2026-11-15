@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 34주인 36세 여성이 한 시간 전 시작된 지속적인 짙은 색 질출혈과 심한 하복부 통증으로 응급실에 왔다. 자궁은 압통이 있고 과긴장성 수축과 태아 심박수 170회/분, 감속이 있다. 맥박 100회/분, 혈압 90/60 mmHg이다. 가장 적절한 처치는?
+임신 34주 산모에게 갑작스러운 많은 질출혈과 단단하고 아픈 자궁이 나타났다. 소생 중에도 혈압은 88/56 mmHg이고 태아 심박은 분당 80회로 회복되지 않는다. 경부는 2 cm 열려 있다. 가장 적절한 처치는?
 
 ## 선택지
 
-A. 응급 제왕절개 분만
-B. 계획 제왕절개 분만
-C. 테르부탈린 투여
-D. 옥시토신 투여 후 질식분만
+A. 태아 폐성숙 스테로이드를 완료한 뒤 분만
+B. 소생과 수혈을 계속하면서 응급 제왕절개
+C. 자궁수축억제제를 주고 출혈이 멈출 때까지 관찰
+D. 경부가 2 cm이므로 태아 상태와 관계없이 유도분만부터 시작
 
 ## 해설
 
-심한 지속 통증·긴장된 자궁·출혈·저혈압과 태아 빈맥170/감속은 중증 태반조기박리를 시사한다. 소생·혈액 준비와 함께 이 사례에서는 응급 제왕절개(A)가 적절하다. 안정된 경증 박리나 태아 사망 등 다른 상황의 분만 방식과 구분한다.
+중증 태반조기박리가 의심되고 산모가 불안정하며 살아 있는 태아에게 지속 서맥이 있다. 질식분만이 임박하지 않았으므로 소생과 동시에 응급 제왕절개를 준비한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 옥시토신 투여 후 질식분만
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000808
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10176440/

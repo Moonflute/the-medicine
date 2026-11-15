@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-unjOyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChDTEwpIChDaHJvbmljIEx5bXBob2N5dGljIExldWtlbWlhKS5tZA
 question_type: diagnosis
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-75세 남성이 연례 혈압검사와 혈액검사를 위해 진료를 받으러 왔다. 간헐적인 무릎 통증 외에는 증상이 없고 고혈압 병력이 있다. 수년간 무릎 골관절염이 있어 필요할 때 아세트아미노펜을 복용한다. 채소를 많이 먹고 매일 운동하며 흡연력은 없다. 형제가 84세에 혈액암으로 사망했다. 혈색소 15 g/dL, 백혈구 58,000/mm³, 혈소판 250,000/mm³이고 말초혈액 유세포분석에서 절대 림프구 수 50,000/mm³였다. 가장 가능성 높은 진단은?
+73세 환자의 말초혈액에서 CD5·CD23을 발현하는 동일한 단클론 B세포가 3개월 넘게 9,000/μL로 유지된다. 혈색소와 혈소판은 정상이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 만성 림프구성 백혈병(CLL)
-B. 단클론성 B세포 림프구증
-C. 의미불명 단클론감마병증(MGUS)
-D. 다발성 골수종
+A. 단클론 B세포 림프구증
+B. 반응성 림프구증
+C. 다발골수종
+D. 만성 림프구성 백혈병
 
 ## 해설
 
 
-고령 환자의 현저한 절대 림프구증가로 선지 중 CLL(A)이 가장 타당하다. 실제 확진에는 클론성 B세포 수와 면역표현형·지속기간을 확인해야 한다. CD5/CD20 결과는 본문에 제시되지 않았으므로 이미 확인된 것처럼 설명하지 않는다.
+특징적인 면역표현형을 가진 클론성 B세포가 말초혈액에 5,000/μL 이상으로 지속되면 만성 림프구성 백혈병에 부합한다. 수가 그보다 적고 혈구감소·장기 침범이 없으면 단클론 B세포 림프구증을 고려한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 다발성 골수종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000986
+- https://doi.org/10.1002/hem3.70403

@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
 question_type: management
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-55세 여성이 발열, 피로, 잇몸 출혈로 진료를 받으러 왔다. 구강 점상출혈, 잇몸 출혈, 림프절병증, 간비장비대가 있었고 PT와 aPTT 연장, D-이합체 증가, 피브리노겐 감소가 보였다. 골수 생검에서 Auer 막대를 가진 미엘로모세포가 34%였고 MPO 양성이었다. 가장 적절한 치료는?
+55세 환자가 잇몸 출혈로 내원했다. 혈소판과 피브리노겐이 낮고, 혈액도말에서 비정상 전골수구와 여러 아우어 막대 다발이 보인다. 급성 전골수구성 백혈병이 강하게 의심된다. 응고장애를 교정하면서 PML::RARA 결과 전 시작할 약은?
 
 ## 선택지
 
-A. 아스코르빈산
-B. 신선동결혈장
-C. 레티노산
-D. 졸레드론산
+A. 이마티닙
+B. 전트랜스 레티노산
+C. 리툭시맙
+D. 아자시티딘
 
 ## 해설
 
 
-골수의 골수계 아세포와 DIC 양상은 APL을 긴급히 의심할 이유가 된다. APL이 의심되면 PML::RARA 확인을 기다리지 않고 ATRA(C)를 시작하고 출혈성 응고장애에 대한 혈액제제 보조치료도 병행한다. Auer 막대·MPO 양성은 골수계 계통을 지지하지만 그 자체로 APL이 확진되지는 않으며 ATRA는 모든 AML에 대한 보편 치료가 아니다.
+급성 전골수구성 백혈병이 의심되면 확진을 기다리지 않고 전트랜스 레티노산을 시작한다. 중증 출혈을 막기 위해 혈소판·피브리노겐을 보충하고 응고검사를 자주 추적한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 졸레드론산
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001262
+- https://doi.org/10.1182/blood-2019-01-894980

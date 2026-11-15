@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MTEg7Jm46rO8L-uRlOyDgSDrs7XrtoDsmbjsg4EgKEJsdW50IEFiZG9taW5hbCBUcmF1bWEpLm1k
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
-question_type: management
+question_type: investigation
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-17세 남자가 자동차에 치인 뒤 응급구조대에 의해 응급실로 이송되었다. 의식소실은 없었다. 체온 37.2°C, 혈압 88/56 mmHg, 맥박 121회/분, 호흡수 12회/분, 산소포화도 95%이다. 의식은 명료하지만 복통을 호소하고 얼굴과 사지에 열상이 있다. 복부는 부드럽지만 전반적인 압통과 긴장이 있으며 피부가 차갑고 모세혈관 재충만이 지연되어 있다. 일차 평가 후 큰 정맥로 2개를 확보하고 생리식염수 2 L를 급속 투여했다. 다음 중 가장 적절한 처치는?
+교통사고로 복부를 다친 17세 남성이 혈압 82/52 mmHg, 맥박 124회/분이다. 초기 소생과 출혈원 평가를 동시에 진행 중이며 아직 복강 내 출혈은 확인되지 않았다. 침상에서 신속히 할 검사는?
 
 ## 선택지
 
-A. 외상 초음파 평가(FAST) 시행
-B. 진단적 복강세척
-C. 진단적 복강경검사
-D. 응급 개복술
+A. 조영 복부 CT로 이동
+B. 복부·골반 MRI
+C. 복부 단순 X선
+D. 외상 초음파(FAST)
 
 ## 해설
 
 
-외상성 복부 출혈이 의심되는 쇼크 환자에서는 빠른 출혈 평가가 필요하다. FAST 초음파는 비침습적으로 복강 내 자유액을 탐지해 진단을 돕는다. 따라서 FAST 검사가 가장 적절하다.
+불안정한 둔상 환자에서 FAST는 침상에서 복강 내 자유액을 빠르게 찾는다. 양성이며 쇼크가 지속되면 즉시 출혈 조절을 추진한다. 음성이어도 복강·골반 등 다른 출혈원을 계속 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 응급 개복술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004865
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7106618/

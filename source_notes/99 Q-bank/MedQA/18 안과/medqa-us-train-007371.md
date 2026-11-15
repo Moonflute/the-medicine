@@ -14,11 +14,11 @@ related_diseases:
   - "수정체 상방 아탈구"
   - "FBN1 유전자"
   - "15번 염색체"
-question_type: mechanism
+question_type: investigation
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-uniOultO2MoSDspp3tm4TqtbAgKE1hcmZhbiBTeW5kcm9tZSkubWQ
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 남자가 시야 흐림으로 안과에 처음 내원했다. 지난 몇 달 동안 교실 뒤에서 칠판을 보는 것이 점점 어려워졌다. 학업은 잘하고 농구를 좋아한다. 과거력으로 정형외과에서 관리 중인 척추측만증이 있다. 어머니는 제2형 당뇨병이 있고 아버지는 지난해 대동맥판막 치환술을 받았다. 신체검사에서 또래보다 키가 크고 팔이 길다. 흉추 측만은 20도로 이전 검사와 동일하다. 세극등검사에서 양측 수정체가 위쪽으로 아탈구되어 교정렌즈를 처방받았다. 이 환자의 소견을 일으킨 가장 가능성 높은 원인은 무엇인가?
+16세 환자가 수정체가 위가쪽으로 아탈구돼 검사받았다. 키와 팔이 길고 척추측만이 있어 마르팡증후군을 평가 중이다. 시력 교정과 별개로 놓치면 안 될 초기 검사는?
 
 ## 선택지
 
-A. 메티오닌 대사 결함
-B. 15번 염색체 유전자 돌연변이
-C. COL5A1 또는 COL5A2 돌연변이
-D. RET 원암유전자 돌연변이
+A. 뇌파검사
+B. 경동맥 초음파
+C. 대동맥 뿌리를 보는 심장초음파
+D. 상부위장관 내시경
 
 ## 해설
 
-큰 키·긴 팔·척추측만과 상방 수정체 아탈구는 마르팡 증후군을 지지한다. FBN1은 15번 염색체에 있으며 fibrillin-1(피브릴린-1)을 암호화하므로 B가 적절하다. 수정체는 안구 내 정상 위치에서 상방/상외측으로 아탈구하는 것이지 위눈꺼풀 바깥으로 이동하는 것이 아니다. Methionine 대사 이상과 COL5A1/2, RET 관련 질환은 이 조합과 다르다.
+마르팡증후군에서는 수정체 아탈구를 평가하는 동시에 대동맥 뿌리 확장을 확인한다. 확장 여부와 진행 속도에 맞춰 심장영상 추적을 계획한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. RET 원암유전자 돌연변이
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007371
+- https://doi.org/10.1161/CIR.0000000000001106

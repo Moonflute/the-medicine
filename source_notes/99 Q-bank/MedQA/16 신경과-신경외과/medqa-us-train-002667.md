@@ -19,9 +19,9 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghOuRkOy4oeuRkOyXvSDsuZjrp6QgKEZyb250b3RlbXBvcmFsIERlbWVudGlhKS5tZA
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yghO2ZmCDsnqXslaAgKENvbnZlcnNpb24gRGlzb3JkZXIpLm1k
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-53세 남성이 이상행동으로 아들과 함께 내원했다. 상점 주인으로 고객에게 무례하게 행동하고 한 고객이 가게에 흑마술을 걸었다고 비난한다. 지난 8개월간 과민성, 기억력 저하, 재정관리 곤란, 물건 이름과 단어 찾기 어려움이 점점 심해졌다. 머리 외상, 발열, 환각, 사지 이상운동은 없다. 신체검사에서 물건 이름대기와 계획 세우기가 어렵고 MMSE는 26/30점이다. 다음 중 가장 가능성 높은 진단은?
+53세 환자가 2년 동안 일상 단어의 뜻과 익숙한 물건의 이름을 점차 잊었다. 말의 문법과 발음은 자연스럽고 문장을 따라 말할 수 있다. MRI에서 왼쪽 앞쪽 측두엽 위축이 두드러진다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 크로이츠펠트-야코프병
-B. 헌팅턴병
-C. 루이소체 치매
-D. 픽병
+A. 의미변이 일차진행실어증
+B. 비유창성 일차진행실어증
+C. 전도실어증
+D. 브로카실어증
 
 ## 해설
 
 
-사회적 부적절성, 행동 변화, 언어 흐름 저하와 진행성 인지 저하가 앞서며, 전두측두 치매(픽 병)의 전형적인 임상 양상이다. 다른 퇴행성 질환은 주요 증상이 다르다.
+단어의 의미 이해와 이름대기가 진행성으로 손상되면서 발화와 반복이 상대적으로 유지되면 의미변이 일차진행실어증을 고려한다. 앞쪽 측두엽 위축이 이를 뒷받침한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002667
+- https://pubmed.ncbi.nlm.nih.gov/21325651/

@@ -22,7 +22,7 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -41,19 +41,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-56세 여성이 30분 동안 지속된 말 어눌함과 왼쪽 안면 처짐으로 남편과 함께 응급실에 왔다. 왼쪽 얼굴의 무감각도 있었지만 이런 에피소드는 처음이다. 고혈압, 고지혈증, 제2형 당뇨병이 있고 아버지가 일주일 전 폐암으로 사망했다. 30년 동안 하루 한 갑의 담배를 피우며 현재 메트포르민, 시타글립틴, 에날라프릴, 아토르바스타틴을 복용한다. 시간·장소·사람에 대한 지남력은 정상이고 왼쪽 얼굴 처짐 외 근력, 반사, 손가락-코 검사, 보행은 정상이다. 오른쪽 경동맥 잡음이 들리고 심전도에서 좌심실비대가 있다. 비조영 뇌 CT는 정상이며 CT에서 돌아오는 길에 증상이 소실되었다. 다음 중 가장 가능성 높은 진단은?
+56세 여성이 갑자기 말이 어눌해지고 왼쪽 얼굴이 처졌다. 20분 뒤 증상은 완전히 사라졌다. 뇌 CT에서 출혈은 없고, 뒤이어 시행한 확산강조 MRI에서도 급성 뇌경색은 없었다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 전환장애
-B. 부분발작
+A. 기능성 신경장애
+B. 국소 운동 발작
 C. 일과성 허혈발작
-D. 다발성 경화증
+D. 다발성 경화증 재발
 
 ## 해설
 
 
-갑작스러운 언어 장애와 안면 마비가 일시적으로 나타났으며, 증상이 완전히 회복된 점은 일과성 허혈발작(TIA)을 시사한다. 경동맥 잡음과 고혈압 위험인자도 뇌혈관성 질환을 뒷받침한다. 따라서 정답은 C이다.
+갑자기 발생한 국소 신경기능 소실이 회복되고 급성 경색이 확인되지 않으면 일과성 허혈발작을 의심한다. 증상이 사라졌거나 비조영 CT가 정상이라는 이유만으로 평가를 끝내지 않는다. 조기 뇌졸중 위험 때문에 신속한 뇌혈관·심장 평가가 필요하다.
 
 ## 검수 근거
 
@@ -66,3 +66,4 @@ D. 다발성 경화증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003175
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8829490/

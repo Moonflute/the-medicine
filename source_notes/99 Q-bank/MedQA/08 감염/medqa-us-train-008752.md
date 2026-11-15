@@ -26,7 +26,7 @@ translated_at: 2026-07-18
 review_status: "manual-reviewed"
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 급성 HIV 의심 시 지연 항체검사 대신 현재 항원·항체와 RNA 검사로 교정."
 explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1

@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yEuOq3oOyEsSDsp4jsl7wgKEJhY3RlcmlhbCBWYWdpbm9zaXMpLm1k
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여성이 4일간 지속된 질 분비물 때문에 내원했다. 통증이나 가려움은 없다. 월경은 27일 간격으로 규칙적이고 5일간 지속되며, 마지막 월경은 2주 전이었다. 두 명의 남성과 성관계를 하고 피임을 위해 질격막을 사용한다. 3개월 전 자궁경부 세포검사는 정상이었다. 중대한 질환 병력은 없고 약물도 복용하지 않는다. 체온은 37.3°C, 맥박 75회/분, 혈압 115/75 mm Hg이다. 골반검사에서 악취가 나는 회색 질 분비물이 보이며 분비물의 pH는 5.0이다. 질 분비물의 현미경 사진이 제시되어 있다. 다음 중 가장 가능성 높은 원인균은?
+25세 여성이 악취가 나는 회색 질 분비물로 내원했다. 가려움은 없고 질 분비물의 pH는 5.0이다. 현미경에서 표면이 세균으로 뒤덮인 질 상피세포가 관찰된다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. Escherichia coli
-B. Neisseria gonorrhoeae
-C. Gardnerella vaginalis
-D. Candida albicans
+A. 외음질 칸디다증
+B. 트리코모나스 질염
+C. 세균성 질증
+D. 임균성 자궁경부염
 
 ## 해설
 
-가려움 없이 악취 나는 회색 분비물과 높은 pH는 세균성 질증을 시사하며 보기 중 Gardnerella vaginalis(C)가 관련된다. Gardnerella는 바이러스가 아니라 세균이며, 질증은 여러 세균이 관련된 질 미생물 불균형이다. 원문의 현미경 사진은 제공되지 않았으므로 clue cell을 실제 관찰했다고 단정하지 않았다. 임상 묘사로 보기 내 판단은 가능하지만 모든 Amsel 진단 기준이 확인된 것은 아니다.
+균일한 회색 분비물, pH 상승, 단서세포는 세균성 질증에 부합한다. 세균성 질증은 질내 미생물 균형이 바뀐 상태로, 가드네렐라 한 균의 검출만으로 진단하지 않는다.
 
 ## 검수 근거
 

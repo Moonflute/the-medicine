@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
-question_type: investigation
+question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-52세 남성이 4개월 동안 지속된 불안과 피로로 내원했다. 두근거림, 근력 약화, 발한 증가, 배변 횟수 증가도 있다. 과거력은 특이사항이 없다. 음주와 흡연은 하지 않는다. 맥박 104회/분으로 불규칙하고 혈압 140/80mmHg이다. 양측 안구돌출과 양손의 미세한 떨림이 보인다. 갑상선 패널에서 예상되는 결과는 무엇인가?
+29세 비임신 여성이 두근거림과 손떨림이 있다. TSH가 억제되고 유리 T4가 높으며 TSH 수용체 항체가 양성이다. 갑상선폭풍은 아니며 항갑상선제 치료를 선택했다. 우선 선택할 약제는?
 
 ## 선택지
 
-A. TSH 감소, T4 증가, T3 증가
-B. TSH 정상, T4 감소, T3 감소
-C. TSH 정상, 총 T4 감소, 유리 T4와 T3 정상
-D. TSH 증가, T4 증가, T3 증가
+A. 메티마졸
+B. 프로필티오우라실
+C. 프로프라놀롤 단독
+D. 요오드화칼륨 단독
 
 ## 해설
 
 
-정답 A. 안구돌출·발한·빈맥/부정맥과 떨림은 Graves병에 의한 원발성 갑상선기능항진증을 시사한다. 갑상선호르몬 증가가 뇌하수체 TSH를 억제하므로 TSH 감소, T4·T3 증가가 예상된다. 본문에는 체중감소가 제시되지 않아 실제 소견으로 추가하지 않는다.
+임신 초기나 갑상선폭풍 등의 예외가 없다면 메티마졸이 일반적인 첫 항갑상선제다. 베타차단제는 증상을 줄이지만 갑상선호르몬 합성을 낮추는 치료를 대신하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. TSH 증가, T4 증가, T3 증가
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008679
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3871036/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12230266/

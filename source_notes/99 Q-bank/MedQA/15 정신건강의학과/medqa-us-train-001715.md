@@ -18,6 +18,7 @@ question_type: management
 related_disease_slugs: []
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,7 +38,7 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-34세 여성 임원이 출장 중 잠들기 어려워 일차진료를 받았다. 매달 캘리포니아에서 중국으로 4–5회 출장한다. 로스앤젤레스에서 0시 30분 출발해 현지시간 다음 날 19시에 홍콩에 도착하는 직항을 이용한다. 밤에 잠들기 어렵고 다음 날 아침 졸리며 귀국 후에도 극심한 쇠약, 근육통 및 복부팽만이 며칠 지속되다가 호전된다. 일반 수면위생을 논의한 뒤 다음 중 가장 적절한 다음 단계는 무엇인가?
+34세 여성 임원이 출장 중 잠들기 어려워 일차진료를 받았다. 매달 캘리포니아에서 중국으로 4–5회 출장한다. 로스앤젤레스에서 0시 30분 출발해 현지시간 다음 날 19시에 홍콩에 도착하는 직항을 이용한다. 밤에 잠들기 어렵고 다음 날 아침 졸리며 귀국 후에도 극심한 쇠약, 근육통 및 복부팽만이 며칠 지속되다가 호전된다. 일반 수면위생을 논의한 뒤 가장 적절한 다음 단계는 무엇인가?
 
 ## 선택지
 

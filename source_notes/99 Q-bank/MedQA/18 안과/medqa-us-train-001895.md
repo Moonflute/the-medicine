@@ -13,13 +13,13 @@ related_diseases:
   - "central retinal artery occlusion"
   - "cherry-red spot"
   - "acute monocular vision loss"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTgg7JWI6rO8L-unneunieykkeyLrOuPmeunpe2PkOyHhCAoY2VudHJhbCByZXRpbmFsIGFydGVyeSBvY2NsdXNpb24pLm1k
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,21 +38,22 @@ related_drug_slugs:
 
 ## 문제
 
-62세 여성이 50분 전 발생한 오른쪽 눈의 갑작스러운 시력 소실로 응급실에 왔다. 눈 통증은 없다. 과거에도 시력 소실이 몇 차례 있었지만 glucocorticoid 치료 후 호전되었다. 관상동맥질환, 고혈압, 제2형 당뇨병, 다발성 경화증이 있으며 3년 전 왼쪽 경동맥 내막절제술과 5년 전 심근경색 병력이 있다. 현재 aspirin, metoprolol, lisinopril, atorvastatin, metformin, glipizide 및 주 1회 beta-interferon을 복용한다. 오른쪽 눈은 광각이 없고 안저에서 창백한 흰색 망막과 황반의 선명한 붉은 반점이 보인다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+62세 환자의 한쪽 시력이 50분 전에 갑자기 사라졌다. 아프지 않고, 안저에서 망막이 창백하며 황반에 선명한 붉은 반점이 보인다. 가장 적절한 대응은?
 
 ## 선택지
 
-A. 중심성 장액성 망막병증
-B. 급성 폐쇄각 녹내장
-C. 유리체 출혈
-D. 중심망막동맥폐쇄
+A. 며칠 동안 기다렸다가 정기 안과검사를 한다
+B. 눈을 마사지하며 회복 여부만 관찰한다
+C. 망막 동맥 폐쇄를 의심해 응급 뇌졸중 평가와 안과 진료를 진행한다
+D. 망막박리로 확정하고 도수만 재측정한다
 
 ## 해설
 
 
-갑작스러운 단안 시력 상실과 안저에서 망막이 창백하고 중심에 붉은 점(체리‑레드 스팟)이 보이는 것은 중심망막동맥 폐쇄(Central retinal artery occlusion)이다. 이는 급성 비통성 시력 손실의 전형적 징후이다. 따라서 가장 가능성 높은 진단은 중심망막동맥 폐쇄이다.
+중심망막동맥폐쇄는 급성 허혈성 응급이다. 뇌졸중 경로로 평가해 시간과 재관류 적합성, 색전원 및 거대세포동맥염 가능성을 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001895
+- https://pubmed.ncbi.nlm.nih.gov/33677974/

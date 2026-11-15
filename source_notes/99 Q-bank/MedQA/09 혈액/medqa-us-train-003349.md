@@ -18,9 +18,9 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
   - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
-question_type: mechanism
+question_type: management
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-70세 남성이 무기력, 혼란, 오심으로 내원했다. 혈청 칼슘은 14.7 mg/dL, 헤모글로빈은 9.1 g/dL, 크레아티닌은 2.2 mg/dL였다. 특별한 병력은 없었고 매일 종합비타민과 고관절 통증을 위한 acetaminophen을 복용했다. 기존 크레아티닌은 0.9 mg/dL였다. 이 환자의 고칼슘혈증, 빈혈, 신기능저하를 가장 잘 설명하는 기전은?
+활동성 다발골수종 환자가 혼돈과 탈수로 왔다. 교정 칼슘은 14.7mg/dL이고 심부전으로 인한 울혈은 없다. 정맥 수액을 시작했다. 칼슘을 빠르게 낮추면서 지속 효과를 얻기 위한 추가 치료는?
 
 ## 선택지
 
-A. 이소성 PTHrP 분비
-B. 1,25-디하이드록시비타민 D 상승
-C. 부갑상샘 PTH 과다
-D. 형질세포 과증식
+A. 칼시토닌을 단기간 사용하고 신기능에 맞춰 골흡수억제제를 함께 투여한다
+B. 부갑상샘 수술을 준비하고 약물 치료는 하지 않는다
+C. 칼시토닌만 수주간 계속 투여한다
+D. 탈수가 심해도 고리이뇨제만 먼저 투여한다
 
 ## 해설
 
 
-골통과 함께 고칼슘혈증·빈혈·급성 신기능 악화가 있어 형질세포의 clonal 증식에 의한 다발골수종 D를 의심한다. 형질세포와 골수 미세환경의 osteoclast 활성화로 골흡수가 증가하고, 경쇄 신독성 등이 신장손상에 관여할 수 있다. Paraprotein은 단클론 면역글로불린 또는 경쇄를 뜻하며 PTHrP와 같은 물질이 아니다. 원인 확진에는 단클론 단백·골수 및 영상 검사가 필요하다.
+중증 악성종양 관련 고칼슘혈증은 수액과 함께 단기간 칼시토닌 및 골흡수억제제로 치료한다. 칼시토닌은 빠르지만 효과가 오래가지 않아 비스포스포네이트나 데노수맙의 효과가 나타날 때까지 사용한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 형질세포 과증식
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003349
+- https://www.endocrine.org/clinical-practice-guidelines/hypercalcemia-of-malignancy

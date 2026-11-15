@@ -13,11 +13,11 @@ related_diseases:
   - "품행장애"
   - "반사회성 인격장애"
   - "아동 공격행동"
-question_type: prognosis
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2SiO2WiSDsnqXslaAgKENvbmR1Y3QgRGlzb3JkZXIpLm1k
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,24 +34,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-8세 남아가 행동 문제로 어머니와 함께 내원했다. 학교에서 다른 학생을 괴롭히고 싸움을 시작하며 친구들의 점심값을 훔친다고 교사가 불평했다. 6개월 전에는 이웃집 마당에 들어가 개를 잔인하게 걷어찼다는 신고도 받았다. 특별한 병력은 없고 발달은 정상이다. 다음 중 이 진단이 가장 잘 예측하는 성인 인격장애는 무엇인가?
+9세 아이가 여러 달 동안 학교와 동네에서 또래를 위협하고 물건을 훔쳤다. 평가에서 품행장애가 확인됐고 당장의 안전은 확보했다. 아이와 보호자가 참여할 수 있을 때 우선 권할 치료는?
 
 ## 선택지
 
-A. 회피성 인격장애
-B. 편집성 인격장애
-C. 반사회성 인격장애
-D. 조현성 인격장애
+A. 강한 처벌을 늘리고 행동 목표는 따로 세우지 않는다
+B. 항정신병약을 모든 사례에서 먼저 시작한다
+C. 아이에게만 주의를 주고 보호자나 학교와는 논의하지 않는다
+D. 보호자 행동관리 훈련을 연결하고 가정·학교와 일관된 계획을 세운다
 
 ## 해설
 
 
-지속적인 공격적 행동과 반사회적 행동은 반사회적 인격장애로 진행될 위험이 크다. 따라서 가장 잘 예측하는 성인 인격장애는 반사회적 인격장애이다.
+학령기 품행장애에는 보호자가 문제 행동에 대응하고 바람직한 행동을 강화하는 방법을 연습하는 프로그램이 도움이 된다. 안전, 학습과 동반 문제도 살피며 약물을 일률적으로 사용하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006166
+- https://www.nice.org.uk/guidance/cg158/chapter/recommendations
 
 ## 검수 근거
 

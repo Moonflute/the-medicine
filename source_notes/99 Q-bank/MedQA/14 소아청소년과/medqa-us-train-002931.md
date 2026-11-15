@@ -14,7 +14,7 @@ related_diseases:
   - "CD40 ligand deficiency"
   - "Pneumocystis jirovecii pneumonia"
   - "immunodeficiency"
-question_type: mechanism
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7KadIOuzte2VqSDrqbTsl60g6rKw7ZWN7KadIChTZXZlcmUgQ29tYmluZWQgSW1tdW5vZGVmaWNpZW5jeSkubWQ
   - MDgg6rCQ7Je8L-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-5개월 남아가 한 시간 동안 호흡곤란으로 부모와 함께 내원했다. 시끄러운 호흡과 입술의 청색 변색이 있고 지난 2개월 동안 상기도 감염을 여러 번 앓았으며 체중 증가가 불량했다. 임신과 분만은 합병증이 없었고 예방접종은 최신이다. 키는 20백분위수, 체중은 5백분위수이다. 체온 38°C, 맥박 160회/분, 호흡수 40회/분, 혈압 80/55 mmHg이며 양쪽 폐야에 수포음이 들린다. 흉부 X선에서 양측 간질성 침윤이 보인다. 삽관 후 메틸프레드니솔론을 투여했다. 기관지 세척액의 메테나민 은염색에서 중앙 포자를 가진 2~8개의 낭종 집합체가 보이고 혈청 IgA 역가는 감소되어 있다. 다음 중 이 상태의 가장 가능성 높은 기저 원인은?
+6개월 남아가 폐포자충 폐렴을 앓았다. 혈청 IgG와 IgA는 매우 낮지만 IgM은 높고, B세포 수는 정상이다. B세포의 항체 종류 전환 장애가 의심된다. 우선 확인할 유전자는?
 
 ## 선택지
 
-A. 결함 있는 WAS 유전자
-B. 결함 있는 CD40 리간드
-C. 티로신키나아제 유전자 돌연변이
-D. NADPH 산화효소 장애
+A. BTK
+B. CD40LG
+C. CYBB
+D. WAS
 
 ## 해설
 
-영아의 반복 감염과 Pneumocystis 폐렴, 낮은 IgA는 항체 종류 전환과 세포성 면역 상호작용의 결함을 시사한다. CD40 리간드 결함은 CD40 신호를 방해해 고IgM 증후군을 일으킬 수 있어 B가 가장 적절하다. 이 문항의 약물 투여 서술을 폐렴 치료 전체의 적절성 검증으로 확장하지 않는다.
+IgM은 유지되거나 높으면서 IgG·IgA가 낮고 폐포자충처럼 기회감염이 생기면 CD40 리간드 결핍을 의심한다. BTK 결핍과 달리 B세포 수가 보존될 수 있다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. NADPH 산화효소 장애
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002931
+- https://www.ncbi.nlm.nih.gov/books/NBK1402/

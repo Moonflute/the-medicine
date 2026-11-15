@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 여아가 3개월 동안 반복되는 호흡곤란, 비생산성 기침, 흉부 압박감으로 내원했다. 주로 운동 중 발생하고 휴식하면 저절로 호전된다. 건강해 보이며 맥박 63회/분, 호흡수 15회/분, 혈압 102/70 mmHg, 실내 공기 산소포화도 98%이다. 신체검사와 흉부 X선은 정상이다. 폐활량검사에서 FEV1:FVC 85%, FEV1은 예측치의 85%이다. 가장 적절한 다음 처치는 무엇인가?
+16세 여아가 3개월 동안 반복되는 호흡곤란, 마른기침, 흉부 압박감으로 내원했다. 주로 운동 중 발생하고 휴식하면 저절로 호전된다. 건강해 보이며 맥박 63회/분, 호흡수 15회/분, 혈압 102/70 mmHg, 실내 공기 산소포화도 98%이다. 신체검사와 흉부 X선은 정상이다. 폐활량검사에서 FEV1:FVC 85%, FEV1은 예측치의 85%이다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

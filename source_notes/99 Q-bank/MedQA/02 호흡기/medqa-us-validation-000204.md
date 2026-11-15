@@ -15,7 +15,7 @@ related_diseases:
   - "흉강천자"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkOugtC5tZA
-question_type: management
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 노숙인 남성이 일주일간 호흡곤란, 왼쪽 흉통, 오한, 노란 가래와 소량의 객혈로 응급실에 왔다. 왼쪽 폐 하부에 타진 둔탁음과 촉각진동 증가, 흉부 X선에서 큰 좌측 엽성 음영과 광범위 흉수가 보였다. 가장 적절한 초기 처치는?
+32세 남성이 폐렴으로 입원했다. 발열과 왼쪽 흉통이 있고 초음파에서 안전하게 접근할 수 있는 중등도 이상의 새 흉수가 보인다. 항생제를 시작했으며, 흉수가 감염돼 배액이 필요한지 판단하려 한다. 다음 검사는?
 
 ## 선택지
 
-A. 산소 투여
-B. 정맥 항생제와 흉강천자
-C. 흡입 기관지확장제
-D. 상부위장관 내시경
+A. 폐활량검사
+B. 초음파 유도 진단적 흉강천자
+C. 기관지유발검사
+D. 흉부 X선으로 흉수 감염 여부를 확정한다
 
 ## 해설
 
-폐렴과 큰 흉수가 있어 B의 정맥 항생제와 흉강천자가 적합하다. 천자로 pH, 배양과 육안 소견 등을 확인하여 단순 흉수, 복합성 흉수와 농흉을 구별한다. 흉수가 모두 고름인 것은 아니며 복합 감염성 흉수나 농흉이면 흉관 배액 등 추가 처치가 필요할 수 있다.
+폐렴에 의미 있는 크기의 흉수가 동반되면 진단적 흉강천자로 pH, 포도당, 세균 배양과 육안 소견 등을 확인한다. 고름이 있거나 흉수 pH가 낮으면 흉관을 통한 배액이 필요할 수 있다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 상부위장관 내시경
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000204
+- https://thorax.bmj.com/content/78/Suppl_3/s1

@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-신우신염과 패혈증으로 입원한 지 이틀 된 48세 여성이 갑자기 심한 호흡곤란을 일으켰다. 산소포화도는 60% 흡입산소에서도 80%이고, 심한 호흡근 사용과 양측 폐야의 흡기 수포음이 있다. 기관삽관 전 흉부 X선이 제시되었다. 가장 적절한 다음 처치는?
+신우신염에 의한 패혈증으로 입원한 48세 여성이 급성 저산소성 호흡부전으로 삽관됐다. 흉부 X선에서 양쪽 폐에 새 음영이 보이고 심초음파나 임상평가에서 심부전으로 설명되지 않는다. PEEP 8 cmH₂O에서 PaO₂/FiO₂는 110이다. 초기 인공호흡기 전략으로 적절한 것은?
 
 ## 선택지
 
-A. 광범위 항생제
-B. 고용량 글루코코르티코이드
-C. 정맥 수액
-D. 낮은 일회호흡량 환기
+A. 실제 체중 기준으로 큰 일회호흡량을 적용한다
+B. 고원압이 높아도 일회호흡량을 유지한다
+C. PEEP 없이 큰 일회호흡량을 적용한다
+D. 예측체중 기준 낮은 일회호흡량을 적용하고 고원압을 제한한다
 
 ## 해설
 
-패혈증 뒤 심한 저산소혈증과 호흡 노력이 발생하여 삽관이 필요한 상황에서는 저일회호흡량의 폐보호 환기(D)를 시작하는 것이 적절하다. ARDS가 의심되지만 누락된 X선을 보았다고 할 수는 없고 양측 음영과 다른 원인을 실제로 평가해야 한다. ARDS에서는 예측체중 기준 낮은 일회호흡량과 압력 제한을 사용하고 산소화·혈역학에 맞춰 PEEP를 조절한다. 원인 감염의 항생제 치료는 여전히 중요하며, 현행 지침은 적절한 ARDS 환자에서 스테로이드도 조건부로 고려하므로 다른 치료가 모두 무효라고 설명해서는 안 된다.
+패혈증 이후 양측 폐음영과 중증 저산소혈증이 급성으로 생겨 ARDS에 해당한다. 폐보호 환기를 위해 예측체중 기준으로 낮은 일회호흡량을 적용하고 고원압을 제한한다. PEEP과 흡입산소 농도는 산소화와 혈역학에 맞춰 조절한다.
 
 ## 검수 근거
 
@@ -57,3 +58,4 @@ D. 낮은 일회호흡량 환기
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000989
+- 미국흉부학회 성인 ARDS 진료지침: https://pmc.ncbi.nlm.nih.gov/articles/PMC10870893/

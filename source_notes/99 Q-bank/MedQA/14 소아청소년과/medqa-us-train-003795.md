@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64-Z66el6rSAIOqwnOyhtOymnSAoUGF0ZW50IER1Y3R1cyBBcnRlcmlvc3VzKS5tZA
   - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 29주에 제왕절개로 태어난 여아가 생후 4일째 수유곤란과 호흡곤란을 보였다. 흉부 X선에서 울혈성 심부전이 보이고 심초음파에서 좌심방과 좌심실이 커져 있었다. 다음 중 적절한 치료 약물은?
+재태 29주에 태어난 생후 4일 영아의 심초음파에서 작은 동맥관개존이 보인다. 순환은 안정적이고 호흡 보조는 줄이고 있으며 좌심실 과부하도 없다. 동맥관에 대한 초기 계획은?
 
 ## 선택지
 
-A. 인도메타신
-B. 메타돈
-C. 카페인
-D. 알프로스타딜
+A. 발견 즉시 인도메타신으로 폐쇄한다
+B. 호흡과 순환 상태를 추적하며 일률적인 약물 폐쇄는 하지 않는다
+C. 알프로스타딜로 동맥관 개방을 유지한다
+D. 심초음파 확인만으로 수술적 결찰을 한다
 
 ## 해설
 
-좌심방·좌심실 확장 및 심부전 소견은 유의한 좌우 단락의 가능성을 높인다. 심초음파 등으로 혈역학적으로 유의한 PDA를 확인하고 약물 폐쇄를 선택할 경우, 보기 중 indomethacin(A)이 프로스타글란딘 합성을 억제하여 동맥관 수축을 유도한다. 미숙아라는 이유만으로 모든 PDA를 일찍 약물 폐쇄하는 것은 아니다.
+출생 초기의 작은 동맥관개존을 모든 미숙아에서 조기에 약물로 닫는 것은 권장되지 않는다. 혈역학에 의미 있는 영향을 주는지 호흡과 순환 경과를 보면서 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 알프로스타딜
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003795
+- https://pubmed.ncbi.nlm.nih.gov/40288780/

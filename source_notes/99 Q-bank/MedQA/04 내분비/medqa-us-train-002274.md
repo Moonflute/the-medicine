@@ -15,11 +15,11 @@ related_diseases:
   - "osmotic demyelination syndrome"
 related_disease_slugs:
   - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
-question_type: adverse_effect
+question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 여성이 행동 변화로 보호자들에게 이끌려 응급실에 왔다. 요양원에 거주하며 이상행동, 요실금, 보행곤란이 관찰되었다. 검사에서 혈청 나트륨 120 mEq/L로 심한 저나트륨혈증이 있고, 소변에는 농뇨나 아질산염 없이 세균뇨가 있다. 혼란스러워 질문에 적절히 답하지 못하고 현재 연도가 1982년이라고 생각한다. 이 환자를 치료할 때 나타날 수 있는 합병증은?
+영양결핍이 있는 67세 환자의 만성 저나트륨혈증 치료 중, 10시간 만에 Na가 110에서 122 mmol/L로 올랐다. 시간당 소변량도 급증하고 있다. 삼투성 탈수초 위험을 줄이기 위해 할 조치는?
 
 ## 선택지
 
-A. 중추신경계 감염
-B. 뇌부종
-C. 설사와 장내 세균총 파괴
-D. 삼투성 탈수초화
+A. 고장성 식염수를 계속 투여한다
+B. 수분 제한을 더 강화한다
+C. 오늘은 더 치료하지 않고 내일 재검만 한다
+D. 교정 치료를 중단하고 5% 포도당 수액과 데스모프레신으로 재하강을 검토한다
 
 ## 해설
 
 
-심한 저나트륨혈증을 급속히 교정하면 뇌세포 탈수와 탈수초화가 발생한다. 이는 삼투성 탈수초증후군(Osmotic demyelination syndrome)이다.
+영양결핍이 있는 만성 저나트륨혈증에서 10시간에 12 mmol/L 상승은 과교정이다. 기존 교정을 멈추고 촘촘히 혈청 나트륨을 추적하며 5% 포도당과 데스모프레신을 상황에 따라 사용해 재하강시킨다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 삼투성 탈수초화
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002274
+- https://www.kjim.org/journal/view.php?number=170730

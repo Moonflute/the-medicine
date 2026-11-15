@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4sOumveyEsSDri6jrsLHrh6ggKE9ydGhvc3RhdGljIFByb3RlaW51cmlhKS5tZA
 question_type: investigation
 difficulty: standard
-answer: "C"
+answer: C
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -37,23 +37,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-15세 남자가 일주일 전 충수절제술 후 추적 진료를 위해 소아과에 왔다. 복통, 발열, 오한, 오심, 구토, 설사 또는 변비는 없고 고형식과 액체를 문제없이 먹고 마신다. 학교 농구팀 활동도 어려움 없이 재개했다. 소변이 평소보다 호박색으로 보여 탈수 때문일 것 같다고 한다. 신체검사는 정상이고 복강경 절개 부위는 발적 없이 깨끗하다. 소변검사에서 상피세포 소량, 포도당 음성, 단백 3+, 백혈구 3/HPF, 세균 없음, 백혈구에스테라제 음성, 아질산염 음성이었다. 3일 후 재방문하도록 했으나 소변검사도 비슷하다. 다음 중 관리의 최선의 다음 단계는 무엇인가?
+건강한 15세 청소년에서 낮에 채취한 소변의 단백이 두 차례 양성이었다. 혈압과 신기능은 정상이고 혈뇨는 없다. 기립성 단백뇨인지 먼저 확인할 방법은?
 
 ## 선택지
 
-A. 기본 대사 패널
-B. 신장 생검
-C. 아침과 오후에 소변검사지 검사
-D. 소변 전해질과 크레아티닌
+A. 활동 직후 소변 잠혈만 다시 측정한다
+B. 즉시 신장 생검을 한다
+C. 기상 직후 첫 소변의 단백/크레아티닌 비를 측정한다
+D. 혈청 알부민만 검사한다
 
 ## 해설
 
-무증상 청소년의 반복 단백뇨에서는 밤새 누워 있다가 얻은 첫 아침 소변과 활동 후 검체를 비교해 기립성 단백뇨를 평가할 수 있다. 현재 자료로 변동이 확인된 것은 아니다. 기립성은 자세와 관련되며 운동성 단백뇨와 같은 말이 아니다. 아침에도 지속되거나 다른 이상이 있으면 단백 정량과 신기능 평가가 필요하다.
+밤새 누워 있다가 활동하기 전에 채취한 첫 소변의 단백 배설이 정상인데 낮에만 증가하면 기립성 단백뇨에 부합한다. 첫 소변에서도 지속되면 다른 원인을 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005811
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13141067/
 
 ## 오답 포인트
 

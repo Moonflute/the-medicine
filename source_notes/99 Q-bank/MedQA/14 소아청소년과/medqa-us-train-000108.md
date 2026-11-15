@@ -16,7 +16,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7Iq07IOYIOustO2YleyEseymnSAoRGlHZW9yZ2UgU3luZHJvbWUpLm1k
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -33,18 +33,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 24시간 된 신생아 남아가 청색증으로 신생아실에서 평가를 받고 있다. 환아는 임신 38주에 태아 곤란(fetal distress)으로 인한 제왕절개술을 통해 36세 산모(임신 3회)에게서 태어났다. 산모는 산전 진찰을 일관되게 받지 않았으며, 분만 과정은 합병증이 없었다. 아프가 점수(Apgar score) 평가에서 생후 1분과 5분 모두 말단 청색증(acrocyanosis)이 관찰되었다. 산모는 선천성 심장 질환의 가족력을 부인한다. 환아의 아버지는 고혈압 과거력이 있으며, 형제 중 한 명은 최근 자폐 스펙트럼 장애(autism spectrum disorder)를 진단받았다. 출생 체중은 3180g이었다. 신생아실에서 측정한 체온은 37.4°C, 혈압은 66/37 mmHg, 맥박은 179회/분, 호흡은 42회/분이다. 신체 검진상 환아는 중등도의 고통을 보이고 있다. 낮은 위치의 귀, 안와 격리증(orbital hypertelorism), 구개열이 관찰된다. 환아는 중심성 청색증을 보인다. 흉부 CT에서 흉선 형성 저하(thymic hypoplasia)가 확인되었다. 심장 초음파 검사 결과 우심실과 좌심실 모두에서 하나의 혈관이 나오는 것이 관찰된다. 이 환아에게서 긴급하게 평가해야 할 급성 합병증은 무엇인가?
+총동맥간증과 구개열이 있는 신생아가 손발을 오므리며 반복 경련한다. 혈당은 정상이고 이온화 칼슘이 0.72mmol/L이며 심전도에서 QT가 길다. 기도와 호흡을 안정시킨 뒤 바로 교정할 치료는?
 
 ## 선택지
 
-A. 뇌부종
-B. 저혈당
-C. 신경근 과민성
-D. QT 간격 단축
+A. 경구 칼시트리올만 투여
+B. 정맥 포도당 단독 투여
+C. 신생아 선별검사 결과가 나올 때까지 대기
+D. 심전도 감시하 정맥 글루콘산칼슘
 
 ## 해설
 
-흉선저형성·안면/구개 이상과 총동맥간은 22q11.2 결실 증후군을 시사한다. 부갑상선저형성으로 급성 저칼슘혈증·테타니/경련이 생길 수 있어 신경근 과민성(C)을 평가한다. 저칼슘혈증은 QT를 단축시키지 않고 연장시킬 수 있다.
+경련과 QT 연장이 있는 중증 저칼슘혈증은 정맥 칼슘으로 즉시 치료한다. 이 환아의 심장·구개 소견과 저칼슘혈증은 22q11.2 결실 및 부갑상샘기능저하의 단서다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. QT 간격 단축
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000108
+- https://pubmed.ncbi.nlm.nih.gov/36729053/

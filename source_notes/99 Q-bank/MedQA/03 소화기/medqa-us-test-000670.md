@@ -19,7 +19,7 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-43세 남성이 아들이 선홍색 피를 토하는 것을 발견해 응급실에 데려왔다. 술에 취해 보였고 장기간 알코올 남용으로 디설피람 치료를 받은 기록이 있다. 체온 98.4°F, 심박수 89회/분, 혈압 154/92 mmHg, 호흡 20회/분이었다. 상부위장관 내시경에서 경미한 식도염과 위식도 접합부의 세로 방향 식도 열상이 보였으나 활동성 출혈은 없었다. 다음 중 가장 적절한 조치는?
+43세 남성이 여러 번 심하게 구토한 뒤 소량의 피를 토했다. 수액 후 활력징후는 안정적이고, 내시경에서 위식도 접합부의 얕은 선상 열상이 보이지만 활동성 출혈은 없다. 적절한 다음 처치는?
 
 ## 선택지
 
-A. 시아노아크릴레이트 주사와 밴드 결찰, 정맥 수액, 금식
-B. 정맥 수액과 관찰을 포함한 보존적 치료
-C. 식도내압검사와 임피던스 검사
-D. 칼슘통로차단제와 하부식도괄약근 보툴리눔 주사
+A. 활동성 출혈이 없어도 모든 열상을 결찰한다
+B. 새 출혈 여부를 관찰하는 등 보존적으로 치료한다
+C. 외과적 식도 봉합을 바로 시행한다
+D. 정맥류로 보고 경화제를 주입한다
 
 ## 해설
 
 
-말로리-바이스 열상은 출혈 위험이 낮으며, 대부분 보존적 치료(정맥 수액·관찰)로 관리한다. 따라서 보존적 치료가 적절하다.
+심한 구토 뒤 위식도 접합부의 얕은 열상은 말로리–바이스 열상이다. 안정적이고 활동성 출혈이 없으면 대개 보존적으로 치료한다. 출혈이 지속되거나 재발하면 내시경 지혈을 고려한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 칼슘통로차단제와 하부식도괄약근 보툴리눔 주사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000670
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12285778/

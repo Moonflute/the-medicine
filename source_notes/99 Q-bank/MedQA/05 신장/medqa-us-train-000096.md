@@ -15,11 +15,11 @@ related_diseases:
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzKS5tZA
   - MDYg7JWM66CI66W06riwL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTTEUpIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzIChTTEUpKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-40세 여성이 1주일 전부터 시작된 피로감, 진한 색 소변, 다리의 묵직한 느낌을 주소로 내원하였다. 2주 전 브라질 휴가를 다녀왔으며, 리우데자네이루 시내를 걸어서 여행하는 데 대부분의 시간을 보냈다. 휴가 기간 동안 체중이 3kg 증가하였다. 환자는 전신홍반루푸스(systemic lupus erythematosus)를 앓고 있으며, 복용 중인 약물은 하이드록시클로로퀸(hydroxychloroquine)뿐이다. 체온은 37.5°C, 맥박은 분당 78회, 혈압은 162/98 mmHg이다. 신체 검진상 양측 정강이 앞쪽에 2+ 부종이 관찰된다. 소변검사 결과는 다음과 같다: 혈액 3+, 단백질 1+, 적혈구 6-8/hpf(이형성 형태), 적혈구 원주 다수, 백혈구 8/hpf, 백혈구 원주 드묾, 세균 음성. 이 환자의 다리 증상의 가장 가능성 높은 원인은 무엇인가?
+전신홍반루푸스가 있는 40세 여성이 새로 생긴 고혈압과 다리 부종으로 내원했다. 요침사에 적혈구 원주가 있고, 소변 단백/크레아티닌 비는 0.9 g/g이다. 크레아티닌이 상승했으며 다른 뚜렷한 원인은 없다. 치료를 선택하기 위해 필요한 다음 검사는?
 
 ## 선택지
 
-A. 정맥 부전(Venous insufficiency)
-B. 림프 폐쇄(Lymphatic obstruction)
-C. 신장 단백질 소실(Renal protein loss)
-D. 염분 저류(Salt retention)
+A. 24시간 소변 소금 배설만 측정
+B. 하지정맥 도플러 초음파만 시행
+C. 혈청 요산만 추적
+D. 신장 생검
 
 ## 해설
 
 
-신생성 고혈압, 양측 정강이 부종, 혈뇨·단백뇨가 동반된 루푸스 신염은 사구체 염증으로 나트륨 재흡수가 증가해 체액 저류를 일으킨다. 따라서 다리 부종의 가장 가능성 높은 원인은 염분 저류이다.
+새로운 단백뇨, 활동성 요침사와 신기능 저하는 루푸스신염을 의심할 근거다. 생검으로 조직형과 활동성·만성도를 확인해 원인 치료를 정한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 염분 저류(Salt retention)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000096
+- https://kdigo.org/guidelines/lupus-nephritis/

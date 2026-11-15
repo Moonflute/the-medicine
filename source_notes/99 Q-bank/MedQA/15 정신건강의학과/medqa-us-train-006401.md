@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yEuOuhnO2GoOuLjCDspp3tm4TqtbAgKFNlcm90b25pbiBTeW5kcm9tZSkubWQ
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,24 +37,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 여성이 초조와 발한으로 응급실에 내원했다. 현재 우울증으로 시탈로프람 치료를 받고 있으며 허리 통증으로 트라마돌도 복용한다. 체온은 38.6°C(101.5°F; 원문 화씨 환산 오류 교정), 맥박은 분당 108회, 호흡수는 분당 18회, 혈압은 165/110 mm Hg이다. 신체진찰에서 네 사지 모두에 과다반사와 경미한 떨림이 있다. 다음 중 처치의 다음 단계로 사용해야 하는 것은?
+시탈로프람을 복용 중인 환자가 트라마돌을 새로 시작한 뒤 수시간 만에 초조와 발한이 생겼다. 체온이 높고 다리 반사가 항진됐으며 발목에 간대가 유발된다. 가장 먼저 할 조치는?
 
 ## 선택지
 
-A. 시프로헵타딘
-B. 디아제팜
-C. 트라마돌과 시탈로프람 중단
-D. 셀레길린
+A. 원인 약을 중단하고 활력 감시와 지지치료를 시작한다
+B. 시프로헵타딘을 줄 때까지 기존 약을 유지한다
+C. 해열제만 주고 정상 체온이 되면 귀가시킨다
+D. 시탈로프람에 모노아민산화효소 억제제를 추가한다
 
 ## 해설
 
 
-시탈로프람(SSRI)과 트라마돌(오피오이드)의 병용은 세로토닌 축적을 초래해 세로토닌 증후군을 일으킬 수 있다. 증후군이 의심될 때 가장 중요한 조치는 원인 약물을 즉시 중단하는 것이다. 따라서 두 약물을 중단하는 것이 다음 단계이다.
+빠른 발현과 간대·반사항진은 세로토닌 독성을 시사한다. 세로토닌 작용 약을 즉시 중단하고 지지치료를 시작한다. 중증도에 따라 진정·냉각과 집중 치료가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006401
+- https://pubmed.ncbi.nlm.nih.gov/38926083/
 
 ## 검수 근거
 

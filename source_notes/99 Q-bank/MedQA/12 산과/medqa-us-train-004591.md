@@ -13,13 +13,13 @@ related_diseases:
   - "다운증후군 선별검사"
   - "무세포 태아 DNA"
   - "비침습적 산전검사"
-question_type: prevention
+question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-35세 여성 임신 2회, 출산 1회가 첫 산전 진료를 받으러 왔다. 첫 임신과 분만은 합병증 없이 진행되었다. 마지막 월경일은 확실하지 않다. 골반검사에서 임신 10주 크기의 자궁이 보인다. 초음파로 임신 주수를 확인했고 다태임신 없이 태아 한 명이 보인다. 임신 위험과 가능한 선별 및 진단검사에 대해 상담하던 중 다운증후군 선별검사를 원한다고 한다. 산모와 태아에 대한 위험이 낮으면서 빠르고 확실한 선별검사를 선호한다. 현재 관리에서 가장 적절한 다음 단계는 무엇인가?
+임신 10주 4일 단태임신 산모가 침습적 검사를 원하지 않으며 다운증후군을 민감하게 선별하고 싶다고 한다. 지금 할 수 있는 검사는?
 
 ## 선택지
 
-A. 산모 혈청 AFP, hCG, 비포합 에스트리올과 인히빈 A
-B. 양수천자
-C. 무세포 태아 DNA 검사
-D. 융모막융모생검
+A. 양수검사
+B. 모체 혈액 세포유리 DNA 검사(NIPT)
+C. 융모막융모검사
+D. 모체 혈청 AFP 단독검사
 
 ## 해설
 
 
-임신 10주에 비침습적 선별검사로 높은 민감도와 특이도를 가진 무세포 태아 DNA 검사는 산모·태아 위험이 낮고 결과가 빠르게 나오므로 선호된다. 따라서 다운증후군 선별을 위한 최적의 다음 단계는 무세포 태아 DNA 검사이다.
+세포유리 DNA 검사는 임신 10주부터 흔한 삼염색체를 선별할 수 있다. 고위험 결과는 확진이 아니므로 유전 상담 후 융모막융모검사나 양수검사를 논의한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004591
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7834900/

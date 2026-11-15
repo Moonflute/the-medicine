@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHspp0g6re866y066Cl7KadIChNeWFzdGhlbmlhIGdyYXZpcykubWQ
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-71세 남성이 청색증과 약하고 얕은 호흡으로 응급실에 왔다. 가정간호사는 중증근무력증과 반복성 요로감염 병력이 있다고 한다. 5일 전 요로감염이 발생하여 겐타마이신을 처방받고 요로 증상은 호전되었다. 오늘 아침 식사 중 악력이 저하되고 점점 호흡이 어려워졌다. 피리도스티그민과 아스피린을 매일 처방대로 복용한다. 체온은 99°F(37.2°C), 혈압은 128/78 mmHg, 맥박은 분당 92회, 호흡수는 분당 28회, 실내 공기 산소포화도는 86%이다. 회청색 피부, 저음성 발성, 상지 약화가 있고 하지 근력은 정상이다. 동맥혈가스는 PO₂ 55 mmHg, PCO₂ 60 mmHg, pH 7.30이다. 기관삽관을 시행했다. 다음 중 관리의 다음 최선 단계는 무엇인가?
+중증근무력증 환자가 감염 후 연하·호흡근 약화로 삽관됐다. 감염 치료와 유발 약물 평가를 진행 중이다. 위기에서 빠른 단기 효과를 기대할 면역치료는?
 
 ## 선택지
 
-A. 아트로핀
-B. 에드로포늄
-C. 혈장교환술
-D. 흉선절제술
+A. 피리도스티그민만 증량한다
+B. 아자티오프린 단독치료를 시작한다
+C. 계획 흉선절제술만 바로 시행한다
+D. 혈장교환을 시행한다
 
 ## 해설
 
-호흡근 약화와 고탄산혈증으로 삽관이 필요한 중증근무력 위기이다. 혈장교환(C)은 빠른 단기 면역치료이며 IVIG도 인정되는 대안이다. 두 치료의 선택은 임상상과 금기·가용성에 따른다. Aminoglycoside인 gentamicin은 신경근 전달을 악화시킬 수 있으므로 감염 치료를 유지하면서 대체 가능성을 검토한다. Edrophonium 검사나 thymectomy는 위기의 즉각적인 호흡부전 치료를 대신하지 않는다.
+중증근무력 위기에서는 환기 지원과 함께 혈장교환 또는 정맥 면역글로불린을 사용한다. 감염과 신경근 전달을 떨어뜨리는 약도 함께 재평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 흉선절제술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006066
+- https://pubmed.ncbi.nlm.nih.gov/40940171/

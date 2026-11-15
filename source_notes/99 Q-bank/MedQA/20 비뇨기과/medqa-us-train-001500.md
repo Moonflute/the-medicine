@@ -18,6 +18,7 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 difficulty: standard
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-97세 남성이 응급실에서 요폐를 치료받은 지 5일 후 비뇨기과에 내원했다. 고혈압, 제2형 당뇨병, 뇌졸중, 이상지질혈증, 과거 심근경색 및 오른쪽 고관절의 중증 골관절염 병력이 있다. 약을 잘 복용하지 않고 여러 동반질환이 잘 조절되지 않는다. 병원에서 폴리 카테터로 요폐를 치료했다. 진료실에서 전립선특이항원(PSA)은 6.0 ng/mL(정상 <4 ng/mL)이고 직장수지검사에서 압통이 없으며 돌처럼 단단한 결절이 여러 개 있는 전립선이 만져진다. 폴리 카테터를 제거하자 스스로 소변을 볼 수 있었다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+97세 남성이 응급실에서 요폐를 치료받은 지 5일 후 비뇨기과에 내원했다. 고혈압, 제2형 당뇨병, 뇌졸중, 이상지질혈증, 과거 심근경색 및 오른쪽 고관절의 중증 골관절염 병력이 있다. 약을 잘 복용하지 않고 여러 동반질환이 잘 조절되지 않는다. 병원에서 폴리 카테터로 요폐를 치료했다. 진료실에서 전립선특이항원(PSA)은 6.0 ng/mL(정상 <4 ng/mL)이고 직장수지검사에서 압통이 없으며 돌처럼 단단한 결절이 여러 개 있는 전립선이 만져진다. 폴리 카테터를 제거하자 스스로 소변을 볼 수 있었다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

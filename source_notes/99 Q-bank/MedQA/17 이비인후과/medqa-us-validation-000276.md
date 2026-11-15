@@ -13,11 +13,11 @@ related_diseases:
   - "노인성 난청"
   - "감각신경성 난청"
   - "Rinne 검사"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-uFuOyduOyEsSDrgpzssq0gKFByZXNieWN1c2lzKS5tZA
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-78세 남성이 지난 1년 동안 양쪽 귀의 점진적인 청력저하를 평가받으러 왔다. 사람이 많은 곳이나 여러 사람이 동시에 말할 때 대화를 이해하기 어렵다. 어지럼, 귀 분비물, 이명, 귀 통증은 없다. 이경검사에서 진주빛 회색의 반투명 고막과 정상적인 광반사가 보인다. 512 Hz 진동 음차를 왼쪽 유양돌기에 대고 소리가 들리지 않게 된 뒤 같은 쪽 귀 앞에 가져가자 다시 소리가 들린다고 했다. 오른쪽에서도 같은 결과였고, 이마 중앙에 음차를 대도 편위가 없었다. 가장 가능성 높은 진단은?
+78세 환자의 양쪽 청력이 수년에 걸쳐 서서히 떨어져, 소음 속 대화가 특히 어렵다. 귀지·고막 이상은 없고 양쪽에서 공기전도가 골전도보다 크다. 난청의 정도와 주파수별 양상을 확인할 검사는?
 
 ## 선택지
 
-A. 귀지 매복
-B. 이독성
-C. 전정달팽이신경 손상
-D. 노인성 난청
+A. 뇌파검사
+B. 순음청력검사
+C. 경부 CT
+D. 전정기능검사
 
 ## 해설
 
-정답은 D, 노인성 난청이다. 고령에서 서서히 진행한 양측 청력저하와 소음 속 대화 이해의 어려움이 진단을 지지한다. Rinne 검사에서 공기전도가 골전도보다 큰 양성 결과와 Weber의 비편위는 대칭성 감각신경성 난청에 부합하지만, 이 음차검사 결과는 정상 청력에서도 가능하여 단독 확진은 아니다. 본문의 정상 광반사는 이경검사상 고막 소견이며 청각학적 등골근반사를 검사한 것이 아니다. 순음청력검사 등으로 정도와 양상을 평가한다.
+대칭적인 점진적 난청에서는 노인성 난청을 고려한다. 음차검사만으로 정도를 평가하기 어려워 순음청력검사로 주파수별 역치를 확인한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 노인성 난청
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000276
+- https://pubmed.ncbi.nlm.nih.gov/38687845/

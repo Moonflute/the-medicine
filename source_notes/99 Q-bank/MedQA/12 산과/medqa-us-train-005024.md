@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 임신 8주인 임신 6회·출산 1회의 여자가 과거 4번의 자연유산을 모두 임신 1기에 경험해 걱정하고 있다. 이전 태아 소실 후 VDRL 양성, FTA-ABS 음성이었고 현재 혈소판은 정상이며 aPTT가 48초로 연장되어 있다. 다음 중 가장 적절한 처치는?
+임신 8주 산모가 반복 초기 유산과 지속적인 항인지질항체 양성으로 산과적 항인지질증후군을 진단받았다. 본인에게 혈전증 병력은 없다. 임신 중 권고되는 조합은?
 
 ## 선택지
 
-A. 코르티코스테로이드
-B. 저분자량 헤파린
-C. 근육 내 벤자틴 페니실린 G
-D. 비타민 K
+A. 치료 용량 와파린과 아스피린
+B. 저용량 아스피린 단독
+C. 저용량 아스피린과 예방 용량 저분자량 헤파린
+D. 매일 고용량 스테로이드 단독
 
 ## 해설
 
-반복 초기 유산, 생물학적 위양성 VDRL 및 연장된 aPTT는 항인지질증후군을 시사한다. 지속 aPL 양성 등 확인이 필요하며 선택지 중 LMWH(B)가 적절하다. 산과적 APS로 확인되면 일반적으로 저용량 아스피린과 예방 용량 헤파린을 병용한다. VDRL 양성만으로 매독 치료하거나 aPTT 연장을 출혈성 결핍으로 단정하지 않는다.
+혈전 병력이 없는 산과적 항인지질증후군에는 저용량 아스피린과 예방 용량 헤파린을 병용한다. 과거 혈전증이 있는 항인지질증후군에서 필요한 치료 용량과 구분한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 비타민 K
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005024
+- https://doi.org/10.1002/acr.24130

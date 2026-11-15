@@ -18,7 +18,7 @@ question_type: 임상증례 객관식
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-2VnOuereyGkOyDgSAoQ29sZCBJbmp1cnkpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 남자가 경찰에 이끌려 응급실에 왔다. 길 한가운데서 낯선 사람들에게 소리를 지르는 모습으로 발견되었다. 중요한 과거력은 없고 최근 덩굴옻나무 노출로 처방받은 짧은 기간의 프레드니손만 복용한다. 체온 25°C, 혈압 90/50 mmHg, 맥박 90회/분, 호흡수 17회/분, 실내 공기 산소포화도 98%이다. 속옷만 입고 있으며 정부에 대해 화난 듯 중얼거린다. 내적 자극에 반응하는 것처럼 보이고 병력 청취가 어렵다. 가장 적절한 다음 관리는 무엇인가?
+추운 곳에서 구조된 환자의 중심체온이 25℃다. 젖은 옷은 벗겼고 저혈압이 계속된다. 기도와 순환을 살피면서 다음으로 적절한 조치는?
 
 ## 선택지
 
-A. 할로페리돌 근육주사
-B. 로라제팜 투여와 스테로이드 중단
-C. 따뜻한 공기 재순환기
-D. 따뜻하게 데운 정맥 생리식염수와 보온 담요
+A. 혼란이 가라앉을 때까지 재가온을 기다린다
+B. 적극적으로 재가온하며 체외순환 재가온 가능 기관과 협의한다
+C. 해열제를 투여하고 담요를 덮는다
+D. 실온의 수액만 투여하고 일반병실에서 관찰한다
 
 ## 해설
 
-25°C의 심한 저체온은 행동 이상을 동반할 수 있으므로 재가온과 생리적 안정화가 우선이다. 보기 중 가온 정맥수액과 보온(D)이 적합하지만 핵심 체온 확인, 심전도·순환 감시 및 적극 재가온 평가가 필요하다. 불안정하면 ECLS 가능한 센터 치료를 고려한다. 최근 steroid만으로 정신병을 확정하거나 진정제를 우선 투여하지 않는다.
+25℃의 중증 저체온과 순환 불안정은 응급이다. 추가 열손실을 막고 심전도를 감시하면서 적극적으로 재가온하며, 순환이 불안정하면 체외순환 재가온이 가능한 기관과 협의한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 따뜻하게 데운 정맥 생리식염수와 보온 담요
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004074
+- https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/

@@ -13,12 +13,12 @@ related_diseases:
   - "child sexual abuse"
   - "sexually transmitted infection"
   - "mucopurulent discharge"
-question_type: ethics
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yEseunpOqwnOqwkOyXvC5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JWE64-Z7ZWZ64yAIOuwjyDruYTsmrDrsJzsoIEg7IaQ7IOBLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-7세 여아가 5일간의 배뇨통으로 소아과에 왔다. 소변을 볼 때 화끈거리고 가려운 느낌이 처음 생겼다. 지난 6개월간 사회적으로 위축되고 겁이 많아지는 등 행동 변화가 있었고 원인은 찾지 못했다. 질을 진찰하자 매우 긴장하며 울기 시작했고 의사는 성매개질환을 의심해 검사와 아동보호기관 연계를 시행했다. 다음 중 질 부위에서 어떤 소견이 의심을 뒷받침하는가?
+사춘기 전 아동의 분비물 검사에서 임균이 나왔고 확인 검사도 양성이다. 주산기 전파를 설명할 상황은 없다. 감염 치료와 함께 필요한 조치는?
 
 ## 선택지
 
-A. 홍반과 심한 가려움이 동반된 딱지성 삼출 병변
-B. 은백색 인설이 있는 경계가 뚜렷한 홍반성 판과 경한 가려움
-C. 구진과 수포가 있는 선형 가려운 발진
-D. 노란 점액농성 분비물
+A. 감염이 나으면 안전 평가 없이 진료를 마친다
+B. 아동의 안전을 확보하고 학대 의심을 신고하며 전문 평가를 연결한다
+C. 다른 성매개감염도 확인될 때까지 신고를 미룬다
+D. 보호자가 먼저 인정하면 그때 전문 평가를 시작한다
 
 ## 해설
 
-사춘기 전 아동의 노란 점액농성 분비물(D), 배뇨통·행동 변화는 감염 및 안전 문제 평가를 정당화한다. 분비물 자체가 임질이나 성학대를 확진하지는 않는다. 숙련자가 외상을 최소화하여 검체를 채취하고 확진검사·보호 절차를 진행한다.
+사춘기 전 아동의 확인된 임균 감염은 주산기 전파가 아니라면 성학대를 강하게 의심할 소견이다. 치료를 제공하면서 안전 평가·신고와 숙련된 전문팀의 평가를 병행한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 노란 점액농성 분비물
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001969
+- https://law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1033213513

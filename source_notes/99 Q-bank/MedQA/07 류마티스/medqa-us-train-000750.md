@@ -13,7 +13,7 @@ related_diseases:
   - "Raynaud phenomenon"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
-question_type: management
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -35,19 +35,19 @@ related_drug_slugs:
 
 ## 문제
 
-42세 남성이 정기 건강검진을 위해 내원하였다. 환자는 건강하다고 느끼지만 지난 4개월 동안 여러 차례 '손가락 창백(finger pallor)' 증상을 겪었다. 이러한 에피소드 동안 왼쪽 손의 네 번째 손가락이 하얗게 변한다. 색깔은 보통 20분 이내에 돌아오며, 이후 손가락에 발적과 온감이 뒤따른다. 에피소드는 통증을 동반하지 않는다. 이러한 증상은 주로 날씨가 매우 추운 출근길에 발생한다. 한 번은 딸을 데리러 가기 위해 어린이집으로 서둘러 가던 중에 발생했다. 환자는 란소프라졸(lansoprazole)로 치료 중인 위식도역류질환이 있다. 활력징후는 정상 범위 내에 있다. 손목에서 척골동맥(ulnar artery)을 압박했을 때와 요골동맥(radial artery)을 압박했을 때 손으로 가는 혈류는 정상이다. 환자에게 손을 찬물에 담그게 했을 때 왼쪽 네 번째 손가락의 색깔 변화가 관찰된다. 환부의 사진이 제시되어 있다. 혈색소 농도는 14.2 g/dL, 혈청 크레아티닌은 0.9 mg/dL, 적혈구침강속도(ESR)는 35 mm/h이다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+42세 남성이 최근 새로 발생한 비대칭 레이노 현상과 손끝의 작은 궤양으로 내원했다. 손가락이 창백해졌다가 회복되지만 한쪽이 더 심하다. 결합조직병에 의한 이차성 레이노를 평가할 검사는?
 
 ## 선택지
 
-A. 란소프라졸 중단
-B. 경구 아스피린
-C. 디지털 감산 혈관조영술(digital subtraction angiography)
-D. 혈청학적 검사
+A. 두부 CT
+B. 혈청 요산만 검사
+C. 심장 운동부하검사
+D. 항핵항체 검사와 손톱주름 모세혈관 평가
 
 ## 해설
 
 
-추위·긴장에 유발되는 창백 후 홍조는 Raynaud 현상에 맞는다. 중년 남성에서 새로 시작한 비대칭 증상과 ESR 상승은 이차성 원인을 평가할 단서이므로 혈청학적 검사(D)가 적절하다. 생활조언만으로 충분하다고 한 기존 해설은 이 사례에 맞지 않는다.
+성인에 새로 시작된 비대칭 발작과 손끝 궤양은 이차성 원인의 단서다. 항핵항체와 손톱주름 모세혈관을 평가하고, 허혈이 지속되면 동맥 폐색도 신속히 확인한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 혈청학적 검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000750
+- https://doi.org/10.1093/rheumatology/keae394

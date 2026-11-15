@@ -15,11 +15,11 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-35세 남성 마취과 의사가 간경변증(cirrhosis) 환자에게 동맥 라인을 삽입하던 중 바늘에 찔리는 사고를 당해 직업 건강 클리닉에 내원했습니다. 병원에서 모든 바늘 찔림 사고에 대해 시행하는 표준 혈액 매개 병원체 검사 패널 외에도, 환자의 요청에 따라 추가적인 간염 패널 검사가 시행되었습니다. 환자의 검사 결과는 다음과 같습니다: HIV 4세대 항원/항체: 음성/음성, B형 간염 표면 항원(HBsAg): 음성, C형 간염 항체: 음성, 항-B형 간염 표면 항체(HBsAb): 양성, 항-B형 간염 핵심 IgM 항체(HBc IgM): 음성, 항-B형 간염 핵심 IgG 항체(HBc IgG): 양성. 위 결과에 대한 가장 가능성 높은 설명은 무엇입니까?
+직업상 혈액에 노출된 의료인의 기존 B형간염 검사 결과가 HBsAg 음성, 항-HBs 양성, 총 항-HBc 양성이다. IgM 항-HBc는 음성이다. 이 조합의 해석은?
 
 ## 선택지
 
-A. 만성 감염
-B. 감염으로 인한 면역 획득
-C. 예방접종으로 인한 면역 획득
-D. 창문기(window period)
+A. 백신 접종으로 얻은 면역
+B. B형간염 감염력이 없는 감수성 상태
+C. 과거 자연 감염에서 회복한 상태
+D. 급성 감염의 창기간
 
 ## 해설
 
 
-HBsAg가 음성이고 HBc IgG가 양성이며 HBsAb가 양성인 패턴은 과거에 HBV에 감염된 후 자연 면역이 형성된 상태를 의미한다. 핵심 항체인 HBc IgG는 과거 감염을, 표면 항체인 HBsAb는 면역 획득을 나타낸다. 따라서 가장 가능성 높은 설명은 감염으로 인한 면역 획득이다.
+HBsAg가 없고 항-HBs와 항-HBc가 함께 검출되면 과거 감염 후 회복에 부합한다. 백신으로만 면역을 얻으면 항-HBc는 생기지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ HBsAg가 음성이고 HBc IgG가 양성이며 HBsAb가 양성인 패턴은 과�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000341
+- https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/

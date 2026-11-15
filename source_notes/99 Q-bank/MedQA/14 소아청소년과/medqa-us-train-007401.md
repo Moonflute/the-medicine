@@ -14,13 +14,13 @@ related_diseases:
   - "관상동맥류"
   - "점막 변화"
   - "손발바닥 발진"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7JmA7IKs7YKk67ORIChLYXdhc2FraSBEaXNlYXNlKS5tZA
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-4세 남아가 2주 동안 지속된 몸통의 가려운 발진, 권태감, 최고 38.5°C(101.3°F)까지 오르는 발열로 어머니와 함께 응급실에 내원했다. 타이레놀을 먹였지만 호전이 거의 없었다. 만삭 자연 질식분만으로 태어났고 예방접종은 최신이며 발달 단계도 모두 달성했다. 신체검사에서 입술이 갈라지고 통증성 경부 림프절병증이 있다. 발진은 홍역모양이며 몸통, 손바닥, 발바닥을 침범하고 항문 주위 피부에 미세한 박리가 있다. 이 환자에서 합병증을 평가하기 위해 가장 중요하게 검사해야 할 해부학적 구조는 무엇인가?
+가와사키병으로 정맥 면역글로불린을 투여받은 4세 아이가 투여 종료 40시간 뒤에도 39℃ 열이 난다. 다른 발열 원인을 평가했으나 뚜렷하지 않고 CRP도 높다. 다음 조치는?
 
 ## 선택지
 
-A. 담낭
-B. 승모판
-C. 관상동맥
-D. 유문
+A. 해열제만 투여하고 일주일 후 퇴원 진료
+B. 아스피린을 끊고 항생제만 사용
+C. ESR이 더 오를 때까지 치료하지 않음
+D. 면역글로불린 불응으로 보고 전문팀에서 추가 항염증 치료를 검토
 
 ## 해설
 
 
-가와사키병에서 관상동맥류가 가장 위험한 합병증이므로, 관상동맥을 평가하는 것이 가장 중요하다. 정답은 C이다.
+IVIG 종료 36시간 이후에도 설명되지 않는 발열이 지속·재발하면 불응성 가와사키병을 의심한다. 관상동맥 합병증 위험을 재평가하고 반복 IVIG 등 추가 치료를 전문팀이 고른다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007401
+- https://doi.org/10.1161/CIR.0000000000001295
+- https://cps.ca/en/documents/position/kawasaki-disease

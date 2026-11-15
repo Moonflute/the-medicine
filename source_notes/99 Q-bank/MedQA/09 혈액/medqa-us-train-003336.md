@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,7 +38,7 @@ related_drug_slugs:
 
 ## 문제
 
-40세 남성이 피로감, 발한, 다리의 가려움증으로 내원했다. 만성 기관지염이 있고 24년간 하루 2갑의 담배를 피웠다. 비만하며 얼굴이 붉고 입술이 청색을 띤다. 검사에서 적혈구 690만/mm3, 헤모글로빈 20 g/dL, 백혈구 13,000/mm³, MCV 91 fL, 혈소판 54만/mm3, 혈청 페리틴 감소가 확인되었다. 다음 중 가장 적절한 치료의 다음 단계는?
+40세 남성이 피로감, 발한, 다리의 가려움증으로 내원했다. 만성 기관지염이 있고 24년간 하루 2갑의 담배를 피웠다. 비만하며 얼굴이 붉고 입술이 청색을 띤다. 검사에서 적혈구 690만/mm3, 헤모글로빈 20 g/dL, 백혈구 13,000/mm³, MCV 91 fL, 혈소판 54만/mm3, 혈청 페리틴 감소가 확인되었다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

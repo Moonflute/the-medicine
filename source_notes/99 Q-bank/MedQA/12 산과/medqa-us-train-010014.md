@@ -13,12 +13,12 @@ related_diseases:
   - "절박유산"
   - "생존 태아"
   - "임신 중 질출혈"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-ygiOuwlSDsnKDsgrAgKFRocmVhdGVuZWQgQWJvcnRpb24pLm1k
   - MTIg7IKw6rO8L-yehOyLoCDspJEg7KeI7Lac7ZiILm1k
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-30세 G3P1011 여성이 하복부 통증과 질 출혈 평가를 위해 산과 클리닉에 내원했다. 임신 1분기 초음파를 기준으로 임신 15주이다. 임신 초기에 소량 출혈이 있었지만 다른 문제는 없었다. 경미하게 불안해 보이고 활력징후는 심박수 분당 120회를 제외하면 정상이다. 복부 압통은 없고 자궁경부 외구는 닫혀 있으며 질 내에 소량의 혈액이 고여 있다. 태아 조직은 보이지 않는다. 정량적 β-hCG를 위한 혈액을 채취하고 초음파를 시행했으며 정상 심박수를 가진 생존 태아가 보였다. 산과의사는 휴식하고 성관계를 포함한 신체활동을 피하라고 안내해 귀가시켰다. 출혈이 많아지면 응급실로 오라고 했다. 이 환자가 오늘 경험한 상태는?
+임신 8주 산모가 이전에 유산을 두 번 했고 이번에 소량의 질출혈이 있다. 초음파로 자궁내 태아의 심박을 확인했다. 경부는 닫혀 있고 혈역학적으로 안정적이다. NICE 지침에서 추가로 권하는 치료는?
 
 ## 선택지
 
-A. 불완전 유산
-B. 불가피 유산
-C. 절박 유산
-D. 완전 유산
+A. 질 미세화 프로게스테론
+B. 저용량 아스피린을 모든 경우에 추가
+C. 주사 황산마그네슘
+D. 태아 심박이 있어도 예방적으로 자궁 흡인술
 
 ## 해설
 
-임신 15주에 질출혈이 있지만 자궁경부가 닫혀 있고 초음파에서 태아 심장활동이 확인되므로 선택지 중 절박유산(C)이 가장 적절하다. 진행 중인 불가피유산이나 이미 태아가 사망한 경우와 구분한다. 출혈이 곧 태아 사망을 뜻하지는 않는다. 원문의 침상 안정·활동 및 성관계 제한은 사례 서술이며, 일률적 침상 안정이 유산을 예방한다는 근거는 없으므로 이를 예방 효과가 입증된 표준 치료로 해석하지 않는다.
+NICE는 자궁내 임신이 확인된 초기 출혈 환자에게 유산 과거력이 있으면 질 미세화 프로게스테론을 권고한다. 태아 심박이 확인된 경우 16주까지 계속하는 지침이며, 유산력이 없는 절박유산과 구분한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 완전 유산
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010014
+- https://www.nice.org.uk/guidance/ng126/chapter/management-of-miscarriage

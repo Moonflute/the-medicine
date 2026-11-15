@@ -21,7 +21,7 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-28세 남성이 며칠 동안 지속된 혈변으로 내원했다. 뒤무직과 배변 절박감이 있으나 복통은 없다. 지난 수년 동안 저절로 호전되는 가벼운 에피소드가 여러 번 있었다. 특별한 병력과 복용 약물은 없다. 혈압 129/85 mmHg, 체온 37.4°C, 맥박 75회/분이다. 복부 진찰에서 왼쪽 하복부를 깊게 촉진하면 경미한 압통이 있고 직장수지검사에서 항문 압통과 신선한 피가 보인다. 대변검사에서 병원성 세균과 기생충은 음성이다. ESR은 28 mm/h이다. 대장내시경에서 직장부터 원위부 S상결장까지 미만성 홍반, 혈관상 감소, 미세한 과립상이 보이며 나머지 결장과 원위 회장은 정상이다. S상결장 생검에서 선와 구조 왜곡이 보인다. 다음 중 투여해야 할 가장 적절한 약물은?
+궤양성 대장염이 직장에서 비장만곡부까지 이어진 28세 남성이 경미한 혈변과 절박변을 호소한다. 경구 메살라진을 적절히 복용했지만 부분 반응만 있었고 대변 감염검사는 음성이다. 관해 유도를 위해 우선 추가할 약은?
 
 ## 선택지
 
-A. 아자티오프린
-B. 메살라민
-C. 메트로니다졸
-D. 총비경구영양
+A. 메살라진 좌약만 추가
+B. 메살라진 관장 추가
+C. 아자티오프린 단독으로 변경
+D. 정맥 고용량 스테로이드 투여
 
 ## 해설
 
 
-경미한 혈변과 직장 부위의 미만성 염증, 선와 구조 왜곡은 경증 궤양성 대장염을 시사한다. 1차 치료제로 장내 국소 스테로이드가 아닌 5‑ASA 제제(메살라민)가 권장된다.
+좌측 대장염에서는 직장에만 닿는 좌약보다 메살라진 관장이 더 넓은 범위에 도달한다. 이 정도 활성도에서는 경구 메살라진에 관장을 병용할 수 있다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 총비경구영양
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003002
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13714434/

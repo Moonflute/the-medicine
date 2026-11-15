@@ -13,7 +13,7 @@ related_diseases:
   - "Becker muscular dystrophy"
   - "dystrophin mutation"
   - "cardiac conduction abnormality"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs: []
 difficulty: standard
 answer: A
@@ -33,18 +33,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-17세 남아가 피로로 소아과를 방문했다. 겨울 육상팀에 참가하려 했지만 다리에 힘이 풀려 그만두었다. 운동할 때 호흡곤란이 증가하지만 흉통이나 두근거림은 없다. 만성질환이나 수술력, 복용약은 없다. 발달은 정상이고 평균적인 학생이다. 신체검사에서 경미한 요추 전만, 종아리에 비해 얇은 허벅지, 발끝 보행이 보인다. 심전도에서 1도 방실결절 차단이 있다. 다음 중 이 환자 상태의 가장 가능성 높은 원인은?
+17세 남학생이 계단을 오를 때 허벅지 힘이 빠진다. 초등학교 때는 운동이 가능했고 현재도 보행은 유지된다. 종아리 가성비대와 근위부 위약이 있고 CK가 크게 상승했다. 베커 근이영양증이 의심될 때 확진에 우선할 검사는?
 
 ## 선택지
 
-A. 비정상 디스트로핀
-B. 디스트로핀 결핍
-C. 말초신경 탈수초화
-D. 삼염기 반복서열
+A. DMD 유전자의 결실·중복 및 필요 시 염기서열 검사
+B. HTT 반복 확장 검사
+C. PMP22 중복 검사
+D. 혈청 아세틸콜린수용체 항체 검사
 
 ## 해설
 
-정답은 A, 비정상 디스트로핀이다. 비교적늦은발병의 근위약화·종아리가성비대와 심장침범은 Becker 근이영양증을 시사한다. 흔히 읽는틀이 보존되는 in-frame변이로 일부기능을 가진 비정상/감소 디스트로핀이 만들어진다. frameshift로 사실상디스트로핀소실을 일으키는 전형적Duchenne양상과 구분한다.
+디스트로핀병은 DMD 유전자 검사로 확인한다. 베커형은 뒤센형보다 늦게 나타나고 진행이 느린 경우가 많지만 심근병증은 별도로 확인한다.
 
 ## 검수 근거
 
@@ -54,3 +54,4 @@ D. 삼염기 반복서열
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002400
+- https://www.ncbi.nlm.nih.gov/books/NBK1119/

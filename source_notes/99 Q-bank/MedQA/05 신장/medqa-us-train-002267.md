@@ -19,7 +19,7 @@ question_type: adverse_effect
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-47세 여성이 추적 진료를 위해 내원했다. 제1형 당뇨병과 말기 신장질환이 있으며 최근 빈혈로 에리스로포이에틴을 시작했다. 마지막 혈액투석은 어제 받았다. 인슐린, 칼시트리올, 세벨라머도 복용한다. 맥박 68회/분, 호흡 12회/분, 혈압 169/108 mmHg이며 이전 방문에서는 혈압이 정상이었다. 심음은 정상이고 경동맥·대퇴·복부 잡음은 없다. 폐는 깨끗하다. 혈색소 12 g/dL, 크레아티닌 3.4 mg/dL, BUN 20 mg/dL이다. 다음 중 이 환자 고혈압의 가장 가능성 높은 원인은?
+혈액투석 중인 47세 여성의 혈압은 안정적이었다. 에포에틴을 시작한 뒤 혈압이 반복해서 169/108 mmHg로 오르고 Hb도 9에서 12 g/dL로 상승했다. 체중, 초여과량과 항고혈압제는 변하지 않았다. 새로 확인된 혈압 상승과 가장 관련된 약은?
 
 ## 선택지
 
-A. 칼시트리올 치료
-B. 에리스로포이에틴 치료
-C. 자율신경병증
-D. 체액 과다
+A. 칼시트리올
+B. 에포에틴
+C. 세벨라머
+D. 기저 인슐린
 
 ## 해설
 
 
-에리스로포이에틴은 적혈구 생산을 촉진하지만 혈압 상승을 흔히 일으킨다. 환자의 고혈압은 에리스로포이에틴 투여와 가장 연관성이 높다.
+조혈자극제는 혈압을 상승시키거나 기존 고혈압을 악화시킬 수 있다. 혈압과 Hb 상승 속도를 확인해 용량을 조정하고, Hb를 정상 범위까지 일률적으로 올리지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 체액 과다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002267
+- https://kdigo.org/guidelines/anemia-in-ckd/

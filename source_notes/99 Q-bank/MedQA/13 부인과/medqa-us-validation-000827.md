@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MDgg6rCQ7Je8L-uLqOyInO2PrOynhCDqsJDsl7wgKEhlcnBlcyBTaW1wbGV4IEluZmVjdGlvbikubWQ
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 여아가 4일간의 통증성 외음부 궤양, 피로, 권태감, 배뇨통으로 진료를 받으러 왔다. 양쪽 서혜부 림프절이 압통 있고 커져 있으며 대음순과 소음순에 얕은 궤양이 여러 개 있다. 가장 적절한 치료는?
+20세 여성이 처음으로 여러 개의 통증성 외음부 궤양과 배뇨통을 겪었다. 병변에서 채취한 검사로 단순포진이 확인됐다. 전신 상태는 안정적이고 경구 약을 복용할 수 있다. 적절한 항바이러스 치료는?
 
 ## 선택지
 
-A. 아시클로버 치료
-B. 아지트로마이신 치료
-C. 독시사이클린 치료
-D. 페니실린 치료
+A. 경구 세팔렉신
+B. 경구 아시클로버 또는 발라시클로버
+C. 외용 스테로이드만 사용
+D. 모든 초발 감염에서 입원해 정맥 항바이러스제만 사용
 
 ## 해설
 
-다발성 통증성 얕은 외음부 궤양·발열·압통성 림프절은 생식기 헤르페스를 시사한다. 아시클로버(A)가 적절하며 병변 NAAT 등으로 확인하고 형을 구별할 수 있다. 임상 양상만으로 HSV-1과 HSV-2를 확정하지 않는다.
+처음 발생한 생식기 단순포진은 경구 항바이러스제로 치료한다. 아시클로버나 발라시클로버를 선택할 수 있다. 중증 전신 질환이나 경구 투여 불가 등은 별도 평가한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 페니실린 치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000827
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10789539/

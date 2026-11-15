@@ -15,11 +15,11 @@ related_diseases:
   - "subendothelial immune complexes"
 related_disease_slugs:
   - MDUg7Iug7J6lL-unieymneyLnSDthqDrpqzsvantjKXsl7wgKE1lbWJyYW5vcHJvbGlmZXJhdGl2ZSBHbG9tZXJ1bG9uZXBocml0aXMpLm1k
-question_type: mechanism
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-52세 남성이 양쪽 다리 부종과 아침 눈 주위 부종으로 응급실에 내원했다. 2주 전 시작되었고 흡연·음주와 가족력은 없다. 체온은 36.8°C (98.2°F), 혈압은 162/87 mm Hg, 맥박은 85회/분이다. 황달과 간비장비대가 있고 양쪽 하지에 허벅지 중간까지 2+ 부종이 있다. HCV 항체는 양성, 혈청 알부민 3 g/dL, 소변 단백질 3+, 적혈구 10–15/hpf 및 적혈구 원주가 있다. 다음 중 이 상태의 소견은 무엇인가?
+52세 남성의 HCV RNA가 양성이다. 촉지자색반, 혈뇨, 하루 1.1g의 단백뇨와 낮은 C4가 있고 혼합 한랭글로불린이 검출됐다. 신기능은 안정적이고 생명을 위협하는 장기 침범은 없다. 신장 증상의 원인 치료에 우선 포함할 것은?
 
 ## 선택지
 
-A. 내피하 면역복합체 침착
-B. 포스포리파제 A2 수용체 항체
-C. 정상 보체 수치
-D. 면역복합체 침착이 거의 없음
+A. 직접작용 항바이러스제
+B. 고용량 스테로이드 단독
+C. 혈장교환 단독
+D. HCV 치료 없이 항히스타민제
 
 ## 해설
 
 
-C형 간염과 연관된 막증식성 사구체신염은 면역복합체가 혈관 내피하에 침착되어 보이는 것이 특징이다. 따라서 이 질환에서 관찰되는 소견은 내피하 면역복합체 침착이다. 다른 선택지는 해당 병리와 맞지 않는다.
+신기능이 안정적이고 중증 장기 침범이 없는 HCV 연관 사구체신염에는 직접작용 항바이러스제로 HCV를 치료한다. 급속 신기능 악화나 중증 혈관염이면 면역억제나 혈장교환도 필요할 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ C형 간염과 연관된 막증식성 사구체신염은 면역복합체가 혈�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001734
+- https://kdigo.org/guidelines/hepatitis-c-in-ckd/

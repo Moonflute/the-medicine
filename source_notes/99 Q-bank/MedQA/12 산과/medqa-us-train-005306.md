@@ -14,10 +14,10 @@ related_diseases:
   - "신경관 결손"
   - "임신 중 항경련제"
   - "Neural tube defect"
-question_type: prognosis
+question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 36주인 32세 임신 2회·유산 1회의 여자가 첫 산전 진료를 받으러 왔다. 조절되는 간질로 발프로산과 리튬을 복용하고 있으며 과거 선택적 유산이 있다. 이 병력으로 태아에서 가장 발생하기 쉬운 질환은?
+뇌전증으로 발프로산을 복용하는 여성이 임신을 계획한다. 임신 초기 노출 위험에 대한 설명으로 옳은 것은?
 
 ## 선택지
 
-A. 21번 삼염색체증
-B. 신경관 결손
-C. 자궁내 성장제한
-D. 사지 기형
+A. 임신 초기 노출은 구조기형 위험과 관계가 없다
+B. 임신반응이 양성이면 의료진과 상의하지 않고 바로 끊는다
+C. 엽산만 추가하면 발프로산의 태아 위험이 모두 없어진다
+D. 신경관결손 위험이 높아져 임신 전 발작 유형에 맞는 대체약을 전문의와 검토한다
 
 ## 해설
 
-발프로산의 임신 초기 노출은 신경관 결손, 특히 척추갈림증 위험을 높이므로 선택지 중 B가 적절하다. 신경관은 임신 초기에 닫히며 36주 복용 때문에 그때 새로 결손이 생긴다는 뜻은 아니다. 모든 노출 태아가 결손을 갖는 것도 아니고 약물을 갑자기 중단해서도 안 되며 전문 진료가 필요하다.
+발프로산은 태아 신경관결손과 여러 발달 문제의 위험을 높인다. 가능하면 임신 전에 대체약을 검토하되 발작 악화를 막기 위해 임의 중단하지 않는다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 사지 기형
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005306
+- https://pubmed.ncbi.nlm.nih.gov/38748979/

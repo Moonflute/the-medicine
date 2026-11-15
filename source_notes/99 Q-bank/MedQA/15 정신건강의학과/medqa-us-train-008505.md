@@ -13,12 +13,12 @@ related_diseases:
   - "excoriation disorder"
   - "body dysmorphic disorder"
   - "cognitive behavioral therapy"
-question_type: management
+question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2UvOu2gOucr-q4sOq4sOyepeyVoCAoRXhjb3JpYXRpb24gRGlzb3JkZXIpLm1k
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOyytOydtO2YleyepeyVoCAoQm9keSBEeXNtb3JwaGljIERpc29yZGVyKS5tZA
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,24 +35,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-17세 여성이 경미한 여드름 평가를 위해 어머니와 함께 내원했다. 6개월 전 등에 구진이 생겼다. 최근에는 등을 완전히 가리는 옷만 입고 피부를 거울로 확인하는 데 많은 시간을 보낸다고 어머니가 말한다. 하루 3시간씩 면포를 긁고 짠다. 설탕이 여드름의 원인일 수 있다는 글을 읽고 저탄수화물 식단을 시도해 5.2kg(11.5파운드) 감량했지만 피부 상태는 변하지 않았다. 환자는 자신을 ‘못생겼다’고 표현한다. 지난 6개월 동안 수영팀을 그만두고 훈련을 중단했으며 몇 차례 학교에도 가지 않고 집에 있었다. 슬프고 괴로워 보인다. 키 170cm(5피트 7인치), 체중 62kg(136.7파운드), BMI 21.4kg/m²이다. 활력징후는 정상이다. 신체검사에서 작은 구진 몇 개와 목, 등, 엉덩이에 광범위한 긁힌 자국이 보인다. 정신상태검사에서 우울하고 과민해 보이나 자살 사고의 증거는 없다. 치료적 동맹을 형성한 후 가장 적절한 다음 처치는 무엇인가?
+17세 청소년이 다른 사람에게 거의 보이지 않는 얼굴의 흉터 때문에 하루 2시간씩 거울을 본다. 그 흉터가 심하게 흉하다고 느껴 등교를 피한다. 체중·체형에 대한 집착은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 변증법적 행동치료
-B. 입원을 권유한다
-C. 영양 재활
-D. 인지행동치료
+A. 사회불안장애
+B. 피부뜯기장애
+C. 신체이형장애
+D. 신경성 식욕부진증
 
 ## 해설
 
 
-환자는 외모에 대한 과도한 집착과 부정적인 사고가 특징인 신체이형성장애이며, 인지행동치료(CBT)가 1차 치료로 가장 효과적이다. 체중이 정상이고 문제의 중심은 경미한 외모 결함에 대한 과도한 집착·확인·회피와 기능장애이므로, 제시된 선택지 중 이에 초점을 둔 CBT가 적절하다. 따라서 다음 적절한 처치는 인지행동치료이다.
+다른 사람에게 거의 보이지 않는 외모 결함에 몰두하고 거울 확인 같은 반복 행동과 기능 저하가 동반되면 신체이형장애를 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008505
+- https://www.nice.org.uk/guidance/cg31/chapter/Recommendations
 
 ## 검수 근거
 

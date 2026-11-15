@@ -38,7 +38,7 @@ related_drug_slugs:
 
 ## 문제
 
-25세 남성 대학원생이 룸메이트에게 기침하며 심한 호흡곤란을 보이는 상태로 발견된 뒤 응급실에 왔다. 3개월 전 HIV 감염을 진단받았지만 항레트로바이러스 치료를 잘 따르지 않았다. 칠레 출신으로 5년 전 이곳으로 이주했다. 상태가 나빠 보이고 문장으로 말할 수 없다. 체온 38.2°C, 맥박 분당 127회, 호흡수 분당 32회, 혈압 95/65 mmHg, 실내 공기 산소포화도 86%이다. 구강 칸디다증은 보이지 않는다. 산소를 보충하고 혈청 LDH 364 IU/L, CD4 세포 수 98/mm³, β-D-글루칸 상승이 확인되었다. 동맥혈가스분석은 pH 7.50, PaCO₂ 22 mmHg, PaO₂ 60 mmHg, HCO₃⁻ 20 mEq/L이다. 흉부 X선 사진이 제시되어 있고 표준 항생제 치료를 즉시 시작했다. 다음 중 가장 적절한 추가 처치는?
+치료를 중단한 HIV 감염인이 심한 호흡곤란으로 내원했다. CD4 수는 98/µL이고 β-D-글루칸이 높다. 실내 공기에서 PaO₂는 60 mmHg다. 폐포자충 폐렴이 의심돼 트리메토프림·설파메톡사졸을 시작했다. 추가할 치료는?
 
 ## 선택지
 
@@ -50,7 +50,7 @@ D. 필그라스팀
 ## 해설
 
 
-HIV와 낮은 CD4, 심한 저산소증 및 β-D-glucan 상승은 PCP를 강하게 의심하게 한다. 실내 공기 SpO₂ 86%이고 PaO₂도 60mmHg로 낮아 적절한 PCP 항균치료와 함께 보조 prednisone(A)이 적절하다. HIV-PCP에서는 실내 공기 PaO₂ <70mmHg 또는 A–a 산소차 ≥35mmHg가 대표 기준이다. β-D-glucan은 비특이적이며 누락된 흉부사진 자체를 확인한 것은 아니다.
+HIV 관련 폐포자충 폐렴에서 실내 공기 PaO₂가 70 mmHg 미만이면 항균제에 전신 코르티코스테로이드를 추가한다. 보기의 프레드니손이 이에 해당한다. 전신 스테로이드는 항균 치료를 대체하지 않는다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ HIV와 낮은 CD4, 심한 저산소증 및 β-D-glucan 상승은 PCP를 강하�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009933
+- NIH, HIV 관련 폐포자충 폐렴 진료지침: https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis

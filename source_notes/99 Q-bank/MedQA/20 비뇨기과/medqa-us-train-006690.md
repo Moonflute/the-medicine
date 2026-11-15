@@ -18,6 +18,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -32,7 +33,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-76세 여성이 정기 검진을 위해 주치의를 방문했다. 지난 2년 동안 재채기나 웃을 때 유발되는 경미한 요실금이 있었으나 지난 일주일 동안 일상 활동 중에도 발생했다. 혈압은 140/90 mm Hg, 심박수는 분당 86회, 호흡수는 분당 22회, 체온은 37.7°C(99.9°F)이다. 치골상부 압통이 있고 소변검사에서 백혈구 15/고배율시야, 아질산염 양성, 백혈구 에스터레이스 양성이다. 다음 중 가장 적절한 다음 단계는?
+76세 여성이 정기 검진을 위해 주치의를 방문했다. 지난 2년 동안 재채기나 웃을 때 유발되는 경미한 요실금이 있었으나 지난 일주일 동안 일상 활동 중에도 발생했다. 혈압은 140/90 mm Hg, 심박수는 분당 86회, 호흡수는 분당 22회, 체온은 37.7°C(99.9°F)이다. 치골상부 압통이 있고 소변검사에서 백혈구 15/고배율시야, 아질산염 양성, 백혈구 에스터레이스 양성이다. 가장 적절한 다음 단계는?
 
 ## 선택지
 

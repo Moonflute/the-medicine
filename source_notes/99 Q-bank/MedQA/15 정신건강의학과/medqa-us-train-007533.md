@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDtm4Qg7Iqk7Yq466CI7IqkIOyepeyVoCAoUFRTRCkubWQ
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVheuqvSAoTmlnaHRtYXJlKS5tZA
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,23 +38,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 남자가 2개월 동안 지속된 불안으로 보훈병원에 내원했다. 전투 의무병으로 이라크에 세 번째 파병을 다녀온 뒤 최근 귀국했다. 민간 생활에 적응하기 어렵고 택시 운전사로 일하지만 운전에 어려움이 있어 휴직했다. 지난주 길에 있던 비닐봉지를 피하려다 표지판을 들이받았다. 악몽 때문에 잠을 잘 수 없고 부대원들의 죽음이 떠올라 ‘내 잘못이다. 그들을 구할 수도 있었다. 도와달라’고 말한다. 정신상태검사에서 우울한 기분과 제한된 정동이 보이며 자살사고는 없다. 다음 중 가장 적절한 초기 치료는 무엇인가?
+외상후스트레스장애 환자가 사고 기억과 악몽 때문에 운전과 외출을 피한다. 현재 급성 안전 문제는 없고 증상의 핵심을 다룰 치료에 참여할 수 있다. 우선 제안할 심리치료는?
 
 ## 선택지
 
-A. 동기강화면담
-B. 프라조신 치료
-C. 벤라팍신 치료
-D. 인지행동치료
+A. 외상에 초점을 맞춘 인지행동치료
+B. 일상 스트레스 관리만 하는 교육
+C. 사고를 떠올리는 상황을 계속 피하는 행동 계획
+D. 금주에만 초점을 맞춘 동기강화 면담
 
 ## 해설
 
-전투 외상 후 재경험·회피/과각성과 기능장애가 지속되어 PTSD를 시사한다. 제시된 선택지 중 외상 중심 인지행동치료가 적절한 초기 선택이다. CPT·지속노출 등 근거 기반 외상 중심 치료를 고려한다. 벤라팍신도 근거가 있는 약물이며 환자 선호·접근성에 따라 논의할 수 있고 프라조신은 악몽 표적 치료이다. 현재 자살사고가 관찰되지 않는다고 위험이 없다는 뜻은 아니다.
+외상 관련 의미와 기억, 회피를 다루는 외상 중심 치료는 PTSD의 일차 선택이다. 환자와 상의해 외상 중심 CBT나 안구운동 둔감화 및 재처리 등을 선택한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007533
+- https://www.nice.org.uk/guidance/ng116/chapter/recommendations
+- https://www.ptsd.va.gov/professional/treat/txessentials/cpg_ptsd_management.asp
 
 ## 검수 근거
 

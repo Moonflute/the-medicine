@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-q4sOq0gOyngCDtmZXsnqXspp0gKEJyb25jaGllY3Rhc2lzKS5tZA
   - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
-question_type: 임상증례 객관식
+question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-17세 남자가 2일간 지속된 발열, 코막힘, 권태감으로 내원했다. 코와 뺨에 압박감이 있고 지난 1년 동안 녹색 가래를 동반한 간헐적 기침과 최근 피가 섞인 가래가 있었다. 부비동염을 10회 이상 앓았고 모두 항생제로 치료되었다. 체온 38°C, 맥박 90회/분, 혈압 120/80 mmHg이다. 양쪽 뺨에 압통이 있고 흉부 청진에서 수포음과 건성수포음이 들린다. 왼쪽 아래 흉부에서 심음이 들리지 않는다. 추가로 가장 가능성 높은 소견은 무엇인가?
+17세 남성이 어린 시절부터 반복되는 부비동염과 매일 나오는 가래로 내원했다. 흉부 CT에 기관지확장증이 있고, 심장은 오른쪽에 있으며 간은 왼쪽에 있다. 이 소견들을 가장 잘 설명하는 진단은?
 
 ## 선택지
 
-A. 인터루킨-2 수용체 감마 사슬 결함
-B. 노력성 호기량 증가
-C. 땀 염소 수치 증가
-D. 운동성 정자 결핍
+A. 낭성섬유증
+B. 알레르기성 기관지폐 아스페르길루스증
+C. 공통가변면역결핍증
+D. 원발성 섬모운동이상증
 
 ## 해설
 
-반복 부비동염·기관지확장성 증상과 좌측에서 심음이 들리지 않는 dextrocardia 단서는 PCD/Kartagener를 시사한다. 섬모/편모 운동장애로 정자운동 저하 D가 동반될 수 있다. CF의 땀염소상승 C를 정답처럼 설명한 기존 해설은 이 조합을 반영하지 못한다.
+만성 부비동염, 기관지확장증, 내장 역위가 함께 있으면 원발성 섬모운동이상증을 시사한다. 점액섬모 청소가 잘 되지 않아 어릴 때부터 상·하기도 감염이 반복될 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 운동성 정자 결핍
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004342
+- https://publications.ersnet.org/lookup/doi/10.1183/13993003.00745-2025

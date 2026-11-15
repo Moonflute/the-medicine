@@ -13,11 +13,11 @@ related_diseases:
   - "자폐 스펙트럼 장애"
   - "사회적 의사소통 결핍"
   - "제한적 반복행동"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekO2PkCDsiqTtjpntirjrn7wg7J6l7JWgIChBdXRpc20gU3BlY3RydW0gRGlzb3JkZXIpLm1k
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-3세 남아가 최근 친구와 놀지 않고 눈맞춤을 하지 않으며 흥분하거나 화가 나면 손을 펄럭이고 물건을 일렬로 배열하는 놀이만 좋아해 내원했다. 단일단어를 사용한다(영어 원문은 이를 연령에 맞는 언어라고 기술하지만 3세 발달 수준과 맞지 않아 주의가 필요하다). 가장 가능성 높은 진단은?
+3세 아이는 관심 있는 물건을 다른 사람에게 보여 주거나 가리키는 일이 거의 없다. 또래와 주고받는 놀이보다 같은 물건을 줄 세우는 놀이를 반복하고, 순서가 달라지면 몹시 힘들어한다. 청력은 정상이다. 다음 조치는?
 
 ## 선택지
 
-A. 자폐 스펙트럼 장애
-B. 아스퍼거 장애
-C. 레트 장애
-D. 달리 분류되지 않은 전반적 발달장애
+A. 만 5세까지 기다렸다가 언어 발달을 다시 확인한다
+B. 발달 평가 없이 발음 교정 치료만 시작한다
+C. 뇌파검사로 자폐 여부를 먼저 확인한다
+D. 자폐를 포함해 종합 발달 평가를 의뢰하고 필요한 조기 지원을 연결한다
 
 ## 해설
 
-사회적 상호작용/눈맞춤 감소와 손 펄럭임·경직된 반복 놀이는 ASD(A)를 지지한다. 언어 지연은 ASD의 필수 조건이 아니며 과거 아스퍼거·PDD-NOS는 현재 DSM-5에서 ASD 범주로 통합된다. 따라서 다른 보기들은 정상 언어가 드물다는 기존 감별은 맞지 않는다. 원문의 3세 단일단어 사용은 정상 언어라는 서술과도 모순되며 이를 정상 발달로 가르치지 않는다.
+사회적 상호작용의 어려움과 제한적·반복적 행동이 함께 있으면 자폐스펙트럼장애 평가가 필요하다. 분명한 발달 어려움이 있으면 진단 확정을 기다리지 않고 지원을 연결한다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 달리 분류되지 않은 전반적 발달장애
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005497
+- https://doi.org/10.1542/peds.2019-3447
+- https://www.nice.org.uk/guidance/cg128

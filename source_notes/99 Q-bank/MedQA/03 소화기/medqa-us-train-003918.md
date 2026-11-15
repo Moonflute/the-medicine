@@ -20,6 +20,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-43세 여성이 갑자기 시작된 심한 복통, 오심, 구토로 내원했다. 복부는 경직되고 반발통이 있으며 장음은 감소했다. 다음 중 가장 적절한 다음 처치는?
+43세 여성이 갑자기 시작된 심한 복통, 오심, 구토로 내원했다. 복부는 경직되고 반발통이 있으며 장음은 감소했다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

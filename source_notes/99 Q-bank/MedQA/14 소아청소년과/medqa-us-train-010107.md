@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2MqO2YiOymnSAoTmVvbmF0YWwgU2Vwc2lzKS5tZA
   - MTIg7IKw6rO8L-yhsOq4sCDslpHrp4kg7YyM7IiYIChQcmVtYXR1cmUgUnVwdHVyZSBvZiBNZW1icmFuZXMpLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 5일, 체중 2,200g인 남아 신생아가 수유 곤란과 보챔으로 내원했다. 양막 조기 파수가 합병된 임신 36주에 태어났고 아프가 점수는 1분 5점, 5분 8점이었다. 기면 상태이며 체온 38.5°C, 맥박 분당 170회, 호흡수 분당 63회이다. 공막 황달, 늑골하 함몰, 콧벌렁거림, 모세혈관 재충만 시간 4초가 보인다. 검사와 흉부 X선 촬영을 예약했다. 다음 중 가장 적절한 처치는?
+재태 36주에 태어난 생후 20시간 신생아가 발열·수유 저하·호흡곤란을 보인다. 분만 전 파수가 오래 지속됐다. 지역 내성에 특별한 문제가 없고 혈액배양을 채취했다. 수막염 소견이 없는 조기 패혈증 의심 시 시작할 항생제는?
 
 ## 선택지
 
-A. 메티마졸 치료
-B. 계면활성제 치료
-C. 암피실린과 겐타마이신 치료
-D. 기관내 삽관
+A. 경구 아목시실린 단독
+B. 정맥 암피실린과 겐타마이신
+C. 정맥 반코마이신 단독
+D. 배양 결과가 나올 때까지 치료 보류
 
 ## 해설
 
-발열·기면·수유 저하·호흡곤란과 관류 저하는 신생아 패혈증을 의심하게 한다. 보기 중 ampicillin과 gentamicin(C)의 즉각적 경험적 항생제 치료가 적절하다. 가능하면 신속히 배양을 얻되 영상이나 검사 결과를 기다려 항생제를 지연하지 않고 호흡·순환 지지를 병행한다. 수막염 가능성과 지역 내성에 따라 요법을 조정한다.
+조기 신생아 패혈증에서는 B군사슬알균과 대장균 등 흔한 원인을 함께 치료한다. 배양과 환자 상태에 맞춰 약을 조정하며, 호흡·관류 지지와 수막염 가능성 평가를 병행한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 기관내 삽관
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010107
+- https://www.who.int/publications/i/item/9789240102903

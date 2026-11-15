@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yLoOyDneyVhCDquIjri6gg7Kad7ZuE6rWwIChOZW9uYXRhbCBBYnN0aW5lbmNlIFN5bmRyb21lKS5tZA
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-분만 후 첫 24시간 동안 체중 2,888 g의 남아가 수유를 잘 못하고 고음의 울음과 발한을 보였다. 38주에 태어났고 산모는 임신 중 산전 진료를 받지 않았으며 마른기침 때문에 코데인 시럽을 자주 복용했다. 체온 37.8°C(100°F), 맥박 165회/분, 혈압 83/50 mmHg였고 과반사, 떨림, 과도한 놀람 반응이 있었다. 피부 긁힘을 막기 위해 포대기로 싸고 수액을 시작했으며 혈액검사와 포도당·빌리루빈·칼슘은 정상이었다. 다음 치료는?
+임신 중 오피오이드에 노출된 신생아가 떨림·발한과 심한 보챔을 보였다. 감염과 저혈당 등은 평가했다. 조용한 환경과 부모 동실, 포대기와 잦은 수유에도 충분히 먹거나 잠들지 못하고 달래기 어렵다. 다음 처치는?
 
 ## 선택지
 
-A. 경구 모르핀 치료
-B. 정맥 암피실린과 겐타마이신 병합치료
-C. 경구 메티마졸 치료
-D. 포도당 주입
+A. 저자극·수유 지원을 중단하고 격리
+B. 날록손으로 금단을 치료
+C. 비약물 지원만 같은 방식으로 하고 기능은 재평가하지 않음
+D. 신생아 금단 평가에 따라 경구 모르핀 등 약물 치료를 고려
 
 ## 해설
 
-코데인 노출 뒤 고음 울음·발한·과반사·떨림과 수유 저하는 신생아 오피오이드 금단을 시사한다. 비약물적 진정·수유 지원에도 기능 저하가 지속되는 중증 증상에는 평가에 따라 경구 모르핀(A)을 사용할 수 있다. 다른 원인도 확인하며 노출 사실만으로 모든 아기에게 약물을 주는 것은 아니다.
+오피오이드 금단은 수유·수면·달래기 등 기능을 보면서 비약물 지원을 먼저 최적화한다. 그래도 기능 저하가 지속되면 평가에 따라 오피오이드 제제를 사용할 수 있다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 포도당 주입
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001023
+- https://www.nejm.org/doi/full/10.1056/NEJMoa2214470

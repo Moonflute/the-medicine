@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEse2PreyLneymnSAoQnVsaW1pYSBOZXJ2b3NhKS5tZA
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,23 +34,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-17세 여아가 체중 증가를 걱정해 진료를 받으러 왔다. 뷔페에서 많이 먹은 후 죄책감을 느끼고, 과거 담배로 사지를 지진 적이 있다. 양쪽 이하선이 커져 있고 구강검사에서 치아 부식이 보이며 키 25백분위수, 체중 12백분위수, BMI 17백분위수이며 마지막 월경은 3주 전이었다. 가장 가능성 높은 진단은?
+17세 청소년이 지난 5개월간 매주 두 차례 정도 먹는 것을 멈출 수 없을 만큼 많이 먹었다. 이후 체중이 늘까 두려워 반복적으로 보상 행동을 했다. 체형이 자기 평가에 큰 영향을 주고, 성장곡선상 현재 뚜렷한 저체중은 아니다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 주요우울장애
-B. 신경성 폭식증
-C. 신체이형장애
-D. 신경성 식욕부진증
+A. 폭식장애
+B. 신경성 식욕부진증의 폭식·제거형
+C. 신경성 폭식증
+D. 회피·제한적 음식섭취장애
 
 ## 해설
 
-폭식 양상과 체중 증가에 대한 걱정, 이하선 비대·치아 부식은 구토를 동반한 신경성 폭식증을 시사한다. 원문 BMI는 17백분위수로, 이 숫자를 BMI 17 kg/m²나 저체중 판정으로 오해해서는 안 된다. 단일 백분위수만 제시됐으므로 체중·BMI가 감소했다고도 단정하지 않는다. 실제로는 폭식·보상 행동의 빈도와 기간, 의학적 안전성을 확인한다.
+반복되는 통제 상실 폭식과 부적절한 보상 행동, 과도한 체중·체형 평가가 핵심이다. 폭식장애에는 규칙적인 보상 행동이 없다. 신경성 식욕부진증의 폭식·제거형에서는 의미 있는 저체중이 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000884
+- https://pubmed.ncbi.nlm.nih.gov/36722117/
 
 ## 검수 근거
 

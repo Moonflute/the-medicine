@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7Lap7IiY7Je8IChBY3V0ZSBBcHBlbmRpY2l0aXMpLm1k
 question_type: investigation
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-18세 여성이 하루 동안 지속된 심한 우하복부 통증으로 응급실에 왔다. 중요한 과거력은 없다. 성생활을 하며 경구피임약을 사용한다. 혈압127/81 mmHg, 맥박101회/분, 호흡수19회/분, 체온39.0°C이다. 복부검사에서 우하복부에 국소 압통과 방어가 있다. 혈색소13 g/dL, 백혈구15,400/mm³이고 분엽호중구70%, 띠호중구5%, 림프구20%, 단핵구5%이다. 다음 중 가장 적절한 다음 단계는?
+14세 여성이 배꼽 주위에서 오른쪽 아랫배로 이동한 통증과 발열로 왔다. 우하복부에 국소 압통이 있고 혈역학적으로 안정적이다. 임신반응검사는 음성이다. 충수염을 평가할 첫 영상은?
 
 ## 선택지
 
-A. 골반 진찰
-B. 골반 초음파
-C. 충수 초음파
+A. 조영 복부 CT부터 시행
+B. 단계적 압박 충수 초음파
+C. 복부 단순 X선
 D. 상부위장관 조영검사
 
 ## 해설
 
 
-발열·백혈구증가와 국소 우하복부 압통·방어는 급성 충수염을 의심하게 한다. 젊은 환자에서 선택지 C의 충수 초음파는 방사선 노출 없이 사용할 수 있는 초기 영상이다. 다만 검사가 비진단적이면 추가 CT/MRI 등 평가가 필요하며 초음파가 항상 확진하는 것은 아니다. 성생활을 하는 가임 여성에서는 β-hCG와 부인과 원인도 평가한다. 피임약 복용만으로 임신·자궁외임신을 배제하지 않는다.
+소아·청소년에서 충수염이 의심되면 초기 영상으로 초음파를 사용해 방사선 노출을 줄인다. 초음파가 불확실하지만 의심이 지속되면 MRI나 CT 등 추가 영상을 고려한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 상부위장관 조영검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005114
+- https://pubmed.ncbi.nlm.nih.gov/41604201/

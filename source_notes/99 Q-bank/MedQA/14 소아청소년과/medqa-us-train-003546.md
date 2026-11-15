@@ -14,12 +14,12 @@ related_diseases:
   - "occult rib fracture"
   - "skeletal survey"
   - "repeat imaging after 2 weeks"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTEg7Jm46rO8L-qwiOu5hOu8iCDqs6jsoIggKFJpYiBGcmFjdHVyZSkubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JWE64-Z7ZWZ64yAIOuwjyDruYTsmrDrsJzsoIEg7IaQ7IOBLm1k
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-6개월 남아가 술을 마시는 아버지에게 등을 세게 맞은 뒤 응급실에 왔다. 아이는 탈수되고 지저분하며 보채고, 왼쪽 견갑골 주변을 만지면 즉시 울었다. 후방 갈비뼈 골절이 강하게 의심되었지만 초기 골격 조사는 정상이었다. 아동학대가 우려되는 이 환자에서 다음 진단 평가 단계로 가장 선호되는 영상검사는?
+8개월 영아에서 병력과 맞지 않는 몸통 멍 때문에 신체학대가 강하게 의심된다. 처음 표준 골격 조사는 정상이었다. 아이의 안전 확보와 신고를 이미 진행 중이다. 숨은 골절을 확인할 후속 검사는?
 
 ## 선택지
 
-A. 베이비그램
-B. 병상 초음파
-C. 자기공명영상
-D. 2주 후 골격 조사 반복
+A. 약 2주 뒤 추적 골격 조사
+B. 6개월 뒤 골밀도 검사
+C. 즉시 한 장의 전신 X선으로 재검
+D. 정상 결과이므로 추가 골격 영상 없음
 
 ## 해설
 
-학대가 강하게 의심되는 6개월 영아에서 초기 골격조사가 음성이어도 약 10~14일 뒤 재검하면 치유 반응으로 잠복 골절을 찾을 수 있어 D가 적절하다. AAP 2025 임상보고와 ACR 2025 개정 기준이 이 접근을 지지한다. 베이비그램 한 장은 적절한 다중 영상 골격조사를 대신하지 못한다. 재검 시점은 현재 안전 확보나 급성 손상에 대한 다른 필요한 평가를 그때까지 미루라는 뜻이 아니다.
+어린 영아는 초기 영상에서 골절이 드러나지 않을 수 있다. 학대 의심이 높으면 약 10–14일 뒤 골격 조사를 반복해 골절의 치유 반응을 확인한다. 안전 조치를 그때까지 미루지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 2주 후 골격 조사 반복
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003546
+- https://pubmed.ncbi.nlm.nih.gov/41860516/

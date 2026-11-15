@@ -13,10 +13,11 @@ related_diseases:
   - "후두개염"
   - "기도 응급"
   - "Haemophilus influenzae type b"
-question_type: diagnosis
+question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: D
+answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-62세 여성이 갑작스러운 연하곤란, 통증, 먹먹한 목소리와 흡기성 천명으로 응급실에 왔다. 고열, 불안, 목을 뒤로 젖힌 자세, 양측 경부 림프절병증과 설골 압통, 백혈구 18,000/mm³가 있다. 가장 가능성 높은 원인균은?
+성인 환자가 고열, 심한 연하통과 먹먹한 목소리로 왔다. 침을 삼키지 못하고 흡기 때 협착음이 나며 숨이 점차 가빠진다. 후두개염이 의심될 때 우선 조치는?
 
 ## 선택지
 
-A. 녹농균
-B. 디프테리아균
-C. 파라인플루엔자 바이러스
-D. B형 헤모필루스 인플루엔자
+A. 기도를 위협하는 상태로 보고 즉시 전문팀과 안전한 기도 확보를 준비한다
+B. 눕힌 채 혀누르개로 인두를 반복해서 확인한다
+C. 경부 일반 X선을 본 뒤 기도 평가를 시작한다
+D. 경구 항균제를 주고 귀가시킨다
 
 ## 해설
 
-급성 고열, 연하통·연하곤란, 먹먹한 목소리, 불안과 흡기성 천명은 후두개염/성문상부염에 합당하다. 제시된 네 원인 중 D, H. influenzae type b는 이 질환과 대표적으로 연관되는 세균이다. 다만 Hib 예방접종 이후의 성인 후두개염 원인균은 다양하므로 모든 성인에서 Hib가 가장 흔하다고 단정하거나 임상상만으로 혈청형을 확정할 수는 없다. 쉰 목소리와 먹먹한 목소리도 구별해야 하며 영어 원문은 muffled voice이다.
+후두개염에서 협착음과 호흡 악화는 기도 폐쇄 위험을 뜻한다. 자극하거나 영상검사를 하느라 전문 기도 평가를 늦추지 않는다.
 
 ## 검수 근거
 
@@ -55,3 +56,4 @@ D. B형 헤모필루스 인플루엔자
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000829
+- https://pubmed.ncbi.nlm.nih.gov/38230383/

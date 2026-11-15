@@ -19,7 +19,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,23 +36,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 남자가 급성 초조와 이상행동으로 여자친구와 함께 응급실에 내원했다. 여자친구는 지난 3개월 동안 환자가 위축되고 예전에 즐기던 취미를 중단했으며 한 달 전에는 출근하지 않아 직장을 잃었다고 한다. 그동안 FBI가 자신을 감시하고 마음을 조종한다고 믿어 아파트를 거의 나가지 않았다. 고등학교 때 마리화나를 가끔 피웠지만 5년 전에 끊었다. 신체 및 신경학적 검사는 정상이다. 정신상태검사에서 혼돈되고 의심이 많으며 현저한 정신운동성 초조가 있다. 말은 와해되어 있고 정동은 불안정하다. 가장 가능성 높은 진단은 무엇인가?
+23세 환자가 이전까지 일상생활을 잘했으나 3개월 전부터 환청, 피해망상, 와해된 말과 기능 저하가 계속된다. 뚜렷한 기분 삽화는 없고 신체질환과 물질 노출을 평가했다. DSM 기준에 따라 현재 경과에 맞는 진단은?
 
 ## 선택지
 
-A. 분열정동장애
-B. 단기 정신병적 장애
-C. 조현병형 장애
+A. 단기 정신병적 장애
+B. 조현병형 장애
+C. 조현병
 D. 망상장애
 
 ## 해설
 
-FBI가 감시하고 마음을 조종한다는 망상과 와해된 말·행동, 사회·직업 기능 저하가 약 3개월 지속되어 제시된 진단 중 조현병형 장애가 적절하다. 조현병형 장애는 전체 경과가 1개월 이상 6개월 미만인 정신병적 장애이며 망상 부재가 특징이 아니다. 뚜렷한 기분삽화가 없어 조현정동장애를 지지하지 않고, 와해 증상과 현저한 기능저하는 고립된 망상장애 설명보다 넓다.
+조현병형 장애는 특징적인 정신병 증상이 1개월 이상 6개월 미만 이어진 경우다. 경과가 아직 끝나지 않았다면 잠정적으로 진단하고 치료와 추적을 지속한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007601
+- https://www.ncbi.nlm.nih.gov/books/NBK546677/
 
 ## 검수 근거
 

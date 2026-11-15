@@ -18,9 +18,9 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
 question_type: diagnosis
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-78세 남자가 지속되는 요통으로 내원했다. 최근 아들이 무거운 가구를 옮기는 것을 도와준 후 통증이 더 심해졌다. 통증은 하루 종일 지속되고 최근 체중이 15파운드 줄고 변비가 있다. 체온 99.5°F(37.5°C), 혈압 137/79 mmHg, 맥박 90회/분, 호흡수 15회/분, 산소포화도 98%이다. 우측 흉골연에서 경동맥으로 방사되는 심잡음, 양측 폐기저부의 경미한 수포음, 하부 흉추와 상부 요추의 정중선 압통이 있다. 하지 근력과 감각은 정상이며 직선다리 올리기에서 악화되지 않는다. 헤모글로빈 11 g/dL, 크레아티닌 1.6 mg/dL, 칼슘 11.8 mg/dL이다. 가장 가능성 높은 진단은?
+정기검사에서 IgG 단클론 단백이 3.2g/dL이고 골수의 클론성 형질세포는 18%다. 고칼슘혈증, 신손상, 빈혈과 골용해 병변은 없다. 유리경쇄 비와 MRI에서도 골수종 정의 사건은 없다. 현재 진단은?
 
 ## 선택지
 
-A. 근육 긴장
-B. 추간판 탈출증
-C. 이상근 염증
-D. 형질세포 질환
+A. 의미불명 단클론 감마병증
+B. 무증상 다발골수종
+C. 활동성 다발골수종
+D. 발덴스트룀 거대글로불린혈증
 
 ## 해설
 
 
-고칼슘혈증, 빈혈, 신장 기능 저하, 골통·체중 감소는 다발성 골수종을 시사한다. 다발성 골수종은 형질세포 질환이다.
+골수 클론성 형질세포가 10% 이상 60% 미만이거나 단클론 단백이 기준 이상이지만 골수종 정의 사건이 없으면 무증상 다발골수종에 부합한다. 진행 위험을 따로 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 형질세포 질환
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008245
+- https://www.myeloma.org/international-myeloma-working-group-imwg-criteria-diagnosis-multiple-myeloma
+- https://www.nature.com/articles/s41571-025-01041-x

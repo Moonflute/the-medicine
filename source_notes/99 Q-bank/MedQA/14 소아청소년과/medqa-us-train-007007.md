@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riw64-EIOuCtCDsnbTrrLwgKEZvcmVpZ24gQm9keSBBc3BpcmF0aW9uKS5tZA
 difficulty: simple
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-특이한 과거 병력이 없는 3세 여아가 4일 전 갑자기 시작된 기침으로 내원했다. 최근 부모가 식단에 여러 새로운 음식을 도입하기 시작했다. 활력징후는 모두 정상이다. 신체검사에서 오른쪽 호흡음이 감소되어 있다. 이 환자에게 가장 적절한 확진적 치료는 무엇인가?
+3세 아이가 땅콩을 먹다 갑자기 사레가 들린 뒤 계속 기침한다. 왼쪽보다 오른쪽 호흡음이 약하다. 아이는 안정적이고 흉부 X선에 이물은 보이지 않는다. 다음 처치는?
 
 ## 선택지
 
-A. 경직성 기관지경검사
-B. 흡입 기관지확장제와 경구 코르티코스테로이드
-C. 굴곡성 기관지경검사
-D. 경험적 항생제 치료
+A. X선에 이물이 없으므로 기침약을 주고 귀가
+B. 폐렴으로만 보고 항생제를 시작
+C. 기관지확장제 반응만 보고 흡인 가능성은 배제
+D. 전문팀에 의뢰해 기관지경으로 기도를 확인하고 이물이 있으면 제거
 
 ## 해설
 
 
-소아에서 급성 기도 이물은 기관지경 검사를 통해 직접 제거해야 하며, 경직성 기관지경이 가장 안전하고 확진적이다. 따라서 정답은 A이다.
+흡인 사건과 편측 호흡음 감소는 기도 이물을 강하게 시사한다. 음식물은 X선에 직접 보이지 않을 수 있어 정상 영상만으로 배제하지 않으며, 소아에서는 제거에 흔히 경직성 기관지경을 사용한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007007
+- https://www.rch.org.au/clinicalguide/guideline_index/Foreign_bodies_inhaled.aspx

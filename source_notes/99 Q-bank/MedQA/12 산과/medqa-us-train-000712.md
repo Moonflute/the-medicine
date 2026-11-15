@@ -11,11 +11,11 @@ language: ko
 specialty: 12 산과
 related_diseases:
   - "placenta previa"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -32,18 +32,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 백인 임신 1회(G1) 여성이 임신 35주에 경미한 질 출혈을 주소로 내원하였다. 복통이나 자궁 수축은 없다고 보고하였다. 여행 중이었기 때문에 임신 20주 이후 산전 진찰을 받지 않았다. 현재 임신 전에는 경구 피임약을 복용하였다. 22세에 자궁경부 용종 절제술을 받은 적이 있다. 5갑년(pack-year)의 흡연력이 있다. 혈압은 115/70 mmHg, 심박수는 분당 88회, 호흡수는 분당 14회, 체온은 36.7℃이다. 복부 촉진상 자궁 압통이나 수축은 없다. 자궁저부는 배꼽과 검상돌기 사이에서 촉진된다. 초음파 검사상 태반이 자궁경부 내구(internal cervical os)를 덮고 있는 것이 확인되었다. 이 환자에게 존재하는 요인 중 이 질환의 위험 인자는 무엇인가?
+임신 36주 산모의 태반이 질식 초음파에서 계속 내자궁구를 덮고 있다. 출혈이 없고 산모와 태아는 안정적이다. 태반유착이 의심되는 소견은 없다. 적절한 분만 계획은?
 
 ## 선택지
 
-A. 경구 피임약 복용
-B. 미산부(Nulliparity)
-C. 흡연
-D. 백인 인종
+A. 자궁경부가 유리하면 질식 유도분만한다
+B. 태반 위치와 관계없이 41주까지 자연 진통을 기다린다
+C. 안정적이어도 분만 방식은 진통이 시작된 뒤 처음 논의한다
+D. 진통과 출혈이 생기기 전에 계획 제왕절개를 준비한다
 
 ## 해설
 
-자궁경부 내구를 덮는 태반과 통증 없는 임신 후기 출혈은 전치태반에 부합한다. 제시된 요인 중 흡연(C)은 전치태반의 위험인자이다. 경구피임약 과거 복용, 미산부, 백인 인종보다 흡연이 이 문항의 위험인자에 해당한다. 경추 외상이나 척수 MRI에 관한 기존 해설은 이 사례와 무관하다.
+태반이 내자궁구를 계속 덮으면 출혈 위험 때문에 질식분만을 계획하지 않는다. 출혈이 없고 안정적이면 임신 후기 적절한 시점의 제왕절개를 계획하고, 많은 출혈이나 상태 악화가 생기면 앞당긴다.
 
 ## 검수 근거
 
@@ -54,3 +54,4 @@ D. 백인 인종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000712
+- https://pubmed.ncbi.nlm.nih.gov/42374711/

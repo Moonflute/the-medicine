@@ -18,6 +18,7 @@ question_type: management
 related_disease_slugs: []
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 남성이 강도에게 폭행당하고 목과 등에 총상을 입은 채 응급실에 왔다. 목소리가 먹먹하고 말할 수 있지만 얼굴 골절 가능성이 있으며, 초기 소생술을 시작했다. 다음 중 가장 적절한 다음 처치는?
+27세 남성이 강도에게 폭행당하고 목과 등에 총상을 입은 채 응급실에 왔다. 목소리가 먹먹하고 말할 수 있지만 얼굴 골절 가능성이 있으며, 초기 소생술을 시작했다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

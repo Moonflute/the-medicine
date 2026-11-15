@@ -17,11 +17,11 @@ related_diseases:
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
   - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
-question_type: risk_factor
+question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-45세 여성이 3개월 동안 양손 관절의 양측성 통증과 뻣뻣함을 호소하며 내원했다. 특히 아침에 뻣뻣함이 심해 커피잔이나 펜을 잡기 점점 어려워졌다. 일반의약품 이부프로펜을 복용하면 증상이 일부 완화된다. 과거력으로 기분저하증과 위식도역류질환이 있다. 활력징후는 미열 외에는 정상이다. 진찰에서 근위지절간관절, 중수지관절, 손목에 경미한 부종과 압통이 있고 팔꿈치 근처에 압통과 가려움이 없는 결절이 보인다. 흉부와 복부 진찰은 정상이다. 손 X선에서 연조직 부종, 관절 간격 협소화, 골미란이 보인다. 헤마토크리트는 32%, 적혈구침강속도는 40 mm/hr이다. 이 환자는 다음 중 어떤 질환의 위험이 가장 높은가?
+59세 폐경 여성이 류마티스관절염의 다른 치료를 조정하는 동안 3개월 이상 프레드니솔론을 복용할 예정이라고 한다. 알려진 골절은 없다. 시작 시 함께 할 조치는?
 
 ## 선택지
 
-A. 골다공증
-B. 천장관절염
-C. 폐쇄성 폐질환
-D. 변형성 골염
+A. 골절 병력, DXA 등을 포함해 골절 위험을 평가하고 예방 계획을 세운다
+B. 골통이 생길 때까지 평가를 미룬다
+C. 혈청 칼슘이 정상이면 골 위험 평가를 생략한다
+D. 2년 뒤에만 첫 골밀도검사를 한다
 
 ## 해설
 
 
-류마티스 관절염은 골밀도 감소와 골절 위험을 크게 높이며, 특히 여성에서 골다공증 발생률이 높다. 천장관절염·폐쇄성 폐질환·변형성 골염은 RA와 직접적인 연관성이 낮다.
+글루코코르티코이드는 골절 위험을 높이므로 치료 초기에 골절력과 골밀도, 용량 등을 확인한다. 위험도에 따라 운동·영양과 골다공증 약제를 고려한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 변형성 골염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002747
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6288607/

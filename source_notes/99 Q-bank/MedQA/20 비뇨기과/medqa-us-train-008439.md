@@ -13,12 +13,12 @@ related_diseases:
   - "embryonal carcinoma"
   - "nonseminomatous germ cell tumor"
   - "cryptorchidism"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yeoOuzteqzoO2ZmOymnSAoQ3J5cHRvcmNoaWRpc20pLm1k
   - MjAg67mE64eo6riw6rO8L-qzoO2ZmCDsooXslpEgKFRlc3RpY3VsYXIgY2FuY2VyKS5tZA
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,22 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 백인 남성이 3주 동안 지속된 오른쪽 고환의 부종과 불편감으로 내원했다. 외상, 발열, 야간 발한은 없다. 생후 6개월에 오른쪽 잠복고환 수술을 받았다. 간질환이나 성선기능저하증 병력은 없다. 두 아이의 아버지이다. 복용 약물은 없고 불법 약물 사용을 부인한다. 활력징후는 정상이다. 음낭을 촉진하면 오른쪽 고환과 분리되지 않는 단단하고 압통 없는 종괴가 만져진다. 왼쪽 고환에는 이상이 없다. 쇄골상부나 서혜부 림프절병증은 없다. 여성형 유방이 있다. 그 밖의 신체검사는 정상이다. 초음파에서 오른쪽 고환이 커져 있고 정상 구조의 큰 부분을 대체하는 저에코 종괴가 보인다. 왼쪽 고환은 정상이다. 검사 결과는 다음과 같다.
-HCG 상승
-AFP 상승
-LDH 정상
-다음 중 가장 가능성 높은 진단은 무엇인가?
+32세 남성의 초음파에서 고환 내부의 고형 종괴가 보인다. 혈청 AFP와 β-hCG가 모두 상승했다. 이 표지자 조합을 어떻게 해석해야 하는가?
 
 ## 선택지
 
-A. 배아암
-B. 라이디히세포 종양
-C. 고환 전이암
-D. 정세포종성 생식세포 종양
+A. 순수 정상피종으로 확정할 수 있다
+B. 표지자가 상승하면 조직검사는 불필요하다
+C. 비정상피종성 생식세포종양 성분을 의심한다
+D. AFP 상승은 정상피종을 지지한다
 
 ## 해설
 
-고형 고환 종괴와 AFP·hCG 상승은 비정상피종성 생식세포종양을 지지하며 네 선지 중 A, 배아암이 가장 적절하다. 순수 정상피종은 AFP를 분비하지 않으므로 AFP 상승이 있으면 비정상피종 성분을 고려한다. Leydig 종양은 호르몬 증상을 일으킬 수 있지만 이 표지자 조합을 전형적으로 설명하지 않는다. 표지자만으로 혼합 성분까지 확정할 수는 없다.
+순수 정상피종은 AFP를 분비하지 않는다. 다른 AFP 상승 원인이 없다면 비정상피종성 성분을 의심해야 하며, 표지자만으로 배아암 등 세부 조직형을 확정하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +56,4 @@ D. 정세포종성 생식세포 종양
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008439
+- https://uroweb.org/guidelines/testicular-cancer/chapter/diagnostic-evaluation

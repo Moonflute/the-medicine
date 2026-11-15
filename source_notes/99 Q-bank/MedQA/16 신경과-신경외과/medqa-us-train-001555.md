@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsooUgKE1lbmluZ2lvbWEpLm1k
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -41,7 +42,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 남성이 혼란으로 응급실에 내원했다. 평소 건강하지만 아내가 하루 동안 점점 혼란스러워지는 것을 알아차렸다. 약은 복용하지 않고 최근 낙상이나 외상도 없다. 체온은 102°F (38.9°C), 혈압은 126/64 mmHg, 맥박은 120회/분, 호흡수는 17회/분, 실내 공기 산소포화도는 98%이다. 혼란 때문에 신경학적 검사에 협조하지 못한다. 목 굴곡 시 증상은 없고 두통의 충격 악화는 음성이다. 초기 검사와 흉부 X선, 소변검사는 정상이며 머리 CT도 정상이다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+67세 남성이 혼란으로 응급실에 내원했다. 평소 건강하지만 아내가 하루 동안 점점 혼란스러워지는 것을 알아차렸다. 약은 복용하지 않고 최근 낙상이나 외상도 없다. 체온은 102°F (38.9°C), 혈압은 126/64 mmHg, 맥박은 120회/분, 호흡수는 17회/분, 실내 공기 산소포화도는 98%이다. 혼란 때문에 신경학적 검사에 협조하지 못한다. 목 굴곡 시 증상은 없고 두통의 충격 악화는 음성이다. 초기 검사와 흉부 X선, 소변검사는 정상이며 머리 CT도 정상이다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

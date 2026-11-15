@@ -17,11 +17,11 @@ related_diseases:
 related_disease_slugs:
   - MTMg67aA7J246rO8L-y5qOycpOyEsSDsnKDrsKnslZQgKEludmFzaXZlIEJyZWFzdCBDYW5jZXIpLm1k
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
-question_type: prognosis
+question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-56세 여자가 일주일 전 자가검진에서 오른쪽 유방에 종괴를 만져 내원했다. 초경은 14세, 마지막 월경은 51세였다. 활력징후는 정상이다. 오른쪽 유방 상외측에 압통이 없고 단단한 종괴가 만져진다. 유방촬영술에서 큰 치밀 유방과 오른쪽 상외측 1.7cm 종괴가 보인다. 종괴절제술과 감시림프절 생검에서 중등도 분화 침윤성 유관암과 한 액와림프절의 미세전이가 확인되었다. 림프절 외 전이는 없다. 종양은 에스트로겐·프로게스테론 수용체 양성이며 HER2 과발현은 없다. 유세포분석에서 비정배수성 종양세포가 보인다. 다음 중 이 환자의 예후에 가장 큰 영향을 미치는 요인은 무엇인가?
+56세 여성이 cT1N0 유방암으로 선행항암 없이 유방보존술을 받았다. 감시림프절 2개 중 1개에 전이가 있고 액와에 육안적 잔존암은 없다. 유방 전체 방사선치료를 받을 예정이다. 추가 액와 수술은?
 
 ## 선택지
 
-A. 나이
-B. 림프절 상태
-C. HER2 수용체 상태
-D. 호르몬 수용체 상태
+A. 액와 림프절 곽청술
+B. 추가 액와 수술 생략
+C. 감시림프절 재생검
+D. 전이된 쪽 유방 전절제술
 
 ## 해설
 
 
-유방암 예후에 가장 큰 영향을 미치는 요인은 림프절 전이 여부이다. 림프절 전이는 재발 위험과 생존율에 직접적인 영향을 미친다.
+유방보존술과 전유방 방사선치료를 받는 임상적 액와 음성 조기 유방암에서 감시림프절 1~2개에만 전이가 있으면, 적절한 조건에서 추가 액와 곽청술을 생략한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 호르몬 수용체 상태
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007568
+- https://pubmed.ncbi.nlm.nih.gov/40209128/

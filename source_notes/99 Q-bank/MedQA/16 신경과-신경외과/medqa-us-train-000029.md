@@ -14,10 +14,10 @@ related_diseases:
   - "ptosis"
   - "pupillary involvement"
   - "third nerve palsy"
-question_type: investigation
+question_type: diagnosis
 related_disease_slugs: []
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-63세 여성이 2개월 전부터 시작된 시력 변화, 구체적으로는 점진적으로 발생한 복시(double vision)를 주소로 일차 진료 의사를 방문하였다. 복시는 항상 나타나며 하루 중 증상의 호전이나 악화는 없다. 환자는 또한 오른쪽 눈을 뜨기 어렵고 거울을 보았을 때 오른쪽 눈꺼풀이 처져 보인다고 하였다. 정면을 응시할 때의 신체 검진 소견은 사진과 같다. 오른쪽 동공은 6mm이며 빛에 대한 반응이 저하되어 있다. 나머지 신경학적 검사 소견은 정상이다. 검사실 검사에서 당화혈색소(Hb A1c)는 5.0%였다. 이 환자에게 다음에 시행할 가장 적절한 검사는 무엇인가?
+63세 환자에게 갑자기 심한 두통과 복시가 생겼다. 오른쪽 눈꺼풀이 처지고 오른눈은 가쪽과 아래를 향하며 동공이 크고 빛반사가 둔하다. 혈관영상에서 가장 먼저 배제할 원인은?
 
 ## 선택지
 
-A. 직접 검안경 검사(Direct fundoscopy)
-B. 안압 측정(Intraocular pressures)
-C. 뇌 자기공명혈관조영술(MR angiography of the head)
-D. 측두동맥 생검(Temporal artery biopsy)
+A. 오른쪽 전대뇌동맥 협착
+B. 오른쪽 후교통동맥 동맥류
+C. 왼쪽 중대뇌동맥 협착
+D. 오른쪽 가로정맥동 혈전
 
 ## 해설
 
-복시·안검하수와 확대되고 빛반응이 둔한 동공은 압박성 제3뇌신경마비를 의심하게 한다. 특히 후교통동맥 동맥류 등 혈관성 원인을 신속히 평가하기 위해 선지 중 뇌 MRA(C)가 적절하다. 현재 정면사진은 없지만 동공침범과 안검하수 정보로 검사를 판단할 수 있으며, 안압/안저검사만으로 동맥류를 배제해서는 안 된다.
+통증을 동반한 동공 침범 제3뇌신경마비는 후교통동맥 부위 동맥류가 신경을 누를 때 나타날 수 있다. 응급 혈관영상으로 확인한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 측두동맥 생검(Temporal artery biopsy)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000029
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8727561/

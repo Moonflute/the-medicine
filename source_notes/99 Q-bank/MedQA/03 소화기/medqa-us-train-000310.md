@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rjIDsnqUg7Y-Q7IeEIChMYXJnZSBCb3dlbCBPYnN0cnVjdGlvbikubWQ
-question_type: management
+question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-47세 남성이 10일간 지속된 인후통과 발열로 내원하였다. 과거력상 궤양성 대장염(ulcerative colitis)과 만성 요통이 있다. 10년간 매일 최소 1갑의 담배를 피워왔다. 환자의 아버지는 50세에 대장암으로 사망하였다. 환자는 설파살라진(sulfasalazine)과 나프록센(naproxen)을 복용 중이다. 체온은 38.9°C(102.0°F), 혈압은 131/87 mm Hg, 맥박은 74회/분, 호흡수는 16회/분이다. 신체 검진상 환자는 피로하고 아파 보인다. 인두는 발적되어 있고 편도와(tonsillar crypts)를 따라 삼출물이 있다. 연쇄상구균 검사(strep test) 결과는 양성이다. 세균 감염 치료 외에, 현재 이 환자에게 권장할 사항은 무엇인가?
+47세 남성이 궤양성 대장염을 진단받은 지 2년 됐다. 최근 원발성 경화성 담관염(PSC)도 확인됐다. 지금 혈변은 없고 지난 내시경에서 이형성은 없었다. 대장암 감시 계획은?
 
 ## 선택지
 
-A. 대변 잠혈 검사
-B. 유연 S상결장경검사
-C. 저선량 CT
-D. 대장내시경검사
+A. 대장염 증상 발생 후 8년이 될 때까지 감시하지 않는다.
+B. 혈변이 재발할 때만 내시경을 한다.
+C. 분변잠혈검사만으로 감시한다.
+D. PSC 진단 시점부터 감시 대장내시경을 시작한다.
 
 ## 해설
 
-정답은 D이다. 47세이며 아버지가 50세에 대장암으로 사망한 직계가족력이 있어 대장내시경 평가가 적합하다. UC의 이형성/암 감시는 질병 기간·범위·염증 정도와 PSC 등 위험인자에 따라 추가로 결정한다. 본문에 UC가 10년 이상 지속되었다는 정보는 없으며 흡연 10년을 UC 기간으로 바꾸어 설명하지 않는다.
+PSC를 동반한 염증성 장질환은 대장암 고위험군이다. 대장염의 기간이나 증상과 별개로 PSC 진단 시점부터 대장내시경 감시를 시작하고 짧은 간격으로 추적한다.
 
 ## 검수 근거
 
@@ -62,3 +62,5 @@ D. 대장내시경검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000310
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13714433/
+- https://doi.org/10.1002/hep.32771

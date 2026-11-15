@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
   - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 18주인 23세 흑인 여성이 경도의 소구성 빈혈로 철분을 복용했지만 5주 후에도 호전되지 않았다. 헤모글로빈 전기영동은 정상이었다. 가장 가능성 높은 진단은?
+임신 중 소구성 빈혈로 평가받은 환자의 철 저장 상태는 정상이다. MCV는 64fL이고 적혈구 수는 비교적 많으며 혈색소 전기영동과 HbA₂가 정상이다. 알파 지중해빈혈 보인자 여부를 확인할 검사는?
 
 ## 선택지
 
-A. 철결핍성 빈혈
-B. 베타 지중해빈혈 보인자
-C. 알파 지중해빈혈 보인자
-D. 엽산결핍성 빈혈
+A. 페리틴만 측정해 유전 아형 확진
+B. BCR::ABL1 융합검사
+C. 혈색소 전기영동이 정상이므로 보인자 배제
+D. 알파글로빈 유전자의 결실 등 분자검사
 
 ## 해설
 
 
-철제에 반응하지 않는 경한 소구성 빈혈과 정상 헤모글로빈 전기영동은 α 지중해빈혈 보인자(C)에 부합한다. α 사슬 합성이 감소하지만 보인자의 성인 전기영동은 정상일 수 있다. RBC수가 빈혈에 비해 보존되고 RDW가 정상인 원문 소견도 지지한다. 구형적혈구를 의미하는 미세구형빈혈과는 다르다.
+알파 지중해빈혈 보인자는 전기영동이 정상일 수 있다. 알파글로빈 유전자 검사는 보인자 확인과 임신 중 배우자 검사·유전 상담에 도움이 된다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 엽산결핍성 빈혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000218
+- https://www.ncbi.nlm.nih.gov/books/NBK1435/

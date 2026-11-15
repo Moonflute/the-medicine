@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 남성이 심한 기침과 호흡곤란으로 응급실에 왔다. 몇 걸음만 걸어도 숨이 차서 앉아 쉬어야 하며 밤에 호흡곤란이 가장 심해 베개를 세 개 이상 사용해야 편하게 잘 수 있다. 밤에만 기침이 나지만 잠에서 깰 정도로 지속된다. 5년 전 ‘심장마비’를 겪었고 의사의 만류에도 정기적으로 술을 마신다. 최근 검사 결과와 심전도, 흉부 X선이 있다. 다음 중 가장 적절한 다음 단계는?
+55세 남성이 호흡곤란과 기좌호흡으로 내원했다. 과거 심근경색을 앓았고, 진찰에서 경정맥 팽창과 양쪽 폐기저부 수포음이 있다. 흉부 X선은 폐울혈을 보인다. 안정화와 병행해 심실 수축기능 및 판막 이상을 함께 평가할 첫 검사는?
 
 ## 선택지
 
-A. 컴퓨터단층촬영(CT)
-B. 심초음파
-C. 운동부하검사
-D. 심장 생검
+A. 흉부 CT
+B. 경흉부 심초음파
+C. 운동부하 심전도
+D. 심근 생검
 
 ## 해설
 
 
-심부전 증상과 과거 심근경색 이력이 있을 때 우선 심초음파로 좌우 심실 기능 및 판막 상태를 평가한다. 이는 치료 방향을 결정하는 핵심 검사이다. 따라서 가장 적절한 다음 단계는 심초음파이다.
+심부전이 의심되면 경흉부 심초음파에서 좌우심실 기능과 판막, 구조 변화를 함께 본다. 박출률과 원인 소견은 이후 치료 선택에 도움이 된다.
 
 ## 검수 근거
 

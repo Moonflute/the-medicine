@@ -19,7 +19,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_soJXsg4HslZUg7IiY65GQ7KadIChOb3JtYWwgcHJlc3N1cmUgaHlkcm9jZXBoYWx1cykubWQ
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-18개월 남아가 영유아 검진을 위해 내원했다. 혼자 걷지 못해 어머니가 걱정한다. 지난 한 달 동안 점점 보채고 잘 먹지 않으며 구토를 여러 번 했다. 예방접종은 최신이다. 키 50백분위수, 체중 40백분위수, 머리둘레 98백분위수이다. 무기력해 보이고 활력징후는 정상이다. 대천문이 팽창되어 있으며 지지 없이 서지 못하고 걸으려 하면 넘어진다. 근긴장도가 증가하고 하지 심부건반사가 4+이다. 등은 정상이다. 뇌 MRI에서 네 뇌실 모두 대칭적으로 확장되어 있다. 다음 중 가장 적절한 치료는 무엇인가?
+15개월 아이의 머리둘레 백분위수가 빠르게 상승했다. 최근 구토와 처짐이 생겼고 대천문이 팽창했다. MRI에서 뇌실 전체가 확장됐고 소아신경외과는 진행성 수두증에 영구적 뇌척수액 우회가 필요하다고 판단했다. 적절한 시술은?
 
 ## 선택지
 
-A. 뇌수도관 성형술
-B. 뇌실복강 단락술
-C. 푸로세미드 치료
-D. 아세타졸아미드 치료
+A. 뇌실복강 단락술
+B. 요추천자 1회로 종결
+C. 아세타졸아미드 장기 단독치료
+D. 뇌수도관이 열려 있음에도 뇌수도관 성형술
 
 ## 해설
 
-증상성 수두증과 두개내압 상승 소견이 있어 뇌척수액 우회 치료가 필요하다. 보기 중 뇌실복강 단락술(B, ventriculoperitoneal shunt)은 뇌실의 뇌척수액을 복강으로 배액한다. ETV는 내시경적 제3뇌실조루술로 서로 다른 수술이다. 네 뇌실의 확장만으로 모든 폐쇄 원인을 배제할 수는 없으며, 구체적인 수술 선택은 수두증 원인과 해부에 따른다. 이뇨제만으로 확정적인 수술 치료를 대체하지 않는다.
+진행성 수두증에는 원인과 해부에 따라 수술로 뇌척수액을 우회한다. 뇌실복강 단락은 뇌실의 뇌척수액을 복강으로 지속 배액하는 방법이다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 아세타졸아미드 치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007577
+- https://pubmed.ncbi.nlm.nih.gov/34791462/

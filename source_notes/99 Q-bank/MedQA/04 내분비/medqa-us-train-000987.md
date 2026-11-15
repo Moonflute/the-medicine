@@ -20,6 +20,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -40,7 +41,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-42세 남성이 건강 검진을 위해 내원하였다. 6개월 전 방문 이후 전신 피로감과 근육통이 있었다. 고혈압과 위식도역류질환(GERD) 병력이 있다. 현재 복용 중인 약물은 암로디핀(amlodipine)과 오메프라졸(omeprazole)이다. 체온은 37.1°C, 맥박은 88회/분, 혈압은 156/102 mmHg이다. 신체 검진상 이상 소견은 없다. 혈청 검사 결과는 다음과 같다: Na+ 143 mEq/L, K+ 2.3 mEq/L, Cl- 100 mEq/L, HCO3- 31 mEq/L, 혈액요소질소(BUN) 14 mg/dL, 크레아티닌 1 mg/dL. 혈압약을 중단하였다. 1주일 후 혈장 알도스테론 농도는 35 ng/dL(정상: 3.6-24.0 ng/dL)이고 혈장 레닌 활성도는 0.4 ng/mL/h(정상: 0.3-4.2 ng/mL/h)이다. 3일간의 경구 나트륨 부하 검사에서 알도스테론이 감소하지 않았다. 복부 및 골반 조영 증강 CT 검사에서 3cm 크기의 균일한 우측 부신 종괴가 관찰되었으며 빠른 조영제 소실(washout)을 보였다. 환자는 치료 옵션에 대해 상담을 받았고 수술을 선택하였다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+42세 남성이 건강 검진을 위해 내원하였다. 6개월 전 방문 이후 전신 피로감과 근육통이 있었다. 고혈압과 위식도역류질환(GERD) 병력이 있다. 현재 복용 중인 약물은 암로디핀(amlodipine)과 오메프라졸(omeprazole)이다. 체온은 37.1°C, 맥박은 88회/분, 혈압은 156/102 mmHg이다. 신체 검진상 이상 소견은 없다. 혈청 검사 결과는 다음과 같다: Na+ 143 mEq/L, K+ 2.3 mEq/L, Cl- 100 mEq/L, HCO3- 31 mEq/L, 혈액요소질소(BUN) 14 mg/dL, 크레아티닌 1 mg/dL. 혈압약을 중단하였다. 1주일 후 혈장 알도스테론 농도는 35 ng/dL(정상: 3.6-24.0 ng/dL)이고 혈장 레닌 활성도는 0.4 ng/mL/h(정상: 0.3-4.2 ng/mL/h)이다. 3일간의 경구 나트륨 부하 검사에서 알도스테론이 감소하지 않았다. 복부 및 골반 조영 증강 CT 검사에서 3cm 크기의 균일한 우측 부신 종괴가 관찰되었으며 빠른 조영제 소실(washout)을 보였다. 환자는 치료 옵션에 대해 상담을 받았고 수술을 선택하였다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

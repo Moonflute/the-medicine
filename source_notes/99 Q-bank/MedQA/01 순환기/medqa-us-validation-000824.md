@@ -19,7 +19,7 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-11세 여아가 두통과 운동 시 다리 피로로 진료를 받으러 왔다. 왼팔 혈압은 155/100 mmHg이고 왼쪽 족배동맥 맥박이 왼쪽 요골맥박보다 지연되며 하지 혈압은 120/80 mmHg이다. 가장 가능성 높은 병리는?
+11세 여아가 두통과 운동 시 다리 피로로 내원했다. 오른팔 혈압은 155/100 mmHg, 다리 혈압은 120/80 mmHg이다. 대퇴동맥 맥박은 약하고 요골동맥보다 늦게 만져진다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 말초동맥질환
-B. 혈관연축
+A. 신동맥 협착
+B. 대동맥판 협착
 C. 대동맥 축착
 D. 팔로사징
 
 ## 해설
 
 
-상지 고혈압·하지 저혈압·맥박 지연은 대동맥 축착에 의해 상지 혈류가 증가하고 하지 혈류가 감소하는 전형적인 소견이다. 따라서 정답은 C이다.
+대동맥 축착 부위보다 위쪽에서는 압력이 높고 아래쪽에서는 압력과 맥박이 낮다. 소아의 상지 고혈압과 요골-대퇴 맥박 지연이 중요한 단서다.
 
 ## 검수 근거
 

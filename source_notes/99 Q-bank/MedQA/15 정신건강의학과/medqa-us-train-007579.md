@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCrO2ajCDrtojslYgg7J6l7JWgIChTb2NpYWwgQW54aWV0eSBEaXNvcmRlcikubWQ
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,24 +35,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 여대생이 1년 동안 반복되는 심계항진으로 내원했다. 발한, 얼굴 홍조, 때때로 오심이 동반된다. 수업 중 발표를 지목받을 때 증상이 심해져 당황하고, 동급생이 증상을 알아챌까 걱정되어 토론 수업을 빠진다. 공원에서 조깅하는 것도 더 이상 즐기지 않고 지난 2개월 동안 체중이 2kg(4lb 7oz) 늘었다. 식욕 변화는 없다. 심각한 질환 병력은 없고 담배와 술은 하지 않는다. 과거 마리화나를 사용했지만 현재는 사용하지 않는다. 불안해 보이고 의사와 눈을 잘 맞추지 않는다. 맥박 85회/분, 혈압 125/70 mmHg, 체온 36.8°C이다. 정신상태검사에서 정동 범위는 정상이고 신경학적 검사도 정상이다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+23세 학생이 발표할 때 얼굴이 붉어지는 것을 남들이 창피하게 볼까 두려워 수업을 피한다. 발표가 없는 상황에서는 갑작스러운 불안 발작이 없고 다른 사람과 편하게 지낸다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 분열형 인격장애
-B. 회피성 인격장애
-C. 범불안장애
-D. 사회불안장애
+A. 공황장애
+B. 광장공포증
+C. 사회불안장애
+D. 범불안장애
 
 ## 해설
 
 
-사회적 상황에서 타인 앞에 설 때 심계항진, 발한, 회피 행동이 나타나는 것은 사회불안장애의 전형적인 증상이다.
+발표라는 사회적 수행 상황에서 타인의 부정적 평가를 두려워하고 회피한다. 그 상황 밖에서도 예기치 않은 발작이 반복되는 공황장애나 여러 문제를 과도하게 걱정하는 범불안장애와 다르다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007579
+- https://www.nice.org.uk/guidance/cg159/chapter/recommendations
 
 ## 검수 근거
 

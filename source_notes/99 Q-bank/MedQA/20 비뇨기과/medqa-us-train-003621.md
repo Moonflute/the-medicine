@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyXvCAoUHJvc3RhdGl0aXMpLm1k
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-51세 남성이 3개월간 지속된 회음부와 음낭 통증으로 내원했다. 사정통과 배뇨통이 있지만 발열은 없었고, 직장검사에서 전립선이 약간 압통이 있었다. 소변배양은 음성이고 전립선 분비물의 백혈구 수는 정상 범위였다. 가장 가능성 높은 진단은?
+51세 남성이 4개월간 회음부 통증과 사정통으로 내원했다. 열은 없고 반복 소변배양은 음성이다. 요로 폐쇄나 종양을 의심할 소견은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 전립선 농양
-B. 양성 전립선 비대증
-C. 만성 골반통증 증후군
-D. 방광경부암
+A. 만성 골반통증증후군
+B. 전립선 농양
+C. 급성 세균성 전립선염
+D. 양성 전립선비대증
 
 ## 해설
 
-회음부·음낭 통증이 3개월 지속되고 사정통·배뇨통이 있지만 발열이나 배양 양성 세균감염의 근거가 없다. 전립선 분비물 백혈구도 정상 범위여서 C, 만성 골반통증증후군에 합당하다. 만성 세균성 전립선염과 달리 지속 세균감염이 확인된 것은 아니며 경미한 전립선 압통만으로 농양을 진단하지 않는다.
+회음부나 골반의 만성 통증과 사정통이 이어지지만 세균감염이 확인되지 않으면 만성 골반통증증후군을 고려한다. 경미한 전립선 압통만으로 세균감염을 확정하지 않는다.
 
 ## 검수 근거
 

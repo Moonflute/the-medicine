@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTEg7Jm46rO8L-2doeyehe2ZlOyDgSAoSW5oYWxhdGlvbiBCdXJuKS5tZA
 question_type: management
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-28세 군인이 박격포 공격으로 인한 건물 화재에서 부상을 입은 지 45분 만에 군 의료 시설로 이송되었다. 그는 약 20분 동안 건물 안에 갇혀 있었다. 도착 시 그는 혼란스러워 보이고 불편해한다. 글래스고 혼수 척도(Glasgow Coma Score)는 13점이다. 맥박은 분당 113회, 호흡은 분당 18회, 혈압은 108/70 mm Hg이다. 실내 공기 상태에서 맥박 산소 측정기상 산소 포화도는 96%이다. 검사 결과 가슴과 양쪽 상지에 다발성 2도 화상, 얼굴에 3도 화상이 관찰된다. 코와 입 안에서 검은 침전물이 보인다. 폐 청진음은 깨끗하다. 심장 검사상 이상 소견은 없다. 복부는 부드럽고 압통은 없다. 정맥 수액 소생술이 시작되었다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+밀폐된 공간에서 화재에 노출된 환자에게 얼굴 화상과 입안 그을음이 있다. 쉰 목소리가 심해지고 들숨 때 거친 소리가 난다. 맥박산소포화도는 96%다. 우선 처치는?
 
 ## 선택지
 
-A. 비위관(nasogastric tube) 삽입 및 경장 영양
-B. 정맥 항생제 치료
-C. 기관 삽관 및 기계 환기
-D. 정맥 코르티코스테로이드 치료
+A. 전신 스테로이드를 준 뒤 기도 평가를 보류한다
+B. 산소포화도가 정상 범위이므로 기도 부종이 생길 때까지 관찰한다
+C. 우선 가슴 CT로 하기도 손상을 확인한다
+D. 고농도 산소를 주면서 부종이 진행하기 전에 기관삽관한다
 
 ## 해설
 
 
-폐쇄공간 연기 노출, 심한 안면화상과 코·입의 그을음, 의식저하는 기도 손상과 진행성 부종 위험을 높인다. 이 조합에서 조기 기도 확보를 위한 기관삽관(C)이 적절하다. GCS 13만으로 모든 환자에서 자동 삽관한다는 뜻은 아니며 정상에 가까운 산소포화도도 위험을 배제하지 않는다.
+진행하는 쉰 목소리와 들숨 잡음은 상기도 부종의 경고 신호다. 정상에 가까운 맥박산소포화도로 기도 위험이나 일산화탄소 노출을 배제할 수 없으므로 산소 공급과 조기 기도 확보를 우선한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 정맥 코르티코스테로이드 치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000570
+- https://www.ameriburn.org/burn-care-team/resources/guidelines-for-burn-patient-referral

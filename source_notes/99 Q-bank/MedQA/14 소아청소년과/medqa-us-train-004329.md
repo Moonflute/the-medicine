@@ -13,14 +13,14 @@ related_diseases:
   - "엔젤만 증후군"
   - "15번 염색체 부계 단친 이염색체"
   - "발달지연"
-question_type: 임상증례 객관식
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Y6Y64uQ7LyA7Yak64eo7KadIChQaGVueWxrZXRvbnVyaWEpLm1k
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-6세 남아가 발작으로 소아과에 왔다. 지난 3일 동안 약 30초간 지속되는 발작을 두 번 했고, 12개월부터 일 년에 몇 번씩 발작을 해왔다. 지적장애가 있으며 14개월에 뒤집고 24개월에 걸었다. 가족력에 간질이나 다른 신경질환은 없다. 키 3백분위수, 체중 15백분위수이다. 신체검사에서 잘 웃고 행복해 보이며 사시, 실조성 보행, 손 퍼덕임이 있다. 질문에 간헐적으로 한 단어로 대답한다. 가장 가능성 높은 유전적 이상은 무엇인가?
+6세 남아는 단어 몇 개만 말할 수 있다. 영아기부터 발작이 있었고 균형을 잡기 위해 양발을 넓게 벌리고 걷는다. 자주 웃고 손을 퍼덕인다. 의심되는 질환의 일차 표적 유전검사는?
 
 ## 선택지
 
-A. 5번 염색체 거대결실
-B. 15번 염색체 모계 단친 이염색체
-C. 15번 염색체 부계 단친 이염색체
-D. 삼핵산 반복질환
+A. FMR1 반복서열 검사
+B. SMN1 결실 검사
+C. MECP2 염기서열 분석
+D. 15q11.2–q13 DNA 메틸화 검사
 
 ## 해설
 
-Angelman 증후군은 신경세포에서 모계 유래 UBE3A 기능이 소실되어 발생한다. 부계 단친이염색체성(paternal uniparental disomy, C)은 가능한 원인 중 하나이다. 모계 영역 결실 등 다른 원인도 있으며, 행복한 표정·심한 언어 지연·실조·경련이 제시된 임상상과 부합한다.
+심한 표현언어 지연, 운동실조, 발작과 잦은 웃음은 엔젤만증후군에 합당하다. 메틸화 검사는 흔한 유전적 원인들을 검출한다. 정상이어도 의심이 높으면 UBE3A 등 추가 평가가 필요하다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ Angelman 증후군은 신경세포에서 모계 유래 UBE3A 기능이 소실되
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004329
+- https://www.ncbi.nlm.nih.gov/books/NBK1144/

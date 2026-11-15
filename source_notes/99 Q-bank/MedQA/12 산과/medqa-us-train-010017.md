@@ -13,11 +13,11 @@ related_diseases:
   - "임신성 당뇨병"
   - "거대아 출산력"
   - "조기 포도당 선별"
-question_type: investigation
+question_type: prevention
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-36세 아시아계 G4P3 여성이 임신 사실이 확인되어 첫 산전 방문을 위해 내원했다. 추정 임신 주수는 5주이다. 질식분만 2회와 의학적 유산 1회의 과거력이 있으며 자녀의 출생체중은 4,100g과 4,560g이었다. 위식도 역류병으로 판토프라졸을 복용한다. 임신 전 체중은 78kg, 내원 시 체중은 79kg, 키는 157cm이다. 혈압 130/80 mmHg, 심박수 분당 75회, 호흡수 분당 13회, 체온 36.7℃이다. 신체검사에서 지방 축적 증가 외에는 특이사항이 없다. 다음 중 이 여성에게 시행해야 하는 검사는?
+임신 7주 첫 산전 진료에 온 산모는 임신 전 비만이었고 이전 임신에 4,500 g 신생아를 낳았다. 당뇨병을 진단받은 적은 없다. 대한당뇨병학회 권고에 맞는 초기 평가 계획은?
 
 ## 선택지
 
-A. 거대세포바이러스 혈청검사
-B. 응고검사
-C. 간효소 평가
-D. 경구 포도당부하검사
+A. 초기에는 검사하지 않고 분만 뒤에만 검사한다
+B. 5–7주에 24–28주 임신성 당뇨 기준으로만 확진한다
+C. 지금 공복혈당 등으로 기존 당뇨병을 평가하고, 정상이면 24–28주에 임신성 당뇨를 검사한다
+D. 이전 거대아 출산을 근거로 바로 인슐린 치료를 시작한다
 
 ## 해설
 
-비만·고령·거대아 출산력은 임신 전부터 있던 미진단 당뇨의 조기 평가 필요성을 높인다. 선택지 중 포도당 검사(D)가 적절하나 임신5주에 통상24–28주 GDM 기준을 그대로 적용하는 의미는 아니다. 표준 당뇨 진단 검사로 조기 평가하고 음성이어도24–28주 다시 선별한다. 임신1–2주라는 특정 창은 근거가 없다.
+첫 산전 진료에서는 공복혈당, 당화혈색소 등으로 임신 전에 발견되지 않은 당뇨병을 확인한다. 초기에 정상이더라도 임신 24–28주에 임신성 당뇨 검사를 시행한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 경구 포도당부하검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010017
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/

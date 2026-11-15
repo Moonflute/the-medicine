@@ -15,11 +15,11 @@ related_diseases:
   - "고점도 증후군"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-68세 남성이 6개월 동안 악화된 피로와 체중 감소로 병원에 왔다. 최근 시야가 흐려지고 두통이 있었으며 기억력이 예전 같지 않다고 아내가 확인했다. 창백과 전신 쇠약 외에는 진찰에서 특이사항이 없었다. 빈혈과 ESR 증가가 있었고 혈청 단백 전기영동에서 단클론 IgM의 날카롭고 좁은 첨두가 보였으며 혈청 IgM 농도는 6.3 g/dL였다. 가장 가능성 높은 진단은?
+발덴스트룀 거대글로불린혈증으로 진단된 환자에게 새 시야 흐림, 두통과 반복 코피가 생겼고 안저에서 망막 출혈이 보인다. IgM은 6.3g/dL다. 전신 치료를 계획하면서 과점도 증상을 신속히 줄일 처치는?
 
 ## 선택지
 
-A. 의미불명 단클론 감마병증(IgM MGUS)
-B. 다발성 골수종
-C. 발덴스트룀 거대글로불린혈증
-D. 비호지킨 림프종
+A. 철분 정맥 투여
+B. 리툭시맙만 투여하고 증상이 줄기를 기다린다
+C. 혈청 점도 결과가 나올 때까지 치료하지 않는다
+D. 치료적 혈장교환
 
 ## 해설
 
 
-고농도 IgM 단클론과 고점도 증후군은 발덴스트룀 거대글로불린혈증을 의미한다. 이 질환은 IgM 과잉이 혈액 점도를 높여 증상을 일으킨다. 따라서 가장 가능성 높은 진단은 C이다.
+증상을 동반한 과점도는 응급이다. 혈장교환으로 순환 IgM을 빠르게 낮춘 뒤 재상승을 막기 위해 기저 림프형질세포 질환 치료를 병행한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 비호지킨 림프종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000821
+- https://pubmed.ncbi.nlm.nih.gov/37099027/

@@ -20,7 +20,7 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-48세 남자가 생산성 기침과 간헐적인 운동 시 호흡곤란으로 내원했다. 6년 동안 증상이 지속되었다. 체중 감소, 야간 발한, 객혈은 없다. 3년 전 동맥성 고혈압, 5년 전 제2형 당뇨병을 진단받았다. 봄철에 악화되는 알레르기 비염도 있다. 리시노프릴 12.5mg과 메트포르민 1,000mg을 매일 복용한다. 30갑년의 흡연력이 있고 금융 자문가로 일하며 신체활동이 적다. 활력징후는 정상이고 BMI는 44.9kg/m²이다. 양쪽 폐에서 간헐적인 천명이 들린다. 폐활량검사에서 FEV1은 예측치의 59%이다. 이 환자의 가장 가능성 높은 상태의 진행을 늦추는 데 가장 유용한 중재는 무엇인가?
+48세 남성이 만성 가래와 운동 시 숨참이 있다. 30갑년 흡연력이 있고 지금도 담배를 피운다. 기관지확장제 투여 후 FEV₁/FVC는 0.59로 COPD가 확인됐다. 향후 폐기능 감소를 늦추기 위한 가장 중요한 조치는?
 
 ## 선택지
 
-A. 금연
-B. 알레르겐 확인 및 회피
-C. 신체활동 증가
-D. 리시노프릴 중단
+A. 금연을 돕고 금단 증상과 재흡연을 추적한다
+B. 증상이 있을 때만 속효성 기관지확장제를 쓴다
+C. 호흡곤란을 줄이기 위해 신체활동을 제한한다
+D. 안정기에도 예방적으로 경구 스테로이드를 복용한다
 
 ## 해설
 
 
-COPD 진행을 가장 크게 늦추는 중재는 금연이다. 다른 조치는 도움이 되지만 흡연 중단이 가장 결정적이다.
+금연은 계속 흡연하는 COPD 환자에서 폐기능 감소를 늦추는 핵심 중재다. 기관지확장제는 증상과 악화를 줄이는 데 중요하지만 금연을 대신하지는 않는다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ COPD 진행을 가장 크게 늦추는 중재는 금연이다. 다른 조치는 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007520
+- https://new.lungkorea.org/board/guide/view/13792

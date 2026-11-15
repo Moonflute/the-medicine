@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTEg7Jm46rO8L-q0gO2GteyDgSDrs7XrtoDsmbjsg4EgKFBlbmV0cmF0aW5nIEFiZG9taW5hbCBJbmp1cnkpLm1k
 question_type: management
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-24세 남성이 지역 술집에서 싸운 뒤 응급실에 내원했다. 6인치 부엌칼로 심와부를 찔렸고 칼이 복부에 꽂힌 채 있다. 체온 97°F(36.1°C), 혈압 97/68 mmHg, 맥박 분당 127회, 호흡수 분당 19회, 실내 공기 산소포화도 99%이다. 혈액제제와 정맥 수액을 시작했다. 다음 중 가장 적절한 처치는?
+24세 남성이 이물질이 복부에 박힌 채 이송됐다. 혈액제제 소생에도 혈압이 낮고 배 전체가 단단하다. 다음 조치는?
 
 ## 선택지
 
-A. 진단적 복막세척
-B. 탐색적 복강경검사
-C. 탐색적 개복술
-D. 외상 초음파 집중평가(FAST)
+A. 이물질을 고정한 채 응급 개복술을 준비한다
+B. 응급실에서 이물질을 먼저 제거한 뒤 관찰한다
+C. 복부 단순촬영 후 수술 여부를 정한다
+D. CT를 마칠 때까지 수술을 미룬다
 
 ## 해설
 
 
-복부에 칼이 남아 있고 빈맥·경계성 저혈압으로 혈액제제 소생이 시작된 상황은 수술실에서 통제된 제거와 손상·출혈 평가가 필요하므로 개복술(C)이 적절하다. 응급실에서 칼을 먼저 뽑지 않는다. 모든 안정적 복부 자상이 반드시 개복술 대상이라는 의미는 아니지만 이 환자에서 FAST나 진단 검사로 필요한 외과 처치를 지연하지 않는다.
+박힌 이물질과 지속되는 쇼크·복막 자극 징후가 있으면 즉시 외과적 출혈 및 장기 손상 관리를 진행한다. 이물질은 응급실에서 뽑지 않고 수술실에서 출혈을 통제할 수 있는 상태로 제거한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 외상 초음파 집중평가(FAST)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010061
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8896237/

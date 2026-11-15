@@ -13,11 +13,11 @@ related_diseases:
   - "nasal septal hematoma"
   - "septal perforation"
   - "nasal fracture"
-question_type: prevention
+question_type: management
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQg7LKc6rO1IChQZXJmb3JhdGlvbikubWQ
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 남성이 3주간 지속된 호흡 시 휘파람 소리로 내원했다. 운동할 때 특히 소리가 커진다. 6개월 전 고속 야구공에 코를 맞아 비복잡성 코골절로 외래 치료를 받았고 이후 아스피린을 복용했다. 무증상 비강폴립 병력이 있다. 다음 중 호흡 시 휘파람 소리를 예방했을 가능성이 가장 높은 처치는?
+23세 환자가 코를 부딪친 지 하루 뒤 양쪽 코가 심하게 막힌다. 비중격 양쪽에 부드럽고 물렁한 돌출이 있고, 국소 충혈제거제를 써도 줄지 않는다. 다음 조치는?
 
 ## 선택지
 
-A. 비중격 혈종 배액
-B. 항생제 치료
-C. 코성형술
-D. 비중격성형술
+A. 단순 코뼈 골절로 보고 두어 달 뒤 교정한다
+B. 응급 이비인후과 평가와 비중격 혈종 배액을 시행한다
+C. 코 안 스테로이드만 처방한다
+D. 항생제만 처방하고 혈종은 그대로 둔다
 
 ## 해설
 
-비중격 혈종은 연골막을 연골에서 분리하여 연골로의 영양·혈류 공급을 방해한다. 이를 방치하면 연골 괴사와 비중격 천공이 생길 수 있고, 작은 천공을 통과하는 공기 때문에 휘파람 소리가 날 수 있다. 따라서 초기 혈종 배액 A가 이러한 합병증을 예방할 수 있었다. 단순히 혈종이 굳어서 소리가 난다고 설명하는 것은 정확하지 않다.
+외상 뒤 물렁한 비중격 부종은 혈종일 수 있다. 연골 괴사와 천공을 예방하기 위해 전문 배액을 지연하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 비중격성형술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002549
+- https://www.rch.org.au/clinicalguide/guideline_index/nasal_fracture/

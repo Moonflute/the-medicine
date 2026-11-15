@@ -21,7 +21,7 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-울고 있는 4세 남아가 빨갛게 붓고 아픈 무릎으로 응급실에 내원했다. 어제까지는 평소와 같았으나 동네 공원 모래놀이터에서 넘어졌다. 어머니가 보았는데, 모래밭을 걷다가 오른쪽 무릎으로 살짝 넘어졌고 울거나 놀란 기색 없이 다시 놀았다. 하지만 그날 밤 무릎이 붉어지고 부었다. 현재는 통증이 있고 움직이기 어렵다. 과거력상 멍이 자주 들고 포경수술 후 출혈이 오래 지속되었다. 신체검사에서 무릎은 홍반성이고 압통과 부종이 있으며 운동 범위가 제한되어 있다. 관절천자에서 선명한 혈액이 흡인되었다. 다음 중 이 환자에서 비정상일 가능성이 가장 높은 단일 검사는 무엇인가?
+4세 아이가 가벼운 외상 뒤 반복적으로 혈관절증을 보인다. 혈소판 수와 PT는 정상인데 aPTT는 연장됐다. 정상 혈장과 혼합했을 때 aPTT가 정상으로 교정됐다. 혈우병 A와 B를 구분할 검사는?
 
 ## 선택지
 
-A. 출혈시간
-B. 혈소판 응집검사
-C. 프로트롬빈 시간(PT)
-D. 부분 트롬보플라스틴 시간(PTT)
+A. D-이합체
+B. 혈소판 응집검사만 시행
+C. aPTT만 반복
+D. 제VIII인자와 제IX인자 활성 검사
 
 ## 해설
 
 
-관절천자에서 혈액이 흡인된 경우, 혈액응고계 이상이 의심된다. 혈우병 A는 부분 트롬보플라스틴 시간(PTT)이 연장되는 특징이 있다. 출혈시간·혈소판 응집·PT는 정상이다. 따라서 PTT 연장이 가장 비정상적인 검사이다
+혼합검사에서 교정되면 응고인자 결핍을 우선 의심한다. 혈우병 A와 B는 임상상이 겹치므로 제VIII인자와 제IX인자 활성을 직접 측정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 부분 트롬보플라스틴 시간(PTT)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007164
+- https://doi.org/10.1111/hae.14046

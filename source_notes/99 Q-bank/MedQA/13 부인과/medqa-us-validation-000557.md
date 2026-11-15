@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
 difficulty: simple
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-28세 여성이 수일간의 발열과 복통으로 응급실에 왔다. 오른쪽 윗배를 깊게 누르면 반발통과 근육방어가 있고 복강경에서 간 주위 오목에 끈 모양의 섬유성 흉터가 보인다. 가장 가능성 높은 원인균은?
+28세 여성이 하복부 통증과 발열에 이어 숨을 깊게 들이쉴 때 오른쪽 윗배가 아프다. 자궁경부 움직임에 압통과 점액고름이 있고 담낭 초음파는 정상이다. 골반염과 관련해 의심할 합병증은?
 
 ## 선택지
 
-A. 람블편모충
-B. 가드네렐라 바지날리스
-C. 질편모충
-D. 임균
+A. 급성 담낭염
+B. 피츠휴–커티스 증후군(간주위염)
+C. 급성 바이러스성 간염
+D. 신장 피막하 농양
 
 ## 해설
 
-우상복부 통증과 간 주위의 바이올린 줄 같은 유착은 골반염 관련 간주위염인 Fitz-Hugh-Curtis 증후군을 시사한다. 임균 Neisseria gonorrhoeae(D)와 Chlamydia trachomatis가 관련될 수 있으며 보기에는 임균이 있다. 클라미디아를 임균의 학명이라고 쓰면 안 된다.
+골반염에 우상복부 흉막성 통증이 동반되면 감염에 의한 간주위염을 의심한다. 임균과 클라미디아 모두 관련되며, 통증만으로 어느 균인지 정할 수 없다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 임균
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000557
+- https://www.cdc.gov/std/treatment-guidelines/pid.htm

@@ -20,7 +20,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
 question_type: management
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -40,19 +40,19 @@ related_drug_slugs:
 
 ## 문제
 
-25세 대학생이 3주간의 발열, 권태감, 피로를 주소로 내원하여 급성 골수성 백혈병(acute myelogenous leukemia)을 진단받았다. 환자는 제1형 당뇨병, 소아기 다발성 중이염, 고등학교 시절 전염성 단핵구증의 과거력이 있다. 현재 하루에 담배 1갑을 피우고 와인 1잔을 마시며, 불법 약물 사용은 부인한다. 활력징후는 체온 36.7°C, 혈압 126/74 mm Hg, 심박수 87회/분, 호흡수 17회/분이다. 신체 검진상 맥박은 도약맥(bounding pulse)을 보이고 안색은 창백하나 호흡음은 깨끗하다. 급속히 진행하는 형태의 백혈병으로 확인되어 정맥 내 항암화학요법을 시작할 예정이다. 치료 중 급성 신부전 발생을 예방하거나 그 가능성을 낮추기 위해 이 환자에게 투여해야 할 치료는 무엇인가?
+25세 남성이 급성 골수성 백혈병 유도항암을 앞두고 있다. 종양용해증후군 위험은 중간 정도이며 요산·신기능은 정상이다. 수분 섭취와 검사를 면밀히 관리할 수 있다. 요산 관련 신손상을 예방할 약은?
 
 ## 선택지
 
-A. Sulfinpyrazone
-B. Probenecid
-C. Allopurinol
-D. Colchicine
+A. 프로베네시드
+B. 알로푸리놀
+C. 콜히친
+D. 아세타졸아미드
 
 ## 해설
 
 
-Allopurinol(C)은 xanthine oxidase를 억제해 항암 후 고요산혈증·요산 관련 신손상 위험을 낮추는 예방약이다. 수액과 검사 감시가 기본이며 TLS 위험도·기존 요산과 신기능에 따라 rasburicase를 선택할 수 있다.
+중간 위험이고 요산과 신기능이 정상이라면 수분 공급 및 검사 감시와 함께 알로푸리놀을 사용할 수 있다. 알로푸리놀은 새 요산 생성을 줄인다. 고위험이거나 이미 요산이 높으면 라스부리카제를 고려한다.
 
 ## 검수 근거
 
@@ -65,3 +65,4 @@ Allopurinol(C)은 xanthine oxidase를 억제해 항암 후 고요산혈증·요�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001130
+- https://doi.org/10.1111/bjh.70092

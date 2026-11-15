@@ -17,7 +17,7 @@ question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yekO2PkCDsiqTtjpntirjrn7wg7J6l7JWgIChBdXRpc20gU3BlY3RydW0gRGlzb3JkZXIpLm1k
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-4세 남아가 학교에서 집중하거나 친구를 사귀지 못한다고 교사가 지적하여 부모와 함께 소아과를 방문했다. 부모는 아이가 집, 학교 및 어린이집에서도 다른 사람들과 잘 상호작용하지 못한다고 말한다. 신체검사에서 활력징후는 안정적이고 나이와 성별에 맞는 정상 체중, 키 및 머리둘레를 보인다. 일반 및 신경학적 검사는 완전히 정상이다. 최근 청력검사도 정상이었고 임상심리사 평가에서 지적장애는 배제되었다. 현재 진단 평가의 일부로 다음 중 시행해야 할 검사는 무엇인가?
+자폐스펙트럼장애로 진단받은 4세 아이의 신경학적 진찰은 정상이다. 발작으로 의심되는 사건이나 발달 기술의 퇴행은 없다. 보호자가 모든 자폐 아동에게 뇌파검사가 필요한지 묻는다. 가장 적절한 설명은?
 
 ## 선택지
 
-A. 뇌 자기공명영상(MRI)
-B. 뇌파검사
-C. 메틸-CpG 결합 단백질 2(MECP2) 유전자 돌연변이 검사
-D. 추가 검사는 필요하지 않다
+A. 현재는 필요 없으며 발작 의심 소견이나 비전형적 퇴행이 생기면 평가한다
+B. 자폐가 진단되면 증상과 무관하게 뇌파검사를 한다
+C. 언어 지연이 있으면 수면 뇌파검사를 반드시 한다
+D. 지적장애가 없는 자폐 아동은 발작이 의심되어도 뇌파검사가 필요 없다
 
 ## 해설
 
-이 사례에서 신경학적 이상·경련·특징적 퇴행이 없어 보기의 MRI, EEG 또는 MECP2 검사를 일률적으로 시행할 근거가 없으므로 D가 적절하다. 그러나 사회성 문제만으로 자폐를 확진하는 것은 아니며 발달·언어·반복행동 등 포괄 평가가 필요하다. 자폐가 확인되면 적절한 원인 유전 평가도 논의할 수 있어 '어떠한 추가 평가도 필요 없다'는 의미는 아니다.
+뇌파검사는 자폐스펙트럼장애의 일률적 검사로 권하지 않는다. 발작 의심 소견, 비전형적인 퇴행 또는 다른 신경학적 단서가 있을 때 적응증을 검토한다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ D. 추가 검사는 필요하지 않다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005633
+- https://doi.org/10.1542/peds.2019-3447
+- https://www.nice.org.uk/guidance/cg128

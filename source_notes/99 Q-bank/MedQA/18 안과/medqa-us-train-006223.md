@@ -17,7 +17,7 @@ question_type: investigation
 related_disease_slugs:
   - MTgg7JWI6rO8L-yEuOq3oOqwgeunieq2pOyWkSAoYmFjdGVyaWFsIGNvcm5lYWwgdWxjZXIpLm1k
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 남성이 급성 좌측 눈 통증으로 응급실에 왔다. 아침에 이물감으로 깨어났고 전날 밤 콘택트렌즈를 빼는 것을 잊었다. 렌즈를 제거하자 통증, 불편감 및 눈물이 즉시 생겼으며 물로 씻어도 지속된다. 4년 동안 렌즈를 사용했고 가끔 밤에 빼는 것을 잊는다. 검사에서 좌측 눈의 통증과 눈부심이 있으나 국소마취제로 통증이 완화되고 양안 시력은 20/20이다. 다음 중 진단을 확립하는 데 가장 유용한 검사는 무엇인가?
+소프트 콘택트렌즈를 끼고 자고 난 환자가 렌즈를 뺀 뒤 이물감과 눈물을 호소한다. 시력은 유지되고 각막에 흰 침윤은 보이지 않는다. 각막 상피 결손을 확인할 검사는?
 
 ## 선택지
 
-A. 플루오레세인 검사
-B. 안구 초음파
+A. 안구 초음파
+B. 안와 CT
 C. 전방각경검사
-D. 안와 CT
+D. 플루오레세인 염색과 세극등검사
 
 ## 해설
 
-렌즈 제거 후 이물감·눈물·눈부심이 생기고 국소마취제로 통증이 감소하여 각막 표면의 상피 손상을 의심한다. A, fluorescein 염색은 상피 결손을 시각화하여 진단에 도움이 된다. 렌즈 착용자의 감염성 각막염도 감별해야 하므로 염색 하나만으로 원인이나 감염 유무까지 확정하는 것은 아니다. 초음파·CT·전방각경검사는 이 표면 손상 평가의 우선 검사가 아니다.
+플루오레세인 염색과 세극등검사는 각막의 상피 결손을 확인한다. 렌즈 착용자에서 침윤·시력 저하가 있으면 감염성 각막염을 응급 평가한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 안와 CT
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006223
+- https://www.aaojournal.org/article/S0161-6420%2824%2900007-1/fulltext

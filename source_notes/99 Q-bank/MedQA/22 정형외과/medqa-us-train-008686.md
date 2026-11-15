@@ -13,13 +13,13 @@ related_diseases:
   - "carpal tunnel syndrome"
   - "median neuropathy"
   - "nerve conduction study"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-47세 여성이 양손 손바닥 쪽의 저림과 감각 이상으로 일차진료를 받으러 왔다. 엄지손가락 기저부에는 증상이 없다. 오른손(주로 사용하는 손)에서 더 심하고 운전이나 머리 빗기 같은 활동으로 악화된다. 통증 때문에 자주 잠에서 깨 손을 흔들어야 호전된다. 9년 동안 류마티스관절염을 앓아 메토트렉세이트를 복용한다. 혈압 124/76mmHg, 심박수 75회/분, 호흡수 15회/분이다. 오른쪽 손목 앞쪽 중앙을 가볍게 두드리면 손바닥에 저림이 유발된다. 이 환자의 근전도에서 가장 가능성 높은 소견은 무엇인가?
+47세 여성이 밤마다 엄지와 검지·중지가 저리다. 야간 부목에도 점차 엄지 힘이 약해지고 무지구가 위축됐다. 검사로 수근관에서 정중신경의 중증 압박이 확인됐다. 다음 조치는?
 
 ## 선택지
 
-A. C7 지배 척추주위근, 팔, 어깨 근육의 탈신경
-B. 국소 이상 없이 광범위하고 대칭적인 신경병증 변화
-C. 손목굴 내 정중신경 전도속도의 국소적 저하
-D. 정중신경 수장측 가지의 신경병증 변화
+A. 같은 부목만 계속 착용하며 악화를 기다린다
+B. 수근관 감압수술을 평가한다
+C. 척골신경 전방전위를 계획한다
+D. 비타민을 먼저 수개월 복용한다
 
 ## 해설
 
-야간 저림·손 털기 호전·손목 Tinel 양상은 손목터널증후군을 시사한다. 전기진단검사 중 신경전도검사에서 손목터널을 지나는 정중신경의 국소 전도 지연(C)이 예상된다. 정중신경 손바닥피부가지는 터널에 들어가기 전에 갈라져 굽힘근지지띠 바깥을 지나므로 엄지두덩 피부감각은 보존되는 것이 단서다. 질문의 EMG는 넓은 전기진단 평가를 뜻하며 전도속도는 침근전도 자체가 아닌 신경전도검사에서 측정한다.
+감각 증상에 진행성 무지구 위축과 운동약화가 동반되면 정중신경 손상이 진행 중일 수 있다. 수근관 감압을 위해 수부 전문 진료를 앞당긴다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 정중신경 수장측 가지의 신경병증 변화
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008686
+- https://www.aaos.org/quality/quality-programs/carpal-tunnel-syndrome/

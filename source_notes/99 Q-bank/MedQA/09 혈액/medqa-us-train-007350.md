@@ -21,7 +21,7 @@ question_type: prognosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-2세 남아가 2일 동안 지속된 피로와 피부 황달로 내원했다. 일주일 전 3일간 미열과 콧물이 있었다. 신생아 때 황달로 5일간 광선치료를 받았다. 활력징후는 정상이다. 피부와 결막에 황달이 보이며 비장 끝이 왼쪽 늑골연 아래 3cm에서 만져진다. 헤모글로빈은 9.8 g/dL, 평균 적혈구 혈색소 농도는 38%이다. 쿰스 검사는 음성이다. 말초혈액도말 사진이 제시되어 있다. 이 환자에서 다음 중 위험이 가장 높은 합병증은 무엇인가?
+2세 남아가 창백과 황달로 내원했다. 신생아 때 황달로 광선치료를 받았다. 비장이 만져지고 혈색소는 9.8 g/dL, 평균 적혈구 혈색소 농도(MCHC)는 38 g/dL이다. 직접항글로불린검사는 음성이다. 유전구형적혈구증이 확인되었다면 장기적으로 위험이 증가하는 합병증은?
 
 ## 선택지
 
-A. 말라리아
-B. 골수염
+A. 담낭의 콜레스테롤 용종
+B. 만성 췌장염
 C. 급성 골수성 백혈병
-D. 담낭염
+D. 색소 담석에 의한 담낭염
 
 ## 해설
 
 
-구형적혈구증은 비정상적인 적혈구 형태로 용혈을 일으키며, 용혈성 빌리루빈 증가가 색소성 담석 형성을 촉진한다. 따라서 가장 위험한 합병증은 담낭염이다. 정답은 D이다.
+만성 용혈로 빌리루빈 배출이 늘어나면 색소 담석이 생길 수 있다. 유전구형적혈구증의 장기 합병증으로 담석과 그에 따른 담낭염이 중요하다. MCHC 상승과 직접항글로불린검사 음성은 감별에 도움이 된다.
 
 ## 검수 근거
 

@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -41,7 +42,7 @@ answer_change_reason: "원정답 A는 의식소실 및 지속 졸림/혼돈을 �
 
 ## 문제
 
-65세 여성이 집에서 의식 없이 누워 있는 채 남편에게 발견되어 응급실로 왔다. 일주일 동안 쇠약과 혼란이 점점 심해졌다고 한다. 고혈압, 전신홍반루푸스 및 삼차신경통 병력이 있으며 메토프롤롤, 발사르탄, 프레드니손 및 카바마제핀을 복용한다. 내원 시 혈압은 130/70 mm Hg, 맥박 100회/분, 호흡수 17회/분, 체온 36.5°C (97.7°F)였다. 이송 중 의식을 회복했지만 졸리고 지남력이 떨어져 있다. 검사에서 혈당 110 mg/dL, Na+ 120 mEq/L, K+ 3.5 mEq/L, Cl− 107 mEq/L, 크레아티닌 0.8 mg/dL, 혈청 삼투질농도 250 mOsm/kg, 소변 Na+ 70 mEq/L, 소변 삼투질농도 105 mOsm/kg이다. 다음 중 상태의 가장 적절한 다음 관리 단계는 무엇인가?
+65세 여성이 집에서 의식 없이 누워 있는 채 남편에게 발견되어 응급실로 왔다. 일주일 동안 쇠약과 혼란이 점점 심해졌다고 한다. 고혈압, 전신홍반루푸스 및 삼차신경통 병력이 있으며 메토프롤롤, 발사르탄, 프레드니손 및 카바마제핀을 복용한다. 내원 시 혈압은 130/70 mm Hg, 맥박 100회/분, 호흡수 17회/분, 체온 36.5°C (97.7°F)였다. 이송 중 의식을 회복했지만 졸리고 지남력이 떨어져 있다. 검사에서 혈당 110 mg/dL, Na+ 120 mEq/L, K+ 3.5 mEq/L, Cl− 107 mEq/L, 크레아티닌 0.8 mg/dL, 혈청 삼투질농도 250 mOsm/kg, 소변 Na+ 70 mEq/L, 소변 삼투질농도 105 mOsm/kg이다. 다음 중 상태의 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

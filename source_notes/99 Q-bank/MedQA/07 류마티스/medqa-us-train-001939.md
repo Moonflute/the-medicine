@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-40세 여성이 2개월간 식후 흉통과 속쓰림으로 내원했다. 밤과 누울 때 특히 악화된다. nifedipine으로 치료 중인 레이노병이 있고 손과 얼굴 피부가 두꺼워지고 단단해졌으며 팔꿈치와 손끝에 단단한 흰 결절이 있다. 추가 검사에서 가장 가능성 높은 소견은 무엇인가?
+40세 여성이 레이노 현상과 위식도역류, 손끝과 얼굴의 피부경화로 내원했다. 팔꿈치보다 위쪽과 몸통에는 피부경화가 없으며 손끝의 석회 침착과 모세혈관확장이 보인다. 이 표현형을 뒷받침하는 항체는?
 
 ## 선택지
 
-A. 항 RNA 중합효소 III 항체
-B. 항 U1 RNP 항체
-C. 항중심체 항체
-D. 항 Scl-70 항체
+A. 항RNA 중합효소 III 항체
+B. 항U1-RNP 항체
+C. 항센트로미어 항체
+D. 항Jo-1 항체
 
 ## 해설
 
 
-레인오와 CREST 증후군에서 항중심체 항체가 가장 특이적이다. 환자는 레이노와 피부 경화, 석회화성 손가락 결절을 보여 CREST와 일치한다. 따라서 항중심체 항체가 가장 가능성 높은 검사이다. 항 Scl‑70는 확산형 전신 경화증에 더 흔하다.
+손과 얼굴에 국한된 피부경화와 석회증·모세혈관확장은 제한형 피부 전신경화증에 맞는다. 항센트로미어 항체가 흔히 동반되지만 항체 하나로 아형을 확정하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 항 Scl-70 항체
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001939
+- https://doi.org/10.1136/ard-2024-226430

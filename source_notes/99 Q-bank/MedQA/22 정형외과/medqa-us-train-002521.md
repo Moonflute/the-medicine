@@ -16,9 +16,9 @@ related_diseases:
 question_type: diagnosis
 related_disease_slugs: []
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 남성이 교통사고 후 응급실에 왔다. 의식은 명료하고 통증이 있으며 오른쪽 상지의 손목 신전 근력이 0/5이다. 정맥 수액과 모르핀을 투여하고 영상검사를 의뢰했다. 다음 중 가장 가능성 높은 골절은?
+위팔뼈 몸통 골절 뒤 22세 남성이 손목과 손가락을 펴지 못한다. 엄지와 검지 사이 손등 감각도 둔하다. 가장 가능성 높은 신경 손상은?
 
 ## 선택지
 
-A. 상완골 경부 골절
-B. 상완골 중간 몸통 골절
-C. 척골 골절
-D. 요골 골절
+A. 액와신경
+B. 정중신경
+C. 요골신경
+D. 척골신경
 
 ## 해설
 
-손목 신전 마비는 요골신경 손상을 시사한다. 요골신경은 상완골 간부 뒤쪽의 요골신경고랑을 지나므로 상완골 중간 몸통 골절(B) 때 손상되어 손목처짐이 생길 수 있다. 상완골 경부 손상은 주로 액와신경과 연관되고 척골·요골 골절보다 제시된 외상 후 손목 신전 마비의 전형적 연결은 상완골 간부 골절이다.
+요골신경은 위팔뼈 몸통 뒤를 지나며 손목과 손가락 폄을 담당한다. 첫째 손가락 사이 손등 감각을 함께 확인한다.
 
 ## 검수 근거
 

@@ -20,6 +20,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-48세 남성이 호흡곤란으로 응급실에 내원했다. 6개월 전에는 멈추지 않고 수 km를 걸을 수 있었으나 어제는 침대에서 화장실까지 걷는 것만으로 숨이 찼다. 최근 새로 생긴 복부팽만과 다리 부종도 점점 악화되고 있다. 고혈압과 고지혈증 병력이 있다. 신체검사에서 중등도 복부팽만, 무릎까지의 함요부종 및 양쪽 폐기저부 수포음이 있다. 검사 결과 헤모글로빈 13.4 g/dL, MCV 102 µm3, 백혈구 11,200/mm3(감별 정상), 혈소판 256,000/mm3, Na+ 137 mEq/L, Cl− 100 mEq/L, K+ 4.2 mEq/L, HCO3− 25 mEq/L, BUN 18 mg/dL, 포도당 126 mg/dL, 크레아티닌 0.9 mg/dL, ALP 88 U/L, AST 212 U/L, ALT 104 U/L이다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+48세 남성이 호흡곤란으로 응급실에 내원했다. 6개월 전에는 멈추지 않고 수 km를 걸을 수 있었으나 어제는 침대에서 화장실까지 걷는 것만으로 숨이 찼다. 최근 새로 생긴 복부팽만과 다리 부종도 점점 악화되고 있다. 고혈압과 고지혈증 병력이 있다. 신체검사에서 중등도 복부팽만, 무릎까지의 함요부종 및 양쪽 폐기저부 수포음이 있다. 검사 결과 헤모글로빈 13.4 g/dL, MCV 102 µm3, 백혈구 11,200/mm3(감별 정상), 혈소판 256,000/mm3, Na+ 137 mEq/L, Cl− 100 mEq/L, K+ 4.2 mEq/L, HCO3− 25 mEq/L, BUN 18 mg/dL, 포도당 126 mg/dL, 크레아티닌 0.9 mg/dL, ALP 88 U/L, AST 212 U/L, ALT 104 U/L이다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

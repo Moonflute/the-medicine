@@ -20,6 +20,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
@@ -36,7 +37,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-16세 소녀가 인후통을 주소로 내원하였다. 환자는 증상이 3일 전 급성으로 시작되었으며 점차 악화되었다고 한다. 기침, 코막힘, 콧물 병력은 없다고 한다. 과거력이나 현재 복용 중인 약물은 없다. 활력징후는 체온 37.7°C, 혈압 110/70 mm Hg, 맥박 74회/분, 호흡수 20회/분, 실내 공기에서 산소포화도 99%이다. 신체 검진상 전경부 림프절병증(anterior cervical lymphadenopathy)이 관찰된다. 구인두 부종과 편도 비대가 있으나 편도 삼출물은 없다. 다음 중 가장 적절한 다음 조치는 무엇인가?
+16세 소녀가 인후통을 주소로 내원하였다. 환자는 증상이 3일 전 급성으로 시작되었으며 점차 악화되었다고 한다. 기침, 코막힘, 콧물 병력은 없다고 한다. 과거력이나 현재 복용 중인 약물은 없다. 활력징후는 체온 37.7°C, 혈압 110/70 mm Hg, 맥박 74회/분, 호흡수 20회/분, 실내 공기에서 산소포화도 99%이다. 신체 검진상 전경부 림프절병증(anterior cervical lymphadenopathy)이 관찰된다. 구인두 부종과 편도 비대가 있으나 편도 삼출물은 없다. 가장 적절한 다음 조치는 무엇인가?
 
 ## 선택지
 

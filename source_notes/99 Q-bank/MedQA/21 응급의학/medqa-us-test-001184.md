@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-ydvOyCsO2ZlO2DhOyGjCDspJHrj4UgKENhcmJvbiBNb25veGlkZSBQb2lzb25pbmcpLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-65세 여성이 호숫가 오두막에서 남편에게 혼돈, 오심, 두통, 초조 상태로 발견되어 응급실에 왔다. 남편이 얼음낚시를 하고 장작을 더 구하러 6시간 전 오두막을 떠날 때까지는 증상이 없었고 혈압약이 떨어져 복용하지 못했다. 혈압 154/92 mmHg, 맥박 110회/분, 산소포화도 98%였고 사람과 장소만 지남력이 있으며 5분 후 세 물건 중 하나만 기억하고 보행이 불안정했다. 가장 효과적인 처치는?
+65세 여성이 일산화탄소에 노출된 뒤 혼돈과 보행실조를 보인다. 100% 산소를 투여하고 있지만 신경학적 이상이 지속된다. 추가로 긴급 협의할 처치는?
 
 ## 선택지
 
-A. 정맥 니트로프루시드
-B. 고압산소요법
-C. 100% 산소요법
-D. 헬리옥스 요법
+A. 헬리옥스
+B. 니트로프루시드 정맥 주입
+C. 활성탄 투여
+D. 고압산소 치료
 
 ## 해설
 
-추운 시기의 오두막, 장작 사용을 시사하는 환경, 두통·오심·혼돈·기억장애·실조는 일산화탄소 중독을 의심하게 한다. 일반 맥박산소측정기 수치가 98%여도 일산화탄소헤모글로빈을 구별하지 못하므로 중독을 배제하지 못한다. 고농도 100% 산소를 즉시 투여하면서 노출력과 CO-oximetry를 확인하고, 이 환자처럼 신경학적 이상이 있으면 고압산소 치료 B를 긴급 검토한다. 모든 CO 노출에 고압산소가 일률적으로 필요한 것은 아니며, 본문에서 실제 저산소혈증이 측정되었다고 표현해서는 안 된다.
+지속하는 신경학적 이상은 고압산소 치료를 긴급히 검토할 근거다. 고압산소센터와 협의하는 동안 100% 산소 공급을 중단하지 않는다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 헬리옥스 요법
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001184
+- https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/carbonmonoxide3-cp.pdf

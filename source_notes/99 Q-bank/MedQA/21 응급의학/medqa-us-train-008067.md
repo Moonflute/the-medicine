@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,21 +36,22 @@ related_drug_slugs:
 
 ## 문제
 
-45세 남자가 지난 10년 동안 매일 담배 한 갑과 맥주 6병을 마셨다. 담낭절제술 후 내과병동에 입원한 지 하루 후 불안하고 손이 떨린다고 한다. 수술 부위를 확인하던 중 심하게 떨다가 의식을 잃고 신음하며 바닥에 쓰러졌다. 양팔과 다리가 빠르고 리드미컬하게 경련했고 약 5분간 지속되었다. 발작 프로토콜에 따라 기도, 호흡, 순환을 안정화했다. 다음 중 가장 적절한 다음 처치는?
+장기간 과음하던 환자가 입원으로 금주한 지 하루 뒤 손 떨림과 식은땀이 생겼고, 전신 강직간대발작을 했다. 기도와 순환을 안정시켰다. 발작 치료와 재발 예방에 사용할 약은?
 
 ## 선택지
 
-A. 소변검사
-B. 로라제팜
-C. 모르핀
-D. 항생제
+A. 모르핀
+B. 할로페리돌 단독
+C. 로라제팜
+D. 페니토인 단독
 
 ## 해설
 
 
-술을 끊은 후 발생한 전신성 발작은 알코올 금단성 발작이며, 급성 진정에 벤조디아제핀인 로라제팜이 가장 적절하다.
+알코올 금단 발작에서는 벤조디아제핀이 우선이다. 이후 발작 재발과 금단 섬망 가능성을 감시하며 다른 발작 원인도 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008067
+- https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management

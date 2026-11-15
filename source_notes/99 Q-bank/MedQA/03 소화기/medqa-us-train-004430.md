@@ -21,7 +21,7 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -40,19 +40,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-관상동맥질환이 있는 55세 남성이 심와부 통증, 악화되는 피로와 흑색변으로 응급실에 왔다. 아스피린과 로수바스타틴을 복용하지만 지난 2주 동안 허리 통증 때문에 이부프로펜을 복용했다. 오심, 구토, 토혈, 흉통, 발열 및 체중 감소는 부인한다. 앉은 자세에서 혈압은 100/70 mmHg, 맥박은 분당 90회였지만, 선 자세에서는 혈압 85/60 mmHg, 맥박 분당 110회였다. 기도는 열려 있다. 손은 차갑고 축축하다. 복부검사에서 심와부 통증이 확인되지만 반발통이나 고음성 타진음은 없다. 링거액 2L를 투여했는데도 혈압과 맥박은 변하지 않았다. 이 환자에게 농축 적혈구 수혈을 고려할 때 적용할 헤모글로빈 역치는 무엇인가?
+55세 남성이 최근 NSAID를 복용했고 대량 흑색변 뒤 창백하고 식은땀을 흘린다. 초기 수액 뒤에도 혈압 78/48 mmHg, 맥박 125회/분이다. 입원 직후 혈색소는 9.4 g/dL이다. 적혈구 수혈에 대한 적절한 판단은?
 
 ## 선택지
 
-A. 역치는 중요하지 않다
-B. 10 미만
-C. 8 미만
-D. 7 미만
+A. 출혈성 쇼크가 지속되므로 초기 혈색소가 더 떨어지기를 기다리지 않고 수혈한다
+B. 혈색소가 7 g/dL 미만이 될 때까지 수혈을 보류한다
+C. 내시경에서 출혈원이 확정된 뒤에만 수혈한다
+D. 혈색소가 9 g/dL 이상이므로 수액만 반복한다
 
 ## 해설
 
 
-출혈성 쇼크에서 적혈구 수혈은 Hb 7 g/dL 이하, 혹은 활력징후가 불안정하고 지속적인 출혈이 있을 때 시행한다. 환자는 저혈압·빈맥으로 혈역학적 불안정이 있으므로 역치가 적용되지 않는다.
+활동성 대량출혈의 초기에 혈색소는 실제로 잃은 혈액량을 충분히 반영하지 못한다. 쇼크가 지속되면 안정 환자에게 적용하는 제한적 수혈 역치만 기다리지 않고 소생과 출혈 조절을 병행한다.
 
 ## 검수 근거
 
@@ -65,3 +65,5 @@ D. 7 미만
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004430
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12285778/
+- https://gi.org/guideline/upper-gastrointestinal-and-ulcer-bleeding/

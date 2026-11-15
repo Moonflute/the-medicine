@@ -19,7 +19,7 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-21세 여자가 일주일에 1~2회 간헐적으로 발생하는 마른기침, 호흡곤란, 흉부 압박감으로 평가받았다. 특히 서늘한 날씨에 달리면 심한 호흡곤란이 생기고 한 달에 한 번씩 밤에 기침 발작이 있다. 흡연력은 없으며 어린 시절 아토피피부염이 있었지만 현재 피부 악화는 드물다. 체온 37.0°C, 혈압 115/75 mmHg, 맥박 88회/분, 실내 공기 산소포화도 98%이다. 신체검사에서 공기 유입과 흉부 X선, 폐활량검사는 정상이다. 가장 적절한 다음 관리는 무엇인가?
+21세 여성이 운동과 밤에 반복되는 천명과 가슴 답답함을 호소한다. 증상이 없는 날 시행한 기관지확장제 전후 폐활량검사는 두 차례 정상이고 변동성을 확인하지 못했다. 천식이 여전히 의심될 때 기도 과민성을 확인할 검사는?
 
 ## 선택지
 
-A. 메타콜린 유발검사
+A. 메타콜린 기관지유발검사
 B. 피부단자검사
-C. 섬모 기능검사
-D. 추가 평가 없이 임상 관찰
+C. 저선량 흉부 CT
+D. 흉부 MRI
 
 ## 해설
 
 
-운동 시 호흡곤란과 밤에 기침이 나타나는 경우 운동 유발 기관지수축을 의심한다. 메타콜린 유발검사는 기관지 과민성을 확인하는 표준 검사이다. 따라서 메타콜린 유발검사가 다음 관리로 적절하다.
+증상이 없는 때는 천식 환자도 폐활량검사가 정상일 수 있다. 전후 검사에서 가역적 기류제한을 확인하지 못했는데 의심이 남으면 기관지유발검사로 기도 과민성을 평가할 수 있다. 피부검사는 감작을 확인하지만 천식의 가변적 기류제한을 입증하지는 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 추가 평가 없이 임상 관찰
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004230
+- https://new.lungkorea.org/board/guide/view/14959
+- https://ginasthma.org/2026-gina-strategy-report/

@@ -13,12 +13,12 @@ related_diseases:
   - "mumps"
   - "유행성이하선염"
   - "orchitis and infertility"
-question_type: prognosis
+question_type: prevention
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67O86rGw66asIChNdW1wcykubWQ
   - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-14세 남자가 2일 전 시작된 발열, 권태감, 양측 얼굴 통증과 부종으로 내원했다. 심각한 질환 병력이나 복용약은 없다. 인도에서 태어났고 어머니는 산전 진찰을 받지 않았으며 소아기 예방접종력은 불확실하다. 3주 전 인도를 방문했다. 체온 38.2°C이고 양측 이하선에 발적, 부종, 압통이 있다. 백혈구 13,000/mm³, 혈색소 13.0 g/dL, 헤마토크릿 38%, 혈소판 180,000/mm³이다. 가장 위험한 합병증은 무엇인가?
+중학생이 발열과 양쪽 이하선 부종으로 진료받아 유행성이하선염이 확인됐다. 이하선 부종은 어제 시작했다. 국내 등교 중지 기준은?
 
 ## 선택지
 
-A. 당뇨병
-B. 안면신경마비
-C. 안면골 골수염
-D. 생식능력 저하
+A. 오늘 해열되면 내일부터 등교한다
+B. 이하선 부종 시작 뒤 24시간만 쉰다
+C. 이하선염 증상이 시작된 날부터 5일이 지날 때까지 등교하지 않는다
+D. 부종이 완전히 없어질 때까지 기간에 관계없이 격리한다
 
 ## 해설
 
-사춘기 남아의 볼거리는 고환염과 고환 위축·생식능력 저하(D)를 일으킬 수 있다. 이는 보기 중 관련된 합병증이지만 영구적 불임이 흔하거나 반드시 생긴다는 뜻은 아니다. CDC는 볼거리 고환염 후 불임과의 확정적 연관은 입증되지 않았고 hypofertility 가능성을 구분한다.
+국내 기준은 이하선염 증상 발생일부터 5일 뒤까지 격리하는 것이다. 해열 시점이나 부종이 완전히 없어지는 시점만으로 등교를 결정하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 생식능력 저하
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009557
+- https://www.kdca.go.kr/bbs/kdca/42/238305/download.do

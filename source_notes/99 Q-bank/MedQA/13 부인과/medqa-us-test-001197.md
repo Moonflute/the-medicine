@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 여성이 불규칙한 월경출혈로 진료를 받으러 왔다. 15세 초경 이후 월경 간격이 45~90일이고 2년간 피임 없이 정기적으로 성관계를 했지만 임신하지 못했다. 키 170 cm, 체중 85 kg, BMI 29.4 kg/m²이며 지성 피부, 심한 여드름, 윗입술과 유두 주위의 다모증이 있었다. 임신을 원할 때 생활습관 교정과 함께 가장 적절한 처치는?
+다낭성난소증후군이 있는 27세 여성이 임신을 원하지만 월경이 수개월에 한 번뿐이고 배란이 확인되지 않는다. 난관과 배우자 정액검사는 정상이다. 1차 경구 배란유도제로 우선 고려할 약은?
 
 ## 선택지
 
-A. 환자 난자를 이용한 체외수정
-B. 프로게스테론 치료
-C. 클로미펜 치료
-D. 류프로라이드 치료
+A. 복합 경구피임약
+B. 레트로졸
+C. 류프로라이드
+D. 난포를 자극하지 않는 프로게스테론 단독
 
 ## 해설
 
-희발월경·고안드로겐 소견은 PCOS성 무배란 불임을 시사한다. 다른 불임 요인을 평가하고 생활습관 관리와 배란 유도를 시행한다. 현행 지침은 레트로졸을 선호하지만 선지에 없으며 클로미펜(C)도 사용 가능한 배란유도 대안이다. IVF는 일반적으로 일차 선택이 아니다.
+다른 난임 요인이 없는 다낭성난소증후군의 무배란성 난임에는 레트로졸이 우선적인 경구 배란유도제다. 생활 관리도 병행하고, 경구 유도제를 쓰기 전 기존 임신을 배제한다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ D. 류프로라이드 치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001197
+- https://pmc.ncbi.nlm.nih.gov/articles/10505534/
+- https://www.ncbi.nlm.nih.gov/books/NBK620409/

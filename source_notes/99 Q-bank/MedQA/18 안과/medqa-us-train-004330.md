@@ -14,11 +14,11 @@ related_diseases:
   - "시신경 압박"
   - "결핍성 동공반응"
   - "Meningioma"
-question_type: 임상증례 객관식
+question_type: investigation
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsooUgKE1lbmluZ2lvbWEpLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 여자가 2개월간 왼쪽 눈의 진행성 시력 상실과 오른쪽 눈의 점진적 시야 흐림으로 내원했다. 간헐적 두통과 최근 후각 감소도 있다. 계절성 알레르기로 펙소페나딘만 복용한다. 키 158cm, 체중 61kg, BMI 24.7kg/m²이며 활력징후는 정상이다. 오른쪽 시력은 20/40, 왼쪽은 빛을 거의 인지하지 못한다. 우안에서 좌안으로 빛을 옮기면 양쪽 동공이 확장되고 안저검사에서 오른쪽 시신경유두부종과 왼쪽 창백한 시신경유두가 보인다. 가장 가능성 높은 진단은 무엇인가?
+환자가 수개월 동안 한쪽 시력이 떨어지고 냄새를 잘 못 맡는다. 안저에서 시력이 나쁜 쪽 시신경이 위축되고 반대쪽 시신경유두는 부어 있다. 다음 검사는?
 
 ## 선택지
 
-A. 가성 뇌종양
-B. 전방 허혈성 시신경병증
-C. 수막종
-D. 다발성경화증
+A. 안압만 측정해 추적한다
+B. 앞쪽 두개저와 시신경을 포함한 조영 MRI를 시행한다
+C. 정기 안경 검사만 예약한다
+D. 압력을 재기 위해 요추천자를 먼저 한다
 
 ## 해설
 
-왼쪽 시신경 압박에 의한 창백한 시신경유두/시신경 위축과 RAPD, 반대쪽인 오른쪽 유두부종 및 후각저하는 전두개저 종괴에 의한 Foster Kennedy 증후군에 합당하다. 후각고랑 수막종 같은 병변 C가 가장 적절하다. 빛을 좋은 오른쪽에서 손상된 왼쪽으로 옮길 때 양안 동공이 상대적으로 확장되는 것은 왼쪽 구심성 신호 저하 때문이다. 본문은 양측 유두부종이 아니며 라우리 반응이라는 설명도 적절하지 않다.
+한쪽 시신경 위축과 반대쪽 유두부종에 후각 저하가 동반되면 전두개저 종괴를 의심한다. 시신경 압박과 두개내압 위험을 먼저 영상으로 평가한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 다발성경화증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004330
+- https://pubmed.ncbi.nlm.nih.gov/34181733/

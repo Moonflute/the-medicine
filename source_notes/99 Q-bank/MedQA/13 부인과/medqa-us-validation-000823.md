@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-u5hOygleyDgSDsnpDqtoEg7Lac7ZiIIChBYm5vcm1hbCBVdGVyaW5lIEJsZWVkaW5nKS5tZA
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 여성(임신 2회, 출산 2회)이 6개월간 월경 중간의 소량 질출혈로 진료를 받으러 왔다. 초음파에서 자궁경부관 깊숙이 유경성 종괴가 보이고 자궁내막은 5 mm로 균일하다. 가장 적절한 다음 처치는?
+32세 여성이 반복되는 월경 사이 소량 출혈로 내원했다. 임신검사는 음성이다. 질경검사에서 자궁경부관 입구에 가는 줄기의 폴립이 보이고 부착부에 접근할 수 있다. 처치는?
 
 ## 선택지
 
-A. 추가 처치 없이 6개월 후 추적
-B. 전기소작과 냉동치료
-C. 자궁경부 브러시 생검
-D. 고리 겸자로 병변 제거
+A. 자궁경부 냉동치료
+B. 폴립을 제거하고 조직검사를 의뢰한다
+C. HPV 검사만 하고 병변은 남긴다
+D. 폴립이 보이는 부위에 자궁내막 소파술을 한다
 
 ## 해설
 
-월경 사이 출혈과 자궁경관 내 유경성 종괴는 자궁경부 폴립에 합당하다. 적절히 접근 가능한 폴립은 고리 겸자로 잡아 비틀어 제거(D)하고 조직검사를 한다. 고리 겸자는 전기고리 절제술(LEEP)과 다른 기구·시술이다.
+증상이 있고 접근 가능한 자궁경부 폴립은 제거하고 병리로 확인한다. 기저부가 보이지 않거나 원발부가 불확실하면 맹목적으로 당기지 말고 전문 평가한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 고리 겸자로 병변 제거
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000823
+- https://rms.cornwall.nhs.uk/rms/primary_care_clinical_referral_criteria/primary_care_clinical_referral_criteria/gynae/cervical_polyps

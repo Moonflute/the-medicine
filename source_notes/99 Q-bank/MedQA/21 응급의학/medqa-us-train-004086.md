@@ -13,11 +13,11 @@ related_diseases:
   - "칸나비스 구토 증후군"
   - "대마 사용"
   - "온수 목욕으로 호전되는 구토"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-q4ieyEsSDspJHrj4Ug7LSd66GgIChHZW5lcmFsIE1hbmFnZW1lbnQgb2YgQWN1dGUgUG9pc29uaW5nKS5tZA
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-28세 남자가 구토로 응급실에 왔다. 어젯밤부터 심한 구토가 시작되어 호전되지 않았고 뜨거운 샤워를 하면 증상이 좋아진다고 한다. 과거에도 비슷한 증상으로 응급실을 여러 번 방문했으며 정맥 약물 남용으로 온 적도 있다. 체온 37.5°C, 혈압 127/68 mmHg, 맥박 110회/분, 호흡수 22회/분, 실내 공기 산소포화도 98%이다. 현재 구토 중이어서 신체검사는 보류했다. 가장 가능성 높은 진단과 관련된 요인은 무엇인가?
+28세 남성이 수개월간 구토가 반복돼 응급실을 여러 번 찾았다. 오랫동안 대마를 자주 사용했고, 뜨거운 샤워를 하면 잠깐 덜하다. 다른 원인을 평가한 뒤 가장 중요한 재발 방지 조치는?
 
 ## 선택지
 
-A. 알코올 사용
-B. 마리화나 사용
-C. 약물 금단
-D. 바이러스성 위장염
+A. 뜨거운 샤워를 정기적으로 한다
+B. 하루 물 섭취량을 크게 줄인다
+C. 공복을 피하기 위해 제산제를 매일 먹는다
+D. 대마 사용을 중단한다
 
 ## 해설
 
-반복 구토와 뜨거운 샤워로의 호전은 cannabinoid hyperemesis syndrome을 시사하며 관련 요인은 marijuana 사용(B)이다. 일반적인 cyclic vomiting syndrome과 완전히 같은 병명은 아니다. 실제 진단에서는 장기간 대마 사용과 중단 후 경과를 확인하고 다른 급성 구토 원인도 배제한다.
+장기간 대마 사용과 반복 구토가 있고 중단했을 때 호전되면 칸나비노이드 구토증후군을 지지한다. 뜨거운 샤워의 효과는 일시적이며 재발 예방은 사용 중단이 핵심이다.
 
 ## 검수 근거
 

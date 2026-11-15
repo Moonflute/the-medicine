@@ -15,7 +15,7 @@ related_diseases:
   - "고칼슘혈증"
 related_disease_slugs:
   - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-68세 여성이 피로, 호흡곤란, 소변량 감소, 아침 발 부종으로 진료를 받으러 왔다. 최근 인후통이 있었고 허리와 흉추 통증으로 이부프로펜을 매일 복용한다. 혈색소 9.8 g/dL, BUN 50 mg/dL, 크레아티닌 2.8 mg/dL, 칼슘 12.9 mg/dL이며 소변 단백과 혈액은 음성이었다. 증상의 가장 가능성 높은 원인은?
+뼈 통증, 고칼슘혈증과 급성 신손상이 있는 환자에서 다발골수종을 의심한다. 일반 소변 시험지의 단백은 음성이었다. 경쇄 관련 신손상을 놓치지 않으려면 어떤 검사가 적절한가?
 
 ## 선택지
 
-A. 신장 AL 아밀로이드 침착
-B. 면역글로불린 경쇄
-C. 심박출률 감소
-D. 항연쇄구균 항체
+A. 소변 시험지만 반복
+B. 혈청 유리경쇄 정량과 소변 단백 전기영동·면역고정
+C. 요알부민 검사 단독
+D. 혈청 항사구체기저막 항체
 
 ## 해설
 
 
-빈혈, 뼈 통증, 고칼슘혈증과 신기능 저하는 다발골수종을 의심하게 한다. 면역글로불린 경쇄(B)에 의한 cast nephropathy가 가장 부합한다. 일반 요시험지의 protein 검사는 albumin에 민감하므로 경쇄 단백이 있어도 음성일 수 있다. 원문에 단백전기영동 결과는 없으므로 확인된 결과로 덧붙이지 않는다. 칼슘·탈수·NSAID도 신손상에 기여할 수 있다.
+소변 시험지는 주로 알부민에 반응하므로 단클론 유리경쇄를 놓칠 수 있다. 혈청 유리경쇄와 소변 단백 전기영동·면역고정은 경쇄 관련 신손상 평가에 도움이 된다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 항연쇄구균 항체
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000114
+- https://pubmed.ncbi.nlm.nih.gov/37414019/

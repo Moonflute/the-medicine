@@ -14,9 +14,9 @@ related_diseases:
 related_disease_slugs: []
 question_type: management
 difficulty: simple
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -33,19 +33,19 @@ related_drug_slugs:
 
 ## 문제
 
-40세 여성이 합병증 없는 충수절제술(appendectomy) 후 외과 병동에 입원하였다. 환자는 어제 수술을 받았으며 수술 후 경과는 순조로웠다. 그러나 현재 환자는 소변을 완전히 볼 수 없다고 호소한다. 또한 치골상부(suprapubic) 부위의 통증을 호소한다. 진찰 결과 치골상부 영역의 압통과 팽만을 확인하였다. 간호사에게 방광 스캔을 시행하도록 요청하였고, 450cc가 확인되었다. 다음으로 적절한 처치는 무엇인가?
+40세 여성이 충수절제술 다음 날 소변을 보지 못하고 치골 위가 아프다. 방광 스캔으로 450 mL가 확인됐다. 요도 손상이나 도뇨 금기는 없다. 즉시 할 처치는?
 
 ## 선택지
 
-A. 경구 bethanechol chloride 투여
-B. 정맥 내 neostigmine methylsulfate 투여
-C. 정맥 내 furosemide 투여
-D. 도뇨(catheterization)
+A. 간헐적 도뇨로 방광을 비운다
+B. 정맥 수액을 추가하고 배뇨를 기다린다
+C. 정맥 푸로세미드를 투여한다
+D. 경구 약제만 투여하고 팽창이 가라앉길 기다린다
 
 ## 해설
 
 
-수술 후 급성 요폐는 방광에 잔량이 남아있으며, 가장 빠른 해결책은 카테터 삽입으로 방광을 비우는 것이다. 따라서 도뇨가 정답이다.
+통증이 있는 급성 요폐와 방광 팽창은 먼저 도뇨로 해소한다. 첫 회에는 간헐적 도뇨를 고려하고 재발하면 잔뇨, 약물과 배뇨 기능을 재평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 도뇨(catheterization)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000677
+- https://pubmed.ncbi.nlm.nih.gov/39012634/

@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 남자가 발바닥을 따라 통증과 저림이 있어 내원했다. 장거리 달리기를 해왔고 최근 달리거나 쉬고 있을 때에도 발바닥의 화끈거리고 쑤시는 통증이 심해져 때로는 무감각해진다. 아킬레스건, 전방십자인대, 내측 반월상연골을 수술한 병력이 있다. 현재 발바닥 통증은 없지만 저림과 감각이상은 지속되고 근력은 5/5, 하지 반사는 2+이다. 가장 가능성 높은 진단은?
+35세 남성이 오래 걸으면 발바닥이 타듯 아프고 저리다. 발목 안쪽 복사뼈 뒤를 두드리면 저림이 발바닥으로 퍼진다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 총비골신경 압박
-B. 추간판 탈출증
-C. 족근관증후군
-D. 족저근막염
+A. 족근관증후군
+B. 족저근막염
+C. 총비골신경병증
+D. 모튼 신경종
 
 ## 해설
 
-족근관증후군(C)은 안쪽 복사뼈 뒤 굽힘근지지띠 아래에서 경골신경 또는 그 말단 분지가 압박되어 발바닥의 작열감·저림·감각이상을 유발하는 상태다. 이 환자처럼 초기에는 근력이 정상일 수 있지만 감각만 항상 손상되는 질환이라는 뜻은 아니다. 족저근막염은 주로 발꿈치의 기계적 통증으로 나타나며 지속적인 발바닥 감각이상을 덜 잘 설명한다.
+안쪽 복사뼈 뒤 족근관에서 경골신경이 눌리면 발바닥 전체 또는 일부에 저림과 작열통이 생길 수 있다. 족저근막염은 감각 이상보다 발꿈치 부착부 통증이 주된 증상이다.
 
 ## 검수 근거
 

@@ -14,13 +14,13 @@ related_diseases:
   - "posterior fossa tumor"
   - "increased intracranial pressure"
   - "papilledema"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rkZDqsJzrgrTslZXtla3sp4QgKEluY3JlYXNlZCBpbnRyYWNyYW5pYWwgcHJlc3N1cmUpLm1k
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-5세 남아가 6개월간 지속된 아침 두통, 심한 오심과 구토, 최근 한 달간 보행곤란과 간헐적 복시로 내원했다. 안저검사에서 양측 시신경유두 부종, 보행검사에서 넓은 기저 보행과 탠덤 보행 장애가 있었다. 가장 가능성 높은 진단은?
+5세 아이의 아침 구토와 두통이 점점 심해진다. 최근 발을 넓게 벌리고 걷고 직선 보행이 어렵다. 안저에서 양측 유두부종이 확인됐다. 다음 조치는?
 
 ## 선택지
 
-A. 신경초종
-B. 혈관모세포종
-C. 수막종
-D. 수모세포종
+A. 구토가 있으므로 경구 수분 보충 후 2주 추적한다
+B. 압력을 측정하기 위해 요추천자를 먼저 한다
+C. 후두와 종괴나 폐쇄성 수두증을 평가하도록 응급 뇌영상을 시행한다
+D. 고립성 사시로 보고 정기 안과 검진만 예약한다
 
 ## 해설
 
 
-두통, 구토, 보행곤란, 복시와 양측 시신경유두부종은 후두부 종양에 의한 증상이며, 소아에서 가장 흔한 악성 후두부 종양은 수모세포종이다. 따라서 정답은 수모세포종이다.
+진행성 두통·아침 구토·유두부종과 소뇌 징후는 후두와 종괴 및 두개내압 상승의 경고다. 뇌영상을 우선하며 압력 상승이 의심될 때 요추천자를 먼저 하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003687
+- https://pubmed.ncbi.nlm.nih.gov/42984243/

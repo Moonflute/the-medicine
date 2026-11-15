@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-36세 남자가 2년 동안 가래를 동반한 기침과 반복되는 천명으로 내원했다. 이 기간 동안 증상의 중증도와 빈도가 서서히 증가했다고 한다. 콧물, 코막힘, 고열은 없다. 5년 동안 흡연해 왔다. 환경력상 직업성 폐질환 위험이 증가할 만한 요인은 없지만 집의 일부에 곰팡이가 자라고 있다. 체온은 37°C(98.6°F), 심박수는 80회/분, 혈압은 124/80 mmHg, 호흡수는 22회/분이다. 흉부 청진에서 양측 견갑골 아래 부위에 천명이 들린다. 흉부 고해상도 CT에서 양쪽 하엽에 광범위한 비정상적 저감쇠 영역과 단순화된 폐 구조가 보인다. 양쪽 하엽의 폐혈관 수가 감소하고 넓게 퍼져 있다. 이 환자의 진단에 가장 도움이 될 검사는 무엇인가?
+36세 남성이 수년간 진행한 운동 시 호흡곤란으로 내원했다. 흡연력은 3갑년이다. 폐활량검사에서 지속적 기류제한이 있고, 흉부 CT에서 양쪽 하엽에 범소엽성 폐기종이 보인다. 기저 질환을 확인하기 위해 먼저 시행할 혈액검사는?
 
 ## 선택지
 
-A. 혈청 총 IgE 농도
-B. 흡입 알레르겐 피부단자검사
-C. 혈청 α1-항트립신 농도
-D. 땀 염화물 농도
+A. 혈청 총 IgE
+B. 항핵항체
+C. 혈청 알파-1 항트립신 농도
+D. 혈청 안지오텐신 전환효소
 
 ## 해설
 
 
-범소엽성 폐기종은 알파‑1 항트립신 결핍으로 폐혈관 감소와 저감도 저음영이 나타난다. 혈청 α1‑항트립신 농도 측정이 진단에 가장 도움이 된다. 따라서 정답은 C이다.
+적은 흡연력으로 설명하기 어려운 젊은 연령의 하엽 우세 범소엽성 폐기종은 알파-1 항트립신 결핍을 시사한다. 혈중 농도를 먼저 확인하고, 낮거나 의심이 계속되면 유전자형이나 표현형 검사로 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 땀 염화물 농도
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006990
+- https://publications.ersnet.org/content/erj/50/5/1700610

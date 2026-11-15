@@ -13,7 +13,7 @@ related_diseases:
   - "다운증후군"
   - "완전 방실중격결손"
   - "선천성 심장병"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cp7IukIOykkeqyqSDqsrDshpAgKEF0cmlvdmVudHJpY3VsYXIgU2VwdGFsIERlZmVjdCkubWQ
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-남아 신생아가 출생 30분 후 평가를 받았다. 임신 38주에 39세 여성(Gravida 3)이 질식분만으로 출산했다. 임신성 당뇨병이 있었고 산전 진찰은 정기적으로 받았다. 가족은 해부학 초음파를 포함한 모든 산전 검사를 거부했다. 두 명의 형제는 모두 건강하다. 출생 시 상태가 양호하고 호흡 노력도 좋았다. 말단 청색증이 있었으며 아프가 점수는 1분 8점, 5분 9점이다. 출생 체중은 3,840g(8lb 7oz)이다. 체온은 98.7°F(37.1°C), 혈압은 66/37 mmHg, 맥박은 분당 142회, 호흡수는 분당 34회이다. 진찰에서 귀가 낮게 위치하고, 눈꺼풀 틈이 위쪽으로 기울어져 있으며, 다섯째 손가락이 저형성되어 있다. 다음 중 이 환자에서 발견될 가능성이 가장 높은 것은?
+핵형검사로 다운증후군이 확인된 신생아다. 산전 정밀 심장초음파는 정상이었고 현재 심잡음이나 호흡곤란은 없다. 출생 후 필요한 심장 평가는?
 
 ## 선택지
 
-A. 대동맥 근부 확장
-B. 이첨 대동맥판
-C. 대동맥 축착
-D. 완전 방실중격결손
+A. 증상이 없으므로 심장 검사는 생략
+B. 퇴원 전 심전도만 정상이라면 추가 검사 생략
+C. 심잡음이 생길 때까지 기다림
+D. 신생아 시기에 심초음파로 동반 선천 심장기형을 평가
 
 ## 해설
 
-상향 안검열·저위 귀·다섯째 손가락 저형성과 고령 산모는 다운증후군을 시사한다. 보기 중 대표적 동반 심장 기형은 완전 방실중격결손(D)이다. 원문에 청각검사나 '저음성 청각' 소견은 제시되어 있지 않다.
+다운증후군에서는 청진이나 산전 영상이 정상이더라도 방실중격결손 등 선천 심장기형을 확인하기 위해 출생 후 심초음파를 시행한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 완전 방실중격결손
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006446
+- https://doi.org/10.1542/peds.2022-057010

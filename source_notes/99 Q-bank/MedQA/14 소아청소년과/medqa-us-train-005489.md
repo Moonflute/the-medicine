@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIO2bhOuRkOqwnOyXvCAoQWN1dGUgRXBpZ2xvdHRpdGlzKS5tZA
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-5세 남아가 점점 쉰 목소리, 침흘림과 호흡곤란으로 응급실에 왔다. 기침은 없고 목을 과신전한 채 앞으로 기대어 앉아 있다. 체온 39.5°C, 흡기성 협착음과 공기 유입 감소가 있다. 다음 중 가장 적절한 처치는?
+5세 아이에게 39.5℃ 고열, 침 흘림과 흡기성 협착음이 있다. 목을 펴고 앞으로 기대어 숨 쉬며 공기 유입이 줄었다. 후두개염이 의심될 때 우선 조치는?
 
 ## 선택지
 
-A. 알부테롤 네뷸라이저
-B. 인두경검사
-C. 정맥 항생제 투여
-D. 비기관삽관
+A. 혀누르개로 후두개를 바로 확인
+B. 네뷸라이저 치료 뒤 아이를 눕혀 관찰
+C. 자극을 최소화하며 마취·이비인후과팀과 통제된 환경에서 기도를 확보
+D. 목 X선부터 찍은 뒤 기도 확보 여부를 결정
 
 ## 해설
 
-고열·침흘림·삼각대 자세와 공기 유입 감소는 후두개염에 의한 기도 폐쇄 위험을 시사한다. 우선 숙련된 마취·이비인후과 팀이 통제된 환경에서 기도를 확보해야 하므로 보기 중 D가 기도 확보에 해당한다. 비기관삽관은 비강 경로이며 경구 삽관과 같은 용어가 아니다. 맹목적 비강 삽관이나 일반 진찰실에서 인두를 자극하는 검사를 권하는 뜻은 아니다.
+고열·침 흘림·삼각대 자세와 호흡곤란은 치명적 상기도 폐쇄의 경고 신호다. 목 진찰이나 영상 때문에 기도 확보를 늦추지 않고, 안정화 뒤 항생제를 투여한다.
 
 ## 검수 근거
 

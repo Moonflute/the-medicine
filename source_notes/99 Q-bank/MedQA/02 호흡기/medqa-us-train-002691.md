@@ -16,7 +16,7 @@ related_diseases:
   - "nasal polyps"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yVhOyKpO2UvOumsCDqs7zrr7zshLEg7LKc7IudLm1k
-question_type: diagnosis
+question_type: prevention
 difficulty: simple
 answer: B
 translation_status: machine-verified
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-비염 병력이 있는 48세 남성이 2일간 호흡곤란과 천명으로 내원했다. 한 주 전 무릎 통증으로 나프록센을 시작했으며 비강폴립이 있고 깊게 숨을 들이쉴 때 양쪽 요골맥박이 사라진다. 다음 중 신체검사 소견의 가장 가능성 높은 원인은?
+48세 남성이 천식과 재발하는 비강용종으로 치료 중이다. 무릎 통증으로 나프록센을 복용한 뒤 한 시간 이내에 코막힘과 천명이 생겼다. 이전 이부프로펜 복용 때도 같은 반응이 있었다. 천식 악화가 가라앉은 뒤 재발을 피하는 방법은?
 
 ## 선택지
 
-A. 폐고혈압
-B. 천식
-C. 폐색전증
-D. 심장눌림증
+A. 나프록센 대신 이부프로펜을 복용하면 안전하다
+B. 나프록센·이부프로펜 등 강한 COX-1 억제제를 피하고 대체 진통제를 상의한다
+C. 모든 진통제가 같은 반응을 일으키므로 치료법이 없다
+D. 항히스타민제를 먹으면 나프록센을 언제든 다시 복용할 수 있다
 
 ## 해설
 
-비염·비강폴립 환자에서 naproxen 투여 후 천명이 나타나 NSAID 악화 호흡기질환을 시사한다. Naproxen은 aspirin 그 자체는 아니지만 COX-1 억제로 교차 반응을 유발할 수 있다. 심한 천식 악화에서 흡기 시 수축기 혈압이 과도하게 떨어지는 기이맥이 나타날 수 있어 B가 가장 적절하다. 기이맥이 심장눌림증에만 특이적인 소견은 아니다.
+천식, 비강용종과 여러 COX-1 억제제에 대한 호흡기 반응은 NSAID 악화 호흡기질환을 시사한다. 성분이 다른 약끼리도 교차 반응할 수 있다. 필요한 진통제나 항혈소판제는 전문 평가를 통해 안전한 대안을 정한다.
 
 ## 검수 근거
 
@@ -62,3 +62,5 @@ D. 심장눌림증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002691
+- https://new.lungkorea.org/board/guide/view/14959
+- https://ginasthma.org/2026-gina-strategy-report/

@@ -16,6 +16,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 남성이 2주간의 피로, 무기력증, 하지 부종으로 내원하였다. 환자는 소변 색이 평소보다 어둡게 변한 것을 관찰하였으며, 최근 2일간 소변량이 감소하였다. 체온은 37.5°C, 맥박은 88회/분, 호흡수는 15회/분, 혈압은 154/98 mm Hg이다. 신체 검진상 양측 정강이 부위에서 2+의 부종이 관찰된다. 검사실 소견은 다음과 같다: 혈색소 10.9 g/dL, 백혈구 수 8200/mm3, 혈소판 수 220,000/mm3. 혈청: Na+ 137 mEq/L, Cl- 102 mEq/L, K+ 4.8 mEq/L, HCO3- 22 mEq/L, 포도당 85 mg/dL, 요소질소 34 mg/dL, 크레아티닌 1.4 mg/dL. 소변: 혈액 2+, 단백질 3+, 포도당 음성, 적혈구 10–12/HPF(이형성 적혈구 포함), 적혈구 원주 다수. 신장 생검 결과 사구체 내 초승달 형성(crescent formation)과 모세혈관외 세포 증식이 관찰된다. 다음 중 가장 적절한 다음 치료 단계는 무엇인가?
+25세 남성이 2주간의 피로, 무기력증, 하지 부종으로 내원하였다. 환자는 소변 색이 평소보다 어둡게 변한 것을 관찰하였으며, 최근 2일간 소변량이 감소하였다. 체온은 37.5°C, 맥박은 88회/분, 호흡수는 15회/분, 혈압은 154/98 mm Hg이다. 신체 검진상 양측 정강이 부위에서 2+의 부종이 관찰된다. 검사실 소견은 다음과 같다: 혈색소 10.9 g/dL, 백혈구 수 8200/mm3, 혈소판 수 220,000/mm3. 혈청: Na+ 137 mEq/L, Cl- 102 mEq/L, K+ 4.8 mEq/L, HCO3- 22 mEq/L, 포도당 85 mg/dL, 요소질소 34 mg/dL, 크레아티닌 1.4 mg/dL. 소변: 혈액 2+, 단백질 3+, 포도당 음성, 적혈구 10–12/HPF(이형성 적혈구 포함), 적혈구 원주 다수. 신장 생검 결과 사구체 내 초승달 형성(crescent formation)과 모세혈관외 세포 증식이 관찰된다. 가장 적절한 다음 치료 단계는 무엇인가?
 
 ## 선택지
 

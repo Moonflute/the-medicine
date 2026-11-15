@@ -19,7 +19,7 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 동물원 사육사가 한 달 동안 지속된 마른기침, 발열, 오한으로 내원했다. 근무일이 끝날 때마다 증상이 몇 시간씩 반복되고 항상 피곤하다고 한다. 다양한 조류를 돌보는 일을 하며 그 외에는 건강하고 여행이나 외상은 없다. 과거력과 복용 약물은 없고 흡연과 음주도 하지 않는다. 땅콩, 먼지, 꽃가루 알레르기가 있고 가족 중 소아 천식이 있다. 흉부 X선에서 양쪽 하폐야에 미만성 혼탁이 보이고 PPD 피부검사는 음성이다. 가장 적절한 치료는?
+25세 조류 사육사가 새 우리를 청소한 뒤 수 시간마다 마른기침과 숨참이 반복된다고 한다. 며칠 일을 쉬면 호전되고, 고해상도 CT에서 소엽중심성 간유리 결절과 공기포획이 보인다. 조류 항원에 의한 과민성 폐렴으로 판단했다. 재발을 줄이기 위한 가장 중요한 조치는?
 
 ## 선택지
 
-A. 흉강천자
-B. 흡입 베클로메타손
-C. 조류 노출 회피
-D. 6개월간 이소니아지드
+A. 흡입 스테로이드만 시작하고 노출을 유지한다
+B. 가정에서 산소요법부터 시작한다
+C. 작업 조정 등을 통해 조류 항원 노출을 피한다
+D. 항생제를 예방적으로 복용한다
 
 ## 해설
 
 
-조류 사육자 폐는 조류 항원에 대한 과민반응으로 발생하며, 증상은 항원 회피만으로 호전된다. 따라서 가장 적절한 치료는 조류 노출 회피이다.
+과민성 폐렴에서는 원인 항원을 찾아 노출을 차단하는 것이 치료의 기본이다. 증상이 심하거나 섬유화가 있는 경우에는 약물치료를 별도로 평가하며 항원 회피만으로 항상 회복되는 것은 아니다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 6개월간 이소니아지드
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000120
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12235292/

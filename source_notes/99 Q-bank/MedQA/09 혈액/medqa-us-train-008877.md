@@ -15,11 +15,11 @@ related_diseases:
   - "gastric carcinoma"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-yVheyEsSDruYjtmIggKFBlcm5pY2lvdXMgQW5lbWlhKS5tZA
-question_type: prognosis
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-47세 남성이 4개월 동안 서서히 시작된 피로로 내원했다. 호흡곤란과 집중 곤란도 있고 친구들은 창백해 보인다고 한다. 20년 동안 하루 한 갑을 피웠으나 음주는 하지 않는다. 활력징후는 정상이다. 신경학적 검사에서 양쪽 발가락의 가벼운 촉각과 핀prick 감각이 감소되어 있다. 혈색소 8.2g/dL, MCV 108μm³, 백혈구 4,200/mm³, TSH 2.6μU/mL, 철분 67μg/dL, 비타민 B12 51ng/L(정상 170~900), 엽산 13ng/mL이다. 방사성 비타민 B12를 경구 투여한 뒤 비방사성 비타민 B12를 근육주사하고 24시간 소변을 수집했으나 소변 B12는 변하지 않았다. 경구 내인자와 함께 반복하자 24시간 소변 B12가 증가했다. 다음 중 이 환자에서 위험이 증가하는 것은 무엇인가?
+비타민 B12 결핍과 항내인자 항체 양성으로 자가면역 위염에 의한 악성빈혈을 새로 진단했다. 최근 위내시경을 받은 적은 없다. B12를 보충하는 것 외에 할 위 평가로 적절한 것은?
 
 ## 선택지
 
-A. 제2형 당뇨병
-B. 셀리악병
-C. 드퀘르벵 갑상선염
-D. 위암
+A. 신경 증상이 회복되면 위 평가는 하지 않는다
+B. 복부 단순 X선으로 위 점막을 평가한다
+C. 종양 표지자만 확인해 위종양을 배제한다
+D. 위내시경과 부위별 조직검사로 위축 범위와 동반 병변을 평가한다
 
 ## 해설
 
 
-악성 빈혈(악성 위축성 위염) 환자는 내인자 결핍으로 비타민 B12 흡수가 저하되어 위암 위험이 증가한다. 따라서 위암이 가장 위험이 증가하는 질환이다.
+악성빈혈은 진행된 자가면역 위염의 한 모습이다. 최근 내시경 평가가 없다면 위축 범위와 위암·신경내분비종양 같은 동반 병변을 내시경과 조직검사로 확인한다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 위암
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008877
+- https://gastro.org/clinical-guidance/diagnosis-and-management-of-atrophic-gastritis/
+- https://www.esge.com/management-of-epithelial-precancerous-conditions-and-early-neoplasia-of-the-stomach-maps-iii-esge-ehmsg-esp-guideline-update-2025

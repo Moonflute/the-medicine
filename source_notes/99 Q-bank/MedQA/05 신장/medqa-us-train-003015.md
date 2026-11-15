@@ -16,11 +16,11 @@ related_diseases:
   - "latent period after pharyngitis"
 related_disease_slugs:
   - MDUg7Iug7J6lL-yXsOyHhOyDgeq1rOq3oCDqsJDsl7wg7ZuEIOyCrOq1rOyytOyLoOyXvCAoUFNHTikgKFBvc3QtU3RyZXB0b2NvY2NhbCBHbG9tZXJ1bG9uZXBocml0aXMpLm1k
-question_type: diagnosis
+question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-11세 여아가 하루 동안 거품이 섞인 갈색 소변을 보아 내원했다. 특별한 병력과 복용 약물은 없다. 반 친구 여러 명이 아팠고 약 2주 전 심한 인후통과 발열이 있었다. 혈압 146/94 mmHg, 심박수 74회/분, 호흡수 14회/분이다. 혈청 크레아티닌 상승, 적혈구 원주를 동반한 혈뇨, 현성 단백뇨가 아닌 요단백 상승이 있다. 건강해 보이고 복부와 늑골척추각 압통은 없다. 다음 중 가장 가능성 높은 진단은?
+11세 여아가 인두염 2주 뒤 갈색 소변과 부종으로 내원했다. C3가 낮고 항스트렙톨리신 O가 상승했다. 소변량은 줄고 혈압이 높지만 고칼륨혈증이나 응급 투석 적응증은 없고 폐부종도 없다. 부종과 혈압에 대한 초기 치료는?
 
 ## 선택지
 
-A. 알포트증후군
-B. 막증식성 사구체신염
-C. 연쇄상구균 감염 후 사구체신염
-D. 헤노흐-쇤라인 자반증
+A. 고용량 정맥 메틸프레드니솔론부터 시작한다
+B. 수액을 다량 공급하고 혈압을 관찰한다
+C. 나트륨·수분을 제한하고 체액 과다에 루프 이뇨제를 사용한다
+D. 예방 목적으로 혈장교환을 시행한다
 
 ## 해설
 
 
-인후통 후 2주 이내에 혈뇨와 단백뇨, 고혈압이 나타나는 것은 사후 연쇄상구균 사구체신염을 시사한다. 다른 사구체질환은 잠복기나 임상 양상이 다르다.
+전형적인 연쇄상구균 감염 후 사구체신염은 체액 과다와 혈압을 조절하는 지지치료가 중심이다. 잔존 연쇄상구균 감염 치료와 신기능·전해질 추적도 함께한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 헤노흐-쇤라인 자반증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003015
+- https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html

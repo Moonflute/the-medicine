@@ -19,7 +19,7 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,19 +32,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-25세 남성이 자동차 사고 후 응급실에 내원했다. 정면 충돌 당시 앞좌석 안전벨트를 착용한 운전자였다. 특별한 과거력은 없다. 활력징후는 안정화되었고 적절한 치료 후 퇴원했다. 추적 일차진료에서 왼발을 들어 올릴 수 없다고 호소하지만 그 외에는 건강하고 통증이 없다고 한다. 신체검사에서 왼발 발등굽힘 근력은 1/5, 같은 발의 발바닥굽힘은 5/5이다. 다음 중 초기에 가장 가능성 높은 손상은 무엇인가?
+무릎 바깥쪽을 다친 25세 남성이 발을 들지 못한다. 발등굽힘과 발의 바깥번짐이 약하고 발등 감각이 둔하지만, 발바닥굽힘과 안쪽번짐은 정상이다. 가장 의심할 손상은?
 
 ## 선택지
 
-A. 종골 골절
-B. 비골 경부 골절
-C. 리스프랑 골절
-D. 경골 고평부 골절
+A. 경골신경 손상
+B. 비골 목 부위 총비골신경 손상
+C. 대퇴신경 손상
+D. 상둔신경 손상
 
 ## 해설
 
 
-발등 굽힘(비골 신경 지배) 근력이 현저히 감소하고 발바닥 굽힘(정강신경 지배) 근력은 보존된 경우, 비골 경부 골절이 비골 신경을 손상시켜 발목 위쪽 근육 마비를 일으킨다. 따라서 비골 경부 골절이 초기 손상으로 가장 가능성 높다.
+총비골신경은 비골 목 주위를 지나 무릎 가쪽 외상에 취약하다. 발등굽힘과 바깥번짐이 약하고 안쪽번짐은 보존되면 총비골신경 병변을 시사한다.
 
 ## 출처
 

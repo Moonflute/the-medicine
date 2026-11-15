@@ -14,11 +14,11 @@ related_diseases:
   - "약물 유발 혈관경련"
   - "국소 신경학적 결손"
   - "Ergotamine toxicity"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbzqs7zshLEg7ZeI7ZiIIOuwnOyekSAoVHJhbnNpZW50IGlzY2hlbWljIGF0dGFjaykubWQ
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-환자가 심한 두통으로 응급실에 왔다. 럭비 연습 후 1시간 전에 통증이 시작되었다. 평소 심한 두통에 특별한 약을 복용하지만 이번에는 두 번 복용해도 호전이 없었다. 기억나는 현재 약물은 수마트립탄과 나프록센이다. 최근 공황발작과 자살 시도로 여러 번 입원했다. 체온 99.2°F(37.3°C), 혈압 129/65 mmHg, 맥박 90회/분, 호흡 15회/분, 산소포화도 98%였다. 디히드로에르고타민, 정맥 수액, 100% 산소를 투여했지만 2시간 후 말이 어눌해지고 왼쪽 입이 처졌으며 왼쪽 상지 근력은 2/5였다. 두부 CT를 시행할 예정이다. 현재 증상의 가장 가능성 높은 원인은?
+43세 환자가 이전과 같은 편두통 발작의 급성기 약을 상담한다. 2년 전 허혈성 뇌졸중을 겪었다. 이 병력 때문에 피해야 할 약은?
 
 ## 선택지
 
-A. 출혈성 뇌졸중
-B. 혈전으로 인한 허혈성 뇌졸중
-C. 약물 반응
-D. 심인성 증상
+A. 수마트립탄
+B. 아세트아미노펜
+C. 메토클로프라미드
+D. 나프록센
 
 ## 해설
 
-정답은 C, 약물 반응이다. 수마트립탄을 복용한 뒤 디히드로에르고타민을 투여하면 혈관수축 효과가 중첩되어 혈관연축·허혈 위험이 증가한다. 두 약은 서로 24시간 이내 병용이 금기이다. 핵심은 수마트립탄–에르고트 상호작용이며, 나프록센을 같은 기전의 혈관수축제로 설명해서는 안 된다. 새로 생긴 국소 신경결손은 실제 뇌졸중 응급 평가가 필요하고, 약물 반응이라는 추정만으로 영상이나 치료를 지연해서는 안 된다.
+트립탄은 혈관수축 작용이 있어 뇌졸중이나 일과성 허혈발작 병력에서는 금기다. 항혈소판제 복용이나 신장·위장관 위험 등도 함께 확인해 대안을 정한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 심인성 증상
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000886
+- https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=201900721

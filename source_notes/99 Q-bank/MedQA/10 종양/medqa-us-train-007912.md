@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
 question_type: diagnosis
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,19 +40,19 @@ related_drug_slugs:
 
 ## 문제
 
-54세 남자가 3주 동안 지속된 복부 팽만으로 응급실에 왔다. 오심과 식욕 감소를 동반한 전반적인 복부 불편감도 있다. 3개월 전 서혜부 탈장 수술 후 합병증 없이 퇴원했다. 제2형 당뇨병, 울혈성심부전, 치료받지 않은 C형간염이 있다. 복용 약물은 아스피린, 아토르바스타틴, 메토프롤롤, 리시노프릴, 메트포르민이다. 아버지는 알코올성 간질환이 있었고 30년간 하루 한 갑을 피우다 5년 전 금연했다. 매일 맥주 3~4병을 마신다. 악액질로 보이며 활력징후는 정상이다. 복부가 팽창하고 이동성 탁음이 있으나 압통이나 종괴는 없다. 우하복부에 잘 아문 수술 흉터가 있고 심폐 진찰은 정상이다. 양측 하지에 1+ 비함요성 부종이 있다. 진단적 복수천자를 시행했다. 혈액에서 알부민 3.5 g/dL, 총 단백 5.8 g/dL이고 복수는 탁하며 세포수 550/mm³(림프구 우세), 총 단백 3.5 g/dL, 알부민 2.6 g/dL, 포도당 60 mg/dL, 중성지방 360 mg/dL이다. 그람염색은 음성이고 배양과 세포검사는 대기 중이다. 이 환자 증상의 가장 가능성 높은 원인은?
+54세 남성이 새로 생긴 복부팽만으로 진단적 복수천자를 받았다. 복수는 우윳빛이고 림프구가 우세하다. 복수 중성지방은 360 mg/dL, 혈청-복수 알부민 차이(SAAG)는 0.9 g/dL이다. 우윳빛과 고중성지방을 설명하는 소견은?
 
 ## 선택지
 
-A. 최근 수술
-B. 림프종
-C. 그람양성균 감염
-D. 급성 비대상성 심부전
+A. 담즙성 복수
+B. 혈성 복수
+C. 유미성 복수
+D. 췌장성 복수
 
 ## 해설
 
 
-복수 triglyceride360 mg/dL와 림프구 우세는 chylous ascites를 시사한다. SAAG는 혈청3.5−복수2.6=0.9 g/dL로 문맥고혈압성 복수보다 낮은 gradient이다. 악액질을 동반한 비외상성 chylous ascites에서 림프종의 림프 흐름 폐쇄가 보기 중 가장 부합하여 B이다. 간염·음주 병력만으로 간경변성 복수를 확정하지 않으며 최근 단순 서혜부 수술보다 전신 악성 원인을 우선 평가한다. 배양·cytology 및 영상으로 원인을 확인한다. 기존 무월경 설명은 이 사례와 무관하다.
+중성지방이 풍부한 림프액이 복강에 차면 유미성 복수가 된다. 비외상성이고 SAAG가 낮다면 림프종 등 림프 흐름을 막는 원인을 찾아야 하며 이 수치만으로 림프종을 확진할 수는 없다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ D. 급성 비대상성 심부전
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007912
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10152612/

@@ -14,11 +14,11 @@ related_diseases:
   - "자해"
   - "비밀보장의 예외"
   - "Major depressive disorder"
-question_type: ethics
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,24 +35,26 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-우울증 병력이 있는 17세 백인 여성이 평소와 다르게 행동한다며 부모와 함께 진료실에 왔다. 조용히 있고 성격 변화나 약물 사용은 부인한다. 부모가 나가 둘만 있게 되자 울기 시작한다. 학교생활이 매우 힘들고 지난 2개월 동안 심하게 우울했다고 말한다. 부모와 코치의 압박을 많이 받고 더 이상 감당할 수 없다고 한다. 일주일 전부터 손목을 베고 있으며 자살할 계획이라고 말한다. 말한 것을 즉시 후회하며 부모에게 알리지 말아 달라고 애원한다. 다음 중 가장 적절한 조치는 무엇인가?
+17세 청소년이 단독 면담에서 가까운 시일에 자살할 구체적인 계획이 있다고 말한다. 보호자는 안전한 지원 인물이지만, 청소년은 절대로 알리지 말아 달라고 한다. 적절한 대응은?
 
 ## 선택지
 
-A. 항우울제를 처방하고 귀가시킨다
-B. 자신에게 급성 위해를 가할 위험이 있으므로 입원해야 한다고 설명한다
-C. 부모에게 상황을 알리고 가족이 해결하도록 한다
-D. 항정신병 약물을 처방한다
+A. 비밀 유지를 약속하고 혼자 귀가시킨다
+B. 보호자에게 이야기하되 진료는 끝내고 가족에게만 맡긴다
+C. 안전을 위한 비밀보장의 한계를 설명하고, 필요한 정보만 안전한 보호자·진료팀과 공유하며 응급 평가를 연결한다
+D. 비밀 요청을 무시하고 평가와 관계없는 정보도 학교에 모두 알린다
 
 ## 해설
 
 
-환자는 자살 위험이 명백히 존재하고 즉시 자신에게 해를 끼칠 가능성이 있다. 이러한 경우 보호를 위해 입원이 필요하며, 이는 비밀보장의 예외에 해당한다. 다른 선택지는 위험을 충분히 차단하지 못한다.
+당장 심각한 위해를 막기 위해 필요한 보호자·진료팀에 최소한의 정보를 공유하고 응급평가를 진행한다. 가능한 한 청소년에게 이유와 범위를 설명하며, 가족이 위험의 원인이면 다른 보호 경로를 찾는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005645
+- https://www.nice.org.uk/guidance/ng225/chapter/Recommendations
+- https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1030469067
 
 ## 검수 근거
 

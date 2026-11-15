@@ -17,9 +17,9 @@ related_diseases:
 question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-22세 여자가 한 달 동안 양측 유방에서 연한 녹색빛의 우유 같은 분비물이 나와 내원했다. 유즙분비, 갑상샘기능저하증과 편두통이 있으며 월경과 프로락틴은 정상이고 임신검사는 음성이다. 다음 중 가장 적절한 처치는?
+22세 여성의 양쪽 유두 여러 곳에서 눌렀을 때만 우윳빛 분비물이 나온다. 혈액은 섞이지 않고 종괴도 없다. 임신검사, 프로락틴, 갑상샘기능과 신기능은 정상이다. 적절한 관리는?
 
 ## 선택지
 
-A. 양측 유방 관조영술
-B. 양측 유방촬영술
-C. 양측 유방 초음파
-D. 안심시키고 유두 자극을 피하도록 권고
+A. 유두를 반복해서 짜지 않도록 설명하고 분비 양상이 바뀌면 재평가한다
+B. 한쪽 유관을 바로 절제한다
+C. 모든 유즙 분비에 뇌하수체 MRI를 시행한다
+D. 프로락틴이 정상이어도 도파민 작용제를 바로 시작한다
 
 ## 해설
 
 
-양측 유방에서 무색·우유 같은 분비물이 나타나고 프로락틴이 정상인 경우, 이는 생리적 유즙분비(갤락토리아)이며, 자극을 피하고 안심시키는 것이 치료이다. 영상검사나 약물 치료는 필요하지 않다. 따라서 안심하고 유두 자극을 피하도록 권고한다.
+양쪽 여러 유관에서 눌러야만 나오는 비혈성 분비물은 생리적인 양상이다. 한쪽 단일 유관에서 자발적으로 피가 섞여 나오거나 종괴가 생기면 별도로 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005458
+- https://pubmed.ncbi.nlm.nih.gov/36436958/

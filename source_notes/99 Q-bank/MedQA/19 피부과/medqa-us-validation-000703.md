@@ -13,13 +13,13 @@ related_diseases:
   - "구강 백반증"
   - "흡연"
   - "편평세포암 위험"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-31세 여성이 통증이나 가려움이 없는 구강의 흰색 병변으로 진료를 받으러 왔다. 천식으로 흡입 코르티코스테로이드를 사용하고 흡연하며, 병변은 협점막과 경구개에 단단히 붙어 긁어도 떨어지지 않는다. 가장 적절한 다음 처치는?
+흡연하는 환자의 혀 옆면에 6주째 긁어도 떨어지지 않는 흰 반점이 있다. 치아 자극을 없앤 뒤에도 그대로이고 일부는 단단하다. 적절한 다음 조치는?
 
 ## 선택지
 
-A. 국소 니스타틴
-B. 병변 생검
-C. 금연
-D. 병변 배양
+A. 닦이지 않아도 칸디다증으로 단정하고 항진균제만 반복한다
+B. 금연만 권하고 1년 뒤 확인한다
+C. 구강 세균 배양으로 이형성을 배제한다
+D. 구강 전문진료에 의뢰해 조직검사로 이형성이나 암을 확인한다
 
 ## 해설
 
 
-구강 백반증은 악성 변화를 배제하기 위해 조직학적 확인이 필요하므로, 병변에 대한 생검이 가장 적절한 다음 단계이다.
+지속되는 비박리성 백반, 특히 혀 옆면의 경결은 이형성·악성 병변을 배제해야 한다. 금연 상담도 하되 조직 진단을 지연하지 않는다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 병변 배양
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000703
+- https://www.ada.org/resources/research/science/evidence-based-dental-research/oral-cancer-guideline/

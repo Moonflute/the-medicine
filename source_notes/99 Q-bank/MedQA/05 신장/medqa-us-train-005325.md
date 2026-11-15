@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ
 question_type: management
 difficulty: complex
-answer: "C"
+answer: C
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -42,18 +42,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-32세 남자가 2주 동안 기침, 호흡곤란과 객혈, 3개월 동안 피로로 내원했다. 빈혈, 폐 수포음, 크레아티닌 2.3 mg/dL, 항사구체기저막 항체 양성, 혈뇨와 적혈구 원주가 있다. 프레드니손과 사이클로포스파미드를 시작했다. 다음 중 가장 적절한 처치는?
+32세 남성에게 폐포출혈과 사구체신염이 있고 항사구체기저막 항체가 양성이다. 글루코코르티코이드와 사이클로포스파미드를 시작했다. 순환 항체를 빠르게 제거하기 위해 병행할 치료는?
 
 ## 선택지
 
-A. 흡입 플루티카손
-B. 혈액투석
+A. 혈액투석
+B. 정맥 면역글로불린
 C. 혈장교환
-D. 에날라프릴
+D. 흡입 스테로이드
 
 ## 해설
 
-객혈·폐침윤과 혈뇨·적혈구 원주·신기능 저하, anti-GBM 항체 양성은 항GBM 폐-신장 증후군을 지지한다. Glucocorticoid·cyclophosphamide에 혈장교환을 더해 순환 anti-GBM 항체를 제거한다. 이는 전형적인 면역복합체 침착 질환이 아니며 신기능 회복을 보장하는 치료라는 뜻도 아니다.
+항사구체기저막 질환에서 폐포출혈이 있으면 면역억제에 혈장교환을 병행해 순환 항체를 제거한다. 투석은 신부전의 합병증을 관리하지만 항체 제거 목적의 혈장교환을 대신하지 않는다.
 
 ## 검수 근거
 
@@ -66,6 +66,7 @@ D. 에날라프릴
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005325
+- https://kdigo.org/guidelines/gd/
 
 ## 오답 포인트
 

@@ -14,11 +14,11 @@ related_diseases:
   - "molar pregnancy"
   - "high beta-hCG"
   - "bilateral ovarian enlargement"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-2PrOyDgeq4sO2DnCAoTW9sYXIgUHJlZ25hbmN5KS5tZA
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 G2P0A2 여성이 가벼운 질 출혈로 내원했다. 2주 전 빈 임신낭으로 흡인 소파술을 받았고 병리에서 태아 조직 없이 증식성 수포성 영양막 융모가 보였다. 현재 베타-hCG는 101,005 mIU/mL로 2주 전 63,200보다 상승했다. 골반 초음파에서 양쪽 난소가 커져 있고 2~3 cm 크기의 얇은 벽 낭종이 여러 개 보였다. 다음 중 부속기 종괴의 가장 가능성 높은 원인은?
+완전 포상기태를 제거한 뒤 혈청 hCG가 꾸준히 감소한다. 초음파에서 양쪽 난소가 여러 개의 얇은 벽 낭종으로 커져 있지만 통증·염전·출혈은 없다. 난소 병변의 관리는?
 
 ## 선택지
 
-A. 황체 낭종
-B. 자궁외 임신
-C. 자궁내막종
-D. 난포막 황체 낭종
+A. 악성 난소종양으로 간주해 바로 양측 난소를 제거
+B. 증상을 기다리지 않고 양쪽 난소를 응급 수술
+C. hCG 추적을 이어가고 난포막황체낭종의 자연 소실을 관찰
+D. 낭종이 없어질 때까지 예방적 항암치료
 
 ## 해설
 
-태아 조직 없이 수종성 융모와 영양막 증식이 있고 hCG가 매우 높은 경과는 포상기태성 임신을 시사한다. 높은 hCG가 난소를 자극하면 양측성·다발성 난포막황체낭종(theca lutein cysts)이 생길 수 있어 D가 적절하다. 이는 단일 황체낭종이나 자궁내막종과 구별된다. 소파술 후 hCG 상승에 대한 후속 진료 방침을 이 기전 문항만으로 정한 것은 아니다.
+높은 hCG가 난소를 자극해 양측 난포막황체낭종을 만들 수 있다. 합병증이 없으면 대부분 난소를 보존하며 추적하고, 낭종은 hCG보다 늦게 줄 수 있다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 난포막 황체 낭종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003529
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7813445/

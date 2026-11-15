@@ -13,7 +13,7 @@ related_diseases:
   - "수근관증후군"
   - "정중신경"
   - "C5-T1 신경근"
-question_type: localization
+question_type: management
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 difficulty: standard
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 오른손잡이 여성이 양손 특히 세 번째 손가락의 야간 저림과 감각이상으로 진료를 받으러 왔다. 양쪽 무지구 위축, 첫 세 손가락 감각저하, 엄지 외전·대립 약화, 양성 Phalen 및 Tinel 검사가 있다. 이 환자의 침범 신경에 기여하는 척수신경 뿌리의 가장 포괄적인 조합은?
+55세 여성이 야간에 시작된 엄지·검지·중지 저림이 이제 낮에도 지속된다고 한다. 무지구가 위축됐고 엄지를 맞대는 힘이 약하다. 중립 보조기로 호전되지 않았다. 다음 조치는?
 
 ## 선택지
 
-A. C4, C5
-B. C6, C7, C8
-C. C3, C4, C5
-D. C5, C6, C7, C8, T1
+A. 보조기를 계속 쓰고 1년 뒤 근력을 확인한다
+B. 수술 평가 대신 전신 스테로이드를 장기 투여한다
+C. 목에 증상이 없어도 경추 견인을 우선한다
+D. 중증도를 평가하고 손목터널 감압술을 위해 의뢰한다
 
 ## 해설
 
-수근관증후군은 손목의 정중신경 압박이다. 이 신경 자체에 기여할 수 있는 가장 포괄적인 척수신경근 조합을 묻는 선택지에서는 C5~T1(D)이 맞다. 이것이 환자에게 C5~T1의 모든 신경근병증이 있다는 뜻은 아니다. 무지구 약화와 정중신경 감각분포 증상은 손목 부위 말초신경 병변으로 설명한다.
+무지구 위축과 엄지 대립 약화는 진행한 정중신경 손상의 단서다. 필요한 경우 신경전도검사로 중증도를 확인하고 감압술 평가를 미루지 않는다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. C5, C6, C7, C8, T1
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000603
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11928260/

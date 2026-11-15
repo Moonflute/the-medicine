@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-31세 여성이 주요우울장애로 진단되어 3개월 전 시탈로프람을 시작했다. 6주 전 한 차례 용량을 늘렸으며 이제 우울감, 울음, 불면이 사라지고 식욕과 직장 수행도 좋아졌다고 한다. 초기 두통과 설사는 더 이상 없다. 다음 중 가장 적절한 치료의 다음 단계는?
+31세 여성이 주요우울장애로 진단되어 3개월 전 시탈로프람을 시작했다. 6주 전 한 차례 용량을 늘렸으며 이제 우울감, 울음, 불면이 사라지고 식욕과 직장 수행도 좋아졌다고 한다. 초기 두통과 설사는 더 이상 없다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

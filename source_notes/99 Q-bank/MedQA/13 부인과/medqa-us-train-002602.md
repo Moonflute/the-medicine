@@ -14,13 +14,13 @@ related_diseases:
   - "female athlete triad"
   - "low bone density"
   - "osteoporosis"
-question_type: risk_factor
+question_type: investigation
 related_disease_slugs:
   - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-23세 여성이 무월경으로 내원했다. 원래 3개월마다 월경했으나 최근에는 전혀 하지 않는다. 대학 육상팀 선수이고 마른 근육질 체형이며 맥박 50회/분이다. 성생활, 음주, 약물, 흡연은 하지 않는다. 다음 중 이 환자에서 가장 가능성 높은 장기 결과는?
+23세 장거리 선수가 에너지 부족으로 기능성 시상하부성 무월경을 진단받았다. 8개월째 월경이 없고 최근 경골 피로골절이 확인됐다. 영양·훈련 조정과 함께 골 건강을 평가할 검사는?
 
 ## 선택지
 
-A. 자궁내막암
-B. 불임
-C. 골관절염
-D. 골다공증
+A. 골반 단순촬영
+B. 자궁내막 두께 초음파
+C. 이중에너지 X선 흡수계측(DXA)
+D. 혈중 칼슘 농도만 측정
 
 ## 해설
 
 
-기능성 시상하부 무월경은 에스트로겐 결핍으로 골밀도 감소를 초래한다. 장기적인 결과는 골다공증 위험 증가이다. 따라서 가장 가능성 높은 장기 결과는 골다공증이다.
+무월경이 6개월 이상이면 기저 골밀도 평가를 고려한다. 피로골절이나 뚜렷한 영양 결핍이 있으면 더 일찍 시행할 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002602
+- https://www.endocrine.org/clinical-practice-guidelines/hypothalamic-amenorrhea

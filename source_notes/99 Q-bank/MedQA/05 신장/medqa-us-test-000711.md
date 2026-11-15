@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tnaHsiJjsnqXslaAubWQ
   - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
-question_type: mechanism
+question_type: prevention
 difficulty: standard
 answer: C
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-62세 남성이 오른쪽 요통, 메스꺼움, 짙은 소변으로 응급실에 왔다. 지난 2일 동안 소변량이 감소했다가 일시적으로 증가하는 일이 반복되었다. 지난 1년 동안 요로감염을 두 번 앓았고 크론병으로 5년 전 소장절제술을 받았다. 메살라민과 종합비타민을 복용하며 아버지는 신장결석이 반복되었다. 활력징후는 정상이었고 오른쪽 늑골척추각 압통이 있었다. 요검사에서 적혈구 70개/고배율 시야와 봉투 모양 결정이 보였다. 복부 CT에서 오른쪽 근위 요관에 6 mm 결석과 왼쪽 신장에 4 mm 결석 두 개가 보였다. 현재 상태에 가장 크게 기여한 요인은?
+크론병으로 소장을 절제한 환자에게 지방변과 반복되는 칼슘옥살산 결석이 있다. 24시간 소변에서 옥살산 배설이 높다. 결석 재발 위험을 낮추기 위한 식사 지침은?
 
 ## 선택지
 
-A. 부갑상샘 선종
-B. 비타민 D 과다
-C. 지방산 흡수장애
-D. 높은 소변 pH
+A. 식이 칼슘을 가능한 한 모두 제한한다
+B. 고옥살산 식품을 늘린다
+C. 정상량의 칼슘을 식사와 함께 섭취하고 고옥살산 식품을 줄인다
+D. 단백질과 소금을 늘린다
 
 ## 해설
 
-소장 절제 뒤 지방 흡수장애(C)가 생기면 장내 유리 지방산이 칼슘과 결합한다. 그 결과 옥살산을 불용성으로 묶어줄 칼슘이 줄고, 유리 옥살산의 장 흡수와 요중 배설이 증가하여 옥살산칼슘 결석 위험이 높아진다. 봉투 모양 결정도 이에 합당하다. 지방산이 옥살산과 결합하여 흡수가 감소한다는 설명은 반대다.
+지방 흡수가 잘되지 않으면 지방산이 칼슘과 결합해 장에서 흡수되는 옥살산이 늘어난다. 식사와 함께 칼슘을 섭취하면 장 안의 옥살산을 결합해 흡수를 줄일 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 높은 소변 pH
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000711
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10330415/
+- https://uroweb.org/guidelines/urolithiasis/chapter/metabolic-evaluation-and-recurrence-prevention

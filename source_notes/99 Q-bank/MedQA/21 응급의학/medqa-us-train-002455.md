@@ -20,6 +20,7 @@ related_disease_slugs:
   - MDYg7JWM66CI66W06riwL-uRkOuTnOufrOq4sCAoVXJ0aWNhcmlhKS5tZA
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,7 +39,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-20세 여성이 공원에서 놀다가 전신 발진이 생겨 응급실에 왔다. 약간 어지럽고 평소 건강하며 과거력은 특이사항이 없다. 혈압 84/54 mmHg, 맥박 130회/분, 호흡 22회/분, 산소포화도 95%이며 양측 천명과 미만성 두드러기가 있다. 다음 중 가장 적절한 치료의 다음 단계는?
+20세 여성이 공원에서 놀다가 전신 발진이 생겨 응급실에 왔다. 약간 어지럽고 평소 건강하며 과거력은 특이사항이 없다. 혈압 84/54 mmHg, 맥박 130회/분, 호흡 22회/분, 산소포화도 95%이며 양측 천명과 미만성 두드러기가 있다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

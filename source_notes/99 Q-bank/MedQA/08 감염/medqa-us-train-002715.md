@@ -18,11 +18,11 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIO2YiO2WieyEsSDqs6jsiJjsl7wgKEFjdXRlIEhlbWF0b2dlbm91cyBPc3Rlb215ZWxpdGlzKS5tZA
   - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
   - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
-question_type: diagnosis
+question_type: management
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-7세 남아가 부모와 함께 응급실에 왔다. 지난 하루 동안 걷기 힘들어했고 오늘 아침에는 전혀 걷지 않으려 한다. 과거력으로 천식이 있으며 알부테롤로 치료 중이다. 체온은 38.9°C, 혈압은 77/48 mmHg, 맥박은 150회/분, 호흡수는 17회/분, 실내 공기 산소포화도는 98%이다. 검사 결과는 다음과 같다: 혈색소 10 g/dL, 헤마토크리트 36%, 백혈구 13,500/mm³(감별계수 정상), 혈소판 197,000/mm³. 허벅지와 무릎의 MRI에서 원위 대퇴골의 부종과 피질 파괴가 보인다. 다음 중 이 환자에서 가장 가능성 높은 감염 원인균은?
+7세 아이가 고열과 심한 허벅지 통증, 저혈압으로 왔다. MRI에서 원위 대퇴골 급성 골수염과 큰 골막하 농양이 보인다. 수액과 경험적 정맥 항생제를 시작한 뒤 추가할 처치는?
 
 ## 선택지
 
-A. 녹농균
-B. 살모넬라균종
-C. 황색포도상구균
-D. 표피포도상구균
+A. 정형외과에 즉시 협진해 농양 배액 및 변연절제를 평가한다
+B. 혈액배양이 음성이면 배액 없이 항생제를 중단한다
+C. 걸을 수 있을 때까지 소염제만 투여한다
+D. 농양이 있어도 항생제 치료를 끝낸 뒤 수술을 논의한다
 
 ## 해설
 
 
-소아 급성 혈행성 골수염은 대퇴골 원위부에서 흔히 발생하며, 가장 흔한 원인균은 황색포도상구균(Staphylococcus aureus)이다. 기타 균은 상대적으로 드물다. 따라서 가장 가능성 높은 병원체는 황색포도상구균이다.
+패혈증을 동반한 소아 급성 혈행성 골수염에 배액 가능한 농양이 있으면 신속한 감염원 조절이 필요하다. 항생제와 소생술을 하면서 정형외과 평가를 지연하지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 표피포도상구균
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002715
+- https://www.idsociety.org/practice-guideline/bone-and-joint-infections---osteomyelitis/

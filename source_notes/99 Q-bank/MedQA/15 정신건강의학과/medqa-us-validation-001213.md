@@ -14,10 +14,10 @@ related_diseases:
   - "피해망상"
   - "가족성 망상"
   - "Shared psychotic disorder"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs: []
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,24 +34,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 여성이 전남편에게 독살당하고 감시카메라로 감시당한다고 믿어 아들과 함께 응급실에 왔다. 독성검사는 음성이고 활력징후와 신체검사는 정상이다. 아들도 어머니의 의심에 동조하며 카메라 소리를 들었다고 한다. 가장 적절한 초기 처치는?
+어머니와 성인 아들이 함께 진료를 받으며, 확인되지 않은 감시를 당한다는 같은 믿음을 말한다. 현재 신체 응급상황은 없다. 한 사람의 경험이 다른 사람에게 영향을 미쳤는지 평가하기 위한 첫 접근은?
 
 ## 선택지
 
-A. 지프라시돈 치료
-B. 반복 경두개 자기자극
-C. 어머니와 아들을 따로 면담
-D. 당국에 신고
+A. 같은 믿음이므로 둘에게 같은 약을 즉시 처방한다
+B. 두 사람이 함께 이야기한 내용만으로 두 사람 모두 같은 진단을 내린다
+C. 증상 확인을 위해 한 사람에게 상대방을 설득하라고 한다
+D. 두 사람을 각각 면담해 믿음의 시작과 독립적인 증상, 안전 문제를 확인한다
 
 ## 해설
 
 
-공유정신병적 장애는 가족 구성원이 동일한 망상을 공유한다. 초기 단계에서는 환자와 가족을 별도로 면담해 독립적인 정신병적 증상을 평가하는 것이 가장 중요하다. 정답은 어머니와 아들을 따로 면담하는 것이다.
+가까운 두 사람이 같은 믿음을 보일 때는 독립적인 병력과 정신상태를 확인한다. 실제 피해나 환경적 설명, 문화적 맥락도 살피며 서로 같은 진단이라고 가정하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001213
+- https://www.nice.org.uk/guidance/cg178/chapter/recommendations
 
 ## 검수 근거
 

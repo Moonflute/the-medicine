@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-qzoO2ZmCDsooXslpEgKFRlc3RpY3VsYXIgY2FuY2VyKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 남자가 하루 동안 객혈, 피로와 2개월 동안 10 kg 체중감소로 내원했다. 경한 여성형 유방, 양측 폐의 간헐적 수포음, 오른쪽 고환의 압통과 비대, 혈청 β-hCG 상승이 있다. 가장 가능성 높은 진단은?
+26세 남성이 객혈로 내원했다. 흉부 영상에서 여러 폐 결절이 보이고, 진찰에서 여성형유방과 단단한 오른쪽 고환 종괴가 발견됐다. 혈청 β-hCG도 뚜렷하게 상승했다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 고환염
-B. 정자낭종
-C. 고환 악성종양
-D. 음낭수종
+A. 급성 세균성 고환염
+B. 음낭수종
+C. 정계정맥류
+D. 고환 생식세포종양
 
 ## 해설
 
-오른쪽 고환의 고형 비투과성 종괴, beta-hCG 상승·여성형 유방과 체중감소는 C, 고환 악성종양을 시사한다. 객혈과 호흡기 증상은 혈행성 폐 전이를 고려하게 하며 hCG 분비가 두드러지는 융모막암 성분 등 비정상피종성 생식세포종양이 중요한 감별이다. 하지만 임상과 표지자만으로 조직형을 확정할 수 없다. 본문의 고환 비대는 오른쪽이며 양측으로 바꾸지 않는다.
+단단한 고환 종괴, 뚜렷한 β-hCG 상승과 폐 결절은 전이성 고환 생식세포종양을 의심하게 한다. β-hCG만으로 구체적 조직형을 확정할 수는 없다.
 
 ## 검수 근거
 

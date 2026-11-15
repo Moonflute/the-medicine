@@ -13,11 +13,11 @@ related_diseases:
   - "두부백선"
   - "피부사상균 감염"
   - "탈모"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-10세 여아가 3주간 지속된 두피의 원형 가려운 발진과 탈모를 걱정하는 어머니와 함께 내원했다. 과거력에 천식이 있으며 알부테롤 흡입기를 평균 일주일에 한 번 사용한다. 혈압 112/70 mmHg, 심박수 104회/분, 호흡수 20회/분, 체온 37.0°C이다. 의식이 명료하고 상호작용이 가능하며 양측 폐 청진은 깨끗하다. 오른쪽 뒤목에 압통이 있는 림프절이 만져진다. 두피 사진이 제시되어 있다. 가장 적절한 치료는 무엇인가?
+10세 아이에게 인설성 탈모반이 있고 모발 검사에서 트리코피톤에 의한 두부백선이 확인됐다. 필요한 초기 치료는?
 
 ## 선택지
 
-A. 트리암시놀론 피하주사
-B. 케토코나졸 샴푸
-C. 경구 독시사이클린
-D. 경구 테르비나핀
+A. 항진균 샴푸만 사용한다
+B. 경구 테르비나핀을 사용한다
+C. 국소 스테로이드만 사용한다
+D. 경구 독시사이클린을 사용한다
 
 ## 해설
 
-두피의 가려운 원형 병변·탈모 및 후경부 림프절은 두부백선(tinea capitis)을 지지한다. 모간·모낭 감염에는 전신 항진균제가 필요하여 선지 중 경구 terbinafine(D)이 적절하다. 균종·지역·검사 결과에 따라 약제를 선택·조정한다. 항진균 샴푸는 전파 감소의 보조 요법이며 단독 치료로 충분하지 않다.
+두부백선은 모발과 모낭까지 침범하므로 경구 치료가 필요하다. 트리코피톤에 테르비나핀을 사용할 수 있고 샴푸는 보조 치료다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 경구 테르비나핀
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004016
+- https://pubmed.ncbi.nlm.nih.gov/42444404/

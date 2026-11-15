@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-q4ieyEsSDtmLjtnaHqs6TrnoAg7Kad7ZuE6rWwIChBUkRTKSAoQWN1dGUgUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
 question_type: management
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-70세 남자가 습성 괴저에 합당한 발진과 악화되는 다리 통증으로 응급실에 왔다. 피부 감염 병력은 없지만 제2형 당뇨병이 있고 20년간 하루 담배 두 갑을 피웠다. 입원 3일 후 저산소혈증과 빈호흡이 심해져 응급 삽관하고 인공호흡을 시작했다. 키 180 cm, 체중 90 kg, BMI 27.8 kg/m², 맥박 112회/분, 혈압 95/60 mmHg이다. 인공호흡기 FIO₂ 100%, 일회호흡량 540 mL, 호흡수 20회/분, PEEP 5 cmH₂O이다. 폐에 전반적인 수포음이 있고 심장 진찰은 정상이다. 혈색소 11.5 g/dL, 혈청 젖산 4.0 mmol/L, 크레아티닌 2.5 mg/dL이다. 삽관 30분 후 ABG에서 PaCO₂ 50 mmHg, PaO₂ 55 mmHg이고 흉부 X선에서 새로운 양측 침윤이 보인다. 조직 산소 전달을 개선하기 위한 가장 적절한 다음 단계는 무엇인가?
+70세 남성이 패혈증 후 심한 ARDS로 기계환기를 받고 있다. 예측체중에 맞춰 일회호흡량을 6 mL/kg로 유지하고 PEEP를 최적화했는데도, FiO₂ 0.8에서 PaO₂가 62 mmHg이다. 순환은 안정적이고 체위 변경에 금기는 없다. 다음 호흡 보조 전략은?
 
 ## 선택지
 
-A. 환자를 복와위로 배치
-B. 일회호흡량 증가
-C. 호기말 양압 증가
-D. 적혈구 수혈
+A. 하루 16시간가량 복와위 환기를 시행한다
+B. 일회호흡량을 예측체중당 12 mL로 늘린다
+C. PEEP를 없애고 현재 FiO₂만 유지한다
+D. 기계환기를 중단하고 일반 비강 캐뉼라로 바꾼다
 
 ## 해설
 
-FiO2 1.0에서도 PaO2 55 mmHg인 중증 저산소혈증에서 PEEP 5 cmH2O는 낮아, C처럼 감시하에 PEEP를 조정하면 폐포 허탈과 단락을 줄일 수 있다. 과팽창과 혈압 저하를 피하며 예측체중 기준 저일회호흡량 환기를 유지한다. 중증 ARDS의 복와위는 생존 이득이 있는 병행 전략이므로 효과가 제한적이라고 배제하지 않는다. Hb 11.5 g/dL만으로 수혈을 우선하거나 산소화를 위해 일회호흡량을 무조건 늘리지 않는다.
+폐 보호 환기와 적절한 PEEP에도 심한 저산소혈증이 지속되면 장시간 복와위 환기를 시행한다. 복와위는 폐의 환기와 관류 분포를 개선할 수 있으며 일회호흡량을 크게 늘리는 것은 폐 손상을 증가시킬 수 있다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ FiO2 1.0에서도 PaO2 55 mmHg인 중증 저산소혈증에서 PEEP 5 cmH2O는 �
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009348
+- https://academic.oup.com/ajrccm/article/195/9/1253/8500154

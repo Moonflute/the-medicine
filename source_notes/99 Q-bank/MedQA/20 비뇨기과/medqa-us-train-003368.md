@@ -19,7 +19,7 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-uNqeq1tOygleunpeulmCAoVmFyaWNvY2VsZSkubWQ
   - MjAg67mE64eo6riw6rO8L-y9qe2MpeyVlCAoUmVuYWwgQ2VsbCBDYXJjaW5vbWEpLm1k
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-63세 남성이 3개월간의 피로와 변비로 내원했다. 2주 전부터 왼쪽 등 중간 부위에 둔한 통증이 생겼고 이부프로펜을 복용해도 지속되었다. 아버지는 70세에 전립선암으로 사망했다. 환자는 45년간 하루 1갑의 담배를 피웠다. 신체검사에서 누운 자세와 선 자세 모두에서 왼쪽 정계정맥류가 보였다. 직장수지검사에서 전립선은 대칭적으로 커져 있었지만 종괴는 없었다. 혈색소 11.2 g/dL, 크레아티닌 1.0 mg/dL, 칼슘 11.8 mg/dL, 소변 단백 1+, 혈뇨 2+였다. 다음 중 가장 적절한 다음 처치는?
+63세 남성에게 최근 왼쪽 정계정맥류와 지속적인 옆구리 통증, 혈뇨가 생겼다. 음낭의 확장된 정맥은 누워도 줄지 않는다. 신장과 신정맥을 평가할 검사는?
 
 ## 선택지
 
-A. 복부 CT
-B. 소변 세포검사
-C. 흉부 X선
-D. 전립선 생검
+A. 방광 잔뇨 측정
+B. 전립선 생검
+C. 흉부 단순촬영
+D. 조영증강 복부 CT
 
 ## 해설
 
-누워도 사라지지 않는 왼쪽 정계정맥류, 혈뇨와 옆구리 통증, 고칼슘혈증은 신장 종괴와 신정맥 배출 장애를 의심하게 한다. A, 복부 CT로 신세포암 등 신장 병변과 정맥 침범 여부를 평가하는 것이 적절하다. 단순히 신장이 후복막에 있다는 이유로 CT를 선택하는 것은 아니며 임상·검사 단서가 함께 중요하다.
+새로 생긴 정계정맥류가 누워도 줄지 않고 혈뇨와 옆구리 통증이 동반되면 신장 종괴나 신정맥 배출 장애를 평가할 이유가 된다. 오래된 전형적 좌측 정계정맥류에 모두 CT가 필요한 것은 아니다.
 
 ## 검수 근거
 

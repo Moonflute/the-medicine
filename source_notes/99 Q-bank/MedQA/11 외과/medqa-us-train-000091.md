@@ -21,9 +21,9 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
 question_type: management
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -43,19 +43,19 @@ related_drug_slugs:
 
 ## 문제
 
-골관절염으로 우측 무릎 관절치환술(arthroplasty)을 받은 지 5일 된 68세 남성이 우측 무릎의 심한 통증으로 물리치료에 참여하지 못하고 있습니다. 수술 후 3일째 드레싱을 교체했을 때 수술 상처는 온전해 보였고 약간 부어 있었으며 맑은 분비물이 있었습니다. 환자는 당뇨병, 고지혈증, 고혈압의 과거력이 있습니다. 현재 복용 중인 약물은 메트포르민(metformin), 에날라프릴(enalapril), 심바스타틴(simvastatin)입니다. 체온은 37.3°C, 맥박은 94회/분, 혈압은 130/88 mmHg입니다. 우측 무릎은 부어 있고 발적(erythematous)이 있으며 촉진 시 압통이 있습니다. 관절을 움직일 때 통증이 있습니다. 내측 슬개골 옆 피부 절개 부위는 근위부와 원위부가 표면적으로 열려 있고 황록색 분비물이 나옵니다. 절개 부위 양쪽 피부는 검게 변해 있습니다. 이 환자의 관리로 가장 적절한 다음 단계는 무엇입니까?
+68세 남성이 무릎 인공관절 수술 12일 뒤 고름과 관절통으로 내원했다. 증상은 이틀째이고 깊은 인공관절 감염이 확인됐다. 인공관절은 단단히 고정돼 있고 누공은 없으며 연조직 봉합이 가능하다. 우선 고려할 치료는?
 
 ## 선택지
 
-A. 수술적 변연절제술(Surgical debridement)
-B. 나프실린(Nafcillin) 치료
-C. 인공관절 제거
-D. 소독 드레싱
+A. 경구 항생제만 장기 투여
+B. 상처 드레싱과 관절 운동만 시행
+C. 신속히 수술로 변연절제하고 교체 가능한 부품을 바꾼 뒤 항생제를 사용한다
+D. 항상 인공관절 전체를 제거하는 2단계 재치환술을 시행한다
 
 ## 해설
 
 
-수술 부위에 황록색 분비물과 피부 변색은 감염성 괴사와 연관된 조직 손상을 의미한다. 감염을 제거하고 조직을 정리하기 위해 외과적 변연절제술이 필요하다. 따라서 가장 적절한 관리 단계는 수술적 변연절제술이다.
+수술 직후 발생한 급성 인공관절 감염에서 증상이 짧고 고정이 안정적이며 연조직이 양호하면 변연절제, 교체 가능한 부품 교환, 배양에 따른 항생제로 고정된 인공관절을 보존할 수 있다.
 
 ## 검수 근거
 
@@ -68,3 +68,4 @@ D. 소독 드레싱
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000091
+- https://pubmed.ncbi.nlm.nih.gov/40463685/

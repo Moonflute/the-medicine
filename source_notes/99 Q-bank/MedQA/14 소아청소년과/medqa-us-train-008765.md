@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2GoeyGjO2UjOudvOymiOuniOymnSAoVG94b3BsYXNtb3NpcykubWQ
 difficulty: simple
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-산전 관리와 선별검사를 거의 받지 못한 26세 여성이 진통으로 응급실에 내원했다. 곧 여아를 출산했고 신생아에서 맥락망막염 증상이 관찰되었다. 산후 문진에서 어머니 집에 고양이가 여러 마리 있다는 것 외에는 특이사항이 없었다. 신생아 뇌 MRI에서 수두증, 여러 개의 점상 두개내 석회화, 피질하 고리형 조영증강 병변 2개가 보였다. 가장 가능성 높은 진단은 무엇인가?
+신생아에게 양쪽 맥락망막염이 있다. 머리 영상에서 수두증과 함께 피질·기저핵 여러 부위에 산재한 석회화가 보인다. 가장 의심되는 선천 감염은?
 
 ## 선택지
 
-A. 톡소플라스마증
-B. 풍진
-C. 단순포진바이러스 감염
+A. 거대세포바이러스 감염
+B. 톡소포자충증
+C. 풍진
 D. 매독
 
 ## 해설
 
 
-신생아의 망막염, 뇌 MRI에서 점상 석회화와 뇌실 확대는 선천성 톡소플라스마증의 전형적인 소견이다. 고양이와의 접촉이 위험 요인이다. 따라서 톡소플라스마증이 정답이다.
+맥락망막염, 수두증, 산재한 두개내 석회화의 조합은 선천 톡소포자충증을 시사한다. 영상만으로 확진하지 않고 산모·신생아 검사를 연계한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008765
+- https://pubmed.ncbi.nlm.nih.gov/28138010/

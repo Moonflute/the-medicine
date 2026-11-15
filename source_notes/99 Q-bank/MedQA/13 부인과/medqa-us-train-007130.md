@@ -15,12 +15,12 @@ related_diseases:
   - "과도한 운동"
   - "GnRH 박동 감소"
   - "Functional hypothalamic amenorrhea"
-question_type: mechanism
+question_type: management
 related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-24세 여자가 6개월 동안 월경이 없어서 일차진료의를 찾아왔다. 경쟁적인 달리기 선수이며 다가오는 경주를 준비하기 위해 지난 1년 동안 강도 높은 훈련을 해 왔다. 심각한 질환의 가족력이나 개인력은 없다. 지난 9개월 동안 성관계를 하지 않았다. 체온은 36.9°C(98.4°F), 맥박은 51회/분, 호흡수는 12회/분, 혈압은 106/67 mmHg이다. BMI는 18.1 kg/m²이다. 이 환자의 무월경을 일으킨 가장 가능성 높은 원인은 무엇인가?
+20세 장거리 선수가 훈련량을 늘리고 음식 섭취를 줄인 뒤 7개월째 월경이 없다. 임신검사는 음성, TSH·프로락틴은 정상이며 FSH·LH와 에스트라디올은 낮다. 우선 치료는?
 
 ## 선택지
 
-A. 프로락틴 분비 증가
-B. 시상하부에서 GnRH 분비 빈도 감소
-C. 자궁내 유착
-D. LH 분비 증가와 난소 안드로겐 생성 증가
+A. 복합 경구피임약으로 철회 출혈부터 유도
+B. 섭취량을 늘리고 훈련량을 조절해 에너지 부족 교정
+C. 프로게스틴 단독 투여로 배란 회복
+D. 성선자극호르몬 주사로 난소 자극
 
 ## 해설
 
 
-과도한 운동·저체중은 시상하부에서 GnRH 방출 빈도를 감소시켜 LH·FSH 감소와 무월경을 초래한다. 프로락틴 증가·자궁내 유착·LH 증가·안드로겐 상승은 다른 원인이다. 따라서 시상하부 GnRH 분비 감소가 가장 가능성 높은 원인이다
+에너지 부족에 따른 기능성 시상하부성 무월경이다. 섭취·운동을 함께 조정하고 필요하면 영양 및 심리 지원을 병행한다. 골밀도 평가도 고려하며, 피임약만으로 에너지 부족을 치료할 수 없다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007130
+- https://www.endocrine.org/clinical-practice-guidelines/hypothalamic-amenorrhea

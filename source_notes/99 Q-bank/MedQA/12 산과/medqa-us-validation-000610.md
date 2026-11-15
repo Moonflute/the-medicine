@@ -13,11 +13,11 @@ related_diseases:
   - "임신 중 신우신염"
   - "조산 위험"
   - "요로감염"
-question_type: prognosis
+question_type: management
 related_disease_slugs:
   - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 33주 4일인 32세 여성(임신 2회, 출산 2회)이 미열, 가벼운 요통, 배뇨통으로 응급실에 왔다. 우측 늑골척추각 압통, 소변검사에서 백혈구 에스터레이스와 아질산염 양성이며 세프트리악손 정맥주사를 위해 입원했다. 이 상태에서 위험이 증가하는 것은?
+임신 33주 산모가 38.8°C 발열, 배뇨통과 오른쪽 옆구리 통증으로 왔다. 늑골척추각 압통과 농뇨가 있다. 신우신염이 의심될 때 초기 치료는?
 
 ## 선택지
 
-A. 저체중아
-B. 전자간증
-C. 산후출혈
-D. 조산
+A. 니트로푸란토인만 처방하고 귀가
+B. 입원해 소변배양을 채취하고 신장 조직으로 도달하는 정맥 항생제를 신속히 시작
+C. 배양이 양성으로 확인될 때까지 항생제 없이 관찰
+D. 경구 포스포마이신 1회만 투여하고 추적하지 않음
 
 ## 해설
 
-늑골척추각 압통·발열·농뇨는 임신 중 신우신염에 합당하다. 염증 반응은 조기 자궁수축/조산(D) 위험을 높이며 특정33주 이후에만 나타나는 현상은 아니다. 임신 UTI는 저체중 등 다른 불량 임신 결과와도 연관되지만 본문이 강조하는 급성 합병증은 조산이다.
+임신 중 신우신염은 우선 입원해 정맥 항생제로 치료하고 패혈증과 조기진통을 감시한다. 니트로푸란토인과 포스포마이신은 신장 실질 감염 치료에 적합하지 않다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 조산
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000610
+- https://pubmed.ncbi.nlm.nih.gov/37473414/

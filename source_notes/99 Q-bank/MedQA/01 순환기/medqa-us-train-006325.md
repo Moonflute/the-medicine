@@ -19,7 +19,7 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -40,19 +40,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-72세 남성이 어금니 발치를 위한 의료 허가를 받으러 내원했다. 특별한 증상은 없다. 숨이 차지 않고 계단 3층을 오를 수 있다고 한다. 고혈압, 제2형 당뇨병 및 허혈성 심장질환이 있다. 지난해 중증 대동맥판막협착증으로 대동맥판막 치환술을 받았다. 12년 전 심장혈관성형술을 받고 스텐트 2개를 삽입했다. 현재 아스피린, 와파린, 리시노프릴, 메트포르민, 시타글립틴 및 심바스타틴을 복용한다. 체온은 37.1°C(98.8°F), 맥박은 분당 92회, 혈압은 136/82 mm Hg이다. 오른쪽 두 번째 늑간에서 수축기 박출 클릭이 들린다. 다음 중 처치로 가장 적절한 다음 단계는?
+72세 남성이 인공 대동맥판막 치환 후 어금니를 발치할 예정이다. 페니실린 알레르기는 없다. 이 환자에서 감염성 심내막염 예방을 위해 시행할 처치는?
 
 ## 선택지
 
-A. 시술 1시간 전에 경구 아목시실린 투여
-B. 시술 전에 심초음파 시행
-C. 시술 중 아산화질소 사용 회피
-D. 시술 72시간 전에 아스피린과 와파린 중단
+A. 발치 30~60분 전에 아목시실린을 경구로 단회 투여한다
+B. 발치 다음 날부터 예방 목적으로 일주일간 아목시실린을 투여한다
+C. 발치 전 항생제 없이 혈액배양만 시행한다
+D. 판막 종류와 무관하게 예방은 필요 없다
 
 ## 해설
 
 
-인공 심장판막 환자는 치과 시술 전 감염성 심내막염 예방을 위해 항생제 투여가 필요하다. 1시간 전 경구 아목시실린은 표준 예방 프로토콜이다. 따라서 가장 적절한 조치는 경구 아목시실린 투여이다.
+인공판막은 감염성 심내막염 고위험군이며, 발치는 잇몸을 조작하는 시술이다. 금기가 없다면 시술 전 아목시실린을 단회 투여한다. 항응고제 관리는 이 예방요법과 별도로 평가한다.
 
 ## 검수 근거
 
@@ -65,3 +65,4 @@ D. 시술 72시간 전에 아스피린과 와파린 중단
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006325
+- AHA 감염성 심내막염 예방 권고: https://www.heart.org/-/media/files/health-topics/infective-endocarditis/infective-endocarditis-wallet-card.pdf

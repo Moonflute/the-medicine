@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-yepeuvuOyDiSDruYTripjspp0gKFBpdHlyaWFzaXMgUm9zZWEpLm1k
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,19 +32,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-28세 백인 여성이 가려움과 등에 연어색 인설반으로 지역 클리닉에 왔다. 몇 주 전 감기에 걸렸고 지난주 피부 병변이 커졌다고 한다. 과거력은 특이사항이 없다. 신체검사에서 전신 발진, 피부긴장선 방향을 따라 대칭적으로 배열된 반점, 등에 경계가 명확하고 얇은 인설 테두리(콜라레트)가 있는 연어색 반이 보인다. 이 경우 가장 적절한 다음 처치는?
+28세 여성의 등에 테두리에 인설이 있는 큰 타원형 반점 하나가 생겼다. 일주일 후 등과 가슴에 피부 주름선을 따라 더 작은 타원형 인설반이 퍼졌다. 발진은 약간 가렵고 전신 증상은 없다. 가장 적절한 처치는?
 
 ## 선택지
 
-A. 가려움 조절과 안심
-B. 전신 스테로이드 치료
-C. 국소 스테로이드 치료
-D. 광선치료
+A. 경구 항진균제를 시작한다
+B. 자연 호전되는 경과를 설명하고 필요하면 가려움을 완화한다
+C. 전신 프레드니솔론을 일률적으로 처방한다
+D. 바로 피부 생검을 시행한다
 
 ## 해설
 
 
-전형적인 'herald patch'와 그 뒤에 나타나는 대칭적 연어색 발진은 pityriasis rosea이며 자연 경과가 양호하다. 특별한 치료 없이 가려움 조절과 안심이 적절하다.
+큰 선행반 뒤 몸통의 피부 분할선을 따라 작은 반점이 생기는 전형적 장미색 비강진이다. 전형적이고 증상이 가벼우면 설명과 증상 조절로 충분하다.
 
 ## 출처
 

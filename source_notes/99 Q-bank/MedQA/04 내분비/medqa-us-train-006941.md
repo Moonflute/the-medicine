@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-ybkO2YlSDtg4jrqqjspp0gKEFsb3BlY2lhIEFyZWF0YSkubWQ
   - MDQg64K067aE67mEL-ybkOuwnOyEsSDrtoDsi6Ag6riw64ql7KCA7ZWY7KadKFByaW1hcnkgQWRyZW5hbCBJbnN1ZmZpY2llbmN5KS5tZA
-question_type: mechanism
+question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-31세 남성이 9개월 동안 점점 심해지는 피로감과 반복되는 오심으로 내원했다. 이 기간에 체중이 3.8kg(8.3lb) 감소했고 갑자기 일어설 때 어지럽다. 1년 전 원형탈모증으로 3개월 동안 매달 병변 내 트리암시놀론 주사를 받았다. 흡연과 음주는 하지 않는다. 체온은 37.4°C(99.3°F), 맥박은 분당 86회, 혈압은 102/68 mm Hg이다. 두피에 흉터 없는 경계가 뚜렷한 탈모반이 있고 손바닥 주름이 짙어져 있다. 혈청 Na+ 125, Cl− 98, K+ 5.6 mEq/L, 포도당 72 mg/dL, 크레아티닌 0.8 mg/dL, TSH 4.1 μU/mL, 아침 코르티솔 2.5 μg/dL, 코르티코트로핀 250μg 투여 30분 후 코르티솔 2.6 μg/dL이다. 다음 중 증상의 가장 가능성 높은 기전은?
+31세 남성이 체중 감소와 기립 어지럼, 잇몸 색소 침착을 보인다. 아침 코르티솔은 매우 낮고 ACTH는 높으며 코신트로핀에 코르티솔이 반응하지 않는다. 원발성 부신기능저하가 확인됐을 때 자가면역 원인을 지지하는 검사는?
 
 ## 선택지
 
-A. 부신 내 아밀로이드 침착
-B. 부신의 육아종성 염증
-C. 부신의 자가면역 파괴
-D. 뇌하수체 코르티코트로핀 활성 억제
+A. TSH 수용체 항체
+B. 항미토콘드리아 항체
+C. 21-수산화효소 항체
+D. 항내인자 항체
 
 ## 해설
 
-저Na·고K·수장선과색소와 낮은cortisol/불충분 cosyntropin반응은 원발성부신부전이다. 원형탈모 등 자가면역배경은 부신자가면역파괴 C를 지지한다. ACTH자체가 반응하지 않는다는 뜻이 아니라 부신이 외부ACTH자극에 cortisol을 올리지 못한다는 뜻이다. 과거국소steroid만으로 뇌하수체억제를 확정하지 않는다.
+코르티솔이 낮고 ACTH가 높으며 자극 반응이 부족하면 원발성 부신기능저하에 맞는다. 21-수산화효소에 대한 자가항체로 자가면역 원인을 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 뇌하수체 코르티코트로핀 활성 억제
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006941
+- https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency

@@ -14,11 +14,11 @@ related_diseases:
   - "골수억제"
   - "범혈구감소증"
 related_disease_slugs: []
-question_type: mechanism
+question_type: adverse_effect
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,19 +33,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-14세 여아가 6주간 지속된 하지 멍과 최근 피로 및 창백함으로 진료를 받으러 왔다. 반복되는 전신 강직간대 발작으로 카바마제핀을 복용 중이며, 혈색소 8.4 g/dL, 백혈구 2,600/mm³, 혈소판 18,000/mm³, 망상적혈구 0.3%이다. 증상의 가장 가능성 높은 원인은?
+카바마제핀을 시작한 지 두 달 된 14세 환자에게 멍과 창백이 생겼다. 혈색소 8.4g/dL, 절대호중구수 410/μL, 혈소판 1.8만/μL이고 망상적혈구도 감소했다. 가장 적절한 조치는?
 
 ## 선택지
 
-A. 면역성 혈소판감소성 자반증
-B. 겸상적혈구병
-C. 전신홍반루푸스
-D. 약물 부작용
+A. 용량을 유지하고 다음 정기 진료 때 재검한다
+B. 카바마제핀을 중단하고 골수억제와 출혈·감염 위험을 긴급히 평가하며 대체 항경련제를 계획한다
+C. 혈소판만 낮은 면역성 혈소판감소증으로 판단한다
+D. 철분만 보충하고 나머지 혈구는 확인하지 않는다
 
 ## 해설
 
 
-카바마제핀은 골수 억제 부작용으로 전혈구감소증(빈혈·백혈구·혈소판 감소)을 일으킬 수 있다. 환자의 전혈구 감소와 망상적혈구는 약물 부작용을 가장 잘 설명한다. 정답은 약물 부작용이다.
+카바마제핀은 드물게 심각한 골수억제를 일으킬 수 있다. 새로 발생한 다계열 혈구 감소에서는 원인 약 중단과 긴급 평가가 필요하며, 발작 치료는 다른 약으로 이어갈 계획을 세운다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 약물 부작용
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001203
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8cc7288c-4a7e-417c-9ceb-0e0f8aeeacb3

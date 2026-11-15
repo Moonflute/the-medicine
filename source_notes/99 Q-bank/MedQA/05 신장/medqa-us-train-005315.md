@@ -15,9 +15,9 @@ related_diseases:
   - "티아지드 이뇨제"
 related_disease_slugs:
   - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
-question_type: mechanism
+question_type: prevention
 difficulty: complex
-answer: "A"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -38,18 +38,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-55세 여자가 24시간 동안 심한 복통과 혈뇨로 내원했다. 24시간 소변 칼슘은 345 mg/일로 상승했고 비조영 복부 CT가 제시되어 있다. 수액과 아세트아미노펜으로 증상이 호전된 후 재발 예방 약물을 처방받았다. 이 약물은 네프론의 어느 부위에서 작용하는가?
+55세 여성이 물 섭취량을 늘리고 저염식으로 바꾼 뒤에도 칼슘옥살산 결석이 재발한다. 24시간 소변 칼슘은 반복해서 360 mg/일이고 소변 구연산과 요산 배설, 혈청 칼슘은 정상이다. 재발 예방을 위해 고려할 약물은?
 
 ## 선택지
 
-A. 원위곡세뇨관
-B. 헨레고리 굵은 상행각
-C. 집합관
-D. 헨레고리 하행각
+A. 티아지드계 이뇨제
+B. 푸로세미드
+C. 알로푸리놀
+D. 세벨라머
 
 ## 해설
 
-요중 칼슘 배설을 줄이는 thiazide를 의도한 문항으로 작용 부위는 원위곡세뇨관의 Na/Cl 공동수송체다. 24시간 요칼슘 상승이 제시되어 있어 약물 기전을 답하는 데 CT 형태를 창작할 필요는 없다. 실제 예방약 투여는 결석 성분·재발 위험·지속 고칼슘뇨와 식이·수분 관리에 대한 반응을 고려하며 모든 첫 결석에 일률 적용하지 않는다.
+식이·수분 조절로도 재발하고 고칼슘뇨가 지속되면 티아지드계 약제로 요칼슘 배설을 줄이는 것을 고려할 수 있다. 혈압, 전해질과 부작용을 함께 추적한다.
 
 ## 검수 근거
 
@@ -62,6 +62,8 @@ D. 헨레고리 하행각
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005315
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10330415/
+- https://doi.org/10.1097/JU.0000000000005228
 
 ## 오답 포인트
 

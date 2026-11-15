@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 question_type: diagnosis
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-27세 여성이 여러 관절의 통증으로 응급실에 왔다. 어제 시작되어 악화되는 대칭성 관절통이 손목, 팔꿈치, 어깨에 있다. 주관적 발열과 피로도 있지만 다른 증상은 없다. 학교 교사이며 대체로 건강하다. 남성 2명과 성관계를 하고 콘돔은 가끔 사용한다. 활력징후와 검사실 수치는 정상이다. 중수지관절, 근위지간관절, 손목의 관절 경직과 통증이 있다. 이부프로펜을 처방받고 퇴원했으며 4주 후 증상이 호전되어 더 이상 약을 복용하지 않았다. 가장 가능성 높은 진단은?
+초등학교 교사가 반 아이들의 전염성 홍반 유행 2주 뒤 미열과 양쪽 손목·손가락의 대칭성 통증을 겪었다. 관절 증상은 치료 없이 수 주 내 호전됐다. 가장 가능성 높은 원인은?
 
 ## 선택지
 
-A. 임균성 관절염
-B. 파르보바이러스 B19 감염
-C. 류마티스관절염
-D. 일과성 활막염
+A. 파종성 임균 감염
+B. 류마티스관절염
+C. 파르보바이러스 B19 감염
+D. 요로감염 뒤 반응성 관절염
 
 ## 해설
 
 
-젊은 여성의 급성 대칭성 MCP·PIP·손목 관절통, 학교 노출과 수 주 내 자연호전은 parvovirus B19(B)에 부합한다. 성인에서는 전형적 소아 발진이 없을 수 있고 관절 증상은 수 주 이상 지속될 수도 있다. 만성 지속 관절염의 류마티스관절염이나 주로 단관절 화농성 양상인 임균성 관절염보다 이 경과가 맞는다.
+파르보바이러스 B19에 감염된 성인에게는 소아의 전형적인 얼굴 발진 없이 손과 손목의 대칭성 관절 증상이 나타날 수 있다. 노출과 수 주 내 호전되는 경과가 단서다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 일과성 활막염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000295
+- https://www.cdc.gov/parvovirus-b19/about/

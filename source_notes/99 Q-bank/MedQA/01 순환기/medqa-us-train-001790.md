@@ -15,11 +15,11 @@ related_diseases:
   - "early diastolic murmur"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
-question_type: diagnosis
+question_type: prevention
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 남성이 초진을 위해 내원했다. 건강하지만 지난 5년간 운동능력이 감소하고 호흡곤란이 증가했다고 한다. 노화 때문이라고 생각해 10년 동안 의사를 찾지 않았다. 청진에서 왼쪽 흉골연을 따라 방사되는 초기 이완기 감쇠성 잡음이 들린다. 미국에서 이 환자 상태의 가장 가능성 높은 원인은 무엇인가?
+32세 남성의 심초음파에서 이첨 대동맥판과 상행 대동맥 확장이 확인됐다. 증상 없는 친형이 검사 필요성을 묻는다. 가족 평가로 적절한 것은?
 
 ## 선택지
 
-A. 매독
-B. 결합조직질환
-C. 점액종성 변성
-D. 선천성 이첨판 대동맥판
+A. 증상 없는 가족에게 흉부 단순 X선만 권한다
+B. 심잡음이 생길 때까지 검사하지 않는다
+C. 모든 가족에게 침습적 관상동맥조영술을 한다
+D. 일차 친족에게 판막과 상행 대동맥을 보는 경흉부 심초음파를 권한다
 
 ## 해설
 
 
-조기 이완기 감쇠성 잡음은 대동맥 역류를 의미하며, 선천성 이첨판 대동맥판이 가장 흔한 원인이다. 미국에서 이 질환이 가장 흔히 발견된다. 다른 선택지는 이 잡음과 연관성이 낮다.
+이첨 대동맥판과 대동맥 확장은 가족 내에서 나타날 수 있다. 일차 친족의 경흉부 심초음파로 판막 형태와 대동맥근·상행 대동맥 직경을 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 선천성 이첨판 대동맥판
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001790
+- ACC/AHA 대동맥질환 진료지침: https://professional.heart.org/en/science-news/2022-guideline-for-the-diagnosis-and-management-of-aortic-disease

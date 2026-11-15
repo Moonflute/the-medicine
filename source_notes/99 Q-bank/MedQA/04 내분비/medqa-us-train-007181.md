@@ -15,7 +15,7 @@ related_diseases:
   - "정상 갑상선 기능"
 related_disease_slugs:
   - MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA
-question_type: investigation
+question_type: monitoring
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -34,23 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여자가 일반 검진을 위해 일차진료의에게 내원했다. 기말고사 기간이라 최근 약간 피로하지만 그 외에는 건강하다. 어머니와 언니가 갑상선기능저하증을 앓고 있다. 피로, 체중 증가, 추위 불내성, 변비, 과다하거나 불규칙한 월경, 머리카락·피부·손발톱 상태 변화는 부인한다. 신체검사는 정상이다. 검사 결과는 다음과 같다.
-헤모글로빈 14 g/dL, 헤마토크릿 40%, 백혈구 수 5,500/mm³(감별 정상), 혈소판 수 188,000/mm³
-혈청 나트륨 139 mEq/L, 염소 102 mEq/L, 칼륨 4.4 mEq/L, 중탄산염 24 mEq/L, BUN 20 mg/dL, 포도당 99 mg/dL, 크레아티닌 0.8 mg/dL, 칼슘 10.2 mg/dL
-항갑상선 과산화효소 항체 양성
-AST 12 U/L, ALT 10 U/L
-이 환자에서 가장 가능성 높은 검사 결과는 무엇인가?
+25세 여성이 검진에서 항갑상선 과산화효소 항체 양성을 확인했다. 임신하지 않았고 TSH와 유리 T4가 정상이며 증상도 없다. 어떤 관리가 적절한가?
 
 ## 선택지
 
-A. TSH 증가와 T4 증가
-B. TSH 정상과 T4 정상
-C. TSH 정상과 T4 감소
-D. TSH 감소와 T4 증가
+A. 항체가 양성이면 레보티록신을 바로 시작
+B. 갑상선호르몬을 시작하지 않고 갑상선 기능을 주기적으로 확인
+C. 항체를 낮추기 위해 메티마졸 투여
+D. 갑상선 흡수 스캔을 반복
 
 ## 해설
 
-항TPO 항체 양성은 자가면역 갑상선질환의 위험을 시사하지만, 갑상선 기능이 정상인 사람에서도 나타날 수 있다. 전형적인 기능저하 증상이나 소견이 없으므로 제시된 선택지 중 TSH와 T4가 정상인 B가 합리적이다. 실제 기능은 TSH와 유리 T4로 평가하며, 항체만으로 기능저하증을 확진하지 않는다.
+항체 양성은 향후 기능저하 가능성을 높이지만 현재 갑상선 기능이 정상이라면 레보티록신으로 치료하지 않는다. 증상이나 생애 상황에 맞춰 기능을 추적한다.
 
 ## 검수 근거
 
@@ -63,3 +58,4 @@ D. TSH 감소와 T4 증가
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007181
+- https://ekjm.org/journal/view.php?number=25889

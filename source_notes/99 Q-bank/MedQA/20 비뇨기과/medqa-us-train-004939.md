@@ -14,10 +14,10 @@ related_diseases:
   - "트라조돈"
   - "약물 유발 지속발기증"
   - "Priapism"
-question_type: mechanism
+question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-60세 남자가 5시간 동안 지속된 통증성 발기 때문에 응급실에 왔다. 겸상적혈구 형질, 골관절염, 불면증, 사회불안장애, 통풍, 제2형 당뇨병, 주요우울장애, 고혈압이 있다. 프로프라놀롤, 시탈로프람, 트라조돈, 라스부리카제, 메트포르민, 글리부라이드, 리시노프릴 등을 복용한다. 외상이나 주사, 보형물 없이 단단한 발기가 지속된다. 다음 중 이 상태를 유발했을 가능성이 가장 높은 약물은?
+60세 남성이 트라조돈을 시작한 뒤 매우 아픈 발기가 5시간째 계속돼 내원했다. 음경해면체가 단단하고 외상은 없다. 허혈성 지속발기증이 의심될 때 가장 적절한 조치는?
 
 ## 선택지
 
-A. 트라조돈
-B. 대마 사용
-C. 시탈로프람
-D. 프로프라놀롤
+A. 진통제를 처방하고 다음 날 재진한다
+B. 응급 비뇨의학과 치료를 진행한다
+C. 약만 중단하고 자연 해소를 기다린다
+D. 따뜻한 목욕으로 호전되는지 관찰한다
 
 ## 해설
 
-정답은 A, 트라조돈이다. 트라조돈은 지속발기증을 일으킬 수 있는 알려진 약물이며 α1-아드레날린 수용체 길항작용이 발기 소실 장애에 기여할 수 있다. 모든 지속발기증의 가장 흔한 약물 원인으로 단정할 필요는 없다. 통증성 단단한 발기가 5시간 지속되어 허혈성 지속발기증을 우려하므로 원인약 중단과 별도로 즉각적인 비뇨의학과 응급치료가 필요하다.
+4시간 넘게 지속되는 통증성 발기는 허혈성 지속발기증을 의심해야 한다. 원인약 중단만으로 기다리지 말고 즉시 비뇨의학과에서 혈류 회복을 위한 처치를 진행한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 프로프라놀롤
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004939
+- https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/priapism

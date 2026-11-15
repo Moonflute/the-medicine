@@ -19,7 +19,7 @@ related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,19 +32,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-27세 여성이 운동하거나 일할 때 발생하는 발과 발가락 통증으로 내원했다. 제3~4 발가락 사이를 누르면 통증과 딸깍 소리가 유발되었다. 다음 중 가장 가능성 높은 진단은?
+27세 여성이 걸을 때 셋째·넷째 발가락 사이가 타듯 아프다. 앞발 양옆을 압박하자 통증과 함께 딸깍거림이 느껴진다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 족저근막의 염증과 손상
-B. 경골신경 압박
-C. 발허리뼈 사이 족저신경 신경종
-D. 종골 소주의 손상
+A. 족저근막염
+B. 발목굴 증후군
+C. 모턴 신경종
+D. 중족골 피로골절
 
 ## 해설
 
 
-제3·4족 사이를 눌렀을 때 통증과 딸깍 소리가 나는 것은 Morton neuroma(족저신경 신경종)와 일치한다. 이는 발허리뼈 사이의 족저신경이 비대해져 발생한다. 따라서 정답은 발허리뼈 사이 족저신경 신경종이다.
+앞발에 체중이 실릴 때 나타나는 발가락 사이 작열통과 앞발 압박 시의 클릭은 모턴 신경종을 시사한다. 피로골절은 발가락 사이보다 해당 중족골에 뚜렷한 국소 압통을 보인다.
 
 ## 출처
 

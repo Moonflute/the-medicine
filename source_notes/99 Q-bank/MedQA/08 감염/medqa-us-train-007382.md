@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
 question_type: investigation
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-27세 여자가 5일 전 시작된 발진으로 내원했다. 발진은 복부, 등, 팔, 다리, 손과 발까지 침범한다. 지난 한 달 동안 경미한 발열, 두통, 근육통도 있었다. 심각한 질환 병력은 없다. 하루 한 갑을 흡연하고 주말에는 폭음한다. 가끔 코카인을 사용하지만 다른 불법 약물은 부인한다. 활력징후는 정상이다. 신체검사에서 몸통, 상지, 손바닥을 침범하는 광범위하고 대칭적인 적갈색 구진 발진이 보인다. 전신에 압통 없는 림프절병증이 있고 두피에 반점성 탈모, 생식기와 항문 주위에 편평하고 넓은 사마귀 모양 구진이 여러 개 있다. 신속혈장리진검사와 형광 트레포네마 항체검사는 모두 양성이다. 치료를 시작하는 것 외에 가장 적절한 다음 단계는 무엇인가?
+손바닥·발바닥 발진과 넓적한 항문 주위 구진이 있는 환자가 혈청검사로 이차 매독을 진단받았다. 청력, 시력이나 신경 증상은 없다. 매독을 치료하면서 확인할 검사는?
 
 ## 선택지
 
-A. 요추천자
-B. 혈액 배양
-C. 흉부 CT 혈관조영술
-D. 클라미디아와 임균 PCR
+A. 흉부 CT 혈관조영술
+B. 신경매독 확인을 위한 일률적인 요추천자
+C. HIV 항원·항체 검사
+D. 병변의 일반 세균배양
 
 ## 해설
 
 
-피부·점막/condylomata lata와 혈청검사는 이차매독에 부합한다. 치료와 함께 선택지 D의 gonorrhea/chlamydia NAAT 등 동반 STI를 평가하고 HIV 검사도 시행한다. 신경/안과/이과 증상 없는 모든 이차매독에 LP를 일률 시행하지 않는다. 검사는 노출 부위·위험에 따라 정한다.
+매독이 진단되면 HIV 검사를 시행하고 노출 부위와 위험에 따라 다른 성매개감염도 확인한다. 증상이 없고 신경학적 진찰이 정상이면 요추천자를 일률적으로 시행하지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 클라미디아와 임균 PCR
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007382
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10925736/

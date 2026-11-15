@@ -13,11 +13,11 @@ related_diseases:
   - "람베르트-이튼 근무력 증후군"
   - "소세포폐암"
   - "전압개폐성 칼슘통로 자가항체"
-question_type: mechanism
+question_type: diagnosis
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-최근 소세포폐암 진단을 받은 71세 남자가 지난 3개월 동안 점점 심해지는 근력저하로 내원했다. 계단을 오르거나 머리를 빗을 수 없고, 근력저하는 활동하지 않을 때 심하며 운동하면 호전된다. 30갑년의 흡연력이 있는 과거 흡연자이며 곧 항암화학요법을 시작할 예정이다. 양쪽 눈꺼풀 처짐, 구강건조, 네 근위부 사지의 현저한 근력저하가 있고 슬개건 및 상완이두근 반사가 소실되어 있다. 다음 중 이 환자 근력저하의 가장 가능성 높은 기전은?
+소세포폐암이 있는 71세 환자가 계단을 오르기 힘들고 입이 마른다고 한다. 다리 근위부가 약하고 무릎반사가 낮지만, 다리에 잠깐 힘을 준 직후 반사가 커진다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 축삭의 급성 자가면역성 탈수초
-B. 신경 말단에서 아세틸콜린 분비를 억제하는 자가항체
-C. 공포와 봉입체를 동반한 근내막 CD8+ T세포 침윤
-D. 육아종 형성을 동반한 괴사성 혈관염
+A. 중증근무력증
+B. 당뇨병성 원위 대칭 다발신경병증
+C. 램버트–이튼 근무력증후군
+D. 근위축성 측삭경화증
 
 ## 해설
 
-소세포폐암, 근위부 위약·구강건조·무반사와 반복 활동 후 근력 호전은 Lambert–Eaton 근무력증후군을 시사한다. 시냅스전 P/Q형 전압의존성 칼슘통로에 대한 자가항체가 칼슘 유입과 아세틸콜린 방출을 감소시키는 B가 기전이다. 반복 자극 후 잔류 칼슘이 누적되어 일시적인 근력·반사 호전이 나타날 수 있다. 활동 시 악화가 특징이라는 기존 설명은 중증근무력증의 피로성과 혼동한 것이다.
+근위부 위약, 자율신경 증상, 낮은 반사가 짧은 근수축 뒤 개선되는 양상은 램버트–이튼 증후군의 단서다. 소세포폐암이 중요한 연관 질환이다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 육아종 형성을 동반한 괴사성 혈관염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004861
+- https://pubmed.ncbi.nlm.nih.gov/31191084/

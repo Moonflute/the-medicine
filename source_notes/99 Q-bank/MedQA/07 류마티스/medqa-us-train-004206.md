@@ -15,11 +15,11 @@ related_diseases:
   - "잔틴 산화효소 억제제"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-2Gte2SjSAoR291dCkubWQ
-question_type: 임상증례 객관식
+question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-55세 남자가 심한 왼쪽 발목 통증 에피소드 후 내원했다. 통증은 호전되었지만 과거에도 비슷한 통증이 있어 평가를 받으러 왔다. 같은 발목과 왼쪽 무릎에 심한 통증이 반복되었고 파티에서 지방식을 많이 먹은 것과 관련이 있다고 한다. 한 번은 너무 아파 응급실에서 관절천자를 했고, 음성 복굴절을 보이는 바늘 모양 결정과 활액 내 호중구 증가가 확인되었다. 본태성 고혈압으로 히드로클로로티아지드 20mg/일을 복용한다. 활력징후는 안정적이고 체온 36.5°C이며 왼쪽 발목은 약간 압통이 있지만 운동범위는 정상이다. 가장 적절한 장기 치료는 무엇인가?
+55세 한국인 남성이 반복 통풍으로 장기 요산저하 치료를 시작하려 한다. eGFR은 32 mL/min/1.73m²이다. 알로푸리놀에 의한 중증 피부 이상반응 위험을 투약 전에 평가할 검사는?
 
 ## 선택지
 
-A. 콜히친
-B. 비스테로이드성 항염증제
-C. 관절강 내 스테로이드 주사
-D. 잔틴 산화효소 억제제
+A. HLA-B27
+B. HLA-B*15:02
+C. 항히스톤 항체
+D. HLA-B*58:01
 
 ## 해설
 
 
-반복성 관절통과 요산 결정이 관절액에서 확인된 경우 통풍이 진단된다. 장기 요산 저하제인 잔틴 산화효소 억제제(알로푸리놀 등)가 통풍 예방에 가장 효과적이다. 따라서 정답은 잔틴 산화효소 억제제이다.
+HLA-B*58:01은 알로푸리놀에 의한 중증 피부 이상반응 위험과 연관된다. 한국인, 특히 신기능 저하 환자에서 투약 전 확인을 고려하며 양성이면 대체약을 검토한다.
 
 ## 검수 근거
 
@@ -63,3 +63,5 @@ D. 잔틴 산화효소 억제제
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004206
+- https://pubmed.ncbi.nlm.nih.gov/30580048/
+- https://doi.org/10.1002/acr.24180

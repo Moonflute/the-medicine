@@ -16,9 +16,9 @@ related_diseases:
   - "Renal amyloidosis"
 related_disease_slugs:
   - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: "A"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -40,23 +40,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-73세 남성이 3주 동안 점점 심해지는 피로와 운동 시 호흡곤란으로 내원했다. 다리가 붓고 오심이나 구토는 없으며 캄보디아 여행 후 증상이 시작되었다. 만성 요통으로 이부프로펜을 가끔 복용하고 고혈압과 양측 무릎 골관절염이 있다. 체온은 37°C(98.6°F), 맥박은 분당 101회, 혈압은 135/76 mmHg이다. 사지에 함요부종이 있고 검사에서 혈색소 14.1 g/dL, 크레아티닌 2.9 mg/dL, 알부민 1.6 g/L, 소변 단백 4+가 보인다. 콩고레드 염색 신장생검에서 편광 아래 사과녹색 이중굴절이 관찰된다. 추가 평가에서 다음 중 가장 가능성 높은 소견은 무엇인가?
+73세 남성이 심한 단백뇨와 부종으로 검사를 받았다. 신장 생검의 콩고레드 염색에서 사과녹색 복굴절이 확인됐지만 아밀로이드 유형은 아직 검사 중이다. AL 아밀로이드증의 가능성을 평가할 혈액·소변 검사는?
 
 ## 선택지
 
-A. 말초도말에서 연전 형성
-B. 항CCP 항체 상승
-C. 인터페론-γ 방출검사 양성
-D. 흉부 CT에서 기관지확장
+A. 혈청·소변 면역고정 검사와 혈청 유리경쇄
+B. 류마티스인자와 항CCP 항체
+C. 혈청 C3·C4와 항핵항체
+D. 항사구체기저막 항체와 ANCA
 
 ## 해설
 
-Congo red의 사과녹색 이중굴절은 아밀로이드 침착을 지지한다. 고령·요통·신장 침범 맥락에서 단클론 면역글로불린 관련 AL 아밀로이드증을 고려하며 높은 혈장 단백은 적혈구가 동전처럼 쌓이는 rouleaux를 만들 수 있다. Rouleaux는 섬유소가 아니고 모든 아밀로이드증의 필수 소견도 아니다. 아밀로이드 유형 확인과 혈청/소변 면역고정·유리경쇄 평가가 필요하다. 원문 albumin 1.6 g/L 단위는 비정상적으로 낮아 원자료 확인이 필요하다.
+콩고레드는 아밀로이드 침착을 확인하지만 유형을 구별하지 못한다. 면역고정과 혈청 유리경쇄로 단클론 단백을 찾되, 검출되더라도 조직 유형으로 AL인지 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006136
+- https://doi.org/10.1093/ckj/sfag163
 
 ## 오답 포인트
 

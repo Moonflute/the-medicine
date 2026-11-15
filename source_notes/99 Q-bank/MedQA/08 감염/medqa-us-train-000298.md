@@ -23,9 +23,9 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-yImOuRkC3rjIDsg4Htj6zsp4Qg67CU7J2065-s7IqkIOqwkOyXvCAoVmFyaWNlbGxhLVpvc3RlciBWaXJ1cyBJbmZlY3Rpb24pLm1k
 question_type: diagnosis
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -45,19 +45,19 @@ related_drug_slugs:
 
 ## 문제
 
-AIDS를 앓고 있는 34세 남성이 2일 전부터 시작된 우측 눈의 시력 저하와 검은 점이 보이는 증상으로 내원하였다. 통증은 없으며 좌측 눈은 증상이 없다. 환자는 6개월 전 플루코나졸(fluconazole)로 진균성 식도염을 치료받은 적이 있다. 2년 전 카포시 육종(Kaposi's sarcoma)을 진단받았다. 현재 복용 중인 약물은 에파비렌즈(efavirenz), 테노포비르(tenofovir), 엠트리시타빈(emtricitabine), 아지스로마이신(azithromycin), 트리메토프림-설파메톡사졸(trimethoprim-sulfamethoxazole), 종합비타민, 영양제이다. 키는 170cm, 체중은 45kg이며 체질량지수(BMI)는 15.6kg/m2이다. 체온은 37°C, 맥박은 분당 89회, 혈압은 110/70mmHg이다. 진찰 결과 경부 림프절병증이 관찰된다. 몸통과 사지에 다수의 보라색 판(violaceous plaques)이 보인다. 안저 검사에서 망막 혈관 주위의 과립형 황백색 혼탁과 다수의 점상 출혈(dot-blot hemorrhages)이 관찰된다. CD4+ T-림프구 수는 36/mm3이다. 가장 가능성이 높은 진단은 무엇인가?
+CD4가 36/μL인 HIV 환자에게 통증 없이 한쪽 시력이 떨어지고 부유물이 보인다. 안저에서 망막 혈관을 따라 황백색 병변과 출혈이 보인다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 거대세포바이러스(Cytomegalovirus) 망막염
-B. 톡소플라스마(Toxoplasma) 망막염
-C. HIV 망막병증
-D. 수두 대상포진(Varicella zoster) 망막염
+A. 당뇨망막병증
+B. 톡소플라스마 망막맥락막염
+C. HIV 미세혈관망막병증
+D. 거대세포바이러스 망막염
 
 ## 해설
 
 
-CD4 수가 36/mm³인 중증 면역억제 상태에서 망막에 과립형 황백색 혼탁과 점상 출혈이 나타나는 것은 CMV 망막염의 전형적인 소견이다. 이는 통증이 없고 시력 저하만 있는 경우와 일치한다. 따라서 가장 가능성 높은 진단은 거대세포바이러스(CMV) 망막염이다.
+심한 면역저하에서 혈관을 따른 황백색 망막 병변과 출혈은 CMV 망막염을 시사한다. 시력을 위협하므로 신속한 안과 평가와 치료가 필요하다.
 
 ## 검수 근거
 
@@ -69,3 +69,4 @@ CD4 수가 36/mm³인 중증 면역억제 상태에서 망막에 과립형 황�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000298
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cytomegalovirus

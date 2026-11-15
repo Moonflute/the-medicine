@@ -15,7 +15,7 @@ related_diseases:
   - "uveitis"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-uyoOyytO2KuOuzkSAoQmVow6dldCdzIERpc2Vhc2UpLm1k
-question_type: prognosis
+question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-42세 남성이 일주일 동안 지속된 통증성 구강 궤양으로 내원했다. 지난 1년 동안 비슷한 궤양이 반복되었다. 매번 약 일주일간 지속되고 흉터 없이 치유된다. 음낭에도 비슷한 궤양이 생겼는데 흉터를 남겼다. 복용 약물은 없다. 체온 36.8°C(98.2°F)이며 나머지 활력징후는 안정적이다. 신체검사에서 오른쪽 볼 점막에 괴사성 기저부를 가진 1cm 크기의 황색 궤양이 보인다. 양쪽 정강이에는 크기가 다양한 압통성 결절이 여러 개 있다. 그중 하나의 사진이 제시되어 있다. 다음 중 현재 상태의 가장 가능성 높은 합병증은 무엇인가?
+베체트병 환자가 시력저하와 통증으로 내원했고 안과검사에서 시력을 위협하는 후포도막염과 망막혈관염이 확인됐다. 국소점안에 더해 필요한 치료 방향은?
 
 ## 선택지
 
-A. 포도막염
-B. 변형성 관절염
-C. 위장관 궤양
-D. 폐색전증
+A. 안과·류마티스 협진으로 전신 면역억제 치료를 신속히 시작한다
+B. 인공눈물만 쓰며 1개월 기다린다
+C. 항생제 점안만 한다
+D. 전신 스테로이드 단독을 장기간 유지한다
 
 ## 해설
 
 
-반복 구강 아프타, 흉터를 남기는 생식기궤양과 결절홍반양 병변은 Behçet syndrome을 시사한다. 포도막염 A는 대표적인 중요한 장기침범으로 시력 손상을 일으킬 수 있다. 다만 위장관궤양과 혈관 혈전·폐혈관병도 Behçet의 실제 합병증이며 전혀 무관한 것은 아니다. 관절염은 대개 비미란성으로 심한 변형은 전형적이지 않다.
+시력을 위협하는 후안부 베체트병은 전신 치료가 필요하다. 스테로이드 단독에 의존하지 않고, 중증도와 금기에 따라 생물학제 등을 전문팀이 선택한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 폐색전증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008553
+- https://doi.org/10.1016/j.ard.2026.02.009

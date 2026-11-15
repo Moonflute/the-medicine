@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qt7zsnITstpXshLEg7Lih7IKtIOqyve2ZlOymnSAoQW15b3Ryb3BoaWMgbGF0ZXJhbCBzY2xlcm9zaXMpLm1k
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-49세 남성이 여러 증상으로 내원했다. 8개월 동안 목소리 변화와 삼킴 곤란이 있었고 처음에는 크래커 같은 마른 음식만 어려웠으나 이제 스무디와 아이스크림도 삼키기 어렵다. 신문 편집자로 일하며 주로 쓰는 손으로 글씨 쓰기도 어려워졌다. 아내는 잠잘 때 코를 골고 침을 흘린다고 한다. 고혈압과 이첨대동맥판막 병력이 있고 히드로클로로티아지드를 복용한다. 신체검사에서 오른손 위축, 느린 말, 오른쪽 상흉골연의 수축기 심잡음이 있고 왼쪽 슬개건을 두드리면 왼쪽 하지가 강하게 차며 왼쪽 발바닥을 자극하면 발가락이 위로 펴진다. 다음 중 증상 진행을 늦출 가능성이 가장 높은 치료는 무엇인가?
+근위축성 측삭경화증 환자가 최근 물을 마실 때 자주 사레가 들고, 식사에 한 시간 가까이 걸린다. 3개월 사이 체중도 7% 줄었다. 연하·영양 관리의 다음 단계는?
 
 ## 선택지
 
-A. 아만타딘
-B. 베타 인터페론
-C. 레세르핀
-D. 릴루졸
+A. 체중이 더 줄 때까지 평소 식단을 바꾸지 않는다
+B. 모든 환자에서 즉시 정맥영양을 시작한다
+C. 연하와 영양을 전문 평가하고 식이 조정 및 위루관 필요성을 조기에 의논한다
+D. 사레가 줄 때까지 스스로 모든 수분 섭취를 중단하게 한다
 
 ## 해설
 
-진행성 구근 증상과 손 근위축은 하위운동신경원 손상을, 건반사 항진과 Babinski 징후는 상위운동신경원 손상을 시사하여 ALS에 합당하다. 보기 중 riluzole(D)은 ALS의 질병 경과에 이익이 있는 약물이다. 코골이와 침흘림만으로 호흡근 약화가 객관적으로 입증된 것은 아니므로 호흡기능은 별도로 평가한다.
+연하곤란과 체중 감소가 나타나면 흡인 위험과 영양 상태를 평가한다. 식사 형태를 조정하고, 환자의 선호와 호흡 상태를 고려해 위루관을 조기에 상의한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 릴루졸
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008972
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11235832/

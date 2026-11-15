@@ -18,9 +18,9 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7Iq07IOYIOustO2YleyEseymnSAoRGlHZW9yZ2UgU3luZHJvbWUpLm1k
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-체중 3,466 g의 여아가 임신 38주에 태어났다. 산모는 조현병으로 임신 5주까지 리튬을 복용했고 과거 알코올 사용장애 치료를 받았지만 14개월째 금주 중이다. 신생아는 소악증, 넓은 콧등, 짧은 인중, 작고 낮게 위치한 귀, 구개열이 있었고 왼쪽 흉골연에서 3/6 수축기 박출성 잡음이 들렸다. 심초음파에서 심장에서 하나의 대혈관이 나오는 소견이 보였다. 추가 평가에서 예상되는 소견은?
+신생아에게 총동맥간증, 구개 이상과 저칼슘혈증이 있다. 22q11.2 결실이 의심된다. 저칼슘혈증을 설명하는 검사 소견은?
 
 ## 선택지
 
-A. 혈청 부갑상선호르몬 저하
-B. 복부 X선의 이중 기포 징후
-C. FISH에서 5p 염색체 결실
-D. 안과검사에서 양측 백내장
+A. 높은 부갑상샘호르몬과 낮은 인
+B. 높은 혈청 칼시토닌만 확인
+C. 저칼슘혈증에 비해 부적절하게 낮은 부갑상샘호르몬
+D. 낮은 TSH와 상승한 유리 T4
 
 ## 해설
 
 
-디조지 증후군(22q11.2 결실)에서는 부갑상선 발달 결함으로 저칼슘혈증이 흔히 나타난다. 혈청 PTH 감소가 예상 소견이다.
+22q11.2 결실에서 부갑상샘 형성저하가 있으면 칼슘이 낮아도 PTH가 충분히 증가하지 않는다. 심장·면역·기도 문제도 함께 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001031
+- https://doi.org/10.1542/peds.2025-072717

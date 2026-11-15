@@ -17,7 +17,7 @@ related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: management
 difficulty: complex
-answer: "A"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -39,23 +39,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-혈액투석실에 호출되었다. 환자는 고혈압, 고콜레스테롤혈증 및 제2형 당뇨병으로 인한 말기 신장질환이 있어 1년 동안 혈액투석을 받아온 61세 남성이다. 현재 투석이 거의 끝날 무렵 간호사가 평소 142/90 mm Hg였던 혈압이 88/60 mm Hg로 떨어진 것을 발견했다. 호흡곤란이나 흉통은 없다. 오늘 아침 병원에 오기 전에 비소프롤롤, 메트포르민 및 인슐린을 복용했다. 진찰에서 혈압은 92/60 mm Hg, 심박수는 분당 119회이고 흉부 청진은 정상이다. 다음 중 가장 적절한 처치는?
+61세 남성이 혈액투석 도중 갑자기 어지러워하고 혈압이 142/90에서 84/52 mmHg로 떨어졌다. 맥박 118회/분이고 가슴통증과 숨참은 없다. 투석과 관련해 우선 할 처치는?
 
 ## 선택지
 
-A. 초여과를 중단하고 혈압·순환 상태를 즉시 재평가
-B. 0.9% 생리식염수 1L 주입
-C. 정맥 칼슘 글루콘산 투여
-D. 농축 적혈구 1단위 수혈
+A. 초여과를 일시 중단하고 혈압과 관류를 다시 확인한다
+B. 초여과를 유지하며 1L 수액을 일괄 투여한다
+C. 초여과를 유지하면서 산소만 공급한다
+D. 혈색소 확인 없이 농축 적혈구를 투여한다
 
 ## 해설
 
-투석 말기 저혈압에서는 우선 초여과를 중단하고 순환 상태와 원인을 평가한다. 다리 올리기와 상태에 맞는 소량 saline 보충 등이 필요할 수 있으며 일률적인 1L 투여나 수혈은 제시된 자료로 정당화되지 않는다. 혈류량 감소만으로 저혈압이 반드시 회복된다고 설명하지 않는다.
+투석 중 증상성 저혈압이 생기면 초여과를 멈추고 순환을 평가한다. 필요하면 상태에 맞춰 소량의 등장성 수액을 투여하고, 출혈·부정맥·감염 등 가능성도 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006648
+- https://www.kjim.org/journal/view.php?number=170694
 
 ## 오답 포인트
 

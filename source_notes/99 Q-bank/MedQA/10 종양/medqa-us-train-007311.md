@@ -18,9 +18,9 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-2YuOyngO2CqCDrprztlITsooUgKEhvZGdraW4gTHltcGhvbWEpLm1k
 question_type: investigation
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-60세 남자가 2개월 동안 지속된 흉통, 마른기침, 호흡곤란으로 내원했다. 4개월 전 목에 통증 없는 종괴 두 개가 생겨 점점 커지고 있다고 한다. 이 기간 동안 일주일간 발열이 지속되다가 10일간 열이 없는 기간이 반복되었다. 최근 몇 달 동안 옷이 헐렁해졌다. 술은 가끔 마신다. 체온은 38°C(100.4°F), 맥박 90회/분, 혈압 105/60 mmHg이다. 목 양쪽에 약 2.2cm와 4.5cm 크기의 압통 없는 고정성 경부 림프절이 만져진다. 비장 끝이 왼쪽 늑골연 아래 3cm에서 만져진다. 흉부 X선에서 종격동 상부가 뚜렷하게 넓어져 있다. 진단을 확진하기 위한 가장 적절한 방법은 무엇인가?
+60세 남성이 수개월 동안 커진 무통성 경부 림프절, 흠뻑 젖는 야간 발한, 체중 감소로 내원했다. CT에서 종격동 림프절도 커져 있고 경부 림프절은 안전하게 떼어낼 수 있다. 림프종을 확진하고 아형을 분류할 검사는?
 
 ## 선택지
 
-A. 백혈구 수 측정
-B. 객담 중합효소 연쇄반응검사
-C. 흉부 CT
-D. 절제 생검
+A. 경부 림프절 절제생검
+B. 경부 림프절 세침흡인세포검사만
+C. 등쪽 장골에서 골수생검 먼저 시행
+D. FDG PET/CT만 시행
 
 ## 해설
 
 
-호지킨 림프종 진단을 확정하려면 병변 조직을 직접 확인해야 하며, 절제 생검이 표준이다. 혈액 검사나 영상만으로는 확진할 수 없다.
+절제생검은 림프절 구조를 보존해 조직 형태와 면역표현형을 함께 평가할 수 있다. 세침흡인 단독이나 PET/CT만으로는 새 림프종의 아형을 확정하기 어렵다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 절제 생검
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007311
+- https://www.nice.org.uk/guidance/ng52/chapter/recommendations

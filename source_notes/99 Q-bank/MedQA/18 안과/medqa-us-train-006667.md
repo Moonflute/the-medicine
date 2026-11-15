@@ -13,13 +13,13 @@ related_diseases:
   - "일과성 흑암시"
   - "경동맥 협착"
   - "망막 색전"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTgg7JWI6rO8L-yViOqzvC5tZA
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qsr3rj5nrp6Ug7ZiR7LCp7KadIChDYXJvdGlkIGFydGVyeSBzdGVub3NpcykubWQ
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -41,18 +41,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-76세 남성이 들쭉날쭉한 모서리가 보인 후 오른쪽 눈의 중심시야를 잃은 에피소드로 응급실에 내원했다. 6시간 전 발생했고 약 5분 지속되었으며 통증은 없다. 3개월 동안 오른쪽 눈이 간헐적으로 흐렸고 2개월 전 10분 동안 말이 어눌해지고 왼쪽 얼굴이 처진 적도 있다. 고콜레스테롤혈증, 안정형 협심증, 고혈압 및 5년 전 진단받은 제2형 당뇨병이 있다. 글리부리드, 아토르바스타틴, 라베타롤, 이소소르비드, 리시노프릴 및 아스피린을 복용한다. 특별한 증상은 없고 지남력은 정상이다. 체온은 37°C(98.6°F), 맥박은 분당 76회, 호흡수는 분당 12회, 혈압은 154/78 mm Hg이다. 사지는 관류가 양호하고 말초맥박은 강하다. 안과검사에서 시력은 왼쪽 20/30, 오른쪽 20/40이고 시야는 정상이다. 안저검사에서 상측두 및 하측두 혈관궁을 따라 창백한 반점 두 개가 보인다. 신경학적 진찰은 정상이고 오른쪽 경동맥에서 수축기 잡음이 들린다. 심전도는 허혈 소견 없는 정상 동율동이다. 다음 중 처치로 가장 적절한 다음 단계는?
+76세 환자의 오른눈에 검은 커튼이 내려온 듯 시야가 가려졌다가 5분 만에 회복됐다. 안저에 망막 색전이 의심되고 오른쪽 경동맥에 잡음이 있다. 다음 조치는?
 
 ## 선택지
 
-A. 심초음파
-B. 플루오레세인 혈관조영술
-C. 안심시키고 추적 관찰
-D. 경동맥 이중초음파
+A. 증상이 없어졌으므로 일상 추적만 한다
+B. 망막 일과성 허혈로 보고 응급 뇌졸중·두경부 혈관 평가를 진행한다
+C. 안구 윤활제를 쓰고 다시 나타나면 진찰한다
+D. 편두통으로 확정하고 트립탄을 처방한다
 
 ## 해설
 
-일과성 단안 시력소실, 과거 반대쪽 안면마비/구음장애, 망막 색전 의심 소견과 경동맥 잡음은 경동맥 기원 허혈을 강하게 시사한다. 네 선지 중 D, 경동맥 이중초음파가 원인 협착을 평가하는 데 가장 적절하다. 다만 실제 TIA 평가에서는 긴급 뇌 영상과 두경부 혈관 영상, 심장 평가 등도 필요하며 CTA/MRA가 상황에 따라 우선될 수 있다. 시력이 돌아왔다는 이유로 단순 안심·정기 추적만 해서는 안 된다.
+갑작스럽고 일과성인 무통 단안 시력소실은 망막 허혈로 취급한다. 회복됐어도 뇌졸중 위험과 경동맥·심장 색전원을 신속히 평가한다.
 
 ## 검수 근거
 
@@ -63,3 +63,5 @@ D. 경동맥 이중초음파
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006667
+- https://pubmed.ncbi.nlm.nih.gov/33677974/
+- https://www.aao.org/education/preferred-practice-pattern/retinal-ophthalmic-artery-occlusions-ppp

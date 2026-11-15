@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sgrzssKjsi6Dqsr3thrUgKFRyaWdlbWluYWwgbmV1cmFsZ2lhKS5tZA
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ related_drug_slugs:
 
 ## 문제
 
-24세 여성이 4개월 동안 간헐적으로 발생하는 찌르는 듯한 얼굴 통증으로 진료를 받으러 왔다. 왼쪽 뺨에서 시작해 입 쪽으로 퍼지고 강도는 9/10이며 약 30초 지속된다. 세수, 양치, 식사 때 유발되며 시각장애, 안면근육 약화, 청력저하는 없다. 가장 적절한 다음 치료는?
+45세 환자가 삼차신경통으로 진단됐다. 뇌 MRI에서 다른 원인은 확인되지 않았고, 양치가 어려울 정도로 짧은 안면 통증이 반복된다. 초기 약물치료는?
 
 ## 선택지
 
-A. 미세혈관 감압술
-B. 보툴리눔 독소 주사
-C. 고주파 신경근절개술
-D. 카르바마제핀
+A. 가바펜틴을 유일한 표준 초치료로 선택
+B. 통증이 올 때마다 나프록센 복용
+C. 카르바마제핀
+D. 프레드니솔론 단기 투여
 
 ## 해설
 
 
-얼굴에 급성, 찌르는 듯한 통증이 삼차신경분포에 국한되고 씻기·양치가 유발되는 전형적인 삼차신경통이다. 첫 번째 약물 치료는 전기생리학적 안정화가 가능한 카르바마제핀이다. 따라서 카르바마제핀이 가장 적절한 다음 치료이다.
+카르바마제핀과 옥스카르바제핀은 삼차신경통의 초기 약물이다. 실제 처방 전 이상반응·상호작용과 필요한 안전성 평가를 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000408
+- https://pubmed.ncbi.nlm.nih.gov/30860637/

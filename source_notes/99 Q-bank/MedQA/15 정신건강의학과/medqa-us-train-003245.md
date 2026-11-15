@@ -15,11 +15,11 @@ related_diseases:
   - "appetite suppression"
   - "atomoxetine"
   - "Attention-deficit hyperactivity disorder"
-question_type: adverse_effect
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k
 difficulty: simple
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,23 +40,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-15세 남아가 4주 전 주의력결핍과다활동장애로 저용량 메틸페니데이트를 처방받고 추적 진료를 받으러 왔다. 증상은 약간 호전되었지만 식욕이 크게 감소해 지난 4주 동안 체중이 1.6 kg 줄었다. 어머니는 약을 계속 먹이고 싶지 않다고 한다. 다음 중 약물치료에서 선택할 다음 약은?
+15세 청소년이 ADHD로 메틸페니데이트를 사용하던 중 식사를 조정하고 용량도 낮췄지만 식욕 저하와 체중 감소가 지속된다. 주치의와 함께 비자극제로 변경하기로 했다. 적절한 약은?
 
 ## 선택지
 
-A. 아토목세틴
-B. 덱스메틸페니데이트
-C. 덱스트로암페타민
-D. 이미프라민
+A. 덱스메틸페니데이트
+B. 아토목세틴
+C. 이미프라민
+D. 디아제팜
 
 ## 해설
 
-메틸페니데이트 투여 후 현저한 식욕 저하와 체중 감소가 있어 제시된 선택지 중 비자극성 ADHD 치료제인 아토목세틴을 고려한다. 선택적 노르에피네프린 재흡수 억제제이며 '비정신과 약물'이라는 분류는 맞지 않는다. 아토목세틴도 식욕 저하·체중 감소를 일으킬 수 있으므로 영양과 키·체중, 증상 및 부작용을 추적한다.
+아토목세틴은 자극제를 견디기 어려운 ADHD 환자에게 고려하는 비자극제다. 아토목세틴도 식욕이나 심박수에 영향을 줄 수 있으므로 효과와 부작용을 계속 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003245
+- https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=200610632
 
 ## 검수 근거
 

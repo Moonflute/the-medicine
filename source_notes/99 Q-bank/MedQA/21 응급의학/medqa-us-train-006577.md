@@ -13,11 +13,11 @@ related_diseases:
   - "대량 수혈"
   - "구연산염 독성"
   - "전해질 이상"
-question_type: mechanism
+question_type: investigation
 related_disease_slugs:
   - MDUg7Iug7J6lL-yghO2VtOyniCDsnbTsg4EubWQ
 difficulty: complex
-answer: "B"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -41,18 +41,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-67세 남성이 자살 시도 후 응급실에 내원했다. 손목을 절개한 채 아파트에서 손자에게 발견되었고 이송 중 소생술을 받았다. 허혈성 심장질환과 우울증 병력이 있다. 맥박은 거의 만져지지 않고 질문에 일관되게 반응하지 않는다. 체온은 98.2°F(36.8°C), 혈압은 107/48 mmHg, 맥박은 분당 160회, 호흡수는 분당 14회, 산소포화도는 99%이다. 혈액제제를 투여하자 3단위 후 혈압이 127/55 mmHg로 호전되었다. 신체진찰에서 입 주변이 저리고 손목 절개 부위에 통증이 있다고 호소한다. 다음 중 수혈 후 새로 나타난 입 주위 저림과 가장 관련이 깊은 전해질 이상은?
+외상으로 대량 수혈을 받은 환자에게 입 주위 저림이 새로 생겼으며 심전도에서 QT가 길어졌다. 수혈과 관련해 즉시 확인할 전해질 항목은?
 
 ## 선택지
 
-A. 고칼슘혈증
-B. 이온화 칼슘 감소
-C. 유리 철 증가
-D. 검사 이상 없음
+A. 혈청 나트륨
+B. 혈청 인
+C. 총 혈청 단백
+D. 이온화 칼슘
 
 ## 해설
 
-혈액제제에 포함된 구연산은 칼슘을 결합해 이온화 칼슘을 낮출 수 있다. 수혈 후 새로 생긴 입 주위 저림은 이를 의심하게 하는 신경근 증상이며, 제시된 선택지에서는 이온화 저칼슘혈증이 가장 적절하다. 수혈량만으로 실제 저칼슘혈증을 확정할 수는 없으므로 이온화 칼슘을 측정해 확인한다. 구연산은 마그네슘에도 영향을 줄 수 있지만 원문처럼 칼슘 감소를 선택지에서 빼고 저마그네슘혈증만 정답으로 강제하지 않는다.
+혈액제제의 구연산은 칼슘을 결합해 이온화 칼슘을 낮출 수 있다. 대량 수혈 중에는 이온화 칼슘을 반복 측정하고 필요한 경우 보충한다.
 
 ## 검수 근거
 
@@ -65,6 +65,7 @@ D. 검사 이상 없음
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006577
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9977110/
 
 ## 오답 포인트
 

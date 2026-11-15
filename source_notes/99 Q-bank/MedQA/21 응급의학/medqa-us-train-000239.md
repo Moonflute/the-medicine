@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uFuOuFhOq4sCDsmrDsmrjspp0gKEdlcmlhdHJpYyBEZXByZXNzaW9uKS5tZA
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -40,18 +40,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 남성이 불안을 주소로 응급실에 내원하였다. 환자는 매우 불안하며 집에서 복용하던 불안 약물을 복용하지 못했다고 진술하였다. 그는 집에서 복용하던 약물을 투여해 줄 것을 요청하고 있다. 환자의 과거력상 불안과 우울증이 있다. 현재 복용 중인 약물은 클로나제팜(clonazepam), 아미트립틸린(amitriptyline), 로라제팜(lorazepam)이다. 특이 사항으로 환자는 현재 여러 명의 정신과 전문의에게 진료를 받고 있다. 체온은 99.2°F(37.3°C), 혈압은 130/85 mmHg, 맥박은 112회/분, 호흡수는 22회/분, 실내 공기에서 산소 포화도는 100%이다. 신체 검진상 불안해하고 땀을 흘리며 떨림이 있는 젊은 남성으로, 응급실에 머무는 동안 점점 혼란스러워하는 모습이 관찰된다. 이 환자에게 투여해야 할 것은 무엇인가?
+수개월간 고용량 벤조디아제핀을 복용하는 22세 환자가 약을 갑자기 끊었다. 이틀 뒤 떨림, 빈맥, 발한과 혼돈이 진행한다. 중증 금단을 의심할 때 가장 적절한 치료 계획은?
 
 ## 선택지
 
-A. 디아제팜(Diazepam)
-B. 미다졸람(Midazolam)
-C. 중탄산나트륨(Sodium bicarbonate)
-D. 지지 요법 및 모니터링
+A. 즉시 퇴원해 집에서 버티게 한다
+B. 플루마제닐을 투여한다
+C. 항정신병약만 투여한다
+D. 입원 감시하 벤조디아제핀으로 안정화한 뒤 점진적으로 감량한다
 
 ## 해설
 
-Benzodiazepine 복용 중단 뒤 불안·빈맥·발한·떨림과 진행하는 혼돈은 금단을 시사한다. 장시간 작용하는 diazepam(A) 등 적절한 benzodiazepine으로 안정화하고 감시하에 점진 감량을 계획한다. Diazepam은 반감기가 짧은 약이 아니며 활성 대사산물도 있다. 중증 금단은 발작·섬망 위험이 있어 단순 안심·관찰만으로 끝내지 않는다.
+장기 복용 뒤 갑자기 끊으면 섬망이나 발작이 생길 수 있다. 중증 금단은 입원 감시하에서 안정화하고, 이후 환자에 맞춰 서서히 감량한다.
 
 ## 검수 근거
 

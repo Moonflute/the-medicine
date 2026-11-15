@@ -15,9 +15,9 @@ related_diseases:
   - "바이러스성 발열"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-21세 남성이 피로감으로 일차 진료를 받으러 왔다. 지난달 대학을 졸업했고 3일 전 베트남과 캄보디아에서 2주간의 휴가를 마치고 돌아왔다. 지난 2일 동안 두통, 권태감, 손과 손목의 통증이 점점 심해졌다. 천식 과거력이 있으며 필요할 때 알부테롤로 조절하고 있다. 남녀 모두와 성관계를 하며 콘돔은 ‘대부분의 경우’ 사용한다. 체온은 102.5°F(39.2°C), 혈압 112/66 mmHg, 맥박 105회/분, 호흡 12회/분, 실내 공기 산소포화도 98%였다. 양측 중수지절관절을 촉진할 때 압통이 있었고 몸통과 허벅지 위쪽에 반구진성 발진이 있었다. 지혈대 검사는 음성이었다. 검사 결과 혈색소 14 g/dL, 헤마토크릿 44%, 백혈구 3,200/mm³, 혈소판 112,000/mm³였다. 혈청 나트륨 142 mEq/L, 염소 104 mEq/L, 칼륨 4.6 mEq/L, 중탄산염 24 mEq/L, 혈액요소질소 18 mg/dL, 포도당 87 mg/dL, 크레아티닌 0.9 mg/dL, AST 106 U/L, ALT 112 U/L, 총 빌리루빈 0.8 mg/dL, 직접 빌리루빈 0.3 mg/dL였다. 다음 중 이 환자에서 가장 가능성 높은 진단은?
+동남아 여행에서 돌아온 환자에게 발열, 발진과 양쪽 손목·손가락 관절통이 생겼다. 치쿤구니야가 의심되지만 혈소판이 낮고 뎅기열 검사는 아직 결과가 나오지 않았다. 우선 사용할 해열진통제는?
 
 ## 선택지
 
-A. 치쿤구니야
-B. 뎅기열
-C. 엡스타인-바 바이러스 감염
-D. A형간염
+A. 이부프로펜
+B. 아세트아미노펜
+C. 아스피린
+D. 나프록센
 
 ## 해설
 
 
-여행 후 고열·발진과 손/손목의 두드러진 관절통은 치쿤구니야(A)를 시사한다. 감염된 Aedes 모기가 매개하며 살충제가 매개하는 것이 아니다. 혈소판감소는 뎅기 등에서도 보이므로 음성 지혈대 검사만으로 뎅기를 배제하지 않고 역학·검사와 함께 판단한다.
+치쿤구니야가 의심돼도 뎅기열을 배제하기 전에는 출혈 위험을 줄이기 위해 아스피린과 다른 비스테로이드성 소염제를 피하고 아세트아미노펜을 사용한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. A형간염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000229
+- https://www.cdc.gov/chikungunya/hcp/treatment-prevention/index.html

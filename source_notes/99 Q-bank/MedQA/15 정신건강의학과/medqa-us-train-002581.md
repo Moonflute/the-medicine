@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2UvOu2gOucr-q4sOq4sOyepeyVoCAoRXhjb3JpYXRpb24gRGlzb3JkZXIpLm1k
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,23 +39,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-88세 남성이 불면으로 일차진료의를 방문했다. 전쟁 중 동료 병사들과 겪은 사건이 강한 기억으로 떠오르고, 작은 소리에도 놀라며 식은땀을 흘리며 깬다. 최근 친구의 장례식 후 악화되었고 수주간 양질의 수면을 취하지 못했다. 다음 중 가장 적절한 초기 약물치료는?
+45세 환자가 외상후스트레스장애를 진단받았다. 반복 악몽과 회피로 생활이 어렵다. 외상 중심 심리치료를 설명했고, 환자는 우선 약물치료를 원한다. 근거가 있는 약은?
 
 ## 선택지
 
-A. 부프로피온
-B. 부스피론
-C. 클로나제팜
-D. 에스시탈로프람
+A. 세르트랄린
+B. 에스시탈로프람
+C. 부스피론
+D. 클로나제팜
 
 ## 해설
 
-외상 관련 침투 기억·과각성·수면장애는 PTSD를 시사한다. 원문은 제시된 선택지 중 SSRI인 에스시탈로프람을 정답으로 삼지만, 2023 VA/DoD 지침에서 에스시탈로프람의 PTSD 효과는 권고를 내리기에 근거가 충분하지 않다. 약물 근거가 더 확립된 세르트랄린·파록세틴·벤라팍신과 외상 중심 정신치료가 선택지에 빠져 있다는 한계가 있다. 따라서 에스시탈로프람이 보편적으로 우수한 1차 약이라는 기존 설명은 맞지 않으며, 특히 고령 환자는 저나트륨혈증·상호작용 등 안전성을 따로 평가한다.
+세르트랄린·파록세틴·벤라팍신은 PTSD 약물치료 근거가 있다. 치료 선택에 환자의 선호를 반영하고 외상 중심 심리치료도 계속 안내한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002581
+- https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=201007672
 
 ## 검수 근거
 

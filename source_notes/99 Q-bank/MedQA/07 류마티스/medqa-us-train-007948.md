@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Zek64W47Z2QLeyJlOudvOyduCDsnpDrsJjspp0gKEhlbm9jaC1TY2hvbmxlaW4gUHVycHVyYSkubWQ
-question_type: diagnosis
+question_type: monitoring
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-6세 남아가 발진 평가를 위해 어머니와 소아과에 내원했다. 발진은 1주일 조금 전에 생겼고 이후 피로감을 느꼈다. 밖에서 노는 것보다 실내에 있기를 선호하며 무릎과 배가 아프다고 한다. 2주 전 치료 없이 호전된 상기도 감염 병력이 있다. 체온 99.5°F(37.5°C), 혈압 115/70 mmHg, 맥박 90회/분, 호흡수 18회/분이다. 하지에 흩어진 자주색 반점과 구진이 있고 복부 전반에 압통이 있다. 경부 림프절병증이나 결막 충혈은 없다. 다음 중 이 환자에게 가장 가능성 높은 소견은?
+6세 남아가 IgA 혈관염으로 진단됐다. 발진과 복통은 호전됐고 처음 혈압과 소변검사는 정상이다. 늦게 나타나는 신염을 발견하기 위한 계획은?
 
 ## 선택지
 
-A. 관상동맥류
-B. 백혈구파괴성 혈관염
-C. 승모판 역류
-D. 혈소판감소증
+A. 증상이 재발할 때까지 소변검사를 하지 않는다
+B. 혈압과 소변을 정기적으로 확인하고 적어도 6개월 동안 소변검사를 반복한다
+C. 발진이 사라졌어도 예방 목적으로 매년 신장 생검을 한다
+D. 혈청 IgA만 한 번 재검한다
 
 ## 해설
 
 
-소아에서 팔다리 자주색 반점, 복통, 최근 상기도 감염 후 발생은 IgA 혈관염(Henoch‑Schönlein purpura)이다. 이는 백혈구 파괴성 혈관염에 해당한다.
+IgA 혈관염의 신장 침범은 나중에 증상 없이 생길 수 있다. 첫 소변검사가 정상이어도 적어도 6개월 동안 요검사를 반복하고, 혈압·단백뇨와 신기능을 상황에 맞춰 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 혈소판감소증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007948
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11666671/

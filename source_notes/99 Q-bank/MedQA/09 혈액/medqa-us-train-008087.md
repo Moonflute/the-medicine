@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: management
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-5세 여아가 6일 동안 지속된 복통, 구토, 설사로 응급실에 왔다. 지난 24시간 동안 발진과 소변량 감소가 생겼다. 한 달 전 3일간 고열과 인후통이 있었지만 치료 없이 호전되었다. 쇠약해 보이며 체온 37.7°C(99.8°F), 맥박 120회/분, 호흡수 28회/분, 혈압 114/72 mm Hg이다. 몸통에 점상출혈과 피부 황달이 있고 복부는 전반적으로 압통이 있지만 복막자극 징후는 없다. 헤모글로빈 8 g/dL, 백혈구 16,200/mm³, 혈소판 38,000/mm³, BUN 43 mg/dL, 크레아티닌 2.9 mg/dL, pH 7.0이다. 소변에서 혈액과 단백이 양성이고 혈액도말에서 분열적혈구가 보인다. 지지요법 외에 가장 적절한 다음 처치는?
+혈성 설사 뒤 용혈성요독증후군으로 입원한 아이의 소변량이 줄었다. 초기 처치에도 폐부종과 호흡곤란이 심해지고 산증이 지속된다. 신장 진료팀과 우선 할 처치는?
 
 ## 선택지
 
-A. 디아제팜 치료
-B. 적혈구 수혈
-C. 혈소판 수혈
-D. 혈액투석
+A. 부종이 있어도 수액만 계속 늘린다
+B. 신대체요법을 신속히 시작한다
+C. 혈소판 수만 낮다는 이유로 예방적 혈소판 수혈을 한다
+D. 신기능이 영구적으로 회복되지 않는지 확인할 때까지 기다린다
 
 ## 해설
 
 
-미세혈관성 용혈·혈소판감소·신손상은 HUS에 부합한다. 핍뇨와 pH7.0의 심한 산염기 이상은 신장 전문팀의 긴급 평가와 교정을 필요로 하며 선택지 D의 신대체요법이 가장 적절하다. 투석은 생명위협성/치료 불응 산염기·전해질·체액 문제에 시행하며 신장이 영구 회복 불가능하다는 판정을 기다리는 치료가 아니다. 회복되면 중단할 수 있다.
+용혈성요독증후군에서 치료에 반응하지 않는 폐부종이나 심한 산증은 신대체요법 적응증이다. 투석을 시작하기 위해 콩팥 손상이 영구적인지 확인할 필요는 없다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 혈액투석
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008087
+- https://www.cdc.gov/ecoli/hcp/guidance/

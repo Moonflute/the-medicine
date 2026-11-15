@@ -14,11 +14,11 @@ related_diseases:
   - "vitamin D deficiency"
   - "metabolic bone disease"
   - "malnutrition"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67mE7YOA66-8IEQg6rKw7ZWN7KadIChWaXRhbWluIEQgRGVmaWNpZW5jeSkubWQ
 difficulty: simple
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-성장이 지연되고 쇠약한 6세 난민 여아가 내원했다. 가족은 수년간 여러 번 이주했고 영양과 주거가 부족했다. 하지에 다리가 휘어 있고 근위부 근력이 감소했으며 복부가 돌출되어 있다. 흉부에서 흡기 시 늑골하 함몰이 보이고 손목 영상이 제시되어 있다. 다음 중 이 상태의 가장 가능성 높은 원인은?
+6세 아이가 성장 둔화와 양쪽 휜 다리로 왔다. X선에서 성장판 주위의 골간단이 벌어지고 가장자리가 불규칙하다. 25-하이드록시비타민 D는 매우 낮고 식사로 먹는 칼슘도 부족하다. 영양 구루병 치료는?
 
 ## 선택지
 
-A. 콜라겐 합성 결함
-B. 단백질 섭취 부족
-C. 파골세포 과활성
-D. 비타민 D 결핍
+A. 비타민 D만 보충하고 칼슘 섭취는 제한한다
+B. 비타민 D를 치료 용량으로 보충하고 충분한 칼슘도 함께 공급한다
+C. 비타민 D와 칼슘 대신 철분을 보충한다
+D. 뼈가 휘었으므로 영양 교정 없이 수술만 한다
 
 ## 해설
 
-영양·생활환경의 결핍과 휜 다리, 근위부 약화·성장 지연 및 늑골하 홈은 구루병을 시사하며 보기 중 비타민 D 결핍(D)이 적절하다. 비타민 D 부족에 따른 칼슘/인 항상성 변화는 성장판 무기질화 장애로 이어질 수 있다. 참조 손목 영상은 제공되지 않았으므로 특정 골절이나 영상 소견을 봤다고 쓰지 않는다. 기존의 '프리시스', '우레아성 골절'은 이 사례를 설명하는 적절한 용어가 아니다.
+확진된 영양 구루병은 예방 용량을 유지하는 것과 달리 비타민 D를 치료 용량으로 투여한다. 무기질화 회복에는 칼슘도 충분해야 하며 성장과 검사 수치를 추적한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 비타민 D 결핍
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003328
+- https://pubmed.ncbi.nlm.nih.gov/26745253/

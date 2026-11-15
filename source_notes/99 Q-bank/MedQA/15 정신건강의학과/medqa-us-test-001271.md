@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,23 +35,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-21세 대학생이 2개월간 주간 피로로 진료를 받으러 왔다. 밤에 잠들기 어렵고 수업 중 자주 잠들며 오전 8시 30분에 일어나도 매우 졸리다. 오후에 한 시간 넘게 낮잠을 자고 멜라토닌과 오후 8시 운동을 시도했지만 효과가 없었다. 가장 적절한 권고는?
+21세 학생은 몇 달째 새벽 3시 전에는 잠들기 어렵고 아침 수업에 늦는다. 방학에는 새벽 3시부터 오전 11시까지 잘 자고 개운하다. 수면 시간을 앞당기기 위해 권할 첫 조치는?
 
 ## 선택지
 
-A. 디펜히드라민을 시험한다
-B. 저녁 운동을 중단한다
-C. 취침 전 술을 마신다
-D. 오후에 계획된 낮잠을 잔다
+A. 기상 시간을 매일 크게 바꾼다
+B. 늦은 저녁에 밝은 빛을 오래 쬔다
+C. 일정한 기상 시간을 유지하고 아침 빛을 늘리며 밤의 밝은 빛을 줄인다
+D. 아침 수업 전에 긴 낮잠을 자서 수면을 보충한다
 
 ## 해설
 
-불면과 주간졸림에서 수면 일정, 낮잠, 카페인, 운동 시각·강도를 함께 점검한다. 제시된 선택지 중 저녁 운동을 중단하거나 시간을 앞당겨 수면에 미치는 영향을 평가하는 조정이 적절하다. 특히 취침 직전의 격렬한 운동은 피하지만, 모든 저녁 운동이 해롭거나 멜라토닌 억제로 이 사례의 수면위상지연이 확정된다는 뜻은 아니다. 술이나 디펜히드라민을 수면 해결책으로 삼거나 긴 오후 낮잠을 추가하는 것은 적절하지 않다.
+수면-각성 위상 지연에서는 원하는 일정에 비해 잠드는 때와 깨는 때가 늦다. 일정한 기상 시간과 빛 노출 조절을 우선하며, 필요하면 전문 상담 후 시간을 맞춘 치료를 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001271
+- https://pubmed.ncbi.nlm.nih.gov/26414986/
+- https://pubmed.ncbi.nlm.nih.gov/29912983/
 
 ## 검수 근거
 

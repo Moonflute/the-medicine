@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-3세 남아가 며칠간 발열과 귀 통증으로 진료를 받으러 왔다. 왼쪽 고막이 불투명하고 팽창하며 공기압 이경검사에서 움직임이 감소되어 있다. 가장 적절한 다음 처치는?
+18개월 아이가 어제부터 미열과 가벼운 귀 통증이 있다. 이경검사에서 양쪽 고막이 뚜렷하게 팽륜했다. 화농성 결막염과 최근 항생제 사용, 페니실린 알레르기는 없다. 첫 경구 항생제는?
 
 ## 선택지
 
 A. 아목시실린
-B. 트리메토프림-설파메톡사졸
-C. 고막천자
-D. 대증치료
+B. 아지트로마이신
+C. 클린다마이신
+D. 경구 시프로플록사신
 
 ## 해설
 
-3세에서 팽륜·불투명·운동성 감소의 고막과 며칠 지속된 이통은 급성 중이염에 부합한다. 항생제를 선택할 때 최근 amoxicillin 사용·알레르기 등 예외가 없으면 amoxicillin(A)이 일차 선택이다. 경한 일부 중이염은 관찰할 수 있지만 연령1세 이하로만 약물 적응증을 설명하지 않는다.
+24개월 미만에서 급성 중이염이 확실하면 항생제 치료를 한다. 비중증이고 최근 항생제 사용이나 화농성 결막염이 없다면 아목시실린을 우선한다.
 
 ## 검수 근거
 
@@ -62,3 +62,5 @@ D. 대증치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000861
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3410229/
+- https://jkms.org/DOIx.php?id=10.3346%2Fjkms.2012.27.8.835

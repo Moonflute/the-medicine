@@ -13,7 +13,7 @@ related_diseases:
   - "Molluscum contagiosum"
   - "Verruca vulgaris"
   - "Chickenpox"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-usvOyCrOuniOq3gCAoTW9sbHVzY3VtIENvbnRhZ2lvc3VtKS5tZA
   - MTIg7IKw6rO8L-yImOuRkCAoVmFyaWNlbGxhKS5tZA
@@ -21,7 +21,7 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강하던 2세 여아가 복부에 다수의 통증이 없고 가렵지 않은 구진이 관찰되어 어머니와 함께 내원하였다. 아이는 주 3회 어린이집에 다니고 있으며, 지난주에 한 아이가 비슷한 병변을 보였다고 보고되었다. 예방접종은 최신 상태이다. 오빠는 한 달 전에 수두(chickenpox)를 앓았다. 키는 50백분위수, 체중은 60백분위수이다. 활력징후는 정상 범위 내에 있다. 진찰 결과 복부와 사지에 중심 함몰(central umbilication)이 있는 피부색의 통증이 없는 진주색 구진이 여러 개 관찰되었다. 나머지 진찰 소견은 정상이다. 가장 가능성이 높은 진단은 무엇인가?
+3세 아이의 몸통에 중앙이 오목한 진주빛 구진이 여러 개 있다. 아프거나 가렵지 않고 면역저하도 없다. 전염성 연속종으로 판단했다. 보호자에게 가장 적절한 안내는?
 
 ## 선택지
 
-A. 곤충 교상(Insect bites)
-B. 전염성 연속종(Molluscum contagiosum)
-C. 심상성 사마귀(Verruca vulgaris)
-D. 수두(Chickenpox)
+A. 항바이러스제를 복용하고 구진이 없어질 때까지 등원을 중단한다
+B. 대개 저절로 없어지므로 관찰하되 병변을 가리고 수건은 따로 쓴다
+C. 노출된 병변은 집에서 짜서 내용물을 없앤다
+D. 다른 아이에게 옮지 않으므로 수건을 함께 써도 된다
 
 ## 해설
 
 
-중심 함몰을 동반한 진주색 구진은 전염성 연속종의 특징이다. 전염성 연속종은 전염성이 높으며, 어린이에게 흔히 나타난다. 따라서 전염성 연속종이 가장 가능성 높은 진단이다.
+전염성 연속종은 건강한 소아에서 대개 자연 소실된다. 등원을 일률적으로 막지 않고 상처를 건드리지 않도록 하며, 병변을 가리고 수건이나 개인 물품을 공유하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000972
+- https://www.cdc.gov/molluscum-contagiosum/special-environments/

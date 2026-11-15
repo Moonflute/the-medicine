@@ -16,6 +16,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -32,7 +33,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-환자가 유방촬영술(mammogram)을 시행받았고, 불규칙한 경계와 침상 모양(spiculated)의 가장자리를 가진 6.5mm 크기의 종괴가 관찰되었습니다. 이후 시행한 종괴의 중심부 바늘 생검(core needle biopsy) 결과, HER2 양성, 에스트로겐 수용체 음성, 프로게스테론 수용체 음성인 침윤성 관암종(infiltrating ductal carcinoma)으로 확인되었습니다. 혈구 수치와 간 기능 검사는 정상입니다. 검사 결과는 다음과 같습니다: 혈색소 12.5 g/dL, 혈청 Na+ 140 mEq/L, Cl- 103 mEq/L, K+ 4.2 mEq/L, HCO3- 26 mEq/L, Ca2+ 8.9 mg/dL, 요소질소(BUN) 12 mg/dL, 포도당 110 mg/dL, 알칼리성 인산분해효소(ALP) 25 U/L, 알라닌 아미노전이효소(ALT) 15 U/L, 아스파르트산 아미노전이효소(AST) 13 U/L. 다음 중 가장 적절한 다음 관리 단계는 무엇입니까?
+환자가 유방촬영술(mammogram)을 시행받았고, 불규칙한 경계와 침상 모양(spiculated)의 가장자리를 가진 6.5mm 크기의 종괴가 관찰되었습니다. 이후 시행한 종괴의 중심부 바늘 생검(core needle biopsy) 결과, HER2 양성, 에스트로겐 수용체 음성, 프로게스테론 수용체 음성인 침윤성 관암종(infiltrating ductal carcinoma)으로 확인되었습니다. 혈구 수치와 간 기능 검사는 정상입니다. 검사 결과는 다음과 같습니다: 혈색소 12.5 g/dL, 혈청 Na+ 140 mEq/L, Cl- 103 mEq/L, K+ 4.2 mEq/L, HCO3- 26 mEq/L, Ca2+ 8.9 mg/dL, 요소질소(BUN) 12 mg/dL, 포도당 110 mg/dL, 알칼리성 인산분해효소(ALP) 25 U/L, 알라닌 아미노전이효소(ALT) 15 U/L, 아스파르트산 아미노전이효소(AST) 13 U/L. 가장 적절한 다음 처치는 무엇입니까?
 
 ## 선택지
 

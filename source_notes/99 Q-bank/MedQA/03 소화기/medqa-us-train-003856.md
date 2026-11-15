@@ -16,9 +16,9 @@ related_diseases:
   - "laparoscopic appendectomy"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7Lap7IiY7Je8IChBY3V0ZSBBcHBlbmRpY2l0aXMpLm1k
-question_type: management
+question_type: investigation
 difficulty: simple
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 남성이 하루 종일 지속된 오른쪽 아랫배 통증, 식욕부진, 오심과 구토로 응급실에 왔다. 왼쪽 아랫배를 깊게 누르면 오른쪽 통증이 증가했다. 다음 중 가장 적절한 다음 처치는?
+29세 남성이 하루 동안 배꼽에서 오른쪽 아랫배로 이동한 통증과 미열로 왔다. 국소 압통은 있으나 범복막염이나 쇼크는 없다. 초음파에서 충수가 보이지 않아 판단이 어렵고, 정맥 조영제 금기는 없다. 다음 검사는?
 
 ## 선택지
 
-A. 복부 방사선촬영
-B. 복부 초음파
+A. 복부 단순 X선
+B. 복부·골반 조영 CT
 C. 대장내시경
-D. 복강경 수술
+D. 위장관 조영검사
 
 ## 해설
 
-지속 RLQ 통증·식욕부진·구토와 Rovsing sign은 급성 충수염 가능성을 높이므로 선택지 중 D의 복강경 평가/충수절제 접근이 부합한다. 다만 이 징후만으로 항상 확진되는 것은 아니며 임상 위험도·검사와 진단확실성에 따라 US/CT 등 영상평가를 활용한다. 모든 환자의 영상이 불필요하다는 기존 설명은 과도하다.
+충수염 의심이 계속되는 안정적인 성인에서 초음파가 비진단적이면 조영 CT로 충수와 합병증 및 대체 진단을 평가한다. 우하복부 압통이나 로브싱 징후만으로 바로 수술을 결정하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 복강경 수술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003856
+- https://pubmed.ncbi.nlm.nih.gov/28919126/

@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k
 question_type: management
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,19 +40,19 @@ related_drug_slugs:
 
 ## 문제
 
-37세 여성이 2주 동안 지속된 전신 피로와 권태감으로 내원했다. 미열을 동반한 비생산성 기침이 있고 지난 6개월 동안 13kg(28.6lb) 체중이 감소했으며 간헐적으로 물 같은 설사를 했다. 범불안장애와 갑상선기능저하증이 있고 설파제에 심한 알레르기가 있다. 성 파트너가 3명이며 콘돔은 일관되게 사용하지 않는다. 하루 한 갑씩 20년간 흡연하고 맥주 2~3잔을 매일 마신다. 체온은 38.7°C(101.6°F), 맥박은 분당 110회, 혈압은 100/75 mmHg, 실내 공기 산소포화도는 94%이다. 양측 폐에 수포음과 론카이가 들리고 혀 가쪽에 긁어도 벗겨지지 않는 흰색 판이 있다. 흉부 X선에서 대칭적인 미만성 간질성 침윤이 보인다. 다음 중 가장 적절한 약물치료는 무엇인가?
+HIV 환자가 중등도 이상 폐포자충 폐렴으로 입원했다. 설폰아미드에 중증 지연성 피부 이상반응을 겪어 트리메토프림/설파메톡사졸을 쓸 수 없고, G6PD는 정상이다. 사용할 치료 조합은?
 
 ## 선택지
 
-A. 정맥 내 플루코나졸
-B. 정맥 내 클린다마이신과 경구 프리마퀸
-C. 정맥 내 트리메토프림-설파메톡사졸
-D. 정맥 내 트리메토프림-설파메톡사졸과 경구 프레드니손
+A. 클린다마이신과 프리마퀸
+B. 플루코나졸과 플루시토신
+C. 아토바쿠온 단독
+D. 흡입 펜타미딘
 
 ## 해설
 
 
-마른기침·면역저하 단서·미만성 간질 침윤으로 PCP를 의심하며 중증 sulfa 알레르기 맥락의 B clindamycin+primaquine은 권고 대안이다. Primaquine 전 G6PD 상태를 확인하고 결핍이면 용혈 위험 때문에 다른 대안을 선택한다. ABG/가스교환 중증도로 보조 steroid 적응을 판단하며 SpO₂94%만으로 필요 여부를 확정하지 않는다. HIV 및 병원체 진단·ART 계획도 평가한다.
+중등도 이상 폐포자충 폐렴에서 1차 약을 쓸 수 없으면 클린다마이신과 프리마퀸이 대안이다. 프리마퀸의 용혈 위험 때문에 투여 전에 G6PD를 확인한다.
 
 ## 검수 근거
 

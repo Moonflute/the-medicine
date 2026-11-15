@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,7 +38,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 35주인 38세 G2P1 여성이 통증 없이 발생했다가 멎은 질 출혈로 내원했다. 이전에 둔위로 제왕절개를 받았고, 질식 초음파에서 태반이 내경을 덮고 있었다. 다음 중 가장 적절한 다음 처치는?
+임신 35주인 38세 G2P1 여성이 통증 없이 발생했다가 멎은 질 출혈로 내원했다. 이전에 둔위로 제왕절개를 받았고, 질식 초음파에서 태반이 내경을 덮고 있었다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

@@ -15,13 +15,13 @@ related_diseases:
   - "시각 환각"
   - "약물 이상반응"
   - "Levodopa-induced psychosis"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7Kad7ZuE6rWwIChQYXJraW5zb25pc20pLm1k
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,21 +38,22 @@ related_drug_slugs:
 
 ## 문제
 
-72세 여자가 실제로 존재하지 않는 것을 보고 있다고 호소하며 내원했다. 때로는 부엌에서 개를 보고, 때로는 정원에서 낯선 사람을 보는데 다른 사람은 아무것도 보지 못한다. 지난 일주일 동안 일상적인 일을 할 의욕도 부족했다. 3년 전 파킨슨병을 진단받아 레보도파와 카비도파를 복용하기 시작했다. 남동생은 조현병이 있다. 갑상선기능저하증으로 레보티록신도 복용한다. 매일 와인 한 병을 마셨지만 2개월 전부터 술을 끊었다. 신경학적 검사에서 손의 경미한 안정시 떨림과 서동증이 보인다. 사고 과정은 체계적이고 논리적이다. 이 환자의 증상을 일으킨 가장 가능성 높은 원인은 무엇인가?
+레보도파와 도파민 작용제를 복용하는 파킨슨병 환자에게 증량 뒤 사람이나 동물이 보이는 환각이 생겼다. 의식과 주의력은 정상이고 감염 등 급성 원인은 평가했다. 운동 증상도 고려한 다음 조치는?
 
 ## 선택지
 
-A. 약물의 이상반응
-B. 조현병
-C. 주요우울장애
-D. 조절되지 않는 갑상선기능저하증
+A. 레보도파를 당일 모두 중단한다
+B. 유발 가능 약을 검토하고 전문팀과 단계적 조정을 논의한다
+C. 운동 증상과 상관없이 할로페리돌을 첫 약으로 시작한다
+D. 환각을 조현병으로 확정하고 파킨슨병 진료를 중단한다
 
 ## 해설
 
 
-레보도파·카비도파 복용 시 시각 환각이 흔히 발생하며, 이는 약물의 도파민 전구체 효과에 기인한다. 조현병·우울증·갑상선 저하와는 구분된다. 따라서 약물 이상반응이 가장 가능성 높은 원인이다
+파킨슨병의 환각에서는 급성 유발 요인을 평가한 뒤, 증상을 유발할 수 있는 약을 전문팀과 검토한다. 금단과 운동 악화를 고려해 도파민성 약을 갑자기 끊지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007132
+- https://www.nice.org.uk/guidance/ng71/chapter/recommendations

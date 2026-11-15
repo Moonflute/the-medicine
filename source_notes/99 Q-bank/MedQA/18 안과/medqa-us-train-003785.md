@@ -19,7 +19,7 @@ question_type: management
 related_disease_slugs:
   - MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-62세 남성이 갑자기 발생한 심한 오른쪽 눈 통증과 시야흐림, 오심으로 응급실에 왔다. 오른쪽 눈은 단단하고 결막이 충혈되었으며 각막이 흐리고 동공은 6 mm로 산대되어 빛에 반응하지 않았다. 다음 중 가장 적절한 초기 치료는?
+62세 환자에게 갑작스러운 눈 통증, 각막부종과 고정된 중간산동이 있다. 안압은 48 mmHg이고 급성 동공차단성 폐쇄각 발작으로 판단했다. 응급 안과 처치를 준비하며 할 초기 치료는?
 
 ## 선택지
 
-A. 정맥 아세타졸아미드
-B. 망막 광응고술
-C. 국소 에피네프린
-D. 국소 프레드니솔론
+A. 국소 스테로이드만 투여한다
+B. 망막 레이저 치료를 먼저 한다
+C. 아세타졸아미드와 적절한 점안 안압하강제로 신속히 안압을 낮춘다
+D. 산동제를 먼저 투여해 각막이 맑아지기를 기다린다
 
 ## 해설
 
-심한 안통·오심, 단단한 안구, 각막 혼탁과 고정된 산동은 급성 폐쇄각 발작에 합당하다. 선지 중 A, 정맥 acetazolamide는 방수 생성을 억제하여 초기 안압 하강에 사용할 수 있다. 실제 초기 치료는 금기와 중증도에 따라 국소 안압 하강제 등을 병용하고, 이후 원인에 맞는 주변홍채절개술 등의 확정 치료를 진행한다. 망막 광응고나 국소 steroid 단독으로 안압 응급을 해결할 수는 없다.
+급성 폐쇄각 발작은 안압을 즉시 낮춰야 한다. 전신·점안 약의 금기를 확인하고 사용할 수 있는 약을 병용한 뒤 동공차단을 해소한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 국소 프레드니솔론
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003785
+- https://pubmed.ncbi.nlm.nih.gov/41665581/

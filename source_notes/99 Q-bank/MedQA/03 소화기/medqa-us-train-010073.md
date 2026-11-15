@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-복부 대동맥류를 개복 수술로 복구한 지 5일 후 68세 여성에게 복통과 경련이 생겼다. 이 기간에 묽은 혈변을 두 차례 보았다. 수술 중 심한 출혈로 혈관수축제와 여러 차례 수혈이 필요했다. 수술 전후 항생제로 세파졸린을 투여했다. 고혈압, 고콜레스테롤혈증, 관상동맥질환이 있고 50년 동안 매일 담배 두 갑을 피웠다. 체온 38.0°C, 맥박 분당 110회, 혈압 96/58 mmHg이며 아파 보인다. 복부는 팽창되고 장음은 들리지 않으며 모든 사분면에 극심한 압통이 있다. 복부 X선에서 공기로 팽창된 장이 보인다. 다음 중 가장 가능성 높은 진단은?
+복부 대동맥류 개복 수술 때 저혈압과 다량 출혈이 있었던 68세 여성이 수술 3일 뒤 하복부 경련과 혈변을 보인다. 조영 CT에서 좌측 결장의 일부가 부어 있고 그 구간의 조영증강이 감소했다. 가장 가능성 높은 합병증은?
 
 ## 선택지
 
-A. 수술 후 장폐색
+A. 마비성 장폐색
 B. 위막성 대장염
 C. 허혈성 대장염
-D. 복부 대동맥류 파열
+D. 장유착에 의한 소장폐색
 
 ## 해설
 
 
-복부 대동맥류 수술 후 저관류와 혈압 저하, 복부 팽만·장음 소실·복부 X‑ray에서 공기 팽창은 허혈성 대장염을 시사한다. 이는 장관 혈류 감소에 의한 급성 염증이며, 다른 선택지는 출혈·폐색·파열과 일치하지 않는다. 따라서 정답은 C이다.
+대동맥 수술 전후의 저관류와 새 하복부 통증·혈변, 국소 결장 영상 변화는 허혈성 대장염을 시사한다. 복막 자극이나 관류 악화가 동반되면 장 괴사 가능성을 평가한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 복부 대동맥류 파열
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010073
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12775968/

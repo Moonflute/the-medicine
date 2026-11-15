@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-u2iOyZhOyghCDsnKDsgrAgKEluY29tcGxldGUgQWJvcnRpb24pLm1k
   - MTIg7IKw6rO8L-yekOyXsCDsnKDsgrAgKFNwb250YW5lb3VzIEFib3J0aW9uKS5tZA
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 8주인 34세 초임부가 질 출혈과 경련성 하복부 통증이 시작된 지 4시간 후 응급실에 왔다. 크고 작은 혈전이 여러 개 나왔고 출혈과 통증은 시작 당시보다 줄었다. 체온 37°C(98.6°F), 맥박 98회/분, 혈압 112/76 mm Hg이다. 골반검사에서 경미한 질 출혈과 닫힌 자궁경부가 보인다. 골반 초음파에서 자궁내막강에 소량의 액체만 있고 임신낭은 없다. 가장 가능성 높은 진단은?
+임신 7주에 자궁내 임신낭과 배아를 확인했던 산모가 임신 8주에 출혈과 조직 배출을 겪었다. 통증과 출혈이 줄고 경부가 닫혔으며, 질식 초음파에서 임신낭과 잔류 조직은 보이지 않는다. 가장 가능성이 높은 진단은?
 
 ## 선택지
 
 A. 계류유산
-B. 완전유산
-C. 절박유산
+B. 절박유산
+C. 완전유산
 D. 불완전유산
 
 ## 해설
 
-혈전 배출 후 통증·출혈이 감소하고 자궁경부가 닫히며 임신낭이 보이지 않아 선택지 중 완전유산(B)이 가장 적합하다. 본문에는 소량 출혈이 남아 있으므로 출혈이 완전히 멈췄다고 설명하면 안 된다. 이전 자궁내 임신이 확인되지 않았다면 빈 자궁만으로 완전유산을 확정하지 말고 자궁외임신 등 임신 위치를 추가 평가한다.
+이전 자궁내 임신이 확인됐고 임신조직 배출 후 경부가 닫혔으며 잔류 조직이 없어 완전유산에 부합한다. 이전 임신 위치를 몰랐다면 빈 자궁만으로 완전유산을 단정하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 불완전유산
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007947
+- https://www.nice.org.uk/guidance/ng126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy

@@ -13,14 +13,14 @@ related_diseases:
   - "광선각화증"
   - "편평세포암"
   - "만성 자외선 노출"
-question_type: prognosis
+question_type: complication
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-q0keyEoCDqsIHtmZTspp0gKEFjdGluaWMgS2VyYXRvc2lzKS5tZA
   - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-66세 남자가 이마 병변을 만질 때 사포 같은 느낌이 난다고 내원했다. 과거 정원사로 일했고 이마에 얇고 붙어 있는 황색의 거친 피부 병변이 있다. 치료하지 않으면 다음 중 어떤 질환이 발생할 가능성이 가장 높은가?
+야외 근무를 오래 한 66세 환자의 이마에 만지면 사포처럼 거친 홍반성 인설반이 있다. 단단한 결절이나 궤양은 없다. 이 병변이 진행할 수 있는 암은?
 
 ## 선택지
 
 A. 기저세포암
-B. 편평세포암
-C. 균상식육종
-D. 지루각화증
+B. 흑색종
+C. 피부 편평세포암
+D. 피지샘암
 
 ## 해설
 
 
-만성 햇빛 노출로 인한 편평세포의 광선각화증은 편평세포암으로 진행 위험이 가장 높다. 따라서 치료하지 않을 경우 편평세포암 발생 가능성이 가장 크다.
+광선각화증은 만성 자외선으로 손상된 각질형성세포 병변이며 일부가 피부 편평세포암으로 진행할 수 있다. 단단해지거나 빠르게 커지면 조직검사를 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005174
+- https://pubmed.ncbi.nlm.nih.gov/36841336/

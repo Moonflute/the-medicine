@@ -13,7 +13,7 @@ related_diseases:
   - "acute pericarditis"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-q4ieyEsSDsi6zrp4nsl7wgKEFjdXRlIFBlcmljYXJkaXRpcykubWQ
-question_type: prognosis
+question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 남성이 3일간 지속된 날카로운 흉통으로 응급실에 내원했다. 통증은 흉골 뒤쪽에서 느껴지며 강도는 10점 만점에 8점이고, 호흡 시 악화되며 똑바로 앉아 앞으로 숙이면 완화된다. 환자는 오심과 근육통을 동반하고 있다. 발열이나 기침은 없었다. 천식이 있으며 6개월 전 기관지염으로 아지트로마이신(azithromycin) 치료를 받은 적이 있다. 어머니는 고혈압이 있다. 일반의약품 흡입제를 사용 중이다. 체온은 37.3°C, 맥박은 분당 110회, 혈압은 130/84 mm Hg이다. 호흡음은 정상이다. 심장 진찰에서 S1과 S2 사이에서 고음의 긁히는 소리(grating sound)가 들린다. 나머지 진찰 소견은 정상이다. 혈청 검사 결과는 다음과 같다: 혈액요소질소(BUN) 16 mg/dL, 포도당 103 mg/dL, 크레아티닌 0.7 mg/dL, 트로포닌 I 0.230 ng/mL (정상 < 0.1 ng/mL). 심전도(ECG)에서 모든 유도에 미만성 ST 분절 상승이 보인다. 이 환자가 위험이 증가한 질환은 무엇인가?
+32세 남성이 숨쉴 때 아프고 앞으로 숙이면 좋아지는 흉통으로 내원했다. 심낭 마찰음과 미만성 ST분절 상승이 있으며 트로포닌이 상승했다. 심초음파에서 좌심실 수축기능은 보존됐고 심장압전이나 국소 벽운동 이상은 없다. 허혈성 원인이 배제되었다면 가장 가능성 높은 상태는?
 
 ## 선택지
 
-A. 유두근 파열(Papillary muscle rupture)
-B. 폐경색(Pulmonary infarction)
-C. 심장 눌림증(Cardiac tamponade)
-D. 심실 동맥류(Ventricular aneurysm)
+A. 심근 침범이 없는 단순 심낭염
+B. 좌심실 자유벽 파열
+C. 좌심실 기능 저하 없이 심근 손상이 동반된 심낭염
+D. 관상동맥이 막힌 급성 심근경색
 
 ## 해설
 
-정답은 C이다. 자세·호흡에 따른 흉통, 심낭 마찰음과 미만성 ST상승은 급성 심낭염을 지지한다. 경미한 troponin 상승은 심근 침범 가능성도 시사한다. 심낭액이 증가하면 심장압전이 발생할 수 있어 제시된 합병증 중 C가 적합하다. 본문에 ST상승이 없다고 하거나 마찰음을 ECG 저전압이라고 설명하지 않는다.
+심낭염의 임상 소견이 있으면서 트로포닌으로 확인되는 심근 손상이 있지만 새 좌심실 기능 저하가 없다면 심근심낭염(myopericarditis)을 고려한다. 트로포닌 상승은 합병증이 아니라 심근 손상 자체의 단서다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 심실 동맥류(Ventricular aneurysm)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001014
+- ESC 심근염·심낭염 진료지침(2025): https://academic.oup.com/eurheartj/article/46/40/3952/8234483

@@ -15,7 +15,7 @@ question_type: management
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-59세 남성이 3개월간 지속된 빈뇨를 주소로 내원하였다. 낮 동안 1~2시간마다 소변을 보아야 하며 밤에도 최소 2~3회 소변을 보기 위해 잠에서 깬다. 또한 지난 2개월 동안 배뇨 시작이 어렵고 소변 줄기가 약하며 배뇨 끝에 소변이 방울져 떨어지는 증상이 지속된다고 한다. 맥박은 분당 72회, 혈압은 158/105 mmHg이다. 직장수지검사상 전립선은 매끄럽고 대칭적으로 커져 있으며 압통이나 결절은 없다. 전립선특이항원(PSA)은 정상 범위 내에 있고 소변검사상 이상 소견은 없다. 배뇨 후 초음파 검사에서 잔뇨량은 110 mL이다. 다음 중 가장 적절한 다음 치료 단계는 무엇인가?
+59세 남성이 약한 소변줄기와 배뇨 시작 곤란으로 잠과 일상에 지장이 있다. 전립선은 매끈하며 경미하게 커져 있다. 요검사는 정상이고 요폐는 없다. 비교적 빠른 증상 완화를 위해 사용할 약은?
 
 ## 선택지
 
-A. 방광 도뇨
-B. 테라조신(Terazosin) 치료
-C. 피나스테리드(Finasteride) 치료
-D. 방광경 검사
+A. 피나스테리드
+B. 옥시부티닌 단독
+C. 푸로세미드
+D. 탐스로신
 
 ## 해설
 
-BPH에 합당한 배뇨 증상이 일상·수면을 방해하며 감염이나 급성 완전 요폐 소견은 없다. B, terazosin 같은 alpha 차단제는 전립선·방광경부 평활근 긴장을 줄여 비교적 빠르게 증상을 완화한다. Finasteride는 큰 전립선에서 진행 위험을 줄이는 데 사용할 수 있으나 효과가 느리다. 고령·혈압 치료 맥락에서 기립저혈압 등 부작용을 고려하며 PSA 정상만으로 약제를 결정하는 것은 아니다.
+알파1 차단제는 방광목과 전립선 평활근 긴장을 줄여 배뇨 증상을 비교적 빠르게 완화한다. 피나스테리드의 효과는 수개월에 걸쳐 나타나며 크게 커진 전립선의 진행 예방에 도움이 된다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ BPH에 합당한 배뇨 증상이 일상·수면을 방해하며 감염이나 �
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007722
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC4778754/

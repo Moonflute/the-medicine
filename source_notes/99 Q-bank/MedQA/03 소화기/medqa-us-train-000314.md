@@ -20,11 +20,11 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sm5DrsJzshLEg6rK97ZmU7ISxIOuLtOq0gOyXvCAoUFNDKSAoUHJpbWFyeSBTY2xlcm9zaW5nIENob2xhbmdpdGlzKS5tZA
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDqsIDrqbTsl60g6rCE7Je8IChBdXRvaW1tdW5lIEhlcGF0aXRpcykubWQ
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -42,19 +42,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 남성이 추적 관찰을 위해 내원하였다. 2개월 전부터 전신 피로감과 심한 가려움증이 점차 심해졌다. 환자는 고혈압과 5년 전 대장내시경을 통해 진단받은 궤양성 대장염(ulcerative colitis)이 있다. 현재 복용 중인 약물은 리시노프릴(lisinopril)과 직장 투여 메살라민(mesalamine)이다. 2명의 여성 파트너와 성생활을 하고 있으며 콘돔을 일관되게 사용하지 않는다. 체온은 37.3°C, 맥박은 분당 86회, 혈압은 130/84 mm Hg이다. 진찰 결과 공막 황달과 몸통 및 사지에 다수의 긁힌 자국이 관찰된다. 폐 청진음은 정상이다. 복부는 부드럽고 압통은 없다. 나머지 진찰 소견은 정상이다. 검사실 검사 결과는 다음과 같다: 혈색소 11.5 g/dL, 백혈구 수 7500/mm3, 혈소판 수 280,000/mm3. 혈청 나트륨 138 mEq/L, 염소 101 mEq/L, 칼륨 4.7 mEq/L, 요소질소 18 mg/dL, 포도당 91 mg/dL, 크레아티닌 0.8 mg/dL. 빌리루빈 총 1.5 mg/dL, 직접 0.9 mg/dL. 알칼리성 인산분해효소(ALP) 460 U/L, AST 75 U/L, ALT 78 U/L. 항핵항체(ANA) 음성, 항미토콘드리아항체(AMA) 음성. 복부 초음파 검사에서 담관 비후와 국소적인 담관 확장이 관찰된다. 가장 가능성이 높은 진단은 무엇인가?
+궤양성 대장염이 있는 32세 남성이 가려움으로 내원했다. ALP와 GGT가 뚜렷하게 오르고, 초음파에 결석이나 종괴는 없다. 발열이나 급성 담관염 단서도 없다. 원발성 경화성 담관염을 평가할 다음 검사는?
 
 ## 선택지
 
-A. 자가면역 간염
-B. 원발성 경화성 담관염
-C. B형 간염 감염
-D. IgG4 연관 담관염
+A. ERCP로 진단부터 시도
+B. 자기공명 담췌관조영술(MRCP)
+C. HIDA 검사
+D. 간 탄성도 검사
 
 ## 해설
 
 
-궤양성 대장염과 전신 피로·가려움·양쪽 담관 비후·국소 확장은 원발성 경화성 담관염(PSC)의 전형적인 특징이며, 이는 가장 가능성이 높은 진단이다.
+염증성 장질환 환자에서 설명되지 않는 담즙정체가 있으면 PSC를 생각한다. MRCP로 여러 구간의 담관 협착과 사이의 정상 또는 확장 부위를 확인하고 다른 협착 원인을 감별한다. 진단만을 위한 ERCP는 피한다.
 
 ## 검수 근거
 
@@ -67,3 +67,4 @@ D. IgG4 연관 담관염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000314
+- https://doi.org/10.1002/hep.32771

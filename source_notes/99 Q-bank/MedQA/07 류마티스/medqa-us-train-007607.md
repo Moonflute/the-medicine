@@ -17,7 +17,7 @@ related_diseases:
   - "Dermatomyositis"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-43세 여자가 3주 동안 점점 심해지는 근력저하로 내원했다. 머리를 빗거나 계단을 오르기 어렵다. 고혈압이 있고 25년 동안 매일 담배 한 갑을 피웠으며 술은 마시지 않는다. 어머니는 관상동맥질환과 전신홍반루푸스가 있다. 클로르탈리돈과 비타민 보충제를 복용한다. 체온은 37.8°C(100.0°F), 맥박 71회/분, 혈압 132/84 mmHg이다. 심폐검사는 정상이다. 양쪽 눈 주위에 발진이 있고 상부 등, 뒤목, 어깨에 전반적인 홍반이 보인다. 다음 중 가장 가능성 높은 항체는 무엇인가?
+43세 여성이 근위부 근력저하, 레이노 현상과 비미란성 관절염으로 평가받고 있다. 손가락 옆 피부가 두껍게 갈라져 있고 흉부 CT에서 간질성 폐질환이 보인다. 항합성효소 증후군을 뒷받침할 항체는?
 
 ## 선택지
 
 A. 항센트로미어 항체
 B. 항히스톤 항체
-C. 전압개폐성 칼슘통로 항체
+C. 항아세틸콜린수용체 항체
 D. 항Jo-1 항체
 
 ## 해설
 
 
-근위부 근력저하와 눈주위·shawl 분포 발진은 dermatomyositis를 시사한다. 보기 중 inflammatory myopathy와 관련된 anti-Jo-1 D가 가장 부합한다. Jo-1은 histidyl-tRNA synthetase에 대한 항체로 특히 antisynthetase syndrome과 연관되며 모든 피부근염 환자에게 있거나 단순히 가장 흔한 ANA라는 뜻은 아니다. 다른 myositis-specific 항체와 임상·생검 정보를 함께 해석한다.
+근육염, 관절염, 간질성 폐질환과 기계공 손은 항합성효소 증후군의 단서다. 항Jo-1은 히스티딜 tRNA 합성효소에 대한 항체다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 항Jo-1 항체
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007607
+- https://doi.org/10.1093/rheumatology/keac115

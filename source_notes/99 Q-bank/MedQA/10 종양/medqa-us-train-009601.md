@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: investigation
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-49세 여성이 왼쪽 유방 종괴로 내원했다. 3개월 전 월례 자가검진에서 발견해 지켜보았고 커진 것 같다. 궤양, 체중 감소, 피로, 야간 발한, 유두 분비물은 없다. 경미한 골다공증으로 알렌드로네이트를 복용한다. 왼쪽 유방에 4 mm 크기의 단단하고 압통 없는 종괴가 만져진다. 유방촬영술에서는 종괴가 보이지 않았다. 다음으로 가장 적절한 처치는 무엇인가?
+49세 여성이 3개월간 만져지는 왼쪽 유방 종괴로 진단 유방촬영을 받았으나 해당 부위에 이상이 보이지 않았다. 종괴는 여전히 만져진다. 바로 시행할 추가 영상은?
 
 ## 선택지
 
-A. 타목시펜 치료 시작
-B. 6개월 후 유방촬영술 반복
-C. 6개월 관찰 후 지속되면 생검
-D. 왼쪽 유방 초음파
+A. 단기 추적 유방촬영만 예약
+B. 흉부 조영 CT
+C. 만져지는 부위의 표적 유방 초음파
+D. 유방 PET/CT
 
 ## 해설
 
 
-지속적으로 만져지거나 커지는 종괴가 유방촬영에서 보이지 않아도 표적 초음파 D로 평가한다. 유방촬영 음성은 촉지 병변의 악성을 배제하지 않는다. 임상적으로 의심스럽거나 영상과 촉진 소견이 일치하지 않으면 영상이 음성이어도 조직검사가 필요할 수 있다. 단순히 6개월 기다리거나 진단 없이 tamoxifen을 시작하는 것은 적절하지 않다.
+유방촬영이 음성이어도 만져지는 종괴가 지속되면 표적 초음파로 평가한다. 영상이 모두 음성이어도 촉진 소견이 강하게 의심되면 조직검사를 고려한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 왼쪽 유방 초음파
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009601
+- https://acsearch.acr.org/docs/69495/narrative/

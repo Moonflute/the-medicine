@@ -14,13 +14,13 @@ related_diseases:
   - "lower brachial plexus injury"
   - "Horner syndrome"
   - "absent grasp reflex"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tmLjrpbTrhIgg7Kad7ZuE6rWwIChIb3JuZXIgU3luZHJvbWUpLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-체중 4,390 g인 남아 신생아가 임신성 당뇨병으로 합병된 임신 40주에 태어났다. 난산 중 태아 어깨가 걸려 왼쪽 상지를 과도하게 벌려야 했다. 분만실에서 왼쪽 동공 수축, 왼쪽 눈꺼풀 처짐, 왼쪽 상지의 능동운동 감소가 보인다. 추가 평가에서 다음 중 어떤 소견이 가장 가능성 높은가?
+난산으로 태어난 신생아가 한쪽 팔과 손을 잘 움직이지 못한다. 파악반사가 없고 같은 쪽 눈꺼풀이 처지며 동공이 작다. 쇄골 골절은 보이지 않는다. 이 소견의 의미는?
 
 ## 선택지
 
-A. 전신성 근긴장저하
-B. 한쪽 손잡기 반사 소실
-C. 허리 아래 종괴
-D. 한쪽 흉곽 움직임 감소
+A. 손의 움직임이 약하더라도 상부 팔신경얼기만의 경미한 손상이다
+B. 한쪽 파악반사 저하는 정상 아프가 점수로 배제된다
+C. 약한 손 움직임은 쇄골 골절이 없어도 단순 통증으로 설명된다
+D. 손 기능과 교감신경까지 침범한 팔신경얼기 손상을 의심해 일찍 전문 평가를 연결한다
 
 ## 해설
 
 
-분만 중 어깨가 걸려 왼쪽 상지 마비가 나타난 경우, 하위 팔신경 손상(클럼프케 마비)으로 손잡기 반사가 소실된다. 이는 하위 팔신경 손상의 특징이다. 따라서 한쪽 손잡기 반사 소실이 가장 가능성 높은 소견이다.
+파악반사와 손 운동 저하는 아래쪽 신경뿌리 침범을 시사한다. 같은 쪽 동공 축소와 눈꺼풀처짐은 심한 손상의 단서이므로 회복만 기다리지 말고 전문팀의 평가를 받는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002373
+- https://cps.ca/en/documents/position/neonatal-brachial-plexus-palsy

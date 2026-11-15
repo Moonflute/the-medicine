@@ -13,12 +13,12 @@ related_diseases:
   - "cavernous sinus thrombosis"
   - "해면정맥동 혈전증"
   - "rhinosinusitis"
-question_type: diagnosis
+question_type: complication
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67aA67mE64-Z7Je8IChTaW51c2l0aXMpLm1k
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 여성이 심하고 참을 수 없는 두통과 양쪽 눈 통증으로 응급실에 내원했다. 증상은 약 2주 전 시작되어 점점 악화되었다. 처음에는 오른쪽에 날카로운 두통이 있었고 수면을 방해했으며 진통제에 반응하지 않았다. 오른쪽 눈과 뺨 주위가 아팠고 오른쪽을 볼 때 복시가 발생했다. 피로, 발열, 오른쪽 눈 주위 부종도 동반되었다. 약 2일 후 왼쪽 눈 주위에도 부종이 생겼다. 최근 비부비동염을 앓았다. 체온 101°F(38.3°C), 혈압 133/72 mmHg, 맥박 90회/분, 호흡수 18회/분이다. 양쪽 눈에 안검하수, 안구돌출, 결막부종, 안와주위 부종이 있고 삼차신경의 양측 안신경 및 상악신경 분지에 감각과민이 있다. 안저검사에서 양측 유두부종이 보인다. 또한 동공확대와 모든 방향의 외안근 운동 약화가 있다. 가장 가능성 높은 진단은 무엇인가?
+부비동염 환자가 고열·두통과 한쪽 안구돌출로 입원했다. 이틀 뒤 반대쪽도 붓고 양쪽 눈을 여러 방향으로 움직이지 못한다. 이마와 뺨의 감각도 둔하다. 가장 의심되는 합병증은?
 
 ## 선택지
 
-A. 급성 폐쇄각 녹내장
-B. 세균성 안내염
-C. 해면정맥동 혈전증
-D. 안와 봉와직염
+A. 한쪽에 국한된 안와앞 봉와직염
+B. 감염성 해면정맥동 혈전증
+C. 급성 폐쇄각 발작
+D. 세균성 결막염
 
 ## 해설
 
-비부비동 감염 후 발열·심한 두통, 한쪽에서 양쪽으로 진행한 안구돌출·결막부종 및 III/IV/VI·V1/V2 관련 소견은 C, 감염성 해면정맥동 혈전증에 합당하다. 해면정맥동의 정맥 배출 장애와 인접 뇌신경 침범이 복합 안구 증상을 설명한다. 단순히 안압 상승이나 안구 내 감염만으로 모든 소견을 설명하기 어렵다. 유두부종은 안저 소견이고 동공·안구운동은 별도 진찰 소견이다.
+안와 증상이 한쪽에서 양쪽으로 진행하고 여러 안구운동신경과 삼차신경 감각이 함께 침범되면 해면정맥동 혈전증을 의심한다. 응급 조영 영상과 치료가 필요하다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 안와 봉와직염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009233
+- https://pubmed.ncbi.nlm.nih.gov/27928417/

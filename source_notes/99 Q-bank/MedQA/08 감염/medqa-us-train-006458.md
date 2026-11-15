@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MDgg6rCQ7Je8L-qwgOyKpCDqtLTsoIAgKEdhcyBHYW5ncmVuZSkubWQ
   - MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ
-question_type: diagnosis
+question_type: management
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-낫에 오른쪽 허벅지를 베어 입원하여 수술적 치료를 받은 35세 남성이 이틀 후 발열, 오한 및 심한 통증을 보였다. 상처는 부어 있다. 4개월 전 비슷한 손상을 입었으나 바시트라신 연고와 매일 드레싱으로 호전되었다. 도시 외곽 농장에서 일한다. 불안해 보인다. 체온은 38.5°C(101.3°F), 맥박은 분당 103회, 혈압은 114/76 mm Hg이다. 진찰에서 오른쪽 허벅지 안쪽에 6cm 크기의 부종성 깊은 상처가 있고 악취가 난다. 허벅지 피부는 하퇴보다 어둡고 상처 주위에 물집이 여러 개 있다. 상처 주변을 가볍게 만져도 심한 통증이 유발되며 염발음이 있다. 다음 중 원인균으로 가장 가능성 높은 것은?
+농기구에 종아리를 다친 남성이 12시간 만에 심한 통증, 출혈성 물집과 피하 염발음을 보인다. 혈압은 84/53mmHg다. 소생술과 광범위 정맥 항생제를 시작하면서 감염 부위에 대해 할 처치는?
 
 ## 선택지
 
-A. 클로스트리디움 퍼프린젠스
-B. 녹농균
-C. 리조푸스 오리자에
-D. 황색포도알균
+A. 침상에서 물집만 배액한 뒤 반응을 본다
+B. MRI 결과를 확인한 뒤 수술 여부를 정한다
+C. 응급 수술로 탐색하고 괴사한 조직을 제거한다
+D. 고압산소치료 뒤 수술을 결정한다
 
 ## 해설
 
 
-토양 오염 가능 깊은 외상 뒤 급격한 심한 통증·수포·변색·염발음은 clostridial myonecrosis/gas gangrene을 의심하게 하며 A가 가장 부합한다. C.perfringens는 가스괴저의 대표 원인이지 모든 괴사성 근막염의 보편적 단일 원인은 아니다. 다른 균/혼합감염도 가스를 만들 수 있으며 실제로 즉각적 외과 평가·변연절제와 적절한 항균치료가 필요한 응급상황이다.
+급속한 진행, 통증과 쇼크는 괴사성 연조직 감염을 시사한다. 영상이나 보조요법 때문에 응급 탐색과 변연절제술을 지연하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 황색포도알균
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006458
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5754343/

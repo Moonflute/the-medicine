@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2ZqeuLrCAoTmVvbmF0YWwgSmF1bmRpY2UpLm1k
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -32,7 +33,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 5일 남아가 2일간 점점 심해지는 피부 황달로 내원했다. 얼굴과 이마에서 시작해 몸통과 사지로 퍼졌고 2~3시간마다 모유를 잘 먹으며 구토나 배변·배뇨 변화는 없다. 만삭에 건강하게 태어났고 신생아 선별검사는 정상이다. 혈청 총 빌리루빈은 8 mg/dL, 직접 빌리루빈 0.5 mg/dL, AST와 ALT는 정상이다. 다음 중 가장 적절한 치료의 다음 단계는?
+생후 5일 남아가 2일간 점점 심해지는 피부 황달로 내원했다. 얼굴과 이마에서 시작해 몸통과 사지로 퍼졌고 2~3시간마다 모유를 잘 먹으며 구토나 배변·배뇨 변화는 없다. 만삭에 건강하게 태어났고 신생아 선별검사는 정상이다. 혈청 총 빌리루빈은 8 mg/dL, 직접 빌리루빈 0.5 mg/dL, AST와 ALT는 정상이다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

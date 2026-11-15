@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YyU66GcIOyCrOynlSAoVGV0cmFsb2d5IG9mIEZhbGxvdCkubWQ
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강하던 생후 3개월 여아가 배변 중 입술이 파래지고 계속 울어 응급실에 왔다. 산소포화도는 실내공기에서 70%이며 100% 산소 투여 후 81%로 증가한다. 입 주위 청색증과 늑골 하부 함몰, 좌측 상흉골연의 거친 2/6 수축기 강도 증가-감소형 잡음이 있다. 증상을 가장 잘 호전시킬 처치는?
+팔로사징이 있는 5개월 영아의 과청색 발작이 안정, 무릎-가슴 자세, 산소와 수액 및 진통·진정에도 지속된다. 소아심장팀이 전신혈관저항을 올려 우좌 단락을 줄이려 한다. 적절한 약은?
 
 ## 선택지
 
-A. 무릎-가슴 자세
-B. 앙와위
-C. 하지 거상
-D. 복와위
+A. 니트로글리세린
+B. 페닐에프린
+C. 푸로세미드
+D. 분무 살부타몰
 
 ## 해설
 
-배변·울음에 유발된 청색증과 폐유출로 수축기 잡음은 Fallot 등의 과청색 발작을 시사한다. 무릎–가슴 자세(A)는 전신혈관저항을 증가시켜 우좌단락을 줄이고 폐혈류를 개선한다. 진정·산소·응급 심장 평가를 병행하며 신생아 RDS에서 횡격막을 내리는 기전으로 설명하지 않는다.
+페닐에프린은 전신혈관저항을 높여 우좌 단락을 줄일 수 있다. 지속되는 발작에서는 응급 전문팀이 순환 상태를 감시하면서 다음 치료를 결정한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 복와위
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001109
+- https://iaem.ie/wp-content/uploads/2024/08/Hypercyanotic-Spells-Guideline-V1.0.pdf

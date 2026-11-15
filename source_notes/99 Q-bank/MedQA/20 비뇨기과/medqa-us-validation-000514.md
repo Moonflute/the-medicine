@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-54세 여성이 기침이나 웃음, 운동할 때 소량의 소변이 새는 요실금으로 진료를 받으러 왔다. 폐경 후 증상이 더 잦아졌고 소변검사, 잔뇨량, 방광내압검사는 모두 정상이며 골반검사에서 골반장기탈출이 있다. 가장 합리적인 첫 단계 치료는?
+54세 여성이 기침하거나 뛸 때만 소변이 조금 샌다고 한다. 배뇨통이나 갑작스러운 요의는 없고 요검사와 배뇨 후 잔뇨는 정상이다. 첫 치료는?
 
 ## 선택지
 
-A. 케겔 운동
-B. 베타네콜
-C. 요도고정술
-D. 무긴장성 질 테이프
+A. 방광 내 보툴리눔 독소 주사
+B. 지도하 골반저근 훈련
+C. 경구 항무스카린제
+D. 중부요도 슬링 수술
 
 ## 해설
 
-기침·웃음·운동 시 소량 누출과 골반저 지지구조 약화는 복압성 요실금을 지지한다. 첫 단계로 지도하 골반저근 훈련인 케겔 운동(A)을 적어도3개월 시행하는 것이 적절하다. 모든 중증도에서 운동이 수술보다 가장 효과적이라는 뜻은 아니며 효과와 선호에 따라 이후 치료를 결정한다.
+기침과 운동으로 복압이 높아질 때 새는 양상은 복압성 요실금이다. 첫 치료로 지도하 골반저근 훈련을 적어도 3개월 시행한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 무긴장성 질 테이프
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000514
+- https://www.nice.org.uk/guidance/ng123/chapter/recommendations

@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-65세 여성이 1개월간 지속된 식후 악화되고 밤에 잠을 깨우는 상복부 통증으로 내원했다. 통증 때문에 먹는 것을 두려워했고 2 kg의 체중감소가 있었다. 흡연력은 40갑년이고 공막은 노랗게 변해 있었다. 총 빌리루빈은 9.8 mg/dL, 직접 빌리루빈은 8.6 mg/dL였다. 복부 초음파에서 담도와 췌관이 확장되었지만 췌장이나 간외 담도 병변은 없었다. 다음 중 가장 적절한 다음 처치는?
+65세 여성이 1개월간 지속된 식후 악화되고 밤에 잠을 깨우는 상복부 통증으로 내원했다. 통증 때문에 먹는 것을 두려워했고 2 kg의 체중감소가 있었다. 흡연력은 40갑년이고 공막은 노랗게 변해 있었다. 총 빌리루빈은 9.8 mg/dL, 직접 빌리루빈은 8.6 mg/dL였다. 복부 초음파에서 담도와 췌관이 확장되었지만 췌장이나 간외 담도 병변은 없었다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

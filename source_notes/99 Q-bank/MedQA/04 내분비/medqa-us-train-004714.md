@@ -15,11 +15,11 @@ related_diseases:
   - "골막하 골흡수"
 related_disease_slugs:
   - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
-question_type: association
+question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-정기검진에서 68세 여성의 혈청 칼슘이 11.5 mg/dL로 확인되었다. 추적검사에서 부갑상샘호르몬은 높고 인은 낮으며 알칼리성 인산분해효소는 경미하게 상승했다. 24시간 소변 칼슘도 상승했다. 피로, 변비와 전반적인 뼈 통증이 있어 비타민 D를 복용한다. 제2형 당뇨병 25년과 본태성 고혈압 15년의 과거력이 있고 신장결석 병력이 있다. 이 환자 상태와 일치하는 방사선 소견은 무엇인가?
+68세 여성이 반복되는 신장결석으로 검사받았다. 보정 칼슘은 11.5 mg/dL로 높고 PTH는 높으며 소변 칼슘도 증가해 원발성 부갑상선기능항진증이 확인됐다. 수술을 견딜 수 있는 환자에서 근본 치료는?
 
 ## 선택지
 
-A. 손 X선에서 골막하 골흡수
-B. 골감소증, 골용해성 병변과 병적 골절
-C. 초기 용해성 변화와 후기 경화성 양상
-D. 공동 형성 여부와 관계없이 상엽의 섬유결절성 음영
+A. 부갑상선절제술을 위해 의뢰
+B. 증상과 관계없이 1년에 한 번 검사만 시행
+C. 장기 비스포스포네이트 단독으로 원인 치료
+D. 고칼슘혈증인데 칼슘 보충제를 먼저 늘림
 
 ## 해설
 
 
-원발성 부갑상선기능항진증에서 PTH 상승과 고칼슘혈증이 나타나며, 골막하 골흡수가 방사선에서 특징적이다. 따라서 손 X선에서 골막하 골흡수가 일치한다.
+신장결석은 원발성 부갑상선기능항진증의 장기 합병증으로 수술을 고려할 근거다. 위치를 찾는 영상은 수술 계획용이며 생화학적 진단을 대신하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 공동 형성 여부와 관계없이 상엽의 섬유결절성 음영
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004714
+- https://doi.org/10.1002/jbmr.4677

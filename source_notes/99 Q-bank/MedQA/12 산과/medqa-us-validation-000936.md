@@ -18,9 +18,9 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA
   - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-25세 초임부가 임신 35주에 양쪽 다리 부종으로 입원했다. 다른 증상은 없고 산전 경과는 정상이었다. 혈압은 155/90 mm Hg이며 24시간 소변에서 단백뇨 1.2 g이 확인되었다. 초음파에서 태아는 구조적 이상 없이 정상적으로 발달하고 태반 가장자리는 내구에서 3 cm 떨어져 있다. 분만 때까지 상태가 악화되지 않는다면 적절한 처치는?
+임신 35주 초임부의 혈압은 여러 차례 150/94 mmHg이고 단백뇨가 확인됐다. 중증 소견은 없고 태아 감시 결과도 정상이다. 밀접한 추적 중 상태가 그대로라면 분만 시기는?
 
 ## 선택지
 
-A. 더 일찍 자연 진통이 시작되지 않으면 임신 37주에 질식 분만 유도
-B. 코르티코스테로이드 치료 후 제왕절개
-C. 코르티코스테로이드 치료 후 질식 분만 유도
-D. 현재부터 임신 기간 중 언제든 자연 질식 분만을 기다림
+A. 임신 35주인 지금 바로 분만
+B. 임신 41주까지 자연 진통을 기다림
+C. 임신 37주에 분만을 계획
+D. 분만 시작 여부와 관계없이 임신 39주에 제왕절개
 
 ## 해설
 
 
-경증 전자간증·단백뇨·37주 미만 임신에서는 태아 성숙을 위해 37주에 자연 분만을 유도하는 것이 표준 관리이다. 따라서 37주에 질식 분만 유도가 정답이다.
+중증 소견이 없는 자간전증의 경우 면밀히 감시하며 임신 37주에 분만을 계획한다. 산모·태아가 악화되면 더 이른 분만을 고려한다. 자간전증 자체가 제왕절개 적응증은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000936
+- https://www.nice.org.uk/guidance/ng133/chapter/recommendations

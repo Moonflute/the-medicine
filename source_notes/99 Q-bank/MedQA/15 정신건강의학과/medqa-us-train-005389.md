@@ -14,11 +14,11 @@ related_diseases:
   - "역행성 기억상실"
   - "우울장애"
   - "Major depressive disorder"
-question_type: adverse_effect
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: simple
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,23 +35,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 남자가 손목을 자른 뒤 병원에서 관찰 중이다. 장기간 단극성 우울장애가 있고 여러 항우울제를 시도했으며 자살 의도를 부인하지 않는다. 전기경련치료를 제안하려 한다. 다음 중 이 치료 후 이 환자에게 발생할 위험이 가장 높은 합병증은?
+중증 우울증으로 식사와 수분 섭취를 거의 못 하는 환자가 있다. 신체 상태를 안정시키고 있으며 여러 적절한 치료에도 호전이 없어 신속한 효과가 필요하다. 고려할 치료와 중요한 상담 내용은?
 
 ## 선택지
 
-A. 두개내 출혈
-B. 기억상실성 실어증
-C. 급성 관상동맥증후군
-D. 역행성 기억상실
+A. 경두개 자기자극만 가능하며 기억에 영향은 전혀 없다
+B. 약물에 반응하지 않으므로 치료를 보류하고 관찰한다
+C. 전기경련치료를 고려하고 치료 전후 기억에 영향이 있을 수 있음을 설명한다
+D. 전기경련치료를 하면 과거 기억이 모두 영구적으로 사라진다고 설명한다
 
 ## 해설
 
-제시된 선택지 중 전기경련치료 후 발생할 가능성이 상대적으로 높은 것은 역행성 기억상실이다. 치료 전후의 기억과 새로운 기억 형성에 영향을 줄 수 있다. 질문은 가장 치명적인 합병증이 아니라 이 환자에게 가장 발생하기 쉬운 합병증을 묻는다. 심혈관 부작용 위험도 실제 시술 전 평가하지만 기저 신체질환이 없는 이 환자에서 제시된 급성 관상동맥증후군이나 두개내 출혈보다 기억 장애가 적절한 답이다.
+치료저항성 중증 우울증이나 빠른 효과가 필요한 위중한 상황에서는 전기경련치료를 고려한다. 마취와 신체 위험을 평가하고, 일시적인 혼란이나 치료 전후 기억의 어려움을 설명한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005389
+- https://www.nice.org.uk/guidance/ng222/chapter/Recommendations
+- https://pubmed.ncbi.nlm.nih.gov/41139602/
 
 ## 검수 근거
 

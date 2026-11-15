@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uFuOuFhOq4sCDsmrDsmrjspp0gKEdlcmlhdHJpYyBEZXByZXNzaW9uKS5tZA
 question_type: management
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,19 +40,19 @@ related_drug_slugs:
 
 ## 문제
 
-84세 여성이 가족에게 부담이 된다는 생각에 천장에 목을 매려다 아들에게 발견되어 내원했다. 2개월 동안 방을 나갈 기운이 없고 하루 대부분을 자며 체중이 10 kg 줄고 매일 운다. 4개월 전 유방암이 간으로 전이되었고 척추와 뇌로 전이가 진행되자 항암치료를 중단했다. 기대여명은 1~2주이며 가정 호스피스에서 펜타닐 패치만 사용한다. 느린 말, 둔한 정동, 우울한 기분이 있다. 이 환자에게 처음으로 가장 큰 이득을 줄 가능성이 높은 치료는?
+말기 유방암으로 가정 호스피스를 받던 84세 여성이 자살 시도 직후 응급실에 왔다. 신체 상태는 안정됐지만 여전히 죽고 싶다고 말한다. 즉시 우선할 조치는?
 
 ## 선택지
 
-A. 메틸페니데이트
-B. 전기경련치료
-C. 플루옥세틴
-D. 부프로피온
+A. 빠른 약효를 기대해 메틸페니데이트를 처방하고 귀가시킨다
+B. 안전한 환경에서 환자를 보호하고 정신건강·완화의료 팀과 함께 즉시 평가한다
+C. 말기 환자의 결정이므로 위험 평가 없이 존중한다
+D. 기존 호스피스 진료일까지 가족이 지켜보도록 안내한다
 
 ## 해설
 
 
-예후가1–2주로 매우 짧을 때는 효과에 수주가 필요한 항우울제보다 methylphenidate A 같은 psychostimulant를 선택적으로 사용하여 기력·정신운동지연·기분을 신속히 개선하려는 접근이 부합한다. 근거와 반응에는 한계가 있고 초조·섬망·심혈관 부작용을 감시해야 한다. 실제 자살시도가 있었으므로 호스피스라는 이유로 약만 처방하고 끝내지 않으며 즉시 안전 확보, 정신건강·완화의료 평가와 가족 지원을 병행해야 한다.
+호스피스 치료 중이라도 최근 자살 시도와 지속적인 자살 의도가 있으면 즉시 안전을 확보하고 위험과 의사결정능력, 통증·섬망·우울 등 교정 가능한 요인을 평가한다. 가정 돌봄 계획은 그 결과에 맞춰 정한다.
 
 ## 검수 근거
 
@@ -65,3 +65,4 @@ D. 부프로피온
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008258
+- https://www.nice.org.uk/guidance/ng225/chapter/recommendations

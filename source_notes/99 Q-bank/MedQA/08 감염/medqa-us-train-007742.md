@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cx7J287ZW0IChQZXJ0dXNzaXMpLm1k
 question_type: management
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-23세 남자가 기침으로 학생보건센터에 내원했다. 기침이 발작적으로 이어진 뒤 숨을 헐떡인다. 예방접종은 최신 상태이고 전반적으로 건강하다. 최근 시험 때문에 스트레스를 더 많이 받았다고 한다. 체온 101.0°F(38.3°C), 혈압 125/65 mmHg, 맥박 105회/분, 호흡수 14회/분, 실내 공기 산소포화도 98%이다. 헤모글로빈 12 g/dL, 헤마토크릿 36%, 백혈구 13,500/mm³(림프구증가), 혈소판 197,000/mm³이다. 양측 폐 청진은 깨끗하다. 다음 중 가장 적절한 다음 처치는?
+성인이 8일째 발작적으로 기침하고 기침 뒤 구토를 한다. 백일해 PCR 검체를 채취했고 결과는 아직 나오지 않았다. 같은 집에 생후 2개월 된 영아가 있다. 증상이 있는 성인에게 취할 조치는?
 
 ## 선택지
 
-A. 아지스로마이신
-B. 흉부 방사선촬영
-C. Bordetella pertussis PCR
-D. 페니실린
+A. 결과가 확인될 때까지 약 없이 관찰한다
+B. 결과와 무관하게 아목시실린을 시작한다
+C. PCR을 기다리지 않고 아지트로마이신을 시작하고 격리한다
+D. 백신을 추가 접종하고 현재 감염은 치료하지 않는다
 
 ## 해설
 
 
-발작기침 뒤 흡기 헐떡임과 림프구증가는 백일해를 강하게 의심하게 한다. 의심이 높으면 검체 PCR을 시행하되 치료를 지연하지 않고 선택지 A azithromycin을 시작하는 것이 적절하다. 과거 접종은 감염을 완전히 배제하지 않는다. 기침 기간·접촉자/고위험 영아 노출을 확인하여 현행 치료/격리·PEP를 계획한다. 이 사례에는 통역 필요나 가족의 진단 비공개 요청이 없다.
+백일해가 강하게 의심되고 중증 위험이 큰 영아와 접촉하면 검사 결과 전에 적절한 항생제를 시작할 수 있다. 격리와 함께 영아 등 밀접 접촉자의 노출 후 예방도 평가한다.
 
 ## 검수 근거
 

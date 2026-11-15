@@ -14,12 +14,12 @@ related_diseases:
   - "gastroschisis"
   - "동반 심장기형 없음"
   - "Gastroschisis"
-question_type: diagnosis
+question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 1시간 된 남아가 배꼽 오른쪽 복벽의 3 cm 전층 결손을 통해 장 일부가 탈출한 상태로 태어났다. 결손은 즉시 생리식염수 드레싱으로 덮고 위관과 정맥로를 확보했다. 이 상태와 관련된 추가 심장 결손은?
+신생아의 배꼽 오른쪽 복벽 결손으로 막에 싸이지 않은 장이 나와 있다. 소아외과를 호출했다. 이동 전 즉시 할 처치는?
 
 ## 선택지
 
-A. 심장 결손 없음
-B. 이첨 대동맥판
-C. 팔로사징
-D. 심실중격결손
+A. 노출된 장을 공기에 두고 수유부터 시작
+B. 병실에서 손으로 장을 맹목적으로 밀어 넣음
+C. 장에 마른 거즈만 대고 정맥로는 수술실까지 보류
+D. 노출 장을 무균 비닐로 보호하고 금식·위장 감압·정맥 수액을 시작
 
 ## 해설
 
 
-복벽 갈림증(gastroschisis)은 복강 외부에 장이 노출되는 선천성 결함이며, 심장 기형과의 연관성이 거의 없다. 따라서 추가 심장 결손이 없다는 것이 일반적인 소견이다. 정답은 심장 결손 없음이다.
+복벽갈림증에서는 노출된 장을 무균 덮개로 보호해 열·수분 손실과 손상을 줄인다. 위장 감압, 정맥 수액, 체온 유지 및 신속한 소아외과 처치를 함께 진행한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000883
+- https://perinatalnetwork.scot/wp-content/uploads/2025/05/SCANS-Postnatal-Guideline-Jan-2025-Gastroschisis-Inpatient_Final-transport-modified.pdf

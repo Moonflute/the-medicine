@@ -13,10 +13,10 @@ related_diseases:
   - "정상 애도"
   - "사별 후 환각"
   - "병적 애도와의 감별"
-question_type: diagnosis
+question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,23 +33,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-52세 남성이 5개월 전 교통사고로 딸을 잃은 뒤 대부분의 시간을 딸을 생각하고 수면 중 딸의 목소리를 듣거나 꿈을 꾸고 낮에는 가끔 짧게 딸을 본 듯한 경험이 있지만 일상생활은 유지하고 자살을 생각하지 않는다. 이 증상을 가장 잘 설명하는 것은?
+5개월 전 자녀를 잃은 환자가 가끔 고인의 목소리를 들은 것 같은 짧은 경험을 한다. 그 경험이 실제로 자녀가 돌아왔다는 뜻은 아니라고 생각한다. 슬픔은 오르내리지만 일을 하고 주변 사람과도 지낸다. 가장 적절한 해석은?
 
 ## 선택지
 
-A. 단기 정신병적 장애
-B. 주요우울장애
-C. 정상 애도 반응
-D. 외상후스트레스장애
+A. 목소리를 한 번 들으면 정신병적 장애로 확진한다
+B. 사별 후 슬픔이 5개월이면 지속성 애도장애로 확진한다
+C. 우울장애가 확인되지 않아도 항정신병약이 반드시 필요하다
+D. 그런 경험만으로 정신병을 뜻하지 않으며, 기능과 안전을 함께 확인하며 애도를 돕는다
 
 ## 해설
 
-사별 후 고인에 대한 꿈·수면 중 음성 경험이나 짧게 존재를 느끼는 경험은 애도 과정에서 나타날 수 있어 제시된 선택지 중 정상 애도 반응이 가장 가깝다. 이것만으로 정신병을 확정하지 않는다. 다만 일상기능이 일부 유지되고 자살사고를 부인한다는 이유만으로 모든 우울·외상 관련 질환이 배제되는 것은 아니며, 심한 기능저하·지속적 현실검증 손상·안전 위험 등을 추적 평가한다.
+사별 뒤 고인의 존재를 느끼는 짧은 경험이 나타날 수 있다. 경험을 어떻게 이해하는지, 슬픔의 경과와 일상 기능, 우울이나 안전 문제를 함께 살핀다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000708
+- https://www.psychiatry.org/patients-families/prolonged-grief-disorder
 
 ## 검수 근거
 

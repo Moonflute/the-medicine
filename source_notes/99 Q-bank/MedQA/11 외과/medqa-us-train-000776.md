@@ -22,7 +22,7 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIOuwjyDtj5Dsg4nsoITspp0gKERlZXAgVmVpbiBUaHJvbWJvc2lzIGFuZCBQdWxtb25hcnkgRW1ib2xpc20pLm1k
 question_type: ethics
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -39,19 +39,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-68세 남성이 6시간 전 갑자기 시작된 복통으로 응급실에 내원했다. 10점 척도에서 통증은 8~9점이라고 답했다. 복통은 우상복부에서 가장 심하다. 환자는 심방세동과 고지혈증 병력이 있다. 체온은 38.7°C, 맥박은 110회/분, 혈압은 146/86 mmHg이다. 환자는 급성 병색을 보인다. 신체 검진상 복부 팽만과 전 복부의 압통 및 방어근 긴장(guarding)이 관찰되나 반발통은 없다. 머피 징후(Murphy's sign)는 양성이다. 우상복부 초음파상 담낭벽 비후, 담낭 내 슬러지, 결장 주위 지방 침윤(pericolic fat stranding)이 확인되었다. 환자는 급성 담낭염으로 입원하여 담낭절제술에 동의했다. 환자의 아내가 의료 대리인(healthcare power of attorney, POA)이지만 출장 중이다. 오늘 환자와 함께 온 사람은 형제이다. 마취 유도 후, 외과의는 담낭을 제거하던 중 상장간막동맥(superior mesenteric artery)의 분지를 폐쇄하는 큰 혈전색전증으로 인해 소장의 일부가 괴사된 것을 발견했다. 치료를 위해서는 소장 절제술 및 혈전내막절제술을 추가로 시행해야 한다. 다음 중 가장 적절한 다음 조치는 무엇인가?
+환자가 담낭절제술에만 동의한 뒤 전신마취를 받았다. 수술 중 제거가 시급하지 않은 별개의 장 종괴를 우연히 발견했다. 출혈·폐색·천공은 없다. 적절한 대응은?
 
 ## 선택지
 
-A. 환자가 동의할 수 있을 때까지 진정 상태를 줄인다
-B. 동의를 구하지 않고 추가 수술을 진행한다
-C. 대기실에 있는 환자의 형제에게 동의를 구한다
-D. 환자의 의료 대리인(POA)에게 연락하여 동의를 구한다
+A. 예정 수술만 하고 회복 후 종괴 소견과 추가 검사·수술을 설명한다
+B. 추가 동의 없이 장 절제까지 시행한다
+C. 회복 후 알리지 않아도 되도록 종괴를 즉시 제거한다
+D. 마취 중에는 수술 범위의 제한이 없다고 판단한다
 
 ## 해설
 
 
-마취 중 발견한 장괴사와 장간막 동맥 폐색은 지연하면 추가 장손상과 생명 위험이 생기는 응급상황이다. 환자가 동의할 수 없고 지정 대리인에게 즉시 동의를 받을 수 없어 처치가 지연된다면 필요한 추가 수술을 시행할 수 있으므로 B가 적절하다. 가능하면 치료를 지연시키지 않는 범위에서 아내에게 연락하되 연락 성공을 기다리며 괴사 장 치료를 미루지 않는다. 응급성·판단과 연락 시도를 기록하고 수술 후 환자와 대리인에게 설명한다. 단순히 마취 중이라는 이유로 비응급 추가 수술을 임의 시행할 수 있다는 뜻은 아니다.
+응급 예외는 지연하면 생명이나 신체에 중대한 위해가 예상될 때 적용한다. 지연해도 위험하지 않은 별도 수술은 추가 설명과 환자 동의 없이 시행하지 않는다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ D. 환자의 의료 대리인(POA)에게 연락하여 동의를 구한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000776
+- https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1028255763

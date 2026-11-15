@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MDkg7ZiI7JWhL-2KueuwnOyEsSDtmIjshoztjJDqsJDshozshLEg7J6Q67CY7KadIChJZGlvcGF0aGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgSVRQKS5tZA
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-40세 백인 여성이 1주일 동안 지속된 빈뇨, 절박뇨와 골반통으로 내원했다. 증상이 밤낮으로 지속되어 잠을 잘 자지 못한다. 배뇨하면 통증이 일부 완화된다. 배뇨통이나 요실금은 없다. 월경 주기는 규칙적이다. 지난 6개월 동안 비슷한 증상이 여러 차례 발생했으며, 매번 1~2주 지속되었다. 증상 사이에는 비교적 괜찮았다. 6개월 전 방광염 진단을 받고 적절한 항생제 치료를 받은 뒤 증상이 시작되었다. 그 후 소변 배양검사는 계속 음성이었다. 과거력으로 2년 전 진단받은 섬유근육통, 자궁근종 여러 개, 과민성 장증후군과 우울증이 있다. 트라마돌을 가끔 복용하고 설트랄린을 매일 복용한다. 활력징후는 정상 범위이며 신경학적 검사도 이상이 없다. 복부, 골반과 직장검사는 정상이다. 방광을 완전히 팽창시켰다가 배액한 후 다시 시행한 방광경검사에서 방광삼각을 제외한 방광 전체에 작은 점상 출혈이 보인다. 다음 중 관리에서 가장 적절한 단계는 무엇인가?
+40세 여성이 6개월 동안 빈뇨와 치골 위 통증을 반복한다. 방광이 차면 아프고 배뇨하면 덜 아프다. 반복 소변배양이 음성이며 혈뇨는 없다. 방광통증증후군이 의심될 때 초기 관리로 가장 적절한 것은?
 
 ## 선택지
 
-A. 아미트립틸린
-B. 행동 수정
-C. 방광 수압확장술
-D. 방광 내 디메틸설폭사이드
+A. 진찰 없이 장기간 항생제를 처방한다
+B. 곧바로 방광 수압확장술을 시행한다
+C. 증상을 유발하는 음식·음료를 찾아 조절하고 배뇨일지를 활용한다
+D. 일상 수분 섭취를 가능한 한 줄인다
 
 ## 해설
 
 
-반복적인 방광 통증과 방광경 검사에서 점상 출혈이 보이는 경우, 방광통증 증후군(간질성 방광염)으로 행동 요법(예: 방광 훈련, 스트레스 관리)이 1차 치료에 권장된다. 따라서 가장 적절한 관리 단계는 행동 수정이다.
+잔뇨나 감염 등 다른 원인을 평가한 뒤 증상 교육과 개인별 생활 조절을 먼저 논의한다. 방광경의 점상출혈은 질환에 특이적이지 않으며, 단순한 증례에 진단을 위해 일률적으로 내시경을 할 필요는 없다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004467
+- https://www.auajournals.org/doi/full/10.1097/JU.0000000000002756

@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
   - MDUg7Iug7J6lL-unieyEsSDsgqzqtazssrTsi6Dsl7wgKE1lbWJyYW5vdXMgTmVwaHJvcGF0aHkpLm1k
-question_type: 임상증례 객관식
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-17세 남자가 5일간 지속된 얼굴과 다리 부종으로 내원했다. 10년 전 가족과 함께 한국에서 미국으로 이민했다. 2주 전 인후통이 있었던 것 외에는 건강했다. 여동생은 제1형 당뇨병이 있다. 체온 37°C, 맥박 90회/분, 혈압 145/87 mmHg이다. 눈 주위 부종과 하지 3+ 함요부종이 있다. 헤모글로빈 13.9 g/dL, 백혈구 8,100/mm³, 포도당 78 mg/dL, 알부민 2.4 g/dL, B형간염 표면항원 양성, 표면항체 음성, C4 감소, 소변 혈액 음성, 단백질 4+, 포도당 음성, 단백질/크레아티닌 비 8.1이다. 추가 평가에서 예상되는 소견은 무엇인가?
+38세 남성의 신장 생검에서 막성 신병증이 확인됐다. 신증후군이 있고 HBsAg 양성, HBV DNA가 높다. B형간염 연관 신병증으로 판단했다. 신장 관리를 하면서 우선 병행할 치료는?
 
 ## 선택지
 
-A. 신장 생검에서 상피하 침착
-B. 신장 생검에서 호산구성 결절
-C. 신장 생검에서 정상으로 보이는 사구체
-D. 혈청 IgA 증가
+A. 신기능에 맞는 B형간염 항바이러스 치료
+B. B형간염 치료 없이 고용량 스테로이드 단독
+C. B형간염 치료 없이 리툭시맙부터 투여
+D. HBV DNA가 높은 상태를 치료하지 않고 항체만 추적
 
 ## 해설
 
 
-신증후군에서 저알부민혈증, 고단백뇨, 혈청 C4 감소가 나타나며, 막성 신병증은 상피하 면역복합체 침착이 특징이다. 따라서 신장 생검에서 상피하 침착이 예상된다.
+B형간염 관련 사구체질환에서는 바이러스 복제 억제가 중요하다. 신기능을 고려해 항바이러스제를 고르고, 면역억제가 필요한 경우 HBV 재활성화도 예방해야 한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 혈청 IgA 증가
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004231
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/

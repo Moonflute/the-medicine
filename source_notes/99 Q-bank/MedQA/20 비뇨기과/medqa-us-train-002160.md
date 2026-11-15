@@ -19,9 +19,9 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
   - MTAg7KKF7JaRL-yymeyImCDslZXrsJUg7Kad7ZuE6rWwIChTcGluYWwgQ29yZCBDb21wcmVzc2lvbiBTeW5kcm9tZSkubWQ
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-68세 남성이 2주간 진행된 하지 위약과 요실금으로 응급실에 왔다. 지난 2개월 동안 허리 통증이 점점 심해졌다. 체온 37.1°C, 맥박 88회/분, 혈압 106/60 mmHg이다. 검사에서 보행실조가 있고 양쪽 하지 근력이 감소되어 있다. 엉덩이, 회음부 및 하지에서 통증·온도·위치 감각이 소실되었다. 발목 간대성 경련이 있다. 직장수지검사는 특별한 이상이 없다. 척추 X선에서 흉추와 요추에 여러 경화성 병변이 보인다. 추가 평가에서 다음 중 어떤 소견이 가장 잘 나타날 것인가?
+68세 전립선암 환자가 악화하는 등 통증 뒤 양쪽 다리에 힘이 빠지고 소변을 못 보게 됐다. 척추 영상에서 여러 경화성 병변이 보인다. 다음 검사는?
 
 ## 선택지
 
-A. 불규칙하고 비대칭적인 점
-B. 왼쪽 갑상샘엽 비대
-C. 소변의 벤스-존스 단백
-D. 전립선특이항원 상승
+A. 응급 척추 MRI
+B. 혈청 PSA 결과만 확인
+C. 일주일 뒤 척추 단순촬영
+D. 신경전도검사를 먼저 예약
 
 ## 해설
 
 
-전립선암은 골 전이와 골수 병변을 일으키며 PSA 상승이 특징이다. 척추 압박증상과 골 병변이 있을 때 PSA 상승이 가장 기대되는 소견이다. 따라서 전립선특이항원 상승이 정답이다.
+암 환자에게 새로 하지 위약과 방광 기능 장애가 나타나면 전이성 척수압박을 의심한다. 신경 손상이 남기 전에 응급 척추 MRI와 전문팀 평가를 진행한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002160
+- https://www.nice.org.uk/guidance/ng234/chapter/recommendations

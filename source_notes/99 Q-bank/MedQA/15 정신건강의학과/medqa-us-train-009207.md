@@ -13,11 +13,11 @@ related_diseases:
   - "selective mutism"
   - "선택적 함구증"
   - "anxiety disorder"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOyViCDsnqXslaAgKEFueGlldHkgRGlzb3JkZXJzKS5tZA
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,23 +34,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-7세 여아가 지난 4개월 동안 학교에서 말하기를 점점 꺼려하여 어머니와 함께 내원했다. 교사들은 질문에 대답하지 않아 학업 성적에 영향을 준다고 호소한다. 임신 35주에 태어났고 임신 중 전자간증이 있었다. 이전 영유아 검진은 정상이었다. 오빠는 4년 전 학습장애 진단을 받았다. 키와 체중은 65백분위수이다. 신체검사에서 이상은 없고 지시를 따른다. 질문에 직접 답하지 않고 어머니에게 속삭여 대답하며 어머니가 의사와 아이 사이에서 통역한다. 가장 가능성 높은 진단은 무엇인가?
+7세로 선택적 함구증이 있는 아이가 집에서는 유창하게 말한다. 방과 후 빈 교실에서는 보호자에게 속삭일 수 있지만, 교사가 있으면 말하지 못한다. 학교와 함께 시작할 방법은?
 
 ## 선택지
 
-A. 반응성 애착장애
-B. 사회불안장애
-C. 선택적 함구증
-D. 레트 증후군
+A. 첫날 전체 학급 앞에서 질문에 답하게 한다
+B. 교실에서는 기대를 아예 없애고 보호자가 항상 대신 말한다
+C. 한 달 동안 등교를 쉬고 자연 회복을 기다린다
+D. 편한 사람과 짧게 말하는 것부터 시작해 사람과 상황을 단계적으로 늘린다
 
 ## 해설
 
-학교나 진료실처럼 말이 기대되는 특정 상황에서 지속적으로 말하지 못하지만 어머니에게 속삭여 전달할 수 있고 학업에 영향이 있어 선택적 함구증이 가장 적절하다. 의도적으로 말을 거부하거나 선택해 억제한다는 의미가 아니며 불안과 밀접하고 사회불안이 동반될 수 있다. 언어능력·발달·청각 문제와 다른 의사소통 원인도 평가한다.
+말하기 부담이 낮은 상황에서 출발해 사람과 장소를 점차 넓힌다. 강요하지 않고 작은 시도를 강화하도록 보호자·학교·치료팀이 계획을 맞춘다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009207
+- https://www.asha.org/practice-portal/clinical-topics/selective-mutism/
 
 ## 검수 근거
 

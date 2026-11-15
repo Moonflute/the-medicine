@@ -13,12 +13,12 @@ related_diseases:
   - "크리글러-나자르 증후군 1형"
   - "중증 비포합 고빌리루빈혈증"
   - "핵황달"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_tgazrpqzquIDrn6wt64KY7J6Q66W0IOymne2bhOq1sCAoQ3JpZ2xlci1OYWpqYXIgU3luZHJvbWUpLm1k
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2ZqeuLrCAoTmVvbmF0YWwgSmF1bmRpY2UpLm1k
 difficulty: complex
-answer: "B"
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -44,18 +44,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-생후 5일 된 신생아가 며칠간 지속된 피부 황달로 부모와 함께 소아과에 왔다. 부모는 아기가 하루 종일 조용하고 소리에도 반응하지 않는다고 한다. 주산기 병력에서 임신 36주 제왕절개로 태어났고 출생 체중은 2.8kg이었다. 가까운 친척 관계인 부부의 둘째 아이이며, 첫째 아이는 어린 나이에 감염으로 사망했다. 체온 37.0°C, 맥박 116회/분, 호흡수 29회/분이고 근긴장저하가 있다. 헤모글로빈 12.9 g/dL, 백혈구 9,300/mm³, 혈소판 170,000/mm³, 비포합 빌리루빈 33 mg/dL, 포합 빌리루빈 0.9 mg/dL, 쿰스검사 음성이다. 가장 적절한 다음 단계는 무엇인가?
+재태 36주로 태어난 생후 5일 신생아가 심하게 노랗고, 젖을 잘 빨지 못한다. 진찰 중 목과 등이 활처럼 젖혀지고 고음으로 운다. 총 빌리루빈은 33.9mg/dL다. 다음 처치는?
 
 ## 선택지
 
-A. 페노바르비탈
-B. 즉시 집중 광선치료를 시작하고 응급 교환수혈을 준비·시행한다
-C. 간이식
-D. 모유 수유 중단
+A. 수유량만 늘리고 몇 시간 뒤 재검한다
+B. 집중 광선치료를 즉시 시작하면서 응급 교환수혈을 진행한다
+C. 직접 항글로불린검사 결과가 나올 때까지 경과를 본다
+D. 페노바르비탈을 먼저 시작하고 반응을 기다린다
 
 ## 해설
 
-36주 출생·생후 5일, 총빌리루빈 33.9 mg/dL와 기면·근긴장저하는 빌리루빈 신경독성이 우려되는 응급상황이다. 즉시 집중 광선치료와 지지치료를 시작하면서 교환수혈 가능한 NICU에서 응급 교환수혈을 준비·시행한다. 원인 질환 평가가 중요하지만 간이식·phenobarbital 또는 수유 중단만으로 이 즉각적 위험을 해결하려 하면 안 된다.
+심한 황달에 뒤로 젖혀지는 자세와 고음의 울음은 급성 빌리루빈 뇌병증을 시사한다. 집중 광선치료를 지체하지 않고, 교환수혈이 가능한 신생아팀과 응급 교환수혈을 진행한다.
 
 ## 검수 근거
 

@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YGs66O5IChDcm91cCkubWQ
 difficulty: simple
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 4개월 남아가 2개월간 점점 심해지는 흡기성 천명으로 진료를 받으러 왔다. 엎드리면 호전되고 보채거나 수유하거나 바로 누우면 악화되며 산소포화도는 98%이다. 가장 적절한 치료는?
+4개월 영아에게 수유하거나 울 때 커지는 흡기성 협착음이 있다. 후두 내시경으로 후두연화증을 확인했다. 무호흡이나 청색증은 없고 수유량과 체중 증가도 양호하다. 적절한 처치는?
 
 ## 선택지
 
-A. 관찰
-B. 수술적 절개
-C. 세프트리악손 치료
-D. 성문상부성형술
+A. 즉시 성문상부성형술을 시행한다
+B. 위산억제제를 일률적으로 시작한다
+C. 매 수면 때 엎드려 재운다
+D. 성장과 수유를 추적하며 악화 신호를 안내한다
 
 ## 해설
 
-위치·수유·보챔에 따라 변하는 흡기 협착음은 후두연화증에 부합한다. 산소화·수유·성장이 양호하면 관찰(A)하며 청색증·무호흡·성장부진 등 중증 소견 시 전문 평가·수술을 고려한다. 엎드릴 때 소리가 줄어든다는 병력은 엎드려 재우라는 권고가 아니며 수면은 바로 눕혀 안전하게 한다.
+수유와 성장이 양호하고 산소화 문제가 없는 후두연화증은 대개 경과를 관찰한다. 무호흡, 청색증, 성장부진이나 지속적인 흉곽 함몰이 나타나면 재평가한다. 수면은 바로 눕힌다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 성문상부성형술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000826
+- https://pubmed.ncbi.nlm.nih.gov/27107728/

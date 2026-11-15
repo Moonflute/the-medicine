@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: management
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-42세 남성이 2주 동안 여러 차례 직장 출혈이 있어 진료를 받으러 왔다. 한 달 전부터 항문 주위 통증이 있었다. 6개월 전 식도 칸디다증으로 진단받고 경구 플루코나졸로 치료받았으며 HIV 양성이다. 평생 9명의 남성 성 파트너가 있었고 콘돔은 일관되게 사용하지 않았다. 항문경과 직장수지검사에서 항문연 위 0.5 cm에 접촉 시 출혈하는 단단한 2 cm 종괴가 만져지고, 생검으로 진단이 확인되었다. 이 환자에게 가장 도움이 될 처치는?
+42세 남성이 항레트로바이러스 치료를 받고 있다. 항문관의 3 cm 종괴가 생검에서 편평세포암으로 확인됐다. 원격·림프절 전이는 없고 전신 상태는 양호하다. 표준 근치치료는?
 
 ## 선택지
 
-A. 방사선화학요법
-B. 국소 5-플루오로우라실 치료
-C. 경화제 주사요법
-D. 점막하 치핵절제술
+A. 항문관 종괴 국소 절제
+B. 복회음절제술
+C. 동시 항암방사선치료
+D. 항암화학요법 단독
 
 ## 해설
 
 
-항문연에서 0.5 cm 위의 항문관 종괴가 편평상피암으로 진단된 상황에서 선택지 A의 항암방사선치료는 표준적인 근치 접근이다. 원문의 CD4는 95/µL이고 dolutegravir·tenofovir·emtricitabine을 복용 중이다. HIV 감염만으로 곧바로 광범위 절제나 다른 암 치료를 선택하지 않으며 항레트로바이러스 치료·감염 예방과 혈액학적/피부 독성 감시를 병행한다. 면역저하 정도는 내약성에 영향을 주므로 개별화가 필요하다.
+국소 항문관 편평세포암의 표준 근치치료는 괄약근을 보존하는 동시 항암방사선치료다. HIV 감염만으로 일차 수술을 선택하지 않으며 면역 상태와 치료 독성을 함께 평가한다.
 
 ## 검수 근거
 
@@ -62,3 +62,5 @@ D. 점막하 치핵절제술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000928
+- https://pubmed.ncbi.nlm.nih.gov/39680825/
+- https://www.astro.org/provider-resources/guidelines/clinical-practice-guidelines/anal-cancer-guideline

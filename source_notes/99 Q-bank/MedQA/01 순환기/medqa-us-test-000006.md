@@ -32,7 +32,7 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvUHJvcHJhbm9sb2wubWQ
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 같은 코카인 노출 흉통 사례와 초기 처치 목표를 유지하되, 부적절한 '안심만' 정답 선택지를 즉시 ACS 평가·감시로 교정했다. 진단 전 약제만 고르는 잘못된 학습을 피한다."
 curation_status: "revised"
 curation_reason: "같은 코카인 노출 흉통 사례와 초기 처치 목표를 유지하되, 부적절한 '안심만' 정답 선택지를 즉시 ACS 평가·감시로 교정했다. 진단 전 약제만 고르는 잘못된 학습을 피한다."

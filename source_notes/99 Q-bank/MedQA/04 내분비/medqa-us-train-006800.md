@@ -15,7 +15,7 @@ related_diseases:
   - "미세알부민뇨"
 related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
-question_type: mechanism
+question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-56세 아프리카계 미국인 여성이 빈뇨로 내원했다. 1년 동안 한 시간마다 여러 번 소변을 보았고 갈증과 식욕도 증가했다. 배뇨통은 없다. 회계사로 일해 운동할 시간이 없고 식사는 주로 피자와 치즈버거이다. 활력징후와 신체진찰은 정상이다. 오늘 혈당은 200 mg/dL, HbA1c는 7.4%이며 소변검사에서 미세알부민뇨가 있다. 다음 중 이 단백뇨의 가장 가능성 높은 원인은?
+56세 제2형 당뇨병 환자의 첫 소변 알부민/크레아티닌 비가 72 mg/g이다. eGFR은 정상이고 요로감염이나 발열은 없다. 지속성 알부민뇨인지 확인하는 방법은?
 
 ## 선택지
 
-A. 사구체 세동맥의 석회화 경화
-B. 사구체 여과 증가
-C. 미만성 결절성 사구체경화증
-D. 사구체 전하 소실
+A. 한 번의 결과로 지속성 알부민뇨를 확진
+B. 수개월에 걸쳐 소변 알부민/크레아티닌 비를 반복
+C. 혈청 요소질소만 반복
+D. 조영 신장 CT로 확진
 
 ## 해설
 
-초기당뇨의 사구체내압·과여과 증가 B가 albuminuria에 기여할 수 있다. 그러나 여과장벽/족세포와 내피손상도 관련되어 구조변화가 전혀 없는 순수기능현상으로 단정하지 않는다. 결절성경화증은 진행단계 소견이며 지속 albuminuria는 반복정량으로 확인한다.
+소변 알부민은 일시적으로 달라질 수 있다. 국내 지침은 6개월 이내 측정한 3회 중 2회 이상 증가했을 때 지속성 알부민뇨로 확인한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 사구체 전하 소실
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006800
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/

@@ -14,13 +14,13 @@ related_diseases:
   - "산후 건초염"
   - "엄지 힘줄"
   - "De Quervain tenosynovitis"
-question_type: 임상증례 객관식
+question_type: diagnosis
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-uTnO2AmOultOuytSDrs5EgKERlIFF1ZXJ2YWluJ3MgVGVub3N5bm92aXRpcykubWQ
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 산모가 손목 통증으로 일차의료기관을 방문했다. 40주에 건강한 신생아를 출산했으며, 1주 전부터 손목 통증이 시작되어 계속 악화되었다. 최근 걷다가 넘어지면서 팔을 뻗어 바닥을 짚었다. 회계사로 재택근무를 하며 하루 약 8시간 타이핑하거나 재무제표를 작성한다. 여가에는 경쟁적인 사이클 선수로, 출산 후 강도 높은 훈련을 시작했다. 레보티록신으로 치료 중인 갑상샘기능저하증 병력이 있다. 손목을 보아도 만져도 이상은 없지만, 엄지를 굽힌 상태에서 손목을 자쪽으로 편위시키면 통증이 유발된다. 나머지 검사는 정상이다. 가장 적절한 다음 관리는 무엇인가?
+출산한 지 두 달 된 25세 여성이 아이를 자주 안은 뒤 엄지 쪽 손목이 아프다. 엄지를 손바닥 안으로 굽혀 잡고 손목을 새끼손가락 쪽으로 움직이면 통증이 재현된다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 손목 방사선 촬영
-B. 엄지 스파이카 석고붕대
-C. 근무 중과 밤에 착용할 손목 보호대
-D. 휴식과 이부프로펜
+A. 드퀘르벵 건초염
+B. 손목터널증후군
+C. 주상골 골절
+D. 새끼손가락 쪽 손목 충돌증후군
 
 ## 해설
 
-정답은 D, 휴식과 이부프로펜이다. 산후 반복적인 손목 사용과 엄지를 굽히고 손목을 척측 편위할 때 유발되는 통증은 드퀘르벵 건초염을 시사한다. 활동 조절과 금기가 없는 경우의 NSAID는 적절한 보존적 치료이다. 엄지와 손목을 지지하는 탈착식 부목도 사용할 수 있으므로 '고정이 필요 없다'는 단정은 옳지 않다. 선택지 B의 석고붕대는 통상적인 초기 탈착식 부목과 구별한다. 최근 손을 짚고 넘어진 병력이 있으므로 실제 진료에서 해부학적 코담배갑 압통 등 골절 의심 소견이 있으면 주상골 등 손상에 대한 영상 평가가 필요하다.
+요골 손목 통증과 엄지 힘줄을 당길 때 재현되는 통증은 드퀘르벵 건초염을 시사한다. 손목터널증후군은 정중신경 영역의 야간 저림이 더 전형적이다.
 
 ## 검수 근거
 

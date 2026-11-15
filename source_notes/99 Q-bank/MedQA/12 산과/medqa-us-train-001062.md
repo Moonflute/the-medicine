@@ -21,6 +21,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yekOyXsCDsnKDsgrAgKFNwb250YW5lb3VzIEFib3J0aW9uKS5tZA
 difficulty: standard
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite

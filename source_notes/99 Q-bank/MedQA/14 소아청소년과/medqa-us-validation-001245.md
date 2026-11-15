@@ -19,7 +19,7 @@ related_disease_slugs:
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-5세 여아가 3주간 지속된 외음부 가려움으로 잠을 잘 못 자 진료를 받으러 왔다. 골반검사에서 외음부와 항문 주위 발적이 있지만 질 분비물은 없다. 가장 적절한 다음 처치는?
+5세 여아가 밤마다 항문과 외음부가 가려워 잠에서 깬다. 질 분비물이나 배뇨통은 없다. 의심되는 원인을 확인하기 위한 검사는?
 
 ## 선택지
 
-A. 수산화칼륨 검사
-B. 항문 주위 셀로판테이프 검사
-C. 클라미디아와 임질 배양
-D. 대변 현미경검사
+A. 질 분비물 배양
+B. 아침 기상 직후 항문 주위 투명테이프 검사
+C. 소변 배양
+D. 항문 주위 피부 진균 검사
 
 ## 해설
 
 
-외음부·항문 가려움이 있는 소아에서 요충 감염을 의심하고, 항문 주위 셀로판테이프 검사가 가장 민감하고 간편한 진단법이다. 따라서 셀로판테이프 검사가 정답이다.
+밤에 심해지는 항문 주위 가려움은 요충증을 시사한다. 아침에 씻거나 배변하기 전 항문 주위에서 테이프 검체를 채취한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001245
+- https://www.cdc.gov/pinworm/diagnosing/

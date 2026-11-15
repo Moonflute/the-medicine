@@ -15,9 +15,9 @@ related_diseases:
   - "암로디핀"
 related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
-question_type: prevention
+question_type: management
 difficulty: complex
-answer: "D"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -42,23 +42,25 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-58세 여성이 제2형 당뇨병·고혈압·천식으로 추적 진료를 받으러 왔다. 지난해 증식성 망막병증에 레이저 치료를 받았고 현재 metformin, lisinopril, albuterol 흡입제를 사용한다. 혈압은 152/98mmHg이며 양쪽 발바닥 모노필라멘트 감각이 감소했다. 6개월 전과 비교해 HbA1c는 6.4%에서 6.2%, creatinine은 1.1에서 1.3mg/dL, 소변 albumin/creatinine 비는 260에서 470mg/g으로 변했다. 제시된 선택지 중 추가 혈압 조절을 통해 신기능 악화를 줄이는 데 가장 적합한 약물은?
+58세 제2형 당뇨병 환자가 최대 내약 용량의 ACE 억제제를 복용 중이다. HbA1c 6.4%, 혈압 128/76 mmHg이지만 eGFR 42 mL/min/1.73m²이고 UACR 470 mg/g이 지속된다. 신장질환 진행 위험을 낮추기 위해 우선 추가할 약제는?
 
 ## 선택지
 
 A. 로사르탄
-B. 아스피린
-C. 아토르바스타틴
-D. 암로디핀
+B. 글리메피리드
+C. 시타글립틴
+D. 엠파글리플로진
 
 ## 해설
 
-이미 ACE억제제 lisinopril을 복용하는데 혈압이 조절되지 않아 선택지 중 amlodipine을 추가해 혈압을 낮추는 것이 적합하다. Losartan을 겹쳐 ACE억제제+ARB로 쓰는 것은 AKI·고칼륨 위험 때문에 피한다. Amlodipine의 주된 이점은 추가 혈압 조절이지 RAS차단제와 같은 독립적 albuminuria 억제 효과라는 뜻은 아니다. 현대 CKD 치료에서는 eGFR·칼륨·금기에 따라 SGLT2억제제 등 다른 신장 보호 치료도 별도 검토한다.
+제2형 당뇨병과 알부민뇨성 만성콩팥병에서는 HbA1c가 목표에 도달해도 신장 보호 효과가 입증된 SGLT2 억제제를 우선 고려한다. ACE 억제제에 ARB를 겹쳐 쓰는 것은 피한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001259
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/
+- https://doi.org/10.1016/j.kint.2023.10.016
 
 ## 오답 포인트
 

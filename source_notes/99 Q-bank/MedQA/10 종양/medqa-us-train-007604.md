@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강했던 48세 남자가 3주 동안 점점 심해지는 황달, 전신 가려움, 심와부 불편감으로 내원했다. 오심과 식욕부진도 있고 지난 일주일 동안 변이 점토색이었다. 일주일 전 태국 여행에서 새 문신을 했고 여러 파트너와 성생활을 하며 보호장비는 사용하지 않는다. 활력징후는 정상이다. 황달과 공막 황달이 있고 사지 전체에 긁은 자국이 있다. 복부검사는 정상이다. 공복 포도당 198 mg/dL, 총 빌리루빈 10.6 mg/dL, 직접 빌리루빈 9.8 mg/dL, ALP 450 U/L이다. 복부 초음파에서 담도와 췌관이 확장되고 췌장 머리에 경계가 불규칙한 3cm 저에코 고형 종괴가 보인다. 이 환자 상태에 가장 특이적인 혈청검사 상승은 무엇인가?
+48세 남성이 황달과 회색 변으로 내원했다. 초음파에서 췌장 두부 종괴가 의심되고 담관과 췌관이 함께 늘어나 있다. 신기능은 정상이다. 종괴와 주변 혈관 침범, 전이를 처음 평가할 영상은?
 
 ## 선택지
 
-A. 항-HBc 면역글로불린 M
-B. 항중성구 세포질 항체 상승
-C. 암항원 19-9
-D. 알파태아단백
+A. 비조영 복부 CT
+B. 담관과 췌관만 촬영하는 MRCP
+C. 전신 FDG PET/CT
+D. 췌장 프로토콜 다중시기 조영증강 CT
 
 ## 해설
 
 
-문장으로 제공된 췌장두부 종괴, 담관·췌관 확장과 폐쇄성 황달은 췌장 선암을 의심하게 한다. 보기 중 C의 CA19-9가 가장 관련된 혈청 종양표지자이다. 그러나 담도폐쇄·염증 및 다른 암에서도 올라갈 수 있고 일부 사람은 생산하지 않아 췌장암 특이적 확진검사나 일반인 선별검사는 아니다. 영상·조직 및 임상 맥락과 함께 해석한다.
+췌장 프로토콜 CT는 여러 조영 시기를 이용해 원발 종괴, 주요 혈관과의 관계 및 간 전이 등을 평가한다. PET/CT나 담관 영상만으로 초기 절제 가능성 평가를 대체하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 알파태아단백
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007604
+- https://pmc.ncbi.nlm.nih.gov/articles/8901981/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/

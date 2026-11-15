@@ -13,12 +13,12 @@ related_diseases:
   - "major depressive disorder"
   - "depressive pseudodementia"
   - "bereavement"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ygleyDgSDslaDrj4Qg67CY7J2RIChCZXJlYXZlbWVudCkubWQ
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,23 +35,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 여성이 기억력 저하로 일차진료를 받으러 왔다. 지난 몇 달 동안 내야 할 청구서를 잊거나 문을 잠그지 않는 등 간단한 일을 기억하기 어려웠다. 이전에는 완전히 기능적이었고 이런 실수를 하지 않았다. 최근에 아팠던 적은 없지만 딸이 기억력에 대해 걱정해 내원했다. 스스로 음식을 만들고 다양한 식사를 한다. 남편이 사망한 뒤 지난 2개월 동안 기분이 저하되었고, 팔다리가 무거워 아무것도 하기 어렵게 느껴진다는 점이 문진에서 확인되었다. 체온 99.3°F(37.4°C), 혈압 112/68mmHg, 맥박 71회/분, 호흡수 14회/분, 실내 공기 산소포화도 99%이다. 신경학적 검사는 정상이나, 잠시 후 물건 3개를 회상하라고 하자 2개만 기억했다. 체중은 이전 방문과 같고 심장, 폐, 피부검사도 정상이다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+69세 여성이 2개월간 지속된 우울감·흥미 저하와 함께 기억이 나빠졌다고 한다. 가족은 그전까지 뚜렷한 인지 저하가 없었다고 한다. 선별검사에서 일부 저하가 있고, 일상생활은 독립적으로 한다. 적절한 평가 방침은?
 
 ## 선택지
 
-A. 알츠하이머 치매
-B. 우울증
-C. 갑상선기능저하증
-D. 혈관성 치매
+A. 우울증과 별개로 알츠하이머병으로 확정한다
+B. 독립적으로 생활하므로 추가 평가 없이 종결한다
+C. 우울증만으로 설명하고 인지평가를 하지 않는다
+D. 인지와 기능의 기초 상태 및 다른 원인을 확인하고 우울증 치료 후 추적한다
 
 ## 해설
 
-배우자 사망 후 2개월의 기분저하·납마비 같은 신체감각과 함께 인지 문제가 시작되어 제시된 진단 중 우울증 관련 인지저하가 가장 가깝다. 나이나 정상 신경학적 검사만으로 알츠하이머병·혈관성 치매를 배제하지 않으며, 우울증과 인지장애는 함께 존재할 수 있다. 갑상선 등 의학적 원인과 경과를 평가하고 치료 후에도 인지·기능 변화를 추적한다.
+우울증은 인지기능에 영향을 주고 신경인지장애와 함께 있을 수도 있다. 초기 상태와 치료 뒤 변화를 비교해 인지 저하가 남거나 진행하는지 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008504
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12173843/
 
 ## 검수 근거
 

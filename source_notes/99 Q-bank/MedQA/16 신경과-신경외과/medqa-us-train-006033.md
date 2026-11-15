@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tirnrsJzshLEg65GQ6rCc64K0IOqzoO2YiOyVlSAoSWRpb3BhdGhpYyBJbnRyYWNyYW5pYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-34세 여성이 흐린 시야와 귀울림으로 내원했다. 6개월 동안 반복되고 악화되는 양측 박동성 두통이 있었으며 이부프로펜으로 거의 호전되지 않았다. 지난 일주일 동안 거의 매일 아침 구토하고 두통 때문에 결근했다. 3개월 전부터 시야 문제가 여러 차례 발생했다. 최근 요로감염으로 항생제 치료를 끝냈고 페니실린 복용 시 경한 두드러기가 있었다. 혈압은 115/74 mmHg, 맥박은 분당 75회, 호흡수는 분당 16회, BMI는 36kg/m²이다. 양측 주변 시야 소실과 시력 보존이 있으며 안저검사에서 시신경유두 경계가 흐리고 혈관이 구불구불하다. 뇌 MRI는 정상이고 요추천자에서 개방압이 현저히 상승했다. 다음 중 치료의 다음 최선 단계는 무엇인가?
+34세 환자에게 박동성 귀울림과 양쪽 유두부종이 있다. 뇌 MRI·정맥영상에서 종괴와 정맥동혈전이 없고 뇌척수액 성분은 정상이나 개방압은 32 cmH₂O다. 시야 손상은 경미하고 진행하지 않는다. 체중 관리와 함께 시작할 약은?
 
 ## 선택지
 
-A. 푸로세미드
-B. 아세타졸아미드
-C. 시신경초 천공술
-D. 뇌실복강 단락술
+A. 프레드니솔론
+B. 고용량 푸로세미드 단독
+C. 수마트립탄
+D. 아세타졸아미드
 
 ## 해설
 
-비만 환자의 두통·유두부종/시각 증상 및 높은 뇌척수액 개방압은 특발성 두개내고혈압을 시사한다. 보기 중 acetazolamide(B)는 뇌척수액 생성을 줄이는 약물이며 체중 감량과 함께 사용한다. 시야와 시신경 상태를 추적해야 하고, 시기능이 급속히 악화하면 약물만 지속하지 말고 긴급 수술적 시력보존 치료를 평가한다. 확진 전에는 뇌정맥동혈전증 등 이차 원인을 배제해야 한다.
+경미한 시야 저하가 있는 특발 두개내고혈압의 초기 약물로 아세타졸아미드를 고려한다. 체중을 관리하고 시야를 추적하며, 시력이 급격히 떨어지면 응급 수술 평가가 필요하다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 뇌실복강 단락술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006033
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6166610/

@@ -13,11 +13,11 @@ related_diseases:
   - "요추 척추관 협착증"
   - "신경인성 파행"
   - "요추 MRI"
-question_type: investigation
+question_type: diagnosis
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yymey2lO2YkeywqeymnSAoU3BpbmFsIFN0ZW5vc2lzKS5tZA
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-65세 남자가 6개월 동안 점점 심해지는 양쪽 하지 통증으로 내원했다. 통증은 왼쪽이 더 심하고 걸을 때 악화되며 내리막길에서 급격히 심해진다. 실내 자전거를 타면 호전되고 일자다리올리기와 발살바법은 통증을 악화시키지 않는다. 다음 중 진단을 확진하기 위한 가장 적절한 검사는?
+65세 환자가 오래 서 있거나 내리막을 걸으면 양쪽 종아리가 아프다. 서서 쉬기만 해서는 덜 낫지만, 앉거나 카트에 기대 허리를 굽히면 호전된다. 다리 맥박과 안정 시 발목상완지수는 정상이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 발목-상완지수
-B. CT 척수조영술
-C. 근전도검사
-D. 자기공명영상
+A. 말초동맥질환에 의한 혈관성 파행
+B. 요추 척추관협착증에 의한 신경성 파행
+C. 마미증후군
+D. 고관절 골관절염
 
 ## 해설
 
-내리막길·서기에서 악화되고 굴곡 자세의 실내 자전거에서 완화되는 하지통은 신경인성 파행, 특히 요추 척추관협착증을 시사한다. 지속 증상의 원인을 평가하고 치료계획을 정할 때 선지 중 요추 MRI(D)가 신경근·마미 주변 협착을 확인하는 데 적절하다. 성인 하부 요추는 주로 척수 자체가 아니라 신경근 다발이 지나며 영상협착은 무증상에서도 흔해 임상과 일치해야 한다. 모든 초기 요통에서 MRI가 필요한 것은 아니고, CT 척수조영은 MRI가 불가능한 경우 등의 대안이다.
+걷기뿐 아니라 허리 폄과 오래 서는 자세에서 악화하고, 앉거나 앞으로 굽히면 나아지는 것이 신경성 파행의 단서다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 자기공명영상
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005370
+- https://www.nice.org.uk/guidance/ng59/chapter/recommendations

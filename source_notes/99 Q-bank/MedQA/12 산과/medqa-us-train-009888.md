@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-ygiOuwlSDsnKDsgrAgKFRocmVhdGVuZWQgQWJvcnRpb24pLm1k
   - MTIg7IKw6rO8L-yehOyLoCDspJEg7KeI7Lac7ZiILm1k
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 8주인 36세 초임부가 1시간 전 시작된 질 출혈과 경미한 치골상부 통증으로 응급실에 내원했다. 출혈은 줄었고 현재는 갈색의 소량 출혈만 있다. 엽산과 종합비타민을 복용한다. 10년 동안 하루 한 갑의 담배를 피우고 가끔 술을 마셨지만 6주 전에 둘 다 끊었다. 체온 37°C, 맥박 분당 92회, 혈압 116/77 mmHg이다. 골반검사에서 자궁경부 외구는 닫혀 있고 자궁 크기는 임신 8주에 해당한다. 초음파에서 자궁 내 임신과 정상적인 태아 심장 활동이 보인다. 다음 중 가장 적절한 처치는?
+임신 8주 초임부가 소량의 질출혈 뒤 진료받았다. 활력은 정상이고 자궁경부는 닫혀 있으며 초음파에서 자궁내 태아 심박이 확인됐다. 이전 유산 병력은 없다. 적절한 관리는?
 
 ## 선택지
 
-A. 안심시키고 추적 초음파 시행
-B. 저용량 아스피린 치료
-C. 프로게스틴 치료
-D. 완전 침상 안정
+A. 출혈이 멈출 때까지 일률적으로 절대 침상안정
+B. 자궁내용물을 흡인해 출혈을 막는다
+C. 모든 초기 질출혈에 프로게스테론을 일률 사용한다
+D. 현재 임신이 유지된다고 설명하고 경과와 재내원 기준을 안내한다
 
 ## 해설
 
-닫힌 경부와 정상 태아심박을 동반한 초기 출혈은 절박유산이다. 현재 출혈이 줄고 안정되어 A의 설명·추적 초음파가 적절하다. 임신이 계속 유지될 수 있고 유산이 필연적이라는 뜻은 아니다. 침상안정은 유산 예방 효과가 입증되지 않았으며 출혈·통증 악화 시 재평가한다.
+자궁내 임신이 살아 있고 출혈이 가볍고 안정적이면 경과를 볼 수 있다. 과다출혈·심한 통증·실신 시 즉시 재평가한다. 침상안정의 유산 예방 효과는 입증되지 않았고, 과거 유산력이 있는 일부 환자의 프로게스테론 고려와 구분한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 완전 침상 안정
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009888
+- https://www.nice.org.uk/guidance/ng126/chapter/management-of-miscarriage

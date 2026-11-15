@@ -13,13 +13,13 @@ related_diseases:
   - "congenital CMV infection"
   - "선천성 CMV 감염"
   - "periventricular calcifications"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 33주에 1710 g 남아를 출산했다. 신생아는 기면 상태이고 키와 체중은 15백분위수, 머리둘레는 1백분위수이다. 피부와 결막 황달, 간비장비대가 있고 두부 초음파에서 뇌실주변 석회화가 보인다. 가장 가능성 높은 진단은 무엇인가?
+생후 5일 신생아에게 소두증, 점상출혈과 간비장비대가 있다. 뇌 초음파에서 뇌실 주변 석회화가 보인다. 선천성 거대세포바이러스 감염을 확인하려면?
 
 ## 선택지
 
-A. 크리글러-나자르 증후군
-B. 선천성 지카바이러스 감염
-C. 태아알코올증후군
-D. 선천성 거대세포바이러스 감염
+A. 지금 소변에서 CMV PCR을 시행한다
+B. 생후 6주에 소변에서 CMV PCR을 처음 시행한다
+C. 신생아 CMV IgG 양성 여부만 확인한다
+D. 산모 CMV IgG가 양성이면 신생아 감염으로 확진한다
 
 ## 해설
 
 
-신생아의 저체중, 황달, 간비장비대, 그리고 뇌실주변 석회화는 선천성 거대세포바이러스(CMV) 감염을 특징짓는다. CMV는 태아 감염 시 이러한 소견을 일으키며, 다른 선택지는 해당 증상을 설명하지 못한다. 따라서 선천성 CMV 감염이 가장 가능성 높은 진단이다.
+선천성 CMV는 생후 3주 이내 소변 등 적절한 검체에서 바이러스를 확인해 진단한다. 늦게 처음 확인되면 출생 뒤 감염과 구분하기 어려워진다. IgG 양성만으로는 확진할 수 없다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009731
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10999471/
+- https://publications.aap.org/pediatrics/article/158/4/e2026078595/209466/Care-of-the-Infant-With-Congenital-Cytomegalovirus

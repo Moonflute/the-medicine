@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-uLpOuwnOqzqOyImOyihSAoTU0pIChNdWx0aXBsZSBNeWVsb21hIChNTSkpLm1k
   - MjIg7KCV7ZiV7Jm46rO8L-qzqOuLpOqzteymneyEsSDsspnstpQg6rOo7KCIIChPc3Rlb3Bvcm90aWMgU3BpbmFsIEZyYWN0dXJlKS5tZA
-question_type: prevention
+question_type: management
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-69세 아프리카계 미국인 남성이 갑작스러운 하지 마비와 요통으로 응급실에 왔다. 2개월 동안 전신 뼈 통증이 있었고 중증 질환 병력은 없다. 이부프로펜을 복용한다. 창백하고 체온은 37.1°C(98.8°F), 맥박은 분당 68회, 호흡수는 분당 16회, 혈압은 155/90 mmHg이다. 신경학적 검사에서 하반신 불완전마비가 있고 제8흉추에 압통이 있다. X선에서 같은 부위 압박골절이 확인된다. 혈색소 9 g/dL, MCV 95 μm³, 백혈구 5,000/mm³, 혈소판 240,000/mm³, ESR 85mm/h, 혈청 칼슘 11.5 mg/dL, 알부민 4 g/dL, BUN 18 mg/dL, 크레아티닌 1.2 mg/dL이며 혈청 전기영동에서 단클론 단백 38g/L이다. 골절 재발 가능성을 줄이기 위해 다음 중 무엇을 투여하는 것이 가장 적절한가?
+다발골수종이 있는 환자가 갑자기 심해진 등 통증과 다리 위약으로 왔다. 가슴 아래 감각이 떨어지고 소변을 못 본다. 척수압박이 의심된다. 전문팀에 즉시 연락하면서 할 일은?
 
 ## 선택지
 
-A. 칼시트리올
-B. 플루오라이드
-C. 파미드로네이트
-D. 테스토스테론
+A. 응급 척추 MRI를 요청하고 신경증상이 있으므로 덱사메타손을 시작한다
+B. 골절 예방용 비스포스포네이트만 처방하고 외래에서 본다
+C. 단순 X선으로 압박이 확인될 때까지 치료를 보류한다
+D. 진통제를 올린 뒤 한 달 뒤에 영상을 예약한다
 
 ## 해설
 
 
-MM 관련 용해성 골질환/골절 재발 위험에 pamidronate C 같은 bisphosphonate는 골흡수를 억제해 골격 사건을 줄인다. Bisphosphonate는 비질산염이 아니다. 투여 전 신기능·칼슘/영양 상태·치과/턱뼈 위험을 평가한다. 현재 갑작스러운 하반신 위약과 압박골절은 별도로 척수압박 응급평가·MRI 및 전문 치료가 필요하며 pamidronate만으로 해결하지 않는다.
+암 환자의 새 위약·감각 저하·배뇨 장애는 척수압박 응급상황이다. MRI로 압박 위치를 확인하고 덱사메타손을 시작하며 신속히 수술·방사선 치료 필요성을 평가한다.
 
 ## 검수 근거
 

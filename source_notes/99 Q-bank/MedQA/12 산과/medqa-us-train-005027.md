@@ -13,11 +13,11 @@ related_diseases:
   - "중증 자간전증"
   - "임신성 고혈압"
   - "중증 혈압 기준"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 35주인 22세 초임부가 다리 부종으로 입원했다. 혈압은 처음 168/95 mmHg였으나 15분 후 항고혈압제 없이 141/88 mmHg로 낮아졌고 소변 단백은 1+였다. 관찰하며 평가를 계속하기로 했다. 다음 중 의심되는 질환을 중증 형태로 분류하게 하는 소견은?
+임신 35주 산모의 혈압이 168/98 mmHg이고 15분 뒤에도 166/96 mmHg다. 심한 두통이 있으며 혈압을 재는 동안에도 계속됐다. 다음 조치는?
 
 ## 선택지
 
-A. 24시간 소변 단백 5 g/L
-B. 4시간 후 재측정한 혈압 165/90 mmHg
-C. 혈소판 수 133,000/μL
-D. 혈청 크레아티닌 0.98 mg/dL
+A. 이완기혈압이 110 mmHg 미만이므로 중증이 아니다
+B. 최소 4시간 뒤에만 성립하는 기준이므로 치료하지 않는다
+C. 황산마그네슘을 주면 별도의 혈압 치료는 필요 없다
+D. 지속되는 중증 수축기 고혈압으로 보고 신속히 항고혈압 치료를 시작한다
 
 ## 해설
 
-중증 범위 혈압은 수축기 160 mmHg 이상 또는 이완기 110 mmHg 이상이다. 따라서 수축기 165 mmHg가 재확인되는 B가 제시된 선지 중 중증 형태를 지지한다. 두 수치가 동시에 기준을 넘어야 하는 것은 아니다. 혈소판 133,000/μL와 크레아티닌 0.98 mg/dL는 각각의 중증 장기손상 기준에 해당하지 않으며, 단백뇨의 양만으로 중증도를 분류하지 않는다. 임상적으로 중증 혈압이 지속되면 4시간을 무조건 기다리지 않고 신속히 재평가·대응한다.
+수축기 160 mmHg 이상 또는 이완기 110 mmHg 이상이 지속되는 것은 산과 응급이다. 급성 중증 고혈압으로 확인되면 뇌졸중 위험을 줄이기 위해 신속히 치료하며 자간전증 평가와 발작 예방을 별도로 한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 혈청 크레아티닌 0.98 mg/dL
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005027
+- https://pubmed.ncbi.nlm.nih.gov/30575639/

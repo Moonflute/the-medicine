@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-2YiOq0gOuvuOyjvOyLoOqyveyEsSDsi6Tsi6AgKFZhc292YWdhbCBTeW5jb3BlKS5tZA
   - MDEg7Iic7ZmY6riwL-yLrOyLpCDruYjrp6UgKFZlbnRyaWN1bGFyIFRhY2h5Y2FyZGlhKS5tZA
   - MDEg7Iic7ZmY6riwL-uLpO2YleyEsSDsi6zsi6Qg67mI66elIChUZFApIChUb3JzYWRlcyBkZSBQb2ludGVzIChUZFApLm1k
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -41,18 +41,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-62세 남성이 실신으로 응급실에 내원했다. 환자는 식료품을 차로 옮기던 중 갑작스러운 두근거림이 발생한 후 의식을 잃었다고 보고했다. 그 이후의 세부 사항은 기억하지 못하며, 흉통이나 어지럼증은 없다. 고혈압, 제2형 당뇨병, 위마비(gastroparesis), 무릎 골관절염의 과거력이 있다. 복용 중인 약물로는 리시노프릴(lisinopril), 메트포르민(metformin), 그리고 구역질 시 필요에 따라 복용하는 온단세트론(ondansetron)이 있다. 또한 만성 통증으로 매일 메타돈(methadone)을 복용한다. 이마의 찰과상을 제외하고는 건강해 보인다. 체온은 37.2°C, 심박수는 분당 104회로 규칙적이며, 혈압은 135/70 mmHg이다. 응급실에 있는 동안 환자는 다시 의식을 잃었다. 원격 심전도(telemetry)상 QRS 축이 주기적으로 변하는 다형성 심실빈맥(polymorphic ventricular tachycardia)이 관찰되었으며, 이는 30초 후 자발적으로 회복되었다. 일반혈액검사(CBC), 혈청 전해질 농도, 혈청 갑상선 기능 검사 결과는 모두 정상이다. 심장 효소 수치도 정상 범위 내에 있다. 이 환자의 실신에 대한 가장 가능성 있는 기저 원인은 무엇인가?
+62세 남성이 두근거림 뒤 반복해서 실신했다. 메타돈과 온단세트론 복용 중이며 심전도에는 QTc 550 ms가 보인다. 모니터에서 QRS 축이 비틀리듯 바뀌는 다형성 심실빈맥이 짧게 여러 차례 나타났다. 지금은 동율동으로 돌아왔고 혈압은 안정적이다. 원인 약을 중단하면서 재발을 억제할 약은?
 
 ## 선택지
 
-A. QT 간격 연장
-B. 이형 협심증(Prinzmetal angina)
-C. 브루가다 증후군(Brugada syndrome)
-D. 저마그네슘혈증
+A. 정맥 황산마그네슘
+B. 정맥 아미오다론
+C. 정맥 아데노신
+D. 정맥 베라파밀
 
 ## 해설
 
-정답은 A이다. methadone과 ondansetron은 QT를 연장할 수 있고 QRS 축이 주기적으로 변하는 다형성 VT와 실신은 torsades de pointes에 합당하다. 전해질 이상이 없어도 약물성 QT 연장이 발생할 수 있다. 모든 다형성 VT가 긴 QT에서만 발생하는 것은 아니며 이 사례의 약물과 리듬 양상을 함께 해석한다.
+현저한 QT 연장과 회전하는 듯한 다형성 심실빈맥은 토르사드 드 푸앵트를 시사한다. 현재 동율동으로 회복했어도 재발을 억제하기 위해 정맥 마그네슘을 쓰고 QT 연장 약을 중단하며 전해질을 교정한다. 지속되는 불안정 다형성 심실빈맥은 즉시 제세동한다.
 
 ## 검수 근거
 
@@ -65,3 +65,4 @@ D. 저마그네슘혈증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000477
+- https://k-hrs.org/assets/file/07_2024_Korean_Arrhythmia_Society_sudden_cardiac_Guidelines.pdf

@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7JmA7IKs7YKk67ORIChLYXdhc2FraSBEaXNlYXNlKS5tZA
 difficulty: standard
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -32,7 +33,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강했던 4세 남아가 일주일 동안 지속된 발열, 전신 관절통, 복부 발진으로 부모와 함께 내원했다. 아세트아미노펜으로 증상이 호전되지 않았다. 2년 전 가족과 함께 중국에서 이주해 왔고 어린이집에 다닌다. 예방접종 기록은 확인할 수 없다. 체온 38.5°C(101.3°F), 맥박 125회/분, 혈압 100/60mmHg이다. 진찰에서 몸통에 다형성 발진이 보인다. 눈은 분비물 없이 충혈되어 있고, 혀는 윤기가 나며 붉고 입술은 갈라져 있다. 손과 발이 붉고 부어 있다. 오른쪽 전경부 림프절병증이 있다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+이전에 건강했던 4세 남아가 일주일 동안 지속된 발열, 전신 관절통, 복부 발진으로 부모와 함께 내원했다. 아세트아미노펜으로 증상이 호전되지 않았다. 2년 전 가족과 함께 중국에서 이주해 왔고 어린이집에 다닌다. 예방접종 기록은 확인할 수 없다. 체온 38.5°C(101.3°F), 맥박 125회/분, 혈압 100/60mmHg이다. 진찰에서 몸통에 다형성 발진이 보인다. 눈은 분비물 없이 충혈되어 있고, 혀는 윤기가 나며 붉고 입술은 갈라져 있다. 손과 발이 붉고 부어 있다. 오른쪽 전경부 림프절병증이 있다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

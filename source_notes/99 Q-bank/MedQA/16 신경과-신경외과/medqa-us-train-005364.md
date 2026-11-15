@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qt7zsnITstpXshLEg7Lih7IKtIOqyve2ZlOymnSAoQW15b3Ryb3BoaWMgbGF0ZXJhbCBzY2xlcm9zaXMpLm1k
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-52세 남자가 1년 동안 사지 근력저하와 5개월 동안 구음장애로 내원했다. 혀 위축과 근섬유다발수축, 사지 근력저하, 한쪽 하지의 저긴장과 다른 사지의 과긴장, 비대칭 반사, 좌측 바빈스키 반응이 있으며 감각은 정상이다. 가장 적절한 약물치료는?
+52세 남성이 근전도와 신경학적 진찰을 거쳐 근위축성 측삭경화증으로 확진됐다. 다학제 치료를 시작하면서 생존 연장 목적으로 고려할 기본 약물은?
 
 ## 선택지
 
-A. 비타민 B12
-B. 글라티라머 아세테이트
-C. 릴루졸
-D. 코르티코스테로이드
+A. 피리도스티그민
+B. 글라티라머아세테이트
+C. 프레드니솔론
+D. 릴루졸
 
 ## 해설
 
 
-환자는 상하위 운동뉴런 증상을 동시에 보이며 근위축성 측삭경화증(ALS)으로 추정된다. 릴루졸은 ALS 진행을 늦추는 FDA 승인 약물이다. 따라서 가장 적절한 약물치료는 릴루졸이다.
+릴루졸은 근위축성 측삭경화증 환자의 생존 연장을 위해 진단 뒤 투여를 권고하는 기본 약물이다. 호흡·영양과 재활 관리는 함께 진행한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005364
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11235832/

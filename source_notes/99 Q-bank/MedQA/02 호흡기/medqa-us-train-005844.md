@@ -16,11 +16,11 @@ related_diseases:
   - "spontaneous pneumothorax"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
-question_type: mechanism
+question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-63세 남성이 갑자기 발생한 심한 호흡곤란과 우측 흉통으로 응급실에 왔다. 만성폐쇄성폐질환, 고혈압, 소화성 궤양질환 및 갑상선기능항진증 병력이 있다. 20년 동안 하루 한 갑씩 흡연했고 사교적으로 음주하지만 불법 약물은 사용하지 않는다. 혈압은 130/80 mmHg, 맥박은 규칙적인 분당 98회, 호흡수는 분당 20회이며 실내 공기 산소포화도는 90%이다. 경미한 호흡곤란 상태이고 우측 촉각진탕과 호흡음이 감소하며 타진에서 과공명음이 들린다. 기관은 중앙에 있고 심잡음은 없다. 다음 중 현재 상태의 가장 가능성 높은 기전은 무엇인가?
+63세 COPD 환자가 갑자기 오른쪽 가슴이 아프고 숨이 차다. 오른쪽 호흡음과 촉각진탕이 감소하고 타진은 과공명이다. 흉부 X선에서 오른쪽 폐선이 보이고 그 바깥쪽에 폐혈관 음영이 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 종양에 의한 주기관지 압박
-B. 대동맥 내막 박리
-C. 심근 산소 요구량 증가
-D. 폐첨부 폐포수포 파열
+A. 우측 흉수
+B. 우하엽 무기폐
+C. 우측 폐렴
+D. 기저 폐질환에 동반된 이차성 자발성 기흉
 
 ## 해설
 
 
-갑작스러운 일측성 흉통·청진음 감소·타진에서 과공명음은 폐첨부의 파열성 폐포수포(자발성 기흉)와 일치한다. 종양 압박·대동맥 박리·심근 산소 요구증가는 해당 소견을 설명하지 못한다.
+갑자기 생긴 한쪽 흉통과 호흡음 감소에 폐선 바깥쪽 혈관 음영이 없는 소견은 기흉에 부합한다. COPD 같은 기저 폐질환이 있으면 이차성 자발성 기흉이며, 기저 폐질환이 없는 경증 사례의 관찰 기준을 그대로 적용하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 폐첨부 폐포수포 파열
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005844
+- https://publications.ersnet.org/lookup/doi/10.1183/13993003.00797-2023

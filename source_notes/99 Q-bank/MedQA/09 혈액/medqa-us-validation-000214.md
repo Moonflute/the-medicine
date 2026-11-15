@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEIg6rKw7ZWN7KadIChWaXRhbWluIEIgRGVmaWNpZW5jeSkubWQ
   - MDkg7ZiI7JWhL-qxsOuMgOygge2YiOuqqOq1rCDruYjtmIggKE1lZ2Fsb2JsYXN0aWMgQW5lbWlhKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-29세 여성이 수개월간 피로, 어지러움, 반복적인 낙상으로 진료를 받았다. 하루 5~8잔의 술을 마시며, 혈색소는 9.0 g/dL, 메틸말론산은 1.0 μmol/L(정상 <0.40)였다. 가장 가능성 높은 원인은?
+손발 저림과 대적혈구증이 있는 환자의 혈청 비타민 B12가 검사실 기준 경계 범위에 있다. 신기능은 정상이다. B12 결핍을 확인하는 데 도움이 되는 추가 검사는?
 
 ## 선택지
 
-A. 알코올 사용
-B. 엽산 결핍
-C. 철 결핍
-D. 비타민 B12 결핍
+A. 혈청 엽산만 측정
+B. 혈청 메틸말론산 측정
+C. 혈청 저장철만 측정
+D. 내인자 항체가 음성이면 B12 결핍을 배제
 
 ## 해설
 
 
-빈혈과 낙상·균형 이상에 methylmalonic acid 상승이 동반되어 선택지 중 B12 결핍(D)이 가장 부합한다. 엽산 결핍이나 알코올 자체만으로는 보통 MMA가 상승하지 않는다. 다만 MMA는 신기능 저하 등에서도 증가할 수 있으므로 임상상과 B12·신기능을 함께 해석한다. Hb 9g/dL를 모든 상황에서 경미한 감소로 규정하지 않는다.
+초기 B12 결과가 경계일 때 메틸말론산을 추가해 기능적 결핍을 평가할 수 있다. 신장 기능 저하만으로도 메틸말론산이 오를 수 있어 함께 해석한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 비타민 B12 결핍
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000214
+- https://www.nice.org.uk/guidance/ng239/chapter/recommendations

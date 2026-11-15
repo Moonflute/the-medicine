@@ -20,7 +20,7 @@ question_type: investigation
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-49세 남자가 수 주 동안 지속된 연하통, 복통, 피로, 두통, 발열로 내원했다. 만성질환이나 여행력, 최근 감염 노출은 없다. 신체검사에서 홍반성 구강점막과 경부 림프절병증 외에는 특이사항이 없다. 혈압은 121/72 mmHg, 심박수 82회/분, 호흡수 16회/분이다. 문진에서 남녀 모두와 정기적으로 보호 없이 성관계를 한다고 한다. 다음 중 반드시 배제해야 할 질환은 무엇인가?
+HIV 노출 가능성이 있는 성접촉 2주 뒤 고열, 인후통, 발진이 생겼다. 현재 4세대 HIV 항원·항체 검사는 음성이다. 급성 HIV 감염을 놓치지 않기 위해 추가할 검사는?
 
 ## 선택지
 
-A. 파종성 임균 감염
-B. 일차 매독
-C. 이차 매독
-D. 일차 HIV 감염
+A. HIV 내성 유전자검사를 선별 검사로 시행
+B. CD4 세포 수 측정
+C. HIV 항체 신속검사만 반복
+D. 혈장 HIV-1 RNA 검사
 
 ## 해설
 
 
-보호되지 않은 성관계와 급성 전신 증상이 동반된 경우, 급성 HIV 감염을 가장 먼저 배제해야 한다.
+감염 초기에는 항원·항체 검사가 음성일 수 있다. 노출 시점과 증상으로 급성 감염이 의심되면 HIV-1 RNA를 추가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 일차 HIV 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007442
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/special-populations-early-acute-recent-hiv-infection

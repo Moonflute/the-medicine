@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
 question_type: management
 difficulty: simple
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-특별한 과거력이 없는 26세 남성이 버지니아에서 친구들과 캠핑을 다녀왔다. 돌아온 지 며칠 후 발열, 두통, 근육통과 권태감이 생겼고 손목과 발목에 발진이 생겼다(그림 A). 이 상태의 치료로 무엇을 시작해야 하는가?
+미국 노스캐롤라이나 여행에서 진드기에 물린 32세 환자가 귀국 후 고열과 심한 두통을 보인다. 손목·발목에서 시작된 점상발진이 손바닥까지 퍼졌고 혈소판이 낮다. 로키산 홍반열을 의심할 때 적절한 처치는?
 
 ## 선택지
 
-A. 피라진아미드
-B. 반코마이신
-C. 아지스로마이신
-D. 독시사이클린
+A. 독시사이클린을 바로 시작한다
+B. 급성기 혈청항체 양성이 확인된 뒤 독시사이클린을 시작한다
+C. 아목시실린을 시작하고 항체 결과를 기다린다
+D. 발진이 호전되는지 관찰 후 항생제를 결정한다
 
 ## 해설
 
 
-버지니아 야외 노출 뒤 발열·두통·근육통과 손목/발목에서 시작한 발진은 RMSF를 시사한다. Doxycycline D는 의심 시 검사 결과를 기다리지 않고 시작할 약이다. Lyme은 Borrelia에 의한 다른 감염이며 RMSF와 같은 이름으로 묶어 설명하면 안 된다. 그림이 없어도 본문의 분포와 전신 증상으로 경험적 치료 필요성을 판단할 수 있다.
+여행지와 진드기 노출, 특징적 발진이 맞으면 독시사이클린을 경험적으로 투여한다. 초기 항체 검사는 음성일 수 있으므로 결과 때문에 치료를 미루지 않는다.
 
 ## 검수 근거
 

@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rj4XshLEg6rCE7Je8IChUb3hpYyBIZXBhdGl0aXMpLm1k
 question_type: management
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-52세 의식불명 남자가 눈 속 보도에서 발견되어 응급실에 왔다. 최근 정맥주사 약물을 사용한 노숙자이며 MRI에서 수막의 다발성 고신호와 소뇌·대뇌피질의 작은 조영증강 병변이 보인다. 뇌척수액 개방압 25 cmH₂O, 백혈구 580/mm³(림프구 90%), 단백 176 mg/dL, 포도당 21 mg/dL, 항산균 염색 양성이다. 적절한 항균제를 시작했다. 즉시 이후 관리에 대한 설명으로 옳은 것은?
+38세 환자가 2주 동안의 두통과 발열 끝에 의식이 저하됐다. 뇌척수액에서 결핵균 핵산증폭검사가 양성이다. 항결핵 치료에 함께 시작할 약물은?
 
 ## 선택지
 
-A. 경험적으로 아시클로버도 시작해야 한다
-B. 간효소를 정기적으로 확인한다
-C. 항생제 치료 반응을 확인한다
-D. 뇌척수액 배양 결과가 나올 때까지 치료를 시작하지 않는다
+A. 아시클로버
+B. 메로페넴
+C. 덱사메타손
+D. 레베티라세탐
 
 ## 해설
 
 
-결핵성 수막염 의심에서 배양을 기다려 치료를 지연하지 않는다. Isoniazid·rifampin·pyrazinamide 등 간독성 약물의 baseline/임상 위험에 따른 간기능 추적 B가 필요하다. 약물명은 피라진아미드이며 치료 반응도 임상·신경학적으로 계속 확인해야 하므로 C 자체가 임상적으로 불필요하다는 의미는 아니다. 신경합병증·수두증과 보조 steroid 등은 별도 지침에 따라 관리한다.
+결핵성 수막염에서는 신경계 합병증과 사망 위험을 줄이기 위해 항결핵제에 코르티코스테로이드를 병용한다. 발작이 없는 환자에게 항경련제를 일괄 투여하는 것이 핵심은 아니다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ D. 뇌척수액 배양 결과가 나올 때까지 치료를 시작하지 않는�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005276
+- https://www.kdca.go.kr/kdca/2861/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjU1JTJGMjI4MTc4JTJGYXJ0Y2xWaWV3LmRvJTNG

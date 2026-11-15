@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHspp0g6re866y066Cl7KadIChNeWFzdGhlbmlhIGdyYXZpcykubWQ
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-33세 여성이 쇠약감으로 응급실에 왔다. 하루가 끝날 무렵 스스로 돌보기 힘들 정도로 피로하고 힘이 빠진다고 하며 현재도 그렇다. 최근 여러 질환을 앓았고 여행, 하이킹과 캠핑을 했다. 체온 98.0°F (36.7°C), 혈압 124/84 mmHg, 맥박 82/min, 호흡 12/min, 산소포화도 98%이다. 상지 근력 2/5, 하지 근력 4/5이고 가벼운 복시가 있다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+33세 환자는 쉬면 나아지지만 책을 오래 읽거나 식사가 길어지면 양쪽 눈꺼풀이 처지고 턱 힘이 빠진다. 감각과 건반사는 정상이며 입마름은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 근위축성 측삭경화증
-B. Lambert-Eaton 증후군
-C. 중증근무력증
-D. 진드기 마비
+A. 램버트–이튼 근무력증후군
+B. 중증근무력증
+C. 근위축성 측삭경화증
+D. 염증성 근병증
 
 ## 해설
 
-하루 말미에 악화되는 피로성 근력저하와 복시는 중증근무력증(C)을 가장 지지한다. 복시(diplopia)는 물체가 두 개로 보이는 증상이며 안구진탕(nystagmus)과 같은 뜻이 아니다. 신경근접합부의 자가면역 이상이 원인이며 대부분 AChR 항체가 관여하지만 MuSK 등 다른 표적도 가능하다.
+반복 사용으로 심해지고 휴식으로 좋아지는 눈·저작근 위약은 중증근무력증의 단서다. 건반사 저하와 자율신경 증상이 두드러지는 램버트–이튼 증후군과 구분한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 진드기 마비
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001793
+- https://pubmed.ncbi.nlm.nih.gov/40940171/

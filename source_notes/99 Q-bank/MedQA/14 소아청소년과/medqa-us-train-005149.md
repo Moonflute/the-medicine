@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTEg7Jm46rO8L-qyveu2gOyZuOyDgSAoQ2VydmljYWwgVHJhdW1hKS5tZA
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 1개월 여아가 목이 항상 오른쪽으로 기울어져 추적 진료를 받으러 왔다. 둔위로 만삭 분만되었고 머리는 오른쪽으로 기울며 턱은 왼쪽을 향한다. 목 운동 범위가 제한되고 오른쪽 아래 목에 단단하고 경계가 분명한 종괴가 만져진다. 다음 중 가장 적절한 처치는?
+생후 1개월 영아의 머리가 오른쪽으로 기울고 턱은 왼쪽으로 돌아간다. 오른쪽 흉쇄유돌근이 짧고 그 안에 작은 단단한 종괴가 있다. 외상·발열·신경학적 이상은 없다. 초기 치료는?
 
 ## 선택지
 
-A. 목 CT
-B. 보툴리눔 독소 주사
-C. 스트레칭 프로그램
-D. 근절개술
+A. 장기간 목 보조기로 고정
+B. 조기 소아 물리치료를 의뢰해 안전한 자세 조정과 스트레칭을 교육
+C. 흉쇄유돌근을 바로 절개
+D. 모든 경우 목 CT를 먼저 촬영
 
 ## 해설
 
 
-생후 1개월 영아의 목이 한쪽으로 기울고 경계가 명확한 종괴가 촉진되는 경우, 흉쇄유돌근 섬유성 종괴(선천성 근성 사경)가 흔히 나타난다. 초기 치료는 물리적 스트레칭 프로그램으로 근육 길이를 늘려주는 것이 표준이다. 따라서 스트레칭 프로그램이 적절하다.
+전형적인 선천성 근성 사경은 생후 일찍 물리치료를 시작한다. 보호자에게 수유·놀이 때 자세와 부드러운 운동을 교육하고, 비전형적인 소견이나 반응 부족은 재평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005149
+- https://pubmed.ncbi.nlm.nih.gov/39356257/

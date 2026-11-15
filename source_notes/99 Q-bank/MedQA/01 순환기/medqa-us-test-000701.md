@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,19 +39,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-76세 여성이 일반 건강검진을 받으러 왔다. 무증상이며 6개월 전 뇌졸중으로 왼쪽 편마비가 있었으나 물리치료로 거의 회복했다. 고혈압과 심방세동이 있고 유의한 허혈성·판막성·구조적 심장질환은 없다. 메토프롤롤, 암로디핀, 와파린, 아토르바스타틴을 복용한다. 혈압 125/70 mmHg, 맥박 75회/분으로 불규칙했고 호흡 13회/분이었다. 왼쪽 팔과 다리에 경미한 절뚝거림과 쇠약이 있었다. 치료 순응도와 치료 효과를 평가하기 위해 시행할 검사는?
+76세 여성이 기계식 승모판막 치환을 받은 뒤 와파린을 복용 중이다. 최근 다른 병원에서 새 처방약을 추가했다. 와파린의 항응고 강도를 확인하고 용량을 조정할 때 사용할 검사는?
 
 ## 선택지
 
-A. 심초음파
-B. 국제정상화비율(INR)
-C. 부분 트롬보플라스틴 시간
-D. 혈청 약물 농도
+A. 경흉부 심초음파
+B. 프로트롬빈시간의 국제표준화비(INR)
+C. 활성화 부분 트롬보플라스틴시간
+D. 혈소판 응집검사
 
 ## 해설
 
 
-와파린 치료의 효과와 안전성을 평가하려면 혈액응고를 표준화한 INR을 측정해야 한다. INR는 와파린 용량 조절에 직접 사용되는 지표이므로 치료 순응도와 효과를 확인하는 검사는 INR이다.
+INR는 프로트롬빈시간을 표준화한 값으로 와파린의 항응고 효과를 평가한다. 목표 범위는 판막 종류와 위치 등 적응증에 따라 달라진다. 새 약이 와파린과 상호작용할 수 있어 필요하면 INR를 더 자주 확인한다.
 
 ## 검수 근거
 

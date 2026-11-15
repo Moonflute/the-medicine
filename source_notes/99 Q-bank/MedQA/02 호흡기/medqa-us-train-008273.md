@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-2세 남아가 5일간 지속된 생산성 기침으로 내원했다. 반복되는 하기도 감염과 부비동염으로 경구 항생제를 복용한 병력이 있다. 잘 씻기지 않는 묽은 변을 자주 보고, 임신 37주에 태어났으며 신생아기에 태변성 장폐색이 있었다. 키 15백분위수, 체중 5백분위수이다. 체온 37.1°C(98.8°F), 맥박 98회/분, 호흡수 38회/분, 산소포화도 95%이며 양측 비강 용종과 산발적 흡기 수포음이 있다. 추가 검사에서 가장 가능성 높은 소견은?
+2세 남아가 5일간 지속된 가래가 섞인 기침으로 내원했다. 반복되는 하기도 감염과 부비동염으로 경구 항생제를 복용한 병력이 있다. 잘 씻기지 않는 묽은 변을 자주 보고, 임신 37주에 태어났으며 신생아기에 태변성 장폐색이 있었다. 키 15백분위수, 체중 5백분위수이다. 체온 37.1°C(98.8°F), 맥박 98회/분, 호흡수 38회/분, 산소포화도 95%이며 양측 비강 용종과 산발적 흡기 수포음이 있다. 추가 검사에서 가장 가능성 높은 소견은?
 
 ## 선택지
 

@@ -15,9 +15,9 @@ related_diseases:
   - "café-au-lait lesions"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-2MkOy9lOuLiCDruYjtmIggKEZhbmNvbmkgQW5lbWlhKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-9세 남아가 작은 키로 내원했다. 항상 성장곡선 약 35백분위수의 작은 키였으나 지난 1년 동안 같은 식사를 유지했는데도 곡선에서 더 떨어졌다. 저체중 출생력이 있다. 결막과 손발톱바닥이 창백하고 등에 과색소 및 저색소 반점이 여러 개 보인다. 새가슴, 대부분의 늑연골 접합부에서 뼈가 돌출된 소견, 짧은 엄지, 휜 다리, 하지 점상출혈이 있다. 혈색소 8.2g/dL, MCV 105μm³, 혈소판 35,000/mm³, 나트륨 131mEq/L, 칼륨 2.8mEq/L, 인 2.5mg/dL이다. 동맥혈가스 pH 7.30, PCO₂ 33mmHg, HCO₃⁻ 17mEq/L이고 소변 pH 5.0, 포도당 2+, 케톤 음성이다. 가장 가능성 높은 진단은 무엇인가?
+9세 아이가 작은 키와 반복되는 점상출혈로 진료받는다. 짧은 엄지와 여러 색소 반점이 있고 대적혈구성 빈혈·호중구감소·혈소판감소가 있다. 판코니 빈혈을 확인하는 데 적절한 검사는?
 
 ## 선택지
 
-A. 다이아몬드-블랙판 빈혈
-B. 판코니 빈혈
-C. 제1형 신경섬유종증
-D. 구루병
+A. 혈청 페리틴만 측정
+B. 소변 포도당과 인만 측정
+C. 디에폭시부탄 등으로 유발한 염색체 파손 검사
+D. 직접항글로불린검사
 
 ## 해설
 
 
-선천성 엄지 이상, 색소 변화, 성장저하와 거대적혈구성 빈혈·혈소판감소는 Fanconi 빈혈(B)을 시사한다. 이는 DNA 복구 이상에 따른 유전성 골수부전 질환이다. 포도당뇨·저인산혈증·산증 등은 별도로 근위세뇨관 기능장애를 시사하지만, 같은 이름의 Fanconi 증후군과 Fanconi 빈혈은 동일 질환이 아니며 모든 Fanconi 빈혈 환자에게 이런 세뇨관 소견이 나타나는 것은 아니다.
+선천 기형과 여러 혈구 감소가 동반되면 유전성 골수부전을 고려한다. 판코니 빈혈은 염색체 파손 검사와 분자검사로 평가하며, 같은 이름의 근위세뇨관 장애와는 다른 질환이다.
 
 ## 검수 근거
 

@@ -14,12 +14,12 @@ related_diseases:
   - "untreated maternal hyperglycemia"
   - "neonatal hypocalcemia"
   - "fetal complications"
-question_type: risk_factor
+question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
   - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 24주인 29세 초임부가 산전 진료를 받으러 왔다. 건강하고 철분과 종합비타민을 복용한다. 1시간 50 g 포도당 선별검사에서 155 mg/dL(정상 <135)이었고, 100 g 경구 포도당부하검사에서 1시간 205 mg/dL(정상 <180), 3시간 154 mg/dL(정상 <140)이었다. 인슐린 치료를 거부한다. 다음 중 출생 시 아기에게 발생할 위험이 가장 높은 합병증은?
+임신성 당뇨병의 혈당 조절이 충분하지 않았던 산모가 39주에 출산했다. 신생아는 겉보기에는 건강하고 호흡은 안정적이다. 초기 수유와 함께 선별할 이상은?
 
 ## 선택지
 
-A. 저칼슘혈증
-B. 배꼽탈장(omphalocele)
-C. 자궁내 성장지연
-D. 고마그네슘혈증
+A. 신생아 갑상샘기능항진증
+B. 신생아 고칼슘혈증
+C. 신생아 당뇨병성 케톤산증
+D. 신생아 저혈당
 
 ## 해설
 
 
-임신성 당뇨에서 혈당 조절이 불충분하면 신생아에게 저칼슘혈증이 흔히 발생한다. 출생 시 저칼슘혈증 위험이 가장 높다. 따라서 정답은 저칼슘혈증이다.
+당뇨병 산모의 아기는 태아기 고인슐린혈증이 출생 직후에도 지속돼 저혈당 위험이 있다. 증상이 없어도 일찍 수유하고 위험군 혈당 감시를 한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 고마그네슘혈증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003038
+- https://pubmed.ncbi.nlm.nih.gov/33835840/

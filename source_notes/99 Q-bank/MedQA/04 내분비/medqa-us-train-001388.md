@@ -19,7 +19,7 @@ question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-그 외에는 건강한 49세 남성이 높은 HbA1C 추적 관찰을 위해 일차진료의에게 내원했다. 3개월 전 정기 선별검사에서 HbA1c가 8.9%였다. 오늘 생활습관을 바꾼 후에도 8.1%이고 혈청 포도당은 270 mg/dL이다. 다음 중 이 상태에 대한 가장 적절한 초기 치료는 무엇인가?
+49세 남성이 제2형 당뇨병으로 새로 진단됐다. HbA1c 8.7%, 개인 목표는 6.5% 미만이다. 체중 감소나 케톤혈증은 없고 신기능은 정상이다. 생활습관 교정과 함께 적절한 약물 치료 전략은?
 
 ## 선택지
 
-A. 메트포르민
-B. 메트포르민과 인슐린 분비촉진제 병용
-C. 메트포르민과 글루카곤 유사 펩타이드-1(GLP-1) 작용제 병용
-D. 메트포르민과 디펩티딜 펩티다제-4(DPP-4) 억제제 병용
+A. 상태와 선호를 고려해 서로 다른 계열 약의 초기 병용을 고려한다
+B. HbA1c가 10%에 이를 때까지 약물치료를 미룬다
+C. 모든 새 진단 환자에게 식사 인슐린부터 시작한다
+D. HbA1c가 목표보다 높아도 반드시 1년간 단독요법만 쓴다
 
 ## 해설
 
 
-HbA1c가 8% 이상이며 혈당이 270 mg/dL인 경우 1차 약물로 메트포르민을 시작한다. 다른 약제는 추가 치료에 해당한다. 따라서 메트포르민이 초기 치료이다.
+목표와의 차이가 큰 경우 환자 상태와 약제 특성을 고려해 초기 병용요법을 사용할 수 있다. 인슐린 결핍이나 심한 고혈당 증상이 없다면 HbA1c 수치만으로 모든 환자에게 인슐린을 먼저 쓰지는 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ HbA1c가 8% 이상이며 혈당이 270 mg/dL인 경우 1차 약물로 메트�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001388
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/

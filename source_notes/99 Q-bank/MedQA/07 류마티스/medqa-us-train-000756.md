@@ -20,8 +20,9 @@ related_disease_slugs:
 question_type: diagnosis
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -36,7 +37,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-42세 여성이 다발성 관절의 뻣뻣함과 통증으로 내원하였다. 환자는 지난 8개월 동안 양손의 손가락이 점점 더 뻣뻣해지고 움직이기 어려워졌다고 말한다. 또한 쉽게 부러지고 얼룩덜룩해 보이는 손톱과 만성적인 요통을 호소한다. 1년 전 항생제로 치료받은 요로감염 병력이 있다. 2명의 남성 파트너와 성생활을 하고 있으며 콘돔을 일관되게 사용하지 않는다. 활력징후는 정상 범위 내에 있다. 오른손 사진이 제시되었다. 정강이와 등 부위에 경계가 명확한 다수의 붉은 판과 은백색 비늘이 관찰된다. 혈청 검사에서 류마티스 인자(rheumatoid factor)와 항핵항체(ANA)는 음성이다. 가장 가능성이 높은 진단은 무엇인가?
+42세 여성이 수개월간 양손 손가락 통증과 뻣뻣함을 겪고 있다. 손톱에 패임과 변색이 있고, 정강이와 등에 은백색 인설을 동반한 경계가 뚜렷한 붉은 판이 보인다. 류마티스인자와 항핵항체는 음성이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
@@ -48,7 +49,7 @@ D. 건선 관절염
 ## 해설
 
 
-손톱 변화, 요통, 손가락 관절 강직, 비늘 모양의 은백색 판이 동반된 건선성 관절염을 시사한다. 류마티스 인자와 ANA가 음성인 점도 건선 관절염을 지지한다. 따라서 정답은 건선 관절염이다.
+건선에 합당한 피부 병변과 손톱 변화에 손가락 관절염이 동반되어 건선관절염이 가장 적절하다. 류마티스인자 음성만으로 진단하는 것은 아니다.
 
 ## 검수 근거
 

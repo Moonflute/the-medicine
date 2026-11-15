@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,21 +36,22 @@ related_drug_slugs:
 
 ## 문제
 
-남아를 분만한 지 3일 후 36세 초임부가 발열과 왼쪽 다리 통증으로 내원했다. 임신은 조기 양막파수로 합병되었고 태아심박수가 안심할 수 없어 임신 35주에 하부 자궁 횡절개 제왕절개로 분만했다. 5년 동안 하루 반 갑의 담배를 피우며 임신 중에도 계속 흡연했다. 체온 38.9°C, 맥박 110회/분, 혈압 110/80 mmHg이다. 왼쪽 다리가 부종, 홍반, 열감이 있고 발을 수동으로 발등굽힘하면 종아리 통증이 유발된다. 말초맥박은 양측에서 만져지고 자궁은 압통 없이 배꼽 높이에서 만져진다. 초음파에서 왼쪽 오금정맥이 압박되지 않는다. 다음 중 가장 적절한 초기 관리 단계는?
+제왕절개 후 근위부 심부정맥혈전으로 저분자량 헤파린을 시작한 여성이 출혈 없이 안정됐다. 완전 모유수유를 계속하면서 경구 항응고제로 바꾸고 싶다. 적절한 선택은?
 
 ## 선택지
 
-A. 저분자량 헤파린
-B. 색전절제술
-C. 유로키나아제
-D. 와파린
+A. 아픽사반으로 전환
+B. 리바록사반으로 전환
+C. 초기 헤파린과 겹쳐 와파린을 시작하고 INR에 따라 전환
+D. 모유수유하는 동안 항응고제를 모두 중단
 
 ## 해설
 
 
-산후 심부정맥 혈전증은 저분자량 헤파린으로 즉시 항응고 치료를 시작하는 것이 표준이다. 따라서 저분자량 헤파린 투여가 가장 적절한 초기 관리이다.
+와파린은 모유수유 중 사용할 수 있는 경구 항응고제다. 급성 정맥혈전 치료에서 처음에는 헤파린과 겹쳐 사용한다. 수유 중 직접 경구항응고제는 일상적으로 우선 선택하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003060
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6258928/

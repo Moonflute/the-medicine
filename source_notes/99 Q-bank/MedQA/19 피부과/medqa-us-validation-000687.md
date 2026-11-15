@@ -14,7 +14,7 @@ related_diseases:
   - "검은점 두부백선"
   - "곰팡이성 탈모"
   - "Tinea capitis"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: complex
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-7세 남아가 두피의 인설과 탈모로 진료를 받으러 왔다. 두피에 인설성 반점이 생긴 뒤 커다란 탈모반이 되었고 뒤통수와 목의 림프절이 붓고 검은 점들이 남아 있다. 가장 가능성 높은 진단은?
+7세 아이의 두피에 비늘이 있는 탈모반이 생겼다. 두피 가까이 끊어진 모발이 검은 점처럼 남았고 뒤목 림프절이 커졌다. 원형탈모와 감별하기 위한 첫 검사는?
 
 ## 선택지
 
-A. 화폐상 피부염
-B. 건선
-C. 두부백선
-D. 발모벽
+A. 두피 알레르기 첩포검사
+B. 혈청 철 검사만 시행
+C. 모발·인설의 수산화칼륨 직접검경과 필요 시 진균검사
+D. 세균 혈액배양
 
 ## 해설
 
-인설성 두피 병변, 탈모반, 후이개·경부 림프절 종대 및 남아 있는 검은 점은 두부백선(tinea capitis, C)을 지지한다. 검은 점은 감염된 모발이 두피 표면 가까이에서 부러져 남은 모발 단면이며 점상 각질이 아니다. 발모벽은 인설·림프절 종대보다는 불규칙하게 부러진 모발이 단서다.
+끊어진 모발과 인설, 림프절 변화는 두부백선의 단서다. 해당 모발과 인설의 직접검경을 활용하고 배양 등으로 균종을 확인할 수 있다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 발모벽
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000687
+- https://pubmed.ncbi.nlm.nih.gov/42444404/

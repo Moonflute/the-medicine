@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOyWkeyDgeyepeyVoCAoU2NoaXpvcGhyZW5pZm9ybSBkaXNvcmRlcikubWQ
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-행동 변화와 학업 곤란이 4개월간 지속된 17세 남아가 부모와 함께 내원했다. 정부가 자신을 몰래 녹화한다고 확신하고, 우울하고 즐거움을 잃었으며, 정리되지 않은 단조로운 말과 접선적 사고, 평탄한 정동, 청각환각이 있다. 다음 중 가장 가능성 높은 진단은?
+19세 환자가 4개월째 환청과 피해망상을 보인다. 와해된 말과 자기 관리 저하도 이어진다. 주요 기분 삽화, 약물 노출이나 신체질환의 근거는 없다. 현재 경과에 가장 맞는 진단은?
 
 ## 선택지
 
-A. 조현양상장애
-B. 조현병
-C. 분열정동장애
-D. 조현형 성격장애
+A. 단기 정신병적 장애
+B. 조현정동장애
+C. 조현양상장애
+D. 조현병
 
 ## 해설
 
-환각·망상과 와해된 사고·말, 기능 변화가 4개월간 지속되어 조현양상장애(schizophreniform disorder, A)가 가장 적합하다. 기간은 1개월 이상 6개월 미만이며, 조현형 성격장애(schizotypal personality disorder)와 다른 진단이다. 기분 저하가 일부 있다는 이유만으로 분열정동장애로 분류하지 않는다.
+조현병과 같은 핵심 정신병 증상이 1개월 이상 6개월 미만 지속되면 조현양상장애를 고려한다. 경과를 추적하면서 진단을 재평가한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 조현형 성격장애
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002550
+- https://www.psychiatry.org/patients-families/schizophrenia/what-is-schizophrenia/

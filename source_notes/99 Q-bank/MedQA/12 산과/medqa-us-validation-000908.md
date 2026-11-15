@@ -13,11 +13,11 @@ related_diseases:
   - "자궁외임신"
   - "임신 중 복통"
   - "질식 초음파"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 여성이 구토와 복통으로 왔다. 24시간 동안 먹거나 마시면 구토하고 임신검사(β-hCG)가 양성이다. 오른쪽 아랫배 압통과 반대쪽 반발통이 있다. 가장 적절한 다음 처치는?
+임신 6주 환자의 질식 초음파에서 2.1 cm 난관임신이 확인됐다. 배아 심박동과 복강 내 출혈은 없고 β-hCG는 1,900 mIU/mL다. 혈역학적으로 안정적이며 주요 장기 기능은 정상이다. 상담 후 수술 대신 약물치료와 추적을 원한다. 적절한 계획은?
 
 ## 선택지
 
-A. 흉부 방사선촬영
-B. 복부 CT
-C. 초음파
-D. 대장내시경
+A. 자궁 내 임신을 유지하기 위해 프로게스테론만 투여한다
+B. 메토트렉세이트 치료 후 β-hCG를 추적한다
+C. 추적 없이 집에서 증상이 없어지기만 기다린다
+D. 자궁 흡인술로 난관에 있는 임신을 제거한다
 
 ## 해설
 
-우하복부 압통과 좌측 깊은 촉진 시 우측 통증은 충수염을 시사하는 Rovsing 징후 맥락이다. 임신 양성이므로 자궁외임신 등 산과 원인도 함께 평가하고 초음파(C)를 먼저 사용한다. 비진단적이면 임신 중 MRI 등을 고려하며 수술 평가를 지연하지 않는다.
+파열 위험이 낮고 추적할 수 있는 선택된 환자에서는 메토트렉세이트로 치료할 수 있다. 이후 β-hCG가 적절히 떨어지는지 확인하며 통증·실신 등 악화는 즉시 재평가한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 대장내시경
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000908
+- https://www.nice.org.uk/guidance/ng126/chapter/management-of-tubal-ectopic-pregnancy

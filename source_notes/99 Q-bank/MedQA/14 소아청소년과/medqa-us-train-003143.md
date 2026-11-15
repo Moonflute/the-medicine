@@ -14,7 +14,7 @@ related_diseases:
   - "newborn prophylaxis"
   - "exclusive breastfeeding"
   - "late vitamin K deficiency"
-question_type: risk_factor
+question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEsg6rKw7ZWN7KadIChWaXRhbWluIEsgRGVmaWNpZW5jeSkubWQ
 difficulty: standard
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 3주 남아가 건강검진을 위해 33세 어머니와 함께 내원했다. 만삭으로 태어났고 부모가 자연분만을 원해 가정분만했으며 산전 진료는 받지 않았다. 특별한 병력과 복용 약물은 없고 분만은 빠르고 합병증이 없었다고 한다. 모유만 먹고 건강해 보이며 키 35백분위수, 체중 40백분위수이다. 다음 중 현재 이 환자에서 발생 위험이 증가하는 합병증은?
+생후 5주 영아가 갑자기 멍이 들고 혈변을 봤다. 출생 때 비타민 K 주사를 받지 않았고 완전 모유수유 중이다. 혈소판 수와 피브리노겐은 정상이나 프로트롬빈시간이 크게 늘어났다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 출혈
-B. 철결핍성 빈혈
-C. 당뇨병
-D. 장중첩증
+A. 후기 비타민 K 결핍 출혈
+B. 면역성 혈소판감소증
+C. 혈우병 A
+D. 파종성 혈관내 응고
 
 ## 해설
 
-신생아는 비타민 K 저장량이 낮고 모유의 비타민 K도 적다. 출생 시 예방적 근육주사를 받지 않았다면 생후 수주에도 비타민 K 결핍 출혈(A) 위험이 증가할 수 있다. 가정분만과 산전 진료 부재라는 사실만으로 실제 주사 미투여를 확정할 수는 없으므로 투여력을 확인해야 한다. 건강해 보인다는 이유만으로 이 위험이 없어지는 것은 아니다.
+예방 주사를 받지 않은 영아의 출혈과 뚜렷한 프로트롬빈시간 연장은 후기 비타민 K 결핍 출혈을 시사한다. 두개내 출혈도 가능해 응급 평가와 치료가 필요하다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 장중첩증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003143
+- https://doi.org/10.1542/peds.2021-056036

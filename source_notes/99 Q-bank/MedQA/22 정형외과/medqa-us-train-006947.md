@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yymey2lO2YkeywqeymnSAoU3BpbmFsIFN0ZW5vc2lzKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-62세 남성이 6개월 동안 지속된 허리 통증과 양쪽 다리의 저림 및 무감각으로 내원했다. 통증은 양쪽 엉덩이와 다리로 방사되고 서 있거나 내리막길을 걸을 때 악화된다. 2주 전 상기도 감염이 있었으나 자연히 호전되었다. 고혈압과 고콜레스테롤혈증이 있고 아들은 강직성 척추염을 앓고 있다. 흡연은 하지 않으며 주말에 맥주 2~3잔을 마신다. 에날라프릴과 아토르바스타틴을 복용한다. 체질량지수는 27.8kg/m²이다. 요추 압통은 없고 하지의 통각과 가벼운 촉각이 감소되어 있다. 보행은 불안정하고 보폭이 넓으며 근력은 정상, 심부건반사는 양쪽 1+, 바빈스키 징후는 음성이다. 추가 평가에서 다음 중 어떤 소견이 나타날 가능성이 가장 높은가?
+62세 남성이 서 있거나 내리막길을 걸으면 양쪽 종아리와 엉덩이가 저리다고 한다. 발 맥박은 정상이다. 혈관성 파행보다 요추 척추관협착증을 지지하는 소견은?
 
 ## 선택지
 
-A. HLA-B27 양성
-B. 뇌척수액의 알부민세포해리
-C. 앞으로 숙이면 통증 완화
-D. 발목-상완지수 감소
+A. 똑바로 선 채 멈추기만 해도 같은 정도로 좋아진다
+B. 걸은 거리만큼 항상 일정하게 아프고 자세는 영향을 주지 않는다
+C. 발이 차고 발등동맥이 만져지지 않는다
+D. 걸음을 멈추지 않아도 카트에 기대 앞으로 숙이면 덜 아프다
 
 ## 해설
 
 
-척추관 협착증은 굽히면 통증이 완화되는 특징이 있다.
+요추 신경성 파행은 서 있거나 허리를 젖힐 때 악화되고 앞으로 굽히거나 앉을 때 완화된다. 휴식뿐 아니라 자세의 효과가 중요한 단서다.
 
 ## 검수 근거
 

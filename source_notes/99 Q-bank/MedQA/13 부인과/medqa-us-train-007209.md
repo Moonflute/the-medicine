@@ -20,9 +20,9 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
   - MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-43세 여자가 한 달 동안 지속된 피로와 어지럼으로 진료실에 내원했다. 월경은 규칙적이지만 지난 1년 동안 양이 많아졌다. 소변을 자주 보고 복부에 체중이 늘어난 것 같다고 하지만 나머지 문진은 정상이다. 어린이집 교사이며 사촌 한 명이 폰 빌레브란트병을 앓고 있다. 체온은 98.4°F(36.9°C), 맥박 92회/분, 혈압 109/72 mmHg, 호흡수 14회/분이다. 전혈구검사에서 헤모글로빈 9.9 g/dL, 백혈구 수 6,300/mm³, 혈소판 수 180,000/mm³이다. 이 소견의 원인을 평가하기 위한 가장 적절한 다음 단계는 무엇인가?
+43세 여성이 규칙적인 월경이지만 최근 양이 많아졌고 빈뇨와 골반 압박감이 있다. 임신검사는 음성이다. 진찰에서 자궁이 커지고 윤곽이 불규칙하다. 구조적 원인을 평가할 초기 영상은?
 
 ## 선택지
 
-A. 골반 초음파
-B. TSH 검사
-C. 자궁경검사
-D. 폰 빌레브란트 인자 항원 검사
+A. 골반 단순 X선
+B. 난관 개통을 보는 자궁난관조영술
+C. 복부 CT부터 시행
+D. 질식 골반 초음파
 
 ## 해설
 
 
-과다월경과 빈혈이 동반된 경우 자궁 구조적 병변(예: 근종) 평가가 필요하며, 초음파는 비침습적으로 근종 유무와 크기를 확인할 수 있다. 따라서 다음 단계는 골반 초음파이다.
+월경과다에 골반 압박과 불규칙한 자궁 비대가 동반되면 근종 등 구조 병변을 고려한다. 초음파로 위치와 크기를 확인한다. 빈혈과 별도로 지속 출혈이나 내막 고위험 소견도 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007209
+- https://www.nice.org.uk/guidance/ng88/chapter/recommendations

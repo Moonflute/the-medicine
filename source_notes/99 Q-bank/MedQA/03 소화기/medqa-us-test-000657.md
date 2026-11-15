@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MTEg7Jm46rO8L-q4ieyEsSDrs7Xspp0gKEFjdXRlIEFiZG9tZW4pLm1k
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 남성이 한 시간 동안 지속된 심한 복통으로 아내와 함께 응급실에 왔다. 통증의 양상은 설명하지 못했다. 아내에 따르면 소화성 궤양병이 있어 제산제로 치료 중이나 반응이 좋지 않았고 지난 몇 시간 동안 갈색 또는 붉은색 토물을 반복해서 토했다. 체온 98.6°F(37°C), 호흡 16회/분, 맥박 97회/분, 혈압 100/68 mmHg였다. 복부가 팽팽하고 판자처럼 단단했으며 반발통이 양성이었다. 기립 복부 X선을 촬영할 예정이다. 가장 가능성 높은 진단은?
+소화성 궤양 병력이 있는 환자가 갑작스러운 복통으로 왔다. 배 전체에 경직과 반발통이 있고 CT에서 복강 내 자유공기와 위 주변 조영제 유출이 보인다. 정맥 수액과 광범위 항생제를 시작했다. 추가로 필요한 처치는?
 
 ## 선택지
 
-A. 십이지장 소화성 궤양
-B. 위 소화성 궤양
-C. 췌장염
-D. 천공된 위 소화성 궤양
+A. 상부위장관 내시경 지혈술
+B. 정맥 PPI만 투여하며 경과 관찰
+C. 국소 혈관 색전술
+D. 응급 수술을 통한 천공 조절
 
 ## 해설
 
 
-복부가 팽팽하고 판자처럼 단단하며 반발통이 양성인 경우 위궤양 천공이 의심된다. 천공은 급성 복막염을 일으키므로 즉시 외과적 복강 탐색이 필요하다.
+조영제 유출과 범복막염이 동반된 궤양 천공은 외과적 원인 조절이 필요하다. 제한적인 비수술 치료는 천공이 막혔고 복막염이나 패혈증이 없는 선별 환자에서만 고려한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 천공된 위 소화성 궤양
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000657
+- https://pubmed.ncbi.nlm.nih.gov/31921329/

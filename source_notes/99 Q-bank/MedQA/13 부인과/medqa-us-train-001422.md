@@ -13,12 +13,12 @@ related_diseases:
   - "Turner syndrome"
   - "gonadal dysgenesis"
   - "osteoporosis"
-question_type: prognosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA
   - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-15세 여아가 아직 초경을 하지 않아 내원했다. 학교 체육활동 중 다리에 경련과 통증이 자주 발생한다. 키는 20백분위수, 체중은 50백분위수이다. 체온은 37°C (98.6°F), 맥박은 70회/분, 혈압은 155/90 mm Hg이다. 높은 아치형 입천장, 부정교합 치아 및 낮은 뒤쪽 헤어라인이 보인다. 가슴이 넓고 유두 간격이 넓다. 외부 여성 생식기는 정상이고 치모는 드물다. 적절한 치료를 하지 않으면 다음 중 어떤 합병증 위험이 가장 큰가?
+핵형으로 터너증후군이 확인된 12세 여아에게 자발 유방 발달이 없고 FSH가 두 차례 높았다. 사춘기 발달을 위한 처치는?
 
 ## 선택지
 
-A. 강박장애
-B. 병적 골절
-C. 폐동맥 협착
-D. 심한 여드름
+A. 성인 용량 에스트로겐을 처음부터 한꺼번에 투여
+B. 성인기까지 사춘기 치료를 보류
+C. 프로게스테론만 사용
+D. 저용량 에스트라디올로 시작해 수년에 걸쳐 점차 증량
 
 ## 해설
 
-표현형과 원발무월경은 Turner증후군을 시사한다. 성선기능저하로 에스트로겐이 부족하면 골량획득이 저하되어 치료하지 않을 때 병적골절(B) 위험이 증가한다. 현재 골다공증이 이미 확진되었다는 뜻은 아니다. 고혈압·운동시다리통증은 대동맥축착 등 동반심혈관질환 평가도 요구한다.
+성선기능부전으로 자발 사춘기가 없으면 생리적 사춘기를 모방해 저용량 에스트라디올을 시작하고 서서히 증량한다. 자궁이 있으면 추후 내막 보호를 위한 프로게스토겐을 추가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 심한 여드름
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001422
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11759048/

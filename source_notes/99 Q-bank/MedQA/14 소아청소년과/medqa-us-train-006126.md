@@ -17,6 +17,7 @@ question_type: investigation
 related_disease_slugs: []
 difficulty: standard
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,7 +34,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-4세 남아가 유창하지 않은 말로 내원했다. 어머니는 어휘가 또래보다 제한적이고 간단한 문장으로 의사소통하지 못한다고 걱정한다. 또래 및 부모와 노는 것을 좋아하지만 말하기와 의사소통이 늘 뒤처졌고 낯선 사람은 말을 자주 알아듣지 못한다. 외모와 키·체중은 정상이고 이름을 부르면 반응하며 눈맞춤을 하고 어머니와 함께 있는 것을 좋아한다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+4세 남아가 유창하지 않은 말로 내원했다. 어머니는 어휘가 또래보다 제한적이고 간단한 문장으로 의사소통하지 못한다고 걱정한다. 또래 및 부모와 노는 것을 좋아하지만 말하기와 의사소통이 늘 뒤처졌고 낯선 사람은 말을 자주 알아듣지 못한다. 외모와 키·체중은 정상이고 이름을 부르면 반응하며 눈맞춤을 하고 어머니와 함께 있는 것을 좋아한다. 다음 중 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

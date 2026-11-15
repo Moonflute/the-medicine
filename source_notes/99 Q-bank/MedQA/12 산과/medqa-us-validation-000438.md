@@ -17,9 +17,9 @@ related_diseases:
 question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ related_drug_slugs:
 
 ## 문제
 
-임신 34주인 34세 여성(임신 2회, 출산 1회)이 10일간의 전신 가려움과 2일간의 황달, 짙은 소변, 창백한 변으로 진료를 받으러 왔다. 이전 임신 말기에도 가려움이 있었지만 분만 후 사라졌다. 공막 황달과 긁은 자국이 있고 총 빌리루빈 5 mg/dL, 직접 빌리루빈 4.2 mg/dL, 담즙산 25 μmol/L, AST 55, ALT 45 U/L이며 초음파는 정상이다. 가장 적절한 처치는?
+임신 34주 산모에게 발진 없는 손바닥·발바닥 가려움이 생겼다. 혈청 담즙산은 28 μmol/L이고 영상에서 담도 폐색은 없다. 분만 시기는 추적 담즙산과 태아 상태로 따로 결정한다. 산모의 가려움을 줄일 1차 약제는?
 
 ## 선택지
 
-A. 24시간 소변 단백 검사
-B. 응급 내시경 역행 담췌관조영술과 괄약근절개술
-C. 즉시 분만 유도
-D. 우르소데옥시콜산
+A. 담즙산 수치 확인 없이 분만 때까지 항히스타민제만 고용량 사용
+B. 덱사메타손 장기 복용
+C. 우르소데옥시콜산
+D. 정맥 황산마그네슘
 
 ## 해설
 
 
-임신성 간내 담즙정체는 가려움, 직접 빌리루빈 상승, 담즙산 증가가 특징이며, 치료 1차 선택은 담즙 흐름을 촉진하는 우르소데옥시콜산이다.
+임신성 간내 담즙정체에서 우르소데옥시콜산은 산모 증상을 줄이는 데 사용한다. 증상이 좋아져도 태아 위험이 없어지는 것은 아니므로 담즙산을 추적하고 상황에 맞춰 분만 시기를 정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000438
+- https://pubmed.ncbi.nlm.nih.gov/33197417/

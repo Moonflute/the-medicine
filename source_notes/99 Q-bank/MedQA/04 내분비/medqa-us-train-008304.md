@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-14세 남아가 정기 건강검진을 위해 내원했다. 38주에 질식분만으로 태어났고 건강하지만 학교 수업을 따라가기 어렵다. 키 97백분위수, 체중 50백분위수이며 좌측 제5늑간에서 고주파 중간수축기 클릭이 들린다. 사지가 길고 양측 유방 조직이 과다하며 겨드랑이 털이 없다. 음낭이 작고 음경은 정상 크기이다. 기저 질환을 진단하는 데 가장 적절한 검사는?
+19세 남성이 사춘기 발달이 더디고 성욕이 낮아 내원했다. 키가 크고 양쪽 고환은 각각 3mL로 작고 단단하다. 오전 테스토스테론이 반복해서 낮고 LH와 FSH는 높다. 클라인펠터 증후군을 확인할 검사는?
 
 ## 선택지
 
-A. 혈청 IGF-1 측정
-B. 소변검사
-C. 세극등검사
-D. 핵형검사
+A. 뇌하수체 MRI
+B. 혈청 프로락틴 재검
+C. GnRH 자극검사
+D. 말초혈액 핵형검사
 
 ## 해설
 
 
-고환이 작고 47,XXY 핵형을 가진 Klinefelter 증후군을 확인하려면 말초혈액에서 핵형 검사가 가장 확진에 정확하다.
+작고 단단한 고환과 고성선자극호르몬성 성선기능저하는 클라인펠터 증후군을 시사한다. 말초혈액 핵형검사로 대표 핵형인 47,XXY 등을 확인한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 핵형검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008304
+- https://doi.org/10.1111/andr.12909

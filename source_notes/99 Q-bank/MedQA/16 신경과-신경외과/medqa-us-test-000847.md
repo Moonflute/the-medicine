@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 여성이 5일 동안 상지의 근력저하와 저림이 점점 심해져 진료를 받으러 왔다. 최근 2일 동안 재채기나 웃음과 무관한 요실금이 있었다. 지난해 여름에는 오른쪽 하지의 근력저하와 저림이 있었고 야외에서 악화되었지만 3주 후 회복되었다. 중증 질환 병력은 없다. 평생 남성 성 파트너가 10명이었고 콘돔 사용은 일관되지 않았다. 활력징후는 정상이었다. 진찰에서 일렬 보행이 손상되었고 양쪽 상지에 경도의 경직과 근력 저하가 있었다. 심부건반사는 양측 4+였으며 복부 반사는 소실되었다. 오른쪽 하지 근력도 약간 감소했고 상지에서 진동 및 미세 촉각이 저하되었다. 다음 중 진단을 위한 가장 적절한 단계는?
+35세 여성이 5일째 양손 위약과 저림이 심해지고 소변 조절이 어려워졌다. 진찰에서 반사항진과 진동감각 저하가 있고, 1년 전에는 한쪽 다리의 위약이 수주 뒤 호전됐다. 척수 압박과 중추 탈수초질환을 평가할 영상은?
 
 ## 선택지
 
-A. 근육 생검
-B. 신속 혈장 리아진 검사
-C. 뇌와 척추 MRI
-D. 요추천자
+A. 경추 단순 X선
+B. 뇌와 척수 MRI
+C. 허리 CT 단독
+D. 상지 근육 초음파
 
 ## 해설
 
 
-상지의 진행성 근력저하와 감각이상, 요실금, 복부 반사 소실은 중추신경계 다발성 경화증을 의심하게 한다. 진단을 확정하려면 병변의 위치와 활동성을 확인해야 하므로 뇌와 척추 MRI가 가장 적절한 초기 검사이다.
+상위운동신경 징후·감각 변화·배뇨증상은 척수 병변을 시사한다. 급히 척수 MRI로 압박과 염증을 감별하고, 뇌 MRI로 다른 부위의 탈수초 병변도 평가한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 요추천자
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000847
+- https://pubmed.ncbi.nlm.nih.gov/40975101/

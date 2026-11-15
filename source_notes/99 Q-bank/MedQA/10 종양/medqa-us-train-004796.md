@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs: []
 question_type: management
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ related_drug_slugs:
 
 ## 문제
 
-51세 여성이 연례 건강검진을 받으러 왔다. 건강하고 특별한 걱정은 없다고 한다. 과거력으로 리튬, 리시노프릴과 메트포르민으로 관리 중인 양극성장애, 고혈압과 제2형 당뇨병이 있다. 아버지는 고혈압과 제2형 당뇨병이 있었고 67세에 폐암으로 사망했다. 활력징후와 신체검사는 정상이다. 유방촬영술 결과는 BI-RADS 3(아마도 양성)로 분류되었다. 관리에서 가장 적절한 다음 단계는 무엇인가?
+51세 여성이 검진 이상으로 추가 진단 유방촬영을 받았다. 악성이 의심되는 촉진 소견은 없고 병변이 BI-RADS 3(양성 가능성이 높은 소견)으로 분류됐다. 다음 계획은?
 
 ## 선택지
 
-A. 1년 후 유방촬영술 추적
-B. 6개월 후 유방촬영술 추적
-C. 생검
-D. 치료
+A. 2년 후 국가암검진만 시행
+B. 지금 바로 중심침생검
+C. 약 6개월 후 진단 유방촬영
+D. 지금 바로 유방 MRI
 
 ## 해설
 
 
-BI-RADS 3는 악성 가능성이 낮은 probably benign 소견으로 통상 6개월 뒤 단기 추적 유방촬영을 권고하므로 B이다. 이를 CT 같은 단층촬영으로 바꾸어 설명하면 안 된다. 영상·임상 소견이 새롭게 의심스럽거나 변하면 생검 등으로 재평가한다.
+완전한 진단 영상 평가에서 BI-RADS 3인 병변은 통상 6개월에 첫 단기 추적을 한다. 추적 중 의심스러운 변화가 있거나 임상 소견과 맞지 않으면 조직검사 등으로 재평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ BI-RADS 3는 악성 가능성이 낮은 probably benign 소견으로 통상 6개
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004796
+- https://pubmed.ncbi.nlm.nih.gov/32427557/

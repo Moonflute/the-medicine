@@ -15,7 +15,7 @@ related_diseases:
   - "FBN1"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-uniOultO2MoSDspp3tm4TqtbAgKE1hcmZhbiBTeW5kcm9tZSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-19세 여성이 오른쪽 눈의 갑작스러운 시력저하로 진료를 받으러 왔다. 키가 크고 마른 체형, 긴 손가락, 왼쪽 뺨의 갈색 모반, 오른쪽 수정체의 상측 측두방향 아탈구가 있었다. 가장 가능성 높은 진단은?
+19세 여성이 키와 팔다리가 길고 수정체가 위가쪽으로 어긋나 마르팡증후군이 의심된다. 현재 가슴 통증은 없다. 주요 심혈관 합병증을 평가할 초기 검사는?
 
 ## 선택지
 
-A. 관절 과운동성 증후군
-B. 스터지-웨버 증후군
-C. 엘러스-단로스 증후군
-D. 마르팡 증후군
+A. 폐기능검사
+B. 24시간 홀터검사만 시행
+C. 하지정맥 도플러 초음파
+D. 경흉부 심장초음파로 대동맥 뿌리와 상행대동맥 평가
 
 ## 해설
 
 
-키가 크고 마른 체형, arachnodactyly와 수정체의 상측·측두측 아탈구는 Marfan syndrome D를 가장 지지한다. 탈구된 구조는 결막이 아니라 수정체이다. 얼굴의 갈색모반 자체는 Marfan의 특징적 진단소견이 아니므로 이 소견으로 진단을 정당화하지 않는다. 실제 진단은 대동맥·안과·전신 기준과 가족/유전 정보를 종합한다.
+마르팡증후군에서는 대동맥 뿌리 확장과 박리 위험을 평가해야 한다. 심초음파로 기저 대동맥 직경을 확인하고 필요하면 CT 또는 MRI를 추가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 마르팡 증후군
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000093
+- https://doi.org/10.1161/CIR.0000000000001106

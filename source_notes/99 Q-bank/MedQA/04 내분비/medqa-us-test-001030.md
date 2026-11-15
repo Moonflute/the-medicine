@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCR7IOB7ISgIOq4sOuKpSDsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
   - MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA
-question_type: investigation
+question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-24세 여성이 건강검진을 받으러 왔다. 전반적으로 건강하지만 집중하기 어렵고 점점 피로하며 몇 달 동안 체중이 15파운드 증가했다. 변비와 관절통도 있고 6개월 전에는 두근거림, 배변 횟수 증가, 손떨림이 있었다. 천식 병력이 있으며 현재 성생활을 하고 피임을 일관되게 사용한다. 체온 99°F(37.2°C), 혈압 127/98 mmHg, 맥박 55회/분이고 말과 움직임이 느리며 손목과 발목 관절 압통, 심부건반사 이완 지연이 있었다. 가장 가능성 높은 검사 결과는?
+24세 여성이 몇 달째 피곤하고 추위를 많이 타며 변비가 있다. 맥박은 55회/분이고 갑상선은 통증 없이 약간 커져 있다. TSH 19 mIU/L, 유리 T4는 정상 하한보다 낮다. 어떤 상태인가?
 
 ## 선택지
 
-A. TSH 증가
-B. 환자건강설문지-9(PHQ-9) 점수 증가
-C. 항CCP 항체 양성
-D. 소변 독성검사 양성
+A. 현성 일차 갑상선기능저하증
+B. 무증상 갑상선기능저하증
+C. 중추성 갑상선기능저하증
+D. 일차 갑상선기능항진증
 
 ## 해설
 
-정답은 A이다. 피로·체중 증가·변비·서맥·느린 말과 운동 및 심부건반사 이완 지연은 일차 갑상샘기능저하증을 시사하며 TSH 상승이 가장 합당하다. 앞선 두근거림·떨림은 갑상샘염의 일시적 중독기 등과 연결될 수 있으나 원인을 확정할 자료는 없다. 제시된 37.2°C는 저체온이 아니다.
+유리 T4가 낮고 TSH가 높으면 현성 일차 갑상선기능저하증이다. 무증상 갑상선기능저하증에서는 유리 T4가 정상 범위다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 소변 독성검사 양성
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001030
+- https://ekjm.org/journal/view.php?number=25889

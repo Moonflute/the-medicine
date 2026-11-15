@@ -19,7 +19,7 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -41,19 +41,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-65세 남성이 급성 흉통이 시작된 지 30분 후 응급실에 내원했다. 고혈압과 천식이 있으며 아토르바스타틴, 리시노프릴, 알부테롤 흡입기를 복용한다. 창백하고 식은땀을 흘린다. 맥박 분당 114회, 혈압 130/88 mmHg이며 심전도에서 II, III, aVF 유도 ST 분절 하강이 보인다. 혈청 트로포닌 T가 상승했고 급성관상동맥증후군으로 치료 후 경피적 관상동맥성형술을 받았다. 퇴원 시 심초음파에서 좌심실 박출률은 58%이다. 아스피린 외에 다음 중 추가할 약물은?
+65세 남성이 비ST분절 상승 심근경색으로 약물방출스텐트를 삽입했다. 경구 항응고 적응증은 없고 담당팀은 출혈 위험과 약물 내약성을 검토한 뒤 클로피도그렐을 P2Y₁₂ 억제제로 선택했다. 초기 이중 항혈소판요법은?
 
 ## 선택지
 
-A. 니페디핀
-B. 에녹사파린
-C. 클로피도그렐
-D. 스피로놀락톤
+A. 아스피린과 니페디핀
+B. 아스피린과 에녹사파린
+C. 아스피린과 클로피도그렐
+D. 클로피도그렐과 티카그렐러
 
 ## 해설
 
 
-급성 관상동맥 증후군 치료 후 이중 항혈소판 요법이 권장되며, 이미 아스피린을 복용하고 있으므로 클로피도그렐을 추가하면 혈전 형성을 억제한다. 따라서 클로피도그렐을 추가한다.
+스텐트 시술 후 이중 항혈소판요법은 아스피린과 P2Y₁₂ 억제제 한 가지를 조합한다. 이 환자에서는 클로피도그렐을 선택한 상태다. 실제 약제와 투여기간은 출혈 및 허혈 위험에 따라 달라진다.
 
 ## 검수 근거
 
@@ -66,3 +66,4 @@ D. 스피로놀락톤
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000008
+- 대한심근경색학회 급성 심근경색 약물치료 합의문: https://pmc.ncbi.nlm.nih.gov/articles/PMC7515755/

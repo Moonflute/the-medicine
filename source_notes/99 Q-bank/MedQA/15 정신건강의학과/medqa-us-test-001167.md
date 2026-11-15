@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCrO2ajCDrtojslYgg7J6l7JWgIChTb2NpYWwgQW54aWV0eSBEaXNvcmRlcikubWQ
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-15세 여아가 지난 1년간 성적이 떨어져 어머니와 함께 진료를 받으러 왔다. 새 학교에서 친구를 사귀기 어렵고 급우들이 자신을 바보라고 놀릴까 봐 두려워한다. 발표 중 심장이 빨리 뛰고 얼굴이 붉어진 이후 수업에서 말하는 것을 피하며 쉬는 시간에는 아무도 말을 걸지 않을까 걱정되어 화장실에 머문다. 신체·신경학적 진찰은 정상이고 정신상태검사에서 눈맞춤을 피하며 불안해했다. 가장 적절한 약물치료는?
+15세 학생은 다른 사람이 자신을 부정적으로 평가할까 두려워 발표나 모둠 활동을 피한다. 1년째 학교생활에 지장이 있고, 평가에서 사회불안장애로 확인됐다. 우선 권할 치료는?
 
 ## 선택지
 
-A. 클로미프라민
-B. 페넬진
-C. 플루옥세틴
-D. 프로프라놀롤
+A. 발표 직전에 벤조디아제핀을 미리 복용
+B. 사회불안에 맞춘 인지행동치료와 점진적 노출
+C. 학교 활동을 모두 피하며 불안이 사라질 때까지 대기
+D. 불안 수준과 관계없이 항정신병약을 시작
 
 ## 해설
 
-타인의 부정적 평가에 대한 지속적인 두려움으로 수업·대인관계를 피하고 기능이 저하되어 사회불안장애에 부합한다. 약물치료를 선택하는 이 문항의 선지 중에서는 SSRI인 플루옥세틴(C)이 적합하다. 북미 소아청소년 불안장애 권고는 CBT와 SSRI를 근거 있는 치료로 제시하며, 전반적인 사회불안을 단순 발표불안용 프로프라놀롤로 대체하지 않는다. 실제 치료에서는 CBT를 함께 논의하고, 청소년 사회불안에 대한 약물의 허가 범위와 국가별 지침 차이를 확인하며 자살사고·활성화 등 이상반응을 추적한다. 약물만이 일률적 첫 치료라는 뜻은 아니다.
+청소년 사회불안에는 발달 수준에 맞춘 CBT가 일차 선택이다. 두려운 상황을 안전하게 조금씩 연습하고, 필요하면 가족과 학교가 지원하도록 한다.
 
 ## 검수 근거
 
@@ -61,3 +61,5 @@ D. 프로프라놀롤
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001167
+- https://www.nice.org.uk/guidance/cg159/chapter/recommendations
+- https://pubmed.ncbi.nlm.nih.gov/32439401/

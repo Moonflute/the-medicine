@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-qzoO2UhOuhnOudve2LtO2YiOymnSAoSHlwZXJwcm9sYWN0aW5lbWlhKS5tZA
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
-question_type: mechanism
+question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-36세 여성이 4개월 동안 불규칙한 월경 주기로 산부인과에 내원했다. 월경은 15~45일 간격으로 불규칙하게 발생하고 1~2일간 소량으로 지속된다. 3개월간 유두에서 우유 같은 분비물이 나오고 피로, 근육통, 관절통도 있다. 복통, 발열, 두통은 없다. 최근 체중이 2.5 kg 증가했다. 8개월 전 조현병을 진단받고 아리피프라졸을 시작했으며, 갑상선기능저하증이 있지만 6개월 동안 레보티록신을 복용하지 않았다. 활력징후는 정상이고 질 위축이 보인다. TSH 16.3 μU/mL, 코르티솔(오전 8시) 18 μg/dL, 프로락틴 88 ng/mL이다. 흉부 X선과 골반 초음파는 정상이다. 이 환자 유두 분비물의 가장 가능성 높은 원인은?
+36세 여성이 레보티록신을 6개월 중단한 뒤 피로, 월경불순과 양측 유즙 분비가 생겼다. 임신 검사는 음성이다. TSH 32 mIU/L, 유리 T4 0.4 ng/dL, 프로락틴 62 ng/mL이고 두통이나 시야 이상은 없다. 다음 처치는?
 
 ## 선택지
 
-A. 갑상선자극호르몬 분비 뇌하수체선종
-B. 이소성 프로락틴 생성
-C. 쿠싱병
-D. 갑상선기능저하증
+A. 카베르골린을 먼저 투여한다
+B. 뇌하수체 수술을 의뢰한다
+C. 증상이 없어질 때까지 약 없이 지켜본다
+D. 레보티록신을 재개하고 프로락틴을 재평가한다
 
 ## 해설
 
 
-갑상선저하증은 TRH 상승을 통해 프로락틴을 증가시켜 유두 분비를 일으킨다. 따라서 가장 가능성 높은 원인은 갑상선기능저하증이다.
+명백한 원발성 갑상선기능저하가 프로락틴 상승을 일으킬 수 있다. 갑상선기능을 먼저 교정하고 재검한다. 정상화 후에도 고프로락틴혈증이 지속되면 다른 원인을 평가한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 갑상선기능저하증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007952
+- https://www.nature.com/articles/s41574-023-00886-5

@@ -13,13 +13,13 @@ related_diseases:
   - "비후성 유문 협착증"
   - "유문 근육 비후"
   - "저염소성 대사성 알칼리증"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE64yAIOuCoOusuCDtmJHssKnspp0gKEh5cGVydHJvcGhpYyBQeWxvcmljIFN0ZW5vc2lzKS5tZA
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 3주 된 남아가 수유 후 발생하는 비담즙성 분출성 구토를 한다. 구토 후에도 배고파하며 탈수와 영양불량이 있다. 우측 상복부에서 복직근 가쪽 가장자리로 지름 1.5cm의 단단한 올리브 모양 종괴가 만져지고 검사에서 저염소성 저칼륨성 대사성 알칼리증이 확인된다. 다음 중 증상의 가장 가능성 높은 원인은 무엇인가?
+생후 5주 영아가 비후성 유문협착증으로 진단됐다. 탈수돼 있고 염소 84 mmol/L, 칼륨 2.8 mmol/L이며 대사성 알칼리증이 있다. 유문근 절개술 전에 필요한 처치는?
 
 ## 선택지
 
-A. 십이지장 폐쇄
-B. 유문 근육 비후
-C. 무신경절 결장 분절
-D. 식도이완불능증
+A. 전해질 수치와 무관하게 먼저 수술한다
+B. 금식시키고 수액으로 탈수·저염소혈증·저칼륨혈증과 알칼리증을 교정한다
+C. 구토가 줄 때까지 생후 수유량을 더 늘린다
+D. 알칼리증을 치료하기 위해 중탄산염을 정맥 투여한다
 
 ## 해설
 
 
-구토 후에도 배고프고 저염소성 저칼륨성 대사성 알칼리증이 나타나는 비담즙성 구토는 위의 유문 협착이 원인이다. 유문 근육 비후는 위 내용물이 유문을 통과하지 못하게 하여 위 확장과 구토를 일으키며, 위산 손실로 염소와 칼륨이 감소해 대사성 알칼리증이 발생한다. 따라서 가장 가능성 높은 원인은 유문 근육 비후이다.
+유문협착은 수술로 치료하지만 마취 전에 탈수와 전해질·산염기 이상을 교정한다. 지속된 알칼리증은 마취 후 무호흡 위험을 높일 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006184
+- https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_Stenosis/

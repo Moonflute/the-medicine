@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2gSDtg4jstpwgKFV0ZXJpbmUgUHJvbGFwc2UpLm1k
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 여성(임신 3회·출산 3회)이 서 있을 때 악화되는 질 내 이물감으로 병원에 왔다. 요실금이나 변실금 및 기타 비뇨생식기 증상은 없다. 알려진 부인과 질환도 없고 모든 임신은 만삭 질식분만으로 합병증이 없었다. 남편과 성생활을 하며 더 이상 경구피임약을 사용하지 않는다. 11갑년 흡연력이며 체중 79 kg, 키 155 cm였다. 활력징후와 신체진찰은 정상이었다. 부인과 진찰에서 자궁경부가 질 입구 쪽 중간까지 내려와 있었고 발살바법과 기립 시 처녀막 평면까지 내려왔다. 자궁은 커져 있지 않았고 난소는 만져지지 않았다. 다음 중 가장 합리적인 치료는?
+45세 여성이 오래 서 있으면 질에 덩이가 나오는 느낌을 호소한다. 힘줄 때 자궁경부가 질 입구까지 내려오고 배뇨 장애는 없다. 수술보다는 비수술적 지지를 원한다. 적절한 선택은?
 
 ## 선택지
 
-A. 지지 페서리
-B. 공간충전 페서리
-C. 후방 질벽성형술
-D. 천골 질고정술
+A. 증상 완화를 위해 바로 자궁적출술
+B. 골반장기탈출에 맞춘 질 페서리
+C. 장기 지지 목적으로 자궁내장치 삽입
+D. 절박성 요실금 약제만 처방
 
 ## 해설
 
-최대 힘주기에서 경부가 처녀막 평면에 도달하므로 POP-Q상 대체로2기에 해당하며 과거1도 분류와 혼용하지 않는다. 증상이 있고 성생활을 유지하는 환자에게 지지 페서리(A)는 합리적인 비수술 선택이다. 골반저근 훈련·선호·추적 관리도 상담하고 수술을 일괄 강제하지 않는다.
+증상이 있는 골반장기탈출은 골반저근 운동과 적합한 페서리로 비수술 치료를 제안할 수 있다. 사용 방법과 불편감·출혈 발생 시 진료, 정기 점검을 설명한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 천골 질고정술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000589
+- https://www.nice.org.uk/guidance/ng123/chapter/recommendations

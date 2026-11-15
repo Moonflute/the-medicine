@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-34세 여성이 6개월간 지속된 연하곤란과 반복적인 구토로 내원했다. 식사 후 몇 시간 뒤에도 구토물에서 음식물이 보였다. 지난 4개월 동안 체중이 약 3.0 kg 감소했다. 작년에 아르헨티나를 여행한 병력이 있다. 그 외 과거력은 특이사항이 없고 비흡연자이다. 혈압 118/75 mmHg, 호흡 17회/분, 맥박 78회/분, 체온 36.7°C, BMI 24 kg/m²이다. 복부 압통이나 팽만, 황달은 없다. 다음 중 가장 적절한 치료의 다음 단계는?
+34세 여성이 6개월간 지속된 연하곤란과 반복적인 구토로 내원했다. 식사 후 몇 시간 뒤에도 구토물에서 음식물이 보였다. 지난 4개월 동안 체중이 약 3.0 kg 감소했다. 작년에 아르헨티나를 여행한 병력이 있다. 그 외 과거력은 특이사항이 없고 비흡연자이다. 혈압 118/75 mmHg, 호흡 17회/분, 맥박 78회/분, 체온 36.7°C, BMI 24 kg/m²이다. 복부 압통이나 팽만, 황달은 없다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: diagnosis
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -35,7 +36,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-35세 남성이 2일 전 갑자기 시작된 발열, 오한, 호흡곤란, 가래 기침으로 내원했다. HIV를 4년 전 진단받았지만 삼제 항레트로바이러스 치료를 받고 있으며 CD4 T세포는 520/mm3였다. 흉부 X선에서 오른쪽 하엽 침윤이 보였다. 다음 중 가장 가능성 높은 원인 균은?
+35세 남성이 2일 전 갑자기 시작된 발열, 오한, 호흡곤란, 가래가 섞인 기침으로 내원했다. HIV를 4년 전 진단받았지만 삼제 항레트로바이러스 치료를 받고 있으며 CD4 T세포는 520/mm3였다. 흉부 X선에서 오른쪽 하엽 침윤이 보였다. 다음 중 가장 가능성 높은 원인 균은?
 
 ## 선택지
 

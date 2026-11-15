@@ -14,11 +14,11 @@ related_diseases:
   - "탈력발작"
   - "수면마비"
   - "입면 환각"
-question_type: 임상증례 객관식
+question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4sOuptOymnSAoTmFyY29sZXBzeSkubWQ
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,23 +38,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 여자가 4개월간 지속된 전신 피로와 학교에서 집중할 수 없는 증상으로 내원했다. 그동안 주간 졸림이 심했다. 잠들 때 방에서 만화 캐릭터가 노는 환각을 보고, 매일 밤 한두 번 깬다. 깨어날 때 몸이 뻣뻣하고 몇 분간 움직일 수 없다. 매일 밤 9시에 자고 오전 7시에 일어나며 낮에 15분 낮잠을 2~3회 자고 나면 개운하다. 지난주 친구의 농담을 듣다가 머리가 기울고 턱이 떨어지는 에피소드가 수초간 있었으나 저절로 회복되었다. 가장 적절한 초기 약물치료는 무엇인가?
+19세 학생이 밤에 충분히 자도 수업 중 자주 잠든다. 크게 웃을 때 의식은 그대로인데 턱과 목에 힘이 빠지는 일이 있다. 잠들 무렵에만 생생한 환각이 보이기도 한다. 수면 부족과 약물 영향을 점검한 뒤 기면증을 확인할 검사는?
 
 ## 선택지
 
-A. 모다피닐
-B. 시탈로프람
-C. 리스페리돈
-D. 벤라팍신
+A. 각성 상태의 일반 뇌파만 시행
+B. 뇌 MRI와 근전도검사
+C. 야간 수면다원검사에 이어 다음 날 다중수면잠복기검사
+D. 수면 설문지만으로 확진
 
 ## 해설
 
-과도한 주간졸림·입면 환각·수면마비와 웃을 때의 일시적 머리·턱 근력 저하는 탈력발작을 동반한 기면증을 시사한다. 제시된 약물 중 모다피닐이 주간졸림을 줄이는 원문 선택이다. AASM에서 소아청소년 기면증의 모다피닐은 조건부 권고이며, 실제로는 전문적 진단 확인과 연령별 허가·발진 등 안전성 검토가 필요하다. 모다피닐이 탈력발작 자체의 치료를 보장하는 것은 아니다.
+감정에 유발되고 의식이 보존되는 짧은 근력 소실은 탈력발작에 합당하다. 전문 수면검사 전 충분한 수면을 확인하고, 야간 수면다원검사와 다음 날 다중수면잠복기검사를 연결한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004134
+- https://pubmed.ncbi.nlm.nih.gov/34423768/
 
 ## 검수 근거
 

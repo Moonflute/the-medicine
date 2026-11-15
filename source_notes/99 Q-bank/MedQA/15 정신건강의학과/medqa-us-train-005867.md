@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qzte2ZqSDsnqXslaAgKFBhbmljIERpc29yZGVyKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,23 +37,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-42세 남성이 흉통으로 응급실에 왔다. 식료품점에서 심한 작열성 흉통과 심계항진 및 오심이 발생해 구급차를 불러 달라고 소리쳤다. 이전에도 이런 일이 있었으며 지난 한 달 동안 서로 다른 장소에서 최소 4회 발생했고 한 번은 집에서도 생겼다. 직장에서 발생해 고용 상태에 영향을 줄까 봐 걱정한다. 특별한 과거력은 없지만 약물 복용을 좋아하지 않고 부작용 때문에 과거에도 순응도가 낮았다. 체온은 98.9°F(37.2°C), 혈압은 133/74 mmHg, 맥박은 분당 110회, 호흡수는 분당 20회, 산소포화도는 99%이다. 떨림과 발한이 있고 산소와 진통제를 달라고 반복해서 요청한다. 심전도에서 빈맥이 보이지만 초기 트로포닌, 소변 약물검사, TSH 및 유리 T4는 정상이다. 다음 중 장기 관리의 일차 치료는 무엇인가?
+공황장애 환자가 공황발작 재발이 두려워 대중교통을 피한다. 안전에 영향이 큰 동반 질환은 없고 환자는 약 대신 심리치료를 원한다. 적절한 치료는?
 
 ## 선택지
 
-A. 알프라졸람
-B. 부스피론
-C. 인지행동치료
-D. 플루옥세틴
+A. 계속 대중교통을 피하도록 하는 상담
+B. 증상 재발을 대비한 벤조디아제핀 장기 복용
+C. 불안을 다루지 않는 수면 위생 교육만 시행
+D. 공황 증상과 회피 상황에 대한 점진적 노출을 포함한 인지행동치료
 
 ## 해설
 
-반복되는 예기치 않은 발작과 다음 발작에 대한 걱정은 공황장애를 시사한다. 약물 부작용과 복약에 대한 우려가 있어 제시된 장기 관리 선택지 중 인지행동치료가 적절하다. 원문에 실제 장소 회피 행동이 기술된 것은 아니다. 현재 흉통의 의학적 원인은 별도로 평가해야 하며 초기 트로포닌 한 번이 음성이라는 사실만으로 급성 관상동맥증후군을 배제하지 않는다.
+공황 중심 인지행동치료는 신체 감각을 위험으로 해석하는 생각과 회피를 다룬다. 약을 원하지 않을 때도 근거 기반 일차 치료가 될 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005867
+- https://www.nice.org.uk/guidance/cg113/chapter/recommendations
 
 ## 검수 근거
 

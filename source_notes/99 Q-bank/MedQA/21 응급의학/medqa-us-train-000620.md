@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTEg7Jm46rO8L-uRlOyDgSDrs7XrtoDsmbjsg4EgKEJsdW50IEFiZG9taW5hbCBUcmF1bWEpLm1k
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: simple
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 남성이 정면 자동차 사고 직후 몇 분 만에 응급실에 도착했다. 그는 둔기 복부 외상과 얼굴의 여러 열상, 그리고 상하지의 열상을 입었다. 환자는 열이 없으며, 혈압은 45/25 mmHg, 맥박은 분당 160회이다. CBC(전혈구검사)를 시행했을 때 가장 나타날 가능성이 높은 결과는 무엇인가?
+복부 둔상 직후 도착한 환자의 혈압은 62/40 mmHg, 맥박은 142회/분이다. 피부가 차갑고 FAST에서 복강 내 액체가 보이지만, 혈색소는 14 g/dL다. 이 수치는 어떻게 해석하는가?
 
 ## 선택지
 
-A. Hb 5 g/dL, Hct 20%
-B. Hb 15 g/dL, Hct 45%
-C. Hb 20 g/dL, Hct 60%
-D. Hb 17 g/dL, Hct 20%
+A. 이 정도 혈색소면 출혈성 쇼크가 아니다
+B. 수액을 주지 않고 혈색소가 떨어지는지 먼저 본다
+C. 급성 출혈 초기에는 정상일 수 있으므로 소생과 출혈 통제를 지연하지 않는다
+D. 복강 내 액체는 출혈이 아니라 복수로 판단한다
 
 ## 해설
 
-급성 출혈 직후에는 적혈구와 혈장이 함께 소실되므로 순환 혈액량이 크게 줄어도 혈색소와 헤마토크릿의 농도는 처음에 정상 범위일 수 있다. 따라서 매우 이른 채혈에서 Hb 15 g/dL, Hct 45%인 B가 가능하며 이 수치로 출혈성 쇼크를 배제해서는 안 된다. 이후 조직액 이동이나 수액 투여로 혈액희석이 생기면 Hb/Hct가 감소한다. 초기 정상 수치의 원인을 이미 발생한 혈액희석이라고 설명하는 것은 반대이다.
+급성 출혈 직후에는 혈장과 적혈구가 함께 빠져 혈색소 농도가 아직 정상일 수 있다. 혈역학과 손상 소견으로 판단하며 정상 혈색소만으로 중증 출혈을 배제하지 않는다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. Hb 17 g/dL, Hct 20%
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000620
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9977110/

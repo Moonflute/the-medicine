@@ -19,7 +19,7 @@ question_type: prevention
 difficulty: simple
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 남성이 정기 방문을 위해 주치의를 찾았다. 건강하지만 15갑년의 흡연력이 있다. 여러 차례 금연을 시도했으나 실패해 좌절감을 느낀다. 최근 6세 아들이 천식 진단을 받아 금연할 준비가 되었다고 한다. 다음 중 금연에 가장 효과적인 방법은?
+35세 남성이 하루 한 갑씩 흡연한다. 금연을 여러 번 시도했지만 니코틴 갈망 때문에 재흡연했다. 이번에는 약도 써 보고 싶다고 한다. 복용 약이 없고 콩팥 기능은 정상이다. 적절한 금연 계획은?
 
 ## 선택지
 
-A. 단번에 금연
-B. 부프로피온과 니코틴 대체요법 및 인지행동치료 병용
-C. 부프로피온 단독
-D. 니코틴 대체요법 단독
+A. 금연 날짜만 정하게 하고 따로 지원하지 않는다
+B. 바레니클린을 고려하고 행동상담과 추적을 함께 제공한다
+C. 금단 증상이 생기면 한두 개비씩 피우도록 권한다
+D. 금연 의지가 확인될 때까지 약물과 상담을 모두 미룬다
 
 ## 해설
 
 
-복합 금연 치료(부프로피온 + 니코틴 대체요법 + 인지행동치료)는 각각의 효과를 보강해 금연 성공률을 가장 높인다. 단독 요법보다 효과가 뛰어나다.
+국내 금연 지침에서 바레니클린은 우선 고려할 수 있는 약제다. 행동상담과 추적을 함께 제공하면 금단과 재흡연에 대응할 수 있다. 환자 선호, 병력과 내약성에 따라 니코틴 대체요법 등 다른 방법도 선택할 수 있다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 니코틴 대체요법 단독
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006732
+- https://doi.org/10.3346/jkms.2025.40.e299

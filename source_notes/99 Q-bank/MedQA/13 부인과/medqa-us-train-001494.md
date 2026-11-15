@@ -17,6 +17,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yblOqyve2GtSAoRHlzbWVub3JyaGVhKS5tZA
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,7 +38,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 여아가 5개월 동안 간헐적으로 발생하는 하복부 통증으로 내원했다. 통증은 월경 몇 시간 전에 시작해 2–3일 지속된다. 초기에는 이부프로펜이 통증을 줄였으나 이제 효과가 없다. 심한 통증으로 학교를 며칠 결석했다. 14세에 초경을 했고 월경은 29일 간격으로 규칙적이다. 남성 파트너 한 명과 성생활을 하고 콘돔 사용은 일관되지 않다. 체온은 37.1°C (98.8°F), 맥박은 88회/분, 혈압은 110/70 mm Hg이며 신체 및 골반검사는 정상이다. 소변 임신검사는 음성이다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+16세 여아가 5개월 동안 간헐적으로 발생하는 하복부 통증으로 내원했다. 통증은 월경 몇 시간 전에 시작해 2–3일 지속된다. 초기에는 이부프로펜이 통증을 줄였으나 이제 효과가 없다. 심한 통증으로 학교를 며칠 결석했다. 14세에 초경을 했고 월경은 29일 간격으로 규칙적이다. 남성 파트너 한 명과 성생활을 하고 콘돔 사용은 일관되지 않다. 체온은 37.1°C (98.8°F), 맥박은 88회/분, 혈압은 110/70 mm Hg이며 신체 및 골반검사는 정상이다. 소변 임신검사는 음성이다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

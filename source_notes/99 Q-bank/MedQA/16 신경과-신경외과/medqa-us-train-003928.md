@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rs7jtg5zshLEg65ao66a8IChFc3NlbnRpYWwgdHJlbW9yKS5tZA
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,7 +40,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-58세 남성이 건강검진에서 혈압 154/96 mmHg와 손을 뻗거나 글을 쓸 때 나타나는 미세한 떨림으로 내원했다. 안정 시 떨림은 없었다. 다음 중 가장 적절한 다음 처치는?
+58세 남성이 건강검진에서 혈압 154/96 mmHg와 손을 뻗거나 글을 쓸 때 나타나는 미세한 떨림으로 내원했다. 안정 시 떨림은 없었다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

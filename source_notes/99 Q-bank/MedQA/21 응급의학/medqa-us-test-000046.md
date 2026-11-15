@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-남성이 경찰에 의해 응급실로 이송되었다. 경찰은 공공장소에서 술에 취해 여러 번 체포된 사람인데 최근 노숙자가 되었다고 한다. 이상하게 행동하고 혼란스러우며 말이 어눌하고, 보행은 운동실조성이어서 몇 초 이상 도움 없이 서 있을 수 없다. 활력징후는 정상이다. Na 140, K 4, Cl 106, BUN 8, 크레아티닌 2이다. 동맥혈가스 pH 7.3, PaCO₂ 13mmHg, PaO₂ 130mmHg, HCO₃⁻ 7이다. 요검사 사진이 제시되어 있고 혈청 살리실산 수치는 정상이다. 추가 검사를 기다리는 동안 다음 중 가장 먼저 투여해야 할 치료는?
+40세 남성이 혼돈으로 내원했다. 고음이온차 대사성 산증과 급성 신손상이 있고, 소변에 옥살산칼슘 결정이 보인다. 에틸렌글리콜 중독이 강하게 의심된다. 바로 준비할 해독제는?
 
 ## 선택지
 
-A. 에탄올
-B. 날트렉손
-C. 날록손
-D. 포메피졸
+A. 날록손
+B. 포메피졸
+C. 플루마제닐
+D. N-아세틸시스테인
 
 ## 해설
 
 
-환자는 고음이온차 대사성 산증(pH 7.3, HCO₃⁻ 7, PaCO₂ 13)과 신장 기능 저하를 보이며, 에틸렌글리콜 중독 시 포메피졸이 가장 효과적인 해독제이다. 에탄올은 대체제이지만 포메피졸이 우선이다.
+급성 신손상과 옥살산칼슘 결정은 에틸렌글리콜의 단서다. 포메피졸은 독성 대사물의 생성을 줄인다. 중증이면 즉시 독성학·신장팀과 투석과 대체 해독제 확보까지 논의한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000046
+- https://www.extrip-workgroup.org/ethylene-glycol

@@ -18,9 +18,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-29세 남성이 1주간의 이상행동으로 응급실에 왔다. 말이 매우 빠르고, 밤에 2시간만 자며, 나체로 운전하고, 과대감과 초조, 환청 가능성이 있다. 검사실 결과는 정상이고 자살·타살 사고는 없다. 다음 중 가장 가능성 높은 진단은?
+29세 환자가 열흘간 기분이 지나치게 들뜨고 하루 두 시간만 자도 피곤하지 않았다. 말과 활동이 크게 늘고 과대망상과 위험한 지출이 생겨 입원했다. 이전 우울 삽화는 없고 물질이나 신체질환이 원인은 아니다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 주요우울장애
-B. 단기 정신병적 장애
-C. 제1형 양극성장애
-D. 제2형 양극성장애
+A. 양극성 II형 장애
+B. 순환성장애
+C. 망상장애
+D. 양극성 I형 장애
 
 ## 해설
 
 
-수면 감소, 과다활동, 과대망상, 환각은 조증 삽화의 특징이며, 조증은 양극성Ⅰ형(조증 에피소드)에서 나타난다. 증상이 1주 이상 지속되었고 입원 필요성이 있기에 가장 타당한 진단은 제1형 양극성장애이다.
+심한 기능 손상과 과대망상이 동반된 지속적인 기분·활동 변화는 조증 삽화다. 양극성 I형 장애는 조증 삽화가 한 번이라도 있으면 고려하며 주요우울 삽화가 반드시 필요한 것은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002693
+- https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder/
+- https://www.nice.org.uk/guidance/cg185/chapter/recommendations

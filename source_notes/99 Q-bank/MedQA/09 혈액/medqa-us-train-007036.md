@@ -16,11 +16,11 @@ related_diseases:
   - "좌심실 기능장애"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
-question_type: prognosis
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강했던 46세 여자가 3개월간 지속된 피로와 점점 심해지는 호흡곤란으로 내원했다. 복용 약물은 없다. 맥박은 93회/분, 혈압은 112/80 mmHg이다. 진찰에서 이상은 없다. 헤모글로빈은 8 g/dL, 백혈구 수는 22,000/mm³, 혈소판 수는 80,000/mm³이다. 말초혈액도말에서 순환하는 골수모세포가 증가되어 있다. 골수 생검으로 급성 골수성 백혈병이 확진되었다. 심전도, 흉부 X선, 심초음파는 정상이다. 환자는 시타라빈과 다우노루비신을 이용한 관해유도 화학요법을 시작할 예정이다. 이 환자에서 다음 중 어떤 장기 합병증의 위험이 증가하는가?
+급성 골수성 백혈병 환자가 다우노루비신을 포함한 유도항암을 시작할 예정이다. 기저 심근병증은 알려져 있지 않다. 치료 전 좌심실 기능을 기록하는 데 우선 사용할 검사는?
 
 ## 선택지
 
-A. 양측 이명
-B. 육안적 혈뇨
-C. 폐의 이산화탄소 확산능 감소
-D. 좌심실 기능장애
+A. 운동부하 심전도
+B. 관상동맥 CT
+C. 24시간 홀터검사
+D. 좌심실 박출률을 포함한 경흉부 심초음파
 
 ## 해설
 
 
-다우노루비신은 심근에 축적되어 심근섬유증을 일으키며, 좌심실 기능장애 위험을 증가시킨다. 따라서 정답은 D이다.
+안트라사이클린은 좌심실 기능을 떨어뜨릴 수 있다. 치료 전에 심초음파로 기준 좌심실 기능을 확인하고 개별 심혈관 위험도에 맞춰 치료 중 감시한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 좌심실 기능장애
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007036
+- https://doi.org/10.1093/eurheartj/ehac244

@@ -15,11 +15,11 @@ related_diseases:
   - "다뇨"
 related_disease_slugs:
   - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
-question_type: 임상증례 객관식
+question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 여자가 소변량 증가와 갈증 증가로 내원했다. 최근 일반의약품 비타민과 보충제를 여러 개 복용하기 시작했고 복통과 변비도 있다. 체중 변화는 크지 않으며 진료실 혈당은 96 mg/dL이다. 진단에 가장 도움이 될 검사는 무엇인가?
+55세 여성이 갈증과 변비를 호소한다. 비타민 보충제를 먹고 있고 두 번 측정한 알부민 보정 칼슘이 11.6 mg/dL로 높다. 고칼슘혈증의 원인을 나누기 위해 가장 먼저 확인할 검사는?
 
 ## 선택지
 
-A. 피리독신 수치
-B. 나이아신 수치
-C. 칼슘 수치
-D. 유리 T4 수치
+A. 25-하이드록시 비타민 D만 측정
+B. PTH 관련 펩타이드부터 측정
+C. 혈청 온전한 부갑상선호르몬(intact PTH)
+D. 부갑상선 신티그래피
 
 ## 해설
 
 
-다뇨와 갈증이 동반된 경우 고칼슘혈증을 의심할 수 있지만, 비타민 보충제 과다 복용이 원인일 때 가장 중요한 검사는 혈청 칼슘 농도이다. 따라서 진단에 도움이 되는 검사는 칼슘 수치이다.
+고칼슘혈증인데 PTH가 높거나 부적절하게 정상이면 PTH 의존성 원인을 의심한다. PTH가 억제되면 약물·비타민 D 과다·악성종양 등을 확인한다. 부갑상선 영상은 원인 진단을 대신하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 유리 T4 수치
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004321
+- https://doi.org/10.1002/jbmr.4677

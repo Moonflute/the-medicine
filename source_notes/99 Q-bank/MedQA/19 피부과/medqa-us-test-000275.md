@@ -14,12 +14,12 @@ related_diseases:
   - "피부 종양"
   - "자외선 노출"
   - "pilomatricoma"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs: []
 difficulty: simple
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-67세 백인 남성이 연례 검진을 위해 일차 진료를 받으러 왔다. 지난 한 달 동안 이마에 분홍색 돌기가 빠르게 생겼다고 한다. 과거에 물집이 생길 정도의 일광화상을 여러 번 입는 등 햇빛에 많이 노출되었다. 진찰에서 중앙에 각질 마개가 있는 지름 2 cm의 돔 모양 판이 보였다(그림 참조). 병변을 절제하여 생검한 결과 중앙 함몰이 있고 각질로 가득 찬 외장성 결절이 보였으며, 각질형성세포의 비정형은 경미했다. 다음 중 가장 가능성 높은 진단은?
+67세 환자의 이마에 한 달 사이 중앙에 각질 마개를 가진 돔 모양 결절이 생겼다. 빠르게 자라 각화극세포종과 편평세포암을 감별해야 한다. 적절한 다음 조치는?
 
 ## 선택지
 
-A. 각화극세포종
-B. 기저세포암
-C. 지루각화증
-D. 카포시육종
+A. 자연 소실을 기대해 조직검사 없이 수개월 관찰한다
+B. 피부과에서 깊이와 구조를 평가할 수 있는 조직검사를 한다
+C. 피부 표면 배양으로 암인지 확인한다
+D. 보습제만 사용한다
 
 ## 해설
 
 
-햇빛 노출과 중심에 각질 마개가 있는 돔형 병변은 각화극세포종의 특징이다. 조직학적으로 각질이 풍부하고 비정형성이 경미한 것이 확인된다. 따라서 각화극세포종이 가장 가능성 높은 진단이다.
+각화극세포종처럼 보이는 빠른 성장 결절은 침습성 편평세포암과 임상적으로 구별하기 어렵다. 충분한 깊이와 병변 구조를 평가할 검체가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000275
+- https://pubmed.ncbi.nlm.nih.gov/36841336/

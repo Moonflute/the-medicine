@@ -13,13 +13,13 @@ related_diseases:
   - "vitreous hemorrhage"
   - "diabetic retinopathy"
   - "floaters"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDrp53rp4nrs5Hspp0gKERpYWJldGljIFJldGlub3BhdGh5KS5tZA
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-63세 여성이 하루 동안 진행된 우측 시야 흐림과 어두워짐으로 응급실에 왔다. 아침에 일어나 갑자기 여러 개의 검은 줄이 보이기 시작했다. 편두통과 20년 전 진단받은 제2형 당뇨병이 있으며 40년간 하루 담배 한 갑을 피웠다. 수마트립탄만 복용한다. 안과검사에서 시력은 좌측 20/40, 우측 20/100이고 우측 안저가 가려져 관찰이 어렵다. 우측 적색반사가 감소되어 있다. 가장 가능성 높은 진단은?
+증식당뇨망막병증이 있는 63세 환자가 한쪽 눈의 갑작스러운 비문과 무통성 시력저하로 왔다. 유리체출혈 때문에 안저가 보이지 않는다. 외상이나 개방 안구손상은 없다. 망막박리가 숨어 있는지 평가할 검사는?
 
 ## 선택지
 
-A. 중심망막정맥폐쇄
-B. 중심망막동맥폐쇄
-C. 백내장
-D. 유리체 출혈
+A. 안구 B스캔 초음파
+B. 전방각경검사
+C. 안와 단순 X선
+D. 색각표 검사
 
 ## 해설
 
 
-시야에 검은 줄이 보이고 안저가 가려진 경우, 당뇨성 망막증으로 인한 유리체 출혈이 가장 가능성이 높다.
+유리체출혈로 망막을 직접 볼 수 없으면 B스캔 초음파로 망막박리를 평가한다. 처음 영상에서 보이지 않아도 출혈과 망막 상태를 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007976
+- https://www.aao.org/education/preferred-practice-pattern/posterior-vitreous-detachment-retinal-breaks-latti
+- https://eyewiki.aao.org/Vitreous_Hemorrhage

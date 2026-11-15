@@ -18,9 +18,9 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-59세 여자가 6개월 동안 진행된 왼팔 부종으로 일차진료의를 찾아왔다. 2년 전 왼쪽 유방암으로 부분 유방절제술과 액와 림프절 절제술을 받았고 당시 방사선치료도 받았다. 발열, 통증, 피부 변화는 없지만 손이 무겁고 약해 일상생활이 어렵다. 커진 팔의 외관이 신경 쓰여 테니스를 중단했다. 신체검사에서 왼팔에 비함요성 부종, 과각화증, 유두종증, 피부 경결이 보인다. 팔 올리기, 운동, 정적 압박붕대를 시작했다. 호전이 없다면 다음 중 가장 적절한 다음 치료는 무엇인가?
+59세 여성이 유방암 수술과 액와 림프절 곽청 후 같은 쪽 팔이 수개월 동안 커지고 무거워졌다. 혈전과 암 재발은 평가에서 배제됐고 발열·발적은 없다. 일상생활을 방해하는 림프부종의 초기 치료는?
 
 ## 선택지
 
-A. 디에틸카바마진
-B. 혈관 내 스텐트 삽입
-C. 혈관화 림프절 이식
-D. 항생제
+A. 압박·운동·피부관리를 포함한 림프부종 재활
+B. 장기간 고리이뇨제 투여
+C. 증상이 진행할 때마다 항생제 투여
+D. 재활치료 없이 바로 혈관화 림프절 이식
 
 ## 해설
 
 
-이차성 림프부종에 대한 보존적 치료가 실패했을 때 혈관화 림프절 이식이 효과적인 외과적 옵션이다. 디에틸카바마진은 약물 치료, 스텐트는 혈관 협착에, 항생제는 감염에 사용된다.
+유방암 치료 관련 림프부종은 적절한 압박과 운동, 피부관리를 포함한 재활이 기본이다. 수술은 충분한 보존치료 후에도 증상이 남는 일부 환자에서 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 항생제
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007528
+- https://pubmed.ncbi.nlm.nih.gov/39207406/

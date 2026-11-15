@@ -13,7 +13,7 @@ related_diseases:
   - "hand-foot-and-mouth disease"
   - "Coxsackievirus"
   - "enterovirus"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IiY7KGx6rWs67ORIChIYW5kLUZvb3QtTW91dGggRGlzZWFzZSkubWQ
 difficulty: standard
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-2세 남아가 2일 동안 지속된 발열과 피부 발진으로 소아과에 왔다. 만삭에 정상 질식분만으로 태어났고 신생아기에는 문제가 없었다. 다리에 심한 통증이 있고 먹기 힘들어한다. 체온 38.6°C(101.4°F), 맥박 102회/분, 호흡수 22회/분이다. 신체검사에서 손, 발, 몸통에 여러 구진이 보인다. 신경학적 검사에서 하지 근력이 감소되어 있다. 구강 내 검사에서 경구개에 2 mm 크기의 붉은 반점이 여러 개 보인다. 다음 중 가장 가능성 높은 원인균은?
+2세 아이가 입안 수포와 손발 발진으로 수족구병을 진단받았다. 이틀 뒤 갑자기 한쪽 다리에 힘이 빠지고 혼자 서지 못한다. 가장 적절한 조치는?
 
 ## 선택지
 
-A. 콕사키바이러스
-B. 단순포진바이러스
-C. 거대세포바이러스
-D. 파보바이러스 B19
+A. 신경계 합병증 등 급성 마비 원인을 응급 평가한다
+B. 다리 통증을 동반한 흔한 경과이므로 해열제만 준다
+C. 열이 모두 내린 뒤에 근력을 확인한다
+D. 발진이 사라지면 물리치료만 시작한다
 
 ## 해설
 
-손발·구강 병변은 수족구병에 부합하고 보기 중 원인군은 Coxsackievirus(A)이다. Coxsackie A16/A6와 EV-A71은 모두 원인이 될 수 있으나 서로 같은 바이러스 명칭이 아니다. 실제 하지 근력저하는 단순 수족구병의 흔한 정상 소견이 아니며 신경학적 합병증을 신속히 평가해야 한다.
+새로운 국소 근력 저하는 전형적인 수족구병 증상이 아니다. 신경계 합병증이나 다른 급성 이완마비 원인을 확인해야 하며 발진이 사라질 때까지 기다리지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 파보바이러스 B19
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007763
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6768

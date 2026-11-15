@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-ustOymneyDgSDshLjqt6Drh6ggKEFzeW1wdG9tYXRpYyBCYWN0ZXJpdXJpYSkubWQ
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 12주인 23세 임신 2회·출산 1회의 여자가 첫 산전 진료를 받으러 왔다. 소변 시험지에서 백혈구에스터라제와 아질산염이 양성이고 소변배양에서 대장균이 100,000 CFU/mL 이상 자랐다. 다음 중 가장 적절한 처치는?
+임신 12주 산모는 배뇨 증상이나 발열이 없지만 적절히 채취한 소변 배양에서 대장균이 100,000 CFU/mL 이상 자랐다. 가장 적절한 관리는?
 
 ## 선택지
 
-A. 겐타마이신 투여
-B. 신장 초음파
-C. 방광경검사
-D. 아목시실린/클라불란산 투여
+A. 증상이 없으므로 치료하지 않는다
+B. 배양 감수성에 맞는 임신 중 사용 가능한 항생제로 치료한다
+C. 일단 방광경을 시행한 뒤 항생제를 결정한다
+D. 치료 대신 임신 말까지 소변 시험지만 반복한다
 
 ## 해설
 
-임신 중 무증상 E. coli 세균뇨 ≥100,000 CFU/mL는 치료 대상이다. 제시된 경구 약제 중 아목시실린/클라불란산(D)을 감수성이 확인된 경우 사용할 수 있다. 12주부터 치료를 미뤄야 하는 것은 아니며 보통 5–7일 표적 치료한다. 내성이 흔하므로 배양·감수성에 맞추고 합병증 없는 세균뇨에 방광경·정맥 겐타마이신을 일률 사용하지 않는다.
+임신 중 유의한 무증상 세균뇨는 신우신염 위험을 줄이기 위해 치료한다. 약제는 배양과 감수성, 임신 주수에 맞춰 결정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 아목시실린/클라불란산 투여
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005189
+- https://pubmed.ncbi.nlm.nih.gov/29637759/
+- https://pubmed.ncbi.nlm.nih.gov/37473414/

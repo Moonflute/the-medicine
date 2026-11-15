@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 여성이 3개월간 점점 악화되는 오른쪽 앞무릎 통증으로 진료를 받으러 왔다. 계단을 오르내리거나 오래 앉아 있으면 악화되고 아스피린과 이부프로펜은 효과가 없었다. 축구 선수이며 무릎을 펴면서 앞쪽 슬개골을 압박할 때 통증과 마찰음이 난다. 증상에 대한 가장 적절한 처치는?
+22세 여성이 오래 앉았다 일어나거나 계단을 내려갈 때 무릎뼈 주위가 아프다. 쪼그려 앉으면 아프지만 관절삼출과 불안정성은 없다. 가장 적절한 초기 치료는?
 
 ## 선택지
 
-A. 흡인
-B. 정형외과 수술
-C. 뼈조각 절제
-D. 대퇴사두근 운동
+A. 무릎을 석고로 고정한다
+B. 무릎과 엉덩이 근육 강화 운동을 하고 통증을 유발하는 운동량을 조절한다
+C. 관절액을 반복 흡인한다
+D. 관절경으로 슬개골을 먼저 교정한다
 
 ## 해설
 
-계단·장시간 앉기에서 심해지는 전방 무릎통과 슬개골 압박 통증은 슬개대퇴 통증을 시사한다. 대퇴사두근 운동(D)을 포함한 무릎 중심 운동치료가 적절하며 필요에 따라 고관절 운동, 교육과 활동 부하 조절을 함께 시행한다. 이 질환의 원인은 다요인성이므로 모든 환자에서 대퇴사두근 약화·부정렬 하나가 확인된다고 단정하지 않는다. 삼출이나 뼈조각이 제시되지 않아 흡인·수술·골편 절제를 우선하지 않는다.
+슬개대퇴 통증은 굽힌 무릎에 하중이 실릴 때 흔히 심해진다. 무릎 중심 운동에 필요시 고관절 근력 운동을 더하고, 운동량을 단계적으로 조절한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 대퇴사두근 운동
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000440
+- https://bjsm.bmj.com/content/58/24/1486

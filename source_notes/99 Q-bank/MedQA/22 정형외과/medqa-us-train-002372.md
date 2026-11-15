@@ -17,9 +17,9 @@ related_diseases:
 question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-체중 4,080 g인 남아 신생아가 만삭으로 태어났다. 분만실 검사에서 양쪽 발이 아래와 안쪽을 향하고 전족부는 내전되어 안쪽으로 뒤틀리며 뒷발은 올라가 있고 중족부는 오목하다. 양쪽 아킬레스건이 팽팽하고 발 안쪽에 피부 주름이 있다. 발 변형은 수동적으로 펴려 해도 지속되며 X선에서 진단이 확인되었다. 다음 중 가장 적절한 치료의 다음 단계는?
+신생아의 두 발이 안쪽으로 돌아가 있고 뒤꿈치도 안으로 말려 발목이 아래를 향한다. 손으로 펴도 변형이 교정되지 않는다. 선천성 곤봉발의 첫 치료는?
 
 ## 선택지
 
-A. 발 외전 보조기
-B. 수술
-C. 재배치와 연속 석고붕대
-D. 물리치료
+A. 신생아의 두 발을 한 번에 수술로 교정한다
+B. 보행을 시작할 때까지 그대로 둔다
+C. 마사지와 스트레칭만 한다
+D. 폰세티 조작과 연속 석고 고정을 시행한다
 
 ## 해설
 
 
-신생아의 발이 내전·내회전·아킬레스건 긴장, 피부 주름이 있는 소견은 선천성 족부 변형(클럽풋)이며, 표준 치료는 재배치 후 연속 석고붕대(폰세티 기법)이다. 따라서 재배치와 연속 석고붕대가 적절하다.
+강직된 곤봉발은 조작과 연속 석고 고정을 이용하는 폰세티 치료가 초기 표준이다. 교정 상태에 따라 아킬레스건 처치와 재발 예방 보조기를 이어간다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002372
+- https://orthoinfo.aaos.org/en/diseases--conditions/clubfoot/

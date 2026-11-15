@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ
   - MDkg7ZiI7JWhL-2YiOq0gCDrgrQg7Jqp7ZiIIChJbnRyYXZhc2N1bGFyIEhlbW9seXNpcykubWQ
-question_type: prognosis
+question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-35세 여성이 2개월 동안 점점 심해지는 피로와 간헐적인 복통으로 내원했다. 이 기간 동안 아침에 일어났을 때 소변이 더 짙은 색이라는 것을 알았다. 대변 색은 정상이다. 5개월 전 제2형 당뇨병을 진단받아 메트포르민을 복용한다. 신체검사에서 창백과 황달이 보이고 비장비대는 없다. 혈색소 7.5g/dL, 백혈구 3,500/mm³, 혈소판 100,000/mm³, 크레아티닌 1.0mg/dL, 총 빌리루빈 6.0mg/dL, 직접 빌리루빈 0.2mg/dL, LDH 660U/L, 합토글로빈 18mg/dL(정상 41~165)이다. 소변은 붉지만 소변검사에서 적혈구는 없다. Coombs 검사는 음성이고 말초혈액 도말은 정상이다. 이 환자가 가장 위험한 합병증은 무엇인가?
+발작성 야간혈색소뇨증 환자에게 에쿨리주맙 투여를 계획 중이다. 약과 관련된 중증 세균 감염을 줄이기 위해 미리 확인할 예방접종은?
 
 ## 선택지
 
-A. 말단청색증
-B. 간세포암
-C. 정맥 혈전증
-D. 만성 림프구성 백혈병
+A. A형간염 백신만 확인한다
+B. 백신을 맞아도 효과가 없으므로 접종력을 확인하지 않는다
+C. 수막구균 ACWY형과 B형 백신 접종력을 확인한다
+D. 계절 인플루엔자 백신만 확인한다
 
 ## 해설
 
 
-PNH는 적혈구 파괴와 혈전증 위험이 동반된다. 혈전증은 사망 원인 중 가장 위험한 합병증이므로 정답이다.
+말단 보체를 억제하면 침습성 수막구균 감염 위험이 증가한다. 두 유형의 백신을 지침에 맞게 준비하고, 접종 후에도 고열이나 급격한 전신 증상이 있으면 즉시 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ PNH는 적혈구 파괴와 혈전증 위험이 동반된다. 혈전증은 사망
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008705
+- https://www.cdc.gov/meningococcal/hcp/clinical-guidance/complement-inhibitor.html

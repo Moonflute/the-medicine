@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTgg7JWI6rO8L-yViOq1rCDsmbjsg4EubWQ
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-47세 남성이 교통사고 후 오른쪽 안구 적출술을 받고 퇴원한 지 2주 후 왼쪽 눈의 시력저하와 충혈로 안과에 왔다. 가장 가능성 높은 진단은?
+한쪽 눈의 심한 관통손상 수술을 받은 환자가 수주 뒤 반대쪽 눈의 시력저하와 눈부심으로 왔다. 세극등에서 반대쪽 눈에 육아종성 포도막염이 보인다. 가장 의심되는 진단은?
 
 ## 선택지
 
-A. 전방 포도막염
-B. 정상적인 수술 후 시각 적응
-C. 계절성 알레르기
-D. 교감성 안염
+A. 수술과 무관한 계절성 알레르기
+B. 교감성 안염
+C. 급성 폐쇄각 녹내장
+D. 단순 결막하출혈
 
 ## 해설
 
-한쪽 안구의 심한 외상 및 수술 뒤 반대쪽 눈에 시력저하·충혈이 생기면 D, 교감성 안염을 의심해야 한다. 외상으로 노출된 안구 항원에 대한 자가면역 반응으로 양안 포도막 염증이 생길 수 있는 희귀 질환이지 교감신경 자극으로 생긴 흔한 안구표면 염증이 아니다. 이미 안구적출을 받았다고 항원 노출 후 발현 가능성을 절대 배제할 수는 없다.
+한쪽 안구 손상 뒤 반대쪽 눈에 육아종성 포도막염이 생기면 드물지만 교감성 안염을 의심한다. 남은 시력을 보호하기 위해 신속한 안과 평가가 필요하다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 교감성 안염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000210
+- https://pubmed.ncbi.nlm.nih.gov/35647958/

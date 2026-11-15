@@ -20,7 +20,7 @@ related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yymey2lO2YkeywqeymnSAoU3BpbmFsIFN0ZW5vc2lzKS5tZA
   - MDcg66WY66eI7Yuw7IqkL-qwleyngeyEsSDsspnstpTsl7wgKEFua3lsb3NpbmcgU3BvbmR5bGl0aXMpLm1k
 difficulty: simple
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash-lite
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 여성이 갑자기 시작된 허리 통증을 호소합니다. 몇 시간 전 헬스장에서 운동을 하던 중 날카로운 통증을 느꼈다고 말합니다. 통증은 다리 옆면을 따라 발까지 방사됩니다. 신체 검진 시 활력 징후는 다음과 같습니다: HR 95, BP 120/70, T 37.2°C. 다리를 들어 올릴 때(straight leg raise) 다리를 따라 극심한 통증이 발생합니다. 가벼운 촉감과 핀으로 찌르는 감각은 모두 정상입니다. 다음 중 가장 가능성이 높은 진단은 무엇입니까?
+26세 환자가 운동 중 생긴 요통이 한쪽 종아리 가쪽과 발까지 뻗친다고 한다. 무릎을 편 채 다리를 들어 올리면 같은 다리의 방사통이 재현된다. 발열은 없고 보행과 배뇨는 정상이다. 가장 가능성 높은 원인은?
 
 ## 선택지
 
-A. 추간판 탈출증 (Disc herniation)
-B. 골수염 (Osteomyelitis)
-C. 척추관 협착증 (Spinal stenosis)
-D. 강직성 척추염 (Ankylosing spondylitis)
+A. 요추 척추관협착증
+B. 척추 경막외 농양
+C. 요추 추간판 탈출에 의한 신경근 자극
+D. 요추 주변 근육 염좌만
 
 ## 해설
 
-운동 중 갑작스러운 요통과 다리에서 발까지 방사되는 통증, 하지직거상검사(straight-leg raise)로 유발되는 방사통은 추간판 탈출증(A)에 의한 요천추 신경근 자극을 지지한다. 감각이 정상이어도 신경근통이 가능하다. 감염·만성 협착·염증성 요통을 더 지지하는 단서는 제시되지 않았다.
+급성 요통과 발까지 이어지는 방사통이 하지직거상으로 유발되면 신경근 자극을 시사한다. 새 운동 마비나 배뇨 이상이 있으면 다시 응급 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 강직성 척추염 (Ankylosing spondylitis)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000297
+- https://www.nice.org.uk/guidance/ng59/chapter/recommendations

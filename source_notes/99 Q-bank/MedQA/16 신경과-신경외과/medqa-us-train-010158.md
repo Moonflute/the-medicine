@@ -13,11 +13,11 @@ related_diseases:
   - "X연관 부신백질이영양증"
   - "ABCD1 수송체"
   - "탈수초성 질환"
-question_type: mechanism
+question_type: investigation
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 8세 남아가 지난 2개월 동안 시력 저하와 청력 및 말하기 능력 악화가 증가해 내원했다. 그동안 걷기, 계단 오르기, 스스로 먹기가 어려워졌고 교사는 집중력 저하를 알아차렸다. 성적이 떨어지고 글씨를 알아보기 어렵게 되었다. 외가 쪽 남자 사촌도 비슷한 증상이 있어 6세에 사망했다. 활력징후는 정상이다. 피부와 손발톱의 과색소침착, 운동실조성 보행, 구음장애가 있다. 신경학적 검사에서 모든 사지의 경직과 근력 저하, 양측 4+ 심부건반사, 양측 발바닥의 신전 반응, 하지 감각 저하가 보인다. 안저검사에서 시신경 위축과 양측 감각신경성 난청이 있다. 다음 중 이 환자 증상의 가장 가능성 높은 원인은?
+8세 남아가 수개월 사이 성적과 보행이 모두 악화했다. 피부 과색소침착이 있고, 뇌 MRI에 대칭적인 뒤쪽 백질 병변이 보인다. 외가 남자 친척에게 비슷한 병력이 있다. 의심 질환을 평가할 혈액검사는?
 
 ## 선택지
 
-A. β-글루코세레브로시다제 결핍
-B. ATP 결합 카세트 수송체 기능장애
-C. 아릴설파테이스 A 결핍
-D. α-갈락토시다제 A 결핍
+A. 혈장 초장쇄지방산 또는 C26:0 리소인지질
+B. 혈청 아세틸콜린수용체 항체
+C. 혈청 구리와 세룰로플라스민
+D. 혈중 항아쿠아포린-4 항체
 
 ## 해설
 
-아동기의 진행성 백질 신경증상과 부신기능저하를 시사하는 과색소침착은 X연관 부신백질이영양증에 맞는다. ABCD1 유전자가 암호화하는 peroxisomal ATP-binding cassette 수송체의 기능 이상(B)으로 초장쇄지방산 대사가 장애를 받아 축적과 탈수초가 발생한다. 수송체가 유전자를 암호화하는 것이 아니다. Maternal male cousin은 외가 쪽 남자 사촌이라는 뜻이지 반드시 외삼촌의 아들이라는 뜻은 아니다.
+남아의 진행성 백질 증상과 부신기능저하 단서는 X연관 부신백질이영양증을 시사한다. 혈액의 표지자와 ABCD1 검사를 이용하며 부신 기능도 신속히 평가한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. α-갈락토시다제 A 결핍
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010158
+- https://pubmed.ncbi.nlm.nih.gov/36175155/

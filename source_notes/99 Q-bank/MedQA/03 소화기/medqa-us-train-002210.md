@@ -19,7 +19,7 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-52세 여성이 몇 시간 전부터 시작된 오른쪽 상복부 통증으로 응급진료소에 왔다. 과거에도 비슷한 통증이 있었지만 오늘보다 경미했다. 과거력은 특이사항이 없다. 제산제를 복용했지만 효과가 없었다. 체온 37°C, 호흡 16회/분, 맥박 78회/분, 혈압 122/98 mmHg이다. 신체검사는 정상이고 통증은 가라앉았다. 의사는 담낭염을 의심해 확인을 위해 제한적 복부 초음파를 시행했으나 담낭염 증거는 없고 담낭 선근종증이 우연히 발견되었다. 악성종양을 의심할 임상 소견은 없다. 다음 중 가장 적절한 치료의 다음 단계는?
+52세 여성의 건강검진 초음파에서 담낭벽 내부에 작은 낭성 공간과 혜성꼬리 인공물이 함께 보인다. 담낭 선근종증의 전형적 영상이고 종괴, 담석, 증상은 없다. 어떻게 관리하는가?
 
 ## 선택지
 
-A. 바륨 연하검사
-B. 내시경적 역행성 담췌관조영술
-C. 자기공명 담췌관조영술
-D. 추가 치료가 필요하지 않다
+A. 6개월 간격으로 초음파를 반복한다.
+B. MRCP를 정기적으로 반복한다.
+C. 예방적 담낭절제술을 실시한다.
+D. 담낭 선근종증에 대한 추가 추적이나 치료는 필요 없다.
 
 ## 해설
 
 
-우연히 발견된 담낭 선근종증은 양성 병변이며, 증상이 없고 악성 소견이 없으므로 추가 치료 없이 관찰한다.
+전형적인 담낭 선근종증은 양성 변화다. 증상이 없고 전형적 영상이면 국내 권고는 추적을 요구하지 않는다. 비전형적 벽 비후나 종괴가 있으면 추가 평가가 필요하다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 추가 치료가 필요하지 않다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002210
+- https://doi.org/10.3348/kjr.2024.0914

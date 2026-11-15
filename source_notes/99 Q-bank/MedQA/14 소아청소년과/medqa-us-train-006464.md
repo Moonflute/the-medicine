@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Zi47Z2h6rOk656AIOymne2bhOq1sCAoUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-남아 신생아가 출생 1분 후 평가를 받았다. 임신 38주에 28세 여성(Gravida 3)이 질식분만으로 출산했다. 어머니는 산전 진찰을 간헐적으로 받았고 임신성 당뇨병이 있었다. 양수는 맑았다. 신생아의 맥박은 분당 70회이고 호흡은 불규칙하며 울음은 느리고 약하다. 허벅지를 살짝 꼬집으면 낑낑거리며 반응하고 사지 근육의 긴장도는 중등도이며 약간 굴곡되어 있다. 몸통은 분홍색이고 사지는 파랗다. 따뜻한 수건으로 닦은 후 평평한 보온대 위에 바로 눕혔고, 구상 주사기로 입과 코의 분비물을 흡인했다. 다음 중 처치로 가장 적절한 다음 단계는?
+출생 직후 무호흡이 있던 신생아에게 기도를 확보하고 흉곽이 오르는 효과적인 양압환기를 30초간 했다. 심박수는 여전히 분당 45회다. 다음 조치는?
 
 ## 선택지
 
-A. 흉부압박과 백-마스크 환기
-B. 양압환기 후 5분에 아프가 점수 재평가
-C. 비강 캐뉼라로 산소를 보충하고 5분에 아프가 점수 재평가
-D. 기관내 삽관과 기계환기
+A. 환기는 중단하고 산소만 투여한다
+B. 5분 아프가 점수까지 변화를 기다린다
+C. 환기를 유지하며 흉부압박을 시작한다
+D. 맥박이 낮아도 신생아에게 압박은 시행하지 않는다
 
 ## 해설
 
-초기 보온·건조 후 심박수 70회/분과 불규칙한 약한 호흡이 있어 즉시 양압환기(B)를 시행한다. 심박수와 흉곽 움직임으로 환기 효과를 신속히 재평가하며 5분 Apgar 기록을 기다려 처치를 지연하지 않는다. 비강 산소만으로는 환기를 대체하지 못한다. 효과적 환기 후에도 심박수 60회/분 미만이면 흉부압박을 고려한다.
+폐를 펴는 효과적인 환기를 30초 이상 시행했는데도 심박수가 60회/분 미만이면 환기와 협응해 흉부압박을 시작한다. 환기에 반응하는 가벼운 서맥에는 압박이 우선이 아니다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 기관내 삽관과 기계환기
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006464
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13277417/

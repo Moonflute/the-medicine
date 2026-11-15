@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTAg7KKF7JaRL-y5tOultOyLnOuFuOydtOuTnCDspp3tm4TqtbAgKENhcmNpbm9pZCBTeW5kcm9tZSkubWQ
 question_type: management
 difficulty: simple
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-54세 여자가 반복되는 홍조 발작으로 일차진료의를 찾아왔다. 처음에는 호르몬 변화 때문이라고 생각했지만, 최근에는 폭발적으로 발생하는 물 같은 설사도 겪고 있다. 심계항진도 새로 시작되었다. 활력징후는 정상이다. 신체검사에서 경정맥압이 상승해 있고 심초음파에서 삼첨판 역류가 보인다. 소변 5-HIAA가 상승해 있다. 다음 중 가장 적절한 치료는 무엇인가?
+54세 여성이 전이성 소장 신경내분비종양으로 진단되었다. 반복되는 얼굴 홍조와 물설사가 있고 소변 5-HIAA가 높다. 이 증상을 처음 조절할 약은?
 
 ## 선택지
 
-A. 옥트레오타이드
-B. 메토클로프라미드
-C. 온단세트론
-D. 프로메타진
+A. 텔로트리스타트 단독
+B. 에베롤리무스
+C. 지속형 옥트레오타이드
+D. 로페라미드 단독
 
 ## 해설
 
 
-홍조, 수양성 설사, 삼첨판 역류와 urine5-HIAA 상승은 carcinoid syndrome에 부합한다. Octreotide A는 somatostatin analogue로 신경내분비종양의 호르몬 분비를 억제하여 설사·홍조를 조절한다. Serotonin 수용체 길항제는 아니다. 이는 증상 조절 약제 선택이며 종양의 위치·병기와 심장병변에 대한 추가 치료를 대체하지 않는다.
+카르시노이드 증후군의 홍조와 설사에는 소마토스타틴 유사체인 옥트레오타이드나 란레오타이드를 우선 사용한다. 텔로트리스타트는 유사체에도 지속되는 설사에 추가할 수 있다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 프로메타진
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006977
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9539661/

@@ -13,11 +13,11 @@ related_diseases:
   - "레트 증후군"
   - "손 비비기"
   - "발달 퇴행"
-question_type: 임상증례 객관식
+question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-15개월 여아가 3회의 숨참기 발작 병력으로 어머니와 함께 내원했다. 어머니는 새로 나타난 행동이라 걱정한다. 만삭 정상 질식분만으로 태어났고 예방접종은 최신 상태다. 생후 6개월 이후 또래보다 덜 놀고 다른 사람과 상호작용에 관심이 없으며 눈맞춤이 좋지 않았다. 성장곡선에서 출생 시 체중, 키, 머리둘레는 정상이었으나 이후 체중과 머리둘레의 성장 속도가 감소했다. 신경학적 검사에서 전신 경도 근긴장저하와 반복적인 손 비비기 동작이 보인다. 향후 수년 내 가장 발생 가능성이 높은 임상 특징은 무엇인가?
+18개월 여아가 이전에 쓰던 단어와 손으로 먹던 능력을 잃었다. 반복적으로 손을 비비며 머리둘레 성장도 둔해졌다. 움직임과 발달 퇴행을 설명하는 대표 진단은?
 
 ## 선택지
 
-A. 결신발작
-B. 편마비
-C. 의도떨림
-D. 손의 목적성 사용 상실
+A. 자폐스펙트럼장애만으로 판단
+B. 레트증후군
+C. 다운증후군
+D. 듀센 근이영양증
 
 ## 해설
 
-생후 초기 정상 이후의 발달 문제, 머리 성장 감속, 손 비비기와 호흡 이상은 레트 증후군을 시사한다. 향후 특징적 소견은 목적성 손 사용의 소실(D)이다.
+이전에 배운 목적성 손동작과 언어를 잃고 손 비비기 같은 상동행동이 생기면 레트증후군을 의심한다. 임상 평가와 MECP2 유전자 검사가 진단에 도움이 된다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 손의 목적성 사용 상실
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004283
+- https://pubmed.ncbi.nlm.nih.gov/32984552/

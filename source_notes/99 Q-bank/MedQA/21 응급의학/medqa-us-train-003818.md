@@ -19,6 +19,7 @@ related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yVhO2OuOycoOyCrOygnCDspJHrj4UgKE9waW9pZCBQb2lzb25pbmcpLm1k
 difficulty: standard
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -41,7 +42,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-한 남성이 공원에서 졸린 상태로 발견되어 응급실에 왔다. 소지품에 알프라졸람, 디아제팜, 대마초, 코카인, 알코올, 아세트아미노펜과 정체불명의 가루가 있었다. 호흡수는 9회/분이고 양쪽 동공은 빛에 반응하지 않았다. 다음 중 가장 적절한 다음 처치는?
+한 남성이 공원에서 졸린 상태로 발견되어 응급실에 왔다. 소지품에 알프라졸람, 디아제팜, 대마초, 코카인, 알코올, 아세트아미노펜과 정체불명의 가루가 있었다. 호흡수는 9회/분이고 양쪽 동공은 빛에 반응하지 않았다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

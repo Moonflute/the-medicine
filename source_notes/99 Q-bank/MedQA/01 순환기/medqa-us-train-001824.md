@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yViOyglSDtmJHsi6zspp0gKFN0YWJsZSBBbmdpbmEpLm1k
 question_type: management
 difficulty: simple
-answer: "B"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -47,18 +47,18 @@ curation_disposition: "selected"
 
 ## 문제
 
-73세 남성이 운동 시 발생하는 흉통으로 외래에 내원했다. 몇 분간 쉬면 보통 흉통이 호전된다. 현재 aspirin 81 mg을 매일 복용한다. 혈압 127/85 mm Hg, 심박수 75/min이며 심음은 규칙적이고 양측 폐음은 깨끗하다. 다음 중 추가해야 할 약물요법은 무엇인가?
+73세 남성이 관상동맥질환으로 추적 중이다. 평소 계단을 오를 때만 가슴이 조이고 쉬면 수분 내 호전된다. 아스피린과 스타틴을 복용 중이다. 심부전, 서맥이나 방실차단은 없다. 일상에서 반복되는 협심증을 줄이기 위한 첫 약으로 적절한 것은?
 
 ## 선택지
 
-A. 아스피린만 유지하고 흉통 치료와 지질 치료는 하지 않는다
-B. 베타차단제 또는 칼슘통로차단제 중 적합한 약제와 스타틴을 매일 사용하고, 필요 시 설하 니트로글리세린을 사용한다
-C. 메토프롤롤과 라놀라진만 사용하고 스타틴은 사용하지 않는다
-D. 장기 예방약 없이 필요 시 설하 니트로글리세린만 사용한다
+A. 경구 메토프롤롤
+B. 경구 아픽사반
+C. 경구 푸로세미드
+D. 경구 디곡신
 
 ## 해설
 
-노력 시 발생하고 휴식으로 호전되는 흉통은 안정형 협심증을 시사한다. 증상 조절에는 beta blocker 또는 calcium channel blocker를 환자 상태에 맞춰 선택할 수 있고, statin은 죽상경화성 위험 감소에 사용한다. 설하 nitroglycerin은 급성 증상 완화에 사용한다. 최근 MI나 좌심실 기능저하 등 조건 없이 metoprolol만이 amlodipine보다 우월하다고 단정하지 않는다.
+안정형 협심증의 증상 조절에는 환자의 혈압, 맥박과 동반질환에 맞춰 베타차단제 또는 칼슘통로차단제를 선택한다. 보기 중 베타차단제인 메토프롤롤이 적절하다. 스타틴과 항혈소판제는 별도의 심혈관 사건 예방 치료이며 증상 조절제를 대신하지 않는다.
 
 ## 검수 근거
 
@@ -71,6 +71,7 @@ D. 장기 예방약 없이 필요 시 설하 니트로글리세린만 사용한�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001824
+- https://doi.org/10.1093/eurheartj/ehae177
 
 ## 오답 포인트
 

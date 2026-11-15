@@ -11,13 +11,13 @@ language: ko
 specialty: 22 정형외과
 related_diseases:
   - "Posterior hip dislocation"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTEg7Jm46rO8L-yXieuNqeq0gOygiCDtg4jqtawgKEhpcCBEaXNsb2NhdGlvbikubWQ
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -32,18 +32,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여성이 후방 추돌 사고를 당해 응급실로 이송되었다. 환자는 추돌한 뒤쪽 차량의 안전벨트를 착용한 운전자였다. 도착 시 의식은 명료하고 활동적이다. 양쪽 무릎의 통증과 오른쪽 사타구니의 심한 통증을 호소한다. 체온은 37°C, 맥박은 116회/분, 호흡수는 19회/분, 혈압은 132/79 mm Hg이다. 신체 검진상 양쪽 무릎뼈(knee cap)에 압통이 있다. 오른쪽 사타구니는 촉진 시 압통이 있다. 오른쪽 다리는 약간 짧아져 있고, 굴곡, 내전, 내회전되어 있다. 나머지 검진 결과는 정상이다. 가장 가능성이 높은 진단은 무엇인가?
+교통사고 뒤 25세 환자의 한쪽 다리가 짧아 보이고 고관절이 굽혀진 채 안쪽으로 모여 돌아가 있다. 골반 X선에서 대퇴골두가 비구 뒤로 빠져 있다. 신경혈관을 확인한 뒤 가장 시급한 조치는?
 
 ## 선택지
 
-A. 대퇴경부 골절(Femoral neck fracture)
-B. 전방 고관절 탈구(Anterior hip dislocation)
-C. 대퇴골 간부 골절(Femoral shaft fracture)
-D. 후방 고관절 탈구(Posterior hip dislocation)
+A. 다리를 그대로 두고 일주일 관찰한다
+B. 보조기로 고정하고 외래에서 재평가한다
+C. 응급 고관절 정복을 준비한다
+D. 먼저 물리치료로 가동 범위를 회복한다
 
 ## 해설
 
-무릎 전방에 가해진 힘이 굴곡된 대퇴골을 따라 전달되는 dashboard 기전은 후방 고관절탈구를 일으킬 수 있다. 짧아지고 굴곡·내전·내회전된 다리는 후방 탈구(D)에 전형적이다. 안전벨트 착용 자체가 후방 탈구를 결정하는 것은 아니다.
+후방 고관절 탈구는 대퇴골두 혈류와 좌골신경을 위협할 수 있다. 동반 골절을 고려하며 숙련된 팀이 지체 없이 정복하고 신경혈관을 다시 확인한다.
 
 ## 검수 근거
 

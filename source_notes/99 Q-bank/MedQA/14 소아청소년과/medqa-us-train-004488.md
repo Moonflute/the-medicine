@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-4세 남아가 7일 동안 지속된 발열, 설사와 양쪽 눈의 충혈로 소아과에 왔다. 부모는 이렇게 오래 설사한 적은 없었다고 하지만 어린이집의 다른 아이 몇 명도 아팠다. 예방접종력은 최신 상태이다. 활력징후는 체온 37.5°C (99°F)를 제외하면 정상이다. 신체검사에서 경한 탈수, 귀앞 림프절병증과 양측 결막 충혈 및 물 같은 분비물이 보인다. 가장 가능성 높은 진단은 무엇인가?
+4세 아이에게 나흘째 발열과 인두염이 있다. 양쪽 눈의 물 같은 분비물과 귀 앞 림프절 비대가 있고, 어린이집에서도 비슷한 증상이 있었다. 가장 가능성 높은 원인은?
 
 ## 선택지
 
-A. 로타바이러스 감염
-B. C. difficile 대장염
+A. A군사슬알균 감염
+B. 로타바이러스 감염
 C. 아데노바이러스 감염
-D. 장염 비브리오 감염
+D. 수두
 
 ## 해설
 
 
-발열, 설사, 결막충혈, 물 같은 분비물은 아데노바이러스 감염의 전형적인 삼합증이다. 따라서 가장 가능성 높은 진단은 아데노바이러스 감염이다.
+발열·인두염과 수양성 결막염이 함께 나타난 경우 아데노바이러스 인두결막열을 고려한다. 결막염 없이 인두염만 있는 경우와 달리 바이러스 감염 단서가 뚜렷하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004488
+- https://www.cdc.gov/adenovirus/hcp/clinical-overview/

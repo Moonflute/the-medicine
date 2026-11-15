@@ -14,11 +14,11 @@ related_diseases:
   - "색소성 모반"
   - "피부 병변 ABCDE 평가"
   - "melanoma"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-yVheyEsSDtnZHsg4nsooUgKE1hbGlnbmFudCBNZWxhbm9tYSkubWQ
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-고혈압과 고지혈증 병력이 있는 60세 백인 남성이 귀에 ‘점’이 생겼다고 가족의학과에 내원했다. 35년 동안 건설 노동자로 일하며 대부분의 시간을 야외에서 보냈다. 가족력은 특이사항이 없다. 진찰에서 왼쪽 귀에 어두운 병변이 보인다. 예전부터 그 자리에 점이 있었지만 최근 훨씬 커졌다고 한다. 그 외 계통문진은 음성이다. 다음 중 이 환자에서 안심할 수 있는 병변 특징은?
+60세 남성이 등에 있던 점이 최근 몇 달 사이 커졌다고 내원했다. 8 mm 병변은 비대칭이고 가장자리와 색조가 불규칙하다. 재건 없이 온전히 제거할 수 있는 위치다. 가장 적절한 다음 단계는?
 
 ## 선택지
 
-A. 불규칙하고 경계가 불분명함
-B. 병변 비대칭
-C. 시간에 따른 변화
-D. 한 가지 어두운 색
+A. 육안 소견만으로 흑색종을 확정해 바로 광범위 절제한다
+B. 좁은 정상피부 여유를 두고 병변 전체를 절제생검한다
+C. 레이저로 색소만 제거한다
+D. 모든 색소 병변은 먼저 1년 뒤 사진과 비교한다
 
 ## 해설
 
-흑색종을 의심하는 특징에는 비대칭·불규칙 경계·색조 다양성·변화가 있다. 제시 선지 중 한 가지 색조(D)가 상대적으로 덜 의심스럽지만 단일 색의 흑색종도 가능하다. 이 환자는 기존 점의 빠른 성장을 보고했으므로 D만으로 양성 모반이라 확정하거나 평가를 중단해서는 안 된다.
+크기나 색이 변하고 비대칭·불규칙한 색조를 보이면 흑색종을 의심한다. 전체 절제생검이 가능한 경우 좁은 여유를 두고 제거해 진단과 두께 평가에 필요한 조직을 얻는다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 한 가지 어두운 색
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006533
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7618628/

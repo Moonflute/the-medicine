@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
   - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-다발성 경화증이 있는 32세 여성이 절박감 없이 소량의 소변이 새고 간헐적으로 소변줄기가 끊기는 증상으로 내원했다. 배뇨 후 잔뇨량은 131 mL였다. 다음 중 요실금의 가장 가능성 높은 원인은?
+다발성경화증이 있는 32세 여성이 배뇨 중 소변줄기가 자주 끊기고 잔뇨가 많다. 요역동학검사에서 배뇨근이 수축할 때 외요도괄약근도 수축한다. 이 소견을 무엇이라고 하는가?
 
 ## 선택지
 
-A. 인지기능 저하
-B. 방광질 누공
-C. 배뇨근-괄약근 부조화
-D. 배뇨근 수축력 저하
+A. 방광질 누공
+B. 배뇨근-괄약근 부조화
+C. 복압성 요실금
+D. 배뇨근 무수축
 
 ## 해설
 
-MS의 중추 신경경로 손상은 배뇨근이 수축하는 동안 외요도괄약근이 적절히 이완하지 못하는 배뇨근-괄약근 부조화 C를 일으킬 수 있다. 이로 인해 간헐적 요류, 불완전 배뇨와 잔뇨 증가·요 누출이 생긴다. 단순히 신경학적 탈위축이라고 부르거나 괄약근 자체의 구조적 결함으로 설명하는 것은 맞지 않는다.
+정상적으로 배뇨근이 수축할 때 외요도괄약근은 이완한다. 중추신경 손상으로 둘이 함께 수축하면 배뇨가 끊기고 잔뇨가 남을 수 있다.
 
 ## 검수 근거
 

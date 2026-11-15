@@ -13,13 +13,13 @@ related_diseases:
   - "미숙아"
   - "철결핍성 빈혈"
   - "모유수유 영아"
-question_type: prognosis
+question_type: prevention
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 2개월 여아가 영유아 건강검진을 위해 내원했다. 임신 32주에 태어났고 출생 체중은 1,616g(3파운드 9온스), 현재 체중은 2,466g(5파운드 7온스)이다. 모유만 먹고 비타민 D를 보충하고 있다. 신체검사에서 키와 체중이 작은 것 외에는 이상이 없다. 다음 중 이 환자에게 위험이 증가하는 합병증은 무엇인가?
+재태 32주에 1.6 kg으로 태어난 생후 2개월 영아가 완전 모유수유 중이다. 수혈을 받은 적은 없고 비타민 D만 보충 중이다. 빈혈 위험을 줄이기 위해 추가할 것은?
 
 ## 선택지
 
-A. 철결핍성 빈혈
-B. 장중첩증
-C. 아급성 연합성 변성
-D. 출혈
+A. 분유나 보충식이 시작될 때까지 철분 투여를 피한다
+B. 엽산 단독 고용량을 사용한다
+C. 비타민 B12를 일률적으로 주사한다
+D. 체중과 영양 공급을 고려해 경구 철분을 보충한다
 
 ## 해설
 
 
-미숙아는 철 저장량이 적고 성장기 영양 요구가 높아 철결핍성 빈혈 위험이 증가한다. 다른 선택지는 미숙아와 직접적인 연관성이 낮다. 따라서 가장 위험이 높은 합병증은 철결핍성 빈혈이다.
+미숙아는 출생 시 철 저장량이 적고 성장에 필요한 양은 많다. 모유수유 미숙아에서는 철분 보충을 계획하고, 수혈력과 강화 모유 등에서 섭취하는 양에 맞춰 조정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005774
+- https://www.who.int/tools/elena/interventions/supplementation-lbw-infants

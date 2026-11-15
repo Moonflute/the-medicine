@@ -18,7 +18,7 @@ question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: simple
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,23 +37,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-4년 전 조현병을 진단받은 29세 남성이 약물 상담을 위해 추적 진료를 받으러 왔다. 여러 항정신병약을 시도했지만 음성 증상이 치료되지 않아 2주 전 클로자핀으로 변경했고 호전되었다고 한다. 현재 약물을 계속 복용하려면 지금 어떤 검사실 검사를 시행해야 하는가?
+클로자핀을 투여 중인 환자에게 새로 38.7℃ 발열과 인후통이 생겼다. 지난주 혈액검사는 정상이었다. 약물 관련 중증 합병증을 놓치지 않기 위해 우선 할 검사는?
 
 ## 선택지
 
-A. 세극등검사
-B. 심전도
-C. 프로락틴 농도
-D. 전혈구검사
+A. 혈청 프로락틴
+B. 감별계산을 포함한 혈구검사로 절대호중구 수 확인
+C. 청력검사
+D. 공복 인슐린 농도
 
 ## 해설
 
-클로자핀은 중증 호중구감소증 위험이 있어 절대호중구수(ANC)를 포함한 혈액검사 모니터링이 필요하다. 투여 2주째인 이 환자에서 제시된 검사 중 전혈구검사(백혈구 감별계산/ANC 포함)가 적절하다. 미국 FDA의 클로자핀 REMS 프로그램은 2025년 폐지됐지만, 이는 ANC 임상 모니터링 권고의 폐지를 뜻하지 않는다.
+클로자핀 투여 중 발열·인후통은 중증 호중구감소증 가능성을 확인해야 하는 신호다. 이전 수치가 정상이었어도 감염과 호중구 수를 신속히 평가한다. 투약 지속 여부는 허가사항과 검사 결과에 따라 판단한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001057
+- https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=200307798
 
 ## 검수 근거
 

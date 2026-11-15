@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs: []
 question_type: prevention
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,19 +33,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-자동차 사고 후 63세 남자가 수술 예정이었다. 응급의학과 의사는 왼쪽 하지 원위부의 자세 이상을 관찰했고, 방사선 판독에서 오른쪽 고관절과 비구의 골절-탈구가 확인되었다. 선임 정형외과 전공의가 실수로 왼쪽 고관절의 골절-탈구라고 기록했다. 수술실에서 외과의사가 환자를 검사하자 왼쪽 하지가 외회전되어 짧아져 있었다. 외과의사는 왼쪽 고관절을 정복하고 왼쪽 경골에 핀을 삽입했다. 수술 후 영상 재검토로 오른쪽 고관절 골절-탈구에 대해 두 번째 수술을 시행했다. 이러한 유형의 오류가 재발하는 것을 가장 잘 예방할 전략은 무엇인가?
+고관절 수술 직전 환자 기록에는 왼쪽, 영상 판독에는 오른쪽으로 기록되어 있다. 아직 피부를 절개하지 않았다. 수술팀이 해야 할 일은?
 
 ## 선택지
 
-A. 수술 전 타임아웃 시행
-B. 체크리스트 도입
-C. 선별 X선 촬영
-D. 환자 신원 확인
+A. 표시된 쪽을 기준으로 먼저 절개한다
+B. 수술을 멈추고 환자·수술명·부위를 원자료로 확인해 불일치를 해결한 뒤 진행한다
+C. 집도의 기억에 따라 수술하고 기록은 나중에 고친다
+D. 두 손상 부위 중 증상이 더 뚜렷한 쪽을 수술한다
 
 ## 해설
 
 
-수술 부위 오류를 방지하는 가장 효과적인 전략은 수술 전 ‘타임아웃’ 절차로, 모든 팀원이 환자, 수술 부위, 절차를 확인한다. 체크리스트와 신원 확인도 중요하지만, 타임아웃이 직접적인 부위 확인을 보장한다. 따라서 수술 전 타임아웃 시행이 정답이다.
+수술 전 타임아웃에서 환자, 수술명, 부위를 팀이 함께 확인한다. 기록이나 표시가 서로 다르면 임의로 하나를 따르지 않고 영상·동의서 등으로 해결할 때까지 절개하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 환자 신원 확인
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007078
+- https://www.kops.or.kr/portal/ifm/infoProvdStdrDetail.do?infoProvdNo=18

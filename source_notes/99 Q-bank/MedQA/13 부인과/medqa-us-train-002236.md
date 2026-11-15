@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA
 difficulty: simple
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여성이 정기 건강검진을 위해 내원했다. 마지막 방문은 3년 전이었다. 건강하고 1년 전 셋째 아이를 출산한 후 난관절제술을 받았다. 복용 약물은 없다. 신체검사는 정상이다. 자궁경부 세포검사에서 고등급 편평상피내병변이 보인다. 다음 중 가장 적절한 치료의 다음 단계는?
+25세 여성이 정기 건강검진을 위해 내원했다. 마지막 방문은 3년 전이었다. 건강하고 1년 전 셋째 아이를 출산한 후 난관절제술을 받았다. 복용 약물은 없다. 신체검사는 정상이다. 자궁경부 세포검사에서 고등급 편평상피내병변이 보인다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

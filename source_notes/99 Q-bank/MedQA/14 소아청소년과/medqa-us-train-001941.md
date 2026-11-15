@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Je07ISxIOqyveugqCAoRmVicmlsZSBDb252dWxzaW9uKS5tZA
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-15개월 여아가 2분간 리듬성 눈 깜박임과 전신의 통제되지 않는 떨림을 보인 직후 응급실에 왔다. 에피소드 중 반응이 없었고 며칠간 발열과 가벼운 코막힘이 있었다. 예방접종은 최신이며 acetaminophen 투여 후 진찰실에서 깨어 장난감을 가지고 놀고 신경학적 검사는 정상이다. 다음 중 가장 적절한 관리 단계는 무엇인가?
+15개월 아이가 39℃ 발열 중 2분간 전신 경련을 했다. 발작은 한 번뿐이고 지금은 평소처럼 논다. 신경학적 이상이나 수막 자극 소견은 없다. 적절한 조치는?
 
 ## 선택지
 
-A. 두부 CT
-B. 24시간 관찰
-C. 퇴원시킨다
-D. lorazepam 투여
+A. 뇌 CT를 먼저 시행한다
+B. 발열 원인을 평가하고, 일률적인 뇌 영상 없이 재진 기준을 안내한다
+C. 퇴원 전에 매일 복용할 항경련제를 시작한다
+D. 이미 경련이 멎었어도 즉시 정맥 로라제팜을 투여한다
 
 ## 해설
 
-발열 중 2분 전신 발작 후 완전히 회복하고 신경학적 이상·수막자극 징후가 없으면 단순 열성경련에 합당하다. 발열 원인을 평가하고 보호자 교육·재내원 기준을 제공한 뒤 퇴원(C)을 고려한다. 본문에는 혈액검사 결과가 없으며 단순 열성경련만으로 CT나 지속 항경련제가 필요하지 않다.
+짧은 전신 발작 뒤 평소 상태로 돌아온 단순 열성경련은 보통 뇌 영상이나 장기 항경련 치료가 필요 없다. 발열 원인을 확인하고, 발작이 오래 지속되거나 반복되면 즉시 진료받도록 안내한다.
 
 ## 검수 근거
 

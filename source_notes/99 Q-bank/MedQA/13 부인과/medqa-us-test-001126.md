@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yblOqyve2GtSAoRHlzbWVub3JyaGVhKS5tZA
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-15세 여아가 심한 생리통으로 소아과에 왔다. 초경은 11세였고 처음 2년간 2~3개월마다 불규칙했지만 이후 28~35일 간격으로 규칙적이었다. 극심한 경련성 통증으로 학교를 자주 빠지며 온찜질의 효과는 제한적이었다. 생리량이 많은 기간도 있지만 활동을 제한하지는 않는다. 성생활은 하지 않고 복부 압통이나 발달 이상은 없었다. 어머니는 자궁내막증과 과다월경 병력이 있다. 생리통에 대한 가장 적절한 다음 처치는?
+16세 환자의 경련성 하복부 통증은 매번 월경 직전에 시작해 이틀 내 호전된다. 월경 사이 통증은 없고 진찰은 정상이다. 예측 가능한 주기에서 이부프로펜의 적절한 사용법은?
 
 ## 선택지
 
-A. 골반 초음파
-B. 골반 MRI
-C. NSAID
-D. 운동량 증가
+A. 예상 월경 1–2일 전부터 월경 초기까지 규칙적으로 복용
+B. 가장 심한 통증이 지나간 뒤 시작해 다음 월경 전까지 복용
+C. 월경이 끝난 뒤에만 복용
+D. 매일 한 주기 내내 동일 용량으로 복용
 
 ## 해설
 
-아직 약물치료를 시도하지 않은 청소년 월경통에서 NSAID(C)는 적절한 초기 치료이다. 원발성 월경통은 프로스타글란딘 매개 자궁수축과 관련된다. 다만 모친의 자궁내막증 병력과 학교생활을 방해하는 심한 통증이 있어 경과를 확인해야 하며, 적절한 치료를 3~6개월 시행해도 호전되지 않으면 복약 이행과 이차성 월경통·자궁내막증을 평가한다.
+일차성 월경통은 프로스타글란딘에 의한 자궁 수축과 관련된다. 주기를 예측할 수 있으면 월경 직전부터 초기 2–3일 동안 NSAID를 일정하게 사용하는 편이 효과적이다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 운동량 증가
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001126
+- https://www.rch.org.au/clinicalguide/guideline_index/dysmenorrhoea/

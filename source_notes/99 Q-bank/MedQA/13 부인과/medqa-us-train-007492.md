@@ -15,10 +15,10 @@ related_diseases:
   - "고령 임신"
   - "클라미디아 병력"
   - "Diminished ovarian reserve"
-question_type: diagnosis
+question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-42세 여자가 검진을 위해 일차진료의를 찾아왔다. 남편과 7개월 동안 임신을 시도했지만 성공하지 못했다. 이 기간 동안 매일 피임 없이 성관계를 했다. 월경은 28일마다 규칙적이다. 남편에게는 이전 결혼에서 낳은 자녀가 두 명 있다. 성관계 중 경미한 질 건조가 있는 것 외에는 특별한 증상이 없다. 계절성 알레르기로 로라타딘을 복용하고 대학 시절 치료받은 클라미디아 감염 병력이 있다. 신체검사에서 건강해 보이며 심폐, 복부, 골반검사는 정상이다. 이 환자의 가장 가능성 높은 진단은 무엇인가?
+42세 여성이 규칙적으로 월경하며 피임 없이 3개월간 임신을 시도했으나 임신되지 않았다. 배우자에게 자녀가 있지만 현재 정액검사는 하지 않았다. 평가를 언제 시작할까?
 
 ## 선택지
 
-A. 난소 예비력 감소
-B. 폐경
-C. 정자생성 결함
-D. 난관 반흔
+A. 이전 자녀가 있으므로 남성 평가는 하지 않는다
+B. AMH가 낮게 나온 경우에만 난임 평가를 시작한다
+C. 반드시 12개월이 될 때까지 기다린다
+D. 지금 부부의 요인을 함께 평가하도록 의뢰한다
 
 ## 해설
 
-42세의 임신 시도 실패에서 연령 관련 난소 예비력 감소(A)가 보기 중 가장 적절하다. 규칙적 월경만으로 예비력이 충분하다고 할 수 없다. 다만 연령만으로 난소 예비력을 측정·확진한 것은 아니며, 남편의 과거 자녀가 현재 정액검사 정상을 보장하지 않고 정상 골반 진찰도 클라미디아 관련 난관 손상을 배제하지 못한다. 난임 평가는 양측 요인을 함께 고려한다.
+40세를 넘는 경우 난임 평가를 미루지 않는 편이 적절하다. 월경이 규칙적이어도 난관과 남성 요인은 별도로 확인하며 이전 임신이나 출산력이 현재 난임을 배제하지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 난관 반흔
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007492
+- https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2026

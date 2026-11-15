@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qwkOyXvCDsi6zrgrTrp4nsl7wgKEluZmVjdGl2ZSBFbmRvY2FyZGl0aXMpLm1k
 question_type: investigation
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-65세 남성이 10일간의 미열, 피로, 식욕부진으로 진료를 받으러 왔다. 손발톱 밑에 적갈색 반점과 압통성 홍반성 손끝이 있고 심첨부에서 새로운 범수축기 잡음이 들린다. 이 상태를 진단하는 다음 단계는?
+인공판막이 있는 환자가 2주 동안 열이 나고 새로운 심잡음이 들린다. 활력징후는 안정적이고 아직 항생제를 투여하지 않았다. 심초음파를 준비하며 항생제 투여 전에 우선 할 일은?
 
 ## 선택지
 
-A. 항CCP 항체 역가
-B. 심초음파
-C. 혈액배양을 위한 채혈
-D. 안심시키고 대증치료
+A. 혈액배양 한 세트만 채취하고 발열이 다시 나타날 때까지 기다린다
+B. 각각 독립적으로 채취한 혈액배양 세 세트를 확보한다
+C. 항생제부터 투여하고 다음 날 처음으로 혈액배양을 채취한다
+D. 혈액배양은 심초음파에서 증식물이 확인된 뒤 채취한다
 
 ## 해설
 
 
-지속 발열, 손끝 압통성 병변·손발톱하 출혈과 새 잡음은 감염성 심내막염을 의심하게 한다. 항생제 전 여러 세트 혈액배양(C)을 신속히 채취해 원인균을 확인한다. 심초음파도 가능한 한 빨리 병행하며 배양 결과가 나올 때까지 기다리는 검사가 아니다. 혈역학적으로 불안정하면 불필요하게 항균치료를 지연하지 않는다.
+안정적인 심내막염 의심 환자에서는 항생제 전에 여러 세트의 혈액배양을 채취한다. 불안정한 환자에서는 배양 준비가 필요한 치료를 지연시키지 않도록 한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 안심시키고 대증치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000659
+- https://doi.org/10.1093/eurheartj/ehad193

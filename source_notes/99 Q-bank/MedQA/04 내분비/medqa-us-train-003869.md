@@ -16,7 +16,7 @@ related_diseases:
   - "dexamethasone suppression test"
 related_disease_slugs:
   - MDQg64K067aE67mEL-y_oOyLsSDspp3tm4TqtbAgKEN1c2hpbmcncyBTeW5kcm9tZSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 남성이 특별한 증상 없이 내원했지만 혈압 177/118 mmHg, 비만, 사지 근육 위축, 복부 선조, 혈당 175 mg/dL가 있었다. 다음 중 가장 적절한 초기 처치는?
+55세 남성에게 쉽게 드는 멍, 넓은 자주색 복부 선조와 근위부 근력 저하가 생겼다. 최근 고혈압과 고혈당도 나빠졌다. 경구·주사·흡입 스테로이드 노출은 없다. 쿠싱증후군의 첫 생화학 검사로 적절한 것은?
 
 ## 선택지
 
-A. 덱사메타손 억제검사
-B. 하이드로클로로티아지드
-C. 메트포르민
-D. 머리 MRI
+A. 1 mg 야간 덱사메타손 억제검사
+B. 뇌하수체 MRI
+C. 혈장 ACTH 단독 검사
+D. 코신트로핀 자극검사
 
 ## 해설
 
-중심성 비만·복부선조·근위축·고혈당은 Cushing syndrome을 의심하게 하므로 선택지 A의 저용량 dexamethasone suppression test는 초기 선별법이다. 외인성 steroid 노출을 확인하고 적절한 cortisol 검사를 선택한다. 고혈압/고혈당 관리도 병행하며 원인검사가 혈압치료를 무조건 뒤로 미루라는 뜻은 아니다. Metformin은 항고혈압제가 아니다.
+의심할 임상 소견이 여러 개라면 외부 스테로이드 사용을 확인한 뒤 저용량 덱사메타손 억제검사 등으로 코르티솔 과다부터 평가한다. ACTH와 영상은 과다 분비를 확인한 뒤 원인을 감별하기 위한 검사다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 머리 MRI
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003869
+- https://doi.org/10.1507/endocrj.EJ25-0492

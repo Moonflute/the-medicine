@@ -15,11 +15,11 @@ related_diseases:
   - "postoperative day 1"
 related_disease_slugs:
   - MTEg7Jm46rO8L-yImOyIoCDtm4Qg67Cc7Je0IChQb3N0b3BlcmF0aXZlIEZldmVyKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-자궁내막증의 확정적 치료로 전자궁적출술을 받은 55세 여성이 외과병동에서 관리 중이다. 수술 후 1일째 발열을 호소하며 침상에 누워 움직이지 않아 몸이 쑤신다는 것 외에는 다른 증상이 없다. 온단세트론, 아세트아미노펜, 모르핀을 투여 중이다. 체온 101°F(38.3°C), 혈압 127/68 mmHg, 맥박 100회/분, 호흡수 17회/분, 실내 공기 산소포화도 94%이다. 복부검사는 정상이고 심폐검사에서 경미한 수포음만 들린다. 이 환자 발열의 가장 가능성 높은 원인은?
+합병증 없이 수술을 마친 환자가 수술 16시간 뒤 한 번 38.1°C였다. 재측정한 체온과 활력은 안정적이며 호흡기·요로 증상이나 상처 이상은 없다. 현재 가장 적절한 대응은?
 
 ## 선택지
 
-A. 농양 형성
-B. 수술에 의한 염증 자극
-C. 요로감염
-D. 상처 감염
+A. 진찰과 활력을 재평가하면서 경과를 본다
+B. 수술 환자이므로 즉시 광범위 정맥 항생제를 투여한다
+C. 증상과 무관하게 전신 CT와 여러 부위 배양을 시행한다
+D. 무기폐 때문으로 단정하고 이후 발열이 지속돼도 검사하지 않는다
 
 ## 해설
 
 
-수술 직후 발열은 조직 손상에 대한 염증성 사이토카인 방출이 원인인 경우가 많다. 따라서 가장 가능성 높은 원인은 수술에 의한 염증 자극이다.
+수술 직후 짧게 나타나는 발열은 비감염성 염증 반응일 수 있다. 상태가 안정적이고 감염 단서가 없으면 지켜보며, 발열이 지속되거나 새 증상·불안정이 생기면 원인을 찾아 평가한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 상처 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007971
+- https://www.idsociety.org/practice-guideline/new-fever-in-critically-ill-patients/

@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MTAg7KKF7JaRL-yDgeuMgOygleunpSDspp3tm4TqtbAgKFN1cGVyaW9yIFZlbmEgQ2F2YSBTeW5kcm9tZSkubWQ
   - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,19 +39,19 @@ related_drug_slugs:
 
 ## 문제
 
-72세 여성이 5일 동안 지속된 무기력과 쇠약으로 응급실에 왔다. 몸을 앞으로 숙이거나 누우면 악화되는 두통이 있고 최근 2주 동안 팔과 얼굴이 부었다. 고혈압과 좌측 유방 침윤성 유관암 병력이 있으며 4년 전 근치적 유방절제술과 방사선치료를 받았다. 40년 동안 하루 두 갑씩 흡연했고 아스피린, 히드로클로로티아지드 및 타목시펜을 복용한다. 체온은 37.2°C(99°F), 맥박은 분당 103회, 혈압은 98/56 mmHg이다. 경정맥 팽창, 좌측 흉곽의 유방절제술 흉터 및 전흉벽 정맥 울혈이 있고 액와·경부 림프절병증은 없다. 양팔에 1+ 함요부종이 있다. 다음 중 증상의 가장 가능성 높은 원인은 무엇인가?
+양쪽 팔과 얼굴이 붓고 누우면 두통이 심한 환자의 앞가슴 정맥이 뚜렷하다. 협착음이나 의식 변화는 없고 혈압과 호흡은 안정적이다. 상대정맥증후군으로 의심할 때 막힌 부위와 원인을 알아볼 첫 영상은?
 
 ## 선택지
 
-A. 폐결핵
-B. 수축성 심낭염
-C. 폐암
-D. 신증후군
+A. 흉부 비조영 단순 X선만 촬영
+B. 조영증강 흉부 CT
+C. 심장 운동부하검사
+D. 전신 골스캔
 
 ## 해설
 
 
-전흉벽 정맥 울혈과 상완부 부종은 상대정맥압 상승을 시사한다. 폐암이 흉벽을 침범하거나 종양이 상대정맥을 압박하면 SVC 증후군이 발생한다. 따라서 가장 가능성 높은 원인은 폐암이다.
+상대정맥 폐색이 의심되는 안정적인 환자에서 조영증강 CT로 막힘의 위치, 범위와 종괴·혈전 여부를 평가한다. 기도나 신경계 위험이 있으면 긴급 처치를 병행한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 신증후군
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006151
+- https://pubmed.ncbi.nlm.nih.gov/41485866/

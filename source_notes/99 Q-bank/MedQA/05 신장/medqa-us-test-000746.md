@@ -20,7 +20,7 @@ question_type: prevention
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-말기신부전이 있는 63세 여성이 한 달 동안 혈액투석 후 어지러움을 느낀다. 결국 균형을 잃고 넘어질까 걱정한다. 22년 동안 당뇨병이 있으며 엽산, 비타민 B12, 암로디핀, 에리트로포이에틴을 복용한다. 투석 전 누운 상태에서 혈압 135/80 mmHg, 투석 후 앉은 상태에서 110/55 mmHg였다. 심폐 진찰은 정상이었다. 투석 후 혈색소 10.5 mg/dL, 혈당 189 mg/dL, HbA1c 7.1%였다. 낙상 가능성을 줄이는 가장 적절한 처치는?
+혈액투석 환자가 건체중과 초여과 속도를 재평가한 뒤에도 투석 중 반복해서 어지럽고 혈압이 떨어진다. 다음 회차부터 저혈압을 줄이는 데 고려할 투석 처방 변경은?
 
 ## 선택지
 
-A. 투석액을 차갑게 한다
-B. 투석 중 더 많은 식사를 한다
-C. 초여과를 증가시킨다
-D. 스테로이드를 투여한다
+A. 개인 상태에 맞춰 투석액 온도를 낮춘다
+B. 투석 시간을 줄이고 시간당 초여과를 높인다
+C. 투석액 온도를 더 높인다
+D. 어지럼이 시작되면 초여과를 늘린다
 
 ## 해설
 
 
-투석 중 혈압이 크게 떨어져 저혈압과 낙상 위험이 증가한다. 차가운 투석액은 말초 혈관을 수축시켜 혈압을 유지하고 어지러움을 감소시킨다. 따라서 투석액을 차갑게 하는 것이 낙상 예방에 가장 효과적이다.
+투석 중 저혈압이 반복될 때 투석액 온도를 낮추면 혈압 유지에 도움이 될 수 있다. 건체중, 초여과 속도, 약제 등도 함께 검토한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 스테로이드를 투여한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000746
+- https://www.kjim.org/journal/view.php?number=170694

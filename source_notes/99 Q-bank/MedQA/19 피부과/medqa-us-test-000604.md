@@ -19,7 +19,7 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,7 +32,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-38세 여성이 한 달 동안 지속된 오른쪽 허벅지의 통증 없고 가렵지 않은 피부 병변으로 병원에 왔다. 처음에는 벌레 물린 것으로 생각했으나 수주 동안 서서히 커졌다. 체온 36.7°C(98°F), 맥박 75회/분, 혈압 128/76 mmHg였다. 진찰에서 0.8 cm 크기의 과다색소침착 구진이 있었고 병변을 잡아 누르면 표면이 안쪽으로 오목하게 당겨졌다(사진 참조). 가장 가능성 높은 진단은?
+38세 여성의 허벅지에 통증이나 가려움이 없는 지름 0.8 cm 갈색 구진이 있다. 병변을 양옆에서 집으면 표면이 안쪽으로 오목해진다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
@@ -44,7 +44,7 @@ D. 지루각화증
 ## 해설
 
 
-피부에 과다색소침착 구진이 있고 눌렀을 때 함몰되는 특징은 피부섬유종의 전형적인 소견이다. 이는 양성 섬유성 종양으로 치료가 필요하지 않다. 따라서 가장 가능성 높은 진단은 피부섬유종이다.
+피부섬유종은 단단한 갈색 구진으로 나타날 수 있다. 양옆에서 눌렀을 때 표면이 함몰되는 소견이 진단에 도움이 된다. 병변이 빠르게 변하거나 형태가 비전형적이면 다른 질환을 감별한다.
 
 ## 출처
 

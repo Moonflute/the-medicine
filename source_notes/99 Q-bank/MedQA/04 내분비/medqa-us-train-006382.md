@@ -15,11 +15,11 @@ related_diseases:
   - "바이러스 감염 후 갑상샘염"
 related_disease_slugs:
   - MDQg64K067aE67mEL-yVhOq4ieyEsSDqsJHsg4Hsg5jsl7wgKFN1YmFjdXRlIFRoeXJvaWRpdGlzKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-38세 남성이 2개월 동안 지속된 연하곤란으로 내원했다. 음식이 기관으로 내려가 걸리는 느낌이 들고 식사할 때 식도암일지도 모른다는 생각에 불안해진다고 한다. 지난 3개월 동안 약 6주간 독감과 비슷한 감염을 앓았으며 천식 발작이 악화되었다. 흡입제를 사용해 증상을 완화했지만 진료는 받지 않았다. 그 외에는 건강하다. 혈압은 118/75 mm Hg, 호흡수는 분당 17회, 맥박은 분당 78회, 체온은 36.7°C(98.1°F)이다. 림프절 비대나 인후통은 없다. 촉진에서 갑상샘이 커져 있고 압통이 있다. 비흡연자이며 체질량지수는 25kg/m²이다. 최근 약물 사용은 없다. 다음 중 가장 가능성 높은 진단은?
+감기 뒤 갑상선이 아프고 누르면 압통이 있는 38세 남성의 TSH가 낮고 유리 T4는 높다. ESR이 상승했고 갑상선 섭취 스캔에서는 양쪽 섭취가 감소했다. 통증은 가벼우며 신장질환이나 소화성 궤양은 없다. 통증에 우선 쓸 약은?
 
 ## 선택지
 
-A. 림프종
-B. 만성 림프구성 갑상샘염
-C. 아급성 육아종성 갑상샘염
-D. 섬유성 갑상샘염
+A. 메티마졸
+B. 방사성요오드
+C. 이부프로펜 등 비스테로이드성 소염제
+D. 레보티록신
 
 ## 해설
 
 
-갑상선이 통증을 동반하고 최근 감염 후 발생한 경우 아급성 육아종성 갑상선염이 가장 흔하다. 이는 통증성 갑상선 부종과 연하곤란을 일으킨다. 따라서 아급성 육아종성 갑상선염이 진단에 맞는다.
+아급성 갑상선염의 초기 중독증은 파괴된 조직에서 저장 호르몬이 나온 결과다. 가벼운 통증은 비스테로이드성 소염제로 다스리며 항갑상선제로 호르몬 합성을 막아도 도움이 되지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 섬유성 갑상샘염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006382
+- https://doi.org/10.1089/thy.2016.0229

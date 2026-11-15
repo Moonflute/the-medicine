@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yWkeq3ueyEsSDsnqXslaAgKEJpcG9sYXIgRGlzb3JkZXIpLm1k
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,23 +37,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-40세 남성이 공공장소에서 부적절한 행동을 해 경찰에 의해 응급실로 이송되었다. 최근 2주간 하루 3~4시간만 자고 말이 빨라지며 사고가 비약했다. 양극성장애와 당뇨병 병력이 있고 지난 1년간 기분 불안정으로 3회 입원했다. 현재 리튬과 인슐린을 복용하며 혈청 크레아티닌은 2.5 mg/dL였다. 행동에 대한 가장 적절한 다음 치료는?
+리튬을 복용 중인 양극성장애 환자가 새로운 조증으로 입원했다. 급성 신손상으로 크레아티닌이 평소보다 두 배 넘게 올랐다. 가장 먼저 리튬에 대해 취할 조치는?
 
 ## 선택지
 
-A. 카바마제핀 단독
-B. 클로자핀 단독
-C. 리튬과 발프로산
-D. 발프로산과 쿠에티아핀
+A. 조증이므로 신기능과 관계없이 증량한다
+B. 같은 용량으로 계속하고 한 달 뒤 농도를 측정한다
+C. 리튬을 보류하고 농도와 신기능을 확인하며 별도의 급성 조증 치료를 계획한다
+D. 티아지드 이뇨제를 추가해 리튬 배설을 촉진한다
 
 ## 해설
 
-현재 리튬을 복용하는데 조증이 재발했고 신기능도 저하되어 리튬 축적·독성 위험을 평가하며 대체 치료를 고려해야 한다. 제시된 선택지 중 발프로산과 쿠에티아핀 조합이 적절하다. 발프로산의 간·혈액학적 부작용과 쿠에티아핀의 진정·기립저혈압·대사 위험을 모니터링해야 하며, 특히 당뇨병이 있는 환자에게 부작용이 적거나 무조건 안전하다고 설명하지 않는다.
+급성 신손상에서는 리튬 배설이 줄어 치료 중인 용량도 축적될 수 있다. 안전을 위해 투약을 보류하고 농도·전해질·신기능을 확인한다. 급성 조증의 치료를 미룬다는 뜻은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003694
+- https://www.nice.org.uk/guidance/cg185/chapter/recommendations
+- https://pubmed.ncbi.nlm.nih.gov/25583292/
 
 ## 검수 근거
 

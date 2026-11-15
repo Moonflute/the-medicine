@@ -20,6 +20,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtqTslpHshLEg64yA7J6l7Je8IChVQykgKFVsY2VyYXRpdmUgQ29saXRpcykubWQ
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 10주인 18세 초임부가 첫 산전 방문을 위해 내원했다. 간헐적 구토를 동반한 오심이 있지만 출혈, 요로 증상, 복통은 없다. 고등학교를 갓 졸업했고 지역 식료품점에서 일한다. 복용 약물이나 약물 알레르기는 없다. 초기 검사에서 혈청 전해질, 신장기능, 간기능, 혈구 수치는 정상이다. 소변에서 백혈구 20/HPF, 검사 항생제에 모두 감수성인 E. coli 100,000 CFU 이상이 검출되었다. 다음 중 가장 적절한 다음 처치는?
+임신 10주인 18세 초임부가 첫 산전 방문을 위해 내원했다. 간헐적 구토를 동반한 오심이 있지만 출혈, 요로 증상, 복통은 없다. 고등학교를 갓 졸업했고 지역 식료품점에서 일한다. 복용 약물이나 약물 알레르기는 없다. 초기 검사에서 혈청 전해질, 신장기능, 간기능, 혈구 수치는 정상이다. 소변에서 백혈구 20/HPF, 검사 항생제에 모두 감수성인 E. coli 100,000 CFU 이상이 검출되었다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

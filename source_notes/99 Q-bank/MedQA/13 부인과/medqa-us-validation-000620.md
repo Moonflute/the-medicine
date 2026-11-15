@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-무증상 51세 여성의 질확대경에서 자궁경부 후순에 국한된 직경 2 cm 가시 병변이 보였다. 자궁경부 생검에서 선상피세포의 핵 과염색·비대, 유사분열 증가, 샘 융합, 간질 8 mm 침윤이 확인되었다. 병변은 자궁경부에 국한되어 있고 흉부 X선과 복부 초음파는 정상이다. 적절한 치료는?
+가임력 보존을 원하지 않는 여성의 자궁경부 일반형 선암은 최대 1.5 cm, 기질 침윤 6 mm다. 림프혈관 침범이 없고 MRI에서 자궁경부에 국한돼 있으며 림프절은 의심되지 않는다. 림프절 평가를 포함해 수술 범위를 줄일 수 있는 선택은?
 
 ## 선택지
 
-A. 루프 전기절제술
-B. 변형 근치적(베르트하임) 자궁절제술
-C. 백금 기반 화학요법
-D. 양측 난관난소절제술을 동반한 단순 자궁절제술
+A. 림프절 평가 없이 원추절제만 시행
+B. 림프절 평가 없이 자궁경부 병변만 소작
+C. 골반 림프절 평가를 병행한 단순 자궁절제술
+D. 자궁경부를 남긴 양측 난관난소절제술
 
 ## 해설
 
-2 cm 가시 병변과 8 mm 기질 침윤은 미세침윤 단계를 넘는 자궁경부 선암을 시사한다. 국한 병변에서 근치적 수술(B)은 가능한 치료이며 림프절 평가 등 병기검사가 필요하다. 침윤암이라고 전이성 암인 것은 아니다. 현재는 엄격한 저위험 조건에 따라 덜 광범위한 수술도 논의하므로 모든 선암의 유일한 표준으로 단정하지 않는다.
+엄격한 저위험 소형 자궁경부암에서는 골반 림프절 평가를 병행한 단순 자궁절제술이 근치 수술의 대안이 될 수 있다. 종양 크기·침윤 깊이·조직형과 영상으로 대상자를 선별한다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ D. 양측 난관난소절제술을 동반한 단순 자궁절제술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000620
+- https://www.nejm.org/doi/full/10.1056/NEJMoa2308900
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11790984/

@@ -19,7 +19,7 @@ question_type: ethics
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-36세 남자가 2주 동안 생산성 기침, 체중 감소, 간헐적 발열이 있어 내원했다. 최근 인도네시아에서 6개월간 의료 지원 임무를 마치고 돌아왔다. 피곤해 보이며 압통 없이 만져지는 경부 림프절 비대가 있다. 흉부 X선에서 우측 폐문 림프절병증이 보이고 객담 도말에서 항산균이 확인되었다. 객담 PCR로 폐결핵을 진단했다. 환자는 직장을 잃을까 걱정된다며 누구에게도 알리지 말아 달라고 요청한다. 의사가 처음 취할 가장 적절한 조치는?
+기침·체중 감소·발열이 있는 36세 남성의 객담 도말에서 항산균이 보이고, 객담 핵산증폭검사에서 결핵균이 확인됐다. 환자는 직장에 알려질까 걱정한다. 진료와 별도로 의사가 이행할 조치는?
 
 ## 선택지
 
-A. 지역 보건당국에 진단을 신고한다
-B. 감염내과 전문의와 상의해도 되는지 환자에게 허락을 구한다
-C. 진단은 비밀로 유지하겠다고 안심시킨다
-D. 객담 배양검사로 진단을 확인한다
+A. 관할 보건소에 24시간 이내 결핵을 신고한다
+B. 환자의 직장에 직접 연락해 진단을 알린다
+C. 객담 배양 결과가 나올 때까지 신고를 미룬다
+D. 환자가 동의할 때만 신고한다
 
 ## 해설
 
 
-결핵은 국가·지방 보건당국에 의무 신고 대상 전염병이다. 환자가 비밀을 요구하더라도 공중보건을 위해 즉시 보건당국에 신고해야 한다.
+폐결핵 환자나 결핵이 의심되는 환자를 진단한 의료인은 국내 결핵 신고 절차에 따라 24시간 이내 신고한다. 법정 신고는 직장 등에 진단을 임의로 공개하는 것과 다르다. 환자에게 신고 취지를 설명하고 전파 예방과 치료를 병행한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 객담 배양검사로 진단을 확인한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004869
+- 질병관리청 결핵ZERO, 결핵신고(감시): https://tbzero.kdca.go.kr/tbzero/contents.do?leftMenuId=5&paramBoardId=C00019&paramGubun=M&paramMenuId=52&subTabMenuId=&subTabSelected=

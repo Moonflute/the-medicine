@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOyLpCDruYjrp6UgKFZlbnRyaWN1bGFyIFRhY2h5Y2FyZGlhKS5tZA
   - MDEg7Iic7ZmY6riwL-uwnOyekeyEsSDsg4Hsi6zsi6TshLEg67mI66elIChQYXJveHlzbWFsIFN1cHJhdmVudHJpY3VsYXIgVGFjaHljYXJkaWEgKFBTVlQpLm1k
-question_type: mechanism
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-54세 여성이 복부 팽만과 경미한 광범위 복부 불편감으로 내원했다. 오심, 구토, 발열, 오한은 없다. 2년 전 알코올성 간경변으로 진단받았다. 복부가 돌출되고 팽만되어 타진 시 둔탁하며 이동성 액체파가 양성이다. 초음파에서 경도에서 중등도의 복수가 보인다. 적절한 치료를 시작한 지 4일 후 집에서 두근거림과 흉통이 발생했다. 응급실에서 체온 37.3°C(99.1°F), 맥박 182회/분, 호흡수 18회/분, 혈압 82/50mmHg이며 심전도에서 심실빈맥이 보인다. 혈청 Na⁺ 131mEq/L, K⁺ 2.9mEq/L, Cl⁻ 92mEq/L, HCO₃⁻ 34mEq/L, BUN 42mg/dL, 크레아티닌 4.8mg/dL, 포도당 90mg/dL, Ca²⁺ 8.1mg/dL, Mg²⁺ 1.5mg/dL, 인 4.7mg/dL이다. 동맥혈가스 pH 7.52, pCO₂ 45mmHg, pO₂ 90.2mmHg이다. 정상 동율동으로 심율동전환에 성공했다. 다음 중 환자 상태를 일으킨 치료는 무엇인가?
+복수가 있는 간경변 환자가 푸로세미드 용량을 올린 뒤 4일 만에 4kg이 빠졌다. 기립성 저혈압이 생겼고, 칼륨 2.8 mmol/L, 중탄산염 34 mmol/L, 크레아티닌이 0.9에서 2.1 mg/dL로 상승했다. 우선 처치는?
 
 ## 선택지
 
-A. 히드로클로로티아지드
-B. 푸로세미드
-C. 리시노프릴
-D. 만니톨
+A. 푸로세미드 용량을 더 늘린다
+B. 이뇨제를 일시 중단하고 혈관 내 용적과 전해질을 교정한다
+C. 진단 평가 없이 간신증후군 치료부터 시작한다
+D. 수분 제한만 하고 이뇨제를 유지한다
 
 ## 해설
 
 
-정답 B. 복수 치료 후 저칼륨·저마그네슘혈증과 대사성 알칼리증, 급성 신기능 악화는 과도한 이뇨에 부합하며 선택지 중 furosemide가 임상 맥락에 가장 적합하다. 전해질 소실은 심실성 부정맥에 기여할 수 있다. Hydrochlorothiazide도 저칼륨성 알칼리증을 유발할 수 있으므로 다른 모든 약물에서 이런 이상이 불가능하다고 설명하지 않는다. 실제 처방과 체액 상태를 확인해야 한다.
+빠른 체중 감소와 기립성 증상, 저칼륨성 알칼리증은 과도한 이뇨에 의한 혈관 내 용적 감소를 시사한다. 이뇨제를 멈추고 체액과 전해질을 재평가하며, 호전되지 않으면 다른 급성 신손상 원인을 찾는다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 만니톨
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008807
+- https://doi.org/10.3350/cmh.2026.0281

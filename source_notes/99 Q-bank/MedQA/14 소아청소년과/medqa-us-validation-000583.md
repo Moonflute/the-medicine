@@ -17,7 +17,7 @@ question_type: prevention
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67Kg7YGs7JyE65OcLeu5hOuNsOunjCDspp3tm4TqtbAgKEJlY2t3aXRoLVdpZWRlbWFubiBTeW5kcm9tZSkubWQ
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-5세 남아가 건강검진을 받으러 왔다. 출생체중과 현재 키·체중이 99백분위이고 생후 첫 주 원인 불명의 저혈당이 있었다. 혀가 커져 있으며 사진에서 특징적인 신체 소견이 보인다. 다음 중 어느 장기의 이상을 선별해야 하는가?
+베크위트–비데만 스펙트럼이 확진된 5세 아이는 11p15.5 IC1 메틸화 증가가 확인됐다. 현재 증상이 없다. 윌름스종양을 조기에 발견하기 위한 검사는?
 
 ## 선택지
 
-A. 부신
-B. 뼈
-C. 눈
-D. 신장
+A. 주기적으로 흉부 X선 촬영
+B. 혈청 알파태아단백만 추적
+C. 정기 신장 초음파
+D. 혈뇨가 생기고 나서만 요검사
 
 ## 해설
 
-거대아·신생아 저혈당·거대설은 Beckwith–Wiedemann 스펙트럼을 시사한다. 신장(D)에서는 Wilms 종양 위험에 따른 감시가 중요하다. 신세포암이 대표적 종양이라는 기존 설명은 틀리며, 실제 사진이 없어 추가 신체 소견은 추정하지 않는다.
+윌름스종양 위험이 높은 분자 아형에서는 증상이 없어도 신장 초음파를 반복한다. 감시 대상과 일정은 분자 아형과 지역 지침에 따라 조정한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 신장
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000583
+- https://doi.org/10.1158/1078-0432.CCR-24-2100

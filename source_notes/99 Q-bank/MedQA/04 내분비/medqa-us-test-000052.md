@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-yVjOuPhOyKpO2FjOuhoOymnSAoQWxkb3N0ZXJvbmlzbSkubWQ
   - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
-question_type: mechanism
+question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-고혈압 병력이 있는 56세 남성이 점점 심해지는 피로와 새로 발생한 근육 경련으로 내원했다. 최근 약물(히드로클로로티아지드, 리시노프릴, 암로디핀) 변화는 없다. 체온 98.0°F(36.7°C), 혈압 174/111 mmHg, 맥박 분당 70회, 호흡수 분당 12회, 산소포화도 98%이다. 심폐 및 복부 진찰은 정상이다. 혈청 Na⁺ 138, Cl⁻ 100, K⁺ 3.3, HCO₃⁻ 33 mEq/L, BUN 20 mg/dL, 포도당 129 mg/dL이다. 이 환자 고혈압의 가장 가능성 높은 기저 원인은?
+이뇨제를 포함한 세 가지 약을 복용 중인 56세 환자의 혈압이 174/111 mmHg이고 칼륨 3.3 mmol/L다. 심각한 급성 장기 손상은 없다. 원발성 알도스테론증을 선별할 검사는?
 
 ## 선택지
 
-A. 알도스테론 과다
-B. 카테콜아민 분비 종괴
-C. 코르티솔 과다
-D. 신장 관류 장애
+A. 혈장 알도스테론과 레닌을 함께 측정해 비율을 평가
+B. 혈장 메타네프린만 먼저 측정
+C. 생화학 평가 없이 부신정맥 채혈부터 시행
+D. 신장 조직검사
 
 ## 해설
 
-고혈압에 저칼륨혈증과 대사성 알칼리증이 동반되어 보기 중 알도스테론 과다(A)를 의심한다. 알도스테론은 Na⁺ 재흡수와 함께 K⁺·H⁺ 배설을 증가시킨다. 다만 티아지드 복용이나 신관류 저하도 유사한 패턴을 만들 수 있어 전해질 소견만으로 원발성 알도스테론증을 확진하지 않는다. 실제로는 약물 영향 등을 고려한 레닌·알도스테론 평가가 필요하다.
+저항성 고혈압과 저칼륨혈증에서는 알도스테론과 레닌을 함께 확인한다. 저칼륨은 교정하고 약물·채혈 조건이 결과에 미치는 영향을 고려한다. CT나 부신정맥 채혈이 선별검사를 대신하지 않는다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 신장 관류 장애
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000052
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10765003/

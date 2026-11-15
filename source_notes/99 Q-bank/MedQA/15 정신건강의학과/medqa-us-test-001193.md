@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,23 +34,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-19세 여성이 치어리딩 연습 중 쓰러져 응급실에 왔다. 혈압 88/55 mmHg, 맥박 55회/분이었고 수액을 투여받았다. 저체중이지만 자신을 뚱뚱하다고 주장하며 추가 수액과 병원 식사를 거부했다. 이 상태의 장기 관리로 가장 적절한 것은?
+15세 청소년이 신경성 식욕부진증으로 진단됐다. 초기 신체 평가에서 입원이 필요한 불안정은 없다. 보호자가 치료에 함께 참여할 수 있다. 영양·신체 상태를 추적하면서 우선 제안할 심리치료는?
 
 ## 선택지
 
-A. 인지행동치료
-B. 입원 정신과 치료
-C. 항우울제
-D. 식욕촉진제
+A. 항우울제를 사용하며 일반 상담만 시행
+B. 섭식장애에 초점을 맞춘 가족기반치료
+C. 식사와 체중 회복은 다루지 않는 이완 훈련
+D. 식욕촉진제 단독 치료
 
 ## 해설
 
-저체중인데도 자신을 뚱뚱하다고 여기고 식사를 거부하는 양상은 신경성 식욕부진증에 부합한다. 질문은 장기 관리를 묻고 있으므로 제시된 선택지 중 섭식장애에 초점을 둔 인지행동치료가 적절하다. 다만 실신·저혈압·서맥이 있는 현재 상황에서는 신체적 안정화와 영양 평가·회복, 필요 시 입원 치료가 우선이며, 장기 치료도 영양·신체 모니터링과 정신치료를 결합한다. CBT만이 모든 환자의 유일한 최선 치료라는 의미는 아니다.
+청소년 신경성 식욕부진증에서는 보호자가 비난 없이 안전한 식사와 영양 회복을 돕는 가족기반치료가 일차 선택 중 하나다. 신체와 영양 상태는 함께 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001193
+- https://www.nice.org.uk/guidance/ng69/chapter/recommendations
+- https://pubmed.ncbi.nlm.nih.gov/36722117/
 
 ## 검수 근거
 

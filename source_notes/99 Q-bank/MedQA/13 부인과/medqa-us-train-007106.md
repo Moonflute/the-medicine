@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yhsOq4sOuCnOyGjOu2gOyghCAoUHJlbWF0dXJlIE92YXJpYW4gRmFpbHVyZSkubWQ
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 여자가 3개월 동안 성교통과 질 건조가 있어 내원했다. 이 기간 동안 간헐적인 안면홍조와 피로도 있었다. 지난 1년 동안 생리가 불규칙해졌고 마지막 월경은 6개월이 넘었다. 한 명의 파트너와 성생활을 하지만 보호나 피임은 하지 않는다. 소아기에 급성 림프모구성 백혈병을 앓았으나 현재 관해 상태이다. 골반검사에서 자궁경부와 질이 위축되어 있다. 소변 임신검사는 음성이다. 프로게스틴 부하검사에서 철회성 출혈이 나타나지 않았다. 추가 평가에서 다음 중 어떤 소견이 나타날 가능성이 가장 높은가?
+23세 여성이 소아 백혈병으로 알킬화제 기반 항암치료를 받았다. 6개월째 무월경이고 안면홍조와 질 건조가 있다. 임신검사는 음성이다. 항암치료 후 조기 난소기능부전을 지지하는 소견은?
 
 ## 선택지
 
-A. GnRH 수치 감소
-B. LH 수치 감소
-C. FSH/LH 비 증가
-D. TSH 수치 증가
+A. FSH 3 IU/L와 낮은 에스트라디올
+B. 고프로락틴혈증과 낮은 FSH
+C. 테스토스테론 상승과 정상 FSH
+D. FSH 42 IU/L와 낮은 에스트라디올
 
 ## 해설
 
-무월경, 저에스트로겐 증상, 프로게스틴 소퇴성 출혈이 없다는 소견과 과거 항암치료 병력은 난소기능저하를 시사한다. 난소의 에스트로겐·인히빈에 의한 음성 되먹임이 감소하면 성선자극호르몬이 상승하며 FSH가 두드러져 선택지 C의 FSH/LH 비 증가가 적절하다. LH/FSH 비 증가로 뒤집어 설명해서는 안 되며, 이 비율만으로 진단하는 것도 아니다.
+난포 기능이 저하되면 에스트라디올이 감소하고 되먹임 소실로 FSH가 상승한다. 40세 미만에서 4개월 이상 월경 장애와 FSH >25 IU/L가 진단을 지지하며, 불확실하면 FSH를 반복한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. TSH 수치 증가
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007106
+- https://academic.oup.com/hropen/article/2024/4/hoae065/7918369

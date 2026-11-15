@@ -15,9 +15,9 @@ related_diseases:
   - "반데타닙"
 related_disease_slugs:
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDsho3sp4jslZQgKFRoeXJvaWQgTWVkdWxsYXJ5IENhcmNpbm9tYSkubWQ
-question_type: management
+question_type: investigation
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-54세 여성이 갑작스러운 호흡곤란으로 응급실에 내원했다. CT에서 왼쪽 폐에 여러 결절이 보인다. 지난 6개월 동안 피로하고 우울했으며, 폐경이 가까워져서 그렇다고 생각한 홍조도 자주 있었다. 진찰에서 왼쪽 갑상선엽에 2.5cm 크기의 단단하고 압통 없는 결절이 만져지고 경부 림프절병증이 있다. 미세침흡인 세포검사에서 갑상선암 가능성이 높다. 혈청 기저 칼시토닌은 620 pg/mL이다. 갑상선절제술을 받았지만 6주 이내 홍조와 설사로 다시 응급실에 내원했다. 다음 중 시행해야 할 치료는?
+갑상선 수질암으로 확진된 54세 환자에게 갑상선암이나 갈색세포종 가족력은 없다. 가족성 종양증후군 여부와 가족 검사 필요성을 평가할 검사는?
 
 ## 선택지
 
-A. 방사성 요오드
-B. 갑상선자극호르몬(TSH) 억제
-C. 타목시펜
-D. 반데타닙
+A. 갑상선글로불린만 재측정
+B. BRAF V600E 체세포 검사만 시행
+C. 생식세포 RET 유전자 검사
+D. 방사성 요오드 전신스캔
 
 ## 해설
 
 
-칼시토닌 상승과 갑상선절제 후에도 지속되는 설사·홍조, 폐전이는 증상성 진행성 수질갑상선암에 부합한다. Vandetanib D는 절제 불가능한 국소 진행성 또는 전이성 수질암의 허가 치료 중 하나다. 방사성 요오드나 TSH 억제는 여포세포 유래 분화암의 접근으로 이 종양의 적절한 대체가 아니다. 모든 환자에서 RET 변이가 입증된 것은 아니므로 유전·종양 검사가 필요하며 RET 변이 양성에서는 선택적 RET 억제제 등도 고려한다. QT 연장·전해질 이상·설사 등의 안전성 평가가 필요하고 D가 모든 상황의 유일 최선 치료라는 의미는 아니다.
+갑상선 수질암은 가족력이 없어도 유전성일 수 있다. 생식세포 RET 검사로 유전성 여부를 확인하고 양성이면 다른 내분비종양 위험과 가족 검사를 평가한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 반데타닙
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009921
+- https://doi.org/10.1089/thy.2014.0335

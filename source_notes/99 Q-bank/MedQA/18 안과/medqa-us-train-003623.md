@@ -18,7 +18,7 @@ related_diseases:
 question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-36세 남성이 야구공에 왼쪽 눈을 맞은 뒤 안와 통증과 경한 복시로 응급실에 왔다. 왼쪽 안와 바닥에 0.4 cm의 전위되지 않은 선형 골절이 있고 위쪽을 볼 때 움직임이 제한되었다. 내원 시 맥박은 53회/분이며 양안 시력은 5/20이었다. 다음 중 이 상태에 대한 가장 정확한 설명은?
+13세 아이가 눈 주변을 부딪친 뒤 위를 볼 때 복시와 심한 메스꺼움을 호소한다. 위를 보게 하면 맥박도 떨어진다. CT에서 안와 바닥 골절 사이에 하직근이 끼어 있다. 다음 조치는?
 
 ## 선택지
 
-A. MRI가 환자 상태 평가에 가장 좋은 방법이다
-B. 안구운동이 자연적으로 호전될 가능성이 낮다
-C. 초기에는 코르티코스테로이드와 관찰로 보존적 관리가 가능하다
-D. 3일 이내 수술하면 안구함몰을 예방할 수 있다
+A. 다음 달까지 자연 호전을 기다린다
+B. 프리즘 안경만 처방한다
+C. 스테로이드만 쓰고 퇴원시킨다
+D. 응급 전문 평가와 포착 해소 수술을 진행한다
 
 ## 해설
 
-작고 전위되지 않은 안와바닥 골절에서 경미한 운동 제한은 부종이 가라앉으며 호전될 수 있어 C의 초기 관찰을 고려할 수 있다. 단기 corticosteroid는 금기가 없을 때 선택적으로 부종 감소를 위해 고려하는 것이지 모든 골절의 필수 치료는 아니다. 심한 근육 포착, 심한 통증, 지속 복시나 안구심장반사에 의한 서맥·오심 등이 있으면 조기 수술 평가가 필요하다. 원문의 맥박 53/분은 이러한 임상 평가에서 확인해야 하며, 단지 골절이 작다는 이유로 위험을 무시할 수 없다. 추적 안과 재평가가 필요하고 호전을 일률적으로 보장하지 않는다.
+소아의 작은 안와 바닥 골절도 근육을 가둘 수 있다. 안구운동으로 유발되는 서맥·구역은 안구심장반사 단서이며, 포착을 신속하게 해소해야 한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 3일 이내 수술하면 안구함몰을 예방할 수 있다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003623
+- https://surgeryreference.aofoundation.org/cmf/pediatric-trauma/midface/orbital-floor/reconstruction

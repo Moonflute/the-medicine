@@ -14,7 +14,7 @@ related_diseases:
   - "paroxysmal nocturnal hemoglobinuria"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-uwnOyekeyEsSDslbzqsIQg7ZiI7IOJ7IaM64eo7KadIChQYXJveHlzbWFsIE5vY3R1cm5hbCBIZW1vZ2xvYmludXJpYSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-35세 남성이 급성 흉통, 호흡 곤란, 복통을 주소로 내원하였다. 환자는 최근 철인 3종 경기 대회를 준비하고 있었으며, 지난 일주일 동안 평소보다 더 피로감을 느꼈다고 한다. 함께 훈련하는 대부분의 사람들이 20대였기 때문에 나이 때문이라고 생각했다. 그러나 지난 주말 특히 힘든 운동을 마친 후 방사통이 없는 좌측 흉통과 우측이 더 심한 복통을 느꼈다. 통증은 운동을 멈춘 후에도 지속되었다. 오늘 아침에는 붉은색 소변을 확인하였다. 환자는 지난 5년간 격렬한 운동이나 과도한 음주 후에 유사한 붉은색 소변을 본 적이 있으나, 통증이 동반된 적은 없었다고 한다. 과거력상 지난주 요로감염으로 trimethoprim-sulfamethoxazole을 복용한 적이 있다. 신체 검진상 우측 상부 흉골연에서 가장 크게 들리는 수축기 유출 잡음(systolic flow murmur)과 방어(guarding)나 반발통(rebound)이 없는 우상복부 압통이 관찰된다. 검사실 소견은 다음과 같다: 혈색소 8.5 g/dL, 혈소판 133,000/µL, 총 빌리루빈 6.8 mg/dL, LDH 740 U/L, 합토글로빈 25 mg/dL. 조영제를 사용한 복부 MRI 검사 결과 간정맥 혈전증(hepatic vein thrombosis)이 확인되었다. 이 환자의 진단을 확진하기 위해 가장 가능성이 높은 검사실 검사는 무엇인가?
+짙은 소변과 복통을 반복하던 환자에게 간정맥혈전이 확인됐다. LDH는 높고 합토글로빈은 낮으며 직접항글로불린검사는 음성이다. 발작성 야간혈색소뇨증을 확인할 검사는?
 
 ## 선택지
 
-A. 말초혈액 도말검사
-B. 유세포 분석(Flow cytometry)
-C. 혈색소 전기영동
-D. 자당 용혈 검사(Sucrose hemolysis test)
+A. 혈색소 전기영동
+B. 과립구·단핵구의 FLAER와 GPI 결합 단백을 평가하는 유세포분석
+C. 적혈구 삼투취약성검사
+D. 혈청 페리틴
 
 ## 해설
 
 
-반복 혈색소뇨·혈관내 용혈과 간정맥 등 비전형 부위 혈전은 발작성 야간혈색소뇨증(PNH)을 의심하게 한다. 유세포분석(B)으로 GPI 결합 단백질 결핍 클론을 확인한다. 적혈구 CD59/CD55와 과립구·단핵구의 적절한 표지자/FLAER 등을 이용해 여러 세포계열을 평가할 수 있다. 과거 자당용혈검사보다 유세포분석이 진단과 클론 크기 평가에 적절하다.
+비전형적인 부위의 정맥혈전에 비면역성 혈관내 용혈이 동반되면 발작성 야간혈색소뇨증을 의심한다. 혈액 유세포분석으로 GPI 결합 단백이 결핍된 클론을 찾는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 자당 용혈 검사(Sucrose hemolysis test)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000797
+- https://doi.org/10.1111/ejh.70294

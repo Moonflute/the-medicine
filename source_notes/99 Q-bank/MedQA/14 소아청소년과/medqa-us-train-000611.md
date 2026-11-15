@@ -11,11 +11,11 @@ language: ko
 specialty: 14 소아청소년과
 related_diseases:
   - "bronchiolitis"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIOyEuOq4sOq0gOyngOyXvCAoQWN1dGUgQnJvbmNoaW9saXRpcykubWQ
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -32,18 +32,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-3개월 된 남아를 어머니가 2일간의 호흡 곤란으로 응급실에 데려왔다. 아이는 임신 35주에 태어났으나 그 외에는 건강했다. 어머니는 콧물과 함께 기침과 호흡 곤란을 관찰했다. 체온은 100°F(37.8°C), 혈압은 64/34 mmHg, 맥박은 140회/분, 호흡수는 39회/분이며, 실내 공기에서 산소 포화도는 93%이다. 폐 검진상 전반적인 호기성 천명음(expiratory wheezing)과 수포음(crackles), 늑간 함몰(intercostal retractions)이 관찰된다. 구강 점막은 건조해 보인다. 다음 중 가장 적절한 진단 검사는 무엇인가?
+재태 35주에 태어난 생후 5주 영아가 콧물과 기침으로 왔다. 보호자가 집에서 아이의 숨이 멈추고 입술이 파래지는 것을 두 번 봤다. 응급실에서는 산소포화도가 96%이고 수포음이 양쪽에 들린다. 가장 적절한 다음 조치는?
 
 ## 선택지
 
-A. 추가 검사 불필요
-B. 중합효소연쇄반응(PCR)
-C. 객담 배양 검사
-D. 바이러스 배양 검사
+A. 산소포화도가 정상이므로 퇴원시킨다
+B. 바이러스 검사 결과가 음성이면 퇴원시킨다
+C. 분무 살부타몰을 한 번 주고 반응을 본 뒤 퇴원시킨다
+D. 입원해 호흡과 산소화, 무호흡 재발을 감시한다
 
 ## 해설
 
-콧물 뒤 기침, 천명·수포음과 함몰이 생긴 영아는 임상적으로 세기관지염을 진단할 수 있어 전형적 경과라면 선택지 A처럼 원인 바이러스 확인 PCR·배양을 일률적으로 시행하지 않는다. 검사하지 않았으므로 RSV가 원인이라고 확진할 수는 없다. 미숙아 병력, 산소포화도·호흡 노력과 수분 상태를 평가하고, 악화·비전형 경과나 다른 질환 의심이 있으면 추가 검사를 한다. ‘검사 불필요’는 필요한 관찰·지지치료까지 불필요하다는 뜻이 아니다.
+어린 영아의 세기관지염에서는 무호흡이 생길 수 있다. 진찰 당시 산소포화도가 정상이더라도, 관찰된 무호흡과 청색증이 있으면 입원 평가와 감시가 필요하다.
 
 ## 검수 근거
 
@@ -56,3 +56,5 @@ D. 바이러스 배양 검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000611
+- https://www.nice.org.uk/guidance/ng9/chapter/recommendations
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6736

@@ -17,9 +17,9 @@ question_type: prevention
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEsg6rKw7ZWN7KadIChWaXRhbWluIEsgRGVmaWNpZW5jeSkubWQ
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 40주에 초임부에게서 신생아가 태어났다. 임신은 합병증 없이 일차 진료의의 관리를 받았고 어머니는 특별한 병력이 없으며 종합비타민, 엽산, 비타민 B12, 철분을 복용 중이다. 신생아는 팔다리를 자발적으로 움직이고 울고 있다. 체온 98.7°F(37.1°C), 혈압 60/38 mmHg, 맥박 150회/분, 호흡수 33회/분, 실내 공기 산소포화도 99%이다. 다음 중 가장 적절한 다음 처치는?
+건강한 만삭 신생아가 태어났다. 보호자가 모유수유를 할 예정이라며 출생 직후의 출혈 예방 주사가 필요한지 묻는다. 권장하는 조치는?
 
 ## 선택지
 
-A. 수액 소생
-B. 근육주사 비타민 K와 국소 에리트로마이신
-C. 추가 처치 불필요
-D. 질산은 안약과 기본 검사
+A. 모유수유를 하면 예방 조치는 생략한다
+B. 신생아에게 출혈이 생겼을 때만 비타민 K를 준다
+C. 출생 직후 비타민 K를 근육주사한다
+D. 산모가 비타민 K를 복용하면 신생아 주사를 대신할 수 있다
 
 ## 해설
 
 
-신생아는 출생 직후 비타민 K 결핍으로 출혈 위험이 높으며, 근육주사 비타민 K는 출혈 예방에 필수적이다. 따라서 정답은 근육주사 비타민 K와 국소 에리트로마이신이다.
+신생아는 비타민 K 저장량이 적고 모유만으로 충분한 양을 얻기 어렵다. 출생 때의 비타민 K 근육주사는 비타민 K 결핍 출혈과 그에 따른 두개내 출혈을 예방한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007936
+- https://doi.org/10.1542/peds.2021-056036

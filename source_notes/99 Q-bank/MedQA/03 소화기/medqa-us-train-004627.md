@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7J6l6rCE66eJIO2XiO2YiCAoQWN1dGUgTWVzZW50ZXJpYyBJc2NoZW1pYSkubWQ
   - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-57세 남성이 식후 악화되는 2일간의 심한 전반적 복통으로 내원했다. 오심이 있고 가끔 피가 섞인 설사를 한다. 본태성 고혈압 외에는 과거력이 특이하지 않다. 활력징후는 체온 36.9°C (98.4°F), 혈압 145/92 mm Hg, 불규칙하게 불규칙한 맥박 분당 105회이다. 신체검사에서는 배꼽 주위의 경한 압통만 보인다. 가장 가능성 높은 진단은 무엇인가?
+72세 남성이 갑자기 시작된 매우 심한 배꼽 주변 통증과 혈변으로 왔다. 심방세동이 있으나 항응고제를 복용하지 않는다. 통증에 비해 복부 압통은 가볍고 혈압은 안정적이다. 급성 장간막 허혈이 의심될 때 지체 없이 시행할 검사는?
 
 ## 선택지
 
-A. 급성 췌장염
-B. 크론병
-C. 급성 장간막 허혈
-D. 게실질환
+A. 복부 단순 X선
+B. 대장내시경
+C. 복부 CT 혈관조영술
+D. 외래 복부 초음파
 
 ## 해설
 
 
-식후 통증, 혈변, 고령 환자에서 복부 압통이 경미하고 맥박이 불규칙한 경우 급성 장간막 허혈이 의심된다. 이는 장간막 혈류 차단에 의한 급성 허혈성 손상이다. 따라서 정답은 급성 장간막 허혈이다.
+심방세동은 장간막동맥 색전의 위험인자다. 진찰에 비해 심한 복통과 급성 발병이 있으면 CT 혈관조영술로 혈관 폐색과 장 허혈을 신속히 평가한다. 초기 혈중 젖산이 정상이어도 의심이 높다면 검사를 늦추지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 게실질환
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004627
+- https://doi.org/10.1186/s13017-022-00443-x

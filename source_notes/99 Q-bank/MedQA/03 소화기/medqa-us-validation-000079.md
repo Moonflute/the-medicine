@@ -15,7 +15,7 @@ related_diseases:
   - "담도 폐쇄"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-64세 남성이 2주간 간헐적인 명치 불편감, 짙은 소변, 옅은 변, 식욕저하와 체중 감소로 진료를 받으러 왔다. 황달, 가려움, 오른쪽 상복부의 압통 없는 종괴가 있고 총 빌리루빈 6 mg/dL, 직접 빌리루빈 5.2 mg/dL, ALP 220 IU/L였다. 초음파에서 간외 담관과 췌관 확장, 담낭 팽창이 보였다. 가장 가능성 높은 원인은?
+64세 남성에게 체중 감소와 진행성 무통성 황달이 생겼다. 초음파에서 총담관과 췌관이 함께 확장되어 있다. 발열이나 저혈압은 없다. 췌장두부 종양과 절제 가능성을 처음 평가할 영상은?
 
 ## 선택지
 
-A. 악성 담도 폐쇄
-B. 아세트아미노펜 유발 간손상
-C. 용혈
-D. 만성 췌장염
+A. 췌장 프로토콜 다중시기 조영 CT
+B. 복부 비조영 CT
+C. 전신 FDG PET-CT
+D. 담낭 핵의학 검사
 
 ## 해설
 
 
-정답 A. 직접 bilirubin 상승, 짙은 소변·옅은 변, 담관과 췌관의 동시 확장 및 압통 없는 팽창 담낭은 원위부 담도 폐쇄를 시사한다. 체중감소와 무통성 황달을 함께 고려하면 췌장두부/팽대부 종양 등 악성 폐쇄가 가장 우려된다. 이 소견만으로 담관암의 조직형이나 말기 병기를 확진하지 않는다. 용혈이나 acetaminophen 간손상은 제시된 담관 확장을 잘 설명하지 못한다.
+체중 감소와 담관·췌관의 동시 확장은 췌장두부 등 원위부 폐쇄성 종양을 의심하는 단서다. 췌장 프로토콜 조영 CT로 병변, 혈관 침범, 전이를 평가한다. 관 확장만으로 암을 확진하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 만성 췌장염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000079
+- https://pubmed.ncbi.nlm.nih.gov/34148794/

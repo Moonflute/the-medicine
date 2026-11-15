@@ -17,9 +17,9 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-yVjOuPhOyKpO2FjOuhoOymnSAoQWxkb3N0ZXJvbmlzbSkubWQ
   - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
-question_type: diagnosis
+question_type: management
 difficulty: complex
-answer: "A"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -45,23 +45,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-55세 남자가 추적 진료를 위해 내원했다. 6개월 동안 피로, 두통, 어지럼 에피소드가 여러 차례 있었다. 3개월 전 고혈압을 진단받아 약물을 시작했으나 혈압이 계속 높아 약물을 여러 차례 조정했다. 고콜레스테롤혈증과 말초동맥질환도 있다. 34년 동안 하루 한 갑을 피웠으나 2개월 전에 끊었다. 아스피린, 아토르바스타틴, 로사르탄, 펠로디핀, 히드로클로로티아지드를 복용한다. 키는 188cm(6피트 2인치), 체중은 109kg(240lb), BMI는 31kg/m²이다. 맥박은 82회/분, 혈압은 158/98 mmHg이다. 양측 경동맥 잡음이 들리고 심음은 정상이다. 혈청 칼륨은 3.2 mEq/L, 혈장 레닌 활성도는 4.5 ng/mL/h(정상 0.3~4.2), 혈청 크레아티닌은 1.5 mg/dL이다. 추가 평가에서 다음 중 어떤 소견이 나타날 가능성이 가장 높은가?
+64세 남성이 죽상경화성 중증 양측 신동맥 협착이 있고 약을 복용하는데도 급성 폐부종으로 두 차례 입원했다. 좌심실 박출률은 보존돼 있고 다른 뚜렷한 유발 원인은 없다. 안정화 후 고려할 계획은?
 
 ## 선택지
 
-A. 일측 신장 위축
-B. 양측 신장 비대
-C. 뇌하수체 종괴
-D. 미만성 갑상선 비대
+A. 신동맥 재개통 적합성을 전문팀에 의뢰해 평가한다
+B. 양측 신동맥을 색전한다
+C. 조영제 사용 위험과 무관하게 진단 즉시 모든 환자에게 스텐트를 넣는다
+D. 폐부종과 신동맥 협착은 무관하므로 추가 평가하지 않는다
 
 ## 해설
 
-다발성 동맥경화 위험·말초혈관질환과 치료 저항성 고혈압 맥락에서 신동맥 협착을 고려한다. 한쪽 신장의 만성 저관류는 해당 신장 위축을 만들 수 있어 A가 적합하다. Losartan·이뇨제는 renin과 칼륨에 영향을 주므로 제시된 값만으로 신동맥 협착을 확진하지 않는다.
+죽상경화성 신동맥 협착은 발견만으로 스텐트 치료를 하지 않는다. 양측 중증 협착과 반복되는 급성 폐부종은 재개통을 선별적으로 평가할 상황이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007280
+- https://doi.org/10.1161/HYP.0000000000000217
 
 ## 오답 포인트
 

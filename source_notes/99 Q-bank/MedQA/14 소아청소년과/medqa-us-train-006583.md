@@ -13,13 +13,13 @@ related_diseases:
   - "소아 출혈성 질환"
   - "혈우병 감별"
   - "응고검사"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEsg6rKw7ZWN7KadIChWaXRhbWluIEsgRGVmaWNpZW5jeSkubWQ
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-6개월 남아가 3세 형이 장난감 트럭으로 팔을 때린 후 부모와 함께 응급실에 내원했다. 가벼운 외상에 비해 멍이 심하게 생긴 것을 부모가 걱정한다. 그 외 발달은 정상이고 모든 발달 이정표를 충족한다. 밤새 자고 최근 고형식을 먹기 시작했다. 형은 건강하지만 어머니 가족 중 일부에게 원인 모를 혈액질환이 있다고 한다. 진찰에서 보채고 달래기 어렵다. 왼쪽 전완 외측에 5~8cm 크기의 멍과 부종이 있다. 신경학적 진찰은 정상이고 피부가 창백하며 홍채는 파랗다. 안과 평가는 보류했다. 다음 중 초기 단계로 가장 적절한 것은?
+아직 기거나 가구를 붙잡고 이동하지 못하는 5개월 영아의 몸통에 멍이 여러 개 있다. 기전 설명과 진찰 소견이 맞지 않고 가족 중 출혈질환 병력도 있다. 적절한 대응은?
 
 ## 선택지
 
-A. 아이의 안전을 확보하고 경찰에 알림
-B. 전혈구검사와 응고검사
-C. 혈색소 전기영동
-D. 유전자 검사
+A. 아동 안전을 확인하고 학대 의심을 신고하며 출혈질환도 병행 평가한다
+B. 가족 중 출혈질환이 있으므로 학대 가능성은 배제한다
+C. 응고검사가 모두 끝날 때까지 안전 평가를 미룬다
+D. 멍이 없어지는지만 정기 진료에서 본다
 
 ## 해설
 
 
-멍이 과다하게 나타나는 소아는 출혈성 질환을 의심한다. 초기 단계에서는 전혈구검사와 응고검사로 혈소판 및 응고인자를 평가해야 한다. 따라서 전혈구검사와 응고검사가 가장 적절하다.
+이동 전 영아의 설명되지 않는 멍은 안전 평가가 필요한 소견이다. 혈액응고질환과 학대는 함께 평가할 수 있으며, 학대가 의심되면 검사 확정이나 보호자 동의를 기다리지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006583
+- https://law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1033213513
+- https://doi.org/10.1542/peds.2022-059276

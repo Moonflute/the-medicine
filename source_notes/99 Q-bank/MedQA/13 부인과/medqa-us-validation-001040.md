@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA
 difficulty: complex
-answer: "B"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -41,18 +41,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-27세 미산부 여성이 자궁경부암 선별검사 결과 상담을 위해 산부인과에 왔다. 최근 자궁경부 생검에서 자궁경부 변환대의 CIN 3가 확인되었고 임신을 계획하고 있다. 이 환자 관리에 관한 올바른 설명은?
+27세 여성이 임신을 계획한다. 현재 임신 중은 아니며, 질확대경 생검에서 침윤 소견 없이 CIN3가 확인됐다. 처치는?
 
 ## 선택지
 
-A. CIN 3의 암 진행률이 연간 10%를 초과하므로 가능한 한 빨리 치료해야 한다
-B. 임신 계획과 향후 임신 영향을 상담하면서 CIN3에 대한 적절한 치료를 시행한다
-C. 추가 HPV 검사가 치료 방향을 정하는 데 유용하다
-D. 고등급 자궁경부 병변 여성은 임신을 권장하지 않으므로 치료가 합리적이다
+A. 향후 임신 영향을 상담하고 원추절제 등 자궁경부 절제 치료를 시행
+B. 임신을 계획하므로 6개월마다 검사만 하며 관찰
+C. HPV 검사 음성이 나올 때까지 치료 보류
+D. 임신 전 자궁절제술을 우선 시행
 
 ## 해설
 
-현재 임신 중이 아닌 환자의 조직학적 CIN3는 치료가 권고되며 임신 계획만으로 관찰하지 않는다. 절제 치료 등 적절한 방법과 향후 임신에 대한 영향을 상담해 결정한다. CIN2의 선택적 관찰 기준과 구분하며, 연간 암 진행률이 무조건 10%를 넘는다거나 임신 자체를 금지한다는 설명은 부정확하다.
+임신 중이 아닌 CIN3는 관찰 대신 치료한다. 자궁경부 절제 범위와 향후 임신에 미칠 영향을 상담하며, 임신을 계획한다는 이유만으로 치료를 미루지 않는다.
 
 ## 검수 근거
 

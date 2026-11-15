@@ -17,6 +17,7 @@ question_type: management
 related_disease_slugs: []
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 26주인 36세 초임부가 지난 2일 동안 태동이 없다고 호소하며 내원했다. 14주 전 초음파로 임신이 확인되었다. 질 출혈이나 분비물은 없다. 인슐린으로 조절되는 제1형 당뇨병 병력이 있다. 활력징후는 모두 정상 범위이다. 골반검사에서 자궁경부는 정중선에 위치한 길이 2 cm의 부드러운 상태이고 자궁경부구는 3 cm 열려 있으며 자궁은 임신 24주 크기이다. 질식 초음파에서 심장 활동이 없는 태아가 보인다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+임신 26주인 36세 초임부가 지난 2일 동안 태동이 없다고 호소하며 내원했다. 14주 전 초음파로 임신이 확인되었다. 질 출혈이나 분비물은 없다. 인슐린으로 조절되는 제1형 당뇨병 병력이 있다. 활력징후는 모두 정상 범위이다. 골반검사에서 자궁경부는 정중선에 위치한 길이 2 cm의 부드러운 상태이고 자궁경부구는 3 cm 열려 있으며 자궁은 임신 24주 크기이다. 질식 초음파에서 심장 활동이 없는 태아가 보인다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

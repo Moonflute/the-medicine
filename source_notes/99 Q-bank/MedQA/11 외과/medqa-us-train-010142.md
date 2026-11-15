@@ -20,7 +20,7 @@ question_type: ethics
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-63세 여성이 3시간 동안 지속된 심한 복통과 구토로 응급실에 내원했다. 이전에도 10~15분간 지속되며 제산제로 호전되는 복통이 있었다. 딸과 손주들과 함께 살고 지난해 남편과 이혼했다. 의식은 명료하고 지남력은 정상이다. 체온 37.3°C, 맥박 분당 134회, 혈압 90/70 mmHg이다. 복부는 단단하고 전반적으로 압통이 있으며 경직과 반발통이 있다. 직장검사에서 직장이 허탈되어 있다. 생리식염수 주입을 시작했고 복부 CT에서 장 천공이 보였다. 외과의가 응급 탐색적 개복술의 필요성을 설명하자 동의하고 서면 동의서에 서명했다. 수술실로 이송을 기다리던 중 더 이상 수술을 원하지 않는다며 의사를 불렀다. 수술을 하지 않을 위험을 설명하자 이해한다고 하면서도 완강히 거부했다. 다음 중 가장 적절한 처치는?
+장 천공으로 응급 수술을 앞둔 63세 환자가 서면 동의 뒤 마음을 바꿨다. 현재 수술 여부와 사망 위험을 직접 설명할 수 있고, 다른 치료 선택지도 이해한 뒤 일관되게 수술을 거부한다. 어떻게 대응할까?
 
 ## 선택지
 
-A. 수술 취소
-B. 병원 윤리위원회 자문
-C. 응급 생명구조 수술 진행
-D. 환자가 의식을 잃을 때까지 기다린 후 수술
+A. 수술 동의 철회를 확인하고 기록하며 가능한 대체 치료와 지지를 계속한다
+B. 서명한 동의서가 있으므로 수술을 진행한다
+C. 환자의 결정을 보류하고 가족이 동의하면 수술한다
+D. 진정제를 투여한 뒤 수술 동의를 다시 받는다
 
 ## 해설
 
 
-환자는 의식이 명료하고 자율적인 결정을 내릴 수 있는 성인이다. 수술을 거부하는 경우 환자 자율성을 존중해야 하며, 동의서 서명 후에도 거부는 유효하다. 따라서 가장 적절한 조치는 수술을 취소하는 것이다.
+충분히 설명을 듣고 의사결정능력이 확인된 환자의 유효한 동의 철회를 존중한다. 거부 이유와 대안을 논의하고 설명 및 의사 확인을 기록하며 가능한 의료는 계속 제공한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 환자가 의식을 잃을 때까지 기다린 후 수술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010142
+- https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1028255763
+- https://www.scourt.go.kr/supreme/news/NewsViewAction2.work?gubun=4&searchOption=&searchWord=&seqnum=4557

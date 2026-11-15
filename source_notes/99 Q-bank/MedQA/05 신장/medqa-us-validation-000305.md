@@ -19,7 +19,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
 question_type: investigation
 difficulty: complex
-answer: "A"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -39,23 +39,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-45세 남성이 갑작스러운 왼쪽 허리 아래 통증과 혈뇨로 응급실에 왔다. 통증은 둔하고 지속적이며 정확한 위치를 짚기 어렵다. 지난 2주 동안 체중이 3 kg 늘고 신발이 꽉 끼었다. 만성질환, 최근 복부 외상이나 질병은 없으며 이전에 혈뇨를 본 적도 없다. 왼쪽 상완, 가슴, 오른쪽 허벅지에 언제 생겼는지 모르는 멍이 있고 양쪽 다리와 손에 부종이 있다. 소변검사에서 혈액 3+, 단백질 4+였다. 기저질환으로 인한 합병증을 진단하는 데 가장 도움이 될 검사는?
+신증후군이 확인된 45세 남자가 갑작스러운 옆구리 통증과 육안적 혈뇨로 내원했다. 도플러 초음파로 신정맥을 충분히 볼 수 없었다. 신기능은 정상이고 조영제 금기는 없다. 신정맥 혈전증을 확인할 다음 검사는?
 
 ## 선택지
 
-A. 조영제를 사용한 CT 혈관조영술
-B. 비조영 CT
+A. 신정맥을 평가하는 조영 CT
+B. 비조영 결석 CT
 C. 방광경검사
 D. 신장 생검
 
 ## 해설
 
-심한 단백뇨·부종에 새 옆구리 통증과 혈뇨가 더해지면 신증후군의 과응고성과 관련된 신정맥 혈전증을 고려한다. 선택지 중 정맥 충만을 평가할 수 있는 적절한 조영 CT가 유용하다. 기전은 신정맥 유출 장애이며 요관 결석에 의한 요로 폐색과 다르다. 조영제 사용은 신기능·상황을 고려한다.
+신증후군 환자에서 갑자기 옆구리가 아프고 피가 섞인 소변이 나오면 신정맥 혈전증을 의심한다. 정맥이 조영되는 시기에 촬영한 CT로 충만결손을 확인할 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000305
+- https://kdigo.org/guidelines/gd/
 
 ## 오답 포인트
 

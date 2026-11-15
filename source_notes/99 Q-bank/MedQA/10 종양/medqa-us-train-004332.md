@@ -15,9 +15,9 @@ related_diseases:
   - "에토포시드"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
-question_type: 임상증례 객관식
+question_type: management
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-72세 남자가 3일간 객혈로 내원했다. 3개월간 기침이 있었지만 겨울 때문이라고 생각했고 최근 피로도 자주 느꼈다. 체온 37.0°C, 호흡수 15회/분, 맥박 67회/분, 혈압 122/98 mmHg이며 오른쪽 견갑골 아래에 국소적인 건성수포음이 들린다. 검사에서 직경 2.5cm의 우하엽 제한기 소세포폐암이 확인되었고 같은 쪽 폐문 및 폐내 림프절을 침범하지만 종격동, 기관분기하, 사각근, 쇄골상 림프절과 원격 전이는 없다. 동반질환이 없고 수행능력도 좋으며 항암제와 방사선치료 금기는 없다. 가장 좋은 치료는 무엇인가?
+72세 남성이 제한병기 소세포폐암으로 백금제 기반 동시 항암방사선치료를 마쳤다. 영상에서 진행은 없고 면역치료 금기도 없다. 공고요법으로 고려할 약은?
 
 ## 선택지
 
-A. 폐엽절제술과 토포테칸 기반 보조항암화학요법
-B. 폐전절제술과 백금 기반 보조항암화학요법 및 흉부 방사선치료
-C. 백금 기반 화학요법+에토포시드 및 흉부 방사선치료
-D. 토포테칸 기반 화학요법과 흉부 방사선치료
+A. 아테졸리주맙
+B. 더발루맙
+C. 오시머티닙
+D. 페메트렉시드
 
 ## 해설
 
 
-폐문/폐내 림프절 침범이 있는 제한기 SCLC에서 수행상태가 좋으면 platinum(cisplatin 또는 적절한 경우 carboplatin)+etoposide와 동시 흉부 방사선치료(C)가 적절한 초기 근치 치료이다. Topotecan은 이 상황의 표준 초기 약제가 아니다. 일부 매우 초기 N0 SCLC는 수술 대상이 될 수 있으나 이 환자는 림프절 양성이다. 동시 항암방사선 후 진행이 없다면 현행 FDA 승인에 따른 durvalumab 공고요법도 평가한다.
+제한병기 소세포폐암이 백금제 기반 동시 항암방사선치료 이후 진행하지 않았다면 더발루맙 공고요법을 고려한다. 오시머티닙은 특정 EGFR 변이 비소세포폐암에서 쓰는 약이다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 토포테칸 기반 화학요법과 흉부 방사선치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004332
+- https://www.fda.gov/drugs/cancer-approvals/fda-approves-durvalumab-limited-stage-small-cell-lung-cancer
+- https://www.health.kr/drug/2020032400010

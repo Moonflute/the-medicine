@@ -15,11 +15,11 @@ related_diseases:
   - "occupational exposure"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
-question_type: prevention
+question_type: monitoring
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-39세 여성이 체중 증가로 가정의학과에 내원했다. 건강한 식사와 규칙적인 운동에도 대부분의 날 피곤하다. 23년간 하루 담배 반 갑을 피웠고, 적십자에서 사혈사로 일한다. 고지혈증으로 아토르바스타틴을 복용하고 예방접종 기록은 없다. BMI 33 kg/m², 혈압 128/78 mmHg이다. 다음 중 현재 적절할 수 있는 예방접종 권고는?
+채혈 업무를 시작하는 의료인이 B형간염 백신 기초접종을 마쳤다. 과거에 감염된 적은 없고 면역억제제를 사용하지 않는다. 이번 접종으로 보호 항체가 생겼는지 언제 무엇으로 확인하는가?
 
 ## 선택지
 
-A. B형간염 예방접종
-B. 저선량 흉부 CT
-C. C형간염 예방접종
-D. 대상포진 예방접종
+A. 마지막 접종 1주 뒤 HBeAg
+B. 첫 접종 당일 HBsAg
+C. 첫 접종 1주 뒤 IgM 항-HBc
+D. 마지막 접종 1~2개월 뒤 정량 항-HBs
 
 ## 해설
 
 
-환자는 의료 종사자로서 혈액 매개 감염 위험이 높으며, B형 간염은 예방접종으로 효과적으로 차단된다. 다른 선택지는 현재 상황과 연관성이 낮다. 따라서 B형 간염 예방접종이 적절하다.
+혈액 노출 위험이 있는 의료인은 기초접종 마지막 회차 1~2개월 뒤 정량 항-HBs로 면역반응을 확인한다. 항-HBs 10mIU/mL 이상이면 보호 반응으로 본다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 대상포진 예방접종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002345
+- https://www.cdc.gov/hepatitis-b/hcp/infection-control/index.html

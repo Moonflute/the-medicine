@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC9Ccm93bi1TZXF1YXJkIOymne2bhOq1sCAoQnJvd24tU2VxdWFyZCBzeW5kcm9tZSkubWQ
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-54세 남자가 5개월 동안 점점 걷기 어려워지고 왼쪽 다리가 저려 내원했다. 처음에는 보행이 불안정했고 이후 오른쪽 다리 근력저하가 진행되었다. 오른쪽 다리는 근긴장도가 증가하고 근력 3/5, 바빈스키 반사는 신전되며 오른쪽 발의 진동감각과 관절위치감각이 감소한다. 배꼽 아래 왼쪽의 통각이 감소한다. 병변은 신경계의 어느 부위에 있을 가능성이 가장 높은가?
+54세 남성의 오른쪽 다리에 경직성 위약이 있고 진동·위치감각이 떨어진다. 왼쪽은 배꼽 아래 통각과 온도감각이 낮다. 병변은 어디에 가장 잘 국소화되는가?
 
 ## 선택지
 
-A. 왼쪽 척수 반쪽
-B. 오른쪽 전두엽
-C. 오른쪽 척수 반쪽
-D. 오른쪽 교뇌
+A. 왼쪽 흉수 반쪽
+B. 오른쪽 흉수 반쪽
+C. 오른쪽 대뇌 반구
+D. 왼쪽 교뇌
 
 ## 해설
 
-오른쪽 피질척수로 손상은 병변 아래 동측 상위운동신경원 위약·경직·Babinski 징후를, 오른쪽 후주 손상은 동측 진동·위치감각 저하를 만든다. 척수시상로 섬유는 들어온 뒤 척수에서 교차하므로 오른쪽 반척수 병변은 반대쪽인 왼쪽 통각·온도감각을 저하시킨다. 이 조합은 Brown–Séquard 양상의 오른쪽 척수 반쪽(C) 병변에 합당하다. 감각 전체가 반대쪽에서 소실되는 것은 아니다.
+척수 반쪽을 침범하면 병변 아래 같은 쪽 운동과 후주 감각, 반대쪽 통각·온도감각이 저하된다. 이 경우 오른쪽 흉수 병변이 가장 잘 설명한다.
 
 ## 검수 근거
 

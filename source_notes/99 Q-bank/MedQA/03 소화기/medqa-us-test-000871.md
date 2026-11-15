@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-41세 남성이 4개월 동안 지속된 복부 불편감과 경련으로 진료를 받으러 왔다. 육안적 혈변과 대부분의 시간에 배변 절박감도 있었다. 수년 전 폭식증과 완하제 남용 병력이 있고 지난 한 달 동안 약 5파운드가량 체중이 감소했다. 체온 37°C(98.6°F), 호흡 15회/분, 맥박 77회/분, 혈압 105/86 mmHg였다. 결막이 약간 창백했고 직장은 홍반, 경결 및 압통이 있었다. 대장내시경에서 직장부터 간만곡까지 점막 병변이 연속적으로 관찰되었다. 가장 가능성 높은 진단은?
+41세 남성이 수개월 동안 혈성 설사, 배변 절박감과 체중 감소를 겪었다. 대변 감염검사는 음성이다. 대장내시경에서 직장부터 간만곡까지 끊기지 않고 이어지는 취약한 염증성 점막이 확인됐다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
 A. 궤양성 대장염
-B. 셀리악병
-C. 과민성 장 증후군
-D. 크론병
+B. 대장 크론병
+C. 과민성장증후군
+D. 현미경적 대장염
 
 ## 해설
 
 
-연속적인 점막 병변이 직장부터 구간까지 이어지는 것은 궤양성 대장염의 특징이다. 이는 연속성 염증으로, 크론병과 구분된다.
+직장에서 시작해 연속적으로 퍼지는 점막 염증과 혈성 설사는 궤양성 대장염을 지지한다. 크론병에서는 병변이 불연속적이거나 깊은 궤양과 협착 등이 동반될 수 있다. 조직검사와 감염 배제 소견을 함께 해석한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 크론병
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000871
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13714434/

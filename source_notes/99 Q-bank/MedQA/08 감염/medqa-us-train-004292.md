@@ -15,9 +15,9 @@ related_diseases:
   - "동물 교상 감염"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-q1kOyDgSDqsJDsl7wgKEJpdGUgV291bmQgSW5mZWN0aW9uKS5tZA
-question_type: 임상증례 객관식
+question_type: prevention
 difficulty: simple
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-7세 여아가 개에게 물린 후 어머니와 함께 응급실에 왔다. 예방접종을 최신 상태로 받은 개와 놀다가 개가 더 공격적으로 놀기 시작해 손에 송곳니로 두 개의 자상 상처가 생겼다. 아이의 예방접종과 건강 상태는 정상이다. 이 상처가 감염된다면 가장 가능성 높은 원인균은 무엇인가?
+4시간 전 개에 물려 손등에 깊은 찔린 상처가 난 환자다. 상처를 충분히 세척했고 아직 발열과 홍반은 없다. 파상풍·광견병 노출은 별도로 평가할 때, 적절한 예방 항생제는?
 
 ## 선택지
 
-A. 녹농균
-B. 파스퇴렐라 멀토시다
-C. 파상풍균
-D. 푸소박테리움
+A. 아목시실린/클라불란산
+B. 세팔렉신
+C. 메트로니다졸 단독
+D. 항생제 없이 염증이 생길 때까지 관찰
 
 ## 해설
 
 
-개·고양이 구강세균인 Pasteurella multocida는 짧은 그람음성 구간균(coccobacillus)이며 동물 물림 감염의 중요한 원인이므로 B가 가장 적절하다. 실제 물림 감염은 여러 호기성·혐기성 균이 함께 관여할 수 있으며 개가 예방접종을 받았다고 일반 세균 감염 위험이 없어지는 것은 아니다.
+손의 깊은 물림 상처는 감염 위험이 높아 예방 항생제를 고려한다. 아목시실린/클라불란산은 동물 구강 세균과 혐기성균을 함께 포괄한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 푸소박테리움
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004292
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5754343/

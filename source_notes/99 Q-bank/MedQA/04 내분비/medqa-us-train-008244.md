@@ -15,7 +15,7 @@ related_diseases:
   - "MEN2"
 related_disease_slugs:
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDsho3sp4jslZQgKFRoeXJvaWQgTWVkdWxsYXJ5IENhcmNpbm9tYSkubWQ
-question_type: management
+question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-21세 남자 대학생이 며칠 전 발견한 목의 덩어리로 갑상선암을 걱정해 내원했다. 3일 동안 설사와 얼굴의 열감이 있다. 아버지와 삼촌 모두 갑상선암을 진단받았다. 덩어리는 1 cm로 단단히 고정되어 있고 무통성이다. 초음파에서 낭성이 아닌 결절이 보이며 세침흡인이 필요하다. 원문은 이를 냉결절이라 부르지만 초음파만으로 섭취 기능을 판정할 수는 없다. 갑상선 기능은 정상이고 칼시토닌은 346 μg/mL이다. 이 환자에서 갑상선절제술을 시행해야 하는 유전자 변이는?
+45세 남성이 갑상선 수질암으로 처음 진단됐다. 부모와 형제 중 알려진 갑상선암이나 내분비 종양 환자는 없다. 가족의 위험 평가에도 영향을 주는 다음 조치는?
 
 ## 선택지
 
-A. MEN1 유전자 변이
-B. RET 유전자 변이
-C. PPARγ 기능상실
-D. BRAF 수용체 활성화 변이
+A. 혈연가족 모두에게 갑상선 예방절제 권유
+B. 환자에게 유전상담 후 생식세포 RET 검사
+C. 환자의 종양 BRAF 검사로 유전 위험 배제
+D. 가족력이 없으므로 유전검사 없이 종료
 
 ## 해설
 
 
-정답 B. 가족성 수질갑상선암/MEN2는 RET 원암유전자의 기능획득 변이와 연관된다. 가족력·갑상선 결절·높은 calcitonin은 이를 우려하게 한다. 초음파는 고형/낭성 등을 보지만 냉결절 여부는 핵의학 섭취 평가 용어이며 초음파만으로 판정하지 않는다. 원문 calcitonin μg/mL는 통상 pg/mL와 크게 다른 단위이므로 확인 없이 임의 환산하지 않는다. 유전성 수질암 의심 시 유전상담/검사와 수술 전 갈색세포종 배제가 중요하다.
+가족력이 없어도 유전성 갑상선 수질암이 배제되지 않는다. 수질암을 진단받으면 생식세포 RET 검사를 고려하고, 병적 변이가 확인되면 혈연가족의 단계적 검사를 안내한다.
 
 ## 검수 근거
 

@@ -13,12 +13,12 @@ related_diseases:
   - "measles"
   - "measles-specific IgM"
   - "maculopapular exanthem"
-question_type: investigation
+question_type: prevention
 related_disease_slugs:
   - MTIg7IKw6rO8L-2ZjeyXrSAoTWVhc2xlcykubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ZmN7JetIChNZWFzbGVzKS5tZA
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 6세 남아가 3일 동안 점점 진행하는 발진으로 내원했다. 발진은 얼굴에서 시작해 전신으로 퍼졌다. 지난 일주일 동안 기침과 콧물이 있었다. 가족과 함께 필리핀에서 방문 중이다. 초등학교 1학년이며 오후에는 방과후 보육 프로그램에 다닌다. 예방접종 기록은 확인할 수 없다. 체온 39.5°C(103°F), 맥박 115회/분, 혈압 105/66mmHg이다. 전신 림프절병증이 있고 몸 전체에 홍반성 반구진성·압박 시 창백해지는 융합성 발진이 부분적으로 보인다. 그 외 검사는 정상이다. 다음 중 진단을 가장 잘 확진할 수 있는 검사는 무엇인가?
+MMR을 맞지 않은 건강한 6세 아이가 36시간 전 같은 교실의 홍역 확진자에게 노출됐다. 증상은 없고 생백신 금기도 없다. 보건소와 접촉자 관리 계획을 세우면서 할 조치는?
 
 ## 선택지
 
-A. 신속 혈장 리아진
-B. 차크 도말검사
-C. 홍역 특이 IgM 항체
-D. 신속 항원 검출검사
+A. 발진이 나타난 뒤 MMR을 접종한다
+B. 노출 1주 뒤에 MMR을 접종한다
+C. 모든 소아 접촉자에게 백신 대신 면역글로불린만 투여한다
+D. 노출 후 72시간 이내에 MMR을 접종한다
 
 ## 해설
 
-고열·기침·콧물 뒤 얼굴에서 퍼진 융합성 발진은 홍역을 의심하게 한다. 보기 중 홍역 특이 IgM(C)이 맞으며, 현행 확인에서는 호흡기 검체 RT-PCR과 혈청 검사를 함께 계획한다. RPR은 매독의 비트레포네마 검사이며 Tzanck 도말은 일부 헤르페스바이러스성 세포 변화에 쓰인다. 격리·공중보건 신고도 중요하고 IgM 하나가 언제나 가장 정확하다는 뜻은 아니다.
+면역이 없고 생백신을 맞을 수 있는 접촉자는 처음 노출된 뒤 72시간 이내에 MMR을 접종한다. 면역저하자 등은 노출 후 예방 방법이 다를 수 있다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 신속 항원 검출검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008579
+- https://www.kdca.go.kr/kdca/2861/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjU1JTJGMzExMDMxJTJGYXJ0Y2xWaWV3LmRvJTNG
+- https://kdca.go.kr/bbs/kdca/55/307391/download.do

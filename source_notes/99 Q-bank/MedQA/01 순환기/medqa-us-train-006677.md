@@ -20,7 +20,7 @@ question_type: prognosis
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-정기 건강검진에서 젊은 남성이 키가 크고 경미한 척추측만증과 오목가슴이 관찰되었다. 어릴 때 키가 95백분위수 이상이라고 들었다. 청진에서 심잡음이 들리고 경흉부 심초음파에서 대동맥근 확장과 승모판 탈출이 확인되었다. 혈액검사에서 피브릴린-1(FBN1) 유전자 돌연변이가 양성이고 혈장 호모시스테인은 정상이다. 다음 중 이 환자에게 위험이 가장 높은 합병증은?
+마르판증후군을 새로 진단받은 23세 남성이 무증상이다. 첫 경흉부 심초음파에서 대동맥근이 약간 확장되었지만 수술 적응증은 아니다. 이후 가장 중요한 영상 추적의 목적은?
 
 ## 선택지
 
-A. 불임
-B. 혈관 또는 장기 파열
-C. 대동맥 박리
-D. 혈관 내 혈전증
+A. 관상동맥 석회화의 연간 점수 변화 확인
+B. 폐동맥의 혈전 유무 확인
+C. 대동맥근과 상행 대동맥 직경 및 확장 속도 확인
+D. 좌심실 내 혈전의 크기 측정
 
 ## 해설
 
 
-FBN1 변이가 확인된 마르판 증후군에서 가장 위험한 합병증은 대동맥 근육층 약화로 인한 대동맥 박리이다. 따라서 대동맥 박리가 가장 높은 위험이다.
+마르판증후군에서는 대동맥근과 상행 대동맥의 확장 및 성장 속도가 박리 위험과 예방적 수술 계획에 중요하다. 정기 영상으로 직경을 비교하고, 추적 간격은 직경과 변화 속도에 맞춰 조절한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ FBN1 변이가 확인된 마르판 증후군에서 가장 위험한 합병증은
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006677
+- ACC/AHA 대동맥질환 진료지침: https://professional.heart.org/en/science-news/2022-guideline-for-the-diagnosis-and-management-of-aortic-disease

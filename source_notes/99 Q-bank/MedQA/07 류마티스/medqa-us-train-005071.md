@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-38세 남자가 2일 동안 점점 심해지는 왼쪽 무릎 통증과 부종으로 내원했다. Ibuprofen을2일간 복용해도 호전되지 않았다. 2개월간 아침에20분 지속되는 등 통증·경직이 있고 제2형 당뇨병, BMI31.5kg/m²이며 누나는 RA가 있다. 4일 전 야구를 하다 무릎을 긁었고, 체온은 39°C, 백혈구 13,500/mm³, ESR 70 mm/h이다. 왼쪽 무릎이 붉고 부어 있으며 운동 범위가 제한되어 있다. 다음 중 가장 적절한 다음 단계는?
+38세 남자가 2일 동안 점점 심해지는 왼쪽 무릎 통증과 부종으로 내원했다. Ibuprofen을2일간 복용해도 호전되지 않았다. 2개월간 아침에20분 지속되는 등 통증·경직이 있고 제2형 당뇨병, BMI31.5kg/m²이며 누나는 RA가 있다. 4일 전 야구를 하다 무릎을 긁었고, 체온은 39°C, 백혈구 13,500/mm³, ESR 70 mm/h이다. 왼쪽 무릎이 붉고 부어 있으며 운동 범위가 제한되어 있다. 가장 적절한 다음 단계는?
 
 ## 선택지
 

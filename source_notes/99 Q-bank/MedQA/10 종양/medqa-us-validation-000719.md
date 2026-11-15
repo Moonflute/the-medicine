@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 question_type: management
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-60세 남성이 1년간 지속되는 기침과 6.35 kg 체중감소로 진료를 받으러 왔다. 비소세포폐암이 왼쪽 주기관지를 침범하고 동측 폐문·기관분기하·사각근 림프절에 전이되었으며 원격전이는 없다. 초기 치료로 가장 적절한 것은?
+절제 불가능한 3기 비소세포폐암이 있는 환자가 근치적 동시 항암방사선치료를 마쳤다. 영상에서 진행은 없고 종양에서 EGFR 엑손 19 결실이 확인됐다. 이 변이를 반영한 공고치료는?
 
 ## 선택지
 
-A. 수술 후 보조 화학요법
-B. 화학요법만 시행
-C. 동시 항암화학방사선요법
-D. 방사선 치료만 시행
+A. 펨브롤리주맙 단독
+B. 게피티니브와 아테졸리주맙 병용
+C. 추가 수술만 시행
+D. 오시머티닙
 
 ## 해설
 
 
-사각근 또는 쇄골상 림프절 전이는 동측·반대측 모두 N3에 해당한다. 따라서 이 환자의 병기를 단순히 동측 종격동 N2로만 설명하면 안 된다. 원격전이는 없지만 N3 국소진행성 비소세포폐암에서 전신 상태가 양호하면 선택지 C의 동시 항암방사선치료가 적절한 초기 접근이다. 이후 치료는 진행 여부·분자표적·면역치료 적격성 등에 따라 결정하며 단순 폐엽절제술만으로 치료하는 상황은 아니다.
+절제 불가능한 3기 비소세포폐암에서 감수성 EGFR 변이가 있고 근치적 항암방사선치료 뒤 진행하지 않았다면 오시머티닙 공고치료를 고려한다. 진행성 폐암 치료나 보조수술을 묻는 상황과 다르다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 방사선 치료만 시행
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000719
+- https://doi.org/10.1200/JCO-24-01324
+- https://doi.org/10.1056/NEJMoa2402614

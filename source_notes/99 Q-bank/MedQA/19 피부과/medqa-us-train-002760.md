@@ -32,7 +32,7 @@ related_drug_slugs:
   - ZHJ1ZzowOCDqsJDsl7wvSXZlcm1lY3Rpbi5tZA
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 머릿니 접촉자 전원 투약을 평가 후 동시 치료로 교정"
 curation_status: "revised"
 curation_reason: "머릿니 접촉자 전원 투약을 평가 후 동시 치료로 교정"

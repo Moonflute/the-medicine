@@ -13,12 +13,12 @@ related_diseases:
   - "bulimia nervosa"
   - "eating disorder"
   - "postpartum depression"
-question_type: risk_factor
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEse2PreyLneymnSAoQnVsaW1pYSBOZXJ2b3NhKS5tZA
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2PreyLneymnSAoQmluZ2UgRWF0aW5nIERpc29yZGVyKS5tZA
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-18세 여성이 임신 첫 달에 산과를 방문했다. 입덧 외에는 건강하다. 과거 체중 증가를 매우 두려워해 체중 감량을 위해 자주 하제를 사용했으며 치료 후 정상 체중을 회복했지만 가끔 질환과 씨름한다. 이 과거 질환은 임신에 어떤 영향을 줄 수 있는가?
+임신 10주인 여성이 과거 신경성 식욕부진증 치료를 받았다. 최근 체중 증가가 두려워 다시 식사를 제한한다. 적절한 관리는?
 
 ## 선택지
 
-A. 신생아 다운증후군
-B. 산모의 산후우울증
-C. 신생아 서맥
-D. 신생아 빈혈
+A. 정규 산전진찰만 하고 출산 후 상담한다
+B. 임신 중 정해진 체중 목표만 전달한다
+C. 초음파에서 태아 성장이 떨어질 때 의뢰한다
+D. 산전진료와 섭식장애 치료를 연계해 영양과 증상을 추적한다
 
 ## 해설
 
-체중 증가에 대한 심한 두려움과 감량 목적의 하제 사용, 치료 후에도 남아 있는 어려움은 섭식장애 병력을 시사한다. 섭식장애 병력은 임신·산후 정서적 어려움과 산후우울증(B)의 위험과 관련될 수 있다. 원문은 폭식이나 구토를 기술하지 않으므로 특정 폭식·제거 아형을 확정하거나 구토·설사 병력을 만들어 넣지 않는다.
+임신 중 섭식장애가 재발하면 산모의 영양·정신건강과 태아 성장을 함께 살피도록 산전진료와 섭식장애 치료를 연계한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 신생아 빈혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002348
+- https://www.nice.org.uk/guidance/ng69/chapter/recommendations

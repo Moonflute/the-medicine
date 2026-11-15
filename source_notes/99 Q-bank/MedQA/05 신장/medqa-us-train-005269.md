@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyGjSDsp4Ttlokg7Yag66as7L2p7Yyl7Je8IChSYXBpZGx5IFByb2dyZXNzaXZlIEdsb21lcnVsb25lcGhyaXRpcykubWQ
 question_type: investigation
 difficulty: complex
-answer: "D"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -37,23 +37,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-34세 여자가 며칠 동안 선홍색 소변을 간헐적으로 봐서 내원했다. 최근 감염은 없고 월경 관련 골반통으로 diclofenac 몇 캡슐을 복용했다. 혈압은 150/90 mmHg이고 무릎까지 2+ 함요부종이 있다. 소변검사에서 적혈구·적혈구 원주·가시적혈구(acanthocyte)가 보이고 단백뇨는 검출되지 않았다. 크레아티닌 2.4 mg/dL, BUN 42 mg/dL, 칼륨 4.8 mEq/L이다. 다음 중 가장 적절한 처치는?
+34세 여성이 육안적 혈뇨와 다리 부종으로 내원했다. 1주 전 0.9 mg/dL였던 크레아티닌이 2.4 mg/dL로 올랐다. 소변에 적혈구 원주와 변형 적혈구가 보이고 초음파에서 폐쇄는 없다. 혈청검사와 병행해 사구체신염의 유형을 확인할 조치는?
 
 ## 선택지
 
-A. NSAID 중단
-B. 포메피졸
-C. 정맥 수액과 전해질 교정
-D. 신장 생검
+A. 진통제만 바꾸고 3개월 뒤 재검
+B. CT 요로조영술만 시행
+C. 정맥 수액만 투여하고 관찰
+D. 신장내과에 긴급 의뢰해 신장 생검을 시행
 
 ## 해설
 
-적혈구 원주와 acanthocyte는 사구체성 출혈을 지지하며 신기능 저하·고혈압·부종이 동반된다. 선택지 중 원인 사구체 질환을 규명할 신장 생검이 적절하다. 단일 creatinine만으로 상승 속도를 알 수는 없으며 필요한 혈청검사·약물 검토와 신장 전문 평가를 병행한다.
+짧은 기간의 신기능 악화와 적혈구 원주는 급속진행성 사구체신염을 의심하게 한다. 혈청검사와 신장 생검으로 원인을 구분하고 신장내과와 치료 시점을 결정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005269
+- https://kdigo.org/guidelines/gd/
 
 ## 오답 포인트
 

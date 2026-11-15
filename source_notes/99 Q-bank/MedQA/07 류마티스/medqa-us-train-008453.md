@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: management
 difficulty: simple
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ related_drug_slugs:
 
 ## 문제
 
-74세 여성이 특별한 과거력 없이 1주 동안 지속된 발열, 멈추지 않는 두통, 엉덩이와 어깨의 뻣뻣함으로 내원했다. 시야 변화는 부인한다. 오른쪽 두피 압통이 있고 통증과 뻣뻣함 때문에 관절 운동 범위가 제한되어 있다. 신경학적 검사는 정상이다. 적혈구 침강속도(ESR)가 75mm/h(여성 정상 범위 0~22mm/h)로 상승해 있다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+74세 여성이 특별한 과거력 없이 1주 동안 지속된 발열, 멈추지 않는 두통, 엉덩이와 어깨의 뻣뻣함으로 내원했다. 시야 변화는 부인한다. 오른쪽 두피 압통이 있고 통증과 뻣뻣함 때문에 관절 운동 범위가 제한되어 있다. 신경학적 검사는 정상이다. 적혈구 침강속도(ESR)가 75mm/h(여성 정상 범위 0~22mm/h)로 상승해 있다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

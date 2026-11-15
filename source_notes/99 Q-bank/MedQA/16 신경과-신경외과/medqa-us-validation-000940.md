@@ -13,11 +13,11 @@ related_diseases:
   - "파킨슨병"
   - "서동증"
   - "렘수면행동장애"
-question_type: investigation
+question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-ugmOyImOuptCDtlonrj5kg7J6l7JWgIChSRU0gU2xlZXAgQmVoYXZpb3IgRGlzb3JkZXIpLm1k
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 남성이 1년 전 시작된 점점 악화되는 떨림으로 진료를 받으러 왔다. 떨림은 왼손에 있고 손으로 과제를 수행하면 호전된다. 하루 종일 몸이 뻣뻣하고 지난 1년간 두 번 넘어졌다. 인지나 기분 변화는 없다. 잠들기 어렵지는 않지만 아내는 거의 10년 동안 꿈을 꿀 때 발로 차고 주먹을 휘둘렀다고 한다. 진찰에서 멍한 표정을 유지한다. 추가 평가에서 가장 가능성 높은 소견은?
+67세 환자가 한쪽 손의 안정떨림을 보인다. 손가락을 빠르게 마주치게 하자 동작이 진행될수록 점점 느려지고 진폭이 작아졌다. 수동운동에 경직도 있다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 발 두드리기에서 진폭 감소
-B. 발바닥 신전 반응
-C. 무도양 운동
-D. 이상 소견 없음
+A. 본태떨림
+B. 소뇌 의도떨림
+C. 파킨슨병
+D. 헌팅턴병
 
 ## 해설
 
-안정 시 떨림·경직·표정 감소는 파킨슨병을 시사한다. 빠른 반복 발 두드리기에서 동작의 속도/진폭이 감소하는 소견(A)은 서동증에 해당한다. 꿈을 꾸며 발로 차고 주먹을 휘두르는 병력은 REM 수면행동장애를 시사하며 파킨슨병에 선행할 수 있지만, 진찰 중 foot-tapping 감소의 직접 기전은 아니다.
+반복 동작의 속도와 크기가 작아지는 서동에 안정떨림이나 경직이 동반되면 파킨슨증에 부합한다. 비대칭 시작과 다른 경고 징후의 부재는 파킨슨병을 지지한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 이상 소견 없음
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000940
+- https://pubmed.ncbi.nlm.nih.gov/26474316/

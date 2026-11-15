@@ -15,9 +15,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7J207Je8IChPdGl0aXMgTWVkaWEpLm1k
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -30,21 +30,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-9개월 된 남아를 1일간 지속된 보챔 증가, 계속되는 울음, 발열로 인해 병원에 데려왔다. 어머니는 아이가 오른쪽으로 눕기를 거부하고 오른쪽 귀를 계속 잡아당기는 것을 관찰했다. 1주일 전 콧물이 있었으나 현재는 호전되었다. 만삭아로 태어났으며 그 외에는 건강했다. 생후 2개월까지 모유만 먹였고 현재는 분유를 먹으며 일부 고형식을 시작했다. 지난 5개월 동안 어린이집에 다녔다. 체온은 38.4°C이고 맥박은 144회/분이다. 이 아동의 이경 검사에서 가장 나타날 가능성이 높은 소견은 무엇인가?
+9개월 영아가 감기에 이어 발열이 나고 오른쪽 귀를 자꾸 잡아당긴다. 급성 중이염을 가장 잘 뒷받침하는 이경 소견은?
 
 ## 선택지
 
-A. 팽윤되고 발적된 고막
-B. 함몰되고 혼탁해진 고막
-C. 외이도의 수포
-D. 외이도 내의 갈색 덩어리
+A. 고막 위치와 운동성은 정상이지만 약간 붉다
+B. 고막은 정상이고 귓구멍이 부어 있다
+C. 고막이 오목하게 들어가 있지만 움직임은 정상이다
+D. 고막이 뚜렷이 불룩하고 공기이경검사에서 잘 움직이지 않는다
 
 ## 해설
 
 
-급성 중이염은 고막이 부풀어 오르고 발적된 모습으로 나타난다. 환아의 발열, 귀를 잡아당기는 행동, 통증을 고려하면 가장 흔한 소견인 팽윤·발적 고막이 맞는다. 따라서 정답은 A이다.
+불룩한 고막은 중이 삼출과 급성 염증을 뒷받침한다. 고막이 붉다는 사실만으로는 급성 중이염을 진단하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000914
+- https://pubmed.ncbi.nlm.nih.gov/22876048/
+- https://www.cdc.gov/antibiotic-use/hcp/clinical-care/pediatric-outpatient.html

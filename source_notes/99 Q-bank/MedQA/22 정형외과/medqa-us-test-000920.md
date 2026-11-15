@@ -18,9 +18,9 @@ question_type: investigation
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-y2lOqwhO2MkO2DiOy2nOymnSAoSGVybmlhdGVkIEludGVydmVydGVicmFsIERpc2MpLm1k
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-69세 남성이 엉덩이와 허리 통증으로 일차진료를 받으러 왔다. 주말에 무거운 물건을 들다가 갑자기 허리 아래쪽 통증이 생겼고 엉덩이에서 다리로 내려가는 전기 오는 듯한 통증이 때때로 있다. 비만, 당뇨병, 우울증, 불안, 게실증, 변비 병력이 있으며 메트포르민, 인슐린, 리시노프릴, 플루옥세틴, 도큐세이트를 복용한다. 진단을 확인하는 데 가장 도움이 되는 검사는?
+무거운 물건을 든 45세 남성의 요통이 엉덩이에서 다리 뒤쪽을 지나 발까지 뻗친다. 요추 신경근 자극을 평가하기 위해 어떤 진찰을 하는가?
 
 ## 선택지
 
-A. 고관절 굴곡·외전·외회전
-B. 하지 직거상 검사
-C. 편 고관절의 내회전
-D. 방사선촬영
+A. 고관절을 굽혀 벌린 뒤 바깥으로 돌린다
+B. 무릎 앞쪽을 눌러 통증을 본다
+C. 누운 상태에서 무릎을 편 채 다리를 들어 방사통이 재현되는지 본다
+D. 허리를 뒤로 젖힌 상태에서 잰다
 
 ## 해설
 
 
-허리 통증과 좌골신경통 증상이 있을 때는 좌골신경 압박 여부를 확인하는 하지 직거상 검사가 가장 유용하다. 따라서 진단을 확인하는 데 가장 도움이 되는 검사는 하지 직거상 검사이다.
+하지직거상검사는 무릎을 편 다리를 들어 신경근성 방사통을 재현하는 검사다. 허리만 아프거나 햄스트링이 당기는 것은 양성 소견과 다르다.
 
 ## 출처
 

@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
   - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
-question_type: mechanism
+question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 아프리카계 미국인 남성이 정기검진을 위해 내원했다. 현재 증상은 없다. 생활습관 개선 상담에도 수축기 혈압은 130–138, 이완기 혈압은 88–95 범위였다. 상담을 잘 따르지 않았다고 인정한다. 약은 복용하지 않고 집에서 웹디자이너로 일한다. 음주는 하지 않지만 매주 대마를 피운다. 체온은 37°C (98.6°F), 혈압은 138/90 mm Hg, 맥박은 76회/분, 호흡수는 12회/분이다. 체질량지수는 29.8 kg/m2이고 몸통 비만과 허리둘레 44인치가 있다. 공복검사에서 혈당 117 mg/dL, 총콜레스테롤 210 mg/dL, LDL 120 mg/dL, HDL 38 mg/dL, 중성지방 240 mg/dL이다. 다음 중 이 환자 상태에 기여하는 기전은 무엇인가?
+38세 한국인 남성의 허리둘레는 92cm, 혈압 126/80 mmHg, 공복혈당 105 mg/dL, 중성지방 170 mg/dL, HDL 콜레스테롤 47 mg/dL이다. 복용 약은 없다. 국내 기준에서 대사증후군 진단을 충족하는 소견 조합은?
 
 ## 선택지
 
-A. 췌장 베타세포의 자가면역 파괴
-B. 인슐린 수용체 저항성
-C. LDL 수용체 유전자 돌연변이
-D. 코르티솔 분비와 작용 과다
+A. 공복혈당과 중성지방만 비정상이라 충족하지 않는다
+B. 복부비만·공복혈당 상승·중성지방 상승으로 충족한다
+C. 혈압과 HDL 이상이 모두 필요해서 충족하지 않는다
+D. 공복혈당이 126 mg/dL 이상이어야 충족한다
 
 ## 해설
 
 
-이 환자는 비만, 고혈압, 고중성지방, 낮은 HDL 등 대사증후군을 보이며, 인슐린 저항성이 핵심 병인이다. 인슐린 수용체에 대한 저항이 혈당 및 지질 이상을 초래한다. 따라서 인슐린 수용체 저항성이 기전이다.
+국내 성인 남성 허리둘레 기준은 90cm 이상이다. 공복혈당 100 mg/dL 이상과 중성지방 150 mg/dL 이상을 합치면 5개 중 3개 기준을 충족한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 코르티솔 분비와 작용 과다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001434
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10088549/

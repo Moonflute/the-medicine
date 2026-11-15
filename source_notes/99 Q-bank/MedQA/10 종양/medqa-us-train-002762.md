@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yXvOymneyEsSDsnKDrsKnslZQgKEluZmxhbW1hdG9yeSBCcmVhc3QgQ2FuY2VyKS5tZA
 question_type: diagnosis
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-임신 3회, 출산 3회인 56세 여성이 지난 2개월 동안 왼쪽 유방이 커지고 뜨거우며 가려워져 내원했다. 1년 전 왼쪽 유방에서 작은 덩이를 느꼈지만 당시 진료를 받지 않았다. 고혈압과 고지혈증이 있다. 초경은 11세, 폐경은 46세였다. 어머니는 45세에 유방암으로 사망했다. 흡연과 음주는 하지 않는다. 현재 라베타롤, 심바스타틴, 매일 저용량 아스피린을 복용한다. 신체검사에서 크고 치밀한 유방이 보이며, 왼쪽 유방 종괴 위로 광범위한 홍반과 부종성 피부판이 있다. 왼쪽 유방은 압통이 있고 왼쪽 액와 림프절병증이 관찰된다. 다음 중 가장 가능성 높은 진단은?
+56세 비수유 여성이 6주 전부터 왼쪽 유방이 빠르게 커지고 붉어졌다고 한다. 홍반과 오렌지 껍질 같은 부종이 유방의 절반 이상을 덮고 액와 림프절이 만져진다. 항생제로 호전되지 않았다. 특히 배제해야 할 진단은?
 
 ## 선택지
 
-A. 유방 파제트병
-B. 유방염
-C. 유방 농양
-D. 염증성 유방암
+A. 유관 확장증
+B. 염증성 유방암
+C. 유두 파제트병
+D. 국소 유방 농양
 
 ## 해설
 
 
-비수유기 여성에서 유방이 빠르게 커지고 넓은 홍반·부종과 종괴, 액와 림프절병증이 동반되어 염증성 유방암(D)을 의심한다. 진피 림프관 내 종양세포 침범이 피부 부종과 오렌지껍질 양상을 일으킬 수 있다. Paget병은 주로 유두-유륜의 습진성 병변이며 양성 감염·농양이 아니다. 유방염·농양은 감별해야 하지만 이 환자의 장기간 종괴와 광범위 피부변화는 악성 원인을 지지한다.
+짧은 기간에 생긴 광범위한 홍반과 피부 부종, 액와 림프절 비대는 염증성 유방암을 의심하게 한다. 비수유기이면서 항생제로 호전되지 않으면 영상과 조직검사로 침윤암을 확인한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 염증성 유방암
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002762
+- https://www.cancer.gov/types/breast/breast-cancer-types/inflammatory

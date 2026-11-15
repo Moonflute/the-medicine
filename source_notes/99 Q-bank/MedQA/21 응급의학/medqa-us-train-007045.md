@@ -20,6 +20,7 @@ related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbzqs7zshLEg7ZeI7ZiIIOuwnOyekSAoVHJhbnNpZW50IGlzY2hlbWljIGF0dGFjaykubWQ
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -36,7 +37,7 @@ related_drug_slugs:
 
 ## 문제
 
-59세 남자가 2시간 동안 지속된 오른쪽 안면 처짐과 불분명한 발음으로 내원했다. 6개월 전에도 비슷한 증상이 있었으나 1시간 이내에 호전되었다고 한다. 고혈압 병력이 있으며 히드로클로로티아지드로 조절 중이다. 10갑년의 흡연력이 있지만 술이나 기분전환용 약물은 사용하지 않는다. 활력징후는 혈압 145/95 mmHg, 맥박 95회/분, 호흡수 18회/분이다. 신체검사에서 미소가 비대칭이고 오른쪽 하안면 근육이 약하다. 혀가 오른쪽으로 편위되어 있다. 구음장애가 보인다. 상지 근력은 오른쪽 4/5, 왼쪽 5/5이며 나머지 신체검사는 정상이다. 다음 중 가장 적절한 다음 치료 단계는 무엇인가?
+59세 남자가 2시간 동안 지속된 오른쪽 안면 처짐과 불분명한 발음으로 내원했다. 6개월 전에도 비슷한 증상이 있었으나 1시간 이내에 호전되었다고 한다. 고혈압 병력이 있으며 히드로클로로티아지드로 조절 중이다. 10갑년의 흡연력이 있지만 술이나 기분전환용 약물은 사용하지 않는다. 활력징후는 혈압 145/95 mmHg, 맥박 95회/분, 호흡수 18회/분이다. 신체검사에서 미소가 비대칭이고 오른쪽 하안면 근육이 약하다. 혀가 오른쪽으로 편위되어 있다. 구음장애가 보인다. 상지 근력은 오른쪽 4/5, 왼쪽 5/5이며 나머지 신체검사는 정상이다. 가장 적절한 다음 치료 단계는 무엇인가?
 
 ## 선택지
 

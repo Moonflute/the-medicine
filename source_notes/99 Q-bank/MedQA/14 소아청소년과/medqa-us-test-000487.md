@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YGs66O5IChDcm91cCkubWQ
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,23 @@ related_drug_slugs:
 
 ## 문제
 
-2세 남아가 호흡곤란으로 부모와 함께 응급실에 왔다. 아이를 재운 지 약 한 시간 후 방에서 ‘거친’ 기침 소리가 들렸고, 부모가 들어가 보니 숨을 쉴 때마다 높은 음의 소리를 내며 힘들어했다. 며칠 동안 콧물이 난 것 외에는 건강했다. 침대에 장난감이나 다른 작은 물체는 없었다. 진찰에서 호흡곤란이 있는 2세 아이였다. 다음 중 적절한 처치는?
+2세 아이가 크루프로 덱사메타손과 분무 에피네프린을 받았다. 30분 뒤 안정 시 협착음이 없어졌고 물도 잘 마신다. 다음 조치는?
 
 ## 선택지
 
-A. 가습 산소와 덱사메타손을 투여하고 호전되면 퇴원
-B. 덱사메타손과 라세미 에피네프린을 투여하고 4시간 관찰한 뒤 협착음이 사라지면 퇴원
-C. 상기도 이물을 제거하기 위해 기관지경검사를 시행한 뒤 퇴원
-D. 경험적 정맥 항생제를 투여하고 기관삽관 후 입원
+A. 지금 바로 퇴원시킨다
+B. 증상과 관계없이 에피네프린을 정해진 간격으로 반복한다
+C. 퇴원 여부를 정하기 위해 목 X선을 촬영한다
+D. 에피네프린 뒤 약효가 줄어드는 동안 관찰해 안정 시 협착음이 돌아오지 않는지 확인한다
 
 ## 해설
 
 
-크루프는 급성 상기도 염증으로 인한 후두 협착을 동반하며, 특징적인 ‘꽥꽥’ 소리와 호흡곤란이 있다. 스테로이드와 흡입형 에피네프린이 급성 증상 완화에 효과적이다. 따라서 스테로이드와 라세미 에피네프린 투여가 정답이다.
+분무 에피네프린의 효과는 일시적이다. 투여 뒤 보통 2–4시간 관찰해 안정 시 협착음이나 호흡곤란이 재발하지 않고 수분 섭취가 가능할 때 퇴원을 검토한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000487
+- https://cps.ca/en/documents/position/acute-management-of-croup
+- https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/

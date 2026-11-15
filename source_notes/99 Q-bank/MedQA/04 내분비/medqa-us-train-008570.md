@@ -17,11 +17,11 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXsoIDtlZjspp0gKEh5cG90aHlyb2lkaXNtKS5tZA
   - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
   - MDQg64K067aE67mEL-2VmOyLnOuqqO2GoCDqsJHsg4Hsg5jsl7wgKEhhc2hpbW90bydzIFRoeXJvaWRpdGlzKS5tZA
-question_type: prognosis
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,24 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-30세 여성이 불규칙하고 양이 많은 월경으로 일차진료를 받으러 왔다. 최근 피로, 관절통, 변비도 호소한다. 신체검사에서 눈썹이 얇아지고 최근 체중이 증가했다. 체온 98.0°F(36.7°C), 혈압 140/90mmHg, 맥박 51회/분, 호흡수 19회/분이다.
-
-검사 결과:
-혈청 Na⁺ 141mEq/L, K⁺ 4.3mEq/L, Cl⁻ 102mEq/L, BUN 15mg/dL, 포도당 115mg/dL, 크레아티닌 1.0mg/dL, 갑상선자극호르몬 11.2µU/mL, 총 T4 2µg/dL, 갑상선글로불린 항체 양성, 항갑상선 과산화효소 항체 양성
-
-다음 중 이 환자가 향후 위험이 증가하는 질환은 무엇인가?
+오래된 하시모토 갑상선염이 있는 67세 여성이 4주 사이 빠르게 커진 목 종괴와 삼킴곤란으로 내원했다. 호흡은 안정적이다. 초음파에서 미만성 저에코 종괴와 경부 림프절 비대가 보인다. 첫 세침흡인 결과는 림프구가 많고 진단 불충분이다. 다음 검사는?
 
 ## 선택지
 
-A. 유두상 갑상선암
-B. 부갑상선 선종
-C. 아급성 갑상선염
-D. 갑상선 림프종
+A. 갑상선호르몬 검사만 6개월 뒤 반복
+B. 갑상선 방사성요오드 섭취율 검사
+C. 갑상선 조직검사 없이 항갑상선 항체 확인
+D. 초음파 유도 중심부바늘생검
 
 ## 해설
 
 
-Hashimoto 갑상선염은 갑상선 림프종(비호지킨 림프종) 위험을 증가시킨다. 환자는 갑상선 기능저하와 항갑상선 항체 양성으로 이 질환에 해당한다. 유두상 갑상선암은 갑상선 결절과 관련되고, 부갑상선 선종은 칼슘 대사와 연관된다.
+하시모토 갑상선염 환자에서 갑상선이 빠르게 커지면 원발성 갑상선 림프종 등 악성 질환을 배제해야 한다. 세침흡인이 불충분하고 림프종이 의심되면 중심부바늘생검으로 조직 구조와 면역표현형을 평가할 수 있다.
 
 ## 검수 근거
 
@@ -65,3 +60,4 @@ Hashimoto 갑상선염은 갑상선 림프종(비호지킨 림프종) 위험을 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008570
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6986975/

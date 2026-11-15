@@ -18,7 +18,7 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-qzoO2ZmOyXvOyghCAoVGVzdGljdWxhciB0b3JzaW9uKS5tZA
   - MjAg67mE64eo6riw6rO8L-q4ieyEsSDrtoDqs6DtmZjsl7wgKEFjdXRlIGVwaWRpZHltaXRpcykubWQ
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 남성이 4시간 동안 진행한 왼쪽 음낭 통증으로 응급실에 왔다. 욱신거리는 통증이 10점 만점에 6점이고 병원으로 오는 길에 한 번 구토했다. 4일간 배뇨통이 있었고 지난 1년간 여성 2명과 성관계를 했으며 콘돔은 일관되게 사용하지 않았다. 왼쪽 고환이 붓고 압통이 있으며 왼쪽 음낭이 홍반성이다. 소변 leukocyte esterase 양성, 백혈구가 보인다. 다음 중 가장 적절한 관리 단계는 무엇인가?
+22세 남성이 4시간 전부터 한쪽 음낭이 아프다. 며칠간 배뇨통이 있었고 농뇨가 있다. 고환의 위치는 정상이나 진찰만으로 염전과 부고환염이 구별되지 않는다. 즉시 시행 가능하고 수술 평가를 지연하지 않는 영상검사는?
 
 ## 선택지
 
-A. 복부·골반 CT
-B. 수술적 탐색
-C. 음낭 초음파
-D. 혈청 유행성이하선염 IgG 역가 측정
+A. 음낭 도플러 초음파
+B. 복부·골반 CT
+C. 골반 MRI
+D. 경직장 초음파
 
 ## 해설
 
-정답은 C, 음낭 초음파이다. 배뇨통·농뇨와 성접촉력은 부고환염을 지지하지만 급성 통증·구토가 있어 고환염전을 감별해야 한다. 진찰과 검사만으로 확실히 구분되지 않으면 도플러 초음파가 유용하다. 단, 염전 가능성이 매우 높으면 즉시 비뇨의학과 평가/수술을 진행하며 영상검사 때문에 지연하지 않는다. 초음파 하나가 부분 염전을 항상 배제하는 것도 아니다.
+진찰로 염전 여부가 분명하지 않을 때 도플러 초음파로 양쪽 고환의 혈류와 부고환을 비교한다. 혈류가 보여도 부분 염전은 배제되지 않으며 임상 의심이 높으면 검사 대기로 수술을 지연하지 않는다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 혈청 유행성이하선염 IgG 역가 측정
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001931
+- https://uroweb.org/guidelines/paediatric-urology/chapter/acute-scrotum

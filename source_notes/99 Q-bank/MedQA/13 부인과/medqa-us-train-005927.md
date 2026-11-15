@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -36,7 +37,7 @@ related_drug_slugs:
 
 ## 문제
 
-17세 여아가 건강검진을 위해 소아과를 방문했다. 건강하지만 아직 초경을 하지 않아 걱정한다. 최근 박동성 좌측 두통과 오심이 생겼고 이부프로펜으로 호전된다. 학교 럭비팀에서 활동하고 역기를 경쟁적으로 든다. 성관계를 하고 있으나 콘돔은 드물게 사용하며 피임약이나 다른 약물은 복용하지 않는다. 체온은 98.6°F(37°C), 혈압은 137/90 mmHg, 맥박은 분당 98회, 호흡수는 분당 17회이다. 신체검사에서 유방 발달과 치모는 정상이고 골반검사를 시행했다. 소변 hCG는 음성이다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+17세 여아가 건강검진을 위해 소아과를 방문했다. 건강하지만 아직 초경을 하지 않아 걱정한다. 최근 박동성 좌측 두통과 오심이 생겼고 이부프로펜으로 호전된다. 학교 럭비팀에서 활동하고 역기를 경쟁적으로 든다. 성관계를 하고 있으나 콘돔은 드물게 사용하며 피임약이나 다른 약물은 복용하지 않는다. 체온은 98.6°F(37°C), 혈압은 137/90 mmHg, 맥박은 분당 98회, 호흡수는 분당 17회이다. 신체검사에서 유방 발달과 치모는 정상이고 골반검사를 시행했다. 소변 hCG는 음성이다. 다음 중 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

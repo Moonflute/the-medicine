@@ -14,13 +14,13 @@ related_diseases:
   - "자궁경부 이형성"
   - "질확대경검사"
   - "Cervical intraepithelial neoplasia"
-question_type: management
+question_type: investigation
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-23세 여성이 정기 건강검진을 위해 내원했다. 건강하며 월경은 30일 간격으로 규칙적이고 5일간 정상 양으로 지속된다. 20세에 임질을 진단받아 치료한 병력이 있다. 3년 동안 매일 담배 한 갑을 피웠고, 매일 와인 한 잔을 마신다. 유일한 약물은 경구피임약이다. 활력징후는 정상이고 골반검사를 포함한 신체검사에서 이상은 없다. 자궁경부 세포검사에서 고등급 편평상피내 병변이 보인다. 다음 중 가장 적절한 처치는?
+임신하지 않은 23세 여성의 자궁경부 세포검사에서 HSIL이 나왔다. 이전에 자궁경부를 치료받은 적은 없다. 이 연령에서 권고되는 다음 조치는?
 
 ## 선택지
 
-A. 질확대경검사
-B. 자궁내막 검체 채취
-C. 6개월 후 세포검사 반복
-D. 고리 전기절제술
+A. 조직 진단 없이 바로 고리 전기절제술을 시행한다
+B. 질확대경으로 평가하고 필요시 표적 생검을 한다
+C. 세포검사 결과와 관계없이 3년 후 검진한다
+D. 자궁내막 생검을 먼저 한다
 
 ## 해설
 
 
-자궁경부 세포검사에서 고등급 편평상피내 병변은 자궁경부암 전암 병변으로, 조직학적 확인을 위해 질확대경검사(콜포스코피)와 생검이 필요하다. 이 검사는 병변의 정확한 등급과 침범 범위를 평가한다. 따라서 가장 적절한 처치는 질확대경검사이다.
+25세 미만에서 고등급 세포검사 이상이 나오면 질확대경 평가가 필요하다. 먼저 조직학적 확인을 하고, 젊은 환자에게 생검 없는 절제 치료를 일률적으로 시행하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009838
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7147428/

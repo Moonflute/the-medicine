@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: investigation
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 22주인 30세 초임부가 4일 동안의 기면, 메스꺼움, 구토로 남편과 함께 응급실에 왔다. 오늘 아침에는 졸린 상태가 되었다. 3주 전 출장으로 수단에 다녀왔으며 여행 중 해산물은 먹지 않았다고 한다. 철분 보충제와 종합비타민을 복용하고 예방접종은 최신이며 수혈받은 적은 없다. 체온 38.9°C(102°F), 맥박 92회/분, 혈압 122/76 mmHg였다. 사람과 장소에 대한 지남력은 있었고 황달과 경미한 날개짓 떨림이 보였다. 골반 진찰에서 자궁 크기는 임신 22주에 해당했다. 혈색소 11.2 g/dL, 프로트롬빈 시간 18초(INR 2.0), 총 빌리루빈 4.4 mg/dL, ALP 398 U/L, AST 4,702 U/L, ALT 3,551 U/L, LDH 3,412 U/L였다. 항핵항체, 항평활근항체, 항CMV항체, 항EBV 핵항원항체 및 HIV ELISA는 모두 음성이었다. 다음 중 진단을 확진하는 데 가장 유용한 검사는?
+임신 22주 산모가 E형간염 유행지역에서 돌아온 뒤 황달과 혼돈을 보인다. 간수치는 크게 올랐고 INR은 2.0이다. 급성 간부전 대응과 이식센터 연락을 하면서, 최근 E형간염을 평가할 혈청 검사는?
 
 ## 선택지
 
-A. B형간염 표면항원
-B. A형간염 IgG 항체
-C. C형간염 IgG 항체
-D. E형간염 IgM 항체
+A. A형간염 IgG
+B. C형간염 IgG
+C. E형간염 IgM
+D. B형간염 표면항체
 
 ## 해설
 
-수단 여행 후 발열·황달, 현저한 간세포 손상과 INR 상승·의식 변화는 급성 간염 및 간부전을 시사한다. 역학적 맥락에서 HEV가 중요하며 임신 중 중증화할 수 있다. 선택지 중 급성 HEV를 확인하는 검사는 anti-HEV IgM(D)이다. 간수치만으로 다른 급성 간염과 구별할 수는 없다.
+급성 E형간염은 특이 IgM으로 평가하고 필요시 HEV RNA 등으로 확인한다. 임신에서는 중증화할 수 있으며, 의식 변화와 응고장애가 있으면 원인검사 결과를 기다리며 간부전 대응을 미루지 않는다.
 
 ## 검수 근거
 

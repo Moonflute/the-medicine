@@ -15,7 +15,7 @@ related_diseases:
   - "malignancy association"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-yXvOymneyEsSDqt7zrs5Hspp0gKEluZmxhbW1hdG9yeSBNeW9wYXRoeSkubWQ
-question_type: prognosis
+question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-33세 여성이 새로 진단된 자가면역질환으로 고용량 코르티코스테로이드를 시작한 뒤 추적 진료를 위해 내원했다. 한 달 전 피로, 근력 약화, 양손의 인설성 발진으로 처음 평가받았고, 상지 근력은 2/5였다. 크레아틴키나아제-MB가 상승했고 항-Jo-1 항체가 관찰되었다. 이후 근육 생검에서 근주위 염증이 확인되어 치료를 시작했다. 오늘 코르티코스테로이드 치료에도 증상이 호전되지 않았다고 하며, 조절을 위해 메토트렉세이트를 시작하기로 했다. 다음 중 이 환자의 질환과 가장 흔히 연관되는 것은 무엇인가?
+52세 여성이 성인 발병 피부근염으로 진단됐다. 항TIF1γ 항체가 양성이고 연하곤란과 의도하지 않은 체중 감소가 있다. 기저 악성종양 평가 계획으로 적절한 것은?
 
 ## 선택지
 
-A. 유방암
-B. 급성 골수성 백혈병
-C. 포도막염
-D. 호지킨 림프종
+A. 나이·성별에 맞는 국내 검진 외에 근염 관련 위험에 맞춰 추가 암 평가를 한다
+B. 근염이 완전히 호전될 때까지 모든 검진을 연기한다
+C. 피부근염은 암과 무관해 검진을 중단한다
+D. 모든 환자에서 유방 검사 한 종류만 한다
 
 ## 해설
 
 
-피부발진과 inflammatory myopathy의 연관 질환 중 보기에서는 유방암 A가 적절하다. 성인 dermatomyositis 등은 암과 연관될 수 있지만 특정 암종이 모든 지역·연령·근염 아형에서 최다라는 뜻은 아니다. Anti-Jo-1/antisynthetase 표현형은 다른 IIM군에 비해 상대적으로 낮은 암위험 인자로 분류되며, 연령·임상경과·다른 항체와 함께 위험을 층화해 검진한다. 이 문항만으로 현재 유방암이 있다고 진단하는 것은 아니다.
+성인 피부근염에서 고령 발병, 항TIF1γ 양성, 연하곤란 등은 암 위험을 높인다. 국가 검진을 기본으로 위험군에 맞춰 추가 평가를 진행한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 호지킨 림프종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008620
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10834225/

@@ -15,7 +15,7 @@ related_diseases:
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yKueuqqO2MkOuniSDtmJHssKkgKE1pdHJhbCBTdGVub3NpcykubWQ
   - MDEg7Iic7ZmY6riwL-2MkOunieyniO2ZmC5tZA
-question_type: prognosis
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 여성이 악화되는 피로감과 호흡곤란으로 내원하였다. 증상은 8개월 전 시작되었으며 그 이후로 점진적으로 악화되었다. 환자는 어린 시절 재발성 관절통과 발열을 겪은 적이 있다. 흡연이나 음주는 하지 않는다. 12세 때 부모님과 함께 콩고에서 이주해 왔다. 체온은 37.4°C, 맥박은 분당 90회로 규칙적이며, 호흡수는 분당 18회, 혈압은 140/90 mmHg이다. 좌측 제5늑간의 쇄골중앙선에서 개방음(opening snap)과 뒤이은 확장기 잡음이 들린다. 치료하지 않을 경우, 이 환자에게 발생할 위험이 가장 높은 합병증은 다음 중 무엇인가?
+32세 여성이 보행 시 호흡곤란으로 왔다. 심초음파에서 류마티스성 승모판협착(판막 면적 0.9 cm²), 판막 교련 융합과 시술에 적합한 형태가 확인됐다. 승모판 역류는 경미하고 경식도 심초음파에서 좌심방 혈전은 없다. 증상을 개선하기 위한 판막 치료는?
 
 ## 선택지
 
-A. 식도 압박
-B. 장 혈관이형성증으로 인한 출혈
-C. 좌심실 비대
-D. 심실 빈맥
+A. 경피적 승모판 교련절개술
+B. 경피적 승모판 가장자리접합술
+C. 경피적 대동맥판막삽입술
+D. 인공판막 치환술을 일차로 시행
 
 ## 해설
 
-정답은 A이다. 류마티스성 승모판 협착의 opening snap과 이완기 잡음이 있다. 만성적으로 좌심방압이 상승하여 좌심방이 크게 늘어나면 바로 뒤의 식도를 압박할 수 있어 제시된 보기 중 A가 적합하다. 좌심실 부담/비대가 압박의 기전은 아니다. AF·색전/뇌졸중·폐고혈압 등 다른 중요 합병증이 없다는 뜻이나 식도 압박이 전반적으로 가장 위험하다는 뜻도 아니다.
+증상이 있는 중증 류마티스성 승모판협착에서 판막 형태가 적합하고 좌심방 혈전이나 경도 초과의 승모판 역류가 없으면 경피적 승모판 교련절개술을 우선 고려한다. 혈전이나 의미 있는 역류가 있으면 시술 여부가 달라진다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 심실 빈맥
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001188
+- https://academic.oup.com/eurheartj/article/46/44/4635/8234488

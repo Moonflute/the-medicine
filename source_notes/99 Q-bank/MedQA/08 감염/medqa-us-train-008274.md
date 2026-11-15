@@ -15,11 +15,11 @@ related_diseases:
   - "ingestion of human fecal eggs"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-q4sOyDney2qS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-37세 남자가 발작 후 아내와 함께 응급실에 왔다. 일주일 동안 두통, 우측 눈 시야 흐림, 팔과 목의 근육통이 있었다. 발작 병력은 없고 일주일 전까지 시력은 정상이었다. 편두통은 이부프로펜으로 호전되었다. 에콰도르에서 이민해 6년째 살며 가족을 방문하러 자주 돌아간다. 의식이 혼돈되어 있고 안과검사에서 망막하 낭종, 뇌 MRI에서 다수의 작은 고리형 조영증강 병변, 뇌척수액에서 호산구 증가가 보인다. 이 환자 감염의 직접 원인은?
+유행 지역 체류력이 있는 환자가 첫 발작으로 진료받았다. MRI에서 신경낭충증에 합당한 유충 낭종이 여러 개 보이고 발작은 조절됐다. 환자가 새로 한쪽 시야가 흐리다고 한다. 항기생충제를 시작하기 전에 우선 할 일은?
 
 ## 선택지
 
-A. 익히지 않은 생선 섭취
-B. 고양이 분변의 충란 섭취
-C. 사람 분변의 충란 섭취
-D. 항문 주위를 긁은 후 충란 섭취
+A. 장내 기생충 검사 결과만 기다린다
+B. 안과 평가 없이 알벤다졸을 즉시 시작한다
+C. 시야 증상은 뇌 병변 탓으로 보고 눈 검사는 생략한다
+D. 안과에서 안저검사를 시행해 안구 내 낭충을 확인한다
 
 ## 해설
 
 
-신경낭충증은 인간 대변에 포함된 알(인간 배설물) 섭취가 원인으로, 감염의 직접 원인은 사람 분변의 충란 섭취이다.
+안구 내 낭충이 있는 상태에서 항기생충제로 염증이 생기면 시력이 손상될 수 있다. 신경낭충증에서 치료 전 안저검사를 하고 안구 내 병변이 있으면 제거 등 치료 순서를 전문팀과 정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 항문 주위를 긁은 후 충란 섭취
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008274
+- https://www.idsociety.org/practice-guideline/neurocysticercosis/

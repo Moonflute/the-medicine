@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6riJ7ISxIOyEuOq4sOq0gOyngOyXvCAoQWN1dGUgQnJvbmNoaW9saXRpcykubWQ
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,21 +39,22 @@ related_drug_slugs:
 
 ## 문제
 
-16개월 남아가 5일 동안 두 번째로 빠른 호흡, 호기성 천명과 저산소증으로 응급실에 왔다. 처음에는 콧물, 발열, 기침으로 내원해 비강 흡인 후 귀가했으나 이후 흉곽 함몰과 빈호흡이 생겼다. 체온 100.7°F, 호흡수 45회/분, 산소포화도 90%이다. 가장 적절한 치료는?
+8개월 영아의 첫 세기관지염으로 흉곽 함몰이 있고, 코 분비물을 정리한 뒤에도 실내 공기에서 산소포화도 88–89%가 지속된다. 수유량은 평소의 절반이고 지쳤지만 무호흡은 없다. 초기 처치는?
 
 ## 선택지
 
-A. 가습 산소, 라세믹 에피네프린, 정맥 덱사메타손
-B. 기관삽관과 정맥 세푸록심
-C. 정맥 세포탁심과 정맥 반코마이신
-D. 비강 흡인, 산소 치료와 정맥 수액
+A. 산소를 공급하고 수유·수분 상태를 보며 필요시 경관 또는 정맥으로 수분을 보충
+B. 기관지확장제와 스테로이드만 투여한 뒤 의무적으로 귀가
+C. 세균 감염 근거 없이 정맥 항생제를 우선 투여
+D. 수유량과 산소포화도를 평가하지 않고 즉시 삽관
 
 ## 해설
 
 
-세기관지염에 의한 호흡곤란은 기도 분비물 제거와 산소 공급이 우선이다. 비강 흡인, 산소 치료 및 정맥 수액이 가장 적절한 초기 치료이다.
+지속적인 저산소증은 산소 공급의 적응증이다. 경구로 충분히 먹기 어렵다면 추가 수분 공급이 필요하며, 산소 반응·호흡 피로에 따라 지원을 높인다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005076
+- https://doi.org/10.1111/jpc.70144

@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTAg7KKF7JaRL-yiheyWkeuCtOqzvC5tZA
 question_type: management
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-버킷 림프종으로 응급 화학요법을 받은 7세 남아가 손가락, 발가락과 얼굴의 이상감각이 생겼다. 혈압계 커프를 부풀리면 수근경련이 발생하고 6시간 동안 소변량은 20 mL이다. 칼륨 6.5 mEq/L, 칼슘 6.6 mg/dL, 요산 12 mg/dL, 크레아티닌 3.4 mg/dL이다. 페북소스타트를 시작했다. 가장 적절한 다음 처치는?
+버킷 림프종 항암 직후 핍뇨, 급성 신손상과 인산·요산 상승이 나타났다. 고칼륨혈증 응급치료를 했는데도 칼륨이 6.7mEq/L로 유지되고 소변량이 매우 적다. 다음 처치는?
 
 ## 선택지
 
-A. 혈액투석
-B. 정맥 0.9% 생리식염수
-C. 중탄산나트륨
-D. 기관내 삽관
+A. 요산 억제제를 바꾸고 다음 날 칼륨을 확인한다
+B. 신대체요법을 긴급히 시작한다
+C. 칼륨이 떨어질 때까지 정맥 수액만 계속 늘린다
+D. 소변을 알칼리화하는 치료만 시행한다
 
 ## 해설
 
 
-항암 후 심한 핍뇨와 신손상, K 6.5mEq/L, 산증 및 증상성 저칼슘혈증은 중증 TLS를 시사한다. 선택지 중 신속한 혈액투석(A)이 필요한 상황이며 지속 신대체요법 등 구체 방법은 상태에 맞춘다. 동시에 심전도 감시와 고칼륨 응급 안정화·일시적 세포내 이동 치료를 진행한다. 소변이 거의 없는 상황에서 수액만 계속 늘리거나 소변 알칼리화로 해결하려 하지 않는다.
+종양용해증후군에서 초기 응급처치에 반응하지 않는 고칼륨혈증이나 심한 핍뇨성 신손상이 있으면 신대체요법을 지연하지 않는다. 기다리는 동안 심전도 감시와 고칼륨혈증 치료를 지속한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 기관내 삽관
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001172
+- https://pubmed.ncbi.nlm.nih.gov/40903841/

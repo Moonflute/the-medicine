@@ -13,11 +13,11 @@ related_diseases:
   - "cerebral palsy"
   - "spastic diplegia"
   - "prematurity"
-question_type: prognosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64eM7ISxIOuniOu5hCAoQ2VyZWJyYWwgUGFsc3kpLm1k
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-15개월 남아가 비정상적인 근긴장과 걷지 못하는 문제로 어머니와 함께 소아과에 왔다. 생후 5개월에 머리를 가눴고, 8개월에 뒤집었으며, 11개월에 앉았고, 13개월에 한 손을 다른 손보다 선호하기 시작했다. 신체검사에서 비대칭적으로 기어 다니는 모습이 관찰된다. 속도 의존적으로 근긴장이 증가하고 이두근과 슬개건 반사가 3+이다. 놀람반사, 비대칭 긴장성 경반사, 바빈스키 반사가 나타난다. 다음 중 이 환자의 임상 양상이 발생하는 가장 흔한 위험요인은?
+13개월 아이가 생후 9개월부터 왼손만 써 왔다. 오른손은 자주 주먹을 쥐고, 기어갈 때 오른쪽 다리를 끈다. 진찰에서도 오른쪽 팔다리의 경직과 항진반사가 확인된다. 가장 적절한 해석은?
 
 ## 선택지
 
-A. 다산
-B. 주산기 저산소성 손상
-C. 미숙아 출생
-D. 뇌졸중
+A. 일찍 왼손잡이가 된 정상 변이다
+B. 아직 걷지 못할 수 있으므로 두 돌까지 평가할 필요가 없다
+C. 양쪽 다리를 쓰므로 근력 차이는 의미가 없다
+D. 편측 운동장애를 의심하고 소아신경 및 조기재활 평가를 연결한다
 
 ## 해설
 
-운동 발달 지연, 이른 한 손 선호·비대칭 기기, 경직·항진반사는 경직성 뇌성마비를 시사한다. 보기 중 중요한 흔한 위험요인은 미숙아 출생(C)이다. 모든 사례가 주산기 질식 때문인 것은 아니다.
+돌 전 뚜렷한 한 손 선호와 비대칭 운동, 항진반사는 단순한 손잡이가 아닌 편측 운동장애의 단서다. 병인을 평가하면서 조기지원을 연결한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 뇌졸중
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007694
+- https://www.aacpdm.org/publications/care-pathways/early-detection-of-cerebral-palsy/

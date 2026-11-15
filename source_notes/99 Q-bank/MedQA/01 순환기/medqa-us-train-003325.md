@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 이민자가 건강검진을 위해 처음으로 주치의를 방문했다. 과거력은 모르며 과거 실신과 발작처럼 보이는 에피소드가 있었지만 치료받지 않았다. 신체검사에서 감각신경성 난청이 있다. 다음 중 심전도에서 가장 가능성 높은 변화는?
+감각신경성 난청이 있는 22세 남성이 달리다가 여러 차례 의식을 잃었다. 목격자는 수 초간 몸이 떨렸지만 의식을 되찾자 바로 질문에 답했다고 한다. 선천성 부정맥을 의심하게 하는 심전도 소견은?
 
 ## 선택지
 
-A. 뾰족한 T파
-B. QRS 간격 연장
-C. QT 간격 연장
-D. QT 단축
+A. 높고 뾰족한 T파
+B. 호흡에 따라 변하는 동성 부정맥
+C. 지속적으로 연장된 QTc
+D. 1도 방실차단
 
 ## 해설
 
 
-감각신경성 난청과 동반된 장시간 QT 연장은 Jervell and Lange‑Nielsen 증후군(선천성 장 QT 증후군)과 일치한다. 따라서 정답은 C이다.
+운동 중 실신과 감각신경성 난청이 함께 있으면 감각신경성 난청을 동반한 선천성 긴QT증후군(예: Jervell–Lange-Nielsen 증후군)을 고려한다. 실신 중 짧은 근육 떨림만으로 뇌전증을 단정하지 말고 심전도에서 QTc를 확인한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. QT 단축
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003325
+- https://k-hrs.org/assets/file/07_2024_Korean_Arrhythmia_Society_sudden_cardiac_Guidelines.pdf

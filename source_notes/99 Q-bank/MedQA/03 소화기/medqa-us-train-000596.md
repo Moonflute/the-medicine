@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQu2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEIgKEhCVikpLm1k
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEgQu2YlSDqsITsl7wgKEFjdXRlIEhlcGF0aXRpcyBCKS5tZA
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-47세 여성이 3주간 지속된 전신 피로감, 미열, 복통, 구역질을 주소로 내원하였다. 환자는 한 달 전 지역 축제에 참석하여 여러 지역 음식을 먹었으며, 이것이 원인이 아닐까 생각하고 있다. 또한 최근 물을 충분히 마시지 않아 소변 색이 진해졌다고 생각하고 있다. 환자는 제2형 당뇨병이 있다. 매일 맥주 1~2잔을 마신다. 재활 시설에서 간호조무사로 일하고 있다. 현재 복용 중인 약물은 글리부라이드(glyburide), 시타글립틴(sitagliptin), 종합비타민이다. 환자는 피로해 보인다. 체온은 38.1°C, 맥박은 99회/분, 혈압은 110/74 mmHg이다. 진찰상 경미한 공막 황달이 관찰된다. 간은 우측 늑골 하단 2~3cm 아래에서 촉지되며 압통이 있다. 검사실 소견은 다음과 같다: 혈색소 10.6 g/dL, 백혈구 수 11600/mm3, 혈소판 수 221,000/mm3. 혈청 요소질소 26 mg/dL, 포도당 122 mg/dL, 크레아티닌 1.3 mg/dL, 빌리루빈 3.6 mg/dL (총 3.6 mg/dL, 직접 2.4 mg/dL), 알칼리성 인산분해효소 72 U/L, AST 488 U/L, ALT 798 U/L. A형 간염 IgG 항체(HAV-IgG) 양성, B형 간염 표면 항원(HBsAg) 양성, B형 간염 핵심 IgG 항체(anti-HBc) 양성, B형 간염 외피 항원(HBeAg) 양성, C형 간염 항체(anti-HCV) 음성. 가장 가능성이 높은 진단은 무엇인가?
+47세 여성의 B형간염 표면항원(HBsAg)이 2년간 양성이었다. 현재 새 복수를 동반한 비대상성 간경변이 확인됐다. ALT는 정상이고 HBeAg는 음성이지만 HBV DNA는 1,200 IU/mL로 검출된다. 적절한 처치는?
 
 ## 선택지
 
-A. 비활동성 만성 B형 간염 감염
-B. 급성 B형 간염 감염
-C. 활동성 만성 B형 간염 감염
-D. 알코올성 간염
+A. ALT가 정상이라 매년 추적만 한다.
+B. HBV DNA가 20,000 IU/mL를 넘을 때까지 기다린다.
+C. 엔테카비르 등 경구 항바이러스 치료를 시작한다.
+D. 페그인터페론을 먼저 투여한다.
 
 ## 해설
 
-정답은 C이다. HBsAg·anti-HBc IgG·HBeAg 양성과 높은 ALT는 복제/염증 활성이 있는 만성 HBV 감염의 맥락에 가장 합당하다. 실제 만성성은 HBsAg 지속 기간 등으로 확인하고 HBV DNA로 활성을 평가한다. 급성 감염은 anti-HBc IgM이 중요하지만 만성 악화에서도 나타날 수 있다. HBeAg 음성 만성 간염도 존재하므로 HBeAg 음성만으로 비활동성이라고 단정하지 않는다.
+B형간염 비대상성 간경변에서 HBV DNA가 검출되면 ALT나 HBeAg 상태에 관계없이 경구 항바이러스 치료를 시작한다. 비대상성 간경변에서는 페그인터페론을 사용하지 않으며 이식 적합성도 별도로 평가한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 알코올성 간염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000596
+- https://doi.org/10.3350/cmh.2026.0579

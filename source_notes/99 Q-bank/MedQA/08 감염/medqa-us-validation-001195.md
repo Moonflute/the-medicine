@@ -15,11 +15,11 @@ related_diseases:
   - "무비증"
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k
-question_type: mechanism
+question_type: prevention
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-32세 남성이 발열, 두통, 혼돈과 경부강직으로 응급실에 왔다. 과거 교통사고 후 비장절제술을 받았고, 뇌척수액에서 단백질 상승, 포도당 감소와 그람양성 쌍구균이 보인다. 이 환자의 기저 질환 위험을 높인 요인은?
+외상으로 비장절제술을 받은 32세 환자의 폐렴구균 백신 접종력이 없다. 퇴원 후 침습성 폐렴구균 감염을 예방하기 위한 국내 권고 접종 방법 중 하나는?
 
 ## 선택지
 
-A. 선천성 체액성 면역결핍
-B. 단일 장기의 기능장애
-C. 여러 장기의 기능장애
-D. 진단되지 않은 바이러스 감염
+A. 65세까지 접종을 미룬다
+B. 13가 폐렴구균 결합백신 1회만 정기적으로 반복 접종
+C. 수막구균 백신만 접종하고 폐렴구균 백신은 생략
+D. 20가 폐렴구균 결합백신 1회
 
 ## 해설
 
 
-비장은 혈액 내 미생물과 항원을 제거하는 기능을 담당한다. 비장절제로 인한 단일 장기의 면역기능 상실(무비증)이 폐렴구균 같은 그람양성 쌍구균 감염 위험을 크게 높인다. 정답은 단일 장기의 기능장애이다.
+해부학적 무비증 환자는 65세 미만이어도 폐렴구균 접종 대상이다. 20가 결합백신 1회는 권고 선택지 중 하나다. 다른 선택지로 21가 결합백신 1회 또는 15가 결합백신에 이은 23가 다당백신이 있다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 진단되지 않은 바이러스 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001195
+- https://icjournal.org/DOIx.php?id=10.3947%2Fic.2026.0063

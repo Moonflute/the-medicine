@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsiqTtirjrprDsooUgKEdhc3RyaW5vbWEpLm1k
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsobHshLEg7ISg7KKF7ISxIOyaqeyiheymnSAoRkFQKSAoRmFtaWxpYWwgQWRlbm9tYXRvdXMgUG9seXBvc2lzKS5tZA
-question_type: 임상증례 객관식
+question_type: investigation
 difficulty: standard
 answer: D
 translation_status: machine-verified
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-36세 여자가 12개월간 지속된 상복부 통증으로 내원했다. 식후 통증이 악화되며 강도는 10점 만점에 7점이다. 지난 1년 동안 오심, 속쓰림, 혈액이나 점액이 없는 설사가 여러 차례 있었다. 8개월 전 상부 내시경에서 위전정부, 유문, 십이지장에 여러 궤양과 두꺼워진 위주름이 보였다. 궤양 생검은 헬리코박터 파일로리 음성이었다. 현재 판토프라졸과 일반의약품 제산제를 복용한다. 불안해 보이며 활력징후는 정상이다. 복부는 부드럽지만 명치와 배꼽 주위 촉진에 압통이 있다. 대변 잠혈검사는 양성이다. 반복 상부 내시경에서 최소한의 출혈을 동반한 위궤양과 십이지장궤양이 지속된다. 진단을 위한 다음 단계로 가장 적절한 것은 무엇인가?
+36세 여성이 NSAID를 쓰지 않고 헬리코박터 검사도 음성인데 위와 원위부 십이지장에 여러 궤양이 재발한다. 굵은 위주름과 만성 수양성 설사가 있다. 가스트린종을 의심할 때 처음 시행하는 생화학적 평가는?
 
 ## 선택지
 
-A. 세크레틴 자극검사
-B. 요소호기검사
-C. 24시간 식도 pH 모니터링
-D. 공복 혈청 가스트린 수치 측정
+A. 세크레틴 자극검사만 시행
+B. 식후 혈청 가스트린
+C. 24시간 식도 pH 검사
+D. 공복 혈청 가스트린과 위 내용물 pH
 
 ## 해설
 
-난치성 다발궤양·두꺼운 위주름·설사는 ZES를 의심하게 하므로 fasting gastrin D를 측정한다. PPI는 위산억제에 따른 gastrin 상승을 유발하므로 gastric pH·복용약/검사조건을 함께 해석하고 필요 시 추가기능검사로 확인한다. 의심 ZES 환자의 PPI를 임의로 급중단해서는 안 된다.
+다발·재발 궤양과 수양성 설사는 졸링거–엘리슨 증후군의 단서다. 공복 가스트린 상승을 위의 산도 및 약물 사용과 함께 해석한다. 애매하면 전문 평가에서 추가 검사를 고려하며, PPI를 환자가 임의로 끊게 하지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 공복 혈청 가스트린 수치 측정
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003990
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3701449/

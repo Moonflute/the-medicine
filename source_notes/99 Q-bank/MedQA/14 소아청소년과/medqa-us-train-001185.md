@@ -16,6 +16,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-4개월 된 여아가 지난 3주 동안 수유 후 10~15분 뒤에 역류와 구토를 하여 병원에 내원하였다. 환아는 모유와 분유를 혼합 수유 중이다. 재태 주령 38주에 출생하였으며 출생 시 체중은 2966g이었다. 현재 체중은 5878g이다. 환아는 건강해 보인다. 활력 징후는 정상 범위 내에 있다. 신체 검진상 복부는 부드럽고 압통은 없으며 장기 비대도 관찰되지 않는다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+4개월 된 여아가 지난 3주 동안 수유 후 10~15분 뒤에 역류와 구토를 하여 병원에 내원하였다. 환아는 모유와 분유를 혼합 수유 중이다. 재태 주령 38주에 출생하였으며 출생 시 체중은 2966g이었다. 현재 체중은 5878g이다. 환아는 건강해 보인다. 활력 징후는 정상 범위 내에 있다. 신체 검진상 복부는 부드럽고 압통은 없으며 장기 비대도 관찰되지 않는다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

@@ -15,9 +15,9 @@ related_diseases:
   - "베릴륨 노출"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-ycoOycoeyiheymnSAoU2FyY29pZG9zaXMpLm1k
-question_type: 임상증례 객관식
+question_type: investigation
 difficulty: simple
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-68세 남자가 점점 심해지는 호흡곤란과 기침으로 내원했다. 흉부 X선에서 폐문 림프절이 두드러지고 산재한 결절성 침윤이 보인다. 후자의 생검에서 비건락성 육아종이 확인되었다. 이 환자가 다음 중 어떤 물질에 노출된 병력이 있을 가능성이 가장 높은가?
+68세 남성이 마른기침과 운동 시 호흡곤란으로 왔다. 항공기 금속부품 공장에서 일했고 베릴륨 합금을 장기간 가공했다. 폐문 림프절이 크고 폐 조직에 비괴사성 육아종이 있다. 감염 검사는 음성이다. 사르코이드증과 감별하는 데 가장 도움이 되는 검사는?
 
 ## 선택지
 
-A. 유기성 먼지
-B. 석탄 먼지
-C. 베릴륨
-D. 실리카
+A. 베릴륨 림프구 증식검사(BeLPT)
+B. 혈청 ACE 농도만 확인한다
+C. 일산화탄소 확산능 검사만 시행한다
+D. 혈청 아스페르길루스 특이 IgE 검사
 
 ## 해설
 
-만성 beryllium disease는 폐문림프절병증·간질결절·비건락성 육아종으로 sarcoidosis와 유사하여 노출 선택지 중 C가 부합한다. 비건락성 육아종은 sarcoidosis·과민성폐렴 등에서도 보여 beryllium에 특이적이지 않다. 직업력과 특이검사로 평가한다.
+만성 베릴륨병은 폐문 림프절 비대와 비괴사성 육아종이 나타나 사르코이드증과 유사하다. 직업성 노출력을 확인하고 BeLPT로 베릴륨에 대한 감작을 평가한다. 육아종 모양이나 ACE 수치만으로 둘을 구별할 수 없다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 실리카
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004007
+- https://www.thoracic.org/statements/resources/eold/beryllium-full-text.pdf

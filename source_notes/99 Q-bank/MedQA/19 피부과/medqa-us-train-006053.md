@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-q4sOyggCDshLjtj6zslZQgKEJhc2FsIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-67세 남성의 코에 붉은 점이 생겨 피부과로 의뢰되었다. 2년 동안 크기가 변했고 가끔 출혈도 있다. 특별한 병력이나 복용 약물은 없으며 15년 전 건설업에서 은퇴했다. 코 날개에 진주빛을 띠고 위에 모세혈관확장이 있는 2cm 분홍색 구진이 보인다. 수술이 불가능하다면 다음 중 가장 적절한 치료 방법은 무엇인가?
+67세 환자의 코 날개에서 재발한 2 cm 기저세포암이 생검으로 확인됐다. 수술은 가능하고 정상 조직을 최대한 보존하면서 절제연을 확인해야 한다. 적절한 치료는?
 
 ## 선택지
 
-A. 광역학 치료
-B. 5-플루오로우라실
-C. 방사선 치료
-D. 인터페론
+A. 모스미세도식수술
+B. 냉동치료만 시행
+C. 국소 항진균제
+D. 광범위한 병변에도 국소 5-플루오로우라실만 사용
 
 ## 해설
 
 
-코 기저세포암은 방사선 치료에 좋은 반응을 보이며, 수술이 불가능한 경우 표준 치료법으로 방사선을 선택한다.
+코의 재발성 기저세포암은 재발 위험이 높은 부위와 경과에 해당한다. 모스미세도식수술은 절제연을 단계마다 확인하면서 정상 조직을 보존할 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006053
+- https://pubmed.ncbi.nlm.nih.gov/37604067/

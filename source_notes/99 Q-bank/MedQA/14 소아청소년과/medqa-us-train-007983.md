@@ -13,7 +13,7 @@ related_diseases:
   - "neonatal respiratory distress syndrome"
   - "surfactant deficiency"
   - "prematurity"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Zi47Z2h6rOk656AIOymne2bhOq1sCAoUmVzcGlyYXRvcnkgRGlzdHJlc3MgU3luZHJvbWUpLm1k
 difficulty: complex
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-분만 30분 후 체중 1,780 g인 남아에게 호흡곤란이 발생했다. 임신 30주에 질식분만으로 태어났다. 체온 36.8°C(98.2°F), 맥박 140회/분, 호흡수 64회/분, 혈압 61/32 mm Hg, 실내 공기 산소포화도 90%이다. 사지가 창백하고 끙끙거림과 중등도 늑골하 함몰이 있다. 폐 청진에서 양측 호흡음이 감소되어 산소를 투여했다. 10분 후 맥박 148회/분, 호흡수 66회/분이며 산소 60%에서 산소포화도는 90%이다. 가장 가능성 높은 진단은?
+재태 30주로 태어난 미숙아에게 호흡곤란증후군이 있다. 비강 지속양압을 적용했는데도 함몰이 심해지고 목표 산소포화도를 유지하려면 FiO₂가 0.45까지 필요하다. 다음 조치는?
 
 ## 선택지
 
-A. 호흡곤란증후군
-B. 기관연화증
-C. 신생아 폐렴
-D. 기관식도루
+A. 폐 계면활성제를 조기에 투여한다
+B. 산소 요구량이 더 늘 때까지 현 상태로만 지켜본다
+C. 이뇨제만 투여한다
+D. 호흡 보조를 중단하고 고농도 산소만 준다
 
 ## 해설
 
-30주 미숙아가 출생 직후 끙끙거림·함몰·높은 산소 요구를 보이면 계면활성제 결핍에 의한 RDS(A)가 가장 타당하다. 저혈압은 진단에 필수적이지 않으며 이 사례에서 확정되지 않았다. 감염 등 동반 원인도 임상적으로 평가한다.
+미숙아의 호흡곤란증후군이 비침습 호흡 보조에도 악화되면 계면활성제를 투여한다. 자발호흡이 유지되면 숙련된 팀이 덜 침습적인 투여 방법을 검토할 수 있다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 기관식도루
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007983
+- https://doi.org/10.1159/000551062

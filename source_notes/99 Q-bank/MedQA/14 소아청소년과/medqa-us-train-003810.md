@@ -14,15 +14,15 @@ related_diseases:
   - "sickle cell disease"
   - "meningitis complication"
   - "sensorineural hearing loss"
-question_type: complication
+question_type: investigation
 related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-uPjOuwnOyEsSDrgpzssq0gKFN1ZGRlbiBzZW5zb3JpbmV1cmFsIGhlYXJpbmcgbG9zcykubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IeE7ZWtIChJbXBlcmZvcmF0ZSBBbnVzKS5tZA
   - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-겸상적혈구병이 있는 7세 남아가 고열, 심한 두통, 구토, 경부강직으로 내원했다. 뇌척수액은 포도당 감소, 단백 증가, 호중구 증가를 보였고 그람음성 구간균이 관찰되었다. 다음 중 가장 위험이 큰 합병증은?
+7세 아이가 세균성 수막염 치료를 마쳤다. 의식과 보행은 정상으로 회복됐고 보호자가 볼 때 소리에도 반응한다. 퇴원 전이나 퇴원 직후에 계획할 평가는?
 
 ## 선택지
 
-A. 청력 소실
-B. 부신 기능부전
-C. 뇌성마비
-D. 교통성 수두증
+A. 증상이 없어도 뇌 MRI를 매달 시행한다
+B. 청력은 말이 늦어질 때만 검사한다
+C. 수막염이 나았음을 확인하기 위해 모든 아이에서 요추천자를 반복한다
+D. 가능하면 퇴원 전에 정식 청력검사를 하고, 어렵다면 곧 시행하도록 연결한다
 
 ## 해설
 
 
-겸상적혈구병 환자에서 Haemophilus influenzae 수막증은 고열·뇌척수액 변화와 함께 청력 손실 위험이 가장 높다. 따라서 청력 소실이 가장 위험한 합병증이다.
+세균성 수막염 뒤에는 겉으로 회복돼 보여도 감각신경성 난청이 남을 수 있다. 퇴원 전에 청력을 평가하고 여의치 않으면 늦어도 4주 내 검사를 연결한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003810
+- https://www.who.int/publications/i/item/9789240108042
+- https://www.nice.org.uk/guidance/ng240/chapter/Recommendations

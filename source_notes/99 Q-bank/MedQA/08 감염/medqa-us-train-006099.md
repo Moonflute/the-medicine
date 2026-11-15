@@ -17,9 +17,9 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: management
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-AIDS(CD4 47)인 26세 여성이 일주일 동안 피로, 점점 심해지는 두통과 발열이 지속되어 응급실에 왔다. 요추천자에서 개방압 285mmH₂O, 림프구 증가, 단백 상승 및 포도당 감소가 확인되었다. 정맥 내 암포테리신 B와 경구 플루시토신을 시작했다. 다음 중 급성기에 추가로 필요한 치료는 무엇인가?
+HIV 관련 크립토코쿠스 수막염 환자에게 항진균제를 시작했다. 머리가 계속 아프고 시야가 흐리며 요추천자 개방압은 31cmH₂O다. 증상을 일으키는 두개내압 상승에 우선 시행할 처치는?
 
 ## 선택지
 
-A. 플루코나졸
-B. 반복적인 요추천자
-C. 만니톨
-D. 아세타졸아미드
+A. 치료적 요추천자로 뇌척수액을 배액한다
+B. 만니톨을 반복 투여한다
+C. 아세타졸아미드를 투여한다
+D. 덱사메타손을 일률적으로 투여한다
 
 ## 해설
 
 
-AIDS 환자에서 크립토코쿠스 수막염은 두개내압 상승을 일으키며, 압력 감소를 위해 반복적인 요추천자가 필요하다. 다른 선택지는 항진균제 추가나 삼투압제 사용이지만, 급성 압력 관리에 가장 직접적인 방법은 요추천자 반복이다.
+증상을 동반한 압력 상승은 치료적 요추천자로 뇌척수액을 배액해 낮춘다. 증상과 개방압을 다시 평가해 필요하면 반복하며, 만니톨이나 아세타졸아미드가 이를 대신하지 못한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ AIDS 환자에서 크립토코쿠스 수막염은 두개내압 상승을 일으�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006099
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11526416/

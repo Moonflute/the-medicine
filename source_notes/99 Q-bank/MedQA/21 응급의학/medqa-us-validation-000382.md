@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yXkO2LuOugjOq4gOumrOy9nCDspJHrj4UgKEV0aHlsZW5lIEdseWNvbCBQb2lzb25pbmcpLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-44세 노숙인 남성이 차고에서 술에 취한 채 발견되어 체포된 후 응급실에 왔다. 의식이 급격히 저하되어 있고 소변, 대변, 구토물로 뒤덮여 있다. 통증에 반응해 깨어나 기본적인 질문에 답하지만 시야가 흐리고 아무것도 볼 수 없다고 한다. 검사에서 나트륨 141, 염소 102, 칼륨 4.4, 중탄산염 14 mEq/L, BUN 25 mg/dL, 포도당 99 mg/dL, 크레아티닌 1.4 mg/dL, 칼슘 10.2 mg/dL이다. 가장 적절한 초기 치료는?
+성분을 알 수 없는 알코올에 노출된 44세 남성이 시야가 급격히 흐려졌다고 한다. Na 141, Cl 102, HCO₃⁻ 14 mEq/L로 음이온차가 25다. 메탄올 중독이 의심될 때 해독 치료와 함께 무엇을 준비해야 하는가?
 
 ## 선택지
 
-A. 글루타티온 생성 촉진
-B. 알코올 탈수소효소 억제
-C. 무스카린 길항
-D. 투석으로 제거
+A. 외래 시야검사
+B. 활성탄 단독 치료
+C. 해독제 반응 확인 후 수일 뒤 재검
+D. 응급 혈액투석
 
 ## 해설
 
-시각 장애와 음이온차 증가 대사성 산증은 메탄올 중독을 시사한다. 포메피졸 등으로 알코올 탈수소효소를 억제하는 B를 즉시 시작하여 독성 대사산물의 추가 생성을 줄인다. 그러나 이미 발생한 시력 장애와 음이온차 25 mEq/L는 EXTRIP의 체외 제거 적응증에 해당하므로 긴급 혈액투석 평가·시행도 병행해야 한다. B를 먼저 시작할 수 있다는 사실이 D가 불필요하거나 해독제 반응을 기다린 뒤에만 투석한다는 뜻은 아니다.
+급성 시각 이상과 큰 음이온차는 중증 메탄올 중독의 투석 적응증이다. 적절한 해독 치료를 지연하지 않으며 응급 투석이 가능하도록 독성학·신장팀과 협의한다.
 
 ## 검수 근거
 

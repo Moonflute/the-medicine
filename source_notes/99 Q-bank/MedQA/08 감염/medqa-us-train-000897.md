@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
 question_type: management
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-HIV(CD4: 77/mm^3), 고혈압, 고지혈증, 골관절염의 과거력이 있는 46세 백인 남성이 갑작스러운 오른손 위약감으로 응급실에 내원했다. 환자는 위약감이 점차 악화되었으며 오늘 아침에는 커피잔을 떨어뜨렸다고 보고했다. 작년에 폐렴으로 입원한 적은 있으나 이와 같은 증상은 처음 겪는다고 한다. 환자는 raltegravir, tenofovir, emtricitabine, TMP-SMX, hydrochlorothiazide, pravastatin, 그리고 간헐적인 ibuprofen을 포함한 자가 약물 복용을 일관되게 하지 않았다고 보고했다. 부친은 60세에 심근경색으로 사망했고, 모친은 72세에 뇌졸중을 겪었다. 환자의 체온은 102.6°F(39.2°C), 혈압은 156/92 mmHg, 맥박은 88회/분, 호흡은 18회/분이다. 신경학적 검사상 오른쪽 말초 근육의 근력은 3/5이며 감각은 보존되어 있다. 다른 모든 사지의 신경학적 검사는 정상이다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+치료를 중단한 HIV 환자가 발열과 진행성 편측 위약으로 왔다. CD4는 60/μL, 톡소포자충 IgG는 양성이고 MRI에서 양측 기저핵에 여러 고리 조영증강 병변과 주변 부종이 보인다. 우선 할 원인 치료는?
 
 ## 선택지
 
-A. Toxoplasma 특이 IgG 항체 혈청 검사
-B. 뇌 CT
-C. Pyrimethamine-sulfadiazine을 이용한 경험적 치료
-D. Itraconazole을 이용한 경험적 치료
+A. 정맥 간시클로버를 시작한다
+B. 생검 결과가 나올 때까지 특이 치료를 하지 않는다
+C. 트리메토프림/설파메톡사졸 등 톡소포자충 뇌염 치료를 시작하고 임상·영상 반응을 평가한다
+D. 전신 스테로이드만 사용한다
 
 ## 해설
 
 
-CD4 77/mm³의 HIV 환자에게 발열과 새 국소 신경학적 결손이 생겼으므로 두부 영상으로 출혈·뇌졸중, 감염성 병변 및 종괴를 평가해야 한다. 보기 중 B가 가장 적절하다. 톡소플라스마 뇌염도 중요한 감별이지만 이 단계에서 원인으로 확정할 수 없고 혈청 IgG만으로 활동성 뇌염을 진단할 수 없다. CT가 불명확한 경우 MRI가 더 민감하다.
+진행된 HIV 감염에서 양성 톡소포자충 IgG와 전형적인 다발성 병변이 있으면 치료를 우선 시작할 수 있다. 악화하거나 10~14일 안에 반응이 없으면 다른 진단과 생검 필요성을 검토한다.
 
 ## 검수 근거
 

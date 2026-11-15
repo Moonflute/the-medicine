@@ -13,7 +13,7 @@ related_diseases:
   - "tuberculosis"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ
-question_type: management
+question_type: adverse_effect
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -32,19 +32,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-27세 남성이 첫 진료를 위해 일차 진료 의사를 방문했다. 그는 최근 교도소에서 출소했다. 환자는 취업을 앞두고 건강 검진을 원한다. 그는 최근 매우 피곤하고 기침이 난다고 말한다. 지난 3주 동안 약 15파운드(약 6.8kg)의 체중이 감소했다. 그는 이를 교도소에서의 정맥 주사 약물 사용 탓으로 돌린다. 체온은 99.5°F(37.5°C), 혈압은 127/68 mmHg, 맥박은 100회/분, 호흡수는 18회/분, 실내 공기에서의 산소 포화도는 98%이다. 환자는 적절한 치료를 시작했다. 다음 중 이 환자의 치료를 중단해야 하는 가장 가능성 높은 적응증은 무엇인가?
+약제 감수성 폐결핵으로 이소니아지드·리팜핀·피라진아미드·에탐부톨을 시작한 지 3주 됐다. 오심과 황달이 새로 생기고 ALT가 정상 상한의 7배다. 지금 할 조치는?
 
 ## 선택지
 
-A. 간 효소 수치 상승
-B. 고요산혈증
-C. 말초 신경병증
-D. 붉은색 체액 배설
+A. 약제 관련 간손상을 의심해 간독성 항결핵제를 즉시 중단하고 원인을 평가한다
+B. 리팜핀에 의한 정상적인 소변 변색으로 보고 약을 모두 유지한다
+C. 에탐부톨만 중단하고 나머지 약은 그대로 유지한다
+D. 황달이 더 심해질 때까지 약을 그대로 복용한다
 
 ## 해설
 
 
-선지 중 간독성에 해당하는 간효소 상승(A)이 항결핵 간독성 약물 중단·재평가의 대표적 이유이다. 다만 모든 경미한 상승이 중단 적응증은 아니다. 보통 ALT가 간염 증상과 함께 정상상한의 3배 이상이거나 무증상으로 5배 이상이면 간독성 약제를 중단하고 평가한다. 부작용별 조치는 임상 상태에 따라 다르다.
+ALT가 정상 상한의 5배 이상이거나 간염 증상과 함께 3배 이상이면 간독성 약제를 중단하고 평가한다. 결핵치료 재개와 약제 조정은 간기능 회복과 질환 중증도에 맞춰 결정한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 붉은색 체액 배설
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000176
+- https://www.kdca.go.kr/bbs/kdca/55/259948/download.do

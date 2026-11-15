@@ -19,7 +19,7 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-75세 남성이 5시간간 악화된 흉통과 호흡곤란으로 응급실에 왔다. 6일 전 샤워 중 넘어져 왼쪽 흉부에 경한 통증이 있었고 현재 창백하고 불안해 보인다. 산소포화도는 88%이며 왼쪽 폐기저부 호흡음이 감소하고 타진상 둔탁하다. 왼쪽 아래 흉부에 3 cm 혈종이 있고 흉부 X선에서 왼쪽 8·9번 늑골 골절, 왼쪽 폐 음영 증가, 오른쪽으로 가벼운 기관 편위가 보인다. 다음 중 가장 적절한 치료의 다음 단계는?
+75세 남성이 흉부 둔상으로 늑골이 골절된 지 6일 뒤 숨이 차다. 왼쪽 호흡음이 줄고 타진은 둔탁하다. 초음파로 왼쪽 흉막강 안 다량의 액체를 확인했다. 혈흉을 배액할 초기 처치는?
 
 ## 선택지
 
-A. 중환자실 입원 후 관찰
-B. 왼쪽 뒤 액와선 제8늑간에서 바늘 흉강천자
-C. 심낭천자
-D. 왼쪽 중간액와선 제5늑간에 흉관 삽입
+A. 심낭천자
+B. 기관지경검사
+C. 단순 관찰
+D. 흉관 삽입
 
 ## 해설
 
 
-늑골 골절과 대량 혈흉이 동반된 경우, 혈액 배액을 위해 흉관(흉관 삽입)이 필요하다. 흉관은 혈흉을 효과적으로 배출하고 폐 재팽창을 돕는다. 따라서 가장 적절한 다음 단계는 흉관 삽입이다.
+늑골골절 뒤 늦게 발생한 호흡곤란과 한쪽 흉막강의 액체는 지연성 혈흉을 시사한다. 흉관으로 배액하고 양과 지속 출혈을 평가하며 불안정하면 외과적 지혈을 검토한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002628
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/

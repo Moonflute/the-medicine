@@ -13,11 +13,11 @@ related_diseases:
   - "다래끼"
   - "외맥립종"
   - "눈꺼풀 모낭 감염"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTgg7JWI6rO8L-qyieuLpOuemOuBvCAoZXh0ZXJuYWwgaG9yZGVvbHVtKS5tZA
 difficulty: simple
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-7세 여아가 왼쪽 눈 주위가 부어 어머니와 함께 응급실에 내원했다. 전날 아침 왼쪽 눈꺼풀에 아프고 따뜻하며 부드러운 덩어리가 생겼다. 눈을 움직여도 통증이 악화되지 않는다. 신체검사에서 모낭을 포함한 왼쪽 위 눈꺼풀의 발적과 부종이 보이고, 누르면 고름이 나온다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+7세 아이의 윗눈꺼풀 가장자리 속눈썹 바로 옆에 하루 전부터 작은 아픈 종기가 생겼다. 시력과 안구운동은 정상이고 주변으로 붉은기가 번지지 않는다. 적절한 초기 관리는?
 
 ## 선택지
 
-A. 다래끼
-B. 안검염
-C. 황색판종
-D. 산립종
+A. 경구 스테로이드
+B. 온찜질과 눈꺼풀 위생
+C. 집에서 바로 바늘로 짜기
+D. 응급 안와 CT
 
 ## 해설
 
-모낭 부위를 포함한 급성 통증성 눈꺼풀 종괴, 발적과 농 배출은 A, 외다래끼(hordeolum)에 합당하다. 보통 속눈썹 모낭과 인접 샘의 세균성 감염으로 설명되며 안구 진균증을 뜻하지 않는다. 무통성·만성 마이봄샘 결절인 산립종과 구별된다.
+속눈썹 가장자리의 국소 압통성 종기는 다래끼에 맞는다. 단순 국소 병변은 온찜질로 관리하고, 주변으로 붓기가 퍼지거나 시력·안구운동 이상이 생기면 재평가한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 산립종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007306
+- https://aao.org/eye-health/diseases/chalazion-stye-treatment

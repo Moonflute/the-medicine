@@ -15,7 +15,7 @@ related_diseases:
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
   - MDQg64K067aE67mEL-ybkOuwnOyEsSDslYzrj4TsiqTthYzroaDspp0gKFByaW1hcnkgQWxkb3N0ZXJvbmlzbSkubWQ
-question_type: management
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-38세 여성이 조절이 어려운 고혈압으로 내원하였다. 증상으로는 잦은 야간뇨로 인한 수면 중단과 빈번한 두통이 있다. 지난 5년간 매일 10개비의 담배를 피웠다. 가족력은 특이사항이 없다. 활력징후는 혈압 170/96 mm Hg, 맥박 90회/분, 체온 36.7°C이다. 신체 검진상 특이 소견은 없다. 검사 결과는 다음과 같다: 혈청 나트륨 146 mEq/L, 혈청 칼륨 4 mEq/L, 혈청 중탄산염 29 mEq/L. 모든 주의사항을 준수한 후 측정한 혈장 알도스테론 농도(PAC) 대 혈장 레닌 활성도(PRA) 비가 상승되어 있었다. 경구 염분 부하 검사에서 알도스테론 억제가 나타나지 않았다. 부신 컴퓨터 단층촬영(CT)에서 좌측에 2 cm 크기의 종괴가 확인되었다. 이 환자에게 가장 적절한 다음 단계는 무엇인가?
+38세 여성이 약 3제로도 잘 조절되지 않는 고혈압이 있으며 원발성 알도스테론증이 확인됐다. CT에서 좌측 부신에 2cm 결절이 보인다. 환자가 수술을 원할 때 절제 여부와 방향을 결정하기 위해 할 검사는?
 
 ## 선택지
 
-A. 신장 혈관 조영술
-B. 부신 정맥 채혈
-C. 좌측 복강경 부신 절제술
-D. 에플레레논(eplerenone) 치료
+A. 신동맥 CT 혈관조영술
+B. 부신정맥 채혈
+C. 부신 결절 세침흡인
+D. 알도스테론/레닌 비 재검
 
 ## 해설
 
-정답은 B이다. 원발성 알도스테론증이 확인되고 38세에서 수술을 고려한다면 CT 종괴만으로 분비 측을 확정하지 않고 AVS로 편측/양측 분비를 구별한다. 해부학적 종괴 위치는 이미 CT에서 확인되었다. AVS의 목적은 어느 쪽이 기능적으로 과분비하는지 판단하는 것이며 수술을 원하지 않으면 MRA 치료 경로도 있다.
+CT에서 보이는 결절이 실제 과분비 부위라고 단정할 수 없다. 수술을 고려할 때 부신정맥 채혈로 편측인지 양측인지 확인한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 에플레레논(eplerenone) 치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000624
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10765003/

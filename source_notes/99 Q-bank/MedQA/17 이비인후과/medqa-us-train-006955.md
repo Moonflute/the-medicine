@@ -14,13 +14,13 @@ related_diseases:
   - "혈관운동성 비염"
   - "후비루"
   - "Allergic rhinitis"
-question_type: management
+question_type: diagnosis
 related_disease_slugs:
   - MDYg7JWM66CI66W06riwL-yVjOugiOultOq4sCDruYTsl7wgKEFsbGVyZ2ljIFJoaW5pdGlzKS5tZA
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 여자가 6개월 동안 지속된 콧물과 코막힘의 평가를 위해 내원했다. 소매점에서 일하며 강한 향수에 노출될 때마다 증상이 악화된다고 한다. 2개월 전 겨울이 시작된 이후 증상이 더 심해졌다. 발열, 오심, 천명, 가려움 또는 발진은 없다. 심각한 질환이나 알레르기 병력은 없고 복용 약물도 없다. 활력징후는 정상이다. 진찰에서 코점막 울혈, 편도 비대, 인두 후비루가 관찰되며 나머지 진찰은 정상이다. 이 환자에게 가장 적절한 다음 치료는 무엇인가?
+35세 환자가 향수나 찬 공기에 노출될 때 맑은 콧물이 반복된다. 코·눈이 가렵지 않고 계절에 따른 차이도 없다. 알레르기 검사에서 관련 항원 감작이 확인되지 않는다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 경구 페닐에프린
-B. 경구 디펜히드라민
-C. 비강 내 아젤라스틴
-D. 경피적 알레르기 검사
+A. 알레르기비염
+B. 급성 세균성 부비동염
+C. 비알레르기비염
+D. 약물성 비염
 
 ## 해설
 
-향수·찬 계절 같은 비특이적 자극에 반응하고 가려움이나 알레르기 병력이 없는 지속 비염은 비알레르기성/혈관운동성 비염에 합당하다. C, 비강 azelastine은 국소 H1 수용체 길항제인 항히스타민제이며 혈관운동성 비염 증상에 사용할 수 있다. 스테로이드가 아니다. 알레르기 검사를 모든 경우 먼저 시행할 필요는 없고 경구 진정성 항히스타민제나 충혈제거제보다 이 증례에 적합하다.
+찬 공기나 강한 냄새 같은 비특이적 자극 뒤 수양성 콧물이 반복되고 코·눈 가려움이나 감작 근거가 없으면 비알레르기비염을 의심한다. 비충혈제 남용은 따로 확인한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 경피적 알레르기 검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006955
+- https://pubmed.ncbi.nlm.nih.gov/32707227/

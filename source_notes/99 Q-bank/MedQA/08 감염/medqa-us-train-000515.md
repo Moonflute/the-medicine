@@ -13,9 +13,9 @@ related_diseases:
   - "laceration"
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-ywveyDgSDrsI8g7Je07IOBIChXb3VuZHMgYW5kIExhY2VyYXRpb25zKS5tZA
-question_type: management
+question_type: prevention
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -34,19 +34,19 @@ related_drug_slugs:
 
 ## 문제
 
-14세 소녀가 오늘 아침 어머니의 자수용 가위로 작업하다가 실수로 오른쪽 아래팔을 베어 병원에 내원했다. 심각한 질병을 앓은 과거력은 없다. 어머니는 아이가 외국에서 초등학교와 중학교를 다녔으며 모든 소아 예방접종을 받았는지 확실하지 않다고 말한다. 아이는 건강해 보인다. 체온은 37°C, 맥박은 분당 90회, 혈압은 102/68 mm Hg이다. 진찰 결과 오른쪽 아래팔에 2cm 크기의 깨끗한 열상이 있고 주변에 부종이 관찰된다. 발적이나 분비물은 없다. 상처는 물로 세척하고 비누로 씻어냈다. 다음 중 가장 적절한 다음 조치는 무엇인가?
+14세 청소년이 깨끗한 가위로 팔에 작고 얕은 열상을 입었다. 상처를 세척했고 파상풍 기초접종력은 확인할 수 없다. 적절한 파상풍 노출 후 예방은?
 
 ## 선택지
 
-A. DTaP만 투여한다
-B. 정맥 내 메트로니다졸(metronidazole) 투여
-C. Tdap만 투여한다
-D. 추가 조치는 필요하지 않다
+A. Tdap을 접종하고 이후 기초접종을 보완하되, 파상풍 면역글로불린은 투여하지 않는다
+B. 파상풍 면역글로불린만 투여한다
+C. Tdap과 파상풍 면역글로불린을 모두 투여한다
+D. 깨끗한 상처이므로 접종력을 더 확인하거나 보완할 필요가 없다
 
 ## 해설
 
 
-깨끗하고 작은 열상이지만 파상풍 기초접종력이 불명확하므로 연령에 맞는 Tdap(C)을 투여한다. 14세에게 영유아용 DTaP를 사용하지 않는다. 깨끗한 경미한 상처에는 TIG가 필요하지 않고 파상풍 예방 목적의 항생제도 권장되지 않는다. 다만 Tdap 1회로 미완료 기초접종이 모두 완성되는 것은 아니므로 기록 확인 후 필요한 후속 catch-up 접종을 계획한다.
+깨끗하고 작은 상처라도 접종력이 불명확하면 연령에 맞는 파상풍 백신으로 접종을 시작하거나 보완한다. 깨끗한 경미한 상처에는 면역글로불린을 사용하지 않는다.
 
 ## 검수 근거
 

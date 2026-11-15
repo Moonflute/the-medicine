@@ -14,16 +14,16 @@ related_diseases:
   - "5-alpha reductase deficiency"
   - "Premature ovarian failure"
   - "Turner syndrome"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yhsOq4sOuCnOyGjOu2gOyghCAoUHJlbWF0dXJlIE92YXJpYW4gRmFpbHVyZSkubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA
   - MTMg67aA7J246rO8L-uurOufrOq0gOuwnOycoeu2gOyghCAoTXVsbGVyaWFuIEFnZW5lc2lzKS5tZA
   - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -36,21 +36,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-17세 여성이 초경이 없다는 주소로 산부인과에 내원하였다. 환자는 평생 1명의 남성 파트너와 성관계를 가져왔으며 항상 콘돔을 사용하였다. 어머니는 환자의 유방 발달이 11세에 시작되었다고 생각한다. 신체 검진상, 환자는 건강해 보이며 다모증은 없고, Tanner V 단계의 유방 및 음모 발달을 보인다. 골반 검진에서 정상적인 외성기, 짧아진 질이 확인되었으며 자궁경부는 시각화할 수 없었다. 초기 호르몬 수치 및 핵형 검사는 정상이었고, 영상 검사는 신체 검진에서 의심했던 소견을 확인해주었다. 환자의 무월경에 대한 가장 가능성 높은 원인은 무엇인가?
+17세 여아가 초경을 하지 않았다. 유방과 음모 발달은 정상이고 핵형은 46,XX다. MRI에서 자궁과 질 상부가 형성되지 않았으나 난소는 보인다. 진단 뒤 관련 기형을 확인할 검사는?
 
 ## 선택지
 
-A. 5-알파 환원효소 결핍증(5-alpha reductase deficiency)
-B. 뮐러관 무형성증(Müllerian agenesis)
-C. 조기 난소 부전(Premature ovarian failure)
-D. 터너 증후군(Turner syndrome)
+A. 뇌하수체 조영 MRI
+B. 대장내시경
+C. 신장과 요로를 평가하는 초음파
+D. 경동맥 도플러
 
 ## 해설
 
 
-정상 2차 성징과 무월경, 짧아진 질, 자궁경부 비시각화는 자궁과 상부 질이 선천적으로 결여된 Müllerian agenesis와 일치한다. 다른 선택지는 호르몬 결핍이나 염색체 이상을 동반한다. 따라서 정답은 B이다.
+뮐러관 무형성(MRKH증후군)에서는 신장 무형성·이소성 신장 등 요로계 기형이 동반될 수 있다. 초기 평가에서 신장 구조를 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000923
+- https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/01/mullerian-agenesis-diagnosis-management-and-treatment

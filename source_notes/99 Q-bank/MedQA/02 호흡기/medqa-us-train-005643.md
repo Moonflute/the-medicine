@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-58세 남성이 심한 복통과 혼돈으로 입원했다. 알코올 사용 장애가 있고 intoxication으로 여러 차례 입원한 병력이 있다. 입원 12시간 후 호흡곤란이 악화되었다. 체온은 38.3°C(100.9°F), 맥박은 분당 120회, 호흡수는 분당 30회, 혈압은 100/60 mmHg이다. 마스크 환기 중 맥박산소측정 산소포화도는 85%이다. 기관삽관 후 FiO₂ 40%로 기계환기를 시행했다. 신체검사에서 양측 폐에 광범위한 수포음, 심한 상복부 압통 및 배꼽 주위 혈종이 있다. 심장검사는 정상이며 잡음, 마찰음 또는 분마음은 없다. 경정맥 팽창도 없다. 동맥혈가스분석은 pH 7.29, PO₂ 60 mmHg, PCO₂ 40 mmHg, HCO₃⁻ 15 mmol/L이다. 흉부 X선에서 양측 하부 폐야에 음영이 보인다. 다음 중 이 환자의 호흡기 증상의 가장 가능성 높은 원인은 무엇인가?
+58세 남성이 중증 급성 췌장염으로 입원한 다음 날 급격히 저산소증이 생겼다. 양쪽 폐에 새로운 침윤이 있고 심초음파에서 좌심실 기능은 정상이며 체액 과다 소견은 없다. 삽관 후 FiO₂ 0.40, PEEP 8 cmH₂O에서 PaO₂는 60 mmHg이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 병원획득폐렴
-B. 급성 호흡곤란 증후군
-C. 울혈성 심부전
-D. 간성 흉수
+A. 심인성 폐부종
+B. 급성 호흡곤란증후군(ARDS)
+C. 간성 흉수
+D. 단순 수술 후 무기폐
 
 ## 해설
 
 
-중증 급성 췌장염에 동반된 전신 염증 반응은 폐모세관 투과성 증가로 비심인성 폐부종(ARDS)을 일으킨다. 따라서 급성 호흡곤란 증후군이 가장 가능성 높은 원인이다.
+급성 췌장염 직후 발생한 양측 폐침윤과 산소화 장애가 심부전이나 체액 과다로 설명되지 않아 ARDS에 부합한다. PaO₂/FiO₂는 150이고 PEEP 8 cmH₂O에서 측정됐으므로 삽관 환자의 중등도 범위다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 간성 흉수
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005643
+- https://academic.oup.com/ajrccm/article/209/1/37/8427597

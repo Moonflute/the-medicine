@@ -14,13 +14,13 @@ related_diseases:
   - "단순포진바이러스 1형"
   - "구강 궤양"
   - "herpes simplex virus infection"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64uo7Iic7Y-s7KeE67CU7J2065-s7IqkIOqwkOyXvCAoSGVycGVzIFNpbXBsZXggVmlydXMgSW5mZWN0aW9uKS5tZA
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-5세 남아가 4일 동안 지속된 입과 잇몸 통증, 입술과 볼점막의 수포성 병변으로 소아과에 왔다. 통증 때문에 먹거나 마시지 못해 보채고 근육통도 호소한다. 체온 39.1°C, 심박수 110회/분, 혈압 90/62 mmHg, 호흡 18회/분, 산소포화도 99%였다. 혀, 잇몸, 입술에 수포가 있고 일부는 터져 궤양이 되었으며 경부와 턱밑 림프절병증이 만져졌다. 가장 가능성 높은 원인균은?
+4세 아이가 약 36시간 전부터 열이 나고, 잇몸이 붓고 피가 나며 입안 곳곳에 통증성 수포와 궤양이 생겼다. 통증이 심해 거의 마시지 못한다. 수분 보충과 진통에 더해 고려할 약은?
 
 ## 선택지
 
-A. CMV
-B. HIV
-C. HSV-1
-D. HSV-2
+A. 아목시실린
+B. 니스타틴
+C. 아시클로버
+D. 프레드니솔론
 
 ## 해설
 
 
-HSV‑1은 구강 점막에 수포·궤양을 일으키며, 어린이에게 흔히 나타난다. HSV‑2는 주로 성기 부위에 국한된다. 따라서 HSV‑1이 정답이다.
+부어 출혈하는 잇몸과 여러 부위의 구강 수포·궤양은 일차 헤르페스 잇몸입안염에 합당하다. 대부분 수분 보충과 진통이 기본이며, 발병 72시간 이내에 통증이나 탈수가 심하면 아시클로버를 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000474
+- https://www.rch.org.au/clinicalguide/guideline_index/HSV_Gingivostomatitis/

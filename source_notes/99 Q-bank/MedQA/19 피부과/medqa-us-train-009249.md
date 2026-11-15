@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTkg7ZS867aA6rO8L-yVheyEsSDtnZHsg4nsooUgKE1hbGlnbmFudCBNZWxhbm9tYSkubWQ
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-68세 남자가 3개월 동안 목에 통증 없는 피부 병변이 있어 내원했다. 병변은 점점 색이 짙어졌고 때때로 가렵다. 허리 아래에도 비슷한 병변이 하나 생겼다. 은퇴한 정원사이며 40년간 하루 반 갑을 흡연했다. 체온 36.7°C, 맥박 72회/분, 혈압 123/78 mmHg이다. 진찰에서 목에 0.8 cm, 허리 아래에 0.6 cm 크기의 과색소침착 구진이 있고 둘 다 기름지고 밀랍 같은 표면을 보인다. 목 병변 사진이 제시되었다. 가장 가능성 높은 진단은 무엇인가?
+68세 남성이 목과 허리의 통증 없는 갈색 구진으로 내원했다. 병변은 여러 개이고 표면이 밀랍 같으며 피부에 붙여 놓은 듯 보인다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
@@ -45,7 +46,7 @@ D. 피부섬유종
 
 ## 해설
 
-노인의 여러 기름지고 밀랍 같은 과색소 구진은 지루각화증(C)을 가장 지지한다. 다른 선지에도 색소 병변이 있을 수 있어 단순한 색소침착 여부만으로 배제하지 않는다. 병변의 표면·경계·변화와 필요 시 피부경·조직검사로 악성 병변을 감별한다.
+여러 개의 경계가 뚜렷하고 밀랍처럼 보이는 붙인 듯한 구진은 지루각화증의 전형적인 형태다. 색이나 모양이 비전형적으로 변하면 피부경이나 조직검사로 감별한다.
 
 ## 검수 근거
 

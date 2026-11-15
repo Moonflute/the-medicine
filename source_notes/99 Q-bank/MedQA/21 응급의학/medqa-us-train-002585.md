@@ -20,6 +20,7 @@ related_disease_slugs:
   - MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,7 +39,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 여성이 모닥불에 넘어져 입은 화상으로 응급실에 왔다. 왼쪽 다리와 몸통은 심한 통증이 있지만 오른팔은 통증이 거의 없다. 왼쪽 복부와 허벅지에는 물집 없는 압통성 홍반이 있고 오른쪽 팔꿈치 바로 위를 둘러싼 부위에는 건조하고 압통이 없는 흰색 가죽 같은 피부와 조직괴사가 있다. 정맥 수액을 시작했다. 다음 중 가장 적절한 치료의 다음 단계는?
+32세 여성이 모닥불에 넘어져 입은 화상으로 응급실에 왔다. 왼쪽 다리와 몸통은 심한 통증이 있지만 오른팔은 통증이 거의 없다. 왼쪽 복부와 허벅지에는 물집 없는 압통성 홍반이 있고 오른쪽 팔꿈치 바로 위를 둘러싼 부위에는 건조하고 압통이 없는 흰색 가죽 같은 피부와 조직괴사가 있다. 정맥 수액을 시작했다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

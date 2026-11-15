@@ -17,11 +17,11 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-2BrOuhrOy5nO2ZlOyEuO2PrOyihSAoUGhlb2Nocm9tb2N5dG9tYSkubWQ
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDsho3sp4jslZQgKFRoeXJvaWQgTWVkdWxsYXJ5IENhcmNpbm9tYSkubWQ
-question_type: 임상증례 객관식
+question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 남자가 1년 동안 악화된 연하곤란 평가를 위해 내원했다. 쉰 목소리와 전신의 뼈·근육·관절 통증도 호소한다. 지난 6개월 동안 변비가 진행되었고 신장결석이 두 차례 발생했다. 욱신거리는 두통, 발한, 심계항진이 반복되기도 한다. 흡연과 음주는 하지 않고 약물도 복용하지 않는다. 활력징후, 신체검사, 심전도는 정상이다. 혈청 칼슘 12 mg/dL, 인 2 mg/dL, 알칼리성 인산분해효소 100 U/L, 칼시토닌 11 pg/mL(정상 <8.8)이다. 경부 초음파에서 경계가 불규칙하고 미세석회화가 있는 저에코성 갑상샘 병변이 보인다. 이 환자 상태의 가장 가능성 높은 기저 원인은 무엇인가?
+RET 병적 변이가 있는 45세 남성이 갑상선 수질암 수술을 준비 중이다. 발작성 두통과 발한이 있고, 혈장 메타네프린이 크게 상승했으며 부신에 갈색세포종이 확인됐다. 두 종양의 수술 순서는?
 
 ## 선택지
 
-A. NF1 유전자 돌연변이
-B. 전리 방사선 노출
-C. VHL 유전자 결실
-D. RET 원종양유전자 발현 이상
+A. 갑상선 수술 후 부신 수술
+B. 두 종양을 차단제 없이 같은 날 수술
+C. 갑상선 수술만 하고 부신은 관찰
+D. 적절한 차단 치료 뒤 부신을 먼저 수술
 
 ## 해설
 
 
-갑상선 저에코성 미세석회화 병변은 수질암을 시사하고, 고칼슘·저인산혈증, 두통·발한·심계항진은 부갑상선 기능항진과 갈색세포종을 동반한 MEN2A와 일치한다. MEN2A는 RET 원종양유전자 활성화 변이로 발생한다. 따라서 가장 가능성 높은 기저 원인은 RET 원종양유전자 발현 이상이다.
+MEN2에서 갈색세포종이 함께 있으면 마취·수술 중 카테콜아민 위기를 피하기 위해 알파차단 등으로 준비한 뒤 갈색세포종을 먼저 치료한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. RET 원종양유전자 발현 이상
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003975
+- https://doi.org/10.1089/thy.2014.0335

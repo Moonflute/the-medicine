@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-진공분만으로 태어난 4430 g 신생아에서 왼쪽 두정골 위의 부드럽고 맥박이 없으며 봉합선을 넘지 않는 부종이 관찰되었다. 가장 가능성 높은 진단은?
+진공 보조 분만 몇 시간 뒤 한쪽 두정골 위에 새로 부드러운 부종이 보인다. 한 뼈 위에 국한되고 봉합선을 넘지 않으며 크기는 그대로다. 신생아의 활력과 관류는 정상이다. 진단은?
 
 ## 선택지
 
-A. 지방종
-B. 두혈종
-C. 모상건막하 출혈
-D. 표피양 낭종
+A. 산류
+B. 모상건막하 출혈
+C. 두혈종
+D. 두개골 함몰 골절
 
 ## 해설
 
-분만 후 두정골 위 부종이 봉합선을 넘지 않는 것은 골막하 출혈인 두혈종(B)에 부합한다. 혈액은 두개골과 골막 사이에 고이며 골막의 봉합선 부착으로 범위가 제한된다. 봉합선을 넘을 수 있는 모상건막하 출혈과 구분한다.
+두혈종은 두개골과 골막 사이에 고인 혈액이라 봉합선을 넘지 않는다. 산류나 모상건막하 출혈은 봉합선을 넘을 수 있다. 빠르게 퍼지는 두피 부종과 빈맥·창백이 있다면 모상건막하 출혈을 의심한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 표피양 낭종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003943
+- https://www.healthychildren.org/English/ages-stages/baby/Pages/How-Your-Newborn-Looks.aspx

@@ -15,7 +15,7 @@ related_diseases:
   - "시신경유두부종"
 related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
-question_type: 임상증례 객관식
+question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-제1형 당뇨병 병력이 있는 19세 남자가 혈당 492 mg/dL 평가를 위해 응급실에 왔다. 혈청 중탄산염 13 mEq/L, 혈청 나트륨 122 mEq/L, 케톤뇨가 확인되었고 동맥혈가스 pH는 6.9였다. 입원하여 중탄산염을 투여한 후 인슐린 지속주입과 정맥 수액을 시작했다. 7시간 후 간호사가 회진 중 환자가 혼란스러워하며 심한 두통을 호소하는 것을 발견했다. 나트륨 수치는 변하지 않았지만 혈당은 호전되었다. 체온 36.6°C, 맥박 50회/분, 호흡수 13회/분으로 불규칙하고 혈압 177/95 mmHg이다. 이 환자에서 예상되는 추가 검사 소견은 무엇인가?
+16세 제1형 당뇨병 환자가 케톤산증 치료 7시간째 심한 두통과 혼돈을 보인다. 맥박 50회/분, 혈압 177/95 mmHg이고 호흡이 불규칙하다. 뇌손상이 의심될 때 어떤 처치를 하는가?
 
 ## 선택지
 
-A. 동공 수축
-B. 췌장염
-C. 시신경유두부종
-D. 말초부종
+A. 뇌 CT에서 부종이 확인될 때까지 기다린다.
+B. 요추천자로 뇌척수액 압력부터 잰다.
+C. 3% 고장성 식염수 등으로 즉시 치료한다.
+D. 5% 포도당액만 빠르게 투여한다.
 
 ## 해설
 
-새 심한두통·혼란·서맥·고혈압·불규칙호흡은 DKA 관련 뇌부종/뇌손상과 두개내압 상승의 응급 경고이다. 선택지 중 papilledema C가 가능하지만 초기에는 없을 수 있다. 즉시 임상적으로 대응하며 안저/영상확인을 기다려 치료를 지연해서는 안 된다. Bicarbonate와 급격한 삼투변화의 위험도 검토하며 일률적인 bicarbonate 사용을 정당화하지 않는다.
+치료 중 신경학적 악화, 서맥과 고혈압은 뇌압 상승의 경고 소견이다. 케톤산증 관련 뇌손상이 의심되면 3% 고장성 식염수나 만니톨을 투여하며, 영상 검사 때문에 치료를 지연하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 말초부종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004061
+- https://www.ispad.org/static/6dd62eae-c8cb-4b4a-84e1efc768505746/Ch11PediatricDiabetes.pdf

@@ -13,12 +13,12 @@ related_diseases:
   - "골다공증"
   - "랄록시펜"
   - "심부정맥혈전증"
-question_type: prognosis
+question_type: management
 related_disease_slugs:
   - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
   - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-무증상 65세 여성이 골밀도검사에서 T점수 -2.6을 보였다. 골흡수를 막고 유방암 위험을 줄이는 약물치료를 시작했다. 이 약물이 증가시키는 이상반응은?
+65세 폐경 여성이 DXA에서 골다공증을 진단받았다. 과거 심부정맥혈전증이 있으며 신기능과 혈중 칼슘은 정상이다. 골다공증 치료를 검토할 때 혈전 병력 때문에 피해야 할 약은?
 
 ## 선택지
 
-A. 피부 감염
-B. 골육종
-C. 고콜레스테롤혈증
-D. 심부정맥혈전증
+A. 알렌드로네이트
+B. 리세드로네이트
+C. 랄록시펜
+D. 졸레드론산
 
 ## 해설
 
-랄록시펜은 뼈에서 에스트로겐 작용을 통해 골흡수를 억제하고 유방에서는 길항해 침윤성 유방암 위험을 낮춘다. VTE/DVT(D) 위험을 증가시킬 수 있어 과거 VTE 환자에는 금기이다. 모든 조직에서 에스트로겐을 차단하기 때문에 혈전이 생긴다는 설명이나 DVT가 가장 흔한 부작용이라는 표현은 부적절하다.
+랄록시펜은 정맥혈전색전증 위험을 높일 수 있어 현재 또는 과거 혈전색전증이 있는 환자에게 피한다. 골절 위험과 다른 금기를 확인해 대체 치료를 고른다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 심부정맥혈전증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001242
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11439573/

@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 남성이 한 달 정도 지속된 피부와 눈의 황달, 식욕부진, 심한 오심으로 내원했다. 매일 맥주 2~3병, 주말에는 5~6병을 마신다. 일반의약품은 복용하지 않는다. 지난 20년간 매일 담배 한 갑을 피웠지만 불법 약물은 사용하지 않는다. 구토, 복통, 배변 습관 변화 또는 의도하지 않은 체중 감소는 없었다. 체온 37°C(98.6°F), 혈압 135/85 mmHg, 맥박 78회/분, 호흡 14회/분, BMI 19 kg/m²이다. 피부와 공막은 황달을 보이고 복부는 압통이 있으며 간이 약간 커져 있다. 혈액검사에서 혈색소 11 g/dL, MCV 105 µm³, 백혈구 14,000/mm³, 혈소판 110,000/mm³이다. 다음 중 이 환자에서 예상되는 간기능검사 결과는?
+수년간 많은 양의 술을 마셔 온 45세 남성이 3주 전부터 황달과 식욕저하가 생겼다. 총 빌리루빈은 9 mg/dL다. 초음파에 담도 확장은 없고 혈압 저하, 바이러스 간염 및 약물 노출 단서는 없다. 알코올 관련 간염에 가장 합당한 수치는?
 
 ## 선택지
 
-A. ALT 1,500 / AST 1,089 / AST/ALT 0.73
-B. ALT 120 / AST 256 / AST/ALT 2.1
-C. ALT 83 / AST 72 / AST/ALT 0.87
-D. ALT 2,521 / AST 2,222 / AST/ALT 0.88
+A. AST 1,089 U/L, ALT 1,500 U/L
+B. AST 256 U/L, ALT 120 U/L
+C. AST 72 U/L, ALT 183 U/L
+D. AST 2,222 U/L, ALT 2,521 U/L
 
 ## 해설
 
 
-알코올성 간염에서는 AST가 ALT보다 2배 이상 높고, AST/ALT 비율이 2~5 사이인 것이 특징이다. 제시된 수치는 AST 256, ALT 120, 비율 2.1로 전형적인 패턴이다. 따라서 정답은 B이다.
+최근까지 지속된 과음과 새 황달, AST가 ALT보다 높고 대개 400 U/L 미만인 양상은 알코올 관련 간염에 합당하다. AST·ALT가 수천 단위이면 허혈, 약물, 바이러스 등 다른 원인을 적극 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. ALT 2,521 / AST 2,222 / AST/ALT 0.88
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002076
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3796673/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11040545/

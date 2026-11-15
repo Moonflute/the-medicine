@@ -14,11 +14,11 @@ related_diseases:
   - "임신 검사"
   - "사춘기 후 골반 종괴"
   - "Pregnancy"
-question_type: investigation
+question_type: diagnosis
 related_disease_slugs:
   - MTMg67aA7J246rO8L-2PrOyDgeq4sO2DnCAoTW9sYXIgUHJlZ25hbmN5KS5tZA
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 여자가 3개월 동안 간헐적인 복부 경련, 피로, 빈뇨가 있어 어머니와 내원했다. 아직 초경을 하지 않았고 유방과 음모 발달은 태너 5단계이다. 복부 하부에 단단한 종괴가 만져진다. 다음 중 가장 적절한 초기 처치는?
+초경이 없는 15세 여아가 수개월 동안 매달 하복부 통증을 겪었다. 유방 발달은 정상이다. 질 입구에 푸르스름하게 팽윤한 막이 보이고, 초음파에서 질 안에 혈액이 고여 있다. 진단은?
 
 ## 선택지
 
-A. 골반 초음파
-B. 공복 혈당과 지질 검사
-C. 혈청 유리 T4
-D. 혈청 β-hCG
+A. 뮐러관 무형성
+B. 완전 안드로겐 불감증
+C. 폐쇄 처녀막
+D. 기능성 시상하부성 무월경
 
 ## 해설
 
-Tanner 5는 사춘기 발달이 완료된 상태이며 배란은 첫 월경 전에 일어날 수 있다. 원발무월경을 보고해도 임신 가능성을 먼저 확인하므로 β-hCG(D)를 측정한다. 음성이면 주기적 통증·하복부 종괴를 설명할 유출로 폐쇄 등 구조적 원인을 초음파로 평가한다.
+푸른 막이 질 입구에서 볼록하고 그 위로 혈액이 고인 경우 폐쇄 처녀막이다. 질중격 등이 의심되거나 해부가 불분명하면 추가 영상으로 감별한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ Tanner 5는 사춘기 발달이 완료된 상태이며 배란은 첫 월경 전�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005043
+- https://pubmed.ncbi.nlm.nih.gov/31135763/

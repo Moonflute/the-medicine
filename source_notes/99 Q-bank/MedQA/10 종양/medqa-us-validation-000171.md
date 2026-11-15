@@ -15,11 +15,11 @@ related_diseases:
   - "HVA"
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug6rK966qo7IS47Y-s7KKFIChOZXVyb2JsYXN0b21hKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-2세 여아가 복부팽만과 발의 떨림, 미열, 3일간의 변비로 진료를 받으러 왔다. 복부 중앙을 가로지르는 불규칙한 촉지성 종괴, 간비대, 눈의 불규칙한 움직임이 있고 24시간 소변에서 HVA와 VMA가 증가했다. 가장 가능성 높은 진단은?
+2세 아이의 복부 영상에서 중앙선을 가로지르는 불규칙한 부신 부위 종괴가 보인다. 신경모세포종을 의심할 때 초기 평가에 도움이 되는 소변 검사는?
 
 ## 선택지
 
-A. 호지킨 림프종
-B. 간모세포종
-C. 신모세포종
-D. 신경모세포종
+A. 요 알부민/크레아티닌 비
+B. 소변 유리 코르티솔 단독
+C. 요중 빌리루빈
+D. 요중 호모바닐산(HVA)과 바닐릴만델산(VMA)
 
 ## 해설
 
 
-복부에 불규칙한 촉진성 종괴와 간비대, 안구 운동 이상, 소변에서 HVA와 VMA 상승은 카테콜아민을 과다 생산하는 종양을 시사한다. 소아에서 가장 흔한 카테콜아민 분비 종양은 신경모세포종이다. 따라서 정답은 신경모세포종이다.
+신경모세포종에서는 요중 카테콜아민 대사산물인 HVA와 VMA가 증가할 수 있다. 소변 수치는 초기 단서이며 영상·조직검사 및 병기 평가가 필요하다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 신경모세포종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000171
+- https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma-treatment-pdq

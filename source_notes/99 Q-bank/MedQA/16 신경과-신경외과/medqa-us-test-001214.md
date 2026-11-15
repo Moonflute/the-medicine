@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rs7jtg5zshLEg65ao66a8IChFc3NlbnRpYWwgdHJlbW9yKS5tZA
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-62세 남성이 7개월 동안 양팔의 불수의운동이 악화되어 진료를 받으러 왔다. 아버지도 같은 질환을 약물로 치료받았다. 양팔을 앞으로 뻗으면 저진폭 떨림이 나타나고 펜을 잡으려 손을 뻗을 때 악화되었다. 근력, 근긴장, 심부건반사는 정상이었고 기분과 말도 정상이었다. 다음 중 가장 적절한 처치는?
+62세 남성이 4년째 양팔을 뻗거나 글씨를 쓸 때 손이 떨린다. 진찰에서 서동이나 경직은 없고, 컵을 들기 어려워 약을 원한다. 천식·서맥·전도 장애는 없다. 적절한 초기 약물은?
 
 ## 선택지
 
-A. 뇌심부자극술
-B. 시상절개술
-C. 레보도파와 카르비도파
-D. 프로프라놀롤
+A. 프로프라놀롤
+B. 레보도파/카비도파
+C. 벤즈트로핀
+D. 카르바마제핀
 
 ## 해설
 
-가족력, 자세·동작 시 양측 떨림과 정상 근력·근긴장은 본태성 떨림을 지지한다. 제시된 선택지 중 프로프라놀롤(D)이 적절한 초기 약물이다. 프리미돈 등 다른 효과적인 약물도 있으며, 모든 환자에서 프로프라놀롤이 가장 효과적이라는 의미는 아니다. 침습적 치료는 약물 반응과 기능장애 등을 고려해 결정한다.
+기능을 방해하는 본태떨림에는 프로프라놀롤을 초기 약물로 사용할 수 있다. 천식, 서맥 또는 전도 이상 등 금기를 확인하고 다른 선택지도 개별화한다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 프로프라놀롤
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001214
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3208950/
+- https://pubmed.ncbi.nlm.nih.gov/41556478/

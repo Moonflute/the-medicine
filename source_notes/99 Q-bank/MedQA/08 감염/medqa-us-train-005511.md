@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-31세 여자가 2일 동안 발열과 구토, 하루 동안 심한 두통으로 내원했다. 목 통증과 수막자극 증상, 광선공포, 몸통과 다리의 점상출혈 발진이 있으며 경험적 항생제를 시작하고 요추천자를 시행했다. 예상되는 뇌척수액 소견은?
+발열, 심한 두통과 경부강직이 있는 31세 환자의 혈당은 100mg/dL다. 항생제 투여 직전 채취한 뇌척수액 중 급성 세균성 수막염을 가장 잘 뒷받침하는 조합은?
 
 ## 선택지
 
-A. 백혈구 4/mm³, 단백 35 mg/dL, 포도당 66 mg/dL
-B. 백혈구 8,500/mm³(호중구 우세), 단백 112 mg/dL, 포도당 15 mg/dL
-C. 백혈구 145/mm³(림프구 우세), 단백 42 mg/dL, 포도당 60 mg/dL
-D. 백혈구 2/mm³, 단백 142 mg/dL, 포도당 70 mg/dL
+A. 림프구 우세, 단백 65mg/dL, 포도당 65mg/dL
+B. 호중구 우세, 단백 180mg/dL, 포도당 18mg/dL
+C. 림프구 우세, 단백 50mg/dL, 포도당 110mg/dL
+D. 세포 증가 없음, 단백 110mg/dL, 포도당 65mg/dL
 
 ## 해설
 
 
-세균성 수막염에서는 CSF에 호중구가 현저히 증가하고 단백이 크게 상승하며 포도당이 현저히 감소한다. 제시된 선택지 중 이 패턴에 가장 부합하는 것은 백혈구 8,500/mm³(호중구 우세), 단백 112 mg/dL, 포도당 15 mg/dL이다. 따라서 정답은 B이다.
+급성 세균성 수막염에서는 대개 호중구성 세포 증가, 단백 상승, 혈당에 비해 낮은 뇌척수액 당이 함께 보인다. 원인균은 배양이나 분자검사 등을 통해 확인한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 백혈구 2/mm³, 단백 142 mg/dL, 포도당 70 mg/dL
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005511
+- https://www.who.int/publications/i/item/9789240108042

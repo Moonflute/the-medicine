@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: management
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,7 +39,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-46세 남성이 만성 복통으로 내원했다. 3년간 심한 소화성궤양과 식도염이 있었고 2개월 전 오메프라졸, 클래리트로마이신, 아목시실린을 14일간 복용했다. 현재 오메프라졸 60 mg/일을 복용하며 상부내시경에서 전정부와 십이지장 2·3부에 큰 궤양이 여러 개 보인다. 신속요소분해효소검사는 음성이고 공복 가스트린은 상승되어 있다. Ga-DOTATATE PET-CT에서 십이지장 벽에 단일 종괴가 보이며 뇌하수체 MRI는 정상이다. 다음 중 가장 적절한 치료의 다음 단계는?
+46세 남성이 만성 복통으로 내원했다. 3년간 심한 소화성궤양과 식도염이 있었고 2개월 전 오메프라졸, 클래리트로마이신, 아목시실린을 14일간 복용했다. 현재 오메프라졸 60 mg/일을 복용하며 상부내시경에서 전정부와 십이지장 2·3부에 큰 궤양이 여러 개 보인다. 신속요소분해효소검사는 음성이고 공복 가스트린은 상승되어 있다. Ga-DOTATATE PET-CT에서 십이지장 벽에 단일 종괴가 보이며 뇌하수체 MRI는 정상이다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

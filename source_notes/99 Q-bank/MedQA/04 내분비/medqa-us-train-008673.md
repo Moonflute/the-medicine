@@ -20,7 +20,7 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-27세 초진 남성이 6개월 동안 지속된 화끈거리는 상복부 통증으로 내원했다. 통증은 방사되지 않고 소량의 식사, 일반의약품 제산제, PPI로 부분적으로만 완화된다. 이전 상부 내시경에서 위와 십이지장에 작은 궤양이 보였으나 적절한 치료나 추가 검사 전에 다른 지역으로 이사했다. 변비와 빈뇨도 호소한다. 어머니에게 소화성 궤양질환과 반복되는 신장결석 병력이 있다. 활력징후는 정상이고 복부검사에서 반발통 없이 심와부 압통이 있다. 심폐검사는 정상이며 대변잠혈검사는 양성이다. 나트륨 142mEq/L, 칼륨 4.1mEq/L, 염소 108mEq/L, 중탄산염 22mEq/L, 칼슘 11.2mg/dL, 인 2.0mg/dL, BUN 19mg/dL, 크레아티닌 1.1mg/dL이다. 추가 평가에서 가장 가능성 높은 소견은 무엇인가?
+27세 남성이 반복되는 신장결석으로 평가받았다. 교정 칼슘 11.5 mg/dL, PTH 상승으로 원발성 부갑상선기능항진증이 확인됐다. 난치성 다발 십이지장 궤양과 설사도 있어 검사한 결과 가스트린종으로 진단됐다. 다음으로 적절한 조치는?
 
 ## 선택지
 
-A. 갈색세포종
-B. 갑상선 수질암
-C. 유두상 갑상선암
-D. 뇌하수체 선종
+A. RET 검사만 시행
+B. 결석과 궤양을 별개로 보고 가족 위험 평가 생략
+C. 연 1회 분변잠혈검사만 시행
+D. 다발성 내분비종양 1형에 대한 유전상담과 검사 의뢰
 
 ## 해설
 
 
-다발성 내분비 종양(MEN1)에서는 부갑상선 과다증, 췌장 내분비 종양, 그리고 뇌하수체 선종이 동반된다. 고칼슘혈증과 저인산혈증은 부갑상선 기능항진을 시사하므로, 뇌하수체 선종이 가장 가능성 높은 추가 병변이다.
+젊은 환자의 원발성 부갑상선기능항진증과 가스트린종 조합은 MEN1을 강하게 시사한다. 유전 평가를 통해 다른 장기의 병변 감시와 가족 검사가 필요한지 결정한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 뇌하수체 선종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008673
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12507346/

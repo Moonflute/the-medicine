@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-주요우울장애와 범불안장애 병력이 있는 58세 여성이 3년 전 폐경 후 내원했다. 오늘 직장과 집에서 견디기 힘든 안면홍조와 과민성을 호소한다. 그 외 문진은 음성이다. 신체검사에서 심첨부에 가장 잘 들리는 2/6등급 범수축기 잡음이 있고 폐음과 복부검사는 정상이다. 활력징후는 모두 정상이다. 증상 완화를 위해 호르몬대체요법을 요청한다. 다음 중 어떤 과거력이 있다면 호르몬대체요법이 금기인가?
+타목시펜을 복용 중인 유방암 치료 후 여성이 야간 발한과 안면홍조로 잠들기 어렵다. 전신 호르몬요법은 피하기로 했다. 타목시펜과 상호작용을 고려한 약제는?
 
 ## 선택지
 
-A. 유방암 가족력
-B. 유방암이 확진되었거나 의심되는 개인력
-C. 자궁내막암 가족력
-D. SSRI/SNRI로 증상이 조절되지 않음
+A. 파록세틴
+B. 플루옥세틴
+C. 경구 에스트로겐·프로게스토겐
+D. 벤라팍신
 
 ## 해설
 
-혈관운동증상 치료를 위한 전신 폐경 호르몬요법에서는 유방암이 확진되었거나 의심되는 개인력(B)이 중요한 금기이다. 유방암 가족력이나 자궁내막암 가족력만으로 동일한 금기가 되는 것은 아니며 개인별 위험을 평가한다. SSRI/SNRI로 증상이 조절되지 않는다는 사실은 호르몬요법의 금기 자체가 아니다. 이 문항은 안면홍조에 대한 전신 요법을 묻고 있으며, 국소 질에스트로겐의 별도 위험·편익 판단과 혼동하지 않는다. 페니실린 투여 반응에 관한 기존 해설은 무관하다.
+벤라팍신은 혈관운동 증상에 사용할 수 있고 CYP2D6 억제가 적다. 파록세틴·플루옥세틴은 강한 CYP2D6 억제로 타목시펜 활성 대사체 형성을 줄일 수 있어 피하는 편이다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. SSRI/SNRI로 증상이 조절되지 않음
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002238
+- https://www.e-jmm.org/DOIx.php?id=10.6118%2Fjmm.25103
+- https://thebms.org.uk/wp-content/uploads/2025/09/03-BMS-ConsensusStatement-Management-of-symptoms-after-breast-cancer-SEPT2025-C.pdf

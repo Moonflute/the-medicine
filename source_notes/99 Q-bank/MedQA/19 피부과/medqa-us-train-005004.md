@@ -13,11 +13,11 @@ related_diseases:
   - "독성 표피 괴사용해"
   - "스티븐스-존슨 증후군"
   - "시프로플록사신 유발 중증 피부약물이상반응"
-question_type: investigation
+question_type: diagnosis
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-yKpO2LsOu4kOyKpC3sobTsiqgg7Kad7ZuE6rWwLeuPheyEsSDtkZztlLwg6rS07IKsIChTdGV2ZW5zLUpvaG5zb24gU3luZHJvbWUgLSBUb3hpYyBFcGlkZXJtYWwgTmVjcm9seXNpcykubWQ
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-50세 남자가 3일 동안 피부가 아프게 벗겨져 내원했다. 목의 작은 홍반성 반점이 빠르게 몸통, 얼굴, 엉덩이로 퍼져 느슨한 수포와 전체 체표면적의 40% 이상 표피 박리가 발생했다. 1주 전 요로감염으로 시프로플록사신을 복용하기 시작했고 니콜스키 징후가 양성이다. 다음 중 가장 적절한 진단검사는?
+50세 환자가 새 약을 시작한 뒤 통증성 홍반과 구강·안구 점막 미란이 생겼다. 피부가 실제로 벗겨진 면적은 체표면적의 약 40%다. 이 중증 피부약물반응의 분류는?
 
 ## 선택지
 
-A. 병변 주변 생검의 간접 면역형광검사
-B. 혈액 배양검사
-C. 피부 생검과 조직병리검사
-D. 혈청 포도상구균 표피박리 독소 PCR
+A. 스티븐스–존슨증후군
+B. 스티븐스–존슨증후군과 독성표피괴사용해 중첩
+C. 다형홍반
+D. 독성표피괴사용해
 
 ## 해설
 
-약물 노출 후 통증성 홍반·이완수포와 체표면적 40%를 넘는 표피 박리는 독성표피괴사용해증(TEN)에 합당하다. 선지 중 피부 생검·조직병리검사(C)가 표피 괴사와 분리를 확인하고 감별하는 데 적절하다. SJS는 박리 <10%, overlap은 10~30%, TEN은 >30%로 구분하며 생검 결과는 임상 소견과 함께 해석한다.
+스티븐스–존슨증후군과 독성표피괴사용해는 발진 전체가 아니라 실제 표피 박리 면적으로 구분한다. 30%를 넘는 광범위 박리는 독성표피괴사용해에 해당한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 혈청 포도상구균 표피박리 독소 PCR
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005004
+- https://onlinelibrary.wiley.com/doi/10.1111/ddg.15515

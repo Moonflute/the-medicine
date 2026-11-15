@@ -16,7 +16,7 @@ related_diseases:
   - "leukostasis"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-unjOyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChDTUwpIChDaHJvbmljIE15ZWxvaWQgTGV1a2VtaWEpLm1k
-question_type: diagnosis
+question_type: monitoring
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-51세 여성이 유의한 의도치 않은 체중감소로 내원했다. 과거 혈전 병력은 없지만 어머니가 최근 폐색전증 치료를 받았다고 한다. 체중 문제로 고생해 처음에는 체중이 줄어 기뻤으나 딸이 진료를 권했다. 과거력으로 전자간증, 고혈압, 다낭성난소증후군, 고콜레스테롤혈증이 있다. 하루 한 갑의 담배와 하루 와인 한 잔을 마시며 과거 헤로인 주사 약물 사용력이 있으나 현재 불법 약물은 사용하지 않는다. 체온 36.7°C, 혈압 126/74 mmHg, 맥박 불규칙한 111회/분, 호흡수 17회/분이다. 맥박은 강하고 안색은 창백하지만 호흡음은 깨끗하다. 실내 공기 산소포화도 91%이고 심전도에서 심방세동이 보인다. 인지기능 저하도 호소한다. 백혈구 128,000/mm³, LDH·요산·비타민 B12 상승, BCR-ABL 전좌와 필라델피아 염색체가 있다. 가장 가능성 높은 진단은?
+만성기 만성 골수성 백혈병 환자가 티로신키나제 억제제를 시작했고 3개월 뒤 혈구 수는 정상화됐다. 초기 분자 반응을 평가하는 추적검사는?
 
 ## 선택지
 
-A. 급성 림프모구성 백혈병
-B. 급성 골수성 백혈병
-C. 만성 골수성 백혈병
-D. 털세포 백혈병
+A. 정상 혈구 수만 확인
+B. 말초혈액 호중구 알칼리인산분해효소 측정
+C. 국제척도(IS)로 보고하는 정량 BCR::ABL1 검사
+D. 혈청 단백 전기영동
 
 ## 해설
 
 
-현저한 백혈구증가, LDH·요산·B12 상승 및 Philadelphia/BCR::ABL1은 보기 중 CML C를 가장 지지한다. 다만 BCR::ABL1은 일부 B-ALL과 드문 AML에서도 확인될 수 있어 이 융합만으로 모든 급성 백혈병을 배제하는 것은 아니다. 세포 형태, 계열과 blast 비율을 함께 확인해 분류한다.
+혈구 수가 회복돼도 BCR::ABL1 전사체가 남을 수 있다. 치료 초기에 국제척도 정량검사로 분자 반응을 추적해 치료 경과와 약제 변경 필요성을 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 털세포 백혈병
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002973
+- https://doi.org/10.1038/s41375-025-02664-w

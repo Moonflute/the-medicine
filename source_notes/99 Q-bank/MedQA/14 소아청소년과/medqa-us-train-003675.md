@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yEseunpOqwnOqwkOyXvC5tZA
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -35,7 +36,7 @@ related_drug_slugs:
 
 ## 문제
 
-17세 남학생이 건강유지 검진을 받으러 왔다. 베네수엘라에서 최근 이민했고 현재 특별한 증상은 없다. 성적으로 활동적이며 콘돔 사용은 불규칙하다. 다음 중 가장 적절한 다음 처치는?
+17세 남학생이 건강유지 검진을 받으러 왔다. 베네수엘라에서 최근 이민했고 현재 특별한 증상은 없다. 성적으로 활동적이며 콘돔 사용은 불규칙하다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

@@ -16,7 +16,7 @@ related_diseases:
   - "drug-induced lupus"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwLyjquInsgqzspp3tm4TqtbApLm1k
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-42세 아프리카계 미국인 여성이 갑자기 발생한 흉통으로 진료실에 내원했다. 통증은 날카롭고 방사되지 않으며, 앉아서 몸을 앞으로 숙이면 호전된다. 발열, 오한, 기침은 없지만 3주 전부터 손과 손목이 부어 있었다. 과거력으로 만성 고혈압이 있다. 12세에 충수절제술을 받았다. 복용 약물은 히드랄라진과 엽산이다. 활력징후는 미열을 제외하면 정상이다. 진찰에서 특히 누워 있을 때 경미한 고통을 보인다. 양측 중수지절관절과 근위지절관절이 부어 있고 압통이 있다. 심전도에서 광범위한 ST 상승이 보인다. 항핵항체는 음성이다. 다음 중 이 환자의 혈청에서 추가로 검출될 것으로 예상되는 항체는?
+42세 여성이 히드랄라진을 시작한 지 수개월 뒤 양쪽 손 관절염과 심낭염이 생겼다. 항핵항체와 항히스톤 항체가 양성이고, 요검사와 신기능은 정상이다. 약물 유발 루푸스가 의심될 때 우선 조치는?
 
 ## 선택지
 
-A. 항히스톤 항체
-B. 항카디오리핀 항체
-C. 항미토콘드리아 항체
-D. 항환형 시트룰린화 펩타이드 항체
+A. 히드랄라진을 중단하고 장기 침범과 경과를 평가한다
+B. 같은 약을 유지하고 항히스톤 항체만 추적한다
+C. 히드랄라진을 증량한다
+D. 원인약을 유지하면서 장기 고용량 면역억제를 시작한다
 
 ## 해설
 
 
-Hydralazine을 복용한 환자에게 대칭성 관절염과 pericarditis가 생겨 drug-induced lupus를 의심하며 보기 중 anti-histone A가 연관된다. 다만 약물루푸스에서도 ANA는 대개 양성으로 원문의 음성은 비전형적이다. 음성 ANA 때문에 완전히 배제되지는 않지만 약물 노출기간, 다른 원인 및 추가 검사를 확인해야 하며 anti-histone도 절대적으로 특이적인 항체는 아니다.
+증상과 약 복용의 시간 관계가 맞으면 의심 약을 중단한다. 항히스톤 항체는 단서일 뿐 단독 확진 검사가 아니며, 신장·폐 침범이 있으면 다른 약물 관련 혈관염도 살핀다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ Hydralazine을 복용한 환자에게 대칭성 관절염과 pericarditis가 생
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009738
+- https://www.ncbi.nlm.nih.gov/books/NBK441889/

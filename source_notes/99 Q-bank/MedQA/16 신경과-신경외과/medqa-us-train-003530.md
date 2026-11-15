@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-78세 남성이 아침 식사 중 갑자기 시작된 말하기 어려움으로 응급실에 왔다. 짧고 단순한 문장만 말하고 단어 배열을 반복하기 어려웠으며 간단한 지시는 따를 수 있었다. 오른쪽 안면 처짐과 오른쪽 근력저하가 있었다. 다음 중 증상의 가장 가능성 높은 원인은?
+78세 환자가 갑자기 말을 유창하게 하지 못한다. 간단한 지시는 이해하고 따르지만, 오른쪽 아래 얼굴과 팔이 다리보다 더 약하다. 가장 가능성 높은 폐색 혈관은?
 
 ## 선택지
 
-A. 오른쪽 관통동맥 폐색
-B. 왼쪽 중대뇌동맥 폐색
-C. 오른쪽 후하소뇌동맥 폐색
-D. 왼쪽 후대뇌동맥 기형 파열
+A. 오른쪽 중대뇌동맥
+B. 왼쪽 중대뇌동맥
+C. 왼쪽 후대뇌동맥
+D. 오른쪽 전대뇌동맥
 
 ## 해설
 
 
-언어 구사 장애와 오른쪽 안면 마비·근력 저하가 동시에 나타난 경우, 반대쪽(왼쪽) 대뇌 반구의 중대뇌동맥(MCA) 폐색이 가장 흔한 원인이다. MCA 폐색은 전두·두정 부위에 영향을 주어 전반적인 언어 표현 장애(실어증)와 반대쪽 안면·사지 약화를 일으킨다. 따라서 왼쪽 중대뇌동맥 폐색이 정답이다.
+표현 실어증과 오른쪽 얼굴·팔 우세 위약은 우성 왼쪽 반구의 중대뇌동맥 영역을 시사한다. 급성 뇌졸중 평가와 재관류 적합성 확인이 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003530
+- https://www.ahajournals.org/doi/10.1161/STR.0000000000000513

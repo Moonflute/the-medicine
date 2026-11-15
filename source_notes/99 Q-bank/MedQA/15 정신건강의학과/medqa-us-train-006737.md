@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-u2iOuptCDsnqXslaAgKEluc29tbmlhIERpc29yZGVyKS5tZA
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,23 +36,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-62세 남성이 밤에 여러 번 깨고 아침에 너무 일찍 일어나는 증상으로 노인의학 전문의를 방문했다. 7개월 동안 악화되었고 아침에 개운하지 않고 피곤하다. 고혈압과 양성 전립선비대증 병력이 있으며 흡연 경험은 없다. 취침 전 술이나 카페인은 마시지 않는다. 체온은 36.6°C(97.8°F), 혈압은 130/80 mm Hg, 심박수는 분당 77회이고 신체진찰은 정상이다. 수면위생을 상담한 후 이 상태의 관리에서 다음 중 가장 적절한 다음 단계는?
+62세 환자가 7개월 동안 일주일에 네 번 이상 밤에 깨고, 낮에 피곤해 업무에 지장이 있다. 충분히 잘 기회가 있고 다른 수면질환을 시사하는 소견은 없다. 수면 습관 교육 후에도 그대로다. 우선할 치료는?
 
 ## 선택지
 
-A. 졸피뎀
-B. 트리아졸람
-C. 수면다원검사
-D. 광선치료
+A. 졸피뎀을 매일 장기 복용
+B. 비처방 항히스타민제를 매일 복용
+C. 수면다원검사를 일률적으로 시행
+D. 불면 인지행동치료(CBT-I)
 
 ## 해설
 
-7개월간 지속된 수면 유지 불면에 대해 제시된 약물 중 원문은 졸피뎀을 선택한다. 그러나 만성 불면의 초기 치료는 수면위생 교육만이 아니라 CBT-I이며, 그것이 선택지에 누락되어 있다. 약물치료를 고려한다면 단기간의 이득·위험을 상담해야 하고 졸피뎀을 고령층에 무조건 안전한 일차 약으로 설명하지 않는다. 낙상·다음날 기능 저하와 수면 중 운전 등 복합 수면행동 위험이 있으며, 이런 행동의 과거력이 있으면 사용하지 않는다.
+국내 불면 치료 지침에서 만성 불면의 첫 치료는 구조화된 CBT-I다. 수면위생 설명만으로 이를 대신하지 않으며 수면제는 이득과 위험에 따라 별도로 검토한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006737
+- https://pubmed.ncbi.nlm.nih.gov/33198436/
 
 ## 검수 근거
 

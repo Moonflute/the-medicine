@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
   - MDkg7ZiI7JWhL-q4ieyEsSDsoITqs6jsiJjshLEg67Cx7ZiI67ORIChBUEwgTTMpIChBY3V0ZSBQcm9teWVsb2N5dGljIExldWtlbWlhKS5tZA
-question_type: investigation
+question_type: management
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-전골수구성 백혈병으로 전트랜스레티노산 치료를 받는 65세 여성이 심한 복통, 구토, 혈뇨로 왔다. 피부에 점상출혈이 있고 CT에서 급성 장간막 허혈이 보인다. 말초혈액도말을 포함한 검사에서 가장 가능성 높은 결과 조합은?
+급성 전골수구성 백혈병으로 전트랜스 레티노산을 막 시작했다. 환자의 잇몸 출혈이 이어지고 피브리노겐이 65mg/dL로 낮다. 피브리노겐을 신속히 보충하기 위해 우선 고려할 혈액제제는?
 
 ## 선택지
 
-A. PT 증가, PTT 증가, 출혈시간 증가, 섬유소분해산물 증가, D-이합체 증가, 피브리노겐 증가, 혈소판 감소
-B. PT 감소, PTT 감소, 출혈시간 증가, 섬유소분해산물 증가, D-이합체 증가, 피브리노겐 감소, 혈소판 감소
-C. PT 증가, PTT 증가, 출혈시간 증가, 섬유소분해산물 증가, D-이합체 증가, 피브리노겐 감소, 혈소판 감소
-D. PT 감소, PTT 감소, 출혈시간 감소, 섬유소분해산물 감소, D-이합체 감소, 피브리노겐 감소, 혈소판 감소
+A. 동결침전제
+B. 농축적혈구 단독
+C. 세척 적혈구
+D. 정맥 면역글로불린
 
 ## 해설
 
 
-APL 자체는 심한 소비성·과섬유소용해성 응고장애를 일으켜 출혈과 혈전을 함께 유발할 수 있다. 제시된 장간막 허혈·점상출혈에서 예상되는 DIC 패턴은 PT/aPTT 연장, D-dimer·FDP 증가, fibrinogen·혈소판 감소인 C이다. ATRA는 의심 APL에서 조기에 시작해 응고장애를 치료하는 핵심 약제이며 DIC의 일반 원인이라고 설명하지 않는다. 치료 중 혈전이나 다른 합병증은 별도 평가가 필요하다.
+급성 전골수구성 백혈병의 응고장애에서는 혈액제제로 피브리노겐을 신속히 보충한다. 동결침전제 또는 이용 가능한 피브리노겐 제제를 사용하며, 혈소판 등 다른 요소도 함께 교정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ APL 자체는 심한 소비성·과섬유소용해성 응고장애를 일으켜 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000791
+- https://doi.org/10.1182/blood-2019-01-894980

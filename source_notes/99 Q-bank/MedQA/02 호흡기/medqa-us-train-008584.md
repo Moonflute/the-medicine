@@ -19,8 +19,9 @@ related_disease_slugs:
 question_type: diagnosis
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,7 +38,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-43세 여성이 7일 동안 지속된 발열, 오심, 비생산성 기침으로 내원했다. 이 기간 동안 두통, 전신 피로, 근육통과 관절통이 있었고 최근 2일 동안 호흡곤란이 점점 심해졌다. 제2형 당뇨병과 왼쪽 무릎 골관절염이 있다. 현재 인슐린과 이부프로펜을 복용한다. 20년 동안 하루 두 갑을 피웠으나 10년 전에 금연했다. 체온 38.1°C(100.6°F), 맥박 94회/분, 호흡수 18회/분, 혈압 132/86mmHg이다. 폐 청진은 깨끗하다. 상지와 하지에 청색을 띤 어두운 중심, 창백한 중간 영역, 짙은 붉은 주변 테두리를 가진 피부 병변이 여러 개 보인다. 혈색소 14.6g/dL, 백혈구 11,100/mm³이며 전해질과 신장기능은 정상이다. 흉부 X선이 제시되어 있다. 다음 중 가장 가능성 높은 원인균은 무엇인가?
+43세 여성이 일주일간의 발열, 마른기침, 두통과 근육통으로 내원했다. 팔다리에 중심이 어둡고 주위가 붉은 표적 병변이 여러 개 보인다. 비정형 폐렴과 다형홍반을 함께 설명할 가능성이 높은 병원체는?
 
 ## 선택지
 
@@ -49,7 +50,7 @@ D. Mycoplasma pneumoniae
 ## 해설
 
 
-환자는 Mycoplasma pneumoniae 감염에 흔히 동반되는 표적(erythema multiforme) 병변을 보이며, 비생산성 기침과 폐음이 정상인 점이 특징이다. 따라서 Mycoplasma가 가장 가능성 높은 원인균이다. 다른 선택지는 폐렴을 일으키지만 대상 병변과 일치하지 않는다.
+마른기침과 발열을 동반한 비정형 폐렴에 표적 모양 피부 병변이 나타나면 마이코플라스마 폐렴균 감염을 고려한다. 피부 소견만으로 병원체를 확진하지는 않는다.
 
 ## 검수 근거
 

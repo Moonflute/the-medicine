@@ -15,7 +15,7 @@ related_diseases:
   - "hypokalemia"
 related_disease_slugs:
   - MDUg7Iug7J6lL-yggOy5vOulqO2YiOymnSAoSHlwb2thbGVtaWEpLm1k
-question_type: mechanism
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-54세 남자가 3일 동안 먹거나 마실 때마다 비혈성·비담즙성 구토를 하여 내원했다. 점점 쇠약해지고 구토는 호전되지 않는다. 설사, 발열, 오한은 없으며 여러 음식을 시식한 최근 사건과 관련이 있을 수 있다고 생각한다. 체온 97.5°F(36.4°C), 혈압 133/82 mmHg, 맥박 105회/분, 호흡수 15회/분, 산소포화도 98%이다. 쇠약해 보이고 점막이 건조하지만 복부 압통은 없다. 다음 중 가장 가능성 높은 검사 변화는 무엇인가?
+54세 남성이 사흘간 반복해 구토했다. 점막이 마르고 기립 시 어지럽다. pH 7.51, HCO₃⁻ 34 mEq/L, K 2.9 mEq/L, 소변 염소 8 mmol/L이며 이뇨제를 쓰지 않는다. 원인 평가와 함께 어떤 수액·전해질 보충이 적절한가?
 
 ## 선택지
 
-A. 음이온차 대사산증과 저칼륨혈증
-B. 대사성 알칼리증과 저칼륨혈증
-C. 정상 음이온차 대사산증과 저칼륨혈증
-D. 호흡성 산증과 고칼륨혈증
+A. 5% 포도당액만 투여
+B. 0.9% 식염수와 염화칼륨 보충
+C. 정맥 중탄산나트륨
+D. 수분 제한과 루프이뇨제 투여
 
 ## 해설
 
 
-정답 B. 지속 구토로 위산과 염소가 소실되어 대사성 알칼리증이 생긴다. 체액 감소는 renin–angiotensin–aldosterone계를 활성화하고 신장의 칼륨·수소 이온 배설을 증가시켜 저칼륨혈증과 알칼리증을 유지한다. 따라서 예상되는 조합은 대사성 알칼리증과 저칼륨혈증이다. 단순히 칼륨 재흡수가 감소해서만 발생한다고 설명하지 않는다.
+구토로 위산과 염소가 소실되어 저혈량성 대사알칼리증이 발생했다. 소변 염소가 낮은 염소 반응성 알칼리증은 염소를 포함한 등장성 수액과 칼륨 보충으로 교정한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 호흡성 산증과 고칼륨혈증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009363
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10947768/

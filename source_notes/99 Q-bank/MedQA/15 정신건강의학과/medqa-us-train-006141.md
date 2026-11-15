@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,24 +36,26 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 21세 여성이 체중 감소와 피로로 내원했다. 지난 12개월 동안 10.5kg(23.1lb)이 감소했고 거의 매일 피곤하며 아침마다 깨어나기 위해 2시간씩 달려야 한다고 한다. 2년 동안 채식주의자였다가 6개월 전 비건이 되었다. 어머니와 살며 어머니는 강박장애가 있다. 환자는 가족과 함께 먹지 않고 직접 준비한 음식만 먹는다. 체중이 줄었는데도 여전히 뚱뚱하다고 느낀다. 키 160cm, 체중 42kg, BMI 16.4kg/m²이고 체온 35.7°C(96.3°F), 맥박 분당 39회, 혈압 100/50 mmHg이다. 심하게 쇠약하고 피부가 건조하며 전신에 가늘고 부드러운 털이 덮여 있다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+21세 환자가 수개월간 음식 섭취를 제한한 뒤 쓰러졌다. 맥박 39회/분, 혈압 86/50mmHg, 체온 35.6℃다. 신경성 식욕부진증이 의심된다. 다음 조치는?
 
 ## 선택지
 
-A. 입원하여 영양 재활
-B. 식사일지 작성 후 외래 추적
-C. 외래 정신역동적 심리치료
-D. 입원 및 플루옥세틴 치료
+A. 귀가해 식사일지를 쓰게 하고 2주 뒤 다시 본다
+B. 외래에서 항우울제를 먼저 시작한다
+C. 입원해 신체 상태를 안정시키고 심전도·전해질을 감시하며 영양을 회복시킨다
+D. 심리치료를 시작하고 맥박은 한 달 뒤 다시 잰다
 
 ## 해설
 
 
-저체중(BMI 16.4), 저체온, 서맥, 건조 피부, 체모 과다는 중증 신경성 식욕부진증을 나타낸다. 입원하여 영양 재활을 시작하는 것이 급선무이며, 외래 치료만으로는 위험을 감소시키기 어렵다. 특히 맥박 39회/분과 저체온 등 의학적 불안정성이 입원 근거이며 BMI 하나만으로 결정하지 않는다. 재급식 과정에서는 전해질 등 합병증을 모니터링한다.
+실신과 뚜렷한 서맥·저혈압·저체온은 의학적 불안정의 단서다. 체중이나 BMI 하나로 입원을 판단하지 않는다. 입원하면 전해질과 재급식 합병증을 감시하며 영양을 회복한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006141
+- https://www.nice.org.uk/guidance/ng69/chapter/recommendations
+- https://pubmed.ncbi.nlm.nih.gov/36722117/
 
 ## 검수 근거
 

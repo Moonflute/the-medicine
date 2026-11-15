@@ -20,6 +20,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-q0tOyggOuzkSAoR2FuZ3JlbmUpLm1k
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-63세 여성이 발열과 혼란으로 이웃에 의해 응급실에 이송되었다. 10년간 당뇨병과 치질 병력이 있고 인슐린과 메트포르민을 복용한다. 혈압은 90/70 mmHg, 맥박 115회/분, 호흡수 21회/분, 체온 39.5°C이다. 심폐 진찰에는 다른 이상이 없다. 혈청 크레아티닌은 2.5 mg/dL이다. MRI에서 피하 연조직 부종과 가스가 보인다. 정맥 수액으로 소생시키고 광범위 경험적 정맥 항생제를 투여했다. 다음 중 가장 적절한 관리의 다음 단계는?
+63세 여성이 발열과 혼란으로 이웃에 의해 응급실에 이송되었다. 10년간 당뇨병과 치질 병력이 있고 인슐린과 메트포르민을 복용한다. 혈압은 90/70 mmHg, 맥박 115회/분, 호흡수 21회/분, 체온 39.5°C이다. 심폐 진찰에는 다른 이상이 없다. 혈청 크레아티닌은 2.5 mg/dL이다. MRI에서 피하 연조직 부종과 가스가 보인다. 정맥 수액으로 소생시키고 광범위 경험적 정맥 항생제를 투여했다. 다음 중 가장 적절한 다음 처치는?
 
 ## 선택지
 

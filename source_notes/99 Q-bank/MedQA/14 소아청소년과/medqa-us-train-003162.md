@@ -18,7 +18,7 @@ question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-7세 여아가 2일 동안 질 출혈로 내원했다. 키는 95백분위수, 체중은 90백분위수이고 진찰에서 유방이 커지고 유륜과 유두에 이차 융기가 형성되어 있으며 허벅지 안쪽까지 뻗지 않는 굵은 음모가 있다. 왼손과 손목 X선에서 골연령은 11세이고 혈청 LH는 0.1 mIU/mL이다. 다음 중 가장 적절한 관리 단계는?
+7세 여아의 유방 발달이 수개월 사이 진행하고 키가 빨리 자랐다. 골연령은 10세로 앞서지만 기저 LH는 낮다. 중추성 성조숙증을 확인할 다음 검사는?
 
 ## 선택지
 
 A. 뇌 MRI
-B. 골반 초음파
-C. GnRH 자극검사
-D. 혈청 디하이드로에피안드로스테론 수치
+B. GnRH 자극검사
+C. 골반 초음파만 시행
+D. 혈청 DHEA-S만 측정
 
 ## 해설
 
-7세의 진행한 유방 발달·출혈과 골연령 증가는 조기 사춘기 평가가 필요하다. 기저 LH가 낮더라도 중추성 성조숙증을 배제하지 못하므로, 임상 의심이 강한 이 경우 GnRH 자극검사(C)가 적절하다. 기저 LH만으로 충분히 확인되는 환자까지 모두 자극검사를 받아야 한다는 뜻은 아니다.
+기저 LH가 낮아도 임상 소견이 뚜렷하면 중추성 성조숙증을 배제할 수 없다. 국내 지침은 진행 양상과 골연령을 함께 보고 GnRH 자극에 대한 LH 반응으로 확인하도록 권고한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 혈청 디하이드로에피안드로스테론 수치
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003162
+- https://pubmed.ncbi.nlm.nih.gov/37798893/

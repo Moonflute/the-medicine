@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yGjOyXvSDsg4HtlLzrgrTslZQgKExvYnVsYXIgQ2FyY2lub21hIEluIFNpdHUpLm1k
   - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
-question_type: prognosis
+question_type: investigation
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-62세 여성이 왼쪽 유방 종괴로 진료를 받으러 왔다. 생검에서 에스트로겐 수용체 양성 다형성 소엽상피내암이 확인되어 종괴절제술 후 타목시펜 치료를 시작했다. 이 치료로 위험이 증가하는 질환은?
+62세 여성이 유방암 보조치료로 타목시펜을 복용하던 중 폐경 후 질출혈이 생겼다. 질·자궁경부 진찰에서 출혈 원인이 보이지 않는다. 자궁내막을 평가하기 위한 다음 조치는?
 
 ## 선택지
 
-A. 골수억제
-B. 골다공증
-C. 자궁내막암
-D. 난소암
+A. 자궁내막 조직검사
+B. 자궁경부 세포검사만 시행
+C. 타목시펜을 중단하고 출혈이 멈추면 검사 생략
+D. 증상이 없어질 때까지 6개월 관찰
 
 ## 해설
 
 
-타목시펜은 에스트로겐 수용체를 차단하지만 자궁내막에 에스트로겐 작용을 부분적으로 유지시켜 자궁내막 증식을 촉진한다. 따라서 장기간 복용 시 자궁내막암 위험이 증가한다. 정답은 자궁내막암이다.
+타목시펜 복용 중 발생한 폐경 후 출혈은 자궁내막 병변 여부를 평가해야 한다. 증상이 없는 복용자에게 자궁내막 조직검사를 정기적으로 시행하라는 뜻은 아니다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 난소암
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001194
+- https://pubmed.ncbi.nlm.nih.gov/24848920/

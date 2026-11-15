@@ -14,10 +14,10 @@ related_diseases:
   - "애도"
   - "자살사고 평가"
   - "Acute stress reaction"
-question_type: ethics
+question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,24 +34,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 여자가 친구가 전투기 격추로 사망한 3주 후 부모와 함께 내원했다. 슬프고 외롭고 친구 죽음의 악몽을 반복해서 꾸며 사회활동을 피하지만 계속 먹고 자기관리와 직장 복귀는 가능하다. 불안을 평가하는 것과 함께 의사가 할 가장 적절한 말은?
+가까운 사람을 갑자기 잃은 지 3주 된 환자가 악몽과 슬픔을 호소한다. 식사와 일은 하고 있지만 ‘살아가는 게 무슨 의미인지 모르겠다’고 말한다. 가장 적절한 다음 대응은?
 
 ## 선택지
 
-A. 갑작스러운 친구의 죽음이 깊은 영향을 준 것을 이해합니다. 이런 상황에서 삶이 살 가치가 없다고 생각할 수 있는데 그런 생각을 한 적이 있나요?
-B. 슬픔이 사회·기능에 부정적 영향을 주므로 항우울제를 시작하겠습니다.
-C. 많은 일을 겪었지만 반응이 특히 심하고 오래 지속됩니다. 치료나 약물에 열려 있나요?
-D. 사랑하는 사람을 잃는 것은 삶의 일부입니다. 이 일을 더 잘 대처할 방법을 찾아봅시다.
+A. 직장에 다니므로 안전 관련 질문 없이 경과만 본다
+B. 애도 기간이 짧으므로 지금은 자살 생각을 확인하지 않는다
+C. 상실의 고통을 인정하며 자살 생각과 당장의 안전을 직접 확인한다
+D. 애도를 곧바로 주요우울장애로 확정하고 약만 처방한다
 
 ## 해설
 
 
-환자는 슬픔과 무기력, 자살 생각 여부를 평가해야 한다. 가장 중요한 것은 자살 위험을 탐색하는 질문을 포함한 공감적 진술이다. 따라서 친구의 죽음이 큰 영향을 줬음을 인정하고 자살 생각을 물어보는 것이 적절하다.
+애도 중에도 죽고 싶다는 생각이 있는지 공감적으로 직접 물을 수 있다. 기간이나 직장 복귀만으로 안전을 가정하지 않고, 응답에 따라 보호 계획과 추가 평가를 마련한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005283
+- https://www.nice.org.uk/guidance/ng225/chapter/recommendations
 
 ## 검수 근거
 

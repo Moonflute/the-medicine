@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 여성이 복통으로 응급실에 내원했다. 전날 밤 시작되어 점점 악화되었다고 한다. 그 외에는 건강하고 약물은 사용하지 않으며 성관계를 가진 적이 없다. 체온 99.0°F(37.2°C), 혈압 120/83 mmHg, 맥박 분당 85회, 호흡수 분당 12회, 실내 공기 산소포화도 98%이다. 직장검사 후 대변 매복을 제거했고 5kg의 변을 꺼내자 증상이 호전되었다. 초기 검사에서 소변은 노란색, 단백 음성, 적혈구 음성, hCG 양성이다. 혈청 hCG는 1,000 mIU/mL이고 질식 초음파에서 자궁 내 임신낭이 보이지 않는다. 다음 중 가장 적절한 처치는?
+임신반응이 양성인 32세 여성이 소량의 질출혈로 왔다. 혈압·맥박은 정상이고 심한 통증은 없다. 혈청 β-hCG는 1,000 mIU/mL다. 질식 초음파에서 자궁 안팎 모두 임신낭이나 복강 내 출혈이 보이지 않는다. 다음 계획은?
 
 ## 선택지
 
-A. 복강경검사
-B. 메토트렉세이트
-C. 난관절개술
-D. 48시간 후 초음파와 혈청 hCG 재검
+A. 자궁외임신으로 단정하고 메토트렉세이트를 투여한다
+B. 정상 자궁내임신으로 확정하고 추가 추적을 하지 않는다
+C. 약 48시간 뒤 β-hCG를 재검하고 결과에 따라 질식 초음파를 추적한다
+D. 자궁 내 임신낭이 없으므로 바로 난관절제술을 한다
 
 ## 해설
 
-hCG1,000에서 자궁내 임신낭이 보이지 않으면 임신 위치 미상(PUL)이다. 증상이 해소되고 안정적이면 D처럼 48시간 hCG·추적 초음파로 평가한다. 정상 초기 임신뿐 아니라 유산·자궁외임신도 가능하며 hCG 수치 하나로 구별하지 않는다. 통증·실신·출혈 악화 시 즉시 재평가한다.
+임신 위치를 아직 확인하지 못했다. 안정적으로 추적할 수 있으면 약 48시간 간격으로 β-hCG를 비교하고 경과에 맞춰 질식 초음파를 반복한다. 통증·출혈이 심해지거나 어지러움이 생기면 재검 시간을 기다리지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ hCG1,000에서 자궁내 임신낭이 보이지 않으면 임신 위치 미상(P
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009989
+- https://www.nice.org.uk/guidance/ng126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy

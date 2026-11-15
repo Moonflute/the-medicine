@@ -13,11 +13,11 @@ related_diseases:
   - "전교통동맥 동맥류"
   - "지주막하출혈"
   - "상염색체 우성 다낭신"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-39세 남자가 갑자기 시작된 심한 두통에 이어 오심, 구토, 시야 변화, 의식소실이 발생해 응급실에 왔다. 과거력은 알 수 없고 평생 경험한 두통 중 가장 심하다고 한다. 비조영 두부 CT에서 두개강 내 출혈이 보이고, 뇌혈관조영술에서 전교통동맥 파열 동맥류가 확인되었다. 현재 상태와 가장 강하게 연관된 소견은 무엇인가?
+전교통동맥류가 파열돼 지주막하출혈이 생긴 환자에서 동맥류 폐색을 진행 중이다. 지연성 뇌허혈 위험과 예후를 개선하기 위해 일찍 시작할 경장 약물은?
 
 ## 선택지
 
-A. 중심 괴사핵을 가진 나비모양 교종이 보이는 뇌 MRI
-B. 신세포암을 시사하는 복부 CT
-C. 양측 신장에 다수의 낭종이 보이는 신장 초음파
-D. 8세에 신장이식을 받은 병력
+A. 니카르디핀
+B. 만니톨
+C. 아스피린
+D. 니모디핀
 
 ## 해설
 
-낭상 두개내동맥류와 상염색체우성 다낭신장병(ADPKD)은 알려진 연관이 있어, 제시 선지 중 양측 신장 다발 낭종(C)이 가장 관련 깊다. ADPKD에서는 혈관벽 이상으로 두개내동맥류 위험이 증가한다. 그러나 모든 낭상 동맥류 또는 대부분의 지주막하출혈이 ADPKD에서 발생한다는 뜻은 아니다. 신세포암이나 나비모양 교모세포종, 어린 나이 신장이식 병력만은 이 연관을 직접 설명하지 못한다.
+동맥류성 지주막하출혈에서 조기 경장 니모디핀은 지연성 뇌허혈을 줄이고 기능 예후를 개선하는 데 도움을 준다. 혈압을 함께 감시한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 8세에 신장이식을 받은 병력
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004319
+- https://pubmed.ncbi.nlm.nih.gov/37212182/

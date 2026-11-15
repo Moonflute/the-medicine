@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkOyDieyghOymnSAoUHVsbW9uYXJ5IEVtYm9saXNtKS5tZA
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-71세 남성이 호흡곤란으로 응급실에 왔다. 중국 출장에서 돌아오던 중 공항에서 택시를 타고 집으로 가다가 갑자기 숨이 찼다. 조절이 잘 되지 않는 당뇨병과 50갑년 흡연력이 있다. 약을 잘 복용하지 않고 현재 이부프로펜만 복용한다. 초기 심전도에서 동성빈맥이 보이고 흉부 방사선사진은 정상이다. 크레아티닌 2.4 mg/dL, BUN 32 mg/dL로 기저 크레아티닌 0.9 mg/dL보다 상승했다. 체온은 98.8°F (37.1°C), 맥박은 분당 122회, 혈압은 145/90 mmHg, 호흡수는 분당 19회, 실내 공기 산소포화도는 93%이다. 진찰에서 고통스러워 보이고 심장 진찰은 빈맥 외에 특이사항이 없으며 폐에서 호기성 천명음이 들린다. 확진을 위한 가장 적절한 검사는 무엇인가?
+71세 남성이 장거리 이동 뒤 갑자기 숨이 차다. 폐색전증의 임상확률이 높고 흉부 X선은 정상이다. 심한 즉시형 조영제 과민반응 병력으로 CT 폐혈관조영술을 시행할 수 없다. 대체 영상검사는?
 
 ## 선택지
 
-A. 동맥혈가스검사
-B. CT 혈관조영술
-C. D-dimer
-D. 환기-관류 스캔
+A. 심장 비조영 CT
+B. D-이합체
+C. 환기-관류 폐스캔
+D. 흉부 단순촬영 반복
 
 ## 해설
 
-장거리 이동 후 급성 호흡곤란·빈맥과 저산소증은 PE를 의심하게 한다. AKI로 조영제 위험을 검토해야 하고 흉부 X선이 정상인 점에서 V/Q scan(D)이 적절한 대안이다. 항상 CTPA보다 빠르거나 민감하다는 뜻은 아니다. 신기능·임상 사전확률·검사 가용성과 결과의 진단 가능성을 종합하며 비진단적 결과는 추가 평가가 필요하다.
+CT 폐혈관조영술이 불가능하면 핵의학 환기-관류 폐스캔을 고려한다. 정상 흉부 X선이라 판독에 방해되는 폐 병변이 적다. 결과가 비진단적이면 추가 평가가 필요하다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 환기-관류 스캔
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004751
+- https://professional.heart.org/en/guidelines-statements/2026-ahaaccaccpchestscaishmsirsvmsvn-guideline-for-the-evaluation-andcir0000000000001415

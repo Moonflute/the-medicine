@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-yghOy5mO2DnOuwmCAoUGxhY2VudGEgUHJldmlhKS5tZA
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 37주인 36세 임신 3회·출산 2회의 여자가 3시간 동안 소량의 질출혈로 응급실에 왔다. 3일 전에도 출혈이 있었고 산전 진찰은 받지 않았다. 이전 두 번 모두 하부 자궁분절 횡절개 제왕절개를 받았다. 복부는 압통이 없고 자궁수축이 없으며 태아심박수는 정상이다. 다음 중 가장 적절한 처치는?
+임신 33주 산모가 소량의 무통성 질출혈로 왔다. 혈압과 태아 심박은 안정적이고 태반 위치를 모른다. 내자궁구와 태반의 관계를 가장 정확히 확인할 검사는?
 
 ## 선택지
 
-A. 골반 진찰
-B. 질식 초음파검사
-C. 클라인하우어-베트케 검사
-D. 수축 스트레스 검사
+A. 손가락을 넣어 자궁경부를 먼저 촉진
+B. 태아 비수축검사만 시행
+C. 복부 X선
+D. 질식 초음파
 
 ## 해설
 
 
-전치태반으로 인한 무통성 질출혈이 의심되는 경우, 태반 위치와 상태를 확인하기 위해 질식 초음파검사가 가장 안전하고 정확한 초기 검사이다. 따라서 정답은 질식 초음파검사이다.
+전치태반을 의심할 때 질식 초음파는 태반과 내자궁구의 관계를 안전하고 정확하게 본다. 전치태반을 배제하기 전에는 손가락으로 자궁경부를 촉진하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005224
+- https://pubmed.ncbi.nlm.nih.gov/42374711/

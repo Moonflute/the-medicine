@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4Qg7J207JmE67aI64ql7KadIChBY2hhbGFzaWEpLm1k
 question_type: management
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-25세 남성이 연하 곤란으로 소화기내과에 내원하였다. 환자는 고형식을 먹을 때마다 다시 역류한다고 말한다. 의심되는 진단에 따라 소화기내과 의사가 진단 검사를 시행하였다. 몇 시간 후, 환자는 흉통과 호흡 곤란을 주소로 응급실에 내원하였다. 체온은 99.5°F(37.5°C), 혈압은 130/85 mmHg, 맥박은 60회/분, 호흡수는 12회/분, 실내 공기에서의 산소 포화도는 99%이다. 신체 검진상 심폐 검사는 정상이다. 목의 압통은 없으며, 구인두는 정상이고, 쇄골 상부에서 촉지되는 염발음(crepitus)과 경미한 림프절병증이 관찰된다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+식도 확장술 도중 약 5 mm의 의인성 전층 결손이 즉시 발견됐다. 환자는 혈역학적으로 안정적이고 결손에 접근해 닫을 수 있다. 추가 합병증 평가와 금식을 진행하면서 고려할 처치는?
 
 ## 선택지
 
-A. 바륨 연하 검사(Barium swallow)
-B. 응급 수술
-C. 가스트로그라핀 연하 검사(Gastrografin swallow)
-D. 초음파 검사
+A. 내시경 클립으로 결손을 즉시 닫고 외과와 경과를 함께 평가한다
+B. 작은 결손이므로 바로 경구 섭취를 시작한다
+C. 다음 날까지 아무 조치 없이 기다린다
+D. 결손 크기나 오염 여부와 관계없이 식도절제술을 시행한다
 
 ## 해설
 
 
-식도 검사 뒤 흉통과 쇄골 위 피하기종은 의인성 식도 천공을 의심하게 한다. 제시된 선택지 중 수용성 조영제를 이용한 식도조영술(C)이 누출 확인에 적절하다. 바륨이 종격동으로 새는 위험을 줄일 수 있으나, 가스트로그라핀은 고삼투성으로 흡인 시 심한 폐손상을 일으킬 수 있어 흡인 위험을 평가해야 한다. '가스가 적다'는 이유로 쓰는 것이 아니다. 현행 지침에서는 조영증강 CT/CT 식도조영술도 중요한 초기 검사이며, 그 선택지는 제시되지 않았다.
+즉시 발견한 작은 의인성 식도 천공은 적절한 조건에서 내시경 클립으로 닫을 수 있다. 금식, 항생제 및 추가 영상·외과 평가를 병행하고 누출 지속이나 패혈증이 생기면 치료를 확대한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 초음파 검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000887
+- https://pubmed.ncbi.nlm.nih.gov/32781470/

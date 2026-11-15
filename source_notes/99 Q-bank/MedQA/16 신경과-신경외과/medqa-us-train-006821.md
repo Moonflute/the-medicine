@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-y5mOunpCAoRGVtZW50aWEpLm1k
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,21 +37,22 @@ related_drug_slugs:
 
 ## 문제
 
-72세 남성이 지난 7개월 동안 기억력 문제로 아내와 함께 내원했다. 점점 건망증이 심해져 차 열쇠를 자주 잃어버리고 자녀 이름을 잊는다. 저녁을 만드는 법을 잊어 익히지 않은 국수나 생고기를 내놓기도 한다. 어느 날 밤 차를 이웃집 덤불에 주차하고 거리를 헤매다 발견되었다. 고혈압, 고지혈증 및 만성폐쇄성폐질환이 있다. 아토르바스타틴, 메토프롤롤, 이프라트로피움 및 플루티카손을 복용한다. 활력징후는 정상이고 사람과 장소에만 지남력이 있다. 신경학적 진찰에서 국소 소견은 없다. 간이정신상태검사는 30점 만점에 19점이다. 전혈구검사, 전해질, 혈액요소질소, 크레아티닌, TSH, 간기능, 비타민 B12 및 엽산은 정상이다. 다음 중 진단의 다음 단계로 가장 적절한 것은?
+72세 환자에게 8개월간 진행한 기억저하가 있고 최근 혼자 약과 공과금을 관리하기 어렵다. 면담·인지 평가와 기본 혈액검사를 마쳤다. 구조적 원인을 살피기 위한 첫 영상은?
 
 ## 선택지
 
-A. 요추천자
-B. 뇌파검사
-C. PET 촬영
-D. 뇌 MRI
+A. 비조영 뇌 MRI
+B. 아밀로이드 PET 단독
+C. 수면 뇌파검사
+D. 뇌혈관 카테터조영술
 
 ## 해설
 
 
-점진적인 기억력 저하와 일상생활 수행능력 감소는 치매 의심을 높이며, 원인 감별을 위해 구조적 뇌 손상을 확인해야 한다. MRI는 알츠하이머병, 혈관성 치매, 종양 등 구조적 원인을 평가하는 가장 민감한 영상이다. 따라서 다음 단계는 뇌 MRI 시행이다.
+지속하는 인지장애에서 구조적 뇌 영상으로 뇌혈관병, 수두증, 종괴 등의 단서를 평가한다. 우선 뇌 MRI를 고려하고 불가능하면 뇌 CT가 대안이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006821
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12173843/

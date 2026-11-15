@@ -20,6 +20,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yhsOyCsCAoUHJldGVybSBiaXJ0aCkubWQ
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,7 +39,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 35주인 여성이 저녁 식사 중 시작된 복통과 질에서 맑은 액체가 갑자기 흘러나온 증상으로 응급실에 왔다. 몇 분마다 통증성 복부 수축이 있었다. 검사에서 혈액검사는 정상이었고 레시틴/스핑고미엘린 비율은 1.5였다. 다음 중 가장 적절한 다음 처치는?
+임신 35주인 여성이 저녁 식사 중 시작된 복통과 질에서 맑은 액체가 갑자기 흘러나온 증상으로 응급실에 왔다. 몇 분마다 통증성 복부 수축이 있었다. 검사에서 혈액검사는 정상이었고 레시틴/스핑고미엘린 비율은 1.5였다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

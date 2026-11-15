@@ -17,7 +17,7 @@ related_diseases:
 question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여성이 아침에 처음 발견한 왼쪽 소음순의 급성 통증성 부종으로 진료를 받으러 왔다. 앉거나 걸을 때 아프고 성관계 중 통증이 있었다. 체온 38°C(100.4°F), 왼쪽 안쪽 소음순에 부종과 홍반을 둘러싼 압통성 종괴가 있었다. 가장 적절한 처치는?
+25세 여성이 앉기 힘들 정도로 아픈 질 입구 한쪽의 부종으로 내원했다. 바르톨린샘 부위에 파동과 압통이 있다. 처음 생긴 농양이며 전신 상태는 안정적이다. 재발을 줄이면서 배농할 방법은?
 
 ## 선택지
 
-A. 냉동치료
-B. 절개 및 배농
-C. 생검
-D. 트리메토프림-설파메톡사졸
+A. 전신 증상이 없어도 항생제만으로 치료한다
+B. 표면 병변을 냉동치료한다
+C. 절개·배액 뒤 워드 카테터로 배액 통로를 유지한다
+D. 첫 농양에서 바르톨린샘 전체를 일률적으로 절제한다
 
 ## 해설
 
-압통·발적·발열을 동반한 질입구 안쪽 종괴는 바르톨린농양을 시사하며 선택지 중 배농(B)이 적절하다. 실제로는 Word카테터 등으로 배액로를 유지하거나 조대술을 고려해 재발을 줄인다. 전신증상·주위 봉와직염이 있으면 항생제도 평가하므로 항생제가 언제나 불필요한 것은 아니다.
+바르톨린샘 농양은 통증을 줄이기 위해 배농한다. 워드 카테터는 통로가 너무 일찍 닫히는 것을 막는 방법이다. 주위 봉와직염이나 전신 감염이 있으면 항생제를 함께 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 트리메토프림-설파메톡사졸
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001235
+- https://rightdecisions.scot.nhs.uk/ggc-referral-management/womens-health/gynaecology-clinical-guidelines/management-of-bartholin-s-cyst-and-abscess-gynaecology-066/
+- https://pubmed.ncbi.nlm.nih.gov/27640367/

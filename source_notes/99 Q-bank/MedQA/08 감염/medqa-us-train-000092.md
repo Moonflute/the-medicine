@@ -17,9 +17,9 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 question_type: management
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-53세 여성이 1일 전부터 시작된 발열, 오한, 두통, 마른기침을 주소로 2월에 내원하였다. 환자는 권태감과 전신 근육통도 호소한다. 환자는 지역 고등학교 교사로 근무 중이며, 최근 해당 학교에서 인플루엔자 유행이 있었다. 간헐적 천식 병력이 있으며 필요 시 알부테롤(albuterol)을 사용한다. 가을에 인플루엔자 백신 접종을 권유받았으나, 백신 접종 후 친구가 독감 유사 질환을 앓았다는 자매의 말을 듣고 접종을 거부했다. 환자는 자신이 병에 걸릴까 봐 걱정하며 직장에 결근할 여유가 없다. 체온은 37.9°C, 심박수는 분당 58회, 호흡수는 분당 12회이다. 신체 검진상 특이 소견은 없다. 혈색소 농도는 14.5 g/dL, 백혈구 수는 9,400/mm3, 혈소판 수는 280,000/mm3이다. 진통제 외에 가장 적절한 다음 치료 단계는 무엇인가?
+인플루엔자 유행 중 천식 환자가 어제부터 발열, 전신 근육통과 마른기침을 한다. 당일 검사 결과를 기다리는 중이다. 적절한 초기 치료는?
 
 ## 선택지
 
-A. 보존적 치료만 시행
-B. 아만타딘(Amantadine)
-C. 불활성화 인플루엔자 백신
-D. 오셀타미비르(Oseltamivir)
+A. 신속검사가 양성일 때만 항바이러스제를 시작한다
+B. 천식은 합병증 고위험이므로 오셀타미비르를 경험적으로 시작한다
+C. 천식 환자에서도 흡입 자나미비르를 우선 사용한다
+D. 불활성화 백신으로 현재 증상을 치료한다
 
 ## 해설
 
 
-환자는 인플루엔자 유행 기간에 발열·기침·근육통을 보이며, 고위험군(천식)이다. 증상이 48시간 이내이므로 오셀타미비르와 같은 뉴라미니다제 억제제가 가장 효과적이다. 따라서 가장 적절한 치료는 오셀타미비르이다.
+천식은 인플루엔자 합병증 위험을 높인다. 유행기 임상적으로 의심되면 치료를 늦추지 않으며, 흡입 자나미비르는 기도질환 환자에게 기관지경련 위험이 있다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 오셀타미비르(Oseltamivir)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000092
+- https://www.kdca.go.kr/bbs/kdca/55/310104/download.do

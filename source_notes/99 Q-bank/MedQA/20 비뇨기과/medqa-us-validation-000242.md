@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
   - MDQg64K067aE67mEL-yalOu2leymnSAoRGlhYmV0ZXMgSW5zaXBpZHVzKS5tZA
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 여성(임신 2회, 출산 2회)이 낮과 밤에 절박뇨와 함께 자신도 모르게 소변이 새는 증상으로 진료를 받으러 왔다. 증상은 운동, 웃음, 기침과 관련이 없다. 무거운 것을 드는 직업은 아니지만 때때로 매우 스트레스를 받는다고 한다. 다른 비뇨생식기 증상은 없다. 질식분만 1회와 제왕절개 1회를 받았고 비뇨생식기 또는 신경계 질환의 병력은 없다. 체중은 91 kg, 키는 172 cm이며 활력징후는 정상이다. 복부 종괴, 늑골척추각 또는 치골상부 압통은 없고 외음부 병변도 없다. 외요도구는 정상이며 Q-tip 검사는 음성이다. 자궁경부와 자궁, 난소에도 이상이 없다. 소변검사, 소변배양, 방광 초음파는 모두 정상이다. 방광내압검사에서 잔뇨 10 mL(정상 <50), 방광 충만감 용적 190 mL(정상 200~225), 배뇨 욕구 용적 700 mL(정상 400~500), 불수의적 방광수축이 관찰되었다. 가장 적절한 치료 전략은?
+45세 여성이 갑자기 참기 어려운 요의 뒤 소변이 새는 증상을 겪는다. 요검사와 잔뇨는 정상이다. 방광 훈련과 생활 조절을 했으나 증상이 남아 약물 치료를 원한다. 적절한 약물 선택지는?
 
 ## 선택지
 
-A. 요도 메시 슬링 삽입
-B. 국소 에스트로겐 치료
-C. 방광확대성형술
-D. 무스카린 길항제를 시작한다
+A. 항무스카린제 또는 베타3 작용제
+B. 5α-환원효소 억제제
+C. 장기간 항생제
+D. 루프 이뇨제
 
 ## 해설
 
-절박감과 불수의 배뇨근 수축·적은 잔뇨는 절박성 요실금에 합당하여 선지 중 D, 항무스카린제를 고려할 수 있다. 방광 훈련 등 행동관리와 함께 목표·부작용을 논의하고 필요에 따라 beta3 작용제 같은 대안도 있다. 인지기능·변비·구강건조·요폐 위험을 확인하며, 침습적 방광 확대술은 단순 초기 치료가 아니다. 제시된 약제가 모든 환자의 유일한 필수 1차 치료라는 뜻은 아니다.
+과민성 방광에서 항무스카린제나 베타3 작용제로 절박뇨와 누출을 줄일 수 있다. 인지·변비·요폐 위험과 혈압 등 환자 특성에 맞춰 고른다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 무스카린 길항제를 시작한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000242
+- https://www.auanet.org/documents/Guidelines/PDF/2024%20Guidelines/OAB%202024%20Unabridgedv2.pdf

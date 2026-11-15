@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
 difficulty: simple
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 남성이 왼쪽 고관절 통증으로 내원했다. 진찰에서 양쪽 무릎에 경한 관절삼출이 있고 양쪽 슬개대퇴관절에 염발음이 있다. 최근 청력이 악화되었고 모자가 더 이상 맞지 않는 느낌이 든다고 한다. 뼈 스캔에서 두개골, 오른쪽 근위 대퇴골과 왼쪽 장골에 미만성 섭취 증가가 보인다. 이 환자에게 예상되는 검사 이상은 무엇인가?
+67세 남성이 모자가 전보다 작게 느껴지고 청력도 떨어졌다고 한다. 두개골과 골반에 골 비후 및 용해와 경화가 섞인 병변이 있고 ALP가 올라 있지만 칼슘은 정상이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 혈청 알칼리성 인산분해효소 감소
-B. 혈청 알칼리성 인산분해효소 증가
-C. 혈청 부갑상샘호르몬 감소
-D. 혈청 칼슘 증가
+A. 골연화증
+B. 원발성 부갑상선기능항진증
+C. 파제트 골질환
+D. 골다공증
 
 ## 해설
 
-정답은 B, 혈청 알칼리성 인산분해효소(ALP) 증가이다. 모자가 맞지 않을 정도의 두개골 변화, 청력저하 및 두개골·골반·대퇴골의 골스캔 섭취 증가는 파제트 골질환을 시사한다. 비정상적으로 증가한 골재형성과 골형성 활동 때문에 ALP가 상승하며, 합병증이 없는 경우 혈청 칼슘은 보통 정상이다. 골스캔 소견은 본문에 서술되어 있어 별도 이미지가 없어도 답을 판단할 수 있다.
+뼈가 커지고 영상에서 용해와 경화가 섞이며 골성 ALP가 증가하는 조합은 파제트 골질환을 시사한다. 두개골 침범 때 청력 저하가 동반될 수 있다.
 
 ## 검수 근거
 

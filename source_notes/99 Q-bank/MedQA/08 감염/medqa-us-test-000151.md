@@ -19,7 +19,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
 question_type: management
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -42,19 +42,19 @@ related_drug_slugs:
 
 ## 문제
 
-52세 남성이 6일 전 시작된 마른기침, 호흡곤란, 미열로 응급실에 내원했다. 지난 2일 동안 하루 3회 물 같은 설사를 했다. 약간 창백해 보이고 체온 38.0°C, 맥박 분당 65회, 호흡수 분당 15회, 혈압 140/78 mmHg이다. 양쪽 폐기저부에 미만성 수포음이 들린다. 혈색소 13.8 g/dL, 백혈구 16,000/mm³, 혈소판 150,000/mm³, Na⁺ 131, Cl⁻ 102, K⁺ 4.7, HCO₃⁻ 26 mEq/L, BUN 18 mg/dL, 크레아티닌 1.2 mg/dL이다. 흉부 X선에서 양쪽 폐에 반점상 침윤이 보인다. 다음 중 가장 적절한 약물치료는?
+입원한 폐렴 환자의 레지오넬라 소변 항원검사가 양성이다. 세프트리악손만 투여 중이었다. 금기가 없을 때 레지오넬라를 치료할 항생제는?
 
 ## 선택지
 
-A. 레보플록사신
-B. 트리메토프림/설파메톡사졸
-C. 아목시실린
-D. 리팜핀
+A. 세프트리악손
+B. 레보플록사신
+C. 피페라실린/타조박탐
+D. 반코마이신
 
 ## 해설
 
 
-폐렴에 설사·저나트륨혈증이 동반되어 Legionella를 고려한다. 선지 중 세포내 병원체에 활성이 있는 호흡기 fluoroquinolone인 레보플록사신(A)이 적절하다. 감염된 물의 에어로졸 노출과 연관되며 모든 에어컨이 감염원인 것은 아니다. 병원체 검사가 필요하더라도 적절한 항생제를 지연하지 않는다.
+레지오넬라 폐렴에는 레보플록사신 또는 적절한 마크롤라이드를 사용한다. 세프트리악손을 포함한 베타락탐 단독으로는 충분하지 않다.
 
 ## 검수 근거
 
@@ -67,3 +67,4 @@ D. 리팜핀
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000151
+- https://doi.org/10.3947/ic.2018.50.2.160

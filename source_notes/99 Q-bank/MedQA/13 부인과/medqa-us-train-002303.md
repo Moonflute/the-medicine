@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nspp0gKEVuZG9tZXRyaW9zaXMpLm1k
   - MTMg67aA7J246rO8L-yekOq2gSDshKDsspzquLDtmJUgKENvbmdlbml0YWwgVXRlcmluZSBBbm9tYWx5KS5tZA
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 여성이 주기적인 하복부 및 골반 통증으로 내원했다. 지난 12개월 동안 임신이 잘 되지 않았고 최근 6개월간 성교통이 더 잦아졌다. 심장 두근거림과 갑상샘기능저하증 병력은 있으나 심폐검사는 정상이고 하복부에 경미한 압통이 있다. 임신을 원할 때 추정되는 질환에 대한 가장 확실한 치료는?
+30세 여성이 1년간 임신하지 못했다. 배우자 정액과 난관 개통성은 정상이다. 수술 전 충분히 상담한 뒤 복강경을 시행했으며, 최소·경도 자궁내막증이 보인다. 자연임신 가능성을 높이기 위해 고려할 처치는?
 
 ## 선택지
 
-A. NSAID
-B. 류프로라이드
-C. 양측 난관난소절제술을 포함한 전자궁적출술
-D. 복강경검사와 병변 소작
+A. 수술을 중단하고 복합피임약을 1년 사용
+B. 복강경에서 보이는 내막증 병변을 절제 또는 소작
+C. 난소를 양쪽 모두 절제
+D. 장기간 GnRH 작용제만 사용하며 동시에 자연임신 시도
 
 ## 해설
 
-주기 골반통·성교통·불임은 자궁내막증을 시사한다. 임신을 원하는 환자에서는 선택지 중 자궁을 보존하는 복강경 병변 소작·제거(D)를 고려한다. 병기·난소예비력·다른 불임 원인에 따라 수술의 이득은 달라 완치나 임신을 보장하지 않는다. GnRH 억제는 복용 중 임신을 촉진하는 방법이 아니다.
+최소·경도 자궁내막증 난임에서 수술적 복강경 치료는 자연임신 가능성을 높이기 위해 고려할 수 있다. 임신을 시도하는 기간에 배란을 억제하는 호르몬제로 자연임신률을 높일 수는 없다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 복강경검사와 병변 소작
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002303
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11788693/

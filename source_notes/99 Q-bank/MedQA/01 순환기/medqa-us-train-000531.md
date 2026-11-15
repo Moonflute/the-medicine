@@ -35,7 +35,7 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRnVyb3NlbWlkZS5tZA
 medical_review_status: "content-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 중복으로 참인 약물 효과를 장기 신장 적응이라는 질문으로 명확화."
 curation_status: "revised"
 curation_reason: "중복으로 참인 약물 효과를 장기 신장 적응이라는 질문으로 명확화."

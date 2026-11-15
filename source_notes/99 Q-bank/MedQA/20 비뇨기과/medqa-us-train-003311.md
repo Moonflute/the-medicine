@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-66세 여성이 한 달 동안 갑자기 소변이 마려워지면서 자신도 모르게 소변을 지리는 증상으로 내원했다. 흐르는 물, 손 씻기, 추운 날씨가 소변 욕구를 유발하며 가족력은 없다. 신체검사는 정상이고 소변검사에서 감염 소견이 없다. 다음 중 가장 적절한 관리 단계는?
+66세 여성이 갑작스러운 요의 뒤 화장실에 닿기 전에 소변이 샌다고 한다. 요검사와 잔뇨는 정상이고 약을 쓰지 않고 먼저 치료해 보고 싶다. 적절한 초기 처치는?
 
 ## 선택지
 
-A. 항무스카린제 투여
-B. 방광 훈련
-C. 후경골신경 자극
-D. 수술
+A. 처음부터 요도 슬링 수술을 한다
+B. 매번 요의가 오기 전에 최대한 자주 소변을 보게 한다
+C. 배뇨일지와 방광 훈련으로 배뇨 간격을 서서히 늘린다
+D. 유치도뇨관을 삽입한다
 
 ## 해설
 
-절박감을 동반한 소변 누출과 물소리 등의 유발요인, 감염 없는 요검사는 절박성 요실금/과민성 방광에 부합한다. 방광훈련(B)은 권장되는 비침습적 초기 선택이다. 현행 접근은 환자의 불편·목표·선호에 따른 공동결정을 중시하며, 모든 약물이나 신경자극 치료를 정해진 단계 실패 후에만 사용할 수 있는 것은 아니다.
+절박성 요실금에서 방광 훈련은 우선 선택할 수 있는 비침습적 치료다. 배뇨일지로 패턴을 확인하고 요의를 조절하며 배뇨 간격을 점차 늘린다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 수술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003311
+- https://www.nice.org.uk/guidance/ng123/chapter/recommendations

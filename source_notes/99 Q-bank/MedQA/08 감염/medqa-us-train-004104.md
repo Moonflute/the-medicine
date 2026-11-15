@@ -15,9 +15,9 @@ related_diseases:
   - "바르토넬라 감염"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
-question_type: 임상증례 객관식
+question_type: management
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-HIV에 감염된 30세 여자가 1주간 지속된 발열과 여러 피부 병변으로 응급실에 왔다. 오심, 식욕부진, 복통도 있다. 피부 병변은 가렵거나 아프지 않다. 15년간 하루 한 갑을 피우고 하루 맥주 2캔을 마신다. 6년간 크랙 코카인을 정맥주사로 사용했다. 아파 보이며 체온 38°C, 맥박 105회/분, 혈압 110/75 mmHg, BMI 19kg/m²이다. 양쪽 팔오금에 주사 자국이 있고 입천장에 긁어낼 수 있는 흰 반점이 있다. 얼굴과 몸통에 1~2cm 크기의 붉은 구진이 여러 개 보인다. CD4+ T 림프구 수는 98/mm³이다. 피부 병변 생검에서 혈관 증식과 Warthin-Starry 염색으로 작은 검은 세균이 보인다. 가장 적절한 약물치료는 무엇인가?
+치료받지 않은 HIV 환자에게 출혈하기 쉬운 붉은 피부 결절이 여러 개 생겼다. 생검에서 혈관 증식과 호중구 침윤이 보이며 조직의 Bartonella PCR이 양성이다. 환자는 안정적이고 피부 외 중증 장기 침범은 확인되지 않았다. 적절한 항생제는?
 
 ## 선택지
 
-A. 피리메타민과 설파디아진
-B. 아지트로마이신과 에탐부톨
-C. 에리트로마이신
-D. 니타족사나이드
+A. 독시사이클린
+B. 세팔렉신
+C. 트리메토프림/설파메톡사졸
+D. 아목시실린/클라불란산
 
 ## 해설
 
 
-혈관 증식과 Warthin–Starry 양성 세균이 있는 HIV 환자의 피부 구진은 Bartonella 관련 세균성 혈관종증(bacillary angiomatosis)이다. 선택지 C의 erythromycin은 권고 치료 중 하나이고 doxycycline도 유효하다. HIV 감염에서는 일반적으로 충분한 장기 치료와 ART를 병행하며 다발성 중증·전신 침범이면 rifamycin 병용/정주 치료 등을 검토한다. HHV8 관련 Kaposi육종과 달리 세균성 병원체가 관찰되는 맥락이다.
+진행된 HIV 감염에서 세균성 혈관종증은 카포시육종과 비슷하게 보일 수 있다. 바르토넬라 감염이 확인된 경우 독시사이클린 또는 에리트로마이신을 사용하며, 침범 부위와 중증도에 따라 치료를 조정한다.
 
 ## 검수 근거
 

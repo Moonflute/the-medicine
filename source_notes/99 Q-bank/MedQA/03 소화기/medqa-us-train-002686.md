@@ -20,7 +20,7 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-37세 남성이 여러 식이·운동 프로그램에도 체중 감량에 실패해 내원했다. 2년간 당뇨병, 9년간 심한 위식도역류병이 있으며 BMI 36.5 kg/m²이다. 다음 중 가장 적절한 수술적 치료는?
+37세 남성이 BMI 36.5 kg/m²이고 제2형 당뇨병이 있다. 비수술 치료에도 체중이 줄지 않았고 약물에도 심한 역류가 지속된다. 비만대사수술 대상인 이 환자에서 역류도 함께 고려하면 적절한 수술은?
 
 ## 선택지
 
-A. 담췌 우회술과 십이지장 전환술
-B. 복강경 조절식 위밴드술
-C. 복강경 루와이 위우회술
-D. 현재는 수술치료를 하지 않는다
+A. 위소매절제술
+B. 조절형 위밴드술
+C. 루와이 위우회술
+D. 위저부주름술만 시행
 
 ## 해설
 
 
-BMI > 35 kg/m²에 위식도역류가 동반된 경우, 체중 감소와 역류 개선을 동시에 달성할 수 있는 Roux‑en‑Y 위우회술이 가장 효과적인 수술법이다. 위밴드술은 역류 개선 효과가 제한적이며, 다른 선택지는 적절치 않다. 따라서 Roux‑en‑Y 위우회술이 정답이다.
+국내 기준에서 비수술 치료에 실패한 BMI 35 이상 환자는 비만대사수술을 고려할 수 있다. 심한 역류가 함께 있으면 위소매절제 후 역류가 악화될 수 있어 루와이 위우회술을 우선 검토한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ BMI > 35 kg/m²에 위식도역류가 동반된 경우, 체중 감소와 �
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002686
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10088549/
+- https://www.sages.org/publications/guidelines/multi-society-consensus-conference-and-guideline-on-the-treatment-of-gerd/

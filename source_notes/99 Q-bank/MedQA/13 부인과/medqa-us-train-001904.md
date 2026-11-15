@@ -13,14 +13,14 @@ related_diseases:
   - "tubal factor infertility"
   - "pelvic inflammatory disease"
   - "hysterosalpingography"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
   - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-31세 여성이 임신하지 못해 산부인과에 내원했다. G1P0이고 28일 주기이며 월경 이상은 없다. 5년 전 선택적 낙태를 했고 이후 피임 없이 1년 이상 규칙적으로 성관계를 하며 배란주기를 추적했지만 임신하지 못했다. 과거 간헐적 악취 질분비물과 월경·성관계 후 경한 하복부 통증이 있었고 양측 부속기에 약한 압통이 있다. 남편의 정액검사는 정상이다. 다음 중 가장 합리적으로 시행할 검사는 무엇인가?
+31세 여성이 양측 난관수종으로 난임 평가를 받았고 체외수정을 계획한다. 다른 치료로 해결할 활동성 감염은 없다. 배아이식 성공률을 높이기 위해 먼저 논의할 처치는?
 
 ## 선택지
 
-A. 성교 후 자궁경부 점액검사
-B. 탐색적 복강경
-C. 자궁난관조영술
-D. 골반 MRI
+A. 자궁경부 점액만 검사하고 그대로 배아이식
+B. 난관절제술 또는 자궁에 가까운 쪽 난관 폐쇄
+C. 황체기 프로게스테론만 추가하고 난관수종은 두기
+D. 난관수종을 치료하려고 자궁절제술
 
 ## 해설
 
 
-불임 평가에서 자궁난관조영술(HSG)은 난관 폐쇄 여부를 직접 확인할 수 있는 가장 합리적인 초기 검사이다. 자궁경부 점액 검사와 복강경은 각각 제한적이며 MRI는 비용 효율성이 낮다. 따라서 자궁난관조영술이 적절한 검사가 된다.
+난관수종의 액체가 자궁강으로 유입되면 체외수정 결과가 나쁠 수 있다. 시술 전 복강경 난관절제 또는 근위부 폐쇄를 환자 상태와 수술 가능성에 맞춰 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001904
+- https://www.ncbi.nlm.nih.gov/books/NBK620431/

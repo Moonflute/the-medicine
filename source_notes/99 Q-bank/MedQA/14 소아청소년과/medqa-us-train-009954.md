@@ -14,11 +14,11 @@ related_diseases:
   - "약독화 생백신"
   - "수두 백신"
   - "Varicella"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IiY65GQIChWYXJpY2VsbGEpLm1k
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-13개월 여아가 2일 동안 지속된 가려운 발진으로 내원했다. 어머니는 이틀 전 몸통에 가려워 보이는 고립된 피부 병변 몇 개를 발견했다. 18일 전에 정기 예방접종을 받았고 증상 때문에 이부프로펜을 투여하고 있다. 알려진 접촉자 중 아픈 사람은 없었다. 키는 71백분위수, 체중은 64백분위수이며 급성 고통은 없다. 체온 38.1°C, 맥박 분당 120회, 호흡수 분당 26회이다. 진찰에서 얼굴과 몸통에 산재한 몇 개의 반구진 및 농포성 병변이 보이고 긁은 자국과 딱지가 있는 병변도 있다. 다음 중 이 소견을 가장 잘 설명하는 것은?
+13개월 아이가 수두 백신을 맞은 지 2주 뒤 가벼운 수포성 발진을 보인다. 전신 상태는 양호하지만 집에는 수두 면역이 없는 중증 면역저하 가족이 있다. 진료와 함께 어떤 안내가 적절한가?
 
 ## 선택지
 
-A. 감작된 T림프구와 항원의 접촉
-B. 후근신경절에 잠복한 바이러스의 재활성화
-C. 미리 형성된 IgE 항체의 교차결합
-D. 약독화 백신 균주의 복제
+A. 예방접종 뒤 발진은 전파 가능성이 전혀 없으므로 평소대로 접촉
+B. 발진이 소실될 때까지 면역저하 가족과 밀접 접촉을 피하도록 안내
+C. 발진이 나았을 때까지 가족 전체에 항생제 투여
+D. 아이에게 수두 백신을 즉시 다시 접종
 
 ## 해설
 
-약독화 생수두백신 후 백신 균주가 제한적으로 복제되면서 소수의 수두 유사 피부 병변이 발생할 수 있어 D가 가장 적절하다. CDC는 전신성 발진이 대체로 접종 후 3주 이내에 생길 수 있다고 설명하므로 접종 18일째 내원·2일 전 발진이라는 경과와 맞는다. 피부 소견과 시점만으로 실제 균주를 검사로 확정한 것은 아니다.
+수두 백신 후 발진이 생긴 경우 백신 바이러스 전파는 드물지만 감수성이 높은 면역저하자와는 발진이 없어질 때까지 밀접 접촉을 피한다. 발진이 접종 때문인지 다른 감염인지도 임상적으로 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 약독화 백신 균주의 복제
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009954
+- https://www.cdc.gov/chickenpox/hcp/vaccine-considerations/specific-groups.html

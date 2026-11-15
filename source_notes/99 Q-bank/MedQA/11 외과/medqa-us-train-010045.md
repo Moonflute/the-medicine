@@ -18,7 +18,7 @@ related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 question_type: management
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-79세 남성이 복통으로 응급실에 내원했다. 통증은 심하고 찢어지는 듯하며 등으로 방사된다. 고혈압, 고지혈증, 간헐적 파행, 60갑년의 흡연력이 있다. 초음파 추적 중인 안정된 복부 대동맥류를 이전에 진단받았다. 체온 36.7°C, 맥박 분당 113회, 혈압 84/46 mmHg, 호흡수 분당 24회, 실내 공기 산소포화도 99%이다. 창백하고 식은땀을 흘리며 진찰 중 혼란스러워진다. 다음 중 이 환자의 평가와 치료에 가장 적절한 것은?
+추적 중인 복부 대동맥류가 있는 79세 남성이 갑자기 심한 복통과 등 통증을 호소한다. 혈압은 76/43 mmHg로 떨어지고 의식이 악화된다. 파열이 의심될 때 우선 할 조치는?
 
 ## 선택지
 
-A. 조영제를 사용한 복부 CT
-B. 조영제를 사용하지 않은 복부 CT
-C. 복부 MRI
-D. 수술
+A. 복부 MRI 결과가 나올 때까지 대기
+B. 혈관외과 응급 대응을 가동하고 수혈 소생과 함께 즉시 복구를 준비
+C. 일반병실에서 수액만 주고 혈압 반응을 관찰
+D. 외래 초음파로 동맥류 크기만 다시 측정
 
 ## 해설
 
 
-알려진 AAA 환자의 갑작스러운 복통·등 방사통과 쇼크·의식 악화는 파열을 강하게 의심하게 하므로 즉시 혈관외과 수술/혈관내 복구를 위한 대응(D)이 필요하다. 혈액제제 소생과 신속 출혈제어를 준비한다. 실제 복구 방식은 EVAR 가능 해부학과 자원에 따라 정하며 무조건 개방술만 뜻하지 않는다. CTA는 신속히 시행 가능하고 처치를 지연하지 않는다면 복구 계획에 중요하지만, 악화하는 환자의 생명구제 처치를 기다리게 해서는 안 된다.
+알려진 복부 대동맥류에서 새 복통·등 통증과 쇼크가 나타나면 파열을 우선 의심한다. 혈액제제 소생과 혈관내 또는 개방 복구 준비를 병행한다. CTA는 신속하게 할 수 있을 때 치료 계획에 쓰되 출혈 조절을 늦추지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 수술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010045
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12775968/
+- https://pubmed.ncbi.nlm.nih.gov/38307694/

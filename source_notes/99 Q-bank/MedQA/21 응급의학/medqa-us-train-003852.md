@@ -20,6 +20,7 @@ related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-u5hOy2nO2YiCAoRXBpc3RheGlzKS5tZA
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct

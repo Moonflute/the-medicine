@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -34,7 +35,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-12세 남아가 피로와 창백함이 잦아 어머니와 함께 정기검진을 왔다. 최근 야구에 흥미가 없고 조용해졌으며 팔과 양쪽 허벅지에 작은 멍이 있다. 혈액검사에서 백혈구 3,400/mm³, 헤마토크릿 22%, 헤모글로빈 7.1 g/dL, 혈소판 109,000/mm³이고 말초혈액도말에서 골수모세포가 보인다. 다음 중 가장 적절한 다음 처치는?
+12세 남아가 피로와 창백함이 잦아 어머니와 함께 정기검진을 왔다. 최근 야구에 흥미가 없고 조용해졌으며 팔과 양쪽 허벅지에 작은 멍이 있다. 혈액검사에서 백혈구 3,400/mm³, 헤마토크릿 22%, 헤모글로빈 7.1 g/dL, 혈소판 109,000/mm³이고 말초혈액도말에서 골수모세포가 보인다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

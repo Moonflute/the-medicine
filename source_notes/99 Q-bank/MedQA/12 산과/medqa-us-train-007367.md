@@ -18,7 +18,7 @@ question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: simple
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-37세 초임부가 임신 13주에 산전 진료를 위해 내원했다. 건강하며 엽산만 복용한다. 활력징후는 정상이고 골반검사에서 자궁 크기는 임신 13주에 해당한다. 초음파에서 목덜미 투명대가 99백분위수보다 높고, 산모 혈청 임신관련 혈장단백 A는 감소했으며 사람 융모성 성선자극호르몬 농도는 중앙값의 2배로 증가했다. 다음 중 진단을 확진할 가능성이 가장 높은 검사는 무엇인가?
+임신 13주 산모의 태아 목덜미 투명대가 4.5 mm다. 상담 후 기다리지 않고 염색체 진단검사를 받길 원한다. 현재 주수에 시행할 수 있는 검사는?
 
 ## 선택지
 
-A. 융모막융모검사
-B. 쿼드검사
-C. 무세포 DNA 검사
-D. 양수검사
+A. 모체 혈액 세포유리 DNA 검사
+B. 모체 혈청 쿼드검사
+C. 융모막융모검사
+D. 임신 13주에 통상 시행하는 양수검사
 
 ## 해설
 
-높은 NT·낮은 PAPP-A·높은 hCG는 21번 삼염색체 위험을 높이는 선별 소견이다. 현재 13주에 진단 검사를 원한다면 CVS(A)를 시행할 수 있다. 양수검사도 진단 검사지만 보통 15주 이후이며, cfDNA·쿼드검사는 확진 검사가 아니다.
+융모막융모검사는 이 시기에 시행할 수 있는 침습적 진단검사다. 양수검사는 보통 15주 이후에 하며, 혈액 선별검사로 염색체 이상을 확진하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 양수검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007367
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7834900/
+- https://pubmed.ncbi.nlm.nih.gov/33496085/

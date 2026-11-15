@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-59세 남성이 갑자기 오른팔과 오른다리에 힘이 빠지고 말이 어눌해져 응급실에 왔다. 이마의 움직임은 보존된 채 오른쪽 안면마비가 있었고 오른팔 근력은 0/5, 오른다리는 2/5였으며 오른쪽 몸에 저림이 있었다. 맥박은 불규칙하게 불규칙했다. 혈관조영술에서 병변이 발견될 가능성이 가장 높은 혈관은?
+64세 환자가 갑자기 왼팔 힘이 빠졌고, 양쪽에서 동시에 소리를 내면 왼쪽 자극을 놓친다. 자신의 왼팔이 마비됐다는 사실도 알아차리지 못한다. 얼굴과 팔의 위약이 다리보다 심하다. 어느 혈관 영역의 뇌졸중이 가장 의심되는가?
 
 ## 선택지
 
-A. 전대뇌동맥
-B. 중대뇌동맥
-C. 후대뇌동맥
-D. 기저동맥
+A. 왼쪽 중대뇌동맥
+B. 오른쪽 전대뇌동맥
+C. 왼쪽 후대뇌동맥
+D. 오른쪽 중대뇌동맥
 
 ## 해설
 
-오른쪽 하안면 마비와 오른팔 우세의 오른쪽 팔다리 위약·감각저하는 좌측 대뇌반구 병변을 시사하며 주어진 선지에서는 중대뇌동맥(B)이 가장 합당하다. 이마 움직임 보존은 중추성 안면마비에 맞는다. 불규칙하게 불규칙한 맥박은 심방세동에 의한 색전 가능성을 뒷받침한다. 좌측 팔다리 마비라고 한 기존 설명은 본문과 반대이므로 잘못이다.
+왼쪽 공간의 무시와 병식 저하는 오른쪽 대뇌의 주의 네트워크 손상을 시사한다. 왼쪽 얼굴·팔 우세 위약이 동반되면 오른쪽 중대뇌동맥 영역에 맞는다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 기저동맥
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003358
+- https://www.ahajournals.org/doi/10.1161/STR.0000000000000513

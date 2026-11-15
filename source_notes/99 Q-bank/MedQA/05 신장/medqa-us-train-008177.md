@@ -18,7 +18,7 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yalOyEnSAoVXJpbmFyeSB0cmFjdCBzdG9uZSkubWQ
 question_type: investigation
 difficulty: standard
-answer: "C"
+answer: C
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -38,23 +38,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-43세 남자가 6시간 동안 지속된 급성 좌측 옆구리 통증으로 내원했다. 통증은 심하고 간헐적이며 파도처럼 오고 왼쪽 늑골척추각을 가리킨다. 치료자가 하루 물을 두 잔만 마시라고 해 최근 수분 섭취를 제한했다. 오심과 구토도 있다. 고혈압, 통풍, 제2형 당뇨병 병력이 있다. 발열은 없고 활력징후는 정상이다. 심한 통증으로 몸부림치며 좌측 늑골척추각에 극심한 압통이 있다. 소변검사에서 육안적 혈뇨가 보인다. 가장 적절한 다음 처치는?
+43세 남성이 갑작스러운 옆구리 산통과 혈뇨로 내원했다. 초음파에 수신증이 있지만 결석이 보이지 않아 위치와 크기를 정해야 한다. 혈압은 안정적이고 발열은 없다. 다음 영상검사는?
 
 ## 선택지
 
-A. 조영증강 복부 및 골반 CT
-B. 신장 초음파
-C. 비조영 복부 및 골반 CT
-D. 앙와위 복부 방사선촬영
+A. 조영증강 복부·골반 CT
+B. 같은 초음파를 계속 반복한다
+C. 복부·골반 비조영 CT
+D. 복부 단순촬영만 한다
 
 ## 해설
 
-비임신 성인의 급성 신산통과 혈뇨에서 요로결석을 처음 확인하는 검사로 선택지 중 비조영 CT가 적합하다. 결석 위치·크기와 폐색을 볼 수 있고 조영제가 통상 필요하지 않다. 임신·방사선 노출을 줄여야 하는 상황 등에서는 초음파를 우선 고려할 수 있으며 모든 조영 CT가 신독성을 일으킨다는 뜻은 아니다.
+초음파가 불명확한 성인에서 비조영 CT로 결석의 위치·크기와 폐색 정도를 평가할 수 있다. 일반적 결석 확인에는 조영제가 필요하지 않다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008177
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10330415/
 
 ## 오답 포인트
 

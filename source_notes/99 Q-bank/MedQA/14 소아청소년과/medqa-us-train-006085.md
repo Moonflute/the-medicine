@@ -13,7 +13,7 @@ related_diseases:
   - "비후성 유문 협착증"
   - "분출성 비담즙성 구토"
   - "올리브 모양 종괴"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE64yAIOuCoOusuCDtmJHssKnspp0gKEh5cGVydHJvcGhpYyBQeWxvcmljIFN0ZW5vc2lzKS5tZA
 difficulty: standard
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 5주 된 남아가 구토로 응급실에 왔다. 일주일 동안 정상 수유를 유지하지 못했고 이제 매 식사 후 분출성 비담즙성 구토를 한다. 생후 4일에 세균성 결막염 의심으로 경구 에리트로마이신을 단기간 투여받았다. 신체검사에서 대천문 함몰과 점막 건조가 있고 명치 우측에 공 모양 종괴가 만져진다. 다음 중 가장 가능성 높은 상태는 무엇인가?
+생후 5주 영아가 수유 직후 담즙이 섞이지 않은 분출성 구토를 반복한다. 토한 뒤 다시 먹으려 하고, 복부에 뚜렷한 덩이는 만져지지 않는다. 비후성 유문협착증을 확인할 첫 검사는?
 
 ## 선택지
 
-A. 비후성 유문 협착증
-B. 우유 단백 알레르기
-C. 중장 염전
-D. 장중첩증
+A. 유문을 보는 복부 초음파
+B. 복부·골반 조영 CT
+C. 대변 잠혈검사
+D. 하부 위장관 조영 관장
 
 ## 해설
 
 
-구토가 식후에 분출성 비담즙성이며, 명치 우측에 올리브 모양 종괴가 촉진되는 것이 비후성 유문 협착증의 전형적인 징후이다. 협착으로 인해 위 내용물이 위로 역류하면서 비담즙성 구토와 탈수, 함몰된 대천문이 나타난다. 따라서 가장 가능성 높은 상태는 비후성 유문 협착증이다.
+전형적인 비담즙성 분출성 구토가 있으면 올리브 모양 종괴가 만져지지 않아도 의심한다. 복부 초음파로 유문 근육의 두께와 길이, 위 내용물의 통과를 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 장중첩증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006085
+- https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_Stenosis/

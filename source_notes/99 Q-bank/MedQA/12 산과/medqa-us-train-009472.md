@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,22 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-23세 초임부가 임신 13주에 첫 산전 진찰을 위해 내원했다. 지난 한 달간 간헐적인 두통이 있었다. 중증 질환 병력은 없고 예방접종은 최신이다. 체온 37°C, 맥박 90회/분이며 반복 측정한 혈압은 138/95 mmHg이다. 골반 진찰에서 자궁 크기는 임신 13주에 해당하고 나머지는 정상이다. 소변검사는 정상, 크레아티닌 0.8 mg/dL, ALT 19 U/L, 혈소판 210,000/mm³이다. 가장 가능성 높은 상태는 무엇인가?
+임신 13주 초임부의 혈압이 서로 다른 날에 146/94, 145/95 mmHg였다. 임신 전에는 혈압을 측정한 적이 없고 단백뇨나 장기 이상은 없다. 현재 고혈압의 분류는?
 
 ## 선택지
 
-A. 자간증
-B. 정상 상한 혈압
-C. 전자간증
-D. 만성 고혈압
+A. 임신성 고혈압
+B. 만성 고혈압
+C. 자간전증
+D. 백의고혈압으로 확진
 
 ## 해설
 
 
-임신 13주에 혈압이 138/95 mmHg이며 20주 이전에 고혈압이 존재하면 만성 고혈압으로 진단한다. 다른 선택지는 임신 전 고혈압과 일치하지 않는다.
-따라서 만성 고혈압이 가장 가능성 높은 상태이다.
+임신 전에 있던 고혈압이나 임신 20주 이전에 반복 확인된 고혈압은 보통 만성 고혈압으로 분류한다. 가정혈압이 필요할 수 있으나 단백뇨가 없다는 이유로 혈압 상승 자체를 무시하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009472
+- https://www.nice.org.uk/guidance/ng133/chapter/recommendations

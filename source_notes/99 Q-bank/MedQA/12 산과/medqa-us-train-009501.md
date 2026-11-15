@@ -13,13 +13,13 @@ related_diseases:
   - "pregestational diabetes"
   - "임신 전 당뇨병"
   - "nonstress test"
-question_type: prevention
+question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 difficulty: simple
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 32주인 33세 G1P0 여성이 산전검진을 위해 내원했다. 임신 전부터 있던 제2형 당뇨병이 식이와 인슐린으로 잘 조절되고 있다. 향후 권장되는 추적 관찰은 무엇인가?
+임신성 당뇨병으로 인슐린을 썼던 여성이 출산 6주 뒤 방문했다. 지금 혈당 증상은 없고 출산 후 인슐린은 중단했다. 당뇨병과 당뇨병 전단계를 평가할 검사는?
 
 ## 선택지
 
-A. 지금부터 임신 40주까지 태동 횟수 매일 관찰
-B. 임신 34주부터 분만까지 매월 비수축검사
-C. 지금부터 분만까지 매월 생물리학적 계수
-D. 지금부터 분만까지 주 2회 비수축검사
+A. 소변 당 검사만 시행
+B. 75 g 경구당부하검사
+C. 공복과 관계없는 혈당 한 번으로 평가 종료
+D. 다음 임신 전까지 검사 생략
 
 ## 해설
 
 
-당뇨병이 있는 임산부는 태아의 무산소 스트레스를 조기에 발견하기 위해 주 2회 비수축검사를 시행한다. 이는 태아의 안녕을 지속적으로 모니터링하는 권장 일정이다. 따라서 주 2회 비수축검사가 맞다.
+대한당뇨병학회는 임신성 당뇨병 병력이 있으면 산후 4–12주에 75 g 경구당부하검사를 권고한다. 이후에도 당뇨병 위험이 남아 정기적으로 선별한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009501
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/

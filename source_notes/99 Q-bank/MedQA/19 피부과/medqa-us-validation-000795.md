@@ -19,7 +19,7 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,19 +32,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-58세 남성이 1년간 커진 통증 없는 귀두의 궤양성 병변으로 진료를 받으러 왔다. 병변은 5×5 mm이고 붉은 바탕을 가지며 서혜부 림프절병증은 없다. 절제생검에서 가장 가능성 높은 소견은?
+58세 남성에서 귀두의 통증 없는 궤양이 1년간 서서히 커졌다. 가장자리는 단단하고 조직이 닿으면 피가 난다. 가장 적절한 다음 검사는?
 
 ## 선택지
 
-A. 다양한 정도의 유사분열을 보이는 비정형 편평세포
-B. 암시야 현미경에서 나선균
-C. 비특이적 염증 소견과 C. trachomatis PCR 증폭
-D. 김자 염색에서 보라색으로 보이는 안전핀 모양 세포내 봉입체
+A. 병변 조직생검
+B. 소변 세균배양
+C. 진균 KOH 검사
+D. 단순포진바이러스 혈청 IgG 검사
 
 ## 해설
 
 
-귀두에 지속적인 궤양성 병변이 크기와 무통성으로 나타나면 편평세포암을 의심한다. 조직검사에서 비정형 편평세포와 다양한 유사분열이 관찰되는 것이 특징이며, 이는 정답 A와 일치한다.
+지속적으로 커지는 딱딱한 음경 궤양은 악성 병변을 의심해야 한다. 조직검사로 편평세포암 여부를 확인한다. 치료되지 않는 궤양을 성매개감염으로 단정하지 않는다.
 
 ## 출처
 

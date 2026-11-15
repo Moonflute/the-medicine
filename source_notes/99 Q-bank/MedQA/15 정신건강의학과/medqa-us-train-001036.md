@@ -19,9 +19,9 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yggeydkSDsnqXslaAgKEFkanVzdG1lbnQgRGlzb3JkZXIpLm1k
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-25세 여성이 생후 9개월 된 딸을 출산한 지 6주 후부터 시작된 슬픔으로 내원하였다. 그 이후로 환자는 직장에 복귀하지 않았다. 딸은 보통 밤에 통잠을 자지만, 환자는 여전히 수면 유지에 어려움을 겪고 있다. 환자는 일상적인 업무에 쉽게 주의가 산만해진다. 예전에는 요리를 즐겼으나 지금은 배달이나 포장 음식만 주문한다. 환자는 항상 너무 지쳐서 요리를 할 수 없고 어차피 배도 별로 고프지 않다고 말한다. 환자의 임신은 임신성 당뇨병으로 복잡했다. 아이는 임신 36주에 태어났으며 의학적 문제는 없었다. 환자는 아이의 아버지와 연락하지 않는다. 성생활은 하지 않는다. 담배, 술, 불법 약물은 사용하지 않는다. 키는 157cm이고 체중은 47kg이며, 체질량지수(BMI)는 20kg/m2이다. 활력 징후는 정상 범위 내에 있다. 환자는 의식이 명료하고 협조적이지만 눈 맞춤은 거의 하지 않는다. 신체 검사상 이상 소견은 없다. 가장 가능성이 높은 진단은 무엇인가?
+출산 7주 된 여성이 5주째 거의 매일 우울하고 즐거움을 느끼지 못한다. 아기가 자도 잠들지 못하고, 식욕 저하와 심한 죄책감 때문에 일상생활이 어렵다. 조증·정신병 증상은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 파괴적 기분조절부전장애
-B. 적응장애
-C. 주요우울장애
-D. 정상 행동
+A. 산후 우울감
+B. 산후 정신병
+C. 제2형 양극성장애
+D. 산후 주요우울삽화
 
 ## 해설
 
 
-출산 후 6주째 지속되는 우울감, 수면 장애, 무기력, 흥미 상실은 주요우울장애의 기준을 충족한다. 증상이 2주 이상 지속되고 일상 기능을 크게 방해하므로 주요우울장애가 가장 적절한 진단이다.
+우울감과 흥미 저하가 여러 증상과 함께 수주간 지속되고 기능을 떨어뜨리면 주요우울삽화를 의심한다. 산후 우울감은 대개 2주 이내에 호전된다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001036
+- https://pubmed.ncbi.nlm.nih.gov/37486660/

@@ -15,7 +15,7 @@ related_diseases:
   - "Heyde 증후군"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDtmJHssKkgKEFvcnRpYyBTdGVub3NpcykubWQ
-question_type: association
+question_type: mechanism
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-72세 남자가 점점 심해지는 운동 시 호흡곤란과 가구를 옮길 때 발생한 심한 어지럼 두 차례로 내원했다. 우측 제2늑간에서 가장 크게 들리는 3/6 수축기 박출성 잡음과 양측 경동맥 맥박의 지연 및 감소가 있다. 다음 중 이 상태와 관련되어 가장 흔히 보이는 소견은?
+72세 남성에게 중증 대동맥판 협착이 있다. 수개월 동안 소화관 출혈이 반복되고 대장내시경에서 혈관이형성 병변을 확인했다. 이 두 소견의 연관성을 설명하는 기전은?
 
 ## 선택지
 
-A. 경동맥 죽상경화
-B. 심부정맥혈전증
-C. 대장 혈관이형성증
-D. 발기부전
+A. 항혈소판제와 무관한 혈소판 수의 지속적 증가
+B. 심실 수축력 증가에 의한 문맥 고혈압
+C. 높은 전단력에 의한 고분자 폰빌레브란트인자 감소
+D. 폐동맥압 상승에 의한 대장정맥 폐쇄
 
 ## 해설
 
-지연·감소 경동맥맥박과 우상흉골연 잡음은 AS를 시사하며 대장혈관이형성 C와 Heyde증후군으로 연관된다. 높은 전단력의 고분자 vWF multimer 소실이 출혈에 기여하며 단순 장 저혈류로만 설명하지 않는다.
+협착판을 지나는 높은 전단력으로 고분자 폰빌레브란트인자가 감소하면 혈소판의 부착 기능이 떨어지고 소화관 혈관이형성에서 출혈하기 쉬워진다. 이 연관을 헤이드 증후군이라고 한다.
 
 ## 검수 근거
 

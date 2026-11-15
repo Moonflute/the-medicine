@@ -14,12 +14,12 @@ related_diseases:
   - "일측성 화농성 비루"
   - "소아 코 이물"
   - "Nasal foreign body"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs: []
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-7세 남아가 급성 부비동염으로 소아과에서 충혈제거제를 처방받은 뒤 증상이 악화되어 응급실에 왔다. 코에서 한쪽으로 피가 섞인 화농성 분비물이 나온다. 천식은 알부테롤로 잘 조절되고 체온과 심폐 진찰은 정상이다. 다음 중 가장 가능성 높은 진단은?
+7세 아이가 며칠째 오른쪽 코에서만 악취가 나고 피가 섞인 콧물이 나온다. 열은 없으며 반대쪽은 정상이다. 우선 확인할 것은?
 
 ## 선택지
 
-A. 코 안 이물질
-B. 비인두암
-C. 비중격 천공
-D. 세균성 중복감염을 동반한 부비동염
+A. 알레르기 검사
+B. 만성 부비동염에 대한 단순 X선
+C. 콧물 색을 보고 항생제만 처방한다
+D. 비강을 직접 관찰해 이물이 있는지 확인한다
 
 ## 해설
 
 
-한쪽 코에서 피가 섞인 화농성 분비물은 코 안 이물질에 의해 점막 손상이 일어난 경우가 흔하다. 이물질이 남아 있으면 지속적인 출혈과 감염이 발생한다. 따라서 코 안 이물질이 가장 가능성 높은 진단이다.
+아이의 한쪽에서만 악취나 혈액이 섞인 분비물이 지속되면 코 안 이물을 먼저 본다. 특히 단추형 전지가 의심되면 즉시 전문 제거가 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004916
+- https://www.childrens.health.qld.gov.au/for-health-professionals/queensland-paediatric-emergency-care-qpec/queensland-paediatric-clinical-guidelines/foreign-body-nose

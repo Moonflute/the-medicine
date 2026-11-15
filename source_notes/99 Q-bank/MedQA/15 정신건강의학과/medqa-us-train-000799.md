@@ -21,6 +21,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uLqOq4sCDsoJXsi6Drs5HsoIEg7J6l7JWgIChCcmllZiBwc3ljaG90aWMgZGlzb3JkZXIpLm1k
 difficulty: standard
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite

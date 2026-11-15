@@ -13,11 +13,11 @@ related_diseases:
   - "Sjögren syndrome"
   - "anti-Ro/SSA antibodies"
   - "congenital heart block"
-question_type: risk_factor
+question_type: diagnosis
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-yHvOq3uOugjCDspp3tm4TqtbAgKFNqw7ZncmVuJ3MgU3luZHJvbWUpLm1k
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 G2P1001 여성이 성교통으로 산부인과에 내원했다. 지난 한 달간 질 건조로 성관계가 불편했고 눈에 모래가 낀 느낌, 음식 맛을 느끼기 어렵고 구취가 있다. 활력징후는 정상이며 양쪽 뺨이 불룩하고 침 분비가 감소되어 있다. 다음 중 태아가 위험이 증가하는 것은?
+항Ro/SSA 항체가 확인된 쇼그렌증후군 산모의 태아가 임신 22주에 심박수 68회/분을 지속한다. 태아 심초음파에서 심방박동은 정상이지만 심실과 서로 독립적으로 뛴다. 의심되는 진단은?
 
 ## 선택지
 
-A. 거대아
-B. 심장차단
-C. 폐고혈압
-D. 태변흡인
+A. 심실사이막결손 단독
+B. 동성빈맥
+C. 심방조동
+D. 항체 관련 완전 방실차단
 
 ## 해설
 
-눈·입·질 건조와 침샘 비대는 쇼그렌병을 시사한다. 모체 항Ro/SSA 및 항La/SSB 항체가 태반을 통과하면 신생아 루푸스와 선천성 방실차단 위험이 증가할 수 있어 B가 적절하다. 임상적으로 중대한 완전(3도) 차단도 가능하며 1도 차단만의 문제로 한정할 수 없다. 본문만으로 모체 항체 양성이 실제 확인됐다고 단정한 것은 아니다.
+모체 항Ro/SSA 항체는 태반을 통과해 태아 전도계에 손상을 줄 수 있다. 심방박동과 느린 심실박동이 독립적이면 완전 방실차단을 시사한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 태변흡인
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002536
+- https://onlinelibrary.wiley.com/doi/10.1002/art.41191

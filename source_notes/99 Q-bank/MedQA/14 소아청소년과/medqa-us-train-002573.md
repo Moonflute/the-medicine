@@ -13,7 +13,7 @@ related_diseases:
   - "X-linked agammaglobulinemia"
   - "Bruton tyrosine kinase"
   - "recurrent bacterial infections"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
 difficulty: standard
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-3세 남아가 지속되는 발열과 기침으로 응급실에 왔다. 3일 전 폐렴과 급성 중이염을 진단받아 암피실린-설박탐과 클래리트로마이신을 시작했지만 호전되지 않았다. 생후 10개월부터 폐렴으로 세 차례 입원했고 양측 중이염과 반복적인 호흡기 감염이 있다. 예방접종은 최신이며 편도와 아데노이드가 저형성이다. 다음 중 이 환자 상태의 가장 가능성 높은 원인은?
+2세 남아가 생후 8개월 이후 중이염과 폐렴으로 여러 차례 치료받았다. 편도가 매우 작고 혈청 IgG·IgA·IgM이 모두 낮다. X연관 무감마글로불린혈증을 의심한다면 이 진단을 가장 잘 뒷받침하는 면역검사 소견은?
 
 ## 선택지
 
-A. NADPH 산화효소 결함
-B. IL-2 수용체 감마 사슬 결함
-C. WAS 유전자 돌연변이
-D. 티로신 키나아제 유전자 돌연변이
+A. CD19 양성 B세포가 정상이고 IgM만 높다
+B. CD3 양성 T세포만 현저히 낮다
+C. 호중구 산화폭발검사에서 반응이 없다
+D. CD19 양성 B세포는 거의 없고 T세포는 보존돼 있다
 
 ## 해설
 
-생후 수개월 이후 반복되는 세균성 호흡기 감염과 편도·아데노이드 저형성은 B세포 발달 장애를 시사한다. BTK 티로신키나아제 변이에 의한 X연관 무감마글로불린혈증(D)이 가장 적절하다. 예방접종을 제때 받았다는 사실이 보호 항체를 정상적으로 만들었다는 뜻은 아니다. 본문의 항생제 선택이나 반응 시간의 현행 치료지침까지 검수한 것은 아니다.
+BTK 결핍에서는 B세포의 성숙이 막혀 말초 성숙 B세포와 여러 면역글로불린이 모두 감소한다. 반면 T세포 수는 대개 보존된다. BTK 유전자 검사로 확인할 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 티로신 키나아제 유전자 돌연변이
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002573
+- https://pubmed.ncbi.nlm.nih.gov/20301626/

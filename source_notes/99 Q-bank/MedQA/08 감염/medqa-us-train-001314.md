@@ -14,7 +14,7 @@ related_diseases:
   - "Staphylococcus aureus bacteremia"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-uPhOq0gCDqtIDroKgg6rCQ7Je8IChDYXRoZXRlci1SZWxhdGVkIEluZmVjdGlvbikubWQ
-question_type: diagnosis
+question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
@@ -33,19 +33,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-약물 유발 급성 신손상으로 중환자실에 입원한 지 5일 후 27세 여성에게 발열이 발생했다. 현재 인공호흡기와 진정제를 사용 중이다. 오른쪽 내경정맥에 삽입한 카테터로 혈액투석을 시행한다. 비위관으로 영양을 공급하고 있으며 유치 도뇨관의 소변량은 최소이다. 혈압은 85/45 mm Hg, 맥박은 112회/분, 호흡수는 32회/분, 체온은 39.6°C (103.3°F)이다. 중심정맥 카테터 삽입 부위 주위에 분비물 없이 발적이 있다. 폐 청진에서 rhonchi가 들린다. 심장 진찰에서 새 소견은 없다. 흉부 CT에서 양측 흉수가 보이나 폐 침윤은 없다. 경험적 항생제 치료를 시작했다. 말초혈액과 카테터 끝에서 채취한 혈액배양에서 동일한 항생제 감수성을 보이는 S. aureus가 자랐다. 유치 도뇨관에서 채취한 소변배양은 여러 균이 자랐다. 다음 중 최근 소견을 가장 잘 설명하는 것은 무엇인가?
+혈액투석용 중심정맥관을 쓰던 환자가 발열하고 혈압이 떨어졌다. 말초와 관에서 채취한 혈액배양에서 모두 황색포도알균이 확인됐고 관 입구가 붉다. 다른 혈관 접근을 확보할 수 있다. 적절한 감염원 조절은?
 
 ## 선택지
 
-A. 카테터 연관 요로감염
-B. 중심정맥 카테터 관련 균혈증
-C. 심내막염
-D. 인공호흡기 연관 폐렴
+A. 관을 유지하고 항생제 잠금요법만 시행한다
+B. 의심되는 관을 신속히 제거한다
+C. 같은 위치에서 가이드와이어로만 교체한다
+D. 혈액배양이 음전된 뒤 관 제거를 검토한다
 
 ## 해설
 
 
-카테터 삽입 부위 발적과 함께 말초혈액 및 카테터 검체에서 동일 감수성의 S. aureus가 검출되어 중심정맥 카테터 관련 균혈증 B를 가장 강하게 지지한다. 흉부 CT에 새 폐침윤이 없고 소변의 다균성 배양만으로 요로가 감염원이라고 단정할 수 없다. 새로운 심잡음이 없더라도 S. aureus 심내막염은 배제되지 않으므로 추가 평가가 필요하다.
+황색포도알균에 의한 중증 카테터 관련 혈류감염에서는 전신 항생제에 더해 감염된 관을 제거한다. 추적 배양과 심내막염 등 심부 감염 평가도 필요하다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 인공호흡기 연관 폐렴
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001314
+- https://doi.org/10.1086/599376

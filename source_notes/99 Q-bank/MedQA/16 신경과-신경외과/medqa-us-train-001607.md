@@ -13,14 +13,14 @@ related_diseases:
   - "acute ischemic stroke"
   - "atrial fibrillation"
   - "intracranial hemorrhage exclusion"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
   - MDEg7Iic7ZmY6riwL-yLrOuwqSDsobDrj5kt7IS464-ZIChBdHJpYWwgRmx1dHRlci1GaWJyaWxsYXRpb24pLm1k
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,21 +36,23 @@ related_drug_slugs:
 
 ## 문제
 
-65세 여성이 1시간 동안 발생한 말 어눌함과 혼란으로 남편과 함께 응급실에 내원했다. 정원에서 갑자기 증상이 생겼고 질문을 반복해도 대답하지 못한다. 보행이 불안정해 부축하면 걸을 수 있다. 제2형 당뇨병, 이상지질혈증 및 골관절염 병력이 있고 아스피린, 아토르바스타틴, 메트포르민 및 콘드로이틴 설페이트를 복용한다. 혈압은 174/88 mm Hg, 심박수는 154회/분으로 불규칙하고 호흡수는 12회/분, 산소포화도는 96%이다. 오른쪽 안면 처짐이 있으나 이마 주름은 보존된다. 오른쪽 바빈스키 징후가 양성이다. 심전도에서 R-R 간격이 변하고 P파가 없다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+65세 환자가 심방세동과 함께 작은 허혈성 뇌경색을 겪었다. 급성 재관류 평가는 끝났고 영상에 출혈성 변환은 없다. 기계판막·중등도 이상 승모판협착·신기능 저하는 없다. 재발 방지 계획은?
 
 ## 선택지
 
-A. 아스피린
-B. 머리 CT
-C. 심초음파
-D. 머리 MRI
+A. 아스피린만 평생 투여한다
+B. 경색 크기와 출혈 위험을 평가해 적절한 시점에 직접경구항응고제를 시작한다
+C. 아스피린과 클로피도그렐을 평생 병용한다
+D. 모든 환자에게 응급 정맥 헤파린을 시작하고 단독 유지한다
 
 ## 해설
 
 
-급성 언어 장애, 혼란, 안면 마비, 바빈스키 양성, 불규칙 맥박은 심방세동에 의한 뇌혈전 색전증을 의심하게 한다. 출혈 여부를 확인하기 위해 즉시 뇌 CT를 시행해 출혈을 배제하고 혈전 용해 여부를 판단한다. 따라서 다음 관리 단계는 머리 CT이다.
+비판막성 심방세동 관련 뇌경색의 재발 예방에는 경구 항응고가 중요하다. 시작 시점은 경색 크기, 출혈성 변환과 임상 경과를 종합해 결정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001607
+- https://pubmed.ncbi.nlm.nih.gov/39491870/
+- https://www.ahajournals.org/doi/10.1161/STR.0000000000000513

@@ -16,9 +16,9 @@ related_diseases:
 question_type: diagnosis
 related_disease_slugs: []
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -31,21 +31,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-5세 남아가 지난 일주일 동안 밤에 두 차례 비명을 지른 일로 부모와 함께 내원했다. 갑자기 깨어 비명을 지르고 울며 다리를 격렬히 차는 일이 몇 분간 지속되었고 땀과 빠른 호흡이 동반되었다. 부모는 진정시킬 수 없었지만 에피소드가 끝나면 아이는 다시 잠들었고 아무것도 기억하지 못한다. 폐쇄성 수면무호흡증 병력이 있다. 활력징후와 신체검사는 정상이다. 다음 중 가장 가능성 높은 진단은?
+5세 아이가 잠든 지 한두 시간 뒤 갑자기 비명을 지르며 일어난다. 땀을 흘리고 달래기 어렵지만 몇 분 뒤 다시 잠들고, 아침에는 기억하지 못한다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 불면장애
-B. 수면경악장애
-C. 악몽장애
-D. 수면보행장애
+A. 수면경악장애
+B. 악몽장애
+C. 야간 공황발작
+D. 렘수면행동장애
 
 ## 해설
 
 
-밤에 갑작스러운 비명, 격렬한 움직임, 땀, 빠른 호흡이 동반되고 기억이 없으며 에피소드 후 바로 잠들어 버리는 양상은 수면공포증(수면경악장애)의 특징이다. 이는 다른 파라소미와 구별되는 핵심 단서이다.
+수면 초반에 비명과 강한 자율신경 반응을 보이고 충분히 깨기 어렵거나 기억이 없는 것이 전형적이다. 악몽은 깬 뒤 꿈을 비교적 잘 떠올린다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002399
+- https://www.ncbi.nlm.nih.gov/books/NBK507825/

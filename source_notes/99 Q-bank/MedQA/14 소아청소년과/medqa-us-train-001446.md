@@ -16,7 +16,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7J207Je8IChPdGl0aXMgTWVkaWEpLm1k
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-2세 남아가 3일 동안의 발열과 왼쪽 귀 통증으로 어머니와 함께 내원했다. 오늘 아침부터 왼쪽 귀를 자주 만졌다. 아토피피부염 병력이 있어 밤에 가려워 증상이 생긴 것은 아닌지 어머니가 걱정한다. 최근 악화는 많지 않았고 마지막 악화는 일주일 전 수영장에서 두 번째 생일을 축하할 때쯤 가라앉았다. 6개월 전 인두염 항생제 치료 후 두드러기가 발생한 적이 있다. 약은 복용하지 않는다. 체온은 38.5°C (101.3°F), 맥박은 110회/분, 호흡수는 25회/분, 혈압은 90/50 mm Hg이다. 이경검사에서 불투명하고 팽윤된 고막이 보인다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+3세 아이가 고막 팽윤을 동반한 급성 중이염과 양쪽 화농성 결막염으로 내원했다. 페니실린 알레르기는 없고 경구약을 먹을 수 있다. 항생제를 시작한다면 가장 적절한 경구약은?
 
 ## 선택지
 
-A. 국소 하이드로코르티손과 겐타마이신 귀방울
-B. 아지트로마이신 경구 투여
-C. 오플록사신 귀 치료
-D. 고막천자
+A. 아목시실린/클라불란산
+B. 아목시실린
+C. 아지트로마이신
+D. 세팔렉신
 
 ## 해설
 
-팽윤·불투명 고막과 지속 귀통증은 급성 중이염에 맞다. 과거 항생제 뒤 두드러기가 있어 원인 약물·중증도를 확인하며, 마크롤리드는 베타락탐 알레르기 상황의 대안이므로 보기 중 B가 가능하다. 다만 일반적 1차약은 아목시실린이며 아지스로마이신은 주요 균에 효과가 떨어질 수 있다.
+화농성 결막염이 중이염에 동반되면 베타락탐분해효소를 생성하는 비피막형 헤모필루스 인플루엔자를 고려한다. 아목시실린 단독보다 아목시실린/클라불란산이 적절하다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 고막천자
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001446
+- https://pubmed.ncbi.nlm.nih.gov/22876048/
+- https://www.cdc.gov/antibiotic-use/hcp/clinical-care/pediatric-outpatient.html

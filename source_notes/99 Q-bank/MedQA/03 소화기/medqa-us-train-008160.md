@@ -15,11 +15,11 @@ related_diseases:
   - "post-traumatic pancreatitis"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_quInshLEg7LeM7J6l7Je8IChBY3V0ZSBQYW5jcmVhdGl0aXMpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-27세 남자가 오토바이 사고 30분 후 응급실에 왔다. 고속으로 주행하다 통제력을 잃고 핸들바 위로 튕겨 나갔다. 의식은 명료하고 복통과 좌측 팔의 표재성 열상이 있다. 복부 CT는 정상이어서 진통제 치료 후 상처를 소독하고 2시간 관찰 뒤 귀가했다. 4일 후 점점 심해지는 상복부 통증, 발열, 식욕부진, 구토로 다시 내원했다. 맥박 91회/분, 혈압 135/82 mm Hg이다. 가장 가능성 높은 진단은?
+27세 남성이 오토바이 핸들에 명치를 강하게 부딪혔다. 사고 직후 조영 CT에서는 손상이 보이지 않았지만 18시간 뒤에도 명치 통증이 심하고 리파아제가 상승했다. 혈압은 안정적이고 복막 자극 소견은 없다. 다음 처치는?
 
 ## 선택지
 
-A. 췌관 손상
-B. 대동맥 박리
-C. 복부 구획증후군
-D. 비장 파열
+A. 복부 조영 CT를 다시 찍어 췌장과 주변 손상을 평가한다.
+B. 첫 CT가 정상이므로 추가 검사 없이 귀가시킨다.
+C. 복부 단순 X선만 시행한다.
+D. 상부 내시경으로 췌관 손상 여부를 확인한다.
 
 ## 해설
 
 
-복부 외상 후 초기 CT가 정상이라도 늦게 나타나는 췌관 손상은 급성 췌장염으로 진행될 수 있다. 복통·발열·구토가 4일 뒤에 나타난 점을 고려하면 췌관 손상이 가장 가능성 높다.
+둔상 직후 CT가 정상이라도 췌장과 췌관 손상을 놓칠 수 있다. 통증과 효소 상승이 지속되면 조영 CT로 재평가한다. 췌관 손상 여부가 여전히 불명확하면 MRCP 등으로 추가 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 비장 파열
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008160
+- https://doi.org/10.1186/s13017-019-0278-6
+- https://doi.org/10.1016/j.pan.2025.04.020

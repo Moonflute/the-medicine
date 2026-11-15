@@ -13,13 +13,13 @@ related_diseases:
   - "자궁선근증"
   - "월경통"
   - "월경과다"
-question_type: 임상증례 객관식
+question_type: diagnosis
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yblOqyve2GtSAoRHlzbWVub3JyaGVhKS5tZA
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-44세 G2P2 아프리카계 미국인 여자가 월경통으로 산부인과를 방문했다. 수개월 동안 월경 때 심한 통증이 있고 평소보다 월경량이 많아졌다. 주기는 30일로 규칙적이며 성교통이나 월경 사이 출혈은 없다. 마지막 월경은 2주 전이다. 임신 두 번은 합병증이 없었고 임신에도 어려움이 없었다. 비정상 자궁경부 세포검사 병력은 없다. 고지혈증과 천식 외에 과거력은 없다. 자궁은 압통이 있고 부드러우며 임신 10주 크기로 커져 있다. 질검사에서 압통이나 자궁경부 움직임 통증은 없고 부속기 종괴도 없다. BMI 24kg/m², 소변 임신검사는 음성이다. 가장 가능성 높은 진단은 무엇인가?
+44세 여성이 심해진 월경통과 과다월경으로 내원했다. 자궁이 전반적으로 둥글게 커져 있고 압통이 있다. 질식 초음파에서 자궁근층이 비대칭으로 두껍고 내부에 작은 낭종들이 보이나 경계가 뚜렷한 종괴는 없다. 진단은?
 
 ## 선택지
 
-A. 자궁내막샘과 기질의 과형성
-B. 자궁내막세포의 자궁근층 악성 침윤
-C. 자궁근층 내 자궁내막샘과 기질 존재
-D. 자궁 외부에 자궁내막샘과 기질 존재
+A. 자궁선근증
+B. 근층내 자궁근종
+C. 자궁내막 폴립
+D. 자궁내막 증식증
 
 ## 해설
 
 
-월경통과 월경과다, 자궁이 임신 10주 크기로 커진 것은 자궁근층 내에 자궁내막 조직이 존재하는 자궁선근증을 시사한다. 자궁근층에 내막선과 기질이 존재하면 월경통과 과다출혈이 발생한다. 따라서 가장 가능성 높은 진단은 자궁근층 내 자궁내막샘과 기질 존재이다.
+자궁근층의 작은 낭종과 비대칭 비후, 구형 자궁은 자궁선근증을 시사한다. 근종은 대개 경계가 있는 결절성 종괴를 형성한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004170
+- https://www.nice.org.uk/guidance/ng88/chapter/Recommendations

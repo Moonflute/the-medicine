@@ -17,6 +17,7 @@ question_type: management
 related_disease_slugs: []
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,7 +34,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-4,670g(10파운드 5온스) 남아 신생아가 26세 산모에게 난산 후 만삭으로 태어났다. Apgar 점수는 1분과 5분 모두 9점이다. 분만실 검사에서 왼쪽 쇄골에 부종, 압통, 염발음이 있고 왼쪽 상지를 덜 움직인다. 손과 손목 운동은 정상이고 양손 파악반사도 정상이나 Moro 반사는 비대칭이다. X선에서 진단이 확인되었다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+4,670g(10파운드 5온스) 남아 신생아가 26세 산모에게 난산 후 만삭으로 태어났다. Apgar 점수는 1분과 5분 모두 9점이다. 분만실 검사에서 왼쪽 쇄골에 부종, 압통, 염발음이 있고 왼쪽 상지를 덜 움직인다. 손과 손목 운동은 정상이고 양손 파악반사도 정상이나 Moro 반사는 비대칭이다. X선에서 진단이 확인되었다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

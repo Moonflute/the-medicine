@@ -15,11 +15,11 @@ related_diseases:
   - "마약성 진통제 유발 변비"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shozsnqUg7Y-Q7IeEIChTbWFsbCBCb3dlbCBPYnN0cnVjdGlvbikubWQ
-question_type: 임상증례 객관식
+question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-69세 남자가 24시간 이내 시작된 담즙성 구토로 응급실에 왔다. 고혈압, 고지혈증, 6개월 전 심근경색 병력이 있다. 20년 전 천공성 게실로 개복술을 받은 적이 있다. 최근 치과치료 후 일주일간 마약성 진통제를 복용했고 변비와 가스·대변 배출 불능이 있다. 발열은 없고 혈압 146/92 mmHg, 심박수 116회/분이다. 복부에는 잘 치유된 흉터가 여러 개 있고 팽만하지만 압통은 없다. 복부·골반 CT에서 원위부 정상 굵기 장으로 이행하는 확장된 소장이 보인다. 이 병리의 원인은 언제 시작되었는가?
+69세 남성이 과거 개복술을 받았다. 오늘 복부팽만, 담즙성 구토와 대변·가스 배출 중단으로 왔다. 갑자기 통증이 계속 심해지고 복막 자극 징후가 나타났다. CT에서 폐쇄고리와 장벽 조영 감소가 보인다. 적절한 처치는?
 
 ## 선택지
 
-A. 출생 시
-B. 일주일 전
-C. 6개월 전
-D. 20년 전
+A. 변비약을 투여하고 귀가시킨다
+B. 비위관 감압만 하고 이틀간 관찰한다
+C. 대장내시경 예약으로 대신한다
+D. 장 허혈이 의심돼 소생과 함께 응급 수술을 의뢰한다
 
 ## 해설
 
 
-환자는 20년 전 복부 수술(천공성 게실 절제) 후 복부 유착이 형성되어 장폐색을 일으킨다. 유착은 수술 부위에서 즉시 시작되므로 원인은 20년 전이다.
+수술 후 유착은 소장폐색을 일으킬 수 있다. 폐쇄고리, 장벽 조영 저하와 복막 자극은 교액·허혈을 시사해 보존치료를 기다리지 않고 수술을 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 20년 전
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004122
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6006983/

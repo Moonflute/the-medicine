@@ -18,7 +18,7 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-43세 남성이 1개월간 심해지는 호흡곤란으로 내원하였다. 환자는 밤에 베개 두 개를 사용하고 있으나 자주 숨이 막히는 느낌으로 잠에서 깬다. 5개월 전 왼쪽 상완에 동정맥루(arteriovenous fistula) 조성술을 받았다. 환자는 역류성 신병증(reflux nephropathy)으로 인한 고혈압과 만성 신장 질환이 있다. 주 3회 혈액투석을 받고 있다. 현재 복용 중인 약물은 에날라프릴(enalapril), 비타민 D3, 에리스로포이에틴(erythropoietin), 세벨라머(sevelamer), 아토르바스타틴(atorvastatin)이다. 체온은 37.1°C, 호흡수는 분당 22회, 맥박은 분당 103회로 강하게 뛰며(bounding), 혈압은 106/58 mm Hg이다. 하지 검사에서 양측 함요 부종(pitting pedal edema)이 관찰된다. 경정맥 팽대(jugular venous distention)가 있다. 상완두 동정맥루 위에서 뚜렷한 진동(thrill)이 들린다. 양측 폐 기저부에서 수포음(crackles)이 들린다. 심장 검사에서 S3 말발굽 리듬(S3 gallop)이 확인된다. 복부는 부드럽고 압통은 없다. 이 환자 증상의 가장 가능성 높은 원인은 무엇인가?
+43세 혈액투석 환자에게 상완 동정맥루를 만든 뒤 호흡곤란과 부종이 생겼다. 건체중을 조정해도 증상이 지속된다. 심초음파에서 좌심실 박출률은 60%이고, 우심도자에서 충만압과 심박출량이 모두 증가했다. 동정맥루를 잠깐 압박하자 심박출량이 떨어졌다. 가장 가능성 높은 원인은?
 
 ## 선택지
 
-A. 동정맥루 동맥류(AV fistula aneurysm)
-B. 투석 불균형 증후군(Dialysis disequilibrium syndrome)
-C. 교착성 심낭염(Constrictive pericarditis)
-D. 고박출 심부전(High-output heart failure)
+A. 신부전에 의한 단순 체액과다
+B. 투석불균형증후군
+C. 수축성 심낭염
+D. 고유량 동정맥루에 의한 고박출성 심부전
 
 ## 해설
 
 
-동정맥루는 전신 순환에 큰 혈류를 제공해 심박출량을 증가시킨다. 환자는 고출력성 심부전의 전형적인 증상(양측 부종, JVD, S3, 호흡곤란)을 보이며, 혈압은 낮고 맥박은 강하게 뛰는다. 따라서 가장 가능성 높은 원인은 고출력성 심부전이다.
+고유량 투석 동정맥루는 전신혈관저항을 낮추고 심장으로 돌아오는 혈류를 늘린다. 울혈과 증가한 심박출량에 더해 일시 압박 때 박출량이 줄어드는 것은 동정맥루가 원인이라는 단서다. 투석 접근로를 유지해야 하므로 이후 처치는 신장·혈관접근 전문팀과 함께 결정한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 고박출 심부전(High-output heart failure)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000479
+- https://pubmed.ncbi.nlm.nih.gov/41770183/

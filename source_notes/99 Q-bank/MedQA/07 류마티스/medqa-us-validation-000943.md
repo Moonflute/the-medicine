@@ -19,7 +19,7 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-46세 여성이 양손과 손목의 통증으로 진료를 받으러 왔다. 아침에는 뻣뻣해 아침 식사를 준비하거나 설거지를 하기 어렵지만 하루가 지나면 호전된다. 수개월간 지속적인 피로와 의도하지 않은 체중 감소도 있다. 양손의 중수지관절과 근위지절관절에 발적, 부종, 압통이 있고 ESR과 항CCP 항체가 상승했다. 질병 진행을 늦추기 위한 일차 치료 약물은?
+46세 여성이 양쪽 중수지·근위지간관절 활막염과 한 시간 넘는 아침 강직이 있고 항CCP가 양성이다. 중등도 활동성 류마티스관절염으로 진단했으며 임신 가능성이나 약제 금기는 없다. 관절 손상을 늦추기 위해 처음 선택할 약은?
 
 ## 선택지
 
-A. 관절강 내 코르티코스테로이드 주사
+A. 관절강 내 스테로이드 단독
 B. 메토트렉세이트
-C. 멜록시캄
-D. 에타너셉트
+C. 멜록시캄 단독
+D. 에타너셉트 단독부터 시작
 
 ## 해설
 
 
-류마티스 관절염의 진행을 늦추는 1차 치료는 질병조절항류마티스제인 메토트렉세이트이다. 이는 관절 손상을 예방한다. 따라서 메토트렉세이트가 정답이다.
+메토트렉세이트는 중등도 이상의 초기 류마티스관절염에서 기본 질병조절제다. 엽산을 보충하고 시작 전후 혈구·간·신장 기능을 확인한다.
 
 ## 검수 근거
 

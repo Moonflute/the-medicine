@@ -13,13 +13,13 @@ related_diseases:
   - "retinoblastoma"
   - "leukocoria"
   - "strabismus"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTgg7JWI6rO8L-yCrOyLnCAoc3RyYWJpc211cykubWQ
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 4개월 남아가 영유아검진을 위해 내원했다. 임신 36주에 태어났고 산모는 산전진료를 받지 않았다. 6세 누나는 골육종 병력이 있다. 오른쪽 눈이 안쪽으로 편위되어 있고 간접 검안경검사에서 오른쪽은 백색 반사, 왼쪽은 적색 반사가 보인다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+생후 4개월 아기의 사진에서 오른눈만 여러 번 하얗게 비쳤다. 진찰에서도 오른쪽 적색반사 대신 흰 반사가 보이고 같은 쪽에 새 사시가 있다. 다음 조치는?
 
 ## 선택지
 
-A. 갈락토스혈증 선별
-B. 시각훈련 운동
-C. 안저검사
-D. 혈청 풍진 항체
+A. 다음 정기검진에서만 반사를 다시 본다
+B. 굴절 교정 안경부터 맞춘다
+C. 소아안과에 신속 의뢰해 산동 안저검사를 한다
+D. 상대적으로 좋은 눈에 가림치료만 시작한다
 
 ## 해설
 
 
-신생아의 백색 반사와 안구 편위는 백색동공(레티노블라스토마)을 의심하게 하며, 확진을 위해 안저검사가 필요하다.
+백색동공과 비대칭 적색반사는 망막모세포종, 선천백내장 등 중요한 질환의 신호다. 소아안과에서 신속히 원인을 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001719
+- https://www.rch.org.au/primary-care-liaison/prereferral_guidelines/Abnormal_red_reflex_and_or_white_pupil/
+- https://www.cancer.gov/types/retinoblastoma/hp/retinoblastoma-treatment-pdq

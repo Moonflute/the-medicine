@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -33,7 +34,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-20세 여자가 점점 악화되는 산통성 하복부 통증이 시작된 지 6시간 후 응급실에 내원했다. 오심과 구토가 동반된다. 5-아미노살리실산으로 치료 중인 안정된 염증성 장질환이 있다. 남자친구와 성관계를 하며 콘돔은 일관되게 사용하지 않는다. 1년 전 클라미디아를 진단받았다. 체온은 38.1°C(100.6°F), 맥박 94회/분, 호흡수 22회/분, 혈압 120/80 mmHg이다. 신체검사에서 오른쪽 하복부 방어와 반발통이 있다. 나머지 진찰은 정상이다. 다음 중 가장 적절한 다음 단계는 무엇인가?
+20세 여자가 점점 악화되는 산통성 하복부 통증이 시작된 지 6시간 후 응급실에 내원했다. 오심과 구토가 동반된다. 5-아미노살리실산으로 치료 중인 안정된 염증성 장질환이 있다. 남자친구와 성관계를 하며 콘돔은 일관되게 사용하지 않는다. 1년 전 클라미디아를 진단받았다. 체온은 38.1°C(100.6°F), 맥박 94회/분, 호흡수 22회/분, 혈압 120/80 mmHg이다. 신체검사에서 오른쪽 하복부 방어와 반발통이 있다. 나머지 진찰은 정상이다. 가장 적절한 다음 단계는 무엇인가?
 
 ## 선택지
 

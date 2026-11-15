@@ -21,7 +21,7 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-과체중인 57세 여성이 정기검진을 위해 내원했다. 현재 증상은 없고 약물도 복용하지 않는다. 어머니와 남동생이 제2형 당뇨병과 고혈압을 앓고 있다. 혈압 145/95 mmHg, 체온 37°C, 맥박 85회/분이다. 공복혈당 158 mg/dL, HbA1c 8.6%, LDL 210 mg/dL, HDL 27 mg/dL, 중성지방 300 mg/dL이다. 다음 중 이 환자에게 권장되는 검사는?
+57세 여성이 제2형 당뇨병으로 처음 진단됐다. 시력 저하를 느끼지 못한다. 당뇨병망막병증 선별을 위한 첫 산동 안저검사와 포괄적 안과검진의 시기는?
 
 ## 선택지
 
-A. 5년 후 소변 알부민-크레아티닌 비율을 검사하고 매년 추적한다
-B. 5년 후 모노필라멘트검사를 시행하고 매년 추적한다
-C. 5년마다 공복 지질검사를 시행한다
-D. 지금 안저 사진을 촬영하고 이후 매년 추적한다
+A. 시력 저하를 호소할 때
+B. 진단 5년 뒤
+C. HbA1c가 목표에 도달한 뒤
+D. 당뇨병 진단 시
 
 ## 해설
 
 
-당뇨병 환자는 당뇨성 망막병증을 조기에 발견하기 위해 안저 촬영을 즉시 시행해야 한다. 5년 후가 아니라 현재 검사가 권장된다. 따라서 지금 안저 사진을 촬영하고 연간 추적한다.
+제2형 당뇨병은 진단 전에도 고혈당이 오래 지속됐을 수 있어 진단 시 망막 주변부를 포함해 검사한다. 추적 간격은 망막 소견과 혈당 조절에 맞춘다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 지금 안저 사진을 촬영하고 이후 매년 추적한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002309
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/

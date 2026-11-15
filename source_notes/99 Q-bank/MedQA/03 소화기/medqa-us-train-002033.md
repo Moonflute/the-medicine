@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-unjOyEsSDsp4jtmZgg67mI7ZiIIChBbmVtaWEgb2YgQ2hyb25pYyBEaXNlYXNlKS5tZA
   - MTMg67aA7J246rO8L-uwlOultO2GqOumsOyDmOyXvCAoQmFydGhvbGluIEdsYW5kIEluZmxhbW1hdGlvbikubWQ
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
-question_type: management
+question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 여성이 3개월간 악화되는 피로로 내원했다. 크론병으로 3년 전 진단받아 5-aminosalicylic acid와 국소 budesonide를 사용 중이며 하루 약 7회의 비혈성 경한 통증 설사가 있다. 창백하며 체온 37.9°C (100.2°F), 맥박 92/min, 혈압 110/65 mmHg이다. 혈색소 10.5 g/dL, MCV 83 μm3, 망상적혈구 0.2%, 혈청 철 21 μg/dL, 총철결합능 176 μg/dL (정상 240–450)이다. 다음 중 가장 적절한 치료의 다음 단계는 무엇인가?
+크론병이 악화된 35세 여성이 피곤하다. 혈색소 10.5 g/dL, MCV 83 fL, CRP 상승, 페리틴 250 ng/mL, 트랜스페린 포화도 12%이고 총철결합능은 낮다. 이 빈혈 양상을 가장 잘 설명하는 것은?
 
 ## 선택지
 
-A. 경구 prednisone 치료
-B. 피하 erythropoietin 주사
-C. 정맥 metronidazole 치료
-D. 경구 vitamin B12 보충
+A. 활동성 염증에 따른 철 이용 제한
+B. 비타민 B12 결핍에 의한 거대적혈구 빈혈
+C. 만성 출혈에 따른 단독 절대 철결핍
+D. 급성 용혈
 
 ## 해설
 
-저혈청 철·낮은 TIBC·저망상적혈구는 활동성 염증에 동반된 빈혈을 시사한다. 기존 약물에도 하루 7회 설사와 발열 등 활동성이 지속되어 선택지 중 경구 prednisone A를 단기 관해유도로 고려한다. 스테로이드는 빈혈 자체의 일반 치료나 장기 유지요법이 아니다. Ferritin·TSAT로 동반 철결핍을 평가하고 필요하면 철을 보충하며 장기 관해유지 치료는 별도로 계획한다.
+활동성 염증에서 페리틴이 충분히 높고 트랜스페린 포화도와 총철결합능이 낮으면 염증에 따른 철 이용 제한을 시사한다. 크론병에는 절대적 철결핍도 섞일 수 있으므로 페리틴 하나만으로 판단하지 않는다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 경구 vitamin B12 보충
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002033
+- https://doi.org/10.1093/ecco-jcc/jjad108

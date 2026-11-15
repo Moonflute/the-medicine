@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MDgg6rCQ7Je8L-y5uOuUlOuLpOymnSAoQ2FuZGlkaWFzaXMpLm1k
   - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
-question_type: investigation
+question_type: management
 difficulty: simple
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-66세 여성이 특별한 내과적, 수술력 또는 가족력 없이 새로 발생한 흉통, 구강 발진 및 연하통으로 내원했다. 몇 달 전 남편을 잃고 노인 보조생활 공동체로 이사했다. 증상은 몇 주 전부터 시작되었다. 신체검사에서 볼점막과 혀에 수많은 흰색 플라크가 보인다. 환자 관리에서 다음 단계는 무엇인가?
+치료받지 않은 HIV 환자가 입안에 닦이는 흰 반점과 심한 삼킴통증을 호소한다. 경구약은 삼킬 수 있다. 칸디다 식도염이 의심될 때 우선 사용할 치료는?
 
 ## 선택지
 
-A. 황산바륨을 이용한 단일 조영 식도조영술
-B. 의치 적합성 평가
-C. CD4 세포 수 측정
-D. 수용성 요오드 조영제를 이용한 단일 조영 식도조영술
+A. 니스타틴 가글만 시행한다
+B. 전신 플루코나졸을 투여한다
+C. 경구 아시클로버를 투여한다
+D. 국소 클로트리마졸만 사용한다
 
 ## 해설
 
 
-구강 백색 플라크에 연하통이 동반되면 구강/식도 칸디다증 및 면역저하를 평가한다. 선택지 중 CD4 C가 면역상태 평가에 가장 관련되지만 HIV는 별도의 항원/항체 및 필요시 핵산 검사로 진단해야 한다. 나이·보조생활시설 거주만으로 성생활이나 HIV 감염을 가정하지 않으며 다른 면역저하·약물 원인도 확인한다. 이 검사가 식도 진료/항진균 치료를 대신하는 것은 아니다.
+식도 칸디다증에는 전신 항진균제가 필요하고 플루코나졸이 1차 치료다. 국소 제제만으로는 부족하다. 경험적 치료에 반응하지 않으면 내시경으로 다른 원인도 확인한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 수용성 요오드 조영제를 이용한 단일 조영 식도조영술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004439
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/candidiasis

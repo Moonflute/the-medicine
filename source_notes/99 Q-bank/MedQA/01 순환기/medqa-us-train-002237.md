@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yViOyglSDtmJHsi6zspp0gKFN0YWJsZSBBbmdpbmEpLm1k
 question_type: investigation
 difficulty: complex
-answer: "D"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -43,18 +43,18 @@ curation_disposition: "selected"
 
 ## 문제
 
-36세 남성이 운동 중 시작된 턱으로 방사되는 흉골 뒤 작열성 통증으로 내원했다. 증상 시작은 20분 전이며 자세나 기침에 따라 달라지지 않는다. 혈압 140/90 mmHg, 맥박 84회/분, 호흡 14회/분, 체온 36.6°C이고 창백과 발한이 있다. 설하 니트로글리세린 투여 후 통증은 사라졌다. ECG에서 I, II, V3~V6의 R파 진폭 증가와 같은 유도의 0.5 mm ST 하강이 있으며 초기 신속 troponin은 음성이다. 다음 검사 접근으로 가장 적절한 것은?
+36세 남성이 운동 중 시작된 흉골 뒤 압박감과 식은땀으로 내원했다. 초기 심전도에서 전외측 ST분절 하강이 보이고 첫 고감도 트로포닌은 음성이다. 증상이 시작된 지 30분밖에 지나지 않았으며 현재 흉통은 가라앉았다. 급성관상동맥증후군을 평가하기 위한 다음 단계는?
 
 ## 선택지
 
-A. CK-MB 한 번만 측정한 뒤 ACS를 배제한다
-B. 흉부 X선만으로 ACS를 배제한다
-C. 임상 위험도 평가 없이 즉시 CT 혈관조영만 시행한다
-D. 반복 ECG와 연속 고감도 심장 troponin 검사로 ACS를 평가한다
+A. 첫 트로포닌이 음성이므로 귀가시킨다
+B. 급성 허혈을 배제하기 전에 운동부하검사를 시행한다
+C. CK-MB를 한 번 검사하고 결과가 정상이면 배제한다
+D. 심전도와 고감도 트로포닌을 반복 확인한다
 
 ## 해설
 
-발병 20분 무렵의 troponin 음성은 MI를 배제하지 못한다. 증상이 사라져도 허혈성 흉통·발한 및 ST 하강이 있으므로 반복 ECG와 연속 고감도 troponin을 포함한 ACS 평가가 우선이다. 이를 끝내기 전에 바로 운동부하검사를 시행하지 않는다. 후속 영상·부하검사·관상동맥 평가 여부는 연속 검사와 위험도에 따라 결정한다.
+발병 직후의 트로포닌 한 번으로 심근경색을 배제할 수 없다. 허혈을 시사하는 증상과 ST분절 변화가 있어 반복 심전도와 연속 고감도 트로포닌 검사가 필요하다. 지속·재발하는 허혈이나 불안정 소견이 있으면 검사만 기다리지 않고 긴급 관상동맥 평가를 진행한다.
 
 ## 검수 근거
 
@@ -67,6 +67,7 @@ D. 반복 ECG와 연속 고감도 심장 troponin 검사로 ACS를 평가한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002237
+- https://doi.org/10.1161/CIR.0000000000001309
 
 ## 오답 포인트
 

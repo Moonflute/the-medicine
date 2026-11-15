@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTgg7JWI6rO8L-qyieuLpOuemOuBvCAoZXh0ZXJuYWwgaG9yZGVvbHVtKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-9세 여아가 친구의 팔꿈치에 왼쪽 귀 위 관자뼈를 맞은 1시간 후 두통과 복시로 응급실에 왔다. 의식소실은 없었지만 20분간 혼란스러웠고 충격을 기억하지 못했다. 머리를 오른쪽 어깨 쪽으로 기울이고 있었으며 왼쪽 눈의 상사시가 오른쪽을 볼 때와 왼쪽 어깨 쪽으로 머리를 기울일 때 악화되었다. 다음 중 안구 증상의 가장 가능성 높은 원인은?
+외상 뒤 9세 아이에게 수직 복시가 생겼다. 왼눈이 상대적으로 위에 있고, 오른쪽을 보거나 머리를 왼쪽으로 기울이면 더 심해진다. 손상된 신경은?
 
 ## 선택지
 
-A. 동안신경 손상
-B. 안구뒤 출혈
-C. 활차신경 손상
-D. 중뇌 등쪽 손상
+A. 왼쪽 외전신경
+B. 오른쪽 동안신경
+C. 오른쪽 안면신경
+D. 왼쪽 활차신경
 
 ## 해설
 
-왼쪽 상사시가 오른쪽 주시와 왼쪽 머리 기울임에서 악화되고 보상적으로 머리를 오른쪽으로 기울이는 것은 왼쪽 상사근 마비에 합당하다. 상사근은 활차신경(CN IV)의 지배를 받으므로 C가 정답이다. 상사근은 특히 내전된 눈의 하전과 내회전에 관여한다. 외직근은 외전신경(CN VI)의 지배를 받으므로 기존 해설의 외직근 마비 설명은 틀리다.
+반대쪽을 볼 때와 병변 쪽으로 머리를 기울일 때 위쪽 편위가 커지면 같은 쪽 상사근 마비에 맞는다. 상사근을 지배하는 신경은 활차신경이다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 중뇌 등쪽 손상
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003494
+- https://eyewiki.aao.org/Cranial_Nerve_4_Palsy

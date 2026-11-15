@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-2MjOygnO2KuOuzkSAoUGFnZXQncyBEaXNlYXNlKS5tZA
 question_type: investigation
 difficulty: simple
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-고혈압 병력이 있는 48세 여성이 좌측 유방 병변에 대한 2차 의견을 위해 내원했다. 일차의는 습진으로 판단해 국소 스테로이드를 사용했으나 일시적으로만 호전되었고 병변이 커지기 시작했다. 좌측 유두-유륜 복합체에 진물 나는 홍반성 비늘 병변이 있다. 다음 중 가장 적절한 다음 처치는?
+48세 여성의 한쪽 유두·유륜에 진물이 나고 비늘이 생긴다. 국소 스테로이드에도 병변이 계속 커진다. 유방촬영술에서 뚜렷한 종괴는 없다. 다음 검사는?
 
 ## 선택지
 
-A. 양측 유방 초음파
-B. 유두 펀치 생검 후 양측 유방촬영술
-C. 경구 코르티코스테로이드
-D. 좌측 유방 MRI
+A. 유방촬영술 1년 뒤 반복
+B. 생검 대신 유방 MRI만으로 확진
+C. 유두 분비물 세균배양만 시행
+D. 유두 병변의 피부 생검
 
 ## 해설
 
 
-지속·진행하는 일측 유두-유륜의 습진양 병변은 mammary Paget disease를 의심해야 한다. 보기 중 유두 병변의 punch biopsy와 bilateral mammography B가 적절하다. 피부 조직으로 Paget cell을 확인하고 영상은 동반 DCIS/침윤성 유방병변 등을 찾기 위한 것이지 유방촬영만으로 전신전이를 평가하는 검사는 아니다.
+치료에 반응하지 않는 한쪽 유두의 습진 모양 병변은 유방 파제트병의 경고 신호다. 유방 영상이 정상이더라도 병변을 생검하고, 필요하면 동반 유방암을 추가로 평가한다.
 
 ## 검수 근거
 

@@ -13,13 +13,13 @@ related_diseases:
   - "척추 골절"
   - "외상성 요통"
   - "기능성 증상 감별"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-qzqOygiCDstJ3roaAgKEZyYWN0dXJlIEdlbmVyYWwgUHJpbmNpcGxlcykubWQ
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-24세 남성이 교통사고 후 응급실에 내원했다. 정차 중 시속 11마일 차량에 뒤에서 추돌되었다. 심한 요통 외에는 괜찮다고 한다. 매일 아침 발생하고 활동하면 완화되며 움직이지 않으면 악화되는 요통으로 물리치료를 받고 있다. 대학생으로 성적에 어려움을 겪고 있다. 체온은 98.4°F(36.9°C), 혈압은 117/78 mmHg, 맥박은 분당 116회, 호흡수는 분당 12회, 산소포화도는 99%이다. 척추 운동 범위가 감소되고 척추를 누르면 압통이 있다. 통증 때문에 기말시험과 일을 면제해 달라는 소견서를 요청한다. 다음 중 가장 가능성 높은 진단은?
+강직척추염으로 척추가 굳은 환자가 가벼운 교통사고 뒤 갑자기 심한 허리 통증과 정중선 압통을 호소한다. 팔다리 힘은 정상이다. 가장 적절한 조치는?
 
 ## 선택지
 
-A. 추간판 탈출증
-B. 꾀병
-C. 척추전방전위증
-D. 척추 골절
+A. 척추를 보호하고 골절 평가를 위해 CT를 한다
+B. 정상 근력이므로 바로 도수 교정을 한다
+C. 통증이 가라앉을 때까지 집에서 지켜본다
+D. 강직척추염 약을 증량하고 영상은 생략한다
 
 ## 해설
 
-원래 아침에 심하고 활동으로 완화되는 요통과 척추 운동제한은 축성 척추관절염 같은 기저 염증성·강직성 척추질환 가능성을 시사한다. 강직된 척추는 비교적 낮은 에너지 외상에서도 골절될 수 있으므로, 사고 후 새로운 심한 척추 통증·정중선 압통이 있으면 척추 골절(D)을 우선 의심해야 한다. 시속 11마일 추돌을 고에너지 충격으로 바꾸어 설명하지 않는다. 시험 면제 요청이 있다는 이유로 꾀병으로 단정해서도 안 된다. 실제 골절과 기저 질환은 영상 평가로 확인한다.
+강직된 척추는 낮은 에너지 외상에도 불안정 골절이 생길 수 있다. 정상 신경 진찰로 배제하지 말고 척추를 보호하며 CT로 평가한다.
 
 ## 검수 근거
 

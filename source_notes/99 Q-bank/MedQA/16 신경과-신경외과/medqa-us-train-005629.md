@@ -13,14 +13,14 @@ related_diseases:
   - "시신경염"
   - "다발성 경화증"
   - "Lhermitte 징후"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTgg7JWI6rO8L-yLnOyLoOqyveyXvCAob3B0aWMgbmV1cml0aXMpLm1k
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-32세 여성이 한쪽 시력 소실로 응급실에 왔다. 오늘 저녁 갑자기 시작되었으며 이런 일은 처음이라고 한다. 일차진료를 받지 않고 현재 복용 약물도 없다. 과거에 쇠약감이나 저림이 몇 차례 있었지만 대개 저절로 호전되었다고 한다. 체온은 97.6°F(36.4°C), 혈압은 120/74 mmHg, 맥박은 분당 88회, 호흡수는 분당 12회, 실내 공기에서 산소포화도는 98%이다. 신체검사에서 왼쪽 발등의 감각이 감소되어 있다. 시력검사에서 왼쪽 눈의 시력이 소실되었고 검사 중 눈 통증을 호소한다. 다음 중 이 환자에게서 함께 나타날 가능성이 높은 소견은 무엇인가?
+32세 여성에게 양안 시신경염으로 심한 시력 저하가 생겼다. 과거 척수 MRI에서는 척추뼈 세 분절을 넘는 척수염이 있었다. 시신경척수염범주질환을 감별하기 위해 우선 확인할 혈청 항체는?
 
 ## 선택지
 
-A. 목을 굽힐 때 전기 오는 듯한 통증
-B. 병변측 고유감각 및 진동감각 소실
-C. 양측 하지의 대칭적 반사 소실
-D. 반복해서 힘을 쓸 때 악화되는 근력 저하
+A. 아쿠아포린-4 IgG
+B. 아세틸콜린수용체 항체
+C. 항-GM1 항체
+D. 항-Hu 항체
 
 ## 해설
 
 
-갑작스러운 시신경염은 다발성 경화증에서 흔히 나타나며, 목을 굽힐 때 전기 충격 같은 통증(Lhermitte 징후)은 척수 탈수초화와 연관된다. 따라서 Lhermitte 징후가 동반될 가능성이 높다.
+중증 양안 시신경염과 긴 척수 병변이 함께 있으면 시신경척수염범주질환을 고려해 혈청 AQP4-IgG를 확인한다. 음성이면 MOG 항체 관련 질환 등도 감별한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005629
+- https://doi.org/10.1007/s00415-023-11634-0

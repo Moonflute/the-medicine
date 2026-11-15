@@ -15,9 +15,9 @@ related_diseases:
   - "말초신경병증"
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEIg6rKw7ZWN7KadIChWaXRhbWluIEIgRGVmaWNpZW5jeSkubWQ
-question_type: complication
+question_type: management
 difficulty: simple
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-병적 비만으로 위소매절제술을 받은 34세 여성이 무릎 관절성형술 전 수술 전 평가를 받으러 왔다. 검사에서 헤모글로빈 8.7 g/dL, 헤마토크릿 26.1%, MCV 106 fL이다. 엽산 결핍이 의심되어 고용량 엽산 보충을 시작했고 추적검사에서 헤모글로빈 10.1 g/dL, 헤마토크릿 28.5%, MCV 96 fL로 나타났다. 이 환자가 장기적으로 발생할 위험이 있는 합병증은 무엇인가?
+위소매절제술을 받은 환자의 대적혈구성 빈혈이 엽산을 복용한 뒤 호전됐다. 하지만 새로 양발 저림과 보행 불안정이 생겼고 진동감각이 감소했다. 다음 조치는?
 
 ## 선택지
 
-A. 신경관 결손
-B. 말초신경병증
-C. 갑상샘기능저하증
-D. 소구성 빈혈
+A. 비타민 B12 검체를 채취하고 결과가 나오기 전에도 보충치료를 시작한다
+B. 혈색소가 좋아졌으므로 엽산만 유지한다
+C. 신경 증상이 진행할 때까지 영양 검사를 미룬다
+D. 철분을 추가하고 비타민 B12는 평가하지 않는다
 
 ## 해설
 
 
-위소매절제 후 B12 결핍 가능성이 있는데 엽산만 고용량으로 보충하면 빈혈·MCV는 호전되어도 동반 B12 결핍은 남아 신경병증 B가 진행할 수 있다. 따라서 엽산에 반응했다는 이유로 B12 결핍을 배제하지 않는다. 말초신경병증이 모든 위소매절제 환자의 가장 흔한 장기 합병증이라는 의미는 아니며 영양상태와 B12 등을 평가·교정해야 한다.
+엽산으로 빈혈이 호전돼도 B12 결핍에 의한 신경 손상은 지속될 수 있다. 신경학적 증상이 있을 때는 검사 결과를 기다리며 B12 치료를 늦추지 않는다.
 
 ## 검수 근거
 

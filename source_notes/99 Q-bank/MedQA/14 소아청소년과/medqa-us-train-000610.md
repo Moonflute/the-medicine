@@ -11,12 +11,12 @@ language: ko
 specialty: 14 소아청소년과
 related_diseases:
   - "varicella"
-question_type: management
+question_type: prevention
 related_disease_slugs:
   - MTIg7IKw6rO8L-yImOuRkCAoVmFyaWNlbGxhKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IiY65GQIChWYXJpY2VsbGEpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-6세 여아가 3일간 지속된 전신 가려움증 발진으로 내원하였다. 어머니는 일부 병변에서 진물이 나는 것을 관찰하였다. 환아는 만삭아로 태어났으며 4개월 전 아지스로마이신(azithromycin)으로 치료받은 기관지염 에피소드를 제외하고는 건강하였다. 심각한 질환의 가족력은 없다. 예방접종 기록은 확인할 수 없다. 초등학교에 재학 중이나 지난 5일간 결석하였다. 외관상 건강해 보인다. 체온은 38°C이다. 진찰 결과 두피를 포함한 전신 피부에 가피가 형성된 병변과 수포를 동반한 구진성 발진이 관찰된다. 혈색소 농도는 13.1 g/dL, 백혈구 수는 9800/mm3, 혈소판 수는 319,000/mm3이다. 다음 중 가장 적절한 다음 단계는 무엇인가?
+수두가 확인된 6세 아이가 열은 내렸지만 몸통에 아직 물집이 있고 일부에만 딱지가 앉았다. 언제 등교할 수 있을까?
 
 ## 선택지
 
-A. 비타민 A 요법
-B. 신속 연쇄상구균 검사(Rapid strep test)
-C. 챙크 검사(Tzanck test)
-D. 칼라민 로션(Calamine lotion)
+A. 열이 내렸으면 오늘부터 가능하다
+B. 아직은 쉬고 모든 물집에 딱지가 생긴 뒤 등교한다
+C. 새 물집이 많아져도 발진 시작 48시간 뒤 등교한다
+D. 항바이러스제를 한 번 먹으면 당일 등교한다
 
 ## 해설
 
-여러 단계의 가려운 수포·가피가 두피까지 퍼진 양상은 수두에 합당하다. 건강한 소아의 비합병 수두에서는 칼라민 로션(D) 등 가려움 완화가 적절하다. 두피는 점막이 아니며 고위험·중증 감염에서는 항바이러스제 필요성을 따로 평가한다.
+물집이 생기는 수두는 모든 피부 병변이 가피로 바뀔 때까지 전파 가능성이 있어 등교를 미룬다. 열이 내린 것만으로는 기준을 충족하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 칼라민 로션(Calamine lotion)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000610
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6679
+- https://www.kdca.go.kr/bbs/kdca/42/238305/download.do

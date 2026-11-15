@@ -19,7 +19,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: prevention
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-28세 여성이 1주간 지속된 황달과 오심으로 응급실에 왔다. 지난 주말 야외 모임에서 해산물을 먹었고 집에서는 어린이집에 다니는 2세 아들과 함께 산다. 아이의 예방접종은 최신 상태다. 검사에서 A형 간염 IgM 항체가 양성이었고 B형 간염 표면항체는 양성, 표면항원은 음성이었다. 현재 아이에게 가장 적절한 건강관리 권고는?
+급성 A형간염으로 진단된 보호자와 살던 4세 아이가 5일 전에 마지막으로 노출됐다. 아이는 건강하고 A형간염 접종 기록이 없다. 적절한 노출 후 예방은?
 
 ## 선택지
 
-A. B형 간염 면역글로불린과 B형 간염 백신을 투여한다
-B. 추가 조치는 필요하지 않다
-C. B형 간염 면역글로불린만 투여한다
-D. A형 간염 백신과 A형 간염 면역글로불린을 투여한다
+A. 지금 A형간염 백신을 접종한다
+B. B형간염 면역글로불린을 투여한다
+C. 아이가 황달을 보일 때 처음 A형간염 백신을 접종한다
+D. 건강한 아이에게 항바이러스제를 먼저 투여한다
 
 ## 해설
 
 
-어머니는 IgM anti-HAV 양성인 급성 A형간염이다. 본문의 anti-HBs 양성은 어머니의 검사이지 아이의 결과가 아니다. 2세 아이가 권고된 A형간염 백신 시리즈를 이미 완료했다면 추가 HAV 노출후 예방이 필요하지 않아 B가 해당한다. HepB 백신 면역이 HAV를 예방하는 것은 아니다. 실제 HAV 접종 완료 여부를 확인해야 하며 미접종/미완료인12개월 이상 접촉자는 노출2주 내 HAV 백신을, 면역저하·만성간질환 등은 면역글로불린 병용을 검토한다. 건강한 접종 완료 아동에게 D의 백신+IG를 일률 투여하지 않는다.
+건강한 12개월 이상 미접종 밀접 접촉자는 노출 후 2주 이내 A형간염 백신을 접종한다. 면역저하나 만성간질환 등이 있으면 면역글로불린 병용 여부도 따로 판단한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. A형 간염 백신과 A형 간염 면역글로불린을 투여한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003481
+- https://www.kdca.go.kr/bbs/kdca/55/304417/download.do

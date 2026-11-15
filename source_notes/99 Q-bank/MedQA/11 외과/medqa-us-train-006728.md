@@ -15,9 +15,9 @@ related_diseases:
   - "정상 응고검사"
 related_disease_slugs:
   - MTEg7Jm46rO8L-q4sO2DgCDsiJjsiKAg7ZuEIO2VqeuzkeymnSAoT3RoZXIgUG9zdG9wZXJhdGl2ZSBDb21wbGljYXRpb25zKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-대장암으로 개복 우측 반결장절제술과 결장조루술을 받은 지 8시간 된 52세 남성의 수술 드레싱이 젖고 피가 묻어 있다. 지난 6개월 동안 혈변이 반복되어 대장암을 발견했다. 고혈압과 허혈성 심장질환이 있다. 남동생은 16세에 출혈성 질환으로 사망했다. 36년 동안 하루 한 갑을 피웠고 매일 맥주 3~4잔을 마신다. 입원 전 아스피린, 메토프롤롤, 에날라프릴 및 심바스타틴을 복용했으며 예정 수술 7일 전 아스피린을 중단했다. 불편해 보이고 체온은 36°C(96.8°F), 맥박은 분당 98회, 호흡수는 분당 14회, 혈압은 118/72 mm Hg이다. 부드러운 복부 중앙에 14cm 절개가 있고 가장자리에서 심하게 피가 스며 나온다. 결장루 주머니에도 피가 일부 고여 있다. 혈색소 12.3 g/dL, 백혈구 11,200/mm³, 혈소판 210,000/mm³, 출혈시간 4분, PT 15초(INR 1.1), aPTT 36초이다. 혈액요소질소 30 mg/dL, 포도당 96 mg/dL, 크레아티닌 1.1 mg/dL, AST 48 U/L, ALT 34 U/L, γ-GT 70 U/L(N 5~50)이다. 다음 중 출혈의 가장 가능성 높은 원인은?
+52세 남성이 결장 수술 6시간 뒤 복부팽만과 어지럼을 호소한다. 배액관에 선홍색 피가 빠르게 차고, 혈액제제 소생 중에도 혈압은 78/47 mmHg다. 다음 조치는?
 
 ## 선택지
 
-A. 간 기능장애
-B. 혈소판 기능장애
-C. VIII인자 결핍
-D. 불충분한 기계적 지혈
+A. 즉시 수술팀과 함께 재수술을 준비해 출혈을 조절한다
+B. 혈색소가 한 번 더 떨어질 때까지 관찰한다
+C. 수혈을 멈추고 응고검사부터 반복한다
+D. 복부 CT 결과가 나올 때까지 출혈 조치를 미룬다
 
 ## 해설
 
 
-수술8시간 뒤 국소 창상과 결장루의 출혈에 혈소판·PT/INR·aPTT가 대체로 보존되어 있어 선택지 중 불충분한 수술적 지혈(D)을 먼저 의심한다. 과거 aspirin은7일 전 중단되었다. 경미한 간효소 상승만으로 응고인자 합성부전을 설명하기 어렵다. 다만 정상 선별검사만으로 경증 혈소판/응고장애나 XIII인자 결핍 등을 모두 배제하지 못하며 가족력이 있어 지속 출혈 시 추가 평가가 필요하다.
+수술 직후 계속되는 실혈과 소생에 반응하지 않는 저혈압은 즉각적인 출혈원 조절이 필요한 상황이다. 수혈과 소생을 병행하며 영상 검사 때문에 수술을 늦추지 않는다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 불충분한 기계적 지혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006728
+- https://doi.org/10.1186/s13054-023-04327-7

@@ -20,6 +20,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-43세 여성이 6개월 동안 지속되는 하복부 통증으로 내원했다. 통증은 배변 후 자주 호전되고 어떤 날은 설사, 다른 날은 4~5일 동안 배변이 없다. 글루텐프리 식단을 시작했지만 호전되지 않았고 오심, 구토, 혈변, 흑변은 없다. 전신불안장애와 갑상샘기능저하증이 있으며 아버지는 대장암 병력이 있다. 진찰에서 하복부 경미한 압통이 있지만 반발통이나 방어는 없고 구아이악검사는 음성이다. 다음 중 가장 적절한 다음 단계는?
+43세 여성이 6개월 동안 지속되는 하복부 통증으로 내원했다. 통증은 배변 후 자주 호전되고 어떤 날은 설사, 다른 날은 4~5일 동안 배변이 없다. 글루텐프리 식단을 시작했지만 호전되지 않았고 오심, 구토, 혈변, 흑변은 없다. 전신불안장애와 갑상샘기능저하증이 있으며 아버지는 대장암 병력이 있다. 진찰에서 하복부 경미한 압통이 있지만 반발통이나 방어는 없고 구아이악검사는 음성이다. 가장 적절한 다음 단계는?
 
 ## 선택지
 

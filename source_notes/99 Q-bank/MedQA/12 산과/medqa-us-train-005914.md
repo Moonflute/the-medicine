@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 difficulty: simple
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 G2P1 여성이 정기 산전 혈액검사에서 HIV 감염으로 진단되었다. 임신 초기 초음파로 추정한 임신주수는 12주이다. CD4 수는 150 cells/mm³, 바이러스량은 126,000 copies/mL이며 HIV 감염 증상은 없다. 다음 중 이 임신의 적절한 관리는 무엇인가?
+임신 12주 산모가 HIV에 처음 확진됐다. 무증상이고 CD4 수는 470/μL지만 HIV RNA가 검출된다. 모자감염을 줄이기 위한 치료는?
 
 ## 선택지
 
-A. 항생제 예방요법을 피한다
-B. 모유수유
-C. 고강도 항레트로바이러스 치료(HAART)
-D. 질식분만
+A. CD4 수가 200/μL 미만이 될 때까지 대기
+B. 임신 3삼분기까지 항바이러스 치료를 미룸
+C. 분만 때 지도부딘 단독만 투여
+D. 임신 초기부터 적절한 병합 항레트로바이러스 치료 시작
 
 ## 해설
 
-모든 HIV 감염 임신에서 병합 ART(C)를 신속히 시작해 산모 건강과 수직감염 예방을 도모한다. CD4 150 및 높은 바이러스량은 특히 면역억제와 전파 위험을 강조하지만 ART 적응증을 CD4 ≤150으로 제한하지 않는다. 기회감염 예방 필요성을 별도로 평가하고 분만·수유 방식은 이후 바이러스 억제 상태와 지침에 따라 상담한다.
+임신 중 확인된 HIV는 CD4 수나 증상과 무관하게 신속히 병합 치료한다. 혈중 바이러스 억제를 추적하고 결과에 맞춰 분만과 신생아 예방 계획을 세운다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 질식분만
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005914
+- https://kdca.go.kr/bbs/kdca/55/305040/download.do
+- https://clinicalinfo.hiv.gov/en/guidelines/perinatal/introduction

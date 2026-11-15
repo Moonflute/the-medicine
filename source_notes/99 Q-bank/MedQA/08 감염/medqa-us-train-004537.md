@@ -16,7 +16,7 @@ related_diseases:
   - "Genital warts"
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yDneyLneq4sCDsnbjqsIQg7Jyg65GQ7KKFIOuwlOydtOufrOyKpCAoR2VuaXRhbCB3YXJ0cykubWQ
-question_type: mechanism
+question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-32세 남성이 HIV 병력과 여러 성 파트너가 있는 사회력으로 새로 생긴 피부 병변 때문에 내원했다. 과거 수술력과 가족력은 특이하지 않다. 혈압은 129/75 mm Hg, 맥박은 분당 66회, 호흡수는 분당 16회, 체온은 37.5°C (99.6°F)이다. 신체검사에서 음경 몸통과 항문 주위에 통증 없는 피부색의 납작하고 유두 모양인 병변이 많이 보인다. 5% 아세트산 용액을 바르자 병변이 하얗게 변한다. 이 병변의 원인은 무엇인가?
+HIV 환자에게 항문 주위 사마귀 모양 병변이 있다. 그중 하나는 단단하게 고정돼 있고 궤양과 출혈을 동반한다. 첨형 콘딜로마처럼 보이더라도 우선 할 일은?
 
 ## 선택지
 
-A. HPV 6형 및 11형
-B. 임균
-C. HPV 16형 및 18형
-D. HSV 2형
+A. 비전형 병변의 조직검사를 시행한다
+B. HPV 유전자형 결과만으로 암을 배제한다
+C. 아세트산을 발라 희게 변하면 양성으로 판정한다
+D. 모든 병변에 냉동요법을 먼저 시행한다
 
 ## 해설
 
 
-무통성 피부색 유두상 항문생식기 병변은 condyloma acuminatum이며 흔한 원인형은 HPV6·11 A이다. Acetic acid 후 백색화는 비특이적이어서 HPV6/11에 특이적이라고 할 수 없고 일반적인 확진/선별검사로 일률 권장되지 않는다. HIV 환자의 비전형·경결·궤양·출혈 병변은 악성/고등급 병변 감별을 위한 조직검사를 고려한다.
+경결, 고정, 궤양이나 출혈을 보이는 병변은 특히 면역저하 환자에서 조직검사로 고등급 병변이나 악성종양을 배제한다. 아세트산에 희게 변하는 소견은 특이적이지 않다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. HSV 2형
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004537
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10789539/

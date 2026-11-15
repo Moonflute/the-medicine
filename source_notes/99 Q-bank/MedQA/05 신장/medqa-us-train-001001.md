@@ -23,9 +23,9 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yWleydgCDthqDrpqzrsJTri6Xrp4nrs5EgKFRoaW4gQmFzZW1lbnQgTWVtYnJhbmUgRGlzZWFzZSkubWQ
   - MDIg7Zi47Z2h6riwL-unjOyEsSDtj5Dsh4TshLEg7Y-Q7KeI7ZmYIChDT1BEKSAoQ2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZSkubWQ
   - MDUg7Iug7J6lL-yLoOymne2bhOq1sCAoTmVwaHJvdGljIFN5bmRyb21lKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -42,18 +42,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-66세 백인 남성이 10일간 지속된 피로감과 하지 부종을 주소로 내원하였다. 지난 6개월 동안 3.6kg(8lb)의 체중 감소가 있었다. 만성 기관지염이 있으며 필요 시 알부테롤(albuterol) 흡입기를 사용한다. 44년 동안 매일 한 갑의 담배를 피웠으며 매일 술을 한 잔 마신다. 체온은 37°C, 맥박은 88회/분, 혈압은 120/75mmHg이다. 환자는 야위어 보인다. 진찰상 양측 정강이 앞 부종(pretibial edema) 2+가 관찰된다. 심폐 진찰상 이상 소견은 없다. 검사실 검사 결과는 다음과 같다: 혈색소 11.2g/dL, 백혈구 수 8500/mm3, 혈소판 수 130,000/mm3. 혈청: 요소질소 23mg/dL, 포도당 77mg/dL, 크레아티닌 1.6mg/dL, 알부민 1.8g/dL, 총 콜레스테롤 475mg/dL. 소변: 혈액 음성, 포도당 음성, 단백질 4+, 백혈구 0-1/hpf, 지방 원주(fatty casts) 다수. 흉부 X-선 검사에서 우상엽 음영이 관찰된다. 흉부 CT 검사에서 2.5 x 3.5 x 2cm 크기의 우상엽 종괴가 관찰된다. 가장 가능성이 높은 진단은 무엇인가?
+66세 남성에게 새로 생긴 신증후군이 있고 신장 생검은 막성 신병증에 부합한다. 최근 원인 불명 체중 감소와 혈담이 있으며 흉부 CT에서 새로 생긴 폐 종괴가 보인다. 면역억제 치료 전에 우선 할 평가는?
 
 ## 선택지
 
-A. 국소 분절 사구체 경화증(Focal segmental glomerulosclerosis)
-B. 막성 신병증(Membranous nephropathy)
-C. 급속 진행성 사구체 신염(Rapidly progressive glomerulonephritis)
-D. 얇은 기저막 병증(Thin basement membrane disease)
+A. 폐 종괴의 악성 가능성과 다른 이차성 원인을 평가한다
+B. 폐 종괴를 무시하고 바로 고용량 면역억제를 시작한다
+C. 신증후군을 흡입제 부작용으로 판단하고 관찰한다
+D. 저알부민혈증에 대한 알부민 투여로 원인 평가를 대신한다
 
 ## 해설
 
-정답은 B이다. 심한 단백뇨·지방원주·저알부민혈증·고지혈증·부종은 신증후군이며 노인의 폐종괴와 체중 감소는 악성종양을 우려하게 한다. 고형암과 연관될 수 있는 막성신병증이 제시된 선택지 중 가장 합당하다. 만성 기관지염 자체가 막성신병증의 전형적 원인이라는 뜻은 아니며 원인 평가와 필요 시 신생검으로 확인한다.
+막성 신병증은 악성종양 등 이차성 원인과 동반될 수 있다. 설명되지 않는 체중 감소와 폐 종괴가 있으면 면역억제에 앞서 암 여부 등을 평가한다.
 
 ## 검수 근거
 
@@ -66,3 +66,4 @@ D. 얇은 기저막 병증(Thin basement membrane disease)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001001
+- https://kdigo.org/guidelines/gd/

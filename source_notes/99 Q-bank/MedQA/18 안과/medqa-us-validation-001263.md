@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTgg7JWI6rO8L-uwseuCtOyepSAoY2F0YXJhY3QpLm1k
 difficulty: simple
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct

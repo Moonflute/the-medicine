@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yalOuhnOqysOyEnSAoVXJvbGl0aGlhc2lzKS5tZA
 question_type: management
 difficulty: complex
-answer: "B"
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -40,23 +40,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-55세 남성이 3시간 동안의 경련과 왼쪽 옆구리 통증, 구역과 빈뇨로 응급실에 왔다. 복부 단순 X선은 정상이었다. 초음파에서 왼쪽 요관 말단에 4 mm 결석과 왼쪽 신우에 작은 결석들이 보이며 소변검사에서 적혈구와 바늘 모양 결정이 확인된다. 진통제와 정맥 수액을 투여했다. 충분한 수분 섭취 외에 가장 도움이 될 처치는?
+55세 남성에게 요산 결석의 재발이 확인됐다. 소변 pH는 반복해서 5.1이고 신기능과 혈청 칼륨은 정상이다. 충분한 수분 섭취와 함께 소변을 알칼리화하기 위해 사용할 약은?
 
 ## 선택지
 
 A. 프로베네시드
 B. 구연산칼륨
-C. 고단백 식이
+C. 아세타졸아마이드와 고단백 식이
 D. 히드로클로로티아지드
 
 ## 해설
 
-방사선 단순촬영에서 보이지 않는 결석과 요 결정 소견은 요산 결석을 의도한다. Potassium citrate는 소변을 알칼리화하여 요산의 용해도를 높이고 용해·재발 예방에 도움이 될 수 있다. 알루미노산으로 전환하는 것이 아니다. 실제 투여는 결석 성분·요 pH·신기능·칼륨을 확인해 조절한다.
+요산은 산성 소변에서 잘 석출된다. 구연산칼륨으로 소변 pH를 올리면 용해와 재발 예방에 도움이 된다. 소변 pH, 칼륨과 신기능을 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001064
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10330415/
 
 ## 오답 포인트
 

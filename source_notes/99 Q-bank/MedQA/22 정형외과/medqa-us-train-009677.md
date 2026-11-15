@@ -13,12 +13,12 @@ related_diseases:
   - "meniscal tear"
   - "반월상연골 파열"
   - "locked knee"
-question_type: investigation
+question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,18 +33,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 남자가 2주 동안 지속된 왼쪽 무릎 통증으로 내원했다. 농구 중 ‘뚝’ 소리를 듣고 시작되었으며 이후 달릴 수 없다. 천식과 알레르기 비염이 있고 선천성 양측 감각신경성 난청으로 인공와우를 이식했다. 왼쪽 무릎 내측 관절선 압통, 완전 신전 불가, 신전 시 딸깍거리는 소리가 있고 X선은 정상이다. 다음으로 가장 적절한 처치는 무엇인가?
+25세 남성이 무릎을 비튼 뒤 관절선 통증과 잠김이 생겼다. 수동으로도 완전히 펴지지 않고 단순 X선에는 골절이 없다. 가장 적절한 다음 조치는?
 
 ## 선택지
 
-A. 왼쪽 무릎 관절천자
-B. 개방 반월상연골 봉합
-C. 왼쪽 무릎 MRI
-D. 왼쪽 무릎 관절경검사
+A. 일반 운동치료 후 한 달 뒤 재평가
+B. 혈관절증을 가정해 관절천자만 시행
+C. 전위된 반월상연골 파열을 의심해 정형외과에 신속히 의뢰
+D. 무릎 통증을 줄이기 위해 먼저 관절 내 스테로이드 주사
 
 ## 해설
 
-외상 후 내측 관절선 통증·클릭에 더해 완전 신전이 불가능한 잠김 무릎은 전위된 반월상연골 파열을 의심하게 하므로 긴급 정형외과 평가와 관절경을 통한 치료(D)가 적절하다. 실제 기계적 잠김이 명확하면 영상 때문에 치료를 지연하지 않는 경로를 사용할 수 있다. 다만 인공와우가 있다는 사실만으로 모든 MRI가 금기인 것은 아니며 기종별 MR Safe/Conditional/Unsafe 조건을 확인한다. 반월상연골 손상은 MRI에서만 확인된다는 기존 설명도 부정확하다.
+외상 뒤 기계적으로 잠겨 끝까지 펴지지 않는 무릎은 전위된 반월상연골 파열 등을 시사한다. 신속히 정형외과에 의뢰해 영상 선택과 정복·봉합 필요성을 평가하고, 재활만 하며 기다리지 않는다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 왼쪽 무릎 관절경검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009677
+- [AAOS: 급성 반월상연골 손상 진료지침](https://new.aaos.org/quality/quality-programs/acute-isolated-meniscal-pathology/)

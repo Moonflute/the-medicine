@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,7 +39,7 @@ related_drug_slugs:
 
 ## 문제
 
-40세 여성이 2시간 동안 지속된 오른쪽 상복부 통증과 발열로 응급실에 내원했다. 음주, 흡연, 약물 사용은 없고 다른 질환도 없다. BMI는 30kg/m²이다. 체온 38.5°C(101.3°F), 혈압 130/80mmHg, 맥박 90회/분, 호흡수 18회/분이다. 공막과 혀 기저부에 황달이 있고 오른쪽 상복부에 압통이 있다. 간기능검사에서 직접 및 총 빌리루빈과 ALP 500U/L가 상승했다. 정맥 암피실린-겐타마이신을 투여하고 수액 소생을 시작했으며 24시간 후 발열이 호전되었다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+40세 여성이 2시간 동안 지속된 오른쪽 상복부 통증과 발열로 응급실에 내원했다. 음주, 흡연, 약물 사용은 없고 다른 질환도 없다. BMI는 30kg/m²이다. 체온 38.5°C(101.3°F), 혈압 130/80mmHg, 맥박 90회/분, 호흡수 18회/분이다. 공막과 혀 기저부에 황달이 있고 오른쪽 상복부에 압통이 있다. 간기능검사에서 직접 및 총 빌리루빈과 ALP 500U/L가 상승했다. 정맥 암피실린-겐타마이신을 투여하고 수액 소생을 시작했으며 24시간 후 발열이 호전되었다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

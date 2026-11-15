@@ -19,7 +19,7 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-50세 여성이 수개월 동안 점점 악화되는 근력저하로 일차진료를 받으러 왔다. 의자에서 일어나기, 계단 오르기, 부엌 상단 선반에 식료품 올리기가 어렵고 최근 피로감도 있다. 삼각근과 고관절 굴곡근의 근력이 약하지만 상완이두근, 삼두근, 슬개건, 발목건 반사는 2+이다. 크레아틴키나아제 4,200 U/L, 젖산탈수소효소 150 U/L, TSH 1.5 µU/mL이다. 초기 치료로 가장 적절한 것은?
+50세 여성이 수개월간 진행된 대칭성 어깨·엉덩이 근력저하와 높은 CK로 평가받았다. 전문 평가에서 활동성 자가면역 염증성 근병증으로 확인됐고 봉입체근염과 감염은 배제됐다. 관해 유도에 기본이 되는 약제는?
 
 ## 선택지
 
-A. 아자티오프린
-B. 정맥 면역글로불린
-C. 프레드니손
-D. 티록신
+A. 아자티오프린 단독
+B. 진통제만 사용
+C. 고용량 전신 글루코코르티코이드
+D. 갑상선호르몬
 
 ## 해설
 
 
-근위부 근력 저하와 CK 4,200 U/L 상승은 다발성 근염(다발근염/다발성 근육염)을 시사한다. 이 염증성 근병증의 1차 치료는 고용량 경구 프레드니손과 같은 글루코코르티코이드이다. 따라서 초기 치료로 프레드니손이 가장 적절하다. 오답인 정맥 면역글로불린은 스테로이드에 반응하지 않을 때 보조제로 사용한다.
+대부분의 활동성 자가면역 염증성 근병증에서 글루코코르티코이드가 초기 치료의 기본이다. 중증도·병형에 따라 다른 면역조절제를 함께 사용하며 봉입체근염에는 그대로 적용하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 티록신
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000359
+- https://doi.org/10.1093/rheumatology/keac115

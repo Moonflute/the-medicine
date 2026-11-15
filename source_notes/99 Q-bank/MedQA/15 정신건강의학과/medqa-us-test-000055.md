@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-정신과 폐쇄병동의 61세 조현병 남성에게 입술을 이상하게 핥고 오므리며 눈을 과도하게 깜박이는 증상이 관찰되었다. 2주 전 서서히 시작해 점점 뚜렷해졌지만 환자는 불편해하지 않는다. 수개월 동안 할로페리돌로 성공적으로 치료받고 있다. 다음 중 이 증상을 정확히 설명하는 것은?
+할로페리돌을 1년 복용한 환자에게 최근 입맛을 다시고 혀를 내미는 반복적인 움직임이 생겼다. 목이 한쪽으로 고정되거나 몸을 계속 움직이고 싶은 불편은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
 A. 지연성 운동이상증
-B. 급성 근긴장이상증
-C. 가성 파킨슨증
-D. 마비
+B. 급성 근긴장이상
+C. 약물 유발 파킨슨증
+D. 정좌불능
 
 ## 해설
 
 
-할로페리돌 장기 복용 시 나타나는 지연성 운동이상증은 입술을 핥고 눈을 과도하게 깜박이는 형태로 나타난다. 이는 항정신병제의 추체외로 부작용이다. 급성 근긴장이상증 등은 급성 증상과 다르다.
+도파민 차단제 장기 사용 뒤 생긴 반복적인 입술·혀 움직임은 지연성 운동이상증에 합당하다. 투약 초기에 근육이 지속적으로 수축하는 급성 근긴장이상과 구별한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000055
+- https://pubmed.ncbi.nlm.nih.gov/38502289/

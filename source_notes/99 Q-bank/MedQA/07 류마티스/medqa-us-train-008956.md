@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-55세 남성이 통증으로 내원했다. 아침에 뻣뻣하고 근육 전반의 불편감과 통증이 있다. 당뇨병 병력이 있지만 현재 약물은 복용하지 않는다. 체온 99.2°F(37.3°C), 혈압 147/98mmHg, 맥박 80회/분, 호흡수 12회/분, 산소포화도 99%이다. 신체검사에서 근육 전반에 경미한 압통이 있고 반사는 2+, 상·하지 근력은 5/5이다. 적혈구 침강속도가 상승해 있다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+55세 남성이 통증으로 내원했다. 아침에 뻣뻣하고 근육 전반의 불편감과 통증이 있다. 당뇨병 병력이 있지만 현재 약물은 복용하지 않는다. 체온 99.2°F(37.3°C), 혈압 147/98mmHg, 맥박 80회/분, 호흡수 12회/분, 산소포화도 99%이다. 신체검사에서 근육 전반에 경미한 압통이 있고 반사는 2+, 상·하지 근력은 5/5이다. 적혈구 침강속도가 상승해 있다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

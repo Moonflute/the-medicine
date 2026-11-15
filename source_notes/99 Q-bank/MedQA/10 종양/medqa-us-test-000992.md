@@ -19,7 +19,7 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-13세 남아가 2개월간 진행하는 왼쪽 다리 통증으로 진료를 받으러 왔다. 통증이 수면을 방해하기 시작했으며 어머니가 성장통으로 이부프로펜을 주었지만 호전되지 않았다. 통증 시작 일주일 전 야구공에 허벅지를 맞아 며칠간 붉고 부어 있었다. 왼쪽 대퇴골 중간 부위에 심한 압통이 있었고 백혈구 21,000/mm³, ESR 68 mm/h였다. X선에서 대퇴골 중간 1/3에 다발성 용해성 병변과 여러 층의 새 뼈로 덮인 피질이 보였고 생검에서 작은 원형 청색 세포가 관찰되었다. 가장 가능성 높은 진단은?
+13세 환자에게 수주 동안 밤에 심해지는 허벅지 통증이 있다. 영상에서 대퇴골 몸통의 침윤성 골용해 병변과 여러 층의 골막 반응이 보인다. 생검에서 작은 원형세포가 관찰되고 EWSR1::FLI1 융합이 검출됐다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
 A. 골육종
-B. 골연골종
+B. 골수염
 C. 유잉육종
-D. 유골 골종
+D. 유골골종
 
 ## 해설
 
 
-다발성 용해성 병변과 ‘양파껍질’ 골막 반응, 청색 세포는 유잉육종의 특징이다. 따라서 유잉육종이 가장 가능성 높은 진단이다.
+청소년의 공격적인 골간부 병변과 작은 원형세포에 EWSR1::FLI1 융합이 동반되면 유잉육종에 부합한다. 골막 반응만으로는 골수염 등과 확실히 구별하지 못한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 유골 골종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000992
+- https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq

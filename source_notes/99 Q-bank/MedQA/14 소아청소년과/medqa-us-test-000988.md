@@ -13,13 +13,13 @@ related_diseases:
   - "페닐케톤뇨증"
   - "페닐알라닌"
   - "발달지연"
-question_type: prevention
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Y6Y64uQ7LyA7Yak64eo7KadIChQaGVueWxrZXRvbnVyaWEpLm1k
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,23 @@ related_drug_slugs:
 
 ## 문제
 
-11개월 남아가 아침에 약 30초 동안 팔과 다리가 경련하는 것을 본 어머니와 함께 응급실에 왔다. 발열, 기침, 콧물은 없었고 가끔 습진이 있었던 것 외에는 건강했다. 루마니아에서 가정분만으로 태어났고 산전 진료는 받지 못했다. 형보다 발달 이정표에 도달하는 데 더 오래 걸렸으며 예방접종 기록은 없다. 창백하고 눈이 파랬으며 퀴퀴한 냄새가 나고 눈맞춤이 부족했다. 이 증상을 예방하는 데 가장 도움이 되었을 조치는?
+건강해 보이는 신생아의 대사이상 선별검사에서 페닐알라닌이 높았다. 정밀검사로 페닐알라닌 수산화효소 결핍이 확진됐고 혈중 페닐알라닌이 600μmol/L로 지속된다. 신경발달 손상을 막기 위한 조치는?
 
 ## 선택지
 
-A. 임신 중 레보티록신 치료
-B. 페닐알라닌 식이 제한
-C. 매일 알로푸리놀 복용
-D. 금식 상태를 피한다
+A. 발달 지연이 나타날 때까지 식이를 바꾸지 않는다
+B. 페닐알라닌을 보충해 혈중 농도를 더 높인다
+C. 대사 전문팀과 페닐알라닌을 제한하는 치료 식이를 시작한다
+D. 모유만 중단하고 일반 분유를 제한 없이 준다
 
 ## 해설
 
 
-페닐케톤뇨증은 페닐알라닌 섭취 제한이 없을 경우 신경독성을 일으킨다. 환아의 발달 지연과 특이한 냄새는 PKU를 시사하며, 예방은 신생아 시기에 페닐알라닌 제한 식이가 가장 효과적이다. 따라서 페닐알라닌 제한이 정답이다.
+치료가 필요한 페닐알라닌 수산화효소 결핍은 증상이 생기기 전부터 관리한다. 필수아미노산이므로 완전히 빼는 것이 아니라 목표 혈중 농도와 정상 성장을 함께 맞춘다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000988
+- https://pubmed.ncbi.nlm.nih.gov/39630157/
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6249

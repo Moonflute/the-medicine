@@ -17,6 +17,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
@@ -38,7 +39,7 @@ related_drug_slugs:
 
 ## 문제
 
-27세 남성이 지난 일주일간의 쇠약감과 발열을 주소로 응급실에 내원하였다. 환자는 노숙자이며 알코올 및 정맥 주사 약물 남용의 과거력이 있다. 체온은 102°F(38.9°C), 혈압은 107/68 mmHg, 맥박은 120회/분, 호흡수는 17회/분, 실내 공기에서의 산소 포화도는 98%이다. 신체 검진상 환자는 떨림이 있고 팔오금(antecubital)에 흉터가 있으며 좌측 하부 흉골 경계에서 잡음(murmur)이 들린다. 혈액 배양 검사를 시행하고 환자에게 반코마이신(vancomycin)과 세프트리악손(ceftriaxone)을 투여하기 시작하였으며 중환자실(ICU)에 입원하였다. 초기 확인된 균주가 감수성을 보이는 항생제 치료에도 불구하고 환자의 발열과 증상은 호전되지 않는다. 현재 배양 검사 결과 감염 원인균 중 하나로 MRSA가 확인되었다. 다음 중 가장 적절한 다음 치료 단계는 무엇인가?
+27세 남성이 지난 일주일간의 쇠약감과 발열을 주소로 응급실에 내원하였다. 환자는 노숙자이며 알코올 및 정맥 주사 약물 남용의 과거력이 있다. 체온은 102°F(38.9°C), 혈압은 107/68 mmHg, 맥박은 120회/분, 호흡수는 17회/분, 실내 공기에서의 산소 포화도는 98%이다. 신체 검진상 환자는 떨림이 있고 팔오금(antecubital)에 흉터가 있으며 좌측 하부 흉골 경계에서 잡음(murmur)이 들린다. 혈액 배양 검사를 시행하고 환자에게 반코마이신(vancomycin)과 세프트리악손(ceftriaxone)을 투여하기 시작하였으며 중환자실(ICU)에 입원하였다. 초기 확인된 균주가 감수성을 보이는 항생제 치료에도 불구하고 환자의 발열과 증상은 호전되지 않는다. 현재 배양 검사 결과 감염 원인균 중 하나로 MRSA가 확인되었다. 가장 적절한 다음 치료 단계는 무엇인가?
 
 ## 선택지
 

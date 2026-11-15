@@ -15,11 +15,11 @@ related_diseases:
   - "저세포성 골수"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-yerOyDneu2iOufieyEsSDruYjtmIggKEFBKSAoQXBsYXN0aWMgQW5lbWlhIChBQSkpLm1k
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-가족 중에 복부와 허벅지 통증을 앓는 사람이 있는 7세 아동이 어머니와 함께 응급실에 왔다. 어머니는 가족에게 ‘혈액 질환’이 있다고 말한다. 또 아이가 지난 3일 동안 기침과 101.1°F의 발열이 있었고 갑자기 훨씬 더 아파졌다고 한다. 진찰에서 심박수 110회/분, 혈압 100/60 mmHg, 호흡수 20회/분, 체온 101.5°F이다. 혈액검사에서 혈색소 3.2 g/dL, 백혈구 2.1×10³/mm³, 헤마토크릿 10%, 혈소판 30,000/mm³이다. 망상적혈구 수는 1%, 평균적혈구용적은 81 fL이다. 골수 생검에서 지방 조직이 많은 저세포성 골수가 보인다. 가장 가능성 높은 진단은?
+14세 환자의 골수는 심하게 저세포성이며 선천성 골수부전은 배제됐다. 중증 후천성 재생불량성 빈혈로 진단됐고 HLA가 일치하는 건강한 형제 공여자가 있다. 이식을 받을 수 있는 환자의 우선 치료는?
 
 ## 선택지
 
-A. 재생불량성 빈혈
-B. 철결핍성 빈혈
-C. 엽산결핍성 빈혈
-D. 비장기능항진증 관련 빈혈
+A. HLA 일치 형제 공여자의 동종 조혈모세포이식
+B. 철분과 엽산만 투여
+C. 정기 적혈구 수혈만 지속
+D. 비장절제술
 
 ## 해설
 
 
-골수 검사가 저세포성, 지방이 풍부한 모습을 보이는 경우는 조혈모세포가 손상된 재생불량성 빈혈을 의미한다. 이는 전혈구감소증과 심각한 빈혈을 동반한다. 따라서 가장 가능성 높은 진단은 재생불량성 빈혈이다.
+이식이 가능한 소아·청소년에서 중증 후천성 재생불량성 빈혈에 적합한 일치 형제 공여자가 있으면 동종이식이 우선 치료가 될 수 있다. 감염과 출혈에 대한 지지치료도 병행한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 비장기능항진증 관련 빈혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009786
+- https://pubmed.ncbi.nlm.nih.gov/41920091/

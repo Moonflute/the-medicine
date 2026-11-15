@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
@@ -34,7 +35,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-11세 여아가 3일간 지속된 고열, 두통, 구역질로 응급실에 내원하였다. 환아는 두통을 악화시킨다는 이유로 광원을 보는 것을 피한다. 급성 림프모구 백혈병(acute lymphoblastic leukemia)을 앓고 있으며 마지막 항암화학요법 주기는 2주 전이었다. 환아는 기면 상태로 보인다. 체온은 40.1°C(104.2°F), 맥박은 131회/분, 혈압은 100/60 mmHg이다. 진찰 결과 목이 뻣뻣함(stiff neck)이 확인되었다. 동공은 양측이 동일하고 빛에 반응한다. 목을 굴곡시키면 무릎과 고관절이 굴곡된다. 우측 상지의 근력이 감소되어 있다. 심부건 반사는 양측 모두 2+이다. 감각은 정상이다. 안구 운동은 정상이다. 두 세트의 혈액 배양 검사를 시행하였다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+11세 여아가 3일간 지속된 고열, 두통, 구역질로 응급실에 내원하였다. 환아는 두통을 악화시킨다는 이유로 광원을 보는 것을 피한다. 급성 림프모구 백혈병(acute lymphoblastic leukemia)을 앓고 있으며 마지막 항암화학요법 주기는 2주 전이었다. 환아는 기면 상태로 보인다. 체온은 40.1°C(104.2°F), 맥박은 131회/분, 혈압은 100/60 mmHg이다. 진찰 결과 목이 뻣뻣함(stiff neck)이 확인되었다. 동공은 양측이 동일하고 빛에 반응한다. 목을 굴곡시키면 무릎과 고관절이 굴곡된다. 우측 상지의 근력이 감소되어 있다. 심부건 반사는 양측 모두 2+이다. 감각은 정상이다. 안구 운동은 정상이다. 두 세트의 혈액 배양 검사를 시행하였다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

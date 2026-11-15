@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yVhOyEuO2KuOyVhOuvuOuFuO2OnCDspJHrj4UgKEFjZXRhbWlub3BoZW4gUG9pc29uaW5nKS5tZA
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여성이 약병이 흩어진 컴퓨터 옆에서 졸린 상태로 발견되어 가족과 함께 응급실에 왔다. 가족이 발견한 것은 2시간 이상 전이었고 정확한 복용 시각과 약의 종류는 알 수 없었지만 환자는 아세트아미노펜을 몇 알 먹었다고 했다. 체온 99.5°F(37.5°C), 혈압 125/85 mmHg, 맥박 82회/분, 호흡 11회/분, 산소포화도 97%였다. 다음 중 가장 적절한 처치는?
+25세 환자가 아세트아미노펜을 과량 복용했으나 시각을 알 수 없다. 혈중 아세트아미노펜은 32 μg/mL, ALT는 380 U/L다. 가장 적절한 처치는?
 
 ## 선택지
 
-A. N-아세틸시스테인
-B. 활성탄
-C. 정맥 수액
-D. 이페카 시럽
+A. 혈중 농도를 시간표에 넣을 수 없으므로 퇴원시킨다
+B. 간기능이 더 나빠질 때까지 기다린다
+C. 활성탄만 투여한다
+D. N-아세틸시스테인을 시작한다
 
 ## 해설
 
-여러 약병이 있고 정확한 복용 시각·용량을 알 수 없는 acetaminophen 노출에서는 혈중 농도·간기능 등을 채혈하면서 NAC(A)를 즉시 시작할 수 있다. 발견 시각이 2시간 전이라는 사실은 복용 시각을 뜻하지 않는다. 복용 시각이 확실한 단회 노출은 적절한 시점의 농도와 nomogram으로 판단한다. NAC는 조기에 시작할수록 좋지만 24시간을 넘었다고 자동으로 무효한 것은 아니다.
+복용 시각이 불명확하면 단회 복용용 노모그램을 적용할 수 없다. 약물이 검출되고 간효소가 상승한 경우 N-아세틸시스테인 치료를 지체하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 이페카 시럽
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001143
+- https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2808062

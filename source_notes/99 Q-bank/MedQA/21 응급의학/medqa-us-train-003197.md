@@ -15,11 +15,11 @@ related_diseases:
   - "activated charcoal"
   - "suicide attempt"
   - "Acetaminophen overdose"
-question_type: management
+question_type: investigation
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yVhOyEuO2KuOyVhOuvuOuFuO2OnCDspJHrj4UgKEFjZXRhbWlub3BoZW4gUG9pc29uaW5nKS5tZA
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 여성이 자살을 시도한 후 응급실에 왔다. 어머니가 욕실에서 빈 아세트아미노펜 병 옆에 있는 환자를 발견했고 환자는 500 mg 정제 약 25개를 1시간 전에 복용했다고 한다. 주요우울장애 병력이 있고 플루옥세틴을 복용한다. 의식과 지남력은 정상이며 활력징후와 신체검사는 정상이다. 혈액검사도 정상이다. 다음 중 가장 적절한 관리 단계는?
+아세트아미노펜을 단회 과량 복용한 지 한 시간에 내원한 환자다. 의식과 기도 보호는 정상이고 초기 간효소도 정상이다. 해독제 필요 여부를 판단하기 위한 검사는 언제 시행하는가?
 
 ## 선택지
 
-A. 활성탄 투여
-B. 관찰 입원
-C. 간이식 대기자 등록
-D. 간 생검
+A. 첫 간효소가 정상이므로 추가 검사는 하지 않는다
+B. 복용 4시간 이후 혈중 아세트아미노펜 농도를 측정한다
+C. 복용 1시간째 농도만으로 치료 여부를 확정한다
+D. 신기능이 악화한 뒤 처음 측정한다
 
 ## 해설
 
-최근 1시간 내 잠재적 독성량을 섭취했고 의식과 기도보호가 유지되어 활성탄(A)을 고려한다. 1시간에 혈중 약물이 없거나 농도가 아직 오르지 않는다는 뜻은 아니다. 단회 급성 복용은 적절한 시간의 혈중 농도(통상 섭취 후 4시간 이후)와 시간정보로 NAC 필요성을 평가하며 초기 정상 간효소만으로 독성을 배제하지 않는다.
+복용 시각을 아는 단회 과량 복용에서는 복용 4시간 이후의 농도를 시간-농도 노모그램에 적용한다. 4시간 전 농도나 정상 초기 간효소만으로 중독 위험을 배제하지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 간 생검
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003197
+- https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2808062

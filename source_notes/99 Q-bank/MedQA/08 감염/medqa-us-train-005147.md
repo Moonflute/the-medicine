@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k
 question_type: management
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -41,19 +41,19 @@ related_drug_slugs:
 
 ## 문제
 
-비호지킨 림프종이 있는 63세 남자가 3일 동안 악화된 발열과 혼돈으로 내원했다. 최근 항암화학요법을 받았고, 2주 전 프랑스 시골에서 수제 치즈 등을 먹고 돌아왔으며 3일간 묽은 변도 있었다. 뇌척수액에서 백혈구 1,200/mm³(호중구 76%), 단백 113 mg/dL, 포도당 21 mg/dL이다. 다음 중 가장 적절한 초기 약물치료는?
+최근 항암화학요법을 받은 63세 환자의 뇌척수액에서 호중구가 증가하고 당이 낮다. 지역사회획득 세균성 수막염을 의심해 세프트리악손과 반코마이신을 준비 중이다. 면역저하를 고려해 추가할 항생제는?
 
 ## 선택지
 
-A. 암피실린과 세포탁심
-B. 아시클로버와 덱사메타손
-C. 아시클로버
-D. 반코마이신, 암피실린과 세페핌
+A. 아지트로마이신
+B. 암피실린
+C. 메트로니다졸
+D. 세파졸린
 
 ## 해설
 
 
-고령·최근 항암 환자의 호중구성 저당 CSF는 급성 세균성 수막염으로 신속한 경험적 치료가 필요하다. D의 vancomycin+ampicillin+cefepime은 면역억제 맥락에서 저항성 폐렴구균·Listeria 및 그람음성균을 포함한다. 특히 ampicillin은 Listeria 범위를 위해 중요하다. 원문에는 프랑스 방문과 수제 치즈 등 섭취·설사가 있어 이 위험을 고려하지만 원인균이 확정된 것은 아니다. 배양/감수성에 따라 좁힌다.
+고령·면역저하 환자의 지역사회획득 세균성 수막염에서는 리스테리아를 포괄하기 위해 암피실린을 더한다. 세프트리악손은 리스테리아 치료제로 쓸 수 없다.
 
 ## 검수 근거
 
@@ -66,3 +66,5 @@ D. 반코마이신, 암피실린과 세페핌
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005147
+- https://www.icjournal.org/DOIx.php?id=10.3947%2Fic.2012.44.3.140
+- https://www.who.int/publications/i/item/9789240108042

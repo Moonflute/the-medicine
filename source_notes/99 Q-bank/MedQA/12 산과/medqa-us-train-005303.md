@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 12주인 23세 초임부가 일주일 동안 발한 증가와 두근거림으로 내원했다. 며칠 전 여러 차례 구토를 했고 현재는 멎었지만 증상이 지속된다. 목은 커져 있지 않고 갑상선은 만져지지 않았다. 체중은 임신 전 54 kg에서 55 kg으로 증가했고 맥박 113회/분, 미세한 안정시 손떨림, TSH <0.1 mU/L, 총 T4 178 nmol/L, 유리 T4 31 pmol/L이다. 다음 중 적절한 처치는?
+임신 11주 초임부가 심한 구토를 한 뒤 갑상샘 검사를 받았다. TSH는 억제됐고 유리 T4는 약간 높지만 TRAb는 음성이다. 갑상샘종·안구돌출은 없고 임신 전 갑상샘 병력도 없다. 가장 적절한 대응은?
 
 ## 선택지
 
-A. 수분을 충분히 공급하고 베타차단제 처방
-B. 프로필티오우라실로 치료
-C. 메티마졸 처방
-D. 방사성 요오드 절제 권고
+A. 그레이브스병으로 보고 메티마졸을 바로 시작한다
+B. 수분과 구토를 치료하고 항갑상샘제 없이 갑상샘 기능을 추적한다
+C. 임신 중 방사성 요오드로 치료한다
+D. 임신이 끝날 때까지 고용량 베타차단제를 계속한다
 
 ## 해설
 
-12주 구토와 연관된 일시적 갑상선중독증, 갑상선종·안구병증 부재는 hCG 매개 임신성 일과성 갑상선중독증을 시사한다. 선택지 중 수분 공급과 필요시 단기간 베타차단제(A)가 적절하다. Graves와 구별해 추적하며, Graves의 현성 항진증에서는 항갑상선제가 필요할 수 있다. 베타차단제 장기 사용을 일률 권하지 않는다.
+임신 초반 구토와 동반된 갑상샘중독증에서 그레이브스병을 시사할 단서가 없으면 hCG에 의한 임신성 일시적 변화일 수 있다. 구토와 탈수를 치료하고 갑상샘 기능이 정상화되는지 확인한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 방사성 요오드 절제 권고
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005303
+- https://doi.org/10.1177/10507256261445624

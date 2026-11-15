@@ -19,7 +19,7 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-42세 남성이 정기 선별검사에서 간기능검사 이상이 발견되어 병원에 왔다. 지난 1년 동안 가끔 두통이 있었지만 그 외에는 건강했다. 30년 전 심한 교통사고를 당했으며 담배나 술을 하지 않고 정맥주사 약물도 사용한 적이 없다. 약물과 알레르기는 없었다. 아버지는 알코올사용장애가 있었고 간암으로 사망했다. 환자는 마른 체형이었다. 체온 37.8°C(100°F), 맥박 100회/분, 혈압 110/70 mmHg였다. 검사에서 혈색소 14 g/dL, 백혈구 10,000/mm³, 혈소판 146,000/mm³, 혈당 150 mg/dL, 알부민 3.2 g/dL, 총 빌리루빈 1.5 mg/dL, ALP 75 U/L, AST 95 U/L, ALT 73 U/L였고 HIV 음성, B형간염 표면항원 음성, C형간염 항체와 HCV RNA 양성, 유전자형 1이었다. 간 생검에서 문맥과 문맥주변에 국한된 단핵구 침윤과 문맥주변 간세포 괴사가 보였다. 다음 중 가장 적절한 처치는?
+42세 남성이 두 차례 검사에서 C형간염 바이러스 RNA 양성으로 확인됐다. 이전에 치료한 적 없고 섬유화 평가에서 간경변은 없다. 신기능은 정상이고 중요한 약물 상호작용도 없다. 대한간학회 권고에 부합하는 범유전자형 경구 치료는?
 
 ## 선택지
 
-A. 소포스부비르와 레디파스비르 치료
-B. 테노포비르와 벨파타스비르 치료
-C. 인터페론과 리바비린 치료
-D. 테노포비르와 엔테카비르 치료
+A. 소포스부비르/벨파타스비르
+B. 테노포비르와 엔테카비르
+C. 인터페론과 리바비린
+D. 소포스부비르 단독
 
 ## 해설
 
 
-C형 간염 genotype 1에 대해 직접 작용 항바이러스제인 소포스부비르와 레디파스비르 조합이 1세대 치료제보다 효능이 높고 부작용이 적다. 따라서 가장 적절한 치료는 A이다.
+대한간학회는 이전에 치료하지 않은 적절한 환자에서 범유전자형 직접작용 항바이러스제를 권고한다. 보기 중 소포스부비르/벨파타스비르가 해당한다. 간경변의 단계, 과거 치료와 병용약은 요법을 고르기 전에 확인한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ C형 간염 genotype 1에 대해 직접 작용 항바이러스제인 소포스�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000409
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12835810/

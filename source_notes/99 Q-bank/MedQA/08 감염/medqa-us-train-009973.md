@@ -15,9 +15,9 @@ related_diseases:
   - "캄필로박터 감염"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-y6hO2VhOuhnOuwle2EsCAoQ2FtcHlsb2JhY3RlcikubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-특이한 과거력이 없는 4세 남아가 2일 동안 지속된 고열, 인후통, 오심, 구토, 혈성 설사로 아버지와 함께 소아과에 내원했다. 아버지는 새 개를 키우기 시작한 지 약 3주 후에 증상이 시작되었다고 한다. 또한 아이가 다니는 유치원의 다른 아이 몇 명도 비슷한 증상으로 아팠다고 한다. 최근 식단이나 생활 방식의 다른 변화는 없다. 혈압 123/81 mmHg, 맥박 분당 91회, 호흡수 분당 15회, 체온 39.2°C이다. 다음 중 이 환자 증상의 가장 가능성 높은 원인은?
+어린이집 같은 반 아이 여러 명이 발열과 혈성 설사로 내원했다. 누가 어떤 음식을 먹었는지는 아직 모른다. 수분 상태를 평가하면서 원인과 집단발생에 대응할 다음 조치는?
 
 ## 선택지
 
-A. 새로 키운 개
-B. 최근 항생제 처방
-C. 학교에서 세균에 노출
-D. 적절한 예방접종 실패
+A. 대표 환자만 혈액검사를 하고 대변 검사는 생략한다
+B. 아이마다 먹은 음식이 같다는 사실이 확정될 때까지 기다린다
+C. 증상이 없는 원아까지 모두 경험적 항생제를 투여한다
+D. 대변 검체를 채취해 원인을 검사하고 관할 보건소에 집단발생을 알린다
 
 ## 해설
 
 
-유치원에서 비슷한 혈성 설사 환자들이 발생한 역학은 학교에서의 세균 노출(C)을 지지한다. Shigella 등은 소량으로도 분변-경구 전파되어 보육시설 집단 발생을 일으킬 수 있다. Campylobacter는 개·오염 음식·물로 전파되지만 사람 간 전파는 흔하지 않다. 배양 없이 특정 균을 확정하거나 공동 음식 노출을 배제할 수는 없다.
+발열과 혈변이 있고 집단발생이 의심되면 대변 검사를 통해 세균성 원인을 평가하고 보건소와 대응한다. 같은 반에서 발생했다고 해서 특정 음식이나 병원체가 확정되지는 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 적절한 예방접종 실패
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009973
+- https://doi.org/10.3947/ic.2019.51.2.217
+- https://www.idsociety.org/practice-guideline/infectious-diarrhea/

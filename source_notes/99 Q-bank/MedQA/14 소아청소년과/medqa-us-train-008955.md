@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MDkg7ZiI7JWhL-2MkOy9lOuLiCDruYjtmIggKEZhbmNvbmkgQW5lbWlhKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-4개월 된 여아가 창백하고 기면해 보여 아버지와 함께 내원했다. 원래도 안색이 창백했지만 지난 한 달 동안 악화되었다. 합병증 없는 임신 후 36주에 가정분만으로 태어났고 아직 의사의 진찰을 받은 적이 없다. 머리둘레 2백분위수, 키 10백분위수, 체중 8백분위수이다. 하악왜소증, 편평한 콧등, 소안구증, 양안격리, 사시, 높은 입천장, 경추 융합과 목 주위 피부 주름이 보인다. 왼쪽 흉부에서 4/6 범수축기 심잡음이 들린다. 혈색소 6.6g/dL, 헤마토크릿 20%, 백혈구 5,400/mm³, 혈소판 183,000/mm³, MCH 41.3pg, MCHC 33%, MCV 125μm³이다. 다음 중 이 환자에서 나타날 가능성이 가장 높은 소견은 무엇인가?
+4개월 영아에게 심한 대적혈구성 빈혈이 있다. 망상적혈구가 매우 적지만 백혈구와 혈소판은 정상이다. 소두증과 세 마디 엄지가 있고, 골수에서 적혈구 전구세포가 선택적으로 감소했다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 경미한 호중구감소증
-B. 구형적혈구
-C. 세 지절 엄지
-D. 표적적혈구
+A. 판코니 빈혈
+B. 비타민 B12 결핍
+C. 유전성 구형적혈구증
+D. 다이아몬드–블랙판 빈혈
 
 ## 해설
 
-생후 수개월에 나타난 심한 거대적혈구빈혈과 두개안면·경추·심장 선천기형은 Diamond-Blackfan 빈혈(DBA) 증후군을 시사한다. 백혈구와 혈소판이 비교적 보존된 빈혈이라는 점도 범혈구감소성 골수부전보다는 DBA에 부합한다. DBA에는 세 지절 엄지(C) 같은 엄지 기형이 동반될 수 있다. Fanconi 빈혈의 요골 계열 기형과 혼동해서는 안 되며, 본문에 요골 골절은 없다. 구형적혈구나 표적적혈구는 이 조합의 대표적인 동반 소견이 아니다.
+생후 수개월의 대적혈구성 빈혈과 낮은 망상적혈구, 적혈구 계통만 억제된 골수는 다이아몬드–블랙판 빈혈을 시사한다. 선천성 엄지 기형은 단서지만, 판코니 빈혈에서는 여러 혈구 계통 저하가 더 전형적이다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 표적적혈구
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008955
+- https://pubmed.ncbi.nlm.nih.gov/38697731/

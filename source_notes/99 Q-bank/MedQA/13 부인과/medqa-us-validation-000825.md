@@ -14,12 +14,12 @@ related_diseases:
   - "대음순 종창"
   - "질전정 낭종"
   - "Bartholin cyst"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-34세 여성이 2주간 점점 커지는 오른쪽 대음순의 부종과 보행 시 불편감으로 진료를 받으러 왔다. 후방 질전정에 파동이 있는 부종이 있고 비정상 분비물이나 출혈은 없다. 가장 가능성 높은 진단은?
+52세 폐경 여성에게 질 입구 뒤가쪽의 바르톨린샘 부위에 새 종괴가 생겼다. 고형으로 단단하고 잘 움직이지 않으며 발열이나 심한 통증은 없다. 적절한 다음 조치는?
 
 ## 선택지
 
-A. 바르톨린샘 낭종
-B. 모낭염
-C. 서혜부 육아종
-D. 외음부암
+A. 악성 가능성을 평가하려고 조직검사를 의뢰한다
+B. 낭종으로 확정하고 온찜질만 안내한다
+C. 발열이 없어도 항생제를 장기 처방한다
+D. 원인 확인 없이 단순 배액하고 추적하지 않는다
 
 ## 해설
 
 
-후방 질전정에 파동이 있는 부종은 바르톨린샘(대음순선) 낭종의 전형적인 소견이다. 바르톨린샘은 질전정에 위치하며 낭종이 커지면 외음부 부종과 보행 불편을 유발한다. 따라서 가장 가능성 높은 진단은 바르톨린샘 낭종이다.
+40세 이후에 새로 발견된 비전형적 바르톨린샘 종괴, 특히 단단하거나 고정된 병변은 드물지만 악성을 배제하기 위해 조직검사를 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000825
+- https://rightdecisions.scot.nhs.uk/ggc-referral-management/womens-health/gynaecology-clinical-guidelines/management-of-bartholin-s-cyst-and-abscess-gynaecology-066/

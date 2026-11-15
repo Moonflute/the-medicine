@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOygleuPmeyepeyVoCAoU2NoaXpvYWZmZWN0aXZlIGRpc29yZGVyKS5tZA
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,23 +35,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-28세 여성이 1주일간 비정상적으로 활력이 넘치고 잠을 자지 않으며, 과거에도 비슷한 에피소드가 있었다. 8개월 전부터 자신이 유명 가수이며 세계 순회공연을 간다고 믿고, 목소리가 직장을 그만두라고 말한 뒤 일을 하지 않았다. 면담에서 압박된 말투와 환청이 있다. 가장 가능성 높은 진단은?
+28세 환자가 2년 동안 뚜렷한 조증 삽화를 여러 차례 겪었다. 기분 삽화가 전체 경과의 대부분을 차지한다. 다만 조증이나 우울 삽화가 전혀 없던 4주 동안에도 환청과 망상이 지속됐다. 물질이나 신체질환은 배제했다. DSM-5-TR 기준에 가장 맞는 진단은?
 
 ## 선택지
 
-A. 분열정동장애
-B. 분열형 인격장애
-C. 망상장애
-D. 정신병적 특징을 동반한 기분장애
+A. 정신병적 양상을 동반한 양극성 I형 장애
+B. 조현병
+C. 조현정동장애 양극형
+D. 망상장애
 
 ## 해설
 
-현재 조증 양상과 정신병적 증상이 함께 있고, 간헐적 조증 시기와 별개로 수개월간 망상·환청이 지속된 경과는 제시된 선택지 중 조현정동장애를 시사한다. 다만 실제 진단에서는 기분삽화가 전체 활성·잔류기 경과의 대부분을 차지하는지와 기분삽화 없이 적어도 2주 정신병이 지속된 시기를 종적으로 확인해야 한다. 정신병적 특징을 동반한 기분장애에도 환각이 있을 수 있으므로 환각 존재만으로 구별하지 않는다.
+조현정동장애는 기분 삽화가 전체 질병 경과의 대부분을 차지하면서, 기분 삽화 없이도 망상이나 환각이 적어도 2주 지속된 시기가 있어야 한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000655
+- https://pubmed.ncbi.nlm.nih.gov/23707642/
 
 ## 검수 근거
 

@@ -15,7 +15,7 @@ related_diseases:
   - "bronchial artery damage"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-q4sOq0gOyngCDtmZXsnqXspp0gKEJyb25jaGllY3Rhc2lzKS5tZA
-question_type: prognosis
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-47세 남자가 7주 동안 지속된 기침, 호흡곤란, 매일 많은 양의 가래로 내원했다. 지난 몇 년간 호흡기 감염이 잦았다. 담배는 피우지 않고 덱스트로메토르판과 구아이페네신을 필요할 때 복용한다. 체온 37.1°C(98.8°F), 맥박 88회/분, 호흡수 21회/분, 혈압 133/84 mm Hg, 산소포화도 95%이다. 양측 폐야에서 수포음과 천명음이 들리고 흉부 CT가 제시되어 있다. 이 환자에게 가장 위험한 합병증은?
+47세 남성이 기관지확장증으로 추적 중이다. 이번에 생명을 위협할 정도의 객혈로 입원해 기도와 순환을 안정시켰다. 조영증강 CT에서 출혈과 연관된 확장된 기관지동맥이 확인됐지만 객혈이 지속된다. 출혈원 조절을 위한 다음 처치는?
 
 ## 선택지
 
-A. 기관지 혈관 손상
-B. Rhizopus 감염
-C. 폐수포 파열
-D. 흉막세포의 종양성 증식
+A. 기관지동맥 색전술
+B. 폐활량검사
+C. 전신 항응고제 투여
+D. 기침 억제제만 주고 기다린다
 
 ## 해설
 
-반복되는 호흡기 감염과 많은 양의 가래는 기관지확장증을 시사한다. 만성 염증으로 기관지동맥이 비대하고 취약해지면 손상되어 대량 객혈을 일으킬 수 있으므로 A가 적합하다. 이는 폐포나 폐수포 파열이 주된 기전이라는 뜻은 아니다. 누락된 CT의 모양을 임의로 판독하지 않았다.
+기관지확장증은 비대해진 기관지동맥에서 심한 출혈이 날 수 있다. 초기 기도·순환을 안정시키고 원인 혈관을 찾은 뒤 기관지동맥 색전술로 지혈을 시도한다. 기도 폐쇄가 진행 중이면 기도 확보가 먼저다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 흉막세포의 종양성 증식
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008142
+- https://doi.org/10.3348/kjr.2018.19.5.866
+- https://publications.ersnet.org/lookup/doi/10.1183/13993003.01126-2025

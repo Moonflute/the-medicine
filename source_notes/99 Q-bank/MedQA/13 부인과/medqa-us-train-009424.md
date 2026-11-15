@@ -13,14 +13,14 @@ related_diseases:
   - "cervical cancer"
   - "자궁경부암"
   - "HPV infection"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
   - MTMg67aA7J246rO8L-u-sOyhsSDsvZjrlJzroZzrp4ggKENvbmR5bG9tYSBBY3VtaW5hdHVtKS5tZA
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-41세 여성이 4개월 동안 지속된 경미한 혈성 질분비물로 내원했다. 성교 후 출혈이 증가하고 최근 몇 주 동안 불쾌한 냄새도 나기 시작했다. 월경 주기는 28일로 규칙적이며 지난 15년간 남편만 성 파트너였다. 4년 전 레보노르게스트렐 방출 자궁내장치를 삽입했지만 이후 산부인과 검진은 받지 않았다. 기계 조작원으로 일하고 그레이브스병으로 방사성요오드 절제술을 받은 병력이 있다. BMI 22 kg/m²이다. 부인과 진찰에서 외음부와 질 병변은 없지만 자궁경부가 변형되어 있고 후순에서 괴사된 4 cm 외장성 종괴가 자란다. 자궁은 커지지 않았고 부속기 종괴는 만져지지 않는다. 상태의 가장 가능성 높은 원인은 무엇인가?
+41세 여성의 자궁경부 편평세포암이 MRI에서 자궁주위조직으로 침범했다. 골반벽 침범과 원격전이는 없다. 근치적 표준 치료 조합은?
 
 ## 선택지
 
-A. 고에스트로겐혈증
-B. 자궁내장치 합병증
-C. 인유두종바이러스 감염
-D. 방사성요오드 노출
+A. 원추절제술 단독
+B. 동시 항암방사선치료와 근접방사선치료
+C. 단순 자궁절제술 단독
+D. 선행 화학요법만 하고 국소 치료는 생략
 
 ## 해설
 
 
-자궁경부에 4 cm 크기의 외부 종괴가 존재하고, 고위험 HPV 감염이 자궁경부암의 주요 원인이다. IUD 삽입 후 장기간 검진을 받지 않은 경우에도 HPV 감염이 진행될 수 있다. 따라서 가장 가능성 높은 원인은 인유두종바이러스(HPV) 감염이다.
+자궁주위조직을 침범한 국소진행 자궁경부암은 시스플라틴 기반 동시 항암방사선치료와 근접방사선치료를 일반적으로 사용한다. 국한된 저위험 미세침윤암의 수술과 구분한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009424
+- https://www.ejgo.org/DOIx.php?id=10.3802%2Fjgo.2024.35.e44

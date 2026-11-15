@@ -17,9 +17,9 @@ related_diseases:
 question_type: prevention
 related_disease_slugs: []
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,19 +32,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-23세 남성이 서핑 다음 날 목과 등에 갑자기 생긴 물집성 붉은 발진으로 내원했다. 방수 SPF 30 자외선차단제를 바르고 5시간 해변에 있었으며 목과 등 상부에 투명한 액체가 찬 수포가 있었다. 향후 재발을 예방하기 위한 가장 적절한 권고는?
+서핑을 한 23세 남성이 물에 들어가기 전 자외선차단제를 한 번만 발랐다가 물집이 생기는 일광화상을 입었다. 다음에 같은 활동을 할 때 올바른 자외선차단제 사용법은?
 
 ## 선택지
 
-A. 물에 노출된 후 자외선차단제를 다시 바른다
-B. SPF 50 자외선차단제를 사용한다
-C. 자외선차단제를 최소 3온스 바른다
-D. 방수 자외선차단제를 사용한다
+A. 물에 강한 제품을 쓰면 하루 한 번으로 충분하다
+B. SPF가 높으면 수건으로 닦은 뒤 다시 바르지 않아도 된다
+C. 자외선차단제는 화상을 입은 뒤 바르는 편이 효과적이다
+D. 물놀이하거나 수건으로 닦은 뒤 다시 바르고 노출 중 주기적으로 덧바른다
 
 ## 해설
 
 
-방수 자외선 차단제는 물에 씻겨 나가 효과가 감소한다. 물에 노출된 후 재도포하면 지속적인 보호가 가능하다. 따라서 정답은 물에 노출된 후 자외선 차단제를 다시 바르는 것이다.
+내수성 제품도 물놀이와 수건 사용으로 유실된다. 충분히 바르고 물놀이 뒤와 지속 노출 중 다시 바르며 모자나 옷 등 물리적 차단을 병행한다.
 
 ## 출처
 

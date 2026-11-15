@@ -18,7 +18,7 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,19 +33,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 여성이 5일 동안 지속된 오른쪽 다리 통증과 부종으로 내원했다. 15년 동안 고혈압이 있었고 최근 폐렴으로 입원했다. 집에서 회복하다 움직이고 걷기 시작하자 오른쪽 다리가 아프고 부었다. 체온은 37.1°C (98.7°F), 혈압은 130/80 mm Hg, 맥박은 75회/분이다. 오른쪽 종아리는 경골조면에서 10 cm 아래 측정 시 왼쪽보다 둘레가 4 cm 크다. 오른발의 표재정맥이 확장되어 있고 오른쪽 다리가 약간 더 붉다. 무릎 뒤 오금에 압통이 있다. 다음 중 이 상태의 초기 관리로 가장 적절한 것은 무엇인가?
+67세 여성이 폐렴으로 입원해 4일 동안 침상 안정을 한 뒤 오른쪽 종아리 통증과 부종이 생겼다. 오른쪽 종아리 둘레가 왼쪽보다 4 cm 크고 오금의 깊은 정맥을 따라 압통이 있다. 더 가능성 높은 다른 진단은 없다. 다음 검사는?
 
 ## 선택지
 
-A. 웰스 임상 확률 도구
-B. 조영 CT
-C. 국제표준화비(INR)
-D. 활성화 부분트롬보플라스틴시간(aPTT)
+A. 하지 정맥 압박 초음파
+B. D-dimer 단독 검사
+C. 발목–상완지수
+D. 조영증강 흉부 CT
 
 ## 해설
 
 
-다리 부종과 통증, 정맥 확장은 심부정맥 혈전증을 시사한다. Wells 점수는 임상적으로 DVT 위험을 평가하는 표준 도구이며, 초기 평가에 가장 적절하다. 따라서 Wells 임상 확률 도구를 사용한다.
+최근 침상 안정, 반대쪽보다 3 cm 이상 큰 종아리, 심부정맥을 따른 압통으로 심부정맥혈전증의 검사 전 확률이 높다. 압박 초음파를 우선 시행하며, 가능성이 높은 상황에서 D-dimer 하나로 배제하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 활성화 부분트롬보플라스틴시간(aPTT)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001514
+- https://doi.org/10.3348/jksr.2016.75.4.233
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6258916/

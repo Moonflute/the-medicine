@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7YyU66GcIOyCrOynlSAoVGV0cmFsb2d5IG9mIEZhbGxvdCkubWQ
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,7 +39,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-18개월 남아가 의식을 잃은 후 응급실에 왔다. 어머니에 따르면 공원에서 다른 아이들과 뛰다가 갑자기 넘어져 1분도 안 되어 반응이 없어졌다. 종교적 신념 때문에 예방접종을 받지 않았다. 부모는 다른 아이들과 놀지만 쉽게 지치고 수유에도 어려움이 있었다고 한다. 맥박 120회/분, 산소포화도 91%이다. 키는 40백분위수, 체중은 50백분위수이다. 울고 있으며 입 주위 청색증이 있다. 폐음은 깨끗하고 S1은 정상이며 S2는 단일이다. 왼쪽 상부 흉골 경계에서 2/6등급 수축기 박출 잡음이 들린다. 쪼그려 앉히면 잡음이 커지고 청색증이 호전된다. 다음 중 가장 적절한 치료의 다음 단계는?
+18개월 남아가 의식을 잃은 후 응급실에 왔다. 어머니에 따르면 공원에서 다른 아이들과 뛰다가 갑자기 넘어져 1분도 안 되어 반응이 없어졌다. 종교적 신념 때문에 예방접종을 받지 않았다. 부모는 다른 아이들과 놀지만 쉽게 지치고 수유에도 어려움이 있었다고 한다. 맥박 120회/분, 산소포화도 91%이다. 키는 40백분위수, 체중은 50백분위수이다. 울고 있으며 입 주위 청색증이 있다. 폐음은 깨끗하고 S1은 정상이며 S2는 단일이다. 왼쪽 상부 흉골 경계에서 2/6등급 수축기 박출 잡음이 들린다. 쪼그려 앉히면 잡음이 커지고 청색증이 호전된다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

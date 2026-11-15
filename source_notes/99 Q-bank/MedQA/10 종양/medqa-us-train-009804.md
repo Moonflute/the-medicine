@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug6rK966qo7IS47Y-s7KKFIChOZXVyb2JsYXN0b21hKS5tZA
   - MDIg7Zi47Z2h6riwL-yiheqyqeuPmSDsooXqtLQgKE1lZGlhc3RpbmFsIE1hc3MpLm1k
-question_type: investigation
+question_type: monitoring
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-2세 남아가 지난 2일 동안 점점 심해지는 호흡곤란과 가래 기침으로 내원했다. 지난 6개월 동안 항생제 치료가 필요한 폐렴이 반복되었고, 그동안 체중이 늘지 않았다. 체온 38.5°C, 맥박 분당 130회, 호흡수 분당 18회, 혈압 100/60 mmHg이다. 폐 청진에서 우측 폐야의 호흡음이 감소되어 있다. 안과 진찰에서 양측 눈의 안와주위 피하출혈과 안구 돌출이 보인다. 백혈구 수는 16,000/mm³이다. 흉부 X선에서 우측 음영과 우측 폐 허탈이 보인다. 흉부 MRI에서 심장과 대혈관을 좌측으로 압박하는 후종격동의 불균질 종괴가 보인다. 추가 평가에서 다음 중 어떤 소견이 나타날 가능성이 가장 높은가?
+조직검사로 확인된 신경모세포종의 병기와 위험군을 평가 중이다. 종양에서 MYCN 증폭이 확인됐다. 이 결과를 어떻게 해석하는가?
 
 ## 선택지
 
-A. N-myc 종양유전자의 과발현
-B. 골수 내 림프모구 수 증가
-C. 종격동의 조절되지 않는 B세포 증식
-D. 객담 현미경검사에서 항산균 관찰
+A. 양성이면 신경모세포종의 원격전이를 확진한다
+B. 질환 위험도와 무관해 치료 계획에는 쓰지 않는다
+C. 불량한 예후와 관련해 위험군 분류에 반영한다
+D. 치료 반응이 좋음을 뜻하므로 추적은 하지 않는다
 
 ## 해설
 
 
-소아의 후종격동 종괴와 안와 전이 의심 소견은 교감신경계 유래 신경모세포종을 시사한다. 선택지 A의 N-myc(MYCN) 과발현/증폭은 이 종양의 중요한 분자 연관이며 증폭은 불량 예후와 관련된다. 모든 신경모세포종이 MYCN 증폭을 보이는 것은 아니고 비증폭만으로 진단을 배제하지 않는다. 림프모구·B세포 림프종이나 결핵균은 이 임상 조합 및 분자적 연관과 맞지 않는다.
+MYCN 증폭은 신경모세포종의 불량 예후 인자다. 병기, 나이와 다른 종양 특성을 함께 평가하며 증폭만으로 전이를 확진하지는 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 객담 현미경검사에서 항산균 관찰
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009804
+- https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma-treatment-pdq

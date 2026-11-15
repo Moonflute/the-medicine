@@ -17,9 +17,9 @@ question_type: prevention
 related_disease_slugs:
   - MTIg7IKw6rO8L-ycteuqqCDslpHrp4nsl7wgKENob3Jpb2Ftbmlvbml0aXMpLm1k
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-3일 된 2,800 g 신생아가 발열, 구토, 떨림, 청색증 발작, 경련으로 중환자실에 있다. 임신 36주에 산모의 발열과 융모양막염이 동반된 질식분만으로 태어났고, 출생 직후 경련과 고열, 수유곤란, 근긴장저하가 있었으며 호흡곤란으로 삽관되었다. 체온 39°C, 맥박 180회/분, 호흡수 60회/분이고 간이 오른쪽 늑골연 아래 3 cm 만져진다. 흉부·복부·골반 CT에서 다발성 폐와 간 육아종이 보인다. 이 합병증을 예방했을 가능성이 가장 높은 것은?
+산모의 발열과 조기분만 뒤 신생아가 조기 패혈증을 보였고 혈액검사에서 리스테리아 감염이 확인됐다. 같은 감염의 위험을 줄이기 위한 임신 중 식품 안내는?
 
 ## 선택지
 
-A. 비살균 유제품 피하기
-B. 임신 전 홍역·유행성이하선염·풍진 백신 접종
-C. 예방적 페니실린
-D. 제왕절개 분만
+A. 산전 풍진 백신으로 리스테리아 감염도 예방
+B. 임신 동안 예방 항생제를 계속 복용
+C. 비살균 우유와 이를 사용한 치즈를 피하고 안전하게 조리한 식품을 선택
+D. 리스테리아 예방을 위해 모든 유제품을 끊음
 
 ## 해설
 
 
-신생아 리스테리아 감염은 산모의 양수 감염(융모양막염)으로 전파되며, 출생 전 비살균 유제품 섭취를 피하면 예방할 수 있다.
+리스테리아증은 오염 식품을 통해 임신부가 감염되고 태아에 전파될 수 있다. 비살균 유제품을 피하고 충분히 가열하며 안전하게 보관하면 위험을 줄인다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000446
+- https://www.cdc.gov/listeria/prevention/

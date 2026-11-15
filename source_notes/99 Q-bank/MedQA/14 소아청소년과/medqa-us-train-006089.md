@@ -13,11 +13,11 @@ related_diseases:
   - "괴사성 장염"
   - "장벽 내 가스"
   - "미숙아 장질환"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOq0tOyCrOyEsSDsnqXsl7wgKE5lb25hdGFsIE5lY3JvdGl6aW5nIEVudGVyb2NvbGl0aXMpLm1k
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-신생아 중환자실의 생후 3주 신생아가 담즙성 구토를 한다. 임신 31주에 산모 전자간증으로 제왕절개 출생했고 출생 체중은 1,100g(2.4lb)이다. 출생 2일째 태변을 보았고 젖은 기저귀도 충분했으며 지속적인 비위관 분유 수유 중이다. 체온은 34.4°C(94°F), 혈압은 80/40 mmHg, 맥박은 분당 120회, 호흡수는 분당 62회, 실내 공기 산소포화도는 96%이다. 무기력하고 복부팽만과 기저귀의 선명한 혈액이 있으며 대사성 산증이 있다. 다음 중 가장 가능성 높은 소견은 무엇인가?
+괴사성 장염으로 금식·감압과 정맥 항생제 치료 중인 미숙아에게 순환 불안정이 생겼다. 이전 영상엔 장벽 가스만 있었으나 새 복부 X선에는 복강 내 유리 공기가 명확하다. 다음 조치는?
 
 ## 선택지
 
-A. 바륨 관장에서 미만성 소결장
-B. 복부 X선에서 직장 내 가스 없음
-C. 복부 X선에서 장벽 내 가스
-D. 복부 초음파에서 명치의 올리브 모양 종괴
+A. 장관 수유 재개
+B. 다음 날까지 항생제만 유지
+C. 대변 검사 결과를 기다림
+D. 천공으로 보고 소생과 응급 소아외과 처치를 준비
 
 ## 해설
 
-미숙아의 수유 중 복부 팽만, 담즙성 구토·혈변, 기면·저체온과 대사성 산증은 괴사성 장염을 시사한다. 장벽 내 가스(pneumatosis intestinalis, C)가 특징적 영상 소견이다. 본문 혈압 80/40 mmHg를 근거 없이 저혈압이라고 바꾸거나 장벽 가스의 명칭을 폐쇄성 장관염으로 쓰면 안 된다.
+괴사성 장염에서 새로운 복강 내 유리 공기는 장천공을 강하게 시사한다. 소생 및 항생제를 유지하며 외과팀이 수술 또는 배액 등 감염원 조절을 결정한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 복부 초음파에서 명치의 올리브 모양 종괴
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006089
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12129410/

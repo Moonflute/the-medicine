@@ -15,11 +15,11 @@ related_diseases:
   - "priapism"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
-question_type: diagnosis
+question_type: management
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-14세 소말리아 남아가 3시간 전부터 지속된 통증성 발기로 응급실에 왔다. 가족은 최근 난민캠프에서 미국으로 이주했고 과거력은 모른다. 피로와 잦은 질병, 관절통 에피소드가 있으며 음경은 울혈되고 팽창되어 있다. 흉부 전반에서 박출성 수축기 잡음이 들린다. 가장 가능성 높은 원인은 무엇인가?
+겸상적혈구병이 있는 17세 환자가 5시간 넘게 지속된 심한 통증성 발기로 왔다. 귀두에 비해 음경 해면체가 단단하고 허혈성 지속발기증이 확인됐다. 비뇨의학과와 신속히 할 처치는?
 
 ## 선택지
 
-A. 겸상적혈구병
-B. 헤로인 남용
-C. 비호지킨 림프종
-D. 실데나필 복용
+A. 수액만 주고 다음 날 다시 평가한다
+B. 교환수혈을 마칠 때까지 국소 치료를 미룬다
+C. 해면체 혈액 흡인과 해면체 내 페닐에프린 투여를 시행한다
+D. 통증이 가라앉으면 처치 없이 귀가시킨다
 
 ## 해설
 
 
-통증성 발기는 겸상적혈구병에서 혈관 내 겸상 적혈구가 막힘을 일으켜 발생한다. 헤로인 남용·비호지킨 림프종·실데나필 복용은 다른 메커니즘을 가진다. 따라서 가장 가능성 높은 원인은 겸상적혈구병이다.
+허혈성 지속발기증은 조직 손상을 예방하기 위해 신속히 감압한다. 겸상적혈구병이 있더라도 질환 특이 치료 때문에 흡인과 국소 약물치료를 미루지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 실데나필 복용
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009662
+- https://www.auajournals.org/doi/10.1097/JU.0000000000002236

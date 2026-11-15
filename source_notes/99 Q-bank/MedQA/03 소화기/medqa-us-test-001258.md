@@ -19,7 +19,7 @@ question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-65세 남성이 6개월간 점점 심해지는 피로, 운동 시 호흡곤란과 심계항진, 네 달 동안 세 차례 혈변으로 진료를 받으러 왔다. 제2형 당뇨병과 말기 신장질환이 있고 혈색소 7.2 g/dL, MCV 68 μm³였다. 출혈의 가장 가능성 높은 원인은?
+65세 혈액투석 환자가 반복되는 통증 없는 혈변과 철결핍빈혈로 진료받는다. 대장내시경에서 맹장 점막에 납작하고 선홍색인 병변이 있고, 여러 실핏줄이 거미 모양으로 퍼져 있다. 주변 점막에 염증이나 종괴는 없다. 가장 가능성 높은 출혈 원인은?
 
 ## 선택지
 
-A. 대장벽 게실의 염증
-B. 치질 신경총의 증상성 확대
-C. 대장의 만성 점막 및 점막하 염증
-D. 대장벽의 동정맥 기형
+A. 궤양성 대장염
+B. 출혈성 대장게실
+C. 대장선암
+D. 대장 혈관이형성
 
 ## 해설
 
 
-만성 신부전과 철결핍성 빈혈을 동반한 무통성 혈변은 대장벽의 동정맥 기형(AVM)에서 출혈이 가장 흔한 원인이다. AVM은 점막하 혈관이 비정상적으로 확장돼 출혈을 일으키며, 다른 선택지는 출혈 양상과 일치하지 않는다.
+경계가 비교적 뚜렷하고 작은 혈관이 방사상으로 모인 평평한 병변은 혈관이형성을 시사한다. 이 병변에서 간헐적 출혈과 철결핍빈혈이 생길 수 있다. 투석 중이라는 사실만으로 출혈원을 확정하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 대장벽의 동정맥 기형
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001258
+- https://pubmed.ncbi.nlm.nih.gov/36735555/

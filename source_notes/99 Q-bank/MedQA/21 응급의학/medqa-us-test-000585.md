@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-33세 남성이 자동차 충돌 사고 후 응급실에 왔다. 정면 충돌 당시 앞좌석 안전벨트 미착용 운전자였고 글래스고 혼수척도는 5점이어서 기관삽관했다. 쇄골 부위 피하기종이 있었고 바늘 감압과 흉관 삽입을 시행한 뒤 혈액 2단위와 수액 2 L를 투여하여 안정되었다. 흉부 방사선에서 흉관 위치는 적절하고 기흉은 호전되었으나 외상 중환자실에서 반복 촬영한 X선에서 흉관이 있는 상태로 기흉이 재발했다. 가장 가능성 높은 진단은?
+교통사고로 흉부 둔상을 입은 환자에게 흉관을 넣었다. 흉관 위치와 개방성은 정상인데 공기 누출이 계속되고 폐가 충분히 펴지지 않는다. 가장 의심할 손상은?
 
 ## 선택지
 
-A. 부적절한 흉관 위치
-B. 자발성 기흉
-C. 긴장성 기흉
-D. 기관기관지 파열
+A. 폐좌상 단독
+B. 기관 또는 주기관지 파열
+C. 횡격막 파열
+D. 늑골 골절 단독
 
 ## 해설
 
-큰 외상과 피하기종에 적절히 놓인 흉관에도 재발하는 기흉은 지속적인 기관·기관지 공기 누출을 의심하게 한다. 선지 중 기관기관지 파열(D)이 가장 적절하다. 실제로는 흉관의 개방성·연결·위치도 재확인하며 기도 손상 평가가 필요하다.
+충분히 배액해도 공기가 계속 새고 폐가 펴지지 않으면 큰 기도 손상을 의심한다. 호흡·순환을 안정시키고 기관지경 등으로 손상을 평가한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 기관기관지 파열
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000585
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/

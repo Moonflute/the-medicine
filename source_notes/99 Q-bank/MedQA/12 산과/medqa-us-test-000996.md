@@ -13,12 +13,12 @@ related_diseases:
   - "과숙임신"
   - "태변 흡인 증후군"
   - "분만 유도"
-question_type: prognosis
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-qzvOyImeyehOyLoCAoUG9zdC10ZXJtIFByZWduYW5jeSkubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YOc67OAIO2doeyduCDspp3tm4TqtbAgKE1lY29uaXVtIEFzcGlyYXRpb24gU3luZHJvbWUpLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 42주인 36세 여성(임신 3회, 출산 2회)이 분만 유도를 위해 진료를 받으러 왔다. 임신은 합병증 없이 진행되었고 두 아이는 각각 41주와 42주에 정상 질식 분만했다. 키 165 cm, 체중 86 kg, BMI 33 kg/m²였다. 자궁은 압통 없이 부드럽고 42주 크기였다. 이 아기에게 가장 위험한 합병증은?
+임신 초기 초음파로 주수가 확정된 41주 0일 단태임신 산모다. 태아는 두위이고 양수량과 감시 결과는 정상이다. 질식분만에 금기가 없고 진통은 시작하지 않았다. 적절한 계획은?
 
 ## 선택지
 
-A. 양수과다증
-B. 급성 호흡곤란 증후군
-C. 태변 흡인
-D. 태반 조기박리
+A. 37주 이전 분만에 해당하므로 태아 폐성숙제를 준다
+B. 41주에 유도분만을 제안한다
+C. 태아 감시 없이 42주 이후까지 기다린다
+D. 41주가 됐으므로 일률적으로 제왕절개를 시행한다
 
 ## 해설
 
-42주 이상의 과숙임신에서는 태반 기능 저하와 태변 배출·흡인 위험이 증가한다. 태변흡인(C)은 기도 폐쇄, 화학성 폐렴 및 계면활성제 기능 저하로 신생아 호흡곤란을 유발할 수 있다. 흉막염이 주된 기전인 것은 아니다.
+임신 주수가 확실한 합병증 없는 임신에서도 41주가 되면 임신을 더 지속하는 위험을 설명하고 유도분만을 제안한다. 41주라는 이유만으로 제왕절개를 시행하지는 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 태반 조기박리
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000996
+- https://www.who.int/publications/i/item/9789240052796

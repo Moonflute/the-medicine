@@ -13,13 +13,13 @@ related_diseases:
   - "Friedreich ataxia"
   - "cardiomyopathy"
   - "aspiration pneumonia"
-question_type: prognosis
+question_type: investigation
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-14세 여아가 2년간 잦은 낙상으로 추적진료를 받으러 왔다. 최근 6개월간 도움 없이 걷거나 설 수 없어 휠체어를 사용한다. 어머니가 52세에 전정신경초종 진단을 받았다. 말이 느리고 불명확하며 양안 안진, 넓은 보폭의 불규칙한 보행, 고유수용감각과 진동감각 소실, 하지 근력저하, 양측 1+ 심부건반사가 있다. 후만척추와 발 내번 및 망치발가락도 보인다. 다음 중 이 환자가 가장 가능성 높게 사망하는 합병증은 무엇인가?
+프리드라이히 운동실조로 진단된 14세 환자에게 흉통이나 숨참은 없다. 무증상일 때도 중요한 합병증을 놓치지 않으려면 어떤 검사를 추적해야 하는가?
 
 ## 선택지
 
-A. 후두개와 종양
-B. 심부전
-C. 백혈병
-D. 흡인성 폐렴
+A. 반복 뇌파검사
+B. 주기적 요추천자
+C. 청력검사만 추적
+D. 심전도와 심장초음파
 
 ## 해설
 
 
-프리드리히 운동실조는 진행성 심근병증을 일으키며, 사망 원인으로 가장 흔한 것은 심부전이다. 따라서 가장 가능성 높은 사망 합병증은 심부전이다. 다른 선택지는 이 질환과 연관성이 낮다.
+프리드라이히 운동실조에서는 증상이 없을 때도 심근병증과 부정맥을 평가한다. 진단 때 심전도와 심장초음파를 시행하고 정기적으로 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001962
+- https://www.ncbi.nlm.nih.gov/books/NBK1281/table/friedreich.T.friedreich_ataxia_recommend_1/

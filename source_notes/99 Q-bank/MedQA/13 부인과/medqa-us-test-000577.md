@@ -13,11 +13,11 @@ related_diseases:
   - "난소낭종 파열"
   - "복강내 출혈"
   - "급성 골반통"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-uCnOyGjCDrgq3sooUg7YyM7Je0IChSdXB0dXJlZCBPdmFyaWFuIEN5c3QpLm1k
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 여성이 급성 복통으로 친구와 함께 응급실에 왔다. 킥복싱 수업 중 갑자기 왼쪽 복통이 시작되었다. 클라미디아 병력이 있으며 현재 성생활을 하지만 피임은 하지 않는다. 월경은 30일마다 규칙적이고 마지막 월경은 2일 전 끝났다. 체온 99°F(37.2°C), 혈압 110/68 mmHg, 맥박 88회/분, 호흡 14회/분, 산소포화도 98%였다. 왼쪽 하복부 압통과 방어성 긴장이 있었고 골반 진찰에서 질 입구에 맑은 점액과 왼쪽 부속기 압통이 보였다. 도플러 골반 초음파에서 직장자궁오목에 다량의 액체가 있었다. 가장 가능성 높은 진단은?
+32세 여성이 갑작스러운 골반통으로 내원했다. 혈청 임신반응은 음성이다. 초음파에서 파열된 출혈성 난소낭종과 소량의 골반 내 혈액이 보인다. 반복 혈압·혈색소는 안정적이고 통증은 줄고 있다. 적절한 처치는?
 
 ## 선택지
 
-A. 자궁외임신
-B. 난소 염전
-C. 골반염증성 질환
-D. 난소낭종 파열
+A. 진통을 제공하고 출혈과 통증을 관찰하며 악화 시 재평가한다
+B. 혈청 임신반응이 음성이어도 메토트렉세이트를 준다
+C. 골반 내 혈액이 보이는 즉시 난소를 절제한다
+D. 통증이 줄어도 모든 경우에 대량수혈한다
 
 ## 해설
 
-운동 중 갑자기 발생한 편측 골반통과 직장자궁오목의 액체는 난소낭종 파열(D)에 부합한다. 다만 클라미디아 병력은 낭종 파열의 근거가 아니라 난관 손상과 자궁외임신 위험의 단서이다. 피임 없이 성생활 중이므로 임신 여부를 확인해야 하며 복강 내 액체만으로 파열 낭종을 확진하거나 자궁외임신을 배제할 수 없다.
+안정적이고 출혈이 진행하지 않는 출혈성 낭종 파열은 보존치료가 가능하다. 통증 악화, 혈색소 감소나 혈압 저하가 생기면 활동성 출혈과 수술 필요성을 다시 평가한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 난소낭종 파열
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000577
+- https://pubmed.ncbi.nlm.nih.gov/24608424/

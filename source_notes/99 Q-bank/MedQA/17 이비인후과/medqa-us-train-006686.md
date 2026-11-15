@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 여성이 합병증 없이 편도절제술을 받은 지 2일 후 오른쪽 턱과 목 주변이 붓고 턱을 움직이거나 씹을 때 통증이 있어 내과에 내원했다. 출생 후 정기적인 건강관리를 모두 받았고 활력징후는 체온 38.4°C 외에는 안정적이다. 오른쪽 부위에 심한 압통이 있고 나머지 진찰은 정상이다. 다음 중 가장 가능성 높은 진단은?
+수술 뒤 물을 충분히 마시지 못한 환자에게 고열과 한쪽 귀밑의 통증성 부종이 생겼다. 해당 이하선을 부드럽게 누르자 윗어금니 맞은편 관 입구에서 고름이 나왔다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
 A. 유행성이하선염
 B. 쇼그렌증후군
-C. 급성 세균성 이하선염
-D. 상대정맥증후군
+C. 편도주위농양
+D. 급성 화농성 이하선염
 
 ## 해설
 
-수술 직후의 급성 편측 턱 주변 부종, 심한 압통, 발열은 선택지 중 C, 급성 세균성 이하선염에 가장 부합한다. 수술 후 수분 섭취 감소와 침 분비 정체가 세균의 역행성 감염을 촉진할 수 있다. 유행성이하선염·쇼그렌증후군·상대정맥증후군보다 급성 국소 세균감염의 양상에 가깝다. 사진을 임의로 복원하거나 실제로 관찰하지 않은 이하선관 농을 추가하지 않았다.
+한쪽 이하선의 급성 발열·압통과 관 입구의 고름은 화농성 이하선염의 단서다. 수술 뒤 탈수와 침의 정체가 위험을 높일 수 있다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 상대정맥증후군
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006686
+- https://www.ncbi.nlm.nih.gov/books/NBK560735/

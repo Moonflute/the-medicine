@@ -19,7 +19,7 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-전이성 난소암이 있는 72세 여성이 심한 통증으로 계속 울어 아들이 데리고 내원했다. 통증은 10점 만점에 8~9점이다. 여러 항암요법을 2년간 시행했으나 반응이 없어 일주일 전 완화의료로 전환하기로 결정했고 현재 호스피스 치료 중이다. 모르핀 2mg을 2시간마다 정맥 투여하고 아세트아미노펜 650mg을 4~6시간마다 복용한다. 아들은 모르핀 용량을 늘리면 호흡이 위험해진다는 글을 읽어 걱정한다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+호스피스에서 전이성 난소암 환자가 정기 모르핀을 투여받는데도 통증이 하루 종일 8/10이다. 의식은 명료하고 과도한 졸림이나 호흡저하는 없다. 다음 진통 계획은?
 
 ## 선택지
 
-A. 모르핀 용량 증가
-B. 완화 방사선치료 시작
-C. 모르핀을 비마약성 진통제로 변경
-D. 환자와 상담하고 같은 오피오이드 용량을 유지
+A. 기본 용량과 추가 진통제 사용량을 평가해 오피오이드를 적정한다
+B. 호흡억제를 우려해 용량을 늘리지 않고 일주일 관찰한다
+C. 정기 투여를 끊고 통증이 심해질 때만 투여한다
+D. 오피오이드를 끊고 아세트아미노펜 단독으로 바꾼다
 
 ## 해설
 
 
-완화 치료 중인 말기 암 환자에게는 통증 조절이 최우선이며, 현재 진통제 용량이 충분치 않다. 호흡 억제 위험은 용량을 서서히 증가시키며 모니터링하면 관리 가능하다.
+지속 통증이 조절되지 않으면 이전 투여량과 추가 진통제 요구량을 확인해 기본 치료를 조정한다. 반응과 진정·호흡 상태를 재평가하고, 새로 악화된 통증의 다른 원인도 살핀다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 환자와 상담하고 같은 오피오이드 용량을 유지
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008949
+- https://pubmed.ncbi.nlm.nih.gov/36469839/

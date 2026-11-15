@@ -14,11 +14,11 @@ related_diseases:
   - "눈꺼풀 위생"
   - "마이봄샘 기능장애"
   - "Blepharitis"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs:
   - MTgg7JWI6rO8L-uIiOq6vO2SgO2FjOyXvCAobWFyZ2luYWwgYmxlcGhhcml0aXMpLm1k
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-19세 여자가 3개월 동안 아침에 일어날 때 흐린 시야로 내원했다. 아침에 눈을 뜨면 양쪽 눈꺼풀이 자극되고 아프며 마른 딱지로 덮여 있다. 뜨거운 샤워 후 증상이 호전된다. 건강하고 약물이나 콘택트렌즈 사용은 없다. 최근 새로운 남성 파트너와 성생활을 시작했다. 체온 37.4°C, 맥박 88회/분이다. 양쪽 눈의 위쪽 눈꺼풀 가장자리에 홍반과 자극이 있고 속눈썹 기저부에 각질이 있지만 분비물은 없다. 시력은 양쪽 20/20이다. 가장 적절한 다음 관리는 무엇인가?
+19세 환자가 아침마다 속눈썹 뿌리에 딱지가 생기고 눈꺼풀 가장자리가 따갑다고 한다. 양쪽 눈꺼풀 테가 붉지만 시력은 정상이고 화농성 분비물은 없다. 초기 관리는?
 
 ## 선택지
 
-A. 경구 독시사이클린
-B. 국소 사이클로스포린
-C. 국소 무피로신
-D. 눈꺼풀 위생과 온찜질
+A. 경구 항생제를 장기 사용한다
+B. 항진균 점안제를 시작한다
+C. 온찜질하고 눈꺼풀 가장자리를 부드럽게 세정한다
+D. 스테로이드 점안제를 계속 사용한다
 
 ## 해설
 
-정답은 D, 눈꺼풀 위생과 온찜질이다. 아침에 심한 눈꺼풀 자극과 딱지, 속눈썹 기저부 각질 및 눈꺼풀 가장자리 홍반은 안검염을 시사한다. 온찜질로 분비물과 딱지를 부드럽게 하고 눈꺼풀 가장자리를 부드럽게 세정하는 것이 초기 관리이다. 화농성 분비물이나 시력저하가 없으므로 제시된 전신 항생제·면역조절제·무피로신을 우선할 근거가 없다.
+속눈썹 기저 각질과 양쪽 눈꺼풀 가장자리 염증은 안검염을 시사한다. 온찜질과 눈꺼풀 위생이 기본이다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 눈꺼풀 위생과 온찜질
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004217
+- https://www.aaojournal.org/article/S0161-6420%2824%2900008-3/fulltext

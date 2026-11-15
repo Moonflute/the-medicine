@@ -15,7 +15,7 @@ related_diseases:
   - "penicillin prophylaxis"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
-question_type: management
+question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-3세 남아가 복통으로 어머니와 함께 응급실에 왔다. 먹기를 거부하고 배를 움켜쥐며 “아파”라고 한다. 구토나 설사는 없고 3일 동안 배변하지 못했다. 가족은 최근 나미비아에서 이주했으며 아직 진료기관을 정하지 못했다. 알려진 질환이나 복용 약물은 없다. 어머니는 가족 중 ‘혈액 질환’이 있다고 한다. 복부 진찰에서 장기비대 없이 양쪽 하복부에 경미한 팽만과 압통이 있다. 초음파에서 담낭벽 비후나 담관 확장 없이 담석 2개가 보이고 머피 징후는 음성이다. 복부 X선에서 대장과 직장에 중등도 대변이 보인다. 혈색소 9 g/dL, 혈소판 300,000/mm³, MCV 85 µm³, 망상적혈구 5%, LDH 532 U/L, 백혈구 11/mm³, 혈청 철 140 mcg/dL, 트랜스페린 포화도 31%, TIBC 400 mcg/dL이다. 헤모글로빈 전기영동에서 Hb S와 증가된 Hb F가 보이고 Hb A는 없다. 섬유질 증가와 하이드록시우레아 시작을 권고했다. 이 상태의 관리에 추가해야 할 것은 무엇인가?
+HbSS 겸상적혈구병이 확인된 3세 아이가 외래에 왔다. 현재 열은 없고 예정된 예방접종은 받고 있으며 페니실린 알레르기는 없다. 침습성 폐렴구균 감염을 줄이기 위해 추가할 예방은?
 
 ## 선택지
 
-A. 철분 보충
-B. 5세까지 페니실린
-C. 우르소데옥시콜산
-D. 파르보바이러스 백신
+A. 발열이 생길 때만 페니실린을 복용하게 한다
+B. 접종과 별도로 경구 페니실린 예방요법을 유지한다
+C. 예방 항생제를 쓰는 동안 폐렴구균 접종은 중단한다
+D. 하이드록시우레아로 예방 항생제를 대체한다
 
 ## 해설
 
 
-어린 SCD 환자는 기능적 무비장에 따른 폐렴구균 감염 예방을 위해 penicillin(B)을 투여한다. 5세 이후 중단 여부는 접종 완료와 침습성 폐렴구균 감염·비장절제 등 위험인자를 확인해 결정한다. 원문의 백혈구 11/mm³는 단위 또는 자릿수 오류 가능성이 있으나 11,000으로 임의 확정하지 않는다. 예방접종과 발열 시 즉시 평가도 중요하다.
+어린 겸상적혈구병 환자는 예방접종에 더해 페니실린 예방요법을 시행한다. 일반적으로 5세까지 사용하고 이전 비장절제나 침습감염 등 위험인자를 확인하여 이후 계획을 정한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 파르보바이러스 백신
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009273
+- https://publications.aap.org/pediatrics/article/154/2/e2024066842/197803/Health-Supervision-for-Children-and-Adolescents

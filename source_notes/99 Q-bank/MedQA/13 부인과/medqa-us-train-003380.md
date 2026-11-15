@@ -15,12 +15,12 @@ related_diseases:
   - "elevated bile acids"
   - "direct hyperbilirubinemia"
   - "Intrahepatic cholestasis of pregnancy"
-question_type: diagnosis
+question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 34주인 25세 초임부가 8일간 지속된 전신 가려움증으로 내원했다. 발진은 없었다. 진찰에서 창백함과 경한 공막 황달이 보였다. 혈압은 110/80 mmHg였고 자궁은 34주 크기로 부드럽고 압통이 없었다. 검사에서 혈색소 11 g/dL, 혈소판 25만/mm3, 총 빌리루빈 4 mg/dL, 직접 빌리루빈 3.2 mg/dL, 담즙산 15 μmol/L, AST 45 U/L, ALT 50 U/L였다. 말초혈액도말과 복부 초음파는 정상이었다. 다음 중 가장 가능성 높은 진단은?
+임신 35주 산모가 발진 없는 심한 가려움으로 치료 중이다. 혈청 총 담즙산은 112 μmol/L이고 다른 간질환과 담도 폐쇄는 배제했다. 태아 감시는 현재 정상이다. 분만 계획은?
 
 ## 선택지
 
-A. 임신성 담즙정체
-B. A형 바이러스성 간염
-C. 길버트 증후군
-D. HELLP 증후군
+A. 태아 감시가 정상이므로 40주까지 분만을 미룬다
+B. 입원이나 재평가 없이 피부약만 사용하고 출산 때까지 관찰
+C. 담즙산이 낮아질 때까지 자연 진통만 기다린다
+D. 높아진 사산 위험을 설명하고 산과 전문팀에서 35–36주 무렵 분만을 계획한다
 
 ## 해설
 
 
-임신 34주에 전신 가려움증이 8일 지속되고, 직접 빌리루빈이 상승하며 혈청 담즙산이 15 µmol/L(정상 상한선 초과)인 경우, 임신성 담즙정체가 가장 흔한 원인이다. 이는 태아 위험을 높이므로 진단이 확정되면 관리가 필요하다.
+총 담즙산이 100 μmol/L 이상이면 사산 위험이 크게 높아져 정상 태아 감시만으로 만기까지 미루지 않는다. 조기 분만 시기와 산전 스테로이드 필요성은 전문팀에서 정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003380
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12177296/
+- https://publications.smfm.org/publications/374-society-for-maternal-fetal-medicine-consult-series-53/

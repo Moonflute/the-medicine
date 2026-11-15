@@ -19,7 +19,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 question_type: diagnosis
 difficulty: simple
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-3세 아프리카계 미국인 남아가 갑자기 시작된 심한 복통으로 내원했다. 왼쪽 상복부에서 만져지는 종괴가 있고 혈색소는 7.2 g/dL이다. 혈청 합토글로빈은 정상이고 비포합 빌리루빈과 교정 망상적혈구 수가 증가되어 있다. 다음 중 이 소견에 대한 가장 가능성 높은 설명은?
+겸상적혈구병이 있는 3세 아이가 갑자기 창백해지고 왼쪽 윗배가 불러왔다. 비장이 평소보다 커졌고 혈색소는 9에서 5g/dL로 떨어졌으며 망상적혈구가 증가했다. 빈맥과 말초 관류 저하가 있다. 가장 가능성 높은 합병증은?
 
 ## 선택지
 
-A. 재생불량 위기
-B. 신장 경색
-C. 혈관내 용혈
-D. 혈관외 용혈
+A. 급성 비장 격리 위기
+B. 파르보바이러스에 의한 무형성 위기
+C. 급성 흉부증후군
+D. 철결핍성 빈혈
 
 ## 해설
 
 
-정상 haptoglobin, 간접 bilirubin 상승, 망상적혈구 증가와 비장비대는 보기 중 혈관외 용혈 D를 가장 잘 지지한다. 비장 대식세포가 적혈구를 제거할 때 bilirubin이 증가한다. 급격한 통증성 비장비대와 빈혈에서는 비장 격리도 고려하지만 이 자료만으로 겸상적혈구병이 확진되는 것은 아니다. 재생불량 위기라면 망상적혈구 감소가 예상된다.
+갑자기 커진 비장에 적혈구가 격리되면 빈혈과 저혈량이 빠르게 진행한다. 망상적혈구가 증가한 점은 생성이 떨어지는 무형성 위기와 다르며 신속한 소생과 수혈 평가가 필요하다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 혈관외 용혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002413
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12123041/

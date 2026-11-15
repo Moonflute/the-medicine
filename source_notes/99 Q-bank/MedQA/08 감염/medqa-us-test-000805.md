@@ -17,9 +17,9 @@ related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-uztO2ItOumrOuIlCDspJHrj4UgKEJvdHVsaXNtKS5tZA
 question_type: management
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-45세 남성이 쇠약으로 응급실에 왔다. 어제 시작되어 점점 악화되었고 처음에는 흐린 시야와 말하기·삼키기 어려움이 감기 때문이라고 생각했다. 이후 안면근육 쇠약과 호흡곤란이 생겼다. 농부로 일하며 직접 재배한 음식을 수확하고 통조림으로 만든다. 최근 설사와 함께 쇠약 증상 전 기침이 있었다. 체온 97.9°F(36.6°C), 혈압 144/94 mmHg, 맥박 87회/분, 호흡 18회/분, 산소포화도 94%였다. 미소를 짓기 어렵고 구음장애가 있으며 얕고 약한 호흡을 했다. 상지 근력 3/5와 반사 감소가 있었고 이후 기관삽관을 했다. 가장 적절한 치료는?
+성인 환자에게 복시와 연하곤란이 시작된 뒤 대칭적으로 근력저하가 내려오고 호흡이 약해졌다. 보툴리눔독소증을 강하게 의심해 기도를 확보했다. 검사 결과를 기다리는 동안 가장 중요한 특이 치료는?
 
 ## 선택지
 
-A. 항독소
-B. 네오스티그민
-C. 혈장교환
-D. 릴루졸
+A. 정맥 면역글로불린
+B. 혈장교환
+C. 네오스티그민
+D. 보툴리눔 항독소
 
 ## 해설
 
 
-식품 매개 보툴리눔 중독은 신경근 차단을 일으키며, 항독소(보툴리눔 항혈청)를 조기에 투여하는 것이 치료의 핵심이다. 다른 옵션은 효과가 없거나 보조적이다. 따라서 가장 적절한 치료는 항독소이다.
+보툴리눔독소증이 의심되면 호흡을 지지하고, 담당 공중보건기관과 협의해 확진 결과를 기다리지 않고 항독소를 신속히 투여한다.
 
 ## 검수 근거
 

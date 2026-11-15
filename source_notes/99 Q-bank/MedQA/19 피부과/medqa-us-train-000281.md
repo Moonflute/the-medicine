@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTkg7ZS867aA6rO8L-q4sOyggCDshLjtj6zslZQgKEJhc2FsIENlbGwgQ2FyY2lub21hKS5tZA
   - MDgg6rCQ7Je8L-ynhOq3oC5tZA
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -40,18 +40,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-54세 여성이 1개월 전부터 발생한 오른쪽 다리의 통증성 피부 병변으로 내원하였다. 처음에는 작은 붉은 반점으로 시작되었으나 이 기간 동안 크기가 급격히 커졌다. 환자는 병변이 발생하기 전에 다리에 개미에 물린 기억이 있다고 한다. 8개월 전 전방 포도막염(anterior uveitis)으로 코르티코스테로이드 치료를 받은 적이 있다. 과거력으로 크론병(Crohn's disease), 제2형 당뇨병, 고혈압이 있다. 현재 복용 중인 약물은 인슐린, 메살라민(mesalamine), 에날라프릴(enalapril), 아스피린이다. 2개월 전 아들을 방문하기 위해 위스콘신에 다녀왔다. 체온은 37.6°C, 맥박은 98회/분, 혈압은 126/88 mm Hg이다. 신체 검진상 하지에 함요 부종(pitting pedal edema)이 관찰된다. 오른쪽 앞다리에 중심부 괴사 기저부와 보라색의 불규칙한 경계를 가진 4cm 크기의 압통성 궤양성 병변이 있다. 양쪽 하지에 확장되고 굴곡진 정맥이 관찰된다. 대퇴동맥 및 발등동맥 맥박은 양측 모두 촉지된다. 가장 가능성이 높은 진단은 무엇인가?
+크론병이 있는 54세 여성이 정강이를 가볍게 긁힌 뒤 한 달 사이 궤양이 빠르게 커져 내원했다. 통증이 심하고 가장자리는 보랏빛을 띠며 피부 아래가 파여 있다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 괴저성 농창(Ecthyma gangrenosum)
-B. 괴저성 농피증(Pyoderma gangrenosum)
-C. 분아균증(Blastomycosis)
-D. 기저세포암(Basal cell carcinoma)
+A. 괴저성 농피증
+B. 정맥성 하지궤양
+C. 괴저성 농창
+D. 피부 편평세포암
 
 ## 해설
 
-염증성 장질환 병력에 작은 외상 뒤 빠르게 커진 심한 통증의 궤양과 자색 불규칙 경계가 있어 괴저성 농피증(pyoderma gangrenosum, B)이 가장 적절하다. 외상에 반응해 악화되는 pathergy가 나타날 수 있다. Ecthyma gangrenosum(A)은 감염성 괴사 병변으로 B와 별개 질환이다.
+염증성 장질환 환자에서 사소한 외상 뒤 빠르게 커지는 통증성 궤양과 보라색의 파고든 경계는 괴저성 농피증의 단서다. 감염 여부도 평가하며 불필요한 외상은 병변을 악화시킬 수 있다.
 
 ## 검수 근거
 

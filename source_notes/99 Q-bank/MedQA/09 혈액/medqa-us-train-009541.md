@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-2KueuwnOyEsSDqs6jsiJjshKzsnKDspp0gKFBNRikgKFByaW1hcnkgTXllbG9maWJyb3NpcyAoUE1GKSkubWQ
 question_type: diagnosis
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-67세 남자가 추적 진료를 위해 내원했다. 한 달 전 비장비대가 발견되었고 수개월 동안 야간 발한과 의도하지 않은 5 kg(11 lb) 체중 감소가 있었다. 혈색소 9 g/dL, MCV 95 μm³, 백혈구 12,000/mm³, 혈소판 260,000/mm³이다. 초음파에서 비장 15 cm와 경미한 간비대가 보인다. 말초도말에서 눈물방울 적혈구와 유핵 적혈구, 미성숙 골수계 세포가 보이고 골수 흡인은 매우 어렵지만 세 계열 모두 증식되어 있다. TRAP 음성, 클론성 골수 형질세포는 없고 JAK2 양성, 9번과 22번 염색체 전좌는 음성이다. 가장 가능성 높은 진단은 무엇인가?
+비장비대와 빈혈이 있는 환자의 말초도말에 눈물방울 적혈구, 유핵 적혈구와 미성숙 골수계 세포가 함께 보인다. 골수 흡인이 잘 되지 않았고 조직검사에서 비정상 거핵세포와 골수섬유화가 확인됐다. 이전 적혈구증가증이나 혈소판혈증은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 호지킨 림프종
-B. 다발골수종
-C. 진성적혈구증가증
-D. 일차성 골수섬유증
+A. 만성 림프구성 백혈병
+B. 진성 적혈구증가증
+C. 원발성 골수섬유증
+D. 철결핍성 빈혈
 
 ## 해설
 
 
-빈혈, 눈물방울 적혈구, 유핵적혈구와 미성숙 골수계 세포, 비장비대 및 어려운 골수 흡인은 일차성 골수섬유증(D)에 부합한다. JAK2 양성과 BCR::ABL1 관련 전좌 음성도 선택지 감별을 돕는다. 진성적혈구증가증에서도 백혈구·혈소판이 함께 증가할 수 있으므로 JAK2만으로 두 질환을 구별하지 않으며, 이 사례에서는 빈혈과 섬유화성 소견이 핵심이다.
+눈물방울 적혈구와 백적혈모구성 도말, 비장비대 및 골수섬유화는 원발성 골수섬유증을 지지한다. 조직 소견과 분자검사를 종합해 이차성 섬유화와 구분한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 일차성 골수섬유증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009541
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7820646/

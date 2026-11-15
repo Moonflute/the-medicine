@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLjtj6zslZQgKEhlcGF0b2NlbGx1bGFyIENhcmNpbm9tYSkubWQ
   - MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsg4nshozsuajssKnspp0gKEhlcmVkaXRhcnkgSGVtb2Nocm9tYXRvc2lzKS5tZA
-question_type: prognosis
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -37,23 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 남성이 6개월 동안 점점 심해지는 피로감과 성욕 감소로 내원했다. 양손 관절의 통증도 호소한다. 에날라프릴로 조절되는 고혈압 병력이 있다. 흡연이나 불법 약물 사용은 하지 않는다. 주말에 맥주 2~3잔을 마신다. 활력징후는 정상이다. 신체진찰에서 피부가 짙게 그을려 있고 고환 크기가 감소되어 있다. 양손의 제2 및 제3 중수지관절에 압통이 있고 운동 범위가 제한되어 있다. 간은 오른쪽 늑골 아래 2~3cm까지 만져진다. 검사 결과는 다음과 같다.
-페리틴 250 μg/L
-아스파르테이트 아미노전이효소 70 U/L
-알라닌 아미노전이효소 80 U/L
-포도당 250 mg/dL
-이 환자에게 다음 중 어떤 합병증이 발생할 위험이 가장 높은가?
+45세 남성이 피부색이 짙어지고 양손 둘째·셋째 중수지관절이 아프다. 최근 당뇨병을 진단받았고 페리틴은 620 μg/L다. 철 과부하 가능성을 우선 평가하려면 어떤 검사를 추가하는가?
 
 ## 선택지
 
-A. 비호지킨 림프종
-B. 간세포암
-C. 진행성 중심성 비만
-D. 췌장암
+A. 혈청 가용성 트랜스페린 수용체
+B. 트랜스페린 포화도
+C. 혈청 알파태아단백
+D. 혈청 세룰로플라스민
 
 ## 해설
 
-피부색소·DM·MCP관절병·성선저하/간비대 조합은 혈색소침착증을 의심하게 한다. 관련된 중대한 합병증은 HCC B이며 특히 진행섬유화/간경변에서 위험이 높다. Ferritin250만으로 남성의 명확한 철과부하를 확진할 수 없고 transferrin saturation·유전/간평가가 필요하다.
+혈색소침착증이 의심되면 페리틴과 트랜스페린 포화도를 함께 본다. 페리틴은 염증이나 간질환에서도 오르므로 단독 상승으로 철 과부하를 확진하지 않는다.
 
 ## 검수 근거
 
@@ -66,3 +61,4 @@ D. 췌장암
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006321
+- https://pubmed.ncbi.nlm.nih.gov/35662478/

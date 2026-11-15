@@ -13,10 +13,10 @@ related_diseases:
   - "postpartum contraception"
   - "breastfeeding"
   - "progestin-only pill"
-question_type: prevention
+question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-건강한 아들을 출산한 지 3주 된 28세 G1P1 여성이 산후검진을 위해 내원했다. 분만은 순조로웠고 산후 자궁내막염으로 clindamycin과 gentamicin을 2일간 정맥투여 받았다. 수유 초기에 유방이 아프고 부었으나 자주 수유하고 수유 전 온찜질을 해 호전되었다. 신체검사는 정상이며 신뢰할 수 있는 피임법을 묻는다. 다음 중 가장 적절한 권고는 무엇인가?
+출산 2주 된 여성이 모유수유 중이며 경구 피임을 원한다. 수유와 초기 산후 혈전 위험을 고려할 때 적절한 경구 방법은?
 
 ## 선택지
 
-A. 살정제
-B. 기초체온법
-C. 프로게스틴 단독 피임약
-D. 복합 경구피임약
+A. 저용량 에스트로겐·프로게스틴 복합제
+B. 프로게스틴 단독 피임약
+C. 경구 에스트로겐 단독
+D. 피임약은 모두 수유를 마칠 때까지 사용 금지
 
 ## 해설
 
-산후3주 수유 여성에서는 프로게스틴 단독 피임약(C)이 적절하다. 초기 산후의 에스트로겐 복합피임은 혈전 위험과 수유 영향을 함께 평가하며 시기·위험인자에 따라 제한된다. 수유 중 어느 시기에도 절대금기라는 뜻은 아니다. 수유와 피임 선택은 개인 선호·복용 순응도를 함께 고려한다.
+수유 중 초기 산후에는 프로게스틴 단독 경구피임약을 사용할 수 있다. 에스트로겐 포함 복합제는 이 시기의 혈전 위험 때문에 피한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 복합 경구피임약
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001980
+- https://www.who.int/publications/i/item/9789240115583/

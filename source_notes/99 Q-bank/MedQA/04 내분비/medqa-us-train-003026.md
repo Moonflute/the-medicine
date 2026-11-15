@@ -16,11 +16,11 @@ related_diseases:
   - "malnutrition"
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
-question_type: adverse_effect
+question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-42세 남성이 발작 후 응급실에 왔다. 아내는 환자가 알코올 남용으로 어려움을 겪다 최근 ‘완전히 끊겠다’고 결심했다고 한다. 신체검사에서 영양실조 상태지만 말 자극에 반응한다. 중등도 사지 근력저하, 간헐적 두근거림, 빠른 심부건반사가 있고 심전도에서 정상 동율동과 QT 간격 연장이 보인다. 다음 중 어떤 영양 결핍이 이 소견에 가장 크게 기여했을 가능성이 높은가?
+장기간 음주와 영양불량이 있는 42세 남성이 손발 떨림으로 내원했다. 혈청 칼륨 2.8 mmol/L, 마그네슘 0.8 mg/dL이고 QT가 연장돼 있다. 칼륨을 보충해도 저칼륨혈증이 지속될 때 병행할 처치는?
 
 ## 선택지
 
-A. 칼륨
-B. 엽산
-C. 마그네슘
-D. 비타민 D
+A. 인산염 보충
+B. 비타민 D 투여
+C. 마그네슘 보충
+D. 중탄산나트륨 투여
 
 ## 해설
 
 
-알코올 남용과 영양실조는 저마그네슘혈증을 초래하며, 이는 근육 약화와 QT 연장을 일으킨다. 다른 전해질 결핍은 주된 원인이 아니다.
+저마그네슘혈증은 신장 칼륨 소실을 늘려 칼륨을 보충해도 교정이 잘 되지 않게 한다. 심전도를 감시하면서 마그네슘과 칼륨을 함께 교정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 비타민 D
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003026
+- https://doi.org/10.1681/ASN.2007030320

@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-24세 여성이 임신 전 상담을 받으러 왔다. 건강한 식사를 하고 특별한 병력이나 약물 복용은 없으며 임신을 계획하고 있다. 향후 임신에서 태아 신경관 결손 가능성을 줄이기 위해 엽산 보충제를 언제 시작하도록 권고해야 하는가?
+이전 임신에서 태아 개방성 신경관결손을 진단받은 여성이 다시 임신을 계획한다. 재발 위험을 낮추기 위해 엽산을 어떻게 권고하는가?
 
 ## 선택지
 
-A. 가능한 한 빨리
-B. 임신 후반기
-C. 피임을 중단할 때
-D. 식이로 충분하므로 엽산 보충제가 필요하지 않다
+A. 일반 용량보다 높은 엽산을 임신 전에 시작해 임신 첫 삼분기까지 복용한다
+B. 임신을 확인한 뒤 일반 용량을 처음 시작한다
+C. 임신 중기 정밀 초음파가 끝난 뒤 시작한다
+D. 첫 임신에서 한 번 사용했으면 다음 임신에서는 보충하지 않는다
 
 ## 해설
 
 
-신경관 결손 위험은 임신 전 1개월부터 엽산을 충분히 섭취할 때 가장 크게 감소한다. 따라서 임신을 계획하는 시점에 가능한 한 빨리 엽산 보충을 시작해야 한다. 이는 태아 신경관 형성 초기 단계에 필요한 엽산을 제공한다.
+신경관 결손 임신력이 있으면 일반 예방용 400 μg이 아니라 고용량 엽산을 임신 전부터 사용한다. 예를 들어 CDC는 최소 한 달 전부터 첫 3개월까지 4 mg/일을 권고한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003580
+- https://www.cdc.gov/folic-acid/hcp/clinical-overview/index.html

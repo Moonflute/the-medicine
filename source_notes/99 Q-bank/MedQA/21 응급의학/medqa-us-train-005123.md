@@ -19,7 +19,7 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ related_drug_slugs:
 
 ## 문제
 
-72세 남자가 요양시설 방에서 넘어져 발견되었다. 알츠하이머 치매와 인공판막이 있으며 와파린을 복용한다. 처음 혈압 85/50 mmHg, 맥박 160회/분이었으나 수액 후 혈압 110/70 mmHg, 맥박 90회/분으로 정상화되었다. INR은 2.5이고 흉부 X선과 심전도는 정상이다. 다음 중 가장 적절한 처치는?
+와파린을 복용하는 72세 남성이 넘어져 머리를 부딪쳤다. 작은 두피 타박상 외에 외상 소견은 없고 의식과 신경학적 진찰은 정상이지만, 항응고 치료 중이다. 두개내 출혈을 확인할 초기 검사는?
 
 ## 선택지
 
-A. CT 스캔
-B. 시험적 복강경검사
-C. 시험적 개복술
-D. 신선동결혈장
+A. 비조영 두부 CT
+B. 두개골 단순촬영
+C. 경동맥 초음파
+D. 요추천자
 
 ## 해설
 
 
-와파린 복용 환자에서 외상 후 두개내 출혈 위험이 높으며, 증상이 없더라도 CT 스캔으로 출혈 여부를 확인해야 한다. 따라서 가장 적절한 처치는 두부 CT 스캔이다.
+항응고제를 복용하는 환자에서 두부 외상이 있으면 정상 신경학적 진찰만으로 출혈을 배제하기 어렵다. 비조영 CT로 급성 두개내 출혈을 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005123
+- https://www.nice.org.uk/guidance/ng232/chapter/Recommendations

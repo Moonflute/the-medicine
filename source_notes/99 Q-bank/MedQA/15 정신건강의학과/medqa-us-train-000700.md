@@ -12,14 +12,14 @@ specialty: 15 정신건강의학과
 related_diseases:
   - "major depressive disorder"
   - "serotonin syndrome"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yEuOuhnO2GoOuLjCDspp3tm4TqtbAgKFNlcm90b25pbiBTeW5kcm9tZSkubWQ
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -37,21 +37,22 @@ related_drug_slugs:
 
 ## 문제
 
-주요우울장애 병력이 있는 32세 남성이 3시간 전 갑자기 발생한 안절부절못함과 지남력 상실로 인해 아내에 의해 응급실로 이송되었다. 환자의 아내는 그가 갑자기 땀을 흘리고, 떨림이 있으며, 혼잣말을 하기 시작했다고 말한다. 어제 환자는 우울증 악화로 정신과를 방문하였고, 기존 치료 요법에 phenelzine이 추가되었다. 다른 유의미한 과거 의학적 병력은 없다. 체온은 39.7°C(103.5°F), 혈압은 145/90 mm Hg, 맥박은 115회/분이다. 신체 검진상 피부는 홍조를 띠고 있다. 점막은 건조하며 동공은 산대되어 있다. 양측 사지에 뚜렷한 간대성 경련(clonus)이 있다. 바빈스키 징후(Babinski sign)가 양측에서 나타난다. 환자의 모든 약물은 중단되었고 정맥 수액 요법이 시작되었다. 다음 중 이 환자의 상태를 유발하기 위해 phenelzine과 상호작용했을 가능성이 가장 높은 약물은 무엇인가?
+세로토닌 작용 약물을 함께 복용하던 환자가 간대성 경련, 심한 근육 경직과 40.4°C의 고체온을 보인다. 의심 약물을 중단했다. 다음 처치는?
 
 ## 선택지
 
-A. Mirtazapine
-B. Bupropion
-C. Sertraline
-D. Lithium
+A. 아세트아미노펜 투여 후 해열 반응을 기다린다
+B. 경구 시프로헵타딘 단독으로 치료한다
+C. 냉각 없이 정맥 수액의 효과를 기다린다
+D. 즉시 능동 냉각·진정하고 기도 관리를 포함한 중환자 치료를 시행한다
 
 ## 해설
 
 
-MAOI(phenelzine)와 SSRI(sertraline)의 병용은 세로토닌 축적을 초래해 세로토닌 증후군을 일으킨다. 따라서 sertraline이 가장 가능성 높은 상호작용 약물이다.
+중증 세로토닌 독성의 고체온은 과도한 근육 활동 때문이다. 신속한 냉각·진정이 필요하고, 호흡이 위협받거나 경직이 심하면 조기에 기도 관리와 근이완을 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000700
+- https://pubmed.ncbi.nlm.nih.gov/38926083/

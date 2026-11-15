@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-53세 남성이 2시간 전 갑자기 시작된 점점 심해지는 전반적 두통으로 아내와 함께 응급실에 왔다. 통증 강도는 10점 만점에 10점이며 목으로 방사되고 누우면 악화된다. 병원으로 오는 길에 한 차례 구토했다. 일주일 전에도 비슷한 두통이 있었지만 치료 없이 몇 시간 후 호전되었다. 35년 동안 매일 담배 한 갑을 피웠고 술이나 불법 약물은 사용하지 않는다. 기면 상태로 보인다. 체온 37.7°C, 맥박 분당 82회, 호흡수 분당 13회, 혈압 165/89 mmHg이다. 동공은 양측 동일하고 빛에 반응하며 안구운동은 정상이다. 근력 저하나 감각 소실은 없다. 반사는 전반적으로 2+이고 목을 굽히면 통증이 악화된다. 다음 중 가장 적절한 처치는?
+53세 환자가 갑자기 시작해 수초 안에 최고 강도에 이른 두통과 구토로 왔다. 혈압은 165/89 mmHg이고 목이 뻣뻣하다. 지주막하출혈을 의심할 때 우선 시행할 검사는?
 
 ## 선택지
 
-A. 요추천자
-B. 뇌 MRI
-C. 두부 CT 혈관조영술
-D. 조영제 없이 두부 CT
+A. 조영증강 뇌 MRI
+B. 비조영 뇌 CT
+C. 요추천자를 영상보다 먼저 시행
+D. 경동맥 초음파
 
 ## 해설
 
 
-갑작스러운 극심한 두통, 목통증, 구토는 지주막하출혈을 시사하고, 조영제 없이 비대조 CT가 빠르게 혈액을 확인할 수 있다. 따라서 조영제 없는 두부 CT가 가장 적절한 검사이다.
+벼락두통과 경부강직은 지주막하출혈의 경고다. 비조영 CT를 우선 시행하고, 음성이어도 발병 시점과 임상적 의심에 따라 추가 검사한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009931
+- https://pubmed.ncbi.nlm.nih.gov/37212182/

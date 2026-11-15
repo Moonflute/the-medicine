@@ -13,14 +13,14 @@ related_diseases:
   - "다낭성 난소 증후군"
   - "무배란성 월경"
   - "자궁내막암 위험"
-question_type: prognosis
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
   - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-19세 미혼 여성이 16세 초경 이후 불규칙하고 양이 많은 월경으로 내원했다. 월경은 15~45일 간격으로 불규칙하게 발생하고 7~10일 지속된다. 얼굴의 털이 증가했다. 4개월 전 심상성 여드름으로 이소트레티노인을 시작한 이후 성관계는 하지 않았다. 70세 할머니가 유방암을 앓았다. 키는 163cm(5ft 4in), 체중은 74kg(163lb), 체질량지수는 28kg/m²이다. 골반 진찰에서 자궁경부 점액이 많고 난소가 약간 커져 있으며 불규칙하다. 치료하지 않으면 다음 중 어떤 합병증 위험이 증가하는가?
+다낭성난소증후군이 있는 24세 여성이 5개월째 월경이 없다. 임신검사는 음성이고 임신할 계획은 없다. 에스트로겐은 혈전 병력 때문에 사용할 수 없다. 자궁내막을 보호할 약물 방법은?
 
 ## 선택지
 
-A. 자궁내막암
-B. 골다공증
-C. 근위부 근육병증
-D. 유방암
+A. 배란 유도제 레트로졸을 계속 복용한다
+B. 자궁내막 보호를 위해 비타민 D만 사용한다
+C. 간헐적으로 프로게스틴을 투여한다
+D. 증상이 없으면 장기간 무월경을 치료하지 않는다
 
 ## 해설
 
 
-다낭성 난소 증후군은 무배란성 월경과 지속적인 에스트로겐 노출을 초래해 자궁내막증식이 증가한다. 따라서 치료하지 않을 경우 자궁내막암 위험이 가장 크게 증가한다.
+만성 무배란에서는 자궁내막에 프로게스테론의 작용이 부족해 증식 위험이 커진다. 에스트로겐을 쓰기 어려우면 적절한 프로게스틴 요법으로 자궁내막을 보호할 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006735
+- https://pmc.ncbi.nlm.nih.gov/articles/10505534/

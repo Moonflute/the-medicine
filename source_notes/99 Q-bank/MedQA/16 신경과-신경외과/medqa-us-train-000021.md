@@ -19,7 +19,7 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rp4jrr7jspp3tm4TqtbAgKENhdWRhIEVxdWluYSBTeW5kcm9tZSkubWQ
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-69세 남성이 허리 통증으로 응급실에 내원했다. 그는 인격 장애와 전이성 전립선암 병력이 있으며, 수술적 절제술 대상이 아니었다. 그는 항암 화학요법을 시작했으나, 지속적인 오심으로 인해 중단했다. 그는 장 또는 방광 실금은 없다고 부인했다. 그는 이전에 이런 통증을 겪은 적이 없으며 모르핀을 요구하고 있다. 간호사가 정맥 모르핀을 투여했고 그는 더 편안함을 느꼈다. 활력 징후는 안정적이다. 신체 검진에서 하부 척추를 따라 촉진 시 압통이 있었고, 양측 하지에 좌측이 우측보다 심한 근력 약화가 관찰되었다. 신경학적 검진에서는 양측 무릎 및 발목 반사에서 저반사가 두드러졌다. 직장 검사를 시행한 결과 안장 마취(saddle anesthesia)가 확인되었다. 이 환자와 관련하여 가장 가능성 있는 진단과 적절한 다음 관리 단계는 무엇인가?
+전이성 전립선암 환자에게 새 허리 통증, 진행하는 양쪽 다리 위약과 회음부 감각저하가 생겼다. 종양에 의한 척수 또는 마미 압박을 의심한다. 즉시 할 조치는?
 
 ## 선택지
 
-A. 가장 가능성 있는 진단은 마미 증후군(cauda equina syndrome)이며, MRI 전에 스테로이드를 시작해야 한다.
-B. 가장 가능성 있는 진단은 마미 증후군(cauda equina syndrome)이며, MRI 후에 스테로이드를 시작해야 한다.
-C. 가장 가능성 있는 진단은 마미 증후군(cauda equina syndrome)이며, 환자는 즉시 방사선 치료를 받아야 한다.
-D. 가장 가능성 있는 진단은 원추 증후군(conus medullaris syndrome)이며, MRI 전에 스테로이드를 시작해야 한다.
+A. MRI 결과가 나올 때까지 스테로이드를 투여하지 않는다
+B. 신경학적 증상과 관계없이 외래 방사선 일정을 잡는다
+C. 덱사메타손을 신속히 시작하면서 응급 MRI와 전문팀 평가를 진행한다
+D. 진통제에 반응하면 신경학적 평가를 미룬다
 
 ## 해설
 
-전이성 전립선암 환자의 새 요통·양측 비대칭 하지약화·저반사·안장감각 소실은 악성 종양에 의한 마미/척수 압박을 의심하게 한다. 이 맥락에서는 신속히 덱사메타손을 시작하면서 긴급 MRI와 전문 협진을 진행하는 A가 적절하다. 배뇨배변 실금이 없다고 압박을 배제하지 않는다. 추간판성 마미증후군을 포함한 모든 원인에 스테로이드를 자동 적용하라는 의미는 아니고, 영상으로 원인·범위를 확인하여 감압수술이나 방사선 등 치료를 결정한다.
+암 환자의 새 신경 결손은 악성 척추 신경 압박의 응급 신호다. 영상과 감압·방사선 평가를 서두르면서 덱사메타손을 사용한다. 비종양성 마미 압박에 일괄 적용하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 가장 가능성 있는 진단은 원추 증후군(conus medullaris syndrome)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000021
+- https://www.nice.org.uk/guidance/ng234/chapter/recommendations

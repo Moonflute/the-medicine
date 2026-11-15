@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-51세 여성이 3개월 동안 지속된 손의 피로와 점점 심해지는 통증 및 뻣뻣함으로 내원했다. 테니스를 즐겼으나 라켓을 잡기 어렵고 피부가 햇빛에 ‘매우 민감해져’ 한 달 전 그만두었다. 마지막 월경은 1년 전이다. 인슐린으로 조절되는 당뇨병이 있고 흡연과 음주는 하지 않는다. 양손 두 번째와 세 번째 중수지관절에 압통과 운동 범위 제한이 있고 피부가 햇볕에 그을린 듯하다. 다음 중 진단을 위한 가장 적절한 다음 단계는 무엇인가?
+51세 여성이 양손 둘째·셋째 중수지관절 통증으로 내원했다. 진찰에서 피부 색소침착이 있고 당뇨병과 원인 불명의 간효소 상승이 있다. 철과다증을 우선 평가할 검사는?
 
 ## 선택지
 
-A. 활액 분석
-B. 파보바이러스 B19 항체 검사
-C. 철분 검사
-D. 류마티스인자 검사
+A. 항CCP 항체와 류마티스인자
+B. 관절액 결정 검사
+C. 트랜스페린 포화도와 혈청 페리틴
+D. 혈청 구리와 세룰로플라스민
 
 ## 해설
 
 
-MCP 관절에 압통과 색소 침착은 혈색소증(철과다증)에서 흔히 나타난다. 진단을 위해서는 철분 검사(혈청 ferritin, transferrin saturation)가 필요하다.
+특징적인 관절 침범에 색소침착과 당뇨병이 함께 있으면 철과다증을 고려한다. 페리틴은 염증이나 간질환만으로도 오를 수 있으므로 트랜스페린 포화도와 함께 본다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ MCP 관절에 압통과 색소 침착은 혈색소증(철과다증)에서 흔히
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008960
+- https://doi.org/10.1016/j.jhep.2022.03.033

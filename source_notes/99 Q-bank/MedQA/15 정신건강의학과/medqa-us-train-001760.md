@@ -13,13 +13,13 @@ related_diseases:
   - "opioid overdose"
   - "heroin intoxication"
   - "miosis"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yVhO2OuOycoOyCrOygnCDspJHrj4UgKE9waW9pZCBQb2lzb25pbmcpLm1k
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-17세 소녀가 친구들과 함께 있던 파티에서 욕실에서 의식 없이 발견되어 응급실로 이송되었다. 파티에 술이 있었다고 친구들이 인정했다. 혈압 118/78 mm Hg, 맥박 40/min, 호흡수 16/min, 체온 36.7°C (98.1°F)이다. 신체검사에서 말로 지시해도 반응하지 않지만 유해 자극에는 반응한다. 동공은 축소되어 있고 점막은 촉촉하다. 심장은 잡음 없이 서맥이며 호흡은 느리지만 청진상 깨끗하다. 다음 중 증상의 가장 가능성 높은 원인은 무엇인가?
+응급실에 온 환자가 거의 반응하지 않고 동공이 작다. 맥박은 있으나 호흡수는 분당 5회이고 산소포화도가 떨어진다. 오피오이드 과량 사용을 의심할 때 즉시 할 처치는?
 
 ## 선택지
 
-A. 알코올 중독
-B. 헤로인 과다복용
-C. 코카인 과다복용
-D. 3,4-methylenedioxy-methamphetamine (MDMA) 복용
+A. 보조환기를 시행하고 날록손을 투여한다
+B. 산소만 투여하며 자발호흡 회복을 기다린다
+C. 날록손을 투여한 뒤 반응이 올 때까지 보조환기를 미룬다
+D. 독성검사로 물질을 확인한 뒤 해독제를 투여한다
 
 ## 해설
 
 
-환자는 중증 서맥, 동공 축소, 호흡 억제 등 오피오이드 중독의 전형적인 징후를 보이며, 헤로인 과다복용이 가장 흔한 원인이다. 따라서 원인은 헤로인 과다복용이다.
+오피오이드 중독의 즉각적인 위험은 호흡억제다. 기도와 환기를 먼저 지원하면서 날록손을 투여하고, 회복 뒤에도 재발하는 호흡억제를 감시한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001760
+- https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation

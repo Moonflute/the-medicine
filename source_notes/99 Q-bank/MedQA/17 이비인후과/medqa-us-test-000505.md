@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-yCvOy2nOyEseykkeydtOyXvCAoT3RpdGlzIG1lZGlhIHdpdGggZWZmdXNpb24pLm1k
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-3세 남아가 건강검진을 위해 병원에 왔다. 지난 8개월 동안 어머니는 아이의 말을 이해하기 어려웠고, 가끔 이름을 불러도 반응하지 않으며 한 단계 지시를 따르지 못했다. 출생 후 항생제로 치료한 귀 감염이 반복되었다. 키는 60백분위수, 체중은 50백분위수였고 활력징후는 정상이었다. 말소리가 작고 이해하기 어려웠다. 양쪽 고막이 뒤로 당겨져 있고 공기압 이경검사에서 움직이지 않았다. 비인두내시경에서 경미한 아데노이드 비대가 보였다. 순음청력검사에서 오른쪽 26 dB, 왼쪽 28 dB의 전음성 난청이 있었다. 다음 중 가장 적절한 처치는?
+3세 아이에게 양쪽 중이 삼출이 4개월째 남아 있다. 청력검사에서 양측 전음성 난청이 확인돼 말소리를 자주 놓친다. 발열이나 급성 이통은 없다. 적절한 다음 단계는?
 
 ## 선택지
 
-A. 아데노이드 절제술
-B. 고막절개관 삽입
-C. 항히스타민제 치료
-D. 코르티코스테로이드 치료
+A. 항생제를 수개월 반복한다
+B. 비강 충혈제거제를 장기 사용한다
+C. 고막절개 후 환기관 삽입을 이비인후과와 상의한다
+D. 항히스타민제를 사용하면 청력이 회복될 때까지 기다린다
 
 ## 해설
 
 
-양쪽 고막이 뒤로 당겨지고 움직이지 않으며 전음성 난청이 있는 경우 삼출성 중이염이 의심된다. 중이의 압력 조절을 위해 고막절개관(튜브) 삽입이 가장 적절한 치료이다.
+3개월 이상 지속되는 양측 중이 삼출에 청력 저하가 확인되면 환기관 삽입을 제안할 수 있다. 급성 감염이 없으면 항균제 반복은 적절하지 않다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000505
+- https://pubmed.ncbi.nlm.nih.gov/35138976/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3410229/

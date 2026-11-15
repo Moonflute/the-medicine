@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snIzsiqjrs5EgKFdpbHNvbidzIERpc2Vhc2UpLm1k
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-37세 여성이 피임 방법의 여러 선택지를 상담하기 위해 내원했다. 과거력으로 고혈압, 윌슨병 및 변비 우세형 과민성장증후군이 있다. 리바록사반과 폴리에틸렌글리콜을 복용한다. 혈압은 152/98 mm Hg이다. 신체진찰에서 의식은 명료하고 지남력은 정상이다. 심장 청진에서 규칙적인 속도와 리듬이 들리며 심잡음은 없다. 양쪽 폐는 천명음 없이 깨끗하게 청진된다. 마지막 월경 첫날은 12일 전이었고 소변 hCG는 음성이다. 병력과 신체진찰을 고려할 때 다음 중 가장 적절한 피임 방법은?
+37세 여성이 장기 피임을 원한다. 혈압은 반복 측정에서 165/103 mmHg이고 이전 심부정맥혈전증으로 항응고제를 복용 중이며 월경량이 많다. 임신과 자궁내장치 금기는 없다. 적절한 피임법은?
 
 ## 선택지
 
-A. 레보노르게스트렐
-B. 에티닐에스트라디올
-C. 구리 자궁내장치
-D. 데포 메드록시프로게스테론 아세테이트
+A. 에스트로겐·프로게스틴 복합 경구피임약
+B. 레보노르게스트렐 자궁내장치
+C. 에스트로겐이 포함된 피임 패치
+D. 고용량 에스트로겐 단독
 
 ## 해설
 
-혈압 152/98에서 에스트로겐 포함 피임은 불리하며 윌슨병에서는 구리 IUD를 피한다. 리바록사반 사용 맥락도 확인해야 한다. 제시된 LNG(A)를 장기 피임용 프로게스틴 방법으로 해석하면 적절하지만 제형이 명시되지 않아 실제 처방에는 IUD 등 방법을 구체화해야 한다. 응급피임 LNG 한 번 복용으로 지속 피임을 대신하는 의미는 아니다.
+중증 고혈압과 혈전 병력에선 에스트로겐 포함 피임을 피한다. 레보노르게스트렐 자궁내장치는 장기 피임에 쓸 수 있고 항응고 치료 중 많은 월경량을 줄이는 데도 도움이 될 수 있다.
 
 ## 검수 근거
 
@@ -62,3 +62,5 @@ D. 데포 메드록시프로게스테론 아세테이트
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006278
+- https://www.cdc.gov/contraception/hcp/usmec/intrauterine-devices.html
+- https://www.cdc.gov/contraception/hcp/usmec/combined-hormonal-contraceptives.html

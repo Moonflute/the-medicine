@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-선택적 심장도관술을 받은 지 1시간 30분 후, 53세 여성이 오른쪽 옆구리와 허리 통증을 느꼈다. 고혈압, 고콜레스테롤혈증, 제2형 당뇨병이 있고 좌전하행동맥 80% 협착으로 스텐트 2개를 삽입했다. 시술 전 비분획 헤파린을 사용했다. 입원 전 약은 에날라프릴, 심바스타틴, 메트포르민이었다. 체온 37.3°C(99.1°F), 맥박 102회/분, 혈압 109/75mmHg이다. 하복부 압통이 있으나 방어와 경직은 없고 오른쪽 서혜부 위쪽이 팽창되고 압통이 있다. 대퇴부 접근 부위에는 출혈이나 분비물이 없고 양측 대퇴·발 맥박은 만져진다. 생리식염수 주입을 시작했다. 혈구검사에서 헤마토크릿 36%, 백혈구 8,400/mm³, 혈소판 230,000/mm³이다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+53세 여성이 대퇴동맥으로 관상동맥중재술을 받은 지 2시간 뒤 새로 심한 오른쪽 옆구리·허리 통증을 호소한다. 천자 부위에 뚜렷한 외부 출혈은 없지만 혈색소가 2.5 g/dL 떨어졌다. 현재 혈압은 118/74 mmHg로 유지되며 CT실로 이동할 수 있다. 가장 적절한 검사는?
 
 ## 선택지
 
-A. 프로타민 황산염 투여
-B. 복부 및 골반 CT
-C. 정맥 아트로핀 투여
-D. 심전도 시행
+A. 경흉부 심초음파
+B. 복부·골반 CT
+C. 뇌 CT
+D. 흉부 CT 혈관조영술
 
 ## 해설
 
 
-대퇴동맥 접근 후 복부·골반 통증과 혈종은 레트로퍼리테랄 혈종을 의심한다. 진단을 위해 CT 스캔이 가장 신속하고 정확한 영상이다.
+대퇴동맥 천자 뒤 옆구리나 허리 통증과 혈색소 감소가 함께 생기면 후복막 출혈을 의심한다. 이 경우 천자부위 겉으로 출혈이 보이지 않을 수 있다. 안정적이면 복부·골반 CT로 확인하고, 불안정하면 영상 때문에 소생과 지혈을 지연하지 않는다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 심전도 시행
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008954
+- https://www.scai.org/quality-improvement-tools/qi-tips/quality-initiatives-prevent-and-manage-major-femoral-access-site

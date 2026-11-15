@@ -20,7 +20,7 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-만성 변비가 있는 70세 남성이 2일 동안 지속된 왼쪽 하복부 통증으로 응급실에 내원했다. 체온은 100.8°F, 혈압은 140/90, 심박수는 분당 85회, 호흡수는 분당 16회이다. 왼쪽 하복부에 가벼운 촉진에도 압통과 자발성 방어가 있고 직장수지검사에서 잠혈 양성이다. 검사에서 백혈구 12,500/mm³와 좌방이동 외에는 특이사항이 없다. 다음 중 이 질환의 진단에 가장 유용한 검사는?
+70세 남성이 이틀간 지속된 왼쪽 아랫배 통증과 발열로 왔다. 국소 압통과 백혈구 증가가 있어 급성 게실염이 의심된다. 혈압과 콩팥기능은 안정적이다. 농양·천공 여부까지 함께 확인할 초기 영상검사는?
 
 ## 선택지
 
-A. 리파아제
-B. 복부 CT
-C. 왼쪽 하복부 초음파
+A. 복부 단순 X선
+B. 조영증강 복부·골반 CT
+C. 흉부 CT
 D. 응급 대장내시경
 
 ## 해설
 
 
-급성 게실염의 진단은 복부 CT가 가장 민감하고 특이도가 높다.
+조영증강 CT는 게실 주변 염증을 확인하고 농양이나 천공 등 합병증을 평가한다. 급성기에 대장내시경을 초기 검사로 시행하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 응급 대장내시경
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006899
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13434530/

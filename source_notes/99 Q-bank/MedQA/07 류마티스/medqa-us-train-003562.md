@@ -16,11 +16,11 @@ related_diseases:
   - "mechanical joint pain"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-58세 여성이 2년간 점점 심해지는 무릎과 손가락 통증으로 내원했다. 무릎 통증은 30분 이상 걸으면 악화되고 아침에 손가락과 무릎이 약 15분간 뻣뻣했다. 양쪽 무릎의 운동범위가 제한되고 염발음이 있었으며, 양손의 근위 및 원위 지간관절에 압통성 결절이 있었다. 가장 가능성 높은 진단은?
+58세 여성이 오래 걸으면 심해지는 무릎 통증으로 내원했다. 아침 강직은 15분이며 무릎에 열감은 없다. 무릎 골관절염 진단을 받았고 BMI는 32 kg/m²이다. 장기적으로 통증과 기능에 도움이 될 첫 계획은?
 
 ## 선택지
 
-A. 통풍
-B. 라임 관절염
-C. 골관절염
-D. 패혈성 관절염
+A. 장기간 침상 안정
+B. 운동을 중단하고 관절을 고정한다
+C. 근력·유산소 운동을 시작하고 적절한 체중 감량을 돕는다
+D. 첫 진료에서 바로 양쪽 인공관절 수술을 한다
 
 ## 해설
 
 
-무릎·손가락에 관절통·뻣뻣함·Heberden·Bouchard 결절이 동반된 경우, 관절 연골이 점진적으로 마모되는 골관절염이 가장 흔한 원인이다. 통증은 활동 후 악화되고, 아침 강직은 짧게 지속된다. 따라서 골관절염이 가장 가능성 높은 진단이다.
+무릎 골관절염의 기본 치료는 개인에 맞춘 운동이다. 과체중·비만이 있는 경우 체중 감량을 함께 하면 통증과 기능 개선에 도움이 된다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 패혈성 관절염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003562
+- https://www.nice.org.uk/guidance/ng226/chapter/Recommendations

@@ -14,13 +14,13 @@ related_diseases:
   - "경추 골수염"
   - "정맥주사 약물 사용"
   - "Vertebral osteomyelitis"
-question_type: management
+question_type: investigation
 related_disease_slugs:
   - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 집 없는 남성이 3일 동안 점점 심해지는 목 통증으로 응급실에 왔다. 두통과 양손 저림도 있으며 4개월 동안 아침에 일어난 후 간헐적인 요통이 있었으나 움직이면 호전되었다. 오른쪽 엄지발가락 중족지관절에 통풍 발작이 반복되고 20년 동안 하루 담배 한 갑, 매일 맥주 네 병을 마셨으며 정맥주사 헤로인 사용력이 있다. 체온 39°C(102.2°F), 맥박 110회/분, 혈압 140/85 mmHg였고 양쪽 팔뚝에 주사 흔적이 있었다. 목은 따뜻하고 붉으며 운동 범위가 제한되었고 중간 경추 극돌기를 가볍게 눌러도 심한 통증이 있었다. 혈색소 11 g/dL, 백혈구 14,200/mm³, 호중구 77%, ESR 54 mm/h였다. 경추 X선은 정상이었지만 척추 MRI에서 염증 소견이 보였고 뼈 생검으로 진단을 확정했다. 다음 중 가장 적절한 처치는?
+45세 환자의 MRI에 척추디스크염과 인접 척추체 골수염이 의심된다. 혈액배양에서 균이 자라지 않았다. 활력과 신경학적 상태는 안정적이고 경막외 농양은 없다. 원인균 확인을 위한 다음 단계는?
 
 ## 선택지
 
-A. 요추천자
-B. 정맥 시프로플록사신과 반코마이신
-C. 경구 인도메타신
-D. 골주사
+A. 영상 유도하 디스크 또는 척추체 검체를 채취한다
+B. 요추천자로 뇌척수액 배양을 시행한다
+C. 영상만으로 원인균을 정하고 곧바로 표적 치료한다
+D. 항균제를 먼저 오래 투여한 뒤 검체를 채취한다
 
 ## 해설
 
 
-IV 약물 사용과 척추 통증·MRI에서 염증 소견은 감염성 척추 골수염을 시사한다. 초기 경험적 치료는 광범위한 그람양성·음성 균을 커버하는 시프로플록사신과 반코마이신이 권장된다. 따라서 정맥 시프로플록사신과 반코마이신이 가장 적절한 처치이다.
+안정적인 척추 골수염 환자에서 혈액배양으로 균을 확인하지 못했다면 영상 유도 생검을 고려한다. 패혈증이나 신경 결손이 있으면 항균제를 늦추지 않는다.
 
 ## 검수 근거
 

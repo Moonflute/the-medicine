@@ -13,11 +13,11 @@ related_diseases:
   - "당뇨병성 거대아"
   - "어깨난산"
   - "Erb 마비"
-question_type: prevention
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-qxsOuMgOyVhCAoTWFjcm9zb21pYSkubWQ
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-체중 4,800 g인 남아가 35세 초임부에게 만삭으로 태어났다. 분만 중 목을 옆으로 강하게 당겨야 했다. 1분과 5분 Apgar 점수는 각각 9점이었다. 안정 시 오른쪽 어깨가 내전되고 내회전되어 있으며 팔을 수동으로 움직이면 운다. 혈당은 34 mg/dL이다. 다음 중 이 신생아의 상태를 예방했을 가능성이 가장 높은 것은?
+임신 39주인 인슐린 치료 중 당뇨병 산모의 초음파에서 태아 예상 체중이 약 4,650 g이다. 태아는 두위이며 현재 진통은 없다. 분만 방법을 상담할 때 옳은 설명은?
 
 ## 선택지
 
-A. 연성 치즈를 피하는 것
-B. 인슐린 투여
-C. 코카인 금지
-D. 고양이 배설물 피하기
+A. 어깨난산 위험과 체중 추정 오차를 설명하고 계획 제왕절개를 고려한다
+B. 당뇨병이 있으면 추정 체중 4,000 g 이상에서 모두 제왕절개한다
+C. 태아가 두위이므로 예상 체중은 분만 계획에 반영하지 않는다
+D. 어깨난산을 피하려면 예방적으로 흡입분만을 계획한다
 
 ## 해설
 
-거대아·신생아 저혈당은 모체 당뇨와 태아 고인슐린혈증을 시사하고, 견인 후 어깨 내전·내회전은 상완신경총 손상을 의심하게 한다. 산모 당뇨의 적절한 혈당 조절, 필요시 인슐린(B)은 거대아·난산 위험을 줄일 수 있다. 모든 손상을 완전히 예방하는 것은 아니며 신생아 저혈당에 인슐린을 주는 뜻이 아니다.
+당뇨병 임신에서는 추정 태아 체중 4,500 g 이상일 때 어깨난산 위험 때문에 계획 제왕절개를 고려할 수 있다. 추정 오차와 수술의 이득·위해를 산모와 논의한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 고양이 배설물 피하기
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000263
+- https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/macrosomia

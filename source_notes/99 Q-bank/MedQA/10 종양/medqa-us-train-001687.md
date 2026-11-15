@@ -15,9 +15,9 @@ related_diseases:
   - "uroprotection"
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-y2nO2YiOyEsSDrsKnqtJHsl7wgKEhlbW9ycmhhZ2ljIEN5c3RpdGlzKS5tZA
-question_type: prevention
+question_type: management
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-62세 여성이 3일 전부터 호전되지 않는 복통과 혈뇨로 내원했다. 치골상부에 중등도 날카로운 작열통이 있고 빈뇨와 절박뇨가 점점 심해졌다. 복부 평활근육종 병력이 있고 간 전이로 새로운 치료를 시작했다. 15갑년 흡연력과 경미한 백혈구감소증이 있으며 소변 시험지 혈액은 3+이다. 다음 중 이 증상을 예방했을 가능성이 가장 높은 약물의 설명은 무엇인가?
+62세 여성이 전이성 평활근육종에 이포스파미드 항암요법을 시작한다. 수액과 함께 출혈성 방광염 예방에 투여할 약은?
 
 ## 선택지
 
-A. 세포 내 수용체에 결합해 포도당신생을 촉진하는 유전자를 활성화하고 항염증 효과를 내는 약물
-B. 항종양제와 함께 투여하여 방광 이행상피의 염증을 줄이는 티올
-C. BCR-ABL 티로신키나제를 억제해 세포증식을 차단하고 세포자멸사를 유도하는 단일클론항체
-D. 디히드로폴산 환원효소를 억제해 세포 합성·분열에 필요한 퓨린 생성을 막는 항엽산제
+A. 덱스라족산
+B. 류코보린
+C. 알로푸리놀
+D. 메스나
 
 ## 해설
 
 
-항암치료 후 혈뇨·치골상부 통증은 ifosfamide 또는 cyclophosphamide 등의 acrolein 관련 출혈성 방광염을 고려하게 한다. Mesna는 thiol 화합물로 소변의 acrolein을 결합·해독하여 요로상피 손상을 줄이므로 B가 가장 적절하다. 이 문항에는 실제 항암제명이 없으므로 cyclophosphamide를 투여받았다고 단정하지 않는다. Mesna는 항암효과를 내는 약제가 아니며 실제 혈뇨에서는 감염·종양 등 다른 원인도 평가한다.
+메스나는 이포스파미드의 요로독성 대사산물을 소변에서 불활성화한다. 충분한 수분 공급과 함께 출혈성 방광염 예방에 사용한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 디히드로폴산 환원효소를 억제해 세포 합성·분열에 필요�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001687
+- https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/genitourinary/1297-haemorrhagic-cystitis

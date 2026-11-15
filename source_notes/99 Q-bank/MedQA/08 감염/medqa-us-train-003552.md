@@ -16,9 +16,9 @@ related_diseases:
   - "esophageal ulcers"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-uLqOyInO2PrOynhCDqsJDsl7wgKEhlcnBlcyBTaW1wbGV4IEluZmVjdGlvbikubWQ
-question_type: diagnosis
+question_type: management
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-45세 남성이 2일간 지속된 연하통과 흉골 뒤 통증으로 내원했다. 최근 HIV 감염을 진단받았고 CD4 T세포 수는 80/mm3였다. 경험적 치료를 시작했지만 2주 후에도 호전이 없었다. 상부 내시경에서 상부 식도에 경계가 분명한 둥근 표재성 궤양이 여러 개 보였다. 다음 중 증상의 가장 가능성 높은 원인은?
+HIV 환자가 삼킴통증으로 내시경을 받았다. 작고 얕은 원형 식도 궤양이 여러 개 보인다. 궤양 가장자리 조직에서 다핵세포와 핵내 봉입체가 보이고 HSV 면역염색은 양성이다. 적절한 약제는?
 
 ## 선택지
 
-A. 단순헤르페스바이러스 감염
-B. 하부식도괄약근의 일시적 이완
-C. 근육층신경얼기 억제신경세포의 변성
-D. 거대세포바이러스 감염
+A. 플루코나졸
+B. 간시클로버
+C. 아시클로버
+D. 니스타틴 현탁액
 
 ## 해설
 
 
-내시경의 여러 작고 경계가 뚜렷한 원형 표재성 궤양은 선택지 중 HSV 식도염 A에 더 부합한다. CMV는 상대적으로 크고 깊은 선형 궤양이 전형적이지만 형태가 겹칠 수 있어 필요하면 생검으로 구분한다. HIV/CD4 수치만으로 HSV가 모든 식도염의 가장 흔한 원인이라고 단정하지 않는다. 일시적 LES 이완이나 억제신경 변성은 이 궤양 소견을 설명하지 못한다.
+HSV가 조직에서 확인된 식도염은 전신 아시클로버로 치료한다. 궤양 모양만으로 CMV를 확실히 구분하기 어려워 조직검사 결과가 치료 선택에 중요하다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 거대세포바이러스 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003552
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/herpes-simplex-virus

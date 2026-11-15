@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-25세 남성이 2년간 지속된 요통으로 진료를 받으러 왔다. 정육점에서 일하며 최근 무거운 고기 덩어리를 옮겼다. 통증은 아침에 심하고 수영 외에는 호전시키는 것이 없다. 척추의 네 방향 운동 범위가 제한되어 있다. 과거력은 단백동화 steroid 남용, 여드름, 고혈압과 비만이며 hydrochlorothiazide, ibuprofen, benzoyl peroxide 및 acetaminophen을 사용한다. 척추 촉진 압통은 없다. 가장 가능성 높은 진단을 확진하는 데 도움이 되는 검사는?
+25세 남성이 2년 동안 야간 및 아침에 심하고 운동하면 완화되는 허리 통증을 겪고 있다. 천장관절 단순촬영은 뚜렷한 이상이 없으나 축성 척추관절염이 의심된다. 활동성 염증을 찾을 다음 검사는?
 
 ## 선택지
 
-A. 척추 방사선촬영
-B. 하지직거상검사와 임상 양상
-C. 천장관절 자기공명영상
-D. HLA 유형 검사
+A. 요추 전후면 단순촬영 반복
+B. 하지직거상검사만 시행
+C. 천장관절 MRI
+D. HLA-B27 검사만으로 확진
 
 ## 해설
 
 
-젊은 성인의 운동으로 호전되는 만성 아침 요통과 척추 운동제한은 axial SpA를 의심하게 한다. 보기 중 sacroiliac MRI C가 염증성 천장관절병변 확인에 가장 도움이 된다. 실제 진단 경로에서는 SI joint 단순촬영을 먼저 고려하고 불확실하면 MRI를 시행하는 등 임상과 결합한다. 척추 단순촬영은 천장관절 표적검사와 다르며 HLA-B27만으로 확진할 수 없다.
+초기 축성 척추관절염에서는 X선이 정상일 수 있다. 천장관절 MRI로 활동성 염증을 평가하고 결과를 증상·진찰과 함께 해석한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. HLA 유형 검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000970
+- https://www.nice.org.uk/guidance/ng65/chapter/recommendations

@@ -19,7 +19,7 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-37세 여성이 일주일 전 우측 전완에 넘어져 멍이 든 후 발생한 우측 손과 전완의 심한 깊고 날카로운 통증으로 내원했다. 우측 손과 전완이 반대쪽보다 따뜻하고 붓고 붉으며 가볍게 만져도 극심한 통증이 있다. 요골 및 상완 맥박은 만져지고 신경검사는 정상이다. X선에서 골절은 없고 신경전도검사도 정상이다. 가장 가능성 높은 진단은?
+37세 여성이 가벼운 전완 외상 6주 뒤에도 손 통증이 심하다. 가볍게 스쳐도 아프고, 손이 붓고 반대쪽보다 붉고 따뜻하며 움직임이 줄었다. 진찰에서도 같은 소견이 있고 골절·감염·혈관 이상을 시사하는 소견은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
 A. 봉와직염
-B. 구획증후군
+B. 급성 구획증후군
 C. 복합부위통증증후군
-D. 사지 허혈
+D. 상지 동맥 폐색
 
 ## 해설
 
 
-외상 후 지속적인 통증, 부종, 온기, 과민성(allodynia) 및 자율신경 변화는 복합부위통증증후군(CRPS)과 일치한다. 따라서 정답은 C이다.
+유발 손상에 비해 심한 통증에 이질통, 색·온도 변화, 부종과 운동 제한이 여러 범주에서 동반된다. 이 임상 조합은 다른 원인이 더 잘 설명하지 않을 때 복합부위통증증후군을 지지한다. 영상이나 신경전도검사 하나로 확진하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008380
+- [IASP: 복합부위통증증후군의 임상 진단 기준](https://www.iasp-pain.org/publications/relief-news/article/what-is-complex-regional-pain-syndrome-in-plain-english/)

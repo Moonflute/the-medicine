@@ -14,14 +14,14 @@ related_diseases:
   - "대동맥 축착"
   - "원발성 무월경"
   - "성선발달장애"
-question_type: prognosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YSw64SIIOymne2bhOq1sCAoVHVybmVyIFN5bmRyb21lKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA64-Z66elIOy2leywqSAoQ29hcmN0YXRpb24gb2YgdGhlIEFvcnRhKS5tZA
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-19세 여자가 지금까지 월경을 한 적이 없어 산부인과에 내원했다. 대학 친구 대부분이 수년 전부터 월경을 해 조금 걱정된다. 키가 작은 것도 걱정한다. 사춘기 초기에 가족의학과를 방문했을 때 십대 후반에 적절한 키가 될 것이라는 말을 들었지만 지난 몇 년 동안 키가 몇 인치밖에 자라지 않았다. 신체검사에서 넓은 가슴과 짧은 목이 있고 유방 발달은 태너 1단계이다. 외부 생식기는 정상이며 치모 분포는 드물다. 유전질환이 의심되어 유전 상담을 의뢰했다. 이 환자에게 발생할 가능성이 가장 높은 질환은 무엇인가?
+터너증후군이 있는 28세 여성이 보조생식으로 임신을 계획한다. 어릴 때 시행한 심초음파는 정상이었지만 이후 대동맥 영상은 하지 않았다. 임신 전 중요한 평가는?
 
 ## 선택지
 
-A. 낭성 중막 괴사
-B. 대동맥 축착
-C. 지적장애
-D. 심내막 쿠션 결손
+A. 태아 상태 확인을 위해 먼저 배아이식
+B. 최근 심잡음이 없으면 추가 검사 없이 임신 진행
+C. 심장 전문 평가와 심혈관 MRI 등으로 대동맥 전체 평가
+D. 폐기능검사만 하고 배아이식
 
 ## 해설
 
 
-터너 증후군(45,X) 환자는 대동맥 축착 위험이 크게 증가한다. 환자의 신체소견(짧은 목, 넓은 가슴)과 무월경이 이를 시사한다. 따라서 가장 높은 발생 가능 질환은 대동맥 축착이다.
+터너증후군에서는 임신 중 대동맥 확장·박리 위험을 평가해야 한다. 임신 또는 보조생식 전에 심혈관 전문팀이 심장과 대동맥을 평가하고, 중증 확장 등 고위험이면 임신을 피하도록 상담한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007480
+- https://doi.org/10.1093/ejendo/lvae050

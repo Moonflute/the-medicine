@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: prevention
 difficulty: standard
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-35세 여성이 직장에서 사고가 난 지 30분 후 산업보건 서비스에 왔다. 채혈사로 일하며 30세 남성 환자에게서 채혈하던 중 피가 오른쪽 눈에 튀었다고 한다. 즉시 몇 분 동안 물로 눈을 씻었다. 해당 환자는 객혈, 체중감소, 야간 발한으로 입원했으며 정맥주사 약물을 사용하고 여러 남녀 파트너와 성관계를 한다. 채혈사의 과거력과 복용약은 없고 예방접종은 최신이다. 바이러스 혈청검사를 위해 혈액을 채취하는 것 외에 가장 적절한 다음 단계는?
+채혈 중 환자의 혈액이 간호사의 눈에 튀었다. 즉시 물로 씻고 30분 만에 진료를 받았다. 혈액을 제공한 환자는 HIV 감염이 확인되었고 치료를 받지 않고 있다. 기본 검사와 감염내과 평가를 진행하면서 가장 먼저 할 조치는?
 
 ## 선택지
 
-A. 랄테그라비르, 테노포비르, 엠트리시타빈을 시작한다
-B. 지도부딘을 시작한다
-C. 테노포비르와 엠트리시타빈을 시작한다
-D. B형간염 면역글로불린과 백신을 투여한다
+A. HIV 노출 후 예방요법을 즉시 시작한다
+B. 노출자의 초기 HIV 항체검사가 양성으로 바뀔 때까지 기다린다
+C. 눈을 씻었으므로 약은 투여하지 않는다
+D. 노출 후 72시간이 지난 뒤 예방요법을 시작한다
 
 ## 해설
 
 
-혈액이 눈 점막에 튄 직업 노출은 즉시 평가하여 필요 시 PEP를 가능한 한 빨리 시작하며, 원칙적으로 72시간 이내 시작해 28일 투여한다. 선택지 중 raltegravir+tenofovir+emtricitabine(A)은 유효한 3제 조합이다. 2025 지침은 bictegravir 또는 dolutegravir 기반 조합을 선호하지만, raltegravir 조합은 이들 권고 조합을 처방할 수 없을 때 여전히 효과적인 선택이다. 노출원 신속 검사와 본인 baseline 검사·HBV 접종반응 확인을 병행하며 불필요하게 첫 투여를 지연하지 않는다.
+치료받지 않은 HIV 감염 환자의 혈액이 결막에 닿은 것은 직업적 점막 노출이다. 노출 후 예방요법은 검사 결과를 기다리며 늦추지 말고 가능한 한 빨리 시작한다. 통상 72시간 이내 시작해 28일 치료하며, 신장기능·상호작용과 출처 환자의 정보를 확인해 요법을 선택한다.
 
 ## 검수 근거
 
@@ -59,3 +60,4 @@ D. B형간염 면역글로불린과 백신을 투여한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000283
+- 미국 공중보건서비스 2025 직업적 HIV 노출 지침: https://pmc.ncbi.nlm.nih.gov/articles/PMC12616222/

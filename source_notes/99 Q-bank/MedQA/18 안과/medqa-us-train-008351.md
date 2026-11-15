@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MTgg7JWI6rO8L-y9qeuLpOuemOuBvCAoY2hhbGF6aW9uKS5tZA
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 남자가 6개월 동안 지속된 좌측 상안검의 서서히 커지는 결절로 내원했다. 온찜질에도 지속되며 눈꺼풀이 무겁고 시야가 약간 흐려진다. 좌측 상안검 중앙에 고무 같은 무통성 결절이 있고 눈꺼풀을 뒤집으면 더 잘 보인다. 가장 적절한 다음 처치는?
+68세 환자가 같은 윗눈꺼풀 위치에서 산립종으로 두 번 치료받았지만 결절이 반복됐다. 이번에는 속눈썹도 빠지고 눈꺼풀 가장자리가 불규칙하다. 다음 조치는?
 
 ## 선택지
 
-A. 눈꺼풀 위생
-B. 냉동치료
-C. 생검
-D. 모스 미세도식수술
+A. 온찜질만 다시 수개월 한다
+B. 항히스타민 점안을 시작한다
+C. 일반 산립종으로 보고 배액만 반복한다
+D. 안과에서 조직검사로 피지샘암 등 종양을 배제한다
 
 ## 해설
 
 
-지속적인 안검 결절은 악성 가능성을 배제하기 위해 조직검사가 필요하다.
+같은 위치에서 반복되는 결절에 속눈썹 소실과 형태 변화가 있으면 종양을 의심한다. 일반 산립종처럼 계속 치료하지 말고 조직 진단을 진행한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 모스 미세도식수술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008351
+- https://www.aao.org/eyenet/article/diagnosis-management-of-sebaceous-carcinoma-of-eye

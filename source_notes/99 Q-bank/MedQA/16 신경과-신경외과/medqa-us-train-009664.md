@@ -13,11 +13,11 @@ related_diseases:
   - "juvenile myoclonic epilepsy"
   - "청소년 근간대성 간질"
   - "valproate"
-question_type: management
+question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKt7IaM64WEIOq3vOqwhOuMgOyEsSDrh4zsoITspp0gKEp1dmVuaWxlIE15b2Nsb25pYyBFcGlsZXBzeSkubWQ
 difficulty: simple
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-13세 남자가 레이저 쇼를 보던 중 발생한 전신 강직간대 발작으로 응급실에 왔다. 평소 건강하지만 자주 멍하니 있고, 수개월 동안 아침에 손가락과 팔이 움찔거리는 에피소드가 반복되었다. 의식 소실은 없었다. 가장 적절한 치료는 무엇인가?
+15세 학생이 아침에 일어난 직후 양팔이 순간적으로 움찔해 물건을 자주 떨어뜨렸다. 최근 잠을 거의 자지 못한 날 전신 강직간대발작을 겪었고 뇌파에서 전반성 다극서파가 보인다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 디아제팜
-B. 에토숙시미드
-C. 페니토인
-D. 발프로산
+A. 청소년 근간대뇌전증
+B. 소아 결신뇌전증
+C. 측두엽 뇌전증
+D. 자기한정 중심측두극파 뇌전증
 
 ## 해설
 
-각성 직후 반복되는 상지 근간대경련, 전신 강직간대발작과 결신 가능성은 청소년 근간대뇌전증을 시사한다. 보기 중 valproate(D)가 여러 전신 발작형을 조절하는 약물이다. Phenytoin은 근간대/결신 발작을 악화시킬 수 있고 ethosuximide는 결신 외 발작을 충분히 치료하지 못한다. 현행 치료에서는 levetiracetam 등 대안과 생식·기타 안전성을 상담한다. 영국에서는 55세 미만 신규 valproate 처방에 두 전문의 판단 등 규제가 있어 무조건적인 일차 처방으로 해석해서는 안 된다.
+청소년기에 시작된 기상 직후 근간대발작과 전신 강직간대발작, 전반성 다극서파는 청소년 근간대뇌전증에 맞는다. 수면 부족으로 악화할 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 발프로산
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009664
+- https://pubmed.ncbi.nlm.nih.gov/35503716/

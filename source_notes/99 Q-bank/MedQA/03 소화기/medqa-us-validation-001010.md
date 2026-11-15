@@ -15,7 +15,7 @@ related_diseases:
   - "혈역학적 불안정"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tlZjrtoAg7JyE7J6l6rSAIOy2nO2YiCAoTG93ZXIgR2FzdHJvaW50ZXN0aW5hbCBUcmFjdCkubWQ
-question_type: management
+question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-63세 남성이 복통이나 발열 없이 8~9차례의 선홍색 물설사를 하여 응급실에 왔다. 창백한 결막과 저혈압, 빈맥이 있고 직장검사에서 선명한 혈액이 나온다. 위관 흡인에서는 담즙이 섞인 맑은 위 내용물만 확인되었다. 가장 적절한 다음 처치는?
+63세 남성이 갑자기 발생한 다량의 혈변으로 응급실에 왔다. 수액과 수혈을 시작했지만 선홍색 혈변이 계속된다. 토혈이나 흑색변은 없고, 혈압을 유지해 즉시 CT실로 이동할 수 있다. 출혈 위치를 신속히 찾기 위해 먼저 시행할 검사는?
 
 ## 선택지
 
-A. 혈관조영술
-B. 개복술
-C. 식도위십이지장내시경
-D. 소장내시경
+A. 복부·골반 CT 혈관조영술
+B. 장 정결 뒤 예정된 외래 대장내시경
+C. 소장 캡슐내시경
+D. 복부 단순 X선
 
 ## 해설
 
 
-정답 A. 수액 후에도 악화되는 저혈압·빈맥과 지속성 대량 혈변은 신속한 출혈원 국소화와 지혈이 필요하다. 선택지 중 혈관조영 및 가능한 색전술이 적절하다. 현재는 가능하면 CTA로 먼저 출혈 위치를 찾는 경로도 중요하며 소생과 혈액제제 준비를 병행한다. 담즙 섞인 맑은 위관 흡인만으로 상부 출혈을 절대적으로 배제할 수는 없다.
+혈역학에 영향을 주는 혈변이 계속되면 CT 혈관조영술로 활동성 출혈 위치를 빠르게 찾을 수 있다. 소생을 병행하고 출혈이 확인되면 혈관조영 및 색전술 또는 내시경 지혈로 연결한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 소장내시경
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001010
+- https://pubmed.ncbi.nlm.nih.gov/36735555/

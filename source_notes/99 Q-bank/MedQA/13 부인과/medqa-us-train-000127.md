@@ -14,12 +14,12 @@ related_diseases:
   - "breast cancer"
   - "obesity"
   - "diabetes mellitus type 2"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-58세 비만 여성이 지난 5일간 발생한 통증 없는 폐경 후 출혈로 내원하였다. 최근 시행한 자궁내막 생검에서 자궁내막암이 확인되었으며, 환자는 복식 전 자궁절제술 및 양측 난관난소절제술을 받을 예정이다. 과거력상 복압성 요실금과 제2형 당뇨병이 있다. 초경은 11세, 폐경은 55세였다. 환자는 합병증 없는 임신을 통해 4명의 건강한 자녀를 두었으며, 모두 분유 수유를 하였다. 현재 복용 중인 약물은 국소 에스트로겐과 메트포르민이다. 가족력상 할머니가 80세에 유방암을 진단받은 병력이 있다. 이 환자의 병력 중 유방암 위험 감소와 관련된 것은 무엇인가?
+폐경한 58세 여성이 자궁내막 생검에서 저등급 자궁내막양암으로 진단됐다. 영상에서 자궁 밖 병변은 없고 수술이 가능하다. 기본 수술은?
 
 ## 선택지
 
-A. 비만
-B. 분유 수유
-C. 자궁내막암
-D. 다산(Multiple pregnancies)
+A. 전자궁절제술 및 양측 난관난소절제술, 병기 평가에 따라 감시림프절 평가
+B. 자궁내막 소작술 단독
+C. 자궁경부 원추절제술 단독
+D. 자궁을 보존한 양측 난관난소절제술
 
 ## 해설
 
-보기 중 다산(D)은 유방암의 장기 위험 감소와 관련된다. 임신에 따른 월경 주기 감소와 유방세포 분화 등이 관련되며, 모든 연령·출산 직후 시기의 위험이 일률적으로 낮아진다는 뜻은 아니다. 이 환자는 모두 분유 수유를 했으므로 수유의 별도 보호 효과를 실제 병력으로 부여할 수 없다. 폐경 후 비만이나 분유 수유가 보호 요인은 아니다.
+임신 보존을 고려하지 않는 초기 자궁내막암에는 자궁과 양측 부속기를 제거하는 수술이 기본이다. 림프절 평가는 위험도에 맞추며, 감시림프절 평가를 활용할 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 다산(Multiple pregnancies)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000127
+- https://www.ejgo.org/DOIx.php?id=10.3802%2Fjgo.2024.35.e45

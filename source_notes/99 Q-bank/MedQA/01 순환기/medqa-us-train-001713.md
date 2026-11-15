@@ -19,7 +19,7 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -41,19 +41,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-72세 남성이 외래에 내원했다. 뉴욕심장협회 III등급 심부전이 있고 캅토프릴, 푸로세미드, 염화칼륨, 로수바스타틴 및 아스피린을 복용한다. 대체로 괜찮고 최근 악화는 없으며 양측 하지에 미세한 함요부종만 있다. 다음 중 심부전 치료에 추가할 약물은 무엇인가?
+72세 남성이 좌심실 박출률 30%의 심부전으로 외래 추적 중이다. 사쿠비트릴/발사르탄, 다파글리플로진, 스피로노락톤을 복용한다. 혈압 122/74 mmHg, 맥박 84회/분이고 악화나 울혈 소견은 없다. 예후 개선을 위해 추가할 약물은?
 
 ## 선택지
 
-A. 로사르탄
-B. 메토프롤롤 타르타르산염
-C. 메토프롤롤 숙시네이트
-D. 디곡신
+A. 아테놀롤
+B. 디곡신
+C. 카르베딜롤
+D. 베라파밀
 
 ## 해설
 
 
-중증 HFrEF 환자에게는 베타 차단제 중 장시간 작용형 메토프롤롤 숙시네이트가 표준 치료에 추가된다. 다른 선택지는 이미 복용 중이거나 효과가 제한적이다.
+혈역학적으로 안정된 박출률 감소 심부전에서 카르베딜롤은 사망률 감소 근거가 있는 베타차단제다. 아테놀롤을 같은 근거로 대체하지 않는다. 디곡신은 일부 환자의 입원 감소에 쓰일 수 있지만 예후 개선 베타차단제를 대신하지 않는다.
 
 ## 검수 근거
 
@@ -66,3 +66,4 @@ D. 디곡신
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001713
+- https://doi.org/10.4070/kcj.2023.0047

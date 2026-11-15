@@ -15,9 +15,9 @@ related_diseases:
   - "mobile rubbery breast lesion"
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yErOycoOyEoOyihSAoRmlicm9hZGVub21hKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-29세 여성이 2주 전 발견한 왼쪽 유방 종괴로 내원했다. 3개월 전 왼쪽 가슴을 옷장 문에 부딪힌 뒤 하루 동안 아팠다. 발견 이후 종괴 크기는 변하지 않았고 통증은 없다. 월경은 규칙적인 28일 주기로 5일간 중등도 양이며 마지막 월경은3주 전이었다. 유방은 치밀하고 왼쪽 상외측 종괴는 2.5 cm 크기로 경계가 뚜렷하며 고무처럼 단단하고 잘 움직이며 압통이 없다. 액와 림프절병증은 없다. 다음 중 가장 가능성 높은 진단은?
+29세 여성의 유방 종괴가 3개월 사이 2.5 cm에서 4.5 cm로 커졌다. 중심침생검에서 섬유상피성 병변이 확인됐으나 엽상종양을 배제할 수 없다. 다음 조치는?
 
 ## 선택지
 
-A. 엽상종양
-B. 유방 섬유낭성 변화
-C. 섬유선종
-D. 지방 괴사
+A. 정기 검진만 유지
+B. 절제생검
+C. 유방 전체 방사선치료
+D. 타목시펜 투여 후 재평가
 
 ## 해설
 
 
-경계가 뚜렷하고 고무처럼 단단하며 움직이는 2.5 cm 크기의 종괴는 섬유선종의 전형적인 임상양상이다. 섬유선종은 젊은 여성에게 흔히 나타나는 양성 유방 종양이다. 따라서 가장 가능성 높은 진단은 섬유선종이다.
+빠르게 커지고 중심침생검으로 엽상종양을 배제할 수 없는 섬유상피성 병변은 절제해 전체 조직을 평가한다. 영상과 병리가 일치하는 단순 섬유선종의 관리와 구분한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 지방 괴사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002611
+- https://pubmed.ncbi.nlm.nih.gov/41123921/

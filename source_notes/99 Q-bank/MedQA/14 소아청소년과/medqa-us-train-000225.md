@@ -11,10 +11,10 @@ language: ko
 specialty: 14 소아청소년과
 related_diseases:
   - "developmental delay"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs: []
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -31,18 +31,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-12개월 된 남아를 영유아 검진을 위해 데려왔다. 아이는 임신 38주에 태어났으며 출생 시 신장은 48cm(19인치), 체중은 3061g(6파운드 12온스)이었다. 현재 신장은 60cm(24인치)이고 체중은 7,910g(17파운드 7온스)이다. 아이는 한 손을 잡고 걸을 수 있고 작은 공을 던질 수 있다. 엄지와 검지 손가락으로 물건을 집을 수 있다. '안녕(bye-bye)'이라고 손을 흔들 수 있다. '엄마', '아빠', '어-오(uh-oh)'라고 말할 수 있다. 낯선 사람과 단둘이 남겨지면 운다. 신체 검진상 이상 소견은 없다. 이 아이에게서 가장 지연된 것으로 보이는 것은 무엇인가?
+12개월 아이가 잘 먹고 말과 운동 발달은 또래 수준이다. 같은 방법으로 길이를 다시 쟀는데도 출생 때 45백분위수였던 길이가 6개월에 10백분위수, 현재 3백분위수 아래로 떨어졌다. 적절한 해석은?
 
 ## 선택지
 
-A. 대운동 발달(Gross motor skills)
-B. 성장(Growth)
-C. 미세운동 발달(Fine motor skills)
-D. 사회성 발달(Social skills)
+A. 발달이 정상이므로 키 성장도 정상이다
+B. 첫돌 체중만 정상이면 키 성장 평가가 필요 없다
+C. 한 번의 키가 작은 것이므로 두 돌까지 성장곡선을 보지 않는다
+D. 선형 성장 둔화가 있어 성장곡선과 부모 키, 영양·전신질환 단서를 함께 평가한다
 
 ## 해설
 
-한 손을 잡고 걷기, 집게잡기, 손 흔들기와 간단한 말은 제시된 나이에서 다른 영역의 뚜렷한 지연을 지지하지 않는다. 반면 12개월에 키 60cm는 특히 작은 선형 성장 소견이고 체중 증가도 함께 평가해야 하므로 B의 성장이 지연된 영역이다. 12개월에 대소변 가리기가 보통 완성된다는 기존 설명은 틀리다. 단일 평균 체중과의 비교만으로 판단하지 않고 성장곡선과 측정 정확도를 확인한다.
+키가 한 번 작게 측정된 것보다 같은 성장곡선에서 지속해서 내려가는 것이 더 중요한 단서다. 측정 정확도를 확인한 뒤 성장속도와 유전적 목표 키, 동반 증상을 평가한다.
 
 ## 검수 근거
 
@@ -54,3 +54,4 @@ D. 사회성 발달(Social skills)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000225
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5415

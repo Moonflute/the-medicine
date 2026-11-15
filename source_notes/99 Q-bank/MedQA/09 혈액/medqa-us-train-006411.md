@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
   - MDYg7JWM66CI66W06riwL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTTEUpIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzIChTTEUpKS5tZA
-question_type: mechanism
+question_type: diagnosis
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-38세 여성이 3주 동안 전신 쇠약감과 어지럼증으로 내원했다. 과거력으로 15년 전 진단받은 전신홍반루푸스가 있으며 히드록시클로로퀸과 메토트렉세이트를 복용한다. 특별한 가족력은 없다. 체온은 37.1°C(98.7°F), 혈압은 122/65 mm Hg, 맥박은 분당 100회이다. 신체진찰에서 전반적인 창백함과 황달성 공막이 보인다. 검사 결과 혈색소 7.3 g/dL, 평균 적혈구 혈색소 45 pg/cell, 망상적혈구 6%, 직접 항글로불린검사 양성, 말초혈액도말에서 구형적혈구 7개가 확인되었다. 다음 중 이 환자의 상태 원인을 가장 잘 설명하는 것은?
+루푸스 환자의 혈색소가 떨어지고 황달이 생겼다. 망상적혈구와 간접 빌리루빈이 증가했고 혈액도말에 구형적혈구가 보인다. 직접항글로불린검사에서 적혈구 표면 IgG 양성, C3 단독 양성은 아니다. 가장 가능성 높은 빈혈은?
 
 ## 선택지
 
-A. 적혈구 막 결함
-B. IgG 매개 용혈
-C. IgM 매개 용혈
-D. 만성 염증
+A. 유전구형적혈구증
+B. 한랭응집소병
+C. 온난형 자가면역 용혈성 빈혈
+D. 염증성 빈혈
 
 ## 해설
 
 
-SLE 환자에서 직접 Coombs 검사 양성, 저혈색소증, 구형 적혈구는 IgG가 적혈구 표면에 결합해 파괴되는 온난형 자가면역 용혈성 빈혈을 의미한다. 따라서 원인은 IgG 매개 용혈이다.
+용혈과 적혈구 표면 IgG는 온난형 자가면역 용혈성 빈혈을 지지한다. 구형적혈구는 유전구형적혈구증에도 보이지만 일반적으로 그 질환의 직접항글로불린검사는 음성이다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ SLE 환자에서 직접 Coombs 검사 양성, 저혈색소증, 구형 적혈구�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006411
+- https://onlinelibrary.wiley.com/doi/10.1111/imj.70656

@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yCsOyaleq4sCDsnKDrsKnsl7wgKFB1ZXJwZXJhbCBNYXN0aXRpcykubWQ
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-36세 여성(Gravida 3, Para 3)이 왼쪽 유방 통증으로 산후 진료실에 내원했다. 3주 전 출산했고 유방 통증은 어제 시작되었다. 출생 후 아기에게 모유만 먹이고 있다. 지난 2일 동안 몸이 좋지 않았고 피로감과 근육통이 있었다. 체온은 38.3°C(101°F)이다. 진찰에서 왼쪽 유방 바깥쪽이 붉고 따뜻하다. 다음 중 처치로 가장 적절한 것은?
+출산 3주 된 여성이 수유 중 한쪽 유방의 붉고 아픈 부위와 38.6°C 발열이 이틀째 지속된다. 안정적이고 파동성 종괴는 없다. 세균성 유선염으로 판단했을 때 관리는?
 
 ## 선택지
 
-A. 입원 조치
-B. 항생제를 처방하고 증상이 사라질 때까지 모유수유 중단
-C. 항생제를 처방하고 모유수유를 계속하도록 설명
-D. 이 감염은 보통 며칠 내에 저절로 호전된다고 안심시키고 모유수유 계속 권고
+A. 아기의 평소 수유에 맞춰 수유를 계속하면서 적절한 항생제를 쓴다
+B. 항생제를 시작하면 해당 유방의 수유를 반드시 중단한다
+C. 통증이 가라앉을 때까지 세게 마사지하고 과도하게 유축한다
+D. 농양이 확인되지 않아도 바로 절개·배농한다
 
 ## 해설
 
-발열·전신 증상과 국소 유방 발적·열감은 세균성 수유성 유선염을 의심하게 한다. 선택지 중 항생제와 모유수유 지속(C)이 적절하며 대부분 입원이나 수유 중단이 필요 없다. 평소 영아 요구에 맞춰 수유하고 과도한 펌핑·강한 마사지를 권하지 않는다. 악화·농양 의심 또는 호전 없으면 재평가한다.
+세균성 수유성 유선염에는 항생제를 쓰면서 대부분 수유를 계속할 수 있다. 과도한 유축과 깊은 마사지는 피한다. 호전하지 않거나 파동성 종괴가 생기면 농양 등으로 재평가한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 이 감염은 보통 며칠 내에 저절로 호전된다고 안심시키고 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006501
+- https://pubmed.ncbi.nlm.nih.gov/35576513/

@@ -19,9 +19,9 @@ question_type: management
 related_disease_slugs:
   - MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-24세 남성이 흉부에 여러 발의 총상을 입고 응급실로 이송되었다. 현장에서 반응이 없어 삽관되었고 혈압 87/52 mmHg, 맥박 120회/분이다. 오른쪽 폐에서 호흡음이 감소되고 타진 시 둔탁하며 흉부 X선에서 오른쪽 흉강에 큰 액체가 보인다. 적극적인 수액 소생 후 흉관을 삽입했는데 처음 700 cc의 선혈과 이후 5시간 동안 시간당 300 cc가 나왔다. 추적 X선에서 상당한 잔여 우측 혈흉이 보인다. 다음 중 가장 적절한 다음 단계는?
+흉부 외상으로 흉관을 삽입한 환자가 혈액제제 소생에도 저혈압이다. 흉관으로 매시간 약 300 mL의 피가 3시간 연속 나온다. 다음 조치는?
 
 ## 선택지
 
 A. 흉관을 잠근다
-B. 흉관을 수봉에 연결한다
-C. 흉관을 제거한다
-D. 개흉술
+B. 응급 흉부 수술로 출혈을 통제한다
+C. 흉관을 제거하고 관찰한다
+D. 다음 날 검사를 반복한다
 
 ## 해설
 
 
-흉관 삽입 후 지속적인 혈액 배출(시간당 > 200 mL)은 대량 혈흉으로, 보존적 관리로는 출혈을 멈출 수 없다. 즉시 개흉술을 시행해 출혈 원인을 직접 확인하고 지혈해야 한다.
+흉관으로 많은 양이 계속 나오고 혈역학도 불안정하면 진행 중인 흉강 내 출혈을 신속히 통제해야 한다. 혈액제제 소생과 외상외과 수술을 병행한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003285
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/

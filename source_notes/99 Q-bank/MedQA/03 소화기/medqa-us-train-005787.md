@@ -20,7 +20,7 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 남성이 아버지 장례식에서 울고 난 뒤 수 시간 동안 눈이 노랗고 권태감이 생겨 내원했다. 아버지의 죽음은 예상치 못한 일이었다. 1년 전 2일간 하이킹을 다녀온 뒤에도 비슷한 증상이 있었다. 중증 질환 병력은 없고 복용 약물도 없다. 활력징후는 정상이고 공막에 황달이 있다. 검사에서 혈색소 15 g/dL, 평균 적혈구 용적 95 μm³, 백혈구 6,000/mm³(감별계수 정상), 총 빌리루빈 3.8 mg/dL, 직접 빌리루빈 0.5 mg/dL, LDH 320 U/L, 알칼리성 인산분해효소 70 U/L, AST 22 U/L, ALT 19 U/L, GGT 43 U/L(정상 5~50)이다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+22세 남성이 며칠간 식사를 거른 뒤 눈이 노래졌다가 자연히 좋아지는 일이 반복돼 내원했다. 총 빌리루빈은 3.0 mg/dL, 직접 빌리루빈은 0.3 mg/dL이다. 간효소와 ALP는 정상이고 혈색소·망상적혈구·LDH·합토글로빈에서도 용혈 소견은 없다. 적절한 관리는?
 
 ## 선택지
 
-A. 프레드니손
-B. 농축적혈구 수혈
-C. 페노바르비탈
-D. 안심시키기
+A. 프레드니솔론을 시작한다
+B. 농축적혈구를 수혈한다
+C. 페노바르비탈을 장기 투여한다
+D. 길버트증후군을 설명하고 별도 약물 없이 관찰한다
 
 ## 해설
 
 
-간접 빌리루빈 상승과 스트레스 상황에서의 일시적 황달은 길버트 증후군을 시사한다. 치료가 필요 없으며, 환자를 안심시켜 주는 것이 적절한 관리이다. 따라서 다음 단계는 안심시키는 것이다.
+공복이나 스트레스 뒤 변동하는 간접 빌리루빈 상승에 간효소 이상과 용혈이 없으면 길버트증후군을 의심한다. 특별한 약물치료는 필요 없고, 경과가 전형적이지 않거나 검사 이상이 추가되면 다른 원인을 알아본다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 안심시키기
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005787
+- https://gi.org/guideline/evaluation-of-abnormal-liver-chemistries/

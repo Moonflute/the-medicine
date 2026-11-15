@@ -15,9 +15,9 @@ related_diseases:
   - "parathyroidectomy"
 related_disease_slugs:
   - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
-question_type: management
+question_type: diagnosis
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-45세 남성이 부갑상선호르몬(PTH) 수치 상승으로 인한 고칼슘혈증으로 반복적인 탈수와 신장 결석이 발생하여 부갑상선절제술을 받았다. 수술 후 3일째 되는 날 병동에서 회복 중이다. 체온은 97.6°F(36.4°C), 혈압은 122/81 mmHg, 맥박은 84회/분, 호흡수는 12회/분, 실내 공기에서 산소 포화도는 98%이다. 환자는 현재 입 주위 저림을 호소하고 있다. 이 환자에 대한 가장 적절한 처치는 무엇인가?
+골병변을 동반한 중증 원발성 부갑상샘기능항진증으로 수술한 남성이 수술 3일째 저칼슘혈증을 보인다. 혈청 인과 마그네슘도 낮지만 PTH는 정상 상한이다. 저칼슘혈증을 가장 잘 설명하는 원인은?
 
 ## 선택지
 
-A. 글루콘산 칼슘(Calcium gluconate)
-B. 관찰
-C. 칼륨(Potassium)
-D. 비타민 D
+A. 부갑상샘 기능저하로 인 배설이 감소한 상태
+B. 대량 수혈에 사용된 시트르산의 일시적 영향
+C. 저알부민혈증에 따른 가성 저칼슘혈증
+D. 수술 뒤 뼈로 칼슘과 인이 이동하는 굶주린뼈증후군
 
 ## 해설
 
 
-부갑상선절제술 3일 뒤 입 주위 저림은 수술 후 저칼슘혈증을 의심하게 한다. 일시적 PTH 저하나 hungry bone 현상이 원인이 될 수 있다. 즉시 혈중 이온화/보정 칼슘, 마그네슘과 심전도를 평가하며, 급성 증상성 저칼슘혈증에는 모니터링하에 글루콘산 칼슘을 투여하는 A가 선택지 중 적절하다. 장기 보충은 원인과 정도에 따라 칼슘·활성 비타민 D 등을 조절한다. 본문의 수술은 갑상선절제술이 아니다.
+부갑상샘절제술 후 뼈 재광화가 급격히 늘면 칼슘·인·마그네슘이 함께 떨어질 수 있다. PTH가 낮고 인이 높아지는 수술 후 부갑상샘기능저하증과 구분한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 비타민 D
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000786
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8789028/

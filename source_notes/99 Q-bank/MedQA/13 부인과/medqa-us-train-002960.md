@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-2aoeychCAoVHJhbnN2ZXJzZSBMaWUpLm1k
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 40주인 30세 여성(임신 2회, 출산 1회)이 활동성 진통으로 입원했다. 철결핍성 빈혈이 있었으나 철분 보충제로 치료되었고 첫 임신과 질식분만은 합병증이 없었다. 맥박은 90회/분, 호흡수 15회/분, 혈압 130/80 mmHg이며 복부는 압통이 없고 자궁수축이 느껴진다. 초음파에서 태아의 장축이 산모 자궁 장축에 대해 직각으로 놓여 있다. 태아 심박수는 140회/분으로 반응성이 있고 감속은 없다. 다음 중 가장 적절한 다음 단계는?
+임신 40주 산모의 활동성 진통 중 양막이 이미 파수됐다. 단태아는 초음파에서 지속 횡위이며 어깨가 선진부다. 태아 심박은 아직 정상이다. 분만 방법은?
 
 ## 선택지
 
-A. 옥시토신을 투여하고 정상 질식분만
-B. 산모를 옆으로 눕힌다
-C. 제왕절개
-D. 외회전술
+A. 옥시토신으로 질식분만 유도
+B. 흡입 분만
+C. 관찰하다 심박이 떨어진 뒤 결정
+D. 제왕절개
 
 ## 해설
 
-40주 활동성 진통에서 지속 횡위는 질식분만이 불가능하고 제대탈출·폐쇄분만 위험이 있어 제왕절개(C)가 적절하다. 정상 태아심박 때문이 아니라 태위가 적응증이다. 경부가 정상이라는 정보는 본문에 없다.
+활동성 진통과 파수 상태에서 지속 횡위인 단태아는 질식분만을 할 수 없다. 태아 심박이 정상이어도 제대탈출과 폐쇄분만 위험을 고려해 제왕절개한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 외회전술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002960
+- https://medicalguidelines.msf.org/en/viewport/ONC/english/7-6-transverse-lie-and-shoulder-presentation-51417541.html

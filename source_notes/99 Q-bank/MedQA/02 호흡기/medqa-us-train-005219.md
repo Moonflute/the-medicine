@@ -19,7 +19,7 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 남자가 6개월 동안 과도한 주간 졸림으로 내원했다. 밤에 8~9시간 자고 낮잠을 자도 졸리며 운전이 두렵다. 아내는 밤에 심하게 코를 골고 숨이 막히는 소리가 난다고 한다. BMI 37 kg/m²이고 구인두가 좁으며 혀와 목젖이 크고 연구개가 낮게 위치한다. 수면다원검사에서 무호흡-저호흡 지수는 시간당 8회이다. 체중감량과 규칙적인 수면을 교육한 뒤 다음 단계는?
+55세 남성이 코골이와 목격된 무호흡으로 수면다원검사를 받았다. 무호흡–저호흡지수는 시간당 22회다. 낮에 심하게 졸려 운전 중에도 졸 뻔했다. 체중 관리와 함께 수면 중 기도 폐쇄를 조절할 일차 치료는?
 
 ## 선택지
 
-A. 지속적 양압환기
-B. 구강 내 장치
-C. 보충 산소
-D. 상기도 수술
+A. 지속적 양압기(CPAP) 사용
+B. 산소만 공급한다
+C. 수면제를 추가한다
+D. 체중이 줄 때까지 직접 치료를 미룬다
 
 ## 해설
 
 
-BMI 37 kg/m², 구인두 협착, 코골이, 무호흡‑저호흡 지수가 8/h인 경우는 경증 비만성 폐쇄성 수면무호흡증이다. 생활습관 교정 후에도 증상이 지속되면 지속적 양압환기(CPAP)가 1차 치료이다. 따라서 정답은 지속적 양압환기이다.
+증상이 있는 중등도 폐쇄성 수면무호흡에는 양압기가 기도 폐쇄와 주간 졸림을 줄이는 일차 치료다. 체중 관리도 병행하되, 졸림이 조절될 때까지 운전을 피하도록 안내한다.
 
 ## 검수 근거
 

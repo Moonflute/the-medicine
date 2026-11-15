@@ -13,12 +13,12 @@ related_diseases:
   - "산후 자궁내막염"
   - "제왕절개 후 감염"
   - "클린다마이신-겐타마이신"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yekOq2gSDrgrTrp4kg6rCQ7Je8IOyngOyXsCAoRGVsYXllZCBQb3N0cGFydHVtIEVuZG9tZXRyaXRpcykubWQ
   - MTIg7IKw6rO8L-yCsOyaleq4sCDsnpDqtoEg6rCQ7Je8IChQb3N0cGFydHVtIFV0ZXJpbmUgSW5mZWN0aW9uKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 G1P1001 여자가 제왕절개 3일 후 산후병동에서 회복 중이다. 40주 2일에 둔위로 제왕절개를 받았다. 현재 화농성 분비물과 지속적인 많은 출혈, 배뇨 곤란과 불편감을 호소한다. 산전 과정에서 신우신염이 한 번 발생해 세프트리악손 정맥 투여와 임신 나머지 기간 동안 니트로푸란토인 억제요법으로 치료했다. 체온 38.4°C, 맥박 112회/분, 혈압 118/71 mmHg, 호흡수 13회/분이다. 불편하고 땀이 나며 로키아는 혈전이 섞인 화농성이고 자궁은 약간 물렁하고 부드럽다. 자궁을 움직일 때 경미한 압통이 있다. 가장 적절한 다음 관리는 무엇인가?
+제왕절개 후 자궁내막염으로 정맥 항생제를 3일 투여했는데 여전히 고열과 국소 골반통이 있다. 조영 CT에 배액 가능한 7 cm 골반 농양이 확인됐다. 추가 치료는?
 
 ## 선택지
 
-A. 소변검사와 소변배양
-B. 자궁내막 배양
-C. 클린다마이신과 겐타마이신
-D. 세프트리악손
+A. 이미 항생제를 쓰므로 농양은 따로 치료하지 않는다
+B. 배양을 피하기 위해 항생제를 중단한다
+C. 폐색이나 잔류 태반 증거가 없어도 자궁 소파술만 시행한다
+D. 항생제를 유지하고 영상 유도 배액으로 감염원을 조절한다
 
 ## 해설
 
-제왕절개 후 발열·자궁 압통·화농성 오로는 산후 자궁내막염을 시사한다. 클린다마이신과 겐타마이신 정주 병합(C)은 혐기성균과 호기성 그람음성균을 포함한 다균성 감염을 치료한다. 소변 증상도 평가하되 자궁내막염 치료를 지연하지 않는다.
+적절한 항생제에도 발열이 지속되면 농양 등 감염원을 찾아야 한다. 접근 가능한 큰 골반 농양이 확인되면 항생제와 함께 배액 및 배양을 계획한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 세프트리악손
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004366
+- https://pubmed.ncbi.nlm.nih.gov/38990709/

@@ -18,9 +18,9 @@ question_type: investigation
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4ztjIXthLTrs5EgKEh1bnRpbmd0b24gRGlzZWFzZSkubWQ
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-37세 남성이 2년간 진행되는 얼굴, 몸통, 사지의 빠르고 불수의적이며 반복되지 않는 움직임과 우울증 악화, 불안, 과민성, 실행기능 저하로 진료를 받으러 왔다. 아버지도 비슷한 질환으로 44세에 사망했다. 뇌 MRI에서 예상되는 소견은?
+37세 남성이 2년간 무도운동과 과민성, 계획을 세우기 어려운 증상을 보였다. 아버지도 40대에 비슷한 병을 앓았다. 상담 후 이 환자에서 헌팅턴병을 확인할 검사는?
 
 ## 선택지
 
-A. 정상 뇌 MRI
-B. 미상핵 위축
-C. FLAIR에서 뇌실주위 고신호 병변
-D. 해마 위축
+A. HTT 유전자의 CAG 반복 확장 검사
+B. FXN 유전자의 GAA 반복 확장 검사
+C. PMP22 유전자 중복 검사
+D. DMPK 유전자의 CTG 반복 확장 검사
 
 ## 해설
 
 
-가족력이 있는 진행성 무의식적 움직임과 정신증상은 헌팅턴병을 의심하게 한다. MRI에서 가장 흔히 관찰되는 소견은 기저핵, 특히 미상핵의 위축이다. 따라서 예상되는 소견은 미상핵 위축이다.
+성인기의 진행성 무도운동, 인지·행동 변화와 세대 간 가족력은 헌팅턴병의 단서다. 유전상담과 함께 HTT CAG 반복 확장을 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000885
+- https://www.ncbi.nlm.nih.gov/books/NBK1305/

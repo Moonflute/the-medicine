@@ -13,12 +13,12 @@ related_diseases:
   - "몽고반점"
   - "선천성 진피 멜라닌세포증"
   - "아동학대 감별"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs: []
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ related_drug_slugs:
 
 ## 문제
 
-6개월 남아가 예정된 예방접종을 위해 보호자와 함께 소아과에 왔다. 임신 39주에 정상 질식분만으로 태어났고 모든 예방접종을 최신 일정대로 받았으며 발달 이정표를 충족하고 있다. 전반적으로 건강하지만 보호자는 허리 아래와 엉치뼈 위 피부에 여러 푸른색 변색 반점이 있는 것을 걱정한다. 의무기록상 이 반점은 출생 때부터 있었다. 친가족의 방임과 학대로 인해 아동보호서비스의 보호를 받고 있다. 신체검사에서 활력징후는 정상이고 허리엉치 부위, 엉덩이, 등에 여러 청갈색 반점이 보인다. 촉진 시 부드럽고 압통이 없다. 가장 적절한 다음 관리는 무엇인가?
+6개월 영아의 엉덩이와 엉치에 경계가 흐린 청회색 반점이 있다. 출생 때 진료기록에도 같은 모양과 위치가 적혀 있고 압통이나 변화는 없다. 적절한 처치는?
 
 ## 선택지
 
-A. 안심시키기
-B. 국소 히드로코르티손 크림
-C. 아동보호서비스에 알리기
-D. 골격 방사선 전수검사
+A. 선천성 진피 멜라닌세포증으로 설명하고 위치와 모양을 기록한다
+B. 스테로이드 연고를 즉시 시작한다
+C. 반점만을 근거로 골격 방사선 전수검사를 한다
+D. 색이 남지 않도록 절제한다
 
 ## 해설
 
 
-출생 시부터 존재하는 푸른색 반점은 몽고반점(선천성 진피 멜라닌세포증)이며, 통증이나 압통이 없고 성장과 함께 사라진다. 이는 병적 소견이 아니므로 보호자에게 안심시켜 주는 것이 적절하다.
+출생 때부터 같은 위치에 있던 엉치의 청회색 반점은 선천성 진피 멜라닌세포증에 맞는다. 경과를 기록하면 이후 멍과 혼동하는 일을 줄인다. 새로 생기거나 변하는 병변은 별도로 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004056
+- https://medlineplus.gov/ency/article/001472.htm

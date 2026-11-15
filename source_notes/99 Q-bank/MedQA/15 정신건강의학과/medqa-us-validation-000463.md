@@ -13,12 +13,12 @@ related_diseases:
   - "외상후스트레스장애"
   - "급성스트레스장애"
   - "증상 지속 기간"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yZuOyDgSDtm4Qg7Iqk7Yq466CI7IqkIOyepeyVoCAoUFRTRCkubWQ
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q4ieyEsSDsiqTtirjroIjsiqQg7J6l7JWgIChBY3V0ZSBTdHJlc3MgRGlzb3JkZXIpLm1k
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,23 +35,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 해병대원이 2년 전 아프가니스탄 파병에서 돌아온 뒤 최근 2주간 반복적인 악몽, 전쟁 뉴스 회피, 가족·친구와의 단절, 분노 폭발을 보인다. 외상후스트레스장애가 의심될 때 정확한 진단에 가장 중요한 소견은?
+심각한 사고를 직접 겪은 지 2주 된 환자가 원치 않는 기억과 악몽, 회피와 심한 과각성으로 일을 못 한다. 급성 스트레스장애로 평가됐고 안전은 확보됐다. 지금 제안할 수 있는 치료는?
 
 ## 선택지
 
-A. 증상의 지속 기간
-B. 과각성 상태
-C. 유발 요인 회피
-D. 부정적 기분
+A. 아직 한 달이 안 됐으므로 어떤 치료도 시작할 수 없다
+B. 증상이 생활을 방해하므로 외상 중심 인지행동치료를 제안한다
+C. 모든 사고 경험자에게 일회성 심리 디브리핑을 의무화한다
+D. PTSD를 막기 위해 벤조디아제핀을 장기간 예방 투여한다
 
 ## 해설
 
-PTSD 진단에는 관련 증상 군이 1개월을 넘게 지속되는지 확인해야 하므로 제시된 정보에서 증상 지속 기간이 중요하다. 그러나 증상이 짧으면 언제나 급성스트레스장애가 되는 것은 아니다. 급성스트레스장애는 외상 후 3일~1개월의 시간창과 해당 증상 기준을 충족해야 한다. 이 환자는 외상/파병 복귀 2년 뒤 증상이 최근 2주 지속됐으므로 전체 경과·추가 외상·지연 발현 등을 평가한다.
+외상 후 첫 달이라도 급성 스트레스장애 또는 임상적으로 중요한 외상 후 증상이 있으면 외상 중심 CBT를 제안할 수 있다. 모든 외상 경험자에게 일률적으로 디브리핑을 하는 것과 다르다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000463
+- https://www.nice.org.uk/guidance/ng116/chapter/recommendations
 
 ## 검수 근거
 

@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: prevention
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ related_drug_slugs:
 
 ## 문제
 
-14세 여아가 1주간의 발열, 권태감, 흉통으로 내원했다. 통증은 10점 만점에 6점이고 깊게 숨쉴 때 악화된다. 흉부 중앙에 국한되고 방사되지 않는다. 3주 전 치료 없이 호전된 인후통이 있었다. 중대한 질환 병력은 없다. 체온 38.7°C이며 양쪽 팔꿈치와 손목에 피하결절이 있고 심첨부에서 부드러운 초기 수축기 잡음이 들린다. 혈색소 12.6 g/dL, 백혈구 12,300/mm³, 혈소판 230,000/mm³, ESR 40 mm/시간, ASO 역가 327 U/mL이다. 아스피린과 페니실린 치료 후 증상이 호전되었고 14일 후 심초음파는 정상이다. 다음 중 가장 적절한 치료의 다음 단계는?
+14세 여아가 1주간의 발열, 권태감, 흉통으로 내원했다. 통증은 10점 만점에 6점이고 깊게 숨쉴 때 악화된다. 흉부 중앙에 국한되고 방사되지 않는다. 3주 전 치료 없이 호전된 인후통이 있었다. 중대한 질환 병력은 없다. 체온 38.7°C이며 양쪽 팔꿈치와 손목에 피하결절이 있고 심첨부에서 부드러운 초기 수축기 잡음이 들린다. 혈색소 12.6 g/dL, 백혈구 12,300/mm³, 혈소판 230,000/mm³, ESR 40 mm/시간, ASO 역가 327 U/mL이다. 아스피린과 페니실린 치료 후 증상이 호전되었고 14일 후 심초음파는 정상이다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

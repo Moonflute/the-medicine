@@ -16,9 +16,9 @@ related_diseases:
   - "HIV screening"
 related_disease_slugs:
   - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
-question_type: investigation
+question_type: management
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-이전에 건강했던 28세 여성이 5일 동안의 하복부 통증과 화농성 질 분비물로 내원했다. 월경은 20–40일 간격으로 불규칙하고 4–8일 지속된다. 2개월 전 만난 새 파트너와 성생활을 하며 콘돔 사용은 일관되지 않다. 5개월 전 자궁경부 세포검사는 정상이었다. 체온은 39°C (102.2°F), 맥박은 85회/분, 혈압은 108/75 mm Hg이다. 하복부 압통과 양측 서혜부 림프절병증이 있고 골반검사에서 자궁 및 양쪽 부속기 압통과 소량의 혈성 자궁경부 분비물이 보인다. 소변 임신검사는 음성이다. 백혈구 14,500/mm3, ESR 90 mm/h이고 핵산증폭검사에서 의심한 진단이 확인되었다. 세프트리악손과 독시사이클린을 시작했다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+하복부 통증과 자궁경부 움직임 통증이 있는 비임신 환자가 골반염으로 진단됐다. 활력징후가 안정적이고 농양이 없어 외래 치료가 가능하다. 세프트리악손·독시사이클린에 혐기성균 치료를 위해 더할 약제는?
 
 ## 선택지
 
-A. 복부 CT
-B. 질확대경검사
-C. 자궁경부 세포검사
-D. HIV 검사
+A. 아지트로마이신
+B. 메트로니다졸
+C. 플루코나졸
+D. 아시클로버
 
 ## 해설
 
 
-PID로 진단된 환자는 HIV와 매독 및 임균·클라미디아 검사를 함께 받아야 하므로 보기 중 D가 적절하다. HIV 검사는 감염을 확인하고 연계 치료를 제공하기 위한 것이며 단순히 기존 PID 치료 반응 예측만을 위한 검사는 아니다. 현재 표준 PID 항생제에는 anaerobe를 위한 metronidazole도 포함한다. 39°C 고열은 중증도와 입원·주사 치료 필요성을 함께 평가해야 하는 소견이다. 제시된 ceftriaxone+doxycycline만을 완결된 현행 요법이라고 해석하지 않는다.
+골반염 외래 치료는 세프트리악손, 독시사이클린과 메트로니다졸을 병용한다. 메트로니다졸은 혐기성균 범위를 보완한다. 중증이거나 난관난소농양이 있으면 입원 필요성을 평가한다.
 
 ## 검수 근거
 

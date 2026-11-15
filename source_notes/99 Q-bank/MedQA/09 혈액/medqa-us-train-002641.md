@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,7 +38,7 @@ related_drug_slugs:
 
 ## 문제
 
-급성 골수성 백혈병으로 항암치료 중인 51세 남성이 입원 4일째 의식저하가 발생했다. 혈압 94/50 mmHg, 맥박 52회/분, 호흡 14회/분이며 양쪽 폐기저부 수포음과 천명이 있다. 심전도에서 뾰족한 T파와 넓어진 QRS 복합체가 보인다. 다음 중 가장 적절한 치료의 다음 단계는?
+급성 골수성 백혈병으로 항암치료 중인 51세 남성이 입원 4일째 의식저하가 발생했다. 혈압 94/50 mmHg, 맥박 52회/분, 호흡 14회/분이며 양쪽 폐기저부 수포음과 천명이 있다. 심전도에서 뾰족한 T파와 넓어진 QRS 복합체가 보인다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

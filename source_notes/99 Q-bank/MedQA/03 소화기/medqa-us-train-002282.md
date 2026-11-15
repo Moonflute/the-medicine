@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 여성이 반복되는 흉골 뒤 흉통으로 가정의학과를 방문했다. 7개월 동안 비슷한 증상이 있었고 고형식과 액체를 모두 삼키기 어렵다. 최근 8주간 양성자펌프억제제를 복용했지만 음식이 식도에 걸리는 느낌이 계속된다. 통증은 운동과 관련이 없고 위산 역류병 병력도 없다. 현재 통증은 없다. 바륨 연하 X선은 정상이다. 다음 중 이 환자 상태의 진단에 도움이 되는 검사는?
+32세 여성이 수개월째 고형식과 물을 모두 삼키기 어렵고 간헐적으로 가슴이 아프다. 심장 원인은 배제됐고, 위내시경과 식도 생검에서도 협착이나 점막염은 없었다. 식도 운동장애를 확인할 검사는?
 
 ## 선택지
 
-A. 심전도
-B. 상부위장관 내시경
-C. 식도 내압검사
-D. 양성자펌프억제제를 추가로 치료한다
+A. 24시간 식도 산도 검사
+B. 위배출 신티그래피
+C. 고해상도 식도 내압검사
+D. 복부·골반 CT
 
 ## 해설
 
 
-연하곤란과 흉통이 지속되고 바륨 검사까지 정상인 경우, 식도 운동 이상을 의심한다. 식도 내압검사는 식도 연동운동과 비정상적인 수축을 평가하는 표준 검사이다. 따라서 진단에 도움이 되는 검사는 식도 내압검사이다.
+구조 이상과 점막질환이 배제된 연하곤란에서는 고해상도 식도 내압검사로 식도 수축과 위식도 접합부 이완을 평가한다. 바륨 검사에서 특이 소견이 없더라도 운동질환을 배제할 수 없다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 양성자펌프억제제를 추가로 치료한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002282
+- https://doi.org/10.14309/AJG.0000000000000731

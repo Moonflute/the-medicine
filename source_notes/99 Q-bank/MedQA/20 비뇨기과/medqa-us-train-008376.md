@@ -13,11 +13,11 @@ related_diseases:
   - "anabolic steroid use"
   - "male infertility"
   - "testicular atrophy"
-question_type: diagnosis
+question_type: mechanism
 related_disease_slugs:
   - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 남자가 18개월 동안 피임 없이 규칙적으로 성관계를 했지만 임신이 되지 않아 아내와 함께 내원했다. 아내는 가임성이 확인되었다. 환자는 13세에 사춘기가 시작되었고 10년 전 클라미디아 감염을 아지스로마이신으로 치료받았다. 전문 사이클 선수로 매일 3~4시간 훈련하며 국가대표 준비로 스트레스가 많고 식단에 매우 신경 쓴다. 체온 36.5°C(97.7°F), 맥박 50회/분, 혈압 154/92 mm Hg이다. 운동선수 체형과 얼굴·등·가슴의 염증성 구진, 작은 고환이 있다. 불임의 가장 가능성 높은 원인은?
+27세 남성이 난임으로 검사받았다. 근육을 늘리려고 외인성 안드로겐을 수개월간 사용했다. 고환은 작고 정자 수, LH, FSH가 모두 낮다. 정자 수가 감소한 기전은?
 
 ## 선택지
 
-A. 단백동화 스테로이드 사용
-B. 마찰로 인한 열
-C. 신경성 식욕부진
-D. 칼만증후군
+A. 정관의 기계적 폐쇄
+B. 음성 되먹임에 의한 성선자극호르몬 분비 억제
+C. 프로락틴 분비 증가가 반드시 동반
+D. 고환 내 테스토스테론 과다에 의한 정자 배출 증가
 
 ## 해설
 
-염증성 여드름, 운동선수 체형과 작은 고환은 A, 외인성 단백동화 안드로겐 사용을 시사한다. 외인성 안드로겐은 LH/FSH 분비를 억제하고 고환 내 testosterone과 정자형성을 감소시켜 고환 위축·난임을 일으킬 수 있다. 정상 사춘기 시작과 현재 virilization은 선천성 GnRH 결핍을 덜 지지한다. 본문에 고지혈증 검사 결과는 없다.
+외인성 안드로겐은 LH와 FSH를 낮춰 고환 내 테스토스테론과 정자 형성을 떨어뜨릴 수 있다. 임신을 계획하는 남성에서 외인성 테스토스테론을 난임 치료로 쓰지 않는다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 칼만증후군
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008376
+- https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/male-infertility

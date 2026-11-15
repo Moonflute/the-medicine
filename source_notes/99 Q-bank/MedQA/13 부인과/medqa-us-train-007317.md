@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: simple
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -33,7 +34,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-31세 여자가 정기 자궁경부 세포검사를 위해 산부인과에 내원했다. 3년 전 자궁경부 세포검사는 정상이었다. 이번 검사에서 의미불명 비정형 편평세포(ASC-US)가 발견되었고 반사 HPV 검사에서 양성이다. 다음 중 가장 적절한 다음 단계는 무엇인가?
+31세 여자가 정기 자궁경부 세포검사를 위해 산부인과에 내원했다. 3년 전 자궁경부 세포검사는 정상이었다. 이번 검사에서 의미불명 비정형 편평세포(ASC-US)가 발견되었고 반사 HPV 검사에서 양성이다. 가장 적절한 다음 단계는 무엇인가?
 
 ## 선택지
 

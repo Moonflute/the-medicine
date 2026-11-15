@@ -19,7 +19,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-28세 여자가 두통으로 일차진료의를 찾아왔다. 몇 주마다 오른쪽에 박동성 두통이 발생하며 수년 전부터 시작되었다. 오심과 시야의 밝은 반점이 동반된다. 몇 시간 동안 어둡고 조용한 방에 가만히 누워 있으면 대개 호전된다. 발작 중 근력저하, 감각저하, 저림은 없다. 여드름, 갑상선기능저하증, 비만, 자궁내막증 병력이 있으며 레보티록신, 경구피임약, 국소 트레티노인을 사용한다. 일주일에 여러 번 저녁 식사와 함께 와인 두 잔을 마시고 흡연한 적은 없다. 신체검사에서 국소 신경학적 결손은 없다. 머리 CT는 급성 이상이 없다. 다음 중 발작 중 가장 적절한 치료는 무엇인가?
+28세 환자가 반짝이는 지그재그 선이 20분간 보인 다음 한쪽 머리가 욱신거린다고 한다. 조짐 편두통으로 판단했다. 현재 에스트로겐 함유 복합 피임약을 복용한다. 피임 상담은?
 
 ## 선택지
 
-A. 아세타졸아미드
-B. 고유량 산소
-C. 베라파밀
-D. 수마트립탄
+A. 에스트로겐이 없는 피임 방법으로 전환을 상의한다
+B. 비흡연자이므로 복합 피임약을 계속한다
+C. 에스트로겐이 든 패치로 바꾸면 위험이 없다
+D. 피임약과 저용량 아스피린을 함께 쓰면 위험을 없앨 수 있다
 
 ## 해설
 
-반복되는 일측 박동성 두통, 구역과 시각 전조, 조용하고 어두운 곳에서의 호전은 편두통을 시사한다. 보기 중 급성 발작 치료에는 sumatriptan(D)이 적합하다. 약제는 금기·동반질환과 이전 반응에 따라 선택하며, 모든 환자에서 유일하게 가장 효과적인 약이라는 뜻은 아니다. 산소는 주로 군발두통 급성 치료에, verapamil은 군발두통 예방에 사용한다.
+조짐 편두통에서는 허혈성 뇌졸중 위험 때문에 에스트로겐 함유 복합 호르몬 피임을 피한다. 프로게스틴 단독이나 비호르몬 방법을 함께 검토한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 수마트립탄
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007479
+- https://www.cdc.gov/contraception/hcp/usmec/combined-hormonal-contraceptives.html

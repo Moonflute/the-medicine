@@ -17,7 +17,7 @@ question_type: prevention
 related_disease_slugs:
   - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-20세 초임부가 10월에 첫 산전 진료를 위해 내원했다. ‘자연분만’을 원해 방문을 미루었지만 평소보다 피곤해져 최근 검진을 받기로 했다. 현재는 건강하다고 느낀다. 초경은 12세였고 월경은 규칙적인 28일 간격으로 3~7일간 지속되었다. 2년 전 멕시코에서 이주했다. 예방접종 기록은 확인할 수 없다. 골반검사에서 자궁 크기는 임신 28주에 해당했다. 검사 결과는 혈색소 12.4g/dL, 백혈구 8,000/mm³, 혈액형 B 음성, 혈청 포도당 88mg/dL, 크레아티닌 1.1mg/dL, TSH 3.8μU/mL, 신속혈장리아진 음성, HIV 항체 음성, B형간염 표면항원 음성이었다. 소변검사와 소변배양은 정상 및 음성이었고, 클라미디아·임질 검사도 음성이며 자궁경부 세포검사는 정상이다. 현재 가장 적절한 백신 접종은 무엇인가?
+임신 28주 산모가 이전 임신 때 백일해 포함 Tdap을 맞았다. 이번 임신에서는 아직 맞지 않았다. 국내 권고에 따른 설명으로 적절한 것은?
 
 ## 선택지
 
-A. Tdap과 인플루엔자
-B. 수두와 Tdap
-C. 수두와 인플루엔자
-D. B형간염과 MMR
+A. 이전 임신 때 맞았으면 이번에는 필요 없다
+B. 출생 초기 아기를 보호하기 위해 이번 임신에도 27–36주에 Tdap을 권한다
+C. 생백신이므로 이번 임신 중에는 맞을 수 없다
+D. 접종 대신 신생아가 첫 접종할 때까지 기다리는 것이 같은 효과다
 
 ## 해설
 
-28주에는 매 임신 27–36주 Tdap과 계절 인플루엔자 주사용 백신(A)이 적절하다. 인플루엔자는 어느 임신 시기에도 투여 가능하다. 수두·MMR 생백신은 임신 중 금기이지만 B형간염 백신은 필요시 임신 중 접종할 수 있어 일괄 비권장이라고 하지 않는다.
+임신 27–36주 Tdap 접종은 모체 항체가 태반을 통해 전달돼 아기가 첫 백신을 접종하기 전 백일해 위험을 줄인다. 이전 임신 접종과 별도로 이번 임신의 접종을 권한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. B형간염과 MMR
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008463
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6953

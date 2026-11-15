@@ -20,9 +20,9 @@ related_disease_slugs:
   - MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k
   - MDEg7Iic7ZmY6riwL-2XiO2YiOyEsSDsi6zsp4jtmZgubWQ
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -41,18 +41,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-37세 남성이 심한 안구 통증으로 응급실에 내원하였다. 환자는 건설 노동자이며 금속 빔을 드릴로 작업하던 중 갑자기 오른쪽 눈에 날카로운 통증을 느꼈다고 보고하였다. 그 이후로 오른쪽 눈의 시야가 흐릿해 보이고 눈물이 멈추지 않는다고 한다. 환자의 과거력상 제2형 당뇨병과 고혈압이 있다. 복용 중인 약물은 메트포르민(metformin), 캡토프릴(captopril), 로바스타틴(lovastatin)이다. 어머니는 녹내장이 있고, 형제와 아버지는 모두 관상동맥질환이 있다. 신체 검진상 오른쪽 눈에 결막 충혈이 관찰되며 눈꺼풀의 명백한 열상이나 외안근 운동의 결함은 없다. 동공은 양측 대칭적이며 빛에 반응한다. 구심성 동공 운동 장애(afferent pupillary defect)는 관찰되지 않는다. 반대쪽 눈의 시력은 20/20이다. 환자는 통증 때문에 오른쪽 눈의 시력 검사 참여를 거부하고 있다. 다음 중 가장 적절한 초기 관리 단계는 무엇인가?
+금속을 절단하던 37세 남성이 갑자기 눈이 아프고 시력이 떨어졌다. 동공이 뾰족하게 변형됐고 고속 금속 이물에 의한 안구 파열이 의심된다. 안과에 응급 연락하며 먼저 할 조치는?
 
 ## 선택지
 
-A. 플루오레세인 염색(Fluorescein stain)
-B. 안와 자기공명영상(Orbital MRI)
-C. 안압 측정(Tonometry)
-D. 국소 코르티코스테로이드(Topical corticosteroids)
+A. 안압을 재서 파열을 확인한다
+B. 안와 MRI부터 시행한다
+C. 눈을 압박 붕대로 감는다
+D. 눈을 누르지 않는 단단한 보호대를 댄다
 
 ## 해설
 
-금속 드릴 작업 후 통증·눈물·시야흐림은 각막 이물/상피 손상뿐 아니라 관통상과 안구내 금속 이물도 의심해야 한다. 주어진 선지 중 플루오레세인(A)은 세극등에서 상피결손과 방수 유출(Seidel)을 평가하는 데 적절하다. 다만 명백한 개방성 안구손상이 의심되면 눈을 누르거나 불필요하게 조작하지 않고 보호대와 긴급 안과 평가를 우선한다. 금속 이물 가능성이 있으면 MRI는 피하고 필요 시 안와 CT를 사용한다. 안압측정·국소 스테로이드를 먼저 시행하지 않는다.
+고속 금속 외상 뒤 시력 저하와 동공 변형은 개방안구손상 경고다. 압박하지 않는 보호대를 사용하고 안압 측정과 불필요한 조작을 피한다. 금속 이물이 의심되면 MRI 대신 CT를 고려한다.
 
 ## 검수 근거
 

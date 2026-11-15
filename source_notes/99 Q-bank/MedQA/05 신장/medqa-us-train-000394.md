@@ -13,7 +13,7 @@ related_diseases:
   - "IgA nephropathy"
 related_disease_slugs:
   - MDUg7Iug7J6lL0lnQSDsvantjKXrs5Hspp0gKElnQU4pIChJZ0EgTmVwaHJvcGF0aHkpLm1k
-question_type: mechanism
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -32,18 +32,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-평소 건강하던 27세 남성이 진한 색 소변과 왼쪽 옆구리 통증으로 응급실에 내원하였다. 환자는 지난 2일간 발열, 인후통, 전신 권태감을 겪었다. 활력 징후는 체온 38.1°C, 혈압 120/82 mm Hg, 맥박 95회/분이다. 가족력상 특이 사항은 없다. 신체 검진에서 편도 비대와 압통을 동반한 앞목 림프절병증(anterior cervical lymphadenopathy)이 관찰된다. 소변 검사에서 20-25개의 적혈구/고배율 시야와 2+ 단백뇨를 보이는 분홍색 소변이 확인되었다. 이 환자의 상태는 다음 중 무엇 때문일 가능성이 가장 높은가?
+27세 남성이 상기도 감염 때마다 육안적 혈뇨를 경험한다. 감염이 없을 때도 사구체성 혈뇨가 남고 24시간 소변 단백이 두 차례 0.8g이었다. 신기능은 안정적이고 생검 금기는 없다. IgA 신병증이 의심될 때 확진을 위해 할 검사는?
 
 ## 선택지
 
-A. 제4형 콜라겐의 유전적 이상
-B. C3 신염 인자(C3 nephritic factor)
-C. 면역 복합체 침착
-D. 미만성 메산지움 IgA 침착
+A. 혈청 총 IgA만 측정한다
+B. 소변 배양만 반복한다
+C. 조영 CT 요로조영술을 시행한다
+D. 신장 생검을 고려한다
 
 ## 해설
 
-인후염과 거의 동시에 나타난 육안혈뇨·단백뇨는 IgA 신병증에 합당하며 보기 중 D, 메산지움 IgA 침착이 가장 구체적인 설명이다. IgA를 포함한 면역복합체가 메산지움에 침착해 염증을 일으킨다. 다른 질환의 상피하 침착물을 'ground glass'라고 부르거나, 수주 뒤 나타나는 감염후 사구체신염과 시점을 혼동하지 않는다.
+성인에서 IgA 신병증이 의심되고 단백뇨가 하루 0.5g 이상 지속되면 생검을 고려한다. 혈청 IgA 농도만으로는 확진할 수 없다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 미만성 메산지움 IgA 침착
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000394
+- https://kdigo.org/guidelines/iga-nephropathy/

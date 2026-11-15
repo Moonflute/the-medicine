@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-uyhO2CtyDsnKDsgqwg66-466eM7ISxIOqxsOuMgCBC7IS47Y-sIOumvO2UhOyihSAoQnVya2l0dC1saWtlIERpZmZ1c2UgTGFyZ2UgQi1jZWxsIEx5bXBob21hKS5tZA
   - MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-67세 여성이 3주 동안 지속된 피로와 악화되는 등·복부 통증으로 내원했다. 과도한 야간 발한과 체중 4.6kg(10파운드) 감소도 있었고 3일 전부터 목이 부었다. 흡연과 음주는 하지 않는다. 4cm 크기의 쇄골상부 무통성 고정 림프절이 만져지고 비장은 왼쪽 늑골연 아래 2cm에서 만져진다. 혈색소 10.4g/dL, MCV 87μm³, 백혈구 5,200/mm³, 혈소판 190,000/mm³, LDH 310U/L이다. 흉부와 복부 CT에서 대동맥 주위, 액와, 종격동, 경부 림프절이 크게 커져 있고, 림프절 조직검사에서 높은 증식지수와 CD20 양성 림프구가 보인다. 가장 가능성 높은 진단은 무엇인가?
+67세 환자에게 3주 사이 커진 무통성 쇄골상부 림프절과 야간발한, 체중감소가 있다. 영상에서 여러 림프절이 커져 있고 쇄골상부 림프절은 안전하게 절제할 수 있다. 림프종의 조직 아형을 처음 확인하기 위한 적절한 검사는?
 
 ## 선택지
 
-A. 변연부 림프종
-B. 미만성 큰 B세포 림프종
-C. 털세포 백혈병
-D. 여포성 림프종
+A. 혈청 LDH만 반복
+B. 림프절 미세침흡인만 시행
+C. PET-CT 모양만으로 림프종 아형을 확진
+D. 접근 가능한 림프절 절제생검
 
 ## 해설
 
 
-짧은 기간에 진행한 큰 림프절, B 증상, LDH 상승과 CD20 양성·높은 증식지수는 선택지 중 미만성 큰 B세포 림프종(B)에 가장 부합한다. 변연부·여포성 림프종은 보통 더 완만한 경과를 보이며 털세포백혈병은 이 임상상과 다르다. 최종 분류에는 절제 조직의 형태와 면역표현형을 함께 평가한다.
+림프종 진단은 조직 구조와 세포 형태, 면역표현형을 함께 평가한다. 가능하면 절제생검으로 충분한 조직을 확보하고, 수술 접근이 어렵다면 중심바늘생검 등을 검토한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 여포성 림프종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009078
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12456099/

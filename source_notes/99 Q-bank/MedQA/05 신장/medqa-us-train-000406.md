@@ -13,7 +13,7 @@ related_diseases:
   - "glomerulonephritis"
 related_disease_slugs:
   - MDUg7Iug7J6lL-yCrOq1rOyytOyniO2ZmC5tZA
-question_type: management
+question_type: investigation
 difficulty: simple
 answer: C
 translation_status: machine-verified
@@ -32,18 +32,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-28세 여성이 추적 관찰을 위해 내원하였다. 2개월 전 재발성 사구체신염으로 좌측 신장 이식 수술을 받았다. 퇴원 당시 크레아티닌 수치는 0.9 mg/dL였다. 환자는 건강하다고 느낀다. 현재 복용 중인 약물은 타크로리무스(tacrolimus)와 아자티오프린(azathioprine)이다. 맥박은 분당 85회, 혈압은 135/75 mmHg이다. 신체 검진상 좌측 하복부에 잘 치유된 수술 흉터가 관찰된다. 그 외 신체 검진상 이상 소견은 없다. 이 환자에게서 약물 부작용으로 인해 모니터링해야 할 것은 무엇인가?
+신장이식 후 타크로리무스를 복용하는 환자가 클래리스로마이신을 처방받은 지 4일 뒤 손떨림과 크레아티닌 상승을 보인다. 약물 상호작용에 의한 신독성이 의심된다. 우선 확인할 항목은?
 
 ## 선택지
 
-A. 잇몸 비대(Gingival hyperplasia)
-B. 간 괴사
-C. 신장 손상
-D. 적혈구 증가증(Polycythemia)
+A. 혈중 클래리스로마이신 최고농도
+B. 혈청 갑상선자극호르몬
+C. 타크로리무스 다음 복용 직전 전혈 최저농도
+D. 소변 담즙산
 
 ## 해설
 
-정답은 C이다. calcineurin 억제제 tacrolimus는 신혈관 수축에 의한 신기능 저하와 만성 구조적 신손상을 유발할 수 있어 creatinine, 전해질 및 약물 노출을 추적한다. 직접 세뇨관 독성 하나로만 설명하지 않는다. 잇몸비대는 cyclosporine에서 더 특징적이며 약제별 부작용을 구별한다.
+클래리스로마이신은 타크로리무스 대사를 억제해 농도를 높일 수 있다. 다음 투여 직전 농도와 신기능·전해질을 확인하고 이식팀과 약을 조정한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 적혈구 증가증(Polycythemia)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000406
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e8bc65e-8048-4073-8e45-570330603000

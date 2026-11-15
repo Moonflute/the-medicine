@@ -15,7 +15,7 @@ related_diseases:
   - "부신피질 호르몬 결핍"
 related_disease_slugs:
   - MDQg64K067aE67mEL-ybkOuwnOyEsSDrtoDsi6Ag6riw64ql7KCA7ZWY7KadKFByaW1hcnkgQWRyZW5hbCBJbnN1ZmZpY2llbmN5KS5tZA
-question_type: management
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -39,18 +39,18 @@ answer_change_reason: "안정된 외래 의심 사례에는 가능한 경우 ACT
 
 ## 문제
 
-30세 남성이 수주 동안 지속된 심한 피로와 쇠약으로 일차 진료를 받으러 왔다. 같은 기간 복통과 변비도 있었고, 지난 2주 동안 체중이 8파운드 감소했다. 과거력과 가족력에는 특이사항이 없다. 체온 37.3°C(99.2°F), 호흡 21회/분, 맥박 63회/분, 혈압 99/70 mmHg였다. 진찰에서 피곤해 보이고 마른 체형이었으며 피부가 청동색으로 변색되어 있었다. 햇빛에 노출되거나 태닝 베드에 누운 적은 없다고 한다. 다음 중 가장 적절한 처치는?
+30세 남성이 수개월간 피로와 체중 감소, 피부 색소 침착을 보인다. 아침 코르티솔은 낮고 ACTH는 높다. 혈압은 안정적이고 구토·의식 변화는 없다. 부신의 코르티솔 생성 능력을 확인할 검사는?
 
 ## 선택지
 
-A. 정맥 플루드로코르티손 투여
-B. 안드로겐 대체요법 시작
-C. 히드로코르티손과 플루드로코르티손을 모두 시작
-D. ACTH 자극검사 시행
+A. 저용량 덱사메타손 억제검사
+B. 24시간 소변 유리 코르티솔
+C. 뇌하수체 MRI 단독
+D. 코신트로핀 자극검사
 
 ## 해설
 
-정답은 D이다. 수주간의 쇠약·체중 감소·색소침착과 낮은 혈압은 일차 부신기능저하증을 의심하게 한다. 그러나 의식저하·쇼크·지속 구토 등 부신위기를 시사하는 급성 중증 소견이 제시되지 않았으므로 가능한 상황에서 cortisol/ACTH를 평가하고 ACTH 자극검사로 확진한다. 확진된 일차 부신기능저하증에는 glucocorticoid와 필요 시 mineralocorticoid를 보충한다. 위기가 의심되면 검사 결과를 기다리지 않고 hydrocortisone과 수액을 즉시 투여해야 하며 이 예외를 안정된 외래 사례와 혼동하지 않는다.
+안정적인 환자는 코신트로핀 투여 전후의 코르티솔 반응으로 부신기능저하를 평가할 수 있다. 쇼크가 있는 부신위기에서는 이 검사를 기다리지 않고 먼저 치료한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. ACTH 자극검사 시행
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000286
+- https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency

@@ -20,6 +20,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv64uk7Jq0IOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -34,7 +35,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 16주인 34세 초임부가 정기 산전진료를 받는다. 혈청검사에서 AFP와 비포합 에스트리올은 감소하고 hCG와 인히빈 A는 증가했다. 태아 이상에 대한 확진을 빨리 원한다. 다음 중 가장 적절한 치료의 다음 단계는?
+임신 16주인 34세 초임부가 정기 산전진료를 받는다. 혈청검사에서 AFP와 비포합 에스트리올은 감소하고 hCG와 인히빈 A는 증가했다. 태아 이상에 대한 확진을 빨리 원한다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

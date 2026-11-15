@@ -16,9 +16,9 @@ question_type: management
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yVhO2CrOugiOyKpCDqsbTrs5Hspp0gKEFjaGlsbGVzIFRlbmRpbm9wYXRoeSkubWQ
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-30세 남성이 왼쪽 발목 통증으로 일차진료에 내원했다. 가라테 연습 중 갑자기 심한 발목 통증을 느껴 중단했다고 한다. 제1형 당뇨병 병력이 있고 목시플록사신으로 급성 세균성 부비동염을 치료 중이다. 최근 혈당 조절이 잘 되지 않아 인슐린 용량을 늘렸다. 두통에는 이부프로펜, 계절성 알레르기에는 로라타딘을 복용한다. 건강해 보이고 급성 고통은 없다. 왼발을 발등굽힘하면 아킬레스건 부위에 통증이 유발되고 저항에 맞서 발바닥굽힘을 하면 통증이 생긴다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+세균 감염으로 플루오로퀴놀론을 복용하던 환자가 새로 생긴 아킬레스건 통증과 부종을 호소한다. 가장 적절한 조치는?
 
 ## 선택지
 
-A. 항생제를 바꾸고 운동을 피한다
-B. 이부프로펜과 휴식
-C. 정형외과용 발목 보조기
-D. 재활운동과 허용되는 범위의 활동
+A. 약을 유지하고 통증을 참고 운동한다
+B. 약을 중단하고 부하를 피하면서 힘줄 손상과 대체 항생제 필요성을 평가한다
+C. 진통제를 추가하고 기존 약 용량을 늘린다
+D. 아킬레스건에 먼저 스테로이드를 주사한다
 
 ## 해설
 
-Moxifloxacin 투여 중 갑작스러운 아킬레스 부위 통증은 fluoroquinolone 관련 건염·건파열 가능성을 우려하게 한다. 약물을 즉시 중단하고 비퀴놀론 항생제 필요성을 재평가하며 운동과 해당 부위의 부하를 피하는 A가 적절하다. 급성 통증이 없었던 것이 아니며 파열 여부도 평가해야 한다.
+플루오로퀴놀론 관련 건염이나 파열이 의심되면 약을 중단한다. 힘줄에 부담을 주지 말고 손상 정도를 확인하며, 필요하면 원래 감염에 맞춰 다른 항생제를 고른다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ Moxifloxacin 투여 중 갑작스러운 아킬레스 부위 통증은 fluoroquin
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001484
+- https://www.gov.uk/drug-safety-update/fluoroquinolone-antibiotics-must-now-only-be-prescribed-when-other-commonly-recommended-antibiotics-are-inappropriate

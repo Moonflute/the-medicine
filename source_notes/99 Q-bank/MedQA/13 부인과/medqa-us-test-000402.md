@@ -13,7 +13,7 @@ related_diseases:
   - "응급피임"
   - "울리프리스탈"
   - "피임"
-question_type: prevention
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geuCtOyepey5mCAoSW50cmF1dGVyaW5lIERldmljZSkubWQ
 difficulty: standard
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-24세 여성이 전날 남자친구와 피임 없이 성관계를 하여 병원에 왔다. 12세 초경 이후 월경은 규칙적이며 마지막 월경은 3주 전이었다. 중대한 질환 병력은 없으나 특정 장신구와 금속 합금에 알레르기가 있다. 약물은 복용하지 않으며 소변 임신검사는 음성이다. 6개월 후 대학을 졸업할 때까지 임신을 원하지 않는다. 다음 중 가장 적절한 처치는?
+24세 여성이 피임 없이 성관계를 한 지 96시간 뒤 응급피임을 요청했다. 자궁내장치는 원하지 않으며 경구약을 원한다. 국내 허가된 용법에 맞는 선택은?
 
 ## 선택지
 
-A. 구리 함유 자궁내장치 삽입
-B. 미페프리스톤 투여
-C. 울리프리스탈 아세테이트 투여
-D. 데포 메드록시프로게스테론 아세테이트 투여
+A. 레보노르게스트렐 1.5 mg 1회
+B. 데포 메드록시프로게스테론 주사
+C. 울리프리스탈 아세테이트 30 mg 1회
+D. 에티닐에스트라디올 단독 1회
 
 ## 해설
 
-전날 피임 없는 성관계 후 임신을 원치 않으면 울리프리스탈(C)을120시간 이내 가능한 빨리 투여할 수 있다. 이는 응급피임이지 장기 피임은 아니므로 이후 방법을 상담한다. UPA 후 프로게스틴 피임 시작은 보통5일 뒤이며 그동안 장벽 피임이 필요하다. 금속 알레르기는 종류를 확인해야 하지만 구리IUD에 금속이 없다는 기존 설명은 틀리다.
+국내 울리프리스탈 아세테이트는 무방비 성교 후 120시간 이내 가능한 빨리 복용한다. 국내 레보노르게스트렐 응급피임약 허가 시간은 72시간 이내다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ D. 데포 메드록시프로게스테론 아세테이트 투여
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000402
+- https://nedrug.mfds.go.kr/pbp/CCBFC03/getItem?tchmtrId=SU201911240034
+- https://www.who.int/news-room/fact-sheets/detail/emergency-contraception

@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yEneuptO2PkOymnSAoQXNiZXN0b3NpcykubWQ
   - MDIg7Zi47Z2h6riwL-qwhOyniOyEsSDtj5Dsp4jtmZggKEludGVyc3RpdGlhbCBsdW5nIGRpc2Vhc2UpLm1k
-question_type: investigation
+question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-57세 남성이 1년간 운동 시 호흡곤란과 소량의 회백색 가래가 나오는 기침으로 진료를 받으러 왔다. 중국 출신으로 매년 가족을 방문하며 과거 조선소에서 22년간 일했고 13년간 하루 반 갑을 피웠다. 양쪽 폐기저부에서 미세 수포음이 들리고 흉부 X선에서 반점상 침윤과 양측 횡격막 상부 흉막 비후가 보였다. 추가 평가에서 예상되는 소견은?
+57세 남성이 조선소에서 단열재를 다루며 22년간 일했다. 최근 운동 시 호흡곤란이 악화되고 양쪽 폐기저부에서 미세 수포음이 들린다. 고해상도 CT에서 석회화 흉막판과 함께 양쪽 하엽의 흉막하 섬유화가 보인다. 폐 섬유화의 가장 가능성 높은 원인은?
 
 ## 선택지
 
-A. 폐포-동맥혈 산소분압차 증가
-B. 혈성 흉수
-C. 오목한 유량-용적 곡선
-D. 확산능(DLCO) 증가
+A. 장기간 석면 노출에 의한 석면폐증
+B. 단순 흉막판만 있고 폐 실질 질환은 없음
+C. 흡연에 의한 폐기종
+D. 급성 폐색전증
 
 ## 해설
 
 
-석면폐증은 폐포-동맥혈 산소분압 차이가 증가하고, 확산능(DLCO)이 감소한다. 환자의 작업력과 흉부 X선 소견이 이를 시사한다. 따라서 폐포-동맥혈 산소분압 차이 증가가 예상되는 소견이다.
+잠복기가 긴 직업성 석면 노출이 있고 하엽·흉막하 중심의 폐 실질 섬유화가 있으면 석면폐증을 의심한다. 흉막판은 노출을 뒷받침하지만 흉막판만으로 폐 실질의 석면폐증을 진단하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 확산능(DLCO) 증가
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001238
+- https://www.sjweh.fi/article/3462

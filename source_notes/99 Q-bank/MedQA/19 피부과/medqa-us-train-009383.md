@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-q0keyEoCDqsIHtmZTspp0gKEFjdGluaWMgS2VyYXRvc2lzKS5tZA
 difficulty: simple
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-68세 남자가 3개월 전부터 두피에 피부 변화가 있어 내원했다. 병변의 딱지를 긁어내도 며칠 후 다시 생기고 가끔 두피가 가렵거나 화끈거린다. 5년 전 오른쪽 전완의 점을 제거했다. 은퇴한 포도주 양조업자이며 활력징후는 정상이다. 두피에 거칠고 각질이 있는 반점이 여러 개 보인다. 가장 가능성 높은 진단은 무엇인가?
+68세 남성의 오래 햇빛에 노출된 정수리에 거친 사포처럼 만져지는 작은 인설성 반점이 여러 개 있다. 단단한 결절이나 궤양은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 각화극세포종
-B. 광선각화증
-C. 보웬병
-D. 무색소 흑색종
+A. 지루각화증
+B. 편평세포암
+C. 광선각화증
+D. 기저세포암
 
 ## 해설
 
-고령의 만성 광노출 부위인 두피에 다발 거친 각화성 반점이 생기고 인설이 반복되는 것은 광선각화증(B)에 합당하다. 이는 국소 자외선 손상과 관련된 각질형성세포 병변이지 전신 소견을 뜻하지 않는다. 선택지의 빠른 돔형 종괴·균일하지 않은 색소 종양 등과 형태가 다르다.
+만성 광노출 부위의 작고 거친 인설성 반점은 광선각화증에 전형적이다. 두꺼워지거나 궤양이 생기고 단단해지는 병변에서는 편평세포암을 따로 평가한다.
 
 ## 검수 근거
 

@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jik7Iqk6rW_LeyKkOudvO2EsCDrs5EgKE9zZ29vZC1TY2hsYXR0ZXIgRGlzZWFzZSkubWQ
 difficulty: standard
-answer: "A"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -43,18 +43,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-13세 남아가 일주일 동안 지속된 오른쪽 무릎 통증으로 응급실에 왔다. 조깅과 계단 오르기에서 통증이 악화된다. 무릎 외상은 없었고 그 외에는 건강하다. 학교 체조팀에서 활동적으로 운동한다. 활력징후는 정상이었다. 오른쪽 무릎 근위 경골에 압통성 종창이 있으나 운동 범위는 정상이었다. 저항을 받으며 무릎을 펴면 앞쪽 근위 경골에 통증이 생겼고 나머지 진찰은 정상이었다. X선에서 경골결절의 분절과 앞쪽 경골 연조직 부종이 보였다. 다음 중 가장 적절한 처치는?
+13세 운동선수가 달리거나 점프할 때 무릎 아래가 아프다. 경골결절에 국소 압통이 있고 무릎은 잘 움직인다. 갑작스러운 외상은 없다. 오스굿-슐라터병의 초기 치료는?
 
 ## 선택지
 
-A. 통증에 맞춘 활동 조정, 얼음찜질·스트레칭 및 필요시 연령에 적절한 진통제
-B. 관절 천자
-C. 결절 개방 정복
-D. 하퇴 석고붕대 적용
+A. 통증을 유발하는 운동량을 조절하고 스트레칭을 시작한다
+B. 경골결절에 즉시 내고정술을 한다
+C. 매주 관절액을 흡인한다
+D. 모든 스포츠를 영구적으로 중단한다
 
 ## 해설
 
-성장기 운동선수의 경골결절 압통과 신전 저항 시 통증, 경골결절의 분절은 Osgood–Schlatter 병에 합당하다. 대개 통증을 유발하는 활동을 조절하고 얼음찜질, 대퇴사두근·햄스트링 스트레칭, 필요시 적절한 진통제로 치료한다. 경구 케토롤락을 소아의 통상적 초기 치료로 선택하지 않는다. 관절 천자나 수술이 필요한 관절 감염·전위 골절을 시사하는 상황도 아니다.
+성장기 경골결절의 반복 견인으로 통증이 생길 수 있다. 증상을 기준으로 부하를 줄이고 대퇴사두근·햄스트링 유연성을 개선한다.
 
 ## 검수 근거
 

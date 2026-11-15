@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
   - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
-question_type: mechanism
+question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-58세 백인 여성이 제2형 당뇨병과 3A기 만성콩팥병으로 연례 검진을 받는다. 추정 GFR은 이전과 변하지 않았지만 부갑상선 호르몬이 중등도로 상승했다. 다음 중 이 새로운 소견을 설명하는 것은 무엇인가?
+투석하지 않는 3b기 만성콩팥병 환자의 온전한 PTH가 세 차례에 걸쳐 상승했다. 교정 칼슘은 낮은 정상 범위이고 인과 비타민 D 상태는 최근 검사하지 않았다. 다음으로 할 조치는?
 
 ## 선택지
 
-A. 인산염 저류
-B. 고요산혈증
-C. 고칼슘혈증
-D. 요독증
+A. 칼슘·인·25-하이드록시비타민 D와 인 섭취를 확인하고 교정 가능한 원인을 관리한다
+B. PTH 상승만으로 고용량 칼시트리올을 시작한다
+C. 부갑상선절제술을 바로 의뢰한다
+D. 칼슘·인 수치와 관계없이 시나칼세트를 시작한다
 
 ## 해설
 
-CKD에서는 인산 배설 능력이 줄어 인산 저류가 생기고, 활성 비타민 D 감소 등과 함께 이차성 PTH 상승을 자극할 수 있다(A). 초기에는 PTH·FGF23 등의 보상으로 혈청 인이 정상 범위에 남아 있어도 체내 인산 처리 부담은 증가할 수 있다. 배설 감소가 직접 혈청 인 감소를 일으킨다는 설명은 반대다.
+비투석 만성콩팥병에서 PTH가 지속적으로 오르면 인 부담, 저칼슘, 비타민 D 결핍 등 교정 가능한 원인을 먼저 평가한다. 칼시트리올을 모든 비투석 환자에게 일률적으로 사용하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ CKD에서는 인산 배설 능력이 줄어 인산 저류가 생기고, 활성 �
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002022
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6340919/

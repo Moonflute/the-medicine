@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjIztgqjsiqgg7Kad7ZuE6rWwIChQYXJraW5zb25pc20pLm1k
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,21 +36,22 @@ related_drug_slugs:
 
 ## 문제
 
-67세 남성이 주로 떨림을 호소하며 일차진료를 받으러 왔다. 약 한 달 전 아내가 TV를 보던 중 오른손이 비정상적으로 움직이는 것을 발견하면서 증상이 시작되었다. 떨림은 주의를 다른 곳으로 돌리면 심해지고 양치질이나 머리 빗기처럼 목적 있는 동작을 하면 호전된다. 스트레스를 받을 때 가끔 두통이 있다. 아내는 그가 자세를 구부정하게 하고 걷는다고 하며, 본인은 잠을 계속 유지하기 어렵다고 한다. 과거력으로 편두통, 범불안장애, 고혈압 및 고지혈증이 있다. 신체검사에서 팔을 뻗으면 떨림이 호전된다. 보행검사에서 구부정한 자세와 짧은 보폭이 관찰된다. 다음 중 이 환자 증상에 가장 효과적인 치료는 무엇인가?
+67세 환자가 한쪽 안정떨림, 서동과 경직으로 파킨슨병 진단을 받았다. 옷 입기와 보행이 어려워 운동증상 치료를 원한다. 가장 적절한 초기 약물은?
 
 ## 선택지
 
-A. 아만타딘
-B. 카비도파-레보도파
-C. 셀레길린
-D. 트리헥시페니딜
+A. 레보도파와 카비도파
+B. 트리헥시페니딜
+C. 프로프라놀롤
+D. 도네페질
 
 ## 해설
 
 
-파킨슨병의 휴식 시 떨림은 도파민 전구체인 레보도파와 효능을 높이는 카비도파 조합이 가장 효과적이다.
+운동증상 때문에 일상에 지장이 있는 파킨슨병에서는 레보도파를 초기 치료로 고려한다. 카비도파는 말초에서 레보도파의 분해를 줄인다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005696
+- https://www.aan.com/Guidelines/home/GetGuidelineContent/1049

@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ychOy2leyEsSDsp4jsl7wgKEF0cm9waGljIFZhZ2luaXRpcykubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-54세 여성이 빈뇨와 배뇨통으로 내원했다. 남편과 함께 왔고 하루 6~8번 화장실에 간다. 소변줄기 끝에 통증이 있으며 발열, 복통, 질 분비물 또는 혈뇨는 없다. 남편은 성관계 횟수도 줄었다고 한다. 환자는 성욕이 있어도 성관계가 더 이상 즐겁지 않아 죄책감을 느낀다. 마지막 월경은 15개월 전이었다. 고지혈증과 관상동맥질환이 있고 3개월 전 비ST상승 심근경색을 앓았다. 지난 1년 동안 요로감염이 여러 번 있었다. 하루 한 갑 흡연하며 음주와 불법 약물은 하지 않는다. 체질량지수는 32kg/m²이다. 골반 진찰에서 질 건조와 외음부 조직 얇아짐이 보인다. 소변검사에서 포도당 음성, 백혈구 25/고배율시야, 세균 다수, 백혈구 에스터레이스 양성, 아질산염 양성이다. 니트로푸란토인 5일 치료를 처방했다. 다음 중 증상에 대한 추가 관리로 가장 적절한 것은?
+폐경한 54세 여성이 질 건조와 성교통, 배양으로 확인된 반복 방광염으로 내원했다. 현재 급성 감염 치료는 끝났고 폐경 후 출혈이나 유방암 병력은 없다. 질 보습제를 써도 건조가 지속된다. 다음 치료는?
 
 ## 선택지
 
-A. 항생제 예방요법
-B. 국소 클로베타솔
-C. 국소 에스트로겐
-D. 벤라팍신
+A. 경구 전신 에스트로겐을 요로감염 예방 목적으로 우선 사용
+B. 저용량 질 에스트로겐 치료
+C. 국소 고강도 스테로이드 장기 사용
+D. 소변 증상이 없을 때마다 경험적 항생제 투여
 
 ## 해설
 
-급성 방광염 치료와 별도로 폐경 후 건조·위축·성교 불편과 재발 UTI에는 저용량 국소 질 에스트로겐(C)이 도움이 된다. 전신 호르몬요법과는 흡수·위험 특성이 다르며 최근 NSTEMI를 포함한 병력을 검토해 제제와 사용 여부를 개별 결정한다. 전신 에스트로겐을 권고하는 문항이 아니다.
+폐경 비뇨생식기증후군은 저용량 질 에스트로겐으로 건조·성교통을 완화하고 재발 요로감염 위험을 줄일 수 있다. 전신 호르몬요법과는 목적과 전신 노출이 다르다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 벤라팍신
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006808
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12438153/

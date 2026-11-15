@@ -15,9 +15,9 @@ related_diseases:
   - "migratory thrombophlebitis"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_st4zsnqXslZQgKFBhbmNyZWF0aWMgQ2FuY2VyKS5tZA
-question_type: investigation
+question_type: diagnosis
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-67세 남자가 한 달 동안 점점 악화되는 복통, 체중 감소, 전신 피로로 내원했다. 비만, 당뇨병, 고혈압이 있고 메트포르민, 인슐린, 리시노프릴을 복용한다. 흡연자이며 하루 술 3잔을 마신다. 하지에 선형으로 이어지는 여러 개의 압통성 만져지는 종괴가 있다. 다음으로 가장 적절한 처치는 무엇인가?
+67세 남성이 체중 감소와 계속되는 명치 통증으로 왔다. 최근 몇 주 동안 서로 다른 부위에 아픈 피하 정맥줄이 반복됐고 초음파에서 표재성 정맥혈전이 확인됐다. 복부 증상과 반복 혈전을 함께 설명할 원인으로 특히 의심할 것은?
 
 ## 선택지
 
-A. 대장내시경
-B. 복부 CT
-C. 흉부 CT
-D. 하지 초음파
+A. 복강 내 악성종양에 따른 과응고 상태
+B. 단순 만성 정맥부전
+C. 심장성 동맥 색전
+D. 하지 림프부종
 
 ## 해설
 
 
-양측 다리의 반복적 선형 압통성 정맥줄에 복통·체중감소가 동반되어 악성종양 연관 이동성 혈전정맥염을 의심한다. 복부 CT B는 이 환자의 복부·췌장 원인을 평가하는 선택지 중 적절하다. 모든 혈전 환자에서 임상 단서 없이 CT 암 선별을 실시한다는 의미가 아니며 CT만으로 조직학적 확진을 내릴 수도 없다.
+위치가 바뀌는 표재성 혈전정맥염에 뚜렷한 복통과 체중 감소가 동반되면 췌장암 등 복강 내 악성종양을 고려한다. 모든 혈전 환자에서 증상과 관계없이 전신 CT를 찍는다는 뜻은 아니다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 하지 초음파
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009723
+- https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq

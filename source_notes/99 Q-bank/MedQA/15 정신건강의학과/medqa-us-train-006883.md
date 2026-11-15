@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yhsO2YhOuzkSAoU2NoaXpvcGhyZW5pYSkubWQ
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,24 +39,26 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 남성이 노숙인 보호소에서 기이한 행동을 보여 응급실에 이송되었다. 다른 사람과의 접촉을 피하고 직원에게 사람들이 자신의 생각을 읽는 것 같다고 호소했다. 3일 전 보호소 층의 모든 전기제품 플러그를 뽑았는데, 자신에 대한 메시지를 다른 사람에게 전달하는 데 사용된다고 믿었기 때문이다. 조현병이 있으며 리스페리돈을 처방받았지만 불안정한 주거 환경으로 약을 제대로 복용하지 못했다. 흐트러지고 악취가 나며 사고과정은 와해되어 있고 눈맞춤을 하지 않는다. 다음 중 장기 약물치료로 가장 적절한 것은?
+조현병 환자는 경구 리스페리돈을 규칙적으로 복용할 때 증상이 잘 조절됐다. 최근에는 자주 복용을 놓쳐 두 차례 재입원했고, 본인도 매일 약을 챙기지 않아도 되는 방법을 원한다. 적절한 계획은?
 
 ## 선택지
 
-A. 정맥 프로프라놀롤
-B. 경구 할로페리돌
-C. 경구 디아제팜
-D. 근육 내 리스페리돈
+A. 장기지속형 주사제를 설명하고 당사자와 투여 방법·추적을 논의한다
+B. 효과가 있던 약을 모두 중단하고 다음 재발까지 기다린다
+C. 복용을 잊는 문제를 해결하기 위해 같은 약의 복용 횟수를 하루 네 번으로 늘린다
+D. 매일 벤조디아제핀을 항정신병약 대신 복용한다
 
 ## 해설
 
 
-조현병 환자에게 장기 지속형 비정형 리스페리돈 주사는 순응도 향상과 재발 방지에 가장 적절하다.
+약을 먹을 때 반응이 좋아도 복용 누락으로 반복 재발하면 장기지속형 주사제를 검토한다. 환자 선호, 이전 내약성, 제형별 초기 투여 방법과 내원 가능성을 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006883
+- https://www.nice.org.uk/guidance/cg178/chapter/recommendations
+- https://pubmed.ncbi.nlm.nih.gov/41057718/
 
 ## 검수 근거
 

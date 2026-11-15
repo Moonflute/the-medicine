@@ -14,7 +14,7 @@ related_diseases:
   - "vertebral artery occlusion"
   - "dysarthria"
   - "ataxia"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_snbzqs7zshLEg7ZeI7ZiIIOuwnOyekSAoVHJhbnNpZW50IGlzY2hlbWljIGF0dGFjaykubWQ
 difficulty: complex
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-73세 남성이 갑자기 발생한 심한 어지럼증, 연하곤란, 구음장애와 보행불안정으로 내원했다. 증상은 10분 뒤 호전되기 시작했고 발생 35분 뒤에는 미세한 안진과 운동실조만 남았으며, 이후 45분이 지나 완전히 회복되었다. 다음 중 상태의 가장 가능성 높은 원인은?
+73세 환자가 갑자기 겹보임, 삼킴곤란, 구음장애와 심한 보행 불안정을 겪었다. 45분 뒤 모두 회복됐다. 어지럼증 환자에서 이 경과에 가장 맞는 판단은?
 
 ## 선택지
 
-A. 척추동맥 폐색
-B. 중대뇌동맥 폐색
-C. 후대뇌동맥 폐색
-D. 렌티큘로선조체동맥 폐색
+A. 후순환 일과성 허혈을 의심해 응급 평가를 진행한다
+B. 증상이 사라졌으므로 체위성 현훈으로 판단한다
+C. 난청이 없으므로 모든 중추 원인을 배제한다
+D. 전정편두통으로 확정하고 외래에서 예방약만 논의한다
 
 ## 해설
 
-급성 어지럼증·연하곤란·구음장애와 안진·실조는 척추뇌기저동맥계의 뇌간·소뇌 허혈을 시사하여 척추동맥 폐색(A)이 가장 합당하다. 증상은 진료 중 완전히 회복되는 경과로 기술되어 있다. '후두동맥'은 척추동맥의 동의어가 아니며 다른 대뇌혈관 영역의 허혈도 일시적 증상으로 나타날 수 있다. TIA와 소경색의 최종 구분은 조직영상 등을 함께 평가한다.
+겹보임, 연하·구음 장애와 실조가 동시에 갑자기 나타나면 후순환 허혈을 의심한다. 완전히 회복돼도 뇌·혈관 영상과 원인 평가가 시급하다.
 
 ## 검수 근거
 
@@ -56,3 +56,5 @@ D. 렌티큘로선조체동맥 폐색
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003837
+- https://pubmed.ncbi.nlm.nih.gov/37166022/
+- https://doi.org/10.1161/STR.0000000000000375

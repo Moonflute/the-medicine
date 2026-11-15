@@ -18,7 +18,7 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-uwqeq0keyalOq0gOyXreulmCAoVmVzaWNvVXJldGVyYWwgUmVmbHV4KS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JqU66GcIOqwkOyXvCAoVXJpbmFyeSBUcmFjdCBJbmZlY3Rpb24pLm1k
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22개월 여아가 24시간 동안 발열, 보챔, 수유 저하를 보여 응급실에 왔다. 체온은 38.9°C이고 복부 전반에 압통이 있으나 장기비대는 없다. 소변검사에서 혈액 1+, 백혈구 10~15/고배율시야, 많은 세균, 아질산염 양성이며 중간뇨 배양에서 대장균 100,000 CFU/mL가 자랐다. 다음 평가 단계로 가장 적절한 중재는?
+22개월 아이가 배양으로 확인된 발열성 요로감염으로 치료받고 있다. 감수성에 맞는 항생제를 48시간 사용했는데 고열이 계속되고 소변이 잘 나오지 않는다. 요로 폐쇄나 신장 합병증을 평가할 첫 영상은?
 
 ## 선택지
 
-A. 디메르캅토숙신산 신장 스캔
-B. 정맥 신우조영술
-C. 신장 및 방광 초음파검사
-D. 배뇨방광요도조영술
+A. 신장·방광 초음파
+B. 복부 단순촬영
+C. 첫 검사로 배뇨방광요도조영술
+D. 소변배양만 반복하고 영상은 하지 않음
 
 ## 해설
 
-22개월의 첫 발열성 UTI에서 신장·방광 초음파(C)는 수신증 등 구조적 이상을 평가하는 적절한 후속 검사이다. 초음파가 신반흔이나 모든 역류를 정확히 검출하는 검사는 아니다. VCUG·DMSA는 재발, 비전형 경과 또는 초음파 이상 등에 따라 선택한다.
+항생제에 반응하지 않는 발열성 요로감염이나 소변 흐름 이상은 비전형 경과다. 신장·방광 초음파로 수신증과 폐쇄를 우선 평가하고 결과에 따라 추가 영상검사를 정한다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 배뇨방광요도조영술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004896
+- https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002066563
+- https://www.nice.org.uk/guidance/ng224/chapter/Recommendations

@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-q4tOyepeyEsSDquLDtnYkgKFRlbnNpb24gUG5ldW1vdGhvcmF4KS5tZA
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-47세 남자가 식당에서 저녁을 먹던 중 갑자기 숨이 차 아내와 함께 응급실에 내원했다. 20갑년의 흡연력이 있다. 의식은 명료하고 말도 할 수 있지만 중등도의 호흡곤란이 있다. 체온은 37°C(98.6°F), 혈압 85/56 mmHg, 맥박 102회/분, 호흡수 20회/분, 비강 캐뉼라 2L에서 산소포화도 88%이다. 구강인두검사는 정상이다. 기관이 왼쪽으로 편위되어 있고 심폐검사에서 오른쪽 하폐야 호흡음이 감소하며 경정맥 팽창은 없다. 다음 중 가장 적절한 다음 치료 단계는 무엇인가?
+47세 남자가 식당에서 저녁을 먹던 중 갑자기 숨이 차 아내와 함께 응급실에 내원했다. 20갑년의 흡연력이 있다. 의식은 명료하고 말도 할 수 있지만 중등도의 호흡곤란이 있다. 체온은 37°C(98.6°F), 혈압 85/56 mmHg, 맥박 102회/분, 호흡수 20회/분, 비강 캐뉼라 2L에서 산소포화도 88%이다. 구강인두검사는 정상이다. 기관이 왼쪽으로 편위되어 있고 심폐검사에서 오른쪽 하폐야 호흡음이 감소하며 경정맥 팽창은 없다. 가장 적절한 다음 치료 단계는 무엇인가?
 
 ## 선택지
 

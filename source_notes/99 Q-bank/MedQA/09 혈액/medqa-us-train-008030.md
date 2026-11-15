@@ -15,7 +15,7 @@ related_diseases:
   - "thrombocytopenia prognostic marker"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-unjOyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChDTEwpIChDaHJvbmljIEx5bXBob2N5dGljIExldWtlbWlhKS5tZA
-question_type: prognosis
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강했던 65세 남자가 만성 좌측 복부 불편감으로 내원했다. 약 3개월 전부터 조기 포만감과 식사량 감소가 시작되었고 체중이 7 kg 줄었다. 간헐적으로 좌측 어깨 통증도 있다. 최근 신발 공장 생산라인에서 은퇴했다. 맥박 72회/분, 혈압 130/70 mm Hg, 체온 37.8°C(100.1°F)이다. 양측 액와와 우측 서혜부에 압통 없는 림프절병증이 있고 비장이 늑골연 아래 7 cm에서 만져진다. 다음 중 이 환자 상태의 불량한 예후를 가장 강하게 시사하는 것은?
+관찰 중이던 만성 림프구성 백혈병 환자에게 4주 사이 한쪽 쇄골 위 림프절이 빠르게 커졌다. 새 발열·야간발한과 현저한 LDH 상승이 있다. 고등급 림프종 전환을 확인할 다음 조치는?
 
 ## 선택지
 
-A. 말초 림프절병증
-B. 혈소판감소증
-C. 림프구증가증
-D. BCR-ABL 유전자
+A. 말초혈구 수가 안정적이면 6개월 뒤 다시 본다
+B. 필요하면 PET-CT로 표적을 골라 의심 림프절을 조직검사한다
+C. 말초혈액의 성숙 림프구 비율만으로 전환을 확진한다
+D. 생검 없이 기존 백혈병 약만 증량한다
 
 ## 해설
 
 
-고령·무통성 림프절/비장비대의 CLL 의심 맥락에서 선택지 B 혈소판감소는 진행성 골수부전/불량 병기의 중요한 단서다. 다만 면역성 혈소판감소·약물 등도 가능하여 모든 감소가 곧 골수 침윤이라는 뜻은 아니다. BCR::ABL1은 CML 관련이며 CLL의 예후표지로 대신 쓸 수 없다.
+비대칭으로 빠르게 커지는 림프절, 전신 증상과 높은 LDH는 리히터 전환의 단서다. 영상은 표적을 고르는 데 도움이 되며 전환의 확진에는 조직검사가 필요하다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. BCR-ABL 유전자
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008030
+- https://doi.org/10.1002/hem3.70403
+- https://pubmed.ncbi.nlm.nih.gov/40239121/

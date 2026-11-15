@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rp4zshLEg6rK966eJ7ZWYIOy2nO2YiCAoQ2hyb25pYyBzdWJkdXJhbCBoZW1hdG9tYSkubWQ
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-64세 남성이 2주간 점점 심해지는 혼돈과 기억력 저하로 진료를 받으러 왔다. 과거 낙상과 두피 멍, 와파린 복용력이 있으며 INR 2.5였다. 가장 가능성 높은 진단의 치료는?
+와파린을 복용하는 70세 환자가 가벼운 낙상 한 달 뒤부터 혼돈과 한쪽 위약이 점점 심해졌다. CT에서 얇은 막을 따라 넓게 퍼진 만성 경막하혈종과 정중선 이동이 보인다. 항응고 관리를 병행할 때 대표적인 수술은?
 
 ## 선택지
 
-A. 알테플라제
-B. 천공배액술
-C. 도네페질
-D. 티아민 보충
+A. 천공 배액술
+B. 응급 뇌실복강 단락술
+C. 경동맥 내막절제술
+D. 증상과 종괴 효과가 있어도 영상 추적만 시행
 
 ## 해설
 
-항응고제 복용 고령자에서 낙상 뒤 수주에 걸친 두통·구토·인지변화는 경막하혈종을 의심하게 한다. 영상으로 확인한 증상성 만성 경막하혈종의 치료 선택지에는 천공 배액술(B)이 있다. INR 2.5는 심방세동에서 치료범위일 수 있지만 두개내출혈 위험을 없애지는 않는다. 실제 수술 결정과 항응고 역전은 영상, 증상, 출혈 중증도에 맞춰 신경외과와 긴급 평가한다.
+증상과 종괴 효과가 있는 만성 경막하혈종은 신경외과 수술이 필요할 수 있다. 천공을 통한 혈종 배액은 대표적인 방법이다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 티아민 보충
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000131
+- https://pubmed.ncbi.nlm.nih.gov/39523882/

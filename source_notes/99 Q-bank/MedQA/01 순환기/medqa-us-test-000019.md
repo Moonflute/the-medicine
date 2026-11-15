@@ -19,7 +19,7 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 남성이 3일 동안 지속되는 중앙 흉통으로 응급실에 내원했다. 운동과 무관하게 지속되고 날카롭고 심하며 누우면 악화되고 앞으로 기대면 호전된다. 어깨와 목으로 방사되며 과거력은 없다. 진찰에서 몸을 앞으로 기울일 때 호기 말 좌측 흉골연에서 앞뒤로 긁는 듯한 마찰음이 들린다. 흉부 X선은 정상이고 심전도 사진이 제시되어 있다. 다음 중 최적의 치료는?
+29세 남성이 누우면 심해지고 앞으로 숙이면 줄어드는 날카로운 흉통으로 내원했다. 흉골 왼쪽에서 긁는 듯한 심낭 마찰음이 들린다. 고위험 소견이 없는 첫 급성 심낭염으로 판단했다. 약물 금기가 없다면 초기 치료는?
 
 ## 선택지
 
-A. 인도메타신 ± 오메프라졸
-B. 이부프로펜 + 콜히친 ± 오메프라졸
-C. 심낭천자
-D. 심낭절제술
+A. 인도메타신 단독
+B. 이부프로펜과 콜히친
+C. 고용량 프레드니솔론 단독
+D. 아세트아미노펜 단독
 
 ## 해설
 
 
-흉통이 누울 때 악화되고 전방 굴곡 시 마찰음이 들리는 것은 급성 심낭염(심낭염)이다. 초기 치료는 비스테로이드성 소염제와 콜히친을 병용하면 증상이 빠르게 완화된다. 따라서 최적의 치료는 이부프로펜 + 콜히친이다.
+급성 심낭염의 전형적인 체위성 흉통과 심낭 마찰음이다. 금기가 없으면 아스피린 또는 비스테로이드성 항염증제에 콜히친을 더한다. 위장관 보호도 고려한다. 콜히친은 재발 위험을 줄이는 데 도움이 된다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 심낭절제술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000019
+- 유럽심장학회 2025 심근염·심낭염 진료지침: https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/myocarditis-and-pericarditis

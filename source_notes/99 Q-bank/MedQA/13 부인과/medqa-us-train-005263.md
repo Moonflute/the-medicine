@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-28세 여자가 임신 양성으로 내원했다. 자궁경부세포검사에서 고등급 편평상피내병변이 보이고 질확대경검사에서 CIN II와 III가 확인되었다. 임신 5주이며 신체검사는 정상이다. 다음 중 가장 적절한 관리 방법은?
+임신 18주에 질확대경하 표적생검에서 CIN3가 확인됐다. 질확대경과 병리에서 침윤암은 의심되지 않는다. 관리는?
 
 ## 선택지
 
-A. 출산 6주 후 세포검사와 질확대경검사로 재평가
-B. 자궁경관내 소파술
-C. 고리 전기절제술
-D. 진단적 절제술
+A. 임신 중 매 방문마다 자궁경관소파술
+B. 즉시 고리전기절제술
+C. 침윤암 예방을 위해 임신 중 자궁절제술
+D. 임신 중 질확대경 추적을 계획하고 산후 재평가
 
 ## 해설
 
-임신 중 CIN2/3이고 침윤암이 의심되지 않으면 절제치료를 미루고 감시한다. 산후 질확대경은 최소 4주 이후 시행하므로 6주 재평가 A가 보기 중 적절하다. 임신 중 추적 간격은 개별화하며 병변 악화·암 의심 시 생검한다. 자궁경관내 소파술은 금기이고 절제술은 암 의심 때만 고려한다.
+침윤 의심이 없는 임신 중 CIN3에는 일반적으로 즉시 절제하지 않는다. 임신 중 위험도에 맞춰 질확대경 추적을 하고, 병변이 악화되거나 침윤이 의심되면 재생검한다. 산후 질확대경은 분만 후 적어도 4주 뒤에 한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 진단적 절제술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005263
+- https://www.asccp.org/clinical-practice/practice-pearls/tips-for-best-practices-on-management-of-abnormal-cervical-cancer-screening-tests-in-pregnancy/

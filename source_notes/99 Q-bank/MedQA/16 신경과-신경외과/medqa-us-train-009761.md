@@ -14,13 +14,13 @@ related_diseases:
   - "치은 증식"
   - "발작 장애"
   - "Epilepsy"
-question_type: mechanism
+question_type: risk_factor
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsoITspp0gKEVwaWxlcHN5KS5tZA
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,21 +37,23 @@ related_drug_slugs:
 
 ## 문제
 
-36세 남성이 정기 건강검진을 위해 내원했다. 20년 전부터 양팔의 갑작스럽고 주기적인 경련성 움직임과 입맛다심으로 나타나는 발작 장애가 있다. 정맥주사 코카인 사용력이 있다. 체온 37.1°C, 맥박 분당 80회, 호흡수 분당 13회, 혈압 130/75 mmHg이다. 진찰에서 치은 조직이 치아 상부 3분의 1을 덮고 있으며, 가는 기구로 건드리면 잇몸에서 피가 난다. 나머지 진찰은 정상이다. 다음 중 이 환자 증상의 가장 가능성 높은 원인은?
+36세 환자가 뇌전증 약을 오래 복용한 뒤 잇몸이 두꺼워지고 치관 일부를 덮기 시작했다. 이 이상반응과 가장 관련된 약은?
 
 ## 선택지
 
-A. 페니토인
-B. 카르바마제핀
-C. 토피라메이트
-D. 페노바르비탈
+A. 레베티라세탐
+B. 페니토인
+C. 라모트리진
+D. 토피라메이트
 
 ## 해설
 
 
-페니토인은 장기 복용 시 치은 조직 과형성을 일으키는 부작용이 있다. 환자는 치은 비대와 출혈을 보이며, 이는 페니토인 부작용에 해당한다. 따라서 증상의 원인은 페니토인이다.
+페니토인의 알려진 이상반응 중 하나가 치은 비대다. 구강 위생 관리와 치과 평가를 안내하고 항발작약을 바꿀지는 임의 중단 없이 상의한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009761
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1d41925-3be0-42a8-86f8-181569399c5b
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/084349s090lbl.pdf

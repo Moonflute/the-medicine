@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JWE7JewIOqysO2VjeymnSAoWmluYyBEZWZpY2llbmN5KS5tZA
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-42세 남성이 대머리가 되는 것 같아 내원했다. 최근 몇 달 동안 두피에 군데군데 탈모가 생겼고, 지난해 아내가 사망한 뒤 우울했으며 의도치 않게 약 18kg(40lb)이 빠졌다. 항상 피곤하고 음식 맛이 달라져 식욕이 적으며 때때로 물 같은 설사를 한다. 매일 맥주 5~6캔을 마신다. 활력징후는 정상이다. 양쪽 발에 건조하고 인설이 있는 피부와 두피, 겨드랑이, 가슴 및 치골 부위의 반점성 탈모가 있다. 다음 중 탈모를 직접 호전시킬 가능성이 가장 높은 것은 무엇인가?
+장기간 영양 섭취가 부족한 42세 환자에게 설사와 탈모가 있고 입 주변과 손발 끝에 붉고 벗겨지는 발진이 생겼다. 혈중 아연이 낮게 확인됐다. 발진의 원인을 교정할 처치는?
 
 ## 선택지
 
-A. 피나스테리드
-B. 그리세오풀빈
-C. 비타민 A가 풍부한 음식 제한
-D. 아연 보충
+A. 여성형 탈모용 약만 사용한다
+B. 국소 항진균제로만 치료한다
+C. 아연을 보충하고 섭취 부족이나 흡수장애를 교정한다
+D. 비타민 A를 일률적으로 고용량 처방한다
 
 ## 해설
 
 
-건조하고 비늘 모양의 피부와 다발성 탈모는 아연 결핍에 흔히 동반되는 증상이다. 알코올 남용과 영양소 섭취 감소가 아연 결핍을 초래해 모낭 성장 억제와 탈모를 일으킨다. 아연 보충은 모낭 세포 증식을 회복시켜 탈모를 직접 개선한다. 반면 피나스테리드는 남성형 탈모에만 효과가 있어 이번 경우와는 관련이 없다.
+입 주변과 말단의 피부염, 설사와 탈모는 아연 결핍의 단서다. 아연을 보충하고 결핍이 생긴 영양·흡수 문제를 같이 치료한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006016
+- https://pubmed.ncbi.nlm.nih.gov/25147643/

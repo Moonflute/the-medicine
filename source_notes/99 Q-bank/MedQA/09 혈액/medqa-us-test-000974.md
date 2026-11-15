@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-yVheyEsSDruYjtmIggKFBlcm5pY2lvdXMgQW5lbWlhKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67mE7YOA66-8IEIg6rKw7ZWN7KadIChWaXRhbWluIEIgRGVmaWNpZW5jeSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: simple
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-63세 여성이 쇠약감, 어지러움, 두근거림, 혀의 통증을 호소했다. 하시모토 갑상선염 병력이 있고 헤마토크릿은 29%였다. 말초혈액도말에서 7엽 호중구와 큰 타원형 적혈구가 보였으며 하지의 위치감각과 진동감각이 감소했다. 가장 가능성 높은 소견은?
+하시모토 갑상선염 환자에게 대적혈구성 빈혈과 진동감각 저하가 생겼다. 비타민 B12 결핍이 확인됐고 자가면역 위염에 따른 흡수장애를 의심한다. 이 원인을 확인하는 데 우선 도움이 되는 검사는?
 
 ## 선택지
 
-A. G세포 위축
-B. 내인자 항체
-C. 메틸말론산 감소
-D. 항혈전 상태
+A. 항내인자 항체
+B. 항사구체기저막 항체
+C. 항미토콘드리아 항체
+D. 항트랜스글루타미나아제 항체
 
 ## 해설
 
 
-하시모토 갑상선염 병력과 거대적아구성 빈혈·후주 감각저하는 자가면역성 악성빈혈에 의한 B12 결핍을 시사한다. 이 경우 항내인자항체(B)가 나타날 수 있다. 모든 B12 결핍이 항내인자항체 때문인 것은 아니며 메틸말론산은 보통 증가한다.
+항내인자 항체가 양성이면 자가면역 위염에 의한 B12 흡수장애를 뒷받침한다. 음성으로 배제되지는 않아 의심이 높으면 추가 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 항혈전 상태
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000974
+- https://www.nice.org.uk/guidance/ng239/chapter/recommendations

@@ -17,9 +17,9 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-2VreydtOuHqO2YuOultOuqrCDrtoDsoIHsoIgg67aE67mEIOymne2bhOq1sCAoU0lBREgpIChTeW5kcm9tZSBvZiBJbmFwcHJvcHJpYXRlIEFudGlkaXVyZXRpYyBIb3Jtb25lIFNlY3JldGlvbiAoU0lBREgpKS5tZA
   - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
   - MDUg7Iug7J6lL-yggOuCmO2KuOulqO2YiOymnSAoSHlwb25hdHJlbWlhKS5tZA
-question_type: mechanism
+question_type: diagnosis
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-소세포폐암으로 항암화학요법을 받고 lithium과 bupropion으로 양극성장애를 치료 중인 70세 남자가 일주일 동안 기면과 혼돈이 악화되어 내원했다. 혈압 130/70 mmHg, 맥박 100회/분, 호흡수 17회/분, 체온 36.5°C이다. 다른 약물은 metoprolol, valsartan, metformin, insulin이며 진찰상 기면·지남력 저하 외 특이소견은 없다. 혈당 110 mg/dL, 크레아티닌 0.8 mg/dL, 혈청 나트륨 120 mEq/L, 혈청 삼투압 250 mOsm/kg, 소변 나트륨 70 mEq/L, 소변 삼투압 195 mOsm/kg이다. 다음 중 상태의 가장 가능성 높은 원인은?
+70세 남성이 소세포폐암 진단 후 항암치료 전 검사에서 Na 126 mmol/L, 혈청 삼투압 260 mOsm/kg, 소변 삼투압 310 mOsm/kg, 소변 Na 65 mmol/L였다. 체액량은 정상이고 신장·갑상샘·부신기능이 정상이며 이뇨제는 쓰지 않는다. 저나트륨혈증의 원인은?
 
 ## 선택지
 
-A. 암종
-B. 부프로피온
-C. 감염
-D. 리튬
+A. 구토에 의한 체액량 감소
+B. 일차성 다음증
+C. 수액 과다에 의한 고혈량 상태
+D. 항이뇨호르몬 부적절분비증후군(SIADH)
 
 ## 해설
 
 
-저삼투압성 저나트륨혈증에 비해 소변이 충분히 희석되지 않고 urine Na가 높아 SIADH에 부합한다. 소세포폐암의 이소성 ADH 분비 A가 보기 중 가장 가능성이 높다. Lithium은 보통 신성 요붕증과 다뇨를 일으키므로 이 패턴과 반대이지만, 모든 약물 관련 저나트륨혈증을 검사 없이 배제할 수는 없다. 실제 SIADH 진단은 체액 상태, 부신·갑상샘 기능과 약물 등을 함께 평가한다.
+혈청은 저장성인데 소변이 희석되지 않고 소변 Na가 높으며 정상 체액량을 보인다. 다른 원인을 배제하면 SIADH에 해당하고, 소세포폐암에서는 이소성 항이뇨호르몬 분비가 원인일 수 있다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 리튬
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005316
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9351400/

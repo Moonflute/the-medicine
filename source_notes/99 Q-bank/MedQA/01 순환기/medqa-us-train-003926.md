@@ -18,9 +18,9 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cp7IukIOykkeqyqSDqsrDshpAgKEF0cmlvdmVudHJpY3VsYXIgU2VwdGFsIERlZmVjdCkubWQ
   - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
-question_type: diagnosis
+question_type: management
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-2세 남아가 체중 증가 부진과 쉽게 피로해지는 증상으로 내원했다. 호흡곤란 때문에 활동을 거의 하지 못하며 왼쪽 아래 흉골연에서 2/6도 범수축기 잡음이 들렸다. 가장 가능성 높은 진단은?
+4개월 영아가 수유할 때 땀을 흘리고 숨이 차며 체중이 잘 늘지 않는다. 심초음파에서 큰 심실중격결손, 뚜렷한 좌우 단락과 좌심실 용적 부담이 확인됐다. 이뇨제와 영양 관리를 해도 증상과 성장부진이 지속된다. 적절한 다음 조치는?
 
 ## 선택지
 
-A. 심방중격 결손
-B. 심실중격 결손
-C. 대동맥 축착
-D. 팔로 사징
+A. 소아심장팀에 결손의 수술적 폐쇄를 의뢰한다
+B. 약을 중단하고 자연 폐쇄만 기다린다
+C. 발치 전 예방적 항생제만 처방한다
+D. 폐혈류를 늘리기 위해 알프로스타딜을 계속 투여한다
 
 ## 해설
 
-좌하흉골연 범수축기 잡음과 성장부진·호흡곤란은 VSD B에 부합한다. 좌심실에서 우심실로 흐르는 혈액의 좌우단락이 폐혈류/좌심계 용적부하를 증가시킬 수 있다. 전기적 전류를 의미하는 소견은 아니다.
+큰 심실중격결손으로 폐혈류가 과도하고 약물·영양 관리에도 심부전 증상과 성장부진이 지속되면 결손 폐쇄가 필요할 수 있다. 증상이 없고 잘 자라는 작은 근육성 결손의 추적관찰과는 다르다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 팔로 사징
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003926
+- https://www.acc.org/Latest-in-Cardiology/Articles/2023/05/30/10/47/Clinical-Practice-Algorithm-For-the-Follow-Up-of-Unrepaired-and-Repaired-Ventricular-Septal-Defects

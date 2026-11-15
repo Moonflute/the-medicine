@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yekOqwhOymnSAoRWNsYW1wc2lhKS5tZA
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,18 +40,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-건강한 3100 g(6 lb 13 oz) 여아를 출산한 지 6시간 된 40세 G1P1 여성이 병동에서 2분간 전신 강직간대 발작을 갑자기 일으켰다. 발작 전 1시간 동안 두통, 시야 흐림, 복통을 호소했다. 임신 중 임신성 고혈압과 철결핍성 빈혈이 있었고 출산 전까지 라베타롤, 철분, 종합비타민을 복용했다. 체온 37°C, 맥박 95회/분, 호흡수 18회/분, 혈압 152/100 mmHg이다. 뇌신경과 근력은 정상이고 심부건반사는 3+이며 이완기가 짧다. 가장 적절한 다음 처치는 무엇인가?
+출산 5일째 산모가 심한 두통과 시야 흐림으로 응급실에 왔다. 임신 중 혈압은 정상이었으나 15분 간격으로 169/109, 173/112 mmHg가 측정됐다. 발작은 아직 없고 단백뇨 검사 결과는 대기 중이다. 적절한 초기 대응은?
 
 ## 선택지
 
-A. 황산마그네슘
-B. 발프로산
-C. 하이드랄라진
-D. 페니토인
+A. 분만이 끝났으므로 산과 고혈압은 아닌 것으로 본다
+B. 단백뇨가 양성일 때만 응급 치료한다
+C. 산후 자간전증을 의심해 혈압을 신속히 낮추고 황산마그네슘 예방을 평가한다
+D. 두통약만 주고 다음 산후 외래까지 기다린다
 
 ## 해설
 
-산후에도 자간증이 발생할 수 있으며 발작·두통·시야 변화·과반사는 이를 지지한다. Mg(A)는 재발 경련 예방·치료 약물이고 항고혈압제를 대체하지 않는다. 기도·호흡을 평가하고 혈압·장기 손상을 감시하며 중증 지속 고혈압에는 별도 혈압강하제를 투여한다.
+임신 중 혈압이 정상이었어도 출산 후 처음 자간전증이 나타날 수 있다. 지속 중증 고혈압과 새로운 신경 증상은 응급이며 항고혈압 치료와 발작 예방을 검토하고 다른 원인도 평가한다.
 
 ## 검수 근거
 
@@ -63,3 +63,5 @@ D. 페니토인
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009434
+- https://www.nice.org.uk/guidance/ng133/chapter/recommendations
+- https://pubmed.ncbi.nlm.nih.gov/30575639/

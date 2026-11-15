@@ -11,9 +11,9 @@ language: ko
 specialty: 12 산과
 related_diseases: []
 related_disease_slugs: []
-question_type: management
+question_type: prevention
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -30,18 +30,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-24세 여성이 임신 전 상담을 위해 내원하였다. 결혼한 지 2년 되었으며 내년 안에 임신을 계획하고 있다. 월경은 30일 주기로 규칙적이며 4일간 지속되고 양은 정상이다. 흡연이나 음주는 하지 않으며 균형 잡힌 식단을 유지하고 있다. 복용 중인 약물은 없다. 키는 160cm, 체중은 55kg이며 체질량지수(BMI)는 21.5kg/m2이다. 골반 검사를 포함한 신체 검진에서 이상 소견은 없다. 환자는 월경 주기의 가임기에 대해 충분히 알고 있다. 현재 이 환자에게 가장 적절한 권고 사항은 무엇인가?
+임신을 준비하는 24세 여성이다. 신경관결손 임신력이나 항경련제 복용 등 고위험 요인은 없다. 신경관결손 예방을 위해 임신 전부터 권할 것은?
 
 ## 선택지
 
-A. 엽산 보충제 복용 시작
-B. 비타민 B12 보충제 복용 시작
-C. 철분 보충제 복용 시작
-D. 임신 전 2kg 체중 증량
+A. 철분 60 mg/일
+B. 엽산 400 μg/일
+C. 비타민 B12 500 μg/일
+D. 고위험군에 쓰는 고용량 엽산을 일률적으로 복용
 
 ## 해설
 
-건강한 임신 계획 여성에게 신경관 결손 예방을 위한 엽산 400 μg/일을 임신 전부터 권고하므로 A가 적절하다. 균형 잡힌 식사를 해도 엽산 보충이 권장된다. B12·철 등 다른 보충제 필요성은 식사·빈혈·위험인자에 따라 별도로 평가하며 무조건 불필요하다고 단정하지 않는다.
+평균위험군은 보통 임신 최소 1개월 전부터 엽산 400 μg/일을 복용하고 임신 초기에 계속한다. 이전 신경관결손 임신 등 고위험군은 별도로 용량을 상담한다.
 
 ## 검수 근거
 
@@ -53,3 +53,5 @@ D. 임신 전 2kg 체중 증량
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001194
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=7019
+- https://www.cdc.gov/folic-acid/hcp/clinical-overview/

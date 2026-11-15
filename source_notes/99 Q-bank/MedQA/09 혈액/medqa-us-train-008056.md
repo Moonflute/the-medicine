@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: standard
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -37,7 +38,7 @@ related_drug_slugs:
 
 ## 문제
 
-55세 여성이 피로로 내원했다. 증상은 하루 종일 지속되고 4개월 전부터 서서히 시작되었다. 류마티스관절염으로 메토트렉세이트, 제2형 당뇨병으로 메트포르민을 복용한다. 발열은 없고 활력징후는 정상이다. 점막이 창백하고 혈액검사에서 헤모글로빈 7.9 g/dL, 헤마토크릿 22%, MCV 79 fL이다. 다음 중 가장 적절한 다음 진단검사는?
+55세 여성이 피로로 내원했다. 증상은 하루 종일 지속되고 4개월 전부터 서서히 시작되었다. 류마티스관절염으로 메토트렉세이트, 제2형 당뇨병으로 메트포르민을 복용한다. 발열은 없고 활력징후는 정상이다. 점막이 창백하고 혈액검사에서 헤모글로빈 7.9 g/dL, 헤마토크릿 22%, MCV 79 fL이다. 가장 적절한 다음 진단검사는?
 
 ## 선택지
 

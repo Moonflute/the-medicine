@@ -29,7 +29,7 @@ explanation_model: @cf/openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 열사병의 즉시 냉각을 누락한 수액 단독 선택지를 교정"
 curation_status: "revised"
 curation_reason: "열사병의 즉시 냉각을 누락한 수액 단독 선택지를 교정"
@@ -42,7 +42,7 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-23세 남자가 마라톤을 완주한 후 의식변화로 응급실에 왔다. 비만과 불안 병력이 있으나 현재 복용 약물은 없다. 체온 104°F(40°C), 혈압 147/88 mmHg, 맥박 200회/분, 호흡수 33회/분, 산소포화도 99%이다. 점막이 건조하고 피부가 뜨겁고 붉으며 질문에 부적절하게 대답한다. 혈청 Na⁺ 165, Cl⁻ 100, K⁺ 4.0, HCO₃⁻ 22 mEq/L, BUN 30 mg/dL, 포도당 133 mg/dL, 크레아티닌 1.5 mg/dL이다. 다음 중 가장 적절한 다음 처치는?
+23세 남자가 마라톤을 완주한 후 의식변화로 응급실에 왔다. 비만과 불안 병력이 있으나 현재 복용 약물은 없다. 체온 104°F(40°C), 혈압 147/88 mmHg, 맥박 200회/분, 호흡수 33회/분, 산소포화도 99%이다. 점막이 건조하고 피부가 뜨겁고 붉으며 질문에 부적절하게 대답한다. 혈청 Na⁺ 165, Cl⁻ 100, K⁺ 4.0, HCO₃⁻ 22 mEq/L, BUN 30 mg/dL, 포도당 133 mg/dL, 크레아티닌 1.5 mg/dL이다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

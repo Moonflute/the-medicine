@@ -13,12 +13,12 @@ related_diseases:
   - "preeclampsia"
   - "primigravida"
   - "risk factors"
-question_type: risk_factor
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA
   - MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 초임부가 임신 35주에 새로 발생한 하지 부종으로 내원했다. 혈압은 145/90 mm Hg로 15분과 4시간 후에도 변하지 않고 소변검사에서 단백질 2+이다. 임신 전 BMI는 18.2 kg/m2 정도였고 어머니와 이모에게 고혈압 병력이 있다. 다음 중 이 환자 상태의 위험 요인은 무엇인가?
+분만 5일 뒤 산모가 새로 심한 두통과 시야 흐림을 호소한다. 혈압은 168/112 mmHg이고 15분 뒤에도 166/111 mmHg다. 임신 중에는 혈압이 정상이었다. 우선 조치는?
 
 ## 선택지
 
-A. 임신 전 흡연
-B. 초임부
-C. 임신 전 BMI < 18.5 kg/m2
-D. 고혈압 가족력
+A. 산후 중증 고혈압으로 응급 치료하고 자간전증을 함께 평가
+B. 소변 단백 결과가 나올 때까지 혈압 치료 보류
+C. 체액이 빠질 때까지 외래에서 일주일 관찰
+D. 단순 편두통으로 진통제만 투여
 
 ## 해설
 
-20주 이후 새 고혈압이 4시간 간격으로 지속되고 요단백이 있는 임상상은 전자간증을 시사한다. 첫 임신/초임부(B)는 알려진 위험인자다. 그러나 다른 고위험 상태보다 모든 초임부가 가장 위험하다는 뜻은 아니다. 본문 가족의 중년 본태성 고혈압은 가족의 전자간증 병력과 동일하지 않으며, 임신 전 흡연을 보호 전략으로 해석해서도 안 된다.
+임신 중 정상 혈압이었어도 산후 자간전증이 발생할 수 있다. 지속되는 중증 혈압을 신속히 치료하고 장기 이상과 경련 위험을 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 고혈압 가족력
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002024
+- https://pubmed.ncbi.nlm.nih.gov/30575639/

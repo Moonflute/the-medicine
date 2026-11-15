@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 question_type: management
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-33세 남성이 감염병 클리닉에서 추적 진료를 받았다. 최근 발열, 호흡곤란, 기침으로 입원하여 폐포자충 폐렴과 새로 진단된 HIV 감염이 확인되었다. CD4 수는 175이고 바이러스량은 대기 중이다. 정기검사에서 RPR 역가 1:64 양성, FTA-ABS 양성으로 매독이 확인되었다. HIV나 매독에 언제 어떻게 감염되었는지는 모른다. 신경학적 진찰은 정상이고 증상은 없다. 다음 중 가장 적절한 처치는?
+새로 HIV를 진단받은 환자가 RPR과 트레포네마 특이 항체에 모두 양성이다. 매독 치료력이 없고 감염 시점을 알 수 없다. 증상이 없고 신경·안과·이과 진찰도 정상이다. 적절한 매독 치료는?
 
 ## 선택지
 
-A. 요추천자를 시행하고 중추신경계 질환 유무에 따라 치료한다
-B. 페니실린을 1주 간격으로 3회 주사하고 3개월 후 역가를 확인한다
-C. 페니실린을 1주 간격으로 3회 주사하고 6개월 후 역가를 확인한다
-D. 페니실린 1회 주사 후 6개월 후 역가를 확인한다
+A. 벤자틴 페니실린 G를 1회 근육주사한다
+B. 벤자틴 페니실린 G를 1주 간격으로 총 3회 근육주사한다
+C. 높은 RPR 역가만으로 신경매독을 진단해 정맥 치료한다
+D. HIV 치료를 마칠 때까지 매독 치료를 미룬다
 
 ## 해설
 
 
-감염 기간을 알 수 없는 무증상 잠복매독은 벤자틴 페니실린 G를 1주 간격으로 총 3회 투여한다. C처럼 6개월에 첫 혈청 추적을 하고 HIV 동반 잠복매독에서는 12·18·24개월에도 추적한다. 신경·안구·이과 증상/징후가 없으면 CD4 저하나 높은 RPR만으로 일률적 요추천자를 시행하지 않는다.
+기간을 알 수 없는 잠복 매독은 벤자틴 페니실린 G를 주 1회씩 3회 투여한다. HIV 감염이나 높은 RPR 역가만으로 요추천자를 일률 시행하지 않으며, 치료 뒤 정량 역가를 추적한다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 페니실린 1회 주사 후 6개월 후 역가를 확인한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000690
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10925736/
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/syphilis

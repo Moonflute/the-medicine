@@ -15,9 +15,9 @@ related_diseases:
   - "골수억제"
   - "Mycophenolate-induced bone marrow suppression"
 related_disease_slugs: []
-question_type: mechanism
+question_type: adverse_effect
 difficulty: complex
-answer: "C"
+answer: C
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -37,23 +37,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-55세 남성이 중증 다낭성 신장병으로 오른쪽 신장이식을 받은 지 한 달 후 흉통과 요통, 잦은 기침, 하루 5~6회의 묽은 설사와 간헐적 구토로 진료를 받으러 왔다. 창백하고 혈색소 10 g/dL, 백혈구 2,500/mm³, 혈소판 80,000/mm³이다. 다음 중 증상의 가장 가능성 높은 원인은?
+신장이식 1개월 뒤 55세 남성이 묽은 설사와 백혈구 감소를 보인다. 타크로리무스, 미코페놀레이트 모페틸, 프레드니솔론을 복용하고 있으며 적절히 시행한 감염 평가에서 원인이 확인되지 않았다. 두 소견을 함께 설명할 수 있어 이식팀과 우선 재검토할 약은?
 
 ## 선택지
 
 A. 타크로리무스
-B. 다클리주맙
+B. 프레드니솔론
 C. 미코페놀레이트 모페틸
-D. 아자티오프린
+D. 판토프라졸
 
 ## 해설
 
-이식 후 면역억제제 중 mycophenolate mofetil은 설사·구토 등의 GI 독성과 골수 억제를 함께 유발할 수 있어 선택지 중 가장 적합하다. Azathioprine도 골수 억제를 일으키므로 혈구 감소만으로 두 약을 구별하지 않는다. 실제로는 복용약 확인과 감염·다른 독성 원인 평가가 필요하다.
+미코페놀레이트는 설사와 골수억제를 일으킬 수 있다. 이식 직후에는 감염이나 다른 약물도 평가하며, 면역억제제를 임의로 중단하지 않고 이식팀과 조정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001190
+- https://doi.org/10.1111/ctr.13550
 
 ## 오답 포인트
 

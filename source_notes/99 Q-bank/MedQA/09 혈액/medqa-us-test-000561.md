@@ -14,9 +14,9 @@ related_diseases:
   - "완전 채식"
   - "INR 감소"
 related_disease_slugs: []
-question_type: mechanism
+question_type: monitoring
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-55세 남성이 일반 건강검진을 받으러 왔다. 당뇨병, 고혈압, 심방세동이 있어 와파린, 인슐린, 리시노프릴, 메토프롤롤을 복용 중이다. 최근 형이 심장마비로 사망하여 건강을 개선하려고 완전 채식으로 바꾸었다. 체온 98.6°F(37.0°C), 혈압 167/108 mmHg, 맥박 90회/분, 호흡 17회/분, 산소포화도 98%였다. 신체진찰은 정상이었다. 혈색소 12 g/dL, 헤마토크릿 36%, 백혈구 7,550/mm³, 혈소판 197,000/mm³, INR 1.0, 혈청 나트륨 139 mEq/L, 염소 100 mEq/L, 칼륨 4.3 mEq/L, 중탄산염 25 mEq/L, BUN 20 mg/dL, 포도당 99 mg/dL, 크레아티닌 1.1 mg/dL, 칼슘 10.2 mg/dL였다. 이 검사 결과를 가장 잘 설명하는 것은?
+수개월간 와파린 복용량과 INR이 안정적이던 환자가 매일 녹색 잎채소 주스를 새로 마시기 시작한 뒤 INR이 1.5로 떨어졌다. 복약 누락은 없다. 적절한 교육과 대응은?
 
 ## 선택지
 
-A. 식단 변화
-B. 간 대사 증가
-C. 신장 청소율 증가
-D. 약물 복용 불이행
+A. 앞으로 비타민 K가 든 음식은 모두 영구적으로 금지한다
+B. 식단으로 생긴 변화이므로 INR을 더 이상 재지 않는다
+C. INR과 무관하게 와파린을 스스로 두 배로 복용한다
+D. 비타민 K 섭취량을 일정하게 유지하고 INR을 다시 확인해 용량을 조정한다
 
 ## 해설
 
 
-채식 전환으로 비타민 K가 많은 녹색 채소 섭취가 증가했다면 와파린 효과가 감소해 INR이 낮아질 수 있어 A가 가장 타당하다. 비타민 K 섭취 감소는 오히려 INR을 올리는 방향이다. 모든 채식이 같은 함량인 것은 아니므로 실제 섭취와 복약을 확인하고 비타민 K 섭취를 일정하게 유지한다.
+와파린 치료 중에는 비타민 K 섭취량이 갑자기 바뀌지 않도록 한다. 녹색 채소를 무조건 피할 필요는 없고, 식단을 바꿨다면 INR을 추적한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 약물 복용 불이행
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000561
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72d3ea20-27e4-4368-a666-a9b76530dbb9

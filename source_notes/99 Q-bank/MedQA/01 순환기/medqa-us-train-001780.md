@@ -15,9 +15,9 @@ related_diseases:
   - "dyslipidemia"
 related_disease_slugs:
   - MDQg64K067aE67mEL-ydtOyDgeyngOyniO2YiOymnSAoRHlzbGlwaWRlbWlhKS5tZA
-question_type: adverse_effect
+question_type: diagnosis
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-고혈압, 이상지질혈증 및 당뇨병이 있는 63세 남성이 정기 추적진료를 위해 내원했다. 현재 증상은 없고 만성약을 잘 복용한다. 혈압 132/87 mm Hg, 맥박 75/min으로 규칙적이다. 양쪽 눈꺼풀에 황색판종이 보인다. LDL을 낮추기 위해 statin을 사용 중이나 목표 LDL에 도달하지 못했다. LDL 조절을 위해 약물을 추가하려고 한다. 다음 중 fibrate에 대한 설명으로 옳은 것은 무엇인가?
+63세 남성이 심바스타틴을 복용 중이다. 최근 다른 병원에서 중성지방 때문에 젬피브로질을 추가한 뒤 양쪽 허벅지에 통증과 힘 빠짐이 생겼다. 크레아틴키나아제(CK)는 정상 상한의 8배다. 증상의 가장 가능성 높은 원인은?
 
 ## 선택지
 
-A. Fibrate는 심한 피부 홍조와 가려움증을 유발할 수 있다
-B. Fibrate는 statin과 함께 투여하면 근염 위험을 높일 수 있다
-C. Fibrate는 백내장 위험을 높일 수 있다
-D. Fibrate는 콜레스테롤 합성의 속도제한 단계를 억제한다
+A. 스타틴–피브레이트 병용으로 인한 근병증
+B. 당뇨병성 원위부 대칭 다발신경병증
+C. 하지동맥질환에 의한 간헐적 파행
+D. 무릎 골관절염에 의한 연관통
 
 ## 해설
 
-정답은 B이다. fibrate와 statin을 병용하면 근병증·근염 및 횡문근융해 위험이 증가할 수 있다. 특히 약제별 상호작용과 신기능을 고려한다. fibrate는 주로 TG를 낮추는 약이며 LDL목표 미달 시 모든 환자에게 우선 추가한다는 문항 전제를 일반화하지 않는다. niacin성 flushing이나 HMG-CoA reductase 억제 기전과 구별한다.
+스타틴과 젬피브로질 병용은 근병증 위험을 높인다. 약 추가 후 발생한 대칭성 근위부 근육통·근력저하와 CK 상승이 단서다. 의심되는 약제를 중단하고 신기능과 근육 손상 정도를 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. Fibrate는 콜레스테롤 합성의 속도제한 단계를 억제한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001780
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6715

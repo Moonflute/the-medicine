@@ -15,9 +15,9 @@ related_diseases:
   - "종양융해증후군"
 related_disease_slugs:
   - MTAg7KKF7JaRL-yiheyWkeuCtOqzvC5tZA
-question_type: prevention
+question_type: management
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-급성 골수성 백혈병으로 화학요법(벤다무스틴)을 받는 64세 여성이 2일째 오른쪽 엄지발가락의 심한 통증을 호소했다. 첫 중족지관절이 따뜻하고 붉고 부으며 압통이 있고, 관절액에서 음성 복굴절의 바늘 모양 결정이 보인다. 적절한 정맥 수액 외에 어떤 약물을 미리 투여했으면 증상을 예방할 수 있었을까?
+종양 부담이 큰 버킷 림프종 환자가 항암을 앞두고 있다. 요산은 이미 12mg/dL이고 신기능도 악화됐다. 정량검사에서 G6PD 활성은 정상이다. 정맥 수액과 면밀한 전해질 감시와 함께, 이미 상승한 요산을 빠르게 낮출 약제는?
 
 ## 선택지
 
-A. 아세타졸아미드
-B. 알로푸리놀
+A. 라스부리카제
+B. 알로푸리놀만 투여
 C. 콜히친
-D. 코르티코스테로이드
+D. 탄산수소나트륨 단독
 
 ## 해설
 
 
-항암 후 핵산 대사로 요산 생성이 증가하여 통풍이 촉발될 수 있다. 선택지 중 xanthine oxidase 억제제 allopurinol(B)이 요산 생성 예방에 맞는다. 실제 TLS 예방은 종양량·신기능 등 위험도에 맞추며 고위험/이미 높은 요산에서는 rasburicase 등을 고려한다. 원문의 AML에 bendamustine 단독 2일이라는 기재는 일반적인 AML 유도요법으로 받아들이지 말고 확인해야 한다.
+고위험 종양용해증후군에서 이미 요산이 높으면 라스부리카제로 기존 요산을 빠르게 분해할 수 있다. 알로푸리놀은 새 요산 생성을 줄이지만 기존 요산은 직접 제거하지 않는다. 라스부리카제는 G6PD 결핍 환자에게 사용하지 않는다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 코르티코스테로이드
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000894
+- https://pubmed.ncbi.nlm.nih.gov/40903841/

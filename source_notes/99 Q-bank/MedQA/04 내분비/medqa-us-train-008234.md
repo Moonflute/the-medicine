@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yEuOultO2GqOumrC3rnbzsnbTrlJTtnogg7IS47Y-sIOyiheyWkSAoU2VydG9saS1MZXlkaWcgQ2VsbCBUdW1vcikubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-이전에 건강했던 6세 남아가 얼굴과 겨드랑이 털이 많아져 내원했다. 가족력은 없고 키와 체중은 95백분위수이다. 거친 음모와 겨드랑이 털, 커진 음경과 좌측 고환이 보인다. 혈청 hCG와 AFP는 정상이다. 이러한 소견의 가장 가능성 높은 원인은?
+6세 남아에게 수개월 사이 거친 음모와 음경 비대가 생겼다. 왼쪽 고환에서 단단한 결절이 만져지지만 오른쪽 고환은 사춘기 전 크기다. 테스토스테론은 높고 LH·FSH는 억제되어 있다. 고환의 원인 병변을 확인할 첫 영상검사는?
 
 ## 선택지
 
-A. 레이디히세포 종양
-B. 정상피종
-C. 세르톨리세포 종양
-D. 림프종
+A. 고해상도 음낭 도플러 초음파
+B. 뇌하수체 MRI
+C. 부신 CT
+D. 손과 손목의 골연령 촬영
 
 ## 해설
 
 
-조기 사춘증과 고환 비대, 과다 체모는 남아에서 테스토스테론을 과다 생산하는 레이디히 세포 종양이 원인이다. 혈청 hCG와 AFP가 정상인 점도 이 종양을 지지한다. 따라서 정답은 레이디히세포 종양이다.
+한쪽 고환에 종괴가 있고 성선자극호르몬이 억제되어 있으면, 레이디히세포 종양 등 테스토스테론을 만드는 고환 병변을 의심한다. 음낭 초음파로 고환 내 병변을 확인한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 림프종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008234
+- https://uroweb.org/guidelines/paediatric-urology/chapter/testicular-tumours-in-prepubertal-boys

@@ -14,12 +14,12 @@ related_diseases:
   - "chronic hepatitis B"
   - "scleral icterus"
   - "jaundice"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQu2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEIgKEhCVikpLm1k
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2ZqeuLrCAoTmVvbmF0YWwgSmF1bmRpY2UpLm1k
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-1개월 된 여아가 어머니와 함께 소아과에 내원하였다. 환아는 자궁경부 무력증으로 인해 임신 38주에 제왕절개로 태어났다. 환아의 어머니는 특별한 호소 증상은 없으나, 지난주 며칠 동안 아이에게 콧물과 기침이 있었다고 언급하였다. 어머니는 앞서 언급한 질환 기간 동안 아이의 식욕이 감소했으나 현재는 기저 수준으로 회복되었다고 하였다. 환아의 가족력상 오빠가 포도당-6-인산탈수소효소(G6PD) 결핍증이 있고, 외삼촌이 만성 B형 간염에 의한 간경변증을 앓고 있다. 신체 검진상 환아는 공막 황달이 있고 기저귀에 어두운색 소변이 묻어 있다. 검사실 검사 결과는 다음과 같다: 혈청: Na+: 137 mEq/L, Cl-: 102 mEq/L, K+: 4.2 mEq/L, HCO3-: 24 mEq/L, 요소 질소: 12 mg/dL, 포도당: 96 mg/dL, 크레아티닌: 0.36 mg/dL, 알칼리성 인산분해효소(ALP): 146 U/L, 아스파르테이트 아미노전이효소(AST): 86 U/L, 알라닌 아미노전이효소(ALT): 76 U/L, 총 빌리루빈: 4.6 mg/dL, 직접 빌리루빈: 3.8 mg/dL. 다음 중 가장 가능성이 높은 진단은 무엇인가?
+생후 5주 영아가 회백색 변과 직접 고빌리루빈혈증으로 정밀 평가를 받았다. 담도폐쇄증이 확인됐고, 아직 진행성 간부전은 없다. 적절한 초기 수술 계획은?
 
 ## 선택지
 
-A. 빌리루빈의 장간 순환 증가
-B. 빌리루빈 생성 증가
-C. 간외 담도 폐쇄
-D. 간내 담도 폐쇄
+A. 소아외과에서 가능한 한 조기에 카사이 간문부장문합술을 시행한다
+B. 생후 3개월까지 자연 배액을 기다린 뒤 수술한다
+C. 담낭절제술만 시행한다
+D. 광선치료로 담즙 흐름이 회복되는지 본다
 
 ## 해설
 
-한 달 영아의 지속 황달·진한 소변과 직접 빌리루빈 3.8 mg/dL는 병적 담즙정체이다. 이 연령에서 담도폐쇄증 등 간외 담도 문제(C)를 우선 배제해야 한다. 그러나 검사 수치만으로 간내 원인을 완전히 구별할 수 없고, 초음파 등 신속한 간담도 평가가 필요하다. 모유황달이나 용혈에 의한 비포합 증가로 설명하지 않는다.
+담도폐쇄증의 카사이 수술은 가능한 조기에 시행할수록 담즙 배액과 자기 간 보존 가능성이 높다. 생후 수개월까지 기다릴 병이 아니며, 수술 뒤에도 합병증과 간이식 필요성을 추적한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 간내 담도 폐쇄
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007619
+- https://doi.org/10.1542/peds.2024-070077

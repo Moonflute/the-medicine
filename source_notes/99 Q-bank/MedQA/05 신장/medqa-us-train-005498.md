@@ -16,9 +16,9 @@ related_diseases:
   - "Uremic pericarditis"
 related_disease_slugs:
   - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
-question_type: mechanism
+question_type: management
 difficulty: complex
-answer: "D"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -38,23 +38,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-52세 여자가 3일 동안 호흡과 기침 시 악화되고 앉으면 호전되는 심한 흉골 뒤 통증으로 내원했다. 루푸스 신염으로 인한 만성콩팥병으로 혈액투석 중이나 최근 두 번 빠졌다. 심음 전체를 가리는 고음의 마찰음이 들리고 심장효소와 항DNA 항체는 정상이다. 다음 중 가장 가능성 높은 원인은?
+혈액투석을 두 차례 받지 못한 52세 여성이 몸을 앞으로 숙이면 줄어드는 흉통으로 왔다. 심낭 마찰음이 들리고 심초음파에서 소량의 심낭액은 있으나 압전은 없다. 감염이나 다른 뚜렷한 원인이 없을 때 적절한 다음 대책은?
 
 ## 선택지
 
-A. 약물 부작용
-B. 면역반응에 의한 장막염
-C. 심근 분절 경색
-D. 질소성 노폐물의 혈청 농도 상승
+A. 투석을 일주일 중단한다
+B. 바로 심낭 배액만 시행한다
+C. 경구 콜히친 단독으로 치료하고 투석 일정은 바꾸지 않는다
+D. 신장내과와 긴급히 투석을 재개·강화한다
 
 ## 해설
 
-호흡·기침 때 악화되고 앉으면 호전되는 흉통과 심낭 마찰음은 심낭염을 시사한다. 장기 혈액투석 중 최근 투석을 빠진 맥락에서는 불충분한 노폐물 제거에 연관된 투석 관련 심낭염이 가장 적합하다. Anti-DNA·심장효소 등의 자료를 함께 보되 이 검사 하나만으로 다른 원인을 절대 배제하는 것은 아니다.
+투석이 불충분한 상황에서 발생한 심낭염에는 투석 재개·강화가 중요하다. 임상 상태와 심낭액을 추적하며 압전이 발생하면 즉시 배액이 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005498
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10103325/
 
 ## 오답 포인트
 

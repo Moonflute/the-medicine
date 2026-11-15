@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-qzoOy5vOulqO2YiOymnSAoSHlwZXJrYWxlbWlhKS5tZA
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
   - MDUg7Iug7J6lL-2aoeusuOq3vOycte2VtOymnSAoUmhhYmRvbXlvbHlzaXMpLm1k
-question_type: management
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-30세 남성이 6시간 동안 진행된 근력 약화로 내원했다. 이날 철인3종 경기를 마친 직후 양쪽 발목에 심한 통증이 생겼고, 아침에 일어나 양쪽 상·하지가 점점 약해졌다고 한다. 과거력과 복용약은 없다. 체온 37.0℃(98.6℉), 맥박 66회/분, 호흡수 21회/분, 혈압 132/83mmHg이다. 근육 촉진에서 중등도에서 중증의 광범위한 통증이 있고 근력은 5/5, 심부건반사는 양측 2+이다. 나트륨 141mEq/L, 칼륨 6.3mEq/L, 크레아티닌 6.1mg/dL, 칼슘 6.3mg/dL, CK 90mcg/L이다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+급성 신손상으로 내원한 54세 남성의 혈청 칼륨이 6.3 mmol/L이다. 검체 용혈은 없고 활력징후는 안정적이다. 고칼륨혈증이 심장 전도에 미치는 영향을 바로 확인할 검사는?
 
 ## 선택지
 
-A. 혈액투석
-B. 심전도
-C. 폴리스티렌 설폰산나트륨(Kayexalate)
-D. 정맥 염화칼슘
+A. 심장초음파
+B. 12유도 심전도
+C. 운동부하 심전도
+D. 혈청 심근 트로포닌
 
 ## 해설
 
 
-정답 B. K6.3mEq/L와 심한 신기능 이상이면 즉시 ECG 및 심장 감시로 고칼륨의 전기적 영향을 평가한다. 이는 심근 괴사를 확인하는 검사가 아니며 정상 ECG가 고칼륨 위험을 배제하지 않는다. ECG 변화/불안정이면 신속한 칼슘 등 응급치료를 병행하고 K를 낮추는 치료를 검토한다. 운동 뒤 통증만으로 횡문근융해를 확진할 수 없으며 제시 CK는 원문 참고범위 내다.
+심전도로 뾰족한 T파, QRS 연장 등 전도 변화를 즉시 확인하고 상태에 맞게 심장 모니터링과 치료를 진행한다. 정상 심전도만으로 고칼륨혈증의 위험이 없다고 판단하지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 정맥 염화칼슘
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009076
+- https://guidelines.ukkidney.org/hyperkalaemia/

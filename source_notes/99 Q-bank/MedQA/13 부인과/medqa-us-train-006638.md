@@ -13,13 +13,13 @@ related_diseases:
   - "질편모충증"
   - "황록색 질 분비물"
   - "성매개 감염"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yEseunpOqwnOqwkOyXvC5tZA
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-22세 여성이 지난 일주일 동안 점점 늘어난 질 분비물로 외래에 내원했다. 분비물에서 악취가 난다. 월경주기는 규칙적이고 4~5일간 지속되며 성교 후 또는 월경 사이 출혈은 없다. 마지막 월경은 2주 전이었다. 지난 2개월 동안 새로운 파트너 2명과 성관계를 했고 콘돔은 일관되게 사용하지 않았다. 만성질환, 수술력 또는 복용 약물은 없다. 발열은 없고 혈압은 125/82 mm Hg, 맥박은 분당 102회, 호흡수는 분당 19회이다. 진찰에서 얇은 황록색 분비물과 분홍색의 부종성 질, 붉은 황갈색 자궁경부가 보인다. 다음 중 가장 가능성 높은 진단은?
+22세 여성의 악취 나는 황록색 분비물에서 질편모충 핵산증폭검사가 양성이다. 임신하지 않았다. 환자와 현재 성 파트너의 관리는?
 
 ## 선택지
 
-A. 라텍스 알레르기
-B. 생리적 백대하
-C. 칸디다 질염
-D. 질편모충 감염
+A. 환자에게 질내 메트로니다졸 겔만 사용
+B. 환자만 경구 치료하고 무증상 파트너는 치료하지 않는다
+C. 환자와 파트너 모두 경구 플루코나졸 사용
+D. 환자는 경구 메트로니다졸 7일, 파트너도 동시 평가·치료
 
 ## 해설
 
 
-악취가 나는 황록색 분비물과 질편모충(Trichomonas vaginalis) 감염은 질편모충증의 전형적인 임상양상이다. 칸디다 질염은 흰색 점액성 분비물, 라텍스 알레르기는 접촉성 증상, 생리적 백대하는 무증상이다. 따라서 가장 가능성 높은 진단은 질편모충 감염이다.
+여성 질편모충증은 경구 메트로니다졸 500 mg을 하루 두 번 7일 사용한다. 재감염을 줄이기 위해 현재 성 파트너도 치료하고 양측 치료가 끝날 때까지 성관계를 미룬다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006638
+- https://stiguide.kr/%EC%A7%88%EC%97%BC-vaginitis/
+- https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm

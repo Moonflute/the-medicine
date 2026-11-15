@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoCDsnoXrjacgKEh5cGVyZW1lc2lzIEdyYXZpZGFydW0pLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 초임부가 임신 10주에 지난 2주 동안 점점 악화되는 구토와 오심, 2kg(4.7lb)의 체중 감소로 내원했다. 최근에는 하루 3~4회 구토하며 지난 이틀간 병가를 내야 해 스트레스를 받고 있다. 현재 생강과 비타민 B6를 복용하지만 효과는 제한적이다. 맥박은 80회/분, 혈압은 100/60 mmHg, 호흡수는 13회/분이다. 기립성 활력징후는 정상이다. 의식은 명료하고 지남력은 정상이다. 복부는 부드럽고 압통이 없다. 소변검사는 정상이다. 헤마토크릿은 40%이다. 정맥혈가스는 pH 7.43, pO₂ 42 mmHg, pCO₂ 54 mmHg, HCO₃⁻ 31 mEq/L, SO₂ 80%이다. 경구 수분 보충과 함께 시행할 가장 적절한 다음 치료는 무엇인가?
+임신 10주 산모가 오심·구토로 일상생활이 어렵다. 물은 마실 수 있고 기립성 저혈압이나 전해질 이상은 없다. 피리독신만으로 증상이 남으면 추가할 수 있는 약은?
 
 ## 선택지
 
-A. 정맥 수액 보충
-B. 보충 산소 투여
-C. 관찰 및 스트레스 상담
-D. 독실아민 추가
+A. 메티마졸
+B. 독실아민
+C. 리토드린
+D. 옥시토신
 
 ## 해설
 
-이미 복용 중인 비타민 B6(피리독신)에 항히스타민제 독실아민을 추가(D)할 수 있다. 둘은 서로 다른 약물이다. 기립성 이상·소변 이상 없이 경구 섭취가 가능하면 경구 수분 보충과 함께 치료할 수 있다. 정맥혈가스의 산소분압·포화도를 동맥 저산소증으로 해석해 산소를 투여하지 않는다.
+독실아민과 피리독신의 조합은 임신 초기 오심·구토에 사용할 수 있다. 탈수나 경구 섭취 불가, 전해질 이상이 생기면 별도로 수액 치료와 입원 필요성을 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 독실아민 추가
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007040
+- https://pubmed.ncbi.nlm.nih.gov/38311315/

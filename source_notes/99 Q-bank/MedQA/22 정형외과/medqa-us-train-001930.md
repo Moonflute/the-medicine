@@ -13,13 +13,13 @@ related_diseases:
   - "Volkmann ischemic contracture"
   - "compartment syndrome"
   - "ischemic muscle contracture"
-question_type: management
+question_type: diagnosis
 related_disease_slugs:
   - MTEg7Jm46rO8L-uzteqwlSDqtaztmo0g7Kad7ZuE6rWwIChBYmRvbWluYWwgQ29tcGFydG1lbnQgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 남성이 한 달 전 단순 골절로 석고붕대를 한 왼쪽 상완골 골절 후 왼손목과 손가락 움직임이 제한되어 물리치료사에게 의뢰되었다. 보험을 잃어 추적진료를 받지 못했고 붕대를 제거한 뒤에야 문제를 알았다. 왼손은 창백하고 발톱처럼 굽어 있으며 단단하고 압통이 있다. 오른쪽 요골맥박은 2+, 왼쪽은 1+이고 손가락과 손목을 능동적으로 펴지 못하며 수동으로 펴도 어렵고 아프다. 다음 중 적절한 치료는 무엇인가?
+상완골 골절로 석고 고정을 했던 35세 남성이 한 달 뒤 왔다. 손목과 손가락이 굽은 채 굳어 타인이 펴 주어도 잘 펴지지 않는다. 고정 직후에는 전완 통증이 심했다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 수술적 유리술
-B. Corticosteroid 주사
-C. Collagenase 주사
-D. Botulinum toxin 주사
+A. 볼크만 허혈성 구축
+B. 뒤피트랑 구축
+C. 손목터널증후군
+D. 뒤뼈사이신경 마비
 
 ## 해설
 
-정답은 A, 수술적 유리술이다. 골절 후 석고붕대를 한 뒤 한 달이 지나 고정된 손목·손가락 굴곡변형과 능동·수동 신전 제한이 나타난 것은 허혈성 근육 손상 후 발생한 Volkmann 구축에 부합한다. 이는 초기 급성 구획증후군 자체와 구별해야 하는 후유증이며, 구축 정도에 따른 전문적인 수술적 유리·재건 평가가 필요하다. 제시된 주사치료는 이 허혈성 구축을 해결하는 적절한 대안이 아니다. 새로 진행하는 통증이나 허혈 소견이 있다면 응급 신경혈관 평가를 별도로 시행해야 한다.
+급성 허혈로 전완 굴곡근이 손상되면 수주 뒤 고정된 손목·손가락 굴곡 구축이 남을 수 있다. 뒤뼈사이신경 마비는 능동 신전을 어렵게 하지만 초기부터 고정된 수동 신전 제한을 설명하지 못한다. 새로 악화되는 통증이나 혈류 저하는 별도의 응급 평가가 필요하다.
 
 ## 검수 근거
 

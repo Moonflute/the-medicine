@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-걱정스러운 어머니가 생후 12일 된 아들의 몸이 ‘노랗게’ 변하고 있다며 응급실로 데려왔다. 환자는 합병증 없이 임신 39주에 자연 질식분만으로 태어났다. 어머니는 산전 관리를 적절히 받았고 아들에게 모유 수유를 해 왔다. 소변과 대변 배출은 충분하다. 신체검사에서 편안하고 영양 상태가 좋은 신생아의 얼굴과 가슴에 황달이 보인다. 생후 48시간에 간접 빌리루빈은 4 mg/dL였다. 오늘 간접 빌리루빈은 10 mg/dL, 총 빌리루빈은 11 mg/dL이며 다른 모든 검사값은 정상이다. 이 상황에서 가장 적절한 다음 치료는 무엇인가?
+생후 3주 만삭 영아의 피부가 아직 노랗다. 모유수유 중이며 체중은 잘 늘고, 소변과 변 색은 정상이다. 총 빌리루빈 9.4 mg/dL, 직접 빌리루빈 0.3 mg/dL이고 용혈 단서는 없다. 적절한 관리는?
 
 ## 선택지
 
-A. 페노바비탈
-B. 광선치료
-C. 교환수혈
-D. 황달은 호전될 것이라고 어머니를 안심시키고 모유 수유를 계속하도록 권고
+A. 모유를 중단하고 분유만 먹인다
+B. 페노바르비탈을 시작한다
+C. 교환수혈을 준비한다
+D. 모유수유를 계속하고 황달·성장을 추적한다
 
 ## 해설
 
 
-신생아의 총 빌리루빈이 11 mg/dL이며 모유수유 중인 경우, 모유성 황달은 자연히 호전된다. 치료 없이 관찰하고 모유수유를 지속하는 것이 적절하다. 따라서 정답은 D이다.
+성장이 양호하고 직접 빌리루빈이 정상이면 지속적인 경도 간접 황달은 모유 황달일 수 있다. 모유를 일률적으로 중단하지 않는다. 회백색 변이나 짙은 소변, 황달 악화가 있으면 다시 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006985
+- https://doi.org/10.1542/peds.2022-058859

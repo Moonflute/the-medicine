@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
 question_type: management
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-멕시코 출신의 26세 이민자가 신체검사를 위해 내원했다. 몇 주 전 음경에 병변이 생겼다가 수주 후 사라졌다고 한다. 통증이 없었고 불편하지도 않았다. 현재는 특별한 증상이 없다. 체온은 97.9°F(36.6°C), 혈압은 139/91 mmHg, 맥박은 분당 87회, 호흡수는 분당 14회, 실내 공기에서 산소포화도는 98%이다. 신체진찰은 정상이고 발진도 없다. VDRL과 FTA-ABS 검사가 모두 양성이다. 다음 중 처치로 가장 적절한 것은?
+3주 전 통증 없는 생식기 궤양이 생겼다가 사라진 환자다. 치료력은 없고 정량 RPR과 트레포네마 특이 항체검사가 양성이다. 신경·안과·이과 증상이 없고 페니실린 알레르기도 없다. 적절한 치료는?
 
 ## 선택지
 
-A. 아시클로버
-B. 아지트로마이신과 세프트리악손
-C. 치료가 필요하지 않음
-D. 페니실린
+A. 벤자틴 페니실린 G를 1주 간격으로 총 3회 근육주사
+B. 벤자틴 페니실린 G 근육주사 1회
+C. 수용성 페니실린 G 10~14일 정맥 투여
+D. 궤양이 사라졌으므로 치료하지 않는다
 
 ## 해설
 
 
-무통성 생식기 궤양이 자발 소실된 뒤 두 종류 매독 혈청검사가 양성이며 치료 병력이 없어 초기 매독에 대한 penicillin D가 적절하다. 궤양 소실은 균 제거를 뜻하지 않는다. 병기·신경/안과 증상·치료력에 맞춰 제형/용량·기간을 정하고 혈청역가를 추적한다. 이 환자는 남성이므로 임신 가능 연령을 치료 근거로 드는 것은 사례와 무관하다.
+최근에 발생한 경성하감 병력이 명확한 초기 매독은 벤자틴 페니실린 G 근육주사 1회로 치료한다. 궤양이 저절로 사라져도 감염이 없어졌다는 뜻은 아니며, 치료 뒤 혈청 역가를 추적한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 페니실린
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006416
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10925736/

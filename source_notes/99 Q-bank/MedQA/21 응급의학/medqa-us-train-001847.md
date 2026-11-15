@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-2VnOuereyGkOyDgSAoQ29sZCBJbmp1cnkpLm1k
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-37세 남성이 현관 밖에 의식 없이 쓰러져 있는 것이 발견되어 친구와 함께 응급실에 왔다. 전날 밤 둘이 꽤 취했고 친구가 집에 내려준 뒤 떠났다가 아침에 돌아와 현관 옆 바닥에서 그를 발견했다. 도착 시 의식이 있고 협조적이지만 춥고 손과 얼굴이 심하게 아프다고 한다. 어젯밤 장갑을 잃어버린 것을 기억한다. 직장 체온 35.2°C (95.3°F), 맥박 86/min, 호흡 17/min, 혈압 124/58 mm Hg이다. 손끝 감각이 감소하고 차갑게 만져지며 원위 지골 피부가 청색증, 단단함, 왁스처럼 변하고 압통과 주변 부종이 있다. 검사실, 흉부 X선 및 ECG는 정상이다. 다음 중 가장 적절한 관리 단계는 무엇인가?
+한밤중 추위에 노출된 환자의 손끝이 차고 단단하며 감각이 떨어졌다. 중심체온과 순환은 안정됐고 다시 얼 위험은 없다. 손가락을 어떻게 재가온하는가?
 
 ## 선택지
 
-A. 침범 조직의 변연절제
-B. 동맥 내 tissue plasminogen activator 투여
-C. 가온한 결정질 수액 정맥투여
-D. 침범 사지를 따뜻한 물에 담근다
+A. 약 37–39℃의 물에 담가 재가온한다
+B. 마른 수건으로 세게 문지른다
+C. 뜨거운 난로나 헤어드라이어를 직접 댄다
+D. 언 채로 먼저 괴사 조직을 제거한다
 
 ## 해설
 
-차갑고 단단하며 왁스 같은 손끝 피부와 감각저하는 동상을 시사한다. 재동결되지 않을 안전한 환경을 확보하고 조절된 따뜻한 물 약37–39°C에 담가 빠르게 재가열하는 D가 적절하다. 문지르거나 직접 뜨거운 열원을 대지 않으며 진통과 중심체온 평가를 병행한다. 재가열 전 소견만으로 깊은 4도 동상을 확정할 수 없다. 심한 저체온이 있으면 중심부 소생을 우선하고, 중증 동상에서 재관류 치료 여부는 재가열 후 전문 평가한다.
+재동결 위험이 없을 때 조절된 따뜻한 물로 동상 부위를 빠르게 재가온한다. 문지르거나 직접 열원에 대면 감각이 떨어진 조직이 더 손상될 수 있다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 침범 사지를 따뜻한 물에 담근다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001847
+- https://pubmed.ncbi.nlm.nih.gov/38577729/

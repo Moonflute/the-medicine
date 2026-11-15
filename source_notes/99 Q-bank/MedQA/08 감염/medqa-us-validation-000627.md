@@ -15,9 +15,9 @@ related_diseases:
   - "피부염-관절염 증후군"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-yehOq3oCDqsJDsl7wgKEdvbm9jb2NjYWwgSW5mZWN0aW9uKS5tZA
-question_type: management
+question_type: diagnosis
 difficulty: complex
-answer: B
+answer: A
 original_answer: A
 answer_change_reason: "농포성 피부 병변과 급성 관절염을 동반한 파종 임균감염은 CDC에서 ceftriaxone 1g IM/IV q24h를 권고한다. Cefixime+azithromycin을 감수성 미확인 초기요법으로 쓰는 원답 A를 현행 권고에 맞는 B로 교정."
 translation_status: machine-verified
@@ -40,19 +40,19 @@ related_drug_slugs:
 
 ## 문제
 
-33세 남성이 관절통과 발진으로 응급실에 왔다. 발열과 농포성 피부병변, 따뜻하고 아픈 오른쪽 무릎의 염증이 있다. 가장 가능성 높은 진단의 적절한 치료는?
+26세 환자가 발열, 여러 관절을 옮겨 다니는 통증과 손목 건초염으로 내원했다. 손과 발에 작은 농포가 몇 개 있고 배뇨통이나 생식기 분비물은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 세픽심과 아지트로마이신
-B. 세프트리악손
-C. 세프트리악손과 반코마이신
-D. 피페라실린과 타조박탐
+A. 파종성 임균 감염
+B. 반응성 관절염
+C. 파르보바이러스 B19 관절염
+D. 피부 증상을 동반한 통풍
 
 ## 해설
 
 
-발열, 농포성 피부 병변과 급성 관절염은 파종 임균감염의 arthritis-dermatitis syndrome을 시사한다. 현행 CDC 권고는 ceftriaxone 1g IM 또는 IV를 24시간마다 투여하는 것으로 선택지 B가 맞다. Chlamydia가 배제되지 않았다면 doxycycline을 추가한다. 입원 평가, 적절한 배양/NAAT와 감수성 검사 및 관절 배액 필요성을 확인한다. Cefixime+azithromycin을 감수성 정보 없이 초기 요법으로 선택하지 않으며 cefixime은 vancomycin과 다른 약이다.
+건초염·이동성 다발관절통·소수 농포는 파종성 임균 감염의 관절염-피부염 양상에 부합한다. 비뇨생식기 증상이 없어도 감염 가능성이 있으므로 노출 부위와 침범 부위에서 적절한 검사를 한다.
 
 ## 검수 근거
 

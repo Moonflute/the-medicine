@@ -16,9 +16,9 @@ related_diseases:
   - "Langerhans cell histiocytosis"
 related_disease_slugs:
   - MTAg7KKF7JaRL-uekeqyjOultO2VnOyKpCDshLjtj6wg7KGw7KeB6rWs7KadIChMYW5nZXJoYW5zIENlbGwgSGlzdGlvY3l0b3NpcykubWQ
-question_type: 임상증례 객관식
+question_type: investigation
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-2세 남아가 수주간 지속된 통증을 동반한 아래턱 잇몸 증식으로 내원했다. 외상이나 다른 중요한 질환 병력은 없다. 체온 37.0°C, 맥박 92회/분, 호흡수 24회/분이다. 구강 외 검사에서 왼쪽 아래턱에 4×2cm 종창이 보인다. 구강 내 검사에서 괴사성 가피로 덮인 미만성 홍반성 잇몸 종창이 있다. 두부 CT에서 하악, 상악, 왼쪽 후두부와 측두부를 침범하는 여러 연조직 밀도 병변이 보인다. 다음 소견 중 이 환자 질환의 가장 특이적인 지표는 무엇인가?
+2세 아이에게 치아가 흔들릴 정도로 잇몸이 붓고 얼굴뼈와 두개골의 골용해 병변이 여러 개 보인다. 생검 조직에 핵이 패인 세포와 호산구가 많다. 랑게르한스세포 조직구증을 확인하는 면역염색은?
 
 ## 선택지
 
-A. 거친 적색 근섬유
-B. 근주위 및 근육다발 사이 위축
-C. 버벡 소체
-D. 근내막 염증세포 침윤과 근섬유 괴사
+A. CD3와 CD20
+B. CD1a와 랑게린(CD207)
+C. 데스민과 미오제닌
+D. 사이토케라틴과 TTF-1
 
 ## 해설
 
 
-소아의 잇몸 증식과 여러 두개·안면골 병변은 Langerhans 세포 조직구증(LCH)을 의심하게 한다. 전자현미경상 Birbeck granule(C)은 특징적인 막성 세포소기관이다. 조직학적 평가에서는 CD1a와 langerin(CD207) 등이 사용될 수 있다. LCH를 Graves병이라고 부르지 않으며 다른 선지의 근섬유 병리 소견과 구분한다.
+랑게르한스세포 조직구증은 조직의 특징적 세포와 CD1a·랑게린 발현으로 진단한다. 전자현미경으로 버벡 과립을 확인하는 것은 일반적인 필수 검사가 아니다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 근내막 염증세포 침윤과 근섬유 괴사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004051
+- https://doi.org/10.1002/pbc.24367

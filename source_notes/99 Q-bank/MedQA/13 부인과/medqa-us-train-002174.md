@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-2aoeychCAoVHJhbnN2ZXJzZSBMaWUpLm1k
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -32,7 +33,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-25세 G1P0000 여성이 임신 32주 정기 산전진료를 위해 내원했다. 건강하고 불편한 증상은 없다. 임신은 Rh 음성인 것 외에는 합병증이 없었고, 28주에 로감(RhoGAM)을 투여받았다. 경미한 간헐적 천식과 편두통 병력이 있다. 알부테롤 흡입기를 일주일에 한 번 사용하고 산전 비타민을 복용한다. 활력징후는 정상이며 복부검사에서 자궁저부 높이는 30 cm이다. 침상 초음파에서 태아가 횡위로 누워 있다. 환자는 질식 분만을 원한다고 한다. 다음 중 가장 적절한 치료의 다음 단계는?
+25세 G1P0000 여성이 임신 32주 정기 산전진료를 위해 내원했다. 건강하고 불편한 증상은 없다. 임신은 Rh 음성인 것 외에는 합병증이 없었고, 28주에 로감(RhoGAM)을 투여받았다. 경미한 간헐적 천식과 편두통 병력이 있다. 알부테롤 흡입기를 일주일에 한 번 사용하고 산전 비타민을 복용한다. 활력징후는 정상이며 복부검사에서 자궁저부 높이는 30 cm이다. 침상 초음파에서 태아가 횡위로 누워 있다. 환자는 질식 분만을 원한다고 한다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

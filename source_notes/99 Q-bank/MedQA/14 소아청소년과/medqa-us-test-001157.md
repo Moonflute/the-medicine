@@ -14,11 +14,11 @@ related_diseases:
   - "산성 말타아제 결핍"
   - "글리코겐 축적병 II형"
   - "Pompe disease"
-question_type: mechanism
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-7개월 남아가 2개월 동안 피로, 쇠약, 수유곤란으로 진료를 받으러 왔다. 혼자 앉지 못하고 혀가 치아 밖으로 돌출되며 경정맥 팽창, 양쪽 폐기저부 수포음, S3, 간비대, 심비대가 있었다. 상·하지 근위 및 원위 근육의 심한 약화가 있었고 혈당은 정상이었다. 가장 가능성 높은 결핍 효소는?
+5개월 영아가 힘이 없고 수유가 어렵다. 대칭성 근력저하, 큰 혀와 비후성 심근병증이 있다. 영아형 폼페병이 의심될 때 확인할 검사는?
 
 ## 선택지
 
-A. 근육 글리코겐 인산화효소
-B. 초장쇄 아실-CoA 탈수소효소
-C. 리소좀 산성 말타아제
-D. 글리코겐 탈분지효소
+A. 산성 알파글루코시다아제(GAA) 활성과 GAA 유전자 검사
+B. SMN1 유전자 결실 검사
+C. 젖산·피루브산 비율만 측정
+D. DMD 유전자 결실 검사
 
 ## 해설
 
-영아의 심비대·심부전 소견, 거대설과 심한 근력저하에 정상 혈당이 동반되어 폼페병(제II형 글리코겐축적병)을 시사한다. 리소좀 산성 α-글루코시다아제, 즉 산성 말타아제 결핍(C)으로 심근과 골격근 등에 글리코겐이 축적된다. 이 사례의 두드러진 심장 침범을 단순한 골격근 위축형으로 한정해서는 안 된다.
+영아기의 근력저하와 비후성 심근병증이 함께 있으면 폼페병을 의심한다. 리소좀 효소인 GAA 활성 및 유전자 검사로 확인하고 전문 치료를 신속하게 연결한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 글리코겐 탈분지효소
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001157
+- https://www.acmg.net/wp-content/uploads/2026/09/Pompe.pdf

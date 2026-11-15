@@ -13,13 +13,13 @@ related_diseases:
   - "Prader-Willi syndrome"
   - "hypotonia"
   - "hypogonadism"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZSE6528642ULeycjOumrCDspp3tm4TqtbAgKFByYWRlci1XaWxsaSBTeW5kcm9tZSkubWQ
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-6세 남아가 잦은 분노발작으로 소아과에 왔다. 하루에도 여러 번, 주로 등교 전 아침과 부모가 음식량을 제한하는 식사시간에 발생한다. 식사와 간식을 계속 더 먹고 체중이 증가해 부모가 음식 섭취를 제한하고 있다. 1학년이지만 물건 세기와 글자 이름 말하기가 일정하지 않다. 키 5백분위수, 체중 99백분위수이며 아몬드 모양 눈, 아래로 처진 입, 근긴장저하가 있다. 다음 중 함께 나타날 가능성이 가장 높은 소견은 무엇인가?
+6세 아이가 영아기에는 근긴장이 낮고 빠는 힘이 약했다. 최근에는 아무리 먹어도 배고파하고 체중이 빠르게 늘며 키는 작다. 프라더–윌리 증후군이 의심될 때 초기 검사에 포함할 것은?
 
 ## 선택지
 
-A. 운동실조
-B. 반신비대
-C. 성선기능저하증
-D. 익상경
+A. FMR1 반복서열 검사
+B. 염색체 핵형검사만 시행
+C. SMN1 유전자 결실 검사
+D. 15q11.2–q13 DNA 메틸화 검사
 
 ## 해설
 
 
-프라더‑윌리 증후군은 저긴장, 과식, 비만, 안면 특징(아몬드형 눈, 하향 입술)과 함께 성선 저하가 흔히 동반된다. 따라서 가장 높은 확률의 동반 소견은 성선기능저하증이다. 운동실조와 반신비대는 해당 증후군과 관련이 적다.
+영아기 저긴장과 수유 곤란이 이후 과식·비만으로 바뀌는 경과는 프라더–윌리 증후군에 합당하다. 메틸화 검사로 진단을 확인하고, 추가 분석으로 결실이나 단친이염색체 등 원인을 구분한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001957
+- https://www.ncbi.nlm.nih.gov/books/NBK1330/
+- https://pubmed.ncbi.nlm.nih.gov/39804213/

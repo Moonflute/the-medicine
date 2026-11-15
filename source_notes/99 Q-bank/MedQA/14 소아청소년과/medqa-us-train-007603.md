@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-3세 남아가 발열과 발진으로 응급실에 내원했다. 아침에는 보채고 열이 있었는데 하루 종일 점점 악화되었고 내원 전 발진도 생겼다. 이전에는 건강했고 현재 복용 약물은 없다. 체온은 102.0°F(38.9°C), 혈압 90/50 mmHg, 맥박 160회/분, 호흡수 17회/분, 산소포화도 98%이다. 신체검사에서 60%가 넘는 체표면적을 덮는 성홍열양 발진과 쉽게 터지는 이완성 수포가 보인다. 병변은 입 주위를 둘러싸지만 점막은 침범하지 않고 발진을 만지면 아프다. 가장 가능성 높은 진단은 무엇인가?
+3세 아이에게 열과 함께 피부를 만지기 힘들 정도로 아픈 넓은 홍반과 얇고 쉽게 터지는 수포가 생겼다. 입 주변은 벗겨졌지만 입안과 결막에 미란은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 포도상구균 열상피부 증후군
-B. 독성 표피 괴사용해
-C. 독성 쇼크 증후군
-D. 두드러기
+A. 독성표피괴사용해
+B. 수포성 농가진
+C. 성홍열
+D. 포도알균 열상피부 증후군
 
 ## 해설
 
-발열·피부 압통, 광범위한 표재성 이완 수포와 점막 보존은 포도상구균 열상피부증후군(SSSS, A)에 부합한다. 병변은 입 주위를 침범하지만 구강 점막은 보존되어 TEN과 구별된다. 독소에 의한 표피 표층의 분리이며 열에 의한 화상을 뜻하지 않는다.
+넓은 피부 압통, 표재성 수포와 박리가 있으면서 점막이 보존되는 양상은 포도알균 열상피부 증후군을 시사한다. 수포성 농가진은 피부 병변이 대개 국소적이다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 두드러기
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007603
+- https://www.chop.edu/clinical-pathway/staphylococcal-scalded-skin-syndrome-clinical-pathway

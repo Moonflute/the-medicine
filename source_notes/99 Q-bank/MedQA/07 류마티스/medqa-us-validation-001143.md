@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-32세 여성이 6개월간 손가락의 통증, 저림과 변색으로 진료를 받으러 왔다. 추위에 노출되면 손가락 끝이 하얗거나 파랗게 변한다. 얼굴에 창백한 나비 모양 발진과 경부·액와 림프절병증, 반짝이는 경피증성 손가락이 있고 항핵항체와 항U1 리보핵단백 항체가 양성이다. 혼합결합조직병으로 진단되었다. 가장 적절한 다음 처치는?
+경피증 양상을 동반한 혼합결합조직병 환자에게 새 운동 시 호흡곤란이 있다. 심초음파에서 폐고혈압 가능성이 높고 우심실이 커졌다. 폐동맥고혈압 치료를 시작하기 전에 혈역학적으로 확진할 검사는?
 
 ## 선택지
 
-A. 심초음파
-B. 관절천자
-C. 골수이식
-D. 상부위장관 조영술
+A. 우심도자검사
+B. 24시간 홀터
+C. 심장 단순촬영
+D. 6분 걷기 검사만 시행
 
 ## 해설
 
 
-MCTD는 전신경화증과 같지 않지만 Raynaud와 sclerodactyly 같은 scleroderma spectrum 특징이 있으면 PAH 위험을 평가한다. 보기 중 transthoracic echocardiography A가 비침습적 평가로 적절하며 PFT/DLCO와 BNP 등도 함께 고려한다. Echo는 폐고혈압 가능성을 추정하는 검사이고 필요 시 우심도자검사로 혈역학적 확진을 한다.
+심초음파는 폐고혈압의 가능성을 평가한다. 우심도자로 폐동맥압·쐐기압·폐혈관저항을 측정해 진단과 병형을 정한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ MCTD는 전신경화증과 같지 않지만 Raynaud와 sclerodactyly 같은 scle
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001143
+- https://academic.oup.com/eurheartj/article/43/38/3618/6673929

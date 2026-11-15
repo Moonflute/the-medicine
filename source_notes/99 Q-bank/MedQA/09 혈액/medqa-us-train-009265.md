@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
-question_type: investigation
+question_type: prevention
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-16개월 여아가 정기 검진을 위해 내원했다. 어머니는 아이가 얼음을 먹고 싶어 하고 걷거나 놀 때 자주 숨을 헐떡인다고 한다. 가족력은 특이사항이 없다. 열은 없고 활력징후는 정상이다. 체중은 연령 및 성별 20백분위수, 키는 35백분위수이다. 신체검사에서 결막 창백이 보인다. 혈색소 9.2 g/dL, 평균적혈구용적 72 μm³, 평균적혈구혈색소 21 pg/cell, 혈청 페리틴 9 ng/mL, 적혈구분포폭 16%(정상 11.5~14.5%)이다. 이 환자에서 추가로 가장 가능성 높은 검사 소견은 무엇인가?
+16개월 아이의 철결핍성 빈혈을 치료하고 있다. 하루에 우유를 1L 가까이 마셔 식사 때 철이 풍부한 고형식을 거의 먹지 않는다. 철분 보충과 함께 재발을 줄이기 위한 식이 조언은?
 
 ## 선택지
 
-A. 트랜스페린 포화도 증가
-B. 총 철결합능(TIBC) 증가
-C. 망상적혈구 수 증가
-D. 헤모글로빈 A2 증가
+A. 우유를 더 늘려 철분을 보충한다
+B. 철분 약을 중단하고 우유에 의존해 영양을 채운다
+C. 과도한 우유를 줄이고 철이 풍부한 고형식을 늘린다
+D. 두 돌까지 고형식을 피하고 우유만 먹인다
 
 ## 해설
 
 
-철결핍성 빈혈에서는 혈청 철은 감소하고, 철 결합능(TIBC)이 보상적으로 증가한다. 따라서 가장 가능성 높은 추가 소견은 TIBC 증가이다. 정답은 B이다.
+과다한 우유 섭취는 철이 풍부한 식품을 대체해 어린아이의 철결핍 위험을 높인다. 철분을 보충하면서 나이에 맞는 식사와 우유 섭취를 조정한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 헤모글로빈 A2 증가
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009265
+- https://doi.org/10.1542/peds.2026-077414

@@ -14,7 +14,7 @@ related_diseases:
   - "hypovolemic shock"
   - "sunken anterior fontanelle"
   - "dehydration"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug7IOd7JWEIOydvOyLnOyXtCAoTmVvbmF0YWwgVHJhbnNpZW50IEZldmVyKS5tZA
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-13개월 남아가 1분간 발작을 한 지 30분 후 부모와 함께 응급실에 내원했다. 하루 동안 심한 설사와 발열이 있었고 구토를 한 번 했다. 중대한 질환 병력은 없다. 예방접종 기록은 확인할 수 없다. 안절부절못하며 어머니 무릎에서 안아 올리면 운다. 체온 38.9°C(102°F), 맥박 150회/분, 호흡수 30회/분, 혈압 90/50mmHg이다. 복부가 팽만되어 있고 사지는 만지면 차가우며 모세혈관 재충만 시간은 2~3초이다. 추가 평가에서 가장 가능성 높은 소견은 무엇인가?
+13개월 아이가 물설사를 하며 소변량이 줄었다. 입안이 마르고 눈이 약간 들어가 있지만 의식과 말초 관류는 정상이고, 주면 조금씩 마신다. 적절한 첫 수분 보충 방법은?
 
 ## 선택지
 
-A. 혈청 중탄산염 상승
-B. 망막 출혈
-C. 함몰된 대천문
-D. 쿠스마울 호흡
+A. 포도당이 든 탄산음료를 한 번에 많이 준다
+B. 바로 정맥 수액으로만 보충하고 경구 섭취를 금지한다
+C. 경구수분보충액을 소량씩 자주 먹이고 반응을 본다
+D. 설사가 멈출 때까지 수분 섭취를 줄인다
 
 ## 해설
 
-설사·구토 후 차가운 사지·모세혈관 재충만 지연은 탈수·관류 저하를 시사한다. 열린 대천문이 함몰될 수 있어 C가 부합한다. 전두엽이 함몰된다는 의미가 아니며, 혈압 90/50만으로 저혈압을 확정하지 않는다. 발작 원인과 전해질·혈당도 별도 평가한다.
+쇼크가 없고 마실 수 있는 경도·중등도 탈수는 경구수분보충액이 먼저다. 소량씩 자주 먹이면 구토를 줄일 수 있다. 마시지 못하거나 상태가 악화되면 경관·정맥 보충을 검토한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 쿠스마울 호흡
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008661
+- https://www.nice.org.uk/guidance/CG84/chapter/recommendations

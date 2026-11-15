@@ -14,11 +14,11 @@ related_diseases:
   - "chlorpromazine adverse effect"
   - "hyperthermia"
   - "dantrolene"
-question_type: adverse_effect
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveydtOyZhOygnCDslYXshLEg7Kad7ZuE6rWwIChOZXVyb2xlcHRpYyBNYWxpZ25hbnQgU3luZHJvbWUpLm1k
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,23 +38,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-60세 남성이 2일 동안 발열과 점점 심해지는 혼란으로 응급실에 왔다. 편집성 조현병과 고혈압이 있으며 클로르프로마진과 암로디핀을 복용한다. 시간, 장소, 사람에 대한 지남력이 없고 체온 40°C, 맥박 130회/분, 호흡수 29회/분, 혈압 155/100 mmHg이다. 발한이 심하고 양측 근긴장도가 증가했으며 심부건반사는 양측 1+이다. 정신운동성 초조와 이해할 수 없는 말이 있고 목은 유연하며 복부는 부드럽고 압통이 없다. 백혈구 11,300/mm³, 혈청 크레아틴키나아제 833 U/L이다. 다음 중 가장 적절한 초기 약물치료는?
+항정신병약을 증량한 지 4일 된 환자가 고열·혼돈·전신 강직을 보인다. CK는 4,200 U/L이고 간대는 없다. 즉시 할 처치는?
 
 ## 선택지
 
-A. 단트롤렌
-B. 클로자핀
-C. 시프로헵타딘
-D. 피소스티그민
+A. 해열제를 투여하고 항정신병약은 유지한다
+B. 도파민 차단 효과가 약한 항정신병약으로 즉시 교체한다
+C. 뇌척수액 결과가 나올 때까지 투약을 유지한다
+D. 항정신병약을 중단하고 냉각·정맥 수액과 집중 감시를 시행한다
 
 ## 해설
 
-항정신병약 노출 후 고열·강직·의식 변화·자율신경 불안정과 CK 상승은 신경이완제 악성증후군을 시사한다. 우선 원인 약물을 중단하고 체온·수액·전해질·장기 기능에 대한 응급 지지치료가 필요하다. 제시된 약물 중 단트롤렌은 골격근의 칼슘 방출을 줄여 강직·고체온 조절에 고려하는 선택이다. 도파민 길항제를 추가하는 치료가 아니며 모든 사례의 단독 1차라는 뜻도 아니다.
+신경이완제 악성증후군이 의심되면 원인 약을 중단하고 냉각·수액과 장기 기능 감시를 즉시 시행한다. 단트롤렌 등은 중증도와 상황에 따라 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003029
+- https://pubmed.ncbi.nlm.nih.gov/37039129/
 
 ## 검수 근거
 

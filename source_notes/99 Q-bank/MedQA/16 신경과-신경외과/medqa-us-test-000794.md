@@ -18,8 +18,9 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM67Cc7J6RIChBYnNlbmNlIFNlaXp1cmUpLm1k
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-5세 여아가 학교에서 ‘멍하니 있는’ 일이 잦아 소아과에 왔다. 부모는 두부 외상이나 감염 병력이 없다고 했다. 혈압 106/74 mmHg, 심박수 69회/분, 호흡 14회/분이었고 발달은 정상이며 검사실 결과도 정상이었다. 뇌파에서 3 Hz 극파-서파 복합이 보였고(그림 참조) 약물치료를 시작하기로 했다. 일차 약물의 잠재적 부작용으로 부모에게 알려야 할 것은?
+5세 여아에게 수초간 행동을 멈추고 멍하게 응시하는 일이 반복된다. 뇌파에서 3 Hz 전반성 극서파가 확인되어 에토숙시미드를 처방했다. 흔한 이상반응은?
 
 ## 선택지
 
 A. 안구진탕
-B. 위장관 불편
-C. 안면 발진과 혈뇨
-D. 체중 증가와 모발 색 변화
+B. 위장관 불편감
+C. 혈뇨
+D. 체중 증가
 
 ## 해설
 
 
-소아 결신발작 1차 치료제는 에토숙시미드이며, 가장 흔한 부작용은 위장관 불편감(구역, 구토, 복통)이다. 따라서 부모에게 알려야 할 주요 부작용은 위장관 불편이다.
+3 Hz 전반성 극서파는 전형적인 결신발작의 뇌파 소견이다. 에토숙시미드를 쓰면 구역, 복통, 구토 같은 위장관 불편감이 생길 수 있다.
 
 ## 검수 근거
 

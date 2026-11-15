@@ -17,11 +17,11 @@ related_diseases:
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDsgqzsmqkg7J6l7JWgIChBbGNvaG9sIFVzZSBEaXNvcmRlcikubWQ
   - MDgg6rCQ7Je8L-yImOuRkC3rjIDsg4Htj6zsp4Qg67CU7J2065-s7IqkIOqwkOyXvCAoVmFyaWNlbGxhLVpvc3RlciBWaXJ1cyBJbmZlY3Rpb24pLm1k
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 남성이 3주 동안 지속된 호흡곤란으로 응급실에 왔다. 처음에는 운동할 때만 있었으나 이제 안정 시에도 있고 누우면 악화되며 숨이 막혀 잠에서 깨는 일이 있었다. 발열, 기침, 천명 또는 흉통은 없지만 새로운 다리 부종과 손발의 이상감각이 있다. 과거력은 없고 기억할 수 있는 한 매일 밤 보드카 4잔을 마신다. 폐 중간부까지 수포음, 양측 종아리 중간까지 2+ 함요부종, 턱각까지 경정맥 팽창이 있다. 손발의 촉각·통각 감각이 감소하고 악력, 손목 및 발목 근력은 4/5이다. 다음 중 증상과 가장 관련 있는 미량영양소는 무엇인가?
+55세 남성이 오랜 과음과 영양 부족 상태에서 부종과 호흡곤란이 생겼다. 손발 감각이 둔하고, 빈혈이나 갑상샘기능항진은 없다. 심부전 소견에도 사지는 따뜻하고 심박출량이 높다. 즉시 보충을 고려할 영양소는?
 
 ## 선택지
 
-A. 비타민 B1
-B. 비타민 B2
-C. 비타민 B3
-D. 비타민 B12
+A. 티아민(비타민 B1)
+B. 리보플라빈(비타민 B2)
+C. 나이아신(비타민 B3)
+D. 코발라민(비타민 B12)
 
 ## 해설
 
 
-만성 알코올 섭취와 말초 신경병증, 심근병증을 동반한 습성 각기병은 티아민(비타민 B1) 결핍이 원인이다. 환자의 증상과 위험 요인이 이를 시사한다. 따라서 관련 미량영양소는 비타민 B1이다.
+뚜렷한 영양 부족에 고박출성 심부전과 말초신경 증상이 동반되면 습성 각기병을 의심한다. 티아민을 보충하면서 울혈과 영양 상태 및 다른 고박출 원인도 평가한다.
 
 ## 검수 근거
 

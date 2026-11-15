@@ -20,7 +20,7 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-20세 여성이 최근 두 번의 월경을 거르고 유두에서 분비물이 나와 진료를 받으러 왔다. 임신검사는 음성이다. 신체검사에서 경한 유방 압통과 유두 분비가 있다. 가장 적절한 초기 처치는?
+20세 여성이 3개월간 월경이 없고 양쪽 유두에서 우윳빛 분비물이 나온다. 임신검사는 음성이고 시야 이상이나 두통은 없다. 이 분비와 무월경을 평가할 우선 혈액검사는?
 
 ## 선택지
 
-A. 뇌 MRI
-B. 혈청 프로락틴 측정
-C. LH:FSH 비율 측정
-D. 도파민 작용제 투여
+A. 혈청 테스토스테론
+B. 혈청 프로락틴
+C. 혈청 칼시토닌
+D. 혈청 IGF-1
 
 ## 해설
 
 
-유두 분비와 무월경이 동반된 경우 고프로락틴혈증을 의심하고, 먼저 혈청 프로락틴 수치를 측정한다. 따라서 초기 처치는 혈청 프로락틴 측정이다.
+임신이 아닌 환자의 유즙 분비와 무월경은 프로락틴 측정의 적응증이다. 상승하면 약물, 갑상선기능저하 등 다른 원인을 확인하고 지속되거나 정도가 크면 뇌하수체 영상 여부를 판단한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 도파민 작용제 투여
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001179
+- https://www.asrm.org/practice-guidance/practice-committee-documents/current-evaluation-of-amenorrhea/

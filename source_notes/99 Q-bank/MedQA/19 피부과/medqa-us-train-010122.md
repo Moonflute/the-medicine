@@ -13,12 +13,12 @@ related_diseases:
   - "심한 여드름"
   - "이소트레티노인"
   - "임신 검사"
-question_type: investigation
+question_type: prevention
 related_disease_slugs: []
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ related_drug_slugs:
 
 ## 문제
 
-16세 여아가 2년 동안 얼굴, 가슴, 등에 심한 여드름이 있어 내원했다. 병변에 가려움이나 인설은 없다. 경구 세팔렉신과 국소 벤조일퍼옥사이드를 병용했지만 호전되지 않았다. 한 남성 파트너와 성생활을 하며 콘돔은 일관되게 사용하지 않는다. 흡연, 음주, 불법 약물 사용은 하지 않는다. 활력징후는 정상이고 진찰에서 얼굴의 경미한 흉터와 얼굴, 가슴, 등의 다수 개방면포 및 피지성 병변이 보인다. 다음 단계의 가장 적절한 치료를 시작하기 전에 필요한 조치는?
+표준 치료에도 깊은 결절과 흉터가 지속되는 19세 환자가 이소트레티노인을 고려한다. 임신 가능성이 있다. 국내 허가사항에 맞는 시작 전 준비는?
 
 ## 선택지
 
-A. 경구피임약 투여
-B. 크레아틴키나아제 측정
-C. 혈청 β-hCG 측정
-D. 설문지를 이용한 우울증 선별
+A. 임신만 아니라고 말하면 오늘부터 복용한다
+B. 임신검사 결과를 확인하고 복용 전·중·후의 피임 계획을 먼저 세운다
+C. 피임은 할 필요 없고 체중과 혈압만 확인한다
+D. 첫 처방을 마친 뒤 임신 여부를 확인한다
 
 ## 해설
 
 
-이소트레티노인 같은 강력한 여드름 치료는 임신 중에 기형을 유발할 위험이 있다. 따라서 치료 시작 전에 임신 여부를 확인해야 한다. 혈청 β‑hCG 측정이 가장 적절한 사전 검사이다.
+이소트레티노인은 강한 기형 유발 위험이 있어 임신 중 사용할 수 없다. 국내 허가사항에 따라 시작 전 임신을 배제하고 치료 한 달 전부터 종료 한 달 뒤까지 피임 등 임신예방 절차를 적용한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010122
+- https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=200301825

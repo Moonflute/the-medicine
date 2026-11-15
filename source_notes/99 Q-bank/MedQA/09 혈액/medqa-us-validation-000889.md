@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: mechanism
 difficulty: standard
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-18개월 여아가 손발 부종과 심한 보챔으로 진료를 받으러 왔다. 손발의 중수골과 중족골을 가볍게 만지면 비명을 지르고 경도의 빈혈, 백혈구증가증, 망상적혈구 증가가 있다. 말초도말 사진이 제시되어 있다. 이 상태의 원인은?
+18개월 여아가 손발이 붓고 만지면 심하게 울어 내원했다. 빈혈과 망상적혈구 증가가 있고, 헤모글로빈 검사에서 HbS가 우세하다. 이 질환의 기전은?
 
 ## 선택지
 
@@ -46,7 +47,7 @@ D. 글로빈 사슬 합성 이상
 ## 해설
 
 
-영아의 손·발 dactylitis, 빈혈과 망상적혈구 증가 양상은 겸상적혈구병을 시사한다. HbS는 β-globin의 아미노산 치환에 따른 구조 이상(C)이다. 지중해빈혈의 사슬 합성량 감소(D)와 구분한다. 누락된 사진에서 거대적혈구를 보았다고 덧붙일 수 없으며 거대적혈구가 SCD의 필수 진단 소견인 것도 아니다.
+영아의 통증성 손발 부종은 겸상적혈구병의 손발염일 수 있다. HbS는 베타글로빈 구조가 변한 헤모글로빈이다. 탈산소 상태에서 중합해 적혈구를 변형시키고 용혈과 혈관폐쇄를 일으킨다.
 
 ## 검수 근거
 

@@ -16,9 +16,9 @@ related_diseases:
   - "lisinopril pharmacodynamics"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
-question_type: mechanism
+question_type: management
 difficulty: complex
-answer: "A"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -42,18 +42,18 @@ curation_disposition: "selected"
 
 ## 문제
 
-52세 여성이 정기 검진을 받는다. 제2형 당뇨병으로 metformin을 복용하며 혈압은 162/96 mmHg, 맥박 85회/분이다. 이 환자에게 ACE 억제제를 선택한다고 할 때, 투여 초기에 예상되는 변화의 조합은? 순서는 나트륨 배설 / 알도스테론 / 안지오텐신 II / 말초혈관저항 / 레닌이다.
+52세 여성이 제2형 당뇨병과 고혈압으로 내원했다. 반복 혈압은 157/93 mmHg이고, 지난 4개월 동안 소변 알부민/크레아티닌비는 두 차례 모두 300 mg/g 이상이었다. eGFR은 66 mL/min/1.73 m², 혈청 칼륨은 4.3 mEq/L이다. 혈압 조절과 콩팥 보호를 위해 우선 포함할 약제는?
 
 ## 선택지
 
-A. 증가 / 감소 / 감소 / 감소 / 증가
-B. 증가 / 감소 / 감소 / 감소 / 감소
-C. 증가 / 증가 / 증가 / 증가 / 증가
-D. 증가 / 감소 / 증가 / 감소 / 증가
+A. 로사르탄
+B. 암로디핀
+C. 히드로클로로티아지드
+D. 독사조신
 
 ## 해설
 
-ACE 억제는 angiotensin II 생성을 감소시키고 aldosterone과 말초혈관저항을 낮춘다. 음성 되먹임 감소로 renin은 증가한다. 치료 초기에는 나트륨 배설이 증가하지만, 만성 정상상태에서 배설량이 계속 늘어난다는 뜻은 아니다. ARB는 angiotensin II 농도가 오를 수 있으므로 ACE 억제와 구분한다. 당뇨병이 있다는 사실만으로 모든 환자에게 ACEI만 유일한 약이라고 뜻하지 않는다.
+고혈압·당뇨병과 지속적인 알부민뇨가 함께 있으면 ACE 억제제 또는 안지오텐신 수용체 차단제(ARB)를 우선 포함한다. 보기 중 로사르탄이 이에 해당한다. 시작하거나 증량한 뒤 크레아티닌과 칼륨을 확인하고 ACE 억제제와 ARB를 병용하지 않는다.
 
 ## 검수 근거
 
@@ -65,6 +65,8 @@ ACE 억제는 angiotensin II 생성을 감소시키고 aldosterone과 말초혈�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002757
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/
+- https://doi.org/10.1016/j.kint.2023.10.016
 
 ## 오답 포인트
 

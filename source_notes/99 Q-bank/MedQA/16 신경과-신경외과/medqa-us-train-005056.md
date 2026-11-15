@@ -13,11 +13,11 @@ related_diseases:
   - "지주막하출혈"
   - "후교통동맥 낭상동맥류"
   - "동맥류 파열"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 여자가 갑작스러운 의식소실로 응급실에 왔다. 2시간 전부터 심한 두통과 메스꺼움이 있었고 현재 지남력이 없으며 목 경직과 통증 자극에 대한 굴곡 자세가 있다. 안저에서 양측 유리체출혈이 보이고 비조영 두부 CT에서 뇌 기저부, 특히 왼쪽 반구 위에 광범위한 출혈이 보인다. 가장 가능성 높은 원인은?
+67세 환자가 벼락두통 뒤 의식이 저하됐다. 비조영 CT에서 뇌기저부 지주막하출혈을 확인했다. 응급 치료 계획을 위해 다음으로 확인할 것은?
 
 ## 선택지
 
-A. 감염성 동맥류 파열
-B. 낭상 동맥류 파열
-C. 두개내 동맥 박리
-D. 척수 동정맥 기형
+A. 뇌파에서 발작파가 나타나는지
+B. 요추천자에서 황색변조가 있는지
+C. 뇌혈관영상으로 파열 동맥류의 위치와 형태를 확인한다
+D. 경동맥 도플러로 협착 정도만 확인한다
 
 ## 해설
 
-갑작스러운 두통·의식저하·목경직과 뇌기저부 중심의 광범위 출혈은 동맥류성 지주막하출혈을 시사하여 낭상 동맥류 파열(B)이 가장 가능하다. 유리체출혈은 Terson 증후군으로 동반될 수 있다. 이 출혈 분포만으로 후교통동맥이라는 특정 동맥을 확정하지 않으며 실제 위치는 혈관영상으로 확인한다. 감염성 동맥류를 특별히 뒷받침하는 감염 병력은 없다.
+영상에서 지주막하출혈이 확인되면 CTA 등으로 원인 동맥류를 신속히 찾는다. CTA가 불명확하지만 의심이 높으면 카테터 혈관조영술을 고려한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 척수 동정맥 기형
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005056
+- https://pubmed.ncbi.nlm.nih.gov/37212182/

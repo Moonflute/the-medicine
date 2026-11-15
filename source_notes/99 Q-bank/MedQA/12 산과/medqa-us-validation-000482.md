@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 6주인 29세 여성이 갑자기 시작된 심한 날카로운 골반통과 다량의 질출혈, 어지러움으로 응급실에 왔다. 오른쪽 아랫배 통증이 심하고 복부 및 자궁경부 움직임 압통이 있으며 혈압 71/37 mmHg, 맥박 117회/분, 호흡수 21회/분, 체온 38.4°C이다. 가장 적절한 확정적 처치는?
+임신반응이 양성인 29세 여성이 갑자기 심한 한쪽 골반통과 실신으로 왔다. 혈압은 71/37 mmHg이고 복강 내 액체가 보인다. 파열된 자궁외임신이 의심될 때 확정적 처치는?
 
 ## 선택지
 
-A. 수술
-B. 메토트렉세이트
-C. 질식 초음파
-D. 연속적인 hCG 측정
+A. 메토트렉세이트 처방 후 외래 추적
+B. 48시간 간격 혈청 β-hCG 추적만 시행
+C. 출혈이 저절로 멈출 때까지 진통제만 투여
+D. 수혈·소생과 함께 응급 수술로 출혈을 조절한다
 
 ## 해설
 
-임신 6주에 갑작스러운 골반통, 출혈과 심한 저혈압·빈맥이 있어 파열된 자궁외임신 등 산과 출혈 응급상황을 우선 고려한다. 즉각적인 소생과 산부인과 수술 평가를 병행하며, 제시된 확정적 처치 중 수술(A)이 적합하다. 메토트렉세이트나 연속 hCG 관찰로 지연해서는 안 된다. 초음파는 불안정한 환자에서도 신속하게 활용할 수 있지만 소생·수술을 지연시키는 전제조건이 되어서는 안 된다. 발열이 있으므로 감염성 원인도 함께 평가한다.
+파열이 의심되고 저혈압과 복강 내 출혈이 있으면 응급 수술이 필요하다. 약물이나 연속 혈액검사를 위한 기다림으로 출혈 조절을 늦추지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 연속적인 hCG 측정
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000482
+- https://www.nice.org.uk/guidance/ng126/chapter/management-of-tubal-ectopic-pregnancy

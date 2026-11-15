@@ -14,14 +14,14 @@ related_diseases:
   - "Macular degeneration"
   - "Open-angle glaucoma"
   - "Retinal detachment"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTgg7JWI6rO8L-uCmOydtOq0gOugqO2ZqeuwmOuzgOyEsSAoYWdlIHJlbGF0ZWQgbWFjdWxhciBkZWdlbmVyYXRpb24pLm1k
   - MTgg7JWI6rO8L-unneunieuwleumrCAocmV0aW5hbCBkZXRhY2htZW50KS5tZA
 difficulty: simple
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-75세 남성이 지난 1년간 점진적으로 독서에 어려움을 겪어 내원하였다. 현재 그는 도로 표지판을 읽는 데 어려움이 있어 운전을 피하고 있다. 심각한 질환의 과거력은 없으며 복용 중인 약물은 없다. 안저 검사에서 국소적인 망막 거상과 드루젠(drusen)이 관찰된다. 암슬러 격자(Amsler grid) 검사상 환자의 시야에 대한 설명이 제시되어 있다. 형광안저혈관조영술(fluorescein angiography)에서 초기 과형광(early hyperfluorescence)이 관찰된다. 이 환자의 가장 가능성 높은 진단은 무엇인가?
+75세 환자가 전에는 반듯하던 문틀이 최근 한쪽 눈으로 보면 휘어 보인다고 한다. 황반에 드루젠이 있고 새로 중심시력이 떨어졌다. 황반의 삼출과 망막하액을 확인할 우선 검사는?
 
 ## 선택지
 
-A. 맥락막 흑색종(Choroidal melanoma)
-B. 황반변성(Macular degeneration)
-C. 개방각 녹내장(Open-angle glaucoma)
-D. 망막 박리(Retinal detachment)
+A. 황반 광간섭단층촬영
+B. 전방각경검사
+C. 시신경유두 사진만 촬영
+D. 각막 지형도 검사
 
 ## 해설
 
 
-중심 시야 변형, 초기 과형광, 드루젠은 습성 황반변성을 특징짓는다. 따라서 가장 가능성 높은 진단은 황반변성이다.
+나이관련 황반변성 환자의 새 변형시나 중심시력 저하에서는 신생혈관성 변화를 의심한다. 황반 광간섭단층촬영은 망막하액·망막내액 등을 확인하는 데 적합하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001020
+- https://pubmed.ncbi.nlm.nih.gov/39918524/

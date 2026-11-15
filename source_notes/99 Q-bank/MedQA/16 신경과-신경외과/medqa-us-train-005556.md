@@ -14,11 +14,11 @@ related_diseases:
   - "아놀드-키아리 기형"
   - "해리성 감각소실"
   - "Arnold-Chiari malformation"
-question_type: association
+question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHsi6wg7LKZ7IiYIOymne2bhOq1sCAoQ2VudHJhbCBjb3JkIHN5bmRyb21lKS5tZA
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-10세 남아가 뜨거운 커피가 왼쪽 어깨에 쏟아졌지만 통증을 느끼지 못했다. 양쪽 어깨, 팔과 목에 걸친 망토 모양의 통각과 온도감각 소실, 보존된 촉각·진동·위치감각이 있다. 다음 중 이 상태와 가장 관련된 질환은?
+10세 아이의 양어깨와 팔에 망토 모양으로 통각과 온도감각이 감소했다. 같은 부위의 진동·위치감각은 정상이다. 이 감각해리를 가장 잘 설명하는 병변은?
 
 ## 선택지
 
-A. 아놀드-키아리 기형
-B. 나병
-C. 잠재성 척추이분증
-D. 횡단척수염
+A. 경수 후주만 침범한 병변
+B. 일측 목 신경근 병변
+C. 경수 중심부의 척수공동
+D. 양측 말초 감각신경병증
 
 ## 해설
 
-양측 어깨·팔의 망토형 통각·온도 소실과 보존된 진동·위치감각은 경수 척수공동증을 시사한다. 중심부 공동이 앞백색맞교차에서 교차하는 통각·온도 섬유를 손상시키고 초기에는 후주를 보존하여 해리성 감각소실을 만든다. Chiari 기형(A)은 척수공동증의 중요한 연관 질환이며 단순 척수 전각 기형의 다른 이름이 아니다. 더 커진 공동은 전각 등 다른 구조에도 영향을 줄 수 있으나 현재 근력은 정상이다.
+척수 중심에 공동이 생기면 앞백색맞교차에서 교차하는 통각·온도각 섬유를 먼저 침범할 수 있다. 경수 MRI로 확인하고 동반 키아리 기형 등을 살핀다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 횡단척수염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005556
+- https://www.ninds.nih.gov/health-information/disorders/syringomyelia

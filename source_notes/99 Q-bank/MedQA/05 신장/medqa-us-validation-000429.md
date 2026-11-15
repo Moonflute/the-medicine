@@ -18,7 +18,7 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-uwqeq0keyalOq0gOyXreulmCAoVmVzaWNvVXJldGVyYWwgUmVmbHV4KS5tZA
 question_type: investigation
 difficulty: complex
-answer: "D"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -40,23 +40,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-1세 여아가 2일간 발열과 배뇨 시 울음으로 진료를 받으러 왔다. 3개월 전 요로감염으로 세픽심을 복용했고 현재 체온 39°C, 맥박 144회/분, 혈압 85/40 mmHg, 백혈구 14,000/mm³이다. 소변검사에서 백혈구 에스터레이스와 아질산염, 백혈구와 그람음성 막대균이 보였고 신장 초음파에서 왼쪽 수신증이 있다. 경험적 항균치료 후 호전되었다. 진단을 위한 다음 단계는?
+1세 여아가 두 번째 발열성 요로감염으로 치료받아 호전됐다. 초음파에서 왼쪽 수신증이 보인다. 방광요관역류를 확인할 다음 검사는?
 
 ## 선택지
 
 A. 정맥신우조영술
-B. 동적 신장 신티그래피
+B. 신장 기능 평가용 동적 신장스캔
 C. 요역동학검사
 D. 배뇨방광요도조영술
 
 ## 해설
 
-영아의 반복 발열성 UTI와 초음파상 수신증은 방광요관역류(VUR) 등 구조적 문제를 평가할 근거다. 급성 감염 치료로 호전된 뒤 선택지 중 배뇨방광요도조영술로 역류·요도를 평가한다. 모든 첫 UTI에 일률적으로 시행한다는 뜻은 아니며 연령·재발·초음파 소견을 고려한다.
+반복되는 발열성 요로감염과 수신증은 방광요관역류를 평가할 근거다. 급성 감염이 호전된 뒤 배뇨방광요도조영술로 역류를 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000429
+- https://uroweb.org/guidelines/paediatric-urology/chapter/urinary-tract-infections-in-children
 
 ## 오답 포인트
 

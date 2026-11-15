@@ -17,7 +17,7 @@ related_diseases:
   - "essential hypertension"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
-question_type: prevention
+question_type: investigation
 difficulty: standard
 answer: A
 translation_status: machine-verified
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-48세 남성이 수년 만에 처음으로 건강검진을 받으러 왔다. 특별한 증상이나 질환은 없었고 혈압은 140/89 mmHg였다. 다음 중 가장 적절한 초기 관리는?
+48세 남성이 건강검진에서 처음으로 진료실 혈압 145/91 mmHg를 보였다. 증상은 없고 이전 혈압 기록도 없다. 고혈압을 확진하기 위한 다음 단계는?
 
 ## 선택지
 
-A. 병원에 돌아와 혈압을 다시 측정하고 유산소 운동의 중요성을 상담한다
-B. 안지오텐신전환효소 억제제를 시작한다
-C. 베타차단제로 치료한다
-D. 치료가 필요하지 않다
+A. 표준 방법으로 진료실 혈압을 반복 측정하고 가정혈압 또는 활동혈압을 확인한다
+B. 진료실 혈압 한 번으로 고혈압을 확진한다
+C. 고혈압을 확인하기 위해 운동부하검사를 시행한다
+D. 증상이 없으므로 고혈압을 배제한다
 
 ## 해설
 
-한 차례의 진료실 BP140/89만으로 지속성 고혈압을 확진하지 않고 표준화 반복측정과 가능하면 가정/활동혈압으로 확인하므로 A가 초기 접근이다. 생활습관 상담도 병행한다. ACC/AHA 분류상 수축기140은 stage2에 해당하며, 확인된 평균≥140/90이면 약물치료를 검토해야 한다. 아직 약물이 항상 권장되지 않는다는 기존 해설은 단일 측정의 재평가와 지속성 고혈압 치료를 혼동한다.
+대한고혈압학회의 기준에서 진료실 혈압 140/90 mmHg 이상은 고혈압 범위지만, 이 사례의 단일 측정값만으로 확진하지 않는다. 표준화한 반복 측정과 가정 또는 활동혈압을 이용해 지속적인 혈압 상승과 백의고혈압을 구분한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 치료가 필요하지 않다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003509
+- https://koreanhypertension.org/reference/guide?idno=10446&mode=read

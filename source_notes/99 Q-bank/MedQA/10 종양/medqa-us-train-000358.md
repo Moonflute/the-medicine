@@ -16,6 +16,7 @@ related_disease_slugs:
 question_type: mechanism
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite

@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 여아가 농구를 하다 뻗은 손으로 넘어져 5시간 동안 왼쪽 손목 통증과 부종이 생겼다. 처음에는 멍이라고 생각해 무시했지만 하루 종일 악화되었고 진통 스프레이도 효과가 없었다. 손목이 붓고 압통이 있으며 운동범위가 제한되었고 해부학적 코담배갑 부위에 압통이 있었다. 왼손 악력이 감소했지만 엄지손가락 맞섬은 가능했고 핀켈스타인 검사는 음성이었다. 손목 X선은 정상이었다. 다음 중 가장 적절한 처치는?
+손을 짚고 넘어진 20세 환자의 해부학적 코담배갑에 심한 압통이 있다. 주상골용 X선에서 골절은 보이지 않지만 의심이 높고 MRI를 바로 시행할 수 있다. 적절한 조치는?
 
 ## 선택지
 
-A. 코르티코스테로이드 주사
-B. 엄지 스피카 석고고정 후 2주 뒤 X선 재검
-C. 휴식·얼음찜질 후 2주 뒤 X선 재검
-D. 경피적 핀 고정술
+A. 고정하지 말고 평소대로 사용한다
+B. 손목을 보호 고정하고 조기 손목 MRI를 한다
+C. 손목 관절강 안에 스테로이드를 주사한다
+D. 초음파가 정상이면 골절을 배제한다
 
 ## 해설
 
-손을 짚고 넘어진 뒤 해부학적 코담배갑 압통이 있어 초기 X선이 정상이더라도 주상골골절을 의심한다. 선지 중 엄지 스피카 고정 후 1~2주 재평가·방사선 재촬영(B)이 적절하다. 재촬영은 완전 치유가 아니라 초기 잠복골절을 발견하기 위한 목적이며 통증이 지속되면 MRI 등 추가 검사를 고려한다.
+코담배갑 압통이 있으면 초기 X선이 정상이더라도 잠복 주상골 골절을 고려한다. 보호 고정 후 MRI로 확인하거나 접근이 어려우면 일정 기간 뒤 재촬영한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 경피적 핀 고정술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000968
+- https://acsearch.acr.org/docs/69418/Narrative/

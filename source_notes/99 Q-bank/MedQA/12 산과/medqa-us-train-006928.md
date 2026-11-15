@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: simple
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,21 +37,22 @@ related_drug_slugs:
 
 ## 문제
 
-고혈압과 당뇨병이 있는 44세 여성이 임신을 시도하고 있다고 외래에 알렸다. 리시노프릴, 메트포르민 및 시타글립틴을 복용한다. 혈압은 136/92 mm Hg, 심박수는 분당 79회이고 신체진찰은 정상이다. 고혈압 약물에 대해 어떻게 해야 하는가?
+44세 고혈압 환자가 임신을 계획하고 있다. 리시노프릴을 복용 중이고 천식·서맥 등 베타차단제 금기는 없다. 혈압 치료는 계속 필요하다. 적절한 처방 조정은?
 
 ## 선택지
 
-A. 현재 요법 계속
-B. 리시노프릴 중단 후 라베타롤 시작
-C. 현재 요법을 계속하며 조절을 위해 베타차단제 추가
-D. 리시노프릴 중단 후 칸데사르탄 시작
+A. 리시노프릴을 칸데사르탄으로 바꾼다
+B. 임신 기간 내내 리시노프릴을 그대로 쓴다
+C. 임신 가능성이 있으면 혈압약을 모두 무조건 끊는다
+D. 임신 전에 리시노프릴을 중단하고 라베타롤 등 적절한 약으로 바꾼다
 
 ## 해설
 
 
-ACE 억제제는 임신 전에는 중단하고 라베타롤 같은 베타 차단제로 교체한다.
+임신을 준비할 때 ACE 억제제·ARB 대신 임신 중 사용 가능한 약제로 계획적으로 바꾼다. 라베타롤이나 서방형 니페디핀 등을 동반질환과 혈압에 맞춰 선택한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006928
+- https://www.nice.org.uk/guidance/ng133/chapter/recommendations

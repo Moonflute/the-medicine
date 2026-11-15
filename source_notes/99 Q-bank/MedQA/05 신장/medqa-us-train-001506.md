@@ -15,7 +15,7 @@ related_diseases:
   - "cellular casts"
 related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
-question_type: investigation
+question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 남성이 피로와 식욕부진으로 일차진료에 내원했다. 무릎 아래 다리가 부어 있는 것도 걱정한다. 35년 동안 제2형 당뇨병이 있어 메트포르민과 글리부리드를 복용한다. 체온은 36.5°C (97.7°F), 혈압은 165/82 mm Hg, 맥박은 88회/분이다. 다음 중 존재하면 당뇨병성 신장질환 가능성이 낮아지는 소견은 무엇인가?
+제2형 당뇨병과 안정적인 알부민뇨가 있던 67세 남성의 크레아티닌이 2주 사이 1.2에서 2.7 mg/dL로 올랐다. 아래 소견 중 단순 당뇨병콩팥병보다 새로운 사구체신염을 의심하게 하는 것은?
 
 ## 선택지
 
-A. 신증후군 범위 단백뇨
-B. 당뇨병성 망막병증
-C. 소변검사의 세포 원주
-D. 초음파에서 정상~큰 신장
+A. 오래전 확인된 당뇨병망막병증
+B. 이전과 비슷한 양의 알부민뇨
+C. 요침사의 변형 적혈구와 적혈구 원주
+D. 이전과 비슷한 신장 크기
 
 ## 해설
 
-정답은 C이다. 전형적 당뇨병성 신장질환은 대체로 비활동성 요침사와 알부민뇨를 보인다. 세포원주 등 활동성 침전물이 있으면 다른 사구체염·간질성 병변 등을 고려하므로 DKD만의 가능성을 낮추는 소견이다. 신증후군 범위 단백뇨, 당뇨망막병증과 정상 또는 큰 신장은 DKD에 동반될 수 있다. 단백뇨 자체를 세포원주와 같은 활동성 요침사라고 분류하지 않는다.
+빠른 신기능 저하에 변형 적혈구나 적혈구 원주가 동반되면 당뇨병만으로 설명하지 않는다. 동반 사구체신염을 찾는 신장내과 평가가 필요하다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 초음파에서 정상~큰 신장
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001506
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/

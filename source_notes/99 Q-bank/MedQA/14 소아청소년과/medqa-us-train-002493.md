@@ -18,6 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-uFuOuhnOuwlOydtOufrOyKpCDqsJDsl7wgKE5vcm92aXJ1cyBJbmZlY3Rpb24pLm1k
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-8개월 여아가 3일간 지속된 발열, 구토, 설사로 응급실에 왔다. 하루에 물설사를 최소 10회 하고 2개월 전 어린이집에 다니기 시작한 후 상기도감염을 세 번 앓았으나 발달은 정상이다. 예방접종은 불완전하다. 체온 38.5°C, 맥박 145회/분, 혈압 92/54 mmHg이며 점막이 건조하고 피부긴장도가 감소되어 있고 장음은 항진되어 있다. 혈액검사와 포도당, BUN, 크레아티닌은 정상이나 저칼륨혈증이 있다. 정맥 수액 소생과 함께 다음 중 가장 적절한 치료의 다음 단계는?
+8개월 여아가 3일간 지속된 발열, 구토, 설사로 응급실에 왔다. 하루에 물설사를 최소 10회 하고 2개월 전 어린이집에 다니기 시작한 후 상기도감염을 세 번 앓았으나 발달은 정상이다. 예방접종은 불완전하다. 체온 38.5°C, 맥박 145회/분, 혈압 92/54 mmHg이며 점막이 건조하고 피부긴장도가 감소되어 있고 장음은 항진되어 있다. 혈액검사와 포도당, BUN, 크레아티닌은 정상이나 저칼륨혈증이 있다. 정맥 수액 소생과 함께 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

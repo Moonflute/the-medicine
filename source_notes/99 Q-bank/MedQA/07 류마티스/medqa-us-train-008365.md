@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
   - MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ
-question_type: investigation
+question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-53세 남자가 한 달 동안 소량의 피가 섞인 가래를 동반한 기침, 피로, 근육통, 운동 시 호흡곤란으로 내원했다. 최근 2개월 동안 체중이 2 kg 감소했다. 체온 37.2°C, 맥박 98회/분, 호흡수 22회/분, 혈압 152/98 mm Hg이다. 양측 폐에서 미만성 수포음과 양측 하지에 눌러도 창백해지지 않는 홍반성 병변이 있다. 백혈구 12,300/mm³, 혈소판 400,000/mm³, ESR 83 mm/h, 크레아티닌 2.1 mg/dL, ANA 1:40, 소변 단백 3+, 혈액 2+, 적혈구 원주가 많다. 피부 생검에서 육아종 없는 세동맥 및 모세혈관 염증이 보인다. 추가 검사에서 가장 가능성 높은 소견은?
+53세 남성이 객혈과 신기능 악화로 내원했다. 소변에 적혈구 원주가 있고 신장 생검에 면역침착이 거의 없는 괴사성 반월체 사구체신염이 있다. 파괴성 부비동 병변, 육아종, 천식이나 호산구증가는 없고 MPO-ANCA가 양성이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 항사구체기저막 항체
-B. 혈청 크라이오글로불린 증가
-C. 항미엘로과산화효소 항호중구세포질항체(MPO-ANCA)
-D. B형간염 표면항원
+A. 항사구체기저막 질환
+B. 호산구성 육아종증 다발혈관염
+C. 현미경적 다발혈관염
+D. 결절성 다발동맥염
 
 ## 해설
 
 
-폐출혈 의심 증상과 사구체신염, 촉지자반 및 육아종 없는 소혈관 염증은 microscopic polyangiitis(현미경다발혈관염)를 시사한다. 보기 중 myeloperoxidase에 대한 ANCA(MPO-ANCA) C가 연관된다. ANCA 결과만으로 진단을 확정하지 않고 임상·조직을 함께 판단한다. MPO는 myeloperoxidase를 뜻하며 항미오페린이라는 항체는 아니다.
+폐출혈과 면역침착이 거의 없는 사구체신염, MPO-ANCA는 현미경적 다발혈관염을 지지한다. 항체만으로 결정하지 않고 조직과 장기 침범 양상을 함께 본다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. B형간염 표면항원
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008365
+- https://kdigo.org/guidelines/anca-associated-vasculitis/

@@ -13,12 +13,12 @@ related_diseases:
   - "임신 중 철결핍성 빈혈"
   - "소구성 빈혈"
   - "태아 철분 우선 공급"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
   - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,22 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 G2P1 여성이 임신 12주에 첫 산전 방문에서 시행한 정기 산전 선별검사 결과를 상담하기 위해 내원했다. 매일 산전 비타민을 복용하며 다른 약물은 복용하지 않는다. 경미한 피로를 호소하고 진찰에서 창백해 보인다. 전혈구검사 결과는 다음과 같다.
-헤모글로빈 9.5 g/dL
-헤마토크릿 29%
-평균 적혈구 용적 75 µm³
-이 산모와 태아의 혈액학적 상태로 가장 가능성 높은 조합은 무엇인가?
+임신 12주 산모의 혈색소가 9.5 g/dL, MCV가 75 fL다. 뚜렷한 출혈이나 염증은 없다. 임신 중 소구성 빈혈에서 먼저 철 저장량을 확인할 검사는?
 
 ## 선택지
 
-A. 산모와 태아 모두 엽산결핍성 빈혈
-B. 산모는 철결핍성 빈혈, 태아는 정상 헤모글로빈 수치
-C. 산모는 악성빈혈, 태아는 정상 헤모글로빈 수치
-D. 산모는 생리적 빈혈, 태아는 정상 헤모글로빈 수치
+A. 혈청 엽산
+B. 직접항글로불린검사
+C. 혈색소가 낮으므로 추가 검사 없이 태아 혈색소만 측정
+D. 혈청 페리틴
 
 ## 해설
 
-Hb 9.5 g/dL와 MCV 75 fL는 단순 생리적 혈액희석보다 소구성 빈혈에 부합하며, 선지 중 모체 철결핍빈혈과 태아 정상 Hb(B)가 가장 적합하다. 태반을 통한 철 전달로 태아의 철 공급이 상대적으로 우선되어 모체 빈혈이 곧 같은 정도의 태아 빈혈을 뜻하지는 않는다. 기존의 ‘태아보다 산모에 철분이 우선 공급된다’는 문장은 반대로 쓴 것이다. 심한 모체 결핍이 태아 철 저장과 결과에 영향을 줄 수 있으므로 항상 안전하다는 뜻은 아니다.
+염증이 없다면 낮은 페리틴은 저장 철 결핍을 뒷받침한다. 소구성 빈혈이 있는데 페리틴이 정상이거나 철분 치료에 반응하지 않으면 지중해빈혈 등 다른 원인을 살핀다.
 
 ## 검수 근거
 
@@ -62,3 +58,4 @@ Hb 9.5 g/dL와 MCV 75 fL는 단순 생리적 혈액희석보다 소구성 빈혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007063
+- https://doi.org/10.1002/ijgo.70529

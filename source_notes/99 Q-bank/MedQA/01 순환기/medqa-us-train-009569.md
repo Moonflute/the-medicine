@@ -19,7 +19,7 @@ question_type: management
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-류마티스관절염과 쇼그렌증후군 병력이 있는 63세 여성이 2차 의견을 위해 내원했다. 약 1년간 특발성 만성 심낭삼출이 있고 간헐적 흉통이 있다. 심낭천자를 두 번 시행했지만 매번 다시 차올랐으며 NSAID와 콜히친을 사용해도 크기가 변하지 않았다. 원인검사는 음성이다. 현재도 흉통을 호소하지만 목정맥 팽창은 없고 심전도에서 동성 리듬과 낮은 QRS 전압이 보인다. 치료와 진단을 동시에 할 수 있는 선택적 시술은 무엇인가?
+63세 여성이 큰 심낭삼출로 영상 유도 심낭천자와 카테터 배액을 두 차례 받았다. 두 번 모두 배액 뒤 호흡곤란이 줄었지만 삼출과 증상이 다시 생겼다. 현재 혈압은 안정적이고 심낭이 수축하는 소견은 없다. 재발 방지를 위해 고려할 시술은?
 
 ## 선택지
 
-A. 심낭창냄술
-B. 반복 심낭천자
-C. 심낭절제술
-D. 비수술적 관리
+A. 수술로 심낭창을 만들어 배액한다
+B. 심낭 전체를 절제한다
+C. 흉관만 삽입해 흉막을 배액한다
+D. 심낭천자는 필요 없으므로 이뇨제만 증량한다
 
 ## 해설
 
 
-재발성 특발성 심낭삼출에 대해 심낭창을 만들면 삼출액이 지속적으로 배출돼 진단과 치료를 동시에 할 수 있다. 심낭천자는 반복해도 재발이 흔하고, 심낭절제술은 침습적이며 비수술적 관리만으로는 효과가 부족하다. 따라서 선택적 시술은 심낭창냄술이다.
+크고 증상이 있는 심낭삼출이 배액 후에도 반복되면 심낭창을 통한 수술적 배액을 고려한다. 현재의 문제는 재발성 삼출이므로, 만성 수축성 심낭염에 시행하는 심낭절제술과 구분한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 비수술적 관리
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009569
+- https://doi.org/10.1093/eurheartj/ehaf192

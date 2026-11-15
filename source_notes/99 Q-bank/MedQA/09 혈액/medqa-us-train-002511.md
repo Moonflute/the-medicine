@@ -16,7 +16,7 @@ related_diseases:
   - "tranexamic acid"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-2PsCDruYzroIjruIzrnoDtirjrs5EgKHZvbiBXaWxsZWJyYW5kIERpc2Vhc2UsIHZXRCkubWQ
-question_type: management
+question_type: prevention
 difficulty: simple
 answer: A
 translation_status: machine-verified
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-26세 남성이 비중격만곡 교정수술 중 과도한 출혈이 발생했다. 수술 전 PT와 혈소판 수는 정상이었다. 어린 시절부터 피부에 파란 멍이 잘 들고 쉽게 멍이 드는 증상이 있었으며 가족에게 유전성 혈액질환이 있지만 자세한 내용은 모른다. 다음 중 가장 적절한 치료는?
+제1형 폰빌레브란트병 환자의 평소 폰빌레브란트인자 활성은 0.42IU/mL다. 출혈 경향은 가볍고 간단한 발치 한 건이 예정돼 있다. 국소 지혈과 함께 적절한 예방은?
 
 ## 선택지
 
-A. 데스모프레신과 트라넥삼산
-B. 동결침전제
-C. 재조합 제9인자
-D. 적혈구 수혈
+A. 트라넥삼산을 사용하고 인자 상승 치료는 일률적으로 추가하지 않는다
+B. 재조합 제IX인자를 예방적으로 투여한다
+C. 적혈구 수혈로 출혈을 예방한다
+D. 모든 경우 데스모프레신과 폰빌레브란트인자 농축제를 동시에 사용한다
 
 ## 해설
 
 
-어릴 때부터 쉽게 멍이 들고 가족력이 있으며 정상 혈소판 수와 PT에도 점막 수술 출혈이 생겨 von Willebrand disease가 의심된다. Desmopressin은 내피에 저장된 vWF와 factor VIII 방출을 늘리고 tranexamic acid는 섬유소용해를 억제하므로, 반응성 경증 VWD를 전제로 한 보기 중 A가 부합한다. 다만 아형·이전 반응·수술 출혈 정도를 확인해야 하며 2B형, 3형 등에서는 적절하지 않거나 효과가 없다. 중증 수술출혈에는 vWF 농축제 등 전문 치료가 필요할 수 있고 desmopressin이 모든 혈소판 기능장애의 보편적 치료는 아니다.
+기저 활성이 0.30IU/mL를 넘는 경증 제1형 환자의 작은 점막 시술에서는 트라넥삼산과 국소 지혈이 적절한 선택이다. 출혈 경향이 심하거나 수술 범위가 큰 경우에는 인자 상승이 필요할 수 있다.
 
 ## 검수 근거
 

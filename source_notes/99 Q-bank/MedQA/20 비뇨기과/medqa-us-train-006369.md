@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-77세 여성(Gravida 2, Para 2)이 거주 중인 요양원 직원과 함께 지난 2주 동안의 불수의적 요실금과 빈뇨로 내원했다. 소변이 마려운 느낌이 들면 화장실에 갈 시간이 거의 없다고 한다. 이 기간 동안 하루 4~6회 ‘실수’가 있었다. 이전에는 요실금이 없었다. 평소보다 피로감도 심하다. 매일 커피 3잔을 마신다. 마지막 월경은 15년 전이었다. 복용 약물은 없다. 활력징후는 정상이다. 복부는 부드럽고 압통이 없다. 골반 진찰에서 질과 자궁경부는 정상으로 보이며 자궁과 부속기는 작다. 다음 중 처치로 가장 적절한 다음 단계는?
+77세 여성이 3일 전부터 배뇨통과 빈뇨, 갑자기 참기 어려운 요의를 호소한다. 이전에는 소변을 지린 적이 없고 발열이나 옆구리 통증은 없다. 과민성 방광 치료를 시작하기 전에 우선 확인할 것은?
 
 ## 선택지
 
-A. 질 에스트로겐 크림
-B. 소변검사 및 배양
-C. 패드 검사
-D. 골반 MRI
+A. 패드 무게 측정
+B. 골반 MRI
+C. 요역동학검사
+D. 요검사와 필요시 소변배양
 
 ## 해설
 
 
-노인 여성의 급성 요실금과 빈뇨는 요로감염을 먼저 배제해야 한다. 소변검사와 배양을 통해 감염 여부를 확인하는 것이 진단적 우선순위이다. 따라서 소변검사 및 배양이 적절하다.
+새로 생긴 배뇨통과 절박뇨는 먼저 감염을 평가한다. 증상이 있는 환자의 요검사는 도움이 되지만, 증상 없이 세균뇨만 있다고 요로감염으로 치료하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006369
+- https://pc.icjournal.org/DOIx.php?id=10.3947%2Fic.2018.50.1.67

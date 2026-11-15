@@ -21,7 +21,7 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: verified
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,25 +36,24 @@ related_drug_slugs:
 
 ## 문제
 
-임신 36주에 태어난 3580 g 남아의 출생 직후 체온은 36.7°C, 심박수 96회/분, 호흡수 55회/분으로 불규칙하고 오른손 산소포화도는 65%이다. 분비물 흡인에 재채기와 찡그림을 보이고 몸통은 분홍색이나 사지는 파랗다. 다음 중 가장 적절한 처치는?
+출생 직후 보온·건조·자극을 마친 신생아가 헐떡이듯 호흡하며 심박수는 분당 88회다. 즉시 시행할 처치는?
 
 ## 선택지
 
-A. 에리트로마이신 안연고 투여
-B. 양압환기 시행
-C. 기관내삽관
-D. 정맥 에피네프린 투여
+A. 심박수와 무관하게 먼저 흉부압박
+B. 마스크를 통한 양압환기
+C. 맥박이 100회보다 낮으면 바로 에피네프린
+D. 비강 산소만 공급하며 5분 아프가 점수를 기다림
 
 ## 해설
 
 
 
-초기 처치 후에도 심박수가 분당 100회 미만이면 효과적인 환기를 제공해야 하므로 양압환기(PPV, B)가 적절하다. 이 환아는 심박수가 분당 96회이고 호흡이 불규칙하다.
-
-PPV는 호흡을 보조하는 환기이며, 자발호흡하는 영아의 기도를 지속적인 압력으로 유지하는 CPAP와 동일하지 않다. 적절한 마스크 환기에도 반응이 부족할 때 대체 기도를 고려하며, 에피네프린은 효과적인 환기와 흉부압박 후에도 심한 서맥이 지속되는 단계의 약제다.
+초기 처치 뒤 무호흡·헐떡임 또는 심박수 100회/분 미만이면 효과적인 양압환기가 우선이다. 흉곽 움직임과 심박수로 반응을 재평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005152
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13277417/
 - 검토 근거: [AHA/AAP Neonatal Resuscitation 2025](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation)

@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTkg7ZS867aA6rO8L-yVhO2GoO2UvCDtlLzrtoDsl7wgKEF0b3BpYyBEZXJtYXRpdGlzKS5tZA
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite
@@ -35,7 +36,7 @@ related_drug_slugs:
 
 ## 문제
 
-23세 남성이 호흡곤란을 주소로 응급실에 내원하였다. 환자는 고용주가 주최한 점심 식사 자리에 참석 중이었다. 그는 다른 직원 몇 명과 밖에서 미식축구를 시작했을 때 증상이 시작되었다고 하였다. 환자의 과거력상 아토피 피부염과 천식이 있다. 체온은 98.3°F(36.8°C), 혈압은 87/58 mmHg, 맥박은 150/min, 호흡수는 22/min, 실내 공기에서의 산소 포화도는 85%이다. 다음 중 가장 적절한 다음 치료 단계는 무엇인가?
+23세 남성이 호흡곤란을 주소로 응급실에 내원하였다. 환자는 고용주가 주최한 점심 식사 자리에 참석 중이었다. 그는 다른 직원 몇 명과 밖에서 미식축구를 시작했을 때 증상이 시작되었다고 하였다. 환자의 과거력상 아토피 피부염과 천식이 있다. 체온은 98.3°F(36.8°C), 혈압은 87/58 mmHg, 맥박은 150/min, 호흡수는 22/min, 실내 공기에서의 산소 포화도는 85%이다. 가장 적절한 다음 치료 단계는 무엇인가?
 
 ## 선택지
 

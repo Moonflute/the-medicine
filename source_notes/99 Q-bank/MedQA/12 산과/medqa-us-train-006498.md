@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,21 +37,22 @@ related_drug_slugs:
 
 ## 문제
 
-태반조기박리로 임신 36주에 하부 자궁 횡절개 제왕절개를 시행해 출산한 지 3일 된 29세 초임부가 발열, 오한 및 유방이 무겁게 느껴지는 증상으로 내원했다. 오심과 복통도 있다. 체온은 39.3°C(102.7°F), 맥박은 분당 101회, 혈압은 110/70 mm Hg이다. 유방이 충만하고 압통이 있으며 하지에 경미한 부종이 있다. 복부는 전반적으로 압통이 있지만 방어성 긴장이나 반발통은 없다. 골반 진찰에서 악취 나는 오로와 현저한 자궁 압통이 보인다. 혈색소 11.3 g/dL, 백혈구 16,300/mm³, D-이합체 130 ng/mL(N<250), 크레아티닌 1.2 mg/dL이다. 골반 초음파에서 자궁은 비어 있다. 다음 중 처치로 가장 적절한 것은?
+제왕절개 3일 뒤 산모에게 39.2°C 발열, 자궁 압통, 악취 나는 오로가 생겼다. 초음파에 남은 태반조직은 없고 신기능은 정상이다. 산후 자궁내막염의 경험적 치료는?
 
 ## 선택지
 
-A. 자궁절제술
-B. 확장 및 소파술
+A. 세파졸린 단독 예방 투여
+B. 경구 니트로푸란토인
 C. 정맥 클린다마이신과 겐타마이신
-D. 헤파린 주입
+D. 항생제 없이 소파술만 시행
 
 ## 해설
 
 
-제왕절개 후 3일째에 발열, 악취 나는 오로, 자궁 압통이 동반된 경우는 산후 자궁내막염(감염성 자궁염)이다. 광범위한 혐기성 및 그람음성균을 커버하는 정맥 클린다마이신과 겐타마이신 조합이 1차 치료로 권장된다. 자궁절제술은 필요하지 않다.
+산후 자궁내막염은 여러 균이 관여할 수 있어 혐기균과 그람음성균을 함께 치료한다. 클린다마이신과 겐타마이신은 표준적인 정맥 병합요법 중 하나이며 치료 반응과 배양, 신기능을 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006498
+- https://www.ncbi.nlm.nih.gov/books/NBK615643/table/part2.tab65/

@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTgg7JWI6rO8L-uFueuCtOyepSAoZ2xhdWNvbWEpLm1k
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-50세 남자가 한 시간 전 시작된 심한 오른쪽 눈 통증, 전두부 두통, 메스꺼움과 구토로 응급실에 왔다. 오른쪽 눈은 붉고 단단하며 동공은 중간 정도로 확장되어 빛에 반응하지 않는다. 다음 중 이 환자에서 금기인 약물은?
+급성 동공차단성 폐쇄각 발작으로 한쪽 눈의 안압을 약물로 낮췄다. 각막이 맑아져 시술이 가능하다. 동공차단을 해소하고 재발을 막는 처치는?
 
 ## 선택지
 
-A. 국소 티몰롤
-B. 국소 에피네프린
-C. 국소 아프라클로니딘
-D. 경구 아세타졸아미드
+A. 레이저 주변홍채절개술
+B. 망막 범광응고술
+C. 유리체강내 항혈관내피성장인자 주사
+D. 눈물점 폐쇄술
 
 ## 해설
 
-급성 폐쇄각 발작을 시사하는 통증·충혈·단단한 안구와 중간 산동이 있다. Epinephrine의 산동 작용은 좁은 전방각에서 폐쇄를 악화시킬 수 있어 B가 피해야 할 선택지이다. 다른 세 약물은 안압 하강에 쓰일 수 있지만 각각의 금기는 따로 확인해야 한다. 특히 점안 timolol도 전신 흡수가 있어 천식, 서맥 및 2·3도 방실차단 환자에게 안전하다고 일반화해서는 안 된다.
+동공차단에서는 주변홍채에 통로를 만들어 뒤쪽 방의 압력을 낮출 수 있다. 레이저 주변홍채절개술을 시행할 수 있고 이후 수정체 등 각폐쇄 원인에 맞춰 추가 치료를 고려한다.
 
 ## 검수 근거
 
@@ -61,3 +61,5 @@ D. 경구 아세타졸아미드
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005242
+- https://pubmed.ncbi.nlm.nih.gov/41665581/
+- https://www.rcophth.ac.uk/wp-content/uploads/2026/06/Management-of-Angle-Closure-Glaucoma.pdf

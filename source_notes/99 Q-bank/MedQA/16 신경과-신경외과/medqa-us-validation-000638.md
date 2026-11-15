@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quLTsnqXtmJXrkZDthrUgKFRlbnNpb24tdHlwZSBoZWFkYWNoZSkubWQ
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 남성이 6개월간 이틀에 한 번 1~2시간 지속되는 양측성 조이는 두통으로 진료를 받으러 왔다. 광공포, 소리공포, 메스꺼움, 구토, 시야 소실은 없다. 가장 적절한 다음 처치는?
+26세 남성이 한 달에 두세 차례 양쪽 머리를 띠로 조이는 듯한 가벼운 두통을 겪는다. 걷거나 계단을 올라가도 악화하지 않고 구역이나 신경학적 이상은 없다. 필요할 때 복용할 초치료는?
 
 ## 선택지
 
-A. 아미트립틸린
-B. 두부 MRI
-C. 안과 평가
-D. 이부프로펜
+A. 수마트립탄
+B. 매일 아미트립틸린
+C. 이부프로펜
+D. 옥시코돈
 
 ## 해설
 
-양측 조이는 양상, 중등 이하 강도와 편두통 동반증상 부재는 긴장형 두통에 맞는다. 급성 통증에는 ibuprofen(D) 같은 NSAID를 고려한다. 다만 격일로 수개월 지속되는 빈도이므로 두통일지와 약물과용 위험, 예방 치료 필요성도 평가해야 하며 무제한 반복 진통제 사용을 권하는 것은 아니다. 위험징후 없이 안정적인 긴장형 두통에서 영상검사를 일률적으로 시행하지 않는다.
+간헐적인 긴장형 두통의 급성 통증은 이부프로펜 같은 단순 진통제로 다룬다. 발작 빈도와 진통제 사용이 늘면 약물과용 위험과 예방치료 필요성을 다시 본다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 이부프로펜
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000638
+- https://www.nice.org.uk/guidance/cg150/chapter/recommendations

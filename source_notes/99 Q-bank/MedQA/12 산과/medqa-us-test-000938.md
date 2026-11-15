@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoOyEsSDquInshLEg7KeA67Cp6rCEIChBY3V0ZSBGYXR0eSBMaXZlciBvZiBQcmVnbmFuY3kpLm1k
   - MTIg7IKw6rO8L0hFTExQIOymne2bhOq1sCAoSEVMTFAgU3luZHJvbWUpLm1k
-question_type: prognosis
+question_type: diagnosis
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-24세 아시아 여성이 임신 30주에 오심, 구토, 우상복부 통증으로 입원했다. 임신 2회, 출산 0회이며 지난 임신에서도 같은 증상이 있었고 임신 31주에 사산했다. 언니는 두 번의 임신 모두 전자간증을 앓았다. 현재 반응은 하지만 기면 상태였다. 혈압 150/90 mmHg, 맥박 85회/분, 호흡 15회/분, 체온 36.4°C(97.5°F)였고 황달, 우상복부 압통, 하지 함요부종 2+가 있었다. 혈색소 10.1 g/dL, 혈소판 190,000/mm³, 총 빌리루빈 5.3 mg/dL, 직접 빌리루빈 4.2 mg/dL, ALT 101 U/L, AST 99 U/L, 크레아티닌 0.9 mg/dL였다. 이 환자 상태의 위험인자는?
+임신 34주 산모가 구토, 황달과 의식 저하로 왔다. 포도당 44 mg/dL, INR 2.1이고 혈소판은 19만/μL다. 아미노전이효소는 중등도로 증가했고 용혈 증거는 없다. 이 소견에 가장 잘 맞는 진단은?
 
 ## 선택지
 
-A. 환자의 나이
-B. 미산부
-C. 이전 임신에서 같은 상태를 겪은 병력
-D. 형제의 전자간증 병력
+A. 임신성 급성 지방간
+B. 임신성 간내 담즙정체
+C. 임신 초기의 단순 입덧
+D. 임신성 고혈압만 있는 상태
 
 ## 해설
 
-임신 후기의 오심·구토, 황달·기면, 비교적 경한 간효소 상승은 임신성 급성 지방간(AFLP)을 의심하게 한다. 원문 혈소판은 190,000/mm³로 HELLP의 저혈소판증과 다르다. 이전 임신에서 같은 질환이 의심된 병력은 재발 고위험 관리의 근거이므로 C가 출제 의도이다. 다만 증상만으로 이전 AFLP를 확진할 수 없고, 전자간증 가족력도 임상적으로 무의미한 것은 아니다. 혈당·응고검사 등으로 감별해야 한다.
+임신 후기의 간기능 이상에 저혈당·응고장애·뇌병증이 같이 있으면 임신성 급성 지방간을 우선 의심한다. 즉시 저혈당과 응고장애를 관리하고 전문팀이 산모 안정화와 신속한 분만을 준비한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 형제의 전자간증 병력
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000938
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12177296/

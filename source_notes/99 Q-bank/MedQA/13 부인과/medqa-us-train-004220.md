@@ -14,13 +14,13 @@ related_diseases:
   - "성교통"
   - "골반저 근육 과긴장"
   - "Vaginismus"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nspp0gKEVuZG9tZXRyaW9zaXMpLm1k
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강했던 20세 여자가 성교통으로 내원했다. 최근 남자친구와 성생활을 시작했으며 다른 성 파트너는 없다. 삽입할 때마다 심하고 날카로운 질 통증이 지속되어 윤활제를 사용했지만 호전되지 않았다. 과거에도 탐폰 삽입 시 같은 통증 때문에 사용할 수 없었다. 외부 외음부 검사는 정상이나 삽입을 시도하면 통증이 심해 양손검사나 질경검사를 할 수 없다. 클라미디아와 임질 검사는 음성이다. 가장 적절한 다음 관리는 무엇인가?
+20세 환자는 탐폰이나 성관계 때 삽입이 어렵고 아프다. 동의를 받아 시행한 진찰에서 골반저에 뚜렷한 과긴장과 압통이 있다. 감염이나 외음부 병변은 없다. 우선 제공할 치료는?
 
 ## 선택지
 
-A. 골반저 물리치료
-B. 질 보톡스 주사
-C. 성 심리치료
-D. 질 에스트로겐 크림
+A. 골반저를 더 강하게 수축시키는 케겔 운동
+B. 골반저 보툴리눔독소 주사
+C. 골반저 이완을 중심으로 한 전문 물리치료
+D. 국소 에스트로겐 단독 치료
 
 ## 해설
 
 
-삽입 시 지속되는 날카로운 통증과 검사가 불가능한 경우는 골반저 근육 과긴장이 원인인 질경련을 시사한다. 골반저 물리치료는 근육 이완과 통증 감소에 효과적이다. 따라서 가장 적절한 다음 관리로 골반저 물리치료가 선택된다.
+골반저 과긴장에는 근육을 이완하고 통증을 줄이는 물리치료가 1차다. 환자의 동의를 받아 단계적으로 진행하고 필요하면 통증·심리 지원을 함께 한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004220
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10953682/

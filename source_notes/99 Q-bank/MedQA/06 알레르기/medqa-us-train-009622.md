@@ -19,7 +19,7 @@ question_type: diagnosis
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-18개월 여아가 2일 동안 생산성 기침과 콧물, 열감으로 내원했다. 비슷한 증상으로 이전에 중이염 2회와 세균성 부비동염 1회를 진단받았다. 체온 38.3°C이고 기침과 양쪽 콧구멍의 화농성 분비물이 있지만 폐 청진은 깨끗하다. 객담 그람염색에서 그람양성 쌍구균이 보인다. 면역글로불린 검사에서 IgM은 정상이고 IgG와 IgA는 감소되어 있다. 가장 가능성 높은 기저 진단은 무엇인가?
+18개월 남아가 반복 세균감염과 주폐포자충 폐렴으로 평가받았다. B세포 수는 정상인데 IgG와 IgA는 현저히 낮고 IgM은 높다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 브루톤 무감마글로불린혈증
-B. 공통 가변성 면역결핍
-C. 고 IgM 증후군
-D. 중증 복합 면역결핍
+A. X연관 무감마글로불린혈증
+B. 선택적 IgA 결핍
+C. 고IgM 증후군
+D. 보체 C5 결핍
 
 ## 해설
 
 
-IgM은 정상이지만 IgG와 IgA가 감소한 패턴은 클래스 스위칭 결함을 의미한다. 고 IgM 증후군은 CD40L 또는 AID 결함으로 IgM은 정상·증가하고 다른 면역글로불린이 감소한다. 따라서 고 IgM 증후군이 가장 가능성 높은 기저 진단이다.
+B세포 수가 유지되지만 IgG·IgA가 낮고 IgM이 정상 또는 높으면 항체 종류 전환 결함을 의심한다. 주폐포자충 감염은 CD40 리간드 결핍 등 복합 면역결핍의 단서다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ IgM은 정상이지만 IgG와 IgA가 감소한 패턴은 클래스 스위칭 결
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009622
+- https://www.ncbi.nlm.nih.gov/books/NBK1402/

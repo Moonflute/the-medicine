@@ -15,9 +15,9 @@ related_diseases:
   - "혈장 누출 증후군"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-uOheq4sOyXtCAoRGVuZ3VlIEZldmVyKS5tZA
-question_type: 임상증례 객관식
+question_type: diagnosis
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-25세 여자가 토혈과 쇼크로 중환자실에 입원했다. 5일 전 40.0°C의 고열, 안구 뒤 통증, 오심, 근육통이 있었고 며칠 후 고열은 감소했지만 심한 복통과 잇몸 출혈이 생겼다. 중환자실 입원 전 토혈을 한 번 했다. 매년 겨울 라틴아메리카를 여행하며 2주 전 브라질에서 야외 활동을 많이 했다. 안절부절못하고 체온 38.0°C, 맥박 110회/분, 호흡수 33회/분, 혈압 90/70 mmHg이다. 결막 충혈, 차가운 사지, 몸통과 사지의 반구진 발진, 하지의 멍이 있다. 폐기저부에서 호흡음이 없고 타진 시 둔탁하며 복부는 팽만되고 간 변연이 만져지고 간 span이 15cm이며 이동탁음이 있다. 헤모글로빈 16.5 g/dL, 백혈구 3,500/mm³, 호중구 55%, 림프구 30%, 혈소판 90,000/mm³, ALT 75 U/L, AST 70 U/L이다. 가장 가능성 높은 진단은 무엇인가?
+동남아 여행 후 뎅기열 확진을 받은 환자다. 열이 내리는 시기에 복통이 심해졌고, 혈소판은 감소하는 반면 헤마토크릿은 상승했다. 새 흉수가 보이고 혈압은 86/74mmHg다. 가장 적절한 판단은?
 
 ## 선택지
 
-A. 치쿤구니야 바이러스 감염
-B. 뎅기열
-C. 샤가스병
-D. 황열
+A. 해열됐으므로 회복기에 들어갔다
+B. 혈소판 감소만 있는 비중증 뎅기열이다
+C. 혈장 누출에 의한 쇼크를 동반한 중증 뎅기열이다
+D. 경미한 탈수이므로 경구 수분만 권고한다
 
 ## 해설
 
 
-해열기에 악화되는 복통·점막출혈·좁은 맥압·혈소판감소와 흉수/복수는 혈장누출을 동반한 중증 dengue B를 시사한다. 황열은 중증 간손상·황달이 상대적으로 두드러지며 이 사례와 덜 부합한다. 간 span은15cm라는 원문 측정치이며 간이 늑골연 아래15cm까지 내려와 있다는 의미가 아니다.
+해열 시점은 오히려 혈장 누출을 주의해야 할 시기다. 혈액농축, 새 흉수, 좁은 맥압과 쇼크는 중증 뎅기열을 시사해 즉각 평가와 치료가 필요하다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 황열
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004240
+- https://www.cdc.gov/dengue/hcp/clinical-signs/

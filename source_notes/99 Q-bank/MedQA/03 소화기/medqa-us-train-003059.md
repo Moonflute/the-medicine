@@ -17,7 +17,7 @@ related_diseases:
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-qzoO2YiOyVlSAoSHlwZXJ0ZW5zaW9uKS5tZA
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITqsr3rs4Dspp0gKExpdmVyIENpcnJob3NpcykubWQ
-question_type: management
+question_type: prevention
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -41,18 +41,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 남성이 3주 전 자발성 세균성 복막염으로 입원 치료를 받은 후 추적 진료를 위해 내원했다. 알코올성 간경변증과 갑상샘기능저하증이 있으며 스피로놀락톤, 락툴로오스, 레보티록신, 트리메토프림-설파메톡사졸, 푸로세미드를 복용한다. 시간과 장소에 대한 지남력만 있고 공막 황달, 3+ 발부종, 손바닥 홍반, 여성형 유방, 흉부와 등에 거미혈관종, 복부의 구불구불한 정맥과 이동성 탁음이 있다. 양측 폐기저부 호흡음은 감소하고 손목을 폈을 때 떨림이 있으며 양측 고환 용적이 감소했다. 다음 중 경정맥경유 간내 문맥전신 단락술(TIPS) 삽입의 가장 좋은 적응증인 합병증은?
+간경변 환자의 첫 식도정맥류 출혈이 내시경 결찰로 멎었다. 선제 TIPS 적응증은 없었고 혈압과 신장기능이 안정적이다. 출혈의 재발을 줄일 표준적인 첫 예방 전략은?
 
 ## 선택지
 
-A. 간정맥 폐쇄질환
-B. 재발성 정맥류 출혈
-C. 문맥고혈압성 위병증
-D. 간성 흉수
+A. PPI 단독 장기 투여
+B. 비선택적 베타차단제와 반복 내시경 정맥류 결찰 병행
+C. 옥트레오타이드 영구 정맥 투여
+D. 예방치료 없이 출혈할 때만 내시경
 
 ## 해설
 
-선택지 중 재발성 정맥류 출혈 B는 표준 약물·내시경 이차예방에 실패할 경우 TIPS의 대표 적응증이다. 이는 문맥고혈압에 의한 정맥류 출혈이지 문맥고혈압성 위병증의 한 형태는 아니다. 불응성 간성흉수 등에도 TIPS를 고려할 수 있으며, 이 환자처럼 뇌증 소견이 있으면 악화 위험·간기능·심장 상태 등을 개별 평가해야 한다.
+선제 TIPS를 시행하지 않은 식도정맥류 출혈 환자에서는 비선택적 베타차단제와 결찰술을 병행하는 것이 표준 이차예방이다. 적절히 병행했는데도 재출혈하면 TIPS를 검토한다.
 
 ## 검수 근거
 
@@ -65,3 +65,4 @@ D. 간성 흉수
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003059
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7160350/

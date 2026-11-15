@@ -16,9 +16,9 @@ related_diseases:
   - "IgA deficiency"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA
-question_type: 임상증례 객관식
+question_type: prevention
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-16세 남자가 여러 외상을 입은 교통사고 후 어머니와 함께 응급실에 왔다. 어린 시절 재발성 부비동염과 중이염 외에는 병력이 없다. 사고로 많은 출혈이 있어 도착 즉시 O형 음성 혈액 2단위를 수혈받았다. 얼마 지나지 않아 가려움과 호흡곤란이 생기고 협착음이 발생했다. 이 반응을 예방할 수 있었던 방법은 무엇인가?
+이전 두 차례 적혈구 수혈에서 아나필락시스를 겪은 환자가 계획 수술을 앞뒀다. 혈액은행 평가에서 중증 IgA 결핍과 항-IgA 항체가 확인됐다. 다음 적혈구 수혈 전에 혈액은행과 준비할 제제는?
 
 ## 선택지
 
-A. 수혈 전 아세트아미노펜 투여
-B. 수혈 전 디펜히드라민 투여
-C. 환자 혈액형에 맞는 혈액 투여
-D. 세척 혈액제제 투여
+A. 혈장을 충분히 제거하도록 추가 세척한 적혈구
+B. ABO가 일치하는 일반 적혈구만
+C. 방사선 조사만 한 적혈구
+D. 백혈구만 제거한 적혈구
 
 ## 해설
 
 
-수혈 직후 소양감과 호흡곤란·stridor는 중증 알레르기/아나필락시스 반응을 시사한다. 반복 부비동염은 IgA 결핍의 단서일 수 있으나 실제 IgA 및 anti-IgA 검사가 필요하고 모든 수혈 아나필락시스가 이 원인은 아니다. 선택지 D의 세척 적혈구는 혈장 단백·IgA 노출을 줄여 해당 환자의 재발 예방에 사용할 수 있다. ABO 형별 일치나 antihistamine 전처치가 이런 중증 반응을 확실히 예방하는 것은 아니다. 이미 발생한 반응에는 수혈 중단과 신속한 아나필락시스 처치가 필요하다.
+항-IgA 관련 중증 반응이 확인된 환자에게는 혈장 IgA를 최소화한 적혈구를 사용한다. 추가 세척 제제 또는 적합한 공혈자의 제제를 혈액은행과 미리 준비하며 모든 IgA 결핍에 일률적으로 적용하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 세척 혈액제제 투여
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004242
+- https://www.transfusion.or.kr/KOR/images/file/2022_5.pdf

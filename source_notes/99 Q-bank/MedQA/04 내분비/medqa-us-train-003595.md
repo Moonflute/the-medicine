@@ -17,7 +17,7 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
   - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
-question_type: management
+question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 남성이 피로, 무기력, 뼈 통증, 산통 양상의 오른쪽 복통으로 내원했다. 혈청 칼슘은 12.3 mg/dL, 인은 1.1 mg/dL, 소변 칼슘은 증가했고 X선에서 전반적인 골감소증과 골막하 골흡수가 보였다. 부갑상샘호르몬은 현저히 상승했다. 다음 중 가장 적절한 다음 처치는?
+55세 남성에서 반복 고칼슘혈증과 높은 PTH로 원발성 부갑상선기능항진증이 확인됐다. 신장결석이 있어 수술을 결정했다. 수술 전 병변 위치를 파악하려 할 때 적절한 검사는?
 
 ## 선택지
 
-A. 99mTc 세스타미비 스캔과 경부 초음파
-B. 경부 CT
-C. 골밀도검사(DEXA)
-D. 세스타미비 스캔만 시행
+A. 경부 초음파와 99mTc-세스타미비 스캔
+B. 골밀도검사와 척추 X선
+C. 24시간 소변 칼슘과 혈청 PTH 재검
+D. 경부 종괴 세침흡인만 시행
 
 ## 해설
 
-고칼슘혈증·낮은 인·비억제 PTH와 골/신장 합병증은 원발성 부갑상샘기능항진증을 뒷받침한다. 수술을 계획할 때 병변 위치결정을 위해 경부 초음파와 sestamibi A를 활용할 수 있다. 영상은 생화학적 진단을 대신하지 않으며 반드시 sestamibi가 양성이어야만 초음파를 시행하는 순서는 아니다. 음성 위치결정 영상도 수술 적응증 자체를 취소하지 않는다.
+원발성 부갑상선기능항진증은 생화학적으로 진단한다. 수술 계획을 세울 때 초음파와 세스타미비 등을 통해 위치를 평가한다. 위치가 확인되지 않는다고 수술 적응증이 사라지는 것은 아니다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 세스타미비 스캔만 시행
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003595
+- https://doi.org/10.1002/jbmr.4677

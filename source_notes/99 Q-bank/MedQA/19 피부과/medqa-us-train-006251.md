@@ -13,7 +13,7 @@ related_diseases:
   - "심상성 여드름"
   - "자궁내막암"
   - "복합 경구피임약"
-question_type: prevention
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
   - MTMg67aA7J246rO8L-qyveq1rO2UvOyehOyVvSAoT3JhbCBDb250cmFjZXB0aXZlcykubWQ
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-건강한 18세 여성이 얼굴, 등 위쪽 및 팔에 발생한 심한 심상성 여드름이 1년째 지속되어 내원했다. 경구 항생제와 벤조일퍼옥사이드 및 레티노이드 병용 국소치료를 받았으나 증상이 완전히 호전되지 않았다. 진찰에서 지성 피부와 함께 얼굴과 등 위쪽에 다수의 면포, 농포 및 흉터가 관찰된다. 복합 경구피임약을 이용한 장기 치료를 시작했다. 이 약물은 다음 중 어떤 질환의 발생 위험을 유의하게 감소시키는가?
+18세 환자는 얼굴에 면포와 염증성 구진이 반복된다. 흉터나 깊은 결절은 없고 이전에는 세정제만 사용했다. 항생제 없이 두 종류 국소 작용을 함께 이용하는 초기 선택은?
 
 ## 선택지
 
-A. 자궁내막암
-B. 심부정맥혈전증
-C. 악성 흑색종
-D. 간세포선종
+A. 아다팔렌과 벤조일퍼옥사이드
+B. 국소 클린다마이신 단독 장기 치료
+C. 국소 스테로이드와 항진균제
+D. 경구 독시사이클린 단독 장기 치료
 
 ## 해설
 
-복합 경구피임약은 자궁내막암 위험을 낮추므로 A가 적절하다. Progestin 성분이 estrogen의 내막 증식 작용을 길항하고 내막 증식을 억제하는 것이 핵심이다. Estrogen 단독이 이를 억제하는 것으로 설명하면 안 된다. COC는 혈전 위험을 낮추는 약도 아니며 정맥혈전증 위험은 오히려 증가할 수 있다.
+국소 레티노이드는 면포 형성을 줄이고 벤조일퍼옥사이드는 염증 병변을 줄이는 데 도움이 된다. 항생제를 사용하더라도 단독 장기 사용을 피한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 간세포선종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006251
+- https://pubmed.ncbi.nlm.nih.gov/38300170/

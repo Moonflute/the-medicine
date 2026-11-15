@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-qzqOuwmOuCtCDqsJDsl7wgKFBlbHZpYyBJbmZsYW1tYXRvcnkgRGlzZWFzZSkubWQ
   - MTEg7Jm46rO8L-2MqO2YiOyEsSDsh7ztgawgKFNlcHRpYyBTaG9jaykubWQ
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -44,18 +44,18 @@ answer_change_reason: "원정답 C는 농양 파열·복막염 등의 근거 없
 
 ## 문제
 
-19세 여성이 수일간 악화된 하복부 골반통과 질 분비물로 응급실에 왔다. 혈압은 84/66 mmHg, 맥박은 121회/분, 체온은 39.5°C였고 다량의 황록색 질 분비물과 심한 자궁경부 움직임 압통이 있었다. 추정 진단에 대한 가장 적절한 확정적 치료는?
+난관난소농양으로 입원한 29세 여성이 적절한 정맥 항생제를 3일 사용했지만 고열과 통증이 지속된다. 7 cm 농양이 그대로 있고 혈압은 안정적이며 파열·복막염은 없다. 접근 가능한 농양에 대한 다음 처치는?
 
 ## 선택지
 
-A. 레보플록사신과 메트로니다졸 14일
-B. 세프트리악손 근육주사 1회
-C. 탐색적 개복술
-D. 클린다마이신과 겐타마이신 14일
+A. 항생제를 중단하고 경과 관찰
+B. 단회 근육주사로 바꾸고 바로 퇴원
+C. 정맥 항생제를 유지하며 영상 유도 배액을 고려
+D. 고름을 배액하지 않고 진통제만 늘린다
 
 ## 해설
 
-발열·화농성 분비물·자궁경부 움직임 압통은 중증 PID이며 저혈압에는 즉시 소생과 입원 치료가 필요하다. 보기 중 클린다마이신과 겐타마이신(D)은 권고되는 정주 요법이다. 호전 뒤 경구 전환하여 총 14일 치료하며 농양 동반 시 혐기성균 치료를 유지한다. 농양 파열이나 수술적 감염원 제거 필요성은 신속히 평가하되, 본문에 없는 파열을 창작해 개복술 C를 정답으로 삼지 않는다.
+큰 난관난소농양이 충분한 항생제에 반응하지 않으면 감염원을 배액해야 할 수 있다. 안정적이고 접근 가능하면 영상 유도 배액을 고려하며, 파열이나 복막염이 있으면 응급 수술 평가가 필요하다.
 
 ## 검수 근거
 
@@ -67,3 +67,4 @@ D. 클린다마이신과 겐타마이신 14일
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003681
+- https://pubmed.ncbi.nlm.nih.gov/30880246/

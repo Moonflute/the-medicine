@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-unieymneyLnSDthqDrpqzsvantjKXsl7wgKE1lbWJyYW5vcHJvbGlmZXJhdGl2ZSBHbG9tZXJ1bG9uZXBocml0aXMpLm1k
 question_type: management
 difficulty: complex
-answer: "D"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -42,23 +42,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-47세 여성이 일주일간의 혈뇨와 하지 부종으로 신장내과에 의뢰되었다. 2주 전부터 아침에 발과 다리가 붓는 것을 느꼈다. 24년간 전신홍반루푸스가 있었고 관절·근육통은 이부프로펜과 아세트아미노펜으로 조절한다. 소변검사에서 변형 적혈구 6~10개/고배율시야와 세포 원주가 보이고 크레아티닌은 2.4 mg/dL, 24시간 단백 배설량은 550 mg이다. 신장 생검에서 미만성 증식성 사구체신염이 확인되었다. 가장 적절한 초기 치료는?
+47세 여성이 전신홍반루푸스 치료 중 혈뇨·단백뇨와 신기능 저하가 생겼다. 생검에서 활동성 IV형 루푸스신염이 확인됐다. 신장 침범을 치료할 초기 요법으로 적절한 것은?
 
 ## 선택지
 
-A. 메토트렉세이트와 엽산
-B. 정맥 면역글로불린
-C. 혈장교환
-D. 사이클로포스파미드와 프레드니솔론
+A. 히드록시클로로퀸 단독
+B. 메토트렉세이트와 엽산
+C. 안지오텐신수용체차단제 단독
+D. 글루코코르티코이드와 마이코페놀레이트를 포함한 유도 치료
 
 ## 해설
 
-미만성 증식성 루푸스 신염(IV형)의 활성 치료에는 glucocorticoid와 면역억제제를 병용한다. 선택지 중 cyclophosphamide와 prednisolone이 적합하다. 실제로는 mycophenolic acid 계열, 저용량 정맥 cyclophosphamide, belimumab 또는 calcineurin 억제제를 포함한 조합 등에서 신기능·생식 계획·위험을 고려해 선택하며 이 조합만이 유일한 표준은 아니다.
+활동성 증식성 루푸스신염에는 글루코코르티코이드와 면역억제제가 필요하다. 마이코페놀레이트 기반 요법은 한 선택지이며, 저용량 정맥 사이클로포스파미드나 추가 약제는 신기능·임신 계획·질병 위험에 따라 선택한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000372
+- https://kdigo.org/guidelines/lupus-nephritis/
 
 ## 오답 포인트
 

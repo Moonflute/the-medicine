@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: management
 difficulty: complex
-answer: "B"
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -40,23 +40,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-44세 여성이 공원에서 혼잣말을 하며 발견되어 응급실에 왔다. 전신홍반루푸스가 있으나 수년 전 methotrexate 복용을 중단했다. 2주간 쇠약, 메스꺼움, 구토가 있었고 현재 혼란, 전신 쇠약, 경정맥 팽창, 하지 부종, 나트륨 137, 칼륨 5.5, 중탄산염 15, BUN 94, 크레아티닌 5.5 mg/dL이다. 가장 적절한 다음 처치는?
+중증 신부전으로 소변량이 줄어든 44세 여성이 구역과 함께 점점 혼돈이 심해졌다. 다른 급성 신경학적·대사성 원인을 확인했으나 없고 요독성 뇌병증으로 판단했다. 가장 적절한 처치는?
 
 ## 선택지
 
-A. 락툴로오스 투여
-B. 혈액투석
-C. 메토트렉세이트 재시작
-D. 수분 제한
+A. 락툴로오스만 투여
+B. 응급 혈액투석
+C. 유지 수액만 늘려 경과 관찰
+D. 요소질소가 정해진 수치를 넘을 때까지 기다린다
 
 ## 해설
 
-중증 신기능 저하에 혼돈·지남력 장애, 체액 과다와 산증이 동반되어 요독성 뇌병증을 포함한 긴급 투석 적응증을 고려한다. 선택지 중 혈액투석이 적합하며 Cr 수치 하나만으로 결정하는 것은 아니다. SLE 관련 신장 손상 등 원인 평가와 다른 의식 장애 원인 확인·안정화를 함께 시행한다.
+요독성 뇌병증은 신대체요법의 긴급 적응증이다. 투석 여부는 크레아티닌이나 요소질소 수치 하나가 아니라 요독 증상과 전해질·체액 상태로 판단한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000863
+- https://kdigo.org/guidelines/acute-kidney-injury/
 
 ## 오답 포인트
 

@@ -13,12 +13,12 @@ related_diseases:
   - "HELLP 증후군"
   - "임신성 고혈압 질환"
   - "간 피막 신장"
-question_type: 임상증례 객관식
+question_type: diagnosis
 related_disease_slugs:
   - MTIg7IKw6rO8L0hFTExQIOymne2bhOq1sCAoSEVMTFAgU3luZHJvbWUpLm1k
   - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 28세 초임부가 임신 30주에 5일간 지속된 명치 통증과 오심으로 내원했다. 밤에 악화되며 2년 전 소화성 궤양을 진단받아 양성자펌프억제제와 항생제 치료를 받았다. 엽산과 종합비타민을 복용한다. 맥박 90회/분, 혈압 130/85 mmHg이고 자궁 크기는 임신 30주에 해당한다. 헤모글로빈 8.6 g/dL, 혈소판 95,000/mm³, 총빌리루빈 1.5 mg/dL, AST 80 U/L, LDH 705 U/L, 소변 단백질 2+이다. 이 환자 증상을 가장 잘 설명하는 것은 무엇인가?
+임신 30주에 HELLP 증후군으로 치료 중인 산모가 갑자기 우상복부와 오른쪽 어깨의 심한 통증을 호소한다. 혈압이 급격히 떨어지고 혈색소도 감소한다. 특히 의심할 합병증은?
 
 ## 선택지
 
-A. 신장의 세균 감염
-B. 하부 식도 점막 염증
-C. 간 피막의 신장
-D. 췌장의 급성 염증
+A. 역류성 식도염
+B. 급성 담도 산통
+C. 임신성 간내담즙정체
+D. 간피막하 혈종의 파열 및 복강내 출혈
 
 ## 해설
 
-빈혈·LDH 상승, 간효소 상승 및 혈소판 감소는 HELLP를 시사한다. 간 내 미세혈관 손상과 부종·출혈 등으로 Glisson 피막이 늘어나 상복부 통증을 일으킬 수 있으므로 C가 맞다. 정상에 가까운 혈압만으로 HELLP를 배제하지 않는다.
+HELLP 환자에서 갑자기 심해지는 우상복부·어깨 통증과 쇼크, 급격한 빈혈은 간피막하 출혈 또는 파열의 경고 신호다. 소생과 긴급 영상·다학제 평가가 필요하다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 췌장의 급성 염증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004315
+- https://easlcampus.eu/sites/default/files/2023-07/EASL%20CPG%20management%20of%20liver%20diseases%20in%20pregnancy.pdf

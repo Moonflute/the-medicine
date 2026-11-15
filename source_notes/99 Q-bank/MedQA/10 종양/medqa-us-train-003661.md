@@ -16,11 +16,11 @@ related_diseases:
   - "CD30"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-50세 여성이 오른쪽 유방의 부종과 확대를 주소로 내원했다. 15년 전 표면이 거친 유방 보형물을 삽입했고 MRI에서 보형물 주위에 액체가 고여 있지만 보형물 자체는 온전했다. 다음 중 가장 적절한 다음 처치는?
+50세 여성이 표면이 거친 유방 보형물을 삽입한 지 15년 만에 한쪽 유방이 커졌다. 초음파에서 보형물 주변에 새로 액체가 고여 있다. 보형물 관련 역형성 대세포 림프종을 평가하기 위한 다음 검사는?
 
 ## 선택지
 
-A. 표면이 거친 보형물을 매끈한 보형물로 수술 교체한다
-B. 유방촬영술
-C. CD30과 ALK에 대한 세포검사
-D. 항암화학요법
+A. 보형물 교체 후 경과 관찰
+B. 초음파 유도 액체 흡인 후 세포검사와 CD30 면역염색
+C. 유방촬영술로 림프종 확진
+D. 액체의 세균배양만 시행
 
 ## 해설
 
 
-보형물 주변에 액체가 고여 있으면서 보형물 자체는 온전한 경우, 보형물 관련 대형 세포 림프종(BIA‑ALCL)이 의심된다. 이 림프종은 CD30 양성이고 ALK 음성인 세포표현을 보이므로 CD30·ALK 세포검사가 진단에 필수적이다. 따라서 가장 적절한 다음 처치는 CD30과 ALK에 대한 세포검사이다.
+수술 후 오랜 시간이 지나 생긴 일측 보형물 주변 삼출액은 검체를 채취해 세포 형태, CD30 및 ALK 등을 확인한다. CD30 양성만으로 진단하지 않고 형태와 면역표현형을 함께 해석한다.
 
 ## 검수 근거
 

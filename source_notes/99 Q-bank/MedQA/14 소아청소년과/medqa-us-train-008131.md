@@ -13,12 +13,12 @@ related_diseases:
   - "complex febrile seizure"
   - "focal seizure"
   - "epilepsy risk"
-question_type: prognosis
+question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsoITspp0gKEVwaWxlcHN5KS5tZA
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-18개월 여아가 1시간 전 발생한 전신 강직과 반응 저하로 응급실에 왔다. 증상은 10분 미만 지속되었다. 24시간 동안 발열 없이 콧물과 코막힘이 있었고 6개월 전 열성 전신 강직간대발작을 한 번 했다. 예방접종은 최신이고 삼촌이 간질을 앓고 있다. 체온 38.9°C(102.0°F)이며 코막힘 외 진찰은 정상이다. 다음 중 이후 간질 발생을 가장 강하게 시사하는 요인은?
+18개월 아이가 39℃ 열이 나던 중 오른쪽 팔과 얼굴만 4분간 떨었다. 당일 다른 발작은 없었고 현재 의식은 평소대로 돌아왔다. 발작을 어떻게 분류할까?
 
 ## 선택지
 
-A. 간질 가족력
-B. 국소 발작
-C. 이전 열성 경련 병력
-D. 발열 시작 1시간 이내 발작
+A. 15분 미만이므로 단순 열성경련
+B. 당일 반복하지 않았으므로 단순 열성경련
+C. 한 번의 열 동반 발작으로 뇌전증 확진
+D. 한쪽에 국한됐으므로 복합 열성경련
 
 ## 해설
 
-향후 간질 위험과 관련된 중요한 열성경련 특성은 국소 발작(B)이다. 복합 열성경련은 국소성, 15분 이상 지속 또는 24시간 내 반복 등으로 구분한다. 발열 후 24시간 안에 생겼다는 사실이나 단순 과거 열성경련 병력만으로 복합이라고 하지 않는다. 이 질문은 위험요인 일반을 묻는 것이며 현 환자가 국소 발작을 했다고 새로 가정하지 않는다.
+발열과 동반한 경련에 국소 시작, 15분 이상의 지속, 24시간 이내 재발 중 하나라도 있으면 복합 열성경련으로 분류한다. 국소 발작이면 짧고 한 번뿐이더라도 단순 열성경련과 다르게 원인을 평가한다.
 
 ## 검수 근거
 

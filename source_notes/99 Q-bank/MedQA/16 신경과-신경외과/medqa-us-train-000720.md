@@ -15,9 +15,9 @@ question_type: investigation
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHsi6wg7LKZ7IiYIOymne2bhOq1sCAoQ2VudHJhbCBjb3JkIHN5bmRyb21lKS5tZA
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -32,21 +32,22 @@ related_drug_slugs:
 
 ## 문제
 
-74세 남성이 집 계단 위에서 떨어진 지 1시간 만에 응급실로 이송되었다. 환자는 목 통증과 상지 위약을 호소한다. 의식은 명료하며 경추 보호대(cervical collar)로 고정된 상태이다. 고혈압으로 하이드로클로로티아자이드(hydrochlorothiazide)를 복용 중이다. 맥박은 분당 90회로 규칙적이고, 호흡은 분당 18회, 혈압은 140/70 mmHg이다. 진찰상 멍과 정중 경추 압통이 관찰된다. 신경학적 검사에서 상지, 특히 손에서 근력 저하와 통증 및 온도 감각 저하가 나타난다. 상지 심부건 반사는 소실되었다. 하지의 근력, 감각, 반사는 정상이다. 항문 감각과 긴장도는 유지되고 있다. 바빈스키 징후(Babinski's sign)는 양측 모두 음성이다. 이 환자의 신경학적 검사 소견의 원인을 확인하는 데 가장 적절한 검사는 무엇인가?
+74세 환자가 넘어지며 목이 뒤로 젖혀진 뒤 손과 팔이 다리보다 훨씬 약해졌다. 경추를 고정했고 CT에서 뚜렷한 골절은 없다. 척수 손상이나 압박을 확인할 다음 영상은?
 
 ## 선택지
 
-A. 경부 CT 혈관조영술
-B. 경추 척수조영술(cervical myelography)
-C. 경추 X-선 촬영
-D. 조영제를 사용하지 않은 경추 MRI
+A. 경추 단순 X선을 반복한다
+B. 경추 MRI를 시행한다
+C. 목 CT 혈관조영술만 시행한다
+D. 조영증강 뇌 MRI를 시행한다
 
 ## 해설
 
 
-중심척수증후군은 경추 MRI(조영제 없이)로 척수 내 연부 조직 손상과 부종을 가장 정확히 확인한다. CT 혈관조영술·척수조영술은 필요하지 않다.
+경추 과신전 뒤 상지 우세 위약은 중심척수증후군의 단서다. CT에서 골절이 보이지 않아도 신경학적 결손이 있으면 MRI로 척수, 디스크와 인대를 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000720
+- https://acsearch.acr.org/docs/69359/Narrative/

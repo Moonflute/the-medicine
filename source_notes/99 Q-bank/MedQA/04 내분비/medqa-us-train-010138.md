@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: A
+publication_status: "withheld"
 original_answer: B
 answer_change_reason: "ETA2023는 새 결절에서 TSH와 진단 초음파를 우선하고 sonographic risk/size로 FNA 결정; subnormal TSH는 scintigraphy 고려. 현 문항은 이러한 선행 결과가 없으므로 A로 교정. https://pmc.ncbi.nlm.nih.gov/articles/PMC10448590/"
 translation_status: machine-verified

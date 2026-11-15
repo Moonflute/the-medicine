@@ -14,13 +14,13 @@ related_diseases:
   - "functional asplenia"
   - "sepsis"
   - "Streptococcus pneumoniae"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2MqO2YiOymnSAoTmVvbmF0YWwgU2Vwc2lzKS5tZA
   - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-18개월 남아가 3일간 악화된 피로, 보챔, 식욕부진으로 응급실에 왔다. 신생아 선별검사에서 베타글로빈 유전자 점돌연변이가 확인되었고, 현재 체온은 39.1°C, 혈압은 78/42 mmHg, 백혈구는 19,300/mm3, 혈색소는 7.8 g/dL였다. 다음 중 이 환자의 증상을 일으킨 가장 가능성 높은 원인균은?
+HbSS 겸상적혈구병이 있는 18개월 아이가 39.2℃ 열과 함께 처지고, 사지가 차며 혈압이 낮다. 뚜렷한 감염 부위는 없다. 소생을 진행하면서 할 조치는?
 
 ## 선택지
 
-A. 인플루엔자균
-B. 수막염균
-C. 살모넬라
-D. 폐렴사슬알균
+A. 혈액배양을 가능한 한 먼저 채취하고 경험적 정맥 항생제를 지체 없이 시작한다
+B. 인플루엔자 검사에서 음성이면 항생제 없이 귀가시킨다
+C. 예방용 경구 페니실린만 추가 투여하고 다음 날 본다
+D. 배양에서 원인균이 자랄 때까지 항생제를 미룬다
 
 ## 해설
 
-β글로빈 점변이와 빈혈은 겸상적혈구병의 출제 맥락을 시사한다. 비장 기능 저하가 생기면 피막세균, 특히 폐렴구균 감염에 취약해져 발열·저혈압 사례에서 D가 보기 중 적절하다. 다른 피막세균과 살모넬라도 감염을 일으킬 수 있으며 실제 최빈균은 예방접종·지역·감염 부위 등에 영향을 받는다. 본문에서 균이 배양된 것은 아니다.
+겸상적혈구병에서 기능적 무비장으로 침습 세균감염 위험이 높다. 발열과 관류 저하는 세균성 패혈증의 경고 신호이므로 배양과 즉각적인 정맥 항생제·소생이 필요하다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 폐렴사슬알균
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003532
+- https://www.nhlbi.nih.gov/sites/default/files/publications/56-364NFULL.pdf

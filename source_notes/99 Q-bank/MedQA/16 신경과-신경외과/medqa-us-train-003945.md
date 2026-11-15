@@ -18,6 +18,7 @@ question_type: management
 related_disease_slugs: []
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -32,7 +33,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-56세 남성이 2주간 악화된 허리 통증과 양쪽 다리로 방사되는 통증, 보행 중 저림과 서투름으로 내원했다. 양쪽 발등굽힘 근력은 3/5이고 다리의 감각이 감소했으며 양쪽 다리를 수동으로 올리면 통증이 방사되었다. 다음 중 가장 적절한 다음 처치는?
+56세 남성이 2주간 악화된 허리 통증과 양쪽 다리로 방사되는 통증, 보행 중 저림과 서투름으로 내원했다. 양쪽 발등굽힘 근력은 3/5이고 다리의 감각이 감소했으며 양쪽 다리를 수동으로 올리면 통증이 방사되었다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

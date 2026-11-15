@@ -14,12 +14,12 @@ related_diseases:
   - "HPV"
   - "질확대경검사"
   - "Low-grade squamous intraepithelial lesion"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-56세 여자가 자궁경부암 선별검사 결과를 상담하기 위해 내원했다. 2년 전 폐경했으며 호르몬 대체요법은 받지 않는다. 이전 자궁경부 세포검사에서 저등급 편평상피내병변(LSIL)이 나왔지만 HPV 검사는 시행하지 않았다. 부인과 검사는 정상이다. 이번 세포검사 결과는 다음과 같다: 검체 적절성은 평가에 충분하고, 저등급 편평상피내병변이며 위축성 양상이다. 다음 중 가장 적절한 관리는 무엇인가?
+56세 여성이 추적 없이 지내다 다시 검사를 받았다. 2년 전 세포검사는 LSIL이었고 이번에도 LSIL이며 고위험 HPV 양성이다. 최근 음성 HPV 기반 검사나 정상 질확대경 결과는 없다. 다음 처치는?
 
 ## 선택지
 
-A. HPV 16형과 18형 검사
-B. 질확대경검사
-C. 즉시 고리전기절제술
-D. 6개월 후 HPV 검사 반복
+A. 3년 뒤 국가검진만 시행
+B. 즉시 자궁경부 절제 치료
+C. 질확대경검사로 의심 부위를 평가하고 필요시 표적생검
+D. 질 에스트로겐만 사용하고 병변 평가는 하지 않음
 
 ## 해설
 
 
-LSIL이 지속될 경우, 특히 폐경 후에는 HPV 동시검사가 필요하지만, 현재는 HPV 검사가 없으므로 질확대경 검사를 통해 병변을 직접 시각·생검한다. 따라서 질확대경 검사가 적절하다.
+최근 위험도를 낮출 검사 결과가 없는 지속 LSIL과 고위험 HPV 양성은 질확대경 평가가 필요한 조합이다. 현재 결과만으로 침윤암을 확진하거나 즉시 절제하지는 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004096
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7147428/
+- https://www.ejgo.org/DOIx.php?id=10.3802%2Fjgo.2026.37.e90

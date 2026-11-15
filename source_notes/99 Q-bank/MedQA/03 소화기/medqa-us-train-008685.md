@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: D
+publication_status: "withheld"
 original_answer: C
 answer_change_reason: "ACG colon ischemia 지침은 복막염·괴사가 없는 의심 환자에서 초기 제한 대장내시경으로 진단 확인을 권고한다. 'diagnostic evaluation' 질문에서 관찰 C보다 제공된 제한내시경 D가 적절."
 translation_status: machine-verified

@@ -16,11 +16,11 @@ related_diseases:
   - "lymphoplasmacytic lymphoma"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-65세 남성이 6개월 동안 지속된 근력저하로 내원했다. 기운이 없고 간헐적인 코피, 5 kg 체중감소, 진행하는 청력·시력 문제, 발의 저림과 무감각, 통증이 있다. 간이 2~3 cm 만져지고 서혜부, 겨드랑이, 목에 압통 없는 림프절병증이 있다. 혈색소 8.8 g/dL, 혈소판 98,000/mm³이며 혈청 단백전기영동에서 단클론 IgM 면역글로불린의 날카로운 좁은 첨탑이 보인다. 다음 중 가장 가능성 높은 진단은?
+65세 환자에게 피로, 비장비대와 림프절비대가 있고 혈청 면역고정에서 단클론 IgM이 검출됐다. 발덴스트룀 거대글로불린혈증과 IgM 단클론 감마병증을 구분하기 위한 핵심 검사는?
 
 ## 선택지
 
-A. 털세포 백혈병
-B. 발덴스트롬 거대글로불린혈증
-C. 의미불명 단클론감마병증
-D. 외투세포 림프종
+A. IgM 농도만 반복하고 특정 수치를 넘으면 확진한다
+B. 골수 흡인·생검과 면역표현형으로 림프형질세포 침윤을 평가한다
+C. 소변 시험지만으로 골수 침윤을 평가한다
+D. 혈청 칼슘이 정상이면 골수 검사를 생략한다
 
 ## 해설
 
 
-IgM 단클론 증가는 Waldenström macroglobulinemia와 일치한다. 고점도 혈증, IgM 고농도, 골수 림프구성 침윤이 특징이다. 따라서 가장 가능성 높은 진단은 발덴스트롬 거대글로불린혈증이다.
+단클론 IgM만으로 발덴스트룀 거대글로불린혈증을 진단할 수 없다. 골수 조직과 면역표현형에서 림프형질세포 림프종에 해당하는 침윤을 확인한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ IgM 단클론 증가는 Waldenström macroglobulinemia와 일치한다. 고점�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003255
+- https://www.nature.com/articles/s41375-022-01762-3

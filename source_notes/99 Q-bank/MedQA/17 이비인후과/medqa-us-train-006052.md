@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -40,21 +40,22 @@ related_drug_slugs:
 
 ## 문제
 
-43세 남성이 12일 동안 지속된 코막힘과 피로로 내원했다. 그동안 발열과 양쪽 뺨 위의 심한 통증이 있었고, 처음에는 맑던 콧물이 최근 며칠 사이 노랗게 변했다. 시야 증상은 없으며 일반의약품 비충혈제거제와 아세트아미노펜을 복용했지만 호전되지 않았다. 제2형 당뇨병과 고혈압이 있고 현재 메트포르민, 시타글립틴 및 에날라프릴을 복용한다. 체온은 38.5°C(101.3°F), 맥박은 분당 96회, 혈압은 138/86 mmHg이다. 코와 인두에 화농성 분비물이 있고 귀는 정상이며 좌측 상악동에 압통이 있다. 검사에서 백혈구 10,800/mm³, ESR 22mm/h, 혈당 112mg/dL이다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+43세 환자가 호전되던 감기 뒤 고열과 심한 한쪽 안면 통증, 화농성 비루가 다시 생겼다. 안와·신경학적 경고 소견은 없고 페니실린 알레르기도 없다. 항생제를 시작하기로 했다면 적절한 경구 약은?
 
 ## 선택지
 
-A. 정맥 내 암포테리신 B
-B. 경구 아목시실린-클라불란산
-C. 경구 레보플록사신
-D. 경구 로라타딘
+A. 레보플록사신을 일률적으로 먼저 사용
+B. 아목시실린–클라불란산
+C. 로라타딘 단독
+D. 아지트로마이신 단회 투여
 
 ## 해설
 
 
-급성 세균성 부비동염은 고름성 분비물과 국소 압통을 동반하며, 1차 치료제로는 베타락탐계 항생제인 아목시실린‑클라불란산이 권장된다.
+호전 뒤 악화하고 증상이 뚜렷한 급성 세균성 부비동염에서 국내 지침의 초기 약제에는 아목시실린–클라불란산이 포함된다. 경과와 위험 요인에 맞춰 선택한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006052
+- https://kdca.go.kr/bbs/kdca/55/306853/download.do

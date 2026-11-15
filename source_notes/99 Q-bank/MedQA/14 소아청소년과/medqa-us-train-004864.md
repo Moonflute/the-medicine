@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IiY65GQIChWYXJpY2VsbGEpLm1k
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-5세 남아가 14시간 동안 전신의 심한 가려움 발진이 생겨 응급실에 왔다. 5일 전 양쪽 눈이 충혈되었으나 저절로 호전되었다. 급성 림프모구성 백혈병으로 빈크리스틴, 아스파라기나제, 덱사메타손, 독소루비신을 사용한 항암화학요법을 3주기 받았고 마지막 치료는 2주 전이었다. 얼굴, 몸통, 사지에 반점과 구진이 여러 차례 새로 생기며 긁은 자국과 딱지 병변도 있다. 다음 중 가장 적절한 치료는?
+백혈병 항암치료 중인 5세 아이에게 발열과 빠르게 번지는 수포가 생겼다. 병변 검사에서 수두가 확인됐다. 입원·격리와 함께 사용할 치료는?
 
 ## 선택지
 
-A. 면역글로불린 투여
-B. 대증 치료
-C. 아시클로버 투여
-D. 페니실린 V 투여
+A. 대증치료만 시행
+B. 수두 백신을 접종해 치료
+C. 노출 예방용 면역글로불린만 투여
+D. 정맥 아시클로버를 시작한다
 
 ## 해설
 
-여러 단계의 새 발진과 가피는 수두를 시사한다. 항암화학요법 중인 면역저하 소아는 중증·파종 위험이 있어 acyclovir(C), 통상 정주 치료가 필요하다. 노출 후 면역글로불린 예방을 이미 발생한 수두의 항바이러스 치료와 혼동하지 않는다.
+항암치료 중 발생한 수두는 중증·파종 위험이 높아 정맥 아시클로버 치료가 필요하다. 노출 후 예방과 증상이 있는 감염의 치료는 다르다.
 
 ## 검수 근거
 

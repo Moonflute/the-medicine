@@ -20,7 +20,7 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-28세 남성이 호흡곤란, 기침 및 천명으로 일차진료에 내원했다. 고등학교 때 달리기 후 간헐적으로 호흡곤란과 천명이 있었고 지난 6개월 동안 점점 악화되어 이제 매일 발생한다. 일주일에 약 3번 천명으로 잠에서 깬다. 과거력은 없고 담배와 과도한 음주는 하지 않는다. 체온은 37.1°C (98.8°F), 혈압은 121/82 mm Hg, 심박수는 82회/분이다. 양측 호기성 천명음이 들린다. 폐활량검사에서 FEV1은 예측치의 73%이고 알부테롤 후 19% 호전된다. 필요 시 속효성 베타작용제 외에 가장 적절한 치료는 무엇인가?
+28세 남성이 기관지확장제 반응이 확인된 천식으로 진료 중이다. 매일 저용량 흡입 스테로이드를 바르게 사용하지만 주 5일 이상 증상이 있고 밤에도 반복해 깬다. 최근 감염은 없으며 해당 흡입기를 사용할 수 있다. 치료를 한 단계 높이는 방법으로 적절한 것은?
 
 ## 선택지
 
-A. 지속성 베타작용제 단독
-B. 저용량 흡입 코르티코스테로이드와 지속성 베타작용제
-C. 중간 용량 흡입 코르티코스테로이드와 지속성 베타작용제
-D. 고용량 흡입 코르티코스테로이드와 지속성 베타작용제
+A. 흡입 스테로이드를 중단하고 살메테롤만 사용한다
+B. 저용량 흡입 스테로이드/포르모테롤을 유지와 증상 완화에 모두 사용한다
+C. 속효성 살부타몰만 매일 정기 사용한다
+D. 매일 경구 프레드니솔론을 장기간 투여한다
 
 ## 해설
 
 
-환자는 중등도 지속성 천식(FEV1 73% 예측, 베타 작용제 사용 후 19% 개선)으로, 저용량 흡입 스테로이드와 LABA 조합이 권장된다.
+흡입법과 순응도를 확인했는데도 저용량 흡입 스테로이드로 조절되지 않으면 흡입 스테로이드/포르모테롤을 유지와 완화에 함께 쓰는 치료로 올릴 수 있다. 모든 흡입 스테로이드/장기작용 베타₂작용제 조합을 완화제로 사용할 수 있는 것은 아니다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 고용량 흡입 코르티코스테로이드와 지속성 베타작용제
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001567
+- https://new.lungkorea.org/board/guide/view/14959
+- https://ginasthma.org/2026-gina-strategy-report/

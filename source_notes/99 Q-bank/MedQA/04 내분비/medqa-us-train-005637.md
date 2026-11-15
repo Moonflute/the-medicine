@@ -19,7 +19,7 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-42세 남성이 예방 진료를 위해 일차진료 의사를 방문했다. 현재 불편한 증상은 없다. 아버지는 당뇨병성 신증으로 사망했다. 활력징후는 체온 36.7°C(98.06°F), 혈압 150/95 mmHg, 맥박 분당 90회이다. 공복 혈당은 두 차례 159 mg/dL이고 HbA1c는 8.1%이다. 메트포르민과 생활습관 교정을 시작했다. 3개월 후 추적 방문에서 혈청 혈당 370 mg/dL, HbA1c 11%가 확인되었고 체중 감소와 다뇨를 호소한다. 다음 중 이 환자에게 가장 적절한 치료는 무엇인가?
+42세 제2형 당뇨병 환자가 메트포르민을 먹는데도 최근 체중이 줄고 다뇨가 생겼다. 혈당 370 mg/dL, HbA1c 11%다. 케톤산증과 고삼투성 응급은 배제했다. 어떤 치료를 우선 시작하는가?
 
 ## 선택지
 
-A. 기저-식사 인슐린 요법
-B. 메트포르민에 기저 인슐린 추가
-C. 메트포르민에 나트륨-포도당 공동수송체 2 억제제 추가
-D. 메트포르민에 티아졸리딘디온 추가
+A. 인슐린을 포함한 요법
+B. 메트포르민 증량만
+C. SGLT2 억제제 단독으로 교체
+D. 식이 상담만 하고 3개월 뒤 재검
 
 ## 해설
 
 
-공복 혈당과 HbA1c가 지속적으로 상승하고 체중 감소와 다뇨가 나타나는 경우, 인슐린 분비가 충분하지 않은 중증 고혈당이다. 기저‑식사 인슐린 요법이 혈당 조절에 가장 효과적이다.
+체중 감소·다뇨를 동반한 현저한 고혈당은 인슐린 치료를 우선 고려할 상황이다. 필요하면 이후 안정된 혈당과 당뇨병 유형에 맞춰 치료를 조정한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 메트포르민에 티아졸리딘디온 추가
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005637
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/

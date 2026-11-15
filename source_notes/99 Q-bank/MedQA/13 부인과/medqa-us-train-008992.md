@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA
 difficulty: standard
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-24세 여성이 정기 건강유지검사를 위해 내원했다. 건강하고 월경은 28일 간격으로 규칙적이며 3~5일 지속되고 양은 정상이다. 가끔 통증이 있다. 3년 전 클라미디아 자궁경부염으로 진단받아 독시사이클린 치료를 받았다. 18세 이후 여러 파트너와 성생활을 했고 피임에는 콘돔을 규칙적으로 사용한다. 주말에 맥주 2~3잔을 마시고 하루 반 갑을 피운다. 활력징후와 골반검사는 정상이다. 자궁경부 세포검사에서 저등급 편평상피내 병변(LSIL)이 보인다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+24세 여성이 정기 건강유지검사를 위해 내원했다. 건강하고 월경은 28일 간격으로 규칙적이며 3~5일 지속되고 양은 정상이다. 가끔 통증이 있다. 3년 전 클라미디아 자궁경부염으로 진단받아 독시사이클린 치료를 받았다. 18세 이후 여러 파트너와 성생활을 했고 피임에는 콘돔을 규칙적으로 사용한다. 주말에 맥주 2~3잔을 마시고 하루 반 갑을 피운다. 활력징후와 골반검사는 정상이다. 자궁경부 세포검사에서 저등급 편평상피내 병변(LSIL)이 보인다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

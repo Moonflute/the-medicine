@@ -21,7 +21,7 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,19 +39,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-볼프-파킨슨-화이트 증후군이 있는 29세 여성이 빠른 심실반응과 혈역학적 불안정성을 동반한 심방세동으로 치료받은 뒤 재발 방지를 위해 내원했다. 현재 프로카인아미드를 복용 중이다. 다음 중 가장 적절한 치료는?
+29세 여성이 부전도로를 통해 빠르게 전도된 심방세동으로 저혈압이 생겨 응급 심율동전환을 받았다. 동율동에서 짧은 PR 간격과 델타파가 확인됐다. 증상이 회복된 뒤 이런 빈맥의 재발을 막기 위한 근본 치료는?
 
 ## 선택지
 
-A. 와파린 항응고 시작
-B. 다비가트란 항응고 시작
-C. 전기생리검사와 절제술 의뢰
-D. 우심도자술 의뢰
+A. 베라파밀을 지속 투여한다
+B. 항응고제만 복용한다
+C. 전기생리검사를 하고 부전도로 도자절제술을 시행한다
+D. 삽입형 제세동기를 먼저 삽입한다
 
 ## 해설
 
 
-WPW 증후군에서 전기생리검사로 부정맥 회로를 확인하고, 재발 방지를 위해 경피적 전도 차단술(절제술) 의뢰가 표준 치료이다.
+볼프–파킨슨–화이트 증후군에서 위험한 조기흥분성 심방세동이 발생했다면 부전도로 절제술로 비정상 전도 경로를 제거한다. 항응고 적응증은 별도로 평가하며, 항응고제나 방실결절 차단제만으로 부전도로를 치료할 수 없다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ WPW 증후군에서 전기생리검사로 부정맥 회로를 확인하고, 재�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003917
+- https://doi.org/10.1093/eurheartj/ehz467

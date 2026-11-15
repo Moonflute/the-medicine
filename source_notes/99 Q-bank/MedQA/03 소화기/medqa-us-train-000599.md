@@ -22,7 +22,7 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-74세 남성이 갑작스럽게 발생한 복통으로 응급실에 내원하였다. 통증은 주로 배꼽 주위에서 느껴지며 16시간 전에 시작되었고 식사와는 관련이 없다. 구토는 없었으나 수차례 혈변을 동반한 묽은 변을 보았다. 환자는 1주일 전 급성 심근경색으로 입원한 병력이 있다. 35년간 당뇨병과 20년간 고혈압을 앓아왔다. 지난 40년간 하루 15~20개비의 담배를 피웠다. 체온은 36.9°C, 혈압은 95/65 mm Hg, 맥박은 분당 95회이다. 신체 검진상 환자는 심한 통증을 호소하며, 배꼽 주위에 경미한 압통이 있고 상복부에서 혈관 잡음(bruit)이 들린다. 가장 가능성이 높은 진단은 무엇인가?
+급성 심근경색 후 심인성 쇼크로 승압제를 쓰던 74세 환자가 심한 복통과 젖산 상승을 보인다. CT 혈관조영에서 장간막 동맥 주간부는 열려 있지만 여러 분지가 가늘고 소장 일부의 조영증강이 떨어진다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 결장 허혈(Colonic ischemia)
-B. 급성 장간막 허혈(Acute mesenteric ischemia)
-C. 소화성 궤양 질환(Peptic ulcer disease)
-D. 과민성 장 증후군(Irritable bowel syndrome)
+A. 상장간막동맥 색전성 폐색
+B. 비폐쇄성 장간막 허혈
+C. 장간막 정맥 혈전증
+D. 급성 대장 가성폐색
 
 ## 해설
 
 
-심근경색 후 급성 복통·혈변·복부 혈관 잡음은 장간막 혈류 급격한 감소를 의미한다. 장간막 허혈은 급성 복통과 혈변을 동반하며, 위험인자는 심근경색·동맥경화이다. 따라서 급성 장간막 허혈이 정답이다.
+쇼크와 혈관수축 상태에서는 큰 장간막 혈관이 막히지 않아도 장 혈류가 줄 수 있다. 심한 통증과 젖산 상승, 열려 있는 주간부와 좁아진 분지, 장벽 조영 감소를 함께 보아 비폐쇄성 장간막 허혈을 의심한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 과민성 장 증후군(Irritable bowel syndrome)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000599
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9762570/

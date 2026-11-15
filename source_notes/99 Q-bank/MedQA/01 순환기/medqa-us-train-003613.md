@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 남성이 2일간의 혼란과 빠르게 진행하는 호흡곤란으로 응급실에 왔다. 발열과 오한이 5일간 있었고, 과거 C형 간염과 정맥 헤로인 사용력이 있다. 양손바닥과 발바닥에 통증 없는 반점, 손톱 밑 선상 출혈, 양측 폐부종이 있었다. 심전도에서 P파와 QRS가 서로 독립적으로 규칙적인 간격으로 나타났다. 경식도 심초음파에서 가장 가능성 높은 소견은?
+32세 남성이 대동맥판 감염성 심내막염으로 치료 중이다. 발열이 지속되며, 새 심전도에서 P파와 QRS가 서로 독립적으로 나타나는 완전 방실차단이 확인됐다. 경식도 심초음파에서 특히 확인해야 할 합병증은?
 
 ## 선택지
 
-A. 우심방 내 고에코성 얇은 선형 구조
-B. 심낭과 심외막 사이의 무에코 공간
-C. 판막 주위 비후와 에코가 없는 공동
-D. 삼첨판의 진동성 이동 종괴
+A. 삼첨판에만 국한된 작은 증식물
+B. 단순 심낭삼출
+C. 대동맥판 주위 농양
+D. 고립성 승모판 탈출
 
 ## 해설
 
 
-감염성 심내막염에서 심전도에 완전 차단이 나타날 수 있으며, 초음파에서 판막 주위 비후와 무에코 공동(주위 농양)이 보인다. 이는 판막 주위 농양을 시사한다. 따라서 판막 주위 비후와 에코가 없는 공동이 정답이다.
+대동맥판 주위 조직은 방실 전도계에 가깝다. 대동맥판 심내막염 도중 새 방실차단이 나타나면 판막 주위 농양으로 감염이 퍼졌는지 신속히 평가한다. 농양이 확인되면 조기 수술 필요성을 검토한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 삼첨판의 진동성 이동 종괴
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003613
+- https://academic.oup.com/eurheartj/article/44/39/3948/7243107

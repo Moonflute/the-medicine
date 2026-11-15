@@ -17,9 +17,9 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: investigation
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-46세 여성이 일주일 동안 점점 심해지는 심한 요통으로 내원했다. 통증은 지속적이고 강도는 10점 만점에 9점이다. 6개월 전 우측 유방의 호르몬 수용체 음성 소엽암으로 유방부분절제술을 받았고 여러 차례 방사선치료를 받았다. 활력징후는 정상이다. 우측 유방의 수술 절개는 잘 아물었고 제12흉추를 누르면 심한 압통이 있다. 하지직거상검사는 음성이고 나머지 검사는 정상이다. 혈청 포도당은 76 mg/dL, 크레아티닌 1 mg/dL, 총 빌리루빈 0.8 mg/dL, 알칼리성 인산분해효소 234 U/L, AST 16 U/L, ALT 12 U/L, GGT 40 U/L(정상 5~50)이다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+유방암을 치료받은 환자가 며칠째 심해지는 야간 등 통증과 흉추의 국소 압통을 보인다. 아직 다리 힘과 감각, 배뇨 기능은 정상이다. 척추 전이가 의심될 때 우선 할 검사는?
 
 ## 선택지
 
-A. 양전자방출단층촬영
-B. 척추 X선
-C. 척추 MRI
-D. 골주사검사
+A. 적시에 척추 MRI를 시행한다
+B. 단순 X선이 정상이면 척추 전이를 배제한다
+C. 전이 확인과 무관하게 물리치료부터 시작한다
+D. 신경 증상이 생겨야 영상검사를 시행한다
 
 ## 해설
 
 
-요통과 T12 압통, 알칼리성 인산분해효소 상승은 골전이를 시사한다. 골전이 여부와 신경압박 위험을 평가하려면 연부조직과 골수 병변을 가장 잘 보는 영상인 척추 MRI가 필요하다. 따라서 다음 단계는 척추 MRI이다.
+암 환자의 지속적 야간 통증이나 척추 국소 압통은 신경 증상이 없어도 전이를 평가할 이유다. MRI로 골수 병변과 척수관 침범을 살피고 신경학적 이상이 새로 생기면 응급으로 전환한다.
 
 ## 검수 근거
 

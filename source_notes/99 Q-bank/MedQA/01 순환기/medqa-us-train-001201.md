@@ -18,7 +18,7 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-류마티스 심장질환(rheumatic heart disease) 병력이 있는 21세 캄보디아 환자가 정기 검진을 위해 일차 진료 의사를 방문했다. 환자는 15세에 류마티스 열(rheumatic fever)을 진단받은 이후 매달 페니실린 G(penicillin G) 주사를 잘 맞고 있다고 보고했다. 환자는 매달 병원까지 이동하는 불편함을 제외하고는 치료로 인한 주요 부작용은 없다고 했다. 신체 검진에서 제1심음이 크게 들리고 심첨부(apex)에서 가장 잘 들리는 중기 이완기 잡음(mid-diastolic rumble)이 확인되었다. 다음 중 가장 적절한 다음 단계는 무엇인가?
+21세 환자가 15세에 급성 류마티스열을 앓았다. 이후 4주마다 벤자틴 페니실린 G 근육주사를 받고 있으며, 심초음파에서 류마티스성 승모판 손상이 남아 있다. 증상이 없어져 주사를 중단해도 되는지 묻는다. 적절한 답은?
 
 ## 선택지
 
-A. 4년 후에 페니실린 치료를 중단한다
-B. 주사 빈도를 격월로 줄인다
-C. 부작용이 더 적은 근육주사용 세포탁심(cefotaxime)으로 변경한다
-D. 근육주사용 페니실린 치료를 지속한다
+A. 마지막 발열 이후 1년이 지났으니 바로 중단한다
+B. 투여 간격을 임의로 두 달마다로 늘린다
+C. 심내막염 예방을 위해 발치할 때만 투여한다
+D. 류마티스열 재발 예방을 위해 정기 주사를 계속하고 종료 시점을 개별 평가한다
 
 ## 해설
 
 
-류마티스 심장질환 환자는 재발성 연쇄상구균 감염을 예방하기 위해 매달 근육주사 페니실린을 지속해야 한다. 치료를 중단하거나 간격을 늘리면 재발 위험이 증가한다.
+류마티스열 이후 판막질환이 남은 환자에게는 류마티스열 재발과 추가 판막 손상을 막기 위한 장기 이차예방이 필요하다. 벤자틴 페니실린 G 근육주사가 우선이며 기간은 나이, 마지막 발병 시점, 남은 판막 손상 등에 따라 평가한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 근육주사용 페니실린 치료를 지속한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001201
+- https://www.who.int/publications/i/item/9789240100077

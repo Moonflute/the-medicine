@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTkg7ZS867aA6rO8L-2PrOuPhOyVjOq3oCDsl7Tsg4Eg7ZS867aAIOymne2bhOq1sCAoU3RhcGh5bG9jb2NjYWwgU2NhbGRlZCBTa2luIFN5bmRyb21lKS5tZA
   - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 4세 남아가 2일간 지속된 목과 가슴의 물집 및 발적으로 내원했다. 발열도 있었다. 기면 상태이고 발진이 생긴 뒤 잘 먹지 못했다. 기침, 천명, 배뇨통은 없다. 외동이며 중대한 질환의 가족력은 없다. 예방접종은 최신 상태이다. 체온 38.9°C, 맥박 90회/분, 혈압 80/40 mmHg이다. 목과 몸통에 쉽게 터지는 이완성 수포가 보이고 홍반성 습윤 피부도 관찰된다. 몸통에 지우개를 대고 문지르면 수포가 생긴다. 구강인두검사는 정상이다. 혈색소 12 g/dL, 백혈구 22,000/mm³, 분절 호중구 77%, 호산구 3%, 림프구 18%, 단핵구 2%, 적혈구침강속도 60 mm/h이다. 요검사는 정상이다. 다음 중 가장 가능성 높은 진단은?
+4세 남아가 열과 함께 목과 몸통의 압통성 홍반으로 내원했다. 피부에 얕고 쉽게 터지는 수포가 생기고 가볍게 밀면 벗겨진다. 입안에는 미란이 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 포도상구균성 열상 피부 증후군
-B. 심상성 천포창
-C. 성홍열
-D. 수포성 유천포창
+A. 수포성 유사천포창
+B. 스티븐스-존슨증후군
+C. 포도알균성 열상피부증후군
+D. 심상성 천포창
 
 ## 해설
 
-어린아이의 발열·급성 광범위 홍반, 쉽게 터지는 표재성 수포 및 양성 Nikolsky 징후는 포도알균성 열상피부증후군(SSSS, A)에 합당하다. 황색포도알균의 표피박리독소가 desmoglein-1을 절단해 얕은 표피 분리를 유발한다. 구강 점막이 보존되는 점은 점막 침범이 흔한 심상성 천포창·SJS/TEN과 구분하는 중요한 단서이다.
+어린아이의 급성 발열, 압통성 홍반과 얕은 박리성 수포, 점막 보존은 포도알균성 열상피부증후군을 시사한다. 약물성 표피괴사에서는 점막 미란이 흔하다.
 
 ## 검수 근거
 

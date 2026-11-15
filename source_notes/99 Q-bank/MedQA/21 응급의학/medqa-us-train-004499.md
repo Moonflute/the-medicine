@@ -14,13 +14,13 @@ related_diseases:
   - "나트륨 통로 차단 독성"
   - "QRS 연장"
   - "tricyclic antidepressant overdose"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yCvO2ZmOqzhCDtla3smrDsmrjsoJwg7KSR64-FIChUcmljeWNsaWMgQW50aWRlcHJlc3NhbnQgUG9pc29uaW5nKS5tZA
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-16세 여성이 남자친구와 헤어진 뒤 몇 시간 동안 방에 문을 잠그고 반응하지 않아 가족과 함께 응급실에 왔다. 가족이 발견했을 때 깨울 수 없어 즉시 병원으로 데려왔다. 과거력으로 치료 중인 신경성 식욕부진증, 만성 통증과 우울증이 있다. 현재 복용하는 약은 없다. 어머니와 할머니에게 우울증 가족력이 있다. 정맥 수액을 시작하자 졸림이 다소 호전되었다. 체온은 101°F (38.3°C), 맥박은 분당 112회, 혈압은 90/60 mmHg, 호흡수는 분당 18회, 실내 공기 산소포화도는 95%이다. 신체검사에서 졸려하고 동공이 산대되어 있으며 간대성 경련이 보인다. 피부는 건조하고 방광 초음파에서 소변 650mL가 관찰된다. 환자는 적절하게 중탄산나트륨 치료를 받았다. 다음 중 이 환자 독성의 정도를 가장 잘 나타내는 지표는 무엇인가?
+삼환계 항우울제 중독이 의심되는 환자가 의식이 떨어지고 혈압이 낮다. 심전도에서 QRS가 148 ms로 넓어졌다. 약물에 의한 나트륨통로 차단을 치료할 약은?
 
 ## 선택지
 
-A. 간효소 상승
-B. QRS 연장
-C. QT 연장
-D. 혈청 약물 농도
+A. 정맥 중탄산나트륨
+B. 플루마제닐
+C. 글루카곤
+D. 칼슘글루콘산
 
 ## 해설
 
 
-삼환계 항우울제 과다복용 시 나트륨 채널 차단으로 심근 전도 지연이 발생하며, QRS 복합파 연장은 독성 정도를 가장 신뢰할 수 있게 반영한다. 따라서 QRS 연장이 독성의 주요 지표이다.
+삼환계 항우울제로 인한 나트륨통로 차단은 QRS 연장, 저혈압, 심실성 부정맥으로 나타날 수 있다. 이런 심장독성에는 정맥 중탄산나트륨을 사용하고 심전도와 전해질을 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004499
+- https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/

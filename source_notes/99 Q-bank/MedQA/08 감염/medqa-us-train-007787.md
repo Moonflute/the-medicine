@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkOqysO2VtSAoUHVsbW9uYXJ5IFR1YmVyY3Vsb3NpcykubWQ
 question_type: management
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-28세 여성이 2개월간 지속된 피로와 미열로 내원했다. 지난 4주 동안 호흡곤란, 가래를 동반한 기침, 체중 5.4 kg 감소가 점점 심해졌다. 3개월 전 중국에서 2개월간 여행하고 돌아왔다. 마른 체형이며 체온 37.9°C(100.2°F), 맥박 75회/분, 혈압 125/70 mm Hg이다. 전경부 및 후경부 림프절병증이 있고, 청진에서 좌측 하엽에 수포음이 들린다. 백혈구 11,300/mm³, 적혈구침강속도 90 mm/h이다. 흉부 X선에서 좌측 하엽의 반점형 침윤과 동측 폐문 확대가 보인다. 객담 현미경검사에서 항산균이 보이고 PCR이 양성이다. 객담 배양 결과를 기다리는 중이다. 환자를 공기감염 격리실에 배치한 후 가장 적절한 다음 처치는?
+객담 항산균 도말과 결핵균 핵산증폭검사가 양성인 초치료 환자다. 신속 검사에서 이소니아지드·리팜핀 내성 소견이 없고 약제 내성 위험도 낮다. 공기주의를 적용했고 배양·감수성 결과는 아직 나오지 않았다. 기존 표준 6개월 치료에서 초기 약제 조합은?
 
 ## 선택지
 
-A. 치료 시작 전 배양 결과를 기다린다
-B. 인터페론-감마 방출 검사
-C. 흉부 CT
-D. 2개월간 이소니아지드, 리팜핀, 피라진아미드, 에탐부톨을 투여한 후 4개월간 이소니아지드와 리팜핀을 투여
+A. 이소니아지드·리팜핀·피라진아미드·에탐부톨
+B. 이소니아지드와 리팜핀만 투여
+C. 리팜핀과 에탐부톨만 투여
+D. 배양 결과 전에는 항결핵치료를 시작하지 않는다
 
 ## 해설
 
 
-AFB와 TB PCR 양성인 활동 폐결핵은 격리·신고와 함께 치료를 시작하고 배양을 기다리지 않는다. D의2HRZE/4HR은 약제감수성 폐결핵에 유효한6개월 표준 옵션이다. 신속 분자내성검사/배양 감수성에 따라 조정하고 일부 적격 환자에는4개월 요법도 가능하므로6개월을 유일 최신 요법으로 일반화하지 않는다.
+약제 감수성이 예상되는 폐결핵의 기존 6개월 요법은 네 약제로 시작한다. 환자가 활동성으로 진단되면 배양을 기다리며 치료를 미루지 않고, 최종 감수성에 따라 약제를 조정한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ AFB와 TB PCR 양성인 활동 폐결핵은 격리·신고와 함께 치료를 �
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007787
+- https://www.kdca.go.kr/kdca/2861/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjU1JTJGMjI4MTc4JTJGYXJ0Y2xWaWV3LmRvJTNG

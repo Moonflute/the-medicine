@@ -19,7 +19,7 @@ question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-30세 남성이 직장 건강검진에서 혈압 160/90 mm Hg가 측정되어 내원했다. 지난 몇 달간 간헐적인 두통과 가벼운 복통이 있었고 ibuprofen으로 호전되었다. 심계항진도 여러 번 있었다. 심각한 질환 병력은 없고 부모 모두 고혈압이 있다. 10년 동안 하루 한 갑을 흡연했고 매일 와인 한 잔을 마시며 가끔 대마초를 피운다. 창백해 보인다. 체온 36.8°C (98.2°F), 맥박 103/min, 혈압 164/102 mm Hg이다. 혈색소 15.3 g/dL, 백혈구 7,900/mm3, 혈소판 223,000/mm3, Na+ 138 mEq/L, K+ 4.6 mEq/L, Cl- 103 mEq/L, BUN 14 mg/dL, glucose 90 mg/dL, creatinine 0.9 mg/dL, 혈장 metanephrine 1.2 nmol/L (정상 < 0.5 nmol/L)이다. 소변 독성검사에서 tetrahydrocannabinol (THC) 양성이고 신장 도플러는 정상이다. 복부 CT에서 왼쪽 부신 종괴가 보인다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+부신 갈색세포종이 확인된 30세 남성이 계획 수술을 앞두고 있다. 현재 혈압 154/94 mmHg, 맥박 105회/분으로 급성 장기손상은 없다. 수술 전 혈압과 빈맥을 조절할 약물 순서는?
 
 ## 선택지
 
-A. Phenoxybenzamine
-B. 부신 종괴 절제
-C. Propranolol
-D. Metoprolol
+A. 독사조신으로 알파차단을 먼저 하고 필요하면 베타차단제를 추가한다
+B. 프로프라놀롤을 먼저 쓰고 알파차단제를 추가한다
+C. 프로프라놀롤만 쓴다
+D. 차단제 없이 바로 선택 수술을 한다
 
 ## 해설
 
 
-혈압 상승, 두통, 복통, 메타네프린 상승, 그리고 부신 종괴는 카테콜아민 과다 분비를 시사하는 pheochromocytoma를 강하게 의심하게 한다. 수술 전 α-차단제인 phenoxybenzamine을 먼저 투여해 혈압을 안정시켜야 한다. β-차단제는 α 차단 후에만 사용 가능하므로 처음 선택은 아니다.
+수술 전 알파차단을 먼저 한다. 빈맥 때문에 베타차단제가 필요해도 충분한 알파차단 후에 추가한다. 베타차단제를 먼저 쓰면 알파 매개 혈관수축이 심해질 수 있다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. Metoprolol
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001775
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8090459/

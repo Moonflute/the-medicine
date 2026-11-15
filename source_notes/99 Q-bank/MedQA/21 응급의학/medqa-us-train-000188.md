@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -37,7 +38,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-78세 남성이 약 30분 전 저녁 식사 도중 발음이 어눌해지고 안면 비대칭이 나타난 것을 아내가 발견하여 구급차로 응급실에 내원하였다. 과거력상 고혈압과 당뇨병이 있다. 체온은 99.1°F(37.3°C), 혈압은 154/99 mmHg, 맥박은 89회/분, 호흡수는 12회/분, 실내 공기에서 산소 포화도는 98%이다. 신경학적 검사에서 우측 상하지 위약감과 비대칭적인 미소가 관찰된다. 다음 중 가장 적절한 다음 조치는 무엇인가?
+78세 남성이 약 30분 전 저녁 식사 도중 발음이 어눌해지고 안면 비대칭이 나타난 것을 아내가 발견하여 구급차로 응급실에 내원하였다. 과거력상 고혈압과 당뇨병이 있다. 체온은 99.1°F(37.3°C), 혈압은 154/99 mmHg, 맥박은 89회/분, 호흡수는 12회/분, 실내 공기에서 산소 포화도는 98%이다. 신경학적 검사에서 우측 상하지 위약감과 비대칭적인 미소가 관찰된다. 가장 적절한 다음 조치는 무엇인가?
 
 ## 선택지
 

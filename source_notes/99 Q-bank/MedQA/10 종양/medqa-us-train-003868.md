@@ -16,9 +16,9 @@ related_diseases:
   - "echocardiography"
   - "Anthracycline cardiotoxicity"
 related_disease_slugs: []
-question_type: monitoring
+question_type: management
 difficulty: simple
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-침윤성 유방암으로 수술과 방사선치료 후 사이클로포스파미드와 독소루비신 보조항암요법을 시작하는 54세 여성에서 치료를 모니터링하기 위해 정기적으로 시행해야 하는 검사는?
+54세 유방암 환자가 독소루비신 항암치료 중 새로 휴식 시 호흡곤란과 폐울혈을 보인다. 심초음파에서 좌심실 박출률이 61%에서 30%로 감소했다. 당장의 항암·심장 치료 계획은?
 
 ## 선택지
 
-A. 심장 MRI
-B. 심전도
-C. 심초음파
-D. 정기 모니터링이 필요하지 않다
+A. 독소루비신을 중단하고 심부전을 치료한다
+B. 독소루비신을 절반 용량으로 계속한다
+C. 다음 주기 독소루비신 전에 덱스라족산만 추가한다
+D. 독소루비신을 유지하며 영상검사만 반복한다
 
 ## 해설
 
 
-Doxorubicin은 누적량 관련 심근독성과 좌심실 기능저하를 일으킬 수 있다. 치료 전 기저치와 치료 중/후 위험도에 따른 심초음파(C)로 LVEF 및 가능한 경우 GLS를 평가한다. 검사 간격은 누적량·기저 심혈관 위험·증상에 따라 조절하며 모든 환자가 동일한 간격은 아니다. 심전도만으로 수축기 기능을 평가할 수 없지만 심장 MRI는 정확한 대체 평가법으로, 심초음파 영상이 불충분할 때 고려한다. MRI가 민감하지 않아 제외되는 것이 아니다.
+안정 시에도 증상이 있는 중증 심부전과 박출률 저하가 나타났다면 독소루비신을 중단하고 심부전을 치료한다. 이후 항암계획은 심장 상태와 암 치료 이득을 함께 고려한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ Doxorubicin은 누적량 관련 심근독성과 좌심실 기능저하를 일으
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003868
+- https://academic.oup.com/eurheartj/article/43/41/4229/6673995

@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-qwleyngeyEsSDsspnstpTsl7wgKEFua3lsb3NpbmcgU3BvbmR5bGl0aXMpLm1k
   - MDEg7Iic7ZmY6riwL-uMgOuPmeunpe2MkOuniSDsl63rpZggKEFvcnRpYyBSZWd1cmdpdGF0aW9uKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IaM7JWE6riwIO2KueuwnOyEsSDqtIDsoIjsl7wgKEp1dmVuaWxlIElkaW9wYXRoaWMgQXJ0aHJpdGlzKS5tZA
-question_type: prognosis
+question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-47세 남성이 오늘 아침 시작된 심한 눈 통증과 발적으로 병원에 왔다. 시력이 흐려져 실명할까 매우 걱정한다. 2개월 넘게 점점 심해지는 요통이 있으며 아침에 가장 심하지만 하루 종일 지속되고 움직이면 호전되어 매일 가벼운 운동을 한다. 발뒤꿈치 통증과 보행 시 압박감도 있다. ESR과 CRP가 상승했다. 다음 중 가장 가능성 높은 동반 소견은?
+염증성 허리통증으로 치료 중인 47세 남성이 갑작스러운 한쪽 눈 충혈과 통증, 빛을 보기 힘든 증상, 시력저하를 호소한다. 가장 적절한 다음 조치는?
 
 ## 선택지
 
-A. 구강 건조
-B. 흡수장애
-C. 대동맥판막 역류
-D. 혈색소침착증
+A. 알레르기 점안액만 처방하고 2주 뒤 본다
+B. 다음 외래까지 인공눈물만 사용한다
+C. 당일 안과에 의뢰해 세극등으로 전방포도막염을 평가한다
+D. HLA-B27 검사 결과가 나올 때까지 안과 의뢰를 미룬다
 
 ## 해설
 
 
-염증성 요통, 발뒤꿈치 부착부 통증과 급성 눈 통증·충혈은 축성 척추관절염과 전방포도막염을 시사한다. 선택지 중 대동맥판막 역류(C)는 알려진 관절외 연관 소견이다. 드문 합병증을 흔히 발생한다고 일반화하지 않는다.
+축성 척추관절염에 동반되는 급성 전방포도막염은 한쪽 눈의 통증, 광과민, 시력저하로 나타날 수 있다. 세극등 검사로 확인하고 시력 손상을 막기 위해 당일 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 혈색소침착증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000693
+- https://www.nice.org.uk/guidance/ng65/chapter/recommendations

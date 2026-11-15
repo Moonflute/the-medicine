@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
   - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
-question_type: adverse_effect
+question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-최근 고혈압 진단을 받은 61세 비만 남성이 추적 진료와 혈압 확인을 위해 일차진료기관에 내원했다. 그는 1주 전에 새 혈압약을 시작한 뒤 변화 없이 잘 지낸다고 말한다. 과거력은 특이사항이 없다. 혈압약 외에 atorvastatin과 매일 종합비타민을 복용한다. 25갑년의 흡연력이 있고 주말에 사교적으로 술을 마신다. 오늘 신체검사는 정상이다. 활력징후와 검사 결과가 표에 제시되어 있다. 2주 전과 오늘의 혈압은 각각 159/87 mm Hg와 164/90 mm Hg, 심박수는 90/min과 92/min이다. 나트륨은 140 mE/L와 142 mE/L, 칼륨은 3.1 mE/L와 4.3 mE/L, 염소는 105 mE/L와 103 mE/L, 이산화탄소는 23 mE/L와 22 mE/L, BUN은 15 mg/dL와 22 mg/dL, 크레아티닌은 0.80 mg/dL와 1.8 mg/dL이다. 자기공명혈관조영술에서 양측 신동맥 협착이 보인다. 다음 중 급성 신부전을 일으킨 새 약물은 무엇일 가능성이 가장 높은가?
+61세 남성이 캅토프릴을 시작한 지 1주 뒤 크레아티닌이 0.8에서 1.8 mg/dL로 올랐다. 탈수나 저혈압은 없고 영상에서 양측 중증 신동맥 협착이 확인됐다. 현재 약제와 관련해 할 조치는?
 
 ## 선택지
 
-A. 베라파밀
-B. 하이드랄라진
-C. 캅토프릴
-D. 하이드로클로로티아지드
+A. 혈압이 높으므로 캅토프릴을 증량한다
+B. ARB를 캅토프릴에 추가한다
+C. 캅토프릴을 보류하고 신관류·칼륨을 평가한다
+D. 이 정도 크레아티닌 상승은 예상되는 범위라 같은 용량을 유지한다
 
 ## 해설
 
-정답은 C이다. 양측 신동맥협착에서는 사구체여과를 유지하는 데 angiotensinII의 수출세동맥 수축이 중요하다. captopril로 이를 차단하면 여과압과 GFR이 감소하여 creatinine이 급증할 수 있다. 신장 전체 혈류가 반드시 급감한다는 설명과 구별한다. 다른 약보다 새 ACEI 노출의 시간관계와 영상이 가장 합당하다.
+양측 신동맥이 좁으면 안지오텐신 II가 사구체 여과압 유지에 중요할 수 있다. ACE 억제제 시작 후 크레아티닌이 기저치보다 크게 상승했으므로 약을 보류하고 원인을 평가한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 하이드로클로로티아지드
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001750
+- https://doi.org/10.1016/j.kint.2023.10.016

@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rKw7KCI7ISxIOqyve2ZlOymnSAoVHViZXJvdXMgU2NsZXJvc2lzKS5tZA
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-7세 남아가 3개월간 4.5 kg의 체중감소와 복통, 복부팽만으로 내원했다. 수주간 소변이 분홍색으로 보였고 최근 학교 성적이 떨어지며 집중하지 못했다. 영아기에 여러 차례 경련이 있었다. 진찰에서 복부 종괴와 왼쪽 늑골척추각 압통이 있었다. 등과 다리에 타원형 저색소 반점이 여러 개 있고 오른쪽 허리에는 주변 피부와 같은 색의 거칠고 움푹 패인 판이 있었다. 다음 중 가장 가능성 높은 진단은?
+7세 아이가 영아기부터 뇌전증이 있고, 몸에 잎사귀 모양 저색소반이 세 개 이상 있다. 허리에는 오렌지 껍질 같은 거친 판이 보이고 복부 영상에서는 양쪽 신장 혈관근지방종이 확인됐다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
 A. 제1형 신경섬유종증
-B. 스터지-웨버 증후군
-C. 결절성 경화증
-D. 제2형 신경섬유종증
+B. 결절성 경화증
+C. 스터지–웨버 증후군
+D. 폰히펠–린다우병
 
 ## 해설
 
-영아기 발작, 여러 잎사귀모양 저색소반(ash-leaf macules)과 요부의 거칠고 오렌지껍질 같은 샤그린 반점(shagreen patch)은 결절성 경화증(C)을 시사한다. 신장 혈관근지방종은 복부 종괴·혈뇨·옆구리 증상을 일으킬 수 있는 연관 병변이다. 이를 단순한 신장 혈관종이나 피부소견이라고 부르지 않는다. TSC1/TSC2 이상에 따른 mTOR 경로 활성화가 관련된다.
+여러 저색소반, 샤그린반과 신장 혈관근지방종은 결절성 경화증의 중요한 단서다. 신장, 신경계 등 여러 장기를 계획적으로 추적한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 제2형 신경섬유종증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003426
+- https://pubmed.ncbi.nlm.nih.gov/34399110/

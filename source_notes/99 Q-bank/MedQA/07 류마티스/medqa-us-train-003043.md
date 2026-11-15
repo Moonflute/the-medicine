@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-39세 여성이 1년 동안 목, 등, 어깨에 반복되는 심한 통증으로 내원했다. 운동과 수면 부족으로 악화되고 일반의약품 진통제로 호전되지 않는다. 어깨와 무릎이 뻣뻣하고 아침에 상지 저림이 심하다. 전신불안장애로 에스시탈로프람을 복용하며 한 달에 여러 번 긴장성 두통이 있다. 외삼촌은 강직성척추염이 있다. 진찰에서 뒤쪽 목, 양측 중부 승모근, 왼쪽 무릎 안쪽에 뚜렷한 압통이 있으나 근력은 정상이다. 혈액검사와 경추·요추 X선은 정상이다. 다음 중 가장 가능성 높은 진단은?
+39세 여성이 1년 넘게 몸통과 양쪽 팔·다리의 통증, 개운하지 않은 수면과 피로를 겪는다. 관절 종창과 근력 저하는 없고 ESR·CRP, CK, TSH는 정상이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
 A. 류마티스성 다발근통
 B. 섬유근육통
-C. 다발근육염
-D. 주요우울장애
+C. 염증성 근병증
+D. 류마티스관절염
 
 ## 해설
 
 
-전신에 광범위한 통증, 압통점, 정상 염증 지표는 섬유근육통을 특징짓는다. 다른 선택지는 염증성 질환이나 우울증을 요구한다. 따라서 가장 가능성 높은 진단은 섬유근육통이다.
+만성 광범위 통증에 수면장애와 피로가 동반되고 객관적인 근력저하나 활막염이 없으면 섬유근육통을 고려한다. 압통점 개수만으로 진단하지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 주요우울장애
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003043
+- https://doi.org/10.1136/annrheumdis-2015-208690

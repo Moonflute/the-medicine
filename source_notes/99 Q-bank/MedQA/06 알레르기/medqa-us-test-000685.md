@@ -16,7 +16,7 @@ related_diseases:
   - "Hereditary angioedema"
 related_disease_slugs:
   - MDYg7JWM66CI66W06riwL-2YiOq0gOu2gOyihSAo7Jyg7KCE7ISxKSAoSGVyZWRpdGFyeSBBbmdpb2VkZW1hKS5tZA
-question_type: mechanism
+question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-12세 여아가 3시간 전 갑자기 시작된 쥐어짜는 복통과 구토로 응급실에 왔다. 가렵지 않은 얼굴과 입술의 발적 및 부종도 보였다. 아침에 치아를 뽑은 뒤 증상이 시작되었고 1년 전 자전거 사고 후에도 얼굴이 부었으나 치료 없이 48시간 내 호전되었다. 활력징후는 정상이었다. 통증 없는 얼굴 부종, 구강점막 홍반, 혀 비대가 있었고 복부는 부드러우나 하복부 압통이 있었다. 복부 초음파에서 장벽의 분절성 비후가 보였다. 이 상태의 가장 가능성 높은 원인은?
+12세 여아가 발치 뒤 가렵지 않은 얼굴 부종과 반복적인 심한 복통으로 내원했다. 두드러기는 없으며 어머니에게도 비슷한 발작이 있다. 유전성 혈관부종이 의심될 때 초기 혈액검사는?
 
 ## 선택지
 
-A. 자가항체 매개 조직 손상
-B. 보체 억제인자 결핍
-C. 약물 유발 브래디키닌 과다
-D. 비만세포 활성화
+A. 총 IgE와 음식 특이 IgE
+B. 혈청 C4와 C1 억제인자의 농도·기능
+C. 혈청 트립타제만 측정
+D. 항핵항체와 류마티스인자
 
 ## 해설
 
 
-반복되는 비소양성 안면 부종, 치과시술·외상에 의한 유발, 복통과 장벽 부종은 C1 억제인자 결핍에 의한 혈관부종을 시사한다. C1 억제인자는 접촉계의 칼리크레인 등을 조절하며, 그 결핍은 브래디키닌 과다를 일으킨다. 따라서 B이다.
+두드러기 없이 반복되는 부종과 복통, 가족력은 브래디키닌 매개 유전성 혈관부종의 단서다. C1 억제인자의 기능·농도를 C4와 함께 측정하며, C4 단독으로 배제하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 비만세포 활성화
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000685
+- https://doi.org/10.1016/j.waojou.2026.101335
+- https://doi.org/10.1111/all.70207

@@ -17,7 +17,7 @@ question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv66-47IiZ7JWEIOustO2YuO2doSAoQXBuZWEgb2YgUHJlbWF0dXJpdHkpLm1k
 difficulty: simple
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 3일 된 남아가 경련으로 신생아 중환자실에 입원했다. 임신 31주에 제왕절개로 태어났고 출생체중은 1,400 g이었다. 전신 저혈압, 서맥, 저환기가 있으며 의식수준 저하, 자발운동 감소, 근긴장저하, 팽팽한 대천문, 청색증이 보였다. 다음 중 가장 적절한 처치는?
+재태 29주에 태어난 생후 3일 미숙아에게 경련과 팽팽한 대천문이 나타났다. 호흡·순환 안정화와 경련 처치를 진행하고 있다. 뇌실내출혈을 확인할 첫 침상 영상은?
 
 ## 선택지
 
-A. 전혈구검사
-B. 두개 초음파
-C. 두부 CT
-D. 두부 MRI
+A. 경천문 두개 초음파
+B. 조영증강 뇌 MRI
+C. 뇌혈관조영술
+D. 두개골 단순촬영
 
 ## 해설
 
-미숙아에게 생후 초기에 경련, 의식·근긴장 저하, 팽팽한 대천문과 심폐 불안정이 나타나면 뇌실내출혈 등 급성 뇌손상을 평가해야 한다. 기도·호흡·순환 안정화와 경련 처치를 병행하면서 침상에서 경천문 두개 초음파(B)를 시행할 수 있다. 초음파는 방사선 노출이나 불안정한 환자의 이동 없이 뇌실과 출혈을 확인할 수 있다. CT와 MRI 자체가 침습적 검사인 것은 아니며, MRI는 추가 뇌손상 평가에 유용할 수 있지만 이 상황의 첫 영상검사로는 초음파가 적합하다.
+대천문을 통한 초음파는 미숙아의 뇌실내출혈을 신속히 확인할 수 있다. 환아를 영상실로 옮기거나 방사선을 사용하지 않아도 되고, 소생보다 촬영을 우선하지 않는다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 두부 MRI
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001087
+- https://pubmed.ncbi.nlm.nih.gov/33106343/

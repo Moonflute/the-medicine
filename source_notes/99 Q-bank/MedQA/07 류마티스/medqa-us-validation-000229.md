@@ -20,7 +20,7 @@ question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -40,19 +40,19 @@ related_drug_slugs:
 
 ## 문제
 
-33세 여성이 2년 동안 양손의 모든 손가락에 간헐적으로 통증이 발생해 진료를 받으러 왔다. 증상은 겨울에 악화된다. 추위에 노출되면 손가락이 하얗게 변하고, 따뜻해지면 심한 통증과 저림이 생긴다. 발작을 예방하려고 항상 장갑을 끼기 시작했다. 범불안장애가 있고 어머니는 전신홍반루푸스가 있다. 현재 로라제팜과 플루옥세틴을 복용한다. 불안해 보이지만 양손 진찰은 정상이고 Allen 검사는 음성이다. 혈색소 14.4 g/dL, 백혈구 9,800/mm³, 혈소판 156,000/mm³이며 전해질 수치는 정상이다. 손톱주름 모세혈관 현미경검사도 정상이다. 가장 적절한 약물치료는?
+33세 여성이 추울 때 양손 손가락이 하얗게 변했다가 따뜻해지면 붉어진다. 손끝 궤양이 없고 손톱주름 모세혈관 검사는 정상이다. 보온해도 발작이 자주 생겨 일상생활이 어렵다. 고려할 일차 약제는?
 
 ## 선택지
 
-A. 경구 아스피린
+A. 저용량 아스피린
 B. 경구 니페디핀
-C. 경구 에포프로스테놀
-D. 경구 프레드니손
+C. 정맥 에포프로스테놀
+D. 경구 프레드니솔론
 
 ## 해설
 
 
-추위에 손가락이 하얗게 변하고 통증이 동반되는 일차성 레이노 현상은 혈관 수축이 원인이며, 1차 치료제로 칼슘채널 차단제인 니페디핀이 가장 효과적이다. 아스피린은 혈전 예방에 쓰이며 레이노에 효과가 없다. 따라서 경구 니페디핀이 정답이다.
+보온에도 증상이 지속되는 일차성 레이노 현상에는 디히드로피리딘계 칼슘통로차단제를 고려한다. 혈압, 두통, 부종 등을 확인하면서 사용한다.
 
 ## 검수 근거
 
@@ -65,3 +65,4 @@ D. 경구 프레드니손
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000229
+- https://doi.org/10.1136/ard-2024-226430

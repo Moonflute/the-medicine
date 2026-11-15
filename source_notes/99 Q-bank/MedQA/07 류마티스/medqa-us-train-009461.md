@@ -15,7 +15,7 @@ related_diseases:
   - "acute anterior uveitis"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-qwleyngeyEsSDsspnstpTsl7wgKEFua3lsb3NpbmcgU3BvbmR5bGl0aXMpLm1k
-question_type: prognosis
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-33세 남자가 샤워 중 미끄러져 등으로 넘어진 지 1시간 후 심한 목 통증으로 내원했다. 통증은 10점 만점에 8~9점이다. 2년 전부터 양쪽 엉덩이로 방사되는 요통이 있었고 때때로 밤에 잠에서 깨며 아침이나 오래 쉬고 나면 악화된다. 아침에 등이 매우 뻣뻣하지만 뜨거운 샤워 후에야 정상적으로 움직일 수 있다. 체온 36.3°C, 맥박 94회/분, 혈압 145/98 mmHg이다. 통증으로 목과 요추의 운동 범위가 제한되고 천장관절에 압통이 있다. 신경학적 검사는 정상이다. 경추 X선에서 척추뼈의 골밀도 감소가 보이고 MRI에서 C2 골절과 양측 천장관절의 미란 및 경화가 보인다. 이 환자의 상태와 가장 관련된 소견은 무엇인가?
+강직성 척추염으로 경추 움직임이 제한된 33세 남성이 미끄러져 넘어지고 심한 목 통증을 호소한다. 신경학적 진찰은 정상이고 단순촬영에서 뚜렷한 골절은 보이지 않는다. 척추 정렬을 보호하면서 할 다음 검사는?
 
 ## 선택지
 
-A. 족하수와 발뒤꿈치 보행 곤란
-B. 소변 및 대변 실금
-C. 최근 요도염
-D. 반복되는 눈 충혈과 통증
+A. 단순촬영이 정상이므로 영상 평가를 끝낸다
+B. 수동 굽힘·폄 촬영으로 통증을 재현한다
+C. 일주일 후 DXA만 시행한다
+D. 척추 CT로 경추와 다른 부위 골절을 평가한다
 
 ## 해설
 
 
-만성 염증성 요통, 양측 천장관절 미란·경화와 척추 강직은 ankylosing spondylitis/axial SpA에 부합한다. 급성 전방포도막염이 반복적인 눈 충혈·통증을 일으킬 수 있어 D가 대표적 연관이다. 강직성 척추는 경미한 외상에도 불안정 골절을 일으킬 수 있으며, 실제 C2 골절은 신경진찰이 정상이어도 별도 응급 평가 대상이다. 신경손상 관련 배뇨·배변 증상이 절대 발생하지 않는다는 뜻은 아니다.
+강직된 척추는 작은 외상에도 불안정 골절이 생기며 단순촬영에서 놓치기 쉽다. 기존 정렬을 보호하며 CT로 평가하고, 신경학적 이상이나 인대 손상 의심 시 MRI를 추가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 반복되는 눈 충혈과 통증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009461
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6130102/

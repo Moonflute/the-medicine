@@ -17,7 +17,7 @@ related_diseases:
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yymOq3uC3siqTtirjrnbzsmrDsiqQg7Kad7ZuE6rWwIChDaHVyZy1TdHJhdXNzIFN5bmRyb21lKS5tZA
   - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: simple
 answer: B
 translation_status: machine-verified
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-45세 여성이 새로 발생한 천식 증상으로 응급실에 내원했다. 일주일 전 천식 발작이 시작되었고 과거력으로 위식도역류질환과 B형간염이 있다. 진찰에서 양측 발처짐과 사지의 저림·무감각이 있으며 전혈구검사에서 호산구 수치가 9.1 × 10⁸/L로 높다. 다음 중 환자의 모든 증상을 설명할 수 있는 표지자는?
+45세 여성이 성인 발병 천식, 절대호산구 수 3,400/μL와 새로 발생한 양쪽 발처짐 때문에 평가받고 있다. 폐침윤과 촉지자색반이 있어 호산구성 육아종증 다발혈관염을 의심한다. MPO-ANCA 음성을 어떻게 해석할까?
 
 ## 선택지
 
-A. 적혈구침강속도
-B. p-ANCA
-C. HLA-B27
-D. 항히스톤 항체
+A. 음성이면 이 질환을 배제할 수 있다
+B. 음성인 환자도 많으므로 장기 침범과 필요한 조직검사를 계속 평가한다
+C. 음성이면 무조건 항사구체기저막 질환이다
+D. 항체가 양성으로 바뀔 때까지 장기 평가는 미룬다
 
 ## 해설
 
 
-새 천식, 호산구증가와 양측 발처짐·감각증상은 EGPA를 의심하게 한다. 선택지 중 p-ANCA(B), 특히 MPO-ANCA가 관련될 수 있다. 그러나 EGPA에서 ANCA가 검출되는 환자는 약40%에 불과하므로 음성이라고 배제하지 않으며 항체 자체가 모든 증상을 설명하거나 확진하는 것도 아니다. 신경병증·호산구증가의 다른 원인을 배제하고 장기 침범을 평가해야 한다.
+호산구성 육아종증 다발혈관염에서 ANCA는 일부 환자에게만 검출된다. 음성이어도 임상 양상이 맞으면 신경·폐·심장·신장 침범 등을 평가해야 한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 항히스톤 항체
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003058
+- https://doi.org/10.1136/ard-2022-223764

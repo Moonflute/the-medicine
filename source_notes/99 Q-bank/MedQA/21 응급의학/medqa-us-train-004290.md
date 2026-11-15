@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: simple
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-34세 남자가 길가에 쓰러진 채 발견되어 구급대에 의해 응급실로 이송되었다. 추가 병력은 알 수 없고 환자는 반응이 없다. 체온 36°C, 심박수 65회/분, 혈압 100/66 mmHg, 호흡수 4회/분, 산소포화도 96%이다. 신체검사 사진이 제시되어 있다. 가장 가능성 높은 과다복용 약물은 무엇인가?
+34세 남성이 의식이 없는 상태로 발견됐다. 호흡수는 분당 4회이고 양쪽 동공은 축동되어 있다. 이 소견을 가장 잘 설명하는 과다복용 약물군은?
 
 ## 선택지
 
-A. 코카인
-B. 대마
-C. 알코올
-D. 헤로인
+A. 교감신경흥분제
+B. 칸나비노이드
+C. 항콜린제
+D. 오피오이드
 
 ## 해설
 
-호흡수 4회/분의 심한 저환기와 무반응은 opioid 과다복용을 강하게 의심하게 하며 보기 중 heroin(D)이 가장 적합하다. 누락된 사진에서 동공이나 주사 흔적을 확인했다고 할 수 없다. 확진을 기다리며 기도·환기 지지와 경험적 naloxone을 지연해서는 안 된다. Alcohol 등 혼합 중독도 평가한다.
+의식저하, 현저한 호흡저하, 축동의 조합은 오피오이드 중독을 시사한다. 진찰만으로 헤로인 등 개별 약물을 특정할 수는 없다. 즉시 환기를 지원하고 오피오이드 길항제 투여를 고려한다.
 
 ## 검수 근거
 

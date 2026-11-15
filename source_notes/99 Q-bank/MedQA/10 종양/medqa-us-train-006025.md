@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLjtj6zslZQgKEhlcGF0b2NlbGx1bGFyIENhcmNpbm9tYSkubWQ
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQu2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEIgKEhCVikpLm1k
-question_type: management
+question_type: investigation
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-56세 아프리카계 미국인 남성이 3개월 동안 지속된 복통, 피로 및 체중 감소로 응급실에 왔다. 간경변으로 합병된 만성 B형간염 병력이 오래되었다. 황달, 다리 부종 및 우상복부에 만져지는 종괴가 있다. 복부초음파에서 경계가 불분명하고 내부 에코가 거칠고 불규칙한 3cm 간 종괴가 보인다. 검사에서 AST 90 U/L, ALT 50 U/L, 총 빌리루빈 2 mg/dL, 알부민 3 g/dL, 알칼리성 인산분해효소 100 U/L, 알파태아단백 600μg/L이다. 다음 중 진행성 간암에 승인된 표적 치료제는 무엇인가?
+간경변이 있는 간세포암 환자에게 혈관 침범이 확인돼 전신치료를 계획한다. 간기능은 보존돼 아테졸리주맙·베바시주맙을 검토 중이다. 문맥고혈압이 있고 최근 위내시경을 받은 적은 없다. 투여 전 우선 할 일은?
 
 ## 선택지
 
-A. 다클리주맙
-B. 팔리비주맙
-C. 압식시맙
-D. 소라페닙
+A. AFP가 더 오를 때까지 내시경을 미룬다
+B. 위내시경으로 출혈 위험이 큰 정맥류를 확인하고 필요하면 치료한다
+C. 증상 없는 환자는 정맥류를 확인하지 않고 바로 투여한다
+D. 복부 초음파로 식도 정맥류 출혈 위험을 모두 배제한다
 
 ## 해설
 
 
-Sorafenib은 multikinase 억제제로 절제 불가능한 간세포암에 승인되어 있어 보기 중 D가 맞다. Daclizumab은 IL-2 receptor 표적 면역조절제, palivizumab은 RSV 예방 항체, abciximab은 혈소판 GPIIb/IIIa 억제제로 이들을 다른 암 치료제라고 설명하면 안 된다. 본문의 3 cm 종괴만으로 진행 병기를 확정하거나 sorafenib이 이 환자의 현재 최선 치료라고 결정하는 문제는 아니다. 병기와 간기능에 따라 국소·전신 치료를 따로 정한다.
+베바시주맙은 출혈 위험을 높일 수 있다. 문맥고혈압 환자는 병용 치료 전 상부위장관 정맥류와 출혈 위험을 확인해 관리하고, 위험이 조절되지 않으면 다른 전신치료를 검토한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ Sorafenib은 multikinase 억제제로 절제 불가능한 간세포암에 승인
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006025
+- https://kci.go.kr/kciportal/landing/article.kci?arti_id=ART003395799
+- https://doi.org/10.3348/kjr.2022.0822

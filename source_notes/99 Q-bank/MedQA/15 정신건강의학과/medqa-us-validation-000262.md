@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yniOuzkSDrtojslYgg7J6l7JWgIChJbGxuZXNzIEFueGlldHkgRGlzb3JkZXIpLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,23 +34,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-52세 여성이 2일 전부터 가벼운 피로와 어지러움이 있어 진료를 받으러 왔다. 증상 때문에 어제부터 출근하지 않았으며 자신에게 '혈당이 매우 높다'고 말한다. 지난 2년간 비슷한 증상이 자주 있어 시내 여러 의사를 방문했고, 가정용 혈당측정기도 구입해 매일 사용한다. 증상이 시작된 뒤 사회적으로 위축되어 대부분의 시간을 집에서 당뇨병을 인터넷으로 검색하며 보낸다. 일주일 전에도 증상 때문에 하루 휴가를 냈다. 치료는 받지 않는다. 공복 및 식후 혈당을 측정한 검사 결과 3회가 모두 정상이었다. 아버지와 남동생은 제2형 당뇨병이 있다. 환자는 불안해 보이지만 활력징후와 신체진찰은 정상이고 무작위 혈당은 128 mg/dL이다. 증상의 가장 가능성 높은 설명은?
+52세 환자가 가벼운 피로만 있지만 2년째 당뇨병에 걸렸을까 걱정한다. 여러 검사에서 혈당은 정상이었는데도 하루 여러 번 확인하고 건강 정보를 검색하느라 일상이 어렵다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
 A. 신체증상장애
-B. 단극성 주요우울장애
-C. 질병불안장애
-D. 혈당 항상성 장애
+B. 질병불안장애
+C. 범불안장애
+D. 망상장애
 
 ## 해설
 
-경미한 피로·어지럼보다 당뇨병에 대한 지속적인 과도한 걱정, 반복 측정·검색과 기능저하가 2년간 중심이므로 질병불안장애가 가장 적절하다. 의학적 질환이나 가족력이 전혀 없어야 하는 것은 아니고, 위험에 비해 걱정과 행동이 과도한지를 평가한다. 신체 증상 자체가 심하고 그에 대한 과도한 반응이 중심인 신체증상장애와 구별한다.
+신체 증상 자체는 경미하지만 질병에 걸렸다는 두려움과 반복 확인이 생활을 지배한다. 신체 증상과 그에 대한 과도한 반응이 두드러지는 신체증상장애와 구분한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000262
+- https://pubmed.ncbi.nlm.nih.gov/32119286/
 
 ## 검수 근거
 

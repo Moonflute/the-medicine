@@ -13,13 +13,13 @@ related_diseases:
   - "신생아 적혈구증가증"
   - "태반 기능부전"
   - "산모 고혈압"
-question_type: 임상증례 객관식
+question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-37세 G1P1 여자가 임신 36주에 남아를 출산했다. 제왕절개는 합병증 없이 시행되었고 신생아의 체중은 6파운드였다. 산모는 과거 코카인과 헤로인을 사용했으나 8년 전에 중단했다고 한다. 비만과 제2형 당뇨병도 있다. 임신 중 혈당은 식이와 운동만으로 잘 조절되었다. 체온 36.9°C, 혈압 167/102 mmHg, 맥박 90회/분, 호흡수 13회/분, 산소포화도 98%이다. 신생아의 검사 결과는 헤모글로빈 22 g/dL, 헤마토크릿 66%, 백혈구 6,500/mm³(감별 정상), 혈소판 197,000/mm³이다. 이 신생아의 검사 이상을 초래한 가장 가능성 높은 원인은 무엇인가?
+부당경량으로 태어난 생후 2일 신생아는 증상 없이 잘 먹고 있다. 발뒤꿈치 모세혈 검사에서 헤마토크릿이 71%로 측정됐다. 처치를 결정하기 전에 할 검사는?
 
 ## 선택지
 
-A. 제왕절개 분만
-B. 재태 연령
-C. 산모의 당뇨병
-D. 산모의 고혈압
+A. 모세혈 수치만으로 바로 부분 교환수혈
+B. 정맥 혈액으로 헤마토크릿을 확인한다
+C. 신생아 JAK2 유전자 검사부터 시행
+D. 다른 평가 없이 퇴원한다
 
 ## 해설
 
 
-산모의 고혈압은 태반 관류를 감소시켜 태아 적혈구증가증(신생아 적혈구증가증)을 유발한다. 이는 신생아의 혈액 점도 증가와 높은 헤마토크리트를 초래한다. 따라서 가장 가능성 높은 원인은 산모의 고혈압이다.
+발뒤꿈치 모세혈 헤마토크릿은 정맥 수치보다 높게 나올 수 있다. 다혈구증 진단과 처치 결정을 위한 기준은 정맥 헤마토크릿이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003968
+- https://medconnection.ucsfbenioffchildrens.org/polycythemia-guidelines

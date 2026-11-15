@@ -14,11 +14,11 @@ related_diseases:
   - "prior classical cesarean"
   - "fetal bradycardia"
   - "loss of fetal station"
-question_type: risk_factor
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yekOq2ge2MjOyXtCAoVXRlcmluZSBSdXB0dXJlKS5tZA
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 36주인 34세 여성이 강한 자궁수축 중 갑자기 심한 통증을 느낀 후 수축이 사라지고 태아심박수가 85회/분으로 감소했다. 태아 머리는 더 이상 고정되지 않고 떠 있었다. 다음 중 과거력에서 가장 가능성 높은 요인은?
+이전 조산 때 고전적 제왕절개를 받았고 수술기록상 자궁체부에 세로로 절개했다. 이번 임신에서 경과가 안정적일 때 분만 상담으로 맞는 설명은?
 
 ## 선택지
 
-A. 유산 후 자궁내막염
-B. 자궁선근증
-C. 자궁저부 제왕절개
-D. 다수의 질식분만
+A. 자궁파열 위험이 높아 진통 전에 계획 제왕절개를 준비한다
+B. 피부 흉터가 가로라면 자궁 절개와 무관하게 질식분만을 권한다
+C. 이번 태아가 두위이면 이전 자궁 절개 위치는 고려하지 않는다
+D. 진통을 오래 유도하면 상부 자궁 흉터의 파열 위험이 낮아진다
 
 ## 해설
 
-심한 통증 뒤 수축 소실, 급성 태아 서맥과 선진부 상승은 자궁파열을 시사한다. 자궁저부/상부 수축성 자궁체부를 침범하는 과거 절개(C)가 위험을 높인다. 고전적 절개는 상부 수직절개를 뜻하며, 자궁 하부 횡절개와 같은 말이 아니다. 기존 해설의 '횡문절제술'이나 '하부 절제' 표현은 잘못이다.
+상부 자궁체부의 고전적 수직절개는 하부 횡절개보다 자궁파열 위험이 높다. 피부 흉터로 자궁 절개를 추정하지 말고 수술기록을 확인해 진통 전 제왕절개를 계획한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 다수의 질식분만
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003773
+- https://doi.org/10.1002/ijgo.70406

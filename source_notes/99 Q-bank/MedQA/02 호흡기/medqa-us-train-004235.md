@@ -19,7 +19,7 @@ question_type: 임상증례 객관식
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 의대생이 남아프리카에서 의학 인턴을 시작하기 전 활동성 폐결핵을 배제하기 위한 흉부 X선과 의학·영상 보고서를 받으러 왔다. 증상이나 중대한 질환 병력은 없고 6년간 하루 한 갑을 피웠으며 술은 마시지 않는다. 키 190cm, 체중 75kg, BMI 20.8kg/m²이다. 폐 청진은 깨끗하고 심장검사도 정상이다. 흉부 X선에서 왼쪽 위쪽 폐 가장자리와 흉벽 사이에 2cm 미만의 얇은 공기 테두리를 가진 작은 기흉이 보인다. 가장 적절한 다음 관리는 무엇인가?
+26세 남성의 흉부 X선에서 작은 좌측 원발성 자발성 기흉이 우연히 발견됐다. 호흡곤란과 통증이 없고 활력징후와 산소포화도는 정상이다. 기저 폐질환은 없고 관찰 중 X선에서 커지지 않았다. 악화 시 바로 내원할 수 있다. 적절한 관리는?
 
 ## 선택지
 
-A. 응급 침 흉강절개술
-B. 관찰 및 추적 X선
-C. 즉시 삽관과 보조환기
-D. 응급 흉관 삽입
+A. 응급 바늘 감압을 한다
+B. 경과를 관찰하고 재내원 기준과 추적 X선 일정을 안내한다
+C. 기계환기를 위해 바로 삽관한다
+D. 증상이 없어도 모두 응급 흉관을 삽입한다
 
 ## 해설
 
 
-작은 무증상 기흉은 2 cm 이하이며 환자가 안정적이면 자연 재흡수가 가능하다. 관찰과 추적 X선이 표준 관리이다. 따라서 관찰 및 추적 X선이 적절하다.
+생리학적으로 안정적이고 증상이 없거나 매우 가벼운 원발성 자발성 기흉은 선택적으로 보존 관리할 수 있다. 영상 크기 하나만으로 처치를 결정하지 않으며, 증상이 심해지거나 호흡이 불안정하면 즉시 재평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 응급 흉관 삽입
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004235
+- https://publications.ersnet.org/lookup/doi/10.1183/13993003.00797-2023

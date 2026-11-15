@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-52세 남성이 2시간 동안 지속된 갑작스럽고 심한 전신성 두통으로 응급실에 왔다. 오심과 한 차례 구토가 생겼다. 집에서 TV를 보던 중 증상이 시작되었고 6일 전에도 치료 없이 호전된 심한 두통이 있었다. 고혈압과 고지혈증이 있고 30년 동안 하루 두 갑씩 흡연했다. 체온은 38.1°C(100.6°F), 맥박은 분당 82회, 호흡수는 분당 16회, 혈압은 162/98 mmHg이다. 동공은 정상이고 시신경유두 부종은 없으며 뇌신경과 운동·감각검사는 정상이다. 두부 CT에서 이상은 없다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+52세 남성이 2시간 동안 지속된 갑작스럽고 심한 전신성 두통으로 응급실에 왔다. 오심과 한 차례 구토가 생겼다. 집에서 TV를 보던 중 증상이 시작되었고 6일 전에도 치료 없이 호전된 심한 두통이 있었다. 고혈압과 고지혈증이 있고 30년 동안 하루 두 갑씩 흡연했다. 체온은 38.1°C(100.6°F), 맥박은 분당 82회, 호흡수는 분당 16회, 혈압은 162/98 mmHg이다. 동공은 정상이고 시신경유두 부종은 없으며 뇌신경과 운동·감각검사는 정상이다. 두부 CT에서 이상은 없다. 다음 중 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

@@ -14,11 +14,11 @@ related_diseases:
   - "diphenhydramine"
   - "urinary retention"
   - "Delirium"
-question_type: other
+question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,24 +38,26 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-알츠하이머 치매가 있는 70세 남성이 행동 변화로 응급실에 내원했다. 최근 더 혼란스러워지고 발열이 있었다. 체온 103°F(39.4°C), 혈압 102/68mmHg, 맥박 157회/분, 호흡수 22회/분, 산소포화도 99%이다. 정맥 수액 3L와 아세트아미노펜 후 활력징후와 혼란이 호전되었으나 입원해야 한다는 말을 듣고 난폭해져 진정제와 신체 억제를 사용했다. 이후 정신상태가 악화되어 간호사에게 침을 뱉고 억제대를 물려고 하며 복통을 호소한다. 배뇨 후 잔뇨가 750mL이다. 최근 정신상태 변화의 원인은 무엇인가?
+치매가 있는 76세 환자에게 가려움으로 디펜히드라민을 투여했다. 몇 시간 뒤 혼란이 심해지고 입이 마르며 소변을 못 본다. 방광은 크게 팽창했다. 가장 적절한 대응은?
 
 ## 선택지
 
-A. 급성 감염
-B. 디펜히드라민
-C. 할로페리돌
-D. 올란자핀
+A. 수면을 위해 디펜히드라민을 더 준다
+B. 새로 진행한 치매로 보고 다음 날 진료한다
+C. 요폐는 별개라며 진정제부터 투여한다
+D. 디펜히드라민을 중단하고 요폐를 함께 치료하며 섬망 원인을 평가한다
 
 ## 해설
 
 
-디펜히드라민은 항히스타민제이면서 강한 항콜린성 효과가 있어 급성 혼돈, 배뇨 저항, 위장관 평활근 이완을 일으킨다. 환자의 투약 후 악화된 혼란과 현저한 요폐가 이 약물에 기인한다. 따라서 디펜히드라민이 원인이다.
+강한 항콜린 작용은 노인에게 섬망, 구강 건조와 요폐를 일으킬 수 있다. 약을 중단하고 요폐를 해소하는 동시에 감염·탈수 등 다른 유발 요인도 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009077
+- https://pubmed.ncbi.nlm.nih.gov/37139824/
+- https://www.nice.org.uk/guidance/cg103/chapter/recommendations
 
 ## 검수 근거
 

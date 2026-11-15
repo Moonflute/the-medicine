@@ -18,9 +18,9 @@ related_disease_slugs:
   - MTEg7Jm46rO8L-2YiOq0gCDshpDsg4EubWQ
 question_type: investigation
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-31세 여성이 목에 총상을 입은 지 25분 후 응급실에 이송되었다. 의식 소실은 없었다. 도착 시 심한 목 통증이 있고 불안해 보인다. 체온 37°C, 맥박 분당 105회, 호흡수 분당 25회, 혈압 100/70 mmHg이며 실내 공기에서 산소포화도는 96%이다. 사람, 장소, 시간에 대한 지남력은 정상이다. 목 우측 후방 경부에 총알 진입 상처가 있으나 출구 상처는 없다. 양측 경동맥 맥박은 만져지고 경동맥 잡음은 없다. 핀으로 찌르는 감각과 가벼운 촉각은 정상이다. 폐 청진은 깨끗하고 심장 진찰에서 잡음, 마찰음, 갤럽은 없다. 정맥 수액 소생술과 함께 다음 중 가장 적절한 처치는?
+31세 여성이 유리 파편에 베여 넓은목근을 넘는 목 관통상이 확인됐다. 혈역학적으로 안정적이며 활동성 대량 출혈, 커지는 혈종, 기도 위협은 없다. 혈관 손상 평가를 위한 첫 영상은?
 
 ## 선택지
 
-A. 수술적 탐색
-B. CT 혈관조영술
-C. 바륨 삼킴검사
-D. 후두경검사
+A. 경동맥 도플러 초음파 단독
+B. 경부 단순 X선
+C. 경부 MRI
+D. 경부 CT 혈관조영술(CTA)
 
 ## 해설
 
 
-총상 후 혈관 손상이 의심될 때 가장 빠른 비침습적 평가법은 조영제 주입 후 CT 혈관조영술이다. 이는 혈관 손상 여부와 출혈 위치를 정확히 파악한다. 따라서 다음 단계는 CT 혈관조영술이다.
+혈역학적으로 안정되고 즉시 수술이 필요한 징후가 없는 목 관통상에서 CTA는 혈관 손상의 위치와 범위를 평가하는 일차 영상이다. 기도 위협이나 대량 출혈이 있으면 영상보다 응급 처치가 먼저다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 후두경검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009764
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12928798/

@@ -19,7 +19,7 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-39세 여성이 운동과 무관하게 발생하고 휴식으로 호전되는 15분 미만의 간헐적 흉통으로 내원했다. 심전도는 동성 빈맥이었고 심혈관 진찰은 정상이었다. 다음 중 관상동맥질환 평가에서 가장 적절한 다음 단계는?
+39세 여성이 한 달째 반복되는 왼쪽 가슴 통증으로 왔다. 상체를 비틀거나 한 지점을 누르면 평소 통증이 그대로 재현되고, 평지 걷기나 계단 오르기는 영향을 주지 않는다. 활력징후와 심전도는 정상이며 당뇨병·흡연 등 관상동맥 위험인자는 없다. 현재 관상동맥 평가로 적절한 것은?
 
 ## 선택지
 
-A. 관상동맥 CT 혈관조영술
-B. 핵의학 운동부하검사
-C. 추가 검사가 필요하지 않다
-D. 도부타민 부하 심초음파
+A. 관상동맥 CT 혈관조영술을 즉시 시행한다
+B. 핵의학 심근관류검사를 시행한다
+C. 관상동맥 검사는 일단 보류하고 흉벽 통증을 평가한다
+D. 도부타민 부하 심초음파를 시행한다
 
 ## 해설
 
 
-15분 미만의 짧은 발작성 흉통이 운동과 무관하고 휴식으로 호전되며 심전도와 검진이 정상인 경우 관상동맥질환 전향 확률이 낮다(저 사전 확률). 저 위험군에서는 추가 검사가 필요하지 않으며, 불필요한 검사보다 관찰이 적절하다. 따라서 추가 검사가 필요하지 않다가 정답이다.
+움직임과 국소 압박으로 같은 통증이 재현되고 운동과 무관하며 관상동맥 위험이 매우 낮아 흉벽 원인이 우선이다. 이처럼 안정적인 환자에서는 관상동맥 검사를 일률적으로 시행하지 않는다. 급성 악화, 운동 유발 통증 등 양상이 변하면 다시 평가한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 도부타민 부하 심초음파
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003734
+- https://doi.org/10.1093/eurheartj/ehae177

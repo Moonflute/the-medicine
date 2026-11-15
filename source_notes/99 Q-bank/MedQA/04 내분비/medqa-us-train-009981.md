@@ -15,11 +15,11 @@ related_diseases:
   - "당뇨병성 말초신경병증"
 related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
-question_type: mechanism
+question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-제1형 당뇨병이 있는 45세 남성이 건강검진을 위해 내원했다. 10개월 동안 밤에 발이 저리고 최근 두 번 넘어졌다. 3년 전 양쪽 눈에 망막 레이저 광응고술을 받았다. 인슐린과 리시노프릴을 복용하지만 인슐린 요법을 잘 따르지 않는다고 인정한다. 흡연과 음주는 하지 않는다. 혈압은 앉아서 130/85 mmHg, 서서 118/70 mmHg이다. 진찰에서 양쪽 발가락과 발목의 진동감각과 위치감각이 감소되어 있고 HbA1c는 10.1%이다. 소변 딥스틱에서 단백 2+가 나온다. 다음 중 이 환자에서 추가로 나타날 가능성이 가장 높은 소견은?
+45세 제1형 당뇨병 환자가 소변을 봐도 덜 나온 것 같고 줄기가 약하다고 한다. 감염은 확인되지 않았고 당뇨병성 자율신경병증이 의심된다. 방광이 실제로 잘 비워지지 않는지 우선 확인할 검사는?
 
 ## 선택지
 
-A. 하부 식도 괄약근 압력 증가
-B. 동공 확장
-C. 방광 불완전 배출
-D. 과반사
+A. 소변 삼투질농도
+B. 혈청 전립선특이항원만 검사
+C. 배뇨 직후 초음파로 잔뇨량 측정
+D. 신장 핵의학 검사
 
 ## 해설
 
 
-당뇨병성 자율신경병증은 방광 신경을 손상시켜 배뇨곤란과 불완전 배출을 일으킨다. 환자는 말초 감각 저하와 고 HbA1c를 보여 자율신경병증 위험이 높다. 따라서 가장 흔히 나타날 소견은 방광 불완전 배출이다. 정답은 C.
+방광 감각이나 수축이 저하되면 배뇨 뒤 소변이 많이 남을 수 있다. 배뇨 직후 초음파로 잔뇨량을 확인한다. 잔뇨가 많으면 전립선 등 폐쇄성 원인도 감별한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 과반사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009981
+- https://doi.org/10.2337/dc26-s012

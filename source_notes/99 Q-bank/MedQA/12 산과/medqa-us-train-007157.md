@@ -14,11 +14,11 @@ related_diseases:
   - "태아수종"
   - "알파 글로빈 유전자 결실"
   - "헤모글로빈 바트"
-question_type: mechanism
+question_type: diagnosis
 related_disease_slugs:
   - MDkg7ZiI7JWhL-yngOykke2VtCDruYjtmIggKFRoYWxhc3NlbWlhKS5tZA
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 G10 여성이 임신 24주에 추적 진료를 위해 내원했다. 6주 전 전혈구검사에서 소구성 저색소성 빈혈이 확인되어 황산철 정제를 처방받았다. 오늘 반복한 전혈구검사에서 헤모글로빈 수치가 호전되지 않았다. 과거력상 산모는 Rh 양성이고 배우자는 Rh 음성이다. 7년 전 남편과 함께 미국으로 이주했으며 본국에서는 정기적인 의료 관리를 받지 못했다. 복부 초음파에서 태아수종에 합당한 소견이 보인다. 이 태아 상태의 가장 가능성 높은 원인은 무엇인가?
+임신 11주 산모와 배우자의 유전자검사에서 각각 같은 염색체에 있는 알파글로빈 유전자 두 개가 결실된 보인자(--/αα)로 확인됐다. 이 임신에서 두 부모의 결실을 모두 물려받을 경우 가장 우려하는 태아 상태는?
 
 ## 선택지
 
-A. 알파 글로빈 유전자 4개의 결실
-B. 베타 글로빈 사슬 합성 장애
-C. 피루브산 키나아제 결핍
-D. Rh 부적합
+A. 베타 지중해빈혈 중증형
+B. 태아 RhD 감작
+C. 유전성 구형적혈구증
+D. Hb Bart 태아수종
 
 ## 해설
 
-알파글로빈 네 유전자가 모두 소실되면 알파 사슬을 만들지 못해 태아에서 γ4 사량체 Hb Bart가 형성된다. 산소 운반 장애와 심한 빈혈이 태아수종을 초래하므로 A가 적절하다. 철분에 반응하지 않는 모체 소구성 빈혈은 지중해빈혈 보인자 가능성을 뒷받침하지만 모체 소견만으로 태아 유전형을 확진하는 것은 아니다. 모체 Rh 양성·배우자 Rh 음성이라는 본문은 전형적인 항-D Rh 부적합의 조합이 아니며 D를 정답처럼 설명한 기존 해설은 잘못이다.
+두 부모가 각각 같은 염색체에 알파글로빈 유전자 두 개의 결실을 가지고 있으면 태아가 네 개 모두 결실된 상태를 물려받을 수 있다. 중증 태아빈혈과 수종이 발생할 수 있어 유전상담과 산전 진단을 논의한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. Rh 부적합
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007157
+- https://www.ncbi.nlm.nih.gov/books/NBK1435/

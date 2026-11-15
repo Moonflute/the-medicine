@@ -13,10 +13,10 @@ related_diseases:
   - "impaired physician"
   - "physician health program"
   - "professional misconduct"
-question_type: ethics
+question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,23 +33,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-31세 의사가 선배 동료가 2주 동안 계속 지각하는 것을 알아차렸다. 그 동료는 최근 아내를 암으로 잃었고 어린 네 자녀를 돌보고 있다. 아내가 사망한 뒤 과장은 장기 휴가를 제안했지만 그는 거절했다. 전공의들은 최근 외래 예약 누락, 수술 중 실수 2회, 세 차례 다른 날에 술 냄새가 나는 것 등 변화를 관찰하고 논의했다. 이 동료에 대해 의사가 취할 가장 적절한 조치는 무엇인가?
+시술을 앞둔 동료 의사가 말이 어눌하고 몸을 제대로 가누지 못한다. 지금 환자에게 시술을 진행하려 한다. 가장 먼저 할 조치는?
 
 ## 선택지
 
-A. 향후 비행동을 과장에게 보고하도록 전공의들에게 조언
-B. 주 면허위원회에 알림
-C. 동료와 개인적으로 대면
-D. 지역 의사 건강 프로그램에 알림
+A. 시술을 지켜본 뒤 이상이 있었는지 판단한다
+B. 동료에게 나중에 건강검진을 권한다
+C. 시술을 멈추고 책임자에게 즉시 알린 뒤 다른 의료진에 환자를 인계한다
+D. 환자의 상태가 악화될 때만 안전사고 절차를 밟는다
 
 ## 해설
 
-술 냄새와 수술 중 오류 등으로 진료 수행능력 저하가 의심되므로 제시된 선택지 중 지역 의사건강프로그램에 연계하여 평가·치료를 받도록 하는 것이 적절하다. 단순히 다음 문제를 기다리거나 개인 대면만으로 끝내지 않는다. 다만 프로그램 연락을 이유로 즉각적인 환자 안전 조치나 필요 시 진료 중단·기관 보고를 늦추어서는 안 된다. 비밀보장·보고 의무는 관할 규정과 위험 상황에 따라 달라진다.
+의료진이 안전하게 진료하기 어려운 상태라면 원인을 단정할 필요 없이 먼저 환자를 보호한다. 즉시 시술을 중단하고 책임자와 안전한 인계를 마련한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001783
+- https://www.gmc-uk.org/professional-standards/the-professional-standards/good-medical-practice/colleagues-culture-and-safety
 
 ## 검수 근거
 

@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR64-FIChQb2lzb25pbmcpLm1k
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -34,7 +35,7 @@ related_drug_slugs:
 
 ## 문제
 
-이전에 건강했던 5세 남아가 6시간 동안의 복통과 구토로 응급실에 왔다. 어머니는 아이가 약품 보관함을 뒤진 것을 보고 즉시 데려왔다. 어머니는 임신 5개월이다. 체온 37.2°C, 맥박 133회/분, 혈압 80/50 mmHg이며 불편해 보인다. 복부에 미만성 압통이 있으나 경직은 없다. 직장수지검사에서 검은색 변이 보인다. 혈색소 13.2 g/dL, 백혈구 14,100/mm³, 나트륨 136 mEq/L, 칼륨 3.3 mEq/L, 염소 105 mEq/L, BUN 26 mg/dL, 포도당 98 mg/dL, 크레아티닌 1.1 mg/dL이다. 동맥혈가스에서 pH 7.31, pCO₂ 32 mmHg, HCO₃⁻ 16 mEq/L이다. 정맥 수액을 투여했다. 다음 중 가장 적절한 치료의 다음 단계는?
+이전에 건강했던 5세 남아가 6시간 동안의 복통과 구토로 응급실에 왔다. 어머니는 아이가 약품 보관함을 뒤진 것을 보고 즉시 데려왔다. 어머니는 임신 5개월이다. 체온 37.2°C, 맥박 133회/분, 혈압 80/50 mmHg이며 불편해 보인다. 복부에 미만성 압통이 있으나 경직은 없다. 직장수지검사에서 검은색 변이 보인다. 혈색소 13.2 g/dL, 백혈구 14,100/mm³, 나트륨 136 mEq/L, 칼륨 3.3 mEq/L, 염소 105 mEq/L, BUN 26 mg/dL, 포도당 98 mg/dL, 크레아티닌 1.1 mg/dL이다. 동맥혈가스에서 pH 7.31, pCO₂ 32 mmHg, HCO₃⁻ 16 mEq/L이다. 정맥 수액을 투여했다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

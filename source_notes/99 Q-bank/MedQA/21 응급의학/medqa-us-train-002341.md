@@ -17,6 +17,7 @@ question_type: management
 related_disease_slugs: []
 difficulty: standard
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -33,7 +34,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 남성이 복부 총상을 입은 지 20분 후 응급실에 왔다. 의식은 명료하고 초조해 보인다. 맥박 102회/분, 호흡 20회/분, 혈압 115/70 mmHg이며 동공은 양쪽이 같고 빛에 반응한다. 오른쪽 상복부에 총알 진입상이 있고 오른쪽 허리 아래에 출구상이 있다. 폐음은 정상이며 복부에 미만성 경미한 압통이 있으나 경직이나 반발통은 없다. 정맥 수액을 시작했다. 다음 중 가장 적절한 치료의 다음 단계는?
+29세 남성이 복부 총상을 입은 지 20분 후 응급실에 왔다. 의식은 명료하고 초조해 보인다. 맥박 102회/분, 호흡 20회/분, 혈압 115/70 mmHg이며 동공은 양쪽이 같고 빛에 반응한다. 오른쪽 상복부에 총알 진입상이 있고 오른쪽 허리 아래에 출구상이 있다. 폐음은 정상이며 복부에 미만성 경미한 압통이 있으나 경직이나 반발통은 없다. 정맥 수액을 시작했다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

@@ -16,7 +16,7 @@ question_type: management
 related_disease_slugs:
   - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-2.5-flash
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22주 임신한 23세 여성이 배뇨 시 작열감(burning upon urination)을 주소로 내원했다. 그녀는 증상이 1일 전 시작되었으며, 물을 더 많이 마시고 크랜베리 추출물을 복용했음에도 불구하고 악화되었다고 말한다. 그녀는 그 외에는 건강하며 임신으로 인해 의사의 진료를 받고 있다. 체온은 97.7°F (36.5°C), 혈압은 122/77 mmHg, 맥박은 80회/분, 호흡수는 19회/분, 실내 공기에서 산소 포화도는 98%이다. 신체 검진상 늑골척추각 압통(costovertebral angle tenderness)은 없었으며, 임신 자궁(gravid uterus)이 관찰되었다. 이 환자에게 가장 적절한 치료는 다음 중 무엇인가?
+임신 22주 산모가 배뇨통과 빈뇨로 왔다. 열과 옆구리 압통은 없고 소변에서 니트로푸란토인에 감수성인 대장균이 자랐다. G6PD 결핍은 없고 신기능은 정상이다. 적절한 치료는?
 
 ## 선택지
 
-A. 암피실린
-B. 세프트리악손
-C. 독시사이클린
-D. 니트로푸란토인
+A. 경구 니트로푸란토인으로 하부 요로감염을 치료한다
+B. 상부 요로감염으로 보고 한 달간 정맥 항생제를 준다
+C. 독시사이클린으로 치료한다
+D. 열이 없으므로 증상이 있어도 항생제는 주지 않는다
 
 ## 해설
 
-22주 임신에서 배뇨통이 있으나 발열·옆구리 압통이 없어 급성 방광염이 의심된다. 배양을 채취하고 감수성에 맞춰 치료하며, 선택지 중 니트로푸란토인(D)은 하부 요로감염의 합리적 선택이다. 암피실린의 경험적 사용을 피하는 주된 이유는 E. coli 내성이지 임신 초기 기형 위험이 아니다. 니트로푸란토인은 신우신염에는 부적절하며 G6PD 결핍 등 주의가 필요하다.
+이 환자는 신우신염 소견이 없는 급성 방광염이므로 감수성이 확인된 니트로푸란토인으로 치료할 수 있다. 신장 실질 농도가 충분하지 않아 신우신염 치료에는 사용하지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 니트로푸란토인
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000001
+- https://pubmed.ncbi.nlm.nih.gov/37473414/

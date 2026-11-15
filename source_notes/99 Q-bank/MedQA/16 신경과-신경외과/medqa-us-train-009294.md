@@ -13,13 +13,13 @@ related_diseases:
   - "Sturge-Weber syndrome"
   - "스터지-웨버 증후군"
   - "port-wine stain"
-question_type: diagnosis
+question_type: complication
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvU3R1cmdlLVdlYmVyIOymne2bhOq1sCAoU3R1cmdlLVdlYmVyIFN5bmRyb21lKS5tZA
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-2세 남아가 1시간 전 발생한 5분간의 왼팔 반복적 불수의성 경련으로 응급실에 왔다. 장난감을 가지고 놀던 중 증상이 시작되었다. 부모는 18개월에 붙잡고 서기 시작했고 최근 붙잡고 걷기 시작했다고 한다. 두 음절 단어를 말한다. 키는 70백분위수, 체중은 80백분위수이다. 활력징후는 정상이다. 오른쪽 뺨에서 오른쪽 눈꺼풀까지 자주색-분홍색 반점이 있고 오른쪽 안구는 단단하다. 신경학적 검사에서 왼팔 근긴장저하와 왼쪽 이두근 반사 소실이 있다. 안저검사에서 오른쪽 시신경유두 함몰이 보인다. 증상의 가장 가능성 높은 원인은 무엇인가?
+2세 아이의 오른쪽 이마와 윗눈꺼풀에 포도주색 모반이 있고 왼팔 국소 발작으로 평가받았다. 스터지–웨버 증후군이 의심된다. 뇌 평가와 함께 시력을 보존하기 위해 확인해야 할 합병증은?
 
 ## 선택지
 
-A. 모세혈관확장성 운동실조
-B. 유전성 출혈성 모세혈관확장증
-C. 스터지-웨버 증후군
-D. 클리펠-트레노네이 증후군
+A. 유리체 혼탁
+B. 같은 쪽 눈의 녹내장
+C. 양측 유전성 망막변성
+D. 시신경 교차부 종괴
 
 ## 해설
 
 
-포트와인 스테인(주홍색 피부 병변)과 안구 내 혈관 기형, 뇌실질 이상은 스터지‑웨버 증후군의 특징이다. 따라서 원인은 스터지‑웨버 증후군이다. 다른 선택지는 이러한 혈관 기형을 설명하지 못한다.
+이마·윗눈꺼풀의 혈관모반이 있으면 같은 쪽 녹내장을 놓치지 않도록 소아안과에서 안압과 시신경 상태를 확인한다. 반복 안과 추적도 중요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009294
+- https://pubmed.ncbi.nlm.nih.gov/34153815/

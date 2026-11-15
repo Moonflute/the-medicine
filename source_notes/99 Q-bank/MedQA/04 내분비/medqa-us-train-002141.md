@@ -20,7 +20,7 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-병력을 알 수 없는 19세 남성이 지하철 승강장에서 쓰러진 채 발견되어 구급차로 병원에 이송되었다. 이송 중 두 차례 구토했다. 응급실에서 혼란스러워하며 복통을 호소한다. 체온 37.0°C, 맥박 94회/분, 혈압 110/80 mmHg, 호흡 24회/분, 실온 공기에서 산소포화도 99%이다. 점막이 건조하고 빠르고 깊은 호흡을 한다. 검사에서 나트륨 130 mEq/L, 칼륨 4.3 mEq/L, 염소 102 mEq/L, 중탄산염 12 mEq/L, BUN 15 mg/dL, 포도당 362 mg/dL, 크레아티닌 1.2 mg/dL, 소변 케톤 양성이다. 등장성 생리식염수 일시주입과 정맥 인슐린 지속주입을 시작했다. 다음 중 가장 적절한 치료의 다음 단계는?
+당뇨병성 케톤산증 환자에 수액·정맥 인슐린을 시작했다. 혈당 365 mg/dL, 칼륨이 5.4에서 4.3 mmol/L로 떨어졌고 소변량은 충분하다. 현재 수액에 추가할 것은?
 
 ## 선택지
 
-A. 피하 인슐린 글라르진
-B. 정맥 중탄산나트륨
-C. 정맥 염화칼륨
-D. 정맥 5% 포도당과 1/2 등장성 생리식염수
+A. 중탄산나트륨
+B. 인산염
+C. 염화칼륨
+D. 포도당
 
 ## 해설
 
 
-DKA 치료 시 인슐린 투여로 혈청 K⁺가 세포내로 이동해 저칼륨혈증이 발생할 위험이 있다. 현재 혈청 K⁺가 정상 범위이므로, 저칼륨 예방 차원에서 정맥 KCl 보충이 필요하다. 따라서 정맥 염화칼륨이 정답이다.
+인슐린과 산증 교정이 진행되면 혈중 칼륨이 더 떨어질 수 있다. 신장 배설이 유지되고 칼륨이 4.3이면 수액에 칼륨을 보충하고 연속 검사로 조절한다.
 
 ## 검수 근거
 
@@ -62,3 +62,5 @@ DKA 치료 시 인슐린 투여로 혈청 K⁺가 세포내로 이동해 저칼�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002141
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/
+- https://doi.org/10.2337/dci24-0032

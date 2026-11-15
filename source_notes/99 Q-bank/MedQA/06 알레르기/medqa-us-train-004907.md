@@ -18,6 +18,7 @@ related_disease_slugs: []
 question_type: mechanism
 difficulty: complex
 answer: A
+publication_status: "withheld"
 original_answer: D
 answer_change_reason: "무의식·구토물 노출 직후 천명은 흡인을 지지하며 환경항원 노출 단서가 없다. 정상 초기 흉부사진으로 흡인을 배제한 원정답 D를 A로 변경. 임상 추론과 BTS 근거를 기록."
 translation_status: machine-verified

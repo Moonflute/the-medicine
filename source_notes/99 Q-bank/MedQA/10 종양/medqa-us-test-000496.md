@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
   - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIChEZWVwIFZlaW4gVGhyb21ib3NpcykubWQ
-question_type: prognosis
+question_type: management
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-55세 여성이 정기 유방촬영술에서 비정상 종괴가 발견되었다. 생검 세포검사에서 에스트로겐 수용체 양성 침윤성 유관 선암으로 진단되었다. 화학요법을 시작한 뒤 종괴를 절제했고 타목시펜을 복용하며 정기 외래 추적 관찰 중이다. 천식, 비만, 지난해 확실히 치료한 자궁 평활근종 병력이 있다. 마지막 월경은 47세였다. 활력징후와 진찰은 정상이었다. 다음 중 발생할 수 있는 합병증은?
+55세 폐경 후 여성이 ER 양성·HER2 음성 조기 유방암 수술을 마쳤다. 폐색전증 병력이 있고 골밀도는 정상이다. 보조 내분비치료로 가장 적절한 약은?
 
 ## 선택지
 
-A. 심부정맥혈전증
-B. 지루각화증의 급발진
-C. 출혈 증가
-D. 골다공증
+A. 타목시펜
+B. 고세렐린 단독
+C. 트라스투주맙
+D. 레트로졸
 
 ## 해설
 
 
-타목시펜은 조직별 에스트로겐 수용체 효과가 다른 선택적 에스트로겐 수용체 조절제(SERM)이다. 혈전색전증 위험을 높일 수 있어 선택지 중 심부정맥혈전증(A)이 맞다. 모든 사용자에게 흔하게 생긴다고 단정하지 않는다.
+폐경 후 ER 양성 유방암에는 레트로졸 같은 아로마타제 억제제를 사용할 수 있다. 타목시펜은 정맥혈전색전증 위험을 높이므로 이 환자에서는 아로마타제 억제제를 우선한다. 치료 중 골 건강도 평가한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 골다공증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000496
+- https://doi.org/10.1016/j.esmoop.2024.102974

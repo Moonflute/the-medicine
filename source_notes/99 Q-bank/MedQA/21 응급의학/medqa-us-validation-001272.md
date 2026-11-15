@@ -17,7 +17,7 @@ question_type: investigation
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-uMgOuPmeunpSDrsJXrpqwgKEFvcnRpYyBEaXNzZWN0aW9uKS5tZA
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-63세 남성이 갑자기 시작된 찢어지는 듯한 극심한 흉통으로 응급실에 왔다. 오른팔 혈압은 195/90 mm Hg, 왼팔은 160/80 mm Hg이고 오른쪽 다리 맥박은 소실, 왼쪽은 약하다. 흉부 X선에서 종격동이 넓어져 있다. 가장 적절한 다음 처치는?
+63세 남성이 갑작스러운 흉통과 등 통증으로 내원했다. 양팔 수축기혈압이 35 mmHg 차이 나고 오른쪽 대퇴 맥박이 약하다. 혈역학은 안정적이며 조영제 금기는 없다. 대동맥박리가 의심될 때 확진할 검사는?
 
 ## 선택지
 
-A. CT 촬영
-B. 수술
-C. D-이합체 검사
-D. 정맥 초음파
+A. D-이합체만 측정
+B. 흉부 비조영 CT
+C. 조영증강 대동맥 CT 혈관조영술
+D. 하지 정맥 도플러
 
 ## 해설
 
-갑작스러운 찢어지는 흉통, 양팔 혈압 차이, 하지 맥박 감소와 넓어진 종격동은 급성 대동맥박리를 강하게 의심하게 한다. 혈역학적으로 CT를 시행할 수 있는 이 상황에서는 조영 CT 혈관조영술(A)로 박리 범위와 분지 혈류 장애를 신속하게 평가하는 것이 적절하다. 단순 흉부 X선은 확진 검사가 아니며 고확률 사례에서 D-dimer로 평가를 늦추지 않는다. CT가 곤란하거나 이동이 위험한 상황에서는 경식도 심초음파 등 다른 영상이 필요할 수 있다.
+갑자기 생긴 심한 흉배부 통증과 맥박 차이는 급성 대동맥증후군을 의심할 단서다. 안전하게 이송할 수 있으면 CT 혈관조영으로 박리 범위와 분지 혈류를 평가한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 정맥 초음파
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001272
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9860464/

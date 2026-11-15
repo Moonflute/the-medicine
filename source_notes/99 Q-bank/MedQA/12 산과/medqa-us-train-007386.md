@@ -14,12 +14,12 @@ related_diseases:
   - "폐부종"
   - "중증 고혈압"
   - "급성 호흡곤란"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
   - MTIg7IKw6rO8L-ykkeymnSDsoITsnpDqsITspp0gKFNldmVyZSBQcmUtZWNsYW1wc2lhKS5tZA
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 34주인 38세 초임부가 3시간 동안 점점 심해지는 호흡곤란으로 응급실에 내원했다. 2주 전 산전 진료에서 임신성 고혈압을 진단받았다. 임신 16주에 양수천자와 염색체 분석을 시행했으나 이상은 없었다. 그 외에는 건강했지만 2년 전 심부정맥혈전증을 앓아 저분자량 헤파린으로 치료했다. 현재 메틸도파와 종합비타민을 복용한다. 불안해 보이며 맥박 90회/분, 호흡수 24회/분, 혈압 170/100 mmHg이다. 양쪽 폐기저부에서 수포음이 들린다. 골반검사에서 자궁 크기는 임신 32주에 해당한다. 심장, 복부, 사지 검사는 정상이다. 이 환자의 호흡곤란을 일으킨 가장 가능성 높은 원인은 무엇인가?
+임신 34주 산모가 호흡곤란으로 왔다. 혈압은 반복해서 170/105 mmHg이고 흉부 영상에서 폐부종이 확인됐다. 새 단백뇨는 확인되지 않았다. 이 환자의 산과 판단으로 옳은 것은?
 
 ## 선택지
 
-A. 폐부종
-B. 양수 색전
-C. 폐 전이
-D. 폐혈전색전증
+A. 단백뇨가 없으면 폐부종은 자간전증과 관계없다
+B. 보통 부종과 같으므로 외래에서 37주까지 관찰한다
+C. 황산마그네슘만 투여하면 폐부종 치료나 분만 평가가 필요 없다
+D. 폐부종은 중증 소견으로 즉시 안정화하고 분만을 준비한다
 
 ## 해설
 
-새 호흡곤란, 양측 폐기저부 수포음과 중증 범위 혈압은 폐부종(A)을 가장 시사한다. 임신성 고혈압 환자에서 이런 장기 증상이 생기면 전자간증의 진행 여부도 평가해야 한다. 과거 심부정맥혈전증 때문에 폐색전증도 감별해야 하지만 제시된 수포음·혈압 조합은 A에 더 부합한다. ‘산소성 폐부종’은 적절한 분류가 아니다.
+새 고혈압에 폐부종 같은 장기 이상이 있으면 단백뇨 없이도 중증 자간전증을 판단할 수 있다. 산소화와 혈압을 안정시키고, 임신 지속으로 위해가 커질 수 있어 산과팀이 신속히 분만을 준비한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 폐혈전색전증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007386
+- https://www.nice.org.uk/guidance/ng133/chapter/recommendations

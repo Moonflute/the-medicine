@@ -16,7 +16,7 @@ related_diseases:
   - "bone mineral density"
 related_disease_slugs:
   - MDQg64K067aE67mEL-qzqOuLpOqzteymnSAoT3N0ZW9wb3Jvc2lzKS5tZA
-question_type: prevention
+question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 여성이 DEXA에서 T점수 -3.0으로 골다공증이 확인되었다. 칼슘, 인, 비타민 D, PTH는 정상이었다. 다음 중 골다공증 발생 위험을 줄였을 조치는?
+67세 폐경 여성이 대퇴경부 DXA T점수 -2.8이다. 골절 병력은 없고 신기능과 혈청 칼슘은 정상이다. 식도 질환이 없고 약을 복용한 후 앉아 있을 수 있다. 골절 예방을 위한 일차 약물로 적절한 것은?
 
 ## 선택지
 
-A. 낙상 위험을 줄이기 위해 신체활동을 줄인다
-B. 주 3회 수영운동을 시작한다
-C. 칼슘과 비타민 D를 보충한다
-D. 체중을 줄인다
+A. 칼슘·비타민 D 보충제만 사용
+B. 진통제만 사용
+C. 경구 알렌드로네이트
+D. 폐경 증상이 없는 상태에서 전신 에스트로겐을 새로 시작
 
 ## 해설
 
-선택지 C는 부족한 칼슘·vitaminD 섭취를 보완해 골건강을 유지하는 취지로 가장 적절하다. 다만 영양상태가 충분한 지역사회 모든 성인에게 일률적 보충제를 주면 골절이 예방된다는 근거는 일관되지 않다. 체중부하·저항운동과 금연 등도 중요하고 수영이 건강상 이득이 전혀 없는 것은 아니다. 이미 T-score−3인 환자는 별도의 골다공증 약물치료 평가가 필요하다.
+폐경 후 여성에서 대퇴경부 T점수 -2.5 이하는 골다공증이다. 금기가 없는 경우 알렌드로네이트는 골절 위험을 낮추는 일차 치료 선택지다. 칼슘·비타민 D 섭취를 보완하되 치료약을 대신하지는 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 체중을 줄인다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003899
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11439573/

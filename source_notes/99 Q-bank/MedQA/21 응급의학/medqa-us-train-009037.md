@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-66세 남성이 점점 악화되는 객혈로 응급실에 내원했다. COPD로 만성 기침이 있었지만 지난 3주 동안 더 자주 기침했고 처음에는 소량이던 피가 이제 상당량 보인다. 가래 변화, 호흡곤란, 피로, 발열, 어지럼은 없다. 지난 한 달 동안 의도치 않게 5kg(11파운드) 감소했고 다리에 경미한 근육 경련이 있다. COPD 외 고혈압과 최근 진단받은 통풍이 있다. 3년 전 금연했으며 25갑년 흡연력이다. 현재 콜히친, 리시노프릴, 저용량 아스피린을 복용한다. 혈압 92/58mmHg, 맥박 105회/분, 호흡수 12회/분, 체온 37.0°C(98.6°F), 산소포화도 95%이다. 오른쪽 폐기저부에 수포음이 있고 흉부 X선에서 오른쪽 하엽에 경계가 불분명한 2cm 결절이 보인다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+기관지확장증이 있는 66세 남성이 많은 양의 피를 기침하며 숨이 가빠진다. 혈액을 뱉지 못하고 산소포화도가 떨어진다. 색전술이나 영상검사보다 먼저 할 조치는?
 
 ## 선택지
 
-A. 방사선과에 의뢰해 기관지동맥 색전술
-B. 호흡기내과에 의뢰해 굴곡성 기관지경검사
-C. 기도를 확보하고 적절한 산소포화도를 유지
-D. 출혈 부위를 확인하기 위해 흉부 CT
+A. 기도를 보호하고 산소화·환기를 유지한다
+B. 출혈 위치를 찾기 위해 먼저 CT실로 이동한다
+C. 가래 배양 결과만 기다린다
+D. 약을 먹이고 경과를 본다
 
 ## 해설
 
 
-대량 객혈 시 기도 확보와 산소포화 유지가 가장 우선적인 응급처치이며, 다른 진단·치료는 환기가 확보된 후에 고려한다. 따라서 기도 보호가 정답이다.
+생명을 위협하는 객혈은 혈액이 기도를 막아 급격히 악화할 수 있다. 기도 보호와 산소화를 우선하고, 안정화하면서 기관지경이나 기관지동맥 색전술을 준비한다.
 
 ## 출처
 

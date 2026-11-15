@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-u5hO2DgOuvvCBLIOqysO2VjSAoVml0YW1pbiBLIERlZmljaWVuY3kpLm1k
   - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
-question_type: mechanism
+question_type: management
 difficulty: simple
 answer: A
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-낭성섬유증 병력이 있는 20세 남성이 정기 진료를 받으러 왔다. 전반적으로 괜찮지만 최근 대변 횟수가 늘었고, 변이 묽고 기름져 변기에 자주 묻는다고 한다. 혈액응고인자 중 어떤 인자의 혈청 수치가 비정상일 가능성이 높은가?
+낭성섬유증을 앓는 20세 남성이 대변이 기름지고 잘 씻기지 않으며 최근 체중까지 줄었다고 한다. 대변 엘라스타제가 낮아 췌장 외분비기능부전이 확인됐다. 지방 흡수를 개선할 치료는?
 
 ## 선택지
 
-A. II
-B. V
-C. VIII
-D. XI
+A. 식사와 간식 때 췌장효소를 보충한다
+B. 지방만 완전히 제한한다
+C. 장기적으로 지사제만 복용한다
+D. 췌장효소 대신 항생제를 장기간 투여한다
 
 ## 해설
 
-낭성섬유증의 지방흡수장애는 비타민 K 결핍을 일으켜 응고인자 II, VII, IX, X의 기능을 저하시킬 수 있다. 제시된 선택지 중 비타민 K 의존 인자는 II(A)이다. 반감기가 짧아 먼저 영향을 받기 쉬운 것은 VII이며, II가 가장 먼저 감소한다는 설명은 부정확하다.
+낭성섬유증의 췌장 외분비기능부전은 지방 소화에 필요한 효소를 줄인다. 식사와 간식에 맞춰 췌장효소를 보충하고 체중·증상, 영양 상태와 지용성 비타민을 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. XI
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000932
+- https://www.cff.org/medical-professionals/pancreatic-enzymes-clinical-care-guidelines

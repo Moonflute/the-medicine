@@ -13,12 +13,12 @@ related_diseases:
   - "라이 증후군"
   - "아스피린"
   - "간 미토콘드리아 손상"
-question_type: mechanism
+question_type: diagnosis
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITshLEg64eM7KadIChIZXBhdGljIEVuY2VwaGFsb3BhdGh5KS5tZA
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rj4XshLEg6rCE7Je8IChUb3hpYyBIZXBhdGl0aXMpLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 13세 남아가 오늘 아침부터 여러 차례 구토하여 부모와 함께 응급실에 왔다. 오심과 심한 두통을 호소한다. 지난 4일 동안 발열, 콧물, 인후통이 있었다. 어머니가 류마티스관절염에 사용하는 진통제를 아이에게 투여했다. 외상은 없었다. 지난달 가족과 멕시코를 여행했다. 키는 연령의 85백분위수, 체중은 25백분위수이다. 아이는 쇠약해 보인다. 체온 38°C, 맥박 분당 90회, 호흡수 분당 18회, 혈압 100/60 mmHg이다. 정신상태검사에서 정신운동성 초조와 기면이 번갈아 나타난다. 양측 시신경유두 부종이 관찰된다. 혈청 요소질소 30 mg/dL, 포도당 70 mg/dL, AST(GOT) 60 U/L, ALT(GPT) 60 U/L이다. 실내 공기에서 시행한 동맥혈가스분석의 pH는 7.30이다. 다음 중 이 환자 증상의 가장 가능성 높은 원인은?
+인플루엔자로 열이 나던 13세 아이가 아스피린을 복용한 며칠 뒤 반복 구토와 의식 저하를 보인다. 혈당이 낮고 암모니아와 간효소가 높다. 특히 의심할 합병증은?
 
 ## 선택지
 
-A. A형 간염 바이러스 감염
-B. 간 미토콘드리아 손상
-C. 부동액 섭취
-D. 췌장 베타세포의 자가면역 파괴
+A. 급성 담낭염
+B. 당뇨병성 케톤산증
+C. 길랭–바레 증후군
+D. 라이증후군
 
 ## 해설
 
-바이러스 전구증상 뒤 진통제 노출을 시사하는 병력, 구토·의식 변화·유두부종과 간효소 상승은 라이증후군의 출제 의도에 부합한다. 간 미토콘드리아 기능 손상(B)이 지방산 대사와 에너지 대사 장애에 관여하며 뇌부종/뇌병증을 동반할 수 있다. 본문은 약물명을 명시하지 않아 아스피린 복용이 확인된 사실인 것은 아니며, 이를 복합체 I만 억제하는 단일 기전으로 설명하지 않는다.
+바이러스 질환 중 아스피린을 복용한 소아의 급성 뇌병증과 간 기능 이상은 라이증후군을 의심하게 한다. 급성 간부전과 저혈당의 다른 원인도 응급 평가한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 췌장 베타세포의 자가면역 파괴
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009750
+- https://www.healthychildren.org/english/health-issues/conditions/abdominal/pages/reye-syndrome.aspx

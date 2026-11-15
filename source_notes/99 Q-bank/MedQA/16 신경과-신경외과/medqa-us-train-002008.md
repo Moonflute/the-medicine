@@ -17,7 +17,7 @@ related_diseases:
 question_type: diagnosis
 related_disease_slugs: []
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-48세 여성이 7년 전 HIV 진단을 받았고 항레트로바이러스제와 trimethoprim-sulfamethoxazole을 빠뜨려 복용해 왔다. 최근 방향감각과 혼란이 생겼고 오른쪽 근력 4/5, 왼쪽 3/5, 보행이 약간 조화롭지 않으며 복시가 있다. CD4는 75 cells/μL이고 MRI에서 양측에 비대칭성 비조영 고신호 병변이 여러 개 보이며 뇌생검에서 탈수초와 비정형 성상세포가 보인다. 현재 상태의 가장 가능성 높은 원인은 무엇인가?
+HIV 치료를 중단한 48세 환자에게 수주 동안 편측 위약과 보행장애가 진행한다. CD4는 75/μL이고 MRI에서 뚜렷한 종괴 효과 없이 비대칭 백질 병변이 여러 개 보인다. 가장 의심할 합병증은?
 
 ## 선택지
 
-A. 자가면역성 탈수초
-B. HIV 관련 신경인지장애
-C. John Cunningham 바이러스 (JC virus)
-D. 원발성 중추신경계 림프종
+A. 원발성 중추신경계 림프종
+B. 화농성 뇌농양
+C. 급성 수막염
+D. 진행성 다초점 백질뇌병증
 
 ## 해설
 
-심한 세포성 면역저하 환자의 비대칭성·비조영증강 백질 병변, 탈수초 및 비정형 성상세포는 JC 바이러스(C)에 의한 진행성 다초점 백질뇌병증(progressive multifocal leukoencephalopathy, PML)을 시사한다. JC 바이러스가 희소돌기아교세포를 감염시켜 탈수초를 일으킨다. HIV 관련 인지장애나 원발성 중추신경계 림프종보다 제시된 영상·조직 소견에 합당하다.
+진행하는 국소 신경결손과 비대칭 백질 병변에 종괴 효과가 거의 없다면 심한 면역저하에서 진행성 다초점 백질뇌병증을 의심한다. 다른 기회질환도 함께 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 원발성 중추신경계 림프종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002008
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/progressive

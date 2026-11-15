@@ -19,7 +19,7 @@ related_disease_slugs:
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-42세 여성이 2일 동안 지속된 왼쪽 발목 통증으로 내원했다. 통증은 밤과 운동 시 악화된다. 5일 전 살모넬라 위장염을 진단받고 시프로플록사신을 시작했다. 궤양성 대장염, 고혈압, 고콜레스테롤혈증이 있으며 25년간 하루 담배 두 갑을 피우고 매일 맥주 2~3잔을 마신다. 메살라진, 히드로클로로티아지드, 심바스타틴을 복용한다. 키 158 cm, 체중 74 kg, BMI 30 kg/m²이다. 체온 36.7°C, 맥박 75회/분, 혈압 138/85 mmHg이다. 왼쪽 종골 후방 상부에 압통과 경미한 부종이 있다. 왼쪽 발목의 능동 및 수동 운동 범위는 정상이고 종아리를 압박해도 발바닥굽힘이 유발되지 않는다. 증상의 가장 가능성 높은 기전은 무엇인가?
+42세 여성이 시프로플록사신을 시작한 며칠 뒤 외상 없이 뒤꿈치 위쪽이 아파졌다. 아킬레스건 부위에 압통이 있고 종아리를 압박해도 발이 발바닥 쪽으로 굽혀지지 않는다. 가장 관련이 큰 요인은?
 
 ## 선택지
 
-A. 약물 이상반응
-B. 최근 세균성 위장염
-C. 관절 내 결정 형성
-D. 세균의 관절 파종
+A. 플루오로퀴놀론의 힘줄 이상반응
+B. 위장관 감염에 따른 반응성 관절염
+C. 관절 내 요산 결정 침착
+D. 세균의 발목 관절 파종
 
 ## 해설
 
-시프로플록사신 시작 후 후방 발목 통증과 아킬레스건 부위 압통·부종은 플루오로퀴놀론 관련 힘줄 손상을 시사한다(A). 종아리를 쥐어도 족저굴곡이 일어나지 않는 양성 Thompson 검사는 단순 건염을 넘어 아킬레스건 파열을 의심하게 한다. 일부 발목 능동운동이 가능해도 다른 근육에 의해 움직일 수 있어 파열이 배제되지는 않는다. 의심되면 약물을 중단하고 체중부하·운동을 제한하여 신속히 힘줄 평가를 받아야 한다. 실제 약제 대체는 원래 감염과 감수성을 고려한다.
+종아리 압박에서 발바닥굽힘이 없는 소견은 아킬레스건 파열을 시사한다. 플루오로퀴놀론은 힘줄염과 파열의 위험을 높일 수 있다. 이런 증상은 단순 관절통으로 보지 말고 신속히 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 세균의 관절 파종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009315
+- [서울아산병원: 아킬레스 건 파열](https://ydh.asanfoundation.or.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31698)
+- [식품의약품안전처: 시프로플록사신 사용상 주의사항](https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetailCache?cacheSeq=201600601aupdateTs2026-10-15+14%3A56%3A04.841917b)

@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: investigation
 difficulty: standard
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-31세 여성이 2주 동안 반복되는 코피와 잇몸 출혈로 진료를 받으러 왔다. 심각한 질환의 병력이나 복용 약물은 없다. 두 남성과 성관계를 하고 콘돔은 일관되게 사용하지 않는다. 활력징후는 정상이다. 진찰에서 흉부에 눌러도 창백해지지 않는 점상 반점이 보였고 다른 이상은 없다. 혈색소 13.1 g/dL, 백혈구 6,600/mm³, 혈소판 28,000/mm³이며 말초혈액도말에서 형태가 정상인 혈소판 감소가 보였다. HIV 검사는 음성이다. 다음 중 가장 적절한 처치는?
+31세 환자가 멍과 점상출혈로 진료받았다. 반복 검사에서 혈소판만 28,000/μL이고 도말에 혈소판 응집이나 분열 적혈구는 없다. 약물 원인이 없고 HIV 검사는 음성이다. 이차성 혈소판감소증의 원인을 찾기 위한 검사는?
 
 ## 선택지
 
-A. 혈액배양
-B. D-이합체 검사
-C. C형간염 항체 검사
-D. 항혈소판 항체 검사
+A. 항혈소판항체만 단독 측정
+B. C형간염 항체검사
+C. D-이합체 단독 측정
+D. 증상 없이 혈액배양부터 시행
 
 ## 해설
 
 
-고립된 심한 혈소판감소와 점막출혈은 ITP를 시사한다. 이차 원인 평가에 HIV와 HCV 검사가 포함되므로 HIV 음성인 이 사례에서는 HCV 항체 검사(C)가 적절하다. 항체 양성이면 RNA로 현재 감염 여부를 확인한다. 항혈소판 항체 검사는 민감도 등 한계로 통상적인 확진 필수검사가 아니며, HCV 감염이 본문에서 이미 확인된 것은 아니다.
+새로 면역성 혈소판감소증을 의심하면 HIV와 C형간염 등 이차 원인을 확인한다. 항혈소판항체 검사는 민감도에 한계가 있어 일상적인 필수 확진검사가 아니다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 항혈소판 항체 검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000250
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8958378/

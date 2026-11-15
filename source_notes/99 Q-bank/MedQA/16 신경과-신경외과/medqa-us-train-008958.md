@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qtazsnbjrkZAg7IK87YK06rOk656AIChPcm9waGFyeW5nZWFsIER5c3BoYWdpYSkubWQ
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-73세 남성이 지난 한 달 동안 체중이 4kg(9파운드) 감소해 내원했다. 이 기간 동안 한 입만 먹어도 즉시 기침하고 때로 음식이 코로 역류한다. 액체에서 증상이 더 심하다. 한 달 전 오른쪽 중대뇌동맥 뇌졸중을 앓았다. 고혈압, 제2형 당뇨병, 고지혈증이 있고 아스피린, 암로디핀, 메트포르민, 심바스타틴을 복용한다. 구인두, 흉부, 복부검사는 정상이고 신경학적 검사에서 왼쪽 얼굴 처짐과 좌측 상·하지 근력 저하가 있다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+뇌졸중을 겪은 73세 환자가 물을 삼키자마자 기침하고 목소리가 젖은 듯 변한다. 침상 연하평가에서 흡인 위험이 의심됐다. 어느 검사가 음식의 흐름과 보상자세 효과를 직접 확인하는 데 적합한가?
 
 ## 선택지
 
-A. 비디오 투시 연하검사
-B. 바륨 삼킴검사
-C. 식도 내압검사
-D. 경비강 후두경검사
+A. 식도 내압검사
+B. 경부 단순 X선
+C. 비디오투시 연하검사
+D. 위 배출검사
 
 ## 해설
 
 
-뇌졸중 후 연하곤란은 구강·인두 단계의 문제를 나타낸다. 비디오 투시 연하검사(VFSS)는 삼킴 기능을 시각화하여 평가에 가장 적합하다.
+뇌졸중 뒤 삼킴 직후 기침과 젖은 목소리는 구인두 연하장애의 단서다. 비디오투시검사로 흡인 여부와 연하 전략을 평가한다. 안전한 경구섭취 여부를 먼저 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008958
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10405672/

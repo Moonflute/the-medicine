@@ -25,7 +25,7 @@ translated_at: 2026-07-17
 review_status: "manual-reviewed"
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 비장절제 후 접종을 고정 PCV13에서 접종력 기반 현행 백신으로 교정."
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
@@ -40,18 +40,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-29세 남성이 퇴원 후 추적 관찰을 위해 6월에 일차 진료 클리닉에 내원하였다. 환자는 최근 교통사고 후 병원에 입원한 적이 있다. 당시 환자는 의식이 없고 저혈압 및 빈맥 상태로 응급실에 도착하였다. 복부 CT에서 큰 비장 열상으로 인한 복강 내 출혈(hemoperitoneum)이 확인되어 응급 비장 절제술을 받기 위해 수술실로 이송되었다. 그 이후로 합병증 없이 잘 회복되었다. 사고 전, 환자는 모든 예방접종을 최신 상태로 완료하였다. 현재 시점에서 다음 중 어떤 예방접종을 시행해야 하는가?
+29세 남성이 교통사고로 응급 비장절제술을 받은 뒤 외래에 왔다. 폐렴구균 백신 접종력은 없다. 다른 무비증 관련 예방접종도 함께 평가하는 상황에서, 폐렴구균 접종으로 적절한 것은?
 
 ## 선택지
 
-A. 이전 접종력을 확인해 위험군 일정에 맞는 폐렴구균 백신을 접종한다(예: 미접종 성인은 PCV20/21 또는 PCV15 후 PPSV23)
-B. 불활성화(근육주사) 인플루엔자 백신
-C. 홍역-볼거리-풍진(MMR) 백신
-D. 파상풍 추가 접종 백신
+A. PCV20을 1회 접종한다
+B. PCV20을 1회 접종한 뒤 PPSV23을 반드시 추가한다
+C. 65세가 될 때까지 폐렴구균 백신을 미룬다
+D. 폐렴구균 백신을 매년 접종한다
 
 ## 해설
 
-무비증은 침습성 폐렴구균 감염의 위험인자이므로 이전 접종력을 확인하여 현재의 위험군 접종 일정을 보완한다. PCV 미접종 성인은 PCV20/21 단독 또는 PCV15 후 PPSV23 등의 경로가 가능하다. 과거 PCV를 받은 경우에는 해당 접종력별 일정이 달라진다. 수막구균·Hib 및 매년 인플루엔자 예방도 함께 점검하지만, 6월이라는 이유로 불필요한 MMR·파상풍 재접종을 하는 것은 아니다.
+해부학적 무비증은 침습성 폐렴구균 감염 위험을 높인다. 대한감염학회 2026년 권고에서 미접종 고위험 성인의 선택지는 PCV20 또는 PCV21 1회, 혹은 PCV15 후 PPSV23 순차 접종이다. PCV20을 선택한 경우 PPSV23을 반드시 덧붙이지 않는다. 수막구균·Hib 등 다른 무비증 관련 접종은 별도로 검토한다.
 
 ## 검수 근거
 
@@ -64,6 +64,7 @@ D. 파상풍 추가 접종 백신
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000742
+- 대한감염학회 성인 폐렴구균 예방접종 권고(2026): https://icjournal.org/DOIx.php?id=10.3947%2Fic.2026.0063
 
 ## 오답 포인트
 

@@ -18,6 +18,7 @@ question_type: investigation
 related_disease_slugs: []
 difficulty: simple
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-18개월 남아가 영유아 건강검진을 위해 내원했다. 만삭으로 태어났고 지금까지 건강했다. 혼자 걷고 달릴 수 있다. 숟가락으로 스스로 먹고 컵으로 마실 수 있다. 낙서도 할 수 있다. 옹알이를 하며 ‘엄마’라고 말한다. 관심 있는 물건을 가리킨다. 키와 체중은 40백분위수이다. 신체검사에서 이상은 없다. 다음 중 가장 적절한 다음 단계는?
+18개월 남아가 영유아 건강검진을 위해 내원했다. 만삭으로 태어났고 지금까지 건강했다. 혼자 걷고 달릴 수 있다. 숟가락으로 스스로 먹고 컵으로 마실 수 있다. 낙서도 할 수 있다. 옹알이를 하며 ‘엄마’라고 말한다. 관심 있는 물건을 가리킨다. 키와 체중은 40백분위수이다. 신체검사에서 이상은 없다. 가장 적절한 다음 단계는?
 
 ## 선택지
 

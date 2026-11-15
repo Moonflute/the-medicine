@@ -19,7 +19,7 @@ question_type: mechanism
 related_disease_slugs:
   - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
 difficulty: simple
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-신생아가 소생술 후 신생아 중환자실로 이송되었다. 사지 변형, 낮은 귀, 납작한 코가 있고 임신 34주에 정기적인 산전 관리를 받은 건강한 산모에게서 태어났다. 소생술 중 산소화 유지가 어려웠고 적절한 처치에도 산소포화도를 유지하기 어렵다. 다음 중 이 환자의 증상을 일으킨 가장 가능성 높은 원인은 무엇인가?
+임신 후반부터 양수과소가 심했고 초음파에서 양쪽 신장이 크고 고에코였다. 출생한 아기는 납작한 코와 사지 변형, 교정하기 어려운 호흡부전을 보인다. 호흡부전이 생긴 원인은?
 
 ## 선택지
 
-A. 염색체 이상
-B. 신장 집합관의 낭성 확장
-C. 베타메타손 투여 실패
-D. PKD1 유전자 돌연변이
+A. 신장이 커져 신생아 기관지를 직접 막았다
+B. 신낭종 내용물이 기도로 흘러들어갔다
+C. 태아 소변 감소에 따른 양수과소로 폐가 저형성됐다
+D. 출생 뒤 수유 부족으로 폐포가 급성 붕괴했다
 
 ## 해설
 
-저위 귀·납작한 코·사지 변형과 교정하기 어려운 신생아 호흡부전은 양수과소에 따른 포터 연쇄의 폐저형성을 시사한다. 선택지 B의 집합관 낭성 확장은 상염색체 열성 다낭신 등 태아 신장 질환과 연결되며, 신기능 저하·태아 소변 감소로 양수가 줄어 폐 발달이 영향을 받을 수 있다. 신장 낭종이 단순히 폐를 직접 막는다는 뜻이 아니며 PKD1 관련 상염색체 우성 다낭신과 구분한다.
+태아 신기능이 떨어져 소변이 적으면 양수과소로 폐가 충분히 발달하지 못할 수 있다. 양측 고에코 신장 비대의 원인으로 상염색체 열성 다낭신 등도 고려한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. PKD1 유전자 돌연변이
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007571
+- https://www.ncbi.nlm.nih.gov/books/NBK1326/

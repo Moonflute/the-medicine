@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-44세 여자가 한 달 동안 피로와 연하곤란으로 내원했다. 피부건조, 모발 가늘어짐, 둥근 얼굴이 있고 제1형 당뇨병과 류마티스관절염이 있다. 목을 진찰하면 통증 없이 미만성 갑상샘 비대가 있다. 다음 중 추가 검사에서 예상되는 소견은?
+44세 여성이 피로와 추위불내성을 호소한다. 갑상선이 아프지 않게 미만성으로 커져 있고 TSH는 높으며 유리 T4는 낮다. 일차성 갑상선기능저하의 자가면역 원인을 평가할 검사는?
 
 ## 선택지
 
-A. 방사성 요오드 스캔에서 1 cm 국소 부위의 섭취 증가
-B. 방사성 요오드 스캔에서 미만성 섭취 증가
-C. 갑상샘 생검에서 칼시토닌 면역조직화학 염색 양성
-D. 혈청 항갑상샘과산화효소 항체 및 항티로글로불린 항체 양성
+A. TSH 수용체 항체
+B. 칼시토닌
+C. 갑상선글로불린 단독 측정
+D. 갑상선 과산화효소 항체
 
 ## 해설
 
 
-피부 건조, 모발 가늘어짐, 둥근 얼굴, 무증상 갑상선 비대는 하시모토 갑상선염의 전형적인 임상양상이다. 이 질환은 항갑상선 과산화효소(TPO)와 항티로글로불린(Tg) 항체가 양성으로 나타난다. 따라서 혈청 항갑상샘과산화효소 및 항티로글로불린 항체 양성이 예상된다.
+갑상선 과산화효소 항체는 하시모토 갑상선염을 지지한다. 항체만으로 현재 갑상선 기능을 판단하지 않고 TSH와 유리 T4를 함께 해석한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 혈청 항갑상샘과산화효소 항체 및 항티로글로불린 항체 �
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005080
+- https://ekjm.org/journal/view.php?number=25889

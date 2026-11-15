@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uHjO2VmOyImOyytCDsg5jsooUgKFBpdHVpdGFyeSBBZGVub21hKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZSE6528642ULeycjOumrCDspp3tm4TqtbAgKFByYWRlci1XaWxsaSBTeW5kcm9tZSkubWQ
   - MjAg67mE64eo6riw6rO8L-uwnOq4sOu2gOyghCAoRXJlY3RpbGUgRHlzZnVuY3Rpb24pLm1k
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-40세 남성이 5개월 동안 간헐적인 두통으로 내원했다. 양측 관자놀이가 아프고 아세트아미노펜으로 호전되지 않으며 복시를 포함한 시각장애가 있다. 오심, 온도불내성, 체중변화는 없고 창백해 보인다. 안과검사에서 양측 주변시야 저하가 있으며 조영 뇌 MRI에서 16×11×9 mm의 안장 내 종괴가 보인다. 추가 평가에서 다음 중 가장 가능성 높은 소견은?
+40세 남성의 뇌하수체 MRI에서 시신경교차를 누르는 17mm 비기능성 선종이 보인다. 정식 시야검사에서 진행하는 양귀쪽 시야결손이 확인됐고 호르몬 과다 소견은 없다. 다음 처치는?
 
 ## 선택지
 
-A. 유즙분비
-B. 거친 얼굴 특징
-C. 발기부전
-D. 복부 선조
+A. 1년 후 MRI만 반복한다
+B. 카베르골린을 먼저 시작한다
+C. 신경외과에 신속히 의뢰해 감압 수술을 검토한다
+D. 프리즘 안경만 처방하고 추적한다
 
 ## 해설
 
-Macroadenoma 크기의 뇌하수체 종괴가 시신경교차를 압박하여 양측 주변시야 저하를 설명한다. 정상 뇌하수체 압박에 따른 gonadotropin 결핍 또는 PRL 증가로 남성의 발기부전 C가 나타날 수 있다. 다만 MRI 크기·외형만으로 비기능성 adenoma를 확정할 수 없으므로 PRL과 전반적 뇌하수체 기능을 평가한다.
+비기능성 뇌하수체 선종이 시신경교차를 눌러 시야결손을 일으키면 감압 수술 평가가 필요하다. 프로락틴종과 달리 도파민 작용제가 일반적인 첫 조치는 아니다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ Macroadenoma 크기의 뇌하수체 종괴가 시신경교차를 압박하여 �
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003306
+- https://www.nature.com/articles/s41574-025-01134-8

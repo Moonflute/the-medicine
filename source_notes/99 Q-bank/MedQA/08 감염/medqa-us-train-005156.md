@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
 question_type: investigation
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강하던 25세 남자가 4일 전 발생한 통증 없는 음경의 단일 병변으로 내원했다. 여러 파트너와 성관계를 하고 콘돔 사용은 일관되지 않다. 생식기 진찰에서 음경 몸통에 얕고 압통 없는 단단한 궤양과 매끈한 바닥, 양측 무통성 서혜부 림프절병증이 있다. 진단 확인을 위한 가장 적절한 다음 검사는?
+며칠 전 생긴 통증 없는 단단한 생식기 궤양으로 내원했다. 이전 매독 치료력은 없다. 일차 매독이 의심될 때 국내 일반 진료에서 기본이 되는 혈청검사 조합은?
 
 ## 선택지
 
-A. 면봉 배양검사
-B. 신속 혈장 리진 검사
-C. 형광 트레포네마 항체 흡수검사
-D. 암시야 현미경검사
+A. 정량 RPR과 트레포네마 특이 항체검사
+B. 정량 RPR 단독
+C. 트레포네마 특이 항체검사 단독
+D. HIV 항원·항체 검사와 일반 세균배양
 
 ## 해설
 
 
-4일 된 무통성 경성 음경궤양은 초기 매독에 부합한다. 숙련 검사자가 신선한 병변 삼출물에서 암시야 현미경 D로 운동성 병원체를 직접 확인하면 조기 진단에 유용하며 이 시기에 혈청검사가 아직 음성일 수 있다. 다만 검체·시간·숙련도와 병기에 따라 민감도가 달라 모든 매독 검사의 절대 최민감 검사라고 할 수 없다. Nontreponemal/treponemal 혈청검사를 병행하고 추적한다.
+일반적인 혈청 진단은 비트레포네마 검사와 트레포네마 특이 검사를 함께 해석한다. 궤양이 시작된 직후에는 초기 혈청검사가 음성일 수 있어 의심이 높으면 추적 검사나 병변 특이 검사도 검토한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 암시야 현미경검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005156
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10925736/

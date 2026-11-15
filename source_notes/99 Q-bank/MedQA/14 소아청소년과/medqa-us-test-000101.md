@@ -13,11 +13,11 @@ related_diseases:
   - "ABO 부적합 용혈"
   - "신생아 황달"
   - "항-B 항체"
-question_type: mechanism
+question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2ZqeuLrCAoTmVvbmF0YWwgSmF1bmRpY2UpLm1k
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 2일 된 남아가 16시간 동안 피부와 공막이 노래져 내원했다. 임신 38주에 합병증 없는 질식분만으로 태어나 출생체중 3.1kg이다. 산모는 의료보험이 없어 산전관리를 받지 못했다. 4세 형은 겸상적혈구병이 있다. 진찰에서 황달, 약간의 복부팽창, 간 1cm 비대, 왼쪽 늑골연 바로 아래에서 만져지는 비장 끝이 있다. 혈색소 11 g/dL, 망상적혈구 9%, 백혈구 9,100/mm³, 혈소판 244,000/mm³이다. 산모 혈액형 O Rh 음성, 항-Rh 항체 역가 양성, 태아 혈액형 B Rh 음성이다. 총 빌리루빈 11.3 mg/dL, 직접 0.3 mg/dL이다. 다음 중 이 상태의 가장 가능성 높은 원인은?
+생후 16시간 신생아에게 황달과 빈혈이 생겼다. 간접 빌리루빈이 빠르게 오르고 망상적혈구가 증가했다. 산모는 O형 RhD 음성, 아이는 B형 RhD 음성이고 직접 항글로불린검사는 양성이다. 가장 가능성 높은 원인은?
 
 ## 선택지
 
-A. 적혈구 겸상화
-B. 항-D 항체
-C. 담도관 기형
-D. 항-B 항체
+A. RhD 부적합에 의한 용혈
+B. 적혈구 겸상화
+C. ABO 부적합에 의한 용혈
+D. 수유량 부족에 의한 빌리루빈 상승
 
 ## 해설
 
-O형 산모의 IgG 항-B 항체가 태반을 통과해 B형 영아 적혈구를 용혈시키는 ABO 부적합이 가장 적합하므로 D이다. 빈혈, 망상적혈구 증가와 간접 고빌리루빈혈증이 용혈을 뒷받침한다. 모체의 항-Rh 항체가 양성이어도 영아가 Rh(D) 음성이면 항-D가 표적으로 삼는 D항원이 없어 이 사례의 원인으로 적합하지 않다. 신생아기는 HbF 비율이 높아 겸상화가 이 시기 증상의 일반적인 설명이 아니며, 담도 기형의 담즙정체와도 빌리루빈 양상이 다르다.
+O형 산모의 IgG 항-B 항체가 태반을 통과해 B형 신생아의 적혈구를 용혈시킬 수 있다. 출생 24시간 안의 황달, 빈혈과 망상적혈구 증가가 단서다. 아이도 RhD 음성이므로 항-D가 이 용혈을 설명하지 못한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ O형 산모의 IgG 항-B 항체가 태반을 통과해 B형 영아 적혈구를 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000101
+- https://doi.org/10.1542/peds.2022-058859

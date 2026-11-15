@@ -19,7 +19,7 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -40,19 +40,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-40세 과체중 남자가 6개월 동안 식후에 생기는 속쓰림으로 내원했다. 흡연력 20갑년, 매일 저녁 와인 2잔을 마시며 연하곤란, 연하통, 체중감소, 흑변과 토혈은 없다. 지방과 매운 음식을 줄이고 금연했지만 증상이 지속된다. 다음 중 가장 적절한 다음 단계는?
+40세 남성이 식후 흉골 뒤가 쓰리고 신물이 올라온다고 한다. 생활습관을 바꿔도 계속되지만 연하곤란, 체중 감소, 출혈은 없다. 우선 시도할 약물 치료는?
 
 ## 선택지
 
-A. 상부위장관 내시경
-B. 오메프라졸
-C. 판토프라졸, 수크랄페이트와 아목시실린
-D. 라니티딘
+A. 위장관 운동촉진제 단독
+B. 표준 용량 양성자펌프억제제(PPI)
+C. 수크랄페이트 단독
+D. 헬리코박터 제균 항생제
 
 ## 해설
 
 
-증상은 위식도역류질환(GERD)으로, 경험적 치료로 PPI를 먼저 투여한다. 오메프라졸은 1차 치료제로 효과가 높으며, 추가 검사는 증상이 지속될 때 고려한다. 따라서 가장 적절한 다음 단계는 오메프라졸 투여이다.
+경고 증상 없이 전형적인 속쓰림과 산 역류가 있으면 경험적 산 억제 치료를 시도할 수 있다. 치료에도 호전되지 않거나 경고 증상이 생기면 추가 평가한다.
 
 ## 검수 근거
 
@@ -65,3 +65,4 @@ D. 라니티딘
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005336
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12780910/

@@ -15,11 +15,11 @@ related_diseases:
   - "골수증식성 신생물"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-ynhOyEsSDsoIHtmIjqtazspp3qsIDspp0gKFBWKSAoUG9seWN5dGhlbWlhIFZlcmEgKFBWKSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-53세 여성이 흐린 시야, 두통, 그리고 지난 몇 주 동안 여러 차례 발생한 코피 때문에 응급실에 왔다. 이 기간 동안 특히 아침에 출근 준비를 한 뒤 심해지는 전신 가려움도 있었다. 지난 6개월 동안 체중이 8kg (17.6lb) 감소했고 피로가 점점 심해졌다. 체온은 37.8°C (100.0°F), 맥박은 분당 80회, 호흡수는 분당 15회, 혈압은 158/90 mm Hg이다. 신체검사에서 비강 안에 병변이나 외상 흔적은 없다. 얼굴, 손바닥, 손발톱 바닥, 구강 점막 및 결막이 붉다. 복부검사에서 비장비대가 보인다. 헤모글로빈은 19 g/dL, 헤마토크릿은 58%, 혈소판은 450,000/μL, 에리트로포이에틴 수치는 정상보다 낮다. 말초혈액도말에서 적혈구 전구세포가 보인다. 이 환자 상태의 가장 가능성 높은 기저 원인은 무엇인가?
+53세 환자가 온수 샤워 뒤 가려움, 두통과 시야 흐림을 겪는다. 반복 검사에서 혈색소 19g/dL, 헤마토크릿 58%이고 혈청 에리트로포이에틴은 낮다. 진성 적혈구증가증을 평가할 분자검사는?
 
 ## 선택지
 
-A. 변이된 JAK2 유전자
-B. 두개내압 상승
-C. 거핵세포 증식
-D. 신세포암
+A. BCR::ABL1 융합검사
+B. PML::RARA 융합검사
+C. JAK2 V617F 변이 검사
+D. F8 유전자 검사
 
 ## 해설
 
 
-높은 헤모글로빈·혈소판·적혈구 전구세포와 낮은 EPO는 JAK2 변이를 동반한 진성 적혈구증가증을 시사한다. 따라서 변이된 JAK2 유전자가 가장 가능성 높은 원인이다.
+지속적인 적혈구 증가와 낮은 에리트로포이에틴은 진성 적혈구증가증을 의심하게 한다. 먼저 JAK2 V617F를 확인하고 음성이지만 의심되면 JAK2 엑손 12 등을 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 신세포암
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004397
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7820646/

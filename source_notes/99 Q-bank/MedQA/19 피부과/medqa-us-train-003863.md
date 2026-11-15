@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-q4sOyggCDshLjtj6zslZQgKEJhc2FsIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-72세 남성이 6개월간 커지는 눈꺼풀 병변으로 내원했다. 통증이나 가려움은 없었지만 1 cm 크기의 살색 결절과 말려 올라간 경계가 있었다. 면도 생검에서 기저세포암이 확인되었다. 다음 중 가장 적절한 치료는?
+72세 남성의 아래눈꺼풀 가장자리에 자란 1 cm 결절이 조직검사에서 기저세포암으로 확인됐다. 절제연을 정확히 확인하면서 눈꺼풀 조직을 최대한 보존할 치료는?
 
 ## 선택지
 
-A. 냉동치료
-B. 국소 항암화학요법
-C. 모스 미세도식 수술
-D. 레이저 절제
+A. 국소 이미퀴모드
+B. 냉동치료
+C. 레이저 기화술
+D. 모스 미세도식수술
 
 ## 해설
 
 
-눈꺼풀 기저세포암은 미세도식 수술(Mohs)로 가장 높은 완치율과 조직 보존을 제공한다. 냉동치료나 국소 화학요법은 재발 위험이 높다. 따라서 가장 적절한 치료는 Mohs 미세도식 수술이다.
+눈꺼풀은 기능 보존이 중요한 고위험 부위다. 모스 미세도식수술은 절제연의 종양 제거를 확인하면서 정상 조직 손실을 줄일 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003863
+- https://pubmed.ncbi.nlm.nih.gov/37604067/

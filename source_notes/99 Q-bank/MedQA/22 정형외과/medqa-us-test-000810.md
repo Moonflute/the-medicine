@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-qwkOyXvCDqtIDsoIjsl7wgKEluZmVjdGlvdXMgQXJ0aHJpdGlzKS5tZA
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 남아가 갑자기 시작된 극심한 오른쪽 무릎 통증으로 응급실에 왔다. 최근 외상은 없으며 관절은 붉고 부어 있고 뜨거웠다. 체온 39.1°C(102.4°F), 혈압 124/82 mmHg, 호흡 17회/분, 맥박 104회/분이었다. 관절을 촉진하면 압통과 관절낭 부종이 있었고 혈청 CRP와 프로칼시토닌이 증가했다. 활액 분석에서 가장 예상되는 소견은?
+16세 환자가 고열과 갑자기 붓고 아픈 무릎으로 내원했다. 수동 운동에도 통증이 심하다. 혈역학은 안정적이고 바로 검사할 수 있다. 화농성 관절염을 의심할 때 원인 확인을 위한 검사는?
 
 ## 선택지
 
-A. 백혈구 1,600/mm³, 호중구 비율 >25%, 점도 정상
-B. 백혈구 53,000/mm³, 호중구 비율 >75%, 점도 낮음
-C. 백혈구 160/mm³, 호중구 비율 <20%, 점도 높음
-D. 백혈구 2,400/mm³, 호중구 비율 <20%, 점도 낮음
+A. 관절천자 후 활액 그람염색·배양
+B. 혈청 요산 농도만 측정
+C. 무릎 단순촬영만 시행
+D. 혈청 류마티스인자만 측정
 
 ## 해설
 
-발열·심한 통증·열감·종창은 감염성 관절염을 의심하게 한다. 선지 중 높은 활액 백혈구와 호중구 우세, 낮은 점도를 보이는 B가 가장 적절하다. 점도 저하는 염증에 따른 hyaluronan의 분해·희석과 관련된다. 50,000/mm³ 미만이라고 감염을 배제하거나 그 이상이라고 단독 확진하지 않으며 그람염색·배양 등과 함께 판단한다.
+열을 동반한 급성 단관절염은 활액을 신속히 채취해 배양한다. 혈액배양도 얻고 항생제와 관절 배액을 계획한다. 상태가 불안정하면 검체 채취 때문에 치료를 지연하지 않는다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 백혈구 2,400/mm³, 호중구 비율 <20%, 점도 낮음
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000810
+- https://www.idsociety.org/practice-guideline/acute-bacterial-arthritis-in-pediatrics2/

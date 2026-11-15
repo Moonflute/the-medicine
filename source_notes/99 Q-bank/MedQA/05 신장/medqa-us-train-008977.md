@@ -15,9 +15,9 @@ related_diseases:
   - "oliguria"
 related_disease_slugs:
   - MDUg7Iug7J6lL-y9qe2Mpe2bhCDquInshLEg7L2p7YylIOyGkOyDgSAoUG9zdHJlbmFsIEFjdXRlIEtpZG5leSBJbmp1cnkpLm1k
-question_type: investigation
+question_type: management
 difficulty: complex
-answer: "C"
+answer: C
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -37,23 +37,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-58세 남성이 하루나 이틀 동안 소변을 보지 못하고 3시간 동안 심한 치골상부 통증이 있어 응급실에 내원했다. 체중은 84kg이다. 양성 전립선비대증으로 프라조신과 타다라필 치료 중이다. 혈압 180/100mmHg, 맥박 80회/분, 호흡수 23회/분, 체온 36.5°C(97.7°F)이다. 방광 스캔에서 소변 700mL가 보였고 폴리 카테터를 삽입해 배액했다. 입원 시와 8시간 후 검사에서 크레아티닌 1.4→1.6mg/dL, BUN 64→62mg/dL, 소변량 250→260mL였다. 신장내과 협진을 제안한 이유를 가장 잘 설명하는 것은 무엇인가?
+58세 남성의 방광 출구 폐색을 도뇨로 해소했다. 이후 3시간 연속 시간당 250~350mL의 소변이 나오고 갈증과 기립성 어지럼이 생겼다. 다음 처치는?
 
 ## 선택지
 
-A. 혈청 크레아티닌
-B. 혈청 BUN
-C. 소변량
-D. 추정 사구체여과율(eGFR)
+A. 폐색이 해결됐으므로 소변량 측정을 중단한다
+B. 퓨로세미드를 추가해 이뇨 속도를 높인다
+C. 소변량·체액·전해질을 가깝게 추적하며 필요량을 보충한다
+D. 소변량만으로 즉시 혈액투석을 시작한다
 
 ## 해설
 
-폐색을 해소한 뒤에도 소변량이 적으면 AKI를 평가한다. 원문의 체중 84kg에서 8시간 동안 260mL는 약 0.39mL/kg/h로, 6시간 이상 0.5mL/kg/h 미만이라는 소변량 기준에 해당한다. 단일 250mL라는 임의 기준이 아니며 급격히 변하는 신기능에서는 계산 eGFR만으로 중증도를 판단하지 않는다. 실제 배액·측정 시간과 도뇨관 개통 상태도 확인한다.
+폐색을 해소한 뒤 지속되는 다뇨는 탈수와 전해질 손실을 일으킬 수 있다. 소변량, 혈압, 신기능과 전해질을 확인하면서 과하지 않게 손실을 보충한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008977
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9846865/
 
 ## 오답 포인트
 

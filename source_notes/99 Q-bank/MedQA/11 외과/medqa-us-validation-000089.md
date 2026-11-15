@@ -17,7 +17,7 @@ related_diseases:
 related_disease_slugs: []
 question_type: management
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-24세 남성이 일주일간 엉덩이 위쪽의 통증성 부종으로 진료를 받으러 왔다. 오래 앉기 어렵다. 폐쇄수면무호흡과 제2형 당뇨병이 있고 metformin만 복용한다. 키175cm, 체중114kg, BMI37kg/m²이며 불안해 보인다. 맥박96회/분, 혈압124/86 mmHg이고 얼굴에 여드름이 보인다. 체온 38.1°C(100.6°F), 엉덩이 주름 위에 따뜻하고 홍반성인 압통성 낭종이 있었다. 가장 적절한 처치는?
+24세 남성이 앉기 힘들 정도로 엉덩이 사이 위쪽이 아프다. 정중선에 작은 개구부와 홍반을 동반한 파동성 부종이 있다. 항문 주변에는 이상이 없다. 급성 모소낭 농양에서 우선 할 처치는?
 
 ## 선택지
 
-A. 미골절제술
-B. 절개 및 배농
-C. 레티노이드 치료
-D. 수술적 절제와 일차 상처 봉합
+A. 절개 및 배농
+B. 항생제만 처방하고 배농은 하지 않는다
+C. 급성 염증 상태에서 광범위 절제와 정중선 일차 봉합
+D. 항문 괄약근 절개
 
 ## 해설
 
 
-피부에 발생한 따뜻하고 통증성 홍반성 낭종은 모소동(피부 농양)이며, 절개 및 배농이 표준 치료이다. 따라서 가장 적절한 처치는 절개 및 배농이다.
+급성 모소낭 농양은 우선 절개·배농한다. 감염 범위에 따라 항생제를 추가할 수 있으며 재발이나 지속되는 모소동에 대한 근본 치료는 급성 염증이 가라앉은 뒤 논의한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 수술적 절제와 일차 상처 봉합
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000089
+- https://doi.org/10.1093/bjs/znae237

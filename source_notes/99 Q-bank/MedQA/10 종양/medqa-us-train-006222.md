@@ -15,9 +15,9 @@ related_diseases:
   - "유관 확장"
 related_disease_slugs:
   - MTMg67aA7J246rO8L-q0gOuCtCDsnKDrkZDsooUgKEludHJhZHVjdGFsIFBhcGlsbG9tYSkubWQ
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-41세 여성이 3개월 동안 지속된 우측 유두 출혈로 내원했다. 다른 유방은 출혈이 없고 월경은 규칙적이다. 어머니는 53세에 유방암으로 사망했다. 흡연과 음주는 하지 않으며 활력징후와 심폐 및 복부검사는 정상이다. 우측 유방을 누르면 만져지는 종괴 없이 출혈이 있고 액와 림프절병증은 없다. 초음파에서 잘 경계된 단일 종괴를 둘러싼 확장된 유관이 보인다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+42세 환자에게 한쪽 유두의 한 개 유관에서 저절로 혈성 분비물이 나온다. 눌러야만 나오는 분비물은 아니고 만져지는 종괴는 없다. 처음 시행할 유방 영상검사는?
 
 ## 선택지
 
-A. 침윤성 유관암
-B. 유방 파제트병
-C. 유두상 암종
-D. 유관내 유두종
+A. 증상이 있어도 다음 국가검진 때까지 기다린다
+B. 진단용 유방촬영과 해당 부위 표적 초음파
+C. 유방 MRI만 먼저 시행한다
+D. 비조영 흉부 CT로 유관을 평가한다
 
 ## 해설
 
 
-일측 혈성 유두분비와 확장된 유관 안의 경계가 좋은 단일 종괴는 유관내 유두종 D가 가장 전형적이다. 종괴가 확장된 유관을 둘러싼다는 뜻은 아니다. 유두종은 대개 양성이지만 이 소견만으로 악성이나 비정형 병변을 완전히 배제할 수 없어 영상·조직 일치성에 맞춰 평가한다.
+한쪽 단일 유관의 자발성 혈성 분비물은 평가가 필요한 소견이다. 40세 이상에서 진단용 유방촬영과 표적 초음파로 유관내 유두종 등 양성·악성 원인을 확인한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 유관내 유두종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006222
+- https://pubmed.ncbi.nlm.nih.gov/36436958/

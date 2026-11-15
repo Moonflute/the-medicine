@@ -13,11 +13,11 @@ related_diseases:
   - "봉와직염"
   - "족부백선"
   - "피부 세균감염"
-question_type: risk_factor
+question_type: prevention
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-uwseyEoCAoVGluZWEpLm1k
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-72세 여성이 3일 동안 지속된 오른쪽 다리의 발적과 부종, 발열로 내원했다. 다리가 매우 아프고 발적 부위가 넓어졌다고 한다. 아파 보인다. 체온은 39.3°C (102.7°F), 맥박은 분당 103회, 혈압은 138/90 mm Hg이다. 심폐 진찰은 정상이다. 오른쪽 앞쪽 하퇴에 광범위한 홍반과 부종이 있고 따뜻하며 만지면 압통이 있다. 종아리를 눌러도 압통은 없다. 오른쪽 서혜부 림프절이 부어 있고 양쪽 발 맥박은 만져진다. 이 환자 상태의 가장 강한 소인 요인은 무엇인가?
+72세 환자의 한쪽 하퇴 봉와직염이 여러 차례 재발했다. 급성 감염은 호전됐지만 발가락 사이가 하얗게 짓무르고 갈라져 있다. 재발 예방을 위해 함께 할 조치는?
 
 ## 선택지
 
-A. 류마티스 관절염
-B. 그레이브스병
-C. 흡연
-D. 족부백선
+A. 족부백선을 치료하고 발가락 사이 피부를 건조하게 관리한다
+B. 재발 예방을 위해 발가락 사이를 밀폐 드레싱한다
+C. 발 피부는 그대로 두고 남은 항생제만 반복 복용한다
+D. 양쪽 발에 강한 국소 스테로이드를 단독 사용한다
 
 ## 해설
 
-발의 백선(tinea pedis, D), 특히 발가락 사이의 짓무름·균열은 피부장벽을 손상시키고 세균의 침입구가 되어 하지 봉와직염 위험을 높인다. 발톱 진균증(onychomycosis)과 발 피부 백선은 같은 용어가 아니다. 이 사례의 국소 발적·열감·압통과 발열은 봉와직염에 부합하지만 그 자체가 혈류감염이 확인되었다는 뜻은 아니다.
+발가락 사이 짓무름과 균열은 피부 장벽을 손상시켜 봉와직염의 침입구가 된다. 백선·균열 및 부종 등 수정 가능한 위험을 함께 관리한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 족부백선
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004763
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5754343/

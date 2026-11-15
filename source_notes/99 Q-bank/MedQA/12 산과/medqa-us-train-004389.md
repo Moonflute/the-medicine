@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JeQ65Oc7JuM65OcIOymne2bhOq1sCAoRWR3YXJkcyBTeW5kcm9tZSkubWQ
 difficulty: simple
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,28 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-34세 임신 2회, 출산 1회의 여성이 임신 16주에 산전 진료를 받으러 왔다. 임신 과정은 순조로웠다. 매일 복용하는 산전 비타민 외에는 약을 복용하지 않으며 정기 산전 진료도 잘 지켰다. 건강한 7세 딸이 있다. 최근 사중 선별검사 결과는 다음과 같다.
-
-AFP: 낮음
-hCG: 낮음
-에스트리올: 낮음
-인히빈-A: 정상
-
-진단을 확인하기 위한 다음 단계로 가장 적절한 것은 무엇인가?
+임신 16주 산모의 혈청 선별검사에서 18번 삼염색체 고위험 결과가 나왔다. 유전상담 후 선별을 반복하지 않고 염색체 확진을 원한다. 현재 주수에 적절한 검사는?
 
 ## 선택지
 
-A. 양수천자
-B. 융모막융모생검
-C. 4주 후 외래 재방문
-D. 목덜미 투명대 초음파
+A. 목덜미 투명대 검사 반복
+B. 양수천자를 통한 태아 염색체 검사
+C. 모체 혈액 세포유리 DNA 검사만 시행
+D. 임신 3삼분기까지 기다렸다가 융모막융모검사
 
 ## 해설
 
 
-AFP·hCG·에스트리올이 모두 낮은 경우는 염색체 이상(에드워드 증후군) 의심되며, 확진을 위해 양수천자를 시행한다. 따라서 양수천자가 다음 단계이다.
+양수천자는 대개 15주 이후에 할 수 있는 진단검사다. 혈청 검사나 세포유리 DNA 검사의 고위험 결과만으로 염색체 이상을 확진하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004389
+- https://pubmed.ncbi.nlm.nih.gov/33496085/

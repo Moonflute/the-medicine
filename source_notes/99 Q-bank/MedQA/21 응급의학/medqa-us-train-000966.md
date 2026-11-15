@@ -12,11 +12,11 @@ specialty: 21 응급의학
 related_diseases:
   - "caustic ingestion"
   - "chemical burn"
-question_type: management
+question_type: investigation
 related_disease_slugs:
   - MTEg7Jm46rO8L-2ZlO2VmeusvOyniO2ZlOyDgSAoQ2hlbWljYWwgQnVybikubWQ
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-3세 남아가 변기 세정제 한 병을 마신 후 1시간 동안 지속된 복통으로 어머니와 함께 응급실에 내원했다. 어머니는 아이가 병원으로 오는 길에 한 번 구토를 했으며 구토물에 혈액은 섞여 있지 않았다고 보고했다. 환아는 연하통(pain with swallowing)을 호소한다. 환아는 불편해 보인다. 맥박 산소포화도 측정 결과 산소포화도는 82%이다. 진찰 결과 심한 타액 분비가 관찰된다. 구강 검사상 경미한 구강 홍반과 후두개(epiglottis) 부위의 홍반이 관찰되나 화상은 없다. 흉부 X-선 검사상 이상 소견은 없다. 환아는 중환자실에 입원했다. 기관 삽관이 시행되었고 산소 공급과 정맥 수액 소생술이 시작되었다. 오염된 옷은 모두 제거되었다. 이 환아의 치료를 위한 다음 단계로 가장 적절한 것은 무엇인가?
+3세 남아가 부식성 세정제를 삼킨 뒤 침을 많이 흘리고 물도 삼키기 아파한다. 기도와 순환은 안정화했고 천공을 의심할 소견은 없다. 식도와 위 손상을 평가할 검사는?
 
 ## 선택지
 
-A. 상부 위장관 내시경 검사 시행
-B. 위 세척 시행
-C. 바륨 상부 위장관 조영술 시행
-D. 활성탄 투여
+A. 단순 복부촬영만 반복
+B. 활성탄 투여 뒤 증상 확인
+C. 위세척 뒤 세척액 검사
+D. 조기 상부위장관 내시경
 
 ## 해설
 
-부식성 세정제 섭취 후 연하통·침흘림·구토·저산소증이 있어 기도를 먼저 확보하고 안정화한 뒤 상부 위장관 내시경(A)으로 손상 정도를 평가한다. 증상성 환자에서는 일반적으로 섭취 후 12–24시간 내 평가를 고려한다. 구강 화상이 보이지 않아도 식도·위 손상은 배제되지 않는다. 위세척·구토 유도·활성탄은 부식제 손상을 평가·치료하는 적절한 대안이 아니다. 천공 등 금기가 의심되면 내시경 전 별도 평가가 필요하다.
+부식성 물질을 삼킨 뒤 연하통과 침 흘림이 있으면 입안 화상이 뚜렷하지 않아도 손상을 배제할 수 없다. 안정화한 뒤 보통 24시간 안에 내시경으로 평가한다. 구토 유도와 위세척은 피한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 활성탄 투여
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000966
+- https://doi.org/10.1097/mpg.0000000000001408

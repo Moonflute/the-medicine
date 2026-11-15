@@ -19,7 +19,7 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-출생 5주 후, 체중 1,350g(3파운드 0온스)인 남아 신생아가 호흡곤란을 보인다. 임신 26주에 태어났고 출생 후 한 달 동안 삽관과 기계환기가 필요했으며, 5일째 비침습적 양압환기를 받고 있다. 체온 36.8°C(98.2°F), 맥박 148회/분, 호흡수 63회/분, 혈압 60/32mmHg이다. 산소 40%에서 산소포화도 91%이며 중등도의 늑간 및 늑골하 함몰이 있다. 흉부에 산재한 수포음이 들리고 흉부 X선에서 미만성 과립상 음영과 기저부 무기폐가 보인다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+재태 26주에 태어난 남아가 출생 후 한 달 동안 기계환기를 받았다. 감염이나 새로운 심장 이상은 없지만 월경후연령 36주가 된 지금도 비강 지속적 양압과 산소가 필요하다. 미숙아의 지속적인 호흡 보조 필요를 가장 잘 설명하는 것은?
 
 ## 선택지
 
-A. 기관연화증
+A. 신생아 일과성 빈호흡
 B. 기관지폐이형성증
-C. 간질성 폐기종
-D. 폐쇄성 세기관지염
+C. 급성 세기관지염
+D. 태변흡인증후군
 
 ## 해설
 
 
-미숙아에서 장기간 기계환기 후 나타나는 폐질환은 기관지폐이형성증(브론코폐이형성증)이며, 특징적인 흉부 청진음과 X‑ray 소견이 일치한다. 따라서 가장 가능성 높은 진단은 기관지폐이형성증이다.
+극소 미숙아가 월경후연령 36주에도 호흡 보조가 필요하면 기관지폐이형성증을 고려한다. 신생아 초기의 일과성 호흡곤란보다는 오래 지속되는 경과가 결정적인 단서다. 이 시점의 호흡 보조 방식은 중증도 분류에도 사용된다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 폐쇄성 세기관지염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008738
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8692520/

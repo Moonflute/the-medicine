@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTEg7Jm46rO8L-qwiOu5hOu8iCDqs6jsoIggKFJpYiBGcmFjdHVyZSkubWQ
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-60세 남성이 콘크리트 블록에 왼쪽 옆구리를 부딪혀 넘어지고 25분 후 응급실에 왔다. 심한 왼쪽 흉통과 가벼운 호흡곤란이 있다. 제2형 당뇨병과 42갑년 흡연력이 있다. 체온 37.5°C, 맥박 102회/분, 호흡수 17회/분, 혈압 132/90 mmHg, 산소포화도 96%이다. 왼쪽 옆구리와 몸통에 찰과상, 상부 왼쪽 흉벽 압통과 뼈 마찰음, 양측 폐기저부 호흡음 감소가 있다. 외상 초음파는 음성이고 흉부 X선에서 전위 없는 왼쪽 4·5번 갈비뼈 골절과 깨끗한 폐야가 보인다. 다음 중 가장 적절한 관리 단계는?
+60세 남성의 흉부 X선에 어긋나지 않은 갈비뼈 골절 두 개가 있다. 기흉·혈흉은 없고 산소포화도는 정상이다. 통증 때문에 깊게 숨 쉬기 어렵다. 초기 관리는?
 
 ## 선택지
 
-A. 지속적 양압환기
-B. 중환자실 입원 및 감시
-C. 적절한 진통과 보존적 치료
-D. 내부 고정술
+A. 흉곽을 단단히 감아 움직이지 않게 한다
+B. 모든 경우에 갈비뼈 고정술을 한다
+C. 호흡이 편해질 때까지 금식만 한다
+D. 충분히 진통하고 심호흡과 기침을 돕는다
 
 ## 해설
 
-안정된 산소화와 전위 없는 4·5번 두 갈비뼈 골절에는 적절한 진통·폐위생·호흡 관찰을 포함하는 보존적 치료(C)가 적합하다. 통증, 기저질환과 호흡기능 악화에 따라 입원 수준을 조정한다. 이 본문만으로 CPAP나 내부 고정을 우선할 근거는 없다.
+고립성 비전위 갈비뼈 골절에서는 진통과 호흡 운동으로 무기폐와 폐 합병증을 줄인다. 기저 폐질환과 호흡 상태에 따라 입원이나 더 강한 진통이 필요한지 평가한다.
 
 ## 검수 근거
 

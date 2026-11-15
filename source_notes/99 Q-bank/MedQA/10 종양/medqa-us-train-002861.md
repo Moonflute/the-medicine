@@ -16,11 +16,11 @@ related_diseases:
   - "tobacco and alcohol risk"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si53rj4TslZQgKEVzb3BoYWdlYWwgQ2FuY2VyKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: simple
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-67세 남성이 불안과 삼킴곤란으로 응급실에 내원했다. 증상이 지난 1년 동안 서서히 악화되었고 이제는 액체도 삼키기 어렵다. 최근 독감에서 회복되었다. 계통문진에서 최근 체중감소 외에는 특이사항이 없다. 33갑년 흡연력과 과거 알코올중독 병력이 있다. 진찰에서 치아 위생이 불량하고 입 냄새가 심하다. 다음 중 가장 가능성 높은 진단은?
+67세 남성이 고형식부터 시작한 연하곤란이 점점 심해져 물도 삼키기 어렵고 최근 체중이 줄었다. 타액은 삼킬 수 있고 활력징후는 안정적이다. 원인 확인을 위해 우선 시행할 검사는?
 
 ## 선택지
 
-A. 식도이완불능증
-B. 인두구 환각
-C. 편평세포암
-D. 젠커 게실
+A. 식도내압검사
+B. 상부위장관 내시경 및 의심 병변 조직검사
+C. 24시간 식도 산도검사
+D. 비디오투시 연하검사
 
 ## 해설
 
 
-점진적인 삼킴곤란, 체중 감소, 흡연·음주 병력, 구강 위생 불량, 구취는 식도암, 특히 편평세포암을 시사한다. 식도 편평세포암은 연하곤란과 체중 감소를 동반하며 위험 요인이 일치한다. 다른 선택지는 해당 증상과 부합하지 않는다.
+고형식에서 액체로 진행하는 연하곤란과 체중 감소는 식도 폐색성 병변의 경고 신호다. 내시경으로 내강을 확인하고 의심 병변에서 조직을 얻는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 젠커 게실
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002861
+- https://www.asge.org/home/resources/publications/guidelines/appropriate-use-of-gi-endoscopy

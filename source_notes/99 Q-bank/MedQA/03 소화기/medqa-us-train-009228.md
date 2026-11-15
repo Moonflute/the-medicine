@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC9QVUQubWQ
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_si63snbTsp4DsnqUg6rak7JaRIChEdW9kZW5hbCBVbGNlcikubWQ
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-55세 여성이 한 달 동안 반복되는 복부 불편감과 통증으로 내원했다. 통증은 식후 2~3시간, 보통 자정에 발생하며 발생 시 중등도에서 중증이다. 항상 피곤하다고도 한다. 과거력은 특이사항이 없다. 사무직 비서로 일하며 최근 업무 스트레스가 매우 심하다고 한다. 체온 98.6°F(37.0°C), 호흡수 15회/분, 맥박 67회/분, 혈압 122/98 mmHg, BMI 34이다. 결막 창백과 경미한 상복부 압통이 있다. 혈색소 10 g/dL, 백혈구 11,000/mm³(호중구 70%, 림프구 25%, 단핵구 5%), ESR 10 mm/시간이다. 가장 가능성 높은 진단은 무엇인가?
+55세 여성이 무릎 통증으로 나프록센을 매일 먹던 중 명치 통증이 생겼다. 내시경에서 출혈 소견이 없는 십이지장 궤양이 확인됐다. PPI·항생제를 쓰기 전 헬리코박터 검사는 음성이고 나프록센을 계속 써야 할 이유는 없다. 어떤 치료가 적절한가?
 
 ## 선택지
 
-A. 급성 담낭염
-B. 총담관결석
-C. 십이지장 소화성 궤양
-D. 담낭암
+A. 나프록센을 그대로 두고 제산제만 복용
+B. 나프록센을 다른 비선택적 NSAID로 바꾸고 궤양 치료 없이 관찰
+C. 나프록센을 중단하고 PPI로 궤양 치료
+D. 헬리코박터 치료만 하고 나프록센은 계속 복용
 
 ## 해설
 
 
-십이지장 궤양은 식후 2~3시간에 통증이 발생하고, 밤에 악화되는 특징이 있다. 환자는 스트레스와 비만, 상복부 압통을 동반했으며, 빈혈도 나타나 궤양 출혈을 시사한다. 따라서 가장 가능성 높은 진단은 십이지장 소화성 궤양이다. (급성 담낭염은 발열과 오른쪽 상복부 압통을 동반하고, 총담관결석은 황달을 유발한다.)
+NSAID 관련 궤양에서는 가능한 한 원인 약을 중단하고 PPI로 치유를 돕는다. 헬리코박터가 확인되지 않았다면 제균 항생제를 일률적으로 추가하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 담낭암
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009228
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7667931/

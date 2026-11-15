@@ -19,7 +19,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkCDtjrjtj4nsg4HtlLzslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
   - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-54세 여성이 6년간 지속된 왼쪽 발목 궤양으로 내원했다. 여러 차례 생겼다가 상처관리로 호전되었으며 현재 왼쪽 안쪽 복사뼈 위에 7.5 cm 크기의 궤양, 융기되고 딱딱한 가장자리, 괴사성 바닥, 하지 정맥류, 양측 2+ 부종, 피부 과색소침착이 있다. 다음 중 현재 상태의 가장 적절한 치료의 다음 단계는?
+54세 여성의 안쪽 복사뼈 위 정맥성 궤양이 수년간 반복됐다. 최근 상처 치료에도 커지고 가장자리가 단단하게 솟아오른다. 악성 변화를 확인하기 위한 다음 단계는?
 
 ## 선택지
 
-A. 왼쪽 다리 CT
-B. 퍼테스 검사
-C. 트렌델렌버그 검사
-D. 펀치 생검
+A. 압박요법만 강화한다
+B. 접촉 알레르겐 첩포검사를 한다
+C. 궤양의 의심스러운 가장자리를 조직생검한다
+D. 표면 세균배양만 시행한다
 
 ## 해설
 
-정답은 D, 펀치 생검이다. 정맥류·부종·과색소침착은 만성 정맥질환을 지지하지만, 오래 지속된 궤양에 융기되고 딱딱한 가장자리와 괴사성 바닥이 있으면 편평세포암 등 악성 병변을 배제해야 한다. 의심 부위의 적절한 깊이와 위치에서 조직을 채취하며 병변에 따라 여러 표본이나 다른 생검 방식이 필요할 수 있다. 펀치 생검이 모든 만성 궤양에서 가장 정확하거나 한 번의 음성 결과가 악성을 완전히 배제한다는 의미는 아니다.
+오래된 궤양이 갑자기 커지거나 단단히 융기하면 만성 염증 병변에서 생긴 편평세포암을 배제해야 한다. 의심 부위에서 충분한 깊이의 조직을 채취한다.
 
 ## 검수 근거
 

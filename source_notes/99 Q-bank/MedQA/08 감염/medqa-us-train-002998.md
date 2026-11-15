@@ -20,7 +20,7 @@ question_type: prevention
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-항결핵 치료를 시작한 환자가 2개월 후 추적 진료를 받으러 왔다. 상태는 좋지만 6일 동안 발과 발목의 저림과 양측성 무감각이 있었다. 입술은 건조하고 비늘이 있으며 약간 부어 있다. 신경학적 검사에서 발, 발목, 종아리 원위부의 통각과 가벼운 촉각이 감소했다. 혈색소 10.8 g/dL, 평균적혈구용적 78 fL, ALT 44 U/L, AST 52 U/L이다. 다음 중 무엇을 투여했다면 신경학적 증상을 예방할 수 있었을 가능성이 가장 높은가?
+당뇨병과 영양부족이 있는 환자에게 이소니아지드를 포함한 결핵치료를 시작한다. 이 약과 관련된 말초신경병증 위험을 줄이기 위해 보충할 약제는?
 
 ## 선택지
 
-A. 비타민 B12
-B. 비타민 E
+A. 엽산
+B. 티아민
 C. 피리독신
-D. 철분
+D. 시아노코발라민
 
 ## 해설
 
 
-이소니아지드 치료는 비타민 B6(피리독신) 결핍으로 말초신경병증을 일으키므로, 치료 시작 시 피리독신을 보충하면 예방 가능하다. 다른 비타민이나 철분은 이 부작용 예방에 효과가 없다.
+이소니아지드는 피리독신 대사를 방해해 말초신경병증을 일으킬 수 있다. 당뇨병·영양불량 등 위험이 있는 환자의 치료에는 피리독신을 함께 사용한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 철분
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002998
+- https://www.kdca.go.kr/kdca/2861/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjU1JTJGMjI4MTc4JTJGYXJ0Y2xWaWV3LmRvJTNG

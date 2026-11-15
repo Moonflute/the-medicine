@@ -17,7 +17,7 @@ related_diseases:
 related_disease_slugs:
   - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
   - MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-42세 여성이 24시간 동안 두 차례 객혈을 보였다. 6개월간 심한 부비동염과 피가 섞인 콧물이 있었고, 결막 충혈과 비중격 궤양이 보였다. 소변에서 혈뇨, 단백뇨, 이형 적혈구와 많은 적혈구 원주가 관찰되었다. 다음 중 가장 가능성 높은 항체는?
+다발혈관염 동반 육아종증이 확인된 42세 환자가 폐포출혈과 빠르게 악화하는 사구체신염으로 입원했다. 주요 감염을 평가하고 장기 위협 혈관염의 관해 유도를 시작하려 한다. 적절한 치료는?
 
 ## 선택지
 
-A. 항CCP 항체
-B. 항사구체기저막 항체
-C. 항골수세포형과산화효소 항체
-D. 항단백분해효소3 항호중구세포질항체
+A. 저용량 메토트렉세이트 단독
+B. 아자티오프린 단독
+C. 혈장교환만 먼저 수 주간 시행
+D. 글루코코르티코이드와 리툭시맙 또는 사이클로포스파미드 병용
 
 ## 해설
 
 
-반복 부비동염·혈성 비루·비중격 궤양에 객혈과 이형 적혈구/적혈구 원주를 동반한 사구체신염이 있어 GPA를 강하게 시사한다. 선택지 중 PR3-ANCA(D)가 가장 잘 연관된다. anti-GBM 병은 폐-신장 증후군을 일으킬 수 있으나 육아종성 상기도 병변을 잘 설명하지 못한다. ANCA는 임상상과 함께 해석하며 항체만으로 진단을 확정하지 않는다.
+폐포출혈과 급속진행성 사구체신염을 동반한 ANCA 연관 혈관염은 즉각적인 관해 유도가 필요하다. 리툭시맙 또는 사이클로포스파미드를 글루코코르티코이드와 병용하며 추가 치료는 중증도에 따라 결정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 항단백분해효소3 항호중구세포질항체
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003608
+- https://kdigo.org/guidelines/anca-associated-vasculitis/

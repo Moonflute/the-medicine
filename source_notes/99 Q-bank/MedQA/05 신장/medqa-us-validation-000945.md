@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-yaqe2YiOyEsSDsmpTrj4Ug7Kad7ZuE6rWwIChIZW1vbHl0aWMgVXJlbWljIFN5bmRyb21lLCBIVVMpLm1k
   - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,24 +37,25 @@ medical_review_status: "content-reviewed"
 
 ## 문제
 
-10세 남아가 며칠간의 발열과 혈성 설사로 진료를 받으러 왔다. 점점 무기력하고 과민해졌으며 양쪽 다리에 창백함과 부종이 있다. 혈색소 8.9 g/dL, 혈소판 67,000/mm³, BUN 43 mg/dL, 크레아티닌 2.46 mg/dL이고 쿰스검사는 음성이다. 가장 가능성 높은 진단은?
+10세 남아가 혈성 설사를 앓은 뒤 창백해지고 소변량이 줄었다. 혈소판 6.7만/μL, 크레아티닌 2.5 mg/dL이고 말초혈액에서 분열 적혈구가 보인다. 설사와 연관된 용혈성요독증후군의 원인을 확인할 검사는?
 
 ## 선택지
 
-A. 혈전성 혈소판감소성 자반증
-B. 유전성 용혈성 요독 증후군
-C. 전신질환과 연관된 용혈성 요독 증후군
-D. 대장균 감염에 의한 용혈성 요독 증후군
+A. 혈청 항사구체기저막 항체
+B. 소변 배양
+C. 인두 연쇄상구균 신속 검사
+D. 대변의 시가독소 또는 독소 유전자 검사와 배양
 
 ## 해설
 
 
-혈성 설사와 급성 신부전, 혈소판 감소, 빈혈이 동반된 경우는 시가독소를 생산하는 대장균 감염에 의한 용혈성 요독 증후군이 가장 흔하다. 이러한 병태는 용혈성 빈혈·미세혈전·신장 손상을 초래한다. 따라서 정답은 D이다.
+혈성 설사 뒤 미세혈관병성 용혈성 빈혈, 혈소판 감소, 급성 신손상이 함께 나타나면 시가독소 연관 용혈성요독증후군이 의심된다. 대변 검사와 함께 체액·전해질·신기능을 면밀히 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000945
+- https://www.cdc.gov/ecoli/hcp/guidance/index.html
 
 ## 검수 근거
 

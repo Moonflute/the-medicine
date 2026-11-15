@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yEuOq0gOyCrOydtOyniCDsvantjKXsl7wgKFR1YnVsb2ludGVyc3RpdGlhbCBOZXBocml0aXMpLm1k
 question_type: management
 difficulty: complex
-answer: "B"
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -41,23 +41,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-57세 여성이 발열, 피부 발진, 옆구리 통증으로 일차진료의에게 다시 내원했다. 2주 전 인후통으로 방문해 인두염을 진단받고 페녹시메틸페니실린 10일 처방을 받았으며 현재 6일째 복용 중이다. 증상은 어제 시작되었다. 과거력으로 제2형 당뇨병, 본태성 고혈압, 위식도 역류병이 있고 메트포르민, 캅토프릴, 히드로클로로티아지드, 판토프라졸, 종합비타민을 복용한다. 체온 38.0°C, 혈압 147/95 mmHg, 맥박 분당 82회이다. 상체에 성긴 반구진 발진이 있다. 백혈구 9,500/mm³(호중구 54%, 띠호중구 4%, 호산구 8%, 호염기구 0.5%, 림프구 30%, 단핵구 4%), BUN 25 mg/dL, 크레아티닌 2 mg/dL이다. 요검사에서 고배율 시야당 백혈구 27개, 적혈구 5개가 보이고 72시간 후 소변배양은 자라지 않았다. Wright 염색 요침사에서 호산구가 4.5%이다. 다음 중 이 상태의 가장 적절한 초기 처치는?
+57세 여성이 새 베타락탐 항생제를 복용한 지 7일 뒤 발열과 반구진 발진이 생겼다. 크레아티닌이 0.8에서 2.0 mg/dL로 상승했고 농뇨가 있으나 소변배양은 음성이다. 약물 유발 급성 간질성 신염이 의심된다. 우선 조치는?
 
 ## 선택지
 
-A. 단기간 프레드니솔론
-B. 유발 약물 중단
-C. 신장 생검
-D. 보존적 투석
+A. 항생제를 유지하고 프레드니솔론만 추가한다
+B. 의심 항생제를 중단하고 신기능과 전해질을 추적한다
+C. 소변 호산구 결과가 나올 때까지 같은 약을 유지한다
+D. 급성 신손상만으로 즉시 투석한다
 
 ## 해설
 
-새 항생제 노출 뒤 발열·발진·AKI와 무균 농뇨는 약물 유발 AIN을 지지한다. 초기 조치는 유발 의심 약물을 중단하고 신기능과 전해질을 추적하는 것이다. PPI 등 다른 원인 약물도 검토한다. 호산구뇨가 단독 확진은 아니며 회복하지 않거나 진단이 불명확하면 생검·추가 치료를 검토한다.
+의심 약을 조기에 중단하는 것이 우선이다. 호산구뇨 유무만으로 확진하거나 배제할 수 없고, 신기능이 회복되지 않거나 진단이 불명확하면 생검 및 추가 치료를 검토한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010013
+- https://www.ncbi.nlm.nih.gov/books/NBK482323/
 
 ## 오답 포인트
 

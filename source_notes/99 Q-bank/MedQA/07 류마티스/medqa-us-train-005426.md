@@ -15,7 +15,7 @@ related_diseases:
   - "항CCP 항체"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
-question_type: investigation
+question_type: diagnosis
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-46세 여자가 4개월 동안 기면과 15년간의 관절통으로 내원했다. 양쪽 팔꿈치에 압통 없는 피하결절, 손가락의 백조목 변형, 간 span은6cm이고 비장 끝이 왼쪽 늑골 아래4cm에서 만져진다. 백혈구 1,800/mm³, 혈소판 130,000/mm³이며 다음 중 이 상태에 가장 특이적인 항체는?
+15년간 류마티스관절염이 있는 46세 여성에게 반복 감염이 생겼다. 비장이 커져 있고 절대호중구 수는 600/μL다. 최근 약 변경은 없고 약물 또는 혈액암에 대한 평가도 진행 중이다. 이 세 소견이 모이는 합병증은?
 
 ## 선택지
 
-A. 항CCP 항체
-B. 항Sm 항체
-C. 류마티스인자
-D. 항U1-RNP 항체
+A. 펠티 증후군
+B. 쇼그렌증후군
+C. 항인지질증후군
+D. 스틸병
 
 ## 해설
 
 
-오래된 관절염·류마티스결절·백조목변형은 RA를 지지하며 선택지 중 anti-CCP(A)가 가장 특이적이다. 비장비대와 ANC 약630/mm³는 Felty 증후군도 고려하게 한다. 간 span6cm는 간비대라고 번역하지 않으며 항체 양성만으로 Felty나 다른 혈액질환 감별을 종결하지 않는다.
+오래된 류마티스관절염, 호중구감소와 비장비대는 펠티 증후군의 고전적 조합이다. 약물과 T세포 큰과립림프구 백혈병 등도 감별한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 항U1-RNP 항체
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005426
+- https://doi.org/10.3389/fmed.2023.1238402

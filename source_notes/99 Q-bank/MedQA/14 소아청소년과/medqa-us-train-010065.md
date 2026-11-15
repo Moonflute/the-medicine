@@ -13,7 +13,7 @@ related_diseases:
   - "신경섬유종증 1형"
   - "시신경교종"
   - "리쉬 결절"
-question_type: prognosis
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Iug6rK9IOyErOycoOyiheymnSAoTmV1cm9maWJyb21hdG9zaXMpLm1k
 difficulty: standard
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-11세 남아가 추적 진찰을 위해 내원했다. 지난 4년 동안 학업에 어려움이 있었고 발작장애로 발프로산을 복용한다. 3세에 혼자 걷기 시작했고 4세에 포크와 숟가락을 사용할 수 있었다. 키는 40백분위수, 체중은 60백분위수이며 활력징후는 정상이다. 겨드랑이와 서혜부 피부 주름에 주근깨가 많고 척추측만증이 있다. 등과 가슴에 과색소침착 반점이 14개 있으며 사지와 몸통에 여러 개의 부드럽고 통증 없는 결절이 있다. 안과검사에서 양쪽 홍채에 과색소침착 결절이 보인다. 다음 중 이 환자에게 위험이 증가하는 질환은?
+신경섬유종증 1형으로 추적 중인 8세 아이가 한쪽 눈으로 칠판이 잘 보이지 않는다고 한다. 안과 검사에서 새 시력저하와 색각 이상이 확인됐다. 다음 검사는?
 
 ## 선택지
 
-A. 시신경교종
-B. 녹내장
-C. 신세포암
-D. 거대세포 성상세포종
+A. 시신경경로를 포함한 뇌·안와 MRI
+B. 정기 안과 검진을 1년 뒤 다시 받게 한다
+C. 척추 단순촬영
+D. 복부 초음파로 종양을 먼저 찾는다
 
 ## 해설
 
-Cafe-au-lait 반점, 피부주름 주근깨·신경섬유종과 홍채 Lisch 결절은 NF1을 시사한다. NF1은 시신경경로 교종(A)의 위험을 높인다. 교종은 신경교세포성 종양이며 시신경의 신경섬유종이 자라서 같은 종양이 되는 것은 아니다.
+NF1에서 새로 확인된 시력이나 색각 변화는 시신경경로 교종을 평가할 적응증이다. 안과 검사에 이상이 없는 모든 아이에게 정기 MRI를 하는 것과 구별한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ Cafe-au-lait 반점, 피부주름 주근깨·신경섬유종과 홍채 Lisch 결
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010065
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9845795/

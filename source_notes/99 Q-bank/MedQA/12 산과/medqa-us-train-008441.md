@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA
   - MTIg7IKw6rO8L-yehOyLoOyEseqzoO2YiOyVlSAoR2VzdGF0aW9uYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,18 +40,18 @@ answer_change_reason: "CHAP 이후 만성고혈압 치료 기준 140/90 반영; 
 
 ## 문제
 
-37세 여성이 임신이 확인되어 첫 산전 진료를 위해 내원했다. G3P2이며 첫 임신에서 전자간증 병력이 있다. 1년 전 진단받은 동맥성 고혈압이 있지만 약은 복용하지 않았다. 8갑년 흡연력이 있고 1년 전에 금연했다고 한다. 혈압 140/90mmHg, 심박수 69회/분, 호흡수 14회/분, 체온 36.6°C(97.9°F)이다. 신체검사는 정상이다. 다음 중 이 여성의 관리에서 가장 적절한 선택은 무엇인가?
+임신 10주인 37세 산모가 이전부터 만성 고혈압이 있었으나 약을 복용하지 않는다. 1주 동안 반복 측정한 혈압은 145–151/90–95 mmHg이며 천식이나 서맥은 없다. 가장 적절한 혈압 치료는?
 
 ## 선택지
 
-A. 포시노프릴
-B. 황산마그네슘
-C. 라베탈롤
-D. 약물은 필요하지 않다
+A. 임신 중 사용할 수 있는 라베타롤 등으로 치료를 시작한다
+B. 중증 범위에 도달할 때까지 약제를 시작하지 않는다
+C. 안지오텐신 수용체 차단제를 시작한다
+D. 황산마그네슘을 매일 혈압약으로 사용한다
 
 ## 해설
 
-기존 만성고혈압에서 140/90 mmHg가 지속되면 현행 ACOG는 치료 시작/증량을 권고한다. 따라서 반복 확인 후 선택지 중 라베탈롤(C)이 적절하며 약물이 필요 없다는 D는 구 권고에 근거한 답이다. ACE 억제제 포시노프릴은 피하고 이전 전자간증 병력에 따른 저용량 아스피린 예방 등도 별도 평가한다.
+임신 초기부터 지속되는 만성 고혈압은 중증 범위가 될 때까지 기다리지 않고 치료한다. 라베타롤·서방형 니페디핀 등 임신 중 사용할 수 있는 약을 선택하고 ACE 억제제와 ARB는 피한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 약물은 필요하지 않다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008441
+- https://www.nice.org.uk/guidance/ng133/chapter/recommendations

@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: mechanism
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-75세 남성이 관상동맥우회술과 승모판 생체판막 치환술 후 중환자실에서 치료 중이다. 수술 후 4주 동안 침상에 누워 지냈고, 혈청 칼슘 11.1 mg/dL, 인산 1.0 mg/dL, PTH 9 pg/mL로 낮다. 심전도와 흉부 X선이 제시되어 있다. 이 환자의 고칼슘혈증을 일으킨 가장 가능성 높은 원인은?
+75세 남성이 심장 수술 뒤 4주간 침상에 누워 지냈다. 혈청 칼슘은 11.1 mg/dL로 높고 부갑상샘호르몬은 억제돼 있다. 평가에서 악성종양이나 약물 원인은 확인되지 않았다. 가장 가능성 높은 원인은?
 
 ## 선택지
 
@@ -46,7 +47,7 @@ D. 원발성 부갑상선기능항진증
 ## 해설
 
 
-정답 B. 수주간 중환자실 치료와 부동은 골재흡수를 늘려 PTH가 억제된 고칼슘혈증을 유발할 수 있다. 이는 제시 맥락에 부합하며 원발성 부갑상선기능항진은 낮은 PTH와 맞지 않는다. 부동이 모든 고칼슘혈증의 가장 흔한 원인이라는 뜻은 아니며 악성종양 등도 임상적으로 감별한다. ECG/흉부영상은 제공되지 않았으므로 실제 소견을 판독했다고 주장하지 않으며, 이 문제의 핵심 기전 추론은 장기 부동과 제시 호르몬 수치로 가능하다.
+오랜 기간 움직이지 못하면 뼈 흡수가 늘어 고칼슘혈증이 발생할 수 있다. 부갑상샘호르몬이 억제된 소견은 원발성 부갑상샘기능항진증과 맞지 않는다.
 
 ## 검수 근거
 

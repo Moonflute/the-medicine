@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-yghOygleyLoOqyveyXvCAoVmVzdGlidWxhciBuZXVyaXRpcykubWQ
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-33세 남성이 어지럼으로 응급실에 내원했다. 2일 동안 지속적인 불균형감을 느끼고 바닥이 불안정하거나 움직이는 것 같다. 그 외에는 건강하고 다른 진단은 없다. 가족들이 아파 감염되지 않으려고 비타민 C를 복용한다. 체온 98.1°F(36.7°C), 혈압 120/83mmHg, 맥박 73회/분, 호흡수 16회/분, 산소포화도 98%이다. 신체검사에서 수평 안진이 보인다. Dix-Hallpike 수기에서 증상이 유발되지 않고 뇌신경검사도 정상이다. 가장 가능성 높은 진단은 무엇인가?
+33세 환자가 이틀 동안 지속된 현훈을 호소한다. 새 난청이나 국소 결손은 없다. 숙련된 평가자가 단방향 수평·회선 안진, 한쪽 머리충동검사에서 교정 단속운동, 눈의 수직 편위 없음을 확인했다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 양성 돌발성 체위성 현훈
-B. 메니에르병
-C. 척추기저동맥 뇌졸중
-D. 전정신경염
+A. 전정신경염
+B. 이석증
+C. 메니에르병
+D. 전정편두통
 
 ## 해설
 
-수일간 지속되는 현훈/불균형감과 수평안진, 청력 증상 부재는 전정신경염(D)에 합당하다. 체위 변화로 수초간만 유발되는 BPPV와는 시간 양상이 다르다. 다만 정상 일반 뇌신경검사나 수평안진만으로 후순환 뇌졸중을 배제하지 못한다. 급성 전정증후군은 숙련된 진찰자가 안구운동·보행 등을 평가하고 중추성 또는 불명확한 소견이면 추가 검사를 해야 한다. 본문은 구역 유무를 명시하지 않았다.
+수일간 지속되는 급성 현훈과 한쪽 전정안반사 저하에 새 청각·중추 신경 이상이 없으면 전정신경염에 맞는다. 진찰이 애매하거나 중추 소견이 있으면 뇌졸중을 추가 평가한다.
 
 ## 검수 근거
 
@@ -56,3 +56,5 @@ D. 전정신경염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009101
+- https://pubmed.ncbi.nlm.nih.gov/35723133/
+- https://pubmed.ncbi.nlm.nih.gov/37166022/

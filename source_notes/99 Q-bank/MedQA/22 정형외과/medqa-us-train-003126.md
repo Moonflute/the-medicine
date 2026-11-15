@@ -19,8 +19,9 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jik7Iqk6rW_LeyKkOudvO2EsCDrs5EgKE9zZ29vZC1TY2hsYXR0ZXIgRGlzZWFzZSkubWQ
 difficulty: standard
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,7 +34,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-12세 남아가 6일 동안 점점 심해지는 왼쪽 무릎 통증으로 내원했다. 움직이거나 무릎을 꿇으면 악화되고 안정 시 통증이나 외상은 없다. 며칠 뒤 축구 선발전을 앞두고 걱정한다. 활력징후는 정상이다. 왼쪽 경골 전방 상부에 경미한 부종과 압통이 있고 저항에 맞서 무릎을 펴면 통증이 재현되며 굴곡은 통증 때문에 제한된다. 국소 홍반이나 관절삼출은 없다. 무릎 X선 측면 영상이 제시되어 있다. 다음 중 증상의 가장 가능성 높은 기저 원인은?
+12세 남아가 축구나 무릎 꿇기 뒤 심해지는 앞무릎 통증으로 내원했다. 외상은 없고 경골결절에 압통과 가벼운 부종이 있다. 저항을 주고 무릎을 펴면 통증이 재현된다. 가장 가능성 높은 원인은?
 
 ## 선택지
 
@@ -45,7 +46,7 @@ D. 무릎 박리성 골연골염
 ## 해설
 
 
-경골 결절 부위에 통증과 압통이 있으며, 성장기 청소년에게 흔히 나타나는 견인성 골단염(Osgood‑Schlatter disease)이 가장 가능성 높다. 다른 선택지는 증상 부위와 일치하지 않는다.
+성장기 청소년에서 반복적인 무릎 신전으로 슬개건이 경골결절을 잡아당겨 견인성 골단염이 생길 수 있다. 경골결절에 국한된 통증과 압통이 오스굿-슐라터병을 시사한다.
 
 ## 출처
 

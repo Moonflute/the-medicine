@@ -19,7 +19,7 @@ question_type: management
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,24 +39,25 @@ medical_review_status: "content-reviewed"
 
 ## 문제
 
-68세 남자가 첫 혈액투석을 받기 위해 내원했다. 6년 전 진행성 만성콩팥병을 진단받았고 현재 말기콩팥병(ESRD)이 되었다. 신장이식 대기자 명단에 올라 있다. 고혈압과 소화성궤양질환을 암로디핀과 에스오메프라졸로 치료한다. 엄격한 식이 제한을 성실히 지켜왔다. 발열은 없고 활력징후는 정상이다. 최근 혈청 크레아티닌으로 추정한 사구체여과율은 12 mL/min/1.73 m²이다. 이 환자 관리에서 다음 중 무엇을 늘려야 하는가?
+68세 남성이 유지 혈액투석을 시작했는데 투석 전부터 하던 엄격한 저단백 식사를 계속한다. 최근 식사량과 근육량이 감소했다. 영양 관리 방향으로 적절한 것은?
 
 ## 선택지
 
-A. 나트륨 섭취
-B. 칼륨 섭취
-C. 단백질 섭취
-D. 식이섬유 섭취
+A. 단백질을 더 제한한다
+B. 칼륨 섭취를 일괄 늘린다
+C. 투석에 따른 손실을 고려해 영양팀과 단백질 섭취를 늘린다
+D. 소금 섭취를 늘려 입맛을 회복한다
 
 ## 해설
 
 
-말기 신부전 환자는 혈액투석 시 단백질 손실이 증가하므로 근육량 유지와 영양 상태 보전을 위해 단백질 섭취를 늘려야 한다. 따라서 정답은 단백질 섭취이다.
+유지 혈액투석에서는 단백질 손실과 근육 감소 위험이 있어 투석 전의 저단백 식사를 그대로 유지하지 않는다. 영양 상태와 동반질환에 맞게 단백질과 열량을 조정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007922
+- https://doi.org/10.1053/j.ajkd.2020.05.006
 
 ## 검수 근거
 

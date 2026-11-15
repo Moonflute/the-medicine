@@ -18,9 +18,9 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-u5iO2YiCAoQW5lbWlhKS5tZA
 question_type: investigation
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,24 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-20세 여성이 2개월 동안 지속된 피로와 기력 저하를 평가받으러 왔다. 발열이나 체중 변화는 없다. 중대한 질환 병력은 없고 4주 전 감염성 단핵구증을 앓았다. 월경은 28일 간격으로 규칙적이며 5일간 중등도 양으로 지속된다. 마지막 월경은 3주 전이었다. 어머니는 하시모토 갑상샘염이 있다. 활력징후는 정상 범위이다. 진찰에서 창백한 결막, 구각염과 부서지기 쉬운 손발톱이 보인다. 그 외에는 이상이 없다. 검사 결과는 다음과 같다.
-헤모글로빈 10.3 g/dL
-평균 적혈구 용적 74 μm3
-혈소판 280,000/mm3
-백혈구 6,000/mm3
-다음 중 관리에서 가장 적절한 초기 단계는 무엇인가?
+20세 환자가 피로로 내원했다. 혈색소 10.3g/dL, MCV 74fL, 혈소판과 백혈구는 정상이다. 아직 빈혈 원인을 확인하지 않았다. 철결핍을 평가할 우선 검사는?
 
 ## 선택지
 
-A. 철분 검사
-B. 비타민 B12 수치
-C. 헤모글로빈 전기영동
-D. 말초혈액도말
+A. 혈청 비타민 B12
+B. 골수 생검
+C. 혈청 페리틴을 포함한 철검사
+D. 염색체 검사
 
 ## 해설
 
 
-소구성 빈혈(MCV 74 fL)과 구각염, 손톱 부서짐은 철결핍성 빈혈을 시사한다. 초기 평가에서는 혈청 철분, 페리틴, 전이단백질 등을 포함한 철분 검사가 가장 먼저 필요하다. 따라서 관리의 첫 단계는 철분 검사이다.
+소구성 빈혈에서 저장 철을 평가하는 페리틴은 초기 검사다. 염증이 있으면 페리틴이 정상 또는 높을 수 있어 트랜스페린 포화도 등 다른 지표도 함께 해석한다.
 
 ## 검수 근거
 
@@ -65,3 +60,4 @@ D. 말초혈액도말
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004456
+- https://doi.org/10.1182/bloodadvances.2025015950

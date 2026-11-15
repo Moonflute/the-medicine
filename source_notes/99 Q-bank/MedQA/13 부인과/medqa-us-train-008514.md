@@ -13,11 +13,11 @@ related_diseases:
   - "adnexal mass"
   - "ovarian cancer"
   - "pelvic ultrasound"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yDge2UvOyEsSDrgpzshozslZQgKEVwaXRoZWxpYWwgT3ZhcmlhbiBDYW5jZXIpLm1k
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-62세 여성이 정기 신체검사를 위해 일차진료를 받으러 왔다. 특별한 증상은 없지만 약간의 체중 증가를 언급한다. 최근 수학교사에서 은퇴하고 하이킹을 시작했다. 활동량이 늘었는데도 바지가 ‘더 꽉 끼는’ 것 같다고 한다. 두통, 요로 증상, 관절통은 없다. 고혈압, 제2형 당뇨병, 류마티스관절염 병력이 있다. 아스피린, 리시노프릴, 로바스타틴, 메트포르민, 메토트렉세이트를 복용하며 지시에 따라 잘 복용하고 예방접종도 최신이다. 2년 전 대장내시경과 지난해 정기 유방촬영술은 모두 정상이었다. 마지막 월경은 10년 전이었다. 아버지는 71세에 대장암으로 사망했고 어머니는 유방암이 있다. 체온 98.7°F(37°C), 혈압 132/86mmHg, 맥박 86회/분, 호흡수 14회/분, 실내 공기 산소포화도 98%이다. 신체검사에서 복부가 약간 팽만되어 있고 단단하며 움직이지 않는 오른쪽 부속기 종괴가 만져진다. 다음 관리 단계는 무엇인가?
+폐경한 62세 여성이 다른 이유로 시행한 질식 초음파에서 한쪽 난소에 2.5 cm 낭종이 발견됐다. 얇고 매끈한 벽의 단방성 무에코 낭종으로 고형부·유두 돌기·복수는 없다. 증상과 유전 고위험 병력은 없다. 적절한 관리는?
 
 ## 선택지
 
-A. 복부 MRI
-B. CA-125 수치 측정
-C. 시험적 개복술과 종양감축술
-D. 골반 초음파
+A. 즉시 난소절제술
+B. MRI를 3개월마다 반복
+C. 정기 영상 추적을 일률적으로 예약하지 않는다
+D. 낭종을 흡인해 세포검사를 시행한다
 
 ## 해설
 
-폐경 후 고정된 부속기 종괴와 팽만은 악성 위험 평가가 필요하다. 골반, 특히 질식 초음파(D)로 구조를 확인하고 CA125를 함께 평가해 위험도를 산정한다. 영상 평가 없이 바로 종양감축술을 선택하지 않는다.
+폐경 후라도 확실한 무증상 단순 단방성 낭종이 3 cm 이하이면 RCOG 개정 지침상 일상적 영상 추적이 필요 없다. 고형부, 격벽, 복수 또는 새 증상이 있는 경우와 구분한다.
 
 ## 검수 근거
 
@@ -62,3 +62,5 @@ D. 골반 초음파
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008514
+- https://www.rcog.org.uk/gtg34/
+- https://pubs.rsna.org/radiographics/doi/full/10.1148/radiol.230685

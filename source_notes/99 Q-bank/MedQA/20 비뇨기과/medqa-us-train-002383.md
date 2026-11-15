@@ -19,6 +19,7 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-uwnOq4sOu2gOyghCAoRXJlY3RpbGUgRHlzZnVuY3Rpb24pLm1k
 difficulty: simple
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 남성이 발기부전으로 일차진료의를 방문했다. 결혼을 희망하는 건강한 장기 연애 중인 여성 파트너가 있지만 발기가 되지 않아 당황하고 있다. 다음 중 가장 적절한 다음 단계는?
+26세 남성이 발기부전으로 일차진료의를 방문했다. 결혼을 희망하는 건강한 장기 연애 중인 여성 파트너가 있지만 발기가 되지 않아 당황하고 있다. 가장 적절한 다음 단계는?
 
 ## 선택지
 

@@ -16,7 +16,7 @@ related_diseases:
 question_type: diagnosis
 related_disease_slugs: []
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,18 +33,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 여성이 손가락 저림과 시큼한 우유 냄새를 맡는 이상한 에피소드로 내원했다. 의식소실, 혼돈, 실금, 두부 외상이나 독성물질 섭취는 없다. 제2형 당뇨병이 있지만 메트포르민으로 잘 조절된다. 신체 및 신경학적 검사는 정상이고 뇌 MRI에서 경색이나 출혈은 없다. EEG 결과를 기다리는 중이다. 다음 중 가장 가능성 높은 발작 유형은?
+55세 환자에게 30초 정도 이상한 냄새가 나고 오른손이 저리는 동일한 사건이 반복된다. 사건 중 질문에 답할 수 있고 이후 모든 상황을 기억한다. 발작으로 확인됐다면 유형은?
 
 ## 선택지
 
-A. 단순 부분발작
-B. 복합 부분발작
-C. 결신발작
-D. 강직간대발작
+A. 의식이 저하된 국소발작
+B. 의식이 보존된 국소발작
+C. 전형 결신발작
+D. 전신 강직간대발작
 
 ## 해설
 
-반복적 감각 증상과 후각 현상이 생기지만 의식소실이나 혼돈이 없어 국소 인식보존 발작(A, 기존 명칭 단순 부분발작)에 가장 가깝다. 인식장애를 동반하면 복합 부분발작에 해당하는 국소 인식장애 발작을 고려한다. 정상 구조 MRI만으로 발작을 배제하지 않으며 EEG와 임상 경과를 함께 평가한다.
+반복되는 짧은 국소 감각 증상 중 반응과 기억이 유지되면 의식이 보존된 국소발작에 맞는다. 정상 MRI만으로 배제하지 않는다.
 
 ## 검수 근거
 
@@ -54,3 +54,4 @@ D. 강직간대발작
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008250
+- https://pubmed.ncbi.nlm.nih.gov/40264351/

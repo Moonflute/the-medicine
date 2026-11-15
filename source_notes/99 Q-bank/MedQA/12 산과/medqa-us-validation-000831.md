@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yghOyekOqwhOymnSAoUHJlZWNsYW1wc2lhKS5tZA
   - MDUg7Iug7J6lL-uLqOuwseuHqC5tZA
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 32주인 29세 여성(임신 2회, 출산 1회)이 4년 전 진단된 만성고혈압으로 현재 메틸도파를 복용하며, 과거 전자간증과 35주 제왕절개 분만의 병력이 있다. 현재 혈압 140/80 mmHg, 단백뇨 2+, 24시간 단백 배설 1 g/L이다. 다음으로 평가해야 할 검사실 수치는?
+만성 고혈압이 있는 임신 32주 여성이 이전 진료에서는 단백뇨가 없었으나 이번 단회뇨 단백/크레아티닌 비가 0.64 mg/mg다. 요로감염 소견은 없다. 적절한 평가와 해석은?
 
 ## 선택지
 
-A. 응고검사
-B. 간 트랜스아미나제
-C. 총 빌리루빈
-D. 소변검사
+A. 혈압이 160 mmHg 미만이면 자간전증 가능성을 배제한다
+B. 만성 고혈압이므로 새 단백뇨를 정상 임신 변화로 본다
+C. 중첩 자간전증을 의심해 혈소판·간효소·크레아티닌과 태아 상태를 평가한다
+D. 소변 단백만 반복하고 산모·태아 평가를 분만 때까지 미룬다
 
 ## 해설
 
-기존 만성고혈압에서 새 단백뇨가 나타나 중첩 전자간증을 평가해야 한다. 선택지 B의 AST/ALT는 간 침범 평가에 필요하며 혈소판·크레아티닌 등도 함께 확인한다. 원문의 ‘24시간 배설1g/L’는 농도 단위로 총24시간 배설량과 다르므로 임의로1g/일로 확정하지 않는다.
+만성 고혈압 환자에게 새 단백뇨가 생기면 중첩 자간전증을 의심한다. 혈압이 중증 범위가 아니어도 산모의 장기 침범과 태아 상태를 확인한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 소변검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000831
+- https://www.nice.org.uk/guidance/ng133/chapter/recommendations

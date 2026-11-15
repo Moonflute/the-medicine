@@ -17,9 +17,9 @@ related_diseases:
 related_disease_slugs: []
 question_type: prevention
 difficulty: simple
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-침대에 누워 지내는 83세 남성에게 천골 위에 얕게 열린 궤양과 붉은 상처 바닥이 보인다. 추가 진찰에서 양쪽 외측 복사뼈에 압박해도 창백해지지 않는 홍반 부위도 있다. 다음 중 어떤 중재를 했더라면 이 상태를 가장 잘 예방할 수 있었는가?
+83세 환자가 스스로 자세를 바꾸지 못하고 침대에서 생활한다. 발뒤꿈치에 아직 피부 손상은 없다. 천골과 발뒤꿈치의 압박손상을 줄일 일상 관리로 우선할 것은?
 
 ## 선택지
 
-A. 영양 보충
-B. 국소 항생제
-C. 항응고제
-D. 자주 체위 변경
+A. 압력분산 지지면을 쓰고 정기적으로 체위를 바꾸며 뒤꿈치를 띄운다
+B. 피부가 붉어질 때마다 해당 부위를 마사지한다
+C. 압력분산 매트리스를 사용하면 체위 변경은 하지 않는다
+D. 피부 손상이 없어도 매일 항생제 연고를 바른다
 
 ## 해설
 
 
-압박궤양은 지속적인 압력으로 인해 조직이 괴사하면서 발생한다. 정기적인 체위 변경으로 압력을 분산시키면 발생을 예방할 수 있다. 따라서 가장 효과적인 예방은 자주 체위 변경이다.
+장기간 압력이 집중되는 부위의 피부를 확인하고 환자 상태에 맞춰 체위를 바꾼다. 압력분산 지지면과 뒤꿈치 압력 제거를 병행하며 지지면만으로 체위 변경을 대체하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 자주 체위 변경
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009851
+- https://www.internationalguideline.com/repositioning
+- https://www.internationalguideline.com/heels

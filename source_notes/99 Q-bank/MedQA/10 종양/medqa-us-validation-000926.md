@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7LKgIOqysO2VjeyEsSDruYjtmIggKElyb24gRGVmaWNpZW5jeSBBbmVtaWEpLm1k
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
-question_type: investigation
+question_type: monitoring
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-68세 여성이 피로, 운동 시 호흡곤란, 경련성 하복부 통증과 검은 변으로 진료를 받으러 왔다. 20년간 본태성 고혈압으로 비소프롤롤을 복용 중이다. 신체검사에서 창백해 보이며 혈색소 10 g/dL, MCV 70 fL, 혈청 페리틴 9 ng/mL이다. 대장내시경에서 상행결장의 용종성 종괴가 발견되었고 생검에서 저분화 선암이 확인되었다. 수술 전 병기 설정 후 복강경 절제술과 수술 후 화학요법을 계획하고 있다. 수술 후 추적관찰에 사용할 수 있는 검사는?
+3기 결장암으로 근치절제와 보조항암을 마친 환자다. 재발해도 치료를 받을 수 있는 상태이며 수술 전 CEA가 높았다가 치료 뒤 정상화됐다. 계획된 CT와 대장내시경에 더해 추적할 혈액검사는?
 
 ## 선택지
 
-A. 암배아항원(CEA)
-B. 골반 자기공명영상(MRI)
-C. 경직장 내시경 초음파(TRUS)
-D. 암항원 125(CA-125)
+A. 혈청 CEA
+B. 혈청 CA 125
+C. 혈청 AFP
+D. 혈청 CA 19-9만 정기 측정
 
 ## 해설
 
 
-대장암 근치치료 뒤 CEA A는 추적관찰에 사용하는 종양표지자다. 일련의 CEA 추이와 CT·대장내시경 등을 함께 사용하며, CEA가 모든 재발에서 상승하는 것은 아니고 상승만으로 재발을 확진할 수도 없다. CA-125는 이 상황의 표준 표지자가 아니며 골반 MRI·경직장 초음파를 모든 결장암 환자의 단독 추적법으로 적용하지 않는다.
+결장암 근치 치료 뒤에는 CEA 추이를 영상과 대장내시경에 더해 활용할 수 있다. CEA 상승만으로 재발을 확진할 수 없고 정상 수치가 영상 추적을 대신하지도 않는다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 암항원 125(CA-125)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000926
+- https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq

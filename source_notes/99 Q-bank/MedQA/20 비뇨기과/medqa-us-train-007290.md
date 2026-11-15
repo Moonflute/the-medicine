@@ -18,9 +18,9 @@ question_type: investigation
 related_disease_slugs:
   - MDUg7Iug7J6lL-yalOuhnOqwkOyXvC5tZA
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-39세 남자가 3일 동안 지속된 발열, 빈뇨, 요통으로 응급실에 내원했다. 이 기간 동안 배변할 때도 통증이 있었다. 여성 파트너 한 명과 성생활을 하지만 콘돔은 사용하지 않는다. 아버지는 67세에 대장암으로 사망했다. 14년 동안 매일 담배 한 갑을 피웠고 술은 가끔 마신다. 체온은 39.1°C(102.3°F), 맥박 114회/분, 혈압 140/90 mmHg이다. 신체검사에서 깊이 누를 때 치골상부 경미한 통증과 부어 있고 압통이 있는 전립선이 보인다. 나머지 진찰은 정상이다. 헤모글로빈은 15.4 g/dL, 백혈구 수 18,400/mm³, 혈소판 수 260,000/mm³이다. 다음 중 가장 적절한 치료 단계는 무엇인가?
+39세 남성이 고열과 오한, 빈뇨, 회음부 통증으로 내원했다. 부드럽게 진찰했을 때 전립선이 붓고 압통이 심하다. 항생제를 지연시키지 않으면서 원인균을 확인할 검사는?
 
 ## 선택지
 
-A. 경직장 초음파
-B. 혈청 전립선특이항원 측정
-C. 소변 배양
-D. 탐스로신 투여
+A. 전립선 마사지 뒤 분비물 배양
+B. 중간뇨 배양
+C. 혈청 PSA 검사
+D. 전립선 조직검사
 
 ## 해설
 
 
-급성 세균성 전립선염은 고열, 전립선 압통, 배뇨통을 동반하며, 진단을 위해 소변 배양이 필요하다. 소변 배양이 가장 직접적인 확인 방법이다. 따라서 소변 배양이 적절한 치료 단계이다.
+급성 세균성 전립선염에서는 중간뇨 배양으로 원인균과 감수성을 확인한다. 마사지나 생검은 균혈증 위험이 있어 급성기에 피한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007290
+- https://pc.icjournal.org/DOIx.php?id=10.3947%2Fic.2018.50.1.67

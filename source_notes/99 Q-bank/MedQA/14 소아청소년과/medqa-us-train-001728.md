@@ -17,6 +17,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOydvOqzvOyEsSDruYjtmLjtnaEgKFRyYW5zaWVudCBUYWNoeXBuZWEgb2YgdGhlIE5ld2Jvcm4pLm1k
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,7 +34,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신성 당뇨병이 있었던 임신 38주 제왕절개 후 20분이 지나 4630 g (10 lb 3 oz) 남아에게 호흡곤란이 생겼다. 아프가 점수는 1분 7점, 5분 8점이다. 체온은 36.9°C (98.4°F), 맥박은 155회/분, 호흡수는 72회/분, 실내 공기 산소포화도는 88%이다. 끙끙거림과 중등도 늑간·늑골하 함몰이 있고 흉부 청진에서 미만성 수포음이 들린다. 흉부 X선에서 폐 용적 증가와 엽간열 내 액체가 보인다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+임신성 당뇨병이 있었던 임신 38주 제왕절개 후 20분이 지나 4630 g (10 lb 3 oz) 남아에게 호흡곤란이 생겼다. 아프가 점수는 1분 7점, 5분 8점이다. 체온은 36.9°C (98.4°F), 맥박은 155회/분, 호흡수는 72회/분, 실내 공기 산소포화도는 88%이다. 끙끙거림과 중등도 늑간·늑골하 함몰이 있고 흉부 청진에서 미만성 수포음이 들린다. 흉부 X선에서 폐 용적 증가와 엽간열 내 액체가 보인다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

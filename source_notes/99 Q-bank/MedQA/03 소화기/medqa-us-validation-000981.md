@@ -15,11 +15,11 @@ related_diseases:
   - "콜레시스토키닌"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_sk7jqsJzrj4wgKEdhbGxzdG9uZSkubWQ
-question_type: mechanism
+question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-39세 여성이 저녁 식사를 시작한 직후 발생한 복통으로 응급실에 왔다. 통증은 오른쪽 복부에 있고 오른쪽 어깨로 퍼진다. 우상복부 압통이 있으며 정맥 수액과 모르핀 투여 후 4시간 뒤 통증이 가라앉았다. 이 환자의 가장 가능성 높은 진단과 관련된 것은?
+39세 여성이 식사 후 갑자기 생긴 오른쪽 윗배 통증이 오른쪽 어깨로 뻗친다고 한다. 비슷한 통증이 이전에도 있었으며 이번 통증은 3시간 만에 완전히 사라졌다. 열과 황달은 없고 빌리루빈과 리파아제는 정상이다. 초음파에서 담석이 보이지만 담낭벽 비후나 총담관 확장은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 아세틸콜린
-B. 콜레시스토키닌
-C. 가스트린
-D. 세크레틴
+A. 급성 결석성 담낭염
+B. 단순 담도산통
+C. 급성 담관염
+D. 담석성 췌장염
 
 ## 해설
 
 
-담낭 수축을 유도하고 통증을 일으키는 호르몬은 십이지장에서 지방에 반응해 분비되는 콜레시스토키닌이다. 따라서 정답은 B이다.
+담석과 반복되는 단시간의 우상복부 통증은 일시적 담낭관 폐쇄로 인한 담도산통에 합당하다. 발열, 지속 통증, 담낭벽이나 담도의 이상이 동반되면 담낭염·담관염 등 합병증을 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 세크레틴
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000981
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12285291/

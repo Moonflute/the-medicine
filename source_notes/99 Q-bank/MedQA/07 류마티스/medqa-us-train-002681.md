@@ -17,7 +17,7 @@ related_diseases:
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDqsr3tmZTspp0gKFN5c3RlbWljIFNjbGVyb3NpcykubWQ
   - MDIg7Zi47Z2h6riwL-qwhOyniOyEsSDtj5Dsp4jtmZggKEludGVyc3RpdGlhbCBsdW5nIGRpc2Vhc2UpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-43세 여성이 2개월간 지속된 간헐적 작열성 흉통으로 내원했다. 양성자펌프억제제를 사용했지만 호전되지 않았고 5 kg 체중이 감소했다. 손가락 피부가 팽팽하고 두꺼워진 피부에 작은 만성 궤양이 있으며 양쪽 폐기저부에서 미세 수포음이 들린다. 다음 중 진단과 가장 관련된 항체는?
+43세 여성이 항Scl-70 양성 전신경화증으로 진단됐다. 운동 시 숨이 차고 폐기저부에 미세 수포음이 있다. 흉부 단순촬영은 특이 소견이 없다. 간질성 폐질환을 확인할 검사는?
 
 ## 선택지
 
-A. c-ANCA
-B. 항토포이소머레이스 항체
-C. 항히스톤 항체
-D. 항-Ro/SSA 및 항-La/SSB 항체
+A. 운동부하 심전도만 시행
+B. 고해상도 흉부 CT와 확산능을 포함한 폐기능검사
+C. 흉부 단순촬영만 반복
+D. 진단을 위해 폐생검부터 시행
 
 ## 해설
 
 
-손가락 피부경화와 만성 손끝 궤양, 식도 관련 증상 및 양측 폐기저부 미세 수포음은 전신경화증과 간질성 폐질환 가능성을 시사한다. 선택지 중 anti-topoisomerase I(anti-Scl-70, B)가 이 진단과 관련되고 특히 간질성 폐질환과 연관된다. 전신경화증의 항체에는 항중심체·항RNA polymerase III 등도 있어 Scl-70만이 유일한 특이 항체라는 뜻은 아니다.
+전신경화증에서 간질성 폐질환은 단순촬영에 나타나지 않을 수 있다. 고해상도 CT로 폐실질을 평가하고 확산능을 포함한 폐기능검사로 기능 저하를 확인한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 항-Ro/SSA 및 항-La/SSB 항체
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002681
+- https://doi.org/10.1002/art.42860

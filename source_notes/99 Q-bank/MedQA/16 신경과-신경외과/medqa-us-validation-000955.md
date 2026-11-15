@@ -13,11 +13,11 @@ related_diseases:
   - "L5 신경근병증"
   - "요추 추간판 탈출증"
   - "좌골신경통"
-question_type: mechanism
+question_type: diagnosis
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-y2lOqwhO2MkO2DiOy2nOymnSAoSGVybmlhdGVkIEludGVydmVydGVicmFsIERpc2MpLm1k
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-37세 남성이 오른쪽 하지 근력저하와 요통으로 진료를 받으러 왔다. 수년간 만성 경미한 요통이 있었으나 3일 전 상자를 들어 올린 뒤 통증이 심해져 오른쪽 다리로 퍼졌다. 통증은 전기 오는 듯 심하고 오른쪽 둔부에서 뒤쪽 넓적다리와 종아리를 따라 외측 발목과 발까지 내려간다. 오른발이 걸려 걷기 어렵고, 발등굽힘·내번 근력이 4/5, 엄지발가락 폄이 3/5이며 외측 하퇴와 발등의 감각이 감소하고 하지거상검사가 양성이다. 이 상태를 일으킨 가장 가능성 높은 기전은?
+37세 환자가 허리에서 발등까지 뻗치는 통증을 겪은 뒤 엄지발가락을 펴기 어려워졌다. 발목 발등굽힘뿐 아니라 발의 안쪽번짐도 약하다. 가장 가능성 높은 신경근 위치는?
 
 ## 선택지
 
-A. L4/L5 추간판 돌출
-B. 대퇴관 내 대퇴신경 포착
-C. S2~S3 척수신경근 염증
-D. L2/L3 추간판 탈출
+A. L3
+B. L4
+C. L5
+D. S1
 
 ## 해설
 
-족하수와 엄지폄 약화, 발 내번 약화 및 외측 하퇴/발등 감각저하는 L5 신경근병증에 맞으며 L4~L5 추간판 돌출(A)이 가장 적합하다. 하지직거상검사 양성은 신경근 자극을 지지한다. 발 내번이 약한 점은 비골신경 단독 손상과 구별에 도움이 된다. 원문의 일부 통증·반사 분포는 완전히 전형적이지 않지만 주된 운동 국소화는 L5이다.
+엄지발가락 폄과 발등굽힘 약화가 발 안쪽번짐 약화와 함께 있으면 L5 신경근병증을 지지한다. 온종아리신경 단독 병변에서는 안쪽번짐이 보존된다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. L2/L3 추간판 탈출
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000955
+- https://pubmed.ncbi.nlm.nih.gov/40609077/

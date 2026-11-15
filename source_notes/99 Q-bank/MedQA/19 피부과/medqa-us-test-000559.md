@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,19 +33,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-44세 남성이 왼쪽 허벅지에 작은 돌기가 생겨 가정의학과에 왔다. 가렵지 않고 3주 동안 지속되었다. 수개월 동안 피로와 권태감이 있었으며 알려진 질환이나 복용약은 없다. 매일 담배 한 갑을 피우고 정맥주사 거리 약물을 사용한다. 심박수 82회/분, 호흡 14회/분, 체온 36.7°C(98.1°F), 혈압 126/80 mmHg였다. 심잡음은 없고 양측 폐는 깨끗했다. 왼쪽 허벅지에 2~3 mm 크기의 돔 모양 단단한 구진 세 개가 있고 각각 중앙 함몰이 보였다. 압통 없는 경부 림프절병증도 있었다. 가장 가능성 높은 진단은?
+7세 소아의 겨드랑이와 옆구리에 2–3 mm 크기의 살색 돔 모양 구진이 여러 개 있다. 구진 가운데가 배꼽처럼 오목하다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 빈대 물림
+A. 편평사마귀
 B. 전염성 연속종
-C. 아토피피부염
-D. 급성 두드러기
+C. 농가진
+D. 모낭염
 
 ## 해설
 
 
-전염성 연속종은 HIV·IV 약물 사용자에게 흔히 나타나는 작은 중앙 함몰이 있는 단단한 구진이다. 환자는 정맥주사 약물 사용 이력이 있어 가장 가능성 높은 진단이다. 따라서 전염성 연속종이 정답이다.
+작고 매끈한 돔 모양 구진의 중앙 함몰이 전염성 연속종의 핵심 소견이다. 소아의 전형적인 소수 병변만으로 면역결핍을 의심할 필요는 없다.
 
 ## 출처
 

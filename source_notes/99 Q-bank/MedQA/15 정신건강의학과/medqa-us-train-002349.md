@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yCrO2ajCDrtojslYgg7J6l7JWgIChTb2NpYWwgQW54aWV0eSBEaXNvcmRlcikubWQ
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-4세 남아가 영유아 건강검진을 위해 소아과에 왔다. 진료 중 말을 하지 않고 눈을 맞추지 않는다. 아버지는 낯선 사람에게 항상 수줍어했지만 집과 친구들 앞에서는 말을 많이 한다고 한다. 네 단어 문장으로 말하고 이야기를 하며 부모는 말의 100%를 이해한다. 색을 말하고 글자를 알아보기 시작했다. 하지만 유치원 교사들은 5개월 동안 학교에서 전혀 말을 하지 않는 것을 걱정한다. 교회에서도 평생 똑같이 수줍어했다. 다음 중 가장 가능성 높은 진단은?
+5세 아이가 집에서는 잘 말하고 이야기도 하지만, 같은 언어를 쓰는 유치원에서는 5개월째 교사에게 한마디도 하지 못한다. 이 때문에 수업 참여가 어렵다. 청력과 언어평가는 정상이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 학교에서의 아동학대
-B. 표현언어 지연
-C. 정상 발달
-D. 선택적 함구증
+A. 표현언어장애
+B. 선택적 함구증
+C. 청각장애
+D. 분리불안장애
 
 ## 해설
 
 
-아동이 특정 상황(학교, 낯선 사람)에서만 말을 하지 않고, 다른 환경에서는 정상 언어를 구사하는 것은 선택적 함구증의 전형적인 특징이다. 이는 사회적 불안과 연관되지만 언어 발달 자체는 정상이다. 따라서 선택적 함구증이 가장 가능성 높다.
+특정 상황에서만 지속적으로 말하지 못하지만 익숙한 환경에서 정상적으로 말하고, 생활에 지장이 있으면 선택적 함구증을 고려한다. 일부러 말을 거부하는 행동으로 보지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002349
+- https://www.asha.org/practice-portal/clinical-topics/selective-mutism/

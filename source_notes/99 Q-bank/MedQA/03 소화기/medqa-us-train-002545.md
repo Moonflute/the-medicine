@@ -17,11 +17,11 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sl7zspp3shLEg7J6l7KeI7ZmYIChJQkQpIChJbmZsYW1tYXRvcnkgQm93ZWwgRGlzZWFzZSkubWQ
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_tgazroaDrs5EgKENEKSAoQ3JvaG4ncyBEaXNlYXNlIChDRCkpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-33세 여성이 4개월간 간헐적인 하복부 경련, 설사, 팽만, 경한 오심으로 내원했다. 5 kg 체중이 감소했고 배변 후에도 완전히 비워지지 않는 느낌이 있다. 고섬유질 식사를 하며 아버지는 아슈케나지 유대인이다. 오른쪽 아래배에 경미한 압통이 있고 대변 잠혈검사는 음성이다. 혈색소 10.5 g/dL, 백혈구 12,000/mm³, 혈소판 480,000/mm³, ESR 129 mm/시간이며 바륨관장검사에서 오른쪽 대장의 궤양과 협착이 보인다. 다음 중 가장 가능성 높은 진단은?
+33세 여성이 4개월째 설사하고 체중이 줄었다. 회장대장내시경에서 회맹판이 벌어져 있고 횡행 궤양이 보인다. 크론병과 장결핵이 모두 의심된다. 면역억제 치료 전에 구별을 위해 우선 할 검사는?
 
 ## 선택지
 
-A. 궤양성 대장염
-B. 셀리악병
-C. 장 카르시노이드 종양
-D. 크론병
+A. 혈청 ASCA 단독 검사
+B. 혈청 p-ANCA 단독 검사
+C. 대변 칼프로텍틴만 반복 측정
+D. 병변 조직의 결핵균 배양·핵산검사와 조직 소견 평가
 
 ## 해설
 
 
-우측 대장에 궤양·협착이 있고 전신 염증표지자(ESR)와 혈소판 증가가 동반된 경우, 전층성 염증과 장벽 침범이 특징인 크론병이 가장 가능성 높다. 이는 궤양성 대장염과 구분되는 특징이다.
+국내에서는 회맹부 염증에서 장결핵을 감별해야 한다. 횡행 궤양과 벌어진 회맹판은 장결핵에 더 맞는 단서지만 확진은 아니다. 조직 검사와 미생물 검사를 병행하고, 단일 음성 검사로 배제하지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 크론병
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002545
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13714433/

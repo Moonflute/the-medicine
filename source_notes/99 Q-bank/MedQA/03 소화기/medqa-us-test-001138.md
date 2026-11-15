@@ -20,7 +20,7 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 백인 여성이 8개월간 복통, 악취 나는 부피 큰 지방변, 체중 감소, 거대적아구성 빈혈로 위장관 전문의에게 의뢰되었다. 팔, 몸통, 복부에 군집성 홍반성 구진수포 병변이 있었다. 가장 적절한 관리 방법은?
+32세 여성이 만성 설사와 체중 감소, 팔꿈치에 심하게 가려운 군집성 수포로 내원했다. 평가에서 셀리악병과 포진상 피부염이 확인됐다. 장 손상과 재발을 줄이는 장기 치료는?
 
 ## 선택지
 
-A. 아미트립틸린
-B. 옥트레오타이드
-C. 글루텐 제한식
-D. 메티세르지드 말레산염
+A. 가려움이 있을 때만 덱사메타손을 복용한다
+B. 유당만 평생 제한한다
+C. 글루텐이 없는 식단을 지속한다
+D. 지사제만 장기 복용한다
 
 ## 해설
 
 
-복통·지방변·거대적아구성 빈혈·피부 병변은 셀리악병을 시사하고, 치료의 핵심은 글루텐을 완전히 배제하는 식이요법이다. 따라서 가장 적절한 관리 방법은 글루텐 제한식이다.
+확진된 셀리악병은 글루텐을 지속적으로 피하는 식이치료가 기본이다. 피부 증상의 치료와 영양 결핍 보충을 병행할 수 있지만, 그것들이 글루텐 제한을 대신하지 않는다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 메티세르지드 말레산염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001138
+- https://pubmed.ncbi.nlm.nih.gov/36602836/

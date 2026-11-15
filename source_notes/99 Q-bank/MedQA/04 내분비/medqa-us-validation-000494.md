@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-y_oOyLsSDspp3tm4TqtbAgKEN1c2hpbmcncyBTeW5kcm9tZSkubWQ
   - MDIg7Zi47Z2h6riwL-2PkCDshozshLjtj6zslZQgKFNtYWxsIENlbGwgQ2FyY2lub21hKS5tZA
   - MDQg64K067aE67mEL-uUtOqzsyDrtoDsi6Dqsonsp4jsnpDqt7ntmLjrpbTrqqwg7Kad7ZuE6rWwIChFY3RvcGljIEFDVEggU3luZHJvbWUpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-48세 남성이 체중증가와 피로, 고혈압으로 진료를 받으러 왔다. 복부에 선조가 있고 24시간 소변 유리 코르티솔이 상승했지만 고용량 덱사메타손에도 코르티솔 억제가 없으며 복부 CT는 정상이다. 가장 가능성 높은 진단과 관련된 소견은?
+48세 남성에게 넓은 자주색 복부선조, 근위부 근력 저하와 고혈압이 있다. 외부 스테로이드 사용은 없고 두 가지 검사에서 내인성 고코르티솔혈증이 확인됐다. 원인 감별의 첫 단계는?
 
 ## 선택지
 
-A. 부신 선종
-B. ACTH 감소
-C. 얼굴뼈 비대
-D. 흡연력
+A. 바로 부신 CT만 촬영
+B. 바로 뇌하수체 수술을 의뢰
+C. 고용량 덱사메타손에 억제되지 않으면 폐암으로 확진
+D. 혈장 ACTH 측정
 
 ## 해설
 
 
-정답 D. 고코르티솔 표현형과 고용량 dexamethasone에도 억제되지 않는 cortisol은 이소성 ACTH를 감별하게 하며 흡연 관련 소세포폐암이 그 원인 중 하나다. 그러나 ACTH가 제시되지 않았고 고용량 억제검사의 판별능도 완전하지 않아 이소성/폐암을 확진할 수는 없다. 정상 복부 CT 하나로 모든 부신 원인을 배제하지도 않는다. 본 문항은 선택지 중 연관성을 묻는 범위로 해석한다.
+고코르티솔혈증을 확인한 뒤 ACTH로 의존성과 비의존성을 먼저 나눈다. ACTH 의존성일 때 뇌하수체와 이소성 분비를 구별하며 고용량 덱사메타손 결과 하나로 확진하지 않는다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 흡연력
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000494
+- https://doi.org/10.1507/endocrj.EJ25-0492

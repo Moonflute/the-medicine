@@ -17,6 +17,7 @@ related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: standard
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,7 +34,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 여성이 1주일 전부터 복시가 발생하여 내원했다. 복시는 주변을 바라볼 때 악화된다. 발열, 두통, 눈의 통증, 시력 변화 또는 다른 신경학적 증상은 없다. 왼쪽을 바라보게 하면 오른쪽 눈이 내전하지 못하고 왼쪽 눈은 안진과 함께 외전한다. 오른쪽을 바라보게 하면 왼쪽 눈이 내전하지 못한다. 양쪽 동공은 크기가 같고 빛에 정상적으로 반응하며, 눈모음은 정상이다. 다음 중 가장 적절한 다음 단계는 무엇인가?
+23세 여성이 1주일 전부터 복시가 발생하여 내원했다. 복시는 주변을 바라볼 때 악화된다. 발열, 두통, 눈의 통증, 시력 변화 또는 다른 신경학적 증상은 없다. 왼쪽을 바라보게 하면 오른쪽 눈이 내전하지 못하고 왼쪽 눈은 안진과 함께 외전한다. 오른쪽을 바라보게 하면 왼쪽 눈이 내전하지 못한다. 양쪽 동공은 크기가 같고 빛에 정상적으로 반응하며, 눈모음은 정상이다. 가장 적절한 다음 단계는 무엇인가?
 
 ## 선택지
 

@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-yXrOuTnOumhCAoQWNuZSBWdWxnYXJpcykubWQ
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-28세 여성이 2개월 동안 지속된 우측 유방 아래의 여러 덩이로 내원했다. 압통이 있고 악취가 난다. 12개월 전 겨드랑이에 통증성 부종이 반복되었으나 항생제 치료로 호전되고 흉터가 남았다. 크론병이 있으며 월경은 18~40일 간격으로 불규칙하고 1~5일간 지속된다. 메살라민만 복용하고 불안해 보인다. BMI는 33kg/m²이다. 우측 유방 아래 주름에 압통성 홍반성 결절과 화농성 분비물이 나오는 누공이 여러 개 있고 다모증과 공복혈당 136 mg/dL가 있다. 다음 중 이 상태가 함께 침범할 가능성이 가장 높은 부위는 어디인가?
+28세 여성이 양쪽 겨드랑이와 유방 밑 주름의 통증성 덩이로 내원했다. 이전에도 같은 부위가 반복해서 붓고 터졌으며, 진찰에서 배농되는 피부 터널과 흉터가 보인다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 이마
-B. 얼굴 중앙
-C. 사타구니
-D. 정강이
+A. 화농성 한선염
+B. 단순 모낭염
+C. 감염성 표피낭종
+D. 칸디다 간찰진
 
 ## 해설
 
-겨드랑이와 유방하 주름에서 반복되는 통증성 결절·누공·배농 및 흉터는 화농성 한선염(hidradenitis suppurativa)에 합당하다. 이 질환은 사타구니(C)·회음부 등 접힘 부위도 흔히 침범한다. Histoplasma 감염이나 발육저하를 의미하지 않는다.
+겨드랑이·유방 밑·사타구니에 반복되는 깊은 염증성 결절, 배농 터널, 흉터는 화농성 한선염의 핵심 조합이다.
 
 ## 검수 근거
 

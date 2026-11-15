@@ -21,7 +21,7 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-5세 여아가 과도한 체모 성장을 주소로 어머니와 함께 내원하였다. 어머니는 지난 2개월 동안 겨드랑이와 음부 부위에 털이 나는 것을 관찰했다고 보고하였다. 성조숙증의 가족력은 없으며, 딸은 비교적 건강하게 자랐고 출생력에도 특이사항이 없었다고 한다. 최근 질병, 체중 변화, 발열, 질 출혈, 통증 또는 약물 복용은 없었다. 신체 검진상 태너(Tanner) 4단계 발달을 보였다. 골반 초음파 검사에서 난소 종괴가 확인되었다. 검사실 검사에서 에스트로겐 수치가 상승되어 있었다. 가장 가능성이 높은 진단은 무엇인가?
+5세 여아가 빠른 유방 발달과 소량 질출혈로 내원했다. 에스트라디올은 높고 LH는 억제돼 있으며, 초음파에서 한쪽 난소에 고형 성분이 섞인 종괴가 보인다. 의심할 원인은?
 
 ## 선택지
 
-A. 과립막세포종양(Granulosa cell tumor)
-B. 특발성 성조숙증
-C. 맥쿤-올브라이트 증후군(McCune-Albright syndrome)
-D. 세르톨리-라이디히 세포종양(Sertoli-Leydig tumor)
+A. 소아형 난소 과립막세포종
+B. 중추성 성조숙증
+C. 안드로겐 분비 세르톨리-라이디히세포종
+D. 17α-수산화효소 결핍
 
 ## 해설
 
 
-과립막세포종양은 에스트로겐을 과다 생산해 여성 소아에서 조기 사춘과 난소 종괴를 일으킨다. 환자의 고에스트로겐 혈중 농도와 난소 종괴가 이를 뒷받침한다. 다른 선택지는 호르몬 패턴이나 임상 양상이 다르다.
+에스트로겐 징후가 있으면서 LH가 억제돼 있으면 말초성 성조숙증을 의심한다. 고형 성분이 있는 난소 종괴와 함께라면 에스트로겐 분비 소아형 과립막세포종에 맞는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000027
+- https://www.cancer.gov/types/ovarian/hp/child-ovarian-treatment-pdq

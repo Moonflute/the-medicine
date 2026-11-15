@@ -19,7 +19,7 @@ related_disease_slugs: []
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-82세 여성이 2년 동안 점점 건망증이 심해졌다고 말한다. 그러나 혼자 장을 보고 요리할 수 있으며 정기적으로 브리지를 친다. 진찰에서 지남력은 정상이었고 보행과 판단력도 정상이었다. 연속 7 빼기에서 한 번 실수했지만 그 외의 인지기능은 정상이었다. 이 환자의 건망증을 가장 잘 설명하는 원인은?
+82세 환자가 가끔 이름이 바로 떠오르지 않지만 나중에는 기억한다. 가족이 보기에 1년간 악화가 없고, 본인이 금전·약·장보기를 계속 관리한다. 연령·교육에 맞춘 인지검사는 정상이다. 가장 적절한 해석은?
 
 ## 선택지
 
-A. 정상적인 노화
-B. 알츠하이머병
-C. 루이소체 치매
-D. 혈관성 치매
+A. 정상 노화에서 나타날 수 있는 경미한 기억 변화
+B. 경도인지장애로 확진할 객관적 기억 저하
+C. 독립성을 떨어뜨린 알츠하이머 치매
+D. 급성 섬망
 
 ## 해설
 
 
-환자는 일상 생활을 독립적으로 수행하고 인지 검사에서 거의 정상 범위이며, 기억력 저하만 경미하게 나타난다. 이는 정상 노화에 동반되는 기억력 감소(정상적인 노화)와 일치한다. 따라서 가장 적절한 설명은 정상적인 노화이다.
+건망증이 가볍고 객관적인 인지 저하나 기능 변화가 없다면 정상 노화에 맞는다. 진행하는 변화나 일상기능 저하가 생기면 재평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003335
+- https://www.nia.nih.gov/health/memory-loss-and-forgetfulness/what-mild-cognitive-impairment

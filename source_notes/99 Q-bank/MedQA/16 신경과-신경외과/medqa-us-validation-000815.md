@@ -17,9 +17,9 @@ question_type: mechanism
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-65세 남성이 5시간 동안 오른쪽 얼굴, 팔, 다리의 감각저하로 응급실에 왔다. 뇌 MRI에서 왼쪽 시상에 15 mm 확산제한 병변이 보인다. 이 상태의 발생에 가장 중요한 기전은?
+오래 고혈압을 앓은 65세 환자가 갑자기 오른쪽 얼굴·팔·다리의 감각만 떨어졌다. 근력과 언어는 정상이다. MRI에서 왼쪽 시상의 9 mm 급성 경색이 보인다. 가장 가능성 높은 기전은?
 
 ## 선택지
 
-A. 난원공 개존을 통한 다리 심부정맥 색전
-B. 조절되지 않는 고혈압으로 두개내 혈관에서 혈액 누출
-C. 만성 고혈압으로 인한 작은 관통동맥의 지방유리질증
-D. 왼쪽 경동맥의 중증 협착
+A. 동맥류 파열
+B. 뇌정맥동 혈전
+C. 척수신경근 허혈
+D. 작은 관통동맥 폐색
 
 ## 해설
 
 
-만성 고혈압은 작은 관통동맥에 지방유리질증(리포이드 침착)을 일으켜 뇌실질에 작은 뇌경색을 초래한다. 시상에 발생한 병변은 이러한 기전과 일치한다.
+작은 시상 경색에서 순수 감각 결손이 나타나는 것은 열공성 뇌졸중 양상이다. 만성 고혈압과 연관된 소혈관 질환이 흔한 기전이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000815
+- https://www.ahajournals.org/doi/10.1161/STR.0000000000000513

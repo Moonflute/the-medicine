@@ -19,6 +19,7 @@ related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 군인이 폭발물 파편으로 팔꿈치 위 절단 손상을 입었다. 지혈대를 적용하고 이송되었으며, 도착 후 큰 정맥로 하나를 확보했지만 추가 정맥로 확보에 반복적으로 실패했다. 맥박은 145회/분, 호흡수는 28회/분, 혈압은 95/52 mmHg였다. 다음 중 가장 적절한 다음 처치는?
+27세 군인이 폭발물 파편으로 팔꿈치 위 절단 손상을 입었다. 지혈대를 적용하고 이송되었으며, 도착 후 큰 정맥로 하나를 확보했지만 추가 정맥로 확보에 반복적으로 실패했다. 맥박은 145회/분, 호흡수는 28회/분, 혈압은 95/52 mmHg였다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

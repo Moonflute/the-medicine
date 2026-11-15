@@ -14,13 +14,13 @@ related_diseases:
   - "nonblanchable erythema"
   - "pressure ulcer prevention"
   - "repositioning"
-question_type: management
+question_type: diagnosis
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-심부전 악화로 3주간 입원 중인 72세 남성의 천골에 4×6 cm 크기의 창백하지 않는 홍반이 생겼다. 통증은 경미하고 가려움은 없었다. 다음 중 가장 가능성 높은 진단에 대한 최선의 관리는?
+오래 누워 지낸 환자의 천골에 피부가 벗겨지지 않은 붉은 부위가 있다. 손가락으로 눌러도 희게 변하지 않는다. 이 압박손상의 단계는?
 
 ## 선택지
 
-A. 메트포르민
-B. 예방적 경구 시프로플록사신
-C. 체위 변경
-D. 국소 은설파디아진
+A. 1단계
+B. 2단계
+C. 3단계
+D. 4단계
 
 ## 해설
 
-움직임이 제한된 환자 천골의 피부 손상 없이 지속하는 비창백성 홍반과 경한 압통은 1단계 압력손상을 시사한다. 체위변경(C), 압력 분산 표면과 피부·습기·영양 관리가 필요하다. 예방적 항생제나 silver sulfadiazine을 압력손상에 일률적으로 사용하지 않으며 metformin은 이 병변 치료제가 아니다.
+피부는 온전하지만 눌러도 색이 옅어지지 않는 국소 홍반이면 1단계 압박손상이다. 피부가 벗겨지기 전부터 자세를 바꾸고 해당 부위 압력을 줄인다.
 
 ## 검수 근거
 

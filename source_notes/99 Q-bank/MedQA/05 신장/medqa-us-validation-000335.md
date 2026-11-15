@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-yLoO2YiOq0gOyEsSDqs6DtmIjslZUgKFJlbm92YXNjdWxhciBIeXBlcnRlbnNpb24pLm1k
 question_type: management
 difficulty: complex
-answer: "C"
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -41,23 +41,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-19세 여성이 3개월간 지속되는 심한 박동성 두통으로 진료를 받으러 왔다. 통증 강도는 10점 만점에 8점이고 지난 한 달간 두통으로 응급실을 두 번 방문했는데 두 번 모두 혈압이 상승했다. 다낭성 난소 질환이 있어 메트포르민과 경구피임약을 복용한다. 혈압 168/98 mmHg, 비만과 다모증이 있고 복부 좌측에서 잡음이 들린다. 혈액검사와 혈장 유리 메타네프린은 정상이다. 복부 초음파와 조영 CT에서 왼쪽 신동맥 원위부에 약 75% 협착과 확장이 번갈아 나타나는 소견이 보인다. 뇌 CT는 정상이다. 가장 적절한 처치는?
+19세 여성이 세 가지 항고혈압제를 복용해도 혈압이 168/98 mmHg이다. 복부 혈관잡음이 들리며 신동맥 조영술에서 원위부에 협착과 확장이 번갈아 나타난다. 압력차 검사에서 혈류를 유의하게 제한하는 병변으로 확인됐다. 적절한 혈관 재개통 방법은?
 
 ## 선택지
 
-A. 캅토프릴과 발사르탄 병용
-B. 스텐트 없이 경피적 경혈관성형술
-C. 라미프릴과 스텐트 없이 경피적 경혈관성형술
-D. 에날라프릴과 정맥 이식편을 이용한 대동맥-신동맥 우회술
+A. 신동맥 스텐트의 일률적 일차 삽입
+B. 스텐트 없이 경피적 풍선혈관성형술
+C. 신동맥 색전술
+D. 일차적으로 대동맥–신동맥 우회술
 
 ## 해설
 
-젊은 환자의 원위 신동맥 협착·확장 교대 소견은 FMD에 합당하다. 현재 혈압을 조절하면서 혈역학적으로 의미 있는 병변의 풍선혈관성형을 고려하는 C가 이 문항의 의도에 맞는다. 통상 stent는 합병증 등 특별한 경우가 아니면 필요하지 않다. ACE억제제와 ARB 병용은 피하고 신기능·칼륨을 감시한다. 시술 후 약물 필요성은 혈압 반응에 따라 달라진다.
+젊은 환자의 원위부 신동맥에서 보이는 염주 모양은 섬유근이형성증에 합당하다. 저항성 고혈압이 있고 혈역학적으로 유의한 병변에 재개통이 필요하다면 풍선혈관성형술을 우선한다. 스텐트는 혈관 박리 같은 합병증 등 특별한 상황에 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000335
+- 섬유근이형성증 진단·관리 국제 합의: https://pubmed.ncbi.nlm.nih.gov/30648921/
 
 ## 오답 포인트
 

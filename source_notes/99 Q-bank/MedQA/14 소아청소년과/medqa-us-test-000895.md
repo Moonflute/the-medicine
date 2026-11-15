@@ -14,12 +14,12 @@ related_diseases:
   - "단백질-에너지 영양실조"
   - "저알부민혈증"
   - "kwashiorkor"
-question_type: diagnosis
+question_type: management
 related_disease_slugs: []
 difficulty: simple
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-지난 2개월 동안 함요부종과 복부 팽만이 점점 심해진 3세 난민 아동이 진료를 받으러 왔다. 가족은 수년간 여러 차례 강제 이주를 겪었고 영양과 주거가 자주 불충분했다. 아이는 짜증을 내고 졸려하며 깨우기 어려웠다. 발목과 발, 눈 주위에 함요부종이 있었고 복수와 간비대가 보였다. 구강검사에서 빠진 치아가 여러 개였다. 이 소견을 가장 잘 설명하는 것은?
+3세 아이가 오랫동안 충분히 먹지 못했다. 양쪽 발에서 시작한 함요부종이 다리와 얼굴까지 퍼졌고, 식욕이 없으며 깨워도 반응이 둔하다. 심한 영양성 부종이 의심될 때 가장 적절한 조치는?
 
 ## 선택지
 
-A. 콰시오르코르
-B. 마라스무스
-C. 각기병
-D. 구루병
+A. 고열량 음식을 한 번에 많이 먹이고 귀가시킨다
+B. 발목 부종이 줄 때까지 이뇨제만 처방한다
+C. 입원시켜 저혈당·감염 등 합병증을 확인하면서 단계적으로 영양을 회복시킨다
+D. 체중이 연령 평균과 비슷하면 영양 평가를 종료한다
 
 ## 해설
 
 
-심한 부종, 복수, 저알부민혈증은 단백질-에너지 영양실조(콰시오르코르)의 전형적인 소견이다. 따라서 이 소견을 가장 잘 설명하는 것은 콰시오르코르이다.
+양측 함요부종이 있으면 체중만으로 영양실조 정도를 판단할 수 없다. 심한 부종과 의식 저하·식욕 부진은 입원 평가와 단계적 치료가 필요한 소견이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000895
+- https://www.who.int/publications/i/item/9789240082830/

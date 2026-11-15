@@ -13,12 +13,12 @@ related_diseases:
   - "emergency consent"
   - "life-saving surgery"
   - "pediatric trauma"
-question_type: ethics
+question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -31,21 +31,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-8세 남아와 26세 보모가 자동차 사고로 중상을 입고 응급실에 왔다. 아이는 오른팔의 심한 손상과 다른 외상으로 소아중환자실에 이송되었고 출혈로 혈역학적으로 불안정하다. 수혈과 수술이 필요하며 현재 의식이 없다. 외상외과 의사는 팔을 팔꿈치에서 절단해야 한다고 판단했다. 다음 중 절단에 관한 가장 적절한 조치는 무엇인가?
+교통사고를 당한 8세 아이가 의식이 없고 내출혈로 쇼크 상태다. 수혈과 응급수술을 늦추면 생명이 위험하다. 법정대리인은 병원에 없고 연락이 닿지 않지만 의사소통이 가능한 동행인이 있다. 국내에서 적절한 대응은?
 
 ## 선택지
 
-A. 팔꿈치 관절에서 즉시 절단한다
-B. 아이의 의식 회복 후 동의를 얻을 때까지 기다린다
-C. 보모가 회복해 아이의 절단 동의를 할 때까지 기다린다
-D. 판사에게 긴급 법원 명령을 받아 동의를 얻는다
+A. 동행인에게 법정대리인 자격으로 수술 동의서에 서명하도록 한다
+B. 법원 허가가 나올 때까지 수혈과 수술을 보류한다
+C. 아이가 의식을 회복할 때까지 결정하지 않는다
+D. 동행인에게 설명하고, 의학적 판단에 따라 필요한 응급진료를 지체 없이 시행한다
 
 ## 해설
 
 
-생명을 위협하는 출혈성 쇼크 상태에서 소아는 부모의 동의 없이도 응급 절단을 시행할 수 있다. 법적·윤리적 기준에 따라 즉시 생명을 구하기 위한 조치가 허용되므로 팔꿈치 관절에서 즉시 절단한다가 옳다. 다른 선택지는 불필요한 지연을 초래한다.
+「응급의료에 관한 법률」 제9조에 따르면 의사결정능력이 없는 환자의 법정대리인이 동행하지 않았다면 동행인에게 설명한 뒤 의학적 판단으로 필요한 응급진료를 할 수 있다. 동행인의 서명으로 법정대리인의 동의를 대신하는 것은 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001857
+- https://www.law.go.kr/lsInfoP.do?lsId=000218&urlMode=lsInfoP

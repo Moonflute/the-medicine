@@ -13,11 +13,11 @@ related_diseases:
   - "HIV 감염"
   - "감염병 신고"
   - "환자 비밀보장"
-question_type: ethics
+question_type: management
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,23 +34,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-51세 남성이 교도소에서 출소한 지 한 달 후, 무료 진료소에서 일주일 전 받은 HIV 양성 진단에 대해 주치의를 방문했다. 교도소에서 남성 수감자들과 보호되지 않은 성관계를 여러 차례 했지만 아내와 두 자녀에게 진단 사실을 알리지 않았다. 아내가 자신을 떠나거나 자녀를 못 만나게 할까 두려워 비밀을 유지한 채 치료받기를 원하며, 가족에게 전파되지 않도록 예방수칙을 지키겠다고 한다. 이 경우 가장 적절한 의사의 대응은?
+외래 환자의 HIV 확인검사에서 처음으로 감염이 확진됐다. 국내에서 진단한 의료기관이 해야 할 신고는?
 
 ## 선택지
 
-A. 환자의 뜻을 존중하여 아내에게 알리거나 보건부에 보고하지 않고 치료한다
-B. 환자의 뜻을 존중하겠다고 말하되 보건부에 보고하여 보건부가 아내에게 알리게 한다
-C. 보건부 보고 여부를 결정하기 위해 윤리위원회에 의뢰한다
-D. 양성 진단은 보건당국에 보고해야 한다고 알리고, 가족과 직접 상의하도록 권고한다
+A. 24시간 이내 관할 보건소장에게 신고한다
+B. 7일 이내 관할 보건소장에게 신고한다
+C. 24시간 이내 국민건강보험공단에 신고한다
+D. 환자의 별도 동의를 받은 경우에만 신고한다
 
 ## 해설
 
-미국 원문 상황에서는 HIV 진단의 공중보건 신고 절차를 환자에게 정직하게 설명하고, 아내 등 노출 가능 파트너에 대한 안전한 공개·검사와 보건당국의 파트너 서비스를 상담하는 답이 적절하다. 신고 사실을 숨긴 채 비밀 보장을 약속하지 않는다. 실제 신고·파트너 통지 절차는 관할 법규에 따르며 모든 가족·자녀에게 진단을 자동 공개한다는 뜻은 아니다. 비난 없이 치료와 전파 예방·관계 안전을 함께 지원한다.
+국내에서는 HIV 감염을 진단한 의사 또는 의료기관이 진단 사실을 24시간 이내 관할 보건소장에게 신고한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000963
+- 국가법령정보센터, 후천성면역결핍증 예방법 제5조: https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1006934417
+- 질병관리청, 2026 HIV/AIDS 관리지침: https://dportal.kdca.go.kr/pot/bbs/BD_selectBbs.do?q_bbsDocNo=20260202102903689&q_bbsSn=1001&q_clsfNo=-1
 
 ## 검수 근거
 

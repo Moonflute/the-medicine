@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIOyDneumrOyggSDsp4jstpztmIggKE5lb25hdGFsIFBoeXNpb2xvZ2ljIFZhZ2luYWwgQmxlZWRpbmcpLm1k
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 4일 된 여아가 이틀간 질분비물이 있어 소아과에 왔다. 분홍빛 점액성 분비물이 조금 있지만 잘 먹고 소변도 잘 보며 활력징후와 진찰은 정상이다. 산모는 임신 1기에 클라미디아 치료를 받았고 완치검사는 음성이었다. 가장 적절한 처치는?
+생후 4일 여아의 기저귀에 분홍빛 점액이 조금 묻었다. 잘 먹고 활력징후가 정상이며, 진찰에서 외상이나 악취 나는 분비물은 없다. 적절한 안내는?
 
 ## 선택지
 
-A. 마취하 질검사
-B. 질 배양
-C. 따뜻한 물로 질 세척
-D. 안심시키고 관찰
+A. 출생 후 호르몬 변화로 소량 출혈이 생길 수 있고, 지속되거나 늘면 다시 진료한다
+B. 질 세척을 매일 한다
+C. 질염으로 보고 항생제를 시작한다
+D. 다른 증상이 없어도 마취하 질 검사를 진행한다
 
 ## 해설
 
 
-신생아의 분홍빛 질분비물은 모체 에스트로겐에 의한 생리적 현상이며, 특별한 치료 없이 관찰하면 된다.
+모체 에스트로겐이 출생 후 감소하면 일시적인 소량의 질출혈이 나타날 수 있다. 발열·악취가 있거나 출혈이 길어지고 양이 많아지면 다른 원인을 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001173
+- https://medlineplus.gov/ency/article/001911.htm

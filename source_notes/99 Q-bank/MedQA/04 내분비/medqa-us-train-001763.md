@@ -18,8 +18,9 @@ related_disease_slugs:
 question_type: diagnosis
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-43세 남성이 정기검진을 위해 의원을 방문했다. 다른 점은 건강하지만 매일 아침 지속되는 두통이 있다고 한다. 더 물어보자 지난 몇 년 동안 장갑 사이즈를 자주 바꾸었고 결혼반지도 더 이상 맞지 않는다고 했다. 이는 체중이 늘었기 때문이라고 생각했다. 활력징후는 혈압 160/90 mm Hg, 심박수 82/min, 호흡수 21/min이다. 현재 외모는 사진에 제시되어 있다. 과거력상 2년 전부터 치료 중인 당뇨병이 있다. 다음 중 어떤 기관의 구조적 이상이 이 환자의 현재 증상을 일으켰을 가능성이 가장 높은가?
+43세 남성이 두통으로 내원했다. 최근 몇 년 동안 장갑 크기가 커지고 반지가 맞지 않게 됐다. 고혈압과 당뇨병도 있다. 이 증상을 함께 설명할 종양이 주로 발생하는 부위는?
 
 ## 선택지
 
@@ -46,7 +47,7 @@ D. 간
 ## 해설
 
 
-성인에서 두통, 손·발 크기 증가, 안면 골격 변화는 성장호르몬 과다분비를 의미하며, 이는 전엽 뇌하수체에 성장호르몬 분비 종양이 존재함을 시사한다. 따라서 가장 가능성 높은 구조적 이상은 전엽 뇌하수체이다.
+성인이 된 뒤 손 크기가 커지고 두통과 대사 이상이 동반되면 말단비대증을 의심한다. 가장 흔한 원인은 뇌하수체 전엽의 성장호르몬 분비 선종이다.
 
 ## 검수 근거
 

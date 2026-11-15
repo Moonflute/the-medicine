@@ -16,7 +16,7 @@ related_diseases:
 question_type: management
 related_disease_slugs: []
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,18 +33,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-21개월 남아가 영유아 건강검진을 받으러 왔다. 혼자 걷기 시작한 뒤 양쪽 다리 변형을 어머니가 발견했다. 건강은 양호하고 발달은 정상이며 발과 발목을 모아도 무릎 사이가 벌어졌다. 보행은 정상이었고 어머니는 성장장애를 걱정했다. 가장 적절한 다음 처치는?
+21개월 아이가 걸을 때 양쪽 다리가 대칭으로 휘어 보인다. 두 발목을 모으면 무릎 사이가 벌어지지만 성장과 보행은 정상이고, 통증도 없으며 변형은 악화하지 않았다. 처치는?
 
 ## 선택지
 
-A. 비타민 D 보충
-B. 안심시키고 추적관찰
-C. 하지 X선
-D. 하지 보조기
+A. 당장 보조기를 맞춘다
+B. 양쪽 무릎 수술을 예약한다
+C. 구루병 검사 없이 고용량 비타민 D를 시작한다
+D. 생리적 내반슬을 설명하고 정기 진료에서 호전 여부를 본다
 
 ## 해설
 
-발과 발목을 붙여도 무릎 사이가 벌어지는 것은 내반슬이다. 21개월에 대칭적이고 성장·보행이 정상이라 생리적 내반슬이 가능하여 안심과 추적(B)이 적절하다. 비대칭·진행·성장부진 또는 지속 시 병적 원인을 평가한다.
+걸음마 시기의 대칭적인 내반슬은 생리적일 수 있다. 비대칭·악화·성장 이상이 있거나 나이가 들어도 교정되지 않으면 구루병이나 블라운트병 등을 평가한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 하지 보조기
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001150
+- https://www.orthoinfo.org/bodypart/kneelower-leg/bowed-legs-blounts-disease/

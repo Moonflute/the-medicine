@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDYg7JWM66CI66W06riwL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTTEUpIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzIChTTEUpKS5tZA
   - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzKS5tZA
   - MDUg7Iug7J6lL-ujqO2RuOyKpCDsvantjKXsl7wgKEx1cHVzIE5lcGhyaXRpcykubWQ
-question_type: investigation
+question_type: monitoring
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -37,19 +37,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-29세 여자가 관절통과 눈에 띄는 발진으로 응급실에 내원했다. 12개월 동안 관절통이 있었고 최근 발진과 전신 권태감이 나타났다. 관절통은 대칭적이고 상지에 있으며 아침에 더 심하다. 체온은 97.6°F(36.4°C), 혈압 111/74 mmHg, 맥박 83회/분, 호흡수 14회/분, 산소포화도 98%이다. 검사에서 헤모글로빈 10 g/dL, 헤마토크릿 30%, 백혈구 수 6,800/mm³(감별 정상), 혈소판 수 207,000/mm³, BUN 30 mg/dL, 크레아티닌 1.8 mg/dL이다. 환자는 결국 입원했다. 다음 중 질병 진행을 모니터링하는 데 가장 적절한 검사는 무엇인가?
+루푸스신염으로 치료받은 29세 여성이 정기 추적 중이다. 최근 증상은 안정적이고 항dsDNA가 약간 상승했다. 신장 질환의 재활성 여부를 판단하는 데 함께 우선 볼 지표는?
 
 ## 선택지
 
-A. 항CCP 항체
-B. 항dsDNA 항체
-C. 항핵항체
-D. 류마티스인자
+A. 항핵항체 역가만 반복 측정
+B. 소변 단백/크레아티닌 비, 요침사와 혈청 크레아티닌
+C. 류마티스인자 역가
+D. 혈청 항CCP 항체
 
 ## 해설
 
 
-젊은 여성의 염증성 다관절 증상, 발진, 빈혈과 신기능 이상에서 SLE가 의심된다. 보기 중 anti-dsDNA B는 확진된 SLE의 활동성을 추적하는 데 도움을 줄 수 있다. 다만 발진 형태·소변·보체 등 정보 없이 SLE 신염을 확정할 수 없고 항체 수치만으로 악화나 치료 반응을 결정하지 않는다. 실제 추적에는 임상 증상, CBC, creatinine/eGFR, 소변 단백·침사와 보체를 함께 본다.
+루푸스신염의 추적에는 단백뇨와 요침사, 신기능 변화가 중요하다. 항dsDNA와 보체는 보조 지표이며, 항체 수치만으로 치료를 증량하지 않는다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 류마티스인자
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007470
+- https://kdigo.org/guidelines/lupus-nephritis/

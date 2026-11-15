@@ -18,7 +18,7 @@ question_type: prevention
 related_disease_slugs:
   - MDgg6rCQ7Je8L-yduO2UjOujqOyXlOyekCAoSW5mbHVlbnphKS5tZA
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 12주인 26세 초임부가 첫 산전 진료를 받으러 왔다. 흡연, 음주, 불법 약물, 성매개감염 병력은 없고 최근 해외여행도 없다. 3일 후 추수감사절에 캐나다 가족을 방문할 예정이다. 체온 97.5°F(36.3°C), 혈압 119/76 mmHg, 맥박 90회/분, 호흡수 20회/분, BMI 22 kg/m², 태아 맥박 136회/분이다. 혈액형은 B 음성이고 유행성이하선염과 풍진 항체가 음성이다. 이번 방문에서 가장 적절한 권고는?
+인플루엔자 유행기에 임신 12주인 산모가 이번 절기 백신을 아직 맞지 않았다. 접종 금기는 없다. 국내 국가예방접종에서 지금 맞을 수 있는 백신은?
 
 ## 선택지
 
-A. 인플루엔자 예방접종
-B. 홍역-유행성이하선염-풍진(MMR) 예방접종
-C. PCV23 예방접종
-D. Rh-D 면역글로불린
+A. 비강 생백신만 접종
+B. 임신 3삼분기까지 모든 인플루엔자 백신 연기
+C. 불활성화 인플루엔자 주사 백신
+D. 출산 뒤에만 인플루엔자 백신 접종
 
 ## 해설
 
-임신 중 인플루엔자 예방에는 불활성화 또는 재조합 주사용 백신(A)을 임신 어느 시기에도 투여할 수 있다. 비강 생약독화 인플루엔자 백신은 임신 중 금기이다. MMR은 출산 후 접종하며 RhIG 정기 예방은 통상 28주에 시행하고 별도 감작 사건이 있으면 추가 고려한다.
+국내 인플루엔자 국가예방접종은 임신 주수와 관계없이 해당 절기 임신부를 대상으로 한다. 임신 중에는 불활성화 주사 백신을 맞으며 비강 생백신은 피한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. Rh-D 면역글로불린
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007966
+- https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=134&menuLv=1

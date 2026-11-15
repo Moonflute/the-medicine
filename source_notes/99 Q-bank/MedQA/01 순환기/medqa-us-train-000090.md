@@ -23,6 +23,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -44,7 +45,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-고혈압과 고지혈증이 있는 53세 여성이 지난 2주간 전신 피부의 발적과 가려움증을 주소로 내원하였다. 증상은 매일 저녁 취침 전에 발생하며 약 30분간 지속된다. 3개월 전, 점진적으로 악화되는 목과 등 통증을 경험한 후 아토르바스타틴(atorvastatin) 복용을 중단하였다. 3주 전 더 낮은 용량으로 스타틴 치료를 재개했으나 근골격계 증상이 재발하여 다시 중단해야 했다. 월경은 2~3개월 간격으로 불규칙하며 3~4일간 지속된다. 지난 30년간 매일 담배 한 갑을 피워왔다. 현재 복용 중인 약물은 리시노프릴(lisinopril)과 나이아신(niacin)이다. 오빠는 결장 선암종(colonic adenocarcinoma)으로 사망했고, 아버지는 소세포폐암(small cell lung cancer)으로 사망했다. 키는 169cm, 체중은 83kg이며, 체질량지수(BMI)는 29kg/m2이다. 활력 징후는 정상 범위 내에 있다. 신체 검진상 이상 소견은 없다. 혈청 지질 검사 결과는 다음과 같다: 총 콜레스테롤 247mg/dL, HDL-콜레스테롤 39mg/dL, LDL-콜레스테롤 172mg/dL, 중성지방 152mg/dL. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+고혈압과 고지혈증이 있는 53세 여성이 지난 2주간 전신 피부의 발적과 가려움증을 주소로 내원하였다. 증상은 매일 저녁 취침 전에 발생하며 약 30분간 지속된다. 3개월 전, 점진적으로 악화되는 목과 등 통증을 경험한 후 아토르바스타틴(atorvastatin) 복용을 중단하였다. 3주 전 더 낮은 용량으로 스타틴 치료를 재개했으나 근골격계 증상이 재발하여 다시 중단해야 했다. 월경은 2~3개월 간격으로 불규칙하며 3~4일간 지속된다. 지난 30년간 매일 담배 한 갑을 피워왔다. 현재 복용 중인 약물은 리시노프릴(lisinopril)과 나이아신(niacin)이다. 오빠는 결장 선암종(colonic adenocarcinoma)으로 사망했고, 아버지는 소세포폐암(small cell lung cancer)으로 사망했다. 키는 169cm, 체중은 83kg이며, 체질량지수(BMI)는 29kg/m2이다. 활력 징후는 정상 범위 내에 있다. 신체 검진상 이상 소견은 없다. 혈청 지질 검사 결과는 다음과 같다: 총 콜레스테롤 247mg/dL, HDL-콜레스테롤 39mg/dL, LDL-콜레스테롤 172mg/dL, 중성지방 152mg/dL. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

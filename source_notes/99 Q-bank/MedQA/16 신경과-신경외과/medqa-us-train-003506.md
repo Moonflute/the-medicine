@@ -18,9 +18,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC9MZW50aWN1bG9zdHJpYXRlIOuPmeunpSDqsr3sg4kgKExlbnRpY3Vsb3N0cmlhdGUgYXJ0ZXJ5IGluZmFyY3Rpb24pLm1k
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,19 +33,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-61세 남성이 아침에 깨어난 뒤 시작된 오른팔과 다리의 점점 심해지는 근력저하로 응급실에 왔다. 오른쪽 얼굴이 처지고 오른쪽 상하지 근력이 감소했으며 오른쪽 심부건반사는 4+였다. 감각과 말의 속도 및 리듬은 정상이었다. 이 증상의 가장 가능성 높은 원인이 되는 경색 부위는?
+61세 환자가 갑자기 오른쪽 아래 얼굴과 오른팔·다리에 힘이 빠졌다. 감각은 보존되고 실어증이나 편측 무시는 없다. MRI에서 왼쪽 깊은 백질에 작은 경색이 보인다. 오른팔·다리 위약을 가장 잘 설명하는 위치는?
 
 ## 선택지
 
-A. 왼쪽 내낭 뒤다리
-B. 왼쪽 교뇌 기저부
-C. 왼쪽 외측 연수
-D. 왼쪽 소뇌 충부
+A. 왼쪽 시상의 감각핵
+B. 오른쪽 소뇌반구
+C. 왼쪽 내낭 뒤다리
+D. 왼쪽 대뇌 후두극
 
 ## 해설
 
 
-우측 얼굴 마비와 우측 사지의 순수 운동 약화는 좌측 내낭 뒤다리(내낭 후부) 손상에 해당한다. 이 부위는 피라미드로부터의 운동섬유가 지나가며, 감각이나 언어는 보존된다. 따라서 정답은 좌측 내낭 뒤다리이다.
+내낭 뒤다리에 피질척수로 섬유가 밀집해 있어 작은 병변도 반대쪽 팔·다리의 순수 운동위약을 일으킬 수 있다. 가까운 운동섬유 침범으로 하안면 약화도 동반될 수 있다.
 
 ## 출처
 

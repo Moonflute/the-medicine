@@ -17,9 +17,9 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: investigation
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-57세 미산부 여성이 2주 전 발견한 우측 유방 종괴로 내원했다. 4년 전 유방촬영술은 정상이었고 2년 전 폐경 후 심한 홍조와 질 건조로 호르몬대체요법을 받았다. 우측 유방 유두 근처에 단단하고 압통 없는 2cm 종괴가 있으며 피부·유두 변화와 액와 림프절병증은 없다. 유방촬영술에서 의심스러운 종괴가 보인다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+57세 환자의 유방에서 새 단단한 종괴가 만져진다. 진단용 유방촬영과 초음파에서 불규칙한 고형 종괴가 보이며 BI-RADS 5로 분류됐다. 다음 검사는?
 
 ## 선택지
 
-A. 골주사검사
-B. 혈청 CA 15-3 측정
-C. 유방절제술
-D. 중심침생검
+A. 6개월 뒤 유방촬영만 반복한다
+B. 영상 유도 중심바늘생검
+C. 혈청 CA 15-3 검사로 확진한다
+D. 조직 확인 없이 바로 전유방절제술을 한다
 
 ## 해설
 
 
-의심되는 유방 종괴에 대해 조직학적 확진이 필요하므로, 가장 적절한 다음 단계는 최소 침습적인 중심침생검이다. 이는 수술보다 먼저 시행되는 표준 진단 절차이다.
+악성이 강하게 의심되는 종괴는 영상 유도로 중심바늘생검을 시행해 조직학적 진단과 수용체 검사에 필요한 검체를 얻는다. 추적 영상이나 혈청 표지자만으로 대신하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 중심침생검
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006212
+- https://pubmed.ncbi.nlm.nih.gov/37236740/

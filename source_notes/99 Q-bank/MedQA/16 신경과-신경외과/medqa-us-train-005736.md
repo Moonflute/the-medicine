@@ -13,13 +13,13 @@ related_diseases:
   - "중증근무력증 위기"
   - "호흡근 피로"
   - "고탄산혈증"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_spJHspp0g6re866y066Cl7KadIChNeWFzdGhlbmlhIGdyYXZpcykubWQ
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-27세 여성이 수영 후 시작되어 지난 3일 동안 점차 진행된 호흡곤란으로 응급실에 왔다. 기침, 흉통 또는 다른 호흡기 증상은 부인한다. 지난 4개월 동안 운동 후 발생해 휴식 중에도 진행되는 호흡곤란 발작이 여러 차례 있었지만 현재처럼 오래 지속되지는 않았다. 말을 할 때 혀가 뭉친 느낌이 들고 낮에 쉽게 피로해진다고 한다. 활력징후는 혈압 125/60 mmHg, 심박수 분당 92회, 호흡수 분당 34회, 체온 36.2°C(97.2°F)이다. 실내 공기 산소포화도는 처음 92%였으나 말을 계속하자 90%로 떨어졌다. 약간 무기력하고 호흡은 빠르고 얕다. 폐, 심장 및 복부 청진은 특이소견이 없다. 신경학적 검사에서 반복적으로 눈을 깜박일 때 악화되는 양측 눈꺼풀처짐과 반복 동작으로 얼굴 및 상·하지 원위부 근육의 쉽게 피로해지는 소견이 있다. 이 환자에서 예상되는 동맥혈가스 수치는 무엇인가?
+중증근무력증이 있는 27세 환자가 말을 끝까지 잇기 어렵고 기침이 약하다. 분당 34회로 얕게 숨 쉬며 의식이 흐려지고 동맥혈 이산화탄소가 상승한다. 우선 처치는?
 
 ## 선택지
 
-A. PaCO₂=34 mmHg, PaO₂=61 mmHg
-B. PaCO₂=31 mmHg, PaO₂=67 mmHg
-C. PaCO₂=51 mmHg, PaO₂=58 mmHg
-D. PaCO₂=37 mmHg, PaO₂=46 mmHg
+A. 흉부 CT를 먼저 찍어 흉선종을 확인한다
+B. 기도를 신속히 확보하고 환기를 지원한다
+C. 피리도스티그민 경구 용량만 늘린다
+D. 산소만 주고 두 시간 뒤 혈가스를 재검한다
 
 ## 해설
 
 
-중증 근무력증 위기에서는 호흡근 피로로 저환기성 저산소혈증이 나타나며, PaCO₂가 상승하고 PaO₂가 감소한다. 따라서 PaCO₂ 51 mmHg, PaO₂ 58 mmHg가 예상되는 혈가스 결과이다.
+약한 기침·얕은 호흡에 고탄산혈증과 의식 저하가 있으면 이미 환기부전이 진행한 상태다. 위기 면역치료와 원인 평가는 기도와 환기 지원을 지연하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005736
+- https://pubmed.ncbi.nlm.nih.gov/40940171/

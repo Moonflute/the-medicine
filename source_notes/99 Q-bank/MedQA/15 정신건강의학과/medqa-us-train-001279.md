@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
   - MjAg67mE64eo6riw6rO8L-uwnOq4sOu2gOyghCAoRXJlY3RpbGUgRHlzZnVuY3Rpb24pLm1k
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,24 +40,26 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-주요우울장애, 천식 및 발기부전 병력이 있는 59세 남성이 우울한 기분, 의욕 저하, 과식 및 무쾌감으로 가정의학과에 내원했다. 현재 복용하는 약은 없다. 흡연력은 3갑년이며 금연을 원하지만 과거에 성공하지 못했다. 체질량지수는 29 kg/m^2이다. 의사는 기분 증상에 대해 항우울제 시작을 제안한다. 환자는 과거 세르트랄린을 복용했지만 발기부전이 악화되어 중단했기 때문에 주저한다. 다음 중 이 환자에게 가장 적절한 항우울제는 무엇인가?
+43세 남성이 주요우울장애로 SSRI를 복용한 뒤 성기능 부작용이 지속되어 약을 바꾸고 싶어 한다. 금연도 원하며 발작·섭식장애 병력은 없다. 적절한 항우울제는?
 
 ## 선택지
 
-A. 아미트립틸린
-B. 부프로피온
-C. 시탈로프람
-D. 미르타자핀
+A. 부프로피온
+B. 파록세틴
+C. 벤라팍신
+D. 아미트립틸린
 
 ## 해설
 
 
-흡연 중단을 돕는 항우울제로서 부프로피온은 니코틴 수용체 억제 효과가 있어 금연 성공률을 높이며, 성기능 부작용이 적다. 따라서 부프로피온이 가장 적절하다.
+부프로피온은 성기능 부작용 부담이 상대적으로 낮고 금연 치료에도 쓰인다. 발작이나 신경성 폭식증·식욕부진증 병력은 투약 전 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001279
+- https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/020358s070lbl.pdf
+- https://pubmed.ncbi.nlm.nih.gov/41139602/
 
 ## 검수 근거
 

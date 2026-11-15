@@ -13,11 +13,11 @@ related_diseases:
   - "급성 경막하혈종"
   - "뇌탈출"
   - "동측 편마비"
-question_type: prognosis
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4ztg4jstpwgKEJyYWluIGhlcm5pYXRpb24pLm1k
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,18 +40,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-62세 남성이 한 시간 전 아내에게 무반응 상태로 발견되어 응급실에 내원했다. 전날 저녁 계단에서 떨어졌고 4년 전 승모판 치환술을 받았다. 고혈압과 관상동맥질환이 있으며 아스피린, 와파린, 에날라프릴, 메토프롤롤 및 아토르바스타틴을 복용한다. 도착 당시 의식이 없고 체온은 37.3°C(99.1°F), 맥박은 분당 59회, 호흡수는 분당 7회로 불규칙하며 혈압은 200/102 mm Hg이다. 오른쪽 동공은 5mm로 고정되어 있고 왼쪽 동공은 4mm이며 빛에 반응한다. 통증 자극에 사지가 신전된다. 폐 청진은 깨끗하고 심장 진찰에서 수축기 클릭이 들린다. 복부는 부드럽고 압통이 없다. 기관삽관 후 기계환기를 시행하고 만니톨을 주입하기 시작했다. 비조영 두부 CT에서 오른쪽에 6cm 크기의 경막하혈종과 18mm 정중선 이동이 보인다. 다음 중 현재 상태의 초기 후유증으로 가장 가능성 높은 것은?
+와파린을 복용 중인 62세 환자가 낙상 뒤 혼수에 빠졌다. CT에서 큰 급성 경막하혈종과 정중선 이동이 있고 INR은 3.5다. 기도 확보와 응급 수술 준비를 진행하면서 시행할 항응고 역전은?
 
 ## 선택지
 
-A. 오른쪽 눈 내사시와 거상
-B. 양쪽 하지 마비
-C. 왼쪽 안면신경 마비
-D. 오른쪽 편마비
+A. 정맥 비타민 K만 투여하고 효과를 기다린다
+B. 프로타민을 투여한다
+C. 4인자 프로트롬빈복합체와 정맥 비타민 K를 투여한다
+D. 이다루시주맙을 투여한다
 
 ## 해설
 
-심한 우측 경막하혈종과 뇌간 압박은 뇌탈출을 시사한다. 일반적으로 우측 상천막 병변은 좌측 마비를 만들지만, 반대쪽인 좌측 대뇌각이 천막 가장자리에 눌리는 Kernohan-Woltman 절흔 현상에서는 혈종과 같은 쪽인 우측 편마비(D)가 나타날 수 있다. 이는 피라미드 교차 위에서 좌측 피질척수로가 압박되는 거짓 국소화 징후이다. 단순히 우측 대뇌반구가 눌려 우측이 마비된다고 설명할 수는 없다.
+와파린 관련 두개내출혈에서는 4인자 프로트롬빈복합체로 신속히 역전하고, 정맥 비타민 K로 효과를 유지한다. 응급 신경외과 처치를 늦추지 않는다.
 
 ## 검수 근거
 
@@ -62,3 +62,5 @@ D. 오른쪽 편마비
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006730
+- https://doi.org/10.1097/CCM.0000000000002057
+- https://braintrauma.org/coma/guidelines/surgical

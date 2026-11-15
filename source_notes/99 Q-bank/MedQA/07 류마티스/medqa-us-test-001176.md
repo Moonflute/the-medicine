@@ -20,7 +20,7 @@ question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-27세 여성이 2개월간 반복되는 손목과 목 통증으로 진료를 받으러 왔다. 아침에 손가락이 뻣뻣하고 하루가 지나면 호전되며 양쪽 중수지절관절이 붉고 압통이 있었다. 가장 진단에 도움이 되는 검사는?
+27세 여성이 2개월간 양쪽 손목과 중수지관절의 부종, 한 시간 넘는 아침 강직을 겪는다. 류마티스인자가 음성이지만 활막염이 확인됐다. 류마티스관절염을 뒷받침하는 데 가장 특이적인 혈청검사는?
 
 ## 선택지
 
-A. 활액 분석
+A. 항핵항체
 B. 항CCP 항체
-C. 류마티스인자
-D. 경추 X선
+C. 혈청 요산
+D. 항이중가닥 DNA 항체
 
 ## 해설
 
 
-양쪽 중수지절관절의 부종·압통과 아침 강직은 류마티스 관절염을 시사하며, 항CCP 항체는 질환 특이도가 높아 진단에 가장 도움이 된다.
+항CCP 항체는 류마티스관절염에 특이도가 높은 검사다. 류마티스인자가 음성이어도 검사할 수 있으며, 두 항체가 모두 음성이어도 지속적인 염증성 활막염은 전문 평가가 필요하다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 경추 X선
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001176
+- https://www.nice.org.uk/guidance/ng100/chapter/recommendations

@@ -13,11 +13,11 @@ related_diseases:
   - "헤르페스성 눈꺼풀염"
   - "단순포진 바이러스"
   - "수포성 결막염"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64uo7Iic7Y-s7KeE67CU7J2065-s7IqkIOqwkOyXvCAoSGVycGVzIFNpbXBsZXggVmlydXMgSW5mZWN0aW9uKS5tZA
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-7세 남아가 2일 동안 오른쪽 눈 주위의 눈부심과 가려움으로 내원했다. 아침에 오른쪽 속눈썹에 딱지가 있었고 천식과 아토피피부염 병력이 있다. 결막 충혈과 눈물성 분비물이 있으며 위아래 눈꺼풀에 붉은 바탕의 여러 수포가 보인다. 시력은 정상이다. 다음 중 가장 가능성 높은 원인은?
+7세 아이의 한쪽 눈꺼풀에 작은 수포가 모여 있고 눈이 충혈되고 빛이 불편하다. 플루오레세인 검사에서 끝이 둥글게 부푼 나뭇가지 모양의 각막상피 결손이 보인다. 다음 조치는?
 
 ## 선택지
 
-A. 전염성 연속종 바이러스
-B. 아데노바이러스
-C. 황색포도상구균
-D. 단순포진 바이러스
+A. 단순포진 상피각막염을 의심해 항바이러스 치료를 안과와 진행한다
+B. 스테로이드 점안제만 먼저 투여한다
+C. 알레르기로 보고 경구 항히스타민만 쓴다
+D. 시력 손상이 생길 때까지 관찰한다
 
 ## 해설
 
-붉은 바탕에 모여 있는 눈꺼풀 수포, 결막 충혈·수양성 분비물과 눈부심은 D, HSV 안검결막염에 합당하다. 아데노바이러스는 여포성 결막염이 전형적이며, 전염성 연속종의 피부 병변은 보통 중심 함몰 구진으로 이 수포 양상과 다르다. 시력이 현재 정상이어도 각막 침범이 동반되는지 평가할 필요가 있다.
+끝이 둥근 가지 모양의 상피 결손은 단순포진 상피각막염의 전형적 단서다. 항바이러스 치료를 평가하고 활동성 상피 병변에 스테로이드 단독은 피한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 단순포진 바이러스
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004941
+- https://www.aao.org/education/clinical-statement/herpes-simplex-virus-keratitis-treatment-guideline

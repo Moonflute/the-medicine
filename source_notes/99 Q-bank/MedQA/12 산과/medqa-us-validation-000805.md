@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-ycteuqqCDslpHrp4nsl7wgKENob3Jpb2Ftbmlvbml0aXMpLm1k
   - MTIg7IKw6rO8L-yhsOq4sCDslpHrp4kg7YyM7IiYIChQcmVtYXR1cmUgUnVwdHVyZSBvZiBNZW1icmFuZXMpLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 35주인 33세 여성(임신 2회, 출산 1회)이 2일간의 양수 누출 후 발열과 활발한 진통으로 입원했다. 체온 39.6°C, 맥박 125회/분, 자궁 압통, 자궁경부 완전 소실과 10 cm 개대, 태아 심박수 180회/분이다. 가장 적절한 처치는?
+임신 35주 산모가 파수 2일 뒤 진통 중 39.5°C 고열과 자궁 압통을 보인다. 자궁경부가 완전히 열렸고 태아 심박수는 분당 180회다. 다음 조치는?
 
 ## 선택지
 
-A. 양수주입
-B. 암피실린과 겐타마이신
-C. 정맥 베타메타손
-D. 리토드린 염산염
+A. 아기 폐성숙을 위해 분만을 48시간 미룬다
+B. 양막내 감염이 의심되면 그 자체로 즉시 제왕절개한다
+C. 열이 떨어질 때까지 자궁수축억제제를 준다
+D. 정맥 암피실린과 겐타마이신을 시작하고 분만을 진행한다
 
 ## 해설
 
-고열·자궁압통·장시간 파수·태아빈맥은 양막내 감염을 시사한다. 암피실린과 겐타마이신(B)을 즉시 투여하고 분만을 진행하며 신생아팀에 알린다. 완전개대 상태에서 수축억제로 분만을 미루지 않는다. 이는 다균성 감염에 대한 경험치료이지 ‘2세대 감염’이라는 분류가 아니다.
+장시간 파수 후 고열과 태아 빈맥은 양막내 감염을 시사한다. 즉시 광범위 정맥 항생제를 투여하고 분만을 진행하면서 신생아팀에 알린다. 감염 자체만으로 제왕절개가 필수인 것은 아니다.
 
 ## 검수 근거
 

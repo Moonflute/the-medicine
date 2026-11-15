@@ -13,14 +13,14 @@ related_diseases:
   - "placental abruption"
   - "disseminated intravascular coagulation"
   - "elevated D-dimer"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
   - MDkg7ZiI7JWhL-2MjOyihSDtmIjqtIDrgrQg7J2R6rOgIChEaXNzZW1pbmF0ZWQgSW50cmF2YXNjdWxhciBDb2FndWxhdGlvbiwgRElDKS5tZA
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 30주인 34세 여성(G3P2)이 남편에게 신체적 폭행을 당한 후 심한 질 출혈과 복통으로 입원했다. 혈압 80/50 mmHg, 맥박 117회/분으로 불규칙, 호흡수 20회/분, 체온 36.2℃이다. 태아 심박동은 103회/분이며 환자는 창백하고 기면 상태이다. 복부 촉진에서 심한 자궁 압통과 강직성 수축이 있고 회음부에 피가 가득하다. 자궁경부를 통해 혈전과 함께 지속적인 다량 출혈이 있으며 초음파에서 약 400 mL의 태반후 혈종이 보인다. 적혈구 3.0 million/mL, Hb 7.2 g/dL, 혈소판 61,000/mm³, PT 310초, aPTT 420초, 피브리노겐 16 mg/dL이다. 이 합병증에서 상승하는 것이 특징적인 검사 표지자는?
+중증 태반조기박리로 산모가 대량 출혈 중이다. 수혈을 시작했으나 혈소판은 줄고 PT는 길어졌으며 피브리노겐은 90 mg/dL다. 출혈원 조절을 진행하며 특히 보충해야 할 성분은?
 
 ## 선택지
 
-A. 프로칼시토닌
-B. C-반응단백
-C. 크레아티닌
-D. D-이합체
+A. 칼슘을 보충하면 응고인자 치료는 불필요하다
+B. 동결침전제 또는 피브리노겐 농축제로 피브리노겐을 보충한다
+C. 혈소판만 투여하고 피브리노겐은 추적하지 않는다
+D. 항응고제인 헤파린을 우선 투여한다
 
 ## 해설
 
 
-태반조기박리와 대량 출혈 후 PT·aPTT가 현저히 연장되고 혈소판 감소, 피브리노겐 소실은 DIC를 나타낸다. DIC에서는 섬유소 분해산물인 D-이합체가 상승한다.
+산과 대량 출혈 중 피브리노겐이 크게 감소하면 응고병증을 시사한다. 출혈 조절과 수혈을 병행하고 동결침전제나 피브리노겐 농축제로 신속히 보충한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008243
+- https://www.who.int/publications/i/item/9789240115637
+- https://www.hse.ie/eng/about/who/acute-hospitals-division/woman-infants/clinical-guidelines/prevention-and-management-of-primary-postpartum-haemorrhage1.pdf

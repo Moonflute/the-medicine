@@ -13,11 +13,11 @@ related_diseases:
   - "고혈압성 뇌내출혈"
   - "관통동맥 파열"
   - "기저핵 출혈"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_stpztmIjshLEg64eM7KG47KSRIChIZW1vcnJoYWdpYyBTdHJva2UpLm1k
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-50세 남성이 한 시간 동안 지속된 심한 두통으로 응급실에 내원했다. 오심과 피가 섞이지 않은 구토 한 차례도 있었다. 고혈압과 제2형 당뇨병 병력이 있다. 흡연과 음주는 하지 않는다. 에날라프릴과 메트포르민을 복용하지만 규칙적으로 복용하지 않는다고 한다. 체온은 37°C(98.6°F), 맥박은 분당 80회, 혈압은 190/110 mm Hg이다. 사람은 알아보지만 장소와 시간은 인지하지 못한다. 신체진찰에서 오른쪽 다리와 팔의 근력이 감소되어 있고 오른쪽 상지와 하지의 심부건반사는 3+이다. 비조영 두부 CT에서 왼쪽 대뇌반구에 저음영 부종으로 둘러싸인 단일 고음영 병변이 보인다. 다음 중 이 증상의 기저 원인으로 가장 가능성 높은 것은?
+고혈압이 있는 58세 환자가 갑자기 오른쪽에 힘이 빠졌다. 비조영 CT에서 왼쪽 조가비핵의 작은 자발성 뇌내출혈이 보인다. 의식은 명료하고 혈압은 184/104 mmHg다. 초기 혈압 관리로 적절한 것은?
 
 ## 선택지
 
-A. 작은 관통동맥의 파열
-B. 교량정맥의 파열
-C. 낭상 동맥류의 파열
-D. 동정맥기형의 파열
+A. 첫날 수축기혈압 180–200 mmHg를 그대로 유지한다
+B. 수축기혈압을 가능한 한 빨리 120 mmHg 미만으로 내린다
+C. 경구 혈압약만 투여하고 다음 날까지 재측정하지 않는다
+D. 적정 가능한 정맥 약으로 수축기혈압 목표 약 140 mmHg에 부드럽게 접근한다
 
 ## 해설
 
-심한 고혈압과 급성 국소 신경학적 결손, CT의 뇌실질 내 고밀도 병변은 뇌내출혈에 맞는다. 제시된 선택지 중 만성 고혈압과 관련된 작은 관통동맥 파열(A)이 가장 가능성이 높다. 가교정맥 파열은 경막하출혈, 낭성 동맥류 파열은 주로 지주막하출혈과 연결된다. 모든 반구 출혈이 고혈압 때문인 것은 아니므로 비전형적 위치나 임상상에서는 혈관병변 등 다른 원인을 평가한다.
+경도–중등도 자발성 뇌내출혈에서 처음 수축기혈압이 150–220 mmHg라면 약 140을 목표로 하고 130–150 범위에서 유지하는 전략을 고려한다. 130 미만으로 급히 낮추는 것은 피한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 동정맥기형의 파열
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006441
+- https://www.ahajournals.org/doi/10.1161/STR.0000000000000407

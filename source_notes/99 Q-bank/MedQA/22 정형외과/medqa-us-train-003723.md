@@ -19,6 +19,7 @@ related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yImOq3vOq0gCDspp3tm4TqtbAgKENhcnBhbCBUdW5uZWwgU3luZHJvbWUpLm1k
 difficulty: standard
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -33,7 +34,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-61세 여성이 4주간 지속된 오른손의 야간 작열감과 저림으로 내원했다. 손목을 흔들면 호전되었고 오른쪽 엄지, 검지, 중지의 감각이상과 손목 굴곡 시 저림이 있었다. 다음 중 가장 적절한 다음 처치는?
+61세 여성이 4주간 지속된 오른손의 야간 작열감과 저림으로 내원했다. 손목을 흔들면 호전되었고 오른쪽 엄지, 검지, 중지의 감각이상과 손목 굴곡 시 저림이 있었다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

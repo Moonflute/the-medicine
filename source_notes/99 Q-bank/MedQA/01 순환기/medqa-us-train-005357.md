@@ -19,7 +19,7 @@ question_type: management
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-42세 여자가 반복되는 흉통과 턱으로 방사되는 압박감으로 내원했다. 심전도에서 ST분절 상승이 보이나 심근효소는 반복해서 정상이다. 다음 중 의심되는 질환에 허용되는 치료요법은?
+42세 여성이 새벽마다 안정 중 흉통이 반복된다. 통증 중 ST분절이 상승했다가 통증이 끝나면 정상화되고 연속 트로포닌은 정상이다. 조영술에서 고정된 중증 협착은 없고 관상동맥 연축이 확인됐다. 재발 예방의 첫 약물은?
 
 ## 선택지
 
-A. 질산염만 투여
-B. 아스피린과 클로피도그렐
-C. 칼슘통로차단제와 질산염
-D. 아스피린, 클로피도그렐, 베타차단제와 질산염
+A. 아스피린
+B. 프로프라놀롤
+C. 딜티아젬
+D. 헤파린
 
 ## 해설
 
 
-프린츠메탈 협심증은 관상동맥 경련에 의한 일시적 ST 상승이며, 칼슘채널 차단제와 질산염이 경련을 완화한다. 따라서 가장 적절한 치료는 칼슘통로 차단제와 질산염이다.
+확인된 혈관연축 협심증의 예방에는 칼슘통로차단제가 기본이다. 질산염은 증상 완화 또는 추가 예방에 쓸 수 있다. 비선택적 베타차단제는 연축을 악화시킬 수 있다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 아스피린, 클로피도그렐, 베타차단제와 질산염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005357
+- ESC 만성 관상동맥증후군 진료지침(2024): https://doi.org/10.1093/eurheartj/ehae177

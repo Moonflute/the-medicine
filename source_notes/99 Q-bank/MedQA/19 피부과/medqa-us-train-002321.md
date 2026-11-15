@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -32,7 +33,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-73세 남성이 피부과에 내원했다. 가정의가 코 뒤쪽에 궤양성 판을 발견했으며, 햇빛 차단을 해도 크기와 형태가 변하고 여러 차례 출혈했다. 피부병변은 편평세포암으로 진단되어 표준 절제술을 받았지만 병리보고서에서 불완전 절제로 나타났다. 다음 중 가장 적절한 치료의 다음 단계는?
+73세 남성이 피부과에 내원했다. 가정의가 코 뒤쪽에 궤양성 판을 발견했으며, 햇빛 차단을 해도 크기와 형태가 변하고 여러 차례 출혈했다. 피부병변은 편평세포암으로 진단되어 표준 절제술을 받았지만 병리보고서에서 불완전 절제로 나타났다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

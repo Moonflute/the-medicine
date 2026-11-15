@@ -13,11 +13,11 @@ related_diseases:
   - "강박장애"
   - "강박사고"
   - "강박행동"
-question_type: 임상증례 객관식
+question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qwleuwlSDsnqXslaAgKE9ic2Vzc2l2ZS1Db21wdWxzaXZlIERpc29yZGVyLCBPQ0QpLm1k
 difficulty: simple
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,24 +34,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 여자가 정서적 고통으로 진료실에 왔다. 지난 몇 달간 불행했고 수면과 식욕에 문제가 있었다. 또한 집 안의 더러움에 대한 생각 때문에 심한 불안을 느낀다고 한다. 하루에 문손잡이를 5~10번씩 모두 닦지만, 그런 행동에도 불구하고 청소와 관련된 스트레스는 점점 심해지고 있다. 이 환자의 진단은 무엇인가?
+35세 환자는 문손잡이를 만지면 오염됐다는 생각이 반복해서 떠오른다. 과도하다는 걸 알면서도 불안을 줄이려 하루 두 시간씩 확인하고 닦느라 외출에 늦는다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 강박장애
-B. 틱장애
-C. 공황장애
-D. 범불안장애
+A. 강박성 성격장애
+B. 강박장애
+C. 범불안장애
+D. 틱장애
 
 ## 해설
 
 
-반복적인 손 씻기·청소 강박행동과 그에 대한 불안·고통은 강박장애의 핵심 증상이다. 강박사고와 강박행동이 일상 기능을 방해하므로 진단은 강박장애가 된다.
+원치 않는 침투적 사고와 불안을 줄이기 위한 반복행동이 시간을 소모하고 기능을 방해하면 강박장애를 의심한다. 완벽주의적 성격 특성이나 여러 주제에 대한 걱정과는 다르다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003997
+- https://www.nice.org.uk/guidance/cg31/chapter/Recommendations
 
 ## 검수 근거
 

@@ -17,9 +17,9 @@ related_diseases:
 related_disease_slugs: []
 question_type: management
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-비정형 자궁내막증식증으로 전자궁적출술을 받은 지 4일 후 59세 여성이 복부 팽만과 불편감을 호소했다. 구토 없이 오심이 있고 수술 이후 아무것도 먹지 못한 채 물만 조금씩 마셔 식욕이 없다. 수술 후 통증은 하이드로모르폰 환자조절진통기로 잘 조절되었다. 수술 후 2일째 도뇨관을 제거했고 현재 자발적으로 배뇨한다. 대부분 침상에 누워 있지만 물리치료사와 병실을 걸을 수 있다. 체온 36.5°C(97.7°F), 맥박 84회/분, 호흡수 10회/분, 혈압 132/92 mm Hg이다. 복부가 약간 팽창되고 고막음이 나며 장음은 없다. 검사실 결과는 정상이고 복부 X선에서 소장, 대장, 직장에 공기가 균일하게 분포하며 공기-액체층은 없다. 가장 적절한 다음 처치는?
+복부 수술 4일째인 여성이 오피오이드 진통제 사용 중 복부팽만을 호소한다. CT에서 소장과 대장이 고르게 늘었지만 이행점이나 누출은 없다. 전해질은 정상이고 활력도 안정적이다. 장 운동 회복을 돕는 조치는?
 
 ## 선택지
 
-A. 식도위십이지장내시경
-B. 오피오이드 사용 감소
-C. 대장내시경
-D. 총정맥영양 시작
+A. 기존 오피오이드 용량을 올린다
+B. 마비성 장폐색에 곧바로 네오스티그민을 정맥투여한다
+C. 오피오이드를 줄이고 다른 진통법과 조기 보행을 병행한다
+D. 소장폐색으로 보고 유착을 풀기 위해 개복한다
 
 ## 해설
 
 
-수술 후 장 마비는 오피오이드 진통제에 의해 악화될 수 있다. 오피오이드 사용을 감소시키면 장 운동이 회복된다.
+뚜렷한 이행점 없이 장 전체가 늘어나면 수술 후 마비성 장폐색을 고려한다. 가능한 범위에서 오피오이드를 줄이고 보행과 전해질 관리를 병행한다. 악화하면 기계적 폐색이나 수술 합병증을 다시 확인한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 총정맥영양 시작
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008026
+- https://doi.org/10.1007/s00464-022-09758-x

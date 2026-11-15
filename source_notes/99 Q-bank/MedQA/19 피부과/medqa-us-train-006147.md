@@ -17,7 +17,7 @@ related_diseases:
 question_type: investigation
 related_disease_slugs: []
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-51세 인도인 남성이 2개월 동안 양손에 생긴 수포로 내원했다. 고속도로에서 야외 포장공으로 일하며 3개월 전 시멘트 작업 중 허벅지와 허리에 날카로운 통증이 생겨 나프록센을 하루 두 번 복용해 왔다. 허리 통증은 호전되었지만 양손에 수포가 생겼다. 얼굴과 사지 피부는 정상이고 양손 등쪽에 정상 피부 위로 2mm 크기의 과다색소 침착 흉터와 수포, 그 주위에 작은 흰색 구진이 있다. 다음 중 관리의 다음 단계는 무엇인가?
+51세 남성이 나프록센을 복용하기 시작한 뒤 햇빛에 노출되는 양손등에 물집과 흰색 작은 돌기, 흉터가 생겼다. 만발성 피부 포르피린증과 약물 유발 가성포르피린증을 구별할 검사는?
 
 ## 선택지
 
-A. 글루텐을 식단에서 제거하는 것을 고려
-B. 대변잠혈검사
-C. 소변 유로포르피린 수치 측정
-D. 항핵항체 및 신장 패널 검사
+A. 소변 포르피린 분획 검사
+B. 항핵항체 검사
+C. 혈청 BP180 항체 검사
+D. 단순포진바이러스 PCR
 
 ## 해설
 
-손등의 광노출 수포·흉터·비립종은 PCT 또는 pseudoporphyria를 시사한다. Naproxen은 pseudoporphyria를 유발할 수 있으므로 소변 uroporphyrin 등 porphyrin 검사(C)로 감별하는 것이 적절하다. PCT는 porphyrin이 증가하지만 pseudoporphyria에서는 보통 정상이다. 임상 모습만으로 PCT를 확정하거나 피부근육증으로 부르지 않는다.
+두 병은 피부 모양이 비슷하지만 만발성 피부 포르피린증에서는 소변 포르피린 분획이 비정상적으로 증가하며, 가성포르피린증에서는 대개 정상이다.
 
 ## 검수 근거
 

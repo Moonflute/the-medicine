@@ -13,14 +13,14 @@ related_diseases:
   - "대상포진"
   - "수두-대상포진 바이러스"
   - "후근신경절 재활성화"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-uMgOyDgSDtj6zsp4QgKEhlcnBlcyBab3N0ZXIpLm1k
   - MDgg6rCQ7Je8L-yImOuRkC3rjIDsg4Htj6zsp4Qg67CU7J2065-s7IqkIOqwkOyXvCAoVmFyaWNlbGxhLVpvc3RlciBWaXJ1cyBJbmZlY3Rpb24pLm1k
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-70세 여성이 6일 동안 지속된 오른쪽 등 위쪽과 흉부의 타는 듯한 통증으로 내원했다. 최근 외상이나 이전 요통은 없다. 고혈압과 위식도 역류병이 있고 동물보호소에서 주 3회 봉사한다. 체온 36.9°C, 맥박 분당 76회, 혈압 145/92 mmHg이다. 등에서 오른쪽 유방 아래까지 여러 투명 수포와 딱지가 덮인 긴 홍반성 발진이 이어진다. 다음 중 이 질환의 가장 가능성 높은 기전은?
+70세 환자가 닷새째 한쪽 가슴에서 등으로 이어지는 작열통과 수포성 발진을 보인다. 면역저하나 눈 침범은 없지만 오늘도 새로운 수포가 생겼다. 적절한 치료 판단은?
 
 ## 선택지
 
-A. 후근신경절에서 바이러스 재활성화
-B. 상부 진피의 IgA 침착
-C. 표피의 세균성 림프관 감염
-D. 흡혈 기생충 감염
+A. 72시간이 지났으므로 새 수포가 있어도 치료하지 않는다
+B. 항바이러스 치료 대신 전신 스테로이드만 시작한다
+C. 새 수포가 계속 생겨 경구 항바이러스 치료를 고려한다
+D. 피부에 국소 항생제만 사용한다
 
 ## 해설
 
 
-대상포진은 감각신경절(후근신경절)에서 수두-대상포진 바이러스가 재활성화되어 발생하며, 수포와 딱지가 따라 나타나는 일방성 피부 발진을 만든다. 환자의 수포성 발진과 통증이 이 메커니즘에 부합한다. 따라서 가장 가능성 높은 기전은 후근신경절에서 바이러스 재활성화이다.
+대상포진은 항바이러스 치료를 가능한 한 일찍 시작한다. 72시간이 지나도 새 수포가 생기거나 합병증 위험이 높으면 치료를 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000165
+- https://onlinelibrary.wiley.com/doi/10.1111/ddg.14013
+- https://www.aafp.org/pubs/afp/issues/2017/1115/p656.html

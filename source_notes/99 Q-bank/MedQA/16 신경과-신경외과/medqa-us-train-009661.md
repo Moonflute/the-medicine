@@ -31,7 +31,7 @@ related_drug_slugs:
   - ZHJ1ZzowMSDsi6ztmIjqs4QvRG9wYW1pbmUubWQ
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: DLB의 선조체 DAT 감소와 후두엽 저대사를 혼동한 선택지 교정"
 curation_status: "revised"
 curation_reason: "DLB의 선조체 DAT 감소와 후두엽 저대사를 혼동한 선택지 교정"

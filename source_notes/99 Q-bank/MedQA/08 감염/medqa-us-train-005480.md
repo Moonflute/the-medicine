@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-uptOyXreyggO2VmOyekCDqsJDsl7wgKEltbXVub2NvbXByb21pc2VkIEhvc3QgSW5mZWN0aW9uKS5tZA
 question_type: management
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -41,19 +41,19 @@ related_drug_slugs:
 
 ## 문제
 
-AIDS가 있고 CD4 세포 수가 44/mm³인 40세 남자가 3주 동안 간헐적 발열, 복통, 설사, 마른기침과 체중감소로 내원했다. 구강 칸디다증, 구강털백반, 보라색 피부판, 림프절병증, 간비장비대가 있고 혈액배양에서 항산균이 자랐다. 가장 적절한 약물치료는?
+치료받지 않은 HIV 환자에게 발열, 체중감소와 간비장비대가 있다. CD4는 34/μL이고 혈액에서 마크롤라이드 감수성 Mycobacterium avium 복합체가 확인됐다. 항레트로바이러스 치료와 함께 항균요법의 기본 조합으로 적절한 것은?
 
 ## 선택지
 
-A. 암포테리신 B와 이트라코나졸
-B. 리팜핀과 이소니아지드
-C. 에리트로마이신
-D. 아지스로마이신과 에탐부톨
+A. 아지트로마이신과 에탐부톨
+B. 아지트로마이신 단독
+C. 이소니아지드와 피라진아미드
+D. 리팜핀 단독
 
 ## 해설
 
 
-CD4<50·전신증상·간비장비대와 혈액 항산균 배양은 파종 MAC을 가장 의심하게 한다. D의 macrolide+ethambutol은 기본 치료이며 균종·macrolide 감수성과 약물 상호작용을 확인하고 중증도/종양부하에 따라 추가약을 고려한다. AFB 양성이 곧 MAC 확진이라는 뜻은 아니고 TB 등 균종을 구별한다. ART 재개/최적화가 함께 필요하다.
+파종성 MAC 감염에는 내성 발생을 줄이기 위해 마크롤라이드와 에탐부톨 등 최소 두 약을 병용한다. 중증도·내성 위험·약물 상호작용에 따라 추가 약제를 검토한다.
 
 ## 검수 근거
 

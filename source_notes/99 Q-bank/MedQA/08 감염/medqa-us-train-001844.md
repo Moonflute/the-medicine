@@ -15,11 +15,11 @@ related_diseases:
   - "Borrelia burgdorferi"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-udvOyehOuzkSAoTHltZSBEaXNlYXNlKS5tZA
-question_type: mechanism
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-28세 남성이 12시간 동안의 어지럼과 두근거림, 1주일간의 발열·권태감·두통·근육통으로 내원했다. 4주 전 매사추세츠 숲을 여행했다. 체온 38.3°C (100.9°F), 맥박 52/min, 호흡 16/min, 혈압 126/84 mm Hg이다. 오른쪽 오금에 황소눈 모양의 지름 10-cm 홍반성 병변이 하나 있고 ECG에서 Mobitz I 2도 방실차단이 보인다. 혈구검사와 전해질은 정상이고 ESR은 35 mm/hour이다. 심장 증상의 가장 가능성 높은 원인은 무엇인가?
+미국 북동부 여행 뒤 가운데가 옅은 홍반이 서서히 커졌던 환자가 어지럼으로 왔다. 심전도에 2도 방실차단이 보인다. 라임 심장염이 강하게 의심될 때 검사와 함께 할 처치는?
 
 ## 선택지
 
-A. Mycoplasma 감염
-B. 스피로헤타 감염
-C. Aedes aegypti 모기에 의한 바이러스 감염
-D. 성매개 세균 감염
+A. 경구 독시사이클린만 처방하고 당일 귀가시킨다
+B. 입원해 심전도를 연속 감시하고 정맥 세프트리악손을 시작한다
+C. 혈청 항체검사가 확정될 때까지 항생제를 보류한다
+D. 가역 원인을 치료하기 전에 영구 심박동기를 일률적으로 삽입한다
 
 ## 해설
 
 
-Lyme disease는 Borrelia burgdorferi에 의해 발생하며, 심장 전도계에 영향을 주어 2도 AV 차단을 일으킬 수 있다. 따라서 스피로헤타 감염이 가장 가능성 높은 원인이다.
+라임 심장염의 2도 이상 방실차단은 악화할 수 있어 입원 감시와 정맥 세프트리악손으로 치료한다. 증상과 차단 정도에 따라 일시 심박조율을 고려한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ Lyme disease는 Borrelia burgdorferi에 의해 발생하며, 심장 전도계에
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001844
+- https://www.cdc.gov/lyme/hcp/clinical-care/lyme-carditis.html

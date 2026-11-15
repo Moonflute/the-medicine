@@ -15,9 +15,9 @@ related_diseases:
   - "AIDS"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-52세 여성이 얼굴과 몸통의 발진, 야간 발한, 미열, 설사, 의도하지 않은 체중 감소로 내원했다. 노숙 중이며 정맥주사 약물 사용과 여러 성 파트너와의 무방비 성관계가 있다. 얼굴과 등에 경계가 뚜렷한 자주색 판과 구진이 보인다. 흉부 X선에서 미세한 망상 및 간질성 변화, CD4+ 수 50/mm³, 원문에 'HIV에 대한 RPR 양성'으로 기재되어 있으나 RPR은 HIV 진단검사가 아니다. 피부 병변의 가장 가능성 높은 원인은?
+HIV 치료를 중단한 환자에게 통증이 없는 자주색 피부 판이 여러 개 생겨 카포시육종이 의심된다. 병변을 확진하는 방법은?
 
 ## 선택지
 
-A. 사람 알파헤르페스바이러스 3형(HHV-3)
-B. HHV-8 감염
-C. HHV-5 감염
-D. HHV-6 감염
+A. 혈액 HHV-8 항체 양성만으로 확진
+B. 치료 반응만 보고 카포시육종으로 확진
+C. 피부 표면 일반 세균배양
+D. 피부 조직검사와 HHV-8 관련 면역조직화학염색
 
 ## 해설
 
 
-자주색 경계 뚜렷한 판/구진과 면역저하 맥락은 Kaposi육종을 시사하여 HHV8 B가 가장 관련된다. 실제 피부 진단은 조직검사로 평가한다. 원문 ‘positive RPR for HIV’는 검사 오류 표현이다. RPR은 매독 관련 비트레포네마 검사이지 HIV 검사 또는 viral load가 아니므로 적절한 HIV Ag/Ab·확인 알고리즘을 적용해야 한다. 이 잘못된 표기를 사실인 HIV 확진 근거로 사용하지 않는다.
+카포시육종은 병변 조직에서 특징적인 혈관성 증식과 HHV-8 잠복 핵항원 염색을 확인해 진단한다. 바이러스에 노출된 적이 있다는 혈액검사만으로는 확진할 수 없다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. HHV-6 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008168
+- https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/human-herpesvirus

@@ -21,9 +21,9 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-q4ieyEsSDrprztlITrqqjqtazshLEg67Cx7ZiI67ORIChBTEwpIChBY3V0ZSBMeW1waG9ibGFzdGljIExldWtlbWlhKS5tZA
   - MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -36,21 +36,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-4세 여아가 3주간 지속된 전신 피로감과 쉽게 멍이 드는 증상으로 내원하였다. 지난 일주일 동안 발열과 밤에 잠을 깰 정도의 심한 다리 통증이 있었다. 체온은 38.3°C, 맥박은 120회/분, 호흡수는 30회/분이다. 진찰상 경부 및 액와 림프절병증이 관찰된다. 복부는 부드럽고 압통은 없으며, 간은 우측 늑골 하단 3cm 아래에서, 비장은 좌측 늑골 하단 2cm 아래에서 촉진된다. 검사실 검사 결과는 다음과 같다: 혈색소 10.1 g/dL, 백혈구 수 63,000/mm3, 혈소판 수 27,000/mm3. 골수 흡인 검사에서 CD10, CD19, TdT 양성 반응을 보이는 미성숙 세포가 우세하게 나타났다. 가장 가능성이 높은 진단은 무엇인가?
+4세 아이가 열, 창백, 멍과 지속되는 다리 통증을 보인다. 혈소판은 27,000/μL이고 간비장비대가 있다. 골수의 미성숙 세포에서 CD19·CD10·TdT가 확인됐으며 골수과산화효소는 음성이다. 진단은?
 
 ## 선택지
 
-A. 호지킨 림프종(Hodgkin lymphoma)
-B. 털세포 백혈병(Hairy cell leukemia)
-C. 재생불량성 빈혈(Aplastic anemia)
-D. 급성 림프모구 백혈병(Acute lymphoblastic leukemia)
+A. 급성 골수성 백혈병
+B. T 림프모구성 백혈병
+C. B 림프모구성 백혈병
+D. 재생불량성 빈혈
 
 ## 해설
 
 
-고백혈구수, 저혈소판, 골수에서 CD10·CD19·TdT 양성 전구세포는 전구 B‑세포 급성 림프모구성 백혈병을 나타낸다. 따라서 가장 가능성 높은 진단은 급성 림프모구 백혈병이다.
+TdT는 미성숙 림프계 세포의 단서이고, CD19와 CD10 발현은 B계열 림프모구성 백혈병에 합당하다. 정확한 아형과 위험도는 추가 유전검사로 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001024
+- https://pubmed.ncbi.nlm.nih.gov/21800074/

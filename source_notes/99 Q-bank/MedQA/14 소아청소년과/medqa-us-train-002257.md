@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_snITsi53rj4Qg7Jet66WYIOyniO2ZmCAoR0VSRCkgKEdhc3Ryb2Vzb3BoYWdlYWwgUmVmbHV4IERpc2Vhc2UpLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 3개월 남아가 정기 영유아 검진을 위해 어머니와 함께 내원했다. 3시간마다 일반 우유분유 4온스를 먹는다. 보통 하루 한 번 대변을 보고 하루 최대 여섯 번 소변을 본다. 대부분의 수유 후 코와 입으로 중간 정도의 분유를 역류시키며, 역류 후 추가로 먹으려 하지 않고 식사 시간에 점점 더 보챈다. 일부 수유를 거부하기 시작했다. 어머니는 대변에 피나 붉은 줄무늬를 본 적이 없고 음식 알레르기나 피부질환 가족력도 없다. 생후 첫 달 체중은 75백분위수였으나 4주 전 62백분위수, 현재 48백분위수로 감소했다. 키와 머리둘레도 비슷한 추세이다. 신체검사에서 웃음에 상호 반응하고 엎드린 자세에서 머리와 가슴을 들어 올릴 수 있다. 복부는 부드럽고 압통이나 팽만이 없다. 다음 중 가장 적절한 치료의 다음 단계는?
+3개월 분유수유 영아가 대부분의 수유 뒤 눈에 띄게 많이 게운다. 수유량과 조유 방법을 점검해 과량 수유를 줄였지만 계속된다. 체중은 잘 늘고 피나 담즙이 섞인 구토와 수유 거부는 없다. 증상 완화에 추가로 고려할 조치는?
 
 ## 선택지
 
-A. 복부 초음파를 시행한다
-B. 자세 교정과 수유 농축을 교육한다
-C. 안심시키고 관찰한다
-D. 가수분해 분유로 바꾼다
+A. 검사 없이 장기 양성자펌프억제제를 시작한다
+B. 잠잘 때 경사면에 옆으로 눕힌다
+C. 일반 분유를 물에 더 묽게 탄다
+D. 소아 진료팀과 함께 농축 수유를 시도하고 성장과 반응을 본다
 
 ## 해설
 
-빈번한 역류에 수유 거부와 성장곡선 하락이 있어 단순 안심만 하지 않는다. 수유량·방법과 성장 상태를 평가하며 농축수유 등 보존관리를 시도할 수 있다(B). 자세 조언은 깨어 있을 때만 적용하고 수면은 등대고 평평한 면에서 한다. 반응이 없으면 우유단백 알레르기 등 다른 원인을 평가한다.
+위험 신호 없이 눈에 보이는 역류가 지속되면 수유량을 점검한 뒤 농축 수유를 고려할 수 있다. 수면 시에는 계속 평평한 면에 바로 눕힌다. 수유 거부나 성장 둔화가 새로 나타나면 재평가한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 가수분해 분유로 바꾼다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002257
+- https://naspghan.org/wp-content/uploads/2024/01/PedGERD-Summary-revised-January-2024.pdf

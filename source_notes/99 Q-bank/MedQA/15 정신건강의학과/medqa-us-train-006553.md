@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강했던 16세 남아가 3주 동안 극심한 과민성, 피로감 및 식욕저하를 보여 부모와 함께 내원했다. 5개월 전 매우 가까웠던 할아버지가 만성 림프구성 백혈병으로 사망했다. 축구를 즐겼지만 지난주 팀을 그만두었다. 학교에서 돌아오면 곧장 잠자리에 들어 매일 밤 11~12시간 잔다. 이전에는 성적이 좋았지만 교사는 수업 중 무례하고 산만해졌으며 지난주 시험에서 낙제했다고 한다. 지난해 파티에서 술을 두 번 마셔 보았고 담배는 피운 적이 없다. 활력징후는 정상이다. 정신상태검사에서 눈맞춤을 피하지만 검사에는 협조한다. 정동은 제한되어 있고 과민한 기분을 표현한다. 쉽게 산만해지고 긴 대화에 집중하기 어렵다. 다음 중 가장 가능성 높은 진단은?
+16세 청소년이 3주 동안 거의 매일 예민하고 이전에 즐기던 축구도 싫어졌다. 잠은 늘고 식욕과 기운, 집중력은 떨어져 학교생활이 힘들다. 조증, 물질 사용이나 의학적 원인은 확인되지 않았다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 물질 남용
-B. 주요우울장애
-C. 우울한 기분을 동반한 적응장애
-D. 지속성 우울장애
+A. 주요우울장애
+B. 적대적 반항장애
+C. 지속성 우울장애
+D. 정상 애도
 
 ## 해설
 
 
-청소년의 3주간 지속된 과민성, 피로, 식욕감퇴, 수면 과다, 집중력 저하는 주요우울장애에 부합한다. 증상이 2주 이상 지속되고 일상 기능을 크게 방해한다는 점에서 다른 선택지보다 우울증이 가장 타당하다. 따라서 주요우울장애가 가장 가능성 높은 진단이다.
+청소년의 주요우울장애에서는 우울한 기분 대신 지속적인 과민성이 나타날 수 있다. 흥미 상실과 수면·식욕·에너지 변화가 2주 넘게 이어지며 기능이 저하됐다. 안전도 직접 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006553
+- https://www.nice.org.uk/guidance/ng134/chapter/recommendations

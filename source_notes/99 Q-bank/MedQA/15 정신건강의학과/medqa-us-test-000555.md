@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-qzte2ZqSDsnqXslaAgKFBhbmljIERpc29yZGVyKS5tZA
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-q0keyepSDqs7Xtj6zspp0gKEFnb3JhcGhvYmlhKS5tZA
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-30세 여성이 최근 발생한 흉통으로 응급실에 왔다. 이전에는 건강했고 유사한 증상은 없었다. 발작이 시작될 때 죽을 것 같은 느낌과 매우 빠른 심장박동, 심한 발한, 호흡곤란이 있었다. 얼마나 지속되었는지는 기억하지 못하지만 응급실에 도착할 때쯤 증상이 저절로 사라졌다. 병력을 듣는 동안 활력징후가 빠르게 정상으로 돌아왔고 차분해졌다. 과거력, 복용약, 신체진찰, 심전도, 초기 심장효소는 정상이었다. 이 환자에서 가장 가능성 높은 진단을 확진하기 위해 필요한 것은?
+30세 환자가 처음 공황발작을 겪었다. 필요한 평가에서 의학적 원인은 확인되지 않았다. 이 한 번의 발작과 구분해 공황장애를 진단하려면 어떤 경과가 필요한가?
 
 ## 선택지
 
-A. 관련 증상이 1개월 동안 지속됨
-B. 30분 이상 지속되는 장애 사건이 두 차례 발생
-C. 가족력
-D. 광장공포증
+A. 한 번의 발작이 30분 이상 지속
+B. 가족에게도 공황발작이 있음
+C. 예기치 않은 발작이 반복되고, 적어도 한 발작 뒤 1개월 이상 걱정 또는 행동 변화가 지속
+D. 광장공포증이 반드시 함께 나타남
 
 ## 해설
 
-제시된 갑작스러운 공포와 심계항진·발한·호흡곤란은 공황발작에 부합하지만, 한 차례 발작만으로 공황장애가 확진되지는 않는다. 공황장애는 반복되는 예기치 않은 발작에 더해 적어도 한 발작 이후 1개월 이상의 지속적 걱정 또는 부적응적 행동 변화가 필요하므로 A가 관련 기준이다. 발작이 30분 이상 지속되어야 하거나 광장공포증·가족력이 필수라는 조건은 없다. 의학적·물질 관련 원인도 배제한다.
+공황발작은 한 번만 나타날 수 있다. 공황장애는 반복되는 예기치 않은 발작에 더해 이후의 걱정이나 부적응적 행동 변화가 한 달 이상 지속되는 경우다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 광장공포증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000555
+- https://www.nice.org.uk/guidance/cg113/chapter/recommendations
+- https://www.ncbi.nlm.nih.gov/books/NBK430973/

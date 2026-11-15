@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-2ZjeyXrSAoTWVhc2xlcykubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ZmN7JetIChNZWFzbGVzKS5tZA
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-5세 남아가 2일 전 시작된 진행성 발진으로 응급실에 내원하였다. 발진은 얼굴에서 시작되어 몸통과 사지로 퍼졌다. 지난 일주일 동안 콧물, 기침, 충혈되고 눈곱이 끼는 증상이 있었다. 환아는 3개월 전 가족과 함께 터키에서 이민 왔다. 아버지와 형은 베체트병(Behcet disease)을 앓고 있다. 예방접종 기록은 확인할 수 없다. 환아는 보채며 진찰 중 운다. 체온은 40.0°C이다. 진찰상 전신 림프절병증과 건조한 점막이 관찰된다. 피부 긴장도(skin turgor)는 감소해 있다. 압박 시 창백해지는, 부분적으로 융합된 홍반성 구진상 발진이 있다. 구강 검사에서 혀 기저부에 5mm 크기의 아프타성 궤양 2개가 관찰된다. 혈색소 농도는 11.5 g/dL, 백혈구 수는 6,000/mm3, 혈소판 수는 215,000/mm3이다. 혈청 검사로 진단이 확정되었다. 다음 중 가장 적절한 치료 단계는 무엇인가?
+5세 아이가 홍역으로 입원했다. 설사와 탈수가 있어 수액을 주고 있으며 폐렴 등 합병증도 평가 중이다. 지지치료에 더해 의료진 감독하에 고려할 보조 치료는?
 
 ## 선택지
 
-A. 경구 아시클로버(acyclovir)
-B. 비타민 A 보충
-C. 안심시키고 3일 후 추적 관찰
-D. 경구 페니실린 V(penicillin V)
+A. 경구 아시클로버
+B. 고용량 비타민 C
+C. 비타민 A
+D. 회복 전 MMR 백신 접종
 
 ## 해설
 
-기침·콧물·결막염 후 얼굴에서 퍼지는 발진·고열과 혈청 확진은 홍역에 맞는다. 비타민 A(B)는 임상의 감독하 보조치료로 사용하며 수분·영양 및 합병증 평가를 병행한다. 홍역과 볼거리는 다른 질환이고 본문 아프타성 궤양을 Koplik 반점으로 바꾸지 않는다.
+홍역으로 입원한 소아에서는 비타민 A를 치료 과정에 사용할 수 있다. 수액, 영양, 폐렴 등 합병증 관리를 대체하지 않으며, 보호자가 임의로 고용량을 주도록 권하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 경구 페니실린 V(penicillin V)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000597
+- https://www.who.int/news-room/fact-sheets/detail/measles
+- https://www.cdc.gov/measles/hcp/clinical-overview/

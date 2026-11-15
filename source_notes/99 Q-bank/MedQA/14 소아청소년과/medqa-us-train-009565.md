@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISg7LKc7ISxIO2aoeqyqeuniSDtg4jsnqUgKENvbmdlbml0YWwgRGlhcGhyYWdtYXRpYyBIZXJuaWEpLm1k
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-출생 24시간 후 2.4 kg(5.3 lb) 신생아에게 호흡곤란이 발생했다. 임신 38주에 태어났고 맥박 136회/분, 호흡수 60회/분, 혈압 60/30 mmHg이다. 주상복부, 오른쪽 흉곽에서 들리는 심음, 왼쪽 호흡음 소실이 있다. 산소 60%에서 제대동맥 혈액가스 pH 7.30, pCO₂ 48 mmHg, pO₂ 52 mmHg이다. 비위관을 삽입했고 흉부 X선이 제시되었다. 가장 가능성 높은 진단은 무엇인가?
+만삭 신생아가 태어난 직후 심한 호흡곤란을 보인다. 배는 오목하고 왼쪽 호흡음은 약하며 심음은 오른쪽에서 더 잘 들린다. 흉부 X선에서 왼쪽 흉강에 가스가 찬 장고리와 오른쪽으로 밀린 종격동이 보인다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 보흐달렉 탈장
+A. 보흐달레크 탈장
 B. 카르타게너 증후군
-C. 중장 염전
+C. 중장염전
 D. 기흉
 
 ## 해설
 
-호흡곤란·주상복부·좌측 호흡음 소실과 우측으로 밀린 심음은 좌측 후외측 횡격막 결손인 Bochdalek 탈장(A)을 시사한다. 전방 흉골뒤의 Morgagni 결손과 구별한다. 실제 X선이 제공되지 않아 흉강 내 장 가스를 보았다고 단정하지 않는다.
+오목한 복부, 흉강 내 장고리와 반대쪽 종격동 이동은 선천성 횡격막 탈장을 시사한다. 흔한 형태는 후외측 결손으로 장이 흉강으로 올라가는 보흐달레크 탈장이다.
 
 ## 검수 근거
 

@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k
   - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: simple
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-제1형 당뇨병 조절이 불량한 33세 임신 2회·출산 1회 여성이 임신 18주에 진료를 받으러 왔다. 임신 전에도 혈당 조절이 좋지 않았으며 가족력은 특이사항이 없다. 자궁저부 높이는 20 cm(7.9인치)였고 복부 초음파를 시행했다. 다음 중 초음파에서 가장 가능성 높은 선천성 이상은?
+임신 전부터 제1형 당뇨병이 있었던 33세 임신부의 임신 초기 HbA1c가 9.1%였다. 18주 정밀초음파를 계획 중이다. 태아의 선천성 심장기형을 추가 평가할 검사는?
 
 ## 선택지
 
-A. 사지 완전 결손
-B. 천골 무형성
-C. 척추갈림증
-D. 심실중격결손
+A. 모체 심전도
+B. 모체 혈청 AFP 단독
+C. 태아 비수축검사(NST)
+D. 태아 심장초음파
 
 ## 해설
 
 
-당뇨병성 태아병증에서 가장 흔한 선천성 심장기형은 심실중격결손이다. 고혈당은 태아 심장 중격 형성에 영향을 주어 결손을 유발한다. 따라서 초음파에서 가장 가능성 높은 이상은 심실중격결손이다.
+임신 전 당뇨병은 특히 초기 혈당 조절이 불량할 때 태아의 선천성 심장기형 위험을 높인다. 정밀 구조 초음파와 별도로 태아 심장초음파를 시행할 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000588
+- https://www.asecho.org/wp-content/uploads/2023/07/PIIS0894731723002067-1.pdf

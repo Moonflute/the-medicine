@@ -13,13 +13,13 @@ related_diseases:
   - "만성 고혈압 임신"
   - "태반조기박리"
   - "임신 합병증"
-question_type: prognosis
+question_type: prevention
 related_disease_slugs:
   - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 12주인 30세 임신 2회·출산 1회의 여자가 산전 진료를 받으러 왔다. 5년 전 고혈압을 진단받았으나 치료 순응도가 낮다. 혈압은 145/90 mmHg이고 다른 검사와 신체검사는 정상이다. 다음 중 위험이 증가하는 합병증은?
+임신 12주 여성이 임신 전부터 만성 고혈압으로 치료받고 있다. 출혈이나 아스피린 금기는 없다. 약제와 혈압 관리를 점검하면서 자간전증 위험을 줄이기 위해 추가로 고려할 것은?
 
 ## 선택지
 
-A. 자연유산
-B. 양수과다증
-C. 태반조기박리
-D. 전치태반
+A. 저용량 아스피린을 시작한다
+B. 고혈압약을 모두 중단하고 혈압을 높게 유지한다
+C. 현재부터 예방적 황산마그네슘을 투여한다
+D. 단백뇨가 생긴 뒤에만 아스피린을 시작한다
 
 ## 해설
 
 
-만성 고혈압을 가진 임산부는 태반조기박리 위험이 증가한다. 고혈압이 태반 혈관에 미치는 손상이 조기 박리를 촉진한다.
+만성 고혈압은 자간전증 고위험 요인이다. 금기가 없으면 임신 12주 이후 저용량 아스피린을 예방적으로 시작한다. 황산마그네슘은 이런 시기의 일차 예방약이 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005053
+- https://www.nice.org.uk/guidance/ng133/chapter/recommendations

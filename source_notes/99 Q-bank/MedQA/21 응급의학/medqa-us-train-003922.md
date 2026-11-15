@@ -19,9 +19,9 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsobHrtoDsp4jtmZgubWQ
   - MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-57세 남성이 당뇨병과 만성 신장질환을 배경으로 악취 나는 오른쪽 발 궤양, 발열, 발적, 부종으로 내원했다. 궤양 주위 파동감이 있고 홍반은 경계에서 3 cm까지 뻗었다. 다음 중 가장 적절한 초기 처치는?
+당뇨병이 있는 57세 남성이 열과 함께 악화한 발 궤양으로 내원했다. 전신 항생제를 시작했고, 진찰과 초음파에서 깊은 발바닥 농양이 확인됐다. 추가로 필요한 조치는?
 
 ## 선택지
 
-A. 표재성 면봉배양
-B. 항생제와 지지요법
-C. 혈관내 중재
-D. 소절단술
+A. 응급 외과 평가로 배농과 변연절제를 계획한다
+B. 표재 면봉배양 결과가 나올 때까지 항생제만 준다
+C. 염증 부위를 압박 붕대로 단단히 감는다
+D. 퇴원 후 한 달 뒤 상처를 다시 본다
 
 ## 해설
 
-발열·빈맥과 염증성 발궤양은 전신 항생제와 지지치료(B)가 필요한 당뇨병 발 감염이다. 원문의 파동감은 농양을 우려하게 하므로 신속한 외과 평가와 배농/변연절제 필요성을 함께 검토한다. 심부 조직 배양을 선호하고 표재 swab만으로 평가를 끝내지 않는다. 혈류와 골수염도 평가하며 항생제만이 확정치료라는 뜻은 아니다.
+당뇨병성 발감염에 깊은 농양이 있으면 항생제에 더해 신속한 감염원 조절이 필요하다. 배농·변연절제 시 심부 검체를 얻고 혈류와 골수염 가능성도 평가한다.
 
 ## 검수 근거
 

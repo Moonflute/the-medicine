@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 남자가 집에서 거의 반응이 없는 상태로 발견되어 응급실에 왔다. 과도한 음주와 불법 약물 사용력이 있고 명령에는 반응하지 않지만 통증에 사지를 움츠린다. 호흡수 8회/분, 혈당 80 mg/dL, 동공은 축동되어 느리게 반응하며 팔과 다리에 주사 자국이 있다. 다음 중 정맥으로 투여할 가장 적절한 약물은?
+25세 환자가 반응이 없고 호흡수가 분당 6회다. 혈당은 정상이고 동공이 작다. 아편유사제에 의한 호흡억제가 의심된다. 기도·환기를 보조하면서 투여할 약은?
 
 ## 선택지
 
-A. 날록손
-B. 펜톨아민
+A. 플루마제닐
+B. 날트렉손
 C. 메타돈
-D. 날트렉손
+D. 날록손
 
 ## 해설
 
-의식저하·저호흡·축동과 주사 흔적은 opioid 중독에 맞는다. Bag-mask 환기를 유지하면서 정맥 naloxone(A)으로 호흡 회복을 평가한다. 본문 동공은 산동이 아니라 축동이다. Methadone은 급성 해독제가 아니며 naltrexone은 이런 응급 호흡부전의 적합한 해독제로 사용하지 않는다.
+날록손은 급성 아편유사제 중독의 호흡억제를 역전한다. 투여를 기다리느라 환기를 늦추지 않으며, 회복 후에도 다시 호흡이 억제되는지 감시한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 날트렉손
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005233
+- https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/

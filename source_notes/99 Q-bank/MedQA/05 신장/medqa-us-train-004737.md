@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDUg7Iug7J6lL-yCrOq1rOyytOyniO2ZmC5tZA
   - MDUg7Iug7J6lL-yXsOyHhOyDgeq1rOq3oCDqsJDsl7wg7ZuEIOyCrOq1rOyytOyLoOyXvCAoUFNHTikgKFBvc3QtU3RyZXB0b2NvY2NhbCBHbG9tZXJ1bG9uZXBocml0aXMpLm1k
-question_type: mechanism
+question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 여성이 2일 동안 간헐적인 짙은 소변과 경한 옆구리 통증으로 내원했다. 지난 5일 동안 기침, 인후통과 콧물도 있었다. 배뇨통은 없다. 복용하는 약과 알려진 알레르기는 없다. 체온은 37°C (98.6°F)이다. 등 진찰에서 늑골척추각 압통은 없다. 검사 결과 헤모글로빈 10.4 g/dL, 백혈구 8,000/mm3, 혈소판 200,000/mm3이다. 혈청 나트륨 135 mEq/L, 칼륨 4.9 mEq/L, 염소 101 mEq/L, 중탄산염 22 mEq/L, 요소질소 18 mg/dL, 크레아티닌 1.1 mg/dL이다. 소변은 노란색이고 혈액 3+, 단백 1+, 백혈구 에스테라제 음성이다. 신장과 방광 초음파는 정상이다. 이 환자 증상의 가장 가능성 높은 원인은 무엇인가?
+29세 여성이 인후통이 시작된 날부터 갈색 소변을 봤다. 이전 감기 때도 같은 일이 있었다. 요침사에 변형 적혈구와 적혈구 원주가 있고 혈청 C3는 정상이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 간질성 신장 염증
-B. 신장 유두 괴사
-C. 신장 사구체 손상
-D. 요로상피 신생물
+A. 연쇄상구균 감염 후 사구체신염
+B. 급성 신우신염
+C. IgA 신병증
+D. 신장 유두괴사
 
 ## 해설
 
-상기도 감염과 거의 동시에 발생한 혈뇨와 단백뇨는 사구체성 손상 C, 특히 IgA신병증을 시사한다. Dipstick 양성만으로 적혈구 형태나 원주가 확인된 것은 아니므로 현미경검사와 단백뇨 정량 등이 필요하다. IgA신병증을 단순 일시적·항상 자연소실 질환으로 단정하지 않는다.
+상기도 감염과 거의 동시에 반복되는 사구체성 혈뇨는 IgA 신병증을 시사한다. 전형적인 연쇄상구균 감염 후 신염은 잠복기가 있고 C3가 흔히 낮다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 요로상피 신생물
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004737
+- https://kdigo.org/guidelines/iga-nephropathy/

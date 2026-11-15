@@ -13,12 +13,12 @@ related_diseases:
   - "신경성 식욕부진증"
   - "무월경"
   - "골감소증"
-question_type: prognosis
+question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yLoOqyveyEseyLneyaleu2gOynhOymnSAoQW5vcmV4aWEgTmVydm9zYSkubWQ
   - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,24 +35,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 여아가 4개월간 월경이 없고 BMI 16.5 kg/m²이며 체조 선수로 훈련 중이다. 피부가 노랗고 양쪽 턱 아래에 부드러운 대칭성 종괴가 있으며 오른손 피부가 두꺼워져 있다. 가장 가능성 높은 합병증은?
+신경성 식욕부진증으로 1년 넘게 저체중이 지속된 16세 청소년에게 무월경과 반복적인 뼈 통증이 있다. 영양·성장 평가를 하면서 장기 합병증을 확인하기 위해 고려할 검사는?
 
 ## 선택지
 
-A. 반복 감염
-B. 난소암
-C. 골절
-D. 갑상선기능항진증
+A. 원인 확인을 위한 뇌 MRI
+B. 갑상샘 초음파
+C. 반복 혈중 코르티솔 측정만 시행
+D. 연령과 체격을 고려한 골밀도 검사
 
 ## 해설
 
 
-신경성 식욕부진증(AN)으로 인한 무월경과 저체중은 골밀도 감소를 초래해 골절 위험을 크게 높인다. 제시된 선택지 중 골절 위험 증가가 가장 적절하다.
+영양 부족과 성호르몬 저하는 청소년기의 골량 증가를 방해한다. 소아청소년에서 저체중이 1년 지속되거나 뼈 통증·반복 골절이 있으면 골밀도 평가를 고려한다. 체중과 영양 회복이 기본 치료다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000705
+- https://www.nice.org.uk/guidance/ng69/chapter/recommendations
 
 ## 검수 근거
 

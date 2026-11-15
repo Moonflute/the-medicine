@@ -20,6 +20,7 @@ related_disease_slugs:
 question_type: management
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite

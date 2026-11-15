@@ -14,12 +14,12 @@ related_diseases:
   - "metabolic syndrome"
   - "type 2 diabetes mellitus"
   - "atypical antipsychotic"
-question_type: adverse_effect
+question_type: investigation
 related_disease_slugs:
   - MDQg64K067aE67mEL-ygnDLtmJUg64u564eo67ORIChUeXBlIDIgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
   - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,23 +39,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-조현병, 제2형 당뇨병, 갑상샘기능저하증이 있는 28세 여성이 다시 약물을 복용하고 싶어 내원했다. 할로페리돌을 중단한 이유는 가만히 앉아 있기 어려웠기 때문이다. 친구가 도움이 되었다고 한 올란자핀을 요청한다. 다음 중 이 환자에서 올란자핀을 피해야 하는 이유는?
+제2형 당뇨병이 있는 29세 환자가 조현병 치료를 위해 올란자핀 사용을 검토 중이다. 시작 전과 시작 후 상대적으로 악화하기 쉬운 이상을 추적하려면 어떤 항목이 중요한가?
 
 ## 선택지
 
-A. 망막병증 위험이 높다
-B. 제2형 당뇨병이 있다
-C. 유즙분비가 생길 수 있다
-D. 올란자핀 장기 사용으로 지연성 운동이상증이 생길 가능성이 높다
+A. 혈청 프로락틴과 갑상샘자극호르몬
+B. 혈구수와 절대호중구수
+C. 체중·혈압과 혈당·지질
+D. 혈청 크레아틴키나아제와 미오글로빈
 
 ## 해설
 
-올란자핀은 체중 증가·혈당 악화 등 대사 부작용이 상대적으로 큰 항정신병약이다. 제시된 이유 중 기존 제2형 당뇨병이 이를 피하거나 다른 약을 우선 고려할 근거가 된다. 당뇨병 자체가 언제나 절대금기라는 뜻은 아니며 이전 치료 반응과 대안을 함께 평가하고, 사용한다면 체중·혈당·지질 등을 모니터링한다.
+올란자핀은 체중 증가와 혈당·지질 악화 위험이 큰 편이다. 치료를 시작하기 전 기초 대사지표를 확인하고 치료 중 변화를 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002568
+- https://www.nice.org.uk/guidance/cg178/chapter/Recommendations
 
 ## 검수 근거
 

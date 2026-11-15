@@ -14,11 +14,11 @@ related_diseases:
   - "매독"
   - "HIV"
   - "B형간염"
-question_type: prevention
+question_type: management
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 difficulty: simple
-answer: "B"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -42,18 +42,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-27세 G1P0 여성이 첫 산전 진료를 위해 내원했다. 남편과 일부일처 관계이며 평생 성 파트너는 두 명이다. 수혈을 받은 적이 없고 주사 약물도 사용하지 않았다. 다음 중 어떤 감염을 선별검사하는 것이 가장 적절한가?
+임신 26주 산모가 첫 산전 검사에서 B형간염 표면항원 양성으로 확인됐다. ALT는 정상이나 HBV DNA는 1,000,000 IU/mL다. 신생아 예방접종과 면역글로불린을 계획 중이다. 모자감염을 더 줄이기 위한 산모의 조치는?
 
 ## 선택지
 
-A. 매독과 HIV
-B. 매독, HIV, B형간염, C형간염
-C. 매독, HIV, B형간염, 클라미디아
-D. 정기 선별검사는 필요 없다
+A. 간효소가 정상이므로 산모 치료는 분만 이후까지 미룬다
+B. 임신 중 인터페론을 시작한다
+C. 산모에게 B형간염 백신을 다시 접종해 바이러스량을 낮춘다
+D. 지금 테노포비르 계열 항바이러스 예방치료를 시작한다
 
 ## 해설
 
-첫 산전 진료에서 위험요인이 없어도 HIV·매독·HBV·HCV를 선별한다. 성매개감염의 위험도에 따라 gonorrhea·Chlamydia 등의 검사를 추가하며, 검사 동의와 결과에 따른 치료·주산기 예방을 연결한다. 일부일처 관계라는 이유로 이 기본 검사를 생략하지 않는다.
+대한간학회는 임신부의 HBV DNA가 200,000 IU/mL 이상이면 모자감염 예방을 위해 임신 24–32주에 항바이러스 치료를 시작하도록 권고한다. 테노포비르는 신생아의 출생 직후 예방접종과 면역글로불린을 대체하지 않는다.
 
 ## 검수 근거
 
@@ -66,6 +66,8 @@ D. 정기 선별검사는 필요 없다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007602
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/
+- https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=133&menuLv=1
 
 ## 오답 포인트
 

@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k
 question_type: diagnosis
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-55세 남성이 6개월 동안 지속된 기침, 호흡곤란 및 피로감으로 내원했다. 이 기간 동안 체중이 8kg(17.6lb) 감소하고 야간 발한이 있었다. 창백해 보이며 활력징후는 정상이다. 간비장비대가 있고 백혈구는 78,000/mm³이다. 말초혈액도말에서 호중구가 80% 이상이고 띠 형태 및 미성숙·성숙 호중구 전구세포가 보인다. 골수 생검에서 모든 골수계 세포의 증식과 백혈구 알칼리성 인산분해효소 활성 증가가 보인다. 흉부 X선에서 오른쪽 폐문 인접 8mm 결절이 있다. 다음 중 검사 결과의 가장 가능성 높은 원인은?
+폐렴으로 입원한 55세 환자의 백혈구가 58,000/μL였고 도말에서 미성숙 호중구와 독성과립이 보였다. 호염기구 증가와 모세포는 없었다. 치료로 감염이 호전되고 백혈구가 9,000/μL로 정상화됐다. 가장 가능성 높은 설명은?
 
 ## 선택지
 
-A. 급성 골수성 백혈병
-B. 급성 림프모구성 백혈병
-C. 백혈병양 반응
-D. 결핵
+A. 감염에 대한 백혈병모양 반응
+B. 만성 골수성 백혈병
+C. 급성 골수성 백혈병
+D. 골수형성이상종양
 
 ## 해설
 
 
-주로 성숙/여러 성숙단계 호중구가 증가하고 LAP가 높은 양상은 선택지 중 leukemoid reaction C가 가장 부합한다. 모세포 중심의 급성 백혈병과 다르지만 LAP만으로 CML 등 모든 클론 질환을 배제할 수 없다. 만성 기침·체중감소·폐결절은 감염/악성 원인 평가가 필요하며8mm 결절만으로 특정 종양이나 결핵을 확진하지 않는다.
+감염에 동반된 반응성 호중구 증가가 원인 치료에 따라 정상화되는 모습이다. 백혈구 증가가 지속되거나 호염기구·모세포가 증가하면 별도로 클론성 혈액질환을 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 결핵
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006838
+- https://doi.org/10.1038/s41375-025-02664-w

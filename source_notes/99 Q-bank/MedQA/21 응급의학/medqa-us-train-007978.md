@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yCtOumrOyLpOyCsCDspJHrj4UgKFNhbGljeWxhdGUgUG9pc29uaW5nKS5tZA
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-6세 남아가 여러 알약을 복용한 지 12시간 후 응급실에 왔다. 10시간 동안 양쪽 귀에서 소리가 난다고 호소한다. 맥박 136회/분, 호흡수 39회/분, 혈압 108/72 mm Hg이며 발한이 있다. 혈청 Na⁺ 136, Cl⁻ 99 mEq/L이고 실내 공기 동맥혈가스는 pH 7.39, PaCO₂ 25 mmHg, HCO₃⁻ 15 mEq/L이다. 다음 중 가장 적절한 초기 처치는?
+이명과 빈호흡으로 온 환자가 살리실산염 중독으로 확인됐다. 중등도 중독이고 신기능은 정상이며 폐부종과 의식 저하는 없다. 독성학팀이 체액과 칼륨을 교정 중이다. 배설을 촉진하는 치료는?
 
 ## 선택지
 
-A. 위장관 오염 제거
-B. 혈액투석
-C. 다회용 활성탄
-D. 지지요법
+A. 정맥 중탄산나트륨으로 소변을 알칼리화한다
+B. 아세트아미노펜을 투여한다
+C. 이뇨제만 투여한다
+D. 혈액과 소변을 산성화한다
 
 ## 해설
 
-이명, 발한, 빈호흡과 음이온차 증가 대사성 산증에 과도한 호흡성 보상이 동반된 소견은 살리실산염 중독을 시사한다. 초기에는 기도·호흡·순환과 체액·전해질을 평가하고 지지 치료(D)를 시작한다. 혈중 살리실산 농도와 산염기 상태를 반복 확인하고, 독성 정도에 따라 정맥 중탄산에 의한 혈청·소변 알칼리화 및 투석 필요성을 판단한다. pH가 정상에 가깝다고 독성이 경미한 것은 아니다. 섭취 12시간 뒤 모든 환자에게 위장관 제독이나 다회 활성탄을 우선한다는 원칙은 없으며, 흡수 지연 가능성과 기도 안전성을 개별 평가해야 한다.
+중탄산나트륨으로 소변 pH를 올리면 살리실산 배설이 늘어난다. 칼륨과 산염기를 감시하고, 의식 장애·폐부종·심한 산증 등 중증 소견이 있으면 즉시 투석을 검토한다.
 
 ## 검수 근거
 

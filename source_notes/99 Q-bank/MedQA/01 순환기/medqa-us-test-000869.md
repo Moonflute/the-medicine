@@ -19,7 +19,7 @@ question_type: management
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -40,19 +40,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-80세 남성이 피로와 어지러움으로 응급실에 왔다. 흉통, 두근거림 또는 호흡곤란은 없었다. 고지혈증, 제2형 당뇨병, 고혈압, 골관절염, 천식 병력이 있으며 심바스타틴, 메트포르민, 리시노프릴, 알부테롤, 이부프로펜을 복용한다. 맥박 48회/분, 혈압 89/50 mmHg였다. 질문에 느리게 답하지만 사람·장소·시간 지남력은 있었다. 점막이 건조했고 폐 청진은 깨끗했으며 장음은 정상이었다. 양쪽 발의 맥박은 만져지지 않고 말단이 차가우며 모세혈관 재충만 시간이 4초였다. 심전도에서 좌축편위, III유도 Q파, 일정한 PR 간격 0.15초와 매 세 번째 P파의 비전도, QRS 0.09초가 보였다. 다음 중 가장 적절한 처치는?
+80세 남성이 어지럼과 의식 저하로 응급실에 왔다. 혈압 80/48 mmHg, 맥박 36회/분이고 피부가 차갑다. 심전도에서 PR 간격은 일정하지만 전도되지 않는 P파가 반복된다. 아트로핀 투여에도 상태가 호전되지 않았다. 약물 외에 즉시 시행할 처치는?
 
 ## 선택지
 
-A. 도부타민
-B. 노르에피네프린
-C. 심장 조율
-D. 에피네프린
+A. 동기화 심율동전환
+B. 제세동
+C. 경피 심장 조율
+D. 전극도자 절제술
 
 ## 해설
 
 
-심박수가 48회·PR 간격 정상·QRS 0.09초·3번째 P파 전도 차단은 2도 방실 차단(Mobitz II)이며, 서맥성 쇼크에 해당한다. 치료는 심장 조율(pacemaker)이다.
+저혈압과 의식 저하를 일으키는 불안정 서맥이 아트로핀에 반응하지 않으면 경피 조율을 즉시 시작할 수 있다. 맥박이 있는 서맥에서 심율동전환이나 제세동을 시행하지 않는다. 지속되면 경정맥 조율과 가역 원인을 평가한다.
 
 ## 검수 근거
 
@@ -65,3 +65,4 @@ D. 에피네프린
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000869
+- AHA 성인 맥박 있는 서맥 알고리즘(2025): https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Accessible/Algorithm-ACLS-Bradycardia-LngDscrp-250725-Ed.pdf

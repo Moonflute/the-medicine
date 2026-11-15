@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-2MlOq_iOy5mCDsmbjsuKEg7IOB6rO87Je8IChMYXRlcmFsIEVwaWNvbmR5bGl0aXMpLm1k
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-28세 여자가 오늘 아침부터 시작된 외측 무릎 통증으로 응급실에 왔다. 대학 농구 선수이며 무릎을 비튼 뒤 통증이 시작되었다. 오른쪽 외측 무릎에 압통이 있고, 왼쪽으로 누워 오른쪽 고관절을 펴고 벌리면 다리가 매끄럽게 내려가지 않으며 모으면 불편하다. 가장 가능성 높은 진단은?
+28세 장거리 주자가 내리막길 달리기를 늘린 뒤 무릎 바깥쪽 통증이 서서히 생겼다. 가쪽 관절선보다 위에 국소 압통이 있고, 잠김·삼출·내반 불안정은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 장경인대 증후군
-B. 외측측부인대 손상
-C. 근골격계 염좌
+A. 외측곁인대 파열
+B. 외측 반월연골 파열
+C. 장경인대 증후군
 D. 거위발 윤활낭염
 
 ## 해설
 
-외측 무릎 압통과 옆으로 누운 상태에서 고관절을 신전·외전했다가 내릴 때 내전이 제한되고 불편한 Ober 검사 양상은 장경인대 긴장을 시사한다. 외측 대퇴골 상과 부위의 장경인대 관련 통증인 장경인대 증후군(A)이 주어진 선지 중 가장 합당하다. 이는 슬개골 하부 마찰이나 거위발 부위의 내측 통증과는 다르며, 외측곁인대 손상에서는 내반 스트레스 불안정성을 평가한다.
+내리막 달리기처럼 무릎을 반복 굽혔다 펼 때 가쪽 대퇴골 위관절융기 근처에서 아프면 장경인대 증후군을 의심한다.
 
 ## 검수 근거
 

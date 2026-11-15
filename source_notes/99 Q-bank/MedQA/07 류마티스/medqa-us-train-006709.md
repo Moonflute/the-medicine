@@ -19,7 +19,7 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-50세 남성이 2개월 동안 반복되는 흉통, 호흡곤란 및 빠른 심박동으로 내원했다. 이 기간 동안 체중이 4kg(8.8lb) 감소하고 권태감, 양쪽 무릎 통증 및 전신 근육통이 있었다. 5년 전 만성 B형간염을 진단받아 테노포비르를 시작했다. 체온은 38°C(100.4°F), 맥박은 분당 110회, 혈압은 150/90 mm Hg이다. 심폐 진찰은 빈맥 외에 정상이다. 양쪽 발목과 종아리 주변에 궤양이 여러 개 있다. 혈색소 11 g/dL, 백혈구 14,000/mm³, ESR 80 mm/h, p-ANCA 음성, B형간염 표면항원 양성, 소변 단백 2+, 적혈구 6~7/고배율시야이다. 다음 중 가장 가능성 높은 진단은?
+만성 B형간염이 있는 50세 남성에게 내장 허혈이 의심되는 식후 복통, 새 고혈압과 한쪽 발처짐이 생겼다. 복부 혈관 영상에서 신장·장간막 중간 크기 동맥에 여러 미세동맥류가 보이고 소변에 적혈구 원주는 없다. 진단은?
 
 ## 선택지
 
 A. 다카야수 동맥염
-B. 거대세포동맥염
+B. 현미경적 다발혈관염
 C. 결절성 다발동맥염
-D. 육아종증 다발혈관염
+D. 항사구체기저막 질환
 
 ## 해설
 
 
-B형간염과 연관된 중간 크기 동맥에 염증이 생겨 결절성 다발동맥염(Polyarteritis nodosa)이 발생한다. 다발성 궤양, 고혈압, 신장 기능 이상이 동반된다. 따라서 가장 가능성 높은 진단은 결절성 다발동맥염이다.
+중간 크기 동맥의 미세동맥류, 장간막 증상과 다발단일신경병증은 결절성 다발동맥염을 지지한다. 신장 침범은 주로 동맥 허혈·고혈압이며 사구체신염이 전형적이지 않다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ B형간염과 연관된 중간 크기 동맥에 염증이 생겨 결절성 다�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006709
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12323812/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/

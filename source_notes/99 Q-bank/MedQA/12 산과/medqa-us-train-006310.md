@@ -13,10 +13,10 @@ related_diseases:
   - "모유량 감소"
   - "불충분한 유방 비우기"
   - "프로락틴"
-question_type: mechanism
+question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 여성이 모유량 감소를 호소하며 내원했다. 2개월 전 합병증 없이 건강한 딸을 출산했다. 아기는 생후 1개월 반까지 전적으로 모유를 먹었으나, 이후 환자가 직장에 복귀해야 했다. 직장에서는 딸에게 모유를 먹일 수 없어 할머니에게 맡기고 분유를 식단에 추가했다. 이 방식으로 바꾼 직후 유방이 팽창했으나 곧 가라앉았다. 그로부터 일주일 후 집에 있을 때 아기에게 먹일 수 있는 모유가 줄어든 것을 알아차렸다. 체중 변화나 기분 변화 등 다른 증상은 없다. 유방 아래 주름을 통해 가슴근육 아래에 유방 보형물을 삽입한 상태이다. 12세 때 유방을 포함한 둔상 흉부 외상을 입었다. 임신 후 꽃가루 알레르기로 세티리진을 단기간 복용했다. 내원 당시 활력징후는 정상이다. 유방은 약간 팽창되어 있지만 피부색 변화는 없고, 눌러도 분비물이 나오지 않는다. 다음 중 이 환자의 상태 원인을 설명하는 것은?
+출산 2개월 된 여성이 직장에 복귀한 뒤 근무 중 수유나 유축을 하지 못했고 모유량이 줄었다. 아기는 적절히 자라고 유방 통증이나 발열은 없다. 모유량을 유지하기 위해 먼저 권할 것은?
 
 ## 선택지
 
-A. 유선 조직의 양이 불충분함
-B. 약물에 의한 수유 억제
-C. 유방을 충분히 비우지 못함
-D. 수유관 발달 실패
+A. 양쪽 유방에 냉찜질만 반복한다
+B. 수유 횟수를 더 줄여 유방을 쉬게 한다
+C. 유즙 제거를 늘리기 전에 약물부터 쓴다
+D. 아기가 보통 먹는 간격에 맞춰 근무 중에도 유축한다
 
 ## 해설
 
-직장 복귀 후 직접 수유와 유즙 제거가 줄어든 직후 일시적 울혈에 이어 모유량이 감소했으므로 C가 가장 적절하다. 유즙 생산은 수요와 공급에 맞추어 조절되고, 유즙 제거·유두 자극 감소와 유방 내 국소 되먹임이 생산 감소에 기여한다. 정상 수유가 이미 가능했던 경과는 선천 유선·유관 발달 실패보다 이 설명에 부합한다. 남아 있는 젖이 곧바로 전신 프로락틴을 억제한다는 단일 기전으로 설명하지 않는다.
+모유 생산은 규칙적인 유즙 제거 자극에 반응한다. 직접 수유할 수 없는 시간에는 평소 수유 간격에 맞춰 유축을 계획한다. 필요하면 젖 물리기와 유축기 사용도 함께 점검한다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 수유관 발달 실패
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006310
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6586
+- https://www.cdc.gov/infant-toddler-nutrition/breastfeeding/returning-to-your-workplace.html

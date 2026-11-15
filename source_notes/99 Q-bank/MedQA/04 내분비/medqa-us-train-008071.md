@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
-question_type: mechanism
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-31세 여성이 한 달 동안 지속된 과도한 불안과 두근거림으로 내원했다. 지난 한 달 동안 체중이 2.72 kg 감소했다. 특별한 과거력은 없다. 체온 37°C(98.6°F), 맥박 81회/분, 호흡수 23회/분, 혈압 129/88 mm Hg이다. 경미한 안구돌출이 보이고 심폐 진찰은 정상이다. 증상의 가장 가능성 높은 원인은?
+35세 여성이 두근거림과 체중 감소로 내원했다. 갑상선은 통증 없이 고르게 커져 있고 안구병증은 없다. TSH는 억제되고 유리 T4가 높다. 그레이브스병과 무통성 갑상선염을 구별하기 위해 우선 확인할 항체는?
 
 ## 선택지
 
-A. 식이 중 요오드 부족
-B. 갑상선자극항체
-C. 갑상선 수질암
-D. 프로필티오우라실 사용
+A. 항갑상선 과산화효소 항체
+B. TSH 수용체 항체
+C. 항갑상선글로불린 항체
+D. 항핵항체
 
 ## 해설
 
 
-갑상선 자극 항체(TSI)는 갑상선 자극 면역글로불린으로, 갑상선 세포를 자극해 과다 호르몬 분비와 안구돌출을 일으킨다. 이는 그레이브스병의 주요 병인이다. 따라서 가장 가능성 높은 원인은 갑상선 자극 항체이다.
+갑상선중독증이 확인된 상태에서 TSH 수용체 항체 양성은 그레이브스병을 뒷받침한다. 항갑상선 과산화효소 항체만으로는 파괴성 갑상선염과 구별하기 어렵다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 프로필티오우라실 사용
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008071
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3871036/

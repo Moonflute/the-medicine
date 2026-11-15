@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yWkeyImCDqs7zshozspp0gKE9saWdvaHlkcmFtbmlvcykubWQ
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-29세 여성 임신 1회, 출산 0회가 임신 33주에 정기 진료를 받으러 왔다. 임신은 순조로웠다. 전신홍반루푸스가 있지만 임신 중 악화는 없었다. 담배, 술과 불법 약물은 사용하지 않는다. 현재 철분, 비타민 보충제와 하이드록시클로로퀸을 복용한다. 체온은 37.2°C (98.9°F), 맥박은 분당 70회, 호흡수는 분당 17회, 혈압은 134/70 mm Hg이다. 건강해 보이고 신체검사에서 이상은 없다. 초음파에서 태아의 리드미컬한 호흡이 30초 이상 관찰되고, 양수의 가장 깊은 수직 주머니는 1cm이며, 30분 동안 뚜렷한 태아 신체 움직임은 한 번, 사지 신전은 관찰되지 않았다. 비스트레스검사는 반응성이며 안심할 만하다. 다음 중 관리에서 가장 적절한 단계는 무엇인가?
+임신 39주 초임부의 태아 생물리학적 계수는 4/10이고 양수 최대 수직 깊이는 1 cm다. 태아는 두위이고 현재 심박 추적은 안정적이다. 자궁경부는 유도에 유리하고 질식분만 금기가 없다. 처치는?
 
 ## 선택지
 
-A. 제왕절개 분만
-B. 하이드록시클로로퀸을 중단하고 면밀히 관찰
-C. 분만 유도
-D. 안심시키고 기대요법
+A. 태아를 감시하면서 분만을 유도한다
+B. 양수과소증만으로 즉시 제왕절개한다
+C. 일주일 뒤 생물리학적 계수만 반복한다
+D. 태동이 느껴지면 자연 진통까지 기다린다
 
 ## 해설
 
-태아 호흡과 반응성 NST는 각 2점이지만 양수 DVP 1 cm, 30분간 몸 움직임 1회, 정상 긴장 운동 미관찰은 비정상 항목으로 BPP 4/10에 해당한다는 출제 의도이다. 이는 태아 저산소증 우려로 분만(C)을 고려할 상황이지 조산을 예방하기 위한 분만이 아니다. 실제 긴장도는 신전 뒤 굴곡 복귀 등으로 판정하며 주수·반복 평가·경부 상태에 따라 분만 방식을 정한다.
+만삭에 생물리학적 계수가 낮고 양수도 적으면 분만을 진행한다. 현재 태아 상태와 경부 조건이 질식분만에 적합하면 지속 감시하에 유도할 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 안심시키고 기대요법
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004447
+- https://www.sogc.org/common/Uploaded%20files/ACSC/ACSC2024/gui441CPG2309E.pdf
+- 미국산부인과학회, 태아 안녕 검사와 비정상 생물리학적 계수: https://www.acog.org/womens-health/faqs/special-tests-for-monitoring-fetal-well-being

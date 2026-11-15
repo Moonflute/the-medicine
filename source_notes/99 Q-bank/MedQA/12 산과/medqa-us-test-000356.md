@@ -28,7 +28,7 @@ explanation_model: gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 임신 감염 선별 조합에 HCV를 반영."
 curation_status: "revised"
 curation_reason: "임신 감염 선별 조합에 HCV를 반영."

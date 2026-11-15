@@ -13,11 +13,11 @@ related_diseases:
   - "근위축성 측삭경화증"
   - "상위 운동뉴런"
   - "하위 운동뉴런"
-question_type: mechanism
+question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qt7zsnITstpXshLEg7Lih7IKtIOqyve2ZlOymnSAoQW15b3Ryb3BoaWMgbGF0ZXJhbCBzY2xlcm9zaXMpLm1k
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-54세 남자가 3개월 동안 고형식에서 죽과 액체까지 진행하는 연하곤란, 쉰 목소리, 체중 감소로 내원했다. 혀 위축, 구강 분비물 저류, 전신 근위축과 간헐적 근섬유다발수축이 있고 상지 근력은 감소하고 모든 사지의 심부건반사는 3+이지만 감각은 정상이다. 위내시경은 정상이다. 증상의 가장 가능성 높은 원인은?
+54세 환자가 수개월에 걸쳐 말하기와 삼키기가 어려워졌다. 혀 위축과 근섬유다발수축이 있고 팔다리는 약해지면서 반사가 항진됐다. 감각은 정상이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 상위 및 하위 운동뉴런의 파괴
-B. 척수 중심관 확장
-C. 말초신경 탈수초
-D. 아세틸콜린 수용체 자가면역 파괴
+A. 중증근무력증
+B. 근위축성 측삭경화증
+C. 척수공동증
+D. 만성 염증성 탈수초 다발신경병증
 
 ## 해설
 
-혀·전신 근위축과 근섬유다발수축은 하위운동신경원 손상, 전반적 반사항진은 상위운동신경원 손상을 시사한다. 진행성 구음·연하장애와 감각 보존을 함께 보면 ALS에 합당하며 기전은 상위·하위 운동뉴런 파괴(A)다. 정상 위내시경은 기계적 식도 원인보다 신경성 연하장애를 지지한다. 중증근무력증은 피로성 위약은 가능하지만 이런 탈신경성 위축·반사항진 조합과는 다르다.
+근위축과 근섬유다발수축은 하위운동신경원, 반사항진은 상위운동신경원 이상을 시사한다. 감각이 보존된 채 두 소견이 진행성으로 함께 나타나면 근위축성 측삭경화증을 의심한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 아세틸콜린 수용체 자가면역 파괴
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005146
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11235832/

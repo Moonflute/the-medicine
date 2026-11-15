@@ -15,9 +15,9 @@ question_type: management
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yhseyggCDqt7zrp4nsl7wgKFBsYW50YXIgRmFzY2lpdGlzKS5tZA
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -30,21 +30,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-24세 여성이 지난 일주일간 지속된 오른쪽 발 통증을 주소로 일차 진료 의원을 방문했다. 환자는 어느 날 아침 잠에서 깼을 때 처음 통증을 느꼈으며, 발뒤꿈치 바닥 깊숙한 곳에서 느껴지는 통증이라고 설명했다. 통증은 아파트 안을 걸어 다닐 때는 호전되었으나 발레 연습에 참여하면서 악화되었다. 환자는 전문 발레리나로 하루 최대 10시간씩 연습하며, 다음 주에 있을 새로운 발레 공연에 서지 못할까 봐 걱정하고 있다. 과거력은 없으며, 가족력으로 어머니의 사르코이드증(sarcoidosis)과 아버지의 제2형 당뇨병이 있다. 일주일에 와인 두 잔을 마시고 하루에 담배를 몇 개비 피우지만 불법 약물 사용은 부인한다. 내원 시 체온은 98.6°F(37.0°C), 혈압은 117/68 mmHg, 맥박은 80회/분, 호흡수는 13회/분이다. 오른쪽 발 검사상 피부 변화나 부종은 없으나, 발을 배굴(dorsiflexion)했을 때 발뒤꿈치 바닥에 뚜렷한 압통이 있다. 나머지 신체 검진 소견은 정상이다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+24세 여성이 아침 첫발을 디딜 때 발꿈치 바닥이 찌르듯 아프다. 몇 걸음 걸으면 덜하고, 발꿈치뼈 안쪽 바닥에 국소 압통이 있다. 족저근막염의 초기 운동치료는?
 
 ## 선택지
 
-A. 교정용 신발 깔창(Orthotic shoe inserts)
-B. 글루코코르티코이드 주사
-C. 발 단순 방사선 촬영
-D. 발 휴식
+A. 족저근막과 종아리를 스트레칭하고 과도한 부하를 줄인다
+B. 통증을 참고 매일 점프량을 늘린다
+C. 발목을 석고로 장기간 고정한다
+D. 운동 대신 힘줄 안에 스테로이드를 먼저 주사한다
 
 ## 해설
 
 
-발뒤꿈치 압통은 플랜터 근막염을 시사하며, 초기 치료는 과도한 부하를 피하는 것이 가장 중요하다. 휴식이 통증 감소와 조직 회복을 촉진한다. 따라서 다음 관리 단계는 발 휴식이다.
+아침 첫발 통증은 족저근막염의 단서다. 족저근막과 종아리 스트레칭, 부하와 신발 조절을 먼저 시도한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000796
+- https://www.jospt.org/doi/10.2519/jospt.2023.0303

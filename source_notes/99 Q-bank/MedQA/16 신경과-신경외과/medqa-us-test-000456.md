@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-62세 여성이 시야 변화로 응급실에 왔다. 약 90분 전 남편과 소파에서 TV를 보다가 갑자기 화면이 정상적으로 보이지 않았고 약간 어지러웠다. 이런 일은 처음이었다. 전신 진찰은 정상이었고 신경학적 진찰에서 황반 보존과 함께 양쪽 눈의 오른쪽 시야가 소실되었으며 외안근 운동은 정상이었다. 두부 CT에서 급성 두개내 병변은 없었다. 뇌혈관조영술에서 병변이 발견될 가능성이 가장 높은 혈관은?
+62세 여성이 갑자기 양쪽 눈에서 오른쪽 반쪽 시야를 잃었다. 중심 시야는 보존되고 안구운동과 사지 근력은 정상이다. 허혈성 뇌졸중이라면 가장 가능성 높은 혈관은?
 
 ## 선택지
 
-A. 내경동맥
-B. 전대뇌동맥
-C. 후대뇌동맥
-D. 기저동맥
+A. 오른쪽 후대뇌동맥
+B. 왼쪽 전대뇌동맥
+C. 오른쪽 중대뇌동맥
+D. 왼쪽 후대뇌동맥
 
 ## 해설
 
 
-양쪽 시야가 동시에 소실되는 동측성 반맹은 후대뇌피질(시각 피질) 손상에 해당한다. 후대뇌동맥이 이 부위를 공급하므로 폐색이 가장 가능성이 높다. 따라서 후대뇌동맥이 정답이다.
+오른쪽 동명반맹은 왼쪽 시교차 이후 병변을 뜻한다. 황반 보존을 동반한 고립 동명반맹은 왼쪽 후두엽 및 후대뇌동맥 영역을 시사한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 기저동맥
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000456
+- https://www.ahajournals.org/doi/10.1161/STR.0000000000000513

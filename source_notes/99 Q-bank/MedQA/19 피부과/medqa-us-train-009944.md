@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-yngOujqCDtlLzrtoDsl7wgKFNlYm9ycmhlaWMgRGVybWF0aXRpcykubWQ
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-특이한 병력, 수술력, 가족력이 없는 생후 5개월 남아가 새로 생긴 발진으로 부모와 함께 소아과에 내원했다. 부모는 발진이 몇 주 전 시작되어 변하지 않았다고 한다. 출생 후 모유 수유를 했고 4개월부터 부드러운 음식을 먹기 시작했다. 진찰에서 두피와 외부 귀에 반짝이는 노란 비늘을 동반한 홍반성 판이 보인다. 활력징후는 정상이다. 혈액검사에서 백혈구 8,300/mm³, 헤마토크릿 46.1%, 혈색소 17.1 g/dL, MCV 88 fL, 혈소판 242,000/mm³이다. 다음 중 가장 가능성 높은 진단은?
+생후 5개월 남아가 두피와 귀 뒤에 기름진 노란 인설로 내원했다. 발진을 긁지 않고 잘 먹고 잘 자란다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 영아 지루피부염
-B. 랑게르한스세포 조직구증
-C. 비강진 아미안타세아
-D. 아토피피부염
+A. 영아 아토피피부염
+B. 영아 지루피부염
+C. 두부백선
+D. 농가진
 
 ## 해설
 
-두피·외이의 홍반성 판과 기름진 노란 인설은 영아 지루피부염/요람모(A)에 합당하다. 전신 진단을 혈액검사가 정상이라는 가정에 의존하지 않는다. 영아의 혈구검사 수치는 연령·채혈 방법·기관 참고범위를 확인해야 하며 제시된 Hb/Hct를 일괄 정상으로 확정하지 않는다.
+잘 자라는 영아의 두피와 귀 주위에 생긴 기름진 노란 인설은 지루피부염에 전형적이다. 아토피피부염은 건조함과 가려움이 더 두드러진다.
 
 ## 검수 근거
 

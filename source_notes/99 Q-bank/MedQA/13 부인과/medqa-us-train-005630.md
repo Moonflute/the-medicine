@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yCsOyaleq4sCDsnKDrsKkg7Jq47ZiIIChQdWVycGVyYWwgQnJlYXN0IEVuZ29yZ2VtZW50KS5tZA
 difficulty: standard
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-36세 여성이 지난 24시간 동안 점점 심해지는 양측 유방의 통증성 부종으로 내원했다. 3일 전 건강한 2,690g(5파운드 15온스) 여아를 질식 분만했다. 신생아에게 모유를 먹이는 것이 매우 아프다고 한다. 피로감과 기분 변화를 호소한다. 중증 질환 병력은 없다. 엽산과 종합비타민을 복용 중이다. 체온은 37.4°C(99.3°F)이다. 신체검사에서 양측 유방에 압통, 단단함 및 충만감이 있고 유두는 갈라져 있으며 양측 유륜이 부어 있다. 다음 중 가장 적절한 관리의 다음 단계는 무엇인가?
+36세 여성이 지난 24시간 동안 점점 심해지는 양측 유방의 통증성 부종으로 내원했다. 3일 전 건강한 2,690g(5파운드 15온스) 여아를 질식 분만했다. 신생아에게 모유를 먹이는 것이 매우 아프다고 한다. 피로감과 기분 변화를 호소한다. 중증 질환 병력은 없다. 엽산과 종합비타민을 복용 중이다. 체온은 37.4°C(99.3°F)이다. 신체검사에서 양측 유방에 압통, 단단함 및 충만감이 있고 유두는 갈라져 있으며 양측 유륜이 부어 있다. 다음 중 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

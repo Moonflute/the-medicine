@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-uplOuLiOyXkOultOuzkSAoTWVuaWVyZSdzIGRpc2Vhc2UpLm1k
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-56세 여성이 한 달 전부터 시작된 어지러움으로 진료를 받으러 왔다. 메스꺼움과 이명이 동반되며 회전하는 느낌이 시작과 끝이 뚜렷하고 약 25분 지속되어 걷거나 서 있을 수 없을 정도로 심하다. 증상은 변동하고 터널시야나 실신감은 없지만 과거 갑자기 넘어졌어도 의식소실은 없었다. 오른쪽 귀에 속삭인 말을 반복하지 못하고 왼쪽은 정상이다. Rinne 검사에서 공기전도가 골전도보다 크고 Weber 검사에서 소리가 왼쪽 귀에서 가장 크게 들린다. 가장 가능성 높은 진단은?
+56세 환자가 30분~2시간 지속되는 현훈을 여러 차례 겪었다. 발작 때 오른쪽 귀가 먹먹하고 이명이 생기며 청력검사에서 오른쪽 저주파 감각신경성 난청이 확인됐다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 양성 발작성 체위성 현훈
-B. 메니에르병
-C. 편두통
-D. 일과성 허혈발작
+A. 메니에르병
+B. 후반고리관 이석증
+C. 전정신경염
+D. 중이 삼출
 
 ## 해설
 
-약 25분 지속되는 반복 현훈과 이명, 변동하는 오른쪽 청력 저하는 메니에르병 B에 가장 부합한다. Rinne에서 공기전도가 골전도보다 크고 Weber가 왼쪽으로 편위되는 것은 오른쪽 감각신경성 난청을 지지한다. 원래 해설의 오른쪽 청각 우세는 본문과 반대이다. 수십 초의 자세 유발 BPPV나 전음성 난청 양상이 아니다.
+20분 이상 지속되는 반복 현훈과 같은 쪽 변동성 청력저하·이명·충만감의 조합은 메니에르병에 맞는다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 일과성 허혈발작
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000377
+- https://pubmed.ncbi.nlm.nih.gov/32267799/

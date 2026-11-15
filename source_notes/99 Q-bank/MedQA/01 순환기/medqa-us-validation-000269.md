@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-2ZleyepeyEsSDsi6zqt7zrs5Hspp0gKERpbGF0ZWQgQ2FyZGlvbXlvcGF0aHkpLm1k
   - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
-question_type: mechanism
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-41세 남성이 점점 심해지는 피로, 앞가슴 통증, 잠자려고 할 때 약간의 활동만 해도 호흡곤란이 생겨 진료를 받으러 왔다. 10일 전 피로, 근육통, 기침을 동반한 독감 유사 질환이 있었지만 진료받지 않고 저절로 호전되었다. 과거력은 없고 흡연과 음주도 하지 않는다. 혈압 100/70 mmHg, 체온 37.5°C, 규칙적 요골맥박 105회/분이다. 피곤해 보이며 경정맥압 상승, 양측 폐수포음, S3 심음이 들린다. 심전도에서 비특이적 ST분절 및 T파 이상이 있고 심초음파에서 전반적인 좌심실 운동 이상과 좌심실 확장이 보인다. 트로포닌 I와 CK-MB가 상승했다. 이 질환의 가장 가능성 높은 기전은?
+41세 남성이 발열·근육통이 호전된 지 열흘 뒤 흉통과 호흡곤란으로 내원했다. 트로포닌이 상승했고 심초음파에서 좌심실 전반의 수축력이 떨어졌다. 관상동맥조영에서 원인이 될 폐색은 없고 혈역학적으로 안정적이다. 심근염을 평가하기에 적절한 다음 검사는?
 
 ## 선택지
 
-A. 관상동맥 죽상경화판의 파열
-B. 바이러스 매개 염증과 국소 및 전신 면역 활성화
-C. 심내막 감염에 따른 미세색전 및 면역복합체 침착
-D. 선행 연쇄상구균 감염으로 유발된 면역매개 심장 염증
+A. 운동부하 심전도
+B. 심장 자기공명영상
+C. 경식도 심장초음파로 좌심방 혈전 확인
+D. 폐 환기·관류 스캔
 
 ## 해설
 
 
-바이러스 매개 심근염은 최근 감기와 같은 바이러스 감염 후 면역 반응이 활성화되어 심근에 염증을 일으키고, 확장성 심근병증으로 진행될 수 있다. 환자는 감기 후 급성 심부전 증상을 보이므로 바이러스 매개 염증이 가장 가능성 높은 기전이다
+관상동맥 폐색 없이 선행 감염 뒤 흉통, 심근 손상과 전반적인 수축 저하가 생겼다. 심장 MRI는 심근 부종과 비허혈성 손상 양상을 평가해 심근염 진단에 도움이 된다. 감기 병력만으로 특정 바이러스를 정할 수는 없다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 선행 연쇄상구균 감염으로 유발된 면역매개 심장 염증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000269
+- ESC 심근염·심낭염 진료지침(2025): https://www.escardio.org/static-file/Escardio/Guidelines/Products/Slide%20sets/2025/2025%20official%20slides_MyoPeri.pdf

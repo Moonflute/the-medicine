@@ -16,7 +16,7 @@ related_diseases:
   - "Acute cellular rejection"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2PkO2PrOyekOy2qSDtj5DroLQgKFBuZXVtb2N5c3RpcyBQbmV1bW9uaWEpLm1k
-question_type: mechanism
+question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-사체 신장이식을 받은 지 10일 된 21세 남성이 오른쪽 하복부 통증과 전신 피로, 소변량 감소로 진료를 받으러 왔다. 이식 후 크레아티닌이 4.1 mg/dL로 상승했고 이식 신장 생검에서 세뇨관염이 보였으며 C4d 염색은 음성이었다. 이 소견의 가장 가능성 높은 원인은?
+신장이식 3주 뒤 혈청 크레아티닌이 며칠째 상승한다. 도플러 초음파에서 혈류와 소변 배액은 정상이고 타크로리무스 최저농도는 목표 범위다. 전신 감염 소견은 없다. 이식신 기능 저하의 원인을 확인해 치료를 결정할 다음 검사는?
 
 ## 선택지
 
-A. 이식편 내 수혜자 T세포
-B. 약물 유발 신독성
-C. 사구체 혈관 섬유화
-D. 새로 형성된 항HLA 항체
+A. 이식신 생검
+B. 소변 나트륨 분획배설률만 측정
+C. 신동맥 조영술을 먼저 시행
+D. 혈청 프로락틴
 
 ## 해설
 
-이식 10일 후 이식신 압통·크레아티닌 상승과 세뇨관염은 급성 T세포매개 거부반응을 지지하므로 A, 이식편 내 수혜자 T세포가 합당하다. C4d 음성도 이 해석과 양립하지만 C4d 하나만으로 모든 항체매개 거부를 배제하지는 않는다. 약물 신독성이 보통 C4d 양성이라는 설명은 잘못이며 임상적으로는 약물 농도와 전체 조직 소견 등을 함께 평가한다.
+뻔한 혈관·폐색·약물 원인 없이 이식신 기능이 악화되면 생검으로 거부반응의 유형과 다른 신실질 손상을 구분해야 치료를 정할 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 새로 형성된 항HLA 항체
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001215
+- https://uroweb.org/guidelines/renal-transplantation/chapter/the-guideline

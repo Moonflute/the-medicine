@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-만삭으로 태어난 신생아에게 소두증, 작은 턱과 눈, 낮은 귀, 홍채 결손, 손가락 7개씩, 양측 구순구개열, 심잡음, 발바닥의 볼록한 변형이 있다. 가장 가능성 높은 원인은?
+만삭 신생아에게 구순구개열, 양쪽 손의 다지증과 작은 눈이 있다. 뇌 영상에서는 앞뇌의 양쪽 반구가 제대로 나뉘지 않았다. 가장 의심되는 염색체 이상은?
 
 ## 선택지
 
-A. 취약 X 증후군
+A. 13번 삼염색체증
 B. 18번 삼염색체증
-C. 태아알코올증후군
-D. 13번 삼염색체증
+C. 21번 삼염색체증
+D. 45,X
 
 ## 해설
 
 
-다지증(다지증), 소두증, 구순구개열, 심잡음 등은 13번 삼염색체증(파타우 증후군)의 전형적인 선천적 기형이다. 따라서 가장 가능성 높은 원인은 13번 삼염색체증이다.
+전전뇌증에 구순구개열과 다지증이 함께 있으면 13번 삼염색체증을 의심한다. 18번 삼염색체증에 더 특징적인 손 소견은 손가락이 겹쳐 꼭 쥔 자세다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000788
+- https://medlineplus.gov/genetics/condition/trisomy-13/

@@ -19,7 +19,7 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-30세 여성이 한 달 동안 소변을 자주 보는 증상으로 내원했다. 하루에 수 리터의 물을 마시는데도 입이 마르고 항상 목이 마르다고 한다. 체중 변화나 식욕 변화는 없다. 시탈로프람으로 치료 중인 강박장애 병력이 있다. 하루 맥주 1~2캔을 마신다. 활력징후는 정상이고 신체검사도 이상이 없다. 검사에서 혈청 Na⁺ 130 mEq/L, 포도당 110 mg/dL, 삼투질농도 265 mOsm/kg, 소변 삼투질농도 230 mOsm/kg이다. 3시간 동안 물을 마시지 않도록 한 뒤 혈청 삼투질농도는 2시간마다, 소변 삼투질농도는 매시간 측정했다. 반복검사에서 혈청 삼투질농도 280 mOsm/kg, 소변 삼투질농도 650 mOsm/kg가 확인되었다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+30세 여성이 하루 소변을 4 L 본다. 혈당·신장기능은 정상이고 물을 많이 마실 때는 소변 삼투질농도가 160 mOsm/kg이다. 감독하 수분제한 뒤 데스모프레신 투여 전에 소변 삼투질농도가 850 mOsm/kg까지 올랐다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 뇌성 염분 소실
-B. 당뇨병
+A. 중추성 요붕증
+B. 신성 요붕증
 C. 일차성 다음증
-D. 신성 요붕증
+D. 고혈당에 의한 삼투성 이뇨
 
 ## 해설
 
 
-물 제한 후 혈청 삼투압이 상승하고 소변 삼투압이 크게 증가하는 것은 ADH 분비가 정상적으로 증가한 일차성 다음증을 시사한다.
+수분제한만으로 소변이 충분히 농축되면 항이뇨호르몬 분비와 신장 반응이 보존됐음을 시사한다. 심한 농축 장애가 있는 요붕증과 달리 과도한 물 섭취가 이 소견을 잘 설명한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 신성 요붕증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005699
+- https://pubmed.ncbi.nlm.nih.gov/30067922/

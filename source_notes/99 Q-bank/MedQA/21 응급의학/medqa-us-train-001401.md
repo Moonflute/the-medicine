@@ -16,6 +16,7 @@ question_type: diagnosis
 related_disease_slugs: []
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct

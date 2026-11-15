@@ -19,7 +19,7 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
   - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -41,18 +41,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 남자가 2개월 동안 점점 심해지는 발의 통증과 작열감으로 내원했다. 통증으로 잠을 자기 어렵다. 오른쪽 발가락 바닥에 통증이 없는 궤양이 있고, 집에서 붕대와 소독 크림을 발라도 크기가 계속 커진다. 7년 전 제2형 당뇨병을 진단받아 경구 메트포르민으로 치료 중이다. 티몰롤 점안액으로 치료하는 협우각 녹내장과 몇 년 전 오토바이 사고로 인한 만성 요통이 있어 트라마돌을 복용한다. 활력징후는 정상이다. 신체검사에서 오른쪽 발가락 발바닥에 3cm 크기의 통증 없는 궤양이 보인다. 궤양 바닥은 건조하고 홍반, 부종, 화농성 분비물은 없다. 신경학적 검사에서 양쪽 손과 발의 촉각, 통각, 위치감각, 진동감각이 소실되어 있으나 사지 근위부의 감각은 보존되어 있다. 근력은 정상이고 양측 발목반사는 소실되어 있다. 당뇨 선별검사에서 공복 혈당은 206 mg/dL이다. 심전도에서 좌각차단이 보인다. 이 환자의 통증에 대한 가장 적절한 다음 치료는 무엇인가?
+제2형 당뇨병 환자가 양발의 대칭적인 작열통으로 잠을 잘 못 잔다. 진찰에서 발끝 감각과 발목반사가 줄었다. 혈당 및 발 관리와 별도로 신경병증성 통증에 사용할 적절한 초기 약물은?
 
 ## 선택지
 
 A. 옥시코돈
-B. 궤양 변연절제
-C. 주사용 인슐린
-D. 프레가발린
+B. 프레가발린
+C. 이부프로펜
+D. 클로나제팜
 
 ## 해설
 
-원위부 대칭 감각소실·발목반사 소실과 작열통은 당뇨병성 다발신경병증을 시사한다. Pregabalin(D)은 전압개폐성 칼슘통로의 α2δ 소단위에 결합하여 신경병증성 통증을 줄인다. GABA 수용체 직접 작용제가 아니다. Oxycodone 같은 opioid를 일상적인 일차 치료로 사용하지 않는다. 발 궤양은 통증 약물과 별도로 압력 제거, 혈류·감염 평가 및 적절한 상처관리가 필요하다.
+프레가발린은 통증성 당뇨병성 말초신경병증에서 사용할 수 있다. 신기능에 맞춰 용량을 조절하고 졸림·어지럼 등을 살핀다. 오피오이드를 보통 첫 치료로 쓰지 않는다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ D. 프레가발린
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007205
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/

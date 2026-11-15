@@ -13,11 +13,11 @@ related_diseases:
   - "fifth disease"
   - "parvovirus B19"
   - "erythema infectiosum"
-question_type: prevention
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KCE7Je87ISxIO2ZjeuwmCAoRXJ5dGhlbWEgSW5mZWN0aW9zdW0pLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-10세 여아가 가렵고 붉은 발진으로 내원했다. 2일 전 뺨에 구강 주위 창백을 동반해 시작되어 팔과 몸통으로 퍼졌다. 일주일 전 39.4°C (102.9°F)의 고열, 두통, 근육통과 독감 같은 증상이 있었지만 acetaminophen으로 2일 만에 호전되었다. 양쪽 뺨에 구강 주위 창백을 동반한 대칭성 홍반성 반구진 발진이 몸통, 팔, 엉덩이까지 퍼져 있다. 다음 중 최선의 관리 단계는 무엇인가?
+9세 아이가 감기 증상을 앓은 뒤 양쪽 뺨이 붉어지고 팔다리에 그물 모양 발진이 생겼다. 전염성 홍반으로 판단했고, 지금은 열이나 전신 증상이 없다. 면역저하나 혈액질환도 없다. 등교에 대해 어떻게 설명할까?
 
 ## 선택지
 
-A. 정맥 면역글로불린 투여
-B. 전혈 수혈
-C. 즉시 학교에 돌아가도 된다고 설명하고 귀가
-D. 발진이 사라진 후 학교에 돌아가도록 설명하고 귀가
+A. 발진이 완전히 없어질 때까지 등교하지 않는다
+B. 대개 발진이 생길 때 전염기가 지나, 몸 상태가 좋으면 등교할 수 있다
+C. 혈청 IgM이 음성으로 바뀐 뒤에만 등교한다
+D. 예방 항바이러스제를 시작한 뒤 이틀간 쉰다
 
 ## 해설
 
-감기 유사 전구 후 뺨의 홍반과 입 주위 창백은 전염성 홍반(제5병)에 합당하다. 면역정상 아이는 발진이 나타날 때 대개 전염기가 지나고 현재 열·전신증상이 없으므로 등교(C)가 가능하다. 입술 자체의 홍반이 진단 근거가 아니다.
+면역이 정상인 아이는 대개 발진이 생기기 전에 전파력이 가장 높다. 발진만 남았고 몸 상태가 좋다면 발진 소실을 기다릴 필요는 없다.
 
 ## 검수 근거
 

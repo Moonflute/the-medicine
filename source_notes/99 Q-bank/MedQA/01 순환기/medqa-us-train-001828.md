@@ -19,7 +19,7 @@ question_type: management
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,19 +39,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-53세 남성이 건강검진을 위해 내원했다. 식습관은 좋지 않지만 그 외에는 건강한 생활을 한다고 한다. 과거력은 없고 종합비타민만 복용한다. 혈압 116/74 mm Hg, 맥박 76/min이다. 진찰에서 급성 병색이나 심잡음은 없고 양측 폐음은 정상이다. 지질검사에서 LDL 203, HDL 37, TG 292였다. 다음 중 어떤 약물을 시작해야 하는가?
+53세 남성이 두 차례 공복 검사에서 LDL 콜레스테롤 203 mg/dL 안팎을 보였다. 갑상선기능저하증 등 이차 원인이 없고 아직 지질강하제를 복용하지 않는다. 적절한 초기 약물은?
 
 ## 선택지
 
-A. simvastatin 10 mg 매일
-B. ezetimibe 10 mg 매일
-C. fenofibrate 145 mg 매일
-D. atorvastatin 40 mg
+A. 저강도 심바스타틴 10 mg
+B. 에제티미브 단독
+C. 페노피브레이트 단독
+D. 고강도 아토르바스타틴 40 mg
 
 ## 해설
 
 
-LDL이 203 mg/dL인 고위험 환자에게는 고강도 스타틴이 1차 치료이다. Atorvastatin 40 mg은 고강도 용량으로 LDL를 50% 이상 감소시킬 수 있다. 따라서 atorvastatin 40 mg을 시작하는 것이 적절하다.
+LDL 콜레스테롤이 반복해서 190 mg/dL 이상이면 단기 위험점수만으로 스타틴 치료를 미루지 않는다. 내약 가능한 고강도 스타틴이 우선이며, 가족력 등을 확인해 가족성 고콜레스테롤혈증도 평가한다.
 
 ## 검수 근거
 
@@ -64,3 +64,6 @@ LDL이 203 mg/dL인 고위험 환자에게는 고강도 스타틴이 1차 치�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001828
+- https://manage.lipid.or.kr/dtp/therapy.php
+- https://lipid.or.kr/reference/guideline.php?idx=1454&mode=view
+- https://www.kjim.org/journal/view.php?doi=10.3904%2Fkjim.2022.121

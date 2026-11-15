@@ -20,7 +20,7 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-46세 여성이 추적 진료를 위해 내원했다. 일주일 전 혈압은 148/94 mmHg였고 지난주 집에서 측정한 혈압은 151/97과 146/92 mmHg였다. 특별한 병력과 복용 약물은 없고 키 160 cm, 체중 52 kg, BMI 20 kg/m²이다. 맥박 88회/분, 혈압 150/96 mmHg이며 심폐와 복부 진찰은 정상이다. 사지는 잘 관류되고 말초맥박은 강하다. 전해질, 크레아티닌, 지질, TSH, 공복혈당, 소변검사는 정상이다. 다음 중 가장 적절한 다음 단계는?
+46세 여성이 진료실과 가정에서 모두 혈압이 높아 고혈압으로 진단됐다. 전해질, 크레아티닌, 공복혈당, 지질과 소변 검사는 정상이고 흉통, 심잡음, 심부전 소견이 없다. 기본 평가에서 부정맥과 좌심실비대 단서를 확인하기 위해 추가할 검사는?
 
 ## 선택지
 
-A. 심전도
+A. 12유도 심전도
 B. 수면다원검사
-C. 심초음파
-D. 신장 초음파
+C. 경식도 심초음파
+D. 신동맥 CT 혈관조영술
 
 ## 해설
 
 
-새로 진단된 고혈압 환자는 기본적인 심혈관 위험 평가로 심전도(ECG)를 먼저 시행한다. 다른 영상 검사는 증상이 있거나 합병증이 의심될 때 고려한다.
+새로 진단된 고혈압에서는 12유도 심전도로 좌심실비대나 부정맥 등 심장 이상 단서를 확인한다. 심초음파나 신동맥 영상은 초기 결과와 증상, 이차성 고혈압을 의심하는 소견에 따라 추가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 신장 초음파
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003022
+- https://koreanhypertension.org/reference/guide?idno=10446&mode=read
+- https://academic.oup.com/eurheartj/article/45/38/3912/7741010

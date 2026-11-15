@@ -13,13 +13,13 @@ related_diseases:
   - "환축추 불안정성"
   - "다운증후군"
   - "경수 압박"
-question_type: management
+question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-다운증후군이 있는 40세 여성이 3개월간 피로, 손 사용의 서투름, 보행곤란, 어지러움, 복시, 요실금으로 진료를 받으러 왔다. 상·하지 중등도 근력저하, 양측 3+ 심부건반사와 바빈스키 징후가 있었다. 증상을 호전시킬 가능성이 가장 높은 치료는?
+다운증후군이 있는 40세 환자의 걸음이 불안해지고 손이 서툴어졌다. 팔다리 반사가 항진되고 최근 소변 조절도 어려워졌다. 경수 압박과 환축추 불안정이 의심될 때 다음 조치는?
 
 ## 선택지
 
-A. 보툴리눔 항독소
-B. C1/C2 외과적 유합술
-C. 메틸프레드니솔론
-D. 피리도스티그민
+A. 목의 움직임에 주의하며 경추 MRI와 응급 척추 전문 평가를 한다
+B. 목을 반복해서 크게 굽혀 증상을 확인한다
+C. 보행 재활만 하고 다음 달에 본다
+D. 요추 MRI만 시행한다
 
 ## 해설
 
-다운증후군 환자의 진행성 손 기능 저하·보행장애·사지 과다반사와 Babinski 징후·배뇨장애는 경수압박을 의심하게 한다. 환축추 불안정과 척수압박이 확인되는 경우 안정화 유합술(B)이 적절하다. 실제 진료에서는 긴급 척추 평가와 적절한 영상 확인이 선행되며 단순 피로나 말초 근무력증의 약물치료로 대체하지 않는다.
+손 기능·보행이 진행해서 나빠지고 상위운동신경 징후와 방광 증상이 있으면 경수 압박을 의심한다. 영상으로 압박을 평가하고 빠르게 척추 전문팀에 의뢰한다.
 
 ## 검수 근거
 

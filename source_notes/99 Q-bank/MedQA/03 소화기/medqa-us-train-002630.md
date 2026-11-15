@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-26세 여성이 3개월간 간헐적인 하복부 경련과 팽만으로 내원했다. 아이스크림, 치즈, 푸딩을 먹은 후 1~2시간 뒤 비혈성 수양성 거품변과 가스가 발생하고 배변 후에도 경련이 호전되지 않는다. 다음 중 가장 적절한 치료의 다음 단계는?
+26세 여성이 3개월간 간헐적인 하복부 경련과 팽만으로 내원했다. 아이스크림, 치즈, 푸딩을 먹은 후 1~2시간 뒤 비혈성 수양성 거품변과 가스가 발생하고 배변 후에도 경련이 호전되지 않는다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-yhsOq4sCDslpHrp4kg7YyM7IiYIChQcmVtYXR1cmUgUnVwdHVyZSBvZiBNZW1icmFuZXMpLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 31주인 30세 여성(Gravida 2, Para 1)이 한 시간 전 양수가 터져 입원했다. 임신 중 철결핍성 빈혈과 갑상샘기능저하증이 있어 각각 철분 보충제와 L-티록신으로 치료받았고 산전 진찰은 규칙적으로 받았다. 첫 임신과 분만은 합병증이 없었다. 맥박은 분당 90회, 호흡수는 분당 17회, 혈압은 130/80 mm Hg이며 복부 압통은 없다. 지난 한 시간 동안 자궁수축이 8회 있었다. 골반 진찰에서 자궁경부가 3cm 열려 있고 태아 심박수는 분당 140회이며 감속은 없다. 덱사메타손과 테르부탈린 투여 외에 다음 중 처치로 가장 적절한 다음 단계는?
+임신 30주 4일 산모가 조기 양막파수 후 활발한 진통 중이다. 자궁경부가 5 cm 열려 수시간 내 출산이 예상된다. 감염·자간전증은 없고 산전 스테로이드를 시작했다. 태아 신경보호를 위해 추가로 고려할 약은?
 
 ## 선택지
 
-A. 응급 제왕절개
-B. 자궁경부 봉축술
-C. 황산마그네슘 투여
-D. 예방적 아지트로마이신 투여
+A. 추가 자궁수축억제 목적으로 장기간 테르부탈린
+B. 정맥 황산마그네슘
+C. 태아 심박이 정상이어도 옥시토신을 바로 시작
+D. 메토트렉세이트
 
 ## 해설
 
-31주에서 파수·경부 개대와 잦은 수축으로 조산이 임박할 수 있어 황산마그네슘(C)을 태아 신경보호 목적으로 투여한다. 이는 수축억제제를 추가하는 의미가 아니다. PPROM 잠복기 항생제도 별도로 필요할 수 있으며 아지트로마이신 단독 선택지와 혼동하지 않는다. 분만 임박성·산모 금기를 평가한다.
+임박한 이른 조산에서 황산마그네슘은 태아 신경보호를 위해 사용한다. 자궁수축을 멈추기 위한 치료나 필요한 분만을 지연하라는 뜻은 아니다.
 
 ## 검수 근거
 
@@ -61,3 +61,5 @@ D. 예방적 아지트로마이신 투여
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006584
+- https://www.nice.org.uk/guidance/ng25/chapter/recommendations
+- https://doi.org/10.1002/ijgo.13856

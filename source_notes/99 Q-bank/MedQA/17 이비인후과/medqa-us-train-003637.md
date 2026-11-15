@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-ykkeydtOyXvCAoT3RpdGlzIG1lZGlhKS5tZA
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,18 +40,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-10세 남아가 4일간의 왼쪽 귀 통증과 발열에 이어 발생한 두통, 오심, 구토로 내원했다. 왼쪽 고막은 발적되고 고름이 나왔으며 왼쪽 눈의 가쪽 주시가 제한되었다. 다음 중 가장 적절한 다음 처치는?
+10세 아이가 중이염으로 치료받던 중 발열과 심한 한쪽 눈 뒤 통증이 생겼다. 같은 쪽 눈이 가쪽으로 움직이지 않아 복시가 있다. 다음 평가로 적절한 것은?
 
 ## 선택지
 
-A. 정맥 세프트리악손과 클린다마이신 치료
-B. 정맥 세파졸린과 메트로니다졸 치료
-C. 뇌 MRI
-D. 두개골 천공 배액
+A. 중이염이 번졌는지 응급 조영 MRI와 이비인후과 평가를 진행한다
+B. 시력만 재고 안경을 처방한다
+C. 중이 삼출이 사라질 때까지 영상은 미룬다
+D. 편두통으로 보고 진통제만 사용한다
 
 ## 해설
 
-정답은 C, 뇌 MRI이다. 화농성 중이염에 두통·구토와 같은 쪽 외전신경마비가 동반되면 단순 중이염을 넘어 추체첨부염, 두개내 농양 또는 정맥동 혈전증 등 합병증을 평가해야 한다. 추체첨부염은 Gradenigo 증후군과 연관되지만, 이 문항에는 전형적인 삼차신경 영역 통증까지 모두 기술되어 있지는 않다. 제시된 선택지 중 뇌 MRI로 두개내 병변의 위치·범위를 확인하는 것이 적절하다. 세균성 합병증이 의심되면 이비인후과·감염 전문 평가와 항균치료도 신속히 진행하며, 전신상태가 나쁜 환자에서 영상 때문에 응급치료를 지연하는 의미는 아니다.
+중이염과 같은 쪽의 외전신경마비·깊은 얼굴 통증은 추체첨부염이나 두개내 전파의 경고다. 영상과 전문 평가를 서두르고 필요 시 전신 치료를 병행한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 두개골 천공 배액
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003637
+- https://pubmed.ncbi.nlm.nih.gov/40409884/

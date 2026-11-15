@@ -18,7 +18,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-36세 여성이 반복되는 두통을 호소했다. 우측 머리 통증이 오심을 동반하고 무거운 물건을 들 때 악화되며 보통 2일간 지속된다. 박동성이고 초콜릿을 먹으면 유발되며 전조는 없다. 불편감이 심해 어두운 방에 있고 여러 일반의약품을 사용했지만 효과가 없었다. 급성 발작의 다음 치료로 가장 적절한 것은?
+36세 환자가 반복되는 편두통의 평소와 같은 발작으로 내원했다. 치료 초기에 나프록센을 복용해도 통증이 계속된다. 심뇌혈관질환이나 조절되지 않는 고혈압은 없다. 발작 치료에 사용할 약은?
 
 ## 선택지
 
-A. D2 수용체 차단제
-B. 베타차단제
-C. GABA 트랜스아미나제 억제제
-D. 5-HT1B/1D 작용제
+A. 수마트립탄
+B. 프로프라놀롤
+C. 토피라메이트
+D. 아미트립틸린
 
 ## 해설
 
-일측 박동성 두통, 활동 시 악화, 구역과 빛 회피는 편두통에 맞는다. 일반 진통제에 반응하지 않는 급성 발작에서 보기 중 5-HT1B/1D 작용제(D, triptan)를 고려한다. 베타차단제는 주로 예방 치료에 쓰인다. D2 수용체 차단제인 metoclopramide 등도 구역 치료 및 일부 급성 편두통 상황에서 사용되므로 다른 모든 선택지가 편두통 치료와 무관하다고 설명해서는 안 된다.
+단순 진통제에 충분히 반응하지 않는 편두통 발작에서는 금기를 확인하고 트립탄을 사용할 수 있다. 나머지 약은 예방에 사용하는 선택지다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ D. 5-HT1B/1D 작용제
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008139
+- https://www.nice.org.uk/guidance/cg150/chapter/recommendations
+- https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=201900721

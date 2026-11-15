@@ -17,7 +17,7 @@ related_diseases:
 related_disease_slugs: []
 question_type: prevention
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 20주인 23세 여성(임신 2회·출산 1회)이 정기 산전검사를 받으러 왔다. 이전 임신은 정상이었고 RhD 양성 딸을 출산했다. 3년 전 복잡한 대퇴골 골절로 자동차 사고 후 수혈을 받은 병력이 있다. 체온 37.2°C(99°F), 맥박 92회/분, 혈압 138/82 mmHg였다. 자궁은 배꼽 높이였고 초음파에서 태아 심박수, 움직임, 해부학적 구조는 정상이었다. 혈액형 A Rh 음성, 항-D 항체 음성, 풍진 IgM·IgG 음성, 수두 IgM 음성·IgG 양성, 성매개감염 검사 음성, 소변 단백 미량, 배양 음성, 자궁경부 세포검사 정상이었다. 다음 중 가장 적절한 처치는?
+임신 27주 산모는 RhD 음성이고 항-D 항체가 없다. 태아 RhD는 아직 모른다. 정기 감작 예방 계획은?
 
 ## 선택지
 
-A. 28주에 항체 선별검사를 반복하고 28주 및 분만 후 신생아가 Rh(D) 양성이면 항-D 면역글로불린을 투여한다
-B. 28주에 항체 선별검사를 반복하고 28주에 항-D 면역글로불린을 투여하며 이후 관리는 필요 없다
-C. 추가 선별검사는 필요 없고 분만 직후 항-D 면역글로불린을 투여한다
-D. 추가 관리는 필요 없다
+A. 항-D 항체가 검출될 때까지 예방하지 않는다
+B. 28주에 항-D 면역글로불린을 한 번 주면 출산 후에는 항상 필요 없다
+C. 출생아 RhD가 음성이면 산전과 산후 모두 예방한다
+D. 28주 무렵 예방하고, 출생아가 RhD 양성이면 산후 72시간 이내 추가 투여한다
 
 ## 해설
 
-항-D 항체가 없는 RhD 음성 산모의 감작 예방이 목적이다. 28주에 항체 선별 후 비감작 상태이면 RhIG를 투여하고, 신생아가 RhD 양성이면 출산 후 72시간 이내 추가 투여한다(A). 이미 항-D 감작된 환자에게 예방용 RhIG로 치료하는 것은 아니다.
+RhD 음성 비감작 산모는 28주 무렵 정기 예방을 받는다. 새로 태어난 아기가 RhD 양성이면 보통 72시간 이내 추가 투여하고 태아모체 출혈량에 따라 용량을 평가한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 추가 관리는 필요 없다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000611
+- https://sogc.org/common/Uploaded%20files/ACSC/ACSC2024/gui448CPG2404E.pdf

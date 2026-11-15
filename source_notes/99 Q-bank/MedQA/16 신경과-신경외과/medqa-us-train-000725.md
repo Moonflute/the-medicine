@@ -12,14 +12,14 @@ specialty: 16 신경과-신경외과
 related_diseases:
   - "non-Hodgkin lymphoma"
   - "peripheral neuropathy"
-question_type: diagnosis
+question_type: risk_factor
 related_disease_slugs:
   - MDkg7ZiI7JWhL-u5hO2YuOyngO2CqCDrprztlITsooUgKE5vbi1Ib2Rna2luIEx5bXBob21hKS5tZA
   - MDkg7ZiI7JWhL-qzoOygkOuPhCDspp3tm4TqtbAgKEh5cGVydmlzY29zaXR5IFN5bmRyb21lKS5tZA
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -36,21 +36,22 @@ related_drug_slugs:
 
 ## 문제
 
-67세 남성이 지난 일주일간 다리의 저림과 화끈거리는 느낌으로 내원하였다. 환자는 또한 대변이 평소보다 크고 거칠어졌다고 호소한다. 환자는 비호지킨 림프종(non-Hodgkin lymphoma)을 앓고 있으며 현재 프레드니손(prednisone), 빈크리스틴(vincristine), 리툭시맙(rituximab), 사이클로포스파미드(cyclophosphamide), 독소루비신(doxorubicin)으로 화학요법을 받고 있다. 화학요법을 4주기 받았으며, 마지막 화학요법 주기는 2주 전이었다. 체온은 37.1°C, 맥박은 89회/분, 혈압은 122/80 mm Hg이다. 진찰 결과 하지 원위부 근육의 근력 저하가 관찰된다. 발목 반사(ankle jerk)는 양측 1+, 무릎 반사(knee reflex)는 양측 2+이다. 하지의 통증, 진동, 위치 감각이 저하되어 있다. 혈청 포도당, 크레아티닌, 전해질, 칼슘 농도는 참고 범위 내에 있다. 이 환자 증상의 가장 가능성 있는 원인은 무엇인가?
+림프종으로 병합 항암치료를 받은 67세 환자에게 양발 저림과 발목 힘 저하가 생겼다. 발목반사가 줄었고 변비도 새로 심해졌다. 이 말초·자율신경 이상과 가장 관련된 약은?
 
 ## 선택지
 
-A. 빈크리스틴(vincristine)의 부작용
-B. 척수 압박(spinal cord compression)
-C. 부종양성 자가항체(paraneoplastic autoantibodies)
-D. 샤르코-마리-투스병(Charcot–Marie–Tooth disease)
+A. 리툭시맙
+B. 빈크리스틴
+C. 사이클로포스파마이드
+D. 독소루비신
 
 ## 해설
 
 
-Vincristine는 미세소관 억제제로 말초 신경 독성을 일으켜 손발 저림, 근력 약화, 반사 저하를 초래한다. 환자는 화학요법 중 vincristine 투여 후 말초 신경병증 증상을 보이므로, 가장 가능성 높은 원인은 vincristine 부작용이다.
+빈크리스틴은 말초신경병증과 자율신경 이상을 일으킬 수 있다. 위약과 변비가 새로 나타나면 항암팀에서 신경독성의 중증도와 용량을 재평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000725
+- https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=198600091

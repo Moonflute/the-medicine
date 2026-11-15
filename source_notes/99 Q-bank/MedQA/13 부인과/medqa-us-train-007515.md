@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-u5hOygleyDgSDsnpDqtoEg7Lac7ZiIIChBYm5vcm1hbCBVdGVyaW5lIEJsZWVkaW5nKS5tZA
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-66세 여자가 건강검진을 위해 일차진료의를 찾아왔다. 며칠 전 가벼운 점상출혈을 발견했다. 마지막 월경은 53세였고 외상은 없다. 한 명의 남성과 성생활을 하며 콘돔은 사용하지 않는다. 제2형 당뇨병과 고혈압이 있어 메트포르민과 리시노프릴을 복용한다. 최근 자궁경부 세포검사는 정상이다. 키는 165.1cm(5피트 5인치), 체중은 84kg(185lb), BMI는 30.8kg/m²이다. 혈압 115/70 mmHg, 맥박 85회/분, 호흡수 15회/분이다. 골반검사에서 자궁 크기는 정상이고 부속기 종괴는 없으며 외음부·질·자궁경부 병변도 없다. 대변 잠혈검사는 음성이고 자궁내막 생검에서 비정형이 없는 단순 자궁내막 과형성이 보인다. 다음 중 가장 적절한 치료 단계는 무엇인가?
+폐경 후 출혈을 평가한 62세 여성의 자궁내막 생검에서 비정형 없는 증식증이 확인됐다. 수술보다 약물 치료를 원하고 자궁강 변형이나 장치 삽입 금기는 없다. 1차 치료와 추적은?
 
 ## 선택지
 
-A. 아나스트로졸
-B. 에스트로겐-프로게스틴 피임약
-C. 메게스트롤 아세테이트
-D. 나파렐린
+A. 질 에스트로겐을 투여하고 증상만 확인
+B. 레보노르게스트렐 자궁내장치를 사용하고 자궁내막 생검으로 추적
+C. 아로마타제 억제제를 투여하고 초음파만 추적
+D. 생검이 비정형이 아니므로 추가 평가 없이 퇴원
 
 ## 해설
 
 
-폐경 후 비정형 없는 단순 자궁내막 과형성은 프로게스틴(메게스트롤 아세테이트) 치료가 1차 선택이다. 에스트로겐제는 출혈을 악화시킬 수 있고, 아나스트로졸은 호르몬 억제제이지만 첫 선택이 아니다.
+비정형이 없는 증식증에서 레보노르게스트렐 자궁내장치는 우선 약물 치료다. 사용이 어렵다면 연속 경구 프로게스틴도 가능하며, 추적 생검으로 반응을 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007515
+- https://www.rcog.org.uk/media/knmjbj5c/gtg_67_endometrial_hyperplasia.pdf

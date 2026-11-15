@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67aA67mE64-Z7Je8IChTaW51c2l0aXMpLm1k
   - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-5세 남아가 10일 동안 지속되고 밤에 악화되는 기침으로 소아과에 왔다. 경증 간헐성 천식이 있어 알부테롤 흡입기를 사용했지만 호전되지 않았다. 두통과 인후통도 호소하고 어머니는 콧물이 악화되었다고 한다. 과거력은 특이사항이 없고 약물 알레르기도 없다. 체온 101.8°F(38.8°C), 혈압 88/65 mmHg, 맥박 132회/분, 호흡 16회/분이었다. 콧구멍에서 화농성 점액이 흐르고 상악동 부위 촉진에 압통이 있었다. 인두는 홍반성이고 편도는 대칭적으로 부어 있었다. 폐 진찰에서 양측 중등도 호기성 천명음이 들렸다. 다음 중 가장 적절한 처치는?
+5세 아이의 콧물과 기침이 감기 시작 6일 무렵 가라앉다가 다시 심해지고 발열이 새로 생겼다. 안와 합병증의 단서는 없고 약물 알레르기도 없다. 항생제를 시작할 때 적절한 첫 경구 약은?
 
 ## 선택지
 
-A. 아목시실린
-B. 아목시실린-클라불란산
+A. 아목시실린–클라불란산
+B. 아지트로마이신
 C. 클린다마이신
 D. 레보플록사신
 
 ## 해설
 
-지속되면서 악화되는 화농성 비루와 부비동 압통은 급성 세균성 비부비동염에 합당하다. IDSA 지침은 소아의 경험적 치료로 B, amoxicillin-clavulanate를 amoxicillin 단독보다 선호한다. 주요 원인균에는 S. pneumoniae, H. influenzae, M. catarrhalis가 포함된다. Clavulanate는 주로 후자의 베타락타마제 생성 균에 대한 범위를 보완하며, 폐렴구균의 페니실린 내성 자체를 베타락타마제 때문이라고 설명해서는 안 된다. 다른 소아 지침에서는 상황에 따라 amoxicillin 단독도 선택하므로 지역 내성과 중증도를 고려한다.
+호전되던 상기도 증상이 다시 악화하면 세균성 부비동염을 의심한다. 국내 소아 지침에서 항생제 치료를 할 때 아목시실린–클라불란산을 첫 선택으로 권고한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 레보플록사신
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000463
+- https://www.kdca.go.kr/bbs/kdca/263/306993/download.do

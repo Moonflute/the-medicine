@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: investigation
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-65세 남성이 발열과 쇠약감으로 응급실에 왔다. 증상은 어제 시작되어 점점 악화되었다. 과거력으로 비만, 당뇨병, 알코올 남용과 30갑년 흡연력이 있다. 요양원에 거주하며 과거 궤양과 섬망으로 여러 차례 내원했다. 체온은 103°F (39.4°C), 혈압은 122/88 mmHg, 맥박은 분당 129회, 호흡수는 분당 24회, 산소포화도는 99%이다. 신체검사에서 심잡음이 들린다. 반코마이신과 피페라실린-타조박탐을 시작하고 입원했다. 입원 중 혈액배양에서 Streptococcus bovis가 자라 항생제를 적절히 변경했다. 경식도 심초음파는 정상이다. 발열이 감소하고 증상이 호전되었다. 이 환자에게 추가로 필요한 것은 무엇인가?
+65세 환자의 혈액배양 두 세트에서 Streptococcus gallolyticus 아종 gallolyticus가 확인됐다. 경식도 심초음파에 증식물은 없고 항생제로 급성 상태는 안정됐다. 추가로 계획할 검사는?
 
 ## 선택지
 
-A. 중독의학 의뢰
-B. 대장내시경
-C. 중심정맥관 교체 및 심초음파 재검
-D. 노인학대에 대한 사회복지 상담
+A. 대장내시경
+B. 저선량 흉부 CT
+C. 위내시경만 시행
+D. 복부 단순 X선
 
 ## 해설
 
 
-S. bovis군, 특히 S. gallolyticus 균혈증은 동반 대장 종양/선종과 연관되어 대장내시경 B로 병변을 평가한다. 이 균혈증이 곧 대장암을 새로 일으켰다는 의미는 아니다. 급성 상태 안정성과 진료 상황에 맞춰 검사하며 모든 항생제 과정이 끝나야만 가능한 것은 아니다. TEE 음성은 대장 병변 평가의 필요성을 없애지 않는다.
+이 균의 균혈증은 대장 선종이나 암과 연관된다. 심내막염이 확인되지 않더라도 안정된 뒤 대장내시경으로 대장 병변을 평가한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ S. bovis군, 특히 S. gallolyticus 균혈증은 동반 대장 종양/선종과 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004521
+- https://pubmed.ncbi.nlm.nih.gov/41087105/

@@ -13,13 +13,13 @@ related_diseases:
   - "acute otitis media"
   - "secondhand smoke"
   - "upper respiratory infection"
-question_type: prognosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7KSR7J207Je8IChPdGl0aXMgTWVkaWEpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-11개월 남아가 발열과 우측 귀를 잡아당기는 행동 때문에 어머니와 함께 소아과에 왔다. 현재 보채고 미열이 있다. 약 1주일 전 가벼운 기침, 미열, 몸살, 콧물이 있었고 어린이용 타이레놀로 치료하자 며칠 후 호전되었다. 아버지는 발코니에서 담배를 피운다. 만삭 자연분만으로 태어났으며 발달은 정상이고 예방접종도 최신이다. 체온 39.3°C(102.7°F), 맥박 122회/분, 호흡수 24회/분이다. 진찰에서 보채며 달래야 한다. 심장과 폐는 정상이고 우측 귀가 붉고 약간 부어 있다. 이경검사에서 제시된 소견이 보인다. 다음 중 이 환자 상태에 가장 기여한 요인은?
+4세 아이에게 하루 전부터 한쪽 귀의 가벼운 통증이 있고, 같은 쪽 고막이 불룩하다. 체온은 37.7℃이고 전신 상태가 좋으며 이루는 없다. 보호자는 악화하면 곧바로 재진할 수 있고 항생제를 피하고 싶어 한다. 적절한 초기 계획은?
 
 ## 선택지
 
-A. 어린이집 노출
-B. 낭성섬유증
-C. 면역결핍
-D. 간접흡연
+A. 진통제를 쓰지 않고 귀 안을 세척한다
+B. 진통하면서 48–72시간 관찰하고, 호전이 없거나 악화하면 다시 평가한다
+C. 고막이 불룩하면 즉시 정맥 항생제를 투여한다
+D. 반대쪽 귀에도 생길 수 있으니 한 달간 예방 항생제를 준다
 
 ## 해설
 
 
-어린이의 급성 중이염은 담배 연기 노출(간접흡연)으로 이관 기능이 저하되어 발생 위험이 증가한다. 따라서 간접흡연이 주요 위험 요인이다.
+두 돌이 지난 건강한 아이의 비중증 중이염은 추적이 확실하면 진통과 단기 관찰이 가능하다. 악화하거나 48–72시간 내 호전이 없으면 재평가해 항생제 여부를 결정한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007887
+- https://pubmed.ncbi.nlm.nih.gov/22876048/
+- https://www.cdc.gov/antibiotic-use/hcp/clinical-care/pediatric-outpatient.html

@@ -13,11 +13,11 @@ related_diseases:
   - "meningitis"
   - "수막염"
   - "lumbar puncture"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsiJjrp4nsooUgKE1lbmluZ2lvbWEpLm1k
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-21세 대학생 남자가 혼란 상태로 응급실에 왔다. 약 45분 전 경련을 한 번 했고 3일간 발열과 두통을 호소했다. 오심, 구토, 두부 외상, 인후통, 발진, 복통은 없었다. 혈압 102/78 mmHg, 심박수 122회/분, 체온 38.4°C이며 의식은 있지만 혼란스럽고 지남력이 없다. 빛과 큰 소리에 예민하고 심박수는 증가했지만 리듬은 정상이다. 폐와 안저는 정상이며 브루진스키 징후가 양성이다. 다음으로 가장 적절한 처치는 무엇인가?
+21세 환자가 고열과 경부강직으로 내원했고, 새로 국소 발작을 한 뒤 의식이 저하돼 있다. 급성 세균성 수막염을 포함한 수막뇌염이 의심된다. 검사와 치료 순서는?
 
 ## 선택지
 
-A. 뇌 CT
-B. 뇌파검사
-C. 중환자실 의뢰
-D. 요추천자
+A. 요추천자를 먼저 하고 결과가 나올 때까지 치료를 미룬다
+B. 배양을 신속히 채취하고 경험적 정맥 치료를 시작하면서, 요추천자 전 뇌영상을 시행한다
+C. 뇌 MRI 결과가 나올 때까지 정맥 치료와 배양을 미룬다
+D. 뇌파검사만 하고 열이 떨어지면 추가 검사하지 않는다
 
 ## 해설
 
-발열·수막자극징후·의식변화는 수막뇌염을 의심하게 한다. 이 환자에는 새로 발생한 발작과 지속 혼돈이 있어, 보기 중 뇌 CT(A)로 LP 전 종괴효과 등 안전성 문제를 평가하는 것이 적절하다. 모든 수막염 환자가 LP 전에 CT를 받아야 하는 것은 아니다. 혈액배양과 경험적 항균치료는 영상이나 LP를 기다리며 지연해서는 안 되고, 정상 CT만으로 모든 뇌탈출 위험이 사라지는 것도 아니다.
+새 국소 발작과 뚜렷한 의식 저하가 있으면 요추천자 전 영상으로 안전성을 평가한다. 혈액배양과 적절한 경험적 치료를 영상 또는 요추천자 때문에 지연하지 않는다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ D. 요추천자
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009506
+- https://www.ncbi.nlm.nih.gov/books/NBK614844/
+- https://www.nice.org.uk/guidance/ng240/chapter/recommendations

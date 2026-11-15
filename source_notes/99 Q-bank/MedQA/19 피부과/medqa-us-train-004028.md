@@ -13,7 +13,7 @@ related_diseases:
   - "아토피피부염"
   - "영아 습진"
   - "피부 장벽 기능장애"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7JWE7Yag7ZS8IO2UvOu2gOyXvCAoQXRvcGljIERlcm1hdGl0aXMpLm1k
   - MTkg7ZS867aA6rO8L-yVhO2GoO2UvCDtlLzrtoDsl7wgKEF0b3BpYyBEZXJtYXRpdGlzKS5tZA
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-5개월 남아가 2주간 지속된 전신 가려움 발진으로 내원했다. 가려움 때문에 밤에 자주 깬다. 생후 4개월까지 모유만 먹다가 분유로 바꾸었다. 아버지에게 천식 병력이 있다. 예방접종은 최신 상태이며 키는 75백분위수, 체중은 70백분위수이다. 얼굴과 사지의 폄쪽에 건조하고 인설이 있는 반점이 보이며 사타구니는 침범되지 않았다. 가장 적절한 다음 관리는 무엇인가?
+5개월 아이의 뺨과 팔다리가 건조하고 가렵다. 향이 없는 보습제를 꾸준히 쓰는데도 뺨의 붉은 습진이 지속된다. 감염 소견은 없다. 적절한 추가 치료는?
 
 ## 선택지
 
-A. 국소 콜타르
-B. 경구 아시클로버
-C. 경구 비타민 A
-D. 국소 보습제
+A. 강한 국소 스테로이드를 얼굴에 매일 장기 사용한다
+B. 분유부터 여러 종류로 바꾼다
+C. 보습을 중단하고 항균제를 바른다
+D. 얼굴과 나이에 맞는 약한 국소 스테로이드를 짧게 사용한다
 
 ## 해설
 
-가족의 아토피 소인과 얼굴·사지 폄쪽의 건조한 소양성 습진, 사타구니 보존은 영아 아토피피부염에 합당하다. 선지 중 국소 보습제(D)가 피부장벽 회복을 위한 기본 치료이다. 염증성 악화가 있으면 부위·나이·중증도에 맞는 국소 corticosteroid를 추가할 수 있어 무조건 불필요하다고 해서는 안 된다. 분유 전환만으로 식품알레르기를 확정하지 않는다.
+보습은 계속하고, 염증이 있는 영아 얼굴에는 부위에 맞는 낮은 강도의 국소 스테로이드를 짧게 사용할 수 있다. 분유 변경만으로 치료하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 국소 보습제
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004028
+- https://pubmed.ncbi.nlm.nih.gov/40736521/

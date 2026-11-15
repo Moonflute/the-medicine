@@ -13,11 +13,11 @@ related_diseases:
   - "주의력결핍 과잉행동장애"
   - "자극제 치료"
   - "혈압 상승"
-question_type: prognosis
+question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOydmOugpSDqsrDtlY0g6rO864ukIO2WieuPmSDsnqXslaAgKEFESEQpLm1k
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-11세 남아가 지난 8개월 동안 학교 성적이 좋지 않다는 교사의 지적 때문에 어머니와 함께 내원했다. 학교 과제를 할 때 주의를 지속하기 어렵고 교사의 지시를 따르지 않으며 숙제에서 부주의한 실수를 한다. 수업 중 답을 불쑥 말하고 축구 연습에서 규칙을 지키기 어렵다. 어머니가 말할 때 쉽게 산만해지고 학교에 책을 자주 두고 온다. 신체검사에서 이상은 없다. 적절한 일차 치료를 시작했다. 이 아이에서 다음 중 어떤 상태의 위험이 증가하는가?
+11세 아이가 ADHD로 메틸페니데이트를 복용하기 시작했다. 집중은 나아졌지만 점심을 덜 먹는다. 치료를 조절하면서 정기 추적할 항목은?
 
 ## 선택지
 
-A. 세로토닌 증후군
-B. BMI 증가
-C. 발한 감소
-D. 혈압 상승
+A. 간초음파와 담도 효소
+B. 키·체중·식욕과 혈압·맥박
+C. 소변 약물 선별검사만
+D. 매 방문 뇌파 및 뇌 MRI
 
 ## 해설
 
-학교와 가정에서 지속되는 부주의·충동성으로 ADHD가 의심되며, 학령기 일차 약물치료로 사용하는 자극제는 혈압과 맥박을 상승시킬 수 있어 D가 맞다. 이는 대부분에게 임상적 고혈압이 생긴다거나 모든 부작용 중 가장 흔하다는 뜻은 아니다. 치료 전후 혈압·맥박, 성장·체중 및 식욕 등을 추적한다. 자극제는 식욕 감소와 체중 증가 둔화를 유발할 수 있어 BMI 증가가 대표 반응은 아니다.
+메틸페니데이트는 식욕을 줄이고 체중 증가에 영향을 줄 수 있으며 맥박과 혈압도 변할 수 있다. 증상 효과와 함께 성장곡선 및 심혈관 지표를 확인한다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ D. 혈압 상승
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007372
+- https://www.nice.org.uk/guidance/ng87/chapter/recommendations
+- https://doi.org/10.1542/peds.2019-2528

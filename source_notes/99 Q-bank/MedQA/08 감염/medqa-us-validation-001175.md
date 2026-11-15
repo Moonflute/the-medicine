@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-yCrOyKrOyVjOq3oCDsnbjrkZDsl7wgKFN0cmVwdG9jb2NjYWwgUGhhcnluZ2l0aXMpLm1k
 question_type: investigation
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-11세 남아가 며칠 전 생일파티 후 시작된 인후통, 구역과 구토로 진료를 받으러 왔다. 콧물, 결막염, 기침, 근육통과 발진은 없고 발열이 있으며 전경부 림프절이 압통을 동반해 커져 있다. 인두에 염증과 삼출물, 연구개 점상출혈이 보인다. 가장 적절한 다음 처치는?
+11세 아이가 발열, 편도 삼출, 압통성 앞목 림프절을 보인다. 기침과 콧물은 없다. A군 사슬알균 신속항원검사가 음성일 때 다음 조치는?
 
 ## 선택지
 
-A. 아지트로마이신
-B. 관찰
-C. 페니실린 V
-D. 신속 항원 검출검사
+A. 항스트렙톨리신 O 역가로 급성 인두염을 확진한다
+B. 소아도 신속항원검사 음성이면 추가 확인 없이 배제한다
+C. 인후 배양으로 음성 결과를 확인한다
+D. 검사 결과와 관계없이 아지트로마이신을 시작한다
 
 ## 해설
 
 
-발열, 압통성 전경부 림프절과 삼출성 인두염에 기침·콧물이 없어 GAS를 의심하지만 임상 소견만으로 확진할 수 없다. 선택지 중 신속 항원검사(D)가 적절하다. 소아에서 RADT가 음성이면 인후배양으로 확인하고, 양성 확인 시 적절한 항생제를 투여한다.
+전형적 소견이 있는 소아에서 신속항원검사가 음성이면 인후 배양으로 확인한다. 배양이 양성이면 적절한 항생제를 시작한다.
 
 ## 검수 근거
 

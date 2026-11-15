@@ -16,7 +16,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -37,23 +37,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-36세 남성이 니코틴 의존증 치료를 위해 정신건강의학과에 내원하였다. 그는 지난 20년간 헤비 스모커였다. 그는 여러 번 금연을 시도했으나 실패하였다. 그는 니코틴 의존증으로 여러 의사를 만났다. 그들은 니코틴 대체 요법(nicotine replacement therapy)과 바레니클린(varenicline)을 처방하였다. 그는 또한 두 가지 항우울제를 복용했고 상담 치료(talk therapy)에도 참여하였다. 그는 정신건강의학과 의사에게 다른 대안이 있는지 묻는다. 정신건강의학과 의사는 니코틴 대체 요법, 비니코틴 약물 요법, 상담 치료가 니코틴 의존증 관리를 위한 최선의 선택지라고 설명한다. 의사는 환자에게 1차 약물 치료가 실패했기 때문에 2차 비니코틴 약물 요법을 사용할 수 있다고 말한다. 다음 중 정신건강의학과 의사가 이 환자의 니코틴 의존증을 관리하기 위해 가장 사용할 가능성이 높은 약물은 무엇인가?
+하루 한 갑을 피우던 환자가 금연하면서 니코틴 패치를 제대로 사용하고 있다. 특정 상황에서 갑자기 강한 흡연 욕구가 생긴다. 패치를 유지하며 추가할 금연 방법은?
 
 ## 선택지
 
-A. 부프레노르핀(Buprenorphine)
-B. 클로니딘(Clonidine)
-C. 로라제팜(Lorazepam)
-D. 토피라메이트(Topiramate)
+A. 갈망이 올 때 속효성 니코틴 껌을 사용한다
+B. 갈망이 올 때 패치를 잠깐 붙였다 떼는 방식으로 바꾼다
+C. 금단이 올 때만 바레니클린을 복용한다
+D. 금단이 올 때만 부프로피온을 복용한다
 
 ## 해설
 
-원문은 니코틴 대체요법, 바레니클린과 항우울제 등 선행 치료에 실패한 뒤의 2차 약제를 묻는다. 제시된 약물 중 클로니딘이 비니코틴성 금연 보조의 2차 선택에 해당한다. 니코틴 대체요법 자체를 비니코틴 약물이라고 분류하지 않는다. 클로니딘은 저혈압·진정 등 부작용을 고려해야 하는 약물이다.
+패치로 기본 니코틴 농도를 유지하면서 껌이나 로젠지로 돌발 갈망을 다룰 수 있다. 국내 금연 진료지침에서도 병합 니코틴 대체요법을 다룬다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000647
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12518755/
 
 ## 검수 근거
 

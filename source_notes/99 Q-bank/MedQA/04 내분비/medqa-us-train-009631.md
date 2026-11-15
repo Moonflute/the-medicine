@@ -20,7 +20,7 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-62세 남자가 반복되는 복통으로 복부 CT를 촬영하다 우연히 발견된 부신 결절 평가를 위해 내원했다. CT에서 왼쪽 부신에 3 cm 크기의 저밀도 경계가 명확한 결절 외에는 이상이 없다. 지난 3년 동안 12 kg(26.4 lb)이 증가했고 제2형 당뇨병과 고혈압이 약물로 조절되기 어렵다. 이 환자에서 가장 적절한 초기 검사는 무엇인가?
+62세 남성이 다른 이유로 찍은 CT에서 3 cm 부신 결절이 우연히 발견됐다. 고혈압과 당뇨병이 있다. 뚜렷한 쿠싱 외형은 없다. 부신의 자율적 코르티솔 분비를 선별할 검사는?
 
 ## 선택지
 
-A. ACTH 자극검사
-B. 흉부·복부·골반 CT
+A. 코신트로핀 자극검사
+B. 무작위 코르티솔 단독 측정
 C. 1 mg 야간 덱사메타손 억제검사
-D. 하추체동 채혈
+D. 하추체정맥동 채혈
 
 ## 해설
 
 
-부신 우연종에서 Cushing syndrome을 의심할 경우 가장 먼저 시행하는 검사는 1 mg 야간 덱사메타손 억제검사이다. 이 검사는 부신 과다코르티솔 분비를 확인하는 표준 스크리닝 검사이다. 따라서 1 mg 야간 덱사메타손 억제검사가 초기 검사로 적절하다.
+부신 우연종에서 1 mg 야간 덱사메타손 뒤 코르티솔 억제 여부를 본다. 영상이 양성 선종처럼 보여도 분비 여부는 별도이며, 고혈압 등 상황에 따른 다른 부신 호르몬 평가도 검토한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 하추체동 채혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009631
+- https://doi.org/10.1093/ejendo/lvad066

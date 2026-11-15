@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-unkOy0iOyLoOqyvSDshpDsg4EubWQ
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 40주인 35세 G2P1 여성이 2분 간격의 자궁수축으로 내원했다. 임신 중 인슐린으로 조절한 당뇨병이 있고 그 외 임신은 정상이다. 남아를 정상 질식분만으로 출산했다. 신생아 체중은 4.5 kg(9 lb), 맥박 140회/분, 호흡수 40회/분, 실내 공기 산소포화도는 양호하다. 왼팔이 회내되고 안쪽으로 회전되어 몸에서 멀리 움직일 수 없다. 오른팔은 정상이고 손목과 열 손가락은 움직인다. 분만 중 손상된 신경근은 무엇인가?
+어깨난산 뒤 신생아의 왼팔이 몸쪽으로 붙고 안으로 돌아가 있다. 어깨를 벌리거나 팔꿈치를 굽히는 힘은 떨어지지만 손가락 쥐기는 보존된다. 가장 잘 맞는 신경 손상 위치는?
 
 ## 선택지
 
-A. C4와 C5
-B. C5와 C6
-C. C6와 C7
-D. C8과 T1
+A. 상완신경총 위줄기(C5–C6)
+B. 상완신경총 아래줄기(C8–T1)
+C. 손목의 정중신경
+D. 팔꿈치의 척골신경
 
 ## 해설
 
 
-신생아의 C5‑C6 손상은 Erb palsy(상완 굴곡 저하·외전 저하)와 일치하며, 팔이 내전·내측 회전된 모습(‘waiter's tip’)을 보인다. C5‑C6 손상이 가장 흔한 부위이므로 정답은 B이다.
+어깨 벌림과 팔꿈치 굽힘은 C5–C6 위줄기 기능이다. 손 쥐기가 유지되는 이런 양상은 에르브 마비에 맞으며 회복 경과를 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009523
+- https://cps.ca/en/documents/position/neonatal-brachial-plexus-palsy

@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,19 +39,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-30세 여성이 갑자기 시작된 지속적인 흉골 중앙의 날카로운 흉통으로 응급실에 왔다. 다음 주 마라톤을 앞두고 걱정하고 있으며 활력징후와 신체진찰은 정상이고 검사 결과는 대기 중이다. 가장 적절한 초기 처치는?
+30세 여성이 30분 전 시작된 지속적인 가슴 통증으로 응급실에 왔다. 혈압과 산소포화도는 정상이고, 아직 심전도를 찍지 않았다. 급성 관상동맥증후군 가능성을 처음 평가할 검사는?
 
 ## 선택지
 
-A. 아스피린, 산소, 니트로글리세린, 모르핀
-B. 컴퓨터단층촬영
-C. 심전도
-D. 헤파린
+A. 운동부하 심전도
+B. 관상동맥 CT부터 시행
+C. 12유도 심전도
+D. 다음 날 트로포닌만 측정
 
 ## 해설
 
 
-급성 흉통 평가의 첫 단계는 심전도(ECG)로 심근허혈이나 부정맥을 빠르게 확인하는 것이다. 다른 검사는 ECG 결과에 따라 결정한다.
+급성 흉통에서는 나이나 정상 활력징후만으로 허혈을 배제하지 않고 12유도 심전도를 신속히 시행한다. 심전도가 정상이어도 임상 상황에 따라 반복 심전도와 연속 트로포닌 평가가 필요하다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ D. 헤파린
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000437
+- ACC/AHA 급성관상동맥증후군 진료지침(2025): https://www.ahajournals.org/doi/10.1161/CIR.0000000000001309

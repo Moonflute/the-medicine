@@ -19,9 +19,9 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-q4sOumveyEsSDsoIDtmIjslZUgKE9ydGhvc3RhdGljIEh5cG90ZW5zaW9uKS5tZA
   - MDEg7Iic7ZmY6riwL-2YiOq0gOuvuOyjvOyLoOqyveyEsSDsi6Tsi6AgKFZhc292YWdhbCBTeW5jb3BlKS5tZA
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 여성이 낮잠에서 일어난 직후 실신하는 것을 남편이 목격하여 1시간 후 응급실에 데려왔다. 30초 이내에 의식을 회복했고 완전히 깨어 지남력이 정상이었다. 지난 5년 동안 비슷한 일이 두 번 있었는데, 한 번은 식료품점에서 줄을 서 있던 중, 한 번은 아침에 침대에서 일어날 때 발생했다. 1년 전 입원 당시 24시간 홀터 모니터링과 심초음파는 정상이었다. 고혈압, 우울증, 천식이 있으며 현재 베라파밀, 노르트립틸린, 필요 시 알부테롤 흡입기를 사용한다. 누운 자세 혈압은 114/72 mmHg, 선 자세 혈압은 95/60 mmHg이다. 심폐 진찰과 신경학적 진찰에는 이상이 없다. 전혈구검사, 전해질, 혈액요소질소, 크레아티닌, 혈당 수치는 정상이다. 침상 심장 모니터링에서 드문 심실조기수축과 III유도 T파 역전이 보인다. 다음 중 이 환자 증상의 가장 가능성 높은 원인은?
+67세 여성이 일어서고 2분 이내 어지럽고 눈앞이 어두워졌다. 누웠을 때 혈압 126/76 mmHg, 선 뒤 혈압 98/62 mmHg다. 누우니 증상이 사라졌다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 부신기능부전
-B. 자율신경 기능장애
-C. 구조적 심장 이상
-D. 심장 부정맥
+A. 발작성 심방세동
+B. 저혈당
+C. 신경매개성 발작
+D. 기립성 저혈압
 
 ## 해설
 
-일어서거나 오래 서 있을 때 발생하고 빠르게 회복하는 실신과 기립 혈압114/72→95/60 mmHg는 기립성 저혈압을 시사한다. 수축기 감소는19 mmHg지만 이완기는12 mmHg 감소하여 적절한 시간 내 측정이라면 이완기 기준을 충족한다. 노르트립틸린·베라파밀의 혈압/자율조절 영향으로 선지 B가 가장 합당하다. 과거 정상24시간 Holter만으로 간헐적 부정맥을 완전히 배제하지 않으며 약물 검토·기립 맥박·측정 시점과 다른 위험징후도 확인한다.
+기립 3분 이내 수축기혈압 20 mmHg 이상 또는 이완기혈압 10 mmHg 이상 하락하면 기립성 저혈압에 해당한다. 약물과 체액 상태도 살핀다.
 
 ## 검수 근거
 

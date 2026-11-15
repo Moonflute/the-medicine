@@ -14,13 +14,13 @@ related_diseases:
   - "Meckel diverticulum"
   - "target sign on ultrasound"
   - "intermittent abdominal pain"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J6l7KSR7LKp7KadIChJbnR1c3N1c2NlcHRpb24pLm1k
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsozsi6QgKERpdmVydGljdWx1bSkubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66mU7LyIIOqyjOyLpCAoTWVja2VsJ3MgRGl2ZXJ0aWN1bHVtKS5tZA
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-6세 남아가 그날 아침 시작된 급성 간헐적 배꼽 주위 복통으로 응급실에 왔다. 통증은 오른쪽 하복부로 퍼지고 15~30분마다 발생하며 발작 중 무릎을 가슴 쪽으로 당긴다. 비담즙성 구토를 여러 차례 했고 3개월 전 비슷한 에피소드가 있었다. 복부 초음파에서 횡단면상 장의 동심원 고리가 보인다. 다음 중 상태의 가장 가능성 높은 기저 원인은?
+6세 아이에게 회장결장형 장중첩증이 세 번째 생겼다. 관장 정복 뒤 현재는 안정적이다. 어린 영아의 첫 발생과 달리 추가로 고려할 것은?
 
 ## 선택지
 
-A. 장 유착
-B. 메켈 게실
-C. 급성 충수염
-D. 염전이 동반된 장회전이상
+A. 소아외과와 함께 메켈게실·용종 등 구조적 선도점을 평가한다
+B. 반복 발생할수록 구조적 병변 가능성이 낮아 추가 평가가 필요 없다
+C. 증상과 관계없이 한 달마다 예방적 공기 관장을 시행한다
+D. 장중첩이 다시 생길 가능성을 낮추기 위해 예방 항생제를 시작한다
 
 ## 해설
 
-간헐적 산통·무릎 당기기와 초음파 동심원 고리는 장중첩증을 시사한다. 6세의 비교적 높은 연령과 재발 경과에서는 구조적 선두점을 고려하며, 보기 중 메켈게실(B)이 적절하다. 어린 영아 장중첩증의 상당수는 특발성이므로 모든 소아에서 메켈게실이 가장 흔한 원인이라고 일반화할 수 없다.
+비교적 나이가 많거나 여러 차례 재발한 아이에서는 장을 끌어당기는 구조적 선도점 가능성이 높아진다. 정복에 성공했더라도 메켈게실, 용종 등 원인을 전문팀과 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 염전이 동반된 장회전이상
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003331
+- https://pubmed.ncbi.nlm.nih.gov/39569957/
+- https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/

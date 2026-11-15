@@ -14,12 +14,12 @@ related_diseases:
   - "주기성 골반통"
   - "기능성 통증"
   - "Mittelschmerz"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs: []
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-17세 여자가 하루 동안 지속된 왼쪽 아랫배 통증으로 내원했다. 통증 강도는 10점 만점에 6점이다. 지난 5개월 동안 한 달에 한 번씩 1~2일 지속되는 비슷한 통증이 있었다. 월경은 28일 간격으로 규칙적이고 5~6일간 지속된다. 초경은 13세였으며 마지막 월경은 2주 전이다. 과거 남성 파트너 한 명과 성생활을 했고 콘돔은 일관되게 사용하지 않았다. 6개월 전 성매개감염 검사는 음성이었다. 복부와 골반검사는 정상이고 소변 임신검사는 음성이다. 증상 관리를 위한 가장 적절한 다음 단계는 무엇인가?
+17세 여성이 주기 14일쯤 한쪽 아랫배가 아팠다가 하루 안에 호전되는 일이 4개월째 반복된다고 한다. 이번 통증도 거의 사라졌고 진찰과 임신검사는 정상이다. 적절한 조치는?
 
 ## 선택지
 
-A. 골반 CT
-B. 안심시키기
-C. 복합 경구피임약
-D. 골반 초음파
+A. 당일 진단 복강경을 시행한다
+B. 배란통 가능성을 설명하고 통증 악화·지속 시 재평가하도록 안내한다
+C. 충수염으로 보고 바로 항생제를 시작한다
+D. 임신 여부와 관계없이 메토트렉세이트를 시작한다
 
 ## 해설
 
 
-월경 주기와 일치하게 매월 한 번씩 발생하고 1~2일 지속되는 왼쪽 하복부 통증은 배란통(미텔슈미츠)으로, 검진에서 이상 소견이 없으며 임신 검사도 음성이다. 배란통은 생리학적 현상이므로 특별한 검사가 필요 없으며, 환자에게 안심시켜 주는 것이 적절하다. 다른 선택지인 영상검사는 비정상 소견이 없을 때는 과잉진단이 된다.
+비슷한 주기 중간 시점에 반복되고 빨리 호전되는 편측 통증은 배란통에 부합한다. 심해지거나 반복 패턴과 달라지면 다른 원인을 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004102
+- https://www.nhs.uk/symptoms/ovulation-pain/

@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-32세 여자가 10개월 동안 아침에 심하고 활동하면 호전되는 허리 통증으로 내원했다. 앞으로 굽히기 어려워졌고 4개월 동안 양쪽 고관절 통증이 있다. 배뇨 변화는 없고 celiac disease로 글루텐 제한식을 한다. 양측 고관절 굴곡·외전·외회전에서 통증이 있다. 골반 X선이 제시되어 있다. 추가 평가에서 나타날 가능성이 높은 소견은?
+32세 여성이 10개월간 지속된 허리 통증을 호소한다. 아침에 뻣뻣하고 움직이면 호전되며, 진찰에서 허리 굽힘이 제한된다. 골반 MRI에서 양측 천장관절의 활동성 염증이 보인다. 이 질환과 연관성이 높은 검사 소견은?
 
 ## 선택지
 
@@ -47,7 +48,7 @@ D. 항Ro 및 항La 항체 존재
 ## 해설
 
 
-젊은 성인에서 운동으로 호전되는 만성 아침 요통·척추 굴곡 제한과 고관절 통증은 축성 척추관절염을 시사한다. 선택지 중 HLA-B27(A)이 연관되지만 양성은 필수조건도 단독 확진검사도 아니다. 32세를 청소년이라고 부르거나 전방 척추염이라는 다른 용어로 바꾸지 않는다. 제공되지 않은 골반 X선에서 천장관절염을 직접 확인했다고 주장하지 않는다.
+운동으로 좋아지는 염증성 허리 통증과 양측 천장관절염은 축성 척추관절염에 합당하다. HLA-B27 양성이 연관되지만 진단의 필수조건이 아니며, 양성만으로 확진할 수도 없다.
 
 ## 검수 근거
 

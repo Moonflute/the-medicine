@@ -21,7 +21,7 @@ related_disease_slugs:
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-그 외에는 건강한 27세 남자가 무릎에 생긴 발진으로 피부과에 내원했다. 발진은 5주 동안 지속되었고 중등도의 가려움이 있다. 신체검사에서 무릎 폄면에 은색 인설로 덮인 홍반성 판이 보인다(사진 참조). 다음 중 가장 적절한 초기 치료는 무엇인가?
+27세 남성이 5주째 무릎 폄면의 가려운 발진으로 내원했다. 은백색 인설이 덮인 경계가 뚜렷한 홍반성 판이 소수 보인다. 관절 증상 없이 피부에 국한됐을 때 초기 치료는?
 
 ## 선택지
 
-A. 피부 생검
+A. 국소 항진균제
 B. 경구 코르티코스테로이드
-C. 국소 코르티코스테로이드 및/또는 국소 비타민 D 유사체
+C. 국소 코르티코스테로이드 또는 비타민 D 유사체
 D. 경구 메토트렉세이트
 
 ## 해설
 
 
-판상 건선은 은색 인설이 특징이며, 1차 치료는 국소 스테로이드와 비타민 D 유사체이다.
+무릎 폄면의 경계가 뚜렷한 홍반성 판과 은백색 인설은 판상 건선의 단서다. 국소 병변은 국소 스테로이드, 비타민 D 유사체 또는 그 병합제로 치료를 시작할 수 있다.
 
 ## 출처
 

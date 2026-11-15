@@ -11,11 +11,11 @@ language: ko
 specialty: 16 신경과-신경외과
 related_diseases:
   - "amyotrophic lateral sclerosis"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qt7zsnITstpXshLEg7Lih7IKtIOqyve2ZlOymnSAoQW15b3Ryb3BoaWMgbGF0ZXJhbCBzY2xlcm9zaXMpLm1k
 difficulty: simple
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -32,18 +32,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-39세 남성이 상하지의 근력 약화를 주소로 내원하였다. 환자는 삼킴 곤란도 경험하였다. 신체 검진상 비대칭적인 양상의 과다반사(hyperreflexia), 강직(spasticity), 근섬유다발수축(fasciculations) 및 근위축이 관찰된다. 혀의 근섬유다발수축도 관찰된다. 감각 소실은 없다. 환자는 장이나 방광 기능의 이상은 보고하지 않았다. 근육 생검에서 가장 가능성이 높은 소견은 무엇인가?
+39세 환자에게 진행성 사지 위약과 연하곤란이 있다. 진찰에서 근위축·근섬유다발수축과 반사항진이 함께 보인다. 근위축성 측삭경화증을 평가할 때 여러 부위의 하위운동신경원 이상을 뒷받침할 검사는?
 
 ## 선택지
 
-A. 고모리 삼색 염색(Gomori trichrome stain)에서 너덜너덜한(ragged) 외관을 유발하는 미토콘드리아 증식
-B. 근육다발주위(perimysial) CD4+ 침윤 및 근육다발주위 위축(perifascicular atrophy)
-C. 근육의 신경제거(denervation) 및 재신경지배(reinnervation)
-D. 유충 낭종(larval cysts)
+A. 침 근전도검사
+B. 뇌파검사
+C. 근육 초음파 단독
+D. 혈청 크레아틴키나아제 단독
 
 ## 해설
 
-상·하위 운동신경원 징후가 함께 있고 감각이 보존되는 양상은 ALS를 시사한다. 하위 운동신경원 소실로 근섬유가 탈신경되며, 살아남은 운동축삭의 측부 발아로 재신경지배가 일어난다. 따라서 근육 생검 소견은 탈신경과 재신경지배(C)이다. 근섬유군 위축과 섬유형 군집화가 나타날 수 있다.
+침 근전도에서는 여러 분절의 활동성 탈신경과 만성 재신경지배 소견을 평가한다. 진찰 및 다른 원인 배제와 종합하며 근육 생검을 일률적으로 시행하지 않는다.
 
 ## 검수 근거
 
@@ -53,3 +53,4 @@ D. 유충 낭종(larval cysts)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000494
+- https://pubmed.ncbi.nlm.nih.gov/34992096/

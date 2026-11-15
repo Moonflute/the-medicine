@@ -20,6 +20,7 @@ related_disease_slugs:
 question_type: management
 difficulty: simple
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-56세 여성이 커피와 기름진 음식으로 악화되는 속쓰림, 트림, 심와부 통증으로 내원했다. 최근에는 평소 증상에 더해 삼키기 어려운 증상도 생겼다. 다음 중 가장 적절한 다음 처치는?
+56세 여성이 커피와 기름진 음식으로 악화되는 속쓰림, 트림, 심와부 통증으로 내원했다. 최근에는 평소 증상에 더해 삼키기 어려운 증상도 생겼다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

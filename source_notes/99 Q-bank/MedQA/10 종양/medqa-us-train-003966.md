@@ -15,11 +15,11 @@ related_diseases:
   - "폐문 림프절병증"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkOyVlCAoTHVuZyBDYW5jZXIpLm1k
-question_type: 임상증례 객관식
+question_type: investigation
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-55세 여자가 영상검사 결과를 논의하기 위해 가정의를 방문했다. 2개월 전부터 흉통과 호흡곤란이 있었다. CT에서 오른쪽 폐 하엽에 3.5cm 종괴가 보이며 경계가 불규칙하다. 종격동 및 폐문 림프절이 커져 있다. PET 영상에서는 원격 전이가 확인되지 않는다. 환자는 35년 넘게 하루 1.5갑을 피웠으나 최근 금연했다. 폐질환 센터로 의뢰된 이 환자를 적절히 관리하기 위한 가장 효과적인 조치는 무엇인가?
+55세 남성의 CT에서 3.5 cm 폐 종괴와 커진 종격동 림프절이 보인다. PET/CT에서 원격 전이는 없다. 커진 림프절에 기관지내시경으로 접근할 수 있다. 조직 진단과 종격동 병기 평가를 함께 할 첫 검사는?
 
 ## 선택지
 
-A. 조직 생검
-B. 객담 세포검사
-C. 3개월 후 CT 촬영
-D. 파클리탁셀
+A. CT 유도 폐 종괴 바늘생검
+B. 기관지내시경 초음파 유도 림프절 세침흡인(EBUS-TBNA)
+C. 객담 세포검사
+D. 수술적 종격동경검사
 
 ## 해설
 
 
-폐 결절의 조직학적 진단을 위해서는 조직생검이 필요하다. 영상만으로는 악성 여부를 확정할 수 없으며, 치료 계획은 생검 결과에 따라 결정된다. 따라서 가장 효과적인 조치는 조직 생검이다.
+EBUS-TBNA는 접근 가능한 종격동 림프절에서 조직을 얻어 폐암 진단과 림프절 병기 확인을 함께 할 수 있다. 음성이어도 전이 의심이 높고 치료 결정에 영향이 있으면 수술적 병기 평가를 고려한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 파클리탁셀
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003966
+- https://www.nice.org.uk/guidance/ng122/chapter/recommendations

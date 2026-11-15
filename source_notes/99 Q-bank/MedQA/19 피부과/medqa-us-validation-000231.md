@@ -19,7 +19,7 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-52세 흉부외과 의사가 손과 전완을 덮는 습진성 피부염으로 일차진료를 받으러 왔다. 최근 새로운 종류의 수술용 장갑을 사용하기 시작했다고 한다. 손을 자주 씻지만 이전에는 피부 자극이 없었다. 진찰에서 양손과 전완의 등쪽에 홍반성 판과 일부 수포가 보인다. 다음 중 환자 관리의 가장 적절한 다음 단계는?
+수술실 직원이 새 장갑을 쓴 다음 날마다 손등과 손목에 가려운 습진이 생긴다. 장갑을 벗으면 수일에 걸쳐 나아지며 즉각적인 두드러기나 호흡기 증상은 없다. 고무 첨가제 알레르기를 확인할 검사는?
 
 ## 선택지
 
-A. 첩포검사
-B. 수산화칼륨(KOH) 검사
-C. 피부 생검
-D. 방사성알레르기흡착검사
+A. 고무 가황촉진제를 포함한 첩포검사
+B. 혈청 총 IgE 검사만 시행
+C. 피부사상균 배양검사
+D. 피부 단자검사만 시행
 
 ## 해설
 
 
-수술용 장갑에 대한 알레르기성 접촉 피부염은 원인 물질을 확인하기 위해 패치 검사가 표준이다. 다른 검사는 진단에 필요하지 않다. 따라서 다음 단계는 패치 검사이다.
+장갑 착용 하루 뒤 재현되는 습진은 지연형 접촉피부염일 수 있다. 관련 고무 첨가제를 포함해 첩포검사를 하고 실제 노출과 결과를 함께 본다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000231
+- https://pubmed.ncbi.nlm.nih.gov/42324086/

@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv66y86rG0IOyCvO2CtCAoRm9yZWlnbiBCb2R5IEluZ2VzdGlvbikubWQ
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-2세 여아가 1시간 전 식탁에 있던 단추형 전지를 삼켜 응급실에 내원했다. 호흡곤란이나 흉부 불편감은 없고 맥박은 112회/분, 호흡수는 30회/분, 산소포화도는 98%이다. 신체검사는 정상이다. 흉부 X선에서 T2 높이 식도에 전지가 걸려 있다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+2세 아이가 단추전지를 삼킨 지 한 시간 됐다. 증상은 없지만 X선에서 전지가 식도에 걸려 있다. 가장 적절한 조치는?
 
 ## 선택지
 
-A. 이페칵 시럽 투여
-B. 안심시키고 관찰
-C. 킬레이트 치료
-D. 전지 내시경 제거
+A. 금식 시간을 채울 때까지 내시경을 미룬다
+B. 두 시간 뒤 X선에서 움직이지 않았을 때만 제거한다
+C. 즉시 전문팀에 연락해 응급 내시경으로 제거한다
+D. 위로 내려갈 때까지 기다리고 대변에서 확인한다
 
 ## 해설
 
-식도에 걸린 단추전지는 증상이 없어도 빠르게 심한 손상을 일으키므로 즉시 내시경 제거한다(D). 2시간을 넘겼다고 관찰로 바뀌지 않으며, 금식 시간을 맞추려고 제거를 지연하지 않는다.
+식도의 단추전지는 증상이 없어도 짧은 시간에 중증 손상을 일으킬 수 있다. 금식 시간을 기다리지 않고 가능한 한 빨리 제거한다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ D. 전지 내시경 제거
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001709
+- https://pubmed.ncbi.nlm.nih.gov/33555169/
+- https://doi.org/10.1002/jpn3.70485

@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-u2iOyZhOyghCDsnKDsgrAgKEluY29tcGxldGUgQWJvcnRpb24pLm1k
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 12주인 22세 초임부가 몇 시간 동안 복부 경련과 큰 질혈전을 배출하여 내원했다. 체온은 36.8°C (98.3°F), 맥박은 75회/분, 혈압은 110/65 mmHg이다. 자궁은 임신 12주 크기이고 질경검사에서 자궁경부구가 열려 있으며 질원개에 혈전이 있다. 질식 초음파에서 빈 임신낭이 보인다. 침습적 처치를 걱정한다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+임신 9주 자궁내 임신의 소실이 반복 초음파로 확인됐다. 산모는 혈역학적으로 안정되고 소량 출혈만 있으며 발열은 없다. 수술과 약물치료도 설명했으나 우선 지정한 날에 추적하며 자연 배출을 기다리고 싶다고 한다. 가능한 관리는?
 
 ## 선택지
 
-A. 기대요법
-B. 메토트렉세이트 치료
-C. 연속 β-hCG 측정
-D. 옥시토신 치료
+A. 메토트렉세이트를 투여한다
+B. 증상 악화 시 재내원 및 배출 완료 확인을 전제로 기대요법을 시행한다
+C. 출혈량에 관한 설명 없이 추적을 끝낸다
+D. 금기나 선호와 관계없이 즉시 자궁절제술을 시행한다
 
 ## 해설
 
-출혈·경련과 열린 경부는 진행 중 초기 유산에 합당하다. 임신 소실이 확실하고 혈역학적으로 안정하며 감염·과다출혈이 없고 비침습 관리를 원한다면 기대요법(A)이 가능하다. 빈 임신낭이라는 한 문구만으로 모든 초기 임신을 유산 확진하지 않으며 필요시 크기·반복영상 기준을 확인한다. 과다출혈·발열·실신 시 즉시 재평가하고 완료 여부를 추적한다.
+확인된 초기 유산에서 과다출혈·감염·불안정 소견이 없다면 환자 선호에 따라 기대요법을 선택할 수 있다. 출혈이 많아지거나 발열·실신이 있으면 바로 재평가하고 배출 완료 여부를 확인한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 옥시토신 치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001560
+- https://www.nice.org.uk/guidance/ng126/chapter/management-of-miscarriage

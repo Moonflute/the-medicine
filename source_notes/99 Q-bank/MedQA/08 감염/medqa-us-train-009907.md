@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k
 question_type: management
 difficulty: simple
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,19 +40,19 @@ related_drug_slugs:
 
 ## 문제
 
-45세 남성이 발작 후 응급실에 내원했다. 2주 전 부비동염으로 합병된 상기도 감염을 앓았다. 과거력으로 고혈압이 있어 히드로클로로티아지드를 복용한다. 체온 39.5°C, 혈압 120/60 mmHg, 맥박 분당 85회, 호흡수 분당 20회이다. 면담에서 혼란스러워하고 광선공포증을 보인다. 뇌척수액 배양을 채취했다. 다음 중 가장 적절한 처치는?
+45세 환자가 발열, 두통, 경부강직으로 내원했다. 뇌척수액에서 호중구 증가와 저당이 확인됐다. 면역저하, 신경외과 수술, 최근 입원 이력이 없는 환자에서 결과를 기다리며 투여할 경험적 항생제 조합은?
 
 ## 선택지
 
-A. 세프트리악손
-B. 세프트리악손과 반코마이신
-C. 세프트리악손, 반코마이신, 암피실린
-D. 두부 MRI
+A. 세프트리악손과 반코마이신
+B. 암피실린 단독
+C. 세파졸린과 메트로니다졸
+D. 시프로플록사신 단독
 
 ## 해설
 
 
-고열, 혼란, 광선공포증과 발작은 세균성 수막염을 의심하게 한다. 선택지 중 ceftriaxone과 vancomycin(B)이 폐렴구균과 내성 가능성을 고려한 적절한 경험적 조합이다. 면역억제·고령 등 Listeria 위험이 있으면 ampicillin을 추가하나 이 사례에는 그런 단서가 없다. Pseudomonas를 통상적인 지역사회 수막염의 주요 원인으로 간주하지 않는다. 항생제를 영상검사 때문에 지연하지 않는다.
+국내 성인 지역사회획득 수막염에서는 원인균이 나오기 전 세프트리악손 또는 세포탁심에 반코마이신을 병용해 내성 폐렴구균을 포괄한다. 고령·면역저하 등 리스테리아 위험이 있으면 암피실린을 추가한다.
 
 ## 검수 근거
 
@@ -65,3 +65,5 @@ D. 두부 MRI
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009907
+- https://www.icjournal.org/DOIx.php?id=10.3947%2Fic.2012.44.3.140
+- https://www.who.int/publications/i/item/9789240108042

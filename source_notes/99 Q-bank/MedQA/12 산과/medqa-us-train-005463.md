@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTIg7IKw6rO8L-uRlOychCAoQnJlZWNoIFByZXNlbnRhdGlvbikubWQ
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 38주인 24세 초임부의 태아가 두 차례 초음파에서 지속적으로 둔위로 확인되었다. 태아심박수는 정상이고 자궁경부는 닫혀 있다. 환자는 질식분만을 시도하고 싶어 한다. 다음 중 가장 적절한 처치는?
+임신 38주 초임부의 단태아가 지속적으로 둔위다. 태아 감시는 정상이며 양막은 온전하고 양수량은 적절하다. 질식분만에 금기가 없고 산모도 두위 질식분만을 원한다. 다음 조치는?
 
 ## 선택지
 
-A. 제왕절개 권고
-B. 자연진통까지 관찰
-C. 1주 후 초음파 반복
-D. 외회전술 제안
+A. 둔위가 자연히 바뀔 때까지 태아 감시를 중단한다
+B. 태위에 관계없이 바로 유도분만한다
+C. 태아 감시와 응급 제왕절개가 가능한 곳에서 외회전술을 제안한다
+D. 둔위가 한 차례 확인됐으므로 선택지를 설명하지 않고 제왕절개를 정한다
 
 ## 해설
 
-금기가 없는 단태 둔위 임신에서 외회전술(ECV, D)을 제안해 두위 전환을 시도할 수 있다. 태아 감시와 즉시 제왕절개가 가능한 환경에서 위험·성공률을 설명하고 환자 선택을 존중한다. 실패 시 계획 제왕절개 등이 적절할 수 있어 제왕절개를 단순히 최후 수단이라고 하지 않는다.
+외회전술은 금기가 없는 만삭 단태 둔위에서 두위로 바꾸어 제왕절개 가능성을 줄이는 방법이다. 성공 가능성·위험을 설명하고 태아 감시와 응급 분만이 가능한 곳에서 시행한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 외회전술 제안
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005463
+- https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/05/external-cephalic-version

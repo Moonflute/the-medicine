@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-yekOq2geyZuCDsnoTsi6AgKEVjdG9waWMgUHJlZ25hbmN5KS5tZA
 difficulty: simple
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-24세 여성이 하복부 통증 평가를 위해 응급실에 내원했다. 6시간 전 시작된 통증이 점점 심해지고 있다. 특별한 과거력은 없으며 신체검사에서 비특이적인 광범위 골반 불편감이 있다. 파트너와 꾸준히 콘돔을 사용해 임신 가능성은 없다고 한다. 혈압 111/68mmHg, 맥박 71회/분, 호흡수 15회/분이며 발열은 없다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+24세 여성이 6시간째 악화하는 하복부 통증으로 왔다. 혈압과 맥박은 안정적이고 복막 자극 징후는 없다. 늘 콘돔을 사용해 임신 가능성이 없다고 한다. 초기 평가에 꼭 포함할 검사는?
 
 ## 선택지
 
-A. 외과 협진
-B. 복부 CT
-C. 혈청 hCG 검사
-D. 입원 및 관찰
+A. 복부 CT를 먼저 하고 임신 여부는 나중에 확인
+B. 정량 혈청 β-hCG 검사
+C. 자궁경부 세포검사
+D. 골반통이 사라질 때까지 관찰만 시행
 
 ## 해설
 
 
-임신 여부를 확인하지 않은 경우 급성 골반통의 가장 위험한 원인 중 하나가 임신성(특히 자궁외임신)이다. 혈청 hCG 검사는 빠르고 비침습적으로 임신을 배제하거나 확인한다. 다른 선택지는 불필요하거나 과도하다. 따라서 다음 적절한 조치는 혈청 hCG 검사이다.
+가임기 환자의 급성 골반통은 피임 여부와 무관하게 임신을 확인한다. 양성이면 초음파와 추적 hCG 등을 이용해 자궁외임신 가능성을 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008543
+- https://www.nice.org.uk/guidance/ng126/chapter/recommendations

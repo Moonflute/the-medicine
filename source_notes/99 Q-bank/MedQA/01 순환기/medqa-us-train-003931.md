@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOq3vOuzkeymnSAoQ2FyZGlvbXlvcGF0aHkpLm1k
   - MDEg7Iic7ZmY6riwL-2ZleyepeyEsSDsi6zqt7zrs5Hspp0gKERpbGF0ZWQgQ2FyZGlvbXlvcGF0aHkpLm1k
   - MDEg7Iic7ZmY6riwL-unjOyEsSDsi6zrtoDsoIQgKOuwley2nOuloCDqsJDshowpIChDaHJvbmljIEhlYXJ0IEZhaWx1cmUgd2l0aCBSZWR1Y2VkIEVqZWN0aW9uIEZyYWN0aW9uIChIRnJFRikpLm1k
-question_type: association
+question_type: diagnosis
 difficulty: simple
 answer: D
 translation_status: machine-verified
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-출산 4주 후인 40세 여성이 호흡곤란으로 내원했다. 경정맥압 상승, S3, 폐수포음, 양측 발부종이 있고 심초음파에서 박출률은 38%였다. 가장 가능성 높은 진단의 특징은?
+40세 여성이 출산 4주 뒤 기좌호흡과 다리 부종으로 내원했다. 경정맥이 팽창하고 양쪽 폐기저부에 수포음이 들린다. 심초음파는 전반적인 좌심실 수축기능 저하와 박출률 38%를 보인다. 과거 심장질환은 없고 폐색전증, 중증 판막질환, 심근허혈 등 다른 원인은 평가에서 확인되지 않았다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 심근비대
-B. 심근경색
-C. 심낭염
-D. 심실 확장
+A. 임신 관련 생리적 호흡곤란
+B. 폐색전증에 의한 우심실 부전
+C. 대동맥판협착
+D. 주산기 심근병증
 
 ## 해설
 
-출산4주 후 심부전과 EF38%는 peripartum cardiomyopathy를 의심하게 한다. 선택지 중 심실 확장 D가 흔한 확장성/수축기부전 양상에 부합한다. 다른 원인을 배제해야 하며, PPCM은 좌심실이 확장되지 않아도 발생할 수 있다.
+임신 말기 또는 출산 후 수개월 내 새 심부전이 발생하고 좌심실 박출률이 45% 미만이며 다른 원인이 없으면 주산기 심근병증을 의심한다. 좌심실 확장은 동반될 수 있지만 진단에 필수는 아니다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 심실 확장
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003931
+- https://academic.oup.com/eurheartj/article/46/43/4462/8234487

@@ -17,9 +17,9 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-yXsOyhsOyngeyXvCAoQ2VsbHVsaXRpcykubWQ
 question_type: diagnosis
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-47세 여성이 발열과 두통으로 응급실에 왔다. 어제 증상이 시작된 후 빠르게 진행되었다. 처음에는 발열과 두통만 있어 아세트아미노펜으로 치료했지만, 곧 시야 흐림, 오한, 오심, 구토가 발생했다. 당뇨병과 고혈압 병력이 있으며 인슐린, 메트포르민, 리시노프릴, 경구피임약을 복용한다. 체온 104°F(40.0°C), 혈압 157/93 mmHg, 맥박 120회/분, 호흡수 15회/분, 실내 공기 산소포화도 98%이다. 추가 진찰에서 증상이 있는 눈의 안구돌출이 보인다. 해당 눈의 외안근 운동이 현저히 감소하여 수직 및 수평 주시가 제한된다. 또한 눈 주변의 V1 및 V2 분포에서 감각이 감소한다. CT를 기다리던 중 기면 상태와 급성 의식변화가 발생했다. 다음 중 가장 가능성 높은 진단은?
+부비동염 치료 중 고열과 심한 두통이 생긴 환자다. 처음 한쪽에만 있던 안구돌출과 외안근 마비가 반대쪽에도 나타났다. 이마와 뺨의 감각도 떨어졌다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 급성 폐쇄각 녹내장
-B. 해면정맥동 혈전증
-C. 안와주위 봉와직염
-D. 두개강내 출혈
+A. 안와격막 앞 봉와직염
+B. 급성 폐쇄각 녹내장
+C. 고립성 외전신경 마비
+D. 패혈성 해면정맥동 혈전증
 
 ## 해설
 
 
-발열, 안구돌출, 외안근 마비, V1·V2 감각 저하가 동반된 급성 증상은 감염성 정맥동 혈전증(해면정맥동 혈전증)과 일치한다. 이는 안와·두개내 감염이 정맥동으로 퍼져 발생한다. 따라서 가장 가능성 높은 진단은 해면정맥동 혈전증이다.
+양쪽으로 진행하는 안구 운동 이상과 삼차신경 첫째·둘째 분지 감각저하는 해면정맥동 침범을 시사한다. 조영 MRI·정맥영상 등을 신속히 시행하고 정맥 항생제를 준비한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 두개강내 출혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007703
+- https://my.clevelandclinic.org/health/diseases/23520-cavernous-sinus-thrombosis

@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,7 +39,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-63세 남자가 정기 건강검진을 위해 내원했다. 고혈압, 심방세동, 양극성장애, 무릎 골관절염이 있고 리시노프릴, 아미오다론, 라모트리진, 아세트아미노펜을 복용한다. 6개월 전 아미오다론을 시작했고 4개월 전 리튬을 라모트리진으로 변경했다. 활력징후와 진찰은 정상이다. AST 110 U/L, ALT 115 U/L이다. 다음 중 가장 적절한 다음 처치는?
+63세 남자가 정기 건강검진을 위해 내원했다. 고혈압, 심방세동, 양극성장애, 무릎 골관절염이 있고 리시노프릴, 아미오다론, 라모트리진, 아세트아미노펜을 복용한다. 6개월 전 아미오다론을 시작했고 4개월 전 리튬을 라모트리진으로 변경했다. 활력징후와 진찰은 정상이다. AST 110 U/L, ALT 115 U/L이다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

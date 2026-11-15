@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-yyoCDqsrDtlY0g67mI7ZiIIChJcm9uIERlZmljaWVuY3kgQW5lbWlhKS5tZA
 question_type: management
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-16세 남아가 수주 동안 지속된 피로로 부모와 함께 병원에 왔다. 기운이 없어 학교에서 운동을 그만두었고 최근 학업 성적도 떨어졌다. 대부분의 시간을 지하실에서 비디오게임을 하며 시리얼을 먹는다. 심각한 질환 병력은 없다. 어머니는 하시모토 갑상샘염, 아버지는 주요우울장애 병력이 있다. 담배와 술은 하지 않는다. 활력징후는 정상이었다. 결막 창백, 입꼬리의 염증과 갈라짐, 손발톱 오목이 보였다. 혈색소 11.5 g/dL, 평균 적혈구 용적 76 μm³, 혈소판 290,000/mm³, 적혈구분포폭 18%(정상 13~15%), 백혈구 7,000/mm³였다. 다음 중 초기 치료로 가장 적절한 것은?
+16세 환자에게 피로가 있고 혈색소 10.9g/dL, MCV 72fL, 페리틴 7ng/mL다. 혈역학적으로 안정적이고 흡수장애 소견이 없다. 원인을 평가하면서 시작할 치료는?
 
 ## 선택지
 
-A. 정기적 수혈
-B. 메틸페니데이트
-C. 철분 보충
-D. 동종 줄기세포 이식
+A. 경구 철분 보충
+B. 정기적 적혈구 수혈
+C. 엽산 단독 보충
+D. 철분을 투여하지 않고 조혈자극제 시작
 
 ## 해설
 
 
-소구성 빈혈, 높은 RDW, 구각염과 숟가락손발톱은 철결핍을 지지한다. 선지 중 철분 보충(C)이 적절하며 통상 경구 철분과 식이 개선을 고려한다. 원인 평가와 치료 반응 확인도 필요하고, 이 정도의 안정적 빈혈에 정기 수혈을 우선하지 않는다.
+안정적인 철결핍성 빈혈에서 경구 철분은 적절한 초기 치료다. 복용과 반응을 확인하는 동시에 식이, 출혈 등 철결핍의 원인을 찾는다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 동종 줄기세포 이식
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000419
+- https://doi.org/10.1542/peds.2026-077414

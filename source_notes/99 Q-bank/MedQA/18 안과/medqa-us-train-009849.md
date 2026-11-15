@@ -14,12 +14,12 @@ related_diseases:
   - "황소눈 황반병증"
   - "망막 독성"
   - "Chloroquine retinopathy"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs: []
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,23 @@ related_drug_slugs:
 
 ## 문제
 
-56세 여성이 6개월 동안 시야에 검은 점이 보이는 증상으로 내원했다. 지난 4개월 동안 밤에 운전할 수 없었다. 류마티스관절염, 제2형 당뇨병, 우울증이 있다. 어머니는 녹내장을 앓았다. 흡연한 적은 없다. 매일 저녁 식사 후 집에서 만든 밀주를 한두 잔 마신다. 메트포르민, 시탈로프람, 클로로퀸을 복용한다. 키 168cm, 체중 79kg, BMI 28kg/m²이다. 체온 36.8°C, 맥박 분당 68회, 혈압 138/83 mmHg이다. 진찰에서 양손의 백조목 변형이 보인다. 양쪽 시력은 20/20이다. 양쪽 눈에서 조명 변화에 적응하기 어렵다. 세극등검사에서 전안부는 정상이고, 후안부에서 양측 황소눈 모양 황반 병변이 보인다. 혈색소 11.7 g/dL, 평균적혈구용적 98 μm³, 알칼리성 인산분해효소 65 U/L, AST 20 U/L, ALT 17 U/L, γ-글루타밀전이효소 90 U/L(정상 5~50 U/L)이다. 다음 중 이 환자 증상의 가장 가능성 높은 원인은?
+한국인 환자가 류마티스관절염으로 하이드록시클로로퀸을 장기 복용한다. 중심시력은 정상이지만 약물 망막독성을 선별하려 한다. 적절한 검사는?
 
 ## 선택지
 
-A. 클로로퀸 망막병증
-B. 당뇨망막병증
-C. 폐쇄각녹내장
-D. 연령관련 황반변성
+A. 교정 중심시력만 매년 확인한다
+B. 안압과 전방각만 검사한다
+C. 중심부와 중심주위까지 포함한 광간섭단층촬영과 안저자가형광검사
+D. 일반 색각표로만 추적한다
 
 ## 해설
 
 
-황소눈 모양의 황반 병변은 클로로퀸 독성 망막병증의 전형적인 소견이며, 환자는 클로로퀸을 복용 중이다. 다른 선택지는 해당 병변과 맞지 않는다. 따라서 원인은 클로로퀸 망막병증이다.
+하이드록시클로로퀸 망막독성 선별에는 광간섭단층촬영과 안저자가형광이 중요하다. 동아시아 환자는 중심에서 더 떨어진 부위에도 손상이 나타날 수 있어 검사 범위를 넓게 잡는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009849
+- https://pubmed.ncbi.nlm.nih.gov/41232611/
+- https://pubmed.ncbi.nlm.nih.gov/25712474/

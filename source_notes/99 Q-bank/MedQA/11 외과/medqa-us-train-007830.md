@@ -15,9 +15,9 @@ related_diseases:
   - "disclosure of medical error"
 related_disease_slugs:
   - MTEg7Jm46rO8L-q4sO2DgCDsiJjsiKAg7ZuEIO2VqeuzkeymnSAoT3RoZXIgUG9zdG9wZXJhdGl2ZSBDb21wbGljYXRpb25zKS5tZA
-question_type: ethics
+question_type: investigation
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-75세 남자가 갑상선 결절 치료를 위한 갑상선절제술을 받았다. 갑상선 일부를 절제하고 목을 봉합했다. 마취에서 깨어난 후 환자는 “쉰 목소리”를 호소한다. 활력징후는 정상이고 절개 부위 통증은 경미하다. 외과의는 반회후두신경을 손상했을 가능성이 높다고 판단한다. 환자에게 어떻게 설명해야 하는가?
+갑상샘 수술 후 환자에게 쉰 목소리와 힘없는 기침이 생겼다. 의료진이 원인이 아직 확인되지 않았다고 설명했다. 숨참이나 목의 급격한 부종은 없다. 성대 운동을 확인할 다음 검사는?
 
 ## 선택지
 
-A. “수술 중 실수가 있었지만 환자에게 해를 끼치지는 않았습니다.”
-B. “수술이 예상보다 오래 걸렸지만 모든 것이 잘 되었습니다.”
-C. “수술은 성공적이었고 합병증은 발생하지 않았습니다.”
-D. “수술 중 실수가 있었고 환자에게 해를 끼쳤을 수 있습니다.”
+A. 갑상샘기능검사
+B. 굴곡 후두내시경
+C. 목 단순 X선
+D. 발성 변화가 6개월 지속된 뒤에만 검사
 
 ## 해설
 
 
-외과의가 수술 중 신경 손상을 의심한다면 알려진 사실과 불확실성, 가능한 위해를 정직하게 설명하는 D가 적절하다. 쉰목소리의 원인·성대운동을 평가하고 치료 및 추적계획도 안내한다. 아직 확인되지 않은 영구 손상을 단정하거나 모든 신경 손상이 곧 부주의/과실이라고 일반화하지 않는다. 반대로 합병증이 없었다거나 해가 전혀 없다고 숨겨서는 안 된다.
+갑상샘 수술 후 새 음성 변화가 나타나면 후두내시경으로 성대 움직임을 확인한다. 삽관 자극 등 다른 원인도 있으므로 쉰 목소리만으로 반회후두신경의 영구 손상을 단정하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. “수술 중 실수가 있었고 환자에게 해를 끼쳤을 수 있습니
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007830
+- https://doi.org/10.21053/ceo.2021.00633

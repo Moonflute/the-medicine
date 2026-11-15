@@ -13,11 +13,11 @@ related_diseases:
   - "세균성 수막염"
   - "케르니히 징후"
   - "요추천자"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7IS46reg7ISxIOuHjOyImOunieyXvCAoQmFjdGVyaWFsIE1lbmluZ2l0aXMpLm1k
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ answer_change_reason: "혈압57/38의 쇼크 상태에서 요추천자 B를 우�
 
 ## 문제
 
-1세 남아가 며칠간 보채고 수유를 잘하지 못해 응급실에 왔다. 체온 38.9°C, 혈압 57/38 mm Hg, 맥박 170회/분이다. 검사 중 계속 보채며, 고관절을 굽힌 상태에서 무릎을 펴려고 하면 심하게 자극받아 운다. 안저검사는 정상이다. 가장 적절한 다음 처치는?
+1세 아이가 고열·처짐과 목 경직으로 왔다. 혈압 57/38 mmHg, 맥박 170회/분이고 말초 관류가 나쁘다. 세균성 수막염을 동반한 쇼크가 의심된다. 우선 처치는?
 
 ## 선택지
 
-A. 혈액 및 소변 배양
-B. 요추천자
-C. 반코마이신과 세프트리악손
-D. 반코마이신, 세프트리악손과 프레드니손
+A. 혈압과 관계없이 요추천자를 먼저 완료한다
+B. CT가 끝날 때까지 소생과 항생제를 미룬다
+C. 경구 항생제를 주고 관찰한다
+D. 즉시 소생하고 정맥 경험적 항생제를 시작하며 요추천자는 안정된 뒤 시행한다
 
 ## 해설
 
-1세의 심한 저혈압·빈맥과 수막자극 소견은 수막염 동반 패혈성 쇼크를 의심한다. 호흡·순환을 즉시 안정화하고 가능하면 신속히 혈액배양을 얻되 항생제를 지연하지 않는다. 보기 중 vancomycin·ceftriaxone(C)이 적절한 경험적 요법이며 지역 내성에 맞춰 조정한다. 쇼크는 LP의 상대적 금기이므로 안정화 전 요추천자를 우선하지 않는다. 정상 안저검사도 쇼크 상태의 LP 안전성을 보장하지 않는다.
+쇼크가 있으면 기도·순환을 먼저 안정화한다. 혈액배양을 신속히 채취할 수 있으면 하되, 요추천자나 영상검사를 기다리느라 정맥 항생제를 늦추지 않는다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ D. 반코마이신, 세프트리악손과 프레드니손
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001044
+- https://www.who.int/publications/i/item/9789240108042

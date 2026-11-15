@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-16세 여아가 아직 초경을 하지 않아 내원했다. 중대한 질환의 개인력이나 가족력은 없다. 체중은 20백분위수, 키는 50백분위수이다. 활력징후는 정상이다. 경미한 얼굴 털이 보이고 유선 조직은 없다. 음모는 굵고 곱슬거리며 양쪽 허벅지 안쪽까지 뻗어 있다. 골반검사에서 음핵비대가 보인다. 초음파에서 자궁과 난소가 보이지 않는다. 다음 중 이 환자 증상의 가장 가능성 높은 원인은?
+16세 청소년이 초경이 없고 사춘기 이후 목소리가 굵어지고 외부 생식기가 남성화됐다고 한다. 영상에서 자궁은 보이지 않으며 핵형은 46,XY다. 테스토스테론에 비해 디하이드로테스토스테론이 낮다. 가장 가능성이 높은 진단은?
 
 ## 선택지
 
-A. 5-α 환원효소 결핍
-B. 성염색체 단염색체
-C. 21-수산화효소 결핍
-D. 완전 안드로겐 불감성
+A. 완전 안드로겐 불감증
+B. 뮐러관 무형성
+C. 터너증후군
+D. 5α-환원효소 결핍
 
 ## 해설
 
 
-5‑α 환원효소 결핍은 46,XY 환자에서 외음부 발달이 불완전하고, 음모가 남성형이며, 자궁·난소가 보이지 않는 특징을 나타낸다.
+테스토스테론을 디하이드로테스토스테론으로 전환하는 효소가 부족하면 출생 때 외부 생식기 남성화가 불충분하고 사춘기에 남성화가 나타날 수 있다. 내분비·유전 평가를 함께 시행한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007652
+- https://www.ncbi.nlm.nih.gov/books/NBK279170/

@@ -21,6 +21,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,7 +40,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 24주인 29세 초임부가 배뇨 시 작열감과 빈뇨로 내원했다. 발열이나 질 분비물은 없고 치골상부 불편감이 있지만 늑골척추각 압통은 없다. 소변검사에서 백혈구 에스터라제와 아질산염, 세균, 백혈구 55/HPF가 증가했다. 니트로푸란토인을 7일간 처방했다. 다음 중 가장 적절한 다음 단계는?
+임신 24주인 29세 초임부가 배뇨 시 작열감과 빈뇨로 내원했다. 발열이나 질 분비물은 없고 치골상부 불편감이 있지만 늑골척추각 압통은 없다. 소변검사에서 백혈구 에스터라제와 아질산염, 세균, 백혈구 55/HPF가 증가했다. 니트로푸란토인을 7일간 처방했다. 가장 적절한 다음 단계는?
 
 ## 선택지
 

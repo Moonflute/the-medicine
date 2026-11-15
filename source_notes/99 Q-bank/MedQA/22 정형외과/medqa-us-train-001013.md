@@ -16,6 +16,8 @@ related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yYpOyLreqyrCAoQWRoZXNpdmUgQ2Fwc3VsaXRpcykubWQ
 difficulty: complex
 answer: B
+publication_status: "withheld"
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: gemini-3.1-flash-lite

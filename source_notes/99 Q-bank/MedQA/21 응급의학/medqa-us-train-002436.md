@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,7 +41,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-48세 여성이 증상이 있는 자궁근종으로 계획된 전자궁적출술을 받았다. 수술 전 예방적 항생제를 투여했고 수술 후 1일째 요도 카테터를 제거했다. 제2형 당뇨병 등이 있으며 수술 후 4일째 복통, 입원 중 3~4회의 묽은 변과 발열이 발생했다. 체온 38.3°C, 혈압 97/59 mmHg, 맥박 106회/분이었다. 수술 상처에 새로 홍반과 어두운 반점, 다량의 혼탁한 분비물이 있고 상처 주변 감각이 감소했다. 폐는 깨끗하고 복부는 부드러우며 요검사는 정상이나 소변배양에서 대장균이 100,000 CFU/mL 이상 자랐다. 다음 중 가장 적절한 치료의 다음 단계는?
+48세 여성이 증상이 있는 자궁근종으로 계획된 전자궁적출술을 받았다. 수술 전 예방적 항생제를 투여했고 수술 후 1일째 요도 카테터를 제거했다. 제2형 당뇨병 등이 있으며 수술 후 4일째 복통, 입원 중 3~4회의 묽은 변과 발열이 발생했다. 체온 38.3°C, 혈압 97/59 mmHg, 맥박 106회/분이었다. 수술 상처에 새로 홍반과 어두운 반점, 다량의 혼탁한 분비물이 있고 상처 주변 감각이 감소했다. 폐는 깨끗하고 복부는 부드러우며 요검사는 정상이나 소변배양에서 대장균이 100,000 CFU/mL 이상 자랐다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

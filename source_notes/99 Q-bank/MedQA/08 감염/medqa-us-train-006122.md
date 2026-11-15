@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEgQ-2YlSDqsITsl7wgKENocm9uaWMgSGVwYXRpdGlzIEMgKEhDVikpLm1k
 question_type: investigation
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-32세 여성이 3개월 동안 지속된 피로와 근육통으로 내원했다. 지난 한 달 동안 간헐적인 오심이 있었고 5년 전부터 불법 약물 사용을 하지 않았지만 정맥주사 약물 사용력이 있다. 14년 동안 하루 한 갑씩 흡연하고 매일 술 한 잔을 마신다. 황달과 간비장비대가 있고 양손 등쪽에 수포와 미란이 있다. 검사에서 혈색소 12 g/dL, 백혈구 8,300/mm³, 혈소판 250,000/mm³, 혈청 포도당 170 mg/dL, 알부민 3.0 g/dL, 총 빌리루빈 2.2 mg/dL, AST 92 U/L, ALT 76 U/L, B형간염 표면항원 음성, 표면항체 및 핵항체 양성, C형간염 항체 양성이다. 다음 중 진단의 가장 적절한 다음 단계는 무엇인가?
+4년 전 C형간염을 치료한 환자에서 건강검진 항-HCV가 다시 양성이다. 새로운 노출이 있어 현재 감염 여부를 확인하려 한다. 다음 검사는?
 
 ## 선택지
 
-A. HIV 웨스턴블롯
-B. 바이러스 RNA PCR
-C. 바이러스 DNA PCR
-D. 간 생검
+A. 혈청 HCV RNA
+B. 항-HCV 반복검사
+C. HCV 유전자형부터 확인
+D. 간 탄성도 검사
 
 ## 해설
 
 
-Anti-HCV 양성은 과거 또는 현재 감염을 뜻하므로 HCV RNA PCR B로 현재 감염을 확인한다. 항체 양성만으로 활동 감염을 확정할 수 없다. HBsAg 음성·anti-HBs/anti-HBc 양성은 회복 HBV에 부합하며 HCV 평가를 HBV DNA 검사로 대체하지 않는다. 간생검은 모든 환자에서 첫 확진검사로 필요한 것은 아니다.
+항-HCV는 치료로 완치된 뒤에도 양성으로 남을 수 있다. 현재 감염 또는 재감염 여부는 HCV RNA로 판단한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ Anti-HCV 양성은 과거 또는 현재 감염을 뜻하므로 HCV RNA PCR B로 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006122
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12835810/

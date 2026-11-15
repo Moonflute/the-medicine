@@ -15,9 +15,9 @@ related_diseases:
   - "breast cancer screening"
 related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
-question_type: prevention
+question_type: management
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-32세 여성이 연례 신체검사를 받으러 왔다. 지난 방문 이후 가족력에 변화가 있었다. 어머니가 최근 유방암 진단을 받았고 언니가 BRCA2 돌연변이 양성 판정을 받았다. 따라서 환자도 검사를 요청했다. BRCA1 또는 BRCA2 돌연변이 양성이라면 다음 중 가장 적절한 선별검사 방법은 무엇인가?
+32세 여성의 가족 내 병적 BRCA2 변이가 본인에게도 확인됐다. 유방암 과거력이나 증상은 없다. 고위험군에 해당하는 유방 영상 검진은?
 
 ## 선택지
 
-A. 매년 임상 유방검사, 매년 유방촬영술, 매월 자가 유방검사
-B. 6개월마다 임상 유방검사, 매년 유방촬영술, 매년 유방 MRI, 자가 유방검사
-C. 매년 초음파, 매년 유방촬영술, 매월 자가 유방검사
-D. 유방 MRI를 의뢰한다
+A. 2년마다 유방촬영술
+B. 매년 임상 유방검사와 유방초음파만
+C. 매년 유방 MRI만
+D. 매년 조영증강 유방 MRI와 유방촬영술
 
 ## 해설
 
 
-BRCA1/2 pathogenic variant가 확인된32세 여성은 유방 MRI와 mammography를 각각매년 시행하는 고위험군 검진이 필요하므로 보기 중B가 가장완전하다. 임상유방평가와 breast awareness도 중요하지만 고정된월간자가검진만으로 선별을대신하지않으며 국가별구체시작연령·프로토콜은차이가있다. 단일MRI만제시한D는장기검진계획전체가아니다.
+병적 BRCA1/2 변이가 있는 30대 여성에게는 유방 MRI와 유방촬영술을 각각 매년 시행하는 고위험군 검진을 권고한다. 평균위험 여성 대상 국가암검진과 구분한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ BRCA1/2 pathogenic variant가 확인된32세 여성은 유방 MRI와 mammography
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008524
+- https://www.ncbi.nlm.nih.gov/books/NBK1247/

@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
 question_type: management
 difficulty: standard
-answer: "D"
+answer: A
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -46,18 +46,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-70세 남성이 1년간 간헐적 명치 통증과 피로를 호소한다. 최근 검은 변이 있었고 창백하다. 맥박 72회/분, 혈압 110/70 mmHg이며 요소호기검사는 양성이다. 내시경에서 위전정부 궤양성 종괴, 생검에서 CD20 양성 작은 림프구의 미만성 침윤이 보인다. 흉부·복부 CT에서 국소 림프절은 정상이다. 이 위 MALT 림프종에 대한 첫 치료로 가장 적절한 것은?
+위내시경 조직검사로 저등급 위 MALT 림프종이 확인됐다. 위에 국한되어 있고 H. pylori 검사도 양성이다. 초기 치료 계획으로 적절한 것은?
 
 ## 선택지
 
-A. 리툭시맙, 사이클로포스파미드, 아드리아마이신과 빈크리스틴
-B. 이마티닙
-C. 외부빔 방사선치료
-D. 적합한 H. pylori 제균요법(예: 14일 PPI·비스무트·테트라사이클린·메트로니다졸)과 반응 추적
+A. 국내 항생제 내성과 환자 조건을 반영해 제균치료하고 제균 여부와 조직 반응을 추적한다
+B. 모든 경우 제균을 생략하고 곧바로 위절제술을 시행한다
+C. 리툭시맙 복합항암을 우선 시작한다
+D. 내시경 추적 없이 위산억제제만 투여한다
 
 ## 해설
 
-H. pylori 양성이고 국소 림프절 비대가 없는 위 MALT 림프종에서는 제균이 중요한 첫 치료이며 림프종 관해도 얻을 수 있다. 감수성 정보 없이 clarithromycin 3제를 일률적으로 선택하지 않고, 미국 ACG 기준으로 optimized bismuth 4제 등 적합한 요법을 사용한다. 제균 확인 및 내시경·병리 반응 추적이 필요하며, 불응 시 추가 종양 치료를 평가한다.
+국소 위 MALT 림프종에 H. pylori 감염이 확인됐으면 제균이 첫 치료다. 감염이 사라졌는지와 림프종 조직 반응을 각각 확인하고, 불응하거나 진행하면 추가 치료를 평가한다.
 
 ## 검수 근거
 
@@ -70,6 +70,8 @@ H. pylori 양성이고 국소 림프절 비대가 없는 위 MALT 림프종에�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001164
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13407497/
+- https://www.kjim.org/journal/view.php?number=171085
 
 ## 오답 포인트
 

@@ -15,9 +15,9 @@ related_diseases:
   - "급성 감염성 설사"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-yEpOyCrCAo7Je87Kad7ISxKSAoRGlhcnJoZWEgKEluZmxhbW1hdG9yeSkpLm1k
-question_type: 임상증례 객관식
+question_type: management
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,19 +39,19 @@ related_drug_slugs:
 
 ## 문제
 
-22세 여자가 지난주 멕시코 신혼여행에서 돌아온 후 발생한 묽은 설사를 평가받기 위해 긴급진료를 방문했다. 3일 동안 하루 최소 3회 물 같은 변을 보았고 이제 복부 경련도 생겼다. 과거력은 특이사항이 없고 데포 메드록시프로게스테론 아세테이트만 복용한다. 혈압 104/72 mmHg, 심박수 104회/분, 호흡수 14회/분, 체온 39.4°C이다. 신체검사는 경미한 미만성 복부 압통과 건조한 점막 외에는 정상이다. 대변검사에서 충란은 없고 대변 백혈구도 보이지 않는다. 대변 배양 결과를 기다리는 중이다. 경구 수분 보충과 함께 가장 적절한 치료는 무엇인가?
+동남아에서 귀국한 환자가 39.3°C의 열과 하루 여러 차례의 설사로 일상 활동을 할 수 없다. 혈변은 없으며 소생 뒤 경구약을 복용할 수 있다. 검체를 채취했고 평가 결과 경험적 경구 항생제가 필요하다. 지역 내성까지 고려할 때 우선 선택은?
 
 ## 선택지
 
 A. 시프로플록사신
-B. 메트로니다졸
-C. 독시사이클린
-D. 알벤다졸
+B. 리팍시민
+C. 아지트로마이신
+D. 메트로니다졸
 
 ## 해설
 
 
-고열39.4°C와 탈수를 동반한 여행 후 설사는 단순 경증 무열성 설사로 보아서는 안 된다. 검체·임상중증도를 평가하고 수분을 보충하며 선택지 중 ciprofloxacin A는 감수성 있는 세균성 여행자설사에 사용할 수 있다. 다만 현행 권고에서 발열성 설사는 azithromycin이 선호되며 FQ 내성·부작용·지역 역학을 고려하므로 A를 모든 여행자설사의 자동 일차약으로 일반화하지 않는다. 대변 백혈구 음성만으로 침습성 감염을 배제하지 않는다.
+동남아 여행 뒤 발생한 열성 여행자 설사에서 경험적 항생제가 필요하다면 아지트로마이신을 우선 고려한다. 이 지역은 일부 원인균의 플루오로퀴놀론 내성이 높고, 리팍시민은 침습성 감염이 의심될 때 적절하지 않다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ D. 알벤다졸
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004041
+- https://doi.org/10.3947/ic.2019.51.2.217

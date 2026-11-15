@@ -18,7 +18,7 @@ question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-usvOyniCDqtIDroKgg67CPIOykkeuPheyEsSDsnqXslaAgKFN1YnN0YW5jZS1SZWxhdGVkIGFuZCBBZGRpY3RpdmUgRGlzb3JkZXJzKS5tZA
 difficulty: simple
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,23 +35,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-어머니가 16세 아들을 데리고 가정의학과에 내원했다. 어머니는 성적이 떨어지고 수업을 빼먹으며 체중이 증가하고 눈이 자주 충혈되는 등 아들에게 문제가 있다고 말한다. 어머니와 따로 면담하자 환자는 위축되어 있고 사회력에 대해 물으면 때때로 화를 낸다. 학대와 성력은 부인한다. 이 행동의 가장 가능성 높은 원인을 평가하기 위한 초기 검사는 무엇인가?
+16세 청소년의 결석이 늘고 성적이 떨어졌다. 보호자는 물질 사용이 걱정된다고 하지만, 진찰에서 현재 중독을 시사하는 소견은 없다. 우선 평가할 방법은?
 
 ## 선택지
 
-A. 전혈구검사
-B. 혈액 배양
-C. 성매개감염(STI) 검사
-D. 소변 독성검사
+A. 보호자의 추정만으로 사용장애를 기록한다
+B. 비밀보장의 범위와 예외를 설명하고 단독 면담에서 물질 사용을 선별한다
+C. 당사자에게 알리지 않고 소변 약물검사부터 한다
+D. 물질 사용을 먼저 인정하지 않으면 더 묻지 않는다
 
 ## 해설
 
-학업·행동 변화, 체중 증가와 결막 충혈은 대마 등 물질 사용 가능성을 평가하게 한다. 제시된 검사 중 소변 독성 선별검사가 적절하지만, 음성이 모든 물질 사용을 배제하지 않고 양성도 현재 중독·사용장애나 행동 변화의 원인을 단독 확정하지 않는다. 검출 대상·시점·교차반응을 고려해 병력·진찰과 필요 시 확증 분석으로 해석한다.
+행동 변화만으로 물질 사용을 진단할 수 없다. 안전 관련 비밀보장의 한계를 설명한 뒤 청소년과 단독으로 면담하고, 검증된 선별 도구와 다른 원인 평가를 활용한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008880
+- https://crafft.org/use-the-crafft/
 
 ## 검수 근거
 

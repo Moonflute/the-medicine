@@ -20,7 +20,7 @@ question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 여성이 급성 췌장염으로 입원한 지 2일 후 통증 없는 복부 팽만을 보인다. 처음의 복통은 호전되었다. 경장 영양을 시작했다. 입원 후 대변을 본 적이 없다. 오심은 있으나 구토는 없다. 체온은 36.7°C (98.1°F), 맥박은 분당 95회, 호흡수는 분당 17회, 혈압은 100/70 mm Hg이다. 청진 시 폐는 깨끗하다. 복부 진찰에서 대칭적 팽만, 장음 소실, 압통 없는 고창음 타진 소견이 보인다. 검사실 소견: 혈청 Na+ 137 mEq/L, K+ 3.2 mEq/L, Cl− 104 mEq/L, HCO3− 23 mEq/L, 요소 질소 22 mg/dL, 크레아티닌 0.8 mg/dL. 앙와위 복부 X선 사진이 제시되었다. 다음 중 이 소견을 가장 잘 설명하는 것은 무엇인가?
+45세 여성이 급성 췌장염으로 입원한 지 이틀 뒤 통증은 줄었지만 배가 불러오고 대변과 가스가 나오지 않는다. 장음은 거의 없고 혈청 칼륨은 2.9 mEq/L이다. 복부 X선에서 소장과 대장이 모두 팽창하고 직장까지 가스가 보인다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
@@ -47,7 +47,7 @@ D. 췌장 가성낭종
 ## 해설
 
 
-복부 팽만·장음 소실·고창음·저칼륨혈증은 장마비(ileus)와 일치한다. 급성 췌장염 후 장관 마비가 흔히 발생한다. 따라서 가장 잘 설명하는 것은 장마비이다.
+췌장염과 저칼륨혈증에 이어 장음이 감소하고 소장과 대장이 넓게 팽창한 소견은 마비성 장폐색에 합당하다. 한 지점에서 막힌 기계적 폐색과 달리 장운동이 전체적으로 저하된 상태다.
 
 ## 검수 근거
 

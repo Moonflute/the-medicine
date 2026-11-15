@@ -13,11 +13,11 @@ related_diseases:
   - "후를러 증후군"
   - "점액다당류증 1형"
   - "더마탄 황산염(dermatan sulfate)"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ZeQ65-sIOymne2bhOq1sCAoSHVybGVyIFN5bmRyb21lKS5tZA
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-1세 남아가 발달이 퇴행하고 얼굴 형태가 변해 소아과에 왔다. 거친 얼굴, 돌출된 이마, 두꺼운 입술, 각막 혼탁이 있고 소변에서 더마탄 황산염(dermatan sulfate)이 증가했다. 다음 중 이 임상 소견과 가장 관련된 유전질환은?
+18개월 아이에게 거친 얼굴, 각막 혼탁, 간비장비대와 여러 관절의 운동 제한이 있다. 소변에서 더마탄·헤파란 황산염이 증가했다. 중증 제1형 점액다당류증을 확인할 검사는?
 
 ## 선택지
 
-A. 모르키오 증후군
-B. 테이삭스병
-C. 후를러 증후군
-D. 파브리병
+A. 알파-L-이두로니다아제 활성과 IDUA 유전자 검사
+B. 이두로네이트-2-설파타아제 활성만 측정
+C. 산성 알파글루코시다아제 활성 측정
+D. SMN1 유전자 복제수 검사
 
 ## 해설
 
-Hurler 증후군(C)은 MPS I의 중증형으로 α-L-iduronidase 결핍에 의해 dermatan sulfate·heparan sulfate가 축적된다. 거친 얼굴·발달 퇴행·각막 혼탁과 소변 dermatan sulfate 증가가 부합한다.
+각막 혼탁을 동반한 전신 소견은 중증 MPS I에 합당하다. 알파-L-이두로니다아제 결핍과 IDUA 변이로 확인한다. MPS II는 다른 효소 결핍이며 각막 혼탁은 전형적이지 않다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ Hurler 증후군(C)은 MPS I의 중증형으로 α-L-iduronidase 결핍에 의�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001012
+- https://www.ncbi.nlm.nih.gov/books/NBK1162/
+- https://www.acmg.net/act-sheets-and-algorithms/

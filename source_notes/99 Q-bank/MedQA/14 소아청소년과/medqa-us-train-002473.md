@@ -13,10 +13,10 @@ related_diseases:
   - "laryngomalacia"
   - "infantile stridor"
   - "supraglottic collapse"
-question_type: diagnosis
+question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,18 +33,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 6개월 남아가 정기검진을 위해 내원했다. 어머니는 고형식을 시작했고 아이가 엎드려 자면 숨을 더 잘 쉬는 것 같아 자주 그렇게 재운다고 한다. 바로 누우면 호흡이 더 힘들어지고 최근 악화된 것 같다. 체온 36.7°C, 혈압 75/55 mmHg, 맥박 115회/분, 호흡 24회/분, 산소포화도 98%이다. 신체검사에서 편안해 보이고 엎드리거나 앞으로 기울이면 호전되는 흡기성 천명이 들린다. 다음 중 호흡기 증상의 가장 가능성 높은 원인은?
+6개월 영아의 내시경에서 후두연화증이 확인됐다. 수유할 때 청색증이 반복되고 체중 백분위수가 계속 떨어진다. 잠잘 때 무호흡도 관찰됐다. 다음 조치는?
 
 ## 선택지
 
-A. 후두개염
-B. 이물 흡인
-C. 후두연화증
-D. 후두기관염
+A. 중증으로 판단해 소아 기도 전문팀에 신속히 의뢰하고 성문상부성형술 필요성을 평가한다
+B. 산소포화도가 한 번 정상이면 수개월 뒤 예약만 한다
+C. 엎드려 재우고 체중만 추적한다
+D. 위산억제제를 먼저 수개월 사용하고 이후에 기도를 평가한다
 
 ## 해설
 
-흡기성 협착음이 바로 누우면 심하고 자세에 따라 완화되는 경과는 후두연화증(C)에 부합한다. 흡기 시 성문상부의 연한 조직이 안쪽으로 무너져 내리는 기전이다. 다만 깨어 있을 때 자세에 따라 소리가 줄어든다는 사실과 안전한 수면 자세는 별개다. AAP의 일반 원칙은 매 수면 때 평평하고 단단한 면에 바로 눕혀 재우는 것이며 본문의 부모가 택한 엎드린 수면을 치료 권고로 받아들여서는 안 된다. 수면 중 호흡 어려움은 별도 진료로 평가해야 한다.
+반복 청색증, 무호흡, 수유 곤란과 성장부진은 중증 후두연화증의 단서다. 호흡과 수유 안전을 평가하고 성문상부성형술 등 전문 치료를 검토한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 후두기관염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002473
+- https://pubmed.ncbi.nlm.nih.gov/27107728/

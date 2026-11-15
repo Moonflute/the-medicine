@@ -24,7 +24,7 @@ translated_at: 2026-07-17
 review_status: "manual-reviewed"
 medical_review_status: "evidence-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 파종성 임균 감염의 항생제 조합 교정."
 explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1

@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gCDsg4HtlLzrgrQg7KKF7JaRIChDZXJ2aWNhbCBJbnRyYWVwaXRoZWxpYWwgTmVvcGxhc2lhKS5tZA
 difficulty: simple
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -33,7 +34,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-36세 여성이 검진을 위해 산부인과에 내원했다. 30세 이후 3년마다 권고된 자궁경부 세포검사를 받았고 모두 정상이었다. 이번 검사에서 고등급 편평상피내병변(HGSIL)이 나왔다. 다음 중 가장 적절한 치료의 다음 단계는?
+36세 여성이 검진을 위해 산부인과에 내원했다. 30세 이후 3년마다 권고된 자궁경부 세포검사를 받았고 모두 정상이었다. 이번 검사에서 고등급 편평상피내병변(HGSIL)이 나왔다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

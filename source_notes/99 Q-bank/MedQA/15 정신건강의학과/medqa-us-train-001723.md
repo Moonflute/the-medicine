@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yjvOyalCDsmrDsmrgg7J6l7JWgIChNYWpvciBEZXByZXNzaXZlIERpc29yZGVyKS5tZA
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 남성이 2개월 동안 잠들기 어렵고 피로가 악화되어 내원했다. 집중과 업무 기억이 어렵고 취미에 대한 흥미도 감소했다. 자해·타해 생각과 환각은 없다. 정신상태검사에서 우울한 기분과 둔한 정동, 사고와 말이 느려져 있다. 설트랄린을 처방했으나 3주 후 호전은 경미하다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+32세 남성이 2개월 동안 잠들기 어렵고 피로가 악화되어 내원했다. 집중과 업무 기억이 어렵고 취미에 대한 흥미도 감소했다. 자해·타해 생각과 환각은 없다. 정신상태검사에서 우울한 기분과 둔한 정동, 사고와 말이 느려져 있다. 설트랄린을 처방했으나 3주 후 호전은 경미하다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

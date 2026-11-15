@@ -13,13 +13,13 @@ related_diseases:
   - "임신성 당뇨병 선별"
   - "임신 24~28주"
   - "포도당 부하검사"
-question_type: prevention
+question_type: diagnosis
 related_disease_slugs:
   - MTIg7IKw6rO8L-yehOyLoOyEsSDri7nrh6jrs5EgKEdlc3RhdGlvbmFsIERpYWJldGVzIE1lbGxpdHVzKS5tZA
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 24주인 24세 여성(임신 2회, 출산 1회)이 산전 진료를 받으러 왔다. 이전 임신은 합병증이 없었고 현재까지 산전 방문은 네 번이었다. 2주 전 초음파에서 22주에 해당하는 정상 자궁내 임신이 확인되었고 이상은 없었다. 혈액형은 B 양성이다. 다음 중 가장 적절한 처치는?
+임신 25주이며 당뇨병을 진단받은 적 없는 산모다. 국내 지침에 따라 임신성 당뇨병 1단계 검사로 75 g 경구당부하검사를 시행했다. 공복 89, 1시간 177, 2시간 156 mg/dL이다. 적절한 해석은?
 
 ## 선택지
 
-A. 경구 포도당 부하검사
-B. 태아심박동검사
-C. B군 연쇄구균 배양 면봉검사
-D. Tdap 예방접종
+A. 모든 측정값이 정상이므로 임신성 당뇨 없음
+B. 한 항목만 높으므로 반드시 100 g 검사로 확인
+C. 공복혈당이 92 미만이므로 다른 수치에 관계없이 배제
+D. 2시간 값이 기준 이상이므로 임신성 당뇨병
 
 ## 해설
 
 
-임신 24~28주에 임신성 당뇨병 선별을 위해 경구 포도당 부하검사를 시행한다. 혈당 이상을 조기에 발견해 관리하기 위한 표준 검사이다. 따라서 정답은 경구 포도당 부하검사이다.
+대한당뇨병학회 75 g 검사 기준은 공복 92, 1시간 180, 2시간 153 mg/dL 이상 중 하나다. 2시간 156 mg/dL이 기준을 충족하며, 50 g 선별 후 100 g 검사를 하는 2단계 접근과 혼동하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001066
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/

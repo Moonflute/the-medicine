@@ -19,7 +19,7 @@ question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-1세 남아가 5일간 지속된 발열과 기침으로 내원했다. 출생 이후 황색포도상구균, 녹농균, 칸디다에 의한 피부감염, 귀감염, 폐렴이 반복되었고 얼굴과 코 주변에 이전 농양의 흉터가 있다. 객담 배양에서 아스페르길루스가 자랐다. 기저 유전질환을 확인할 검사 소견은 무엇인가?
+1세 남아가 반복되는 피부·간 농양에 이어 침습성 아스페르길루스 폐렴을 앓았다. 호중구 수는 정상이다. 만성 육아종성 질환을 의심할 때 호중구 기능을 평가할 검사는?
 
 ## 선택지
 
-A. 전혈구검사
-B. 디하이드로로다민 검사
-C. CD18 단백질 유세포분석
-D. 형광 제자리 부합법
+A. 혈중 면역글로불린 정량만 시행
+B. 디하이드로로다민 유세포분석
+C. 호중구 CD18 발현 검사
+D. 혈청 총 보체 활성도 검사
 
 ## 해설
 
 
-반복되는 심각한 감염과 Aspergillus 감염은 만성 육아종성 질환(CGD)을 시사한다. CGD는 NADPH 산화효소 복합체 결함으로, 디하이드로로다민(DHR) 흐름 사이토메트리 검사가 결핍된 NADPH 산화능력을 확인한다. 따라서 가장 확진에 적합한 검사는 디하이드로로다민 검사이다.
+만성 육아종성 질환에서는 호중구 수가 정상이더라도 산화 폭발이 저하된다. 디하이드로로다민 검사로 호중구의 산화 기능을 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 형광 제자리 부합법
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009697
+- https://www.ncbi.nlm.nih.gov/books/NBK99496/

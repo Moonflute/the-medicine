@@ -18,6 +18,7 @@ question_type: management
 related_disease_slugs: []
 difficulty: simple
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 1일 신생아의 기저귀에 작은 붉은 얼룩이 보였다. 신체검사와 혈청 요산 수치는 정상이었다. 다음 중 가장 적절한 다음 처치는?
+생후 1일 신생아의 기저귀에 작은 붉은 얼룩이 보였다. 신체검사와 혈청 요산 수치는 정상이었다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

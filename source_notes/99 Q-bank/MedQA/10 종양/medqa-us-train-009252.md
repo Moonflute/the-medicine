@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-55세 여성이 목욕 중 왼쪽 유방에 종괴를 발견한 지 10일 후 내원했다. 3년 전 61세에 언니가 유방암을 진단받아 유방암을 걱정한다. 6개월 전 폐경이 되었고 30년 동안 하루 담배 두 갑을 피웠다. 20년간 경구피임약을 복용했으며 현재 호르몬대체요법과 칼슘 보충제를 복용한다. 진찰에서 왼쪽 유방 상외측에 2.5 cm 크기의 단단하고 압통 없는 종괴가 만져지며 피부가 종괴에 당겨져 있다. 오른쪽 유방과 양쪽 겨드랑이는 정상이다. 유방촬영술에서 미세석회화와 기름낭종을 동반한 불규칙 종괴가 보인다. 중심부 생검에서 거품세포와 다핵 거대세포가 보인다. 다음으로 가장 적절한 처치는 무엇인가?
+55세 여성에게 단단한 유방 종괴가 만져진다. 유방촬영에서 기름낭종이 보이고, 중심침생검은 지방괴사로 확인됐다. 영상·촉진·병리 소견이 일치하고 증상이 없다. 다음 계획은?
 
 ## 선택지
 
-A. 선행 화학요법
-B. 안심시키고 관찰
-C. 변형 근치적 유방절제술
-D. 종괴 광범위 절제
+A. 즉시 광범위 절제
+B. 반드시 다른 부위에서 중심침생검 반복
+C. 유방암에 준해 MRI로 병기 평가
+D. 양성임을 설명하고 일반 검진으로 복귀
 
 ## 해설
 
 
-기름낭종과 거품세포·다핵거대세포는 유방 지방괴사에 합당하다. 영상·진찰과 코어 생검 결과가 일치하는 양성 지방괴사라면 설명과 안심 B가 적절하며 일률적인 광범위 절제나 항암치료는 필요하지 않다. 다만 병리-영상 불일치, 증가하는 종괴, 지속되는 통증 등은 재평가 또는 절제의 이유가 된다. 악성을 흉내 낼 수 있다는 사실만으로 양성 일치 생검 후에도 반드시 절제하는 것은 아니다.
+영상과 조직검사가 서로 맞는 무증상 지방괴사는 절제가 필요하지 않다. 병리·영상이 일치하지 않거나 새로 커지면 재평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 종괴 광범위 절제
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009252
+- https://www.breastsurgeons.org/docs/statements/asbrs-ccs-concordance.pdf

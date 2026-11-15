@@ -13,14 +13,14 @@ related_diseases:
   - "신생아 갑상선기능항진증"
   - "그레이브스병"
   - "TSH 수용체 항체"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVydGh5cm9pZGlzbSkubWQ
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 3주 된 남아가 출생 후 체중이 늘지 않아 내원했다. 임신 38주 정상 질식분만으로 태어났으며 출생체중 3,005g, 현재 2,835g이다. 모유 수유와 젖 물리기는 잘한다. 어머니는 그레이브스병으로 임신 2분기에 항갑상선 약물로 조절되지 않아 거의 전절제 갑상선절제술을 받았고 현재 L-티록신을 복용한다. 체온 38.9°C, 맥박 분당 176회, 호흡수 분당 42회이며 보채고 땀을 많이 흘리고 피하지방이 적다. 목 중앙에 부종이 있다. 다음 중 가장 가능성 높은 원인은?
+그레이브스병으로 과거 갑상샘절제술을 받은 산모가 레보티록신으로 정상 기능을 유지한다. 임신 후반 TSH 수용체 항체는 높았고, 신생아는 현재 무증상이다. 적절한 계획은?
 
 ## 선택지
 
-A. 갑상선 과산화효소 항체의 태반 통과
-B. TSH 수용체 항체의 태반 통과
-C. 태반을 통한 바이러스 감염
-D. 산모의 아편유사제 사용
+A. 산모가 정상 기능이므로 영아 평가는 불필요
+B. 출생 때 정상으로 보이면 이후 갑상샘 검사도 생략
+C. 영아를 고위험군으로 보고 출생 후 유리 T4와 TSH를 반복 확인
+D. 증상이나 검사 결과 없이 모든 영아에게 메티마졸을 예방 투여
 
 ## 해설
 
 
-그레이브스병 어머니의 TSH 수용체 항체는 태반을 통과해 신생아 갑상선 자극을 일으켜 신생아 갑상선기능항진증을 유발한다. 따라서 TSH 수용체 항체의 태반 통과가 원인이다. 다른 선택지는 해당 증상과 맞지 않는다.
+수술 뒤에도 산모의 TSH 수용체 항체가 남아 태반을 통과할 수 있다. 출생 후 초기 수일과 1–2주 무렵에 갑상샘 기능을 확인하는 등 위험에 맞춰 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000068
+- https://pubmed.ncbi.nlm.nih.gov/26980880/

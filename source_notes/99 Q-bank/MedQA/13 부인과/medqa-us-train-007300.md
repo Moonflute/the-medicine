@@ -13,13 +13,13 @@ related_diseases:
   - "섬유선종"
   - "임신 중 유방 종괴"
   - "에스트로겐 반응성 종양"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yErOycoOyEoOyihSAoRmlicm9hZGVub21hKS5tZA
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-23세 임신 16주 여성(G1P0)이 한 달 동안 지속된 오른쪽 유방 부종으로 내원했다. 심각한 질환의 개인력이나 가족력은 없다. 수년 동안 피임약을 복용했다. 활력징후는 정상이다. 신체검사에서 양쪽 유방이 비대칭이고 오른쪽 유방이 커져 있다. 유방 상외측 피부 아래에서 4×5cm(1.5×1.9인치)의 종괴가 만져진다. 압통이 없고 잘 움직이며 고무처럼 단단하고 경계가 규칙적이다. 유방 초음파에서 경계가 명확하고 저에코인 둥글고 균질한 고형 종괴가 보이며 직경은 5cm(1.9인치)이다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+임신 16주인 23세 여성의 만져지는 유방 종괴가 한 달 사이 빠르게 커졌다. 초음파에서 경계가 불규칙한 5 cm 고형 종괴로 BI-RADS 4에 해당한다. 다음 검사는?
 
 ## 선택지
 
-A. 침윤성 유관암
-B. 섬유선종
-C. 소엽암
-D. 수질암
+A. 분만할 때까지 조직검사를 미룬다
+B. 혈액 종양표지자로 조직 검사를 대신한다
+C. 가돌리늄 조영 MRI만으로 양성 여부를 확정한다
+D. 초음파 유도 중심침생검
 
 ## 해설
 
 
-임신 중 에스트로겐에 반응하는 섬유선종은 단단하고 움직이며 경계가 규칙적인 양성 종괴를 만든다. 초음파 소견도 전형적이다. 따라서 가장 가능성 높은 진단은 섬유선종이다.
+임신 중에도 의심스러운 유방 종괴를 기다리기만 해서는 안 된다. 초음파에서 의심되는 고형 병변은 초음파 유도 중심침생검으로 조직 진단을 한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007300
+- https://pubmed.ncbi.nlm.nih.gov/41193040/

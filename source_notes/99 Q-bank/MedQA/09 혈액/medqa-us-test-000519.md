@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-uvuOyEuO2YiOq0gOuzkeyEsSDsmqntmIgg67mI7ZiIIChNaWNyb2FuZ2lvcGF0aGljIEhlbW9seXRpYyBBbmVtaWEsIE1BSEEpLm1k
   - MDkg7ZiI7JWhL-2YiOyghOyEsSDtmIjshoztjJDqsJDshowg7J6Q7IOJ67CYIChUaHJvbWJvdGljIFRocm9tYm9jeXRvcGVuaWMgUHVycHVyYSwgVFRQKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강했던 35세 초임부가 임신 12주에 1주일 동안의 발열, 지속적인 두통, 메스꺼움, 복부 불편감으로 병원에 왔다. 양치할 때 잇몸에서 피가 나는 것도 발견했다. 한 달 전 스리랑카로 캠핑 여행을 다녀왔다. 체온 39.3°C(102.8°F), 맥박 104회/분, 호흡 24회/분, 혈압 135/88 mmHg였다. 창백하고 경미한 공막 황달이 있었으며 몸통과 등에 점상출혈이 드문드문 보였다. 림프절병증은 없었고 다른 신체·신경학적 진찰은 정상이었다. 대변 잠혈검사는 양성이었다. 혈색소 8.2 g/dL, 백혈구 10,000/mm³, 혈소판 18,000/mm³, INR 1.0, 쿰스검사 음성, 섬유소분해산물 음성이었다. 혈청 요소 20 mg/dL, 크레아티닌 1.1 mg/dL, 총 빌리루빈 3.0 mg/dL, 직접 빌리루빈 0.8 mg/dL, ALT 20 U/L, AST 16 U/L, LDH 900 U/L였고 소변 단백 1+, 적혈구 고배율 시야당 50~60개였다. 말초혈액도말은 그림과 같았으며 혈액과 소변배양은 음성이었다. 가장 가능성 높은 진단은?
+임신 12주 환자에게 새 두통, 점상출혈과 혈소판 1.8만/μL가 확인됐다. 혈액도말에는 분열 적혈구가 많고 용혈 지표가 상승했지만 PT와 간효소는 정상이다. 혈전성 혈소판감소성 자반증을 의심할 때 혈장 치료 전에 채취해야 하는 검사는?
 
 ## 선택지
 
-A. HELLP 증후군
-B. 혈전성 혈소판감소성 자반증
-C. 용혈성 요독 증후군
-D. 자가면역 용혈성 빈혈
+A. ADAMTS13 활성과 억제항체 검사
+B. 혈소판 응집 검사
+C. 혈청 태아성 헤모글로빈
+D. 자궁동맥 도플러만 시행
 
 ## 해설
 
 
-임신 12주에 Coombs 음성 용혈 소견·심한 혈소판감소가 있고 응고검사와 간효소가 정상이어서 선지 중 TTP(B)를 우선 의심한다. 신기능 저하는 두드러지지 않아 HUS보다 부합하고 HELLP의 전형적 시기·간효소 이상과도 다르다. 임신 TMA가 모두 TTP이거나 TTP가 가장 흔하다는 뜻은 아니며 ADAMTS13 확인이 필요하다.
+임신 초기에도 혈전성 미세혈관병증이 생길 수 있다. 치료 전 검체로 ADAMTS13을 평가하며, 임상 가능성이 높으면 검사 결과를 기다리느라 치료를 늦추지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 자가면역 용혈성 빈혈
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000519
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC8146131/

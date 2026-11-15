@@ -20,7 +20,7 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-55세 흑인 남성이 정기검진에서 고음의 이완기 잡음과 도약맥을 보인다. 심초음파에서 이첨 대동맥판막, 중증 대동맥판막 역류, 좌심방 확대, 좌심실 확장과 비대, 좌심실 박출률 45%가 확인되었다. 다음 중 가장 적절한 치료는?
+55세 남성이 정기검진에서 초기 이완기 잡음을 보였다. 일상생활에서 호흡곤란은 없다. 심초음파에서 이첨 대동맥판막의 중증 만성 대동맥판 역류, 좌심실 확장 및 박출률 45%가 확인됐다. 적절한 다음 조치는?
 
 ## 선택지
 
-A. 안심시키고 정기 심초음파 추적관찰
-B. 니페디핀 45 mg/일 외래치료
-C. 에날라프릴 10 mg 하루 두 번 외래치료
-D. 입원하여 대동맥판막 치환술
+A. 증상이 생길 때까지 정기 심초음파만 시행한다
+B. 이뇨제만 시작하고 추적한다
+C. 혈압 조절만 하면 판막 치료는 필요 없다
+D. 증상이 없어도 대동맥판 수술을 위해 심장팀에 의뢰한다
 
 ## 해설
 
 
-중증 대동맥 역류와 좌심실 기능 저하가 있으면 외과적 교정이 필요하다. 대동맥판막 교체술은 증상 악화와 심부전 위험을 감소시킨다. 따라서 가장 적절한 치료는 입원 후 대동맥판막 치환술이다.
+중증 만성 대동맥판 역류에서는 증상이 없어도 좌심실 기능이 떨어지면 수술을 권고하는 기준에 해당할 수 있다. 박출률 45%와 좌심실 확장이 있는 이 환자는 관찰만 하지 않고 수술 적합성을 평가한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 입원하여 대동맥판막 치환술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002634
+- https://academic.oup.com/eurheartj/article/46/44/4635/8234488

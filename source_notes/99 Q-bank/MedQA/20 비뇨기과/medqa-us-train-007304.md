@@ -13,11 +13,11 @@ related_diseases:
   - "당뇨병성 자율신경병증"
   - "신경인성 방광"
   - "범람성 요실금"
-question_type: prognosis
+question_type: diagnosis
 related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsi6Dqsr3rs5Hspp0gKERpYWJldGljIE5ldXJvcGF0aHkpLm1k
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-비만, 스텐트 삽입 후 관상동맥질환, 고혈압, 고지혈증, 인슐린 의존성 당뇨병 병력이 있는 76세 여자가 정기검진을 위해 외래에 내원했다. 당뇨병 치료를 잘 따르지 않았고 혈당을 규칙적으로 확인하지 않으며 식사 때 인슐린 투여를 자주 잊는다. 3개월 전 당화혈색소는 14.1%였다. 당뇨병으로 당뇨병성 망막병증과 신경병증이 악화되었다. 임상 양상에 근거할 때 다음 중 어떤 질환이 발생할 위험이 가장 높은가?
+오래된 당뇨병과 말초신경병증이 있는 76세 여성이 소변이 조금씩 계속 새고 방광이 차도 잘 느끼지 못한다고 한다. 배뇨 뒤 잔뇨가 460 mL다. 가장 가능성 높은 요실금 유형은?
 
 ## 선택지
 
 A. 복압성 요실금
-B. 범람성 요실금
-C. 직장 탈출
-D. 치질
+B. 절박성 요실금
+C. 기능성 요실금
+D. 범람성 요실금
 
 ## 해설
 
-오래 조절되지 않은 당뇨 신경병증은 방광 충만 감각 저하와 배뇨근 수축력 저하를 일으켜 잔뇨·요폐와 범람성 요실금 B를 유발할 수 있다. 이는 방광이 과도하게 수축하는 절박성 요실금의 기전과 다르다. 당뇨 환자 모두에서 한 가지 유형만 생기는 것은 아니나 선지 중 관련 위험이 가장 높은 것은 B이다.
+충만감이 둔하고 잔뇨가 많으면서 조금씩 새면 불완전 배출에 의한 범람성 요실금을 의심한다. 당뇨병성 자율신경병증은 방광 감각과 수축력을 떨어뜨릴 수 있다.
 
 ## 검수 근거
 

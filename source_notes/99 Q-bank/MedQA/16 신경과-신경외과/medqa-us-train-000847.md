@@ -16,6 +16,7 @@ related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rp4jrr7jspp3tm4TqtbAgKENhdWRhIEVxdWluYSBTeW5kcm9tZSkubWQ
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -32,7 +33,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-36세 남성이 지난 4일간 점진적으로 악화되는 요통으로 응급실에 내원하였다. 추가 문진에서 그는 양측 발에서 무릎까지 올라오는 저림과 타는 듯한 감각이 있다고 언급하였다. 환자는 지난 며칠간 배뇨와 배변에 어려움을 겪고 있다고 말하였다. 체온은 97.4°F(36.3°C), 혈압은 122/80 mmHg, 맥박은 85회/분, 호흡수는 14회/분, 실내 공기에서 산소 포화도는 98%이다. 신체 검진상 양측 다리 굴곡 약화와 항문 괄약근 긴장도 저하가 관찰된다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+36세 남성이 지난 4일간 점진적으로 악화되는 요통으로 응급실에 내원하였다. 추가 문진에서 그는 양측 발에서 무릎까지 올라오는 저림과 타는 듯한 감각이 있다고 언급하였다. 환자는 지난 며칠간 배뇨와 배변에 어려움을 겪고 있다고 말하였다. 체온은 97.4°F(36.3°C), 혈압은 122/80 mmHg, 맥박은 85회/분, 호흡수는 14회/분, 실내 공기에서 산소 포화도는 98%이다. 신체 검진상 양측 다리 굴곡 약화와 항문 괄약근 긴장도 저하가 관찰된다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

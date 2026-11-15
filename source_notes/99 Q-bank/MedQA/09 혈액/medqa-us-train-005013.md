@@ -15,7 +15,7 @@ related_diseases:
   - "좋은 예후 인자"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-q4ieyEsSDsoITqs6jsiJjshLEg67Cx7ZiI67ORIChBUEwgTTMpIChBY3V0ZSBQcm9teWVsb2N5dGljIExldWtlbWlhKS5tZA
-question_type: prognosis
+question_type: adverse_effect
 difficulty: standard
 answer: D
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-70세 남자가 한 달 동안 심한 피로와 2 kg의 의도하지 않은 체중 감소로 내원했다. 결막이 창백하고 다리와 구개에 점상출혈, 양측 무통성 경부 림프절병증이 있다. 다음 중 병력이나 검사 결과에서 좋은 예후를 가장 잘 시사하는 요인은?
+급성 전골수구성 백혈병으로 전트랜스 레티노산과 삼산화비소를 시작한 환자에게 1주 뒤 원인 불명의 발열, 급격한 체중 증가와 호흡곤란이 생겼다. 새 양측 폐침윤이 보인다. 감염 등 다른 원인을 평가하면서 분화증후군이 의심되면 바로 투여할 약은?
 
 ## 선택지
 
-A. 골수형성이상증후군 병력
-B. 백혈구 수 100,000/mm³ 초과
-C. 이전에 세포독성 약물 치료를 받은 병력
-D. t(15;17) 전좌
+A. 필그라스팀
+B. 아세트아미노펜 단독
+C. 추가 삼산화비소
+D. 정맥 덱사메타손
 
 ## 해설
 
 
-나열된 소견 중 t(15;17), PML::RARA는 APL을 지지하며 적절한 분화/표적치료에 좋은 반응을 보여 상대적으로 양호한 예후 인자 D이다. 이는 초기 DIC·출혈 위험이 낮다는 뜻은 아니며 의심 APL은 응급 평가·치료가 필요하다. 기존 MDS·세포독성 치료나 극심한 백혈구증가는 일반적으로 유리한 예후 인자가 아니다.
+분화치료 중 급격한 체중 증가와 폐침윤, 호흡곤란은 분화증후군을 시사한다. 의심 즉시 덱사메타손을 투여하고, 중증이면 분화약 일시 중단을 전문팀과 검토한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. t(15;17) 전좌
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005013
+- https://doi.org/10.1182/blood-2019-01-894980

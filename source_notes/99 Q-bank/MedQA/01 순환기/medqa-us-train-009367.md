@@ -19,7 +19,7 @@ question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,19 +39,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-후벽 심근경색으로 관상동맥 스텐트를 삽입한 지 2일 된 70세 여성이 호흡곤란과 흉골 뒤 흉통을 호소한다. 심방세동으로 베라파밀을 복용하고 있으며 스텐트 삽입 후 아스피린과 클로피도그렐을 시작했다. 급성 고통 상태이고 혼란스러우며 호흡수 22회/분, 실내 공기 산소포화도 80%이다. 흉부 청진에서 전반적인 수포음이 들려 삽관 후 기계환기를 시작했다. 곧 반응이 없어지고 심음과 경동맥 맥박이 만져지지 않는다. 심장 모니터에서 T파 역전을 동반한 정상 동성 리듬이 보인다. 다음으로 가장 적절한 처치는 무엇인가?
+심근경색으로 입원 중인 70세 여성이 갑자기 반응을 잃고 정상적으로 숨 쉬지 않는다. 모니터에는 동성 리듬이 보이지만 10초 이내에 경동맥 맥박을 확인할 수 없다. 동료가 심정지 대응팀을 호출했다. 지금 가장 먼저 할 일은?
 
 ## 선택지
 
-A. 정맥 에피네프린
-B. 흉부 압박
-C. 관상동맥조영술
-D. 동기화 심율동전환
+A. 정맥으로 에피네프린을 투여한다
+B. 가슴압박을 시작한다
+C. 침상 심초음파로 심장압전을 확인한다
+D. 동기화 심율동전환을 시행한다
 
 ## 해설
 
 
-환자는 급성 호흡정지 후 맥박이 없고 심전도에 전기활동은 있으나 혈류가 없는 PEA 상태이다. PEA에서는 심폐소생술의 첫 단계가 가슴 압박이다. 따라서 가장 적절한 처치는 흉부 압박이다.
+맥박 없이 조직화된 전기활동이 보이면 무맥성 전기활동(PEA)으로 보고 즉시 가슴압박을 시작한다. 비충격 리듬이므로 제세동을 하지 않고, 소생술을 진행하며 에피네프린을 신속히 투여하고 가역적 원인을 찾는다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ D. 동기화 심율동전환
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009367
+- https://www.kdca.go.kr/injury/biz/injury/recsroom/ruleNdManual/ruleNdManualView.do?no=213

@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-17세 여성이 불규칙한 월경 출혈 평가를 위해 어머니와 함께 내원했다. 12세 초경 이후 월경이 60~90일 간격으로 발생했다. 마지막 월경은 4주 전이었다. 한 남성 파트너와 성관계를 하고 있으며 콘돔을 꾸준히 사용한다. 현재 아이를 원하지 않는다. 키 165cm, 체중 85kg, BMI 31kg/m²이다. 진찰에서 이마에 산재한 농포와 지성 피부가 보이고, 턱과 윗입술에 굵은 털이 있다. 손가락 채혈 혈당은 190 mg/dL이며 소변 임신검사는 음성이다. 다음 중 가장 적절한 약물치료는?
+다낭성난소증후군을 진단받은 22세 여성이 다모와 불규칙한 월경을 치료하고 싶다. 임신 계획은 없고 흡연, 조짐편두통, 혈전증이나 고혈압은 없다. 주기와 다모를 함께 조절할 약은?
 
 ## 선택지
 
-A. 다나졸
-B. 류프로라이드
-C. 메트포르민
-D. 복합 경구피임약
+A. 레트로졸
+B. 저용량 복합 경구피임약
+C. 류프로라이드 주사
+D. 메트포르민만 투여해 다모를 우선 조절
 
 ## 해설
 
-희발월경과 고안드로겐 소견의 PCOS에서 임신을 원하지 않으면 복합 피임약(D)으로 월경과 안드로겐 증상을 조절할 수 있다. 혈당 190 mg/dL은 별도의 당대사 평가가 필요하며 수시 손끝 혈당 한 번만으로 당뇨를 확진하지 않는다. 필요시 대사 치료·생활관리도 병행한다.
+임신을 원하지 않고 에스트로겐 금기가 없으면 복합 경구피임약은 월경불순과 다모의 약물 치료에 쓸 수 있다. 메트포르민은 주로 대사 적응증에 맞춰 고려한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 복합 경구피임약
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009763
+- https://pmc.ncbi.nlm.nih.gov/articles/10505534/

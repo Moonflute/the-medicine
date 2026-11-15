@@ -19,9 +19,9 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
 question_type: prevention
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-19세 여자가 정기 건강검진을 받으러 왔다. 아버지는 46세에 대장암을 진단받았고 아버지의 형제는 소장암, 친할아버지는 위암으로 사망했다. 생식세포 DNA 검사에서 DNA 복구 유전자 MLH1과 MSH2 돌연변이가 확인되었다. 다음 중 일생 동안 필요할 가능성이 가장 높은 것은?
+22세 환자가 유전상담에서 병적 MLH1 생식세포 변이를 확인받았다. 증상은 없지만 아버지가 42세에 대장암을 진단받았다. 이 환자의 대장암 감시 계획은?
 
 ## 선택지
 
-A. 20~25세부터 매년 대장내시경
-B. 셀레콕시브 또는 설린닥 치료
-C. CEA와 CA 19-9 매년 측정
-D. 데스모이드 종양의 외과적 제거
+A. 분변잠혈검사만 매년 시행한다
+B. 50세부터 평균위험군과 같은 간격으로 검사한다
+C. 지금 대장내시경 감시를 시작하고 대개 1~2년 간격으로 반복한다
+D. 혈청 CEA만 매년 측정하고 증상이 생기면 내시경을 한다
 
 ## 해설
 
 
-MLH1·MSH2 변이를 가진 린치증후군 환자는 대장암 위험이 매우 높으며, 20~25세부터 1~2년 간격(보통 매년)으로 대장내시경 검사가 권장된다. 이는 조기 발견과 예방에 가장 효과적인 전략이다. 따라서 매년 대장내시경을 시행하는 것이 가장 필요하다.
+병적 MLH1 변이가 확인된 린치증후군에서는 대개 20~25세부터 촘촘한 대장내시경 감시가 필요하다. 시작 시점과 간격은 유전자와 가족 내 발병 연령을 함께 고려한다.
 
 ## 검수 근거
 
@@ -63,3 +63,5 @@ MLH1·MSH2 변이를 가진 린치증후군 환자는 대장암 위험이 매우
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005227
+- https://www.ncbi.nlm.nih.gov/books/NBK1211/
+- https://doi.org/10.1007/s10147-025-02892-1

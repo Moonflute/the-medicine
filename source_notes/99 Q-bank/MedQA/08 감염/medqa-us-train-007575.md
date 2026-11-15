@@ -16,9 +16,9 @@ related_diseases:
   - "직업적 노출"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-q4ieyEsSBISVYg6rCQ7Je8IChBY3V0ZSBISVYgSW5mZWN0aW9uKS5tZA
-question_type: management
+question_type: prevention
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-26세 여대생이 주사침 손상으로 산업보건과에 내원했다. HIV 양성 환자에게서 채혈하다 바늘을 씌우는 과정에서 피부를 찔렀다. 즉시 베타딘으로 상처를 씻었다. 2년 전 의과대학 입학 당시 HIV 혈청검사는 음성이었고 한 명의 남성 파트너와만 지내며 정맥주사 약물 사용은 없다. 원인 환자는 최근 HIV를 진단받았고 CD4 수는 550/µL, 최근 바이러스량은 1,800,000 copies/mL이며 3일 전 HAART를 시작했다. 이 여학생의 노출을 관리하는 가장 적절한 다음 단계는 무엇인가?
+채혈 직후 간호사가 사용한 속빈 주사침에 찔렸다. 노출 환자는 HIV 치료를 막 시작했고 혈중 바이러스량이 높다. 간호사는 1시간 이내에 진료를 받았다. 기본 검체를 채취한 뒤 다음 조치는?
 
 ## 선택지
 
-A. 원인 환자의 유전자형 검사를 시행하고 결과에 맞춘 항레트로바이러스 치료를 시작한다
-B. 여학생의 HIV 혈청검사를 반복하고 음성이면 3제 항레트로바이러스 치료를 시작한다
-C. 여학생의 HIV 혈청검사를 반복하고 양성이면 3제 항레트로바이러스 치료를 시작한다
-D. 여학생의 HIV 혈청검사를 채취하고 즉시 3제 항레트로바이러스 치료를 시작한다
+A. 기초 검사 결과를 기다리지 않고 3제 HIV 노출 후 예방요법을 시작한다
+B. 노출자의 HIV 항체가 양성일 때만 예방요법을 시작한다
+C. 노출 환자의 내성 유전자검사가 나올 때까지 약을 보류한다
+D. 상처를 세척하고 72시간 뒤에 시작 여부를 결정한다
 
 ## 해설
 
 
-노출자의 baseline HIV 검사 등을 채취하면서 결과를 기다리지 않고 즉시3제 PEP D를 시작한다.2025 직업 노출 지침은 가능한 빨리, 통상72시간 이내 시작하여28일간 투여하며 늦은 고위험 노출은 전문가와 상의한다.2시간은 절대 배제 cutoff가 아니다. Baseline 검사는 지금 시행하고 후속 검사는 현행 검사법/노출·복약상황에 맞춰 추적한다. Source genotype 결과 때문에 초기 투약을 지연하지 않는다.
+직업 노출 후 예방요법은 적응증이 있으면 가능한 한 빨리 시작하고 보통 28일간 투여한다. 기초검사를 같이 진행하되 결과 확인 때문에 첫 투약을 늦추지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 여학생의 HIV 혈청검사를 채취하고 즉시 3제 항레트로바이�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007575
+- https://kdca.go.kr/bbs/kdca/55/305040/download.do
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12616222/

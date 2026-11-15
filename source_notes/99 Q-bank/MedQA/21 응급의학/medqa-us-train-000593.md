@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite

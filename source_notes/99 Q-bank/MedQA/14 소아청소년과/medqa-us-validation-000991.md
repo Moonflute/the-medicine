@@ -18,9 +18,9 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-qzoOy5vOyKmO2YiOymnSAoSHlwZXJjYWxjZW1pYSkubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7IaM7JWEIOycoOyghOyniO2ZmC5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-5세 여아가 발달 이정표를 충족하지 못한다는 교사의 우려로 건강검진을 받으러 왔다. 색 이름을 말하기 어렵고 읽기 학습에 관심이 없으며 혼자 옷을 입거나 화장실을 사용하는 일도 못한다. 운동 발달이 지연되었고 매우 사교적이다. 넓은 이마, 편평한 콧등, 긴 인중, 넓은 입, 사시와 심잡음이 있으며 혈청 칼슘이 상승했다. 이 상태와 관련된 심장 이상은?
+7q11.23 결실로 윌리엄스증후군을 진단받은 5세 아이에게 새 수축기 박출성 잡음이 들린다. 심초음파에서 특히 확인해야 할 병변은?
 
 ## 선택지
 
-A. 이첨 대동맥판
-B. 대동맥 축착
-C. 대동맥판상 협착
-D. 팔로 4징
+A. 대동맥 축착
+B. 심방중격결손
+C. 대동맥판하 협착
+D. 대동맥판상 협착
 
 ## 해설
 
 
-윌리엄스 증후군은 대동맥판상 협착과 고칼슘혈증을 동반한다. 환자의 얼굴 특징과 고칼슘혈증이 이를 시사한다. 따라서 관련된 심장 이상은 대동맥판상 협착이다.
+윌리엄스증후군에서는 엘라스틴 관련 혈관병증으로 대동맥판 바로 위가 좁아지는 대동맥판상 협착이 대표적이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000991
+- https://pubmed.ncbi.nlm.nih.gov/31964759/

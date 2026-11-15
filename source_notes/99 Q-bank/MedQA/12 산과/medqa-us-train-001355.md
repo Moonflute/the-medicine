@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yekOq2geydtOyZhOymnSAoVXRlcmluZSBBdG9ueSkubWQ
   - MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 40주에 태반이 오래 걸려 분만된 직후 32세 다산부에게 질 출혈이 발생했다. 경미한 천식 외에는 임신이 합병증 없이 진행되었다. 여러 차례 산전진료에 참석했고 질병 선별, 검사실 검사, 식이 및 운동에 관한 의사의 조언을 따랐다. 이전 임신도 합병증이 없었다. 중증 질환 병력은 없다. 현재 옥시토신을 정맥주입 중이다. 체온은 37.2°C (99.0°F), 혈압은 108/60 mm Hg, 맥박은 88회/분, 호흡수는 17회/분이다. 자궁을 촉진하면 배꼽 위까지 올라온 부드럽고 커진 자궁저부가 만져진다. 산도와 태반을 평가한 결과를 바탕으로 환자 관리의 가장 적절한 초기 단계는 무엇인가?
+천식이 있는 산모가 분만 직후 자궁무력증으로 출혈 중이다. 마사지와 옥시토신을 시행했고 추가 자궁수축제를 선택하려 한다. 기관지수축 위험 때문에 피할 약은?
 
 ## 선택지
 
-A. 옥시토신 중단
-B. 메틸에르고노빈 정맥주사
-C. 자궁 수동 탐색
-D. 자궁저부 마사지
+A. 카르보프로스트
+B. 미소프로스톨
+C. 옥시토신
+D. 메틸에르고노빈
 
 ## 해설
 
-분만 직후 출혈과 부드럽고 커진 자궁저부는 자궁이완을 시사한다. 선택지 중 자궁저부 마사지(D)가 즉시 시행할 조치이다. 옥시토신을 유지하면서 출혈량 평가, 수액·TXA 등 초기 출혈 처치를 함께 시행하고 열상·잔류조직도 확인한다. 마사지가 항상 단독으로 출혈을 멈춘다고 보장하지 않는다.
+카르보프로스트는 기관지수축을 유발할 수 있어 천식 산모에서는 피한다. 메틸에르고노빈은 고혈압에서 피하는 약이다. 출혈 소생과 다른 지혈 방법은 계속 진행한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 자궁저부 마사지
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001355
+- https://www.nice.org.uk/guidance/ng235/chapter/recommendations

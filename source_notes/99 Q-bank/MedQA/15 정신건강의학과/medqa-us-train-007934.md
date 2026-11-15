@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uLqOq4sCDsoJXsi6Drs5HsoIEg7J6l7JWgIChCcmllZiBwc3ljaG90aWMgZGlzb3JkZXIpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,23 +34,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-21세 여성이 오빠와 함께 내원했다. 오빠에 따르면 3일 전 환자는 가장 좋은 정장을 입고 화장을 한 뒤 아마존사의 CEO를 대신하기 위해 직장으로 돌아가 시애틀로 운전하겠다고 주장했다. 남편이 이틀 전 다른 도시에서 교통사고로 사망한 직후였기 때문에 특히 이상했다. 오늘은 회색 운동복을 입고 슬퍼 보인다. 환자는 이상하게 행동한 것을 기억하지 못하지만 남편이 사망한 것은 알고 있다. 활력징후는 정상이고 진찰에서 슬픈 정동 외에 말의 속도와 음량은 정상이다. 환각, 조증, 끼어들기, 우울 증상, 흥미 상실은 없다. 소변 약물검사는 모두 음성이다. 다음 중 이 환자의 상태를 가장 잘 설명하는 것은?
+27세 여성이 갑자기 피해망상과 와해된 언어를 보였다. 물질 사용이나 기분 삽화는 없었고, 1주 뒤 정신병 증상이 완전히 사라져 이전 기능을 회복했다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 분열성 인격장애
-B. 경계성 인격장애
-C. 분열형 인격장애
-D. 단기 정신병적 장애
+A. 조현양상장애
+B. 단기 정신병적 장애
+C. 망상장애
+D. 조현병
 
 ## 해설
 
-과대망상적 믿음과 급성 이상행동이 나타났다가 빠르게 회복된 경과는 제시된 선택지 중 단기 정신병적 장애에 가장 가깝다. 이 장애는 정신병적 증상이 1일 이상 1개월 미만 지속되고 이전 기능으로 회복하는 경과를 확인하며, 현실검증이 항상 보존되는 장애가 아니다. 스트레스 후 1주 이내 발병은 필수 기준이 아니다. 원문의 '이상행동 3일 전/배우자 사망 2일 전' 시점은 상충하므로 사망이 반드시 먼저였다고 바꾸거나 그것만을 진단 근거로 삼지 않는다.
+하루 이상 한 달 미만 지속되는 정신병 증상 뒤 이전 기능을 완전히 회복했다면 단기 정신병적 장애에 맞는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007934
+- https://www.psychiatry.org/patients-families/schizophrenia/what-is-schizophrenia/
 
 ## 검수 근거
 

@@ -18,9 +18,9 @@ related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
   - MTgg7JWI6rO8L-yLnOyLoOqyveyXvCAob3B0aWMgbmV1cml0aXMpLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-29세 여자가 하루 동안 발생한 오른쪽 흐린 시야와 안구운동 시 통증으로 내원했다. 5개월 전 왼쪽 다리 저림이 2주 후 저절로 호전된 병력이 있다. 오른쪽 눈에 상대구심성 동공운동장애, 시신경유두 부종과 색각 저하가 있고 뇌 MRI에서 뇌실주변 및 피질옆 고신호 병변이 여러 개 보인다. 다음 중 가장 적절한 처치는?
+29세 여성이 안구운동통과 색각 저하를 동반한 한쪽 시력 저하를 보인다. 진찰과 MRI에서 전형적인 탈수초성 시신경염으로 판단했고, 시력 회복을 앞당길 치료를 원한다. 적절한 초기 약물은?
 
 ## 선택지
 
-A. 카바마제핀
-B. 정맥 면역글로불린
-C. 메틸프레드니솔론
-D. 혈장교환
+A. 경구 저용량 프레드니솔론 단독
+B. 고용량 정맥 메틸프레드니솔론
+C. 정맥 면역글로불린을 모든 환자에서 우선 투여
+D. 인터페론 베타의 단회 투여
 
 ## 해설
 
 
-급성 시신경염은 다발성경화증의 초기 발현으로 고용량 정맥 메틸프레드니솔론이 급성 염증을 억제한다. 따라서 가장 적절한 처치는 메틸프레드니솔론 투여이다.
+고용량 스테로이드는 전형적 시신경염에서 시력 회복을 앞당길 수 있다. 최종 시력에 뚜렷한 이득이 보장되는 것은 아니며 저용량 경구 프레드니솔론 단독과는 다르다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005348
+- https://pubmed.ncbi.nlm.nih.gov/1734247/

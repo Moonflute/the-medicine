@@ -17,9 +17,9 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2MqO2YiOymnSAoU2Vwc2lzKS5tZA
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2MqO2YiOymnSAoTmVvbmF0YWwgU2Vwc2lzKS5tZA
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 37주, 임신 2회, 출산 1회인 27세 여성이 활동성 분만으로 입원하였다. 산전 진찰은 정기적으로 받았으나 B군 연쇄상구균(GBS) 보균 여부에 대한 검사는 받지 않았다. 첫째 아이의 임신 및 분만 당시 GBS 감염으로 인해 신생아 패혈증이 발생한 병력이 있다. 현재 복용 중인 약물은 엽산과 종합비타민이다. 활력 징후는 정상 범위 내에 있다. 복부에 압통은 없으며 4분 간격으로 자궁 수축이 느껴진다. 질 내에 맑은 양수가 고여 있다. 태아는 두위(cephalic presentation) 상태이다. 태아 심박수는 분당 140회이다. 다음 중 가장 적절한 다음 조치는 무엇인가?
+임신 37주 산모가 파수와 진통으로 왔다. 이번 임신의 GBS 검사 결과는 없지만 이전 아기가 출생 직후 침습성 B군 사슬알균 감염을 앓았다. 페니실린 알레르기는 없다. 다음 조치는?
 
 ## 선택지
 
-A. GBS 배양을 위한 질-직장 도말 검체 채취
-B. 분만 중 정맥 내 페니실린 투여
-C. GBS 배양 및 핵산 증폭 검사를 위한 질-직장 도말 검체 채취
-D. 핵산 증폭 검사를 위한 질-직장 도말 검체 채취
+A. 배양 결과를 기다리지 않고 분만 중 정맥 페니실린을 시작한다
+B. 정상 체온이면 이전 신생아 감염 병력을 고려하지 않는다
+C. 질·직장 배양 결과가 양성일 때만 이번 분만 중 예방한다
+D. 신생아가 태어난 뒤 산모에게 경구 페니실린을 시작한다
 
 ## 해설
 
 
-GBS 보균 위험이 높고 분만이 진행 중이므로, 신생아 감염을 예방하기 위해 분만 중에 정맥 내 페니실린을 투여한다가 최선이다.
+이전 신생아가 침습성 GBS 감염을 앓았다면 이번 검사 결과를 기다리지 않고 분만 중 예방 항생제를 투여한다. 알레르기가 없으면 정맥 페니실린이 우선이다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000667
+- https://pubmed.ncbi.nlm.nih.gov/31977795/

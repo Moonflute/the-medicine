@@ -17,9 +17,9 @@ related_diseases:
 related_disease_slugs:
   - MTgg7JWI6rO8L-qysOyEseyXvCAoQ29uanVuY3Rpdml0aXMpLm1k
   - MDgg6rCQ7Je8L-yngOy5tOuwlOydtOufrOyKpCDqsJDsl7wgKFppa2EgVmlydXMgSW5mZWN0aW9uKS5tZA
-question_type: diagnosis
+question_type: prevention
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-38세 남성이 4일간 발열과 권태감, 두통, 관절통으로 내원했다. 전날 몸통에 가려운 발진이 생겼고 정액에 피가 두 번 섞였으며 청력이 일부 저하되었다. 10일 전 브라질에서 저녁 대부분을 야외에서 보냈고 모기 물림 예방을 하지 않았다. 체온 38.2℃, 맥박 88회/분, 호흡 13회/분, 혈압 125/60 mmHg이다. 결막충혈과 몸통·근위 사지의 반구진성 발진, 손 관절 압통이 있으나 손발바닥은 침범하지 않았다. 말초혈액도말에서 병원체는 보이지 않는다. 다음 중 가장 가능성 높은 진단은?
+지카바이러스 감염 위험 지역에서 돌아온 남성이 임신한 배우자와 산다. 본인은 증상이 없고 배우자는 여행하지 않았다. 임신 기간 배우자의 노출을 줄이는 방법은?
 
 ## 선택지
 
-A. 샤가스병
-B. 말라리아
-C. 록키산 홍반열
-D. 지카 바이러스 감염
+A. 남성에게 발열이 생기는 경우에만 예방 조치를 한다
+B. 여행을 다녀오지 않은 배우자는 별도 예방이 필요 없다
+C. 임신 기간 성관계를 피하거나 매번 콘돔을 사용한다
+D. 혈청검사 한 번이 음성이면 바로 예방을 중단한다
 
 ## 해설
 
 
-브라질 방문 뒤 3–14일 잠복기에 부합하는 발열·관절통·결막충혈과 몸통/근위부 반구진 발진은 선택지 중 Zika D가 가장 잘 맞는다. 발진은 본문대로 기술하며 비대칭 말단 발진으로 바꾸지 않는다. 혈정액이나 청력 변화만으로 확진할 수 없고 덩기열·치쿤구니야 등 여행 관련 감염도 감별한다. 혈액도말 음성 하나만으로 모든 말라리아를 배제하는 것도 아니며 확진에는 적절한 바이러스 검사가 필요하다.
+증상이 없는 여행자도 성접촉으로 감염을 전달할 수 있다. 배우자가 임신 중이면 노출을 줄이기 위해 임신 기간 내내 성관계를 피하거나 장벽 보호를 사용한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 지카 바이러스 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002542
+- https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/zika.html

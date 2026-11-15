@@ -19,6 +19,7 @@ related_disease_slugs:
 question_type: investigation
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 31세 여성이 4시간 전부터 시작된 갑작스럽고 심한 심와부 통증과 구토로 응급실에 왔다. 동네 수제맥주집에서 저녁 식사와 술을 마시던 중 통증이 시작되었으며 등으로 방사된다고 한다. 체온 37.9°C, 맥박 98회/분, 호흡 19회/분, 혈압 110/60 mmHg이다. 복부검사에서 심와부 압통과 경직이 있으나 반발통은 없다. 장음은 감소되어 있다. 헤마토크릿 43%, 백혈구 9,000/mm³, 나트륨 140 mEq/L, 칼륨 4.5 mEq/L, 칼슘 9.0 mg/dL, 리파아제 170 U/L(정상 <50), 아밀라아제 152 U/L, ALT 140 U/L이다. 정맥 수액 소생을 시작했다. 다음 중 가장 적절한 치료의 다음 단계는?
+이전에 건강했던 31세 여성이 4시간 전부터 시작된 갑작스럽고 심한 심와부 통증과 구토로 응급실에 왔다. 동네 수제맥주집에서 저녁 식사와 술을 마시던 중 통증이 시작되었으며 등으로 방사된다고 한다. 체온 37.9°C, 맥박 98회/분, 호흡 19회/분, 혈압 110/60 mmHg이다. 복부검사에서 심와부 압통과 경직이 있으나 반발통은 없다. 장음은 감소되어 있다. 헤마토크릿 43%, 백혈구 9,000/mm³, 나트륨 140 mEq/L, 칼륨 4.5 mEq/L, 칼슘 9.0 mg/dL, 리파아제 170 U/L(정상 <50), 아밀라아제 152 U/L, ALT 140 U/L이다. 정맥 수액 소생을 시작했다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

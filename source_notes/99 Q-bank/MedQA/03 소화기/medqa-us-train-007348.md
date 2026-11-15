@@ -16,11 +16,11 @@ related_diseases:
   - "장내 세균총"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-qxsOynk-uniSDqsrDsnqXsl7wgKFBzZXVkb21lbWJyYW5vdXMgQ29saXRpcykubWQ
-question_type: mechanism
+question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-72세 남자가 복통, 설사, 발열로 응급실에 내원했다. 2주 전 지역사회획득 폐렴으로 레보플록사신을 시작했고 폐 증상은 호전되었다. 20년 동안 고혈압이 있어 암로디핀을 복용한다. 체온은 38.3°C(101.0°F), 맥박 90회/분, 혈압 110/70 mmHg이다. 복부가 약간 팽창되어 있고 압통은 거의 없다. 검사에서 말초 백혈구 수는 12,000/mm³이고 대변 구아이악검사는 잠혈에 약한 양성이다. 이 환자 질환의 기전을 가장 잘 설명하는 것은 무엇인가?
+폐렴으로 항생제를 복용한 72세 남성이 하루 여섯 차례의 새 수양성 설사와 복통을 호소한다. 최근 완하제를 쓰지 않았다. C. difficile 감염을 평가할 가장 적절한 검사는?
 
 ## 선택지
 
-A. 정상 장내 세균총의 파괴와 포자 형성 막대균 감염
-B. 직장의 자가면역성 염증
-C. 위장관으로 가는 혈류 감소
-D. 장관 내 삼투활성 및 흡수가 잘 되지 않는 용질의 존재
+A. 묽은 대변으로 GDH와 독소 EIA를 검사하고 불일치하면 NAAT를 추가
+B. 형태가 잡힌 대변에서 GDH만 확인
+C. 대변 잠혈검사와 칼프로텍틴 측정
+D. 혈청 C. difficile 항체검사
 
 ## 해설
 
 
-레보플록사신 같은 항생제는 장내 정상균총을 파괴하고, 포자를 형성하는 클로스트리디움 디피실이 과증식해 독소를 생성한다. 이는 항생제 관련 설사의 주요 기전이다. 따라서 정답은 A이다.
+뚜렷한 원인 없이 새로 시작한 묽은 변이 하루 3회 이상이면 감염을 고려한다. GDH·독소 검사 후 불일치할 때 NAAT를 추가하는 단계적 전략은 독소를 만드는 균의 단순 보균과 증상이 있는 감염을 구별하는 데 도움이 된다.
 
 ## 검수 근거
 
@@ -63,3 +63,5 @@ D. 장관 내 삼투활성 및 흡수가 잘 되지 않는 용질의 존재
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007348
+- https://doi.org/10.5145/ACM.2024.27.1.2
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13714433/

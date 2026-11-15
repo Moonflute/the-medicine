@@ -28,7 +28,7 @@ explanation_model: openai/gpt-oss-120b
 explanation_prompt_version: explanation-ko-v1
 medical_review_status: "content-reviewed"
 medical_reviewed_at: 2026-10-25
-publication_status: "published"
+publication_status: "withheld"
 publication_reason: "직접 재검수 후 복구: 원래 심부전 사례·RAAS 목표를 유지하고 질문을 신세뇨관 반응으로 한정하여 GFR 저하도 참일 수 있는 이중정답을 교정했다."
 curation_status: "revised"
 curation_reason: "원래 심부전 사례·RAAS 목표를 유지하고 질문을 신세뇨관 반응으로 한정하여 GFR 저하도 참일 수 있는 이중정답을 교정했다."

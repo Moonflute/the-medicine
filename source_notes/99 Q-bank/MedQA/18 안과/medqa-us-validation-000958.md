@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTgg7JWI6rO8L-qyieuLpOuemOuBvCAoZXh0ZXJuYWwgaG9yZGVvbHVtKS5tZA
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-44세 여성이 3일간 왼쪽 눈 아래의 통증과 부종, 과도한 눈물로 진료를 받으러 왔다. 왼쪽 눈 안쪽 눈구석 아래에 발적, 압통, 열감과 부종이 있고 부은 부위를 누르면 아래 눈물점에서 고름이 나온다. 분비물을 배양으로 보냈다. 가장 적절한 다음 처치는?
+44세 환자의 왼쪽 안쪽 눈구석 아래가 붉고 아프게 부었다. 눈물점에서 고름이 나오지만 시력과 안구운동은 정상이고 열은 없다. 급성 눈물주머니염의 초기 치료는?
 
 ## 선택지
 
-A. 국소 시프로플록사신
-B. 눈물소관 세척
-C. 경구 아목시실린-클라불란산 치료
-D. 안와 CT
+A. 점안 항생제만 사용한다
+B. 급성기 눈물길을 반복적으로 탐침한다
+C. 저절로 사라질 때까지 무조건 관찰한다
+D. 경구 전신 항균치료를 시작하고 안과 추적을 정한다
 
 ## 해설
 
 
-급성 누낭염은 포도상구균 등으로 인한 감염이며, 경구 아목시실린‑클라불란산이 1차 치료제로 권장된다. 따라서 정답은 C이다.
+국소 급성 눈물주머니염은 경구 전신 항균제가 필요할 수 있다. 안구운동통, 시력 저하, 전신 악화가 생기면 깊은 감염으로 응급 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000958
+- https://eyeandear.org.au/wp-content/uploads/2021/08/Dacryocystitis-Clinical-Practice-Guideline.pdf

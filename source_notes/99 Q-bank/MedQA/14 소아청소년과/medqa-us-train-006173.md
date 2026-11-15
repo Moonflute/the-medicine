@@ -13,11 +13,11 @@ related_diseases:
   - "로타바이러스 감염"
   - "소아 급성 위장염"
   - "예방접종 미시행"
-question_type: diagnosis
+question_type: prevention
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7ISk7IKsIChEaWFycmhlYSkubWQ
 difficulty: standard
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-어머니가 4세 아들을 악취 나는 설사, 복부 경련 및 발열이 7일 동안 지속되어 데려왔다. 구토도 있어 매우 걱정하고 있다. 아이는 어린이집에 다니며 가족과 친구에게서 감염된 사람이 있었다. 예방접종을 하지 않았고 신체검사에서 탈수되어 보인다. 대변검사에서 혈액세포, 고름 및 기생충은 음성이다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+생후 10주 영아가 접종하러 왔다. 2주 전 장중첩증을 공기 관장으로 정복받아 지금은 건강하다. 로타바이러스 백신 접종에 맞는 계획은?
 
 ## 선택지
 
-A. 크립토스포리디움증
-B. 과민성 장증후군
-C. 노로바이러스 감염
-D. 로타바이러스 감염
+A. 접종 약제를 바꿔 예정대로 로타바이러스 백신을 투여
+B. 절반 용량만 투여
+C. 장중첩증 병력으로 로타바이러스 백신은 투여하지 않고 다른 접종은 검토
+D. 이 병력 때문에 모든 영아 백신을 중단
 
 ## 해설
 
-미접종 4세 소아의 구토·발열·약 1주간 수양성 설사와 탈수는 보기 중 로타바이러스 감염(D)에 부합한다. 로타바이러스 증상은 보통 수일에서 약 1주 이상 지속될 수 있다. 임상 양상만으로 바이러스를 확정하지 않으며 노로바이러스 등도 감별한다.
+장중첩증 병력은 로타바이러스 백신의 금기다. 이는 로타바이러스 백신에 대한 판단이며 다른 백신을 일률적으로 미룰 이유는 아니다.
 
 ## 검수 근거
 
@@ -57,3 +57,5 @@ D. 로타바이러스 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006173
+- https://www.kdca.go.kr/bbs/kdca/55/305179/download.do
+- https://www.cdc.gov/rotavirus/hcp/vaccine-considerations/index.html

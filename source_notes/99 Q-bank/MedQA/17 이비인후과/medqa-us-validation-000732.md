@@ -13,7 +13,7 @@ related_diseases:
   - "편도인두암"
   - "두경부 편평세포암"
   - "범내시경검사"
-question_type: investigation
+question_type: management
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: complex
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-56세 남성이 5개월간의 인후통과 연하곤란, 3개월간의 왼쪽 귀 통증으로 진료를 받으러 왔다. 흡연과 음주력이 있고 왼쪽 경부 림프절병증과 3 cm 궤양성 편도 종괴가 보인다. 가장 적절한 초기 처치는?
+56세 환자에게 수개월간 한쪽 인후통, 연하곤란과 귀 통증이 있다. 귀 진찰은 정상이나 같은 쪽 편도에 궤양성 종괴와 단단한 경부 림프절이 만져진다. 다음 조치는?
 
 ## 선택지
 
-A. 비인두경검사
-B. 범내시경검사
-C. 바륨 연하검사
-D. 후두경검사
+A. 중이염으로 보고 경구 항생제만 처방한다
+B. 두경부암이 의심돼 신속히 전문의에 의뢰하고 조직 진단을 진행한다
+C. 역류로 판단해 제산제 반응만 본다
+D. 정기 청력검사만 예약한다
 
 ## 해설
 
-오래 지속된 인후통·연하곤란, 정상 귀 검사에서의 연관통성 이통, 궤양성 편도 종괴와 경부 림프절은 구인두암을 강하게 의심하게 한다. 제시된 선택지에서는 B, 범내시경 평가가 병변 범위와 동시성 상부 기도·소화관 병변을 평가하고 생검을 계획하는 데 적절하다. 암 확진에는 종괴의 조직검사가 필요하며, 이 선택이 모든 환자에서 진찰·유연 내시경·영상 및 조직검사의 실제 순서를 일률적으로 고정한다는 뜻은 아니다.
+정상 이경 소견의 지속성 편측 이통에 편도 종괴와 경부 림프절이 있으면 구인두암을 의심한다. 병변 조직검사를 포함한 두경부 평가를 지연하지 않는다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 후두경검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000732
+- https://www.nice.org.uk/guidance/ng12/chapter/Recommendations-organised-by-site-of-cancer

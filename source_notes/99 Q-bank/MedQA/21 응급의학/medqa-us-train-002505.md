@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-45세 여성이 교통사고 후 응급실에 왔다. 안전벨트를 착용한 승객으로 약 45 mph로 달리던 음주운전 차량과 충돌했다. 의식은 명료하고 GCS 15점이며 경추 보호대를 착용하고 있지만 경추를 누르면 극심한 압통이 있다. 오른쪽 하지의 표재성 찰과상 외 FAST와 나머지 검사는 정상이다. 다음 중 가장 적절한 치료의 다음 단계는?
+45세 여성이 교통사고 뒤 목 한가운데가 아프다. 의식은 명료하고 팔다리 힘과 감각은 정상이지만 경추 정중선을 누르면 심한 압통이 있다. 경추를 보호하면서 우선 시행할 영상검사는?
 
 ## 선택지
 
-A. 경추 CT
-B. 즉시 경추 보호대를 제거한다
-C. 귀가시켜 물리치료를 시작한다
-D. 신속 연속 기관삽관을 시행한다
+A. 경추 비조영 CT
+B. 흉부 단순촬영
+C. 요추 MRI
+D. 뇌 CT만 시행
 
 ## 해설
 
 
-경추 압통은 골절·탈구 가능성을 시사한다. 임상적으로 경추 손상이 의심될 때는 방사선학적 평가가 필수이며, CT가 골절을 가장 정확히 진단한다. 따라서 다음 단계는 경추 CT 촬영이다.
+성인 둔상 뒤 경추 정중선 압통이 있으면 신경학적 결손이 없어도 골절을 영상으로 확인한다. 영상이 필요할 때 비조영 경추 CT가 초기 검사로 적합하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002505
+- https://acsearch.acr.org/docs/69359/Narrative/

@@ -18,9 +18,9 @@ question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv65Kk7IS8IOq3vOuUlOyKpO2KuOuhnO2UvCAoRHVjaGVubmUgTXVzY3VsYXIgRHlzdHJvcGh5KS5tZA
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-6세 남아가 근력저하로 소아과에 내원했다. 어머니는 아이가 달리거나 계단을 오르기 어렵고 4세부터 누운 자세에서 일어나려 할 때 가벼운 근력저하가 있었다고 한다. 낙상으로 팔과 다리 골절을 겪은 병력이 있다. 진찰에서 아이는 고통스러워 보이지 않고 대화가 가능하다. 오리걸음과 허리 전만, 양측 종아리 비대가 있으며 바닥에서 일어날 때 손으로 몸을 밀어 올린다. 슬개건반사와 발목반사가 소실되어 있다. 다음 중 진단을 확인하기 위한 가장 적절한 다음 단계는?
+6세 남아가 DMD 유전자 검사로 뒤시엔 근이영양증을 진단받았다. 숨참이나 두근거림은 없고 심장 청진도 정상이다. 진단 직후에도 필요한 평가는?
 
 ## 선택지
 
-A. 근전도검사
-B. 유전자검사
-C. 근육생검
-D. 혈청 크레아틴키나아제 수치
+A. 심장 증상이 나타난 뒤 심전도와 심장 영상을 한다
+B. 흉부 X선이 정상이면 심장 검사는 생략한다
+C. 기준 심전도와 심장 영상을 시행하고 정기 추적을 계획한다
+D. 격한 운동 뒤 심근효소 검사만 시행한다
 
 ## 해설
 
 
-Duchenne 근이영양증은 dystrophin 유전자 돌연변이로 진단되며, 확진을 위해 유전자 검사가 가장 적절한 다음 단계이다. 근전도·생검은 보조적이지만 유전자 검사로 확진이 가능하다.
+뒤시엔 근이영양증은 증상 없이 심근병증이 진행할 수 있다. 진단할 때 심전도와 심초음파 또는 심장 MRI로 기준 상태를 평가하고 정기적으로 추적한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002796
+- https://pubmed.ncbi.nlm.nih.gov/29395990/

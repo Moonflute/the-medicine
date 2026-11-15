@@ -16,9 +16,9 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Y-Q66C0IChQbmV1bW9uaWEpLm1k
-question_type: prevention
+question_type: management
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-겸상적혈구빈혈이 있는 8세 남아가 고열, 생산성 기침, 피로와 저혈압, 저산소증, 왼쪽 폐기저부 수포음으로 내원했다. 혈색소 8.1 g/dL, 백혈구 17,000/mm³이다. 다음 중 이 상태를 예방했을 가능성이 가장 높은 것은?
+겸상적혈구병으로 입원한 8세 아이가 이튿날 발열, 흉통과 기침을 보인다. 산소포화도는 98%에서 90%로 낮아졌고 흉부 X선에 새 침윤이 보인다. 가장 적절한 판단은?
 
 ## 선택지
 
-A. 만성 수혈치료
-B. 다당질 백신
-C. 엽산
-D. 저분자량 헤파린
+A. 통증 위기의 연장이므로 진통제만 늘린다
+B. 저산소증이 있으므로 폐렴 여부와 무관하게 폐색전증으로 확진한다
+C. 소아 폐렴에서는 새 침윤이 겸상적혈구병과 관련되지 않는다
+D. 급성 흉부증후군으로 보고 산소·경험적 항생제와 수혈 필요성을 평가한다
 
 ## 해설
 
 
-SCD의 기능적 무비장 상태는 폐렴구균 등 피막균의 침습 감염에 취약하다. 고열·폐렴·쇼크 의심 상황을 예방하는 선택지로 B의 폐렴구균 피막 다당 항원에 대한 예방접종이 가장 부합한다. 현행 실제 접종은 과거 접종력에 따라 PCV 및 필요시 PPSV23을 사용하며 PPSV 단독이 모든 상황의 완전한 접종 요법이라는 뜻은 아니다. 감염 이외에도 원인이 있는 모든 급성흉부증후군을 백신이 예방한다고 일반화하지 않는다.
+겸상적혈구병에서 새 폐침윤과 호흡기 증상·저산소증은 급성 흉부증후군에 부합한다. 감염이 촉발 요인일 수 있어 치료하며, 산소화 악화나 중증도에 따라 수혈을 고려한다.
 
 ## 검수 근거
 
@@ -62,3 +62,5 @@ SCD의 기능적 무비장 상태는 폐렴구균 등 피막균의 침습 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005582
+- https://www.nhlbi.nih.gov/sites/default/files/publications/56-364NFULL.pdf
+- https://b-s-h.org.uk/guidelines/guidelines/management-of-acute-chest-syndrome-in-sickle-cell-disease

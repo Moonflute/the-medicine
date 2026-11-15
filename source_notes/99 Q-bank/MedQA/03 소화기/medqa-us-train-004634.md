@@ -15,7 +15,7 @@ related_diseases:
   - "복수천자"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_snpDrsJzshLEg7IS46regIOuzteunieyXvCAoU3BvbnRhbmVvdXMgQmFjdGVyaWFsIFBlcml0b25pdGlzKS5tZA
-question_type: management
+question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-45세 노숙자가 응급실에 이송되었다. 공원에서 의식이 없는 채 발견되었다. 정맥주사 약물 남용, C형간염, 알코올 남용, 조현병과 우울증 병력이 있다. 정기적인 진료를 받지 않는다. 체온은 102°F (38.9°C), 혈압은 97/68 mmHg, 맥박은 분당 120회, 호흡수는 분당 22회, 산소포화도는 98%이다. 신체검사에서 복부가 전반적으로 팽창되어 있고 타진 시 둔탁하며 액체 파동이 뚜렷하다. 복부검사에서 사지가 수축할 정도로 아파한다. 심장과 폐 진찰은 정상이다. 통증 자극에는 반응하고 술 냄새가 심하게 난다. 다음 중 관리에서 가장 적절한 단계는 무엇인가?
+C형간염 간경변과 복수가 있는 45세 남성이 발열과 새 복통으로 응급실에 왔다. 이전과 달리 복부 전반에 압통이 있다. 초기 소생 중이며 초음파에서 안전하게 천자할 수 있는 복수가 확인됐다. 자발성 세균성 복막염을 확인할 검사는?
 
 ## 선택지
 
-A. 세포탁심
-B. 세프트리악손
-C. 복수천자
-D. 초음파
+A. 복부 단순 X선
+B. 상부위장관 내시경
+C. 복수천자로 호중구 수와 배양을 확인한다
+D. 혈액배양이 음성이면 복막염을 배제한다
 
 ## 해설
 
-복수 환자에서 발열·복통·의식저하는 SBP를 의심하게 하므로 C의 진단적 복수천자로 세포수/PMN과 배양을 확인한다. 이는 단순 치료적 대량배액이 아니다. 패혈증 소생과 경험적 항생제도 신속히 시행하며 검체 채취가 지연된다고 항생제를 늦추지 않는다.
+간경변성 복수 환자에게 발열, 복통 또는 의식 변화가 있으면 진단적 복수천자를 신속히 한다. 복수 호중구가 250개/mm³ 이상이면 다른 복강 내 감염원 여부와 함께 자발성 세균성 복막염을 판단한다. 패혈증이면 검체 채취가 지연된다고 항생제 투여를 늦추지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 초음파
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004634
+- https://doi.org/10.3350/cmh.2026.0281

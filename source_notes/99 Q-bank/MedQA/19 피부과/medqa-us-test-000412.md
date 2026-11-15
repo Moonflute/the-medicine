@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_shYDrpqzslYXrs5EgKENlbGlhYyBEaXNlYXNlKS5tZA
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-8세 여아가 엉덩이에 심한 가려움이 있는 병변으로 소아과에 왔다(그림 참조). 병변은 간헐적으로 나타나지만 시간이 지나며 악화되었다. 철결핍으로 황산철을 복용 중이며 간헐적인 경미한 설사가 있어 이전에 유당불내증으로 진단받았다. 키는 연령과 성별 기준 30백분위수, 체중은 25백분위수였다. 면역글로불린 A 조직 트랜스글루타미나제 역가는 정상 상한의 5배였다. 다음 중 이 상태의 가장 가능성 높은 원인은?
+8세 여아가 반복되는 설사, 철결핍과 심하게 가려운 엉덩이 발진으로 내원했다. 혈청 IgA 조직 트랜스글루타미나제 항체가 정상 상한의 5배다. 가장 가능성 높은 기저질환은?
 
 ## 선택지
 
@@ -46,7 +47,7 @@ D. 헤노흐-쇤라인 자반증
 
 ## 해설
 
-철결핍·간헐적 설사·소양성 엉덩이 병변과 상승한 IgA tTG는 셀리악병(B)과 그 피부 표현인 포진피부염을 시사한다. 포진피부염은 일반 두드러기와 같은 질환이 아니다. 사진은 없지만 장질환·혈청검사 단서로 원인선택이 가능하다. tTG가 정상상한5배라는 결과 하나만으로 모든 소아에서 생검 없이 확진되는 것은 아니다.
+철결핍과 설사, 가려운 발진에 IgA 조직 트랜스글루타미나제 항체 상승이 동반되면 셀리악병을 의심한다. 포진피부염이 피부 소견으로 동반될 수 있다. 이 항체 수치 하나만으로 확진하지는 않는다.
 
 ## 검수 근거
 

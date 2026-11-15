@@ -14,11 +14,11 @@ related_diseases:
   - "산후 뇌하수체 괴사"
   - "뇌하수체 허혈"
   - "산후 저혈당"
-question_type: mechanism
+question_type: diagnosis
 related_disease_slugs:
   - MTIg7IKw6rO8L-qzvOyImeyehOyLoCAoUG9zdC10ZXJtIFByZWduYW5jeSkubWQ
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-가정분만 중 심한 주산기 질 출혈로 입원한 지 이틀 후, 40세 여성(G3P3)이 30초간 전신 경련을 한 뒤 의식을 잃었다. 사건 전 급작스러운 발한과 조절되지 않는 오한을 호소했다. 혈역학적으로 불안정하여 중환자실에서 수 리터의 정맥 수액과 농축적혈구 5단위를 투여받았다. 이전 두 번의 임신(33세와 35세)은 합병증이 없었다. 그 외에는 건강했고 입원 전 유일한 약물은 매일 복용한 산전 비타민이었다. 체온은 37.5°C(99.5°F), 맥박은 120회/분, 호흡수는 18회/분, 혈압은 101/61 mmHg, 실내 공기 산소포화도는 96%이다. 양쪽 유방에서 젖이 거의 나오지 않는다. 손가락 채혈 혈당은 36 mg/dL이다. 이 환자의 상태를 일으킨 가장 가능성 높은 원인은 무엇인가?
+대량 산후출혈과 쇼크로 치료받은 산모가 수주 뒤 젖이 나오지 않고 반복적으로 저혈당을 보인다. 유리 T4와 아침 코르티솔은 낮고 TSH·ACTH는 그에 비해 높지 않다. 원인은?
 
 ## 선택지
 
-A. 젖분비성 선종
-B. 갑상선기능저하
-C. 뇌하수체 허혈
-D. 시상하부 경색
+A. 산후 자가면역 갑상샘염만 발생
+B. 뇌하수체 허혈성 손상(시한증후군)
+C. 젖분비 호르몬 분비 뇌하수체 종양
+D. 일차 부신기능저하증만 발생
 
 ## 해설
 
-심한 주산기 출혈과 순환 저하 이후 젖 분비 감소 및 중증 저혈당이 나타나므로 시한증후군의 뇌하수체 허혈(C)이 가장 적절하다. 뇌하수체 손상으로 프로락틴이 감소하면 수유가 저하되고, ACTH 부족에 따른 코르티솔 결핍은 저혈당에 기여할 수 있다. 혈당 36 mg/dL은 발한·떨림·경련·의식 소실을 설명한다. 저혈당이나 입증되지 않은 저인슐린이 먼저 뇌하수체 허혈을 일으켰다는 순서가 아니다.
+대량 출혈 뒤 젖 분비 실패와 여러 뇌하수체 호르몬의 결핍은 시한증후군을 시사한다. ACTH·코르티솔 결핍은 저혈당과 저혈압을 일으킬 수 있어 신속히 평가하고 치료한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 시상하부 경색
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007092
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11762620/

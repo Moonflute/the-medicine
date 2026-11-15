@@ -13,11 +13,11 @@ related_diseases:
   - "antisocial personality disorder"
   - "conduct disorder"
   - "impulsivity"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2SiO2WiSDsnqXslaAgKENvbmR1Y3QgRGlzb3JkZXIpLm1k
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,24 +34,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-24세 남자가 전완에 상처를 입고 내원했다. 유리문에 부주의하게 부딪혀 다쳤다고 한다. 건강보험이 없고 지난 8개월 동안 직장을 5개나 바꾸었으며 3~4주 후 일이 자신에게 못 미친다며 그만두었다. 6년 전 신용카드 사기로 수감되었고 1년 전 가석방되었다. 13세에 학교 물건을 훔치고 교사를 폭행하겠다고 위협해 퇴학당했다. 네 명의 여성과 여섯 명의 자녀가 있지만 양육비 대신 자신의 비용에 돈을 쓴다. 좌측 전완에 가장자리가 깔끔한 6×0.5 cm 상처와 여러 멍이 있다. 정신상태검사는 정상이다. 가장 가능성 높은 진단은?
+24세 환자에게 성인기부터 반복되는 기만, 타인의 권리 침해와 무책임한 행동이 있다. 이러한 행동은 조증이나 물질 사용 중에만 나타난 것이 아니다. DSM 기준으로 반사회성 성격장애를 진단하기 전에 반드시 확인할 과거력은?
 
 ## 선택지
 
-A. 간헐적 폭발장애
-B. 적대적 반항장애
-C. 반사회성 인격장애
-D. 자기애성 인격장애
+A. 15세 이전에 시작된 품행장애의 증거
+B. 성인기 첫 우울 삽화
+C. 가까운 가족의 동일 진단
+D. 적어도 한 차례의 수감 기록
 
 ## 해설
 
 
-반사회성 인격장애는 지속적인 법·사회 규범 위반, 사기·폭력 행위, 책임감 결여 등으로 특징지어지며, 환자의 과거 행동이 이를 시사한다.
+반사회성 성격장애는 18세 이상에서 진단하며 15세 이전에 품행장애가 있었음을 뒷받침하는 정보가 필요하다. 법적 처벌을 받았는지만으로 진단하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008293
+- https://www.ncbi.nlm.nih.gov/books/NBK546673/
 
 ## 검수 근거
 

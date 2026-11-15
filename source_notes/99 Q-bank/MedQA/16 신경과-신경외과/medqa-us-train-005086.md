@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rsJzsnpEgKFNlaXp1cmUpLm1k
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강하던 10세 남아가 발작 후 응급실에 왔다. 갑작스러운 메스꺼움과 번쩍이는 불빛을 본 뒤 입가와 얼굴이 떨렸고, 큰 소리를 지른 후 의식을 잃어 팔다리를 약 2분간 경련했다. 병원으로 오는 동안 의식은 회복되었으나 5분간 혼란스럽고 말을 명확히 하지 못했다. 다음 중 가장 가능성 높은 진단은?
+10세 아이의 오른쪽 입가가 먼저 반복해서 떨리기 시작했다. 잠시 뒤 의식을 잃고 양쪽 팔다리에 강직과 간대가 이어졌다. 이 발작의 분류는?
 
 ## 선택지
 
-A. 국소발작에서 양측 강직간대성 발작으로 진행
-B. 경련성 실신
-C. 시든햄 무도병
-D. 전신 강직간대성 발작
+A. 처음부터 전신 강직간대발작
+B. 국소에서 양측 강직간대발작으로 진행
+C. 전형 결신발작
+D. 경련성 실신
 
 ## 해설
 
-메스꺼움·번쩍이는 빛이라는 초기 주관 증상 뒤 입꼬리·얼굴의 국소 경련이 먼저 나타나고, 이후 의식소실과 양측 사지 강직간대성 경련으로 퍼졌다. 따라서 국소발작에서 양측 강직간대성 발작으로 진행(A)이 가장 적절하다. 발작후 혼란도 이를 지지한다. 전신 강직간대성 발작(D)처럼 양측에서 처음부터 동시에 시작한 것으로 설명하면 초기 국소 증상을 놓치게 된다.
+한쪽 얼굴에서 뚜렷한 국소 운동 증상이 먼저 시작한 뒤 양측 강직간대로 퍼졌다. 시작부터 양측 네트워크를 침범하는 전신 발작과 구분한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 전신 강직간대성 발작
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005086
+- https://pubmed.ncbi.nlm.nih.gov/40264351/

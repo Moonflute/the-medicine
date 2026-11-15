@@ -15,11 +15,11 @@ related_diseases:
   - "citrate toxicity from transfusion"
 related_disease_slugs:
   - MDQg64K067aE67mEL-yggOy5vOyKmO2YiOymnSAoSHlwb2NhbGNlbWlhKS5tZA
-question_type: mechanism
+question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-감염된 인공관절로 오른쪽 고관절 재치환술을 받은 지 12시간 된 74세 남자가 손끝과 입 주변의 저림을 호소한다. 수술 중 심한 출혈이 있었다. 2년 전 오른쪽 고관절 전치환술을 받았고 고혈압과 제2형 당뇨병이 있다. 아버지는 부갑상선기능저하증이 있었다. 체온 37.3°C, 맥박 90회/분, 혈압 110/72 mmHg이다. 엄지가 모아지고 중수지관절과 손목이 굽으며 손가락이 펴져 있다. 귓불 앞쪽 2 cm를 두드리면 안면근이 수축한다. 증상의 가장 가능성 높은 원인은 무엇인가?
+고관절 수술 중 대량 수혈을 받던 74세 환자에게 입 주위 저림과 수근경련이 생겼다. 총 칼슘보다 지금 생리적으로 활성인 칼슘이 낮은지 가장 직접 확인할 검사는?
 
 ## 선택지
 
-A. 다량의 수혈
-B. 부갑상선기능저하증
-C. 비타민 B12 결핍
-D. 말초신경 손상
+A. 혈중 이온화 칼슘
+B. 소변 칼슘 배설량
+C. 혈청 25-하이드록시 비타민 D
+D. 혈청 부갑상선호르몬
 
 ## 해설
 
 
-대량 수혈 시 혈액에 포함된 시트레이트가 급성 저칼슘혈증을 일으켜 근육 경련과 테타니 증상을 유발한다. 환자의 증상은 저칼슘성 테타니와 일치한다. 따라서 가장 가능성 높은 원인은 다량의 수혈이다.
+수혈제의 구연산이 칼슘과 결합하면 이온화 칼슘이 급히 낮아질 수 있다. 대량 수혈 중에는 이온화 칼슘을 직접 확인해 보충 여부를 판단한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 말초신경 손상
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009397
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9977110/

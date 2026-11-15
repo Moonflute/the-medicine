@@ -14,11 +14,11 @@ related_diseases:
   - "임신 중 간질"
   - "folic acid supplementation"
   - "Epilepsy"
-question_type: prevention
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rh4zsoITspp0gKEVwaWxlcHN5KS5tZA
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 여성이 국소 발작을 동반한 간질로 5년째 라모트리진 50 mg을 하루 세 번 복용하며 발작이 없다. 다른 질환이나 약물은 없고 경구피임약을 사용한다. 임신을 고려해 치료 조정에 대한 조언을 구한다. 어떤 변경이 필요한가?
+23세 환자가 라모트리진으로 수년째 국소발작 없이 지내며 임신을 준비한다. 임신 전 항발작약과 엽산에 대한 상담으로 적절한 것은?
 
 ## 선택지
 
-A. 라모트리진을 하루 두 번 50 mg으로 감량
-B. 항간질약은 변경하지 않고 엽산 5 mg 매일 권고
-C. 항간질약은 변경하지 않고 비타민 K 100 μg 매일 권고
-D. 변경이나 추가는 필요하지 않음
+A. 임신을 시도하기 전에 라모트리진을 임의로 끊는다
+B. 태아에 더 안전하므로 발프로산으로 바꾼다
+C. 임신 확인 뒤에만 엽산을 시작하고 약물 평가를 하지 않는다
+D. 발작 조절을 유지하며 임신 전부터 엽산을 복용하고 약물 농도·발작을 추적한다
 
 ## 해설
 
-임신 계획에서는 발작이 조절되는 lamotrigine을 임의로 감량·중단하지 않고 엽산을 추가하는 B가 보기 중 적합하다. 영국 NICE는 항발작약 복용 등 고위험군에서 임신 전~초기 5mg/일을 권고한다. AAN/AES/SMFM은 적어도 0.4mg/일을 권고하며 최적 고용량은 확정되지 않아 지역 지침과 개별 위험에 맞춘다. 피임약 중단 및 임신 중 청소율 변화가 lamotrigine 농도에 영향을 줄 수 있으므로 혈중농도·발작과 용량을 전문적으로 추적한다.
+발작이 잘 조절되는 약을 독단적으로 끊지 않는다. 임신 전부터 엽산을 권고하고, 라모트리진 농도가 임신 중 달라질 수 있어 임신 전 기준치와 경과를 활용한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 변경이나 추가는 필요하지 않음
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009710
+- https://pubmed.ncbi.nlm.nih.gov/38748979/

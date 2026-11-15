@@ -16,7 +16,7 @@ related_diseases:
   - "endoscopic therapy"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2PkCDshKDslZQgKEFkZW5vY2FyY2lub21hKS5tZA
-question_type: management
+question_type: investigation
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-58세 남성이 12년간 반복된 속쓰림으로 내원했다. 최근 1년간 밤에 악화되는 기침도 있었다. 상부 내시경에서 위식도접합부에서 2 cm 떨어진 원주상 상피가 보였고, 생검에서 저등급 이형성과 장상피화생이 확인되었다. 다음 중 가장 적절한 다음 처치는?
+오래된 역류 증상이 있는 58세 남성의 내시경에서 위식도 접합부 위로 2 cm 길이의 바렛 식도가 보인다. 눈에 띄는 결절은 없고 첫 생검에서 저도 이형성이 보고됐다. 내시경 치료 여부를 정하기 전에 할 일은?
 
 ## 선택지
 
-A. 18개월 후 내시경을 반복한다
-B. 내시경적 치료
-C. 오메프라졸, 클라리스로마이신, 메트로니다졸 치료
-D. 외부 방사선 치료
+A. 18개월 뒤 내시경만 반복
+B. 소화기 전문 병리의에게 조직 판독 재검토 의뢰
+C. 재검토 없이 바렛 식도 전 구간 절제
+D. 헬리코박터 제균요법 시행
 
 ## 해설
 
-Barrett 식도에서 저등급 이형성이 있으면 전문가 병리 재검토로 확진하고 내시경적 제균치료 B와 적절한 감시의 위험·편익을 논의한다. 치료를 택할 경우 보이는 병변은 먼저 내시경 절제하고 남은 평탄 Barrett 점막은 ablation을 적용할 수 있다. 모든 Barrett 구간을 EMR/ESD로 절제한다는 기존 설명은 잘못이다. 18개월 뒤 단순 재검은 확인된 LGD의 적절한 초기 감시계획이 아니다.
+바렛 식도의 저도 이형성은 염증성 변화와 혼동되기 쉬워 전문 병리의 검토로 확인한다. 확인되면 내시경 제거 치료와 면밀한 추적의 장단점을 논의한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ Barrett 식도에서 저등급 이형성이 있으면 전문가 병리 재검토
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003454
+- https://pubmed.ncbi.nlm.nih.gov/41125322/

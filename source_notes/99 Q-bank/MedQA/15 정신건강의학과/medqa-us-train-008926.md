@@ -13,11 +13,11 @@ related_diseases:
   - "opioid false positive"
   - "poppy seed ingestion"
   - "opioid intoxication"
-question_type: other
+question_type: investigation
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yVhO2OuOycoOyCrOygnCDspJHrj4UgKE9waW9pZCBQb2lzb25pbmcpLm1k
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,23 +36,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여성이 직장에서 요구한 소변 약물검사에 양성이 나온 이유를 모르겠다며 가정의학과에 내원했다. 특별한 과거력이나 복용약은 없고 흡연, 음주, 기분전환용 약물 사용을 부인한다. 최근 식단을 바꿔 2주 동안 케톤식이를 하면서 탄수화물 공급원으로 양귀비씨 베이글만 먹었다. 활력징후와 신체검사는 정상이다. 실제로 검사에서 양성이 나온 약물을 남용했다면 나타날 수 있는 신체 소견은 무엇인가?
+만성통증으로 추적 중인 환자의 소변 오피오이드 선별검사에서 설명되지 않는 양성이 나왔다. 환자에게 급성 중독 소견은 없다. 중요한 치료 결정을 내리기 전에 할 일은?
 
 ## 선택지
 
-A. 동공축소
-B. 무한증
-C. 빈호흡
-D. 근육통
+A. 선별검사만으로 사용장애를 확진한다
+B. 양성 농도로 최근 복용량을 추정한다
+C. 같은 면역검사 결과가 두 번 양성이면 개별 약물이 확인된 것으로 본다
+D. 약물 이력과 검사 한계를 검토하고 필요한 경우 특이적 확인검사를 한다
 
 ## 해설
 
-양귀비씨 음식 섭취는 검사 조건에 따라 오피에이트 양성 해석에 영향을 줄 수 있다. 질문은 이 환자가 실제로 그 약물군을 남용·중독한 경우의 소견을 가정하므로, 제시된 선택지 중 오피오이드 중독의 동공축소가 적절하다. 음식 섭취 후 검사 양성만으로 이 환자의 남용이나 임상적 동공축소를 확정하는 것은 아니다.
+면역 선별검사 양성만으로 특정 약물, 복용량, 기능 저하 또는 사용장애를 확정할 수 없다. 결과가 치료를 바꾸면 질량분석법 등 특이적 방법으로 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008926
+- https://pubmed.ncbi.nlm.nih.gov/34780053/
 
 ## 검수 근거
 

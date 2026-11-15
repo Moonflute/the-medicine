@@ -13,7 +13,7 @@ related_diseases:
   - "primary ovarian insufficiency"
   - "일차성 난소기능부전"
   - "hypergonadotropic hypogonadism"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yhsOq4sOuCnOyGjOu2gOyghCAoUHJlbWF0dXJlIE92YXJpYW4gRmFpbHVyZSkubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YG065287J247Y6g7YSwIOymne2bhOq1sCAoS2xpbmVmZWx0ZXIgU3luZHJvbWUpLm1k
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-32세 G0P0 여성이 경구피임약을 중단한 지 12개월이 지났지만 임신이 되지 않아 내원했다. 초경은 15세였고 이후 월경이 불규칙했다. 피임약 복용 중 간헐적 출혈이 있었지만 중단 후 ‘정상 월경’을 한 적이 없다. 현재 안면홍조는 없다. 키와 BMI는 정상이고 질경검사에서 질 위축이 보인다. TSH와 프로락틴은 정상이며 혈청 β-hCG는 음성이다. FSH 56 mIU/mL, 에스트라디올 <18 pmol/L가 2개월 동안 두 번의 검사에서 확인되었다. 불임의 가장 가능성 높은 원인은 무엇인가?
+32세 여성이 조기 난소기능부전으로 확진됐다. 자궁은 있으며 안면홍조는 없고 호르몬 치료 금기도 없다. 장기 건강을 위한 기본 계획은?
 
 ## 선택지
 
-A. 다낭성 난소 증후군
-B. 고프로락틴혈증
-C. 일차성 난소기능부전
-D. 이차성 난소기능부전
+A. 안면홍조가 없으므로 호르몬을 사용하지 않는다
+B. 에스트로겐 단독으로 내막도 충분히 보호한다
+C. 에스트로겐과 프로게스토겐을 사용하고 일반적인 폐경 연령 무렵 재평가한다
+D. GnRH 작용제를 장기간 투여한다
 
 ## 해설
 
-40세 미만에서 장기간 무월경/월경불순, 높은 FSH와 낮은 에스트라디올은 일차성 난소기능부전(C)을 지지한다. 현재 다학회 지침은 4개월 이상 월경 이상과 FSH >25 IU/L를 핵심으로 하며 불확실하면 재검한다. 이 사례의 FSH 56과 반복된 저에스트로겐 소견은 이에 부합한다. FSH/에스트라디올 비율은 별도 진단 기준이 아니며 비수술성 POI에서는 간헐적 난소 활동이 가능해 모든 난자가 영구 소진됐다고 단정하지 않는다.
+조기 난소기능부전은 증상이 없더라도 금기가 없으면 일반적인 폐경 연령까지 호르몬 보충을 권한다. 자궁이 있으면 프로게스토겐을 병용하고, 보충요법은 피임을 보장하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 이차성 난소기능부전
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009318
+- https://academic.oup.com/hropen/article/2024/4/hoae065/7918369

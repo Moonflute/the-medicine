@@ -13,11 +13,11 @@ related_diseases:
   - "클라미디아 자궁경부염"
   - "성교 후 출혈"
   - "자궁경부 운동 압통"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geqyveu2gOyVlCAoQ2VydmljYWwgQ2FuY2VyKS5tZA
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신력이 없는 32세 여성이 2주 동안 성교 후 통증과 피가 섞인 질 분비물로 내원했다. 3개월 동안 한 남성 파트너와 성관계를 했고 콘돔은 사용하지 않는다. 유일한 약물은 2년 동안 복용한 복합 경구피임약이며 한 달에 2~3일은 복용을 잊을 수 있다. 1년 전 자궁경부 세포검사는 정상이었고 HPV 백신은 받지 않았다. 양손 진찰에서 자궁경부를 움직일 때 압통이 있고 질경검사에서 면봉으로 자궁경부를 건드리면 출혈한다. 다음 중 가장 가능성 높은 진단은?
+새 성 파트너가 있는 24세 여성이 성교 후 소량 출혈을 보인다. 자궁경부에 점액고름이 있고 면봉 접촉에 쉽게 출혈한다. 자궁경부 이동통과 자궁·부속기 압통은 없다. 원인 감염을 확인할 검사는?
 
 ## 선택지
 
-A. 자궁경부 외상
-B. 자궁 평활근종
-C. 초기 자궁내 임신
-D. 클라미디아 감염
+A. 질 검체에서 임균·클라미디아 핵산증폭검사
+B. 자궁경부 세포검사만 시행
+C. 혈청 클라미디아 IgG만 측정
+D. 일반 소변배양만 시행
 
 ## 해설
 
 
-클라미디아 감염은 자궁경부 운동통과 출혈을 일으키며, 가장 흔한 원인이다.
+점액고름과 접촉 출혈은 자궁경부염에 합당하다. 임균과 클라미디아는 진찰만으로 구분하기 어려워 질 또는 자궁경관 검체의 핵산증폭검사로 확인한다. 골반염 징후도 함께 확인한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 클라미디아 감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006905
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10925736/

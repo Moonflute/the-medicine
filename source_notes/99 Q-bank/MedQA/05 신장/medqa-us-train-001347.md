@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
   - MDQg64K067aE67mEL-u2gOqwkeyDgeyDmCDquLDriqXtla3sp4Tspp0gKEh5cGVycGFyYXRoeXJvaWRpc20pLm1k
-question_type: investigation
+question_type: monitoring
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-4기 만성콩팥병, 고혈압 및 제2형 당뇨병 병력이 있는 72세 여성이 예정된 진료를 위해 내원했다. 지난 방문에서 의사는 만성콩팥병에 대해 투석을 시작할 가능성을 논의하기 시작했다. 환자는 건강에 대한 불편이 없고 가족과 시간을 보내는 것을 즐긴다. 내원 시 발열은 없고 혈압은 139/89 mm Hg, 심박수는 80회/분이다. 맥박은 강하게 뛰고 안색은 창백하며 1/6등급 범수축기 잡음과 무릎까지의 2+ 발등부종이 있다. 다음 중 신성 골이영양증 선별에 가장 적절한 검사실 검사는 무엇인가?
+안정된 4기 만성콩팥병 환자가 정기 진료를 받는다. 만성콩팥병 관련 미네랄·뼈 이상을 파악하기 위해 함께 추적할 혈액검사는?
 
 ## 선택지
 
-A. 적혈구 침강속도
-B. 혈청 C-반응성 단백질
-C. 혈청 온전한 부갑상샘호르몬
-D. 혈청 비타민 B12
+A. ESR과 CRP
+B. 혈청 나트륨과 염소만
+C. 혈청 칼슘·인·알칼리인산분해효소·온전한 PTH
+D. 비타민 B12와 엽산만
 
 ## 해설
 
 
-만성 신부전에서 2차성 부갑상선 기능항진이 흔히 발생하며, 혈청 온전 부갑상선 호르몬(PTH) 검사가 이를 선별한다. 따라서 신성 골이영양증 검사는 혈청 온전 PTH 측정이다.
+4기 만성콩팥병에서 칼슘, 인, PTH와 알칼리인산분해효소를 함께 평가한다. 치료 판단은 PTH 한 번의 수치가 아니라 반복 측정의 경향과 다른 수치를 종합한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 혈청 비타민 B12
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001347
+- https://kdigo.org/guidelines/ckd-mbd/

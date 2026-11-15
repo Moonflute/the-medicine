@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: investigation
 difficulty: simple
-answer: "B"
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -37,23 +37,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-45세 남성이 15년간 당뇨병을 앓고 있으며 정기검진을 위해 내원했다. 의사는 당뇨병 관련 신장 손상의 초기 albumin 누출을 확인하려 한다. 다음 중 일반 단백 dipstick보다 적은 양의 albuminuria를 정량적으로 검출하는 데 적합한 검사는?
+45세 남성이 제2형 당뇨병으로 새로 진단됐다. 소변 단백 시험지는 음성이며 신장 증상은 없다. 초기 당뇨병콩팥병을 평가하기 위해 함께 시행할 검사는?
 
 ## 선택지
 
-A. 시스타틴 C 수치
-B. 소변 미세알부민/크레아티닌 비
-C. 헤모글로빈 A1C
-D. 소변 단백 딥스틱
+A. 혈청 요소질소와 요당 시험지
+B. 점뇨 알부민/크레아티닌 비와 추정 사구체여과율
+C. 24시간 소변량과 요비중
+D. 신장 CT와 요배양
 
 ## 해설
 
-점뇨 albumin/creatinine ratio(UACR)는 일반 단백 dipstick보다 적은 albumin 누출을 정량적으로 확인하는 데 적합하다. 당뇨병성 CKD 평가에는 eGFR도 함께 필요하고 albuminuria 없이 GFR이 감소하는 경우도 있다. 상승한 UACR은 일시적 원인을 배제하고 반복 확인한다.
+제2형 당뇨병은 진단 시부터 소변 알부민/크레아티닌 비와 추정 사구체여과율을 함께 평가한다. 일반 단백 시험지가 음성이어도 알부민뇨가 있거나 여과율이 낮을 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010175
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/
 
 ## 오답 포인트
 

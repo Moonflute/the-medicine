@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTEg7Jm46rO8L-2dieu2gCDsmbjsg4EubWQ
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,18 +37,18 @@ answer_change_reason: "원문에서도 정상 기도·산소화·대칭 호흡�
 
 ## 문제
 
-29세 남성이 오른쪽 가슴을 칼에 찔린 뒤 20분 후 응급실에 왔다. 환자는 의식이 명료하고 산소포화도는 97%였다. 혈압은 112/70 mmHg, 호흡수는 분당 16회였다. 오른쪽 4번째 늑간의 전액와선에 칼이 박혀 있고 상처에서 피가 배어 나왔지만 공기방울은 없었다. 양쪽 호흡음은 같았고 흉부 X선에서 칼이 오른쪽 흉곽 안으로 뻗어 있는 것이 보였다. 다음 중 가장 적절한 다음 처치는?
+가슴을 다친 뒤 외부 물체가 흉벽을 지나 꽂혀 있다. 환자의 혈압·산소화는 안정적이다. 외상팀이 영상과 수술 가능성을 평가하는 동안 응급실에서 물체를 어떻게 해야 할까?
 
 ## 선택지
 
-A. 오른쪽 바늘 흉강감압
-B. 기관내 삽관
-C. 윤상갑상막 절개술
-D. 흉부 CT
+A. 당장 뽑고 피부를 봉합한다
+B. 물체가 움직이지 않게 지지하고 통제된 환경에서 제거할 계획을 세운다
+C. 통증을 줄이기 위해 물체를 안쪽으로 민다
+D. 외래까지 아무 조치 없이 기다린다
 
 ## 해설
 
-의식·환기·산소화와 혈압이 유지되어 즉각적인 기도 확보나 긴장성 기흉 감압을 뒷받침하지 않는다. 박힌 칼은 고정한 채 임의로 제거하지 않고 외상외과와 평가하며, 안정된 관통 흉부외상의 손상 범위·경로를 파악하는 흉부 CT(D)가 보기 중 적합하다. 수술/마취가 필요할 수 있다는 사실이 현재 응급실에서 무조건 삽관해야 한다는 뜻은 아니다.
+꽂힌 물체를 현장이나 응급실에서 임의 제거하면 출혈이 급격히 악화할 수 있다. 움직이지 않게 지지하고, 안정적이면 영상으로 손상 범위를 평가해 수술 여건이 확보된 곳에서 제거한다.
 
 ## 검수 근거
 

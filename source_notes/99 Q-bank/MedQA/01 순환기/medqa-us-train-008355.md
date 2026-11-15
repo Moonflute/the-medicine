@@ -18,7 +18,7 @@ question_type: prevention
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,19 +33,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-72세 여성이 예기치 않은 여행으로 정기 혈액투석을 한 번 놓친 후 호흡곤란으로 응급실에 왔다. 긴급 투석 후에도 호흡곤란이 예상대로 호전되지 않아 심장내과에 의뢰했다. 심장내과 의사는 환자가 만성 심장질환이 없고 심장 원인의 호흡곤란은 가능성이 낮다고 기록했지만, 간호사는 환자가 박출률 35%의 울혈성 심부전 병력이 있음을 확인했다. 심장내과 의사가 비슷한 이름의 다른 투석 환자를 잘못 평가한 것이다. 향후 유사 오류를 막기 위한 가장 적절한 전략은?
+동명이인인 두 환자가 같은 병동에 입원해 있다. 협진 의사가 잘못된 환자의 기록을 열어 진료할 뻔했다. 진료를 시작하기 전 어떤 확인 절차가 적절한가?
 
 ## 선택지
 
-A. 모든 의료진이 모든 만남에서 환자 의무기록번호 확인
-B. 의사-환자 만남마다 환자 의무기록번호 확인
-C. 간호사-환자 만남마다 두 가지 식별자 확인
-D. 모든 의료진이 모든 환자 만남에서 두 가지 식별자 확인
+A. 환자에게 이름만 말하게 한 뒤 기록을 연다
+B. 병실·침상 번호가 맞으면 기록을 사용한다
+C. 의뢰한 의료진이 확인했으면 협진에서는 생략한다
+D. 환자의 이름과 생년월일 등 서로 다른 두 가지 정보를 기록과 대조한다
 
 ## 해설
 
 
-환자 확인 오류를 방지하려면 모든 의료진이 모든 환자 접촉 시 두 개 이상의 식별자를 확인해야 한다.
+동명이인 오류를 막으려면 이름과 생년월일 또는 등록번호처럼 서로 다른 두 환자 식별정보를 확인해 기록과 맞춰야 한다. 병실·침상 번호는 환자가 바뀔 수 있어 식별정보로 쓰지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 모든 의료진이 모든 환자 만남에서 두 가지 식별자 확인
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008355
+- https://www.who.int/docs/default-source/patient-safety/patient-safety-solutions/ps-solution2-patient-identification.pdf

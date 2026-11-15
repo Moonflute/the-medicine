@@ -18,6 +18,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-2YuO2doeu2gOyghCAoUmVzcGlyYXRvcnkgRmFpbHVyZSkubWQ
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -32,7 +33,7 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-34세 여성이 3시간 동안 지속된 쇠약감, 초조, 발음 불명료로 응급실에 왔다. 말이 느리고 자주 끊기며 눈을 뜨고 있기 어렵다. 3일 전부터 인후통, 콧물, 미열이 있었고 지난 1년간 눈과 혀가 “무겁다”고 느꼈다. 저녁 식사 후 너무 피곤해 일찍 잠자리에 든다. 창백하고 불안해 보이며 체온 38.0°C(100.4°F), 맥박 108회/분, 호흡수 26회/분으로 얕고, 혈압 118/65 mm Hg이다. 입술과 입 주변이 푸르게 변하고 호흡할 때마다 콧방울이 벌렁거린다. 폐 청진은 깨끗하지만 근위부 근육 전반의 근력저하가 있다. 다음 중 가장 적절한 다음 처치는?
+34세 여성이 3시간 동안 지속된 쇠약감, 초조, 발음 불명료로 응급실에 왔다. 말이 느리고 자주 끊기며 눈을 뜨고 있기 어렵다. 3일 전부터 인후통, 콧물, 미열이 있었고 지난 1년간 눈과 혀가 “무겁다”고 느꼈다. 저녁 식사 후 너무 피곤해 일찍 잠자리에 든다. 창백하고 불안해 보이며 체온 38.0°C(100.4°F), 맥박 108회/분, 호흡수 26회/분으로 얕고, 혈압 118/65 mm Hg이다. 입술과 입 주변이 푸르게 변하고 호흡할 때마다 콧방울이 벌렁거린다. 폐 청진은 깨끗하지만 근위부 근육 전반의 근력저하가 있다. 가장 적절한 다음 처치는?
 
 ## 선택지
 

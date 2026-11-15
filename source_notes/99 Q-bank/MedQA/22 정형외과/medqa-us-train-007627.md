@@ -14,13 +14,13 @@ related_diseases:
   - "콜라겐 결함"
   - "관절 과운동성"
   - "피부 과신전"
-question_type: mechanism
+question_type: diagnosis
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yXmOufrOyKpC3ri6jroZzsiqQg7Kad7ZuE6rWwIChFaGxlcnMtRGFubG9zIFN5bmRyb21lKS5tZA
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,19 +33,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-25세 남자가 2시간 전 볼링공을 던질 때 발생한 갑작스럽고 심한 오른쪽 어깨 통증으로 응급실에 내원했다. 양쪽 어깨 탈구와 오른쪽 무릎 및 왼쪽 손목 아탈구 병력이 있다. 골절 병력은 없다. 신체검사에서 오른팔이 약간 벌어지고 외회전되어 있으며 어깨관절 근처 앞쪽이 돌출되어 있다. 오른팔 신경혈관검사는 정상이다. 무릎, 팔꿈치, 발목 주위에 넓고 위축된 흉터가 여러 개 있고 목과 팔꿈치 피부가 4cm까지 쉽게 늘어난다. 공막은 흰색이며 나머지 진찰은 정상이다. 이 환자의 소견을 일으킨 가장 가능성 높은 단백질 결함은 무엇인가?
+25세 남성에게 작은 힘에도 어깨와 여러 관절이 반복해서 빠진다. 피부가 과도하게 늘어나고 팔꿈치와 무릎에 넓고 얇은 위축 흉터가 있다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 콜라겐
-B. 엘라스틴
-C. 피브릴린-1
-D. 타우
+A. 마판증후군
+B. 골형성부전증
+C. 고전형 엘러스-단로스증후군
+D. 류마티스관절염
 
 ## 해설
 
 
-다발성 관절 탈구와 피부 과신전은 콜라겐 결함(예: 에일러스-단로스 증후군)과 연관된다. 따라서 가장 가능성 높은 단백질 결함은 콜라겐이다.
+관절 과운동성과 반복 탈구에 피부 과신전·위축 흉터가 동반되면 고전형 엘러스-단로스증후군을 의심한다.
 
 ## 출처
 

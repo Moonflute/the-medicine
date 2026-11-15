@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTgg7JWI6rO8L-2ZlO2Vme2ZlOyDgSAoY2hlbWljYWwgYnVybikubWQ
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,19 +33,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강했던 5세 남아가 오른손을 다친 지 15분 후 응급실에 내원했다. 어머니가 욕실을 청소하던 중 아이가 배수관 세정제 병을 넘어뜨려 액체가 손에 쏟아졌다. 도착 시 울면서 오른손을 굽힌 자세로 잡고 있다. 체온은 37.7°C(99.8°F), 맥박 105회/분, 호흡수 25회/분, 혈압 105/65 mmHg이다. 오른손에 4×4cm 크기의 붉고 물집이 생긴 피부가 있으며 가볍게 만져도 매우 아프다. 오른손의 굽힘과 폄은 감소되어 있고 요골맥박은 만져지며 모세혈관 재충만은 3초 미만이다. 다음 중 가장 적절한 치료 단계는 무엇인가?
+5세 남아의 손에 강알칼리성 액체가 쏟아져 통증과 물집이 생겼다. 오염된 장갑을 벗겼다. 가장 먼저 할 처치는?
 
 ## 선택지
 
-A. 미네랄 오일 도포
-B. 실버 설파다이아진 도포
-C. 부분층 피부이식
-D. 물로 세척
+A. 약산으로 중화한다
+B. 국소 항생제를 바른다
+C. 흐르는 물로 즉시 충분히 씻는다
+D. 물집을 제거하고 경과를 본다
 
 ## 해설
 
 
-알칼리성 화학 화상은 즉시 물로 충분히 씻어야 하며, 이는 조직 손상을 최소화한다. 다른 치료는 1차 세척 후에 고려한다.
+액체 알칼리 화상에서는 노출을 중단하고 물로 충분히 세척해 접촉 시간을 줄인다. 임의 중화는 발열과 추가 손상을 일으킬 수 있으며 국소 연고는 세척을 대신하지 않는다.
 
 ## 출처
 

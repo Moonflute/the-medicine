@@ -15,7 +15,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7J6l7KSR7LKp7KadIChJbnR1c3N1c2NlcHRpb24pLm1k
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -32,18 +32,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-8개월 된 남아를 어머니가 응급실로 데려왔다. 어머니는 아들이 지난 며칠간 간헐적으로 심한 복통을 겪었으며, 구토와 '적포도주 젤리(currant jelly)' 같은 변을 동반했다고 걱정하고 있다. 참고로, 가족은 주 내 시골 지역에 거주하여 가장 가까운 병원까지 차로 2시간이 걸린다. 환아는 현재 매우 고통스러워 보이며 지난 1시간 동안 두 번 구토했다. 신체 검진상 우상복부 촉진 시 소시지 모양의 종괴가 확인되었다. 복부 초음파 검사 결과 장중첩증(intussusception) 진단과 일치하였다. 공기 대조 바륨 관장(air-contrast barium enema)을 시행하여 진단을 확진하고 장중첩증을 성공적으로 정복하였다. 이 환자의 관리에서 다음으로 가장 적절한 조치는 무엇인가?
+8개월 영아의 장중첩증이 공기 관장으로 정복됐다. 이후 토하지 않고 편안해졌지만 집에서 소아 응급실까지 두 시간 넘게 걸리고, 밤에는 다시 올 수단이 없다. 가장 적절한 계획은?
 
 ## 선택지
 
-A. 재발 여부를 모니터링하기 위해 6시간마다 바륨 관장을 반복한다
-B. 환자를 금식(NPO)시키고 선도점(lead-point)을 확인하기 위한 검사를 시작한다
-C. 합병증 및/또는 재발 관찰을 위해 24시간 동안 병원에 입원시킨다
-D. 괴사된 장 분절의 절제를 포함한 긴급 수술적 정복을 시행한다
+A. 정복 확인 직후 귀가시킨다
+B. 증상과 무관하게 관장을 반복한다
+C. 재발을 막으려고 예방적 장절제술을 한다
+D. 병원에서 관찰하며 수유와 증상 재발 여부를 확인한다
 
 ## 해설
 
-정복 성공 후 증상 회복·수유·재발 가능성을 관찰한다. 선별된 아이는 짧은 관찰 후 퇴원이 가능하지만 이 가족은 병원까지 2시간 걸려 재내원이 어려우므로 24시간 입원 관찰(C)이 합당하다. 무조건 반복 관장이나 응급 장절제를 하지 않는다.
+정복 뒤 상태가 좋고 빠른 재내원이 가능하면 짧게 관찰한 뒤 퇴원을 검토할 수 있다. 이 사례처럼 응급 재내원이 어려우면 병원 관찰이 더 안전하다. 모든 아이에게 24시간 입원이 필수인 것은 아니다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 괴사된 장 분절의 절제를 포함한 긴급 수술적 정복을 시행
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001294
+- https://pubmed.ncbi.nlm.nih.gov/33158508/

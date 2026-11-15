@@ -13,11 +13,11 @@ related_diseases:
   - "베크위드-비데만 증후군"
   - "제대탈장"
   - "거대설 및 저혈당"
-question_type: mechanism
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv67Kg7YGs7JyE65OcLeu5hOuNsOunjCDspp3tm4TqtbAgKEJlY2t3aXRoLVdpZWRlbWFubiBTeW5kcm9tZSkubWQ
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-3세 남아가 과도한 성장과 큰 혀 때문에 부모와 함께 소아과를 방문했다. 부모는 근친혼이 아닌 부부이며, 어머니는 20세 초임부였다. 아이는 임신 만삭에 출생했고 출생 체중은 3.8kg(8.4lb), 키는 52cm(20.5인치)였다. 체온은 37.0ºC(98.6°F), 맥박은 분당 90회, 호흡수는 분당 22회이다. 신체검사에서 배꼽으로 돌출된 종괴가 있고, 머리둘레는 같은 연령의 아이들보다 작다. 전신검사에서 간비대가 있다. 무증상 저혈당(36 mg/dL)도 발견되어 포도당을 주입했다. 다음 중 이 질환의 병인을 가장 잘 설명하는 기저 기전은 무엇인가?
+신생아에게 거대설, 배꼽탈장과 반복 저혈당이 있으며 왼쪽 팔다리가 오른쪽보다 크다. 베크위트–비데만 스펙트럼이 의심될 때 먼저 평가할 분자 이상은?
 
 ## 선택지
 
-A. 11번 염색체 단완의 종양억제유전자 돌연변이
-B. 22번 염색체 장완의 종양억제유전자 돌연변이
-C. 21번 염색체 비분리
-D. 17번 염색체 장완의 종양억제유전자 돌연변이
+A. 5번 염색체 단완 결실
+B. 11p15.5 영역의 유전체 각인·메틸화 이상
+C. 22q11.2 영역 결실
+D. DMD 유전자 점돌연변이
 
 ## 해설
 
-과성장, 거대설, 배꼽 부위 돌출, 장기 비대와 저혈당은 베크위트-비데만 스펙트럼을 시사한다. 관련 영역은 11번 염색체 단완 11p15.5의 각인·성장조절 유전자들이다. 일부에서는 성장 억제 기능을 가진 CDKN1C의 병적 변이가 원인이므로 선택지 중 A가 부합한다. 다수는 각인 메틸화 이상 등 다른 기전이며 모든 사례를 단일 종양억제유전자 변이로 일반화할 수 없다. WT1이나 11번 염색체 장완으로 설명한 기존 해설은 틀렸다.
+이 스펙트럼은 성장조절 유전자가 있는 11p15.5의 각인 이상과 관련된다. 1차로 메틸화 분석 등을 시행하고, 임상 소견이 강하면 모자이크나 다른 기전을 추가 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 17번 염색체 장완의 종양억제유전자 돌연변이
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005638
+- https://www.ncbi.nlm.nih.gov/books/NBK1394/

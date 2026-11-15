@@ -18,6 +18,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 difficulty: standard
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -41,7 +42,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-우측 관상동맥에 스텐트를 삽입하는 경피적 관상동맥 중재술을 합병증 없이 외래에서 받은 지 3일 후, 60세 여성이 왼쪽 얼굴이 아프게 부어올랐다. 씹을 때 통증이 더 심하다. 고혈압과 관상동맥질환이 있다. 현재 에날라프릴, 메토프롤롤, 아스피린, 클로피도그렐, 심바스타틴, 종합비타민을 복용한다. 흡연과 음주는 하지 않는다. 체온 38.1°C(100.5°F), 맥박 72회/분, 호흡수 16회/분, 혈압 128/86mmHg이다. 왼쪽 이하선이 부어 있고 압통이 있다. 구강 내 검사에서 홍반과 소량의 화농성 분비물이 보인다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+우측 관상동맥에 스텐트를 삽입하는 경피적 관상동맥 중재술을 합병증 없이 외래에서 받은 지 3일 후, 60세 여성이 왼쪽 얼굴이 아프게 부어올랐다. 씹을 때 통증이 더 심하다. 고혈압과 관상동맥질환이 있다. 현재 에날라프릴, 메토프롤롤, 아스피린, 클로피도그렐, 심바스타틴, 종합비타민을 복용한다. 흡연과 음주는 하지 않는다. 체온 38.1°C(100.5°F), 맥박 72회/분, 호흡수 16회/분, 혈압 128/86mmHg이다. 왼쪽 이하선이 부어 있고 압통이 있다. 구강 내 검사에서 홍반과 소량의 화농성 분비물이 보인다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

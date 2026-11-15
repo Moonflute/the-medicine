@@ -18,9 +18,9 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Ius7IukIOykkeqyqSDqsrDshpAgKFZlbnRyaWN1bGFyIFNlcHRhbCBEZWZlY3QpLm1k
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7JeQ65Oc7JuM65OcIOymne2bhOq1sCAoRWR3YXJkcyBTeW5kcm9tZSkubWQ
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-체중 1,900 g의 남아가 36세 초임부에게 만삭으로 태어났다. 임신은 양수과다증으로 합병되었고 아프가 점수는 1분과 5분 모두 7점이었다. 머리둘레는 2백분위수, 키는 15백분위수였고 뒷머리가 두드러지며 귀가 낮고 턱이 작고 뒤로 물러나 있었다. 주먹을 쥐고 둘째·셋째 손가락이 겹쳤으며 발바닥이 볼록하고 제대탈장(omphalocele)이 있었다. 추가 평가에서 가장 가능성 높은 소견은?
+만삭 남아가 임신 주수에 비해 작다. 두드러진 뒤통수, 서로 겹쳐 꼭 쥔 손가락, 볼록한 발바닥이 보인다. 핵형검사에서 가장 가능성 높은 소견은?
 
 ## 선택지
 
-A. 심실중격결손
-B. 엡스타인 기형
-C. 갈색세포종
-D. 전전뇌증
+A. 47,XY,+13
+B. 47,XY,+18
+C. 47,XY,+21
+D. 47,XXY
 
 ## 해설
 
 
-소두증, 저귀, 작은 턱, 겹친 손가락, 발바닥 볼록함, 제대탈장(omphalocele)은 에드워드 증후군(18번 삼염색체증)의 특징이며, 이 증후군에서 가장 흔한 심장 결함은 심실중격결손이다.
+태아 성장 제한에 겹쳐 쥔 손가락과 볼록한 발바닥이 함께 보이면 18번 삼염색체증을 의심한다. 핵형검사로 확인할 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 전전뇌증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001152
+- https://medlineplus.gov/genetics/condition/trisomy-18/

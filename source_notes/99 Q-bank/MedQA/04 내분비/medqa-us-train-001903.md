@@ -15,7 +15,7 @@ related_diseases:
   - "precocious puberty"
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
-question_type: diagnosis
+question_type: management
 difficulty: standard
 answer: B
 translation_status: machine-verified
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-9세 여아가 신체 변화에 대한 부모의 걱정으로 내원했다. 최근 브래지어를 착용하기 시작했고 지성 피부에 얼굴 스크럽을 사용하며 체취가 증가했다. propranolol로 조절되는 편두통 병력이 있다. 키 55백분위수, 체중 60백분위수이다. 유륜과 유방 윤곽이 분리되고 유두·유륜이 이차 융기를 형성하며 굵고 짙은 겨드랑이 털과 드문 치모가 있다. 다음 중 소견의 가장 가능성 높은 원인은 무엇인가?
+9세 6개월 여아가 9세부터 천천히 커지는 양쪽 유방 때문에 내원했다. 진찰은 유방 Tanner II이고, 키는 기존 성장곡선을 따라가며 질출혈이나 신경학적 증상은 없다. 가장 적절한 대응은?
 
 ## 선택지
 
-A. 시상하부 과오종
-B. 생리적 발달
-C. 모자이크 G단백 돌연변이
-D. 기능성 난포성 난소낭종
+A. 뇌 MRI를 즉시 시행한다
+B. 정상 범위 사춘기로 설명하고 성장과 진행 속도를 추적한다
+C. GnRH 작용제 치료를 시작한다
+D. 난소 종양을 의심해 수술을 의뢰한다
 
 ## 해설
 
-유두·유륜이 유방과 분리된 이차 융기를 형성하는 것은 유방 Tanner IV 소견이지 II가 아니다. 9세의 사춘기 변화 자체는 생리적 범위에서 가능하므로 선택지 중 B가 가장 적절하다. 다만 현재 나이만으로 병적 원인을 모두 배제할 수는 없으며, 8세 이전 시작 여부와 진행 속도·성장곡선을 확인해야 한다.
+여아에서 8세 이후 시작해 서서히 진행하는 유방 발달은 정상 범위일 수 있다. 빠른 진행, 성장 가속, 질출혈 등 비전형적 변화가 생기면 추가 평가한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 기능성 난포성 난소낭종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001903
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/

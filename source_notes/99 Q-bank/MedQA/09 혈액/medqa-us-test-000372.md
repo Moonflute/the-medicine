@@ -17,9 +17,9 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-uwse2YiOuzkSAoTGV1a2VtaWEpLm1k
 question_type: management
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-55세 남성이 2개월 동안 점점 심해지는 왼쪽 상복부의 충만감으로 병원에 왔다. 피로와 호흡곤란도 점점 심해지고 있다. 심각한 질환 병력이나 복용약은 없다. 체온 36.7°C(98.1°F), 맥박 90회/분, 호흡 18회/분, 혈압 125/70 mmHg였다. 결막이 창백했고 심폐 진찰은 정상이었다. 비장 가장자리가 늑골연 아래 8 cm(3.1인치)에서 만져졌으며 비정상 림프절은 없었다. 혈색소 8 g/dL, 평균 적혈구 용적 90 μm³, 백혈구 3,000/mm³, 혈소판 85,000/mm³였다. 말초혈액도말에서 세포막 돌기가 있는 작은 림프구가 보였고 골수흡인은 실패했다. 세포 면역표현형에서 CD25 양성이었다. 현재 가장 효과적인 약물치료는?
+55세 환자가 비장비대와 범혈구감소로 치료가 필요하다. 유세포검사와 BRAF V600E 검사로 고전형 털세포백혈병이 확인됐고 활동성 감염은 없다. 초기 치료에 사용할 대표적인 퓨린 유사체는?
 
 ## 선택지
 
-A. 클라드리빈
-B. 플루다라빈
-C. 프레드니손
-D. 탈리도마이드
+A. 이마티닙
+B. 브렌툭시맙 베도틴
+C. 클라드리빈
+D. 레날리도마이드
 
 ## 해설
 
 
-CD25 양성 세포와 골수 억제가 특징인 털세포백혈병은 클라드리빈이 표준 치료이며, 가장 효과적인 약물이다. 따라서 정답은 클라드리빈이다.
+클라드리빈은 고전형 털세포백혈병의 초기 치료에 쓰이는 퓨린 유사체다. 치료 전 감염 여부를 확인하며, 리툭시맙 병용 여부를 환자 상태에 따라 판단한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ CD25 양성 세포와 골수 억제가 특징인 털세포백혈병은 클라드
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000372
+- https://pubmed.ncbi.nlm.nih.gov/41980020/

@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ related_drug_slugs:
 
 ## 문제
 
-37세 농부가 갑자기 시작된 설사, 눈물과 침 분비 증가로 응급실에 왔다. 탈수가 걱정되고 최근 몇 시간 동안 소변도 자주 보았다. 체온 36.4°C, 혈압 111/64 mmHg, 맥박 60회/분, 호흡수 10회/분, 산소포화도 98%이다. 중등도로 초조하고 땀을 흘리며 동공이 축소되어 있다. 가장 적절한 처치는?
+농약에 노출된 37세 남성에게 축동, 서맥과 함께 침이 많이 나오고 호흡음에 분비물 소리가 들린다. 오염을 제거하고 기도·환기를 지원 중이다. 기관지 분비를 줄이기 위해 우선 투여할 약은?
 
 ## 선택지
 
-A. 아트로핀
-B. 디펜히드라민
-C. 날록손
-D. 피소스티그민
+A. 피소스티그민
+B. 아트로핀
+C. 디펜히드라민
+D. 날록손
 
 ## 해설
 
 
-동공 축소·다한증·서맥·땀 흘림은 콜린성 위기의 전형적인 징후이며, 유기인계 농약 중독이 원인이다. 급성 콜린성 위기에서는 아트로핀이 가장 효과적인 항콜린제이다. 따라서 아트로핀 투여가 적절한 처치이다.
+축동, 서맥과 과도한 분비물은 콜린성 위기를 시사한다. 아트로핀으로 분비물과 기관지 증상을 치료하며, 노출 물질을 확인해 다른 해독 치료도 함께 검토한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000412
+- https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/

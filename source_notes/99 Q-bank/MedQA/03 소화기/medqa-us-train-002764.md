@@ -17,11 +17,11 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_rp4zshLEg7LeM7J6l7Je8IChDaHJvbmljIFBhbmNyZWF0aXRpcykubWQ
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp4DrsKnrs4AgKFN0ZWF0b3JyaGVhKS5tZA
-question_type: investigation
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-60세 남성이 6시간 동안 지속된 심한 복통과 오심, 구토, 지방변으로 응급실에 입원했다. 과거력으로 비슷한 복통이 여러 차례 있었고 고혈압이 있다. 최근 공복 혈당은 150 mg/dL, HbA1c는 7.8%였다. 체온은 37°C, 호흡수는 15회/분, 맥박은 67회/분, 혈압은 122/98 mmHg이다. 신체검사에서 상복부 압통이 있다. 복부 CT 영상이 제시되어 있다. 다음 중 이 환자 상태에 가장 특이적인 검사 결과는?
+만성 췌장염 환자가 지방변과 체중 감소를 보인다. 고형 대변에서 엘라스타제가 70 μg/g으로 확인됐다. 영양 상태를 회복시키기 위해 치료를 어떻게 시작하는가?
 
 ## 선택지
 
-A. 아밀라아제 상승 및 리파아제 상승
-B. 혈청 트립신 감소 및 대변 엘라스타제 감소
-C. 혈청 트립신 상승 및 대변 엘라스타제 상승
-D. 알칼리성 인산분해효소 상승 및 총 빌리루빈 상승
+A. PPI를 식전 단독 투여
+B. 췌장효소를 식사와 함께 보충
+C. 췌장효소를 식사와 무관하게 취침 전에 한 번 복용
+D. 지방을 완전히 끊고 효소는 투여하지 않음
 
 ## 해설
 
 
-만성 췌장염에서 외분비 기능 저하는 혈청 트립신 감소와 대변 엘라스타제 감소로 나타난다. 이는 지방변과 연관된 특이적 검사 결과이다. 따라서 B가 정답이다.
+증상과 현저히 낮은 대변 엘라스타제는 외분비 췌장기능부전을 지지한다. 췌장효소는 음식과 섞여야 하므로 식사 및 간식과 함께 투여하고 영양 상태를 추적한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 알칼리성 인산분해효소 상승 및 총 빌리루빈 상승
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002764
+- AGA 췌장 외분비기능부전 임상 권고: https://pubmed.ncbi.nlm.nih.gov/37737818/

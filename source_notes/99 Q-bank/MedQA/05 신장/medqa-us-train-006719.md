@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvantjKXrs5Hspp0gKERpYWJldGljIE5lcGhyb3BhdGh5KS5tZA
 question_type: diagnosis
 difficulty: complex
-answer: "B"
+answer: B
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -40,23 +40,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-67세 남성이 약한 소변줄기와 배뇨 시작 및 중단의 어려움이 점점 심해져 주치의를 방문했다. 낮 동안 전신적인 경미한 통증과 쇠약감도 있다. 제2형 당뇨병을 35년, 본태성 고혈압을 19년 앓았다. 메트포르민, 빌다글립틴 및 에날라프릴을 복용한다. 체온은 36.7°C(98.1°F), 혈압은 151/82 mm Hg, 맥박은 분당 88회이다. 결절 없이 단단하고 현저히 커진 전립선이 만져진다. 검사에서 혈청 나트륨 142 mEq/L, 칼륨 5.7 mEq/L, 염소 115 mEq/L, 중탄산염 17 mEq/L, 크레아티닌 0.9 mg/dL, 동맥혈 pH 7.31, 소변 pH 5.3, 소변 나트륨 59 mEq/L, 칼륨 6.2 mEq/L, 염소 65 mEq/L이다. 다음 중 이 소견을 가장 잘 설명하는 것은?
+당뇨병이 있는 67세 남성이 혈청 K 5.7 mmol/L, Na 142 mmol/L, Cl 115 mmol/L, 중탄산염 17 mmol/L로 확인됐다. eGFR은 83 mL/min/1.73m²이며 설사와 요로 폐쇄가 없다. 요 pH는 5.3이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 제1형 신세뇨관산증
+A. 제1형 원위 신세뇨관산증
 B. 제4형 신세뇨관산증
-C. 제2형 신세뇨관산증
-D. 판코니 증후군
+C. 제2형 근위 신세뇨관산증
+D. 당뇨병성 케톤산증
 
 ## 해설
 
-고칼륨혈증과 정상 음이온차 대사성 산증은 aldosterone 부족·작용 저하에 따른 제4형 RTA를 시사한다. 당뇨병·ACE 억제제 등이 기여할 수 있고 칼륨과 ammonium 배설이 감소한다. 요 pH가 5.3처럼 낮아질 수 있으므로 산성뇨가 제4형을 배제하지 않는다.
+고칼륨혈증과 정상 음이온차 대사성 산증은 알도스테론 부족 또는 작용 저하로 발생하는 제4형 신세뇨관산증에 부합한다. 다른 유형과 달리 소변 pH가 낮아도 배제되지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006719
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7889554/
 
 ## 오답 포인트
 

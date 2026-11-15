@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uylCDrtojslYgg7J6l7JWgIChHZW5lcmFsaXplZCBBbnhpZXR5IERpc29yZGVyKS5tZA
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,23 +37,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 여성이 7개월간 지속된 피로, 두통, 집중력 저하로 진료를 받으러 왔다. 잠들고 수면을 유지하기 어렵고 근육통과 안절부절못하는 느낌이 있으며, 생활비와 부모의 진로 평가, 직장 동료와 상사가 자신의 업무를 어떻게 생각하는지 지나치게 걱정한다. 가장 적절한 약물치료는?
+범불안장애로 진단받은 27세 환자가 불면과 집중 저하로 일에 지장을 받아 장기 약물치료를 원한다. 조증이나 약물 금기는 없다. 일차 약물로 적절한 것은?
 
 ## 선택지
 
-A. 부스피론
-B. 미르타자핀
-C. 올란자핀
-D. 트라조돈
+A. 알프라졸람 장기 단독
+B. 부스피론을 불안할 때만 복용
+C. 에스시탈로프람
+D. 올란자핀 단독
 
 ## 해설
 
-7개월간 여러 영역의 통제하기 어려운 걱정에 불면·근긴장·피로·집중 저하가 동반되어 범불안장애를 시사한다. 제시된 약물 중 부스피론이 적절하며 비벤조디아제핀성 세로토닌 5-HT1A 부분 작용제로 설명한다. '1세대 항불안제'라는 분류는 맞지 않고 SSRI나 CBT보다 항상 먼저라는 뜻은 아니다.
+국내 범불안장애 약물치료 권고는 에스시탈로프람 등 SSRI를 일차 약물로 고려한다. 부스피론의 효과는 즉시 나타나지 않으므로 필요할 때 한 번씩 복용하는 약이 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001051
+- https://www.koreascience.or.kr/article/JAKO202434438188928.do
+- https://www.nice.org.uk/guidance/cg113/chapter/recommendations
 
 ## 검수 근거
 

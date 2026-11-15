@@ -14,15 +14,15 @@ related_diseases:
   - "Endometrial cancer"
   - "Endometrial hyperplasia"
   - "Uterine leiomyosarcoma"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geq3vOyihSAoVXRlcmluZSBGaWJyb2lkcykubWQ
   - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4nslZQgKEVuZG9tZXRyaWFsIENhbmNlcikubWQ
   - MTMg67aA7J246rO8L-yekOq2gSDrgrTrp4kg7Kad7Iud7KadIChFbmRvbWV0cmlhbCBIeXBlcnBsYXNpYSkubWQ
 difficulty: complex
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -35,21 +35,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-41세 미출산 여성이 정기 골반 검진 및 자궁경부 세포검사(Pap smear)를 위해 내원하였다. 지난 1년간 건강하게 지냈다. 성생활을 하고 있으며 피임을 위해 구리 자궁내장치(IUD)를 사용 중이다. 20년간 매일 담배 한 갑을 피워왔다. 키는 160cm이고 체중은 88kg이며, 체질량지수(BMI)는 34.4kg/m2이다. 양손 골반 진찰에서 불규칙하게 커진 자궁이 확인되었다. 경질 초음파 검사 결과 자궁근층 내에 4cm 크기의 단일 저에코성 종괴가 관찰되었다. 이 소견의 가장 가능성 높은 원인은 무엇인가?
+41세 여성의 골반 초음파에서 4 cm의 전형적인 경계 좋은 근층내 자궁근종 한 개가 보인다. 과다월경, 빈혈, 압박 증상은 없고 임신 계획도 없다. 적절한 관리는?
 
 ## 선택지
 
-A. 자궁근종(Leiomyoma)
-B. 자궁내막암
-C. 자궁내막증식증
-D. 자궁평활근육종(Uterine leiomyosarcoma)
+A. 즉시 자궁동맥 색전술
+B. 자궁경으로 근층내 종괴를 절제
+C. 당장 치료하지 않고 새 출혈이나 압박 증상이 생기면 평가
+D. 폐경까지 GnRH 작용제를 계속 사용
 
 ## 해설
 
 
-40대 여성에서 비정상적인 자궁 출혈 없이 단일 4 cm 저에코성 종괴가 발견되면 가장 흔한 양성 원인은 자궁근종이다. 따라서 근종이 가장 가능성 높은 원인이다.
+영상에서 전형적인 자궁근종이고 증상이 없다면 약물이나 수술을 일률적으로 시작하지 않는다. 새 출혈·압박 증상 등 경과가 달라지면 다시 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000658
+- https://www.acog.org/womens-health/faqs/uterine-fibroids

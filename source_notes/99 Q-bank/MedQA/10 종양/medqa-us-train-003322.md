@@ -16,11 +16,11 @@ related_diseases:
   - "postmastectomy angiosarcoma"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-umvO2UhOyihSAoTHltcGhvbWEpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-93세 여성이 한 달 동안 커진 오른팔의 보라색 부위로 내원했다. 통증과 가려움은 없고 2년 전 기저세포암으로 모스수술을 받았으며 57년 전 오른쪽 유방의 침윤성 유관암으로 근치적 유방절제술을 받았다. 이후 오른쪽 상지에 만성 림프부종이 있었고 피부검사에서 상부 팔에 궤양을 동반한 서로 융합된 보라색 판이 세 개 보인다. 다음 중 가장 가능성 높은 진단은?
+유방암 수술 후 15년 동안 오른팔에 림프부종이 있는 여성이 내원했다. 같은 팔에 보라색 반점과 결절이 여럿 생겨 빠르게 커지고 일부는 궤양이 됐다. 원인을 확인할 다음 조치는?
 
 ## 선택지
 
-A. 림프관육종
-B. 봉와직염
-C. 편평태선
-D. 카포시육종
+A. 림프부종 치료용 압박 강도만 높인다
+B. 봉와직염으로 보고 경구 항생제만 투여한다
+C. 정맥 초음파가 정상이면 추가 검사를 하지 않는다
+D. 보라색 피부 병변의 조직검사를 한다
 
 ## 해설
 
 
-만성 림프부종 후 발생하는 혈관육종(스튜어트‑트레브스 증후군)은 피부에 푸른‑보라색 병변이 융합된 형태로 나타난다. 다른 선택지는 해당 병변과 맞지 않는다. 따라서 정답은 A이다.
+만성 림프부종 부위에 커지는 보라색 병변이 나타나면 드물지만 혈관육종을 의심해 생검한다. 단순 멍이나 감염으로 단정해 평가를 미루지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 카포시육종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003322
+- https://pubmed.ncbi.nlm.nih.gov/32721135/

@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,7 +37,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-69세 남성이 저녁식사 중 발생한 말 어눌함과 오른팔 사용 불능으로 응급실에 내원했다. 1시간 이내 도착했고 머리 CT에서 출혈은 없었다. 혈전용해제를 투여하고 신경과 병동에서 관리했다. 3일 후 안정적으로 회복 중이나 목 통증이 서서히 악화되어 이부프로펜을 투여 중이다. 혈청 Na+ 130 mEq/L, K+ 3.7 mEq/L, Cl− 100 mEq/L, HCO3− 24 mEq/L, BUN 7 mg/dL, 포도당 70 mg/dL, 크레아티닌 0.9 mg/dL, Ca2+ 9.7 mg/dL이며 소변은 어둡고 24시간 소변 Na+는 320 mEq/L이다. 체온은 99.5°F (37.5°C), 맥박은 95회/분, 혈압은 129/70 mmHg, 호흡수는 10회/분이다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+69세 남성이 저녁식사 중 발생한 말 어눌함과 오른팔 사용 불능으로 응급실에 내원했다. 1시간 이내 도착했고 머리 CT에서 출혈은 없었다. 혈전용해제를 투여하고 신경과 병동에서 관리했다. 3일 후 안정적으로 회복 중이나 목 통증이 서서히 악화되어 이부프로펜을 투여 중이다. 혈청 Na+ 130 mEq/L, K+ 3.7 mEq/L, Cl− 100 mEq/L, HCO3− 24 mEq/L, BUN 7 mg/dL, 포도당 70 mg/dL, 크레아티닌 0.9 mg/dL, Ca2+ 9.7 mg/dL이며 소변은 어둡고 24시간 소변 Na+는 320 mEq/L이다. 체온은 99.5°F (37.5°C), 맥박은 95회/분, 혈압은 129/70 mmHg, 호흡수는 10회/분이다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

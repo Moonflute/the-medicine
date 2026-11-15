@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yVjOy9lOyYrCDquIjri6gg7ISs66edIChBbGNvaG9sIFdpdGhkcmF3YWwgRGVsaXJpdW0pLm1k
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-yErOunnSAoRGVsaXJpdW0pLm1k
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-고관절 골절로 입원해 수술을 기다리던 60세 남성이 갑자기 의식이 변했다. 간호사들은 환자가 욕설을 하며 소리치고 정맥로와 요도 카테터를 뽑았다고 한다. 억류되어 있다고 믿고 고관절을 넘어져 골절한 것을 기억하지 못한다. 침대에서 나오지 못하게 직원이 억제해야 한다. 초기검사에서 왼팔에 피가 흐르고 흥분한 노인이 주먹을 휘두르며 소리친다. 사람에 대해서만 지남력이 있다. 관리에서 가장 적절한 다음 단계는 무엇인가?
+고관절 골절로 입원한 환자가 갑자기 주의집중을 못 하고 정맥로를 뽑으며 스스로 크게 다칠 위험이 생겼다. 원인 평가와 교정을 진행했고 환경 조절과 말로 안정시키는 데 실패했다. 다음 중 고려할 처치는?
 
 ## 선택지
 
-A. 항정신병약 투여
-B. 골절된 고관절 수술
-C. 약물 변경
-D. 24시간 신체 억제 처방
+A. 모든 섬망에 벤조디아제핀 투여
+B. 심전도와 금기를 확인하고 최단 기간 저용량 항정신병약 사용
+C. 24시간 신체 억제를 자동 처방
+D. 원인 평가를 중단하고 진정제만 투여
 
 ## 해설
 
-급성 주의력/지남력 변화와 위험한 흥분은 섬망에 맞는다. 즉각적인 안전 확보와 원인 평가·비약물 진정을 시행하고, 자·타해 위험이 크고 진정적 접근이 불가능하거나 효과가 없으면 단기간 항정신병약(A)을 고려한다. QT·신경학적 부작용과 Parkinson/Lewy body 질환 위험을 평가한다. 이는 섬망의 원인 치료나 신속한 골절 치료를 대신하지 않는다.
+섬망의 치료는 원인 교정과 비약물적 관리다. 그럼에도 자신이나 타인을 다치게 할 위험이 크면 짧게 약물 진정을 고려할 수 있다. QT 연장, 파킨슨병 및 루이소체치매 등 위험을 평가한다.
 
 ## 검수 근거
 

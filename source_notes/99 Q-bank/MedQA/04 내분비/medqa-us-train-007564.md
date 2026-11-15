@@ -17,11 +17,11 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-ygnDHtmJUg64u564eo67ORIChUeXBlIDEgRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
   - MDQg64K067aE67mEL-uLueuHqOuzkeyEsSDsvIDthqTsgrDspp0gKERLQSkgKERpYWJldGljIEtldG9hY2lkb3NpcykubWQ
-question_type: mechanism
+question_type: diagnosis
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-10세 남아가 잦은 구토, 복통, 쇠약으로 어머니와 함께 응급실에 내원했다. 지난 5일 동안 다음과 다음뇨가 있었다. 체온은 37.1°C(98.7°F), 혈압 100/70 mmHg, 맥박 110회/분이다. 신체검사에서 말에 반응하지 않고 눈이 움푹 들어가며 피부긴장도가 낮고 빠르고 깊은 호흡을 한다. 무작위 혈장 포도당은 420 mg/dL, 혈청 베타-하이드록시부티레이트는 상승, 공복 C-펩타이드는 검출되지 않으며 항GAD 항체는 양성이다. 이 환자의 상태는 다음 중 무엇 때문에 발생하는가?
+10세 남아가 케톤산증 치료 뒤 안정됐다. 췌도 자가항체인 항GAD와 IA-2 항체가 모두 양성이고, 고혈당일 때 C-펩타이드는 낮았다. 가장 가능성 높은 당뇨병 유형은?
 
 ## 선택지
 
-A. 인슐린 저항성
-B. 췌장 베타세포의 면역 매개 파괴
-C. 살리실산염 중독
-D. 아르기닌 바소프레신 합성 또는 분비 결함
+A. 비만에 동반된 제2형 당뇨병
+B. 자가면역 제1형 당뇨병
+C. 글루코코르티코이드 유발 당뇨병
+D. GCK 관련 단일유전자 당뇨병
 
 ## 해설
 
 
-환자는 케톤산증을 동반한 1형 당뇨병으로, 베타세포의 면역 매개 파괴가 근본 원인이다. 항GAD 양성은 자가면역 파괴를 확인한다.
+여러 췌도 자가항체와 낮은 내인성 인슐린 분비는 제1형 당뇨병을 지지한다. 케톤산증이 있었다는 사실만으로 당뇨병 유형을 구별하지는 않는다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 아르기닌 바소프레신 합성 또는 분비 결함
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007564
+- https://doi.org/10.2337/dc26-s002

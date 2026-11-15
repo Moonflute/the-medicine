@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsobHshLEg7ISg7KKF7ISxIOyaqeyiheymnSAoRkFQKSAoRmFtaWxpYWwgQWRlbm9tYXRvdXMgUG9seXBvc2lzKS5tZA
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsrDsnqXsp4HsnqXslZQgKENvbG9yZWN0YWwgQ2FuY2VyKS5tZA
-question_type: mechanism
+question_type: investigation
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-40세 남성이 직장 출혈로 내원했다. 어머니가 50세에 대장암으로 사망해 걱정된다. 다른 가족력은 모른다. 신체 및 직장수지검사는 정상이다. 대장내시경에서 왼쪽 결장에 4–15 mm 크기의 선종이 무수히 많다. 다음 중 질환의 가장 가능성 높은 기전은 무엇인가?
+40세 남성의 대장내시경에서 대장과 직장에 수백 개의 선종이 발견됐다. 어머니도 50세에 대장암을 진단받았다. 유전 상담과 함께 가장 우선 의심할 유전자 변이는?
 
 ## 선택지
 
-A. DNA 불일치 복구 유전자 돌연변이
-B. APC 유전자 돌연변이
-C. RB1 유전자 불활성화
-D. BRCA1 및 BRCA2 유전자 불활성화
+A. APC 유전자 병적 변이
+B. MLH1 유전자 병적 변이
+C. STK11 유전자 병적 변이
+D. SMAD4 유전자 병적 변이
 
 ## 해설
 
 
-다발성 선종은 APC 유전자의 기능 상실로 발생하는 가족성 선종성 폴립증(FAP)의 전형적인 병리이다. APC 돌연변이는 Wnt 신호 억제를 잃게 하여 선종 형성을 촉진한다. 따라서 가장 가능성 높은 기전은 APC 유전자 돌연변이다.
+젊은 나이에 대장과 직장에 선종이 수백 개 생겼다면 APC 관련 가족성 선종성 용종증을 의심한다. 유전 상담 및 생식세포 검사로 확인하고 가족 검사와 예방적 수술 계획을 논의한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. BRCA1 및 BRCA2 유전자 불활성화
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001621
+- https://fascrs.org/ascrs/media/files/2024-Polyposis-CPG.pdf

@@ -15,7 +15,7 @@ related_diseases:
   - "안정 시 허혈성 통증"
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-uPmeunpeqyve2ZlOyEsSDrp4zshLEg64-Z66elIO2PkOyDiSAoQXRoZXJvc2NsZXJvdGljIENocm9uaWMgQXJ0ZXJpYWwgT2NjbHVzaW9uKS5tZA
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-75세 남성이 3개월 동안 지속된 좌측 허벅지와 종아리 통증으로 응급실에 왔다. 통증은 안정 시에도 있고 걸으면 악화되며 발을 침대 아래로 늘어뜨리면 약간 호전된다. 25년간 고혈압, 30년간 제2형 당뇨병이 있고 45년 동안 하루 30~40개비를 흡연했다. 양측 대퇴, 슬와 및 족배동맥 맥박은 감소했지만 촉지된다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+75세 남성이 4주째 밤마다 왼발 통증으로 잠을 깬다. 발을 침대 아래로 내리면 통증이 줄고 발가락에 낫지 않는 상처가 있다. 당뇨병과 흡연력이 있으며 발등맥박이 약하고 발가락 혈압은 24 mmHg이다. 가장 적절한 다음 조치는?
 
 ## 선택지
 
-A. 중증 사지허혈
-B. 레이노 현상
-C. 가성통풍
-D. 봉와직염
+A. 사지 보존을 위해 혈관 전문팀에 신속히 의뢰한다
+B. 실로스타졸만 처방하고 수개월 뒤 경과를 본다
+C. 동맥혈류 평가 없이 강한 압박붕대를 적용한다
+D. 파행만 있는 것으로 보고 보행운동만 권한다
 
 ## 해설
 
-3개월 지속되는 휴식통·운동악화·다리 내리면 완화와 감소맥박은 만성 사지위협허혈 A를 시사한다. 급성동맥폐색과는 시간경과가 다르다. 누락 발 사진의 궤양을 임의 판독하지 않으며 Raynaud도 통증을 동반할 수 있다.
+2주 넘는 허혈성 안정 통증과 상처, 낮은 발가락 혈압은 만성 사지위협허혈을 시사한다. 혈류 회복이 가능한지 신속히 평가해야 한다. 단순 파행과 같은 방식으로 기다리면 조직을 잃을 수 있다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 봉와직염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006118
+- ACC/AHA 하지 말초동맥질환 진료지침(2024): https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251

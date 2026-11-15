@@ -19,7 +19,7 @@ question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,19 +39,19 @@ related_drug_slugs:
 
 ## 문제
 
-51세 남성이 만성 부비동염과 콧물로 진료를 받으러 왔다. 양쪽 폐에 미세한 수포음, 코뼈 함몰, 간헐적 객혈과 혈뇨가 있고 비강 점막 생검에서 다발혈관염을 동반한 육아종증이 확진되었다. 프레드니손과 사이클로포스파미드를 시작했다. 치료에 추가할 약물은?
+다발혈관염 동반 육아종증으로 고용량 글루코코르티코이드와 사이클로포스파미드 유도 치료를 시작했다. 설폰아마이드 알레르기는 없다. 주폐포자충 폐렴 예방에 추가할 약은?
 
 ## 선택지
 
 A. 아지트로마이신
 B. 간시클로버
 C. 독시사이클린
-D. 트리메토프림/설파메톡사졸
+D. 트리메토프림–설파메톡사졸
 
 ## 해설
 
 
-다발혈관염을 동반한 육아종증 환자는 스테로이드와 사이클로포스파미드 치료 시 폐포자충(Pneumocystis jirovecii) 감염 위험이 높다. 따라서 예방을 위해 트리메토프림/설파메톡사졸을 추가한다. 다른 약물은 예방 효과가 없다.
+사이클로포스파미드나 리툭시맙을 포함한 ANCA 연관 혈관염 유도 치료 중에는 주폐포자충 예방이 필요할 수 있다. 신기능과 금기를 고려해 트리메토프림–설파메톡사졸을 사용한다.
 
 ## 검수 근거
 
@@ -64,3 +64,4 @@ D. 트리메토프림/설파메톡사졸
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000484
+- https://kdigo.org/guidelines/anca-associated-vasculitis/

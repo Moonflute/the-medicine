@@ -16,7 +16,7 @@ related_diseases:
 question_type: prevention
 related_disease_slugs: []
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,18 +33,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 여성이 임신 전 상담을 위해 산부인과에 내원했다. 과거력과 수술력은 없고 현재 건강하며 예방접종도 최신이다. 한 달 안에 임신을 시도하려 하고 술은 일주일에 와인 2잔을 마신다. 다음 중 임신 전 관리의 다음 단계로 권장되지 않는 것은 무엇인가?
+임신을 준비하는 27세 여성에게 풍진 항체가 없다. 현재 임신하지 않았고 MMR 접종에 금기도 없다. 어떤 계획이 적절한가?
 
 ## 선택지
 
-A. 엽산 400 mcg 보충 시작
-B. 불활성화 인플루엔자 백신 권고
-C. 홍역·유행성이하선염·풍진(MMR) 백신 투여
-D. 수두-대상포진 항체 역가 측정
+A. 지금 MMR을 접종하고 최소 28일 뒤 임신을 시도한다
+B. 풍진항체가 없어도 임신 중 20주에 MMR을 맞는다
+C. 불활성화 인플루엔자 백신으로 풍진을 예방한다
+D. MMR 접종 당일부터 제한 없이 임신을 시도한다
 
 ## 해설
 
-MMR은 임신 전 비면역 여성에게 오히려 권고되는 생백신이며 접종 뒤 28일간 임신을 피한다. 이 환자는 예방접종이 최신이고 한 달 내 임신을 계획하므로 추가 MMR(C)을 즉시 반복할 이유가 없다. 임신 전 모든 MMR을 금기라고 설명해서는 안 된다. 수두 면역도 기존 접종 기록으로 확인할 수 있어 모든 접종 완료자에게 항체검사가 필수인 것은 아니다.
+풍진에 면역이 없으면 임신 전에 MMR을 접종한다. 생백신이므로 접종 후 최소 28일간 임신을 피하고, 이미 임신 중이면 출산 후 접종을 계획한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ MMR은 임신 전 비면역 여성에게 오히려 권고되는 생백신이며 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001695
+- https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1122&menuLv=1

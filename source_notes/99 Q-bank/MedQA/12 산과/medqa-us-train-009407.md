@@ -17,9 +17,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 37주 6일인 34세 G2P1 여성이 계획 제왕절개를 위해 내원했다. 최근 몇 주 동안 피로가 심해졌다. 임신 24주부터 임신성 고혈압으로 하루 두 번 항고혈압제를 복용했다. 체온 36.7°C, 혈압 120/75 mmHg, 맥박 127회/분이며 전신 창백이 있다. 검사에서 소구성 저색소성 빈혈과 이방적혈구증, 혈색소 9 g/dL, 림프구 14%, ESR 22 mm/시간, 망상적혈구 생성지수 3.1이 보인다. 직접 항글로불린검사는 양성이고 간기능, 크레아티닌, 페리틴, 비타민 B12, 응고검사, 소변검사는 정상이다. 가장 가능성 높은 진단은 무엇인가?
+임신 중 메틸도파를 사용하던 34세 산모의 혈색소가 12에서 8.7 g/dL로 떨어졌다. 망상적혈구와 간접 빌리루빈이 높고 합토글로빈이 감소했다. 직접항글로불린검사는 양성이고 혈소판과 AST는 정상이다. 가장 가능성이 높은 진단은?
 
 ## 선택지
 
-A. 전자간증
-B. 유전구형적혈구증
-C. HELLP 증후군
-D. 약물 유발 면역 용혈반응
+A. HELLP 증후군
+B. 메틸도파 관련 면역 용혈성 빈혈
+C. 철결핍빈혈
+D. 임신의 생리적 혈액희석
 
 ## 해설
 
 
-임신 중 약물(예: 항고혈압제)로 인해 면역 매개 용혈성 빈혈이 발생하면 직접 항글로불린 검사(DAT)가 양성이고, 말초 혈액 도말에서 이방적혈구와 망상적혈구가 보인다. 이는 약물 유발 면역 용혈반응에 해당한다. 따라서 가장 가능성 높은 진단은 약물 유발 면역 용혈반응이다.
+직접항글로불린검사 양성에 실제 용혈이 동반되면 면역 용혈을 의심한다. 메틸도파는 이런 반응을 일으킬 수 있어 약을 중단하고 대체 혈압약을 검토한다. 검사 양성만으로 용혈을 진단하지는 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009407
+- https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e1114a58-9ab5-486e-85ed-360365b06396

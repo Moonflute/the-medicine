@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-2LsSDsnqXslaAgKFRpYyBEaXNvcmRlcikubWQ
   - MTUg7KCV7Iug6rG06rCV7J2Y7ZWZ6rO8L-uanOugmyDsnqXslaAgKFRvdXJldHRlIERpc29yZGVyKS5tZA
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,24 +40,25 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-11세 남아가 학교 성적과 사회생활 부족을 걱정한 아버지와 함께 내원했다. 아버지는 수년간 지속된 욕설 폭발 때문에 아들이 괴롭힘을 당하는 것도 걱정한다. 이런 폭발이 있을 때 아이는 얼굴을 일그러뜨리고 반복해서 눈을 깜빡이며 끙끙거린다. 아버지는 괴롭힘이 심해질까 걱정하며 도움이 될 약물이 있는지 알고 싶어 한다. 다음 중 가장 도움이 될 가능성이 높은 약물은?
+11세 아이의 뚜렛증후군이 수업과 친구 관계에 지장을 준다. 아이가 적극적으로 참여할 수 있고 약을 쓰기 전 근거 있는 치료를 원한다. 무엇을 권할까?
 
 ## 선택지
 
-A. 발프로산
-B. 리스페리돈
-C. 클로나제팜
-D. 리튬
+A. 틱이 생길 때마다 혼내고 중단시킨다
+B. 물리치료로 틱에 관여하는 근육을 강화한다
+C. 틱을 알아차리고 경쟁 반응을 연습하는 틱 종합행동중재
+D. 뇌파 생체되먹임 단독치료
 
 ## 해설
 
 
-리스페리돈은 도파민 D2 수용체 차단제로 틱 장애(투렛 증후군)의 운동 및 음성 틱을 줄일 수 있는 약물로, 제시된 선택지 중 적절하다. 치료 필요성과 행동치료 등 대안, 대사·추체외로 부작용을 함께 고려한다. 발프로산은 항경련제, 클로나제팜은 벤조디아제핀, 리튬은 기분 안정제로 틱에 직접적인 효과가 적다.
+습관반전훈련을 포함한 틱 종합행동중재(CBIT)는 기능에 지장을 주는 틱에서 우선 고려할 수 있다. 가정과 학교의 지지도 중요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002793
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6537133/
 
 ## 검수 근거
 

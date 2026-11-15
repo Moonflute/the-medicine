@@ -16,9 +16,9 @@ related_diseases:
 question_type: diagnosis
 related_disease_slugs: []
 difficulty: standard
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -31,21 +31,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 4일 된 신생아가 하루 전부터 발생한 전신 발진 때문에 내원했다. 만삭으로 태어났고 어머니는 산전 진료를 받지 않았으며 4년 전에 치료받은 임질 병력이 있다. 머리둘레는 50백분위수, 키는 60백분위수, 체중은 55백분위수이다. 체온 36.8°C (98.2°F), 맥박 152/min, 호흡 51/min이다. 몸통과 사지에 홍반성 반구진 발진과 홍반성 바탕의 농포가 있으나 손바닥과 발바닥은 침범하지 않았다. 그 밖의 진찰은 정상이다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+생후 4일 신생아에게 붉은 반점 한가운데 작은 농포가 생겼다. 몸통과 팔다리에 흩어져 있고 손바닥과 발바닥은 정상이다. 열이 없고 수유도 잘한다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 말단농포증
-B. 독성 홍반
-C. 농포성 흑색증
-D. 선천성 매독
+A. 신생아 독성 홍반
+B. 일과성 신생아 농포성 흑색증
+C. 신생아 단순포진
+D. 수포성 농가진
 
 ## 해설
 
 
-신생아의 전신 발진에 원형 농포가 동반되고 손·발은 침범하지 않은 경우는 독성 홍반(erythema toxicum neonatorum)이 가장 흔한 원인이다. 따라서 정답은 독성 홍반이다.
+생후 수일에 나타나는 붉은 반점 위의 작은 농포는 신생아 독성 홍반에 전형적이다. 수유와 전신 상태가 정상인 전형적 사례는 저절로 좋아진다. 군집 수포나 발열·처짐이 있으면 감염을 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001770
+- https://pubmed.ncbi.nlm.nih.gov/38574210/

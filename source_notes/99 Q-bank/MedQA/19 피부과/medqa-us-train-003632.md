@@ -18,7 +18,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTkg7ZS867aA6rO8L-yVhO2GoO2UvCDtlLzrtoDsl7wgKEF0b3BpYyBEZXJtYXRpdGlzKS5tZA
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-30세 여성이 3개월간 통증을 동반한 탈모로 내원했다. 두피에 가렵고 아픈 반점이 생긴 뒤 흉터와 과다색소침착을 남기며 탈모가 진행되었다. 지난 몇 년간 간헐적인 발열, 근육통, 관절통, 피로도 있었다. 두피에 홍반성 인설성 판이 관찰되었다. 가장 가능성 높은 진단은?
+30세 여성의 두피에 경계가 뚜렷한 붉은 인설성 판이 반복됐다. 병변 중앙에 위축과 색소 변화가 남고 모낭 입구가 사라진 채 탈모가 진행된다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
 A. 원형탈모증
-B. 원반형 홍반성 루푸스
-C. 두부백선
-D. 발모벽
+B. 발모벽
+C. 안드로겐 탈모증
+D. 원반형 피부루푸스
 
 ## 해설
 
-통증·가려움이 있는 홍반성 인설성 두피 판이 흉터와 색소 변화를 남기며 탈모로 진행하여 원반형 홍반성 루푸스(B)를 지지한다. 원형탈모증·발모벽은 보통 비흉터성이다. 광과민성은 DLE와 연관될 수 있으나 이 환자에서 보고된 사실은 아니다. 전신 증상은 동반 전신성 루푸스 여부를 별도로 평가할 이유가 된다.
+인설성 염증 판이 가라앉은 자리에 위축·색소 변화와 흉터성 탈모가 남으면 원반형 피부루푸스를 의심한다. 전신 증상이 있다면 동반 전신성 루푸스도 평가한다.
 
 ## 검수 근거
 

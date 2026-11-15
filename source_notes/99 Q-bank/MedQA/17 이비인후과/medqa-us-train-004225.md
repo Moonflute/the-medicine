@@ -14,11 +14,11 @@ related_diseases:
   - "급성 중이염 합병증"
   - "측두골 CT"
   - "Acute mastoiditis"
-question_type: 임상증례 객관식
+question_type: management
 related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-q4ieyEsSDsnKDslpHrj4zquLDsl7wgKEFjdXRlIE1hc3RvaWRpdGlzKS5tZA
 difficulty: complex
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-9개월 여아가 3일간 지속된 발열, 보챔, 오른쪽 귀 분비물로 응급실에 왔다. 3주 전에도 귀 통증과 발열이 있었으나 진료를 받지 않고 대증치료로 호전되었다. 잦은 감염의 가족력은 없다. 아파 보이고 체온은 39.3°C이다. 오른쪽 귀 뒤에 홍반과 압통이 있으며 귓바퀴가 가쪽 및 아래쪽으로 밀려 있다. 이경검사에서 팽창하고 혼탁한 고막과 고름이 흘러나오는 소견이 보인다. 헤모글로빈 11.5 g/dL, 백혈구 15,800/mm³, 호중구 80%, 호산구 1%, 림프구 17%, 단핵구 2%, 혈소판 258,000/mm³이다. 가장 적절한 다음 관리는 무엇인가?
+9개월 아이가 중이염을 앓은 뒤 고열과 귀 뒤의 발적·압통을 보인다. 귓바퀴가 바깥쪽으로 밀리고 귀 뒤가 물렁하게 만져진다. 적절한 다음 조치는?
 
 ## 선택지
 
-A. 페닐에프린 비강 점적
-B. 측두골 CT
-C. 경구 아목시실린
-D. 경구 아스피린
+A. 비충혈제거제를 주고 귀가시킨다
+B. 경구 아목시실린만 주고 일주일 뒤 확인한다
+C. 급성 유양돌기염 합병증을 의심해 응급 이비인후과 평가·정맥 치료와 영상을 진행한다
+D. 외이도에만 점이제를 쓰고 경과를 본다
 
 ## 해설
 
-급성 중이염 뒤 고열, 귀뒤 홍반·압통과 귓바퀴의 가쪽/아래쪽 변위는 급성 유양돌기염 및 골막하 농양 가능성을 시사한다. 제시된 선택지에서는 B, 측두골 CT가 합병증 범위를 평가하는 데 적절하다. 단순한 고막 천공이나 이루만 있다는 이유로 모든 중이염에 CT가 필요한 것은 아니다. 이 상태는 신속한 이비인후과 평가와 정맥 항생제 치료를 필요로 하므로 경구 amoxicillin만으로 외래 치료하는 상황과 다르다.
+중이염 뒤 귀 뒤 부종과 귓바퀴 변위는 유양돌기염의 경고다. 골막하 농양이나 다른 합병증이 의심되면 입원 치료와 함께 영상 및 배농 필요성을 평가한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 경구 아스피린
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004225
+- https://www.chop.edu/clinical-pathway/acute-otitis-media-children-2-months-12-years-old-complications

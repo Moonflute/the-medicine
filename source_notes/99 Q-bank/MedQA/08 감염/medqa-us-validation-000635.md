@@ -16,11 +16,11 @@ related_diseases:
   - "Actinomycosis"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-uwqeyEoOq3oOymnSAoQWN0aW5vbXljb3NpcykubWQ
-question_type: management
+question_type: diagnosis
 difficulty: simple
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -40,19 +40,19 @@ related_drug_slugs:
 
 ## 문제
 
-65세 남성이 턱에 여러 덩어리가 생겨 진료를 받으러 왔다. 치아우식과 불량한 구강위생이 있고 턱 각도에 압통 없는 단단한 종괴 3개가 있으며 두꺼운 노란 고름이 배출된다. 고름 현미경에서 세균이 가득한 노란 과립이 보인다. 적절한 치료는?
+치과 수술 몇 주 뒤 턱 아래에 단단한 덩어리가 생겼다. 피부까지 이어진 여러 누공에서 노란 과립이 섞인 분비물이 나온다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 아목시실린-클라불란산
-B. 답손과 리팜핀
-C. 페니실린
-D. 트리메토프림-설파메톡사졸
+A. 급성 치성 농양
+B. 경부안면부 방선균증
+C. 결핵성 경부 림프절염
+D. 이차 감염된 새열낭종
 
 ## 해설
 
 
-턱에 고름이 배출되고 현미경에서 황색 과립(‘황 과립’)이 보이는 경우는 방선균(Actinomyces) 감염을 의미한다. 방선균은 베타-락탐계 항생제에 민감하므로 고용량 페니실린이 표준 치료이다.
+치과 시술 뒤 조직 경계를 넘는 만성 경결과 다발성 누공, 황색 과립의 조합은 방선균증을 시사한다. 단순 급성 치성 농양과 달리 서서히 퍼질 수 있다.
 
 ## 검수 근거
 
@@ -65,3 +65,4 @@ D. 트리메토프림-설파메톡사졸
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000635
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC4094581/

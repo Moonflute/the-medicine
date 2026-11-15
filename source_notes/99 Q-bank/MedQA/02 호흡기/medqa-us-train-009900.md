@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yatOuPmSDsnKDrsJwg7LKc7IudIChFeGVyY2lzZS1JbmR1Y2VkIEFzdGhtYSkubWQ
 question_type: management
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 여성이 건강검진을 위해 일차진료의에게 내원했다. 현재는 잘 지내지만 천식 때문에 운동을 할 수 없다고 한다. 평소 천식은 잘 조절되고, 일주일에 한 번 배구 연습에서 운동하려 할 때만 증상이 나타난다. 현재 알부테롤 흡입기를 한 달에 한 번만 사용한다. 폐 진찰에서 양측 공기 유입은 양호하고 천명음은 없다. 다음 중 가장 적절한 처치는?
+27세 여성이 필요시 저용량 부데소니드/포르모테롤로 천식을 잘 조절하고 있다. 운동유발 기관지수축이 확인됐고, 배구를 할 때만 숨이 찬다. 운동을 계속하기 위한 적절한 방법은?
 
 ## 선택지
 
-A. 천식 치료에 흡입 플루티카손 추가
-B. 천식 치료에 몬테루카스트 추가
-C. 운동 중단 권고
-D. 운동 전에 알부테롤 흡입기 사용 권고
+A. 평소 완화제로 쓰는 저용량 부데소니드/포르모테롤을 운동 전에 사용한다
+B. 살메테롤 단독을 새로 추가해 운동 직후 사용한다
+C. 배구를 완전히 중단한다
+D. 운동할 때마다 경구 스테로이드를 미리 복용한다
 
 ## 해설
 
-운동 전에 흡입 알부테롤을 사용하는 D는 운동유발 기관지수축 예방에 도움이 된다. 운동을 일괄적으로 중단할 이유는 없다. 다만 성인 천식의 장기 관리는 SABA만으로 끝내지 않고 ICS 포함 치료를 평가하며, 필요시 ICS/포르모테롤을 쓰는 전략도 있다. 운동 제한이 지속되면 진단, 사용법과 조절 상태를 다시 확인한다.
+필요시 저용량 흡입 스테로이드/포르모테롤을 쓰는 환자는 같은 흡입기를 운동 전에 사용해 증상을 예방할 수 있다. 운동을 일률적으로 금지하지 않는다. 운동 시 제한이 계속되면 흡입법과 전체 천식 조절을 다시 확인한다.
 
 ## 검수 근거
 
@@ -61,3 +61,5 @@ D. 운동 전에 알부테롤 흡입기 사용 권고
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009900
+- https://new.lungkorea.org/board/guide/view/14959
+- https://ginasthma.org/2026-gina-strategy-report/

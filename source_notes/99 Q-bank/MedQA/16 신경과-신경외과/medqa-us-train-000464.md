@@ -21,7 +21,7 @@ related_disease_slugs:
 difficulty: simple
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -36,19 +36,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 남성 환자가 극심한 고통을 호소하며 내원하였다. 환자는 왼쪽 머리 주변에 찌르는 듯한 극심한 통증이 있으며 왼쪽 눈에서 눈물이 멈추지 않는다고 말한다. 이러한 유형의 두통은 지난 일주일 동안 매일 아침 잠에서 깰 때마다 발생하며 약 60분간 지속된다. 환자는 전조 증상, 오심, 구토는 없다고 한다. 과거 병력은 없다. 이 환자의 진단은 무엇인가?
+25세 환자가 한쪽 눈 주위의 극심한 통증을 하루 8–10회, 한 번에 10–15분씩 겪는다. 같은 쪽 눈물과 콧물이 나며, 적절한 인도메타신 치료 뒤 발작이 완전히 사라졌다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 군발두통(Cluster headache)
-B. 만성 발작성 편측두통(Chronic paroxysmal hemicrania, CPH)
-C. 결막 충혈과 눈물을 동반한 단기 지속 편측 신경통형 두통(SUNCT) 증후군
-D. 삼차신경통(Trigeminal neuralgia)
+A. 발작성 편측두통
+B. 군발두통
+C. 삼차신경통
+D. 전조 없는 편두통
 
 ## 해설
 
 
-극심한 일측성 눈물 흘림과 일주일에 매일 새벽에 발생하는 60분 지속 통증은 군발두통의 전형적인 발작 양상이다. 따라서 진단은 군발두통이다.
+발작성 편측두통은 동측 자율신경 증상을 동반하는 매우 짧고 잦은 편측 발작이 특징이며 인도메타신으로 완전히 억제된다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 삼차신경통(Trigeminal neuralgia)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000464
+- https://ichd-3.org/3-trigeminal-autonomic-cephalalgias/3-2-paroxysmal-hemicrania/

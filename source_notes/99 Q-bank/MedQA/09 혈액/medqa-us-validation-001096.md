@@ -15,9 +15,9 @@ related_diseases:
   - "빌리루빈 생성 증가"
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_ri7Trj4Tqs4Qg7KeI7ZmYLm1k
-question_type: mechanism
+question_type: investigation
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-자동차 충돌 사고로 응급 개복술과 농축적혈구 7단위 수혈을 받은 28세 남성이 10일 후 황달이 생겼다. 총 빌리루빈은 3.9 mg/dL이고 간접 빌리루빈은 3.7 mg/dL, 직접 빌리루빈은 0.2 mg/dL이다. CT에서 복강 내 혈종이 흡수 중인 소견이다. 이 환자의 황달을 일으킨 가장 가능성 높은 원인은?
+농축적혈구 수혈 10일 뒤 환자에게 황달이 생기고 혈색소가 다시 떨어졌다. 출혈은 없고 간접 빌리루빈과 LDH가 상승했다. 지연성 용혈성 수혈반응을 확인하는 데 가장 적절한 검사는?
 
 ## 선택지
 
-A. 담도 폐쇄
-B. 간세포 손상
-C. 빌리루빈 생성 증가
-D. 비포합 빌리루빈의 간 섭취 감소
+A. 비포합 빌리루빈만 반복
+B. 직접항글로불린검사와 새로 생긴 적혈구 동종항체 검사
+C. 정맥혈 배양만 채취
+D. 분변 잠혈검사
 
 ## 해설
 
 
-주로 간접 bilirubin이 증가하고 외상 후 흡수 중인 복강 내 혈종이 있어 혈종의 적혈구 분해와 수혈 적혈구 turnover에 따른 bilirubin 생성 증가(C)가 적절하다. 수혈 10일 뒤이므로 지연성 용혈성 수혈반응도 감별하지만 원문만으로 면역용혈을 확정하지 않는다. 담도 폐쇄에서는 보통 직접 bilirubin 증가와 담즙정체 소견이 더 두드러진다.
+수혈 며칠 뒤 혈색소가 다시 낮아지고 용혈 소견이 생기면 지연성 용혈성 수혈반응을 의심한다. 혈액은행과 함께 직접항글로불린검사와 항체 동정으로 원인을 찾는다.
 
 ## 검수 근거
 
@@ -58,3 +58,5 @@ D. 비포합 빌리루빈의 간 섭취 감소
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001096
+- https://www.transfusion.or.kr/KOR/images/file/2022_5.pdf
+- https://profedu.blood.ca/en/transfusion/clinical-guide/transfusion-reactions

@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: management
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -40,7 +41,7 @@ related_drug_slugs:
 
 ## 문제
 
-55세 여성이 발열, 생산성 기침, 혼란, 광공포, 목 경직으로 응급실에 왔다. 뇌척수액은 혼탁하고 개방압 35 cmH₂O, 호중구 1,500/μL, 단백질 50 mg/dL, 포도당 30 mg/dL이다. 가장 적절한 초기 치료는?
+55세 여성이 발열, 가래가 섞인 기침, 혼란, 광공포, 목 경직으로 응급실에 왔다. 뇌척수액은 혼탁하고 개방압 35 cmH₂O, 호중구 1,500/μL, 단백질 50 mg/dL, 포도당 30 mg/dL이다. 가장 적절한 초기 치료는?
 
 ## 선택지
 

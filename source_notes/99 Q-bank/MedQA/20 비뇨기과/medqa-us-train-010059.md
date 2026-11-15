@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yWkeyEsSDsoITrpr3sg5gg67mE64yA7KadIChCZW5pZ24gUHJvc3RhdGljIEh5cGVycGxhc2lhKS5tZA
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-82세 남성이 특히 밤에 잦은 배뇨와 배뇨 시작 곤란으로 내원했다. 2개월 전부터 테라조신을 시작한 뒤 증상이 약간 호전되었다고 한다. 안정형 협심증 병력이 있고 니트로글리세린, 메토프롤롤, 아스피린을 복용한다. 혈압 125/70 mmHg, 맥박 분당 72회이다. 방광은 만져지지 않고 항문괄약근 긴장도와 구해면체근 반사는 정상이다. 직장수지검사에서 압통이나 변동이 없는 손가락 세 마디 크기의 전립선이 만져진다. 24시간 소변량은 2.5L이다. 요검사에서 단백, 적혈구, 혈색소, 세균은 음성이고 백혈구는 고배율 시야당 1~2개이다. 초음파에서 전립선은 약 50g, 배뇨 후 잔뇨량 120mL, 수신증 없는 방광벽 섬유주가 보인다. 수분 섭취 조절과 함께 현재 추가할 가장 적절한 약물은?
+72세 남성이 탐스로신을 복용 중이지만 소변줄기가 약하고 잔뇨감이 남아 있다. 초음파에서 전립선 부피는 55 mL다. 장기적으로 전립선 크기와 요폐 위험을 줄이기 위해 추가할 약은?
 
 ## 선택지
 
-A. 피나스테리드
-B. 옥시부티닌
+A. 옥시부티닌
+B. 테라조신
 C. 타다라필
-D. 탐스로신
+D. 피나스테리드
 
 ## 해설
 
-50 g 전립선과 기존 terazosin에 불충분한 반응이 있어 A, finasteride를 추가하여 장기적으로 전립선 크기와 진행 위험을 줄일 수 있다. Tadalafil은 LUTS에 효과가 있을 수 있으나 이 환자는 nitroglycerin을 사용하므로 금기이다. Tamsulosin을 기존 alpha 차단제에 단순 중복 추가하지 않으며 oxybutynin은 잔뇨·배뇨곤란 위험을 고려해야 한다. 다른 약들이 본질적으로 모두 효과가 없는 것은 아니다.
+크기가 큰 전립선에서 5α-환원효소 억제제를 추가하면 수개월에 걸쳐 전립선이 작아지고 급성 요폐와 수술 위험이 줄어든다. 알파 차단제를 두 종류 병용하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 탐스로신
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010059
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC4778754/

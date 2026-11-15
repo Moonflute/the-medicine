@@ -13,13 +13,13 @@ related_diseases:
   - "편두통"
   - "편두통 전구증상"
   - "편두통 예방"
-question_type: prevention
+question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tjrjrkZDthrUgKE1pZ3JhaW5lKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,21 +37,22 @@ related_drug_slugs:
 
 ## 문제
 
-36세 여성이 지난 3개월 동안 반복되는 두통이 있어 진료를 받으러 왔다. 두통은 하루 종일 지속되고 한쪽에서 욱신거리며, 심한 오심으로 일을 하거나 일상활동을 수행할 수 없다. 두통이 시작되기 전에 평소보다 배가 고파지는 것을 느꼈다. 어두운 방에 들어가 이부프로펜을 복용하며 두통이 가라앉을 때까지 외출을 피한다. 그러나 지난 한 달 동안 두통이 주 2~3회로 증가했고 더 심해졌다. 암로디핀으로 치료 중인 고혈압이 있다. 체온은 37°C (98.6°F), 맥박은 분당 80회, 혈압은 128/76 mm Hg이며 신체 및 신경학적 검사는 정상이다. 이 환자의 두통을 장기간 예방하기 위한 가장 적절한 치료는 무엇인가?
+36세 환자의 편두통이 주 2–3회로 늘어 취업 활동에 지장이 있다. 맥박은 분당 80회이고 천식이나 방실전도 장애는 없다. 발작 빈도를 줄이기 위한 예방약은?
 
 ## 선택지
 
-A. 플루옥세틴
-B. 에르고타민
-C. 프로프라놀롤
-D. 수마트립탄
+A. 두통이 올 때 수마트립탄
+B. 매일 나프록센
+C. 두통이 올 때 경구 메토클로프라미드
+D. 매일 프로프라놀롤
 
 ## 해설
 
 
-편두통 예방에 베타 차단제인 프로프라놀롤이 1차 선택이며, 혈압 조절 효과도 있다. 따라서 프로프라놀롤이 가장 적절한 예방약이다.
+프로프라놀롤은 대한두통학회가 제시하는 편두통 예방약이다. 수마트립탄 등 급성 치료제와 목적이 다르며 맥박·혈압과 금기 등을 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004373
+- https://www.e-hpr.org/journal/view.php?number=907

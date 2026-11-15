@@ -16,6 +16,7 @@ related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tirnrsJzshLEg65GQ6rCc64K0IOqzoO2YiOyVlSAoSWRpb3BhdGhpYyBJbnRyYWNyYW5pYWwgSHlwZXJ0ZW5zaW9uKS5tZA
 difficulty: complex
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-30세 비만 여성 환자가 새로 발생한 두통, 이명, 시야 흐림을 주소로 내원하였다. 이부프로펜(ibuprofen) 복용과 빛 차단은 증상을 완화하지 못했다. 최근 외상, 발열, 오한, 피로의 병력은 없다. 과거력상 메트포르민(metformin)으로 조절 중인 제2형 당뇨병이 있다. 평생 시력은 20/20이었으며 안경이 필요한지 궁금해한다. 건강한 학령기 자녀 2명이 있다. 체온은 36.8°C, 심박수는 90회/분, 호흡수는 15회/분, 혈압은 135/80 mm Hg이다. 신체 검진상 외측 안구 운동 감소가 관찰되며, 안저 검사 소견은 사진과 같다. 검사실 검사 결과는 정상 범위 내에 있고 뇌 영상 검사도 정상이다. 요추 천자 결과 개방 압력(opening pressure) 상승과 정상적인 뇌척수액(CSF) 성분이 확인되었다. 이 질환을 치료하는 데 사용되는 약물의 부작용으로 옳은 것은?
+비만한 30세 여성이 두통, 박동성 이명, 시야 흐림으로 내원했다. 뇌 영상과 정맥 평가에서 다른 원인이 배제됐고, 뇌척수액 성분은 정상이지만 개방압이 높아 특발성 두개내고혈압을 진단했다. 아세타졸아미드의 이상반응으로 환자에게 안내할 것은?
 
 ## 선택지
 
@@ -46,7 +47,7 @@ D. 췌장염
 
 ## 해설
 
-비만·두통/이명·시각증상과 정상 뇌영상/CSF성분·개방압상승은 IIH를 지지한다. 아세타졸아미드는 탄산탈수효소를 억제해 근위세뇨관 중탄산 재흡수를 감소시키고 중탄산뇨·소변알칼리화를 일으켜 결석 위험(A)을 높일 수 있다. H+배설 증가가 핵심인 약물이 아니며 혈중 중탄산 감소/대사산증과도 연관된다. 사진이 없어도 제공된검사로 약물/부작용을 판단 가능하다.
+아세타졸아미드는 탄산탈수효소 억제로 중탄산 배설을 늘린다. 소변이 알칼리화되고 신장 결석이 생길 수 있다. 손발 저림이나 대사성 산증도 고려한다.
 
 ## 검수 근거
 

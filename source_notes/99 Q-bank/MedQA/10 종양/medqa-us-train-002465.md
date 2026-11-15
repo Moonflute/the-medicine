@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-58세 여성이 한 달간 지속된 두통으로 내원했다. 2년 전 왼쪽 유방 침윤성 소엽암으로 왼쪽 유방절제술과 여러 차례 항암치료를 받았지만 이후 건강했다. 신경학적검사는 정상이고 뇌 MRI에서 뇌 표면 가까이에 4 cm 크기의 측두엽 고신호 종괴가 보인다. 다음 중 가장 적절한 치료의 다음 단계는?
+58세 유방암 환자의 단일 뇌전이를 완전 절제했다. 절제 공동은 2.2 cm이고 정위치료가 가능한 위치다. 다른 뇌전이는 없고 전신 상태는 양호하다. 재발을 줄이면서 인지기능 손상을 줄일 국소 보조치료는?
 
 ## 선택지
 
-A. 전뇌 방사선치료
-B. 수술적 절제
-C. 항암화학요법
-D. 항생제 치료
+A. 절제 공동에 정위 방사선치료
+B. 전뇌 방사선치료를 우선 시행
+C. 증상이 생길 때까지 국소치료 없이 기다린다
+D. 수술 부위를 추가로 광범위 절제한다
 
 ## 해설
 
 
-유방암 병력이 있는 환자에서 새 두통과 표재성4cm 뇌 종괴는 전이를 의심하게 한다. 제시된 크기와 수술 접근성을 고려하면 수술적 절제(B)는 진단 조직 확보와 국소 조절에 적절하다. 다만 영상만으로 유방암 전이를 확정하지 않으며 다른 원발성 종양도 감별한다. 수술 후 국소 방사선 등은 병리·다른 병변·전신질환 상태에 따라 계획하고 모든 뇌 전이에서 수술이 항상 최선인 것은 아니다.
+수술한 뇌전이가 소수이고 절제 공동에 정위치료가 가능하면 공동을 표적으로 치료한다. 단일 공동에서 전뇌 방사선 대신 국소 정위치료를 사용하면 인지기능 손상 위험을 줄일 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 항생제 치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002465
+- https://pubmed.ncbi.nlm.nih.gov/34932393/

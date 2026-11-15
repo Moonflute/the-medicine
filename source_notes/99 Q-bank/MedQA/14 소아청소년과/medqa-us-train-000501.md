@@ -23,6 +23,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-uCreyEseyErOycoOymnSAoQ3lzdGljIEZpYnJvc2lzKS5tZA
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -39,18 +40,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-분만 6시간 후, 3050g(6lb 12oz)의 남아가 수유 불내성과 수차례의 담즙성 구토를 보였습니다. 이 환아는 건강한 35세 산모에게서 정상 질식 분만을 통해 만삭으로 태어났습니다. 임신 과정은 합병증이 없었으나, 산모는 산전 검진을 여러 번 받지 않았습니다. 환아의 형은 영아기에 유문협착증(pyloric stenosis)으로 수술을 받은 적이 있습니다. 활력 징후는 정상 범위 내에 있습니다. 신체 검진상 눈구석주름(epicanthus), 위로 치켜 올라간 눈꺼풀, 낮게 위치한 귀, 단일 가로 손금(single transverse palmar crease)이 관찰됩니다. 폐 청진음은 정상입니다. 좌측 중하부 흉골 경계에서 2/6 등급의 전수축기 잡음(holosystolic murmur)이 들립니다. 복부 검진상 상복부 팽만과 오목한 형태의 하복부가 관찰됩니다. 장기 비대는 없습니다. 복부 X-선 사진이 제시되었습니다. 가장 가능성이 높은 진단은 무엇입니까?
+생후 6시간 된 만삭 남아가 첫 수유 이후 반복해서 담즙성 구토를 한다. 윗배는 팽창했지만 아랫배는 오목하다. 복부 X선에서 위와 근위 십이지장에 해당하는 두 개의 큰 공기 음영이 있고 그 아래 장에는 가스가 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 괴사성 장염(Necrotizing enterocolitis)
-B. 십이지장 폐쇄(Duodenal atresia)
-C. 히르슈슈프룽병(Hirschsprung's disease)
-D. 태변 장폐색(Meconium ileus)
+A. 괴사성 장염
+B. 십이지장 폐쇄
+C. 히르슈스프룽병
+D. 태변 장폐색
 
 ## 해설
 
-다운증후군을 시사하는 외형과 출생 직후 담즙성 구토, 상복부 팽만·오목한 하복부는 십이지장 폐쇄(B)에 부합한다. 전형적인 이중기포(double-bubble) 징후는 위와 근위 십이지장에 찬 공기이며 양쪽 장벽을 뜻하지 않는다. 현재 참조 X선은 포함되어 있지 않아 실제 영상 소견은 검수하지 않았고 서술된 증상·외형과 진단 연관성에 한해 정답을 유지한다.
+위와 근위 십이지장이 팽창해 이중기포가 보이고 원위 장 가스가 없으면 완전 십이지장 폐쇄를 강하게 시사한다. 신생아 담즙성 구토는 신속한 평가가 필요하며, 중장염전 같은 응급 원인도 초기 감별에 포함한다.
 
 ## 검수 근거
 

@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_rjIDsnqUg7Jqp7KKFIChDb2xvbmljIFBvbHlwKS5tZA
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_qsIDsiqTtirjrprDsooUgKEdhc3RyaW5vbWEpLm1k
-question_type: diagnosis
+question_type: prevention
 difficulty: standard
 answer: D
 translation_status: machine-verified
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-41세 여성이 방사선 종양학 전문의의 의뢰로 의학 유전학 클리닉에 내원하였다. 환자는 최근 유방의 침윤성 관암종(infiltrating ductal carcinoma)을 진단받았다. 환자는 과거에 대장 용종 병력이 있어 6개월마다 대장내시경 검사를 받고 있다. 모계 및 부계 가족력상 용종이나 악성 또는 양성 종양은 없다. 그러나 환자는 10세 된 아들의 입술에 짙은 갈색 색소 침착이 있으며, 자신도 어린 시절에 비슷한 색소 침착이 있었다고 보고하였다. 이 환자의 대장 용종 조직검사에서 가장 가능성이 높은 소견은 무엇인가?
+푸츠–예거스 증후군 관련 STK11 병적 변이가 확인된 10세 아동이 증상 없이 내원했다. 위·대장 평가와 별개로, 장중첩증 위험이 있는 소장 용종을 찾기 위한 검사는?
 
 ## 선택지
 
-A. 과증식성 용종(Hyperplastic polyps)
-B. 선종성 용종(Adenomatous polyps)
-C. 염증성 용종(Inflammatory polyps)
-D. 과오종성 용종(Hamartomatous polyp)
+A. 분변잠혈검사
+B. 복부 단순 X선
+C. 혈청 CEA 검사
+D. 자기공명 소장조영술
 
 ## 해설
 
-정답은 D이다. 본인/아들의 입술 색소침착과 반복 장용종, 젊은 유방암 병력은 Peutz–Jeghers 증후군을 시사한다. 이 질환의 대표 용종은 과오종성이다. 본문에 환자의 대장암 병력이 있는 것은 아니며 가족의 상위 세대에서 종양이 없다고 질환을 배제하지 않는다.
+푸츠–예거스 증후군에서는 어릴 때부터 소장 용종을 감시한다. 자기공명 소장조영술이나 캡슐내시경으로 평가할 수 있다. 큰 소장 용종을 찾으면 장중첩 위험을 줄이기 위해 제거를 검토한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 과오종성 용종(Hamartomatous polyp)
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000328
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7865862/

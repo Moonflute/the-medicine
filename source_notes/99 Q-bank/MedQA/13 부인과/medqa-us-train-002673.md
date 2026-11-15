@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTIg7IKw6rO8L-yCsO2bhOy2nO2YiC5tZA
 difficulty: simple
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-27세 G3P2 여성이 쌍둥이를 합병증 없이 질식분만했다. 두 태반은 곧 분만되었지만 이후 1시간 동안 예상 실혈량 1,150 mL의 질출혈이 지속된다. 활력징후는 정상이고 자궁은 커져 있으며 부드럽다. 다음 중 가장 적절한 치료의 다음 단계는?
+27세 여성이 쌍둥이를 질식분만했다. 태반 두 개가 모두 나온 뒤에도 1시간 동안 약 1,150 mL의 출혈이 지속된다. 자궁은 커져 있고 부드럽다. 수액과 옥시토신 등 초기 치료를 시작하면서 자궁 수축을 돕기 위해 즉시 시행할 침상 처치는?
 
 ## 선택지
 
-A. 메틸에르고메트린
-B. 흡인 소파술
-C. 트라넥삼산
-D. 양손 자궁 마사지
+A. 외부 대동맥 압박
+B. 자궁강 흡인 소파술
+C. 자궁 내 풍선 탐포네이드
+D. 자궁 마사지
 
 ## 해설
 
-부드럽고 큰 자궁과 실혈 1,150 mL는 자궁이완성 산후출혈이다. 양손 마사지(D)를 즉시 시행하되 자궁수축제·TXA·수액·원인 평가를 함께 진행한다. 마사지 효과를 기다린 뒤에만 약물을 고려하는 것은 부적절하며 정상 활력징후도 대량출혈을 배제하지 않는다.
+부드럽고 커진 자궁은 자궁이완을 시사한다. 즉시 자궁 마사지를 시작하면서 자궁수축제, 트라넥삼산, 수액 등 산후출혈 초기 치료를 병행하고 출혈 원인을 확인한다. 풍선 탐포네이드는 초기 치료로도 출혈이 조절되지 않을 때 고려한다. 태반 잔류의 단서 없이 소파술을 먼저 하지는 않는다.
 
 ## 검수 근거
 
@@ -60,3 +61,4 @@ D. 양손 자궁 마사지
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002673
+- WHO·FIGO·ICM 산후출혈 통합 지침(2025), 초기 치료: https://www.ncbi.nlm.nih.gov/books/NBK619233/table/ch3.tab33/

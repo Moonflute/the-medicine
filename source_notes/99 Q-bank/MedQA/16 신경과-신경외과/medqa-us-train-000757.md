@@ -19,9 +19,9 @@ related_disease_slugs:
   - MTcg7J2067mE7J247ZuE6rO8L-ydtOyEneymnSAoQmVuaWduIHBhcm94eXNtYWwgcG9zaXRpb25hbCB2ZXJ0aWdvKS5tZA
   - MTcg7J2067mE7J247ZuE6rO8L-yghOygleyLoOqyveyXvCAoVmVzdGlidWxhciBuZXVyaXRpcykubWQ
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -34,21 +34,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-70세 여성이 특정 자세에서 호전되는 갑작스러운 어지럼증 발작을 주소로 일차 진료 의사를 방문하였다. 추가적인 문진에서 환자는 현훈(vertigo)과 일치하는 가끔씩 회전하는 느낌을 동반한 거짓 움직임 감각을 호소하였다. 노인성 난청(presbycusis) 외에 최근의 질병이나 청력 소실은 부인하였다. 활력 징후는 정상이다. 신체 검진 중 환자가 앉은 자세에서 누운 자세로 변경한 후 현훈 증상을 보고하였으며, 동시에 수평 안진(horizontal nystagmus)이 관찰되었다. 가장 가능성이 높은 진단은 무엇인가?
+편두통 병력이 있는 환자가 6개월간 30분에서 몇 시간 지속되는 현훈을 여섯 차례 겪었다. 절반 이상에서 빛공포와 평소와 같은 박동성 두통이 동반된다. 청력은 정상이고 자세 하나로 짧게 유발되지는 않는다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 전정 편두통(Vestibular migraine)
-B. 미로염(Labyrinthitis)
-C. 양성 돌발성 체위성 현훈(BPPV)
-D. 전정 신경염(Vestibular neuritis)
+A. 메니에르병
+B. 후반고리관 이석증
+C. 전정신경염
+D. 전정편두통
 
 ## 해설
 
 
-특정 체위 변화 후 현훈과 수평 안진이 나타나는 것은 양성 돌발성 체위성 현훈(BPPV)의 전형적인 임상양상이다. 따라서 가장 가능성 높은 진단은 BPPV이다.
+반복 현훈이 5분~72시간 지속되고 편두통 병력과 발작 중 편두통 특징이 있으면 전정편두통을 고려한다. 수초짜리 체위 유발 현훈이나 변동 청력저하와 감별한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000757
+- https://pubmed.ncbi.nlm.nih.gov/34719447/

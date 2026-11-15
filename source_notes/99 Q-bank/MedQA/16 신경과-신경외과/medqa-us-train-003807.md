@@ -14,7 +14,7 @@ related_diseases:
   - "multiple sclerosis treatment"
   - "visual hallucinations"
   - "steroid psychosis"
-question_type: adverse_effect
+question_type: risk_factor
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-다발성 경화증 병력이 있는 50세 남성이 최근 며칠간 거실에 토끼, 호랑이, 에뮤가 보인다고 반복적으로 말하는 이상행동으로 내원했다. 2주 전 새로 발생한 왼쪽 상지 근력저하로 신경과 진료를 받았다. 신경학적 검사는 이전과 동일했고 혈당은 356 mg/dL였다. 다음 중 증상의 가장 가능성 높은 원인은?
+다발성경화증 재발로 고용량 메틸프레드니솔론을 투여한 지 3일 뒤, 환자가 잠을 거의 자지 않고 초조해하며 없는 것이 보인다고 한다. 혈당도 새로 크게 상승했다. 기존 신경결손은 그대로다. 우선 검토할 설명은?
 
 ## 선택지
 
-A. 약물 부작용
-B. 원발성 정신질환
-C. 신경질환의 진행
-D. 기분전환용 약물 중독
+A. 고용량 스테로이드 관련 이상반응
+B. 인터페론 베타 금단
+C. 만성 뇌혈관성 인지장애
+D. 나탈리주맙 관련 합병증
 
 ## 해설
 
-정답은 A, 약물 부작용이다. 최근 MS 재발 진료 후 새로운 환시와 고혈당은 재발 치료에 흔히 쓰는 고용량 코르티코스테로이드의 부작용을 시사한다. 그러나 실제 약제·용량은 본문에 없으므로 이는 출제 맥락상 추론이다. 스테로이드와 모든 면역억제제를 같은 정신 부작용으로 일반화하지 않고, 실제 투약을 확인하며 감염·대사성 섬망 등도 평가한다.
+고용량 스테로이드 사용 직후에는 수면·기분·행동 변화와 고혈당이 생길 수 있다. 투약 이력을 확인하고 감염이나 대사 이상에 의한 섬망도 함께 평가한다.
 
 ## 검수 근거
 

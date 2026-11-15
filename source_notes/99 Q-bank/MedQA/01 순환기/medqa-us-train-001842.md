@@ -16,11 +16,11 @@ related_diseases:
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_rj5nsoJXrp6Ug7KeI7ZmYIChBcnRlcmlvdmVub3VzIG1hbGZvcm1hdGlvbikubWQ
   - MDEg7Iic7ZmY6riwL-yLrOu2gOyghC5tZA
-question_type: risk_factor
+question_type: mechanism
 difficulty: simple
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-13세 남아가 그날 아침 입술에서 출혈이 있어 내원했다. 어린 시절부터 반복적인 코피가 있었고 아버지도 같은 병력이 있다. 키와 체중은 60백분위수이다. 입술, 코, 손가락에 작고 여러 개의 확장된 모세혈관이 보인다. 다음 중 위험이 증가하는 질환은 무엇인가?
+45세 여성이 반복적인 코피와 입술·손가락의 모세혈관확장으로 유전성 출혈성 모세혈관확장증을 진단받았다. 최근 운동 시 호흡곤란과 다리 부종이 생겼다. 빈혈은 없고 좌심실 박출률은 보존돼 있다. 간 도플러에서 굵어진 간동맥과 비정상적으로 빠른 동정맥 혈류가 보인다. 심부전을 설명하는 기전은?
 
 ## 선택지
 
-A. 녹내장
-B. 신세포암
-C. 고박출성 심부전
-D. 위장관 용종
+A. 간경변으로 인한 혈장 교질삼투압 감소
+B. 폐동맥 혈전으로 인한 우심실 후부하 상승
+C. 간 동정맥 단락에 의한 고박출 상태
+D. 좌우 심실 사이 단락에 의한 폐혈류 증가
 
 ## 해설
 
 
-Hereditary hemorrhagic telangiectasia는 다발성 모세혈관 확장으로 AVM을 유발하고, 고출력 심부전이 흔한 합병증이다. 따라서 고박출성(고출력) 심부전 위험이 증가한다.
+간 혈관기형의 동정맥 단락이 크면 전신혈관저항이 낮아지고 정맥환류가 늘어 고박출성 심부전이 생길 수 있다. 박출률이 정상이라는 이유로 심부전을 배제하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ Hereditary hemorrhagic telangiectasia는 다발성 모세혈관 확장으로 AVM
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001842
+- https://hhtguidelines.org/liver/

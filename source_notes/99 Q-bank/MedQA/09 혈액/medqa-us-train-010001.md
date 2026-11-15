@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-u5hO2DgOuvvCBLIOqysO2VjSAoVml0YW1pbiBLIERlZmljaWVuY3kpLm1k
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_sp4DrsKnrs4AgKFN0ZWF0b3JyaGVhKS5tZA
-question_type: investigation
+question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-이전에 건강했던 9세 남아가 3개월 동안 간헐적인 복통이 있어 어머니와 함께 내원했다. 그동안 평소보다 피곤해했고 지난 2개월 동안 물을 내려도 잘 내려가지 않는 bulky한 변을 보았다. 이모에게 전신홍반루푸스가 있다. 키는 31백분위수, 체중은 5백분위수이다. 활력징후는 정상이다. 양쪽 무릎, 왼쪽 전완, 등 위쪽에 산재한 멍이 있고 복부는 약간 팽창되며 장음은 항진되어 있다. 혈색소 11.1 g/dL, 백혈구 4,500/mm³, 혈소판 243,000/mm³, MCV 78 μm³, 출혈시간 5분, 프로트롬빈 시간 24초, 부분 트롬보플라스틴 시간 45초이다. 추가 평가에서 다음 중 어떤 소견이 나타날 가능성이 가장 높은가?
+수개월째 지방변을 보는 9세 아이가 멍이 쉽게 들어 내원했다. 혈소판은 정상이고 PT가 연장됐다. 간의 다른 합성기능은 상대적으로 보존됐고 항응고제 노출은 없다. 가장 먼저 의심할 영양 결핍은?
 
 ## 선택지
 
-A. 제8응고인자 결핍
-B. 단백질 S 활성 증가
-C. 혈청 항인지질 항체 증가
-D. 제2응고인자 결핍
+A. 비타민 B12
+B. 비타민 B1
+C. 철분
+D. 비타민 K
 
 ## 해설
 
 
-지방변·저체중과 멍, 정상 혈소판 수 및 연장된 PT/aPTT는 지방 흡수장애에 따른 비타민 K 결핍을 시사한다. 비타민 K 의존 인자는 II·VII·IX·X이며 선택지 중 II인자 감소(D)가 맞다. PTT 45초도 연장된 값으로 정상이라고 설명할 수 없다. 특정 흡수장애 질환의 확진은 별도 평가가 필요하다.
+지방 흡수장애는 지용성 비타민 K 결핍을 일으킬 수 있다. 비타민 K 의존 응고인자가 감소해 PT가 늘며, 결핍이 심하면 aPTT도 연장될 수 있다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 제2응고인자 결핍
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010001
+- https://www.ncbi.nlm.nih.gov/books/NBK532921/

@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yblOqyveyghCDspp3tm4TqtbAgKFByZW1lbnN0cnVhbCBTeW5kcm9tZSkubWQ
 difficulty: standard
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-33세 여성이 지난 1년 동안 4주마다 일주일씩 반복되는 두통으로 내원했다. 이 기간에 하복부 통증과 유방 압통도 있고 자주 짜증을 낸다. 월경은 28일 간격으로 규칙적이고 양은 중등도이며 마지막 월경은 3주 전이었다. 사회적으로 맥주 2~5잔을 마시고 하루 한 갑을 피우다가 6개월 전 금연했다. 어머니와 언니에게 갑상샘기능저하증이 있다. 신체검사는 정상이다. 진단을 확정하는 데 가장 도움이 되는 것은 무엇인가?
+33세 여성이 월경 전 1주 동안 과민성과 우울감이 심해 근무에 지장을 받고, 월경이 시작되면 호전되어 다음 주에는 증상이 없다. 월경전불쾌장애를 확인할 방법은?
 
 ## 선택지
 
-A. 니코틴 껌 치료 시험
-B. 갑상샘호르몬 평가
-C. 성선자극호르몬 연속 측정
-D. 월경 일지 작성
+A. 황체기에 에스트라디올을 한 번 측정한다
+B. 두 월경 주기 이상 증상과 기능 저하를 매일 기록한다
+C. 과거 증상을 한 번 회상하는 설문으로만 확진한다
+D. 월경 시작 후에만 우울 증상을 평가한다
 
 ## 해설
 
 
-월경 전에 두통, 복통, 유방 압통, 과민성 등 주기적인 증상이 나타나는 것이 월경전증후군(PMS)의 핵심 단서이다. 증상의 시기와 강도를 체계적으로 기록하면 월경 주기와의 연관성을 확인할 수 있어 진단을 확정한다. 따라서 월경 일지 작성을 선택한다.
+주기적 변동과 다른 기분장애의 월경 전 악화를 구별하려면 적어도 두 주기에 걸쳐 전향적 일일 증상 기록이 필요하다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004795
+- https://pubmed.ncbi.nlm.nih.gov/37973069/

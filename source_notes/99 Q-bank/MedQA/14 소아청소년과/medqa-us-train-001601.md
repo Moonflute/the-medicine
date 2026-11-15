@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv65Kk7IS8IOq3vOuUlOyKpO2KuOuhnO2UvCAoRHVjaGVubmUgTXVzY3VsYXIgRHlzdHJvcGh5KS5tZA
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-4세 남아가 점점 심해지는 다리 쇠약을 걱정한 어머니와 함께 소아과에 내원했다. 몇 달 전까지 이웃과 몇 시간씩 밖에서 놀았지만 최근에는 15분만 지나도 피곤해 보도에 앉는다. 다리가 ‘졸리다’고 말한다. 집 카펫 가장자리에 자꾸 걸려 카펫을 치웠다. 수줍지만 형제와 다른 아이들에게 잘 협조한다. 이름과 성을 말하고 막 숫자 세기를 시작했다. 15개월에 완전히 걷기 시작했다. 12개월에 세기관지염으로 입원했으나 지지요법으로 호전되었다. 7개월에 잠복고환 고정술을 받았고 다른 만성질환이나 약물은 없다. 예방접종은 최신이며 2주 전 독감 예방접종도 받았다. 어머니는 전신홍반루푸스, 아버지 쪽 삼촌은 피부근염이 있다. 양쪽 종아리 둘레가 허벅지에 비해 크고 양쪽 대퇴사두근 근력 3/5, 종아리 4/5, 감각은 정상이다. 아킬레스건 반사는 양측 1+이고 한 발 뛰기는 가능하지만 10회 후 피곤해진다. 약간 오리걸음이 있다. 진단을 확인하기 위한 가장 적절한 검사는 무엇인가?
+4세 남아가 자주 넘어지고 계단을 오르기 힘들어한다. 일어설 때 손으로 허벅지를 짚으며, 양쪽 종아리가 굵고 혈청 크레아틴키나아제는 정상 상한의 40배다. 뒤시엔 근이영양증을 확인할 검사는?
 
 ## 선택지
 
-A. 아세틸콜린 수용체 항체
-B. 크레아틴키나아제 수치
-C. 유전자검사
-D. 신경전도검사
+A. SMN1 유전자 복제수 검사
+B. DMD 유전자 결실·중복 검사와 필요시 염기서열 분석
+C. 신경전도검사 단독
+D. 항아세틸콜린수용체 항체
 
 ## 해설
 
 
-Duchenne 근이영양증은 X‑연결 열성 유전병으로 DMD 유전자 결함을 확인하는 유전자 검사가 확진에 필수이다. 근력 저하와 종아리 비대가 전형적인 임상소견이다. 따라서 가장 적절한 검사는 유전자 검사이다.
+근위부 약화와 종아리 가성비대, 현저한 크레아틴키나아제 상승은 디스트로핀병증을 시사한다. DMD 유전자 검사가 일차 확진 검사이며, 결실·중복이 없으면 다른 병적 변이를 찾는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-001601
+- https://pubmed.ncbi.nlm.nih.gov/29395989/

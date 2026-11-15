@@ -17,9 +17,9 @@ question_type: investigation
 related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-ychOyepeq0gC_quInshLEg7Lap7IiY7Je8IChBY3V0ZSBBcHBlbmRpY2l0aXMpLm1k
 difficulty: complex
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-10세 여아가 12시간 동안 악화된 하복부 통증으로 응급실에 왔다. 간헐적 설사와 두 차례 구토가 있었고 어머니는 크론병을 앓는다. 체온 38.1°C, 맥박 95회/분, 호흡 20회/분, 혈압 110/70 mmHg이다. 복부는 부드럽고 오른쪽 아래배에 경미한 압통이 있으나 반발통이나 경직은 없다. 백혈구 12,800/mm³, 혈소판 345,000/mm³이고 소변검사는 요로감염 소견이 없다. 다음 중 가장 적절한 치료의 다음 단계는?
+10세 아이에게 발열과 우하복부 국소 압통이 지속된다. 첫 충수 초음파에서 충수가 보이지 않았고, 재평가에서도 충수염 의심이 높다. 활력은 안정적이고 복막염 소견은 없다. 즉시 진정 없이 MRI를 할 수 있다면 적절한 다음 검사는?
 
 ## 선택지
 
-A. 복부 초음파
-B. 복부 CT
-C. 복부 X선
-D. 복부 MRI
+A. 복부 단순 X선
+B. 복부·골반 MRI
+C. 대장내시경
+D. 다음 날까지 외래 관찰 후 소변 재검
 
 ## 해설
 
 
-소아 복통에서 급성 충수염이 의심될 때 첫 번째 영상검사는 방사선 노출이 적은 복부 초음파이다. 초음파는 충수염의 비대와 주변 삼출을 확인할 수 있다. 따라서 복부 초음파가 적절한 다음 단계이다.
+충수가 보이지 않았다는 이유만으로 충수염을 배제할 수 없다. 의심이 계속되는 안정적인 소아에서 즉시 가능하면 MRI가 방사선 없는 추가 영상이다. MRI가 어렵거나 늦어지면 조영 CT도 적절할 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002566
+- https://acsearch.acr.org/docs/3105874/Narrative/

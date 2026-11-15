@@ -18,11 +18,11 @@ related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yLrOu2gCDsoJXrp6Ug7ZiI7KCE7KadIOuwjyDtj5Dsg4nsoITspp0gKERlZXAgVmVpbiBUaHJvbWJvc2lzIGFuZCBQdWxtb25hcnkgRW1ib2xpc20pLm1k
   - MDcg66WY66eI7Yuw7IqkL-2VreyduOyngOyniCDspp3tm4TqtbAgKEFudGlwaG9zcGhvbGlwaWQgU3luZHJvbWUpLm1k
   - MDkg7ZiI7JWhL-ycoOyghOyEsSDtmIjsoITshLHtlqXspp0gKEluaGVyaXRlZCBUaHJvbWJvcGhpbGlhKS5tZA
-question_type: investigation
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,19 +39,19 @@ related_drug_slugs:
 
 ## 문제
 
-24세 여성이 24시간 동안 왼쪽 다리 통증과 부종으로 내원했다. 걸을 때 악화되고 쉬면 호전된다. 7개월 전 폐색전증으로 진단받아 와파린을 시작했으나 한 달 전 항응고제를 중단했다. 자매는 전신홍반루푸스가 있다. 왼쪽 종아리는 미만성 홍반, 부종, 압통이 있고 발을 발등굽힘하면 통증이 유발된다. 초음파에서 왼쪽 오금정맥이 압박되지 않으며 D-dimer 상승과 활성화 단백질 C에 대한 저항성이 있다. 추가 검사에서 가장 가능성 높은 소견은?
+두 차례 명확한 유발 요인 없이 근위부 정맥혈전이 생긴 환자가 두 번째 급성기의 치료를 마쳤다. 출혈 위험은 낮다. 유전성 혈전성 소인 검사를 아직 하지 않았다. 재발 예방을 위한 기본 계획은?
 
 ## 선택지
 
-A. 항인지질항체
-B. 응고인자 V 돌연변이
-C. 호모시스테인 수치 상승
-D. 단백질 C 결핍
+A. 유전자 검사 결과가 나올 때까지 항응고제를 중단한다
+B. 출혈 위험을 주기적으로 확인하면서 장기 항응고를 유지한다
+C. 유전자 검사가 음성이면 항응고를 즉시 중단한다
+D. 유전 결과와 무관하게 항응고 대신 아스피린으로 바꾼다
 
 ## 해설
 
 
-반복성 정맥 혈전증과 항응고제 중단 이력이 있으며, 혈액검사에서 APC 저항성이 확인되면 가장 흔한 유전성 혈전증인 Factor V Leiden 변이를 의심한다. 따라서 가장 가능성 높은 소견은 Factor V Leiden 변이이다.
+유발 요인이 없는 정맥혈전이 재발하면 장기 항응고를 권고한다. 유전성 혈전성 소인 검사 결과가 이 치료 필요성을 대신 판단하지 않는다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 단백질 C 결핍
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003159
+- https://ashpublications.org/bloodadvances/article/4/19/4693/463998

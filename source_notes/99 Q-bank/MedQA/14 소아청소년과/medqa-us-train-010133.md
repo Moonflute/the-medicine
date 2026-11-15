@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6rCA7JmA7IKs7YKk67ORIChLYXdhc2FraSBEaXNlYXNlKS5tZA
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-4세 남아가 7일 동안 지속된 발열과 경미한 복통으로 부모와 함께 내원했다. 2일 전 발진이 생겼고 설사나 구토는 없다. 4주 전 가족과 콜로라도로 캠핑을 다녀왔으며 예방접종 기록은 확인할 수 없다. 체온 39.4°C, 맥박 분당 111회, 호흡수 분당 27회, 혈압 96/65 mmHg이다. 양측 결막충혈, 아랫입술 균열, 인두 홍반, 압통성 경부 림프절병증, 손발 부종이 있다. 몸통에 반점상 홍역모양 발진이 있고 양쪽 무릎 관절이 붓고 압통이 있으며 통증으로 운동범위가 제한된다. 다음 중 가장 적절한 치료는?
+4세 아이가 7일째 고열을 보인다. 양쪽 눈의 비삼출성 충혈, 갈라진 입술, 몸통 발진과 손발 부종이 있다. 가와사키병이 진단됐고 심초음파를 준비 중이다. 핵심 초기 치료는?
 
 ## 선택지
 
-A. 경구 독시사이클린
-B. 지지요법만
-C. 경구 페니실린
-D. 정맥 면역글로불린
+A. 항생제를 먼저 투여하고 열이 끝날 때까지 관찰
+B. 정맥 면역글로불린을 신속히 투여하고 아스피린을 병행
+C. 아스피린만 투여하고 심장 평가는 증상 발생 후 시행
+D. 정맥 면역글로불린은 관상동맥류가 생긴 뒤에만 투여
 
 ## 해설
 
-지속 발열과 결막·구강·사지·림프절·발진 소견은 가와사키병에 부합한다. IVIG(D)는 통상 2 g/kg을 단회 정주하며 aspirin 및 심초음파 평가를 병행한다. 5 mg/kg은 이 적응증의 IVIG 표준 용량이 아니다.
+정맥 면역글로불린(일반적으로 2 g/kg 1회)이 관상동맥 합병증을 줄이는 핵심 치료다. 아스피린을 병행하고, 심초음파를 준비하느라 치료를 지연하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 정맥 면역글로불린
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010133
+- https://doi.org/10.1161/CIR.0000000000001295

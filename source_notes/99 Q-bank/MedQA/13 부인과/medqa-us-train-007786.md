@@ -17,7 +17,7 @@ related_diseases:
 question_type: diagnosis
 related_disease_slugs: []
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여성이 월경이 2주 늦어져 진료를 받으러 왔다. 피로, 아침 오심, 기분 변화도 호소한다. 이전 월경 주기는 정상이고 출산 경험이 없는 여성으로 알려진 질환은 없다. 6개월 전 자궁내장치(IUD)를 삽입했다. 혈압 120/80 mm Hg, 심박수 72회/분, 호흡수 12회/분, 체온 36.5℃(97.7℉)이며 신체검사는 정상이다. 부인과 진찰에서 자궁경부 청색증과 연화, 자궁 확대, 촉지되지 않는 부속기가 확인되었다. IUD 위치를 확인하기 위해 질식 초음파를 시행했다. 초음파에서 자궁강이 2개이고 한쪽에는 임신낭이, 다른 쪽에는 IUD가 있었다. 두 자궁강은 완전히 분리되어 있지만 자궁경부는 하나이다. 이 환자 상태의 가장 가능성 높은 원인은?
+27세 여성이 반복 임신 소실로 평가받는다. 3차원 질식 초음파에서 하나의 자궁경부 위로 자궁강이 둘로 나뉘고, 자궁저부 바깥 윤곽이 중앙에서 1.5 cm 깊이로 패여 있다. 가장 맞는 기형은?
 
 ## 선택지
 
-A. 볼프관 퇴행 실패
-B. 뮐러관의 불완전 융합
-C. 뮐러관 중복
-D. 배설강막 중복
+A. 중격자궁
+B. 궁상자궁
+C. 단각자궁
+D. 쌍각자궁
 
 ## 해설
 
-뮐러관의 불완전 융합(B)은 두 자궁각/자궁강이 남는 쌍각자궁과 연결된다. 자궁경부가 하나인 형태도 가능하다. 이중자궁(uterus didelphys)은 보통 더 완전한 융합 실패로 두 자궁체와 두 경부를 갖는 점에서 구분된다. 자궁 외부 윤곽 등이 없으므로 이 사례에서 세부 기형 분류를 확진하거나 중격 흡수 장애와의 모든 감별이 끝났다고 볼 수는 없다.
+쌍각자궁은 자궁각이 갈라지고 바깥 저부가 깊게 함몰된다. 중격자궁은 자궁강 내부가 나뉘지만 바깥 저부의 함몰은 없거나 얕다. 감별은 수술 계획에 중요하다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 배설강막 중복
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007786
+- https://integration.asrm.org/practice-guidance/practice-committee-documents/asrm-mullerian-anomalies-clasification-2021/

@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qtbDrsJzrkZDthrUgKENsdXN0ZXIgaGVhZGFjaGUpLm1k
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-33세 남성이 3일 동안 반복되는 심한 두통으로 응급실에 왔다. 오늘 두 번째 발작이며 보통 첫 발작은 아침에 발생한다. 통증은 심하고 우측 이마와 우측 눈에 국한된다. 지난여름에도 비슷한 증상이 있었다. 대형 헤지펀드 회사의 분석가로 대부분 컴퓨터 앞에서 일하며 기한이 지난 서류 때문에 스트레스를 많이 받았다. 만성 어깨 통증이 있어 인도메타신을 6시간마다 복용했지만 효과가 없었다. 15년 동안 하루 한 갑씩 흡연했고 안절부절못해 보인다. 우측 눈꺼풀처짐, 눈물 및 콧물이 있고 우측 동공은 2mm, 좌측은 4mm이다. 우측 극상근에 국소 압통이 있으며 그 외 검사는 정상이다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+33세 남성이 몇 주씩 하루 두세 번, 60분 정도 계속되는 극심한 오른쪽 눈 주위 통증을 겪는다. 발작 중 같은 쪽 눈물과 콧물이 나고 가만히 누워 있지 못한다. 발작이 없는 달에는 증상이 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 편두통
-B. 군발두통
-C. 거대세포동맥염
-D. 약물과용두통
+A. 군발두통
+B. 전조 없는 편두통
+C. 삼차신경통
+D. 발작성 편측두통
 
 ## 해설
 
-주기적인 야간 발작, 심한 일측 안와·전두부 통증, 같은 쪽 눈물·콧물·축동·안검하수와 안절부절못함은 군발두통(B)에 합당하다. Indomethacin에 반응하지 않는 점도 발작성 편측두통과 구별에 도움이 된다. 편두통도 흔히 일측성이며 구역·빛공포를 동반할 수 있다. 거대세포동맥염은 대개 50세 이후에 발생하고, 발열이나 시력저하가 항상 있어야 하는 것은 아니다.
+극심한 편측 안와 통증이 15–180분 지속되고 같은 쪽 자율신경 증상과 초조가 동반되면 군발두통을 의심한다. 삼차신경통은 대개 수초, 발작성 편측두통은 보통 더 짧고 더 자주 온다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 약물과용두통
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006013
+- https://www.e-hpr.org/journal/view.php?number=949

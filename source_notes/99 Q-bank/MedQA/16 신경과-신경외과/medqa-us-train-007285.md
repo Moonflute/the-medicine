@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qt7zsnITstpXshLEg7Lih7IKtIOqyve2ZlOymnSAoQW15b3Ryb3BoaWMgbGF0ZXJhbCBzY2xlcm9zaXMpLm1k
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,21 +36,22 @@ related_drug_slugs:
 
 ## 문제
 
-56세 남자가 지난 3개월 동안 진행하는 근력저하로 아내와 함께 내원했다. 특히 스테이크처럼 질긴 음식을 씹어 먹기 어렵다고 한다. 아내는 그가 최근 ‘멍해지고 내 생일도 잊는다’고 말한다. 셀리악병이 있어 글루텐 제거 식이를 하고 있다. 지난주 못을 밟았지만 녹슬지 않아 발을 씻기만 했다고 한다. 아내에 따르면 파상풍 예방접종은 최신 상태다. 신체검사에서 왼쪽 상지의 근력저하와 근섬유다발수축, 왼쪽 발목의 경직성 간대성 경련이 보인다. 보행장애, 시청각 변화, 두통, 오심·구토, 위장관 증상, 실금은 부인한다. 이 환자의 치료에서 가장 적절한 다음 단계는 무엇인가?
+근위축성 측삭경화증 환자가 최근 누우면 숨이 차고 아침 두통이 있다. 앉았을 때 산소포화도는 97%지만 강제폐활량이 이전보다 크게 줄었다. 호흡근 저하에 대한 다음 단계는?
 
 ## 선택지
 
-A. 도네페질
-B. 레보도파
-C. 릴루졸
-D. 비타민 B12
+A. 호흡기 전문평가와 함께 비침습환기를 검토한다
+B. 안정 시 산소포화도가 정상이므로 경과만 본다
+C. 야간 저유량 산소만 처방한다
+D. 연하 평가와 무관하게 위루술을 먼저 시행한다
 
 ## 해설
 
 
-근위축성 측삭경화증(ALS)은 상위운동신경원 징후와 하위운동신경원 징후가 동시에 나타난다. 릴루졸은 ALS 진행을 늦추는 약물로, 현재 치료에 가장 적합하다. 따라서 릴루졸이 정답이다.
+누울 때 숨참, 아침 두통, 폐활량 감소는 호흡근 저하와 야간 저환기의 단서다. 안정 시 산소포화도가 정상이어도 호흡을 평가하고 비침습환기를 고려한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007285
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11235832/

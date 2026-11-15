@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-unjOyEsSDsvantjKXrs5EgKENLRCkgKENocm9uaWMgS2lkbmV5IERpc2Vhc2UgKENLRCkpLm1k
 question_type: management
 difficulty: complex
-answer: "C"
+answer: C
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -39,23 +39,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-45세 여성이 3개월 동안 악화된 피로, 식욕부진, 피부 가려움, 점점 심해지는 다리 부종으로 내원했다. 매일 물을 2~3 L 마시지만 소변은 소량만 본다. 제1형 당뇨병, 만성콩팥병, 고혈압, 당뇨병성 다발신경병증이 있다. 인슐린, 토라세미드, 리시노프릴, 합성 에리트로포이에틴을 복용한다. 창백하고 하지에 2+ 함요부종이 있다. 혈액검사에서 헤모글로빈 11.4 g/dL, K⁺ 5.3 mEq/L, HCO₃⁻ 20 mEq/L, BUN 85 mg/dL, 크레아티닌 8 mg/dL, pH 7.25이다. 삶의 질과 생존을 가장 잘 향상시킬 장기 치료는?
+45세 여성이 진행성 만성콩팥병으로 추적 중이다. eGFR은 14 mL/min/1.73m²이고 6~12개월 안에 신대체요법이 예상되나 지금은 긴급 투석 적응증이 없다. 환자가 이식을 원하고 생체 공여 희망자가 있다. 적절한 계획은?
 
 ## 선택지
 
-A. 사체 신장이식
-B. 수분 제한
-C. 생체 공여 신장이식
-D. 복막투석
+A. 투석을 최소 2년 한 뒤에만 이식 평가를 한다
+B. 증상이 없으므로 이식과 투석 교육을 모두 미룬다
+C. 생체 신장이식 평가를 지금 의뢰하고 필요 시 투석 계획도 함께 세운다
+D. 이식 평가 없이 수액 제한만 한다
 
 ## 해설
 
-이식 적합 환자이고 적절한 생체 공여자가 있다면 생체 신장이식은 대기 시간을 줄이고 장기 예후·삶의 질 측면에서 선호되는 신대체요법이다. 모든 말기 신부전 환자에게 즉시 가능한 것은 아니다. 이 환자의 요독 증상·산증·체액 과다는 즉시 평가하고 이식 준비 중 필요하면 투석 등 안정화 치료를 시행한다.
+이식 적합성을 조기에 평가하면 생체 공여자 검사를 거쳐 투석 전 이식도 고려할 수 있다. 평가 중 요독 합병증이나 불응성 체액·전해질 이상이 발생하면 필요한 투석을 늦추지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008115
+- https://kdigo.org/guidelines/transplant-candidate/
 
 ## 오답 포인트
 

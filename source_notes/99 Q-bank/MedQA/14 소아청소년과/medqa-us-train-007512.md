@@ -14,11 +14,11 @@ related_diseases:
   - "진공분만"
   - "신생아 황달"
   - "관찰"
-question_type: management
+question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Iug7IOd7JWEIO2ZqeuLrCAoTmVvbmF0YWwgSmF1bmRpY2UpLm1k
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 6시간 된 남아의 어머니가 ‘머리에 혹이 있다’고 했다. 출생 시에는 없었으며 감염을 걱정한다. 임신 39주에 34세 G2 산모에게서 긴 진통 후 진공 보조 질식분만으로 태어났다. 출생 체중은 3.8kg(8.4lb), 키와 머리둘레는 각각 40, 60백분위수이다. 산모는 임신성 당뇨병을 진단받아 산전 관리를 받았다. 산전 선별검사와 임신 20주 해부학 초음파는 정상이었다. 신체검사에서 급성 고통은 없고 오른쪽 두정골 위에 정중선을 넘지 않는 3×3cm 크기의 파동성 부종이 있다. 피부 변색은 없다. 검사에서 총 빌리루빈은 5.5 mg/dL, 직접 빌리루빈은 0.7 mg/dL이다. 다음 중 가장 적절한 치료 단계는 무엇인가?
+진공 보조 분만 2시간 뒤 신생아 두피가 넓게 출렁이며 부종이 봉합선을 넘어 퍼진다. 머리둘레가 늘고 창백하며 빈맥이 있다. 즉시 고려할 진단은?
 
 ## 선택지
 
-A. 절개 및 배농
-B. 신경외과적 감압
-C. 적혈구 수혈
-D. 관찰만 한다
+A. 두혈종
+B. 모상건막하 출혈
+C. 산류
+D. 영아 혈관종
 
 ## 해설
 
-두정골에 국한된 출생 후 부종은 두혈종에 부합하며 안정적인 이 경우 관찰(D)이 적절하다. 황달·빈혈·크기 변화 등을 추적한다. 단순히 크다는 이유로 절개·배농하거나 감압하지 않으며 감염·다른 출혈 등 합병증은 별도 평가한다.
+빠르게 커지고 봉합선을 넘는 출렁이는 부종에 순환 이상이 있으면 모상건막하 출혈을 의심한다. 대량 출혈로 이어질 수 있어 긴급 소생과 혈액검사·감시가 필요하다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 관찰만 한다
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007512
+- https://ranzcog.edu.au/wp-content/uploads/2022/05/Prevention-detection-and-management-of-subgaleal-haemorrhage-in-the-newborn.pdf

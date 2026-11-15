@@ -20,7 +20,7 @@ related_disease_slugs:
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-28세 여성이 2일 전 자살 시도 후 내원했다. 남자친구와 다툰 뒤 이별을 막기 위해 손목을 그었다고 한다. 과거에도 연애와 가족관계 모두 격동적이었고 가족은 매우 충동적이며 사람의 감정을 조종하려 자주 행동한다고 묘사한다. 입원 후 직원에게 침을 뱉고 흐느낌과 분노를 번갈아 보인다. 다음 중 가장 가능성 높은 진단은?
+28세 환자가 수년간 여러 관계에서 버림받을까 극도로 불안해하고 가까웠던 사람과의 관계가 급격히 틀어지기를 반복했다. 자아상이 불안정하고 공허감과 충동성이 있다. 기분 변화는 갈등 직후 생겨 대개 몇 시간 지속되며 독립적인 조증 삽화는 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 연극성 인격장애
-B. 경계성 인격장애
-C. 의존성 인격장애
-D. 자기애성 인격장애
+A. 양극성 I형 장애
+B. 경계성 성격장애
+C. 의존성 성격장애
+D. 연극성 성격장애
 
 ## 해설
 
 
-자해 후 지속적인 감정 기복, 대인관계 불안정, 자아 이미지 혼란, 충동적 행동은 경계성 인격장애의 핵심 특징이다. 다른 인격장애는 이러한 급격한 감정 변화와 자해 행동을 주된 특징으로 하지 않는다. 따라서 가장 가능성 높은 진단은 경계성 인격장애이다.
+장기간 여러 상황에서 관계, 자아상, 정서가 불안정하고 충동성이 있는 양상은 경계성 성격장애에 부합한다. 짧은 기분 변화 하나만으로 조증을 진단하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000106
+- https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines/borderline-personality-disorder

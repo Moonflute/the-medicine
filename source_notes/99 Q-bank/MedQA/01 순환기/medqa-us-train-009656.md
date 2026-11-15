@@ -15,7 +15,7 @@ related_diseases:
   - "hyperuricemia"
   - "Hyperuricemia"
 related_disease_slugs: []
-question_type: management
+question_type: adverse_effect
 difficulty: simple
 answer: A
 translation_status: machine-verified
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-66세 남자가 일차성 고혈압 평가를 위해 심장내과 외래에 내원했다. 혈압 169/96 mmHg, 심박수 85회/분이며 히드로클로로티아지드를 시작했다. 티아지드계 이뇨제의 부작용은 무엇인가?
+66세 남성이 고혈압 치료제를 추가하고 한 달 뒤 엄지발가락 관절이 붉게 부어 심하게 아프다. 관절액에서 바늘 모양의 요산 결정이 확인됐다. 다음 중 이번 통풍 발작 위험을 높일 수 있는 혈압약은?
 
 ## 선택지
 
-A. 고요산혈증
-B. 저칼슘혈증
-C. 저혈당
-D. 고나트륨혈증
+A. 히드로클로로티아지드
+B. 로사르탄
+C. 암로디핀
+D. 에날라프릴
 
 ## 해설
 
-티아지드계 이뇨제는 신장의 요산 배설을 감소시켜 고요산혈증(A)을 유발할 수 있다. 저나트륨혈증, 저칼륨혈증, 고칼슘혈증과 혈당 상승도 가능한 이상반응이다. 칼륨보존 이뇨제의 대표 전해질 이상은 고칼륨혈증이지 고나트륨혈증이 아니다.
+티아지드계 이뇨제는 콩팥의 요산 배설을 줄여 혈중 요산을 올리고 통풍을 악화시킬 수 있다. 반복 발작이 있으면 혈압과 동반질환을 고려해 대체 약제를 검토한다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 고나트륨혈증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009656
+- https://koreanhypertension.org/reference/guide?idno=10446&mode=read
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/

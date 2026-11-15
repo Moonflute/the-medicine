@@ -13,11 +13,11 @@ related_diseases:
   - "송과체 종양"
   - "Parinaud 증후군"
   - "성조숙증"
-question_type: prognosis
+question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7ISx7KGw7IiZ7KadIChTZXh1YWwgUHJlY29jaW91c25lc3MpLm1k
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-8세 남아가 3개월 동안 지속된 흐린 시야와 두통으로 내원했다. 아버지는 아이가 앞을 똑바로 보기 위해 머리를 뒤로 젖히는 것을 보았다. 2개월 동안 잠들기 어렵고 6개월 동안 3.5kg(7.7lb)이 감소했다. 체온은 37.7°C(99.8°F), 맥박은 분당 105회, 혈압은 104/62 mmHg이다. 동공은 크기가 같고 빛에 반응하지 않지만 가까운 물체를 보면 수축한다. 상방 주시가 제한되고 상방 주시 시 안진과 눈꺼풀 후퇴가 있다. 다음 중 이 상태의 가장 가능성 높은 후유증은 무엇인가?
+8세 아이가 수개월 동안 두통과 흐린 시야를 겪는다. 위를 보지 못하고, 동공은 빛보다 가까운 표적을 볼 때 잘 수축한다. 원인을 찾는 뇌 MRI에서 특히 확인할 부위는?
 
 ## 선택지
 
-A. 실명
-B. 지주막하 출혈
-C. 성조숙증
-D. 당뇨병성 케톤산증
+A. 뇌하수체 앞엽
+B. 송과체 주변과 등쪽 중뇌
+C. 왼쪽 하전두회
+D. 소뇌 편도
 
 ## 해설
 
-상방주시 마비와 빛-근접 반응 해리는 송과체 부위 종괴의 배측 중뇌 압박을 시사한다. 이 부위의 일부 배세포종, 특히 β-hCG 분비 종양은 남아에서 성조숙증(C)을 일으킬 수 있다. hCG가 LH 수용체를 자극하여 성호르몬 생성을 촉진하는 기전이며 성장호르몬 과다가 아니다. 모든 송과체 종양이 호르몬을 분비하거나 성조숙증을 일으키는 것은 아니다.
+상방주시마비와 빛–근접 반응 해리는 등쪽 중뇌증후군의 단서다. 송과체 부위 종괴가 중뇌와 뇌수도관을 눌러 눈운동 이상과 수두증을 일으킬 수 있다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 당뇨병성 케톤산증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006216
+- https://www.cancer.gov/types/brain/hp/child-cns-germ-cell-treatment-pdq

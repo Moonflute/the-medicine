@@ -15,11 +15,11 @@ related_diseases:
   - "양측 신장 종대"
 related_disease_slugs:
   - MDUg7Iug7J6lL-uLpOuCreyEsSDsvantjKUg7KeI7ZmYIChQb2x5Y3lzdGljIEtpZG5leSBEaXNlYXNlKS5tZA
-question_type: diagnosis
+question_type: investigation
 difficulty: standard
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,24 +36,25 @@ medical_review_status: "content-reviewed"
 
 ## 문제
 
-42세 여성이 혈뇨와 양쪽 옆구리 통증, 양발 부종과 얼굴 부종으로 응급실에 왔다. 반복 요로감염과 요로결석 병력이 있고 어머니도 요로결석과 신장이식 병력이 있다. 양쪽 옆구리에 만져지는 종괴가 있고 크레아티닌은 2.7 mg/dL이다. 추가로 가장 가능성 높은 소견은?
+42세 여성에게 상염색체우성 다낭성 신장질환이 있다. 어머니는 뇌동맥류 파열로 인한 지주막하출혈을 겪었다. 환자에게 두통이나 신경학적 증상은 없고, 선별검사에서 동맥류가 발견되면 치료를 고려할 수 있다. 적절한 선별 영상은?
 
 ## 선택지
 
-A. 골용해성 뼈 병변
-B. 다발성 간낭종
-C. 승모판 협착
-D. 슬와동맥류
+A. 비조영 뇌 CT
+B. 비조영 뇌 자기공명혈관조영술
+C. 경동맥 도플러 초음파
+D. 조영 뇌 MRI 실질 영상만 촬영
 
 ## 해설
 
 
-양쪽 옆구리 종괴와 신장 기능 저하, 가족력 및 반복 요로결석·감염 병력이 상염색체 우성 다낭성 신장질환(ADPKD)을 시사한다. ADPKD는 간에도 다낭성을 동반하는 경우가 많으며, 간낭종이 가장 흔한 연관 소견이다. 따라서 가장 가능성 높은 소견은 다발성 간낭종이다.
+다낭성 신장질환에 뇌동맥류나 지주막하출혈의 가족력이 있으면 선별검사를 권고한다. 비조영 time-of-flight 자기공명혈관조영술이 우선 선택지다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000600
+- https://kdigo.org/guidelines/autosomal-dominant-polycystic-kidney-disease-adpkd/
 
 ## 검수 근거
 

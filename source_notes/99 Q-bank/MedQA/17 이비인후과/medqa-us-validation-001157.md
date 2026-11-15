@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_sp4Dso7zrp4ntlZgg7Lac7ZiIIChTdWJhcmFjaG5vaWQgaGVtb3JyaGFnZSkubWQ
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-14세 여아가 2시간 동안 후두부 두통, 구역과 구토가 있어 응급실에 왔다. 수년간 왼쪽 귀 감염과 분비물이 반복되고 항균제에 반응이 나빴으며 왼쪽 귀의 청력이 둔하다. 고막 천공, 육아조직과 후상방의 흰색 각질성 잔해가 있고 MRI에서 왼쪽 시그모이드정맥 혈전증과 중이의 고신호 병변이 보인다. 현재 상태의 가장 가능성 높은 원인은?
+14세 환자에게 몇 년간 반복된 악취 나는 이루와 전음성 난청이 있다. 이경검사에서 고막 위쪽에 함몰 주머니와 흰 각질 잔해가 보인다. 가장 의심되는 병변은?
 
 ## 선택지
 
-A. 청신경초종
-B. 진주종
-C. 만성 장액성 중이염
-D. 만성 화농성 중이염
+A. 중이 진주종
+B. 삼출성 중이염
+C. 외이도 진균증
+D. 전정신경초종
 
 ## 해설
 
-만성 이루, 후상방 고막의 백색 각질성 잔해와 고막 천공은 B, 진주종을 강하게 지지한다. 진주종은 각화 편평상피와 각질 잔해가 축적되어 주변 뼈를 침식할 수 있는 병변이지 콜레노이드라는 종양이 아니다. 이차 감염이 퍼지면 시그모이드정맥동 혈전증 같은 두개내 합병증이 생길 수 있다. 필요한 영상 소견이 본문에 서술되어 있어 MRI 그림 자체가 없어도 문항 판단이 가능하다.
+고막 함몰 주머니에 각질이 쌓이고 만성 이루·청력저하가 동반되면 진주종을 의심한다. 뼈 침식과 합병증을 평가하도록 이비인후과에 의뢰한다.
 
 ## 검수 근거
 
@@ -55,3 +55,4 @@ D. 만성 화농성 중이염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-001157
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11913933/

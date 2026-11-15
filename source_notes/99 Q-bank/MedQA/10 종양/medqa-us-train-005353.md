@@ -17,7 +17,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ycoOuwqeyVlCAoQnJlYXN0IENhbmNlcikubWQ
 question_type: management
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-64세 여자가 최근 진단된 유방암의 수술적 치료를 상담하러 왔다. 오른쪽 유방 표면 가까이에 불규칙한 결절이 만져진다. 유방의 일부를 제거하는 수술은?
+림프절 전이가 없는 48세 환자가 침윤성 유방암으로 유방보존수술을 받았다. 절제면은 음성이고 방사선치료 금기는 없다. 국소 재발 위험을 낮추기 위해 보통 추가할 치료는?
 
 ## 선택지
 
-A. 정관절제술
-B. 유방절제술
-C. 유방부분절제술
-D. 척추후궁절제술
+A. 전유방을 보존했으므로 추가 치료가 필요 없다
+B. 항암치료 여부와 무관하게 즉시 전유방절제술을 다시 시행한다
+C. 수술 흉터 부위에 항생제만 바른다
+D. 남아 있는 유방에 보조 방사선치료를 시행한다
 
 ## 해설
 
 
-Lumpectomy(유방종괴절제술/유방보존수술)는 종양과 주변의 일부 정상 유방조직을 절제하는 수술을 뜻하므로 C이다. Mastectomy는 유방절제술, vasectomy는 정관절제술, laminectomy는 척추후궁절제술이다. 이 문항은 명칭의 정의를 묻는 것으로, 제시된 제한 정보만으로 이 환자의 최적 치료 전체를 정한 것은 아니다.
+유방보존수술 뒤 방사선치료는 국소 재발을 줄인다. 방사선 생략은 일부 저위험 환자에서 검토하는 예외이며 모든 수술 환자에 적용하지 않는다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ Lumpectomy(유방종괴절제술/유방보존수술)는 종양과 주변의 일�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005353
+- https://www.cancer.go.kr/lay1/program/S1T211C217/cancer/view.do?cancer_seq=4757&menu_seq=4773

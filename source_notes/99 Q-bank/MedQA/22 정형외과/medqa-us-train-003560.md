@@ -14,13 +14,13 @@ related_diseases:
   - "spondylodiscitis"
   - "CT-guided biopsy"
   - "spinal infection"
-question_type: diagnosis
+question_type: investigation
 related_disease_slugs:
   - MDgg6rCQ7Je8L-qzqOyImOyXvCAoT3N0ZW9teWVsaXRpcykubWQ
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-70세 남성이 3주간 지속된 심한 허리 통증으로 응급실에 왔다. 통증은 처음에는 활동할 때 악화되었지만 이제는 안정 시에도 있다. 제2, 제3 요추 극돌기 위에 압통과 심한 척추주위 경련이 있었다. ESR은 75 mm/h, CRP는 82 mg/L였다. 요추 X선에서 골 파괴와 부골 형성, 골막 반응이 보였고 MRI에서 해당 척추체의 T2 신호가 증가했지만 경막외 농양은 없었다. 혈액배양을 채취하고 진통제를 시작했다. 다음 중 가장 적절한 다음 처치는?
+70세 남성의 요통이 3주간 악화돼 쉬어도 아프다. CRP가 높고 MRI에서 인접 요추 종판과 추간판에 척추 감염이 의심된다. 혈액배양 두 세트는 음성이고 혈압과 하지 신경 진찰은 안정적이다. 원인균 확인을 위한 다음 검사는?
 
 ## 선택지
 
-A. CT 유도 생검
-B. 수술적 변연절제술
-C. 전립선특이항원 검사
-D. 이소니아지드, 리팜핀, 피라진아미드, 에탐부톨
+A. CT 유도 척추·추간판 생검
+B. 전신 뼈스캔
+C. 반복 요추 단순촬영
+D. 뇌척수액 배양
 
 ## 해설
 
-진행하는 국소 요통, 높은 ESR·CRP와 척추 파괴·골수 신호 변화는 척추골수염을 시사한다. 혈역학·신경학적으로 안정하고 혈액배양으로 병원체가 아직 확인되지 않았다면 CT 유도 생검(A)으로 배양 및 병리 검체를 얻는 것이 적절하다. 혈액배양에서 적절한 원인균이 확인되는 일부 경우에는 생검이 필요하지 않을 수 있다. 패혈증이나 진행성 신경학적 손상이 있으면 생검 때문에 항생제·수술을 지연시키지 않는다. 결핵의 확증 없이 항결핵제를 일률적으로 시작하지 않는다.
+척추 골수염이 의심되지만 혈액배양으로 원인균을 확인하지 못한 안정 환자에서는 영상 유도 조직 채취로 배양과 병리 검사를 시행한다. 패혈증이나 진행하는 신경결손이 있으면 검체 채취 때문에 치료를 늦추지 않는다.
 
 ## 검수 근거
 
@@ -61,3 +61,5 @@ D. 이소니아지드, 리팜핀, 피라진아미드, 에탐부톨
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003560
+- [대한감염학회 등: 국내 골관절감염 항균요법 권고안](https://icjournal.org/src/sm/ic-46-125-s001.pdf)
+- [IDSA: 척추 골수염 진료 지침](https://www.idsociety.org/practice-guideline/vertebral-osteomyelitis/)

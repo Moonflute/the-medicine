@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yeoOuztSDqsrDtlbUgKOyEseyduCkgKExhdGVudCBUdWJlcmN1bG9zaXMgKEFkdWx0KSkubWQ
 question_type: investigation
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-43세 여성이 간호사로 새 직장을 시작하기 전 정기검진을 받으러 왔다. 지난 1년 동안 가벼운 호흡곤란과 특히 아침에 흰 가래가 나오는 기침이 있었다. 40년 전 부모와 함께 남아프리카공화국에서 미국으로 이민했다. 소아기에 경구 소아마비 백신과 BCG를 포함한 모든 예방접종을 받았다. 30년 동안 하루 두 갑의 담배를 피웠고 가끔 와인 한 잔을 마신다. 양쪽 폐야에 천명이 들리고 혈액검사는 정상이다. 다음 중 이 환자에서 결핵을 평가하기 위한 가장 적절한 다음 단계는?
+43세 간호사가 4주째 기침과 야간 발한으로 내원했다. 최근 활동성 폐결핵 환자를 돌본 적이 있다. 흉부 X선에서 우상엽 공동성 음영이 보인다. 활동성 폐결핵을 확인하기 위한 검사는?
 
 ## 선택지
 
-A. 투베르쿨린 피부검사
-B. 객담 배양
-C. 객담 PCR
-D. 인터페론-감마 방출검사
+A. 투베르쿨린 피부검사만 시행
+B. 객담 일반 세균 배양만 시행
+C. 객담 결핵균 핵산증폭검사와 항산균 도말·배양
+D. 인터페론감마 분비검사만 시행
 
 ## 해설
 
 
-취업 전 결핵 감염 선별의 맥락에서 BCG 영향을 받지 않는 IGRA D가 TST보다 적절한 선택이다. 다만 환자는 만성 기침이 있어 흡연 관련 기도질환 외에도 활동성 결핵을 임상적으로 평가해야 한다. IGRA는 감염 여부를 뒷받침할 뿐 잠복과 활동성 결핵을 구분하거나 활동성 질환을 배제하는 검사는 아니다. 증상·진찰에 따라 흉부 영상과 객담 분자검사/배양이 필요할 수 있다.
+오래가는 기침, 노출력과 공동성 음영이 있으면 활동성 폐결핵을 의심하고, 공기주의를 적용하며 객담을 채취해 결핵균 핵산증폭검사와 항산균 도말·배양을 시행한다. 피부반응검사와 인터페론감마 분비검사만으로는 활동성 결핵을 확인하거나 배제할 수 없다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 인터페론-감마 방출검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002938
+- 질병관리청·대한결핵 및 호흡기학회 결핵 진료지침 5판: https://lungkorea.org/bbs/index.html?code=guide

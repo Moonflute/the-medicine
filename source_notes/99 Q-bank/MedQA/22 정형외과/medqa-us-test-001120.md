@@ -18,9 +18,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-42세 비만 여성이 3개월간 왼쪽 무릎 통증으로 진료를 받으러 왔다. 무릎 안쪽과 슬개골 아래 앞쪽이 아프고 계단을 오르거나 의자에서 일어날 때 악화된다. 외상은 없으며 왼쪽 앞안쪽 근위 경골의 관절선에서 6 cm 아래에 국소 압통이 있다. 관절삼출은 없고 외반 스트레스 검사도 음성이며 X선은 경미한 관절염 외에 이상이 없다. 가장 가능성 높은 진단은?
+42세 여성이 계단을 오를 때 무릎 안쪽이 아프다고 한다. 관절선보다 5 cm 아래인 정강뼈 앞안쪽에 국소 압통이 있고 관절삼출은 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 근위 경골 피로골절
-B. 내측 반월판 파열
-C. 내측측부인대 염좌
-D. 거위발 윤활낭염
+A. 거위발 윤활낭염
+B. 내측 반월연골 파열
+C. 내측곁인대 파열
+D. 슬개전 윤활낭염
 
 ## 해설
 
-내측 관절선보다 약 6 cm 아래의 전내측 근위 경골 압통은 거위발 윤활낭염(D)을 지지한다. 거위발은 봉공근·박근·반힘줄근 힘줄의 공동 부착부이며 윤활낭은 그 아래에 위치한다. 관절삼출 부재·음성 외반 스트레스는 관절내 병변과 내측측부인대 손상보다 이 진단에 합당하다.
+거위발이 붙는 근위 경골 앞안쪽의 압통이 핵심이다. 반월연골 병변의 압통은 보통 관절선에 가깝다.
 
 ## 검수 근거
 

@@ -19,7 +19,7 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,24 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-2세 남아가 정기검진을 위해 내원했다. 어머니는 며칠 동안 아이가 ‘몸이 좋지 않다’고 말하며 집에서 체온을 재지는 않았지만 열감이 있었다고 한다. 설사나 구토는 없다. 특별한 병력이나 복용 약물은 없고 어린이집에 다닌다. A형간염 백신 접종 시기이다. 만삭으로 태어났고 산전·주산기 합병증은 없었다. 체온은 37.8°C(100.1°F), 혈압 112/62 mmHg, 맥박 80회/분, 호흡수 18회/분, 산소포화도 99%이다. 의식은 명료하고 반응성이다. 신체검사는 정상이다. 다음 중 가장 적절한 치료 단계는 무엇인가?
+16개월 아이가 A형간염 1차 접종을 받으러 왔다. 콧물과 가벼운 기침이 있지만 잘 먹고 잘 놀며 호흡곤란은 없다. 체온은 37.7℃다. 오늘 접종은 어떻게 할까?
 
 ## 선택지
 
-A. 다음 방문까지 A형간염 예방접종을 연기한다
-B. A형간염 백신을 접종한다
-C. 연쇄상구균 신속항원검사를 시행한다
-D. 간기능검사를 의뢰한다
+A. 증상이 완전히 없어진 뒤로 미룬다
+B. 예정대로 A형간염 백신을 접종한다
+C. 해열제를 먼저 먹이고 다음 날 접종한다
+D. 간기능검사가 정상일 때만 접종한다
 
 ## 해설
 
 
-아동이 A형 간염 예방접종 시기에 있으며 경미한 발열만 있으면 예방접종을 연기할 필요가 없다. 현재 접종을 진행하는 것이 가장 적절하다.
+A형간염 백신 1차는 국내에서 생후 12–23개월에 접종한다. 아이의 상태가 양호한 경미한 감기나 미열은 예방접종을 연기할 사유가 아니다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007563
+- https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1109&menuLv=1
+- https://cert.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=114&menuLv=1
+- https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html

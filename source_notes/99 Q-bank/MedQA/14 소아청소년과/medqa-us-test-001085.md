@@ -18,9 +18,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA64-Z66elIOy2leywqSAoQ29hcmN0YXRpb24gb2YgdGhlIEFvcnRhKS5tZA
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,21 +33,23 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-분만 30분 후 3,600 g의 신생아 여아에게 시끄러운 호흡, 입술의 청색 변색, 간헐적 호흡곤란이 있다. 38주에 태어나 분만 직후 백-마스크 소생술이 필요했다. 산모가 수유할 때 입술 청색증이 악화되고 울면 호전되는 것을 관찰했다. 맥박 163회/분, 호흡 62회/분, 혈압 60/30 mmHg였고 울 때 폐 청진은 정상이었다. 추가 평가에서 예상되는 소견은?
+분만 직후 신생아가 가만히 있거나 젖을 빨 때 파래지고, 세게 울면 산소포화도가 올라간다. 양쪽 코에 부드러운 카테터를 넣어 보지만 뒤쪽으로 통과하지 않는다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 흉부 X선의 미만성 망상과립 음영
-B. 흉부 X선의 장화 모양 심장
-C. 입을 통한 위관 통과 불가
-D. 비강을 통한 카테터 통과 불가
+A. 기관식도루
+B. 양측 후비공 폐쇄
+C. 후두연화증
+D. 좌측 횡격막 탈장
 
 ## 해설
 
 
-신생아의 양측 후비공 폐쇄는 비강을 통한 카테터 삽입이 불가능한 것이 특징이다. 흉부 X선 소견은 비특이적이며, 비강 카테터 통과 여부가 진단에 핵심이다. 따라서 정답은 비강을 통한 카테터 통과 불가이다.
+신생아가 코로 숨 쉬는 동안 청색증이 심해지고 입을 열어 울 때 호전되면 양측 비강 폐쇄를 의심한다. 양측 카테터 통과 실패는 후비공 폐쇄의 단서이며, 기도를 확보한 뒤 이비인후과 평가로 확인한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001085
+- https://pubmed.ncbi.nlm.nih.gov/31103745/
+- https://pubmed.ncbi.nlm.nih.gov/36670642/

@@ -17,7 +17,7 @@ question_type: prevention
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7Je07ISxIOqyveugqCAoRmVicmlsZSBDb252dWxzaW9uKS5tZA
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-15개월 여아가 DTaP 4차 접종을 위해 추적 방문했다. 3개월 전 MMR, 수두, Hib, PCV13, 소아마비 백신을 접종한 지 13일 후 40.5°C의 발열과 2분간 지속된 전신 발작이 발생했으나 평가 결과는 정상이었고 아세트아미노펜으로 열이 내린 뒤 다른 증상은 없었다. 어머니는 추가 접종을 걱정한다. 다음 중 가장 적절한 권고는?
+15개월 아이가 DTaP 4차 접종을 받으러 왔다. 3개월 전 MMR 접종 열흘 뒤 열과 함께 전신 발작이 2분간 있었고, 이후 완전히 회복했다. 현재 신경학적 이상은 없다. DTaP 접종은 어떻게 할까?
 
 ## 선택지
 
-A. DTaP 접종을 피한다
-B. 예방적으로 아스피린을 투여하며 DTaP 접종
-C. 예정대로 DTaP 접종
-D. 감량한 DTaP 접종
+A. 신경과에서 뇌파를 확인할 때까지 연기한다
+B. 예정대로 접종한다
+C. 백일해 성분은 이후 접종에서도 제외한다
+D. 첫 접종부터 다시 시작한다
 
 ## 해설
 
-이전 단기 전신 열성경련은 당시 MMR 등 접종 후 발생했으며 DTaP 투여 후 뇌병증으로 제시되지 않았다. 현재 회복하여 신경학적 이상이 없으므로 예정대로 DTaP(C)를 접종할 수 있다. MMR 후에는 열성경련 위험이 일시 증가할 수 있으므로 백신과 전혀 무관하다고 단정하지 않는다. 아스피린 예방투여나 감량은 권하지 않는다.
+회복된 단순 열성경련은 DTaP 금기가 아니다. 이전 백일해 백신 후 다른 원인 없이 발생한 뇌병증, 또는 진행성·조절되지 않는 신경학적 질환은 구분한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 감량한 DTaP 접종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004936
+- https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1120&menuLv=1

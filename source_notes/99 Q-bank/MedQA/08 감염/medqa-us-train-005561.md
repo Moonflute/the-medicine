@@ -15,11 +15,11 @@ related_diseases:
   - "QT 간격 연장"
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv67Cx7J287ZW0IChQZXJ0dXNzaXMpLm1k
-question_type: adverse_effect
+question_type: prevention
 difficulty: standard
-answer: A
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-89세 여자가 3주 동안 발작적으로 기침하고 기침 후 구토와 숨참이 있어 내원했다. 배양과 PCR에서 의심했던 균이 양성이고 영아 손주와 떨어져 지내도록 권고받았으며 약물을 시작한다. 이 질환에 가장 적절한 항생제 계열의 특징은?
+백일해가 확인된 초등학생이 열 없이 지내지만 아직 기침을 한다. 적절한 항생제를 복용한 지 만 3일이 지났다. 학교 복귀를 언제 안내하는가?
 
 ## 선택지
 
-A. QT 간격을 연장할 수 있다
-B. 치아 변색과 소아 골성장 억제를 일으킬 수 있다
-C. 신독성과 이독성을 일으키는 것으로 알려져 있다
-D. 알코올과 함께 복용하면 디설피람 유사 반응을 일으킬 수 있다
+A. 열이 없으므로 오늘 복귀한다
+B. 효과적인 항생제를 시작하고 만 5일이 지난 후 복귀한다
+C. 기침이 완전히 사라질 때까지 복귀를 미룬다
+D. PCR이 음성이 될 때까지 매일 검사한다
 
 ## 해설
 
 
-마크롤라이드 항생제는 QT 간격 연장을 일으킬 수 있다. 이는 심실 재분극을 지연시켜 토르삭드 위험을 높이는 메커니즘이다. 따라서 정답은 QT 연장 가능성을 언급한 A이다.
+적절한 항생제 치료를 시작한 뒤 5일간은 등교를 제한한다. 기침은 그 뒤에도 남을 수 있으며, 기침 소실이나 PCR 음성을 일률적으로 요구하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 알코올과 함께 복용하면 디설피람 유사 반응을 일으킬 수 
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005561
+- https://www.kdca.go.kr/bbs/kdca/42/239913/download.do

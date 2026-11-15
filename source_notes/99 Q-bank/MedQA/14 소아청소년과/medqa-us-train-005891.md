@@ -17,7 +17,7 @@ related_diseases:
 question_type: diagnosis
 related_disease_slugs: []
 difficulty: standard
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 청소년이 어머니와 함께 소아과를 방문했다. 어머니가 나간 뒤 사춘기가 걱정된다고 의사에게 말한다. 친구들은 모두 급성장하고 근육량이 늘며 목소리가 변했지만 자신은 아직 발달이 덜 된 것 같다고 한다. 의사는 병력과 신체검사를 시행하고 과거 의무기록 및 최근 5년간 성장곡선을 검토하여 지연성 사춘기로 결론 내렸다. 다음 중 이 결론을 뒷받침하는 소견은 무엇인가?
+14세 4개월 남아가 또래보다 사춘기가 늦다고 걱정한다. 음모는 조금 있지만 양쪽 고환 용적은 각각 3mL다. 적절한 해석은?
 
 ## 선택지
 
-A. 13세까지 선형 성장 가속이 없음
-B. 14세까지 고환이 커지지 않음
-C. 15세에 여성형 유방이 있음
-D. 16세까지 성인형 치모 분포가 없음
+A. 음모가 있으므로 사춘기가 정상적으로 시작됐다
+B. 키 급성장이 없을 때만 지연으로 판단할 수 있다
+C. 16세까지는 평가할 이유가 없다
+D. 14세까지 고환이 커지지 않아 지연성 사춘기를 평가한다
 
 ## 해설
 
-남아의 사춘기 시작은 일반적으로 고환 용적 증가가 첫 단서이며 정상 시작 범위는 대략 9~14세다. 14세까지 고환이 커지지 않은 경우(B)가 지연성 사춘기를 지지한다. 키 급성장·성인형 음모·일시적 여성형유방의 시점은 고환 발달과 같은 지표가 아니다.
+남아에서는 고환 용적이 약 4mL 이상으로 증가하는 것이 사춘기 시작의 기준이다. 음모는 부신성 안드로겐만으로도 생기므로 성선의 사춘기 시작을 대신하지 못한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 16세까지 성인형 치모 분포가 없음
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005891
+- https://pedsendo.org/clinical-resource/child-with-suspected-delayed-puberty/

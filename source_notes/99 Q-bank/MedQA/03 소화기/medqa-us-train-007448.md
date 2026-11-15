@@ -20,7 +20,7 @@ question_type: management
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -38,19 +38,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-58세 남자가 6개월 동안 간헐적인 연하곤란으로 내원했다. 음식을 삼킬 때 불편감이 줄어들도록 식사 중 물을 많이 마신다. 고혈압과 위식도 역류질환이 있으며 32년 동안 매일 담배 반 갑을 피웠다. 술은 마시지 않는다. 히드로클로로티아지드와 라니티딘을 복용한다. 키는 173cm(5피트 8인치), 체중은 101kg(222lb), BMI는 33.7kg/m²이다. 활력징후는 정상이고 폐와 심장검사는 정상이다. 복부는 부드럽고 압통이 없다. 바륨 식도조영술에서 식도 하단이 완전히 막히고 불규칙한 충만결손이 보인다. 상부내시경에서 미끄럼 식도열공탈장과 위식도 접합부를 조이는 고리가 보인다. 병변 생검에서 화생이 없는 편평원주상피가 보인다. 다음 중 가장 적절한 치료 단계는 무엇인가?
+58세 남성이 수개월 동안 고기나 빵을 삼킬 때 간헐적으로 음식이 걸렸다고 한다. 물은 잘 마시고 체중 감소는 없다. 위내시경에서 위식도 접합부에 얇고 매끈한 원형 고리가 확인됐다. 종괴와 다른 원인은 평가에서 확인되지 않았다. 증상 완화를 위한 처치는?
 
 ## 선택지
 
 A. 식도절제술
-B. 철분 보충
-C. 니센 위저부주름술
-D. 기계적 확장술
+B. 철분제만 복용
+C. 항역류수술부터 시행
+D. 내시경으로 식도 고리를 확장한다
 
 ## 해설
 
 
-식도 하부의 고리성 협착(샤츠키 고리)은 내시경적 기계적 확장으로 치료한다.
+샤츠키 고리는 고형 음식이 간헐적으로 걸리는 증상을 일으킬 수 있다. 증상이 있으면 내시경 확장술을 고려한다. 불규칙하거나 진행성인 협착은 같은 방식으로 가정하지 않고 악성 등 다른 원인을 평가한다.
 
 ## 검수 근거
 
@@ -63,3 +63,4 @@ D. 기계적 확장술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007448
+- https://gut.bmj.com/content/67/6/1000

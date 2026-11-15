@@ -17,7 +17,7 @@ related_disease_slugs:
 difficulty: complex
 answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -30,21 +30,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-임신 26주인 31세 초임부(G1P0)가 비정상적인 당부하검사(glucose tolerance test) 결과에 대한 평가를 위해 내원하였다. 환자는 증상을 부인하지만, 1주일 전 50g 경구 포도당을 섭취하였고 1시간 후 정맥 혈장 포도당 수치가 156 mg/dL로 나타났다고 진술하였다. 활력징후는 혈압 112/78 mmHg, 맥박 81회/분, 호흡수 16회/분이다. 신체 검진 결과는 정상 범위 내에 있다. 다음 중 가장 적절한 다음 관리 단계는 무엇인가?
+임신 26주인 31세 초임부에게 임신성 당뇨병 2단계 선별을 시행했다. 비공복 50 g 포도당 부하 1시간 혈당이 156 mg/dL이다. 다음 단계는?
 
 ## 선택지
 
-A. 50g 경구 포도당 부하검사를 반복한다
-B. 3시간 100g 경구 포도당 부하검사를 시행한다
-C. 미국당뇨병학회(American Diabetic Association) 식단 계획을 따르도록 권고한다
-D. 인슐린 치료를 시작한다
+A. 50 g 선별검사를 반복한다
+B. 공복 상태에서 100 g 경구포도당부하검사를 시행한다
+C. 검사 없이 식사요법만 시작한다
+D. 임신성 당뇨병으로 확진하고 인슐린을 시작한다
 
 ## 해설
 
 
-50 g 경구 포도당 검사에서 1시간 혈당 156 mg/dL는 양성 스크리닝이며, 진단을 위해 100 g 경구 포도당 부하검사(3시간)를 시행해야 한다. 이는 임신성 당뇨 진단에 표준이다. 따라서 다음 단계는 3시간 100 g OGTT이다.
+대한당뇨병학회는 임신 24~28주에 75 g 1단계 검사와 50 g 선별검사를 이용한 2단계 접근을 모두 제시한다. 2단계 방식에서 50 g 검사 1시간 혈당 156 mg/dL는 선별 양성이므로 100 g 진단 검사를 시행한다. 선별 양성만으로 확진하지 않는다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000259
+- 대한당뇨병학회, 2025 당뇨병 진료지침: https://www.e-dmj.org/upload/pdf/dmj-2025-0469.pdf

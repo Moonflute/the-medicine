@@ -19,7 +19,7 @@ related_disease_slugs:
 difficulty: complex
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,21 +35,22 @@ related_drug_slugs:
 
 ## 문제
 
-4세 여아가 예정된 추적 진료를 위해 소아과에 내원했다. 10일 전 첫 급성 중이염을 진단받아 경구 아목시실린을 처방받았다. 당시 귀 통증, 발열, 코막힘이 있었고 왼쪽 고막이 매우 붉었다. 10일간 항생제 치료를 마친 현재 부모는 왼쪽 귀가 약간 꽉 찬 느낌 외에는 증상이 없다고 한다. 만성 코막힘이나 만성·재발성 비부비동염 병력은 없다. 활력징후는 안정적이다. 이경검사에서 반투명한 고막 뒤 공기-액체 경계와 고막 운동성 감소가 보인다. 다음 중 가장 적절한 처치는?
+4세 아이가 급성 중이염 치료를 마쳤고 열과 귀 통증은 사라졌다. 고막 뒤에 공기–액체층이 남았지만 고막 팽윤은 없고 평소 청력과 언어발달은 정상이었다. 다음 조치는?
 
 ## 선택지
 
-A. 총 21일이 되도록 경구 아목시실린 지속
-B. 14일간 아목시실린-클라불란산 처방
-C. 7일간 경구 프레드니솔론 처방
-D. 관찰하며 정기 추적
+A. 아목시실린–클라불란산으로 즉시 바꾼다
+B. 경구 스테로이드를 시작한다
+C. 즉시 환기관을 삽입한다
+D. 추가 항생제 없이 삼출과 청력을 추적한다
 
 ## 해설
 
 
-고막 뒤에 반투명한 공기-액체 경계와 운동성 감소는 급성 중이염 후 삼출(중이염 후 삼출)으로, 증상이 호전되고 10일간 항생제 치료 후에도 지속될 수 있다. 이 상태는 자연적으로 수주 내에 해결되며 추가 항생제는 필요하지 않다. 따라서 관찰하고 정기 추적한다가 적절하다.
+급성 염증이 가라앉은 뒤에도 일시적으로 중이 삼출이 남을 수 있다. 삼출만 남은 것을 항생제 치료 실패로 보지 않으며, 지속되거나 청력 문제가 있으면 평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009940
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC3410229/

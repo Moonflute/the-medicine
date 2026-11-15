@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-2KueuwnOyEsSDqs6jsiJjshKzsnKDspp0gKFBNRikgKFByaW1hcnkgTXllbG9maWJyb3NpcyAoUE1GKSkubWQ
 question_type: management
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,19 +38,19 @@ related_drug_slugs:
 
 ## 문제
 
-72세 남성이 2개월 동안 지속된 피로와 악화되는 복통으로 내원했다. 그동안 야간 발한이 심하고 운동 시 호흡곤란이 있었으며 3개월 동안 체중이 5.6kg 감소했다. 3년 전 심근경색, 고혈압, 당뇨병, 만성 기관지염이 있고 인슐린, 아스피린, 리시노프릴, 알부테롤 흡입기를 복용한다. 45년 동안 매일 담배 반 갑을 피웠다. 비장은 왼쪽 늑골연 아래 6cm에서 만져진다. 혈색소 6.4 g/dL, MCV 85 μm³, 백혈구 5,200/mm³, 혈소판 96,000/mm³이다. 혈액도말과 골수흡인에서 광범위한 섬유화와 소수의 산재한 형질세포가 보이며 JAK2 검사 양성이다. 다음 중 가장 적절한 처치는?
+일차성 골수섬유증이 확진된 72세 환자에게 비장비대로 인한 조기 포만과 야간발한이 심하다. 혈색소 11.2g/dL, 혈소판 18만/μL이며 현재 이식을 하지 않기로 했다. 비장 크기와 전신 증상 조절에 적절한 약은?
 
 ## 선택지
 
 A. 클라드리빈
-B. 프레드니손
-C. 이마티닙
-D. 룩솔리티닙
+B. 이마티닙
+C. 룩솔리티닙
+D. 경구 철분
 
 ## 해설
 
 
-비장비대·전신증상·골수섬유화와 JAK2 양성은 골수섬유증을 지지한다. 선지 중 룩솔리티닙(D)은 비장과 증상 조절에 사용한다. 빈혈·혈소판감소를 악화시킬 수 있어 혈구수에 따른 용량·보조치료가 필요하며 Hb 6.4 g/dL의 안정화도 별도 평가한다. 이를 완치나 진행억제를 보장하는 약이라고 설명하지 않는다.
+룩솔리티닙은 골수섬유증의 증상과 비장비대를 줄이는 데 사용할 수 있다. 완치 치료는 아니며, 혈액 수치와 감염 위험을 확인하며 투여한다.
 
 ## 검수 근거
 
@@ -63,3 +63,5 @@ D. 룩솔리티닙
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000012
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7820646/
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13432685/

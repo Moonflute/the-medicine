@@ -17,9 +17,9 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-u2iOyehCAoSW5mZXJ0aWxpdHkpLm1k
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-30세 임신 2회·출산 1회·유산 1회의 여자가 12개월 동안 임신이 되지 않아 내원했다. 첫 출산 후 잔류 태반으로 출혈이 발생해 자궁경관확장 및 소파술을 받았고, 이전에는 5일간 정상 양의 월경이었으나 현재 2일간 소량만 나온다. 질과 자궁경부, 자궁 크기는 정상이다. 다음 중 가장 적절한 처치는?
+출산 뒤 잔류 태반으로 소파술을 받은 33세 여성이 이후 월경량이 크게 줄고 1년째 임신하지 못했다. 식염수 주입 초음파에서 자궁강을 가로지르는 유착이 의심된다. 확진과 치료를 함께 할 방법은?
 
 ## 선택지
 
-A. 항정자항체 농도 측정
-B. 에스트로겐/프로게스틴 철회검사
-C. 자궁경검사 및 유착박리술
-D. 자궁경관확장 및 소파술
+A. 자궁경으로 유착을 확인하고 박리
+B. 맹목적 반복 소파술
+C. 골반 MRI 후 호르몬 치료
+D. 복강경으로 양측 난관 유착 박리
 
 ## 해설
 
 
-월경이 거의 없고 자궁내 유착이 의심될 때는 자궁경 검사를 통해 유착을 확인하고 필요시 유착 박리를 시행한다. 이는 불임 치료의 첫 단계이다.
+자궁강 시술 이후 월경량 감소·난임과 자궁강 충만 결손은 자궁내 유착(아셔만증후군)에 합당하다. 자궁경으로 직접 보면서 유착을 해리한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005062
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC5440524/

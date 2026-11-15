@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yViOuTnOuhnOqykOu2iOqwkOydkSAoQW5kcm9nZW4gSW5zZW5zaXRpdml0eSkubWQ
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-15세 여아가 월경을 하지 않아 병원에 왔다. 개인력과 가족력에 중대한 질환은 없다. 키 165 cm(5피트 5인치), 체중 57 kg(125 lb), BMI 21 kg/m²였고 활력징후는 정상이었다. 유방에서 유두와 유륜으로 이루어진 이차 유방 융기가 보였고 음모는 드물고 옅은 색이었다. 복부에서 양측 단단하고 압통 없는 서혜부 종괴가 만져졌다. 골반 진찰에서 막힌 끝의 질주머니가 보였고 초음파에서 자궁과 난소가 보이지 않았다. 가장 적절한 치료는?
+완전 안드로겐 불감증이 확인된 13세 청소년의 자발 사춘기가 시작됐다. 양측 생식샘은 영상에서 의심 병변이나 통증이 없다. 생식샘 관리 상담으로 가장 적절한 것은?
 
 ## 선택지
 
-A. 생식샘절제술
-B. 테스토스테론 치료
-C. 질 확장기 치료
-D. 프레드니솔론 치료
+A. 암 예방을 위해 사춘기 완료 전에 즉시 양측 절제한다
+B. 테스토스테론을 투여한 뒤 절제 여부를 결정한다
+C. 자발 사춘기를 허용하며 이후 보존·절제의 이득과 위험을 전문팀에서 함께 논의한다
+D. 악성 위험이나 추적 상담 없이 평생 보존하기로 결정한다
 
 ## 해설
 
-유방 발달·적은 음모·서혜부 생식샘과 자궁 부재는46,XY 완전 안드로겐불감증을 시사한다. 원인은 안드로겐 수용체 기능 이상이며 고환 AMH로 뮐러관이 퇴축한다. 사춘기 이후 종양 위험과 호르몬·생식·정체성을 전문팀과 상담해 생식샘절제(A)를 고려한다. 즉시 강제 수술로 성별을 확정하는 의미가 아니며 시기·선택에 충분한 설명과 동의가 필요하다.
+완전 안드로겐 불감증은 생식샘을 보존하면 자발 사춘기가 가능하고 사춘기 전 악성 위험은 낮다. 이후의 종양 위험, 추적 한계와 절제 시 호르몬 보충을 설명하고 환자와 결정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 프레드니솔론 치료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000650
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9066594/

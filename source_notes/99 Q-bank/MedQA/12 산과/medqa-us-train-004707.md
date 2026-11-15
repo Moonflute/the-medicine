@@ -17,7 +17,7 @@ question_type: diagnosis
 related_disease_slugs:
   - MTIg7IKw6rO8L-2DnOuwmOyhsOq4sOuwleumrCAoUGxhY2VudGFsIEFicnVwdGlvbikubWQ
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-39세 여성 임신 3회, 출산 2회가 임신 32주에 갑자기 시작된 심한 복통과 오심으로 응급실에 왔다. 피가 섞이지 않은 구토를 한 번 했다. 임신은 순조로웠지만 지난 산전 진료에서 혈압이 150/90 mm Hg였다. 첫 아이는 질식분만했고 둘째는 비안심 태아심박수 때문에 하부 자궁절개 횡제왕절개로 분만했다. 불안하고 창백해 보인다. 체온은 36.1°C (96°F), 맥박은 분당 115회, 혈압은 92/65 mm Hg이다. 사지가 차갑고 축축하다. 골반검사에서 자궁이 단단하고 압통이 있으며 자궁경부는 30% 소실되고 1cm 개대, 선진부는 -1 station이다. 태아심박수는 분당 100회이다. 가장 가능성 높은 진단은 무엇인가?
+임신 32주 산모가 갑작스러운 지속 복통으로 왔다. 자궁은 팽팽하고 눌렀을 때 아프며 혈압이 떨어지고 태아 서맥이 생겼다. 밖으로 보이는 질출혈은 거의 없다. 우선 의심할 진단은?
 
 ## 선택지
 
-A. 자궁 파열
-B. 전치혈관 파열
-C. 태반조기박리
-D. 유착태반
+A. 가려진 출혈을 동반한 태반조기박리
+B. 전치태반에 의한 무통성 출혈
+C. 자궁경부 용종 출혈
+D. 규칙적인 생리적 수축
 
 ## 해설
 
-갑작스러운 복통, 단단하고 압통 있는 자궁, 모체 쇼크 소견과 태아 서맥은 태반조기박리(C)를 가장 시사한다. 출혈이 자궁 내에 가려지면 외부 질출혈이 뚜렷하지 않을 수도 있다. 본문은 태아 혈압이 아니라 태아 심박수를 제시했으며, 비출혈성 구토는 박리의 특징적 진단 근거가 아니다.
+태반조기박리에서는 피가 태반 뒤에 고여 외부 출혈이 적을 수 있다. 지속 통증과 자궁 경직, 산모 저혈압과 태아 심박 이상을 함께 보면 응급으로 평가해야 한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 유착태반
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004707
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10176440/

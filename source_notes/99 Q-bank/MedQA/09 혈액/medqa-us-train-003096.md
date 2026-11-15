@@ -16,11 +16,11 @@ related_diseases:
   - "splenic dysfunction"
 related_disease_slugs:
   - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
-question_type: diagnosis
+question_type: management
 difficulty: simple
-answer: C
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-12세 남아가 2일간의 발열로 부모와 함께 내원했다. 체온은 101.3°F이고 겸상적혈구병과 반복 감염 병력이 있다. 1년 전 테크네튬-99m을 이용한 비장 신티그래피에서 기능적 저비장증이 확인되었다. 다음 중 이 환자의 말초혈액도말에서 발견될 소견은?
+겸상적혈구병으로 비장이 제대로 기능하지 않는 12세 아이가 39°C의 열로 응급실에 왔다. 지금 혈압은 정상이고 뚜렷한 감염 부위가 없다. 다음 조치는?
 
 ## 선택지
 
-A. 가시적혈구
-B. 호염기성 점적
-C. 하우얼-졸리 소체
-D. 분열적혈구
+A. 혈액배양을 신속히 채취하고 경험적 비경구 항생제를 투여한다
+B. 열 이외에는 괜찮으므로 해열제만 복용하고 귀가한다
+C. 혈액배양이 양성일 때까지 항생제를 미룬다
+D. 예방접종 이력이 있으므로 세균 감염을 배제한다
 
 ## 해설
 
 
-기능적 무비장은 적혈구 핵이 제거되지 않아 혈액 도말에서 Howell‑Jolly bodies가 보인다. 이는 비장 기능 저하의 전형적인 소견이다.
+겸상적혈구병의 기능적 무비증은 침습 세균 감염 위험을 높인다. 열이 나면 안정적으로 보여도 신속히 평가해 배양을 채취하고 필요 항생제를 지연하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 분열적혈구
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003096
+- https://publications.aap.org/pediatrics/article/154/2/e2024066842/197803/Health-Supervision-for-Children-and-Adolescents

@@ -17,7 +17,7 @@ related_disease_slugs:
   - MjAg67mE64eo6riw6rO8L-yghOumveyDmOyVlCAoUHJvc3RhdGUgY2FuY2VyKS5tZA
 question_type: management
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-64세 남성이 허리 아래쪽 통증으로 진료를 받으러 왔다. 수년 전 양성 전립선비대증을 진단받았고 지난해 악화되었다. 직장수지검사에서 단단한 결절이 만져져 전립선 생검을 했으며 고등급 선암이 확인되었다. 당시 뼈스캔에서 요추에 작은 국소 병변이 보였다. 전립선과 골반 림프절에 방사선 치료를 받고 류프로라이드와 항안드로겐을 시작했다. 2개월 전부터 허리 통증이 생겨 악화되었고 통증은 거의 지속되며 수면을 방해한다. MRI에서 골절이나 척수압박 없이 L2와 L3에 골전이가 보이고 PSA는 17.5 ng/mL이다. 가장 적절한 처치는?
+전립선암 환자의 요추 골전이에 통증이 지속된다. MRI에서 척수압박이나 병적 골절은 없고 척추는 안정적이다. 진통제를 유지하며 국소 통증을 줄일 치료는?
 
 ## 선택지
 
-A. 칼슘과 비타민 D 보충
-B. 외부 방사선 치료
-C. 플루타미드
-D. 풍선척추성형술
+A. 통증 부위에 완화 목적의 외부 방사선치료
+B. 골절이 없더라도 척추성형술을 우선 시행
+C. 원발 전립선만 절제해 요추 통증을 조절
+D. 칼슘과 비타민 D만 보충
 
 ## 해설
 
 
-척추 전이로 국소 통증이 있지만 골절이나 척수압박이 제시되지 않아 해당 부위 외부 방사선치료 B가 통증 완화에 적절하다. 새로운 전신 진행 여부는 별도로 평가하지만 이미 시행한 호르몬 차단을 단순 반복하는 선택지는 당장의 국소 통증 치료를 대체하지 못한다. Kyphoplasty는 풍선척추성형술이며 이 케이스처럼 골절이 없는 상황에서 무조건 시행하는 치료가 아니다.
+압박이나 불안정성이 없는 통증성 골전이에는 완화 목적의 외부 방사선치료가 효과적이다. 전신치료의 변경 필요성은 따로 평가한다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 풍선척추성형술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000323
+- https://pubmed.ncbi.nlm.nih.gov/38788923/

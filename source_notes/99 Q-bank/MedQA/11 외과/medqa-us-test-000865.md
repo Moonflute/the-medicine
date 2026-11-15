@@ -17,9 +17,9 @@ related_disease_slugs:
   - MTEg7Jm46rO8L-u5hOyepSDshpDsg4EgKFNwbGVuaWMgSW5qdXJ5KS5tZA
 question_type: management
 difficulty: complex
-answer: D
+answer: B
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-26세 남성이 교통사고 후 응급실에 왔다. 내원 시 체온 99.0°F, 혈압 100/60 mmHg, 심박수 125회/분, 호흡 16회/분, 산소포화도 98%였다. 왼쪽 상복부의 극심한 복통이 있었고 지난 30분 동안 악화되었다. 복벽 경직, 불수의적 방어 및 가벼운 타진에도 압통이 있었다. 침상 초음파에서 복강 내 혈액이 확인되었다. 정맥 수액을 더 투여했지만 체온 98.9°F, 혈압 82/50 mmHg, 심박수 180회/분, 호흡 20회/분, 산소포화도 97%로 악화되었다. 다음 중 가장 적절한 처치는?
+26세 남성이 교통사고 뒤 복부 경직을 보이며 FAST에서 복강 내 자유액이 확인됐다. 혈액제제를 투여 중에도 혈압 78/48 mmHg로 쇼크가 지속된다. 다음 처치는?
 
 ## 선택지
 
-A. 생리식염수 일시주입 후 수액 주입 뒤 혈역학을 재평가한다
-B. 복부 및 골반 CT
-C. 모르핀
-D. 시험적 개복술
+A. 조영 복부 CT부터 시행
+B. 응급 개복술로 출혈 조절
+C. 중환자실에서 반복 FAST만 시행
+D. 선택적 혈관색전술을 위해 수술을 일단 미룬다
 
 ## 해설
 
 
-복부 초음파에서 복강 내 혈액이 확인된 급성 복강내출혈은 외상성 쇼크이며, 혈역학적 불안정이 진행 중이므로 즉시 개복술을 통해 출혈원을 탐색·제어해야 한다.
+양성 FAST와 지속되는 쇼크는 복강 내 출혈에 대한 즉각적인 수술적 조절이 필요한 조합이다. 혈액제제 소생을 계속하며 CT가 수술을 지연하지 않도록 한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 시험적 개복술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000865
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7106618/

@@ -17,7 +17,7 @@ question_type: investigation
 related_disease_slugs:
   - MTIg7IKw6rO8L-uLpOyatOymne2bhOq1sCAoRG93biBTeW5kcm9tZSkubWQ
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-31세 G3P0020 여성이 임신 12주 산전 방문을 위해 내원했다. 담배는 피우지 않고 임신 10주 진단 후 술도 끊었다. 초음파 결과 심박수 148/분(정상 137~150), 머리엉덩이길이 44mm(정상 45~52mm), 비강골 관찰됨, 목덜미 투명대 3.3mm(정상 <2.5mm)이다. 다음 중 이 환자에 관한 올바른 설명은?
+임신 12주에 태아 목덜미 투명대가 뚜렷하게 증가했다. 침습적 염색체 검사 결과는 정상이었으며 현재 임신 19주다. 다음 평가로 적절한 것은?
 
 ## 선택지
 
-A. 비강골이 보이므로 다운증후군 이외의 병리를 의심해야 한다.
-B. 이 결과의 진단 정확도를 높이려면 유리 β-hCG와 임신 관련 혈장단백 A(PAPP-A)를 측정해야 한다.
-C. 이 임신 주수에서는 목덜미 투명대의 진단 가치가 낮다.
-D. 이 결과의 진단 정확도를 높이려면 혈청 알파태아단백, hCG, 비결합 에스트리올을 측정해야 한다.
+A. 정밀 구조 초음파와 태아 심장초음파
+B. 염색체가 정상이므로 구조 평가는 필요 없다
+C. 모체 혈청 쿼드검사만 시행
+D. 분만 직전까지 추가 초음파를 하지 않는다
 
 ## 해설
 
-1기 결합선별은 NT에 유리 β-hCG·PAPP-A를 결합해 위험도를 산정하므로 선택지 B가 원문의 올바른 설명이다. 다만 NT 3.3mm는 경고 소견이며 확진 검사가 아니므로 유전상담·진단검사 및 정밀초음파를 제안한다. CRL44mm는 표준 NT 측정 범위의 하단보다 작아 주수·측정 적합성을 재확인해야 한다. 비강골이 보인다고 다운증후군이 배제되지는 않는다.
+목덜미 투명대 증가가 있었으면 염색체 검사 결과가 정상인 경우에도 심장 등 구조 이상 위험이 남는다. 국내 모체태아의학 지침은 2삼분기 정밀초음파와 태아 심장초음파를 권고한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 이 결과의 진단 정확도를 높이려면 혈청 알파태아단백, hCG
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009902
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7834900/

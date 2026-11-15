@@ -15,9 +15,9 @@ related_diseases:
   - "척수 압박"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-ulmOuniO2LsOyKpCDqtIDsoIjsl7wgKFJoZXVtYXRvaWQgQXJ0aHJpdGlzKS5tZA
-question_type: mechanism
+question_type: management
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-정신지체, 고혈압, 당뇨병 병력이 있는 54세 여성이 행동 변화로 응급실에 내원했다. 보호자들은 갑자기 보행이 운동실조성으로 변하고 평소 말이 없는 상태보다 반응이 줄었다고 한다. 체온 36.9°C, 혈압 125/68 mmHg, 맥박 분당 90회, 호흡수 분당 15회, 산소포화도 99%이다. 새로운 경직, 3+ 반사, 양성 바빈스키 징후가 있으며 양손의 대칭적 부종과 변형이 있다. 머리에 뒤쪽 힘을 가하고 경추에 앞쪽 힘을 가하면 ‘뚝’ 소리가 난다. 다음 중 이 상태에 취약하게 만든 가장 가능성 높은 위험요인은?
+오래된 류마티스관절염으로 손 변형이 있는 54세 여성이 목 통증과 새 보행장애로 내원했다. 양쪽 다리에서 과반사와 바빈스키 징후가 확인된다. 환축추 불안정성과 경수 압박이 의심될 때 다음 조치는?
 
 ## 선택지
 
-A. 뇌성마비
-B. 당뇨병
-C. 다운증후군
-D. 류마티스관절염
+A. 목을 수동으로 굽히고 펴면서 통증을 재현한다
+B. 근육이완제를 처방하고 다음 달에 재진한다
+C. 경추를 보호한 상태로 응급 MRI와 척추 전문 평가를 진행한다
+D. 정상 손목 X선을 확인한 후 귀가시킨다
 
 ## 해설
 
 
-대칭성 손관절 변형은 류마티스관절염을 지지하며, 이는 환축추 관절의 인대·관절 손상으로 불안정성과 아탈구를 일으킬 수 있다. 새 경직·과반사·바빈스키 징후는 경수 압박을 시사해 D가 타당하다. 골절이 입증된 것은 아니며 이러한 환자에서 본문에 기술된 유발 조작을 실제로 반복해서는 안 된다.
+류마티스관절염의 경추 불안정성이 척수를 압박할 수 있다. 새로운 척수병증 소견이 있으면 경추를 조작하지 말고 보호하면서 응급 MRI를 시행한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 류마티스관절염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000094
+- https://acsearch.acr.org/docs/69484/Narrative/

@@ -13,11 +13,11 @@ related_diseases:
   - "청소년 피임 상담"
   - "환자 비밀보장"
   - "성 건강 상담"
-question_type: ethics
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yekOq2geuCtOyepey5mCAoSW50cmF1dGVyaW5lIERldmljZSkubWQ
 difficulty: standard
-answer: B
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 여아가 정기 건강검진을 위해 내원했다. 건강하게 지내며 집에서 부모와 함께 산다. 최근 새 남자친구를 부모가 ‘허락하지 않는다’고 하여 부모와의 관계가 긴장되었다고 한다. 최근 남자친구와 성관계를 시작했고 경구피임약 처방을 원하지만 부모에게 알리고 싶어 하지 않는다. 하루 반 갑의 담배를 피우고 술은 마시지 않는다. 영양 상태가 좋아 보이며 신체진찰은 정상이다. 소변 임신검사는 음성이다. 다음 중 처치로 가장 적절한 다음 단계는?
+16세 청소년이 임신과 성매개감염을 모두 예방하고 싶다며 피임 상담을 요청했다. 적절한 설명은?
 
 ## 선택지
 
-A. HIV 선별검사 시행
-B. 효과적인 모든 피임 방법에 대해 상담
-C. 피임 방법을 논의하기 전에 부모의 동의를 받도록 요청
-D. 경구피임약 권고
+A. 경구피임약을 꾸준히 먹으면 성매개감염도 줄어든다
+B. 자궁내장치를 선택하면 콘돔은 필요 없다
+C. 선호에 맞는 효과적인 피임법과 함께 매회 콘돔 사용을 안내한다
+D. 응급피임약만 미리 받아두면 두 가지를 모두 예방할 수 있다
 
 ## 해설
 
-청소년의 선호와 필요를 확인하고 모든 효과적인 피임 선택지 및 STI 예방을 비밀보장 범위와 함께 상담한다(B). 피임 상담과 처방의 법적 동의 요건은 다르며 처방·정보공유에는 지역 법률과 비밀보장 제한을 확인한다. 부모 동의 전에는 상담도 불가하다는 C는 부적절하다.
+피임약이나 자궁내장치는 임신 위험을 낮추지만 성매개감염을 막지 않는다. 콘돔을 병행하고 피임법은 장단점과 환자의 선호에 맞춰 선택한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 경구피임약 권고
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006490
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6538

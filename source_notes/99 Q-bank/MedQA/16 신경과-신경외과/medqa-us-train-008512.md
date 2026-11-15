@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_qsr3rj5nrp6Ug7ZiR7LCp7KadIChDYXJvdGlkIGFydGVyeSBzdGVub3NpcykubWQ
 difficulty: simple
 answer: A
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,7 +40,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-71세 여성이 약 1시간 만에 회복된 일시적인 오른팔과 손의 근력 저하로 내원했다. 정원 일을 하던 중 증상이 시작되었다. 과거력으로 고혈압, 당뇨병, 불안, 이상지질혈증이 있다. 현재 인슐린, 메트포르민, 플루옥세틴을 복용한다. 진찰에서 왼쪽 경동맥 잡음이 들린다. 경동맥 초음파에서 오른쪽과 왼쪽 경동맥 협착은 각각 35%와 50%였다. 다음 중 가장 적절한 다음 처치는 무엇인가?
+71세 여성이 약 1시간 만에 회복된 일시적인 오른팔과 손의 근력 저하로 내원했다. 정원 일을 하던 중 증상이 시작되었다. 과거력으로 고혈압, 당뇨병, 불안, 이상지질혈증이 있다. 현재 인슐린, 메트포르민, 플루옥세틴을 복용한다. 진찰에서 왼쪽 경동맥 잡음이 들린다. 경동맥 초음파에서 오른쪽과 왼쪽 경동맥 협착은 각각 35%와 50%였다. 가장 적절한 다음 처치는 무엇인가?
 
 ## 선택지
 

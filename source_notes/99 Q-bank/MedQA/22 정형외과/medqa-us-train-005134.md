@@ -18,9 +18,9 @@ question_type: diagnosis
 related_disease_slugs:
   - MjIg7KCV7ZiV7Jm46rO8L-yKrOqwnOuMgO2HtCDthrXspp0g7Kad7ZuE6rWwIChQYXRlbGxvZmVtb3JhbCBQYWluIFN5bmRyb21lKS5tZA
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-37세 남자가 한 달 동안 점점 심해지는 오른쪽 무릎 부종과 통증으로 내원했다. 외상이나 이전 관절질환은 없고 카펫 시공자로 일하며 고혈압으로 하이드로클로로티아지드를 복용한다. 오른쪽 무릎이 붓고 붉으며 슬개골 아래쪽 부분의 앞에 변동성 부종이 있고, 관절선 압통은 없으며 통증 때문에 굴곡이 제한된다. 가장 가능성 높은 진단은?
+바닥 시공 일을 하는 37세 남성이 무릎을 꿇는 일이 늘어난 뒤 무릎이 부었다. 무릎뼈 바로 앞에 물주머니처럼 말랑한 부종이 국한되어 있고, 수동 관절운동은 거의 아프지 않다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 패혈성 관절염
-B. 슬개전 윤활낭염
-C. 골관절염
-D. 오스굿-슐라터병
+A. 슬개전 윤활낭염
+B. 무릎 화농성 관절염
+C. 거위발 윤활낭염
+D. 내측 반월연골 파열
 
 ## 해설
 
-무릎을 자주 꿇는 카펫 시공자에서 슬개골 앞쪽의 국소 변동성 부종·압통과 관절선 압통 부재는 슬개전 윤활낭염(B)을 지지한다. 영문의 부종은 슬개골 아래쪽 부분의 앞에 있다는 뜻이지 슬개골보다 아래에 있는 별도 슬개하 윤활낭을 확정한 것이 아니다. 관절 전체가 침범되는 화농성 관절염보다 표재성 윤활낭 분포가 합당하지만 실제로 감염 의심 소견이 있으면 감염성 윤활낭염도 평가한다.
+반복적으로 무릎을 꿇으면 슬개골 바로 앞의 윤활낭이 자극받는다. 발열이나 뚜렷한 열감·홍반이 있으면 감염성 윤활낭염도 평가한다.
 
 ## 검수 근거
 

@@ -19,6 +19,7 @@ related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-uwmOuzteyEsSDtj5DroLQgKFJlY3VycmVudCBQbmV1bW9uaWEpLm1k
 difficulty: standard
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-2세 남아가 일주일 동안 중등도의 흰 가래를 동반한 생산성 기침이 점점 심해져 내원했다. 지난 1년 동안 폐렴으로 항생제 치료를 네 차례 받았다. 3개월 전 흉부 X선은 해부학적 이상이 없었다. 잘 씻겨 내려가지 않는 양 많고 기름진 변을 여러 번 보았다. 키는 3백분위수, 체중은 5백분위수이다. 체온은 38°C(100.4°F), 맥박은 분당 132회, 호흡수는 분당 44회이며 흉부에서 흡기성 수포음이 몇 개 들린다. 복부는 부드럽고 압통이 없다. 다음 중 기저 원인을 확인하기 위한 가장 적절한 초기 검사는 무엇인가?
+2세 남아가 일주일 동안 중등도의 흰 가래를 동반한 가래가 섞인 기침이 점점 심해져 내원했다. 지난 1년 동안 폐렴으로 항생제 치료를 네 차례 받았다. 3개월 전 흉부 X선은 해부학적 이상이 없었다. 잘 씻겨 내려가지 않는 양 많고 기름진 변을 여러 번 보았다. 키는 3백분위수, 체중은 5백분위수이다. 체온은 38°C(100.4°F), 맥박은 분당 132회, 호흡수는 분당 44회이며 흉부에서 흡기성 수포음이 몇 개 들린다. 복부는 부드럽고 압통이 없다. 다음 중 기저 원인을 확인하기 위한 가장 적절한 초기 검사는 무엇인가?
 
 ## 선택지
 

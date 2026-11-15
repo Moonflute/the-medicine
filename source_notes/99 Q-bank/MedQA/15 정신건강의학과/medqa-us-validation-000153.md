@@ -13,10 +13,10 @@ related_diseases:
   - "환자 비밀보호"
   - "약물 과다복용"
   - "의료윤리"
-question_type: ethics
+question_type: management
 related_disease_slugs: []
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -33,23 +33,24 @@ clinical_reviewed_at: 2026-10-25
 
 ## 문제
 
-36세 여성이 알코올, 벤조디아제핀, 바르비투르산염 양성의 약물 과다복용으로 입원했다. 3일 후 치료한 의사의 동료가 병원 로비에서 이웃이자 친구라며 무슨 일이 있었는지 물었다. 가장 적절한 의사의 답변은?
+입원 환자의 이웃이 의사에게 ‘친한 사이’라며 환자가 왜 입원했고 어느 병동에 있는지 묻는다. 이웃은 진료에 관여하지 않고, 환자의 동의나 공개할 법적 근거도 없다. 적절한 답변은?
 
 ## 선택지
 
-A. “직접 물어보세요. 지금 정신과 병동에 있어요.”
-B. “소변검사에서 알코올, 벤조디아제핀, 바르비투르산염이 양성이었어요.”
-C. “제가 답할 사람이 아니니 주치의에게 물어보세요.”
-D. “걱정되시는 건 이해하지만 이 상황에 대한 정보를 드릴 수 없습니다.”
+A. 걱정하시는 건 이해하지만 환자 정보를 알려드릴 수 없습니다
+B. 입원 이유는 말할 수 없지만 병동은 알려드리겠습니다
+C. 의료인이시니 진료에 관여하지 않아도 검사 결과는 알려드릴 수 있습니다
+D. 가까운 이웃임을 확인하면 입원 이유를 알려드릴 수 있습니다
 
 ## 해설
 
-이 동료는 진료 목적이 아니라 이웃·친구로서 개인 정보를 묻고 있고 환자의 공개 동의도 제시되지 않았다. 걱정에는 공감하되 정보를 제공할 수 없다고 답하는 것이 적절하다. 입원 병동이나 약물검사 결과도 임의로 밝히지 않는다. 실제 정보 공유에는 환자의 동의, 치료상 필요와 법적 허용·요구 등 별도 근거가 있을 수 있으므로 본인과 대리인 외에는 언제나 공개 불가라고 일반화하지 않는다.
+의료법 제19조는 법령에서 허용한 경우가 아니면 업무 중 알게 된 환자 정보를 누설하지 못하게 한다. 의료인이라는 신분이나 친분만으로 확인하거나 공개할 수 없다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000153
+- https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=283899&urlMode=lsScJoRltInfoR
 
 ## 검수 근거
 

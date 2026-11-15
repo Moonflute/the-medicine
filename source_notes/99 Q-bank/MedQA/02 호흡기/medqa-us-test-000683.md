@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yVjOugiOultOq4sOyEsSDquLDqtIDsp4Dtj5Ag7JWE7Iqk7Y6Y66W06ri466Oo7Iqk7KadIChBQlBBKSAoQWxsZXJnaWMgQnJvbmNob3B1bG1vbmFyeSBBc3BlcmdpbGxvc2lzKS5tZA
   - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
-question_type: management
+question_type: diagnosis
 difficulty: complex
 answer: D
 translation_status: machine-verified
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-천식 병력이 있는 22세 여성이 점점 악화되는 호흡곤란으로 병원에 왔다. ‘폐가 무너지는’ 느낌이 들고 폐 기능이 계속 악화된다고 한다. 여러 의사에게 진료받아 여러 흡입제를 처방받았지만 천식 악화를 조절하는 데 도움이 되지 않았다. 지난 3년 동안 폐렴을 4번 앓았고 무작위로 심한 기침과 천명 발작이 자주 있었다. 기침 시 녹색 가래와 피가 섞여 나오며 발열, 권태감, 갈색 점액 마개가 동반된다고 한다. 혈압 122/70 mmHg, 맥박 66회/분, 호흡 26회/분, 체온 37.0°C(98.6°F)였다. 허약해 보이고 중등도 호흡곤란이 있었으며 오른쪽 폐 기저부 흡기 수포음과 양측 상엽 거친 호흡음이 들렸다. 흉부 X선에서 오른쪽 폐 기저부 무기폐와 ‘장갑 손가락 모양’ 음영이 보였고 혈청 IgE가 증가했다. 가장 적절한 치료는?
+22세 여성이 천식 치료를 받는데도 천명과 갈색 점액마개가 반복된다. 흉부 CT에서 중심성 기관지확장과 고음영 점액마개가 보인다. 총 IgE는 1,800 IU/mL이고 아스페르길루스 특이 IgE도 양성이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 이소니아지드
-B. 플루코나졸
-C. 카스포펀진
-D. 프레드니손
+A. 침습성 폐아스페르길루스증
+B. 급성 세균성 폐렴
+C. 과민성 폐렴
+D. 알레르기성 기관지폐 아스페르길루스증
 
 ## 해설
 
-정답은 D이다. 천식, 반복 악화, 갈색 점액 마개, finger-in-glove 음영 및 높은 IgE는 ABPA를 시사한다. 이는 단순 침습성 진균 폐렴이 아니라 Aspergillus에 대한 알레르기성 기도 염증이다. 급성 ABPA에는 경구 glucocorticoid 또는 적절한 항진균 치료를 상황에 맞게 선택하며, 제시된 약 중 prednisone이 적합하다. fluconazole은 ABPA의 적절한 표준 azole 선택지가 아니다. 용량·기간은 중증도와 반응에 맞추며 무조건 고용량을 장기 유지하지 않는다.
+천식 환자의 아스페르길루스 감작, 높은 총 IgE, 중심성 기관지확장과 고음영 점액마개는 알레르기성 기관지폐 아스페르길루스증을 지지한다. 이는 곰팡이에 대한 기도의 과민반응으로, 조직을 침범하는 진균성 폐렴과 다르다.
 
 ## 검수 근거
 

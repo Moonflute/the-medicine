@@ -16,7 +16,7 @@ related_diseases:
 related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyGjSDsp4Ttlokg7Yag66as7L2p7Yyl7Je8IChSYXBpZGx5IFByb2dyZXNzaXZlIEdsb21lcnVsb25lcGhyaXRpcykubWQ
   - MDUg7Iug7J6lL-2PkOyLoOyepSDspp3tm4TqtbAgKFB1bG1vbmFyeS1SZW5hbCBTeW5kcm9tZSkubWQ
-question_type: 임상증례 객관식
+question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 남자가 일주일간 지속된 호흡곤란과 객혈로 내원했다. 아픈 사람과 접촉한 적은 없고 중대한 질환의 개인력이나 가족력도 없으며 복용약도 없다. 체온 37°C, 맥박 82회/분, 호흡수 22회/분, 혈압 152/90 mmHg이다. 양쪽 폐기저부에서 흡기 수포음이 들린다. 헤모글로빈 14.2 g/dL, 백혈구 10,300/mm³, 혈소판 205,000/mm³이다. 소변검사에서 단백뇨 2+, 적혈구 70/고배율시야, 백혈구 1~2/고배율시야가 보이고 흉부 X선에서 폐 침윤이 있다. 추가 평가에서 가장 가능성 높은 소견은 무엇인가?
+22세 남성이 객혈과 호흡곤란으로 내원했다. 양측 폐포 침윤이 있고 소변에서 변형 적혈구와 적혈구 원주가 보인다. 크레아티닌은 3일 사이 0.9에서 2.7 mg/dL로 올랐다. 신장내과 평가와 함께 신속히 보낼 혈청검사는?
 
 ## 선택지
 
-A. 항-GBM 항체 역가 증가
-B. c-ANCA 역가 증가
-C. p-ANCA 역가 증가
-D. 항-dsDNA 항체 역가 증가
+A. 항사구체기저막 항체와 ANCA
+B. 항갑상선 과산화효소 항체와 TSH
+C. 항CCP 항체와 류마티스인자
+D. 항아세틸콜린수용체 항체와 CK
 
 ## 해설
 
-객혈·폐침윤과 사구체성혈뇨/단백뇨는 폐신장증후군을 시사한다. 젊은 환자에서 anti-GBM disease A가 부합하지만 ANCA혈관염 등도 감별하고 항체·신기능·생검을 통합한다. 폐침윤을 세균성 폐렴으로 단정해서는 안 된다.
+폐포출혈이 의심되면서 사구체성 혈뇨와 급성 신손상이 있으면 항사구체기저막 질환과 ANCA 연관 혈관염을 신속히 평가한다. 혈청검사와 생검을 준비하되 중증이면 전문팀 치료를 결과가 나올 때까지 미루지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 항-dsDNA 항체 역가 증가
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004112
+- https://kdigo.org/guidelines/gd/

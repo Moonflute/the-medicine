@@ -13,11 +13,11 @@ related_diseases:
   - "다낭성 난소 증후군"
   - "고인슐린혈증"
   - "LH:FSH 비율 증가"
-question_type: mechanism
+question_type: diagnosis
 related_disease_slugs:
   - MTMg67aA7J246rO8L-uLpOuCrSDrgpzshowg7Kad7ZuE6rWwIChQb2x5Y3lzdGljIE92YXJ5IFN5bmRyb21lKS5tZA
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 여아가 초경이 아직 없어 내원했다. 중대한 질환 병력이나 복용약은 없다. 키는 162cm (5피트 3인치), 체중은 80kg (176lb), BMI는 31.2kg/m2이다. 유방과 음모 발달은 태너 4단계이다. 지성 피부, 여드름과 목과 겨드랑이 접히는 부위의 과색소침착도 있다. 골반검사를 포함한 나머지 진찰은 정상이다. 이 환자의 무월경에 대한 가장 가능성 높은 설명은 무엇인가?
+17세 청소년이 초경 4년 뒤에도 월경 간격이 60–90일이고 다모가 뚜렷하다. 혈액검사에서 안드로겐 상승이 확인됐다. 다낭성난소증후군을 평가할 때 맞는 설명은?
 
 ## 선택지
 
-A. XO 염색체 이상
-B. 뮐러관 무형성
-C. LH:FSH 비율 증가
-D. β-hCG 수치 증가
+A. 다른 원인을 배제하고 지속적인 월경 이상과 고안드로겐증을 함께 평가한다
+B. 난소 초음파의 다낭 모양만으로 확진한다
+C. LH/FSH 비만 상승하면 확진한다
+D. 초경 직후의 일시적인 월경불순과 구분할 필요는 없다
 
 ## 해설
 
-무월경, 비만과 인슐린저항성을 시사하는 흑색가시세포증 및 여드름은 다낭성난소증후군을 고려하게 한다. LH:FSH 비 증가(C)는 이 질환에서 관찰될 수 있는 고전적 호르몬 양상으로 제시된 선택지 중 가장 적합하다. 그러나 비율 증가 자체가 무월경의 단일 원인이나 현행 진단 기준은 아니며 항상 나타나는 것도 아니다. 청소년은 월경 이상과 임상·생화학적 고안드로겐증을 평가하고 임신 등 다른 원인을 배제해야 하므로 본문만으로 확진하지 않는다.
+청소년에서는 초경 후 경과에 비춰 비정상적인 월경 주기와 임상 또는 생화학적 고안드로겐증이 모두 필요하다. 임신·갑상샘 이상 등 다른 원인을 제외하고 초음파나 LH/FSH 비만으로 확진하지 않는다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. β-hCG 수치 증가
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-004720
+- https://pmc.ncbi.nlm.nih.gov/articles/10505534/

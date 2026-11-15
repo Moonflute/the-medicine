@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_ri6TrsJzshLEg6rK97ZmU7KadIChNdWx0aXBsZSBzY2xlcm9zaXMpLm1k
 difficulty: complex
-answer: B
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-25세 여자가 2일 동안 갑자기 시작된 양쪽 하지 근력저하와 요폐로 내원했다. 과거 왼팔 근력저하가 저절로 호전된 적이 있고, 하지 근력 3/5, 근긴장 증가, 과도한 반사, 배꼽 아래 감각저하, 목을 굽힐 때 전기충격 같은 감각이 있다. 안저에서 양측 시신경유두가 약간 부어 있다. 다음 중 가장 적절한 처치는?
+다발성경화증 환자에게 중증 척수염으로 양다리 마비와 요폐가 생겼다. MRI에서 압박은 없고 감염은 평가했다. 고용량 정맥 메틸프레드니솔론을 완료했지만 심한 기능 저하가 지속된다. 고려할 구제치료는?
 
 ## 선택지
 
-A. 인터페론 베타
-B. 정맥 메틸프레드니솔론
-C. 혈장교환
-D. 릴루졸
+A. 인터페론 베타를 단회 증량한다
+B. 릴루졸을 시작한다
+C. 경구 저용량 스테로이드로 바꾸고 3개월 기다린다
+D. 혈장교환을 시행한다
 
 ## 해설
 
-양측 상위운동신경원 하지위약·감각수준·요폐와 과거 다른 신경증상은 급성 염증성 탈수초성 척수염을 시사한다. 적절한 영상 등으로 압박성 병변·감염 등 다른 원인을 신속히 배제하며 주어진 치료 선택지에서는 고용량 정맥 메틸프레드니솔론(B)이 적절한 급성기 치료다. 혈장교환은 중증 스테로이드 불응성 탈수초 악화에서 구제치료가 될 수 있어 효과가 없다고 하지 않는다. 인터페론 베타는 장기 질환조절제로 급성 마비를 신속히 치료하는 대안이 아니다.
+중증 염증성 탈수초 재발에 고용량 스테로이드 반응이 불충분하면 혈장교환을 고려한다. 감염이나 압박 등 다른 원인도 재평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 릴루졸
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005509
+- https://pubmed.ncbi.nlm.nih.gov/42728304/

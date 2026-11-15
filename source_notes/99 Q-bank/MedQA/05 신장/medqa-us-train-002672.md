@@ -16,7 +16,7 @@ related_diseases:
   - "retroperitoneal infection"
 related_disease_slugs:
   - MDQg64K067aE67mEL-uLueuHqOuzkSAoRGlhYmV0ZXMgTWVsbGl0dXMpLm1k
-question_type: diagnosis
+question_type: investigation
 difficulty: complex
 answer: C
 translation_status: machine-verified
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-35세 여성이 2주간 진행된 왼쪽 옆구리 통증과 빈뇨로 내원했다. 조절이 잘 되지 않는 제1형 당뇨병이 있고 체온 38°C, 맥박 90회/분, 혈압 120/80 mmHg이다. 왼쪽 아랫배와 옆구리에 압통, 왼쪽 고관절을 수동으로 펴면 통증이 있으며 백혈구 16,000/mm³, 소변 임신검사 음성, 소변검사에서 포도당 3+이다. 복부 초음파는 정상이다. 다음 중 가장 가능성 높은 진단은?
+35세 여성이 발열과 2주간 악화되는 옆구리 통증으로 내원했다. 왼쪽 고관절을 수동으로 펴면 통증이 심해지고, 백혈구는 증가했지만 소변에 농뇨는 없다. 일반 복부 초음파에서 원인이 보이지 않았다. 장요근 농양을 확인할 다음 영상은?
 
 ## 선택지
 
-A. 자궁외임신
-B. 신장결석
-C. 장요근 농양
-D. 자궁근종
+A. 요로 단순촬영
+B. 방광 초음파만 반복
+C. 복부·골반 조영증강 CT
+D. 정맥신우조영술
 
 ## 해설
 
 
-당뇨병 환자에서 고열, 옆구리 통증, 고관절을 펴면 통증이 악화되는 것은 장요근 농양을 시사한다. 신장결석이나 외임은 이와 일치하지 않는다.
+발열과 고관절 신전 시 악화되는 옆구리 통증은 장요근 농양을 의심하게 한다. 조영 CT로 후복막 병변과 인접 구조를 확인한다. 일반 초음파 음성으로 배제되지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 자궁근종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002672
+- https://pubmed.ncbi.nlm.nih.gov/26466693/

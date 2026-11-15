@@ -18,6 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-yEuOq3oOyEsSDsp4jsl7wgKEJhY3RlcmlhbCBWYWdpbm9zaXMpLm1k
 difficulty: complex
 answer: D
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,7 +35,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-17세 여자가 배뇨통으로 응급실에 왔다. 혈뇨나 성교통은 없으며 마지막 월경은 3주 전이고 최근 성관계도 없었다. 체온 37.6°C, 혈압 127/67 mmHg, 맥박 90회/분, 호흡수 17회/분이다. 질에서 이상한 냄새가 나고 회색 분비물이 보인다. 질경검사에서 자궁경부는 정상이며 양손검사에서 부속기 종괴나 압통은 없다. 다음 중 가장 적절한 다음 관리는 무엇인가?
+17세 여자가 배뇨통으로 응급실에 왔다. 혈뇨나 성교통은 없으며 마지막 월경은 3주 전이고 최근 성관계도 없었다. 체온 37.6°C, 혈압 127/67 mmHg, 맥박 90회/분, 호흡수 17회/분이다. 질에서 이상한 냄새가 나고 회색 분비물이 보인다. 질경검사에서 자궁경부는 정상이며 양손검사에서 부속기 종괴나 압통은 없다. 가장 적절한 다음 관리는 무엇인가?
 
 ## 선택지
 

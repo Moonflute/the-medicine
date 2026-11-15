@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv6ri4656RLeuwlOugiCDspp3tm4TqtbAgKEd1aWxsYWluLUJhcnJlIFN5bmRyb21lKS5tZA
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_quLjrnpEt67CU66CIIOymne2bhOq1sCAoR3VpbGxhaW4tQmFycsOpIHN5bmRyb21lKS5tZA
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-22세 남자가 2일 동안 지속된 하지 근력저하로 내원했다. 양쪽 발에서 걷기 어려움으로 시작했지만, 이제는 다리를 전혀 움직일 수 없고 침대에 누워 지낸다고 한다. 양쪽 발에 저림과 감각이상도 최근 발생했다. 최근 발열, 요통, 소변·대변 실금, 외상, 호흡곤란, 복시 병력은 없다. 2주 전 바이러스성 독감 유사 질환을 앓았다. 발열은 없고 활력징후는 정상이다. 신체검사에서 양쪽 하지 근력은 1/5, 상지 근력은 양측 4/5이다. 양쪽 하지의 핀 감각이 양말을 신은 듯한 분포로 감소되어 있고 상지 감각은 정상이다. 양측 무릎과 발목 반사는 소실되어 있다. 검사 결과는 헤모글로빈 14.2 g/dL, 백혈구 수 8,250/mm³, 혈소판 수 258,000/mm³, BUN 14 mg/dL, 크레아티닌 0.9 mg/dL, 혈청 나트륨 144 mEq/L, 칼륨 3.9 mEq/L이다. 다음 중 이 환자의 진단을 가장 잘 확진할 검사는 무엇인가?
+며칠 사이 양쪽 발에서 시작한 위약이 팔로 퍼지고 무릎·발목 반사가 사라졌다. 의식과 감각 수준은 정상이고, 발병 둘째 날 뇌척수액 단백도 정상이다. 길랭–바레 증후군이 의심될 때 적절한 판단은?
 
 ## 선택지
 
-A. 혈청 크레아틴 키나아제
-B. 요천추 척추 MRI
-C. 근육 생검
-D. 신경전도검사
+A. 초기 정상 단백으로 배제하지 않고 신경전도검사와 호흡 감시를 진행한다
+B. 초기 단백이 정상이라면 길랭–바레 증후군을 배제한다
+C. 신경전도검사가 정상일 수 없으므로 반복 평가가 필요 없다
+D. 척수 병변으로 확정하고 정맥 스테로이드만 시작한다
 
 ## 해설
 
-감염 후 진행하는 대칭성 근력저하와 건반사 소실은 Guillain-Barré 증후군에 합당하다. 보기 중 신경전도검사(D)가 다발신경병증을 확인하여 진단을 지지한다. 탈수초형에서는 전도속도 감소, 원위잠복기 연장 또는 전도차단 등이 보일 수 있지만 축삭형도 있다. 발병 초기에는 신경전도검사가 정상일 수 있어 음성 결과만으로 배제하지 않으며 임상 경과와 뇌척수액 검사 등을 함께 판단한다.
+발병 초기에 뇌척수액 단백이나 신경전도검사가 정상일 수 있다. 임상 경과를 중심으로 판단하며 필요하면 검사를 반복하고 호흡과 자율신경 기능을 감시한다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 신경전도검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007136
+- https://pubmed.ncbi.nlm.nih.gov/37814552/

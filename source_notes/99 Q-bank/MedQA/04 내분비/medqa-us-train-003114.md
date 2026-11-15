@@ -17,7 +17,7 @@ related_diseases:
 related_disease_slugs:
   - MDQg64K067aE67mEL-qwkeyDgeyDmCDqsrDsoIggKFRoeXJvaWQgTm9kdWxlKS5tZA
   - MDQg64K067aE67mEL-qwkeyDgeyDmOyVlCAoVGh5cm9pZCBDYW5jZXIpLm1k
-question_type: investigation
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-19세 여학생이 전신 피로로 내원했다. 공부할 때 집중하기 어렵고 항상 피곤하며 3주 넘게 변비와 간헐적 직장출혈이 있다. 같은 날씨에도 평소보다 따뜻한 옷을 입어야 할 정도로 추위를 탄다. 진찰에서 왼쪽 갑상샘 엽에 약 1 cm의 무통성 결절이 만져지고 림프절병증은 없다. 활력징후는 정상이다. 다음 중 가장 적절한 관리 단계는?
+29세 여성이 우연히 발견된 1.6cm 갑상선 결절을 확인하러 왔다. TSH는 정상이다. 초음파상 고형 성분이 전혀 없는 단순 낭종이며, 목소리 변화·압박 증상·의심 림프절은 없다. 암을 배제하기 위한 다음 조치는?
 
 ## 선택지
 
-A. 혈청 T3 수치
-B. 갑상샘 초음파
-C. 혈청 칼시토닌 수치
-D. 방사성핵종 갑상샘 스캔
+A. 즉시 세침흡인
+B. 진단 목적의 조직검사 없이 임상적으로 추적
+C. 중심부바늘생검
+D. 갑상선 반절제술
 
 ## 해설
 
-촉지되는 갑상샘 결절의 구조적 평가는 초음파 B가 적절하다. 초기 평가에는 TSH도 필요하고 추위·변비 등 저하 증상은 유리T4와 함께 확인한다. 혈청 T3는 저하증 초기 선별검사 대체가 아니며 calcitonin을 모든 결절에서 일률적으로 뒤따라 시행하는 것도 아니다. Radionuclide scan은 주로 TSH가 낮을 때 기능성 결절 평가에 사용한다.
+고형 성분이 없는 단순 낭종은 K-TIRADS 2에 해당한다. 증상이나 별도의 고위험 소견이 없는 경우 암 평가를 위한 세침흡인은 필요하지 않다.
 
 ## 검수 근거
 
@@ -60,3 +60,5 @@ D. 방사성핵종 갑상샘 스캔
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003114
+- https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003086091
+- https://doi.org/10.3348/kjr.2021.0713

@@ -19,7 +19,7 @@ related_disease_slugs:
   - MDMg7IaM7ZmU6riwL-qwhOuLtOy3jC_qsITsl7wgKEhlcGF0aXRpcykubWQ
 question_type: investigation
 difficulty: complex
-answer: A
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-32세 남성이 급성 중증 간염과 간성뇌증으로 왔다. INR은 3.8이고 HBsAg 양성, HBsAb 음성이었다. 치료를 시작하기 전에 시행할 검사는?
+만성 B형간염으로 치료 중인 환자에서 HBV DNA가 억제돼 있는데도 ALT가 계속 상승한다. 다른 원인을 평가하던 중 항-HDV가 양성으로 나왔다. 현재 D형간염 동시감염을 확인할 검사는?
 
 ## 선택지
 
-A. D형간염 혈청검사
-B. HIV ELISA
-C. PPD 피부검사
-D. 요추천자
+A. 혈청 IgM 항-HBc
+B. 혈청 HBV DNA만 반복
+C. 혈청 항-HBs
+D. 혈청 HDV RNA
 
 ## 해설
 
 
-HBsAg 양성 환자의 중증 간염에서는 HDV 동시·중복 감염을 평가하는 혈청검사(A)가 중요하다. 항HDV 양성이면 활동성 감염 확인을 위한 HDV RNA 검사가 뒤따른다. 그러나 간성뇌증과 INR 3.8은 급성 간부전 상황을 시사하므로 검사가 끝날 때까지 응급 치료나 간이식센터 평가를 미루어서는 안 된다.
+항-HDV 양성은 D형간염 바이러스에 노출됐음을 뜻하며, 현재 감염 여부는 혈청 HDV RNA로 확인한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ HBsAg 양성 환자의 중증 간염에서는 HDV 동시·중복 감염을 평�
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000215
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/

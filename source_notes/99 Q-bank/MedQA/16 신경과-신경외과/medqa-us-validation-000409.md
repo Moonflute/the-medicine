@@ -13,11 +13,11 @@ related_diseases:
   - "외측연수증후군"
   - "왈렌베르크 증후군"
   - "후하소뇌동맥"
-question_type: localization
+question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_tl4jtmIjshLEg64eM7KG47KSRIChJc2NoZW1pYyBzdHJva2UpLm1k
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-67세 남성이 갑작스러운 어지러움, 흐린 시야, 쉰 목소리로 응급실에 왔다. 왼쪽 동공축소와 눈꺼풀처짐, 수평 안진, 구역반사 저하가 있고 지지 없이 서면 왼쪽으로 넘어간다. 왼쪽 얼굴과 오른쪽 몸통·사지에서 통증과 온도 감각이 소실되었다. 가장 가능성 높은 원인 동맥은?
+67세 환자가 갑자기 현훈과 쉰 목소리를 보인다. 왼쪽 눈꺼풀처짐과 축동, 구역반사 저하가 있고 왼쪽 얼굴과 오른쪽 몸의 통각·온도감각이 떨어졌다. 병변 위치는?
 
 ## 선택지
 
-A. 오른쪽 중대뇌동맥
-B. 왼쪽 후하소뇌동맥
-C. 오른쪽 내경동맥
-D. 왼쪽 후대뇌동맥
+A. 왼쪽 외측 연수
+B. 오른쪽 외측 연수
+C. 왼쪽 내측 연수
+D. 오른쪽 외측 교뇌
 
 ## 해설
 
-좌측 얼굴과 우측 몸의 통각·온도각 소실, 좌측 Horner 증후군·실조 및 구역반사 저하는 좌측 외측 연수 증후군이다. 보기 중 좌측 PICA(B) 폐색이 가장 적합하며 척추동맥 병변도 이 영역 허혈을 일으킬 수 있다. 얼굴의 통각·온도각 소실은 삼차신경 척수핵/로 손상 때문이지 안면신경 운동마비를 뜻하지 않는다.
+동측 얼굴과 반대쪽 몸의 교차 통각 장애에 호르너 증후군, 삼킴·발성 이상이 동반되면 같은 쪽 외측 연수 병변을 시사한다.
 
 ## 검수 근거
 

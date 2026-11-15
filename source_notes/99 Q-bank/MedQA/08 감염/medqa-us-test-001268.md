@@ -15,7 +15,7 @@ related_diseases:
   - "말라리아 용혈"
 related_disease_slugs:
   - MDgg6rCQ7Je8L-unkOudvOumrOyVhCAoTWFsYXJpYSkubWQ
-question_type: diagnosis
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-29세 여성이 인도에서 농촌 주택 건설 NGO 활동 후 돌아온 지 일주일 만에 고열, 두통, 근육통으로 진료를 받으러 왔다. 여행 일주일 전 chloroquine 한 회, 여행 중 추가 한 회를 복용했다. 체온 39.3°C(102.7°F), 황달, 혈색소 10 g/dL, 말초혈액도말에서 분열적혈구와 적혈구 내 고리모양 봉입체가 보였다. 감염 원인으로 가장 가능성 높은 것은?
+서아프리카에서 귀국한 환자에게 고열과 황달이 생겼다. 혈액도말에서 열대열 말라리아가 확인됐고, 환자는 혼돈을 보이며 혈압이 78/48mmHg다. 수액 등 초기 소생을 시행하면서 우선 투여할 항말라리아제는?
 
 ## 선택지
 
-A. Plasmodium ovale
-B. Plasmodium falciparum
-C. 치쿤구니야 바이러스
-D. A형간염 바이러스
+A. 경구 아르테메테르/루메판트린 단독
+B. 정맥 아르테수네이트
+C. 경구 클로로퀸
+D. 경구 프리마퀸 단독
 
 ## 해설
 
 
-유행지 여행 후 발열·빈혈·황달과 적혈구 내 고리형 기생충은 말라리아를 시사하며 선지 중 P. falciparum(B)이 가장 타당하다. Chloroquine을 간헐적으로 복용한 사실만으로 예방이 적절했다고 볼 수 없다. 고리형 소견만으로 모든 종 감별이 완료되는 것은 아니며 다른 종도 중증 질환을 일으킬 수 있다.
+의식장애와 쇼크는 중증 말라리아 소견이다. 가능한 한 신속히 정맥 아르테수네이트를 시작하고, 안정된 뒤 지침에 맞는 경구 후속요법을 마친다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. A형간염 바이러스
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-001268
+- https://www.kdca.go.kr/bbs/kdca/55/307327/download.do

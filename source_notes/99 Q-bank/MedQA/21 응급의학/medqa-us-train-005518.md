@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MDgg6rCQ7Je8L-2PrOuPhOyVjOq3oCDqsJDsl7wgKFN0YXBoeWxvY29jY2FsIEluZmVjdGlvbikubWQ
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -38,18 +38,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-23세 여자가 의식불명으로 발견되어 응급실에 왔다. 정맥주사 약물 사용자이며 2일 전 코뼈 골절로 코를 거즈로 패킹했다. 현재 혈압 90/48 mmHg, 맥박 150회/분, 발진과 팔의 주사 자국 및 수포가 있다. 다음 중 가장 적절한 처치는?
+비강 패킹을 한 지 이틀 된 환자가 고열, 전신 홍반과 쇼크로 내원했다. 소생과 정맥 항생제를 시작했다. 독성쇼크증후군에서 감염원 조절을 위해 바로 해야 할 일은?
 
 ## 선택지
 
-A. 나프실린
-B. 노르에피네프린
-C. 코 패킹 제거
-D. 반코마이신
+A. 비강 패킹을 제거한다
+B. 해열될 때까지 패킹을 둔다
+C. 항균제로 패킹을 적신다
+D. 배양 결과가 나올 때까지 제거를 미룬다
 
 ## 해설
 
-비강 패킹과 쇼크·발진은 독성쇼크를 우려하게 하므로 가능한 원인인 패킹 제거(C)를 즉시 시행한다. 동시에 기도·순환 소생과 적절한 경험적 항균/독소억제 치료 및 배양이 필요하다. 패킹 제거만으로 쇼크 치료를 끝내거나 항생제·승압제 평가를 지연하는 뜻은 아니다. 자반·수포와 주사약물 병력은 다른 감염성 쇼크 원인도 감별하게 한다.
+독성쇼크가 의심되면 소생과 항생제뿐 아니라 원인으로 의심되는 패킹을 신속히 제거해야 한다. 패킹 제거가 쇼크 치료나 다른 감염원 평가를 대신하지 않는다.
 
 ## 검수 근거
 

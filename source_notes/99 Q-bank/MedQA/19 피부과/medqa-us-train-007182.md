@@ -19,6 +19,7 @@ related_disease_slugs:
   - MTkg7ZS867aA6rO8L-2OuO2PiSDshLjtj6zslZQgKFNxdWFtb3VzIENlbGwgQ2FyY2lub21hKS5tZA
 difficulty: standard
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,7 +36,7 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-69세 남자가 얼굴에 점점 커지는 비늘성 분홍색 판으로 피부과에 내원했다. 5주 동안 있었고 사진이 제시되어 있다. 신체검사에서 쉽게 출혈하는 부스러지기 쉬운 병변이 보인다. 제1형 당뇨병으로 인한 말기 신장질환이 있어 5년 전 신장이식을 받았다. 흔한 바이러스성 사마귀 병력도 있지만 몇 년 동안 발생하지 않았다. 피부 생검에서 전층 각질형성세포 이형성과 각질 진주가 보인다. 이 환자의 상태에 대한 주요 위험인자는 무엇인가?
+신장이식 후 면역억제제를 복용 중인 69세 남성에게 쉽게 피가 나는 얼굴 피부 병변이 생겼다. 생검에서 피부 편평세포암으로 진단됐다. 이 환자에서 중요한 위험인자는?
 
 ## 선택지
 
@@ -46,7 +47,7 @@ D. 사람면역결핍바이러스
 
 ## 해설
 
-이식 후 장기 면역억제는 피부 편평세포암 위험을 높여 B가 가장 적절하다. 전층 각질형성세포 이형성과 각화는 편평세포 종양을 지지한다. 전층 이형성은 in situ SCC에서 나타날 수 있고 침윤 여부는 기저막·진피 침범으로 판단하므로 이 짧은 병리 문장만으로 전구 병변 또는 침윤 깊이를 확정하지 않는다.
+고형장기 이식 뒤의 장기 면역억제는 피부 편평세포암 위험을 높인다. 병변 평가와 치료 후에도 자외선 차단과 피부 감시가 중요하다.
 
 ## 검수 근거
 

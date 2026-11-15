@@ -19,7 +19,7 @@ question_type: diagnosis
 difficulty: standard
 answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -36,24 +36,26 @@ medical_review_status: "content-reviewed"
 
 ## 문제
 
-16세 남아가 왼쪽 옆구리에서 사타구니로 방사되는 3시간의 심한 산통과 메스꺼움으로 응급실에 왔다. 매일 아이스티를 여러 잔 마시고 과거에도 비슷한 통증이 있었다. 복부 X선은 정상이고 소변 시안화물-니트로프루시드 검사는 양성이다. 추가 평가에서 가장 가능성 높은 소견은?
+16세 남아가 여러 차례 재발한 요로결석으로 진료받는다. 소변침사에 무색의 육각형 결정이 반복해서 보인다. 결석의 유형을 확인하기 위해 우선 조사할 질환은?
 
 ## 선택지
 
-A. 소변검사에서 마름모꼴 결정
-B. 소변 pH 7.8
-C. 혈청 항-Saccharomyces cerevisiae 항체
-D. 소변검사에서 육각형 결정
+A. 장성 고옥살산뇨증
+B. 원발성 고요산뇨증
+C. 감염성 인산마그네슘암모늄 결석
+D. 시스틴뇨증
 
 ## 해설
 
 
-시스틴뇨증 환자는 시스틴 결석이 형성되며, 소변에서 특이적인 육각형(헥사곤) 결정을 관찰한다. 이는 정답 D와 일치한다.
+어린 나이의 재발성 결석과 육각형 요결정은 시스틴뇨증을 시사한다. 결석 성분 분석과 요중 시스틴 측정으로 확인할 수 있다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-validation-000809
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10330415/
+- https://uroweb.org/guidelines/paediatric-urology/chapter/urinary-stone-disease
 
 ## 검수 근거
 

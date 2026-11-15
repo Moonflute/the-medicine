@@ -20,7 +20,7 @@ question_type: investigation
 difficulty: complex
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,19 +35,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-40세 남자가 무증상으로 취업 전 검진을 받았다. 흉부 방사선에서 우상엽에 정상적으로 공기가 찬 폐로 둘러싸인 경계가 명확한 7 mm 단일 결절이 보이며 5년 전 영상에는 없었다. 다음 중 진단 평가의 다음 단계는?
+40세 남성이 건강검진 흉부 X선에서 우상엽의 약 7 mm 결절을 처음 발견했다. 증상은 없고 이전 영상에서는 보이지 않았다. 결절의 크기와 모양, 고형 여부를 확인할 검사는?
 
 ## 선택지
 
-A. 결절을 통과하는 얇은 절편 CT
-B. 양전자방출단층촬영
-C. CT 유도 경흉부 세침흡인
-D. 기관지경하 세침흡인
+A. 얇은 절편의 비조영 흉부 CT
+B. 전신 FDG PET/CT
+C. CT 유도 경피적 조직검사
+D. 기관지경 생검
 
 ## 해설
 
 
-7 mm 이하의 새로운 고형 폐결절에 대해 먼저 얇은 절편(Thin-section) CT를 시행해 결절의 형태·밀도·경계 등을 평가한다. PET이나 조직검사는 결절이 8 mm 이상이거나 고위험 소견이 있을 때 고려한다. 따라서 다음 단계는 A, 얇은 절편 CT이다.
+흉부 X선에서 불확실한 폐결절을 발견하면 얇은 절편 CT로 실제 크기와 밀도, 모양을 먼저 확인한다. CT 결과와 악성 위험에 따라 추적 또는 추가 검사를 결정한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 기관지경하 세침흡인
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005318
+- https://acsearch.acr.org/docs/69455/Narrative/

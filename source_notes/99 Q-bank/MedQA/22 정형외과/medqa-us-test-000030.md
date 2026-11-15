@@ -19,7 +19,7 @@ related_disease_slugs: []
 difficulty: standard
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,19 +32,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-생후 3주 된 남아가 왼쪽 앞발이 안쪽으로 돌아가 있어 내원했다. 둔위로 임신 38주에 제왕절개로 태어났고 임신 중 양수과소증이 있었다. 진찰에서 왼발 안쪽 경계가 오목하고 엄지발가락 아래 피부 주름이 있으며 바깥쪽 경계는 볼록하다. 발뒤꿈치는 중립 위치이고 발 바깥쪽을 간지럽히면 변형이 교정된다. 나머지 진찰은 정상이며 X선에서 제1·2 중족골 사이 각도가 증가되어 있다. 다음 중 가장 적절한 처치는?
+생후 3주 신생아의 앞발이 안쪽으로 휘어 있다. 뒤꿈치 위치는 정상이고 앞발을 손으로 움직이면 정렬이 쉽게 교정된다. 적절한 관리는?
 
 ## 선택지
 
-A. 발 외전 보조기
-B. 전족부 관절유합술
-C. 안심시키기
-D. 족근중족 관절낭절개술
+A. 관절유합술
+B. 즉시 연속 석고 고정
+C. 보호자에게 자연 호전을 설명하고 추적 관찰
+D. 강직형 곤봉발처럼 반드시 아킬레스건을 절개한다
 
 ## 해설
 
 
-발 뒤꿈치가 중립이고 외측을 자극하면 변형이 교정되는 것은 연성 내전성 족부 변형으로, 자연 경과가 좋으므로 관찰(안심)만 필요하다. 외전 보조기나 수술은 과도한 치료가 된다.
+뒤꿈치가 중립이고 변형이 쉽게 교정되는 유연한 중족골 내전은 자연 호전이 흔하다. 강직되거나 뒤꿈치까지 변형된 경우에는 별도로 평가한다.
 
 ## 출처
 

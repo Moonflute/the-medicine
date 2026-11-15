@@ -14,12 +14,12 @@ related_diseases:
   - "arrest of descent"
   - "prolonged labor"
   - "Cephalopelvic disproportion"
-question_type: diagnosis
+question_type: management
 related_disease_slugs: []
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,21 +34,22 @@ related_drug_slugs:
 
 ## 문제
 
-임신 41주인 22세 초임부가 활동성 진통으로 입원했다. 임신은 합병증이 없었다. 천식으로 테오필린과 흡입 코르티코스테로이드를 사용한다. 교통사고로 발생한 다발성 하지와 골반 골절을 복구하기 위해 과거 두 차례 수술을 받았다. 그 외에는 건강하다. 체온 37.2°C(99°F), 혈압 108/70 mm Hg이다. 자궁경부는 100% 소실되고 10 cm 개대되었으며 선진부는 -4 station, 후두는 전방을 향한다. 자궁수축은 275 MVU이고 산모는 수축 때 힘을 주고 있다. 태아 심박동은 166회/분으로 반응성이며 감속은 없다. 통증 완화를 위해 경막외 마취를 시작했다. 4시간 동안 힘을 준 후에도 선진부가 -4 station에 있고 자궁수축의 강도와 빈도가 증가하며 태아 심박동에서 후기 감속이 보인다. 이 환자의 지연된 진통의 가장 가능성 높은 원인은?
+만삭 초임부의 자궁경부가 완전히 열렸다. 충분한 수축과 힘주기에도 선진부가 −3에 머물고 있다. 태아 심박에서 변이도가 줄고 반복 후기 감속이 초기 교정 조치에도 계속된다. 분만 방법은?
 
 ## 선택지
 
-A. 비효율적인 산모의 힘주기
-B. 경막외 마취
-C. 아두골반 불균형
-D. 심부 횡정지
+A. 선진부가 높아도 진공흡입분만
+B. 겸자분만을 먼저 시도
+C. 신속히 제왕절개 분만
+D. 수축이 충분해도 옥시토신을 더 올리고 한 시간 기다림
 
 ## 해설
 
 
-진통이 진행되지 않고 자궁수축이 강해도 태아가 -4 station에 머무는 경우는 골반-두개 불균형(cephalopelvic disproportion)으로 인한 하강 지연이 가장 흔한 원인이다.
+태아 심박 이상이 지속되고 머리가 골반 입구에 진입하지 않았다면 기구 질식분만을 시행할 조건이 아니다. 질식분만이 임박하지 않으므로 제왕절개로 신속히 분만한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007892
+- https://doi.org/10.1097/AOG.0000000000005447

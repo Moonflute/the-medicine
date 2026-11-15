@@ -17,7 +17,7 @@ question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAvU3R1cmdlLVdlYmVyIOymne2bhOq1sCAoU3R1cmdlLVdlYmVyIFN5bmRyb21lKS5tZA
 difficulty: simple
-answer: "C"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -41,18 +41,18 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-2세 여아가 3분간 지속된 전신 강직간대발작으로 응급실에 왔다. 부모는 환자나 가족에게 이전 발작 병력이 없다고 한다. 진찰에서 발열은 없고 단정하며 장난기 있는 모습이며 활력징후는 정상이다. 오른쪽 얼굴에 이마에서 광대뼈궁까지 이어지는 분홍색 모반이 있다. 다음 중 이 환자의 두부 CT에서 가장 가능성 높은 소견은?
+2세 아이가 처음으로 국소발작을 했다. 출생 때부터 이마와 위눈꺼풀에 포도주색 모반이 있다. 급성 안정화 뒤 뇌 침범을 평가하기 위한 검사는?
 
 ## 선택지
 
-A. 조영증강되지 않는 대뇌반구 병변
-B. 뇌실질내 출혈
-C. 대뇌 피질의 뇌회 모양(tram-track) 석회화
-D. 뇌실막밑 결절
+A. 두개골 단순 X선
+B. 비조영 머리 CT만 시행
+C. 경동맥 초음파
+D. 조영증강 뇌 MRI
 
 ## 해설
 
-이마를 포함한 안면 모세혈관 기형과 영아·소아기의 발작은 Sturge–Weber 증후군을 시사한다. 연수막 혈관 기형과 연관된 대뇌 피질의 뇌회 모양 석회화가 특징적 CT 소견이다. 모든 어린 환자에서 석회화가 이미 뚜렷한 것은 아니며 정상 CT만으로 배제하지 않는다. 뇌 침범의 정밀 평가에는 조영증강 MRI가 중요하다. 뇌실막밑 결절은 결절성 경화증을 더 시사한다.
+이마나 위눈꺼풀의 모세혈관 기형에 발작이 동반되면 스터지–웨버 증후군을 의심한다. 증상이 있는 환자의 연수막과 뇌 침범은 조영증강 MRI로 평가하며 안과 검사도 연결한다.
 
 ## 검수 근거
 

@@ -14,7 +14,7 @@ related_diseases:
   - "Ebstein anomaly"
   - "fetal cardiac malformation"
   - "teratogenic medication"
-question_type: risk_factor
+question_type: investigation
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv7Jeh7Iqk7YOA7J24IOq4sO2YlSAoRWJzdGVpbiBBbm9tYWx5KS5tZA
 difficulty: complex
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 14주인 30세 초임부가 첫 산전 진료를 받으러 왔다. 오심과 피로가 있고 양극성장애로 리튬을 복용한다. 12주 전 세균성 질염으로 클린다마이신 치료를 마쳤다. 교사로 일하고 12년 동안 하루 한 갑의 담배를 피웠지만 임신을 알게 된 후 중단했다. 다음 중 태아가 발생할 위험이 가장 높은 합병증은?
+임신 14주 산모가 양극성장애로 임신 첫 삼분기에 리튬을 복용했다. 현재 기분은 안정적이고 정신건강의학과와 약을 조정 중이다. 태아 평가로 권할 검사는?
 
 ## 선택지
 
-A. 우심실의 심방화
-B. 태아 히단토인 증후군
-C. 골 손상
-D. 맥락망막염
+A. 임신 중기 정밀 초음파로 태아 심장 구조를 자세히 확인
+B. 양수천자로 리튬에 의한 심장기형을 확진
+C. 산모 혈중 리튬 농도가 정상이면 태아 구조 평가는 생략
+D. 출산 후 신생아 심전도만 시행
 
 ## 해설
 
-임신 초기 리튬 노출은 선천 심장기형, 특히 엡스타인 기형의 위험 증가와 관련될 수 있어 A가 적절하다. 삼첨판의 아래쪽 전위로 우심실 일부가 기능적으로 우심방에 포함되는 것이 우심실의 심방화다. 노출이 곧 기형 발생을 뜻하지 않고, 이 문항을 근거로 기분안정제를 임의 중단해야 한다는 의미도 아니다. 공식 허가정보는 임신 중 위험과 치료 필요성을 개별적으로 고려하도록 한다.
+임신 초기 리튬 노출은 일부 심장기형 위험을 높일 수 있어 임신 중기 정밀 초음파로 심장 구조를 확인한다. 노출이 기형을 뜻하지 않으며, 리튬 지속·조정은 산모의 재발 위험과 함께 판단한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 맥락망막염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-003019
+- https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2023/06/treatment-and-management-of-mental-health-conditions-during-pregnancy-and-postpartum

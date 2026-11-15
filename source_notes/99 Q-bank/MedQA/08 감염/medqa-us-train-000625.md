@@ -15,11 +15,11 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-q4ieyEsSDqs6jsiJjshLEg67Cx7ZiI67ORIChBTUwpIChBY3V0ZSBNeWVsb2lkIExldWtlbWlhKS5tZA
   - MTEg7Jm46rO8L-yImO2YiCDqtIDroKgg7J207Iud7Y64IOuMgCDsiJnso7wg67CY7J2RIChUcmFuc2Z1c2lvbi1Bc3NvY2lhdGVkIEdyYWZ0LXZlcnN1cy1Ib3N0IERpc2Vhc2UpLm1k
-question_type: mechanism
+question_type: diagnosis
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: gemini-3.1-flash-lite
 translation_prompt_version: medqa-ko-v1
 translated_at: 2026-07-17
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-43세 여성이 3일간 지속된 발진을 주소로 내원하였다. 환자는 지난 5일 동안 목, 어깨, 손바닥에 걸쳐 발진이 있었다. 같은 기간 동안 다량의 수양성 설사도 동반되었다. 과거력상 급성 골수성 백혈병(acute myeloid leukemia)이 있으며, 약 2개월 전에 공여자로부터 조혈모세포 이식(stem cell transplant)을 받았다. 신체 검진상 목, 어깨, 손에 희미한 붉은색의 반점구진발진(maculopapular rash)이 관찰되며, 간비종대(enlarged liver and spleen)가 확인된다. 검사실 소견상 총 빌리루빈(total bilirubin) 수치는 10이다. 이 환자의 병태생리 기전으로 옳은 것은 무엇인가?
+동종 조혈모세포이식 5주 뒤 손바닥에서 시작한 홍반성 발진이 몸통으로 퍼지고, 물설사와 직접 빌리루빈 상승이 나타났다. 가장 먼저 의심할 이식 관련 합병증은?
 
 ## 선택지
 
-A. 이식편 항원에 대한 숙주의 기존 항체
-B. 이식편 항원에 대해 생성된 숙주의 항체
-C. 이식편 항원에 대한 숙주의 CD8+ T 세포
-D. 숙주 항원에 대한 이식편 T 세포
+A. 급성 이식편대숙주병
+B. 간굴혈관폐쇄증후군
+C. 이식 후 림프증식성 질환
+D. 이식 관련 혈전미세혈관병증
 
 ## 해설
 
 
-조혈모세포 이식 후 발생하는 이식편 대 숙주 질환(GVHD)은 숙주 조직에 대한 이식편 T세포의 공격으로 발생한다. 따라서 숙주 항원에 대한 이식편 T세포가 병태생리의 핵심이다.
+동종 이식 뒤 피부 발진, 위장관 증상과 담즙정체가 함께 나타나면 급성 이식편대숙주병을 의심한다. 감염과 약물 이상반응도 함께 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 숙주 항원에 대한 이식편 T 세포
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000625
+- https://www.ncbi.nlm.nih.gov/books/NBK608233/

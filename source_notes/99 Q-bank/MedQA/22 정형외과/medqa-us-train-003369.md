@@ -18,9 +18,9 @@ question_type: management
 related_disease_slugs:
   - MDEg7Iic7ZmY6riwL-yXmOufrOyKpC3ri6jroZzsiqQg7Kad7ZuE6rWwIChFaGxlcnMtRGFubG9zIFN5bmRyb21lKS5tZA
 difficulty: standard
-answer: A
+answer: D
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-엘러스-단로스 증후군이 있는 23세 여성이 춤을 추다가 무릎을 비튼 후 발생한 오른쪽 무릎 통증과 부종으로 응급실에 왔다. 지난해에도 2회의 비슷한 에피소드가 있어 보존적으로 치료받았다. 검사에서 오른쪽 무릎에 크고 압통이 있는 삼출액이 있고 슬개골이 가쪽으로 이동해 있었다. Lachman 검사, 후방서랍검사, Apley 검사는 음성이었다. 무릎 X선에서 관절 내 골연골 조각이 보였다. 다음 중 가장 적절한 치료는?
+23세 여성의 외측 슬개골 탈구를 정복했다. 무릎에 큰 혈관절증이 있고 영상에서 관절 내에 떨어져 나온 골연골 조각이 있다. 다음 조치는?
 
 ## 선택지
 
-A. 관절경검사
-B. 무릎 위 석고붕대
-C. 전 무릎관절 치환술
-D. 물리치료만 시행
+A. 반복 탈구라도 무조건 관찰만 한다
+B. 바로 달리기 운동을 시작한다
+C. 관절액을 한 번 빼고 추가 평가는 하지 않는다
+D. 전문의에게 의뢰해 골연골 조각의 고정 또는 제거를 평가한다
 
 ## 해설
 
-반복 슬개골 탈구와 관절내 골연골 조각이 있어 단순 물리치료만 하기보다 정복과 골연골 손상의 전문 평가가 필요하다. 주어진 선지에서는 관절경(A)이 조각과 관절면을 평가·치료하는 적절한 선택이다. 복원 가능한 큰 골연골 조각은 고정·복원을 고려하며 모든 조각을 일률적으로 제거하지 않는다. 반복 불안정성의 안정화 수술 필요성도 해부학적 위험인자와 연관 손상에 따라 평가한다.
+관절 안 유리 골연골 조각은 정복 후에도 관절면 손상과 잠김을 일으킬 수 있다. 크기·위치에 따라 복원하거나 제거할지를 평가한다.
 
 ## 검수 근거
 

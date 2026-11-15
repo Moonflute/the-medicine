@@ -19,7 +19,7 @@ related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-qzqOq0gOygiOyXvCAoT3N0ZW9hcnRocml0aXMpLm1k
   - MjEg7J2R6riJ7J2Y7ZWZL-uLpOuwnOyZuOyDgSAoUG9seXRyYXVtYSkubWQ
 difficulty: standard
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: gemini-3.1-flash-lite
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-72세 여성이 6시간 동안 심해지는 복통으로 응급실에 내원했다. 통증은 둔하고 복부 전반에 걸쳐 있으며 양측 하부 요추로 방사된다. 3주 전 심방세동(atrial fibrillation)을 진단받고 와파린(warfarin) 복용을 시작했다. 다른 약물로는 무릎 골관절염으로 매일 아세트아미노펜(acetaminophen) 1g을 복용 중이다. 맥박은 분당 87회, 혈압은 112/75 mmHg이다. 신체 검진상 양측 하복부에 압통이 관찰된다. 복부 CT 검사에서 후복막 종괴와 주변 구조물의 경계가 불분명한 소견이 확인되었다. 와파린 중단 외에, 가장 적절한 다음 치료 단계는 다음 중 무엇을 투여하는 것인가?
+와파린을 복용하는 72세 환자의 CT에서 큰 후복막 혈종과 활동성 출혈이 보인다. INR은 4.9다. 와파린을 중단하고 출혈을 통제하면서 신속하게 항응고를 역전할 처치는?
 
 ## 선택지
 
-A. 신선동결혈장(fresh frozen plasma) 및 트라넥삼산(tranexamic acid)
-B. 제8인자(Factor VIII) 및 폰 빌레브란트 인자(von Willebrand factor)
-C. 피토나디온(phytonadione) 및 프로트롬빈 복합 농축액(prothrombin complex concentrate)
-D. 프로타민 황산염(protamine sulfate) 및 하이드록시에틸 전분(hydroxyethyl starch)
+A. 4인자 프로트롬빈 복합농축제와 정맥 비타민 K
+B. 정맥 비타민 K 단독
+C. 프로타민
+D. 혈소판 수혈 단독
 
 ## 해설
 
-와파린 시작 후 새 복통·요통과 CT의 후복막 종괴 및 주변 경계 흐림은 항응고 관련 후복막 출혈을 의심하게 한다. 후복막은 중요 장기 공간이므로 중대한 출혈에서는 와파린 중단과 정맥 비타민 K(피토나디온)+4인자 PCC(C)로 신속히 역전한다. PCC는 즉시 필요한 응고인자를, 비타민 K는 지속적 회복을 제공한다. 현재 INR을 측정해 추적해야 하며 본문에는 실제 INR 수치가 없다. PCC가 없을 때 혈장을 대안으로 사용할 수 있다.
+와파린 관련 중대한 출혈에서는 4인자 프로트롬빈 복합농축제로 즉시 응고인자를 보충하고 비타민 K로 지속적인 회복을 돕는다. 농축제가 없으면 혈장을 고려한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 프로타민 황산염(protamine sulfate) 및 하이드록시에틸 전분(hy
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-000646
+- https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2020/07/10/11/26/2020-acc-expert-consensus-decision-pathway-on-bleeding

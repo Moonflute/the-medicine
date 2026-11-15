@@ -19,7 +19,7 @@ question_type: diagnosis
 difficulty: complex
 answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -34,19 +34,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-이전에 건강했던 60세 남성이 2개월 동안 점점 심해지는 호흡곤란으로 병원에 왔다. 안정 시에는 호흡곤란이 없고 간헐적인 마른기침이 있다. 발열, 오한, 야간 발한은 없었다. 40년 동안 매일 담배 한 갑을 피웠고 매일 맥주 한 병, 주말에는 가끔 더 마신다. 불법 약물은 사용하지 않는다. 키 183 cm(6피트), 체중 66 kg(145 lb), BMI 19.7 kg/m²였다. 체온 37°C(98.6°F), 맥박 94회/분, 호흡 21회/분, 혈압 136/88 mmHg였다. 폐 청진에서 호기 시간이 연장되고 호기 말 천명음이 들렸다. 폐활량검사에서 FEV1:FVC 62%, FEV1은 예측치의 60%, 총폐용량은 예측치의 125%였고 폐 확산능은 감소했다. 가장 가능성 높은 진단은?
+60세 남성이 40갑년 흡연력이 있고 수년간 악화된 운동 시 호흡곤란을 호소한다. 안정기에 시행한 기관지확장제 투여 후 폐활량검사에서 FEV₁/FVC는 0.62이고 FEV₁은 예측치의 60%다. 확산능도 감소했다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 간질성 폐질환
-B. 과민성 폐렴
+A. 특발성 폐섬유증
+B. 기침형 천식
 C. 만성폐쇄성폐질환
-D. 기관지확장증
+D. 신경근질환에 의한 환기장애
 
 ## 해설
 
 
-흡연력, 진행성 호흡곤란, 폐기능 검사에서 FEV1/FVC 감소와 폐용량 증가, 확산능 저하는 COPD(만성폐쇄성폐질환)를 특징짓는다. 따라서 C가 정답이다.
+흡연력과 만성 호흡곤란이 있는 성인에서 기관지확장제 투여 후 FEV₁/FVC가 0.70 미만이면 지속적 기류제한으로 COPD를 지지한다. 경계 범위이거나 검사 변동이 의심되면 별도의 날에 재확인한다. FEV₁의 예측치 비율이나 확산능만으로는 COPD를 진단하지 않는다.
 
 ## 검수 근거
 
@@ -59,3 +59,4 @@ D. 기관지확장증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000393
+- https://new.lungkorea.org/board/guide/view/13792

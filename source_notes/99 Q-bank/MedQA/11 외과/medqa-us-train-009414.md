@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTEg7Jm46rO8L-2ZlOyDgSAoQnVybikubWQ
 question_type: management
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,19 +35,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-34세 여성이 아파트에서 전기 화재가 발생한 후 응급의료서비스에 의해 응급실로 이송되었다. 기침을 하고 비강 캐뉼라 2 L에서 산소포화도는 98%이다. 오른쪽 전완에 건조하고 하얗고 가죽 같은 화상이 있으며 모든 사지의 맥박과 감각은 정상이다. 심박수 110회/분, 혈압 110/80 mmHg, 체온 99.2°F, 호흡수 20회/분이다. 입안에 그을음은 없고 불이 시작되자마자 방을 빠져나왔다고 한다. 가장 적절한 치료는 무엇인가?
+34세 여성이 화재 후 앞팔에 하얗고 건조한 가죽 같은 화상을 입었다. 중심부는 바늘 자극을 느끼지 못한다. 기도와 순환은 안정됐고 흡입손상도 평가했다. 전층 화상 부위의 근본 치료는?
 
 ## 선택지
 
-A. 바시트라신
-B. 마페나이드 아세트산
-C. 절제 및 피부이식
-D. 절단술
+A. 국소 항생제 연고만 도포
+B. 물집만 제거하고 자연 회복을 기다린다
+C. 모든 전층 화상에서 팔을 절단한다
+D. 화상 전문팀에서 괴사 조직을 절제하고 피부이식을 검토한다
 
 ## 해설
 
 
-건조하고 하얗고 가죽 같은 화상은 전층 피부손상을 시사하며 절제·피부이식(C)이 필요한 경우에 해당한다. 전층 화상은 표피와 진피 전층의 파괴이며 피하조직까지 반드시 모두 침범한다는 뜻은 아니다. 사지의 맥박과 감각이 정상이라는 기술만으로 깊은 피부손상을 배제하지 않는다. 실제 진료에서는 화상 전문평가와 흡입손상/전기 노출의 동반 손상을 확인하며 국소 연고만으로 깊은 결손을 복구할 수 없다.
+진피 전층이 파괴된 화상은 해당 부위에서 재상피화가 어렵다. 범위와 위치에 따라 화상 전문팀이 괴사 조직 절제와 피부이식을 계획한다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 절단술
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009414
+- https://www.ameriburn.org/burn-care-team/resources/guidelines-for-burn-patient-referral

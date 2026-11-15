@@ -14,11 +14,11 @@ related_diseases:
   - "방광류"
   - "골반장기탈출"
   - "Stress urinary incontinence"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTMg67aA7J246rO8L-yalOyLpOq4iCAoVXJpbmFyeSBJbmNvbnRpbmVuY2UpLm1k
 difficulty: complex
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -39,18 +39,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-44세 G5P3 여성이 2년 동안 운동하거나 기침하거나 웃을 때 소변이 새는 증상으로 내원했다. 증상은 낮에만 있고 요절박, 야간뇨, 배뇨통은 없다. 월경 이상은 없다. 남편 외의 성 파트너는 없다. 12갑년의 흡연력, 3년간의 만성 기관지염과 동맥성 고혈압 병력이 있다. 포시노프릴 10mg, 메토프롤롤 50mg, 아토르바스타틴 10mg을 매일 복용한다. 체중 88kg, 키 160cm이다. 혈압 130/80 mmHg, 심박수 분당 78회, 호흡수 분당 14회, 체온 36.7℃이다. 폐 청진에서 양측 하엽 수포음이 들리고 늑골척추각이나 치골상부 압통은 없다. 부인과 진찰에서 다음 중 가장 가능성 높은 소견은?
+44세 여성이 기침·달리기 때만 소변이 샌다. 절박뇨나 감염 소견은 없고 배뇨 후 잔뇨도 정상이다. 복압성 요실금의 1차 치료는?
 
 ## 선택지
 
-A. 직장류
-B. 난소 종괴
-C. 화농성 자궁경부 분비물
-D. 방광류
+A. 지도하에 골반저근 운동을 시행한다
+B. 항무스카린제를 정기 처방한다
+C. 유치도뇨관을 장기간 넣는다
+D. 보존치료를 건너뛰고 바로 수술한다
 
 ## 해설
 
-기침·운동·웃음 때 새고 절박감이 없는 소변 누출은 복압성 요실금을 시사한다. 다산·비만·만성 기침은 골반저/요도 지지 장애와 관련되며 전질벽 방광류(D)가 동반될 수 있어 보기 중 가장 적절하다. 모든 복압성 요실금에 방광류가 있거나 방광류만이 원인이라는 뜻은 아니다.
+복압성 요실금은 지도하 골반저근 운동을 우선 시행한다. 필요하면 체중이나 만성 기침도 관리하고, 보존치료에도 불편이 지속되면 다른 선택지를 논의한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 방광류
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-010008
+- https://www.nice.org.uk/guidance/ng123/chapter/recommendations

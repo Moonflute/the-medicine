@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-unpOuPhSAoU3lwaGlsaXMpLm1k
 question_type: investigation
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,19 +34,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-39세 남자가 지난 3개월 동안 점점 심해지는 호흡곤란으로 응급실에 왔다. 아파트 3층까지 계단을 오를 수 없을 정도다. 6년 전 HIV를 진단받았고 현재 3제 항레트로바이러스 치료를 받고 있지만 복용을 자주 빠뜨린다. 체온 38.1°C, 맥박 90회/분, 호흡수 22회/분, 혈압 160/70 mmHg이다. 오른쪽 흉골연에서 가장 크게 들리는 4/6등급 전이완기 잡음이 있다. 동공은 4 mm로 둥글고 빛에 반응하지 않지만 펜 끝을 얼굴 가까이 가져가면 수축한다. 안구운동은 정상이다. 서서 팔을 앞으로 뻗고 눈을 감으라고 하면 균형을 잃고 뒤로 한 걸음 물러난다. 흉부 X선에서 종격동 확장이 보인다. 다음 중 진단을 확인하는 데 가장 도움이 되는 검사는 무엇인가?
+치료받지 않은 매독 혈청 양성 환자가 새로 보행 불안정과 감각저하를 보인다. 진찰에서 진동감각이 감소하고 롬베르그 검사가 양성이다. 신경매독을 평가하는 데 적절한 검사는?
 
 ## 선택지
 
-A. 항핵항체
-B. 혈액배양
-C. 프라탁신 수치
-D. 매독 트레포네마 검사
+A. 혈청 트레포네마 검사만 반복하고 신경계 검사는 중단한다
+B. 혈청 RPR 역가만으로 신경매독을 확진한다
+C. 요추천자로 뇌척수액 세포 수·단백·VDRL 등을 평가한다
+D. 신경 증상이 있어도 요추천자는 하지 않고 잠복매독으로만 치료한다
 
 ## 해설
 
 
-대동맥판 역류·종격동 확장과 빛-근접반사 해리, 감각성 실조는 후기 매독의 심혈관·신경 침범을 시사한다. 선택지 중 treponemal 검사(D)가 맞으며 TPPA나 treponemal EIA 등이 해당한다. RPR/VDRL은 비트레포네마 검사로 다른 범주이며 임상상과 두 종류의 검사 및 필요한 신경매독 평가를 함께 해석한다.
+혈청 매독검사가 양성이면서 객관적인 신경학적 증상이 있으면 뇌척수액을 평가한다. 뇌척수액 VDRL이 양성이면 진단에 힘이 실리지만 음성 결과로 단독 배제할 수 없다.
 
 ## 검수 근거
 
@@ -59,3 +59,5 @@ D. 매독 트레포네마 검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009248
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10925736/
+- https://www.cdc.gov/std/treatment-guidelines/neurosyphilis.htm

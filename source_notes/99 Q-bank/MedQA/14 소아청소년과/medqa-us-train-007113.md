@@ -13,11 +13,11 @@ related_diseases:
   - "대혈관 전위"
   - "청색증성 선천성 심장병"
   - "단일 제2심음"
-question_type: diagnosis
+question_type: management
 related_disease_slugs:
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDqsIHroaAv64yA7ZiI6rSAIOyghOychCAoVHJhbnNwb3NpdGlvbiBvZiB0aGUgR3JlYXQgQXJ0ZXJpZXMpLm1k
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +34,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-생후 2시간 된 신생아의 몸 전체, 입술과 혀까지 푸르게 변한 것이 발견되었다. 산전 관리를 받지 못했고 임신 39주에 자연 질식분만으로 태어난 남아이다. 어머니는 11년 동안 제2형 당뇨병을 앓고 있다. 혈압은 55/33 mmHg, 심박수는 150회/분, 호흡수는 45회/분, 체온은 37°C(98.6°F), 실내 공기 산소포화도는 84%이다. 적절한 응급 처치를 시행했다. 흉부 청진에서 심잡음 없이 단일 제2심음이 들린다. 흉부 X선 사진이 제시되어 있다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+완전 대혈관전위가 확인된 신생아에게 프로스타글란딘 E1을 투여했지만 산소포화도 62%와 산증이 지속된다. 심초음파에서 심방 사이 통로가 좁아 혈액 혼합이 부족하다. 즉시 고려할 중재는?
 
 ## 선택지
 
-A. 동정맥 기형
-B. 대혈관 전위
-C. 선천성 횡격막 탈장
-D. 식도 폐쇄증
+A. 풍선 심방중격절개술
+B. 동맥관 코일 폐쇄술
+C. 좌심실에 이식형 제세동기 삽입
+D. 이뇨제만 쓰며 자연 호전을 기다림
 
 ## 해설
 
-출생 직후 중심 청색증, 단일 제2심음, 모체 당뇨 병력은 보기 중 대혈관 전위(B)에 가장 부합한다. 실제 X선이 제공되지 않아 특징적 심장 모양을 보았다고 단정하지 않는다. 확진에는 심초음파가 필요하다.
+동맥관을 열어도 제한된 심방 교통으로 산소화가 불충분하면 풍선 심방중격절개술로 혈액 혼합을 개선한다. 근본 교정 전의 응급 중재다.
 
 ## 검수 근거
 
@@ -57,3 +57,4 @@ D. 식도 폐쇄증
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007113
+- https://academic.oup.com/ejcts/article/51/1/e1/2895977

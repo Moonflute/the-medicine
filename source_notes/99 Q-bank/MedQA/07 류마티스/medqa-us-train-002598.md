@@ -15,7 +15,7 @@ related_diseases:
   - "disease activity monitoring"
 related_disease_slugs:
   - MDcg66WY66eI7Yuw7IqkL-yghOyLoCDtmY3rsJgg66Oo7ZG47IqkIChTeXN0ZW1pYyBMdXB1cyBFcnl0aGVtYXRvc3VzKS5tZA
-question_type: investigation
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -36,19 +36,19 @@ related_drug_slugs:
 
 ## 문제
 
-45세 여성이 전신홍반루푸스로 정기검진을 받는다. 27세에 진단받았고 하이드록시클로로퀸과 저용량 프레드니손을 복용하며 최근 악화는 없다. 항카디오리핀과 항β2 당단백질-1 항체는 음성이고 혈전이나 색전 병력도 없다. 무릎에 경한 압통과 부종 외에는 정상이며 크레아티닌과 GFR도 정상이다. 다음 중 질병 활성도를 모니터링하기 위한 가장 적절한 다음 단계는?
+45세 여성이 전신홍반루푸스가 안정돼 추적 중이다. 하이드록시클로로퀸을 잘 복용하고 있고 약제 금기나 망막 독성은 없다. 질병이 조용한 상태에서 기본 유지 약을 어떻게 할까?
 
 ## 선택지
 
-A. 요검사와 신장 생검
-B. 항이중가닥 DNA 항체 수치
-C. 항-Smith 항체 수치
-D. 관절천자와 활액 분석
+A. 항체 양성이면 고용량 스테로이드로 대체한다
+B. 망막 안전성을 추적하며 하이드록시클로로퀸을 유지한다
+C. 증상이 없으면 약을 바로 중단한다
+D. 장기 사이클로포스파미드로 바꾼다
 
 ## 해설
 
 
-선택지 중 anti-dsDNA 항체(B)는 SLE 활성도 추적에 도움이 되며 anti-Smith는 진단 특이도가 높지만 활성도 추적에는 덜 유용하다. 그러나 anti-dsDNA 단독의 민감도·특이도는 제한적이므로 증상·진찰, 보체 C3/C4, 혈구검사, 요단백/요침사와 신기능을 함께 평가한다. 현재 신장 침범 근거 없이 추적을 위해 곧바로 신장 생검을 시행하지 않는다. 정상 크레아티닌만으로 조기 신염을 배제할 수 없으므로 요검사는 계속 필요하다.
+금기가 없다면 하이드록시클로로퀸은 안정기에도 재발 예방과 장기 예후를 위해 유지한다. 실제 체중과 위험요인에 맞춰 용량을 조정하고 안과 검진을 한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 관절천자와 활액 분석
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002598
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC13711245/

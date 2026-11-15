@@ -16,7 +16,7 @@ related_diseases:
   - "Polymyalgia rheumatica"
 related_disease_slugs:
   - MDYg7JWM66CI66W06riwL-2YiOq0gOyXvCAoVmFzY3VsaXRpcykubWQ
-question_type: investigation
+question_type: management
 difficulty: complex
 answer: B
 translation_status: machine-verified
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-70세 여성이 3주 동안 진행하는 근육통과 목 경직으로 평가받았다. 아침에 목이 더 뻣뻣하고 하루 동안 점차 호전된다. 일상생활 변화는 없지만 피로감을 느낀다. 관상동맥질환으로 매일 아스피린을 복용한다. 부모는 모두 80대에 심혈관질환으로 사망했다. 혈압은 140/90 mm Hg, 심박수는 분당 88회, 호흡수는 분당 15회, 체온은 37.9°C(100.2°F)이다. 추가 진찰에서 근력은 정상이지만 앉은 자세에서 일어나기 어렵다. 다음 중 처치로 가장 적절한 다음 단계는?
+70세 여성이 양쪽 어깨와 골반대에 쑤시는 통증과 1시간 이상 지속되는 아침 강직이 있다. 근력과 CK는 정상이고 CRP가 높다. 다른 원인을 평가한 뒤 류마티스성 다발근통으로 진단했다. 두통·턱 파행·시각 증상은 없다. 초기 치료는?
 
 ## 선택지
 
-A. 요추천자
-B. 적혈구침강속도 측정
-C. 근전도검사
-D. 항핵항체 검사
+A. 고용량 정맥 메틸프레드니솔론 펄스
+B. 중간 용량의 경구 프레드니솔론을 시작하고 반응에 따라 감량
+C. 항생제와 항진균제 병용
+D. 콜히친 단독
 
 ## 해설
 
 
-고령의 근육통·아침 경직·피로에 비해 실제 근력이 보존된 양상은 PMR을 의심하게 한다. 선택지 중 ESR(B), 그리고 CRP 등 염증수치 평가가 적절하다. ESR 상승만으로 확진하지 않으며 감염·악성종양·내분비/근질환 등 유사 질환과 GCA 증상을 평가한다. EMG는 근병증/신경근질환 감별에 쓰지만 전형적 PMR의 첫 검사는 아니다.
+거대세포동맥염이 의심되지 않는 류마티스성 다발근통은 경구 글루코코르티코이드를 시작한다. 증상과 염증수치, 약제 부작용을 추적하며 감량한다.
 
 ## 검수 근거
 
@@ -61,3 +61,4 @@ D. 항핵항체 검사
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-006512
+- https://pubmed.ncbi.nlm.nih.gov/42481270/

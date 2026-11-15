@@ -17,9 +17,9 @@ related_diseases:
 related_disease_slugs:
   - MDkg7ZiI7JWhL-qyuOyDgeygge2YiOq1rOuzkSAoU2lja2xlIENlbGwgRGlzZWFzZSkubWQ
   - MTIg7IKw6rO8L-yehOyLoCDspJEg6rCQ7Je8Lm1k
-question_type: association
+question_type: diagnosis
 difficulty: complex
-answer: C
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,19 +36,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-45세 노숙자 남자가 공원에서 의식 없이 발견되어 응급실에 왔다. 과거 심한 통증으로 두 차례 입원해 하이드로모르폰을 투여받은 적이 있다. 술 냄새와 구토물이 있고 혈색소 6 g/dL, 헤마토크릿 20%, 망상적혈구 0.4%이다. 다음 중 가장 가능성 높은 진단과 관련된 소견은?
+겸상적혈구병 환자가 감기 증상 며칠 뒤 창백해졌다. 혈색소는 평소 9g/dL에서 5.7g/dL로 떨어졌고 망상적혈구 수는 현저히 낮다. 비장 크기는 평소와 같고 백혈구와 혈소판은 보존됐다. 가장 가능성 높은 원인은?
 
 ## 선택지
 
-A. 양성 유전적 보인자 상태
-B. 철결핍
-C. 파보바이러스 B19 감염
-D. 비타민 B12 결핍
+A. 파르보바이러스 B19에 의한 일시적 무형성 위기
+B. 급성 비장 격리 위기
+C. 급성 자가면역 용혈
+D. 장기간의 엽산 과다 복용
 
 ## 해설
 
 
-이전 반복 통증 위기로 SCD 같은 만성 용혈질환을 추정하는 맥락에서, 심한 빈혈에 망상적혈구0.4%는 평소 용혈의 보상 반응과 달라 일시적인 적혈구 생성 억제를 시사한다. Parvovirus B19 C는 적혈구 전구세포를 감염시켜 일시적 aplastic crisis를 유발할 수 있다. 백혈구·혈소판은 보존되어 전 골수 재생불량성빈혈과 구분한다. SCD가 본문에 확진되었다거나 원문 SpO₂99%를 저산소증이라고 쓰지 않는다.
+급격한 빈혈에 망상적혈구가 오히려 감소하면 적혈구 생성 저하를 의심한다. 파르보바이러스 B19는 만성 용혈질환 환자에서 일시적 무형성 위기를 일으킬 수 있다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 비타민 B12 결핍
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005106
+- https://www.cdc.gov/infection-control/hcp/healthcare-personnel-epidemiology-control/parvovirus.html

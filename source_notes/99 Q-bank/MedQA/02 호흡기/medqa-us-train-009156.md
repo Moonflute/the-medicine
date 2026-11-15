@@ -16,11 +16,11 @@ related_diseases:
   - "흡입 코르티코스테로이드"
 related_disease_slugs:
   - MDIg7Zi47Z2h6riwL-yynOyLnS5tZA
-question_type: management
+question_type: prevention
 difficulty: standard
 answer: A
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -37,19 +37,19 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-12세 여아가 추적 진료를 위해 내원했다. 2개월 전 천식을 진단받고 필요할 때 알부테롤 흡입기를 사용하기 시작했다. 이후 일주일에 2~3회 간헐적인 흉부 압박감과 기침이 발생했다. 기침은 간헐적이고 비생산적이며 밤에 악화된다. 그 외에는 건강하고 다른 약물은 복용하지 않는다. 활력징후는 정상이다. 폐 진찰에서 모든 폐야에 경도의 호기성 천명음이 들린다. 폐활량검사에서 FEV1:FVC 비는 81%, FEV1은 예측치의 80%였고 속효성 기관지확장제 투여 후 FEV1은 예측치의 93%로 상승했다. 저용량 흡입 베클로메타손 치료를 시작했다. 다음 중 어떤 이상반응의 위험이 가장 큰가?
+12세 여아가 저용량 베클로메타손 정량분무식 흡입기를 시작한 뒤 입안에 닦이는 흰 반점이 생겨 구강 칸디다증으로 진단됐다. 병변을 치료하면서 흡입 스테로이드의 국소 부작용 재발을 줄일 방법은?
 
 ## 선택지
 
-A. 구인두 칸디다증
-B. 서맥
-C. 고음의 목소리
-D. 저혈당
+A. 스페이서를 사용하고 흡입 뒤 입을 헹군 물은 뱉는다
+B. 정량분무기를 털지 않고 쓰기만 한다
+C. 천식이 조절되므로 흡입 스테로이드를 항상 중단한다
+D. 흡입기 사용 후 물을 헹구지 않고 바로 삼킨다
 
 ## 해설
 
 
-흡입 스테로이드는 구강 칸디다증을 일으키는 주요 부작용이며, 특히 고용량·장기 사용 시 위험이 높다. 따라서 가장 큰 위험은 구인두 칸디다증이다.
+흡입 스테로이드가 구강에 남으면 칸디다증이 생길 수 있다. 정량분무식 흡입기에 적절한 스페이서를 사용하고 흡입 후 입을 헹군 다음 뱉으면 구강 내 약물 침착을 줄일 수 있다.
 
 ## 검수 근거
 
@@ -62,3 +62,5 @@ D. 저혈당
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009156
+- https://new.lungkorea.org/board/guide/view/14959
+- https://ginasthma.org/2026-gina-strategy-report/

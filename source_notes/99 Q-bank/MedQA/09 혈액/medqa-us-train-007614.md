@@ -18,7 +18,7 @@ related_disease_slugs:
   - MDkg7ZiI7JWhL-yekOqwgOuptOyXrSDsmqntmIjshLEg67mI7ZiIIChBdXRvaW1tdW5lIEhlbW9seXRpYyBBbmVtaWEpLm1k
 question_type: management
 difficulty: complex
-answer: B
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,19 +37,19 @@ related_drug_slugs:
 
 ## 문제
 
-27세 남자가 일주일 전부터 시작된 심한 피로로 내원했다. 10일 전 봉와직염으로 경구 세팔렉신 치료를 마쳤다. 복용 약물은 없다. 체온은 37.5°C(99.5°F), 맥박 95회/분, 혈압 120/75 mmHg이다. 공막 황달과 피부·구강점막 창백이 보이고 비장 끝이 왼쪽 늑골연 아래 1cm에서 만져진다. 검사에서 헤모글로빈 10.5 g/dL, 헤마토크릿 32%, 망상적혈구 5%, LDH 750 IU/L, 합토글로빈 소실, 직접 항글로불린검사에서 IgG 양성이다. 말초혈액도말에서 구형적혈구가 보인다. 다음 중 가장 적절한 치료 단계는 무엇인가?
+새로 진단된 온난형 자가면역 용혈성 빈혈 환자의 혈색소가 7.9g/dL까지 떨어져 숨이 차다. 직접항글로불린검사는 IgG 양성이고 유발 약물은 없다. 수혈 필요성을 별도로 판단하며 우선 시작할 면역치료는?
 
 ## 선택지
 
-A. 비장절제술
-B. 경구 프레드니손
-C. 혈장교환
-D. 정맥 면역글로불린
+A. 전신 프레드니손 또는 동등한 글루코코르티코이드
+B. 비장절제술을 첫 치료로 시행
+C. 혈장교환 단독
+D. 철분 정맥 투여
 
 ## 해설
 
 
-용혈 지표·IgG DAT 양성·구형적혈구는 warm immune hemolysis에 부합한다. 선택지 중 prednisone B가 초기 면역치료에 해당하며 실제 용량/기간은 중증도와 반응을 따라 조절한다. 최근 cephalexin 노출로 약물 유발 면역용혈 가능성도 확인하고 의심약은 재투여하지 않는다. 반응/기저원인에 따라 추가 치료를 평가하며 무조건 즉시 비장절제부터 하지 않는다.
+증상이 있는 온난형 자가면역 용혈성 빈혈에는 글루코코르티코이드로 초기 치료를 시작한다. 중증도와 반응에 따라 수혈이나 다른 면역치료를 함께 검토한다.
 
 ## 검수 근거
 
@@ -62,3 +62,4 @@ D. 정맥 면역글로불린
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-007614
+- https://onlinelibrary.wiley.com/doi/10.1111/imj.70656

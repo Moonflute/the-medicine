@@ -17,9 +17,9 @@ related_diseases:
 question_type: diagnosis
 related_disease_slugs: []
 difficulty: standard
-answer: C
+answer: D
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -32,21 +32,22 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-18세 초임부가 임신 20주에 첫 산전 진찰을 위해 내원했다. 심각한 질환의 가족력은 없고 건강하며 영양 상태도 양호하다. 자궁은 배꼽 높이까지 만져진다. 모체 혈청 α-태아단백 농도는 8.2 MoM(정상 0.5~2.0)이다. 초음파에서 배꼽 오른쪽 태아 복벽에 결손이 보이고 태아 장 일부가 복벽 결손을 통해 탈출하여 양수에 자유롭게 떠 있다. 이 태아의 상태는 다음 중 무엇과 가장 관련이 있는가?
+임신 20주 정밀초음파에서 배꼽 오른쪽 복벽에 결손이 있다. 제대는 정상 위치에 붙어 있고 장이 막에 덮이지 않은 채 양수 속에 떠 있다. 가장 가능성이 높은 진단은?
 
 ## 선택지
 
-A. 염색체 삼염색체
-B. 척추갈림증
-C. 장 운동장애
-D. 베크위드-비데만 증후군
+A. 배꼽탈장
+B. 배꼽류(제대탈장, omphalocele)
+C. 방광외번
+D. 복벽갈림증(gastroschisis)
 
 ## 해설
 
 
-복벽 결손을 통해 장이 외부로 탈출한 복벽 갈림증(gastroschisis)은 장의 운동장애와 연관된다. 이는 장벽 형성 결함으로 장의 신경근육 발달에 영향을 주어 장 운동장애를 초래한다. 다른 선택지는 해당 선천적 결함과 직접적인 연관이 없다.
+복벽갈림증은 배꼽 옆, 흔히 오른쪽에 결손이 있으며 장이 막 없이 노출된다. 배꼽류는 제대 부착부의 정중선 결손이고 탈출 장기를 덮는 막이 있다. 산전 진단되면 신생아 수술이 가능한 팀과 분만을 준비한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009236
+- https://assets.hse.ie/media/documents/ncr/national-clinical-guideline-gastroschisis.pdf

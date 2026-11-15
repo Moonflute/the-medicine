@@ -18,6 +18,7 @@ related_disease_slugs:
 question_type: prevention
 difficulty: complex
 answer: B
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -34,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-42세 여성이 임신 10주 산전 진료를 받으러 왔다. 지난 1년 동안 피임 없이 성관계를 한 뒤 임신을 알게 되었으며 메스꺼움과 구토가 조금 있다. 산전비타민과 엽산을 복용한다. 체온 99.5°F(37.5°C), 혈압 127/68 mmHg, 맥박 90회/분, 호흡 19회/분, 산소포화도 98%였다. 자궁저부가 치골결합 위 10 cm에서 만져졌고 외부 생식기는 정상이었다. 다음 중 가장 적절한 다음 단계는?
+42세 여성이 첫 산전 진료에 왔다. 초음파로 임신 10주 5일의 단태임신이 확인됐다. 상담 후 흔한 태아 삼염색체의 비침습적 선별을 원하고, 아직 침습적 검사는 원하지 않는다. 적절한 검사는?
 
 ## 선택지
 
-A. 양수천자
-B. 무세포 태아 DNA 검사
+A. 양수검사
+B. 모체 혈액의 세포유리 DNA 검사(NIPT)
 C. 융모막융모검사
-D. 정기 추적 진료
+D. 모체 혈청 AFP 단독검사
 
 ## 해설
 
-10주부터 시행 가능한 cfDNA는 흔한 태아 삼염색체 선별에 민감·특이도가 높은 비침습 검사로 선택지 중 B가 적절하다. 양성 결과는 CVS/양수검사로 확진해야 하며, 나이와 무관하게 선별·진단 검사 선택권을 설명한다. 10주에 치골결합 위 10 cm라는 자궁 크기는 주수와 불일치하므로 실제 진료에서는 초음파로 주수·태아 수 등을 확인해야 한다.
+세포유리 DNA 검사는 임신 10주부터 흔한 태아 삼염색체를 비침습적으로 선별할 수 있다. 진단 검사는 아니므로 고위험 결과가 나오면 상담하고 융모막융모검사나 양수검사 등으로 확진을 검토한다.
 
 ## 검수 근거
 
@@ -58,3 +59,4 @@ D. 정기 추적 진료
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000785
+- 대한모체태아의학회 태아 염색체 선별검사 진료지침: https://jkms.org/DOIx.php?id=10.3346%2Fjkms.2021.36.e27

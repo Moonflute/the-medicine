@@ -14,13 +14,13 @@ related_diseases:
   - "task-specific focal dystonia"
   - "occupational dystonia"
   - "botulinum toxin"
-question_type: management
+question_type: diagnosis
 related_disease_slugs:
   - MTYg7Iug6rK96rO8LeyLoOqyveyZuOqzvC_shJzqsr0gKFdyaXRlcidzIGNyYW1wKS5tZA
 difficulty: standard
-answer: A
+answer: C
 translation_status: machine-verified
-explanation_status: machine-generated
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -33,19 +33,19 @@ explanation_prompt_version: explanation-ko-v1
 
 ## 문제
 
-오른손잡이인 36세 남성이 6개월 동안 글씨 쓰기 어려움으로 내원했다. 오른손의 근력저하, 저림, 통증, 외상은 없다. 일상활동은 대부분 가능하지만 펜을 잡고 쓰기 시작하면 손과 팔에 통증성 근육경련이 발생한다. 회계사로 일하며 고통이 심해져 왼손으로 글을 쓰기 시작했다. 수면과 식욕은 정상이고 과거력도 특이사항이 없다. 진찰에서 근긴장도, 근력, 심부건반사는 정상이다. 펜을 잡고 쓰게 하면 손이 뒤틀리고 비정상적인 자세가 나타난다. 다음 중 관리에서 가장 적절한 다음 단계는?
+36세 환자가 펜으로 글씨를 쓸 때만 손가락과 손목이 뒤틀려 책상에 닿는다. 젓가락을 쓰거나 단추를 잠글 때는 괜찮고 근력·감각은 정상이다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 보툴리눔 독소 주사
-B. 정신건강의학과 의뢰
-C. 선택적 세로토닌 재흡수 억제제
-D. 손목 부목
+A. 정중신경병증
+B. 본태떨림
+C. 작업특이 국소 근긴장이상
+D. 경추 신경근병증
 
 ## 해설
 
 
-특정 작업(필기) 시 근육 경련과 비정상 자세가 나타나는 것은 작가의 손 크램프(국소성 근긴장증)이며, 보툴리눔 독소 주사가 가장 효과적인 치료이다. 따라서 보툴리눔 독소 주사가 적절하다.
+특정 숙련 동작에서만 반복되는 비정상 손 자세는 작업특이 근긴장이상에 맞는다. 글쓰기에서만 나타나면 필기경련이라고 부른다.
 
 ## 출처
 

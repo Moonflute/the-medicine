@@ -17,7 +17,7 @@ related_disease_slugs:
   - MDUg7Iug7J6lL-q4ieyEsSDsvantjKUg7IaQ7IOBIChBS0kpIChBY3V0ZSBLaWRuZXkgSW5qdXJ5KS5tZA
 question_type: management
 difficulty: complex
-answer: "D"
+answer: D
 translation_status: machine-verified
 explanation_status: "manual-reviewed"
 translation_model: codex-direct
@@ -42,23 +42,24 @@ wrong_notes_review_status: "reviewed"
 
 ## 문제
 
-72세 남자가 행동 변화로 응급실에 왔다. 아내가 911에 신고했고 구급대가 데려왔다. 졸리고 반응이 둔해 보였다고 한다. 제2형 당뇨병, 비만, 골관절염, 편두통 병력이 있으며 나프록센, 인슐린, 아토르바스타틴, 메트포르민, 이부프로펜, 오메프라졸, 어유를 복용한다. 체온 99.5°F(37.5°C), 혈압 170/115 mmHg, 맥박 80회/분, 호흡수 19회/분, 산소포화도 98%이다. 졸리고 GCS는 11이며 양쪽 폐기저부 수포음과 경동맥으로 방사되는 수축기 잡음이 있다. 혈색소 12 g/dL, 백혈구 9,500/mm³, 혈소판 199,000/mm³, Na⁺ 144, Cl⁻ 98, K⁺ 4.0, HCO₃⁻ 16 mEq/L, BUN 44 mg/dL, 혈당 202 mg/dL, 크레아티닌 2.7 mg/dL, 칼슘 9.2 mg/dL이다. 정맥 수액을 시작했다. 다음 단계로 가장 적절한 처치는 무엇인가?
+72세 남성이 구토로 식사와 수분 섭취가 줄었는데 이부프로펜을 계속 복용했다. 혈압과 체액 상태를 교정한 뒤 검사에서 크레아티닌이 기저치 0.9에서 2.7 mg/dL로 올랐고 대사성 산증이 동반됐다. 제2형 당뇨병으로 메트포르민을 복용 중이다. 약물에 대한 우선 조치는?
 
 ## 선택지
 
-A. 칼륨
-B. 중탄산염
-C. 인슐린과 칼륨
-D. NSAID를 중단하고 metformin을 보류하는 등 기존 약물을 재평가
+A. 이부프로펜과 메트포르민을 그대로 유지한다
+B. 이부프로펜 대신 나프록센을 쓰고 메트포르민을 증량한다
+C. 메트포르민은 유지하고 스테로이드를 추가한다
+D. NSAID를 중단하고 신기능과 산증이 안정될 때까지 메트포르민을 보류한다
 
 ## 해설
 
-중복 NSAID 노출과 신기능 저하가 있으므로 NSAID를 중단하고, 산증이 동반된 동안 metformin도 보류하며 약물을 재평가한다. 제시된 약물에 ACE억제제는 없다. GCS11·수포음·음이온차 산증은 즉각적인 안정화와 lactate·ketone 등 원인 평가가 필요한 소견이며 약 중단만으로 충분하지 않다. Insulin 등 모든 필요한 약을 일률적으로 중단한다는 뜻이 아니다.
+NSAID는 탈수 상황에서 신장 관류를 떨어뜨릴 수 있다. 급성 신손상과 산증에서는 메트포르민 축적 위험도 있으므로 일시 보류하고 원인과 신기능을 재평가한다.
 
 ## 출처
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-009429
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12270580/
 
 ## 오답 포인트
 

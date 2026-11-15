@@ -19,6 +19,7 @@ related_disease_slugs:
   - MjEg7J2R6riJ7J2Y7ZWZL-yHvO2BrCAoU2hvY2spLm1k
 difficulty: complex
 answer: C
+publication_status: "withheld"
 translation_status: machine-verified
 explanation_status: machine-generated
 translation_model: codex-direct
@@ -35,7 +36,7 @@ related_drug_slugs:
 
 ## 문제
 
-67세 남성이 1시간 전 시작된 복통으로 응급실에 왔다. 당뇨병과 고혈압이 있고 40갑년의 흡연력이 있다. 혈압 107/58 mmHg, 맥박 130회/분, 호흡 23회/분, 실온 공기에서 산소포화도 98%이다. 복부 초음파에서 대동맥의 국소적 확장과 대동맥 주위 액체가 보인다. 다음 중 가장 적절한 치료의 다음 단계는?
+67세 남성이 1시간 전 시작된 복통으로 응급실에 왔다. 당뇨병과 고혈압이 있고 40갑년의 흡연력이 있다. 혈압 107/58 mmHg, 맥박 130회/분, 호흡 23회/분, 실온 공기에서 산소포화도 98%이다. 복부 초음파에서 대동맥의 국소적 확장과 대동맥 주위 액체가 보인다. 다음 중 가장 적절한 다음 치료 단계는?
 
 ## 선택지
 

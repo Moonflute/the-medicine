@@ -18,9 +18,9 @@ related_disease_slugs:
   - MDgg6rCQ7Je8L-qzteyImOuzkSAoUmFiaWVzKS5tZA
   - MTEg7Jm46rO8L-uPmeusvCDrrLzrprwgKEFuaW1hbCBCaXRlKS5tZA
 difficulty: complex
-answer: D
+answer: C
 translation_status: machine-verified
-explanation_status: manual-reviewed
+explanation_status: "manual-reviewed"
 translation_model: codex-direct
 translation_prompt_version: codex-direct-ko-v1
 translated_at: 2026-07-18
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-20세 남성이 동물에게 물린 일을 평가받기 위해 응급실로 이송되었다. 이날 오전 하이킹 중 라쿤(아메리카너구리)에게 물렸으며, 공격은 아무런 자극 없이 일어났고 동물은 도망갔다고 한다. 11세 때 떠돌이 개에게 물려 당시 광견병 노출 후 예방요법을 받았다. 예방접종은 최신 상태이다. 예방접종 기록상 어릴 때 디프테리아-파상풍-무세포 백일해 백신을 3회 맞았고, 16세에 파상풍-디프테리아-무세포 백일해 백신을 접종했다. 겉보기에 고통스러워 보이지는 않는다. 체온 36.9°C, 맥박 72회/분, 호흡수 18회/분, 혈압 124/75mmHg이다. 왼쪽 하지에 물린 상처가 있고 천자 부위에서 활발한 출혈이 보인다. 상처를 생리식염수로 충분히 세척하고 소독한 뒤 붕대를 감았다. 다음 중 가장 적절한 처치는 무엇인가?
+공수병 유행 지역에서 여행하던 20세 남성이 관찰할 수 없는 야생 포유류에 물렸다. 상처를 세척했고, 과거 공수병 노출 후 백신을 권장 일정대로 모두 맞은 기록이 있다. 이번에 필요한 예방은?
 
 ## 선택지
 
-A. 필요한 조치 없음
-B. 광견병 면역글로불린과 백신 투여
-C. 파상풍 추가 접종
-D. 광견병 백신 접종
+A. 예방 처치 없음
+B. 면역글로불린만 투여
+C. 백신 추가접종만 하고 면역글로불린은 투여하지 않는다
+D. 백신과 면역글로불린을 모두 투여한다
 
 ## 해설
 
-확인할 수 없는 야생 라쿤의 이유 없는 교상은 공중보건 당국과 광견병 노출 후 예방을 평가해야 하는 상황이다. 과거 적절한 광견병 예방접종을 완료한 환자라면 백신을 0일과 3일에 2회 접종하며(D), 광견병 면역글로불린은 투여하지 않는다. 상처 세척만으로 예방접종을 대신할 수는 없다. 파상풍 기초접종이 완료되어 있고 마지막 접종 후 4년이므로 이 오염 상처 때문에 파상풍 추가 접종을 할 필요는 없다.
+이전에 권장 백신 일정을 완료한 사람이 재노출되면 일반적으로 0일과 3일에 추가접종하고 면역글로불린은 주지 않는다. 노출 위험과 접종 기록을 확인한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 광견병 백신 접종
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-008390
+- https://www.kdca.go.kr/bbs/kdca/55/306017/download.do

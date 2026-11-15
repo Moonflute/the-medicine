@@ -19,7 +19,7 @@ related_disease_slugs:
   - MTkg7ZS867aA6rO8L-yngOujqCDtlLzrtoDsl7wgKFNlYm9ycmhlaWMgRGVybWF0aXRpcykubWQ
   - MDgg6rCQ7Je8L-2bhOyynOyEsSDrqbTsl63qsrDtlY0g7Kad7ZuE6rWwIChBSURTKSAoQWNxdWlyZWQgSW1tdW5vZGVmaWNpZW5jeSBTeW5kcm9tZSAoQUlEUykpLm1k
 difficulty: standard
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -36,18 +36,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-28세 남자가 3개월 동안 얼굴과 두피에 반복되는 가려운 발진으로 내원했다. 5개월 동안 매주 한 번 새로운 면도크림을 사용해 왔다고 한다. 1년 전 HIV를 진단받아 현재 3제 항레트로바이러스 치료를 받고 있다. 매주 맥주를 여러 묶음씩 마신다. 활력징후는 정상이다. 발진 사진이 제시되어 있다. 두피 모발선 주변에도 비슷한 발진이 보이고 눈꺼풀 가장자리에 기름진 노란색 인설이 있다. 다음 중 가장 가능성 높은 진단은 무엇인가?
+28세 남성이 두피와 눈썹·코옆 주름의 가려운 발진이 반복돼 내원했다. 붉은 피부에 기름진 노란 인설이 있고 탈모는 없다. 가장 가능성 높은 진단은?
 
 ## 선택지
 
-A. 알레르기성 접촉피부염
-B. 펠라그라
-C. 어루러기
-D. 지루피부염
+A. 지루피부염
+B. 판상 건선
+C. 두부백선
+D. 주사
 
 ## 해설
 
-두피 모발선·얼굴·눈꺼풀의 기름진 노란 인설과 만성 재발성 소양성 발진은 지루피부염(D)에 합당하다. HIV 감염에서 더 심하게 나타날 수 있다. 본문만으로 진단을 지지하며 실제 사진 소견을 관찰했다고 가정하지 않는다.
+기름진 인설이 두피, 눈썹, 코옆 주름처럼 피지 분비가 많은 부위에 반복되면 지루피부염을 시사한다.
 
 ## 검수 근거
 

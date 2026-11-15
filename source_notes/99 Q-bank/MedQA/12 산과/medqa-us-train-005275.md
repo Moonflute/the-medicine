@@ -17,7 +17,7 @@ question_type: management
 related_disease_slugs:
   - MDQg64K067aE67mEL-q3uOugiOydtOu4jOyKpOuzkSAoR3JhdmVzJyBEaXNlYXNlKS5tZA
 difficulty: complex
-answer: C
+answer: D
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -37,18 +37,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-임신 10주인 21세 초임부가 3주 동안 진행하는 피로와 임신 후 3.2 kg 체중 감소, 식욕 증가, 불안, 불면으로 내원했다. 맥박 120회/분, 혈압 150/70 mmHg, 안구돌출, 단단하고 미만성으로 커진 갑상샘, 손의 미세한 안정시 떨림, TSH 0.1 μU/mL가 있다. 다음 중 가장 적절한 처치는?
+임신 10주인 여성이 빈맥, 체중 감소, 안구돌출로 내원했다. 유리 T4는 임신 주수 기준보다 뚜렷이 높고 TSH는 억제됐으며 TRAb가 양성이다. 항갑상샘제가 필요하다면 이 시기의 우선 약제는?
 
 ## 선택지
 
-A. 루골 요오드
-B. 갑상샘절제술
-C. 프로필티오우라실
-D. 아테놀롤
+A. 메티마졸
+B. 방사성 요오드
+C. 레보티록신
+D. 프로필티오우라실(PTU)
 
 ## 해설
 
-안구돌출·미만성 갑상선종·체중감소와 빈맥은 Graves 갑상선항진증을 시사한다. 유리 T4/T3와 TRAb 등으로 평가하고, 임신 1기 약물치료가 필요하면 메티마졸 태아병 위험을 고려해 PTU(C)를 선호한다. PTU도 태반을 통과하고 간독성·태아 갑상선억제 위험이 있어 최소 유효 용량으로 감시한다. 베타차단제는 필요한 경우 단기 증상 조절용이며 원인 치료를 대체하지 않는다.
+임신 1삼분기에 치료가 필요한 그레이브스병에는 메티마졸 관련 태아 기형 위험을 고려해 PTU를 우선 쓴다. 이후 치료는 PTU 간독성 등을 고려해 조정하고, 방사성 요오드는 임신 중 사용하지 않는다.
 
 ## 검수 근거
 
@@ -60,3 +60,4 @@ D. 아테놀롤
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-005275
+- https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6959

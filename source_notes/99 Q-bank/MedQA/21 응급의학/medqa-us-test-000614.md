@@ -13,12 +13,12 @@ related_diseases:
   - "괴사성 근막염"
   - "클로스트리디움 퍼프린젠스"
   - "가스괴저"
-question_type: mechanism
+question_type: management
 related_disease_slugs:
   - MDgg6rCQ7Je8L-q0tOyCrOyEsSDqt7zrp4nsl7wgKE5lY3JvdGl6aW5nIEZhc2NpaXRpcykubWQ
   - MDgg6rCQ7Je8L-qwgOyKpCDqtLTsoIAgKEdhcyBHYW5ncmVuZSkubWQ
 difficulty: complex
-answer: C
+answer: B
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-40세 남성이 4일 동안 지속된 왼쪽 다리 통증으로 응급실에 왔다. 주말에 친구들과 플래그 풋볼을 하다 진흙밭에서 넘어져 왼쪽 허벅지를 긁은 뒤 점점 심해지는 홍반과 통증이 생겼다. 과거력은 없었다. 체온 39.4°C(103.0°F), 심박수 120회/분, 혈압 95/60 mmHg였다. 왼쪽 허벅지에 작은 찰과상을 중심으로 반경 약 10 cm까지 경계가 불분명한 홍반이 있고 극심한 압통과 ‘바삭’거리는 촉진감이 있었다. CT에서 왼쪽 다리 연조직 내 자유 공기가 보였다. 이 환자 원인균은 다음 중 어떤 질환의 흔한 원인이기도 한가?
+40세 남성의 허벅지 상처 주변이 수시간 사이 붓고 붉어졌다. 피부 소견에 비해 통증이 심하며 저혈압과 피부 밑 염발음이 있다. 정맥 수액과 경험적 항생제를 시작했다. 다음 조치는?
 
 ## 선택지
 
-A. 세균성 폐렴
-B. 세균성 부비동염
-C. 식중독
-D. 요로감염
+A. 항생제 반응을 24시간 본다
+B. 즉시 외과에 연락해 수술적 탐색과 괴사조직 제거를 진행한다
+C. 배양 동정이 끝난 뒤 수술 여부를 정한다
+D. 국소 절개로 표면에 고인 액체만 뺀다
 
 ## 해설
 
-흙에 오염된 상처 뒤 심한 통증, 쇼크, 염발음과 조직 내 가스가 발생한 맥락은 Clostridium perfringens에 의한 외상성 가스괴저/근괴사를 시사한다. 이 균은 장독소에 의한 식중독도 일으키므로 C가 출제 의도에 부합한다. 다만 조직 내 가스만으로 원인균을 확정할 수 없으며, C. perfringens를 모든 괴사성 근막염의 가장 흔한 원인이라고 설명하는 것은 부정확하다.
+빠르게 악화하는 통증과 쇼크, 연조직의 가스는 괴사성 연조직감염을 강하게 시사한다. 배양이나 추가 영상 결과를 기다리지 말고 응급 수술을 진행한다.
 
 ## 검수 근거
 
@@ -56,3 +56,4 @@ D. 요로감염
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-test-000614
+- https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/

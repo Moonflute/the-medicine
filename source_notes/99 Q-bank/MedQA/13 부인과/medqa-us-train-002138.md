@@ -18,7 +18,7 @@ related_disease_slugs:
   - MTMg67aA7J246rO8L-ustOyblOqyvSAoQW1lbm9ycmhlYSkubWQ
   - MTQg7IaM7JWE7LKt7IaM64WE6rO8L-yGjOyVhOqzvCDstJ3roaAv7YG065287J247Y6g7YSwIOymne2bhOq1sCAoS2xpbmVmZWx0ZXIgU3luZHJvbWUpLm1k
 difficulty: simple
-answer: D
+answer: A
 translation_status: machine-verified
 explanation_status: manual-reviewed
 translation_model: codex-direct
@@ -35,18 +35,18 @@ medical_reviewed_at: 2026-10-25
 
 ## 문제
 
-16세 여아가 아직 초경을 하지 않아 어머니와 함께 내원했다. 중대한 질환 병력은 없다. 키와 체중은 50백분위수이다. 유방 선조직과 치모 발달이 전혀 없다. 나머지 신체검사는 정상이다. 소변 임신검사는 음성이고 골반 초음파도 정상이다. 다음 중 가장 적절한 치료의 다음 단계는?
+16세 여아에게 초경과 유방 발달이 모두 없다. 임신검사는 음성이고 골반 초음파에서 자궁이 보인다. 난소성 문제와 시상하부·뇌하수체성 문제를 처음 나누는 혈액검사는?
 
 ## 선택지
 
-A. 성선자극호르몬 방출호르몬 자극검사
-B. 안심시키고 관찰한다
-C. 프로게스테론 부하검사
-D. 혈청 FSH 측정
+A. FSH와 에스트라디올
+B. CA-125와 혈청 AFP
+C. 프로게스테론 단독
+D. 공복 인슐린과 당화혈색소
 
 ## 해설
 
-16세에 유방 발달과 초경이 없으면 지연 사춘기·원발무월경 평가가 필요하다. FSH(D) 등으로 난소성 고성선자극호르몬성 기능저하와 중추성 원인을 구분한다. 이 환자의 FSH가 이미 높다는 뜻은 아니며 프로게스테론 부하만으로 초기 평가를 대체하지 않는다.
+낮은 에스트라디올과 높은 FSH는 난소성 기능저하를, 낮거나 부적절하게 정상인 FSH는 중추성 문제를 시사한다. 지연 사춘기는 사춘기 발달과 다른 호르몬도 종합해 평가한다.
 
 ## 검수 근거
 
@@ -58,3 +58,4 @@ D. 혈청 FSH 측정
 
 - MedQA-US (GBaker/MedQA-USMLE-4-options, CC BY 4.0)
 - 원본 ID: medqa-us-train-002138
+- https://www.asrm.org/practice-guidance/practice-committee-documents/current-evaluation-of-amenorrhea/
