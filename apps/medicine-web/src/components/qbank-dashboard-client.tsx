@@ -10,7 +10,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, Bookmark, CircleAlert, RotateCcw } from "lucide-react";
 import { PracticeBankPicker } from "@/components/practice-bank-picker";
-import { EMPTY_PRACTICE_FILTERS, matchesPractice, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { EMPTY_PRACTICE_FILTERS, isPracticeRevisionId, matchesPractice, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { loadPracticeIndex } from "@/lib/practice-bank";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds } from "@/lib/qbank-store";
@@ -295,7 +295,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       setPractice([]);
       setPracticeMessage("실전문제 접근 권한을 확인 중입니다.");
       try {
-        const result = await loadPracticeIndex();
+        const result = await loadPracticeIndex(true);
         if (active && request === revision) {
           const aliases = Object.fromEntries(result.questions.flatMap((question) => (question.sourceIds ?? []).map((sourceId) => [sourceId, question.id])));
           remapQbankQuestionIds(aliases);
@@ -333,6 +333,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     try { sessionStorage.setItem(draftKey, JSON.stringify({ tab, theory: selectedTheory, clinical: selectedClinical, practice: practiceFilters, count })); } catch { /* Storage unavailable. */ }
   }, [loadedDraft, draftKey, tab, selectedTheory, selectedClinical, practiceFilters, count]);
   const availablePractice = useMemo(() => practice.filter((q) => !relatedTarget || (relatedTarget.type === "disease" ? q.relatedDiseaseSlugs.some((slug) => (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).includes(slug)) : q.relatedCcSlugs.includes(relatedTarget.slug))), [practice, relatedTarget]);
+  const totalQuestions = questions.length + practice.filter(q => !isPracticeRevisionId(q.id)).length;
   const practiceCount = availablePractice.filter((q) => matchesPractice(q, practiceFilters)).length;
   const selectedTheoryCount = availableQuestions.filter((q) => q.questionBank === "theory" && selectedTheory.includes(theorySelectionKey(q))).length;
   const selectedClinicalCount = availableQuestions.filter((q) => q.questionBank === "clinical" && selectedClinical.includes(q.specialtySlug)).length;
@@ -400,13 +401,13 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         <QuestionBankPicker appearance={chatLayout ? "chat" : "default"} questionBank="clinical" title="임상 문제" items={clinicalSpecialties} selected={selectedClinical} setSelected={setSelectedClinical} showHeading={false} />
       </div>
       <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6 space-y-3">
-        {bankHeading("practice", "실전 문제", availablePractice.length)}
+        {bankHeading("practice", "실전 문제", availablePractice.filter(q => !isPracticeRevisionId(q.id)).length)}
         <PracticeBankPicker appearance={chatLayout ? "chat" : "default"} footerTarget={chatLayout ? chatPracticeFooter : undefined} topControlsTarget={tab === "practice" && loadedDraft === draftKey ? topControlsTarget : null} questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
       </div></>;
   if (chatLayout) {
     return <ChatQbankLobby
       banks={[{ id: "theory", label: "이론", selected: selectedTheoryCount }, { id: "clinical", label: "임상", selected: selectedClinicalCount }, { id: "practice", label: "실전", selected: practiceCount }]}
-      bank={tab} onChooseBank={chooseBank} stats={stats} total={questions.length + practice.length} quickCount={quickCount}
+      bank={tab} onChooseBank={chooseBank} stats={stats} total={totalQuestions} quickCount={quickCount}
       endingSessionId={endingActiveSessionId} onEndSession={(id) => { const session = activeSessions.find((item) => item.sessionId === id); if (session) void endActiveSession(session); }}
       syncStatus={<>{activeSessionSyncError ? <SkinStatus kind="syncFailed" fallback={activeSessionSyncError} detail={activeSessionSyncError} onRetry={() => setActiveSessionSyncRevision((value) => value + 1)} className="chat-qbank-sync" /> : null}{activeSessionSyncing ? <SkinStatus kind="syncing" fallback="문제 세트 동기화 중…" inline className="chat-qbank-sync" /> : null}</>}
       conversations={activeSessions.map((session) => ({
@@ -429,7 +430,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       <div className="flex min-w-0 flex-wrap items-baseline gap-x-4 gap-y-1">
         <h1 className="text-lg font-semibold text-slate-950">{theme === "notebook" ? "연습 노트" : theme === "pixel" ? "모험 준비" : "문제 풀기"}</h1>
         <dl aria-label="문제풀이 요약" className="flex min-w-0 flex-wrap items-baseline gap-x-3 gap-y-1 text-xs sm:text-sm">
-          <div className="flex items-baseline gap-1 whitespace-nowrap"><dt className="text-slate-500">전체 문제</dt><dd className="font-semibold tabular-nums">{(questions.length + practice.length).toLocaleString()}</dd></div>
+          <div className="flex items-baseline gap-1 whitespace-nowrap"><dt className="text-slate-500">전체 문제</dt><dd className="font-semibold tabular-nums">{totalQuestions.toLocaleString()}</dd></div>
           <div className="flex items-baseline gap-1 whitespace-nowrap"><dt className="text-slate-500">풀이 완료</dt><dd className="font-semibold tabular-nums">{stats.attempted.toLocaleString()}</dd></div>
           <div className="flex items-baseline gap-1 whitespace-nowrap text-rose-700"><dt>오답</dt><dd className="font-semibold tabular-nums">{stats.wrong.toLocaleString()}</dd></div>
         </dl>

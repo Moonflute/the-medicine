@@ -2,7 +2,7 @@
 
 import { useEffect, useReducer, useState } from "react";
 import { QbankStartBar } from "@/components/qbank-start-bar";
-import type { PracticeFilters } from "@/lib/practice-selection";
+import { PRACTICE_REVISION_SERIES, selectsPracticeRevisions, type PracticeFilters } from "@/lib/practice-selection";
 import { QBANK_ROUND_DEFAULT_MINUTES, QBANK_ROUND_MAX_MINUTES, readRoundLimitMinutes } from "@/lib/qbank-round-timer";
 import { isQbankProgressedInCurrentView, loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
 
@@ -14,6 +14,7 @@ export function PracticeStartControls({ total, questionIds, filters, exam = fals
   const [unattemptedOnly, setUnattemptedOnly] = useState(false);
   const [timeLimitEnabled, setTimeLimitEnabled] = useState(false);
   const [timeLimit, setTimeLimit] = useState(String(QBANK_ROUND_DEFAULT_MINUTES));
+  const revised = selectsPracticeRevisions(filters);
   const [, refreshProgress] = useReducer((value: number) => value + 1, 0);
   useEffect(() => {
     const refresh = () => refreshProgress();
@@ -31,6 +32,7 @@ export function PracticeStartControls({ total, questionIds, filters, exam = fals
   const canStart = valid && (!timed || minutes !== undefined);
   const href = (ordered: boolean) => {
     const params = new URLSearchParams({ mode: ordered ? "practice-book" : "selection", practiceOnly: "1", count, practiceSeries: (filters.series ?? []).join(","), practiceDepartments: (filters.departments ?? []).join(","), practiceSpecialties: filters.specialties.join(","), practiceYears: filters.years.join(","), practiceBooks: filters.books.join(",") });
+    if (revised) params.set("sessionTitle", PRACTICE_REVISION_SERIES);
     if (unattemptedOnly) params.set("practiceUnattempted", "1");
     if (exam) params.set("exam", "1");
     if (minutes !== undefined) {
@@ -40,7 +42,7 @@ export function PracticeStartControls({ total, questionIds, filters, exam = fals
     return `/review/qbank/session?${params}`;
   };
   return <QbankStartBar
-    label={label ? `${label} 실전문제 시작` : "실전문제 시작"}
+    label={revised ? "실전 개정판 시작" : label ? `${label} 실전문제 시작` : "실전문제 시작"}
     summary={`${unattemptedOnly ? "미풀이" : "선택"} ${available.toLocaleString()}문항`}
     count={count}
     max={available}

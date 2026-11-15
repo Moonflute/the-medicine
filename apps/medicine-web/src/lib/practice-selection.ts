@@ -19,6 +19,15 @@ export type PracticeIndex = {
 export type PracticeFilters = { books: string[]; specialties: string[]; years: string[]; series?: string[]; departments?: string[]; order?: "random" | "book" };
 export type PracticeTopicSection = { id: string; title: string; topics: Array<[string, string]> };
 export const EMPTY_PRACTICE_FILTERS: PracticeFilters = { books: [], specialties: [], years: [] };
+export const PRACTICE_REVISION_SERIES = "실전 개정판";
+
+export function isPracticeRevisionId(id: string): boolean {
+  return id.startsWith("QB-REV-");
+}
+
+export function selectsPracticeRevisions(filters?: PracticeFilters): boolean {
+  return filters?.series?.includes(PRACTICE_REVISION_SERIES) ?? false;
+}
 
 // The source book subject owns classification; linked theory is only a topic.
 export const PRACTICE_DEPARTMENTS = ["내과", "외과", "산부인과", "소아과"] as const;
@@ -161,7 +170,7 @@ export function mockExamFilters(year: number): PracticeFilters {
 export function practiceMockExams(questions: PracticeIndex[]) {
   const exams = new Map<string, { year: number; label: string; count: number }>();
   for (const q of questions) {
-    if (q.examYear === null) continue;
+    if (q.examYear === null || q.bookSeries === PRACTICE_REVISION_SERIES) continue;
     const key = String(q.examYear);
     const exam = exams.get(key) ?? { year: q.examYear, label: `${q.examYear}년`, count: 0 };
     exam.count++;
@@ -177,6 +186,7 @@ export function hasPracticeSelection(filters?: PracticeFilters): boolean {
 // Empty dimensions are unrestricted; an untouched picker selects nothing.
 export function matchesPractice(question: PracticeIndex, filters: PracticeFilters): boolean {
   return hasPracticeSelection(filters)
+    && (question.bookSeries === PRACTICE_REVISION_SERIES) === selectsPracticeRevisions(filters)
     && (!filters.books.length || filters.books.includes(question.bookId))
     && (!filters.series?.length || filters.series.includes(question.bookSeries))
     && (!filters.departments?.length || filters.departments.includes(question.bookDepartment))

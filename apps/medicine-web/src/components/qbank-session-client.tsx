@@ -29,7 +29,7 @@ import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
-import { matchesPractice, hasPracticeSelection, comparePracticeOrder, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, selectsPracticeRevisions, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, Copy, Info, XCircle } from "lucide-react";
@@ -197,12 +197,14 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
   let privateQuestions: SessionQuestion[] = [];
   const wantsPrivate = hasPracticeSelection(practiceFilters) || (mode === "all" && !targetIds) || ["unattempted", "wrong", "bookmarks"].includes(mode) || (["all", "retry", "study-flow"].includes(mode) && [...(targetIds ?? [])].some(id => id.startsWith("QB-")));
   if (wantsPrivate) {
-    const { questions: privateIndex } = await loadPracticeIndex();
     const state = loadQbankState();
+    const trackedIds = targetIds ?? (mode === "wrong" ? new Set(state.wrongIds) : mode === "bookmarks" ? new Set(state.bookmarkIds) : undefined);
+    const includeRevisions = selectsPracticeRevisions(practiceFilters) || [...(trackedIds ?? [])].some(isPracticeRevisionId);
+    const { questions: privateIndex } = await loadPracticeIndex(includeRevisions);
     const privateIds = privateIndex.filter((q) => {
-      if (mode === "wrong" || mode === "bookmarks" || mode === "retry") return (targetIds ?? new Set(mode === "wrong" ? state.wrongIds : state.bookmarkIds)).has(q.id);
-      if (mode === "all" || mode === "study-flow") return !targetIds || targetIds.has(q.id);
-      if (mode === "unattempted") return !state.progress[q.id];
+      if (mode === "wrong" || mode === "bookmarks" || mode === "retry") return trackedIds?.has(q.id) ?? false;
+      if (mode === "all" || mode === "study-flow") return targetIds ? targetIds.has(q.id) : !isPracticeRevisionId(q.id);
+      if (mode === "unattempted") return !isPracticeRevisionId(q.id) && !state.progress[q.id];
       if (!practiceFilters || !matchesPractice(q, practiceFilters)) return false;
       if (practiceUnattemptedOnly && isQbankProgressedInCurrentView(state.progress[q.id], loadQbankProgressViewResetAt())) return false;
       if (mode !== "related") return true;
@@ -926,7 +928,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           <div>
             <p data-highlight-block="question" className={`${current.figures?.length ? "" : "mt-6 "}whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base`}>{current.sourceSplit === "private-scan" ? reflowOcrText(current.question) : current.question}</p>
           </div>
-          {current.figures?.length ? <aside className="space-y-4">{current.figures.map((figure, index) => <figure key={figure.path} className="overflow-hidden rounded-lg border border-slate-200 bg-slate-50 p-2"><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="px-1 pt-2 text-xs text-slate-500">그림 {index + 1}</figcaption></figure>)}</aside> : null}
+          {current.figures?.length ? <aside className="space-y-4">{current.figures.map((figure, index) => <figure key={figure.path} className="overflow-hidden rounded-lg border border-slate-200 bg-slate-50 p-2"><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="px-1 pt-2 text-xs text-slate-500">{isPracticeRevisionId(current.id) ? figure.alt : `그림 ${index + 1}`}</figcaption></figure>)}</aside> : null}
         </div>}
           choices={<SkinQuestionChoices disabled={submitted} onSelect={chooseOption} choices={displayedOptions.map((key, position) => ({
             key, label: OPTION_LABELS[position],

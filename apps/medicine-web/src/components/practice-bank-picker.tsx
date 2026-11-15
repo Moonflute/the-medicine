@@ -4,7 +4,7 @@ import { PracticeStartControls } from "@/components/practice-start-controls";
 import { useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { PracticeFilters, PracticeIndex } from "@/lib/practice-selection";
-import { matchesPractice, toggleGroup, mockExamFilters, practiceMockExams, PRACTICE_DEPARTMENTS, practiceTopicSections } from "@/lib/practice-selection";
+import { matchesPractice, toggleGroup, mockExamFilters, practiceMockExams, PRACTICE_DEPARTMENTS, PRACTICE_REVISION_SERIES, practiceTopicSections, selectsPracticeRevisions } from "@/lib/practice-selection";
 
 type Dimension = "departments" | "specialties" | "years";
 
@@ -18,9 +18,14 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
   const [examMode, setExamMode] = useState(true);
   const chat = appearance === "chat";
   if (!questions.length) return <p className="rounded-lg bg-slate-50 p-4 text-sm text-slate-600" role="status">{message}</p>;
-  const ordered = filters.order === "book";
-  const selectedIds = questions.filter((question) => matchesPractice(question, filters)).map((question) => question.id);
-  const modes = <fieldset className={chat ? "chat-qbank-modes" : "flex flex-wrap gap-4"}><legend className="mb-2 font-semibold">문제 선택 방식</legend>{([['random', '분과·조건 선택'], ['book', '회차 전체 풀기']] as const).map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={(filters.order ?? "random") === value} onChange={() => onChange({ books: [], series: [], departments: [], specialties: [], years: [], order: value })} />{label}</label>)}</fieldset>;
+  const revised = selectsPracticeRevisions(filters);
+  const editionQuestions = questions.filter(q => (q.bookSeries === PRACTICE_REVISION_SERIES) === revised);
+  const mode = revised ? "revision" : filters.order ?? "random";
+  const ordered = mode === "book";
+  const selectedIds = editionQuestions.filter((question) => matchesPractice(question, filters)).map((question) => question.id);
+  const choices: Array<["random" | "book" | "revision", string]> = [["random", "분과·조건 선택"], ["book", "회차 전체 풀기"]];
+  if (revised || questions.some(q => q.bookSeries === PRACTICE_REVISION_SERIES)) choices.push(["revision", "개정판"]);
+  const modes = <fieldset className={chat ? "chat-qbank-modes" : "flex flex-wrap gap-4"}><legend className="mb-2 font-semibold">문제 선택 방식</legend>{choices.map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={mode === value} onChange={() => onChange({ books: [], series: value === "revision" ? [PRACTICE_REVISION_SERIES] : [], departments: [], specialties: [], years: [], order: value === "book" ? "book" : "random" })} />{label}</label>)}</fieldset>;
   if (ordered) {
     const exams = practiceMockExams(questions);
     const active = filters.years.length === 1 && !filters.books.length && !filters.specialties.length && !filters.departments?.length && !filters.series?.length
@@ -41,12 +46,12 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
       <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={active?.label || "no-round"} total={active?.count ?? 0} questionIds={selectedIds} filters={filters} exam={examMode} round label={active?.label} topControlsTarget={topControlsTarget} /></PickerFooter>
     </div>;
   }
-  const years = [...new Set(questions.map((q) => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
+  const years = [...new Set(editionQuestions.map((q) => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
   const group = (key: Dimension, title: string, items: [string, string][]) => <fieldset className="mt-5">
     <legend className="font-semibold text-slate-900">{title}</legend>
     <div className={chat ? "chat-qbank-choice-list" : "mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 lg:grid-cols-4"}>{items.map(([id, label]) => {
       const checked = (filters[key] ?? []).includes(id);
-      const total = questions.filter((q) => matchesPractice(q, { ...filters, books: [], [key]: [id] })).length;
+      const total = editionQuestions.filter((q) => matchesPractice(q, { ...filters, books: [], [key]: [id] })).length;
       return <label key={id} className={chat ? "chat-qbank-choice" : `flex min-h-11 cursor-pointer items-center gap-1.5 rounded-lg border px-2.5 py-2 text-[13px] leading-5 transition-colors sm:px-3 sm:text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700 hover:border-teal-300"}`} data-checked={checked}>
         {chat ? <span className="skin-contact-avatar" aria-hidden="true" /> : null}
         <input type="checkbox" className="h-4 w-4 shrink-0 accent-teal-600" checked={checked} onChange={() => {
@@ -58,12 +63,13 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
   </fieldset>;
   return <div className={chat ? "chat-qbank-practice" : undefined}>
     {modes}
+    {revised && <p className="mt-3 text-sm text-slate-600">{editionQuestions.length ? `현행 기준으로 다듬은 ${editionQuestions.length.toLocaleString()}문항. 기출 원본 및 당시 채점과 별개입니다.` : "이 범위에 개정판 문항이 없습니다."}</p>}
     {group("departments", "과목", PRACTICE_DEPARTMENTS.map((d) => [d, d]))}
     <details className={chat ? "chat-qbank-topics" : "mt-3 rounded-lg border border-slate-200 bg-slate-50/50 px-3"}>
       <summary className="cursor-pointer py-2.5 text-sm font-semibold text-slate-800 marker:text-teal-600">세부 주제{filters.specialties.length ? <span className="ml-2 text-xs font-normal text-slate-500">{filters.specialties.length}개 선택</span> : null}</summary>
       <div className="pb-3">
         {PRACTICE_DEPARTMENTS.map((d) => {
-          const sections = practiceTopicSections(questions, d);
+          const sections = practiceTopicSections(editionQuestions, d);
           const topicCount = sections.reduce((count, section) => count + section.topics.length, 0);
           const chosen = sections.flatMap((section) => section.topics).filter(([key]) => filters.specialties.includes(key)).length;
           return <details key={d} className={chat ? "chat-qbank-topics" : "mt-2 rounded-lg border border-slate-200 bg-white px-3"}>

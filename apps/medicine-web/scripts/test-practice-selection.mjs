@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceMockExams, practiceTopicSections } from '../src/lib/practice-selection.ts';
+import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceMockExams, practiceTopicSections, isPracticeRevisionId, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
+import { gradeQuestion } from '../src/lib/qbank-grading.ts';
 
 test('selecting or clearing one theory group preserves other groups', () => {
   assert.deepEqual(toggleGroup(['disease:cardio'], ['cc:cardio', 'cc:renal']), ['disease:cardio', 'cc:cardio', 'cc:renal']);
@@ -28,21 +29,41 @@ test('invalid stored selections cannot become active filters', () => {
   assert.equal(matchesPractice(q, { ...empty, series: ['P'], years: ['2020'] }), false);
  });
 
-test('one mock exam combines all four subjects across volumes and excludes other series and years', () => {
+test('one mock exam combines the original questions for a year and excludes revisions', () => {
   const rows = ['IM', 'GS', 'OG', 'PE'].map((subject, index) => ({
     id: `QB-PF2026-V0${index < 2 ? 1 : 2}-${subject}-Y2025-0001`,
     bookId: index < 2 ? 'perfect2026-im-gs' : 'perfect2026-pe-og',
     bookSeries: '퍼펙트', examYear: 2025, bookDepartment: subject, specialtySlug: subject,
   }));
-  rows.push({ ...rows[0], id: 'other-year', examYear: 2026 }, { ...rows[0], id: 'other-series', bookSeries: '리얼' }, { ...rows[0], id: 'unresolved', examYear: null });
-  assert.deepEqual(practiceMockExams(rows).map(({label, count}) => [label, count]), [['P 2026', 1], ['P 2025', 4], ['R 2025', 1]]);
-  const selected = rows.filter(q => matchesPractice(q, mockExamFilters('퍼펙트', 2025))).reverse().sort(comparePracticeOrder);
-  assert.deepEqual(selected.map(q => q.bookDepartment), ['IM', 'GS', 'OG', 'PE']);
+  const original = { ...rows[0], id: 'QB-PF2026-V01-IM-Y2025-0002', bookSeries: '실전' };
+  const revised = { ...original, id: 'QB-REV-202611-PF2026-V01-IM-Y2025-0002', bookSeries: PRACTICE_REVISION_SERIES };
+  rows.push({ ...rows[0], id: 'other-year', examYear: 2026 }, original, revised, { ...rows[0], id: 'unresolved', examYear: null });
+  assert.deepEqual(practiceMockExams(rows).map(({label, count}) => [label, count]), [['2026년', 1], ['2025년', 5]]);
+  const selected = rows.filter(q => matchesPractice(q, mockExamFilters(2025))).reverse().sort(comparePracticeOrder);
+  assert.deepEqual(selected.map(q => q.bookDepartment), ['IM', 'IM', 'GS', 'OG', 'PE']);
+  assert.deepEqual(rows.filter(q => matchesPractice(q, { books: [], specialties: [], years: [], series: [PRACTICE_REVISION_SERIES] })), [revised]);
+  assert.equal(matchesPractice(revised, { books: [], specialties: [], years: [], departments: ['IM'] }), false);
+  assert.equal(isPracticeRevisionId(original.id), false);
+  assert.equal(isPracticeRevisionId(revised.id), true);
 });
  test('book order keeps original subject order and numeric question order', () => {
   const ids = ['QB-RL2019-V01-GS-0001', 'QB-RL2019-V01-IM-0010', 'QB-RL2019-V01-IM-0002'];
   assert.deepEqual(ids.map(id => ({id})).sort(comparePracticeOrder).map(q => q.id), [ids[2], ids[1], ids[0]]);
  });
+
+test('a revised answer is scored independently from the historical accepted choices', () => {
+  const original = {
+    id: 'QB-EXAMPLE-1', gradingMode: 'multiple-exact', answer: null, acceptedAnswers: ['B', 'D'],
+    options: { A: 'first', B: 'historical 1', C: 'third', D: 'historical 2', E: 'fifth' },
+  };
+  const { acceptedAnswers, ...base } = original;
+  const revision = { ...base, id: 'QB-REV-202611-EXAMPLE-1', gradingMode: 'single', answer: 'C', options: { ...original.options, C: 'revised' } };
+  assert.equal(gradeQuestion(original, acceptedAnswers), true);
+  assert.equal(gradeQuestion(original, 'C'), false);
+  assert.equal(gradeQuestion(revision, acceptedAnswers), false);
+  assert.equal(gradeQuestion(revision, 'C'), true);
+  assert.deepEqual(acceptedAnswers.map(key => revision.options[key]), ['historical 1', 'historical 2']);
+});
 
 test('internal-medicine detail topics mirror only theory specialties 01 through 10', () => {
   const rows = [

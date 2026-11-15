@@ -68,3 +68,11 @@ Existing Edge Function secrets `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` are a
 - Sign out uses `scope: "local"`, leaving other devices signed in. Do not clear or merge account data as part of this flow.
 
 Targeted checks: `node --experimental-strip-types --test scripts/test-device-login.mjs` from `apps/medicine-web`, plus lint/type checking. Authentication hashes and session credentials must never appear in logs or URLs.
+
+## 6. 실전 개정판 (2026-11)
+
+The edition uses separate `QB-REV-202611-…` IDs under the existing approved-account policy. The original question bank, original grading, and saved results are not updated. The app offers **실전 문제 → 개정판** once the private edition rows are installed.
+
+- Run `node workspace_ops/scripts/build_practice_revision_sql.mjs --check` from the repository root to validate the untracked edition file in `Qbank book/_private/`.
+- In an authorized rollout, apply the `practice_revision_edition` migration. Generate the private import SQL with the same script's `--seed` argument, and use it only against the intended approved-account database. The import checks source versions and historical answers before inserting all 109 items; existing edition IDs are never overwritten.
+- Do not commit the edition file, generated import SQL, or derived question payloads, or add them to the static export.

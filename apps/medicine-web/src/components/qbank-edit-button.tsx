@@ -6,6 +6,7 @@ import { Pencil } from "lucide-react";
 import type { QbankQuestion } from "@/lib/types";
 import { EDITOR_USER_ID, isEditablePath } from "@/lib/document-edit-core";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
+import { isPracticeRevisionId } from "@/lib/practice-selection";
 import { DocumentEditButton } from "./document-edit-button";
 
 const PrivateQbankEditorDialog = dynamic(() => import("./private-qbank-editor-dialog"), { ssr: false });
@@ -15,16 +16,19 @@ export function QbankEditButton({ question, onSaved }: { question: QbankQuestion
   const [open, setOpen] = useState(false);
   const sourcePath = typeof question.sourcePath === "string" ? question.sourcePath : "";
   const privateQuestion = question.questionBank === "practice" && /^QB-[A-Za-z0-9-]+$/.test(question.id);
+  const revised = isPracticeRevisionId(question.id);
 
   useEffect(() => {
+    if (revised) return; // This editor only writes the canonical table.
     const client = getSupabaseBrowserClient();
     if (!client) return;
     let active = true;
     void client.auth.getUser().then(({ data }) => { if (active) setOwner(data.user?.id === EDITOR_USER_ID); });
     const { data } = client.auth.onAuthStateChange((_event, session) => setOwner(session?.user.id === EDITOR_USER_ID));
     return () => { active = false; data.subscription.unsubscribe(); };
-  }, []);
+  }, [revised]);
 
+  if (revised) return null;
   if (isEditablePath(sourcePath)) return <DocumentEditButton sourcePath={sourcePath} title={`Q-bank · ${question.id}`} />;
   if (!owner || !privateQuestion) return null;
   return <>
