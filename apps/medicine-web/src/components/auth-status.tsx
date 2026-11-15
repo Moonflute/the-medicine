@@ -3,13 +3,15 @@
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import type { Session, User } from "@supabase/supabase-js";
-import { KeyRound, LogIn, LogOut } from "lucide-react";
+import { KeyRound, LogIn, LogOut, ShieldCheck } from "lucide-react";
 import { clearTemporaryDeviceLogin, getAppBasePath, getSupabaseBrowserClient, isSupabaseConfigured, sessionUsesDeviceCode, sessionUsesGoogleOAuth, usesTemporaryDeviceLogin } from "@/lib/supabase/client";
 import { deviceLoginSessionIsActive } from "@/lib/device-login";
+import { EDITOR_USER_ID } from "@/lib/document-edit-core";
 
 import { LearningSyncStatus } from "./learning-sync-status";
 
 const DeviceLoginDialog = dynamic(() => import("./device-login-dialog").then((module) => module.DeviceLoginDialog), { ssr: false });
+const QbankAccessDialog = dynamic(() => import("./qbank-access-dialog").then((module) => module.QbankAccessDialog), { ssr: false });
 
 function displayName(user: User) {
   const metadataName = user.user_metadata?.full_name ?? user.user_metadata?.name;
@@ -20,17 +22,22 @@ export function AuthStatus() {
   const [session, setSession] = useState<Session | null>(null);
   const user = session?.user ?? null;
   const canIssue = sessionUsesGoogleOAuth(session);
+  const canManageQbank = user?.id === EDITOR_USER_ID && Array.isArray(user.app_metadata?.providers) && user.app_metadata.providers.includes("google");
   const deviceCodeSession = sessionUsesDeviceCode(session) || Boolean(session && usesTemporaryDeviceLogin());
   const [busy, setBusy] = useState(false);
   const [ready, setReady] = useState(false);
-  const [dialog, setDialog] = useState<"sign-in" | "issue" | null>(null);
+  const [dialog, setDialog] = useState<"sign-in" | "issue" | "qbank-access" | null>(null);
 
   useEffect(() => {
     const supabase = getSupabaseBrowserClient();
     if (!supabase) return;
 
     void supabase.auth.getSession().then(({ data }) => { setSession(data.session); setReady(true); });
-    const { data: listener } = supabase.auth.onAuthStateChange((_event, nextSession) => { setSession(nextSession); setReady(true); });
+    const { data: listener } = supabase.auth.onAuthStateChange((_event, nextSession) => {
+      setSession(nextSession);
+      setReady(true);
+      if (nextSession?.user.id !== EDITOR_USER_ID) setDialog(current => current === "qbank-access" ? null : current);
+    });
     return () => listener.subscription.unsubscribe();
   }, []);
 
@@ -89,10 +96,12 @@ export function AuthStatus() {
       <LearningSyncStatus />
       {user ? <>
         <span className="hidden max-w-36 truncate text-xs font-medium text-slate-600 sm:inline" title={user.email ?? undefined}>{displayName(user)}</span>
+        {canManageQbank ? <button type="button" onClick={() => setDialog("qbank-access")} disabled={busy} className="secondary-action shrink-0 px-2.5" title="실전문제 권한 관리" aria-label="실전문제 권한 관리"><ShieldCheck className="h-4 w-4" /></button> : null}
         {canIssue ? <button type="button" onClick={() => setDialog("issue")} disabled={busy} className="secondary-action shrink-0 px-2.5" title="다른 기기 로그인 번호" aria-label="다른 기기 로그인 번호"><KeyRound className="h-4 w-4" /></button> : null}
         <button type="button" onClick={() => void signOut()} disabled={busy} className="secondary-action shrink-0 px-2.5" title="Sign out"><LogOut className="h-4 w-4" /><span className="hidden sm:inline">Sign out</span></button>
       </> : <button type="button" onClick={() => setDialog("sign-in")} disabled={busy || !ready} className="secondary-action whitespace-nowrap disabled:opacity-50" title="Google 또는 임시 번호로 로그인"><LogIn className="h-4 w-4" />Sign in</button>}
     </div>
-    {dialog ? <DeviceLoginDialog mode={dialog} onClose={() => setDialog(null)} onGoogleSignIn={signIn} /> : null}
+    {dialog === "sign-in" || dialog === "issue" ? <DeviceLoginDialog mode={dialog} onClose={() => setDialog(null)} onGoogleSignIn={signIn} /> : null}
+    {dialog === "qbank-access" && canManageQbank ? <QbankAccessDialog onClose={() => setDialog(null)} /> : null}
   </>;
 }

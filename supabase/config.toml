@@ -5,3 +5,9 @@ project_id = "the-medicine"
 # issue/revoke still require a JWT verified by the Auth server in handler.ts.
 verify_jwt = false
 entrypoint = "./functions/device-login/index.ts"
+
+[functions.qbank-access-admin]
+# handler.ts verifies the bearer with Auth and checks the fixed owner before
+# every privileged request, including when the project uses asymmetric JWTs.
+verify_jwt = false
+entrypoint = "./functions/qbank-access-admin/index.ts"

@@ -2,6 +2,18 @@
 
 GitHub Pages source for the medicine web app.
 
+## 실전문제 접근 권한 관리
+
+1. 접근을 허용할 사용자가 웹앱에 Google 계정으로 한 번 로그인합니다.
+2. 마스터 계정으로 로그인한 뒤 상단의 방패 아이콘(`실전문제 권한 관리`)을 누릅니다.
+3. 이름 또는 이메일로 계정을 찾고 접근 승인 체크박스를 켜거나 끕니다. 해제 시 확인창이 표시됩니다.
+
+승인은 실전문제 열람 권한만 부여하며, 공유 문서나 문제의 편집 권한은 부여하지 않습니다. 마스터 자신의 접근은 해제할 수 없습니다. 승인 변경은 재배포 없이 다음 서버 조회부터 반영됩니다. 이미 브라우저에 내려받은 내용까지 회수하는 기능은 아닙니다.
+
+관리 UI와 서버는 기존 문서 편집용 마스터 계정 식별자를 사용합니다. `qbank-access-admin` Edge Function이 Auth에서 로그인 토큰과 마스터 계정을 확인한 후 기존 `public.private_qbank_access`의 `enabled`만 변경합니다. 일반 사용자는 승인 목록을 수정할 수 없으며, 서비스 키는 브라우저에 전달하지 않습니다.
+
+새 환경에는 `supabase/functions/qbank-access-admin`을 별도로 배포해야 합니다. 설정은 `supabase/config.toml`을 따릅니다. `verify_jwt = false`는 함수 내부에서 Auth 서버를 통해 직접 인증하기 위한 설정이며, 익명 접근을 허용하는 설정이 아닙니다. 함수는 기존 `document-editor/document-edit-core.ts`도 함께 사용합니다.
+
 ## 노트 수정
 
 원본 노트는 `source_notes` 아래에 있습니다. 앱 내용을 바꿀 때는 이 `.md` 파일을 직접 수정하세요. `_webapp/data` 아래 JSON은 빌드 결과물이므로 직접 수정하지 않습니다.
