@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { deployPages } from './deploy-pages.mjs';
 
-function fixture(readStatus, { cancelError, createError, previousStatus } = {}) {
+function fixture(readStatus, { cancelError, createError, previousStatus, previousError } = {}) {
   let elapsed = 0;
   let reads = 0;
   const calls = [];
@@ -28,6 +28,7 @@ function fixture(readStatus, { cancelError, createError, previousStatus } = {}) 
         return { data: { id: input.pages_build_version, page_url: 'https://example.github.io/site/' } };
       }
       if (!created || cancelled) {
+        if (!cancelled && previousError) throw previousError;
         if (!cancelled && previousStatus === undefined) throw Object.assign(new Error('not found'), { status: 404 });
         return { data: { status: cancelled ? 'deployment_cancelled' : previousStatus } };
       }
@@ -53,6 +54,35 @@ test('file sync can finish after ten minutes without cancellation or another upl
 test('real Pages failure stops immediately instead of waiting or reporting success', async () => {
   const f = fixture(() => ({ status: 'deployment_content_failed' }));
   await assert.rejects(deployPages(f.options), /deployment_content_failed/);
+  assert.equal(f.elapsed(), 15_000);
+  assert.equal(f.outputs.status, undefined);
+  assert.equal(f.calls.filter(call => call.route.endsWith('/cancel')).length, 0);
+});
+
+test('an unavailable baseline does not reject a publication completed before the first poll', async () => {
+  for (const previousStatus of [undefined, null, '', 'not_found', 'unknown_status']) {
+    const f = fixture(() => ({ status: 'succeed' }), { previousStatus });
+    await deployPages(f.options);
+    assert.equal(f.outputs.status, 'succeed');
+    assert.equal(f.elapsed(), 15_000);
+    assert.equal(f.creates().length, 1);
+    assert.equal(f.calls.filter(call => call.route.endsWith('/cancel')).length, 0);
+  }
+});
+
+test('a transient baseline read error still allows the created deployment to report success', async () => {
+  const f = fixture(() => ({ status: 'succeed' }), {
+    previousError: Object.assign(new Error('service unavailable'), { status: 503 }),
+  });
+  await deployPages(f.options);
+  assert.equal(f.outputs.status, 'succeed');
+  assert.equal(f.elapsed(), 15_000);
+  assert.equal(f.creates().length, 1);
+});
+
+test('a failure after an unavailable baseline is reported without waiting for progress', async () => {
+  const f = fixture(() => ({ status: 'deployment_content_failed' }), { previousStatus: null });
+  await assert.rejects(deployPages(f.options), /publication failed: deployment_content_failed/);
   assert.equal(f.elapsed(), 15_000);
   assert.equal(f.outputs.status, undefined);
   assert.equal(f.calls.filter(call => call.route.endsWith('/cancel')).length, 0);

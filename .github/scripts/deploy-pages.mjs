@@ -46,18 +46,15 @@ export async function deployPages({
     // rerun cannot immediately mistake that status for this publication's result.
     // https://github.com/actions/deploy-pages/issues/383
     let previousStatus;
-    let baselineUnavailable = false;
     try {
       const previous = await github.request('GET /repos/{owner}/{repo}/pages/deployments/{pages_deployment_id}', {
         ...context.repo, pages_deployment_id: context.sha, request: requestOptions,
       });
       previousStatus = previous.data?.status;
-      baselineUnavailable = !previousStatus || unknownStates.has(previousStatus);
     } catch (error) {
       if (error.status !== 404) {
         if (error.status && error.status !== 429 && error.status < 500) throw error;
-        baselineUnavailable = true;
-        core.warning('Could not read the prior Pages state; a fresh progress state will be required.');
+        core.warning('Could not read the prior Pages state; polling the created deployment for its result.');
       }
     }
     const oidcToken = await core.getIDToken();
@@ -100,7 +97,9 @@ export async function deployPages({
         }
         const status = result?.data?.status;
         const terminal = status === 'succeed' || terminalFailures.has(status);
-        if (!freshProgress && terminal && (status === previousStatus || baselineUnavailable)) {
+        // Only a confirmed previous terminal state can be stale. A publication
+        // can finish before the first poll, without exposing a progress state.
+        if (!freshProgress && terminal && status === previousStatus) {
           if (now() >= startupDeadline) throw new Error(`Pages did not expose a fresh publication state; refusing to reuse previous ${status}. Deployment: ${deploymentId}. ${diagnostic}`);
           core.info(`Pages is still reporting previous ${status}; waiting for this publication to start.`);
           continue;
