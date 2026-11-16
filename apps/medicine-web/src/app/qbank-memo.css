@@ -1,0 +1,19 @@
+.qbank-memo-toggle { position: relative; flex-shrink: 0; }
+.qbank-memo-toggle[data-has-memo="true"], .qbank-memo-toggle[aria-expanded="true"] { color: var(--primary); border-color: var(--primary); }
+.qbank-memo-dot { position: absolute; top: 5px; right: 5px; width: 5px; height: 5px; border-radius: 50%; background: currentColor; }
+.qbank-memo-panel { margin: .65rem 0; padding: .7rem .85rem; min-width: 0; border: 1px solid var(--line); border-radius: 8px; color: var(--foreground); background: var(--surface); font-family: inherit; }
+.qbank-memo-heading { display: flex; align-items: center; justify-content: space-between; gap: .5rem; margin-bottom: .35rem; font-size: .8rem; }
+.qbank-memo-panel textarea { width: 100%; min-height: 6rem; max-height: 40dvh; resize: vertical; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); color: var(--foreground); padding: .6rem; font: inherit; font-size: .875rem; line-height: 1.65; }
+.qbank-memo-panel textarea:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; }
+.qbank-memo-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .3rem .75rem; margin-top: .4rem; font-size: .7rem; color: var(--muted); }
+.qbank-memo-panel .secondary-action { font-size: .75rem; }
+.qbank-memo-conflict { margin-top: .5rem; padding: .6rem; border: 1px solid var(--primary); border-radius: 5px; font-size: .75rem; }
+.qbank-memo-conflict pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 9rem; overflow: auto; margin: .4rem 0; font: inherit; }
+[data-theme="notebook"] .qbank-memo-panel textarea { background-image: repeating-linear-gradient(transparent, transparent calc(1.65em - 1px), var(--line) calc(1.65em - 1px), var(--line) 1.65em); background-origin: content-box; }
+html[data-theme="notebook"] .skin-q-article > .qbank-memo-panel { order: 2; flex: 1 0 100%; width: 100%; }
+[data-theme="pixel"] .qbank-memo-panel, [data-theme="terminal"] .qbank-memo-panel, [data-theme="sheet"] .qbank-memo-panel { border-radius: 0; }
+[data-theme="pixel"] .qbank-memo-panel { border-width: 2px; box-shadow: 3px 3px 0 var(--line); }
+html:is([data-theme="chat"],[data-theme="messenger"]) .qbank-memo-panel { border-radius: 12px; background: var(--chat-received); color: var(--chat-text); }
+.chat-tools-grid .chat-attachment-actions > .qbank-memo-toggle[aria-label]::after { content: "내 메모"; }
+.chat-tools-grid .chat-attachment-actions > .qbank-memo-toggle > .qbank-memo-dot { display: block; }
+@media (max-width: 40rem) { .qbank-memo-panel textarea { font-size: 16px; } .qbank-memo-panel .secondary-action { min-height: 2.5rem; } }

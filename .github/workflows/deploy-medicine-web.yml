@@ -93,7 +93,7 @@ jobs:
         run: node --test scripts/test-lab-workbench.mjs
 
       - name: Verify learning sync
-        run: node --test scripts/test-learning-sync.mjs scripts/test-qbank-analytics.mjs
+        run: node --test scripts/test-learning-sync.mjs scripts/test-qbank-analytics.mjs scripts/test-qbank-memos.mjs
 
       - name: Verify temporary device login
         run: node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test scripts/test-device-login.mjs

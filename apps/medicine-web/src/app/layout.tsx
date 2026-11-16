@@ -8,6 +8,7 @@ import "./physiology.css";
 import { AppShell } from "@/components/app-shell";
 import { PWARegister } from "@/components/pwa-register";
 import { ThemeProvider } from "@/components/theme-provider";
+import { QbankMemoProvider } from "@/components/qbank-memo-provider";
 import { themeInitScript } from "@/lib/themes";
 import { studyFlowButtonInitScript } from "@/lib/study-flow-preferences";
 import { qbankReferenceInitScript } from "@/lib/qbank-reference";
@@ -47,7 +48,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <head><link rel="stylesheet" href={`${basePath}/highlights.css`} /><script id="medicine-theme-init" dangerouslySetInnerHTML={{ __html: themeInitScript + studyFlowButtonInitScript + qbankReferenceInitScript }} /></head>
       <body>
         <PWARegister />
-        <ThemeProvider><AppShell>{children}</AppShell></ThemeProvider>
+        <ThemeProvider><QbankMemoProvider><AppShell>{children}</AppShell></QbankMemoProvider></ThemeProvider>
       </body>
     </html>
   );
