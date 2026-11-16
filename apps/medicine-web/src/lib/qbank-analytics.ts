@@ -1,7 +1,7 @@
 import type { QbankState } from "./qbank-store";
 import { progressedInRound } from "./qbank-progress";
 
-export type AnalyticsQuestion = { id: string; bank: string; department: string; topic: string; label: string; exam?: string; order?: number; subgroup?: string };
+export type AnalyticsQuestion = { id: string; bank: string; department: string; topic: string; label: string; exam?: string; order?: number; subgroup?: string; revisionIds?: string[] };
 export type AnalyticsGroup = { key: string; total: number; attempted: number; progressed: number; attempts: number; correct: number; wrong: number; retryIds: string[]; unattemptedIds: string[]; order: number; latestCorrect: number; mastered: number };
 export type PracticeDepartmentGroup = AnalyticsGroup & { children: AnalyticsGroup[] };
 export type AnalyticsSort = "default" | "accuracy" | "wrong" | "unattempted" | "progress";
@@ -14,7 +14,7 @@ export function sortAnalyticsGroups<T extends AnalyticsGroup>(groups: T[], sort:
 export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: QbankState, bank = "all", department = "all", progressResetAt: string | null = null) {
   const catalog = [...new Map(questions.map(q => [q.id, q])).values()];
   const selected = catalog.filter(q => (bank === "all" || q.bank === bank) && (department === "all" || q.department === department));
-  const ids = new Set(selected.map(q => q.id));
+  const ids = new Set(selected.flatMap(q => [q.id, ...(q.revisionIds ?? [])]));
   const groups = new Map<string, AnalyticsGroup>();
   const topics = new Map<string, AnalyticsGroup>();
   const exams = new Map<string, AnalyticsGroup>();
@@ -39,10 +39,22 @@ export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: Qbank
     map.set(key, g);
   };
   for (const q of selected) {
-    const p = state.progress[q.id];
-    const count = Math.max(0, Number(p?.attempts) || 0);
-    const right = Math.min(count, Math.max(0, Number(p?.correctAttempts) || 0));
-    const latestWrong = wrongIds.has(q.id);
+    // Count one question slot, but keep both editions' actual recorded scores.
+    const versionIds = [q.id, ...(q.revisionIds ?? [])];
+    let p: QbankState["progress"][string] | undefined;
+    let count = 0, right = 0;
+    for (const id of versionIds) {
+      const progress = state.progress[id];
+      const n = Math.max(0, Number(progress?.attempts) || 0);
+      count += n;
+      right += Math.min(n, Math.max(0, Number(progress?.correctAttempts) || 0));
+      if (!progress || !n) continue;
+      if (!p || (progress.lastAttemptedAt ?? "") >= (p.lastAttemptedAt ?? "")) {
+        p = progress;
+      }
+      if (progress.lastAttemptedAt && typeof progress.lastCorrect === "boolean") recentResults.push({ last: progress.lastAttemptedAt, correct: progress.lastCorrect });
+    }
+    const latestWrong = versionIds.some(id => wrongIds.has(id));
     const mistakes = count - right;
     const isProgressed = progressedInRound(p, progressResetAt);
     attempts += count; correct += right;
@@ -52,7 +64,6 @@ export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: Qbank
     if (count > 0 && (p?.consecutiveCorrect ?? 0) >= 2) mastered++;
     if (mistakes > 0 && p?.lastCorrect === true) recovered++;
     if (latestWrong) wrong.push({ ...q, mistakes, attempts: count, last: p?.lastAttemptedAt ?? "" });
-    if (count > 0 && p?.lastAttemptedAt && typeof p.lastCorrect === "boolean") recentResults.push({ last: p.lastAttemptedAt, correct: p.lastCorrect });
     updateGroup(groups, q.department, q, count, right, latestWrong, isProgressed, p);
     updateGroup(topics, `${q.department} · ${q.topic}`, q, count, right, latestWrong, isProgressed, p);
     updateGroup(exams, q.exam, q, count, right, latestWrong, isProgressed, p);

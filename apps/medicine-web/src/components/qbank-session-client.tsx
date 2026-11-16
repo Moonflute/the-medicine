@@ -31,7 +31,7 @@ import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
-import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, selectsPracticeRevisions, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, practiceDeliveryIds, practiceSourceQuestionId, practiceVersionIds, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, Copy, Info, XCircle } from "lucide-react";
@@ -57,8 +57,12 @@ import type { QbankSessionContext } from "@/lib/qbank-active-session";
 import { markQbankSkipped, qbankPassIndex, readQbankSkipState, resolveQbankSkipped, type QbankSkipState } from "@/lib/qbank-skips";
 import { QbankSkippedNavigation, QbankSkipPassActions } from "@/components/qbank-skip-controls";
 
-type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">>;
+type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">> & { practiceIds?: string[] };
 type SessionAnswer = QbankSessionAnswer;
+
+function isSessionQuestionTracked(question: SessionQuestion | undefined, ids: string[]): boolean {
+  return Boolean(question && (question.practiceIds ?? [question.id]).some(id => ids.includes(id)));
+}
 
 function shuffled<T>(values: T[]): T[] {
   const next = [...values];
@@ -69,11 +73,14 @@ function shuffled<T>(values: T[]): T[] {
   return next;
 }
 
-function balancedUnattemptedFirst(questions: QbankQuestion[], progress: Record<string, QbankProgress>, count: number): QbankQuestion[] {
-  const selected: QbankQuestion[] = [];
+function balancedUnattemptedFirst(questions: SessionQuestion[], progress: Record<string, QbankProgress>, count: number): SessionQuestion[] {
+  const selected: SessionQuestion[] = [];
   const used = new Set<string>();
-  const drawRoundRobin = (pool: QbankQuestion[]) => {
-    const groups = new Map<string, QbankQuestion[]>();
+  const attempted = (question: SessionQuestion) => question.practiceIds
+    ? question.practiceIds.some(id => (progress[id]?.attempts ?? 0) > 0)
+    : Boolean(progress[question.id]);
+  const drawRoundRobin = (pool: SessionQuestion[]) => {
+    const groups = new Map<string, SessionQuestion[]>();
     for (const question of shuffled(pool)) {
       const key = `${question.questionBank}:${question.specialtySlug}`;
       const bucket = groups.get(key) ?? [];
@@ -91,8 +98,8 @@ function balancedUnattemptedFirst(questions: QbankQuestion[], progress: Record<s
       }
     }
   };
-  drawRoundRobin(questions.filter((question) => !progress[question.id]));
-  if (selected.length < count) drawRoundRobin(questions.filter((question) => progress[question.id] && !used.has(question.id)));
+  drawRoundRobin(questions.filter(question => !attempted(question)));
+  if (selected.length < count) drawRoundRobin(questions.filter(question => attempted(question) && !used.has(question.id)));
   return selected;
 }
 
@@ -201,20 +208,28 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
   if (wantsPrivate) {
     const state = loadQbankState();
     const trackedIds = targetIds ?? (mode === "wrong" ? new Set(state.wrongIds) : mode === "bookmarks" ? new Set(state.bookmarkIds) : undefined);
-    const includeRevisions = selectsPracticeRevisions(practiceFilters) || [...(trackedIds ?? [])].some(isPracticeRevisionId);
-    const { questions: privateIndex } = await loadPracticeIndex(includeRevisions);
-    const privateIds = privateIndex.filter((q) => {
-      if (mode === "wrong" || mode === "bookmarks" || mode === "retry") return trackedIds?.has(q.id) ?? false;
-      if (mode === "all" || mode === "study-flow") return targetIds ? targetIds.has(q.id) : !isPracticeRevisionId(q.id);
-      if (mode === "unattempted") return !isPracticeRevisionId(q.id) && !isQbankProgressedInCurrentView(state.progress[q.id]);
+    const trackedSources = new Set([...(trackedIds ?? [])].map(practiceSourceQuestionId));
+    // Saved sessions pass "all" with explicit IDs. Do not substitute content
+    // into a draft, historical score, or bookmark stored for an old version.
+    const savedIds = mode === "all" ? targetIds : undefined;
+    const { questions: privateIndex } = await loadPracticeIndex(!savedIds);
+    const resetAt = loadQbankProgressViewResetAt();
+    const selection = privateIndex.filter((q) => {
+      if (mode === "wrong" || mode === "bookmarks" || mode === "retry") return trackedSources.has(q.id);
+      if (mode === "all" || mode === "study-flow") return targetIds ? trackedSources.has(q.id) : true;
+      if (mode === "unattempted") return !practiceVersionIds(q).some(id => isQbankProgressedInCurrentView(state.progress[id], resetAt));
       if (!practiceFilters || !matchesPractice(q, practiceFilters)) return false;
-      if (practiceUnattemptedOnly && isQbankProgressedInCurrentView(state.progress[q.id], loadQbankProgressViewResetAt())) return false;
+      if (practiceUnattemptedOnly && practiceVersionIds(q).some(id => isQbankProgressedInCurrentView(state.progress[id], resetAt))) return false;
       if (mode !== "related") return true;
       const scope = targetSlugs.split(",").filter(Boolean);
       return targetType === "disease" ? q.relatedDiseaseSlugs.some((slug) => (scope.length ? scope : [targetSlug]).includes(slug)) : q.relatedCcSlugs.includes(targetSlug);
-    }).map((q) => q.id);
-    const metadata = new Map(privateIndex.map((question) => [question.id, question]));
-    privateQuestions = (await loadPracticeQuestions(privateIds)).map((question) => ({ ...question, bookDepartment: metadata.get(question.id)?.bookDepartment }));
+    });
+    const metadata = new Map(selection.map(question => [question.id, question]));
+    privateQuestions = (await loadPracticeQuestions(practiceDeliveryIds(selection, savedIds))).map(question => {
+      const source = metadata.get(practiceSourceQuestionId(question.id));
+      const practiceIds = source ? [...new Set([...practiceVersionIds(source), question.id])] : undefined;
+      return { ...question, bookDepartment: source?.bookDepartment, practiceIds };
+    });
   }
   const slugs = [...new Set(candidates.map((item) => item.specialtySlug))];
   if (slugs.length === 0) return privateQuestions;
@@ -363,8 +378,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const state = initialState;
         let filtered = loaded;
         if (mode === "disease") filtered = loaded.filter((item) => item.relatedDiseaseSlugs.includes(disease));
-        if (mode === "wrong" || mode === "bookmarks" || mode === "retry") filtered = loaded.filter((item) => targetIds?.has(item.id));
-        if (mode === "unattempted") filtered = loaded.filter((item) => !isQbankProgressedInCurrentView(state.progress[item.id]));
+        if (mode === "unattempted") {
+          const resetAt = loadQbankProgressViewResetAt();
+          filtered = loaded.filter(item => !(item.practiceIds ?? [item.id]).some(id => isQbankProgressedInCurrentView(state.progress[id], resetAt)));
+        }
         const requestedCount = resolveQbankSessionCount(requestedCountValue, filtered.length);
         const restoredQuestions = snapshot ? restoreQbankQuestionOrder(loaded, snapshot.questionIds) : [];
         if (snapshot && restoredQuestions.length !== snapshot.questionIds.length) throw new Error("저장된 문제에 접근할 수 없습니다.");
@@ -390,8 +407,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setDrafts(readQbankSessionDrafts(snapshot?.drafts));
         setSelected(restoredAnswer?.selected ?? snapshot?.selected ?? null);
         setSubmitted(Boolean(restoredAnswer));
-        setBookmarked(Boolean(restoredQuestion && state.bookmarkIds.includes(restoredQuestion.id)));
-        setWrongTracked(Boolean(restoredQuestion && state.wrongIds.includes(restoredQuestion.id)));
+        setBookmarked(isSessionQuestionTracked(restoredQuestion, state.bookmarkIds));
+        setWrongTracked(isSessionQuestionTracked(restoredQuestion, state.wrongIds));
         setQuestionProgress(restoredQuestion ? state.progress[restoredQuestion.id] ?? null : null);
       })
       .catch((reason: unknown) => { if (!cancelled && !remoteSessionApplyingRef.current) setError(reason instanceof Error ? reason.message : "문제 데이터를 불러오지 못했습니다."); })
@@ -517,8 +534,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setSelected(restoredAnswer?.selected ?? remoteActiveSession.selected);
         setSubmitted(Boolean(restoredAnswer));
         const state = loadQbankState();
-        setBookmarked(state.bookmarkIds.includes(restoredQuestion.id));
-        setWrongTracked(state.wrongIds.includes(restoredQuestion.id));
+        setBookmarked(isSessionQuestionTracked(restoredQuestion, state.bookmarkIds));
+        setWrongTracked(isSessionQuestionTracked(restoredQuestion, state.wrongIds));
         setQuestionProgress(state.progress[restoredQuestion.id] ?? null);
         appliedRemoteSessionVersionRef.current = remoteActiveSession.updatedAt;
       })
@@ -585,10 +602,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const previousAnswer = answersById.get(question.id);
     const state = loadQbankState();
     setCurrentIndex(index);
-    setBookmarked(state.bookmarkIds.includes(question.id));
+    setBookmarked(isSessionQuestionTracked(question, state.bookmarkIds));
     setSelected(previousAnswer?.selected ?? drafts[question.id] ?? null);
     setSubmitted(Boolean(previousAnswer));
-    setWrongTracked(state.wrongIds.includes(question.id));
+    setWrongTracked(isSessionQuestionTracked(question, state.wrongIds));
     setQuestionProgress(state.progress[question.id] ?? null);
   }, [answersById, questions, current, currentIndex, selected, submitted, drafts]);
 
@@ -602,7 +619,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     if (mockExam || !current || submitted || isRoundTimeUp(deadlineAt)) return;
     const correct = gradeQuestion(current, selected);
     const progress = correct !== null ? recordQbankAttempt(current.id, selected ?? undefined, correct) : null;
-    setWrongTracked(loadQbankState().wrongIds.includes(current.id));
+    setWrongTracked(isSessionQuestionTracked(current, loadQbankState().wrongIds));
     setQuestionProgress(progress);
     setAnswers((items) => [...items, { questionId: current.id, selected: selected ?? undefined, correct, specialty: practiceQuestionLabel(current) }]);
     setSkips(state => resolveQbankSkipped(state, current.id));
@@ -686,12 +703,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   }, [currentIndex, questionIds, skips, showQuestion]);
   function toggleBookmark() {
     if (!current) return;
-    setBookmarked(toggleQbankBookmark(current.id));
+    setBookmarked(toggleQbankBookmark(current.id, current.practiceIds));
   }
 
   function dismissWrong() {
     if (!current) return;
-    removeQbankWrong(current.id);
+    removeQbankWrong(current.id, current.practiceIds);
     setWrongTracked(false);
   }
   useEffect(() => {

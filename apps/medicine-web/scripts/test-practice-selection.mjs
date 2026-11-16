@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceMockExams, practiceTopicSections, isPracticeRevisionId, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
+import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceMockExams, practiceTopicSections, isPracticeRevisionId, indexPracticeVersions, practiceDeliveryIds, practiceVersionIds, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
 import { gradeQuestion } from '../src/lib/qbank-grading.ts';
 
 test('selecting or clearing one theory group preserves other groups', () => {
@@ -29,7 +29,7 @@ test('invalid stored selections cannot become active filters', () => {
   assert.equal(matchesPractice(q, { ...empty, series: ['P'], years: ['2020'] }), false);
  });
 
-test('one mock exam combines the original questions for a year and excludes revisions', () => {
+test('a normal mock exam delivers the latest content once in its original slot and order', () => {
   const rows = ['IM', 'GS', 'OG', 'PE'].map((subject, index) => ({
     id: `QB-PF2026-V0${index < 2 ? 1 : 2}-${subject}-Y2025-0001`,
     bookId: index < 2 ? 'perfect2026-im-gs' : 'perfect2026-pe-og',
@@ -37,11 +37,23 @@ test('one mock exam combines the original questions for a year and excludes revi
   }));
   const original = { ...rows[0], id: 'QB-PF2026-V01-IM-Y2025-0002', bookSeries: '실전' };
   const revised = { ...original, id: 'QB-REV-202611-PF2026-V01-IM-Y2025-0002', bookSeries: PRACTICE_REVISION_SERIES };
-  rows.push({ ...rows[0], id: 'other-year', examYear: 2026 }, original, revised, { ...rows[0], id: 'unresolved', examYear: null });
-  assert.deepEqual(practiceMockExams(rows).map(({label, count}) => [label, count]), [['2026년', 1], ['2025년', 5]]);
-  const selected = rows.filter(q => matchesPractice(q, mockExamFilters(2025))).reverse().sort(comparePracticeOrder);
+  const older = { ...revised, id: revised.id.replace('202611', '202610') };
+  const unrelated = { ...revised, id: 'QB-REV-202611-absent' };
+  rows.push({ ...rows[0], id: 'other-year', examYear: 2026 }, original, { ...rows[0], id: 'unresolved', examYear: null });
+  const bank = indexPracticeVersions(rows, [revised, older, unrelated]);
+  assert.deepEqual(practiceMockExams(bank).map(({label, count}) => [label, count]), [['2026년', 1], ['2025년', 5]]);
+  const selected = bank.filter(q => matchesPractice(q, mockExamFilters(2025))).reverse().sort(comparePracticeOrder);
   assert.deepEqual(selected.map(q => q.bookDepartment), ['IM', 'IM', 'GS', 'OG', 'PE']);
-  assert.deepEqual(rows.filter(q => matchesPractice(q, { books: [], specialties: [], years: [], series: [PRACTICE_REVISION_SERIES] })), [revised]);
+  const delivery = practiceDeliveryIds(selected);
+  assert.deepEqual(delivery, [rows[0].id, revised.id, rows[1].id, rows[2].id, rows[3].id]);
+  assert.deepEqual(delivery.map(id => ({id})).reverse().sort(comparePracticeOrder).map(q => q.id), delivery);
+  assert.deepEqual(practiceVersionIds(selected[1]), [original.id, older.id, revised.id]);
+  assert.deepEqual(practiceDeliveryIds(selected, new Set([original.id, older.id])), [original.id, older.id]);
+  assert.equal(original.revisionIds, undefined);
+  const byDepartment = bank.filter(q => matchesPractice(q, { books: [], specialties: [], years: ['2025'], departments: ['IM'] }));
+  assert.deepEqual(practiceDeliveryIds(byDepartment), [rows[0].id, revised.id]);
+  const oldLink = bank.filter(q => matchesPractice(q, { books: [], specialties: [], years: [], series: [PRACTICE_REVISION_SERIES] }));
+  assert.deepEqual(practiceDeliveryIds(oldLink), [revised.id]);
   assert.equal(matchesPractice(revised, { books: [], specialties: [], years: [], departments: ['IM'] }), false);
   assert.equal(isPracticeRevisionId(original.id), false);
   assert.equal(isPracticeRevisionId(revised.id), true);

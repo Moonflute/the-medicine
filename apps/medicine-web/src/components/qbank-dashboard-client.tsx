@@ -10,7 +10,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, Bookmark, CircleAlert, RotateCcw } from "lucide-react";
 import { PracticeBankPicker } from "@/components/practice-bank-picker";
-import { EMPTY_PRACTICE_FILTERS, isPracticeRevisionId, matchesPractice, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { EMPTY_PRACTICE_FILTERS, matchesPractice, practiceSourceQuestionId, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { loadPracticeIndex } from "@/lib/practice-bank";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds } from "@/lib/qbank-store";
@@ -49,7 +49,7 @@ function activeSessionDescription(
   if (session.mockExam?.title) return session.mockExam.title;
   const groups = new Map<string, { count: number; specialties: string[] }>();
   for (const id of session.questionIds) {
-    const practice = practiceById.get(id);
+    const practice = practiceById.get(practiceSourceQuestionId(id));
     const question = questionsById.get(id);
     const kind = practice || id.startsWith("QB-") ? "실전" : question?.questionBank === "theory" ? "이론" : "임상";
     const specialty = practice?.bookDepartment ?? question?.specialty?.replace(/^\d+\s*/, "");
@@ -176,8 +176,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   useEffect(() => {
     const refresh = () => {
       const state = loadQbankState();
-      const progress = Object.values(state.progress);
-      setStats({ attempted: progress.length, wrong: state.wrongIds.length, bookmarks: state.bookmarkIds.length });
+      const distinctQuestions = (ids: string[]) => new Set(ids.map(practiceSourceQuestionId)).size;
+      setStats({ attempted: distinctQuestions(Object.keys(state.progress)), wrong: distinctQuestions(state.wrongIds), bookmarks: distinctQuestions(state.bookmarkIds) });
     };
     refresh();
     window.addEventListener(QBANK_CHANGE_EVENT, refresh);
@@ -295,7 +295,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       setPractice([]);
       setPracticeMessage("실전문제 접근 권한을 확인 중입니다.");
       try {
-        const result = await loadPracticeIndex(true);
+        const result = await loadPracticeIndex();
         if (active && request === revision) {
           const aliases = Object.fromEntries(result.questions.flatMap((question) => (question.sourceIds ?? []).map((sourceId) => [sourceId, question.id])));
           remapQbankQuestionIds(aliases);
@@ -333,7 +333,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     try { sessionStorage.setItem(draftKey, JSON.stringify({ tab, theory: selectedTheory, clinical: selectedClinical, practice: practiceFilters, count })); } catch { /* Storage unavailable. */ }
   }, [loadedDraft, draftKey, tab, selectedTheory, selectedClinical, practiceFilters, count]);
   const availablePractice = useMemo(() => practice.filter((q) => !relatedTarget || (relatedTarget.type === "disease" ? q.relatedDiseaseSlugs.some((slug) => (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).includes(slug)) : q.relatedCcSlugs.includes(relatedTarget.slug))), [practice, relatedTarget]);
-  const totalQuestions = questions.length + practice.filter(q => !isPracticeRevisionId(q.id)).length;
+  const totalQuestions = questions.length + practice.length;
   const practiceCount = availablePractice.filter((q) => matchesPractice(q, practiceFilters)).length;
   const selectedTheoryCount = availableQuestions.filter((q) => q.questionBank === "theory" && selectedTheory.includes(theorySelectionKey(q))).length;
   const selectedClinicalCount = availableQuestions.filter((q) => q.questionBank === "clinical" && selectedClinical.includes(q.specialtySlug)).length;
@@ -401,7 +401,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
         <QuestionBankPicker appearance={chatLayout ? "chat" : "default"} questionBank="clinical" title="임상 문제" items={clinicalSpecialties} selected={selectedClinical} setSelected={setSelectedClinical} showHeading={false} />
       </div>
       <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6 space-y-3">
-        {bankHeading("practice", "실전 문제", availablePractice.filter(q => !isPracticeRevisionId(q.id)).length)}
+        {bankHeading("practice", "실전 문제", availablePractice.length)}
         <PracticeBankPicker appearance={chatLayout ? "chat" : "default"} footerTarget={chatLayout ? chatPracticeFooter : undefined} topControlsTarget={tab === "practice" && loadedDraft === draftKey ? topControlsTarget : null} questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
       </div></>;
   if (chatLayout) {

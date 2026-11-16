@@ -84,7 +84,7 @@ export function QbankAnalyticsClient() {
           const specialtyNumber = Number(q.specialty.match(/^\s*(\d{1,2})\b/)?.[1]);
           const subgroup = q.bookDepartment === "내과" && specialtyNumber >= 1 && specialtyNumber <= 10 ? practiceTopicLabel(q) : undefined;
           const departmentOrder = Math.max(0, PRACTICE_DEPARTMENTS.indexOf(q.bookDepartment as typeof PRACTICE_DEPARTMENTS[number])) * 0.01 + (q.bookDepartment === "내과" ? 0 : 10.5);
-          return { id: q.id, bank: "practice", department: q.bookDepartment, order: subgroup ? specialtyNumber : departmentOrder, topic: practiceTopicLabel(q), subgroup, label: `${q.examYear ?? "연도 미상"} · ${q.bookDepartment} · ${q.id.split("-").at(-1)?.replace(/^0+/, "") || "0"}번`, exam: `${q.examYear ?? "연도 미상"}` };
+          return { id: q.id, revisionIds: q.revisionIds, bank: "practice", department: q.bookDepartment, order: subgroup ? specialtyNumber : departmentOrder, topic: practiceTopicLabel(q), subgroup, label: `${q.examYear ?? "연도 미상"} · ${q.bookDepartment} · ${q.id.split("-").at(-1)?.replace(/^0+/, "") || "0"}번`, exam: `${q.examYear ?? "연도 미상"}` };
         }));
         setPrivateMessage(result.questions.length ? "" : result.message);
       } catch { if (active && generation === current) setPrivateMessage("실전문제 통계를 불러오지 못했습니다. 로그인과 연결 상태를 확인해 주세요."); }

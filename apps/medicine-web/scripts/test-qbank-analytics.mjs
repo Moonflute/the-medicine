@@ -32,6 +32,29 @@ test('filters bank and source department; excludes unattempted from accuracy', (
   assert.equal(s.exams[0].key, 'P 2025'); assert.deepEqual(s.groups[0].retryIds, ['c']);
   assert.equal(buildQbankAnalytics(catalog, state, 'practice', '내과').attempts, 0);
 });
+test('practice versions share a progress slot without regrading recorded attempts or exams', () => {
+  const source = { ...catalog[2], revisionIds: ['rev-c'] };
+  const history = [
+    { id: 'old-exam', questionIds: ['c'], completedAt: '2026-09-01', correct: 0, total: 1 },
+    { id: 'new-exam', questionIds: ['rev-c'], completedAt: '2026-11-16', correct: 1, total: 1 },
+  ];
+  const augmented = {
+    ...state, sessions: history, wrongIds: ['c', 'rev-c'],
+    progress: {
+      c: { attempts: 1, correctAttempts: 0, lastAttemptedAt: '2026-09-01', lastCorrect: false },
+      'rev-c': { attempts: 2, correctAttempts: 1, lastAttemptedAt: '2026-11-16', lastCorrect: true },
+    },
+  };
+  const s = buildQbankAnalytics([source], augmented, 'practice', 'all', '2026-11-01');
+  assert.equal(s.selected.length, 1);
+  assert.equal(s.progressed, 1);
+  assert.equal(s.attempts, 3);
+  assert.equal(s.correct, 1);
+  assert.equal(s.latestCorrect, 1);
+  assert.deepEqual(s.wrong.map(q => q.id), ['c']);
+  assert.deepEqual(s.sessions.map(row => [row.questionIds, row.correct]), [[['rev-c'], 1], [['c'], 0]]);
+  assert.equal(augmented.progress.c.lastCorrect, false);
+});
 test('session trends are weighted and exclude sessions crossing the selected scope', () => {
   const sessions = Array.from({length: 10}, (_, i) => ({ id: String(i), completedAt: `2026-09-${String(i+1).padStart(2,'0')}`, questionIds: ['a'], correct: i < 5 ? 1 : 2, total: 2 }));
   sessions.push({id:'mixed', completedAt:'2026-09-20', questionIds:['a','c'], correct:1,total:2});

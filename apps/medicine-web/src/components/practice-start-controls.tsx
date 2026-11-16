@@ -2,37 +2,36 @@
 
 import { useEffect, useReducer, useState } from "react";
 import { QbankStartBar } from "@/components/qbank-start-bar";
-import { PRACTICE_REVISION_SERIES, selectsPracticeRevisions, type PracticeFilters } from "@/lib/practice-selection";
+import { practiceVersionIds, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { QBANK_ROUND_DEFAULT_MINUTES, QBANK_ROUND_MAX_MINUTES, readRoundLimitMinutes } from "@/lib/qbank-round-timer";
 import { isQbankProgressedInCurrentView, loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
 
-export function PracticeStartControls({ total, questionIds, filters, exam = false, round = false, label, appearance = "default", topControlsTarget }: {
-  total: number; questionIds: string[]; filters: PracticeFilters; exam?: boolean; round?: boolean; label?: string;
+export function PracticeStartControls({ total, questions, filters, exam = false, round = false, label, appearance = "default", topControlsTarget }: {
+  total: number; questions: PracticeIndex[]; filters: PracticeFilters; exam?: boolean; round?: boolean; label?: string;
   appearance?: "default" | "chat"; topControlsTarget?: HTMLDivElement | null;
 }) {
   const [count, setCount] = useState(() => String(total));
   const [unattemptedOnly, setUnattemptedOnly] = useState(false);
   const [timeLimitEnabled, setTimeLimitEnabled] = useState(false);
   const [timeLimit, setTimeLimit] = useState(String(QBANK_ROUND_DEFAULT_MINUTES));
-  const revised = selectsPracticeRevisions(filters);
   const [, refreshProgress] = useReducer((value: number) => value + 1, 0);
   useEffect(() => {
     const refresh = () => refreshProgress();
     window.addEventListener(QBANK_CHANGE_EVENT, refresh);
     return () => window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
   }, []);
-  const available = !unattemptedOnly ? total : (() => {
+  const countRemaining = () => {
     const state = loadQbankState();
     const resetAt = loadQbankProgressViewResetAt();
-    return questionIds.filter((id) => !isQbankProgressedInCurrentView(state.progress[id], resetAt)).length;
-  })();
+    return questions.filter(question => !practiceVersionIds(question).some(id => isQbankProgressedInCurrentView(state.progress[id], resetAt))).length;
+  };
+  const available = unattemptedOnly ? countRemaining() : total;
   const valid = available > 0 && /^\d+$/.test(count) && Number(count) >= 1 && Number(count) <= available;
   const timed = round && timeLimitEnabled;
   const minutes = timed ? readRoundLimitMinutes(timeLimit) : undefined;
   const canStart = valid && (!timed || minutes !== undefined);
   const href = (ordered: boolean) => {
     const params = new URLSearchParams({ mode: ordered ? "practice-book" : "selection", practiceOnly: "1", count, practiceSeries: (filters.series ?? []).join(","), practiceDepartments: (filters.departments ?? []).join(","), practiceSpecialties: filters.specialties.join(","), practiceYears: filters.years.join(","), practiceBooks: filters.books.join(",") });
-    if (revised) params.set("sessionTitle", PRACTICE_REVISION_SERIES);
     if (unattemptedOnly) params.set("practiceUnattempted", "1");
     if (exam) params.set("exam", "1");
     if (minutes !== undefined) {
@@ -42,7 +41,7 @@ export function PracticeStartControls({ total, questionIds, filters, exam = fals
     return `/review/qbank/session?${params}`;
   };
   return <QbankStartBar
-    label={revised ? "실전 개정판 시작" : label ? `${label} 실전문제 시작` : "실전문제 시작"}
+    label={label ? `${label} 실전문제 시작` : "실전문제 시작"}
     summary={`${unattemptedOnly ? "미풀이" : "선택"} ${available.toLocaleString()}문항`}
     count={count}
     max={available}
@@ -55,9 +54,7 @@ export function PracticeStartControls({ total, questionIds, filters, exam = fals
       <input type="checkbox" checked={unattemptedOnly} onChange={(event) => {
         const next = event.target.checked;
         if (next) {
-          const state = loadQbankState();
-          const resetAt = loadQbankProgressViewResetAt();
-          const remaining = questionIds.filter((id) => !isQbankProgressedInCurrentView(state.progress[id], resetAt)).length;
+          const remaining = countRemaining();
           if (remaining > 0 && Number(count) > remaining) setCount(String(remaining));
         }
         setUnattemptedOnly(next);

@@ -160,19 +160,21 @@ export function recordMockExam(result: QbankSessionResult, outcomes: Array<{ que
   saveQbankState(state);
 }
 
-export function toggleQbankBookmark(questionId: string) {
+export function toggleQbankBookmark(questionId: string, versions: string[] = []) {
   const state = loadQbankState();
-  const saved = state.bookmarkIds.includes(questionId);
+  const equivalentIds = new Set([questionId, ...versions]);
+  const saved = state.bookmarkIds.some(id => equivalentIds.has(id));
   state.bookmarkIds = saved
-    ? state.bookmarkIds.filter((id) => id !== questionId)
+    ? state.bookmarkIds.filter(id => !equivalentIds.has(id))
     : [...state.bookmarkIds, questionId];
   saveQbankState(state);
   return !saved;
 }
 
-export function removeQbankWrong(questionId: string) {
+export function removeQbankWrong(questionId: string, versions: string[] = []) {
   const state = loadQbankState();
-  state.wrongIds = state.wrongIds.filter((id) => id !== questionId);
+  const equivalentIds = new Set([questionId, ...versions]);
+  state.wrongIds = state.wrongIds.filter(id => !equivalentIds.has(id));
   saveQbankState(state);
 }
 

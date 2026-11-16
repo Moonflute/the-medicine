@@ -14,6 +14,8 @@ export type PracticeIndex = {
   relatedDrugSlugs: string[];
   relatedTheoryQuestionIds: string[];
   sourceIds?: string[];
+  /** Older-to-newer immutable content IDs for this canonical question. */
+  revisionIds?: string[];
 };
 
 export type PracticeFilters = { books: string[]; specialties: string[]; years: string[]; series?: string[]; departments?: string[]; order?: "random" | "book" };
@@ -25,8 +27,35 @@ export function isPracticeRevisionId(id: string): boolean {
   return id.startsWith("QB-REV-");
 }
 
-export function selectsPracticeRevisions(filters?: PracticeFilters): boolean {
-  return filters?.series?.includes(PRACTICE_REVISION_SERIES) ?? false;
+export function practiceSourceQuestionId(id: string): string {
+  // The revision table enforces QB-REV-YYYYMM-<part of source ID after QB->.
+  return id.replace(/^QB-REV-\d{4}(?:0[1-9]|1[0-2])-/, "QB-");
+}
+
+export function indexPracticeVersions(originals: PracticeIndex[], revisions: PracticeIndex[]): PracticeIndex[] {
+  const originalsById = new Map(originals.map(question => [question.id, question]));
+  const versions = new Map<string, Set<string>>();
+  for (const revision of revisions) {
+    const sourceId = practiceSourceQuestionId(revision.id);
+    if (revision.bookSeries !== PRACTICE_REVISION_SERIES || sourceId === revision.id || !originalsById.has(sourceId)) continue;
+    const ids = versions.get(sourceId) ?? new Set<string>();
+    ids.add(revision.id);
+    versions.set(sourceId, ids);
+  }
+  return originals.map(question => {
+    const ids = versions.get(question.id);
+    return ids ? { ...question, revisionIds: [...ids].sort() } : question;
+  });
+}
+
+export function practiceVersionIds(question: Pick<PracticeIndex, "id" | "revisionIds">): string[] {
+  return [question.id, ...(question.revisionIds ?? [])];
+}
+
+export function practiceDeliveryIds(questions: PracticeIndex[], savedIds?: ReadonlySet<string>): string[] {
+  if (!savedIds) return questions.map(question => question.revisionIds?.at(-1) ?? question.id);
+  const sourceIds = new Set(questions.map(question => question.id));
+  return [...savedIds].filter(id => sourceIds.has(practiceSourceQuestionId(id)));
 }
 
 // The source book subject owns classification; linked theory is only a topic.
@@ -186,9 +215,10 @@ export function hasPracticeSelection(filters?: PracticeFilters): boolean {
 // Empty dimensions are unrestricted; an untouched picker selects nothing.
 export function matchesPractice(question: PracticeIndex, filters: PracticeFilters): boolean {
   return hasPracticeSelection(filters)
-    && (question.bookSeries === PRACTICE_REVISION_SERIES) === selectsPracticeRevisions(filters)
+    && question.bookSeries !== PRACTICE_REVISION_SERIES
     && (!filters.books.length || filters.books.includes(question.bookId))
-    && (!filters.series?.length || filters.series.includes(question.bookSeries))
+    && (!filters.series?.length || filters.series.includes(question.bookSeries)
+      || Boolean(question.revisionIds?.length && filters.series.includes(PRACTICE_REVISION_SERIES)))
     && (!filters.departments?.length || filters.departments.includes(question.bookDepartment))
     && (!filters.specialties.length || (filters.specialties.includes(practiceTopicKey(question)) || filters.specialties.includes(question.specialtySlug)))
     && (!filters.years.length || filters.years.includes(question.examYear === null ? "unknown" : String(question.examYear)));
@@ -196,7 +226,7 @@ export function matchesPractice(question: PracticeIndex, filters: PracticeFilter
 
 // IDs encode source volume, original subject, year section, and printed number.
 export function comparePracticeOrder(a: { id: string }, b: { id: string }): number {
-  const key = (id: string) => id.replace(/-(IM|GS|OG|PE)-/, (_, subject: string) => `-${({ IM: "1", GS: "2", OG: "3", PE: "4" } as Record<string, string>)[subject]}-`).replace(/-Y(\d{4})-/, (_, year: string) => `-A${9999 - Number(year)}-`).replace(/-BANK-/, "-Z-");
+  const key = (id: string) => practiceSourceQuestionId(id).replace(/-(IM|GS|OG|PE)-/, (_, subject: string) => `-${({ IM: "1", GS: "2", OG: "3", PE: "4" } as Record<string, string>)[subject]}-`).replace(/-Y(\d{4})-/, (_, year: string) => `-A${9999 - Number(year)}-`).replace(/-BANK-/, "-Z-");
   return key(a.id).localeCompare(key(b.id), "en", { numeric: true });
 }
 

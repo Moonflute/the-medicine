@@ -1,12 +1,22 @@
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
-import { isPracticeRevisionId, type PracticeIndex } from "@/lib/practice-selection";
+import { indexPracticeVersions, isPracticeRevisionId, type PracticeIndex } from "@/lib/practice-selection";
 import type { QbankQuestion } from "@/lib/types";
 
-// Both editions stay behind the DB's approved-user policy. Never import their
-// contents into the static build or alias a revision to its original ID.
+// The index carries the original slot and its available versions. Payload
+// reads stay exact by ID, so a new release cannot regrade a saved session.
 const revisionTable = "private_qbank_revision_items";
+type RevisionPayload = QbankQuestion & { revisionReason?: string };
 
-export async function loadPracticeIndex(includeRevisions = false): Promise<{ questions: PracticeIndex[]; message: string }> {
+function practiceRevisionPayload(payload: RevisionPayload): QbankQuestion {
+  const reason = typeof payload.revisionReason === "string" ? payload.revisionReason.trim() : "";
+  return {
+    ...payload,
+    questionType: "실전",
+    explanation: reason ? `수정 이유: ${reason}\n\n${payload.explanation}` : payload.explanation,
+  };
+}
+
+export async function loadPracticeIndex(includeRevisions = true): Promise<{ questions: PracticeIndex[]; message: string }> {
   const client = getSupabaseBrowserClient();
   if (!client) return { questions: [], message: "실전문제의 비공개 계정 연결을 준비 중입니다." };
   const { data: { session } } = await client.auth.getSession();
@@ -22,11 +32,11 @@ export async function loadPracticeIndex(includeRevisions = false): Promise<{ que
     if (error.code === "PGRST202") return { questions: [], message: "실전문제의 비공개 DB 연결을 준비 중입니다. 연결 후 승인된 계정으로 이용할 수 있습니다." };
     throw new Error("실전문제를 불러오지 못했습니다. 접근 권한이나 연결 상태를 확인해주세요.");
   }
-  // A missing revision schema during a staged rollout must not affect the original bank.
-  const questions = [
-    ...((data ?? []) as PracticeIndex[]),
-    ...(revisions?.data ?? []).map(row => row.index_data as PracticeIndex),
-  ];
+  if (revisions?.error) throw new Error("최신 실전문제 목록을 불러오지 못했습니다. 연결을 확인하고 다시 시도해주세요.");
+  const questions = indexPracticeVersions(
+    (data ?? []) as PracticeIndex[],
+    (revisions?.data ?? []).map(row => row.index_data as PracticeIndex),
+  );
   return { questions, message: "실전문제는 승인된 계정에만 제공됩니다. 승인 여부를 확인해주세요." };
 }
 
@@ -43,8 +53,8 @@ export async function loadPracticeQuestions(ids: string[]): Promise<QbankQuestio
       const batch = group.slice(start, start + 100);
       if (revised) {
         const { data, error } = await client.from(revisionTable).select("payload").in("id", batch).order("id");
-        if (error) throw new Error("실전 개정판 접근 권한이나 연결 상태를 확인해주세요.");
-        result.push(...(data ?? []).map(row => row.payload as QbankQuestion));
+        if (error) throw new Error("실전문제 접근 권한이나 연결 상태를 확인해주세요.");
+        result.push(...(data ?? []).map(row => practiceRevisionPayload(row.payload as RevisionPayload)));
       } else {
         const { data, error } = await client.rpc("private_qbank_questions", { requested_ids: batch });
         if (error) throw new Error("실전문제 접근 권한이나 연결 상태를 확인해주세요.");
