@@ -137,27 +137,27 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           </nav>
         </>}
         normalHeader={<>
-            <div className="flex h-16 items-center justify-between gap-3 px-4 sm:px-6 xl:px-8">
-              <div className="flex min-w-0 items-center gap-3">
+            <div className="flex min-h-16 flex-wrap items-center justify-between gap-x-2 gap-y-1 px-3 py-2 sm:h-16 sm:flex-nowrap sm:gap-3 sm:px-6 sm:py-0 xl:px-8">
+              <div className="flex min-w-0 flex-1 basis-36 items-center gap-2 sm:basis-auto sm:gap-3">
                 {specialTheme && !isHome ? <Link href="/" className="skin-home-link" aria-label="홈으로"><ChevronLeft className="h-5 w-5" /></Link> : null}
                 <button
                   type="button"
                   onClick={() => setOpen((value) => !value)}
-                  className="app-menu-button inline-flex h-10 w-10 items-center justify-center border border-slate-300 bg-white text-slate-700 xl:hidden"
+                  className="app-menu-button inline-flex h-10 w-10 shrink-0 items-center justify-center border border-slate-300 bg-white text-slate-700 xl:hidden"
                   style={{ borderRadius: 8 }}
                   aria-label="Toggle navigation"
                 >
                   {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
                 </button>
                 <div className="min-w-0">
-                  <div className="app-header-title truncate text-lg font-semibold text-slate-950">{shellTitle ?? title}</div>
-                  {isHome && !specialTheme ? <div className="text-xs text-slate-500 xl:hidden">v {version}</div> : null}
+                  <div className="app-header-title break-words text-base font-semibold leading-tight text-slate-950 sm:truncate sm:text-lg">{shellTitle ?? title}</div>
+                  {isHome && !specialTheme ? <div className="whitespace-nowrap text-xs text-slate-500 xl:hidden">v {version}</div> : null}
                 </div>
               </div>
-              <div className="flex items-center gap-2">
-                <AuthStatus />
-                <Link href="/search" className="app-search-action secondary-action whitespace-nowrap" aria-label="검색">
-                  <Search className="h-4 w-4" />
+              <div className="ml-auto flex shrink-0 items-center gap-1.5 sm:gap-2">
+                <AuthStatus compact />
+                <Link href="/search" className="app-search-action secondary-action h-9 gap-1.5 whitespace-nowrap px-2.5 py-1.5 text-xs sm:text-[13px]" aria-label="검색">
+                  <Search className="h-3.5 w-3.5" />
                   <span>Search</span>
                 </Link>
               </div>

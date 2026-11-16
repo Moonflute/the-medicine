@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import type { Session, User } from "@supabase/supabase-js";
 import { KeyRound, LogIn, LogOut, ShieldCheck } from "lucide-react";
@@ -18,7 +18,8 @@ function displayName(user: User) {
   return typeof metadataName === "string" && metadataName.trim() ? metadataName.trim() : user.email ?? "Account";
 }
 
-export function AuthStatus() {
+export function AuthStatus({ compact = false }: { compact?: boolean }) {
+  const accountMenu = useRef<HTMLDetailsElement>(null);
   const [session, setSession] = useState<Session | null>(null);
   const user = session?.user ?? null;
   const canIssue = sessionUsesGoogleOAuth(session);
@@ -27,6 +28,22 @@ export function AuthStatus() {
   const [busy, setBusy] = useState(false);
   const [ready, setReady] = useState(false);
   const [dialog, setDialog] = useState<"sign-in" | "issue" | "qbank-access" | null>(null);
+
+  useEffect(() => {
+    const dismiss = (event: PointerEvent) => {
+      const menu = accountMenu.current;
+      if (menu?.open && event.target instanceof Node && !menu.contains(event.target)) menu.open = false;
+    };
+    const escape = (event: KeyboardEvent) => {
+      const menu = accountMenu.current;
+      if (event.key !== "Escape" || !menu?.open) return;
+      menu.open = false;
+      menu.querySelector("summary")?.focus();
+    };
+    document.addEventListener("pointerdown", dismiss);
+    document.addEventListener("keydown", escape);
+    return () => { document.removeEventListener("pointerdown", dismiss); document.removeEventListener("keydown", escape); };
+  }, []);
 
   useEffect(() => {
     const supabase = getSupabaseBrowserClient();
@@ -66,6 +83,15 @@ export function AuthStatus() {
 
   if (!isSupabaseConfigured()) return null;
 
+  const openAccountDialog = (next: "issue" | "qbank-access") => {
+    const menu = accountMenu.current;
+    if (menu) {
+      menu.open = false;
+      menu.querySelector("summary")?.focus();
+    }
+    setDialog(next);
+  };
+
   const signIn = async () => {
     const supabase = getSupabaseBrowserClient();
     if (!supabase || typeof window === "undefined") return;
@@ -92,14 +118,24 @@ export function AuthStatus() {
   };
 
   return <>
-    <div className="flex min-w-0 shrink-0 items-center gap-2">
-      <LearningSyncStatus />
+    <div className="flex min-w-0 shrink-0 items-center gap-1.5 sm:gap-2">
+      <LearningSyncStatus compact={compact} />
       {user ? <>
-        <span className="hidden max-w-36 truncate text-xs font-medium text-slate-600 sm:inline" title={user.email ?? undefined}>{displayName(user)}</span>
-        {canManageQbank ? <button type="button" onClick={() => setDialog("qbank-access")} disabled={busy} className="secondary-action shrink-0 px-2.5" title="계정 및 권한 관리" aria-label="계정 및 권한 관리"><ShieldCheck className="h-4 w-4" /></button> : null}
-        {canIssue ? <button type="button" onClick={() => setDialog("issue")} disabled={busy} className="secondary-action shrink-0 px-2.5" title="다른 기기 로그인 번호" aria-label="다른 기기 로그인 번호"><KeyRound className="h-4 w-4" /></button> : null}
-        <button type="button" onClick={() => void signOut()} disabled={busy} className="secondary-action shrink-0 px-2.5" title="Sign out"><LogOut className="h-4 w-4" /><span className="hidden sm:inline">Sign out</span></button>
-      </> : <button type="button" onClick={() => setDialog("sign-in")} disabled={busy || !ready} className="secondary-action whitespace-nowrap disabled:opacity-50" title="Google 또는 임시 번호로 로그인"><LogIn className="h-4 w-4" />Sign in</button>}
+        <span className="hidden max-w-36 truncate text-xs font-medium text-slate-600 lg:inline" title={user.email ?? undefined}>{displayName(user)}</span>
+        {canIssue || canManageQbank ? <details ref={accountMenu} className="relative shrink-0" onBlur={event => {
+          if (event.relatedTarget instanceof Node && !event.currentTarget.contains(event.relatedTarget)) event.currentTarget.open = false;
+        }}>
+          <summary className="secondary-action h-9 w-9 cursor-pointer list-none px-0 py-1.5 [&::-webkit-details-marker]:hidden" title="로그인 및 계정 관리" aria-label="로그인 및 계정 관리" aria-disabled={busy} onClick={event => { if (busy) event.preventDefault(); }}>
+            <KeyRound className="h-4 w-4" />
+          </summary>
+          <div className="absolute left-1/2 z-50 mt-2 w-56 max-w-[calc(100vw_-_2rem)] -translate-x-1/2 rounded-lg border border-slate-200 bg-white p-1.5 text-slate-700 shadow-lg">
+            <p className="truncate border-b border-slate-100 px-2.5 py-2 text-xs text-slate-500" title={user.email ?? undefined}>{user.email ?? displayName(user)}</p>
+            {canIssue ? <button type="button" onClick={() => openAccountDialog("issue")} disabled={busy} className="flex min-h-10 w-full items-center gap-2 rounded px-2.5 py-2 text-left text-sm hover:bg-slate-100 focus-visible:bg-slate-100 disabled:opacity-50"><KeyRound className="h-4 w-4 shrink-0" />다른 기기 로그인</button> : null}
+            {canManageQbank ? <button type="button" onClick={() => openAccountDialog("qbank-access")} disabled={busy} className="flex min-h-10 w-full items-center gap-2 rounded px-2.5 py-2 text-left text-sm hover:bg-slate-100 focus-visible:bg-slate-100 disabled:opacity-50"><ShieldCheck className="h-4 w-4 shrink-0" />계정 및 권한 관리</button> : null}
+          </div>
+        </details> : null}
+        <button type="button" onClick={() => void signOut()} disabled={busy} className="secondary-action h-9 shrink-0 px-2 py-1.5 sm:px-2.5" title="Sign out"><LogOut className="h-4 w-4" /><span className="hidden sm:inline">Sign out</span></button>
+      </> : <button type="button" onClick={() => setDialog("sign-in")} disabled={busy || !ready} className="secondary-action h-9 whitespace-nowrap px-2.5 py-1.5 disabled:opacity-50" title="Google 또는 임시 번호로 로그인"><LogIn className="h-4 w-4" />Sign in</button>}
     </div>
     {dialog === "sign-in" || dialog === "issue" ? <DeviceLoginDialog mode={dialog} onClose={() => setDialog(null)} onGoogleSignIn={signIn} /> : null}
     {dialog === "qbank-access" && canManageQbank ? <QbankAccessDialog onClose={() => setDialog(null)} /> : null}
