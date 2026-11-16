@@ -212,7 +212,8 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
   .pixel-battle[data-outcome="correct"] .pixel-battler--opponent { opacity:.25; }
   .pixel-dancer[data-pose="cheer"],.pixel-dancer[data-pose="hit"] { background-position-x:calc(var(--pixel-frame-size) * -7); }
 }
-.pixel-battle-panels { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); gap:16px; align-items:start; }
+/* Keep answer choices below the question at every viewport width. */
+.pixel-battle-panels { display:grid; grid-template-columns:minmax(0,1fr); gap:16px; align-items:start; }
 .pixel-dialogue,.pixel-command-window { min-width:0; border:3px double var(--pixel-ink); background:var(--surface); box-shadow:3px 3px 0 #a9b29b; }
 .pixel-dialogue-heading { display:flex; align-items:center; justify-content:space-between; gap:8px; margin:0 14px; padding:10px 0 8px; border-bottom:1px dashed var(--line); }
 .pixel-dialogue-heading strong { font-size:12px; }
@@ -334,7 +335,7 @@ html[data-theme="pixel"] .review-launcher-details { padding:12px; border-top:1px
   .pixel-battle-hud > div > span { font-size:10px; }
   .pixel-battle-party { --pixel-battle-size:48px; }
   .pixel-turn-label { font-size:9px; }
-  .pixel-battle-panels { grid-template-columns:minmax(0,1fr); gap:12px; }
+  .pixel-battle-panels { gap:12px; }
   .pixel-question-text { padding:13px; font-size:13px; line-height:1.8; }
   .pixel-dialogue-heading { margin-inline:12px; padding:8px 0; }
   .pixel-dialogue-heading strong { font-size:11px; }
