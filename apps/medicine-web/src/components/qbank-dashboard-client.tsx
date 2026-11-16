@@ -322,7 +322,11 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setSelectedTheory(stringArray(saved?.theory));
       setSelectedClinical(stringArray(saved?.clinical));
-      setPracticeFilters({ books: [], specialties: stringArray(saved?.practice?.specialties), years: stringArray(saved?.practice?.years), series: [], departments: stringArray(saved?.practice?.departments), order: saved?.practice?.order === "book" ? "book" : "random" });
+      setPracticeFilters({
+        books: [], specialties: stringArray(saved?.practice?.specialties), years: stringArray(saved?.practice?.years),
+        series: [], departments: stringArray(saved?.practice?.departments), order: saved?.practice?.order === "book" ? "book" : "random",
+        examKey: saved?.practice?.order === "book" && typeof saved.practice.examKey === "string" ? saved.practice.examKey : undefined,
+      });
       setTab(saved?.tab === "clinical" || saved?.tab === "practice" ? saved.tab : "theory");
       setCount(typeof saved?.count === "string" ? saved.count : "10");
     } catch { /* Storage is optional; in-memory selections remain available. */ }

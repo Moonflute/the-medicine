@@ -1,4 +1,5 @@
 import { activeSessionFrom, type QbankSessionContext, type QbankSessionTopic } from "./qbank-active-session";
+import { practiceFiltersFromParams, practiceMockExamLabel, selectedPracticeExamKey } from "./practice-selection";
 import type { QbankSpecialtySummary } from "./types";
 
 function values(value: string | null): string[] {
@@ -41,8 +42,10 @@ export function qbankSessionContextFromParams(params: URLSearchParams, specialti
   const requestedCount = /^\d+$/.test(params.get("count") ?? "") ? Number(params.get("count")) : undefined;
   const theoryNames = selectedSpecialtyNames(params.get("theory"), specialties);
   const clinicalNames = selectedSpecialtyNames(params.get("clinical"), specialties);
+  const examKey = selectedPracticeExamKey(practiceFiltersFromParams(params));
+  const examLabel = examKey ? practiceMockExamLabel(examKey) : undefined;
   const practiceLabels = [
-    ...values(params.get("practiceYears")).map((year) => `${year}년`),
+    ...(examLabel ? [examLabel] : values(params.get("practiceYears")).map((year) => `${year}년`)),
     ...values(params.get("practiceDepartments")),
     ...values(params.get("practiceSpecialties")),
   ];
@@ -62,8 +65,8 @@ export function qbankSessionContextFromParams(params: URLSearchParams, specialti
     else if (mode === "bookmarks") title = "북마크 문제 풀이";
     else if (mode === "unattempted") title = "미풀이 문제 풀이";
     else if (mode === "retry") title = "이번 회차 오답 다시 풀기";
-    else if (params.get("exam") === "1") title = "실전 모의고사";
-    else if (params.get("practiceOnly") === "1") title = "실전문제 풀이";
+    else if (params.get("exam") === "1") title = examLabel ? `${examLabel} 모의고사` : "실전 모의고사";
+    else if (params.get("practiceOnly") === "1") title = examLabel ? `${examLabel} 실전문제 풀이` : "실전문제 풀이";
     else if (mode === "related") title = `${params.get("targetLabel") || "선택 주제"} 관련 문제`;
     else if (theoryNames.length || clinicalNames.length || practiceLabels.length) title = "선택 범위 문제풀이";
   }

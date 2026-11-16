@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceMockExams, practiceTopicSections, isPracticeRevisionId, indexPracticeVersions, practiceDeliveryIds, practiceVersionIds, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
+import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceFiltersFromParams, practiceMockExams, practiceTopicSections, isPracticeRevisionId, indexPracticeVersions, practiceDeliveryIds, practiceVersionIds, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
 import { gradeQuestion } from '../src/lib/qbank-grading.ts';
 
 test('selecting or clearing one theory group preserves other groups', () => {
@@ -57,6 +57,27 @@ test('a normal mock exam delivers the latest content once in its original slot a
   assert.equal(matchesPractice(revised, { books: [], specialties: [], years: [], departments: ['IM'] }), false);
   assert.equal(isPracticeRevisionId(original.id), false);
   assert.equal(isPracticeRevisionId(revised.id), true);
+});
+
+test('RES 26 is a separate round without changing the common 2026 year filter', () => {
+  const existing = { id: 'existing', examYear: 2026, bookId: 'older-practice', bookSeries: '실전' };
+  const added = { ...existing, id: 'new', bookId: 'practice-res2608' };
+  const bank = [existing, added];
+  assert.deepEqual(practiceMockExams(bank), [
+    { key: '2026-2', year: 2026, label: '2026-2', count: 1 },
+    { key: '2026', year: 2026, label: '2026년', count: 1 },
+  ]);
+  const select = (filters) => bank.filter(question => matchesPractice(question, filters));
+  assert.deepEqual(select(mockExamFilters(2026)), [existing]);
+  assert.deepEqual(select(mockExamFilters(2026, '2026-2')), [added]);
+  const legacy = { practiceOnly: '1', practiceYears: '2026', mode: 'practice-book' };
+  assert.deepEqual(select(practiceFiltersFromParams(new URLSearchParams(legacy))), [existing]);
+  assert.deepEqual(select(practiceFiltersFromParams(new URLSearchParams({ ...legacy, practiceExam: '' }))), bank);
+  for (const mode of ['selection', 'practice-book']) {
+    const params = new URLSearchParams({ ...legacy, mode, practiceExam: '2026-2' });
+    assert.deepEqual(select(practiceFiltersFromParams(params)), [added]);
+  }
+  assert.deepEqual(select({ books: [], specialties: [], years: ['2026'], order: 'book' }), [existing]);
 });
  test('book order keeps original subject order and numeric question order', () => {
   const ids = ['QB-RL2019-V01-GS-0001', 'QB-RL2019-V01-IM-0010', 'QB-RL2019-V01-IM-0002'];

@@ -4,7 +4,7 @@ import { PracticeStartControls } from "@/components/practice-start-controls";
 import { useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { PracticeFilters, PracticeIndex } from "@/lib/practice-selection";
-import { matchesPractice, toggleGroup, mockExamFilters, practiceMockExams, PRACTICE_DEPARTMENTS, practiceTopicSections } from "@/lib/practice-selection";
+import { matchesPractice, toggleGroup, mockExamFilters, practiceMockExams, PRACTICE_DEPARTMENTS, practiceTopicSections, selectedPracticeExamKey } from "@/lib/practice-selection";
 
 type Dimension = "departments" | "specialties" | "years";
 const choices = [["random", "분과·조건 선택"], ["book", "회차 전체 풀기"]] as const;
@@ -25,22 +25,22 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
   const modes = <fieldset className={chat ? "chat-qbank-modes" : "flex flex-wrap gap-4"}><legend className="mb-2 font-semibold">문제 선택 방식</legend>{choices.map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={mode === value} onChange={() => onChange({ books: [], series: [], departments: [], specialties: [], years: [], order: value })} />{label}</label>)}</fieldset>;
   if (ordered) {
     const exams = practiceMockExams(questions);
-    const active = filters.years.length === 1 && !filters.books.length && !filters.specialties.length && !filters.departments?.length && !filters.series?.length
-      ? exams.find((exam) => filters.years[0] === String(exam.year)) : undefined;
+    const examKey = selectedPracticeExamKey(filters);
+    const active = exams.find((exam) => exam.key === examKey);
     return <div className={chat ? "chat-qbank-practice" : undefined}>
       {modes}
       <fieldset className="mt-5"><legend className="font-semibold text-slate-900">모의고사 선택</legend>
         <div className="mt-2 grid grid-cols-2 gap-1.5 sm:grid-cols-[repeat(auto-fill,8.25rem)]">{exams.map((exam) => {
           const checked = active === exam;
-          return <label key={exam.label} className={`flex min-h-9 min-w-0 cursor-pointer items-center gap-1.5 rounded-md border px-2 py-1 whitespace-nowrap ${checked ? "border-teal-500 bg-teal-50 text-teal-950" : "border-slate-200 hover:border-teal-300"}`} data-checked={checked}>
-            <input type="radio" name="practice-mock-exam" checked={checked} onChange={() => onChange(mockExamFilters(exam.year))} className="h-3.5 w-3.5 shrink-0 accent-teal-600" />
+          return <label key={exam.key} className={`flex min-h-9 min-w-0 cursor-pointer items-center gap-1.5 rounded-md border px-2 py-1 whitespace-nowrap ${checked ? "border-teal-500 bg-teal-50 text-teal-950" : "border-slate-200 hover:border-teal-300"}`} data-checked={checked}>
+            <input type="radio" name="practice-mock-exam" checked={checked} onChange={() => onChange(mockExamFilters(exam.year, exam.key))} className="h-3.5 w-3.5 shrink-0 accent-teal-600" />
             <span className="text-xs font-semibold sm:text-sm">{exam.label}</span>
             <span className="ml-auto text-[11px] tabular-nums text-slate-500">{exam.count.toLocaleString()}문항</span>
           </label>;
         })}</div>
       </fieldset>
       <fieldset className="mt-5 grid gap-2 sm:grid-cols-2"><legend className="mb-2 font-semibold">채점 방식</legend>{[[true, "모의고사", "자유롭게 답을 수정하고 종료 후 일괄 채점"], [false, "즉시 해설 학습", "한 문제씩 채점하고 바로 해설 확인"]].map(([value, title, detail]) => <label key={String(value)} className={chat ? "chat-qbank-option" : `flex cursor-pointer gap-3 rounded-xl border p-4 ${examMode === value ? "border-teal-500 bg-teal-50" : "border-slate-200"}`} data-checked={examMode === value}><input type="radio" name="exam-mode" checked={examMode === value} onChange={() => setExamMode(value === true)} className="accent-teal-600" /><span><span className="block text-sm font-semibold">{title}</span><span className="text-xs text-slate-500">{detail}</span></span></label>)}</fieldset>
-      <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={active?.label || "no-round"} total={active?.count ?? 0} questions={selection} filters={filters} exam={examMode} round label={active?.label} topControlsTarget={topControlsTarget} /></PickerFooter>
+      <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={active?.key || "no-round"} total={active?.count ?? 0} questions={selection} filters={filters} exam={examMode} round label={active?.label} topControlsTarget={topControlsTarget} /></PickerFooter>
     </div>;
   }
   const years = [...new Set(questions.map((q) => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));

@@ -18,7 +18,7 @@ export type PracticeIndex = {
   revisionIds?: string[];
 };
 
-export type PracticeFilters = { books: string[]; specialties: string[]; years: string[]; series?: string[]; departments?: string[]; order?: "random" | "book" };
+export type PracticeFilters = { books: string[]; specialties: string[]; years: string[]; series?: string[]; departments?: string[]; order?: "random" | "book"; examKey?: string };
 export type PracticeTopicSection = { id: string; title: string; topics: Array<[string, string]> };
 export const EMPTY_PRACTICE_FILTERS: PracticeFilters = { books: [], specialties: [], years: [] };
 export const PRACTICE_REVISION_SERIES = "실전 개정판";
@@ -192,30 +192,70 @@ export function practiceTopicSections(questions: PracticeIndex[], department: st
   return result;
 }
 
-export function mockExamFilters(year: number): PracticeFilters {
-  return { books: [], specialties: [], departments: [], series: [], years: [String(year)], order: "book" };
+const RES26_EXAM_KEY = "2026-2";
+
+function practiceMockExamKey(question: PracticeIndex): string | undefined {
+  if (question.examYear === null) return undefined;
+  if (question.examYear === 2026 && question.bookId === "practice-res2608") return RES26_EXAM_KEY;
+  return String(question.examYear);
+}
+
+export function practiceMockExamLabel(key: string): string {
+  return key === RES26_EXAM_KEY ? key : `${key}년`;
+}
+
+export function mockExamFilters(year: number, examKey = String(year)): PracticeFilters {
+  return { ...EMPTY_PRACTICE_FILTERS, years: [String(year)], order: "book", examKey };
+}
+
+export function selectedPracticeExamKey(filters: PracticeFilters): string | undefined {
+  if (filters.examKey && (filters.examKey === RES26_EXAM_KEY || /^\d{4}$/.test(filters.examKey))) return filters.examKey;
+  // Restore a year-only round selected before rounds had their own key.
+  if (filters.order !== "book" || filters.years.length !== 1 || filters.books.length || filters.specialties.length || filters.series?.length || filters.departments?.length) return undefined;
+  return /^\d{4}$/.test(filters.years[0]) ? filters.years[0] : undefined;
+}
+
+export function practiceFiltersFromParams(params: URLSearchParams): PracticeFilters {
+  const values = (name: string) => (params.get(name) ?? "").split(",").filter(Boolean);
+  const filters: PracticeFilters = {
+    books: values("practiceBooks"), specialties: values("practiceSpecialties"),
+    years: values("practiceYears"), series: values("practiceSeries"), departments: values("practiceDepartments"),
+  };
+  if (params.get("practiceOnly") !== "1") return filters;
+  const examKey = params.get("practiceExam");
+  if (examKey !== null) {
+    // An empty key marks an ordered launch from the general filters, not a round.
+    return { ...filters, examKey: examKey || undefined };
+  }
+  if (params.get("mode") === "practice-book" || params.get("exam") === "1" || params.get("practiceRound") === "1") {
+    return { ...filters, examKey: selectedPracticeExamKey({ ...filters, order: "book" }) };
+  }
+  return filters;
 }
 
 export function practiceMockExams(questions: PracticeIndex[]) {
-  const exams = new Map<string, { year: number; label: string; count: number }>();
+  const exams = new Map<string, { key: string; year: number; label: string; count: number }>();
   for (const q of questions) {
     if (q.examYear === null || q.bookSeries === PRACTICE_REVISION_SERIES) continue;
-    const key = String(q.examYear);
-    const exam = exams.get(key) ?? { year: q.examYear, label: `${q.examYear}년`, count: 0 };
+    const key = practiceMockExamKey(q);
+    if (!key) continue;
+    const exam = exams.get(key) ?? { key, year: q.examYear, label: practiceMockExamLabel(key), count: 0 };
     exam.count++;
     exams.set(key, exam);
   }
-  return [...exams.values()].sort((a, b) => b.year - a.year);
+  return [...exams.values()].sort((a, b) => b.year - a.year || b.key.localeCompare(a.key, "en", { numeric: true }));
 }
 
 export function hasPracticeSelection(filters?: PracticeFilters): boolean {
-  return Boolean(filters && (filters.books.length || filters.specialties.length || filters.years.length || filters.series?.length || filters.departments?.length));
+  return Boolean(filters && (filters.books.length || filters.specialties.length || filters.years.length || filters.series?.length || filters.departments?.length || selectedPracticeExamKey(filters)));
 }
 
 // Empty dimensions are unrestricted; an untouched picker selects nothing.
 export function matchesPractice(question: PracticeIndex, filters: PracticeFilters): boolean {
+  const examKey = selectedPracticeExamKey(filters);
   return hasPracticeSelection(filters)
     && question.bookSeries !== PRACTICE_REVISION_SERIES
+    && (!examKey || practiceMockExamKey(question) === examKey)
     && (!filters.books.length || filters.books.includes(question.bookId))
     && (!filters.series?.length || filters.series.includes(question.bookSeries)
       || Boolean(question.revisionIds?.length && filters.series.includes(PRACTICE_REVISION_SERIES)))

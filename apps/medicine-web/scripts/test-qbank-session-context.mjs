@@ -15,7 +15,7 @@ const compile = (name, deps = {}) => {
 const grading = compile("qbank-grading.ts");
 const mockExam = compile("mock-exam.ts", { "./qbank-grading": grading });
 const activeSession = compile("qbank-active-session.ts", { "./qbank-grading": grading, "./mock-exam": mockExam, "./qbank-round-timer": compile("qbank-round-timer.ts"), "./qbank-elapsed-time": compile("qbank-elapsed-time.ts"), "./qbank-skips": compile("qbank-skips.ts") });
-const { qbankSessionContextFromParams } = compile("qbank-session-context.ts", { "./qbank-active-session": activeSession });
+const { qbankSessionContextFromParams } = compile("qbank-session-context.ts", { "./qbank-active-session": activeSession, "./practice-selection": compile("practice-selection.ts") });
 const specialties = [
   { name: "01 순환기", slug: "cardiology", count: 10 },
   { name: "02 호흡기", slug: "pulmonology", count: 10 },
@@ -60,4 +60,12 @@ test("practice, wrong and bookmark sessions receive specific labels", () => {
   assert.match(practice.summary, /2025년/);
   assert.equal(qbankSessionContextFromParams(new URLSearchParams({ mode: "wrong", count: "20" }), specialties).title, "오답 다시 풀기");
   assert.equal(qbankSessionContextFromParams(new URLSearchParams({ mode: "bookmarks", count: "20" }), specialties).title, "북마크 문제 풀이");
+});
+
+test("a shuffled mock round keeps the 2026-2 label in its saved context", () => {
+  const params = new URLSearchParams({ mode: "selection", practiceOnly: "1", practiceYears: "2026", practiceExam: "2026-2", exam: "1", count: "50" });
+  const context = qbankSessionContextFromParams(params, specialties);
+  assert.equal(context.title, "2026-2 모의고사");
+  assert.equal(context.summary, "실전 2026-2 · 50문항");
+  assert.equal(context.order, "random");
 });

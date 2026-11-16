@@ -31,7 +31,7 @@ import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
-import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, practiceDeliveryIds, practiceSourceQuestionId, practiceVersionIds, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, practiceDeliveryIds, practiceFiltersFromParams, practiceMockExamLabel, practiceSourceQuestionId, practiceVersionIds, selectedPracticeExamKey, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, Copy, Info, XCircle } from "lucide-react";
@@ -370,8 +370,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     let cancelled = false;
     // Resume the original set by ID; filters such as '미풀이만' would now exclude answered questions.
     const savedQuestionIds = snapshot ? new Set(snapshot.questionIds) : undefined;
+    const practiceFilters = practiceFiltersFromParams(params);
     const request = savedQuestionIds ? loadQuestions(specialties, "all", "all", "", savedQuestionIds)
-      : loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, { series: (params.get("practiceSeries") ?? "").split(",").filter(Boolean), departments: (params.get("practiceDepartments") ?? "").split(",").filter(Boolean), books: (params.get("practiceBooks") ?? "").split(",").filter(Boolean), specialties: (params.get("practiceSpecialties") ?? "").split(",").filter(Boolean), years: (params.get("practiceYears") ?? "").split(",").filter(Boolean) }, practiceUnattemptedOnly, relatedTopicKeys);
+      : loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, practiceFilters, practiceUnattemptedOnly, relatedTopicKeys);
     void request
       .then((loaded) => {
         if (cancelled || remoteSessionApplyingRef.current || appliedRemoteSessionVersionRef.current) return;
@@ -397,7 +398,9 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         const minutes = practiceRoundLimitFromParams(params);
         startRoundClock(snapshot ? resumeRoundDeadline(snapshot, startedAt) : minutes !== undefined ? startedAt + minutes * 60_000 : undefined);
         restoreElapsedClock(snapshot ? readElapsedMs(snapshot.elapsedMs) : 0, startedAt);
-        setMockExam(snapshot ? readMockExam(snapshot.mockExam) : params.get("exam") === "1" ? { version: 1, title: `${params.get("practiceYears") || "모의고사"}년 모의고사`, startedAt: new Date(startedAt).toISOString(), drafts: {}, flaggedIds: [] } : null);
+        const examKey = selectedPracticeExamKey(practiceFilters);
+        const examTitle = examKey ? `${practiceMockExamLabel(examKey)} 모의고사` : "실전 모의고사";
+        setMockExam(snapshot ? readMockExam(snapshot.mockExam) : params.get("exam") === "1" ? { version: 1, title: examTitle, startedAt: new Date(startedAt).toISOString(), drafts: {}, flaggedIds: [] } : null);
         setOptionSessionId(sessionIdRef.current ?? "");
         setQuestions(selectedQuestions);
         setSessionContext(snapshot?.context ?? requestedContext);
