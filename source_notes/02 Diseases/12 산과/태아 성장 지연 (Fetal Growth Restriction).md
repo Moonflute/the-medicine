@@ -14,7 +14,10 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "source_reviewed_no_change"
 guideline_year: "2026"
-sources: ["Fetal Growth Restriction. Guideline of the DGGG, OEGGG and SGGG (S2k-Level, AWMF Registry No. 015/080, October 2024). | https://pubmed.ncbi.nlm.nih.gov/41534865/"]
+sources:
+- "Fetal Growth Restriction. Guideline of the DGGG, OEGGG and SGGG | https://pubmed.ncbi.nlm.nih.gov/41534865/"
+- "SMFM Consult 52 태아성장제한 진단·관리 | https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/"
+content_updated_at: "2026-11-15"
 
 ---
 분과 : [[산과]]
@@ -50,21 +53,16 @@ sources: ["Fetal Growth Restriction. Guideline of the DGGG, OEGGG and SGGG (S2k-
 
 
 ## 4. 진단 (Diagnosis)
-- 임신 주수 대비 EFW 10백분위수 미만 확인
+- 임신 주수 대비 EFW 또는 복부둘레(AC)가 10백분위수 미만인지 확인
 - 3백분위수 미만인 경우 태아 사망 위험이 가장 높음
 - 조기 발현(32주 미만)과 후기 발현(32주 이상)으로 구분하여 접근
 
 
 ## 5. 치료 (Treatment)
-- **34주 이전**: 
-- 이상 소견 없으면 정기적 추적 관찰
-- 제대 동맥 도플러에서 역류(Reversed end-diastolic flow) 확인 시 분만 고려
-- **34주 이후**:
-- 양수 과소증 또는 역류 혈류 확인 시 분만 고려
-- 1주 간격으로 태아 안녕 평가 및 성장 추적
-- **분만 중**: 태아 불안정(Fetal compromise) 징후 시 제왕절개술 시행
-- **38주 이후**: 분만 유도 고려
-- **기타**: 역류 혈류는 제왕절개술의 강력한 적응증
+- **분만 판단**: 34주라는 한 가지 기준으로 결정하지 않는다. 제대동맥 도플러, 태아 안녕, 성장 정도, 양수량, 모체 합병증을 함께 평가한다.
+- **SMFM 기준의 예**: EFW 3–10백분위수이고 제대동맥 도플러가 정상이면 38–39주, EFW 3백분위수 미만 또는 이완기 혈류가 감소하지만 소실·역류는 없으면 37주 분만을 권고한다.
+- **제대동맥 이상**: 이완기 혈류가 소실되면 33–34주, 역류하면 30–32주 분만을 권고한다. 양수과소증·태아 상태 악화나 모체 질환이 동반되면 개별적으로 앞당긴다.
+- **분만 경로**: 성장제한 자체로 제왕절개를 결정하지 않는다. 심한 도플러 이상, 태아심박동 및 산과 조건을 종합해 결정한다.
 
 
 ## 6. 예후 및 합병증 (Prognosis)

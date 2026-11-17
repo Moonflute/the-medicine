@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-15"
 aliases:
 - Self-limited epilepsy with centrotemporal spikes
 - 양성 롤란딕 뇌전증
@@ -22,7 +22,7 @@ reviewed_at: "2026-07-30"
 분과 : [[소아청소년과]]
 
 ## 1. 개요
-- **정의**: 소아기에 발생하는 가장 흔한 뇌전증 증후군으로, 중심-측두엽(centrotemporal) 영역에서 기원함
+- **정의**: 현재 명칭은 중심측두부 극파를 동반한 자기제한성 뇌전증(SeLECTS)이다. 과거에는 양성 롤란딕 뇌전증(BECTS)이라 불렀다.
 - **원인**: 유전적 요인(상염색체 우성 유전 양상 추정, KCNQ2, ELP4, GRIN2A 유전자 변이 등과 연관)
 - **역학**: 1~14세 소아(7~10세 호발), 남아에서 다소 흔함
 
@@ -54,7 +54,8 @@ reviewed_at: "2026-07-30"
 - **예후**:
   매우 좋음.
   사춘기(15~16세) 이전에 대부분 자연 소실
-- **발달**: 지능 및 발달에 미치는 영향은 거의 없으나, 발작이 잦은 경우 일시적인 학습/언어 장애가 동반될 수 있음
+- **발달**: 언어·학습 어려움이 동반될 수 있다. 새로 나타난 언어·인지 퇴행이나 비전형 경과에서는 수면 EEG를 포함하여 다른 뇌전증성 뇌병증을 평가한다.
 
+출처: [ILAE SeLECTS 임상 기준](https://www.epilepsydiagnosis.org/syndrome/ects-overview.html)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

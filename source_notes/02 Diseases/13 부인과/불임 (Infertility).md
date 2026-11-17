@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-15"
 aliases:
 - 불임
 유형:
@@ -51,6 +51,7 @@ reviewed_at: "2026-07-30"
 ## 4. 진단 (Diagnosis)
 - 병력 청취 및 신체 검진을 통한 위험 인자 평가
 - 배란 기능, 난관 개통성, 자궁 구조 및 정액 분석을 통한 다각적 평가
+- 평가를 시작할 때 양쪽의 병력과 기본 검사를 병행한다. 남성 정액검사를 초기에 시행하되 결과를 기다리느라 여성 평가를 모두 미루지 않는다. 성교 후 검사, 기초체온표, 내막 날짜 맞추기 생검은 통상 초기 난임 검사가 아니다. 복강경도 별도 적응증이 없으면 일률적으로 시행하지 않는다. [ASRM 난임 평가 합의](https://integration.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2021/)
 
 
 

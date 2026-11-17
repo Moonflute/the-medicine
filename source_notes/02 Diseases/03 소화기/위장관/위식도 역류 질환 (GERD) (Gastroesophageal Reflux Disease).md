@@ -16,7 +16,7 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 source_currency_assessment: "current_standard_retained"
-content_updated_at: '2026-07-15'
+content_updated_at: '2026-11-16'
 guideline_year: "2022"
 sources:
 - 'ACG Clinical Guideline for Diagnosis and Management of GERD | https://pubmed.ncbi.nlm.nih.gov/34807007/'
@@ -65,7 +65,7 @@ review_status: "guideline_enriched"
   H2 차단제는 야간 증상 조절에 유용할 수 있다.
   전형적 가슴쓰림·역류가 경고 증상 없이 있을 때는 PPI를 식전 일정한 시간에 적절한 기간 투여하여 반응을 확인한다. 반응이 없다고 즉시 용량만 올리기 전에 복용 시점, 순응도, 진단 자체를 재점검한다.
 - **경고 증상과 검사**: 연하곤란, 체중 감소, 위장관 출혈, 빈혈, 지속 구토 또는 바렛 식도 위험 인자가 있으면 경험적 치료만 지속하지 말고 내시경을 우선 고려한다.
-- **수술**: 약물 치료에 반응하지 않거나, 중증 식도염, 거대 열공탈장, 합병증이 있는 경우 위바닥주름술(fundoplication)을 고려한다.
+- **수술**: 지속 증상만으로 바로 수술하지 않는다. 흉통이면 심장 원인을 먼저 평가하고, 내시경·역류검사 등으로 객관적 GERD를 확인한다. 고해상도 식도내압검사로 식도이완불능증·심한 운동장애 등을 배제한 뒤, 객관적 역류가 있고 중증 식도염·큰 열공탈장 또는 불편한 역류가 지속되는 경우 위바닥주름술 등을 선별한다.
 
 ## 6. 예후 및 합병증
 - **합병증**: 식도염, 식도 궤양, 소화성 협착, 바렛 식도, 식도 선암 등이 발생할 수 있다.

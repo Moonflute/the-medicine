@@ -27,7 +27,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["Korean Thyroid Association Guidelines on the Management of Differentiated Thyroid Cancers 2024 | https://www.ijthyroid.org/journal/view.php?number=202400002", "2025 Korean Thyroid Association Clinical Management Guideline on Active Surveillance for Low-Risk Papillary Thyroid Carcinoma | https://www.e-enm.org/journal/view.php?number=2461"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-16"
 ---
 분과 : [[내분비]]
 
@@ -80,9 +80,10 @@ content_updated_at: "2026-07-16"
 ## 5. 치료
 - **갑상샘 분화암(PTC, FTC)**: 수술(엽절제술 또는 전절제술), 위험도에 따른 방사성요오드(RAI) 치료, TSH 억제 치료(레보티록신)
 - 수술 범위와 RAI 시행은 종양의 침윤·전이·재발 위험, 수술 후 병리와 환자 선호를 함께 반영한다. 저위험 분화암에는 RAI를 일률적으로 시행하지 않는다.
+- **저위험 일측 유두암**: 2025 ATA는 수술을 선택한 갑상샘 내 국한 cN0M0, 2 cm 이하에서는 대개 엽절제를 권고한다. 2 cm 초과–4 cm 이하는 반대 엽 병변·재발 위험·선호 등을 보아 엽절제 또는 전절제를 결정한다. 작은 비침습성 cN0 유두암에서 예방적 중앙경부 절제를 일률적으로 시행하지 않는다. [ATA 분화갑상샘암 지침 2025](https://doi.org/10.1177/10507256251363120)
 - **갑상샘 미세유두암(PTMC)**: 저위험군인 경우 적극적 감시(Active Surveillance) 고려 가능
 - **열소작술(RFA/MWA)**: 수술이 불가능한 재발암, 전이성 림프절, 일부 미세유두암에서 최소 침습적 치료로 활용 가능. 시술 시 '위험 삼각형(danger triangle)' 내 반회후두신경 손상 주의 및 수분박리술(hydrodissection) 등 고급 초음파 기법 활용 권고
-- **갑상샘 속질암(MTC)**: 갑상샘전절제술 + 양측 중심경부 림프절절제술, 갈색세포종 동반 시 우선 제거
+- **갑상샘 속질암(MTC)**: 전절제와 중앙경부 평가·절제를 기본으로 하며, 전이가 확인된 측경부는 치료적 구역 절제를 시행한다. 방사성요오드 치료는 적용하지 않는다. 생식세포 RET 검사와 유전상담을 검토하고, MEN2가 의심되면 수술 전 갈색세포종을 확인해 동반 시 먼저 치료한다. [ATA 갑상샘 속질암 진료지침](https://doi.org/10.1089/thy.2014.0335)
 - **갑상샘 역형성암(ATC)**: 표적치료(BRAF 변이 시), 수술, 방사선치료 등 다학제적 접근
 - **갑상샘염 치료**: 아급성(NSAID, β-blocker), 무통성(β-blocker), 급성(항생제, 배농), 리델(감압), 공통(항갑상샘제 사용 안 함)
 - **갑상샘중독주기적마비(TPP)**: β-blocker, 갑상샘중독증 치료, K+ 보충

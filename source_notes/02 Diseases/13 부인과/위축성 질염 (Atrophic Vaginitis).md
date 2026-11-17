@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-15"
 aliases:
 - atrophic vaginitis
 - genitourinary syndrome of menopause
@@ -42,9 +42,11 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 
 - **1차 관리**: 증상 완화를 위해 비호르몬성 질 보습제(정기적 사용) 및 성교 시 윤활제 사용을 우선 권장함.
-- **국소 요법**: 증상 호전이 없는 경우 저용량 국소 에스트로겐 제제를 우선 고려하며, 전신 흡수가 적어 안전하게 사용 가능함.
+- **국소 요법**: 비호르몬 치료로 호전되지 않으면 저용량 질 에스트로겐을 고려한다. 유방암 치료력이 있으면 위험·이득을 상담해 결정하고, 아로마타제 억제제 복용 중에는 담당 종양팀과 함께 결정한다.
 - **전신 증상 고려**: 안면 홍조 등 폐경 관련 전신 증상이 동반된 경우 전신 호르몬 요법을 고려할 수 있음.
-- **추적 관찰**: 치료 시작 후 증상 개선 여부를 평가하고, 비정상적 질 출혈이 발생할 경우 자궁내막 검사 등 추가적인 평가를 시행함.
+- **추적 관찰**: 치료 후 증상 개선 여부를 평가한다. 원인이 확인되지 않은 폐경 후 출혈은 위축으로 단정하지 말고, 치료 전부터 출혈 부위와 자궁내막 병변 가능성을 평가한다.
+
+참고: [ACOG 유방암 병력 환자의 폐경 비뇨생식기 증상 지침](https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2021/12/treatment-of-urogenital-symptoms-in-individuals-with-a-history-of-estrogen-dependent-breast-cancer) · [ACOG 폐경 후 출혈 초기 평가 업데이트(2026)](https://doi.org/10.1097/AOG.0000000000006275)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 증상이 점진적으로 악화되는 경향이 있음.

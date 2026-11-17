@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-10-21"
 aliases: []
 유형:
 - disease
@@ -14,15 +14,20 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "tier3_full_flash_35_enriched"
-reviewed_at: "2026-07-30"
+review_status: "guideline_enriched"
+reviewed_at: "2026-10-21"
+guideline_year: "2026"
+source_currency_assessment: "official_summary_updated"
+sources:
+- 'ACR SAA SPARTAN 2026 axial spondyloarthritis — official summary | https://rheumatology.org/axial-spondyloarthritis-guideline'
+- '2026 axSpA recommendation tables | https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt424f1e71604af245/axspa-guideline-summary-2026.pdf'
 ---
 ## 1. 개요
 - **정의**: 척추와 천장관절에 염증이 발생하여 강직을 유발하는 만성 염증성 질환으로, 척추관절염(spondyloarthritis, SpA) 중 가장 대표적인 질환.
 - **분류**:
   - 축성 척추관절염(axSpA): 주로 척추, 골반, 흉곽 침범.
     - 방사선학적 축성 척추관절염(r-axSpA): 강직성 척추염(AS)과 동일.
-    - 비방사선학적 축성 척추관절염(nr-axSpA): 영상학적 증거는 없으나 임상적으로 유사.
+    - 비방사선학적 축성 척추관절염(nr-axSpA): 단순 X선에서 확정적 천장관절염이 없는 axSpA. MRI에서 염증이 보일 수 있다.
   - 말초 척추관절염(Peripheral SpA): 말초 사지관절 침범.
 - **역학**: 20~40대 남성에서 호발(남녀비 약 3:1).
 - **병태생리**:
@@ -48,11 +53,11 @@ reviewed_at: "2026-07-30"
   (ANA, anti-CCP Ab, RF는 음성)
 - **영상검사**:
 - 골반 X-ray: 천장관절염(sacroiliitis) 확인(피질 경계 흐려짐, 미란, 경화, 관절 폐쇄).
-- 골반 MRI: X-ray 진단 어려울 시 시행(골수 부종, 초기 미란 확인).
+- 천장관절 MRI: 성인은 골반 전후면 X선으로 시작하고 불확실하면 **비조영 천장관절 MRI**를 시행한다. 소아·청소년에서 axSpA가 의심되면 비조영 MRI를 초기 검사로 권고한다(ACR 2026 공식 요약).
 - 척추 X-ray: 사각형 척추체(square vertebral body), 골극(syndesmophytes), 대나무 척추(bamboo spine).
 
 ## 4. 진단
-- **ASAS 진단기준**: 45세 미만 발병, 3개월 이상 등통증 환자 대상.
+- **ASAS 분류기준**: 45세 미만 발병, 3개월 이상 등통증 환자 대상. 연구용 분류기준을 개별 환자의 진단기준으로 그대로 대체하지 않는다.
 - 1.
   영상학적 소견(천장관절염) + 척추관절염 특징 1개 이상.
 - 2.
@@ -61,18 +66,20 @@ reviewed_at: "2026-07-30"
 - **Modified New York criteria (1984)**: 3개월 이상 지속되고 운동으로 호전되며 휴식으로 호전되지 않는 요통·강직, 시상면과 관상면의 요추 운동 제한, 흉곽 확장 제한 중 임상 항목과 영상 항목을 평가한다. 영상 항목은 양측 grade 2 이상 또는 편측 grade 3–4 천장관절염이다. 영상 항목과 임상 항목 1개 이상이 있으면 definite AS이다. 초기 X선이 정상일 수 있어 CT 또는 MRI가 도움이 되며, HLA-B27은 참고검사이지 필수 검사는 아니다.
 
 ## 5. 치료
-- NSAIDs를 1차제로 사용하고, 위·신장 부작용을 최소화하기 위해 정기적인 혈액·신기능 검사를 시행한다.
-- NSAIDs 효과가 부족하거나 지속적인 염증이 있을 경우, 류마티스 전문의에게 의뢰하여 TNF‑α 억제제, IL‑17 억제제 또는 JAK 억제제 등 생물학적 제제로 전환한다.
-- 생물학적 제제 또는 JAK 억제제 전에는 활동성 감염을 평가하고 잠복결핵 등 감염 선별 결과를 치료계획에 반영한다.
-- 말초 관절염이 동반될 경우, 설파살라진을 고려하고, 국소 스테로이드 주사는 관절통 완화에 제한적으로 사용한다.
-- 관절 가동성 유지와 척추 변형 방지를 위해 규칙적인 스트레칭·운동 요법을 시행하고, 금연을 권장한다.
-- 3~6개월 간격으로 질병 활동도, CRP/ESR, 골밀도 및 합병증(포도막염·장질환·심혈관계) 여부를 평가한다.
+- **근거 범위**: ACR/SAA/SPARTAN 2026 공식 권고 요약(정식 논문 출판 전)을 반영한다.
+- **초기 치료**: 운동·물리치료와 NSAID를 기본으로 하고 위장관·신장 위험을 평가한다. ASDAS/BASDAI, CRP/ESR와 기능을 추적한다.
+- **치료 강화**: 지속적 활성 질환에서는 TNF 억제제 또는 IL-17 억제제를 첫 생물학적 제제로 동등하게 고려하며, JAK 억제제보다 우선하는 조건부 권고다. JAK 억제제는 생물학적 제제가 아닌 표적 합성 DMARD다.
+- **동반질환별 선택**: 재발성 포도막염·염증성 장질환에서는 단클론항체 TNF 억제제를 선호한다. 건선 동반 시 IL-17 억제제를 고려하되 장질환 여부를 함께 평가한다.
+- **불충분한 반응**: 첫 표적치료 실패 시 다른 작용기전으로 전환을 고려한다. 두 계열 이상 실패하면 순응도, 잔존 염증, 비염증성 통증·동반질환을 재평가한다.
+- **순수 축성 질환**: csDMARD를 일상적으로 사용하지 않는다. 말초 관절염 동반 시 별도로 평가하며, 면역조절 치료 전 감염·잠복결핵을 선별한다.
+- **관해 후**: 안정적으로 비활성 상태가 유지되면 갑작스러운 중단보다 감량을 공동 결정한다. 포도막염 증상, 장 증상, 골절·골다공증 위험도 추적한다.
 
 ## 6. 예후 및 합병증
 - 척추 강직으로 인한 운동 범위 제한 및 척추 변형(후만증).
 - 포도막염, 염증성 장질환, 심혈관계 질환, 척추 골절 위험 증가.
 
 출처 : Merck Manual Professional (Ankylosing Spondylitis), ASAS-EULAR recommendations
+최신 권고: [ACR/SAA/SPARTAN 2026 axSpA 공식 요약](https://rheumatology.org/axial-spondyloarthritis-guideline) — 2026-06-24 공개, 2026-10-21 반영.
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성

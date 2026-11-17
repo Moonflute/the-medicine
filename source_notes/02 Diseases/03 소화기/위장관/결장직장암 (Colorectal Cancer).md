@@ -25,7 +25,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Colorectal cancer screening: An update to the American Cancer Society guideline, 2026. | https://pubmed.ncbi.nlm.nih.gov/42200680/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-16"
 ---
 ## 1. 개요
 - 역학: 남성에서 약간 더 흔하며, 95%는 선암(adenocarcinoma). 40~50세 이후 발병률 급증
@@ -66,13 +66,12 @@ content_updated_at: "2026-07-16"
 - 결장암: 수술적 절제(광범위 절제 및 림프절 곽청).
   3기(림프절 양성) 및 고위험 2기에서 보조 항암화학요법 시행
 - 직장암
-- 항문연 상방 6cm 이상: 저위전방절제술(LAR)
-- 항문연 상방 6cm 이내: 괄약근 미침윤 시 항암방사선요법(CCRT) 후 전방절제술, 괄약근 침윤 시 복회음절제술(APR)
-- 국소 진행성(T3/T4)은 수술 전 항암방사선요법(Total Neoadjuvant Therapy) 고려
+- **직장암 국소 병기와 수술**: 골반 MRI에서 종양 위치, 절제연 위협, 괄약근·거근 침윤, 벽외혈관 침범과 림프절을 평가한다. 항문연 거리 하나만으로 수술 방법을 정하지 않고 음성 절제연과 괄약근 기능을 고려한다.
+- **국소 진행 직장암**: 하부 또는 MRI상 고위험이면 방사선과 전신 항암치료를 수술 전에 계획하는 총선행치료(TNT)를 고려한다. 일부 저위험은 선행 방사선 생략을 검토할 수 있고, dMMR/MSI-H는 면역치료 가능성을 별도로 평가한다. [한국 직장암 다학제 진료지침 2.0](https://doi.org/10.3393/ac.2025.01396.0199) · [ASCO 국소 진행 직장암 지침](https://doi.org/10.1200/JCO.24.01160)
 - 전이성 대장암(Stage IV): 다학제 진료 필수.
   항암화학요법(5-FU, capecitabine, irinotecan, oxaliplatin 등) 및 표적치료제(bevacizumab, cetuximab 등) 사용.
   간 전이 시 절제 가능성 평가
-- 장폐색 시 고식적 치료: 내시경적 감압술, 대장 스텐트 삽입, 고식적 절제술
+- **악성 대장폐색**: 천공 없는 안정적 좌측 폐쇄는 내시경 스텐트를 수술 가교 또는 완화 목적으로 선별 사용할 수 있다. 응급 절제·장루와 비교해 수술 목표·천공 위험·기관 시술 경험을 고려한다. [ESGE 악성 대장폐쇄 스텐트 지침](https://pubmed.ncbi.nlm.nih.gov/32259849/)
 
 ## 6. 예후 및 합병증
 - 예후: 병기에 따라 상이(1기 5년 생존율 약 90%, 원격 전이 시 13~18%)

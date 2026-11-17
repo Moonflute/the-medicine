@@ -21,7 +21,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
+content_updated_at: '2026-11-16'
 guideline_year: "2026"
 sources: ["SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of esophageal cancer (update 2025). | https://pubmed.ncbi.nlm.nih.gov/41784706/"]
 reviewed_at: "2026-07-16"
@@ -67,7 +67,7 @@ review_status: "guideline_enriched"
 - **초기 단계(cT1 N0M0) 치료 전략**:
   - **내시경 절제술(ER)**: 고위험 인자(혈관 침범, 궤양, Grade 3, 크기 >2cm, 절제연 양성)가 없는 선암 cT1a~cT1b sm1 또는 편평상피세포암 cT1a에서 고려함. 치료 후에는 이시성 병변 예방을 위해 주변 바렛 식도(Barrett's) 점막을 소작(ablation)해야 함.
   - **수술적 절제**: 선암 T1b sm2-sm3, 고위험 인자가 있는 T1 선암, 또는 편평상피세포암 T1b 및 고위험 인자가 있는 T1 편평상피세포암의 경우 일차 수술을 권장함.
-- **진행성 질환 및 다학제 치료**: T2 이상 또는 림프절 전이 시 선행 항암화학방사선요법(CCRT) 후 식도절제술을 시행하며, 수술 후 잔존 병변이 있는 경우 보조 면역요법을 고려함.
+- **절제 가능 국소진행암**: 조직형·위치·환자의 치료 적합성에 따라 전략을 정한다. 최신 ESMO는 국소진행 식도·위식도접합부 **선암**에서 수술 전후 FLOT를 우선하며, 적합하지 않으면 수술 전 항암방사선과 절제를 고려한다. **편평상피암**은 수술 전 항암방사선 후 절제 또는 근치적 항암방사선을 위치·위험에 따라 선택할 수 있다. 선행 항암방사선과 완전절제 뒤 잔존 암이 있는 경우의 보조 면역치료는 별도 적응증으로 평가한다. [ESMO 식도암 지침 개정 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11889489/)
 
 ## 6. 예후 및 합병증
 - **예후**: 국소 질환을 제외하면 장기 생존율이 낮음.

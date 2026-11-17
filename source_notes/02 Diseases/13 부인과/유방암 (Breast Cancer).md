@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-16"
 aliases:
 - 유방암
 유형:
@@ -50,10 +50,8 @@ reviewed_at: "2026-07-30"
   고위험군(BRCA 변이, 가족력), 보형물 환자에서 유용.
   병변 범위 평가에도 사용.
 - **조직 검사**:
-  중심부 바늘 생검(Core needle biopsy)이 표준.
-  바늘 위치 결정 생검(Localization biopsy)은 위치가 애매한 군집성 미세석회화 병변에서 시행.
-  개방 생검은 비정형 관상피 증식증, 양성 유두 종양, 섬유샘종 증식 등에서 고려.
-  절제 생검은 2 cm 미만의 작은 병변에서 고려 가능.
+  의심 병변은 영상유도 중심바늘 또는 진공보조생검이 우선이다. 유방촬영에서만 보이는 의심 미세석회화는 입체정위·단층합성 유도를 사용한다.
+  위치결정 후 수술생검은 경피생검이 어렵거나, 반복했어도 불충분하거나, 영상–병리 불일치 등 선별 상황에서 고려한다. 양성 유두상 병변과 비정형 동반 병변을 같은 방식으로 관리하지 않는다.
 - **BI-RADS**: 4, 5단계는 악성 가능성이 높아 조직 검사 필수.
 
 ## 4. 진단 (Diagnosis)
@@ -80,5 +78,6 @@ reviewed_at: "2026-07-30"
 
 출처 : StatPearls (Breast Cancer, Breast Cancer Conservation Therapy); 삼성서울병원 메뉴얼
 - 보완 출처: 삼성서울병원 외과 메뉴얼
+- 영상유도 생검: [영국 국가유방검진 정밀평가 지침](https://www.gov.uk/government/publications/breast-screening-clinical-guidelines-for-screening-management/clinical-guidance-for-breast-cancer-screening-assessment)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

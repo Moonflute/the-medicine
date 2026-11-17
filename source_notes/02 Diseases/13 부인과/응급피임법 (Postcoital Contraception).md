@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-15"
 aliases:
 - postcoital contraception
 - 응급피임법
@@ -23,7 +23,7 @@ reviewed_at: "2026-07-30"
 - **원인**: 피임 실패(콘돔 파손, 경구피임약 복용 누락 등), 무방비 성관계, 성폭력 등.
 - **기전**:
   주로 배란을 억제하거나 지연시킴.
-  구리 자궁내장치(Cu-IUD)는 수정 및 착상을 방해함.
+  구리 자궁내장치(Cu-IUD)는 정자 기능을 억제하여 주로 수정을 방해함.
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 무방비 성관계 후 임신 예방 상담.
@@ -39,7 +39,7 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 
-- **시행 시기**: 성관계 후 가능한 한 빨리 시행하며, 약제별 권장 시간 내에 투여해야 피임 효과를 극대화할 수 있음.
+- **시행 시기**: 가능한 한 빨리 시행한다. 구리 자궁내장치는 일반적으로 무방비 성관계 후 5일 이내 삽입할 수 있으며 가장 효과적이다. 국내 경구 응급피임제의 허가 기준은 레보노르게스트렐 72시간, 울리프리스탈 120시간 이내다.
 - **약제 선택**: 효소 유도 약물 복용자나 비만 여성의 경우, 피임 실패율을 고려하여 구리 자궁내장치(Cu-IUD) 삽입을 우선적으로 권고함.
 - **부작용 관리**: 복용 후 오심 및 구토가 발생할 수 있으며, 투여 2~3시간 이내에 구토 시 재복용이 필요할 수 있음.
 - **추적 관찰**: 응급피임법 시행 후에도 생리가 1주일 이상 지연되거나 비정상적인 복통이 발생하면 임신 여부를 반드시 확인해야 함.
@@ -50,5 +50,6 @@ reviewed_at: "2026-07-30"
 - 생리 주기가 7일 이상 지연될 경우 임신 여부 확인 필요.
 
 출처 : StatPearls (Postcoital Contraception)
+- [질병관리청 국가건강정보포털 피임](https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6538) · [CDC 응급피임 실무 권고](https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

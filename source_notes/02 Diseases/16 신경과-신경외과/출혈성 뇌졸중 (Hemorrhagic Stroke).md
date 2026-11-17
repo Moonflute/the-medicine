@@ -12,7 +12,7 @@ CC:
 - 의식 변화
 clinical_priority: tier_2
 review_status: "guideline_enriched"
-reviewed_at: "2026-07-30"
+reviewed_at: "2026-10-21"
 guideline_year: "2026"
 sources:
   - "ESO/EANS: Spontaneous Intracerebral Haemorrhage Guideline (2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC12098356/"
@@ -21,6 +21,7 @@ sources:
   - "AHA/ASA: Aneurysmal Subarachnoid Hemorrhage (2023) | https://doi.org/10.1161/STR.0000000000000436"
   - "ACS: Best Practices in the Management of Traumatic Brain Injury (2024) | https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf"
   - "FDA: Update on the Safety of Andexxa (2025) | https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/update-safety-andexxa"
+  - "AHA/ASA: Adult Stroke Rehabilitation and Recovery (2026) | https://professional.heart.org/en/science-news/2026-guideline-for-adult-stroke-rehabilitation-and-recovery"
 document_role: "group_overview"
 group_members:
 - 경막외 출혈 (Epidural hemorrhage)
@@ -28,8 +29,8 @@ group_members:
 - 뇌내 출혈 (Intracerebral hemorrhage)
 - 만성 경막하 출혈 (Chronic subdural hematoma)
 - 지주막하 출혈 (Subarachnoid hemorrhage)
-content_updated_at: '2026-10-08'
-guideline_reviewed_at: '2026-10-08'
+content_updated_at: '2026-10-21'
+guideline_reviewed_at: '2026-10-21'
 ---
 # 출혈성 뇌졸중
 
@@ -59,6 +60,10 @@ ABC와 신경학적 상태를 확인하고 비조영 CT를 신속히 시행한�
 - 동맥류성 SAH는 조기 동맥류 폐색, 경구 nimodipine, 정상 혈량 유지와 지연성 뇌허혈 감시가 중요하다.
 - 수두증·후두와 압박·의식 악화는 배액·수술 필요성을 긴급 평가한다. 외상성 혈종은 별도의 외상·수술 기준으로 판단한다.
 
+## 회복기 재활: 2026 추가 지침
+
+성인 비외상성 출혈성 뇌졸중은 출혈·신경학적 안정성을 평가하면서 급성기부터 다학제 재활을 계획한다. AHA/ASA 2026은 충분한 과제 훈련, 기능 재평가, 우울·불안 선별, 돌봄 제공자 교육과 원격 재활을 강조한다. 세부 공통 원칙은 [[허혈성 뇌졸중 (Ischemic stroke)]]의 성인 재활 절을 참조한다. 외상성 경막외·경막하 혈종에는 외상성 뇌손상 경로를 별도로 적용한다.
+
 ## 포함 질환
 - [[경막외 출혈 (Epidural hemorrhage)]]
 - [[급성 경막하 출혈 (Acute subdural hematoma)]]
@@ -74,3 +79,4 @@ ABC와 신경학적 상태를 확인하고 비조영 CT를 신속히 시행한�
 - [AHA/ASA: Aneurysmal Subarachnoid Hemorrhage (2023)](https://doi.org/10.1161/STR.0000000000000436)
 - [ACS: Best Practices in the Management of Traumatic Brain Injury (2024)](https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf)
 - [FDA: Update on the Safety of Andexxa (2025)](https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/update-safety-andexxa)
+- [AHA/ASA: Adult Stroke Rehabilitation and Recovery (2026)](https://professional.heart.org/en/science-news/2026-guideline-for-adult-stroke-rehabilitation-and-recovery) — 2026-10-21 반영.

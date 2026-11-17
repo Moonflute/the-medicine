@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-16"
 aliases:
 - CDH
 유형:
@@ -40,7 +40,7 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 
-* **초기 안정화**: 즉각적인 비위관 삽입을 통한 위장관 감압 및 저압 환기 전략(Gentle ventilation) 적용
+* **초기 안정화**: 출생 직후 호흡곤란이 있는 선천성 횡격막 탈장은 조기 기관내삽관 후 저압 환기를 하고, 위장관 감압을 병행한다. 수술은 호흡·순환이 안정된 뒤 계획한다.
 * **환기 주의**: 안면마스크 양압 환기는 장관 팽창으로 반대편 폐를 압박할 수 있어 피한다.
 * **폐 고혈압 관리**: 폐 혈관 확장제 및 필요 시 고빈도 진동 환기(HFOV)를 통한 호흡 부전 보조
 * **수술적 치료**: 혈역학적 및 호흡기적 안정화 확인 후 지연 수술 시행
@@ -53,5 +53,7 @@ reviewed_at: "2026-07-30"
 
 출처 : StatPearls (Congenital Diaphragmatic Hernia, Anesthetic Considerations)
 출처 : 삼성서울병원 외과 메뉴얼
+
+출생 직후 처치: [캐나다 선천성 횡격막 탈장 관리 지침 개정](https://fn.bmj.com/content/109/3/239)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

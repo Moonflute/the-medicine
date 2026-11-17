@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-15"
 aliases:
 - 조기 양막 파수
 유형:
@@ -37,7 +37,7 @@ reviewed_at: "2026-07-30"
 
 ## 3. 검사 (Lab & Imaging)
 - 누출 확인: 질경 검사로 확인
-- Nitrazine test: 양수(pH 7.0~7.4)에 의한 알칼리성 반응 확인
+- Nitrazine test: 알칼리성 양수를 시사할 수 있지만 혈액·정액·질감염 등으로 위양성이 생긴다.
 - 초음파 검사: 양수 지수(AFI) 평가 및 태아 안녕 평가
 - 색소 주입 검사: 진단이 불분명할 경우 고려
 - 기타: 질액 내 태아 단백질(IGFBP-1 등) 검사
@@ -45,7 +45,7 @@ reviewed_at: "2026-07-30"
 
 ## 4. 진단 (Diagnosis)
 - 질경 검사를 통한 양수 누출 직접 확인이 표준.
-- Nitrazine test 및 현미경 검사(Ferning test)를 보조적으로 활용.
+- 검사 결과가 불확실하면 임상 소견과 보조검사를 종합한다. NICE는 의심되는 조산 전 양막파수(PPROM)에서 니트라진 검사를 권하지 않으며, 질경으로 양수 고임이 없으면 PAMG-1 또는 IGFBP-1 검사를 고려한다. [NICE NG25](https://www.nice.org.uk/guidance/ng25/chapter/Recommendations)
 
 
 ## 5. 치료

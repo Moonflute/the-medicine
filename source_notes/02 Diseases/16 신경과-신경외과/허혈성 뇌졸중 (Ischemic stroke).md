@@ -13,11 +13,12 @@ CC:
 - 시야장애
 - 어지러움
 clinical_priority: tier_1
-content_updated_at: '2026-10-07'
+content_updated_at: '2026-10-21'
 guideline_year: '2026'
 sources:
 - "AHA/ASA. Early Management of Acute Ischemic Stroke — 2026 | https://www.ahajournals.org/doi/10.1161/STR.0000000000000513"
 - "AHA/ASA. 2026 AIS Guideline: Top Things to Know — 공식 핵심 권고 | https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke/top-things-to-know"
+- "AHA/ASA. Adult Stroke Rehabilitation and Recovery — 2026 | https://professional.heart.org/en/science-news/2026-guideline-for-adult-stroke-rehabilitation-and-recovery"
 disease_family: stroke
 population: adult
 document_role: "group_overview"
@@ -36,7 +37,7 @@ group_members:
 응급의학_분류:
 - 주요 장기계 응급
 - 신경계
-guideline_reviewed_at: '2026-10-07'
+guideline_reviewed_at: '2026-10-21'
 guideline_review_status: primary_source_reviewed
 ---
 ## 1. 개요
@@ -66,6 +67,14 @@ guideline_review_status: primary_source_reviewed
 ## 6. 예후 및 합병증
 - 출혈성 변환, 뇌부종, aspiration pneumonia, DVT/PE, 부정맥, 우울·인지장애가 초기 합병증이다. 신경학적 악화·두통·구토·의식 저하는 반복 영상과 재평가가 필요한 신호다.
 - 퇴원 전 원인 분류, 재발 예방 약물, 위험인자 관리, 재활·연하·운전·복귀 계획을 다학제 stroke team과 정한다.
+
+### 성인 뇌졸중 재활·회복: AHA/ASA 2026
+- **급성기부터 계획**: 다학제 팀이 운동·감각·언어·연하·인지·일상생활 기능을 평가하고 회복 훈련과 보상 전략을 함께 설계한다. 입원–퇴원–지역사회 진료 간 목표와 정보를 인계한다.
+- **시점·강도**: 발병 24시간 이후 임상 안정성과 참여 능력에 맞춰 중등도–고강도 운동 및 충분한 과제 반복 훈련을 시행한다. 이를 첫 24시간의 일률적인 고강도 조기 보행 지시로 해석하지 않는다.
+- **반복 평가**: 표준화한 기능·활동·사회참여 지표로 경과를 기록한다. 재활 종료 후에도 기능 저하나 새 목표가 생기면 재평가하고 치료를 다시 연결한다.
+- **정신건강·돌봄**: 우울·불안을 조기에 선별하고 반복 평가한다. 돌봄 제공자의 교육·훈련과 부담 관리도 포함한다.
+- **접근성·합병증**: 통원이 어렵다면 원격 재활을 고려한다. 연하·영양, 피부 손상, 낙상·관절 구축 및 VTE 위험을 상태별로 관리한다.
+- 이 재활 지침은 성인 허혈성·출혈성 뇌졸중의 회복에 적용하며, 급성기 재관류·출혈 관리 지침을 대체하지 않는다.
 
 ## 2026 지침의 재관류 분기
 - 기능을 저해하는 증상이 있는 적격 성인은 발병/최종 정상 확인 4.5시간 이내 alteplase 또는 tenecteplase 정맥혈전용해술을 가능한 빨리 시행한다. 낮은 NIHSS만으로 실어증·시야장애·손 기능 장애 등 실제 기능장애를 배제하지 않는다.
@@ -99,3 +108,4 @@ guideline_review_status: primary_source_reviewed
 
 - [AHA/ASA. Early Management of Acute Ischemic Stroke — 2026](https://www.ahajournals.org/doi/10.1161/STR.0000000000000513)
 - [AHA/ASA. 2026 AIS Guideline: Top Things to Know — 공식 핵심 권고](https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke/top-things-to-know)
+- [AHA/ASA. Adult Stroke Rehabilitation and Recovery — 2026](https://professional.heart.org/en/science-news/2026-guideline-for-adult-stroke-rehabilitation-and-recovery) — 2026-08-27 공개, 2026-10-21 반영.

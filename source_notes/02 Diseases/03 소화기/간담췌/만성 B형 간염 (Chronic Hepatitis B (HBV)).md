@@ -19,7 +19,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain. | https://pubmed.ncbi.nlm.nih.gov/41825518/"]
 
-content_updated_at: "2026-10-08"
+content_updated_at: "2026-11-15"
 ---
 ## 1. 개요
 - HBeAg 음성 간염에는 precore 또는 basal core promoter(BCP) 영역의 변이가 관여할 수 있다. Precore 변이는 HBeAg 생성을 소실시키고 BCP 변이는 생성을 감소시킬 수 있어, HBeAg이 낮거나 음성이어도 HBV 복제와 간 손상이 지속될 수 있다. 두 변이를 모두 HBeAg 생성을 완전히 없애는 동일한 기전으로 설명하지 않는다.
@@ -81,6 +81,7 @@ content_updated_at: "2026-10-08"
 - **감별 진단**: C형 간염, 자가면역 간염, 비알코올성 지방간염, 알코올성 간 질환.
 
 ## 5. 치료
+- **주산기 감염 예방**: HBsAg 양성 산모의 신생아는 출생 직후 가급적 12시간 이내에 HBIG와 B형간염 백신을 서로 다른 부위에 투여받고, 이후 접종과 항원·항체 추적을 완료한다. 산모의 HBV DNA가 200,000 IU/mL 이상이면 전파 감소 목적의 항바이러스 예방을 별도로 평가한다. 이는 신생아 예방접종을 대체하지 않는다. [대한간학회 임산부 권고](https://www.kasl.org/guideline/hbv/hbv_6.html) · [질병관리청 주산기감염 예방사업](https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=133&menuLv=1)
 - **간이식 후 재발 예방**: HBV 관련 간이식 후에는 강력한 경구 핵산유사체를 기반으로 재발 예방을 지속한다. HBIG 병합 여부와 기간은 이식 전 HBV DNA, 간암·HDV/HIV 동반, 복약 이행과 재발 위험에 따라 이식팀에서 결정한다. 모든 환자에게 HBIG와 경구약의 평생 병합이 필요하다고 일률적으로 설명하지 않는다. 저위험 환자에서 HBIG를 종료하더라도 경구약과 HBsAg·HBV DNA 감시는 지속한다.
 - **치료 종료 판단**: HBeAg 소실만으로 종료하지 않는다. EASL 2025는 진행성 간질환이 없는 HBeAg 양성 환자에서 확인된 HBeAg/anti-HBe 혈청전환과 HBV DNA 불검출 후 최소 12개월을 지나고 면밀한 추적이 보장되는 경우에 중단을 고려하도록 한다. 비대상성 간경변에서는 임의로 경구 치료를 중단하지 않는다. 중단을 선택하면 ALT·HBV DNA의 추적 일정과 재치료 조건을 미리 정하고, 반응 유지 여부와 HBsAg 재양전을 확인한다.
 

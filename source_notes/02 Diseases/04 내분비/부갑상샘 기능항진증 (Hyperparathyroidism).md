@@ -15,9 +15,9 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2021"
-sources: ["Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8550227/"]
+sources: ["Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop | https://pubmed.ncbi.nlm.nih.gov/36245251/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-16"
 ---
 분과 : [[내분비]]
 
@@ -49,11 +49,12 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료 (Treatment)
 - 수술(부갑상샘 절제술)이 일차성 기능항진증의 근본적인 치료법이다.
-- **수술 적응증 (일차성)**
+- **수술 적응증 (일차성, 제5차 국제워크숍)**: 아래 중 하나면 수술을 권고한다.
   - 유증상 환자
   - 혈청 칼슘 > 정상 상한치 + 1.0 mg/dL
-  - 신기능 저하(eGFR < 60 mL/min)
-  - 골밀도 T-score < -2.5 또는 척추 골절
+  - 신기능 저하(eGFR 또는 크레아티닌 청소율 <60 mL/min), 신결석 또는 신석회화
+  - 24시간 요칼슘 **여성 >250 mg/일, 남성 >300 mg/일**
+  - 골밀도 T-score **≤−2.5** 또는 영상으로 확인한 척추 골절
   - 50세 미만
 - **이차성 및 삼차성 기능항진증 치료**
   - 말기 신질환 환자에서 수술적 절제(SR)의 대안으로 초음파 유도하 열 절제술(TA)이 최소 침습적이고 안전한 치료법으로 고려될 수 있다.

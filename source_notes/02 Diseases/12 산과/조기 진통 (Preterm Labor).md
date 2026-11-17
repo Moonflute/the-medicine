@@ -20,7 +20,7 @@ review_status: "guideline_enriched"
 guideline_year: "2023"
 sources: ["Management of preterm labor: Clinical practice guideline and recommendation by the WAPM-World Association of Perinatal Medicine and the PMF-Perinatal Medicine Foundation. | https://pubmed.ncbi.nlm.nih.gov/37913556/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-15"
 ---
 분과 : [[산과]]
 
@@ -46,7 +46,7 @@ content_updated_at: "2026-07-16"
 - **일반 원칙**: 임신 주수에 따른 개별화된 관리 및 신생아 합병증 예방을 목표로 함.
 - **주요 중재**:
   - **안테나탈 코르티코스테로이드**: 태아 폐 성숙 촉진을 위해 투여.
-  - **자궁 수축 억제제(Tocolytics)**: 분만 지연을 통해 스테로이드 투여 및 전원 등 적절한 처치를 위한 시간을 확보함.
+  - **자궁 수축 억제제(Tocolytics)**: 분만 지연을 통해 산전 스테로이드 투여와 전원에 필요한 시간을 확보하는 보조 수단이다. 출혈·감염 또는 지속적인 태아 이상 등 즉시 분만이 필요한 상황에는 사용하지 않는다. WHO는 적합한 임신 24주 0일~33주 6일에서 니페디핀을 우선 제안한다. 국내에서 리토드린을 선택할 경우 허가 기준, 모체 심혈관·폐부종 위험 및 투여 기간 제한을 확인한다.
   - **마그네슘 설페이트**: 태아 신경 보호 목적으로 사용.
   - **GBS 예방적 항생제**: 감염 예방을 위해 투여.
 - **관리**: 불필요하거나 과도한 개입을 피하고, 임신 주수와 경부 상태를 종합적으로 고려하여 다학제적 접근을 시행함.
@@ -58,3 +58,5 @@ content_updated_at: "2026-07-16"
 Last updated :
 2026-05-10 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+참고: [WHO 조기진통 수축억제 지침(2022)](https://www.ncbi.nlm.nih.gov/books/NBK585030/) · [식품의약품안전처 리토드린 주사 허가사항](https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetail?itemSeq=198200072)

@@ -21,12 +21,12 @@ review_status: "guideline_enriched"
 guideline_year: "2022"
 sources: ["[Reprint of: Severe pre-eclampsia: guidelines for clinical practice from the French Society of anesthesiology and intensive care (SFAR) and the French College of gynaecologists and obstetricians (CNGOF)]. | https://pubmed.ncbi.nlm.nih.gov/34781016/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-15"
 ---
 분과 : [[산과]]
 
 ## 1. 개요
-- **정의**: 임신 중 고혈압성 질환과 동반된 160/110 mmHg 이상의 혈압, 또는 중증 전자간증의 진단 기준(단백뇨, 혈소판 감소, 간기능 이상, 신기능 저하, 폐부종, 뇌신경 증상 등)을 만족하는 상태.
+- **정의**: 임신 중 새 고혈압에서 수축기 ≥160 또는 이완기 ≥110 mmHg의 중증 범위 혈압, 또는 아래의 중증 장기 소견이 있는 상태. 단백뇨의 유무나 양만으로 중증도를 정하지 않는다.
 
 - **원인**: 태반의 허혈 및 이로 인한 독성 물질 방출, 내피세포 기능 장애, 면역학적 요인 등이 복합적으로 작용.
 
@@ -47,7 +47,7 @@ content_updated_at: "2026-07-16"
 - **주의사항**: 중증 전자간증 환자의 모성 및 신생아 이환율을 최소화하기 위해 다학제적 접근(산과, 마취과, 중환자 의학)이 권고됨.
 
 ## 4. 진단 (Diagnosis)
-- 160/110 mmHg 이상의 혈압과 함께 다음 중 하나 이상 동반 시:
+- 중증 범위 혈압 또는 다음 중증 장기 소견 중 하나 이상이 있으면 중증 소견을 동반한 전자간증으로 평가한다. 장기 소견에 중증 범위 혈압이 반드시 같이 있어야 하는 것은 아니다.
 - 혈소판 감소증 (<100,000/μL)
 - 간 효소 수치 상승 (정상 상한치의 2배 이상)
 - 신부전 (Cr >1.1 mg/dL 또는 2배 상승)
@@ -57,15 +57,14 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료 (Treatment)
 - **혈압 조절**: 
-  - 목표: 160/110 mmHg 미만 유지.
-  - 약물: Hydralazine, Labetalol, Nifedipine.
+  - 중증 고혈압이 지속되면 확인 뒤 가능한 빨리, 30–60분 안에 항고혈압 치료를 시작한다. IV labetalol, IV hydralazine 또는 속방 경구 nifedipine이 선택지다.
   - 금기: ACEi, ARB.
 - **경련 예방**: 
-  - Magnesium sulfate (MgSO4) 투여.
+  - Magnesium sulfate (MgSO4)를 경련 예방 목적으로 투여하며 독성을 감시한다. 항고혈압제를 대신하지 않으며, 투여 순서를 이유로 혈압 치료를 늦추지 않는다.
   - 중독 시: Calcium gluconate 정맥 주사.
 - **분만 시점**: 
-  - 34주 이후 또는 태아/산모 상태 악화 시 즉시 분만 고려.
-  - 34주 이전: 스테로이드 투여 후 안정화 시도.
+  - ACOG는 34주 이상이면 산모 안정화 후 분만을 권고하며, 폐성숙제 투여를 완료하려고 적응증이 있는 분만을 늦추지 않는다.
+  - 34주 미만이며 산모·태아가 안정적일 때만 전문센터에서 기대요법을 검토한다. 조절되지 않는 중증 고혈압, 장기 기능 악화 또는 지속적인 태아 이상이 있으면 주수보다 산모 안정화와 분만을 우선한다.
 - **관리 원칙**: 전문가 합의에 기반하여 모성 및 신생아 이환율을 각각 평가하고 관리할 것을 권고함.
 
 ## 6. 예후 및 합병증 (Prognosis)
@@ -73,5 +72,6 @@ content_updated_at: "2026-07-16"
 
 
 출처 : StatPearls (Eclampsia, Preeclampsia)
+- [ACOG 임신성 고혈압과 전자간증 Practice Bulletin 222](https://pubmed.ncbi.nlm.nih.gov/32443079/) · [급성 중증 고혈압 응급치료](https://pubmed.ncbi.nlm.nih.gov/30681541/)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

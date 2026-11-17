@@ -20,7 +20,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["Steroid-sensitive nephrotic syndrome in children: Korean Society of Pediatric Nephrology clinical practice recommendations (2025) | https://www.krcp-ksn.org/journal/view.php?number=130", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-15"
 ---
 ## 1. 개요
 - **정의**: 사구체 질환으로 인해 1일 3g 이상의 단백뇨, 저알부민혈증(<2.5g/dL), 부종을 동반하는 질환군.
@@ -45,7 +45,7 @@ content_updated_at: "2026-07-16"
 - **소변 검사**: 단백뇨(Spot urine protein/creatinine ratio ≥ 3 또는 24시간 소변 단백 ≥ 3g/일), 지방뇨(Maltese cross pattern).
 - **진단 및 생검**:
   - 성인 사구체 질환은 확진을 위해 신장생검 시행.
-  - 12세 미만 소아는 임상적 추정 후 스테로이드 반응 확인을 우선함.
+  - 전형적인 소아 신증후군은 초진 때 일률적으로 생검하지 않고 스테로이드 반응을 본다. 육안혈뇨, 저보체, 지속 고혈압, 저혈량으로 설명되지 않는 급성 신손상 등 비전형 소견이나 스테로이드 저항성이 있으면 신장생검·유전검사를 평가한다.
   - **생검 생략 고려**: PLA2R-Ab 양성인 일차성 막사구체신염(MGN), 전형적인 당뇨병성 신장병증(당뇨망막병증 동반, 긴 유병기간 등).
 
 ## 4. 진단 및 분류
@@ -67,6 +67,7 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료
 - **원인 질환 치료**: 각 질환별 면역억제제 및 기저질환 조절.
+- **소아 부종·전해질**: 가벼운 부종이라고 물을 일률 제한하거나, prednisolone 투여만으로 예방적 칼륨을 처방하지 않는다. 혈관내 용적과 혈압·전해질, 다른 약제를 확인해 결정한다.
 - **단백뇨 조절**: ACEi, ARB 사용(혈압 및 사구체 내압 감소).
 - **부종 조절**: 염분 제한(<2g/일), Loop diuretics 사용. 반응 없을 시 IV 알부민 투여 후 이뇨제 병용 고려.
 - **합병증 예방**: 고지혈증 치료(statin), 혈전증 예방(항응고제는 혈전 발생 시 우선 고려), 폐렴구균 백신 접종.
@@ -77,13 +78,14 @@ content_updated_at: "2026-07-16"
 - **신정맥 혈전증**: 혈전증 위험 증가로 인한 발생.
 - **급성 저혈량 위기**:
   혈관 내 수분 이동으로 인한 유효순환혈량 감소.
-  창백, 빈맥, 저혈압 시 알부민 투여.
+  부종이 남아 있어도 빈맥·복통·핍뇨 및 말초관류 저하가 나타날 수 있다. IPNA는 쇼크가 없는 저혈량에는 20–25% 알부민을, 저혈량 쇼크·저혈압에는 4–5% 알부민을 사용한 신속한 소생을 제시한다. 저혈량 교정 전 이뇨제를 투여하지 않는다.
 - **감염**: 복막염 등 면역 저하에 따른 감염 취약성.
 - **기타**: 급성 신손상(AKI) 및 만성 신부전으로의 진행.
 - **갑작스러운 신기능 저하**: 원래 사구체 질환의 진행으로만 판단하지 않고, 이뇨제 관련 저혈량, 약물 유발 간질신염, 신정맥 혈전증, 감염, 요로 폐쇄 및 새로 동반된 급속 진행 사구체염을 평가한다.
 
 출처 : Merck Manual Professional (Overview of Nephrotic Syndrome)
 추가 출처: 삼성서울병원 메뉴얼
+소아 지침: [KDIGO 2025](https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children.pdf) · [IPNA 스테로이드 반응성 신증후군](https://theipna.org/wp-content/uploads/2023/01/IPNA.GL_.SSNS_.PedNeph22.pdf)
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-11 : 본문 갱신 (processed)
