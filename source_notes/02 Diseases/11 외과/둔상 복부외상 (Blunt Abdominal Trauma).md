@@ -43,6 +43,7 @@ content_updated_at: "2026-07-16"
 ## 3. 검사 (Lab & Imaging)
 - **초기 평가**: ABCs(기도, 호흡, 순환) 확보 및 경추 보호.
 - **혈역학적 불안정 시**: EFAST(Extended Focused Assessment with Sonography for Trauma) 또는 진단적 복강 세척술(DPL)을 통해 복강 내 출혈 확인.
+- **FAST의 한계**: 혈역학적으로 불안정한 복부 둔상에서 FAST는 소생과 병행해 침상에서 복강 내 자유액을 확인하는 검사다. 음성이어도 복강 내 또는 후복막 출혈을 배제하지 않는다. 쇼크가 지속되면 다른 출혈원을 빠르게 살피며 반복 검사나 CT 때문에 필요한 지혈을 늦추지 않는다. [NICE 주요 외상 영상·출혈 관리](https://www.nice.org.uk/guidance/ng39/chapter/recommendations)
 - **혈역학적 안정 시**: 복부 및 골반 CT가 고형 장기 손상 진단을 위한 표준 검사.
 
 ## 4. 진단 (Diagnosis)
