@@ -142,21 +142,37 @@ html[data-study-flow-button="hidden"] .study-flow-toggle { display: none; }
 .study-flow-map-editor { margin-top: 12px; border-top: 1px solid var(--flow-line); padding-top: 8px; }
 .study-flow-map-editor > p { margin: 0 0 4px; color: var(--flow-muted); font-size: 11px; }
 .study-reference-body { padding: 12px 16px 16px; }
-.study-reference-content { --study-reference-value-width: 25%; width: min(100%, 32rem); margin-inline: auto; }
+.study-reference-content {
+  --study-reference-value-width: 25%;
+  width: min(100%, 32rem);
+  margin-inline: auto;
+  container: study-reference / inline-size;
+  font-size: .875rem;
+}
 .study-reference-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
 .study-reference-toolbar p, .study-reference-source { margin: 0; color: var(--flow-muted); font-size: 11px; }
 .study-reference-toolbar button { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
 .study-reference-toolbar button, .study-reference-actions button, .study-reference-loading button { padding: 4px 8px; border: 1px solid var(--flow-line); border-radius: var(--flow-control-radius); background: var(--surface); color: var(--foreground); font-size: 12px; }
 .study-reference-toolbar button:hover, .study-reference-actions button:hover, .study-reference-loading button:hover { background: var(--flow-hover); }
-.study-reference-table { width: min(100%, 15rem); table-layout: fixed; border-collapse: collapse; }
+.study-reference-groups {
+  display: grid;
+  grid-template-columns: minmax(0, 15rem);
+  align-items: start;
+  gap: .45rem 1rem;
+}
+.study-reference-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-block-end: 1px solid var(--flow-line);
+  font-variant-numeric: tabular-nums;
+}
 .study-reference-value-col { width: var(--study-reference-value-width); }
-.study-reference-group th { padding: 6px 4px 3px; color: var(--flow-muted); font-size: 12px; font-weight: 700; text-align: left; }
-.study-reference-table tbody + tbody .study-reference-group th { border-top: 1px solid var(--flow-line); padding-top: 10px; }
-.study-reference-table tbody:not(:last-child) .study-reference-row:last-child > * { padding-bottom: 7px; }
+.study-reference-group { padding: 6px 4px 3px; color: var(--flow-muted); font-size: .75rem; font-weight: 700; text-align: left; overflow-wrap: anywhere; }
 .study-reference-row th { padding: 1px 4px; font-weight: 500; text-align: left; overflow-wrap: anywhere; }
 .study-reference-row th button { display: block; width: 100%; padding: 3px 0; text-align: left; }
 .study-reference-row th button:hover { color: var(--flow-accent); text-decoration: underline; }
-.study-reference-row td { padding: 3px 4px; text-align: right; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.study-reference-row td { padding: 3px 4px; text-align: right; overflow-wrap: anywhere; }
 .study-reference-form { display: grid; gap: 8px; padding: 8px; margin: 4px 0 8px; border: 1px solid var(--flow-selected-line); border-radius: var(--flow-row-radius); background: var(--flow-selected); }
 .study-reference-fields { display: grid; grid-template-columns: minmax(0, 1fr) repeat(2, var(--study-reference-value-width)); align-items: center; gap: 5px; }
 .study-reference-fields strong { padding-inline: 4px; overflow-wrap: anywhere; }
@@ -170,6 +186,20 @@ html[data-study-flow-button="hidden"] .study-flow-toggle { display: none; }
 .study-reference-actions .study-reference-save:hover { background: color-mix(in srgb, var(--flow-active-text) 8%, var(--flow-active)); }
 .study-reference-error { margin: 0 0 4px; color: var(--flow-danger); font-size: 12px; }
 .study-reference-loading { display: grid; place-content: center; justify-items: center; gap: 8px; color: var(--flow-muted); font-size: 13px; }
+
+@container study-reference (min-width: 20.5rem) {
+  .study-reference-groups {
+    grid-template-columns: repeat(2, minmax(0, 15rem));
+    justify-content: center;
+    column-gap: clamp(.625rem, 3cqi, 1rem);
+  }
+}
+@container study-reference (20.5rem <= width < 26rem) {
+  .study-reference-value-col { width: 5.7ch; }
+  .study-reference-row td { padding-inline: 2px; }
+  .study-reference-table .study-reference-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .study-reference-table .study-reference-fields > :first-child { grid-column: 1 / -1; }
+}
 
 html:is([data-theme="dark"], [data-theme="terminal"], [data-theme="editor"], [data-theme="chat"][data-chat-skin="midnight"]) .study-flow-host {
   --flow-warning: #f5c47d;
@@ -210,10 +240,8 @@ html[data-theme="sheet"] .study-flow-host { --flow-panel-radius: 0px; --flow-row
 html[data-theme="sheet"] .study-flow-panel { border-top: 3px solid var(--flow-accent); }
 html[data-theme="sheet"] .study-flow-settings { background: var(--flow-chrome); }
 html[data-theme="sheet"] .study-flow-row:not(.is-selected) { border-color: var(--flow-line); }
-html[data-theme="sheet"] .study-reference-group th { background: var(--flow-chrome); color: var(--flow-accent); }
-html[data-theme="sheet"] .study-reference-table .study-reference-group th { padding: 6px 4px; }
-html[data-theme="sheet"] .study-reference-table :is(.study-reference-group, .study-reference-row) > * { border: 1px solid var(--flow-line); }
-html[data-theme="sheet"] .study-reference-table tbody:not(:last-child) .study-reference-row:last-child > * { padding-bottom: 3px; }
+html[data-theme="sheet"] .study-reference-group { padding: 6px 4px; background: var(--flow-chrome); color: var(--flow-accent); }
+html[data-theme="sheet"] .study-reference-row > * { border: 1px solid var(--flow-line); }
 html[data-theme="sheet"] .study-flow-map {
   background-image: linear-gradient(to right, var(--flow-line) 1px, transparent 1px), linear-gradient(to bottom, var(--flow-line) 1px, transparent 1px);
   background-size: 24px 24px;
@@ -229,7 +257,7 @@ html[data-theme="terminal"] .study-flow-host {
   font-family: ui-monospace, "Cascadia Code", Consolas, "Malgun Gothic", monospace;
 }
 html[data-theme="terminal"] .study-flow-panel { border-color: var(--flow-map-guide); }
-html[data-theme="terminal"] :is(.study-flow-header, .study-flow-settings, .study-flow-footer, .study-reference-group th) { border-block-style: dashed; }
+html[data-theme="terminal"] :is(.study-flow-header, .study-flow-settings, .study-flow-footer, .study-reference-table) { border-block-style: dashed; }
 html[data-theme="terminal"] .study-flow-tabs { box-shadow: inset 0 0 0 1px var(--flow-line); }
 
 html[data-theme="editor"] .study-flow-host { --flow-header: var(--color-slate-100); }
@@ -296,11 +324,11 @@ html[data-theme="notebook"] .study-flow-row textarea {
   background-image: repeating-linear-gradient(transparent 0 calc(1.6em - 1px), var(--notebook-rule) calc(1.6em - 1px) 1.6em);
   background-origin: content-box;
 }
-html[data-theme="notebook"] .study-reference-group th { color: var(--notebook-blue); }
+html[data-theme="notebook"] .study-reference-group { color: var(--notebook-blue); }
 
 @media (min-width: 768px) {
   .study-flow-drawer { width: calc(100vw - 24px); }
-  .study-reference-table { margin-inline: auto; }
+  .study-reference-groups { justify-content: center; }
 }
 @media (min-width: 900px) {
   html:is([data-theme="mail"], [data-theme="social"], [data-theme="editor"]) .study-flow-drawer { left: 232px; width: auto; }
@@ -325,6 +353,7 @@ html[data-theme="notebook"] .study-reference-group th { color: var(--notebook-bl
   .study-flow-settings { padding: 8px 10px; }
   .study-flow-body { padding: 7px; }
   .study-flow-body.study-reference-body { padding: 9px 12px 12px; }
+  html:is([data-theme="chat"], [data-theme="messenger"]) .study-reference-content { padding-inline: 8px; }
   .study-reference-form :is(input, select) { font-size: 16px; }
   .study-flow-grip { display: none; }
   .study-flow-links { margin-left: 73px; }

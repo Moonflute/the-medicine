@@ -161,9 +161,7 @@ export function StudyReferenceTab({ account }: { account: string | null }) {
       </div>
       {saved === null ? <p className="study-reference-error" role="alert">기기에 저장된 기준치를 읽지 못했습니다.</p> : null}
       {draft?.adding ? editor : null}
-      <table className="study-reference-table" aria-label="성인 학습용 기준치">
-        <colgroup><col /><col className="study-reference-value-col" /><col className="study-reference-value-col" /></colgroup>
-        <thead className="sr-only"><tr><th scope="col">항목명</th><th scope="col">하한</th><th scope="col">상한</th></tr></thead>
+      <div className="study-reference-groups">
         {groups.map(group => {
           const rows = group.rows.map(row => ({ entry: savedById.get(row.id) ?? row, unit: row.unit }));
           for (const row of saved ?? []) if (row.group === group.id && !baseIds.has(row.id)) rows.push({ entry: row, unit: "" });
@@ -171,22 +169,26 @@ export function StudyReferenceTab({ account }: { account: string | null }) {
           if (draft && !draft.adding && draft.group === group.id && !rows.some(row => row.entry.id === draft.id)) {
             rows.push({ entry: draft, unit: "" });
           }
-          return <tbody key={group.id}>
-            <tr className="study-reference-group"><th scope="rowgroup" colSpan={3}>{group.label}</th></tr>
-            {rows.map(({ entry, unit }) => editingId === entry.id && !draft?.adding ?
-              <tr key={entry.id}><td colSpan={3}>{editor}</td></tr> :
-              <tr key={entry.id} className="study-reference-row">
-                <th scope="row">{draft || saved === null ? entry.label : <button
-                  id={"study-reference-" + entry.id} type="button"
-                  title={unit ? `${unit} · 단위·출처 및 편집` : "편집"}
-                  aria-label={entry.label + " 편집" + (unit ? ", " + unit : "")}
-                  onClick={() => setDraft({ ...entry, group: group.id, adding: false })}
-                >{entry.label}</button>}</th>
-                <td>{entry.low}</td><td>{entry.high}</td>
-              </tr>)}
-          </tbody>;
+          return <table key={group.id} className="study-reference-table">
+            <caption className="study-reference-group">{group.label}</caption>
+            <colgroup><col /><col className="study-reference-value-col" /><col className="study-reference-value-col" /></colgroup>
+            <thead className="sr-only"><tr><th scope="col">항목명</th><th scope="col">하한</th><th scope="col">상한</th></tr></thead>
+            <tbody>
+              {rows.map(({ entry, unit }) => editingId === entry.id && !draft?.adding ?
+                <tr key={entry.id}><td colSpan={3}>{editor}</td></tr> :
+                <tr key={entry.id} className="study-reference-row">
+                  <th scope="row">{draft || saved === null ? entry.label : <button
+                    id={"study-reference-" + entry.id} type="button"
+                    title={unit ? `${unit} · 단위·출처 및 편집` : "편집"}
+                    aria-label={entry.label + " 편집" + (unit ? ", " + unit : "")}
+                    onClick={() => setDraft({ ...entry, group: group.id, adding: false })}
+                  >{entry.label}</button>}</th>
+                  <td>{entry.low}</td><td>{entry.high}</td>
+                </tr>)}
+            </tbody>
+          </table>;
         })}
-      </table>
+      </div>
     </div>
   </div>;
 }
