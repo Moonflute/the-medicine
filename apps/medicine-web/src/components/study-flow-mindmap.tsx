@@ -25,7 +25,7 @@ export function StudyFlowMindmap({ rows, title, selectedId, onNavigate }: { rows
               const start = from.x + 190;
               const end = to.x;
               const middle = (start + end) / 2;
-              return <path key={row.item.id} d={"M " + start + " " + (from.y + 31) + " C " + middle + " " + (from.y + 31) + ", " + middle + " " + (to.y + 31) + ", " + end + " " + (to.y + 31)} fill="none" stroke={row.item.id === selectedId ? "#0f766e" : "#cbd5e1"} strokeWidth={row.item.id === selectedId ? 2 : 1.5} />;
+              return <path key={row.item.id} data-selected={row.item.id === selectedId} d={"M " + start + " " + (from.y + 31) + " C " + middle + " " + (from.y + 31) + ", " + middle + " " + (to.y + 31) + ", " + end + " " + (to.y + 31)} fill="none" />;
             })}
           </svg>
           <div className="study-flow-map-root" style={{ left: layout.root.x, top: layout.root.y }}>{title || "학습 Flow"}</div>
