@@ -1,3 +1,5 @@
+import { readReviewCardRelations, type ReviewCardRelations } from "./review-card-relations";
+
 export type HomeReviewDisplay = "heart" | "cards";
 export type ReviewCardSource = { questionId: string; bank: string; label: string };
 
@@ -11,15 +13,22 @@ export type ReviewCard = {
   due_at: string | null;
   created_at: string;
   source?: ReviewCardSource | null;
+  relations?: ReviewCardRelations;
 };
 
 export type ReviewCardDraft = Pick<ReviewCard, "id" | "front" | "back"> & {
   revision?: number;
   source?: ReviewCardSource;
+  relations?: ReviewCardRelations;
 };
 
-export const REVIEW_CARD_FIELDS = "id,front,back,home_hidden,content_revision,review_count,due_at,created_at,source";
+export const REVIEW_CARD_FIELDS = "id,front,back,home_hidden,content_revision,review_count,due_at,created_at,source,relations";
 export const REVIEW_CARD_LIMITS = { front: 2000, back: 8000 };
+
+export function draftMatchesReviewCard(draft: ReviewCardDraft, card: ReviewCard) {
+  return draft.front.trim() === card.front && draft.back.trim() === card.back
+    && JSON.stringify(readReviewCardRelations(draft.relations)) === JSON.stringify(readReviewCardRelations(card.relations));
+}
 
 export function sortReviewCards(cards: ReviewCard[]) {
   return cards.sort((left, right) => Date.parse(right.created_at) - Date.parse(left.created_at) || left.id.localeCompare(right.id));

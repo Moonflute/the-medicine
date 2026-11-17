@@ -69,6 +69,57 @@
   padding: 0.55rem 0.7rem;
 }
 .review-card-form textarea { font-size: 1rem; font-weight: 400; resize: vertical; }
+.review-card-relations-editor, .review-card-relation-field { display: grid; min-width: 0; }
+.review-card-relations-editor { gap: .55rem; }
+.review-card-relation-field { gap: .3rem; border-top: 1px solid var(--line); padding-top: .35rem; }
+.review-card-relation-heading { display: flex; align-items: center; justify-content: space-between; gap: .5rem; font-size: .8125rem; font-weight: 650; }
+.review-card-relation-toggle {
+  display: inline-grid;
+  place-items: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--foreground);
+}
+.review-card-relation-toggle[aria-expanded="true"] { background: var(--surface-subtle); }
+.review-card-relation-pills { display: flex; flex-wrap: wrap; align-items: center; min-width: 0; gap: .3rem; }
+.review-card-relation-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  max-width: 100%;
+  min-height: 1.9rem;
+  padding: .16rem .5rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--foreground);
+  font-size: .75rem;
+  line-height: 1.3;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+button.review-card-relation-pill:not([data-selected="true"]) { border-style: dashed; }
+.review-card-relation-pill[data-selected="true"] {
+  border-color: color-mix(in srgb, var(--primary) 30%, var(--line));
+  background: color-mix(in srgb, var(--primary) 12%, var(--surface));
+}
+.review-card-relation-pill > svg { flex: none; }
+.review-card-relation-pill > span { min-width: 0; }
+:is(button, a).review-card-relation-pill:hover, .review-card-relation-toggle:hover { border-color: var(--primary); }
+:is(button, a).review-card-relation-pill:focus-visible, .review-card-relation-toggle:focus-visible,
+.review-card-relation-search:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.review-card-relation-search {
+  width: 100%;
+  padding: .36rem .55rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface-subtle);
+  color: var(--foreground);
+  font-size: 1rem;
+}
+.review-card-relation-hint { color: var(--muted); font-size: .75rem; }
 .review-card-search { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); }
 .review-card-search:focus-within { outline: 2px solid var(--primary); }
 .review-card-search svg { flex: none; }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, type FormEvent, type ReactNode } from "react";
+import { ReviewCardRelationPicker } from "@/components/review-card-relation-picker";
 import { REVIEW_CARD_LIMITS, type ReviewCardDraft } from "@/lib/review-cards";
 
 /** One editor for the card library and the in-question shortcut. */
@@ -17,6 +18,8 @@ export function ReviewCardForm({ draft, onChange, onSubmit, onCancel, saving, bl
       onChange={event => onChange({ ...draft, front: event.target.value })} disabled={saving} /></label>
     <label>뒷면<textarea required rows={5} value={draft.back} maxLength={REVIEW_CARD_LIMITS.back}
       onChange={event => onChange({ ...draft, back: event.target.value })} disabled={saving} /></label>
+    <ReviewCardRelationPicker key={draft.id} front={draft.front} back={draft.back} value={draft.relations} disabled={saving}
+      onChange={relations => onChange({ ...draft, relations })} />
     {notice}
     {message && <p className="review-card-status" role="status">{message}</p>}
     <div className="review-card-actions">

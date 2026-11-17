@@ -6,11 +6,13 @@ import { getSupabaseBrowserClient, isSupabaseConfigured } from "@/lib/supabase/c
 import {
   REVIEW_CARD_FIELDS,
   REVIEW_CARD_LIMITS,
+  draftMatchesReviewCard,
   sortReviewCards,
   type HomeReviewDisplay,
   type ReviewCard,
   type ReviewCardDraft,
 } from "@/lib/review-cards";
+import { readReviewCardRelations } from "@/lib/review-card-relations";
 import { nextReviewAt, type ReviewConfidence } from "@/lib/review-schedule";
 
 type CardData = {
@@ -157,6 +159,7 @@ export function ReviewCardsProvider({ children, home = false }: { children: Reac
   async function saveCard(draft: ReviewCardDraft) {
     const front = draft.front.trim();
     const back = draft.back.trim();
+    const relations = readReviewCardRelations(draft.relations);
     if (!front || !back || front.length > REVIEW_CARD_LIMITS.front || back.length > REVIEW_CARD_LIMITS.back) {
       throw new CardConflictError("앞면과 뒷면의 내용을 확인해 주세요.");
     }
@@ -164,12 +167,12 @@ export function ReviewCardsProvider({ children, home = false }: { children: Reac
       const table = client.from("review_cards");
       const target = () => table.select(REVIEW_CARD_FIELDS).eq("user_id", owner).eq("id", draft.id).maybeSingle<ReviewCard>();
       if (draft.revision === undefined) {
-        const { data, error } = await table.insert({ user_id: owner, id: draft.id, front, back, source: draft.source ?? null })
+        const { data, error } = await table.insert({ user_id: owner, id: draft.id, front, back, source: draft.source ?? null, relations })
           .select(REVIEW_CARD_FIELDS).single<ReviewCard>();
         if (!error) return data;
         if (error.code !== "23505") throw error;
       } else {
-        const { data, error } = await table.update({ front, back, content_revision: draft.revision + 1 })
+        const { data, error } = await table.update({ front, back, relations, content_revision: draft.revision + 1 })
           .eq("user_id", owner).eq("id", draft.id).eq("content_revision", draft.revision)
           .select(REVIEW_CARD_FIELDS).maybeSingle<ReviewCard>();
         if (error) throw error;
@@ -179,7 +182,7 @@ export function ReviewCardsProvider({ children, home = false }: { children: Reac
       // A request may have reached the database before the client lost its response.
       const { data, error } = await target();
       if (error) throw error;
-      if (data?.front === front && data.back === back) return data;
+      if (data && draftMatchesReviewCard(draft, data)) return data;
       throw new CardConflictError("다른 기기에서 카드가 바뀌었어요. 입력한 내용을 남겨뒀으니 최신 카드를 확인해 주세요.");
     });
   }

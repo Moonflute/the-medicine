@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildReviewCardCatalog } from "./review-card-catalog.mjs";
 
 const appRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataRoot = path.resolve(appRoot, "../../_webapp/data");
@@ -17,3 +18,8 @@ const unique = [...new Map(entries.map(entry => [entry.key, entry])).values()];
 const output = JSON.stringify(unique) + "\n";
 fs.writeFileSync(path.join(generated, "study-flow-index.json"), output, "utf8");
 console.log("Study Flow search: " + unique.length + " entries, " + Buffer.byteLength(output) + " bytes");
+
+const topics = buildReviewCardCatalog(search, dataRoot);
+const topicIndex = JSON.stringify(topics) + "\n";
+fs.writeFileSync(path.join(generated, "review-card-topics.json"), topicIndex, "utf8");
+console.log("Review card topics: " + topics.documents.length + " documents, " + Buffer.byteLength(topicIndex) + " bytes");

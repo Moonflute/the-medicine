@@ -3,8 +3,10 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { Pencil, Plus, Search, X } from "lucide-react";
 import { reviewCardsErrorMessage, useReviewCards } from "@/components/review-cards-provider";
-import { isReviewCardDue, type ReviewCard, type ReviewCardDraft } from "@/lib/review-cards";
+import { draftMatchesReviewCard, isReviewCardDue, type ReviewCard, type ReviewCardDraft } from "@/lib/review-cards";
+import { readReviewCardRelations } from "@/lib/review-card-relations";
 import { ReviewCardForm } from "@/components/review-card-form";
+import { ReviewCardRelationPills } from "@/components/review-card-relation-picker";
 import { ReviewCardSourceLink } from "@/components/review-card-source-link";
 import type { ReviewConfidence } from "@/lib/review-schedule";
 
@@ -69,11 +71,12 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
   const term = query.trim().toLocaleLowerCase();
   const matching = term ? cards.filter(card => card.front.toLocaleLowerCase().includes(term)) : cards;
   const editingCard = draft?.revision === undefined ? null : cards.find(card => card.id === draft.id);
-  const draftAlreadySaved = draft && editingCard && draft.front.trim() === editingCard.front && draft.back.trim() === editingCard.back;
+  const draftAlreadySaved = draft && editingCard && draftMatchesReviewCard(draft, editingCard);
   const draftChangedElsewhere = draft?.revision !== undefined && draft.revision !== editingCard?.content_revision && !draftAlreadySaved;
 
   function openDraft(card?: ReviewCard) {
-    setDraft(card ? { id: card.id, front: card.front, back: card.back, revision: card.content_revision, source: card.source ?? undefined }
+    setDraft(card ? { id: card.id, front: card.front, back: card.back, revision: card.content_revision,
+      source: card.source ?? undefined, relations: readReviewCardRelations(card.relations) }
       : { id: crypto.randomUUID(), front: "", back: "" });
     setDraftMessage("");
     setMessage("");
@@ -178,6 +181,7 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
           <div className="review-card-face" aria-label="뒷면" aria-live="polite">
             <p className="review-card-text">{active.back}</p>
           </div>
+          <ReviewCardRelationPills value={active.relations} newTab />
           <div className="review-card-ratings" role="group" aria-label="복습 결과">
             {ratings.map(({ value, label }) => <button key={value} type="button"
               className={value === "good" ? "primary-action" : "secondary-action"} disabled={saving}
@@ -211,7 +215,7 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
             {editingCard ? "다른 기기에서 이 카드가 수정됐어요." : "다른 기기에서 이 카드가 삭제됐어요."}{" "}
             {editingCard ? <button className="review-card-link" type="button" disabled={saving} onClick={() => openDraft(editingCard)}>최신본 불러오기</button>
               : <button className="review-card-link" type="button" disabled={saving} onClick={() => {
-                setDraft({ id: crypto.randomUUID(), front: draft.front, back: draft.back, source: draft.source });
+                setDraft({ id: crypto.randomUUID(), front: draft.front, back: draft.back, source: draft.source, relations: draft.relations });
                 setDraftMessage("");
               }}>새 카드로 작성</button>}
           </div> : null}</>} /> : null}
@@ -225,6 +229,7 @@ function CardWorkspace({ cards }: { cards: ReviewCard[] }) {
               <div><dt>앞면</dt><dd className="review-card-text">{card.front}</dd></div>
               <div><dt>뒷면</dt><dd className="review-card-text">{card.back}</dd></div>
             </dl>
+            <ReviewCardRelationPills value={card.relations} />
             {card.source && <ReviewCardSourceLink source={card.source} />}
             <div className="review-card-list-footer">
               <p className="review-card-meta">
