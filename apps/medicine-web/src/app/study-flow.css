@@ -300,6 +300,7 @@ html[data-theme="notebook"] .study-reference-group th { color: var(--notebook-bl
 
 @media (min-width: 768px) {
   .study-flow-drawer { width: calc(100vw - 24px); }
+  .study-reference-table { margin-inline: auto; }
 }
 @media (min-width: 900px) {
   html:is([data-theme="mail"], [data-theme="social"], [data-theme="editor"]) .study-flow-drawer { left: 232px; width: auto; }
