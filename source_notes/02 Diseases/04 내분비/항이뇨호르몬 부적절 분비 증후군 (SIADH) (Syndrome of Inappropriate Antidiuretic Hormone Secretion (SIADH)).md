@@ -21,7 +21,7 @@ reviewed_at: "2026-07-16"
 guideline_year: "2024"
 sources: ["2024 Korean Endocrine Society Consensus Statement on the Diagnosis and Management of Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH) | https://www.endocrinology.or.kr/journal/view.php?number=1821"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 ## 1. 개요
 - **정의**: 항이뇨호르몬(ADH, Vasopressin)이 부적절하게 분비되어 혈장 오스몰랄리티가 낮음에도 불구하고 소변이 충분히 희석되지 않는 상태.
@@ -56,12 +56,10 @@ content_updated_at: "2026-07-16"
 - **감별진단**: 저혈량성 및 고혈량성 저나트륨혈증과 구별 필요.
 
 ## 5. 치료
-- **원인 질환 및 약물 관리**: 기저 질환 교정 및 원인 약물(SSRI, SNRI, 항정신병약물, Carbamazepine 등) 중단 또는 감량 고려. 대체 가능한 약물로의 변경을 우선적으로 검토.
-- **수분 제한**: 일차 치료로, 하루 250~500 mL 정도로 엄격한 수분 제한 시행.
-- **고장성 식염수(3% NaCl)**: 중증의 신경학적 증상이 동반된 경우 투여. 급격한 교정은 삼투성 탈수초 증후군(ODS) 위험이 있으므로 주의(첫 24시간 동안 8 mEq/L 이내 교정).
-- **약물 요법**: 수분 제한이 불충분하거나 불가능한 경우 고려.
-  - ADH 길항제: Tolvaptan, Conivaptan (수분 배출 유도).
-  - 기타: Demeclocycline 또는 Urea 고려 가능.
+- **먼저 중증도 판단**: 경련·심한 의식저하 등 중증 신경 증상이 있으면 수분 제한만 기다리지 않는다. 3% NaCl을 기관 프로토콜에 따라 투여하며, 유럽 지침의 예는 150 mL를 20분간 투여하고 Na와 증상을 재평가해 초기 약 5 mmol/L 상승까지 반복하는 방식이다.
+- **교정 한도**: 초기 증상 호전 뒤 고장성 수액을 줄이거나 중단한다. 만성·발생 시점 불명인 저나트륨혈증, 특히 저영양·알코올 사용·간질환·저칼륨혈증 등 ODS 고위험에서는 24시간 상승을 ≤8 mmol/L로 제한한다. 치료 중 Na와 소변량을 반복 측정하고 과교정 시 중단·desmopressin/자유수분 재투여를 전문팀과 검토한다.
+- **안정된 만성 SIADH**: 원인 약물·질환과 부신기능저하를 확인한다. 수분 제한량은 소변량·요삼투질농도·Na 반응에 맞추며 보통 약 0.8–1 L/일에서 개별 조절한다. 모든 환자에게 250–500 mL/일을 고정 적용하지 않는다.
+- **불충분한 반응**: 적절한 단백질·용질 섭취를 확보하고 urea 등 2차 치료를 고려한다. Vaptan은 지침 간 권고가 다르며 심한 증상성 저나트륨의 응급 처치를 대신하지 않는다. 사용 시 과교정·간독성과 허가 범위를 확인하고, demeclocycline은 신독성 때문에 통상적 선택으로 권하지 않는다. [유럽 저나트륨 지침](https://academic.oup.com/ejendo/article/170/3/G1/6668028)
 
 ## 6. 예후 및 합병증
 - **예후**: 원인 질환의 교정 가능 여부에 따라 결정.

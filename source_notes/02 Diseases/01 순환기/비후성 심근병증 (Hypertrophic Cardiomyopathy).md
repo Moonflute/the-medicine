@@ -19,7 +19,7 @@ review_status: "guideline_enriched"
 guideline_year: "2024"
 sources: ["2024 대한부정맥학회 심실성 부정맥 및 돌연 심장사 진료지침 (II) | https://www.koreahr.org/file/2024_KSHRS_Guideline_Part2.pdf", "2023 ESC Guidelines for the management of cardiomyopathies | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Cardiomyopathies"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[순환기]]
 
@@ -63,6 +63,9 @@ content_updated_at: "2026-07-16"
 - **시술/수술**: 약물 치료에 반응하지 않는 증상성 유출로 폐쇄 시 심근 절제술(myectomy) 또는 알코올 중격 절제술 시행.
 - **돌연심장사 예방**: 위험도 평가 모델에 따라 삽입형 제세동기(ICD) 삽입 고려.
 - **주의사항**: 전부하를 감소시키는 약제(이뇨제, ACEI, ARB 등)는 유출로 폐쇄를 악화시킬 수 있으므로 신중히 사용.
+
+- **치료 단계 전환**: 증상성 폐쇄형은 비혈관확장 β차단제를 우선하고 불내성/무효이면 verapamil/diltiazem을 검토한다. 안정 시 또는 유발 LVOT 압력차 ≥50 mmHg와 최적 약물에도 일상생활을 제한하는 증상(대개 NYHA III–IV)이 있으면 성인 myosin 억제제·disopyramide 또는 전문센터 중격 감소 치료를 비교한다. Myosin 억제제는 LVEF와 상호작용을 해당 제품 기준으로 감시한다.
+- **ICD·항응고**: 심정지/지속성 VT 생존자는 이차예방 ICD를 평가한다. 일차예방은 가족력·원인불명 실신·심한 비후·심첨부 동맥류·LVEF 저하·NSVT/CMR 섬유화를 종합한다. 임상 AF가 있으면 CHA₂DS₂-VASc가 낮아도 항응고를 권고한다. [AHA/ACC 2024](https://www.jacc.org/doi/10.1016/j.jacc.2024.02.014)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 돌연심장사, 심방세동, 심부전으로 진행할 수 있다.

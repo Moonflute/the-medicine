@@ -17,7 +17,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["Indications for genetic testing in adults with focal segmental glomerulosclerosis. | https://pubmed.ncbi.nlm.nih.gov/39952830/", "2023 Korean Society of Nephrology Consensus Guideline for the Management of Glomerular Diseases | https://www.ksn.or.kr/journal/view.php?number=202300003", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[신장]]
 
@@ -56,10 +56,12 @@ content_updated_at: "2026-07-16"
 
 - **분류 기반 접근**: KDIGO 2021 가이드라인에 따라 원발성, 이차성, 유전성, 원인 불명으로 분류하여 치료 계획 수립.
 - **보존적 치료**: ACEi 또는 ARB를 통한 혈압 조절 및 단백뇨 감소, 신증후군 환자에서 스타틴 투여.
-- **면역억제 치료 (원발성 FSGS)**: 단백뇨가 신증후군 범위이거나 신기능 악화 시 고려.
+- **면역억제 치료 (원발성 FSGS)**: 원발성 여부와 신증후군을 확인한 뒤 시행한다. 단백뇨량이나 신기능 악화만으로 이차성·유전성 병변에 적용하지 않는다.
   - 1차: 신증후군을 동반한 원발성 FSGS에서는 글루코코르티코이드 또는 칼시뉴린 억제제를 신장내과가 환자별 위험도에 맞춰 선택한다.
   - 2차: 반응 불충분·재발에서는 원발성 여부를 재확인한 뒤 칼시뉴린 억제제 등 대안을 개별화하며, 이차성·유전성 FSGS에는 면역억제를 일상적으로 사용하지 않는다.
 - **이차성 FSGS**: 원인 질환 교정(약물 중단, 체중 감량 등)이 우선이며, 면역억제제 사용은 권장되지 않음.
+
+- **불응 판정과 변경 시점**: 원발성·신증후군 동반 성인에서 고용량 steroid는 관해 또는 최대 16주까지 반응·내약성을 보며 사용한다. 반응이 없으면 무기한 연장하지 않고 steroid 저항성 여부를 평가해 tacrolimus/cyclosporine을 최소 6개월 시도한다. CNI 반응자는 재발을 줄이기 위해 통상 ≥12개월 유지하며, 신독성·약물 농도를 감시한다. 이차성·유전성 FSGS 또는 신증후군 없는 병변에는 이 경로를 일률 적용하지 않는다. [KDIGO 2021](https://kdigo.org/wp-content/uploads/2021/10/KDIGO-2021-Guideline-for-the-Management-of-Glomerular-Diseases.pdf)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 지속 단백뇨, 신기능 저하 및 간질 섬유화는 진행 위험을 높이는 예후 인자다.

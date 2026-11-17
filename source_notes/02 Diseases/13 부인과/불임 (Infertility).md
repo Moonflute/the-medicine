@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-15"
+content_updated_at: "2026-11-18"
 aliases:
 - 불임
 유형:
@@ -62,6 +62,9 @@ reviewed_at: "2026-07-30"
 - **보조 생식술 적용**: 자연 임신 시도가 실패하거나 난관 요인, 중증 남성 요인 등이 확인된 경우 IUI 또는 IVF 고려
 - **합병증 모니터링**: 배란 유도 및 보조 생식술 시행 시 난소 과자극 증후군(OHSS) 및 다태 임신 발생 여부 주의 깊게 관찰
 - **전문의 의뢰 및 상담**: 여성 연령이 35세 이상이거나 난소 예비능 저하가 의심되는 경우 조기에 난임 전문의에게 의뢰하여 적극적인 치료 계획 수립
+
+- **평가·치료를 시작하는 시점**: 다른 위험이 없으면 <35세는 12개월, ≥35세는 6개월 시도 후 평가한다. >40세 또는 무월경·난관질환·명백한 남성 요인 등은 기다리지 않고 조기 평가한다. 여성·남성 요인과 난관 개통성을 함께 확인한다.
+- **IUI에서 IVF로 전환**: 원인불명 난임의 다수에서는 경구 배란자극 + IUI 3–4주기 후 실패하면 IVF로 전환을 검토한다. 양측 난관 폐쇄·중증 남성 요인·연령/난소예비력상 시간 제약은 더 이른 IVF/ICSI 판단 사유다. [ASRM 평가](https://integration.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2021/) · [원인불명 난임](https://www.asrm.org/practice-guidance/practice-committee-documents/evidence-based-treatments-for-couples-with-unexplained-infertility-a-guideline-2020/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 난소 과자극 증후군 (OHSS), 다태 임신, 자궁외 임신

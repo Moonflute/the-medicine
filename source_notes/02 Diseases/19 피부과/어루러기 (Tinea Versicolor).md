@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - 어루러기
 유형:
@@ -44,9 +44,9 @@ reviewed_at: "2026-07-30"
 
 
 ## 5. 치료
-- 1차적으로 케토코나졸·셀레늄 설파이드·테르비나핀·시클로피록스 등 국소 항진균제(샴푸·크림)를 적용하고, 2~3일간 반복 사용한다.
-- 국소 치료에 반응이 없거나 광범위·재발이 잦은 경우 피부과 전문의와 상의하여 경구 항진균제 전환을 검토한다.
-- 치료 후 색소 변화가 지속될 수 있으므로, 환자에게 색소 회복까지 수
+- 국소 ketoconazole·selenium sulfide 등으로 치료하며 제형별 도포 시간·횟수·기간을 따른다. 모든 제제를 2~3일만 사용하는 것으로 고정하지 않는다.
+- **광범위하거나 국소 치료 실패·빈번한 재발**이면 itraconazole·fluconazole 등 경구 azole을 고려하고 간질환·상호작용·임신 가능성을 확인한다. **경구 terbinafine은 어루러기에 효과가 없으며**, 경구 ketoconazole은 간독성 때문에 선택하지 않는다.
+- 인설과 균학적 활동성이 사라진 뒤 색소만 남으면 즉시 치료 실패로 판정하지 않는다. 재발이 잦으면 간헐적 국소 예방 치료를 논의한다. [HSE 치료 지침](https://assets.hse.ie/media/documents/Pityriasis_versicolor_guideline.pdf), [DermNet](https://dermnetnz.org/topics/pityriasis-versicolor)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 치료에 잘 반응하나 재발률이 높음.

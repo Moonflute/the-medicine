@@ -20,7 +20,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Diagnosis, treatment and monitoring of chronic nonbacterial osteomyelitis (CNO) and chronic recurrent multifocal osteomyelitis (CRMO) - Evidence, practice and consensus-based recommendations from the German pediatric rheumatology society (GKJR). | https://pubmed.ncbi.nlm.nih.gov/42155695/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[감염]]
 
@@ -55,6 +55,8 @@ content_updated_at: "2026-07-16"
 - 감염성 골수염은 원인균·감수성 및 수술적 배액/제거 필요성을 바탕으로 항균 치료와 감염원 조절을 계획한다. 치료 중 신경학적 악화 또는 패혈증이 있으면 척추 경막외 농양을 재평가한다.
 
 - **모니터링**: 만성 질환이므로 치료 중단 후 추적 관찰을 포함한 장기 모니터링 필수.
+
+- **척추 자연골수염의 항균제·수술 분기**: 안정되고 신경학적 결손이 없으면 가능한 배양·생검을 먼저 확보한다. 패혈증·신경 악화면 항균제와 수술 평가를 지연하지 않는다. 대부분의 세균성 척추 골수염은 감수성에 맞는 정주 또는 고생체이용률 경구 약제로 총 6주 치료하며, 농양·불안정·진행 신경결손·지속 균혈증은 수술을 검토한다. 임상·CRP가 호전되는 환자의 4–6주 영상 악화만으로 수술이나 치료 연장을 결정하지 않는다. 인공물·당뇨발·소아 골수염에는 별도 경로를 적용한다. [IDSA](https://www.idsociety.org/practice-guideline/vertebral-osteomyelitis/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 골수염으로의 이행, 관절 파괴, 기능 장애, 패혈증 등이 발생할 수 있다.

@@ -28,7 +28,7 @@ guideline_year: '2025'
 sources:
 - "ATS·CDC·ERS·IDSA 2025 결핵 치료 업데이트 공식 요약 | https://www.cdc.gov/tb/php/dear-colleague-letters/2025-treatment-guidelines.html"
 - "CDC 2025 결핵 임상 치료 | https://www.cdc.gov/tb/hcp/treatment/index.html"
-content_updated_at: '2026-10-07'
+content_updated_at: "2026-11-18"
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
 ---
@@ -57,6 +57,10 @@ guideline_review_status: primary_source_reviewed
 - 약제감수성 결핵에서는 4개월 또는 6개월 등 적격 환자군별 권고 요법이 있으며, 모든 환자에게 하나의 고정 요법을 적용하지 않는다. 2025 ATS/CDC/ERS/IDSA 업데이트의 4개월 요법 적격 기준을 확인한다.
 - 내성 결핵, 중증 약물 이상반응, 치료 실패, HIV 동반, 소아·임신은 전문가 자문이 필요하다. 약제 내성 치료는 감수성 결과를 바탕으로 구성한다.
 - 적어도 매월 임상 반응, 복약 순응도, 간기능과 약제별 독성(시력, 말초신경병증, 약물상호작용 등)을 평가한다. DOT/vDOT는 치료 완결을 지원하는 중요한 도구다.
+
+- **4개월 rifapentine–moxifloxacin 요법(2HPZM/2HPM)**은 감수성 폐결핵에서 **≥12세·≥40 kg**, 관련 약제 금기/상호작용이 없는 경우 선택한다. HIV에서는 **CD4 ≥100/µL**와 호환 ART를 확인한다. 임신·대부분의 폐외 결핵·해당 약제 내성이 의심되면 그대로 적용하지 않는다.
+- 표준은 **2HRZE/4HR**이며, **초기 공동이 있고 2개월 배양도 양성**인 경우 총 9개월(2HRZE/7HR)을 고려한다. 균 음전 지연 시 순응도·흡수·내성을 먼저 확인하며 약 하나만 추가하지 않는다.
+- 근거: [CDC 감수성 결핵 치료](https://www.cdc.gov/tb/hcp/treatment/tuberculosis-disease.html).
 
 ## 5. 감염관리 및 공중보건
 - 전염성 가능성이 있는 환자는 음압 환경과 호흡기 보호구를 포함한 airborne precautions를 적용한다.

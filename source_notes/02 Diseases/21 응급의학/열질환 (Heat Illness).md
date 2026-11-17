@@ -15,7 +15,7 @@ CC:
 clinical_priority: tier_2
 review_status: source_reviewed_no_change
 reviewed_at: '2026-07-30'
-content_updated_at: '2026-07-17'
+content_updated_at: "2026-11-18"
 guideline_year: '2024'
 sources:
 - 'WMS Clinical Practice Guidelines for Heat Illness 2024 | https://journals.sagepub.com/doi/10.1177/10806032241227924'
@@ -49,6 +49,9 @@ population: general
 - 체액은 탈수와 전해질 상태에 따라 경구 또는 정맥으로 보충하며 무조건적인 과량 수액을 피한다.
 - 해열제는 체온 설정점 상승이 아닌 열축적에 효과가 없고 간·신장·출혈 위험을 높일 수 있어 사용하지 않는다. 경련, 저혈당, 전해질 이상과 장기부전을 치료한다.
 - 열사병은 입원해 장기기능을 serial monitoring하며, 간부전·DIC·신부전은 조기 중환자 및 이식·신대체 치료 가능 기관과 협의한다.
+
+- **중추신경 이상을 동반한 열사병 의심**이면 측정 체온이 40℃ 미만이거나 아직 측정하지 못했어도 즉시 냉각한다. 직장 중심체온 등 신뢰할 수 있는 측정으로 추적하며 대개 **약 39℃에서 적극 냉각을 줄여** 과냉각을 피한다.
+- 의식 정상·경구 섭취 가능한 열탈진은 냉각·수분 보충 후 반응을 볼 수 있으나 지속 혼돈·실신·저혈압·장기손상은 열사병/다른 원인 평가와 입원이 필요하다. [WMS 2024](https://doi.org/10.1177/10806032241227924)
 
 ## 6. 예후 및 합병증
 - 예후는 고체온 지속시간과 냉각 지연에 크게 좌우된다. DIC, rhabdomyolysis, AKI, 급성간부전, ARDS, 부정맥과 영구 신경학적 손상이 발생할 수 있다.

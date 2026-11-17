@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 aliases:
 - vWD
 유형:
@@ -40,9 +40,9 @@ reviewed_at: "2026-07-30"
   vWF 활성도 30 IU/dL 미만 시 진단적 가치가 높음.
 
 ## 5. 치료
-- 경미한 점막 출혈이나 수술 전 예방에 DDAVP를 사용하되, 수분 섭취 제한 및 혈청 나트륨을 모니터링하여 저나트륨혈증을 예방한다.
-- DDAVP 반응이 없거나 중증 출혈·수술 시에는 vWF/응고인자 VIII 농축 제제를 투여하고, 투여 후 vWF·VIII 활성도를 확인한다.
-- 점막 출혈 보조로 트라넥삼산(Tranexamic acid) 사용을 권고하되, 혈전 위험
+- **DDAVP 선택:** 주로 type 1에서 반응을 확인해 사용한다. 기저 VWF **<0.30 IU/mL**이면 시험 투여 후 반응에 따라 결정한다. Type 3에서는 효과가 없고, type 2B는 혈소판감소 위험 때문에 피한다. 활동성 심혈관질환·경련질환·2세 미만 등에서도 금기/위험을 평가한다.
+- **대수술·중증 출혈:** DDAVP 단독에 의존하지 않고 VWF 농축제±FVIII로 지혈한다. 대수술 후에는 **VWF 활성과 FVIII 모두 ≥0.50 IU/mL를 최소 3일** 유지하도록 수술 종류와 출혈 경과에 맞춰 투여·측정한다.
+- 작은 점막 시술에서는 VWF 상승요법에 tranexamic acid를 추가할 수 있다. 기저 VWF >0.30 IU/mL이고 출혈 표현형이 경한 type 1의 작은 점막 시술은 tranexamic acid 단독을 고려한다. DDAVP 투여 시 수분 제한·Na 감시로 저나트륨혈증을 예방한다. [ASH/ISTH/NHF/WFH 관리 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC7805326/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 경미, 예후 양호.

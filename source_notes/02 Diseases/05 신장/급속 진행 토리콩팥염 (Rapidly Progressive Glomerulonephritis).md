@@ -21,7 +21,7 @@ review_status: "guideline_enriched"
 guideline_year: "2024"
 sources: ["KDIGO 2024 Clinical Practice Guideline for ANCA-Associated Vasculitis | https://kdigo.org/guidelines/anca-associated-vasculitis/", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
 
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[신장]]
 
@@ -66,9 +66,11 @@ content_updated_at: "2026-07-30"
 - **지지·신대체요법**: 체액·혈압·K/산증을 관리하고, 고칼륨혈증·폐부종·산증·요독 합병증은 투석 적응증으로 평가한다.: 급속 진행 토리콩팥염(RPGN)은 응급 상황으로, 원인 질환(ANCA 혈관염, Anti-GBM 질환, 루푸스 신염 등)에 따른 KDIGO 최신 가이드라인을 준수하여 조기 면역억제 요법을 시행함.
 - **치료 전략**:
   - 원인 질환별로 스테로이드, Cyclophosphamide, Rituximab 등의 면역억제제 사용.
-  - Anti-GBM 질환이나 폐출혈 동반 시 혈장교환술(Plasma exchange) 고려.
+  - Anti-GBM 질환은 혈장교환을 포함한 긴급 치료를 평가하고, ANCA 질환은 아래의 중증도 기준으로 결정한다.
 - **모니터링**: 신기능(eGFR, Cr) 및 소변 검사를 통한 질환 활성도 추적, 면역억제제 부작용 모니터링.
 - **투석**: 말기 신부전으로 진행 시 신대체 요법 시행.
+
+- **혈장교환의 구체적 분기**: ANCA 연관 질환은 Cr >3.4 mg/dL, 투석 필요 또는 빠른 Cr 상승, 저산소혈증을 동반한 미만성 폐포출혈에서 고려한다. ANCA–anti-GBM 중복이면 추가한다. ANCA 양성이나 비저산소성 객혈만으로 모든 환자에게 시행하지 않는다. [KDIGO ANCA 2024](https://kdigo.org/wp-content/uploads/2024/05/KDIGO-2024-ANCA-Vasculitis-Guideline.pdf)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 수 주 내 말기 신부전으로 진행

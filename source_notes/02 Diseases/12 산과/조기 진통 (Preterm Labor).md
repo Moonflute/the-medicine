@@ -20,7 +20,7 @@ review_status: "guideline_enriched"
 guideline_year: "2023"
 sources: ["Management of preterm labor: Clinical practice guideline and recommendation by the WAPM-World Association of Perinatal Medicine and the PMF-Perinatal Medicine Foundation. | https://pubmed.ncbi.nlm.nih.gov/37913556/"]
 
-content_updated_at: "2026-11-15"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[산과]]
 
@@ -50,6 +50,9 @@ content_updated_at: "2026-11-15"
   - **마그네슘 설페이트**: 태아 신경 보호 목적으로 사용.
   - **GBS 예방적 항생제**: 감염 예방을 위해 투여.
 - **관리**: 불필요하거나 과도한 개입을 피하고, 임신 주수와 경부 상태를 종합적으로 고려하여 다학제적 접근을 시행함.
+
+- **폐성숙제의 범위**: 7일 이내 조산 가능성이 높은 24주 0일–33주 6일에 한 코스를 투여한다. 34주 0일–36주 6일은 SMFM 기준 ALPS 대상에 해당하는 단태아·7일 이내 분만 고위험·기투여 없음에서 betamethasone 12 mg IM 24시간 간격 2회를 선택한다. 임신 전 당뇨에서는 후기 조산 폐성숙제를 권하지 않는다. [SMFM Consult 58](https://publications.smfm.org/publications/427-society-for-maternal-fetal-medicine-consult-series-58/)
+- **신경보호·항생제**: NICE는 24주 0일–29주 6일에 24시간 내 분만이 예상되면 MgSO4를 권고하고 30주 0일–33주 6일은 고려한다. 파막·감염 없는 조기진통에 잠복기 연장 목적 항생제를 일률 사용하지 않으며 GBS 예방은 별도 적응증에 따른다. [NICE NG25](https://www.nice.org.uk/guidance/ng25/chapter/recommendations)
 
 ## 6. 예후 및 합병증
 - 조산은 신생아 이환율 및 사망률의 주요 원인

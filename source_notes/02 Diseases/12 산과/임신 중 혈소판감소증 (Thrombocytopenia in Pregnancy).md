@@ -9,7 +9,7 @@ CC: []
   - "혈액"
 preprocessing_required: x
 reviewed_at: '2026-10-07'
-content_updated_at: '2026-10-07'
+content_updated_at: "2026-11-17"
 review_status: targeted_source_reviewed_draft
 sources:
   - 'ASH Thrombocytopenia in Pregnancy pocket guide | https://www.hematology.org/-/media/hematology/files/education/clinicians/guidelines-quality/documents/watermarked-pocket-guides/watermark-thrombocytopenia-pocket-guide.pdf'
@@ -27,4 +27,6 @@ sources:
 - 전형적인 임신성 혈소판감소증은 보통 특이 치료 없이 추적한다. ITP 치료는 출혈·수치·분만 및 마취 계획에 따라 결정하며 prednisone/prednisolone·IVIG 등을 고려한다.
 - ‘50,000 이하면 모든 임신 혈소판감소증에 steroid 시작’은 원인별 치료를 무시한 규칙이다. 수혈도 수치만으로 자동 시행하지 않는다.
 - 치료 목표는 임신 중 관찰, 분만, 신경축마취에서 다르다. 산과·혈액·마취팀이 함께 계획하고 신생아 평가 필요성도 확인한다.
+
+- **ITP 수치와 목표**: 임신 대부분은 유의한 출혈이 없고 혈소판 ≥20,000–30,000/μL이면 관찰할 수 있으며, 이보다 낮거나 출혈이 있으면 prednisolone/IVIG를 고려한다. 분만을 앞두면 통상 ≥50,000/μL를 확보한다. 신경축마취는 원인이 확인되고 DIC·다른 출혈 위험이 없는 경우 ≥70,000/μL이면 위험이 낮은 것으로 평가하며, 50,000–69,000은 개별 판단, <50,000은 대체 마취를 우선 검토한다. HELLP처럼 빠르게 감소하면 최신 수치와 추세가 중요하다. [ASH 임신 ITP 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11665594/), [SOAP 합의](https://www.soap.org/assets/docs/Consensus/SOAP%20Consensus%20Statement%20Thrombocytopenia%202021.pdf)
 

@@ -19,7 +19,7 @@ review_status: "guideline_enriched"
 guideline_year: "2022"
 sources: ["Cervical Cerclage: Green-top Guideline No. 75. | https://pubmed.ncbi.nlm.nih.gov/35199905/"]
 
-content_updated_at: "2026-07-17"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[산과]]
 
@@ -51,9 +51,11 @@ content_updated_at: "2026-07-17"
 - Shirodkar 결찰술: 점막을 절개하여 더 높은 위치에 봉합
 - **시기**
 - 예방적 결찰술: 임신 12-14주
-- 응급 결찰술: 24주 이전 시행
+- 응급 결찰술: 무통성 개대·노출된 비파수 양막에서 감염·활동성 출혈·수축을 배제한 뒤 검토한다. NICE는 16주 0일–27주 6일 범위에서 고려하며, 주수·개대 정도·태아 예후에 따라 개별화한다.
 - **제거**
-- 임신 36-38주 사이 또는 진통 시작 시 제거
+- 질식 결찰은 통상 36–37주에 제거하며 진통·감염 또는 상황별 파막이면 조기 제거를 평가한다. 복식 결찰은 질식 결찰과 제거/분만 계획이 다르다.
+
+- **예방 적응증**: NICE는 이전 자발 조산 ≤34주 또는 ≥16주 임신 손실과 현재 16–24주 경부 ≤25 mm가 함께 있으면 질 progesterone 또는 예방 결찰을 선택하도록 한다. 조산력 없는 단태 짧은 경부에서는 ≤20 mm 질 progesterone이 우선이며 개대 없는 10–25 mm에 자동 결찰하지 않는다. [NICE NG25](https://www.nice.org.uk/guidance/ng25/chapter/recommendations), [SMFM Consult 70](https://publications.smfm.org/publications/560-society-for-maternal-fetal-medicine-consult-series-70/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 감염, 양막 파열, 수술 부위 열상, 마취 관련 합병증

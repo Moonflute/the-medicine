@@ -16,7 +16,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["Shoulder Dystocia. Guideline of the DGGG, OEGGG and SGGG (S2k-Level, AWMF Registry No. 015/098, 10/2024). | https://pubmed.ncbi.nlm.nih.gov/40494572/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[산과]]
 
@@ -50,6 +50,8 @@ content_updated_at: "2026-07-16"
 - 과도한 견인 금지: 태아 손상 위험을 높임.
 - 다학제적 대응: 의료진 간의 명확한 의사소통 및 역할 분담이 중요.
 - 사후 관리: 사건 발생 후 문서화, 의료진 디브리핑(Debriefing), 산모와의 후속 상담(Follow-up discussion) 필수.
+
+- **분만 진행 이상**: 어깨난산과 달리 경부 진행이 느린 경우에는 수축·태향·산모/태아 상태를 평가하고 필요 시 파막·oxytocin을 시행한다. 경부 ≥6 cm·파막 후 충분한 수축 4시간 또는 불충분한 수축+oxytocin 6시간에도 개대가 없으면 활성기 정지로 제왕절개를 권고한다. 2기 정지는 선진부 위치·숙련자·안전조건을 확인해 기구분만 가능성을 평가한 뒤 제왕절개를 결정한다. [ACOG 분만 관리 2024](https://doi.org/10.1097/AOG.0000000000005447)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 산모: 산도 열상, 산후 출혈.

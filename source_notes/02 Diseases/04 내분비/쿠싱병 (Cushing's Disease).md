@@ -17,7 +17,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Who and how to screen for Cushing's syndrome: the position statement of the Italian Society of Endocrinology. | https://pubmed.ncbi.nlm.nih.gov/41364328/", "2024 Korean Endocrine Society Consensus Statement on the Diagnosis and Management of Cushing's Syndrome | https://www.endocrinology.or.kr/journal/view.php?number=1820"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[내분비]]
 
@@ -49,9 +49,11 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료 (Treatment)
 - **1차 치료**: 나비뼈경유절제술(TSS)을 통한 선종 제거.
-- **2차 치료**: 수술 실패 또는 재발 시 방사선 치료 고려.
+- **지속·재발 질환**: 재절제 가능한 잔존 선종이면 재수술을 검토하고, 약물·방사선·양측 부신절제는 코르티솔 과다의 중증도, 종양 위치·성장과 신속한 조절 필요성을 비교해 선택한다. 방사선 효과가 나타나기까지 약물로 코르티솔을 조절할 수 있다.
 - **약물 치료**: 수술이 불가능하거나 재발 시 파시레오타이드(pasireotide), 카베르골린(cabergoline), 케토코나졸(ketoconazole) 등 약물 요법 고려.
 - **기타**: 양측 부신절제술은 최후의 수단으로 고려하며, 수술 후 넬슨 증후군(Nelson's syndrome) 발생 가능성에 대한 모니터링 필수.
+
+- **약제 선택을 바꾸는 조건**: 당뇨가 조절되지 않으면 고혈당을 악화시킬 수 있는 pasireotide를 신중히 선택하고, 간질환·약물 상호작용은 ketoconazole 계열 선택에 반영한다. 중증·빠른 조절이 필요한 경우 steroidogenesis 억제제 병용 또는 집중 감시하 정주 치료를 검토한다. [Endocrine Society](https://www.endocrine.org/clinical-practice-guidelines/treatment-of-cushing-syndrome)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 치명적일 수 있음.

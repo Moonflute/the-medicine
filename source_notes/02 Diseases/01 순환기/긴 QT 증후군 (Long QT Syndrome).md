@@ -18,7 +18,7 @@ review_status: "guideline_enriched"
 guideline_year: "2024"
 sources: ["2024 대한부정맥학회 심실성 부정맥 및 돌연 심장사 진료지침 (II) | https://www.koreahr.org/file/2024_KSHRS_Guideline_Part2.pdf", "2022 AHA/ACC/HRS Guideline for the Diagnosis and Management of Patients With Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001091"]
 
-content_updated_at: "2026-07-17"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[순환기]]
 
@@ -61,6 +61,10 @@ content_updated_at: "2026-07-17"
   효과가 불충분할 경우 mexiletine 등을 추가할 수 있다.
 - **시술 및 수술**: 약물 치료에 반응하지 않는 고위험군에서 삽입형 제세동기(ICD) 삽입 또는 좌측 교감신경절제술(left cardiac sympathetic denervation)을 고려한다.
 - **위험도별 치료**: QT 연장 약물과 전해질 이상을 피하고, QT 연장이 확인된 선천성 LQTS에서는 비선택적 베타차단제(nadolol 또는 propranolol)를 우선 고려한다. 재발성 실신·심정지·ICD shock은 약물 순응도와 유발 인자를 재점검한 뒤 전기생리 전문팀에서 ICD/교감신경절제술을 포함해 판단한다. TdP/불안정 심실부정맥은 ACLS 원칙과 전해질 교정 하에 즉시 처치한다.
+
+- **심정지 생존자**는 베타차단제에 더해 ICD를 평가하며, 적절한 약물치료 중에도 부정맥성 실신/VT가 재발하면 ICD 또는 교감신경 차단을 논의한다. 무증상 QT 연장만으로 모두 ICD를 삽입하지 않는다.
+- Mexiletine은 특히 **LQT3**에서 유전자형과 QT 단축 반응을 확인해 선택한다. 모든 LQTS에서 베타차단제 다음 단계로 일괄 추가하지 않는다.
+- 근거: [ESC 심실부정맥 지침 2022](https://academic.oup.com/eurheartj/article/43/40/3997/6675633).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료를 받지 않으면 TdP 및 급사 위험 증가

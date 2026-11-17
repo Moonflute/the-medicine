@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -49,9 +50,10 @@ sources: ["폐암 진료 가이드라인 2023 | https://www.lungcancer.or.kr/bbs
 - 조직 검사를 통해 소세포암으로 확진하며, 임상적으로 제한기(Limited stage)와 확장기(Extensive stage)로 구분하여 치료 방침을 결정한다.
 
 ## 5. 치료 (Treatment)
-  * **제한기 (Limited stage):** 항암 화학 요법 (CTx)과 흉부 방사선 치료 (RTx)를 병행.
-  * **확장기 (Extensive stage):** 항암 화학 요법 (CTx)이 주된 치료이며, 면역항암제 병용 요법이 고려될 수 있음.
-  * **뇌 전이:** 예방적 뇌 방사선 조사 (PCI) 또는 증상성 뇌 전이 시 방사선 치료 고려.
+- **극초기 수술 후보**: T1–2N0M0 중 종격동 림프절 평가로 전이가 배제되고 수술 가능하면 절제 후 platinum＋etoposide 보조치료를 검토한다. 대부분의 소세포암에 수술을 일반화하지 않는다.
+- **제한기**: 적합한 수행능력·장기기능이면 platinum＋etoposide와 흉부 방사선 동시치료를 시행한다. 동시치료를 견디기 어려우면 순차치료를 검토한다. 동시 항암방사선 후 진행하지 않은 성인에서는 durvalumab 공고치료를 평가한다. [FDA](https://www.fda.gov/drugs/cancer-approvals/fda-approves-durvalumab-limited-stage-small-cell-lung-cancer)
+- **확장기**: 적합한 환자는 platinum＋etoposide＋atezolizumab 또는 durvalumab 후 유지 면역치료를 검토한다. 면역치료 금기·수행능력·장기기능에 따라 조정한다.
+- **뇌와 재발**: PCI는 이미 생긴 뇌전이의 치료와 구분한다. 치료 반응·나이·인지기능·MRI 추적 가능성에 따라 PCI 또는 MRI 감시를 논의한다. 재발은 이전 치료 반응과 무치료 기간·독성·수행능력으로 재도전/후속약제/임상시험을 선택한다. [NCI PDQ](https://www.cancer.gov/types/lung/hp/small-cell-lung-treatment-pdq)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 공격적인 암으로 진단 시 이미 전신 전이가 있는 경우가 많으며, 치료 반응은 좋으나 재발률이 높다.

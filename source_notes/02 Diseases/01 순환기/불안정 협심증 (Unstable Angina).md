@@ -17,7 +17,7 @@ review_status: "guideline_enriched"
 guideline_year: "2023"
 sources: ["2020년 급성 심근경색증의 약물 치료법에 대한 전문가 합의문 | https://www.koreamed.org/SearchBasic.php?RID=0106KCJ/2020.50.10.875", "2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS-in-patients-presenting-without-persistent-ST-segment-elevation"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[순환기]]
 
@@ -68,6 +68,9 @@ content_updated_at: "2026-07-16"
 * **장기 관리**:
   스타틴, ACE 억제제(또는 ARB), 베타차단제, 항혈소판제를 지속 투여한다.
   퇴원 전에는 재관류 여부, 허혈·출혈 위험, 심기능 및 동반질환을 함께 검토하여 약제와 추적 계획을 개별화하고, 금기 없으면 심장재활 의뢰와 금연·운동·식이·혈압·당뇨 관리 계획을 연계한다.
+
+- Troponin 음성이라는 이유만으로 저위험으로 보지 않는다. 불응성 흉통·불안정 혈역학·위험 부정맥은 즉시 침습 평가하고, 안정 시에는 증상·동적 ECG·전체 위험도에 따라 입원 중 조영술 또는 비침습 평가를 선택한다. 모든 의심 환자가 자동 PCI/CABG 대상은 아니다. NSTE-ACS에 혈전용해는 시행하지 않는다.
+- 근거: [ESC ACS 지침 2023](https://doi.org/10.1093/eurheartj/ehad191).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심근경색(MI), 부정맥, 심부전으로 진행될 수 있으며, 병변의 위치와 좌심실 기능에 따라 예후가 결정된다.

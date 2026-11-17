@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - turner syndrome
 유형:
@@ -43,6 +43,9 @@ reviewed_at: "2026-07-30"
 - **합병증 선별 검사**: 심혈관(대동맥 박리 등), 신장, 갑상선 기능, 청력 및 골밀도에 대한 정기적인 영상 및 혈액 검사 시행.
 - **다학제적 추적 관찰**: 소아청소년과, 내분비내과, 심장내과, 산부인과 등 전문의 협진을 통한 평생 건강 관리 체계 구축.
 - **임신 및 유전 상담**: 난임 가능성에 대한 상담과 필요 시 난자 공여 등 보조생식술에 대한 사전 정보 제공.
+
+- **사춘기 유도 시작**: FSH가 반복 상승하고 자발 사춘기가 시작되지 않으면 11–12세에 저용량 estradiol을 시작하여 2–4년에 걸쳐 성인 용량으로 올린다. 성장 여력이 있으면 GH와 병행할 수 있으며 성장만을 위해 에스트로겐 시작을 과도하게 늦추지 않는다. [국제 Turner 지침 2024](https://doi.org/10.1093/ejendo/lvae050)
+- **임신·ART의 심혈관 경계**: 임신 전 심초음파와 심장 MRI를 평가한다. ASRM 2024는 ASI >2.5 cm/m² 또는 ASI ≥2.0 cm/m²이면서 대동맥 이첨판·축착·고혈압 등 중요한 위험이 있으면 임신 시도를 금기로 제시한다. 난자 공여로 임신이 가능하다는 사실과 임신의 심혈관 안전성은 별도 판단한다. [ASRM 2024](https://www.asrm.org/practice-guidance/practice-committee-documents/maternal-cardiovascular-morbidity-and-mortality-associated-with-pregnancy-in-individuals-with-turner-syndrome-2024/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심혈관 질환(대동맥 박리 등), 자가면역 질환, 난청, 불임 등의 위험이 높으므로 평생 관리가 필요함.

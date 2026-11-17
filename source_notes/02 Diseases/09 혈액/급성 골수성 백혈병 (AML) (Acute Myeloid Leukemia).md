@@ -20,7 +20,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-11-17"
 guideline_year: "2026"
 sources: ["American Society of Hematology 2025 guidelines for treating newly diagnosed acute myeloid leukemia in older adults. | https://pubmed.ncbi.nlm.nih.gov/41321225/"]
 reviewed_at: "2026-07-16"
@@ -58,7 +58,7 @@ review_status: "guideline_enriched"
 - **치료 원칙**: 고령 환자에서 항백혈병 치료(ALT)는 최선의 지지 요법보다 권장됨. 치료 선택은 환자의 목표, 동반 질환, 세포유전학적/분자학적 위험도에 따라 결정.
 - **관해 유도 및 공고 요법**:
   - **전통적 요법**: 7+3 요법(사이타라빈+안트라사이클린)은 유리한 세포유전학적/분자학적 변이를 가진 환자나 신체 상태가 양호한 고령 환자에게 고려.
-  - **베네토클락스(Venetoclax) 병용**: HMA(아자시티딘/데시타빈) 또는 저용량 사이타라빈(LDAC)과 베네토클락스 병용 요법은 고령 환자(특히 70세 이상)나 전통적 요법에 부적합한 경우 선호될 수 있음.
+  - **베네토클락스(Venetoclax) 병용**: HMA(아자시티딘/데시타빈) 또는 저용량 사이타라빈(LDAC)과 베네토클락스 병용 요법은 집중 항암치료에 부적합한 환자에서 우선 검토하며, 70세라는 나이만으로 요법을 자동 결정하지 않음. 기능 상태·허약·장기 기능·환자 목표를 함께 평가함.
 - **표적 치료 및 기타**:
   - **FLT3 변이**: 전통적 유도/공고 요법 시 FLT3 억제제 병용 권장.
   - **IDH 변이**: IDH1 변이 시 아자시티딘+이보시데닙 병용 고려. IDH2 변이 시 아자시티딘 단독 또는 HMA+베네토클락스 병용이 에나시데닙 병용보다 선호될 수 있음.

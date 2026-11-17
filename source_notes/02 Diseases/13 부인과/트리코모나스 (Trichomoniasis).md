@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-15"
+content_updated_at: "2026-11-18"
 aliases:
 - trichomoniasis
 - 트리코모나스 질염
@@ -51,6 +51,8 @@ reviewed_at: "2026-07-30"
 - 치료 완료 및 증상 소실 시까지 성관계를 금지함.
 - 투약 기간 중 및 투약 후 일정 기간 동안 알코올 섭취를 피하도록 교육함.
 - 재감염률이 높으므로 치료 후 3개월 이내에 재검사를 시행함.
+
+- **지속·재발 시 전환**: 재노출·복약 누락을 먼저 확인한다. 여성에서 metronidazole 500 mg 하루 2회 7일을 완료했는데 재노출 없이 지속되면 metronidazole 또는 tinidazole 2 g/일 7일을 검토한다. 임신에는 tinidazole을 피한다. 잔여 핵산에 의한 위양성을 줄이려면 치료 반응 확인용 NAAT는 종료 후 3주 이전에 시행하지 않는다. [CDC 재발성 trichomoniasis](https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**:

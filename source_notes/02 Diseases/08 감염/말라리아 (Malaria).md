@@ -19,7 +19,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["[Malaria diagnosis: French recommendations ANOFEL/LABAC]. | https://pubmed.ncbi.nlm.nih.gov/42153399/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[감염]]
 
@@ -53,6 +53,9 @@ content_updated_at: "2026-07-16"
   클로로퀸, 아토바쿠온/프로구아닐, 메플로퀸 등도 사용 가능
 - 재발 방지: 삼일열원충 및 난형원충 감염 시 간 내 휴면형 제거를 위해 프리마퀸(primaquine) 또는 타페노퀸(tafenoquine) 투여
 - 치료 중에는 기생충혈증 추세와 혈당을 확인하고, 의식저하·저혈당·호흡부전·신기능 악화는 중증 말라리아 신호로 평가한다.
+
+- **경구에서 정주로**: 의식 저하·경련, 쇼크, 호흡부전, AKI, 중증 빈혈·산증 또는 CDC 기준 기생충혈증 ≥5%는 IV artesunate를 긴급 투여할 중증 소견이다. 경구 복용 불가도 정주 치료를 검토한다. 초기 정주 과정 후 기생충혈증 ≤1%이고 경구 가능하면 완전한 경구 후속 요법을 시행한다.
+- **근치요법 안전성**: P. vivax/ovale의 primaquine·tafenoquine은 정량 G6PD 검사 뒤 선택하며 임신 중 투여하지 않는다. 약제·연령·동반 혈액기 치료에 따라 tafenoquine 적용이 제한된다. [CDC 2026](https://www.cdc.gov/malaria/hcp/clinical-guidance/iv-artesunate-us.html) · [종별 치료](https://www.cdc.gov/malaria/hcp/clinical-guidance/treatment-of-uncomplicated-malaria.html)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 열대열원충은 뇌성 말라리아, 급성 호흡곤란 증후군(ARDS), 신부전 등 중증 합병증을 유발할 수 있어 치명적일 수 있음

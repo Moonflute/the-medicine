@@ -17,7 +17,7 @@ sources:
 disease_family: psychiatry_split
 parent_disease: 신경인지장애 (Neurocognitive Disorders)
 relation_to_parent: subtype
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 ---
 ## 1. 개요
 - 뇌경색·소혈관질환 등 뇌혈관 손상과 시간적으로 또는 영상·임상적으로 연관된 인지저하를 말하며, 혼합형 치매가 흔하다.
@@ -38,6 +38,10 @@ content_updated_at: "2026-07-30"
 - **다학제적 기능 재활**: 인지·보행·연하·우울 기능을 평가하고, 작업·물리·언어치료를 연계하며 낙상 방지 및 운전·금융·복약 안전 계획을 수립한다.
 - **행동심리증상 대응**: 환경 조정과 돌봄자 교육을 우선 시행하며, 증상 급변 시 새로운 뇌졸중, 섬망, 감염, 약물 부작용 가능성을 우선적으로 감별한다.
 - **협진 및 추적 관찰**: 혼합형 치매 가능성을 염두에 두고 신경과와 긴밀히 협진하며, 정기적인 영상 검사와 인지기능 평가를 통해 질환의 진행을 모니터링한다.
+
+- **인지 약제 사용 조건**: 순수 혈관성 치매에 cholinesterase 억제제·memantine을 일괄 처방하지 않는다. Alzheimer병·DLB·Parkinson 치매의 동반이 의심되면 해당 병리에 맞추어 고려한다. 항혈소판·항응고제는 별도의 뇌혈관·심방세동 적응증으로 선택하며 인지 저하만으로 시작하지 않는다.
+
+근거: [NICE NG97](https://www.nice.org.uk/guidance/ng97/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.

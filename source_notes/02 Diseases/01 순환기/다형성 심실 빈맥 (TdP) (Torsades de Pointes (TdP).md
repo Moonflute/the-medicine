@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -43,6 +43,10 @@ reviewed_at: "2026-07-30"
 * 후천성 TdP의 1차 치료로 황산마그네슘 정맥 주사를 투여한다.
 * QT 간격 단축 및 빈맥 조절을 위해 일시적 심박동기 삽입이나 약물 치료를 고려한다.
 * 선천성 TdP의 경우 베타차단제를 우선 사용하고, 지속 시 삽입형 제세동기(ICD) 등을 고려한다.
+
+- 지속성 다형성 VT는 동기화가 어려워 **즉시 비동기 제세동**한다. QT 연장성 TdP에서는 원인 약제를 중단하고 magnesium sulfate(성인 통상 2 g IV) 및 칼륨·마그네슘 교정을 시행한다. QT 연장성 TdP에 amiodarone을 관성적으로 추가하지 않는다.
+- 서맥·휴지기 의존 **후천성 재발 TdP**가 교정에도 지속되면 임시 과속 조율 또는 isoproterenol을 전문 감시하에 사용한다. 선천성 LQTS에 같은 약물 전략을 일괄 적용하지 않는다.
+- 근거: [AHA 성인 전문소생술 2025](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심실세동으로 진행되어 급사할 수 있다.

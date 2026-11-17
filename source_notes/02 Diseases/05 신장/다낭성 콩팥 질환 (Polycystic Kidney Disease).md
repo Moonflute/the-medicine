@@ -18,7 +18,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["KDIGO 2025 Clinical Practice Guideline for the Evaluation, Management, and Treatment of Autosomal Dominant Polycystic Kidney Disease (ADPKD) | https://kdigo.org/guidelines/adpkd/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[신장]]
 
@@ -54,6 +54,9 @@ content_updated_at: "2026-07-16"
 - 합병증 관리: 요로감염 시 항생제 치료, 통증 조절, 필요 시 낭종 흡인 또는 신절제술.
 - 말기 신부전 시: 투석 또는 콩팥 이식.
 출처: KDIGO 2025
+
+- **Tolvaptan 대상**: 성인 ADPKD, eGFR ≥25 mL/min/1.73m²이며 빠른 진행 위험이 있는 경우다. 전형적 영상의 Mayo 1C–1E 또는 장기간 eGFR 감소 ≥3 mL/min/1.73m²/년 등을 활용하되, 1C는 느린 진행 환자도 있어 연령·가족력·기능 경과를 추가 확인한다. 다른 원인의 eGFR 저하와 ARPKD에 그대로 적용하지 않는다.
+- 시작 전과 치료 중 간기능·Na·체액 상태를 감시한다. 수분 접근 불가·탈수·급성 질환 때 일시 중단 계획을 교육하며, 무조건 많은 물을 마시게 하기보다 갈증·Na·신기능과 약물에 맞춘다. [KDIGO 2025](https://kdigo.org/wp-content/uploads/2025/01/KDIGO-2025-ADPKD-Guideline.pdf)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 60세까지 약 35~45%에서 신부전 발생.

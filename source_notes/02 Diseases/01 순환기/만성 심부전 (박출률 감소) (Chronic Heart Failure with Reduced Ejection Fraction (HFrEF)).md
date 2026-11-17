@@ -12,7 +12,7 @@ CC:
 - 피로
 - 부종
 clinical_priority: tier_1
-content_updated_at: '2026-10-20'
+content_updated_at: "2026-11-17"
 guideline_year: '2026'
 guideline_reviewed_at: '2026-10-20'
 guideline_review_status: primary_source_reviewed
@@ -59,6 +59,9 @@ population: adult
 - 선택된 환자에서는 hydralazine/isosorbide dinitrate도 전문 판단 하에 고려한다.
 - GDMT 이후에도 LVEF 저하와 적절한 전도 이상이 지속되면 ICD/CRT 적응증을 평가한다. 허혈성 원인, 중증 판막질환, 진행성 HF 또는 반복 입원은 심부전·중재·심장수술 전문 협진으로 연결한다.
 - **LVEF ≤35%·LBBB·QRS ≥150 ms인 증상성 환자**에서는 FMT 시작과 CRT 계획을 병행할 수 있다(IIb, C). 삽입 전 LVEF를 재평가한다.
+
+- **약제 시작·중단 조건**: spironolactone/eplerenone은 eGFR >30 mL/min/1.73 m², K <5.0 mmol/L에서 시작하고 조기에 신기능·K를 재확인한다. 교정에도 K를 <5.5로 유지할 수 없으면 중단을 검토한다. ACEi에서 ARNI로 전환할 때는 최소 36시간 간격을 둔다. 임신·혈관부종 병력·증상성 저혈압 등 금기를 함께 확인한다. [AHA/ACC/HFSA](https://www.jacc.org/doi/full/10.1016/j.jacc.2021.12.012)
+- **ICD 판단**: 이차예방 적응증과 구분하여, 원인별 적정 GDMT 후에도 LVEF ≤35%와 NYHA II–III 증상이 지속되고 기능적으로 의미 있는 생존이 >1년 기대되면 일차예방 ICD를 평가한다. 심근경색 후에는 적어도 40일과 재혈관화/치료 후 재평가 시점을 고려한다. [AHA/ACC/HFSA](https://www.jacc.org/doi/full/10.1016/j.jacc.2021.12.012)
 
 ## 6. 예후 및 합병증
 - 주요 합병증은 급성 심부전 재입원, 심실성 부정맥·돌연사, 신기능 악화, 저나트륨혈증·고칼륨혈증, 심인성 쇼크다.

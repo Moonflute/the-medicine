@@ -13,7 +13,7 @@ CC:
 - 시야장애
 - 어지러움
 clinical_priority: tier_1
-content_updated_at: '2026-10-21'
+content_updated_at: "2026-11-18"
 guideline_year: '2026'
 sources:
 - "AHA/ASA. Early Management of Acute Ischemic Stroke — 2026 | https://www.ahajournals.org/doi/10.1161/STR.0000000000000513"
@@ -63,6 +63,10 @@ guideline_review_status: primary_source_reviewed
 - anterior circulation large-vessel occlusion에서는 EVT를 신속히 평가한다. 시간창, baseline 기능, 혈관폐색 위치, core/penumbra를 고려하며, IV thrombolysis 적격인 환자에서 EVT 평가를 위해 IV 치료를 지연하지 않는다.
 - 혈압·산소화·체온·혈당을 관리하고, 저산소증·저혈압·발열·저혈당을 교정한다. 재관류 전후 혈압 목표와 항혈전 투여는 사용한 재관류 치료 및 출혈 위험에 맞춰 protocol대로 관리한다.
 - 연하 확인 전 경구 투약·식이를 피하고, stroke unit 입원·조기 재활·VTE 예방·합병증 예방을 시행한다. antiplatelet/anticoagulation, statin, 혈압·당뇨병 관리와 원인별 이차예방은 출혈 영상과 원인 평가 뒤 결정한다.
+
+- **정맥 혈전용해 선택**: 장애를 남길 결손이 있고 발병/최종 정상 확인 후 **4.5시간 이내**이면 금기를 확인하여 alteplase 0.9 mg/kg(최대 90 mg) 또는 tenecteplase 0.25 mg/kg(최대 25 mg)을 사용한다. 낮은 NIHSS만으로 배제하지 않지만 경미한 비장애성 결손에는 일상적으로 투여하지 않는다. 4.5–9시간 또는 기상 뇌졸중은 적합한 관류영상/DWI–FLAIR 기준으로 선별한다.
+- **혈전제거술 분기**: ICA/M1 폐색의 0–6시간 표준 권고군은 NIHSS ≥6, 발병 전 mRS 0–1, **ASPECTS 3–10**이다. 6–24시간에도 영상으로 선별하며, ASPECTS 3–5는 <80세·NIHSS ≥6·mRS 0–1·유의한 종괴효과 없음 등의 조건을 적용한다. 작은 경색핵만 대상으로 한 과거 기준으로 일괄 배제하지 않는다.
+- **투여 전후 혈압·항혈전제**: IVT 전 <185/110 mmHg, 이후 24시간 <180/105 mmHg를 유지한다. IVT 뒤에는 통상 24시간 추적 영상에서 출혈을 배제한 후 항혈전제를 시작한다. 성공적 EVT 후에도 SBP <140 mmHg로 강하게 낮추는 전략은 피한다. [AHA/ASA 2026](https://doi.org/10.1161/STR.0000000000000513)
 
 ## 6. 예후 및 합병증
 - 출혈성 변환, 뇌부종, aspiration pneumonia, DVT/PE, 부정맥, 우울·인지장애가 초기 합병증이다. 신경학적 악화·두통·구토·의식 저하는 반복 영상과 재평가가 필요한 신호다.

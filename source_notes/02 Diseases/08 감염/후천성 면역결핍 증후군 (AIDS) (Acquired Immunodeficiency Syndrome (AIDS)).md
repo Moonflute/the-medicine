@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -44,11 +44,13 @@ reviewed_at: "2026-07-30"
   진단 후 CD4 수치와 바이러스 부하를 통해 질병 단계를 평가하고 치료 계획을 수립한다.
 
 ## 5. 치료
-- ART를 즉시 시작하고, 내성 검사·동반 질환·약물 상호작용을 고려한 최적의 복합 요법을 선택한다.
+- 대부분 신속한 ART 시작이 원칙이며 내성·동반 질환·상호작용을 반영한다. 다만 CNS cryptococcosis와 TB 수막염은 IRIS 위험 때문에 기회감염별 시작 시점을 따로 정한다.
 - 치료 시작 후 4~6주에 CD4 수치와 바이러스 부하를 확인하고, 이후 3~6개월 간격으로 추적 검사를 시행한다.
 - CD4 수치에 따라 폐포자충 폐렴(PJP) 예방 항생제 및 기타 기회감염 예방접종을 제공한다.
 - 약물 부작용 및 상호작용을 지속적으로 모니터링하고, 필요 시 약제 교체 또는 부작용 관리 전략을 적용한다.
-- 치료 반응이 미흡하거나 합병증이 발생할 경우 감염내과 전문의와 협진하고, 지역 보건소·전
+- 바이러스 억제 실패 시 순응도·상호작용·내성을 확인하고 효과 있는 약제로 조정한다. 기회감염 치료·예방과 복약 지원을 감염내과에서 통합한다.
+
+- **기회감염 예방 분기**: PCP는 CD4 <100 또는 100–200/μL+검출 HIV RNA, toxoplasma는 IgG 양성+CD4 <100/μL가 주요 일차 예방 조건이다. 활동성 기회감염을 먼저 배제하고 면역 회복 뒤 중단 조건을 재평가한다. [NIH PCP](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis) · [ART 시작](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/initiation-antiretroviral-therapy)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 ART 치료 시 만성 질환으로 관리 가능, 기대 수명이 크게 향상된다.

@@ -20,7 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[혈액]]
 
@@ -46,7 +46,7 @@ content_updated_at: "2026-07-30"
 - 병리 재검토와 면역표현형·유전학적 분류를 신속히 확정하고, 혈액종양 전문팀과 치료 전략을 협의한다.
 - 치료 전 종양부하, LDH, 요산, 전해질 및 신기능을 평가하고, 수액·요산 저하 및 전해질 모니터링으로 종양용해증 위험을 최소화한다.
 - 장기 침범, 고종양부하, 신기능 저하 등 위험 요인이 있으면 입원 치료를 우선하고, 감염 예방·수혈·중추신경계 평가를 포함한 다학제 협진을 진행한다.
-- 치료 후 초기 2‑4주간 LDH·요산·전해질을 재검사하고, 2‑3개월마다 영상 및 임상 평가를 통해 반응 및 재발 여부를 모니터링한다.
+- 종양용해 고위험의 치료 시작 전후에는 전해질·요산·Cr·LDH를 수시간 단위로 추적할 수 있으며, 첫 검사를 2–4주 뒤로 미루지 않는다. 이후 반응 평가는 확정된 병리 아형과 항암 프로토콜의 시점에 맞춘다. [eviQ TLS 관리](https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/prophylaxis-and-treatment/108-prevention-of-tumour-lysis-syndrome)
 - 치료 반응이 미미하거나 재발 위험이 높은 경우, 조기 이식·임상시험 등 전문 센터로의 전원을 검토한다.
 
 ## 6. 예후 및 합병증 (Prognosis)

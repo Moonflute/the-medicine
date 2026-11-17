@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -70,7 +71,7 @@ sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacologi
 - 손가락을 침범하지 않는 피부경화에는 이 기준을 적용하지 않는다. nephrogenic systemic fibrosis, generalized morphea, eosinophilic fasciitis, scleredema diabeticorum, scleromyxedema, erythromelalgia, porphyria, lichen sclerosus, graft-versus-host disease, diabetic cheiroarthropathy 등 경피증양 증상을 더 잘 설명하는 질환을 배제한다.
 
 ## 5. 치료
-- 레이노 현상: DHP-CCB(nifedipine 등), ARB, 보센탄(Bosentan), 베타 차단제는 금기
+- 레이노 현상: DHP-CCB(nifedipine 등)를 우선 사용하고 불충분하면 PDE5 억제제, 중증·경구 불응이면 IV iloprost를 고려한다. 혈관수축 약제는 피하거나 필요성을 재평가한다. Bosentan은 주로 새 수지 궤양 예방에 사용하며 레이노의 보편적 1차 약제가 아니다.
 - 피부 경화: Methotrexate, mycophenolate mofetil, rituximab, tocilizumab 등 고려
 - 간질성 폐질환: Cyclophosphamide, mycophenolate mofetil, nintedanib
 - 폐동맥고혈압: Sildenafil, 보센탄, 프로스타글란딘 유도체
@@ -81,6 +82,8 @@ sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacologi
 - 완치는 어렵지만 침범 장기별 치료로 증상과 기능을 개선한다. 레이노 현상에서는 추위 노출을 피하고 보온하며, 혈관수축 약제와 흡연을 피한다. 피부건조에는 잦은 목욕을 피하고 보습을 하며, 관절·피부 유연성 유지 운동을 시행한다.
 - GERD에는 소량씩 자주 식사하고, 취침 시 상체를 높이며, 야간 음식·커피·홍차·초콜릿처럼 하부식도괄약근 압력을 낮출 수 있는 음식을 피한다. 위장운동 촉진제와 세균과다증식에 대한 항균 치료는 해당 합병증에서 고려한다.
 - 신발증의 고혈압·신부전은 ACE inhibitor로 즉시 치료하고, 필요 시 투석을 병행한다. 치료 중 혈압, 혈액·소변 검사와 PFT를 정기적으로 추적한다.
+
+- **장기별 강화**: 활동성 수지 궤양은 PDE5 억제제/IV iloprost, 반복 새 궤양은 bosentan을 검토한다. ILD는 기능·영상 진행과 위험에 따라 MMF·rituximab·cyclophosphamide 또는 nintedanib 등을 선택한다. 경피증 신위기는 ACEi를 즉시 시작하며, 예방 목적으로 모든 환자에게 ACEi를 처방하는 것과 구분한다. [EULAR 2023 update](https://doi.org/10.1136/ard-2024-226430)
 
 ## 6. 예후 및 합병증
 - 내부 장기(폐, 심장, 신장) 침범 정도가 사망률을 결정함.

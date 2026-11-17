@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-10-08"
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -81,9 +81,13 @@ reviewed_at: "2026-10-08"
 
 
 - **치료 전 평가**: 간 기능(Child-Pugh score), 전신 상태(ECOG), 종양 병기(BCLC)를 종합하여 다학제적 치료 계획을 수립한다.
-- **완치적 치료**: 간 절제술, 간 이식(밀란 기준 준수), 또는 고주파 열치료(RFA)를 우선 고려하며, 환자의 간 예비능과 종양 특성을 고려하여 결정한다.
-- **국소 및 전신 치료**: 완치적 치료가 어려운 경우 TACE/TARE 등 국소지역적 치료를 시행하거나, 진행성 간암 시 면역항암제 및 표적치료제를 포함한 전신 요법을 적용한다.
+- **완치적 치료**: 간에 국한된 단일 종양에서 간절제를 우선 평가한다. 간경변 환자는 Child–Pugh A, 임상적으로 유의한 문맥고혈압·고빌리루빈혈증이 없고 절제 후 잔존 간 용적·기능이 충분한 경우가 대표적인 대상이다. 종양 크기만으로 절제 가능성을 정하지 않는다. 문맥고혈압·비대상성 간경변 때문에 절제가 부적합하면 종양 범위와 이식 적격성을 확인하여 간이식을 검토한다. [KLCA–NCC 2022](https://e-cmh.org/upload/pdf/cmh-2022-0294.pdf)
+- **국소 및 전신 치료**: 주요 혈관 침범·간외 전이가 있거나 국소치료가 부적합/불응이면 전신치료를 검토한다. 면역항암 병합요법의 주된 근거는 Child–Pugh A, ECOG 0–1에서 확보되었다. Child–Pugh B는 간기능 저하 원인·정도와 이득/독성을 개별 평가하며, 비대상성 간부전에서 항암치료를 자동 적용하지 않는다. 1차 선택에는 atezolizumab＋bevacizumab, durvalumab＋tremelimumab이 있다. Nivolumab＋ipilimumab도 2025년 미국 FDA가 1차 치료로 승인했으며 국내 허가·급여와 구분한다. [ASCO](https://ascopubs.org/doi/10.1200/JCO.23.02745), [FDA 2025](https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-ipilimumab-unresectable-or-metastatic-hepatocellular-carcinoma)
+- **약제 선택 조건**: bevacizumab 전 내시경으로 정맥류 출혈 위험을 평가한다. 최근 6개월 이내 위장관 출혈 또는 고위험 정맥류는 적절한 지혈·예방 치료 후 투여하거나 durvalumab＋tremelimumab 등 대안을 검토한다. 면역항암제가 부적합하면 sorafenib/lenvatinib 등 TKI를 검토한다. 후속 치료는 이전 약제와 독성을 반영하며, regorafenib은 특히 sorafenib 내약성을 확인한다. Ramucirumab은 AFP ≥400 ng/mL가 선택 기준이고 핵심 허가 근거는 sorafenib 치료 후 환자이다. AFP 수치만으로 1차 치료를 정하지 않는다. [AASLD](https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/), [REACH-2](https://pubmed.ncbi.nlm.nih.gov/30665869/)
 - **추적 관찰 및 예방**: 치료 후 재발 감시를 위해 정기적인 영상 검사 및 종양 표지자 검사를 시행한다. 기저 HBV/HCV 감염의 항바이러스 치료는 바이러스별 적응증과 치료기간에 맞춰 시행한다.
+
+- **TACE 후 전환 판단**: 적절한 선택적 TACE를 1–2회 시행해도 객관적 반응이 없으면 간기능이 유지되는 동안 전신치료 등 대안을 검토한다. 새 혈관 침범·간외 전이, 반복 시술로 인한 간기능 저하, 선택적으로 치료하기 어려운 광범위/침윤형 종양도 재평가 사유다. 시술 횟수만 채우기 위해 반복하지 않는다. [EASL 2025](https://easlcampus.eu/sites/default/files/2025-02/EASL_CPG_Management_HCC.pdf)
+- **수술·소작 후 약물치료**: 재발 고위험이라는 이유만으로 atezolizumab＋bevacizumab 보조요법을 일상적으로 시행하지 않는다. IMbrave050의 장기 추적에서 초기 재발 억제 이득이 유지되지 않아 보조요법 권고가 변경되었다. [NCCN Insights 2026](https://doi.org/10.6004/jnccn.2026.0047)
 
 ## 6. 예후 및 합병증
 - **TACE 후 관찰**: 우상복부 통증, 발열, 오심·구토는 색전후증후군으로 나타날 수 있다. 증상의 지속·악화, 오한, 혈역학적 불안정 또는 간기능 악화가 있으면 간농양·담낭염·간경색·담관 손상·간부전·패혈증을 감별한다. 발열을 모두 종양 괴사에 의한 반응으로 판단하거나, 감염 평가를 위해 일률적으로 7일을 기다리지 않는다.

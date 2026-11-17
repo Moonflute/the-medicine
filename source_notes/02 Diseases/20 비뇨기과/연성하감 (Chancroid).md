@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - 연성하감
 유형:
@@ -42,11 +42,9 @@ reviewed_at: "2026-07-30"
   4. 임상 양상이 연성하감에 부합
 
 ## 5. 치료
-- 효과적인 항생제(예: azithromycin, ceftriaxone, erythromycin, ciprofloxacin) 단회 투여로 초기 치료 시행
-- 성 파트너도 동시에 치료하고, 4주 후 재검사로 감염 여부 확인
-- HIV 및 기타 성병 검사를 병행하고, 양성 결과 시 적절한 연계 관리 제공
-- 치료 후 1주 이내에 궤양·부보 호전 여부를 평가하고, 미호전 시 추가 항생제 또는 외과적 평가 고려
-- 약물 부작용(위장관 증상, 알레르기) 및 임신·수유 중인 경우 안전성 검토 후 대체 요법 선택
+- 성인 CDC 요법은 **azithromycin 1 g 경구 1회 또는 ceftriaxone 250 mg IM 1회**가 선택지다. 대체 ciprofloxacin은 500 mg 하루 2회 **3일**, erythromycin은 500 mg 하루 3회 **7일**로, 모두 단회 요법인 것은 아니다.
+- **3~7일에 재평가**하여 진단·복약·HIV·동반 감염·내성을 확인한다. 큰 부보는 항생제만으로 늦게 호전할 수 있어 흡인/절개배액을 검토한다.
+- 증상 발생 전 10일 동안의 성접촉자는 증상이 없어도 검사·치료한다. 임신·수유·HIV에서는 약제와 추적을 개별화한다. [CDC](https://www.cdc.gov/std/treatment-guidelines/chancroid.htm)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 항생제 치료 시 예후 양호

@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -51,6 +51,9 @@ reviewed_at: "2026-07-30"
 - 치료 중 신장 기능, 전해질 및 간 효소를 정기적으로 모니터링한다.
 - 뇌압 상승이 의심될 경우 반복 요추 천자 및 필요 시 신경외과 감압을 의뢰한다.
 - 면역 억제 요인을 평가하고, HIV 등 기저 면역 저하 상태는 적절히 관리하여 재발을 예방한다.
+
+- **CNS 치료 단계**: 적절한 amphotericin B+flucytosine 유도 후 임상·CSF 반응에 따라 fluconazole 공고, 이어 유지요법으로 전환한다. HIV 수막염에서는 즉시 ART를 시작하면 IRIS 위해가 있어 항진균제 시작 약 4–6주 뒤로 조정한다.
+- **뇌압 처치 기준**: opening pressure와 두통·시력·의식을 확인하고, 증상성 상승이면 치료적 LP를 반복하여 압력을 절반 이상 낮추거나 <20 cmH₂O로 조절한다. 지속 상승은 배액/단락술을 평가한다. Mannitol·acetazolamide·일상 steroid가 LP를 대신하지 않는다. [NIH](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cryptococcosis)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 면역 저하 환자에서 중추신경계 감염은 치명적일 수 있으며, 뇌부종으로 인한 신경학적 후유증이 발생할 수 있다.

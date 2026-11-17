@@ -16,7 +16,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["2025 ESC Guidelines for the management of myocarditis and pericarditis | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Myocarditis-and-Pericarditis"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[순환기]]
 
@@ -50,6 +50,8 @@ content_updated_at: "2026-07-16"
 - **기타**: 재발성 또는 난치성인 경우 심막 절제술(pericardiectomy) 고려.
 - **초기 치료·재평가**: 특발성/바이러스성으로 판단되는 저위험 환자는 NSAID 또는 aspirin과 colchicine을 함께 사용하고, 증상·CRP·약물 부작용을 보며 감량한다. 스테로이드는 NSAID/colchicine 금기 또는 특정 원인이 있을 때에 한해 신중히 고려한다.
 - **응급 및 원인 치료**: 저혈압, 심장눌림, 화농성·결핵성·종양성 심막염이 의심되면 원인 검사와 배액/전문과 협진을 지연하지 않는다. 무리한 운동은 급성기와 회복 평가 전까지 피하고, 재발은 초기 치료 순응도·원인·약물 금기를 다시 확인한다.
+
+- **입원·치료 강화 조건**: 발열 >38℃, 아급성 경과, 심초음파 삼출 >20 mm, 심장눌림 또는 aspirin/NSAID에 ≥1주 반응이 없으면 입원과 원인 평가를 검토한다. 면역억제·외상·항응고 사용·심근 침범도 위험도를 높인다. 재발성 염증성 심막염이 colchicine에 저항하고 steroid 의존적이면 감염을 배제한 뒤 IL-1 차단제를 전문팀에서 검토한다. [ESC 2025](https://doi.org/10.1093/eurheartj/ehaf192)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심장 눌림증, 교착 심막염(constrictive pericarditis) 등으로 진행할 수 있음.

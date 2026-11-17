@@ -16,7 +16,7 @@ CC:
 clinical_priority: tier_1
 review_status: official_guideline_reviewed
 reviewed_at: '2026-10-07'
-content_updated_at: '2026-10-07'
+content_updated_at: "2026-11-18"
 guideline_year: '2025'
 sources:
 - 'AHA: Special Circumstances of Resuscitation — Cyanide, 2025 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation'
@@ -46,6 +46,9 @@ disease_family: cyanide-poisoning
 - 구조자 안전을 확보하고 노출에서 벗어나게 한다. 기도·환기·산소화와 순환을 지지하며 심정지이면 표준 소생술을 병행한다.
 - 생명을 위협하는 중독에는 **hydroxocobalamin**을 투여한다. 독성학 자문과 기관의 해독제 프로토콜을 따른다.
 - 사용할 수 없으면 sodium nitrite와 sodium thiosulfate 조합을 고려한다. 다만 화재에 의한 일산화탄소 동반 중독에서는 nitrite가 산소 운반 능력을 더 떨어뜨릴 수 있어, hydroxocobalamin이 없을 때 thiosulfate 단독을 고려하는 별도 경로가 있다.
+
+- 밀폐 화재 노출 후 의식 장애·그을음·쇼크에 **lactate ≥10 mmol/L**가 동반되면 시안화물 독성을 강하게 의심한다. 다만 숫자 하나로 확진하지 않으며 심정지/허탈 시 결과를 기다리지 않는다.
+- 성인 hydroxocobalamin은 **5 g IV를 약 15분에**, 중증도·반응에 따라 추가 5 g(총 10 g)을 고려한다. 심한 쇼크는 투여 속도를 임상 상황에 맞춰 조정한다. [공식 제품정보](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b)
 
 ## 6. 예후 및 합병증
 - 심정지 전 조기 인지와 지지 치료·해독제가 중요하다. 회복 후에도 신경학적 손상과 장기 기능을 확인한다.

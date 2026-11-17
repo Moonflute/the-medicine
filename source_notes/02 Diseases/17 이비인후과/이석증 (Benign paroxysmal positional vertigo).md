@@ -18,7 +18,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-11-18"
 guideline_year: "2025"
 sources: ["Best practice assessment and management of benign paroxysmal positional vertigo in older adults. | https://pubmed.ncbi.nlm.nih.gov/40819291/"]
 reviewed_at: "2026-07-16"
@@ -76,10 +76,7 @@ review_status: "guideline_enriched"
     - 고령/허약 환자 고려사항: 경추/척추 문제, 관절염, 기동성 저하 시 베개 사용(흉추 신전 유도), 틸트 침대(Trendelenburg), 또는 Side lying test 등 변형 술기 적용.
     - 주의사항: 술기 전 경추 불안정성, 척수병증, 중증 경동맥 협착, 척추동맥 부전, 불안정한 심장 질환 등 금기사항 확인. 금기 시 전문가 의뢰 고려.
     - 약물: 전정억제제는 효과가 제한적이므로 권장되지 않음.
-- **담석증**
-    - 경과관찰: 무증상 담석.
-    - 담낭절제술(복강경): 유증상, 담석 크기 > 2.5~3 cm, 합병증 과거력(담낭염, 담관염, 췌장염), Porcelain GB, 해부학적 이상(APBDU).
-    - 기타: 약물치료(UDCA), 시술(레이저쇄석술, 체외충격파쇄석술).
+- 술기 후 증상이 지속하면 잔여/다른 반고리관 BPPV 또는 중추성 원인을 재평가한다. 전형적 이석증에 항생제·이뇨제·담석 치료를 적용하지 않는다.
 
 ## 6. 예후 및 합병증
 - **이석증**: 재발 가능성 있음, 전정재활운동 도움

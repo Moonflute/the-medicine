@@ -15,7 +15,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-11-17"
 guideline_year: "2026"
 sources: ["The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. | https://pubmed.ncbi.nlm.nih.gov/42336388/"]
 reviewed_at: "2026-07-16"
@@ -58,6 +58,8 @@ review_status: "guideline_enriched"
 - Lupus nephritis는 class·중증도에 따라 glucocorticoid와 MMF/cyclophosphamide 기반 유도요법에 belimumab 또는 calcineurin inhibitor 병용을 고려하고, 반응 후 장기 유지치료를 시행한다. 치료반응은 단백뇨와 eGFR 추세로 평가한다.
 - 자외선 차단, 금연, 심혈관 위험 관리, 골건강, 감염 선별과 백신을 병행한다. 임신 전 질병활성도와 약물 안전성을 검토하고 teratogenic 약제는 충분한 기간 전에 전환한다. aPL·anti-Ro/La 결과에 따라 aspirin/heparin 및 태아 모니터링을 계획한다.
 - NSAID는 근골격계 증상·경한 장막염·발열에 사용할 수 있으나, 신혈류 감소·부종·단백뇨 등 약물독성이 루푸스 신염 악화와 혼동될 수 있고 두통·어지럼·우울 등은 CNS flare와 감별한다. cyclophosphamide 사용 시 골수억제·생식선 독성·출혈성 방광염 위험을 설명하고 CBC, 소변검사·혈뇨를 감시하며 충분한 수분 섭취와 필요 시 mesna를 사용한다. azathioprine은 위장관 증상, 골수억제, 과민반응성 간독성을 감시한다.
+
+- **치료 강화·감량 기준**: 유지 prednisone은 ≤5 mg/일을 목표로 하고 가능하면 중단한다. HCQ·국소 치료로 조절되지 않거나 이 수준으로 steroid를 줄일 수 없으면 장기별 면역억제제·생물학제를 추가한다. HCQ 목표는 실제체중 ≤5 mg/kg/일이며 망막·신장 위험에 따라 조정한다. 무증상 aPL 양성에서는 고위험 항체 프로파일과 출혈 위험에 따라 aspirin을 판단하고, 모든 항체 양성 환자에게 항응고하지 않는다. [EULAR 2023](https://doi.org/10.1136/ard-2023-224762)
 
 ## 6. 예후 및 합병증
 - 관해와 재발을 반복한다. 신장·신경계 침범, 혈전성 APS, 감염과 심혈관질환이 주요 이환·사망 원인이며 누적 glucocorticoid는 골다공증, 당뇨, 감염과 장기손상을 증가시킨다.

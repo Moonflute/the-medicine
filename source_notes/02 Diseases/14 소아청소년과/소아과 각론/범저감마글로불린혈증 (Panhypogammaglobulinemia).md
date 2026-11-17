@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - 범저감마글로불린혈증
 유형:
@@ -44,6 +44,8 @@ reviewed_at: "2026-07-30"
 * **감염 관리**: 반복적인 세균 감염 예방을 위해 필요시 예방적 항생제 요법 고려 및 감염 징후 시 즉각적인 항생제 투여
 * **예방접종 주의**: 생백신(live vaccine)은 접종 금기이며, 사백신은 항체 생성 반응이 낮을 수 있음을 인지
 * **전문의 의뢰 및 추적 관찰**: 면역학 전문의의 지속적인 관리 하에 정기적인 혈청 면역글로불린 농도 측정 및 합병증(기관지 확장증 등) 모니터링 수행
+
+* **보충 시작·증량 기준**: X-linked agammaglobulinemia 등 항체 생성이 거의 없는 원발성 질환은 진단 후 보충을 시작한다. 다른 저IgG에서는 연령별 정상치, 백신 항체 반응, 반복/중증 감염과 기관지확장증을 함께 평가하며 수치만으로 평생 치료를 정하지 않는다. 초기 IVIG는 대개 **0.4–0.5 g/kg/월**을 기준으로 하고 SCIG는 분할 투여한다. 감염이 지속되면 원인·순응도·폐질환을 확인한 뒤 용량을 조절하며 trough 숫자만 올리는 치료를 피한다. [BSI/UKPIN 2022](https://discovery.ucl.ac.uk/id/eprint/10159866/1/British%20Society%20for%20Immunology%20and%20United%20Kingdom%20Primary%20Immunodeficiency%20Network%20%28UKPIN%29%20consensus%20guideline%20for%20the%20manag.pdf)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 지속적인 면역글로불린 보충으로 감염 빈도 감소 및 삶의 질 개선 가능

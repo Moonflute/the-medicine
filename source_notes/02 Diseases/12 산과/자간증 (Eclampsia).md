@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-11-17"
 aliases:
 - 자간증
 유형:
@@ -60,6 +61,9 @@ sources: ["ACOG Practice Bulletin: Gestational Hypertension and Preeclampsia (re
 - **중증 고혈압**: 지속되는 SBP ≥160 또는 DBP ≥110 mmHg는 신속히 조절한다. IV labetalol, IV hydralazine 또는 경구 즉방 nifedipine 중 환자 상태·금기·가용성에 맞는 약제를 사용하며, 과도한 혈압 저하로 태반관류를 해치지 않도록 재평가한다.
 - **분만·산후**: 모체를 먼저 안정화한 뒤 분만을 계획한다. 자간증 자체는 분만 적응증이며, 분만 방법은 주수·태아 상태·자궁경부·산과적 상황으로 결정한다. 산후에도 재발·고혈압·폐부종 위험이 있으므로 magnesium 유지와 혈압·신경학적 관찰을 계속한다.
 - **비전형 경과**: 국소 신경결손, 지속 혼수, 48시간 이후의 첫 경련 등은 뇌출혈·정맥혈전·뇌전증을 배제하기 위해 신경영상과 신경과 평가를 병행한다.
+
+- **MgSO4 요법 예(NICE)**: 4 g IV를 5–15분에 부하 후 1 g/hr로 유지하며 마지막 경련 후 24시간까지 지속한다. 재발 경련은 2–4 g IV 추가를 검토하고, 신기능 저하·핍뇨이면 유지량을 감량/중단하며 독성을 자주 평가한다. 호흡저하·건반사 소실은 중단·기도 지원·칼슘 해독 평가가 필요한 소견이다. [NICE 중증 임신 고혈압 관리](https://www.nice.org.uk/guidance/ng133/resources/criteria-for-choice-of-critical-care-level-hypertension-preeclampsia-and-eclampsia-pdf-8720711396)
+
 ## 6. 예후 및 합병증 (Prognosis)
 - 모체 사망 및 태아 합병증의 주요 원인.
   경련으로 인한 저산소증, 흡인성 폐렴, 외상 위험.

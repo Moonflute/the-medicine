@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - external hordeolum
 유형:
@@ -39,9 +39,11 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - 온찜질을 5~10분씩 하루 3~4회 시행해 자연 배농을 촉진한다.
 - 국소 항생제 연고를 적용하고, 증상이 심하거나 주변 조직으로 확산될 경우 경구 항생제로 전환한다.
-- 농양이 24~48시간 내에 배농되지 않거나 통증·부종이 지속되면 절개배농을 시행한다.
+- 충분한 온찜질에도 지속되는 농양·심한 통증은 안과에서 절개배농 필요성을 평가한다. 단지 24–48시간 안에 배농되지 않았다는 이유만으로 모든 병변을 절개하지 않는다.
 - 염증이 악화되거나 시력 저하, 전신 증상이 나타날 경우 안과 전문의에게 즉시 의뢰한다.
 - 치료 후 2~3일 간 증상 변화를 확인하고, 1주일 이내에 호전이 없으면 재평가한다.
+
+- 근거: [AAO 다래끼 치료](https://www.aao.org/eye-health/diseases/chalazion-stye-treatment), [Moorfields 다래끼 관리](https://www.moorfields.nhs.uk/eye-conditions/stye/diagnosis-and-treatment).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 수일 내에 자연 치유되거나 치료에 잘 반응함.

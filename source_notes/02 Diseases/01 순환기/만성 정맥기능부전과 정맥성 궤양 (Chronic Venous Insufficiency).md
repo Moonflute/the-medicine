@@ -6,7 +6,7 @@
 CC: []
 preprocessing_required: x
 reviewed_at: '2026-10-07'
-content_updated_at: '2026-10-07'
+content_updated_at: "2026-11-18"
 review_status: targeted_source_reviewed_draft
 sources:
   - 'ESVS 2022 chronic venous disease guideline | https://esvs.org/wp-content/uploads/2023/03/ESVS-2022-CVD-Guidelines.pdf'
@@ -22,4 +22,7 @@ sources:
 - 적절한 압박, 하지 거상·보행·피부·창상 관리가 기본이다. **압박 전 동맥 관류**를 평가하고 중증 동맥질환에서는 강한 압박을 피한다. 당뇨 등에서는 ABI 해석의 한계도 고려한다.
 - 표재정맥 역류가 확인된 활성 궤양은 적절한 정맥 중재가 치유·재발 예방에 도움이 될 수 있다. 모든 궤양을 동일한 천공정맥 수술(SEPS)로 치료하지 않는다.
 - 감염·통증·상처 추세를 추적하고 치유 후에도 재발 예방을 계획한다.
+
+- **압박의 관류 기준**: 발목 수축기압 <60 mmHg, 발가락압 <30 mmHg 또는 ABI <0.6이면 지속적 압박을 피하고 동맥 재관류 필요성을 평가한다. 혼합 동맥·정맥 궤양은 관류가 확보된 경우에만 낮춘 압박 강도를 전문 감시하에 사용한다. 정맥성 활성 궤양에 표재 역류가 있으면 압박만 장기 지속하기보다 조기 정맥 중재를 논의한다.
+- 근거: [ESVS 만성 정맥질환 지침 2022](https://doi.org/10.1016/j.ejvs.2021.12.024).
 

@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-16"
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -77,6 +77,8 @@ reviewed_at: "2026-07-30"
 - 절제 불가능한 국소진행성·전이성 위암은 전신치료가 기본이다. HER2, PD‑L1, MSI/MMR 및 **CLDN18.2**를 평가해 플루오로피리미딘·백금 기반 요법에 면역·표적치료 병합을 검토한다. HER2 음성에서도 CLDN18.2에 따른 표적치료 선택지가 있으므로 HER2 결과만으로 제외하지 않는다. 국내 허가·급여, 전신상태와 이상반응을 확인한다. [대한위암학회 위암 진료지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC11739648/) · [ASCO 진행 위식도암 Living Guideline 2026.1.2](https://doi.org/10.1200/JCO-26-01944)
 - 폐쇄·출혈 등 국소 증상은 병변 위치와 전신 상태에 따라 내시경 스텐트·지혈, 우회술, 방사선치료 등 증상 완화 방법을 다학제로 검토한다.
 - **위절제 주술기 관리**: 수술 전에는 영양 상태·동반질환과 폐색 시 감압 필요성을 평가하고, 수술 후에는 활력징후·통증·상처와 배액 양상, 장운동 회복 및 식이 진행을 함께 추적한다. 병리 결과를 확인해 보조치료 필요성과 추적 계획을 다학제로 정한다.
+
+- **약제 표지자 기준**: HER2 양성은 통상 IHC 3+ 또는 IHC 2+와 ISH 양성으로 판정해 trastuzumab 기반 요법 적격성을 평가한다. HER2 음성의 절제 불가/전이성 암에서 검증된 검사로 종양세포 ≥75%가 중등도–강한 CLDN18 막 염색을 보이면 zolbetuximab＋fluoropyrimidine/platinum의 대상이 될 수 있다. PD-L1은 CPS와 약제별 적응증을 적용하며 폐암의 TPS 기준과 혼용하지 않는다. [FDA zolbetuximab](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma), [KGCA 2024](https://doi.org/10.5230/jgc.2025.25.e11)
 
 ## 6. 예후 및 합병증
 - 위절제 뒤 초기에는 출혈, 누출, 문합부 폐쇄를, 후기에는 담즙 역류, 덤핑증후군, 영양·흡수장애를 증상과 경과에 따라 평가한다. 수입각·수출각 폐쇄도 후기 합병증으로 감별한다.

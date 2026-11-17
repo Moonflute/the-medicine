@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - 외상 후 스트레스 장애
 유형:
@@ -44,6 +44,10 @@ relation_to_parent: subtype
 - **안전 관리**: 자해 및 타해 위험성을 정기적으로 평가하고, 급성기 위기 상황 발생 시 즉각적인 개입 및 입원 치료를 고려함.
 - **통합적 관리**: 동반된 우울, 불안, 물질 사용 장애에 대한 포괄적 접근과 함께 환자 및 가족 교육을 통한 지지 체계 구축이 필수적임.
 - **추적 관찰**: 증상 호전 여부와 사회적·직업적 기능 회복 정도를 지속적으로 모니터링하며 치료 계획을 조정함.
+
+- **약제 선택**: 외상 중심 치료를 선호하지 않거나 이용하기 어려워 약물을 선택하면 sertraline·paroxetine·venlafaxine이 권고된다. **Prazosin은 PTSD 관련 악몽**에 선택적으로 고려하며 전반적 PTSD 증상 치료용으로 일률 사용하지 않는다. 저혈압·실신을 감시한다. Benzodiazepine과 cannabis는 PTSD 치료 목적으로 권고하지 않는다.
+
+근거: [VA/DoD 2023 PTSD 약물 권고](https://www.ptsd.va.gov/professional/treat/txessentials/clinician_guide_meds.asp).
 
 ## 6. 예후 및 합병증
 - 조기 개입 시 예후가 좋으나, 만성화될 경우 우울증, 물질 사용 장애, 사회적 기능 저하 및 대인관계 갈등이 동반될 가능성이 높음.

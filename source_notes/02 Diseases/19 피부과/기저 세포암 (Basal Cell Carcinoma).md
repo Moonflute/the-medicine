@@ -21,7 +21,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Japanese Dermatological Association Guidelines: Clinical Questions of Guidelines for Basal Cell Carcinoma 2025. | https://pubmed.ncbi.nlm.nih.gov/41243455/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[피부과]]
 
@@ -52,12 +52,10 @@ content_updated_at: "2026-07-16"
 
 
 ## 5. 치료 (Treatment)
-* 치료 목표: 완전 절제, 기능 보존 및 미용적 결과 최적화.
-* 외과적 절제: 
-  - 일본인 대상 연구에서 2mm의 수술적 절제 마진이 대부분의 기저 세포암에 적절한 것으로 보고됨.
-  - 색소성 기저 세포암의 경우 좁은 마진(narrow-margin) 절제가 안전하고 신뢰할 수 있는 치료법으로 제시됨.
-* 모스 미세도식 수술(Mohs micrographic surgery): 고위험군 및 재발성 병변의 표준 치료.
-* 기타 치료: 일반적 외과적 절제, 소파술 및 전기소작술(EDC), 냉동 치료, 방사선 치료(재발성 병변 고려), 국소 도포제(Imiquimod, 5-FU), 전신 요법(면역관문억제제 등 진행성/전이성 병변).
+- 생검으로 아형을 확인하고 위치·크기·경계·재발·면역저하·신경주위 침범을 평가한다. **저위험 원발성 병변은 통상 3~5 mm 임상 경계의 절제와 병리학적 절제면 확인**을 선택한다. 일부 소형 병변의 2 mm 절제 연구를 모든 BCC의 표준으로 적용하지 않는다.
+- 얼굴의 위험 부위, 침윤성/경화성 아형, 불명확한 경계 또는 재발이면 Mohs 등 절제면을 확인하는 수술을 우선 검토한다. 고위험 병변에 일반 절제를 하면 더 넓은 경계가 필요하며 획일적 2 mm를 쓰지 않는다.
+- **표재성 저위험 병변**에서 수술이 부적절하면 imiquimod·5-FU·PDT 등을 고려하지만 결절성·고위험·깊은 침윤 병변을 국소 도포제만으로 치료하지 않는다. 수술 불가 시 방사선 치료의 적합성을 평가한다.
+- 절제·방사선으로 근치하기 어려운 국소진행성 또는 전이성은 hedgehog 억제제 등을 검토하고, 진행·불내성 또는 해당 치료가 부적절한 경우 anti-PD-1 치료를 고려한다. 다학제 판단과 해당 약제의 허가 범위를 따른다. [S2k 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC11626229/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 전이율은 매우 낮으나, 국소 침습성이 강해 방치 시 조직 파괴 및 변형을 초래함.

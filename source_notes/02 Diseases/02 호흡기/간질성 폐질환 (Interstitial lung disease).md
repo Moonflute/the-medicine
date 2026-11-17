@@ -22,7 +22,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension. | https://pubmed.ncbi.nlm.nih.gov/42270533/", "Korean Guidelines for Diagnosis and Management of Interstitial Lung Diseases | https://www.lungkorea.org/journal/view.php?number=1000", "ERS/EULAR clinical practice guidelines for connective tissue disease-associated interstitial lung disease | https://ard.bmj.com/content/85/1/22"]
 
-content_updated_at: "2026-07-17"
+content_updated_at: "2026-11-17"
 ---
 ## 1. 개요
 - **정의**: 폐 간질부의 증식, 염증 세포 침윤, 섬유화로 인한 비정상적 콜라겐 침착 질환군. 광범위폐사이질질환(DPLD)으로도 지칭.
@@ -83,6 +83,8 @@ content_updated_at: "2026-07-17"
 - **과민성 폐장염 치료**: 원인 항원 회피(가장 중요), 전신 스테로이드, 필요 시 면역억제제 및 항섬유화제 고려.
 - **IPF/섬유성 ILD의 급성 악화**:
   감염, 흡인, 약물, 심부전, 혈전색전증 등 가역 원인을 긴급하게 찾고, 새 양측 간유리음영·경화와 산소화 악화를 기존 HRCT 및 임상 경과와 비교한다. 고용량 corticosteroid의 근거는 제한적이므로 일률 처방하지 않으며, 산소·호흡부전 지원과 전문팀의 개별 위험-이득 판단이 필요하다.
+
+- **항섬유화제 전환 기준**: 비IPF 섬유화 ILD에서 다른 원인 없이 지난 1년 동안 증상 악화·영상 진행·생리학적 악화 중 ≥2가지이면 PPF를 평가한다. 생리학적 악화는 FVC 예측치의 절대 ≥5%p 감소 또는 보정 DLCO 절대 ≥10%p 감소이다. 원인·표준 치료를 최적화한 뒤 nintedanib을 조건부 고려하며, 모든 ILD나 DLCO 저하 하나에 자동 적용하지 않는다. [ATS/ERS/JRS/ALAT](https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/)
 
 ## 6. 예후 및 합병증
 - 질환에 따라 경과가 다양하며, IPF의 경우 급성 악화 시 예후가 불량함.

@@ -16,7 +16,7 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 source_currency_assessment: "current_standard_retained"
-content_updated_at: '2026-11-16'
+content_updated_at: "2026-11-18"
 guideline_year: "2022"
 sources:
 - 'ACG Clinical Guideline for Diagnosis and Management of GERD | https://pubmed.ncbi.nlm.nih.gov/34807007/'
@@ -66,6 +66,10 @@ review_status: "guideline_enriched"
   전형적 가슴쓰림·역류가 경고 증상 없이 있을 때는 PPI를 식전 일정한 시간에 적절한 기간 투여하여 반응을 확인한다. 반응이 없다고 즉시 용량만 올리기 전에 복용 시점, 순응도, 진단 자체를 재점검한다.
 - **경고 증상과 검사**: 연하곤란, 체중 감소, 위장관 출혈, 빈혈, 지속 구토 또는 바렛 식도 위험 인자가 있으면 경험적 치료만 지속하지 말고 내시경을 우선 고려한다.
 - **수술**: 지속 증상만으로 바로 수술하지 않는다. 흉통이면 심장 원인을 먼저 평가하고, 내시경·역류검사 등으로 객관적 GERD를 확인한다. 고해상도 식도내압검사로 식도이완불능증·심한 운동장애 등을 배제한 뒤, 객관적 역류가 있고 중증 식도염·큰 열공탈장 또는 불편한 역류가 지속되는 경우 위바닥주름술 등을 선별한다.
+
+- 전형적 증상·경고 소견이 없는 성인은 **PPI 1일 1회 8주** 반응을 평가한다. 복약 최적화에도 증상이 지속되면 미확진 GERD는 산 억제 중단 상태의 역류검사, 이미 객관적으로 입증된 GERD의 지속 증상은 치료 중 impedance-pH 검사 등으로 원인을 구분한다. 검사상 역류와 무관한 기능성 증상에는 계속 증량하거나 역류 수술을 시행하지 않는다.
+- **LA C/D 식도염**은 장기 PPI 또는 항역류 수술을 검토하며, TIF는 통상 **열공탈장 >2 cm 또는 LA C/D**인 경우의 단독 대안으로 적용하지 않는다.
+- 근거: [ACG GERD 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/).
 
 ## 6. 예후 및 합병증
 - **합병증**: 식도염, 식도 궤양, 소화성 협착, 바렛 식도, 식도 선암 등이 발생할 수 있다.

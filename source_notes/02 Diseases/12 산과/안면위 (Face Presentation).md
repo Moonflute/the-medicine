@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - 안면위
 유형:
@@ -51,10 +51,12 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 
-- **분만 방식 결정**: 턱이 전방(mentum-anterior)을 향한 경우 질식 분만 시도를 고려하되, 후방(mentum-posterior) 또는 횡(transverse) 위치는 제왕절개술을 시행함.
+- **분만 방식 결정**: 턱 전방이면 진행과 태아 상태를 보며 질식 분만을 시도할 수 있다. 지속적인 턱 후방, 전방으로 회전하지 않는 횡위·분만 정지 또는 태아 상태 악화는 제왕절개를 평가한다. 초기 횡위라는 이유만으로 자연 전방 회전 가능성을 배제하지 않는다.
 - **태아 감시**: 분만 중 태아 가사 위험이 높으므로 지속적인 전자 태아 심박동 감시를 시행함.
 - **수기 금기**: 태아 손상 위험이 있으므로 안면위를 두정위로 강제 교정하거나 턱을 회전시키는 수기(manual rotation)는 금기함.
 - **신생아 관리**: 분만 후 안면 부종 및 기도 폐쇄 여부를 면밀히 관찰하고, 필요 시 신생아 집중치료실(NICU)로 전원함.
+
+- 근거: [SASGOG 안면위·전액위 관리](https://www.exxcellence.org/list-of-pearls/management-of-brow-face-and-compound-malpresentations/?categoryName=%26searchTerms%3D%26featured%3DFalse).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 분만 지연, 태아 가사, 신생아 안면 부종 및 기도 부종(호흡 곤란 유발 가능).

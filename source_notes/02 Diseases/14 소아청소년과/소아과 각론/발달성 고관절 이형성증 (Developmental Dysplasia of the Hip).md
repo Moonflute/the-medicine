@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - 발달성 고관절 이형성증
 - 선천성 고관절 탈구
@@ -46,6 +46,8 @@ reviewed_at: "2026-07-30"
 * **수술적 치료**: 보존적 치료에 반응하지 않거나 진단이 늦은 경우 도수 정복 또는 개방성 정복술 고려
 * **추적 관찰**: 골 성숙이 완료될 때까지 영상 검사를 통해 비구 발달 상태 및 대퇴골두의 무혈성 괴사 여부 모니터링
 * **전원 기준**: 정형외과 전문의의 진료가 필수적이며, 보조기 치료 중 호전이 없거나 탈구가 지속되는 경우 즉시 상급 기관 의뢰
+
+* **연령·안정성에 따른 선택**: 임상적으로 안정적인 경한 초음파 미성숙은 단기 영상 관찰이 가능하며 모든 경미한 이상에 즉시 보조기를 쓰지는 않는다. 불안정/탈구된 **6개월 미만** 영아는 Pavlik harness 등 보조기를 우선 고려한다. 정복이 유지되지 않거나 늦게 진단된 **6개월–2세**는 마취하 폐쇄정복·spica cast, 정복 불가능/잔여 이형성은 개방정복·절골술을 평가한다. 반복 영상에서 정복되지 않는 보조기를 장기간 지속하지 않는다. [AAOS](https://new.aaos.org/quality/quality-programs/pediatric-developmental-dysplasia-of-the-hip/), [POSNA](https://www.orthokids.org/conditions/developmental-dysplasia-of-the-hip-%28ddh%29/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 치료 시 예후 양호

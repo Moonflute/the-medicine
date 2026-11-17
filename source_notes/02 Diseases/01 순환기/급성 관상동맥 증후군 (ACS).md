@@ -12,10 +12,13 @@ CC:
 - 식은땀
 - 구토
 clinical_priority: tier_1
-content_updated_at: "2026-10-08"
-guideline_year: '2023'
+content_updated_at: "2026-11-18"
+reviewed_at: "2026-10-21"
+guideline_year: '2026'
 sources:
 - '2023 ESC Guidelines for the Management of Acute Coronary Syndromes | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/'
+- '2025 ACC AHA Acute Coronary Syndromes guideline | https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know'
+- 'Fifth Universal Definition of Myocardial Infarction 2026 — joint consensus | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/'
 disease_family: coronary_artery_disease
 parent_disease: 허혈성 심질환
 relation_to_parent: acute_presentation
@@ -42,6 +45,14 @@ population: adult
 - NSTEMI는 급성 심근손상(troponin의 상승/하강)과 허혈 증거가 동반된 경우로 진단한다. 불안정 협심증은 허혈 증상은 있으나 급성 심근괴사 증거가 없는 경우다.
 - NSTE-ACS는 재발성 흉통, 동적 ST-T 변화, 혈역학 불안정, 심부전·부정맥, troponin 변화 및 임상 위험도를 바탕으로 매우 고위험·고위험 여부를 즉시 분류한다.
 
+### 2026 제5차 심근경색 보편적 정의
+- **문서 성격**: ESC/ACC/AHA/WHF 공동 합의 정의다. ACS 재관류 치료 지침과 구분하며, STEMI/NSTEMI에 따른 초기 대응은 유지한다.
+- **심근손상**: cardiac troponin I/T가 **검사법별 성별 99백분위 상한**을 넘으면서 상승/하강하면 급성 심근손상이다. 지속 상승만으로 MI를 진단하지 않는다.
+- **일차성 MI(primary)**: 죽상혈전뿐 아니라 자발성 관상동맥박리·색전·연축 등 급성 관상동맥 병리를 포함한다. 급성 손상과 허혈 증상/ECG로 의심하고, 관상동맥 병리 또는 허혈성 국소벽운동 이상·생존심근 소실의 영상 증거로 확정한다.
+- **이차성 MI(secondary)**: 다른 급성 질환의 산소 공급–수요 불균형과 허혈 증거를 평가한다. 영상검사가 적절하고 가능하면 급성 관상동맥 병리 없는 폐쇄성 CAD 또는 새 허혈성 심근 이상을 확인한다. 패혈증·빈맥의 troponin 상승을 자동으로 이차성 MI로 분류하지 않는다.
+- **시술 관련 MI(procedure-related)**: 심장 시술 후 30일 이내 관상동맥 합병증을 평가한다. 시술 중 발생하거나 급성 MI 치료 과정이면 관상동맥 합병증과 해당 영역 심근 이상의 두 영상 증거가 필요하다. 수치 상승만으로 확정하지 않는다.
+- **분류 변화**: 종전 type 1/2/3/4/5 대신 위 임상 분류를 사용한다. 30일 이후 스텐트 혈전·재협착·이식편 실패는 일차성 MI의 원인이 될 수 있다. 확정 검사를 기다리며 긴급 재관류를 늦추지 않는다.
+
 ## 5. 치료
 - **이차예방의 재평가**: DAPT 기간·수술 시점은 스텐트 종류만으로 고정하지 않고 ACS 여부, 출혈/허혈 위험, 항응고 병용, 긴급 수술 필요성과 시술팀 협의에 따라 조정한다. 퇴원 뒤 4–8주에는 지질저하 반응을 재확인하고 심장재활·금연·복약 순응을 연결한다.
 
@@ -53,11 +64,15 @@ population: adult
 - 저산소증이 없는 환자에게 산소를 관성적으로 투여하지 않는다. 통증·울혈·부정맥·혈압을 동시 교정하고, nitrate는 저혈압·우심실경색·PDE5 억제제 최근 사용 시 주의한다.
 - 퇴원 전에는 고강도 지질저하, 금연, 심장재활, 혈압·당뇨병 관리, 항혈전 치료 기간 및 출혈 교육을 정한다. DAPT는 기본적으로 12개월 전략을 출발점으로 하되 출혈·허혈 위험과 경구항응고 필요성에 따라 단축 또는 연장을 개별화한다.
 
+- **지질약 강화 기준**: 최대 내약 statin에도 **LDL-C ≥70 mg/dL**이면 ezetimibe/PCSK9 억제제 등 비statin 추가를 권고하며, **55–<70 mg/dL**에서도 추가 강화를 합리적으로 고려한다. 시작·변경 후 4–8주 재검으로 반응을 확인한다.
+- 근거: [AHA/ACC ACS 지침 2025](https://doi.org/10.1161/CIR.0000000000001309).
+
 ## 6. 예후 및 합병증
 - 초기 합병증은 심실성 부정맥, 전도장애, 급성 심부전·폐부종, 심인성 쇼크, 기계적 합병증(유두근 파열, 심실중격 결손, 심실 자유벽 파열) 및 재허혈이다.
 - 퇴원 후에는 재발 MI, 출혈, 심부전, 부정맥, 우울·복약 중단을 추적한다. 갑작스러운 흉통 재발, 실신, 호흡곤란, 출혈 또는 흑색변은 즉시 평가가 필요하다.
 
 출처: ESC, *2023 Guidelines for the Management of Acute Coronary Syndromes*.
+- [제5차 심근경색 보편적 정의(2026)](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/) — 2026-08-28 공개, 2026-10-21 반영.
 
 참고: 삼성서울병원 메뉴얼.
 - [AHA 2025 급성 관상동맥증후군 지침 핵심](https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know)

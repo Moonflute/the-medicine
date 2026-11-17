@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-08-12"
+content_updated_at: "2026-11-18"
 aliases:
 - Beckwith-Wiedemann syndrome
 - Beckwith Wiedemann syndrome
@@ -31,3 +31,7 @@ sources:
 
 ## 추적
 - 저혈당을 조기에 교정하고, 윌름스종양·간모세포종 위험에 맞춘 종양 감시와 유전상담을 소아 전문팀과 계획한다.
+
+- **저혈당·거대혀 처치**: 지속성 저혈당은 고인슐린혈증을 평가하고, 포도당·영양 지지로 유지가 어려우면 전문팀이 diazoxide 등 약물과 원인별 치료를 선택한다. 거대혀는 크기만으로 수술하지 않으며, 수유·발음·교합 장애가 지속되면 보통 1세 이후 혀 축소술을 검토한다. **심한 기도 폐쇄**는 더 이른 수술 평가 사유다.
+
+근거: [국제 BWS 합의문](https://pmc.ncbi.nlm.nih.gov/articles/PMC6022848/).

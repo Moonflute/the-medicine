@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-11-18"
 aliases:
 - 전립샘암
 유형:
@@ -54,10 +55,11 @@ sources: ["NCCN Guideline Updates on Radiopharmaceutical Therapy for Prostate Ca
 
 
 ## 5. 치료 (Treatment)
-* **국소:** 능동 감시(Active surveillance), 근치적 전립샘 절제술, 방사선 치료.
-* **진행/전이:** 호르몬 치료(안드로겐 차단 요법), 화학요법, 면역요법, 표적 치료 등.
-* **원칙:** 환자의 기대 여명, 종양의 등급, 병기에 따라 개별화된 치료 전략 수립.
-
+- **위험도·기대여명**: PSA, ISUP grade group(GG), cT 병기와 종양 범위를 함께 사용한다. 저위험의 전형은 PSA <10 ng/mL·GG1·cT1–T2a이다. 기대여명 **>10년인 저위험**은 active surveillance가 우선 선택이고, <10년·무증상은 증상 중심 watchful waiting을 고려한다. 두 관찰 전략은 추적 목적이 다르다.
+- 선택된 소량 **GG2**도 pattern 4 <10%, PSA <10, ≤cT2a 등 유리한 조건이면 감시를 논의할 수 있다. 감시 중 PSA는 최소 6개월마다, MRI·재생검은 프로토콜에 따라 시행한다. **PSA 상승만으로 즉시 수술하지 않고** MRI/생검으로 재분류하여 치료 전환을 결정한다.
+- **국소 근치 치료**는 수술 또는 방사선을 선택한다. 불량 중간위험의 방사선에는 보통 **ADT 4~6개월**, 고위험/국소진행성에는 대개 **2~3년** 병용을 고려한다. 나이만으로 배제하지 않고 동반질환·기능·환자 선호를 반영한다. [EAU 2026 국소 치료](https://uroweb.org/guidelines/prostate-cancer/chapter/treatment)
+- **전이성 호르몬 민감성**은 치료 가능하면 ADT 단독보다 ADT+ARPI를 기본적으로 논의한다. 특히 새로 진단된 고용량 전이·항암치료 적합 환자에서는 ADT+docetaxel+abiraterone 또는 darolutamide 삼중치료를 검토한다.
+- **거세저항성 진행**은 혈중 testosterone이 거세 수준인지 확인하고 ADT를 유지하면서 이전 ARPI·taxane 노출, BRCA/HRR·MSI/dMMR·PSMA 등 검사 결과와 증상으로 다음 약제를 선택한다. PSA 하나만을 근거로 임상·영상 평가 없이 약제를 연속 교체하지 않는다. [AUA/SUO 2026 개정](https://doi.org/10.1097/JU.0000000000005220), [ASCO 병용 치료 지침](https://doi.org/10.1200/JCO.23.00155)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 발견 시 완치 가능성이 높음.

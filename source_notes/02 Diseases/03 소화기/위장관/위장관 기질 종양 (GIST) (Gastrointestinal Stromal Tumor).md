@@ -13,7 +13,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: "2026-11-16"
+content_updated_at: "2026-11-17"
 guideline_year: "2025"
 sources: ["Japanese Clinical Practice Guidelines 2022 for Gastrointestinal Stromal Tumor, English version published 2024 | https://pubmed.ncbi.nlm.nih.gov/38609732/", "GEIS Guidelines for gastrointestinal stromal tumors (2023) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/"]
 reviewed_at: "2026-07-30"
@@ -61,7 +61,7 @@ review_status: "guideline_enriched"
   - **초저위험, 저위험, 중간위험군 환자**: 6~12개월 간격으로 조영증강 CT 시행
 - **약물 치료 (전이성/불응성)**:
   - 수술이 불가능하거나 전이된 경우 티로신 키나아제 억제제(TKI) 사용.
-  - Imatinib 불응 시 Sunitinib, Regorafenib 사용. PDGFRA exon 18 돌연변이 시 Avapritinib 고려.
+  - Imatinib 불응 시 변이·순응도·상호작용을 확인한 뒤 sunitinib, regorafenib, ripretinib 등 후속 요법을 검토한다. 특히 PDGFRA D842V는 imatinib 비감수성이므로 avapritinib을 우선 평가하며, 다른 PDGFRA exon 18 변이를 모두 같은 감수성으로 취급하지 않는다. [아시아 GIST 지침 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC13525072/)
 
 ## 6. 예후 및 합병증
 * **특징**: 위장관 간엽 종양에 속하며, 악성 잠재력은 종양의 위치, 크기, 유사분열 수(mitotic rate)에 따라 결정됨.

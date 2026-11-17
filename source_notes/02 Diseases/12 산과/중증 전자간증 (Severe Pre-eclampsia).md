@@ -21,7 +21,7 @@ review_status: "guideline_enriched"
 guideline_year: "2022"
 sources: ["[Reprint of: Severe pre-eclampsia: guidelines for clinical practice from the French Society of anesthesiology and intensive care (SFAR) and the French College of gynaecologists and obstetricians (CNGOF)]. | https://pubmed.ncbi.nlm.nih.gov/34781016/"]
 
-content_updated_at: "2026-11-15"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[산과]]
 
@@ -66,6 +66,8 @@ content_updated_at: "2026-11-15"
   - ACOG는 34주 이상이면 산모 안정화 후 분만을 권고하며, 폐성숙제 투여를 완료하려고 적응증이 있는 분만을 늦추지 않는다.
   - 34주 미만이며 산모·태아가 안정적일 때만 전문센터에서 기대요법을 검토한다. 조절되지 않는 중증 고혈압, 장기 기능 악화 또는 지속적인 태아 이상이 있으면 주수보다 산모 안정화와 분만을 우선한다.
 - **관리 원칙**: 전문가 합의에 기반하여 모성 및 신생아 이환율을 각각 평가하고 관리할 것을 권고함.
+
+- **치료를 바꾸는 소견**: 중증 혈압은 SBP ≥160 또는 DBP ≥110 mmHg의 지속 상승이다. 혈소판 <100,000/μL, Cr >1.1 mg/dL/기저치 2배, 간효소 ≥정상상한 2배 또는 지속 우상복부 통증, 폐부종, 새 지속 두통·시각 이상도 중증 소견이다. 혈압 하나가 호전되어도 이들 장기 이상이 진행하면 기대요법을 재평가한다. [ACOG 중증 소견 기준](https://www.acog.org/community/districts-and-sections/district-iv/whats-new/countdown-to-intern-year-week-3-hypertensive-disorders)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 자간증(Eclampsia), HELLP 증후군, 태반 조기 박리, 뇌출혈, 폐부종, 신부전, 태아 성장 제한 및 조산.

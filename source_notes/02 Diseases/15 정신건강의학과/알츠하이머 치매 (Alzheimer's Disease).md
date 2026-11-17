@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - 알츠하이머 치매
 유형:
@@ -45,6 +45,12 @@ relation_to_parent: subtype
 - 비약물적 치료: 인지 재활 훈련, 일상생활 환경 수정, 보호자 대상 질환 교육 및 정서적 지지를 병행함.
 - 동반 질환 관리: 심혈관 질환, 당뇨 등 인지 기능에 악영향을 미치는 기저 질환을 적극적으로 조절함.
 - 안전 및 모니터링: 배회, 낙상, 영양 불균형 등 신체적 합병증 예방을 위한 주기적인 안전 점검 및 추적 관찰을 시행함.
+
+- **증상 치료 단계**: 경도–중등도에는 donepezil·galantamine·rivastigmine 중 하나를 고려한다. 중등도에서 이를 견디지 못하거나 금기이면 memantine 단독, 이미 사용 중이면 memantine 추가를 검토한다. 중증은 memantine 대상이며 기존 cholinesterase 억제제를 중증도만으로 자동 중단하지 않는다.
+- **항아밀로이드 치료 대상**: lecanemab·donanemab은 **아밀로이드 병리가 확인된 Alzheimer병에 의한 MCI 또는 경도 치매**에서 전문팀이 선정한다. 중등도–중증이나 원인 불명 인지저하에 확대하지 않는다. 치료 전 MRI, APOE ε4 관련 ARIA 위험과 항응고제·출혈 병력을 평가한다.
+- **감시·중단 판단**: lecanemab 정맥 투여는 기초 MRI에 더하여 **3·5·7·14번째 주입 전 MRI**가 필요하다. 새 두통·혼돈·국소 신경증상이 있으면 ARIA를 평가하고 증상과 MRI 중증도에 따라 보류·중단한다. 2026년 미국에서 피하 시작요법도 승인되었으므로 제형별 현행 허가사항을 확인하며 정맥 주입 일정을 그대로 대입하지 않는다.
+
+근거: [NICE NG97](https://www.nice.org.uk/guidance/ng97/chapter/recommendations), [FDA lecanemab 처방정보](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761269s011lbl.pdf), [FDA 피하 시작요법 승인](https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-home-starting-dose-alzheimers-disease-treatment).
 
 ## 6. 예후 및 합병증
 - 예후: 완치는 불가능하나 증상 관리 및 진행 완화 가능. 점진적 악화 경향.

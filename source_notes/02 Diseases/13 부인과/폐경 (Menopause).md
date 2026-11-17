@@ -22,7 +22,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Expert opinion by the Italian Society of Gynecology of the Third Age (SIGiTE) and the Italian Society of Menopause (SIM) on diagnosis and treatment of premature ovarian insufficiency. | https://pubmed.ncbi.nlm.nih.gov/41212137/"]
 
-content_updated_at: "2026-11-15"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[부인과]]
 
@@ -55,6 +55,9 @@ content_updated_at: "2026-11-15"
   - 조기 난소 부전(POI)의 경우: 증상 유무와 관계없이 HRT가 치료 원칙이며, 심혈관 및 골 건강 유지를 위해 경피적 천연 에스트라디올 고용량 투여 선호.
 - **대체 약물**: SSRI, SNRI, 가바펜틴 (혈관운동 증상 완화).
 - **금기**: 원인 불명의 질 출혈, 유방암, 자궁내막암, 혈전색전증 병력 등.
+
+- **전신 호르몬을 선택하는 조건**: 일상을 방해하는 혈관운동 증상에서 금기가 없으면 1차 선택이다. 대체로 <60세 또는 폐경 후 <10년에서 이득–위험비가 유리하며, 이후 시작은 심혈관·혈전 등 개인 위험을 더 신중하게 평가한다. GSM만 있으면 저용량 질 치료를 우선 고려한다. 주요우울장애는 호르몬만으로 치료하지 않고 해당 진료지침을 적용한다. [ACOG 2026](https://doi.org/10.1097/AOG.0000000000006428) · [ESE 2025](https://academic.oup.com/ejendo/article/193/4/G49/8281862)
+- **비호르몬 약제와 검사값**: 호르몬을 원하지 않거나 금기이면 SSRI/SNRI·gabapentin·NK3 길항제 등을 적합성에 따라 선택한다. Fezolinetant는 시작 전 ALT/AST 또는 총 bilirubin ≥2×ULN이면 시작하지 않는다. 간기능은 첫 3개월 매월, 이후 6·9개월에 확인하며 간손상 증상이 생기면 즉시 중단하고 검사한다. 간경변·중증 신기능 저하/말기신질환·CYP1A2 억제제 병용 등도 금기 여부를 확인한다. [FDA 처방정보](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/216578s004lbl.pdf)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 골다공증, 심혈관 질환, 비뇨생식기계 위축 및 기능 저하

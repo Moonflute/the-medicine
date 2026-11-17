@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-09-14"
+content_updated_at: "2026-11-18"
 aliases:
 - AIP
 - autoimmune pancreatitis
@@ -38,6 +38,10 @@ review_status: "samsung8e_source_integrated"
 ## 5. 치료
 - 활동성 황달·통증 또는 장기 침범이 확인된 환자는 감염·악성을 배제한 뒤 소화기내과 전문의가 글루코코르티코이드 유도치료와 영상·간담도 수치 반응을 계획한다.
 - 재발, 담도 폐쇄, 당뇨·외분비부전 및 스테로이드 독성은 장기 추적한다. 유지 면역조절치료나 배액의 필요성은 유형·재발 위험·동반 장기 침범에 따라 개별화한다.
+
+- **치료 대상과 반응**: 폐쇄성 황달·통증·장기 침범이 있는 활동성 질환은 악성 종양을 배제한 뒤 prednisolone 약 **0.6 mg/kg/일로 2–4주** 유도하고 증상·간기능·영상 반응을 확인하며 감량한다. 반응이 불충분하면 스테로이드만 계속 증량하지 말고 췌장암·담관암 등 진단을 재검토한다.
+- 재발성 **제1형/IgG4 관련 질환**은 재유도와 유지 면역억제/B세포 표적 치료를 검토한다. Inebilizumab은 미국에서 성인 IgG4 관련 질환 적응증을 갖지만 제2형 AIP 전체에 자동 적용하지 않으며 감염·HBV·면역글로불린 평가와 국내 허가 확인이 필요하다.
+- 근거: [AIP 치료 국제 합의](https://pubmed.ncbi.nlm.nih.gov/28027896/), [일본 AIP 합의](https://pubmed.ncbi.nlm.nih.gov/24639058/), [FDA inebilizumab 허가사항 2025](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761142s004lbl.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료에 반응하는 경우가 많지만 1형은 재발할 수 있고, 담도 협착·외분비부전·당대사 이상이 남을 수 있다.

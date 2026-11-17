@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-11-18"
 aliases:
 - locally advanced cancer
 유형:
@@ -53,6 +54,9 @@ sources: ["Appraisal of Clinical Practice Guideline: Early and locally advanced 
 - **수술**: 변형 근치적 유방 절제술(Modified radical mastectomy) 또는 반응이 좋은 경우 유방 보존술 고려.
 - **보조 요법**: 수술 후 방사선 치료(Post-op RTx), 호르몬 치료, 표적 치료(HER2 양성 시), 추가 항암화학요법.
 
+- **선행치료의 아형별 분기**: HER2 양성은 taxane + trastuzumab/pertuzumab 기반 요법 등을, 고위험 삼중음성은 pembrolizumab + 항암 후 수술·보조 pembrolizumab을 검토한다. 조기 고위험 삼중음성의 면역치료에는 PD-L1 양성이 필수 조건이 아니다. HR+/HER2−에서는 임상 위험과 폐경 여부에 따라 항암 또는 선택적 선행 내분비치료를 결정한다.
+- **HER2 치료의 2026 선택지**: IHC 3+ 또는 ISH+인 II–III기에는 T-DXd 후 THP 선행요법이 FDA 승인되었다. Trastuzumab ± pertuzumab 및 taxane 선행치료 후 유방/액와에 침윤암이 남으면 보조 T-DXd도 승인 선택지다. 잔존암의 위험, 간질성 폐질환 위험, 국내 승인·가용성을 반영하여 T-DM1 등 기존 선택지와 비교한다. [FDA 2026](https://www.fda.gov/drugs/cancer-approvals/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage)
+- **수술 결정**: 영상과 진찰에서 절제 가능성을 다시 평가한다. 치료 중 진행하면 즉시 원인·치료 변경을 검토하며, 임상 완전반응만으로 수술을 생략하지 않는다. [ASCO 선행치료 지침](https://doi.org/10.1200/JCO.20.03399)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 분자 아형 및 치료 반응도에 따라 예후가 결정됨.

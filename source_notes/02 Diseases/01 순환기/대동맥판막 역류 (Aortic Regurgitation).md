@@ -19,7 +19,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["2025 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Valvular-Heart-Disease"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[순환기]]
 
@@ -58,8 +58,7 @@ content_updated_at: "2026-07-16"
 * **만성 AR**: 증상이 있는 경우 심부전 약물 치료를 시행하며, 수술 적응증에 해당할 경우 대동맥판막 대치술(AVR) 시행.
 * **수술 적응증**:
 * 증상이 있는 중증 AR 환자.
-* 무증상이라도 좌심실 박출률(LVEF) ≤ 55%인 경우.
-* 좌심실 수축기말 직경(LVESD) > 50mm 또는 이완기말 직경(LVEDD) > 65mm인 경우.
+* ESC 2025에서 무증상 중증 AR은 LVEF ≤50%, LVESD >50 mm 또는 LVESD index >25 mm/m²이면 수술을 권고한다. 수술 위험이 낮으면 LVEF ≤55%, LVESD index >22 mm/m² 또는 LVESV index >45 mL/m²에서도 조기 수술을 검토한다. LVEDD 확대는 추세와 다른 소견을 함께 해석한다. ACC/AHA의 EF 기준과 ESC의 권고 등급을 혼용하지 않는다. [ESC 2025](https://doi.org/10.1093/eurheartj/ehaf194)
 - **실무 흐름**: 급성 중증 AR(예: 심내막염·박리 관련)은 혈역학적 악화 위험이 높아 즉시 심장수술팀과 상의한다. 만성 AR은 증상, 좌심실 크기·기능, 대동맥근부 병변을 같은 영상 추적에서 함께 평가하고, 중재 시점은 단일 수치만이 아니라 반복 측정의 변화와 임상 상태를 통합해 판막팀에서 결정한다.
 
 ## 6. 예후 및 합병증 (Prognosis)

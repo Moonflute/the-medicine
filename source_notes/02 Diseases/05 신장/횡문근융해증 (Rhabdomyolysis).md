@@ -16,7 +16,7 @@ review_status: "guideline_enriched"
 guideline_year: "2021"
 sources: ["Management of Rhabdomyolysis: A Practice Management Guideline from the Eastern Association for the Surgery of Trauma | https://www.east.org/education/practice-management-guidelines/management-of-rhabdomyolysis"]
 
-content_updated_at: "2026-11-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[신장]]
 
@@ -61,6 +61,8 @@ content_updated_at: "2026-11-16"
 - 원인 교정: 유발 약물 중단, 감염 치료, 구획 증후군 시 근막절개술 등
 - 합병증 관리: 전해질 불균형 교정, 필요 시 혈액투석 시행
 - 신대체요법은 교정되지 않는 고칼륨혈증·산증·체액과다 등 AKI 적응증에 따라 판단한다. 마이오글로빈 제거만을 위한 선제적 신대체요법·혈액흡착은 일반 치료가 아니다.
+
+- **수액 조정의 기준**: 소변량은 보통 1–3 mL/kg/시간(최대 약 300 mL/시간)을 목표로 하되, 무뇨·폐울혈이 생기면 수액 증량을 멈추고 AKI·투석 필요성을 평가한다. 초기 무증상 저칼슘혈증은 일률적으로 보충하지 않으며, 테타니·부정맥 또는 중증 고칼륨의 심장 보호 필요가 있으면 칼슘을 사용한다. [AAST 임상 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC8804685/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 급성 신손상(AKI) 발생 가능성 높음 (15~55%)

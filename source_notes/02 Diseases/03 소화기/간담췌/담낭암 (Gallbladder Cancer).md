@@ -27,7 +27,7 @@ review_status: "guideline_enriched"
 guideline_year: "2024"
 sources: ["'IHPBA-APHPBA clinical practice guidelines': international Delphi consensus recommendations for gallbladder cancer. | https://pubmed.ncbi.nlm.nih.gov/39191539/"]
 
-content_updated_at: "2026-07-17"
+content_updated_at: "2026-11-17"
 ---
 ## 1. 개요
 - **정의**: 담낭에서 발생하는 악성 종양으로, 대부분 선암(adenocarcinoma)임. 담도계 암 중 가장 흔하며 고령 여성에서 호발함.
@@ -80,23 +80,10 @@ content_updated_at: "2026-07-17"
 - 선근종증: 초음파상 낭성(cystic) 부위 관찰.
 
 ## 5. 치료
-- **수술적 절제**:
-- **치료 전략**: R0 절제가 가능한 조기·국소 질환은 병기와 우연 발견 여부에 맞는 근치 수술 범위를 결정한다. 단순 담낭절제 뒤 병리에서 우연 담낭암이 확인되면 T 병기·절제연·영상 재병기를 바탕으로 추가 간절제/림프절 절제 필요성을 간담췌 전문팀에서 논의한다. 절제 불가·전이 질환은 성능상태, 담도폐쇄/통증 조절, 분자검사 가능성, 전신치료와 임상시험을 종양 다학제에서 계획한다.
-  유일한 완치법.
-  근치적 절제술(담낭, 주변 림프절, 간 일부 절제)이 표준.
-- **항암 및 고식적 치료**: 수술 불가 시 시행.
-- 항암 화학 요법: Gemcitabine + cisplatin 기반 요법이 표준.
-- 고식적 치료: 진통제, 담도 배액술(ERBD, PTBD, PTGBD), 우회술.
-  국소 진행성 암에서 방사선 치료(근접치료 포함)가 보조적으로 고려될 수 있음.
-- **담낭 용종의 수술 적응증**:
-- 크기 1cm 이상.
-- 유증상 또는 담석 동반.
-- 추적 관찰 중 크기 증가.
-- 0.5cm 초과이면서 60세 이상, 무경성(sessile) 용종, PSC 과거력 중 하나 이상 해당.
-- **급성 담낭염 치료**:
-- 내과적 치료: 금식, 수액, 진통제, 항생제(3~4세대 cephalosporin 또는 fluoroquinolone + metronidazole 등).
-- 담낭절제술: 72시간 이내 시행 권고.
-- 수술 불가 시: 경피 경간 쓸개배액술(PTGBD) 시행 후 지연 담낭절제술 고려.
+- **병기별 수술**: 우연 발견된 Tis/T1a가 음성 절제연으로 단순 담낭절제되었다면 추가 절제가 보통 필요하지 않다. T1b 이상은 원격전이·재수술 적격성을 평가한 뒤 간 침상 또는 IVb/V 분절과 구역 림프절을 포함한 근치적 재절제를 검토한다. 담관·주변 장기 절제는 R0 확보에 필요한 경우에 선택하며 일률 확대하지 않는다. [NCI PDQ](https://www.cancer.gov/types/gallbladder/hp/gallbladder-treatment-pdq)
+- **보조·전신치료**: 근치절제 후에는 병리 위험·회복 상태에 따라 capecitabine 등 보조치료를 검토한다. 절제 불가/전이는 적합한 수행능력·신기능·담도 배액을 확보한 뒤 gemcitabine＋cisplatin＋durvalumab 또는 pembrolizumab을 고려한다. 감염·폐쇄·신부전은 요법과 시작 시점을 바꾼다. HER2·MSI/dMMR 등 분자 결과와 이전 약제는 후속 치료를 결정한다. [NCI 담도암 PDQ](https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq)
+- **용종과 암의 구분**: 용종 절제 기준과 확진 암의 수술 범위는 다르다. 국내 KSAR 2025의 ≥15 mm 또는 10–14 mm와 우려 영상 소견 기준, 선택적 수술·감시 조건은 [[쓸개 용종형 병변 (Gallbladder Polypoid Lesion)]]에 따른다.
+- **증상·합병증 관리**: 담관염·폐쇄가 있으면 항균제와 적절한 배액을 시행한다. 통증·영양·소양증과 치료 목표를 관리하며, 동반 담낭염의 응급 배액/수술은 감염 중증도·암의 절제 가능성에 맞춰 결정한다.
 
 ## 6. 예후 및 합병증
 - **예후**: 조기 진단이 어려워 대부분 진행된 상태에서 발견되며 예후가 불량함.

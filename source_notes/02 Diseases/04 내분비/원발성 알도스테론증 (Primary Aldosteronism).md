@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -61,6 +62,8 @@ sources: ["2023 Korean Endocrine Society Consensus Guidelines for the Diagnosis 
 - 무기질코르티코이드 수용체 길항제: 스피로노락톤(1차 약제), 에플레레논(남성에서 여성형 유방 등 부작용 적음)
 - 기타: 아밀로라이드 등 칼륨 보존 이뇨제
 - GRA의 경우: 당질코르티코이드 투여
+
+- **수술·약물 선택 확인**: 수술은 CT 결절의 유무가 아니라 일측성 기능 분비 여부로 결정하며, 대부분 수술 후보에서 AVS를 시행한다. 양측성·편측성 불명확 또는 수술을 원하지 않는 경우 MRA를 사용한다. MRA 치료 중 K·신기능을 감시하고, 혈압이 조절되지 않으면서 renin 억제가 지속되면 증량을 검토한다. [Endocrine Society 2025](https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism)
 
 ## 6. 예후 및 합병증
 - 적절한 치료 시 고혈압 및 저칼륨혈증 교정 가능

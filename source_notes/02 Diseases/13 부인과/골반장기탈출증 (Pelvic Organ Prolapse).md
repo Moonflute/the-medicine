@@ -6,7 +6,7 @@
 CC: []
 preprocessing_required: x
 reviewed_at: '2026-10-07'
-content_updated_at: '2026-10-07'
+content_updated_at: "2026-11-18"
 review_status: targeted_source_reviewed_draft
 sources:
 - "Merck Professional: Anterior and Posterior Vaginal Wall Prolapse, July 2026 | https://www.merckmanuals.com/professional/gynecology-and-obstetrics/pelvic-organ-prolapse-pop/anterior-and-posterior-vaginal-wall-prolapse"
@@ -28,4 +28,7 @@ sources:
 
 ## 치료
 불편 정도·기능·환자 선호에 따라 골반저 운동·페서리·수술을 선택한다. 보이는 정도만으로 모든 환자에게 수술을 권하지 않는다. 자궁 탈출에 특화한 내용은 [[자궁 탈출 (Uterine Prolapse)]]에서 함께 확인한다.
+
+- **운동·페서리**: 증상성 POP-Q 1–2기는 최소 16주간 감독하 골반저근 훈련을 1차로 고려한다. 페서리는 증상성 환자의 선택지이며 수술 불가 환자만의 치료가 아니다. 탈출 정도와 함께 배뇨·배변 장애, 점막 손상, 성생활·임신 계획을 평가한다.
+- **수술 전환**: 충분한 보존치료에도 불편이 지속되거나 환자가 원하면 수술을 논의한다. 요폐·수신증 등 장기 기능 문제가 있으면 빠른 전문 평가가 필요하다. [NICE NG123](https://www.nice.org.uk/guidance/ng123/chapter/Recommendations)
 

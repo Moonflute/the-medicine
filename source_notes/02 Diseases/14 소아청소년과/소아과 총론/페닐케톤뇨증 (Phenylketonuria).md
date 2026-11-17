@@ -19,7 +19,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["European guidelines on diagnosis and treatment of phenylketonuria: First revision. | https://pubmed.ncbi.nlm.nih.gov/40378670/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[소아청소년과]]
 
@@ -48,6 +48,11 @@ content_updated_at: "2026-07-16"
 * **약물 치료**: 일부 환자에서 BH4 보충 요법(반응성 확인 필요)
 * **목표**: 혈중 페닐알라닌 농도를 120~360 μmol/L 범위로 유지
 * **관리**: 정기적인 혈액 검사 및 다학제적 추적 관찰(신경학적, 행동학적 평가 포함)
+
+- **치료 시작·약제 반응**: ACMG 권고에 따르면 치료 전 Phe **>360 μmol/L**이면 평생 치료 대상이며, 식이·특수 단백 보충과 약제 반응을 함께 평가한다. sapropterin은 생화학적 반응을 확인한 환자에서 사용한다. **Sepiapterin은 미국 FDA 2025 승인 기준 생후 1개월 이상 반응성 PKU**에 Phe 제한 식이와 함께 사용한다. 혈중 Phe로 반응·저페닐알라닌혈증을 확인하여 식이와 용량을 조절하며 국내 허가·공급은 별도 확인한다.
+- **임신 준비**: 임신 전부터 Phe를 **≤360 μmol/L**로 조절하고 임신 중 영양·Phe 추적을 강화한다.
+
+근거: [ACMG PAH 결핍 지침](https://www.gimjournal.org/article/S1098-3600%2824%2900223-5/fulltext), [FDA Sephience 처방정보](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/219666Orig1s000Lbl.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 엄격한 식이 요법 시 정상적인 지능 발달 가능

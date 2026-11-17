@@ -16,7 +16,7 @@ reviewed_at: "2026-07-30"
 guideline_year: "2025"
 sources: ["Evidence-Based Guideline for the Diagnosis and Management of Eosinophilic Granulomatosis with Polyangiitis (2023) | https://pubmed.ncbi.nlm.nih.gov/37161084/", "2025 British Society for Rheumatology management recommendations for ANCA-associated vasculitis | https://pubmed.ncbi.nlm.nih.gov/40499922/"]
 
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[호흡기]]
 
@@ -45,6 +45,10 @@ content_updated_at: "2026-07-30"
 - **비중증 활성 질환**: 천식·비부비동 질환과 호산구성 전신 증상이 주된 경우 glucocorticoid와 mepolizumab을 우선 고려한다. methotrexate, azathioprine, mycophenolate는 생물학제 접근성·동반질환에 따라 대안이 될 수 있다.
 - **유지·재발**: 관해 후에는 steroid를 최소 유효용량으로 감량하며, 재발 위험·장기침범에 맞춰 mepolizumab, rituximab 또는 기존 면역억제제를 유지한다. 천식 악화만인지 전신 혈관염 재발인지 구분해 치료 강도를 정한다.
 - **동반 관리**: 호산구 수, ANCA, 신경·심장·신장 기능, 천식 조절과 감염 위험을 추적한다. 고용량 면역억제 시 예방접종, Pneumocystis 예방 필요성, 골보호를 함께 점검한다.
+
+- 재발·불응성 또는 스테로이드 의존성의 **비장기위협 EGPA**에서는 mepolizumab 외에 **benralizumab**도 선택지이다. 미국 성인 EGPA 허가 용량은 **30 mg 피하 매 4주**로, 천식의 유지 간격인 8주와 혼용하지 않는다. 급성 심근염·폐포출혈 등 장기위협 관해유도에서 생물학제 단독으로 cyclophosphamide/rituximab 기반 치료를 대신하지 않는다.
+- 근거: [FDA Fasenra 2026 허가사항](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761070s023lbl.pdf).
+
 ## 6. 예후 및 합병증 (Prognosis)
 - 심장 침범(심근염)은 주요 사망 원인 중 하나임.
   조기 진단 및 치료를 통해 장기 손상을 예방하는 것이 중요함.

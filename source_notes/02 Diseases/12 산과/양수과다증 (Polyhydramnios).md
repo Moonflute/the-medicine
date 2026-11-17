@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 aliases:
 - hydramnios
 document_role: compatibility
@@ -54,6 +54,8 @@ reviewed_at: "2026-07-30"
 * **원인 질환 관리**: 임신성 당뇨 등 기저 질환이 확인된 경우 해당 질환에 대한 적절한 조절을 병행함.
 * **주의 사항**: 이뇨제 투여, 수분 및 염분 제한은 치료 효과가 입증되지 않았으므로 권장하지 않음.
 * **합병증 감시**: 조기 진통, 조기 양막 파수, 태반 조기 박리 등 산과적 합병증 발생 여부를 주의 깊게 관찰함.
+
+- **중재 기준**: 경증 특발성·무증상은 관찰하며 다른 적응증 없는 39주 이전 유도분만을 피한다. 양수 감압은 중증 양수과다에 의한 심한 호흡곤란/불편에 한정해 고려하고, indomethacin을 단순 양수 감소 목적으로 사용하지 않는다. 중증은 태아 기형 가능성과 신생아 치료 때문에 전문센터 분만을 권고한다. [SMFM 양수과다 권고](https://publications.smfm.org/publications/263-society-for-maternal-fetal-medicine-consult-series-46/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진통, 조기 양막 파수, 태반 조기 박리, 제대 탈출 위험 증가.

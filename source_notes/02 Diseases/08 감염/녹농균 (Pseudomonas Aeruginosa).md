@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -39,9 +39,9 @@ reviewed_at: "2026-07-30"
 - 검체 배양을 통한 녹농균 동정
 
 ## 5. 치료
-- 항생제 선택은 검체 배양·감수성 결과에 따라 표적 치료를 우선하고, 중증·패혈증 의심 시 감수성 전 결과에 기반한 경험적 광범위 항생제 병용을 시작한다.
-- 신장·청력 등 장기 독성을 모니터링하고, 아미노글리코사이드·플루오로퀴놀론 사용 시 혈중 농도·청력 검사를 정기적으로 시행한다.
-- 괴사 조직·생물막이 의심되는 경우 외과적 절제·배액을 신속히 의뢰하고, 필요 시 감염내과·외과
+- **감수성에 따른 좁히기**: 중증 감염 초기에는 이전 배양·내성 위험을 반영하고 필요 시 두 계열을 사용한다. 감수성 β-lactam이 확인되면 통상 유효 단독요법으로 좁히며 aminoglycoside를 독성 부담에도 계속 병합하지 않는다.
+- **내성 패턴**: 기존 항녹농균 β-lactam에 감수성이 있으면 적정 용량·연장주입을 검토한다. DTR이면 감염 부위와 감수성에 따라 ceftolozane/tazobactam, ceftazidime/avibactam, imipenem/relebactam 또는 cefiderocol 등으로 선택한다. 국내 허가·접근성을 확인한다.
+- Aminoglycoside는 혈중 농도·신/이독성, fluoroquinolone은 신기능·QT·건/신경 독성 등을 확인한다. Fluoroquinolone에 일상적인 혈중 농도·청력검사를 지시하지 않는다. 농양·감염 인공물은 배액·제거를 평가한다. [IDSA AMR 2026](https://www.idsociety.org/practice-guideline/amr-guidance/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 중증 감염 시 패혈증, 다발성 장기 부전, 사망 위험 증가.

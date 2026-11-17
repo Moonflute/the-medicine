@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-15"
+content_updated_at: "2026-11-18"
 aliases:
 - POF
 - premature ovarian failure
@@ -41,6 +41,9 @@ reviewed_at: "2026-07-30"
 * **임신 계획:** 자연 임신 가능성이 매우 낮으므로, 임신 희망 시 난자 공여를 통한 체외수정(IVF) 상담 및 난임 전문의 의뢰.
 * **골건강 관리:** 골밀도 감소 예방을 위해 정기적인 DEXA 검사 시행 및 칼슘과 비타민 D 섭취 권장.
 * **심혈관 및 심리적 관리:** 심혈관 질환 위험도 평가와 함께 조기 폐경에 따른 심리적 지지 및 장기적인 추적 관찰 시행.
+
+- **보충 용량·자궁 유무**: 금기가 없으면 증상 유무와 관계없이 보통 자연 폐경 연령까지 호르몬치료를 시행한다. 골밀도 유지를 위한 성인 대체용량은 경구 estradiol ≥2 mg/일 또는 경피 ≥100 μg/일 상당량을 제안하며, 자궁이 있으면 충분한 progestogen을 병용한다. 사춘기 유도는 이 성인 용량으로 바로 시작하지 않고 저용량에서 증량한다.
+- **피임과 재평가**: 간헐적 난소 기능·자연임신이 가능하므로 HRT를 피임으로 간주하지 않는다. 임신을 원하지 않으면 별도 피임을 결정한다. 낮은 골밀도는 치료 순응도·용량·다른 원인을 재평가하는 사유다. [국제 POI 지침 2024/2025](https://www.asrm.org/practice-guidance/practice-committee-documents/evidence-based-guideline-premature-ovarian-insufficiency--2024/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 골다공증, 심혈관 질환 위험 증가.

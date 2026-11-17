@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 aliases:
 - post transfusion pupura
 유형:
@@ -36,11 +36,9 @@ reviewed_at: "2026-07-30"
 - 혈소판 특이 항체 검출 및 혈소판 감소 확인을 통해 진단
 
 ## 5. 치료
-- 1차 치료로 정맥 면역글로불린(IVIG)을 투여하여 혈소판 파괴를 억제함
-- 난치성 또는 중증 출혈 시 혈장 교환술(Plasmapheresis)을 시행함
-- 항체 반응을 악화시킬 수 있으므로 혈소판 수혈은 원칙적으로 금기함
-- 출혈 위험이 높은 급성기에는 환자의 활력 징후와 출혈 징후를 면밀히 모니터링함
-- 혈소판 수치가 정상 범위로 회복될 때까지 정기적인 혈액 검사를 통해 추적 관찰함
+- **1차 치료**: 중증 혈소판감소·출혈이면 혈액내과/혈액은행과 즉시 협진해 IVIG를 시작한다. 예: 1 g/kg 투여 후 반응과 출혈에 따라 반복을 검토한다. 신기능·체액 상태와 혈전 위험을 평가한다.
+- **혈소판 수혈 분기**: 예방적으로 반복하는 일반 혈소판 수혈은 효과가 낮아 피하지만, 생명을 위협하는 출혈에서는 절대 금기가 아니다. 가능한 HPA 적합 혈소판을 요청하고, 확보 지연과 출혈 위험을 비교하여 응급 수혈을 결정한다.
+- **불응성·중증 출혈**: IVIG 반응이 없으면 혈장교환 등 구제치료를 전문팀에서 검토한다. 혈소판 수치와 임상 출혈을 추적하고 향후 수혈 시 PTP 병력을 알린다. [호주 National Blood Authority IVIG 기준](https://www.criteria.blood.gov.au/MedicalCondition/View/2424), [Lifeblood PTP 관리](https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/PTP)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 대개 수주 내에 혈소판 수치가 정상으로 회복됨

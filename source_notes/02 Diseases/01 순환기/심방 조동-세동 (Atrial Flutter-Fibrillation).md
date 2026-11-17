@@ -15,7 +15,7 @@ CC:
 - 가슴 통증
 - 실신
 clinical_priority: tier_1
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-11-17"
 guideline_year: '2024'
 sources:
 - '2024 ESC Guidelines for the Management of Atrial Fibrillation | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation/'
@@ -52,6 +52,9 @@ population: adult
 - 심율동전환을 계획할 때는 현재 항응고 상태와 AF 지속기간을 확인한다. 지속기간이 불확실하거나 길면 적절한 항응고를 확보하거나, TEE 등으로 좌심방·좌심방이(left atrial appendage) 혈전을 배제한 뒤 시술 전략을 정한다.
 - 뇌졸중 예방은 AF-CARE의 핵심이다. 적응증이 있으면 DOAC을 우선 고려하되, 기계판막 또는 중등도 이상 승모판 협착에서는 VKA를 사용한다. DOAC 처방 시 신기능·체중·연령·상호작용을 매 방문 또는 임상 변화 시 재확인한다.
 - 체중, 혈압, 당뇨병, 수면무호흡, 음주, 운동, 심부전 및 관상동맥질환을 함께 관리한다. 항응고 여부, 증상, 심박수·리듬, 신기능 및 출혈 위험은 고정된 결론이 아니라 치료 과정에서 반복 평가한다.
+
+- **항응고 시작 기준**: ESC 2024의 CHA₂DS₂-VA는 1점이면 고려, ≥2점이면 권고한다. CHA₂DS₂-VASc를 쓰는 지침의 성별 기준과 섞어 계산하지 않는다. 출혈 위험은 교정 가능한 요인을 찾는 데 사용하며 점수만으로 항응고를 배제하지 않는다. 동율동 회복·절제술 성공 후에도 장기 항응고는 혈전색전 위험에 따라 결정한다.
+- **심율동전환 전후**: AF >24시간 또는 시작 시점 불명이고 안정적이면 ≥3주 치료적 항응고를 확보하거나 TEE 등으로 심방 혈전을 배제한다. 대부분 전환 후 ≥4주 항응고하며 장기 지속은 위험도로 결정한다. 불안정하면 항응고 준비 때문에 응급 전환을 지연하지 않는다. [ESC 2024](https://academic.oup.com/eurheartj/article/45/36/3314/7738779)
 
 ## 6. 예후 및 합병증
 - 주요 합병증은 허혈성 뇌졸중·전신색전증, 심부전 악화, 빈맥유발 심근병증, 입원 및 치료 관련 출혈이다.

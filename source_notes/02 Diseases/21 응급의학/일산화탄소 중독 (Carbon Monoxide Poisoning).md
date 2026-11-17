@@ -16,7 +16,7 @@ CC:
 clinical_priority: tier_2
 review_status: source_reviewed_no_change
 reviewed_at: '2026-07-30'
-content_updated_at: '2026-07-17'
+content_updated_at: "2026-11-18"
 guideline_year: '2024'
 sources:
 - 'CDC Clinical Guidance for Carbon Monoxide Poisoning | https://www.cdc.gov/carbon-monoxide/hcp/clinical-guidance/index.html'
@@ -50,6 +50,9 @@ population: general
 - 의식소실, 지속 신경학적 이상, 심근허혈, 중증 산증, 고농도 COHb 또는 임신 등에서는 고압산소치료를 조기에 고압의학·독성 전문가와 상의한다. COHb 숫자 하나가 아니라 임상 중증도와 노출력을 기준으로 결정한다.
 - 화재 환자는 cyanide 동시 노출과 기도부종을 고려해 원인별 치료를 병행한다.
 - 증상이 소실되고 평가가 안정될 때까지 산소치료와 관찰을 지속한다.
+
+- 고압산소 협의의 대표적 기준은 **COHb >25~30%, 의식소실·지속 신경 이상·심장 침범·중증 산증**이다. 낮은 수치라도 노출 후 시간·산소 투여로 감소했을 수 있어 중증도를 낮게 판단하지 않는다.
+- **임신은 더 낮은 문턱으로 고압산소를 협의**한다. 일반 산소 치료 중에도 신경·심장 상태를 반복 평가하며 퇴원 시 지연 신경 증상의 재평가 계획을 안내한다. [CDC](https://www.cdc.gov/carbon-monoxide/hcp/clinical-guidance/index.html)
 
 ## 6. 예후 및 합병증
 - 급성 합병증은 저산소성 뇌손상, 심근손상·부정맥, 폐부종, rhabdomyolysis와 사망이다. 심근손상은 장기 사망 위험과 연관된다.

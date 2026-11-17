@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -51,9 +51,9 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 - 조기 의심 시 즉시 CSF 및 PCR 검사를 시행하고, 신경중환자실에서 뇌압 관리와 함께 다제 병용 요법을 시작한다.
-- 암포테리신 B, 밀테포신, 플루코나졸, 아지스로마이신, 리팜핀 등 병용 치료 시 신독성·간독성 등 부작용을 지속적으로 모니터링한다.
+- **Naegleria PAM**과 **Acanthamoeba/Balamuthia 육아종성 뇌염**은 권장 병용 약제가 다르다. 모든 자유 아메바에 동일한 amphotericin 기반 요법을 적용하지 않고, 병원체 추정·PCR과 전문기관 자문으로 즉시 다제요법을 선택한다. 희귀 감염으로 표준요법 근거가 제한적이므로 최신 가용 약제·독성 및 투여 경로를 확인한다. [CDC Naegleria 치료](https://www.cdc.gov/naegleria/hcp/clinical-care/index.html), [CDC Acanthamoeba 치료](https://www.cdc.gov/acanthamoeba/hcp/clinical-care/index.html)
 - 아메바성 각막염은 국소 클로르헥시딘·PHMB 점안으로 초기 치료하고, 안과 전문의와 즉시 연계한다.
-- 치료 중 정기적인 신경학적 평가와
+- 치료 중 신경학적 상태·뇌압과 신장·간 기능 및 전해질을 추적하고, 악화 시 중환자·감염·신경 전문팀이 즉시 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - PAM은 매우 치명적(치사율 95~99% 이상)

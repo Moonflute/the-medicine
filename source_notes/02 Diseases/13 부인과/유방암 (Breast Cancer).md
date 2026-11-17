@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-16"
+content_updated_at: "2026-11-18"
 aliases:
 - 유방암
 유형:
@@ -71,6 +71,10 @@ reviewed_at: "2026-07-30"
 - **선행 전신치료와 계획**: 선행 전신치료는 유방보존 가능성을 높이거나 수술이 어려운 병변을 축소하기 위해 선택할 수 있으며, 치료 반응은 개별 예후 및 이후 전신치료 선택에 활용한다. 유전성 위험이 의심되면 유전상담·검사를 치료 결정 전에 논의하고, 수술 범위와 재건 계획을 숙고할 시간을 확보한다.
 - **수술 후 관리 및 합병증 예방**: 수술 후 림프부종 예방을 위한 상지 운동 교육 및 피부 관리 교육을 시행하고, 정기적인 신체 검진과 영상 검사를 통해 국소 재발 및 원격 전이를 추적 관찰함.
 - **전문의 의뢰**: 유방암 의심 소견(BI-RADS 4 이상)이 있거나 확진된 경우, 즉시 유방외과 전문의에게 의뢰하여 병기 설정 및 치료 계획을 수립함.
+
+- **항암과 내분비 단독의 경계(HR+/HER2−)**: 폐경 후 N0 또는 1–3개 양성 림프절의 적합 환자에서 21-gene recurrence score(RS) ≤25이면 항암 생략을 검토할 수 있다. RS ≥26은 항암 추가를 지지한다. 폐경 전 N0의 RS 16–25는 연령·임상 위험을 함께 평가하고, 폐경 전 림프절 1–3개 양성은 낮은 RS만으로 항암을 생략하지 않는다. ≥4개 양성에서는 이러한 생략 근거를 적용하지 않는다. [ASCO HR+/HER2− 2026](https://doi.org/10.1200/JCO-26-02034)
+- **선행치료를 우선하는 경우**: HER2 양성 II–III기 또는 고위험 삼중음성(예: T1cN+ 또는 T2 이상)에서는 선행치료와 잔존암에 따른 수술 후 약제 조정의 이득을 검토한다. 삼중음성의 pembrolizumab 병용은 조기 고위험군에서 PD-L1과 무관하게 선택 가능하다. [KEYNOTE-522 승인 조건](https://www.asco.org/practice-policy/policy-issues-statements/asco-in-action/fda-approves-pembrolizumab-high-risk-early)
+- **HER2 양성 잔존암**: Trastuzumab ± pertuzumab 및 taxane 선행치료 후 침윤암이 남은 경우 2026 FDA 승인 T-DXd와 기존 T-DM1 등을 위험·독성·국내 사용 조건으로 비교한다. T-DXd의 새 기침·호흡곤란은 간질성 폐질환 평가와 약제 보류가 필요한 소견이다. [FDA 2026](https://www.fda.gov/drugs/cancer-approvals/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 조기 발견 시 생존율이 높으나, 분자 아형과 병기에 따라 예후가 상이함.

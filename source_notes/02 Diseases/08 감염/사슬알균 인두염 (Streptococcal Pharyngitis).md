@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -49,6 +49,8 @@ reviewed_at: "2026-07-30"
 * **대증 요법**: 통증 및 발열 조절을 위해 아세트아미노펜 또는 NSAIDs를 병용함.
 * **전파 방지**: 항생제 투여 시작 후 24시간이 경과하고 발열이 없으면 등교 및 출근 등 일상 복귀가 가능함.
 * **추적 관찰**: 증상 호전이 없거나 편도주위 농양 등 합병증 의심 시 상급 병원 진료를 권고함.
+
+- **확인 후 처방:** RADT 또는 배양 양성이면 penicillin/amoxicillin을 통상 10일 사용한다. 3세 이상 소아의 RADT 음성은 배양으로 확인하되 성인에서는 음성 후 배양이 일상적으로 필요하지 않다. 뚜렷한 기침·콧물 등 바이러스 양상에서는 경험적 항생제를 피한다. 즉시형 penicillin 알레르기이면 cephalexin/cefadroxil을 피하고, 대체 macrolide·clindamycin은 지역 내성을 확인한다. [CDC GAS 인두염 지침](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 류마티스열, 사구체신염, 편도주위 농양 등 발생 가능

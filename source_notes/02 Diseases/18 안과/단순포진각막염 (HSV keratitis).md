@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - HSV keratitis
 유형:
@@ -46,6 +46,8 @@ reviewed_at: "2026-07-30"
 - 치료 시작 후 48시간 이내에 증상·소견이 악화되면 즉시 안과 전문의에게 의뢰한다.
 - 치료 후 1~2주 간격으로 세극등 검사를 포함한 추적 검진을 시행하여 재발 여부와 각막 혼탁 진행을 확인한다.
 - 스트레스, 자외선 노출, 면역 저하 등 재발 위험 요인을 관리하고, 필요 시 예방적 항바이러스제 사용은 담당 의사와 상의한다.
+
+- **steroid를 가르는 병변 층**: 활동성 수지상/지도상 **상피형은 항바이러스 치료를 하고 국소 steroid는 피한다**. 기질·내피 염증은 충분한 항바이러스 보호하에 steroid를 사용하며 서서히 감량한다. 반복 기질염·수술 전후 등 재발 고위험은 장기 경구 억제요법을 검토한다. [AAO 치료지침](https://www.aao.org/education/clinical-statement/herpes-simplex-virus-keratitis-treatment-guideline)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 반복적인 재발로 인한 각막 혼탁, 신생혈관 형성, 시력 저하가 발생할 수 있음.

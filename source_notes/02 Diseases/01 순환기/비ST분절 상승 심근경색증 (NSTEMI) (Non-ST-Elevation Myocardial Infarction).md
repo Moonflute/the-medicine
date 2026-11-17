@@ -12,11 +12,14 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 review_status: "guideline_enriched"
-reviewed_at: "2026-07-16"
-guideline_year: "2023"
-sources: ["2020년 급성 심근경색증의 약물 치료법에 대한 전문가 합의문 | https://www.koreamed.org/SearchBasic.php?RID=0106KCJ/2020.50.10.875", "2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS-in-patients-presenting-without-persistent-ST-segment-elevation"]
+reviewed_at: "2026-10-21"
+guideline_year: "2026"
+sources:
+- "2020년 급성 심근경색증의 약물 치료법에 대한 전문가 합의문 | https://www.koreamed.org/SearchBasic.php?RID=0106KCJ/2020.50.10.875"
+- "2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS-in-patients-presenting-without-persistent-ST-segment-elevation"
+- "Fifth Universal Definition of Myocardial Infarction 2026 | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/"
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-18"
 
 관련분과:
 - 21 응급의학
@@ -49,6 +52,7 @@ content_updated_at: "2026-07-16"
 - 흉통이 없어도 호흡곤란·실신·피로로 나타날 수 있다. 반대로 정상 또는 비특이 심전도만으로 NSTEMI를 배제하지 않으며, 증상 지속·재발 시 심전도와 트로포닌을 반복하고 대동맥박리·폐색전증 등 치명적 감별을 병행한다.
 
 - NSTEMI는 고감도 트로포닌의 상승/하강으로 확인되는 **급성 심근손상**에 허혈 증상, 새 허혈성 심전도 변화, 영상의 새 국소벽운동 이상 또는 관상동맥 혈전 등 허혈 증거가 동반될 때 진단한다. 지속 ST분절 상승이 없다는 사실과 트로포닌 단일 상승만으로 분류하지 않는다.
+- **2026 제5차 보편적 정의**: troponin의 검사법별 성별 99백분위 상한을 적용하고, **일차성·이차성·시술 관련 MI**를 ECG 표현형과 별도로 기록한다. 관상동맥·심근 영상에 따른 확정 조건과 비허혈성 심근손상 감별은 [[급성 관상동맥 증후군 (ACS)]]의 2026 절을 적용한다.
 
 ## 5. 치료 (Treatment)
 - 약물 치료: 항허혈제(질산염, 베타차단제 등) 및 항혈전제(아스피린, P2Y12 억제제, 항응고제) 투여.
@@ -57,10 +61,18 @@ content_updated_at: "2026-07-16"
 - 특수 상황: 관상동맥 비폐쇄성 심근경색(MINOCA)이나 자발성 관상동맥 박리(SCAD)의 경우 기전 기반 경로(mechanism-based pathway)를 따르며, SCAD는 허혈이 지속되지 않는 한 보존적 치료를 우선함.
 - 퇴원 전에는 재관류 여부, 허혈·출혈 위험, 심기능 및 동반질환을 함께 검토하여 약제와 추적 계획을 개별화하고, 금기 없으면 심장재활 의뢰와 금연·운동·식이·혈압·당뇨 관리 계획을 연계한다.
 
+- **지질약 강화 기준**: 최대 내약 statin에도 **LDL-C ≥70 mg/dL**이면 ezetimibe/PCSK9 억제제 등 비statin 추가를 권고하며, **55–<70 mg/dL**에서도 추가 강화를 합리적으로 고려한다. 시작·변경 후 4–8주 재검으로 반응을 확인한다.
+- 근거: [AHA/ACC ACS 지침 2025](https://doi.org/10.1161/CIR.0000000000001309).
+
+- **침습 시기**: 쇼크/혈역학 불안정, 약물에 불응하는 반복 흉통, 생명 위협 부정맥 또는 진행 허혈성 급성 심부전은 즉시 관상동맥조영술을 준비한다. 안정적이어도 확진 NSTEMI·동적 ST/T 변화·일시 ST 상승 또는 **GRACE >140**이면 24시간 이내 조기 전략을 검토한다.
+- 조기 조영술 예정이고 관상동맥 해부를 모르면 P2Y12 억제제의 일률적 선투여를 피한다. 지연이 >24시간이면 허혈·출혈 및 CABG 가능성을 고려해 선택적으로 선투여한다.
+- 근거: [ESC ACS 지침 2023](https://doi.org/10.1093/eurheartj/ehad191).
+
 ## 6. 예후 및 합병증 (Prognosis)
 - 심부전, 부정맥, 재발성 심근경색, 심인성 쇼크 등이 발생할 수 있다.
 
 출처 : Merck Manual Professional
+- [제5차 심근경색 보편적 정의(2026)](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/) — 2026-10-21 반영.
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

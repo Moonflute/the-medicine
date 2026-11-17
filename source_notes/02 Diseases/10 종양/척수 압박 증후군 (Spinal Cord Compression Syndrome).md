@@ -15,7 +15,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["Radiological diagnosis of malignant spinal cord compression syndrome: Consensus document from SENR, SERAU, SERME, SERAM. | https://pubmed.ncbi.nlm.nih.gov/40412852/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[종양]]
 
@@ -51,6 +51,9 @@ content_updated_at: "2026-07-16"
 *   **근본 치료**:
 * 수술적 감압술: 신경학적 결손이 악화되거나(특히 빠르게 진행하는 경우), 척추 불안정성·골절 또는 골편에 의한 압박이 있는 경우, 방사선 치료 후 재발한 경우, 조직 검사가 필요한 경우 등에 우선 고려. 방사선 민감성, 기존 방사선 치료 여부와 전신 상태를 함께 반영해 치료를 선택한다.
 * 방사선 치료(RTx): 방사선 민감성 종양에 의한 압박 시 시행.
+
+- **악성 척수압박의 시간 기준:** 새 신경학적 증상·징후가 있으면 가능한 빨리 **dexamethasone 16 mg 경구 또는 동등 주사**를 시작하고 수술/방사선 대기 중 16 mg/일을 유지한 뒤 치료 개시 후 감량한다. 긴급 전척추 MRI는 **24시간 이내** 시행한다.
+- 수술이 적합하지 않으면 원칙적으로 결정 후 **24시간 이내 응급 방사선치료**를 준비한다. 척추 불안정성·골편 압박·빠른 신경 악화는 수술 감압·고정 필요성을 우선 평가한다. 신경 증상 없는 의심 림프종·골수종에서는 조직진단에 영향을 줄 수 있어 steroid 시작 전 혈액종양팀과 협의한다. [NICE NG234](https://www.nice.org.uk/guidance/ng234/chapter/recommendations)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 치료가 신경학적 기능 회복의 핵심이다.

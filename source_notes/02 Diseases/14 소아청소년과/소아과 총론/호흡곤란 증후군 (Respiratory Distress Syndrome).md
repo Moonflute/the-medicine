@@ -15,7 +15,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-11-18"
 guideline_year: "2026"
 sources: ["European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025. | https://pubmed.ncbi.nlm.nih.gov/41802129/"]
 reviewed_at: "2026-07-16"
@@ -59,14 +59,17 @@ review_status: "guideline_enriched"
 - 임상적 위험인자, 호흡곤란 증상, 특징적인 흉부 영상 소견 및 혈액 가스 분석 결과를 종합하여 진단
 
 ## 5. 치료
-- **ARDS**:
-- 기계 환기(Lung-protective ventilation): 일회호흡량 6 mL/kg(PBW), 고원부압력 ≤ 30 cmH₂O, PEEP 적용
-- 기타: 복와위(1일 12시간 이상), 보존적 수액 요법, 필요 시 ECMO 고려
+- **ARDS와의 구분**: 아래 치료 기준은 미숙아의 계면활성제 결핍성 RDS에 해당한다. 성인 ARDS의 PBW 기반 환기·복와위 기준을 신생아에게 그대로 적용하지 않는다.
 - **신생아 RDS**:
 - 산전 스테로이드 투여(예방)
 - 호흡 보조: 지속적 기도 양압(CPAP) 우선 고려, 필요 시 기계 환기
 - 계면활성제 보충 요법(Surfactant replacement therapy)
 - 보존적 치료: 적절한 체온 유지, 영양 공급, 수액 및 전해질 관리
+
+- **호흡 보조 선택**: 자발호흡이 있으면 CPAP/NIPPV 등 비침습적 지지를 우선하고, 반복 무호흡·지속 저산소혈증·환기 실패이면 삽관한다. 기계환기가 필요하면 용적표적 환기를 고려하고 가능한 한 조기에 비침습적 지지로 전환한다.
+- **계면활성제 투여 기준(유럽 2025 권고, 2026 발표)**: 재태주수 >28주에서 RDS가 악화되고 비침습적 지지 중 평균기도압 ≥6 cmH₂O에서 FiO₂ ≥0.30이 필요하거나 폐초음파가 결핍을 시사하면 조기 구조 투여를 고려한다. 자발호흡이 유지되면 가는 카테터를 통한 LISA를 우선하며, poractant alfa 초기 **200 mg/kg**이 100 mg/kg보다 선호된다. 지속적인 높은 산소 요구가 있고 다른 원인을 배제하면 추가 투여한다. 극소미숙아는 더 이른 예방적 투여 대상인지 별도로 평가한다.
+
+근거: [European RDS consensus 2025](https://doi.org/10.1159/000551062).
 
 ## 6. 예후 및 합병증
 - **ARDS**: 기흉, 다발성 장기부전, 장기적인 폐 기능 저하 및 인지 기능 변화 가능성

@@ -16,7 +16,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Varicocele Treatment in Azoospermia Before Artificial Reproductive Techniques: Critical Considerations by the EAU Guidelines Panel on Sexual and Reproductive Health. | https://pubmed.ncbi.nlm.nih.gov/41444075/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[비뇨기과]]
 
@@ -42,10 +42,9 @@ content_updated_at: "2026-07-16"
 
 
 ## 5. 치료 (Treatment)
-* **적응증:** 통증, 고환 위축, 불임(정액 검사 이상 소견 시).
-* **비폐쇄성 무정자증(NOA) 환자:** 임상적으로 확인된 정계정맥류가 있는 NOA 환자에서 수술적 교정의 잠재적 이점이 보고됨. 단, 유전적 이상이 없고 배우자의 난소 예비능이 정상인 경우에 한해 고려 가능함.
-* **상담 및 주의사항:** NOA 환자 대상 수술은 근거 수준이 제한적이므로, 결과의 가변성과 제한적인 근거 수준에 대해 충분히 상담해야 함.
-* **방법:** 미세수술적 정계정맥 결찰술(Microsurgical subinguinal varicocelectomy)이 재발률이 낮고 합병증이 적어 선호됨. 그 외 복강경 결찰술, 경피적 색전술 등 시행 가능.
+- 성인 불임에서는 **촉지되는 임상적 정계정맥류+비정상 정액검사+임신 시도**가 수술을 검토하는 핵심 조합이다. 영상에서만 보이는 무증상 정계정맥류나 정상 정액검사를 불임 개선 목적으로 일률적으로 수술하지 않는다.
+- 보존 치료에도 지속되는 통증은 다른 원인을 배제한 뒤 수술/색전술을 논의한다. NOA는 교정 후 생식 결과 개선 근거가 불충분하므로 정자 채취·보조생식 지연 가능성과 함께 상담한다. [AUA/ASRM 2024](https://www.auanet.org/documents/Guidelines/PDF/2024%20Guidelines/Male%20Infertility%20Unabridged%20Final.pdf)
+- 청소년은 반대측보다 **>2 mL 또는 20% 작은 고환**이 6개월 간격 두 평가에서 지속되면 수술을 제안한다. 일시적 비대칭만으로 결정하지 않으며 지속 통증·양측 촉지 병변·정액 이상도 고려한다. [EAU 소아 정계정맥류](https://uroweb.org/guidelines/paediatric-urology/chapter/varicocele-in-children-and-adolescents)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 수술 후 정액 지표 개선 및 자연 임신율 향상 기대 가능.

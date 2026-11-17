@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - 뇌전증 지속증
 유형:
@@ -42,6 +42,8 @@ reviewed_at: "2026-07-30"
 * **단계적 약물 투여**: 경련이 5분 이상 이어지면 벤조디아제핀을 지체 없이 투여한다. 정맥로와 소생 장비를 즉시 쓸 수 있으면 정맥 로라제팜이 초기 선택이다. 정맥로가 없으면 확보를 기다리기보다 기관 프로토콜에 따라 협점막 미다졸람 등 비정맥 구조약을 사용한다. 기관 절차에 따라 벤조디아제핀을 반복할 수 있다. 적절한 2회 투여에도 경련이 계속되면 즉시 2차 항경련제로 진행한다. [NICE 뇌전증 지속상태 초기 치료](https://www.nice.org.uk/guidance/ng217/chapter/treating-status-epilepticus-repeated-or-cluster-seizures-and-prolonged-seizures)
 * **난치성 관리**: 약물에 반응하지 않는 지속성 경련 시 마취제 투여 및 뇌파 모니터링을 위해 중환자실 집중 치료를 시행한다.
 * **원인 교정 및 모니터링**: 경련 조절과 동시에 대사 이상, 감염, 약물 중단 등 근본 원인을 파악하여 교정하고 합병증 발생을 감시한다.
+
+* **2차 약제와 난치성 판단**: 적절한 benzodiazepine 2회 후에도 지속하면 예를 들어 **levetiracetam 60 mg/kg IV(최대 4.5 g)**를 부하한다. 대안은 fosphenytoin **20 mg PE/kg(최대 1.5 g PE)** 또는 valproate **40 mg/kg(최대 3 g)**이며 연령·간질환·미토콘드리아질환·순환 상태를 고려한다. 충분한 2차 부하 후에도 지속하면 중환자실·신경과와 마취제 지속주입 및 연속 EEG를 준비한다. 지역 프로토콜의 주입속도와 최대용량을 따르며 신생아에는 별도 알고리즘을 쓴다. [CHOP 지속상태 경로](https://www.chop.edu/clinical-pathway/status-epilepticus-clinical-pathway)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 뇌 손상, 호흡 부전, 부정맥, 흡인성 폐렴, 횡문근 융해증

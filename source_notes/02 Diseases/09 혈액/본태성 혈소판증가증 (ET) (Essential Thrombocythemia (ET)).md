@@ -18,7 +18,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["[Chinese guidelines on the diagnosis and treatment of adult essential thrombocythemia (2026)]. | https://pubmed.ncbi.nlm.nih.gov/42409729/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[혈액]]
 
@@ -44,11 +44,9 @@ content_updated_at: "2026-07-16"
 - JAK2 변이가 없을 때는 BCR::ABL1 검사와 세포유전학을 통해 CML·5q syndrome 등 다른 클론성 질환을 배제한다. 비장비대, 적혈구량 증가 및 PV/PMF로의 진행 가능성도 함께 평가한다.
 
 ## 5. 치료 (Treatment)
-- 치료 목표: 혈전 및 출혈 사건 예방, 질환 진행 억제.
-- 저위험군: 저용량 아스피린 투여 및 경과 관찰.
-- 고위험군: 혈소판 감소 약물(하이드록시우레아, 아나그렐리드 등) 투여.
-- 관리: 최신 분자 진단 및 신약 개발을 반영한 표준화된 임상 관리 필요.
-- 무증상이고 심혈관 위험이 낮은 환자는 즉시 세포감소치료가 항상 필요한 것은 아니다. aspirin은 위험도·출혈 위험에 따라 사용하며, 고위험군에서는 hydroxyurea, pegylated interferon-α 또는 anagrelide 같은 세포감소치료를 전문적으로 선택한다.
+- **혈전 위험 분류:** 혈전 병력이 있거나 **나이 >60세이면서 JAK2 변이 양성**이면 고위험으로 세포감소치료를 권고한다. ≤60세·혈전 병력 없음은 JAK2 음성이면 매우 낮은 위험, 양성이면 낮은 위험이며, >60세·JAK2 음성·혈전 병력 없음은 중간 위험으로 개별화한다.
+- 저용량 aspirin은 미세혈관 증상·JAK2 및 심혈관 위험과 출혈 위험을 함께 평가한다. 매우 낮은 위험의 무증상 환자는 관찰이 가능하다. 혈소판 **>1,000,000/μL** 등 극심한 증가에서는 후천성 VWF 이상을 검사하고, 출혈 또는 현저한 VWF 활성 저하 시 aspirin을 보류한다. 혈소판 수가 높다는 이유만으로 항혈소판제를 강화하지 않는다.
+- Hydroxyurea 또는 pegylated interferon 등을 혈전 위험·임신 계획·내약성에 따라 선택한다. 극심한 혈소판증가, 출혈, 조절되지 않는 미세혈관 증상도 세포감소치료를 검토할 사유다. 임신 계획·임신에서는 interferon 중심의 별도 전략을 적용한다. [한국 골수증식종양 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC7820646/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 주요 합병증은 혈전증 및 출혈.

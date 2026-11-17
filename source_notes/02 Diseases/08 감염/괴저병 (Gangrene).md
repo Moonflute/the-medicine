@@ -16,7 +16,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["Wound, pressure ulcer, and burn guidelines - 3: Guidelines for the diagnosis and treatment of diabetic ulcers and gangrene, second edition. | https://pubmed.ncbi.nlm.nih.gov/40292848/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[감염]]
 
@@ -43,9 +43,9 @@ content_updated_at: "2026-07-16"
   진단을 위해 수술적 탐색이 필요한 경우가 많다.
 
 ## 5. 치료 (Treatment)
-- **수술**: 괴사 조직의 즉각적인 외과적 절제(debridement)가 필수적임. 
-- **항생제**: 정맥 투여뿐만 아니라 경구 투여도 고려 가능함. 비브리오 불니피쿠스는 독시사이클린과 3세대 세팔로스포린 병용 요법을 고려한다. 
-- **보조 요법**: 수액 소생술, 기저 질환 관리, 필요 시 고압 산소 치료 등을 고려할 수 있다.
+- **감염성 습성 괴저·빠른 연부조직 괴사:** 즉시 수술 평가와 광범위 IV 항생제, 쇼크 소생술을 병행한다. 항생제 반응을 기다리며 절제술을 미루지 않는다.
+- 해수·해산물 노출 후 출혈성 수포, 급격한 통증·괴사 또는 패혈증이면 **V. vulnificus**를 의심한다. 배양 확정을 기다리지 않고 3세대 cephalosporin(예: ceftazidime)과 doxycycline 병용 등을 시작하고 조기에 괴사조직을 제거한다. 중증 감염을 경구 항생제 단독으로 관리하지 않는다. [CDC Vibrio 치료](https://www.cdc.gov/vibrio/hcp/clinical-overview/index.html)
+- **감염 없는 건성 허혈성 괴저:** 혈류·생존 조직을 평가하여 재혈관화와 절제 범위를 혈관외과와 결정한다. 괴저라는 이름만으로 항생제나 고압산소를 일률적으로 처방하지 않으며, 고압산소 때문에 필요한 수술·재관류가 늦어져서는 안 된다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 패혈증, 다장기 부전, 사지 절단, 사망 등의 심각한 합병증이 발생할 수 있다.

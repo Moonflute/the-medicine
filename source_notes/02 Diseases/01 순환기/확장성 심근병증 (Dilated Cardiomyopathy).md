@@ -20,7 +20,7 @@ review_status: "guideline_enriched"
 guideline_year: "2023"
 sources: ["2023 ESC Guidelines for the management of cardiomyopathies | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Management-of-Cardiomyopathies"]
 
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[순환기]]
 
@@ -59,6 +59,8 @@ content_updated_at: "2026-07-30"
 - **기기 및 수술적 치료**: 약물 치료에도 불구, 증상이 지속되는 경우 심장 재동기화 치료(CRT), 삽입형 제세동기(ICD), 좌심실 보조장치(LVAD) 또는 심장 이식 고려.
 - **항응고 요법**: 심방세동이나 혈전색전증 위험이 있는 경우 시행.
 - **위험도와 의뢰**: 약물치료는 만성 HFrEF 지침에 따라 최적화하되, ICD 판단은 LVEF만으로 끝내지 않고 원인·유전형, CMR 섬유화, 실신/심실성 부정맥을 함께 평가한다. 진행성 심부전·반복 입원·고위험 유전형·가족성 질환은 심근병증/advanced HF 센터에 의뢰한다.
+
+- **기기치료 분기**: 적정 약물치료 후에도 LVEF ≤35%와 증상이 지속되면 ICD 적응증을 평가한다. 동율동·LBBB·QRS ≥150 ms·LVEF ≤35%의 증상성 환자는 CRT의 대표적 대상이다. 좁은 QRS나 가역성 빈맥/독성 원인은 별도로 판단한다. 동율동이며 심장 내 혈전·색전 사건 등 적응증이 없으면 낮은 EF만으로 항응고를 일률 시행하지 않는다. [AHA/ACC/HFSA](https://www.jacc.org/doi/full/10.1016/j.jacc.2021.12.012)
 
 ## 6. 예후 및 합병증
 - **합병증**: 심부전 악화, 부정맥(심방세동, 심실 빈맥), 혈전색전증.

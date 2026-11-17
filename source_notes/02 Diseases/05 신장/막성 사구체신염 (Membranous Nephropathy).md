@@ -17,7 +17,7 @@ guideline_year: "2021"
 sources: ["KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
 
 source_currency_assessment: "current_standard_retained"
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[신장]]
 
@@ -57,6 +57,9 @@ content_updated_at: "2026-07-16"
 - **보존적 치료**: 모든 환자에서 염분·부종 관리, 단백뇨 감소를 위한 RAS 차단 및 심혈관 위험 관리를 시행합니다. 혈압 목표와 이뇨 강도는 기립저혈압·AKI 위험, eGFR, 동반 질환을 고려해 개별화합니다.
 - **면역억제 치료**: 지속되는 단백뇨, eGFR 저하, 항-PLA2R 항체 및 임상 경과를 통합한 진행 위험이 중등도 이상일 때 고려합니다. 리툭시맙, 사이클로포스파마이드-글루코코르티코이드 또는 CNI 기반 요법은 위험도와 금기·독성·생식 계획에 따라 신장내과가 선택합니다.
 - **모니터링**: 항-PLA2R 항체와 단백뇨·알부민·eGFR의 시간적 변화를 함께 보고, 면역억제 중 감염·혈구감소·신독성 및 재발을 추적합니다.
+
+- **면역억제를 보류할 조건**: 단백뇨 <3.5 g/일, albumin >3.0 g/dL(BCP/면역측정법), eGFR >60 mL/min/1.73m²이면 보통 신보호 치료와 추적을 우선한다. 신증후군이 있어도 신기능이 정상이고 진행 위험·심한 합병증이 없으면 즉시 면역억제가 필요하지 않을 수 있다.
+- **치료 강화**: 지속 고단백뇨, eGFR 감소, 높은/지속 anti-PLA2R 또는 AKI·혈전 등 합병증이면 위험도를 재분류한다. 매우 높은 위험·빠른 신기능 악화는 cyclophosphamide–glucocorticoid 요법을 우선 검토하고, 중등도 위험에서는 rituximab/CNI 등과 비교한다. 항체 감소가 단백뇨 호전보다 앞설 수 있어 단백뇨만 보고 성급히 반복 면역억제하지 않는다. [KDIGO 2021](https://kdigo.org/wp-content/uploads/2021/10/KDIGO-2021-Guideline-for-the-Management-of-Glomerular-Diseases.pdf)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **혈전·감염 안전:** 저알부민혈증과 지속적 신증후군에서는 정맥 혈전색전증 위험과 출혈 위험을 함께 개별 평가해 예방 항응고 여부를 결정합니다. 면역억제 전에는 감염 선별·예방접종·생식 독성 상담을 확인하고, 치료 중 감염·백혈구감소·신독성을 감시합니다.

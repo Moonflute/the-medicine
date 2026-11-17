@@ -16,7 +16,7 @@ CC:
 - 감각 이상
 clinical_priority: tier_1
 reviewed_at: '2026-10-07'
-content_updated_at: '2026-10-07'
+content_updated_at: "2026-11-18"
 review_status: official_guideline_reviewed
 guideline_year: '2025'
 sources:
@@ -40,6 +40,10 @@ sources:
 ## 5. 치료
 - 압박 드레싱을 풀고 사지를 평가하면서 즉시 정형외과·수술팀에 알린다. 확진되면 지체 없이 관련 구획을 모두 감압하는 근막절개술을 시행한다.
 - 뒤늦게 발견된 경우에는 괴사·감염과 수술 위험을 고려한 전문 판단이 필요하다.
+
+- **불균형한 통증, 수동 신장 시 통증, 진행하는 감각·운동 이상**을 반복 확인한다. 맥박이 만져져도 배제되지 않으며 임상적으로 명백하면 압력 측정 때문에 수술을 지연하지 않는다.
+- 진찰이 불확실하거나 의식 저하로 평가가 어려우면 반복/연속 구획압 측정을 보조적으로 사용한다. **이완기 혈압−구획압(ΔP) ≤30 mmHg**는 저관류를 우려하는 소견이나 단일 측정치만으로 확진·수술을 결정하지 않는다. 지속적 ΔP >30 mmHg는 배제에 도움을 준다.
+- 근거: [AAOS 급성 구획증후군 2025](https://www.aaos.org/globalassets/quality-and-practice-resources/acute-compartment-syndrome/2025-acs-rapid-update/acs-cpg-2025.pdf).
 
 ## 6. 예후 및 합병증
 - 근괴사·신경 손상, 신기능 손상과 상처 문제를 감시한다. 감압 뒤 조직 생존성과 재수술·연부조직 관리 계획을 기록한다.

@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - 섬망
 유형:
@@ -51,6 +51,10 @@ relation_to_parent: subtype
 - **약물 검토 및 중단**: 항콜린성 약물, 벤조디아제핀 등 섬망을 유발하거나 악화시킬 수 있는 약물을 우선적으로 감량하거나 중단함.
 - **안전 관리 및 환경 수정**: 낙상 방지, 조기 보행 유도, 적절한 조명과 소음 차단, 시계와 달력을 활용한 지남력 유지 및 보호자 상주를 통한 심리적 안정 도모.
 - **약물 치료의 제한적 사용**: 비약물적 중재에 반응하지 않는 심한 초조나 자해·타해 위험 시에만 최소 용량으로 단기간 항정신병 약물을 고려하며, QTc 연장 및 추체외로 증상 등 부작용을 면밀히 모니터링함.
+
+- **약제 예외·기간**: 위해·심한 고통이 있고 진정적 대화·환경 교정으로 부족한 경우에 한해 haloperidol 등 단기 사용을 검토하며 보통 **1주 이내**로 필요성을 재평가한다. QT 연장, Parkinson병·DLB에서는 특히 피하거나 대안을 전문의와 선택한다. **알코올·benzodiazepine 금단 섬망**은 benzodiazepine을 사용해야 하므로 일반 섬망의 회피 원칙과 구분한다.
+
+근거: [NICE CG103](https://www.nice.org.uk/guidance/cg103/chapter/Recommendations), [ASAM 알코올 금단 지침](https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline).
 
 ## 6. 예후 및 합병증
 - 예후: 원인 질환 교정 시 가역적이나, 고령자나 치매 환자에서는 인지 기능 저하가 지속될 수 있음.

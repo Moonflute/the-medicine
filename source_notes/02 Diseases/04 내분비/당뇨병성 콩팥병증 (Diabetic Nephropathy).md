@@ -19,7 +19,7 @@ sources:
 - 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
 clinical_priority: tier_1
 reviewed_at: "2026-07-30"
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 guideline_year: '2026'
 disease_family: diabetes
 parent_disease: 당뇨병 (Diabetes Mellitus)
@@ -60,6 +60,10 @@ population: general
 - **신장·심혈관 보호 약제**: 제2형 당뇨병과 CKD에서는 eGFR ≥20 mL/min/1.73m²이면 SGLT2 억제제를 신장 진행과 심부전 위험 감소 목적으로 사용한다. 혈당 목표 미달, SGLT2 사용 불가, 비만 또는 ASCVD 위험이 있으면 신장·심혈관 근거가 있는 GLP-1 수용체작용제를 고려한다. 알부민뇨가 지속되고 eGFR·칼륨이 허용되면 finerenone 같은 비스테로이드성 MRA를 검토한다.
 - **생활·영양과 합병증**: 비투석 CKD의 단백질 섭취는 대체로 약 0.8 g/kg/day를 목표로 하며, 과도한 단백질·염분 섭취, 흡연, 신독성 NSAID·보충제는 피한다. 스타틴, 체중·운동, 예방접종, 빈혈·CKD-MBD·고칼륨혈증·부종 관리를 병행한다.
 - **추적·의뢰**: eGFR과 UACR 변화, 혈압, 칼륨, 약물 부작용을 위험도에 맞춰 반복 확인한다. UACR 지속 상승, eGFR 지속 저하, 원인 불명·활성 소변침사, 조절 어려운 합병증 또는 eGFR <30 mL/min/1.73m²에서는 신장내과 의뢰와 신대체요법 준비를 논의한다.
+
+- **Finerenone 수치 기준**: 제2형 당뇨 CKD에서 RAS 차단 후에도 알부민뇨가 지속되면 **eGFR ≥25**와 칼륨을 확인한다. FDA 용법상 **K >5.0 mEq/L이면 시작하지 않으며**, 시작·변경 **4주 후** 재검한다. CKD 치료 중 **K >5.5이면 보류**, **≤5.0**으로 회복하면 10 mg 재시작을 검토한다. 심부전 적응증의 용량 조절표와 혼용하지 않는다.
+- **제1형 당뇨 CKD**도 2026년 9월 미국 허가에 추가되었으나 UACR 감소에 근거한 적응증임을 명시하고 국내 허가·장기 임상결과 근거를 별도로 확인한다.
+- 근거: [FDA finerenone 허가사항 2026](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215341s011lbl.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 말기 신부전으로 진행 가능하며, 투석 및 콩팥 이식이 필요할 수 있음.

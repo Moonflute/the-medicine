@@ -12,7 +12,7 @@ CC:
 - 의식 변화
 - 저혈압
 clinical_priority: tier_1
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-11-17"
 guideline_year: '2026'
 sources:
 - 'Surviving Sepsis Campaign Adult Guidelines 2026 | https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines'
@@ -49,6 +49,9 @@ population: adult
 - septic shock에서는 norepinephrine을 1차 혈압유지제로 사용하고, 목표 MAP과 말초관류·소변량·lactate를 종합해 조절한다. 지속 저혈압은 혈관수축제 추가, 심기능 평가 및 ICU 치료를 고려한다.
 - 항균제는 감염 가능성·쇼크·면역저하·병소와 내성 위험을 반영해 신속히 시작하고, 배양·경과가 나오면 spectrum을 좁히거나 중단한다. 매일 감염 가능성과 de-escalation을 재평가한다.
 - 배액·제거·수술 등 source control이 필요한 병소는 가능한 빨리 확인하고 시행한다. 카테터가 있고 지속 균혈증·혈역학적 불안정·터널 또는 포켓 감염이 있으면 카테터 관련 감염의 긴급 source control을 평가한다. 카테터 제거 뒤에도 균혈증이 지속되면 심내막염, 화농성 혈전정맥염, 골수염 등 전이 감염을 찾는다. 카테터 유지 여부는 원인균·카테터 종류·환자 상태를 종합해 결정한다. 기계환기, 신대체요법, 혈당·VTE·stress ulcer 관리 등은 장기부전과 위험도에 맞춰 병행한다.
+
+- **SSC 2026의 시점·목표**: 쇼크 또는 가능성이 높거나 확실한 패혈증은 항균제를 즉시, 이상적으로 인지 후 1시간 이내 투여한다. 쇼크 없는 가능성 단계는 신속 재평가 후 의심이 지속되면 3시간 이내 시작한다. 저관류/쇼크의 초기 결정질 ≥30 mL/kg/3시간은 조건부 권고이며 동적 반응·울혈 위험에 맞춰 반복 평가한다.
+- **승압제·감염원 조절**: 초기 MAP 목표는 65 mmHg, norepinephrine을 1차로 사용한다. 수액·승압제에도 지속 저관류면 심기능·감염원을 다시 확인하고 추가 약제를 선택한다. 배액·수술이 필요한 감염원은 확인 뒤 가능하면 6시간 이내 조절을 추진한다. [SSC 2026](https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026)
 
 ## 6. 예후 및 합병증
 - ARDS, AKI, DIC, 심근억제, ICU-acquired weakness, 인지·정신후유증이 발생할 수 있다. 퇴원 전에는 원인, 항생제 계획, 기능·인지·정신 증상 및 재활·추적 계획을 인계한다.

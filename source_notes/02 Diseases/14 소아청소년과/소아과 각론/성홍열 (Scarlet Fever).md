@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - 성홍열
 유형:
@@ -46,6 +46,8 @@ reviewed_at: "2026-07-30"
 * **격리 지침**: 적절한 항생제 치료 시작 후 최소 24시간이 경과하고 발열이 없을 때까지 등교 및 등원 제한
 * **대증 요법**: 인두통 및 고열 완화를 위해 충분한 수분 섭취와 필요 시 해열진통제 병용
 * **추적 관찰**: 치료 후에도 증상이 지속되거나 합병증(농양, 사구체신염 등) 의심 징후 발생 시 즉시 재내원 안내
+
+* **확인·약제 기준**: GAS 검사 양성인 인두염 동반 성홍열은 penicillin 또는 **amoxicillin 50 mg/kg 1일 1회(최대 1 g), 10일**을 사용한다. 대안은 **25 mg/kg/dose 1일 2회(1회 최대 500 mg), 10일**이다. 3세 이상에서 신속항원 음성이지만 의심되면 배양으로 확인한다. 즉시형 penicillin 알레르기는 cephalexin을 피하고 macrolide/clindamycin 감수성을 고려한다. [CDC 2026](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/scarlet-fever.html)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 항생제 치료 시 예후가 좋음

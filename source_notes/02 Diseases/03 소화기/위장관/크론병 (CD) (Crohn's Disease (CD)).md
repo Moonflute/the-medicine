@@ -22,7 +22,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["ACG Clinical Guideline: Management of Crohn’s Disease in Adults, 2025 | https://gi.org/journals-publications/ebgi/zhai_dalal_sep2025/", "AGA Pharmacological Management of Moderate-to-Severe Crohn’s Disease, 2025 | https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/"]
 
-content_updated_at: "2026-10-08"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[소화기]]
 
@@ -93,6 +93,8 @@ content_updated_at: "2026-10-08"
 - 중등도–중증에서는 생물학제·소분자 제제 등 고도 치료를 조기에 검토하며 기존 약제 실패를 반드시 기다리지는 않는다. 이전 치료·질병 행태·동반질환·접근성을 고려한다. UC의 cyclosporine 구제요법을 크론병의 표준으로 사용하지 않는다.
 - 보조 요법: 영양 상태 최적화, 혈전 예방(thromboprophylaxis), 지속적인 모니터링.
 - 수술: 약물 치료 실패 또는 합병증 발생 시 조기 외과적 평가 시행.
+
+- **협착·농양·누공의 전환 기준**: 짧은(<5 cm) 접근 가능한 협착은 깊은 궤양·농양·악성 의심이 없고 시술 전문성이 있으면 내시경 풍선확장을 고려한다. 긴/다발성 또는 지속 폐쇄성 협착, 천공·악성 의심은 수술 평가 대상이다. 농양은 항생제와 가능한 경피 배액으로 패혈증을 먼저 조절하고, 잔존 협착·누공·재발/불응에 따라 계획 수술을 평가한다. 배액되지 않은 농양에 면역억제만 강화하지 않는다. [ECCO 2024](https://doi.org/10.1093/ecco-jcc/jjae089)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 항문주위 크론병은 항문암, 특히 누공 관련 선암 위험이 증가한다. 새로 생기거나 악화하는 통증 등 항문 증상의 변화는 단순 염증 재발로만 판단하지 않는다. 의심 병변을 자세히 평가하고 필요하면 마취하 검사·생검 및 누공 소파 검사를 시행한다.

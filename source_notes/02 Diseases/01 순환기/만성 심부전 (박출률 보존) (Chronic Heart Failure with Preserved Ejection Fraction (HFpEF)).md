@@ -12,7 +12,7 @@ CC:
 - 부종
 - 두근거림
 clinical_priority: tier_1
-content_updated_at: '2026-10-20'
+content_updated_at: "2026-11-18"
 guideline_year: '2026'
 guideline_reviewed_at: '2026-10-20'
 guideline_review_status: primary_source_reviewed
@@ -52,6 +52,10 @@ population: adult
 - ARNI는 여성 또는 EF가 정상 하단에 가까운 환자(약 55–60% 미만) 등에서 개별적으로 고려하며, 불가하면 ARB를 검토한다(2026 ACC). Beta-blocker는 AF의 심박수 조절 등 별도 적응증에 따라 사용한다.
 - 고혈압은 내약성을 보며 수축기혈압 약 120–129 mmHg를 목표로 조절한다(2026 ACC). AF는 항응고·rate/rhythm control 원칙에 따라 관리한다. 관상동맥질환·판막질환·비만·당뇨병·CKD·수면무호흡을 적극적으로 찾아 치료하고, 구조화된 운동과 장기 체중 관리를 병행한다.
 - 혈압·신기능·칼륨, LVEF 범위와 동반질환을 고려해 치료를 개별화하며, 반복 입원이나 진단 불확실성은 심부전 전문 평가를 의뢰한다.
+
+- **Finerenone의 수치 기준(미국 허가사항 2026, LVEF ≥40% HF)**: 시작 전 **K >5.0 mEq/L이면 시작하지 않고 eGFR <25 mL/min/1.73 m²이면 신규 도입을 권하지 않는다.** 시작 eGFR ≥60은 20 mg/일에서 목표 40 mg, 25–<60은 10 mg/일에서 목표 20 mg이다. 국내 허가·가용성은 별도 확인한다.
+- 시작·용량 변경 **4주 후 K/eGFR**을 재검한다. K <5.0에서 증량을 검토하되 eGFR이 이전보다 >30% 감소했다면 증량하지 않는다. **K 5.0–<5.5는 유지, 5.5–<6.0은 40→20 mg 또는 20→10 mg로 감량(10 mg 사용자는 중단), ≥6.0은 중단**한다. 재시작 기준은 K <5.5이나 ≥5.5가 반복되면 <5.0으로 회복 후 10 mg로 시작한다. CKD 적응증의 용량표와 혼용하지 않는다.
+- 근거: [FDA finerenone 2026 허가사항](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215341s011lbl.pdf).
 
 ## 6. 예후 및 합병증
 - HFpEF도 반복 입원, AF, CKD 악화, 폐고혈압, 허혈성 사건과 연관된다. EF가 보존되어도 예후가 양호하다고 가정하면 안 된다.

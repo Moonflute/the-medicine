@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-10-08"
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -71,6 +71,8 @@ reviewed_at: "2026-10-08"
 - 무증상 또는 안정적 총담관 결석에서도 결석 제거 필요성을 평가하되, 단순 통증·황달만으로 즉시 ERCP를 자동 결정하지 않고 위험도와 MRCP/EUS 결과를 반영한다.
 - 담관 청결 뒤 동반 담낭 결석의 담낭절제 시점은 담관염·췌장염의 중증도, 수술 위험과 자원에 따라 계획한다.
 - 시술 후 증상, 간담도 혈액검사와 임상 상황에 맞는 영상으로 담도 청결·재폐쇄·합병증을 평가한다. 정기 초음파의 간격을 모든 환자에게 일률 적용하지 않고, 동반 담낭 결석·협착·재발 위험과 치료 계획에 따라 추적한다.
+
+- **진단 목적 ERCP를 줄이는 기준**: 영상상 총담관 결석, 상행 담관염, 또는 총빌리루빈 >4 mg/dL와 담관 확장(담낭이 있는 성인에서 >6 mm)이 함께 있으면 직접 ERCP를 고려한다. 간수치 이상·>55세·담관 확장만 있는 중간위험군은 EUS/MRCP 또는 수술 중 담도검사로 먼저 확인한다. 빌리루빈 >4 단독을 고위험으로 해석하지 않는다. [ASGE](https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - PCOS
 - polycystic ovarian syndrome
@@ -46,6 +46,9 @@ reviewed_at: "2026-07-30"
 * **월경 주기 조절 및 안드로겐 관리**: 임신을 원하지 않는 경우 경구 피임약(OC)을 우선 고려하여 자궁내막 보호 및 고안드로겐 증상 완화를 도모함.
 * **배란 유도**: 임신을 희망하는 경우 Letrozole을 1차 약제로 우선 고려하며, 반응이 불충분할 경우 Clomiphene citrate 등을 병용 또는 교체함.
 * **장기 추적 관찰**: 당뇨병, 심혈관 질환, 자궁내막암 등 대사 및 종양학적 합병증 위험이 높으므로 정기적인 혈당 및 지질 검사를 포함한 장기적인 모니터링이 필요함.
+
+- **약제 목적과 추가 기준**: 월경불순·다모증은 복합피임제가 우선 선택이고, 성인 BMI ≥25 kg/m²에서 인슐린 저항성·혈당·지질 등 대사 개선은 metformin을 고려한다. BMI <25에서는 근거가 제한적이다. 피임제/미용치료를 최소 6개월 시행해도 다모증이 남으면 확실한 피임과 함께 항안드로겐을 검토한다.
+- **난임 치료 단계**: 다른 난임 요인이 없는 무배란성 PCOS는 letrozole 1차, 경구 유도 실패 시 gonadotropin 등을 2차로 고려한다. 다른 IVF 적응증이 없으면 1·2차 실패 후 IVF를 검토한다. 다태임신·OHSS 위험을 감시하며 임신 가능성이 있으면 항안드로겐을 피한다. [국제 PCOS 지침 2023](https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/recommendations_from_the_2023_int_evidence-based_guideline_on_pcos.pdf)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대사 증후군, 제2형 당뇨병, 심혈관 질환, 자궁 내막암, 비알코올성 지방간 질환 위험 증가

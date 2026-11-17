@@ -18,7 +18,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part I: Presentation and Evaluation. | https://pubmed.ncbi.nlm.nih.gov/42095481/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[비뇨기과]]
 
@@ -49,6 +49,11 @@ content_updated_at: "2026-07-16"
 - **치료 결정:** 증상의 '불편함(bothersomeness)'이 치료의 주된 동기이며, 환자와의 공유 의사결정(Shared Decision-Making)이 치료 시작 및 단계적 확대의 핵심임.
 - **치료 전략:** 증상 정도, 환자의 선호도, 전립선 크기 및 동반 질환을 고려하여 대기 요법, 약물 치료(알파 차단제, 5-알파 환원효소 억제제 등), 또는 수술적 치료를 선택.
 - **추적 관찰:** 치료 반응을 정기적으로 평가하고, 증상 호전이 없거나 합병증 발생 시 치료법을 재평가 및 조정함.
+
+- **불편이 적고 합병증이 없으면** 생활 조절·관찰이 가능하다. 불편한 중등도~중증 증상에는 α1 차단제로 빠른 증상 개선을 기대하되 저혈압·사정장애를 확인한다.
+- **전립선 >40 mL 등 진행 위험**이 있으면 5α-reductase 억제제 또는 α차단제와의 병용을 고려한다. 효과는 수개월 걸리며 PSA 해석에 영향을 주므로 시작 전 수치를 기록한다.
+- 저장 증상이 남으면 항무스카린제/β3 작용제를 검토하되 잔뇨를 확인한다. EAU는 **PVR >150 mL에서 항무스카린제 사용을 피하도록** 권고하며, 시작 뒤 배뇨 악화·요폐이면 중단·재평가한다.
+- **반복/불응 요폐, 반복 UTI, 방광결석, 치료저항성 혈뇨, 상부요로 확장·신기능 저하**, 또는 충분한 약물에도 심한 불편은 수술 평가 기준이다. 술식은 전립선 크기·중엽·항응고·사정 보존 선호에 따라 선택한다. [EAU 남성 LUTS 2026](https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 급성 요폐, 방광 결석, 재발성 요로 감염, 만성 신부전(고압성 요폐 시).

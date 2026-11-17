@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-15"
+content_updated_at: "2026-11-18"
 aliases:
 - endometrial hyperplasia
 - 자궁 내막 증식증
@@ -46,6 +46,8 @@ reviewed_at: "2026-07-30"
 참고: [RCOG/BSGE 자궁내막증식증 진료지침](https://www.rcog.org.uk/media/knmjbj5c/gtg_67_endometrial_hyperplasia.pdf) · [ACOG EIN/AEH 진료 합의](https://pubmed.ncbi.nlm.nih.gov/37590985/)
 - **위험 인자 관리**: 비만, 다낭성 난소 증후군 등 에스트로겐 과다 노출을 유발하는 기저 질환을 교정하여 재발을 방지한다.
 - **추적 관찰**: 치료 종료 후에도 비정상 자궁 출혈 발생 시 즉각적인 재평가를 시행하며, 장기적인 정기 검진을 통해 재발 여부를 모니터링한다.
+
+- **보존치료에서 수술로 전환**: 비정형 없는 증식증도 적절한 progestin 12개월 후 퇴행 없음, 비정형/암으로 진행, 치료 후 재발, 지속 출혈 또는 조직 추적 불가이면 자궁절제를 권고/논의한다. 비정형 보존치료는 진행이 확인되면 즉시 전환하며 반응 없이 장기간 연장하지 않는다. 내막소작은 암 평가·추적을 방해하므로 증식증 치료 대안으로 사용하지 않는다. [RCOG/BSGE](https://www.rcog.org.uk/media/knmjbj5c/gtg_67_endometrial_hyperplasia.pdf)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 비정형 증식증은 자궁내막암으로 진행할 위험이 높음

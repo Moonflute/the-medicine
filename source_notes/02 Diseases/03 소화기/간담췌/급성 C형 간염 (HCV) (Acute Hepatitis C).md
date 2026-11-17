@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-10-08"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -63,6 +63,9 @@ reviewed_at: "2026-10-08"
 - 치료 기간 동안 간독성 약물 및 알코올을 피하고, 간 효소와 HCV RNA를 4~6주 간격으로 추적한다.
 - 간 기능 악화, 치료 반응 부진, 또는 합병증 발생 시 즉시 간·소화기 전문의에게 의뢰한다.
 - 감염 예방을 위해 일회용 주사기 사용, 안전한 문신·피어싱, 안전한 성관계 등 위생 관리 교육을 제공한다.
+
+- **치료 시점**: 급성 HCV에서 정량 HCV RNA 양성으로 현재 감염이 확인되면 자연 소실을 기다리는 기간을 의무적으로 두지 않고 DAA 치료를 시작한다. 만성 감염과 같은 권장 요법·기간을 사용하며 임의의 초단기 요법은 피한다. 노출만 있고 RNA 음성인 경우 DAA를 예방적으로 처방하는 것과 구분한다.
+- 근거: [AASLD/IDSA 급성 HCV](https://www.hcvguidelines.org/guidance/management-of-acute-hcv-infection/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

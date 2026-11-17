@@ -16,7 +16,7 @@ review_status: "guideline_enriched"
 guideline_year: "2023"
 sources: ["[Surgical Treatment of Degenerative Lumbar Stenosis and Spondylolisthesis: Clinical Practice Guideline]. | https://pubmed.ncbi.nlm.nih.gov/37395422/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[정형외과]]
 
@@ -49,12 +49,10 @@ content_updated_at: "2026-07-16"
   Meyerding 분류를 통해 전위 정도를 등급화함.
 
 ## 5. 치료 (Treatment)
-- 보존적 치료: 1차 치료로 시행하며, 증상 완화 및 기능 개선을 목표로 함.
-- 수술적 치료:
-  - 적응증: 보존적 치료에 반응하지 않는 경우.
-  - 퇴행성 척추전방전위증(안정성): 단순 감압술(simple decompression)이 골 유합술(fusion)과 비교하여 임상적 결과가 대등하며 비용 및 위험 대비 권장됨.
-  - 불안정성(dynamic slip): 골 유합술의 시행이 고려됨.
-- 수술 후 관리: 수술 후 감독 하 재활(supervised rehabilitation)을 권장함.
+- 영상상 전위만 있고 증상이 경미하면 활동·운동 재활과 적절한 진통을 우선한다. 수술은 비수술 치료에도 지속되는 기능 제한성 하지 통증·신경인성 파행, 진행성 신경 결손과 영상의 일치를 기준으로 한다.
+- 퇴행성 단분절 전위와 협착에서는 **감압술 단독도 유합술에 비해 5년 결과가 비열등**할 수 있어 유합을 일괄 추가하지 않는다. 뚜렷한 변형·불안정성, 감압으로 유발될 불안정성, 주된 기계적 통증 등은 유합 필요성을 개별 평가한다.
+- 이 결과를 고도 협부형 전위나 큰 변형·다분절 병변에 그대로 적용하지 않는다. 새 요폐·회음부 감각 저하 또는 빠른 근력 악화는 긴급 척추 평가 대상이다.
+- 근거: [Nordsten-DS 5년 무작위시험 2024](https://www.bmj.com/content/386/bmj-2024-079771).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 신경 압박으로 인한 만성 통증, 신경학적 결손, 척추관 협착증으로 진행 가능.

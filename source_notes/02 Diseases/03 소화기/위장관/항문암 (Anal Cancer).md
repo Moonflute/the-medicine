@@ -16,7 +16,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-11-18"
 guideline_year: "2026"
 sources: ["SEOM-GEMCAD-TTD clinical guidelines for anal cancer (2025). | https://pubmed.ncbi.nlm.nih.gov/41653360/"]
 reviewed_at: "2026-07-16"
@@ -55,6 +55,10 @@ review_status: "guideline_enriched"
 - **국소 및 국소 진행성 질환(Early and locally advanced disease)**: 5-FU와 마이토마이신 C(Mitomycin C, MMC)를 병용하는 동시 항암화학방사선요법(CRT)이 표준 치료(장기 보존 목적)임.
 - **수술적 치료**: 과거에는 복회음절제술(APR)이 일차 치료였으나, 현재는 CRT 후에도 종양이 잔존하거나 재발한 경우에 한해 구제 요법(Salvage)으로 시행함.
 - **전이성 질환**: 백금 기반 화합물(Platinum-containing compound)과 탁산(Taxanes) 병용 화학요법이 일차 선택 치료임.
+
+- **치료 반응 후 수술 시점**: CRT 뒤 병변이 줄고 진행 소견이 없으면 약 **6개월까지** 반복 진찰로 반응을 관찰할 수 있다. 초기에 덩어리가 남았다는 이유만으로 즉시 APR을 시행하지 않는다. 명백한 진행·생검으로 확인된 지속/재발암은 구제 수술을 평가한다.
+- **전이성·수술 불가 국소 재발 편평상피암**: 미국 FDA 2025 허가 기준으로 1차 carboplatin/paclitaxel에 **retifanlimab** 병용을 사용할 수 있으며, platinum 치료 후 진행·불내성에는 단독요법 적응증이 있다. 면역치료 적합성·이전 노출과 국내 허가를 확인한다.
+- 근거: [ASTRO 항문암 지침 2025](https://doi.org/10.1016/j.prro.2025.02.001), [FDA retifanlimab 허가사항](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761334s005lbl.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **종류**: 편평상피세포암(가장 흔함), 기저세포암, 보웬병, 악성 흑색종, 림프종 등.

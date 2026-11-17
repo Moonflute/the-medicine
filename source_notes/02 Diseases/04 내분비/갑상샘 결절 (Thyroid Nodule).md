@@ -19,7 +19,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["EFSUMB Guidelines on Multiparametric Ultrasound Thyroid Nodule Evaluation: PART I. | https://pubmed.ncbi.nlm.nih.gov/41330556/", "대한갑상선학회 갑상선결절 진료권고안 2024 | https://www.ijthyroid.org/journal/view.php?number=202400001"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[내분비]]
 
@@ -62,9 +62,11 @@ content_updated_at: "2026-07-16"
 - **양성 결절**:
   추적 관찰이 원칙.
   압박 증상 시 고주파 절제술(RFA) 또는 수술 고려.
-- **악성 결절**: 수술(갑상샘 절제술)이 원칙.
+- **악성 결절**: 조직형·크기·침윤·전이·추적 가능성에 따라 수술 범위 또는 적극적 감시를 선택한다.
 - **독성 열결절**: 방사성요오드(RAI) 치료 또는 수술.
 - **수술 적응증**: 악성 진단, 암 의심, 압박 증상, 미용적 문제, 반복적인 진단 불확실.
+
+- **조직 결과에 따른 관찰·재검·수술**: 양성 세포검사 결과만으로 초음파 고위험 소견을 무시하지 않는다. 반복 비진단·Bethesda III는 초음파 위험과 재검/분자검사로 판단하고, Bethesda IV는 진단적 엽절제 등을 논의한다. Bethesda V–VI라도 작은 저위험 유두암은 적극적 감시 적합성을 검토한다. 양성 결절은 압박·미용 문제 또는 성장과 위험 소견이 있을 때 치료를 선택하며 크기만으로 모두 절제하지 않는다. [ETA 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10448590/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 양성으로 예후가 좋음.

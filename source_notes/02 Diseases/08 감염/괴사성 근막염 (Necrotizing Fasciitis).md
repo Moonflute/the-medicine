@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -46,7 +46,9 @@ reviewed_at: "2026-07-30"
 - 즉시 외과적 절제술을 시행하고, 괴사 조직이 남지 않도록 필요 시 반복 수술을 계획한다.
 - 경험적 광범위 항생제를 시작하고, 혈액배양 결과에 따라 병원성균에 맞게 조정한다; 패혈증 관리와 함께 충분한 수액·혈압 유지가 필요하다.
 - 중증 환자는 중환자실에서 혈역학·호흡기 모니터링을 받으며, 패혈증 징후가 나타나면 승압제·산소·기계환기 등 집중 치료를 제공한다.
-- 당뇨·알코올 의존 등 위험인자를
+- 당뇨·면역저하 등 위험인자를 교정하고 반복 수술 시 괴사 진행·감염원 조절 여부를 재평가한다.
+
+- **약제 변경**: 초기에는 MRSA·그람음성·혐기균을 덮는 병합요법(예: vancomycin 또는 linezolid + piperacillin/tazobactam 또는 carbapenem)을 사용한다. A군 연쇄상구균이 확인되면 penicillin+clindamycin으로 좁히는 것을 검토한다. LRINEC 저점수나 가스가 없는 영상만으로 배제하지 않으며 수술을 지연하지 않는다. [IDSA](https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 사망률이 20~80%로 매우 높다.

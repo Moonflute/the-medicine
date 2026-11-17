@@ -21,7 +21,7 @@ review_status: "guideline_enriched"
 guideline_year: "2024"
 sources: ["2024 대한부정맥학회 심실성 부정맥 및 돌연 심장사 진료지침 | https://www.khrs.or.kr/html/sub03_01_01.html"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[순환기]]
 
@@ -68,7 +68,7 @@ content_updated_at: "2026-07-16"
 
 ## 5. 치료
 - 저혈압, 급성 의식변화, 쇼크 징후, 허혈성 흉부 불편감 또는 급성 심부전이 동반되면 혈역학적으로 불안정한 빈맥으로 보고 즉시 전기적 치료를 준비한다.
-- Nonsustained VT: 무증상 시 경과관찰, 유증상 시 원인 교정, BB, non-DHP CCB, amiodarone 투여, 적응증 시 ICD 삽입
+- Nonsustained VT: 구조적 심질환·심기능·원인과 증상에 따라 위험도를 평가한 뒤 관찰, 약물 또는 절제술/ICD 필요성을 정한다.
 - Sustained Monomorphic VT
   - 혈액역학적 불안정: DC synchronized cardioversion
   - 혈액역학적 안정: DC cardioversion(1st line), 항부정맥제(Amiodarone, Procainamide, Sotalol)
@@ -81,6 +81,10 @@ content_updated_at: "2026-07-16"
   - 전극도자절제술(Catheter ablation): 약물 치료 후에도 ICD shock이 반복되는 경우
   - 구제 요법(Bailout): 약물 및 반복적 전극도자절제술로 조절되지 않는 난치성 심실 부정맥 환자에서 정위적 부정맥 방사선 절제술(STAR) 고려 가능
   - 기타: Stellate ganglion block, Cardiac denervation(치료 불응성 반복 VT 시)
+
+- NSVT는 증상 유무만으로 약제를 나열하지 않고 구조적 심질환·허혈·유전성 부정맥 및 EF를 평가한다. **원인 불명 넓은 QRS 빈맥에 verapamil/diltiazem을 투여하지 않는다.** 이들 약제는 확인된 특정 특발성 VT 등에서만 전문 판단하에 사용한다.
+- ICD의 이차 예방은 **교정 가능한 일시적 원인으로 설명되지 않는 심정지/지속성 위험 VT**와 예상 생존·기능을 함께 판단한다. 구조적 심질환 또는 실신이 있다는 이유만으로 모두 ICD 적응증이 되는 것은 아니다.
+- 근거: [AHA 성인 전문소생술 2025](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/).
 
 ## 6. 예후 및 합병증
 - 심실세동(VF) 등 심정지 리듬으로 이행 가능

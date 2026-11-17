@@ -21,7 +21,7 @@ review_status: "guideline_enriched"
 guideline_year: "2022"
 sources: ["한국 만성두드러기 진료지침 | https://www.kaaaci.org/html/sub04_04_01.html?mode=view&idx=100", "The international EAACI/GA²LEN/EuroGuiDerm/APAAACI guideline for the definition, classification, diagnosis, and management of urticaria | https://onlinelibrary.wiley.com/doi/10.1111/all.15090"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[알레르기]]
 
@@ -61,6 +61,8 @@ content_updated_at: "2026-07-16"
 - 원칙: 원인 인자 회피가 핵심임.
 - 1차 치료: 2세대 H1 항히스타민제(sgAHs) 사용.
 - 저항성 환자 관리: 2세대 H1 항히스타민제에 반응하지 않는 경우 최대 4배 용량까지 증량 고려 가능함. 표준 치료에 반응하지 않는 만성 자발성 두드러기(CSU)에 대해서는 개인별 맞춤형 단계적 치료 알고리즘 적용이 권장됨.
+
+- **만성 질환의 단계 변경**: 2세대 H1 항히스타민제를 규칙적으로 사용하고 보통 2–4주 내 조절이 안 되면 최대 4배까지 증량을 검토한다(off-label). 여전히 조절되지 않는 CSU에는 omalizumab 300 mg/4주 추가를 우선 검토하며, dupilumab·remibrutinib 등은 반응·허가·접근성에 따라 대안으로 논의한다. 난치성의 ciclosporin은 혈압·신기능 독성을 고려한다. 장기 전신 steroid는 사용하지 않고, 심한 악화에 한해 통상 ≤10일의 단기 구조요법을 검토한다. [국제 지침 2026](https://doi.org/10.1111/all.70210)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 두드러기는 수개월에서 수년까지 지속될 수 있으며 삶의 질에 큰 영향을 미칩니다.

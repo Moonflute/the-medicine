@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -44,6 +45,10 @@ sources: ["2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.ht
 - **이소니아지드(INH) 내성 접촉**: 활동성 결핵을 배제했고 감염원 균이 INH에 내성, 리팜핀에는 감수성이면 소아 잠복결핵에 **리팜핀 매일 4개월(4R)**을 고려한다. 리팜핀 내성이나 다제내성 노출에는 이 요법을 그대로 사용하지 말고 소아 결핵 전문팀과 상의한다. [질병관리청 결핵 진료지침 제5판](https://www.kdca.go.kr/kdca/2861/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa2RjYSUyRjU1JTJGMjI4MTc4JTJGYXJ0Y2xWaWV3LmRvJTNG) · [CDC 잠복결핵 치료 기준](https://www.cdc.gov/tb/hcp/treatment/latent-tuberculosis-infection.html)
 - **추적**: 보호자에게 무증상 감염도 치료가 필요한 이유와 완료의 중요성을 설명한다. 매 방문마다 복약순응도, 체중 변화에 따른 용량, 간독성·위장관 증상·발진을 확인하고, 활동성 결핵을 시사하는 발열·기침·체중감소가 생기면 재평가한다.
 - **주의**: rifamycin의 약물상호작용과 소변·체액의 주황색 변색을 설명한다. 3HP는 임신 가능성이 있거나 일부 항레트로바이러스 치료 중인 경우 적합하지 않을 수 있다.
+
+- **간독성 중단 기준**: 간염 증상을 동반한 AST/ALT >정상상한 **3배**, 또는 무증상이라도 **5배 초과**이면 투약을 중단하고 평가한다. 황달·심한 구역·복통 등은 다음 정기 방문까지 기다리지 않는다. 매월 순응도·독성을 확인하며, 간질환·임신/출산 직후·음주 등 위험이 있으면 기초 및 추적 간기능 검사를 시행한다.
+- 근거: [CDC 잠복결핵 치료](https://www.cdc.gov/tb/hcp/treatment/latent-tuberculosis-infection.html).
+
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 예방적 치료 시 활동성 결핵으로의 진행 위험을 크게 낮출 수 있음.
 

@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -46,8 +46,8 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 - 호흡기 감염에서는 환자 알레르기·지역 저항성 패턴을 고려해 마크로라이드, 테트라사이클린(독시사이클린) 또는 플루오로퀴놀론 중 적절히 선택한다.
-- 비뇨생식기 감염은 독시사이클린 1차 치료 후, 마크로라이드 감수성 검사 결과에 따라 아지스로마이신 또는 목시플록사신을 순차적으로 적용한다.
-- 치료 중 위장관·간·심장 등 약물
+- **M. genitalium 요도염·자궁경부염:** 성인에서 doxycycline 100 mg 하루 2회 7일 후, 마크로라이드 감수성이면 azithromycin 총 2.5 g(첫날 1 g, 이후 500 mg씩 3일), 내성이거나 내성검사를 할 수 없으면 moxifloxacin 400 mg/일 7일로 이어간다. Azithromycin 1 g 단회요법은 내성 유발 때문에 피한다. PID에서 M. genitalium이 확인되면 moxifloxacin 14일 등 별도 요법을 검토한다.
+- QT 연장·간독성·건병증 등 약제별 위험과 임신 여부를 확인하며, 권장 요법 후 무증상이면 완치검사를 일률적으로 시행하지 않는다. 지속 증상 또는 대체요법 사용 시에는 재감염·내성과 완치검사 필요성을 재평가한다. [CDC M. genitalium 지침](https://www.cdc.gov/std/treatment-guidelines/mycoplasmagenitalium.htm)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 양호하나, *M.

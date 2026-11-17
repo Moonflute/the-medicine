@@ -22,7 +22,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["[Guidelines for the diagnosis and treatment of tracheobronchial tuberculosis (2025 Edition)]. | https://pubmed.ncbi.nlm.nih.gov/42108173/"]
 
-content_updated_at: "2026-07-17"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[소화기]]
 
@@ -65,9 +65,9 @@ content_updated_at: "2026-07-17"
 
 ## 5. 치료 (Treatment)
 - **치료 원칙**: 약제감수성 결핵으로 확인되거나 강하게 의심되면 국가 결핵 프로그램·감염내과와 함께 표준 다제요법을 시작하고, 배양/내성 결과와 간기능·약물상호작용을 추적해 조정한다. 복수·영양·장폐쇄 같은 합병증을 병행 관리하며, 간경변·암성 복수·세균성 복막염과의 감별이 불확실하면 경험적 치료만으로 지연하지 않는다.
-- 표준 항결핵제 요법(이소니아지드, 리팜피신, 에탐부톨, 피라진아미드)을 6~9개월간 투여한다.
-  복수가 심하여 증상 완화가 필요한 경우 치료적 복수 천자를 시행할 수 있다.
-  중증의 경우 코르티코스테로이드 사용을 고려할 수 있다.
+- 약제감수성 복막결핵의 기본은 **2개월 HRZE 후 4개월 HR(총 6개월)**이다. 내성·약제 불내성·동반 중추신경계 결핵 등은 별도 요법을 적용하며 4제를 전 기간 유지하지 않는다.
+- 긴장성 복수에는 증상 완화를 위한 천자를 고려한다. 복막결핵 자체만을 이유로 스테로이드를 일상적으로 추가하지 않는다.
+- 근거: [ATS/CDC/IDSA 결핵 치료 지침](https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

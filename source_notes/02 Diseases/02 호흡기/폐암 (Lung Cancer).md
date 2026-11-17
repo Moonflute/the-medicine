@@ -26,7 +26,7 @@ review_status: "guideline_enriched"
 guideline_year: "2023"
 sources: ["폐암진료지침 3판 | https://www.lungca.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&idx=1000000000000000003"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[호흡기]]
 
@@ -66,6 +66,9 @@ content_updated_at: "2026-07-16"
   * 확장기(Extensive stage): 백금 제제 + Etoposide + 면역관문억제제 병용 요법.
 - 상부대정맥 증후군: 응급처치, 대증 치료, 방사선 치료(RTx), 항암 화학 요법(CTx).
 - 완화 방사선치료는 객혈, 기도 폐쇄, 골전이 통증, 상부대정맥 증후군, 뇌 또는 척수 압박의 증상 조절에 고려한다.
+
+- **NSCLC 약제 결정**: 진행성 암은 치료 가능한 EGFR·ALK·ROS1·BRAF·MET·RET·NTRK 등 변이를 먼저 확인하고 해당 표적치료를 우선 평가한다. 표적 변이가 없고 PD-L1 TPS ≥50%이면 면역항암제 단독이 선택지이나 빠른 종양 축소가 필요하거나 부담이 크면 항암 병합을 검토한다. PD-L1 <50%는 조직형·금기에 맞춘 항암＋면역 병합 등이 중심이며, PD-L1 수치만으로 표적 변이 평가를 생략하지 않는다.
+- **국소 진행성 치료 후**: 절제 불가 III기에서 동시 항암방사선 후 진행하지 않으면 공고치료를 평가한다. EGFR exon 19 deletion/L858R 양성은 osimertinib 적용을 검토하며, 다른 적합한 환자는 durvalumab 등을 선택한다. 수술 전후 약제는 병기·절제 범위·분자형별 적응증을 구분한다. [NCI PDQ](https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq)
 
 ## 6. 예후 및 합병증
 - 예후: 진단 시 병기가 가장 중요한 결정 인자.

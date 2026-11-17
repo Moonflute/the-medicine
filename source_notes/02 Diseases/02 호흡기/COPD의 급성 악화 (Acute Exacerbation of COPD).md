@@ -21,7 +21,7 @@ reviewed_at: "2026-10-08"
 guideline_year: "2026"
 sources: ["GOLD 2026 Report and Pocket Guide | https://goldcopd.org/2026-gold-report-and-pocket-guide/"]
 
-content_updated_at: "2026-10-08"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[호흡기]]
 
@@ -54,6 +54,8 @@ content_updated_at: "2026-10-08"
   - **교육:** 흡입기 사용법, 금연, 신체 활동, 폐 재활과 예방접종을 확인한다.
   - **개인별 계획:** 향후 악화 시 행동 계획, 위험 신호와 진료 접근 방법을 문서화한다.
   - **추적 관찰:** 회복도, 흡입기 술기·순응도, 기저 치료, 산소·환기 필요성, 동반질환·영양을 재평가할 외래 일정을 정한다.
+
+- **치료 강도를 바꾸는 수치**: 산소는 대개 SpO₂ 88–92%를 목표로 조절하며 혈액가스로 CO₂와 pH를 확인한다. 고탄산혈증과 pH ≤7.35의 호흡산증이면 금기 여부를 확인해 NIV를 우선 검토한다. 의식·기도보호·분비물·쇼크·치료 반응으로 삽관을 판단하며 pH만 보고 지연하지 않는다. 중등도/중증 악화의 전신 steroid는 보통 prednisone 상당 40 mg/일, 5일이며 임상 반응과 금기를 확인한다. 항생제는 화농성 객담을 포함한 감염 단서나 침습/비침습 환기 필요성 등에 따라 사용하고 단순 악화 모두에 처방하지 않는다. [GOLD 2027](https://goldcopd.org/wp-content/uploads/2026/11/GOLD-Report-2027-FINAL-v1.0-15Nov2026_Reduced_WMV.pdf)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 급성 악화 빈도가 높을수록 예후가 불량함.

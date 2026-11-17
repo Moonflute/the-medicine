@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - 불면 장애
 유형:
@@ -45,6 +45,10 @@ relation_to_parent: subtype
 - **약물 요법:** 비약물적 치료에 반응이 없거나 증상이 심한 경우, 의존성과 내성을 고려하여 최단기간 최소 용량으로 처방함.
 - **동반 질환 관리:** 불면증의 원인이 되는 우울, 불안, 하지불안증후군 등 기저 질환을 우선적으로 평가하고 치료함.
 - **추적 관찰 및 전원:** 치료 반응이 없거나 수면 무호흡증 등 다른 수면 장애가 의심되는 경우 수면 전문의에게 의뢰하거나 수면 다원 검사를 고려함.
+
+- **약제 선택·종료 계획**: CBT-I 후에도 기능 저하가 크거나 단기 약물이 필요하면 수면무호흡·낙상·물질사용·상호작용을 평가한 뒤 저용량 doxepin, dual orexin antagonist 또는 Z-drug 등을 선택하고 시작 때부터 감량 계획을 세운다. VA/DoD 2025는 **만성 불면 자체의 치료에 benzodiazepine, 항정신병약, diphenhydramine, trazodone을 권고하지 않는다.** 다른 정신질환의 적응증과 구분한다. Z-drug 사용 중 복합 수면행동이 나타나면 중단·재평가한다.
+
+근거: [VA/DoD 불면·OSA 2025 처방 요약](https://www.healthquality.va.gov/HEALTHQUALITY/guidelines/CD/insomnia/I-OSA-2025-Pocket-Card_final_20250205.pdf).
 
 ## 6. 예후 및 합병증
 - 만성 불면증은 우울증, 불안 장애, 고혈압, 당뇨 등 대사 질환의 위험을 높임.

@@ -20,7 +20,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain. | https://pubmed.ncbi.nlm.nih.gov/41825518/"]
 
-content_updated_at: "2026-10-08"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[소화기]]
 
@@ -68,6 +68,9 @@ content_updated_at: "2026-10-08"
   간 이식은 말기 간 질환 환자에게 고려된다.
 
 - **예방**: HBV 감염이 HDV 감염의 필수 전제이므로, B형 간염 백신 접종을 통해 HBV 감염을 예방하는 것이 HDV 감염을 예방하는 가장 효과적인 방법이다.
+
+- **약제 선택**: 보상성 만성 HDV는 peginterferon 적합성 및 bulevirtide 접근성을 평가한다. Bulevirtide는 **2026년 5월 미국 FDA에서 간경변이 없거나 보상성 간경변인 성인 만성 HDV** 치료제로 승인되었다. 비대상성 간경변까지 적응증을 확대 해석하지 않으며, 국내 허가·공급 여부와 국가별 제형/용량을 별도로 확인한다. Interferon은 비대상성 간경변에서 피한다.
+- 근거: [FDA HDV 치료제 승인 2026](https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-chronic-hepatitis-delta-virus-hdv-infection).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

@@ -14,12 +14,16 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-reviewed_at: "2026-07-30"
+reviewed_at: "2026-10-21"
 review_status: "guideline_enriched"
-guideline_year: "2025"
-sources: ["2025 AHA/ACC Guideline for the Management of Patients With Acute Coronary Syndromes | https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know", "2026 Focus Update of the Korean Society of Myocardial Infarction Expert Consensus on Revascularization for ACS | https://pubmed.ncbi.nlm.nih.gov/42324232/", "2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS"]
+guideline_year: "2026"
+sources:
+- "2025 AHA/ACC Guideline for the Management of Patients With Acute Coronary Syndromes | https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know"
+- "2026 Focus Update of the Korean Society of Myocardial Infarction Expert Consensus on Revascularization for ACS | https://pubmed.ncbi.nlm.nih.gov/42324232/"
+- "2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS"
+- "Fifth Universal Definition of Myocardial Infarction 2026 | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/"
 
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 
 관련분과:
 - 21 응급의학
@@ -33,13 +37,7 @@ content_updated_at: "2026-07-30"
 - **정의**: 관상동맥의 급성 폐쇄로 인한 심근 괴사. 심전도상 ST 분절 상승이 동반되는 경우를 ST분절 상승 심근경색증(STEMI)이라 함.
 - **원인**: 관상동맥의 동맥경화성 플라크 파열, 미란, 균열, 관상동맥 박리 등.
 - **기전**: 관상동맥의 완전 폐쇄로 인한 심근 허혈 및 괴사 발생.
-- **분류(5가지 유형)**:
-    - 제1형: 플라크 파열 등 일차적 관상동맥 사건에 의한 자발적 심근경색.
-    - 제2형: 산소 요구량 증가(고혈압 등) 또는 공급 감소(연축, 색전증, 부정맥, 저혈압 등)에 의한 허혈.
-    - 제3형: 돌연 심장사와 관련된 경우.
-    - 제4a형: 경피적 관상동맥 중재술(PCI)과 관련된 경우(트로포닌 수치 > 99분위 상한치의 5배).
-    - 제4b형: 확진된 스텐트 혈전증과 관련된 경우.
-    - 제5형: 관상동맥 우회술(CABG)과 관련된 경우(트로포닌 수치 > 99분위 상한치의 10배).
+- **2026 기전 분류**: 제5차 보편적 정의는 **일차성·이차성·시술 관련 MI**로 분류한다. 기존 숫자형 type 1–5를 단순히 유지하지 않는다. STEMI/NSTEMI는 ECG에 따른 표현형이며 기전 분류와 별도로 기록한다. 상세 기준은 [[급성 관상동맥 증후군 (ACS)]]를 참조한다.
 - **역학**: 미국 기준 연간 약 100만 명 발생, 30~40만 명 사망.
 
 ## 2. 임상 양상
@@ -58,16 +56,12 @@ content_updated_at: "2026-07-30"
 ## 3. 검사
 - **심전도(EKG)**: 10분 이내 시행. 2개 이상의 연속 유도에서 1mm 이상의 ST 분절 상승 확인. 우심실 경색 의심 시 우측 유도(V4-6R) 및 후벽 경색 확인을 위해 V8, V9 추가.
 - **하벽 STEMI의 위치 판단**: II·III·aVF의 ST분절 상승과 aVL(때로 I)의 상호 ST분절 하강이 전형적인 조합이다. 우관상동맥이 흔한 원인이지만 좌회선동맥도 가능하므로, 유도만으로 혈관을 확정하지 않는다. 하벽 경색에 저혈압·서맥 또는 방실차단이 동반되면 우심실 침범 가능성도 살피고 우측 유도(V4R 등)를 추가한다. [하벽 심근경색의 12유도 심전도 연구](https://pubmed.ncbi.nlm.nih.gov/31169552/)
-- **심근 효소**: 트로포닌(cTn I 또는 T)이 가장 민감, 특이적임. 99분위 상한치 초과 시 진단적 가치. 고감도 트로포닌(hs-cTn) 검사 시 0시간 및 2~3시간 후 연속 측정.
+- **심근 표지자**: cTn I/T를 검사법별 **성별 99백분위 상한**과 연속 변화로 평가한다. 검사 결과를 기다리며 STEMI 재관류를 지연하지 않는다.
 - **영상 검사**: 심초음파로 국소 벽 운동 이상 확인. 관상동맥 조영술로 폐쇄 부위 확인. 복잡한 해부학적 구조나 불분명한 원인 병변 확인을 위해 혈관 내 영상(intravascular imaging) 활용 권장.
 
 ## 4. 진단
-- **진단 기준**: 심근 허혈 임상 증상과 함께 다음 중 하나 이상 충족.
-- 심근 효소(트로포닌) 상승(99분위 상한치 초과).
-- 새로운 허혈성 심전도 변화(ST-T 변화 또는 좌각차단).
-- 병적 Q파 발생.
-- 영상 검사상 새로운 심근 소실 또는 국소 벽 운동 이상.
-- 혈관조영술 또는 부검상 관상동맥 내 혈전 확인.
+- **즉시 임상 판단**: 지속 ST분절 상승과 허혈 임상상으로 긴급 재관류 경로를 가동한다. 새로운 좌각차단만으로 STEMI를 확정하지 않는다.
+- **최종 MI 분류**: 급성 심근손상과 허혈 증거를 확인하고, 관상동맥·심근 영상으로 원인을 규명한다. 2026 정의의 일차성·이차성·시술 관련 확정 조건은 [[급성 관상동맥 증후군 (ACS)]]와 같다. Troponin 단일 상승 또는 시술 후 상승 배수만으로 MI를 확정하지 않는다.
 - **감별 진단**: 불안정형 협심증, NSTEMI, 대동맥 박리, 폐색전증, 심낭염.
 
 ## 5. 치료
@@ -80,11 +74,15 @@ content_updated_at: "2026-07-30"
 - **입원·퇴원 후 약물**: 고강도 statin을 조기에 시작한다. 베타차단제는 쇼크·저관류·급성 심부전·서맥/방실차단이 없을 때 시작하며, 좌심실 박출률 저하·심부전·당뇨·고혈압에서는 ACEi/ARB(필요 시 ARNI)와 MRA 적응증을 확인한다. 심장재활, 금연, 혈압·LDL-C·당뇨 관리와 약물 순응도를 함께 계획한다.
 - **특수 상황**: MINOCA와 SCAD는 모두 죽상혈전 STEMI와 같은 일괄 처치를 적용하지 말고 원인별 치료로 전환한다. SCAD는 지속 허혈이나 불안정성이 없으면 보존적 치료가 우선이다.
 
+- **지질약 강화 기준**: 최대 내약 statin에도 **LDL-C ≥70 mg/dL**이면 ezetimibe/PCSK9 억제제 등 비statin 추가를 권고하며, **55–<70 mg/dL**에서도 추가 강화를 합리적으로 고려한다. 시작·변경 후 4–8주 재검으로 반응을 확인한다.
+- 근거: [AHA/ACC ACS 지침 2025](https://doi.org/10.1161/CIR.0000000000001309).
+
 ## 6. 예후 및 합병증
 - **합병증**: 심부전, 부정맥(심실세동 등), 심인성 쇼크, 심실 파열, 승모판 역류, 심실중격 결손.
 - **예후 평가**: Killip 분류(심부전 정도), TIMI 위험 점수 활용.
 - **퇴원 후 관리**: 생활 습관 교정, 심장재활, 약물 유지와 조기 외래 추적을 계획한다. 치과 처치는 일률적으로 6개월 금지하지 않으며, 시술의 긴급성·DAPT 중단 위험·출혈 위험을 심장내과와 치과가 함께 조정한다.
 
 출처 : 2025 AHA/ACC ACS guideline, 2026 Korean ACS revascularization focus update, 2023 ESC ACS guideline
+- [제5차 심근경색 보편적 정의(2026)](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/) — 2026-10-21 분류·진단 갱신.
 Last updated :
 2026-07-30 — 최신 ACS 지침 기준으로 치료·추적관리 갱신

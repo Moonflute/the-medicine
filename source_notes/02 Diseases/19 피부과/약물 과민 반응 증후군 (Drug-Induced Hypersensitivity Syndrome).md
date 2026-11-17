@@ -19,7 +19,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["Guidelines for the management of drug-induced hypersensitivity syndrome 2023. | https://pubmed.ncbi.nlm.nih.gov/39895539/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[피부과]]
 
@@ -51,10 +51,10 @@ content_updated_at: "2026-07-16"
 
 
 ## 5. 치료 (Treatment)
-- 원인 약물 즉시 중단: 가장 우선적인 조치.
-- 보존적 치료: 수액 공급, 전해질 교정, 피부 간호.
-- 약물 치료: 전신 스테로이드(Systemic glucocorticoid) 투여가 표준 치료이나, 장기 침범 정도에 따라 용량 조절. 
-- 모니터링: 임상 경과가 다양하므로 회복기에도 자가면역 질환 등 예상치 못한 합병증 발생 가능성을 염두에 두고 추적 관찰 필요.
+- 의심 원인약을 즉시 중단하고 CBC·호산구·간/신장 기능과 증상에 따라 폐·심장 등 장기 침범을 평가한다. 원인 약은 재투여하지 않는다.
+- **장기 손상이 경미하고 안정적인 경우** 고강도 국소 corticosteroid와 밀접 추적이 가능하다. 모든 DRESS 환자에게 전신 스테로이드를 자동 투여하지 않는다.
+- 중등도는 장기 침범과 경과에 따라 국소 또는 전신 치료를 선택하고, **중증 장기 손상·심근염·호흡부전 등**은 입원·전신 glucocorticoid 및 해당 전문과 치료가 필요하다. 중증은 반응에 따라 대개 3~6개월에 걸쳐 서서히 감량하며 급격한 감량 후 재악화를 감시한다.
+- 약 중단 후에도 악화할 수 있으므로 장기 수치·바이러스 재활성화와 회복기 자가면역 합병증을 추적한다. 반응이 없으면 원인약 지속 노출·감염·진단을 재검토하고 대체 면역조절 치료를 협의한다. [국제 Delphi 합의 2024](https://jamanetwork.com/journals/jamadermatology/fullarticle/2812063)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 약물 중단 후에도 증상이 수주에서 수개월간 지속될 수 있음.

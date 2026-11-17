@@ -19,7 +19,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 guideline_year: "2025"
 sources: ["Guidelines for the Treatment of Laryngeal Cancer from the Korean Society of Head and Neck Surgery (2025) | https://pubmed.ncbi.nlm.nih.gov/40199514/"]
 reviewed_at: "2026-07-30"
@@ -55,10 +55,13 @@ review_status: "guideline_enriched"
 - **초기 성문암(T1–T2)**: transoral laser/내시경 수술과 방사선치료 모두 초기 치료로 고려할 수 있다. 종양 노출·절제 가능성, 음성 요구도, 추적 가능성에 따라 선택하며, 목표는 국소 제어와 발성 보존이다.
 - **국소 진행성 질환**: 침범 범위·연골 침범·기능 보존 가능성을 기준으로 후두보존 동시항암방사선치료 또는 수술(부분/전후두절제)과 보조치료를 결정한다. 기도 위협이나 광범위 병변은 기도 확보와 수술 평가를 지연하지 않는다.
 - **경부 림프절·재발**: 경부 임상 병기와 원발 위치에 맞춘 선택적/치료적 neck dissection 또는 방사선 범위를 계획한다. 이전 치료 후 국소 재발은 salvage total laryngectomy가 흔한 표준 선택지이며, 선별된 경우 부분 절제·재조사도 논의한다.
-- **기능·추적 관리**: 금연·금주, 영양·치과 평가, 삼킴/음성 재활과 갑상선기능·재발 감시를 치료 전부터 연계한다. 호흡곤란·stridor, 진행성 연하장애, 출혈은 외래 추적이 아닌 긴급 평가 적응증이다.: 수술 또는 방사선 치료 단독 요법으로 높은 완치율과 후두 보존 가능.
+- **기능·추적 관리**: 금연·금주, 영양·치과 평가, 삼킴/음성 재활과 갑상선기능·재발 감시를 치료 전부터 연계한다. 호흡곤란·stridor, 진행성 연하장애, 출혈은 외래 추적이 아닌 긴급 평가 적응증이다.
 - **진행성(Stage III, IV)**:
   수술 후 방사선 치료, 항암화학방사선요법 등 다학제적 접근 필요.
   후두 전절제술이 필요한 경우도 있음.
+
+- **전후두절제·수술 후 치료 기준**: 갑상연골 관통/후두 밖 침범의 T4a, 큰 종괴, 이미 기능이 심하게 손상된 후두는 수술을 강하게 고려한다. 절제연 양성 또는 림프절 피막외 침범(ENE)은 수술 후 cisplatin 동시항암방사선의 핵심 고위험 기준이다. 나머지 병리 위험은 RT 필요성을 평가한다. [NCI PDQ](https://www.cancer.gov/types/head-and-neck/hp/adult/laryngeal-treatment-pdq)
+- **면역치료를 바꾸는 바이오마커**: 재발/전이에서 pembrolizumab 단독은 **PD-L1 CPS ≥1**을 확인하고, 증상이 많거나 빠른 축소가 필요하면 platinum+5-FU 병합을 검토한다. 미국 2025년에는 절제 가능한 국소 진행성 HNSCC의 CPS ≥1에 수술 전 pembrolizumab→수술 후 RT ± cisplatin 병합→유지 요법도 허가되었다. 수술 경로의 대상 선정과 국내 허가·급여를 따로 확인한다. [FDA 2025](https://www.fda.gov/drugs/cancer-approvals/fda-approves-neoadjuvant-and-adjuvant-pembrolizumab-resectable-locally-advanced-head-and-neck)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 성문부 암의 예후가 상대적으로 좋으며, 성문하부 암은 예후가 불량한 편임.

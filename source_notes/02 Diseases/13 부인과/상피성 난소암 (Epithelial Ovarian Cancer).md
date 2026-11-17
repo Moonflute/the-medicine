@@ -23,7 +23,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-11-15'
+content_updated_at: "2026-11-17"
 guideline_year: "2026"
 sources: ["ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer. | https://pubmed.ncbi.nlm.nih.gov/41741111/"]
 reviewed_at: "2026-07-16"
@@ -48,13 +48,11 @@ review_status: "guideline_enriched"
 - 수술적 병기 설정(Surgical staging)이 필수적이며, 임신 중이라도 의심 시 시행함
 
 ## 5. 치료
-- **Borderline**: 원발 종양 제거(단측 난소 절제술 등)
-- **Stage I**: TAH+BSO(자궁 및 양측 난소 절제술) 및 병기 설정 수술 (+ 고위험군인 경우 항암화학요법 추가)
-- **Stage III-IV (진행성)**:
-  - 1차 치료: 완전 육안 절제가 기대되고 수술 위험이 허용되면 일차 종양감축술 후 백금 기반 항암을 시행한다. 완전 절제 가능성이 낮거나 수술 위험이 높다면 보통 중심부 조직생검으로 확진한 뒤 선행 항암과 중간 종양감축술을 검토한다.
-  - 유지 요법(Maintenance): 1차 항암화학요법 후 완전/부분 관해 또는 무병 상태(NED)인 환자 대상 PARP 억제제(Olaparib, Rucaparib, Niraparib) 권고. BRCA 변이 여부 및 HRD 상태에 따라 약제 선택 및 베바시주맙 병용 여부 결정.
-- **재발성(Recurrent)**:
-  - 백금 저항성(PFI <6개월) 및 고 FRα 발현(≥75%) 환자: Mirvetuximab soravtansine-gynx (MIRV) 고려. 안구 독성(시야 흐림, 각막병증) 예방을 위해 인공눈물 사용 및 정기적 안과 검진 필수.
+- **초기 병기**: 병기설정 수술 후 조직형·등급을 함께 판단한다. 완전 병기설정된 IA 저등급 장액성/저등급 자궁내막양, IA–IB 팽창성 점액성은 관찰이 가능하다. 고등급 장액성·고등급 자궁내막양은 I기라도 항암을 권고하며, II기는 조직형과 무관하게 보조 백금 기반 항암을 검토한다. 경계성 종양은 침윤성 암과 구분하며 항암을 자동 적용하지 않는다. [ESMO 초기 난소암](https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf)
+- **III–IV의 수술 시점**: 완전 육안 절제가 가능하고 수술 위험이 허용되면 일차 종양감축술을 시행한다. 완전 절제가 어렵거나 수술 위험이 높으면 조직 확진 후 carboplatin/paclitaxel 선행항암을 시작하고, 반응 또는 안정병변이면 4주기 이내 중간 종양감축술을 검토하여 총 약 6주기를 완성한다. 항암 중 진행하면 수술을 자동 시행하지 않고 진단·전신치료를 재평가한다. [ASCO 2025](https://doi.org/10.1200/JCO-24-02589)
+- **유지치료 선택(ASCO 2026)**: 1차 백금 항암에 완전/부분 반응한 진행성 고등급 암에서 BRCA1/2 병적 변이는 olaparib·niraparib·rucaparib, BRCA 변이 없이 HRD 양성이면 niraparib·rucaparib을 검토한다. 앞서 bevacizumab을 병용했다면 BRCA 변이/HRD 양성에서 olaparib + bevacizumab이 선택지다. BRCA 정상·HRD 음성에는 ASCO 2026이 PARP 유지치료를 권고하지 않으며, 허용하는 다른 지침·국가에서는 이득·독성 및 승인 조건을 개별 검토한다. 진행병변에 유지요법을 시작하지 않는다. [ASCO living guideline 2026](https://doi.org/10.1200/JCO-26-02412)
+- **백금 저항성 재발**: 백금 종료 후 6개월 이내 진행하면서 FRα 고발현(검증된 IHC에서 종양세포 ≥75%가 2+ 이상)이고 이전 전신치료 1–3개이면 MIRV를 검토한다. 안과 검사·예방 점안과 각막/시력 이상 시 보류·감량 기준을 적용한다. [ESMO 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/)
+- **면역치료의 신규 조건**: PD-L1 CPS ≥1이고 이전 전신치료 1–2개인 성인 백금 저항성 암에서는 pembrolizumab + paclitaxel ± bevacizumab이 FDA 2026 승인 선택지다. 국내 사용은 승인·급여를 별도로 확인한다. [FDA 2026](https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-paclitaxel-platinum-resistant-epithelial-ovarian-fallopian-tube-or)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후: 진단 시 병기에 따라 생존율 차이가 큼.

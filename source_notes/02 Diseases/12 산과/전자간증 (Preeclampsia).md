@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-15"
+content_updated_at: "2026-11-17"
 aliases:
 - pre-eclampsia
 유형:
@@ -54,6 +54,8 @@ reviewed_at: "2026-07-30"
 * **모니터링 및 전원**: 임신 중에는 증상·혈압, 혈소판·간/신장 기능과 태아 성장·양수량을 중증도에 맞춰 평가한다. 증상 악화 시 상급 병원으로 즉시 전원하며, 산후에도 혈압 및 신경학적 증상, 장기 손상 여부를 지속적으로 추적한다.
 
   참고: [NICE 임신 중 고혈압 진단·관리 NG133](https://www.nice.org.uk/guidance/ng133/chapter/Recommendations)
+
+- **실제 분만·약제 분기**: 비중증은 ≥37주에 분만하며, 중증 소견이 있으면 ACOG는 ≥34주 안정화 후 분만을 권고한다. <34주라도 조절되지 않는 ≥160/110 mmHg 혈압, 진행 장기 손상·폐부종·자간증·태아 악화는 기대요법을 끝낼 조건이다. MgSO4는 중증 소견/자간증의 경련 예방·치료에 사용하며, 단백뇨만 있는 비중증 환자의 일률 처방은 아니다. [ACOG 임신 고혈압·전자간증](https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 자간증(Eclampsia), HELLP 증후군, 뇌졸중, 태반 조기 박리, 태아 성장 제한 및 조산.

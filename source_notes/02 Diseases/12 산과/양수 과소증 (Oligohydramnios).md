@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-17"
 aliases:
 - 양수 과소증
 유형:
@@ -55,6 +55,8 @@ reviewed_at: "2026-07-30"
 - **분만 결정**: 임신 주수, 양막 파수·성장제한 여부와 태아 안녕을 종합한다. 만삭에 가까운 시점에 양수과소가 확인되면 분만 시기를 적극 검토한다. 분만이 필요하면서 [[횡위 (Transverse Lie)]]가 지속되면 제왕절개로 분만한다. NST와 양수량만으로는 태아 호흡운동 등 항목을 포함한 전체 BPP 점수를 계산할 수 없다. 변형 BPP와 구분한다. [ACOG 의학적 적응증에 따른 분만 시기](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2021/07/medically-indicated-late-preterm-and-early-term-deliveries)
 - **양수 주입술**: 분만 중 제대 압박으로 인한 태아 심박동 이상 시 제한적으로 시행 고려
 - **전원 및 협진**: 태아 기형이나 중증 성장 지연 의심 시 고위험 산모-태아 집중 치료실(MFICU)이 있는 상급 병원으로 전원 고려
+
+- **단독 양수과소의 분만 기준**: 다른 원인 없이 지속된 단독 양수과소(최대 수직 양수주머니 <2 cm)는 ACOG 기준 36주 0일–37주 6일 분만을 검토하며, 그 이후 진단이면 진단 시 분만을 고려한다. PPROM·성장제한·비정상 도플러가 있으면 해당 질환의 기준을 우선한다. [ACOG 의학적 적응 분만 시기](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2021/07/medically-indicated-late-preterm-and-early-term-deliveries)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 태아 폐 발달 저하(폐 형성 부전), 제대 압박으로 인한 태아 가사, 태아 성장 지연 및 신생아 이환율 증가와 관련됨.

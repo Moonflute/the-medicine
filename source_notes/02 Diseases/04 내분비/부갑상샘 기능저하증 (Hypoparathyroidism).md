@@ -16,7 +16,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["Revised European Society of Endocrinology Clinical Practice Guideline: Treatment of Chronic Hypoparathyroidism in Adults. | https://pubmed.ncbi.nlm.nih.gov/41231236/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-17"
 ---
 분과 : [[내분비]]
 
@@ -41,10 +41,9 @@ content_updated_at: "2026-07-16"
 - 저칼슘혈증 환자에서 PTH 농도가 낮거나 정상 범위 하한선인 경우 진단할 수 있다.
 
 ## 5. 치료 (Treatment)
-- 급성기: 칼슘 글루코네이트(Ca gluconate) 정맥 주사를 시행한다.
-- 만성기: 칼슘 및 비타민 D 보충제를 기본 치료로 사용한다.
-- PTH 대체 요법(PTH replacement therapy): 기존 치료의 약물 복용 부담(pill burden)을 줄이고 생화학적 지표 개선 및 삶의 질 향상을 위해 고려할 수 있다.
-- 주의사항: 부갑상샘 동종 이식(parathyroid allotransplantation)은 현재 치료법으로 권장되지 않는다.
+- **급성 정주 치료**: 테타니·경련·후두경련·부정맥 등 증상이 있거나 중증 저칼슘혈증이면 ECG 감시하 IV calcium gluconate를 사용하고 Mg 결핍을 함께 교정한다. 경미한 무증상 환자에게 정주 칼슘을 일률적으로 투여하지 않는다.
+- **유지 치료**: 활성형 vitamin D와 필요한 경구 칼슘을 조절해 증상 없이 혈청 Ca를 정상 하한 부근 또는 약간 낮게 유지한다. 혈청 Ca를 높이는 과정에서 고칼슘뇨·고인산혈증·신석회화가 생기지 않는지 확인한다.
+- **치료 강화**: 최적의 기존 치료에도 증상, Ca 변동, 신기능 저하 또는 고칼슘뇨가 지속되면 PTH 대체치료를 검토한다. 고칼슘뇨에서는 저염식·칼슘 용량 조정·thiazide를 먼저 고려하며, 국내 허가·접근성을 확인한다. [ESE 2025](https://academic.oup.com/ejendo/article/193/5/G83/8321487)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 장기적인 합병증으로 고칼슘뇨증, 골밀도 변화 등이 발생할 수 있으므로 지속적인 모니터링이 필요하다.

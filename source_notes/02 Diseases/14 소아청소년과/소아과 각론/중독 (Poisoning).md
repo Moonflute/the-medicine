@@ -21,7 +21,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Management of patients with suspected but unidentified poisoning in the emergency department: a joint Royal College of Emergency Medicine and National Poisons Information Service best practice guideline. | https://pubmed.ncbi.nlm.nih.gov/42103461/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[소아청소년과]]
 
@@ -51,6 +51,8 @@ content_updated_at: "2026-07-16"
 * **초기 관리**: ABC(기도, 호흡, 순환) 안정화 및 응급 처치 우선.
 * **임상적 접근**: 독성 증후군 기반의 평가를 통해 잠재적 독성 물질을 식별하고, 환자의 임상 상태 변화를 지속적으로 모니터링.
 * **전문 상담**: 특정 독소에 대한 구체적인 치료 지침은 TOXBASE, NPIS 또는 지역 독극물 센터의 자문을 활용할 것.
+
+* **위장관 제독 선택**: 활성탄은 모든 섭취 사고의 기본 처치가 아니다. 잠재적으로 중독량을 섭취했고 흡착 가능한 물질이며 대개 **1시간 이내**, 기도가 보호되는 경우 독성 전문가와 선택한다. 의식 저하·경련 위험에서 기도 미확보, 부식제·탄화수소 섭취에는 피하고 철·리튬·알코올처럼 잘 흡착되지 않는 물질에는 효과를 기대하지 않는다. 구토 유도와 일률적 위세척은 하지 않는다. 해독제·투석은 물질, 노출량·시간, 증상·농도에 맞춘 개별 중독 경로를 적용한다. [RCH](https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_Initial_Management/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 독성 물질의 종류, 섭취량, 치료 시점에 따라 결정

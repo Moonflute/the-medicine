@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-10-08"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -72,6 +72,9 @@ reviewed_at: "2026-10-08"
 - 식이 조절: 수분 섭취와 개인별 유발 식품을 확인하고, 수용성 섬유 및 제한 기간을 둔 Low-FODMAP 식이를 증상과 영양 상태에 맞게 선택한다.
 - 증상 유형에 맞는 약물 선택: 설사형은 지사제·Rifaximin 등, 변비형은 완하제·PEG·점진적 장운동 촉진제 등; 복통 시 진경제·TCA 고려
 - 약물 부작용·증상 악화(혈변, 체중 감소, 야간 설사 등) 시 즉시 소화기 전문의 의뢰 및 필요시 대장내시경
+
+- **약제 전환**: IBS-D에서 loperamide로 배변 횟수가 줄어도 복통·전반 증상이 남으면 다른 기전의 치료를 검토한다. Rifaximin에 반응했다가 재발한 경우 재치료를 고려할 수 있다. Eluxadoline은 **담낭이 없거나 하루 3잔을 초과해 음주하는 경우, 췌장염 병력 등에서 금기**를 확인한다. IBS-C에서 PEG의 배변 개선과 복통 개선은 구분하고, 전반 증상이 남으면 해당 적응증의 분비촉진제 등을 선택한다.
+- 근거: [AGA IBS 치료 지침](https://gastro.org/clinical-guidance/guideline-toolkits/irritable-bowel-syndrome-toolkit/), [AGA IBS-D 2022](https://doi.org/10.1053/j.gastro.2022.04.017).
 
 ## 6. 예후 및 합병증
 - 기질적 질환으로 진행하지 않으나, 만성적인 경과를 보임

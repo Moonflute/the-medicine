@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-11-17"
 aliases: []
 유형:
 - disease
@@ -53,6 +54,8 @@ sources: ["2023 Korean Society of Nephrology Consensus Guideline for the Managem
 ## 5. 치료 (Treatment)
 - **응급 처치의 우선순위:** 심전도 독성이 있으면 IV 칼슘으로 막 안정화를 먼저 시행하고, 인슐린-포도당 및 흡입 베타2 작용제로 일시적 세포 내 이동을 유도합니다. 이는 체내 칼륨을 제거하지 않으므로 반등 가능성을 염두에 두고 반복 K·혈당·심전도 감시가 필요합니다.
 - **제거와 재발 예방:** 체액 과다 없이 소변이 확보된 경우 루프 이뇨제를 고려하고, 급성 중증·난치성 고칼륨혈증이나 신부전에서는 조기에 투석팀과 상의합니다. 경구 칼륨결합제(예: sodium polystyrene sulfonate)는 발현 속도와 장관 안전성을 고려해 응급 단독 처치로 의존하지 않으며, 안정화 후 유발 약물·식이·산증·변비를 재평가합니다.
+
+- **수치에 따른 긴급도**: K ≥6.5 mmol/L이면 정상 ECG라도 응급 평가·심전도 감시와 세포 내 이동 치료를 시작한다. K 6.0–6.4도 AKI·급상승·전신 상태와 ECG에 따라 즉시 치료한다. UKKA의 성인 예시는 soluble insulin 10 U + glucose 25 g IV이며, 저체중·신부전·낮은 시작 혈당에서는 저혈당 위험을 반영한 기관 프로토콜을 적용한다. 투여 후 혈당을 최소 6시간까지, K는 초기 약 1–2시간 및 이후 재상승 시점에 반복 확인한다. 독성 ECG에는 IV calcium을 별도로 투여한다. [UKKA](https://guidelines.ukkidney.org/hyperkalaemia/11-1-ii-hyperkalaemia-in-hospital/11-1-4-ii-hyperkalaemia-in-hospital-16-1-16-6/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치명적인 부정맥 발생 위험

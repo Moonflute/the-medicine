@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-15"
+content_updated_at: "2026-11-17"
 aliases:
 - cervical cancer
 - 자궁경부암
@@ -55,6 +55,9 @@ reviewed_at: "2026-07-30"
 - **다학제적 접근**: 진행성 병기(IIB 이상)나 재발성 암의 경우 부인종양 전문의, 방사선종양학과, 혈액종양내과 간의 다학제 진료를 통해 치료 계획을 수립함.
 - **추적 관찰**: 치료 후 재발 조기 발견을 위해 정기적인 골반 진찰, 세포검사 및 영상 검사를 시행함.
 - **예방**: HPV 백신 접종 및 정기적인 자궁경부암 선별검사를 통해 고위험군 조기 발견 및 예방을 도모함.
+
+- **조기암의 수술 범위(ESMO 2026)**: IA2–IB1 중 종양 ≤2 cm, 편평상피암·선암·선편평암이며 원추절제 침윤 <10 mm 또는 MRI상 기질 침윤 <50%, 영상상 전이 없음의 저위험 조건을 충족하면 단순 자궁절제와 양측 감시림프절 평가를 선택할 수 있다. >2 cm 또는 이 조건을 벗어나면 근치수술/항암방사선을 병기에 따라 결정한다. 가임력 보존은 음성 절제연·림프절 상태·조직형을 확인한 뒤 판단한다.
+- **면역치료를 추가하는 조건**: FIGO 2014 III–IVA에는 pembrolizumab + 동시항암방사선 후 유지치료가 승인된 선택지이며 PD-L1 양성이 필수 조건은 아니다. 재발·지속·전이암의 1차 치료에서는 PD-L1 CPS ≥1이면 pembrolizumab + platinum/paclitaxel ± bevacizumab, CPS <1이면 platinum/paclitaxel ± bevacizumab을 선택한다. Bevacizumab은 누공·천공·출혈 위험에 따라 제외한다. [ESMO 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13728282/) · [FDA 국소 진행암 승인](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-chemoradiotherapy-figo-2014-stage-iii-iva-cervical-cancer)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 시 예후가 좋으나, 진행성 병기에서는 림프절 전이 여부가 예후의 핵심 인자임

@@ -15,7 +15,7 @@ CC:
 clinical_priority: tier_2
 review_status: source_reviewed_no_change
 reviewed_at: '2026-07-30'
-content_updated_at: '2026-07-17'
+content_updated_at: "2026-11-18"
 guideline_year: '2025'
 sources:
 - 'NICE NG39 Major Trauma: Assessment and Initial Management | https://www.nice.org.uk/guidance/ng39'
@@ -50,6 +50,9 @@ population: general
 - 통증과 저체온을 적극 관리하고 개방골절·오염창은 적절한 항균치료와 파상풍 예방을 시행한다. 수술·중재시술·신경외과·정형외과 등 필요한 팀을 조기에 활성화한다.
 - 소아·임신·고령 환자는 해부·생리 차이와 방사선 위험을 반영하되 생명구조 영상과 처치를 지연하지 않는다.
 - 지역 병원 역량을 넘는 손상은 안정화 가능한 처치 후 외상센터로 신속히 전원하고 구조화된 인계를 시행한다.
+
+- **중대한 출혈/출혈 위험**은 tranexamic acid를 가능한 빨리, **손상 후 3시간 이내** 투여한다(성인 예: 1 g/10분 후 1 g/8시간). 늦게 시작할수록 이득이 없거나 해로울 수 있어 일률적으로 3시간 이후 시작하지 않는다.
+- 중증 뇌손상이 없는 출혈 환자는 지혈 전 제한적 소생과 **SBP 80~90 mmHg**를 고려할 수 있다. 중증 TBI는 이 목표를 적용하지 않고 뇌관류를 보존한다. 지혈과 혈액제제 투여 중 체온·ionized Ca·fibrinogen/응고를 교정한다. [유럽 외상출혈 지침 2023](https://doi.org/10.1186/s13054-023-04327-7)
 
 ## 6. 예후 및 합병증
 - 초기 사망은 기도·호흡 문제, 대량출혈과 중증 뇌손상에서 주로 발생한다. 이후 감염, ARDS, 혈전색전증, 장기부전, 구획증후군과 기능장애가 문제가 된다.

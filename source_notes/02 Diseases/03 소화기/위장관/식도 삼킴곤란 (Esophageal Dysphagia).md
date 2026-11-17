@@ -11,7 +11,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-11-18"
 guideline_year: "2025"
 sources: ["Esophageal and Oropharyngeal Dysphagia: Clinical Recommendations From the United European Gastroenterology and European Society for Neurogastroenterology and Motility. | https://pubmed.ncbi.nlm.nih.gov/40543044/"]
 reviewed_at: "2026-07-16"
@@ -56,6 +56,9 @@ review_status: "guideline_enriched"
   - **아칼라시아(Achalasia)**: 내시경적 치료(경구식도근절개술[POEM], 풍선확장술 등) 및 수술적 치료를 강력히 권고함(Strong recommendation).
   - **기타 식도 운동 질환**: 내시경 및 수술적 치료는 약하게 권고됨(Weak recommendation).
   - **과수축성 식도(Hypercontractile esophagus)**: 증상 완화를 위해 PPI, 칼슘채널차단제(CCB), 질산염(Nitrates), 포스포디에스테라제 5형(PDE5) 억제제, 항우울제, 또는 페퍼민트 오일(Peppermint oil) 사용을 고려할 수 있음(Weak recommendation).
+
+- **시술 대상의 확인**: 구조적 협착은 조직검사·염증 치료와 확장술을 연계하고, 운동장애는 증상과 내압검사·바륨검사 등을 대조한다. Achalasia I/II는 PD·LHM·POEM 중 선택하고 III형은 긴 근절개가 가능한 POEM을 우선 검토한다. 비아칼라시아 연축·과수축 소견만으로 같은 시술을 자동 적용하지 않는다.
+- 근거: [AGA POEM 업데이트](https://gastro.org/clinical-guidance/advances-in-per-oral-endoscopic-myotomy/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 흡인성 폐렴, 영양실조, 체중 감소, 삶의 질 저하
