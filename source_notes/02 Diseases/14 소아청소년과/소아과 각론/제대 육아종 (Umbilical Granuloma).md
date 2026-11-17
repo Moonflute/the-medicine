@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["RCH 제대 육아종 의뢰 기준 | https://www.rch.org.au/kidsconnect/prereferral_guidelines/Umbilical_granuloma_prereferral/"]
 ---
 분과 : [[소아청소년과]]
 
@@ -41,7 +42,6 @@ reviewed_at: "2026-07-30"
 
 - **외과 평가로 전환**: 질산은 치료 **1주 뒤에도 반응이 없거나**, 주위 발적이 퍼지거나, 소변·대변 같은 분비물이 나오면 반복 소작보다 제대 용종·요막관·난황관 잔존을 평가한다. 발열·전신 상태 악화가 동반된 배꼽염은 즉시 감염 치료 대상이다.
 
-근거: [RCH 제대 육아종 의뢰 기준](https://www.rch.org.au/kidsconnect/prereferral_guidelines/Umbilical_granuloma_prereferral/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 적절한 치료 후 대부분 완치됨

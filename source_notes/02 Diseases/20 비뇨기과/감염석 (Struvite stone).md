@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EAU 감염석 대사·재발 관리 | https://uroweb.org/guidelines/urolithiasis/chapter/metabolic-evaluation-and-recurrence-prevention"]
 ---
 분과 : [[비뇨기과]]
 
@@ -42,7 +43,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - 요소분해균 감염과 잔존 결석은 서로 재발을 유발하므로 **가능한 완전 제거**와 배양 기반 항생제 치료를 병행한다. 대형·녹각석은 대개 PCNL을 중심으로 계획한다.
 - 발열·패혈증을 동반한 폐색은 결석 제거를 먼저 강행하지 않고 **응급 배액+항생제 후 지연 제거**한다. 잔석·지속 세균뇨는 감염 재발 위험으로 재중재와 항생제 필요성을 평가한다.
-- 수술이 불가능하거나 충분한 제거 뒤에도 잔존·재발 감염석이 있는 선택된 경우 urease 억제제를 전문의가 검토하며, 독성 때문에 모든 감염석의 기본약으로 사용하지 않는다. 소변배양과 영상으로 잔석·재발을 추적한다. [EAU 감염석 대사·재발 관리](https://uroweb.org/guidelines/urolithiasis/chapter/metabolic-evaluation-and-recurrence-prevention)
+- 수술이 불가능하거나 충분한 제거 뒤에도 잔존·재발 감염석이 있는 선택된 경우 urease 억제제를 전문의가 검토하며, 독성 때문에 모든 감염석의 기본약으로 사용하지 않는다. 소변배양과 영상으로 잔석·재발을 추적한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 만성 신우신염, 신부전, 패혈증, 드물게 신우의 편평상피세포암 발생 가능

@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["폐경 전 | https://www.rcog.org.uk/for-the-public/browse-our-patient-information/ovarian-cysts-before-the-menopause/", "RCOG 2025 개정 | https://www.rcog.org.uk/media/4v3ncfib/gtg_34.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -46,7 +47,7 @@ reviewed_at: "2026-07-30"
 * **폐경 후 여성**: 악성 위험도가 높으므로 초음파 및 종양 표지자 검사 결과를 바탕으로 수술 여부 신중히 결정
 
 - **무증상 단순 낭종의 크기 기준(RCOG)**: 폐경 전에는 <5 cm가 대개 추적 불필요, 5–7 cm는 보통 연간 초음파, >7 cm는 MRI 또는 수술 평가를 고려한다. 폐경 후 일측·단방성 단순 낭종 ≤3 cm는 정기 추적이 필요 없고, >3–≤5 cm이며 CA-125 정상인 경우 4–6개월 재평가 후 1년간 안정/축소이면 종료를 검토한다.
-- **이 기준을 적용하지 않는 경우**: 고형부·유두상 돌기·불규칙성·복수·전이 의심, 지속 증상·성장·급성 염전은 크기와 무관하게 추가 평가한다. 정상 CA-125만으로 악성을 배제하지 않는다. [폐경 전](https://www.rcog.org.uk/for-the-public/browse-our-patient-information/ovarian-cysts-before-the-menopause/) · [RCOG 2025 개정](https://www.rcog.org.uk/media/4v3ncfib/gtg_34.pdf)
+- **이 기준을 적용하지 않는 경우**: 고형부·유두상 돌기·불규칙성·복수·전이 의심, 지속 증상·성장·급성 염전은 크기와 무관하게 추가 평가한다. 정상 CA-125만으로 악성을 배제하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 양성 종양은 예후가 좋으나, 악성 종양은 발견 시기에 따라 생존율 차이가 큼.

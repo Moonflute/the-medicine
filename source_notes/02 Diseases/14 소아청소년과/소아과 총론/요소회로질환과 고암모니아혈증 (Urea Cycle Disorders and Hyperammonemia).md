@@ -17,9 +17,7 @@ clinical_priority: tier_1
 reviewed_at: '2026-10-07'
 content_updated_at: "2026-11-18"
 review_status: official_source_reviewed
-sources:
-- 'GeneReviews: Urea Cycle Disorders Overview, updated July 2025 | https://www.ncbi.nlm.nih.gov/books/NBK1217/'
-- 'Bélanger-Quintana et al.: Diagnosis and therapeutic management of hyperammonaemia, 2022 | https://doi.org/10.3390/nu14132755'
+sources: ["GeneReviews: Urea Cycle Disorders Overview, updated July 2025 | https://www.ncbi.nlm.nih.gov/books/NBK1217/", "Bélanger-Quintana et al.: Diagnosis and therapeutic management of hyperammonaemia, 2022 | https://doi.org/10.3390/nu14132755", "UCD 진단·치료 지침 2019 개정 | https://doi.org/10.1002/jimd.12100"]
 ---
 분과 : [[소아청소년과]]
 
@@ -45,7 +43,6 @@ sources:
 
 - **원인별 약제**: 질소 제거제(benzoate, phenylacetate/phenylbutyrate 등)를 사용하고 결함에 맞게 arginine/citrulline을 보충한다. **ARG1 결핍에는 arginine을 투여하지 않으며**, NAGS 결핍에는 carglumic acid가 핵심이다.
 
-근거: [UCD 진단·치료 지침 2019 개정](https://doi.org/10.1002/jimd.12100).
 
 ## 6. 예후 및 합병증
 - 암모니아의 높이와 지속 시간, 뇌부종이 신경학적 예후에 영향을 준다. 치료 중 암모니아·혈당·전해질과 경련을 반복 평가한다.

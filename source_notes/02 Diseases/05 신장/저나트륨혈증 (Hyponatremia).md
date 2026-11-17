@@ -15,7 +15,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["AGA Clinical Practice Update on the Management of Ascites, Volume Overload, and Hyponatremia in Cirrhosis: Expert Review (2025) | https://pubmed.ncbi.nlm.nih.gov/41114681/", "Korean Society of Nephrology 2022 Recommendations on controversial issues in diagnosis and management of hyponatremia | https://www.krcp-ksn.org/journal/view.php?number=555"]
+sources: ["AGA Clinical Practice Update on the Management of Ascites, Volume Overload, and Hyponatremia in Cirrhosis: Expert Review (2025) | https://pubmed.ncbi.nlm.nih.gov/41114681/", "Korean Society of Nephrology 2022 Recommendations on controversial issues in diagnosis and management of hyponatremia | https://www.krcp-ksn.org/journal/view.php?number=555", "유럽 지침 | https://doi.org/10.1530/EJE-13-1020"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -70,7 +70,7 @@ content_updated_at: "2026-11-17"
   - 재발성/난치성: 다학제적 접근(이식팀 협진), 혈관수축제, 고장성 식염수, 바소프레신 수용체 길항제(vaptans), 신대체요법 고려
 - 주의: 너무 빠른 교정은 삼투성 탈수초 증후군(ODS) 위험이 있으므로 속도 조절 필수
 
-- **초기 목표·상한**: 중증 신경 증상에서 3% NaCl 150 mL/20분(유럽 지침 예시)을 투여하고 Na·증상에 따라 재평가하며, 초기 약 5 mmol/L 상승 후 추가 급속 교정을 중단한다. 만성·기간 불명은 보수적으로 교정하고, 특히 ODS 고위험군은 24시간 증가 ≤8 mmol/L로 제한한다. Na와 소변량은 초기 수시간 간격으로 확인하며 K 보충 효과도 합산한다. [유럽 지침](https://doi.org/10.1530/EJE-13-1020)
+- **초기 목표·상한**: 중증 신경 증상에서 3% NaCl 150 mL/20분(유럽 지침 예시)을 투여하고 Na·증상에 따라 재평가하며, 초기 약 5 mmol/L 상승 후 추가 급속 교정을 중단한다. 만성·기간 불명은 보수적으로 교정하고, 특히 ODS 고위험군은 24시간 증가 ≤8 mmol/L로 제한한다. Na와 소변량은 초기 수시간 간격으로 확인하며 K 보충 효과도 합산한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 뇌부종, 뇌탈출, 삼투성 탈수초 증후군
@@ -83,4 +83,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [대한신장학회 저나트륨혈증 진단·관리 권고](https://www.krcp-ksn.org/journal/view.php?number=555), [AGA 간경변 환자의 저나트륨혈증 임상진료 업데이트 2025](https://pubmed.ncbi.nlm.nih.gov/41114681/)를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. 대한신장학회 저나트륨혈증 진단·관리 권고, AGA 간경변 환자의 저나트륨혈증 임상진료 업데이트 2025를 대조. 2026-09-14 기존 목차 내 보완.

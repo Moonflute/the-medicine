@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Digoxin 독성 전문가 합의 2023 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10599802/"]
 ---
 분과 : [[순환기]]
 
@@ -47,7 +48,6 @@ reviewed_at: "2026-07-30"
 - **VT/VF, 무수축·증상성 고도 AV 차단, 장기 저관류를 동반한 저혈압 또는 심한 고칼륨혈증**은 digoxin immune Fab를 지체 없이 투여할 상황이다. 2023 전문가 합의는 **K >6.5 mmol/L**를 생명 위협 독성 기준에 포함한다. 투여 여부를 농도 결과가 나올 때까지 미루지 않는다.
 - 고칼륨혈증의 원인 치료는 Fab이며, 칼슘을 포함한 응급 전해질 처치는 독성학/소생팀과 결정한다. '칼슘 투여는 언제나 치명적이고 절대 금기'라는 단정은 근거가 충분하지 않다.
 - Fab 후 칼륨 급감, 심부전·빠른 AF 재출현과 신부전 환자의 재독성을 감시한다. 일반 검사에서 측정한 총 digoxin 농도는 Fab 투여 후 해석에 제한이 있다.
-- 근거: [Digoxin 독성 전문가 합의 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10599802/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 좁은 치료적 지수(narrow therapeutic window)로 인해 독성 발생 시 치명적인 부정맥을 유발할 수 있음.

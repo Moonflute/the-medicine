@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NIH VZV 치료 지침—면역저하 환자 | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/varicella-zoster"]
 ---
 분과 : [[피부과]]
 
@@ -56,7 +57,7 @@ reviewed_at: "2026-07-30"
 - 가능하면 발진 **72시간 이내** 경구 valacyclovir·famciclovir·acyclovir를 시작한다. 72시간이 지났어도 새 수포가 계속 생기거나 안구·신경계 침범·면역저하·중증이면 치료를 배제하지 않는다.
 - 파종성 피부 병변, 내장·중추신경계 침범 또는 중증 면역저하에서 중증 감염이면 입원 및 **IV acyclovir**를 검토한다. 신기능에 따라 용량을 조절하고 수액·신독성을 감시한다. 호전되고 새 병변이 멎으면 경구 전환을 평가한다.
 - 눈 주위 병변·시력 변화·안통은 당일 안과 평가, 안면마비·청력 저하는 신경과/이비인후과 평가가 필요하다. 단순 피부 발진과 같은 처방으로 끝내지 않는다.
-- 진통제와 필요 시 gabapentin·pregabalin·TCA로 신경병성 통증을 치료한다. 이 약들을 **PHN을 확실히 예방하는 약**으로 설명하지 않는다. 급성기 회복 뒤 연령·면역 상태에 맞춰 재조합 대상포진 백신을 검토한다. [NIH VZV 치료 지침—면역저하 환자](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/varicella-zoster)
+- 진통제와 필요 시 gabapentin·pregabalin·TCA로 신경병성 통증을 치료한다. 이 약들을 **PHN을 확실히 예방하는 약**으로 설명하지 않는다. 급성기 회복 뒤 연령·면역 상태에 맞춰 재조합 대상포진 백신을 검토한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 대상포진 후 신경통(PHN, 1개월 이상 지속되는 통증), 이차 세균 감염, 안구 합병증(각막염, 포도막염), 뇌신경 마비.

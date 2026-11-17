@@ -17,6 +17,7 @@ CC:
 - 발열
 - 호흡곤란
 clinical_priority: tier_1
+sources: ["IDSA/ATS HAP/VAP 진료지침 | https://www.idsociety.org/practice-guideline/hap_vap/", "BTS Pleural Disease Guideline 2023 | https://thorax.bmj.com/content/78/Suppl_3/s1", "IDSA 성인 CAP 진료지침 | https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults"]
 ---
 # 병원획득 폐렴 (Hospital-Acquired Pneumonia)
 
@@ -33,8 +34,7 @@ clinical_priority: tier_1
 - 지속 발열이나 호전 부재 시 비감염성 폐침윤, 초기 요법에 포함되지 않은 내성균 또는 폐외 감염원을 다시 평가한다.
 
 
-보완 출처: 삼성서울병원 메뉴얼. [IDSA/ATS HAP/VAP 진료지침](https://www.idsociety.org/practice-guideline/hap_vap/), [BTS Pleural Disease Guideline 2023](https://thorax.bmj.com/content/78/Suppl_3/s1), [IDSA 성인 CAP 진료지침](https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults)을 대조하여 폐렴 분류, 배양 기반 항생제 축소, 흉막감염 배액 원칙을 갱신. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. IDSA/ATS HAP/VAP 진료지침, BTS Pleural Disease Guideline 2023, IDSA 성인 CAP 진료지침을 대조하여 폐렴 분류, 배양 기반 항생제 축소, 흉막감염 배액 원칙을 갱신. 2026-09-14 기존 목차 내 보완.
 
 - **HAP 경험적 MRSA 치료**는 최근 **90일 내 IV 항생제**, 병동 S. aureus 중 **MRSA >20% 또는 비율 불명**, 패혈성 쇼크/폐렴으로 인한 환기 보조 등 사망 고위험이면 vancomycin 또는 linezolid를 포함한다. 이전 MRSA 배양 등 개인 위험도 함께 반영한다. VAP의 지역 MRSA 기준은 10–20%로 HAP와 같지 않다.
 - 최근 IV 항생제·사망 고위험·기관지확장증 등 내성 그람음성균 위험이면 서로 다른 계열의 항녹농균제를 초기 병용할 수 있다. 배양·감수성과 임상 안정 후 좁히며, 호전되는 대부분의 HAP/VAP는 **7일** 치료를 기준으로 한다. 농양·농흉·지속 감염은 별도 기간과 감염원 조절이 필요하다.
-- 근거: [IDSA/ATS HAP·VAP 지침](https://www.idsociety.org/practice-guideline/hap_vap/).

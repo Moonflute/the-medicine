@@ -16,6 +16,7 @@ CC:
 preprocessing_required: x
 clinical_priority: "tier_2"
 review_status: "samsung8e_source_integrated"
+sources: ["AIP 치료 국제 합의 | https://pubmed.ncbi.nlm.nih.gov/28027896/", "일본 AIP 합의 | https://pubmed.ncbi.nlm.nih.gov/24639058/", "FDA inebilizumab 허가사항 2025 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761142s004lbl.pdf", "ACG 만성 췌장염 진료지침 | https://pubmed.ncbi.nlm.nih.gov/32022720/", "ESGE 괴사성 췌장염 내시경 지침 | https://www.esge.com/endoscopic-management-of-acute-necrotizing-pancreatitis-esge-evidence-based-multidisciplinary-guideline", "Pancreapedia 자가면역 췌장염 진단 | https://pancreapedia.org/reviews/diagnosis-autoimmune-pancreatitis"]
 ---
 분과 : [[소화기]]
 
@@ -41,10 +42,9 @@ review_status: "samsung8e_source_integrated"
 
 - **치료 대상과 반응**: 폐쇄성 황달·통증·장기 침범이 있는 활동성 질환은 악성 종양을 배제한 뒤 prednisolone 약 **0.6 mg/kg/일로 2–4주** 유도하고 증상·간기능·영상 반응을 확인하며 감량한다. 반응이 불충분하면 스테로이드만 계속 증량하지 말고 췌장암·담관암 등 진단을 재검토한다.
 - 재발성 **제1형/IgG4 관련 질환**은 재유도와 유지 면역억제/B세포 표적 치료를 검토한다. Inebilizumab은 미국에서 성인 IgG4 관련 질환 적응증을 갖지만 제2형 AIP 전체에 자동 적용하지 않으며 감염·HBV·면역글로불린 평가와 국내 허가 확인이 필요하다.
-- 근거: [AIP 치료 국제 합의](https://pubmed.ncbi.nlm.nih.gov/28027896/), [일본 AIP 합의](https://pubmed.ncbi.nlm.nih.gov/24639058/), [FDA inebilizumab 허가사항 2025](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761142s004lbl.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료에 반응하는 경우가 많지만 1형은 재발할 수 있고, 담도 협착·외분비부전·당대사 이상이 남을 수 있다.
 - 가장 중요한 초기 합병증은 췌장암 또는 담관암을 AIP로 오인해 진단이 지연되는 것이므로, 새로운 종괴·진행성 황달·치료 불응은 재평가한다.
 
-출처: 삼성서울병원 메뉴얼. [ACG 만성 췌장염 진료지침](https://pubmed.ncbi.nlm.nih.gov/32022720/), [ESGE 괴사성 췌장염 내시경 지침](https://www.esge.com/endoscopic-management-of-acute-necrotizing-pancreatitis-esge-evidence-based-multidisciplinary-guideline), [Pancreapedia 자가면역 췌장염 진단](https://pancreapedia.org/reviews/diagnosis-autoimmune-pancreatitis), 췌장 가성낭종·만성 췌장염·자가면역 췌장염의 정의·진단·중재 원칙을 대조.
+출처: 삼성서울병원 메뉴얼. ACG 만성 췌장염 진료지침, ESGE 괴사성 췌장염 내시경 지침, Pancreapedia 자가면역 췌장염 진단, 췌장 가성낭종·만성 췌장염·자가면역 췌장염의 정의·진단·중재 원칙을 대조.

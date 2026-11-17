@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["SAGES-AHPBA 2025 | https://www.sages.org/publications/guidelines/guideline-for-the-management-of-bdi-following-cholecystectomy/"]
 ---
 분과 : [[외과]]
 
@@ -46,7 +47,7 @@ reviewed_at: "2026-07-30"
 - **작은 누출·담도 연속성 유지:** cystic duct stump 등 작은 누출은 담즙종 배액과 ERCP stent±괄약근절개로 압력을 낮추는 전략을 검토한다. 복강 내 담즙종의 경피 배액과 담도 감압용 PTBD는 목적이 다르다. 완전 절단·고위부 폐쇄는 ERCP만으로 해결되지 않을 수 있다.
 - **주요 손상:** 경험 있는 간담췌(HPB) 팀에 조기 의뢰한다. 패혈증·담즙성 복막염은 배액·세척·항생제로 즉시 감염원을 통제한다. 국소 전문성이 없으면 무리한 일차 봉합·반복 재건보다 충분한 배액 후 전문센터로 연결한다.
 - **재건 시점:** SAGES-AHPBA 2025는 대체로 **>6주 지연 재건**을 조건부 제안한다. 수술 중 또는 초기 발견이고 손상 범위가 명확하며 감염이 통제되고 숙련 HPB 팀이 있으면 조기 복구도 선택할 수 있다. ‘조기 발견=누구나 즉시 재건’이나 ‘6주간 패혈증도 기다림’으로 적용하지 않는다.
-- 주요 결손은 hepaticojejunostomy 등 재건을 손상 높이·혈관 손상·전신 상태로 결정하고 장기 담도 협착을 추적한다. [SAGES-AHPBA 2025](https://www.sages.org/publications/guidelines/guideline-for-the-management-of-bdi-following-cholecystectomy/)
+- 주요 결손은 hepaticojejunostomy 등 재건을 손상 높이·혈관 손상·전신 상태로 결정하고 장기 담도 협착을 추적한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 담도 협착, 재발성 담관염, 간경변, 문맥압 항진증.

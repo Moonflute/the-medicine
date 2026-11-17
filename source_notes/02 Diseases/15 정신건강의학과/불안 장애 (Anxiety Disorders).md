@@ -19,10 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2020"
-sources:
-  - "NICE CG113: Generalised Anxiety Disorder and Panic Disorder (2020 갱신) | https://www.nice.org.uk/guidance/cg113/chapter/Recommendations"
-  - "NICE CG159: Social Anxiety Disorder (2013; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg159/chapter/recommendations"
-  - "NICE CG31: Obsessive-Compulsive Disorder (2005; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg31/chapter/Recommendations"
+sources: ["NICE CG113: Generalised Anxiety Disorder and Panic Disorder (2020 갱신) | https://www.nice.org.uk/guidance/cg113/chapter/Recommendations", "NICE CG159: Social Anxiety Disorder (2013; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg159/chapter/recommendations", "NICE CG31: Obsessive-Compulsive Disorder (2005; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg31/chapter/Recommendations"]
 
 content_updated_at: '2026-10-08'
 guideline_reviewed_at: '2026-10-08'
@@ -71,7 +68,3 @@ SSRI/SNRI는 초기에 불안·초조가 일시적으로 증가할 수 있어 �
 - [[사회 불안 장애 (Social Anxiety Disorder)]]
 
 ## 참고 자료
-
-- [NICE CG113: Generalised Anxiety Disorder and Panic Disorder (2020 갱신)](https://www.nice.org.uk/guidance/cg113/chapter/Recommendations)
-- [NICE CG159: Social Anxiety Disorder (2013; 2026-10 현행 확인)](https://www.nice.org.uk/guidance/cg159/chapter/recommendations)
-- [NICE CG31: Obsessive-Compulsive Disorder (2005; 2026-10 현행 확인)](https://www.nice.org.uk/guidance/cg31/chapter/Recommendations)

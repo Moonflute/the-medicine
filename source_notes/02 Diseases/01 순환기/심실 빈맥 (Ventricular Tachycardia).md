@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2024"
-sources: ["2024 대한부정맥학회 심실성 부정맥 및 돌연 심장사 진료지침 | https://www.khrs.or.kr/html/sub03_01_01.html"]
+sources: ["2024 대한부정맥학회 심실성 부정맥 및 돌연 심장사 진료지침 | https://www.khrs.or.kr/html/sub03_01_01.html", "AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -84,7 +84,6 @@ content_updated_at: "2026-11-18"
 
 - NSVT는 증상 유무만으로 약제를 나열하지 않고 구조적 심질환·허혈·유전성 부정맥 및 EF를 평가한다. **원인 불명 넓은 QRS 빈맥에 verapamil/diltiazem을 투여하지 않는다.** 이들 약제는 확인된 특정 특발성 VT 등에서만 전문 판단하에 사용한다.
 - ICD의 이차 예방은 **교정 가능한 일시적 원인으로 설명되지 않는 심정지/지속성 위험 VT**와 예상 생존·기능을 함께 판단한다. 구조적 심질환 또는 실신이 있다는 이유만으로 모두 ICD 적응증이 되는 것은 아니다.
-- 근거: [AHA 성인 전문소생술 2025](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/).
 
 ## 6. 예후 및 합병증
 - 심실세동(VF) 등 심정지 리듬으로 이행 가능

@@ -17,11 +17,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-10-21"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources:
-- "2025 AHA/ACC Guideline for the Management of Patients With Acute Coronary Syndromes | https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know"
-- "2026 Focus Update of the Korean Society of Myocardial Infarction Expert Consensus on Revascularization for ACS | https://pubmed.ncbi.nlm.nih.gov/42324232/"
-- "2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS"
-- "Fifth Universal Definition of Myocardial Infarction 2026 | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/"
+sources: ["2025 AHA/ACC Guideline for the Management of Patients With Acute Coronary Syndromes | https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know", "2026 Focus Update of the Korean Society of Myocardial Infarction Expert Consensus on Revascularization for ACS | https://pubmed.ncbi.nlm.nih.gov/42324232/", "2023 ESC Guidelines for the management of acute coronary syndromes | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Acute-Coronary-Syndromes-ACS", "Fifth Universal Definition of Myocardial Infarction 2026 | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/", "하벽 심근경색의 12유도 심전도 연구 | https://pubmed.ncbi.nlm.nih.gov/31169552/", "AHA/ACC ACS 지침 2025 | https://doi.org/10.1161/CIR.0000000000001309"]
 
 content_updated_at: "2026-11-18"
 
@@ -55,7 +51,7 @@ content_updated_at: "2026-11-18"
 
 ## 3. 검사
 - **심전도(EKG)**: 10분 이내 시행. 2개 이상의 연속 유도에서 1mm 이상의 ST 분절 상승 확인. 우심실 경색 의심 시 우측 유도(V4-6R) 및 후벽 경색 확인을 위해 V8, V9 추가.
-- **하벽 STEMI의 위치 판단**: II·III·aVF의 ST분절 상승과 aVL(때로 I)의 상호 ST분절 하강이 전형적인 조합이다. 우관상동맥이 흔한 원인이지만 좌회선동맥도 가능하므로, 유도만으로 혈관을 확정하지 않는다. 하벽 경색에 저혈압·서맥 또는 방실차단이 동반되면 우심실 침범 가능성도 살피고 우측 유도(V4R 등)를 추가한다. [하벽 심근경색의 12유도 심전도 연구](https://pubmed.ncbi.nlm.nih.gov/31169552/)
+- **하벽 STEMI의 위치 판단**: II·III·aVF의 ST분절 상승과 aVL(때로 I)의 상호 ST분절 하강이 전형적인 조합이다. 우관상동맥이 흔한 원인이지만 좌회선동맥도 가능하므로, 유도만으로 혈관을 확정하지 않는다. 하벽 경색에 저혈압·서맥 또는 방실차단이 동반되면 우심실 침범 가능성도 살피고 우측 유도(V4R 등)를 추가한다.
 - **심근 표지자**: cTn I/T를 검사법별 **성별 99백분위 상한**과 연속 변화로 평가한다. 검사 결과를 기다리며 STEMI 재관류를 지연하지 않는다.
 - **영상 검사**: 심초음파로 국소 벽 운동 이상 확인. 관상동맥 조영술로 폐쇄 부위 확인. 복잡한 해부학적 구조나 불분명한 원인 병변 확인을 위해 혈관 내 영상(intravascular imaging) 활용 권장.
 
@@ -75,7 +71,6 @@ content_updated_at: "2026-11-18"
 - **특수 상황**: MINOCA와 SCAD는 모두 죽상혈전 STEMI와 같은 일괄 처치를 적용하지 말고 원인별 치료로 전환한다. SCAD는 지속 허혈이나 불안정성이 없으면 보존적 치료가 우선이다.
 
 - **지질약 강화 기준**: 최대 내약 statin에도 **LDL-C ≥70 mg/dL**이면 ezetimibe/PCSK9 억제제 등 비statin 추가를 권고하며, **55–<70 mg/dL**에서도 추가 강화를 합리적으로 고려한다. 시작·변경 후 4–8주 재검으로 반응을 확인한다.
-- 근거: [AHA/ACC ACS 지침 2025](https://doi.org/10.1161/CIR.0000000000001309).
 
 ## 6. 예후 및 합병증
 - **합병증**: 심부전, 부정맥(심실세동 등), 심인성 쇼크, 심실 파열, 승모판 역류, 심실중격 결손.
@@ -83,6 +78,5 @@ content_updated_at: "2026-11-18"
 - **퇴원 후 관리**: 생활 습관 교정, 심장재활, 약물 유지와 조기 외래 추적을 계획한다. 치과 처치는 일률적으로 6개월 금지하지 않으며, 시술의 긴급성·DAPT 중단 위험·출혈 위험을 심장내과와 치과가 함께 조정한다.
 
 출처 : 2025 AHA/ACC ACS guideline, 2026 Korean ACS revascularization focus update, 2023 ESC ACS guideline
-- [제5차 심근경색 보편적 정의(2026)](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/) — 2026-10-21 분류·진단 갱신.
 Last updated :
 2026-07-30 — 최신 ACS 지침 기준으로 치료·추적관리 갱신

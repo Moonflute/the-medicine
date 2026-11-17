@@ -22,7 +22,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["American Society of Transplantation and Cellular Therapy Clinical Practice Recommendations for Transplantation in Classical Hodgkin Lymphoma. | https://pubmed.ncbi.nlm.nih.gov/41478324/"]
+sources: ["American Society of Transplantation and Cellular Therapy Clinical Practice Recommendations for Transplantation in Classical Hodgkin Lymphoma. | https://pubmed.ncbi.nlm.nih.gov/41478324/", "FDA N-AVD 적응증 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-chemotherapy-previously-untreated-hodgkin-lymphoma", "NCI HL 치료 | https://www.cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -56,14 +56,14 @@ content_updated_at: "2026-11-17"
 
 ## 5. 치료 (Treatment)
 - 병기와 환자 상태에 따라 항암 화학요법(CTx)과 방사선 치료(RTx)를 조합함.
-- **고전적 HL 병기 III–IV:** nivolumab+AVD 등 현대적 1차 요법을 우선 검토하며 ABVD를 모든 병기의 유일한 표준으로 적지 않는다. 미국 FDA의 N-AVD 적응증은 2026년 미치료 III–IV기, ≥12세로 확대되었으며 국내 허가·급여는 별도 확인한다. 초기 국한 병기는 위험 인자·PET 반응에 따라 항암±국소 방사선치료를 결정한다. [FDA N-AVD 적응증](https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-chemotherapy-previously-untreated-hodgkin-lymphoma)
+- **고전적 HL 병기 III–IV:** nivolumab+AVD 등 현대적 1차 요법을 우선 검토하며 ABVD를 모든 병기의 유일한 표준으로 적지 않는다. 미국 FDA의 N-AVD 적응증은 2026년 미치료 III–IV기, ≥12세로 확대되었으며 국내 허가·급여는 별도 확인한다. 초기 국한 병기는 위험 인자·PET 반응에 따라 항암±국소 방사선치료를 결정한다.
 - 재발성/불응성(R/R) 고전적 호지킨 림프종(cHL) 치료:
   - 항암 화학요법에 반응하는 재발 환자에서 자가 조혈모세포이식(auto-HCT)이 표준 치료임.
   - 이식 전 구제 요법(salvage therapy) 시 신약(면역관문억제제, 항체-약물 접합체 등)을 우선적으로 고려함.
   - auto-HCT 후 재발한 경우 동종 조혈모세포이식(allo-HCT)을 고려함.
   - 최신 가이드라인에 따라 신약의 도입 및 이식 시기, 유지 요법에 대한 다학제적 접근이 필요함.
 
-- **ABVD를 선택한 진행기 환자의 반응 조정:** 2주기 후 PET Deauville **1–3**이면 bleomycin을 제외한 AVD 지속을 고려하여 폐독성을 줄인다. Deauville **4–5**는 진행 가능성과 위양성을 평가해 프로토콜별 강화·재생검 여부를 결정하며, 모든 양성 PET를 즉시 재발로 확정하지 않는다. [NCI HL 치료](https://www.cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq)
+- **ABVD를 선택한 진행기 환자의 반응 조정:** 2주기 후 PET Deauville **1–3**이면 bleomycin을 제외한 AVD 지속을 고려하여 폐독성을 줄인다. Deauville **4–5**는 진행 가능성과 위양성을 평가해 프로토콜별 강화·재생검 여부를 결정하며, 모든 양성 PET를 즉시 재발로 확정하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 완치 가능한 질환임.

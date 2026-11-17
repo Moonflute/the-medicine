@@ -16,8 +16,7 @@ CC:
 clinical_priority: "tier_2"
 review_status: "samsung8e_source_integrated"
 guideline_year: "2022"
-sources:
-- '2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106'
+sources: ["2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106", "ACC/AHA | https://www.jacc.org/doi/10.1016/j.jacc.2022.08.004", "ACC 대동맥질환 지침 핵심 요약 | https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/11/01/12/21/2022-guideline-on-aortic-disease-2-gl-ad"]
 ---
 분과 : [[순환기]]
 
@@ -42,9 +41,9 @@ sources:
 - 무증상 환자는 위치·직경·성장률과 유전성 위험에 따라 CTA/MRA/TTE 추적 간격을 정한다. 상행/근부의 증상성·급속 성장·큰 동맥류 또는 유전성 고위험형은 다학제 대동맥센터에서 수술 시점을 평가한다.
 - 하행흉부대동맥류는 해부학에 적합하고 유전성 결합조직질환이 없는 경우 TEVAR가 선택지가 될 수 있으며, 개방수술과의 선택은 해부학·연령·수명·접근 혈관·재중재 가능성을 함께 판단한다.
 
-- **상행/근부 수술 기준**: 산발성 동맥류는 관련 증상, 직경 ≥5.5 cm, 또는 확인된 성장 ≥0.5 cm/년 혹은 ≥0.3 cm/년이 2년 연속이면 수술을 평가한다. 숙련된 대동맥팀에서는 선택된 저위험 환자의 ≥5.0 cm에서도 고려할 수 있다. 마르팡·이첨판·가족성 질환과 임신 계획은 별도 기준을 적용하며 산발성 역치를 그대로 사용하지 않는다. [ACC/AHA](https://www.jacc.org/doi/10.1016/j.jacc.2022.08.004)
+- **상행/근부 수술 기준**: 산발성 동맥류는 관련 증상, 직경 ≥5.5 cm, 또는 확인된 성장 ≥0.5 cm/년 혹은 ≥0.3 cm/년이 2년 연속이면 수술을 평가한다. 숙련된 대동맥팀에서는 선택된 저위험 환자의 ≥5.0 cm에서도 고려할 수 있다. 마르팡·이첨판·가족성 질환과 임신 계획은 별도 기준을 적용하며 산발성 역치를 그대로 사용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 진행하면 박리, 파열, 대동맥판 역류, 혈전색전증 또는 주변 구조 압박을 일으킬 수 있다. 치료 뒤에도 잔존 대동맥의 확장과 이식편 관련 합병증을 장기 영상으로 감시한다.
 
-출처: 삼성서울병원 메뉴얼. [2022 ACC/AHA 대동맥질환 진료지침](https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106), [ACC 대동맥질환 지침 핵심 요약](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/11/01/12/21/2022-guideline-on-aortic-disease-2-gl-ad); 흉부 대동맥류의 영상 추적, 유전성 위험 평가 및 전문센터 중재 원칙을 대조.
+출처: 삼성서울병원 메뉴얼. 2022 ACC/AHA 대동맥질환 진료지침, ACC 대동맥질환 지침 핵심 요약; 흉부 대동맥류의 영상 추적, 유전성 위험 평가 및 전문센터 중재 원칙을 대조.

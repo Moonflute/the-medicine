@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE CG185 | https://www.nice.org.uk/guidance/cg185/chapter/Recommendations"]
 ---
 분과 : [[정신건강의학과]]
 
@@ -46,7 +47,6 @@ reviewed_at: "2026-07-30"
 - **Lithium 조절 기준**: 처음 처방하는 유지 치료에서는 **0.6–0.8 mmol/L**를 목표로 하고, 재발·잔여 증상이 있으면 **0.8–1.0 mmol/L**를 검토한다. 시작·용량 변경 **1주 후**, 안정될 때까지 매주 혈중 농도를 확인한다. 구토·설사, 심한 떨림·운동실조·혼돈은 농도 수치만 기다리지 말고 복용 보류·독성 평가 사유다.
 - **삽화별 차이**: lamotrigine은 급성 조증 치료제가 아니며 발진 위험 때문에 빠르게 증량하지 않는다. Lithium 중단은 응급 독성이 아니라면 적어도 4주, 가능하면 3개월에 걸쳐 감량한다.
 
-근거: [NICE CG185](https://www.nice.org.uk/guidance/cg185/chapter/Recommendations).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **Lithium**:

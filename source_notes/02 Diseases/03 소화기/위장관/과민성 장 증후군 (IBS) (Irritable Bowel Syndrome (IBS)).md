@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["AGA IBS 치료 지침 | https://gastro.org/clinical-guidance/guideline-toolkits/irritable-bowel-syndrome-toolkit/", "AGA IBS-D 2022 | https://doi.org/10.1053/j.gastro.2022.04.017", "ACG IBS 지침 2021 | https://pubmed.ncbi.nlm.nih.gov/33315591/", "AGA IBS 진료 질 지표 | https://gastro.org/news/nine-guideline-based-best-practices-for-ibs/", "NIDDK IBS 진단 | https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/diagnosis", "2025 Seoul Consensus IBS 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11986658/", "AGA IBS 식이 임상 업데이트 2022 | https://gastro.org/clinical-guidance/the-role-of-diet-in-irritable-bowel-syndrome-ibs/", "NIDDK IBS 식이 | https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/eating-diet-nutrition", "DailyMed lubiprostone 허가사항 | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6d973d7d-a43e-4495-b618-a8ad3142683d", "Monash FODMAP 설명 | https://www.monashfodmap.com/ibs-central-android/about-fodmap-and-ibs-android/", "Monash FODMAP 섭취량·개인차 안내 | https://www.monashfodmap.com/about-fodmap-and-ibs/frequently-asked-questions/"]
 ---
 분과 : [[소화기]]
 
@@ -74,7 +75,6 @@ reviewed_at: "2026-10-08"
 - 약물 부작용·증상 악화(혈변, 체중 감소, 야간 설사 등) 시 즉시 소화기 전문의 의뢰 및 필요시 대장내시경
 
 - **약제 전환**: IBS-D에서 loperamide로 배변 횟수가 줄어도 복통·전반 증상이 남으면 다른 기전의 치료를 검토한다. Rifaximin에 반응했다가 재발한 경우 재치료를 고려할 수 있다. Eluxadoline은 **담낭이 없거나 하루 3잔을 초과해 음주하는 경우, 췌장염 병력 등에서 금기**를 확인한다. IBS-C에서 PEG의 배변 개선과 복통 개선은 구분하고, 전반 증상이 남으면 해당 적응증의 분비촉진제 등을 선택한다.
-- 근거: [AGA IBS 치료 지침](https://gastro.org/clinical-guidance/guideline-toolkits/irritable-bowel-syndrome-toolkit/), [AGA IBS-D 2022](https://doi.org/10.1053/j.gastro.2022.04.017).
 
 ## 6. 예후 및 합병증
 - 기질적 질환으로 진행하지 않으나, 만성적인 경과를 보임
@@ -86,12 +86,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ACG IBS 지침 2021](https://pubmed.ncbi.nlm.nih.gov/33315591/)
-- [AGA IBS 진료 질 지표](https://gastro.org/news/nine-guideline-based-best-practices-for-ibs/)
-- [NIDDK IBS 진단](https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/diagnosis)
-- [2025 Seoul Consensus IBS 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC11986658/)
-- [AGA IBS 식이 임상 업데이트 2022](https://gastro.org/clinical-guidance/the-role-of-diet-in-irritable-bowel-syndrome-ibs/)
-- [NIDDK IBS 식이](https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/eating-diet-nutrition)
-- [DailyMed lubiprostone 허가사항](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6d973d7d-a43e-4495-b618-a8ad3142683d)
-- [Monash FODMAP 설명](https://www.monashfodmap.com/ibs-central-android/about-fodmap-and-ibs-android/)
-- [Monash FODMAP 섭취량·개인차 안내](https://www.monashfodmap.com/about-fodmap-and-ibs/frequently-asked-questions/)

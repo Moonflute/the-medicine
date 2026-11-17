@@ -21,7 +21,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["임상의를 위한 진료지침 알레르기비염 | https://www.kaaaci.org/html/sub04_04_01.html?mode=view&idx=98", "Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines—2024–2025 Revision: Part I—Guidelines on Intranasal Treatments | https://onlinelibrary.wiley.com/doi/10.1111/all.17013"]
+sources: ["임상의를 위한 진료지침 알레르기비염 | https://www.kaaaci.org/html/sub04_04_01.html?mode=view&idx=98", "Allergic Rhinitis and Its Impact on Asthma (ARIA)-EAACI Guidelines—2024–2025 Revision: Part I—Guidelines on Intranasal Treatments | https://onlinelibrary.wiley.com/doi/10.1111/all.17013", "KAAACI 2023 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10643862/", "ARIA–EAACI 2024–2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13256267/", "MHRA 비충혈제거제 사용 주의 | https://www.gov.uk/drug-safety-update/nasal-decongestant-sprays-and-drops-containing-xylometazoline-hydrochloride-slash-oxymetazoline-hydrochloride-increased-risk-of-rebound-congestion-rhinitis-medicamentosa-and-tachyphylaxis-with-overuse"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -69,7 +69,7 @@ content_updated_at: "2026-11-17"
 ## 5. 치료
 - **약물 선택**: 경증·간헐 재채기/가려움/비루에는 2세대 H1 항히스타민제를 사용할 수 있다. 지속 코막힘·수면/일상 장애가 있으면 비강 steroid를 중심으로 치료하며, 올바른 분사법·규칙 사용을 확인해도 불충분하면 비강 항히스타민제 병합을 검토한다.
 - **제한해야 하는 약물**: 국소 혈관수축제는 제품 허가 기간 내 단기 사용하고 반동성 비염을 피한다. Montelukast는 일률적인 첫 약제로 선택하지 않고 다른 치료 반응·동반 천식과 신경정신계 부작용을 고려한다.
-- **면역치료로 넘어갈 조건**: 증상과 연관된 특정 항원 감작이 확인되고 회피·적절한 약물에도 중등도–중증 증상이 지속되거나 약물 부담을 줄이길 원하면 SCIT/SLIT를 논의한다. 조절되지 않는 중증 천식에서는 시작하지 않는다. SCIT 후 최소 30분 관찰하며, 효과가 있으면 통상 최소 3년 유지한다. [KAAACI 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10643862/) · [ARIA–EAACI 2024–2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC13256267/)
+- **면역치료로 넘어갈 조건**: 증상과 연관된 특정 항원 감작이 확인되고 회피·적절한 약물에도 중등도–중증 증상이 지속되거나 약물 부담을 줄이길 원하면 SCIT/SLIT를 논의한다. 조절되지 않는 중증 천식에서는 시작하지 않는다. SCIT 후 최소 30분 관찰하며, 효과가 있으면 통상 최소 3년 유지한다.
 
 ## 6. 예후 및 합병증
 - 알레르기 비염 합병증: 부비동염, 중이염, 비용종, 상기도감염, 꽃가루-음식 알레르기, 천식
@@ -82,5 +82,3 @@ Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 근거: [MHRA 비충혈제거제 사용 주의](https://www.gov.uk/drug-safety-update/nasal-decongestant-sprays-and-drops-containing-xylometazoline-hydrochloride-slash-oxymetazoline-hydrochloride-increased-risk-of-rebound-congestion-rhinitis-medicamentosa-and-tachyphylaxis-with-overuse).

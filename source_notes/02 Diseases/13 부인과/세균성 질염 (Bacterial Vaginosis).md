@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC 약제 | https://www.cdc.gov/std/treatment-guidelines/bv.htm", "ACOG 2025 | https://www.acog.org/news/news-releases/2025/10/acog-recommends-concurrent-sexual-partner-treatment-recurrent-bacterial-vaginosis-first-time", "NYSDOH 2026 | https://www.hivguidelines.org/guideline/sti-bv/?mycollection=sexual-health&mytab=tab_1"]
 ---
 분과 : [[부인과]]
 
@@ -53,7 +54,7 @@ reviewed_at: "2026-07-30"
 - **임신부 관리**: 임신 중 증상이 있는 경우 조산 등 합병증 예방을 위해 반드시 치료함.
 
 - **초기 요법**: metronidazole 500 mg 경구 하루 2회 7일, 0.75% 질 gel 5일 또는 clindamycin 2% 질 cream 7일 중 선택한다. 다회 재발에서는 초기 치료 후 metronidazole gel 주 2회, 3개월 초과 억제요법 등을 검토한다.
-- **동시 치료의 실제 선택지**: NYSDOH 2026은 해당 남성 파트너에 metronidazole 500 mg 하루 2회 7일과 clindamycin 2% cream 음경 피부 도포 하루 2회 7일 병용을 제시한다. 이는 여성에게 쓰는 질 치료와 구분하며 국소 음경 사용은 허가외 사용이다. 양측 치료 완료까지 성접촉을 피하거나 지침에 따른 보호를 적용한다. [CDC 약제](https://www.cdc.gov/std/treatment-guidelines/bv.htm) · [ACOG 2025](https://www.acog.org/news/news-releases/2025/10/acog-recommends-concurrent-sexual-partner-treatment-recurrent-bacterial-vaginosis-first-time) · [NYSDOH 2026](https://www.hivguidelines.org/guideline/sti-bv/?mycollection=sexual-health&mytab=tab_1)
+- **동시 치료의 실제 선택지**: NYSDOH 2026은 해당 남성 파트너에 metronidazole 500 mg 하루 2회 7일과 clindamycin 2% cream 음경 피부 도포 하루 2회 7일 병용을 제시한다. 이는 여성에게 쓰는 질 치료와 구분하며 국소 음경 사용은 허가외 사용이다. 양측 치료 완료까지 성접촉을 피하거나 지침에 따른 보호를 적용한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 골반염(PID), 성매개감염병 감염 위험 증가, 임신 시 조산 위험 증가.

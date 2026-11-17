@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAO 결막염 권고 | https://www.aao.org/education/summary-benchmark-detail/cornea-external-disease-summary-benchmarks-2020"]
 ---
 분과 : [[안과]]
 
@@ -45,7 +46,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - 인공눈물·냉찜질 등 대증 요법으로 눈물·충혈·이물감 완화
 - 각막 염증이 심하거나 혼탁이 나타날 경우 스테로이드 점안액을 제한적으로 사용하고 안압 및 치유 진행을 정기적으로 확인
-- 예방적 항생제 점안은 일상적으로 시행하지 않는다. 세균성 동반 감염이 확인되면 그에 맞춰 치료한다. [AAO 결막염 권고](https://www.aao.org/education/summary-benchmark-detail/cornea-external-disease-summary-benchmarks-2020)
+- 예방적 항생제 점안은 일상적으로 시행하지 않는다. 세균성 동반 감염이 확인되면 그에 맞춰 치료한다.
 - 개인 위생 철저(손 씻기, 수건·세면도구 별도 사용)와 환자 격리 등 전파 차단 조치 시행
 - 증상이 2주 이상 지속되거나 시력 저하·각막 혼탁이 발생하면 안과 전문의 재평가 및 필요 시 전문 진료 의뢰.
 

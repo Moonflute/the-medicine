@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Endocrine Society | https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency"]
 ---
 분과 : [[내분비]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - **유지**: 성인 hydrocortisone 보통 15–25 mg/일을 2–3회 분할하고, 알도스테론 결핍이면 fludrocortisone을 함께 사용한다. 체중·혈압·기립성 증상·부종·전해질과 필요 시 renin으로 조절하며, ACTH를 정상화하려 과량의 glucocorticoid를 투여하지 않는다.
 - **위기·경구 복용 불가**: 쇼크·심한 구토가 있으면 hydrocortisone 100 mg IV/IM 즉시 투여 후 200 mg/24시간과 등장성 수액을 투여한다. 채혈은 치료를 지연하지 않는 범위에서 시행한다.
-- **증량 기준**: 발열·급성 질환에는 sick-day 증량, 큰 수술·중증 감염에는 비경구 stress dose를 적용한다. 응급 주사키트·스테로이드 카드와 보호자 교육을 제공한다. 확진된 영구적 부신부전에 매년 ACTH 자극검사를 일률적으로 반복하지 않는다. [Endocrine Society](https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency)
+- **증량 기준**: 발열·급성 질환에는 sick-day 증량, 큰 수술·중증 감염에는 비경구 stress dose를 적용한다. 응급 주사키트·스테로이드 카드와 보호자 교육을 제공한다. 확진된 영구적 부신부전에 매년 ACTH 자극검사를 일률적으로 반복하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 호르몬 대체 요법으로 정상적인 생활이 가능하나, 급성 부신 위기(Adrenal crisis)는 치명적일 수 있음.

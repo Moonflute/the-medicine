@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACOG 유방암 병력 환자의 폐경 비뇨생식기 증상 지침 | https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2021/12/treatment-of-urogenital-symptoms-in-individuals-with-a-history-of-estrogen-dependent-breast-cancer", "ACOG 폐경 후 출혈 초기 평가 업데이트(2026) | https://doi.org/10.1097/AOG.0000000000006275"]
 ---
 분과 : [[부인과]]
 
@@ -46,7 +47,6 @@ reviewed_at: "2026-07-30"
 - **전신 증상 고려**: 안면 홍조 등 폐경 관련 전신 증상이 동반된 경우 전신 호르몬 요법을 고려할 수 있음.
 - **추적 관찰**: 치료 후 증상 개선 여부를 평가한다. 원인이 확인되지 않은 폐경 후 출혈은 위축으로 단정하지 말고, 치료 전부터 출혈 부위와 자궁내막 병변 가능성을 평가한다.
 
-참고: [ACOG 유방암 병력 환자의 폐경 비뇨생식기 증상 지침](https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2021/12/treatment-of-urogenital-symptoms-in-individuals-with-a-history-of-estrogen-dependent-breast-cancer) · [ACOG 폐경 후 출혈 초기 평가 업데이트(2026)](https://doi.org/10.1097/AOG.0000000000006275)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 증상이 점진적으로 악화되는 경향이 있음.

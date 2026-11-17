@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "AASM RLS 지침 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/", "임상 참고 자료 | https://www.merckmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/restless-legs-syndrome"]
 disease_family: psychiatry_split
 parent_disease: 수면 관련 장애 (Sleep-Wake Disorders)
 relation_to_parent: subtype
@@ -44,11 +43,9 @@ relation_to_parent: subtype
 - **철분 투여 문턱(AASM 2025)**: 성인에서 ferritin **≤75 ng/mL 또는 TSAT <20%**이면 경구·정맥 철분을 고려하고, ferritin **75–100 ng/mL** 범위에서는 정맥 제제를 고려한다. 빈혈 유무만으로 판단하지 않으며 소아 기준은 다르다.
 - **지속 증상·약제 변경**: 원인 교정 뒤에도 수면·기능 손상이 있으면 gabapentin·gabapentin enacarbil·pregabalin을 우선 검토한다. 도파민 효능제는 장기 augmentation 때문에 일상적 표준 시작약으로 권고되지 않는다. 증상이 더 이른 시간에 시작하거나 다른 부위로 퍼지면 단순 증량하지 말고 augmentation을 평가하여 대체약을 도입하면서 서서히 감량한다.
 
-근거: [AASM RLS 지침 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/).
 
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.
 
-출처: [임상 참고 자료](https://www.merckmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/restless-legs-syndrome)
 
 2026-07-24 — 독립 질환 문서 수동 보강 (원문 분리 후 임상 내용 정리).

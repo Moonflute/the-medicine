@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["국제 PCOS 지침 2023 | https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/recommendations_from_the_2023_int_evidence-based_guideline_on_pcos.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 * **장기 추적 관찰**: 당뇨병, 심혈관 질환, 자궁내막암 등 대사 및 종양학적 합병증 위험이 높으므로 정기적인 혈당 및 지질 검사를 포함한 장기적인 모니터링이 필요함.
 
 - **약제 목적과 추가 기준**: 월경불순·다모증은 복합피임제가 우선 선택이고, 성인 BMI ≥25 kg/m²에서 인슐린 저항성·혈당·지질 등 대사 개선은 metformin을 고려한다. BMI <25에서는 근거가 제한적이다. 피임제/미용치료를 최소 6개월 시행해도 다모증이 남으면 확실한 피임과 함께 항안드로겐을 검토한다.
-- **난임 치료 단계**: 다른 난임 요인이 없는 무배란성 PCOS는 letrozole 1차, 경구 유도 실패 시 gonadotropin 등을 2차로 고려한다. 다른 IVF 적응증이 없으면 1·2차 실패 후 IVF를 검토한다. 다태임신·OHSS 위험을 감시하며 임신 가능성이 있으면 항안드로겐을 피한다. [국제 PCOS 지침 2023](https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/recommendations_from_the_2023_int_evidence-based_guideline_on_pcos.pdf)
+- **난임 치료 단계**: 다른 난임 요인이 없는 무배란성 PCOS는 letrozole 1차, 경구 유도 실패 시 gonadotropin 등을 2차로 고려한다. 다른 IVF 적응증이 없으면 1·2차 실패 후 IVF를 검토한다. 다태임신·OHSS 위험을 감시하며 임신 가능성이 있으면 항안드로겐을 피한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대사 증후군, 제2형 당뇨병, 심혈관 질환, 자궁 내막암, 비알코올성 지방간 질환 위험 증가

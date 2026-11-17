@@ -21,7 +21,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Update and summary of the EAU/ESPU paediatric guidelines on urinary tract infection in children. | https://pubmed.ncbi.nlm.nih.gov/40615247/"]
+sources: ["Update and summary of the EAU/ESPU paediatric guidelines on urinary tract infection in children. | https://pubmed.ncbi.nlm.nih.gov/40615247/", "AAP UTI 지침 2026 | https://doi.org/10.1542/peds.2026-078565", "대한소아신장학회 소아 요로감염 지침 | https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002066563"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -56,7 +56,7 @@ content_updated_at: "2026-11-18"
 - **투여 경로**: 경구 가능하고 전신 상태가 안정된 소아와, 중증 소견·전신감염 위험이 있는 어린 영아를 구분한다. 아파 보이는 어린 영아는 요로감염 단독으로 단정하지 않고 패혈증 평가 및 정맥 치료를 신속히 검토한다.
 - **재발 방지**: 항생제 예방요법, 비항생제 예방요법 고려. 포경, 방광-장 기능 장애 및 하부 요로 기능 장애에 대한 치료 병행
 
-- **기간·실패 판단(AAP 2026)**: 알려진 요로 구조 이상이 없는 **2세 이상 무열성 방광염은 3–5일**, **2–24개월 UTI 또는 2세 이상 저위험 신우신염은 5–7일**을 제안한다. **생후 8일–2개월, 요로 구조 이상, 균혈증 또는 반응 불충분**에서는 7일 초과 치료를 검토한다. 지침 적용 범위는 생후 8일–5세이며 나이가 더 많거나 복잡한 경우 별도 평가한다. Nitrofurantoin은 신우신염에 사용하지 않는다. 임상적으로 호전되고 경구 섭취가 가능하면 정주에서 경구로 조기 전환하며, 48시간 무호전은 내성·폐쇄·농양을 재평가한다. [AAP UTI 지침 2026](https://doi.org/10.1542/peds.2026-078565)
+- **기간·실패 판단(AAP 2026)**: 알려진 요로 구조 이상이 없는 **2세 이상 무열성 방광염은 3–5일**, **2–24개월 UTI 또는 2세 이상 저위험 신우신염은 5–7일**을 제안한다. **생후 8일–2개월, 요로 구조 이상, 균혈증 또는 반응 불충분**에서는 7일 초과 치료를 검토한다. 지침 적용 범위는 생후 8일–5세이며 나이가 더 많거나 복잡한 경우 별도 평가한다. Nitrofurantoin은 신우신염에 사용하지 않는다. 임상적으로 호전되고 경구 섭취가 가능하면 정주에서 경구로 조기 전환하며, 48시간 무호전은 내성·폐쇄·농양을 재평가한다.
 - **예방약 선택**: 첫 단순 UTI 뒤 모든 소아에게 장기 예방약을 쓰지 않는다. 반복 발열성 감염·고등급 VUR 등 고위험군에서 방광-장 기능 치료와 함께 소아신장/비뇨기팀이 이득·내성을 비교한다.
 
 ## 6. 예후 및 합패증
@@ -65,7 +65,6 @@ content_updated_at: "2026-11-18"
 
 출처 : StatPearls (Complicated/Recurrent UTIs)
 
-소아 근거: [AAP 소아 요로감염 지침 2026](https://doi.org/10.1542/peds.2026-078565) · [대한소아신장학회 소아 요로감염 지침](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002066563)
 Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)

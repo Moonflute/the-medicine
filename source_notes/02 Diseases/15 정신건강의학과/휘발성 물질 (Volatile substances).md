@@ -13,8 +13,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders
+sources: ["Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "임상 참고 자료 | https://www.merckmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/volatile-solvents"]
 disease_family: psychiatry_split
 parent_disease: 물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)
 relation_to_parent: subtype
@@ -43,6 +42,5 @@ content_updated_at: "2026-07-30"
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.
 
-출처: [임상 참고 자료](https://www.merckmanuals.com/professional/special-subjects/illicit-drugs-and-intoxicants/volatile-solvents)
 
 2026-07-24 — 독립 질환 문서 수동 보강 (원문 분리 후 임상 내용 정리).

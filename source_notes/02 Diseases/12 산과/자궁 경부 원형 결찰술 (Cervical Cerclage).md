@@ -17,7 +17,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2022"
-sources: ["Cervical Cerclage: Green-top Guideline No. 75. | https://pubmed.ncbi.nlm.nih.gov/35199905/"]
+sources: ["Cervical Cerclage: Green-top Guideline No. 75. | https://pubmed.ncbi.nlm.nih.gov/35199905/", "NICE NG25 | https://www.nice.org.uk/guidance/ng25/chapter/recommendations", "SMFM Consult 70 | https://publications.smfm.org/publications/560-society-for-maternal-fetal-medicine-consult-series-70/"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -55,7 +55,7 @@ content_updated_at: "2026-11-17"
 - **제거**
 - 질식 결찰은 통상 36–37주에 제거하며 진통·감염 또는 상황별 파막이면 조기 제거를 평가한다. 복식 결찰은 질식 결찰과 제거/분만 계획이 다르다.
 
-- **예방 적응증**: NICE는 이전 자발 조산 ≤34주 또는 ≥16주 임신 손실과 현재 16–24주 경부 ≤25 mm가 함께 있으면 질 progesterone 또는 예방 결찰을 선택하도록 한다. 조산력 없는 단태 짧은 경부에서는 ≤20 mm 질 progesterone이 우선이며 개대 없는 10–25 mm에 자동 결찰하지 않는다. [NICE NG25](https://www.nice.org.uk/guidance/ng25/chapter/recommendations), [SMFM Consult 70](https://publications.smfm.org/publications/560-society-for-maternal-fetal-medicine-consult-series-70/)
+- **예방 적응증**: NICE는 이전 자발 조산 ≤34주 또는 ≥16주 임신 손실과 현재 16–24주 경부 ≤25 mm가 함께 있으면 질 progesterone 또는 예방 결찰을 선택하도록 한다. 조산력 없는 단태 짧은 경부에서는 ≤20 mm 질 progesterone이 우선이며 개대 없는 10–25 mm에 자동 결찰하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 감염, 양막 파열, 수술 부위 열상, 마취 관련 합병증

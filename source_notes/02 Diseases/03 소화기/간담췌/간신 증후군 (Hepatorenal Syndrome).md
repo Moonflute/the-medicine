@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ADQI/ICA 2024 | https://doi.org/10.1016/j.jhep.2024.03.031", "FDA terlipressin | https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/022231s000lbl.pdf", "KASL 복수 및 관련 합병증 지침 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13430399/"]
 ---
 분과 : [[소화기]]
 
@@ -67,7 +68,7 @@ reviewed_at: "2026-10-08"
 * 치료 반응이 없거나 진행성 간부전이 동반된 경우 간 이식을 우선적으로 고려하며, 이식 전까지 신대체 요법(CRRT)을 시행할 수 있다.
 * 치료 중에는 혈역학적 상태와 전해질 불균형을 면밀히 모니터링하고, 과도한 이뇨제 사용을 피하여 혈관 내 용적을 유지한다.
 
-- **투여 전후 안전 기준**: terlipressin 전 산소화를 확인하며 저산소증(예: SpO₂ <90%) 또는 진행성 호흡부전이면 시작하지 않는다. 치료 중 산소화 악화·허혈·심한 과부하는 중단/재평가 사유다. HRS-AKI 진단을 위해 모든 환자에게 48시간 albumin을 의무 투여하지 않고, 혈관내 용적을 평가하여 필요한 소생 후 신기능 반응과 다른 원인을 확인한다. [ADQI/ICA 2024](https://doi.org/10.1016/j.jhep.2024.03.031), [FDA terlipressin](https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/022231s000lbl.pdf)
+- **투여 전후 안전 기준**: terlipressin 전 산소화를 확인하며 저산소증(예: SpO₂ <90%) 또는 진행성 호흡부전이면 시작하지 않는다. 치료 중 산소화 악화·허혈·심한 과부하는 중단/재평가 사유다. HRS-AKI 진단을 위해 모든 환자에게 48시간 albumin을 의무 투여하지 않고, 혈관내 용적을 평가하여 필요한 소생 후 신기능 반응과 다른 원인을 확인한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -82,4 +83,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [KASL 복수 및 관련 합병증 지침 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13430399/)

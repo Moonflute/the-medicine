@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACOG 2023 CPG | https://www.gynendo.ch/wp-content/uploads/2026/01/2023-ACOG-Clinical-Practice-Guideline-Management-of-Premenstrual-Disorders.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 - **추적 관찰**: 증상 일기를 통해 치료 반응을 평가하고, 증상 호전이 없거나 정신과적 질환이 의심되는 경우 전문의에게 의뢰함.
 - **심리적 지지**: 인지행동치료(CBT)를 병행하여 스트레스 관리 및 증상 대처 능력을 향상시킴.
 
-- **불응성 중증 증상**: 적절한 SSRI·복합피임제·CBT 등에도 기능 손상이 지속되면 진단과 주기성을 재확인하고 GnRH agonist + 호르몬 add-back을 전문 진료에서 검토한다. 양측 난소절제 ± 자궁절제는 성인의 중증 약물 불응에서만 비가역성·폐경 영향을 설명한 뒤 고려하며, 먼저 GnRH 억제 반응을 확인하는 것이 중요하다. [ACOG 2023 CPG](https://www.gynendo.ch/wp-content/uploads/2026/01/2023-ACOG-Clinical-Practice-Guideline-Management-of-Premenstrual-Disorders.pdf)
+- **불응성 중증 증상**: 적절한 SSRI·복합피임제·CBT 등에도 기능 손상이 지속되면 진단과 주기성을 재확인하고 GnRH agonist + 호르몬 add-back을 전문 진료에서 검토한다. 양측 난소절제 ± 자궁절제는 성인의 중증 약물 불응에서만 비가역성·폐경 영향을 설명한 뒤 고려하며, 먼저 GnRH 억제 반응을 확인하는 것이 중요하다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 증상은 폐경이나 난소 절제술 전까지 재발 가능

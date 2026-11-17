@@ -23,6 +23,7 @@ clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 content_updated_at: "2026-11-17"
+sources: ["CDC 항바이러스 치료 | https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html"]
 ---
 분과 : [[감염]]
 
@@ -53,7 +54,7 @@ content_updated_at: "2026-11-17"
 - 저위험 외래 환자는 증상 발현 48시간 이내에 기대 이득을 평가하고, 금기·약물 상호작용을 검토한 후 항바이러스제 사용 여부를 결정한다.
 - 저산소증, 호흡곤란, 의식 변화, 심한 탈수 또는 혈역학적 불안정이 있으면 입원 평가와 합병증 치료를 병행한다.
 
-- **48시간이 지나도 치료하는 경우:** 입원 환자, 중증·진행성 질환, 임신부 등 합병증 고위험군은 증상 시작 후 48시간 초과를 이유로 항바이러스제를 보류하지 않는다. 합병증 없는 성인 정상 신기능 환자의 oseltamivir는 75 mg 하루 2회 5일이며, 신기능 저하 시 감량한다. 입원·임신 환자에서는 oseltamivir를 우선하며, baloxavir 단독을 입원 중증 감염이나 임신의 표준 요법으로 사용하지 않는다. 중증·면역저하 환자의 연장은 바이러스 지속 및 임상 경과로 결정한다. [CDC 항바이러스 치료](https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html)
+- **48시간이 지나도 치료하는 경우:** 입원 환자, 중증·진행성 질환, 임신부 등 합병증 고위험군은 증상 시작 후 48시간 초과를 이유로 항바이러스제를 보류하지 않는다. 합병증 없는 성인 정상 신기능 환자의 oseltamivir는 75 mg 하루 2회 5일이며, 신기능 저하 시 감량한다. 입원·임신 환자에서는 oseltamivir를 우선하며, baloxavir 단독을 입원 중증 감염이나 임신의 표준 요법으로 사용하지 않는다. 중증·면역저하 환자의 연장은 바이러스 지속 및 임상 경과로 결정한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 바이러스성 폐렴 또는 이차 세균성 폐렴, 라이 증후군 (Reye syndrome) 등의 합병증이 발생할 수 있다.

@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC 응급피임 2024 | https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html", "질병관리청 국가건강정보포털 피임 | https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6538"]
 ---
 분과 : [[부인과]]
 
@@ -45,13 +46,12 @@ reviewed_at: "2026-07-30"
 - **추적 관찰**: 응급피임법 시행 후에도 생리가 1주일 이상 지연되거나 비정상적인 복통이 발생하면 임신 여부를 반드시 확인해야 함.
 - **상담 및 예방**: 응급피임약은 정기적인 피임법을 대체할 수 없음을 교육하고, 향후 적절한 장기 피임법에 대해 상담함.
 
-- **정규 호르몬 피임을 다시 시작하는 시점**: ulipristal 복용 후에는 최소 5일을 기다린 뒤 시작하고, 시작 후 7일 또는 다음 월경 중 빠른 시점까지 추가 피임한다. Levonorgestrel 후에는 즉시 시작할 수 있으나 7일 추가 피임한다. 응급피임 후 3주 내 소퇴성 출혈이 없으면 임신검사를 시행한다. [CDC 응급피임 2024](https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html)
+- **정규 호르몬 피임을 다시 시작하는 시점**: ulipristal 복용 후에는 최소 5일을 기다린 뒤 시작하고, 시작 후 7일 또는 다음 월경 중 빠른 시점까지 추가 피임한다. Levonorgestrel 후에는 즉시 시작할 수 있으나 7일 추가 피임한다. 응급피임 후 3주 내 소퇴성 출혈이 없으면 임신검사를 시행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 부작용은 경미, 두통, 오심, 구토, 부정출혈 등이 나타날 수 있음.
 - 생리 주기가 7일 이상 지연될 경우 임신 여부 확인 필요.
 
 출처 : StatPearls (Postcoital Contraception)
-- [질병관리청 국가건강정보포털 피임](https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6538) · [CDC 응급피임 실무 권고](https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

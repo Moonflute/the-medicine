@@ -17,8 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-17"
 guideline_year: "2016"
-sources:
-- 'ATA Guidelines for Hyperthyroidism and Other Causes of Thyrotoxicosis | https://www.thyroid.org/guidelines-hyperthyroidism-thyrotoxicosis/'
+sources: ["ATA Guidelines for Hyperthyroidism and Other Causes of Thyrotoxicosis | https://www.thyroid.org/guidelines-hyperthyroidism-thyrotoxicosis/"]
 disease_family: hyperthyroidism
 population: adult
 reviewed_at: "2026-07-30"
@@ -65,7 +64,7 @@ review_status: "guideline_enriched"
 - **항갑상샘제 안전성 평가**: 시작 전 CBC와 간기능을 확인한다. 발열 또는 인후통이 새로 발생하면 약을 중단하고 즉시 CBC로 무과립구증을 평가하며, 정기 CBC만으로 갑작스럽게 발생하는 무과립구증을 예방할 수는 없다.
 - **추적**: 치료 변경 후에는 유리 T4/T3와 임상 증상을 중심으로 재평가하며, TSH 회복은 늦을 수 있다.
 
-- **원인별 약제 분기**: Graves·독성 결절의 합성 증가에는 항갑상샘제가 작용하지만, 파괴성 갑상샘염의 일시적 중독기에는 효과가 없어 β 차단제 등 증상 치료를 적용한다. Graves의 methimazole 중단은 보통 12–18개월 치료 후 TSH·TRAb 정상 여부로 판단하며, 독성 결절은 약 중단 후 재발 가능성이 커 RAI·수술의 적합성을 평가한다. [ATA](https://www.thyroid.org/guidelines-hyperthyroidism-thyrotoxicosis/)
+- **원인별 약제 분기**: Graves·독성 결절의 합성 증가에는 항갑상샘제가 작용하지만, 파괴성 갑상샘염의 일시적 중독기에는 효과가 없어 β 차단제 등 증상 치료를 적용한다. Graves의 methimazole 중단은 보통 12–18개월 치료 후 TSH·TRAb 정상 여부로 판단하며, 독성 결절은 약 중단 후 재발 가능성이 커 RAI·수술의 적합성을 평가한다.
 
 ## 6. 예후 및 합병증
 - 적절한 치료가 이루어지지 않으면 갑상샘 폭풍(Thyroid storm) 등 치명적 합병증 발생 가능

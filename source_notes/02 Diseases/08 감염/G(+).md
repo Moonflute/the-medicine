@@ -22,9 +22,7 @@ group_members:
 clinical_priority: tier_1
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
-sources:
-- "IDSA·ESCMID 2026년 9월 S. aureus 균혈증 합의문 | https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/"
-- "IDSA 2014 피부·연조직 감염 지침 | https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/"
+sources: ["IDSA·ESCMID 2026년 9월 S. aureus 균혈증 합의문 | https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/", "IDSA 2014 피부·연조직 감염 지침 | https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/"]
 ---
 # G(+)
 
@@ -61,6 +59,3 @@ IDSA·ESCMID 2026 합의문은 S. aureus 균혈증을 단순히 complicated/unco
 - [[연조직염 (Cellulitis)]]
 
 ## 참고 가이드라인
-
-- [IDSA·ESCMID 2026년 9월 S. aureus 균혈증 합의문](https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/)
-- [IDSA 2014 피부·연조직 감염 지침](https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/)

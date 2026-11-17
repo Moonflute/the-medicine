@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["BSSH 드퀘르벵병 | https://www.bssh.ac.uk/patients/conditions/19/de_quervains_syndrome"]
 ---
 분과 : [[정형외과]]
 
@@ -48,7 +49,6 @@ reviewed_at: "2026-07-30"
 - 재발 방지를 위해 손목·엄지 과사용을 피하고 작업 자세 교정 및 스트레칭 교육 실시
 
 - 수술 전환은 **4–6주 경과 자체가 아니라**, 과사용 조절·엄지 부목·적절한 건초 내 스테로이드 주사에도 지속되는 통증과 일상 기능 제한으로 결정한다. 주사 후 호전했다가 재발한 경우 추가 주사와 감압 수술을 비교한다. 힘줄 내 주입은 피한다.
-- 근거: [BSSH 드퀘르벵병](https://www.bssh.ac.uk/patients/conditions/19/de_quervains_syndrome).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 보존적 치료로 호전됨.

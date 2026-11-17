@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG207 | https://www.nice.org.uk/guidance/ng207/chapter/recommendations", "ACOG 분만 관리 2024 | https://doi.org/10.1097/AOG.0000000000005447"]
 ---
 분과 : [[산과]]
 
@@ -24,7 +25,6 @@ reviewed_at: "2026-07-30"
 - **원인**: 임신 관련 합병증(고혈압, 당뇨 등), 태아 성장 제한, 양수 과소/과다증, 조기 양막 파열, 융모 양막염, 지연 임신 등.
 
 - **기전**: 자궁 경부의 숙화(ripening) 및 자궁 수축을 유도하여 분만 과정을 시작함.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -50,8 +50,8 @@ reviewed_at: "2026-07-30"
 * **금기 사항 확인**: 전치 태반, 제대 탈출, 과거 고전적 제왕절개술 기왕력 등 자연 분만이 위험한 경우 유도 분만을 시행하지 않는다.
 * **전원 및 후속 조치**: 유도 실패 시 제왕절개술로의 이행 가능성을 산모에게 충분히 설명하고, 분만 후 산후 출혈 및 감염 여부를 면밀히 관찰한다.
 
-- **Bishop 점수에 따른 방법**: ≤6이면 경부 숙화(적합한 prostaglandin 또는 풍선)를, >6이면 양막절개와 oxytocin을 고려한다. 이전 제왕절개 등 자궁 반흔에서는 만삭 misoprostol을 피하고 기계적 방법·개별 수술 위험을 검토한다. [NICE NG207](https://www.nice.org.uk/guidance/ng207/chapter/recommendations)
-- **실패 판단**: 산모·태아가 안정적이면 잠복기에서 파막 후 oxytocin을 최소 12–18시간 투여하기 전에 유도 실패를 성급히 선언하지 않는다. 진행 중 비정상 태아 상태·출혈 등 즉시 분만 적응증은 별개다. [ACOG 분만 관리 2024](https://doi.org/10.1097/AOG.0000000000005447)
+- **Bishop 점수에 따른 방법**: ≤6이면 경부 숙화(적합한 prostaglandin 또는 풍선)를, >6이면 양막절개와 oxytocin을 고려한다. 이전 제왕절개 등 자궁 반흔에서는 만삭 misoprostol을 피하고 기계적 방법·개별 수술 위험을 검토한다.
+- **실패 판단**: 산모·태아가 안정적이면 잠복기에서 파막 후 oxytocin을 최소 12–18시간 투여하기 전에 유도 실패를 성급히 선언하지 않는다. 진행 중 비정상 태아 상태·출혈 등 즉시 분만 적응증은 별개다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 자궁 과다 수축(tachysystole), 태아 심박수 이상, 산후 출혈, 융모 양막염, 제왕절개술로의 이행 가능성.

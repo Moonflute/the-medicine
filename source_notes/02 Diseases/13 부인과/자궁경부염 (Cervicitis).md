@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC cervicitis | https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm"]
 ---
 분과 : [[부인과]]
 
@@ -53,7 +54,7 @@ reviewed_at: "2026-07-30"
 - **합병증 예방**: 골반염(PID) 등 상행 감염으로의 진행 여부를 모니터링하고, 증상 지속 시 내성균 가능성을 고려하여 상급 기관 의뢰를 검토함.
 
 - **경험적 약제**: 비임신 환자의 기본 요법은 doxycycline 100 mg 하루 2회 7일이다. 임질 위험이 높거나 배제하지 못한 경우 지역 역학에 따라 임질 치료(ceftriaxone IM)를 추가한다. 임신 중 클라미디아는 azithromycin 1 g 단회 등 임신 요법을 적용한다.
-- **검사 결과를 기다릴 수 있는 경우**: 저위험이고 NAAT 검사·추적이 확실하면 결과를 확인한 뒤 표적 치료할 수 있다. 지속 증상은 재노출·복약 누락, M. genitalium, 비감염성 경부 병변을 재평가하고 항생제를 무조건 연장하지 않는다. 파트너 치료와 3개월 재검은 확인/의심된 클라미디아·임질·트리코모나스에 맞춰 적용한다. [CDC cervicitis](https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm)
+- **검사 결과를 기다릴 수 있는 경우**: 저위험이고 NAAT 검사·추적이 확실하면 결과를 확인한 뒤 표적 치료할 수 있다. 지속 증상은 재노출·복약 누락, M. genitalium, 비감염성 경부 병변을 재평가하고 항생제를 무조건 연장하지 않는다. 파트너 치료와 3개월 재검은 확인/의심된 클라미디아·임질·트리코모나스에 맞춰 적용한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 골반염(PID), 자궁내막염, 불임, 만성 골반통.

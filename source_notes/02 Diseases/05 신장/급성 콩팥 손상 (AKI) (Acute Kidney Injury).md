@@ -15,7 +15,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["Korean Society of Nephrology 2025 Evidence-Based Clinical Practice Guideline for Continuous Kidney Replacement Therapy | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10800000/", "KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury (AKI) and Acute Kidney Disease (AKD) | https://kdigo.org/guidelines/aki-akd/"]
+sources: ["Korean Society of Nephrology 2025 Evidence-Based Clinical Practice Guideline for Continuous Kidney Replacement Therapy | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10800000/", "KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury (AKI) and Acute Kidney Disease (AKD) | https://kdigo.org/guidelines/aki-akd/", "KDIGO 2025 conference conclusions | https://kdigo.org/wp-content/uploads/2025/12/KDIGO-AKI-AKD-Guideline-conference-conclusions.pdf"]
 
 content_updated_at: "2026-07-16"
 ---
@@ -86,4 +86,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [KDIGO AKI/AKD guideline](https://kdigo.org/guidelines/aki-akd/) 및 [KDIGO 2025 conference conclusions](https://kdigo.org/wp-content/uploads/2025/12/KDIGO-AKI-AKD-Guideline-conference-conclusions.pdf)를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. KDIGO AKI/AKD guideline 및 KDIGO 2025 conference conclusions를 대조. 2026-09-14 기존 목차 내 보완.

@@ -14,9 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: tier_1
 content_updated_at: '2026-07-15'
 guideline_year: '2024'
-sources:
-- 'KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease | https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf'
-- 'KDIGO 2024 CKD Guideline Executive Summary | https://kdigo.org/wp-content/uploads/2017/02/KDIGO-2024-CKD-Guideline-Executive-Summary.pdf'
+sources: ["KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease | https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf", "KDIGO 2024 CKD Guideline Executive Summary | https://kdigo.org/wp-content/uploads/2017/02/KDIGO-2024-CKD-Guideline-Executive-Summary.pdf"]
 disease_family: ckd
 population: adult
 ---
@@ -72,4 +70,4 @@ population: adult
 출처: KDIGO, *2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease*; KDIGO 2024 Executive Summary.
 
 
-보완 출처: 삼성서울병원 메뉴얼. [KDIGO 2024 CKD guideline](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. KDIGO 2024 CKD guideline를 대조. 2026-09-14 기존 목차 내 보완.

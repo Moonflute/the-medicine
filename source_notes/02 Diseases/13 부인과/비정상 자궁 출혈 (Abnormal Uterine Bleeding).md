@@ -16,7 +16,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Visually Directed Hysteroscopic Biopsy in the Evaluation of Abnormal Uterine Bleeding and Postmenopausal Bleeding: A Joint Society Practice Guideline. | https://pubmed.ncbi.nlm.nih.gov/42336133/"]
+sources: ["Visually Directed Hysteroscopic Biopsy in the Evaluation of Abnormal Uterine Bleeding and Postmenopausal Bleeding: A Joint Society Practice Guideline. | https://pubmed.ncbi.nlm.nih.gov/42336133/", "NICE NG88 | https://www.nice.org.uk/guidance/ng88/chapter/recommendations"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -50,7 +50,7 @@ content_updated_at: "2026-11-18"
 - **외과적**: 내과적 치료 실패 시 또는 구조적 병변(폴립, 점막하 근종 등) 확인 시 제거술 시행. 내막 조직 평가가 필요한 경우 자궁경 유도하 생검 및 병변 제거를 우선 고려
 
 - **우선순위와 약제 선택**: 혈역학 불안정·진행성 대량 출혈은 정맥 확보·소생과 긴급 지혈 평가가 우선이다. 안정적인 월경과다에서 병변 없음, 자궁강 왜곡 없는 <3 cm 근종 또는 샘근육증이면 LNG-IUS를 1차로 고려한다. 부적합하거나 원하지 않으면 tranexamic acid·NSAID 또는 복합피임제/경구 progestin을 선택한다.
-- **치료 실패·시술 전환**: LNG-IUS는 초기 불규칙 출혈을 설명하고 보통 6주기의 효과를 평가하되 심한 지속 출혈·빈혈은 기다리지 않는다. ≥3 cm 근종, 점막하 병변, 약제 불응은 전문 치료를 검토한다. 임신을 원하면 내막소작·자궁절제를 선택하지 않는다. [NICE NG88](https://www.nice.org.uk/guidance/ng88/chapter/recommendations)
+- **치료 실패·시술 전환**: LNG-IUS는 초기 불규칙 출혈을 설명하고 보통 6주기의 효과를 평가하되 심한 지속 출혈·빈혈은 기다리지 않는다. ≥3 cm 근종, 점막하 병변, 약제 불응은 전문 치료를 검토한다. 임신을 원하면 내막소작·자궁절제를 선택하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 기저 원인에 따라 예후가 다름

@@ -19,8 +19,7 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
-sources:
-- "AAP — Health Supervision for Children and Adolescents With Down Syndrome (2022) | https://publications.aap.org/pediatrics/article/149/5/e2022057010/186778/Health-Supervision-for-Children-and-Adolescents"
+sources: ["AAP — Health Supervision for Children and Adolescents With Down Syndrome (2022) | https://publications.aap.org/pediatrics/article/149/5/e2022057010/186778/Health-Supervision-for-Children-and-Adolescents"]
 ---
 분과 : [[소아청소년과]]
 
@@ -68,7 +67,4 @@ sources:
 TAM이 확인되면 자연 호전 가능성만 보고 종료하지 않고 소아혈액 전문 평가와 추적을 연결한다. 전좌형은 부모 핵형 검사와 유전상담을 통해 재발 위험을 개별적으로 설명한다.
 
 
-
 ## 참고 가이드라인
-
-- [AAP — Health Supervision for Children and Adolescents With Down Syndrome (2022)](https://publications.aap.org/pediatrics/article/149/5/e2022057010/186778/Health-Supervision-for-Children-and-Adolescents)

@@ -20,7 +20,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["ACG Clinical Guideline: Management of Crohn’s Disease in Adults, 2025 | https://gi.org/journals-publications/ebgi/zhai_dalal_sep2025/", "AGA Pharmacological Management of Moderate-to-Severe Crohn’s Disease, 2025 | https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/"]
+sources: ["ACG Clinical Guideline: Management of Crohn’s Disease in Adults, 2025 | https://gi.org/journals-publications/ebgi/zhai_dalal_sep2025/", "AGA Pharmacological Management of Moderate-to-Severe Crohn’s Disease, 2025 | https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/", "ECCO 2024 | https://doi.org/10.1093/ecco-jcc/jjae089", "Montreal 분류 합의 | https://pmc.ncbi.nlm.nih.gov/articles/1856208/", "ECCO 조직학 정의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10896637/", "ECCO 진단 지침 | https://doi.org/10.1093/ecco-jcc/jjy113", "ECCO 진단·모니터링 2025 | https://academic.oup.com/ecco-jcc/article/19/7/jjaf106/8219802", "ECCO 진단·영상 지침 | https://academic.oup.com/ecco-jcc/article/13/2/144/5078195", "ECCO 장외 증상 지침 2024 | https://academic.oup.com/ecco-jcc/article/18/1/1/7205776", "CPIC TPMT/NUDT15 2025 개정·2026 발표 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12997511/", "용량·감시 상세 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13218589/", "AGA IBD 영양요법 2024 | https://gastro.org/clinical-guidance/diet-and-nutritional-therapies-in-patients-with-ibd/", "ACG UC 2025 | https://gi.org/journals-publications/ebgi/alkazzi_aug2025/", "Vedolizumab 허가정보 | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6e94621c-1a95-4af9-98d1-52b9e6f1949c", "ECCO 예후 예측 합의문 | https://academic.oup.com/ecco-jcc/article/10/12/1385/2707011", "AGA 입원 IBD 관리 2026 | https://www.sciencedirect.com/science/article/pii/S0016508525059864", "AGA IBD 이형성 감시 지침 | https://gastro.org/clinical-guidance/endoscopic-surveillance-and-management-of-colorectal-dysplasia-in-inflammatory-bowel-diseases-ibd/", "ASGE IBD 내시경 합의문 2025 | https://www.sciencedirect.com/science/article/abs/pii/S0016510724034722", "BSG 대장 감시 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13018778/", "ECCO IBD 악성종양 지침 2023 | https://academic.oup.com/ecco-jcc/article/17/6/827/6931718", "임상·내시경·조직 감별 연구 | https://pubmed.ncbi.nlm.nih.gov/20087333/", "통합 감별 연구 | https://pmc.ncbi.nlm.nih.gov/articles/PMC4694248/"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -94,7 +94,7 @@ content_updated_at: "2026-11-17"
 - 보조 요법: 영양 상태 최적화, 혈전 예방(thromboprophylaxis), 지속적인 모니터링.
 - 수술: 약물 치료 실패 또는 합병증 발생 시 조기 외과적 평가 시행.
 
-- **협착·농양·누공의 전환 기준**: 짧은(<5 cm) 접근 가능한 협착은 깊은 궤양·농양·악성 의심이 없고 시술 전문성이 있으면 내시경 풍선확장을 고려한다. 긴/다발성 또는 지속 폐쇄성 협착, 천공·악성 의심은 수술 평가 대상이다. 농양은 항생제와 가능한 경피 배액으로 패혈증을 먼저 조절하고, 잔존 협착·누공·재발/불응에 따라 계획 수술을 평가한다. 배액되지 않은 농양에 면역억제만 강화하지 않는다. [ECCO 2024](https://doi.org/10.1093/ecco-jcc/jjae089)
+- **협착·농양·누공의 전환 기준**: 짧은(<5 cm) 접근 가능한 협착은 깊은 궤양·농양·악성 의심이 없고 시술 전문성이 있으면 내시경 풍선확장을 고려한다. 긴/다발성 또는 지속 폐쇄성 협착, 천공·악성 의심은 수술 평가 대상이다. 농양은 항생제와 가능한 경피 배액으로 패혈증을 먼저 조절하고, 잔존 협착·누공·재발/불응에 따라 계획 수술을 평가한다. 배액되지 않은 농양에 면역억제만 강화하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 항문주위 크론병은 항문암, 특히 누공 관련 선암 위험이 증가한다. 새로 생기거나 악화하는 통증 등 항문 증상의 변화는 단순 염증 재발로만 판단하지 않는다. 의심 병변을 자세히 평가하고 필요하면 마취하 검사·생검 및 누공 소파 검사를 시행한다.
@@ -120,24 +120,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [Montreal 분류 합의](https://pmc.ncbi.nlm.nih.gov/articles/1856208/)
-- [ECCO 조직학 정의](https://pmc.ncbi.nlm.nih.gov/articles/PMC10896637/)
-- [ACG 크론병 2025](https://gi.org/journals-publications/ebgi/zhai_dalal_sep2025/)
-- [AGA 크론병 약물치료 2025](https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/)
-- [ECCO 진단 지침](https://doi.org/10.1093/ecco-jcc/jjy113)
-- [ECCO 진단·모니터링 2025](https://academic.oup.com/ecco-jcc/article/19/7/jjaf106/8219802)
-- [ECCO 진단·영상 지침](https://academic.oup.com/ecco-jcc/article/13/2/144/5078195)
-- [ECCO 장외 증상 지침 2024](https://academic.oup.com/ecco-jcc/article/18/1/1/7205776)
-- [CPIC TPMT/NUDT15 2025 개정·2026 발표](https://pmc.ncbi.nlm.nih.gov/articles/PMC12997511/)
-- [용량·감시 상세](https://pmc.ncbi.nlm.nih.gov/articles/PMC13218589/)
-- [AGA IBD 영양요법 2024](https://gastro.org/clinical-guidance/diet-and-nutritional-therapies-in-patients-with-ibd/)
-- [ACG UC 2025](https://gi.org/journals-publications/ebgi/alkazzi_aug2025/)
-- [Vedolizumab 허가정보](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6e94621c-1a95-4af9-98d1-52b9e6f1949c)
-- [ECCO 예후 예측 합의문](https://academic.oup.com/ecco-jcc/article/10/12/1385/2707011)
-- [AGA 입원 IBD 관리 2026](https://www.sciencedirect.com/science/article/pii/S0016508525059864)
-- [AGA IBD 이형성 감시 지침](https://gastro.org/clinical-guidance/endoscopic-surveillance-and-management-of-colorectal-dysplasia-in-inflammatory-bowel-diseases-ibd/)
-- [ASGE IBD 내시경 합의문 2025](https://www.sciencedirect.com/science/article/abs/pii/S0016510724034722)
-- [BSG 대장 감시 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC13018778/)
-- [ECCO IBD 악성종양 지침 2023](https://academic.oup.com/ecco-jcc/article/17/6/827/6931718)
-- [임상·내시경·조직 감별 연구](https://pubmed.ncbi.nlm.nih.gov/20087333/)
-- [통합 감별 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC4694248/)

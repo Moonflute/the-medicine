@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC Clinician Brief: Hemorrhagic Fever with Renal Syndrome | https://www.cdc.gov/hantavirus/hcp/clinical-overview/hfrs.html"]
 ---
 분과 : [[감염]]
 
@@ -69,4 +70,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [CDC Clinician Brief: Hemorrhagic Fever with Renal Syndrome](https://www.cdc.gov/hantavirus/hcp/clinical-overview/hfrs.html)를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. CDC Clinician Brief: Hemorrhagic Fever with Renal Syndrome를 대조. 2026-09-14 기존 목차 내 보완.

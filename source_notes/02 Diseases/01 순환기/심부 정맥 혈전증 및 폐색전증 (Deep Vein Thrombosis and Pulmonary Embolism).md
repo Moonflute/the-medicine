@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG158 | https://www.nice.org.uk/guidance/ng158/chapter/recommendations"]
 ---
 분과 : [[외과]]
 
@@ -59,7 +60,7 @@ reviewed_at: "2026-07-30"
 - **치료기간 재평가**: 항응고 연장 여부는 유발·비유발 VTE, 재발 위험, 지속 위험인자와 출혈 위험을 주기적으로 다시 평가해 결정한다.
 - **추적 관찰 및 예방**: 항응고 치료 중 출혈 합병증을 모니터링하고, 퇴원 후 위험 요인 평가를 통해 재발 방지 및 장기 관리 계획 수립
 
-- **항응고 기간·약제**: 근위부 DVT/PE는 최소 3개월 치료 후 유발요인 소실·재발·출혈 위험으로 종료 또는 연장을 결정한다. 임신은 LMWH가 기본이며, 중증 신부전·불안정/중재 예정 환자는 UFH 등 조절 가능한 약제를 검토한다. 삼중 양성 항인지질증후군은 DOAC 대신 VKA를 우선한다. [NICE NG158](https://www.nice.org.uk/guidance/ng158/chapter/recommendations)
+- **항응고 기간·약제**: 근위부 DVT/PE는 최소 3개월 치료 후 유발요인 소실·재발·출혈 위험으로 종료 또는 연장을 결정한다. 임신은 LMWH가 기본이며, 중증 신부전·불안정/중재 예정 환자는 UFH 등 조절 가능한 약제를 검토한다. 삼중 양성 항인지질증후군은 DOAC 대신 VKA를 우선한다.
 
 ## 6. 예후 및 합병증
 - 조기 진단 및 치료 시 사망률을 유의하게 감소시킬 수 있음

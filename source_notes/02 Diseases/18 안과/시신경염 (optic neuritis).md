@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ONTT 결과 | https://jamanetwork.com/journals/jamaophthalmology/fullarticle/420682", "NEMOS 2023 | https://doi.org/10.1007/s00415-023-11910-z"]
 ---
 분과 : [[안과]]
 
@@ -41,8 +42,8 @@ reviewed_at: "2026-07-30"
 
 
 ## 5. 치료
-- **전형적 탈수초성 시신경염**: 고용량 methylprednisolone은 회복을 앞당기지만 장기 시력 개선을 보장하지 않는다. 중증·양안·회복 필요·기저질환을 고려하여 관찰 또는 고용량 치료를 결정한다. 통상 용량 경구 prednisone 단독은 재발 증가 때문에 피한다. [ONTT 결과](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/420682)
-- **NMOSD 등 중증 비전형형**: AQP4/MOG 관련 가능성, 심한 시력 저하·양안 침범은 신속한 고용량 IV steroid(예: methylprednisolone 1 g/일 3–5일)를 시행한다. 초기 반응이 불충분하거나 중증이면 혈장교환을 조기에 추가하며 모든 환자에서 수주를 기다리지 않는다. 원인에 맞춘 장기 재발 예방 치료를 신경과와 결정한다. [NEMOS 2023](https://doi.org/10.1007/s00415-023-11910-z)
+- **전형적 탈수초성 시신경염**: 고용량 methylprednisolone은 회복을 앞당기지만 장기 시력 개선을 보장하지 않는다. 중증·양안·회복 필요·기저질환을 고려하여 관찰 또는 고용량 치료를 결정한다. 통상 용량 경구 prednisone 단독은 재발 증가 때문에 피한다.
+- **NMOSD 등 중증 비전형형**: AQP4/MOG 관련 가능성, 심한 시력 저하·양안 침범은 신속한 고용량 IV steroid(예: methylprednisolone 1 g/일 3–5일)를 시행한다. 초기 반응이 불충분하거나 중증이면 혈장교환을 조기에 추가하며 모든 환자에서 수주를 기다리지 않는다. 원인에 맞춘 장기 재발 예방 치료를 신경과와 결정한다.
 - 감염성 원인은 병원체 치료를 우선하고 시력·색각·시야·혈당·감염 위험을 추적한다.
 
 ## 6. 예후 및 합병증 (Prognosis)

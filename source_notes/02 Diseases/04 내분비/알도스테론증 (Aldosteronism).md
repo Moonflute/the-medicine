@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Endocrine Society 2025 | https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism"]
 ---
 분과 : [[내분비]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - **일차성의 수술 대상**: CT에 종양이 있다는 사실만으로 절제하지 않는다. 수술을 원하고 감당 가능한 환자는 통상 CT와 부신정맥채혈(AVS)로 일측성 알도스테론 분비를 확인한 뒤 해당 부신을 절제한다. 젊고 뚜렷한 생화학적·영상 소견이 일치하는 일부는 전문팀에서 AVS 생략을 검토한다.
 - **약물 대상**: 양측성, 편측성이 불명확한 경우, 수술 부적합 또는 비선호 시 spironolactone을 우선 고려한다. 여성형유방·성기능 부작용이면 eplerenone 등으로 변경한다. K·신기능·혈압을 추적하고, 혈압이 높고 renin 억제가 지속되면 내약 범위에서 MRA를 증량한다. 혈압이 조절된 상태에서 renin만을 정상화하려 무조건 증량하지 않는다.
-- **이차성**: 심부전·간경변·신혈관질환 등 원인을 치료하며, MRA 사용 여부와 중재술은 각 원인 질환의 적응증을 따른다. [Endocrine Society 2025](https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism)
+- **이차성**: 심부전·간경변·신혈관질환 등 원인을 치료하며, MRA 사용 여부와 중재술은 각 원인 질환의 적응증을 따른다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 혈압 조절 및 전해질 불균형 교정이 가능하나, 장기적인 고혈압 관리가 중요하다.

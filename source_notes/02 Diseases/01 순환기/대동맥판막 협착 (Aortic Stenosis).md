@@ -14,7 +14,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["2025 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/"]
+sources: ["2025 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/", "ESC 2025 | https://doi.org/10.1093/eurheartj/ehaf194"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -55,7 +55,7 @@ content_updated_at: "2026-11-17"
 - **중재 결정**: SAVR와 TAVI는 모두 표준 선택지다. TAVI는 적합한 삼첨판 AS에서 대체로 70세 이상에 권고되며, 저수술위험의 70세 미만에서는 SAVR를 우선 고려한다. 그 밖의 환자는 기대수명, 재중재 가능성, 혈관·판막 해부학, 동반 관상동맥질환, 수술위험 및 환자 선호를 Heart Team이 함께 판단한다.
 - **추적**: 무증상 중증 AS는 적어도 6개월 간격의 심초음파와 증상 변화를 추적하고, 새 증상이나 좌심실 기능 변화가 있으면 중재 필요성을 다시 평가한다.
 
-- **중증도와 무증상 중재**: 고압력차 중증 AS는 보통 Vmax ≥4.0 m/s, 평균압력차 ≥40 mmHg, AVA ≤1.0 cm²를 통합해 확인한다. 무증상이어도 다른 원인 없는 LVEF <50%는 중재 대상이며, 저위험 환자의 조기 중재는 운동검사, 매우 심한 협착, 빠른 Vmax 증가, 반복 BNP 상승 등을 종합한다. 저유량·저압력차에서는 dobutamine/CT 석회화 평가로 진성 중증을 확인한 뒤 결정한다. [ESC 2025](https://doi.org/10.1093/eurheartj/ehaf194)
+- **중증도와 무증상 중재**: 고압력차 중증 AS는 보통 Vmax ≥4.0 m/s, 평균압력차 ≥40 mmHg, AVA ≤1.0 cm²를 통합해 확인한다. 무증상이어도 다른 원인 없는 LVEF <50%는 중재 대상이며, 저위험 환자의 조기 중재는 운동검사, 매우 심한 협착, 빠른 Vmax 증가, 반복 BNP 상승 등을 종합한다. 저유량·저압력차에서는 dobutamine/CT 석회화 평가로 진성 중증을 확인한 뒤 결정한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 증상 발현 후 치료하지 않으면 심부전, 부정맥, 급사 위험이 매우 높다.

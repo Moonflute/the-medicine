@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["국내 H. pylori 진단·치료 지침 2025 개정판, 2026 발표 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13359576/", "ACG 2024 제균 확인 | https://gi.org/journals-publications/ebgi/schoenfeld_sep2024/"]
 ---
 분과 : [[소화기]]
 
@@ -28,7 +29,6 @@ reviewed_at: "2026-07-30"
 - **원인**: 헬리코박터 파일로리 (H.pylori) 감염
 
 - **기전**: 위산으로부터 자신을 보호하기 위해 우레아제(urease)를 분비하여 암모니아를 생성, 위 점막을 중화하고 점막층을 파고들어 염증 및 위축성 위염, 소화성 궤양, 위암 등을 유발함.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -77,11 +77,10 @@ reviewed_at: "2026-07-30"
 - 장기 감염 시 위축성 위염, 장상피화생을 거쳐 위암 발생 위험 증가.
 
 
-
 출처 : Merck Manual Professional
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [국내 H. pylori 진단·치료 지침 2025 개정판, 2026 발표](https://pmc.ncbi.nlm.nih.gov/articles/PMC13359576/), [ACG 2024 제균 확인](https://gi.org/journals-publications/ebgi/schoenfeld_sep2024/). 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. 국내 H. pylori 진단·치료 지침 2025 개정판, 2026 발표, ACG 2024 제균 확인. 2026-09-14 기존 목차 내 보완.

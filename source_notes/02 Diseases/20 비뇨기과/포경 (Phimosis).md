@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EAU | https://uroweb.org/guidelines/paediatric-urology/chapter/phimosis-and-other-abnormalities-of-the-penile-skin"]
 ---
 분과 : [[비뇨기과]]
 
@@ -40,7 +41,7 @@ reviewed_at: "2026-07-30"
 - **무증상 생리적 포경·유착은 관찰**하며 억지로 젖히지 않는다. 단순 배뇨 시 풍선모양 팽창이나 특정 나이만으로 수술을 결정하지 않는다.
 - 증상성 포경은 국소 corticosteroid 0.05~0.1%를 좁은 고리 부위에 하루 2회 **4~8주** 적용하는 보존 치료를 고려한다. 부드럽게 젖힌 뒤 반드시 포피를 원위치한다.
 - **반복 귀두포피염·치료저항성 증상성 포경·BXO/흉터성 병변**은 수술을 검토한다. 감돈 포경은 별도의 응급 정복 대상이다.
-- 요도하열 등에서 포피가 재건에 필요할 수 있으므로 단순 포경수술 전 기형 여부를 확인한다. [EAU](https://uroweb.org/guidelines/paediatric-urology/chapter/phimosis-and-other-abnormalities-of-the-penile-skin)
+- 요도하열 등에서 포피가 재건에 필요할 수 있으므로 단순 포경수술 전 기형 여부를 확인한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 생리적 포경은 대부분 성인이 되기 전 자연 치유됨

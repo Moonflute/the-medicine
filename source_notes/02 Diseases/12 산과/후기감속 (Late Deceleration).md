@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACOG 태아심박 지침 2025 | https://obgyn.wustl.edu/app/uploads/2025/09/acog_clinical_practice_guideline_no_.22.pdf"]
 ---
 분과 : [[산과]]
 
@@ -38,7 +39,7 @@ reviewed_at: "2026-07-30"
 
 - **자궁내 소생**: 체위 변경, oxytocin 감량/중단, 저혈압·과다수축 교정을 시행한다. 산모 저산소증이 없는 경우 산소를 일률 투여하지 않으며 수액도 저혈량/저혈압 여부에 맞춘다.
 - **태아 상태 재평가**: 교정 조치 후 태아 심박동 양상(변이성, 가속 등)의 회복 여부를 면밀히 감시.
-- **분만 결정**: 변이도 소실을 동반한 반복 후기감속 등 Category III가 초기 교정에도 지속되면 신속히 분만한다. Category II는 변이도·가속·감속 정도·회복과 분만 진행을 함께 평가한다. 질식 기구분만이 즉시 안전하게 가능하면 해당 방법도 검토하며, 반복 후기감속만으로 모든 환자를 자동 제왕절개하지 않는다. [ACOG 태아심박 지침 2025](https://obgyn.wustl.edu/app/uploads/2025/09/acog_clinical_practice_guideline_no_.22.pdf)
+- **분만 결정**: 변이도 소실을 동반한 반복 후기감속 등 Category III가 초기 교정에도 지속되면 신속히 분만한다. Category II는 변이도·가속·감속 정도·회복과 분만 진행을 함께 평가한다. 질식 기구분만이 즉시 안전하게 가능하면 해당 방법도 검토하며, 반복 후기감속만으로 모든 환자를 자동 제왕절개하지 않는다.
 - **원인 교정**: 산모 저혈압 등 기저 원인 확인 및 교정, 필요 시 자궁이완제 투여 고려.
 
 ## 6. 예후 및 합병증 (Prognosis)

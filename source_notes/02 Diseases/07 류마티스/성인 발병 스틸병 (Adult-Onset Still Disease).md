@@ -11,6 +11,7 @@ CC:
 - 관절 통증/붓기
 - 인후통
 preprocessing_required: x
+sources: ["EULAR/PReS Still disease recommendations 2024 | https://pmc.ncbi.nlm.nih.gov/articles/11672000/"]
 ---
 분과 : [[류마티스]]
 
@@ -50,4 +51,3 @@ preprocessing_required: x
 - 주요 이환·사망 원인은 ARDS, 간부전, 간질지속상태, DIC, TTP이다.
 
 출처 : 삼성서울병원 메뉴얼
-- [EULAR/PReS Still disease recommendations 2024](https://pmc.ncbi.nlm.nih.gov/articles/11672000/).

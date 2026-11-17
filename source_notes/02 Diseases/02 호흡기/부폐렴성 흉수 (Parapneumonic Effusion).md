@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["BTS 2023 | https://thorax.bmj.com/content/78/Suppl_3/s1", "IDSA/ATS HAP/VAP 진료지침 | https://www.idsociety.org/practice-guideline/hap_vap/", "IDSA 성인 CAP 진료지침 | https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults"]
 ---
 분과 : [[호흡기]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-10-08"
 - 배액 뒤에도 잔류 감염성 흉막강·패혈증·증상이 지속되면 초음파 또는 CT로 재평가하고, 적절한 환자에서는 흉강내 보조요법이나 흉부외과 중재를 다학제적으로 검토한다.
 - 출혈, 공기누출, 배액관 문제, 흉막 유착과 농흉 진행을 감시한다.
 
-- **배액 결정값**: 비농성 흉수도 pH ≤7.2이면 안전하게 접근 가능한 흉수량이 있을 때 흉관 배액한다. pH >7.2–<7.4이면 LDH >900 IU/L와 지속 발열·많은 흉수·낮은 glucose·격벽 등을 함께 보고 배액을 검토한다. pH ≥7.4는 즉시 배액 필요성이 낮지만 임상 경과를 재평가한다. 초기 소구경 흉관 후 잔류 감염성 흉수가 있으면 출혈 위험을 평가하여 tPA＋DNase 병합 또는 수술을 검토한다. [BTS 2023](https://thorax.bmj.com/content/78/Suppl_3/s1)
+- **배액 결정값**: 비농성 흉수도 pH ≤7.2이면 안전하게 접근 가능한 흉수량이 있을 때 흉관 배액한다. pH >7.2–<7.4이면 LDH >900 IU/L와 지속 발열·많은 흉수·낮은 glucose·격벽 등을 함께 보고 배액을 검토한다. pH ≥7.4는 즉시 배액 필요성이 낮지만 임상 경과를 재평가한다. 초기 소구경 흉관 후 잔류 감염성 흉수가 있으면 출혈 위험을 평가하여 tPA＋DNase 병합 또는 수술을 검토한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 지연될 경우 흉막 유착, 농흉(empyema)으로 진행될 수 있음.
@@ -58,6 +59,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [IDSA/ATS HAP/VAP 진료지침](https://www.idsociety.org/practice-guideline/hap_vap/)
-- [BTS Pleural Disease Guideline 2023](https://thorax.bmj.com/content/78/Suppl_3/s1)
-- [IDSA 성인 CAP 진료지침](https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults)

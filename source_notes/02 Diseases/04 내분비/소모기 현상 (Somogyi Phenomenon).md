@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ADA Standards of Care 2026: Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises | https://doi.org/10.2337/dc26-s006"]
 ---
 분과 : [[내분비]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-07-30"
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 인슐린 용량 조절을 통해 예방 가능하다.
-- [ADA Standards of Care 2026: Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises](https://doi.org/10.2337/dc26-s006): CGM을 통한 저혈당 확인과 개별화된 치료 평가 원칙을 적용한다.
+- ADA Standards of Care 2026: Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: CGM을 통한 저혈당 확인과 개별화된 치료 평가 원칙을 적용한다.
 
 출처 : StatPearls (Somogyi Phenomenon)
 Last updated :

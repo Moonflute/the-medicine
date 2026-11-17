@@ -17,11 +17,7 @@ CC:
 clinical_priority: tier_1
 content_updated_at: "2026-11-18"
 guideline_year: "2026"
-sources:
-- "대한고혈압학회 제6판 지침 공식 하이라이트, 2026 | https://doi.org/10.5646/ch.2026.32.e31"
-- "대한고혈압학회 제6판 진료지침, 2026(공식 수정본 배포 페이지) | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read"
-- "ACC/AHA 고혈압 지침, 2025: 공식 핵심 권고 | https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know"
-- "Endocrine Society 일차성 알도스테론증 지침, 2025 | https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2"
+sources: ["대한고혈압학회 제6판 지침 공식 하이라이트, 2026 | https://doi.org/10.5646/ch.2026.32.e31", "대한고혈압학회 제6판 진료지침, 2026(공식 수정본 배포 페이지) | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read", "ACC/AHA 고혈압 지침, 2025: 공식 핵심 권고 | https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know", "Endocrine Society 일차성 알도스테론증 지침, 2025 | https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2"]
 disease_family: hypertension
 population: adult
 reviewed_at: "2026-07-16"
@@ -63,7 +59,6 @@ guideline_review_status: primary_source_reviewed
 
 - **약물 도입 분기**: 진료실 혈압 ≥140/90 mmHg를 반복 확인하되 가정/활동 혈압과 백의효과를 함께 평가한다. 1기 저위험 환자는 생활요법 반응을 보며 약물 도입을 결정하고, 더 높은 혈압·장기손상·심혈관 고위험에서는 약물치료를 지연하지 않는다. 2026 대한고혈압학회는 **고혈압 전단계라도 심혈관질환 동반 또는 고위험**이면 약물치료를 고려할 수 있도록 하였으나 전단계 모두의 일괄 투약은 아니다.
 - 3개 계열(이뇨제 포함)의 적정 용량에도 조절되지 않으면 순응도·가정 혈압·이차성 원인 확인 후 추가 약제를 정한다. 고령이라도 나이 하나로 목표를 완화하지 않으며, **85세 이상·허약·예상 생존 <3년·증상성 기립성 저혈압**에서는 내약성과 목표를 개별화한다.
-- 근거: [대한고혈압학회 2026 개정 요약](https://doi.org/10.5646/ch.2026.32.e31).
 
 ## 6. 예후 및 합병증
 - 조절되지 않는 고혈압은 뇌졸중·인지저하, 관상동맥질환·심부전, 말초혈관질환, 만성콩팥병, 고혈압망막병증 위험을 높인다.
@@ -85,8 +80,3 @@ guideline_review_status: primary_source_reviewed
 - [[고혈압성 위기 (Hypertensive Crisis)]]
 
 ## 참고 가이드라인
-
-- [대한고혈압학회 제6판 지침 공식 하이라이트, 2026](https://doi.org/10.5646/ch.2026.32.e31)
-- [대한고혈압학회 제6판 진료지침, 2026(공식 수정본 배포 페이지)](https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read)
-- [ACC/AHA 고혈압 지침, 2025: 공식 핵심 권고](https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know)
-- [Endocrine Society 일차성 알도스테론증 지침, 2025](https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2)

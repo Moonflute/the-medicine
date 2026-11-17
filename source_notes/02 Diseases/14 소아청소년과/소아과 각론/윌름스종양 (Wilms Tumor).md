@@ -22,6 +22,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NCI PDQ | https://www.cancer.gov/types/kidney/hp/wilms-treatment-pdq", "국가암정보센터 윌름스종양 치료 | https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4733&menu_seq=4749"]
 ---
 분과 : [[소아청소년과]]
 
@@ -52,7 +53,7 @@ reviewed_at: "2026-07-30"
 - **장기 추적 관찰**: 치료 후 항암제 독성(심장, 신경계 등) 및 이차 악성 종양 발생 여부를 정기적으로 모니터링함.
 
 - **항암·방사선 분기(COG 예)**: favorable histology의 I–II기는 보통 vincristine+ dactinomycin, III기는 doxorubicin과 국소 방사선을 추가하는 경로를 사용한다. IV기는 전이 부위·폐 반응·분자 위험에 맞춰 강화하며 anaplasia·복합 LOH 1p/16q 등은 별도 고위험 경로를 적용한다. 모든 환자에게 같은 항암/방사선을 병행하는 것은 아니다.
-- **수술만 가능한 매우 저위험군**: 진단 시 **<2세, I기 favorable histology, 종양 무게 <550 g**이고 적절한 병기 결정이 이뤄진 일부 환자는 COG 프로토콜에서 항암 없이 관찰할 수 있다. 종양 무게와 나이만 보고 병리·유전 위험·림프절 평가를 생략하지 않는다. 양측 종양·단일 신장·특정 predisposition에서는 신보존을 위해 선행 항암과 부분절제 전략을 우선 검토한다. [NCI PDQ](https://www.cancer.gov/types/kidney/hp/wilms-treatment-pdq)
+- **수술만 가능한 매우 저위험군**: 진단 시 **<2세, I기 favorable histology, 종양 무게 <550 g**이고 적절한 병기 결정이 이뤄진 일부 환자는 COG 프로토콜에서 항암 없이 관찰할 수 있다. 종양 무게와 나이만 보고 병리·유전 위험·림프절 평가를 생략하지 않는다. 양측 종양·단일 신장·특정 predisposition에서는 신보존을 위해 선행 항암과 부분절제 전략을 우선 검토한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -60,6 +61,5 @@ reviewed_at: "2026-07-30"
   불량한 조직형이나 1p, 16q 결손 등이 있을 경우 예후가 나쁨.
 - **합병증**: 치료 후 이차 악성 종양 발생 위험, 방사선 치료에 따른 골다공증 및 장기 기능 저하, 항암제 독성(심장, 청력, 신경병증 등)에 대한 추적 관찰이 필요함.
 
-출처: [국가암정보센터 윌름스종양 치료](https://www.cancer.go.kr/lay1/program/S1T211C223/cancer/view.do?cancer_seq=4733&menu_seq=4749) · [NCI 윌름스종양 치료 PDQ](https://www.cancer.gov/types/kidney/hp/wilms-treatment-pdq)
 Last updated :
 2026-05-20 — 본문 갱신 (codex fill)

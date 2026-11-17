@@ -22,7 +22,7 @@ clinical_priority: "tier_2"
 review_status: "guideline_enriched"
 reviewed_at: "2026-07-16"
 guideline_year: "2024"
-sources: ["Korean Thyroid Association Guidelines on the Management of Differentiated Thyroid Cancers 2024 | https://www.ijthyroid.org/journal/view.php?number=202400002"]
+sources: ["Korean Thyroid Association Guidelines on the Management of Differentiated Thyroid Cancers 2024 | https://www.ijthyroid.org/journal/view.php?number=202400002", "ATA 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8349723/", "ASCO 2026 | https://ascopubs.org/doi/10.1200/JCO-26-00235"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -56,7 +56,7 @@ content_updated_at: "2026-11-17"
 - **수술 선택**: 육안적 완전 절제가 가능하고 수술 이환을 감당할 수 있는 국한성 IVA/IVB에서는 수술 후 방사선·전신치료를 검토한다. 광범위 침윤으로 의미 있는 절제가 불가능하면 큰 수술을 일률적으로 강행하지 않는다.
 - **BRAF V600E 양성**: 절제 불가 또는 전이성 질환에서는 dabrafenib＋trametinib을 우선 검토한다. 절제 불가 IVB에서는 선행 표적치료 또는 화학방사선치료 후 절제 가능성을 재평가할 수 있다.
 - **다른 분자형**: RET/NTRK 융합이 있고 전신치료가 필요하면 해당 선택적 억제제를 검토한다. 표적이 없거나 결과를 기다리는 급속 진행 질환에서는 taxane 기반 항암치료를 가교로 사용하거나 방사선과 병합하는 방안을 검토한다. 약제의 국내 허가·접근 가능성을 확인한다.
-- **기도·완화치료**: 임박한 기도 폐쇄는 즉시 전문 기도팀이 평가한다. 기도 위협이 없는 환자에게 예방적 기관절개를 일률 시행하지 않는다. 통증·영양·호흡 증상과 치료 목표에 대한 완화의료를 적극 치료와 함께 제공한다. [ATA 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8349723/), [ASCO 2026](https://ascopubs.org/doi/10.1200/JCO-26-00235)
+- **기도·완화치료**: 임박한 기도 폐쇄는 즉시 전문 기도팀이 평가한다. 기도 위협이 없는 환자에게 예방적 기관절개를 일률 시행하지 않는다. 통증·영양·호흡 증상과 치료 목표에 대한 완화의료를 적극 치료와 함께 제공한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 예후가 불량하며, 진단 후 1년 이내 사망률이 높음.

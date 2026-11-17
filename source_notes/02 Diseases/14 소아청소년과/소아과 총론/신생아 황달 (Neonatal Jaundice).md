@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAP 신생아 고빌리루빈혈증 지침 | https://doi.org/10.1542/peds.2022-058859", "AAP 적용 FAQ | https://www.aap.org/en/patient-care/hyperbilirubinemia/frequently-asked-questions-about-the-2022-aap-guideline-on-the-management-of-hyperbilirubinemia/", "AAP 담도폐쇄 조기 발견 2025 | https://doi.org/10.1542/peds.2024-070077"]
 ---
 분과 : [[소아청소년과]]
 
@@ -26,7 +27,7 @@ reviewed_at: "2026-07-30"
 ## 2. 임상 양상 (Clinical Features)
 * **주요 증상**: 피부, 공막, 점막의 황변.
 * **생리적 황달**: 생후 24시간 이후 발생, 48~96시간에 정점, 2~3주 내 소실.
-* **수유량 부족과 모유 황달의 구분**: 수유량 부족 관련 간접 고빌리루빈혈증은 주로 생후 첫 주에 나타나며 수유 부족·과도한 체중 감소가 단서다. **모유 황달**은 수유량과 체중 증가가 양호한데도 생후 2주 전후 또는 이후에 간접 빌리루빈 우세 황달이 지속되는 양상이다. 이를 이유로 일률적으로 모유수유를 중단하지 않는다. 지속 황달에서 직접 빌리루빈 상승은 모유 황달로 설명하지 말고 담즙정체를 별도로 평가한다. [AAP 신생아 고빌리루빈혈증 지침](https://doi.org/10.1542/peds.2022-058859)
+* **수유량 부족과 모유 황달의 구분**: 수유량 부족 관련 간접 고빌리루빈혈증은 주로 생후 첫 주에 나타나며 수유 부족·과도한 체중 감소가 단서다. **모유 황달**은 수유량과 체중 증가가 양호한데도 생후 2주 전후 또는 이후에 간접 빌리루빈 우세 황달이 지속되는 양상이다. 이를 이유로 일률적으로 모유수유를 중단하지 않는다. 지속 황달에서 직접 빌리루빈 상승은 모유 황달로 설명하지 말고 담즙정체를 별도로 평가한다.
 * **병적 황달**: 생후 24시간 이내 발생, 빌리루빈 수치가 연령별 기준치를 초과하거나 급격히 상승하는 경우.
 
 ## 3. 검사 (Lab & Imaging)
@@ -49,13 +50,11 @@ reviewed_at: "2026-07-30"
 - **치료 강화·교환수혈**: TSB가 해당 교환수혈 기준보다 **2 mg/dL 낮은 값**에 이르면 신생아집중치료실 연계, 집중 광선치료·정맥 수액과 적어도 2시간 간격 TSB 측정을 시작한다. 교환수혈 기준 도달 또는 급성 빌리루빈뇌병증 징후가 있으면 긴급 교환수혈을 준비한다.
 - **중단·반등 확인**: 광선치료를 시작했던 시점의 치료 기준보다 TSB가 **≥2 mg/dL 낮아지면** 중단을 고려한다. 생후 48시간 이전 시작, 용혈·DAT 양성 등 반등 고위험이면 더 오래 치료하거나 중단 6–12시간 뒤 및 다음 날 재측정한다.
 
-근거: [AAP 2022 지침](https://doi.org/10.1542/peds.2022-058859), [AAP 적용 FAQ](https://www.aap.org/en/patient-care/hyperbilirubinemia/frequently-asked-questions-about-the-2022-aap-guideline-on-the-management-of-hyperbilirubinemia/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 빌리루빈 뇌병증(핵황달) 및 신경학적 후유증 발생 가능.
 - **예후**: 조기 발견 및 적절한 치료 시 예후가 좋으나, 병적 황달은 원인에 따라 관리 필요.
 
 출처 : StatPearls (Neonatal Jaundice)
-추가 출처: [AAP 신생아 고빌리루빈혈증 2022](https://doi.org/10.1542/peds.2022-058859) · [AAP 담도폐쇄 조기 발견 2025](https://doi.org/10.1542/peds.2024-070077)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

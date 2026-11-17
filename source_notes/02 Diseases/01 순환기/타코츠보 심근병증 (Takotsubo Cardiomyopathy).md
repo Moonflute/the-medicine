@@ -16,9 +16,7 @@ CC:
 - 실신
 clinical_priority: "tier_2"
 review_status: "samsung8e_source_integrated"
-sources:
-- 'International Expert Consensus Document on Takotsubo Syndrome (2018) | https://academic.oup.com/eurheartj/article/39/22/2047/5025411'
-- 'Takotsubo Syndrome: International Expert Consensus Report (2024) | https://pubmed.ncbi.nlm.nih.gov/39417524/'
+sources: ["International Expert Consensus Document on Takotsubo Syndrome (2018) | https://academic.oup.com/eurheartj/article/39/22/2047/5025411", "Takotsubo Syndrome: International Expert Consensus Report (2024) | https://pubmed.ncbi.nlm.nih.gov/39417524/", "International Expert Consensus: Takotsubo Syndrome Part I | https://academic.oup.com/eurheartj/article/39/22/2032/5025412"]
 ---
 분과 : [[순환기]]
 
@@ -47,4 +45,4 @@ sources:
 ## 6. 예후 및 합병증 (Prognosis)
 - 수축기능은 대개 회복되지만 급성기 사망·쇼크·부정맥·혈전색전증 위험이 있으며 재발할 수 있다. 새 흉통, 실신, 호흡곤란 또는 QT 연장 관련 부정맥 위험은 즉시 재평가한다.
 
-출처: 삼성서울병원 메뉴얼. [International Expert Consensus: Takotsubo Syndrome Part I](https://academic.oup.com/eurheartj/article/39/22/2032/5025412), [International Expert Consensus: Takotsubo Syndrome Part II](https://academic.oup.com/eurheartj/article/39/22/2047/5025411), [2024 International Expert Consensus Report](https://pubmed.ncbi.nlm.nih.gov/39417524/); 타코츠보 증후군의 ACS 감별, 합병증 평가 및 추적 원칙을 대조.
+출처: 삼성서울병원 메뉴얼. International Expert Consensus: Takotsubo Syndrome Part I, International Expert Consensus: Takotsubo Syndrome Part II, 2024 International Expert Consensus Report; 타코츠보 증후군의 ACS 감별, 합병증 평가 및 추적 원칙을 대조.

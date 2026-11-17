@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["KDIGO 2021 | https://kdigo.org/wp-content/uploads/2021/10/KDIGO-2021-Guideline-for-the-Management-of-Glomerular-Diseases.pdf", "KDIGO 2021 Glomerular Diseases guideline | https://kdigo.org/guidelines/gd/"]
 ---
 분과 : [[신장]]
 
@@ -57,7 +58,7 @@ reviewed_at: "2026-07-30"
 - 부종은 저염식과 신중한 이뇨제로 조절하되, 저혈량·AKI·전해질 이상을 반복 확인합니다.
 - 잦은 재발·스테로이드 의존 또는 불응은 진단 재검토 후 칼시뉴린 억제제, rituximab, cyclophosphamide 또는 mycophenolate 등 대안을 전문의가 환자별 위해와 생식 계획에 맞춰 선택합니다.
 
-- **성인 초기 반응 평가**: 고용량 glucocorticoid는 관해 또는 최대 16주까지 사용하고, 완전 관해 후 약 2주부터 감량을 시작한다. 16주에도 관해가 없으면 같은 고용량을 계속하지 않고 복약·병리/FSGS 가능성을 재검토한다. 잦은 재발·steroid 의존이면 누적 독성을 줄일 steroid-sparing 약제를 선택한다. 소아의 반응 판정 기간과 혼용하지 않는다. [KDIGO 2021](https://kdigo.org/wp-content/uploads/2021/10/KDIGO-2021-Guideline-for-the-Management-of-Glomerular-Diseases.pdf)
+- **성인 초기 반응 평가**: 고용량 glucocorticoid는 관해 또는 최대 16주까지 사용하고, 완전 관해 후 약 2주부터 감량을 시작한다. 16주에도 관해가 없으면 같은 고용량을 계속하지 않고 복약·병리/FSGS 가능성을 재검토한다. 잦은 재발·steroid 의존이면 누적 독성을 줄일 steroid-sparing 약제를 선택한다. 소아의 반응 판정 기간과 혼용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심한 단백뇨 기간에는 혈전색전증, 세균 감염, 저혈량성 AKI, 이상지질혈증 위험을 함께 평가합니다. 부종을 빠르게 제거하려다 저혈량·AKI를 유발하지 않도록 체중·혈압·신기능을 추적합니다.
@@ -72,4 +73,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [KDIGO 2021 Glomerular Diseases guideline](https://kdigo.org/guidelines/gd/)를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.

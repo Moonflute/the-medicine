@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["WHO 2025 잔류태반 권고 | https://www.ncbi.nlm.nih.gov/books/NBK619233/table/ch3.tab34/", "제거 시 예방항생제 | https://www.ncbi.nlm.nih.gov/books/NBK619233/table/ch3.tab35/"]
 ---
 분과 : [[산과]]
 
@@ -26,7 +27,6 @@ reviewed_at: "2026-07-30"
   - 자궁 수축 부전
 
 - **기전**: 태반이 완전히 배출되지 않아 자궁의 수축을 방해하고, 자궁 내막의 혈관이 노출된 상태로 남아 지속적인 출혈을 유발함
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -49,7 +49,7 @@ reviewed_at: "2026-07-30"
 * 유착태반이 의심되거나 대량 출혈이 지속되는 경우 상급 병원 전원 및 수술적 치료를 고려함.
 * 시술 후 자궁 수축 상태와 질 출혈 양상을 면밀히 관찰하며 추적 관찰함.
 
-- **제거 시점**: 활동성 산후출혈·불안정이면 즉시 출혈 처치와 태반 제거를 준비한다. 출혈이 없더라도 출생 후 30분까지 태반이 나오지 않으면 WHO 2025는 용수 제거 준비를 시작하도록 한다. 마취·수혈·수술 대비하 시행하며 박리면이 없고 유착태반이 의심되면 강제 견인·박리를 멈추고 전문 수술 경로로 전환한다. [WHO 2025 잔류태반 권고](https://www.ncbi.nlm.nih.gov/books/NBK619233/table/ch3.tab34/), [제거 시 예방항생제](https://www.ncbi.nlm.nih.gov/books/NBK619233/table/ch3.tab35/)
+- **제거 시점**: 활동성 산후출혈·불안정이면 즉시 출혈 처치와 태반 제거를 준비한다. 출혈이 없더라도 출생 후 30분까지 태반이 나오지 않으면 WHO 2025는 용수 제거 준비를 시작하도록 한다. 마취·수혈·수술 대비하 시행하며 박리면이 없고 유착태반이 의심되면 강제 견인·박리를 멈추고 전문 수술 경로로 전환한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 산후 출혈(Postpartum hemorrhage) 및 감염 위험 증가

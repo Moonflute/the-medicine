@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACOG 태아심박 감시 2025 | https://obgyn.wustl.edu/app/uploads/2025/09/acog_clinical_practice_guideline_no_.22.pdf"]
 ---
 분과 : [[산과]]
 
@@ -43,7 +44,7 @@ reviewed_at: "2026-07-30"
 - **양수주입술**: 양수 과소증으로 인한 반복적 변동감속 시 탯줄 압박 완화를 위해 고려.
 - **상태 평가 및 분만 결정**: 탯줄 탈출 여부를 내진으로 확인하고, 지속적인 비정상 파형 시 태아 상태를 평가하여 신속한 분만 결정.
 
-- **분만 전환**: 반복 변동감속이 있어도 정상 변이도 등 전체 파형과 회복 반응을 본다. 변이도 소실+반복 변동/후기감속 또는 서맥 등 Category III가 초기 교정에 반응하지 않으면 신속히 분만한다. 제대탈출·자궁파열 의심이면 즉시 해당 응급 경로를 적용한다. [ACOG 태아심박 감시 2025](https://obgyn.wustl.edu/app/uploads/2025/09/acog_clinical_practice_guideline_no_.22.pdf)
+- **분만 전환**: 반복 변동감속이 있어도 정상 변이도 등 전체 파형과 회복 반응을 본다. 변이도 소실+반복 변동/후기감속 또는 서맥 등 Category III가 초기 교정에 반응하지 않으면 신속히 분만한다. 제대탈출·자궁파열 의심이면 즉시 해당 응급 경로를 적용한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 간헐적 변동감속은 대개 양성.

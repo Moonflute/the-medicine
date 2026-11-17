@@ -23,6 +23,7 @@ reviewed_at: "2026-07-30"
 응급의학_분류:
 - 환경응급
 - 화상
+sources: ["AHA 특수상황 소생술 2025 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/"]
 ---
 분과 : [[외과]]
 
@@ -56,6 +57,5 @@ reviewed_at: "2026-07-30"
 
 출처 : StatPearls (Acute and Chronic Thermal Burn Evaluation and Management)
 
-중증 중독 소생: [AHA 특수상황 소생술 2025](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation/)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

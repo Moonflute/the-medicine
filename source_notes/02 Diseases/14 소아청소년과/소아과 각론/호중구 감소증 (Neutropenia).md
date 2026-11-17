@@ -21,7 +21,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Clinical practice guidelines for the management of fever and neutropenia in South African children and adolescents with cancer. | https://pubmed.ncbi.nlm.nih.gov/42246864/"]
+sources: ["Clinical practice guidelines for the management of fever and neutropenia in South African children and adolescents with cancer. | https://pubmed.ncbi.nlm.nih.gov/42246864/", "2023 소아 FN 지침 | https://doi.org/10.1200/JCO.22.02224", "CPS | https://cps.ca/en/documents/position/management-of-febrile-neutropenia-in-immunocompetent-children-and-youth"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -51,8 +51,8 @@ content_updated_at: "2026-11-18"
 * **보조 요법**: G-CSF는 고위험군에서 호중구 증식 촉진을 위해 고려.
 * **장기 치료**: 심각한 선천성 호중구 감소증 시 골수 이식 고려.
 
-* **발열·위험도에 따른 즉시 치료**: 항암/이식 환자에서 **ANC <500/μL(또는 곧 감소 예상)**와 단회 **≥38.3°C 또는 ≥38°C가 1시간** 지속되면 FN 경로로 배양 후 지체 없이 항녹농균 β-lactam(cefepime/piperacillin-tazobactam 등)을 시작한다. 불안정·내성·특정 감염 위험이 없으면 vancomycin/aminoglycoside를 일률 추가하지 않는다. 저위험 외래 관리는 검증된 위험도·추적 조건을 충족해야 한다. [2023 소아 FN 지침](https://doi.org/10.1200/JCO.22.02224)
-* **건강한 소아의 예외**: 이전 건강한 생후 6개월 이상 소아의 첫 발열성 호중구감소는 항암 환자와 다르다. 잘 보이고 추가 위험인자가 없으면 ANC **500–1,000/μL**는 통상 경험적 항생제 없이 추적할 수 있다. **<500/μL**는 혈액배양과 가까운 추적이 필요하고 **0–200/μL** 등 심한 감소는 항생제를 개별 고려한다. 아파 보이면 ANC 수치와 관계없이 패혈증 치료를 우선한다. [CPS](https://cps.ca/en/documents/position/management-of-febrile-neutropenia-in-immunocompetent-children-and-youth)
+* **발열·위험도에 따른 즉시 치료**: 항암/이식 환자에서 **ANC <500/μL(또는 곧 감소 예상)**와 단회 **≥38.3°C 또는 ≥38°C가 1시간** 지속되면 FN 경로로 배양 후 지체 없이 항녹농균 β-lactam(cefepime/piperacillin-tazobactam 등)을 시작한다. 불안정·내성·특정 감염 위험이 없으면 vancomycin/aminoglycoside를 일률 추가하지 않는다. 저위험 외래 관리는 검증된 위험도·추적 조건을 충족해야 한다.
+* **건강한 소아의 예외**: 이전 건강한 생후 6개월 이상 소아의 첫 발열성 호중구감소는 항암 환자와 다르다. 잘 보이고 추가 위험인자가 없으면 ANC **500–1,000/μL**는 통상 경험적 항생제 없이 추적할 수 있다. **<500/μL**는 혈액배양과 가까운 추적이 필요하고 **0–200/μL** 등 심한 감소는 항생제를 개별 고려한다. 아파 보이면 ANC 수치와 관계없이 패혈증 치료를 우선한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 원인 및 중증도에 따라 다양함.

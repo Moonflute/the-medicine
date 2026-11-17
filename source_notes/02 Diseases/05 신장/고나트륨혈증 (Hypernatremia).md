@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Society for Endocrinology | https://pmc.ncbi.nlm.nih.gov/articles/PMC6013691/", "Merck Manual Professional Hypernatremia | https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/electrolyte-disorders/hypernatremia"]
 ---
 분과 : [[신장]]
 
@@ -61,7 +62,7 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 - 경구로 물이나 전해질 음료를 섭취할 수 있으면 천천히 보충하고, 경구가 어려운 경우 정맥 수액으로 먼저 혈관내 용적을 회복한 뒤 자유 수분을 보충한다.
-- 발생 <48시간의 급성과 ≥48시간 또는 기간 불명을 구분한다. 만성·기간 불명에서는 대체로 Na 감소 ≤0.5 mmol/L/시간, 약 10 mmol/L/일 이내를 목표로 반복 검사에 맞춰 조절한다. 성인 근거의 한계가 있어 지나친 저교정도 피하고, 급성 sodium loading은 별도로 전문팀이 교정 속도를 정한다. [Society for Endocrinology](https://pmc.ncbi.nlm.nih.gov/articles/PMC6013691/)
+- 발생 <48시간의 급성과 ≥48시간 또는 기간 불명을 구분한다. 만성·기간 불명에서는 대체로 Na 감소 ≤0.5 mmol/L/시간, 약 10 mmol/L/일 이내를 목표로 반복 검사에 맞춰 조절한다. 성인 근거의 한계가 있어 지나친 저교정도 피하고, 급성 sodium loading은 별도로 전문팀이 교정 속도를 정한다.
 - 저혈량 쇼크는 먼저 등장성 수액으로 혈관내 용적을 회복하고, 이후 경구수분 또는 포도당 수액 등으로 자유수분 결핍을 보충합니다. 급성·만성 여부와 신경학적 상태에 따라 교정 속도를 개별화하며, 혈청 나트륨·소변량을 자주 재확인해 과도한 교정과 뇌부종을 피합니다.
 - 치료 중에는 지속되는 수분 소실과 실제 수분 공급의 이행 여부를 재평가해 보충 계획을 조정합니다.
 
@@ -76,4 +77,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [Merck Manual Professional Hypernatremia](https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/electrolyte-disorders/hypernatremia)을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. Merck Manual Professional Hypernatremia을 대조. 2026-09-14 기존 목차 내 보완.

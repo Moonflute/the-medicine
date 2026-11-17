@@ -14,7 +14,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2022"
-sources: ["2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106"]
+sources: ["2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001106", "ACC/AHA | https://www.jacc.org/doi/10.1016/j.jacc.2022.08.004"]
 
 source_currency_assessment: "current_standard_retained"
 content_updated_at: "2026-11-17"
@@ -64,7 +64,7 @@ content_updated_at: "2026-11-17"
 * **Stanford Type A (상행 대동맥 침범)**: 생명 위협적인 합병증 위험이 높아 응급 수술이 원칙이다.
 * **Stanford Type B (하행 대동맥 침범)**: 합병증이 없는 경우 내과적 치료를 우선하며, 장기 허혈, 파열, 통증 지속 등 합병증 발생 시 인터벤션(스텐트 삽입술) 또는 수술을 고려한다.
 
-- **초기 수치 목표**: 정주 β차단으로 심박수 60–80회/분을 목표로 하고, 수축기혈압은 <120 mmHg 또는 장기 관류가 유지되는 최저 수준으로 조절한다. 혈압이 계속 높으면 심박수 조절 후 혈관확장제를 추가한다. β차단이 금기이면 비DHP CCB 등의 대안을 검토한다. 파열·심장눌림·저관류에서는 혈압 목표 달성보다 긴급 원인 치료와 관류 유지가 우선이다. [ACC/AHA](https://www.jacc.org/doi/10.1016/j.jacc.2022.08.004)
+- **초기 수치 목표**: 정주 β차단으로 심박수 60–80회/분을 목표로 하고, 수축기혈압은 <120 mmHg 또는 장기 관류가 유지되는 최저 수준으로 조절한다. 혈압이 계속 높으면 심박수 조절 후 혈관확장제를 추가한다. β차단이 금기이면 비DHP CCB 등의 대안을 검토한다. 파열·심장눌림·저관류에서는 혈압 목표 달성보다 긴급 원인 치료와 관류 유지가 우선이다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대동맥 파열, 심장 눌림증, 뇌졸중, 심근경색, 신부전 등 치명적인 합병증이 발생할 수 있다.

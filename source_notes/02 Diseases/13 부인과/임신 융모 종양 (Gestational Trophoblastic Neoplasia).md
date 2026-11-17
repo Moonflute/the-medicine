@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["FIGO 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13505264/", "국제 GTD 치료지침 2025 | https://orbi.uliege.be/bitstream/2268/340461/1/2025-JCO-GTD%20GTN-Guidelines-Lok.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-07-30"
 - **전이 평가**: 진단 시 흉부 X-ray 또는 CT를 통해 폐 및 주요 장기로의 전이 여부를 반드시 확인하여 병기를 결정함.
 
 - **치료 시작·전환**: 기태 제거 후 hCG가 3주 이상 4회 측정에서 <10% 변화로 정체하거나, 2주 이상 연속 주별 3회 측정에서 >10% 상승하면 GTN 평가·치료로 전환한다. 조직학적 융모암·PSTT·ETT도 해당하며 6개월까지 기다리지 않는다. 항암 중 정체·상승은 순응도·검사 간섭 등을 확인한 후 내성으로 평가하여 약제를 변경한다.
-- **점수 적용의 예외**: hCG는 기태 제거 전 값이 아니라 GTN 치료 직전 값을 사용한다. FIGO 2026은 과거 항암 사용 항목을 위험 점수에서 제외했다. PSTT·ETT에는 일반 GTN 점수를 적용하지 않으며 국한 병변의 자궁절제가 중심이고, 선행 임신과의 간격 ≥48개월·전이가 치료 강화 판단에 중요하다. [FIGO 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13505264/) · [국제 GTD 치료지침 2025](https://orbi.uliege.be/bitstream/2268/340461/1/2025-JCO-GTD%20GTN-Guidelines-Lok.pdf)
+- **점수 적용의 예외**: hCG는 기태 제거 전 값이 아니라 GTN 치료 직전 값을 사용한다. FIGO 2026은 과거 항암 사용 항목을 위험 점수에서 제외했다. PSTT·ETT에는 일반 GTN 점수를 적용하지 않으며 국한 병변의 자궁절제가 중심이고, 선행 임신과의 간격 ≥48개월·전이가 치료 강화 판단에 중요하다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적절한 항암 치료 시 예후가 매우 좋음.

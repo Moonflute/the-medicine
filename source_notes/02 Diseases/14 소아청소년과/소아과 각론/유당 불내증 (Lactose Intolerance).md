@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["소아 대변 환원당·pH 검사 성능 연구 | https://pubmed.ncbi.nlm.nih.gov/32445391/", "CDC 영유아 우유·대체 음료 기준 | https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/cows-milk-and-milk-alternatives.html"]
 ---
 분과 : [[소아청소년과]]
 
@@ -43,7 +44,6 @@ reviewed_at: "2026-07-30"
 * 임상 증상 및 유당 제한 식이 후 증상 호전 여부로 일차 진단
 * 진단이 불확실하거나 감별이 필요한 경우 호기 수소 검사 등 시행
 
-검사 근거: [소아 대변 환원당·pH 검사 성능 연구](https://pubmed.ncbi.nlm.nih.gov/32445391/)
 
 ## 5. 치료
 
@@ -52,7 +52,6 @@ reviewed_at: "2026-07-30"
 * **이차성 원인 교정**: 장염 등 기저 질환에 의한 일시적 유당 불내증은 원인 질환 치료 시 자연스럽게 호전됨.
 * **영양 관리**: 장기적인 유제품 제한 시 칼슘 및 비타민 D 결핍을 예방하기 위해 대체 급원 섭취나 보충제 복용을 고려함.
 
-근거: [CDC 영유아 우유·대체 음료 기준](https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/cows-milk-and-milk-alternatives.html).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 식이 조절로 증상 완화 가능

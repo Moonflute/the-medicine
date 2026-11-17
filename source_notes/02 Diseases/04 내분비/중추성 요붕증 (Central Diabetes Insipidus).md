@@ -13,6 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Society for Endocrinology 입원 관리 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6013691/"]
 ---
 분과 : [[내분비]]
 
@@ -44,7 +45,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - **AVP 결핍이 확인된 다뇨**에는 desmopressin을 소변량·갈증·Na와 투여 경로에 맞춰 조절한다. Na 저하·체중 증가·다뇨 소실이 과량 투여와 과음 때문인지 확인하고, 안정된 환자는 계획적으로 수분 배출 시간을 확보한다.
 - **고나트륨·의식저하·수분 접근 불가**이면 입원하여 순환혈량과 자유수분 결손을 교정한다. 알려진 AVP 결핍 환자의 desmopressin 누락은 위험하며, 반대로 수액과 약제 동시 투여 시 급격한 Na 하강을 감시한다.
-- 수술 후 일과성 결핍에서는 회복·다상성 반응을 확인하며 지속 투여 필요성을 재평가한다. 성인 중추성 요붕증에 thiazide를 일률적으로 추가하지 않는다. [Society for Endocrinology 입원 관리](https://pmc.ncbi.nlm.nih.gov/articles/PMC6013691/)
+- 수술 후 일과성 결핍에서는 회복·다상성 반응을 확인하며 지속 투여 필요성을 재평가한다. 성인 중추성 요붕증에 thiazide를 일률적으로 추가하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 이루어지지 않을 경우 영구적인 신장 손상 및 심각한 탈수가 발생할 수 있다.

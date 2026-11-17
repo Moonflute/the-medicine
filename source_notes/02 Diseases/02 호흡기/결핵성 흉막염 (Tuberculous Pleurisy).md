@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ATS/CDC/IDSA 감수성 결핵 지침 | https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/", "BTS Pleural Disease Guideline 2023 | https://thorax.bmj.com/content/78/Suppl_3/s1", "ATS/STS/STR 악성 흉수 진료지침 | https://academic.oup.com/ajrccm/article/198/7/839/8498300", "대한결핵 및 호흡기학회 결핵진료지침 5판 | https://new.lungkorea.org/common/fileDownload/only/board/eyJpdiI6IjBhQ3dKeGI5NEFzRXdNN0h5bFE3OGc9PSIsInZhbHVlIjoiK3pnOUhMSi9JcXhXSWFiRkhqcGVhQT09IiwibWFjIjoiNjI2OTVkNDMxYWY1ZDcxZTIxZTJmMGQwYjg3MTRmYzEzY2UzMjFjMTk4YzIyMzU0YjIwMGZiZDg3NGU3ZGMzOSIsInRhZyI6IiJ9?field=1"]
 ---
 분과 : [[호흡기]]
 
@@ -46,7 +47,6 @@ reviewed_at: "2026-07-30"
 * 치료 종료 후에도 폐 기능 제한이나 흉곽 변형 여부를 평가하여 필요 시 호흡기 재활을 고려함.
 
 - 약제감수성 단순 흉막 결핵은 보통 **2HRZE/4HR 총 6개월** 치료하며 다른 장기 침범·내성에 따라 달라진다. 큰 흉수로 호흡곤란이 있을 때 치료적 천자를 시행하고, 흉막 비후 예방만을 위한 전신 스테로이드·흉관 배액을 일괄 시행하지 않는다. 결핵성 농흉은 단순 흉막염과 달리 배액·수술 필요성을 별도 평가한다.
-- 근거: [ATS/CDC/IDSA 감수성 결핵 지침](https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 항결핵 치료 시 예후는 양호함.
@@ -58,4 +58,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [BTS Pleural Disease Guideline 2023](https://thorax.bmj.com/content/78/Suppl_3/s1), [ATS/STS/STR 악성 흉수 진료지침](https://academic.oup.com/ajrccm/article/198/7/839/8498300), [대한결핵 및 호흡기학회 결핵진료지침 5판](https://new.lungkorea.org/common/fileDownload/only/board/eyJpdiI6IjBhQ3dKeGI5NEFzRXdNN0h5bFE3OGc9PSIsInZhbHVlIjoiK3pnOUhMSi9JcXhXSWFiRkhqcGVhQT09IiwibWFjIjoiNjI2OTVkNDMxYWY1ZDcxZTIxZTJmMGQwYjg3MTRmYzEzY2UzMjFjMTk4YzIyMzU0YjIwMGZiZDg3NGU3ZGMzOSIsInRhZyI6IiJ9?field=1)을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. BTS Pleural Disease Guideline 2023, ATS/STS/STR 악성 흉수 진료지침, 대한결핵 및 호흡기학회 결핵진료지침 5판을 대조. 2026-09-14 기존 목차 내 보완.

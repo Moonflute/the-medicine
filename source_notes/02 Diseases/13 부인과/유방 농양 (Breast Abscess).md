@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ABM | https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf", "ASBrS/SBI/CAP 감염성 병변 지침, 2026 출판 | https://jamanetwork.com/journals/jamasurgery/fullarticle/2847015"]
 ---
 분과 : [[부인과]]
 
@@ -43,7 +44,7 @@ reviewed_at: "2026-07-30"
 * **수유 관리**: 배액 후에도 대개 수유를 지속할 수 있다. 영아 입이 열린 화농성 상처·배액에 직접 닿지 않도록 하고, 과도한 유축·강한 마사지는 피한다.
 * **추적 관찰 및 감별**: 치료 후에도 호전이 없거나 재발하는 경우, 염증성 유방암 등 악성 종양 가능성을 배제하기 위해 조직검사를 시행함.
 
-- **항생제 기간·재평가**: 수유성 농양은 보통 10–14일 투여하되 배양·배액 효과·임상 반응에 따라 조절한다. 48시간 내 호전이 없으면 불충분한 배액·내성균·다른 진단을 재평가한다. [ABM](https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf) · [ASBrS/SBI/CAP 감염성 병변 지침, 2026 출판](https://jamanetwork.com/journals/jamasurgery/fullarticle/2847015)
+- **항생제 기간·재평가**: 수유성 농양은 보통 10–14일 투여하되 배양·배액 효과·임상 반응에 따라 조절한다. 48시간 내 호전이 없으면 불충분한 배액·내성균·다른 진단을 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 예후는 좋으나 재발 가능성이 있음.

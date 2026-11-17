@@ -13,8 +13,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE NG97 | https://www.nice.org.uk/guidance/ng97/chapter/recommendations"]
 disease_family: psychiatry_split
 parent_disease: 신경인지장애 (Neurocognitive Disorders)
 relation_to_parent: subtype
@@ -46,7 +45,6 @@ relation_to_parent: subtype
 - 비약물적 중재: 행동 문제 조절을 위해 일상생활 구조화, 환경 수정, 주의 분산 기법을 우선 적용하고 보호자 교육 및 지지 체계 마련.
 - 정기적 모니터링: 질환의 진행에 따른 기능 저하와 합병증(식이 장애, 낙상 등)을 주기적으로 평가하여 안전 관리 강화.
 
-근거: [NICE NG97](https://www.nice.org.uk/guidance/ng97/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 예후: 점진적으로 악화되는 경과를 보이며, 평균 생존 기간은 약 7.5년.

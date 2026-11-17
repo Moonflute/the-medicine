@@ -22,6 +22,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ASCO living guideline 2026 | https://doi.org/10.1200/JCO-26-02034", "ASCO 감시림프절생검 2025 | https://doi.org/10.1200/JCO-25-00099", "ASTRO/ASCO/SSO 유방절제술 후 방사선치료 2025 | https://doi.org/10.1200/JCO-25-01747"]
 ---
 분과 : [[부인과]]
 
@@ -32,7 +33,6 @@ reviewed_at: "2026-07-30"
   유전적 요인과 환경적 요인의 복합적 상호작용으로 발생.
   분자 아형(Luminal A/B, HER2-enriched, Basal-like)에 따라 예후와 치료 반응이 다름.
 - **종류**: 침윤성 유관암(Invasive ductal carcinoma, 가장 흔함), 침윤성 소엽암(Invasive lobular carcinoma), 점액암, 관상암, 수질암 등.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -65,7 +65,7 @@ reviewed_at: "2026-07-30"
 - **추적 관찰**: 치료 종료 후 정기적인 신체 검진 및 영상 검사(유방 촬영술 등)를 통해 재발 및 반대측 유방암 발생 여부를 지속적으로 감시함.
 
 - **보조 CDK4/6 억제제를 추가하는 조건**: HR+/HER2−, 수술 후 고위험군에서 내분비치료에 추가한다. Abemaciclib 2년은 대표적으로 액와 양성 ≥4개 또는 1–3개이면서 grade 3/종양 ≥5 cm인 경우를 검토한다. Ribociclib 3년은 NATALEE에 해당하는 II–III기 고위험군에서 선택하며 T2N0는 등급·Ki-67·유전체 위험 등의 추가 조건을 확인한다. 모든 HR 양성 초기암에 적용하지 않는다.
-- **PARP 억제제와 우선순위**: 생식세포 BRCA1/2 병적 변이가 있는 HER2 음성 고위험군은 수술·항암 이후 olaparib 적합성을 평가한다. HR 양성의 대표 고위험 기준은 수술 우선 시 ≥4개 양성 림프절, 선행항암 후에는 잔존 침윤암과 CPS+EG ≥3이다. CDK4/6 억제제와 둘 다 적합하면 병용/연속 투여 근거의 한계를 설명하고 ASCO 2026의 olaparib 우선 고려를 반영한다. [ASCO living guideline 2026](https://doi.org/10.1200/JCO-26-02034)
+- **PARP 억제제와 우선순위**: 생식세포 BRCA1/2 병적 변이가 있는 HER2 음성 고위험군은 수술·항암 이후 olaparib 적합성을 평가한다. HR 양성의 대표 고위험 기준은 수술 우선 시 ≥4개 양성 림프절, 선행항암 후에는 잔존 침윤암과 CPS+EG ≥3이다. CDK4/6 억제제와 둘 다 적합하면 병용/연속 투여 근거의 한계를 설명하고 ASCO 2026의 olaparib 우선 고려를 반영한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 시 예후가 좋으며, 분자 아형과 병기에 따라 생존율 차이가 큼.
@@ -74,6 +74,5 @@ reviewed_at: "2026-07-30"
 
 출처 : StatPearls (Breast Cancer, Breast Cancer Conservation Therapy)
 
-액와 병기·방사선치료: [ASCO 감시림프절생검 2025](https://doi.org/10.1200/JCO-25-00099) · [ASTRO/ASCO/SSO 유방절제술 후 방사선치료 2025](https://doi.org/10.1200/JCO-25-01747)
 Last updated :
 2026-07-15 — 중복 본문 정리

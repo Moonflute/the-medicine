@@ -13,8 +13,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE NG97 | https://www.nice.org.uk/guidance/ng97/chapter/recommendations"]
 disease_family: psychiatry_split
 parent_disease: 신경인지장애 (Neurocognitive Disorders)
 relation_to_parent: subtype
@@ -48,7 +47,6 @@ relation_to_parent: subtype
 
 - **인지·행동 약제**: 경도–중등도 DLB에는 donepezil 또는 rivastigmine을 우선 검토하고, 견디지 못하거나 금기이면 memantine을 고려한다. 환시만으로 항정신병약을 자동 시작하지 않으며, 고통·위해가 심하고 원인 교정으로 부족한 경우 전문팀이 과민반응 위험을 고려하여 제한적으로 사용한다.
 
-근거: [NICE NG97](https://www.nice.org.uk/guidance/ng97/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 예후: 점진적으로 악화되는 경과를 보이며, 낙상, 폐렴, 연하 곤란, 자율신경계 합병증 등이 주요 사망 원인임.

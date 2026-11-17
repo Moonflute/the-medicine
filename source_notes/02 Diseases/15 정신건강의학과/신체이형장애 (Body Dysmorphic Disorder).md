@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE CG31 | https://www.nice.org.uk/guidance/cg31/chapter/Recommendations"]
 ---
 분과 : [[정신건강의학과]]
 
@@ -52,7 +53,6 @@ reviewed_at: "2026-07-30"
 
 - **강도·실패 판단(성인)**: 경증 기능 손상은 BDD 특화 CBT, 중등도는 CBT 또는 SSRI, 중증은 병합을 선택한다. SSRI 또는 병합 치료 **12주**에 반응이 부족하면 다른 SSRI·clomipramine 및 전문팀 평가로 전환한다. 망상 수준의 믿음이 있다는 이유만으로 항정신병약 단독 치료를 기본으로 삼지 않는다.
 
-근거: [NICE CG31](https://www.nice.org.uk/guidance/cg31/chapter/Recommendations).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성적인 경과를 보일 수 있으며, 우울증, 불안장애, 자살 사고가 동반될 위험이 높음.

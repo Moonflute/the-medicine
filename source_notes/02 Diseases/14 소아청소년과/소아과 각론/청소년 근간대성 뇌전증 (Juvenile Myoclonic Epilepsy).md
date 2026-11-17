@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE 발작형별 치료 | https://www.nice.org.uk/guidance/ng217/chapter/5-Treating-epileptic-seizures-in-children-young-people-and-adults"]
 ---
 분과 : [[소아청소년과]]
 
@@ -42,7 +43,7 @@ reviewed_at: "2026-07-30"
 - JME는 중단 후 재발 위험이 높아 장기 치료가 흔하다. **1년 무발작이나 정상 EEG만으로 감량하지 않으며**, 충분한 무발작 기간과 재발·운전·임신 관련 위험을 전문의와 평가한다
 - 여성 환자에게는 향후 임신 계획 시 항뇌전증 약물(특히 바르프로산) 위험을 설명하고, 필요 시 대체 약물 및 산부인과 연계 상담 진행
 
-- **약제 선택**: levetiracetam 또는 valproate를 우선 고려한다. 임신 가능성이 있으면 valproate 위해를 충분히 설명하고 효과적인 대안을 우선 검토한다. Carbamazepine·oxcarbazepine·phenytoin은 근간대/소발작을 악화시킬 수 있으며 lamotrigine도 근간대 악화를 감시한다. 이미 조절 중인 약을 임의로 갑자기 중단하지 않는다. [NICE 발작형별 치료](https://www.nice.org.uk/guidance/ng217/chapter/5-Treating-epileptic-seizures-in-children-young-people-and-adults)
+- **약제 선택**: levetiracetam 또는 valproate를 우선 고려한다. 임신 가능성이 있으면 valproate 위해를 충분히 설명하고 효과적인 대안을 우선 검토한다. Carbamazepine·oxcarbazepine·phenytoin은 근간대/소발작을 악화시킬 수 있으며 lamotrigine도 근간대 악화를 감시한다. 이미 조절 중인 약을 임의로 갑자기 중단하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 약물 반응은 좋으나, 약물 중단 시 재발률이 높아 평생 관리가 필요한 경우가 많음

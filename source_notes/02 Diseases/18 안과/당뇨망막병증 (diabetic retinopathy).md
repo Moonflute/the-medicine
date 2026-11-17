@@ -12,9 +12,7 @@ CC:
 - 시야 흐림
 preprocessing_required: x
 last_studied: '2026-06-06'
-sources:
-- '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
-- 'ADA 2026 Retinopathy, Neuropathy, and Foot Care | https://diabetesjournals.org/care/article/49/Supplement_1/S261/163919/12-Retinopathy-Neuropathy-and-Foot-Care-Standards'
+sources: ["대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide", "ADA 2026 Retinopathy, Neuropathy, and Foot Care | https://diabetesjournals.org/care/article/49/Supplement_1/S261/163919/12-Retinopathy-Neuropathy-and-Foot-Care-Standards"]
 clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
 guideline_year: "2026"
@@ -46,5 +44,3 @@ review_status: "guideline_enriched"
 - 유리체출혈, 견인망막박리, 신생혈관녹내장과 시력 예후는 [[당뇨병성 망막병증 (Diabetic Retinopathy)]]에 통합해 갱신한다.
 
 ## 출처
-- ADA Standards of Care in Diabetes 2026, Retinopathy, Neuropathy, and Foot Care: https://diabetesjournals.org/care/article/49/Supplement_1/S261/163919/12-Retinopathy-Neuropathy-and-Foot-Care-Standards
-- 대한당뇨병학회 2025 제9판 당뇨병 진료지침: https://diabetes.or.kr/bbs/?code=guide

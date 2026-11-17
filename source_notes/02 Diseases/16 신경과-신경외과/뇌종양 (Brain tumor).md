@@ -33,13 +33,7 @@ group_members:
 - 혈관모세포종 (Hemangioblastoma)
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
-sources:
-- "EANO. Diagnosis and Treatment of Diffuse Gliomas of Adulthood — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7904519/"
-- "EANO. Diagnosis and Management of Meningiomas — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/"
-- "SNO/EANO. Anticonvulsant Prophylaxis in Newly Diagnosed Brain Tumors — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563323/"
-- "EANO/ESMO. Neurological and Vascular Complications of Brain Tumours — 2021 | https://doi.org/10.1016/j.annonc.2020.11.003"
-- "ASCO-SNO. Diffuse Astrocytic and Oligodendroglial Tumors: Rapid Recommendation Update — 2025 | https://ascopubs.org/doi/10.1200/JCO-25-00250"
-- "ASCO-SNO-ASTRO. Treatment for Brain Metastases — 2021 온라인/2022 저널 발행 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/"
+sources: ["EANO. Diagnosis and Treatment of Diffuse Gliomas of Adulthood — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7904519/", "EANO. Diagnosis and Management of Meningiomas — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/", "SNO/EANO. Anticonvulsant Prophylaxis in Newly Diagnosed Brain Tumors — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563323/", "EANO/ESMO. Neurological and Vascular Complications of Brain Tumours — 2021 | https://doi.org/10.1016/j.annonc.2020.11.003", "ASCO-SNO. Diffuse Astrocytic and Oligodendroglial Tumors: Rapid Recommendation Update — 2025 | https://ascopubs.org/doi/10.1200/JCO-25-00250", "ASCO-SNO-ASTRO. Treatment for Brain Metastases — 2021 온라인/2022 저널 발행 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -89,10 +83,3 @@ sources:
 - [[혈관모세포종 (Hemangioblastoma)]]
 
 ## 참고 가이드라인
-
-- [EANO. Diagnosis and Treatment of Diffuse Gliomas of Adulthood — 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC7904519/)
-- [EANO. Diagnosis and Management of Meningiomas — 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/)
-- [SNO/EANO. Anticonvulsant Prophylaxis in Newly Diagnosed Brain Tumors — 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8563323/)
-- [EANO/ESMO. Neurological and Vascular Complications of Brain Tumours — 2021](https://doi.org/10.1016/j.annonc.2020.11.003)
-- [ASCO-SNO. Diffuse Astrocytic and Oligodendroglial Tumors: Rapid Recommendation Update — 2025](https://ascopubs.org/doi/10.1200/JCO-25-00250)
-- [ASCO-SNO-ASTRO. Treatment for Brain Metastases — 2021 온라인/2022 저널 발행](https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/)

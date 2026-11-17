@@ -16,7 +16,7 @@ clinical_priority: "tier_2"
 review_status: "source_reviewed_no_change"
 reviewed_at: "2026-07-16"
 guideline_year: "2023"
-sources: ["2023 간질성폐질환(ILD) 임상진료지침 (2023년 1차 개정판) | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=243"]
+sources: ["2023 간질성폐질환(ILD) 임상진료지침 (2023년 1차 개정판) | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=243", "ATS/ERS/JRS/ALAT 2022 | https://doi.org/10.1164/rccm.202202-0399ST", "FDA Jascayd 2026 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/218764s002lbl.pdf", "ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022 | https://www.thoracic.org/statements/guideline-implementation-tools/matrix-guidelines-and-derivatives-ipf-update.php", "ERS/EULAR CTD-ILD 지침 2025 | https://publications.ersnet.org/content/erj/early/2025/09/04/1399300302533-2024", "ERS ILD 공식 지침 목록 | https://channel.ersnet.org/hp-321-1-interstitial-lung-diseases"]
 
 ---
 분과 : [[호흡기]]
@@ -52,7 +52,6 @@ sources: ["2023 간질성폐질환(ILD) 임상진료지침 (2023년 1차 개정�
 
 - IPF가 확진되면 폐기능이 보존되어 있다는 이유만으로 악화를 기다린 뒤 항섬유화제를 시작하지 않는다. 내약성·간기능·상호작용·선호를 보아 조기에 치료를 논의하며, 만성 prednisone+azathioprine 병용을 IPF 유지 치료로 사용하지 않는다.
 - **Nerandomilast(Jascayd)**는 성인 IPF 및 PPF의 미국 허가 선택지이다. 2026 허가사항은 **18 mg 하루 2회**, 불내약이면 **9 mg 하루 2회** 감량을 제시한다. 단, **pirfenidone 또는 중등도 CYP3A 유도제 병용에서는 9 mg 감량을 권하지 않으며**, 강력 CYP3A 억제제 병용은 9 mg 하루 2회, 강력 유도제는 회피한다. 설사·체중감소·기분 변화를 확인하고 국내 허가·가용성을 별도로 판단한다.
-- 근거: [ATS/ERS/JRS/ALAT 2022](https://doi.org/10.1164/rccm.202202-0399ST), [FDA Jascayd 2026](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/218764s002lbl.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 진단 후 중앙 생존 기간은 약 3~5년으로 예후가 좋지 않음.
@@ -64,4 +63,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022](https://www.thoracic.org/statements/guideline-implementation-tools/matrix-guidelines-and-derivatives-ipf-update.php), [ERS/EULAR CTD-ILD 지침 2025](https://publications.ersnet.org/content/erj/early/2025/09/04/1399300302533-2024), [ERS ILD 공식 지침 목록](https://channel.ersnet.org/hp-321-1-interstitial-lung-diseases)을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022, ERS/EULAR CTD-ILD 지침 2025, ERS ILD 공식 지침 목록을 대조. 2026-09-14 기존 목차 내 보완.

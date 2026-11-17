@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ATS/IDSA CAP 지침 | https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults/", "NICE NG250 | https://www.nice.org.uk/guidance/ng250/chapter/Recommendations"]
 ---
 분과 : [[호흡기]]
 
@@ -58,7 +59,6 @@ reviewed_at: "2026-07-30"
 - 원인·연령·임신·QT 및 상호작용을 보아 macrolide, doxycycline 또는 호흡기 fluoroquinolone을 선택한다. 임상 양상만으로 '비정형'을 확정해 폐렴구균 치료를 생략하지 않으며 입원 CAP는 적절한 beta-lactam 병용 등을 적용한다.
 - 외래 치료 후 **48–72시간 내 호전 추세**를 확인하고, 악화·저산소증·저혈압·섭취 불가 시 5–7일을 기다리지 않고 재평가·입원한다. 반응 부재는 내성, Legionella, 합병증·다른 진단을 검토한다.
 - 항생제 기간은 임상 안정·원인균에 맞추며 Legionella·면역저하·중증/폐외 합병증에는 일반적인 최단 CAP 기간을 그대로 적용하지 않는다. 임상 회복 후 모든 환자에게 2주 내 재촬영을 일괄 시행하지 않는다.
-- 근거: [ATS/IDSA CAP 지침](https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults/), [NICE NG250](https://www.nice.org.uk/guidance/ng250/chapter/Recommendations).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 외래 치료로 호전되나, 고령자나 기저질환자는 중증 폐렴, ARDS, 패혈성 쇼크로 진행할 수 있다.

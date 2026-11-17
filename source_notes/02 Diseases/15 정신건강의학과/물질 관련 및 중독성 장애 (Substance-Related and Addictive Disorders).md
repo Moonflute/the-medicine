@@ -29,11 +29,7 @@ group_members:
 - 자극제 (Stimulants)
 - 진정제, 수면제 (Sedatives, Hypnotics)
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "ASAM 알코올 금단관리 가이드라인, 2020 | https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline"
-  - "ASAM/AAAP 자극제 사용장애 가이드라인, 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/"
-  - "ASAM 등 benzodiazepine 감량 공동 가이드라인, 2025 | https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering"
-  - "ASAM 오피오이드 사용장애 임상 가이드라인, 2020 집중개정 | https://www.asam.org/quality-care/clinical-guidelines/national-practice-guideline"
+sources: ["ASAM 알코올 금단관리 가이드라인, 2020 | https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline", "ASAM/AAAP 자극제 사용장애 가이드라인, 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/", "ASAM 등 benzodiazepine 감량 공동 가이드라인, 2025 | https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering", "ASAM 오피오이드 사용장애 임상 가이드라인, 2020 집중개정 | https://www.asam.org/quality-care/clinical-guidelines/national-practice-guideline"]
 ---
 # 물질 관련 및 중독성 장애
 
@@ -75,8 +71,3 @@ AUDIT 등 설문은 선별 도구이며 약물 검사 양성만으로 중독의 
 - [[진정제, 수면제 (Sedatives, Hypnotics)]]
 
 ## 참고 자료
-
-- [ASAM 알코올 금단관리 가이드라인, 2020](https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline)
-- [ASAM/AAAP 자극제 사용장애 가이드라인, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/)
-- [ASAM 등 benzodiazepine 감량 공동 가이드라인, 2025](https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering)
-- [ASAM 오피오이드 사용장애 임상 가이드라인, 2020 집중개정](https://www.asam.org/quality-care/clinical-guidelines/national-practice-guideline)

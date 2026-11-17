@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["LCIS 2026 | https://doi.org/10.1001/jamasurg.2026.3552", "NICE | https://www.nice.org.uk/guidance/ng101/chapter/Recommendations"]
 ---
 분과 : [[부인과]]
 
@@ -23,7 +24,6 @@ reviewed_at: "2026-07-30"
 - **정의** 암세포가 기저막을 침범하지 않고 상피 내에 국한된 상태 (Non-invasive breast cancer).
 - **종류** 관상피내암(DCIS)과 소엽상피내암(LCIS)이 대표적임.
 - **기전** 유관이나 소엽의 상피세포에서 발생하며, 기저막을 통과하지 않아 전이 가능성이 매우 낮음.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -51,7 +51,7 @@ reviewed_at: "2026-07-30"
 - **파제트병**: 병변의 범위에 따라 유방 보존술 또는 전절제술을 시행하며, 수술 후 방사선 치료를 병행하여 국소 제어율을 높임.
 - **추적 관찰 및 예방**: 치료 후 반대측 유방을 포함한 재발 가능성을 상시 모니터링하고, 정기적인 유방 촬영술 및 임상 검진을 통해 조기 발견을 도모함.
 
-- **조직형별 예외**: classic LCIS는 영상–병리가 일치하면 관찰 가능하지만 pleomorphic/florid LCIS는 음성 절제연을 확보하는 절제를 검토한다. DCIS 전절제 시 감시림프절 생검을 함께 시행하며, 보존술에서는 침윤 의심 등 별도 사유가 없으면 생략한다. 순수 DCIS/LCIS에 침윤암용 항암을 일률적으로 시행하지 않는다. [LCIS 2026](https://doi.org/10.1001/jamasurg.2026.3552) · [NICE](https://www.nice.org.uk/guidance/ng101/chapter/Recommendations)
+- **조직형별 예외**: classic LCIS는 영상–병리가 일치하면 관찰 가능하지만 pleomorphic/florid LCIS는 음성 절제연을 확보하는 절제를 검토한다. DCIS 전절제 시 감시림프절 생검을 함께 시행하며, 보존술에서는 침윤 의심 등 별도 사유가 없으면 생략한다. 순수 DCIS/LCIS에 침윤암용 항암을 일률적으로 시행하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 시 예후가 매우 우수함.

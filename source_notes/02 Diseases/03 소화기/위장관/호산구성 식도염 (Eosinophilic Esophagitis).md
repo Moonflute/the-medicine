@@ -14,6 +14,7 @@ CC:
 preprocessing_required: x
 clinical_priority: "tier_3"
 review_status: "samsung8e_source_integrated"
+sources: ["ACG 2025 | https://gi.org/journals-publications/ebgi/eluri_feb2025/"]
 ---
 분과 : [[소화기]]
 
@@ -39,9 +40,9 @@ review_status: "samsung8e_source_integrated"
 - 난치성 질환은 전문의가 치료 반응과 순응도를 재평가하고 dupilumab 등 단계적 치료를 검토한다. 전신 스테로이드를 일상적인 유지요법으로 사용하지 않는다.
 - 협착은 필요 시 확장술을 병행하되 항염증 치료도 지속한다. 증상만으로 관해를 판단하지 않고 내시경·조직 반응을 함께 평가한다.
 
-- **약물 전환과 반응 확인**: PPI·삼키는 국소 steroid·경험적 제거식 중 1차 전략을 정하고 내시경/생검으로 반응을 확인한다. PPI 불응 또는 단계 상승이 필요한 경우 dupilumab을 검토한다. 조직 호산구 <15/HPF는 유용한 반응 목표이며, 증상 호전만으로 염증 소실을 판단하지 않는다. 확장술은 협착·음식 매복 위험을 줄이지만 항염증 유지치료를 대체하지 않는다. [ACG 2025](https://gi.org/journals-publications/ebgi/eluri_feb2025/)
+- **약물 전환과 반응 확인**: PPI·삼키는 국소 steroid·경험적 제거식 중 1차 전략을 정하고 내시경/생검으로 반응을 확인한다. PPI 불응 또는 단계 상승이 필요한 경우 dupilumab을 검토한다. 조직 호산구 <15/HPF는 유용한 반응 목표이며, 증상 호전만으로 염증 소실을 판단하지 않는다. 확장술은 협착·음식 매복 위험을 줄이지만 항염증 유지치료를 대체하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 재발성 경과를 보일 수 있으며 음식 매복과 섬유성 협착이 주요 합병증이다. 증상 호전 후에도 유지치료와 재평가를 계획한다.
 
-출처: 삼성서울병원 메뉴얼. [ACG EoE 지침 2025](https://gi.org/journals-publications/ebgi/eluri_feb2025/).
+출처: 삼성서울병원 메뉴얼.

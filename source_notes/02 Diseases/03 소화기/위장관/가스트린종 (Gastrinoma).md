@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NCI 내분비·신경내분비종양 유전학 PDQ | https://www.cancer.gov/types/thyroid/hp/medullary-thyroid-genetics-pdq", "JNETS 진료지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8531106/"]
 ---
 분과 : [[소화기]]
 
@@ -23,7 +24,6 @@ reviewed_at: "2026-07-30"
 - **원인**: 췌장 또는 십이지장 벽에서 주로 발생하며, 약 40~60%는 다발성 내분비 선종증(MEN)과 연관됨
 
 - **기전**: 가스트린의 과도한 분비로 인한 위산 과다 분비 및 이로 인한 난치성 소화성 궤양 발생
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -49,7 +49,6 @@ reviewed_at: "2026-07-30"
 - **산발성·비전이성으로 절제 가능**하면 수술을 평가한다. MEN1 관련 다발성 작은 십이지장 병변에는 같은 원칙을 일률적으로 적용하지 않으며, **2 cm 초과 종양·성장·전이 위험**과 수술 범위를 함께 논의한다. 크기는 MEN1 환자의 선택 요소이며 모든 가스트린종의 단일 수술 기준이 아니다.
 - **전이성 질환**은 분화도·Ki-67·진행 속도·소마토스타틴 수용체 발현과 종양량에 따라 somatostatin analogue, 표적치료, PRRT 또는 항암치료를 선택한다. 전이성 신경내분비종양을 모두 한 종류의 항암제로 치료하지 않는다.
 - MEN1 평가와 가족 선별, 산 분비 조절 및 영상 추적을 병행한다.
-- 근거: [NCI 내분비·신경내분비종양 유전학 PDQ](https://www.cancer.gov/types/thyroid/hp/medullary-thyroid-genetics-pdq), [JNETS 진료지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC8531106/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 종양의 완전 절제 여부가 예후를 결정함 (완전 절제 시 5년 생존율 >90%)

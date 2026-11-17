@@ -14,7 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-17"
 guideline_year: "2024"
-sources: ["Updated European guidelines for clinical management of familial adenomatous polyposis (FAP), MUTYH-associated polyposis (MAP), gastric adenocarcinoma, proximal polyposis of the stomach (GAPPS) and other rare adenomatous polyposis syndromes: a joint EHTG-ESCP revision. | https://pubmed.ncbi.nlm.nih.gov/38722804/"]
+sources: ["Updated European guidelines for clinical management of familial adenomatous polyposis (FAP), MUTYH-associated polyposis (MAP), gastric adenocarcinoma, proximal polyposis of the stomach (GAPPS) and other rare adenomatous polyposis syndromes: a joint EHTG-ESCP revision. | https://pubmed.ncbi.nlm.nih.gov/38722804/", "EHTG–ESCP 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11081080/"]
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
@@ -26,7 +26,6 @@ review_status: "guideline_enriched"
 - **원인**: APC 유전자 변이 (5q21)
 
 - **기전**: APC 유전자의 생식세포 돌연변이로 인해 Wnt 신호전달 경로가 비정상적으로 활성화되어 용종이 형성되고, 이후 추가적인 유전자 변이를 거쳐 대장암으로 진행
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -52,7 +51,7 @@ review_status: "guideline_enriched"
 ## 5. 치료 (Treatment)
 - **대장절제 시점**: 확진/의심 암, 고도이형성, 심한 출혈·증상, 내시경으로 감시·제거할 수 없는 용종 부담 또는 빠른 증가가 있으면 수술을 앞당긴다. 무증상이라는 이유로 무기한 관찰하거나 진단 즉시 모든 연령에 같은 수술을 시행하지 않는다.
 - **수술 범위**: 직장 용종 부담·제거 가능성, 암 위험, 괄약근 기능·임신 계획 및 추적 순응도를 반영해 직장 보존 IRA와 전대장직장절제/IPAA 등을 선택한다. 직장을 남기면 평생 감시와 향후 추가 수술 가능성을 설명한다.
-- **약물과 감시**: NSAID 계열 chemoprevention은 선택적으로 사용하며 대장절제·정기 내시경을 대체하지 않는다. 수술 후에도 잔여 직장/회낭, 십이지장·유두부 등 위험 부위를 병변 부담에 맞춰 감시한다. [EHTG–ESCP 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11081080/)
+- **약물과 감시**: NSAID 계열 chemoprevention은 선택적으로 사용하며 대장절제·정기 내시경을 대체하지 않는다. 수술 후에도 잔여 직장/회낭, 십이지장·유두부 등 위험 부위를 병변 부담에 맞춰 감시한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 40세 이전에 거의 모든 환자에서 대장암 발생

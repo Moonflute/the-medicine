@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["WSES Bologna 유착성 소장폐쇄 지침 2017 update | https://link.springer.com/article/10.1186/s13017-018-0185-2", "Merck Manual 장폐쇄 | https://www.merckmanuals.com/professional/gastrointestinal-disorders/acute-abdomen-and-surgical-gastroenterology/intestinal-obstruction", "Merck Manual 마비성 장폐쇄 | https://www.merckmanuals.com/professional/gastrointestinal-disorders/acute-abdomen-and-surgical-gastroenterology/ileus", "교액성 소장폐쇄 CT 연구 | https://pubmed.ncbi.nlm.nih.gov/22910982/", "폐쇄고리 허혈·괴사 CT 연구 | https://pubmed.ncbi.nlm.nih.gov/29679213/", "Small bowel feces sign 연구 | https://pubmed.ncbi.nlm.nih.gov/29045179/", "EAST 소장폐쇄 평가·관리 지침 | https://www.east.org/education-resources/practice-management-guidelines/details/smallbowel-obstruction-evaluation-and-management-of", "MASCC 악성 장폐쇄 권고 2022 | https://link.springer.com/article/10.1007/s00520-022-06889-8", "AGA 악성 소화관 폐쇄 전문가 권고 2021 | https://pubmed.ncbi.nlm.nih.gov/33813072/"]
 ---
 분과 : [[소화기]]
 
@@ -85,12 +86,3 @@ reviewed_at: "2026-10-08"
 출처 : StatPearls (Small Bowel Obstruction)
 
 참고: 삼성서울병원 메뉴얼.
-- [WSES Bologna 유착성 소장폐쇄 지침 2017 update](https://link.springer.com/article/10.1186/s13017-018-0185-2)
-- [Merck Manual 장폐쇄](https://www.merckmanuals.com/professional/gastrointestinal-disorders/acute-abdomen-and-surgical-gastroenterology/intestinal-obstruction)
-- [Merck Manual 마비성 장폐쇄](https://www.merckmanuals.com/professional/gastrointestinal-disorders/acute-abdomen-and-surgical-gastroenterology/ileus)
-- [교액성 소장폐쇄 CT 연구](https://pubmed.ncbi.nlm.nih.gov/22910982/)
-- [폐쇄고리 허혈·괴사 CT 연구](https://pubmed.ncbi.nlm.nih.gov/29679213/)
-- [Small bowel feces sign 연구](https://pubmed.ncbi.nlm.nih.gov/29045179/)
-- [EAST 소장폐쇄 평가·관리 지침](https://www.east.org/education-resources/practice-management-guidelines/details/smallbowel-obstruction-evaluation-and-management-of)
-- [MASCC 악성 장폐쇄 권고 2022](https://link.springer.com/article/10.1007/s00520-022-06889-8)
-- [AGA 악성 소화관 폐쇄 전문가 권고 2021](https://pubmed.ncbi.nlm.nih.gov/33813072/)

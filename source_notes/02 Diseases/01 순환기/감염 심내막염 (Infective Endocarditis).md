@@ -18,7 +18,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2023"
-sources: ["2023 ESC Guidelines for the management of endocarditis | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Endocarditis-Guidelines"]
+sources: ["2023 ESC Guidelines for the management of endocarditis | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Endocarditis-Guidelines", "ESC 2023 | https://academic.oup.com/eurheartj/article/44/39/3948/7243107"]
 content_updated_at: "2026-11-17"
 
 ---
@@ -75,14 +75,14 @@ content_updated_at: "2026-11-17"
 - 미생물학적 소견: Major criteria에 맞지 않는 혈액배양 양성.
 
 ## 5. 치료
-- **항균제 선택**: 혈액배양을 확보한 뒤 자연판막/인공판막·삽입 시점·의료관련 노출·이전 항균제·신기능에 맞춰 staphylococci, streptococci, enterococci 등을 경험적으로 포함하고 감수성 결과로 좁힌다. MSSA는 항포도알균 β-lactam, MRSA는 vancomycin 또는 적절한 daptomycin 요법, E. faecalis는 감수성에 따른 ampicillin＋ceftriaxone 등을 검토한다. 포도알균 자연판막 감염에 gentamicin을 관례적으로 추가하지 않는다. 인공물 감염의 rifampin은 감수성과 균혈증 조절 시점을 확인해 사용한다. [ESC 2023](https://academic.oup.com/eurheartj/article/44/39/3948/7243107)
+- **항균제 선택**: 혈액배양을 확보한 뒤 자연판막/인공판막·삽입 시점·의료관련 노출·이전 항균제·신기능에 맞춰 staphylococci, streptococci, enterococci 등을 경험적으로 포함하고 감수성 결과로 좁힌다. MSSA는 항포도알균 β-lactam, MRSA는 vancomycin 또는 적절한 daptomycin 요법, E. faecalis는 감수성에 따른 ampicillin＋ceftriaxone 등을 검토한다. 포도알균 자연판막 감염에 gentamicin을 관례적으로 추가하지 않는다. 인공물 감염의 rifampin은 감수성과 균혈증 조절 시점을 확인해 사용한다.
 - **수술적 치료**:
 - 항생제 치료에도 조절되지 않는 감염, 심부전 동반, 진균 감염, 판막 주위 농양, 심차단, 반복되는 색전증 또는 큰 vegetation(> 10mm) 발생 시 고려한다.
 - **초기 의사결정**: 쇼크·패혈증에서는 배양 채취 직후 경험적 정주 항균제를 시작하고, 안정적 환자에서는 배양 및 감염원 평가를 확보한 뒤 가능한 한 빠르게 원인균·감수성·자연판막/인공판막/기기 여부에 맞춰 좁힌다. 정해진 단일 경험요법을 모든 환자에게 적용하지 않는다.
 - **팀 기반 치료**: 심부전, 조절되지 않는 감염, 색전 예방이 수술 판단의 핵심 축이다. 이 중 하나가 있거나 인공판막·기기 관련 감염, 판막주위 합병증, 뇌졸중 동반 시에는 심장판막센터/감염심내막염 팀에 조기 상의한다. 경구·외래 항균치료 전환은 임상 안정성, 배양 경과, TEE상 국소 진행·중증 판막기능장애 부재를 확인한 뒤 개별화한다.
 - 치료 중 지속 발열은 판륜·심근 농양, 전이 감염, 약물열 또는 병원감염을 재평가하는 신호다. 다른 임상 악화가 없는 잔존 vegetation만으로 치료 실패를 단정하지 않는다. 치료 종료 시 TTE를 기준으로 심기능을 평가하고 이후 심부전 증상과 치과 감염원을 추적한다.
 
-- **수술 시급성**: 급성 판막 역류/폐쇄로 폐부종·심인성 쇼크가 있으면 항균제 종료를 기다리지 않고 응급 수술을 평가한다. 농양·누공·새 전도장애, 적절한 치료에도 지속되는 균혈증, 반복 색전과 잔존 ≥10 mm vegetation은 긴급 수술 판단에 반영한다. vegetation 크기 하나만으로 모든 환자의 수술을 확정하지 않는다. [ESC 2023](https://academic.oup.com/eurheartj/article/44/39/3948/7243107)
+- **수술 시급성**: 급성 판막 역류/폐쇄로 폐부종·심인성 쇼크가 있으면 항균제 종료를 기다리지 않고 응급 수술을 평가한다. 농양·누공·새 전도장애, 적절한 치료에도 지속되는 균혈증, 반복 색전과 잔존 ≥10 mm vegetation은 긴급 수술 판단에 반영한다. vegetation 크기 하나만으로 모든 환자의 수술을 확정하지 않는다.
 
 ## 6. 예후 및 합병증
 - **예후**: 심부전, 색전증(뇌졸중 등), 농양 형성, 판막 손상 등이 발생할 수 있다.

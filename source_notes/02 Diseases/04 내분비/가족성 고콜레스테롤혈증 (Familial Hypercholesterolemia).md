@@ -13,7 +13,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association (2026) | https://pubmed.ncbi.nlm.nih.gov/41741298/", "2022 Consensus statement on the management of familial hypercholesterolemia in Korea | https://www.kjim.org/journal/view.php?number=22121"]
+sources: ["Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association (2026) | https://pubmed.ncbi.nlm.nih.gov/41741298/", "2022 Consensus statement on the management of familial hypercholesterolemia in Korea | https://www.kjim.org/journal/view.php?number=22121", "한국지질·동맥경화학회 5판 | https://lipid.or.kr/eng/pub/images/guidlines_2022.pdf"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -56,7 +56,7 @@ content_updated_at: "2026-11-17"
 - **치료 목표**: 심혈관 질환 예방을 위해 강화된 LDL-C 목표치 설정 및 지속적 모니터링.
 출처: Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association.
 
-- **치료 강화 판단**: LDL-C를 기저치에서 ≥50% 낮추는 반응과 위험군별 절대 목표를 함께 본다. 관상동맥질환 동반이면 국내 목표 <55 mg/dL을 적용하며, 충분한 최대 내약 statin·ezetimibe에도 목표 미달이면 PCSK9 기반 치료 등 추가 약제를 논의한다. LDL-C ≥190 mg/dL은 이차 원인을 배제한 뒤 FH 평가와 적극적 약물치료를 시작하는 중요한 기준이며, 단기 위험도 점수가 낮다고 치료를 미루지 않는다. [한국지질·동맥경화학회 5판](https://lipid.or.kr/eng/pub/images/guidlines_2022.pdf)
+- **치료 강화 판단**: LDL-C를 기저치에서 ≥50% 낮추는 반응과 위험군별 절대 목표를 함께 본다. 관상동맥질환 동반이면 국내 목표 <55 mg/dL을 적용하며, 충분한 최대 내약 statin·ezetimibe에도 목표 미달이면 PCSK9 기반 치료 등 추가 약제를 논의한다. LDL-C ≥190 mg/dL은 이차 원인을 배제한 뒤 FH 평가와 적극적 약물치료를 시작하는 중요한 기준이며, 단기 위험도 점수가 낮다고 치료를 미루지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적극적인 LDL-C 저하 치료를 통해 관상동맥 죽상경화증의 진행을 늦추거나 예방할 수 있다.

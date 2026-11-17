@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC VVC | https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm"]
 ---
 분과 : [[부인과]]
 
@@ -45,7 +46,7 @@ reviewed_at: "2026-07-30"
 - **재발성 질염 관리**: CDC는 1년 미만 기간에 증상성 감염 ≥3회를 재발성으로 정의한다. 배양/분자검사로 균종을 확인하고 필요 시 감수성을 검사한다.
 
 - **요법을 늘리는 조건**: 비임신 단순 감염은 국소 azole 또는 fluconazole 150 mg 1회가 가능하다. 심한 발적·부종·균열이면 국소 azole 7–14일 또는 fluconazole 150 mg을 72시간 간격으로 2회 사용한다. 재발성 C. albicans는 국소 7–14일 또는 fluconazole 1·4·7일 유도 후 주 1회 6개월 유지요법을 검토한다.
-- **임신·비알비칸스**: 임신 중에는 국소 azole 7일을 사용하고 경구 fluconazole을 피한다. 비알비칸스·치료 불응은 다른 원인과 내성을 확인하고 균종별 치료로 변경하며, 무증상 집락만으로 치료하지 않는다. [CDC VVC](https://www.cdc.gov/std/treatment-guidelines/candidiasis.htm)
+- **임신·비알비칸스**: 임신 중에는 국소 azole 7일을 사용하고 경구 fluconazole을 피한다. 비알비칸스·치료 불응은 다른 원인과 내성을 확인하고 균종별 치료로 변경하며, 무증상 집락만으로 치료하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 적절한 항진균제 치료로 호전됨.

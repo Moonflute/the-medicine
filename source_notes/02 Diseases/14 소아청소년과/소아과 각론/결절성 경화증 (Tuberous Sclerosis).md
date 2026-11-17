@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["국제 합의 2021 | https://www.tscalliance.org/wp-content/uploads/2022/01/2021-TSC-Diagnostic-Criteria-Surveillance-and-Management-Recommendations.pdf", "ERKNet/ERA 2024 | https://www.nature.com/articles/s41581-024-00818-0"]
 ---
 분과 : [[소아청소년과]]
 
@@ -46,7 +47,7 @@ reviewed_at: "2026-07-30"
 * **정기 추적 관찰**: 뇌 MRI, 복부 영상 검사, 심장 초음파, 안저 검사 등을 주기적으로 시행하여 합병증을 조기에 발견하고 관리함.
 * **유전 상담**: 환자 및 가족을 대상으로 질환의 유전 양식과 재발 위험성에 대한 상담을 제공함.
 
-* **병변별 개입 기준**: 급성 수두증·신경학적 악화를 일으키는 SEGA는 수술을 우선 평가하고, 성장하지만 급성 증상이 없는 SEGA는 절제 가능성과 전신 병변을 보고 수술 또는 mTOR 억제제를 선택한다. 신장 혈관근지방종은 **무증상이나 성장하며 >3 cm**이면 mTOR 억제제를 우선 고려하고, 급성 출혈이면 선택적 색전술을 우선 평가한다. 작은 병변도 빠른 성장·동맥류 등 출혈 위험에 따라 조기 개입할 수 있다. TSC 관련 영아연축은 vigabatrin이 우선이다. [국제 합의 2021](https://www.tscalliance.org/wp-content/uploads/2022/01/2021-TSC-Diagnostic-Criteria-Surveillance-and-Management-Recommendations.pdf), [ERKNet/ERA 2024](https://www.nature.com/articles/s41581-024-00818-0)
+* **병변별 개입 기준**: 급성 수두증·신경학적 악화를 일으키는 SEGA는 수술을 우선 평가하고, 성장하지만 급성 증상이 없는 SEGA는 절제 가능성과 전신 병변을 보고 수술 또는 mTOR 억제제를 선택한다. 신장 혈관근지방종은 **무증상이나 성장하며 >3 cm**이면 mTOR 억제제를 우선 고려하고, 급성 출혈이면 선택적 색전술을 우선 평가한다. 작은 병변도 빠른 성장·동맥류 등 출혈 위험에 따라 조기 개입할 수 있다. TSC 관련 영아연축은 vigabatrin이 우선이다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 증상의 심각도 및 침범 장기에 따라 매우 다양함

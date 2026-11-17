@@ -21,10 +21,7 @@ review_status: official_guideline_reviewed
 reviewed_at: '2026-10-07'
 content_updated_at: "2026-11-17"
 guideline_year: '2026'
-sources:
-- 'Australian Red Cross Lifeblood: Management of critical bleeding, 2025 | https://www.lifeblood.com.au/health-professionals/clinical-practice/clinical-indications/management-of-critical-bleeding'
-- 'Australian Red Cross Lifeblood: Massive transfusion complications, 2026 | https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/massive-transfusion-complications'
-- 'Canadian Blood Services: Blood administration | https://professionaleducation.blood.ca/en/transfusion/clinical-guide/blood-administration'
+sources: ["Australian Red Cross Lifeblood: Management of critical bleeding, 2025 | https://www.lifeblood.com.au/health-professionals/clinical-practice/clinical-indications/management-of-critical-bleeding", "Australian Red Cross Lifeblood: Massive transfusion complications, 2026 | https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/massive-transfusion-complications", "Canadian Blood Services: Blood administration | https://professionaleducation.blood.ca/en/transfusion/clinical-guide/blood-administration", "AABB/ICTMG 2025 | https://jamanetwork.com/journals/jama/article-abstract/2834703", "AABB 2025 AMI | https://pubmed.ncbi.nlm.nih.gov/40825204/"]
 disease_family: transfusion-components
 ---
 분과 : [[혈액]], [[외과]], [[응급의학]]
@@ -59,8 +56,8 @@ disease_family: transfusion-components
 - 과도한 결정질 수액만으로 출혈을 보상하지 않는다. 적절한 혈액 보온, 산증·이온화 저칼슘혈증 교정과 상황별 항섬유소용해제 사용을 고려한다.
 - 칼슘 투여는 citrate 관련 저칼슘혈증을 교정하는 것이며, 저장혈의 칼륨 증가를 막기 위한 약물이 아니다. 제제 혼합·투여는 호환성과 기관 지침을 따른다.
 
-- **예방 혈소판 수혈의 시술별 기준(AABB/ICTMG 2025):** 비출혈성 항암/동종이식 관련 저생산 혈소판감소는 통상 **<10,000/μL**, 요추천자 **<20,000/μL**, 주요 비신경축 수술 **<50,000/μL**에서 투여를 권고한다. 중추신경계 수술·경막외 시술·활동성 출혈·혈소판 기능장애는 별도 목표와 기관 지침을 적용하며, 이 수치들을 서로 바꾸어 쓰지 않는다. [AABB/ICTMG 2025](https://jamanetwork.com/journals/jama/article-abstract/2834703)
-- 적혈구는 안정 입원 성인의 Hb <7 g/dL를 대표 기준으로 삼되, 활동성 대량출혈은 수치보다 출혈·관류 상태에 따라 즉시 보충한다. 급성 심근경색은 Hb <10 g/dL에서 수혈을 고려하는 AABB 2025 조건부 권고를 별도로 적용한다. [AABB 2025 AMI](https://pubmed.ncbi.nlm.nih.gov/40825204/)
+- **예방 혈소판 수혈의 시술별 기준(AABB/ICTMG 2025):** 비출혈성 항암/동종이식 관련 저생산 혈소판감소는 통상 **<10,000/μL**, 요추천자 **<20,000/μL**, 주요 비신경축 수술 **<50,000/μL**에서 투여를 권고한다. 중추신경계 수술·경막외 시술·활동성 출혈·혈소판 기능장애는 별도 목표와 기관 지침을 적용하며, 이 수치들을 서로 바꾸어 쓰지 않는다.
+- 적혈구는 안정 입원 성인의 Hb <7 g/dL를 대표 기준으로 삼되, 활동성 대량출혈은 수치보다 출혈·관류 상태에 따라 즉시 보충한다. 급성 심근경색은 Hb <10 g/dL에서 수혈을 고려하는 AABB 2025 조건부 권고를 별도로 적용한다.
 
 ## 6. 예후 및 합병증
 - 저체온, 저칼슘혈증, 칼륨 이상, 응고장애, 용혈·수혈 반응과 순환 과부하를 감시한다. 출혈이 조절되면 프로토콜을 종료하고 필요한 제제만 투여한다.

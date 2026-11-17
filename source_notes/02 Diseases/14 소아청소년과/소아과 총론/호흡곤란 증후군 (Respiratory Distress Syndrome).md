@@ -17,7 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-18"
 guideline_year: "2026"
-sources: ["European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025. | https://pubmed.ncbi.nlm.nih.gov/41802129/"]
+sources: ["European Consensus Guidelines on the Management of Respiratory Distress Syndrome: 2025. | https://pubmed.ncbi.nlm.nih.gov/41802129/", "European RDS consensus 2025 | https://doi.org/10.1159/000551062"]
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
@@ -69,7 +69,6 @@ review_status: "guideline_enriched"
 - **호흡 보조 선택**: 자발호흡이 있으면 CPAP/NIPPV 등 비침습적 지지를 우선하고, 반복 무호흡·지속 저산소혈증·환기 실패이면 삽관한다. 기계환기가 필요하면 용적표적 환기를 고려하고 가능한 한 조기에 비침습적 지지로 전환한다.
 - **계면활성제 투여 기준(유럽 2025 권고, 2026 발표)**: 재태주수 >28주에서 RDS가 악화되고 비침습적 지지 중 평균기도압 ≥6 cmH₂O에서 FiO₂ ≥0.30이 필요하거나 폐초음파가 결핍을 시사하면 조기 구조 투여를 고려한다. 자발호흡이 유지되면 가는 카테터를 통한 LISA를 우선하며, poractant alfa 초기 **200 mg/kg**이 100 mg/kg보다 선호된다. 지속적인 높은 산소 요구가 있고 다른 원인을 배제하면 추가 투여한다. 극소미숙아는 더 이른 예방적 투여 대상인지 별도로 평가한다.
 
-근거: [European RDS consensus 2025](https://doi.org/10.1159/000551062).
 
 ## 6. 예후 및 합병증
 - **ARDS**: 기흉, 다발성 장기부전, 장기적인 폐 기능 저하 및 인지 기능 변화 가능성

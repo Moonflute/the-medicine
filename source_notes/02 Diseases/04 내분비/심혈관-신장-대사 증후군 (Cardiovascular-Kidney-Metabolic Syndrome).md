@@ -23,11 +23,7 @@ content_updated_at: '2026-10-21'
 reviewed_at: '2026-10-21'
 review_status: guideline_enriched
 guideline_year: '2026'
-sources:
-- 'AHA ACC ADA ASN 2026 CKM syndrome guideline | https://professional.heart.org/en/science-news/2026-guideline-for-the-prevention-detection-evaluation-and-management-of-ckm-syndrome'
-- 'AHA 2026 CKM guideline key recommendations | https://professional.heart.org/en/science-news/2026-guideline-for-the-prevention-detection-evaluation-and-management-of-ckm-syndrome/top-things-to-know'
-- 'AHA 2026 CKM staging explanation | https://professional.heart.org/en/science-news/-/media/3794C9A489854F4ABC9D23BF974B5657.ashx'
-- 'AHA 2026 PREVENT-guided CKM treatment | https://professional.heart.org/en/science-news/use-of-predicted-risk-guide-decisionmaking-in-ckm-syndrome/top-things-to-know'
+sources: ["AHA ACC ADA ASN 2026 CKM syndrome guideline | https://professional.heart.org/en/science-news/2026-guideline-for-the-prevention-detection-evaluation-and-management-of-ckm-syndrome", "AHA 2026 CKM guideline key recommendations | https://professional.heart.org/en/science-news/2026-guideline-for-the-prevention-detection-evaluation-and-management-of-ckm-syndrome/top-things-to-know", "AHA 2026 CKM staging explanation | https://professional.heart.org/en/science-news/-/media/3794C9A489854F4ABC9D23BF974B5657.ashx", "AHA 2026 PREVENT-guided CKM treatment | https://professional.heart.org/en/science-news/use-of-predicted-risk-guide-decisionmaking-in-ckm-syndrome/top-things-to-know"]
 ---
 
 분과 : [[내분비]] · [[순환기]] · [[신장]]
@@ -71,7 +67,3 @@ sources:
 - 체중만이 아닌 혈압·지질·혈당·eGFR·UACR과 임상 사건을 추적한다.
 
 ## 참고 지침
-- [AHA/ACC/ADA/ASN CKM 지침(2026-06-09)](https://professional.heart.org/en/science-news/2026-guideline-for-the-prevention-detection-evaluation-and-management-of-ckm-syndrome)
-- [공식 핵심 권고](https://professional.heart.org/en/science-news/2026-guideline-for-the-prevention-detection-evaluation-and-management-of-ckm-syndrome/top-things-to-know)
-- [AHA CKM 단계 설명](https://professional.heart.org/en/science-news/-/media/3794C9A489854F4ABC9D23BF974B5657.ashx)
-- [AHA PREVENT 기반 CKM 치료 결정](https://professional.heart.org/en/science-news/use-of-predicted-risk-guide-decisionmaking-in-ckm-syndrome/top-things-to-know)

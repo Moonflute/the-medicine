@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ACG 상부출혈 지침 | https://doi.org/10.14309/ajg.0000000000001245", "ESGE 비정맥류 출혈 2021 | https://www.esge.com/endoscopic-diagnosis-and-management-of-nonvariceal-upper-gastrointestinal-hemorrhage-esge-update-2021", "ESGE 소화성 궤양 출혈 2026 | https://doi.org/10.1055/a-2863-8314", "Baveno VIII 2026 | https://doi.org/10.1016/j.jhep.2026.07.030", "ESGE 총담관 결석 지침 | https://www.esge.com/endoscopic-management-of-common-bile-duct-stones-esge-guideline", "Tokyo Guidelines 2018 담관염 진단 | https://onlinelibrary.wiley.com/doi/10.1002/jhbp.512"]
 ---
 분과 : [[소화기]]
 
@@ -70,7 +71,7 @@ reviewed_at: "2026-10-08"
 - 위내시경으로 출혈 부위를 확인하고 내시경 소견에 맞춰 국소 주입·열적 응고·클립 등의 지혈을 시행한다. 시행 시점은 위의 비정맥류·정맥류 경로에 따른다.
 - 위산 억제를 위해 정맥 PPI를 투여하고, 정맥류 출혈 의심 시 혈관수축제와 항생제를 원내 정맥류 출혈 프로토콜에 따라 시작한다.
 
-- **수혈·외래 관리 기준**: 대부분의 혈역학적으로 안정된 성인에서는 Hb <7 g/dL를 적혈구 수혈의 기준으로 삼되, 진행 출혈·쇼크·심혈관질환은 별도 판단한다. Glasgow–Blatchford 0–1의 매우 낮은 위험도이며 경구 섭취·추적이 가능하면 외래 관리가 가능하다. 정상 초기 Hb만으로 급성 대량 출혈을 배제하지 않는다. [ACG 상부출혈 지침](https://doi.org/10.14309/ajg.0000000000001245)
+- **수혈·외래 관리 기준**: 대부분의 혈역학적으로 안정된 성인에서는 Hb <7 g/dL를 적혈구 수혈의 기준으로 삼되, 진행 출혈·쇼크·심혈관질환은 별도 판단한다. Glasgow–Blatchford 0–1의 매우 낮은 위험도이며 경구 섭취·추적이 가능하면 외래 관리가 가능하다. 정상 초기 Hb만으로 급성 대량 출혈을 배제하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 재출혈 및 사망률은 기저 질환 및 출혈 정도에 따라 다름.
@@ -83,8 +84,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ESGE 비정맥류 출혈 2021](https://www.esge.com/endoscopic-diagnosis-and-management-of-nonvariceal-upper-gastrointestinal-hemorrhage-esge-update-2021)
-- [ESGE 소화성 궤양 출혈 2026](https://doi.org/10.1055/a-2863-8314)
-- [Baveno VIII 2026](https://doi.org/10.1016/j.jhep.2026.07.030)
-- [ESGE 총담관 결석 지침](https://www.esge.com/endoscopic-management-of-common-bile-duct-stones-esge-guideline)
-- [Tokyo Guidelines 2018 담관염 진단](https://onlinelibrary.wiley.com/doi/10.1002/jhbp.512)

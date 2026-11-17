@@ -10,9 +10,7 @@ aliases:
 clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'
 guideline_year: "2026"
-sources:
-- '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
-- 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
+sources: ["대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide", "ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care"]
 disease_family: diabetes
 parent_disease: 당뇨병 (Diabetes Mellitus)
 relation_to_parent: subtype
@@ -54,6 +52,4 @@ review_status: "guideline_enriched"
 - 저혈당과 DKA는 반복 예방 교육이 필요한 급성 합병증이며, 신장·망막·신경·족부 및 갑상샘 등 자가면역 동반질환은 환자 특성에 맞춰 선별한다.
 
 ## 출처
-- 대한당뇨병학회 2025 제9판 당뇨병 진료지침: https://diabetes.or.kr/bbs/?code=guide
-- ADA Standards of Care in Diabetes 2026: https://professional.diabetes.org/standards-of-care
 - 보완 출처: 삼성서울병원 메뉴얼

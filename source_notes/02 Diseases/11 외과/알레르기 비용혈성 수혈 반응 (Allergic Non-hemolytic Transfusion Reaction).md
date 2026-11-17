@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Lifeblood 수혈반응 관리 | https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/management-of-suspected-reactions"]
 ---
 분과 : [[외과]]
 
@@ -44,7 +45,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 
 * **경증 반응**: 피부 두드러기·가려움만 있고 호흡·순환 이상이 없으면 수혈을 일시 중단하고 항히스타민제를 투여한다. 완전히 호전되고 다른 중증 반응이 배제된 경우에만 기관 규정에 따라 천천히 재개하며 밀착 관찰한다.
-* **중증 반응(아나필락시스)**: 저혈압·기관지경련·후두부종이면 같은 제제를 재개하지 않고 즉시 IM 에피네프린과 기도·산소·수액 치료를 시행한다. 항히스타민제·스테로이드는 에피네프린을 대신하거나 지연시킬 수 없다. 반복 중증 반응에서는 IgA 결핍/항체와 세척 또는 IgA 결핍 공여 제제 필요성을 혈액은행과 평가한다. [Lifeblood 수혈반응 관리](https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/management-of-suspected-reactions)
+* **중증 반응(아나필락시스)**: 저혈압·기관지경련·후두부종이면 같은 제제를 재개하지 않고 즉시 IM 에피네프린과 기도·산소·수액 치료를 시행한다. 항히스타민제·스테로이드는 에피네프린을 대신하거나 지연시킬 수 없다. 반복 중증 반응에서는 IgA 결핍/항체와 세척 또는 IgA 결핍 공여 제제 필요성을 혈액은행과 평가한다.
 * **반복적 반응 예방**: 알레르기 반응이 반복되는 경우 혈장 단백질을 제거한 세척 적혈구(washed RBC) 사용을 고려한다.
 * **감별 진단**: 증상 발생 시 용혈 반응이나 패혈증 등 치명적인 다른 수혈 부작용과의 감별을 우선적으로 시행한다.
 

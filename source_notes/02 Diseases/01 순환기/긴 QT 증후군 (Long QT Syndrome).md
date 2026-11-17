@@ -16,7 +16,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2024"
-sources: ["2024 대한부정맥학회 심실성 부정맥 및 돌연 심장사 진료지침 (II) | https://www.koreahr.org/file/2024_KSHRS_Guideline_Part2.pdf", "2022 AHA/ACC/HRS Guideline for the Diagnosis and Management of Patients With Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001091"]
+sources: ["2024 대한부정맥학회 심실성 부정맥 및 돌연 심장사 진료지침 (II) | https://www.koreahr.org/file/2024_KSHRS_Guideline_Part2.pdf", "2022 AHA/ACC/HRS Guideline for the Diagnosis and Management of Patients With Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001091", "ESC 심실부정맥 지침 2022 | https://academic.oup.com/eurheartj/article/43/40/3997/6675633"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -64,7 +64,6 @@ content_updated_at: "2026-11-18"
 
 - **심정지 생존자**는 베타차단제에 더해 ICD를 평가하며, 적절한 약물치료 중에도 부정맥성 실신/VT가 재발하면 ICD 또는 교감신경 차단을 논의한다. 무증상 QT 연장만으로 모두 ICD를 삽입하지 않는다.
 - Mexiletine은 특히 **LQT3**에서 유전자형과 QT 단축 반응을 확인해 선택한다. 모든 LQTS에서 베타차단제 다음 단계로 일괄 추가하지 않는다.
-- 근거: [ESC 심실부정맥 지침 2022](https://academic.oup.com/eurheartj/article/43/40/3997/6675633).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료를 받지 않으면 TdP 및 급사 위험 증가

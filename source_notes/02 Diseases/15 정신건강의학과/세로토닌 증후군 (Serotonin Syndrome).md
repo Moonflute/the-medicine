@@ -16,8 +16,7 @@ CC:
 관련분과:
 - 응급의학
 clinical_priority: tier_1
-sources:
-- 'MSD Manual Professional: Serotonin Syndrome | https://www.msdmanuals.com/professional/injuries-poisoning/heat-illness/serotonin-syndrome'
+sources: ["MSD Manual Professional: Serotonin Syndrome | https://www.msdmanuals.com/professional/injuries-poisoning/heat-illness/serotonin-syndrome", "정신약물 응급상황 진료지침, 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9122152/"]
 ---
 # 세로토닌 증후군 (Serotonin Syndrome)
 
@@ -30,4 +29,4 @@ sources:
 ## 즉시 할 일
 - 원인 약물을 중단하고 진정·냉각·수액 등 지지 치료를 시작한다. NMS보다 빠른 발병과 간대경련·반사항진이 두드러지는 점을 감별에 이용한다.
 
-- **중증도에 따른 증강**: 초조·떨림·간대경련에는 benzodiazepine으로 진정하면서 외부 냉각과 수액을 시행한다. 중등도 이상 증상이 지속되면 경구/위관 cyproheptadine을 독성학 자문하에 고려한다. 심한 고체온·강직, 의식 저하 또는 장기 손상이 있으면 중환자실로 옮겨 기도 확보와 필요 시 비탈분극성 근이완을 시행한다. [정신약물 응급상황 진료지침, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9122152/)
+- **중증도에 따른 증강**: 초조·떨림·간대경련에는 benzodiazepine으로 진정하면서 외부 냉각과 수액을 시행한다. 중등도 이상 증상이 지속되면 경구/위관 cyproheptadine을 독성학 자문하에 고려한다. 심한 고체온·강직, 의식 저하 또는 장기 손상이 있으면 중환자실로 옮겨 기도 확보와 필요 시 비탈분극성 근이완을 시행한다.

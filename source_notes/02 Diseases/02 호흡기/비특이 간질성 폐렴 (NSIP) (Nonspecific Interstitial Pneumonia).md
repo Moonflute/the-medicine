@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ATS/ERS/JRS/ALAT | https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/", "ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022 | https://www.thoracic.org/statements/guideline-implementation-tools/matrix-guidelines-and-derivatives-ipf-update.php", "ERS/EULAR CTD-ILD 지침 2025 | https://publications.ersnet.org/content/erj/early/2025/09/04/1399300302533-2024", "ERS ILD 공식 지침 목록 | https://channel.ersnet.org/hp-321-1-interstitial-lung-diseases"]
 ---
 분과 : [[호흡기]]
 
@@ -40,7 +41,7 @@ reviewed_at: "2026-10-08"
 - 염증성 NSIP 또는 CTD-ILD에서는 glucocorticoid와 mycophenolate 등 면역조절 치료를 질환 활성도·장기 침범·감염 위험·가임성에 따라 개별화한다. 섬유화 진행, 부작용 또는 반응 불충분 시 항섬유화 치료를 포함한 다음 전략은 근거와 환자 질환 아형에 따라 전문팀이 결정한다.
 - PFT, 산소화, 증상·기능, HRCT는 모든 환자에게 같은 간격으로 반복하지 않고 진행 위험과 치료 변경에 맞춰 추적한다. 급성 악화 시 감염과 다른 가역 원인을 우선 배제하고 산소·호흡재활을 병행한다.
 
-- **면역치료에서 항섬유화 전략으로의 재평가**: 감염·약물 독성 등을 배제한 뒤 1년 내 증상·영상·폐기능 진행 중 ≥2항목이면 PPF 기준을 검토한다. FVC 절대 ≥5%p 또는 DLCO 절대 ≥10%p 감소는 생리학적 진행 소견이다. 염증성 활동과 섬유화 진행을 구분해 기존 면역치료를 조정하거나 적절한 환자에서 nintedanib을 검토한다. [ATS/ERS/JRS/ALAT](https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/)
+- **면역치료에서 항섬유화 전략으로의 재평가**: 감염·약물 독성 등을 배제한 뒤 1년 내 증상·영상·폐기능 진행 중 ≥2항목이면 PPF 기준을 검토한다. FVC 절대 ≥5%p 또는 DLCO 절대 ≥10%p 감소는 생리학적 진행 소견이다. 염증성 활동과 섬유화 진행을 구분해 기존 면역치료를 조정하거나 적절한 환자에서 nintedanib을 검토한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조직검사상 섬유화 정도가 심할수록 예후가 불량하다.
@@ -52,6 +53,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022](https://www.thoracic.org/statements/guideline-implementation-tools/matrix-guidelines-and-derivatives-ipf-update.php)
-- [ERS/EULAR CTD-ILD 지침 2025](https://publications.ersnet.org/content/erj/early/2025/09/04/1399300302533-2024)
-- [ERS ILD 공식 지침 목록](https://channel.ersnet.org/hp-321-1-interstitial-lung-diseases)

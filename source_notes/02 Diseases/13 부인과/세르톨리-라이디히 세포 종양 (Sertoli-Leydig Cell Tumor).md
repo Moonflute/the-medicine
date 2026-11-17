@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ESMO SLCT 치료 알고리즘 | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -44,7 +45,7 @@ reviewed_at: "2026-07-30"
 - **보조 요법**: 진행성 또는 재발성 종양의 경우 항암 화학요법을 고려하며, 환자의 병기와 예후 인자에 따라 개별화된 치료 전략을 수립한다.
 - **추적 관찰**: 수술 후 혈청 호르몬 수치(테스토스테론 등)와 영상 검사를 정기적으로 시행하여 재발 여부를 감시한다.
 
-- **보조 항암의 경계**: 병기 IA이며 저분화 또는 이종(heterologous) 성분이 없으면 수술 후 관찰이 가능하다. IA의 저분화·이종 성분 또는 IA를 넘는 병기에서는 BEP 등 백금 기반 항암을 고려한다. 가임력 보존은 일측 병변에서 정상 반대편 난소·자궁을 남기는 방식으로 판단하며, 병리 재검토 및 DICER1 유전상담을 병행한다. [ESMO SLCT 치료 알고리즘](https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf)
+- **보조 항암의 경계**: 병기 IA이며 저분화 또는 이종(heterologous) 성분이 없으면 수술 후 관찰이 가능하다. IA의 저분화·이종 성분 또는 IA를 넘는 병기에서는 BEP 등 백금 기반 항암을 고려한다. 가임력 보존은 일측 병변에서 정상 반대편 난소·자궁을 남기는 방식으로 판단하며, 병리 재검토 및 DICER1 유전상담을 병행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 양성 경과를 보이나, 일부는 악성 행동을 보일 수 있다.

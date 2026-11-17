@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ASRM 난임 평가 합의 | https://integration.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2021/", "원인불명 난임 | https://www.asrm.org/practice-guidance/practice-committee-documents/evidence-based-treatments-for-couples-with-unexplained-infertility-a-guideline-2020/"]
 ---
 분과 : [[부인과]]
 
@@ -31,12 +32,10 @@ reviewed_at: "2026-07-30"
 - **기전**: 시상하부-뇌하수체-난소 축의 호르몬 불균형, 난자 질 저하, 수정 및 착상 장애
 
 
-
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 임신 실패, 월경 불순, 골반통, 성교통
 
 * **P/E**: 다모증/여드름(PCOS 의심), 갑상선 비대, 유즙 분비(고프로락틴혈증 의심), 골반 진찰(자궁/부속기 이상)
-
 
 
 ## 3. 검사 (Lab & Imaging)
@@ -47,12 +46,10 @@ reviewed_at: "2026-07-30"
 - **경부 인자**: 자궁 경관 점액 검사, 항정자 항체 검사
 
 
-
 ## 4. 진단 (Diagnosis)
 - 병력 청취 및 신체 검진을 통한 위험 인자 평가
 - 배란 기능, 난관 개통성, 자궁 구조 및 정액 분석을 통한 다각적 평가
-- 평가를 시작할 때 양쪽의 병력과 기본 검사를 병행한다. 남성 정액검사를 초기에 시행하되 결과를 기다리느라 여성 평가를 모두 미루지 않는다. 성교 후 검사, 기초체온표, 내막 날짜 맞추기 생검은 통상 초기 난임 검사가 아니다. 복강경도 별도 적응증이 없으면 일률적으로 시행하지 않는다. [ASRM 난임 평가 합의](https://integration.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2021/)
-
+- 평가를 시작할 때 양쪽의 병력과 기본 검사를 병행한다. 남성 정액검사를 초기에 시행하되 결과를 기다리느라 여성 평가를 모두 미루지 않는다. 성교 후 검사, 기초체온표, 내막 날짜 맞추기 생검은 통상 초기 난임 검사가 아니다. 복강경도 별도 적응증이 없으면 일률적으로 시행하지 않는다.
 
 
 ## 5. 치료
@@ -64,12 +61,11 @@ reviewed_at: "2026-07-30"
 - **전문의 의뢰 및 상담**: 여성 연령이 35세 이상이거나 난소 예비능 저하가 의심되는 경우 조기에 난임 전문의에게 의뢰하여 적극적인 치료 계획 수립
 
 - **평가·치료를 시작하는 시점**: 다른 위험이 없으면 <35세는 12개월, ≥35세는 6개월 시도 후 평가한다. >40세 또는 무월경·난관질환·명백한 남성 요인 등은 기다리지 않고 조기 평가한다. 여성·남성 요인과 난관 개통성을 함께 확인한다.
-- **IUI에서 IVF로 전환**: 원인불명 난임의 다수에서는 경구 배란자극 + IUI 3–4주기 후 실패하면 IVF로 전환을 검토한다. 양측 난관 폐쇄·중증 남성 요인·연령/난소예비력상 시간 제약은 더 이른 IVF/ICSI 판단 사유다. [ASRM 평가](https://integration.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2021/) · [원인불명 난임](https://www.asrm.org/practice-guidance/practice-committee-documents/evidence-based-treatments-for-couples-with-unexplained-infertility-a-guideline-2020/)
+- **IUI에서 IVF로 전환**: 원인불명 난임의 다수에서는 경구 배란자극 + IUI 3–4주기 후 실패하면 IVF로 전환을 검토한다. 양측 난관 폐쇄·중증 남성 요인·연령/난소예비력상 시간 제약은 더 이른 IVF/ICSI 판단 사유다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 난소 과자극 증후군 (OHSS), 다태 임신, 자궁외 임신
 - **예후**: 여성 연령이 가장 중요한 인자(35세 이후 가임력 급격히 감소)
-
 
 
 Last updated :

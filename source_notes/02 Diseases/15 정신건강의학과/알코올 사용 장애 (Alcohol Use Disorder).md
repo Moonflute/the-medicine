@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "캐나다 AUD 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10581718/", "SAMHSA 약제 선택·금기 | https://www.ncbi.nlm.nih.gov/sites/books/NBK64033/"]
 disease_family: psychiatry_split
 parent_disease: 물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)
 relation_to_parent: subtype
@@ -51,7 +50,6 @@ relation_to_parent: subtype
 - **재발 예방약 선택**: 중등도–중증 AUD에는 상담과 함께 naltrexone 또는 acamprosate를 우선 검토한다. **Naltrexone**은 절주·금주 목표에 사용할 수 있지만 현재 오피오이드 사용·급성 금단, 급성 간염·간부전이면 피한다. **Acamprosate**는 금주 유지에 적합하며 CrCl **30–50 mL/min에서는 감량**, **≤30에서는 금기**다. Disulfiram은 금주 목표·위험 이해·감시 복용이 가능한 경우 선택하며 갈망을 줄이는 일차약처럼 일괄 사용하지 않는다.
 - 금단 처치 종료와 AUD 치료 종료는 다르다. 음주 재개 시 효과·순응도·목표를 재평가하고 장기 치료를 이어간다.
 
-근거: [캐나다 AUD 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC10581718/), [SAMHSA 약제 선택·금기](https://www.ncbi.nlm.nih.gov/sites/books/NBK64033/).
 
 ## 6. 예후 및 합병증
 - 예후: 만성적이고 재발이 잦은 질환으로, 장기적인 추적 관찰과 다학제적 지원이 필수적임.

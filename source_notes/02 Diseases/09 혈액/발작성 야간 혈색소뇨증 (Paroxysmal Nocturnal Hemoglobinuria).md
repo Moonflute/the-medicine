@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC 보체 억제 치료 지침 | https://www.cdc.gov/meningococcal/hcp/clinical-guidance/complement-inhibitor.html"]
 ---
 분과 : [[혈액]]
 
@@ -51,7 +52,7 @@ reviewed_at: "2026-07-30"
 - 철분·엽산 보충 및 필요 시 적혈구 수혈을 제공하고, 혈전 위험이 높을 경우 항응고 요법을 검토한다.
 - 골수부전이 심하거나 재생불량이 진행하면 이식·면역억제치료 적합성을 평가한다. 보체 억제제는 용혈을 억제하지만 동반 골수부전 자체를 교정하는 치료는 아니다.
 
-- **보체 억제 전:** MenACWY와 MenB 접종을 가능하면 **첫 투여 ≥2주 전** 완료한다. 급박한 용혈·혈전 위험으로 기다릴 수 없으면 접종과 항균 예방을 포함한 계획하에 시작할 수 있다. 접종 후에도 수막알균 위험이 남으므로 발열·패혈증 징후는 즉시 평가한다. [CDC 보체 억제 치료 지침](https://www.cdc.gov/meningococcal/hcp/clinical-guidance/complement-inhibitor.html)
+- **보체 억제 전:** MenACWY와 MenB 접종을 가능하면 **첫 투여 ≥2주 전** 완료한다. 급박한 용혈·혈전 위험으로 기다릴 수 없으면 접종과 항균 예방을 포함한 계획하에 시작할 수 있다. 접종 후에도 수막알균 위험이 남으므로 발열·패혈증 징후는 즉시 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 혈전증이 주요 사망 원인.

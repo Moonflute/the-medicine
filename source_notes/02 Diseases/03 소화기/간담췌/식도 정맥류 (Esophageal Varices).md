@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["Baveno VII | https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/", "Baveno VII 합의문 | https://www.sciencedirect.com/science/article/abs/pii/S0168827821022996", "Baveno VIII 2026 | https://www.journal-of-hepatology.eu/article/S0168-8278%2826%2902778-9/fulltext"]
 ---
 분과 : [[소화기]]
 
@@ -67,7 +68,6 @@ reviewed_at: "2026-10-08"
 
 - **선제 TIPS 대상**: 급성 출혈에서 **Child-Pugh C 10–13점**, 또는 **Child-Pugh B 8–9점이면서 초기 내시경에서 활동성 출혈**이면 초기 지혈 성공 여부와 별개로 **72시간 이내(가능하면 24시간 이내)** 선제 TIPS를 평가한다. 일반 내시경·약물 치료에 실패한 출혈의 구제 TIPS와 구분한다.
 - **급성기 순서**: 혈관수축제와 항생제는 의심 시 조기에 시작하고, 소생 후 **12시간 이내 내시경**을 시행한다. 불안정하면 소생·기도 확보와 긴급 지혈을 병행한다.
-- 근거: [Baveno VII](https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -82,6 +82,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [Baveno VII 합의문](https://www.sciencedirect.com/science/article/abs/pii/S0168827821022996)
-- [Baveno VII](https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/)
-- [Baveno VIII 2026](https://www.journal-of-hepatology.eu/article/S0168-8278%2826%2902778-9/fulltext)

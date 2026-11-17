@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Canadian Blood Services 특수 제제 | https://professionaleducation.blood.ca/en/transfusion/clinical-guide/irradiated-washed-and-cmv-seronegative-blood-components"]
 ---
 분과 : [[외과]]
 
@@ -54,6 +55,5 @@ reviewed_at: "2026-07-30"
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)
 
-보완 근거: [Canadian Blood Services 특수 제제](https://professionaleducation.blood.ca/en/transfusion/clinical-guide/irradiated-washed-and-cmv-seronegative-blood-components).
 
 참고: 삼성서울병원 메뉴얼

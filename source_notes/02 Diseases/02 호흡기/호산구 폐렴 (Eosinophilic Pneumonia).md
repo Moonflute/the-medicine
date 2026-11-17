@@ -25,10 +25,7 @@ clinical_priority: tier_2
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "ISHAM ABPA/ABPM 진단·분류·치료 개정 지침, 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10991853/"
-  - "ACR/Vasculitis Foundation ANCA 연관 혈관염 지침, 2021 | https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24634"
-  - "Merck Manual Professional 급성 호산구 폐렴, 임상 참고자료; 2026-10 확인 | https://www.merckmanuals.com/professional/pulmonary-disorders/interstitial-lung-diseases/acute-eosinophilic-pneumonia"
+sources: ["ISHAM ABPA/ABPM 진단·분류·치료 개정 지침, 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10991853/", "ACR/Vasculitis Foundation ANCA 연관 혈관염 지침, 2021 | https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24634", "Merck Manual Professional 급성 호산구 폐렴, 임상 참고자료; 2026-10 확인 | https://www.merckmanuals.com/professional/pulmonary-disorders/interstitial-lung-diseases/acute-eosinophilic-pneumonia"]
 ---
 # 호산구 폐렴
 
@@ -60,7 +57,3 @@ ISHAM 2024 ABPA 기준은 적절한 배경 또는 임상·영상 양상에서 �
 - [[처그-스트라우스 증후군 (Churg-Strauss Syndrome)]]
 
 ## 참고 자료
-
-- [ISHAM ABPA/ABPM 진단·분류·치료 개정 지침, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10991853/)
-- [ACR/Vasculitis Foundation ANCA 연관 혈관염 지침, 2021](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24634)
-- [Merck Manual Professional 급성 호산구 폐렴, 임상 참고자료; 2026-10 확인](https://www.merckmanuals.com/professional/pulmonary-disorders/interstitial-lung-diseases/acute-eosinophilic-pneumonia)

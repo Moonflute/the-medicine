@@ -23,6 +23,7 @@ population: "general"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EAU 요석 응급 관리 | https://uroweb.org/guidelines/urolithiasis/chapter/guidelines"]
 ---
 분과 : [[비뇨기과]]
 
@@ -32,7 +33,6 @@ reviewed_at: "2026-07-30"
     - 기계적 폐쇄: 결석, 종양, 요로 협착, 혈관 압박, 후복막 섬유화증, 전립선 비대증.
     - 기능적 폐쇄: 신경인성 방광, 방광요관역류, 요관 연동 운동 장애.
 - **기전:** 요로 폐색으로 인한 요정체(urinary stasis)는 세균 증식을 촉진하고, 신우 내 압력 상승을 유발하여 신실질의 위축 및 사구체 여과율(GFR) 감소를 초래함.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -62,7 +62,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - **폐색+감염/패혈증, 무뇨, 양측 또는 단일 기능 신장 폐색·AKI, 조절 불가 통증**은 긴급 감압 기준이다. 상부는 stent/신루, 하부 요폐는 적절한 도뇨/치골상부 배액을 선택한다.
 - 감염 폐색은 항생제와 배액을 함께 시행하고 근치적 결석·폐색 치료는 안정 후 계획한다. 모든 무증상 경한 확장에 즉시 침습 배액을 시행하는 것은 아니다.
-- 감압 후 소변량·체액·전해질을 감시하여 폐색 후 이뇨에 따른 탈수·전해질 이상을 교정한다. 지속 폐색 원인과 신기능 회복을 재평가한다. [EAU 요석 응급 관리](https://uroweb.org/guidelines/urolithiasis/chapter/guidelines)
+- 감압 후 소변량·체액·전해질을 감시하여 폐색 후 이뇨에 따른 탈수·전해질 이상을 교정한다. 지속 폐색 원인과 신기능 회복을 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 신우신염, 패혈증, 만성 신부전, 신결석 재발.

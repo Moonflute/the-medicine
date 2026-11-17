@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAOS 측부 인대 손상 | https://www.orthoinfo.org/en/diseases--conditions/collateral-ligament-injuries/"]
 ---
 분과 : [[정형외과]]
 
@@ -44,7 +45,6 @@ reviewed_at: "2026-07-30"
 - **고립성 MCL 손상은 1·2도 및 상당수 3도에서도 보조기와 재활이 우선**이다. 통증·부종 조절 후 보호된 조기 가동 범위 운동, 대퇴사두근 강화, 점진적 체중 부하를 진행한다.
 - 3도라는 등급만으로 자동 수술하지 않는다. 견열 골편, 인대 끼임으로 치유가 어려운 손상, 충분한 재활 후 남는 증상성 외반 불안정성, 동반 다발성 인대 손상은 조기 수술 전문 평가를 받는다.
 - 스포츠 복귀는 달력상의 주수보다 통증·관절 운동 범위·외반 안정성과 기능 검사 회복으로 결정한다.
-- 근거: [AAOS 측부 인대 손상](https://www.orthoinfo.org/en/diseases--conditions/collateral-ligament-injuries/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적절한 재활 시 예후가 매우 좋음.

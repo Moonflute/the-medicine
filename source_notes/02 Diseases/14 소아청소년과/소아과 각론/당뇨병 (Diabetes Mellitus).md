@@ -15,10 +15,7 @@ CC:
 - 시야 흐림
 preprocessing_required: x
 last_studied: '2026-06-06'
-sources:
-- '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
-- 'ADA 2026 Children and Adolescents | https://diabetesjournals.org/care/article/49/Supplement_1/S297/163923/14-Children-and-Adolescents-Standards-of-Care-in'
-- 'ISPAD Clinical Practice Consensus Guidelines 2024 | https://www.ispad.org/resources/ispad-clinical-practice-consensus-guidelines/2024-cpcg.html'
+sources: ["대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide", "ADA 2026 Children and Adolescents | https://diabetesjournals.org/care/article/49/Supplement_1/S297/163923/14-Children-and-Adolescents-Standards-of-Care-in", "ISPAD Clinical Practice Consensus Guidelines 2024 | https://www.ispad.org/resources/ispad-clinical-practice-consensus-guidelines/2024-cpcg.html"]
 clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
 guideline_year: "2026"
@@ -61,6 +58,4 @@ review_status: "guideline_enriched"
 - 전환기에는 소아에서 성인 진료로의 연결이 끊기지 않도록 전환 계획을 마련한다. 갑상샘·셀리악 질환, 심리사회적 문제, 고혈압·지질·비만 등 유형별 동반 위험을 정기적으로 확인한다.
 
 ## 출처
-- ISPAD Clinical Practice Consensus Guidelines 2024: https://www.ispad.org/resources/ispad-clinical-practice-consensus-guidelines/2024-cpcg.html
-- ADA Standards of Care in Diabetes 2026, Children and Adolescents: https://diabetesjournals.org/care/article/49/Supplement_1/S297/163923/14-Children-and-Adolescents-Standards-of-Care-in
 - 보완 출처: 삼성서울병원 메뉴얼

@@ -18,11 +18,7 @@ group_members:
 clinical_priority: tier_2
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
-sources:
-- "ATS/ERS/JRS/ALAT. IPF Update and Progressive Pulmonary Fibrosis — 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/"
-- "ACR/CHEST. Treatment of ILD in Systemic Autoimmune Rheumatic Diseases — 2023 지침/2024 발행 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12646475/"
-- "ERS. Treatment of Sarcoidosis — 2021 | https://publications.ersnet.org/lookup/pmid/34140301"
-- "FDA. JASCAYD (nerandomilast) Prescribing Information — 2025, 약제 허가 근거·지침과 별도 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/220449s000lbl.pdf"
+sources: ["ATS/ERS/JRS/ALAT. IPF Update and Progressive Pulmonary Fibrosis — 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/", "ACR/CHEST. Treatment of ILD in Systemic Autoimmune Rheumatic Diseases — 2023 지침/2024 발행 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12646475/", "ERS. Treatment of Sarcoidosis — 2021 | https://publications.ersnet.org/lookup/pmid/34140301", "FDA. JASCAYD (nerandomilast) Prescribing Information — 2025, 약제 허가 근거·지침과 별도 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/220449s000lbl.pdf"]
 ---
 # ILD
 
@@ -62,8 +58,3 @@ sources:
 - [[조직화 폐렴 (COP) (Cryptogenic Organizing Pneumonia)]]
 
 ## 참고 가이드라인
-
-- [ATS/ERS/JRS/ALAT. IPF Update and Progressive Pulmonary Fibrosis — 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/)
-- [ACR/CHEST. Treatment of ILD in Systemic Autoimmune Rheumatic Diseases — 2023 지침/2024 발행](https://pmc.ncbi.nlm.nih.gov/articles/PMC12646475/)
-- [ERS. Treatment of Sarcoidosis — 2021](https://publications.ersnet.org/lookup/pmid/34140301)
-- [FDA. JASCAYD (nerandomilast) Prescribing Information — 2025, 약제 허가 근거·지침과 별도](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/220449s000lbl.pdf)

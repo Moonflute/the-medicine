@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["WSES–AAST 항문직장 응급 지침 2021 | https://pmc.ncbi.nlm.nih.gov/articles/pmid/34530908/"]
 ---
 분과 : [[소화기]]
 
@@ -23,7 +24,6 @@ reviewed_at: "2026-07-30"
 - **원인**: 명확하지 않으나 만성적인 배변 시 힘주기, 고령, 여성에서 호발.
 
 - **기전**: 골반저 근육 약화 및 직장 지지 구조의 결함으로 인해 발생.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -51,12 +51,10 @@ reviewed_at: "2026-07-30"
 - 수술 후 변비·과도한 힘주기를 줄이고 상처, 배변 기능 및 재탈출을 추적한다. 식이섬유·수분과 완하제는 배변 상태에 맞춰 조정한다.
 
 - **감돈·교액 시점**: 허혈·천공이 없는 안정 환자는 진통/진정 아래 부드러운 도수 정복을 시도할 수 있다. **쇼크·괴사·천공은 즉시 수술**, 정복 실패·급성 장폐쇄·지속 출혈은 긴급 수술 평가 대상이다.
-- 근거: [WSES–AAST 항문직장 응급 지침 2021](https://pmc.ncbi.nlm.nih.gov/articles/pmid/34530908/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 감돈(incarceration)이나 심한 탈출 시 통증 발생 가능.
   적절한 수술적 교정이 필요함.
-
 
 
 출처 : Merck Manual Professional (Rectal Prolapse and Procidentia)

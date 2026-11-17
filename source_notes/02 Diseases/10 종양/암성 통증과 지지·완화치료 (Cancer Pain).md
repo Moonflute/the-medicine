@@ -9,9 +9,7 @@ preprocessing_required: x
 reviewed_at: '2026-10-07'
 content_updated_at: "2026-11-17"
 review_status: targeted_source_reviewed_draft
-sources:
-  - 'ASCO 2023 Use of Opioids for Adults With Pain From Cancer or Cancer Treatment | https://ascopubs.org/doi/full/10.1200/JCO.22.02198'
-  - 'DailyMed Fentanyl transdermal labeling | https://www.dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=e15a7e9b-8025-49dd-9a6d-bafcccf1959f'
+sources: ["ASCO 2023 Use of Opioids for Adults With Pain From Cancer or Cancer Treatment | https://ascopubs.org/doi/full/10.1200/JCO.22.02198", "DailyMed Fentanyl transdermal labeling | https://www.dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=e15a7e9b-8025-49dd-9a6d-bafcccf1959f", "ASCO 암성 통증 opioid 지침 | https://ascopubs.org/doi/10.1200/JCO.22.02198"]
 ---
 
 # 암성 통증과 지지·완화치료 (Cancer Pain)
@@ -21,7 +19,7 @@ sources:
 - 초기에는 속효성 제제로 낮은 용량부터 효과·진정·호흡 등을 일찍 재평가하며 적정한다. ‘통증이 심하면 모든 노인에게 동일한 시작량’을 적용하지 않는다.
 - 경구 섭취가 불가능하거나 심한 오심이면 IV/SC 등 경로를 고려한다. 주사 투여가 모든 환자의 기본 경로는 아니다.
 
-- **돌발통과 증량:** 지속 opioid 복용 환자는 통상 하루 규칙적 총량의 **5–20%에 해당하는 속효성 동등용량**을 구조 약제로 검토합니다. 실제 처방은 약제·경로·장기 기능·진정 위험에 맞춰 정하며, 돌발통이 반복되면 실제 24시간 사용량과 원인 진행을 재평가해 기본 용량을 조정합니다. 과도한 졸림·호흡저하가 나타나면 통증 점수만 보고 증량하지 않습니다. [ASCO 암성 통증 opioid 지침](https://ascopubs.org/doi/10.1200/JCO.22.02198)
+- **돌발통과 증량:** 지속 opioid 복용 환자는 통상 하루 규칙적 총량의 **5–20%에 해당하는 속효성 동등용량**을 구조 약제로 검토합니다. 실제 처방은 약제·경로·장기 기능·진정 위험에 맞춰 정하며, 돌발통이 반복되면 실제 24시간 사용량과 원인 진행을 재평가해 기본 용량을 조정합니다. 과도한 졸림·호흡저하가 나타나면 통증 점수만 보고 증량하지 않습니다.
 
 ## 지속 통증과 돌발 통증
 - 효과적인 용량이 정해진 지속 통증에는 정규 투여를 고려하고, 돌발 통증에 속효성 구제 약제를 별도로 계획한다. 초기 적정과 유지 치료의 투여 방식을 구분한다.

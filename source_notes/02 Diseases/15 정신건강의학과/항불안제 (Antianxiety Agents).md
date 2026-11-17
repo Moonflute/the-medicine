@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ASAM 공동 감량 지침 2025 | https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering"]
 ---
 분과 : [[정신건강의학과]]
 
@@ -46,7 +47,6 @@ reviewed_at: "2026-07-30"
 
 - **Benzodiazepine 감량 속도**: 장기 복용은 **2–4주마다 5–10%** 감량을 출발점으로 정하며 보통 2주당 25%를 넘기지 않는다. 금단·기저 불안 재발·복용 기간에 따라 더 느리게 줄인다. 고령·간질환에서 장시간 작용 약제로의 전환을 자동 적용하지 않는다.
 
-근거: [ASAM 공동 감량 지침 2025](https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 약물 치료와 인지행동치료 병행 시 예후 양호.

@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["FDA Waskyra | https://www.fda.gov/vaccines-blood-biologics/waskyra"]
 ---
 분과 : [[소아청소년과]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-07-30"
 * **합병증 감시**: 자가면역 질환 및 림프종 등 악성 종양 발생 위험이 높으므로 정기적인 혈액 검사 및 영상 의학적 추적 관찰이 필수적임
 * **전문의 의뢰**: 진단 즉시 소아 혈액종양 및 면역학 전문의에게 의뢰하여 다학제적 치료 계획을 수립함
 
-* **유전자치료 선택 조건**: FDA는 2025년 Waskyra를 **생후 6개월 이상, WAS 유전자 변이가 확인되고 HSCT가 적절하지만 적합한 HLA 일치 혈연 공여자가 없는 환자**에게 승인했다. 따라서 HSCT만이 유일한 근본 치료라는 설명은 현재 맞지 않는다. 국내 허가·접근성, 전처치 위험과 이식 대안을 전문센터에서 비교한다. [FDA Waskyra](https://www.fda.gov/vaccines-blood-biologics/waskyra)
+* **유전자치료 선택 조건**: FDA는 2025년 Waskyra를 **생후 6개월 이상, WAS 유전자 변이가 확인되고 HSCT가 적절하지만 적합한 HLA 일치 혈연 공여자가 없는 환자**에게 승인했다. 따라서 HSCT만이 유일한 근본 치료라는 설명은 현재 맞지 않는다. 국내 허가·접근성, 전처치 위험과 이식 대안을 전문센터에서 비교한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조혈모세포 이식 시 예후 개선 가능

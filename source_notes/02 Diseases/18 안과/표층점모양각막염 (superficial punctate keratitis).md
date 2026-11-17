@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAO 각막 질환 관리 기준 2025 | https://www.aao.org/education/summary-benchmark-detail/cornea-external-disease-summary-benchmarks-2020"]
 ---
 분과 : [[안과]]
 
@@ -49,7 +50,6 @@ reviewed_at: "2026-07-30"
 - 1~2주 후 재검진을 통해 상피 회복 여부와 증상 변화를 확인하고, 재발 위험이 있으면 눈물막 보존제·환경 관리 지도
 - 자외선 차단 안경 착용 및 눈물막 유지 등 예방적 생활 습관을 교육
 
-- 근거: [AAO 각막 질환 관리 기준 2025](https://www.aao.org/education/summary-benchmark-detail/cornea-external-disease-summary-benchmarks-2020).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 적절한 치료로 호전되나, 원인에 따라 재발 가능성 있음

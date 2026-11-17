@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG88 | https://www.nice.org.uk/guidance/ng88/chapter/recommendations"]
 ---
 분과 : [[부인과]]
 
@@ -51,7 +52,7 @@ reviewed_at: "2026-07-30"
 - **근본적 치료**: 증상이 심하고 임신 계획이 없는 경우 자궁 적출술을 고려하며, 수술 전후로 악성 종양 동반 가능성을 배제함.
 - **추적 관찰**: 약물 치료 시 증상 호전 여부를 정기적으로 평가하고, 영상학적 변화 및 빈혈 등 합병증 발생 여부를 모니터링함.
 
-- **치료 전환**: 월경과다가 주증상이면 LNG-IUS를 우선 고려하고, 불가하면 tranexamic acid/NSAID 또는 다른 호르몬 요법을 검토한다. 충분한 치료에도 빈혈·통증이 지속되고 임신 계획이 없으면 자궁절제를 논의한다. [NICE NG88](https://www.nice.org.uk/guidance/ng88/chapter/recommendations)
+- **치료 전환**: 월경과다가 주증상이면 LNG-IUS를 우선 고려하고, 불가하면 tranexamic acid/NSAID 또는 다른 호르몬 요법을 검토한다. 충분한 치료에도 빈혈·통증이 지속되고 임신 계획이 없으면 자궁절제를 논의한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 폐경 후 에스트로겐 자극 감소로 증상 호전 경향

@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAP 미숙아 동맥관 개존 임상보고서 2025 | https://doi.org/10.1542/peds.2025-071425"]
 ---
 분과 : [[소아청소년과]]
 
@@ -49,6 +50,5 @@ reviewed_at: "2026-07-30"
 * **주의사항**: 약물 치료 시 신기능 저하, 혈소판 감소, 출혈 경향, 괴사성 장염 발생 여부 모니터링
 
 출처 : StatPearls (Patent Ductus Arteriosus, Anesthesia for Patients With PDA)
-추가 출처: [AAP 미숙아 동맥관 개존 임상보고서 2025](https://doi.org/10.1542/peds.2025-071425)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -8,8 +8,7 @@ preprocessing_required: x
 reviewed_at: '2026-10-07'
 content_updated_at: "2026-11-18"
 review_status: targeted_source_reviewed_draft
-sources:
-  - 'ESVS 2022 chronic venous disease guideline | https://esvs.org/wp-content/uploads/2023/03/ESVS-2022-CVD-Guidelines.pdf'
+sources: ["ESVS 2022 chronic venous disease guideline | https://esvs.org/wp-content/uploads/2023/03/ESVS-2022-CVD-Guidelines.pdf", "ESVS 만성 정맥질환 지침 2022 | https://doi.org/10.1016/j.ejvs.2021.12.024"]
 ---
 
 # 만성 정맥기능부전과 정맥성 궤양 (Chronic Venous Insufficiency)
@@ -24,5 +23,3 @@ sources:
 - 감염·통증·상처 추세를 추적하고 치유 후에도 재발 예방을 계획한다.
 
 - **압박의 관류 기준**: 발목 수축기압 <60 mmHg, 발가락압 <30 mmHg 또는 ABI <0.6이면 지속적 압박을 피하고 동맥 재관류 필요성을 평가한다. 혼합 동맥·정맥 궤양은 관류가 확보된 경우에만 낮춘 압박 강도를 전문 감시하에 사용한다. 정맥성 활성 궤양에 표재 역류가 있으면 압박만 장기 지속하기보다 조기 정맥 중재를 논의한다.
-- 근거: [ESVS 만성 정맥질환 지침 2022](https://doi.org/10.1016/j.ejvs.2021.12.024).
-

@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional mood disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional mood disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE NG222 추가 치료 | https://www.nice.org.uk/guidance/ng222/resources/furtherline-treatment-pdf-11131007009"]
 disease_family: psychiatry_split
 parent_disease: 기분 장애 (Bipolar and Related Disorders)
 relation_to_parent: subtype
@@ -45,7 +44,6 @@ relation_to_parent: subtype
 - **자살 위험 및 동반 질환 관리**: 자살 사고가 동반되거나 물질 사용 장애, 인격 장애 등 공존 질환이 확인될 경우 다학제적 접근 및 전문의 심층 평가를 시행함.
 - **장기적 예후 관리**: 증상 완화뿐만 아니라 삶의 질 향상을 목표로 하며, 만성적 경과를 고려하여 증상 재발 방지를 위한 지속적인 추적 관찰을 수행함.
 
-근거: [NICE NG222 추가 치료](https://www.nice.org.uk/guidance/ng222/resources/furtherline-treatment-pdf-11131007009).
 
 ## 6. 예후 및 합병증
 - 만성적인 경과를 보이며, 주요 우울 장애로 이행될 위험이 있음.

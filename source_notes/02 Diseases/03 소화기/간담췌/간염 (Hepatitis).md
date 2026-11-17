@@ -26,11 +26,7 @@ CC:
 clinical_priority: tier_2
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- "AASLD/IDSA 만성 B형간염 치료 지침, 2025 | https://www.aasld.org/practice-guidelines/hepatitis-b"
-- "AASLD/IDSA HCV Guidance: 비간경변 초치료 성인 간소화 요법, 현행 온라인 지침(2026-10-07 확인) | https://www.hcvguidelines.org/guidance/simplified-hcv-treatment-for-treatment-naive-adults-without-cirrhosis/"
-- "EASL 자가면역 간염 지침, 2025 | https://www.journal-of-hepatology.eu/article/S0168-8278%2825%2900173-4/fulltext"
-- "ACG 급성 간부전 지침, 2023(공식 지침 목록) | https://gi.org/guidelines/"
+sources: ["AASLD/IDSA 만성 B형간염 치료 지침, 2025 | https://www.aasld.org/practice-guidelines/hepatitis-b", "AASLD/IDSA HCV Guidance: 비간경변 초치료 성인 간소화 요법, 현행 온라인 지침(2026-10-07 확인) | https://www.hcvguidelines.org/guidance/simplified-hcv-treatment-for-treatment-naive-adults-without-cirrhosis/", "EASL 자가면역 간염 지침, 2025 | https://www.journal-of-hepatology.eu/article/S0168-8278%2825%2900173-4/fulltext", "ACG 급성 간부전 지침, 2023(공식 지침 목록) | https://gi.org/guidelines/"]
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
 ---
@@ -86,8 +82,3 @@ guideline_review_status: primary_source_reviewed
 - [[전격성 간염 (Fulminant Hepatitis)]]
 
 ## 참고 가이드라인
-
-- [AASLD/IDSA 만성 B형간염 치료 지침, 2025](https://www.aasld.org/practice-guidelines/hepatitis-b)
-- [AASLD/IDSA HCV Guidance: 비간경변 초치료 성인 간소화 요법, 현행 온라인 지침(2026-10-07 확인)](https://www.hcvguidelines.org/guidance/simplified-hcv-treatment-for-treatment-naive-adults-without-cirrhosis/)
-- [EASL 자가면역 간염 지침, 2025](https://www.journal-of-hepatology.eu/article/S0168-8278%2825%2900173-4/fulltext)
-- [ACG 급성 간부전 지침, 2023(공식 지침 목록)](https://gi.org/guidelines/)

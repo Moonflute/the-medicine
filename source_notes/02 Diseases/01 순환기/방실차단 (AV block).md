@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ESC 조율 지침 2021 | https://doi.org/10.1093/europace/euab232", "2025 AHA 성인 맥박성 서맥 알고리즘 | https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf", "2025 AHA 성인 전문소생술 지침 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support"]
 ---
 분과 : [[순환기]]
 
@@ -55,7 +56,6 @@ reviewed_at: "2026-07-30"
 - **추적 관찰 및 예방**: 무증상 1도 또는 2도 Mobitz type I 환자는 정기적인 심전도 및 홀터 모니터링을 통해 진행 여부를 추적 관찰한다.
 
 - **가역적·생리적 원인이 아닌 Mobitz II, 고도 또는 완전 AV 차단은 증상이 없어도 영구 조율기 적응증**이다. 반대로 약물·급성 대사 이상을 교정해 회복되는 차단은 지속 여부를 재평가한다. 1도/결절성 Mobitz I은 증상과 차단의 연관성이 입증된 경우에 선별적으로 조율을 고려한다.
-- 근거: [ESC 조율 지침 2021](https://doi.org/10.1093/europace/euab232).
 
 ## 6. 예후 및 합병증
 - **예후**: Mobitz type II 및 3도 방실차단은 심정지나 실신 위험이 높아 예후가 불량할 수 있음.
@@ -68,4 +68,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [2025 AHA 성인 맥박성 서맥 알고리즘](https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf), [2025 AHA 성인 전문소생술 지침](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support); 성인 증상성 서맥의 관류저하 평가, 가역원인 교정 및 임시 페이싱 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. 2025 AHA 성인 맥박성 서맥 알고리즘, 2025 AHA 성인 전문소생술 지침; 성인 증상성 서맥의 관류저하 평가, 가역원인 교정 및 임시 페이싱 원칙을 대조. 2026-09-14 기존 목차 내 보완.

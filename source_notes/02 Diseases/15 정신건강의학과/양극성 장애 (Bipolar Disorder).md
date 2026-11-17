@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional mood disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional mood disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE CG185 | https://www.nice.org.uk/guidance/cg185/chapter/Recommendations"]
 disease_family: psychiatry_split
 parent_disease: 기분 장애 (Bipolar and Related Disorders)
 relation_to_parent: subtype
@@ -50,7 +49,6 @@ relation_to_parent: subtype
 - **급성 조증·경조증**: 항우울제 단독 복용 중이면 중단을 검토하고 quetiapine·olanzapine·risperidone 등 항정신병약을 선택한다. 적정 용량·복약에도 부족하면 다른 항정신병약으로 바꾸고, 여전히 부족하면 lithium 병합 등을 검토한다. 이미 lithium 사용 중이면 혈중 농도를 먼저 확인한다.
 - **양극성 우울·유지**: 중등도–중증 우울에는 quetiapine 또는 olanzapine–fluoxetine 등 해당 삽화에 근거가 있는 치료를 선택하고 lamotrigine 등 대안을 검토한다. **양극성 I형에서 항우울제 단독은 피한다.** 장기 재발 예방은 과거 반응과 위험을 고려하여 lithium 등을 선택하며 valproate의 생식·임신 관련 제한을 확인한다.
 
-근거: [NICE CG185](https://www.nice.org.uk/guidance/cg185/chapter/Recommendations).
 
 ## 6. 예후 및 합병증
 - 만성적 경과를 보이며 재발률이 높음.

@@ -15,8 +15,7 @@ CC:
 - 떨림
 - 운동실조
 - 구토
-sources:
-- "EXTRIP Workgroup: Lithium | https://www.extrip-workgroup.org/lithium"
+sources: ["EXTRIP Workgroup: Lithium | https://www.extrip-workgroup.org/lithium"]
 clinical_priority: tier_2
 ---
 # 리튬 중독
@@ -34,7 +33,7 @@ clinical_priority: tier_2
 - 투석 후에는 조직 재분포에 따른 rebound를 고려해 농도와 임상 상태를 반복 확인한다.
 
 - **혈액투석 권고**: 신기능 저하와 Li >4.0 mEq/L의 조합, 또는 농도와 무관한 의식수준 저하·경련·생명위협 부정맥. Li >5.0, 유의한 혼돈, 최선 치료에도 <1.0 도달에 >36시간이 예상되면 투석을 적극 검토한다.
-- 종료는 Li <1.0 또는 뚜렷한 임상 호전을 기준으로 하고, 농도를 신속히 알 수 없으면 최소 6시간 치료를 참고한다. 중단 후 **12시간 동안 반복 농도**로 rebound·재투석 필요성을 평가한다. [EXTRIP](https://www.extrip-workgroup.org/lithium)
+- 종료는 Li <1.0 또는 뚜렷한 임상 호전을 기준으로 하고, 농도를 신속히 알 수 없으면 최소 6시간 치료를 참고한다. 중단 후 **12시간 동안 반복 농도**로 rebound·재투석 필요성을 평가한다.
 
 ## 관련 문서
 - [[급성 중독 총론 (General Management of Acute Poisoning)]]

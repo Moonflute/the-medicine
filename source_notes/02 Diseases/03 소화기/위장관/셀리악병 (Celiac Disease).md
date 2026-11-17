@@ -17,8 +17,7 @@ CC:
 관련분과:
 - 소아청소년과
 clinical_priority: tier_2
-sources:
-- 'MSD Manual Professional: Celiac Disease | https://www.msdmanuals.com/professional/gastrointestinal-disorders/malabsorption-syndromes/celiac-disease'
+sources: ["MSD Manual Professional: Celiac Disease | https://www.msdmanuals.com/professional/gastrointestinal-disorders/malabsorption-syndromes/celiac-disease", "BSG 셀리악병 지침 2026 | https://doi.org/10.1136/gutjnl-2025-337747"]
 ---
 # 셀리악병 (Celiac Disease)
 
@@ -34,4 +33,3 @@ sources:
 
 - **반응 불충분 시**에는 전문 영양사와 숨은 글루텐 노출을 확인하고, 원진단·유당불내성·SIBO·현미경적 대장염 등 다른 원인을 재평가한다. 지속되는 증상만으로 곧바로 면역억제제를 시작하지 않는다.
 - 엄격한 식이에도 융모 위축·흡수장애가 지속되는 난치성 질환은 재생검과 림프구 표현형 등으로 RCD1/2 및 림프종을 구분한다. RCD1은 전문센터에서 open-capsule budesonide를 우선 검토하며 RCD2는 혈액종양팀과 별도 치료를 결정한다.
-- 근거: [BSG 셀리악병 지침 2026](https://doi.org/10.1136/gutjnl-2025-337747).

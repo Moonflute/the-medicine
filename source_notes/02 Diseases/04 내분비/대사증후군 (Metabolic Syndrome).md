@@ -4,6 +4,7 @@ aliases:
   - metabolic syndrome
 category: 당대사 및 지질 질환
 clinical_priority: tier_1
+sources: ["대한비만학회 진료지침 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12583794/"]
 ---
 # 대사증후군 (Metabolic Syndrome)
 
@@ -14,5 +15,3 @@ clinical_priority: tier_1
 
 - **치료 선택**: 대사증후군이라는 진단명 자체에 단일 약을 처방하지 않는다. 혈압·LDL/중성지방·혈당과 기존 심혈관질환/CKD에 따라 각 질환의 치료 시작 기준을 적용한다. HDL을 높이는 목적만으로 약제를 추가하거나 모든 환자에게 aspirin을 시작하지 않는다.
 - 비만 약물은 대한비만학회 2024 기준 **BMI ≥25 kg/m² 또는 ≥23 kg/m²이면서 비만 관련 동반질환**에서 생활습관 치료와 함께 검토한다. 이는 개별 제품 허가·급여 기준과 구별하며 체중·동반질환 개선과 내약성에 따라 유지·변경한다.
-- 근거: [대한비만학회 진료지침 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC12583794/).
-

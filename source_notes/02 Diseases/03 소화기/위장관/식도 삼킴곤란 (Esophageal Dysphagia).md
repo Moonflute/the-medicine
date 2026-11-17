@@ -13,7 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-18"
 guideline_year: "2025"
-sources: ["Esophageal and Oropharyngeal Dysphagia: Clinical Recommendations From the United European Gastroenterology and European Society for Neurogastroenterology and Motility. | https://pubmed.ncbi.nlm.nih.gov/40543044/"]
+sources: ["Esophageal and Oropharyngeal Dysphagia: Clinical Recommendations From the United European Gastroenterology and European Society for Neurogastroenterology and Motility. | https://pubmed.ncbi.nlm.nih.gov/40543044/", "AGA POEM 업데이트 | https://gastro.org/clinical-guidance/advances-in-per-oral-endoscopic-myotomy/"]
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
@@ -27,7 +27,6 @@ review_status: "guideline_enriched"
   - 운동 질환: 아칼라시아(Achalasia), 식도 경련(Esophageal spasm), 전신경화증, 식도 운동 저하
 
 - **기전**: 식도 연동 운동의 장애나 구조적 협착으로 인해 음식물의 이동이 지연됨
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -58,12 +57,10 @@ review_status: "guideline_enriched"
   - **과수축성 식도(Hypercontractile esophagus)**: 증상 완화를 위해 PPI, 칼슘채널차단제(CCB), 질산염(Nitrates), 포스포디에스테라제 5형(PDE5) 억제제, 항우울제, 또는 페퍼민트 오일(Peppermint oil) 사용을 고려할 수 있음(Weak recommendation).
 
 - **시술 대상의 확인**: 구조적 협착은 조직검사·염증 치료와 확장술을 연계하고, 운동장애는 증상과 내압검사·바륨검사 등을 대조한다. Achalasia I/II는 PD·LHM·POEM 중 선택하고 III형은 긴 근절개가 가능한 POEM을 우선 검토한다. 비아칼라시아 연축·과수축 소견만으로 같은 시술을 자동 적용하지 않는다.
-- 근거: [AGA POEM 업데이트](https://gastro.org/clinical-guidance/advances-in-per-oral-endoscopic-myotomy/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 흡인성 폐렴, 영양실조, 체중 감소, 삶의 질 저하
 - 예후: 원인 질환에 따라 다르며, 조기 진단 및 치료가 중요함
-
 
 
 출처 : StatPearls (Dysphagia, Diffuse Esophageal Spasm)

@@ -16,8 +16,7 @@ review_status: source_reviewed_no_change
 reviewed_at: '2026-07-30'
 content_updated_at: '2026-07-17'
 guideline_year: '2025'
-sources:
-- 'ESICM Guidelines on Circulatory Shock and Hemodynamic Monitoring 2025 | https://www.esicm.org/esicm-guideline-circulatory-shock-haemodynamic-monitoring/'
+sources: ["ESICM Guidelines on Circulatory Shock and Hemodynamic Monitoring 2025 | https://www.esicm.org/esicm-guideline-circulatory-shock-haemodynamic-monitoring/", "AHA 2025 급성 관상동맥증후군 지침 핵심 | https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know"]
 disease_family: shock
 population: general
 ---
@@ -65,5 +64,5 @@ population: general
 
 
 보완 출처:
-- 삼성서울병원 메뉴얼. [AHA 2025 급성 관상동맥증후군 지침 핵심](https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know), 급성 MI 관련 심인성 쇼크의 진단·범인혈관 재관류·기계적 합병증 탐색 원칙을 대조. 2026-09-14 기존 목차 내 보완.
-- 삼성서울병원 메뉴얼. [ESICM 순환성 쇼크·혈역학 감시 지침 2025](https://www.esicm.org/esicm-guideline-circulatory-shock-haemodynamic-monitoring/)를 대조. 2026-09-14 기존 목차 내 보완.
+- 삼성서울병원 메뉴얼. AHA 2025 급성 관상동맥증후군 지침 핵심, 급성 MI 관련 심인성 쇼크의 진단·범인혈관 재관류·기계적 합병증 탐색 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+- 삼성서울병원 메뉴얼. ESICM 순환성 쇼크·혈역학 감시 지침 2025를 대조. 2026-09-14 기존 목차 내 보완.

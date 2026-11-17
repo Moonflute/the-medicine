@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAO 결막염 권고 | https://www.aao.org/education/summary-benchmark-detail/cornea-external-disease-summary-benchmarks-2020"]
 ---
 분과 : [[안과]]
 
@@ -41,7 +42,7 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 - 대증 요법: 냉찜질과 인공눈물 점안으로 이물감·통증을 완화한다.
-- 바이러스성 질환에 예방적 항생제를 일상 처방하지 않는다. 별도의 세균 감염이 확인/강하게 의심될 때 그 적응증으로 사용한다. [AAO 결막염 권고](https://www.aao.org/education/summary-benchmark-detail/cornea-external-disease-summary-benchmarks-2020)
+- 바이러스성 질환에 예방적 항생제를 일상 처방하지 않는다. 별도의 세균 감염이 확인/강하게 의심될 때 그 적응증으로 사용한다.
 - 손 씻기, 수건·세면도구 공유 금지 등 개인위생을 철저히 하여 전염을 차단한다.
 - 각막 침범, 시력 저하, 심한 통증 또는 신경학적 이상이 나타나면 즉시 안과 전문의에게 의뢰하고 정밀 검사를 시행한다.
 

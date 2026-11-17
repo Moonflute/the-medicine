@@ -17,6 +17,7 @@ canonical_disease: "뇌하수체 샘종 (Pituitary Adenoma)"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Pituitary Society 2023 | https://www.nature.com/articles/s41574-023-00886-5"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -26,12 +27,10 @@ reviewed_at: "2026-07-30"
 - **기전**: 호르몬 분비 여부에 따라 기능성(호르몬 과다 분비)과 비기능성으로 나뉘며, 비기능성 종양은 주변 구조물 압박(mass effect)을 통해 증상을 유발함.
 
 
-
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 두통, 시야 장애(양측 반맹 등), 호르몬 과다 분비 증상(말단비대증, 쿠싱병, 유즙분비 등) 또는 호르몬 결핍 증상.
 
 * **P/E**: 시야 검사(시신경 교차 압박 확인), 호르몬 과다 분비에 따른 신체 징후(얼굴 변화, 피부 변화 등) 확인.
-
 
 
 ## 3. 검사 (Lab & Imaging)
@@ -39,11 +38,9 @@ reviewed_at: "2026-07-30"
 - **호르몬 검사**: Prolactin, TSH, Free T4, IGF-1, GH, FSH, LH, Testosterone/Estradiol, ACTH, Cortisol 등 포괄적 내분비 평가.
 
 
-
 ## 4. 진단 (Diagnosis)
 - 영상학적 종양 확인과 함께 생화학적 호르몬 과다 또는 결핍 여부를 종합하여 진단.
   필요 시 하추체정맥동 채혈(IPSS) 등을 시행.
-
 
 
 ## 5. 치료
@@ -53,12 +50,11 @@ reviewed_at: "2026-07-30"
 - **방사선 치료**: 수술 및 약물 치료로 조절되지 않는 잔여 종양이나 재발성 종양에 대해 정위적 방사선 수술 등을 고려함.
 - **다학제적 관리**: 내분비내과, 신경외과, 안과 협진을 통해 호르몬 수치 및 시야 변화를 정기적으로 모니터링하고 뇌하수체 기능 저하증에 대한 호르몬 보충 요법을 시행함.
 
-- **기능성 종양 예외**: 시야 장애가 있어도 prolactinoma는 cabergoline으로 종양을 줄이는 치료가 우선일 수 있다. 다만 **빠르게 진행하는 시력 소실**, 큰 출혈성/낭성 성분으로 즉각 감압이 필요한 경우에는 수술을 우선 평가한다. 비기능성 압박 종양 및 GH/ACTH 분비 종양의 수술 경로와 구분한다. [Pituitary Society 2023](https://www.nature.com/articles/s41574-023-00886-5)
+- **기능성 종양 예외**: 시야 장애가 있어도 prolactinoma는 cabergoline으로 종양을 줄이는 치료가 우선일 수 있다. 다만 **빠르게 진행하는 시력 소실**, 큰 출혈성/낭성 성분으로 즉각 감압이 필요한 경우에는 수술을 우선 평가한다. 비기능성 압박 종양 및 GH/ACTH 분비 종양의 수술 경로와 구분한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 양성이나 거대샘종의 경우 시력 저하, 뇌하수체 기능 저하증 등의 합병증 발생 가능.
   장기적인 내분비 추적 관찰 필요.
-
 
 
 출처 : StatPearls (Pituitary Adenoma)

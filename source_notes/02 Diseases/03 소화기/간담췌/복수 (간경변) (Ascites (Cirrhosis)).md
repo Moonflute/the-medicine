@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["KASL 복수 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6166105/", "BSG/BASL 복수 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7788190/", "KASL 복수 지침 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13430399/", "AGA 복수 관리 2025 | https://pubmed.ncbi.nlm.nih.gov/41114681/"]
 ---
 분과 : [[소화기]]
 
@@ -78,7 +79,6 @@ reviewed_at: "2026-10-08"
 
 - **이뇨제 조절**: Spironolactone 50–100 mg/일로 시작하며 필요 시 furosemide를 병용한다. 대표 병용 비율은 **100:40 mg**, 최대량은 각각 **400/160 mg/일**이지만 신기능·Na/K·혈압과 반응을 보고 단계적으로 조절한다. 말초부종이 없으면 체중 감소를 대체로 **0.5 kg/일 이하**로 유지한다.
 - **감량·중단 조건**: AKI, 심한 전해질 이상, 뇌증 악화 또는 **Na <125 mmol/L**이면 이뇨제를 감량·중단하고 원인을 평가한다. 최대 용량에 도달하지 않아도 부작용으로 유지할 수 없는 복수는 반복 천자·TIPS·이식 평가 대상이다.
-- 근거: [KASL 복수 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6166105/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -93,7 +93,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [BSG/BASL 복수 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC7788190/)
-- [KASL 복수 지침 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6166105/)
-- [KASL 복수 지침 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13430399/)
-- [AGA 복수 관리 2025](https://pubmed.ncbi.nlm.nih.gov/41114681/)

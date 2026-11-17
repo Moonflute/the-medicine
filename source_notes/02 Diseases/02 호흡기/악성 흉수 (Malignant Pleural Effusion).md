@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["BTS Pleural Disease Guideline 2023 | https://thorax.bmj.com/content/78/Suppl_3/s1", "ATS/STS/STR 악성 흉수 진료지침 | https://academic.oup.com/ajrccm/article/198/7/839/8498300"]
 ---
 분과 : [[호흡기]]
 
@@ -59,5 +60,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [BTS Pleural Disease Guideline 2023](https://thorax.bmj.com/content/78/Suppl_3/s1)
-- [ATS/STS/STR 악성 흉수 진료지침](https://academic.oup.com/ajrccm/article/198/7/839/8498300)

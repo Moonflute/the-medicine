@@ -15,9 +15,7 @@ clinical_priority: "tier_3"
 review_status: "guideline_enriched"
 reviewed_at: "2026-10-21"
 guideline_year: "2026"
-sources:
-- 'KDIGO 2026 Anemia in CKD guideline | https://kdigo.org/guidelines/anemia-in-ckd/'
-- 'KDIGO 2026 anemia healthcare professional key takeaways | https://kdigo.org/wp-content/uploads/2026/03/KDIGO-2026-Anemia-Guideline-Key-Takeaways-for-HCPs.pdf'
+sources: ["KDIGO 2026 Anemia in CKD guideline | https://kdigo.org/guidelines/anemia-in-ckd/", "KDIGO 2026 anemia healthcare professional key takeaways | https://kdigo.org/wp-content/uploads/2026/03/KDIGO-2026-Anemia-Guideline-Key-Takeaways-for-HCPs.pdf"]
 ---
 분과 : [[혈액]]
 
@@ -77,4 +75,4 @@ Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
 
-출처: Merck Manual Professional (Anemia of Chronic Disease); [KDIGO anemia in CKD guideline](https://kdigo.org/guidelines/anemia-in-ckd/); 삼성서울병원 메뉴얼
+출처: Merck Manual Professional (Anemia of Chronic Disease); KDIGO anemia in CKD guideline; 삼성서울병원 메뉴얼

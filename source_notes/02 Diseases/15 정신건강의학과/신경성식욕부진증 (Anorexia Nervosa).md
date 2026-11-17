@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["SAHM 제한성 섭식장애 입원·재급식 권고 | https://adolescenthealth.org/wp-content/uploads/2023/05/Medical-Management-of-Restrictive-ED-in-AYA.pdf"]
 ---
 분과 : [[정신건강의학과]]
 
@@ -53,7 +54,6 @@ reviewed_at: "2026-07-30"
 - **입원 판단의 구체적 예(청소년·청년, SAHM)**: 연령·성별 중앙 BMI의 **≤75%**, 주간 맥박 **<50/분(야간 <45)**, 혈압 **<90/45 mmHg**, 체온 **<35.6°C**, 현저한 기립성 변화, 전해질·QTc 이상, 급성 음식 거부 또는 외래 실패는 입원을 지지한다. 한 항목만으로 결정하지 않으며 정상 BMI라도 빠른 체중 감소·의학적 불안정이면 입원할 수 있다.
 - **치료 선택**: 의학적으로 안정된 청소년은 가족기반치료를 우선 검토한다. 약물만으로 체중 회복과 핵심 섭식병리를 치료하지 않는다.
 
-근거: [SAHM 제한성 섭식장애 입원·재급식 권고](https://adolescenthealth.org/wp-content/uploads/2023/05/Medical-Management-of-Restrictive-ED-in-AYA.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 골다공증, 심근병증, 부정맥, 신부전, 뇌 위축, 범혈구감소증.

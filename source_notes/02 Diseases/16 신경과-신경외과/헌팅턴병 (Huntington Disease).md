@@ -16,8 +16,7 @@ CC:
 관련분과:
 - 정신건강의학과
 clinical_priority: tier_2
-sources:
-- 'MSD Manual Professional: Huntington Disease | https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/huntington-disease'
+sources: ["MSD Manual Professional: Huntington Disease | https://www.msdmanuals.com/professional/neurologic-disorders/movement-and-cerebellar-disorders/huntington-disease", "국제 치료 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6618900/"]
 ---
 # 헌팅턴병 (Huntington Disease)
 
@@ -31,4 +30,4 @@ sources:
 ## 관리
 - 근본적 진행 억제 치료는 없으므로 무도증·정신증상·우울·영양과 안전 문제를 다학제적으로 조절하고 돌봄 계획을 일찍 세운다.
 
-- **무도증 약물 시작**: 움직임 자체보다 보행·식사·안전·사회 기능을 방해하는지를 기준으로 한다. VMAT2 억제제 또는 정신증·심한 행동 문제가 동반된 경우 항정신병약을 선택한다. tetrabenazine은 조절되지 않는 우울·자살 위험에서 피하고, 약물 유발 강직·연하 악화가 기능을 더 떨어뜨리면 감량/변경한다. [국제 치료 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6618900/)
+- **무도증 약물 시작**: 움직임 자체보다 보행·식사·안전·사회 기능을 방해하는지를 기준으로 한다. VMAT2 억제제 또는 정신증·심한 행동 문제가 동반된 경우 항정신병약을 선택한다. tetrabenazine은 조절되지 않는 우울·자살 위험에서 피하고, 약물 유발 강직·연하 악화가 기능을 더 떨어뜨리면 감량/변경한다.

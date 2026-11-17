@@ -16,9 +16,7 @@ clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "NICE CG158: Antisocial Behaviour and Conduct Disorders (2013/2017; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg158/chapter/recommendations"
-  - "American Psychiatric Association: Disruptive, Impulse-Control and Conduct Disorders (2026-10 확인) | https://www.psychiatry.org/patients-families/disruptive-impulse-control-and-conduct-disorders/what-are-disruptive-impulse-control-and-conduct"
+sources: ["NICE CG158: Antisocial Behaviour and Conduct Disorders (2013/2017; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg158/chapter/recommendations", "American Psychiatric Association: Disruptive, Impulse-Control and Conduct Disorders (2026-10 확인) | https://www.psychiatry.org/patients-families/disruptive-impulse-control-and-conduct-disorders/what-are-disruptive-impulse-control-and-conduct"]
 group_members:
 - 품행 장애 (Conduct Disorder)
 - 간헐적 폭발 장애 (Intermittent Explosive Disorder)
@@ -60,6 +58,3 @@ NICE CG158은 품행 문제에 대한 일상적인 약물 처방을 권고하지
 - [[적대적 반항 장애 (Oppositional Defiant Disorder)]]
 
 ## 참고 자료
-
-- [NICE CG158: Antisocial Behaviour and Conduct Disorders (2013/2017; 2026-10 현행 확인)](https://www.nice.org.uk/guidance/cg158/chapter/recommendations)
-- [American Psychiatric Association: Disruptive, Impulse-Control and Conduct Disorders (2026-10 확인)](https://www.psychiatry.org/patients-families/disruptive-impulse-control-and-conduct-disorders/what-are-disruptive-impulse-control-and-conduct)

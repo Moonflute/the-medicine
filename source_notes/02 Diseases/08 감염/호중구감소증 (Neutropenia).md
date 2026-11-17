@@ -15,10 +15,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: '2024'
-sources:
-- "AGIHO/DGHO. Adult Neutropenic FUO: 2024 Guideline Update — 2025 발행 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11836497/"
-- "ASCO/IDSA. Outpatient Management of Fever and Neutropenia in Adults — 2018 | https://www.idsociety.org/globalassets/idsa/practice-guidelines/outpatient-management-of-fever-and-neutropenia.pdf"
-- "IDSA. Antimicrobial Agents in Neutropenic Patients With Cancer — 2010 개정/2011 발행, 기본 정의·고위험 평가 | https://doi.org/10.1093/cid/cir073"
+sources: ["AGIHO/DGHO. Adult Neutropenic FUO: 2024 Guideline Update — 2025 발행 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11836497/", "ASCO/IDSA. Outpatient Management of Fever and Neutropenia in Adults — 2018 | https://www.idsociety.org/globalassets/idsa/practice-guidelines/outpatient-management-of-fever-and-neutropenia.pdf", "IDSA. Antimicrobial Agents in Neutropenic Patients With Cancer — 2010 개정/2011 발행, 기본 정의·고위험 평가 | https://doi.org/10.1093/cid/cir073"]
 content_updated_at: '2026-10-07'
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
@@ -55,9 +52,4 @@ guideline_review_status: primary_source_reviewed
 - 균혈증·패혈증·침습성 진균감염·호중구감소성 장염을 주의한다. 새로운 복통·설사·팽만은 장염과 복부 합병증 평가가 필요하다.
 
 
-
 ## 참고 가이드라인
-
-- [AGIHO/DGHO. Adult Neutropenic FUO: 2024 Guideline Update — 2025 발행](https://pmc.ncbi.nlm.nih.gov/articles/PMC11836497/)
-- [ASCO/IDSA. Outpatient Management of Fever and Neutropenia in Adults — 2018](https://www.idsociety.org/globalassets/idsa/practice-guidelines/outpatient-management-of-fever-and-neutropenia.pdf)
-- [IDSA. Antimicrobial Agents in Neutropenic Patients With Cancer — 2010 개정/2011 발행, 기본 정의·고위험 평가](https://doi.org/10.1093/cid/cir073)

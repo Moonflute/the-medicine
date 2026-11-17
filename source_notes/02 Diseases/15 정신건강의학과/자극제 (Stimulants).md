@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "ASAM/AAAP 자극제 지침 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/"]
 disease_family: psychiatry_split
 parent_disease: 물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)
 relation_to_parent: subtype
@@ -50,7 +49,6 @@ relation_to_parent: subtype
 
 - **지속 치료 선택**: 자극제 사용장애에서는 **contingency management(보상 기반 행동치료)**가 핵심이며 CBT 등과 병행한다. Amphetamine 계열 사용장애의 일부 환자는 전문의가 naltrexone–bupropion 등 허가 외 약물을 검토할 수 있으나 행동치료를 대체하는 보편적 승인약으로 설명하지 않는다.
 
-근거: [ASAM/AAAP 자극제 지침 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11105801/).
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입 및 다학제적 팀(의사, 약사 등)의 장기적 추적 관찰이 필수적.

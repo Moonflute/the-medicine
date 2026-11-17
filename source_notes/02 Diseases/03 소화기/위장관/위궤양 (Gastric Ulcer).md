@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ACG H. pylori 2024 | https://gi.org/journals-publications/ebgi/schoenfeld_sep2024/", "약제 관련 소화성 궤양 국내 지침 2020 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7667931/"]
 ---
 분과 : [[소화기]]
 
@@ -74,5 +75,3 @@ reviewed_at: "2026-10-08"
 출처 : StatPearls (Gastric Ulcer, 2023)
 
 참고: 삼성서울병원 메뉴얼.
-- [ACG H. pylori 2024](https://gi.org/journals-publications/ebgi/schoenfeld_sep2024/)
-- [약제 관련 소화성 궤양 국내 지침 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7667931/)

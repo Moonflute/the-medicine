@@ -16,7 +16,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Society of Critical Care Medicine Guidelines for the Administration of Neuromuscular Blockade in Adults With Acute Respiratory Distress Syndrome. | https://pubmed.ncbi.nlm.nih.gov/41773929/", "급성호흡곤란증후군(ARDS) 임상진료지침 | https://www.ksccm.org/bbs/index.html?code=guideline&category=&gubun=&page=1&mode=view&idx=12", "An Update on Management of Adult Patients with Acute Respiratory Distress Syndrome: An Official American Thoracic Society Clinical Practice Guideline | https://www.atsjournals.org/doi/full/10.1164/rccm.202309-1666ST"]
+sources: ["Society of Critical Care Medicine Guidelines for the Administration of Neuromuscular Blockade in Adults With Acute Respiratory Distress Syndrome. | https://pubmed.ncbi.nlm.nih.gov/41773929/", "급성호흡곤란증후군(ARDS) 임상진료지침 | https://www.ksccm.org/bbs/index.html?code=guideline&category=&gubun=&page=1&mode=view&idx=12", "An Update on Management of Adult Patients with Acute Respiratory Distress Syndrome: An Official American Thoracic Society Clinical Practice Guideline | https://www.atsjournals.org/doi/full/10.1164/rccm.202309-1666ST", "ESICM ARDS 지침 2023 | https://doi.org/10.1007/s00134-023-07050-7", "ATS ARDS 지침 2024 | https://doi.org/10.1164/rccm.202311-2011ST", "AARC 자발호흡시험 임상진료지침 | https://pubmed.ncbi.nlm.nih.gov/38844105/"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -64,7 +64,6 @@ content_updated_at: "2026-11-18"
 * **약물:** 전신 코르티코스테로이드는 금기·감염 위험·원인 질환을 검토한 뒤 선택적으로 고려할 수 있으며, 모든 환자에게 동일하게 투여하거나 배제하지 않는다.
 
 - 폐보호 환기와 PEEP 최적화 후에도 **PaO₂/FiO₂ <150 mmHg**이면 조기에 **연속 16시간 이상 복와위**를 시행하는 전략을 고려한다. 복와위·폐보호 환기에도 중증 저산소혈증/환기 부전이 지속되고 가역 원인·회복 가능성이 있으면 VV-ECMO센터와 조기에 상의한다. 복와위가 가능한지 확인 없이 단순 산소 요구량만으로 ECMO를 결정하지 않는다.
-- 근거: [ESICM ARDS 지침 2023](https://doi.org/10.1007/s00134-023-07050-7), [ATS ARDS 지침 2024](https://doi.org/10.1164/rccm.202311-2011ST).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 초기 삼출성 단계 이후 섬유증식성 단계로 진행될 수 있으며, 다장기 부전이 주요 사망 원인임.
@@ -75,6 +74,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ATS 성인 ARDS 관리 임상진료지침 2024](https://www.atsjournals.org/doi/full/10.1164/rccm.202309-1666ST)
-- [SCCM 성인 ARDS 신경근차단 지침 2026](https://pubmed.ncbi.nlm.nih.gov/41773929/)
-- [AARC 자발호흡시험 임상진료지침](https://pubmed.ncbi.nlm.nih.gov/38844105/)

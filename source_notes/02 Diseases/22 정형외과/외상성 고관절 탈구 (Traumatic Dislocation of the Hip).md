@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAOS 고관절 탈구 | https://www.orthoinfo.org/diseases--conditions/hip-dislocation/", "POSNA 외상성 고관절 탈구 | https://posna.org/physician-education/study-guide/hip-dislocations-traumatic"]
 ---
 분과 : [[정형외과]]
 
@@ -41,7 +42,6 @@ reviewed_at: "2026-07-30"
 - 신경·혈관 상태를 기록하고 진통·진정하 **가능한 즉시, 목표상 손상 후 6시간 이내** 정복한다. 6시간을 이미 넘겼더라도 더 지연하지 않으며, 정복 전 불필요한 CT 대기로 지체하지 않는다.
 - 정복 불가, 관절 내 골편/연부조직 끼임, 비동심성 정복, 불안정성 또는 수술이 필요한 동반 골절은 개방 정복·고정을 평가한다. 정복 후 영상과 CT로 관절 일치와 골편·골절을 확인한다.
 - 체중 부하 제한과 재활은 비구·대퇴골두 골절 여부, 안정성, 연골 손상에 맞춘다. 모든 환자에게 동일한 6주 보조기나 반복 CT를 적용하지 않는다. 무혈성 괴사와 외상후 관절염을 장기 추적한다.
-- 근거: [AAOS 고관절 탈구](https://www.orthoinfo.org/diseases--conditions/hip-dislocation/), [POSNA 외상성 고관절 탈구](https://posna.org/physician-education/study-guide/hip-dislocations-traumatic).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 합병증: 좌골 신경 손상, 대퇴골두 골절, 비구 골절.

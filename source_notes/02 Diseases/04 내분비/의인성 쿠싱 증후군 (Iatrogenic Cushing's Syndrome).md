@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ESE/Endocrine Society 2024 | https://www.endocrine.org/clinical-practice-guidelines/glucocorticoid-induced-adrenal-insufficiency"]
 ---
 분과 : [[내분비]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 - 감량 및 중단 후 HPA 축 회복을 확인하기 위해 혈액 검사(코르티솔, ACTH)와 임상 평가를 정기적으로 시행한다.
 - 골다공증, 고혈압, 당뇨 등 합병증 위험이 높아진 경우, 해당 분야 전문의에게 의뢰하여 예방적 관리(뼈 밀도 검사, 혈압·혈당 모니터링 등)를 진행한다.
 
-- **감량·중단 판단**: 원래 질환이 조절되어 스테로이드가 불필요할 때 감량한다. 생리적 용량에 도달한 후 아침 cortisol을 검사한다면 >10 μg/dL은 회복을 시사해 중단 가능, 5–10은 생리적 용량 유지 후 수주–수개월 뒤 재검, <5는 유지 후 수개월 뒤 재검한다. 검사 전 약물 중단 시간·제형과 검사실 분석법을 반영하며, 초생리적 용량을 투여하는 동안 이 수치로 회복을 판단하지 않는다. [ESE/Endocrine Society 2024](https://www.endocrine.org/clinical-practice-guidelines/glucocorticoid-induced-adrenal-insufficiency)
+- **감량·중단 판단**: 원래 질환이 조절되어 스테로이드가 불필요할 때 감량한다. 생리적 용량에 도달한 후 아침 cortisol을 검사한다면 >10 μg/dL은 회복을 시사해 중단 가능, 5–10은 생리적 용량 유지 후 수주–수개월 뒤 재검, <5는 유지 후 수개월 뒤 재검한다. 검사 전 약물 중단 시간·제형과 검사실 분석법을 반영하며, 초생리적 용량을 투여하는 동안 이 수치로 회복을 판단하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 약물 중단 후 HPA 축의 회복에는 시간이 소요될 수 있다.

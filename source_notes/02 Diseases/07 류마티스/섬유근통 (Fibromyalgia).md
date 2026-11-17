@@ -10,6 +10,7 @@ CC:
 - 피로
 - 수면 장애
 preprocessing_required: x
+sources: ["EULAR 섬유근통 치료 권고 요약 | https://www.eular.org/document/download/251/cfc1fc15-1cab-4262-b7f8-4d50cb60be84/267"]
 ---
 분과 : [[류마티스]]
 
@@ -38,4 +39,3 @@ preprocessing_required: x
 - 구조적 관절 손상이나 변형을 일으키지 않는다. 통증, 피로, 수면·기분·인지 증상과 동반 기능저하를 함께 평가하고 관리한다.
 
 출처 : 삼성서울병원 메뉴얼
-- [EULAR 섬유근통 치료 권고 요약](https://www.eular.org/document/download/251/cfc1fc15-1cab-4262-b7f8-4d50cb60be84/267).

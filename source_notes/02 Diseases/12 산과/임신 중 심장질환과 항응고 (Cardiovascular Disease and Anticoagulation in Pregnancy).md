@@ -11,9 +11,7 @@ preprocessing_required: x
 reviewed_at: '2026-10-07'
 content_updated_at: '2026-10-07'
 review_status: targeted_source_reviewed_draft
-sources:
-- "ESC: Cardiovascular Disease and Pregnancy Guideline, 2025 | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cardiovascular-diseases-during-pregnancy-management-of/"
-- "ESC official educational slides, 2025 | https://www.escardio.org/static-file/Escardio/Guidelines/Products/Slide%20sets/2025/2025%20official%20slides_Pregnancy.pdf"
+sources: ["ESC: Cardiovascular Disease and Pregnancy Guideline, 2025 | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cardiovascular-diseases-during-pregnancy-management-of/", "ESC official educational slides, 2025 | https://www.escardio.org/static-file/Escardio/Guidelines/Products/Slide%20sets/2025/2025%20official%20slides_Pregnancy.pdf", "ESC 임신 중 심혈관질환 지침(2025) | https://academic.oup.com/eurheartj/article/46/43/4462/8234487"]
 ---
 
 # 임신 중 심장질환과 항응고 (Cardiovascular Disease and Anticoagulation in Pregnancy)
@@ -23,7 +21,7 @@ sources:
 
 ## 주산기심근병증과 재임신
 - 임신 말기나 분만 후 수개월 내 발생한 심부전에서 다른 원인이 뚜렷하지 않고 좌심실 박출률(LVEF)이 **45% 미만**이면 주산기심근병증을 의심한다. 심초음파와 원인 감별이 필요하다.
-- 이전 주산기심근병증 환자에서 **좌심실 기능이 정상화되지 않으면 재임신을 권고하지 않는다**. 기능이 회복돼도 재발 위험이 남으므로 임신 계획 전에 심장·산과 전문팀이 좌심실 기능과 치료 상태를 재평가하고 상담한다. [ESC 임신 중 심혈관질환 지침(2025)](https://academic.oup.com/eurheartj/article/46/43/4462/8234487)
+- 이전 주산기심근병증 환자에서 **좌심실 기능이 정상화되지 않으면 재임신을 권고하지 않는다**. 기능이 회복돼도 재발 위험이 남으므로 임신 계획 전에 심장·산과 전문팀이 좌심실 기능과 치료 상태를 재평가하고 상담한다.
 
 ## 기계판막 항응고
 - 기계판막은 항응고 중단 시 판막 혈전 위험이 크다. 생체판막·일반 VTE와 동일 처방으로 단순화하지 않는다.
@@ -33,4 +31,3 @@ sources:
 
 ## 분만 계획
 분만 전 약제 전환·중단과 마취·재시작을 전문팀이 계획한다. “임신 중 항응고는 LMWH만 가능”, “38주에 모두 같은 방식으로 전환”이라는 과거 단순 규칙을 적용하지 않는다.
-

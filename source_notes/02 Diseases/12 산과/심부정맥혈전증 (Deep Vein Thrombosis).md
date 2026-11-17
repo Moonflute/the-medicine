@@ -21,6 +21,7 @@ population: "pregnancy"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["RCOG 37b | https://www.rcog.org.uk/media/wj2lpco5/gtg-37b-1.pdf"]
 ---
 분과 : [[산과]]
 
@@ -52,7 +53,7 @@ reviewed_at: "2026-07-30"
 * **다학제 협진**: 고위험 임신부의 경우 산과, 혈액내과, 흉부외과 등 다학제적 접근을 통해 항응고제 용량 조절 및 분만 계획을 수립한다.
 * **추적 관찰**: 치료 종료 후에도 재발 여부와 혈전후 증후군 발생을 정기적으로 모니터링한다.
 
-- **기간·분만**: 임신 중 치료를 지속하고 산후 최소 6주이면서 총 ≥3개월을 충족한다. 계획 분만/신경축마취 전 치료용량 LMWH는 통상 ≥24시간 중단을 확보하며, 최근 VTE 등 고위험은 UFH 전환을 포함해 개별 계획한다. 수유 중 LMWH/warfarin은 사용할 수 있으나 DOAC은 피한다. [RCOG 37b](https://www.rcog.org.uk/media/wj2lpco5/gtg-37b-1.pdf)
+- **기간·분만**: 임신 중 치료를 지속하고 산후 최소 6주이면서 총 ≥3개월을 충족한다. 계획 분만/신경축마취 전 치료용량 LMWH는 통상 ≥24시간 중단을 확보하며, 최근 VTE 등 고위험은 UFH 전환을 포함해 개별 계획한다. 수유 중 LMWH/warfarin은 사용할 수 있으나 DOAC은 피한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 폐색전증(PE), 혈전후 증후군(Post-thrombotic syndrome).

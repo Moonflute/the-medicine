@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/"]
 ---
 분과 : [[감염]]
 
@@ -45,7 +46,7 @@ reviewed_at: "2026-07-30"
 - 치료 반응이 미미하거나 진행이 의심될 경우 즉시 외과 재절개 및 감염내과 전문의와 협진한다.
 - 외상 시 적절한 상처 세척·소독 및 초기 항생제 예방 투여로 가스 괴저 발생을 예방한다.
 
-- 고압산소 치료를 위해 응급 수술·소생을 지연하지 않는다. [IDSA](https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/)
+- 고압산소 치료를 위해 응급 수술·소생을 지연하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 사망률이 높으며, 패혈증, 다발성 장기 부전, 사지 절단 등의 심각한 합병증을 초래할 수 있다.

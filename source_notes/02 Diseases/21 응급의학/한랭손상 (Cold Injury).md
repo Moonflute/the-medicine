@@ -17,9 +17,7 @@ review_status: source_reviewed_no_change
 reviewed_at: '2026-07-30'
 content_updated_at: "2026-11-18"
 guideline_year: '2024'
-sources:
-- 'WMS Clinical Practice Guidelines for Frostbite 2024 | https://journals.sagepub.com/doi/10.1177/10806032231222359'
-- 'WMS Clinical Practice Guidelines: Accidental Hypothermia | https://wms.org/WMS/Research/WEM/Clinical-Practice-Guidelines.aspx'
+sources: ["WMS Clinical Practice Guidelines for Frostbite 2024 | https://journals.sagepub.com/doi/10.1177/10806032231222359", "WMS Clinical Practice Guidelines: Accidental Hypothermia | https://wms.org/WMS/Research/WEM/Clinical-Practice-Guidelines.aspx", "WMS 동상 2024 | https://doi.org/10.1177/10806032231222359"]
 disease_family: cold_injury
 population: general
 ---
@@ -52,7 +50,7 @@ population: general
 - 조직 경계가 정해지기 전 조기 절단을 피하되 감염·패혈증·구획증후군은 즉시 치료한다.
 
 - **깊은 동상·관류 결손**은 전문센터에서 신속히 재관류 치료 적합성을 판단한다. tPA는 보통 해동 후 **24시간 이내**에서 출혈·외상 금기를 확인하고, iloprost는 조기 투여를 우선하며 선택된 중증에서 **최대 약 72시간 시간창**을 검토한다. 경미한 표재성 동상에 일률적으로 투여하지 않는다.
-- 저체온의 불안정/심정지는 일반 동상 상처치료와 별개로 ECLS 재가온 가능성을 즉시 평가한다. 재동결 위험이 남아 있으면 현장에서 해동을 강행하지 않는다. [WMS 동상 2024](https://doi.org/10.1177/10806032231222359)
+- 저체온의 불안정/심정지는 일반 동상 상처치료와 별개로 ECLS 재가온 가능성을 즉시 평가한다. 재동결 위험이 남아 있으면 현장에서 해동을 강행하지 않는다.
 
 ## 6. 예후 및 합병증
 - 저체온은 부정맥, aspiration, rhabdomyolysis, AKI, 폐부종과 신경학적 손상을 유발한다. 질식이 선행하지 않은 저체온 심정지는 장시간 소생 후에도 양호한 회복이 가능하다.

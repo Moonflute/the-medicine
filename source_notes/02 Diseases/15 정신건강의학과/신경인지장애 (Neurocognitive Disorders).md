@@ -22,10 +22,7 @@ group_members:
 - 섬망 (Delirium)
 - 일과성 전체 기억 상실 (Transient Global Amnesia)
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "NICE CG103: Delirium (2023 갱신) | https://www.nice.org.uk/guidance/cg103/chapter/Recommendations"
-  - "Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/"
-  - "Alzheimer's Association: Blood-Based Biomarkers in Specialized Care (2025) | https://aaic.alz.org/releases-2025/clinical-practice-guideline-blood-based-biomarkers.asp"
+sources: ["NICE CG103: Delirium (2023 갱신) | https://www.nice.org.uk/guidance/cg103/chapter/Recommendations", "Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/", "Alzheimer's Association: Blood-Based Biomarkers in Specialized Care (2025) | https://aaic.alz.org/releases-2025/clinical-practice-guideline-blood-based-biomarkers.asp"]
 ---
 # 신경인지장애
 
@@ -60,7 +57,3 @@ NICE 2023 섬망 권고는 일반 병동에서 4AT, 중환자실에서는 CAM-IC
 - [[일과성 전체 기억 상실 (Transient Global Amnesia)]]
 
 ## 참고 자료
-
-- [NICE CG103: Delirium (2023 갱신)](https://www.nice.org.uk/guidance/cg103/chapter/Recommendations)
-- [Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/)
-- [Alzheimer's Association: Blood-Based Biomarkers in Specialized Care (2025)](https://aaic.alz.org/releases-2025/clinical-practice-guideline-blood-based-biomarkers.asp)

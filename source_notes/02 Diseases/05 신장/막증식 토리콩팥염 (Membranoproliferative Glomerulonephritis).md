@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["KDIGO 2021 Glomerular Diseases guideline | https://kdigo.org/guidelines/gd/"]
 ---
 분과 : [[신장]]
 
@@ -22,7 +23,6 @@ reviewed_at: "2026-07-30"
 - **정의**: 광학현미경 상 사구체 기저막(GBM) 비후와 세포 증식이 특징적인 사구체 손상 패턴.
 - **원인**: 특발성(Primary) 또는 기저 질환(감염, 자가면역질환, 단클론감마병증 등)에 의한 이차성(Secondary).
 - **기전**: 면역복합체 침착 또는 보체 경로(주로 대체 경로)의 조절 장애로 인한 사구체 손상.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -65,11 +65,10 @@ reviewed_at: "2026-07-30"
 - 기저 질환의 유무와 조직학적 분류에 따라 예후가 다양함.
 
 
-
 출처 : Merck Manual Professional (2026)
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [KDIGO 2021 Glomerular Diseases guideline](https://kdigo.org/guidelines/gd/)를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.

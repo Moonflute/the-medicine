@@ -25,11 +25,7 @@ group_members:
 - 이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)
 - 적응 장애 (Adjustment Disorder)
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "VA/DoD: Management of PTSD and Acute Stress Disorder (2023) | https://healthquality.va.gov/HEALTHQUALITY/guidelines/MH/ptsd/PTSD-pocket-card-508.pdf"
-  - "VA National Center for PTSD: Clinician's Guide to Medications (2023 권고; 2026-10 확인) | https://www.ptsd.va.gov/professional/treat/txessentials/clinician_guide_meds.asp"
-  - "VA National Center for PTSD: Acute Stress Disorder (2026-10 확인) | https://www.ptsd.va.gov/professional/treat/essentials/acute_stress_disorder.asp"
-  - "Merck Manual: Overview of Dissociative Disorders (2026-10 확인) | https://www.merckmanuals.com/professional/psychiatric-disorders/dissociative-disorders/overview-of-dissociative-disorders"
+sources: ["VA/DoD: Management of PTSD and Acute Stress Disorder (2023) | https://healthquality.va.gov/HEALTHQUALITY/guidelines/MH/ptsd/PTSD-pocket-card-508.pdf", "VA National Center for PTSD: Clinician's Guide to Medications (2023 권고; 2026-10 확인) | https://www.ptsd.va.gov/professional/treat/txessentials/clinician_guide_meds.asp", "VA National Center for PTSD: Acute Stress Disorder (2026-10 확인) | https://www.ptsd.va.gov/professional/treat/essentials/acute_stress_disorder.asp", "Merck Manual: Overview of Dissociative Disorders (2026-10 확인) | https://www.merckmanuals.com/professional/psychiatric-disorders/dissociative-disorders/overview-of-dissociative-disorders"]
 ---
 # 외상 및 스트레스 관련 장애
 
@@ -71,8 +67,3 @@ VA/DoD 2023은 PTSD에서 지속 노출, 인지처리치료, EMDR 같은 외상 
 - [[적응 장애 (Adjustment Disorder)]]
 
 ## 참고 자료
-
-- [VA/DoD: Management of PTSD and Acute Stress Disorder (2023)](https://healthquality.va.gov/HEALTHQUALITY/guidelines/MH/ptsd/PTSD-pocket-card-508.pdf)
-- [VA National Center for PTSD: Clinician's Guide to Medications (2023 권고; 2026-10 확인)](https://www.ptsd.va.gov/professional/treat/txessentials/clinician_guide_meds.asp)
-- [VA National Center for PTSD: Acute Stress Disorder (2026-10 확인)](https://www.ptsd.va.gov/professional/treat/essentials/acute_stress_disorder.asp)
-- [Merck Manual: Overview of Dissociative Disorders (2026-10 확인)](https://www.merckmanuals.com/professional/psychiatric-disorders/dissociative-disorders/overview-of-dissociative-disorders)

@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EULAR | https://doi.org/10.1136/annrheumdis-2019-216114"]
 ---
 분과 : [[류마티스]]
 
@@ -76,7 +77,7 @@ reviewed_at: "2026-07-30"
 - 완치가 어려워 치료는 주로 증상 조절을 목표로 한다. 인공눈물 또는 인공타액을 사용하고, 건조 증상을 악화시킬 수 있는 이뇨제·항고혈압제·항우울제는 주의한다. 물을 자주 마시고 충치 위험을 줄이기 위해 정기 치과 진료를 받는다.
 - 분비 증가를 위해 pilocarpine 5 mg 하루 3회 또는 cevimeline 30 mg 하루 3회를 사용할 수 있다. 관절염 증상에는 hydroxychloroquine이 도움이 될 수 있으며, 전신 혈관염 또는 다른 중요 장기 침범이 동반되면 corticosteroid나 다른 면역억제제를 사용한다.
 
-- **국소 치료와 전신 면역억제 구분**: 건조·피로만으로 전신 steroid나 생물학제를 시작하지 않는다. 잔여 분비기능이 있는 구강 건조는 pilocarpine/cevimeline을 고려하고, 심한 분비 소실은 인공타액을 중심으로 한다. 혈관염·ILD·신장 등 활동성 장기침범은 중증도에 따라 전신 면역억제를 선택한다. [EULAR](https://doi.org/10.1136/annrheumdis-2019-216114)
+- **국소 치료와 전신 면역억제 구분**: 건조·피로만으로 전신 steroid나 생물학제를 시작하지 않는다. 잔여 분비기능이 있는 구강 건조는 pilocarpine/cevimeline을 고려하고, 심한 분비 소실은 인공타액을 중심으로 한다. 혈관염·ILD·신장 등 활동성 장기침범은 중증도에 따라 전신 면역억제를 선택한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 만성적인 경과를 보이나 적절한 관리로 증상 조절이 가능하다.

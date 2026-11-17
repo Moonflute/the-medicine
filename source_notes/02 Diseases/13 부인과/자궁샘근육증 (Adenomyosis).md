@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG88 | https://www.nice.org.uk/guidance/ng88/chapter/recommendations"]
 ---
 분과 : [[부인과]]
 
@@ -49,7 +50,7 @@ reviewed_at: "2026-07-30"
 - **가임력 상담**: 병변 절제술 후 재발 가능성과 임신 시 자궁 파열 위험에 대해 충분히 설명하고, 난임 전문의와 협진을 고려함.
 - **추적 관찰**: 약물 치료 중인 경우 증상 호전 여부와 부작용을 정기적으로 모니터링하며, 영상 검사를 통해 병변의 변화를 추적함.
 
-- **약제 선택**: 월경과다에서 LNG-IUS가 대표적 1차 치료다. 부적합/불내성이면 tranexamic acid·NSAID 또는 다른 호르몬 치료를 선택하고 증상·빈혈 반응으로 시술 전환을 판단한다. [NICE NG88](https://www.nice.org.uk/guidance/ng88/chapter/recommendations)
+- **약제 선택**: 월경과다에서 LNG-IUS가 대표적 1차 치료다. 부적합/불내성이면 tranexamic acid·NSAID 또는 다른 호르몬 치료를 선택하고 증상·빈혈 반응으로 시술 전환을 판단한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 난임과의 연관성은 논란이 있으나, 자궁 구조 변형 및 염증 환경으로 인해 임신에 영향을 줄 수 있음.

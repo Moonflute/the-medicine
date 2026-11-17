@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NCCN 소장 선암 안내 2026 | https://vicc.org/sites/default/files/2026-10/small-bowel-patient.pdf"]
 ---
 분과 : [[소화기]]
 
@@ -29,7 +30,6 @@ reviewed_at: "2026-07-30"
 - **원인**: 유전적 요인(가족성 선종성 용종증, Peutz-Jeghers 증후군 등), 염증성 장질환(크론병), 식이 요인 등이 관련됨.
 
 - **기전**: 만성적인 염증이나 유전적 변이가 소장 점막 세포의 비정상적 증식을 유도하여 악성 종양으로 진행함.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -54,7 +54,6 @@ reviewed_at: "2026-07-30"
 - **절제 가능 비전이성 선암**은 원발 부위에 맞춘 절제와 국소 림프절 평가를 시행한다. 십이지장 병변은 위치·침범 범위에 따라 췌십이지장절제 또는 선별 분절절제를 판단한다.
 - **보조치료**는 병기와 MMR/MSI에 따라 결정한다. 제1기는 관찰하며, 림프절 양성 제3기는 FOLFOX/CAPEOX 등 보조요법을 평가한다. 제2기는 T4·불충분한 림프절 평가·절제연·천공 등 위험과 MMR/MSI로 관찰 또는 항암을 결정한다. dMMR/MSI-H 제2기 전체를 무조건 관찰로 묶지 않으며 최신 세부 병기별 권고를 확인한다.
 - **절제 불가·전이성**은 항암 적합성과 MMR/MSI 등 표지에 따라 oxaliplatin 기반 항암 또는 면역치료 등을 선택하고, 반응 후 절제 가능성을 재평가한다. 폐쇄·천공은 항암 시작 전에 감염원 통제·감압과 영양 경로를 확보한다.
-- 근거: [NCCN 소장 선암 안내 2026](https://vicc.org/sites/default/files/2026-10/small-bowel-patient.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **종류**
@@ -62,7 +61,6 @@ reviewed_at: "2026-07-30"
 * 악성 종양: 선암(가장 흔함), 림프종, 신경내분비종양, 위장관기질종양(GIST).
 - **합병증**: 장폐쇄, 천공, 만성 출혈로 인한 빈혈, 영양 결핍.
 * **특징**: 십이지장 팽대부 주위암은 황달을 유발하며, 췌십이지장 절제술(PPPD)을 시행할 수 있음.
-
 
 
 출처 : Merck Manual Professional, StatPearls

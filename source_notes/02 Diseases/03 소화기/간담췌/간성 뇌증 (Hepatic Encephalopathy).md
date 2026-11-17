@@ -14,7 +14,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["ACG Clinical Guideline: Hepatic Encephalopathy. | https://pubmed.ncbi.nlm.nih.gov/41773757/"]
+sources: ["ACG Clinical Guideline: Hepatic Encephalopathy. | https://pubmed.ncbi.nlm.nih.gov/41773757/", "ACG 간성뇌증 지침 2026 | https://doi.org/10.14309/ajg.0000000000003899", "AASLD/EASL 간성 뇌증 분류 지침 | https://www.aasld.org/sites/default/files/2022-07/Hepatic%20Encephalopathy%20in%20Chronic%20Liver%20Disease%202014.pdf", "AASLD 암모니아 해석 | https://www.aasld.org/liver-fellow-network/core-series/why-series/why-shouldnt-ammonia-be-used-diagnosis-and-management", "AASLD 간경변 외래 관리 | https://www.aasld.org/liver-fellow-network/core-series/back-basics/back-basics-outpatient-management-cirrhosis"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -78,7 +78,6 @@ content_updated_at: "2026-11-18"
 
 - **용량·추가 기준**: Lactulose는 **하루 2–3회의 부드러운 배변**을 목표로 조절하며 설사·탈수·저칼륨혈증을 유발할 정도로 증량하지 않는다. 반복되는 현성 뇌증에서는 rifaximin을 추가해 재발을 예방한다(통상 두 번째 현성 뇌증 이후; 성인 550 mg 하루 2회). 약을 추가하기 전에 감염, 위장관 출혈, 변비, 진정제, 전해질 이상과 복약 누락을 확인한다.
 - **중증도에 따른 조치**: West Haven III–IV 또는 기도 보호가 어려우면 중환자 치료·기도 확보를 우선한다. 혈중 암모니아 수치만으로 약제 증량이나 퇴원을 결정하지 않는다.
-- 근거: [ACG 간성뇌증 지침 2026](https://doi.org/10.14309/ajg.0000000000003899).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -93,6 +92,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [AASLD/EASL 간성 뇌증 분류 지침](https://www.aasld.org/sites/default/files/2022-07/Hepatic%20Encephalopathy%20in%20Chronic%20Liver%20Disease%202014.pdf)
-- [AASLD 암모니아 해석](https://www.aasld.org/liver-fellow-network/core-series/why-series/why-shouldnt-ammonia-be-used-diagnosis-and-management)
-- [AASLD 간경변 외래 관리](https://www.aasld.org/liver-fellow-network/core-series/back-basics/back-basics-outpatient-management-cirrhosis)

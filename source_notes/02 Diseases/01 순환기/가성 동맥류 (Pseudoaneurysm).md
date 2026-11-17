@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACC 도관 후 대퇴동맥 가성동맥류 관리 | https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2019/06/04/10/26/Postcatheterization-Femoral-Pseudoaneurysms"]
 ---
 분과 : [[순환기]]
 
@@ -40,7 +41,6 @@ reviewed_at: "2026-07-30"
 - **도관 삽입 후 대퇴동맥 병변**에서 작고 안정적이며 무증상인 **<2 cm** 가성동맥류는 항응고 필요성을 검토하고 대체로 주 단위 duplex 추적으로 자연 혈전화를 관찰할 수 있다. 이 수치를 감염성·내장동맥·외상성 병변 전체에 적용하지 않는다.
 - **>2 cm, 성장, 통증, 항응고 지속 필요 또는 자연 폐쇄가 어려운 형태**이면 적극적 치료를 검토한다. 해부학적으로 적합하면 초음파 유도 thrombin 주입을 우선 고려하며 원위부 색전·맥박을 감시한다.
 - **급격한 팽창·피부괴사·감염·사지허혈·신경 압박·출혈/불안정**은 긴급 혈관외과 평가 대상이다. 수술·혈관내 치료는 위치와 해부학으로 결정하고 감염 병변에 단순 thrombin 주입만 시행하지 않는다.
-- 근거: [ACC 도관 후 대퇴동맥 가성동맥류 관리](https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2019/06/04/10/26/Postcatheterization-Femoral-Pseudoaneurysms).
 
 ## 6. 예후 및 합병증
 - **합병증**: 파열, 혈전증, 원위부 색전증, 신경 압박, 만성 통증, 감염.

@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACOG 거대아 지침 | https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/macrosomia"]
 ---
 분과 : [[산과]]
 
@@ -45,7 +46,7 @@ reviewed_at: "2026-07-30"
 - **신생아 관리**: 출생 후 저혈당, 저칼슘혈증, 다혈구증 등 대사 합병증 발생 여부를 면밀히 모니터링함.
 - **산모 합병증 예방**: 분만 후 산도 열상 및 자궁 이완에 의한 산후 출혈 위험이 높으므로 주의 깊게 관찰함.
 
-- **체중 추정의 한계·유도**: 위 4,500/5,000 g은 초음파 추정 오차와 산모 위험을 함께 고려해 예방적 제왕절개를 논의하는 기준이다. 의심 거대아만으로 39주 이전 유도분만을 권하지 않으며, 당뇨 조절 불량·태아 이상 등 별도 적응증은 따로 판단한다. [ACOG 거대아 지침](https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/01/macrosomia)
+- **체중 추정의 한계·유도**: 위 4,500/5,000 g은 초음파 추정 오차와 산모 위험을 함께 고려해 예방적 제왕절개를 논의하는 기준이다. 의심 거대아만으로 39주 이전 유도분만을 권하지 않으며, 당뇨 조절 불량·태아 이상 등 별도 적응증은 따로 판단한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **산모**: 산도 열상, 산후 출혈, 제왕절개율 증가.

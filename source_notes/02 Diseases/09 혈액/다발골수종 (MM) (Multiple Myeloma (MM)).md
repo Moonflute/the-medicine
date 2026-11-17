@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["FDA 고위험 SMM 적응증 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-daratumumab-and-hyaluronidase-fihj-high-risk-smoldering-multiple-myeloma", "IMWG 활동성 골수종 기준 | https://www.myeloma.org/international-myeloma-working-group-imwg-criteria-diagnosis-multiple-myeloma", "International Myeloma Working Group 2023 renal impairment recommendations | https://pubmed.ncbi.nlm.nih.gov/37414019/"]
 ---
 분과 : [[혈액]]
 
@@ -51,13 +52,13 @@ reviewed_at: "2026-07-30"
 - 골수 조직 검사에서 클론성 형질세포 10% 이상 또는 조직학적으로 증명된 형질세포종과 함께 CRAB 증상 중 하나 이상 (Ca > 11mg/dL, Cr > 2.0mg/dL, Anemia, Bone lesion)이 있을 때 진단.
 
 ## 5. 치료
-- 스몰더링 골수종은 위험도에 따라 관찰하거나 고위험군의 조기치료를 논의한다. 미국 FDA는 2025년 고위험 SMM의 daratumumab 피하요법을 승인했으므로 모든 무증상 환자를 무조건 관찰로 묶지 않는다. 고위험 정의·기대 이득과 국내 허가·급여를 확인하며, 저위험 SMM은 통상 관찰한다. [FDA 고위험 SMM 적응증](https://www.fda.gov/drugs/cancer-approvals/fda-approves-daratumumab-and-hyaluronidase-fihj-high-risk-smoldering-multiple-myeloma)
+- 스몰더링 골수종은 위험도에 따라 관찰하거나 고위험군의 조기치료를 논의한다. 미국 FDA는 2025년 고위험 SMM의 daratumumab 피하요법을 승인했으므로 모든 무증상 환자를 무조건 관찰로 묶지 않는다. 고위험 정의·기대 이득과 국내 허가·급여를 확인하며, 저위험 SMM은 통상 관찰한다.
 - 증상성 다발골수종, 특히 골수종 관련 신기능 저하는 혈액종양내과와 신장내과가 즉시 협진하여 bortezomib 기반 항골수종 치료와 글루코코르티코이드, 원인 교정·체액 관리 등 지지치료를 시작한다. 투석은 일반 AKI 적응증으로 시행하며, 혈장교환이나 기계적 경쇄 제거는 일상적으로 생존 이득이 확인된 치료로 보지 않고 선택된 상황에서만 논의한다.
 - 고칼슘혈증은 체액 상태를 보며 수액·칼시토닌 및 신기능에 맞춘 골흡수 억제 치료를 고려하고, 혈청 칼슘·인·신기능을 추적한다. 체액 과부하가 없는 환자에게 루프이뇨제를 일률적으로 사용하지 않으며, cast nephropathy가 의심되면 탈수·NSAID·RAAS 차단제·조영제 등 신독성/유발 요인을 우선 교정한다.
 - 신부전, 골절 위험이 높은 젊은 환자나 적합한 경우, 조혈모세포 채집·고용량 화학요법·자가 조혈모세포 이식을 포함한 치료 계획을 혈액·이식 전문팀에 의뢰한다.
 - 치료 후에는 M‑단백 농도, 자유 경쇄 비율, 혈청 크레아티닌, 칼슘, 골 영상 등을 1~3개월 간격으로 추적 검사하고, 재발·진행 여부에 따라 치료 전략을 재평가한다. 재발 평가는 M 단백 변화뿐 아니라 새 CRAB 장기손상, 골수외 병변, 신경학적 증상 및 과점도 증상을 함께 확인한다.
 
-- **증상이 없어도 활동성 골수종이 되는 기준:** 클론성 골수 형질세포 ≥10% 또는 형질세포종에 더해 골수종에 의한 CRAB 장기손상 또는 SLiM 기준 하나 이상이면 치료 대상이다. SLiM은 골수 클론 형질세포 **≥60%**, involved/uninvolved FLC 비 **≥100이면서 involved FLC ≥100 mg/L**, MRI에서 **각 ≥5 mm의 국소 병변 >1개**이다. CRAB는 Ca >11 mg/dL 또는 정상상한보다 >1 mg/dL, CrCl <40 mL/min 또는 Cr >2 mg/dL, Hb <10 g/dL 또는 정상하한보다 >2 g/dL 감소, 용해성 골병변을 포함하며 다른 원인에 의한 이상을 구분한다. [IMWG 활동성 골수종 기준](https://www.myeloma.org/international-myeloma-working-group-imwg-criteria-diagnosis-multiple-myeloma)
+- **증상이 없어도 활동성 골수종이 되는 기준:** 클론성 골수 형질세포 ≥10% 또는 형질세포종에 더해 골수종에 의한 CRAB 장기손상 또는 SLiM 기준 하나 이상이면 치료 대상이다. SLiM은 골수 클론 형질세포 **≥60%**, involved/uninvolved FLC 비 **≥100이면서 involved FLC ≥100 mg/L**, MRI에서 **각 ≥5 mm의 국소 병변 >1개**이다. CRAB는 Ca >11 mg/dL 또는 정상상한보다 >1 mg/dL, CrCl <40 mL/min 또는 Cr >2 mg/dL, Hb <10 g/dL 또는 정상하한보다 >2 g/dL 감소, 용해성 골병변을 포함하며 다른 원인에 의한 이상을 구분한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 신기능 회복은 유리경쇄를 신속히 낮추는 전신 치료, 기존 CKD 정도, 원인 및 조직 손상 정도에 영향을 받습니다. 투석이 필요해도 즉시 항골수종 치료를 시작하며, 신기능·경쇄·체액 상태와 감염을 함께 추적합니다.
@@ -71,4 +72,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [International Myeloma Working Group 2023 renal impairment recommendations](https://pubmed.ncbi.nlm.nih.gov/37414019/)를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. International Myeloma Working Group 2023 renal impairment recommendations를 대조. 2026-09-14 기존 목차 내 보완.

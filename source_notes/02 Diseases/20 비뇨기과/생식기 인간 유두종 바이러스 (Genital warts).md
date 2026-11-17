@@ -16,7 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-18"
 guideline_year: "2024"
-sources: ["Korean sexually transmitted infection guidelines 2023 revision, guideline update of viral infections: Genital herpes and anogenital warts. | https://pubmed.ncbi.nlm.nih.gov/38197746/"]
+sources: ["Korean sexually transmitted infection guidelines 2023 revision, guideline update of viral infections: Genital herpes and anogenital warts. | https://pubmed.ncbi.nlm.nih.gov/38197746/", "CDC | https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm"]
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
@@ -26,7 +26,6 @@ review_status: "guideline_enriched"
 - **정의:** 인유두종 바이러스(HPV) 감염에 의해 발생하는 생식기 및 항문 주위의 사마귀(콘딜로마).
 - **원인:** 주로 저위험군인 HPV 6형과 11형(약 90% 차지).
 - **기전:** 감염된 피부와의 직접적인 접촉(주로 성관계)을 통해 기저 상피세포로 바이러스가 침투하여 증식, 양성 종양 형성.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -53,7 +52,7 @@ review_status: "guideline_enriched"
 * **주의:** 치료 후에도 재발할 수 있으며, 성 파트너와 함께 검진 및 상담 필요.
 
 - 크기·개수·부위·선호에 따라 관찰, imiquimod 등 자가 도포 또는 냉동·절제·TCA 등 의료인 치료를 선택한다. **색소성·경결·궤양·출혈·비전형·치료 불응**은 생검으로 다른 종양을 배제한다.
-- 임신 중 podofilox/podophyllin·sinecatechins는 사용하지 않고 imiquimod도 자료가 부족해 피한다. 경부·요도·항문 내부 병변은 해당 부위의 전문 치료를 선택한다. [CDC](https://www.cdc.gov/std/treatment-guidelines/anogenital-warts.htm)
+- 임신 중 podofilox/podophyllin·sinecatechins는 사용하지 않고 imiquimod도 자료가 부족해 피한다. 경부·요도·항문 내부 병변은 해당 부위의 전문 치료를 선택한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 자연 퇴행 가능성이 있으나 시간이 오래 걸림(약 2년 내 65% 자연 소실).

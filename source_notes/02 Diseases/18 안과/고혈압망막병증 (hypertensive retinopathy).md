@@ -12,9 +12,7 @@ CC:
 - 시력 저하
 preprocessing_required: x
 last_studied: '2026-06-06'
-sources:
-- '대한고혈압학회 2026년 제6판 고혈압 진료지침 | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read'
-- 'American Academy of Ophthalmology EyeWiki: Hypertensive Retinopathy | https://eyewiki.aao.org/Hypertensive_retinopathy'
+sources: ["대한고혈압학회 2026년 제6판 고혈압 진료지침 | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read", "American Academy of Ophthalmology EyeWiki: Hypertensive Retinopathy | https://eyewiki.aao.org/Hypertensive_retinopathy"]
 clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'
 guideline_year: "2026"
@@ -52,5 +50,3 @@ review_status: "guideline_enriched"
 - 망막동맥·정맥폐쇄, 망막동맥류, 허혈성 시신경병증과 전신 심혈관·뇌혈관 사건 위험이 증가하므로, 안과 추적과 함께 [[고혈압 (Hypertension)]]의 장기 위험인자 관리를 지속한다.
 
 ## 출처
-- American Academy of Ophthalmology EyeWiki, Hypertensive Retinopathy: https://eyewiki.aao.org/Hypertensive_retinopathy
-- 대한고혈압학회 2026년 제6판 고혈압 진료지침: https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read

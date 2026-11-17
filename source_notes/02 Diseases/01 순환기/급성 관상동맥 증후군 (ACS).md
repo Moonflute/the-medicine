@@ -15,10 +15,7 @@ clinical_priority: tier_1
 content_updated_at: "2026-11-18"
 reviewed_at: "2026-10-21"
 guideline_year: '2026'
-sources:
-- '2023 ESC Guidelines for the Management of Acute Coronary Syndromes | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/'
-- '2025 ACC AHA Acute Coronary Syndromes guideline | https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know'
-- 'Fifth Universal Definition of Myocardial Infarction 2026 — joint consensus | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/'
+sources: ["2023 ESC Guidelines for the Management of Acute Coronary Syndromes | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/acute-coronary-syndromes-acs-guidelines/", "2025 ACC AHA Acute Coronary Syndromes guideline | https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know", "Fifth Universal Definition of Myocardial Infarction 2026 — joint consensus | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/", "AHA/ACC ACS 지침 2025 | https://doi.org/10.1161/CIR.0000000000001309", "ACC 2024 만성 관상동맥증후군 핵심 | https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2024/09/01/15/01/2024-esc-guidelines-for-ccs-esc-2024"]
 disease_family: coronary_artery_disease
 parent_disease: 허혈성 심질환
 relation_to_parent: acute_presentation
@@ -65,15 +62,11 @@ population: adult
 - 퇴원 전에는 고강도 지질저하, 금연, 심장재활, 혈압·당뇨병 관리, 항혈전 치료 기간 및 출혈 교육을 정한다. DAPT는 기본적으로 12개월 전략을 출발점으로 하되 출혈·허혈 위험과 경구항응고 필요성에 따라 단축 또는 연장을 개별화한다.
 
 - **지질약 강화 기준**: 최대 내약 statin에도 **LDL-C ≥70 mg/dL**이면 ezetimibe/PCSK9 억제제 등 비statin 추가를 권고하며, **55–<70 mg/dL**에서도 추가 강화를 합리적으로 고려한다. 시작·변경 후 4–8주 재검으로 반응을 확인한다.
-- 근거: [AHA/ACC ACS 지침 2025](https://doi.org/10.1161/CIR.0000000000001309).
 
 ## 6. 예후 및 합병증
 - 초기 합병증은 심실성 부정맥, 전도장애, 급성 심부전·폐부종, 심인성 쇼크, 기계적 합병증(유두근 파열, 심실중격 결손, 심실 자유벽 파열) 및 재허혈이다.
 - 퇴원 후에는 재발 MI, 출혈, 심부전, 부정맥, 우울·복약 중단을 추적한다. 갑작스러운 흉통 재발, 실신, 호흡곤란, 출혈 또는 흑색변은 즉시 평가가 필요하다.
 
 출처: ESC, *2023 Guidelines for the Management of Acute Coronary Syndromes*.
-- [제5차 심근경색 보편적 정의(2026)](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/universal-definition-myocardial-infarction/) — 2026-08-28 공개, 2026-10-21 반영.
 
 참고: 삼성서울병원 메뉴얼.
-- [AHA 2025 급성 관상동맥증후군 지침 핵심](https://professional.heart.org/en/science-news/2025-guideline-for-the-management-of-patients-with-acute-coronary-syndromes/top-things-to-know)
-- [ACC 2024 만성 관상동맥증후군 핵심](https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2024/09/01/15/01/2024-esc-guidelines-for-ccs-esc-2024)

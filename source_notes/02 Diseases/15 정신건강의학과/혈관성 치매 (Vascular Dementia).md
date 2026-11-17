@@ -12,8 +12,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders
+sources: ["Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE NG97 | https://www.nice.org.uk/guidance/ng97/chapter/recommendations", "임상 참고 자료 | https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/vascular-dementia"]
 disease_family: psychiatry_split
 parent_disease: 신경인지장애 (Neurocognitive Disorders)
 relation_to_parent: subtype
@@ -41,11 +40,9 @@ content_updated_at: "2026-11-18"
 
 - **인지 약제 사용 조건**: 순수 혈관성 치매에 cholinesterase 억제제·memantine을 일괄 처방하지 않는다. Alzheimer병·DLB·Parkinson 치매의 동반이 의심되면 해당 병리에 맞추어 고려한다. 항혈소판·항응고제는 별도의 뇌혈관·심방세동 적응증으로 선택하며 인지 저하만으로 시작하지 않는다.
 
-근거: [NICE NG97](https://www.nice.org.uk/guidance/ng97/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.
 
-출처: [임상 참고 자료](https://www.merckmanuals.com/professional/neurologic-disorders/delirium-and-dementia/vascular-dementia)
 
 2026-07-24 — 독립 질환 문서 수동 보강 (원문 분리 후 임상 내용 정리).

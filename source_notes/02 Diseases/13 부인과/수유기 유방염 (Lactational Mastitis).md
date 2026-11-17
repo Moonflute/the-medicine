@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ABM Protocol 36 | https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -45,7 +46,7 @@ reviewed_at: "2026-07-30"
 - **초기 염증**: 생리적인 수유를 유지하고 냉찜질·NSAID·휴식을 적용한다. 유방을 완전히 비우려는 과도한 유축·강한 마사지는 부종과 과다분비를 악화시킬 수 있어 피한다.
 - **항생제를 시작할 때**: 전신 증상이 24시간 이상 지속되거나 보존치료에도 국소 염증이 진행하여 세균성 유방염이 의심되면 dicloxacillin/flucloxacillin 또는 cephalexin 등 항포도알균 요법을 보통 10–14일 사용한다. 알레르기·MRSA 위험·지역 내성에 따라 변경한다.
 - **치료 실패**: 항생제 48시간 후 호전이 없으면 모유 배양과 내성 평가를 시행하고 초음파로 농양·염증성 종괴를 확인한다. 농양은 배액과 배양이 필요하다.
-- **수유·추적**: 대부분 수유를 지속할 수 있다. 반복되는 같은 부위 병변 또는 지속 종괴는 악성 등 다른 원인을 영상/조직검사로 확인한다. [ABM Protocol 36](https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf)
+- **수유·추적**: 대부분 수유를 지속할 수 있다. 반복되는 같은 부위 병변 또는 지속 종괴는 악성 등 다른 원인을 영상/조직검사로 확인한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 예후는 양호함.

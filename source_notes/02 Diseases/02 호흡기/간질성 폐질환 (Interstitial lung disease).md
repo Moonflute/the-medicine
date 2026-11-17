@@ -20,7 +20,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension. | https://pubmed.ncbi.nlm.nih.gov/42270533/", "Korean Guidelines for Diagnosis and Management of Interstitial Lung Diseases | https://www.lungkorea.org/journal/view.php?number=1000", "ERS/EULAR clinical practice guidelines for connective tissue disease-associated interstitial lung disease | https://ard.bmj.com/content/85/1/22"]
+sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension. | https://pubmed.ncbi.nlm.nih.gov/42270533/", "Korean Guidelines for Diagnosis and Management of Interstitial Lung Diseases | https://www.lungkorea.org/journal/view.php?number=1000", "ERS/EULAR clinical practice guidelines for connective tissue disease-associated interstitial lung disease | https://ard.bmj.com/content/85/1/22", "ATS/ERS/JRS/ALAT | https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/", "ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022 | https://www.thoracic.org/statements/guideline-implementation-tools/matrix-guidelines-and-derivatives-ipf-update.php", "ERS/EULAR CTD-ILD 지침 2025 | https://publications.ersnet.org/content/erj/early/2025/09/04/1399300302533-2024", "ERS ILD 공식 지침 목록 | https://channel.ersnet.org/hp-321-1-interstitial-lung-diseases"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -84,7 +84,7 @@ content_updated_at: "2026-11-17"
 - **IPF/섬유성 ILD의 급성 악화**:
   감염, 흡인, 약물, 심부전, 혈전색전증 등 가역 원인을 긴급하게 찾고, 새 양측 간유리음영·경화와 산소화 악화를 기존 HRCT 및 임상 경과와 비교한다. 고용량 corticosteroid의 근거는 제한적이므로 일률 처방하지 않으며, 산소·호흡부전 지원과 전문팀의 개별 위험-이득 판단이 필요하다.
 
-- **항섬유화제 전환 기준**: 비IPF 섬유화 ILD에서 다른 원인 없이 지난 1년 동안 증상 악화·영상 진행·생리학적 악화 중 ≥2가지이면 PPF를 평가한다. 생리학적 악화는 FVC 예측치의 절대 ≥5%p 감소 또는 보정 DLCO 절대 ≥10%p 감소이다. 원인·표준 치료를 최적화한 뒤 nintedanib을 조건부 고려하며, 모든 ILD나 DLCO 저하 하나에 자동 적용하지 않는다. [ATS/ERS/JRS/ALAT](https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/)
+- **항섬유화제 전환 기준**: 비IPF 섬유화 ILD에서 다른 원인 없이 지난 1년 동안 증상 악화·영상 진행·생리학적 악화 중 ≥2가지이면 PPF를 평가한다. 생리학적 악화는 FVC 예측치의 절대 ≥5%p 감소 또는 보정 DLCO 절대 ≥10%p 감소이다. 원인·표준 치료를 최적화한 뒤 nintedanib을 조건부 고려하며, 모든 ILD나 DLCO 저하 하나에 자동 적용하지 않는다.
 
 ## 6. 예후 및 합병증
 - 질환에 따라 경과가 다양하며, IPF의 경우 급성 악화 시 예후가 불량함.
@@ -99,4 +99,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022](https://www.thoracic.org/statements/guideline-implementation-tools/matrix-guidelines-and-derivatives-ipf-update.php), [ERS/EULAR CTD-ILD 지침 2025](https://publications.ersnet.org/content/erj/early/2025/09/04/1399300302533-2024), [ERS ILD 공식 지침 목록](https://channel.ersnet.org/hp-321-1-interstitial-lung-diseases)을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022, ERS/EULAR CTD-ILD 지침 2025, ERS ILD 공식 지침 목록을 대조. 2026-09-14 기존 목차 내 보완.

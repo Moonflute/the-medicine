@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["AASLD/IDSA 급성 HCV | https://www.hcvguidelines.org/guidance/management-of-acute-hcv-infection/", "CDC 의료인 HCV 노출 후 평가 | https://www.cdc.gov/hepatitis-c/hcp/infection-control/index.html", "AASLD/IDSA HCV 검사 | https://www.hcvguidelines.org/guidance/hcv-testing-and-linkage-to-care/"]
 ---
 분과 : [[소화기]]
 
@@ -65,7 +66,6 @@ reviewed_at: "2026-10-08"
 - 감염 예방을 위해 일회용 주사기 사용, 안전한 문신·피어싱, 안전한 성관계 등 위생 관리 교육을 제공한다.
 
 - **치료 시점**: 급성 HCV에서 정량 HCV RNA 양성으로 현재 감염이 확인되면 자연 소실을 기다리는 기간을 의무적으로 두지 않고 DAA 치료를 시작한다. 만성 감염과 같은 권장 요법·기간을 사용하며 임의의 초단기 요법은 피한다. 노출만 있고 RNA 음성인 경우 DAA를 예방적으로 처방하는 것과 구분한다.
-- 근거: [AASLD/IDSA 급성 HCV](https://www.hcvguidelines.org/guidance/management-of-acute-hcv-infection/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -81,5 +81,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [CDC 의료인 HCV 노출 후 평가](https://www.cdc.gov/hepatitis-c/hcp/infection-control/index.html)
-- [AASLD/IDSA HCV 검사](https://www.hcvguidelines.org/guidance/hcv-testing-and-linkage-to-care/)

@@ -17,13 +17,13 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EAU 외상 지침 | https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines"]
 ---
 분과 : [[비뇨기과]]
 
 ## 1. 개요
 - **정의:** 이 문서의 신장 손상은 비뇨기계 외상에 속하는 신장 실질·혈관·집합계의 외상성 손상이다. 기능 저하를 뜻하는 급성 신손상(AKI)과 구분한다.
 - **원인:** 둔상·관통상·의인성 손상으로 나누며 출혈과 요누출을 평가한다.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -41,11 +41,10 @@ reviewed_at: "2026-07-30"
 * 병력 청취(외상, 약물, 기저질환) 및 신체 검진을 통해 원인 감별
 
 
-
 ## 5. 치료
 - **혈역학적 안정**이면 고등급 손상도 선택적으로 비수술 관리가 가능하다. 관찰 중 활력·혈색소·신기능·요누출을 추적한다.
 - 안정 상태의 활동성 출혈은 선택적 혈관색전술을 검토한다. 소생에도 **지속 불안정·조절 불가 출혈**이면 수술 탐색이 필요하다.
-- 요누출 자체가 모두 즉시 신절제 적응증은 아니다. 지속·증상성 누출·감염성 urinoma이면 stent/신루·경피 배액을 고려한다. 생존 실질을 가능한 보존하고 고등급·증상 악화 시 재영상한다. [EAU 외상 지침](https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines)
+- 요누출 자체가 모두 즉시 신절제 적응증은 아니다. 지속·증상성 누출·감염성 urinoma이면 stent/신루·경피 배액을 고려한다. 생존 실질을 가능한 보존하고 고등급·증상 악화 시 재영상한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 발견 및 원인 교정이 예후에 결정적임

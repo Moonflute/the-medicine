@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Advancing glaucoma care: What's new in the 6th edition of the European Glaucoma Society guidelines. | https://pubmed.ncbi.nlm.nih.gov/41686761/"]
+sources: ["Advancing glaucoma care: What's new in the 6th edition of the European Glaucoma Society guidelines. | https://pubmed.ncbi.nlm.nih.gov/41686761/", "NICE NG81 | https://www.nice.org.uk/guidance/ng81/chapter/Recommendations", "EGS 6판 | https://dansk-oftalmologisk-selskab.dk/wp-content/uploads/2026/01/Glaucoma-Guidelines-6th-edition-English.pdf"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -60,8 +60,8 @@ content_updated_at: "2026-11-18"
   - 수술: 레이저 주변홍채절개술(LPI)이 표준 치료.
 - 최신 지침: EGS 6판 가이드라인의 최신 수술적 접근법(incisional surgery, tube shunts 등) 및 환자 관점의 치료 전략을 고려하여 단계적 치료 및 모니터링 수행.
 
-- **목표 미달·진행 시**: 복약·점안법·목표 안압을 확인한 뒤 다른 계열 추가, SLT 또는 수술로 전환한다. 진행성 시야 손상/진행이 빠르면 처음부터 수술을 논의하며, 두 약제 계열에도 시력손상 위험이 남으면 SLT/수술을 검토한다. [NICE NG81](https://www.nice.org.uk/guidance/ng81/chapter/Recommendations)
-- **급성 폐쇄각**: 즉시 안압하강·안과 처치를 시행한다. 동공차단에서 pilocarpine은 매우 높은 안압(약 ≥40 mmHg)을 먼저 낮춘 뒤 사용하고, 각막이 투명해지면 LPI를 시행한다. 반대쪽 위험안도 예방 LPI를 평가한다. topiramate 유발 등 비동공차단에는 pilocarpine/LPI를 자동 적용하지 않는다. [EGS 6판](https://dansk-oftalmologisk-selskab.dk/wp-content/uploads/2026/01/Glaucoma-Guidelines-6th-edition-English.pdf)
+- **목표 미달·진행 시**: 복약·점안법·목표 안압을 확인한 뒤 다른 계열 추가, SLT 또는 수술로 전환한다. 진행성 시야 손상/진행이 빠르면 처음부터 수술을 논의하며, 두 약제 계열에도 시력손상 위험이 남으면 SLT/수술을 검토한다.
+- **급성 폐쇄각**: 즉시 안압하강·안과 처치를 시행한다. 동공차단에서 pilocarpine은 매우 높은 안압(약 ≥40 mmHg)을 먼저 낮춘 뒤 사용하고, 각막이 투명해지면 LPI를 시행한다. 반대쪽 위험안도 예방 LPI를 평가한다. topiramate 유발 등 비동공차단에는 pilocarpine/LPI를 자동 적용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 실명 가능성이 있는 질환으로, 조기 진단 및 꾸준한 안압 관리가 필수적임.

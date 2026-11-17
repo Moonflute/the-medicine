@@ -15,10 +15,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources:
-  - "NICE NG97: Dementia, Assessment and Management (2018; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/ng97/chapter/Recommendations"
-  - "Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/"
-  - "FDA: Additional Earlier MRI Monitoring for Leqembi (2025 안전성 공지) | https://www.fda.gov/drugs/drug-safety-communications/fda-recommend-additional-earlier-mri-monitoring-patients-alzheimers-disease-taking-leqembi-lecanemab"
+sources: ["NICE NG97: Dementia, Assessment and Management (2018; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/ng97/chapter/Recommendations", "Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/", "FDA: Additional Earlier MRI Monitoring for Leqembi (2025 안전성 공지) | https://www.fda.gov/drugs/drug-safety-communications/fda-recommend-additional-earlier-mri-monitoring-patients-alzheimers-disease-taking-leqembi-lecanemab"]
 
 content_updated_at: '2026-10-08'
 document_role: "group_overview"
@@ -65,7 +62,3 @@ FDA 2025 안전성 공지는 lecanemab의 제3회 주입 전 MRI 감시 추가�
 - [[전두측두엽 치매 (Frontotemporal Dementia)]]
 
 ## 참고 자료
-
-- [NICE NG97: Dementia, Assessment and Management (2018; 2026-10 현행 확인)](https://www.nice.org.uk/guidance/ng97/chapter/Recommendations)
-- [Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/)
-- [FDA: Additional Earlier MRI Monitoring for Leqembi (2025 안전성 공지)](https://www.fda.gov/drugs/drug-safety-communications/fda-recommend-additional-earlier-mri-monitoring-patients-alzheimers-disease-taking-leqembi-lecanemab)

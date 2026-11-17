@@ -18,7 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-18"
 guideline_year: "2026"
-sources: ["SEOM-GEMCAD-TTD clinical guidelines for anal cancer (2025). | https://pubmed.ncbi.nlm.nih.gov/41653360/"]
+sources: ["SEOM-GEMCAD-TTD clinical guidelines for anal cancer (2025). | https://pubmed.ncbi.nlm.nih.gov/41653360/", "ASTRO 항문암 지침 2025 | https://doi.org/10.1016/j.prro.2025.02.001", "FDA retifanlimab 허가사항 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761334s005lbl.pdf"]
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
@@ -30,7 +30,6 @@ review_status: "guideline_enriched"
 - **원인**: 인유두종 바이러스(HPV, 특히 16, 18형) 감염이 가장 주된 원인. 그 외 HIV 감염, 흡연, 항문 성교, 만성 누공, 면역억제 상태 등이 위험인자임.
 
 - **기전**: HPV 감염으로 인한 항문 상피내 종양(AIN)이 침습성 암으로 진행될 수 있음.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -58,11 +57,9 @@ review_status: "guideline_enriched"
 
 - **치료 반응 후 수술 시점**: CRT 뒤 병변이 줄고 진행 소견이 없으면 약 **6개월까지** 반복 진찰로 반응을 관찰할 수 있다. 초기에 덩어리가 남았다는 이유만으로 즉시 APR을 시행하지 않는다. 명백한 진행·생검으로 확인된 지속/재발암은 구제 수술을 평가한다.
 - **전이성·수술 불가 국소 재발 편평상피암**: 미국 FDA 2025 허가 기준으로 1차 carboplatin/paclitaxel에 **retifanlimab** 병용을 사용할 수 있으며, platinum 치료 후 진행·불내성에는 단독요법 적응증이 있다. 면역치료 적합성·이전 노출과 국내 허가를 확인한다.
-- 근거: [ASTRO 항문암 지침 2025](https://doi.org/10.1016/j.prro.2025.02.001), [FDA retifanlimab 허가사항](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761334s005lbl.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **종류**: 편평상피세포암(가장 흔함), 기저세포암, 보웬병, 악성 흑색종, 림프종 등.
-
 
 
 출처 : Merck Manual Professional (Anal Cancer)

@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ESGE 운동질환 지침 | https://www.esge.com/endoscopic-management-of-gastrointestinal-motility-disorders-part-2-esge-guideline"]
 ---
 분과 : [[소화기]]
 
@@ -25,7 +26,6 @@ reviewed_at: "2026-07-30"
 - **원인**: 윤상인두근의 구조적/생리적 이상으로 인한 연하 시 압력 증가 및 근육의 탈출(dehiscence).
 
 - **기전**: 윤상인두근의 유순도 저하(섬유화 등)로 인한 연하 시 식도 내 압력 상승이 하인두의 약한 부위로 점막 탈출을 유발.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -47,13 +47,11 @@ reviewed_at: "2026-07-30"
 - **무증상**이면 크기만으로 절제하지 않고 경과를 관찰한다. 지속 연하곤란, 역류, 체중감소 또는 반복 흡인이 있으면 **작은 게실도** 치료 대상이 될 수 있다.
 - 증상성 게실은 유연 내시경 격벽절개 등으로 윤상인두근의 폐쇄 기전을 해소한다. 게실 크기, 경부·구강 접근성, 이전 치료, 전신 상태와 기관 경험에 따라 내시경 또는 개방 수술을 선택한다.
 - 치료 후 섭취 가능 여부와 흡인·재발 증상을 평가한다. 심한 통증·발열·피하기종은 누출·천공을 신속히 확인한다.
-- 근거: [ESGE 운동질환 지침](https://www.esge.com/endoscopic-management-of-gastrointestinal-motility-disorders-part-2-esge-guideline).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 흡인성 폐렴, 식도 폐쇄, 누공 형성, 종격동염 등.
 
 - **예후**: 수술 후 즉각적인 증상 완화율은 높으나, 고령 환자가 많아 수술 전후 세심한 관리가 필요함.
-
 
 
 출처 : StatPearls (Zenker Diverticulum)

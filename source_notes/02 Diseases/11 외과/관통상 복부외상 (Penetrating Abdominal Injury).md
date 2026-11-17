@@ -22,6 +22,7 @@ reviewed_at: "2026-07-30"
 응급의학_분류:
 - 외상 및 창상
 - 부위별 외상
+sources: ["EAST 선택적 비수술 관찰 | https://www.east.org/education-resources/practice-management-guidelines/details/penetrating-abdominal-trauma%2C-selective-non-operative-management-of"]
 ---
 분과 : [[외과]]
 
@@ -57,7 +58,7 @@ reviewed_at: "2026-07-30"
 - 혈역학적으로 안정하고 복막 자극이 없으며 영상에서 제한적 손상만 보이면 입원·연속 활력징후·복부 검사(24‑48 h)로 비수술적 관찰을 선택한다.
 - 혈관 손상이나 출혈이 의심될 경우 혈관내 색전술·선택적 혈관 내 지혈 등 중재적 시술을 고려하고, 해당 전문센터로 신속 이송한다.
 
-- 비수술 관찰은 의식·협조가 유지되어 반복 복부 진찰이 가능하고, 즉시 수술·CT·수혈을 제공할 수 있는 환경에서 선택한다. 복막염·활력 악화·Hb 지속 감소·장손상 의심이 새로 나타나면 관찰을 중단한다. 수술이 필요한 환자에서 CT나 정해진 관찰 시간을 채우느라 지연하지 않는다. [EAST 선택적 비수술 관찰](https://www.east.org/education-resources/practice-management-guidelines/details/penetrating-abdominal-trauma%2C-selective-non-operative-management-of)
+- 비수술 관찰은 의식·협조가 유지되어 반복 복부 진찰이 가능하고, 즉시 수술·CT·수혈을 제공할 수 있는 환경에서 선택한다. 복막염·활력 악화·Hb 지속 감소·장손상 의심이 새로 나타나면 관찰을 중단한다. 수술이 필요한 환자에서 CT나 정해진 관찰 시간을 채우느라 지연하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 지연 진단에 따른 복강 내 감염(농양), 장폐색, 누출, 다장기 부전.

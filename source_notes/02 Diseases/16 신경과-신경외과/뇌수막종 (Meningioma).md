@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EANO 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -25,7 +26,6 @@ reviewed_at: "2026-07-30"
 - **정의**: 뇌와 척수를 둘러싼 수막(arachnoid cap cells)에서 발생하는 종양으로, 원발성 중추신경계 종양 중 가장 흔함.
 - **원인**: 대부분 산발적(sporadic)이나, 신경섬유종증 2형(NF2)과 같은 유전적 질환, 방사선 노출, 호르몬 요인(프로게스테론 수용체 발현) 등이 위험 인자로 작용함.
 - **기전**: 주로 22번 염색체 결손과 관련이 있으며, 서서히 성장하는 양성 종양(WHO grade 1)이 대다수이나 드물게 악성으로 변형될 수 있음.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -36,7 +36,6 @@ reviewed_at: "2026-07-30"
   시야 검사 및 신경학적 검진 필수.
 
 
-
 ## 3. 검사 (Lab & Imaging)
 - **MRI (Gold standard)**:
   조영 증강 시 균일하게 조영되며, dural tail sign이 특징적임.
@@ -44,10 +43,8 @@ reviewed_at: "2026-07-30"
 - **CT**: 석회화나 인접 골조직의 과골증(hyperostosis) 확인에 유용함.
 
 
-
 ## 4. 진단 (Diagnosis)
 - 영상학적 소견(MRI)을 바탕으로 진단하며, 필요 시 조직검사를 통해 WHO 등급(Grade 1~3)을 분류함.
-
 
 
 ## 5. 치료
@@ -57,12 +54,11 @@ reviewed_at: "2026-07-30"
 - **방사선 치료**: 수술적 완전 절제가 불가능하거나, 재발한 경우, 또는 조직학적 등급이 높은(WHO Grade 2, 3) 경우 보조 요법으로 시행함.
 - **전원 및 추적**: 신경학적 결손이 진행하거나 뇌압 상승 징후가 관찰될 경우 즉시 신경외과적 평가를 의뢰하며, 수술 후에는 재발 확인을 위해 장기적인 정기 검진을 시행함.
 
-- **잔존 종양과 등급별 분기**: 무증상 WHO grade 1 잔존 종양은 즉시 방사선 대신 MRI 관찰이 가능하다. 성장·증상·위험 위치가 있으면 수술/SRS/분할 RT를 선택한다. grade 2는 불완전 절제·재발이면 RT를 권고하며, 완전 절제 후 예방 RT는 불확실성이 남아 개별 결정한다. grade 3는 수술 후 분할 RT를 시행한다. 추적 MRI는 grade 1 약 12개월, grade 2 약 6개월, grade 3는 최소 3–6개월 간격을 기본으로 개별화한다. [EANO 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/)
+- **잔존 종양과 등급별 분기**: 무증상 WHO grade 1 잔존 종양은 즉시 방사선 대신 MRI 관찰이 가능하다. 성장·증상·위험 위치가 있으면 수술/SRS/분할 RT를 선택한다. grade 2는 불완전 절제·재발이면 RT를 권고하며, 완전 절제 후 예방 RT는 불확실성이 남아 개별 결정한다. grade 3는 수술 후 분할 RT를 시행한다. 추적 MRI는 grade 1 약 12개월, grade 2 약 6개월, grade 3는 최소 3–6개월 간격을 기본으로 개별화한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 양성(Grade 1)으로 예후가 좋으나, 종양의 등급과 절제 범위에 따라 재발률이 달라짐.
   고등급 종양은 재발 및 악성 변형 위험이 높음.
-
 
 
 출처 : StatPearls (Meningioma, Intraventricular Meningioma)

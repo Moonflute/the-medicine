@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional somatic symptom disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional somatic symptom disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "AAN 기능성 발작 지침 2026 | https://doi.org/10.1212/WNL.0000000000214466"]
 disease_family: psychiatry_split
 parent_disease: 신체 증상 및 관련 장애 (Somatic Symptom and Related Disorders)
 relation_to_parent: subtype
@@ -48,7 +47,6 @@ relation_to_parent: subtype
 
 - **증상 유형별 치료**: 양성 신경학적 징후를 설명하고 운동형은 기능 회복 중심 물리·작업치료를 병행한다. 기능성 발작이 확인되고 동반 뇌전증이나 다른 적응증이 없으면 **benzodiazepine·항발작약을 발작 중단·예방 목적으로 처방하지 않으며**, 기존 항발작약은 진단 확인 후 감독하에 감량한다. 기능성 발작과 뇌전증은 공존할 수 있어 새 양상의 발작은 다시 평가한다.
 
-근거: [AAN 기능성 발작 지침 2026](https://doi.org/10.1212/WNL.0000000000214466).
 
 ## 6. 예후 및 합병증
 - 급성으로 발생한 경우 예후가 비교적 좋으나, 만성적인 경과를 보일 경우 의료 시스템에 대한 의존도가 높아질 수 있음.

@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "AAP ADHD 지침 | https://doi.org/10.1542/peds.2019-2528", "NICE NG87 | https://www.nice.org.uk/guidance/ng87/chapter/recommendations"]
 disease_family: psychiatry_split
 parent_disease: 소아 정신 의학 (Child and Adolescent Psychiatric Disorders)
 relation_to_parent: subtype
@@ -51,7 +50,6 @@ relation_to_parent: subtype
 - **약제 변경(NICE)**: 소아·청소년에서 충분한 용량의 methylphenidate **6주**에도 기능·증상 개선이 부족하면 다른 자극제(예: lisdexamfetamine; 국내 허가·공급 확인)를 검토한다. 자극제 불내성 또는 충분한 두 자극제 치료 실패이면 atomoxetine·guanfacine 등 비자극제를 선택한다.
 - **감량·의뢰 기준**: 지속 안정시 맥박 **>120/분**, 부정맥 또는 두 차례 측정에서 수축기혈압 **>95백분위수/임상적으로 의미 있는 상승**이면 감량하고 평가를 의뢰한다. 성장·체중 감소, 수면과 기능 반응을 함께 보며 적정화한다.
 
-근거: [AAP ADHD 지침](https://doi.org/10.1542/peds.2019-2528), [NICE NG87](https://www.nice.org.uk/guidance/ng87/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 합병증: 학습 장애, 반항성 장애, 품행 장애, 물질 남용, 정서적 불안.

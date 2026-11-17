@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["NIDDK 게실질환 정의·합병증 | https://www.niddk.nih.gov/health-information/digestive-diseases/diverticulosis-diverticulitis/definition-facts", "AGA 게실염 관리 | https://gastro.org/clinical-guidance/medical-management-of-colonic-diverticulitis/", "SCAD 진단의 내시경·조직검사 대조 연구 2024 | https://pubmed.ncbi.nlm.nih.gov/38779642/", "SCAD 임상·영상 특성 연구 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11402292/", "SCAD 전향적 다기관 자연경과 연구 2023 | https://pubmed.ncbi.nlm.nih.gov/37314163/", "SCAD 내시경·임상 경과 연구 2024 | https://onlinelibrary.wiley.com/doi/10.1002/deo2.356"]
 ---
 분과 : [[소화기]]
 
@@ -76,9 +77,3 @@ reviewed_at: "2026-10-08"
 출처 : Merck Manual Professional (Diverticular Disease, Meckel Diverticulum)
 
 참고: 삼성서울병원 메뉴얼.
-- [NIDDK 게실질환 정의·합병증](https://www.niddk.nih.gov/health-information/digestive-diseases/diverticulosis-diverticulitis/definition-facts)
-- [AGA 게실염 관리](https://gastro.org/clinical-guidance/medical-management-of-colonic-diverticulitis/)
-- [SCAD 진단의 내시경·조직검사 대조 연구 2024](https://pubmed.ncbi.nlm.nih.gov/38779642/)
-- [SCAD 임상·영상 특성 연구 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11402292/)
-- [SCAD 전향적 다기관 자연경과 연구 2023](https://pubmed.ncbi.nlm.nih.gov/37314163/)
-- [SCAD 내시경·임상 경과 연구 2024](https://onlinelibrary.wiley.com/doi/10.1002/deo2.356)

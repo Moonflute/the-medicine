@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC Listeria 관리 | https://www.cdc.gov/listeria/hcp/clinical-care/"]
 ---
 분과 : [[감염]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 - 침습성 감염은 보통 14–21일을 기본으로 감염 부위와 반응에 따라 조정하며, 중추신경계 감염·뇌농양·심내막염은 더 긴 치료가 필요할 수 있습니다. 모든 환자에게 4–6주 치료나 반복 요추천자를 일률적으로 적용하지 않습니다.
 - 세팔로스포린은 Listeria를 적절히 치료하지 못합니다. 고령·임신·면역저하자의 세균성 수막염에서는 초기 요법에 ampicillin을 포함할지 판단합니다.
 
-- 리콜 식품을 먹었더라도 **무증상이면 일반적으로 배양검사나 항생제를 시행하지 않는다.** 고위험 노출 후 발열·전신 증상 또는 침습성 감염 의심 소견이 생기면 배양 후 즉시 치료한다. [CDC Listeria 관리](https://www.cdc.gov/listeria/hcp/clinical-care/)
+- 리콜 식품을 먹었더라도 **무증상이면 일반적으로 배양검사나 항생제를 시행하지 않는다.** 고위험 노출 후 발열·전신 증상 또는 침습성 감염 의심 소견이 생기면 배양 후 즉시 치료한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 임산부, 신생아, 면역 저하 환자에서 중증 감염 및 사망 위험이 높음.

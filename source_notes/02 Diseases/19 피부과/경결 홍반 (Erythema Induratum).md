@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["DermNet | https://dermnetnz.org/topics/nodular-vasculitis"]
 ---
 분과 : [[피부과]]
 
@@ -43,7 +44,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - 결핵 관련 여부를 병력·IGRA/투베르쿨린검사·흉부 영상과 필요 시 미생물 검사로 평가한다. **모든 결절성 혈관염에 항결핵제를 일률적으로 투여하지 않는다.**
 - 결핵 관련 경결홍반으로 판단되면 감염내과와 표준 복합 항결핵 치료를 계획한다. 비결핵성은 유발 원인 치료, 하지 거상·압박·통증 조절이 기본이다.
-- 지속성·궤양성 병변은 충분한 깊이의 생검으로 다른 지방층염·혈관염을 확인하고, 감염을 배제한 뒤 항염·면역조절 치료를 선택한다. [DermNet](https://dermnetnz.org/topics/nodular-vasculitis)
+- 지속성·궤양성 병변은 충분한 깊이의 생검으로 다른 지방층염·혈관염을 확인하고, 감염을 배제한 뒤 항염·면역조절 치료를 선택한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 적절한 항결핵 치료 시 호전되나, 치료가 늦어질 경우 만성 궤양이나 반흔이 남을 수 있음.

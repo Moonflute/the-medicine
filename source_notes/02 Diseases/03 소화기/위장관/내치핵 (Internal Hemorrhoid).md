@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ASCRS | https://www.fascrs.org/Web/Patients/Diseases-and-Conditions/A-Z/Hemorrhoids-Expanded-Information.aspx"]
 ---
 분과 : [[소화기]]
 
@@ -23,7 +24,6 @@ reviewed_at: "2026-07-30"
 - **원인**: 만성적인 변비, 배변 시 과도한 힘주기, 장시간 변기에 앉아 있는 습관, 고령, 임신 등 복압 상승 요인
 
 - **기전**: 항문관의 혈관 쿠션이 지지 조직(Treitz 근육 등)의 약화와 복압 상승으로 인해 울혈되고 하방으로 밀려 내려오며 발생
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -47,7 +47,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - **보존치료**: 식이섬유·수분·변완화와 힘주기/오래 앉기 교정을 먼저 시행한다. 출혈을 치핵으로 단정하지 않고 빈혈·변화된 배변·암 위험이 있으면 대장 평가를 한다.
 - **외래 시술**: 보존치료에도 출혈·탈출이 지속되는 1–2도 및 선택된 3도 내치핵은 고무밴드 결찰 등 외래 시술을 검토한다. 항응고·면역저하·감염 위험을 고려한다.
-- **절제 수술**: 외치핵과 결합된 증상성 3–4도, 큰 외치핵 성분, 외래 시술 실패 또는 시술 부적합은 치핵절제술을 평가한다. 등급만으로 무증상 환자에게 수술을 강제하지 않는다. [ASCRS](https://www.fascrs.org/Web/Patients/Diseases-and-Conditions/A-Z/Hemorrhoids-Expanded-Information.aspx)
+- **절제 수술**: 외치핵과 결합된 증상성 3–4도, 큰 외치핵 성분, 외래 시술 실패 또는 시술 부적합은 치핵절제술을 평가한다. 등급만으로 무증상 환자에게 수술을 강제하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 보존적 치료로 대부분 호전되나 재발 가능성 있음

@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG217 | https://www.nice.org.uk/guidance/ng217/chapter/6-Treating-childhood-onset-epilepsies", "ILAE SeLECTS 임상 기준 | https://www.epilepsydiagnosis.org/syndrome/ects-overview.html"]
 ---
 분과 : [[소아청소년과]]
 
@@ -50,7 +51,7 @@ reviewed_at: "2026-07-30"
 - **약물 중단**: 약물 중단은 통상 **2년 무발작 또는 14세경**에 위험을 재평가하여 논의한다. 발작 경과·EEG·가족 선호를 반영해 서서히 감량하며 일률적으로 1년 후 중단하지 않는다.
 - **환자 교육**: 사춘기 이후 자연 소실되는 양성 질환임을 설명하여 보호자의 불안을 완화하고 정기적인 외래 추적 관찰 시행.
 
-- **약제 선택·재평가**: 치료가 필요하면 lamotrigine 또는 levetiracetam을 우선 고려한다. 새 발작형, 언어·학습·행동의 뚜렷한 후퇴가 생기면 수면 EEG 등을 통해 수면 중 극서파 활성화 관련 뇌병증을 평가한다. '양성'이라는 명칭 때문에 악화를 자연 경과로 넘기지 않는다. [NICE NG217](https://www.nice.org.uk/guidance/ng217/chapter/6-Treating-childhood-onset-epilepsies)
+- **약제 선택·재평가**: 치료가 필요하면 lamotrigine 또는 levetiracetam을 우선 고려한다. 새 발작형, 언어·학습·행동의 뚜렷한 후퇴가 생기면 수면 EEG 등을 통해 수면 중 극서파 활성화 관련 뇌병증을 평가한다. '양성'이라는 명칭 때문에 악화를 자연 경과로 넘기지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -58,6 +59,5 @@ reviewed_at: "2026-07-30"
   사춘기(15~16세) 이전에 대부분 자연 소실
 - **발달**: 언어·학습 어려움이 동반될 수 있다. 새로 나타난 언어·인지 퇴행이나 비전형 경과에서는 수면 EEG를 포함하여 다른 뇌전증성 뇌병증을 평가한다.
 
-출처: [ILAE SeLECTS 임상 기준](https://www.epilepsydiagnosis.org/syndrome/ects-overview.html)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

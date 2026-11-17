@@ -23,7 +23,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2023"
-sources: ["폐암 진료 가이드라인 2023 | https://www.lungcancer.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=10"]
+sources: ["폐암 진료 가이드라인 2023 | https://www.lungcancer.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=10", "NCI PDQ | https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -56,7 +56,7 @@ content_updated_at: "2026-11-17"
 ## 5. 치료 (Treatment)
 - 병기에 따라 수술, 방사선 치료, 항암 화학 요법을 시행함. 유전자 변이(EGFR, ALK 등) 확인 시 표적 치료제를 우선 고려하며, 특히 EGFR exon 20 삽입 변이 환자에게는 Amivantamab과 같은 표적 치료제가 임상적 이점을 보임. PD-L1 발현율에 따라 면역항암제를 사용하며, 환자 보고 결과(PRO)를 임상 평가에 통합하여 치료 효과를 모니터링함.
 
-- **전신치료 분기**: 전이성 선암은 광범위 분자검사와 PD-L1을 확보한다. EGFR exon 19 deletion/L858R, ALK/ROS1/RET/NTRK 융합, BRAF V600E, MET exon 14 skipping 등은 해당 표적요법을 우선 평가한다. EGFR exon 20 insertion은 흔한 EGFR 변이와 약제 감수성이 달라 별도 요법을 적용한다. 표적 변이가 없을 때 PD-L1 ≥50%에서는 면역 단독 또는 항암 병합을, <50%에서는 대개 platinum＋pemetrexed＋면역치료 등을 수행능력·금기에 따라 선택한다. [NCI PDQ](https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq)
+- **전신치료 분기**: 전이성 선암은 광범위 분자검사와 PD-L1을 확보한다. EGFR exon 19 deletion/L858R, ALK/ROS1/RET/NTRK 융합, BRAF V600E, MET exon 14 skipping 등은 해당 표적요법을 우선 평가한다. EGFR exon 20 insertion은 흔한 EGFR 변이와 약제 감수성이 달라 별도 요법을 적용한다. 표적 변이가 없을 때 PD-L1 ≥50%에서는 면역 단독 또는 항암 병합을, <50%에서는 대개 platinum＋pemetrexed＋면역치료 등을 수행능력·금기에 따라 선택한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 시 예후가 좋으나, 진단 당시 진행성인 경우가 많아 5년 생존율은 병기에 따라 차이가 큼.

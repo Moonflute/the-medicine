@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/lgv.htm"]
 ---
 분과 : [[비뇨기과]]
 
@@ -22,7 +23,6 @@ reviewed_at: "2026-07-30"
 - **정의:** Chlamydia trachomatis(L1, L2, L3 혈청형)에 의한 침습적 성매개 감염병
 - **원인:** Chlamydia trachomatis (L1, L2, L3 serovars)
 - **기전:** 점막을 통해 침입한 균이 림프관을 타고 이동하여 림프절의 심한 염증 및 화농성 반응(bubo)을 유발하며, 만성 시 협착, 누공, 섬유화로 진행함
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -46,7 +46,7 @@ reviewed_at: "2026-07-30"
 - 혈성 직장염·뒤무직·궤양 또는 심한 서혜부 림프절염/부보 등 LGV에 합당하면 검사 결과를 기다리지 않고 **doxycycline 100 mg 하루 2회 21일**을 시작한다. 단순 클라미디아의 7일 요법으로 대체하지 않는다.
 - 부보는 필요 시 정상 피부를 통한 흡인·배액을 검토한다. 임신·금기 또는 대체 요법은 감염 전문의와 선택한다.
 - 대체 azithromycin 요법을 사용한 경우 치료 종료 약 4주 뒤 NAAT 치료확인을 고려한다. 모든 환자에게 3주 이내 재검을 고정하지 않으며, 표준 치료 후 재감염 검사는 약 3개월에 시행한다.
-- 최근 60일 파트너를 평가하고 무증상 파트너도 클라미디아 치료를 제공한다. [CDC](https://www.cdc.gov/std/treatment-guidelines/lgv.htm)
+- 최근 60일 파트너를 평가하고 무증상 파트너도 클라미디아 치료를 제공한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 항생제 치료 시 완치 가능

@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional mood disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional mood disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE NG222 | https://www.nice.org.uk/guidance/ng222/chapter/recommendations"]
 disease_family: psychiatry_split
 parent_disease: 기분 장애 (Bipolar and Related Disorders)
 relation_to_parent: subtype
@@ -51,7 +50,6 @@ relation_to_parent: subtype
 - **반응 부족·긴급 치료**: 치료 용량에서 **4–6주** 반응이 없으면 복약·양극성 여부·동반질환을 확인하고 약제 변경, 심리치료 추가 또는 전문의 증강 치료를 검토한다. 정신병적 우울은 항우울제–항정신병약 병합을, 긴장증·심한 자살 위험·먹고 마시지 못하는 생명위협 상태는 신속한 ECT를 고려한다.
 - **추적·유지**: 시작 후 보통 2주 이내, 18–25세 또는 자살 위험이 있으면 1주 이내 평가한다. 관해 뒤에도 보통 **최소 6개월** 유지하며 재발 고위험이면 연장한다.
 
-근거: [NICE NG222](https://www.nice.org.uk/guidance/ng222/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 만성적이고 재발 가능성이 높은 질환(재발률: 1회 삽화 후 50%, 2회 후 70%, 3회 후 90%).

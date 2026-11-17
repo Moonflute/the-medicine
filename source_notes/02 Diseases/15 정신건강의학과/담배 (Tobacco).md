@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "ATS 성인 금연 약물 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7365361/"]
 disease_family: psychiatry_split
 parent_disease: 물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)
 relation_to_parent: subtype
@@ -47,7 +46,6 @@ relation_to_parent: subtype
 
 - **약제 선택·유지**: 성인 니코틴 의존에는 상담과 약물을 병행하며 varenicline을 우선 검토한다. 사용이 어렵다면 NRT(패치+단기 제제 병합 등) 또는 bupropion을 선택한다. Bupropion은 경련질환·신경성 식욕부진/폭식증에서 피하고 varenicline은 신기능에 맞추어 조절한다. 금단·갈망·재발 위험이 지속되면 **12주를 넘는 유지**를 고려하며 한 번 흡연했다는 이유로 치료를 자동 종료하지 않는다.
 
-근거: [ATS 성인 금연 약물 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC7365361/).
 
 ## 6. 예후 및 합병증
 - 예후: 금연 시 구강 병변의 호전 가능성이 있으나, 장기 사용 시 구강암, 식도암, 위암 등 악성 종양 위험 증가.

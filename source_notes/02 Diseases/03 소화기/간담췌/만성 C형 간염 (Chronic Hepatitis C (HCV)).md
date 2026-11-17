@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-10-08"
 review_status: "source_reviewed_no_change"
 guideline_year: "2026"
-sources: ["Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain. | https://pubmed.ncbi.nlm.nih.gov/41825518/"]
+sources: ["Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain. | https://pubmed.ncbi.nlm.nih.gov/41825518/", "AASLD/IDSA 보상성 간경변 | https://www.hcvguidelines.org/guidance/simplified-hcv-treatment-algorithm-for-treatment-naive-adults-with-compensated-cirrhosis/", "비대상성 간경변 | https://www.hcvguidelines.org/guidance/patients-with-decompensated-cirrhosis/", "KASL 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12835810/", "AASLD/IDSA HCV 검사 | https://www.hcvguidelines.org/guidance/hcv-testing-and-linkage-to-care/", "치료 모니터링 | https://www.hcvguidelines.org/guidance/monitoring-patients-who-are-starting-hcv-treatment-are-on-treatment-or-have-completed-therapy/"]
 
 ---
 분과 : [[소화기]]
@@ -79,7 +79,6 @@ sources: ["Consensus document on the diagnosis, management, and treatment of chr
 
 - **치료 경험이 없고 비대상화가 없는 성인**의 대표 범유전자형 요법은 glecaprevir/pibrentasvir **8주** 또는 sofosbuvir/velpatasvir **12주**이다. 간경변·유전자형 3형에서 SOF/VEL을 선택할 때는 NS5A Y93H 등 해당 알고리즘의 추가 조건을 확인한다.
 - **Child-Pugh B/C 또는 비대상화 병력**에서는 protease inhibitor 포함 요법을 피하고 전문센터에서 SOF/VEL 기반 치료를 선택한다. AASLD/IDSA의 대표 기준은 ribavirin 사용 가능 시 **12주 병용**, 불가능 시 **24주**이며 국내 지침의 유전자형별 허용 요법과 빈혈·신기능·상호작용을 함께 확인한다. 모든 환자에게 8주 요법을 적용하지 않는다.
-- 근거: [AASLD/IDSA 보상성 간경변](https://www.hcvguidelines.org/guidance/simplified-hcv-treatment-algorithm-for-treatment-naive-adults-with-compensated-cirrhosis/), [비대상성 간경변](https://www.hcvguidelines.org/guidance/patients-with-decompensated-cirrhosis/), [KASL 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12835810/).
 
 ## 6. 예후 및 합병증
 - **예후**: DAA 치료로 95% 이상의 높은 완치율(SVR)을 보이며, 간경변 및 간세포암 진행 위험을 유의하게 감소시킴.
@@ -91,5 +90,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [AASLD/IDSA HCV 검사](https://www.hcvguidelines.org/guidance/hcv-testing-and-linkage-to-care/)
-- [치료 모니터링](https://www.hcvguidelines.org/guidance/monitoring-patients-who-are-starting-hcv-treatment-are-on-treatment-or-have-completed-therapy/)

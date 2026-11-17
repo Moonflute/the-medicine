@@ -20,10 +20,7 @@ content_updated_at: '2026-10-21'
 reviewed_at: '2026-10-21'
 review_status: guideline_enriched
 guideline_year: '2026'
-sources:
-- 'IDSA histoplasmosis: 2025 recommendations and 2026 severe disease consensus | https://www.idsociety.org/practice-guideline/histoplasmosis/'
-- 'CDC Clinical Overview of Histoplasmosis | https://www.cdc.gov/histoplasmosis/hcp/clinical-overview/index.html'
-- 'CDC Testing Algorithm for Histoplasmosis | https://www.cdc.gov/histoplasmosis/hcp/algorithm/index.html'
+sources: ["IDSA histoplasmosis: 2025 recommendations and 2026 severe disease consensus | https://www.idsociety.org/practice-guideline/histoplasmosis/", "CDC Clinical Overview of Histoplasmosis | https://www.cdc.gov/histoplasmosis/hcp/clinical-overview/index.html", "CDC Testing Algorithm for Histoplasmosis | https://www.cdc.gov/histoplasmosis/hcp/algorithm/index.html"]
 ---
 
 분과 : [[감염]] · [[진균]]
@@ -59,6 +56,3 @@ sources:
 - 폐결절, 종격동 육아종·섬유화 등의 후유증이 가능하다. 안구 증상은 안과 평가를 연결하며, 과거 감염 관련 안구 증후군을 활성 진균감염과 동일하게 취급하지 않는다.
 
 ## 참고 지침
-- [IDSA Histoplasmosis: 2025 권고와 2026 중증 치료 합의문](https://www.idsociety.org/practice-guideline/histoplasmosis/)
-- [CDC 임상 개요](https://www.cdc.gov/histoplasmosis/hcp/clinical-overview/index.html)
-- [CDC 진단 알고리즘](https://www.cdc.gov/histoplasmosis/hcp/algorithm/index.html)

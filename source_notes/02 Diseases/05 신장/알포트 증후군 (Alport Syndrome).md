@@ -16,7 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-10-08"
 guideline_year: "2025"
-sources: ["Diagnosis, management and treatment of the Alport syndrome - 2024 guideline on behalf of ERKNet, ERA and ESPN. | https://pubmed.ncbi.nlm.nih.gov/39673454/"]
+sources: ["Diagnosis, management and treatment of the Alport syndrome - 2024 guideline on behalf of ERKNet, ERA and ESPN. | https://pubmed.ncbi.nlm.nih.gov/39673454/", "ERKNet·ERA·ESPN Alport syndrome guideline 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12209846/", "ERKNet·ERA·ESPN Alport syndrome guideline 2024 | https://www.erknet.org/guidelines-pathways/hereditary-glomerulopathies/alport-syndrome"]
 reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 ---
@@ -57,7 +57,6 @@ review_status: "guideline_enriched"
 - 진행 위험은 유전양식·변이 유형, 성별, 단백뇨 시작 시점과 RAS 차단 시작 시점에 좌우된다. 치료하지 않은 상염색체 열성 환자는 흔히 젊은 나이에 신부전으로 진행하며, X-연관 남성도 고위험이다.
 - 여성 X-연관 환자와 COL4A3/4 이형접합자도 CKD·신부전 위험이 0이 아니므로 정기 추적한다. 합병증은 단백뇨, 고혈압, 진행성 CKD/신부전, 고주파 감각신경성 난청, 전방 원추수정체·망막 이상이다.
 
-출처 : [ERKNet·ERA·ESPN Alport syndrome guideline 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC12209846/)
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
@@ -65,4 +64,3 @@ Last updated :
 2026-07-15 — 공식 지침 기반 Tier 2 보강
 
 참고: 삼성서울병원 메뉴얼.
-- [ERKNet·ERA·ESPN Alport syndrome guideline 2024](https://www.erknet.org/guidelines-pathways/hereditary-glomerulopathies/alport-syndrome)

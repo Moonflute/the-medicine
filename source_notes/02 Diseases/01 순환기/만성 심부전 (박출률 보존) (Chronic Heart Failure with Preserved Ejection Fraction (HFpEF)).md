@@ -16,12 +16,7 @@ content_updated_at: "2026-11-18"
 guideline_year: '2026'
 guideline_reviewed_at: '2026-10-20'
 guideline_review_status: primary_source_reviewed
-sources:
-- '2026 ESC Guidelines for the management of heart failure | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/'
-- '2026 ESC Heart Failure 공식 교육 슬라이드 | https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9'
-- '2026 ACC Expert Consensus Decision Pathway on HFpEF: 공식 핵심 요약 | https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Tools-and-Practice-Support/Clinical-Solutions/2026/B26070-HFpEF-Management-ECDP-Key-Takeaways.pdf'
-- 'FINEARTS-HF: ACC clinical trial summary | https://www.acc.org/latest-in-cardiology/clinical-trials/2024/08/29/20/16/finearts-hf'
-- '2023 Focused Update of the 2021 ESC Heart Failure Guidelines | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/focused-update-on-heart-failure/'
+sources: ["2026 ESC Guidelines for the management of heart failure | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/", "2026 ESC Heart Failure 공식 교육 슬라이드 | https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9", "2026 ACC Expert Consensus Decision Pathway on HFpEF: 공식 핵심 요약 | https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Tools-and-Practice-Support/Clinical-Solutions/2026/B26070-HFpEF-Management-ECDP-Key-Takeaways.pdf", "FINEARTS-HF: ACC clinical trial summary | https://www.acc.org/latest-in-cardiology/clinical-trials/2024/08/29/20/16/finearts-hf", "2023 Focused Update of the 2021 ESC Heart Failure Guidelines | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/focused-update-on-heart-failure/", "FDA finerenone 2026 허가사항 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215341s011lbl.pdf"]
 disease_family: heart_failure
 population: adult
 ---
@@ -55,7 +50,6 @@ population: adult
 
 - **Finerenone의 수치 기준(미국 허가사항 2026, LVEF ≥40% HF)**: 시작 전 **K >5.0 mEq/L이면 시작하지 않고 eGFR <25 mL/min/1.73 m²이면 신규 도입을 권하지 않는다.** 시작 eGFR ≥60은 20 mg/일에서 목표 40 mg, 25–<60은 10 mg/일에서 목표 20 mg이다. 국내 허가·가용성은 별도 확인한다.
 - 시작·용량 변경 **4주 후 K/eGFR**을 재검한다. K <5.0에서 증량을 검토하되 eGFR이 이전보다 >30% 감소했다면 증량하지 않는다. **K 5.0–<5.5는 유지, 5.5–<6.0은 40→20 mg 또는 20→10 mg로 감량(10 mg 사용자는 중단), ≥6.0은 중단**한다. 재시작 기준은 K <5.5이나 ≥5.5가 반복되면 <5.0으로 회복 후 10 mg로 시작한다. CKD 적응증의 용량표와 혼용하지 않는다.
-- 근거: [FDA finerenone 2026 허가사항](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215341s011lbl.pdf).
 
 ## 6. 예후 및 합병증
 - HFpEF도 반복 입원, AF, CKD 악화, 폐고혈압, 허혈성 사건과 연관된다. EF가 보존되어도 예후가 양호하다고 가정하면 안 된다.
@@ -63,7 +57,7 @@ population: adult
 
 ## 참고 가이드라인
 
-- [2026 ESC 심부전 지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/), [공식 교육 슬라이드](https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9): 만성 약물치료·비만 권고표(PDF 51, 53, 90쪽).
-- [2026 ACC HFpEF 합의 경로: 공식 핵심 요약](https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Tools-and-Practice-Support/Clinical-Solutions/2026/B26070-HFpEF-Management-ECDP-Key-Takeaways.pdf): 진단, nonsteroidal MRA, 표현형별 치료, 동반질환·추적 관리.
-- [FINEARTS-HF: ACC 임상시험 요약](https://www.acc.org/latest-in-cardiology/clinical-trials/2024/08/29/20/16/finearts-hf): finerenone의 대상 환자·효과·고칼륨혈증.
-- [2023 ESC focused update](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/focused-update-on-heart-failure/): SGLT2 억제제 권고의 이전 근거.
+- 2026 ESC 심부전 지침, 공식 교육 슬라이드: 만성 약물치료·비만 권고표(PDF 51, 53, 90쪽).
+- 2026 ACC HFpEF 합의 경로: 공식 핵심 요약: 진단, nonsteroidal MRA, 표현형별 치료, 동반질환·추적 관리.
+- FINEARTS-HF: ACC 임상시험 요약: finerenone의 대상 환자·효과·고칼륨혈증.
+- 2023 ESC focused update: SGLT2 억제제 권고의 이전 근거.

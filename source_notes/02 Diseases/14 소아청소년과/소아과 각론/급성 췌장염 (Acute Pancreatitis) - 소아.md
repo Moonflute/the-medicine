@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NASPGHAN 임상보고 | https://naspghan.org/files/Management_of_Acute_Pancreatitis_in_the_Pediatric.33.pdf"]
 ---
 분과 : [[소아청소년과]]
 
@@ -46,7 +47,7 @@ reviewed_at: "2026-07-30"
 * **항생제 사용 제한**: 예방적 항생제는 권장되지 않으며, 감염성 괴사 등 확진된 감염이 있을 때만 선별적으로 사용함.
 * **전원 및 추적 관찰**: 중증 췌장염이나 다장기 부전 징후가 보일 경우 상급 병원으로 즉시 전원하며, 퇴원 후에는 원인 질환에 대한 지속적인 추적 관찰을 시행함.
 
-* **영양·담도 처치 시점**: 경증은 장마비·구토 등 금기가 없으면 **48–72시간 이내** 경구/경장 영양을 시작하며 효소 정상화를 기다리지 않는다. 담관염·지속 담도폐쇄가 있으면 ERCP를 평가하고, 합병증 없는 경증 담석성 췌장염은 **같은 입원 중 퇴원 전 담낭절제**를 권한다. 중증 괴사·저류액이 있으면 수술 시점을 개별화한다. [NASPGHAN 임상보고](https://naspghan.org/files/Management_of_Acute_Pancreatitis_in_the_Pediatric.33.pdf)
+* **영양·담도 처치 시점**: 경증은 장마비·구토 등 금기가 없으면 **48–72시간 이내** 경구/경장 영양을 시작하며 효소 정상화를 기다리지 않는다. 담관염·지속 담도폐쇄가 있으면 ERCP를 평가하고, 합병증 없는 경증 담석성 췌장염은 **같은 입원 중 퇴원 전 담낭절제**를 권한다. 중증 괴사·저류액이 있으면 수술 시점을 개별화한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 경증은 대부분 수일 내 회복

@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["WSES 급성 담낭염 지침 2020 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7643471/", "Merck 급성 담낭염 | https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/acute-cholecystitis", "Merck 만성 담낭염 | https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/chronic-cholecystitis", "ASGE 담관결석 지침 | https://www.asge.org/docs/default-source/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis-2019-june-gie.pdf", "ESGE 총담관 결석 지침 | https://www.esge.com/endoscopic-management-of-common-bile-duct-stones-esge-guideline", "Tokyo Guidelines 2018 담관염 진단 | https://onlinelibrary.wiley.com/doi/10.1002/jhbp.512", "Tokyo Guidelines 2018 acute cholecystitis management | https://pubmed.ncbi.nlm.nih.gov/29045062/", "ASGE choledocholithiasis guideline | https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis"]
 ---
 분과 : [[소화기]]
 
@@ -71,7 +72,6 @@ reviewed_at: "2026-10-08"
 
 - **수술 시점**: 수술을 견딜 수 있으면 조기 복강경 담낭절제술을 시행한다. WSES는 가급적 **입원 7일 이내이면서 증상 시작 10일 이내** 시행을 권고하며, 이 기간이 지났다는 이유만으로 진행성 감염·천공의 수술을 지연하지 않는다. 쇼크 등으로 현재 수술이 불가능하면 항생제·배액으로 안정화한 뒤 재평가한다.
 - 합병증 없는 담낭염에서 절제술로 감염원이 충분히 제거되었다면 수술 후 항생제를 관행적으로 장기간 유지하지 않는다.
-- 근거: [WSES 급성 담낭염 지침 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7643471/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 지속되는 통증·발열, 저혈압, 황달, 복막자극 또는 전신 상태 악화는 괴저성/기종성 담낭염, 농양·천공, 동반 담관염을 시사하므로 즉시 재영상과 외과·중재 협진이 필요합니다.
@@ -86,10 +86,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [Merck 급성 담낭염](https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/acute-cholecystitis)
-- [Merck 만성 담낭염](https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/chronic-cholecystitis)
-- [ASGE 담관결석 지침](https://www.asge.org/docs/default-source/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis-2019-june-gie.pdf)
-- [ESGE 총담관 결석 지침](https://www.esge.com/endoscopic-management-of-common-bile-duct-stones-esge-guideline)
-- [Tokyo Guidelines 2018 담관염 진단](https://onlinelibrary.wiley.com/doi/10.1002/jhbp.512)
-- [Tokyo Guidelines 2018 acute cholecystitis management](https://pubmed.ncbi.nlm.nih.gov/29045062/)
-- [ASGE choledocholithiasis guideline](https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis)

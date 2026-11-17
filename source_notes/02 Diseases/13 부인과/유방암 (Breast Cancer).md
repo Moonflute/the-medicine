@@ -21,6 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["늑간상완신경 보존 무작위 연구 | https://pubmed.ncbi.nlm.nih.gov/33710131/", "ASCO HR+/HER2− 2026 | https://doi.org/10.1200/JCO-26-02034", "KEYNOTE-522 승인 조건 | https://www.asco.org/practice-policy/policy-issues-statements/asco-in-action/fda-approves-pembrolizumab-high-risk-early", "FDA 2026 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage", "영국 국가유방검진 정밀평가 지침 | https://www.gov.uk/government/publications/breast-screening-clinical-guidelines-for-screening-management/clinical-guidance-for-breast-cancer-screening-assessment"]
 ---
 분과 : [[부인과]]
 
@@ -66,15 +67,15 @@ reviewed_at: "2026-07-30"
 
 - **수술적 접근**: 종양의 크기, 위치, 병기 및 환자의 선호도를 고려하여 유방 보존 수술(BCS) 또는 유방 전절제술을 결정하며, 필요 시 감시 림프절 생검(SLNB)을 통해 액와 림프절 전이 여부를 평가함.
 - **액와 수술의 해부학적 고려**: 임상적으로 액와 전이가 뚜렷하지 않은 경우 SLNB는 병기 평가와 불필요한 액와 림프절 절제술의 합병증 감소에 도움이 된다. 액와 수술에서는 장흉신경·흉배신경 및 늑간상완신경 손상과 림프부종 위험을 고려한다.
-- **액와림프절 절제 뒤 신경 손상 구분**: 늑간상완신경(intercostobrachial nerve)은 주로 T2 늑간신경의 피부가지로, 위팔 안쪽과 겨드랑이 피부 감각을 담당한다. 이 부위의 감각저하·신경통이 단서이며, 날개어깨뼈가 두드러지는 장흉신경 손상과 구분한다. [늑간상완신경 보존 무작위 연구](https://pubmed.ncbi.nlm.nih.gov/33710131/)
+- **액와림프절 절제 뒤 신경 손상 구분**: 늑간상완신경(intercostobrachial nerve)은 주로 T2 늑간신경의 피부가지로, 위팔 안쪽과 겨드랑이 피부 감각을 담당한다. 이 부위의 감각저하·신경통이 단서이며, 날개어깨뼈가 두드러지는 장흉신경 손상과 구분한다.
 - **다학제적 보조 요법**: 병리 결과(ER/PR, HER2, Ki-67 등)에 따라 방사선 치료, 항암 화학 요법, 호르몬 치료, 표적 치료를 개별화하여 시행함.
 - **선행 전신치료와 계획**: 선행 전신치료는 유방보존 가능성을 높이거나 수술이 어려운 병변을 축소하기 위해 선택할 수 있으며, 치료 반응은 개별 예후 및 이후 전신치료 선택에 활용한다. 유전성 위험이 의심되면 유전상담·검사를 치료 결정 전에 논의하고, 수술 범위와 재건 계획을 숙고할 시간을 확보한다.
 - **수술 후 관리 및 합병증 예방**: 수술 후 림프부종 예방을 위한 상지 운동 교육 및 피부 관리 교육을 시행하고, 정기적인 신체 검진과 영상 검사를 통해 국소 재발 및 원격 전이를 추적 관찰함.
 - **전문의 의뢰**: 유방암 의심 소견(BI-RADS 4 이상)이 있거나 확진된 경우, 즉시 유방외과 전문의에게 의뢰하여 병기 설정 및 치료 계획을 수립함.
 
-- **항암과 내분비 단독의 경계(HR+/HER2−)**: 폐경 후 N0 또는 1–3개 양성 림프절의 적합 환자에서 21-gene recurrence score(RS) ≤25이면 항암 생략을 검토할 수 있다. RS ≥26은 항암 추가를 지지한다. 폐경 전 N0의 RS 16–25는 연령·임상 위험을 함께 평가하고, 폐경 전 림프절 1–3개 양성은 낮은 RS만으로 항암을 생략하지 않는다. ≥4개 양성에서는 이러한 생략 근거를 적용하지 않는다. [ASCO HR+/HER2− 2026](https://doi.org/10.1200/JCO-26-02034)
-- **선행치료를 우선하는 경우**: HER2 양성 II–III기 또는 고위험 삼중음성(예: T1cN+ 또는 T2 이상)에서는 선행치료와 잔존암에 따른 수술 후 약제 조정의 이득을 검토한다. 삼중음성의 pembrolizumab 병용은 조기 고위험군에서 PD-L1과 무관하게 선택 가능하다. [KEYNOTE-522 승인 조건](https://www.asco.org/practice-policy/policy-issues-statements/asco-in-action/fda-approves-pembrolizumab-high-risk-early)
-- **HER2 양성 잔존암**: Trastuzumab ± pertuzumab 및 taxane 선행치료 후 침윤암이 남은 경우 2026 FDA 승인 T-DXd와 기존 T-DM1 등을 위험·독성·국내 사용 조건으로 비교한다. T-DXd의 새 기침·호흡곤란은 간질성 폐질환 평가와 약제 보류가 필요한 소견이다. [FDA 2026](https://www.fda.gov/drugs/cancer-approvals/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage)
+- **항암과 내분비 단독의 경계(HR+/HER2−)**: 폐경 후 N0 또는 1–3개 양성 림프절의 적합 환자에서 21-gene recurrence score(RS) ≤25이면 항암 생략을 검토할 수 있다. RS ≥26은 항암 추가를 지지한다. 폐경 전 N0의 RS 16–25는 연령·임상 위험을 함께 평가하고, 폐경 전 림프절 1–3개 양성은 낮은 RS만으로 항암을 생략하지 않는다. ≥4개 양성에서는 이러한 생략 근거를 적용하지 않는다.
+- **선행치료를 우선하는 경우**: HER2 양성 II–III기 또는 고위험 삼중음성(예: T1cN+ 또는 T2 이상)에서는 선행치료와 잔존암에 따른 수술 후 약제 조정의 이득을 검토한다. 삼중음성의 pembrolizumab 병용은 조기 고위험군에서 PD-L1과 무관하게 선택 가능하다.
+- **HER2 양성 잔존암**: Trastuzumab ± pertuzumab 및 taxane 선행치료 후 침윤암이 남은 경우 2026 FDA 승인 T-DXd와 기존 T-DM1 등을 위험·독성·국내 사용 조건으로 비교한다. T-DXd의 새 기침·호흡곤란은 간질성 폐질환 평가와 약제 보류가 필요한 소견이다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 조기 발견 시 생존율이 높으나, 분자 아형과 병기에 따라 예후가 상이함.
@@ -82,6 +83,5 @@ reviewed_at: "2026-07-30"
 
 출처 : StatPearls (Breast Cancer, Breast Cancer Conservation Therapy); 삼성서울병원 메뉴얼
 - 보완 출처: 삼성서울병원 외과 메뉴얼
-- 영상유도 생검: [영국 국가유방검진 정밀평가 지침](https://www.gov.uk/government/publications/breast-screening-clinical-guidelines-for-screening-management/clinical-guidance-for-breast-cancer-screening-assessment)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

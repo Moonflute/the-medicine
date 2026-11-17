@@ -15,6 +15,7 @@ CC:
 관련분과:
 - 정형외과
 clinical_priority: tier_1
+sources: ["AANS | https://www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/"]
 ---
 # 마미증후군 (Cauda Equina Syndrome)
 
@@ -27,4 +28,4 @@ clinical_priority: tier_1
 ## 즉시 할 일
 - 긴급 MRI와 척추 전문 평가를 의뢰하고, 압박 원인에 따라 신속한 감압술을 고려한다.
 
-- MRI에서 임상상에 맞는 압박이 확인되면 응급 감압으로 연결한다. 흔히 제시되는 **48시간**은 기다려도 되는 유예기간이 아니며, 요정체·안장감각 저하·진행성 약화가 있으면 즉시 평가한다. 요정체가 완성될 때까지 기다리지 않는다. [AANS](https://www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/)
+- MRI에서 임상상에 맞는 압박이 확인되면 응급 감압으로 연결한다. 흔히 제시되는 **48시간**은 기다려도 되는 유예기간이 아니며, 요정체·안장감각 저하·진행성 약화가 있으면 즉시 평가한다. 요정체가 완성될 때까지 기다리지 않는다.

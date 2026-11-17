@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["선천심장병 중재 합의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6716301/", "AHA 심내막염 예방 | https://www.heart.org/en/health-topics/infective-endocarditis"]
 ---
 분과 : [[소아청소년과]]
 
@@ -46,7 +47,7 @@ reviewed_at: "2026-07-30"
 * **수술적 치료**: 폐동맥 고혈압, 심부전 지속, 또는 혈역학적으로 유의한 단락(Qp:Qs 2:1 이상) 확인 시 교정술 고려
 * **감염 예방**: 구강 위생을 유지한다. 단순한 비청색증성 미교정 VSD만으로 모든 치과 시술에 예방적 항생제를 쓰지는 않으며, 과거 심내막염·인공재료 교정 직후/인접 잔여 단락 등 별도 고위험 적응증을 확인한다
 
-* **수술을 앞당기는 조건**: 충분한 내과치료에도 심부전·성장부진이 지속되거나 좌심실 용적 부하가 크면 단락비 기준을 기다리지 않고 조기 교정을 평가한다. 대동맥판 탈출과 진행하는 역류, 반복 심내막염도 적응증이 될 수 있다. 폐혈관저항이 비가역적으로 상승한 Eisenmenger 상태에서는 폐쇄를 금한다. [선천심장병 중재 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC6716301/), [AHA 심내막염 예방](https://www.heart.org/en/health-topics/infective-endocarditis)
+* **수술을 앞당기는 조건**: 충분한 내과치료에도 심부전·성장부진이 지속되거나 좌심실 용적 부하가 크면 단락비 기준을 기다리지 않고 조기 교정을 평가한다. 대동맥판 탈출과 진행하는 역류, 반복 심내막염도 적응증이 될 수 있다. 폐혈관저항이 비가역적으로 상승한 Eisenmenger 상태에서는 폐쇄를 금한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 폐동맥 고혈압, 심부전, 부정맥, 감염성 심내막염

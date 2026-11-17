@@ -10,9 +10,7 @@ CC:
 - 저림
 preprocessing_required: x
 last_studied: '2026-06-06'
-sources:
-- '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
-- 'ADA 2026 Retinopathy, Neuropathy, and Foot Care | https://diabetesjournals.org/care/article/49/Supplement_1/S261/163919/12-Retinopathy-Neuropathy-and-Foot-Care-Standards'
+sources: ["대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide", "ADA 2026 Retinopathy, Neuropathy, and Foot Care | https://diabetesjournals.org/care/article/49/Supplement_1/S261/163919/12-Retinopathy-Neuropathy-and-Foot-Care-Standards"]
 clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'
 guideline_year: "2026"
@@ -53,5 +51,3 @@ review_status: "guideline_enriched"
 - 감각 소실과 자율신경병증은 낙상, 화상·외상, 궤양·감염·절단, 위장관·비뇨기 기능 저하 위험을 높이므로 증상보다 예방적 선별과 교육이 중요하다.
 
 ## 출처
-- ADA Standards of Care in Diabetes 2026, Retinopathy, Neuropathy, and Foot Care: https://diabetesjournals.org/care/article/49/Supplement_1/S261/163919/12-Retinopathy-Neuropathy-and-Foot-Care-Standards
-- 대한당뇨병학회 2025 제9판 당뇨병 진료지침: https://diabetes.or.kr/bbs/?code=guide

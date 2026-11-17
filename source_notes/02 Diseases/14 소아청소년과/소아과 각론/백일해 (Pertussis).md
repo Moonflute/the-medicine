@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC 2026 | https://www.cdc.gov/pertussis/hcp/clinical-care/index.html"]
 ---
 분과 : [[소아청소년과]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 * **접촉자 관리**: 고위험군 접촉자에게는 증상 유무와 관계없이 예방적 항생제 투여를 권장함.
 * **격리 및 예방**: 항생제 치료 시작 후 5일간 호흡기 격리를 시행하며, 예방접종(DTaP/Tdap)을 통한 면역 획득이 가장 효과적인 예방책임.
 
-* **연령별 선택·입원**: azithromycin은 생후 1개월 미만에서도 선택 약제이며 유문협착 증상을 감시한다. TMP-SMX는 macrolide를 쓸 수 없는 **생후 2개월 이상**에서 대안이다. 무호흡·청색증·저산소증·수유 장애 또는 어린 영아는 입원 감시를 적극 고려한다. [CDC 2026](https://www.cdc.gov/pertussis/hcp/clinical-care/index.html)
+* **연령별 선택·입원**: azithromycin은 생후 1개월 미만에서도 선택 약제이며 유문협착 증상을 감시한다. TMP-SMX는 macrolide를 쓸 수 없는 **생후 2개월 이상**에서 대안이다. 무호흡·청색증·저산소증·수유 장애 또는 어린 영아는 입원 감시를 적극 고려한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 영아(특히 6개월 미만)는 폐렴, 무호흡, 뇌병증, 폐동맥 고혈압 등 심각한 합병증 및 사망 위험이 높음

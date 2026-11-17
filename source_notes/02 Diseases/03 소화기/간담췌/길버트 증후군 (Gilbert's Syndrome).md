@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NHS 길버트 증후군 | https://www.nhs.uk/conditions/gilberts-syndrome/", "Mayo Clinic 진단·치료 | https://www.mayoclinic.org/diseases-conditions/gilberts-syndrome/diagnosis-treatment/drc-20372816"]
 ---
 분과 : [[소화기]]
 
@@ -58,7 +59,6 @@ reviewed_at: "2026-07-30"
 - 용혈·간질환이 배제된 전형적인 고립성 비결합형 고빌리루빈혈증이면 약물치료나 질환 자체를 위한 정기 영상검사는 필요하지 않다. 충분한 수분과 규칙적인 식사를 유지하고 금식·탈수 등 본인의 유발요인을 줄인다.
 - 이리노테칸 등 UGT1A1 관련 약제는 처방 전 대사·유전형에 따른 독성 위험을 검토한다.
 - 평소와 다른 지속적 황달, 복통, 진한 소변·회색변, 직접 빌리루빈 또는 간효소 상승이 생기면 다른 원인을 재평가한다. 단일 총 빌리루빈 수치만으로 길버트 증후군 치료를 시작하지 않는다.
-- 근거: [NHS 길버트 증후군](https://www.nhs.uk/conditions/gilberts-syndrome/), [Mayo Clinic 진단·치료](https://www.mayoclinic.org/diseases-conditions/gilberts-syndrome/diagnosis-treatment/drc-20372816).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

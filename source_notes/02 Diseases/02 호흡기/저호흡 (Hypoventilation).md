@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ATS OHS 지침 | https://doi.org/10.1164/rccm.201905-1071ST"]
 ---
 분과 : [[호흡기]]
 
@@ -50,7 +51,6 @@ reviewed_at: "2026-07-30"
 
 - **비만저환기증후군(OHS)이며 안정된 외래 환자에서 중증 OSA(AHI ≥30/시간)가 동반**되면 CPAP을 우선한다. 중증 OSA가 없거나 적절한 CPAP에도 환기·증상이 교정되지 않으면 bilevel/NIV를 평가한다. 급성 고탄산혈증성 호흡부전은 NIV 등 급성기 환기 경로를 적용한다.
 - 호흡부전으로 입원했고 OHS가 의심되면 확진·수면 적정검사 전까지 NIV로 퇴원하는 전략을 검토하고 **2–3개월 이내** 평가를 연결한다. 단순 산소 단독으로 저환기를 치료하지 않는다.
-- 근거: [ATS OHS 지침](https://doi.org/10.1164/rccm.201905-1071ST).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 폐동맥 고혈압, 우심실 비대, 심부전으로 진행될 수 있음.

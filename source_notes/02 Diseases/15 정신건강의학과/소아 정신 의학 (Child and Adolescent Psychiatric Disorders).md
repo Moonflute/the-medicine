@@ -17,10 +17,7 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 content_updated_at: '2026-10-08'
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "NICE NG87 ADHD 진단·관리, 2018; 2019 개정 | https://www.nice.org.uk/guidance/ng87/chapter/recommendations"
-  - "NICE CG128 19세 미만 자폐 인식·진단, 2011; 2017 개정 | https://www.nice.org.uk/guidance/cg128/chapter/Recommendations"
-  - "NICE CG170 소아·청소년 자폐 지원·관리, 2013; 2021 개정 | https://www.nice.org.uk/guidance/cg170/chapter/Recommendations"
+sources: ["NICE NG87 ADHD 진단·관리, 2018; 2019 개정 | https://www.nice.org.uk/guidance/ng87/chapter/recommendations", "NICE CG128 19세 미만 자폐 인식·진단, 2011; 2017 개정 | https://www.nice.org.uk/guidance/cg128/chapter/Recommendations", "NICE CG170 소아·청소년 자폐 지원·관리, 2013; 2021 개정 | https://www.nice.org.uk/guidance/cg170/chapter/Recommendations"]
 group_members:
 - 특정 학습 장애 (Specific Learning Disorder)
 - 틱 장애 (Tic Disorder)
@@ -65,7 +62,3 @@ group_members:
 - [[지적 장애 (Intellectual Disability)]]
 
 ## 참고 자료
-
-- [NICE NG87 ADHD 진단·관리, 2018; 2019 개정](https://www.nice.org.uk/guidance/ng87/chapter/recommendations)
-- [NICE CG128 19세 미만 자폐 인식·진단, 2011; 2017 개정](https://www.nice.org.uk/guidance/cg128/chapter/Recommendations)
-- [NICE CG170 소아·청소년 자폐 지원·관리, 2013; 2021 개정](https://www.nice.org.uk/guidance/cg170/chapter/Recommendations)

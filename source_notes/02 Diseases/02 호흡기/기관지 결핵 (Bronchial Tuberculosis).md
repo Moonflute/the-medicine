@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC 감수성 결핵 치료 | https://www.cdc.gov/tb/hcp/treatment/tuberculosis-disease.html", "ATS/CDC/IDSA 감수성 결핵 지침 | https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/"]
 ---
 분과 : [[호흡기]]
 
@@ -46,7 +47,6 @@ reviewed_at: "2026-07-30"
 
 - 감수성 결핵의 표준 6개월 요법은 **2개월 HRZE 후 4개월 HR**이며 네 약을 모두 6개월 유지하는 의미가 아니다. 협착 예방만을 위한 전신 스테로이드의 일률적 사용은 권하지 않는다. 중대한 증상성 고정 협착·반복 폐렴·무기폐는 항결핵 치료와 별도로 중재 기관지내시경을 평가한다.
 - 간독성 의심 시 증상을 동반한 AST/ALT >정상상한 3배 또는 무증상 >5배이면 간독성 약제 중단 및 원인·대체요법을 전문 평가한다. 경미한 검사 이상만으로 모든 약을 임의 중단하지 않는다.
-- 근거: [CDC 감수성 결핵 치료](https://www.cdc.gov/tb/hcp/treatment/tuberculosis-disease.html), [ATS/CDC/IDSA 감수성 결핵 지침](https://www.idsociety.org/practice-guideline/treatment-of-drug-susceptible-tb/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료 지연 시 기관지 협착, 폐쇄성 폐질환, 무기폐 등이 발생할 수 있음.

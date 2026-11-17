@@ -26,8 +26,7 @@ group_members:
 - 중심 척수 증후군 (Central cord syndrome)
 - 후 척수 증후군 (Posterior cord syndrome)
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "AO Spine/Praxis 급성 척수손상 임상 가이드라인 개정 소개, 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10964896/"
+sources: ["AO Spine/Praxis 급성 척수손상 임상 가이드라인 개정 소개, 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10964896/"]
 ---
 # 척수 외상
 
@@ -57,5 +56,3 @@ sources:
 - [[후 척수 증후군 (Posterior cord syndrome)]]
 
 ## 참고 자료
-
-- [AO Spine/Praxis 급성 척수손상 임상 가이드라인 개정 소개, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10964896/)

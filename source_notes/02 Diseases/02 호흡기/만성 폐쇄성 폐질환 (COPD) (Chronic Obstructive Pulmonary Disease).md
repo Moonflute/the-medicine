@@ -16,10 +16,7 @@ CC:
 clinical_priority: tier_1
 content_updated_at: "2026-11-17"
 guideline_year: '2026'
-sources:
-- "GOLD 2026 Report·Pocket Guide | https://goldcopd.org/2026-gold-report-and-pocket-guide/"
-- "GOLD 2026 주요 개정 사항 | https://goldcopd.org/wp-content/uploads/2025/11/KEY-CHANGES-GOLD-2026-10Nov2025.pdf"
-- "GOLD 2026 이탈리아어 공식 Pocket Guide | https://goldcopd.it/wp-content/uploads/2026/01/GOLD_Pocket_Guide_2026.pdf"
+sources: ["GOLD 2026 Report·Pocket Guide | https://goldcopd.org/2026-gold-report-and-pocket-guide/", "GOLD 2026 주요 개정 사항 | https://goldcopd.org/wp-content/uploads/2025/11/KEY-CHANGES-GOLD-2026-10Nov2025.pdf", "GOLD 2026 이탈리아어 공식 Pocket Guide | https://goldcopd.it/wp-content/uploads/2026/01/GOLD_Pocket_Guide_2026.pdf", "GOLD 2027 | https://goldcopd.org/wp-content/uploads/2026/11/GOLD-Report-2027-FINAL-v1.0-15Nov2026_Reduced_WMV.pdf"]
 disease_family: copd
 population: adult
 guideline_reviewed_at: '2026-10-07'
@@ -52,8 +49,8 @@ guideline_review_status: primary_source_reviewed
 - 증상·악화가 지속되면 흡입기 술기·순응도·진단·동반질환을 재확인하고 기관지확장제 조합, ICS 추가/중단, 재활·전문 의뢰를 단계적으로 결정한다.
 - 퇴원 전에는 실제 흡입기 사용 숙련도, 경구 전환과 처방된 corticosteroid·항생제의 종료 계획, 추적 및 장기 산소치료 필요성 재평가를 확인한다.
 
-- **ICS·추가 약물의 기준**: LABA＋LAMA에도 악화가 지속되면 혈중 호산구 ≥100/µL에서 ICS 추가 이득을 기대하며, ≥300/µL에서 이득 가능성이 더 크다. <100/µL이면 ICS 효과가 낮아 다른 악화 원인과 대안을 우선 검토한다. 폐렴·유의한 부작용 시 ICS 감량/중단을 검토하되 ≥300/µL에서는 악화 위험 증가에 주의한다. FEV₁ <50%, 만성기관지염 및 과거 중증 악화가 있으면 roflumilast를, 적합한 비흡연자 등에서는 azithromycin을 검토한다. 최적 삼제요법에도 악화하면서 호산구 ≥300/µL인 환자는 만성기관지염 여부·제품 허가에 맞춰 dupilumab/mepolizumab을 전문팀에서 평가한다. [GOLD 2027](https://goldcopd.org/wp-content/uploads/2026/11/GOLD-Report-2027-FINAL-v1.0-15Nov2026_Reduced_WMV.pdf)
-- **장기 산소치료**: 안정기 반복 평가에서 PaO₂ ≤55 mmHg 또는 SaO₂ ≤88%, 혹은 PaO₂ 약 56–59 mmHg와 폐고혈압·우심부전 부종·적혈구증가증이 동반되면 적응증을 평가한다. 악화 때 일시적 저산소증은 회복 후 재평가하며 중등도 저산소증만으로 장기 산소를 일률 처방하지 않는다. [GOLD 2027](https://goldcopd.org/wp-content/uploads/2026/11/GOLD-Report-2027-FINAL-v1.0-15Nov2026_Reduced_WMV.pdf)
+- **ICS·추가 약물의 기준**: LABA＋LAMA에도 악화가 지속되면 혈중 호산구 ≥100/µL에서 ICS 추가 이득을 기대하며, ≥300/µL에서 이득 가능성이 더 크다. <100/µL이면 ICS 효과가 낮아 다른 악화 원인과 대안을 우선 검토한다. 폐렴·유의한 부작용 시 ICS 감량/중단을 검토하되 ≥300/µL에서는 악화 위험 증가에 주의한다. FEV₁ <50%, 만성기관지염 및 과거 중증 악화가 있으면 roflumilast를, 적합한 비흡연자 등에서는 azithromycin을 검토한다. 최적 삼제요법에도 악화하면서 호산구 ≥300/µL인 환자는 만성기관지염 여부·제품 허가에 맞춰 dupilumab/mepolizumab을 전문팀에서 평가한다.
+- **장기 산소치료**: 안정기 반복 평가에서 PaO₂ ≤55 mmHg 또는 SaO₂ ≤88%, 혹은 PaO₂ 약 56–59 mmHg와 폐고혈압·우심부전 부종·적혈구증가증이 동반되면 적응증을 평가한다. 악화 때 일시적 저산소증은 회복 후 재평가하며 중등도 저산소증만으로 장기 산소를 일률 처방하지 않는다.
 
 ## 6. 예후 및 합병증
 - 악화는 폐기능 저하, 입원과 사망 위험을 높인다. 폐렴, 폐색전증, 심혈관질환, 불안·우울, 근감소증·골다공증을 함께 관리한다.
@@ -73,9 +70,4 @@ guideline_review_status: primary_source_reviewed
 급성 악화에서 전신 steroid는 보통 짧은 과정으로 사용하며 장기 반복 처방을 기본 치료로 삼지 않는다. 고탄산성 호흡부전의 환기는 산소만 올려 해결하려 하지 않고 혈액가스와 NIV 적응증을 평가한다.
 
 
-
 ## 참고 가이드라인
-
-- [GOLD 2026 Report·Pocket Guide](https://goldcopd.org/2026-gold-report-and-pocket-guide/)
-- [GOLD 2026 주요 개정 사항](https://goldcopd.org/wp-content/uploads/2025/11/KEY-CHANGES-GOLD-2026-10Nov2025.pdf)
-- [GOLD 2026 이탈리아어 공식 Pocket Guide](https://goldcopd.it/wp-content/uploads/2026/01/GOLD_Pocket_Guide_2026.pdf)

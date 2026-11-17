@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EASL 양성 간종양 지침 | https://easl.eu/wp-content/uploads/2016/10/EASL-CPG-on-Management-of-benign-liver-tumours.pdf"]
 ---
 분과 : [[소화기]]
 
@@ -59,7 +60,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - 전형적인 조영 영상으로 FNH가 확실하고 무증상이면 대개 치료·정기 영상 추적이 필요하지 않다. 동반 혈관성 간질환 등은 별도 평가한다.
 - 크기 >5 cm라는 이유만으로 절제하지 않는다. 비전형 영상·진단 불확실성 또는 병변과 관련된 압박 증상은 간 다학제에서 추가 MRI/선택적 생검·중재 필요성을 판단한다.
-- FNH와 간세포 선종을 구분한다. 선종의 호르몬 중단·절제 크기 기준을 FNH에 자동 적용하지 않는다. [EASL 양성 간종양 지침](https://easl.eu/wp-content/uploads/2016/10/EASL-CPG-on-Management-of-benign-liver-tumours.pdf)
+- FNH와 간세포 선종을 구분한다. 선종의 호르몬 중단·절제 크기 기준을 FNH에 자동 적용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

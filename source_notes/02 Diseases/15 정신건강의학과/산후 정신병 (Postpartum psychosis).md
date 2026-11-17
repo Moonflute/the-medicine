@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE 주산기 정신건강 CG192 | https://www.nice.org.uk/guidance/cg192/chapter/recommendations"]
 disease_family: psychiatry_split
 parent_disease: 조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)
 relation_to_parent: subtype
@@ -44,7 +43,6 @@ relation_to_parent: subtype
 - **전기경련요법(ECT) 활용**: 급성기 증상이 심각하거나 약물 치료에 반응이 없는 경우, 산모에게 안전하고 효과적인 일차 치료법으로 적극 고려함.
 - **다학제적 관리 및 추적 관찰**: 산부인과, 소아청소년과와 협진하여 환자의 신체 상태와 영아의 발달을 모니터링하고, 퇴원 후 재발 방지를 위한 사회적 지지 체계 및 외래 추적 관찰 계획을 수립함.
 
-근거: [NICE 주산기 정신건강 CG192](https://www.nice.org.uk/guidance/cg192/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 예후: 적절한 치료 시 빠르게 회복되는 경향이 있으나, 향후 임신 시 재발 위험이 높음.

@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AHA/AAP 신생아 소생술 2025 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation"]
 ---
 분과 : [[소아청소년과]]
 
@@ -49,6 +50,5 @@ reviewed_at: "2026-07-30"
 - **합병증**: 폐 고혈압 지속증(PPHN), 기흉 등 공기 누출 증후군, 저산소성 허혈성 뇌병증
 - **예후**: 조기 발견 및 적절한 보존적 치료 시 대부분 양호하나, 중증 시 사망률 증가
 
-출처: [AHA/AAP 신생아 소생술 2025](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

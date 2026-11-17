@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["GINA 2026 | https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf"]
 ---
 분과 : [[호흡기]]
 
@@ -56,7 +57,6 @@ reviewed_at: "2026-07-30"
 
 - 천식이 확인된 성인·청소년은 **ICS를 포함하는 치료**를 기본으로 한다. GINA Track 1의 저용량 **ICS-formoterol을 쓰는 환자는 운동 전에도 같은 흡입제를 사용할 수 있으며 별도 SABA를 반드시 추가할 필요는 없다.** 다른 경로에서는 운동 전 SABA를 사용할 수 있으나 거의 매일 필요하면 조절 치료와 진단을 재평가한다.
 - 운동 중 증상이 지속되면 흡입법·순응도 외에도 운동유발 후두폐쇄, 심장질환·체력 저하를 평가한다.
-- 근거: [GINA 2026](https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 관리 시 운동 능력을 유지할 수 있음.

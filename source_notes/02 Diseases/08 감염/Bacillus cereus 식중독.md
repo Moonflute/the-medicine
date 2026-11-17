@@ -15,6 +15,7 @@ CC:
 - 설사
 - 복통
 clinical_priority: tier_2
+sources: ["BC CDC B. cereus | https://www.bccdc.ca/Health-Info-Site/Pages/Bacillus-cereus-.aspx"]
 ---
 # Bacillus cereus 식중독
 
@@ -28,4 +29,3 @@ clinical_priority: tier_2
 출처: 삼성서울병원 메뉴얼
 
 - **처치 기준**: 경구 섭취가 가능하면 경구수분보충액으로 재수화하고, 지속 구토·중증 탈수·쇼크이면 정맥수액과 입원 평가를 시행한다. 합병증 없는 독소형 식중독에는 항생제를 사용하지 않는다. 균혈증·안구감염 등 침습성 B. cereus 감염은 별도 항균치료 대상이다.
-- 근거: [BC CDC B. cereus](https://www.bccdc.ca/Health-Info-Site/Pages/Bacillus-cereus-.aspx).

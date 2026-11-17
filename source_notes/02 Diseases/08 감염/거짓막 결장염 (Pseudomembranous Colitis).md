@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["CDC 의료종사자 손 위생 권고 | https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html", "SHEA/IDSA 2021 CDI 지침 | https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/", "2017 진단·전격성 치료 지침 | https://www.idsociety.org/practice-guideline/clostridium-difficile"]
 ---
 분과: [[감염]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-10-08"
 
 ## 5. 감염관리
 - 설사 환자는 즉시 contact precautions를 적용하고, 장갑·가운 사용과 손 위생을 강화한다. 포자 오염이 우려되는 환경은 sporicidal agent를 사용해 청소한다.
-- **손 위생과 포자**: 비누와 물로 씻으면 손의 포자를 물리적으로 줄일 수 있으며, 알코올 손소독제만으로 포자를 없앨 수 없다. 장갑·가운과 올바른 탈의가 우선이다. 눈에 보이는 오염이 있거나 유행 상황이면 비누와 물을 사용한다. CDC는 평상시 의료기관 손 위생에서 알코올 제제를 배제하지 않으므로, 포자 제거를 묻는 상황과 기관의 일상 손 위생 지침을 구분한다. 환자 이동과 공용 장비 사용을 최소화한다. [CDC 의료종사자 손 위생 권고](https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html)
+- **손 위생과 포자**: 비누와 물로 씻으면 손의 포자를 물리적으로 줄일 수 있으며, 알코올 손소독제만으로 포자를 없앨 수 없다. 장갑·가운과 올바른 탈의가 우선이다. 눈에 보이는 오염이 있거나 유행 상황이면 비누와 물을 사용한다. CDC는 평상시 의료기관 손 위생에서 알코올 제제를 배제하지 않으므로, 포자 제거를 묻는 상황과 기관의 일상 손 위생 지침을 구분한다. 환자 이동과 공용 장비 사용을 최소화한다.
 
 ## 6. 추적 포인트
 - 치료 중 설사량, 활력징후, 복부 소견, 백혈구와 creatinine을 추적해 중증도 변화를 확인한다.
@@ -58,5 +59,3 @@ reviewed_at: "2026-10-08"
 - CDC. C. diff clinical resources.
 
 참고: 삼성서울병원 메뉴얼.
-- [SHEA/IDSA 2021 CDI 지침](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/)
-- [2017 진단·전격성 치료 지침](https://www.idsociety.org/practice-guideline/clostridium-difficile)

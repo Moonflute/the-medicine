@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["WHO 2025 | https://www.ncbi.nlm.nih.gov/books/NBK614844/"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -55,7 +56,7 @@ reviewed_at: "2026-07-30"
 - 결핵성 수막염은 서서히 진행하고 뇌신경 이상·수두증을 보일 수 있으며, TB PCR 음성만으로 배제하지 않는다. HSV 뇌염은 성격·언어 변화와 측두엽 병변을 보일 수 있고, 초기 PCR 음성이어도 의심이 높으면 재평가한다.
 
 ## 5. 치료
-- **지역사회 세균성 수막염**: ceftriaxone/cefotaxime을 신속 투여하고 지역 폐렴구균 내성에 따라 vancomycin을 추가한다. **>60세·임신·면역저하** 등 Listeria 위험이면 ampicillin/amoxicillin을 추가한다. 신생아는 별도 신생아 패혈증 경로를 적용하며 ceftriaxone 기반 성인 처방을 그대로 쓰지 않는다. LP/CT 때문에 항생제를 지연하지 않는다. 비유행성 세균성 수막염에서 dexamethasone은 가능하면 첫 항생제와 동시에 시작하고 CSF·균 결과에 따라 지속 여부를 정한다. [WHO 2025](https://www.ncbi.nlm.nih.gov/books/NBK614844/)
+- **지역사회 세균성 수막염**: ceftriaxone/cefotaxime을 신속 투여하고 지역 폐렴구균 내성에 따라 vancomycin을 추가한다. **>60세·임신·면역저하** 등 Listeria 위험이면 ampicillin/amoxicillin을 추가한다. 신생아는 별도 신생아 패혈증 경로를 적용하며 ceftriaxone 기반 성인 처방을 그대로 쓰지 않는다. LP/CT 때문에 항생제를 지연하지 않는다. 비유행성 세균성 수막염에서 dexamethasone은 가능하면 첫 항생제와 동시에 시작하고 CSF·균 결과에 따라 지속 여부를 정한다.
 - HSV 의심 시 즉시 IV acyclovir 시작하고 치료 반응을 모니터링
 - 결핵성 의심 시 항결핵제와 스테로이드를 병용하고, 전파 방지를 위해 격리 조치
 - 아메바성 의심 시 Amphotericin B 기반 병용 요법을 신속히 시작하고 감염내과·신경외과 협진

@@ -13,6 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["WAO 2025 지침, 2026 출판 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13184495/"]
 ---
 분과 : [[알레르기]]
 
@@ -27,7 +28,6 @@ reviewed_at: "2026-07-30"
   또한 고전적 보체 경로 활성화로 인해 C4 수치가 감소한다.
 
 
-
 ## 2. 임상 양상 (Clinical Features)
 
 - 피부색의 국소적 통증성 부종이 얼굴·사지·생식기에 나타나며, 두드러기·소양감은 대개 동반하지 않는다. 장관부종은 복통 또는 장폐쇄 양상, 후두부종은 기도응급을 일으킬 수 있다. 10–25%는 가족력이 없을 수 있다.
@@ -36,7 +36,6 @@ reviewed_at: "2026-07-30"
 * **P/E**:
   가려움증이나 두드러기는 동반되지 않는 경우가 많다.
   위장관 침범 시 심한 복통이 발생할 수 있으며, 상기도 부종은 드물지만 질식(asphyxiation)을 유발할 수 있는 가장 위험한 합병증이다.
-
 
 
 ## 3. 검사 (Lab & Imaging)
@@ -48,21 +47,18 @@ reviewed_at: "2026-07-30"
 - C1q 수치는 후천성 혈관부종과의 감별을 위해 측정하며, 유전성 혈관부종에서는 대개 정상이다.
 
 
-
 ## 4. 진단 (Diagnosis)
 - 가족력, 임상 증상, C1-INH 정량 및 기능 검사, C4 수치 등을 종합하여 진단한다.
   유전자 검사는 필수적이지 않을 수 있다.
 
 
-
 ## 5. 치료
 - **발작 치료**: 후두·혀 침범은 즉시 기도 평가와 C1-INH/icatibant 등 on-demand 치료를 시행한다. 다른 발작도 기능장애·통증이 진행하기 전에 조기 치료한다. Bradykinin 매개 HAE에는 항히스타민·steroid가 효과적이지 않지만 기전 불명인 급성 반응의 아나필락시스 처치를 지연해서는 안 된다.
 - **단기 예방**: 발치·기도 삽관 등 상기도에 기계적 자극이 예상되면 시술 전 plasma-derived C1-INH 등 예방을 검토한다. 예방을 했어도 응급 약제·기도 대응을 준비한다.
-- **장기 예방 선택**: 발작 횟수만으로 고정하지 않고 중증도·삶의 질·응급 치료 접근성과 선호를 평가한다. C1-INH, lanadelumab, berotralstat 및 새 예방제 garadacimab/donidalorsen 등을 연령·국내 허가에 맞춰 선택한다. 장기 예방 중에도 돌발 발작용 약제를 확보한다. [WAO 2025 지침, 2026 출판](https://pmc.ncbi.nlm.nih.gov/articles/PMC13184495/)
+- **장기 예방 선택**: 발작 횟수만으로 고정하지 않고 중증도·삶의 질·응급 치료 접근성과 선호를 평가한다. C1-INH, lanadelumab, berotralstat 및 새 예방제 garadacimab/donidalorsen 등을 연령·국내 허가에 맞춰 선택한다. 장기 예방 중에도 돌발 발작용 약제를 확보한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 상기도 부종으로 인한 질식 위험이 있으나, 적절한 급성기 치료 및 예방 요법을 통해 예후를 개선할 수 있다.
-
 
 
 출처 : StatPearls (Hereditary Angioedema)

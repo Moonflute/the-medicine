@@ -21,6 +21,7 @@ population: "pregnancy"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["SMFM 임신 중 홍역 권고 | https://www.smfm.org/measles"]
 ---
 분과 : [[산과]]
 
@@ -49,7 +50,7 @@ reviewed_at: "2026-07-30"
 
 - 대증 요법: 충분한 수분 공급과 해열제를 통한 보존적 치료를 시행함.
 - 비타민 A: 소아 홍역의 고용량 치료 기준을 임신부에게 적용하지 않는다. 홍역 치료에 쓰는 고용량 vitamin A는 임신 중 금기이며 영양결핍은 산과와 별도 평가한다.
-- 노출 후 예방: 면역 근거가 없는 임신부는 노출 6일 이내 IVIG 400 mg/kg 1회를 투여한다. 임신 중 MMR 생백신은 금기이며 비면역자는 산후 접종을 계획한다. [SMFM 임신 중 홍역 권고](https://www.smfm.org/measles)
+- 노출 후 예방: 면역 근거가 없는 임신부는 노출 6일 이내 IVIG 400 mg/kg 1회를 투여한다. 임신 중 MMR 생백신은 금기이며 비면역자는 산후 접종을 계획한다.
 - 격리 및 감염 관리: 발진 발생 후 4일까지 호흡기 격리를 유지하여 전파를 차단함.
 - 임산부 관리: 중증 합병증 위험이 높으므로 입원 치료 및 면밀한 모니터링을 시행함.
 

@@ -17,9 +17,7 @@ clinical_priority: tier_1
 reviewed_at: "2026-07-30"
 content_updated_at: "2026-11-15"
 guideline_year: '2023'
-sources:
-- '2023 Anaphylaxis Practice Parameter Update | https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Anaphylaxis-Practice-Paramaters-2023.pdf'
-- 'Resuscitation Council UK Emergency Treatment of Anaphylaxis | https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis/emergency-treatment-anaphylactic-reactions'
+sources: ["2023 Anaphylaxis Practice Parameter Update | https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Anaphylaxis-Practice-Paramaters-2023.pdf", "Resuscitation Council UK Emergency Treatment of Anaphylaxis | https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis/emergency-treatment-anaphylactic-reactions", "NICE 아나필락시스 tryptase 채혈 | https://www.nice.org.uk/guidance/ng258/chapter/Timing-of-blood-samples"]
 disease_family: anaphylaxis
 population: adult
 
@@ -64,5 +62,3 @@ population: adult
 
 출처: Resuscitation Council UK, *Emergency Treatment of Anaphylaxis* (2021).
 OCR 출처: 삼성서울병원 메뉴얼
-
-검사 시점 보완: [NICE 아나필락시스 tryptase 채혈](https://www.nice.org.uk/guidance/ng258/chapter/Timing-of-blood-samples).

@@ -15,7 +15,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["Diagnosis of Pneumocystis jirovecii Pneumonia in Non-HIV Immunocompromised Patient in Korea: A Review and Algorithm Proposed by Expert Consensus Group | https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191374"]
+sources: ["Diagnosis of Pneumocystis jirovecii Pneumonia in Non-HIV Immunocompromised Patient in Korea: A Review and Algorithm Proposed by Expert Consensus Group | https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003191374", "NIH OI 지침 | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -49,7 +49,7 @@ content_updated_at: "2026-11-17"
 - **치료와 중증도**: HIV 관련 PCP는 TMP-SMX를 21일 투여하며 신기능에 맞춰 용량을 조정한다. 중등도/중증은 정주로 시작할 수 있고, 호전·흡수가 가능하면 경구로 전환한다. 비HIV 면역저하 환자의 치료기간·보조 steroid는 배경 질환과 중증도에 따라 별도 판단한다.
 - **보조 steroid의 수치 기준**: HIV 관련 PCP에서 실내공기 PaO₂ <70 mmHg 또는 A–a 산소차 ≥35 mmHg이면 항균치료 시작 후 가능한 한 빨리, 72시간 이내 steroid를 병용한다. 이 기준을 비HIV PCP의 확립된 권고로 일반화하지 않는다.
 - **대체 약제**: 경증/중등도는 atovaquone 등을, 중등도/중증은 clindamycin＋primaquine 또는 IV pentamidine 등을 검토한다. Primaquine/dapsone 전 G6PD 결핍을 확인하고 TMP-SMX의 고칼륨·혈구감소·간/신장 독성을 추적한다.
-- **HIV 예방치료 전환**: CD4 <100/µL 또는 CD4 100–200/µL이면서 HIV RNA가 검출되는 환자는 일차예방을 시행한다. 치료 후 이차예방을 시작하며 ART로 CD4 ≥200/µL가 ≥3개월 유지되면 중단을 평가한다. CD4 100–200에서 바이러스가 지속 억제된 경우는 전문 지침의 별도 조건을 적용한다. [NIH OI 지침](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis)
+- **HIV 예방치료 전환**: CD4 <100/µL 또는 CD4 100–200/µL이면서 HIV RNA가 검출되는 환자는 일차예방을 시행한다. 치료 후 이차예방을 시작하며 ART로 CD4 ≥200/µL가 ≥3개월 유지되면 중단을 평가한다. CD4 100–200에서 바이러스가 지속 억제된 경우는 전문 지침의 별도 조건을 적용한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 없으면 치명적일 수 있음.

@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ERS 2025 | https://doi.org/10.1183/13993003.01126-2025", "ERS 성인 기관지확장증 진료지침 2025 | https://publications.ersnet.org/content/erj/66/6/2501126", "ATS/ERS/ESCMID/IDSA NTM 폐질환 진료지침 | https://www.idsociety.org/practice-guideline/nontuberculous-mycobacterial-ntm-diseases/", "BTS 성인 기관지확장증 지침 | https://www.brit-thoracic.org.uk/document-library/guidelines/bronchiectasis/bts-guideline-for-bronchiectasis-in-adults/"]
 ---
 분과 : [[호흡기]]
 
@@ -52,7 +53,7 @@ reviewed_at: "2026-10-08"
 - 잦은 악화 또는 만성 Pseudomonas 감염에서는 호흡기 전문팀과 장기 흡입 또는 macrolide 예방치료의 이득·내성·QT·청각·간독성을 검토한다. 장기 macrolide 전에는 NTM 배양과 심전도·청력 위험 평가를 포함해 단일 약제 노출로 NTM 내성을 만들지 않도록 한다.
 - 반복 CT를 일정 간격으로 시행하지 않는다. 증상, 악화·입원, 객담 미생물, 폐기능과 합병증을 정기적으로 추적하며, 국소적이고 치료 불응성 병변·반복 대량 객혈은 색전술 또는 수술 적합성을 다학제적으로 평가한다.
 
-- **장기 항생제 시작 기준**: 표준 기도청결·원인 치료 후에도 지난 1년 ≥2회 악화, ≥1회 입원할 정도의 중증 악화, 또는 1회 악화와 심한 일상 증상이 있으면 예방치료를 평가한다. 만성 Pseudomonas 감염의 고위험군은 흡입 항생제 또는 macrolide를 검토한다. 천식/COPD가 없는 기관지확장증에 ICS를 일률적으로 추가하지 않는다. [ERS 2025](https://doi.org/10.1183/13993003.01126-2025)
+- **장기 항생제 시작 기준**: 표준 기도청결·원인 치료 후에도 지난 1년 ≥2회 악화, ≥1회 입원할 정도의 중증 악화, 또는 1회 악화와 심한 일상 증상이 있으면 예방치료를 평가한다. 만성 Pseudomonas 감염의 고위험군은 흡입 항생제 또는 macrolide를 검토한다. 천식/COPD가 없는 기관지확장증에 ICS를 일률적으로 추가하지 않는다.
 
 ## 6. 예후 및 합병증
 - 비가역적 질환으로 완치는 어려우나 관리 가능.
@@ -64,6 +65,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ERS 성인 기관지확장증 진료지침 2025](https://publications.ersnet.org/content/erj/66/6/2501126)
-- [ATS/ERS/ESCMID/IDSA NTM 폐질환 진료지침](https://www.idsociety.org/practice-guideline/nontuberculous-mycobacterial-ntm-diseases/)
-- [BTS 성인 기관지확장증 지침](https://www.brit-thoracic.org.uk/document-library/guidelines/bronchiectasis/bts-guideline-for-bronchiectasis-in-adults/)

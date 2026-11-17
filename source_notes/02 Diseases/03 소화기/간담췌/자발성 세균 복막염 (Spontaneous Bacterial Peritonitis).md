@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["KASL 복수·SBP 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6166105/", "KASL 복수 지침 2018 | https://www.kasl.org/eng/guidelines/file/cmh-2018-1005.pdf", "KASL 복수 지침 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13430399/"]
 ---
 분과 : [[소화기]]
 
@@ -67,7 +68,6 @@ reviewed_at: "2026-10-08"
 
 - **치료 시작·반응 기준**: 복수 **PMN ≥250/mm³**이면 배양 음성이라도 치료한다. 재천자에서 **48시간 후 PMN 감소가 25%에 못 미치면** 항생제 적합성과 이차성 복막염을 재평가한다.
 - **알부민**: 신장기능 악화 위험이 큰 SBP에서는 진단일 **1.5 g/kg**, 제3일 **1 g/kg**을 투여하는 요법을 사용한다. 체액 과부하·폐부종을 함께 감시하고 일반 수액 처방으로 대체하지 않는다.
-- 근거: [KASL 복수·SBP 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6166105/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -82,5 +82,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [KASL 복수 지침 2018](https://www.kasl.org/eng/guidelines/file/cmh-2018-1005.pdf)
-- [KASL 복수 지침 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13430399/)

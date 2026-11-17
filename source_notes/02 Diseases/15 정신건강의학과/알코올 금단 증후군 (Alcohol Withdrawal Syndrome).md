@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "ASAM 알코올 금단 지침 | https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline"]
 disease_family: psychiatry_split
 parent_disease: 물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)
 relation_to_parent: subtype
@@ -51,7 +50,6 @@ relation_to_parent: subtype
 - **치료 강도(ASAM)**: CIWA-Ar **<10**의 경증이며 중증 금단 위험이 낮으면 지지 치료±약물을, **10–18**이면 약물치료를 시행한다. **≥19**, 경련·섬망, 불안정 활력징후, 중증 동반질환 또는 관찰·추적이 불가능하면 감시 수준을 높이고 입원 치료를 평가한다. 점수만으로 과거 금단 발작 등 위험요인을 덮지 않는다.
 - **약물 선택**: benzodiazepine이 기본이며 간기능 저하에서는 lorazepam 등 간 대사 영향을 덜 받는 약제를 고려한다. 의사소통이 가능한 적절한 감시 환경에서 증상 유발형 투여를 사용하고, 섬망·의사소통 불가이면 CIWA-Ar에 의존하지 않는 객관적 감시·정해진 투여 전략을 쓴다.
 
-근거: [ASAM 알코올 금단 지침](https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline).
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입 시 예후가 좋으나, 금단 섬망은 적절한 치료가 없을 경우 치명적일 수 있음.

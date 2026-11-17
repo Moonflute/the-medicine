@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["GeneReviews PWS | https://www.ncbi.nlm.nih.gov/books/NBK1330/", "FDA Vykat XR 처방정보 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/216665s000lbl.pdf"]
 ---
 분과 : [[소아청소년과]]
 
@@ -47,7 +48,6 @@ reviewed_at: "2026-07-30"
 - **GH 시작 전**: 수면다원검사와 호흡·대사 상태를 평가한다. 치료하지 않은 중증 폐쇄성 수면무호흡, 심한 비만·호흡장애, 조절되지 않은 당뇨는 먼저 교정하며 치료 후 코골이·무호흡 악화, IGF-1과 성장 반응을 추적한다.
 - **과식 표적 약물**: diazoxide choline 서방형(Vykat XR)은 **미국 FDA 2025 승인 기준 4세 이상 PWS의 hyperphagia** 대상이다. 시작 전 공복혈당·HbA1c를 확인하고, 의미 있는 혈당 상승이나 체액 과다가 발생하면 감량·중단을 검토한다. 기존 diazoxide 현탁액과 임의 대체하지 않으며 국내 허가·공급은 별도 확인한다.
 
-근거: [GeneReviews PWS](https://www.ncbi.nlm.nih.gov/books/NBK1330/), [FDA Vykat XR 처방정보](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/216665s000lbl.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 제2형 당뇨병, 수면 무호흡증, 심혈관 질환, 골다공증

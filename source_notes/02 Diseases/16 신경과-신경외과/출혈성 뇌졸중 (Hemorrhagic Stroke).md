@@ -14,14 +14,7 @@ clinical_priority: tier_2
 review_status: "guideline_enriched"
 reviewed_at: "2026-10-21"
 guideline_year: "2026"
-sources:
-  - "ESO/EANS: Spontaneous Intracerebral Haemorrhage Guideline (2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC12098356/"
-  - "AHA/ASA: Spontaneous Intracerebral Hemorrhage (2022) | https://doi.org/10.1161/STR.0000000000000407"
-  - "ESO/EANS/ESMINT: Aneurysmal Subarachnoid Haemorrhage Guideline (2026) | https://doi.org/10.1093/esj/aakag043"
-  - "AHA/ASA: Aneurysmal Subarachnoid Hemorrhage (2023) | https://doi.org/10.1161/STR.0000000000000436"
-  - "ACS: Best Practices in the Management of Traumatic Brain Injury (2024) | https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf"
-  - "FDA: Update on the Safety of Andexxa (2025) | https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/update-safety-andexxa"
-  - "AHA/ASA: Adult Stroke Rehabilitation and Recovery (2026) | https://professional.heart.org/en/science-news/2026-guideline-for-adult-stroke-rehabilitation-and-recovery"
+sources: ["ESO/EANS: Spontaneous Intracerebral Haemorrhage Guideline (2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC12098356/", "AHA/ASA: Spontaneous Intracerebral Hemorrhage (2022) | https://doi.org/10.1161/STR.0000000000000407", "ESO/EANS/ESMINT: Aneurysmal Subarachnoid Haemorrhage Guideline (2026) | https://doi.org/10.1093/esj/aakag043", "AHA/ASA: Aneurysmal Subarachnoid Hemorrhage (2023) | https://doi.org/10.1161/STR.0000000000000436", "ACS: Best Practices in the Management of Traumatic Brain Injury (2024) | https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf", "FDA: Update on the Safety of Andexxa (2025) | https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/update-safety-andexxa", "AHA/ASA: Adult Stroke Rehabilitation and Recovery (2026) | https://professional.heart.org/en/science-news/2026-guideline-for-adult-stroke-rehabilitation-and-recovery"]
 document_role: "group_overview"
 group_members:
 - 경막외 출혈 (Epidural hemorrhage)
@@ -72,11 +65,3 @@ ABC와 신경학적 상태를 확인하고 비조영 CT를 신속히 시행한�
 - [[지주막하 출혈 (Subarachnoid hemorrhage)]]
 
 ## 참고 자료
-
-- [ESO/EANS: Spontaneous Intracerebral Haemorrhage Guideline (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12098356/)
-- [AHA/ASA: Spontaneous Intracerebral Hemorrhage (2022)](https://doi.org/10.1161/STR.0000000000000407)
-- [ESO/EANS/ESMINT: Aneurysmal Subarachnoid Haemorrhage Guideline (2026)](https://doi.org/10.1093/esj/aakag043)
-- [AHA/ASA: Aneurysmal Subarachnoid Hemorrhage (2023)](https://doi.org/10.1161/STR.0000000000000436)
-- [ACS: Best Practices in the Management of Traumatic Brain Injury (2024)](https://www.facs.org/media/vgfgjpfk/best-practices-guidelines-traumatic-brain-injury.pdf)
-- [FDA: Update on the Safety of Andexxa (2025)](https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/update-safety-andexxa)
-- [AHA/ASA: Adult Stroke Rehabilitation and Recovery (2026)](https://professional.heart.org/en/science-news/2026-guideline-for-adult-stroke-rehabilitation-and-recovery) — 2026-10-21 반영.

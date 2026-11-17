@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["Male Chronic Pelvic Pain: AUA Guideline: Part II Treatment of Chronic Prostatitis/Chronic Pelvic Pain Syndrome. | https://pubmed.ncbi.nlm.nih.gov/40243102/"]
+sources: ["Male Chronic Pelvic Pain: AUA Guideline: Part II Treatment of Chronic Prostatitis/Chronic Pelvic Pain Syndrome. | https://pubmed.ncbi.nlm.nih.gov/40243102/", "EAU 감염 지침 | https://uroweb.org/guidelines/urological-infections/chapter/the-guideline"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -50,7 +50,7 @@ content_updated_at: "2026-11-18"
 - **급성 세균성**은 소변배양(중증이면 혈액배양) 후 즉시 항생제를 시작한다. 안정·경구 섭취 가능하면 감수성에 맞는 경구 치료가 가능하고, 패혈증·구토·심한 통증/요폐 등은 입원·IV 치료를 선택한다. 모든 환자에게 fluoroquinolone 정맥제를 고정하지 않는다.
 - 호전 후 감수성 있는 경구제로 전환하여 보통 **총 2~4주** 치료한다. 48~72시간에도 호전이 없으면 내성·폐색·전립선 농양을 영상으로 평가하고 필요 시 배액한다. 급성기 전립선 마사지는 하지 않는다.
 - **만성 세균성**은 배양 근거와 감수성을 확인해 전립선 침투 약제로 대개 4~6주 치료한다.
-- **CP/CPPS**는 감염 근거가 없는 만성 통증으로 구분하여 배뇨 증상·골반저 압통·신경병성 통증에 맞춰 α차단제·골반저 물리치료·통증/심리 치료 등을 병행한다. 배양 음성·반복 항생제 무반응이면 항생제만 연장하지 않는다. [EAU 감염 지침](https://uroweb.org/guidelines/urological-infections/chapter/the-guideline)
+- **CP/CPPS**는 감염 근거가 없는 만성 통증으로 구분하여 배뇨 증상·골반저 압통·신경병성 통증에 맞춰 α차단제·골반저 물리치료·통증/심리 치료 등을 병행한다. 배양 음성·반복 항생제 무반응이면 항생제만 연장하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 전립샘 농양, 패혈증, 만성 골반통증 증후군으로의 이행, 부고환염.

@@ -20,9 +20,7 @@ CC:
 clinical_priority: tier_2
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- "ACG 성인 크론병 지침, 2025: 공식 요점 | https://gi.org/wp-content/uploads/2018/04/ACG_CrohnsHighight2025.pdf"
-- "ACG 성인 궤양성 대장염 지침, 2025: 공식 해설·권고 | https://gi.org/journals-publications/ebgi/alkazzi_aug2025/"
+sources: ["ACG 성인 크론병 지침, 2025: 공식 요점 | https://gi.org/wp-content/uploads/2018/04/ACG_CrohnsHighight2025.pdf", "ACG 성인 궤양성 대장염 지침, 2025: 공식 해설·권고 | https://gi.org/journals-publications/ebgi/alkazzi_aug2025/"]
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
 ---
@@ -67,6 +65,3 @@ guideline_review_status: primary_source_reviewed
 - [[크론병 (CD) (Crohn's Disease (CD))]]
 
 ## 참고 가이드라인
-
-- [ACG 성인 크론병 지침, 2025: 공식 요점](https://gi.org/wp-content/uploads/2018/04/ACG_CrohnsHighight2025.pdf)
-- [ACG 성인 궤양성 대장염 지침, 2025: 공식 해설·권고](https://gi.org/journals-publications/ebgi/alkazzi_aug2025/)

@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NCI 치료 구분 | https://www.cancer.gov/types/ovarian/hp/ovarian-germ-cell-treatment-pdq"]
 ---
 분과 : [[부인과]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-07-30"
 - **성숙 기형종 관리**: 통증·성장·염전·악성 의심 소견이 있으면 난소를 보존하는 낭종절제 등을 검토한다. 영상상 전형적인 작고 무증상인 병변은 추적이 가능하면 관찰할 수 있으므로 모든 기형종을 예방적으로 수술하지 않는다.
 - **추적 관찰**: 치료 후 종양 표지자(aFP, beta-HCG, LDH)와 영상 검사를 정기적으로 시행하여 재발 여부를 조기에 발견하고, 장기적인 내분비 기능 및 생식 능력 변화를 모니터링함.
 
-- **항암 생략 기준**: 완전 절제·병기설정된 IA 순수 dysgerminoma 또는 IA grade 1 미성숙기형종은 감시가 가능하다. 난황낭종양, 혼합 악성 종양, 잔존·진행 병변 등은 BEP 등 백금 기반 요법을 검토한다. 선택적 감시 범위는 조직형·연령별 지침이 달라 전문 병리 확인 후 결정한다. [NCI 치료 구분](https://www.cancer.gov/types/ovarian/hp/ovarian-germ-cell-treatment-pdq)
+- **항암 생략 기준**: 완전 절제·병기설정된 IA 순수 dysgerminoma 또는 IA grade 1 미성숙기형종은 감시가 가능하다. 난황낭종양, 혼합 악성 종양, 잔존·진행 병변 등은 BEP 등 백금 기반 요법을 검토한다. 선택적 감시 범위는 조직형·연령별 지침이 달라 전문 병리 확인 후 결정한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 생식 세포 종양은 일반적으로 항암 화학 요법 및 방사선 치료에 반응이 좋아 예후가 양호한 편임(5년 생존율 90% 이상).

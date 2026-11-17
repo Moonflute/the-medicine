@@ -17,7 +17,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain. | https://pubmed.ncbi.nlm.nih.gov/41825518/"]
+sources: ["Consensus document on the diagnosis, management, and treatment of chronic hepatitis B virus and hepatitis D virus infection in Spain. | https://pubmed.ncbi.nlm.nih.gov/41825518/", "대한간학회 임산부 권고 | https://www.kasl.org/guideline/hbv/hbv_6.html", "질병관리청 주산기감염 예방사업 | https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=133&menuLv=1", "CDC HBV 검사 해석 | https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/index.html", "CDC HBV 선별·검사 권고 2023 | https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm", "AASLD/IDSA 만성 HBV 지침 2025 | https://www.idsociety.org/link/d400d5de79fb44008cd5b65dfaa64d1e.aspx", "AGA HBV 재활성화 예방 지침 2025 | https://www.cghjournal.org/article/S0016-5085%2824%2905744-5/fulltext", "CDC HBV Pink Book | https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-10-hepatitis-b.html", "AASLD 만성 HBV 지침 2025 안내 | https://www.aasld.org/aasld-announces-new-practice-guideline-treatment-chronic-hepatitis-b", "CDC HBV 감시·사례관리 지침 | https://www.cdc.gov/hepatitis/php/surveillance-guidance/hepatitis-b.html", "CDC HBV 임상 개요 | https://cdc.gov/hepatitis-b/hcp/clinical-overview/index.html", "KASL 만성 HBV 지침 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9013624/", "KASL/EALA 만성 HBV 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/", "KASL/EALA 만성 B형간염 지침 2026 | https://doi.org/10.3350/cmh.2026.0579", "EASL HBV 지침 2025 | https://www.hepb.org/assets/Uploads/EASL-guidelines-May-2025.pdf", "CDC HBV 예방접종 권고 | https://www.cdc.gov/mmwr/volumes/67/rr/rr6701a1.htm", "CDC HBV 자연경과 | https://www.cdc.gov/std/treatment-guidelines/hbv.htm", "HBV precore·BCP 변이 기전 연구 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11519831/", "BCP 변이와 HBeAg 발현 연구 | https://pmc.ncbi.nlm.nih.gov/articles/PMC190601/", "CDC HBV 임상 증상 | https://www.cdc.gov/hepatitis-b/hcp/clinical-signs/index.html", "HBV Research Network 동시 양성 코호트 | https://pubmed.ncbi.nlm.nih.gov/32364641/", "PEGASYS 허가사항 | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916"]
 
 content_updated_at: "2026-11-15"
 ---
@@ -81,7 +81,7 @@ content_updated_at: "2026-11-15"
 - **감별 진단**: C형 간염, 자가면역 간염, 비알코올성 지방간염, 알코올성 간 질환.
 
 ## 5. 치료
-- **주산기 감염 예방**: HBsAg 양성 산모의 신생아는 출생 직후 가급적 12시간 이내에 HBIG와 B형간염 백신을 서로 다른 부위에 투여받고, 이후 접종과 항원·항체 추적을 완료한다. 산모의 HBV DNA가 200,000 IU/mL 이상이면 전파 감소 목적의 항바이러스 예방을 별도로 평가한다. 이는 신생아 예방접종을 대체하지 않는다. [대한간학회 임산부 권고](https://www.kasl.org/guideline/hbv/hbv_6.html) · [질병관리청 주산기감염 예방사업](https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=133&menuLv=1)
+- **주산기 감염 예방**: HBsAg 양성 산모의 신생아는 출생 직후 가급적 12시간 이내에 HBIG와 B형간염 백신을 서로 다른 부위에 투여받고, 이후 접종과 항원·항체 추적을 완료한다. 산모의 HBV DNA가 200,000 IU/mL 이상이면 전파 감소 목적의 항바이러스 예방을 별도로 평가한다. 이는 신생아 예방접종을 대체하지 않는다.
 - **간이식 후 재발 예방**: HBV 관련 간이식 후에는 강력한 경구 핵산유사체를 기반으로 재발 예방을 지속한다. HBIG 병합 여부와 기간은 이식 전 HBV DNA, 간암·HDV/HIV 동반, 복약 이행과 재발 위험에 따라 이식팀에서 결정한다. 모든 환자에게 HBIG와 경구약의 평생 병합이 필요하다고 일률적으로 설명하지 않는다. 저위험 환자에서 HBIG를 종료하더라도 경구약과 HBsAg·HBV DNA 감시는 지속한다.
 - **치료 종료 판단**: HBeAg 소실만으로 종료하지 않는다. EASL 2025는 진행성 간질환이 없는 HBeAg 양성 환자에서 확인된 HBeAg/anti-HBe 혈청전환과 HBV DNA 불검출 후 최소 12개월을 지나고 면밀한 추적이 보장되는 경우에 중단을 고려하도록 한다. 비대상성 간경변에서는 임의로 경구 치료를 중단하지 않는다. 중단을 선택하면 ALT·HBV DNA의 추적 일정과 재치료 조건을 미리 정하고, 반응 유지 여부와 HBsAg 재양전을 확인한다.
 
@@ -131,22 +131,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [CDC HBV 검사 해석](https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/index.html)
-- [CDC HBV 선별·검사 권고 2023](https://www.cdc.gov/mmwr/volumes/72/rr/rr7201a1.htm)
-- [AASLD/IDSA 만성 HBV 지침 2025](https://www.idsociety.org/link/d400d5de79fb44008cd5b65dfaa64d1e.aspx)
-- [AGA HBV 재활성화 예방 지침 2025](https://www.cghjournal.org/article/S0016-5085%2824%2905744-5/fulltext)
-- [CDC HBV Pink Book](https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-10-hepatitis-b.html)
-- [AASLD 만성 HBV 지침 2025 안내](https://www.aasld.org/aasld-announces-new-practice-guideline-treatment-chronic-hepatitis-b)
-- [CDC HBV 감시·사례관리 지침](https://www.cdc.gov/hepatitis/php/surveillance-guidance/hepatitis-b.html)
-- [CDC HBV 임상 개요](https://cdc.gov/hepatitis-b/hcp/clinical-overview/index.html)
-- [KASL 만성 HBV 지침 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9013624/)
-- [KASL/EALA 만성 HBV 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/)
-- [KASL/EALA 만성 B형간염 지침 2026](https://doi.org/10.3350/cmh.2026.0579)
-- [EASL HBV 지침 2025](https://www.hepb.org/assets/Uploads/EASL-guidelines-May-2025.pdf)
-- [CDC HBV 예방접종 권고](https://www.cdc.gov/mmwr/volumes/67/rr/rr6701a1.htm)
-- [CDC HBV 자연경과](https://www.cdc.gov/std/treatment-guidelines/hbv.htm)
-- [HBV precore·BCP 변이 기전 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC11519831/)
-- [BCP 변이와 HBeAg 발현 연구](https://pmc.ncbi.nlm.nih.gov/articles/PMC190601/)
-- [CDC HBV 임상 증상](https://www.cdc.gov/hepatitis-b/hcp/clinical-signs/index.html)
-- [HBV Research Network 동시 양성 코호트](https://pubmed.ncbi.nlm.nih.gov/32364641/)
-- [PEGASYS 허가사항](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d9290e5b-6d40-2318-e053-2995a90a9916)

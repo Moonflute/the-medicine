@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG128 | https://www.nice.org.uk/guidance/ng128/chapter/recommendations", "Canadian Stroke Best Practices | https://www.strokebestpractices.ca/recommendations/secondary-prevention-of-stroke/anti-platelet-therapy-in-ischemic-stroke-and-tia"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -44,10 +45,10 @@ reviewed_at: "2026-07-30"
 - 급성기에는 신속히 신경영상(MRI/DWI)과 혈관·심장 평가를 완료하고, 항혈소판제와 고용량 스타틴을 시작한다.
 - 혈압·혈당·지질을 목표 범위로 조절하고, 심방세동이 확인되면 항응고 요법을 고려한다.
 - 경동맥 협착이 70 % 이상인 경우 혈관외과·중재팀에 의뢰하여 경동맥 내막절제술 또는 스텐트 삽입을 검토한다.
-- 증상이 소실되어도 **발병 24시간 이내** 전문 평가를 시행한다. ABCD2가 낮다는 이유로 의뢰를 늦추지 않는다. [NICE NG128](https://www.nice.org.uk/guidance/ng128/chapter/recommendations)
+- 증상이 소실되어도 **발병 24시간 이내** 전문 평가를 시행한다. ABCD2가 낮다는 이유로 의뢰를 늦추지 않는다.
 - 환자와 가족에게 재발 위험과 금연, 규칙적인 운동, 저염·저지방 식이 등 생활습관 개선을 교육한다
 
-- **단독제와 DAPT 분기**: 비심인성 고위험 TIA(예: ABCD2 ≥4)에서 출혈 위험을 평가하여 aspirin+clopidogrel을 조기에 시작하고 **21일 뒤 단독제**로 전환한다. 이는 치료 연구의 선별 기준이며 의뢰 시급성을 낮추는 점수가 아니다. 심방세동이면 항응고 경로로 바꾸며 일상적으로 DAPT와 중복하지 않는다. [Canadian Stroke Best Practices](https://www.strokebestpractices.ca/recommendations/secondary-prevention-of-stroke/anti-platelet-therapy-in-ischemic-stroke-and-tia)
+- **단독제와 DAPT 분기**: 비심인성 고위험 TIA(예: ABCD2 ≥4)에서 출혈 위험을 평가하여 aspirin+clopidogrel을 조기에 시작하고 **21일 뒤 단독제**로 전환한다. 이는 치료 연구의 선별 기준이며 의뢰 시급성을 낮추는 점수가 아니다. 심방세동이면 항응고 경로로 바꾸며 일상적으로 DAPT와 중복하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 뇌졸중의 강력한 경고 신호(특히 48시간 이내 위험도 높음)

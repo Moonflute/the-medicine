@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ESGO/ISSVD 합의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9279839/"]
 ---
 분과 : [[부인과]]
 
@@ -57,7 +58,7 @@ reviewed_at: "2026-07-30"
 - **보조 요법**: uVIN의 경우 수술적 치료가 어려운 경우 면역 조절제(Imiquimod) 사용을 고려할 수 있음.
 - **추적 관찰 및 예방**: 높은 재발률을 고려하여 정기적인 외음부 검진을 시행하며, HPV 백신 접종과 금연을 권장함.
 
-- **절제와 비절제 치료의 구분**: dVIN은 침윤암 동반 위험 때문에 절제를 시행하며 레이저·imiquimod로 대체하지 않는다. HPV 관련 HSIL(uVIN)은 충분한 생검으로 침윤을 배제한 경우 절제·레이저·국소 imiquimod 중 위치·범위·기능 보존을 고려해 선택한다. 침윤 의심, 궤양·단단한 결절·치료 불응 부위는 생검/절제를 우선한다. [ESGO/ISSVD 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC9279839/)
+- **절제와 비절제 치료의 구분**: dVIN은 침윤암 동반 위험 때문에 절제를 시행하며 레이저·imiquimod로 대체하지 않는다. HPV 관련 HSIL(uVIN)은 충분한 생검으로 침윤을 배제한 경우 절제·레이저·국소 imiquimod 중 위치·범위·기능 보존을 고려해 선택한다. 침윤 의심, 궤양·단단한 결절·치료 불응 부위는 생검/절제를 우선한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료 후에도 높은 재발률을 보임.

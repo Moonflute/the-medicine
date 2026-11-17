@@ -19,9 +19,7 @@ group_members:
 - 단일 양막성 쌍태 임신 (Monoamniotic Twins)
 - 쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "ISUOG 쌍태 임신 초음파 실무지침, 2025 | https://www.isuog.org/static/89db40d1-928b-49bc-be5ea200fd41130c/ISUOG-Practice-Guidelines-role-of-ultrasound-in-twin-pregnancy.pdf"
-  - "NICE NG137 쌍태·삼태 임신, 2019; 조산 예방 2024 개정 | https://www.nice.org.uk/guidance/ng137/chapter/Recommendations"
+sources: ["ISUOG 쌍태 임신 초음파 실무지침, 2025 | https://www.isuog.org/static/89db40d1-928b-49bc-be5ea200fd41130c/ISUOG-Practice-Guidelines-role-of-ultrasound-in-twin-pregnancy.pdf", "NICE NG137 쌍태·삼태 임신, 2019; 조산 예방 2024 개정 | https://www.nice.org.uk/guidance/ng137/chapter/Recommendations"]
 ---
 # 쌍둥이 임신
 
@@ -36,7 +34,7 @@ sources:
 | 단일융모막 단일양막 | 제대 얽힘과 태아 손상 | 전문센터의 개별 감시·분만 계획 |
 | TTTS | 공유 태반 혈관을 통한 혈류 불균형, 양수량 차이 | 병기·주수에 따라 태아치료센터 평가 |
 
-- **합병증 없는 쌍태의 계획 분만(NICE)**: 이융모막 이양막은 37주, 단일융모막 이양막은 36주, 단일양막은 32주 0일–33주 6일을 제안한다. 태아 이상·성장제한·모체 합병증이면 앞당겨 개별화한다. ≥32주이고 첫 태아가 두정위이며 유의한 크기 불일치·질식분만 금기가 없으면 계획 질식분만 또는 제왕절개를 선택할 수 있다. 단일양막은 제왕절개를 권고한다. [NICE NG137](https://www.nice.org.uk/guidance/ng137/chapter/Recommendations)
+- **합병증 없는 쌍태의 계획 분만(NICE)**: 이융모막 이양막은 37주, 단일융모막 이양막은 36주, 단일양막은 32주 0일–33주 6일을 제안한다. 태아 이상·성장제한·모체 합병증이면 앞당겨 개별화한다. ≥32주이고 첫 태아가 두정위이며 유의한 크기 불일치·질식분만 금기가 없으면 계획 질식분만 또는 제왕절개를 선택할 수 있다. 단일양막은 제왕절개를 권고한다.
 
 ## 조산 예방과 분만
 
@@ -51,6 +49,3 @@ sources:
 - [[쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)]]
 
 ## 참고 자료
-
-- [ISUOG 쌍태 임신 초음파 실무지침, 2025](https://www.isuog.org/static/89db40d1-928b-49bc-be5ea200fd41130c/ISUOG-Practice-Guidelines-role-of-ultrasound-in-twin-pregnancy.pdf)
-- [NICE NG137 쌍태·삼태 임신, 2019; 조산 예방 2024 개정](https://www.nice.org.uk/guidance/ng137/chapter/Recommendations)

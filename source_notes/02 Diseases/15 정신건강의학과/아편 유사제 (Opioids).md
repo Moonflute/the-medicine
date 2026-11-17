@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "SAMHSA buprenorphine 임상 도구 | https://library.samhsa.gov/sites/default/files/pep21-06-01-002.pdf", "SAMHSA 2024 오피오이드 치료 지침 | https://store.samhsa.gov/sites/default/files/federal-guidelines-opioid-treatment-pep24-02-011.pdf"]
 disease_family: psychiatry_split
 parent_disease: 물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)
 relation_to_parent: subtype
@@ -50,7 +49,6 @@ relation_to_parent: subtype
 - **과다복용과 금단 치료 구분**: 호흡억제에는 환기 지원과 naloxone을 반복·적정 투여하고 재진정 여부를 관찰한다. Naloxone은 장기 유지약이 아니다.
 - **유지약 시작 기준**: 통상적 buprenorphine 유도는 객관적 금단을 확인한 뒤 시작한다(예: **COWS ≥12**). 마지막 사용 후 시간만으로 판단하지 않으며 fentanyl·장시간 작용 오피오이드는 유발 금단 위험 때문에 유도 방법을 개별화한다. Methadone·buprenorphine 유지치료를 단기 해독만으로 대체하지 않고, 투여 접근성·QT·호흡 위험 및 환자 선호를 반영한다.
 
-근거: [SAMHSA buprenorphine 임상 도구](https://library.samhsa.gov/sites/default/files/pep21-06-01-002.pdf), [SAMHSA 2024 오피오이드 치료 지침](https://store.samhsa.gov/sites/default/files/federal-guidelines-opioid-treatment-pep24-02-011.pdf).
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입 및 장기적인 추적 관찰이 중요하며, 동반 질환이 있을 경우 예후가 불량할 수 있음.

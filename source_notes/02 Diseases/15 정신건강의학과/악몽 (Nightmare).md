@@ -13,8 +13,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders
+sources: ["Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "VA/DoD PTSD 약물 권고 | https://www.ptsd.va.gov/professional/treat/txessentials/clinician_guide_meds.asp"]
 disease_family: psychiatry_split
 parent_disease: 수면 관련 장애 (Sleep-Wake Disorders)
 relation_to_parent: subtype
@@ -42,11 +41,9 @@ content_updated_at: "2026-11-18"
 
 - **약물 추가 조건**: PTSD와 관련된 악몽이 지속되면 prazosin을 선택적으로 검토한다. 혈압·기립성 어지럼을 보며 천천히 조절하고, 효과가 없거나 저혈압·실신이 나타나면 재평가한다. 모든 원인의 악몽에 일괄 처방하거나 PTSD 전체 증상의 치료제로 간주하지 않는다.
 
-근거: [VA/DoD PTSD 약물 권고](https://www.ptsd.va.gov/professional/treat/txessentials/clinician_guide_meds.asp).
 
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.
 
-출처: [임상 참고 자료](https://www.merckmanuals.com/professional/psychiatric-disorders)
 
 2026-07-24 — 독립 질환 문서 수동 보강 (원문 분리 후 임상 내용 정리).

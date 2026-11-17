@@ -14,11 +14,7 @@ clinical_priority: tier_1
 content_updated_at: "2026-11-17"
 reviewed_at: '2026-10-21'
 guideline_year: '2026'
-sources:
-- 'Korean Guidelines for the Management of Dyslipidemia 5th Edition | https://lipid.or.kr/eng/pub/images/guidlines_2022.pdf'
-- '2025 Focused Update of the 2019 ESC/EAS Guidelines for the Management of Dyslipidaemias | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/dyslipidaemias/'
-- 'ACC AHA 2026 Dyslipidemia guideline | https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know'
-- 'FDA statin pregnancy and breastfeeding safety communication | https://www.fda.gov/drugs/drug-safety-and-availability/fda-requests-removal-strongest-warning-against-using-cholesterol-lowering-statins-during-pregnancy'
+sources: ["Korean Guidelines for the Management of Dyslipidemia 5th Edition | https://lipid.or.kr/eng/pub/images/guidlines_2022.pdf", "2025 Focused Update of the 2019 ESC/EAS Guidelines for the Management of Dyslipidaemias | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/dyslipidaemias/", "ACC AHA 2026 Dyslipidemia guideline | https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know", "FDA statin pregnancy and breastfeeding safety communication | https://www.fda.gov/drugs/drug-safety-and-availability/fda-requests-removal-strongest-warning-against-using-cholesterol-lowering-statins-during-pregnancy"]
 disease_family: dyslipidemia
 population: adult
 ---
@@ -61,12 +57,10 @@ population: adult
 - 임신 시 대부분 스타틴을 중단하지만 모든 임신을 일률적인 절대 금기로 표현하지 않는다. 극고위험 환자는 전문의가 이득·위험과 국내 허가사항을 검토한다. 스타틴이 필요한 수유부에게는 수유를 권고하지 않는다(FDA). 간질환의 활성도·중증도와 병용약(일부 macrolide, azole, cyclosporine 등)에 따라 약제·용량을 재검토한다.
 - TG ≥500 mg/dL에서는 ASCVD 위험도와 별개로 췌장염 예방을 우선한다. 음주, 조절 불량 당뇨병, 약물 및 식이 원인을 즉시 교정하고, 임상 상황에 따라 TG 저하 약물 치료를 병행한다.
 
-- **국내 목표에 따른 추가 약제**: 한국지질·동맥경화학회 5판에서 관상동맥질환은 LDL-C <55 mg/dL 및 기저치 대비 ≥50% 감소가 목표다. 죽상경화성 뇌졸중/TIA·말초동맥질환 등은 <70 및 ≥50% 감소를 적용한다. 당뇨는 유병기간 ≥10년·주요 위험인자·표적장기손상이 있으면 <70, 유병기간 <10년이며 주요 위험인자가 없으면 <100 mg/dL을 적용하고 더 높은 위험에서는 강화한다. 최대 내약 statin 후 해당 목표 미달이면 ezetimibe·PCSK9 억제제 병용을 검토한다. 치료 목표와 국내 급여 기준은 구별한다. [국내 5판 목표표](https://lipid.or.kr/eng/pub/images/guidlines_2022.pdf)
+- **국내 목표에 따른 추가 약제**: 한국지질·동맥경화학회 5판에서 관상동맥질환은 LDL-C <55 mg/dL 및 기저치 대비 ≥50% 감소가 목표다. 죽상경화성 뇌졸중/TIA·말초동맥질환 등은 <70 및 ≥50% 감소를 적용한다. 당뇨는 유병기간 ≥10년·주요 위험인자·표적장기손상이 있으면 <70, 유병기간 <10년이며 주요 위험인자가 없으면 <100 mg/dL을 적용하고 더 높은 위험에서는 강화한다. 최대 내약 statin 후 해당 목표 미달이면 ezetimibe·PCSK9 억제제 병용을 검토한다. 치료 목표와 국내 급여 기준은 구별한다.
 
 ## 6. 예후 및 합병증
 - 치료되지 않은 LDL-C 상승은 관상동맥질환, 허혈성 뇌졸중, 말초동맥질환의 장기 위험을 높인다. TG가 매우 높으면 급성 췌장염 위험이 추가된다.
 - 조기 ASCVD 또는 FH가 의심되는 경우 가족 선별과 심혈관 전문 평가가 필요할 수 있다. 심한 복통·구토, 급성 흉통 또는 신경학적 결손은 각각 췌장염·급성 관상동맥 증후군·뇌졸중 평가가 필요한 증상이다.
 
 출처: Korean Society of Lipid and Atherosclerosis, *Korean Guidelines for the Management of Dyslipidemia*, 5th ed. (2022); ESC/EAS focused update (2025).
-- [ACC/AHA 2026 이상지질혈증 지침 핵심](https://professional.heart.org/en/science-news/2026-guideline-on-the-management-of-dyslipidemia/top-things-to-know) — 2026-03-13 공개, 2026-10-21 반영.
-- [FDA 스타틴 임신·수유 안전성 안내](https://www.fda.gov/drugs/drug-safety-and-availability/fda-requests-removal-strongest-warning-against-using-cholesterol-lowering-statins-during-pregnancy).

@@ -21,8 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-17"
 guideline_year: "2025"
-sources:
-- 'IDSA Guideline Update on Complicated Urinary Tract Infections | https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/'
+sources: ["IDSA Guideline Update on Complicated Urinary Tract Infections | https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/", "EAU | https://uroweb.org/guidelines/urological-infections/chapter/the-guideline"]
 disease_family: urinary_tract_infection
 population: "adult"
 document_role: "canonical"
@@ -73,7 +72,7 @@ review_status: "guideline_enriched"
 - **입원·비뇨기 중재**: 저혈압/패혈증, 경구 복용 불가, 임신, 중증 통증·구토, 폐쇄 의심 또는 고위험 기저질환에서는 입원 치료를 고려한다. 감염된 폐쇄 요로는 항생제만으로 해결되지 않을 수 있으므로 긴급 배액을 비뇨기과와 상의한다.
 - **항생제 재평가**: 배양·감수성 결과와 임상 반응에 맞춰 경험적 광범위 요법을 좁히고, 경구 전환 가능 여부와 총 치료 기간을 개별화한다.
 
-- **경구 선택과 전환**: 경증 외래 환자에서 fluoroquinolone 경험적 사용은 지역 내성 <10% 등 조건을 확인한다. 감수성 미확인 상태의 TMP-SMX/경구 β-lactam 선택이나 높은 내성 위험에서는 ceftriaxone 등 초기 정주 요법을 포함해 판단한다. 경구 섭취 가능·임상 호전·감수성 약제 확보 시 정주에서 경구로 전환한다. 48–72시간에도 발열·악화가 지속되면 폐쇄·농양을 영상으로 재평가한다. [EAU](https://uroweb.org/guidelines/urological-infections/chapter/the-guideline)
+- **경구 선택과 전환**: 경증 외래 환자에서 fluoroquinolone 경험적 사용은 지역 내성 <10% 등 조건을 확인한다. 감수성 미확인 상태의 TMP-SMX/경구 β-lactam 선택이나 높은 내성 위험에서는 ceftriaxone 등 초기 정주 요법을 포함해 판단한다. 경구 섭취 가능·임상 호전·감수성 약제 확보 시 정주에서 경구로 전환한다. 48–72시간에도 발열·악화가 지속되면 폐쇄·농양을 영상으로 재평가한다.
 
 ## 6. 예후 및 합병증
 - 신장 농양: 항생제 치료에도 증상 지속 시 의심, 경피적 배액술 고려.

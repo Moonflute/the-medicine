@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CPS 2026 | https://cps.ca/en/documents/position/acute-management-of-croup"]
 ---
 분과 : [[소아청소년과]]
 
@@ -46,7 +47,7 @@ reviewed_at: "2026-07-30"
 * **보존적 처치**: 호흡 곤란이 심한 경우 산소를 공급하고, 환아를 안정시켜 호흡 노력을 최소화함.
 * **전원 및 추적**: 증상이 호전되지 않거나 호흡 부전 징후가 보일 경우 상급 병원으로 전원을 고려하며, 재발성 크룹은 기도 구조 이상 여부를 확인하기 위해 외래 추적 관찰함.
 
-* **퇴원·입원 기준**: 마지막 epinephrine 후 **2–4시간** 안정 시 stridor·호흡곤란이 재발하지 않고 수분 섭취가 가능하면 퇴원을 고려한다. 반복 투여가 필요하거나 지속 stridor·저산소증·피로/의식 저하가 있으면 입원/기도 확보 수준을 높인다. [CPS 2026](https://cps.ca/en/documents/position/acute-management-of-croup)
+* **퇴원·입원 기준**: 마지막 epinephrine 후 **2–4시간** 안정 시 stridor·호흡곤란이 재발하지 않고 수분 섭취가 가능하면 퇴원을 고려한다. 반복 투여가 필요하거나 지속 stridor·저산소증·피로/의식 저하가 있으면 입원/기도 확보 수준을 높인다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 대부분 자가 제한적 질환으로 예후가 좋음

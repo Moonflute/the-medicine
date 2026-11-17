@@ -25,11 +25,7 @@ CC:
 clinical_priority: tier_2
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- "ASH 철 결핍 진단 지침, 2026 | https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/iron-deficiency-anemia/diagnosis-of-iron-deficiency"
-- "AABB 적혈구 수혈 지침, 2023: 공식 요약 | https://www.aabb.org/docs/default-source/default-document-library/resources/updates-in-red-blood-cell-transfusion-thresholds.pdf"
-- "AABB 급성 심근경색 적혈구 수혈 지침, 2025 | https://www.aabb.org/news-resources/news/article/2025/08/20/expert-panel-recommends-liberal-transfusion-strategy-for-hospitalized-patients-with-ami"
-- "NICE NG239 B12 결핍, 2024 | https://www.nice.org.uk/guidance/ng239/chapter/Recommendations"
+sources: ["ASH 철 결핍 진단 지침, 2026 | https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/iron-deficiency-anemia/diagnosis-of-iron-deficiency", "AABB 적혈구 수혈 지침, 2023: 공식 요약 | https://www.aabb.org/docs/default-source/default-document-library/resources/updates-in-red-blood-cell-transfusion-thresholds.pdf", "AABB 급성 심근경색 적혈구 수혈 지침, 2025 | https://www.aabb.org/news-resources/news/article/2025/08/20/expert-panel-recommends-liberal-transfusion-strategy-for-hospitalized-patients-with-ami", "NICE NG239 B12 결핍, 2024 | https://www.nice.org.uk/guidance/ng239/chapter/Recommendations", "AABB 2023 | https://jamanetwork.com/journals/jama/article-abstract/2810754", "AABB 2025 AMI | https://pubmed.ncbi.nlm.nih.gov/40825204/"]
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
 ---
@@ -56,7 +52,7 @@ guideline_review_status: primary_source_reviewed
 - 용혈성 빈혈, 골수부전 등 전문적 치료가 필요한 경우 혈액내과 전문의에게 의뢰한다.
 - 치료 반응 평가를 위해 망상적혈구 수치와 혈색소 변화를 정기적으로 추적 관찰한다.
 
-- **수혈의 대표 경계:** 혈역학적으로 안정된 입원 성인은 보통 Hb **<7 g/dL**에서 적혈구 수혈을 고려하고, 심장수술 **7.5 g/dL**, 정형외과 수술·기존 심혈관질환 **8 g/dL**를 선택할 수 있다. 활동성 대량출혈·허혈·저산소증에는 이 수치를 기다리지 않는다. **급성 심근경색**은 AABB 2025가 Hb **<10 g/dL**의 보다 적극적 전략을 조건부 제안한 별도 상황이다. [AABB 2023](https://jamanetwork.com/journals/jama/article-abstract/2810754), [AABB 2025 AMI](https://pubmed.ncbi.nlm.nih.gov/40825204/)
+- **수혈의 대표 경계:** 혈역학적으로 안정된 입원 성인은 보통 Hb **<7 g/dL**에서 적혈구 수혈을 고려하고, 심장수술 **7.5 g/dL**, 정형외과 수술·기존 심혈관질환 **8 g/dL**를 선택할 수 있다. 활동성 대량출혈·허혈·저산소증에는 이 수치를 기다리지 않는다. **급성 심근경색**은 AABB 2025가 Hb **<10 g/dL**의 보다 적극적 전략을 조건부 제안한 별도 상황이다.
 
 ## 6. 예후 및 합병증
 - 원인과 속도에 따라 경과가 다르다. 급성 출혈, 중증 용혈, 골수부전 또는 흉통·실신·저혈압 동반 시 응급 평가가 필요하다.
@@ -89,8 +85,3 @@ guideline_review_status: primary_source_reviewed
 - [[철 결핍 빈혈 (Iron Deficiency Anemia)]]
 
 ## 참고 가이드라인
-
-- [ASH 철 결핍 진단 지침, 2026](https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/iron-deficiency-anemia/diagnosis-of-iron-deficiency)
-- [AABB 적혈구 수혈 지침, 2023: 공식 요약](https://www.aabb.org/docs/default-source/default-document-library/resources/updates-in-red-blood-cell-transfusion-thresholds.pdf)
-- [AABB 급성 심근경색 적혈구 수혈 지침, 2025](https://www.aabb.org/news-resources/news/article/2025/08/20/expert-panel-recommends-liberal-transfusion-strategy-for-hospitalized-patients-with-ami)
-- [NICE NG239 B12 결핍, 2024](https://www.nice.org.uk/guidance/ng239/chapter/Recommendations)

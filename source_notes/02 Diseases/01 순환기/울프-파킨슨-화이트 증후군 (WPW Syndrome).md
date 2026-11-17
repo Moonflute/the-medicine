@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ESC SVT 지침 2019 | https://doi.org/10.1093/eurheartj/ehz467"]
 ---
 분과 : [[순환기]]
 
@@ -53,7 +54,6 @@ reviewed_at: "2026-07-30"
 * **장기 관리 및 추적**: 무증상 환자는 정기적인 심전도 추적 관찰을 시행하며, 증상 발생 여부를 면밀히 모니터링한다.
 
 - **무증상 위험도 분류**: 고위험 직업·경쟁 운동선수 또는 비침습 평가가 불확실하면 전기생리검사를 검토한다. **SPERRI ≤250 ms, 부전도로 유효불응기 ≤250 ms, 다발 부전도로 또는 유발성 AVRT**는 고위험 소견으로 절제술을 평가한다. 무증상이라는 이유만으로 모두 단순 추적에 한정하지 않는다.
-- 근거: [ESC SVT 지침 2019](https://doi.org/10.1093/eurheartj/ehz467).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 부전도로를 통한 빠른 전도로 심방세동 발생 시 심실세동 및 급사의 위험이 있으므로 주의가 필요하다.

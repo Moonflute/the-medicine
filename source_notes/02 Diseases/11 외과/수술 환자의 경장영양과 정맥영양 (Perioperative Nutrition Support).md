@@ -17,10 +17,7 @@ reviewed_at: '2026-10-07'
 content_updated_at: "2026-11-17"
 review_status: official_guideline_reviewed
 guideline_year: '2025'
-sources:
-- 'ESPEN: Clinical nutrition in surgery — Update 2025 | https://www.espen.org/files/ESPEN-guideline-on-clinical-nutrition-in-surgery-Update-2025.pdf'
-- 'ESPEN: Practical guideline — Home enteral nutrition, 2022 | https://www.espen.org/files/ESPEN-Guidelines/ESPEN_practical_guideline_Home_enteral_nutrition.pdf'
-- 'NICE CG32: Nutrition support for adults | https://www.nice.org.uk/guidance/cg32/chapter/Recommendations'
+sources: ["ESPEN: Clinical nutrition in surgery — Update 2025 | https://www.espen.org/files/ESPEN-guideline-on-clinical-nutrition-in-surgery-Update-2025.pdf", "ESPEN: Practical guideline — Home enteral nutrition, 2022 | https://www.espen.org/files/ESPEN-Guidelines/ESPEN_practical_guideline_Home_enteral_nutrition.pdf", "NICE CG32: Nutrition support for adults | https://www.nice.org.uk/guidance/cg32/chapter/Recommendations"]
 ---
 분과 : [[외과]]
 
@@ -53,7 +50,7 @@ sources:
 - PN 중 고혈당은 공급량·속도·인슐린·감염 등을 재평가할 단서다. 고위험 재급식 환자는 점진적으로 공급하고 전해질을 감시한다.
 
 - **영양치료 시작**: 수술 전후 경구 섭취가 ≥5일 불가능할 것으로 예상되거나 필요 열량의 50%를 넘지 못하는 섭취가 >7일 지속되면 영양치료를 시작한다. 장을 사용할 수 있으면 경구 보충·EN을 우선한다.
-- **PN 추가**: 경구·EN으로 3–4일 내 필요 열량의 50%를 충족하지 못하면 보충 PN을 병합한다. 장폐색·장허혈 등으로 EN이 금기이면 PN을 조기에 시작하되, 재급식 위험과 과잉 공급을 평가한다. 이는 모든 수술 환자에게 예방적으로 PN을 넣는 기준이 아니다. [ESPEN 수술 영양 지침 2025, 권고 9–11](https://www.espen.org/files/ESPEN-guideline-on-clinical-nutrition-in-surgery-Update-2025.pdf)
+- **PN 추가**: 경구·EN으로 3–4일 내 필요 열량의 50%를 충족하지 못하면 보충 PN을 병합한다. 장폐색·장허혈 등으로 EN이 금기이면 PN을 조기에 시작하되, 재급식 위험과 과잉 공급을 평가한다. 이는 모든 수술 환자에게 예방적으로 PN을 넣는 기준이 아니다.
 
 ## 6. 예후 및 합병증
 - EN은 관 이탈·폐색·구토·흡인, PN은 혈류감염·혈당·전해질 이상 등을 감시한다. 영양 공급량과 내약성을 반복 확인하고 경구 섭취 회복에 맞춰 줄인다.

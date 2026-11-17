@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EBI 성인 방아쇠수지 유리술 | https://ebi.aomrc.org.uk/interventions/trigger-finger-release-in-adults/"]
 ---
 분과 : [[정형외과]]
 
@@ -48,7 +49,6 @@ reviewed_at: "2026-07-30"
 
 - 주사는 통증·기능 제한과 이전 반응을 보아 **1회 후 재평가하고 필요하면 두 번째 주사**를 논의한다. 한 번 실패했다고 반드시 즉시 수술하는 것은 아니다. 적절한 비수술 치료 후에도 일상 기능을 방해하거나 반복 재발하면 A1 활차 유리술을 평가한다.
 - 손가락이 굽은 채 고정되어 수동으로도 펴지지 않으면 조기 손외과 의뢰가 필요하다. 당뇨 환자는 주사 후 일시적 고혈당과 상대적으로 낮은 성공률을 설명한다.
-- 근거: [EBI 성인 방아쇠수지 유리술](https://ebi.aomrc.org.uk/interventions/trigger-finger-release-in-adults/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

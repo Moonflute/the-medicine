@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC 풍진 감시·임신 노출 평가 | https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-14-rubella.html"]
 ---
 분과 : [[산과]]
 
@@ -35,7 +36,7 @@ reviewed_at: "2026-07-30"
 ## 4. 진단 (Diagnosis)
 - 산모의 혈청학적 검사 결과와 임상 증상을 종합하여 진단.
 - 임신 중 의미 있는 노출 시: 감염원 확진 여부, 노출 전 면역 기록과 채혈 시점을 확인하고 보건당국·산과와 상의한다.
-  면역이 확인되지 않거나 급성 감염이 의심되면 비교 혈청 등 추가 평가를 한다. 단독 IgM 양성은 위양성이 가능해 최근 감염의 확진으로 보지 않는다. [CDC 풍진 감시·임신 노출 평가](https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-14-rubella.html)
+  면역이 확인되지 않거나 급성 감염이 의심되면 비교 혈청 등 추가 평가를 한다. 단독 IgM 양성은 위양성이 가능해 최근 감염의 확진으로 보지 않는다.
 
 ## 5. 치료
 

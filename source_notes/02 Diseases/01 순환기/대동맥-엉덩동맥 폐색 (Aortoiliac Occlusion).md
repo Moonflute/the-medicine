@@ -13,6 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AHA/ACC PAD 지침 2024 | https://doi.org/10.1161/CIR.0000000000001251"]
 ---
 분과 : [[순환기]]
 
@@ -52,7 +53,6 @@ reviewed_at: "2026-07-30"
 
 - 증상성 PAD는 단일 항혈소판과 고강도 statin을 기본으로 하며, **출혈 고위험이 아닌 환자 및 재관류 후**에는 aspirin+**rivaroxaban 2.5 mg 하루 2회**를 고려한다. 다른 적응증이 없는 PAD에서 전용량 항응고를 대신 쓰지 않는다.
 - 파행 개선용 **cilostazol은 심부전에서 금기**이다. 기능 제한성 파행은 구조화 운동·약물 최적화 실패 후 재관류를 검토하지만, 휴식통·비치유성 궤양·괴저가 있는 CLTI는 운동 치료를 먼저 수개월 기다리지 않는다.
-- 근거: [AHA/ACC PAD 지침 2024](https://doi.org/10.1161/CIR.0000000000001251).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 하지 허혈, 궤양, 괴사 및 사지 절단으로 진행할 수 있다.

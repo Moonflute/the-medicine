@@ -19,7 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
 guideline_year: "2022"
-sources: ["British Society for Rheumatology guideline on management of paediatric, adolescent and adult patients with idiopathic inflammatory myopathy. | https://pubmed.ncbi.nlm.nih.gov/35355064/"]
+sources: ["British Society for Rheumatology guideline on management of paediatric, adolescent and adult patients with idiopathic inflammatory myopathy. | https://pubmed.ncbi.nlm.nih.gov/35355064/", "BSR guideline for idiopathic inflammatory myopathy 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9398208/"]
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
@@ -75,5 +75,4 @@ Last updated :
 2026-07-15 — BSR 2022 IIM 지침 기반 보강
 2026-07-15 — 공식 지침 기반 Tier 2 보강
 
-출처 : [BSR guideline for idiopathic inflammatory myopathy 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9398208/)
 - 삼성서울병원 메뉴얼

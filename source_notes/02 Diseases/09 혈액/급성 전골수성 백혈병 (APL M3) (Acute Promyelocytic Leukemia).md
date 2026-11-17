@@ -21,6 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ELN APL 권고 | https://doi.org/10.1182/blood-2019-01-894980", "ELN APL 권고 | https://pmc.ncbi.nlm.nih.gov/articles/6509567/"]
 ---
 분과 : [[혈액]]
 
@@ -56,7 +57,7 @@ reviewed_at: "2026-07-30"
 - 치료 중 WBC, 혈소판, PT/aPTT, 피브리노겐 등 혈액·응고 지표를 정기적으로 모니터링하여 치료 반응과 합병증을 평가한다.
 - 고위험군이거나 합병증이 발생한 경우 혈액종양 전문센터로 전원하고, 치료 종료 후 장기 추적 검사를 통해 재발을 감시
 
-- **치료 강도:** 진단 시 WBC **≤10,000/μL**의 비고위험 APL은 ATRA+ATO가 대표 표준이다. **>10,000/μL**이면 ATRA/ATO에 세포감량을 추가하는 요법 또는 ATRA+항암요법 등 고위험 프로토콜을 선택한다. 치료 후 분화에 따른 WBC 상승을 진단 시 고위험 분류와 혼동하지 않는다. ATO 중 QTc >500 ms이면 보류·전해질 교정·병용약 검토 후 회복 여부로 재개한다. [ELN APL 권고](https://doi.org/10.1182/blood-2019-01-894980)
+- **치료 강도:** 진단 시 WBC **≤10,000/μL**의 비고위험 APL은 ATRA+ATO가 대표 표준이다. **>10,000/μL**이면 ATRA/ATO에 세포감량을 추가하는 요법 또는 ATRA+항암요법 등 고위험 프로토콜을 선택한다. 치료 후 분화에 따른 WBC 상승을 진단 시 고위험 분류와 혼동하지 않는다. ATO 중 QTc >500 ms이면 보류·전해질 교정·병용약 검토 후 회복 여부로 재개한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 분자반응 추적은 재발 감시에 중요하나 첫 치료주기 PCR만으로 실패를 단정하지 않는다.
@@ -69,5 +70,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 보완 출처: 삼성서울병원 메뉴얼
-
-치료 시작 원칙 보완: [ELN APL 권고](https://pmc.ncbi.nlm.nih.gov/articles/6509567/).

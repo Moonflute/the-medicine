@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ASGE | https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis", "ESGE 총담관 결석 지침 | https://www.esge.com/endoscopic-management-of-common-bile-duct-stones-esge-guideline", "Tokyo Guidelines 2018 담관염 진단 | https://onlinelibrary.wiley.com/doi/10.1002/jhbp.512"]
 ---
 분과 : [[소화기]]
 
@@ -72,7 +73,7 @@ reviewed_at: "2026-10-08"
 - 담관 청결 뒤 동반 담낭 결석의 담낭절제 시점은 담관염·췌장염의 중증도, 수술 위험과 자원에 따라 계획한다.
 - 시술 후 증상, 간담도 혈액검사와 임상 상황에 맞는 영상으로 담도 청결·재폐쇄·합병증을 평가한다. 정기 초음파의 간격을 모든 환자에게 일률 적용하지 않고, 동반 담낭 결석·협착·재발 위험과 치료 계획에 따라 추적한다.
 
-- **진단 목적 ERCP를 줄이는 기준**: 영상상 총담관 결석, 상행 담관염, 또는 총빌리루빈 >4 mg/dL와 담관 확장(담낭이 있는 성인에서 >6 mm)이 함께 있으면 직접 ERCP를 고려한다. 간수치 이상·>55세·담관 확장만 있는 중간위험군은 EUS/MRCP 또는 수술 중 담도검사로 먼저 확인한다. 빌리루빈 >4 단독을 고위험으로 해석하지 않는다. [ASGE](https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis)
+- **진단 목적 ERCP를 줄이는 기준**: 영상상 총담관 결석, 상행 담관염, 또는 총빌리루빈 >4 mg/dL와 담관 확장(담낭이 있는 성인에서 >6 mm)이 함께 있으면 직접 ERCP를 고려한다. 간수치 이상·>55세·담관 확장만 있는 중간위험군은 EUS/MRCP 또는 수술 중 담도검사로 먼저 확인한다. 빌리루빈 >4 단독을 고위험으로 해석하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -87,6 +88,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ESGE 총담관 결석 지침](https://www.esge.com/endoscopic-management-of-common-bile-duct-stones-esge-guideline)
-- [Tokyo Guidelines 2018 담관염 진단](https://onlinelibrary.wiley.com/doi/10.1002/jhbp.512)
-- [ASGE choledocholithiasis guideline](https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis)

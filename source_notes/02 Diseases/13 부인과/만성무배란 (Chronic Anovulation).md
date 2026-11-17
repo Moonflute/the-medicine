@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["PCOS 지침 | https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/recommendations_from_the_2023_int_evidence-based_guideline_on_pcos.pdf", "Endocrine Society FHA | https://academic.oup.com/jcem/article/102/5/1413/3077281"]
 ---
 분과 : [[부인과]]
 
@@ -44,7 +45,7 @@ reviewed_at: "2026-07-30"
 - **배란 유도**: 임신을 원하는 경우 클로미펜 또는 레트로졸을 사용하여 배란을 유도하며, 반응이 없을 시 전문의 상담 및 상급 병원 의뢰 고려.
 - **추적 관찰**: 대사 증후군(당뇨, 고혈압, 이상지질혈증) 동반 여부를 정기적으로 확인하고, 장기적인 호르몬 치료 시 부작용 및 합병증 모니터링.
 
-- **원인에 따른 치료 차이**: PCOS의 에스트로겐 노출이 지속되는 무배란은 주기적 progestin·복합피임제 등으로 내막을 보호한다. 저체중·과도한 운동에 의한 저에스트로겐성 시상하부 무월경은 에너지 부족 교정이 우선이며, 출혈 유도만으로 회복을 판단하지 않는다. 임신을 원하고 다른 난임 요인이 없는 PCOS는 letrozole을 1차 배란유도제로 고려한다. [PCOS 지침](https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/recommendations_from_the_2023_int_evidence-based_guideline_on_pcos.pdf) · [Endocrine Society FHA](https://academic.oup.com/jcem/article/102/5/1413/3077281)
+- **원인에 따른 치료 차이**: PCOS의 에스트로겐 노출이 지속되는 무배란은 주기적 progestin·복합피임제 등으로 내막을 보호한다. 저체중·과도한 운동에 의한 저에스트로겐성 시상하부 무월경은 에너지 부족 교정이 우선이며, 출혈 유도만으로 회복을 판단하지 않는다. 임신을 원하고 다른 난임 요인이 없는 PCOS는 letrozole을 1차 배란유도제로 고려한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 자궁내막암 위험 증가(지속적인 에스트로겐 노출), 불임, 대사 증후군(당뇨, 고혈압).

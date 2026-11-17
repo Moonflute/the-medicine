@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html", "AAO-HNSF 2019 | https://effectivehealthcare.ahrq.gov/sites/default/files/pdf/aao-guidelines-tonsillectomy-2019.pdf"]
 ---
 분과 : [[이비인후과]]
 
@@ -48,8 +49,8 @@ reviewed_at: "2026-07-30"
 - 치료 시작 후 3~5일 내 증상 호전 여부를 확인하고, 미호전 시 재평가 및 추가 검사를 시행
 - 손 씻기·개인 위생 등 감염 예방 교육을 제공하여 재발 위험을 감소시킴
 
-- **항생제 확정**: GAS 신속검사/배양 양성이면 penicillin 또는 amoxicillin을 통상 **10일** 사용한다. 바이러스 소견이 뚜렷하면 검사·항생제를 일률 시행하지 않는다. 소아의 음성 신속검사는 배양 확인을 고려한다. [CDC](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html)
-- **소아 반복 감염의 수술 기준**: 기록된 감염이 최근 1년 ≥7회, 2년간 매년 ≥5회, 또는 3년간 매년 ≥3회이고 각 사건에 발열 >38.3°C·경부 림프절병·편도 삼출·GAS 양성 중 하나가 있으면 편도절제를 선택지로 논의한다. 미달 시 보통 관찰하되 PFAPA·항생제 불내약·반복 농양 등 수정 인자를 평가한다. [AAO-HNSF 2019](https://effectivehealthcare.ahrq.gov/sites/default/files/pdf/aao-guidelines-tonsillectomy-2019.pdf)
+- **항생제 확정**: GAS 신속검사/배양 양성이면 penicillin 또는 amoxicillin을 통상 **10일** 사용한다. 바이러스 소견이 뚜렷하면 검사·항생제를 일률 시행하지 않는다. 소아의 음성 신속검사는 배양 확인을 고려한다.
+- **소아 반복 감염의 수술 기준**: 기록된 감염이 최근 1년 ≥7회, 2년간 매년 ≥5회, 또는 3년간 매년 ≥3회이고 각 사건에 발열 >38.3°C·경부 림프절병·편도 삼출·GAS 양성 중 하나가 있으면 편도절제를 선택지로 논의한다. 미달 시 보통 관찰하되 PFAPA·항생제 불내약·반복 농양 등 수정 인자를 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 자연 치유되나, 세균성 감염 시 편도주위농양, 급성 류마티스열, 사구체신염 등의 합병증 주의.

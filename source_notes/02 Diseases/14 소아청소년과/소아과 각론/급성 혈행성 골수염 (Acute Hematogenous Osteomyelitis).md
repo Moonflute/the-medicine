@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["PIDS/IDSA 2021 | https://academic.oup.com/jpids/article/10/8/801/6338658"]
 ---
 분과 : [[소아청소년과]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-07-30"
 * **환부 고정 및 안정**: 통증 완화와 병적 골절 예방을 위해 해당 부위의 부목 고정 및 절대 안정을 유지함.
 * **추적 관찰 및 전원**: 염증 수치(CRP, ESR)의 정상화 여부를 주기적으로 확인하며, 합병증 발생 시 정형외과 전문의에게 의뢰하여 장기적인 추적 관찰을 시행함.
 
-* **약제·기간 변경 기준**: MSSA 위험이 주이고 MRSA 유병률이 낮으면 cefazolin/항포도알균 penicillin을, MRSA 위험·중증 감염이면 지역 감수성에 따라 vancomycin 또는 clindamycin 등을 선택한다. 감수성 결과에 맞춰 좁히고 발열·통증·기능과 CRP가 호전되며 경구 복용이 가능하면 정주에서 경구로 전환한다. 합병증 없는 S. aureus 감염은 보통 **총 3–4주**, 농양·혈전·성장판 침범·반응 지연은 더 길게 치료한다. [PIDS/IDSA 2021](https://academic.oup.com/jpids/article/10/8/801/6338658)
+* **약제·기간 변경 기준**: MSSA 위험이 주이고 MRSA 유병률이 낮으면 cefazolin/항포도알균 penicillin을, MRSA 위험·중증 감염이면 지역 감수성에 따라 vancomycin 또는 clindamycin 등을 선택한다. 감수성 결과에 맞춰 좁히고 발열·통증·기능과 CRP가 호전되며 경구 복용이 가능하면 정주에서 경구로 전환한다. 합병증 없는 S. aureus 감염은 보통 **총 3–4주**, 농양·혈전·성장판 침범·반응 지연은 더 길게 치료한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 치료 시 예후 좋음

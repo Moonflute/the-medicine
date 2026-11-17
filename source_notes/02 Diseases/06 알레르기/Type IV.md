@@ -16,9 +16,7 @@ preprocessing_required: x
 clinical_priority: tier_2
 content_updated_at: '2026-10-08'
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "S3 SJS/TEN 진단·치료 가이드라인, 2024 | https://onlinelibrary.wiley.com/doi/10.1111/ddg.15515"
-  - "성인 DRESS 관리 국제 Delphi 합의, 2024 | https://pubmed.ncbi.nlm.nih.gov/37966824/"
+sources: ["S3 SJS/TEN 진단·치료 가이드라인, 2024 | https://onlinelibrary.wiley.com/doi/10.1111/ddg.15515", "성인 DRESS 관리 국제 Delphi 합의, 2024 | https://pubmed.ncbi.nlm.nih.gov/37966824/"]
 ---
 # Type IV
 
@@ -46,6 +44,3 @@ DRESS는 간·신장·혈액과 기타 장기 손상에 따른 중증도 기반 
 - [[접촉피부염 (Contact Dermatitis)]]
 
 ## 참고 자료
-
-- [S3 SJS/TEN 진단·치료 가이드라인, 2024](https://onlinelibrary.wiley.com/doi/10.1111/ddg.15515)
-- [성인 DRESS 관리 국제 Delphi 합의, 2024](https://pubmed.ncbi.nlm.nih.gov/37966824/)

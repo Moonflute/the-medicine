@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["국제 PLC 합의문 2025 | https://pubmed.ncbi.nlm.nih.gov/40414466/"]
 ---
 분과 : [[정형외과]]
 
@@ -49,7 +50,6 @@ reviewed_at: "2026-07-30"
 
 - 고립성 1·2도 손상과 달리 **완전 3도 후외측 복합체(PLC) 파열**, 다발성 인대 손상, 재활 후 남는 내반·회전 불안정성은 조기 수술 평가 대상이다. 2025 PLC 합의문은 완전 3도 손상에 재건을 권고하며 단독 봉합만으로 끝내는 것을 권하지 않는다.
 - 무릎 탈구 기전·비골신경 마비·관류 이상이 있으면 인대 MRI 외에도 신경·혈관 손상을 긴급 평가한다.
-- 근거: [국제 PLC 합의문 2025](https://pubmed.ncbi.nlm.nih.gov/40414466/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 이루어지지 않을 경우 만성적인 내반 불안정성 및 퇴행성 관절염 발생 가능.

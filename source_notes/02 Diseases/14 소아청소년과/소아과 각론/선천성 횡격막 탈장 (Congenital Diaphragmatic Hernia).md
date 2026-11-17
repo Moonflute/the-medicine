@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["캐나다 선천성 횡격막 탈장 관리 지침 개정 | https://fn.bmj.com/content/109/3/239"]
 ---
 분과 : [[소아청소년과]]
 
@@ -54,6 +55,5 @@ reviewed_at: "2026-07-30"
 출처 : StatPearls (Congenital Diaphragmatic Hernia, Anesthetic Considerations)
 출처 : 삼성서울병원 외과 메뉴얼
 
-출생 직후 처치: [캐나다 선천성 횡격막 탈장 관리 지침 개정](https://fn.bmj.com/content/109/3/239)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

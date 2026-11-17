@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EAA Klinefelter 지침 | https://doi.org/10.1111/andr.12909"]
 ---
 분과 : [[소아청소년과]]
 
@@ -45,7 +46,6 @@ reviewed_at: "2026-07-30"
 * **장기 추적 관찰**: 골다공증, 대사 증후군, 자가면역 질환 및 유방암 등 합병증 발생 여부를 정기적으로 모니터링
 * **생식 상담**: 불임 가능성에 대해 사춘기 이후 비뇨의학과 전문의와 상담 및 생식 보조 기술에 대한 정보 제공
 
-근거: [EAA Klinefelter 지침](https://doi.org/10.1111/andr.12909).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 다학제적 관리를 통해 삶의 질 향상 가능

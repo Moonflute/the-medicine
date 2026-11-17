@@ -14,10 +14,7 @@ CC:
 - 복통
 preprocessing_required: x
 last_studied: '2026-06-06'
-sources:
-- "ACOG Practice Bulletin 222 2020·2026 재확인 | https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia"
-- "ACOG 2025 검토 임신 고혈압 임상 설명 | https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy"
-- "NICE NG133 2023 개정 임신 고혈압 | https://www.nice.org.uk/guidance/ng133/chapter/recommendations"
+sources: ["ACOG Practice Bulletin 222 2020·2026 재확인 | https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia", "ACOG 2025 검토 임신 고혈압 임상 설명 | https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy", "NICE NG133 2023 개정 임신 고혈압 | https://www.nice.org.uk/guidance/ng133/chapter/recommendations", "ACOG 응급 고혈압 권고 | https://pubmed.ncbi.nlm.nih.gov/30575639/"]
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-17"
 guideline_year: '2023'
@@ -57,7 +54,7 @@ guideline_review_status: primary_source_reviewed
 - 중증 소견이 없고 산모·태아 상태가 안정적이면 혈압·증상·혈액/소변검사와 태아 평가를 계획적으로 추적한다. 외래 관리에는 신뢰할 수 있는 혈압 측정, 즉시 내원할 증상 교육, 정해진 산과 추적이 전제된다.
 - 임신 37주 이후 임신성고혈압은 분만을 권고하는 것이 일반적이며, 그 이전에는 중증도·자간전증 이행·태아 성장 및 검사 결과에 따라 모체-태아의학팀과 개별화한다. 중증 혈압, 장기기능 이상, 태아 상태 악화는 임신 주수와 무관하게 분만 필요성을 긴급 재평가한다.
 
-- **중증 혈압의 실행 기준**: SBP ≥160 또는 DBP ≥110 mmHg가 약 15분 지속되면 4시간 재측정을 기다리지 않고 급성 중증 고혈압으로 치료하며, 확인 후 30–60분 이내 IV labetalol/hydralazine 또는 경구 속방 nifedipine을 시작한다. 단백뇨가 없더라도 중증 범위 혈압이면 중증 전자간증에 준해 관리한다. [ACOG 응급 고혈압 권고](https://pubmed.ncbi.nlm.nih.gov/30575639/)
+- **중증 혈압의 실행 기준**: SBP ≥160 또는 DBP ≥110 mmHg가 약 15분 지속되면 4시간 재측정을 기다리지 않고 급성 중증 고혈압으로 치료하며, 확인 후 30–60분 이내 IV labetalol/hydralazine 또는 경구 속방 nifedipine을 시작한다. 단백뇨가 없더라도 중증 범위 혈압이면 중증 전자간증에 준해 관리한다.
 
 ## 6. 예후 및 합병증
 - 자간전증, 경련, 태반조기박리, 조산·태아성장제한 위험이 증가할 수 있다. 산후에도 혈압 악화 또는 산후 자간전증이 가능하므로 두통·시야장애·호흡곤란 교육과 조기 혈압 확인이 필요하다.
@@ -84,7 +81,3 @@ MgSO₄는 경련 예방·치료제이며 혈압 강하제의 대체가 아니�
 - [[HELLP 증후군 (HELLP Syndrome)]]
 
 ## 참고 가이드라인
-
-- [ACOG Practice Bulletin 222 2020·2026 재확인](https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2020/06/gestational-hypertension-and-preeclampsia)
-- [ACOG 2025 검토 임신 고혈압 임상 설명](https://www.acog.org/womens-health/faqs/preeclampsia-and-high-blood-pressure-during-pregnancy)
-- [NICE NG133 2023 개정 임신 고혈압](https://www.nice.org.uk/guidance/ng133/chapter/recommendations)

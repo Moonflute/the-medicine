@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["2025 한국 심폐소생술 가이드라인 | https://kdca.go.kr/bbs/kdca/49/305205/download.do"]
 ---
 분과 : [[소아청소년과]]
 
@@ -53,6 +54,5 @@ reviewed_at: "2026-07-30"
 
 출처 : Merck Manual Professional
 
-응급 처치 근거: [2025 한국 심폐소생술 가이드라인](https://kdca.go.kr/bbs/kdca/49/305205/download.do)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

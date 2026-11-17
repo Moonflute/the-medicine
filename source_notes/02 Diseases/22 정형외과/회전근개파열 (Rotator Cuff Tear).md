@@ -14,7 +14,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2024"
-sources: ["Guidelines for the Diagnosis and Treatment of Rotator Cuff Tear with Integrated Traditional Chinese and Western Medicine. | https://pubmed.ncbi.nlm.nih.gov/38279748/"]
+sources: ["Guidelines for the Diagnosis and Treatment of Rotator Cuff Tear with Integrated Traditional Chinese and Western Medicine. | https://pubmed.ncbi.nlm.nih.gov/38279748/", "AAOS 회전근개 손상 2025 | https://www.aaos.org/globalassets/quality-and-practice-resources/rotator-cuff/rotator-cuff-2025/rotator-cuff-cpg.pdf"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -54,7 +54,6 @@ content_updated_at: "2026-11-18"
 - **급성 외상 후 뚜렷한 근력 저하, 높은 활동 요구, 적절한 재활에도 지속되는 통증·기능 저하**는 조기 봉합 수술 평가 기준이다. 3개월 경과 자체가 수술 적응은 아니다.
 - 고도 부분 파열도 비수술 치료 실패 시 봉합을 고려한다. 광범위한 지방 변성·퇴축으로 봉합 불가능한 파열은 무리한 봉합 대신 기능·관절염 정도에 따라 다른 재건술 또는 역행성 인공관절 등을 전문 평가한다.
 - 주사는 필요 시 단기 통증 조절로 제한하고 반복 주사의 건 손상·수술 영향에 유의한다. 수술 후 재활은 봉합 크기·조직 상태에 맞춰 보호 단계에서 점진적 부하로 진행한다.
-- 근거: [AAOS 회전근개 손상 2025](https://www.aaos.org/globalassets/quality-and-practice-resources/rotator-cuff/rotator-cuff-2025/rotator-cuff-cpg.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 보존적 치료로 호전되나, 파열 크기가 크거나 근육 위축이 동반된 경우 수술적 치료가 필요함.

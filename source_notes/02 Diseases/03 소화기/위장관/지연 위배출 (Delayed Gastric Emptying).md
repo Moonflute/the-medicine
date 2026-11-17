@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AGA 위마비 지침 2025 | https://gastro.org/clinical-guidance/clinical-guidance-on-the-management-of-gastroparesis/"]
 ---
 분과 : [[소화기]]
 
@@ -52,7 +53,6 @@ reviewed_at: "2026-07-30"
 
 - **약물 선택·실패 기준**: 기계적 폐쇄를 배제하고 적절한 **4시간 위배출검사**로 지연을 확인한 뒤 metoclopramide 또는 단기간 erythromycin을 검토한다. Metoclopramide는 불수의운동·지연성 운동장애, erythromycin은 QT·상호작용 및 내성 발생을 감시한다.
 - 식이·운동촉진제·항구토제에도 지속되는 객관적 위마비에서만 G-POEM·위 전기자극 등 중재를 선별한다. AGA 2025는 난치성이라는 이유만으로 보툴리눔 독소·G-POEM·전기자극을 일괄 시행하지 않도록 한다. 경구 영양이 불충분하면 공장 영양 등 지원을 함께 평가한다.
-- 근거: [AGA 위마비 지침 2025](https://gastro.org/clinical-guidance/clinical-guidance-on-the-management-of-gastroparesis/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성적인 경과를 보일 수 있으며, 영양 결핍 및 혈당 조절의 어려움이 동반될 수 있음.

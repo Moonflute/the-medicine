@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CPS 소아 항진균제 권고 | https://cps.ca/en/documents/position/antifungal-agents-common-infections"]
 ---
 분과 : [[소아청소년과]]
 
@@ -47,7 +48,6 @@ reviewed_at: "2026-07-30"
 
 - **국소·전신 치료의 선택**: 건강한 영아의 국한된 병변은 nystatin 현탁액을 수유 후 구강 병변에 접촉시키는 국소 치료가 우선이다. 충분한 국소 치료에도 지속되거나 중등도–중증·면역저하이면 fluconazole 등 전신 치료를 검토한다. 단순 아구창에 fluconazole을 일률적으로 먼저 쓰지 않으며, 반복·난치성 감염이면 면역결핍과 진균 내성을 평가한다.
 
-근거: [CPS 소아 항진균제 권고](https://cps.ca/en/documents/position/antifungal-agents-common-infections).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 적절한 치료 시 대부분 합병증 없이 회복

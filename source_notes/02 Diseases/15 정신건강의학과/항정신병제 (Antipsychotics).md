@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["APA 조현병 지침 | https://doi.org/10.1176/appi.ajp.2020.177901", "FDA clozapine 2026 처방정보 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/019758Orig1s107lbl.pdf", "FDA REMS 변경 | https://www.fda.gov/drugs/drug-safety-communications/fda-removes-risk-evaluation-and-mitigation-strategy-rems-program-antipsychotic-drug-clozapine"]
 ---
 분과 : [[정신건강의학과]]
 
@@ -47,7 +48,6 @@ reviewed_at: "2026-07-30"
 
 - **Clozapine 혈구 기준**: 미국 현행 처방정보에서 시작 전 ANC **≥1,500/μL**, Duffy-null 관련 낮은 호중구 수가 확인된 경우 **≥1,000/μL**를 요구한다. 일반군에서 ANC **500–999/μL**이면 보류·혈액내과 평가, **<500/μL**이면 중단·긴급 평가 후 재투여 위험을 따진다. Duffy-null군에는 별도 알고리즘을 적용한다. 미국의 2025 REMS 폐지는 **ANC 감시 폐지**가 아니다. 심근염·심한 변비/장폐색·경련도 별도 중단·평가 사유다.
 
-근거: [APA 조현병 지침](https://doi.org/10.1176/appi.ajp.2020.177901), [FDA clozapine 2026 처방정보](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/019758Orig1s107lbl.pdf), [FDA REMS 변경](https://www.fda.gov/drugs/drug-safety-communications/fda-removes-risk-evaluation-and-mitigation-strategy-rems-program-antipsychotic-drug-clozapine).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 대사 증후군, 추체외로 부작용, 지연성 운동장애, 신경이완제 악성 증후군(NMS), QT 연장.

@@ -16,7 +16,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2024"
-sources: ["KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis | https://kdigo.org/guidelines/gd/lupus-nephritis/"]
+sources: ["KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis | https://kdigo.org/guidelines/gd/lupus-nephritis/", "KDIGO 2024 | https://kdigo.org/wp-content/uploads/2024/01/KDIGO-2024-Lupus-Nephritis-Guideline.pdf"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -72,7 +72,7 @@ content_updated_at: "2026-11-17"
 - class I·II는 대개 신염 자체의 면역억제가 필요하지 않고 HCQ, 혈압·단백뇨 조절을 기본으로 한다. 증식성 LN의 치료 반응은 단백뇨·요침사 소실 및 안정적 신기능으로 판단한다.
 
 - **병합 선택·반응 판정**: class III/IV(±V)에서 CNI 병합은 신기능이 비교적 보존된 경우(eGFR >45 mL/min/1.73m²)를 중심으로 고려하며, 낮은 eGFR에서는 신독성 위험을 따로 판단한다. 완전 반응은 통상 6–12개월 이내 UPCR <0.5 g/g와 안정/호전된 신기능을 목표로 하되 더 오래 걸릴 수 있다. 부분 반응·무반응은 순응도·약물 노출·만성 손상·TMA를 확인하고 필요 시 재생검 후 변경한다.
-- 증식성 LN의 초기+유지 면역억제 기간은 대체로 ≥36개월이며, 단백뇨가 한 번 정상화됐다고 바로 중단하지 않는다. MMF는 임신 계획 시 azathioprine 등 적합한 약제로 미리 전환한다. [KDIGO 2024](https://kdigo.org/wp-content/uploads/2024/01/KDIGO-2024-Lupus-Nephritis-Guideline.pdf)
+- 증식성 LN의 초기+유지 면역억제 기간은 대체로 ≥36개월이며, 단백뇨가 한 번 정상화됐다고 바로 중단하지 않는다. MMF는 임신 계획 시 azathioprine 등 적합한 약제로 미리 전환한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 면역억제 중에는 감염 예방접종과 선별, 골·심혈관 위험, 생식 계획, 약물 상호작용을 관리합니다. 임신 계획은 질환 안정화와 약제 조정을 전제로 류마티스내과·신장내과·산과가 함께 상담합니다.
@@ -91,4 +91,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [KDIGO 2024 Lupus Nephritis guideline](https://kdigo.org/guidelines/gd/lupus-nephritis/)를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. KDIGO 2024 Lupus Nephritis guideline를 대조. 2026-09-14 기존 목차 내 보완.

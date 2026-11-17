@@ -15,8 +15,7 @@ review_status: source_reviewed_no_change
 reviewed_at: '2026-07-30'
 content_updated_at: "2026-11-18"
 guideline_year: '2024'
-sources:
-- 'AHA/AAP 2024 Focused Update: Resuscitation Following Drowning | https://professional.heart.org/en/science-news/2024-aha-and-aap-focused-update-on-special-circumstances-resuscitation-following-drowning'
+sources: ["AHA/AAP 2024 Focused Update: Resuscitation Following Drowning | https://professional.heart.org/en/science-news/2024-aha-and-aap-focused-update-on-special-circumstances-resuscitation-following-drowning", "RCH 소아 지침 | https://www.rch.org.au/clinicalguide/guideline_index/Drowning/"]
 disease_family: drowning
 population: general
 ---
@@ -48,7 +47,7 @@ population: general
 - 예방적 항균제와 steroid는 일률적으로 사용하지 않는다. 오염이 심한 물, 감염 임상증거가 있을 때 배양과 항균치료를 고려한다.
 - 저체온을 교정하고 심정지·중증 저체온은 관련 소생 및 체외재가온 경로를 적용한다.
 
-- 지속 저산소증·호흡곤란·비정상 폐진찰·의식 변화·순환 불안정이면 입원한다. 무증상 소아의 예로 **발생 후 8시간 관찰, 정상 호흡 진찰, 실내공기 SpO2 ≥95%**와 안전한 보호 환경을 모두 확인하면 퇴원을 고려할 수 있다. 일시 호전이나 정상 초기 흉부사진만으로 조기 퇴원을 결정하지 않는다. [RCH 소아 지침](https://www.rch.org.au/clinicalguide/guideline_index/Drowning/)
+- 지속 저산소증·호흡곤란·비정상 폐진찰·의식 변화·순환 불안정이면 입원한다. 무증상 소아의 예로 **발생 후 8시간 관찰, 정상 호흡 진찰, 실내공기 SpO2 ≥95%**와 안전한 보호 환경을 모두 확인하면 퇴원을 고려할 수 있다. 일시 호전이나 정상 초기 흉부사진만으로 조기 퇴원을 결정하지 않는다.
 
 ## 6. 예후 및 합병증
 - 예후는 침수시간, 구조·환기 지연, 초기 신경학적 상태와 저산소증 지속에 좌우된다. 폐손상, ARDS, aspiration infection, 저산소성 뇌손상과 다장기부전이 발생할 수 있다.

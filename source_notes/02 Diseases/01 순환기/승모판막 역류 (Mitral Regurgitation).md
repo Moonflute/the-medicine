@@ -16,7 +16,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["The 2026 American Association for Thoracic Surgery Expert Consensus Document: Management of atrial functional mitral regurgitation. | https://pubmed.ncbi.nlm.nih.gov/42092503/"]
+sources: ["The 2026 American Association for Thoracic Surgery Expert Consensus Document: Management of atrial functional mitral regurgitation. | https://pubmed.ncbi.nlm.nih.gov/42092503/", "ESC 2025 | https://doi.org/10.1093/eurheartj/ehaf194", "2025 ESC/EACTS 판막질환 진료지침 | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/", "2025 ESC/EACTS 세부 권고 | https://academic.oup.com/ejcts/article/67/8/ezaf276/8242828"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -69,7 +69,7 @@ content_updated_at: "2026-11-17"
   - 이차성/AFMR: 기저 질환 치료가 우선이며, 필요 시 수술적 치료 또는 경피적 판막 끝-대-끝 수리술(TEER) 고려.
 - **수술 적응증(일차성 MR)**: 유증상 중증 MR, 또는 무증상이라도 LVEF ≤ 60% 또는 LVESD ≥ 40 mm인 경우 수술 고려.
 
-- **수술·TEER의 추가 조건**: 일차성 중증 MR에서는 LVESD index ≥20 mm/m²도 좌심실 변화 판단에 반영한다. 수술 위험이 높고 해부학이 적합한 유증상 환자는 TEER를 검토한다. 심실성 이차 MR은 GDMT/CRT 후에도 증상이 지속될 때 TEER를 평가하며, LVEF·LV 크기·폐동맥압·우심실 기능·재혈관화 필요성과 판막 해부학을 함께 확인한다. 일차성 MR의 EF 60% 기준을 이차성 MR에 그대로 적용하지 않는다. [ESC 2025](https://doi.org/10.1093/eurheartj/ehaf194)
+- **수술·TEER의 추가 조건**: 일차성 중증 MR에서는 LVESD index ≥20 mm/m²도 좌심실 변화 판단에 반영한다. 수술 위험이 높고 해부학이 적합한 유증상 환자는 TEER를 검토한다. 심실성 이차 MR은 GDMT/CRT 후에도 증상이 지속될 때 TEER를 평가하며, LVEF·LV 크기·폐동맥압·우심실 기능·재혈관화 필요성과 판막 해부학을 함께 확인한다. 일차성 MR의 EF 60% 기준을 이차성 MR에 그대로 적용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 진행 시 심부전, 심방세동, 감염성 심내막염 발생 가능
@@ -80,4 +80,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [2025 ESC/EACTS 판막질환 진료지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/), [2025 ESC/EACTS 세부 권고](https://academic.oup.com/ejcts/article/67/8/ezaf276/8242828); 승모판 협착·역류의 중재 원칙과 급성 중증 MR 처치를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. 2025 ESC/EACTS 판막질환 진료지침, 2025 ESC/EACTS 세부 권고; 승모판 협착·역류의 중재 원칙과 급성 중증 MR 처치를 대조. 2026-09-14 기존 목차 내 보완.

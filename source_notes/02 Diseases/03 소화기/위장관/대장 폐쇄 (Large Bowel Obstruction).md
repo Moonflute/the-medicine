@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["Merck Manual 장폐쇄 | https://www.merckmanuals.com/professional/gastrointestinal-disorders/acute-abdomen-and-surgical-gastroenterology/intestinal-obstruction", "Merck Manual 마비성 장폐쇄 | https://www.merckmanuals.com/professional/gastrointestinal-disorders/acute-abdomen-and-surgical-gastroenterology/ileus", "MASCC 악성 장폐쇄 권고 2022 | https://link.springer.com/article/10.1007/s00520-022-06889-8", "AGA 악성 소화관 폐쇄 전문가 권고 2021 | https://pubmed.ncbi.nlm.nih.gov/33813072/", "WSES 구불창자 꼬임 지침 2023 | https://link.springer.com/article/10.1186/s13017-023-00502-x", "ASGE 대장 염전·가성폐쇄 내시경 지침 | https://www.giejournal.org/article/S0016-5107%2819%2932220-5/fulltext", "ESGE 악성 대장폐쇄 스텐트 지침 2020 | https://www.thieme-connect.com/products/ejournals/html/10.1055/a-1140-3017", "ASGE 급성 대장 가성폐쇄·염전 지침 2020 | https://www.asge.org/home/resources/publications/guidelines/american-society-for-gastrointestinal-endoscopy-guideline-on-the-role-of-endoscopy-in-the-management-of-acute-colonic-pseudo-obstruction-and-colonic-volvulus"]
 ---
 분과 : [[소화기]]
 
@@ -76,11 +77,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [Merck Manual 장폐쇄](https://www.merckmanuals.com/professional/gastrointestinal-disorders/acute-abdomen-and-surgical-gastroenterology/intestinal-obstruction)
-- [Merck Manual 마비성 장폐쇄](https://www.merckmanuals.com/professional/gastrointestinal-disorders/acute-abdomen-and-surgical-gastroenterology/ileus)
-- [MASCC 악성 장폐쇄 권고 2022](https://link.springer.com/article/10.1007/s00520-022-06889-8)
-- [AGA 악성 소화관 폐쇄 전문가 권고 2021](https://pubmed.ncbi.nlm.nih.gov/33813072/)
-- [WSES 구불창자 꼬임 지침 2023](https://link.springer.com/article/10.1186/s13017-023-00502-x)
-- [ASGE 대장 염전·가성폐쇄 내시경 지침](https://www.giejournal.org/article/S0016-5107%2819%2932220-5/fulltext)
-- [ESGE 악성 대장폐쇄 스텐트 지침 2020](https://www.thieme-connect.com/products/ejournals/html/10.1055/a-1140-3017)
-- [ASGE 급성 대장 가성폐쇄·염전 지침 2020](https://www.asge.org/home/resources/publications/guidelines/american-society-for-gastrointestinal-endoscopy-guideline-on-the-role-of-endoscopy-in-the-management-of-acute-colonic-pseudo-obstruction-and-colonic-volvulus)

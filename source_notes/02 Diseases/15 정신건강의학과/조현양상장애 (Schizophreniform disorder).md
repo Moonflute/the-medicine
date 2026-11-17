@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE 첫 정신병 삽화 관리 | https://www.nice.org.uk/guidance/cg178/chapter/recommendations"]
 disease_family: psychiatry_split
 parent_disease: 조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)
 relation_to_parent: subtype
@@ -46,7 +45,6 @@ relation_to_parent: subtype
 
 - **반응·기간 판단**: 적정 항정신병약 용량 **4–6주** 후 효과·부작용·순응도를 평가하여 유지 또는 변경한다. 첫 정신병 삽화가 호전되었더라도 조기 중단의 재발 위험을 고려해 유지치료를 계획한다. **6개월 이상** 경과하면 조현병 등 진단을 다시 평가하며 기간 기준 하나만으로 약을 갑자기 중단하지 않는다.
 
-근거: [NICE 첫 정신병 삽화 관리](https://www.nice.org.uk/guidance/cg178/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 예후: 조기 발견 및 지속적인 약물 유지가 예후에 결정적임. 일부 환자는 조현병으로 이행될 수 있으므로 장기적인 추적 관찰이 필요함.

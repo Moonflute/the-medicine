@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE CG178 | https://www.nice.org.uk/guidance/cg178/chapter/recommendations"]
 disease_family: psychiatry_split
 parent_disease: 조현병 스펙트럼 장애 (Schizophrenia Spectrum and Other Psychotic Disorders)
 relation_to_parent: subtype
@@ -50,7 +49,6 @@ relation_to_parent: subtype
 - **반응 부족·clozapine 기준**: 항정신병약은 최적 용량에서 보통 **4–6주** 반응을 평가한다. 순응도·물질사용·진단을 확인해도 **서로 다른 2개 약제의 충분한 치료에 실패**하면 clozapine을 제안한다(적어도 하나는 비clozapine 2세대 약제). 반복적인 다제 병합으로 전환을 무기한 늦추지 않는다. 지속 자살 위험 등 별도 적응증도 전문의가 평가한다.
 - **LAI·중단**: LAI는 환자 선호 또는 순응도 문제로 재발할 위험이 클 때 선택한다. 첫 삽화 회복 직후 중단하지 않으며, 특히 첫 **1–2년**의 높은 재발 위험을 설명한다. 감량·중단 시 서서히 진행하고 중단 후 최소 2년 재발을 추적한다.
 
-근거: [NICE CG178](https://www.nice.org.uk/guidance/cg178/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 예후: 조기 발견 및 지속적인 약물 유지가 예후에 결정적임. 음성 증상이 심할수록 사회적 기능 회복이 어려움.

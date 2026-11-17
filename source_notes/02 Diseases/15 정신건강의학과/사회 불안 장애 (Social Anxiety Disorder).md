@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE CG159 | https://www.nice.org.uk/guidance/cg159/chapter/Recommendations"]
 disease_family: psychiatry_split
 parent_disease: 불안 장애 (Anxiety Disorders)
 relation_to_parent: subtype
@@ -48,7 +47,6 @@ relation_to_parent: subtype
 
 - **반응별 다음 선택**: SSRI **10–12주** 후 부분 반응이면 CBT를 추가한다. 무반응·불내성이면 다른 SSRI 또는 venlafaxine으로 변경한다. 초기 3개월에 반응이 좋으면 **추가로 최소 6개월** 유지한다. 소아·청소년은 CBT 중심이며 약물치료를 성인처럼 일률 적용하지 않는다.
 
-근거: [NICE CG159](https://www.nice.org.uk/guidance/cg159/chapter/Recommendations).
 
 ## 6. 예후 및 합병증
 - 예후: 만성적인 경과를 보일 수 있으나, 적절한 치료 시 예후가 양호함. 치료받지 않을 경우 사회적 고립, 학업/직업적 성취 저하, 삶의 질 저하 초래.

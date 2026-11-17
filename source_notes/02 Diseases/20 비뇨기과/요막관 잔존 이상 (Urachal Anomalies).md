@@ -10,8 +10,7 @@ preprocessing_required: x
 reviewed_at: '2026-10-07'
 content_updated_at: "2026-11-18"
 review_status: targeted_source_reviewed_draft
-sources:
-- "UCSF Pediatric Urology: Urachal Abnormalities | https://urology.ucsf.edu/patient-info/children/urachal-abnormalities"
+sources: ["UCSF Pediatric Urology: Urachal Abnormalities | https://urology.ucsf.edu/patient-info/children/urachal-abnormalities", "EAU 소아 희귀 질환 | https://uroweb.org/guidelines/paediatric-urology/chapter/rare-conditions-in-childhood"]
 ---
 
 # 요막관 잔존 이상 (Urachal Anomalies)
@@ -25,5 +24,4 @@ sources:
 ## 관리
 증상·감염과 구조에 따라 소아비뇨 전문팀이 관찰 또는 치료·절제를 결정한다. 급성 감염은 먼저 조절한다. 성인의 암 관련 설명을 모든 소아 잔존 병변의 즉시 수술 근거로 확대하지 않는다.
 
-- 무증상 우연 발견은 관찰할 수 있고, 영아의 경미한 증상도 항생제·관찰 후 소실 여부를 평가할 수 있다. **지속 배꼽 소변 누출·반복 감염·농양·보존 치료 실패**는 절제를 검토하는 기준이다. 급성 감염/농양은 먼저 항생제·필요 시 배액으로 조절한다. [EAU 소아 희귀 질환](https://uroweb.org/guidelines/paediatric-urology/chapter/rare-conditions-in-childhood)
-
+- 무증상 우연 발견은 관찰할 수 있고, 영아의 경미한 증상도 항생제·관찰 후 소실 여부를 평가할 수 있다. **지속 배꼽 소변 누출·반복 감염·농양·보존 치료 실패**는 절제를 검토하는 기준이다. 급성 감염/농양은 먼저 항생제·필요 시 배액으로 조절한다.

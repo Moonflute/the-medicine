@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["WSES 담도 손상 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8190978/"]
 ---
 분과 : [[소화기]]
 
@@ -61,7 +62,6 @@ reviewed_at: "2026-07-30"
 - **담관 연속성이 유지된 작은 누출**은 배액 후 경과를 보거나 ERCP 스텐트로 담관 내 압력을 낮춘다. 증상성·감염성 담즙종은 경피적 배액을 병행한다.
 - **주담관 완전 절단·광범위 손상**은 단순 ERCP 스텐트만으로 해결되지 않을 수 있다. 조기에 간담췌 전문센터로 의뢰하여 담즙 배액, 감염 조절과 담관 재건(예: Roux-en-Y 간관공장문합)의 방법·시점을 결정한다. 경험이 부족한 환경에서 반복 봉합을 시도하지 않는다.
 - 배액량, 간기능과 임상 반응으로 폐쇄 여부를 확인하고 스텐트 제거·교환 계획을 명시한다.
-- 근거: [WSES 담도 손상 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC8190978/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

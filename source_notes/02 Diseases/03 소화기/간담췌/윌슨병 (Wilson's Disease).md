@@ -20,6 +20,7 @@ population: "general"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EASL-ERN 윌슨병 지침 2025 | https://easlcampus.eu/sites/default/files/2025-03/EASL-ERN_CPG_on_Wilson%27s_Disease.pdf"]
 ---
 분과 : [[소화기]]
 
@@ -50,7 +51,6 @@ reviewed_at: "2026-07-30"
 - 새 신경학적 악화, 혈구감소·단백뇨 또는 간기능 악화가 생기면 부작용·구리 과잉 제거·복약 불이행을 구분하고 용량·약제 변경을 검토한다. 신경학적 악화를 무조건 참고 같은 용량으로 유지하도록 안내하지 않는다.
 - 24시간 소변 구리, 간기능·혈구·소변검사와 임상 반응을 약제별 목표에 맞춰 추적한다. 구리 함량이 높은 음식은 특히 초기 치료에 제한하되 약물치료를 식이만으로 대체하거나 임의 중단하지 않는다.
 - 급성 간부전이나 적절한 치료에도 진행하는 비대상성 간질환은 간이식을 조기에 평가한다.
-- 근거: [EASL-ERN 윌슨병 지침 2025](https://easlcampus.eu/sites/default/files/2025-03/EASL-ERN_CPG_on_Wilson%27s_Disease.pdf).
 
 ## 6. 예후 및 합병증
 - **예후**:

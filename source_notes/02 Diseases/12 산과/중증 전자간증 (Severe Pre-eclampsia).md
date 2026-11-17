@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2022"
-sources: ["[Reprint of: Severe pre-eclampsia: guidelines for clinical practice from the French Society of anesthesiology and intensive care (SFAR) and the French College of gynaecologists and obstetricians (CNGOF)]. | https://pubmed.ncbi.nlm.nih.gov/34781016/"]
+sources: ["[Reprint of: Severe pre-eclampsia: guidelines for clinical practice from the French Society of anesthesiology and intensive care (SFAR) and the French College of gynaecologists and obstetricians (CNGOF)]. | https://pubmed.ncbi.nlm.nih.gov/34781016/", "ACOG 중증 소견 기준 | https://www.acog.org/community/districts-and-sections/district-iv/whats-new/countdown-to-intern-year-week-3-hypertensive-disorders", "ACOG 임신성 고혈압과 전자간증 Practice Bulletin 222 | https://pubmed.ncbi.nlm.nih.gov/32443079/", "급성 중증 고혈압 응급치료 | https://pubmed.ncbi.nlm.nih.gov/30681541/"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -31,7 +31,6 @@ content_updated_at: "2026-11-17"
 - **원인**: 태반의 허혈 및 이로 인한 독성 물질 방출, 내피세포 기능 장애, 면역학적 요인 등이 복합적으로 작용.
 
 - **기전**: 혈관 내피세포 손상으로 인한 전신 혈관 수축, 혈관 투과성 증가, 혈액 응고 기전 활성화.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -67,13 +66,12 @@ content_updated_at: "2026-11-17"
   - 34주 미만이며 산모·태아가 안정적일 때만 전문센터에서 기대요법을 검토한다. 조절되지 않는 중증 고혈압, 장기 기능 악화 또는 지속적인 태아 이상이 있으면 주수보다 산모 안정화와 분만을 우선한다.
 - **관리 원칙**: 전문가 합의에 기반하여 모성 및 신생아 이환율을 각각 평가하고 관리할 것을 권고함.
 
-- **치료를 바꾸는 소견**: 중증 혈압은 SBP ≥160 또는 DBP ≥110 mmHg의 지속 상승이다. 혈소판 <100,000/μL, Cr >1.1 mg/dL/기저치 2배, 간효소 ≥정상상한 2배 또는 지속 우상복부 통증, 폐부종, 새 지속 두통·시각 이상도 중증 소견이다. 혈압 하나가 호전되어도 이들 장기 이상이 진행하면 기대요법을 재평가한다. [ACOG 중증 소견 기준](https://www.acog.org/community/districts-and-sections/district-iv/whats-new/countdown-to-intern-year-week-3-hypertensive-disorders)
+- **치료를 바꾸는 소견**: 중증 혈압은 SBP ≥160 또는 DBP ≥110 mmHg의 지속 상승이다. 혈소판 <100,000/μL, Cr >1.1 mg/dL/기저치 2배, 간효소 ≥정상상한 2배 또는 지속 우상복부 통증, 폐부종, 새 지속 두통·시각 이상도 중증 소견이다. 혈압 하나가 호전되어도 이들 장기 이상이 진행하면 기대요법을 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 자간증(Eclampsia), HELLP 증후군, 태반 조기 박리, 뇌출혈, 폐부종, 신부전, 태아 성장 제한 및 조산.
 
 
 출처 : StatPearls (Eclampsia, Preeclampsia)
-- [ACOG 임신성 고혈압과 전자간증 Practice Bulletin 222](https://pubmed.ncbi.nlm.nih.gov/32443079/) · [급성 중증 고혈압 응급치료](https://pubmed.ncbi.nlm.nih.gov/30681541/)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

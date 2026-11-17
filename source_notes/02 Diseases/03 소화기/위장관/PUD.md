@@ -18,9 +18,7 @@ group_members:
 clinical_priority: tier_1
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
-sources:
-- "ACG 2024 H. pylori 제균 지침 요약 | https://gi.org/wp-content/uploads/2025/01/ACG-Hpylori-Guidelines-Highlights-2024-FINAL.pdf.pdf"
-- "WSES 2020 천공·출혈 소화성 궤양 | https://link.springer.com/article/10.1186/s13017-019-0283-9"
+sources: ["ACG 2024 H. pylori 제균 지침 요약 | https://gi.org/wp-content/uploads/2025/01/ACG-Hpylori-Guidelines-Highlights-2024-FINAL.pdf.pdf", "WSES 2020 천공·출혈 소화성 궤양 | https://link.springer.com/article/10.1186/s13017-019-0283-9"]
 ---
 # PUD
 
@@ -53,6 +51,3 @@ ACG 2024는 감수성을 모를 때 clarithromycin·levofloxacin 요법을 경�
 - [[위궤양 (Gastric Ulcer)]]
 
 ## 참고 가이드라인
-
-- [ACG 2024 H. pylori 제균 지침 요약](https://gi.org/wp-content/uploads/2025/01/ACG-Hpylori-Guidelines-Highlights-2024-FINAL.pdf.pdf)
-- [WSES 2020 천공·출혈 소화성 궤양](https://link.springer.com/article/10.1186/s13017-019-0283-9)

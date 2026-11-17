@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["급성 수혈반응 관리 | https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/management-of-suspected-reactions"]
 ---
 분과 : [[외과]]
 
@@ -55,7 +56,7 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 - 수혈을 즉시 중단하고, 기도·산소·혈압을 신속히 평가·보호한다.
-- 수액으로 혈압·신장 관류를 회복시키고 지속 저혈압이면 승압제를 사용한다. 소변량·전해질·신기능과 과부하를 반복 평가하며, 이뇨제 여부는 관류와 체액 상태에 따라 결정한다. 핍뇨만 보고 반복 수액·이뇨제를 자동 투여하지 않는다. [급성 수혈반응 관리](https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/management-of-suspected-reactions)
+- 수액으로 혈압·신장 관류를 회복시키고 지속 저혈압이면 승압제를 사용한다. 소변량·전해질·신기능과 과부하를 반복 평가하며, 이뇨제 여부는 관류와 체액 상태에 따라 결정한다. 핍뇨만 보고 반복 수액·이뇨제를 자동 투여하지 않는다.
 - 급성 용혈이 의심되면 즉시 DAT·혈액·소변 검사를 시행하고, DIC·신기능을 지속적으로 모니터링한다.
 - 중증·불안정 환자는 혈액은행·혈액학 전문팀과 즉시 협진한다.
 

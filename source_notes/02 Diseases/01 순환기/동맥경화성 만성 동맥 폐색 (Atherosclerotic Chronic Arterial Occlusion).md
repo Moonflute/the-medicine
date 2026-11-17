@@ -13,6 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["AHA/ACC PAD 지침 2024 | https://doi.org/10.1161/CIR.0000000000001251", "2024 ACC/AHA 하지 말초동맥질환 진료지침 | https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251", "ACC 2024 PAD 지침 요약 | https://www.acc.org/Latest-in-Cardiology/Articles/2024/05/14/13/40/New-ACC-AHA-Guideline-Focused-on-Management-of-LE-PAD-gl-pad"]
 ---
 분과 : [[순환기]]
 
@@ -49,7 +50,6 @@ reviewed_at: "2026-10-08"
 
 - 증상성 PAD는 단일 항혈소판과 고강도 statin을 기본으로 하며, **출혈 고위험이 아닌 환자 및 재관류 후**에는 aspirin+**rivaroxaban 2.5 mg 하루 2회**를 고려한다. 다른 적응증이 없는 PAD에서 전용량 항응고를 대신 쓰지 않는다.
 - 파행 개선용 **cilostazol은 심부전에서 금기**이다. 기능 제한성 파행은 구조화 운동·약물 최적화 실패 후 재관류를 검토하지만, 휴식통·비치유성 궤양·괴저가 있는 CLTI는 운동 치료를 먼저 수개월 기다리지 않는다.
-- 근거: [AHA/ACC PAD 지침 2024](https://doi.org/10.1161/CIR.0000000000001251).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 이루어지지 않을 경우 사지 허혈, 난치성 궤양, 괴사로 인한 사지 절단 위험이 증가하며, 전신적인 동맥경화증의 징후로 심혈관 질환에 의한 사망률이 높다.
@@ -57,5 +57,3 @@ reviewed_at: "2026-10-08"
 출처 : ESC Guidelines on Peripheral Arterial Diseases
 
 참고: 삼성서울병원 메뉴얼.
-- [2024 ACC/AHA 하지 말초동맥질환 진료지침](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001251)
-- [ACC 2024 PAD 지침 요약](https://www.acc.org/Latest-in-Cardiology/Articles/2024/05/14/13/40/New-ACC-AHA-Guideline-Focused-on-Management-of-LE-PAD-gl-pad)

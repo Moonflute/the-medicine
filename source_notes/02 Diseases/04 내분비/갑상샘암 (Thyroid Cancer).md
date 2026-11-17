@@ -25,7 +25,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["Korean Thyroid Association Guidelines on the Management of Differentiated Thyroid Cancers 2024 | https://www.ijthyroid.org/journal/view.php?number=202400002", "2025 Korean Thyroid Association Clinical Management Guideline on Active Surveillance for Low-Risk Papillary Thyroid Carcinoma | https://www.e-enm.org/journal/view.php?number=2461"]
+sources: ["Korean Thyroid Association Guidelines on the Management of Differentiated Thyroid Cancers 2024 | https://www.ijthyroid.org/journal/view.php?number=202400002", "2025 Korean Thyroid Association Clinical Management Guideline on Active Surveillance for Low-Risk Papillary Thyroid Carcinoma | https://www.e-enm.org/journal/view.php?number=2461", "ATA 2025 | https://doi.org/10.1177/10507256251363120", "ATA 2025 요약 | https://doi.org/10.1177/10507256251390877", "ASCO 2026 | https://ascopubs.org/doi/10.1200/JCO-26-00235", "ATA MTC | https://doi.org/10.1089/thy.2014.0335", "ATA ATC | https://pmc.ncbi.nlm.nih.gov/articles/PMC8349723/"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -78,13 +78,13 @@ content_updated_at: "2026-11-17"
 - **불현성 갑상샘중독증**: TSH 감소, fT4 정상
 
 ## 5. 치료
-- **분화암의 수술 범위**: 갑상샘 내에 국한되고 임상적 림프절·원격전이가 없는 일측 암은 ≤2 cm이면 수술 선택 시 엽절제가 기본이다. 저위험 >2–4 cm에서도 엽절제를 우선 고려할 수 있으며, 반대 엽 병변·RAI 필요성·환자 선호에 따라 전절제를 선택한다. >4 cm, 육안적 갑상샘외 침범, 임상적 림프절/원격전이가 있으면 전절제를 중심으로 평가한다. 작은 비침습성 cN0 유두암에 예방적 중앙경부 절제를 일률 시행하지 않고, 확인된 전이는 치료적 구역 절제에 반영한다. [ATA 2025](https://doi.org/10.1177/10507256251363120)
+- **분화암의 수술 범위**: 갑상샘 내에 국한되고 임상적 림프절·원격전이가 없는 일측 암은 ≤2 cm이면 수술 선택 시 엽절제가 기본이다. 저위험 >2–4 cm에서도 엽절제를 우선 고려할 수 있으며, 반대 엽 병변·RAI 필요성·환자 선호에 따라 전절제를 선택한다. >4 cm, 육안적 갑상샘외 침범, 임상적 림프절/원격전이가 있으면 전절제를 중심으로 평가한다. 작은 비침습성 cN0 유두암에 예방적 중앙경부 절제를 일률 시행하지 않고, 확인된 전이는 치료적 구역 절제에 반영한다.
 - **적극적 감시**: 저위험 cT1aN0M0 유두암은 침범·전이 여부, 기관/반회후두신경과의 위치, 정기 추적 가능성과 선호를 확인하여 수술 대신 감시를 선택할 수 있다. 의미 있는 성장, 새 림프절 전이·침범, 추적 불가 또는 선호 변화가 생기면 수술을 다시 평가한다. 소작술은 선택된 저위험 원발암 또는 수술 위험이 큰 국소 재발에서 전문팀이 검토한다.
-- **RAI 선택**: 저위험 분화암에서는 일상적인 잔여조직 제거를 권하지 않는다. 중간 위험군은 침범·림프절 전이 부담·수술 후 Tg/영상에 따라 선택하고, 고위험 또는 요오드 섭취성 잔존·전이 질환에서는 치료를 검토한다. 임신·수유 중에는 투여하지 않는다. 수술 후 모든 환자에게 같은 RAI 용량을 적용하지 않는다. [ATA 2025](https://doi.org/10.1177/10507256251363120)
-- **레보티록신·TSH 목표**: 치료 반응이 우수하거나 불확정이면 대체로 정상 참고범위를 목표로 한다. 생화학적/구조적 불완전 반응에서는 정상 미만 억제를 고려하되 심방세동·골다공증 위험과 이득을 비교한다. 저·중간 위험이고 재발 증거가 없으면 장기적인 강한 억제를 일률 유지하지 않는다. [ATA 2025 요약](https://doi.org/10.1177/10507256251390877)
-- **진행성 분화암의 약제**: RAI 불응이라는 사실만으로 즉시 TKI를 시작하지 않고 영상상 진행, 증상·장기 위협, 국소치료 가능성을 확인한다. 전신치료가 필요하면 RET/NTRK 등 표적 변이를 평가하여 선택적 억제제 또는 lenvatinib/sorafenib 등을 선택하고, 이전 VEGFR 표적치료 후 진행하면 cabozantinib 등 후속 치료를 검토한다. [ASCO 2026](https://ascopubs.org/doi/10.1200/JCO-26-00235)
-- **속질암(MTC)**: 전절제와 중앙경부 평가·절제를 기본으로 하고 확인된 측경부 전이는 치료적 구역 절제를 시행한다. RAI와 TSH 억제는 속질암 치료가 아니다. 생식세포 RET 검사·유전상담, MEN2의 갈색세포종/부갑상샘 평가를 시행하고 갈색세포종이 동반되면 먼저 치료한다. 진행성·절제 불가/전이 MTC가 전신치료를 필요로 하면서 RET 변이 양성이면 selpercatinib을 우선 검토한다. [ATA MTC](https://doi.org/10.1089/thy.2014.0335), [ASCO 2026](https://ascopubs.org/doi/10.1200/JCO-26-00235)
-- **역형성암(ATC)**: 기도와 절제 가능성을 신속히 평가하고 BRAF V600E 및 치료 가능한 융합 변이를 확인한다. 절제 불가/전이성 BRAF V600E 양성에서는 dabrafenib＋trametinib을, 표적이 없으면 방사선·항암치료와 완화치료를 수행상태·목표에 맞춰 선택한다. 치료 반응으로 절제가 가능해지면 재평가한다. [ATA ATC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8349723/)
+- **RAI 선택**: 저위험 분화암에서는 일상적인 잔여조직 제거를 권하지 않는다. 중간 위험군은 침범·림프절 전이 부담·수술 후 Tg/영상에 따라 선택하고, 고위험 또는 요오드 섭취성 잔존·전이 질환에서는 치료를 검토한다. 임신·수유 중에는 투여하지 않는다. 수술 후 모든 환자에게 같은 RAI 용량을 적용하지 않는다.
+- **레보티록신·TSH 목표**: 치료 반응이 우수하거나 불확정이면 대체로 정상 참고범위를 목표로 한다. 생화학적/구조적 불완전 반응에서는 정상 미만 억제를 고려하되 심방세동·골다공증 위험과 이득을 비교한다. 저·중간 위험이고 재발 증거가 없으면 장기적인 강한 억제를 일률 유지하지 않는다.
+- **진행성 분화암의 약제**: RAI 불응이라는 사실만으로 즉시 TKI를 시작하지 않고 영상상 진행, 증상·장기 위협, 국소치료 가능성을 확인한다. 전신치료가 필요하면 RET/NTRK 등 표적 변이를 평가하여 선택적 억제제 또는 lenvatinib/sorafenib 등을 선택하고, 이전 VEGFR 표적치료 후 진행하면 cabozantinib 등 후속 치료를 검토한다.
+- **속질암(MTC)**: 전절제와 중앙경부 평가·절제를 기본으로 하고 확인된 측경부 전이는 치료적 구역 절제를 시행한다. RAI와 TSH 억제는 속질암 치료가 아니다. 생식세포 RET 검사·유전상담, MEN2의 갈색세포종/부갑상샘 평가를 시행하고 갈색세포종이 동반되면 먼저 치료한다. 진행성·절제 불가/전이 MTC가 전신치료를 필요로 하면서 RET 변이 양성이면 selpercatinib을 우선 검토한다.
+- **역형성암(ATC)**: 기도와 절제 가능성을 신속히 평가하고 BRAF V600E 및 치료 가능한 융합 변이를 확인한다. 절제 불가/전이성 BRAF V600E 양성에서는 dabrafenib＋trametinib을, 표적이 없으면 방사선·항암치료와 완화치료를 수행상태·목표에 맞춰 선택한다. 치료 반응으로 절제가 가능해지면 재평가한다.
 
 ## 6. 예후 및 합병증
 - **갑상샘암 추적관찰**: 분화암의 혈중 갑상샘글로불린(Tg)은 매 측정 때 항-Tg 항체를 함께 해석하고, 경부 초음파로 국소 재발을 평가한다. 갑상샘전절제 및 RAI를 받은 저위험 분화암에서 치료 반응이 우수하고 Tg·경부 초음파가 음성이면 진단적 전신스캔을 일률적으로 시행하지 않는다.

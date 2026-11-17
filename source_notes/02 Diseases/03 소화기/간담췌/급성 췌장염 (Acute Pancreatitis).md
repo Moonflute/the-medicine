@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidelines-Highlights-Acute-Pancreatitis-2024-FINAL.pdf", "ACG 2024 급성 췌장염 진료지침 | https://pubmed.ncbi.nlm.nih.gov/38857482/"]
 ---
 ## 1. 개요
 - 정의: 췌장의 소화 효소가 조기에 활성화되어 췌장 조직을 자가 소화시키며 발생하는 급성 염증 질환
@@ -56,7 +57,7 @@ reviewed_at: "2026-10-08"
 - **원인 교정 및 재발 방지:** 담석성 췌장염은 담낭 절제술을 고려하고, 알코올성 췌장염은 금주 교육을 통해 재발을 예방함.
 - **중증 합병증 감시 및 전원:** 장기 부전, 괴사, 감염 징후가 나타나는 중증 췌장염은 집중 치료가 가능한 상급 병원으로 신속히 전원함.
 
-- **ERCP·담낭절제 시점**: 담관염이 동반되면 보통 24시간 이내 ERCP를 시행한다. 담관염·지속 담도폐쇄가 없는 담석성 췌장염에는 조기 ERCP를 일률 시행하지 않고 필요 시 MRCP/EUS로 결석을 확인한다. 경증 담석성 췌장염은 같은 입원 중 퇴원 전 담낭절제를 계획하며, 괴사·주변 액체저류가 있는 중증에서는 안정화와 저류액 경과에 맞춰 지연한다. [ACG 2024](https://webfiles.gi.org/links/journals/AJG-Clinical-Guidelines-Highlights-Acute-Pancreatitis-2024-FINAL.pdf)
+- **ERCP·담낭절제 시점**: 담관염이 동반되면 보통 24시간 이내 ERCP를 시행한다. 담관염·지속 담도폐쇄가 없는 담석성 췌장염에는 조기 ERCP를 일률 시행하지 않고 필요 시 MRCP/EUS로 결석을 확인한다. 경증 담석성 췌장염은 같은 입원 중 퇴원 전 담낭절제를 계획하며, 괴사·주변 액체저류가 있는 중증에서는 안정화와 저류액 경과에 맞춰 지연한다.
 
 ## 6. 예후 및 합병증
 - 예후: 경증은 대개 자가 제한적이나, 중증은 장기 부전으로 인해 사망률이 높음
@@ -69,5 +70,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ACG 2024 급성 췌장염 진료지침](https://pubmed.ncbi.nlm.nih.gov/38857482/)
-- [ACG 2024 급성 췌장염 핵심 권고](https://webfiles.gi.org/links/journals/AJG-Clinical-Guidelines-Highlights-Acute-Pancreatitis-2024-FINAL.pdf)

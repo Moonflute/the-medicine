@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE 초기 유산 관리 | https://www.nice.org.uk/guidance/ng126/chapter/management-of-miscarriage"]
 ---
 분과 : [[산과]]
 
@@ -26,7 +27,6 @@ reviewed_at: "2026-07-30"
 - **원인**: 염색체 이상이 가장 흔하며, 내분비 요인, 해부학적 이상, 면역학적 요인 등이 관여할 수 있음.
 
 - **기전**: 태아 사망 후 자궁 수축이나 경부 개대 없이 태아 조직이 자궁 내에 머물러 있는 상태가 지속됨.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -39,17 +39,14 @@ reviewed_at: "2026-07-30"
   자궁 경부는 닫혀 있음.
 
 
-
 ## 3. 검사 (Lab & Imaging)
 - **초음파**: 태아 심박동 소실 확인, 태아 크기가 임신 주수에 비해 작음.
 - **혈액 검사**: β-hCG 수치가 임신 주수에 비해 낮거나 감소 추세.
 
 
-
 ## 4. 진단 (Diagnosis)
 - 초음파상 태아 심박동이 없는 태아의 존재 확인.
 - 자궁 경부가 닫혀 있고, 임신 산물이 배출되지 않은 상태.
-
 
 
 ## 5. 치료
@@ -61,11 +58,10 @@ reviewed_at: "2026-07-30"
 * **예방적 조치**: Rh 음성 산모의 경우 항-D 면역글로불린(Anti-D immunoglobulin) 투여 고려.
 
 - **안정된 초기 유산의 선택**: 진단이 확정되고 심한 출혈·감염이 없으면 7–14일 기대요법 또는 약물/흡입술을 선호에 따라 선택한다. 기다리기를 원하지 않거나 출혈 위험이 높고 추적이 어려우면 적극적 처치를 선택한다.
-- **약물요법**: NICE는 mifepristone 200 mg 경구 후 48시간 뒤 misoprostol 800 μg(질·경구·설하)을 권고하며, 이미 임신낭이 배출되었으면 후속 투여를 생략한다. 제제 가용성·허가와 기관 프로토콜을 확인한다. 치료 3주 후 소변 임신검사가 양성이거나 출혈·통증·발열이 지속되면 잔류물·자궁외임신 등을 재평가한다. [NICE 초기 유산 관리](https://www.nice.org.uk/guidance/ng126/chapter/management-of-miscarriage)
+- **약물요법**: NICE는 mifepristone 200 mg 경구 후 48시간 뒤 misoprostol 800 μg(질·경구·설하)을 권고하며, 이미 임신낭이 배출되었으면 후속 투여를 생략한다. 제제 가용성·허가와 기관 프로토콜을 확인한다. 치료 3주 후 소변 임신검사가 양성이거나 출혈·통증·발열이 지속되면 잔류물·자궁외임신 등을 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 감염(Septic abortion), 출혈, 자궁 내 유착(Asherman syndrome), 파종성 혈관내 응고(DIC, 드묾).
-
 
 
 출처 : StatPearls (Abortion, Abortion Complications)

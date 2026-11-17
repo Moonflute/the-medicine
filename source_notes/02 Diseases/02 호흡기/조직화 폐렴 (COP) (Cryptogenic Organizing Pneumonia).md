@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ERS/EULAR CTD-ILD 지침 2025 | https://publications.ersnet.org/content/erj/early/2025/09/04/1399300302533-2024"]
 ---
 분과 : [[호흡기]]
 
@@ -53,4 +54,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ERS/EULAR CTD-ILD 지침 2025](https://publications.ersnet.org/content/erj/early/2025/09/04/1399300302533-2024)

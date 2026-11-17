@@ -21,6 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["APA 섭식장애 지침 2023 | https://doi.org/10.1176/appi.ajp.23180001"]
 ---
 분과 : [[정신건강의학과]]
 
@@ -54,7 +55,6 @@ reviewed_at: "2026-07-30"
 
 - **병합 시점·용량**: APA 2023은 성인에서 섭식장애 특화 CBT와 SRI(예: **fluoxetine 60 mg/일**) 병합을 권고한다. 처음부터 병합하거나 심리치료 **6주**에 반응이 거의 없으면 추가한다. 내약성에 맞추어 증량하고 폭식·구토 빈도와 전해질을 추적한다. Bupropion은 과거력이 있어도 발작 위험을 고려하여 피한다.
 
-근거: [APA 섭식장애 지침 2023](https://doi.org/10.1176/appi.ajp.23180001).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

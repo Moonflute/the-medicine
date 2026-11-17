@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC IUD와 골반염 관리 | https://www.cdc.gov/contraception/hcp/usspr/intrauterine-devices-pid.html", "CDC PID | https://www.cdc.gov/std/treatment-guidelines/pid.htm"]
 ---
 ## 1. 개요
 - **정의**: 자궁, 난관, 난소, 골반 복막 등 상부 생식기계의 감염성 염증 질환
@@ -45,11 +46,11 @@ reviewed_at: "2026-07-30"
 - **입원 치료 고려**: 임신부, 중증 전신 증상, 골반 농양, 외래 치료 실패 시 입원 및 정맥 항생제 투여
 - **성 파트너 관리**: 재감염 방지를 위해 최근 60일 이내 성 파트너에 대한 검사 및 동시 치료 권고
 - **추적 관찰**: 치료 시작 48~72시간 내 임상적 호전 여부 확인 및 증상 지속 시 추가 검사 또는 입원 전환 고려
-- **자궁내장치(IUD) 사용 중**: 적절한 항생제를 우선 시작하고 IUD를 일률적으로 즉시 제거하지 않는다. 치료 후 48–72시간에 호전이 없거나 환자가 제거를 희망하면 제거를 고려한다. [CDC IUD와 골반염 관리](https://www.cdc.gov/contraception/hcp/usspr/intrauterine-devices-pid.html)
+- **자궁내장치(IUD) 사용 중**: 적절한 항생제를 우선 시작하고 IUD를 일률적으로 즉시 제거하지 않는다. 치료 후 48–72시간에 호전이 없거나 환자가 제거를 희망하면 제거를 고려한다.
 - **성생활 제한**: 증상 완화 및 감염 전파 방지를 위해 치료 완료 시까지 성관계 금지 교육
 
 - **경증–중등도 외래 요법(CDC)**: ceftriaxone 500 mg IM 1회 + doxycycline 100 mg 경구 하루 2회 14일 + metronidazole 500 mg 경구 하루 2회 14일. 체중 >150 kg이며 임질이 확인되면 ceftriaxone 1 g을 적용한다. 임신·중증 약물알레르기는 별도 입원/대체요법으로 판단한다.
-- **입원 전환**: 임신, 난관난소농양, 수술성 급성복증 배제 불가, 중증·구토 또는 체온 >38.5℃, 경구 복용/추적 불가, 외래 72시간 이내 호전 없음은 입원 및 정맥치료 사유다. 농양 파열·복막염·패혈증은 긴급 배액/수술을 평가한다. [CDC PID](https://www.cdc.gov/std/treatment-guidelines/pid.htm)
+- **입원 전환**: 임신, 난관난소농양, 수술성 급성복증 배제 불가, 중증·구토 또는 체온 >38.5℃, 경구 복용/추적 불가, 외래 72시간 이내 호전 없음은 입원 및 정맥치료 사유다. 농양 파열·복막염·패혈증은 긴급 배액/수술을 평가한다.
 
 ## 6. 예후 및 합병증
 - **합병증**: 난임, 자궁외 임신, 만성 골반통, 난관-난소 농양, Fitz-Hugh-Curtis 증후군

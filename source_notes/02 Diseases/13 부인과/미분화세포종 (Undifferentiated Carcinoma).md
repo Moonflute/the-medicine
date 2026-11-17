@@ -22,6 +22,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ESMO | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf", "NCI | https://www.cancer.gov/types/ovarian/hp/ovarian-germ-cell-treatment-pdq"]
 ---
 분과 : [[부인과]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 - **적용 질환**: 이 문서의 치료는 난소 생식세포종양인 dysgerminoma에 해당하며, 상피성 미분화암의 치료와 구분한다.
 - **수술**: 일측 병변에서 가임력 보존을 원하면 일측 난관난소절제와 병기설정을 시행한다. 복막 세척·복막 및 의심 병변을 평가하고, 림프절 절제 범위는 비대·전이 의심 소견과 후속 항암 계획에 따라 결정한다.
 - **관찰과 항암**: 완전 병기설정된 IA는 수술 후 감시가 표준 선택이다. 제대로 병기설정된 순수 IB–IC도 전문기관에서 엄격한 감시를 선택할 수 있으나 추적 가능성과 지침 차이를 설명한다. II–IV, 잔존 종양 또는 재발은 BEP 등 백금 기반 항암이 중심이다. 진행 병기라도 가임력 보존을 검토할 수 있다.
-- **반응 평가**: LDH 등 치료 전 상승 표지자와 영상으로 추적한다. 항암 감수성이 높으므로 진행 병기라는 이유만으로 치료 불가능으로 판단하지 않는다. [ESMO](https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf) · [NCI](https://www.cancer.gov/types/ovarian/hp/ovarian-germ-cell-treatment-pdq)
+- **반응 평가**: LDH 등 치료 전 상승 표지자와 영상으로 추적한다. 항암 감수성이 높으므로 진행 병기라는 이유만으로 치료 불가능으로 판단하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 시 예후가 양호할 수 있으나, 진행성인 경우 재발률이 높고 예후가 불량함.

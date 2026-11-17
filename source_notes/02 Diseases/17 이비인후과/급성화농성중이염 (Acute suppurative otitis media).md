@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CPS | https://cps.ca/en/documents/position/acute-otitis-media"]
 ---
 분과 : [[이비인후과]]
 
@@ -50,7 +51,7 @@ reviewed_at: "2026-07-30"
 - 치료 후 1주일 이내에 재검진하여 고막 상태와 청력 변화를 확인하고, 지속적인 증상이 있으면 추가 검사를 고려한다.
 - 예방 차원에서 폐렴구균·인플루엔자 백신 접종, 흡연 회피, 상기도 감염 시 적절한 관리가 중요하다.
 
-- **소아 즉시 항생제 vs 관찰**: ≥39°C 고열, 중증 이통/전신 상태, 유의한 증상 ≥48시간, 천공성 급성 이루는 즉시 치료를 지지한다. 가벼운 경우는 연령·양측성·추적 가능성을 보고 24–48시간 관찰을 선택한다. amoxicillin이 기본이며 최근 30일 복용·화농성 결막염·초기 치료 실패이면 amoxicillin–clavulanate를 검토한다. 고막 자연 천공성 AOM은 환기관 이루와 구분하여 점이액만으로 전신 항생제를 대체하지 않는다. [CPS](https://cps.ca/en/documents/position/acute-otitis-media)
+- **소아 즉시 항생제 vs 관찰**: ≥39°C 고열, 중증 이통/전신 상태, 유의한 증상 ≥48시간, 천공성 급성 이루는 즉시 치료를 지지한다. 가벼운 경우는 연령·양측성·추적 가능성을 보고 24–48시간 관찰을 선택한다. amoxicillin이 기본이며 최근 30일 복용·화농성 결막염·초기 치료 실패이면 amoxicillin–clavulanate를 검토한다. 고막 자연 천공성 AOM은 환기관 이루와 구분하여 점이액만으로 전신 항생제를 대체하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 2~4주 내 완치

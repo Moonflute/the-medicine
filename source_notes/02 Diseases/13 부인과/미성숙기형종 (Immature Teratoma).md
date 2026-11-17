@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NCI | https://www.cancer.gov/types/ovarian/hp/ovarian-germ-cell-treatment-pdq", "MaGIC 합의 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10965411/"]
 ---
 분과 : [[부인과]]
 
@@ -43,7 +44,7 @@ reviewed_at: "2026-07-30"
 - **추적 관찰**: 재발 위험이 높으므로 수술 및 항암 치료 후 정기적인 신체 검진, 영상 검사, 종양 표지자 검사를 시행함.
 - **합병증 관리**: 난소 염전, 파열, 복막 내 신경교종증 등 급성 합병증 발생 여부를 면밀히 모니터링함.
 
-- **병기·등급에 따른 선택**: 완전 절제·병기설정된 IA, grade 1은 보조 항암 없이 감시한다. 성인의 grade 2–3 또는 더 높은 병기는 기존 지침상 BEP를 고려하나, 순수 stage I 미성숙기형종은 grade와 무관하게 전문기관의 엄격한 감시를 선택하는 근거도 있어 병리 재검토·AFP·추적 가능성을 반영한다. 소아와 성인의 감시 권고가 같지 않으며, 혼합 악성 생식세포 성분이 있으면 해당 성분에 따라 치료한다. 항암 중 표지자는 정상화되는데 종괴가 커지면 growing teratoma syndrome을 의심하여 수술을 평가한다. [NCI](https://www.cancer.gov/types/ovarian/hp/ovarian-germ-cell-treatment-pdq) · [MaGIC 합의 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10965411/)
+- **병기·등급에 따른 선택**: 완전 절제·병기설정된 IA, grade 1은 보조 항암 없이 감시한다. 성인의 grade 2–3 또는 더 높은 병기는 기존 지침상 BEP를 고려하나, 순수 stage I 미성숙기형종은 grade와 무관하게 전문기관의 엄격한 감시를 선택하는 근거도 있어 병리 재검토·AFP·추적 가능성을 반영한다. 소아와 성인의 감시 권고가 같지 않으며, 혼합 악성 생식세포 성분이 있으면 해당 성분에 따라 치료한다. 항암 중 표지자는 정상화되는데 종괴가 커지면 growing teratoma syndrome을 의심하여 수술을 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 종양의 조직학적 등급(Grade)과 병기에 따라 결정됨.

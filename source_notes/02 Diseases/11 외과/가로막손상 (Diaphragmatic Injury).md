@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EAST 횡격막 손상 지침 | https://www.east.org/education-resources/practice-management-guidelines/details/diaphragmatic-injury-evaluation-and-management-of"]
 ---
 분과 : [[외과]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-07-30"
 - 초기 ABC 안정화와 필요한 위 감압 후 결손·탈출 장기를 평가한다. **교액·장괴사·천공·호흡순환 불안정**은 응급 수술 사유다.
 - 급성 확진 손상의 수복은 복부 동반 손상을 확인할 수 있는 접근을 우선 검토한다. 안정된 단순 손상은 복강경 수복이 가능하며 복잡한 동반 손상·불안정이면 개복 등 손상에 맞는 접근을 선택한다.
 - 안정적인 좌측 흉복부 자상에서 횡격막 손상이 의심되면 CT 음성만으로 배제하지 않고 진단 복강경 등을 고려한다. 우측 관통 손상의 선택적 비수술 관리는 간 보호·손상 위치와 추적 가능성을 전문팀이 판단하며 좌측과 같은 관찰 원칙으로 묶지 않는다.
-- 수술 후 호흡·통증·재탈출/누출을 임상상에 따라 추적한다. 기관절개를 폐합병증 예방 목적으로 일률적으로 시행하지 않는다. [EAST 횡격막 손상 지침](https://www.east.org/education-resources/practice-management-guidelines/details/diaphragmatic-injury-evaluation-and-management-of)
+- 수술 후 호흡·통증·재탈출/누출을 임상상에 따라 추적한다. 기관절개를 폐합병증 예방 목적으로 일률적으로 시행하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 장기 괴사, 장폐색, 재발성 탈장, 호흡 부전.

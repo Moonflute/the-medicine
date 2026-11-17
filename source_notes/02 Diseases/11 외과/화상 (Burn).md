@@ -29,9 +29,7 @@ reviewed_at: "2026-07-30"
 - 화상
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
-sources:
-- "ABA 화상 쇼크 소생술 지침, 2024 | https://guidance.nattrauma.org/media/wetjtmrg/american-burn-association-clinical-practice-guidelines-on-burn-shock-resuscitation.pdf"
-- "ABA 화상 전문센터 의뢰 기준, 현행 공식 기준(2026-10-07 확인) | https://www.ameriburn.org/burn-care-team/resources/guidelines-for-burn-patient-referral"
+sources: ["ABA 화상 쇼크 소생술 지침, 2024 | https://guidance.nattrauma.org/media/wetjtmrg/american-burn-association-clinical-practice-guidelines-on-burn-shock-resuscitation.pdf", "ABA 화상 전문센터 의뢰 기준, 현행 공식 기준(2026-10-07 확인) | https://www.ameriburn.org/burn-care-team/resources/guidelines-for-burn-patient-referral", "ESPEN 중증 화상 영양 권고 | https://pubmed.ncbi.nlm.nih.gov/23582468/"]
 ---
 분과 : [[외과]]
 
@@ -73,8 +71,8 @@ sources:
 - **수액 소생술 및 모니터링**: 성인 ≥20% TBSA 화상에서는 ABA 2024의 초기 24시간 2 mL/kg/%TBSA를 출발점으로 고려하고, 소변량(성인 통상 약 0.5 mL/kg/hr)·관류·체액 상태에 따라 속도를 조절함. 공식은 고정 처방이 아니며 소아·전기 화상은 별도 평가가 필요함.
 - **수술적 개입**: 환상 전층 화상으로 관류나 흉곽 팽창이 제한되면 escharotomy를 평가함. 심부 구획압 상승은 fasciotomy 적응증을 따로 판단하며 두 술기를 같은 것으로 취급하지 않음.
 - **상처 관리 및 감염 예방**: 상처 깊이에 맞는 드레싱·국소 치료를 적용하며, 파상풍 예방 접종 여부를 확인하고 필요 시 추가 접종함.
-- **중증 화상의 영양**: 얼굴·목 화상에서는 흡입 손상과 기도 부종을 먼저 평가한다. 기도와 순환을 안정시킨 뒤 장관을 사용할 수 있으면 조기 경장영양을 우선하며, 충분히 먹을 수 없다면 비위관 등으로 공급한다. 영양관 삽입이 초기 기도 처치보다 우선하지는 않는다. [ESPEN 중증 화상 영양 권고](https://pubmed.ncbi.nlm.nih.gov/23582468/)
-- **화상센터 즉시 협의·전원 검토**: 전층 화상, 부분층 ≥10% TBSA, 얼굴·손·발·생식기·회음부·주요 관절의 깊은 부분층/전층 화상, 흡입 손상 의심, 모든 화학 화상, ≥1,000 V 전기·낙뢰 손상에 적용한다. 동반 외상·기저질환·조절되지 않는 통증도 고려한다. 부분층 <10%라도 깊이가 불확실하거나 심부 손상이 의심되면 상담한다. [ABA 전원 기준](https://www.ameriburn.org/burn-care-team/resources/guidelines-for-burn-patient-referral)
+- **중증 화상의 영양**: 얼굴·목 화상에서는 흡입 손상과 기도 부종을 먼저 평가한다. 기도와 순환을 안정시킨 뒤 장관을 사용할 수 있으면 조기 경장영양을 우선하며, 충분히 먹을 수 없다면 비위관 등으로 공급한다. 영양관 삽입이 초기 기도 처치보다 우선하지는 않는다.
+- **화상센터 즉시 협의·전원 검토**: 전층 화상, 부분층 ≥10% TBSA, 얼굴·손·발·생식기·회음부·주요 관절의 깊은 부분층/전층 화상, 흡입 손상 의심, 모든 화학 화상, ≥1,000 V 전기·낙뢰 손상에 적용한다. 동반 외상·기저질환·조절되지 않는 통증도 고려한다. 부분층 <10%라도 깊이가 불확실하거나 심부 손상이 의심되면 상담한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 감염(패혈증), 비후성 반흔, 구축, 다장기 부전, 우울증.
@@ -99,6 +97,3 @@ sources:
 - [[전기 화상 (Electrical Burn)]]
 
 ## 참고 가이드라인
-
-- [ABA 화상 쇼크 소생술 지침, 2024](https://guidance.nattrauma.org/media/wetjtmrg/american-burn-association-clinical-practice-guidelines-on-burn-shock-resuscitation.pdf)
-- [ABA 화상 전문센터 의뢰 기준, 현행 공식 기준(2026-10-07 확인)](https://www.ameriburn.org/burn-care-team/resources/guidelines-for-burn-patient-referral)

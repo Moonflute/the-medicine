@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAO 다래끼 치료 | https://www.aao.org/eye-health/diseases/chalazion-stye-treatment", "Moorfields 다래끼 관리 | https://www.moorfields.nhs.uk/eye-conditions/stye/diagnosis-and-treatment"]
 ---
 분과 : [[안과]]
 
@@ -43,7 +44,6 @@ reviewed_at: "2026-07-30"
 - 염증이 악화되거나 시력 저하, 전신 증상이 나타날 경우 안과 전문의에게 즉시 의뢰한다.
 - 치료 후 2~3일 간 증상 변화를 확인하고, 1주일 이내에 호전이 없으면 재평가한다.
 
-- 근거: [AAO 다래끼 치료](https://www.aao.org/eye-health/diseases/chalazion-stye-treatment), [Moorfields 다래끼 관리](https://www.moorfields.nhs.uk/eye-conditions/stye/diagnosis-and-treatment).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 수일 내에 자연 치유되거나 치료에 잘 반응함.

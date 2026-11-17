@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["2025 AHA 성인 맥박성 서맥 알고리즘 | https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf", "2025 AHA 성인 전문소생술 지침 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support"]
 ---
 ## 1. 개요
 - **정의**: 동방결절(SA node)의 기능 부전으로 인해 생리적으로 부적절한 서맥이 발생하는 질환군.
@@ -65,4 +66,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [2025 AHA 성인 맥박성 서맥 알고리즘](https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/2025-Algorithms/Algorithm-ACLS-Bradycardia-250514.pdf), [2025 AHA 성인 전문소생술 지침](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support); 성인 증상성 서맥의 관류저하 평가, 가역원인 교정 및 임시 페이싱 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. 2025 AHA 성인 맥박성 서맥 알고리즘, 2025 AHA 성인 전문소생술 지침; 성인 증상성 서맥의 관류저하 평가, 가역원인 교정 및 임시 페이싱 원칙을 대조. 2026-09-14 기존 목차 내 보완.

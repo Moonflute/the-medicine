@@ -13,6 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/"]
 ---
 분과 : [[감염]]
 
@@ -45,7 +46,6 @@ reviewed_at: "2026-07-30"
 - 다리 병변은 안정을 유지하고, 거상·냉찜질로 부종·통증 완화; 필요 시 진통제 사용
 - 치료 48–72시간 뒤 열·통증·발적 확산을 확인한다. 단순 비화농성 감염은 연쇄상구균을 덮는 약제를 사용하고, 호전되면 통상 5일을 기준으로 종료를 검토하며 불충분하면 연장한다. 불균형한 심한 통증·괴사·쇼크는 즉시 심부 감염을 재평가한다.
 
-[IDSA](https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 재발이 흔하며, 만성 림프부종을 유발할 수 있음.

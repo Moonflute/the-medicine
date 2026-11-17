@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAN/AES 첫 발작 지침 | https://doi.org/10.1212/WNL.0000000000001487", "NICE NG217 | https://www.nice.org.uk/guidance/ng217/chapter/treating-epileptic-seizures-in-children-young-people-and-adults", "ILAE 합의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9562030/", "AES/CNS 수술 지침, 2026 | https://doi.org/10.1177/15357597261465347"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -43,9 +44,9 @@ reviewed_at: "2026-07-30"
   부분/전신 구분은 EEG상 방전의 분포(국소 vs 양측성)를 기준으로 함.
 
 ## 5. 치료
-- **장기 ASM 시작**: 뇌전증 확진 후 시작한다. 첫 비유발 발작은 뇌 병변, 뇌전증파 EEG, 야간 발작 등 재발 위험과 환자 선호를 함께 따져 결정한다. 단일 가역적 대사성 유발 발작에 무조건 장기 약을 처방하지 않는다. [AAN/AES 첫 발작 지침](https://doi.org/10.1212/WNL.0000000000001487)
-- **유형별 선택**: 국소 발작은 lamotrigine 또는 levetiracetam 단독제를 우선 고려한다. 순수 결신 발작은 ethosuximide를 우선하며 전신 강직간대·근간대 동반이면 다른 광범위 약제가 필요하다. 임신 가능성·정신 증상·상호작용을 확인하고 valproate/topiramate의 생식 위험을 반영한다. [NICE NG217](https://www.nice.org.uk/guidance/ng217/chapter/treating-epileptic-seizures-in-children-young-people-and-adults)
-- **수술 의뢰**: 적절히 선택하고 충분히 사용한 내약 가능한 **두 약제 요법 실패**로 발작 자유를 얻지 못하면 전문 뇌전증센터에 의뢰한다. ‘추가로 1년을 기다린다’는 요건은 없다. 절제·절제술 대안·신경자극·식이치료의 적합성을 평가한다. [ILAE 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC9562030/), [AES/CNS 수술 지침, 2026](https://doi.org/10.1177/15357597261465347)
+- **장기 ASM 시작**: 뇌전증 확진 후 시작한다. 첫 비유발 발작은 뇌 병변, 뇌전증파 EEG, 야간 발작 등 재발 위험과 환자 선호를 함께 따져 결정한다. 단일 가역적 대사성 유발 발작에 무조건 장기 약을 처방하지 않는다.
+- **유형별 선택**: 국소 발작은 lamotrigine 또는 levetiracetam 단독제를 우선 고려한다. 순수 결신 발작은 ethosuximide를 우선하며 전신 강직간대·근간대 동반이면 다른 광범위 약제가 필요하다. 임신 가능성·정신 증상·상호작용을 확인하고 valproate/topiramate의 생식 위험을 반영한다.
+- **수술 의뢰**: 적절히 선택하고 충분히 사용한 내약 가능한 **두 약제 요법 실패**로 발작 자유를 얻지 못하면 전문 뇌전증센터에 의뢰한다. ‘추가로 1년을 기다린다’는 요건은 없다. 절제·절제술 대안·신경자극·식이치료의 적합성을 평가한다.
 - 약물 조정 중에는 초기 부작용·발작을 조기에 확인하고 안전·운전·응급 구조약 계획을 교육한다.
 
 ## 6. 예후 및 합병증 (Prognosis)

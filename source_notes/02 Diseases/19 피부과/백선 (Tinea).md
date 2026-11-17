@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAD 백선 | https://www.aad.org/public/diseases/a-z/ringworm-treatment", "손발톱 진균증 | https://www.aad.org/public/diseases/a-z/nail-fungus-treatment"]
 ---
 분과 : [[피부과]]
 
@@ -43,7 +44,7 @@ reviewed_at: "2026-07-30"
 - 국소 체부·완선·족부 백선은 국소 항진균제를 제품별 충분한 기간 사용한다. 스테로이드 복합제를 임의로 반복해 백선을 가리지 않는다.
 - **두부·수염 백선은 경구 항진균제가 필요**하며 샴푸만으로 치료하지 않는다. 광범위·모낭 침범·면역저하 또는 국소 치료 실패도 경구 치료를 검토하는 기준이다.
 - 손발톱 병변은 진균 검사를 통해 확인한 뒤 침범 범위·기질 침범·동반 질환에 따라 국소 또는 경구 치료를 선택한다. 경구제 선택 시 간질환·약물상호작용·임신 가능성을 확인한다.
-- 충분히 치료했는데 지속·확산하면 순응도와 재감염뿐 아니라 진단·균종·내성을 평가한다. 샴푸와 접촉물 관리 등 전파 방지는 약물 치료에 병행한다. [AAD 백선](https://www.aad.org/public/diseases/a-z/ringworm-treatment), [손발톱 진균증](https://www.aad.org/public/diseases/a-z/nail-fungus-treatment)
+- 충분히 치료했는데 지속·확산하면 순응도와 재감염뿐 아니라 진단·균종·내성을 평가한다. 샴푸와 접촉물 관리 등 전파 방지는 약물 치료에 병행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 적절한 치료 시 예후가 좋으나, 치료 중단 시 재발 가능.

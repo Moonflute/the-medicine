@@ -17,10 +17,7 @@ group_members:
 clinical_priority: tier_2
 content_updated_at: '2026-10-08'
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "KDIGO 루푸스 신염 가이드라인, 2024 | https://kdigo.org/guidelines/lupus-nephritis/"
-  - "CDC PSGN 임상 지침, 2025 자료; 2026-10 확인 | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html"
-  - "Merck Manual Professional 약물 과민반응, 임상 참고자료; 2026-10 확인 | https://www.merckmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/drug-hypersensitivity"
+sources: ["KDIGO 루푸스 신염 가이드라인, 2024 | https://kdigo.org/guidelines/lupus-nephritis/", "CDC PSGN 임상 지침, 2025 자료; 2026-10 확인 | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html", "Merck Manual Professional 약물 과민반응, 임상 참고자료; 2026-10 확인 | https://www.merckmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/drug-hypersensitivity"]
 ---
 # Type III
 
@@ -49,7 +46,3 @@ PSGN은 고혈압·부종 관리와 남은 감염의 치료가 중요하다. 항
 - [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]]
 
 ## 참고 자료
-
-- [KDIGO 루푸스 신염 가이드라인, 2024](https://kdigo.org/guidelines/lupus-nephritis/)
-- [CDC PSGN 임상 지침, 2025 자료; 2026-10 확인](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html)
-- [Merck Manual Professional 약물 과민반응, 임상 참고자료; 2026-10 확인](https://www.merckmanuals.com/professional/immunology-allergic-disorders/allergic-autoimmune-and-other-hypersensitivity-disorders/drug-hypersensitivity)

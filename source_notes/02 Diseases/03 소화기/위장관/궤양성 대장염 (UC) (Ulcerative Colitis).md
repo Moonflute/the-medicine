@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ACG 2025 | https://webfiles.gi.org/GuidelineHighlights/UC-highlights-final.pdf", "Oxford 기준 설명 | https://gi.org/guideline/ulcerative-colitis-in-adults", "ACG UC 2025 | https://gi.org/journals-publications/ebgi/alkazzi_aug2025/", "ECCO 진단 2025 | https://academic.oup.com/ecco-jcc/article/19/7/jjaf106/8219802", "BSG IBD 2019 | https://doi.org/10.1136/gutjnl-2019-318484", "AGA 입원 IBD 관리 | https://gastro.org/clinical-guidance/inpatient-management-of-adults-with-ibd/", "ASCRS UC 수술 지침 | https://fascrs.org/getattachment/Healthcare-Providers/Education/Clinical-Practice-Guidelines/2021-Ulcerative-Colitis-CPG.pdf", "ECCO 장외 증상 지침 2024 | https://academic.oup.com/ecco-jcc/article/18/1/1/7205776", "CPIC TPMT/NUDT15 2025 개정·2026 발표 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12997511/", "ECCO UC 약물치료 2026 | https://academic.oup.com/ecco-jcc/article/20/7/jjag066/8726617", "AGA IBD 영양요법 2024 | https://gastro.org/clinical-guidance/diet-and-nutritional-therapies-in-patients-with-ibd/", "AGA 크론병 2025 | https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/", "Vedolizumab 허가정보 | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6e94621c-1a95-4af9-98d1-52b9e6f1949c", "AGA 회낭염 지침 2024 | https://pubmed.ncbi.nlm.nih.gov/38128971/", "AGA IBD 이형성 감시 지침 | https://gastro.org/clinical-guidance/endoscopic-surveillance-and-management-of-colorectal-dysplasia-in-inflammatory-bowel-diseases-ibd/", "ASGE IBD 내시경 합의문 2025 | https://www.sciencedirect.com/science/article/abs/pii/S0016510724034722", "BSG 대장 감시 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13018778/"]
 ---
 분과 : [[소화기]]
 
@@ -95,7 +96,7 @@ reviewed_at: "2026-10-08"
 - 중등도·중증의 유도 치료는 활동도·이전 반응·위험도에 맞춰 전신 스테로이드 또는 고도 치료를 선택하고 약제별 시점에 반응을 평가한다. 급성 중증 입원 환자는 정주 스테로이드 시작 후 약 72시간 내 반응을 평가하며, 불충분하면 infliximab·cyclosporine 구제 치료와 외과 협의를 진행한다. 악화 시 예정 시점까지 기다리지 않는다.
 - 약물 부작용(감염, 골다공증 등)을 정기적으로 모니터링하고, 비타민 D·칼슘 섭취 및 결핍·골 건강을 평가하여 필요한 보충을 결정한다.
 
-- **입원·구제치료의 판단값**: 하루 혈변 ≥6회와 발열·빈맥·빈혈/염증 상승 등 전신 독성이 있으면 급성 중증 UC로 입원 평가한다. 정주 steroid 3일째 대변 >8회/일 또는 3–8회와 CRP >45 mg/L는 치료 실패 위험이 높아 구제치료·외과 협의를 서두르는 지표다. 이 점수만으로 수술을 확정하지 않으며, 독성 거대결장·천공·조절 불가 대량 출혈·임상 악화는 즉각적인 수술 평가 대상이다. [ACG 2025](https://webfiles.gi.org/GuidelineHighlights/UC-highlights-final.pdf), [Oxford 기준 설명](https://gi.org/guideline/ulcerative-colitis-in-adults)
+- **입원·구제치료의 판단값**: 하루 혈변 ≥6회와 발열·빈맥·빈혈/염증 상승 등 전신 독성이 있으면 급성 중증 UC로 입원 평가한다. 정주 steroid 3일째 대변 >8회/일 또는 3–8회와 CRP >45 mg/L는 치료 실패 위험이 높아 구제치료·외과 협의를 서두르는 지표다. 이 점수만으로 수술을 확정하지 않으며, 독성 거대결장·천공·조절 불가 대량 출혈·임상 악화는 즉각적인 수술 평가 대상이다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 독성 거대결장·천공·조절되지 않는 심한 출혈은 긴급 외과 평가 대상이다. 수혈량이 특정 단위에 도달할 때까지 기다리지 않는다. 스테로이드 등 면역억제 치료 중에는 천공·복막염의 진찰 소견이 뚜렷하지 않을 수 있다.
@@ -121,18 +122,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ACG UC 2025](https://gi.org/journals-publications/ebgi/alkazzi_aug2025/)
-- [ECCO 진단 2025](https://academic.oup.com/ecco-jcc/article/19/7/jjaf106/8219802)
-- [BSG IBD 2019](https://doi.org/10.1136/gutjnl-2019-318484)
-- [AGA 입원 IBD 관리](https://gastro.org/clinical-guidance/inpatient-management-of-adults-with-ibd/)
-- [ASCRS UC 수술 지침](https://fascrs.org/getattachment/Healthcare-Providers/Education/Clinical-Practice-Guidelines/2021-Ulcerative-Colitis-CPG.pdf)
-- [ECCO 장외 증상 지침 2024](https://academic.oup.com/ecco-jcc/article/18/1/1/7205776)
-- [CPIC TPMT/NUDT15 2025 개정·2026 발표](https://pmc.ncbi.nlm.nih.gov/articles/PMC12997511/)
-- [ECCO UC 약물치료 2026](https://academic.oup.com/ecco-jcc/article/20/7/jjag066/8726617)
-- [AGA IBD 영양요법 2024](https://gastro.org/clinical-guidance/diet-and-nutritional-therapies-in-patients-with-ibd/)
-- [AGA 크론병 2025](https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/)
-- [Vedolizumab 허가정보](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6e94621c-1a95-4af9-98d1-52b9e6f1949c)
-- [AGA 회낭염 지침 2024](https://pubmed.ncbi.nlm.nih.gov/38128971/)
-- [AGA IBD 이형성 감시 지침](https://gastro.org/clinical-guidance/endoscopic-surveillance-and-management-of-colorectal-dysplasia-in-inflammatory-bowel-diseases-ibd/)
-- [ASGE IBD 내시경 합의문 2025](https://www.sciencedirect.com/science/article/abs/pii/S0016510724034722)
-- [BSG 대장 감시 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC13018778/)

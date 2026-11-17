@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidelines-Highlights-Acute-Pancreatitis-2024-FINAL.pdf", "ACG 만성 췌장염 진료지침 | https://pubmed.ncbi.nlm.nih.gov/32022720/", "ESGE 괴사성 췌장염 내시경 지침 | https://www.esge.com/endoscopic-management-of-acute-necrotizing-pancreatitis-esge-evidence-based-multidisciplinary-guideline", "Pancreapedia 자가면역 췌장염 진단 | https://pancreapedia.org/reviews/diagnosis-autoimmune-pancreatitis"]
 ---
 분과 : [[소화기]]
 
@@ -63,7 +64,7 @@ reviewed_at: "2026-10-08"
 - 증상, 감염·출혈·폐쇄 등 합병증이 있으면 해부학·췌관 연결·괴사성 내용물과 시술 전문성에 따라 EUS 유도 내시경, 경피 또는 수술 배액을 선택한다. 감염 또는 출혈이 의심되면 배양·혈관 평가와 원인 조절을 배액 계획에 포함한다.
 - 내시경 배액이 불가능·실패하거나 해부학적으로 부적합하면 경피 또는 외과적 배액을 검토한다. 가성낭종 자체에 암 전이 위험이라는 표현을 적용하지 않으며, 낭성종양이 의심되면 진단을 다시 평가한다.
 
-- **배액 시점**: 임상적으로 안정되면 대개 발생 ≥4주 뒤 성숙한 벽과 위/십이지장 접근성을 확인하여 배액한다. 지속 통증·섭취 곤란, 감염, 위출구/담도 폐쇄 등 실제 증상이 적응증이며, 단순히 6 cm 또는 6주를 넘었다는 이유만으로 배액하지 않는다. 출혈·패혈증 등 불안정은 지연하지 않고 긴급 원인 조절을 평가한다. [ACG 2024](https://webfiles.gi.org/links/journals/AJG-Clinical-Guidelines-Highlights-Acute-Pancreatitis-2024-FINAL.pdf)
+- **배액 시점**: 임상적으로 안정되면 대개 발생 ≥4주 뒤 성숙한 벽과 위/십이지장 접근성을 확인하여 배액한다. 지속 통증·섭취 곤란, 감염, 위출구/담도 폐쇄 등 실제 증상이 적응증이며, 단순히 6 cm 또는 6주를 넘었다는 이유만으로 배액하지 않는다. 출혈·패혈증 등 불안정은 지연하지 않고 긴급 원인 조절을 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -78,6 +79,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ACG 만성 췌장염 진료지침](https://pubmed.ncbi.nlm.nih.gov/32022720/)
-- [ESGE 괴사성 췌장염 내시경 지침](https://www.esge.com/endoscopic-management-of-acute-necrotizing-pancreatitis-esge-evidence-based-multidisciplinary-guideline)
-- [Pancreapedia 자가면역 췌장염 진단](https://pancreapedia.org/reviews/diagnosis-autoimmune-pancreatitis)

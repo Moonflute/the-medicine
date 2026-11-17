@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AO 상완골 간부 비수술 치료 | https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/simple-fracture-oblique-30/nonoperative-treatment"]
 ---
 분과 : [[정형외과]]
 
@@ -41,7 +42,6 @@ reviewed_at: "2026-07-30"
 - 개방 골절, 혈관 손상, 정렬 유지 실패, 동반 다발성 손상이나 불유합은 수술 고정을 평가한다.
 - 손목·손가락 신전과 감각으로 요골신경을 기록한다. **폐쇄 골절 때 처음부터 있던 요골신경 마비는 자연 회복을 기대하며 손목 부목과 관찰을 선택할 수 있다.** 신경 마비만으로 모두 즉시 탐색하지 않는다. 개방성 절단 의심, 혈관 손상, 정복/수술 후 새 마비는 긴급 재평가한다.
 - 연속 진찰과 방사선으로 정렬·유합을 확인하고 회복이 없으면 전기진단/신경 탐색 시점을 전문의와 정한다.
-- 근거: [AO 상완골 간부 비수술 치료](https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/humeral-shaft/simple-fracture-oblique-30/nonoperative-treatment).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 요골신경 마비(가장 흔함), 불유합(nonunion), 부정유합(malunion), 감염.

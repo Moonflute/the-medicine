@@ -20,7 +20,7 @@ clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 guideline_year: "2019"
-sources: ["폐 및 흉막 감염의 진단과 치료 임상진료지침 | https://www.ksid.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=195"]
+sources: ["폐 및 흉막 감염의 진단과 치료 임상진료지침 | https://www.ksid.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=195", "IDSA/ATS HAP/VAP 진료지침 | https://www.idsociety.org/practice-guideline/hap_vap/", "BTS Pleural Disease Guideline 2023 | https://thorax.bmj.com/content/78/Suppl_3/s1", "IDSA 성인 CAP 진료지침 | https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults"]
 ---
 분과 : [[호흡기]]
 
@@ -70,4 +70,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [IDSA/ATS HAP/VAP 진료지침](https://www.idsociety.org/practice-guideline/hap_vap/), [BTS Pleural Disease Guideline 2023](https://thorax.bmj.com/content/78/Suppl_3/s1), [IDSA 성인 CAP 진료지침](https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults)을 대조하여 폐렴 분류, 배양 기반 항생제 축소, 흉막감염 배액 원칙을 갱신. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. IDSA/ATS HAP/VAP 진료지침, BTS Pleural Disease Guideline 2023, IDSA 성인 CAP 진료지침을 대조하여 폐렴 분류, 배양 기반 항생제 축소, 흉막감염 배액 원칙을 갱신. 2026-09-14 기존 목차 내 보완.

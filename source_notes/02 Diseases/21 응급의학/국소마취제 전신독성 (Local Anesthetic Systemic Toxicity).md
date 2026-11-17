@@ -18,9 +18,7 @@ reviewed_at: '2026-10-07'
 content_updated_at: "2026-11-18"
 review_status: official_guideline_reviewed
 guideline_year: '2020'
-sources:
-- 'ASRA: LAST checklist, 2020 | https://asra.com/docs/default-source/guidelines-articles/local-anesthetic-systemic-toxicity-rgb.pdf?sfvrsn=33b348e_2'
-- 'ASRA: Checklist publication and revision status | https://asra.com/the-asra-family/special-interest-groups/cancer-pain-and-supportive-care-sig/cancer-pain-sig-article/guidelines/2020/11/01/checklist-for-treatment-of-local-anesthetic-systemic-toxicity'
+sources: ["ASRA: LAST checklist, 2020 | https://asra.com/docs/default-source/guidelines-articles/local-anesthetic-systemic-toxicity-rgb.pdf?sfvrsn=33b348e_2", "ASRA: Checklist publication and revision status | https://asra.com/the-asra-family/special-interest-groups/cancer-pain-and-supportive-care-sig/cancer-pain-sig-article/guidelines/2020/11/01/checklist-for-treatment-of-local-anesthetic-systemic-toxicity", "ASRA checklist | https://rapm.bmj.com/content/46/1/81"]
 ---
 분과 : [[응급의학]], [[외과]]
 
@@ -42,7 +40,7 @@ sources:
 - LAST 소생술은 표준 ACLS와 약물 선택·용량이 다르다. Epinephrine은 적은 용량을 고려하며 beta-blocker·calcium channel blocker·vasopressin과 추가 국소마취제는 피한다.
 
 - **ASRA 지질 구제 용량**: <70 kg은 20% 지질 1.5 mL/kg를 2~3분에 걸쳐 bolus 후 0.25 mL/kg/min 주입, >70 kg은 약 100 mL bolus 후 250 mL를 15~20분에 주입한다. 불안정 지속 시 bolus 반복·주입 속도 증량을 검토하며 **총량 약 12 mL/kg 한도**와 안정 후 추가 주입을 프로토콜로 관리한다.
-- 경련 뒤 최소 2시간, 심혈관 불안정 뒤 4~6시간 이상 등으로 관찰을 연장하고 심정지는 별도 중환자 관리를 한다. 저용량 epinephrine을 쓸 때는 **<1 μg/kg로 시작**을 고려한다. [ASRA checklist](https://rapm.bmj.com/content/46/1/81)
+- 경련 뒤 최소 2시간, 심혈관 불안정 뒤 4~6시간 이상 등으로 관찰을 연장하고 심정지는 별도 중환자 관리를 한다. 저용량 epinephrine을 쓸 때는 **<1 μg/kg로 시작**을 고려한다.
 
 ## 6. 예후 및 합병증
 - 안정 뒤에도 재발을 감시한다. ASRA는 경련 후 최소 2시간, 심혈관 불안정 뒤 4–6시간 관찰 경로를 제시하며 심정지 뒤에는 상태에 맞춘 관리가 필요하다.

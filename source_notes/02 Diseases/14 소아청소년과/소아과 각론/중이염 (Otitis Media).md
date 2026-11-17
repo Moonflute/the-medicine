@@ -21,6 +21,7 @@ population: "pediatric"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CPS 급성중이염 권고 | https://cps.ca/en/documents/position/acute-otitis-media", "AAP 임상진료지침 | https://doi.org/10.1542/peds.2012-3488"]
 ---
 분과 : [[소아청소년과]]
 
@@ -56,13 +57,11 @@ reviewed_at: "2026-07-30"
 - **항생제 선택·변경**: 항생제 적응증에 해당하면 amoxicillin을 우선한다(1일 2회 투여 시 총 **75–90 mg/kg/일**). 최근 **30일 이내 amoxicillin**, 화농성 결막염, 재발·비반응이면 amoxicillin–clavulanate를 선택한다. 48–72시간 뒤 호전이 없으면 진단·복약·합병증을 다시 확인하고 변경한다. 중이 삼출만 남는 것은 항생제 실패가 아니다.
 - **기간**: CPS 기준 **2세 미만, 고막 천공, 재발 또는 초기 치료 실패**는 보통 10일, 2세 이상 단순 비중증은 5일 치료를 사용할 수 있다. 약제 알레르기 유형과 지역 내성에 따라 대안을 고른다.
 
-근거: [CPS 급성중이염 권고](https://cps.ca/en/documents/position/acute-otitis-media).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 치료 시 예후가 좋으나, 적절한 치료가 이루어지지 않을 경우 만성 중이염, 고막 천공, 청력 손실, 유착성 중이염, 유양돌기염 등으로 진행 가능
 
 출처 : StatPearls (Acute Otitis Media)
 
-급성중이염 진단·관찰 기준: [AAP 임상진료지침](https://doi.org/10.1542/peds.2012-3488) · [Canadian Paediatric Society 권고](https://cps.ca/en/documents/position/acute-otitis-media)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

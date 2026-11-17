@@ -17,7 +17,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["2024 Update to SAGES guidelines for the use of peroral endoscopic myotomy (POEM) in the treatment of achalasia. | https://pubmed.ncbi.nlm.nih.gov/40399617/"]
+sources: ["2024 Update to SAGES guidelines for the use of peroral endoscopic myotomy (POEM) in the treatment of achalasia. | https://pubmed.ncbi.nlm.nih.gov/40399617/", "ACG Achalasia guideline | https://pmc.ncbi.nlm.nih.gov/articles/PMC9896940/"]
 
 content_updated_at: "2026-07-17"
 ---
@@ -70,4 +70,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [ACG Achalasia guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC9896940/)와 대조. 기존 SAGES/POEM 권고는 유지함. 2026-09-14 기존 목차 내 부분 보완.
+보완 출처: 삼성서울병원 메뉴얼. ACG Achalasia guideline와 대조. 기존 SAGES/POEM 권고는 유지함. 2026-09-14 기존 목차 내 부분 보완.

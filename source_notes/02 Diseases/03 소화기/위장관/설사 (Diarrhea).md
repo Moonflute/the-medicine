@@ -17,6 +17,7 @@ population: "adult"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["IDSA 감염성 설사 지침 | https://www.idsociety.org/practice-guideline/infectious-diarrhea/", "AGA 만성 수양성 설사 평가 | https://gastro.org/press-releases/new-guideline-provides-recommendations-on-the-evaluation-of-chronic-diarrhea/", "BSG 만성 설사 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6204957/", "Mayo 대변 전해질·삼투질농도 검사 | https://prd1.mayocliniclabs.com/test-catalog/overview/35091", "CDC Shigella 치료 | https://www.cdc.gov/shigella/treatment/index.html"]
 ---
 ## 1. 개요
 - 만성 설사는 수양성·지방성·염증성 양상을 나누고 여러 기전의 중첩을 고려한다. 담즙산, 약제·음주, 장절제·담낭절제·비만수술, 췌장 외분비부전, 셀리악병·세균 과증식, 현미경적 대장염·IBD, 갑상선기능항진 및 운동촉진제 등이 원인이 될 수 있다.
@@ -108,8 +109,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [IDSA 감염성 설사 지침](https://www.idsociety.org/practice-guideline/infectious-diarrhea/)
-- [AGA 만성 수양성 설사 평가](https://gastro.org/press-releases/new-guideline-provides-recommendations-on-the-evaluation-of-chronic-diarrhea/)
-- [BSG 만성 설사 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6204957/)
-- [Mayo 대변 전해질·삼투질농도 검사](https://prd1.mayocliniclabs.com/test-catalog/overview/35091)
-- [CDC Shigella 치료](https://www.cdc.gov/shigella/treatment/index.html)

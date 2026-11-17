@@ -18,7 +18,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["Steroid-sensitive nephrotic syndrome in children: Korean Society of Pediatric Nephrology clinical practice recommendations (2025) | https://www.krcp-ksn.org/journal/view.php?number=130", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
+sources: ["Steroid-sensitive nephrotic syndrome in children: Korean Society of Pediatric Nephrology clinical practice recommendations (2025) | https://www.krcp-ksn.org/journal/view.php?number=130", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/", "KDIGO 2025 | https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children.pdf", "IPNA 스테로이드 반응성 신증후군 | https://theipna.org/wp-content/uploads/2023/01/IPNA.GL_.SSNS_.PedNeph22.pdf"]
 
 content_updated_at: "2026-11-15"
 ---
@@ -85,7 +85,6 @@ content_updated_at: "2026-11-15"
 
 출처 : Merck Manual Professional (Overview of Nephrotic Syndrome)
 추가 출처: 삼성서울병원 메뉴얼
-소아 지침: [KDIGO 2025](https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children.pdf) · [IPNA 스테로이드 반응성 신증후군](https://theipna.org/wp-content/uploads/2023/01/IPNA.GL_.SSNS_.PedNeph22.pdf)
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-11 : 본문 갱신 (processed)

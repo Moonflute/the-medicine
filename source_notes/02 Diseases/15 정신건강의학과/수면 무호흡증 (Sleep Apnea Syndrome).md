@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE NG202 | https://www.nice.org.uk/guidance/ng202/chapter/obstructive-sleep-apnoeahypopnoea-syndrome"]
 disease_family: psychiatry_split
 parent_disease: 수면 관련 장애 (Sleep-Wake Disorders)
 relation_to_parent: subtype
@@ -50,7 +49,6 @@ relation_to_parent: subtype
 - **PAP 선택 기준**: 성인 OSA는 통상 AHI **5–<15 경도, 15–<30 중등도, ≥30 중증**으로 나눈다. 중등도–중증은 PAP가 주요 치료이며, 경도라도 졸음·삶의 질·주간 기능 손상이 지속되면 CPAP를 제안한다. 수치만으로 증상성 경도 환자를 배제하지 않는다.
 - **대안 전환**: 마스크·가습·비염·압력 문제를 교정해도 PAP를 견디지 못하거나 거부하면 치아·치주 상태가 적합한 환자에서 맞춤 하악전진장치를 검토한다. 해부학적 폐쇄·편도 비대 및 PAP/구강장치 실패는 수술 평가 사유다. 중추성 무호흡·저환기에는 이 OSA 알고리즘을 그대로 적용하지 않는다.
 
-근거: [NICE NG202](https://www.nice.org.uk/guidance/ng202/chapter/obstructive-sleep-apnoeahypopnoea-syndrome).
 
 ## 6. 예후 및 합병증
 - 미치료 시 고혈압, 심혈관 질환(부정맥, 심부전), 뇌졸중, 제2형 당뇨병 위험 증가.

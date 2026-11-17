@@ -19,6 +19,7 @@ population: "adult"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["AGA 난치성 변비 평가 2026 | https://gastro.org/clinical-guidance/evaluation-and-management-of-refractory-constipation/", "AGA/ACG 만성 특발성 변비 약물치료 2023 | https://gastro.org/clinical-guidance/pharmacological-management-of-chronic-idiopathic-constipation-cic/"]
 ---
 ## 1. 개요
 - 특발성 변비는 정상 통과형, 서행성 통과형, 배변장애로 구분하며 여러 기전이 겹칠 수 있다. 이차적 원인과 변비형 IBS를 구분한 뒤 기능성 변비를 평가한다.
@@ -77,5 +78,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [AGA 난치성 변비 평가 2026](https://gastro.org/clinical-guidance/evaluation-and-management-of-refractory-constipation/)
-- [AGA/ACG 만성 특발성 변비 약물치료 2023](https://gastro.org/clinical-guidance/pharmacological-management-of-chronic-idiopathic-constipation-cic/)

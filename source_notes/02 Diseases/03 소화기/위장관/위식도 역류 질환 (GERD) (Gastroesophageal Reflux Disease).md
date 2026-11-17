@@ -18,8 +18,7 @@ clinical_priority: "tier_2"
 source_currency_assessment: "current_standard_retained"
 content_updated_at: "2026-11-18"
 guideline_year: "2022"
-sources:
-- 'ACG Clinical Guideline for Diagnosis and Management of GERD | https://pubmed.ncbi.nlm.nih.gov/34807007/'
+sources: ["ACG Clinical Guideline for Diagnosis and Management of GERD | https://pubmed.ncbi.nlm.nih.gov/34807007/", "ACG GERD 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/"]
 disease_family: gerd
 population: adult
 reviewed_at: "2026-07-30"
@@ -69,7 +68,6 @@ review_status: "guideline_enriched"
 
 - 전형적 증상·경고 소견이 없는 성인은 **PPI 1일 1회 8주** 반응을 평가한다. 복약 최적화에도 증상이 지속되면 미확진 GERD는 산 억제 중단 상태의 역류검사, 이미 객관적으로 입증된 GERD의 지속 증상은 치료 중 impedance-pH 검사 등으로 원인을 구분한다. 검사상 역류와 무관한 기능성 증상에는 계속 증량하거나 역류 수술을 시행하지 않는다.
 - **LA C/D 식도염**은 장기 PPI 또는 항역류 수술을 검토하며, TIF는 통상 **열공탈장 >2 cm 또는 LA C/D**인 경우의 단독 대안으로 적용하지 않는다.
-- 근거: [ACG GERD 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/).
 
 ## 6. 예후 및 합병증
 - **합병증**: 식도염, 식도 궤양, 소화성 협착, 바렛 식도, 식도 선암 등이 발생할 수 있다.
@@ -82,4 +80,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [ACG GERD 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8754510/)와 진단·복용 시점·유지요법을 대조함. 2026-09-14 기존 목차 내 부분 보완.
+보완 출처: 삼성서울병원 메뉴얼. ACG GERD 2022와 진단·복용 시점·유지요법을 대조함. 2026-09-14 기존 목차 내 부분 보완.

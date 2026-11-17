@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ESC 심실부정맥 지침 2022 | https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/09/02/14/23/2022-esc-guidelines-for-vas-esc-2022"]
 ---
 분과 : [[순환기]]
 
@@ -49,7 +50,6 @@ reviewed_at: "2026-07-30"
 - 무증상이고 구조적 심질환·심기능 저하가 없으면 경과 관찰한다. 증상과 리듬의 연관성, 전해질·약물/자극제 및 허혈을 평가한다. 유증상 특발성 PVC는 기원에 따라 베타차단제/비DHP CCB 또는 절제술을 선택한다.
 - **설명되지 않는 EF 저하와 PVC burden ≥10%**이면 PVC 유발 심근병증을 의심하고 CMR·전기생리 평가 및 절제술을 검토한다. RVOT/좌각 기원의 증상성 특발성 PVC·VT는 절제술을 1차로 선택할 수 있다.
 - PAC/PVC만 있다는 이유로 항응고하지 않는다. AF가 별도로 확인되면 해당 질환의 항응고 기준을 적용한다.
-- 근거: [ESC 심실부정맥 지침 2022](https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/09/02/14/23/2022-esc-guidelines-for-vas-esc-2022).
 
 ## 6. 예후 및 합병증
 - **합병증**: 심부전, 혈전색전증(뇌졸중 등), 빈맥 유발성 심근병증(Tachycardia-induced cardiomyopathy).

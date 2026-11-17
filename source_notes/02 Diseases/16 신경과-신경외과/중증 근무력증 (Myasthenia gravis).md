@@ -14,7 +14,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis. | https://pubmed.ncbi.nlm.nih.gov/41396134/"]
+sources: ["Portuguese Consensus Guidelines for the Diagnosis and Treatment of Myasthenia Gravis. | https://pubmed.ncbi.nlm.nih.gov/41396134/", "근무력증 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10752078/", "FDA 2026 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761195s016lbl.pdf"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -28,7 +28,6 @@ content_updated_at: "2026-11-18"
   반복적인 근육 사용 시 아세틸콜린 저장량이 고갈되어 근력 약화가 심화됨.
 
 
-
 ## 2. 임상 양상 (Clinical Features)
 * **CC**:
   안검 하수, 복시, 연하 곤란, 구음 장애.
@@ -37,7 +36,6 @@ content_updated_at: "2026-11-18"
 * **P/E**:
   오후에 악화되는 근무력증.
   안구 근육, 구강인두 근육, 사지 근위부 근육 순으로 흔히 침범.
-
 
 
 ## 3. 검사 (Lab & Imaging)
@@ -49,20 +47,18 @@ content_updated_at: "2026-11-18"
   MGFA(Myasthenia Gravis Foundation of America) 분류를 통해 중증도 평가.
 
 
-
 ## 5. 치료 (Treatment)
 - **기본 치료**: 아세틸콜린에스테라제 억제제, 스테로이드 및 비스테로이드성 면역억제제 사용.
 - **최신 치료 전략**: 보체 경로 억제제(terminal complement pathway inhibitors) 및 신생아 Fc 수용체 길항제(neonatal Fc receptor antagonists)가 도입되어 치료 환경이 변화함.
 - **맞춤형 알고리즘**: 항체 아형(antibody subgroup) 및 임상적 중증도에 따라 치료 단계를 결정하며, 최신 가이드라인에 따른 단계적 접근이 권장됨.
 
 - **기본 치료에서 증강**: pyridostigmine으로 기능 목표를 달성하지 못하면 steroid ± azathioprine 등 면역억제를 추가한다. 호흡·연하 약화가 빠르게 진행하면 입원/중환자실에서 폐활량·기도 보호를 평가하고 IVIG 또는 혈장교환으로 신속 치료한다. 초기 steroid 악화를 예상하여 중증 구마비에서는 구조치료를 먼저 계획한다.
-- **항체·질병 활성에 따른 표적치료**: 지속 고활성 AChR 양성 전신형은 C5 억제제 또는 FcRn 억제제를 평가하고, MuSK 양성은 rituximab 등의 조기 사용을 검토한다. C5 억제는 수막구균 예방을 선행한다. FcRn 약제별 허가 항체 범위가 서로 다르며 **efgartigimod의 미국 2026년 허가는 성인 전신형에서 항체 양성 제한이 해제**되었다. 국내 허가·급여와 구분한다. [근무력증 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC10752078/), [FDA 2026](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761195s016lbl.pdf)
+- **항체·질병 활성에 따른 표적치료**: 지속 고활성 AChR 양성 전신형은 C5 억제제 또는 FcRn 억제제를 평가하고, MuSK 양성은 rituximab 등의 조기 사용을 검토한다. C5 억제는 수막구균 예방을 선행한다. FcRn 약제별 허가 항체 범위가 서로 다르며 **efgartigimod의 미국 2026년 허가는 성인 전신형에서 항체 양성 제한이 해제**되었다. 국내 허가·급여와 구분한다.
 - **흉선절제**: 흉선종은 절제를 평가한다. 비흉선종 AChR 양성 전신형은 특히 18–65세·발병 5년 이내에서 조기 절제를 검토한다. MuSK 양성 또는 순수 안구형에 같은 근거를 자동 적용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 호흡근 마비로 인한 '근무력성 위기(Myasthenic crisis)'는 응급 상황으로 인공호흡기 치료가 필요할 수 있음.
   장기적인 면역억제제 사용에 따른 부작용 주의.
-
 
 
 출처 : StatPearls (Myasthenia Gravis, Anesthesia for Patients With Myasthenia Gravis)

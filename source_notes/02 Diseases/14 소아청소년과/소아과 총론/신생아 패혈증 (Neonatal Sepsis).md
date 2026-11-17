@@ -21,6 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAP 재태 35주 이상 조기 패혈증 관리 | https://publications.aap.org/pediatrics/article/142/6/e20182894/37522", "AAP 재태 34주 6일 이하 조기 패혈증 관리 | https://publications.aap.org/pediatrics/article/142/6/e20182896/37519"]
 ---
 분과 : [[소아청소년과]]
 
@@ -55,7 +56,6 @@ reviewed_at: "2026-07-30"
 * 조기 진단 및 치료 지연 시 패혈성 쇼크, 장기 부전, 사망 위험 급증
 * 뇌 손상 및 신경학적 후유증 가능성
 
-근거: [AAP 재태 35주 이상 조기 패혈증 관리](https://publications.aap.org/pediatrics/article/142/6/e20182894/37522) · [AAP 재태 34주 6일 이하 조기 패혈증 관리](https://publications.aap.org/pediatrics/article/142/6/e20182896/37519)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

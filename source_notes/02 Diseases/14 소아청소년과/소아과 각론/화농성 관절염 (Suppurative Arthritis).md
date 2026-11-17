@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["PIDS/IDSA 2023 | https://www.idsociety.org/practice-guideline/acute-bacterial-arthritis-in-pediatrics2/"]
 ---
 분과 : [[소아청소년과]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 * **추적 관찰 및 재활**: 염증 지표(CRP, ESR)의 정상화 확인 및 관절 기능 회복을 위한 조기 물리치료를 병행함
 * **전원 고려**: 관절 파괴 위험이 높거나 수술적 처치가 필요한 경우 정형외과 전문의에게 즉시 의뢰함
 
-* **경험치료·전환 기준**: S. aureus를 기본 표적으로 지역 MRSA 위험을 반영하고, **6–48개월**에서는 Kingella kingae를 덮는 β-lactam을 포함할지 고려한다. Vancomycin/clindamycin만으로 Kingella를 충분히 치료한다고 간주하지 않는다. 적절한 배농·항생제 후 **48–96시간** 발열·균혈증·CRP 상승이 지속되면 인접 골수염·잔여 농양을 평가하고 추가 배농을 고려한다. 빠른 임상·CRP 호전이 있는 원발성 관절염은 정주→경구 전환과 **총 10–14일**이 가능하나 반응 지연·배농 불충분은 **21–28일**, 동반 골수염은 골수염 경로에 맞춘다. [PIDS/IDSA 2023](https://www.idsociety.org/practice-guideline/acute-bacterial-arthritis-in-pediatrics2/)
+* **경험치료·전환 기준**: S. aureus를 기본 표적으로 지역 MRSA 위험을 반영하고, **6–48개월**에서는 Kingella kingae를 덮는 β-lactam을 포함할지 고려한다. Vancomycin/clindamycin만으로 Kingella를 충분히 치료한다고 간주하지 않는다. 적절한 배농·항생제 후 **48–96시간** 발열·균혈증·CRP 상승이 지속되면 인접 골수염·잔여 농양을 평가하고 추가 배농을 고려한다. 빠른 임상·CRP 호전이 있는 원발성 관절염은 정주→경구 전환과 **총 10–14일**이 가능하나 반응 지연·배농 불충분은 **21–28일**, 동반 골수염은 골수염 경로에 맞춘다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 신속한 치료 시 예후가 좋음

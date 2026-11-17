@@ -13,6 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/"]
 ---
 분과 : [[감염]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 - 치료 종료 전후에 기저 질환(당뇨, 정맥 부전, 피부 손상, 무좀, 부종, 말초혈관질환 등)을 점검하고, 재발 방지를 위한 관리(보습, 손상 예방, 정맥 압박 등)를 시행한다.
 - 항생제 치료 시작 후 3~5일 이내에 추적 검진을 실시
 
-- **항생제 범위·기간**: 비화농성·전신독성 없는 경우는 연쇄상구균 중심으로 치료한다. 관통상, MRSA 병력/집락, 주사약물 사용 또는 SIRS 등은 MRSA 추가 범위를 검토한다. 배농 가능한 농양은 절개·배농이 우선이다. 단순 감염은 임상 호전 시 약 5일 치료하며 반응이 없으면 연장·원인 재평가한다. [IDSA](https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/)
+- **항생제 범위·기간**: 비화농성·전신독성 없는 경우는 연쇄상구균 중심으로 치료한다. 관통상, MRSA 병력/집락, 주사약물 사용 또는 SIRS 등은 MRSA 추가 범위를 검토한다. 배농 가능한 농양은 절개·배농이 우선이다. 단순 감염은 임상 호전 시 약 5일 치료하며 반응이 없으면 연장·원인 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 예후는 우수하다.

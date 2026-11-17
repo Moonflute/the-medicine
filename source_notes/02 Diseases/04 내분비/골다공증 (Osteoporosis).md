@@ -13,8 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-17"
 guideline_year: "2024"
-sources:
-- 'NOGG Clinical Guideline for Prevention and Treatment of Osteoporosis | https://www.nogg.org.uk/sites/nogg/download/NOGG-Guideline-2024.pdf?v3='
+sources: ["NOGG Clinical Guideline for Prevention and Treatment of Osteoporosis | https://www.nogg.org.uk/sites/nogg/download/NOGG-Guideline-2024.pdf?v3=", "FDA 안전성 경고 | https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease", "Endocrine Society 골다공증 지침 | https://www.endocrine.org/clinical-practice-guidelines/osteoporosis-in-postmenopausal-women", "대한골대사학회 골다공증 진료지침 | https://www.ksbmr.org/"]
 disease_family: osteoporosis
 population: adult
 reviewed_at: "2026-07-16"
@@ -71,7 +70,7 @@ review_status: "guideline_enriched"
   신기능 저하 시 주의(eGFR < 30~35).
 - **데노수맙**:
   RANKL 억제제.
-  신장 배설에 따른 용량 조절은 필요하지 않지만 진행성 CKD·투석, 특히 CKD-MBD에서는 중증 저칼슘혈증 위험이 크다. 투여 전 Ca·vitamin D와 CKD-MBD를 평가하고 교정·추적 계획을 세운다. [FDA 안전성 경고](https://www.fda.gov/drugs/drug-safety-communications/fda-adds-boxed-warning-increased-risk-severe-hypocalcemia-patients-advanced-chronic-kidney-disease)
+  신장 배설에 따른 용량 조절은 필요하지 않지만 진행성 CKD·투석, 특히 CKD-MBD에서는 중증 저칼슘혈증 위험이 크다. 투여 전 Ca·vitamin D와 CKD-MBD를 평가하고 교정·추적 계획을 세운다.
 - **SERM (랄록시펜 등)**: 척추 골절 예방, 유방암 예방 효과.
 - **골형성 촉진제 (중증 환자)**
 - **테리파라타이드**:
@@ -84,7 +83,7 @@ review_status: "guideline_enriched"
 - **순차 치료와 중단 계획**: 최근 다발성 척추 골절 등 매우 높은 위험에서는 골형성 촉진제를 먼저 고려한 뒤 항흡수제로 이어가는 치료를 검토한다. 데노수맙은 투여 지연·중단 시 골소실과 척추 골절 위험이 증가할 수 있으므로, 시작 전부터 다른 항흡수제로 전환하는 계획을 세운다.
 - **재평가**: 새 골절, DXA 변화, 순응도와 부작용을 주기적으로 확인한다. 비스포스포네이트 휴약은 저위험 환자에서만 개별적으로 검토한다.
 
-- **치료 강화·중단**: 고관절·척추 취약골절은 골밀도만 기다리지 않고 약물 적응증을 평가한다. 새 골절·골밀도 감소가 생기면 먼저 순응도·이차 원인을 확인하고 매우 높은 위험에서는 골형성제 후 항흡수제 순차 치료를 선택한다. 데노수맙에는 비스포스포네이트의 휴약 원칙을 적용하지 않는다. [Endocrine Society 골다공증 지침](https://www.endocrine.org/clinical-practice-guidelines/osteoporosis-in-postmenopausal-women)
+- **치료 강화·중단**: 고관절·척추 취약골절은 골밀도만 기다리지 않고 약물 적응증을 평가한다. 새 골절·골밀도 감소가 생기면 먼저 순응도·이차 원인을 확인하고 매우 높은 위험에서는 골형성제 후 항흡수제 순차 치료를 선택한다. 데노수맙에는 비스포스포네이트의 휴약 원칙을 적용하지 않는다.
 
 ## 6. 예후 및 합병증
 - 골절로 인한 통증, 신체 기능 저하, 사망률 증가.
@@ -96,4 +95,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [NOGG 골다공증 예방·치료 지침 2024](https://www.nogg.org.uk/sites/nogg/download/NOGG-Guideline-2024.pdf?v3=), [대한골대사학회 골다공증 진료지침](https://www.ksbmr.org/)을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. NOGG 골다공증 예방·치료 지침 2024, 대한골대사학회 골다공증 진료지침을 대조. 2026-09-14 기존 목차 내 보완.

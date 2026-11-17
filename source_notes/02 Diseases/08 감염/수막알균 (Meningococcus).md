@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC 수막알균 관리 | https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-8-meningococcal-disease.html"]
 ---
 분과 : [[감염]]
 
@@ -52,7 +53,7 @@ reviewed_at: "2026-07-30"
 - **격리 및 신고**: 비말 전파 차단을 위해 호흡기 격리를 시행하고, 법정 감염병 신고 절차를 준수한다.
 - **추적 관찰**: 퇴원 후 청력 소실, 신경학적 결손 등 합병증 발생 여부를 정기적으로 평가한다.
 
-- **밀접 접촉자 예방:** 동거인·보육시설 밀접 접촉자 또는 구강·호흡기 분비물 직접 노출자는 예방접종 여부와 무관하게 가능하면 환자 확인 후 24시간 내 예방요법을 받는다. 환자 발병 >14일 뒤에는 효과가 제한적이다. Rifampin 2일, ceftriaxone 단회 또는 지역 감수성에 맞는 ciprofloxacin 단회 등을 선택하며 임신·내성·상호작용을 반영한다. 단순 같은 공간 체류나 무증상 보균만으로 모든 접촉자를 치료하지 않는다. [CDC 수막알균 관리](https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-8-meningococcal-disease.html)
+- **밀접 접촉자 예방:** 동거인·보육시설 밀접 접촉자 또는 구강·호흡기 분비물 직접 노출자는 예방접종 여부와 무관하게 가능하면 환자 확인 후 24시간 내 예방요법을 받는다. 환자 발병 >14일 뒤에는 효과가 제한적이다. Rifampin 2일, ceftriaxone 단회 또는 지역 감수성에 맞는 ciprofloxacin 단회 등을 선택하며 임신·내성·상호작용을 반영한다. 단순 같은 공간 체류나 무증상 보균만으로 모든 접촉자를 치료하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 사망률이 매우 높으며, 생존자 중 10~20%에서 청력 소실, 지적 장애, 사지 절단 등의 심각한 후유증이 발생할 수 있다.

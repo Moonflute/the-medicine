@@ -14,9 +14,7 @@ CC:
 - 고혈압
 preprocessing_required: x
 last_studied: '2026-06-06'
-sources:
-- '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
-- 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
+sources: ["대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide", "ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care", "FDA finerenone 허가사항 2026 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215341s011lbl.pdf"]
 clinical_priority: tier_1
 reviewed_at: "2026-07-30"
 content_updated_at: "2026-11-18"
@@ -63,7 +61,6 @@ population: general
 
 - **Finerenone 수치 기준**: 제2형 당뇨 CKD에서 RAS 차단 후에도 알부민뇨가 지속되면 **eGFR ≥25**와 칼륨을 확인한다. FDA 용법상 **K >5.0 mEq/L이면 시작하지 않으며**, 시작·변경 **4주 후** 재검한다. CKD 치료 중 **K >5.5이면 보류**, **≤5.0**으로 회복하면 10 mg 재시작을 검토한다. 심부전 적응증의 용량 조절표와 혼용하지 않는다.
 - **제1형 당뇨 CKD**도 2026년 9월 미국 허가에 추가되었으나 UACR 감소에 근거한 적응증임을 명시하고 국내 허가·장기 임상결과 근거를 별도로 확인한다.
-- 근거: [FDA finerenone 허가사항 2026](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215341s011lbl.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 말기 신부전으로 진행 가능하며, 투석 및 콩팥 이식이 필요할 수 있음.

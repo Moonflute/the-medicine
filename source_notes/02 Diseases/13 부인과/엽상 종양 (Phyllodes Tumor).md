@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["UK Association of Breast Surgery 엽상 종양 지침 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12374188/"]
 ---
 분과 : [[부인과]]
 
@@ -59,6 +60,5 @@ reviewed_at: "2026-07-30"
 
 출처 : StatPearls (Phyllodes Tumor of the Breast)
 
-절제연 근거: [UK Association of Breast Surgery 엽상 종양 지침 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12374188/)
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

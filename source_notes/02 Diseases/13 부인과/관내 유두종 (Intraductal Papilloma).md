@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ASBrS 고위험 병변 관리 | https://www.breastsurgeons.org/docs/statements/asbrs-high-risk-lesions.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -43,7 +44,7 @@ reviewed_at: "2026-07-30"
 * **악성 동반 시 전원**: 조직검사상 비정형 관증식증(ADH)이나 악성 소견 확인 시, 암 진료 가이드라인에 따른 추가 절제술 및 표준 치료로 연계함.
 * **정기 추적 관찰**: 치료 후 재발 및 악성 변화 여부를 확인하기 위해 유방 전문의의 판단에 따라 정기적인 영상 검사를 시행함.
 
-- **감시 중 전환**: 크기 증가·새로운 증상·영상 악화가 생기면 재생검 또는 절제를 시행한다. [ASBrS 고위험 병변 관리](https://www.breastsurgeons.org/docs/statements/asbrs-high-risk-lesions.pdf)
+- **감시 중 전환**: 크기 증가·새로운 증상·영상 악화가 생기면 재생검 또는 절제를 시행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후는 매우 좋음.

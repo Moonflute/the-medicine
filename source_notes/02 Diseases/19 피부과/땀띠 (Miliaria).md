@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["DermNet | https://dermnetnz.org/topics/miliaria"]
 ---
 분과 : [[피부과]]
 
@@ -43,7 +44,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - 서늘한 환경·통풍·발한과 밀폐 감소가 기본이다. 염증 없는 **결정형은 대개 약물 없이 관찰**한다.
 - 적색형에서 가려움·염증이 심하면 짧은 기간 저강도 국소 스테로이드를 고려한다. 땀관을 막는 두꺼운 연고·밀폐는 피한다.
-- 농포가 있다고 모두 항생제를 쓰지 않는다. 봉와직염·세균성 농포 등 감염 근거가 있으면 항생제를 검토하고, 지속·악화·발열이면 다른 발진을 재평가한다. [DermNet](https://dermnetnz.org/topics/miliaria)
+- 농포가 있다고 모두 항생제를 쓰지 않는다. 봉와직염·세균성 농포 등 감염 근거가 있으면 항생제를 검토하고, 지속·악화·발열이면 다른 발진을 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 대부분 환경 개선 시 자연 치유됨.

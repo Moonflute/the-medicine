@@ -13,6 +13,7 @@ CC:
 - 의식저하
 - 구토
 clinical_priority: tier_1
+sources: ["EXTRIP 2023 | https://www.extrip-workgroup.org/ethylene-glycol"]
 ---
 # 에틸렌글리콜 중독 (Ethylene Glycol Poisoning)
 
@@ -27,4 +28,4 @@ clinical_priority: tier_1
 
 - **혼수·경련·KDIGO 2~3단계 AKI**이면 체외 제거를 권고한다. 노출 근거가 있을 때 EXTRIP의 **Na+K−Cl−HCO3 음이온차 >27 mmol/L**은 권고, 23~27은 고려 기준이다. K를 제외한 통상 AG와 그대로 비교하지 않는다.
 - fomepizole 투여 중 EG **>310 mg/dL**는 투석 고려 기준이며 해독제 미사용 시 기준이 더 낮다. 농도만으로 결정하지 않고 산증·장기 손상을 함께 판단한다.
-- 간헐적 HD를 우선 검토하며 투석 중 fomepizole 용량 간격을 조정한다. 종료는 음이온차 <18 및 산염기·임상 회복, 잔여 EG 농도를 함께 평가한다. [EXTRIP 2023](https://www.extrip-workgroup.org/ethylene-glycol)
+- 간헐적 HD를 우선 검토하며 투석 중 fomepizole 용량 간격을 조정한다. 종료는 음이온차 <18 및 산염기·임상 회복, 잔여 EG 농도를 함께 평가한다.

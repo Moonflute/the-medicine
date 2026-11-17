@@ -20,11 +20,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 guideline_reviewed_at: '2026-10-20'
 guideline_review_status: primary_source_reviewed
-sources:
-- '2026 ESC Guidelines for the management of heart failure | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/'
-- '2026 ESC Heart Failure 공식 교육 슬라이드 | https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9'
-- 'AHA/ACC/ESC/WHF Second Universal Definition of Heart Failure, 2026: Top Things to Know | https://professional.heart.org/en/science-news/expert-consensus-document-second-universal-definition-of-heart-failure-2026/top-things-to-know'
-- '2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure | https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/03/29/19/53/2022-aha-acc-hfsa-heart-failure-guideline-gl-hf'
+sources: ["2026 ESC Guidelines for the management of heart failure | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/", "2026 ESC Heart Failure 공식 교육 슬라이드 | https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9", "AHA/ACC/ESC/WHF Second Universal Definition of Heart Failure, 2026: Top Things to Know | https://professional.heart.org/en/science-news/expert-consensus-document-second-universal-definition-of-heart-failure-2026/top-things-to-know", "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure | https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2022/03/29/19/53/2022-aha-acc-hfsa-heart-failure-guideline-gl-hf"]
 
 source_currency_assessment: "updated_to_2026_ESC"
 content_updated_at: "2026-10-20"
@@ -89,5 +85,5 @@ Last updated :
 
 ## 참고 가이드라인
 
-- [2026 ESC 심부전 지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/), [공식 교육 슬라이드](https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9): 비대상성 심부전의 퇴원·추적 및 치료 권고표(PDF 65, 67쪽).
-- [2026 국제 심부전 정의 합의문: 공식 핵심 요약](https://professional.heart.org/en/science-news/expert-consensus-document-second-universal-definition-of-heart-failure-2026/top-things-to-know): worsening HF와 decompensated HF의 구분.
+- 2026 ESC 심부전 지침, 공식 교육 슬라이드: 비대상성 심부전의 퇴원·추적 및 치료 권고표(PDF 65, 67쪽).
+- 2026 국제 심부전 정의 합의문: 공식 핵심 요약: worsening HF와 decompensated HF의 구분.

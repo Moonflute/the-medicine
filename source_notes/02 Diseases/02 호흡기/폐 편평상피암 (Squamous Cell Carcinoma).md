@@ -23,7 +23,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["대한폐암학회 폐암진료지침 3판 (2023) | https://www.lungca.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&idx=1000000000000000003", "NCCN Guidelines® Insights: Non-Small Cell Lung Cancer, Version 7.2025 | https://pubmed.ncbi.nlm.nih.gov/40930154/"]
+sources: ["대한폐암학회 폐암진료지침 3판 (2023) | https://www.lungca.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&idx=1000000000000000003", "NCCN Guidelines® Insights: Non-Small Cell Lung Cancer, Version 7.2025 | https://pubmed.ncbi.nlm.nih.gov/40930154/", "NCI PDQ | https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq"]
 
 ---
 분과 : [[호흡기]]
@@ -58,7 +58,7 @@ sources: ["대한폐암학회 폐암진료지침 3판 (2023) | https://www.lungc
 - **전이성 질환**: PD-L1, 동반질환·장기기능 및 금기를 기준으로 면역치료 단독 또는 백금 이중항암화학요법과 면역치료 병합을 선택한다. 편평상피암에서는 pemetrexed 기반 요법을 일반적으로 사용하지 않는다는 점을 구분한다.
 - **증상·합병증 처치**: 중심기도 폐쇄, 대량 객혈, 상대정맥증후군, 고칼슘혈증은 종양 치료를 기다리지 말고 기관지내시경 중재·완화 방사선·교정 치료를 병행한다. 금연, 영양·완화의료와 증상 조절을 초기부터 포함한다.
 
-- **면역치료 단독과 병합**: 치료 가능한 driver 변이가 없는 진행성 암에서 PD-L1 TPS ≥50%는 면역항암제 단독 선택 근거가 되지만, 빠른 축소가 필요하면 항암 병합을 검토한다. PD-L1 <50% 또는 높은 종양 부담은 platinum＋taxane 기반 면역 병합 등의 선택에 반영한다. Pemetrexed는 비편평 조직형에 사용하며, 객혈·출혈 위험과 편평 조직형에서는 bevacizumab 포함 요법을 피한다. [NCI PDQ](https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq)
+- **면역치료 단독과 병합**: 치료 가능한 driver 변이가 없는 진행성 암에서 PD-L1 TPS ≥50%는 면역항암제 단독 선택 근거가 되지만, 빠른 축소가 필요하면 항암 병합을 검토한다. PD-L1 <50% 또는 높은 종양 부담은 platinum＋taxane 기반 면역 병합 등의 선택에 반영한다. Pemetrexed는 비편평 조직형에 사용하며, 객혈·출혈 위험과 편평 조직형에서는 bevacizumab 포함 요법을 피한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 중심성 위치로 인해 조기 발견이 가능할 수 있으나, 국소 침습 및 림프절 전이 가능성이 있음.

@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CPS 신생아 HSV | https://cps.ca/en/documents/position/prevention-management-neonatal-herpes-simplex-virus-infections"]
 ---
 분과 : [[소아청소년과]]
 
@@ -52,7 +53,7 @@ reviewed_at: "2026-07-30"
 * **신생아 억제 요법**: CNS 침범 등 고위험군 환아는 퇴원 후에도 재발 방지를 위해 경구 아시클로버 장기 투여를 고려함.
 * **전원 및 추적 관찰**: 중추신경계 침범 시 신경학적 후유증 평가를 위해 소아신경과 협진 및 장기적인 발달 추적 관찰을 시행함.
 
-* **억제 치료**: CNS 질환은 정주 치료 후 **acyclovir 300 mg/m²/dose 경구 1일 3회, 6개월** 억제요법을 시행한다. SEM/파종성에서도 재발 예방을 위해 고려하며 혈구·신기능과 성장에 따른 용량을 추적한다. [CPS 신생아 HSV](https://cps.ca/en/documents/position/prevention-management-neonatal-herpes-simplex-virus-infections)
+* **억제 치료**: CNS 질환은 정주 치료 후 **acyclovir 300 mg/m²/dose 경구 1일 3회, 6개월** 억제요법을 시행한다. SEM/파종성에서도 재발 예방을 위해 고려하며 혈구·신기능과 성장에 따른 용량을 추적한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 면역 상태 및 침범 부위에 따라 예후 상이

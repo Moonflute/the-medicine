@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG10 | https://www.nice.org.uk/guidance/ng10/chapter/Recommendations"]
 ---
 분과 : [[정신건강의학과]]
 
@@ -44,7 +45,6 @@ reviewed_at: "2026-07-30"
 
 - **긴급 약물 선택**: 경구 투여가 가능하면 우선 협의하고, 급박한 위험으로 주사가 필요하면 원인·중독·기존 약제·QT를 고려한다. NICE 성인 급속 진정 선택지는 IM lorazepam 또는 IM haloperidol+promethazine이다. QT 연장·심혈관질환 또는 ECG 미확인에서는 후자를 피한다. 첫 투여 효과와 호흡·의식을 확인한 뒤 추가하고 알코올·오피오이드 중독의 호흡억제 위험을 별도 평가한다.
 
-근거: [NICE NG10](https://www.nice.org.uk/guidance/ng10/chapter/Recommendations).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후: 기저 질환의 조절 여부와 사회적 지지 체계에 따라 상이함.

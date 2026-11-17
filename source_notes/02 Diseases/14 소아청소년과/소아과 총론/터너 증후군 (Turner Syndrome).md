@@ -18,6 +18,7 @@ population: "pediatric"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["2024 국제 Turner 지침 | https://doi.org/10.1093/ejendo/lvae050"]
 ---
 분과 : [[소아청소년과]]
 
@@ -50,7 +51,6 @@ reviewed_at: "2026-07-30"
 
 - **GH·성호르몬 전환점**: 성장 실패가 확인되면 GH를 조기에 고려하며, 성장 여지가 거의 없는 **골연령 ≥14세 또는 연간 성장 <2 cm**에서는 중단을 고려한다. 난소 기능부전으로 FSH가 반복 상승하고 자연 사춘기가 없으면 **11–12세**에 저용량 estradiol을 시작하여 **2–4년**에 걸쳐 성인 용량으로 올린다. 첫 돌발출혈 또는 대개 estrogen 시작 18–24개월 무렵에는 자궁·내막 발달을 평가하여 cyclic progesterone을 추가한다. 키를 더 키우기 위해 사춘기 유도를 무기한 늦추지 않는다.
 
-근거: [2024 국제 Turner 지침](https://doi.org/10.1093/ejendo/lvae050).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 적절한 치료 시 삶의 질 향상 가능

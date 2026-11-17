@@ -20,7 +20,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "source_reviewed_no_change"
 guideline_year: "2026"
-sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension. | https://pubmed.ncbi.nlm.nih.gov/42270533/"]
+sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacological Treatment of Systemic Sclerosis Part 1: Cutaneous Involvement, Interstitial Lung Disease, and Pulmonary Arterial Hypertension. | https://pubmed.ncbi.nlm.nih.gov/42270533/", "EULAR 2023 update | https://doi.org/10.1136/ard-2024-226430"]
 
 ---
 ## 1. 개요
@@ -83,7 +83,7 @@ sources: ["Guide from the Colegio Mexicano de Reumatología for the Pharmacologi
 - GERD에는 소량씩 자주 식사하고, 취침 시 상체를 높이며, 야간 음식·커피·홍차·초콜릿처럼 하부식도괄약근 압력을 낮출 수 있는 음식을 피한다. 위장운동 촉진제와 세균과다증식에 대한 항균 치료는 해당 합병증에서 고려한다.
 - 신발증의 고혈압·신부전은 ACE inhibitor로 즉시 치료하고, 필요 시 투석을 병행한다. 치료 중 혈압, 혈액·소변 검사와 PFT를 정기적으로 추적한다.
 
-- **장기별 강화**: 활동성 수지 궤양은 PDE5 억제제/IV iloprost, 반복 새 궤양은 bosentan을 검토한다. ILD는 기능·영상 진행과 위험에 따라 MMF·rituximab·cyclophosphamide 또는 nintedanib 등을 선택한다. 경피증 신위기는 ACEi를 즉시 시작하며, 예방 목적으로 모든 환자에게 ACEi를 처방하는 것과 구분한다. [EULAR 2023 update](https://doi.org/10.1136/ard-2024-226430)
+- **장기별 강화**: 활동성 수지 궤양은 PDE5 억제제/IV iloprost, 반복 새 궤양은 bosentan을 검토한다. ILD는 기능·영상 진행과 위험에 따라 MMF·rituximab·cyclophosphamide 또는 nintedanib 등을 선택한다. 경피증 신위기는 ACEi를 즉시 시작하며, 예방 목적으로 모든 환자에게 ACEi를 처방하는 것과 구분한다.
 
 ## 6. 예후 및 합병증
 - 내부 장기(폐, 심장, 신장) 침범 정도가 사망률을 결정함.

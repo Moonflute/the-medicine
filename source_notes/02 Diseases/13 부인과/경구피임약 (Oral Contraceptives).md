@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC CHC 2024 | https://www.cdc.gov/contraception/hcp/usspr/combined-hormonal-contraceptives.html", "U.S. MEC | https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1_appendix.htm"]
 ---
 분과 : [[부인과]]
 
@@ -39,7 +40,7 @@ reviewed_at: "2026-07-30"
 - **제제 구분**: 복합제(CHC)와 프로게스틴 단독제를 구분한다. 아래 혈압·흡연·편두통 금기는 주로 에스트로겐 함유 복합제에 해당하며, 단독제는 제품별 적합성과 복용 누락 규칙을 적용한다.
 - **복합제 금기와 주의**: 혈압 ≥160/100 mmHg, 전조 동반 편두통, 35세 이상 하루 ≥15개비 흡연은 U.S. MEC 4로 사용하지 않는다. 혈압 140–159/90–99 또는 조절된 고혈압, 35세 이상 하루 <15개비 흡연은 MEC 3으로 보통 다른 방법을 선택한다. 현재 유방암·고위험 혈전 병력·중증 간질환 등은 별도 적합성 표를 확인한다.
 - **복합제 복용 누락**: 1알이 늦거나 누락되어 <48시간이면 즉시 복용하고 계속한다. ≥48시간/활성정 2알 이상 누락이면 가장 최근 누락분을 복용하고 7일 연속 복용까지 추가 피임한다. 첫 주 누락 + 지난 5일 무방비 성관계이면 응급피임을 검토하며, 마지막 활성정 주의 누락은 휴약기를 생략한다.
-- **검사·안전**: 시작 전 혈압을 확인한다. 건강한 사람에게 간기능·혈당·지질 검사를 피임제 처방의 필수 전제조건으로 요구하지 않는다. 흉통·호흡곤란·편측 하지 부종·새 전조 증상은 즉시 평가한다. [CDC CHC 2024](https://www.cdc.gov/contraception/hcp/usspr/combined-hormonal-contraceptives.html) · [U.S. MEC](https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1_appendix.htm)
+- **검사·안전**: 시작 전 혈압을 확인한다. 건강한 사람에게 간기능·혈당·지질 검사를 피임제 처방의 필수 전제조건으로 요구하지 않는다. 흉통·호흡곤란·편측 하지 부종·새 전조 증상은 즉시 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 혈전색전증, 유방 압통, 오심, 돌파출혈.

@@ -23,8 +23,7 @@ review_status: source_reviewed_no_change
 reviewed_at: '2026-07-30'
 content_updated_at: '2026-10-07'
 guideline_year: '2025'
-sources:
-- "AHA 2025 CPR·ECC Part 10 중독 소생술 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation"
+sources: ["AHA 2025 CPR·ECC Part 10 중독 소생술 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation"]
 disease_family: poisoning
 population: general
 guideline_reviewed_at: '2026-10-07'
@@ -82,5 +81,3 @@ guideline_review_status: primary_source_reviewed
 - [[약물 및 화학물질 중독]]
 
 ## 참고 가이드라인
-
-- [AHA 2025 CPR·ECC Part 10 중독 소생술](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation)

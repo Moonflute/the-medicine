@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["IDSA 도관 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC4039170/", "SAB 2026 | https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia"]
 ---
 분과 : [[감염]]
 
@@ -44,7 +45,7 @@ reviewed_at: "2026-07-30"
 - **진단·초기 치료**: 가능하면 항생제 전 말초와 도관 혈액배양을 채취한다. 불안정하면 검체 때문에 치료를 지연하지 않는다. 오염 가능성이 있는 단일 coagulase-negative staphylococcus 양성만으로 모든 도관을 즉시 제거하지 않는다.
 - **제거 대상**: 심한 패혈증, 터널/포켓 감염, 화농성 혈전정맥염·심내막염, 적절한 치료 >72시간에도 지속 균혈증이면 제거한다. 장기 도관의 S. aureus·Pseudomonas·진균·항산균 감염도 제거를 우선한다. 단기 도관의 그람음성 혈류감염은 제거를 평가한다.
 - **보존 가능한 경우**: 안정된 환자의 합병증 없는 일부 저병원성 균 감염에서 접근 확보의 어려움 등을 고려해 전신 항균제+antibiotic lock을 선택할 수 있다. 72시간 뒤 배양 양성이면 보존을 재고한다.
-- 치료 기간은 균종·도관 제거·음전과 심부 감염 여부로 정한다. S. aureus는 2026 SAB 평가·기간 경로를 함께 적용하며, 새 도관은 필요성과 균혈증 소실을 확인해 계획한다. [IDSA 도관 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC4039170/) · [SAB 2026](https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia)
+- 치료 기간은 균종·도관 제거·음전과 심부 감염 여부로 정한다. S. aureus는 2026 SAB 평가·기간 경로를 함께 적용하며, 새 도관은 필요성과 균혈증 소실을 확인해 계획한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 패혈증, 감염성 심내막염, 전이성 농양 형성 등의 합병증이 발생할 수 있으며, 조기 진단과 적절한 도관 제거가 예후에 결정적임.

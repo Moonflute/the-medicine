@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Pituitary Society 국제 합의 2023 | https://www.nature.com/articles/s41574-023-00886-5", "Endocrine Society 원인약 조정 지침 | https://academic.oup.com/jcem/article/96/2/273/2709487"]
 ---
 ## 1. 개요
 - **정의**: 프로락티노마는 프로락틴(PRL)을 분비하는 뇌하수체 선종으로, 가장 흔한 기능성 뇌하수체 종양이다. 고프로락틴혈증은 혈중 프로락틴 농도가 정상 범위(보통 15-20 ng/mL 초과)를 넘어서는 상태
@@ -65,7 +66,6 @@ reviewed_at: "2026-07-30"
 - **합병증**: 골다공증, 불임, 종괴 효과에 의한 시력 저하 및 뇌하수체 기능 저하
 
 출처 : StatPearls, Hyperprolactinemia (2025)
-추가 출처: [Pituitary Society 국제 합의 2023](https://www.nature.com/articles/s41574-023-00886-5) · [Endocrine Society 원인약 조정 지침](https://academic.oup.com/jcem/article/96/2/273/2709487)
 Last updated :
 2024-07-30 — 초기 작성
 2026-04-27 : 본문 갱신 (processed, openevidence)

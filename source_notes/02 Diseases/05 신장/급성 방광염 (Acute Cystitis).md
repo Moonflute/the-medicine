@@ -16,8 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-17"
 guideline_year: "2025"
-sources:
-- 'IDSA Guideline Update on Complicated Urinary Tract Infections | https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/'
+sources: ["IDSA Guideline Update on Complicated Urinary Tract Infections | https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections/", "EAU 2026 | https://uroweb.org/guidelines/urological-infections/chapter/the-guideline"]
 disease_family: urinary_tract_infection
 population: adult
 reviewed_at: "2026-07-16"
@@ -69,7 +68,7 @@ review_status: "guideline_enriched"
 - **치료 원칙**: 단순 방광염과 전신 증상·해부학적 이상·임신·면역저하가 있는 복합성 요로감염을 구분한다. 항생제는 지역 내성 양상, 최근 배양 결과, 알레르기, 신기능과 임신 여부를 반영해 선택하고 배양 결과가 나오면 좁은 범위 약제로 조정한다.
 - **재평가**: 적절한 치료에도 증상이 지속·악화되거나 발열/옆구리 통증이 새로 생기면 내성균, 신우신염, 폐쇄 또는 다른 진단을 평가한다.
 
-- **비임신 성인 여성의 국소 방광염**: nitrofurantoin(제형에 맞춰 통상 5일), fosfomycin trometamol 3 g 단회 등 좁은 범위 약제를 우선 검토한다. TMP-SMX는 지역 E. coli 내성 <20% 또는 감수성 확인 시 선택한다. Nitrofurantoin은 eGFR <30 mL/min/1.73m²에서 피하고, 발열·옆구리 통증이 있으면 nitrofurantoin/경구 fosfomycin으로 신우신염을 치료하지 않는다. 남성·임신·전립선 침범·전신 감염은 별도 기간·약제 기준을 적용한다. [EAU 2026](https://uroweb.org/guidelines/urological-infections/chapter/the-guideline)
+- **비임신 성인 여성의 국소 방광염**: nitrofurantoin(제형에 맞춰 통상 5일), fosfomycin trometamol 3 g 단회 등 좁은 범위 약제를 우선 검토한다. TMP-SMX는 지역 E. coli 내성 <20% 또는 감수성 확인 시 선택한다. Nitrofurantoin은 eGFR <30 mL/min/1.73m²에서 피하고, 발열·옆구리 통증이 있으면 nitrofurantoin/경구 fosfomycin으로 신우신염을 치료하지 않는다. 남성·임신·전립선 침범·전신 감염은 별도 기간·약제 기준을 적용한다.
 
 ## 6. 예후 및 합병증
 - 적절한 치료 시 예후는 양호함

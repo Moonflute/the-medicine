@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAOS CTS 2024 | https://www.aaos.org/globalassets/quality-and-practice-resources/carpal-tunnel/carpal-tunnel-2024/cts-cpg.pdf", "EBI 수근관 감압술 | https://ebi.aomrc.org.uk/interventions/carpal-tunnel-syndrome-release/"]
 ---
 분과 : [[정형외과]]
 
@@ -47,7 +48,6 @@ reviewed_at: "2026-07-30"
 - 간헐적 야간 저림이고 고정된 감각·근력 저하가 없으면 중립 손목 야간 부목과 활동 조절을 우선한다. 국소 스테로이드 주사는 단기 증상 완화의 선택지이나 장기 회복을 보장하지 않는다.
 - **지속적 감각 소실, 진행성 엄지 근력 저하/무지구 위축, 중증 전기진단 소견**은 조기 감압술 평가 대상이다. 이러한 환자에게 부목 치료를 먼저 수주간 반드시 시행하도록 지연하지 않는다.
 - 경증·중등도에서도 적절한 부목/주사 후 수면·일상 기능 장애가 지속되거나 재발하면 수술을 논의한다. 심한 신경 손상이 오래되면 수술 후에도 감각·근력이 완전히 회복되지 않을 수 있다.
-- 근거: [AAOS CTS 2024](https://www.aaos.org/globalassets/quality-and-practice-resources/carpal-tunnel/carpal-tunnel-2024/cts-cpg.pdf), [EBI 수근관 감압술](https://ebi.aomrc.org.uk/interventions/carpal-tunnel-syndrome-release/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 초기 보존적 치료에 반응이 좋으나, 방치 시 영구적인 신경 손상 및 근육 위축 발생 가능.

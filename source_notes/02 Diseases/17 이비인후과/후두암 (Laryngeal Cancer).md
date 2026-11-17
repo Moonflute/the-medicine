@@ -21,7 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-18"
 guideline_year: "2025"
-sources: ["Guidelines for the Treatment of Laryngeal Cancer from the Korean Society of Head and Neck Surgery (2025) | https://pubmed.ncbi.nlm.nih.gov/40199514/"]
+sources: ["Guidelines for the Treatment of Laryngeal Cancer from the Korean Society of Head and Neck Surgery (2025) | https://pubmed.ncbi.nlm.nih.gov/40199514/", "NCI PDQ | https://www.cancer.gov/types/head-and-neck/hp/adult/laryngeal-treatment-pdq", "FDA 2025 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-neoadjuvant-and-adjuvant-pembrolizumab-resectable-locally-advanced-head-and-neck"]
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
@@ -60,8 +60,8 @@ review_status: "guideline_enriched"
   수술 후 방사선 치료, 항암화학방사선요법 등 다학제적 접근 필요.
   후두 전절제술이 필요한 경우도 있음.
 
-- **전후두절제·수술 후 치료 기준**: 갑상연골 관통/후두 밖 침범의 T4a, 큰 종괴, 이미 기능이 심하게 손상된 후두는 수술을 강하게 고려한다. 절제연 양성 또는 림프절 피막외 침범(ENE)은 수술 후 cisplatin 동시항암방사선의 핵심 고위험 기준이다. 나머지 병리 위험은 RT 필요성을 평가한다. [NCI PDQ](https://www.cancer.gov/types/head-and-neck/hp/adult/laryngeal-treatment-pdq)
-- **면역치료를 바꾸는 바이오마커**: 재발/전이에서 pembrolizumab 단독은 **PD-L1 CPS ≥1**을 확인하고, 증상이 많거나 빠른 축소가 필요하면 platinum+5-FU 병합을 검토한다. 미국 2025년에는 절제 가능한 국소 진행성 HNSCC의 CPS ≥1에 수술 전 pembrolizumab→수술 후 RT ± cisplatin 병합→유지 요법도 허가되었다. 수술 경로의 대상 선정과 국내 허가·급여를 따로 확인한다. [FDA 2025](https://www.fda.gov/drugs/cancer-approvals/fda-approves-neoadjuvant-and-adjuvant-pembrolizumab-resectable-locally-advanced-head-and-neck)
+- **전후두절제·수술 후 치료 기준**: 갑상연골 관통/후두 밖 침범의 T4a, 큰 종괴, 이미 기능이 심하게 손상된 후두는 수술을 강하게 고려한다. 절제연 양성 또는 림프절 피막외 침범(ENE)은 수술 후 cisplatin 동시항암방사선의 핵심 고위험 기준이다. 나머지 병리 위험은 RT 필요성을 평가한다.
+- **면역치료를 바꾸는 바이오마커**: 재발/전이에서 pembrolizumab 단독은 **PD-L1 CPS ≥1**을 확인하고, 증상이 많거나 빠른 축소가 필요하면 platinum+5-FU 병합을 검토한다. 미국 2025년에는 절제 가능한 국소 진행성 HNSCC의 CPS ≥1에 수술 전 pembrolizumab→수술 후 RT ± cisplatin 병합→유지 요법도 허가되었다. 수술 경로의 대상 선정과 국내 허가·급여를 따로 확인한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 성문부 암의 예후가 상대적으로 좋으며, 성문하부 암은 예후가 불량한 편임.

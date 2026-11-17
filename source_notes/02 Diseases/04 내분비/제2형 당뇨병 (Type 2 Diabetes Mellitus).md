@@ -10,9 +10,7 @@ aliases:
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-17"
 guideline_year: "2026"
-sources:
-- '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
-- 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
+sources: ["대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide", "ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care", "ADA 2026 | https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/"]
 disease_family: diabetes
 parent_disease: 당뇨병 (Diabetes Mellitus)
 relation_to_parent: subtype
@@ -46,12 +44,10 @@ review_status: "guideline_enriched"
 - 현저한 고혈당, 케톤증, 이화 증상, 급성 질환·수술에서는 인슐린을 지연하지 않는다. 치료 변경 후에는 약 3개월 시점의 HbA1c와 자가혈당/CGM 지표를 확인하고, 안정화 후에도 정기적으로 치료 관성·복약 장벽·저혈당을 검토한다.
 
 - **인슐린으로 전환할 기준**: HbA1c >10%, 혈당 ≥300 mg/dL, 다음·다뇨 또는 체중 감소·케톤증이 있으면 인슐린 시작을 고려한다. 심한 고혈당이나 위기가 없으면 주사제 강화 시 GLP-1 기반 치료를 우선 검토할 수 있다.
-- **신기능에 따른 약제 변경**: metformin은 eGFR <45 mL/min/1.73m²에서 새로 시작하지 않고, 기존 사용자는 <45에서 감량, <30에서 중단한다. CKD에서 심신장 보호 목적의 SGLT2 억제제는 eGFR ≥20에서 약제별 허가에 맞춰 사용하며, 혈당 강하 효과가 감소해도 보호 효과와 구분한다. [ADA 2026](https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/)
+- **신기능에 따른 약제 변경**: metformin은 eGFR <45 mL/min/1.73m²에서 새로 시작하지 않고, 기존 사용자는 <45에서 감량, <30에서 중단한다. CKD에서 심신장 보호 목적의 SGLT2 억제제는 eGFR ≥20에서 약제별 허가에 맞춰 사용하며, 혈당 강하 효과가 감소해도 보호 효과와 구분한다.
 
 ## 6. 예후 및 합병증
 - 신장·망막·신경·족부 합병증은 진단 시부터 위험을 평가하고, 결과에 따라 [[당뇨병성 콩팥병증 (Diabetic Nephropathy)]], [[당뇨병성 신경병증 (Diabetic Neuropathy)]], [[당뇨병성 족부질환]] 등으로 연결한다.
 - 심혈관질환 위험 인자와 예방접종, 금연, 혈압·지질 관리는 혈당관리와 함께 장기 예후에 중요하다.
 
 ## 출처
-- 대한당뇨병학회 2025 제9판 당뇨병 진료지침: https://diabetes.or.kr/bbs/?code=guide
-- ADA Standards of Care in Diabetes 2026: https://professional.diabetes.org/standards-of-care

@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAO 콩다래끼 관리 | https://www.aao.org/eyenet/article/chalazion-management-evidence-questions"]
 ---
 분과 : [[안과]]
 
@@ -43,7 +44,6 @@ reviewed_at: "2026-07-30"
 - 치료 후 1~2개월 간 재발 여부를 추적 관찰하고, 악성 병변이 의심되면 안과 전문의에 의뢰한다.
 
 - **시술·생검 선택**: 보존 치료에도 지속되거나 시야·각막 모양에 영향을 주는 병변은 절개소파 또는 병변 내 스테로이드 주사를 검토한다. **같은 위치의 반복 재발, 비전형적 모양·속눈썹 소실**은 피지샘암 등을 배제할 생검 대상이며 반복 주사만 시행하지 않는다. 감염이 없는 전형적 콩다래끼에는 항생제를 일상적으로 쓰지 않는다.
-- 근거: [AAO 콩다래끼 관리](https://www.aao.org/eyenet/article/chalazion-management-evidence-questions).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후는 양호함

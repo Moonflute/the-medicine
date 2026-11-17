@@ -17,7 +17,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["Framework guidelines for the process of caring for the health of adolescent transgender (T) and non-binary (NB) people experiencing gender dysphoria - the position statement of the expert panel. | https://pubmed.ncbi.nlm.nih.gov/40071796/"]
+sources: ["Framework guidelines for the process of caring for the health of adolescent transgender (T) and non-binary (NB) people experiencing gender dysphoria - the position statement of the expert panel. | https://pubmed.ncbi.nlm.nih.gov/40071796/", "Endocrine Society 지침 | https://www.endocrine.org/clinical-practice-guidelines/gender-dysphoria-gender-incongruence"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -50,7 +50,7 @@ content_updated_at: "2026-11-18"
 - 심리치료: 성별 정체성 탐색 및 정서적 지지를 제공하며, 가족의 참여를 포함한 포괄적 지원 체계 구축.
 - 의학적 개입: 성별 확정적 호르몬 치료(GAHI) 및 사춘기 억제 치료는 의학적 판단과 프로토콜에 따라 시행함.
 
-- **의학적 개입을 결정하는 조건**: 사춘기 전에는 사춘기 억제제·성별 확정 호르몬을 사용하지 않는다. 사춘기가 시작된 청소년의 억제 치료는 Tanner 2단계 이후 전문 다학제 평가를 전제로 하며, 지속되는 불편감, 충분한 이해·동의 능력, 치료에 영향을 미치는 동반 문제, 보호자 참여와 지역 규정을 함께 검토한다. 호르몬 치료도 개인의 목표·의사결정 능력·의학적 위험을 확인하여 결정하고, 시작 전에 가임력 보존 선택지를 설명한다. 특정 나이만으로 자동 시행하지 않는다. [Endocrine Society 지침](https://www.endocrine.org/clinical-practice-guidelines/gender-dysphoria-gender-incongruence)
+- **의학적 개입을 결정하는 조건**: 사춘기 전에는 사춘기 억제제·성별 확정 호르몬을 사용하지 않는다. 사춘기가 시작된 청소년의 억제 치료는 Tanner 2단계 이후 전문 다학제 평가를 전제로 하며, 지속되는 불편감, 충분한 이해·동의 능력, 치료에 영향을 미치는 동반 문제, 보호자 참여와 지역 규정을 함께 검토한다. 호르몬 치료도 개인의 목표·의사결정 능력·의학적 위험을 확인하여 결정하고, 시작 전에 가임력 보존 선택지를 설명한다. 특정 나이만으로 자동 시행하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 지지 체계와 치료가 제공되지 않을 경우 우울, 불안, 자살 위험이 높음.

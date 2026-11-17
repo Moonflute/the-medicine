@@ -21,6 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EAU 고환암 2026 | https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management"]
 ---
 분과 : [[비뇨기과]]
 
@@ -30,11 +31,9 @@ reviewed_at: "2026-07-30"
 - **기전:** 태아기 생식세포의 분화 이상으로 발생하는 생식세포종양(GCT)이 주를 이룸.
 
 
-
 ## 2. 임상 양상 (Clinical Features)
 * **CC:** 통증이 없는 고환의 딱딱한 덩어리(무통성 종괴)가 가장 흔함.
 * **P/E:** 고환 내 딱딱한 결절 촉지, 음낭수종이 동반될 수 있음. 전이 시 체중 감소, 복통, 호흡곤란 등이 나타날 수 있음.
-
 
 
 ## 3. 검사 (Lab & Imaging)
@@ -42,11 +41,9 @@ reviewed_at: "2026-07-30"
 * **영상:** 음낭 초음파(1차 진단 도구), 흉부/복부/골반 CT(병기 결정).
 
 
-
 ## 4. 진단 (Diagnosis)
 * 신체 검진 및 초음파로 고환 내 종양 확인 후, 근치적 서혜부 고환절제술(Radical inguinal orchiectomy)을 통해 조직학적 확진.
 * 주의: 경음낭 생검(Trans-scrotal biopsy)은 암 전파 위험으로 금기.
-
 
 
 ## 5. 치료
@@ -54,12 +51,11 @@ reviewed_at: "2026-07-30"
 - **I기 seminoma**는 추적을 지킬 수 있으면 감시를 우선 논의하고, 보조치료를 선택하면 carboplatin 1회를 검토한다. 단순 크기 한 가지로 모든 환자에게 항암제를 고정하지 않는다.
 - **I기 nonseminoma**는 림프혈관 침범(LVI)과 추적 가능성이 핵심이다. LVI가 없으면 감시가 가능하고, LVI가 있으면 재발 위험이 높아 보조 **BEP 1주기** 또는 감시를 비교한다. 수술 뒤 표지자가 상승·지속되면 단순 I기 감시로 분류하지 않는다.
 - 전이성은 IGCCCG 위험군에 따라 **good-risk BEP 3주기(bleomycin 부적합 시 EP 4주기), intermediate/poor-risk 대개 BEP 4주기**를 선택한다.
-- 항암 후 잔존 종괴는 조직형으로 구분한다. nonseminoma의 >1 cm 잔존은 표지자 상태와 절제 가능성에 따라 절제를 검토하고, seminoma >3 cm는 치료 후 충분한 간격(약 2개월 이후)의 FDG-PET 등을 활용한다. 추적은 병기별 수년에 걸쳐 시행하며 수술 후 3~6개월로 끝내지 않는다. [EAU 고환암 2026](https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management)
+- 항암 후 잔존 종괴는 조직형으로 구분한다. nonseminoma의 >1 cm 잔존은 표지자 상태와 절제 가능성에 따라 절제를 검토하고, seminoma >3 cm는 치료 후 충분한 간격(약 2개월 이후)의 FDG-PET 등을 활용한다. 추적은 병기별 수년에 걸쳐 시행하며 수술 후 3~6개월로 끝내지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 발견 시 5년 생존율 95% 이상으로 예후가 매우 우수함.
 * 합병증: 불임 가능성(정자 은행 고려), 치료 후 재발 가능성.
-
 
 
 출처 : StatPearls (Testicular Cancer, 2023)

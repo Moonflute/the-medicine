@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAOS | https://www.orthoinfo.org/en/diseases--conditions/perthes-disease"]
 ---
 분과 : [[소아청소년과]]
 
@@ -44,7 +45,7 @@ reviewed_at: "2026-07-30"
 * **정기적 추적 관찰**: 대퇴골두의 재골화 과정 및 변형 여부를 확인하기 위해 정기적인 영상 검사 및 임상 평가 시행
 * **전원 기준**: 진단이 의심되거나 고관절 운동 제한이 뚜렷한 경우 소아 정형외과 전문의에게 조기 의뢰하여 치료 계획 수립
 
-* **관찰과 수술의 분기**: 어린 연령, 침범 범위가 작고 대퇴골두가 비구 안에 유지되며 운동범위가 좋은 경우 활동 조절·진통·ROM 운동과 영상 추적이 가능하다. **진단 시 >8세**, 골두 **>50% 침범**, 외측 돌출·containment 소실 또는 진행하는 운동 제한은 교정 절골술 평가를 강화하는 요인이다. 연령 하나만으로 수술을 정하지 않으며 병기·lateral pillar 상태와 정복 가능성을 함께 본다. [AAOS](https://www.orthoinfo.org/en/diseases--conditions/perthes-disease)
+* **관찰과 수술의 분기**: 어린 연령, 침범 범위가 작고 대퇴골두가 비구 안에 유지되며 운동범위가 좋은 경우 활동 조절·진통·ROM 운동과 영상 추적이 가능하다. **진단 시 >8세**, 골두 **>50% 침범**, 외측 돌출·containment 소실 또는 진행하는 운동 제한은 교정 절골술 평가를 강화하는 요인이다. 연령 하나만으로 수술을 정하지 않으며 병기·lateral pillar 상태와 정복 가능성을 함께 본다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 적절한 치료 시 예후가 좋음

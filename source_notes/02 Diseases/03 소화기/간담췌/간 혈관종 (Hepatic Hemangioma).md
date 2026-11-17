@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EASL 양성 간종양 지침 | https://easl.eu/wp-content/uploads/2016/10/EASL-CPG-on-Management-of-benign-liver-tumours.pdf"]
 ---
 분과 : [[소화기]]
 
@@ -59,7 +60,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - 전형적 영상의 무증상 간 혈관종은 보통 치료나 정기 영상 추적이 필요하지 않다. 크기만으로 예방적 절제를 일률 시행하지 않는다.
 - 증상을 유발하는 압박, 성장과 진단 불확실성, Kasabach–Merritt 관련 응고장애 또는 파열·출혈은 다학제 평가와 선택적 수술/색전술의 근거다.
-- 혈관성 병변의 생검은 출혈 위험 때문에 피하고 전형적 영상으로 진단한다. 불확실한 병변은 조영 MRI 등으로 재평가하며, 필요성이 남으면 전문팀에서 생검 이득·위험을 판단한다. 모든 상황의 절대 금기로 단정하지 않는다. [EASL 양성 간종양 지침](https://easl.eu/wp-content/uploads/2016/10/EASL-CPG-on-Management-of-benign-liver-tumours.pdf)
+- 혈관성 병변의 생검은 출혈 위험 때문에 피하고 전형적 영상으로 진단한다. 불확실한 병변은 조영 MRI 등으로 재평가하며, 필요성이 남으면 전문팀에서 생검 이득·위험을 판단한다. 모든 상황의 절대 금기로 단정하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

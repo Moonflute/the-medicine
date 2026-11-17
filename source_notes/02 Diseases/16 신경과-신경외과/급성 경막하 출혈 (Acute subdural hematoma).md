@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["BTF 수술 지침 | https://braintrauma.org/coma/guidelines/surgical", "BTF 중증 TBI 지침 | https://braintrauma.org/coma/guidelines/severe-tbi"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -42,8 +43,8 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 - **수술 기준**: CT 혈종 두께 **>10 mm 또는 정중선 이동 >5 mm**이면 GCS와 무관하게 신속히 제거한다. 두 조건을 동시에 만족할 때까지 기다리지 않는다.
-- 그보다 작아도 GCS <9에서 GCS ≥2점 하락, 동공 비대칭/고정 산동 또는 ICP >20 mmHg가 있으면 수술을 평가한다. 급성 응고 혈종은 보통 개두술 ± 감압술로 처리하며 만성 혈종의 burr-hole 배액과 구분한다. [BTF 수술 지침](https://braintrauma.org/coma/guidelines/surgical)
-- 비수술 관찰도 신경외과 감시·반복 영상·응고 역전이 필요하다. 예방적 지속 과호흡은 피하고 뇌탈출 임박 시에만 확정 처치까지 일시적으로 사용한다. [BTF 중증 TBI 지침](https://braintrauma.org/coma/guidelines/severe-tbi)
+- 그보다 작아도 GCS <9에서 GCS ≥2점 하락, 동공 비대칭/고정 산동 또는 ICP >20 mmHg가 있으면 수술을 평가한다. 급성 응고 혈종은 보통 개두술 ± 감압술로 처리하며 만성 혈종의 burr-hole 배액과 구분한다.
+- 비수술 관찰도 신경외과 감시·반복 영상·응고 역전이 필요하다. 예방적 지속 과호흡은 피하고 뇌탈출 임박 시에만 확정 처치까지 일시적으로 사용한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 뇌부종, 뇌탈출, 뇌수두증, 외상 후 경련, 장기적인 신경인지 및 운동 기능 장애

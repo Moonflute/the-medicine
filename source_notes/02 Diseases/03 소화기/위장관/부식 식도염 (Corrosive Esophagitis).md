@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["WSES 식도 응급 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/"]
 ---
 분과 : [[소화기]]
 
@@ -27,12 +28,10 @@ reviewed_at: "2026-07-30"
   조직의 괴사, 궤양, 심한 경우 협착이나 천공을 유발할 수 있음.
 
 
-
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 흉통(retrosternal pain), 연하곤란(dysphagia), 연하통(odynophagia).
 
 * **P/E**: 구강 내 화상 흔적, 타액 분비 과다, 구토, 심한 경우 복통 및 쇼크 징후.
-
 
 
 ## 3. 검사 (Lab & Imaging)
@@ -42,10 +41,8 @@ reviewed_at: "2026-07-30"
 - **영상검사**: 흉부 및 복부 X-ray, CT를 통해 천공(perforation) 여부 확인.
 
 
-
 ## 4. 진단 (Diagnosis)
 - 병력 청취(섭취 물질 및 시간)와 내시경 소견을 종합하여 진단.
-
 
 
 ## 5. 치료
@@ -57,12 +54,10 @@ reviewed_at: "2026-07-30"
 
 - **괴사·수술 판단**: 조영 CT에서 전층 괴사·천공이 의심되거나 쇼크·복막염이 진행하면 즉시 수술을 평가한다. 안정 환자는 손상 범위에 따라 감시와 영양 경로를 정한다. 맹목적 비위관 삽입이나 협착 예방 목적의 일상적인 전신 스테로이드 투여는 피한다.
 - 급성 손상기의 내시경을 기계적으로 2–4주마다 반복하지 않는다. 연하곤란이 생긴 뒤 치유·협착 상태를 평가하여 확장술 시기를 정한다.
-- 근거: [WSES 식도 응급 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 식도 협착(stricture), 천공, 종격동염(mediastinitis), 식도-기관지 누공.
 - **금기 사항**: 위세척(천공 위험), 구토 유도, 중화제 투여(발열 반응으로 손상 악화 가능)는 절대 금기.
-
 
 
 출처 : StatPearls (Drug-Induced Esophagitis)

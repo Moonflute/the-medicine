@@ -18,7 +18,7 @@ clinical_priority: "tier_2"
 review_status: "guideline_enriched"
 reviewed_at: "2026-07-30"
 guideline_year: "2020"
-sources: ["Potassium homeostasis and management of dyskalemia in kidney diseases: conclusions from a Kidney Disease: Improving Global Outcomes (KDIGO) Controversies Conference | https://www.kidney-international.org/article/S0085-2538(19)30604-2/fulltext"]
+sources: ["Potassium homeostasis and management of dyskalemia in kidney diseases: conclusions from a Kidney Disease: Improving Global Outcomes (KDIGO) Controversies Conference | https://www.kidney-international.org/article/S0085-2538(19)30604-2/fulltext", "DailyMed: Potassium chloride injection | https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eb56a807-ea94-4edb-9811-a04b19568468"]
 
 content_updated_at: "2026-07-16"
 ---
@@ -86,6 +86,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [KDIGO potassium management conference conclusions](https://www.kidney-international.org/article/S0085-2538(19)30604-2/fulltext)를 대조. 2026-09-14 기존 목차 내 보완.
-
-- [DailyMed: Potassium chloride injection](https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eb56a807-ea94-4edb-9811-a04b19568468)
+보완 출처: 삼성서울병원 메뉴얼. KDIGO potassium management conference conclusions를 대조. 2026-09-14 기존 목차 내 보완.

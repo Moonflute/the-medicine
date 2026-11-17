@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ASRM 2024 | https://doi.org/10.1016/j.fertnstert.2024.02.033", "WHO 2025 | https://www.ncbi.nlm.nih.gov/books/NBK620427/"]
 ---
 분과 : [[부인과]]
 
@@ -46,7 +47,7 @@ reviewed_at: "2026-07-30"
 - 동반된 신장 기형 여부를 반드시 확인하고 필요 시 비뇨의학과 협진을 시행함.
 - 임신 계획이 있는 경우 산과적 합병증(조산, 태아 위치 이상 등)에 대한 고위험군 관리 및 상담을 병행함.
 
-- **수술 전 조건**: 3차원 질초음파 등으로 자궁강과 외부 윤곽을 함께 확인하여 기형을 구분한다. [ASRM 2024](https://doi.org/10.1016/j.fertnstert.2024.02.033) · [WHO 2025](https://www.ncbi.nlm.nih.gov/books/NBK620427/)
+- **수술 전 조건**: 3차원 질초음파 등으로 자궁강과 외부 윤곽을 함께 확인하여 기형을 구분한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 기형의 종류에 따라 산과적 합병증(조산, 태아 위치 이상 등) 위험이 증가할 수 있음.

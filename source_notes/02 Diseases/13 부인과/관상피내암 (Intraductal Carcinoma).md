@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG101 | https://www.nice.org.uk/guidance/ng101/chapter/Recommendations", "SSO/ASTRO/ASCO 절제연 합의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC5047939/"]
 ---
 분과 : [[부인과]]
 
@@ -44,7 +45,7 @@ reviewed_at: "2026-07-30"
 - **추적 관찰**: 치료 후 정기적인 유방 촬영술(Mammography) 및 신체 검진을 통해 국소 재발 여부를 지속적으로 모니터링함.
 
 - **수술 범위를 바꾸는 기준**: 보존술 + 전유방 방사선치료 시 2 mm 음성 절제연이 일반적인 목표다. <2 mm라도 자동 전절제 적응증은 아니며 잔여 석회화·범위·어느 방향의 절제연인지로 재절제를 판단한다. 광범위·다중심 병변 또는 적절한 절제연 확보가 어려우면 전절제를 검토한다.
-- **액와·약물 치료**: 순수 DCIS의 보존술에는 감시림프절 생검을 일률적으로 하지 않지만 전절제 시에는 함께 시행한다. ER 양성에서 tamoxifen 또는 폐경 후 aromatase inhibitor를 위험 감소 목적으로 논의한다. 침윤 성분이 없는 DCIS에 세포독성 항암을 적용하지 않는다. [NICE NG101](https://www.nice.org.uk/guidance/ng101/chapter/Recommendations) · [SSO/ASTRO/ASCO 절제연 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC5047939/)
+- **액와·약물 치료**: 순수 DCIS의 보존술에는 감시림프절 생검을 일률적으로 하지 않지만 전절제 시에는 함께 시행한다. ER 양성에서 tamoxifen 또는 폐경 후 aromatase inhibitor를 위험 감소 목적으로 논의한다. 침윤 성분이 없는 DCIS에 세포독성 항암을 적용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 예후가 매우 좋으나, 치료하지 않을 경우 침윤성 유방암으로 진행할 위험이 큼.

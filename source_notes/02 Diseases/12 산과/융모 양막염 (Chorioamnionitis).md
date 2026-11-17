@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACOG 자궁내 감염 관리 | https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/08/intrapartum-management-of-intraamniotic-infection"]
 ---
 분과 : [[산과]]
 
@@ -27,7 +28,6 @@ reviewed_at: "2026-07-30"
 - **기전**:
   질/자궁경부의 세균이 양막강으로 침입하여 염증 반응을 유발.
   조기 파수, 빈번한 내진, 조산, 장시간 분만 등이 위험 요인.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -51,7 +51,7 @@ reviewed_at: "2026-07-30"
 - 분만 후에는 모체의 활력 징후와 자궁 퇴축 상태를 면밀히 관찰하여 산후 감염 합병증을 조기에 발견함.
 - 신생아의 경우 감염 가능성을 고려하여 소아청소년과에 즉시 인계하고 신생아 패혈증 여부를 평가함.
 
-- **항생제와 분만 경로**: 대표 경험요법은 ampicillin+gentamicin이며 제왕절개 시 clindamycin/metronidazole 등 혐기균 치료를 추가한다. 감염 자체만으로 제왕절개를 결정하지 않고 태아 상태·진행·산과 적응증으로 정한다. 질식분만 뒤 안정적이면 항생제를 자동 연장하지 않으며, 제왕절개는 최소 한 차례 추가 투여를 검토하고 지속 발열·균혈증이면 연장한다. [ACOG 자궁내 감염 관리](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/08/intrapartum-management-of-intraamniotic-infection)
+- **항생제와 분만 경로**: 대표 경험요법은 ampicillin+gentamicin이며 제왕절개 시 clindamycin/metronidazole 등 혐기균 치료를 추가한다. 감염 자체만으로 제왕절개를 결정하지 않고 태아 상태·진행·산과 적응증으로 정한다. 질식분만 뒤 안정적이면 항생제를 자동 연장하지 않으며, 제왕절개는 최소 한 차례 추가 투여를 검토하고 지속 발열·균혈증이면 연장한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **모체 합병증**: 자궁내막염, 산후 출혈, 패혈증, 제왕절개술 위험 증가.

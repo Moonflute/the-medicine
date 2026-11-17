@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG71 | https://www.nice.org.uk/guidance/ng71/chapter/Recommendations"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -43,7 +44,7 @@ reviewed_at: "2026-07-30"
 - 치료 시작 후 3~6개월 내에 운동 점수와 일상 생활 능력을 평가하고, 부작용 및 약물 효과를 재검토한다.
 - 정기 임상 평가로 운동·비운동 증상과 약효를 추적한다. 전형적 파킨슨병에 매년 뇌영상을 일률 시행하지 않고 새 결손·비전형적 경과 등 적응증이 있을 때 검사한다.
 
-- **시작·증강·시술 기준**: 파킨슨병 운동 증상이 삶의 질을 떨어뜨리면 levodopa를 제안한다. 최적 levodopa에도 wearing-off·운동 변동이 있으면 MAO-B/COMT 억제제 또는 dopamine agonist를 추가하되 환각·기립저혈압·충동조절 위험을 비교한다. 충분한 약물 조정에도 장애성 변동·떨림이 남고 levodopa 반응이 있는 환자는 인지·정신 상태를 평가하여 DBS/주입 치료를 검토한다. 약물로 잘 조절되면 DBS를 시행하지 않는다. [NICE NG71](https://www.nice.org.uk/guidance/ng71/chapter/Recommendations)
+- **시작·증강·시술 기준**: 파킨슨병 운동 증상이 삶의 질을 떨어뜨리면 levodopa를 제안한다. 최적 levodopa에도 wearing-off·운동 변동이 있으면 MAO-B/COMT 억제제 또는 dopamine agonist를 추가하되 환각·기립저혈압·충동조절 위험을 비교한다. 충분한 약물 조정에도 장애성 변동·떨림이 남고 levodopa 반응이 있는 환자는 인지·정신 상태를 평가하여 DBS/주입 치료를 검토한다. 약물로 잘 조절되면 DBS를 시행하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 진행성 질환으로, 다학제적 접근(신경과, 재활의학과, 간호 등)을 통해 운동 및 비운동 증상을 관리하여 합병증을 예방, 기능을 보존하는 것이 중요함.

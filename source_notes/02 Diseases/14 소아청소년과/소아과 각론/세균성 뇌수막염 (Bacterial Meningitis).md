@@ -18,7 +18,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)]. | https://pubmed.ncbi.nlm.nih.gov/39844486/"]
+sources: ["[Clinical practice guidelines for the diagnosis and treatment of community-acquired bacterial meningitis in children (2025)]. | https://pubmed.ncbi.nlm.nih.gov/39844486/", "CPS | https://cps.ca/en/documents/position/management-of-bacterial-meningitis", "NICE NG240 | https://www.nice.org.uk/guidance/ng240/chapter/recommendations"]
 
 content_updated_at: "2026-11-18"
 
@@ -54,8 +54,8 @@ content_updated_at: "2026-11-18"
 * **치료 원칙**: 조기 정밀 진단과 표준화된 항균제 치료를 통해 예후 개선 및 질병 부담 감소 도모.
 * **관리**: 임상적 경과에 따른 모니터링 및 합병증 관리.
 
-* **연령·내성에 따른 경험치료**: 신생아는 ampicillin+cefotaxime 등 신생아 경로를 적용한다. 생후 2–3개월 이후는 ceftriaxone/cefotaxime에 지역 폐렴구균 내성 위험을 반영해 vancomycin을 병용하고, 배양·감수성 결과로 좁힌다. 쇼크·호흡부전·두개내압 상승 의심이면 LP/CT 때문에 항생제를 지연하지 않는다. [CPS](https://cps.ca/en/documents/position/management-of-bacterial-meningitis)
-* **스테로이드·기간 분기**: 생후 **3개월 초과**의 강력 의심/확진 세균성 수막염은 첫 항생제 직전 또는 동시에 dexamethasone을 고려한다. NICE는 폐렴구균/Hib 확인 시 유지, 다른 균이면 중단하도록 한다. 치료기간은 합병증 없는 수막구균 약 **5–7일**, Hib **7–10일**, 폐렴구균 **10–14일**을 기준으로 균·반응에 따라 조정하며 GBS/그람음성균·뇌실염은 더 길다. [NICE NG240](https://www.nice.org.uk/guidance/ng240/chapter/recommendations)
+* **연령·내성에 따른 경험치료**: 신생아는 ampicillin+cefotaxime 등 신생아 경로를 적용한다. 생후 2–3개월 이후는 ceftriaxone/cefotaxime에 지역 폐렴구균 내성 위험을 반영해 vancomycin을 병용하고, 배양·감수성 결과로 좁힌다. 쇼크·호흡부전·두개내압 상승 의심이면 LP/CT 때문에 항생제를 지연하지 않는다.
+* **스테로이드·기간 분기**: 생후 **3개월 초과**의 강력 의심/확진 세균성 수막염은 첫 항생제 직전 또는 동시에 dexamethasone을 고려한다. NICE는 폐렴구균/Hib 확인 시 유지, 다른 균이면 중단하도록 한다. 치료기간은 합병증 없는 수막구균 약 **5–7일**, Hib **7–10일**, 폐렴구균 **10–14일**을 기준으로 균·반응에 따라 조정하며 GBS/그람음성균·뇌실염은 더 길다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 치료가 예후를 결정함 (사망률 10-15%)

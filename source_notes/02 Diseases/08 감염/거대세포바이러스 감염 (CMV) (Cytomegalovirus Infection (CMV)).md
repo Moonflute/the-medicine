@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["국제 CMV 합의 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12180710/"]
 ---
 분과 : [[감염]]
 
@@ -52,7 +53,7 @@ reviewed_at: "2026-07-30"
 - 선천성 CMV는 중증 증상·중추신경 침범·청력 소견과 치료 시작 연령을 소아감염팀에서 평가한다. 모든 무증상 신생아에게 valganciclovir를 일률 투여하지 않는다.
 
 - **고형장기 이식 수혜자의 치료 분기**: 경증–중등도이고 흡수가 가능하면 경구 valganciclovir, 생명 위협·중증 장기침범 또는 흡수 불확실이면 IV ganciclovir를 우선한다. 신기능에 맞춰 용량을 조절하고 CBC·PCR을 추적한다. 최소 2주 치료 후 임상 호전과 검사법별 바이러스 억제/음전 기준으로 종료한다. DNA 검출만으로 모든 환자를 치료하지 않으며 선제치료 PCR 기준은 장기·위험·검사법별로 다르다.
-- 적정 용량 ≥2주에도 임상 실패와 바이러스 반응 불량이 있고 누적 노출 >4주이면 내성검사·대체제 선택을 평가한다. [국제 CMV 합의 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12180710/)
+- 적정 용량 ≥2주에도 임상 실패와 바이러스 반응 불량이 있고 누적 노출 >4주이면 내성검사·대체제 선택을 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 면역 저하 환자에서 중증 감염 및 사망 위험이 높다.

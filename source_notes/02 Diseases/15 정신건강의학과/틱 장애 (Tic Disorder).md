@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "AAN 틱 치료 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6537133/"]
 disease_family: psychiatry_split
 parent_disease: 소아 정신 의학 (Child and Adolescent Psychiatric Disorders)
 relation_to_parent: subtype
@@ -48,7 +47,6 @@ relation_to_parent: subtype
 
 - **약제·종료 선택**: ADHD를 동반하면 clonidine·guanfacine 등 alpha-2 작용제를 검토하고, 심한 통증·손상·기능 장애가 계속되면 항정신병약 등 다음 치료를 선택한다. 증상은 자연적으로 변동하므로 일시 악화만으로 자동 증량하지 않는다. Alpha-2 작용제는 혈압·맥박을 추적하고 중단 시 서서히 줄인다.
 
-근거: [AAN 틱 치료 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6537133/).
 
 ## 6. 예후 및 합병증
 - 예후: 대개 청소년기를 지나며 증상이 완화되나, 일부는 성인기까지 지속됨.

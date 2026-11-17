@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ACG 알코올성 간질환 지침 2024 | https://webfiles.gi.org/links/journals/ACG-Alcohol-Associated-Liver-Disease-Guidelines-Highlights-2024.pdf", "ACG 알코올성 간질환 지침 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11040545/", "ASAM 알코올 금단 지침 | https://www.asam.org/docs/default-source/quality-science/the_asam_clinical_practice_guideline_on_alcohol-1.pdf"]
 ---
 ## 1. 개요
 - 알코올성 간 질환(ALD): 과도한 알코올 섭취로 인한 간 손상 스펙트럼(지방간, 알코올성 간염, 간경변증).
@@ -54,7 +55,6 @@ reviewed_at: "2026-10-08"
 - 금주 유지와 간 기능 추적을 위해 정기 혈액·영상 검사를 시행하고, 재발 위험이 있으면 알코올 사용장애 치료와 상담을 연계한다.
 
 - **스테로이드 시작 기준**: 알코올간염으로 진단되고 **MELD >20**인 중증 환자에서, 조절되지 않는 감염·위장관 출혈·중증 신부전 등 금기가 없거나 교정되었을 때 prednisolone **40 mg/일, 최대 4주**를 고려한다. 모든 알코올성 간질환이나 단순 지방간에 적용하지 않는다. 시작 후 **4일 또는 7일 Lille >0.45**이면 이득이 낮아 중단한다.
-- 근거: [ACG 알코올성 간질환 지침 2024](https://webfiles.gi.org/links/journals/ACG-Alcohol-Associated-Liver-Disease-Guidelines-Highlights-2024.pdf).
 
 ## 6. 예후 및 합병증
 - 예후: 금주 여부가 핵심.
@@ -68,6 +68,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ACG 알코올성 간질환 지침 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11040545/)
-- [ACG 권고 요약](https://webfiles.gi.org/links/journals/ACG-Alcohol-Associated-Liver-Disease-Guidelines-Highlights-2024.pdf)
-- [ASAM 알코올 금단 지침](https://www.asam.org/docs/default-source/quality-science/the_asam_clinical_practice_guideline_on_alcohol-1.pdf)

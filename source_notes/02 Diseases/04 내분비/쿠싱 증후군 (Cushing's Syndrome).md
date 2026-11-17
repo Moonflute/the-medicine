@@ -81,4 +81,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [대한내분비학회 2024 쿠싱증후군 진단·관리 합의문](https://www.endocrinology.or.kr/journal/view.php?number=1820), [Endocrine Society 쿠싱증후군 진료지침](https://www.endocrine.org/clinical-practice-guidelines/cushings-syndrome)을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. 대한내분비학회 2024 쿠싱증후군 진단·관리 합의문, Endocrine Society 쿠싱증후군 진료지침을 대조. 2026-09-14 기존 목차 내 보완.

@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "AAN 틱 치료 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6537133/"]
 disease_family: psychiatry_split
 parent_disease: 소아 정신 의학 (Child and Adolescent Psychiatric Disorders)
 relation_to_parent: subtype
@@ -44,7 +43,6 @@ relation_to_parent: subtype
 
 - **약물 선택**: 기능 손상이 없으면 교육·관찰을 선택할 수 있다. 치료가 필요하면 CBIT를 우선 제안하고, **ADHD가 동반된 틱에는 clonidine·guanfacine** 등이 두 증상에 도움이 될 수 있다. 심한 틱에서 항정신병약을 선택하면 대사·운동 부작용을 추적한다. Alpha-2 작용제는 혈압·맥박을 감시하며 반동성 고혈압 때문에 갑자기 끊지 않는다.
 
-근거: [AAN 틱 치료 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6537133/).
 
 ## 6. 예후 및 합병증
 - 예후: 청소년기를 지나며 증상이 완화되는 경우가 많으나, 일부는 성인기까지 지속됨.

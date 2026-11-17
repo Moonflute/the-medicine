@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAO PPP 2024 | https://www.aao.org/education/preferred-practice-pattern/bacterial-keratitis-ppp-2023"]
 ---
 분과 : [[안과]]
 
@@ -42,7 +43,7 @@ reviewed_at: "2026-07-30"
 - 환자에게 콘택트렌즈 착용 중단, 렌즈 및 보존액 교체, 손 위생 등 위생 교육을 제공하여 재발을 예방한다.
 - 치료 경과가 호전되지 않거나 합병증(천공, 혼탁, 저압 등)이 의심될 경우 입원을 고려하고, 전문 안과(각막·안구외과)로 전원한다.
 
-- **점안 강도·steroid 전환**: 작은 비중심 궤양은 경험적 국소 항생제를 사용할 수 있으나, 중심부·깊은 침범·**침윤 >2 mm 또는 심한 화농**은 배양 후 초기 5–15분 간격 부하와 이후 매시간 점안 등 집중치료를 고려한다. steroid는 적절한 항생제 **최소 48시간** 뒤 원인균 확인/반응이 있을 때 전문의가 검토하며, 진균·Acanthamoeba·Nocardia 의심 시 피한다. [AAO PPP 2024](https://www.aao.org/education/preferred-practice-pattern/bacterial-keratitis-ppp-2023)
+- **점안 강도·steroid 전환**: 작은 비중심 궤양은 경험적 국소 항생제를 사용할 수 있으나, 중심부·깊은 침범·**침윤 >2 mm 또는 심한 화농**은 배양 후 초기 5–15분 간격 부하와 이후 매시간 점안 등 집중치료를 고려한다. steroid는 적절한 항생제 **최소 48시간** 뒤 원인균 확인/반응이 있을 때 전문의가 검토하며, 진균·Acanthamoeba·Nocardia 의심 시 피한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 각막 혼탁(흉터), 각막 천공, 녹내장, 백내장, 안내염 및 실명.

@@ -29,12 +29,7 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
-sources:
-- "Baveno VIII 문맥고혈압 개정 합의문, 2026 | https://doi.org/10.1016/j.jhep.2026.07.030"
-- "Baveno VII 문맥고혈압 합의문 (2022) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/"
-- "AASLD 복수·SBP·HRS 진료지침 (2021) | https://www.aasld.org/practice-guidelines/diagnosis-evaluation-and-management-ascites-spontaneous-bacterial-peritonitis"
-- "ADQI/ICA 간경변 AKI·HRS 합의문 (2024) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11193657/"
-- "EASL 만성 간질환 영양 지침 (2019) | https://easl.eu/wp-content/uploads/2018/10/EASL-CPG-nutrition-in-chronic-liver-disease.pdf"
+sources: ["Baveno VIII 문맥고혈압 개정 합의문, 2026 | https://doi.org/10.1016/j.jhep.2026.07.030", "Baveno VII 문맥고혈압 합의문 (2022) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/", "AASLD 복수·SBP·HRS 진료지침 (2021) | https://www.aasld.org/practice-guidelines/diagnosis-evaluation-and-management-ascites-spontaneous-bacterial-peritonitis", "ADQI/ICA 간경변 AKI·HRS 합의문 (2024) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11193657/", "EASL 만성 간질환 영양 지침 (2019) | https://easl.eu/wp-content/uploads/2018/10/EASL-CPG-nutrition-in-chronic-liver-disease.pdf"]
 ---
 분과 : [[소화기]]
 
@@ -97,7 +92,6 @@ sources:
 - **영양 및 전원**: 충분한 열량과 단백질 섭취를 유지하며, 간성 뇌증 자체를 이유로 단백질을 제한하지 않는다. 임상적으로 안정된 성인은 이상체중 기준 단백질 1.2–1.5 g/kg/일을 목표로 영양 상태와 동반 질환에 맞춰 계획한다. 비대상성 간경변증으로 진행되거나 간 이식이 필요한 경우 상급 병원으로 신속히 전원한다.
 
 - **비대상화 예방**: 보상성 간경변에서도 임상적으로 유의한 문맥고혈압(CSPH)이 확인되면 carvedilol 등 비선택적 β차단제를 검토한다. 정맥류가 없다는 이유만으로 배제하지 않지만 CSPH가 없는 환자에게 일괄 처방하지 않는다. 복수 환자에서 **수축기혈압 <90 mmHg, MAP <65 mmHg 또는 HRS-AKI**가 지속되면 감량·중단하고 회복 후 재평가한다.
-- 근거: [Baveno VII](https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - Child–Pugh는 아래 5개 항목을 각각 1–3점으로 평가한다. INR과 PT 연장 시간은 대체 항목이므로 둘을 중복 합산하지 않는다. 총점 A 5–6점, B 7–9점, C 10–15점으로 분류한다.
@@ -144,9 +138,3 @@ Baveno VIII(2026)는 임상적으로 유의한 문맥고혈압(CSPH)이 있는 �
 - [[자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)]]
 
 ## 참고 가이드라인
-
-- [Baveno VIII 문맥고혈압 개정 합의문, 2026](https://doi.org/10.1016/j.jhep.2026.07.030)
-- [Baveno VII 문맥고혈압 합의문 (2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/)
-- [AASLD 복수·SBP·HRS 진료지침 (2021)](https://www.aasld.org/practice-guidelines/diagnosis-evaluation-and-management-ascites-spontaneous-bacterial-peritonitis)
-- [ADQI/ICA 간경변 AKI·HRS 합의문 (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11193657/)
-- [EASL 만성 간질환 영양 지침 (2019)](https://easl.eu/wp-content/uploads/2018/10/EASL-CPG-nutrition-in-chronic-liver-disease.pdf)

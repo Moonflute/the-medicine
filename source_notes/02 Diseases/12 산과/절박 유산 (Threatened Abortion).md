@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG126 | https://www.nice.org.uk/guidance/ng126/chapter/management-of-miscarriage", "NICE 초기 임신의 항-D 예방 권고(2026) | https://www.nice.org.uk/guidance/ng126/chapter/anti-d-immunoglobulin-prophylaxis"]
 ---
 분과 : [[산과]]
 
@@ -24,7 +25,6 @@ reviewed_at: "2026-07-30"
 - **원인**: 자궁경부의 변화, 태반 부착 부위의 출혈, 호르몬 불균형 등이 원인이 될 수 있으나 명확하지 않은 경우가 많음.
 
 - **기전**: 자궁 내막의 박리나 태반의 부분적 분리로 인해 출혈이 발생하며, 자궁 수축이 동반될 수 있음.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -52,7 +52,7 @@ reviewed_at: "2026-07-30"
 - **RhD 동종면역 예방**: NICE 2026은 11주 6일까지의 절박유산에는 RhD 면역글로불린을 권하지 않는다. RhD 음성이고 12주 0일~12주 6일 사이에 출혈이 많고 반복되면 고려한다. 주수·출혈·이전 감작 여부와 적용 지역 지침을 확인하며, anti-D는 출혈 자체를 치료하는 약이 아니다.
 - **상급 병원 전원**: 출혈량 증가, 심한 복통, 자궁경부 개대 등 유산이 진행되는 징후가 보일 경우 즉시 상급 의료기관으로 전원함.
 
-- **프로게스테론 적응증**: 초음파로 자궁내임신이 확인되고 현재 질출혈과 이전 유산력이 함께 있으면 질 micronised progesterone 400 mg 1일 2회를 권고한다. 태아 심박이 확인되면 임신 16주 완료까지 지속한다. 출혈 없는 임신 또는 유산력 없는 모든 절박유산에 일률 적용하는 기준은 아니다. [NICE NG126](https://www.nice.org.uk/guidance/ng126/chapter/management-of-miscarriage)
+- **프로게스테론 적응증**: 초음파로 자궁내임신이 확인되고 현재 질출혈과 이전 유산력이 함께 있으면 질 micronised progesterone 400 mg 1일 2회를 권고한다. 태아 심박이 확인되면 임신 16주 완료까지 지속한다. 출혈 없는 임신 또는 유산력 없는 모든 절박유산에 일률 적용하는 기준은 아니다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 많은 경우 정상 임신으로 진행되나, 일부는 자연 유산으로 진행될 수 있음.
@@ -60,6 +60,5 @@ reviewed_at: "2026-07-30"
 
 
 출처 : StatPearls (Abortion, Abortion Complications)
-- [NICE 초기 임신의 항-D 예방 권고(2026)](https://www.nice.org.uk/guidance/ng126/chapter/anti-d-immunoglobulin-prophylaxis)
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

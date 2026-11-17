@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["WSES 구불창자 꼬임 지침 2023 | https://link.springer.com/article/10.1186/s13017-023-00502-x", "ASGE 대장 염전·가성폐쇄 내시경 지침 | https://www.giejournal.org/article/S0016-5107%2819%2932220-5/fulltext"]
 ---
 분과 : [[소화기]]
 
@@ -68,5 +69,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [WSES 구불창자 꼬임 지침 2023](https://link.springer.com/article/10.1186/s13017-023-00502-x)
-- [ASGE 대장 염전·가성폐쇄 내시경 지침](https://www.giejournal.org/article/S0016-5107%2819%2932220-5/fulltext)

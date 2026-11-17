@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["RCOG 초기 유산 관리 | https://www.rcog.org.uk/for-the-public/browse-our-patient-information/early-miscarriage/"]
 ---
 분과 : [[산과]]
 
@@ -26,7 +27,6 @@ reviewed_at: "2026-07-30"
 - **원인**: 대부분 자연적인 유산 과정의 일부로 발생
 
 - **기전**: 자궁경관의 개대와 양막 파수로 인해 임신 유지가 불가능한 상태
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -47,7 +47,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 
 - 혈역학적으로 안정적이고 감염 징후가 없는 경우 기대 요법을 고려할 수 있음
-- 과다 출혈·혈역학적 불안정·감염이면 신속한 자궁흡입과 소생을 시행하며, 감염은 정맥 항생제를 병행한다. 안정된 초기 유산에서는 통증 하나만으로 응급 수술을 고정하지 않고 배출 진행·선호·추적 가능성에 따라 기대/약물/흡입술을 선택한다. [RCOG 초기 유산 관리](https://www.rcog.org.uk/for-the-public/browse-our-patient-information/early-miscarriage/)
+- 과다 출혈·혈역학적 불안정·감염이면 신속한 자궁흡입과 소생을 시행하며, 감염은 정맥 항생제를 병행한다. 안정된 초기 유산에서는 통증 하나만으로 응급 수술을 고정하지 않고 배출 진행·선호·추적 가능성에 따라 기대/약물/흡입술을 선택한다.
 - Rh 음성 산모는 항-D 면역글로불린 투여 여부를 반드시 확인
 - 감염 징후(발열, 악취 등) 발생 시 즉각적인 평가 및 상급 병원 전원 고려
 - 시술 후 출혈량, 복통, 감염 징후에 대한 추적 관찰 및 교육 시행

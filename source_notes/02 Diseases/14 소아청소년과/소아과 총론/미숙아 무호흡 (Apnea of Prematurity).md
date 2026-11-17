@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG124 | https://www.nice.org.uk/guidance/ng124/chapter/Recommendations", "CPS 미숙아 퇴원 계획 | https://cps.ca/en/documents/position/discharge-planning-of-the-preterm-infant", "AAP 미숙아 무호흡 임상보고서 | https://publications.aap.org/pediatrics/article/137/1/e20153757/52845/Apnea-of-Prematurity"]
 ---
 분과 : [[소아청소년과]]
 
@@ -46,12 +47,10 @@ reviewed_at: "2026-07-30"
 
 - **카페인 처방·중단**: caffeine **citrate** 기준 부하 20 mg/kg 후 유지 5 mg/kg/일로 시작한다(NICE). 무호흡 지속 시 원인을 재평가하고 NICU 프로토콜에 따라 증량하며, caffeine base와 citrate 용량을 혼동하지 않는다. 임상적으로 안정되어 중단한 뒤에는 반감기를 고려하여 보통 **5–7일** 무호흡·서맥 재발을 관찰한다. 교정주수만으로 재발 여부를 무시하고 중단·퇴원하지 않는다.
 
-근거: [NICE NG124](https://www.nice.org.uk/guidance/ng124/chapter/Recommendations), [CPS 미숙아 퇴원 계획](https://cps.ca/en/documents/position/discharge-planning-of-the-preterm-infant).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 재태 주령이 증가함에 따라 호흡 중추가 성숙해지며 자연스럽게 호전됨
 * 대부분 카페인 치료 및 보조 환기로 조절 가능하며 장기적인 신경학적 예후는 기저 질환에 따라 다름
 
-출처: [AAP 미숙아 무호흡 임상보고서](https://publications.aap.org/pediatrics/article/137/1/e20153757/52845/Apnea-of-Prematurity)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

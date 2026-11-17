@@ -19,6 +19,7 @@ population: "pregnancy"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACOG 임신 UTI 합의 | https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2023/08/urinary-tract-infections-in-pregnant-individuals", "IDSA 무증상 세균뇨 2019 | https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/"]
 ---
 분과 : [[산과]]
 
@@ -45,8 +46,8 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 - **임신부의 치료 기준**: 배양 ≥100,000 CFU/mL의 의미 있는 세균뇨는 감수성과 임신 주수에 맞는 항생제로 통상 5–7일 치료한다. 낮은 집락수·오염을 같은 기준으로 치료하지 않는다. GBS가 소변에서 검출되면 낮은 집락수로 산전 항생제를 주지 않더라도 분만 중 GBS 예방 적응증을 기록한다.
-- **약제·재평가**: nitrofurantoin 등은 하부요로 감염에 사용하며 G6PD 결핍·주수 등 금기를 확인한다. 발열·옆구리 통증이 있으면 신우신염으로 평가하고 nitrofurantoin/fosfomycin을 신실질 감염 치료로 쓰지 않는다. 치료 후 모든 무증상 환자에게 반복 배양이 필수라는 근거는 부족하므로 증상·재발 위험에 따라 정한다. [ACOG 임신 UTI 합의](https://www.acog.org/clinical/clinical-guidance/clinical-consensus/articles/2023/08/urinary-tract-infections-in-pregnant-individuals)
-- **임신 이외**: 일반 성인은 치료하지 않으며 요로 점막을 손상시키는 내시경 시술 전에는 배양 기반 단기 예방치료를 한다. 신장이식 >1개월은 일률 선별·치료하지 않으며 첫 1개월은 근거 부족으로 이식팀 판단에 따른다. [IDSA 무증상 세균뇨 2019](https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/)
+- **약제·재평가**: nitrofurantoin 등은 하부요로 감염에 사용하며 G6PD 결핍·주수 등 금기를 확인한다. 발열·옆구리 통증이 있으면 신우신염으로 평가하고 nitrofurantoin/fosfomycin을 신실질 감염 치료로 쓰지 않는다. 치료 후 모든 무증상 환자에게 반복 배양이 필수라는 근거는 부족하므로 증상·재발 위험에 따라 정한다.
+- **임신 이외**: 일반 성인은 치료하지 않으며 요로 점막을 손상시키는 내시경 시술 전에는 배양 기반 단기 예방치료를 한다. 신장이식 >1개월은 일률 선별·치료하지 않으며 첫 1개월은 근거 부족으로 이식팀 판단에 따른다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분의 환자에서 합병증 없이 경과함.

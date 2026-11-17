@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Endocrine Society | https://doi.org/10.1210/jc.2018-01865", "FDA | https://www.fda.gov/news-events/press-announcements/fda-approves-new-treatment-congenital-adrenal-hyperplasia"]
 ---
 분과 : [[소아청소년과]]
 
@@ -51,8 +52,8 @@ reviewed_at: "2026-07-30"
 * **다학제적 접근**: 외성기 모호성에 대한 성형 수술 및 심리적 지지를 위해 소아비뇨기과, 소아내분비과, 정신건강의학과 등 다학제적 진료를 시행함.
 * **가족 상담 및 유전 상담**: 질환의 유전적 특성을 설명하고 향후 임신 시 산전 진단 및 신생아 선별 검사의 중요성을 교육함.
 
-* **아형과 약제 조절**: 성장기 classic 21-hydroxylase 결핍은 hydrocortisone **10–15 mg/m²/day, 3회 분복**을 기본으로 하고 영아는 fludrocortisone·염분 보충을 병행한다. 성장속도·골연령·혈압·전해질·renin·androgen을 함께 보고 조정하며 **17-OHP 정상화만을 목표로 과량 투여하지 않는다**. 무증상 nonclassic형은 일률적인 glucocorticoid 치료 대상이 아니다. [Endocrine Society](https://doi.org/10.1210/jc.2018-01865)
-* **추가 약제의 조건**: FDA 승인 crinecerfont는 **4세 이상 classic CAH**에서 androgen 조절을 위해 glucocorticoid에 추가하는 약제다. 호르몬 보충이나 스트레스 용량을 대체하지 않는다. 국내 허가·접근성을 확인하고 호르몬 수치에 따라 스테로이드를 전문적으로 조절한다. [FDA](https://www.fda.gov/news-events/press-announcements/fda-approves-new-treatment-congenital-adrenal-hyperplasia)
+* **아형과 약제 조절**: 성장기 classic 21-hydroxylase 결핍은 hydrocortisone **10–15 mg/m²/day, 3회 분복**을 기본으로 하고 영아는 fludrocortisone·염분 보충을 병행한다. 성장속도·골연령·혈압·전해질·renin·androgen을 함께 보고 조정하며 **17-OHP 정상화만을 목표로 과량 투여하지 않는다**. 무증상 nonclassic형은 일률적인 glucocorticoid 치료 대상이 아니다.
+* **추가 약제의 조건**: FDA 승인 crinecerfont는 **4세 이상 classic CAH**에서 androgen 조절을 위해 glucocorticoid에 추가하는 약제다. 호르몬 보충이나 스트레스 용량을 대체하지 않는다. 국내 허가·접근성을 확인하고 호르몬 수치에 따라 스테로이드를 전문적으로 조절한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 적절한 호르몬 치료 시 정상적인 성장 및 생식 기능 유지 가능

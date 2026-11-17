@@ -23,7 +23,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Colorectal cancer screening: An update to the American Cancer Society guideline, 2026. | https://pubmed.ncbi.nlm.nih.gov/42200680/"]
+sources: ["Colorectal cancer screening: An update to the American Cancer Society guideline, 2026. | https://pubmed.ncbi.nlm.nih.gov/42200680/", "한국 직장암 다학제 진료지침 2.0 | https://doi.org/10.3393/ac.2025.01396.0199", "ASCO 국소 진행 직장암 지침 | https://doi.org/10.1200/JCO.24.01160", "ESGE 악성 대장폐쇄 스텐트 지침 | https://pubmed.ncbi.nlm.nih.gov/32259849/", "ASCO | https://doi.org/10.1200/JCO.21.02538", "NCI PDQ | https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -67,14 +67,14 @@ content_updated_at: "2026-11-17"
   3기(림프절 양성) 및 고위험 2기에서 보조 항암화학요법 시행
 - 직장암
 - **직장암 국소 병기와 수술**: 골반 MRI에서 종양 위치, 절제연 위협, 괄약근·거근 침윤, 벽외혈관 침범과 림프절을 평가한다. 항문연 거리 하나만으로 수술 방법을 정하지 않고 음성 절제연과 괄약근 기능을 고려한다.
-- **국소 진행 직장암**: 하부 또는 MRI상 고위험이면 방사선과 전신 항암치료를 수술 전에 계획하는 총선행치료(TNT)를 고려한다. 일부 저위험은 선행 방사선 생략을 검토할 수 있고, dMMR/MSI-H는 면역치료 가능성을 별도로 평가한다. [한국 직장암 다학제 진료지침 2.0](https://doi.org/10.3393/ac.2025.01396.0199) · [ASCO 국소 진행 직장암 지침](https://doi.org/10.1200/JCO.24.01160)
+- **국소 진행 직장암**: 하부 또는 MRI상 고위험이면 방사선과 전신 항암치료를 수술 전에 계획하는 총선행치료(TNT)를 고려한다. 일부 저위험은 선행 방사선 생략을 검토할 수 있고, dMMR/MSI-H는 면역치료 가능성을 별도로 평가한다.
 - 전이성 대장암(Stage IV): 다학제 진료 필수.
   항암화학요법(5-FU, capecitabine, irinotecan, oxaliplatin 등) 및 표적치료제(bevacizumab, cetuximab 등) 사용.
   간 전이 시 절제 가능성 평가
-- **악성 대장폐색**: 천공 없는 안정적 좌측 폐쇄는 내시경 스텐트를 수술 가교 또는 완화 목적으로 선별 사용할 수 있다. 응급 절제·장루와 비교해 수술 목표·천공 위험·기관 시술 경험을 고려한다. [ESGE 악성 대장폐쇄 스텐트 지침](https://pubmed.ncbi.nlm.nih.gov/32259849/)
+- **악성 대장폐색**: 천공 없는 안정적 좌측 폐쇄는 내시경 스텐트를 수술 가교 또는 완화 목적으로 선별 사용할 수 있다. 응급 절제·장루와 비교해 수술 목표·천공 위험·기관 시술 경험을 고려한다.
 
-- **2기 결장암 보조항암 기준**: T4는 보조치료를 적극 권고하며, 검사 림프절 <12개, 림프혈관/신경 침범, 장폐쇄·천공, 저분화 또는 고등급 tumor budding 등은 추가 위험요인이다. 위험요인 없는 2기에 일상적으로 보조항암을 시행하지 않는다. dMMR/MSI-H 2기에서는 fluoropyrimidine 단독을 통상 권하지 않으며, T4 등으로 치료가 필요하면 oxaliplatin 병합의 이득·독성을 논의한다. [ASCO](https://doi.org/10.1200/JCO.21.02538)
-- **전이성 약제 분기**: MSI-H/dMMR이면 면역치료를 우선 평가한다. MSS/pMMR에서는 RAS/BRAF 등 분자형과 원발 위치를 반영하며, cetuximab/panitumumab은 RAS wild-type 여부를 확인한다. 간·폐 전이가 있어도 완전 절제/국소치료 가능성이 있으면 전신치료만으로 고정하지 않고 다학제에서 재평가한다. [NCI PDQ](https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq)
+- **2기 결장암 보조항암 기준**: T4는 보조치료를 적극 권고하며, 검사 림프절 <12개, 림프혈관/신경 침범, 장폐쇄·천공, 저분화 또는 고등급 tumor budding 등은 추가 위험요인이다. 위험요인 없는 2기에 일상적으로 보조항암을 시행하지 않는다. dMMR/MSI-H 2기에서는 fluoropyrimidine 단독을 통상 권하지 않으며, T4 등으로 치료가 필요하면 oxaliplatin 병합의 이득·독성을 논의한다.
+- **전이성 약제 분기**: MSI-H/dMMR이면 면역치료를 우선 평가한다. MSS/pMMR에서는 RAS/BRAF 등 분자형과 원발 위치를 반영하며, cetuximab/panitumumab은 RAS wild-type 여부를 확인한다. 간·폐 전이가 있어도 완전 절제/국소치료 가능성이 있으면 전신치료만으로 고정하지 않고 다학제에서 재평가한다.
 
 ## 6. 예후 및 합병증
 - 예후: 병기에 따라 상이(1기 5년 생존율 약 90%, 원격 전이 시 13~18%)

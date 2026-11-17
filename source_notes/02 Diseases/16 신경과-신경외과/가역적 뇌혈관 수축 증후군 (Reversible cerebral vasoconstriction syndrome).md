@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["RCVS 임상 코호트 | https://jamanetwork.com/journals/jamaneurology/fullarticle/1107836"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -40,7 +41,7 @@ reviewed_at: "2026-07-30"
 - **유발 요인 제거**: 혈관 수축을 유발하는 약물(교감신경 흥분제, 세로토닌계 약물 등)을 즉시 중단하고 관련 기저 질환을 교정함.
 - **혈압 및 증상 관리**: 급격한 혈압 변동을 방지하고, 벼락 두통 및 발작에 대한 대증적 통증 조절과 항경련제 치료를 시행함.
 - **금기 사항 준수**: 혈관 수축을 악화시킬 수 있는 트립탄(Triptan) 계열 약물 사용을 엄격히 금지함.
-- **약물 선택의 한계**: 경험적 glucocorticoid는 피한다. 반복 벼락두통에 nimodipine/verapamil을 사용하기도 하나 뇌졸중 예방·질병 경과 개선의 확립된 효과는 없고 저혈압에 의한 관류 저하를 경계한다. 혈관내 확장제·혈관성형술은 진행성 불응 사례의 전문센터 구조요법으로 구분한다. [RCVS 임상 코호트](https://jamanetwork.com/journals/jamaneurology/fullarticle/1107836)
+- **약물 선택의 한계**: 경험적 glucocorticoid는 피한다. 반복 벼락두통에 nimodipine/verapamil을 사용하기도 하나 뇌졸중 예방·질병 경과 개선의 확립된 효과는 없고 저혈압에 의한 관류 저하를 경계한다. 혈관내 확장제·혈관성형술은 진행성 불응 사례의 전문센터 구조요법으로 구분한다.
 - **추적 관찰**: 증상 호전 여부와 혈관 수축의 가역적 회복을 확인하기 위해 영상 검사를 포함한 정기적인 신경학적 추적 관찰을 시행함.
 
 ## 6. 예후 및 합병증 (Prognosis)

@@ -15,7 +15,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2024"
-sources: ["2024 대한부정맥학회 심실성 부정맥 및 돌연 심장사 진료지침 (II) | https://www.koreahr.org/file/2024_KSHRS_Guideline_Part2.pdf", "2022 AHA/ACC/HRS Guideline for the Diagnosis and Management of Patients With Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001091"]
+sources: ["2024 대한부정맥학회 심실성 부정맥 및 돌연 심장사 진료지침 (II) | https://www.koreahr.org/file/2024_KSHRS_Guideline_Part2.pdf", "2022 AHA/ACC/HRS Guideline for the Diagnosis and Management of Patients With Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death | https://www.ahajournals.org/doi/10.1161/CIR.0000000000001091", "ESC 심실부정맥 지침 2022 | https://academic.oup.com/eurheartj/article/43/40/3997/6675633"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -48,7 +48,6 @@ content_updated_at: "2026-11-18"
 - 심정지 생존자 또는 지속성 심실부정맥이 기록된 환자는 ICD가 권고된다. **자발성 type 1 ECG와 부정맥성 실신**이 있으면 ICD를 적극 평가한다. 미주신경성 실신·막연한 두근거림이나 약물유발 ECG 소견만으로 모두 ICD를 삽입하지 않는다.
 - 무증상자는 가족력·자발성 ECG·선별적 전기생리검사 등으로 위험을 개별 평가하고 추적한다. 발열은 신속히 해열하고 유발 약물·과음·코카인을 피한다.
 - 전기 폭풍은 중환자 감시하 isoproterenol 등으로 처치하며 반복 ICD shock은 quinidine 또는 전문센터의 기질 절제술을 논의한다.
-- 근거: [ESC 심실부정맥 지침 2022](https://academic.oup.com/eurheartj/article/43/40/3997/6675633).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심실 부정맥으로 인한 급사 위험이 높으므로 가족 선별 검사가 권장된다.

@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["WSES 간 외상 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7106618/"]
 ---
 분과 : [[외과]]
 
@@ -25,7 +26,6 @@ reviewed_at: "2026-07-30"
 - **정의**: 외부 충격(둔상 또는 관통상)이나 약물, 독소 등에 의해 간 실질이 손상되는 상태.
 - **원인**: 복부 둔상(교통사고, 추락 등), 관통상, 약물 및 독성 물질(DILI).
 - **기전**: 외상에 의한 간 피막 파열 및 실질 열상, 또는 약물 대사 과정에서의 면역 반응 및 세포 독성.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -54,9 +54,7 @@ reviewed_at: "2026-07-30"
 - 합병증: 담즙 누출, 간 농양, 가성 동맥류, 복강 내 출혈.
 
 
-
 출처 : Merck Manual Professional
 
-외상 지혈·비수술 관리: [WSES 간 외상 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC7106618/)
 Last updated :
 2026-07-15 — 중복 본문 정리

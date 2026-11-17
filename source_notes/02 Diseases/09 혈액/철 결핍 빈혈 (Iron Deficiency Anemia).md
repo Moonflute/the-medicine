@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AGA Clinical Practice Update: Management of Iron Deficiency Anemia | https://gastro.org/clinical-guidance/management-of-iron-deficiency-anemia/"]
 ---
 분과 : [[혈액]]
 
@@ -62,4 +63,4 @@ Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-보완 출처: 삼성서울병원 메뉴얼. [AGA Clinical Practice Update: Management of Iron Deficiency Anemia](https://gastro.org/clinical-guidance/management-of-iron-deficiency-anemia/).
+보완 출처: 삼성서울병원 메뉴얼.

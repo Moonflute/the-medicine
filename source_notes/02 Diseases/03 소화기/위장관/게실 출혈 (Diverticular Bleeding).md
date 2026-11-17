@@ -13,6 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ACG 하부위장관 출혈 지침 2023 교육자료 | https://webfiles.gi.org/links/virtgrandround/34ACGVGRSenguptaAcuteLGIBleed.pdf", "ASGE 하부위장관 출혈 지침 2026 | https://www.sciencedirect.com/science/article/pii/S0016510726068574", "ESGE 하부위장관 출혈 지침 2021, 5.6.1절 | https://www.esge.com/assets/downloads/pdfs/guidelines/2021_a_1496_8969.pdf"]
 ---
 분과 : [[소화기]]
 
@@ -64,6 +65,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ACG 하부위장관 출혈 지침 2023 교육자료](https://webfiles.gi.org/links/virtgrandround/34ACGVGRSenguptaAcuteLGIBleed.pdf)
-- [ASGE 하부위장관 출혈 지침 2026](https://www.sciencedirect.com/science/article/pii/S0016510726068574)
-- [ESGE 하부위장관 출혈 지침 2021, 5.6.1절](https://www.esge.com/assets/downloads/pdfs/guidelines/2021_a_1496_8969.pdf)

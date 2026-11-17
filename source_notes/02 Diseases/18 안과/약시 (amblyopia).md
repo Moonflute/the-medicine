@@ -14,7 +14,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Web-Based Amblyopia Decision Support Tool. | https://pubmed.ncbi.nlm.nih.gov/42096234/"]
+sources: ["Web-Based Amblyopia Decision Support Tool. | https://pubmed.ncbi.nlm.nih.gov/42096234/", "AAO PPP | https://www.aao.org/Assets/c345150e-a392-48ac-b707-8d5db695c695/638447356123330000/amblyopia-ppp-2024-update-2-28-24-pdf"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -54,7 +54,7 @@ content_updated_at: "2026-11-18"
   - **원인 질환 치료**: 백내장 수술, 사시 교정술 등 기저 질환 우선 해결.
 - **모니터링 및 조정**: 치료 반응에 따라 정기적인 시력 평가 및 치료 계획 조정 필요.
 
-- **가림 시간 선택**: 완전 굴절 교정 후 잔여 약시에서, 어린 소아의 중등도(20/40–20/80)는 건측 **하루 2시간** 가림부터 시작할 수 있다. 중증(20/100–20/400)은 **하루 6시간**이 종일 가림과 유사한 효과를 보였다. 반응 정체 시 순응도·굴절·다른 원인을 먼저 확인하고 시간을 조절한다. 반대안 시력도 확인해 역약시를 피한다. [AAO PPP](https://www.aao.org/Assets/c345150e-a392-48ac-b707-8d5db695c695/638447356123330000/amblyopia-ppp-2024-update-2-28-24-pdf)
+- **가림 시간 선택**: 완전 굴절 교정 후 잔여 약시에서, 어린 소아의 중등도(20/40–20/80)는 건측 **하루 2시간** 가림부터 시작할 수 있다. 중증(20/100–20/400)은 **하루 6시간**이 종일 가림과 유사한 효과를 보였다. 반응 정체 시 순응도·굴절·다른 원인을 먼저 확인하고 시간을 조절한다. 반대안 시력도 확인해 역약시를 피한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 및 치료가 핵심(결정적 시기 내 치료 시 예후 양호).

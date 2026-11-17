@@ -24,6 +24,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["대한위암학회 위암 진료지침 | https://doi.org/10.5230/jgc.2025.25.e11", "대한위암학회 위암 진료지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11739648/", "ASCO 진행 위식도암 Living Guideline 2026.1.2 | https://doi.org/10.1200/JCO-26-01944", "FDA zolbetuximab | https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma", "국내 위암 진료지침 2024, 2025 발표 | https://www.jgc-online.org/DOIx.php?id=10.5230%2Fjgc.2025.25.e11", "ESGE MAPS III 2025 | https://www.esge.com/management-of-epithelial-precancerous-conditions-and-early-neoplasia-of-the-stomach-maps-iii-esge-ehmsg-esp-guideline-update-2025", "ESGE ESD 기술 검토 | https://www.esge.com/esd-techniques-and-technology-esge-technical-review"]
 ---
 ## 1. 개요
 - 조기위암은 침윤 깊이로 정의하며 림프절 전이가 없다는 뜻은 아니다. 내시경 절제는 림프절 전이 위험이 충분히 낮고 국소 완전절제가 가능한 병변에서 위를 보존하기 위해 선택한다.
@@ -73,12 +74,12 @@ reviewed_at: "2026-07-30"
 - **시술 후 관리**: 지연 출혈의 경고 증상과 연락·재방문 방법을 설명하고 산분비 억제, 식사 재개, 병리 확인과 추적 내시경을 계획한다. H. pylori 양성은 제균을 평가한다. 퇴원일·금식 기간은 합병증과 기관 경로에 따라 정한다.
 
 - 조기위암은 내시경 절제 적응증을 충족하면 ESD 등을 시행하고, 최종 병리의 치유 절제 기준과 잔여·림프절 전이 위험에 따라 추적 또는 추가 치료를 결정한다.
-- **위절제 범위의 선택**: 절제 가능한 원위부 암은 충분한 절제연을 확보할 수 있으면 원위부 위절제술을 고려한다. 종양의 위치·침윤 범위로 부분절제만으로 음성 절제연을 확보하기 어렵다면 위 전절제술을 고려한다. 출혈이 있다는 사실만으로 전절제를 정하지 않는다. 병기와 수술 범위에 맞는 림프절 절제 및 수술 전·후 항암화학요법을 판단한다. [대한위암학회 위암 진료지침](https://doi.org/10.5230/jgc.2025.25.e11)
-- 절제 불가능한 국소진행성·전이성 위암은 전신치료가 기본이다. HER2, PD‑L1, MSI/MMR 및 **CLDN18.2**를 평가해 플루오로피리미딘·백금 기반 요법에 면역·표적치료 병합을 검토한다. HER2 음성에서도 CLDN18.2에 따른 표적치료 선택지가 있으므로 HER2 결과만으로 제외하지 않는다. 국내 허가·급여, 전신상태와 이상반응을 확인한다. [대한위암학회 위암 진료지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC11739648/) · [ASCO 진행 위식도암 Living Guideline 2026.1.2](https://doi.org/10.1200/JCO-26-01944)
+- **위절제 범위의 선택**: 절제 가능한 원위부 암은 충분한 절제연을 확보할 수 있으면 원위부 위절제술을 고려한다. 종양의 위치·침윤 범위로 부분절제만으로 음성 절제연을 확보하기 어렵다면 위 전절제술을 고려한다. 출혈이 있다는 사실만으로 전절제를 정하지 않는다. 병기와 수술 범위에 맞는 림프절 절제 및 수술 전·후 항암화학요법을 판단한다.
+- 절제 불가능한 국소진행성·전이성 위암은 전신치료가 기본이다. HER2, PD‑L1, MSI/MMR 및 **CLDN18.2**를 평가해 플루오로피리미딘·백금 기반 요법에 면역·표적치료 병합을 검토한다. HER2 음성에서도 CLDN18.2에 따른 표적치료 선택지가 있으므로 HER2 결과만으로 제외하지 않는다. 국내 허가·급여, 전신상태와 이상반응을 확인한다.
 - 폐쇄·출혈 등 국소 증상은 병변 위치와 전신 상태에 따라 내시경 스텐트·지혈, 우회술, 방사선치료 등 증상 완화 방법을 다학제로 검토한다.
 - **위절제 주술기 관리**: 수술 전에는 영양 상태·동반질환과 폐색 시 감압 필요성을 평가하고, 수술 후에는 활력징후·통증·상처와 배액 양상, 장운동 회복 및 식이 진행을 함께 추적한다. 병리 결과를 확인해 보조치료 필요성과 추적 계획을 다학제로 정한다.
 
-- **약제 표지자 기준**: HER2 양성은 통상 IHC 3+ 또는 IHC 2+와 ISH 양성으로 판정해 trastuzumab 기반 요법 적격성을 평가한다. HER2 음성의 절제 불가/전이성 암에서 검증된 검사로 종양세포 ≥75%가 중등도–강한 CLDN18 막 염색을 보이면 zolbetuximab＋fluoropyrimidine/platinum의 대상이 될 수 있다. PD-L1은 CPS와 약제별 적응증을 적용하며 폐암의 TPS 기준과 혼용하지 않는다. [FDA zolbetuximab](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma), [KGCA 2024](https://doi.org/10.5230/jgc.2025.25.e11)
+- **약제 표지자 기준**: HER2 양성은 통상 IHC 3+ 또는 IHC 2+와 ISH 양성으로 판정해 trastuzumab 기반 요법 적격성을 평가한다. HER2 음성의 절제 불가/전이성 암에서 검증된 검사로 종양세포 ≥75%가 중등도–강한 CLDN18 막 염색을 보이면 zolbetuximab＋fluoropyrimidine/platinum의 대상이 될 수 있다. PD-L1은 CPS와 약제별 적응증을 적용하며 폐암의 TPS 기준과 혼용하지 않는다.
 
 ## 6. 예후 및 합병증
 - 위절제 뒤 초기에는 출혈, 누출, 문합부 폐쇄를, 후기에는 담즙 역류, 덤핑증후군, 영양·흡수장애를 증상과 경과에 따라 평가한다. 수입각·수출각 폐쇄도 후기 합병증으로 감별한다.
@@ -95,4 +96,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 외과 메뉴얼. [국내 위암 진료지침 2024, 2025 발표](https://www.jgc-online.org/DOIx.php?id=10.5230%2Fjgc.2025.25.e11), [ESGE MAPS III 2025](https://www.esge.com/management-of-epithelial-precancerous-conditions-and-early-neoplasia-of-the-stomach-maps-iii-esge-ehmsg-esp-guideline-update-2025), [ESGE ESD 기술 검토](https://www.esge.com/esd-techniques-and-technology-esge-technical-review). 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 외과 메뉴얼. 국내 위암 진료지침 2024, 2025 발표, ESGE MAPS III 2025, ESGE ESD 기술 검토. 2026-09-14 기존 목차 내 보완.

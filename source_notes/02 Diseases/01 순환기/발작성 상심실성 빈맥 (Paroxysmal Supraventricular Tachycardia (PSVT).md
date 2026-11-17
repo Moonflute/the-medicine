@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/"]
 ---
 분과 : [[순환기]]
 
@@ -61,7 +62,6 @@ reviewed_at: "2026-07-30"
 
 - 안정된 **규칙적 좁은 QRS 빈맥**에서 미주신경 수기 실패 시 adenosine **6 mg 급속 IV 후 flush**, 필요하면 **12 mg**을 투여한다. 불규칙·다형성 넓은 QRS 빈맥이나 전흥분 AF에는 투여하지 않는다. 심한 천식/기관지연축, 심장이식, 중심정맥 투여 및 상호작용에서는 금기·용량을 별도 검토한다.
 - 재발 증상성 AVNRT/AVRT는 약물을 여러 종류 실패해야만 절제술을 선택할 수 있는 것이 아니며, 재발 부담과 선호를 반영해 근치 절제술을 논의한다.
-- 근거: [AHA 성인 전문소생술 2025](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/).
 
 ## 6. 예후 및 합병증
 - 적절한 치료 시 예후는 양호함.

@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["SASGOG 안면위·전액위 관리 | https://www.exxcellence.org/list-of-pearls/management-of-brow-face-and-compound-malpresentations/?categoryName=%26searchTerms%3D%26featured%3DFalse"]
 ---
 분과 : [[산과]]
 
@@ -56,7 +57,6 @@ reviewed_at: "2026-07-30"
 - **수기 금기**: 태아 손상 위험이 있으므로 안면위를 두정위로 강제 교정하거나 턱을 회전시키는 수기(manual rotation)는 금기함.
 - **신생아 관리**: 분만 후 안면 부종 및 기도 폐쇄 여부를 면밀히 관찰하고, 필요 시 신생아 집중치료실(NICU)로 전원함.
 
-- 근거: [SASGOG 안면위·전액위 관리](https://www.exxcellence.org/list-of-pearls/management-of-brow-face-and-compound-malpresentations/?categoryName=%26searchTerms%3D%26featured%3DFalse).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 분만 지연, 태아 가사, 신생아 안면 부종 및 기도 부종(호흡 곤란 유발 가능).

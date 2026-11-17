@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC 폐흡충증 | https://www.cdc.gov/paragonimus/hcp/clinical-overview/index.html", "WHO 식품매개 흡충 치료 | https://www.who.int/teams/control-of-neglected-tropical-diseases/foodborne-trematode-infections/recommendations-for-community-diagnosis/"]
 ---
 분과 : [[호흡기]]
 
@@ -54,7 +55,6 @@ reviewed_at: "2026-07-30"
 
 - 확진 감염은 증상 유무와 무관하게 치료한다. **Praziquantel 25 mg/kg 경구 하루 3회**가 표준 선택지이며 CDC는 **2일**, WHO는 **3일** 요법을 제시하므로 적용 지침과 침범 부위를 명시한다. Triclabendazole **10 mg/kg씩 2회(총 20 mg/kg)**도 WHO 권고 선택지이며 단순히 praziquantel 실패 때만 쓰는 약은 아니다.
 - 뇌 침범은 신경과·감염 전문팀과 항기생충 치료 전후 염증·발작 관리 및 스테로이드 필요성을 평가한다.
-- 근거: [CDC 폐흡충증](https://www.cdc.gov/paragonimus/hcp/clinical-overview/index.html), [WHO 식품매개 흡충 치료](https://www.who.int/teams/control-of-neglected-tropical-diseases/foodborne-trematode-infections/recommendations-for-community-diagnosis/).
 
 ## 6. 예후 및 합병증
 - **합병증**: 기흉, 흉막 삼출, 폐외 장기 침범(뇌, 복부, 피하).

@@ -15,9 +15,7 @@ CC:
 - 경련
 preprocessing_required: x
 last_studied: '2026-06-06'
-sources:
-- '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
-- 'ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care'
+sources: ["대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide", "ADA Standards of Care in Diabetes 2026 | https://professional.diabetes.org/standards-of-care"]
 clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'
 guideline_year: "2026"
@@ -60,5 +58,3 @@ review_status: "guideline_enriched"
 - 약물 관련 저혈당은 약효가 길어 재발할 수 있으므로 단회 교정 뒤에도 관찰 시간과 입원 필요성을 원인 약제·동반질환에 맞춰 결정한다.
 
 ## 출처
-- ADA Standards of Care in Diabetes 2026, Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises: https://professional.diabetes.org/standards-of-care
-- 대한당뇨병학회 2025 제9판 당뇨병 진료지침: https://diabetes.or.kr/bbs/?code=guide

@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAOS ACL 지침 2022 | https://www.aaos.org/globalassets/quality-and-practice-resources/anterior-cruciate-ligament-injuries/acl-cpg.pdf"]
 ---
 분과 : [[정형외과]]
 
@@ -41,7 +42,6 @@ reviewed_at: "2026-07-30"
 - 반복 giving-way, 회전·충돌 스포츠 복귀 목표, 동반 수복 가능한 반월상연골 손상 등은 재건술 평가 기준이다. MRI상 완전 파열 자체만으로 모든 환자를 수술하지 않는다.
 - **재건이 필요한 급성 고립성 ACL 손상은 불필요하게 지연하지 않고 가능하면 3개월 이내** 시행한다. 이후 반월상연골·연골 추가 손상 위험이 증가한다. 단, 급성 부종·신전 제한을 개선하고 수술·재활 준비를 갖춘다.
 - 스포츠 복귀는 통증·삼출, 운동 범위, 근력·도약 검사, 심리적 준비와 재손상 위험을 종합한다. 수술 후 3–6개월이라는 기간만으로 회전 스포츠 복귀를 허용하지 않는다.
-- 근거: [AAOS ACL 지침 2022](https://www.aaos.org/globalassets/quality-and-practice-resources/anterior-cruciate-ligament-injuries/acl-cpg.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료와 재활이 이루어지지 않을 경우 만성적인 슬관절 불안정성, 반월상 연골판 손상 및 퇴행성 관절염으로 진행할 수 있음.

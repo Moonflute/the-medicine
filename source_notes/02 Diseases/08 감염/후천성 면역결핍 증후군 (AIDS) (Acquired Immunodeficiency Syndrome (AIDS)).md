@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NIH PCP | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis", "ART 시작 | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/initiation-antiretroviral-therapy"]
 ---
 분과 : [[감염]]
 
@@ -50,7 +51,7 @@ reviewed_at: "2026-07-30"
 - 약물 부작용 및 상호작용을 지속적으로 모니터링하고, 필요 시 약제 교체 또는 부작용 관리 전략을 적용한다.
 - 바이러스 억제 실패 시 순응도·상호작용·내성을 확인하고 효과 있는 약제로 조정한다. 기회감염 치료·예방과 복약 지원을 감염내과에서 통합한다.
 
-- **기회감염 예방 분기**: PCP는 CD4 <100 또는 100–200/μL+검출 HIV RNA, toxoplasma는 IgG 양성+CD4 <100/μL가 주요 일차 예방 조건이다. 활동성 기회감염을 먼저 배제하고 면역 회복 뒤 중단 조건을 재평가한다. [NIH PCP](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis) · [ART 시작](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/initiation-antiretroviral-therapy)
+- **기회감염 예방 분기**: PCP는 CD4 <100 또는 100–200/μL+검출 HIV RNA, toxoplasma는 IgG 양성+CD4 <100/μL가 주요 일차 예방 조건이다. 활동성 기회감염을 먼저 배제하고 면역 회복 뒤 중단 조건을 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 ART 치료 시 만성 질환으로 관리 가능, 기대 수명이 크게 향상된다.

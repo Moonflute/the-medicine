@@ -15,7 +15,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["Update of the guidelines on the management of adrenal incidentaloma from the adrenal group of the Spanish society of endocrinology and nutrition (SEEN). | https://pubmed.ncbi.nlm.nih.gov/40906030/", "Clinical Guidelines for the Management of Adrenal Incidentaloma | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5487108/"]
+sources: ["Update of the guidelines on the management of adrenal incidentaloma from the adrenal group of the Spanish society of endocrinology and nutrition (SEEN). | https://pubmed.ncbi.nlm.nih.gov/40906030/", "Clinical Guidelines for the Management of Adrenal Incidentaloma | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5487108/", "ESE 2023 | https://academic.oup.com/ejendo/article/189/1/G1/7198474"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -55,7 +55,7 @@ content_updated_at: "2026-11-17"
 - **관찰 가능**: 비조영 CT에서 균질하고 HU ≤10이며 호르몬 과다·압박 증상이 없으면 크기에 관계없이 추가 영상 추적이나 예방적 절제를 통상 시행하지 않는다.
 - **수술 평가**: ≥4 cm이면서 불균질하거나 HU >20이면 악성 위험 때문에 다학제에서 병기 평가와 수술을 우선 논의한다. 다른 불확정 병변은 추가 영상 또는 6–12개월 추적을 선택하며, 최대 직경이 >20%이면서 ≥5 mm 증가하면 절제를 재검토한다.
 - **기능성 병변**: 명백한 코르티솔·카테콜아민·알도스테론 과다의 치료 경로를 적용한다. 1 mg DST 후 cortisol >1.8 μg/dL만으로 모두 수술하지 않는다. 경도 자율 코르티솔 분비(MACS)는 ACTH 비의존성을 확인하고 고혈압·당뇨 등 관련 동반질환, 연령·수술 위험을 고려한다.
-- 생검이나 수술 전 갈색세포종을 배제하고, 확인되면 α 차단과 체액 준비를 먼저 시행한다. [ESE 2023](https://academic.oup.com/ejendo/article/189/1/G1/7198474)
+- 생검이나 수술 전 갈색세포종을 배제하고, 확인되면 α 차단과 체액 준비를 먼저 시행한다.
 
 ## 6. 예후 및 합병증
 - 악성 종양의 경우 전이 및 침습 가능성 존재
@@ -67,4 +67,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ESE 부신 우연종 임상진료지침](https://academic.oup.com/ejendo/article/189/1/G1/7198474)

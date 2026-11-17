@@ -16,8 +16,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional: Overview of Cardiomyopathies | https://www.merckmanuals.com/professional/cardiovascular-disorders/cardiomyopathies/overview-of-cardiomyopathies'
+sources: ["Merck Manual Professional: Overview of Cardiomyopathies | https://www.merckmanuals.com/professional/cardiovascular-disorders/cardiomyopathies/overview-of-cardiomyopathies", "International Expert Consensus: Takotsubo Syndrome Part I | https://academic.oup.com/eurheartj/article/39/22/2032/5025412", "International Expert Consensus: Takotsubo Syndrome Part II | https://academic.oup.com/eurheartj/article/39/22/2047/5025411", "2024 International Expert Consensus Report | https://pubmed.ncbi.nlm.nih.gov/39417524/"]
 ---
 ## 1. 개요
 - 심근병증은 일차적인 심근 구조·기능 이상으로 심부전, 부정맥, 실신 또는 돌연사 위험을 유발할 수 있다. 확장성·비후성·제한성 심근병증이 주요 형태이다.
@@ -49,4 +48,4 @@ sources:
 - [[타코츠보 심근병증 (Takotsubo Cardiomyopathy)]]
 
 
-보완 출처: 삼성서울병원 메뉴얼. [International Expert Consensus: Takotsubo Syndrome Part I](https://academic.oup.com/eurheartj/article/39/22/2032/5025412), [International Expert Consensus: Takotsubo Syndrome Part II](https://academic.oup.com/eurheartj/article/39/22/2047/5025411), [2024 International Expert Consensus Report](https://pubmed.ncbi.nlm.nih.gov/39417524/); 심근병증의 형태별 단서, 타코츠보 증후군의 ACS 감별·합병증 평가·추적 원칙을 대조. 2026-09-15 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. International Expert Consensus: Takotsubo Syndrome Part I, International Expert Consensus: Takotsubo Syndrome Part II, 2024 International Expert Consensus Report; 심근병증의 형태별 단서, 타코츠보 증후군의 ACS 감별·합병증 평가·추적 원칙을 대조. 2026-09-15 기존 목차 내 보완.

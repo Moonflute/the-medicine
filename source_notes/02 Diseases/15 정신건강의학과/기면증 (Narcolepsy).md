@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "AASM 기면증 치료 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/"]
 disease_family: psychiatry_split
 parent_disease: 수면 관련 장애 (Sleep-Wake Disorders)
 relation_to_parent: subtype
@@ -50,7 +49,6 @@ relation_to_parent: subtype
 
 - **주 증상별 약제 선택(성인)**: 주간졸음에는 modafinil·solriamfetol·pitolisant·sodium oxybate가 권고 선택지다. 탈력발작까지 있으면 **pitolisant 또는 oxybate 계열** 등 두 증상에 효과가 있는 치료를 검토한다. Modafinil·solriamfetol만으로 탈력발작까지 조절된다고 보지 않는다. 불면·혈압·부정맥 위험과 약물 상호작용에 따라 선택하며, oxybate는 알코올·진정수면제 병용과 호흡억제 위험을 확인한다. 소아는 연령별 허가·근거를 별도로 적용한다.
 
-근거: [AASM 기면증 치료 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC8636351/).
 
 ## 6. 예후 및 합병증
 - 만성 질환으로 완치는 어려우나 적절한 치료로 증상 조절 가능.

@@ -11,9 +11,7 @@ preprocessing_required: x
 reviewed_at: '2026-10-07'
 content_updated_at: "2026-11-18"
 review_status: targeted_source_reviewed_draft
-sources:
-  - 'Merck Manual Birth Injuries, February 2025 | https://www.merckmanuals.com/professional/pediatrics/perinatal-problems/birth-injuries'
-  - 'CAHS Subgaleal Haemorrhage Detection and Management in the Newborn | https://fsfhg.health.wa.gov.au/~/media/HSPs/CAHS/Documents/Health-Professionals/Neonatology-guidelines/Subgaleal-Haemorrhage-Detection-and-Management-in-the-Newborn.pdf?thn=0'
+sources: ["Merck Manual Birth Injuries, February 2025 | https://www.merckmanuals.com/professional/pediatrics/perinatal-problems/birth-injuries", "CAHS Subgaleal Haemorrhage Detection and Management in the Newborn | https://fsfhg.health.wa.gov.au/~/media/HSPs/CAHS/Documents/Health-Professionals/Neonatology-guidelines/Subgaleal-Haemorrhage-Detection-and-Management-in-the-Newborn.pdf?thn=0", "CPS 상완신경총 마비 권고 | https://cps.ca/en/documents/position/neonatal-brachial-plexus-palsy"]
 ---
 
 # 신생아 분만손상 (Neonatal Birth Trauma)
@@ -33,5 +31,4 @@ sources:
 - 상부 상완신경총 손상에서는 Moro·이두근 반사가 약해지고 grasp가 보존될 수 있다. 한 가지 반사만으로 골절과 모든 신경 손상을 확진하지 않는다.
 - 생후 지속되는 움직임 제한·신경 소견은 추적과 전문 평가가 필요하다.
 
-- **의뢰 시점**: 상완신경총 마비가 **생후 1개월에도 불완전 회복**이면 다학제 상완신경총 전문팀에 의뢰한다. 특히 능동적 팔꿈치 굽힘·폄이 없으면 중증 손상을 의심하며, 재활만 장기간 지속하면서 미세수술 평가를 늦추지 않는다. [CPS 상완신경총 마비 권고](https://cps.ca/en/documents/position/neonatal-brachial-plexus-palsy).
-
+- **의뢰 시점**: 상완신경총 마비가 **생후 1개월에도 불완전 회복**이면 다학제 상완신경총 전문팀에 의뢰한다. 특히 능동적 팔꿈치 굽힘·폄이 없으면 중증 손상을 의심하며, 재활만 장기간 지속하면서 미세수술 평가를 늦추지 않는다.

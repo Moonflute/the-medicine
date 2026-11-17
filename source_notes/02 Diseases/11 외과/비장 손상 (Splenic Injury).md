@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["WSES 비장외상 합의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9560023/"]
 ---
 분과 : [[외과]]
 
@@ -46,6 +47,5 @@ reviewed_at: "2026-07-30"
 
 출처 : Merck Manual Professional
 
-비수술 관리·색전술: [WSES 비장외상 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC9560023/)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

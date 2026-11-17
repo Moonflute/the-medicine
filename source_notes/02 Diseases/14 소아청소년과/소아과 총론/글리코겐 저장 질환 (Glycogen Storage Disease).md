@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["GeneReviews GSD I | https://www.ncbi.nlm.nih.gov/books/NBK1312/", "CHOP GSD 유형별 영양 관리 | https://chopib.staywellsolutionsonline.com/Bedside/22%2C35350"]
 ---
 분과 : [[소아청소년과]]
 
@@ -49,7 +50,6 @@ reviewed_at: "2026-07-30"
 
 - **유형에 따른 치료 차이**: 간형 저혈당에는 금식 회피·분할 식사·옥수수전분 또는 야간 경장 영양을 혈당 반응에 맞춘다. **I형은 fructose·galactose·sucrose를 제한**하지만, **III형은 고단백 식이와 필요한 전분 공급**이 중심이며 I형의 당 제한을 그대로 적용하지 않는다. II형(Pompe)은 ERT 대상이므로 모든 GSD를 전분 투여만으로 치료하지 않는다. 간이식은 조절되지 않는 대사 이상·간부전·고위험 종양 등에서 유형별로 평가한다.
 
-근거: [GeneReviews GSD I](https://www.ncbi.nlm.nih.gov/books/NBK1312/), [CHOP GSD 유형별 영양 관리](https://chopib.staywellsolutionsonline.com/Bedside/22%2C35350).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 조기 진단 및 적절한 대사 관리를 통해 예후 개선 가능

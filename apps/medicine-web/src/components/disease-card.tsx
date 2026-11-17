@@ -54,7 +54,10 @@ export function DiseaseCard({
   const expanded = !compact;
   const atlasMapping = !compact ? atlasMappings.find(mapping => mapping.diseaseId === note.id) : undefined;
   const tocId = `disease-${note.slug}-toc`;
-  const sectionItems = note.sections.map((section, index) => ({ id: `disease-${note.slug}-section-${index + 1}`, title: section.title }));
+  const sections = note.sections.filter((section) =>
+    section.content.some((line) => line.trim()) || !/^(출처|참고(?:\s*(?:자료|지침|가이드라인))?)$/.test(section.title.trim()),
+  );
+  const sectionItems = sections.map((section, index) => ({ id: `disease-${note.slug}-section-${index + 1}`, title: section.title }));
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
   const contentMeta = note.contentMeta;
   const displayTitle = note.displayTitle || note.title;
@@ -82,7 +85,7 @@ export function DiseaseCard({
     ...(note.clinicalPriority ? [{ label: "우선순위", content: note.clinicalPriority.replace("tier_", "Tier ") }] : []),
     ...(note.chiefComplaints.length ? [{ label: "증상", content: <div className="flex flex-wrap gap-x-3 gap-y-1">{note.chiefComplaints.slice(0, 6).map(item => hrefByTerm.get(item) ? <Link key={item} href={hrefByTerm.get(item)!}>{item}</Link> : <span key={item}>{item}</span>)}</div> }] : []),
   ];
-  const relatedReferences = (
+  const familyReferences = (
         <div className="border-b border-slate-200 bg-white p-5 sm:p-6">
           {familyLinks.length > 0 ? (
             <div className="flex flex-wrap gap-2">
@@ -96,15 +99,6 @@ export function DiseaseCard({
                   <span key={item.label} className="pill">{item.label}: {item.value}</span>
                 );
               })}
-            </div>
-          ) : null}
-          {sourceLinks.length > 0 ? (
-            <div className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-xs text-slate-500">
-              {sourceLinks.map((source) => (
-                <a key={`${source.label}-${source.url}`} href={source.url} target="_blank" rel="noreferrer" className="hover:text-teal-700 hover:underline">
-                  근거: {source.label}
-                </a>
-              ))}
             </div>
           ) : null}
         </div>
@@ -163,8 +157,8 @@ export function DiseaseCard({
 
       {expanded && sectionItems.length > 1 && <DocumentToc key={tocId} id={tocId} items={sectionItems} />}
 
-      {!compact && (familyLinks.length > 0 || sourceLinks.length > 0) ? (
-        sheet ? <SheetCellRow label="관련 자료">{relatedReferences}</SheetCellRow> : relatedReferences
+      {!compact && familyLinks.length > 0 ? (
+        sheet ? <SheetCellRow label="관련 자료">{familyReferences}</SheetCellRow> : familyReferences
       ) : null}
 
       {!hideOverview && overview.length > 0 ? (sheet ? <><SheetCellRow label="요약" heading>Quick reference</SheetCellRow><RichTextLines lines={overview} className="space-y-2.5" termLinks={ccLinks} wikiLinks={diseaseLinks} /></> :
@@ -174,12 +168,27 @@ export function DiseaseCard({
       ) : null}
 
       {expanded ? (
-        <SkinDocumentSections className="clinical-sections grid gap-3 bg-slate-50/70 p-4 sm:p-5" plainSectionClassName="clinical-section scroll-mt-20 focus-visible:outline-teal-600 border border-l-4 border-l-slate-300 border-slate-200 bg-white p-4 rounded-lg" sections={note.sections.map((section, index) => ({
+        <SkinDocumentSections className="clinical-sections grid gap-3 bg-slate-50/70 p-4 sm:p-5" plainSectionClassName="clinical-section scroll-mt-20 focus-visible:outline-teal-600 border border-l-4 border-l-slate-300 border-slate-200 bg-white p-4 rounded-lg" sections={sections.map((section, index) => ({
           id: sectionItems[index].id,
           title: section.title,
           icon: <DiseaseSectionIcon title={section.title} />,
           content: <RichTextLines lines={stripEditorialLines(section.content)} className="space-y-2.5" bulletStyle="plain" termLinks={ccLinks} wikiLinks={diseaseLinks} />,
         }))} />
+      ) : null}
+
+      {!compact && sourceLinks.length > 0 ? (
+        <details className="border-t border-slate-200 px-5 py-4 text-sm text-slate-600 sm:px-6">
+          <summary className="cursor-pointer font-medium text-slate-700">출처 ({sourceLinks.length})</summary>
+          <ul className="mt-3 space-y-2">
+            {sourceLinks.map((source) => (
+              <li key={`${source.label}-${source.url}`}>
+                <a href={source.url} target="_blank" rel="noopener noreferrer" className="break-words underline decoration-slate-300 underline-offset-4 hover:text-teal-700">
+                  {source.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
       ) : null}
 
     </article></ChatSenderProvider>

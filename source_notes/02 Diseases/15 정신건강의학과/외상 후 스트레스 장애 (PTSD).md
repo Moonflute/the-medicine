@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional trauma- and stressor-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "VA/DoD 2023 PTSD 약물 권고 | https://www.ptsd.va.gov/professional/treat/txessentials/clinician_guide_meds.asp"]
 disease_family: psychiatry_split
 parent_disease: 외상 및 스트레스 관련 장애 (Trauma- and Stressor-Related Disorders)
 relation_to_parent: subtype
@@ -47,7 +46,6 @@ relation_to_parent: subtype
 
 - **약제 선택**: 외상 중심 치료를 선호하지 않거나 이용하기 어려워 약물을 선택하면 sertraline·paroxetine·venlafaxine이 권고된다. **Prazosin은 PTSD 관련 악몽**에 선택적으로 고려하며 전반적 PTSD 증상 치료용으로 일률 사용하지 않는다. 저혈압·실신을 감시한다. Benzodiazepine과 cannabis는 PTSD 치료 목적으로 권고하지 않는다.
 
-근거: [VA/DoD 2023 PTSD 약물 권고](https://www.ptsd.va.gov/professional/treat/txessentials/clinician_guide_meds.asp).
 
 ## 6. 예후 및 합병증
 - 조기 개입 시 예후가 좋으나, 만성화될 경우 우울증, 물질 사용 장애, 사회적 기능 저하 및 대인관계 갈등이 동반될 가능성이 높음.

@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["AASLD PSC 지침 | https://www.aasld.org/practice-guidelines/primary-sclerosing-cholangitis-and-cholangiocarcinoma", "AASLD PSC·담관암 진료지침 | https://www.aasld.org/sites/default/files/2023-01/Hepatology%20-%202022%20-%20Bowlus%20-%20AASLD%20practice%20guidance%20on%20primary%20sclerosing%20cholangitis%20and%20cholangiocarcinoma.pdf", "AASLD PSC 관리 요점 | https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/primary-sclerosing-cholangitis-management-tips-and"]
 ---
 분과 : [[소화기]]
 
@@ -81,6 +82,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [AASLD PSC 지침](https://www.aasld.org/practice-guidelines/primary-sclerosing-cholangitis-and-cholangiocarcinoma)
-- [AASLD PSC·담관암 진료지침](https://www.aasld.org/sites/default/files/2023-01/Hepatology%20-%202022%20-%20Bowlus%20-%20AASLD%20practice%20guidance%20on%20primary%20sclerosing%20cholangitis%20and%20cholangiocarcinoma.pdf)
-- [AASLD PSC 관리 요점](https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/primary-sclerosing-cholangitis-management-tips-and)

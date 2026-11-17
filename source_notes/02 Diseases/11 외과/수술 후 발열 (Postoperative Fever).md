@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["캐나다 외과학회 수술 후 발열 경로 | https://cags-accg.ca/wp-content/uploads/2018/11/ACS-Handbook-CPG-Ch-23-Post-Operative-Fever.pdf", "수술 후 무기폐·발열 조사 | https://pubmed.ncbi.nlm.nih.gov/7813318/", "Surviving Sepsis Campaign 지침 2026 | https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026"]
 ---
 분과 : [[외과]]
 
@@ -41,13 +42,12 @@ reviewed_at: "2026-07-30"
 *   저산소혈증이 있으면 무기폐·흡인·폐렴 등을 감별하고, 혈전색전증과 수혈 반응 등 비감염성 원인은 별도로 평가·치료한다.
 *   환자의 활력 징후 및 전반적인 상태를 면밀히 모니터링한다.
 
-- **관찰과 치료 분기**: 수술 직후 24–48시간의 경미한 단독 발열에서 안정적이고 국소 감염 단서가 없으면 진찰·추적을 우선하며 일률적 배양검사·경험적 항생제를 시작하지 않는다. 저혈압·장기기능 저하, 심한 통증/빠르게 진행하는 창상 변화, 호흡기·요로 등 국소 증상 또는 지속·재발 발열이면 시점과 무관하게 원인별 검사와 치료를 시행한다. ‘수술 후 며칠째’만으로 감염을 배제하지 않는다. [캐나다 외과학회 수술 후 발열 경로](https://cags-accg.ca/wp-content/uploads/2018/11/ACS-Handbook-CPG-Ch-23-Post-Operative-Fever.pdf)
+- **관찰과 치료 분기**: 수술 직후 24–48시간의 경미한 단독 발열에서 안정적이고 국소 감염 단서가 없으면 진찰·추적을 우선하며 일률적 배양검사·경험적 항생제를 시작하지 않는다. 저혈압·장기기능 저하, 심한 통증/빠르게 진행하는 창상 변화, 호흡기·요로 등 국소 증상 또는 지속·재발 발열이면 시점과 무관하게 원인별 검사와 치료를 시행한다. ‘수술 후 며칠째’만으로 감염을 배제하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 대부분 양성 경과를 보이나, 진단 지연 시 패혈증 및 다장기 부전으로 진행 가능.
 * 감염성 합병증: 요로감염(UTI)이 흔함.
 
-근거: [수술 후 무기폐·발열 조사](https://pubmed.ncbi.nlm.nih.gov/7813318/) · [Surviving Sepsis Campaign 지침 2026](https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-campaign-international-guidelines-for-management-of-sepsis-and-septic-shock-2026)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["The Society of Thoracic Surgeons/World Society for Pediatric and Congenital Heart Surgery/European Congenital Heart Surgeons Association 2026 Clinical Practice Guidelines on Indications and Timing of Pulmonary Valve Replacement in Repaired Tetralogy of Fallot. | https://pubmed.ncbi.nlm.nih.gov/42031156/"]
+sources: ["The Society of Thoracic Surgeons/World Society for Pediatric and Congenital Heart Surgery/European Congenital Heart Surgeons Association 2026 Clinical Practice Guidelines on Indications and Timing of Pulmonary Valve Replacement in Repaired Tetralogy of Fallot. | https://pubmed.ncbi.nlm.nih.gov/42031156/", "AATS 2022 합의 | https://www.sciencedirect.com/science/article/pii/S0022522322008182"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -49,7 +49,7 @@ content_updated_at: "2026-11-18"
 * **무산소 발작 시**: 무릎-가슴 자세(knee-chest position), 산소 공급, 진정제(모르핀) 투여, 필요 시 수액 및 혈관수축제 사용
 * **수술 후 장기 관리**: 다학제 팀 기반의 추적 관찰 및 치료 계획 수립. 폐동맥 판막 치환술(PVR) 고려 시 증상 유무, 심실 용적(성인), 침습적 전기생리학 검사 결과 등을 종합적으로 평가
 
-* **교정 시점**: 무증상·안정 영아는 대개 **생후 3–6개월** 완전 교정을 계획한다. 심한 청색증·동맥관 의존 폐혈류·반복 hypercyanotic spell은 더 이른 중재 대상이다. 신생아는 체중·폐동맥/관상동맥 해부학·동반질환을 보고 일차 교정 또는 단락/RVOT·동맥관 스텐트 후 단계적 교정을 선택한다. 발작이 초기 처치에도 지속되면 β-blocker·혈관수축제·삽관 등의 소생과 긴급 중재를 병행한다. [AATS 2022 합의](https://www.sciencedirect.com/science/article/pii/S0022522322008182)
+* **교정 시점**: 무증상·안정 영아는 대개 **생후 3–6개월** 완전 교정을 계획한다. 심한 청색증·동맥관 의존 폐혈류·반복 hypercyanotic spell은 더 이른 중재 대상이다. 신생아는 체중·폐동맥/관상동맥 해부학·동반질환을 보고 일차 교정 또는 단락/RVOT·동맥관 스텐트 후 단계적 교정을 선택한다. 발작이 초기 처치에도 지속되면 β-blocker·혈관수축제·삽관 등의 소생과 긴급 중재를 병행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 뇌 혈전증, 뇌 농양, 감염성 심내막염, 부정맥

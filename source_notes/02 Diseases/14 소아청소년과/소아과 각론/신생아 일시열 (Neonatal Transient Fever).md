@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CPS 발열 영아 | https://cps.ca/en/documents/position/management-of-well-appearing-febrile-young-infants-aged-90-days"]
 ---
 분과 : [[소아청소년과]]
 
@@ -37,7 +38,7 @@ reviewed_at: "2026-07-30"
 
 * **수분 보충**: 모유 또는 분유 수유를 적극적으로 시행하여 탈수를 교정하고 체온 하강을 유도함.
 * **환경 조절**: 과도한 보온(over-bundling)을 피하고 적절한 실내 온도와 습도를 유지함.
-* **감별 진단**: 신생아의 **직장 체온 ≥38.0°C**는 수유·환경 조절에 대한 반응을 먼저 기다릴 상황이 아니다. 즉시 의료기관에서 패혈증·요로감염·수막염을 평가하고 연령·임상·검사에 따라 배양, 입원 관찰 및 경험적 항생제를 결정한다. 탈수·과보온으로 판단하는 것은 위험한 감염을 평가한 뒤다. [CPS 발열 영아](https://cps.ca/en/documents/position/management-of-well-appearing-febrile-young-infants-aged-90-days)
+* **감별 진단**: 신생아의 **직장 체온 ≥38.0°C**는 수유·환경 조절에 대한 반응을 먼저 기다릴 상황이 아니다. 즉시 의료기관에서 패혈증·요로감염·수막염을 평가하고 연령·임상·검사에 따라 배양, 입원 관찰 및 경험적 항생제를 결정한다. 탈수·과보온으로 판단하는 것은 위험한 감염을 평가한 뒤다.
 * **경과 관찰**: 수분 섭취 후 체온 정상화 여부와 소변량, 체중 변화를 면밀히 모니터링함.
 
 ## 6. 예후 및 합병증 (Prognosis)

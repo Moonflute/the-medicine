@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACC 2023 | https://www.acc.org/latest-in-cardiology/articles/2023/05/16/10/31/clinical-practice-algorithm-for-the-follow-up-of-pulmonary-stenosis-pre-and-post-intervention"]
 ---
 분과 : [[소아청소년과]]
 
@@ -45,7 +46,7 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 
-* **중재적 치료**: 판막성 협착은 증상·우심실 압력/기능·도플러 peak 압력차로 평가한다. **<36 mmHg 경증, 36–64 중등도, >64 중증**이며 중증 또는 증상이 있으면 풍선 판막성형술을 우선 검토한다. **40 mmHg**는 중재를 고려할 수 있는 기준이지만 안정적 무증상 환자에서 자동 시술 기준은 아니며 추적 가능하다. [ACC 2023](https://www.acc.org/latest-in-cardiology/articles/2023/05/16/10/31/clinical-practice-algorithm-for-the-follow-up-of-pulmonary-stenosis-pre-and-post-intervention)
+* **중재적 치료**: 판막성 협착은 증상·우심실 압력/기능·도플러 peak 압력차로 평가한다. **<36 mmHg 경증, 36–64 중등도, >64 중증**이며 중증 또는 증상이 있으면 풍선 판막성형술을 우선 검토한다. **40 mmHg**는 중재를 고려할 수 있는 기준이지만 안정적 무증상 환자에서 자동 시술 기준은 아니며 추적 가능하다.
 * **수술적 치료**: 판막 이형성으로 풍선 성형술이 부적절하거나, 판막 하/상부 협착 및 복합 기형이 동반된 경우 외과적 교정을 시행함.
 * **신생아 관리**: 중증 폐동맥 폐쇄가 동반된 신생아는 동맥관 의존성 폐혈류 유지를 위해 PGE1 투여 및 응급 중재를 고려함.
 * **추적 관찰 및 예방**: 경증은 정기적인 심초음파로 진행 여부를 감시하며, 치과 시술 등 침습적 처치 시 감염성 심내막염 예방 지침을 준수함.

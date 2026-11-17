@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "source_reviewed_no_change"
 guideline_year: "2026"
-sources: ["The Italian Society for Rheumatology guidelines for the treatment of patients with rheumatoid arthritis and interstitial lung disease. | https://pubmed.ncbi.nlm.nih.gov/41247141/"]
+sources: ["The Italian Society for Rheumatology guidelines for the treatment of patients with rheumatoid arthritis and interstitial lung disease. | https://pubmed.ncbi.nlm.nih.gov/41247141/", "EULAR 2025 update | https://doi.org/10.1016/j.ard.2026.01.023", "Leflunomide 허가정보 | https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acf3efe4-0d70-4718-9c50-789d69ab215d", "ACR/EULAR 2011 관해 정의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC3115717/"]
 
 ---
 ## 1. 개요
@@ -85,7 +85,7 @@ sources: ["The Italian Society for Rheumatology guidelines for the treatment of 
 - 보조 요법: NSAIDs(통증 조절), 물리 치료, 필요 시 수술적 치료.
 - 치료 목표는 통증 완화, 염증 감소, 구조적 관절 파괴 예방, 관절 기능·일상생활 유지 및 전신 증상 조절이다. 치료하지 않으면 발병 후 2년 이내 비가역적 관절 손상이 생길 수 있다. RA 진단 후에는 조기 DMARD 치료를 시작하며, 조기 RA에서는 관해를, 오래된 RA에서는 낮은 질병 활성도를 목표로 한다. 관해에 도달해도 모든 약제를 중단하는 것은 권고되지 않는다.
 - 치료 반응은 관절통, 조조강직, 피로, 활막염, ESR·CRP로 추적한다. MTX 금기가 없으면 MTX와 단기 glucocorticoid를 시작하고, MTX 금기이면 leflunomide 또는 sulfasalazine을 시작한다. 3개월에 호전되고 6개월에 목표를 달성하면 지속 관해에서 감량을 고려한다.
-- **EULAR 2025 개정(2026 출판)**: MTX 중심 초기 치료 후 3개월에 충분히 호전되지 않거나 6개월에 목표를 달성하지 못하면 bDMARD 추가를 검토한다. 초기 치료 실패 후 불량 예후 인자 유무로 다시 나눠 생물학제 도입을 지연하는 이전 분기를 제거했다. JAK 억제제는 MACE·암·혈전·감염 위험을 평가한 뒤 선택하며, 첫 b/tsDMARD 실패 시 같은 또는 다른 기전으로 변경한다. 지속 관해에서도 DMARD 유지를 선호하고 감량은 재발 위험과 함께 결정한다. [EULAR 2025 update](https://doi.org/10.1016/j.ard.2026.01.023)
+- **EULAR 2025 개정(2026 출판)**: MTX 중심 초기 치료 후 3개월에 충분히 호전되지 않거나 6개월에 목표를 달성하지 못하면 bDMARD 추가를 검토한다. 초기 치료 실패 후 불량 예후 인자 유무로 다시 나눠 생물학제 도입을 지연하는 이전 분기를 제거했다. JAK 억제제는 MACE·암·혈전·감염 위험을 평가한 뒤 선택하며, 첫 b/tsDMARD 실패 시 같은 또는 다른 기전으로 변경한다. 지속 관해에서도 DMARD 유지를 선호하고 감량은 재발 위험과 함께 결정한다.
 - NSAID: 진통·항염 효과를 위해 적정 용량으로 증량하며 최대 효과는 보통 10–14일 이내 나타난다. COX-2 억제제는 비선택적 NSAID와 효과가 동등하고 위십이지장 부작용 위험은 낮지만 신독성은 유사하며 심혈관 사건 위험 증가를 고려한다.
 - Glucocorticoid: 심한 1개 또는 수개 관절에는 감염을 배제한 뒤 국소주사를 사용할 수 있으며, 같은 관절에 3개월 이내 2회 이상 주사하지 않는다. 저용량 prednisolone 5–10 mg/day는 DMARD 효과를 기다리는 동안, 일시적 악화 시 또는 NSAID·DMARD에도 활성 질환이 지속될 때 제한된 기간 사용한다. 골미란 진행을 늦출 수 있으나 골다공증 예방을 병행하고 3개월 이상 사용 예정이면 골밀도 검사를 시행한다.
 - csDMARD: 관절 파괴를 줄이고 기능을 유지하기 위해 사용하며, 임상 반응은 대개 1–6개월 후 나타난다. 각 약제 독성에 대한 주의 깊은 추적이 필요하다. Hydroxychloroquine 또는 sulfasalazine은 MTX보다 효과가 약해 초기 경증 RA에서 단독으로, MTX를 쓸 수 없을 때 또는 MTX 단독 효과가 부족할 때 병합한다. Hydroxychloroquine은 정기 안과검사, sulfasalazine은 드문 혈액학적 합병증 감시가 필요하다.
@@ -108,5 +108,3 @@ Last updated :
 2026-09-15 — 삼성서울병원 메뉴얼 OCR 통합본 작성 (Terra)
 
 출처 : 삼성서울병원 메뉴얼. Smolen JS, et al. EULAR RA management recommendations. Ann Rheum Dis. 2020;79:685–699. doi:10.1136/annrheumdis-2019-216655
-
-보완 근거: [Leflunomide 허가정보](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acf3efe4-0d70-4718-9c50-789d69ab215d); [ACR/EULAR 2011 관해 정의](https://pmc.ncbi.nlm.nih.gov/articles/PMC3115717/).

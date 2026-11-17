@@ -19,9 +19,7 @@ clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "NICE NG91 소아 급성 중이염 항균제 처방, 2018; 2022 개정 | https://www.nice.org.uk/guidance/ng91/chapter/Recommendations"
-  - "NICE NG233 12세 미만 삼출성 중이염, 2023 | https://www.nice.org.uk/guidance/ng233/chapter/Recommendations"
+sources: ["NICE NG91 소아 급성 중이염 항균제 처방, 2018; 2022 개정 | https://www.nice.org.uk/guidance/ng91/chapter/Recommendations", "NICE NG233 12세 미만 삼출성 중이염, 2023 | https://www.nice.org.uk/guidance/ng233/chapter/Recommendations"]
 ---
 
 # 중이염
@@ -48,6 +46,3 @@ sources:
 
 
 ## 참고 자료
-
-- [NICE NG91 소아 급성 중이염 항균제 처방, 2018; 2022 개정](https://www.nice.org.uk/guidance/ng91/chapter/Recommendations)
-- [NICE NG233 12세 미만 삼출성 중이염, 2023](https://www.nice.org.uk/guidance/ng233/chapter/Recommendations)

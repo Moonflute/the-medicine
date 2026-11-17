@@ -26,7 +26,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "source_reviewed_no_change"
 guideline_year: "2025"
-sources: ["2025 Korean Thyroid Association Management Guidelines for Radioactive Iodine Therapy in Patients with Hyperthyroidism | https://e-enm.org/journal/view.php?number=2464", "The Diagnosis and Management of Hyperthyroidism in Korea: Consensus Report of the Korean Thyroid Association | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3870960/"]
+sources: ["2025 Korean Thyroid Association Management Guidelines for Radioactive Iodine Therapy in Patients with Hyperthyroidism | https://e-enm.org/journal/view.php?number=2464", "The Diagnosis and Management of Hyperthyroidism in Korea: Consensus Report of the Korean Thyroid Association | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3870960/", "ATA | https://www.thyroid.org/guidelines-hyperthyroidism-thyrotoxicosis/"]
 
 ---
 분과 : [[내분비]]
@@ -78,7 +78,7 @@ sources: ["2025 Korean Thyroid Association Management Guidelines for Radioactive
   중증(시신경 침범 등)은 고용량 스테로이드 정맥 주사, 수술적 감압술, Teprotumumab 고려.
 
 - **항갑상샘제 중단·변경**: methimazole을 보통 12–18개월 사용한 후 TSH와 TRAb가 정상인 경우 중단을 검토한다. TRAb 양성 지속·재발이면 저용량 장기 유지 또는 RAI·수술을 선호와 위험에 따라 선택한다. 발열·인후통이면 약을 중단하고 즉시 CBC를 확인한다.
-- **RAI 대신 다른 치료**: 임신·수유와 활동성 중등도–중증 안병증에서는 RAI를 피한다. 큰 갑상샘종의 압박, 악성 의심 결절 또는 빠른 확정 치료가 필요하면 수술을 우선 논의한다. [ATA](https://www.thyroid.org/guidelines-hyperthyroidism-thyrotoxicosis/)
+- **RAI 대신 다른 치료**: 임신·수유와 활동성 중등도–중증 안병증에서는 RAI를 피한다. 큰 갑상샘종의 압박, 악성 의심 결절 또는 빠른 확정 치료가 필요하면 수술을 우선 논의한다.
 
 ## 6. 예후 및 합병증
 - 적절한 치료가 이루어지지 않을 경우 갑상샘중독증 위기(thyrotoxic crisis) 발생 가능.

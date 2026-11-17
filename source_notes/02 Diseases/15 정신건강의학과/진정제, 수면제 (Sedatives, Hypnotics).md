@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "ASAM 공동 benzodiazepine 감량 지침 2025 | https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering"]
 disease_family: psychiatry_split
 parent_disease: 물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)
 relation_to_parent: subtype
@@ -48,7 +47,6 @@ relation_to_parent: subtype
 
 - **의존 상태의 감량(ASAM 2025)**: 장기 benzodiazepine은 갑자기 중단하지 않는다. 보통 현재 용량의 **5–10%를 2–4주 간격**으로 줄이는 데서 시작하며, 일반적으로 **2주에 25%를 넘기지 않는다.** 심한 금단이면 속도를 늦추거나 잠시 보류한다. 과거 금단 발작·섬망, 불안정 질환·복합 중독 또는 외래 감량이 안전하지 않은 경우 입원 감량을 고려한다. 이 일정은 급성 과다복용 처치와 구분한다.
 
-근거: [ASAM 공동 benzodiazepine 감량 지침 2025](https://www.asam.org/quality-care/clinical-guidelines/benzodiazepine-tapering).
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입이 중요하며, 동반 질환이나 다약제 복용 시 예후가 불량함.

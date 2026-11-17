@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["FDA pacritinib 적응증 | https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-adults-rare-form-bone-marrow-disorder", "국제 전문가 혈구감소 MF 권고 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11286526/"]
 ---
 분과 : [[혈액]]
 
@@ -51,7 +52,7 @@ reviewed_at: "2026-07-30"
 - 치료 시작 후 혈액학적 지표(혈색소, 혈소판, 백혈구)와 비장 크기를 정기적으로 추적하고, 감염·출혈 위험에 대비해 예방접종 및 감시를 강화한다.
 - 치료는 증상·비장비대·빈혈과 위험도에 따라 개별화한다. ruxolitinib은 비장비대와 전신증상 완화에 사용되며, 저용량 thalidomide+prednisolone은 일부 혈소판감소 환자에서 고려될 수 있다. 동종 HSCT만이 완치 목적 치료이므로 적합한 젊은 환자는 조기 평가한다.
 
-- **JAK 억제제 선택:** 혈소판 **<50,000/μL**의 중간/고위험 MF에는 미국 FDA가 pacritinib 적응증을 인정한다. 빈혈 동반 시 momelotinib 등 빈혈·비장/증상 효과를 함께 고려하고, ruxolitinib은 혈소판·Hb에 따른 시작량·감량이 필요하다. 국내 허가·가용성을 확인한다. [FDA pacritinib 적응증](https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-adults-rare-form-bone-marrow-disorder), [국제 전문가 혈구감소 MF 권고](https://pmc.ncbi.nlm.nih.gov/articles/PMC11286526/)
+- **JAK 억제제 선택:** 혈소판 **<50,000/μL**의 중간/고위험 MF에는 미국 FDA가 pacritinib 적응증을 인정한다. 빈혈 동반 시 momelotinib 등 빈혈·비장/증상 효과를 함께 고려하고, ruxolitinib은 혈소판·Hb에 따른 시작량·감량이 필요하다. 국내 허가·가용성을 확인한다.
 - 약제 교체 전 충분한 용량·기간의 노출, 비장·증상 반응, 수혈 부담 및 blast 증가를 재평가한다. 진행성 blast 증가나 고위험 분자/임상 소견이면 증상 약제만 반복하지 않고 이식·임상시험을 조기에 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)

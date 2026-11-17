@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC HSV 지침 | https://www.cdc.gov/std/treatment-guidelines/herpes.htm"]
 ---
 분과 : [[감염]]
 
@@ -50,7 +51,7 @@ reviewed_at: "2026-07-30"
 - Acyclovir는 신기능에 따라 용량·간격을 조정하고 정맥 투여 시 충분한 수분 공급과 신기능 추적을 시행한다.
 
 - **초발 생식기 감염:** 증상이 가벼워도 치료한다. 성인 정상 신기능에서는 valacyclovir 1 g 하루 2회 또는 acyclovir 400 mg 하루 3회로 7–10일 치료하며, 10일째 병변 치유가 불완전하면 연장한다.
-- **재발 시 선택:** 간헐 치료는 전구증상 또는 병변 발생 1일 이내 시작한다. 재발 부담·성 파트너 전파 위험·환자 선호에 따라 매일 억제요법을 선택하며, 연 ≥10회 재발이면 valacyclovir 500 mg/일은 효과가 부족할 수 있어 1 g/일 등 다른 권장 용량을 검토한다. 뇌염은 경구 생식기 감염 요법으로 대체하지 않고 IV acyclovir를 14–21일 투여한다. [CDC HSV 지침](https://www.cdc.gov/std/treatment-guidelines/herpes.htm)
+- **재발 시 선택:** 간헐 치료는 전구증상 또는 병변 발생 1일 이내 시작한다. 재발 부담·성 파트너 전파 위험·환자 선호에 따라 매일 억제요법을 선택하며, 연 ≥10회 재발이면 valacyclovir 500 mg/일은 효과가 부족할 수 있어 1 g/일 등 다른 권장 용량을 검토한다. 뇌염은 경구 생식기 감염 요법으로 대체하지 않고 IV acyclovir를 14–21일 투여한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 재발이 흔하며, 면역 저하 환자나 신생아에서는 뇌염, 파종성 감염 등 중증 합병증 및 사망 위험이 있음.

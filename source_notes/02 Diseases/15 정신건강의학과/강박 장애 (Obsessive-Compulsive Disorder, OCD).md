@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE CG31 | https://www.nice.org.uk/guidance/cg31/chapter/Recommendations"]
 disease_family: psychiatry_split
 parent_disease: 불안 장애 (Anxiety Disorders)
 relation_to_parent: subtype
@@ -52,7 +51,6 @@ relation_to_parent: subtype
 - **다음 단계**: 충분한 SSRI **12주** 또는 적절한 CBT에도 반응이 부족하면 순응도·진단을 재확인하고 병합한다. 병합 12주에도 불충분하거나 SSRI 무반응·불내성이면 다른 SSRI 또는 clomipramine으로 전환한다. 항정신병약 증강은 이러한 치료를 거친 난치성 사례에서 전문팀이 선택하며 단독 치료로 쓰지 않는다.
 - **유지**: 효과가 있으면 최소 12개월 유지하고 관해 후 재발 위험을 검토하여 서서히 감량한다.
 
-근거: [NICE CG31](https://www.nice.org.uk/guidance/cg31/chapter/Recommendations).
 
 ## 6. 예후 및 합병증
 - 만성적인 경과를 보이기 쉬우며, 적절한 치료가 없을 경우 기능 저하가 지속됨.

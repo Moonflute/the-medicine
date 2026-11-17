@@ -15,7 +15,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Nontraumatic Osteonecrosis of the Femoral Head: An International Evidence-Based Clinical Practice Guideline. | https://pubmed.ncbi.nlm.nih.gov/41961916/"]
+sources: ["Nontraumatic Osteonecrosis of the Femoral Head: An International Evidence-Based Clinical Practice Guideline. | https://pubmed.ncbi.nlm.nih.gov/41961916/", "ARCO 2026 진료지침 | https://www.aaos.org/globalassets/quality-and-practice-resources/external-quality-products/arco/arco-management-of-nontraumatic-osteonecrosis-ot-the-femoral-head.pdf"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -53,7 +53,6 @@ content_updated_at: "2026-11-18"
 - **ARCO I–II(골두 함몰 전)**에서는 증상, 병변 크기와 체중 부하면 침범을 함께 평가한다. 작은 무증상 병변은 영상·증상 추적을, 증상이 있거나 함몰 위험이 높은 병변은 core decompression 등 관절 보존술을 논의한다. 2026 ARCO 지침에서도 보존술 간 우열 근거는 제한적이므로 모든 초기 병변에 동일 수술을 적용하지 않는다.
 - **ARCO III–IV(함몰 또는 이차 관절염)**에서 지속 통증과 보행·일상 기능 저하가 크면 인공관절 치환술을 평가한다. 젊고 병변이 제한된 일부 환자에서는 전문센터의 관절 보존술 가능성을 검토한다.
 - 진통·보행 보조 및 위험인자 교정은 증상 완화에 사용한다. 체중 부하 제한이나 골다공증 약제가 골두 함몰을 확실히 예방한다고 설명하지 않는다. 스테로이드는 기저 질환을 고려해 최소 유효 용량을 협의한다.
-- 근거: [ARCO 2026 진료지침](https://www.aaos.org/globalassets/quality-and-practice-resources/external-quality-products/arco/arco-management-of-nontraumatic-osteonecrosis-ot-the-femoral-head.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견이 중요하며, 괴사 범위가 클수록 예후가 불량함.

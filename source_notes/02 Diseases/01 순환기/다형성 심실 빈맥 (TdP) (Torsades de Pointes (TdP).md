@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/"]
 ---
 분과 : [[순환기]]
 
@@ -46,7 +47,6 @@ reviewed_at: "2026-07-30"
 
 - 지속성 다형성 VT는 동기화가 어려워 **즉시 비동기 제세동**한다. QT 연장성 TdP에서는 원인 약제를 중단하고 magnesium sulfate(성인 통상 2 g IV) 및 칼륨·마그네슘 교정을 시행한다. QT 연장성 TdP에 amiodarone을 관성적으로 추가하지 않는다.
 - 서맥·휴지기 의존 **후천성 재발 TdP**가 교정에도 지속되면 임시 과속 조율 또는 isoproterenol을 전문 감시하에 사용한다. 선천성 LQTS에 같은 약물 전략을 일괄 적용하지 않는다.
-- 근거: [AHA 성인 전문소생술 2025](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심실세동으로 진행되어 급사할 수 있다.

@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ASCO-SNO 지침 | https://doi.org/10.1200/JCO.21.02036"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 - 수술·방사선 후 2~3개월 간격으로 MRI와 신경학적 검진을 실시해 재발 및 치료 부작용을 모니터링
 - 환자 연령·전신 상태·MGMT 메틸화 상태에 따라 치료 강도를 조정하고, 임상시험·재활·완화 치료를 위한 다학제 팀에 연계​
 
-- **치료 강도 분기**: 기능 상태가 좋으면 최대 안전 절제 후 표준 RT+동시/보조 temozolomide를 사용한다. 고령·취약하여 6주 병합치료의 부담이 크면 단축 RT+TMZ를 고려한다. 병합치료도 어렵다면 **MGMT methylated는 TMZ 단독, unmethylated는 단축 RT 단독**, 매우 불량한 기능·예후는 지지치료를 선택지로 논의한다. 나이 하나로 치료를 배제하지 않는다. [ASCO-SNO 지침](https://doi.org/10.1200/JCO.21.02036)
+- **치료 강도 분기**: 기능 상태가 좋으면 최대 안전 절제 후 표준 RT+동시/보조 temozolomide를 사용한다. 고령·취약하여 6주 병합치료의 부담이 크면 단축 RT+TMZ를 고려한다. 병합치료도 어렵다면 **MGMT methylated는 TMZ 단독, unmethylated는 단축 RT 단독**, 매우 불량한 기능·예후는 지지치료를 선택지로 논의한다. 나이 하나로 치료를 배제하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 불량하며, 표준 치료 후에도 중앙 생존 기간은 약 15개월 내외임.

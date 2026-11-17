@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ESMO | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf", "Belgian College of Oncology 난소암 지침 | https://collegeoncologie.be/wp-content/uploads/2022/06/National-guideline-ovarian-cancer-merged.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -37,11 +38,10 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - **수술 범위**: 일측 IA이고 가임력 보존을 원하면 일측 난관난소절제와 복막 병기설정을 고려한다. 폐경 후·양측성·진행성에서는 자궁 및 양측 부속기 절제와 종양감축을 평가한다. 정상 림프절의 일률적 절제는 필수가 아니다.
 - **관찰과 항암**: 성인형 IA 및 IC1 완전 절제 후에는 감시가 가능하다. IC2–3은 백금 기반 보조항암의 이득이 불확실하므로 BEP 등 항암 또는 엄격한 감시를 다학제로 결정한다. II–IV·잔존 종양은 종양감축과 백금 기반 전신치료를 검토한다.
-- **재발**: 절제 가능한 국소 재발은 재수술을 우선 검토하고, 절제 불가·다발성은 이전 치료·진행 속도에 따라 항암 또는 호르몬 치료를 선택한다. [ESMO](https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf)
+- **재발**: 절제 가능한 국소 재발은 재수술을 우선 검토하고, 절제 불가·다발성은 이전 치료·진행 속도에 따라 항암 또는 호르몬 치료를 선택한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 초기 병기는 대체로 예후가 좋지만 늦은 재발이 가능하다. 병기·파열·잔존 종양이 재발 위험 판단에 중요하며, 증상·치료 전 상승 표지자·영상에 따른 장기 추적을 유지한다.
 
-출처 : [ESMO 비상피성 난소암](https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf) · [Belgian College of Oncology 난소암 지침](https://collegeoncologie.be/wp-content/uploads/2022/06/National-guideline-ovarian-cancer-merged.pdf)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

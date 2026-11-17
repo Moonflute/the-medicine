@@ -17,7 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
 guideline_year: "2025"
-sources: ["Brazilian task force for the management of mucormycosis. | https://pubmed.ncbi.nlm.nih.gov/40974632/"]
+sources: ["Brazilian task force for the management of mucormycosis. | https://pubmed.ncbi.nlm.nih.gov/40974632/", "Brazilian task force guideline for mucormycosis 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12481069/"]
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
@@ -53,7 +53,6 @@ review_status: "guideline_enriched"
 - 치료 지연, 파종·중추신경계 침범, 지속되는 호중구감소와 수술 불가능성이 불량 예후 인자다. 신속한 항진균제 투여, 완전한 괴사조직 절제와 면역회복이 생존에 중요하다.
 - 생존 후에도 시력 상실, 안면/두개신경 결손, 광범위 절제에 따른 기능·미용 장애, 폐출혈과 신경학적 후유증이 남을 수 있다. amphotericin B 관련 급성신손상·전해질 이상도 적극 감시한다.
 
-출처 : [Brazilian task force guideline for mucormycosis 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12481069/)
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

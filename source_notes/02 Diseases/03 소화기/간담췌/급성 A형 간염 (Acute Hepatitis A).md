@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["CDC HAV 검사 | https://cdc.gov/hepatitis-a/hcp/diagnosis-testing/index.html", "CDC 감염별 격리 주의 | https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html", "CDC HAV 임상 개요 | https://www.cdc.gov/hepatitis-a/hcp/clinical-overview/index.html", "CDC HAV 감시 매뉴얼 | https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-3-hepatitis-a.html", "질병관리청 A형간염 예방접종 안내 | https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1109&menuLv=1", "질병관리청 해외여행 예방접종 안내 2026-05-14 | https://kdca.go.kr/bbs/kdca/42/307015/download.do"]
 ---
 분과 : [[소화기]]
 
@@ -85,9 +86,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [CDC HAV 검사](https://cdc.gov/hepatitis-a/hcp/diagnosis-testing/index.html)
-- [CDC 감염별 격리 주의](https://www.cdc.gov/infection-control/hcp/isolation-precautions/appendix-a-type-duration.html)
-- [CDC HAV 임상 개요](https://www.cdc.gov/hepatitis-a/hcp/clinical-overview/index.html)
-- [CDC HAV 감시 매뉴얼](https://www.cdc.gov/surv-manual/php/table-of-contents/chapter-3-hepatitis-a.html)
-- [질병관리청 A형간염 예방접종 안내](https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1109&menuLv=1)
-- [질병관리청 해외여행 예방접종 안내 2026-05-14](https://kdca.go.kr/bbs/kdca/42/307015/download.do)

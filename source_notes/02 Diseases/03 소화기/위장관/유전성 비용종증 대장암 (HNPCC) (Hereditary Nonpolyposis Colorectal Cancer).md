@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG151 | https://www.nice.org.uk/guidance/ng151/chapter/Recommendations", "Lynch syndrome GeneReviews | https://www.ncbi.nlm.nih.gov/books/NBK1211/"]
 ---
 분과 : [[소화기]]
 
@@ -46,7 +47,6 @@ reviewed_at: "2026-07-30"
 - 대장내시경 감시를 유지하며 aspirin 예방을 검토한다. NICE는 **매일 2년 초과** 복용을 고려하도록 하나, 용량·시작 시점은 출혈·궤양·동반 약제와 개별 암 위험을 반영해 정한다. Aspirin은 내시경 감시의 대체가 아니다.
 - 자궁내막·난소암 위험 감소 수술은 **출산 계획 완료 후**, 유전자별 위험과 연령·조기 폐경의 영향을 함께 논의한다. 당장 임신 계획이 없다는 이유만으로 모든 환자에게 자궁·난소 절제를 권하지 않는다.
 - 암 치료의 면역요법 선택은 종양의 dMMR/MSI-H와 병기·치료 단계에 따라 결정하고 유전 상담·가족 검사를 연계한다.
-- 근거: [NICE NG151](https://www.nice.org.uk/guidance/ng151/chapter/Recommendations), [Lynch syndrome GeneReviews](https://www.ncbi.nlm.nih.gov/books/NBK1211/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **특징**:

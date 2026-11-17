@@ -13,6 +13,7 @@ CC:
 preprocessing_required: x
 clinical_priority: "tier_3"
 review_status: "samsung8e_source_integrated"
+sources: ["NIH 성인·청소년 HIV 기회감염 CMV 지침 | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cytomegalovirus?view=full", "고형장기이식 CMV 국제합의 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12180710/"]
 ---
 분과 : [[소화기]]
 
@@ -42,4 +43,4 @@ review_status: "samsung8e_source_integrated"
 ## 6. 예후 및 합병증 (Prognosis)
 - 면역저하가 지속되면 재발할 수 있다. 출혈·심한 점막 손상과 동반 전신 CMV 질환을 함께 관리한다.
 
-출처: 삼성서울병원 메뉴얼. [NIH 성인·청소년 HIV 기회감염 CMV 지침](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/cytomegalovirus?view=full), [고형장기이식 CMV 국제합의 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12180710/).
+출처: 삼성서울병원 메뉴얼.

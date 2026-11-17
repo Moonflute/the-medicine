@@ -24,10 +24,7 @@ group_members:
 - 조현양상장애 (Schizophreniform disorder)
 - 조현정동장애 (Schizoaffective disorder)
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "VA/DoD: First-Episode Psychosis and Schizophrenia (2023) | https://www.healthquality.va.gov/guidelines/mh/scz/index.asp"
-  - "NICE CG178: Psychosis and Schizophrenia in Adults (2014; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg178/chapter/recommendations"
-  - "Merck Manual: Schizoaffective Disorder (2026-10 확인) | https://www.merckmanuals.com/en-ca/home/mental-health-disorders/schizophrenia-and-related-disorders/schizoaffective-disorder"
+sources: ["VA/DoD: First-Episode Psychosis and Schizophrenia (2023) | https://www.healthquality.va.gov/guidelines/mh/scz/index.asp", "NICE CG178: Psychosis and Schizophrenia in Adults (2014; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg178/chapter/recommendations", "Merck Manual: Schizoaffective Disorder (2026-10 확인) | https://www.merckmanuals.com/en-ca/home/mental-health-disorders/schizophrenia-and-related-disorders/schizoaffective-disorder"]
 ---
 # 조현병 스펙트럼 장애
 
@@ -65,7 +62,3 @@ sources:
 - [[조현정동장애 (Schizoaffective disorder)]]
 
 ## 참고 자료
-
-- [VA/DoD: First-Episode Psychosis and Schizophrenia (2023)](https://www.healthquality.va.gov/guidelines/mh/scz/index.asp)
-- [NICE CG178: Psychosis and Schizophrenia in Adults (2014; 2026-10 현행 확인)](https://www.nice.org.uk/guidance/cg178/chapter/recommendations)
-- [Merck Manual: Schizoaffective Disorder (2026-10 확인)](https://www.merckmanuals.com/en-ca/home/mental-health-disorders/schizophrenia-and-related-disorders/schizoaffective-disorder)

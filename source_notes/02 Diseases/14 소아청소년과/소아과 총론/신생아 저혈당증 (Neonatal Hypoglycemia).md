@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CPS 신생아 저혈당 권고, 2025 갱신 | https://cps.ca/en/documents/position/newborns-at-risk-for-low-blood-glucose"]
 ---
 분과 : [[소아청소년과]]
 
@@ -45,7 +46,6 @@ reviewed_at: "2026-07-30"
 - **72시간 이후**: 지속성 저혈당의 치료 목표는 ≥3.3 mmol/L(약 60 mg/dL)이다. <2.8 mmol/L(약 50 mg/dL)이면 가능한 한 교정 전 critical sample로 고인슐린혈증·내분비·대사 원인을 평가한다. 이 수치는 검사 시작 기준이며 치료 목표와 다르다.
 - **퇴원**: 지속성 저혈당은 원인을 평가하고, 전문팀 감독하에 5–6시간 수유 간격 동안 ≥3.3 mmol/L를 유지하는지 확인한다. 다른 기관의 연령별 프로토콜을 쓸 경우 그 기준을 일관되게 적용한다.
 
-근거: [CPS 신생아 저혈당 권고, 2025 갱신](https://cps.ca/en/documents/position/newborns-at-risk-for-low-blood-glucose).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 발견 및 적절한 치료 시 예후가 좋음.

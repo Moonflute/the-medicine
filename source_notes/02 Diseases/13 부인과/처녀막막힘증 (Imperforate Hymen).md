@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACOG hymenal variants | https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/06/diagnosis-and-management-of-hymenal-variants"]
 ---
 분과 : [[부인과]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-07-30"
 - **재발 방지**: 수술 후 절개 부위의 유착 및 재폐쇄를 방지하기 위해 국소 에스트로겐 크림 도포를 고려함.
 - **추적 관찰**: 수술 후 질 개구부의 개방성 유지 여부와 자궁 및 질 내 저류액의 소실 여부를 정기적으로 확인함.
 
-- **수술 시점**: 진단만으로 무증상 사춘기 전 환자에게 즉시 수술하지 않는다. 보통 사춘기 에스트로겐화 이후, 통증·혈액 저류가 생기기 전 적절한 시기를 정한다. 요폐·심한 통증·저류/감염·요로 폐쇄가 있으면 더 이른 처치가 필요하다. 질중격·질무형성 등 다른 폐쇄 기형을 먼저 구분한다. [ACOG hymenal variants](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/06/diagnosis-and-management-of-hymenal-variants)
+- **수술 시점**: 진단만으로 무증상 사춘기 전 환자에게 즉시 수술하지 않는다. 보통 사춘기 에스트로겐화 이후, 통증·혈액 저류가 생기기 전 적절한 시기를 정한다. 요폐·심한 통증·저류/감염·요로 폐쇄가 있으면 더 이른 처치가 필요하다. 질중격·질무형성 등 다른 폐쇄 기형을 먼저 구분한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적절한 수술 시 예후가 좋음.

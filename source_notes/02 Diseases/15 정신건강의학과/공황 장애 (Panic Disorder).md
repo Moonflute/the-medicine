@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional anxiety disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE CG113 | https://www.nice.org.uk/guidance/cg113/chapter/recommendations"]
 disease_family: psychiatry_split
 parent_disease: 불안 장애 (Anxiety Disorders)
 relation_to_parent: subtype
@@ -48,7 +47,6 @@ relation_to_parent: subtype
 
 - **교체·유지 시점**: 치료 후 2·4·6·12주에 반응·부작용을 확인한다. 적절한 **12주 치료에 호전이 없으면** 다른 항우울제 또는 CBT로 전환·연계한다. 호전되면 최적 용량 도달 후 **최소 6개월** 유지하고 점진 감량한다.
 
-근거: [NICE CG113](https://www.nice.org.uk/guidance/cg113/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 예후: 만성적 경과를 보일 수 있으나, 적절한 치료 시 약 80%에서 호전됨. 단, 재발이 흔하므로 지속적인 관리가 필요함.

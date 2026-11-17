@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["AHA/ACC 급성 사지허혈 지침 2024 | https://doi.org/10.1161/CIR.0000000000001251", "Merck 급성 하지허혈 | https://www.merckmanuals.com/en-ca/professional/cardiovascular-disorders/peripheral-artery-disorders/acute-limb-ischemia", "MSD 조영제 신병증과 죽상색전 감별 | https://www.msdmanuals.com/professional/nephrology/tubulointerstitial-diseases/contrast-nephropathy"]
 ---
 분과 : [[순환기]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-10-08"
 - 콜레스테롤 색전은 큰 혈관의 급성 혈전폐색처럼 일률적 혈전용해·혈전제거로 치료하지 않는다. 유발 가능한 혈관 조작을 줄이고, 신기능·피부/장기 허혈을 지지 치료하며 동맥경화 위험인자와 색전원을 전문팀이 관리한다.
 
 - 급성 사지허혈로 판단되면 금기가 없는 한 미분획 헤파린을 신속히 시작한다. 운동·감각 소실과 동맥/정맥 도플러를 바탕으로 사지 위협도와 재관류 시급성을 판단한다. 증상 6시간만으로 가역성이나 술식을 정하지 않는다.
-- 회복 가능한 사지는 즉시 혈관팀에 연계해 수술·혈관내 재관류 방법을 결정한다. 운동장애 등 즉각 위협의 징후가 있으면 영상·추가 검사 때문에 재관류를 늦추지 않는다. [AHA/ACC 급성 사지허혈 지침 2024](https://doi.org/10.1161/CIR.0000000000001251)
+- 회복 가능한 사지는 즉시 혈관팀에 연계해 수술·혈관내 재관류 방법을 결정한다. 운동장애 등 즉각 위협의 징후가 있으면 영상·추가 검사 때문에 재관류를 늦추지 않는다.
 - 비가역적 허혈이나 마비가 동반된 응급 상황에서는 즉각적인 상급 병원 전원을 고려한다.
 - 장시간 허혈 후 재관류 시 발생할 수 있는 구획증후군 예방을 위해 근막절개술 필요성을 평가한다.
 
@@ -57,5 +58,3 @@ reviewed_at: "2026-10-08"
 출처 : Merck Manual Professional
 
 참고: 삼성서울병원 메뉴얼.
-- [Merck 급성 하지허혈](https://www.merckmanuals.com/en-ca/professional/cardiovascular-disorders/peripheral-artery-disorders/acute-limb-ischemia)
-- [MSD 조영제 신병증과 죽상색전 감별](https://www.msdmanuals.com/professional/nephrology/tubulointerstitial-diseases/contrast-nephropathy)

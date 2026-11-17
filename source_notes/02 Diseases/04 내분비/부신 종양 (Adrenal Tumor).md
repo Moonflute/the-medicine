@@ -16,7 +16,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2023"
-sources: ["European Society of Endocrinology Clinical Practice Guideline on Adrenal Incidentalomas (2023) | https://www.ese-hormones.org/publications/directory/ese-clinical-practice-guideline-on-the-management-of-adrenal-incidentalomas-in-collaboration-with-the-european-network-for-the-study-of-adrenal-tumors/", "French AFU Cancer Committee Guidelines Update 2022-2024: Adrenal tumor | https://pubmed.ncbi.nlm.nih.gov/36400477/"]
+sources: ["European Society of Endocrinology Clinical Practice Guideline on Adrenal Incidentalomas (2023) | https://www.ese-hormones.org/publications/directory/ese-clinical-practice-guideline-on-the-management-of-adrenal-incidentalomas-in-collaboration-with-the-european-network-for-the-study-of-adrenal-tumors/", "French AFU Cancer Committee Guidelines Update 2022-2024: Adrenal tumor | https://pubmed.ncbi.nlm.nih.gov/36400477/", "ESE 2023 | https://academic.oup.com/ejendo/article/189/1/G1/7198474"]
 
 ---
 분과 : [[내분비]]
@@ -52,7 +52,7 @@ sources: ["European Society of Endocrinology Clinical Practice Guideline on Adre
 - **기능성 종양**: 부신절제술(adrenalectomy)이 우선 고려됨.
 - **수술 전후**: 호르몬 과다 분비 상태에 따른 적절한 내과적 처치 및 글루코코르티코이드 보충 필요.
 
-- **불확정 병변의 분기**: ≥4 cm이면서 불균질하거나 HU >20이면 수술을 우선 논의한다. 추적을 택한 병변의 성장이 >20%이면서 ≥5 mm이면 재평가한다. DST 후 cortisol >1.8 μg/dL인 MACS는 고혈압·당뇨 등 코르티솔 관련 동반질환과 수술 위험을 함께 평가해 수술 여부를 정한다. [ESE 2023](https://academic.oup.com/ejendo/article/189/1/G1/7198474)
+- **불확정 병변의 분기**: ≥4 cm이면서 불균질하거나 HU >20이면 수술을 우선 논의한다. 추적을 택한 병변의 성장이 >20%이면서 ≥5 mm이면 재평가한다. DST 후 cortisol >1.8 μg/dL인 MACS는 고혈압·당뇨 등 코르티솔 관련 동반질환과 수술 위험을 함께 평가해 수술 여부를 정한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료 시 예후는 매우 우수, 합병증 발생률은 낮음.

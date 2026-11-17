@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["MSF 안구건조증 치료 | https://medicalguidelines.msf.org/en/viewport/CG/english/xerophthalmia-vitamin-a-deficiency-16689721.html"]
 ---
 분과 : [[소아청소년과]]
 
@@ -42,7 +43,7 @@ reviewed_at: "2026-07-30"
 * **안전성 주의**: 비타민 A 과다증 예방을 위해 권장 용량을 준수하며, 특히 임산부 투여 시 기형 유발 위험을 고려하여 신중히 결정함.
 * **추적 관찰**: 치료 시작 후 안과적 증상 및 혈중 레티놀 농도의 호전 여부를 정기적으로 모니터링함.
 
-* **안구 증상이 있는 결핍의 용량**: 각막 병변은 안과 응급이다. MSF 경로에서는 retinol 경구를 **생후 <6개월 50,000 IU, 6–<12개월 100,000 IU, ≥12개월 200,000 IU**씩 **1·2·8일째** 투여한다. 예방 보충과 치료 고용량을 구분하고, 다른 제제의 중복 투여·흡수장애·구토 여부를 확인한다. 임신 가능 청소년은 기형 유발 위험 때문에 같은 고용량표를 무조건 적용하지 않는다. [MSF 안구건조증 치료](https://medicalguidelines.msf.org/en/viewport/CG/english/xerophthalmia-vitamin-a-deficiency-16689721.html)
+* **안구 증상이 있는 결핍의 용량**: 각막 병변은 안과 응급이다. MSF 경로에서는 retinol 경구를 **생후 <6개월 50,000 IU, 6–<12개월 100,000 IU, ≥12개월 200,000 IU**씩 **1·2·8일째** 투여한다. 예방 보충과 치료 고용량을 구분하고, 다른 제제의 중복 투여·흡수장애·구토 여부를 확인한다. 임신 가능 청소년은 기형 유발 위험 때문에 같은 고용량표를 무조건 적용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 치료 시 야맹증 등 초기 증상은 수주 내 회복 가능.

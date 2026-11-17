@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ACG 대장 허혈 지침 | https://acgcdn.gi.org/wp-content/uploads/2018/04/ACG-Colon-Ischemia-Guideline-Summary.pdf"]
 ---
 분과 : [[소화기]]
 
@@ -69,4 +70,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ACG 대장 허혈 지침](https://acgcdn.gi.org/wp-content/uploads/2018/04/ACG-Colon-Ischemia-Guideline-Summary.pdf)

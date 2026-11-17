@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "FDA lecanemab 처방정보 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761269s011lbl.pdf"]
 disease_family: psychiatry_split
 parent_disease: 신경인지장애 (Neurocognitive Disorders)
 relation_to_parent: subtype
@@ -47,7 +46,6 @@ relation_to_parent: subtype
 
 - **약물 적용 범위**: 원인 불명의 MCI에 치매 증상약을 일률적으로 처방하지 않는다. Alzheimer병에 의한 MCI이고 **아밀로이드 병리가 확인**되면 항아밀로이드 치료 적합성을 전문팀이 평가할 수 있다. MRI 출혈 소견, 항응고제·ARIA 위험, 임상 단계와 허가사항을 함께 판단하며 MCI 진단만으로 투약하지 않는다.
 
-근거: [FDA lecanemab 처방정보](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761269s011lbl.pdf).
 
 ## 6. 예후 및 합병증
 - 예후: 치매로 진행할 위험이 높으나, 일부 환자는 상태가 안정되거나 정상으로 회복되기도 함. 고령, 기억력 저하가 심한 경우, 뇌 영상상 위축이 뚜렷한 경우 치매로의 진행 위험이 높음.

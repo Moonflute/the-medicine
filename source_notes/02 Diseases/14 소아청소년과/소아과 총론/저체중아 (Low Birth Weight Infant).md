@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["WHO 미숙아·저체중아 관리 권고 | https://www.ncbi.nlm.nih.gov/books/NBK586701/table/fm-ch2.tab1/"]
 ---
 분과 : [[소아청소년과]]
 
@@ -44,7 +45,6 @@ reviewed_at: "2026-07-30"
 
 - **강화제·보온**: 모유 강화제는 모든 저체중아에게 일률적으로 사용하지 않고, 특히 **<32주 또는 <1,500 g**에서 영양 요구·성장을 보고 고려한다. 가능한 한 일찍 캥거루 돌봄을 시행하고 임상 상태에 맞는 호흡·체온 감시를 병행한다.
 
-근거: [WHO 미숙아·저체중아 관리 권고](https://www.ncbi.nlm.nih.gov/books/NBK586701/table/fm-ch2.tab1/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 미숙 정도 및 합병증 발생 여부에 따라 예후가 결정됨

@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ABM 2022 | https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf"]
 ---
 분과 : [[산과]]
 
@@ -41,12 +42,11 @@ reviewed_at: "2026-07-30"
 - **농양 관리**: 농양 형성 시 초음파 유도하 흡인(aspiration) 또는 절개 배농을 시행함.
 - **추적 관찰**: 1차 항생제 48시간 뒤에도 호전이 없으면 유즙 배양을 고려하고, 종괴가 지속되거나 악화되면 초음파로 농양을 재평가한다.
 
-- **항생제 전환 기준**: 염증성 유방염은 우선 냉찜질·진통·생리적 수유로 관리한다. 전신 증상이 >24시간 지속되거나 보존치료에 반응하지 않는 진행성 홍반·경결이면 세균성 유방염을 평가해 항생제를 시작한다. 예: cephalexin 500 mg 1일 4회 10–14일; 알레르기·신기능·배양에 따라 조정한다. TMP-SMX는 미숙아·황달/고빌리루빈혈증·G6PD 결핍 신생아 수유에서는 피하거나 대안을 검토한다. [ABM 2022](https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf)
+- **항생제 전환 기준**: 염증성 유방염은 우선 냉찜질·진통·생리적 수유로 관리한다. 전신 증상이 >24시간 지속되거나 보존치료에 반응하지 않는 진행성 홍반·경결이면 세균성 유방염을 평가해 항생제를 시작한다. 예: cephalexin 500 mg 1일 4회 10–14일; 알레르기·신기능·배양에 따라 조정한다. TMP-SMX는 미숙아·황달/고빌리루빈혈증·G6PD 결핍 신생아 수유에서는 피하거나 대안을 검토한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 예후가 좋으나, 치료 지연 시 유방 농양으로 진행될 수 있음.
 
 출처 : StatPearls (Acute Mastitis)
-추가 출처: [Academy of Breastfeeding Medicine 유방염 지침 #36](https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf)
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

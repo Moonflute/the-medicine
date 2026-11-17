@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2022"
-sources: ["2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension | https://academic.oup.com/eurheartj/article/43/38/3618/6673929", "2020 KSC/KATRD Guideline for the Diagnosis and Treatment of Pulmonary Hypertension: Executive Summary | https://www.e-trd.org/journal/view.php?number=1022"]
+sources: ["2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension | https://academic.oup.com/eurheartj/article/43/38/3618/6673929", "2020 KSC/KATRD Guideline for the Diagnosis and Treatment of Pulmonary Hypertension: Executive Summary | https://www.e-trd.org/journal/view.php?number=1022", "ESC/ERS | https://doi.org/10.1093/eurheartj/ehac237"]
 
 source_currency_assessment: "current_standard_retained"
 content_updated_at: "2026-11-17"
@@ -62,7 +62,7 @@ content_updated_at: "2026-11-17"
 - 전신경화증(SSc) 관련 PAH: 다학제적 접근 및 단계적 치료 알고리즘 적용.
 - 중증 시 폐 이식 고려.
 
-- **고용량 CCB를 쓸 수 있는 경우**: 특발성·유전성·약물 관련 PAH 중 전문센터 급성 혈관반응검사에서 mPAP가 ≥10 mmHg 감소해 ≤40 mmHg가 되고 심박출량이 유지/증가하는 양성 반응자에 한해 검토한다. 모든 PH 또는 반응 음성 환자에게 경험적으로 고용량 CCB를 투여하지 않는다. 초기 저/중간 위험 PAH는 경구 병합, 고위험은 정주/피하 prostacyclin을 포함한 치료와 조기 이식 평가를 검토한다. [ESC/ERS](https://doi.org/10.1093/eurheartj/ehac237)
+- **고용량 CCB를 쓸 수 있는 경우**: 특발성·유전성·약물 관련 PAH 중 전문센터 급성 혈관반응검사에서 mPAP가 ≥10 mmHg 감소해 ≤40 mmHg가 되고 심박출량이 유지/증가하는 양성 반응자에 한해 검토한다. 모든 PH 또는 반응 음성 환자에게 경험적으로 고용량 CCB를 투여하지 않는다. 초기 저/중간 위험 PAH는 경구 병합, 고위험은 정주/피하 prostacyclin을 포함한 치료와 조기 이식 평가를 검토한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 질환에 따라 다르며, 치료하지 않을 경우 우심부전으로 진행하여 예후가 불량함.
@@ -73,4 +73,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [2022 ESC/ERS 폐고혈압 진료지침](https://academic.oup.com/eurheartj/article/43/38/3618/6673929), [2020 대한결핵및호흡기학회·대한심장학회 폐고혈압 진료지침 요약](https://www.e-trd.org/journal/view.php?number=1022); 폐고혈압의 우심도자 확진, 원인군 분류 및 전문센터 치료 경로를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. 2022 ESC/ERS 폐고혈압 진료지침, 2020 대한결핵및호흡기학회·대한심장학회 폐고혈압 진료지침 요약; 폐고혈압의 우심도자 확진, 원인군 분류 및 전문센터 치료 경로를 대조. 2026-09-14 기존 목차 내 보완.

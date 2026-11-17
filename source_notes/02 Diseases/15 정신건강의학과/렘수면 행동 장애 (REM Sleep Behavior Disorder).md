@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "AASM RBD 지침 2023 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10071384/"]
 disease_family: psychiatry_split
 parent_disease: 수면 관련 장애 (Sleep-Wake Disorders)
 relation_to_parent: subtype
@@ -47,7 +46,6 @@ relation_to_parent: subtype
 
 - **약제 선택 기준**: 환경 보호에도 부상 위험·반복 행동이 지속되면 즉방형 melatonin 또는 clonazepam을 고려한다. 고령, 인지 저하·보행 불안, 수면무호흡에서는 clonazepam의 진정·낙상·호흡 악화를 특히 고려한다. 항우울제 유발이 의심되면 원질환 재발 위험을 검토하여 감량·변경하고 갑자기 중단하지 않는다.
 
-근거: [AASM RBD 지침 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10071384/).
 
 ## 6. 예후 및 합병증
 - 신경퇴행성 질환으로의 이행 가능성이 높으므로 장기적인 신경학적 추적 관찰 필요.

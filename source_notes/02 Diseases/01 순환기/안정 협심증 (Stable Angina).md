@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ESC 만성 관상동맥증후군 지침 2024 | https://doi.org/10.1093/eurheartj/ehae177", "ESC 2024 만성 관상동맥증후군 지침 | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/chronic-coronary-syndromes/", "ESC 2024 핵심 권고 | https://www.escardio.org/static-file/Escardio/Guidelines/Products/Essential%20Messages/2024%20EM/Essential%20Messages_2024%20CCS.pdf"]
 ---
 분과 : [[순환기]]
 
@@ -50,7 +51,6 @@ reviewed_at: "2026-07-30"
 
 - **재개통할 병변의 확인**: 중간 정도 협착은 육안 협착률만으로 PCI를 정하지 않고 기능 평가를 활용한다. **FFR ≤0.80 또는 iFR ≤0.89**는 유의한 허혈 판단 기준이며 증상·해부학과 함께 적용한다.
 - **PCI와 CABG 선택**: 최적 약물에도 생활을 제한하는 협심증은 재개통을 검토한다. 유의한 좌주간부·복잡 다혈관 병변, 특히 당뇨 동반에서는 CABG의 이점을 Heart Team에서 평가한다. 좌주간부라도 낮은 복잡도(**SYNTAX ≤22**)이고 동등한 완전 재개통이 가능하면 PCI가 대안이 될 수 있다.
-- 근거: [ESC 만성 관상동맥증후군 지침 2024](https://doi.org/10.1093/eurheartj/ehae177).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 이루어지지 않을 경우 불안정 협심증, 심근경색, 부정맥 또는 심부전으로 진행될 수 있다.
@@ -61,4 +61,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [ESC 2024 만성 관상동맥증후군 지침](https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/chronic-coronary-syndromes/), [ESC 2024 핵심 권고](https://www.escardio.org/static-file/Escardio/Guidelines/Products/Essential%20Messages/2024%20EM/Essential%20Messages_2024%20CCS.pdf), 만성 관상동맥증후군의 위험도 기반 검사·예방치료와 변이형 협심증의 약제 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. ESC 2024 만성 관상동맥증후군 지침, ESC 2024 핵심 권고, 만성 관상동맥증후군의 위험도 기반 검사·예방치료와 변이형 협심증의 약제 원칙을 대조. 2026-09-14 기존 목차 내 보완.

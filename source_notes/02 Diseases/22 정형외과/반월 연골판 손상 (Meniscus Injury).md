@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAOS 급성 고립성 반월상연골 손상 2024 | https://www.aaos.org/globalassets/quality-and-practice-resources/acute-meniscal-pathology/amp-cpg.pdf"]
 ---
 분과 : [[정형외과]]
 
@@ -42,7 +43,6 @@ MRI: 연골판 파열 진단에 가장 정확한 영상 검사.
 - 전위가 없고 잠김이 없으면 활동 조절, 근력·관절 운동 재활을 우선한다. 급성 고립성 파열에서 적절한 비수술 치료에도 증상이 지속되면 손상 후 6개월 이내 수술의 이득을 검토할 수 있으나, 4–6주가 지났다는 이유만으로 자동 수술하지 않는다.
 - 퇴행성 파열·골관절염 동반에서는 MRI상 파열만을 근거로 부분 절제술을 시행하지 않고 비수술 치료 반응과 기계적 제한을 구분한다. 급성 고립성 파열 지침을 퇴행성 병변에 그대로 적용하지 않는다.
 - 봉합 후 체중 부하·굴곡 제한은 파열 위치와 봉합법에 맞춘다. 부분 절제와 동일한 고정 기간을 일괄 적용하지 않는다.
-- 근거: [AAOS 급성 고립성 반월상연골 손상 2024](https://www.aaos.org/globalassets/quality-and-practice-resources/acute-meniscal-pathology/amp-cpg.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 후 기능 회복이 가능하나, 장기적으로는 퇴행성 관절염의 위험이 증가할 수 있음.

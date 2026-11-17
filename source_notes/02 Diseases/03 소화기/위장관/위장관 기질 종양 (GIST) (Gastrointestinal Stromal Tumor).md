@@ -15,7 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-17"
 guideline_year: "2025"
-sources: ["Japanese Clinical Practice Guidelines 2022 for Gastrointestinal Stromal Tumor, English version published 2024 | https://pubmed.ncbi.nlm.nih.gov/38609732/", "GEIS Guidelines for gastrointestinal stromal tumors (2023) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/"]
+sources: ["Japanese Clinical Practice Guidelines 2022 for Gastrointestinal Stromal Tumor, English version published 2024 | https://pubmed.ncbi.nlm.nih.gov/38609732/", "GEIS Guidelines for gastrointestinal stromal tumors (2023) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/", "아시아 GIST 합의지침 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13525072/"]
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
@@ -27,7 +27,6 @@ review_status: "guideline_enriched"
 - **원인**: 대부분 C-KIT 유전자 돌연변이, 일부 PDGFRA 유전자 돌연변이. 드물게 신경섬유종증 1형이나 가족성 SDH 결핍증과 연관됨.
 
 - **기전**: 수용체 티로신 키나아제(receptor tyrosine kinase)의 돌연변이로 인한 세포 증식 조절 실패.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -49,7 +48,7 @@ review_status: "guideline_enriched"
 
 ## 5. 치료
 - **절제 가능 국소 GIST**: R0 절제를 목표로 장기 보존 수술을 계획하며, 임상적으로 의심되는 림프절 전이는 드물어 일률적 림프절곽청은 하지 않는다. 종양 파열은 재발 위험을 크게 높이므로 수술 중 파열을 피한다.
-- **작은 위 GIST**: 2 cm 미만으로 고위험 소견이 없는 위 병변에서는 내시경초음파 평가 및 선별 감시가 가능하다. 출혈·성장·고위험 영상 특징이 있으면 조직 확인 및 절제를 검토한다. 시술 여부를 크기 하나로 결정하지 않는다. [아시아 GIST 합의지침 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC13525072/)
+- **작은 위 GIST**: 2 cm 미만으로 고위험 소견이 없는 위 병변에서는 내시경초음파 평가 및 선별 감시가 가능하다. 출혈·성장·고위험 영상 특징이 있으면 조직 확인 및 절제를 검토한다. 시술 여부를 크기 하나로 결정하지 않는다.
 - **분자·위험도 기반 결정**: KIT/PDGFRA 변이와 크기·유사분열수·원발 부위·파열 여부로 위험을 평가한다. 경계 절제 가능·기능 보존이 필요한 경우 imatinib 감수성 변이인지 확인 후 neoadjuvant imatinib을 다학제에서 고려한다.
 - **보조치료**: imatinib 감수성 고위험군은 보통 3년 보조 imatinib을 고려한다. PDGFRA D842V 등 imatinib 비감수성 변이에는 기계적으로 보조 imatinib을 적용하지 않는다.
 - **진행성/전이성**: imatinib을 1차로 사용하고, 진행 시 변이·순응도·약물상호작용을 재평가해 용량 조정 또는 sunitinib, regorafenib, ripretinib 등 순차 TKI를 전문팀에서 선택한다. PDGFRA D842V에는 avapritinib을 고려한다.
@@ -61,7 +60,7 @@ review_status: "guideline_enriched"
   - **초저위험, 저위험, 중간위험군 환자**: 6~12개월 간격으로 조영증강 CT 시행
 - **약물 치료 (전이성/불응성)**:
   - 수술이 불가능하거나 전이된 경우 티로신 키나아제 억제제(TKI) 사용.
-  - Imatinib 불응 시 변이·순응도·상호작용을 확인한 뒤 sunitinib, regorafenib, ripretinib 등 후속 요법을 검토한다. 특히 PDGFRA D842V는 imatinib 비감수성이므로 avapritinib을 우선 평가하며, 다른 PDGFRA exon 18 변이를 모두 같은 감수성으로 취급하지 않는다. [아시아 GIST 지침 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC13525072/)
+  - Imatinib 불응 시 변이·순응도·상호작용을 확인한 뒤 sunitinib, regorafenib, ripretinib 등 후속 요법을 검토한다. 특히 PDGFRA D842V는 imatinib 비감수성이므로 avapritinib을 우선 평가하며, 다른 PDGFRA exon 18 변이를 모두 같은 감수성으로 취급하지 않는다.
 
 ## 6. 예후 및 합병증
 * **특징**: 위장관 간엽 종양에 속하며, 악성 잠재력은 종양의 위치, 크기, 유사분열 수(mitotic rate)에 따라 결정됨.

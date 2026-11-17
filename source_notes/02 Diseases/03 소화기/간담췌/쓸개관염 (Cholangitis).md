@@ -20,7 +20,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-10-08"
 review_status: "source_reviewed_no_change"
 guideline_year: "2026"
-sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real-world evidence in primary biliary cholangitis. | https://pubmed.ncbi.nlm.nih.gov/42191456/"]
+sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real-world evidence in primary biliary cholangitis. | https://pubmed.ncbi.nlm.nih.gov/42191456/", "ASGE 담관염 지침 | https://doi.org/10.1016/j.gie.2020.12.032", "ESGE 총담관 결석 지침 | https://www.esge.com/endoscopic-management-of-common-bile-duct-stones-esge-guideline", "Tokyo Guidelines 2018 담관염 진단 | https://onlinelibrary.wiley.com/doi/10.1002/jhbp.512", "Tokyo Guidelines 2018 acute cholangitis management | https://pubmed.ncbi.nlm.nih.gov/29372522/"]
 
 ---
 분과 : [[소화기]]
@@ -73,7 +73,6 @@ sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real
   담석성 폐쇄는 안정화와 배액·결석 제거를 우선하고, 담낭절제 시점은 중증도·수술 위험·자원에 맞춰 계획한다. 악성 폐쇄는 절제 가능성, 전신 상태와 치료 목표에 따라 내시경/경피 배액, 수술·종양 치료를 다학제로 결정한다.
 
 - **배액 시점**: 중등도 이상 또는 항생제·수액에도 호전되지 않는 담관염은 담도 배액을 서두른다. ASGE는 대체로 **48시간 이내 내시경 배액**을 제안하며, 쇼크·장기부전이 있으면 이를 기다리는 기한으로 해석하지 않는다. 안정된 환자는 같은 ERCP에서 결석 제거를 병행할 수 있고, 매우 불안정하면 우선 배액만 시행한 뒤 확정 치료한다.
-- 근거: [ASGE 담관염 지침](https://doi.org/10.1016/j.gie.2020.12.032).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 담도 배액 뒤에도 발열·황달·혈액배양 양성 또는 장기기능 저하가 지속되면 스텐트 폐색·불완전 배액·간농양·다른 감염원을 재평가합니다. 배양 결과, 원인 질환과 source control 여부에 따라 항생제 범위·기간을 조정합니다.
@@ -88,6 +87,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ESGE 총담관 결석 지침](https://www.esge.com/endoscopic-management-of-common-bile-duct-stones-esge-guideline)
-- [Tokyo Guidelines 2018 담관염 진단](https://onlinelibrary.wiley.com/doi/10.1002/jhbp.512)
-- [Tokyo Guidelines 2018 acute cholangitis management](https://pubmed.ncbi.nlm.nih.gov/29372522/)

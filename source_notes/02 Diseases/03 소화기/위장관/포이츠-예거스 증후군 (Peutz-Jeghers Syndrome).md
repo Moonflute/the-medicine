@@ -12,9 +12,7 @@ preprocessing_required: x
 reviewed_at: '2026-10-07'
 content_updated_at: "2026-11-18"
 review_status: targeted_source_reviewed_draft
-sources:
-- "GeneReviews: Peutz-Jeghers Syndrome, updated 2021 | https://www.ncbi.nlm.nih.gov/books/NBK1266/"
-- "EHTG Guideline: Peutz–Jeghers Syndrome, 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7865862/"
+sources: ["GeneReviews: Peutz-Jeghers Syndrome, updated 2021 | https://www.ncbi.nlm.nih.gov/books/NBK1266/", "EHTG Guideline: Peutz–Jeghers Syndrome, 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7865862/", "ESGE 소장내시경 지침 2022 | https://www.esge.com/assets/downloads/pdfs/guidelines/2022_a-1973-3796.pdf"]
 ---
 
 # 포이츠-예거스 증후군 (Peutz-Jeghers Syndrome)
@@ -29,5 +27,3 @@ STK11 관련 상염색체 우성 질환으로, 입술·구강 등 점막피부 �
 증상·크기·위치에 따라 용종 제거와 장중첩 예방을 계획하고 연령·장기별 감시를 시행한다. 모든 환자에게 “대장내시경만 2년마다” 적용하거나 암 위험을 2–10%로 일괄 제한하지 않는다. 개인별 감시 일정은 전문 지침과 이전 검사 결과를 기준으로 정한다.
 
 - **제거 기준**: 소장 용종은 **>15 mm 또는 크기와 무관하게 폐쇄·출혈 증상을 유발**하면 장중첩 예방을 위한 기구보조 소장내시경 절제를 평가한다. 장중첩·허혈이 의심되면 긴급 외과 평가를 진행하며 가능한 범위에서 장을 보존한다.
-- 근거: [ESGE 소장내시경 지침 2022](https://www.esge.com/assets/downloads/pdfs/guidelines/2022_a-1973-3796.pdf).
-

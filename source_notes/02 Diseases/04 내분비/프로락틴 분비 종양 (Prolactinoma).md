@@ -15,7 +15,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2023"
-sources: ["2023 Korean Endocrine Society Consensus Statement on the Diagnosis and Management of Prolactinoma | https://www.endocrinology.or.kr/journal/view.php?number=1791", "Diagnosis and Management of Prolactinoma: An Endocrine Society Clinical Practice Guideline | https://www.endocrine.org/clinical-practice-guidelines/prolactinoma"]
+sources: ["2023 Korean Endocrine Society Consensus Statement on the Diagnosis and Management of Prolactinoma | https://www.endocrinology.or.kr/journal/view.php?number=1791", "Diagnosis and Management of Prolactinoma: An Endocrine Society Clinical Practice Guideline | https://www.endocrine.org/clinical-practice-guidelines/prolactinoma", "Pituitary Society 2023 | https://www.nature.com/articles/s41574-023-00886-5"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -55,7 +55,7 @@ content_updated_at: "2026-11-17"
 - 특수 상황: 임신 계획, 정신질환 동반, 거대/공격성 종양의 경우 다학제적 접근 및 개별화된 치료 전략 필요.
 
 - **관찰·중단 대상**: 증상 없는 작은 종양은 성선기능·종양 크기를 보며 관찰할 수 있다. 약물 중단 가능성이 높은 경우는 비침윤성 작은 종양, 정상 PRL과 뚜렷한 종양 감소를 유지하며 저용량 cabergoline으로 ≥2년 치료한 환자다. 중단 후 첫해 PRL을 약 3개월마다 확인하고 이후에도 추적한다.
-- **수술을 처음부터 논의할 수 있는 경우**: 경험 많은 센터의 작고 비침윤성 종양은 장기 약물치료와 수술 완치 가능성·합병증을 함께 비교한다. 시야장애가 있어도 급격히 악화하지 않는 prolactinoma는 약물에 빠르게 반응할 수 있어, 압박 소견만으로 모든 환자를 바로 수술하지 않는다. [Pituitary Society 2023](https://www.nature.com/articles/s41574-023-00886-5)
+- **수술을 처음부터 논의할 수 있는 경우**: 경험 많은 센터의 작고 비침윤성 종양은 장기 약물치료와 수술 완치 가능성·합병증을 함께 비교한다. 시야장애가 있어도 급격히 악화하지 않는 prolactinoma는 약물에 빠르게 반응할 수 있어, 압박 소견만으로 모든 환자를 바로 수술하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 도파민 작용제에 반응이 좋으나 장기 복용이 필요할 수 있음.

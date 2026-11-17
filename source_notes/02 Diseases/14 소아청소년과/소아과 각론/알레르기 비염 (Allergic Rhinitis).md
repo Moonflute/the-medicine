@@ -23,6 +23,7 @@ population: "pediatric"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAAAI/ACAAI 2020 | https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Rhinitis-2020-A-practice-parameter-update.pdf", "FDA montelukast | https://www.fda.gov/drugs/drug-safety-communications/fda-requires-boxed-warning-about-serious-mental-health-side-effects-asthma-and-allergy-drug"]
 ---
 분과 : [[소아청소년과]]
 
@@ -52,7 +53,7 @@ reviewed_at: "2026-07-30"
 * **면역 치료 및 전원**: 약물 치료에 반응하지 않거나 증상이 심한 경우, 알레르기 전문의와 상의하여 면역 요법을 고려함.
 * **추적 관찰**: 동반 질환(천식, 부비동염, 중이염 등) 발생 여부를 정기적으로 확인하고 증상 조절 정도에 따라 약물 용량을 조절함.
 
-* **단계 조절**: 간헐적 경증의 재채기·가려움은 비진정성 2세대 항히스타민제를 선택할 수 있고, 지속 코막힘·수면/학교생활 장애는 비강 steroid를 규칙적으로 사용한다. 올바른 분무와 순응도를 확인했는데도 불충분하면 허가 연령에 맞는 비강 항히스타민제 병용을 고려한다. Montelukast는 비염에서 다른 치료에 반응하지 않거나 견디지 못할 때만 고려하며 신경정신 이상 발생 시 중단·평가한다. 알레르겐 면역치료는 원인 감작과 증상의 연관성이 확인되고 회피·약물로 불충분할 때 선택하며 조절되지 않는 천식에서는 시작하지 않는다. [AAAAI/ACAAI 2020](https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Rhinitis-2020-A-practice-parameter-update.pdf), [FDA montelukast](https://www.fda.gov/drugs/drug-safety-communications/fda-requires-boxed-warning-about-serious-mental-health-side-effects-asthma-and-allergy-drug)
+* **단계 조절**: 간헐적 경증의 재채기·가려움은 비진정성 2세대 항히스타민제를 선택할 수 있고, 지속 코막힘·수면/학교생활 장애는 비강 steroid를 규칙적으로 사용한다. 올바른 분무와 순응도를 확인했는데도 불충분하면 허가 연령에 맞는 비강 항히스타민제 병용을 고려한다. Montelukast는 비염에서 다른 치료에 반응하지 않거나 견디지 못할 때만 고려하며 신경정신 이상 발생 시 중단·평가한다. 알레르겐 면역치료는 원인 감작과 증상의 연관성이 확인되고 회피·약물로 불충분할 때 선택하며 조절되지 않는 천식에서는 시작하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 만성 질환으로 재발 가능성 높음

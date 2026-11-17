@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["BSG gastric premalignant lesions 2019 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6709778/", "ESGE 불필요한 내시경 감시 방지 2020 | https://www.esge.com/assets/downloads/pdfs/guidelines/2020_a_1137_4721.pdf", "국내 위암 진료지침 2024, 2025 발표 | https://www.jgc-online.org/DOIx.php?id=10.5230%2Fjgc.2025.25.e11", "ESGE MAPS III 2025 | https://www.esge.com/management-of-epithelial-precancerous-conditions-and-early-neoplasia-of-the-stomach-maps-iii-esge-ehmsg-esp-guideline-update-2025", "ESGE ESD 기술 검토 | https://www.esge.com/esd-techniques-and-technology-esge-technical-review"]
 ---
 분과 : [[소화기]]
 
@@ -76,8 +77,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [BSG gastric premalignant lesions 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6709778/)
-- [ESGE 불필요한 내시경 감시 방지 2020](https://www.esge.com/assets/downloads/pdfs/guidelines/2020_a_1137_4721.pdf)
-- [국내 위암 진료지침 2024, 2025 발표](https://www.jgc-online.org/DOIx.php?id=10.5230%2Fjgc.2025.25.e11)
-- [ESGE MAPS III 2025](https://www.esge.com/management-of-epithelial-precancerous-conditions-and-early-neoplasia-of-the-stomach-maps-iii-esge-ehmsg-esp-guideline-update-2025)
-- [ESGE ESD 기술 검토](https://www.esge.com/esd-techniques-and-technology-esge-technical-review)

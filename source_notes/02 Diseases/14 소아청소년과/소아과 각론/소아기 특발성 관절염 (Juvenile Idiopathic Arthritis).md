@@ -22,9 +22,7 @@ review_status: "guideline_enriched"
 reviewed_at: "2026-10-21"
 guideline_year: "2026"
 source_currency_assessment: "official_summary_updated"
-sources:
-- 'ACR 2026 JIA — official recommendation summary | https://rheumatology.org/juvenile-idiopathic-arthritis-guideline'
-- '2026 JIA recommendation tables | https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt4e307b8933591fa5/jia-guidelines-summary-2026.pdf'
+sources: ["ACR 2026 JIA — official recommendation summary | https://rheumatology.org/juvenile-idiopathic-arthritis-guideline", "2026 JIA recommendation tables | https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt4e307b8933591fa5/jia-guidelines-summary-2026.pdf"]
 ---
 분과 : [[소아청소년과]]
 
@@ -63,6 +61,5 @@ sources:
 - **예후**: 조기 진단 및 적극적인 면역 조절 치료 시 예후 개선 가능
 
 출처 : StatPearls (Juvenile Idiopathic Arthritis)
-최신 권고: [ACR 2026 JIA 공식 요약](https://rheumatology.org/juvenile-idiopathic-arthritis-guideline) — 2026-05-13 공개, 2026-10-21 반영.
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

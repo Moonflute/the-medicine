@@ -27,10 +27,7 @@ group_members:
 - 악몽 (Nightmare)
 - 일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "VA/DoD: Chronic Insomnia Disorder and Obstructive Sleep Apnea (2025) | https://www.healthquality.va.gov/guidelines/cd/insomnia/"
-  - "AASM: Treatment of Restless Legs Syndrome and Periodic Limb Movement Disorder (2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/"
-  - "AASM: Management of REM Sleep Behavior Disorder (2023) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10071384/"
+sources: ["VA/DoD: Chronic Insomnia Disorder and Obstructive Sleep Apnea (2025) | https://www.healthquality.va.gov/guidelines/cd/insomnia/", "AASM: Treatment of Restless Legs Syndrome and Periodic Limb Movement Disorder (2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/", "AASM: Management of REM Sleep Behavior Disorder (2023) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10071384/"]
 ---
 # 수면 관련 장애
 
@@ -72,7 +69,3 @@ AASM 2025 하지불안증후군 권고는 철 결핍·유발 요인 교정과 ga
 - [[일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)]]
 
 ## 참고 자료
-
-- [VA/DoD: Chronic Insomnia Disorder and Obstructive Sleep Apnea (2025)](https://www.healthquality.va.gov/guidelines/cd/insomnia/)
-- [AASM: Treatment of Restless Legs Syndrome and Periodic Limb Movement Disorder (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/)
-- [AASM: Management of REM Sleep Behavior Disorder (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10071384/)

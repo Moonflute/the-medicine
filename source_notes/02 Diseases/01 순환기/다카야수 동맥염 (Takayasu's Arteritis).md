@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["2021 ACR/Vasculitis Foundation 거대세포동맥염·다카야수동맥염 진료지침 | https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632", "2018 EULAR 대혈관염 관리 권고 | https://pubmed.ncbi.nlm.nih.gov/31270110/"]
 ---
 분과 : [[순환기]]
 
@@ -63,5 +64,5 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [2021 ACR/Vasculitis Foundation 거대세포동맥염·다카야수동맥염 진료지침](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24632), [2018 EULAR 대혈관염 관리 권고](https://pubmed.ncbi.nlm.nih.gov/31270110/); 다카야수 동맥염의 영상 기반 평가, 초기 병용 면역억제 및 재관류 시점 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. 2021 ACR/Vasculitis Foundation 거대세포동맥염·다카야수동맥염 진료지침, 2018 EULAR 대혈관염 관리 권고; 다카야수 동맥염의 영상 기반 평가, 초기 병용 면역억제 및 재관류 시점 원칙을 대조. 2026-09-14 기존 목차 내 보완.
 - 삼성서울병원 메뉴얼

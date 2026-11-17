@@ -14,12 +14,7 @@ CC:
 clinical_priority: tier_1
 content_updated_at: "2026-11-17"
 guideline_year: "2026"
-sources:
-- "ADA Standards of Care in Diabetes (2026), 제2장 진단·제9장 약물치료 | https://professional.diabetes.org/standards-of-care"
-- "ADA 제9장 Pharmacologic Approaches to Glycemic Treatment (2026) | https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment"
-- "ADA 제2장 Diagnosis and Classification (2026) | https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes"
-- "대한당뇨병학회 당뇨병 진료지침 (2025): 국내 적용 | https://diabetes.or.kr/bbs/?code=guide"
-- "KDIGO CKD 지침 (2024): 동반 콩팥병 | https://kdigo.org/guidelines/ckd-evaluation-and-management/"
+sources: ["ADA Standards of Care in Diabetes (2026), 제2장 진단·제9장 약물치료 | https://professional.diabetes.org/standards-of-care", "ADA 제9장 Pharmacologic Approaches to Glycemic Treatment (2026) | https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment", "ADA 제2장 Diagnosis and Classification (2026) | https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes", "대한당뇨병학회 당뇨병 진료지침 (2025): 국내 적용 | https://diabetes.or.kr/bbs/?code=guide", "KDIGO CKD 지침 (2024): 동반 콩팥병 | https://kdigo.org/guidelines/ckd-evaluation-and-management/", "ADA 2026 | https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/"]
 disease_family: diabetes
 population: "general"
 document_role: group_overview
@@ -94,7 +89,7 @@ guideline_review_status: primary_source_reviewed
 - DKA/HHS, 중증 저혈당, 심한 탈수·전해질 이상, 급성 신손상, 중증 감염, 임신·수술·새로운 제1형 의심은 응급실 또는 입원 평가를 고려한다.
 - 반복 저혈당, 조절되지 않는 합병증, 빠른 신기능 저하, 족부궤양·감염, 시력 저하·유리체 출혈, 진단이 불명확한 경우 내분비·신장·안과·신경·족부 전문과에 의뢰한다.
 
-- **인슐린·신기능 분기**: 제2형에서 HbA1c >10% 또는 혈당 ≥300 mg/dL, 증상성 고혈당·체중 감소·케톤증이면 인슐린을 조기에 고려한다. Metformin은 eGFR <45에서 신규 시작을 피하고 기존 투여량을 줄이며, <30 mL/min/1.73m²에서 중단한다. 급성 신손상·탈수·저산소증 때는 일시 중단을 검토한다. [ADA 2026](https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/)
+- **인슐린·신기능 분기**: 제2형에서 HbA1c >10% 또는 혈당 ≥300 mg/dL, 증상성 고혈당·체중 감소·케톤증이면 인슐린을 조기에 고려한다. Metformin은 eGFR <45에서 신규 시작을 피하고 기존 투여량을 줄이며, <30 mL/min/1.73m²에서 중단한다. 급성 신손상·탈수·저산소증 때는 일시 중단을 검토한다.
 
 ## 6. 예후 및 합병증
 - 신장: 제2형은 진단 시, 제1형은 발병 후 일정 기간이 지난 뒤 eGFR와 UACR를 최소 매년 확인하고 위험도에 따라 더 자주 시행한다.
@@ -138,9 +133,3 @@ guideline_review_status: primary_source_reviewed
 - [[제2형 당뇨병 (Type 2 Diabetes Mellitus)]]
 
 ## 참고 가이드라인
-
-- [ADA Standards of Care in Diabetes (2026), 제2장 진단·제9장 약물치료](https://professional.diabetes.org/standards-of-care)
-- [ADA 제9장 Pharmacologic Approaches to Glycemic Treatment (2026)](https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment)
-- [ADA 제2장 Diagnosis and Classification (2026)](https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes)
-- [대한당뇨병학회 당뇨병 진료지침 (2025): 국내 적용](https://diabetes.or.kr/bbs/?code=guide)
-- [KDIGO CKD 지침 (2024): 동반 콩팥병](https://kdigo.org/guidelines/ckd-evaluation-and-management/)

@@ -9,11 +9,7 @@ CC: []
 preprocessing_required: x
 document_role: group_overview
 content_updated_at: '2026-10-07'
-sources:
-- "International Urticaria Guideline (2026) | https://onlinelibrary.wiley.com/doi/10.1111/all.70210"
-- "WAO 유전성 혈관부종 지침 2025판 (2026 출판) | https://pmc.ncbi.nlm.nih.gov/articles/PMC13184495/"
-- "WAO/EAACI HAE 지침 2021 개정판 (2022 출판) | https://pmc.ncbi.nlm.nih.gov/articles/PMC9023902/"
-- "AAAAI/ACAAI Anaphylaxis practice parameter (2023) | https://www.allergyparameters.org/parameters-and-guidelines/anaphylaxis/2023-anaphylaxis-update"
+sources: ["International Urticaria Guideline (2026) | https://onlinelibrary.wiley.com/doi/10.1111/all.70210", "WAO 유전성 혈관부종 지침 2025판 (2026 출판) | https://pmc.ncbi.nlm.nih.gov/articles/PMC13184495/", "WAO/EAACI HAE 지침 2021 개정판 (2022 출판) | https://pmc.ncbi.nlm.nih.gov/articles/PMC9023902/", "AAAAI/ACAAI Anaphylaxis practice parameter (2023) | https://www.allergyparameters.org/parameters-and-guidelines/anaphylaxis/2023-anaphylaxis-update"]
 group_members:
 - 피부묘기증 (Dermatographism)
 - 한랭 두드러기 (Cold Urticaria)
@@ -73,8 +69,3 @@ HAE 발작에는 C1-INH·icatibant 등 기전별 응급 치료를 사용한다. 
 - [[음식 의존 운동 유발 아나필락시스 (Food-Dependent Exercise-Induced Anaphylaxis)]]
 
 ## 참고 가이드라인
-
-- [International Urticaria Guideline (2026)](https://onlinelibrary.wiley.com/doi/10.1111/all.70210)
-- [WAO 유전성 혈관부종 지침 2025판 (2026 출판)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13184495/)
-- [WAO/EAACI HAE 지침 2021 개정판 (2022 출판)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9023902/)
-- [AAAAI/ACAAI Anaphylaxis practice parameter (2023)](https://www.allergyparameters.org/parameters-and-guidelines/anaphylaxis/2023-anaphylaxis-update)

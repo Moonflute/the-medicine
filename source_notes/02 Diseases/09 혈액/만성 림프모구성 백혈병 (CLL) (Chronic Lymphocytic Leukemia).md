@@ -24,7 +24,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["NCCN Guidelines® Insights: Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma, Version 2.2026. | https://pubmed.ncbi.nlm.nih.gov/41825137/"]
+sources: ["NCCN Guidelines® Insights: Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma, Version 2.2026. | https://pubmed.ncbi.nlm.nih.gov/41825137/", "iwCLL 치료 시작 기준 | https://ashpublications.org/blood/article/131/25/2745/37141/iwCLL-guidelines-for-diagnosis-indications-for"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -61,7 +61,7 @@ content_updated_at: "2026-11-17"
 - 리히터 변형: 확산성 거대 B세포 림프종으로의 조직학적 변형 시 예후가 불량하며, 클론 연관성 분석을 통해 적절한 치료 옵션 선택 필요.
 
 - **관찰에서 치료로 전환:** 질병성 골수부전의 진행(Hb **<10 g/dL**, 혈소판 **<100,000/μL**가 대표 기준), 증상성/진행성 비장·림프절 종대, 조절되지 않는 자가면역 혈구감소, 증상성 장기 침범 또는 질병 관련 B증상이면 치료를 검토한다. 안정적인 혈소판 <100,000만으로 자동 시작하지 않는다.
-- 감염·스테로이드 등 다른 원인을 제외한 **2개월 내 림프구 ≥50% 증가 또는 배가시간 <6개월**도 적응증이다. 절대 림프구 수가 높거나 TP53 변이가 있다는 사실만으로 무증상 안정 환자를 치료하지 않는다. 치료 전 TP53/del(17p)·IGHV와 심혈관·출혈·신장 위험을 평가해 BTKi와 venetoclax 기반 요법을 선택하며, venetoclax는 종양부하·신기능에 맞는 TLS 예방과 단계 증량이 필수다. [iwCLL 치료 시작 기준](https://ashpublications.org/blood/article/131/25/2745/37141/iwCLL-guidelines-for-diagnosis-indications-for)
+- 감염·스테로이드 등 다른 원인을 제외한 **2개월 내 림프구 ≥50% 증가 또는 배가시간 <6개월**도 적응증이다. 절대 림프구 수가 높거나 TP53 변이가 있다는 사실만으로 무증상 안정 환자를 치료하지 않는다. 치료 전 TP53/del(17p)·IGHV와 심혈관·출혈·신장 위험을 평가해 BTKi와 venetoclax 기반 요법을 선택하며, venetoclax는 종양부하·신기능에 맞는 TLS 예방과 단계 증량이 필수다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 완치가 어려운 만성 질환으로 증상 완화 및 생존 연장이 목표.

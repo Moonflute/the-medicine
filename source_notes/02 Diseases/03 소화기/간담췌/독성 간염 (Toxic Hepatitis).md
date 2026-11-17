@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["AASLD 약물성 간손상 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9936988/", "EASL DILI 지침 2019 | https://easl.eu/wp-content/uploads/2019/04/EASL-CPG-Drug-induced-liver-injury-2019-04.pdf"]
 ---
 분과 : [[소화기]]
 
@@ -70,7 +71,6 @@ reviewed_at: "2026-10-08"
 - 약물·보조제 복용 전 의료진 상담을 권고하여 재노출을 방지하고 예방 관리 강화
 
 - 간경변이 없던 환자에서 급성 간손상과 **INR ≥1.5 및 의식 변화/뇌증**이 함께 나타나면 급성 간부전으로 긴급 이식센터 평가를 진행한다. 이식 예후 점수 충족 여부를 기다리며 전원을 늦추지 않는다.
-- 근거: [AASLD 약물성 간손상 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC9936988/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -85,5 +85,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [AASLD 약물·생약·보충제 간손상 지침 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC9936988/)
-- [EASL DILI 지침 2019](https://easl.eu/wp-content/uploads/2019/04/EASL-CPG-Drug-induced-liver-injury-2019-04.pdf)

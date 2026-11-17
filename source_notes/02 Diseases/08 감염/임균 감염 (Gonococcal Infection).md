@@ -13,6 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm"]
 ---
 분과 : [[감염]]
 
@@ -37,7 +38,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - **단순 요로생식기·직장·인두 감염**: CDC 성인 기준 ceftriaxone 500 mg IM 1회(<150 kg), ≥150 kg이면 1 g IM 1회다. 국내 지침·내성과 적용 용량을 확인한다. 클라미디아가 배제되지 않으면 doxycycline 100 mg 하루 2회 7일을 추가하며, 임신은 적합한 대체 약제를 선택한다.
 - **치료 확인**: 권장 치료를 완료한 단순 요로생식기·직장 감염은 일률적인 완치검사가 필요하지 않지만, 인두 감염은 7–14일 후 배양/NAAT로 확인한다. 지속 증상·실패 의심은 재투여 전 배양·감수성과 재노출을 평가한다. 재감염 검사는 약 3개월에 시행한다.
-- **다른 경로**: 파종성 감염·관절염·심내막염은 단회 IM 경로가 아니라 입원/정주 기반 치료를 평가한다. 최근 파트너 치료를 연결하고 치료 후 7일 및 파트너 치료 완료까지 성접촉을 피하도록 교육한다. [CDC](https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm)
+- **다른 경로**: 파종성 감염·관절염·심내막염은 단회 IM 경로가 아니라 입원/정주 기반 치료를 평가한다. 최근 파트너 치료를 연결하고 치료 후 7일 및 파트너 치료 완료까지 성접촉을 피하도록 교육한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 불임, 골반 염증성 질환(PID), 파종성 임균 감염 (관절염, 피부 병변) 등의 합병증이 발생할 수 있다.

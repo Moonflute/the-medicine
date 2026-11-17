@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Global Consensus on Nutritional Rickets | https://pmc.ncbi.nlm.nih.gov/articles/PMC4880117/"]
 ---
 분과 : [[소아청소년과]]
 
@@ -49,7 +50,6 @@ reviewed_at: "2026-07-30"
 
 - **영양성 구루병 치료량**: 단순 검사상 부족과 임상·영상으로 확인한 구루병을 구분한다. 구루병은 국제 합의문 기준 비타민 D를 **최소 2,000 IU/일, 최소 3개월** 투여하고, 식이와 보충제를 합하여 칼슘 **500 mg/일**을 확보한다. 연령·중증도에 따라 더 높은 비타민 D 용량을 선택하고 약 3개월에 생화학·임상 반응을 재평가한다. 교정 후 영아 400 IU/일, 1세 이후 600 IU/일 등의 유지 섭취로 전환한다.
 
-근거: [Global Consensus on Nutritional Rickets](https://pmc.ncbi.nlm.nih.gov/articles/PMC4880117/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 치료 시 정상적인 뼈 성장 회복 가능.

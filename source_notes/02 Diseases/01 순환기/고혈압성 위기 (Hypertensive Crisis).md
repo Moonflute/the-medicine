@@ -16,8 +16,7 @@ CC:
 - 흉통
 - 호흡곤란
 - 시야장애
-sources:
-- "2025 AHA/ACC High Blood Pressure Guideline | https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know"
+sources: ["2025 AHA/ACC High Blood Pressure Guideline | https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know", "대동맥 지침 | https://www.jacc.org/doi/10.1016/j.jacc.2022.08.004"]
 clinical_priority: tier_1
 ---
 # 고혈압성 위기
@@ -33,7 +32,7 @@ clinical_priority: tier_1
 ## 처치 원칙
 - 혈압 수치만이 아니라 급성 뇌·심장·대동맥·신장·망막 손상 유무로 정주 치료와 입원을 결정한다. 급성 장기손상이 없으면 반복 측정, 유발 약물·통증·복약 누락 교정, 경구약 조정과 조기 추적이 기본이다.
 - 대동맥박리·뇌졸중·임신 관련 응급 등 별도 목표가 없는 고혈압성 응급에서는 일반적으로 첫 1시간 평균동맥압 감소를 20–25% 이내로 제한하고, 안정적이면 다음 2–6시간에 약 160/100–110 mmHg를 목표로 단계적으로 낮춘다. 정상 혈압까지 즉시 낮추지 않는다.
-- 박리는 심박수 60–80회/분과 장기 관류가 유지되는 수축기혈압 <120 mmHg를 목표로 β차단을 우선한다. 급성 뇌졸중은 재관류 여부와 출혈성/허혈성 병형의 별도 목표를 따른다. [AHA/ACC 2025](https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know), [대동맥 지침](https://www.jacc.org/doi/10.1016/j.jacc.2022.08.004)
+- 박리는 심박수 60–80회/분과 장기 관류가 유지되는 수축기혈압 <120 mmHg를 목표로 β차단을 우선한다. 급성 뇌졸중은 재관류 여부와 출혈성/허혈성 병형의 별도 목표를 따른다.
 
 ## 관련 문서
 - [[고혈압 (Hypertension)]]

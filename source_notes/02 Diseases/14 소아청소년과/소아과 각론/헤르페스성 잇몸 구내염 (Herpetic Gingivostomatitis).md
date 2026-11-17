@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["RCH HSV gingivostomatitis 지침 | https://www.rch.org.au/clinicalguide/guideline_index/HSV_Gingivostomatitis/"]
 ---
 분과 : [[소아청소년과]]
 
@@ -46,7 +47,6 @@ reviewed_at: "2026-07-30"
 * **위생 및 전파 방지**: 환아의 식기, 수건 등 개인 물품을 분리하고, 병변 부위와의 직접적인 접촉을 피하여 가족 내 전파를 예방함.
 * **경과 관찰**: 증상 악화 여부 및 탈수 징후를 면밀히 관찰하며, 2주 이상 증상이 지속되거나 합병증 의심 시 재평가함.
 
-근거: [RCH HSV gingivostomatitis 지침](https://www.rch.org.au/clinicalguide/guideline_index/HSV_Gingivostomatitis/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 대부분 2~3주 내에 흉터 없이 자연 치유되는 자가 제한적 질환

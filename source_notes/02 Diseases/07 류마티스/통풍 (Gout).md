@@ -14,8 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-17"
 guideline_year: "2020"
-sources:
-- 'ACR Guideline for the Management of Gout | https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/'
+sources: ["ACR Guideline for the Management of Gout | https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/", "Neogi T, et al. 2015 Gout Classification Criteria: An ACR/EULAR Collaborative Initiative | https://pmc.ncbi.nlm.nih.gov/articles/PMC4566153/", "ACR 2012 Part II | https://pmc.ncbi.nlm.nih.gov/articles/PMC3662546/"]
 disease_family: gout
 population: adult
 reviewed_at: "2026-07-30"
@@ -103,7 +102,7 @@ review_status: "guideline_enriched"
   - **Benzbromarone**(uricosuric drug): 요산배설촉진제이다. 신기능 저하 환자에서의 적용과 용량은 최신 허가사항 및 개별 위험을 확인해 결정한다.
 
 - **ULT 시작 기준**: 토피, 통풍성 영상 손상 또는 연 ≥2회 발작이면 권고한다. 첫 발작이라도 CKD ≥3단계, 요산 >9 mg/dL 또는 요로결석이면 시작을 논의한다. 무증상 고요산혈증은 이 기준과 구분한다.
-- **약제 변경 기준**: 한국인에서는 allopurinol 시작 전 HLA-B*58:01 검사를 고려하며 양성 또는 중증 과민반응 병력이면 대체제를 선택한다. 목표 미달이면 저용량 시작 후 적정하고, febuxostat 사용 중 심혈관 사건 또는 심혈관질환 병력이 있으면 대안과 이득·위험을 논의한다. [ACR 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/)
+- **약제 변경 기준**: 한국인에서는 allopurinol 시작 전 HLA-B*58:01 검사를 고려하며 양성 또는 중증 과민반응 병력이면 대체제를 선택한다. 목표 미달이면 저용량 시작 후 적정하고, febuxostat 사용 중 심혈관 사건 또는 심혈관질환 병력이 있으면 대안과 이득·위험을 논의한다.
 
 ## 6. 예후 및 합병증
 - 적절한 치료를 하지 않으면 만성 통풍성 관절염으로 진행하여 관절 변형 및 기능 장애를 초래할 수 있다.
@@ -116,8 +115,4 @@ Last updated :
 2026-09-15 — Samsung 내과학 8판 OCR 963–965쪽 통합 (Codex)
 
 출처:
-- ACR Guideline for the Management of Gout | https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/
-- Neogi T, et al. 2015 Gout Classification Criteria: An ACR/EULAR Collaborative Initiative | https://pmc.ncbi.nlm.nih.gov/articles/PMC4566153/
 - 삼성서울병원 메뉴얼
-
-- 급성 발작 스테로이드 약제·용량 보완: [ACR 2012 Part II](https://pmc.ncbi.nlm.nih.gov/articles/PMC3662546/).

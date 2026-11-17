@@ -23,6 +23,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["ESGE 담도 스텐트 지침 2026 | https://www.esge.com/assets/downloads/pdfs/guidelines/2026_a-2921-6492.pdf", "ASCO 보조요법 지침 | https://doi.org/10.1200/JCO.18.02178", "ESMO 담도암 업데이트 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/", "NCI 담관암 치료 PDQ | https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq", "ESMO TOPAZ-1 임상유용성 요약 | https://www.esmo.org/guidelines/esmo-mcbs/esmo-mcbs-scorecards/download/626063"]
 ---
 ## 1. 개요
 - **정의**: 담관 상피세포에서 기원하는 악성 종양.
@@ -64,11 +65,10 @@ reviewed_at: "2026-10-08"
 ## 5. 치료
 - 다학제 팀 회의를 통해 수술 가능성을 평가하고, 가능 시 종양 위치에 맞는 근치적 절제술(간 절제·담관 절제·췌십이지장절제 등) 계획.
 - 절제 불가·재발·전이 질환은 수행능력, 담즙 배액 상태와 장기기능을 평가해 젬시타빈·시스플라틴 기반 전신치료에 면역관문억제제(두르발루맙 또는 펨브롤리주맙)를 병합하는 1차 치료를 고려한다. 치료 전후에는 혈액학적·신장·간기능 및 면역관련 이상반응을 모니터링하고, 분자 표적 이상·치료 이력에 따라 후속 표적치료 또는 임상시험을 검토한다.
-- **담도 배액**: 절제 가능한 간문부 담관암에서 수술 전 배액을 일률적으로 하지 않는다. 담관염, 심한 증상·황달, 수술 지연이나 향후 남길 간의 용적·기능 등 실제 적응증을 검토한다. 배액이 필요하면 폐쇄 위치와 향후 남길 간을 확인한 뒤 내시경·경피 경로와 배액 범위를 다학제로 정한다. 특정 빌리루빈 숫자만으로 경로·시기를 정하지 않는다. [ESGE 담도 스텐트 지침 2026](https://www.esge.com/assets/downloads/pdfs/guidelines/2026_a-2921-6492.pdf)
+- **담도 배액**: 절제 가능한 간문부 담관암에서 수술 전 배액을 일률적으로 하지 않는다. 담관염, 심한 증상·황달, 수술 지연이나 향후 남길 간의 용적·기능 등 실제 적응증을 검토한다. 배액이 필요하면 폐쇄 위치와 향후 남길 간을 확인한 뒤 내시경·경피 경로와 배액 범위를 다학제로 정한다. 특정 빌리루빈 숫자만으로 경로·시기를 정하지 않는다.
 
 - **절제 후**에는 회복 상태와 병리를 평가해 **capecitabine 6개월** 보조요법을 제안한다. 간외담관암에서 R1 절제이면 항암방사선 추가 여부를 다학제로 검토한다.
 - **진행성 병변의 약제 전환**: 전신치료 시작 전 또는 1차 치료 중 분자검사를 확보한다. 이전 전신치료 후 진행한 FGFR2 융합/재배열 간내담관암은 FGFR 억제제, IDH1 변이는 ivosidenib 등 해당 표적 치료를 검토한다. BRAF V600E, HER2, MSI-H/dMMR 등도 후속 선택을 바꾸므로 검사 결과·이전 치료·허가 범위를 함께 적용한다.
-- 근거: [ASCO 보조요법 지침](https://doi.org/10.1200/JCO.18.02178), [ESMO 담도암 업데이트 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11846563/).
 
 ## 6. 예후 및 합병증
 - **예후**: 진단 시 진행성인 경우가 많아 예후가 불량함.
@@ -82,5 +82,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [NCI 담관암 치료 PDQ](https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq)
-- [ESMO TOPAZ-1 임상유용성 요약](https://www.esmo.org/guidelines/esmo-mcbs/esmo-mcbs-scorecards/download/626063)

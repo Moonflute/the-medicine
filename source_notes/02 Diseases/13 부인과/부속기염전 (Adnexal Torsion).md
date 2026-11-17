@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACOG 부속기 염전 | https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/08/adnexal-torsion-in-adolescents"]
 ---
 분과 : [[부인과]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 - **원인 병변 제거 및 고정**: 염전의 원인이 되는 난소 낭종이나 종양을 제거하고, 재발 방지를 위해 필요한 경우 난소 고정술(oophoropexy)을 병행함.
 - **절제술의 적응증**: 조직이 붕괴되어 보존할 수 없는 경우 등 불가피한 상황이나 악성 위험을 종합해 절제를 결정한다. 부종이 심하면 동시에 낭종절제를 강행하지 않고 염전 해소 후 추적·지연 수술을 고려한다.
 
-- **수술 지연 금지**: 도플러 혈류가 보이거나 통증이 일시적으로 줄어도 임상적으로 의심되면 배제되지 않는다. [ACOG 부속기 염전](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/08/adnexal-torsion-in-adolescents)
+- **수술 지연 금지**: 도플러 혈류가 보이거나 통증이 일시적으로 줄어도 임상적으로 의심되면 배제되지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 수술 시 난소 기능 보존 가능.

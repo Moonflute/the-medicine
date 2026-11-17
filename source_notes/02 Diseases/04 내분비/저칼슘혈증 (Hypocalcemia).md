@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Society for Endocrinology | https://pmc.ncbi.nlm.nih.gov/articles/PMC5314808/"]
 ---
 분과 : [[내분비]]
 
@@ -54,7 +55,7 @@ reviewed_at: "2026-07-30"
 - 혈청 칼슘·인·PTH·비타민 D·마그네슘을 1–3개월마다 재검사하여 목표 범위(이온화 칼슘 정상, PTH 적절) 유지 여부를 확인하고, 필요 시 용량을 조절한다.
 - 증상이 지속되거나 혈청 칼슘이 목표치에 도달하지 않을 경우 내분비 전문의에게 의뢰하여 원인 재평가 및 추가 치료(예: 활성형 비타민 D 제제, 조절된 마그네슘 보충) 계획을 수립한다.
 
-- **정주·경구 분기**: 성인 보정 Ca <1.9 mmol/L(약 7.6 mg/dL)이거나 수치와 무관하게 테타니·경련·부정맥 등 증상이 있으면 정주 치료를 고려한다. 무증상 경증은 경구 칼슘과 원인별 vitamin D 치료를 사용한다. 중환자·산염기 이상에서는 보정 총 Ca보다 이온화 Ca를 함께 평가한다. [Society for Endocrinology](https://pmc.ncbi.nlm.nih.gov/articles/PMC5314808/)
+- **정주·경구 분기**: 성인 보정 Ca <1.9 mmol/L(약 7.6 mg/dL)이거나 수치와 무관하게 테타니·경련·부정맥 등 증상이 있으면 정주 치료를 고려한다. 무증상 경증은 경구 칼슘과 원인별 vitamin D 치료를 사용한다. 중환자·산염기 이상에서는 보정 총 Ca보다 이온화 Ca를 함께 평가한다.
 
 ## 6. 예후 및 합병증
 - 만성 저칼슘혈증 시 백내장, 기저핵 석회화 발생 가능.

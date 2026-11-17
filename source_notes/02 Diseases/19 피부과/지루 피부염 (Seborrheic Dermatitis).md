@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAD | https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-treatment"]
 ---
 분과 : [[피부과]]
 
@@ -42,7 +43,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - 두피는 ketoconazole·ciclopirox 등 항진균 샴푸, 얼굴·몸통은 국소 항진균 크림을 기본으로 한다. 호전 뒤 주기적인 유지 사용으로 재발을 줄인다.
 - 염증·가려움이 뚜렷하면 **짧은 기간 국소 corticosteroid**를 추가한다. 얼굴·접힘 부위의 반복 치료는 calcineurin 억제제 등 대체제를 검토하고 고강도 스테로이드를 장기 사용하지 않는다.
-- 국소 항진균제만으로 충분하지 않거나 반복 스테로이드가 필요하면 허가 연령에 맞는 roflumilast 등 비스테로이드 치료를 검토한다. 경구 항진균제는 모든 재발 환자의 다음 단계가 아니며, 광범위·난치성에서 진단·면역저하를 재평가한 뒤 선택한다. [AAD](https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-treatment)
+- 국소 항진균제만으로 충분하지 않거나 반복 스테로이드가 필요하면 허가 연령에 맞는 roflumilast 등 비스테로이드 치료를 검토한다. 경구 항진균제는 모든 재발 환자의 다음 단계가 아니며, 광범위·난치성에서 진단·면역저하를 재평가한 뒤 선택한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 만성적인 재발성 질환으로 완치보다는 증상 조절이 목표.

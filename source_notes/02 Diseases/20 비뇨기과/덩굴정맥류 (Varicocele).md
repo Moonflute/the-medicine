@@ -14,7 +14,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Varicocele Treatment in Azoospermia Before Artificial Reproductive Techniques: Critical Considerations by the EAU Guidelines Panel on Sexual and Reproductive Health. | https://pubmed.ncbi.nlm.nih.gov/41444075/"]
+sources: ["Varicocele Treatment in Azoospermia Before Artificial Reproductive Techniques: Critical Considerations by the EAU Guidelines Panel on Sexual and Reproductive Health. | https://pubmed.ncbi.nlm.nih.gov/41444075/", "AUA/ASRM 2024 | https://www.auanet.org/documents/Guidelines/PDF/2024%20Guidelines/Male%20Infertility%20Unabridged%20Final.pdf", "EAU 소아 정계정맥류 | https://uroweb.org/guidelines/paediatric-urology/chapter/varicocele-in-children-and-adolescents"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -24,7 +24,6 @@ content_updated_at: "2026-11-18"
 - **정의:** 고환의 혈액을 배출하는 정계정맥(pampiniform plexus)이 비정상적으로 확장되고 늘어난 상태.
 - **원인:** 정계정맥 내 판막 부전, 좌측 내정계정맥이 좌측 신정맥으로 유입되는 해부학적 구조(Nutcracker effect 등)로 인한 정맥압 상승 및 혈류 역류.
 - **기전:** 정맥 울혈로 인한 고환 내 온도 상승, 산화 스트레스 증가, 저산소증 및 독성 대사산물 역류 등이 정자 생성 및 기능 저하를 유발.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -43,8 +42,8 @@ content_updated_at: "2026-11-18"
 
 ## 5. 치료 (Treatment)
 - 성인 불임에서는 **촉지되는 임상적 정계정맥류+비정상 정액검사+임신 시도**가 수술을 검토하는 핵심 조합이다. 영상에서만 보이는 무증상 정계정맥류나 정상 정액검사를 불임 개선 목적으로 일률적으로 수술하지 않는다.
-- 보존 치료에도 지속되는 통증은 다른 원인을 배제한 뒤 수술/색전술을 논의한다. NOA는 교정 후 생식 결과 개선 근거가 불충분하므로 정자 채취·보조생식 지연 가능성과 함께 상담한다. [AUA/ASRM 2024](https://www.auanet.org/documents/Guidelines/PDF/2024%20Guidelines/Male%20Infertility%20Unabridged%20Final.pdf)
-- 청소년은 반대측보다 **>2 mL 또는 20% 작은 고환**이 6개월 간격 두 평가에서 지속되면 수술을 제안한다. 일시적 비대칭만으로 결정하지 않으며 지속 통증·양측 촉지 병변·정액 이상도 고려한다. [EAU 소아 정계정맥류](https://uroweb.org/guidelines/paediatric-urology/chapter/varicocele-in-children-and-adolescents)
+- 보존 치료에도 지속되는 통증은 다른 원인을 배제한 뒤 수술/색전술을 논의한다. NOA는 교정 후 생식 결과 개선 근거가 불충분하므로 정자 채취·보조생식 지연 가능성과 함께 상담한다.
+- 청소년은 반대측보다 **>2 mL 또는 20% 작은 고환**이 6개월 간격 두 평가에서 지속되면 수술을 제안한다. 일시적 비대칭만으로 결정하지 않으며 지속 통증·양측 촉지 병변·정액 이상도 고려한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 수술 후 정액 지표 개선 및 자연 임신율 향상 기대 가능.

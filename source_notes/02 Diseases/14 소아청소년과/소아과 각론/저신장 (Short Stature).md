@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Pediatric Endocrine Society GH 지침 | https://doi.org/10.1159/000452150"]
 ---
 분과 : [[소아청소년과]]
 
@@ -51,7 +52,6 @@ reviewed_at: "2026-07-30"
 
 - **GH 반응에 따른 조절·종료**: 치료 후 3–6개월마다 성장속도, 복약, 골연령과 IGF-1을 평가한다. IGF-1이 연령·사춘기 정상범위를 넘으면 용량을 줄이며, 반응 부족을 곧바로 증량으로 처리하지 않고 진단·영양·갑상선 기능·투약을 재검토한다. 성숙기에 성장속도가 **연간 2–2.5 cm 미만**이면 소아 성장촉진 용량은 종료하고, 지속성 GH 결핍은 성인 이행기 기준으로 재평가한다. 정상 성장속도의 가족성 저신장에 자동 처방하지 않는다.
 
-근거: [Pediatric Endocrine Society GH 지침](https://doi.org/10.1159/000452150).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 원인 질환 및 치료 시점에 따라 예후 상이

@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["RCH 열성경련 지침 | https://www.rch.org.au/clinicalguide/guideline_index/Febrile_seizure/"]
 ---
 분과 : [[소아청소년과]]
 
@@ -47,7 +48,6 @@ reviewed_at: "2026-07-30"
 
 - **예방약 여부**: 짧게 끝나고 정상 의식·신경 상태로 회복한 단순 열성경련에는 매일 복용하는 항경련제나 해열제를 이용한 재발 예방을 일반적으로 시행하지 않는다. 복합형, 회복 지연, 수막자극 또는 반복 장시간 발작은 추가 평가·입원 및 가정용 구조약 계획 대상이다.
 
-근거: [RCH 열성경련 지침](https://www.rch.org.au/clinicalguide/guideline_index/Febrile_seizure/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **재발 위험 인자**: 어린 연령(1세 미만), 복합 열성 경련, 가족력, 낮은 발열 온도

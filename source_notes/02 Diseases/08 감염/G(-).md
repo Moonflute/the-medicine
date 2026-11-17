@@ -23,11 +23,7 @@ group_members:
 clinical_priority: tier_1
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
-sources:
-- "IDSA — Treatment of Antimicrobial Resistant Gram-Negative Infections (2026) | https://www.idsociety.org/practice-guideline/amr-guidance/"
-- "CDC — Clinical Overview of Brucellosis (2026 update) | https://www.cdc.gov/brucellosis/hcp/clinical-overview/index.html"
-- "CDC — Gonococcal Infections Among Adolescents and Adults, STI Guidelines (2021) | https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm"
-- "Surviving Sepsis Campaign — Adult Guidelines (2026) | https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines"
+sources: ["IDSA — Treatment of Antimicrobial Resistant Gram-Negative Infections (2026) | https://www.idsociety.org/practice-guideline/amr-guidance/", "CDC — Clinical Overview of Brucellosis (2026 update) | https://www.cdc.gov/brucellosis/hcp/clinical-overview/index.html", "CDC — Gonococcal Infections Among Adolescents and Adults, STI Guidelines (2021) | https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm", "Surviving Sepsis Campaign — Adult Guidelines (2026) | https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines"]
 ---
 # G(-)
 
@@ -77,8 +73,3 @@ sources:
 - [[장티푸스 (Typhoid Fever)]]
 
 ## 참고 가이드라인
-
-- [IDSA — Treatment of Antimicrobial Resistant Gram-Negative Infections (2026)](https://www.idsociety.org/practice-guideline/amr-guidance/)
-- [CDC — Clinical Overview of Brucellosis (2026 update)](https://www.cdc.gov/brucellosis/hcp/clinical-overview/index.html)
-- [CDC — Gonococcal Infections Among Adolescents and Adults, STI Guidelines (2021)](https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.htm)
-- [Surviving Sepsis Campaign — Adult Guidelines (2026)](https://www.sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-adult-guidelines)

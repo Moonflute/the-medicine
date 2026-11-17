@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ISTH 2025 TTP 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13470878/"]
 ---
 분과 : [[혈액]]
 
@@ -50,7 +51,7 @@ reviewed_at: "2026-07-30"
 - 혈액내과 전문의와 협진하고, 치료 후 1~2주 간격으로 혈소판 수와 LDH 등을 추적 검사하여 재발 여부를 확인한다.
 
 - **결과 대기 중 처치:** 혈장 투여·교환 전 ADAMTS13 검체를 채취하되 임상 가능성이 높으면 결과를 기다리지 않고 TPE+steroid를 시작한다. **ADAMTS13 <10%**는 TTP를 강하게 뒷받침하며, 항체·유전 평가로 면역성과 선천성을 구분한다. 혈소판감소·MAHA 외의 전형적 5징후가 모두 갖춰질 때까지 기다리지 않는다.
-- **아형별 유지:** 면역성 TTP의 caplacizumab은 혈소판이 회복되어도 ADAMTS13 저활성이 지속되는 상황에서 종료 시점을 신중히 판단하고 면역치료를 병행한다. **선천성 TTP 관해기**에는 ISTH 2025가 recombinant ADAMTS13 예방을 혈장 주입보다 우선 권고한다. 선천성 질환에 rituximab·steroid를 일률적으로 적용하지 않는다. 혈소판 수혈은 생명 위협 출혈 등 예외가 아니면 피한다. [ISTH 2025 TTP 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC13470878/)
+- **아형별 유지:** 면역성 TTP의 caplacizumab은 혈소판이 회복되어도 ADAMTS13 저활성이 지속되는 상황에서 종료 시점을 신중히 판단하고 면역치료를 병행한다. **선천성 TTP 관해기**에는 ISTH 2025가 recombinant ADAMTS13 예방을 혈장 주입보다 우선 권고한다. 선천성 질환에 rituximab·steroid를 일률적으로 적용하지 않는다. 혈소판 수혈은 생명 위협 출혈 등 예외가 아니면 피한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않으면 치명적이나, 적절한 치료 시 생존율이 매우 높음.

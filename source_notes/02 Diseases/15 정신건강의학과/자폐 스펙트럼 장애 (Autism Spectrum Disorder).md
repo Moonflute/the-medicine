@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional child and adolescent psychiatric disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE CG170 | https://www.nice.org.uk/guidance/cg170/chapter/recommendations"]
 disease_family: psychiatry_split
 parent_disease: 소아 정신 의학 (Child and Adolescent Psychiatric Disorders)
 relation_to_parent: subtype
@@ -49,7 +48,6 @@ relation_to_parent: subtype
 
 - **약물의 목표·중단 기준**: 사회적 의사소통 등 핵심 특성을 치료하려고 항정신병약을 일괄 처방하지 않는다. 통증·수면·환경 요인 교정과 행동중재로 부족하거나, 심한 공격성·자해 때문에 중재 자체가 불가능할 때 목표 행동을 정하고 단기 약물치료를 검토한다. 효과·부작용을 **3–4주**에 평가하고 **6주까지 임상적으로 중요한 반응이 없으면 중단**한다.
 
-근거: [NICE CG170](https://www.nice.org.uk/guidance/cg170/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 조기 개입 시 예후가 개선될 수 있으나, 평생에 걸쳐 기능적 지원이 필요할 수 있음.

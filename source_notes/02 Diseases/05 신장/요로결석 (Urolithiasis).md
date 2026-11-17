@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EAU 2026 | https://uroweb.org/guidelines/urolithiasis/chapter/guidelines"]
 ---
 ## 1. 개요
 - 정의: 신장, 요관, 방광, 요도 등 요로계에 소변 내 성분이 결정화되어 결석이 형성되는 질환
@@ -55,7 +56,7 @@ reviewed_at: "2026-07-30"
 - 충분한 수분 섭취(일일 소변량 2.5 L 목표)와 저염·적절한 칼슘·구연산 섭취를 권장해 재발을 예방한다.
 - 치료 후 3~6개월 간 정기적인 영상·대사 검사를 통해 결석 재발 여부와 신기능 변화를 모니터링한다.
 
-- **응급 감압·확정 치료 분기**: 감염된 폐쇄·무뇨는 크기와 관계없이 stent/PCN과 항생제를 우선하고 감염 해결 후 결석을 제거한다. 성인 신장 결석 >20 mm는 PCNL이 주된 1차 선택이며, 하극 >10 mm는 SWL의 낮은 배출률 때문에 RIRS/PCNL을 우선 검토한다. 그 외에는 위치·경도·해부·출혈 위험으로 SWL/URS를 선택한다. [EAU 2026](https://uroweb.org/guidelines/urolithiasis/chapter/guidelines)
+- **응급 감압·확정 치료 분기**: 감염된 폐쇄·무뇨는 크기와 관계없이 stent/PCN과 항생제를 우선하고 감염 해결 후 결석을 제거한다. 성인 신장 결석 >20 mm는 PCNL이 주된 1차 선택이며, 하극 >10 mm는 SWL의 낮은 배출률 때문에 RIRS/PCNL을 우선 검토한다. 그 외에는 위치·경도·해부·출혈 위험으로 SWL/URS를 선택한다.
 
 ## 6. 예후 및 합병증
 - 예방: 충분한 수분 섭취(일일 소변량 2.5L 목표), 저염식, 적절한 칼슘 섭취, 구연산 섭취

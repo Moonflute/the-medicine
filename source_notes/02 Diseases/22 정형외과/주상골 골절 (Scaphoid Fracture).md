@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["BSSH 주상골 골절 기준 | https://www.bssh.ac.uk/_userfiles/pages/files/professionals/Trauma%20standards/Scaphoid%20standards.pdf"]
 ---
 분과 : [[정형외과]]
 
@@ -44,7 +45,6 @@ reviewed_at: "2026-07-30"
 - **주상골 허리 골절의 전위 <2 mm 또는 원위부 골절**은 석고 고정으로 치료할 수 있다. 안정 골절에서는 반드시 엄지를 포함할 필요는 없으며 부위·유합에 따라 기간을 조정한다.
 - **허리 골절 >2 mm 전위, 전위가 있는 근위극 골절, 월상골 주위 탈구 동반**은 조기 수술 고정 대상이다. 약 2 mm 경계값, 근위극 무전위 골절, 불안정성은 CT와 전문 평가로 결정한다. 단순히 빠른 복귀 희망만으로 안정 골절을 모두 수술하지 않는다.
 - 임상·영상으로 유합을 확인한 뒤 부하를 늘리고 지연 유합/불유합은 추가 고정을 평가한다.
-- 근거: [BSSH 주상골 골절 기준](https://www.bssh.ac.uk/_userfiles/pages/files/professionals/Trauma%20standards/Scaphoid%20standards.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**:

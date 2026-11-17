@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional sleep disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NHS 몽유병 관리 | https://www.nhs.uk/conditions/sleepwalking/"]
 disease_family: psychiatry_split
 parent_disease: 수면 관련 장애 (Sleep-Wake Disorders)
 relation_to_parent: subtype
@@ -42,7 +41,6 @@ relation_to_parent: subtype
 - **전문 평가·치료 전환**: 빈번한 부상·위험 행동, 심한 주간 기능 저하, 성인에서 새 발병, 비전형적 반복 발작은 수면 전문 평가로 뇌전증·RBD 등을 감별한다. 약물은 원인 교정과 환경 보호로 조절되지 않는 중증에서 개별 선택하며 melatonin·clonazepam을 모두의 기본 치료로 두지 않는다.
 - **추적**: NREM 각성장애 자체를 RBD처럼 파킨슨병·레비소체 치매의 전구 증상으로 동일하게 설명하지 않는다. 새 신경학적 이상은 별도로 평가한다.
 
-근거: [NHS 몽유병 관리](https://www.nhs.uk/conditions/sleepwalking/).
 
 ## 6. 예후 및 합병증
 - 신경퇴행성 질환(알파-시누클레인병증)으로의 이행 가능성이 높으므로 장기적인 추적 관찰이 필수적임.

@@ -13,6 +13,7 @@ CC:
 preprocessing_required: x
 clinical_priority: "tier_3"
 review_status: "samsung8e_source_integrated"
+sources: ["NIH 성인·청소년 HIV 기회감염 HSV 지침 | https://clinicalinfo.hiv.gov/es/node/9447"]
 ---
 분과 : [[소화기]]
 
@@ -39,4 +40,4 @@ review_status: "samsung8e_source_integrated"
 ## 6. 예후 및 합병증 (Prognosis)
 - 면역정상 환자는 비교적 짧은 경과를 보일 수 있다. 면역저하·중증 환자는 광범위 궤양, 출혈 및 식사·수분 섭취 장애를 주의하며 치료 반응을 확인한다.
 
-출처: 삼성서울병원 메뉴얼. [NIH 성인·청소년 HIV 기회감염 HSV 지침](https://clinicalinfo.hiv.gov/es/node/9447).
+출처: 삼성서울병원 메뉴얼.

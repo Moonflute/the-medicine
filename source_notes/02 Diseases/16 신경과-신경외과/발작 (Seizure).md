@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG217 | https://www.nice.org.uk/guidance/ng217/chapter/treating-status-epilepticus-repeated-or-cluster-seizures-and-prolonged-seizures"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -21,7 +22,6 @@ reviewed_at: "2026-07-30"
 - **정의**: 뇌의 비정상적이고 과도한 전기적 활동으로 인해 발생하는 일시적인 증상. 의식, 행동, 기억, 감각의 변화를 동반할 수 있음.
 - **원인**: 전해질 불균형(저혈당, 저나트륨혈증 등), 약물 독성 및 금단, 뇌졸중, 뇌종양, 두부 외상, 중추신경계 감염, 발열, 항뇌전증제 복용 불규칙 등.
 - **기전**: 흥분성 신경전달물질(Glutamate)과 억제성 신경전달물질(GABA)의 불균형으로 인해 신경세포의 과도한 동시 방전이 발생함.
-
 
 
 ## 2. 임상 양상 (Clinical Features)
@@ -37,7 +37,6 @@ reviewed_at: "2026-07-30"
 - 무긴장 발작: 갑작스러운 근긴장 소실로 인한 쓰러짐
 
 
-
 ## 3. 검사 (Lab & Imaging)
 - **혈액 검사**: 전해질, 혈당, 약물 농도, 임신 테스트(가임기 여성)
 - **뇌영상(MRI/CT)**: 구조적 병변 확인(특히 40세 이상, 국소 신경학적 결손, 발열, 두부 외상 병력 시 필수)
@@ -49,23 +48,20 @@ reviewed_at: "2026-07-30"
 - **요추 천자**: 감염 의심 시 고려
 
 
-
 ## 4. 진단 (Diagnosis)
 - 발작의 유발 요인(provoked) 여부 확인(전해질, 약물, 감염 등)
 - 뇌전증(Epilepsy): 유발 요인 없이 반복되는 비유발성 발작이 2회 이상 발생한 경우
 - 감별 진단: 실신(syncope), 심인성 비뇌전증 발작(PNES), 수면 장애 등
 
 
-
 ## 5. 치료
 - **5분 기준**: 경련이 **5분 이상 지속**하거나 회복 없이 반복되면 상태발작으로 치료한다. 기도·혈당·산소화 확인과 원인 교정을 병행하며 IV lorazepam 또는 접근 가능한 midazolam 등 benzodiazepine을 투여한다.
-- **다음 단계**: 첫 투여 후 5–10분에도 지속하면 한 차례 반복할 수 있다. 적정 benzodiazepine **2회에도 지속**하면 IV levetiracetam, fosphenytoin/phenytoin 또는 valproate를 사용한다. 지속 실패는 불응성 상태발작으로 중환자실·지속 EEG·마취제 치료를 평가한다. 호흡억제 감시와 함께 투여하며 용량 부족으로 지연하지 않는다. [NICE NG217](https://www.nice.org.uk/guidance/ng217/chapter/treating-status-epilepticus-repeated-or-cluster-seizures-and-prolonged-seizures)
+- **다음 단계**: 첫 투여 후 5–10분에도 지속하면 한 차례 반복할 수 있다. 적정 benzodiazepine **2회에도 지속**하면 IV levetiracetam, fosphenytoin/phenytoin 또는 valproate를 사용한다. 지속 실패는 불응성 상태발작으로 중환자실·지속 EEG·마취제 치료를 평가한다. 호흡억제 감시와 함께 투여하며 용량 부족으로 지연하지 않는다.
 - 급성 원인 교정 후 장기 약의 필요성은 유발성 여부·재발 위험·발작 유형에 따라 결정한다. 국소 발작에는 lamotrigine/levetiracetam 등을, 순수 결신에는 ethosuximide 등을 선택하며 서로 다른 발작 유형에 같은 약제를 일괄 적용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 유발 요인이 교정 가능한 경우 예후 양호
 - 뇌전증 환자는 약물 순응도가 중요하며, 발작 조절 전까지 운전 및 위험한 기계 조작 제한 필요
-
 
 
 Last updated :

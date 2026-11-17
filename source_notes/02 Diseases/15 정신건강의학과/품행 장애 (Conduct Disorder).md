@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional disruptive behavior disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional disruptive behavior disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE CG158 | https://www.nice.org.uk/guidance/cg158/chapter/recommendations"]
 disease_family: psychiatry_split
 parent_disease: 파괴적 충동 조절 및 행동 장애 (Disruptive, Impulse-Control, and Conduct Disorders)
 relation_to_parent: subtype
@@ -47,7 +46,6 @@ relation_to_parent: subtype
 - **약물 추가 조건**: 품행장애 자체에 통상 약물을 처방하지 않는다. 동반 ADHD는 해당 치료를 하고, 심리사회적 중재에도 폭발적 분노·심한 공격성과 정서조절 문제가 지속되면 전문의가 risperidone 단기 사용을 검토한다. 효과·부작용을 **3–4주**에 확인하고 **6주까지 의미 있는 반응이 없으면 중단**한다.
 - 안전 및 예후 관리: 자해, 타해 위험성을 상시 평가하고, 가정 및 학교 환경과의 긴밀한 협력을 통해 재발 방지 및 사회적 적응을 도모함.
 
-근거: [NICE CG158](https://www.nice.org.uk/guidance/cg158/chapter/recommendations).
 
 ## 6. 예후 및 합병증
 - 예후: 조기 개입이 중요. 낮은 지능, 기능 부전적 가정 환경, 부모의 범죄 이력은 예후 불량 인자.

@@ -23,6 +23,7 @@ reviewed_at: "2026-07-30"
 응급의학_분류:
 - 주요 장기계 응급
 - 호흡기
+sources: ["WSES/AAST 흉부외상 지침 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/", "NICE 중증 외상 지침 | https://www.nice.org.uk/guidance/ng39/chapter/recommendations"]
 ---
 분과 : [[호흡기]]
 
@@ -60,7 +61,6 @@ reviewed_at: "2026-07-30"
 
 출처 : StatPearls (Tension Pneumothorax, Acute Pneumothorax Evaluation and Treatment)
 
-외상 초기 감압: [WSES/AAST 흉부외상 지침 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12522690/) · [NICE 중증 외상 지침](https://www.nice.org.uk/guidance/ng39/chapter/recommendations)
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -23,7 +23,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia]. | https://pubmed.ncbi.nlm.nih.gov/40908230/"]
+sources: ["[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia]. | https://pubmed.ncbi.nlm.nih.gov/40908230/", "ELN 2025 CML 권고 | https://www.nature.com/articles/s41375-025-02664-w"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -58,7 +58,7 @@ content_updated_at: "2026-11-17"
 - imatinib을 포함한 BCR::ABL1 TKI가 치료의 중심이며, 약제 선택·변경은 병기, 동반질환, 내성 변이와 분자반응으로 결정한다. 반응 평가는 CBC, 비장 크기, 세포유전학 및 국제표준 BCR::ABL1 정량검사를 연계해 수행한다.
 
 - **TKI 유지·변경의 수치:** ELN 2025의 유리한 BCR::ABL1 국제표준(IS) 반응은 **3개월 ≤10%, 6개월 ≤1%, 12개월 ≤0.1%**이다. 3개월 >10%는 1–3개월 내 확인하고, 6개월 >10% 또는 12개월 >1%는 내성 평가·교체를 우선 검토한다. 복약 누락·감량·상호작용, 수치의 추세와 동반질환을 함께 보며 한 번의 검사만으로 자동 교체하지 않는다.
-- **치료 중단 시도:** 첫 만성기, 신뢰할 수 있는 신속 정량검사와 추적 동의가 전제다. 최소 TKI **>5년(2세대 TKI는 >4년)**, **MR4 이상 >2년** 유지 등 조건을 충족한 선택 환자에서 검토한다. 중단 후 첫 6개월 6–8주마다, 6–12개월 2개월마다, 이후 3–6개월마다 검사하며 **MMR 소실(BCR::ABL1 >0.1%) 시 재시작**한다. [ELN 2025 CML 권고](https://www.nature.com/articles/s41375-025-02664-w)
+- **치료 중단 시도:** 첫 만성기, 신뢰할 수 있는 신속 정량검사와 추적 동의가 전제다. 최소 TKI **>5년(2세대 TKI는 >4년)**, **MR4 이상 >2년** 유지 등 조건을 충족한 선택 환자에서 검토한다. 중단 후 첫 6개월 6–8주마다, 6–12개월 2개월마다, 이후 3–6개월마다 검사하며 **MMR 소실(BCR::ABL1 >0.1%) 시 재시작**한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
   **진행 단계** :

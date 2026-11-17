@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2024"
-sources: ["KDIGO 2024 Clinical Practice Guideline for ANCA-Associated Vasculitis | https://kdigo.org/guidelines/anca-associated-vasculitis/", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/"]
+sources: ["KDIGO 2024 Clinical Practice Guideline for ANCA-Associated Vasculitis | https://kdigo.org/guidelines/anca-associated-vasculitis/", "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases | https://kdigo.org/guidelines/gd/", "KDIGO ANCA 2024 | https://kdigo.org/wp-content/uploads/2024/05/KDIGO-2024-ANCA-Vasculitis-Guideline.pdf"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -70,7 +70,7 @@ content_updated_at: "2026-11-17"
 - **모니터링**: 신기능(eGFR, Cr) 및 소변 검사를 통한 질환 활성도 추적, 면역억제제 부작용 모니터링.
 - **투석**: 말기 신부전으로 진행 시 신대체 요법 시행.
 
-- **혈장교환의 구체적 분기**: ANCA 연관 질환은 Cr >3.4 mg/dL, 투석 필요 또는 빠른 Cr 상승, 저산소혈증을 동반한 미만성 폐포출혈에서 고려한다. ANCA–anti-GBM 중복이면 추가한다. ANCA 양성이나 비저산소성 객혈만으로 모든 환자에게 시행하지 않는다. [KDIGO ANCA 2024](https://kdigo.org/wp-content/uploads/2024/05/KDIGO-2024-ANCA-Vasculitis-Guideline.pdf)
+- **혈장교환의 구체적 분기**: ANCA 연관 질환은 Cr >3.4 mg/dL, 투석 필요 또는 빠른 Cr 상승, 저산소혈증을 동반한 미만성 폐포출혈에서 고려한다. ANCA–anti-GBM 중복이면 추가한다. ANCA 양성이나 비저산소성 객혈만으로 모든 환자에게 시행하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 수 주 내 말기 신부전으로 진행

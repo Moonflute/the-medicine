@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NCI 유방의 양성 변화 | https://www.cancer.gov/types/breast/breast-changes/benign-breast-conditions"]
 ---
 분과 : [[부인과]]
 
@@ -45,7 +46,7 @@ reviewed_at: "2026-07-30"
 * **재발 및 위험 관리**: 반복적인 낭종 재발이나 흡인액의 혈성 양상, 고형 성분 동반 시 악성 가능성을 염두에 두고 조직 검사를 재시행함.
 * **환자 교육**: 월경 주기에 따른 유방 변화를 관찰하도록 교육하고, 종괴의 크기 변화나 유두 분비물 등 이상 증상 발생 시 즉시 내원하도록 안내함.
 
-- **흡인 후 추가 평가**: 혈성 흡인액, 남아 있는 종괴, 빠른 재충만 또는 영상–진찰 불일치는 단순 낭종으로 종결하지 않고 추가 영상·조직 평가를 시행한다. [NCI 유방의 양성 변화](https://www.cancer.gov/types/breast/breast-changes/benign-breast-conditions)
+- **흡인 후 추가 평가**: 혈성 흡인액, 남아 있는 종괴, 빠른 재충만 또는 영상–진찰 불일치는 단순 낭종으로 종결하지 않고 추가 영상·조직 평가를 시행한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 단순 낭종은 양성 질환으로 예후가 좋음.

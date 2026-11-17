@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["APA 섭식장애 지침 2023 | https://doi.org/10.1176/appi.ajp.23180001"]
 ---
 분과 : [[정신건강의학과]]
 
@@ -51,7 +52,6 @@ reviewed_at: "2026-07-30"
 
 - **약물 선택 조건**: 성인 BED에서 약물을 선호하거나 충분한 CBT/IPT에 반응이 없으면 항우울제 또는 lisdexamfetamine을 검토한다. 후자는 중등도–중증 성인 BED 적응증과 국내 허가를 확인하고 혈압·맥박·불면·물질사용 위험을 평가한다. 단순 체중감량용 자극제로 사용하지 않는다. 약물만으로 식사 규칙성·폭식 유발 요인 치료를 대체하지 않는다.
 
-근거: [APA 섭식장애 지침 2023](https://doi.org/10.1176/appi.ajp.23180001).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성적이고 재발과 완화가 반복되는 경향이 있음.

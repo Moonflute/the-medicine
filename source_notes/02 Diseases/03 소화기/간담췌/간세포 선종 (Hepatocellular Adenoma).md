@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EASL | https://easl.eu/wp-content/uploads/2016/10/EASL-CPG-on-Management-of-benign-liver-tumours.pdf"]
 ---
 분과 : [[소화기]]
 
@@ -59,7 +60,7 @@ reviewed_at: "2026-07-30"
 * 급성 파열에 의한 복강 내 출혈 시 혈역학적 안정을 위해 경동맥 색전술(TAE) 또는 응급 수술 시행
 * β-catenin 활성화 아형 등 고위험군으로 확인된 경우 크기와 관계없이 적극적인 절제 고려
 
-- **여성의 절제 시점**: 출혈·악성 의심이 없는 안정 환자는 호르몬 중단·체중 조절 후 약 6개월 재평가한다. 여전히 ≥5 cm이거나 계속 성장하면 절제를 권고하며, 남성 또는 확인된 β-catenin 활성화는 크기와 무관한 절제 평가 대상이다. 출혈로 불안정하면 우선 색전 지혈하고 잔존 병변의 절제를 재평가한다. [EASL](https://easl.eu/wp-content/uploads/2016/10/EASL-CPG-on-Management-of-benign-liver-tumours.pdf)
+- **여성의 절제 시점**: 출혈·악성 의심이 없는 안정 환자는 호르몬 중단·체중 조절 후 약 6개월 재평가한다. 여전히 ≥5 cm이거나 계속 성장하면 절제를 권고하며, 남성 또는 확인된 β-catenin 활성화는 크기와 무관한 절제 평가 대상이다. 출혈로 불안정하면 우선 색전 지혈하고 잔존 병변의 절제를 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 대부분 양성 경과를 보이나, 일부에서 간세포암으로 악성화될 수 있다.

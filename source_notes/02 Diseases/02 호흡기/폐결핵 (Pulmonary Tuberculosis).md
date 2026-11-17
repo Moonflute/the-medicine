@@ -25,9 +25,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: '2025'
-sources:
-- "ATS·CDC·ERS·IDSA 2025 결핵 치료 업데이트 공식 요약 | https://www.cdc.gov/tb/php/dear-colleague-letters/2025-treatment-guidelines.html"
-- "CDC 2025 결핵 임상 치료 | https://www.cdc.gov/tb/hcp/treatment/index.html"
+sources: ["ATS·CDC·ERS·IDSA 2025 결핵 치료 업데이트 공식 요약 | https://www.cdc.gov/tb/php/dear-colleague-letters/2025-treatment-guidelines.html", "CDC 2025 결핵 임상 치료 | https://www.cdc.gov/tb/hcp/treatment/index.html", "CDC 감수성 결핵 치료 | https://www.cdc.gov/tb/hcp/treatment/tuberculosis-disease.html"]
 content_updated_at: "2026-11-18"
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
@@ -60,7 +58,6 @@ guideline_review_status: primary_source_reviewed
 
 - **4개월 rifapentine–moxifloxacin 요법(2HPZM/2HPM)**은 감수성 폐결핵에서 **≥12세·≥40 kg**, 관련 약제 금기/상호작용이 없는 경우 선택한다. HIV에서는 **CD4 ≥100/µL**와 호환 ART를 확인한다. 임신·대부분의 폐외 결핵·해당 약제 내성이 의심되면 그대로 적용하지 않는다.
 - 표준은 **2HRZE/4HR**이며, **초기 공동이 있고 2개월 배양도 양성**인 경우 총 9개월(2HRZE/7HR)을 고려한다. 균 음전 지연 시 순응도·흡수·내성을 먼저 확인하며 약 하나만 추가하지 않는다.
-- 근거: [CDC 감수성 결핵 치료](https://www.cdc.gov/tb/hcp/treatment/tuberculosis-disease.html).
 
 ## 5. 감염관리 및 공중보건
 - 전염성 가능성이 있는 환자는 음압 환경과 호흡기 보호구를 포함한 airborne precautions를 적용한다.
@@ -92,6 +89,3 @@ LTBI는 rifamycin 기반 단기 요법을 선호할 수 있으나 감염원의 �
 - [[진균종 (Fungus Ball)]]
 
 ## 참고 가이드라인
-
-- [ATS·CDC·ERS·IDSA 2025 결핵 치료 업데이트 공식 요약](https://www.cdc.gov/tb/php/dear-colleague-letters/2025-treatment-guidelines.html)
-- [CDC 2025 결핵 임상 치료](https://www.cdc.gov/tb/hcp/treatment/index.html)

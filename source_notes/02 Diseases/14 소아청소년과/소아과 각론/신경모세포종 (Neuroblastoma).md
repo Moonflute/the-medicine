@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NCI PDQ | https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma-treatment-pdq", "FDA | https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-eflornithine-adult-and-pediatric-patients-high-risk-neuroblastoma"]
 ---
 분과 : [[소아청소년과]]
 
@@ -42,8 +43,8 @@ reviewed_at: "2026-07-30"
 - **위험도 결정**: INRG 병기(L1/L2/M/MS), 나이(**18개월** 경계), MYCN 증폭, 조직학, 배수성·분절 염색체 이상을 조합한다. **M 병기 ≥18개월**, **M 병기 <18개월이면서 MYCN 증폭**, **L2/MS의 MYCN 증폭** 등은 고위험에 해당한다. 병기만으로 저위험/고위험을 결정하지 않는다.
 - **저위험**: 절제 가능한 국소 종양은 수술 후 관찰이 기본이다. 유리한 생물학적 특성을 가진 작은 영아 종양·MS 일부는 전문 프로토콜 아래 관찰만 가능하다. 호흡장애·급격한 간비대·장기 압박 등 위험 증상은 관찰을 중단하고 항암치료를 시작하는 조건이다.
 - **중간위험**: 반응에 맞춘 제한적 항암치료와 수술을 조합한다. 영상 위험인자(IDRF)로 신경·혈관 손상 위험이 크면 무리한 완전절제보다 선행 항암 후 절제를 평가한다.
-- **고위험**: 유도 다약제 항암→수술→고용량 항암/자가 조혈모세포 구제 및 국소 방사선→anti-GD2 면역치료와 isotretinoin 등의 통합 경로를 적용한다. 재발·불응은 반응·표적 변이·mIBG 섭취에 따라 구제치료/임상시험을 선택한다. [NCI PDQ](https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma-treatment-pdq)
-- **유지치료**: FDA 승인 eflornithine은 **anti-GD2를 포함한 다중 치료 후 최소 부분반응**을 얻은 고위험 환자의 재발 위험 감소 목적이다. 유도치료를 대신하지 않으며 국내 허가·접근성을 확인한다. [FDA](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-eflornithine-adult-and-pediatric-patients-high-risk-neuroblastoma)
+- **고위험**: 유도 다약제 항암→수술→고용량 항암/자가 조혈모세포 구제 및 국소 방사선→anti-GD2 면역치료와 isotretinoin 등의 통합 경로를 적용한다. 재발·불응은 반응·표적 변이·mIBG 섭취에 따라 구제치료/임상시험을 선택한다.
+- **유지치료**: FDA 승인 eflornithine은 **anti-GD2를 포함한 다중 치료 후 최소 부분반응**을 얻은 고위험 환자의 재발 위험 감소 목적이다. 유도치료를 대신하지 않으며 국내 허가·접근성을 확인한다.
 - **추적**: 성장·청력·신장·심장·내분비 기능과 이차암 위험을 치료 노출에 맞춰 추적한다.
 
 ## 6. 예후 및 합병증 (Prognosis)

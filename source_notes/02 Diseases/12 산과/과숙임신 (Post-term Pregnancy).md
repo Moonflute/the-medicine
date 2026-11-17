@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["WHO 만삭 이후 분만유도 권고(2022) | https://www.ncbi.nlm.nih.gov/books/NBK585292/", "NICE 분만유도 NG207 | https://www.nice.org.uk/guidance/ng207/chapter/recommendations"]
 ---
 분과 : [[산과]]
 
@@ -47,6 +48,5 @@ reviewed_at: "2026-07-30"
 * **산모**: 난산, 제왕절개술 빈도 증가, 산도 열상.
 
 출처 : ACOG Practice Bulletin, Merck Manual Professional
-- [WHO 만삭 이후 분만유도 권고(2022)](https://www.ncbi.nlm.nih.gov/books/NBK585292/) · [NICE 분만유도 NG207](https://www.nice.org.uk/guidance/ng207/chapter/recommendations)
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

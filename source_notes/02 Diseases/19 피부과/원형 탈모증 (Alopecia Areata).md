@@ -14,7 +14,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Consensus Document on the Clinical Management of Alopecia Areata: Recommendations from the Spanish Hair Research Group of the Spanish Academy of Dermatology and Venerology. | https://pubmed.ncbi.nlm.nih.gov/41812910/"]
+sources: ["Consensus Document on the Clinical Management of Alopecia Areata: Recommendations from the Spanish Hair Research Group of the Spanish Academy of Dermatology and Venerology. | https://pubmed.ncbi.nlm.nih.gov/41812910/", "BAD 2025 living guideline, 2026 발행 | https://doi.org/10.1093/bjd/ljaf452"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -51,7 +51,7 @@ content_updated_at: "2026-11-18"
 - 제한된 병변은 고강도 국소 또는 병변 내 corticosteroid를 선택하며 나이·부위·피부 위축 위험을 고려한다. 두피 침범 **1~20% 경증, 21~49% 중등도, 50~100% 중증(SALT)**을 참고하되 눈썹·속눈썹·정신사회적 영향을 함께 평가한다.
 - 빠르게 진행하면 단기 전신 corticosteroid를 검토할 수 있지만 재발·장기 독성 때문에 유지요법으로 고정하지 않는다.
 - **중증 탈모는 JAK 억제제 또는 접촉 면역요법 등 전신/전문 치료를 논의**한다. 모든 환자에게 전신 스테로이드 실패를 필수 선행 조건으로 요구하지 않는다. 약제별 허가 연령·감염·결핵/간염·혈전·심혈관·암 위험을 검토한다.
-- JAK 치료는 수개월 단위로 재성장과 부작용을 평가하고, 충분한 기간에도 이득이 없으면 중단·변경한다. 일부는 반응이 늦으므로 단기간만으로 실패 판정하지 않는다. [BAD 2025 living guideline, 2026 발행](https://doi.org/10.1093/bjd/ljaf452)
+- JAK 치료는 수개월 단위로 재성장과 부작용을 평가하고, 충분한 기간에도 이득이 없으면 중단·변경한다. 일부는 반응이 늦으므로 단기간만으로 실패 판정하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 1년 이내에 자연 치유되는 경우가 많으나, 재발이 잦은 만성 질환임.

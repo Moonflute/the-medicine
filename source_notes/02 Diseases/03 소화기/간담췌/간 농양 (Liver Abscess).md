@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["IDSA 복강 내 감염 평가 지침 2024 | https://www.idsociety.org/practice-guideline/intra-abdominal-infections/", "Johns Hopkins ABX Guide: Hepatic Abscess | https://www.hopkinsguides.com/hopkins/view/Johns_Hopkins_ABX_Guide/540259/3.2/Hepatic_Abscess"]
 ---
 ## 1. 개요
 - **정의**: 간 내에 세균, 아메바, 진균 감염으로 농이 축적되어 형성된 국소적 염증성 병변.
@@ -88,5 +89,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [IDSA 복강 내 감염 평가 지침 2024](https://www.idsociety.org/practice-guideline/intra-abdominal-infections/)
-- [Johns Hopkins ABX Guide: Hepatic Abscess](https://www.hopkinsguides.com/hopkins/view/Johns_Hopkins_ABX_Guide/540259/3.2/Hepatic_Abscess)

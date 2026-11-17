@@ -13,6 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EULAR | https://doi.org/10.1136/annrheumdis-2019-215213"]
 ---
 분과 : [[류마티스]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 - 혈전 병력이 있으면 이차 예방 항응고를 시행한다. 파국적 APS에서는 항응고제, glucocorticoid, 혈장교환, IVIG를 고려한다.
 
 - **항응고 강도**: 첫 정맥혈전 APS는 대개 VKA INR 2–3을 적용한다. 동맥혈전은 INR 2–3 또는 3–4를 출혈·재발 위험에 따라 선택한다. 적정 INR에도 재발하면 순응도·다른 원인을 확인한 뒤 aspirin 추가, INR 목표 상승 또는 LMWH 전환을 검토한다. 삼중항체 양성·동맥혈전 APS에는 DOAC를 피한다.
-- **무증상·임신 분기**: 무증상 aPL 양성 모두에게 항응고하지 않는다. 지속 고역가·lupus anticoagulant·다중 양성 등 고위험 프로파일은 저용량 aspirin을 검토한다. 산과 APS만 있으면 임신 중 aspirin+예방용 heparin, 혈전 APS 병력이면 치료용 heparin을 포함한 별도 경로를 적용한다. [EULAR](https://doi.org/10.1136/annrheumdis-2019-215213)
+- **무증상·임신 분기**: 무증상 aPL 양성 모두에게 항응고하지 않는다. 지속 고역가·lupus anticoagulant·다중 양성 등 고위험 프로파일은 저용량 aspirin을 검토한다. 산과 APS만 있으면 임신 중 aspirin+예방용 heparin, 혈전 APS 병력이면 치료용 heparin을 포함한 별도 경로를 적용한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 반복적인 혈전 재발 위험이 높으며, 다장기 침범 시 예후가 불량할 수 있다.

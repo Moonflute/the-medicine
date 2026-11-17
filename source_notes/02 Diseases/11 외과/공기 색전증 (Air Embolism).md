@@ -17,6 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AHA 2025 특수상황 소생 지침 | https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation"]
 ---
 분과 : [[외과]]
 
@@ -46,7 +47,7 @@ reviewed_at: "2026-07-30"
 - 공기 유입원을 즉시 차단하고 **100% 산소**, 기도·순환 지지와 필요한 표준 심폐소생술을 시행한다.
 - AHA 2025는 생명 위협 가스색전에서 **수평면의 바로 누운 자세 또는 기도 보호에 필요한 회복자세**를 제안한다. 머리를 낮추는 Trendelenburg를 모든 환자에게 일률 적용하지 않으며, CPR은 바로 누운 상태에서 한다.
 - 신경학적 결손·의식 변화, 관상동맥 허혈 또는 심폐 불안정 등 중증 가스색전은 안정화와 동시에 고압산소 가능 기관에 긴급 의뢰한다. 산소 반응을 오래 기다리며 의뢰를 미루지 않는다.
-- 우심실 가스의 위치가 확인되고 접근 가능할 때 전문팀이 흡인을 검토할 수 있으나, 기도·소생을 지연하면서 맹목적으로 도관을 삽입하지 않는다. [AHA 2025 특수상황 소생 지침](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation)
+- 우심실 가스의 위치가 확인되고 접근 가능할 때 전문팀이 흡인을 검토할 수 있으나, 기도·소생을 지연하면서 맹목적으로 도관을 삽입하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 및 즉각적인 처치가 생존율을 결정함.

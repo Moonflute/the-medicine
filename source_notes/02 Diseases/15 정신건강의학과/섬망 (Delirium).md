@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional neurocognitive disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "NICE CG103 | https://www.nice.org.uk/guidance/cg103/chapter/Recommendations", "ASAM 알코올 금단 지침 | https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline"]
 disease_family: psychiatry_split
 parent_disease: 신경인지장애 (Neurocognitive Disorders)
 relation_to_parent: subtype
@@ -54,7 +53,6 @@ relation_to_parent: subtype
 
 - **약제 예외·기간**: 위해·심한 고통이 있고 진정적 대화·환경 교정으로 부족한 경우에 한해 haloperidol 등 단기 사용을 검토하며 보통 **1주 이내**로 필요성을 재평가한다. QT 연장, Parkinson병·DLB에서는 특히 피하거나 대안을 전문의와 선택한다. **알코올·benzodiazepine 금단 섬망**은 benzodiazepine을 사용해야 하므로 일반 섬망의 회피 원칙과 구분한다.
 
-근거: [NICE CG103](https://www.nice.org.uk/guidance/cg103/chapter/Recommendations), [ASAM 알코올 금단 지침](https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline).
 
 ## 6. 예후 및 합병증
 - 예후: 원인 질환 교정 시 가역적이나, 고령자나 치매 환자에서는 인지 기능 저하가 지속될 수 있음.

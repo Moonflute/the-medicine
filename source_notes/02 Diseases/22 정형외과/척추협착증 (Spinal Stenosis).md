@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG59 | https://www.nice.org.uk/guidance/ng59/chapter/Recommendations"]
 ---
 분과 : [[정형외과]]
 
@@ -55,7 +56,6 @@ reviewed_at: "2026-07-30"
 - **영상상 협착과 일치하는 신경인성 파행/방사통이 적절한 비수술 치료 후에도 보행·일상생활을 제한**하면 감압 수술을 평가한다. 척추관 직경 하나만으로 수술을 결정하지 않는다. 불안정성·변형이 없다면 유합술이 항상 필요한 것은 아니다.
 - 중앙 척추관 협착에 의한 신경인성 파행에는 경막외 주사를 일상적으로 시행하지 않는다. Gabapentinoid·만성 opioid를 좌골신경통의 표준 약제로 일괄 사용하지 않는다.
 - **요폐, 회음부 감각 저하, 빠르게 진행하는 근력 저하**는 마미증후군 등 응급 압박을 평가하며 수개월 추적을 기다리지 않는다.
-- 근거: [NICE NG59](https://www.nice.org.uk/guidance/ng59/chapter/Recommendations).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성적인 경과를 보일 수 있으며, 적절한 재활과 다학제적 접근을 통해 기능적 상태 개선 가능.

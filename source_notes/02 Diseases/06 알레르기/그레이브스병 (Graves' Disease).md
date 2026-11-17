@@ -22,6 +22,7 @@ relation_to_parent: "canonical_reference"
 review_status: "compatibility_reference"
 reviewed_at: "2026-07-16"
 clinical_priority: tier_2
+sources: ["ATA | https://www.thyroid.org/guidelines-hyperthyroidism-thyrotoxicosis/"]
 ---
 분과 : [[알레르기]]
 
@@ -48,7 +49,7 @@ clinical_priority: tier_2
 - 갑상샘 호르몬 억제: 항갑상샘제(Methimazole 우선), 방사성요오드(RAI) 치료, 수술(갑상샘절제술).
 - 안병증 관리: 금연, 필요 시 안과적 치료 및 안와 감압술 고려.
 
-- **확정 치료 전환**: 항갑상샘제는 보통 12–18개월 후 TSH·TRAb가 정상일 때 중단을 검토하고, 지속 항체 양성·재발이면 저용량 유지 또는 RAI·수술을 선택한다. 큰 압박성 갑상샘종·악성 의심은 수술을 우선 논의하며, 임신·수유 또는 활동성 중등도–중증 안병증에서는 RAI를 피한다. [ATA](https://www.thyroid.org/guidelines-hyperthyroidism-thyrotoxicosis/)
+- **확정 치료 전환**: 항갑상샘제는 보통 12–18개월 후 TSH·TRAb가 정상일 때 중단을 검토하고, 지속 항체 양성·재발이면 저용량 유지 또는 RAI·수술을 선택한다. 큰 압박성 갑상샘종·악성 의심은 수술을 우선 논의하며, 임신·수유 또는 활동성 중등도–중증 안병증에서는 RAI를 피한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료로 조절 가능하나, 갑상샘 기능저하증 발생 가능성이 있으며 안병증은 별도의 경과를 보일 수 있다.

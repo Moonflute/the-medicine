@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["FDA 2026 | https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-pediatric-patients-most-common-form-dwarfism"]
 ---
 분과 : [[소아청소년과]]
 
@@ -48,7 +49,7 @@ reviewed_at: "2026-07-30"
 * **정형외과적 관리**: 척추 만곡 및 하지 변형에 대한 물리치료 및 보조기 착용, 필요 시 선택적 사지 연장술 상담
 * **생활 습관 교정**: 비만 예방을 위한 식단 관리 및 체중 조절을 통해 척추 및 관절 부하 최소화
 
-* **성장 약제의 대상**: CNP 계열은 성장판이 열려 있는 소아에서 선택하며 골단 폐쇄 후에는 성장 촉진 목적으로 사용하지 않는다. Vosoritide 외에 FDA는 2026년 **2세 이상·열린 성장판**을 가진 환자에게 주 1회 navepegritide(Yuviwel)를 가속승인했다. 성장속도 개선 근거와 최종 성인키 근거의 확실성을 구분하며 국내 허가·접근성, 혈압 저하 위험과 치료 부담을 비교한다. 성장 약제가 대공 협착·중추성 무호흡의 감압술을 대신하지는 않는다. [FDA 2026](https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-pediatric-patients-most-common-form-dwarfism)
+* **성장 약제의 대상**: CNP 계열은 성장판이 열려 있는 소아에서 선택하며 골단 폐쇄 후에는 성장 촉진 목적으로 사용하지 않는다. Vosoritide 외에 FDA는 2026년 **2세 이상·열린 성장판**을 가진 환자에게 주 1회 navepegritide(Yuviwel)를 가속승인했다. 성장속도 개선 근거와 최종 성인키 근거의 확실성을 구분하며 국내 허가·접근성, 혈압 저하 위험과 치료 부담을 비교한다. 성장 약제가 대공 협착·중추성 무호흡의 감압술을 대신하지는 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 지능은 정상이나 일반인보다 기대 수명이 다소 짧을 수 있음

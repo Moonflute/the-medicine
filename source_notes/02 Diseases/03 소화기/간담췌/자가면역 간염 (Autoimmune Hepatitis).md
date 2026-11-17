@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["EASL AIH 지침 2025 | https://easlcampus.eu/sites/default/files/2025-08/EASL_CPGs_on_the_management_of_AIH.pdf", "IAIHG 간편 기준 원저 | https://onlinelibrary.wiley.com/doi/full/10.1002/hep.22322", "EASL AIH 지침 2025 | https://www.journal-of-hepatology.eu/article/S0168-8278%2825%2900173-4/fulltext", "KASL AIH 지침 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10366804/"]
 ---
 분과 : [[소화기]]
 
@@ -76,7 +77,6 @@ reviewed_at: "2026-10-08"
 
 - **초기 요법 선택**: EASL 2025는 predniso(lo)ne **0.5–1 mg/kg/일**에 azathioprine 또는 **MMF 1.5–2 g/일**을 병용하는 초기 치료를 권고한다. MMF를 반드시 azathioprine 실패 후에만 쓰는 약으로 한정하지 않으며, 임신·피임 조건과 국내 가용성을 확인한다. Azathioprine 시작 전 혈구·TPMT/NUDT15 관련 위험과 황달 정도를 확인한다.
 - **Budesonide**는 EASL 2025의 일반적 1차 요법이 아니며 **간경변에서 금기**이다. 스테로이드 감량은 증상뿐 아니라 ALT/AST·IgG 반응을 보면서 시행한다.
-- 근거: [EASL AIH 지침 2025](https://easlcampus.eu/sites/default/files/2025-08/EASL_CPGs_on_the_management_of_AIH.pdf).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:
@@ -93,7 +93,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [IAIHG 간편 기준 원저](https://onlinelibrary.wiley.com/doi/full/10.1002/hep.22322)
-- [EASL AIH 지침 2025](https://www.journal-of-hepatology.eu/article/S0168-8278%2825%2900173-4/fulltext)
-- [KASL AIH 지침 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC10366804/)
-- [EASL AIH 지침 2025](https://easlcampus.eu/sites/default/files/2025-08/EASL_CPGs_on_the_management_of_AIH.pdf)

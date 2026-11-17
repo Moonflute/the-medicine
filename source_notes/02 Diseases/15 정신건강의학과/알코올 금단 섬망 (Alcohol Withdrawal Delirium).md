@@ -14,8 +14,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- 'Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders'
+sources: ["Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "ASAM 금단 지침 | https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline"]
 disease_family: psychiatry_split
 parent_disease: 물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)
 relation_to_parent: subtype
@@ -50,7 +49,6 @@ relation_to_parent: subtype
 
 - **중환자 치료·증강**: 반복 정맥 benzodiazepine으로도 초조·자율신경 항진이 조절되지 않거나 호흡억제 위험이 크면 중환자 감시하에 phenobarbital 등 증강을 숙련된 의료진이 시행한다. 항정신병약은 잔여 환각·초조의 **보조약**이며 금단 섬망·발작 예방의 단독 치료제가 아니다. 섬망 상태에는 CIWA-Ar 대신 RASS·CAM-ICU 등 객관적 도구를 활용한다.
 
-근거: [ASAM 금단 지침](https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline).
 
 ## 6. 예후 및 합병증
 - 예후: 조기 진단 및 적절한 약물 치료 시 사망률은 약 1% 수준으로 감소함.

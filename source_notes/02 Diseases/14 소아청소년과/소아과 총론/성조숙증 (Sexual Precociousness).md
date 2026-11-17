@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["대한소아내분비학회 지침 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/", "Endocrine Society 중추성 성조숙증 지침 2026 | https://www.endocrine.org/clinical-practice-guidelines/central-precocious-puberty"]
 ---
 분과 : [[소아청소년과]]
 
@@ -53,6 +54,5 @@ reviewed_at: "2026-07-30"
 * 조기 치료 시 성장판 조기 폐쇄 방지 및 최종 키 손실 최소화
 * 심리적·사회적 적응을 위한 정서적 지지 병행 필요
 
-출처: [대한소아내분비학회 지침 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC10556443/) · [Endocrine Society 중추성 성조숙증 지침 2026](https://www.endocrine.org/clinical-practice-guidelines/central-precocious-puberty)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

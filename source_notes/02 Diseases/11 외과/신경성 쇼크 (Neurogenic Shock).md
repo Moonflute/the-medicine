@@ -21,6 +21,7 @@ reviewed_at: "2026-07-30"
 응급의학_분류:
 - 소생 및 중증응급
 - 쇼크
+sources: ["AO Spine 혈역학 지침 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10964888/"]
 ---
 분과 : [[외과]]
 
@@ -53,6 +54,5 @@ reviewed_at: "2026-07-30"
 
 출처 : StatPearls (Neurogenic Shock)
 
-급성 척수손상 관류: [AO Spine 혈역학 지침 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10964888/)
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

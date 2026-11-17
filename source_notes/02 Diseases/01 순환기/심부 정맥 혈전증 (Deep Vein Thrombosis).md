@@ -17,10 +17,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "source_reviewed_no_change"
 guideline_year: "2021"
-sources:
-- "ASH — Diagnosis of Venous Thromboembolism (2018) | https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines/diagnosis"
-- "ASH — Treatment of DVT and PE (2020) | https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines/treatment"
-- "CHEST — Antithrombotic Therapy for VTE Disease, Compendium and Review of 2012–2021 Guidelines (2024) | https://journal.chestnet.org/article/S0012-3692%2824%2900292-7/fulltext"
+sources: ["ASH — Diagnosis of Venous Thromboembolism (2018) | https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines/diagnosis", "ASH — Treatment of DVT and PE (2020) | https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines/treatment", "CHEST — Antithrombotic Therapy for VTE Disease, Compendium and Review of 2012–2021 Guidelines (2024) | https://journal.chestnet.org/article/S0012-3692%2824%2900292-7/fulltext"]
 content_updated_at: '2026-10-07'
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
@@ -71,9 +68,4 @@ guideline_review_status: primary_source_reviewed
 - 새 호흡곤란·흉통·실신·저산소증은 PE 동반을 평가할 단서다. 항응고 기간은 혈전 잔여 영상이나 D-dimer 한 번만으로 정하지 않고 유발요인·재발·출혈 위험을 함께 판단한다.
 
 
-
 ## 참고 가이드라인
-
-- [ASH — Diagnosis of Venous Thromboembolism (2018)](https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines/diagnosis)
-- [ASH — Treatment of DVT and PE (2020)](https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines/treatment)
-- [CHEST — Antithrombotic Therapy for VTE Disease, Compendium and Review of 2012–2021 Guidelines (2024)](https://journal.chestnet.org/article/S0012-3692%2824%2900292-7/fulltext)

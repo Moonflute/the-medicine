@@ -16,10 +16,7 @@ group_members:
 clinical_priority: tier_2
 content_updated_at: '2026-10-08'
 guideline_reviewed_at: '2026-10-08'
-sources:
-  - "CDC/NIOSH 실리카 노출 증상·의학적 감시, 2026-10 현행 자료 확인 | https://www.cdc.gov/niosh/silica/symptoms/index.html"
-  - "ATSDR 석면 건강 영향, 2026-10 현행 자료 확인 | https://www.atsdr.cdc.gov/asbestos/health-effects/index.html"
-  - "ATSDR 석면 임상평가·검사, 보존 임상 교육자료 | https://archive.cdc.gov/www_atsdr_cdc_gov/csem/asbestos/clinical_assessment-tests.html"
+sources: ["CDC/NIOSH 실리카 노출 증상·의학적 감시, 2026-10 현행 자료 확인 | https://www.cdc.gov/niosh/silica/symptoms/index.html", "ATSDR 석면 건강 영향, 2026-10 현행 자료 확인 | https://www.atsdr.cdc.gov/asbestos/health-effects/index.html", "ATSDR 석면 임상평가·검사, 보존 임상 교육자료 | https://archive.cdc.gov/www_atsdr_cdc_gov/csem/asbestos/clinical_assessment-tests.html"]
 ---
 # ILD – 직업성
 
@@ -45,7 +42,3 @@ sources:
 - [[석면폐증 (Asbestosis)]]
 
 ## 참고 자료
-
-- [CDC/NIOSH 실리카 노출 증상·의학적 감시, 2026-10 현행 자료 확인](https://www.cdc.gov/niosh/silica/symptoms/index.html)
-- [ATSDR 석면 건강 영향, 2026-10 현행 자료 확인](https://www.atsdr.cdc.gov/asbestos/health-effects/index.html)
-- [ATSDR 석면 임상평가·검사, 보존 임상 교육자료](https://archive.cdc.gov/www_atsdr_cdc_gov/csem/asbestos/clinical_assessment-tests.html)

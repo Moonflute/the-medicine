@@ -13,6 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["2023 국제 버거병 진단기준 합의 | https://pubmed.ncbi.nlm.nih.gov/38010012/", "2026 JCS 대혈관염 진료지침 | https://www.jstage.jst.go.jp/article/circj/advpub/0/advpub_CJ-25-0969/_html/-char/en", "Mayo Clinic 버거병 진단·치료 | https://www.mayoclinic.org/diseases-conditions/buergers-disease/diagnosis-treatment/drc-20350664"]
 ---
 분과 : [[순환기]]
 
@@ -61,5 +62,5 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [2023 국제 버거병 진단기준 합의](https://pubmed.ncbi.nlm.nih.gov/38010012/), [2026 JCS 대혈관염 진료지침](https://www.jstage.jst.go.jp/article/circj/advpub/0/advpub_CJ-25-0969/_html/-char/en), [Mayo Clinic 버거병 진단·치료](https://www.mayoclinic.org/diseases-conditions/buergers-disease/diagnosis-treatment/drc-20350664); 버거병의 임상·배제 진단, 완전한 담배·니코틴 회피 및 사지보존 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. 2023 국제 버거병 진단기준 합의, 2026 JCS 대혈관염 진료지침, Mayo Clinic 버거병 진단·치료; 버거병의 임상·배제 진단, 완전한 담배·니코틴 회피 및 사지보존 원칙을 대조. 2026-09-14 기존 목차 내 보완.
 - 삼성서울병원 메뉴얼

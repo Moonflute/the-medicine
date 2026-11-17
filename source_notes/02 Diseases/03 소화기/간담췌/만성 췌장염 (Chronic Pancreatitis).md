@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["유럽 췌장 외분비부전 지침 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11866322/", "ESGE 만성 췌장염 지침 | https://www.esge.com/assets/downloads/pdfs/guidelines/2018_a_0822_0832.pdf", "ACG 만성 췌장염 진료지침 | https://pubmed.ncbi.nlm.nih.gov/32022720/", "ESGE 괴사성 췌장염 내시경 지침 | https://www.esge.com/endoscopic-management-of-acute-necrotizing-pancreatitis-esge-evidence-based-multidisciplinary-guideline", "Pancreapedia 자가면역 췌장염 진단 | https://pancreapedia.org/reviews/diagnosis-autoimmune-pancreatitis"]
 ---
 ## 1. 개요
 - **정의**: 췌장의 만성적인 염증으로 인해 비가역적인 구조적 손상(섬유화, 췌관 협착)이 발생하고, 이로 인해 외분비 및 내분비 기능 부전이 나타나는 질환.
@@ -66,7 +67,6 @@ reviewed_at: "2026-10-08"
 
 - **효소 시작·증량**: 외분비부전에는 성인 기준 주식마다 **lipase 40,000–50,000 단위 이상**, 간식은 약 절반으로 시작하고 식사 도중 나누어 복용한다. 지방변·체중감소가 남으면 복약법을 확인하고 증량 또는 산 억제 병용을 검토한다. 영양 개선 없이 통증 치료 목적으로만 효소를 계속 증량하지 않는다.
 - **췌관 결석**: 두부/체부의 폐쇄성 주췌관 결석이 방사선불투과성이며 **>5 mm**이면 ESWL을 포함한 치료를, 작거나 방사선투과성이면 ERCP를 검토한다. 통증·폐쇄가 지속되면 반복 내시경만 계속하기보다 수술 가능성을 재논의한다.
-- 근거: [유럽 췌장 외분비부전 지침 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11866322/), [ESGE 만성 췌장염 지침](https://www.esge.com/assets/downloads/pdfs/guidelines/2018_a_0822_0832.pdf).
 
 ## 6. 예후 및 합병증
 - **예후**:
@@ -80,6 +80,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [ACG 만성 췌장염 진료지침](https://pubmed.ncbi.nlm.nih.gov/32022720/)
-- [ESGE 괴사성 췌장염 내시경 지침](https://www.esge.com/endoscopic-management-of-acute-necrotizing-pancreatitis-esge-evidence-based-multidisciplinary-guideline)
-- [Pancreapedia 자가면역 췌장염 진단](https://pancreapedia.org/reviews/diagnosis-autoimmune-pancreatitis)

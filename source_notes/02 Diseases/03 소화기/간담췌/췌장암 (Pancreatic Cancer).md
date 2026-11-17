@@ -25,6 +25,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["NCI PDQ | https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq", "NCI 췌장암 환자용 치료 요약 | https://www.cancer.gov/types/pancreatic/patient/pancreatic-treatment-pdq"]
 ---
 ## 1. 개요
 - **정의**: 췌장 세포에서 기원하는 악성 종양으로, 대부분 췌관 선암(ductal adenocarcinoma)이며 췌장 머리 부분(head)에 가장 흔하게 발생함.
@@ -70,7 +71,7 @@ reviewed_at: "2026-10-08"
 - 절제 가능·경계 절제 가능 질환은 선행치료 여부, 수술과 수술 뒤 전신치료를 다학제팀에서 계획한다. 절제 불가능·전이 질환은 수행능력·장기기능·신경병증 위험·환자 목표에 맞춰 FOLFIRINOX 또는 gemcitabine+nab-paclitaxel 등 전신치료를 선택하고, 혈액학적·신경학적·간담도 독성을 모니터링한다. 생식세포 및 종양 분자검사 결과에 따라 백금 기반 치료, PARP 억제제 또는 표적/면역치료와 임상시험 가능성을 검토하며, 통증·영양·담도/위출구 폐쇄 완화는 질병 단계와 무관하게 병행한다.
 
 - **절제·항암의 분기**: 원격전이와 주요 동맥 침범, 문맥/상장간막정맥 재건 가능성을 췌장 프로토콜 영상으로 확인해 절제 가능·경계 절제 가능·국소 진행성을 구분한다. 경계 절제 가능 질환은 선행 전신치료 후 재평가한다. 전이성에서 FOLFIRINOX/NALIRIFOX 등 강도 높은 병합은 주로 ECOG 0–1과 충분한 장기기능에서 검토하며 허약·장기기능 저하에서는 저강도 요법/증상 중심 치료를 선택한다.
-- **유전자에 따른 유지치료**: 생식세포 BRCA1/2 변이 양성 전이성 선암이 1차 백금요법 ≥16주 후 진행하지 않았으면 olaparib 유지요법을 검토한다. 모든 BRCA 변이 또는 백금 불응 환자에 자동 적용하지 않는다. [NCI PDQ](https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq)
+- **유전자에 따른 유지치료**: 생식세포 BRCA1/2 변이 양성 전이성 선암이 1차 백금요법 ≥16주 후 진행하지 않았으면 olaparib 유지요법을 검토한다. 모든 BRCA 변이 또는 백금 불응 환자에 자동 적용하지 않는다.
 
 ## 6. 예후 및 합병증
 - **예후**: 진단 시 진행성인 경우가 많아 5년 생존율이 매우 낮음.
@@ -82,5 +83,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [NCI 췌장암 치료 PDQ](https://www.cancer.gov/types/pancreatic/hp/pancreatic-treatment-pdq)
-- [NCI 췌장암 환자용 치료 요약](https://www.cancer.gov/types/pancreatic/patient/pancreatic-treatment-pdq)

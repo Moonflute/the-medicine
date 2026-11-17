@@ -11,9 +11,7 @@ CC:
 - 검진 이상
 preprocessing_required: x
 last_studied: '2026-06-06'
-sources:
-- '대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide'
-- 'ADA 2026 Management of Diabetes in Pregnancy | https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards'
+sources: ["대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide", "ADA 2026 Management of Diabetes in Pregnancy | https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards", "질병관리청 임신당뇨병 검사 기준 | https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6691"]
 clinical_priority: "tier_2"
 content_updated_at: '2026-07-15'
 guideline_year: "2026"
@@ -39,7 +37,7 @@ review_status: "guideline_enriched"
 - 자가혈당 측정은 공복 및 식후 혈당 패턴을 보는 데 사용한다. 태아 성장, 혈압·단백뇨, 약물·식사 순응도를 산과 추적에 함께 반영한다.
 
 ## 4. 진단
-- **2단계법 — 100 g 3시간 OGTT**: 50 g 선별검사 이상 후 시행한다. Carpenter–Coustan 기준은 **공복 95 · 1시간 180 · 2시간 155 · 3시간 140 mg/dL**로, 기준 이상이 **2개 이상**이면 진단한다. 한 시점만 기준 이상이면 이 방식의 확진 기준에는 미달하며, 추가 혈당 추적은 위험도와 기관 기준에 따라 결정한다. [질병관리청 임신당뇨병 검사 기준](https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6691)
+- **2단계법 — 100 g 3시간 OGTT**: 50 g 선별검사 이상 후 시행한다. Carpenter–Coustan 기준은 **공복 95 · 1시간 180 · 2시간 155 · 3시간 140 mg/dL**로, 기준 이상이 **2개 이상**이면 진단한다. 한 시점만 기준 이상이면 이 방식의 확진 기준에는 미달하며, 추가 혈당 추적은 위험도와 기관 기준에 따라 결정한다.
 - 1단계법에서는 공복 75 g 2시간 OGTT의 공복·1시간·2시간 값 중 하나 이상이 IADPSG/ADA 기준 이상이면 진단한다. 임신 초기부터 비임신 당뇨병 진단 범위의 고혈당이면 GDM이 아니라 기존 당뇨병 가능성을 우선 검토한다.
 
 ## 5. 치료
@@ -54,5 +52,3 @@ review_status: "guideline_enriched"
 - 초기 산후 OGTT가 정상이어도 평생 1–3년마다 당뇨병 또는 전당뇨 선별을 지속한다. 모유수유·체중·생활습관 관리와 다음 임신 전 혈당 평가를 지원하며, 거대아·신생아 저혈당 등의 신생아 위험은 산과·소아과 계획으로 관리한다.
 
 ## 출처
-- ADA Standards of Care in Diabetes 2026, Management of Diabetes in Pregnancy: https://diabetesjournals.org/care/article/49/Supplement_1/S321/163918/15-Management-of-Diabetes-in-Pregnancy-Standards
-- 대한당뇨병학회 2025 제9판 당뇨병 진료지침: https://diabetes.or.kr/bbs/?code=guide

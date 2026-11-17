@@ -26,6 +26,7 @@ population: "pediatric"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE CG84 | https://www.nice.org.uk/guidance/CG84/chapter/recommendations", "CDC STEC 치료 | https://www.cdc.gov/ecoli/treatment/index.html"]
 ---
 분과 : [[소아청소년과]]
 
@@ -55,8 +56,8 @@ reviewed_at: "2026-07-30"
 * **항생제 및 지사제 제한**: 항생제는 세균성 감염이 명확한 경우에만 선별적으로 사용하고, 지사제는 부작용 위험으로 인해 소아에게 일상적으로 권장하지 않는다.
 * **위험 징후 모니터링**: 혈변, 고열, 의식 변화, 지속적인 구토 등 중증 합병증(HUS 등)을 시사하는 징후 발생 시 즉시 상급 병원 진료를 의뢰한다.
 
-* **경로 선택**: 쇼크 없는 임상적 탈수에서는 ORS **50 mL/kg를 4시간에 걸쳐** 유지량에 추가하여 조금씩 자주 투여하고 모유수유를 유지한다. 경구 실패 시 비위관 ORS를 고려하며, 쇼크·악화·경관 투여에도 지속 구토하면 등장성 정맥수액으로 전환한다. 소변량·체중·관류를 재평가하며 고나트륨혈증은 별도 서서히 교정한다. [NICE CG84](https://www.nice.org.uk/guidance/CG84/chapter/recommendations)
-* **항생제 예외**: 혈변만으로 무조건 항생제를 시작하지 않는다. STEC가 의심·확인되면 항생제와 장운동 억제제를 피하고 HUS를 감시한다. 패혈증·Shigella·중증 콜레라 등 특정 적응증은 병원체·연령·중증도에 맞춰 치료한다. [CDC STEC 치료](https://www.cdc.gov/ecoli/treatment/index.html)
+* **경로 선택**: 쇼크 없는 임상적 탈수에서는 ORS **50 mL/kg를 4시간에 걸쳐** 유지량에 추가하여 조금씩 자주 투여하고 모유수유를 유지한다. 경구 실패 시 비위관 ORS를 고려하며, 쇼크·악화·경관 투여에도 지속 구토하면 등장성 정맥수액으로 전환한다. 소변량·체중·관류를 재평가하며 고나트륨혈증은 별도 서서히 교정한다.
+* **항생제 예외**: 혈변만으로 무조건 항생제를 시작하지 않는다. STEC가 의심·확인되면 항생제와 장운동 억제제를 피하고 HUS를 감시한다. 패혈증·Shigella·중증 콜레라 등 특정 적응증은 병원체·연령·중증도에 맞춰 치료한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 대부분 자가 제한적이나, 심한 탈수, 전해질 불균형, 패혈증, 용혈성 요독 증후군(HUS) 등 합병증 주의

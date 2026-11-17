@@ -13,6 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC PSGN | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html"]
 ---
 분과 : [[신장]]
 
@@ -56,7 +57,7 @@ reviewed_at: "2026-07-30"
 - 염분·수분 제한과 이뇨제·항고혈압제로 혈압·부종을 조절하고, 전해질·신기능을 정기적으로 모니터링한다.
 - 잔존 A군 연쇄상구균을 제거하고 전파를 줄이기 위한 항생제를 투여한다. 이미 발생한 면역매개 신염을 항생제만으로 되돌리는 치료는 아니며, 면역억제는 통상 사용하지 않는다.
 - 요독증, 조절되지 않는 고혈압, 폐부종 등 중증 증상이 나타나면 즉시 신장전문의에 의뢰하고 투석을 고려한다.
-- C3·혈뇨·단백뇨·Cr의 회복 추세를 확인한다. 지속적 저보체혈증, 빠른 기능 악화 또는 비전형 경과이면 다른 사구체질환과 생검 필요성을 재평가한다. [CDC PSGN](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html)
+- C3·혈뇨·단백뇨·Cr의 회복 추세를 확인한다. 지속적 저보체혈증, 빠른 기능 악화 또는 비전형 경과이면 다른 사구체질환과 생검 필요성을 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 소아의 경우 대부분 2주 내 자연치유.

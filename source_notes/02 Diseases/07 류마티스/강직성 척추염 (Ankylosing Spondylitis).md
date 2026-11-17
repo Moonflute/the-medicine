@@ -18,9 +18,7 @@ review_status: "guideline_enriched"
 reviewed_at: "2026-10-21"
 guideline_year: "2026"
 source_currency_assessment: "official_summary_updated"
-sources:
-- 'ACR SAA SPARTAN 2026 axial spondyloarthritis — official summary | https://rheumatology.org/axial-spondyloarthritis-guideline'
-- '2026 axSpA recommendation tables | https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt424f1e71604af245/axspa-guideline-summary-2026.pdf'
+sources: ["ACR SAA SPARTAN 2026 axial spondyloarthritis — official summary | https://rheumatology.org/axial-spondyloarthritis-guideline", "2026 axSpA recommendation tables | https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt424f1e71604af245/axspa-guideline-summary-2026.pdf"]
 ---
 ## 1. 개요
 - **정의**: 척추와 천장관절에 염증이 발생하여 강직을 유발하는 만성 염증성 질환으로, 척추관절염(spondyloarthritis, SpA) 중 가장 대표적인 질환.
@@ -79,7 +77,6 @@ sources:
 - 포도막염, 염증성 장질환, 심혈관계 질환, 척추 골절 위험 증가.
 
 출처 : Merck Manual Professional (Ankylosing Spondylitis), ASAS-EULAR recommendations
-최신 권고: [ACR/SAA/SPARTAN 2026 axSpA 공식 요약](https://rheumatology.org/axial-spondyloarthritis-guideline) — 2026-06-24 공개, 2026-10-21 반영.
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성
@@ -87,4 +84,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 통합 출처: 삼성서울병원 메뉴얼
-

@@ -17,6 +17,7 @@ population: "general"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AAD 지침 및 2025 개정 | https://www.aad.org/member/clinical-quality/guidelines/atopic-dermatitis"]
 ---
 분과 : [[피부과]]
 
@@ -55,7 +56,7 @@ reviewed_at: "2026-07-30"
 - 보습과 유발 자극 회피에 더해, 악화 부위에 연령·부위에 맞는 강도의 국소 corticosteroid를 사용한다. 얼굴·접힘 부위나 반복 유지 치료는 calcineurin 억제제 등 비스테로이드 국소제를 검토한다. 자주 재발하는 부위는 간헐적 예방 도포를 고려한다.
 - **충분한 국소 치료에도 중등도~중증 염증·가려움·수면/일상 장애가 지속**되면 광선치료 또는 전신 치료를 검토한다. 먼저 도포 방법·순응도·접촉 알레르기·진균 등 다른 진단을 재평가한다.
 - 생물학제제·경구 JAK 억제제는 연령별 허가와 위험에 따라 선택한다. AAD 2025 개정에는 lebrikizumab, 국소 치료 병용 nemolizumab 및 새로운 국소제도 포함된다. JAK 억제제는 감염·혈전·심혈관·암 위험, 임신 가능성과 검사 결과를 반영한다.
-- **전신 스테로이드를 장기 유지 치료로 사용하지 않는다.** 감염 소견 없는 습진에 항생제를 관행적으로 병용하지 않으며, 발열·통증성 단형 수포/미란이면 포진성 습진으로 긴급 항바이러스 치료를 평가한다. [AAD 지침 및 2025 개정](https://www.aad.org/member/clinical-quality/guidelines/atopic-dermatitis)
+- **전신 스테로이드를 장기 유지 치료로 사용하지 않는다.** 감염 소견 없는 습진에 항생제를 관행적으로 병용하지 않으며, 발열·통증성 단형 수포/미란이면 포진성 습진으로 긴급 항바이러스 치료를 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

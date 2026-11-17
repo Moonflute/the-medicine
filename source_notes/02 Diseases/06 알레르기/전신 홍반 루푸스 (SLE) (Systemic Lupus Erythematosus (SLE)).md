@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EULAR 2023 | https://doi.org/10.1136/ard-2023-224762", "2019 EULAR/ACR SLE criteria | https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.40930"]
 ---
 ## 1. 개요
 - 정의: 조직에 결합하는 자가항체와 면역복합체가 조직 및 세포 손상을 일으키는 전신성 자가면역질환.
@@ -77,7 +78,7 @@ reviewed_at: "2026-07-30"
 - 자외선 차단·금연·골건강·예방접종을 병행한다.
 - NSAID는 근골격계 증상·경한 장막염·발열에 사용할 수 있으나, 신혈류 감소·부종·단백뇨 등 약물독성이 루푸스 신염 악화와 혼동될 수 있고 두통·어지럼·우울 등은 CNS flare와 감별한다. cyclophosphamide 사용 시 골수억제·생식선 독성·출혈성 방광염 위험을 설명하고 CBC, 소변검사·혈뇨를 감시하며 충분한 수분 섭취와 필요 시 mesna를 사용한다. azathioprine은 위장관 증상, 골수억제, 과민반응성 간독성을 감시한다.
 
-- **치료 강화·감량 기준**: 유지 prednisone은 ≤5 mg/일을 목표로 하고 가능하면 중단한다. HCQ·국소 치료로 조절되지 않거나 이 수준으로 steroid를 줄일 수 없으면 장기별 면역억제제·생물학제를 추가한다. HCQ 목표는 실제체중 ≤5 mg/kg/일이며 망막·신장 위험에 따라 조정한다. 무증상 aPL 양성에서는 고위험 항체 프로파일과 출혈 위험에 따라 aspirin을 판단하고, 모든 항체 양성 환자에게 항응고하지 않는다. [EULAR 2023](https://doi.org/10.1136/ard-2023-224762)
+- **치료 강화·감량 기준**: 유지 prednisone은 ≤5 mg/일을 목표로 하고 가능하면 중단한다. HCQ·국소 치료로 조절되지 않거나 이 수준으로 steroid를 줄일 수 없으면 장기별 면역억제제·생물학제를 추가한다. HCQ 목표는 실제체중 ≤5 mg/kg/일이며 망막·신장 위험에 따라 조정한다. 무증상 aPL 양성에서는 고위험 항체 프로파일과 출혈 위험에 따라 aspirin을 판단하고, 모든 항체 양성 환자에게 항응고하지 않는다.
 
 ## 6. 예후 및 합병증
 - 경과: 만성 재발성.
@@ -90,5 +91,3 @@ Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-분류기준 보완 근거: [2019 EULAR/ACR SLE criteria](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.40930).

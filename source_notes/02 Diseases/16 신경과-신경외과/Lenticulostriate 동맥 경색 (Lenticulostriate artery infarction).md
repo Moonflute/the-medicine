@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["Canadian Stroke Best Practices | https://www.strokebestpractices.ca/recommendations/secondary-prevention-of-stroke/anti-platelet-therapy-in-ischemic-stroke-and-tia"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -44,7 +45,7 @@ reviewed_at: "2026-07-30"
 * **위험 인자 조절**: 고혈압 관리가 가장 중요하며, 당뇨, 고지혈증 관리 및 금연 등 생활 습관 교정을 병행함.
 * **추적 관찰 및 예방**: 재발 방지를 위해 정기적인 신경학적 평가와 함께 혈관 위험 인자의 지속적인 모니터링 및 조절을 시행함.
 
-- **항혈소판제 강도**: 비심인성 경미 뇌졸중(NIHSS ≤3), 출혈 위험이 높지 않고 혈전용해를 받지 않았다면 조기 aspirin+clopidogrel **21일** 후 단독제로 전환하는 경로를 검토한다. 열공성 경색이라는 이유로 장기 DAPT를 지속하지 않는다. [Canadian Stroke Best Practices](https://www.strokebestpractices.ca/recommendations/secondary-prevention-of-stroke/anti-platelet-therapy-in-ischemic-stroke-and-tia)
+- **항혈소판제 강도**: 비심인성 경미 뇌졸중(NIHSS ≤3), 출혈 위험이 높지 않고 혈전용해를 받지 않았다면 조기 aspirin+clopidogrel **21일** 후 단독제로 전환하는 경로를 검토한다. 열공성 경색이라는 이유로 장기 DAPT를 지속하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대혈관 뇌졸중에 비해 초기 예후는 양호한 편이나, 재발 방지를 위한 지속적인 위험 인자 관리가 필수적임.

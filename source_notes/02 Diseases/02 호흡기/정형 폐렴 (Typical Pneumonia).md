@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 review_status: "source_reviewed_no_change"
 reviewed_at: "2026-07-16"
 guideline_year: "2024"
-sources: ["지역사회획득 폐렴 진료지침 (2024) | https://www.ksid.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=199", "2024 Community-Acquired Pneumonia Guideline | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=247"]
+sources: ["지역사회획득 폐렴 진료지침 (2024) | https://www.ksid.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=199", "2024 Community-Acquired Pneumonia Guideline | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=247", "ATS/IDSA CAP 지침 | https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults/", "ATS 공식 업데이트 요약 2026 | https://doi.org/10.1093/annalsats/aaoag068"]
 
 ---
 분과 : [[호흡기]]
@@ -57,7 +57,6 @@ sources: ["지역사회획득 폐렴 진료지침 (2024) | https://www.ksid.or.k
 - 외래 치료가 가능한 저위험 성인은 amoxicillin 또는 doxycycline 등으로 치료한다. **Macrolide 단독은 지역 폐렴구균 내성률 <25%인 경우에 한정**하므로 내성률이 높은 지역에서 자동 선택하지 않는다.
 - 동반질환이 있으면 beta-lactam+macrolide/doxycycline 또는 호흡기 fluoroquinolone을 선택하며, 입원·중증도에 따라 병용 전략과 MRSA/Pseudomonas 위험을 평가한다. '정형'이라는 영상/증상 명칭만으로 원인균을 확정하지 않는다.
 - CRB65 ≥2, CURB65 ≥3, 저산소증·쇼크·섭취 불가 등은 입원/중환자 평가 기준이다. 안정된 외래·비중증 CAP는 최신 ATS 기준상 최소 3일의 단기 치료를 선택할 수 있으나, 중증·농양·농흉·특정 원인균에서는 더 길게 치료한다.
-- 근거: [ATS/IDSA CAP 지침](https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults/), [ATS 공식 업데이트 요약 2026](https://doi.org/10.1093/annalsats/aaoag068).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 항생제 치료에도 불구, 고령자나 기저 질환이 있는 경우 사망률이 높음.

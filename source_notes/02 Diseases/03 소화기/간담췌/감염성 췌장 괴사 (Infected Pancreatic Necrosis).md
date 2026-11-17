@@ -20,6 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidelines-Highlights-Acute-Pancreatitis-2024-FINAL.pdf"]
 ---
 분과 : [[소화기]]
 
@@ -65,7 +66,7 @@ reviewed_at: "2026-07-30"
 * 증상 호전이 없거나 패혈증이 지속될 경우, 경피적 배액술(PCD)을 우선 고려하며, 필요 시 내시경적 또는 수술적 괴사 제거술을 단계적으로 시행한다.
 * 시술 후에는 췌장루, 출혈, 장 폐쇄 등 주요 합병증 발생 여부를 면밀히 모니터링하며 장기적인 추적 관찰을 시행한다.
 
-- **항생제·중재 선택**: 괴사 내 가스, 균혈증·패혈증 또는 임상 악화는 감염을 지지한다. 무균 괴사에 예방 항생제를 일률 사용하지 않는다. 안정적이면 항생제와 지지치료로 가능한 한 ≥4주까지 기다려 괴사를 구획화한 뒤 내시경/경피 배액→필요 시 괴사제거의 step-up 접근을 검토한다. 조절되지 않는 패혈증·장 허혈/천공·출혈은 조기 중재 사유다. [ACG 2024](https://webfiles.gi.org/links/journals/AJG-Clinical-Guidelines-Highlights-Acute-Pancreatitis-2024-FINAL.pdf)
+- **항생제·중재 선택**: 괴사 내 가스, 균혈증·패혈증 또는 임상 악화는 감염을 지지한다. 무균 괴사에 예방 항생제를 일률 사용하지 않는다. 안정적이면 항생제와 지지치료로 가능한 한 ≥4주까지 기다려 괴사를 구획화한 뒤 내시경/경피 배액→필요 시 괴사제거의 step-up 접근을 검토한다. 조절되지 않는 패혈증·장 허혈/천공·출혈은 조기 중재 사유다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

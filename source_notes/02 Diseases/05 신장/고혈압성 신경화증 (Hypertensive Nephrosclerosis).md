@@ -15,8 +15,7 @@ CC:
 - 신기능 저하
 clinical_priority: "tier_2"
 review_status: "samsung8e_source_integrated"
-sources:
-- 'KDIGO 2021 Blood Pressure in CKD Guideline | https://kdigo.org/guidelines/blood-pressure-in-ckd/'
+sources: ["KDIGO 2021 Blood Pressure in CKD Guideline | https://kdigo.org/guidelines/blood-pressure-in-ckd/", "KDIGO CKD 2024 | https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf"]
 ---
 분과 : [[신장]]
 
@@ -41,7 +40,7 @@ sources:
 - 알부민뇨가 있는 고혈압 CKD에서는 ACE 억제제 또는 ARB를 내약 용량까지 사용하고, 두 약제를 병용하지 않는다. 시작·증량 후 혈압·creatinine·칼륨을 확인하며, 이뇨제·칼슘채널차단제 등은 체액 상태와 eGFR에 맞춰 추가한다.
 - AKI, 고칼륨혈증, 저혈압 또는 빠른 eGFR 저하가 생기면 약물·탈수·NSAID/조영제 노출·신혈관성 원인을 재평가하고 신장내과와 협진한다.
 
-- **RAS 차단 유지·조정**: ACEi/ARB 시작·증량 후 2–4주 내 Cr·K를 확인한다. 4주 내 Cr >30% 상승이면 탈수·NSAID·신동맥 협착 등을 평가하고 감량/중단을 검토한다. 경미한 예상 eGFR 하강만으로 중단하지 않으며, 증상성 저혈압 또는 교정되지 않는 고칼륨혈증은 변경 사유다. [KDIGO CKD 2024](https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf)
+- **RAS 차단 유지·조정**: ACEi/ARB 시작·증량 후 2–4주 내 Cr·K를 확인한다. 4주 내 Cr >30% 상승이면 탈수·NSAID·신동맥 협착 등을 평가하고 감량/중단을 검토한다. 경미한 예상 eGFR 하강만으로 중단하지 않으며, 증상성 저혈압 또는 교정되지 않는 고칼륨혈증은 변경 사유다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 지속적 고혈압과 알부민뇨는 CKD 진행과 심부전·뇌졸중·심혈관 사건 위험을 높인다. 혈압, UACR, eGFR 및 칼륨을 위험도에 따라 추적하고, 진행성 CKD는 합병증 관리와 신대체요법 계획으로 연결한다.

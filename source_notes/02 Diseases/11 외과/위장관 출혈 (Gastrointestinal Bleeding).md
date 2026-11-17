@@ -17,8 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-17"
 guideline_year: "2021"
-sources:
-- 'ACG Clinical Guideline for Upper Gastrointestinal and Ulcer Bleeding | https://pubmed.ncbi.nlm.nih.gov/33929377/'
+sources: ["ACG Clinical Guideline for Upper Gastrointestinal and Ulcer Bleeding | https://pubmed.ncbi.nlm.nih.gov/33929377/", "ACG 하부위장관 출혈 2023 | https://doi.org/10.14309/ajg.0000000000002130"]
 disease_family: upper_gi_bleeding
 population: adult
 reviewed_at: "2026-07-30"
@@ -53,7 +52,7 @@ review_status: "guideline_enriched"
 ## 5. 치료
 - 초기 처치: 2개 이상의 대구경 정맥로 확보, 수액 정주, Hb < 7g/dL 시 농축 적혈구(pRBC) 수혈(심혈관 질환 시 < 8g/dL 고려)
 - 상부위장관 출혈: 내시경적 지혈술, PPI 투여, 정맥류 출혈 시 AASLD 가이드라인에 따른 관리
-- 하부위장관 출혈: 지속적이고 혈역학적으로 유의한 혈변에서는 CTA로 활동성 출혈을 찾고 양성이면 신속한 혈관조영·색전술로 연결한다. 토혈·흑색변 등 상부 출혈 가능성이 높으면 상부내시경을 우선 평가한다. 안정된 입원 환자의 대장내시경을 일률적으로 24시간 이내에 시행할 필요는 없다. [ACG 하부위장관 출혈 2023](https://doi.org/10.14309/ajg.0000000000002130)
+- 하부위장관 출혈: 지속적이고 혈역학적으로 유의한 혈변에서는 CTA로 활동성 출혈을 찾고 양성이면 신속한 혈관조영·색전술로 연결한다. 토혈·흑색변 등 상부 출혈 가능성이 높으면 상부내시경을 우선 평가한다. 안정된 입원 환자의 대장내시경을 일률적으로 24시간 이내에 시행할 필요는 없다.
 - 항혈소판/항응고제: 급성기 출혈 시 위험-이득 평가 후 중단 여부 결정, 지혈 후 조기 재개 고려
 - **상부위장관 출혈 실무**: 혈역학적으로 안정화한 뒤 상부위장관 내시경을 조기에 시행해 진단과 지혈을 함께 진행한다. 내시경 지혈 후에는 고용량 PPI 요법과 재출혈 감시를 연결하며, 재출혈은 재내시경 또는 중재적 시술·수술 평가로 이어간다.
 - **정맥류 가능성**: 간경변/문맥고혈압이 의심되는 출혈은 일반 소화성 궤양 출혈과 달리 혈관작용제·예방적 항생제·내시경 결찰을 포함한 별도 경로가 필요하므로 초기부터 전문 진료에 연결한다.

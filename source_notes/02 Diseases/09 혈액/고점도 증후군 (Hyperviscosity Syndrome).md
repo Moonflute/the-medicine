@@ -12,6 +12,7 @@ CC:
 - 시야 이상
 - 출혈
 clinical_priority: tier_1
+sources: ["IWWM 합의 | https://doi.org/10.1182/blood-2014-03-565135"]
 ---
 # 고점도 증후군 (Hyperviscosity Syndrome)
 
@@ -25,4 +26,4 @@ clinical_priority: tier_1
 - 장기 관류 장애가 있으면 혈장교환술을 지연하지 않고, 동시에 원인 혈액질환을 치료한다.
 
 - **단클론단백 관련 증상성 과점도**는 시각 장애·신경 이상·점막 출혈 등 임상상으로 긴급 혈장교환을 판단하며, 점도검사 결과나 특정 IgM 수치까지 기다리지 않는다. 교환은 일시적 조치이므로 원인 혈액암의 전신치료를 병행한다.
-- Waldenström 병에서 rituximab은 IgM flare를 일으킬 수 있어 증상성 과점도 또는 **IgM ≥4,000 mg/dL**이면 선행 혈장교환·rituximab 투여 순서 조정을 고려한다. 백혈구 과다에 의한 leukostasis는 별도의 세포감량 전략이 필요하며 동일한 혈장교환 적응증으로 묶지 않는다. [IWWM 합의](https://doi.org/10.1182/blood-2014-03-565135)
+- Waldenström 병에서 rituximab은 IgM flare를 일으킬 수 있어 증상성 과점도 또는 **IgM ≥4,000 mg/dL**이면 선행 혈장교환·rituximab 투여 순서 조정을 고려한다. 백혈구 과다에 의한 leukostasis는 별도의 세포감량 전략이 필요하며 동일한 혈장교환 적응증으로 묶지 않는다.

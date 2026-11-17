@@ -24,6 +24,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ESGE 팽대부 종양 지침 | https://www.esge.com/endoscopic-management-of-ampullary-tumors-european-society-of-gastrointestinal-endoscopy-esge-guideline"]
 ---
 분과 : [[소화기]]
 
@@ -63,7 +64,6 @@ reviewed_at: "2026-07-30"
 - **내시경 절제 대상**은 조직학적으로 확인된 선종으로, 침윤암이 없고 담관·췌관 내 연장이 없는 경우가 기본이다. ESGE는 **20–30 mm 이하** 선종의 일괄 절제를 권고한다. **>4 cm 등 기술적으로 절제 불가 또는 관내 연장 >20 mm**이면 수술을 검토한다. 침윤암의 치료 기준과 선종 절제 기준을 혼용하지 않는다.
 - 내시경 절제 후 침윤·양성 절제연 등 비근치 병리가 확인되면 추가 수술을 재평가한다. 선종 절제 후에는 3개월 이내, 6·12개월 및 이후 매년 추적 내시경을 계획한다.
 - 절제 후 보조치료는 원발 부위·조직형·병기·절제연과 회복 상태에 따라 결정한다. 절제 불가능한 경우 필요한 담도/장관 폐쇄 완화와 전신치료를 병행한다.
-- 근거: [ESGE 팽대부 종양 지침](https://www.esge.com/endoscopic-management-of-ampullary-tumors-european-society-of-gastrointestinal-endoscopy-esge-guideline).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**:

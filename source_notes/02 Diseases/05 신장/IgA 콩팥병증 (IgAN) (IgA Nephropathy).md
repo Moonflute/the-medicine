@@ -15,9 +15,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-10-21"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources:
-- 'KDIGO 2025 IgAN and IgAV guideline | https://kdigo.org/guidelines/iga-nephropathy/'
-- 'KDIGO 2025 IgAN key takeaways | https://kdigo.org/wp-content/uploads/2024/08/KDIGO-2025-IgAN-IgAV-Guideline-Key-Takeaways_IgAN.pdf'
+sources: ["KDIGO 2025 IgAN and IgAV guideline | https://kdigo.org/guidelines/iga-nephropathy/", "KDIGO 2025 IgAN key takeaways | https://kdigo.org/wp-content/uploads/2024/08/KDIGO-2025-IgAN-IgAV-Guideline-Key-Takeaways_IgAN.pdf"]
 
 content_updated_at: "2026-10-21"
 ---
@@ -58,7 +56,6 @@ content_updated_at: "2026-10-21"
   일부는 수십 년간 안정적이나, 일부는 만성 신부전(ESRD)으로 진행.
 - 주요 위험인자: 지속적인 단백뇨, 고혈압, 신기능 저하, 조직 검사상 심한 섬유화.
 
-출처 : [KDIGO 2025 IgAN/IgAV guideline](https://kdigo.org/guidelines/iga-nephropathy/) — 2026-10-21 반영.
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

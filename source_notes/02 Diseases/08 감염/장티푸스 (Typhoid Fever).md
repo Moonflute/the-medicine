@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC 장티푸스 지침 | https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html"]
 ---
 분과 : [[감염]]
 
@@ -47,7 +48,7 @@ reviewed_at: "2026-07-30"
 - 경험적 약제는 여행 지역·중증도·내성 위험으로 선택하며, 감수성이 확인되기 전 fluoroquinolone을 일률적으로 사용하지 않는다. Ceftriaxone 또는 azithromycin이 선택지가 되지만 XDR 위험 지역 노출과 중증·합병 감염에서는 carbapenem 등 확대요법을 검토한다. 배양 결과 후 유효한 좁은 요법으로 조정한다.
 - 항생제 시작 전 신장·간 기능 및 심전도(특히 fluoroquinolone 사용 시 QT 간격) 확인; 부작용 발생 시 즉시 약물 교체 또는 중단
 - 고열·출혈·장 천공 등 중증 증상이 나타나면 중환자실 이송 및 외과·감염내과 협진을 고려
-- 유효 치료 후에도 3–5일간 발열할 수 있으나 5일 이내 뚜렷하게 해열되지 않으면 내성·부적절 약제·농양 등 지속 감염원을 재평가한다. 만성 보균은 통상 ≥12개월 배균으로 정의하며, 1개월의 배양 양성만으로 담낭절제술을 결정하지 않는다. 장기 항생제·담도 질환 평가와 직업별 복귀검사는 전문의·보건당국 기준을 따른다. [CDC 장티푸스 지침](https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/typhoid-and-paratyphoid-fever.html)
+- 유효 치료 후에도 3–5일간 발열할 수 있으나 5일 이내 뚜렷하게 해열되지 않으면 내성·부적절 약제·농양 등 지속 감염원을 재평가한다. 만성 보균은 통상 ≥12개월 배균으로 정의하며, 1개월의 배양 양성만으로 담낭절제술을 결정하지 않는다. 장기 항생제·담도 질환 평가와 직업별 복귀검사는 전문의·보건당국 기준을 따른다.
 - 예방 차원에서 타이포이드 백신(경구·주사) 접종 및 위생 교육(식수·음식 위생, 손 씻기)
 
 ## 6. 예후 및 합병증 (Prognosis)

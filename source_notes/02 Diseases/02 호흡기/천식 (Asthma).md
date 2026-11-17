@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "source_reviewed_no_change"
 guideline_year: "2024"
-sources: ["2022 천식 진료지침 | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=242", "Global Strategy for Asthma Management and Prevention (2024) | https://ginasthma.org/gina-reports/"]
+sources: ["2022 천식 진료지침 | https://www.lungkorea.org/bbs/index.html?code=guide&category=&gubun=&page=1&field=&search=&order=&dir=&mode=view&num=242", "Global Strategy for Asthma Management and Prevention (2024) | https://ginasthma.org/gina-reports/", "GINA 2026 | https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf"]
 
 ---
 분과 : [[호흡기]]
@@ -56,7 +56,7 @@ sources: ["2022 천식 진료지침 | https://www.lungkorea.org/bbs/index.html?c
 * 편측 천명, 흡기 협착음, 갑작스러운 발병 또는 기관지확장제 무반응이면 이물, 중심기도 폐쇄 및 후두 폐쇄를 감별.
 
 ## 5. 치료 (Treatment)
-- **성인·청소년 초기 흡입치료**: SABA 단독을 피하고 ICS를 포함한다. 증상이 드물면 필요 시 저용량 ICS-formoterol, 대부분의 날 증상·주 1회 이상 야간 각성 또는 폐기능 저하가 있으면 저용량 유지·완화요법(MART), 더 심한 증상/낮은 폐기능이면 중간용량 MART 등으로 시작한다. 다른 ICS-LABA를 formoterol 제제처럼 완화제로 사용하지 않는다. [GINA 2026](https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf)
+- **성인·청소년 초기 흡입치료**: SABA 단독을 피하고 ICS를 포함한다. 증상이 드물면 필요 시 저용량 ICS-formoterol, 대부분의 날 증상·주 1회 이상 야간 각성 또는 폐기능 저하가 있으면 저용량 유지·완화요법(MART), 더 심한 증상/낮은 폐기능이면 중간용량 MART 등으로 시작한다. 다른 ICS-LABA를 formoterol 제제처럼 완화제로 사용하지 않는다.
 - **증량·감량**: 증량 전 진단, 흡입기 술기·순응도·노출·동반질환을 확인한다. 조절이 2–3개월 유지되면 악화 위험을 확인하여 단계적으로 ICS를 줄이되 성인·청소년에서 완전히 중단하지 않는다. 중간/고용량 치료에도 불량하면 표현형과 생물학적 제제 적격성을 전문 평가한다.
 - **급성 악화**: 반복 SABA, 필요 시 ipratropium, 산소와 조기 전신 steroid를 사용한다. 성인은 보통 prednisolone 40–50 mg/일 5–7일이고 산소 목표는 93–95%이다. PEF/FEV₁ ≤50%, 말하기 어려움·보조근 사용 등은 중증 평가 대상이며, 졸림·혼돈·silent chest는 즉시 중환자 기도 평가가 필요하다. 세균 감염 근거 없이 항생제를 일률 사용하지 않는다.
 - **퇴원·안전**: 증상과 폐기능 회복, 산소 필요성, 과거 중증 악화·가정 지원을 함께 평가하고 ICS 포함 유지치료·서면 행동계획과 조기 추적을 제공한다. 임신 중에도 ICS를 유지하며 조절 불량/악화를 적극 치료한다.

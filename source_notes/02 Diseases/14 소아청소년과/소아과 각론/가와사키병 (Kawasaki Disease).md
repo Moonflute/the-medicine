@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["AHA 2024 | https://doi.org/10.1161/CIR.0000000000001295", "AHA 가와사키병 과학성명 2024 | https://pubmed.ncbi.nlm.nih.gov/39534969/", "CDC 백신–항체 제제 간격표 | https://www.cdc.gov/vaccines/hcp/imz-best-practices/timing-spacing-immunobiologics.html"]
 ---
 분과 : [[소아청소년과]]
 
@@ -51,13 +52,12 @@ reviewed_at: "2026-07-30"
 * **IVIG 저항성 관리**: IVIG 주입 종료 후 **36시간 이상** 발열이 지속·재발하면 IVIG 저항성을 평가하고 재투여, corticosteroid 또는 infliximab 등을 선택한다. 다른 감염·진단도 재평가한다.
 * **추적 관찰 및 예방**: 초기 및 추적 심장 초음파를 관상동맥 위험에 맞춰 시행한다. 가와사키병 표준 IVIG 2 g/kg 이후 MMR·수두 백신 접종 간격은 통상 11개월이며, 유행 등 특수 상황과 다른 제제·용량은 해당 예방접종 지침을 확인한다.
 
-* **초기 강화·항혈전 치료 기준**: 생후 **6개월 이하** 또는 진단 시 RCA/LAD **Z-score ≥2.5**이면 IVIG에 스테로이드 등 항염증 치료를 병행할지 적극 평가한다. 해열 후 aspirin **3–5 mg/kg/day**로 전환하며, 관상동맥 정상·염증 소실이면 보통 발병 후 6–8주에 중단을 평가한다. 거대 동맥류(**Z-score ≥10 또는 직경 ≥8 mm**)는 저용량 aspirin에 전신 항응고를 추가하는 대상이다. 현재 크기뿐 아니라 최대 크기·혈전 병력·출혈 위험을 반영하며 항응고제 종류는 소아심장팀이 선택한다. [AHA 2024](https://doi.org/10.1161/CIR.0000000000001295)
+* **초기 강화·항혈전 치료 기준**: 생후 **6개월 이하** 또는 진단 시 RCA/LAD **Z-score ≥2.5**이면 IVIG에 스테로이드 등 항염증 치료를 병행할지 적극 평가한다. 해열 후 aspirin **3–5 mg/kg/day**로 전환하며, 관상동맥 정상·염증 소실이면 보통 발병 후 6–8주에 중단을 평가한다. 거대 동맥류(**Z-score ≥10 또는 직경 ≥8 mm**)는 저용량 aspirin에 전신 항응고를 추가하는 대상이다. 현재 크기뿐 아니라 최대 크기·혈전 병력·출혈 위험을 반영하며 항응고제 종류는 소아심장팀이 선택한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 치료 시 관상동맥류 발생 위험 감소
 * 합병증: 관상동맥류, 심근 경색, 심근염, 판막 역류 등
 
 출처 : StatPearls (Kawasaki Disease)
-추가 출처: [AHA 가와사키병 과학성명 2024](https://pubmed.ncbi.nlm.nih.gov/39534969/) · [CDC 백신–항체 제제 간격표](https://www.cdc.gov/vaccines/hcp/imz-best-practices/timing-spacing-immunobiologics.html)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

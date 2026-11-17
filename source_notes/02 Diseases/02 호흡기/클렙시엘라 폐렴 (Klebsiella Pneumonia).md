@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["IDSA 항균제 내성 그람음성균 지침 | https://www.idsociety.org/practice-guideline/amr-guidance/"]
 ---
 분과 : [[호흡기]]
 
@@ -55,7 +56,6 @@ reviewed_at: "2026-07-30"
 
 - ESBL 폐렴은 **meropenem/imipenem-cilastatin 등 carbapenem**을 우선한다. 중증·저알부민혈증에서는 ertapenem보다 이들 약제가 적절하다. 감수성으로 표시되어도 ESBL 폐렴에 piperacillin–tazobactam/cefepime을 일률 대체하지 않는다. CRE는 carbapenemase 유형에 따라 약제가 달라져 감수성·유전자 결과로 표적화한다.
 - 당뇨·고령 자체가 자동 입원 기준은 아니며 산소화·혈역학·섭취·전체 중증도와 추적 가능성으로 결정한다.
-- 근거: [IDSA 항균제 내성 그람음성균 지침](https://www.idsociety.org/practice-guideline/amr-guidance/).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 알코올 중독, 당뇨, 고령 환자에서 예후가 불량, 사망률이 높다.

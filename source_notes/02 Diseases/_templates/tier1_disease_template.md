@@ -5,8 +5,7 @@ aliases: []
 clinical_priority: tier_1
 content_updated_at: 'YYYY-MM-DD'
 guideline_year: 'YYYY'
-sources:
-- '국내 공식 지침 | https://example.org'
+sources: ["국내 공식 지침 | https://example.org"]
 disease_family: family_key
 population: general
 # child 문서일 때만 아래 두 항목을 추가한다.
@@ -41,4 +40,3 @@ population: general
 <!-- 주요 합병증, 예방·선별, 합병증에 따른 의뢰와 관련 child 문서 링크를 작성한다. -->
 
 출처 :
-- 국내 공식 지침: https://example.org

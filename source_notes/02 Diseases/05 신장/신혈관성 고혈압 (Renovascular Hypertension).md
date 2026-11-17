@@ -10,9 +10,7 @@ CC:
 - 무증상
 preprocessing_required: x
 last_studied: '2026-06-06'
-sources:
-- '대한고혈압학회 2026년 제6판 고혈압 진료지침 | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read'
-- 'AHA Revascularization for Renovascular Disease Scientific Statement | https://professional.heart.org/en/science-news/revascularization-for-renovascular-disease/top-things-to-know'
+sources: ["대한고혈압학회 2026년 제6판 고혈압 진료지침 | https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read", "AHA Revascularization for Renovascular Disease Scientific Statement | https://professional.heart.org/en/science-news/revascularization-for-renovascular-disease/top-things-to-know"]
 clinical_priority: "tier_2"
 content_updated_at: '2026-07-14'
 guideline_year: "2026"
@@ -50,5 +48,3 @@ review_status: "guideline_enriched"
 - 재관류 뒤에도 모든 환자에서 혈압이 정상화되지는 않으므로 장기적인 심혈관 위험인자 관리와 신기능 추적이 필요하다.
 
 ## 출처
-- American Heart Association, Revascularization for Renovascular Disease: https://professional.heart.org/en/science-news/revascularization-for-renovascular-disease/top-things-to-know
-- 대한고혈압학회 2026년 제6판 고혈압 진료지침: https://www.koreanhypertension.org/reference/guide?idno=10446&mode=read

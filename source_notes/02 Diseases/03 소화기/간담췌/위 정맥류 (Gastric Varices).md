@@ -18,7 +18,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["Endoscopic devices and techniques for the management of gastric varices (with videos). | https://pubmed.ncbi.nlm.nih.gov/39480369/"]
+sources: ["Endoscopic devices and techniques for the management of gastric varices (with videos). | https://pubmed.ncbi.nlm.nih.gov/39480369/", "Baveno VII 합의문 | https://www.sciencedirect.com/science/article/abs/pii/S0168827821022996", "KASL 정맥류 지침 2020 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7160350/"]
 
 content_updated_at: "2026-10-08"
 ---
@@ -83,5 +83,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [Baveno VII 합의문](https://www.sciencedirect.com/science/article/abs/pii/S0168827821022996)
-- [KASL 정맥류 지침 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7160350/)

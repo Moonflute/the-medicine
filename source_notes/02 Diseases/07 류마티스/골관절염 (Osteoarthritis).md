@@ -13,9 +13,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: '2026-10-21'
 guideline_year: "2026"
-sources:
-- 'ACR 2026 Osteoarthritis Guideline — official recommendation summary | https://rheumatology.org/osteoarthritis-guideline'
-- 'ACR 2026 OA recommendation tables | https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/bltb3d12c34020da842/oa-guideline-summary-2026.pdf'
+sources: ["ACR 2026 Osteoarthritis Guideline — official recommendation summary | https://rheumatology.org/osteoarthritis-guideline", "ACR 2026 OA recommendation tables | https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/bltb3d12c34020da842/oa-guideline-summary-2026.pdf"]
 disease_family: osteoarthritis
 population: adult
 reviewed_at: "2026-10-21"
@@ -65,7 +63,6 @@ review_status: "guideline_enriched"
 - **합병증**: 관절 변형, 운동 범위 제한, 관절 불안정성, 척추 침범 시 신경학적 증상(척추관 협착증 등)이 발생할 수 있다.
 
 출처 : Merck Manual Professional (Osteoarthritis)
-최신 권고: [ACR 2026 OA 공식 요약](https://rheumatology.org/osteoarthritis-guideline) — 2026-09-14 공개, 2026-10-21 반영.
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성

@@ -25,7 +25,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2024"
-sources: ["'IHPBA-APHPBA clinical practice guidelines': international Delphi consensus recommendations for gallbladder cancer. | https://pubmed.ncbi.nlm.nih.gov/39191539/"]
+sources: ["'IHPBA-APHPBA clinical practice guidelines': international Delphi consensus recommendations for gallbladder cancer. | https://pubmed.ncbi.nlm.nih.gov/39191539/", "NCI PDQ | https://www.cancer.gov/types/gallbladder/hp/gallbladder-treatment-pdq", "NCI 담도암 PDQ | https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -80,8 +80,8 @@ content_updated_at: "2026-11-17"
 - 선근종증: 초음파상 낭성(cystic) 부위 관찰.
 
 ## 5. 치료
-- **병기별 수술**: 우연 발견된 Tis/T1a가 음성 절제연으로 단순 담낭절제되었다면 추가 절제가 보통 필요하지 않다. T1b 이상은 원격전이·재수술 적격성을 평가한 뒤 간 침상 또는 IVb/V 분절과 구역 림프절을 포함한 근치적 재절제를 검토한다. 담관·주변 장기 절제는 R0 확보에 필요한 경우에 선택하며 일률 확대하지 않는다. [NCI PDQ](https://www.cancer.gov/types/gallbladder/hp/gallbladder-treatment-pdq)
-- **보조·전신치료**: 근치절제 후에는 병리 위험·회복 상태에 따라 capecitabine 등 보조치료를 검토한다. 절제 불가/전이는 적합한 수행능력·신기능·담도 배액을 확보한 뒤 gemcitabine＋cisplatin＋durvalumab 또는 pembrolizumab을 고려한다. 감염·폐쇄·신부전은 요법과 시작 시점을 바꾼다. HER2·MSI/dMMR 등 분자 결과와 이전 약제는 후속 치료를 결정한다. [NCI 담도암 PDQ](https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq)
+- **병기별 수술**: 우연 발견된 Tis/T1a가 음성 절제연으로 단순 담낭절제되었다면 추가 절제가 보통 필요하지 않다. T1b 이상은 원격전이·재수술 적격성을 평가한 뒤 간 침상 또는 IVb/V 분절과 구역 림프절을 포함한 근치적 재절제를 검토한다. 담관·주변 장기 절제는 R0 확보에 필요한 경우에 선택하며 일률 확대하지 않는다.
+- **보조·전신치료**: 근치절제 후에는 병리 위험·회복 상태에 따라 capecitabine 등 보조치료를 검토한다. 절제 불가/전이는 적합한 수행능력·신기능·담도 배액을 확보한 뒤 gemcitabine＋cisplatin＋durvalumab 또는 pembrolizumab을 고려한다. 감염·폐쇄·신부전은 요법과 시작 시점을 바꾼다. HER2·MSI/dMMR 등 분자 결과와 이전 약제는 후속 치료를 결정한다.
 - **용종과 암의 구분**: 용종 절제 기준과 확진 암의 수술 범위는 다르다. 국내 KSAR 2025의 ≥15 mm 또는 10–14 mm와 우려 영상 소견 기준, 선택적 수술·감시 조건은 [[쓸개 용종형 병변 (Gallbladder Polypoid Lesion)]]에 따른다.
 - **증상·합병증 관리**: 담관염·폐쇄가 있으면 항균제와 적절한 배액을 시행한다. 통증·영양·소양증과 치료 목표를 관리하며, 동반 담낭염의 응급 배액/수술은 감염 중증도·암의 절제 가능성에 맞춰 결정한다.
 

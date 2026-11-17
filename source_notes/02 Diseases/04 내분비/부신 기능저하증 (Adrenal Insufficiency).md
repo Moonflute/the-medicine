@@ -18,7 +18,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2024"
-sources: ["European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and therapy of glucocorticoid-induced adrenal insufficiency. | https://pubmed.ncbi.nlm.nih.gov/38714321/"]
+sources: ["European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and therapy of glucocorticoid-induced adrenal insufficiency. | https://pubmed.ncbi.nlm.nih.gov/38714321/", "Endocrine Society | https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -59,7 +59,7 @@ content_updated_at: "2026-11-17"
 - **교육과 과잉노출 평가**: 발열·급성질환·구토 등 sick-day 상황의 증량 및 응급의료 접근 계획을 환자와 보호자에게 교육한다. 장기간 지속형 글루코코르티코이드를 사용하는 경우에는 비생리적 과잉노출과 그 부작용을 정기적으로 재평가한다.
 - **감량 전략**: 장기 투여 스테로이드는 갑자기 중단하지 않고 단계적으로 감량(tapering). 생리적 용량 범위에 도달하기 전까지는 비교적 빠르게 감량 가능하나, 생리적 용량 도달 후에는 더 느린 속도로 감량해야 함.
 
-- **부신 위기**: 저혈압·쇼크, 반복 구토로 경구 복용 불가 또는 의식 변화가 있으면 검사 결과를 기다리지 않고 hydrocortisone 100 mg IV/IM 후 200 mg/24시간(지속주입 또는 50 mg씩 6시간 간격)과 등장성 수액을 시작한다. 발열·감염 시에는 미리 정한 sick-day 증량을 적용하고, 구토가 지속되면 경구 증량만으로 대응하지 않는다. [Endocrine Society](https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency)
+- **부신 위기**: 저혈압·쇼크, 반복 구토로 경구 복용 불가 또는 의식 변화가 있으면 검사 결과를 기다리지 않고 hydrocortisone 100 mg IV/IM 후 200 mg/24시간(지속주입 또는 50 mg씩 6시간 간격)과 등장성 수액을 시작한다. 발열·감염 시에는 미리 정한 sick-day 증량을 적용하고, 구토가 지속되면 경구 증량만으로 대응하지 않는다.
 
 ## 6. 예후 및 합병증
 - **부신 위기(Adrenal crisis)**: 급성 악화 상태.
@@ -72,4 +72,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [ESE·Endocrine Society 글루코코르티코이드 유발 부신기능저하증 지침 2024](https://pubmed.ncbi.nlm.nih.gov/38714321/)을 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. ESE·Endocrine Society 글루코코르티코이드 유발 부신기능저하증 지침 2024을 대조. 2026-09-14 기존 목차 내 보완.

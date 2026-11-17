@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ATS 석면 관련 질환 관리 권고 | https://www.thoracic.org/statements/resources/asbestos.pdf", "Mayo Clinic 석면폐증 관리 | https://www.mayoclinic.org/diseases-conditions/asbestosis/diagnosis-treatment/drc-20354643"]
 ---
 분과 : [[호흡기]]
 
@@ -48,7 +49,6 @@ reviewed_at: "2026-07-30"
 - 증상·산소화·폐기능을 중증도에 맞춰 추적한다. CT는 변화·합병증 평가에 사용하며 모든 환자에게 6–12개월마다 HRCT를 반복하지 않는다. 폐암 선별은 연령·흡연력 등 해당 프로그램 기준을 확인한다.
 - 진행성·말기 환자는 이식 전문센터에 전이적 평가 및 폐 이식 적합성 상담
 
-- 근거: [ATS 석면 관련 질환 관리 권고](https://www.thoracic.org/statements/resources/asbestos.pdf), [Mayo Clinic 석면폐증 관리](https://www.mayoclinic.org/diseases-conditions/asbestosis/diagnosis-treatment/drc-20354643).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 수년에 걸쳐 서서히 진행.

@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NICE NG59 | https://www.nice.org.uk/guidance/ng59/chapter/Recommendations"]
 ---
 분과 : [[정형외과]]
 
@@ -45,7 +46,6 @@ reviewed_at: "2026-07-30"
 - **새 요폐/회음부 감각 저하, 양측 증상, 급격한 운동 마비**는 긴급 MRI와 감압 수술 평가 대상이다. 이런 경우 보존 치료 6주를 먼저 채우지 않는다.
 - 대개 수주간의 비수술 치료 후에도 기능을 제한하는 방사통이 지속되고 MRI 병변과 임상 신경근 증상이 일치하면 디스크 절제·감압을 논의한다. 영상상 탈출만 있거나 요통만 있는 경우와 구분한다.
 - 급성 중증 좌골신경통에는 선택적으로 경막외 국소마취제/스테로이드 주사를 고려할 수 있다. Gabapentinoid, 경구 스테로이드, benzodiazepine을 좌골신경통에 일상 처방하지 않으며 만성 opioid는 피한다.
-- 근거: [NICE NG59](https://www.nice.org.uk/guidance/ng59/chapter/Recommendations).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 보존적 치료로 호전됨.

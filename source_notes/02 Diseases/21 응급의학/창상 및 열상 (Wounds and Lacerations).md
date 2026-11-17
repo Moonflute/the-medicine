@@ -15,8 +15,7 @@ review_status: source_reviewed_no_change
 reviewed_at: '2026-07-30'
 content_updated_at: "2026-11-18"
 guideline_year: '2025'
-sources:
-- 'CDC Clinical Guidance for Wound Management to Prevent Tetanus | https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html'
+sources: ["CDC Clinical Guidance for Wound Management to Prevent Tetanus | https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html", "CDC 2026 | https://www.cdc.gov/tetanus/hcp/clinical-guidance/"]
 disease_family: wounds
 population: general
 ---
@@ -50,7 +49,7 @@ population: general
 - 힘줄·신경·혈관 손상, 복잡한 안면창, 개방골절, 관절 관통은 적절히 보호·고정하고 전문과로 연결한다.
 
 - **파상풍 백신**: 기본접종 완료자는 깨끗한 경상에서 마지막 접종 ≥10년, 오염/큰 상처에서는 ≥5년이면 추가 접종한다. 미접종·불완전·불명확은 상처 종류와 무관하게 접종 계획을 시작/완료한다.
-- **TIG 250 IU IM**은 오염/큰 상처이면서 미접종·불완전/불명확이거나 HIV/중증 면역저하인 경우 투여한다. 깨끗한 경상에는 TIG가 필요하지 않으며 항생제가 백신·TIG를 대체하지 않는다. [CDC 2026](https://www.cdc.gov/tetanus/hcp/clinical-guidance/)
+- **TIG 250 IU IM**은 오염/큰 상처이면서 미접종·불완전/불명확이거나 HIV/중증 면역저하인 경우 투여한다. 깨끗한 경상에는 TIG가 필요하지 않으며 항생제가 백신·TIG를 대체하지 않는다.
 
 ## 6. 예후 및 합병증
 - 합병증은 감염, 잔류 이물, 상처 벌어짐, 비후성 반흔, 감각·운동 기능저하와 파상풍이다.

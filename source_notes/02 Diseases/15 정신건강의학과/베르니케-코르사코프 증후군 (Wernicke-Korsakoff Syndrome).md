@@ -13,8 +13,7 @@ CC:
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources:
-- Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders
+sources: ["Merck Manual Professional substance-related disorders | https://www.merckmanuals.com/professional/psychiatric-disorders", "영국 알코올 치료 지침: 급성병원 관리 | https://www.gov.uk/guidance/clinical-guidelines-for-alcohol-treatment/16-alcohol-care-in-acute-hospitals", "ASAM 금단 지침 | https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline"]
 disease_family: psychiatry_split
 parent_disease: 물질 관련 및 중독성 장애 (Substance-Related and Addictive Disorders)
 relation_to_parent: subtype
@@ -45,7 +44,6 @@ content_updated_at: "2026-11-18"
 
 - **의심·확진 시 치료량**: 영양결핍 위험 환자의 혼돈·운동실조·안구운동 이상이면 전형적 3징후가 모두 없어도 입원 비경구 치료를 시작한다. 영국 2025 지침은 **thiamine IV 300–500 mg, 하루 3회, 3–5일** 후 매일 반응을 확인하도록 권고한다. 계속 증상이 있으면 300–500 mg/일을 추가 3–5일 또는 호전이 지속되는 동안 유지하고 이후 경구 보충으로 전환한다. 단순 예방용 경구 용량을 급성 뇌병증 치료 대신 쓰지 않는다.
 
-근거: [영국 알코올 치료 지침: 급성병원 관리](https://www.gov.uk/guidance/clinical-guidelines-for-alcohol-treatment/16-alcohol-care-in-acute-hospitals), [ASAM 금단 지침](https://www.asam.org/quality-care/clinical-guidelines/alcohol-withdrawal-management-guideline).
 
 ## 6. 예후 및 합병증
 - 예후: 조기 치료 시 베르니케 뇌병증은 가역적일 수 있으나, 코르사코프 증후군으로 진행 시 영구적인 인지 기능 저하가 남을 수 있음.

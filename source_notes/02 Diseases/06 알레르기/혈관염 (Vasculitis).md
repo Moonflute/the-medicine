@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update | https://pubmed.ncbi.nlm.nih.gov/36927642/"]
 ---
 ## 1. 개요
 - **정의**: 혈관벽의 염증과 손상으로 인해 조직 허혈 및 장기 손상을 유발하는 질환군.
@@ -89,5 +90,5 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 
-보완 출처: 삼성서울병원 메뉴얼. [EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update](https://pubmed.ncbi.nlm.nih.gov/36927642/)를 대조. 2026-09-14 기존 목차 내 보완.
+보완 출처: 삼성서울병원 메뉴얼. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update를 대조. 2026-09-14 기존 목차 내 보완.
 - 삼성서울병원 메뉴얼

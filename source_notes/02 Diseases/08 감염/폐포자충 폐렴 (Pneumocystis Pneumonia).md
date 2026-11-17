@@ -19,6 +19,7 @@ population: "general"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NIH 성인 PCP | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis"]
 ---
 분과 : [[감염]]
 
@@ -55,7 +56,6 @@ reviewed_at: "2026-07-30"
 - 호흡 악화, 산소 요구량 증가 또는 혈액 가스 이상이 나타나면 즉시 중환자실 전원 및 호흡기 전문의와 협진한다.
 - HIV 일차 예방은 CD4 <100/μL 또는 CD4 100–200/μL이면서 HIV RNA가 검출되는 경우 시행한다. PCP 후에는 이차 예방을 유지하고, ART로 CD4 ≥200/μL가 ≥3개월 지속되면 중단을 검토한다. 비HIV 예방은 면역억제 종류·용량·기간 등 별도 위험으로 판단한다.
 
-[NIH 성인 PCP](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis)
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않으면 사망률이 매우 높다.

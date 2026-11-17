@@ -19,6 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["CDC 임상 지침 | https://www.cdc.gov/leptospirosis/hcp/clinical-overview/", "CDC 여행의학 지침 | https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/leptospirosis.html"]
 ---
 분과 : [[감염]]
 
@@ -49,7 +50,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - 임상적으로 의심되면 확진 결과를 기다리지 않고 항생제를 시작한다. 경증 성인의 대표 요법은 doxycycline 100 mg 하루 2회 7일이며, 임신·연령·금기에 따라 amoxicillin·azithromycin 등 대안을 선택한다.
 - 황달과 신부전, 폐출혈·호흡부전, 쇼크 또는 의식 저하가 있으면 입원하여 IV penicillin 또는 ceftriaxone과 장기 지지치료를 시행한다. 체액 상태를 반복 평가하고 투석·인공호흡이 필요하면 중환자 치료로 전환한다.
-- **예방 항생제는 고위험 직업이라는 이유만으로 상시 투여하지 않는다.** 단기간의 높은 노출 위험이 예상될 때 선택적으로 고려하며, 무증상 노출 후 일률적인 예방요법의 근거는 제한적이다. 보호장비와 오염된 물 회피가 기본이다. [CDC 임상 지침](https://www.cdc.gov/leptospirosis/hcp/clinical-overview/), [CDC 여행의학 지침](https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/leptospirosis.html)
+- **예방 항생제는 고위험 직업이라는 이유만으로 상시 투여하지 않는다.** 단기간의 높은 노출 위험이 예상될 때 선택적으로 고려하며, 무증상 노출 후 일률적인 예방요법의 근거는 제한적이다. 보호장비와 오염된 물 회피가 기본이다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 중증 형태인 Weil's disease는 사망률이 높으며, 신부전, 간부전, 폐출혈, 심근염 등의 합병증이 발생할 수 있다.

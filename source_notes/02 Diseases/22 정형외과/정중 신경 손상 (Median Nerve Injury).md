@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["BOAST 말초신경 손상 | https://www.boa.ac.uk/resource/boast-peripheral-nerve-injury.html"]
 ---
 분과 : [[정형외과]]
 
@@ -50,7 +51,6 @@ reviewed_at: "2026-07-30"
 - 환자 교육: 증상 악화 시 즉시 의료기관 방문, 장시간 손목 굽힘 피하고, 손목 보호대 사용을 권장.
 
 - **개방성 날카로운 손상으로 신경 절단이 의심되거나, 정복·수술 뒤 새로운 신경 결손이 발생한 경우**는 즉시 손외과/말초신경 전문팀에 의뢰한다. 3개월 관찰을 먼저 적용하지 않는다. 폐쇄성 압박·신경실행증은 원인 압박을 제거하고 부목·재활과 연속 운동/감각 진찰로 관찰하되, 진행성 근력 저하·근위축 또는 회복 부재 시 탐색·감압 여부를 재평가한다.
-- 근거: [BOAST 말초신경 손상](https://www.boa.ac.uk/resource/boast-peripheral-nerve-injury.html).
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료 시 예후가 좋음.

@@ -22,7 +22,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["American Society of Hematology 2026 guidelines for frontline management of acute lymphoblastic leukemia in adolescents and young adults. | https://pubmed.ncbi.nlm.nih.gov/41670627/"]
+sources: ["American Society of Hematology 2026 guidelines for frontline management of acute lymphoblastic leukemia in adolescents and young adults. | https://pubmed.ncbi.nlm.nih.gov/41670627/", "ASH 2026 AYA ALL 권고 | https://www.hematology.org/-/media/hematology/files/clinicians/guidelines/all-in-ayas-2026/ash-all-aya-frontline-visual-summary.pdf"]
 
 content_updated_at: "2026-11-17"
 ---
@@ -63,7 +63,7 @@ content_updated_at: "2026-11-17"
 - **표적 치료**: 필라델피아 염색체 양성(Ph+)인 경우 티로신 키나아제 억제제(TKI) 추가를 권장함.
 - **유지 및 예방**: 중추신경계 예방 요법 및 장기 유지 요법을 병행하며, 치료 과정 중 세심한 지지 요법과 밀접한 추적 관찰이 필수적임.
 
-- **AYA(15–39세)의 반응·표적 분기:** ASH 2026은 B-ALL의 형태학적 관해 후 **MRD 여부와 관계없이 blinatumomab 포함**을 제안하며, CD20 양성 B-ALL은 rituximab 추가를 검토한다. **초기 치료 ≥3개월 후 MRD가 남으면 치료 접근 변경**이 필요하며 면역치료·이식 등을 질병 특성과 프로토콜에 맞춰 결정한다. 검사 민감도·시점이 다른 MRD 값을 하나의 고정 역치로 혼합하지 않는다. 이 AYA 권고를 모든 고령 성인이나 T-ALL에 그대로 적용하지 않는다. [ASH 2026 AYA ALL 권고](https://www.hematology.org/-/media/hematology/files/clinicians/guidelines/all-in-ayas-2026/ash-all-aya-frontline-visual-summary.pdf)
+- **AYA(15–39세)의 반응·표적 분기:** ASH 2026은 B-ALL의 형태학적 관해 후 **MRD 여부와 관계없이 blinatumomab 포함**을 제안하며, CD20 양성 B-ALL은 rituximab 추가를 검토한다. **초기 치료 ≥3개월 후 MRD가 남으면 치료 접근 변경**이 필요하며 면역치료·이식 등을 질병 특성과 프로토콜에 맞춰 결정한다. 검사 민감도·시점이 다른 MRD 값을 하나의 고정 역치로 혼합하지 않는다. 이 AYA 권고를 모든 고령 성인이나 T-ALL에 그대로 적용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - MRD, 유전학, 초기 치료 반응 시간은 예후에 중요하다. Ph+ ALL은 TKI 도입 전후 위험이 달라 이식은 위험도·반응에 따라 결정한다.

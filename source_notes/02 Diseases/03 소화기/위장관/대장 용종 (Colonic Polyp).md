@@ -16,6 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
+sources: ["USMSTF 대장 병변 내시경 절제 권고 2020 | https://gastro.org/clinical-guidance/endoscopic-removal-of-colorectal-lesions-recommendations-from-the-u-s-multi-society-task-force-on-colorectal-cancer/", "USMSTF 용종 절제 후 추적 권고 2020 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7393611/", "USMSTF 절제 후 추적 지침 2020 | https://gastro.org/clinical-guidance/follow-up-after-colonoscopy-and-polypectomy-a-consensus-update-by-the-u-s-multi-society-task-force-on-colorectal-cancer/", "국내 폴립절제 후 추적대장내시경 지침 2022 | https://e-ce.org/journal/view.php?doi=10.5946%2Fce.2022.136", "ESGE 대장용종 절제·EMR 지침 2024 | https://www.esge.com/assets/downloads/pdfs/guidelines/2024_a-2304-3219.pdf", "USMSTF 악성 대장용종 권고 2020 | https://gastro.org/clinical-guidance/endoscopic-recognition-and-management-strategies-for-malignant-colorectal-polyps/", "국내 조기 위장관암 내시경 절제 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8100377/", "ACG 대장암 선별검사 2021 안내 | https://webfiles.gi.org/docs/media/crc_screening_guidelines_2021_release.pdf", "ACG 대장용종 가족력 안내 | https://gi.org/topics/colon-polyps/", "USMSTF 장정결 권고 2025 | https://www.asge.org/home/resources/publications/guidelines/optimizing-bowel-preparation-quality-for-colonoscopy--consensus-recommendations-by-the-us-multi-society-task-force-on-colorectal-cancer"]
 ---
 분과 : [[소화기]]
 
@@ -102,13 +103,3 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
 참고: 삼성서울병원 메뉴얼.
-- [USMSTF 대장 병변 내시경 절제 권고 2020](https://gastro.org/clinical-guidance/endoscopic-removal-of-colorectal-lesions-recommendations-from-the-u-s-multi-society-task-force-on-colorectal-cancer/)
-- [USMSTF 용종 절제 후 추적 권고 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7393611/)
-- [USMSTF 절제 후 추적 지침 2020](https://gastro.org/clinical-guidance/follow-up-after-colonoscopy-and-polypectomy-a-consensus-update-by-the-u-s-multi-society-task-force-on-colorectal-cancer/)
-- [국내 폴립절제 후 추적대장내시경 지침 2022](https://e-ce.org/journal/view.php?doi=10.5946%2Fce.2022.136)
-- [ESGE 대장용종 절제·EMR 지침 2024](https://www.esge.com/assets/downloads/pdfs/guidelines/2024_a-2304-3219.pdf)
-- [USMSTF 악성 대장용종 권고 2020](https://gastro.org/clinical-guidance/endoscopic-recognition-and-management-strategies-for-malignant-colorectal-polyps/)
-- [국내 조기 위장관암 내시경 절제 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC8100377/)
-- [ACG 대장암 선별검사 2021 안내](https://webfiles.gi.org/docs/media/crc_screening_guidelines_2021_release.pdf)
-- [ACG 대장용종 가족력 안내](https://gi.org/topics/colon-polyps/)
-- [USMSTF 장정결 권고 2025](https://www.asge.org/home/resources/publications/guidelines/optimizing-bowel-preparation-quality-for-colonoscopy--consensus-recommendations-by-the-us-multi-society-task-force-on-colorectal-cancer)

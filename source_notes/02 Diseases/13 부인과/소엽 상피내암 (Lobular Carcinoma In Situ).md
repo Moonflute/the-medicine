@@ -15,6 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ASBrS/SBI/CAP 2026 | https://doi.org/10.1001/jamasurg.2026.3552"]
 ---
 분과 : [[부인과]]
 
@@ -38,7 +39,7 @@ reviewed_at: "2026-07-30"
 ## 5. 치료
 - **관찰 가능한 병변**: classic LCIS 또는 ALH가 중심부 생검에서 확인되고 영상–병리가 일치하면 진단적 절제를 생략할 수 있다. 정규 선별검사를 유지하며 종합 위험도에 따라 연간 MRI와 약물 위험 감소를 논의한다.
 - **절제해야 하는 병변**: pleomorphic 또는 florid LCIS는 진단적 절제를 권고하며 최종 절제연에 병변이 없도록(no lesion at ink) 한다. 영상 불일치·동반 고위험 병변도 재평가/절제 사유다.
-- **절제연과 추가치료**: 다른 암 수술의 절제연에 classic LCIS/ALH만 있는 경우 그것만으로 재절제를 하지 않는다. classic LCIS에는 방사선치료를 권고하지 않는다. 위험 감소 약제는 폐경 여부, 혈전·자궁내막·골 건강 및 전체 유방암 위험을 고려해 선택한다. [ASBrS/SBI/CAP 2026](https://doi.org/10.1001/jamasurg.2026.3552)
+- **절제연과 추가치료**: 다른 암 수술의 절제연에 classic LCIS/ALH만 있는 경우 그것만으로 재절제를 하지 않는다. classic LCIS에는 방사선치료를 권고하지 않는다. 위험 감소 약제는 폐경 여부, 혈전·자궁내막·골 건강 및 전체 유방암 위험을 고려해 선택한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 침윤성 유방암으로 진행할 위험이 있으므로 장기적인 추적 관찰이 중요함.
