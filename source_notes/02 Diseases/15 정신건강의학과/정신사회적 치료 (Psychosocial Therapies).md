@@ -35,7 +35,6 @@ content_updated_at: "2026-07-30"
 - DSM-5 진단 기준에 따른 정신질환 진단 및 심리사회적 스트레스 요인(ICD-10 Z-code 등) 평가.
 
 ## 5. 치료
-
 - **치료적 동맹 형성**: 환자와의 신뢰 관계를 바탕으로 치료 목표를 명확히 설정하고, 환자의 능동적인 참여와 치료 순응도를 높이는 데 주력한다.
 - **통합적 접근**: 약물치료와 정신사회적 개입을 병행하여 증상 완화와 기능 회복을 동시에 도모하며, 치료 반응과 부작용을 정기적으로 모니터링한다.
 - **위기 관리 및 안전 확보**: 자·타해 위험이나 급성 기능 저하 시 즉각적인 보호 수준을 재평가하고, 필요시 입원 치료나 지역사회 위기 개입 시스템을 연계한다.
@@ -58,7 +57,8 @@ content_updated_at: "2026-07-30"
 
 ### 행동 치료 (Behavior therapy)
 * **기법**: 이완 훈련, 체계적 탈감작법, 조작적 기법 (행동 수정 기법), 혐오 자극법, 노출
-*   **치료 생체 되먹임 (Biofeedback)**
+
+**치료 생체 되먹임 (Biofeedback)**
 
 ### 인지 치료 (Cognitive therapy)
 * **의미**: 스스로 추론의 오류를 찾도록 유도함
@@ -68,7 +68,8 @@ content_updated_at: "2026-07-30"
 * **집단 치료 (Group therapy)**: 망상 장애는 CIx (Contraindication)
 *   **안구 운동 탈민감 재처리 (Eye Movement Desensitization and Reprocessing, EMDR)**
 * **인지 재활 (Cognitive rehabilitation)**: 인지 결손, 뇌 손상, 만성 조현병
-*   **가족 치료, 부부 치료, 환경 치료, 예술 치료 등**
+
+**가족 치료, 부부 치료, 환경 치료, 예술 치료 등**
 
 출처 : StatPearls (Erikson's Stages of Psychosocial Development)
 Last updated :
@@ -83,7 +84,9 @@ Last updated :
 * **위기 개입**: 성폭행 등 상황
 ### 행동 치료 (Behavior therapy)
 * **기법**: 이완 훈련, 체계적 탈감작법, 조작적 기법 (행동 수정 기법), 혐오 자극법, 노출
-*   **치료 생체 되먹임 (Biofeedback)**
+
+**치료 생체 되먹임 (Biofeedback)**
+
 ### 인지 치료 (Cognitive therapy)
 * **의미**: 스스로 추론의 오류를 찾도록 유도함
 * **기법**: 자동 사고 식별 - 자동 사고 수정 - 인지적 예행 연습

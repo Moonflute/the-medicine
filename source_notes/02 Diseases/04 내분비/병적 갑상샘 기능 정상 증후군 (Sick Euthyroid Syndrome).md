@@ -18,11 +18,15 @@ reviewed_at: "2026-07-30"
 
 ## 1. 개요
 - 정의: 갑상샘 자체의 질환 없이 급성 중증 질환, 기아, 외상, 수술 등 생리적 스트레스로 인해 갑상샘 기능 검사(TFT) 이상이 발생하는 상태(Sick euthyroid syndrome, SES, nonthyroidal illness, NTI).
-- 병태생리:
+
+**병태생리:**
+
   - 사이토카인(IL-1, IL-6, TNF-α 등)이 시상하부-뇌하수체-갑상샘 축을 억제하여 TSH, TRH, T3, TBG 생성을 감소시킴.
   - 말초 조직의 type 1 deiodinase 활성 저하 및 type 3 deiodinase 활성 증가로 T4에서 T3로의 전환이 감소하고 rT3가 증가함.
   - 혈청 알부민 감소 및 갑상샘 호르몬 결합 억제 인자 등으로 인해 호르몬 결합 및 운반에 변화 발생.
-- 주요 유형:
+
+**주요 유형:**
+
   - Low T3 syndrome: 가장 흔한 패턴(입원 환자의 약 75%). T3 저하, rT3 증가.
   - Low T4 syndrome: 중증 환자에서 발생하며 예후 불량 지표(T4 4mcg/dL 미만 시 사망률 증가).
 

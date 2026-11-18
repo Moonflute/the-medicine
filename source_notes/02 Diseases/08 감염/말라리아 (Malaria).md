@@ -26,9 +26,12 @@ content_updated_at: "2026-11-17"
 ## 1. 개요
 - **정의**: 말라리아 원충 (Plasmodium species)에 의해 발생하는 모기 매개 감염성 질환
 
-- **원인**: 열대열원충 (P. falciparum), 삼일열원충 (P. vivax), 난형원충 (P. ovale), 사일열원충 (P. malariae), 노울시원충 (P. knowlesi) 등이 원인이다.
+**원인**:
 
-- **기전**:
+열대열원충 (P. falciparum), 삼일열원충 (P. vivax), 난형원충 (P. ovale), 사일열원충 (P. malariae), 노울시원충 (P. knowlesi) 등이 원인이다.
+
+**기전**:
+
   감염된 암컷 학질모기 (Anopheles mosquito)에 물려 원충이 인체에 침투하면 간에서 증식(exoerythrocytic schizogony)한 후 적혈구를 감염시켜 파괴한다.
   이 과정에서 주기적인 발열과 빈혈이 발생한다.
   삼일열원충과 난형원충은 간 내 휴면형(hypnozoite)으로 남아 재발을 일으킬 수 있다.
@@ -55,13 +58,14 @@ content_updated_at: "2026-11-17"
 - 치료 중에는 기생충혈증 추세와 혈당을 확인하고, 의식저하·저혈당·호흡부전·신기능 악화는 중증 말라리아 신호로 평가한다.
 
 **경구에서 정주로**:
+
 - 의식 저하·경련, 쇼크, 호흡부전, AKI, 중증 빈혈·산증 또는 CDC 기준 기생충혈증 ≥5%는 IV artesunate를 긴급 투여할 중증 소견이다.
 - 경구 복용 불가도 정주 치료를 검토한다.
 - 초기 정주 과정 후 기생충혈증 ≤1%이고 경구 가능하면 완전한 경구 후속 요법을 시행한다.
 
 **근치요법 안전성**:
-- P. vivax/ovale의 primaquine·tafenoquine은 정량 G6PD 검사 뒤 선택하며 임신 중 투여하지 않는다.
-- 약제·연령·동반 혈액기 치료에 따라 tafenoquine 적용이 제한된다.
+
+P. vivax/ovale의 primaquine·tafenoquine은 정량 G6PD 검사 뒤 선택하며 임신 중 투여하지 않는다. 약제·연령·동반 혈액기 치료에 따라 tafenoquine 적용이 제한된다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 열대열원충은 뇌성 말라리아, 급성 호흡곤란 증후군(ARDS), 신부전 등 중증 합병증을 유발할 수 있어 치명적일 수 있음

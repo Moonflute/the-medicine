@@ -28,7 +28,10 @@ sources: ["다학제 합의, 2023 | https://doi.org/10.1136/jnnp-2023-331166"]
 * **P/E**: 오심, 구토, 경부 강직, 어지럼증, 이명, 시야 흐림, 복시 등 동반 가능
 
 ## 3. 검사 (Lab & Imaging)
-- **MRI (Brain)**: SEEPS 소견: Subdural fluid collections, Enhancement of pachymeninges, Engorgement of venous structures, Pituitary enlargement, Sagging of brain
+**MRI (Brain)**:
+
+SEEPS 소견: Subdural fluid collections, Enhancement of pachymeninges, Engorgement of venous structures, Pituitary enlargement, Sagging of brain
+
 - **기타**: 척추 CT 척수조영술(CT myelography)을 통해 유출 부위 확인 가능
 
 ## 4. 진단 (Diagnosis)

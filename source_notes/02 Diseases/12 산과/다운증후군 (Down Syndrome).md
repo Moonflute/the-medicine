@@ -27,20 +27,23 @@ content_updated_at: "2026-07-16"
 
 ## 1. 개요
 - **정의**: 21번 염색체가 3개 존재하는 상염색체 삼염색체증(Trisomy 21)으로, 지적 장애를 유발하는 가장 흔한 유전적 원인임.
-- **원인**: 약 95%는 감수분열 시 비분리(nondisjunction)에 의해 발생하며, 일부는 로버트슨 전좌(Robertsonian translocation)나 모자이크 현상(mosaicism)에 의해 발생함.
+
+**원인**:
+
+약 95%는 감수분열 시 비분리(nondisjunction)에 의해 발생하며, 일부는 로버트슨 전좌(Robertsonian translocation)나 모자이크 현상(mosaicism)에 의해 발생함.
+
 - **기전**: 21번 염색체의 유전자 과발현(gene dosage imbalance)이 발달 경로를 방해하여 다기관 침범 및 특징적인 신체적, 신경학적 양상을 유발함.
-
-
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 특징적인 안면 기형, 근긴장 저하(hypotonia), 발달 지연.
-* **P/E**: 
+
+**P/E**:
+
   - 심혈관계: 선천성 심장 기형(AVSD, VSD 등)이 흔함.
   - 소화기계: 십이지장 폐쇄, Hirschsprung 병, 셀리악병 위험 증가.
   - 혈액계: 신생아기 일시적 골수증식질환(TMD), 급성 골수성 백혈병(AML) 위험 증가.
   - 신경계: 지적 장애, 조기 발병 알츠하이머 치매, 경련.
   - 내분비계: 갑상선 기능 저하증.
-
 
 ## 3. 검사 (Lab & Imaging)
 * 산전 선별검사: 제1삼분기(NT 포함) 및 제2삼분기(Triple/Quad) 생화학 검사, 세포유전학적 선별검사(cfDNA)를 포함한 다양한 전략(Integrated, Contingent, Reflex screening) 활용 가능.
@@ -51,7 +54,6 @@ content_updated_at: "2026-07-16"
 ## 4. 진단 (Diagnosis)
 * 임상적 특징과 세포유전학적 검사(핵형 분석)를 통해 확진함.
 
-
 ## 5. 치료 (Treatment)
 * 근본적인 치료는 없으며, 다학제적 접근을 통한 증상 관리 및 합병증 조기 발견이 핵심임.
 * 정기적인 심장, 청력, 시력, 갑상선 기능 및 발달 상태 모니터링.
@@ -59,7 +61,6 @@ content_updated_at: "2026-07-16"
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 기대 수명은 크게 향상되었으나, 심장 기형, 백혈병, 조기 치매 등 평생에 걸친 건강 관리가 필요함.
-
 
 출처 : StatPearls (Down Syndrome)
 Last updated :

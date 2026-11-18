@@ -31,7 +31,8 @@ review_status: "guideline_enriched"
 - **기전**: 직접 쿰스 검사 (Direct Coombs test) 양성으로 진단.
   **온난 자가면역 용혈성 빈혈 (Warm AIHA)** : 자가 IgG 항체가 37°C 이상의 온도에서 적혈구와 반응하며, 주로 비장에서 혈관 외 용혈을 유발.
   **한랭 자가면역 용혈성 빈혈 (Cold AIHA)** : 자가 IgM 항체가 37°C 미만에서 적혈구와 반응하며, 주로 보체 매개성 용혈을 유발.
-- 온난형은 특발성이거나 SLE, CLL, 림프종, 동종 조혈모세포이식 후 및 약물(cefotetan, ceftriaxone 등)과 연관될 수 있다. 한랭응집소병은 특발성 또는 EBV·CMV·Mycoplasma 감염, Waldenström macroglobulinemia·림프종과 연관될 수 있다.
+
+온난형은 특발성이거나 SLE, CLL, 림프종, 동종 조혈모세포이식 후 및 약물(cefotetan, ceftriaxone 등)과 연관될 수 있다. 한랭응집소병은 특발성 또는 EBV·CMV·Mycoplasma 감염, Waldenström macroglobulinemia·림프종과 연관될 수 있다.
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 빈혈 증상 (피로, 창백, 심한 경우 흉통, 실신, 심부전).
@@ -49,7 +50,7 @@ review_status: "guideline_enriched"
   말초혈액 도말검사에서 구상적혈구(spherocyte) 관찰 가능.
 
 ## 5. 치료 (Treatment)
-  **공통** : 심각한 빈혈 시 수혈 (적합 혈액이 없더라도 생명 위협 시 시행).
+**공통** : 심각한 빈혈 시 수혈 (적합 혈액이 없더라도 생명 위협 시 시행).
   **Warm AIHA** :
     1차 치료: 글루코코르티코이드 (프레드니손 등).
     불응성/재발 시: 리툭시맙, 비장 적출술, 면역억제제 (아자티오프린, 마이코페놀레이트 등), IVIG.
@@ -58,9 +59,8 @@ review_status: "guideline_enriched"
     추위 노출 회피.
     기저 질환 치료.
     리툭시맙 (단독 또는 화학요법 병용), 보체 억제제 고려.
-- 중증 급성 AIHA는 응급상황이며 수혈 호환성 문제가 있을 수 있다.
-- 생명을 위협하는 빈혈에서는 교차시험을 진행하면서 수혈을 지연하지 않되, 안정적이면 수혈 필요성을 신중히 판단한다.
-- 매뉴얼의 온난형 1차 예시는 prednisolone 1 mg/kg/day이며, 재발·불응성에서는 rituximab 또는 비장절제술을 고려한다.
+
+중증 급성 AIHA는 응급상황이며 수혈 호환성 문제가 있을 수 있다. 생명을 위협하는 빈혈에서는 교차시험을 진행하면서 수혈을 지연하지 않되, 안정적이면 수혈 필요성을 신중히 판단한다. 매뉴얼의 온난형 1차 예시는 prednisolone 1 mg/kg/day이며, 재발·불응성에서는 rituximab 또는 비장절제술을 고려한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료에 반응하는 경우가 많으나, 재발 가능성 있음.

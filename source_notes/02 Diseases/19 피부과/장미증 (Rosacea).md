@@ -25,7 +25,9 @@ sources: ["AAD | https://www.aad.org/public/diseases/rosacea/treatment/diagnosis
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 안면 홍조, 화끈거림, 지속적인 홍반, 구진 및 농포.
-* **P/E**:
+
+**P/E**:
+
   4가지 아형(홍반혈관확장형, 구진농포형, 비후형, 안구형)으로 분류.
   여드름과 달리 면포(comedone)가 없는 것이 특징.
   안구 증상(건조감, 이물감, 충혈 등)이 동반될 수 있음.
@@ -40,10 +42,11 @@ sources: ["AAD | https://www.aad.org/public/diseases/rosacea/treatment/diagnosis
 - 유발요인 회피·광보호·부드러운 세안을 기본으로 한다.
 - **지속 홍반**: brimonidine·oxymetazoline 또는 혈관 레이저/IPL.
 - **구진·농포**: ivermectin·azelaic acid·metronidazole 등 국소제.
+
 - 광범위 염증·국소 치료 실패이면 항염 용량 doxycycline 등 경구 치료를 검토하고 반응 후 국소 유지 치료로 줄인다.
 - 중증 난치성에서는 전문의가 isotretinoin 등을 고려한다.
-- 눈꺼풀 위생·인공눈물을 병행하되 안통·광과민·시력 저하·각막 침범이면 신속히 안과 평가한다.
-- 코의 고정된 조직 증식은 약물만으로 회복되지 않아 레이저·수술적 교정을 검토한다.
+
+눈꺼풀 위생·인공눈물을 병행하되 안통·광과민·시력 저하·각막 침범이면 신속히 안과 평가한다. 코의 고정된 조직 증식은 약물만으로 회복되지 않아 레이저·수술적 교정을 검토한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 만성 질환으로 완치가 어렵고 재발이 잦음.

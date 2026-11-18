@@ -50,6 +50,7 @@ sources: ["ATA | https://www.thyroid.org/guidelines-hyperthyroidism-thyrotoxicos
 - 안병증 관리: 금연, 필요 시 안과적 치료 및 안와 감압술 고려.
 
 **확정 치료 전환**:
+
 - 항갑상샘제는 보통 12–18개월 후 TSH·TRAb가 정상일 때 중단을 검토하고, 지속 항체 양성·재발이면 저용량 유지 또는 RAI·수술을 선택한다.
 - 큰 압박성 갑상샘종·악성 의심은 수술을 우선 논의하며, 임신·수유 또는 활동성 중등도–중증 안병증에서는 RAI를 피한다.
 

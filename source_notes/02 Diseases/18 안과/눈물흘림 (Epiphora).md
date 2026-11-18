@@ -24,7 +24,9 @@ sources: ["AAPOS | https://patients.aapos.org/glossary/nasolacrimal-duct-obstruc
 ## 1. 개요
 - **정의**: 눈물이 정상적인 배출 경로를 통하지 못하고 안구 표면에서 넘쳐흘러 뺨으로 흐르는 증상.
 - **원인**: 눈물 분비 과다(반사성 눈물 등) 또는 눈물 배출 경로의 폐쇄(눈물점, 눈물소관, 눈물주머니, 코눈물관 폐쇄) 및 눈물 펌프 기능 저하(안검 이완, 안면신경마비 등).
-- **기전**:
+
+**기전**:
+
   눈물은 눈물샘에서 분비되어 안구 표면을 적신 후, 눈물점(puncta)을 통해 눈물소관(canaliculi), 눈물주머니(lacrimal sac), 코눈물관(nasolacrimal duct)을 거쳐 비강으로 배출됨.
   이 과정 중 어느 한 곳이라도 막히거나, 눈꺼풀의 위치 이상으로 눈물 펌프 기능이 저하되면 눈물흘림이 발생함.
 
@@ -34,7 +36,9 @@ sources: ["AAPOS | https://patients.aapos.org/glossary/nasolacrimal-duct-obstruc
 
 ## 3. 검사 (Lab & Imaging)
 * **분비 기능 검사**: Schirmer 검사(기초 및 반사 눈물 분비량 측정), 눈물막 파괴 시간(TBUT) 측정.
-* **배출 기능 검사**:
+
+**배출 기능 검사**:
+
 * 형광염색 소실 검사(Fluorescein Dye Disappearance Test): 눈물 배출 지연 확인.
 * Jones I & II 검사: 눈물 배출 경로의 개통성 평가.
 * 눈물길 관류 및 탐침술(Irrigation & Probing): 폐쇄 부위 및 정도 확인.
@@ -50,9 +54,8 @@ sources: ["AAPOS | https://patients.aapos.org/glossary/nasolacrimal-duct-obstruc
 - 안검 위치 이상(외반·내반) 시: 안검 교정술 필요 여부 안과·안면외과 협진, 수술 후 안검 위치와 눈물 흐름 확인.
 
 **선천성 코눈물관 폐쇄**:
-- 영아는 마사지·관찰을 우선하며 분비물 감염 시에만 단기 국소 항생제를 사용한다.
-- **12개월 이후 지속**하거나 증상이 심하면 probing을 검토한다.
-- 발열·누낭 발적/종창은 급성 누낭염으로 즉시 전신 치료를 평가한다.
+
+영아는 마사지·관찰을 우선하며 분비물 감염 시에만 단기 국소 항생제를 사용한다. **12개월 이후 지속**하거나 증상이 심하면 probing을 검토한다. 발열·누낭 발적/종창은 급성 누낭염으로 즉시 전신 치료를 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인에 따라 예후가 다양함.

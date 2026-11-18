@@ -41,6 +41,7 @@ sources: ["ESE/ENSAT | https://academic.oup.com/ejendo/article/179/4/G1/6655445"
 출처: 삼성서울병원 외과 메뉴얼
 
 **수술 후 보조치료**:
+
 - ENSAT III기, R1 절제 또는 Ki-67 >10% 등 고재발 위험에서는 mitotane 보조치료를 논의한다.
 - I–II기·R0·Ki-67 ≤10%에는 일률적으로 투여하지 않고 재발 위험·독성·선호를 평가한다.
 - 절제 불가능하고 빠르게 진행하는 질환은 mitotane 단독 또는 etoposide–doxorubicin–cisplatin 병용을 종양 부담·진행 속도에 따라 선택한다.

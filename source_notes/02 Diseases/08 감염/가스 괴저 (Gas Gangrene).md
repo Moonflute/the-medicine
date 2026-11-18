@@ -28,7 +28,8 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 극심한 통증, 발열, 오한
 
-* **P/E**:
+**P/E**:
+
   갑작스럽고 심한 통증과 빠른 진행, 근육 괴사, 피부가 구리빛으로 변하며 혈성 장액성 분비물·물집 (bullae)이 동반될 수 있다.
   촉진 시 피하 기종 (crepitus)이 느껴진다. 저혈압·전신 독성은 중증 감염 신호다.
 

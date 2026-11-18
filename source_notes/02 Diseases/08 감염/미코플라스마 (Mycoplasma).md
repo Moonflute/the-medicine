@@ -25,9 +25,12 @@ sources: ["CDC M. genitalium 지침 | https://www.cdc.gov/std/treatment-guidelin
 ## 1. 개요
 - **정의**: 세포벽이 없는 미코플라스마 (Mycoplasma) 속 세균에 의해 발생하는 감염. 세포벽이 없어 페니실린 등 세포벽 합성을 억제하는 항생제에 반응하지 않는다.
 
-- **원인**: 주요 병원성 종으로 호흡기 감염을 일으키는 *M. pneumoniae*와 비뇨생식기 감염을 일으키는 *M. genitalium*, *M. hominis*, *Ureaplasma urealyticum* 등이 있다.
+**원인**:
 
-- **기전**
+주요 병원성 종으로 호흡기 감염을 일으키는 *M. pneumoniae*와 비뇨생식기 감염을 일으키는 *M. genitalium*, *M. hominis*, *Ureaplasma urealyticum* 등이 있다.
+
+**기전**
+
   *M. pneumoniae*는 호흡기 상피세포에 부착하여 손상을 입히고 염증을 유발한다. 비뇨생식기 종들은 점막 손상 시 상행 감염을 일으킬 수 있다.
 
 ## 2. 임상 양상 (Clinical Features)
@@ -55,8 +58,7 @@ sources: ["CDC M. genitalium 지침 | https://www.cdc.gov/std/treatment-guidelin
 - Azithromycin 1 g 단회요법은 내성 유발 때문에 피한다.
 - PID에서 M. genitalium이 확인되면 moxifloxacin 14일 등 별도 요법을 검토한다.
 
-- QT 연장·간독성·건병증 등 약제별 위험과 임신 여부를 확인하며, 권장 요법 후 무증상이면 완치검사를 일률적으로 시행하지 않는다.
-- 지속 증상 또는 대체요법 사용 시에는 재감염·내성과 완치검사 필요성을 재평가한다.
+QT 연장·간독성·건병증 등 약제별 위험과 임신 여부를 확인하며, 권장 요법 후 무증상이면 완치검사를 일률적으로 시행하지 않는다. 지속 증상 또는 대체요법 사용 시에는 재감염·내성과 완치검사 필요성을 재평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 양호하나, *M.

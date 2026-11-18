@@ -22,7 +22,8 @@ clinical_priority: tier_2
 ## 개요
 - CPP 결정이 관절 연골·섬유연골에 침착해 급성 또는 만성 염증성 관절염을 일으키는 질환이다. 급성 발작은 가성통풍이라고도 부른다.
 - 무릎과 손목이 흔하며, 고령·골관절염·유전성 혈색소침착증·부갑상샘기능항진증·저마그네슘혈증 등이 단서가 된다.
-- CPPD는 calcium pyrophosphate dihydrate 결정이 연골의 세포주위 기질에 침착하는 질환으로, chondrocalcinosis 또는 pyrophosphate arthropathy라고도 한다. 급성 관절염으로 발현한 경우를 pseudogout라고 하며, 노인에서 가장 흔한 결정침착질환이다.
+
+CPPD는 calcium pyrophosphate dihydrate 결정이 연골의 세포주위 기질에 침착하는 질환으로, chondrocalcinosis 또는 pyrophosphate arthropathy라고도 한다. 급성 관절염으로 발현한 경우를 pseudogout라고 하며, 노인에서 가장 흔한 결정침착질환이다.
 
 ## 통풍과 감별
 | 항목 | CPPD | 통풍 |

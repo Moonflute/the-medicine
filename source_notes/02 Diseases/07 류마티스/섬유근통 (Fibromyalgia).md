@@ -32,9 +32,9 @@ sources: ["EULAR 섬유근통 치료 권고 요약 | https://www.eular.org/docum
 
 ## 5. 치료
 - 비약물 치료 중 운동요법과 인지행동치료는 효과가 입증되어 있다.
-- 약물은 비약물 치료와 함께 증상에 따라 개별화한다.
-- 저용량 amitriptyline, 통증·수면장애에 대한 pregabalin, 심한 통증에 대한 duloxetine 또는 milnacipran을 고려할 수 있다.
-- 교재는 fluoxetine도 제시하지만, 이를 모든 환자의 섬유근통 통증에 효과적인 표준 약제로 일반화하지 않는다.
+
+약물은 비약물 치료와 함께 증상에 따라 개별화한다. 저용량 amitriptyline, 통증·수면장애에 대한 pregabalin, 심한 통증에 대한 duloxetine 또는 milnacipran을 고려할 수 있다. 교재는 fluoxetine도 제시하지만, 이를 모든 환자의 섬유근통 통증에 효과적인 표준 약제로 일반화하지 않는다.
+
 - 염증성 질환이 아니므로 glucocorticoid는 역할이 없다.
 
 ## 6. 예후 및 합병증

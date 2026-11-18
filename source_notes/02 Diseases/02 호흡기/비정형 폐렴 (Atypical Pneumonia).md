@@ -26,14 +26,18 @@ sources: ["ATS/IDSA CAP 지침 | https://www.idsociety.org/practice-guideline/co
 ## 1. 개요
 - **정의**: 일반적인 세균성 폐렴(Streptococcus pneumoniae 등)과 다른 병원체에 의해 발생하며, 그람 염색이나 표준 배양법으로 검출이 어려운 폐렴.
 
-- **원인**: Mycoplasma pneumoniae, Chlamydia pneumoniae, Legionella species가 주요 원인균이다. 그 외 Coxiella burnetii, Chlamydia psittaci 등이 포함된다.
+**원인**:
 
-- **기전**:
+Mycoplasma pneumoniae, Chlamydia pneumoniae, Legionella species가 주요 원인균이다. 그 외 Coxiella burnetii, Chlamydia psittaci 등이 포함된다.
+
+**기전**:
+
   주로 비말 감염을 통해 호흡기로 침입하며, 세포 내 증식하는 특성이 있어 일반적인 항생제 반응이 다를 수 있다.
   폐 실질의 염증을 유발하며, 전형적 폐렴보다 경과가 완만할 수 있으나 중증으로 진행될 수 있다.
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**:
+**CC**:
+
   서서히 시작되는 미열, 두통, 근육통, 인후통 등 전신 증상이 선행되는 경우가 많다.
   기침은 대개 건성으로 나타나며 밤에 심해질 수 있다.
   * **특징:**
@@ -56,12 +60,11 @@ sources: ["ATS/IDSA CAP 지침 | https://www.idsociety.org/practice-guideline/co
   전형적 세균성 폐렴과 달리 그람 염색에서 원인균이 확인되지 않는 경우가 많다.
 
 ## 5. 치료
-- 원인·연령·임신·QT 및 상호작용을 보아 macrolide, doxycycline 또는 호흡기 fluoroquinolone을 선택한다.
-- 임상 양상만으로 '비정형'을 확정해 폐렴구균 치료를 생략하지 않으며 입원 CAP는 적절한 beta-lactam 병용 등을 적용한다.
-- 외래 치료 후 **48–72시간 내 호전 추세**를 확인하고, 악화·저산소증·저혈압·섭취 불가 시 5–7일을 기다리지 않고 재평가·입원한다.
-- 반응 부재는 내성, Legionella, 합병증·다른 진단을 검토한다.
-- 항생제 기간은 임상 안정·원인균에 맞추며 Legionella·면역저하·중증/폐외 합병증에는 일반적인 최단 CAP 기간을 그대로 적용하지 않는다.
-- 임상 회복 후 모든 환자에게 2주 내 재촬영을 일괄 시행하지 않는다.
+원인·연령·임신·QT 및 상호작용을 보아 macrolide, doxycycline 또는 호흡기 fluoroquinolone을 선택한다. 임상 양상만으로 '비정형'을 확정해 폐렴구균 치료를 생략하지 않으며 입원 CAP는 적절한 beta-lactam 병용 등을 적용한다.
+
+외래 치료 후 **48–72시간 내 호전 추세**를 확인하고, 악화·저산소증·저혈압·섭취 불가 시 5–7일을 기다리지 않고 재평가·입원한다. 반응 부재는 내성, Legionella, 합병증·다른 진단을 검토한다.
+
+항생제 기간은 임상 안정·원인균에 맞추며 Legionella·면역저하·중증/폐외 합병증에는 일반적인 최단 CAP 기간을 그대로 적용하지 않는다. 임상 회복 후 모든 환자에게 2주 내 재촬영을 일괄 시행하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 외래 치료로 호전되나, 고령자나 기저질환자는 중증 폐렴, ARDS, 패혈성 쇼크로 진행할 수 있다.

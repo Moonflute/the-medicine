@@ -27,13 +27,15 @@ sources: ["IDSA 항균제 내성 그람음성균 지침 | https://www.idsociety.
 
 - **원인**: Klebsiella pneumoniae (그람 음성, 협막 보유, 비운동성 간균).
 
-- **기전**:
+**기전**:
+
   주로 구강인두의 흡인(aspiration)을 통해 폐로 유입된다.
   협막(capsule)은 식균 작용을 회피하는 주요 독성 인자이며, siderophore를 통해 철분을 획득하여 증식한다.
   내독소(LPS)는 염증 반응을 유도하여 패혈증을 유발할 수 있다.
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**:
+**CC**:
+
   고열, 오한, 흉통, 호흡곤란 등 정형 폐렴 증상을 보인다.
   특징적으로 '커런트 젤리(currant jelly)' 양상의 끈적한 객담이 나타날 수 있는데, 이는 심한 조직 괴사와 염증을 반영한다.
 
@@ -48,16 +50,13 @@ sources: ["IDSA 항균제 내성 그람음성균 지침 | https://www.idsociety.
 - 임상 양상, 흉부 영상 소견, 미생물학적 배양 검사를 종합하여 진단한다.
 
 ## 5. 치료
-
 * 배양 검사 및 항생제 감수성 결과에 따라 표적 항생제를 선택하며, 초기 경험적 치료는 지역사회 획득 여부와 중증도를 고려하여 결정한다.
 * ESBL 생성 균주 확인 시 카바페넴 계열을 우선 고려하고, 다제내성균(CRE) 의심 시 즉시 감염내과 자문을 구한다.
 * 폐농양, 농흉 등 합병증 발생 시 영상 유도하 배액술이나 외과적 처치를 적극적으로 고려한다.
 * 고위험군(알코올 중독, 당뇨, 고령)은 중증 진행 위험을 반영해 치료 장소와 모니터링 강도를 결정한다.
 
-- ESBL 폐렴은 **meropenem/imipenem-cilastatin 등 carbapenem**을 우선한다.
-- 중증·저알부민혈증에서는 ertapenem보다 이들 약제가 적절하다.
-- 감수성으로 표시되어도 ESBL 폐렴에 piperacillin–tazobactam/cefepime을 일률 대체하지 않는다.
-- CRE는 carbapenemase 유형에 따라 약제가 달라져 감수성·유전자 결과로 표적화한다.
+ESBL 폐렴은 **meropenem/imipenem-cilastatin 등 carbapenem**을 우선한다. 중증·저알부민혈증에서는 ertapenem보다 이들 약제가 적절하다. 감수성으로 표시되어도 ESBL 폐렴에 piperacillin–tazobactam/cefepime을 일률 대체하지 않는다. CRE는 carbapenemase 유형에 따라 약제가 달라져 감수성·유전자 결과로 표적화한다.
+
 - 당뇨·고령 자체가 자동 입원 기준은 아니며 산소화·혈역학·섭취·전체 중증도와 추적 가능성으로 결정한다.
 
 ## 6. 예후 및 합병증 (Prognosis)

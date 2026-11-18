@@ -21,7 +21,9 @@ reviewed_at: "2026-07-30"
 ## 1. 개요
 - **정의**: 대장 점막의 침습적 염증으로 인해 혈액과 점액이 섞인 설사, 발열, 복통, 뒤무직(tenesmus) 등을 동반하는 급성 감염성 질환
 
-- **원인**: 주로 세균(Shigella spp.가 가장 흔함, 그 외 Campylobacter, Salmonella, enteroinvasive E. coli 등) 또는 아메바(Entamoeba histolytica) 감염에 의해 발생
+**원인**:
+
+주로 세균(Shigella spp.가 가장 흔함, 그 외 Campylobacter, Salmonella, enteroinvasive E. coli 등) 또는 아메바(Entamoeba histolytica) 감염에 의해 발생
 
 - **기전**: 병원균이 대장 상피세포를 침범하여 염증, 궤양 및 독소(Shiga toxin 등)를 생성하여 장 점막 손상 유발
 

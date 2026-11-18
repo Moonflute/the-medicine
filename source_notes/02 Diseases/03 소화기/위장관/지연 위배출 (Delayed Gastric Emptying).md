@@ -34,7 +34,9 @@ sources: ["AGA 위마비 지침 2025 | https://gastro.org/clinical-guidance/clin
 
 ## 3. 검사 (Lab & Imaging)
 - **혈액 검사**: 혈당, 당화혈색소(HbA1c) (당뇨병 확인).
-- **위 배출 섬광조영술(Gastric Emptying Scintigraphy, GES)**:
+
+**위 배출 섬광조영술(Gastric Emptying Scintigraphy, GES)**:
+
   표준 진단법.
   표준화된 고형 식사를 섭취 후 4시간까지 위 내 잔류량을 측정.
 - **기타**: 내시경(기계적 폐쇄 배제), 필요 시 호기 검사(breath test) 또는 무선 pH 캡슐.
@@ -56,12 +58,10 @@ sources: ["AGA 위마비 지침 2025 | https://gastro.org/clinical-guidance/clin
 기계적 폐쇄가 없으면 위배출 검사를 통해 지연 여부를 확인하고, 영양·증상 관리와 함께 수술팀과 협진한다.
 
 **약물 선택·실패 기준**:
-- 기계적 폐쇄를 배제하고 적절한 **4시간 위배출검사**로 지연을 확인한 뒤 metoclopramide 또는 단기간 erythromycin을 검토한다.
-- Metoclopramide는 불수의운동·지연성 운동장애, erythromycin은 QT·상호작용 및 내성 발생을 감시한다.
 
-- 식이·운동촉진제·항구토제에도 지속되는 객관적 위마비에서만 G-POEM·위 전기자극 등 중재를 선별한다.
-- AGA 2025는 난치성이라는 이유만으로 보툴리눔 독소·G-POEM·전기자극을 일괄 시행하지 않도록 한다.
-- 경구 영양이 불충분하면 공장 영양 등 지원을 함께 평가한다.
+기계적 폐쇄를 배제하고 적절한 **4시간 위배출검사**로 지연을 확인한 뒤 metoclopramide 또는 단기간 erythromycin을 검토한다. Metoclopramide는 불수의운동·지연성 운동장애, erythromycin은 QT·상호작용 및 내성 발생을 감시한다.
+
+식이·운동촉진제·항구토제에도 지속되는 객관적 위마비에서만 G-POEM·위 전기자극 등 중재를 선별한다. AGA 2025는 난치성이라는 이유만으로 보툴리눔 독소·G-POEM·전기자극을 일괄 시행하지 않도록 한다. 경구 영양이 불충분하면 공장 영양 등 지원을 함께 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성적인 경과를 보일 수 있으며, 영양 결핍 및 혈당 조절의 어려움이 동반될 수 있음.

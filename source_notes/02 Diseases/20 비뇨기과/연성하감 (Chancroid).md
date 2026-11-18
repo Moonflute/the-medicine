@@ -25,7 +25,9 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/chancroid.htm"]
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC:** 통증성 궤양 (Soft chancre)
-* **P/E:**
+
+**P/E:**
+
   - 1~2cm 크기의 통증성 궤양, 기저부가 취약하고 황회색 삼출물 동반
   - 다발성 궤양(kissing ulcers)이 나타날 수 있음
   - 약 50%에서 편측성 서혜부 림프절병증이 동반되며, 일부는 화농성 부보(bubo)로 진행
@@ -36,15 +38,16 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/chancroid.htm"]
 - 확진: 특수 배지를 이용한 배양 검사 또는 PCR(가장 정확하나 상용화 제한적)
 
 ## 4. 진단 (Diagnosis)
-- 다음 조건을 모두 만족할 때 추정 진단 가능:
+**다음 조건을 모두 만족할 때 추정 진단 가능:**
+
   1. 하나 이상의 통증성 생식기 궤양
   2. 매독 검사(암시야 검사 또는 혈청 검사) 음성
   3. 헤르페스(HSV) PCR 또는 배양 검사 음성
   4. 임상 양상이 연성하감에 부합
 
 ## 5. 치료
-- 성인 CDC 요법은 **azithromycin 1 g 경구 1회 또는 ceftriaxone 250 mg IM 1회**가 선택지다.
-- 대체 ciprofloxacin은 500 mg 하루 2회 **3일**, erythromycin은 500 mg 하루 3회 **7일**로, 모두 단회 요법인 것은 아니다.
+성인 CDC 요법은 **azithromycin 1 g 경구 1회 또는 ceftriaxone 250 mg IM 1회**가 선택지다. 대체 ciprofloxacin은 500 mg 하루 2회 **3일**, erythromycin은 500 mg 하루 3회 **7일**로, 모두 단회 요법인 것은 아니다.
+
 - **3~7일에 재평가**하여 진단·복약·HIV·동반 감염·내성을 확인한다. 큰 부보는 항생제만으로 늦게 호전할 수 있어 흡인/절개배액을 검토한다.
 - 증상 발생 전 10일 동안의 성접촉자는 증상이 없어도 검사·치료한다. 임신·수유·HIV에서는 약제와 추적을 개별화한다.
 

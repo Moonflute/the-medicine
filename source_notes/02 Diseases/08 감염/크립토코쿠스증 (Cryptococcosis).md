@@ -26,12 +26,14 @@ sources: ["NIH | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guideli
 
 - **원인**: 크립토코쿠스 네오포르만스(주로 비둘기 배설물 오염 토양) 및 C. gattii(주로 특정 수목).
 
-- **기전**:
+**기전**:
+
   포자 흡입을 통해 폐로 감염된다.
   면역 저하 환자(특히 HIV 감염, 장기 이식, 스테로이드 장기 복용 등)에서 혈류를 통해 중추신경계(뇌수막염), 피부, 뼈 등으로 파종된다.
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**:
+**CC**:
+
   폐 감염 시 기침, 흉통 등 호흡기 증상.
   중추신경계 감염 시 아급성 두통, 의식 변화, 시력 장애 등 뇌압 상승 증상(면역저하자에서는 발열이나 목 경직이 없어도 의심). 폐 병변은 결절·종괴로 폐암과 감별이 필요하며 면역저하자에서는 미만성 또는 공동성 병변을 보일 수 있음.
 
@@ -54,13 +56,12 @@ sources: ["NIH | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guideli
 - 면역 억제 요인을 평가하고, HIV 등 기저 면역 저하 상태는 적절히 관리하여 재발을 예방한다.
 
 **CNS 치료 단계**:
-- 적절한 amphotericin B+flucytosine 유도 후 임상·CSF 반응에 따라 fluconazole 공고, 이어 유지요법으로 전환한다.
-- HIV 수막염에서는 즉시 ART를 시작하면 IRIS 위해가 있어 항진균제 시작 약 4–6주 뒤로 조정한다.
+
+적절한 amphotericin B+flucytosine 유도 후 임상·CSF 반응에 따라 fluconazole 공고, 이어 유지요법으로 전환한다. HIV 수막염에서는 즉시 ART를 시작하면 IRIS 위해가 있어 항진균제 시작 약 4–6주 뒤로 조정한다.
 
 **뇌압 처치 기준**:
-- opening pressure와 두통·시력·의식을 확인하고, 증상성 상승이면 치료적 LP를 반복하여 압력을 절반 이상 낮추거나 <20 cmH₂O로 조절한다.
-- 지속 상승은 배액/단락술을 평가한다.
-- Mannitol·acetazolamide·일상 steroid가 LP를 대신하지 않는다.
+
+opening pressure와 두통·시력·의식을 확인하고, 증상성 상승이면 치료적 LP를 반복하여 압력을 절반 이상 낮추거나 <20 cmH₂O로 조절한다. 지속 상승은 배액/단락술을 평가한다. Mannitol·acetazolamide·일상 steroid가 LP를 대신하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 면역 저하 환자에서 중추신경계 감염은 치명적일 수 있으며, 뇌부종으로 인한 신경학적 후유증이 발생할 수 있다.

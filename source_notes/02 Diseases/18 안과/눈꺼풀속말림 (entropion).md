@@ -21,12 +21,18 @@ reviewed_at: "2026-07-30"
 
 ## 1. 개요
 - **정의**: 눈꺼풀 테가 안구 쪽으로 말려 들어가는 상태로, 속눈썹이 안구를 찌르는 결과를 초래함.
-- **원인**: 노화에 따른 퇴행성(involutional) 변화가 가장 흔하며, 그 외 반흔성(cicatricial), 급성 경련성(acute spastic), 선천성(congenital) 원인이 있음.
+
+**원인**:
+
+노화에 따른 퇴행성(involutional) 변화가 가장 흔하며, 그 외 반흔성(cicatricial), 급성 경련성(acute spastic), 선천성(congenital) 원인이 있음.
+
 - **기전**: 눈꺼풀의 수평적 이완, 눈꺼풀 당김근(retractor)의 약화, 안륜근의 과도한 수축 등이 복합적으로 작용하여 눈꺼풀 테가 안쪽으로 회전함.
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 이물감, 안구 통증, 눈물 흘림(epiphora), 눈부심, 시력 저하
-* **P/E**:
+
+**P/E**:
+
   눈꺼풀 테의 내반, 속눈썹 찔림, 각막 및 결막 손상(각막 찰과상, 신생혈관, 흉터 등).
   Snapback test 및 distraction test를 통해 눈꺼풀 이완 정도를 평가함.
 

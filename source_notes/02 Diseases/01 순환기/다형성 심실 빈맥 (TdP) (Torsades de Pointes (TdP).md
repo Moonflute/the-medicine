@@ -25,7 +25,9 @@ sources: ["AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitat
 
 - **원인**: 선천성 또는 후천성 긴 QT 증후군이 주요 원인이다. 후천성 원인으로는 저칼륨혈증, 저마그네슘혈증, 특정 약물(항부정맥제, 항히스타민제, 항정신병약 등)이 있다.
 
-- **기전**: 심근 재분극의 지연으로 인해 조기 탈분극(early afterdepolarization)이 발생하여 트리거가 형성되고, 심근의 재분극 분산(dispersion of repolarization)이 심해지면서 빈맥이 유지된다.
+**기전**:
+
+심근 재분극의 지연으로 인해 조기 탈분극(early afterdepolarization)이 발생하여 트리거가 형성되고, 심근의 재분극 분산(dispersion of repolarization)이 심해지면서 빈맥이 유지된다.
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 어지럼증, 실신, 심계항진 등이 나타날 수 있으며, 심실세동으로 진행될 경우 급사할 수 있다.
@@ -45,11 +47,9 @@ sources: ["AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitat
 * QT 간격 단축 및 빈맥 조절을 위해 일시적 심박동기 삽입이나 약물 치료를 고려한다.
 * 선천성 TdP의 경우 베타차단제를 우선 사용하고, 지속 시 삽입형 제세동기(ICD) 등을 고려한다.
 
-- 지속성 다형성 VT는 동기화가 어려워 **즉시 비동기 제세동**한다.
-- QT 연장성 TdP에서는 원인 약제를 중단하고 magnesium sulfate(성인 통상 2 g IV) 및 칼륨·마그네슘 교정을 시행한다.
-- QT 연장성 TdP에 amiodarone을 관성적으로 추가하지 않는다.
-- 서맥·휴지기 의존 **후천성 재발 TdP**가 교정에도 지속되면 임시 과속 조율 또는 isoproterenol을 전문 감시하에 사용한다.
-- 선천성 LQTS에 같은 약물 전략을 일괄 적용하지 않는다.
+지속성 다형성 VT는 동기화가 어려워 **즉시 비동기 제세동**한다. QT 연장성 TdP에서는 원인 약제를 중단하고 magnesium sulfate(성인 통상 2 g IV) 및 칼륨·마그네슘 교정을 시행한다. QT 연장성 TdP에 amiodarone을 관성적으로 추가하지 않는다.
+
+서맥·휴지기 의존 **후천성 재발 TdP**가 교정에도 지속되면 임시 과속 조율 또는 isoproterenol을 전문 감시하에 사용한다. 선천성 LQTS에 같은 약물 전략을 일괄 적용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심실세동으로 진행되어 급사할 수 있다.

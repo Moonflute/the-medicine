@@ -25,10 +25,13 @@ sources: ["CDC 약제 | https://www.cdc.gov/std/treatment-guidelines/bv.htm", "A
 - **기전**: 락토바실러스 감소로 인한 질 내 pH 상승(>4.5) 및 혐기성 세균의 바이오필름 형성.
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**:
+**CC**:
+
   생선 비린내와 유사한 악취가 나는 얇고 회백색의 질 분비물 증가.
   성관계 후 증상 악화 가능.
-* **P/E**:
+
+**P/E**:
+
   질벽을 얇게 덮는 균일한 분비물 관찰.
   많은 경우 무증상일 수 있음.
 
@@ -46,7 +49,6 @@ sources: ["CDC 약제 | https://www.cdc.gov/std/treatment-guidelines/bv.htm", "A
   4. Whiff test 양성
 
 ## 5. 치료
-
 - **치료 대상**: 증상이 있는 환자에게만 약물 치료를 시행하며, 무증상인 경우 원칙적으로 치료하지 않음.
 - **생활 습관 교정**: 질 내 정상 세균총의 균형을 깨뜨리는 질 세척(Douching)을 금지함.
 
@@ -59,13 +61,13 @@ sources: ["CDC 약제 | https://www.cdc.gov/std/treatment-guidelines/bv.htm", "A
 - **임신부 관리**: 임신 중 증상이 있는 경우 조산 등 합병증 예방을 위해 반드시 치료함.
 
 **초기 요법**:
+
 - metronidazole 500 mg 경구 하루 2회 7일, 0.75% 질 gel 5일 또는 clindamycin 2% 질 cream 7일 중 선택한다.
 - 다회 재발에서는 초기 치료 후 metronidazole gel 주 2회, 3개월 초과 억제요법 등을 검토한다.
 
 **동시 치료의 실제 선택지**:
-- NYSDOH 2026은 해당 남성 파트너에 metronidazole 500 mg 하루 2회 7일과 clindamycin 2% cream 음경 피부 도포 하루 2회 7일 병용을 제시한다.
-- 이는 여성에게 쓰는 질 치료와 구분하며 국소 음경 사용은 허가외 사용이다.
-- 양측 치료 완료까지 성접촉을 피하거나 지침에 따른 보호를 적용한다.
+
+NYSDOH 2026은 해당 남성 파트너에 metronidazole 500 mg 하루 2회 7일과 clindamycin 2% cream 음경 피부 도포 하루 2회 7일 병용을 제시한다. 이는 여성에게 쓰는 질 치료와 구분하며 국소 음경 사용은 허가외 사용이다. 양측 치료 완료까지 성접촉을 피하거나 지침에 따른 보호를 적용한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 골반염(PID), 성매개감염병 감염 위험 증가, 임신 시 조산 위험 증가.

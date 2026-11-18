@@ -23,7 +23,11 @@ sources: ["전향적 2상 연구 | https://doi.org/10.1056/NEJMoa2213329"]
 
 ## 1. 개요
 - **정의**: 주로 안장(sellar) 및 안장 위(suprasellar) 영역에서 발생하는 양성 중추신경계 종양으로, 뇌하수체 줄기 근처에서 흔히 발생함.
-- **원인**: 아다만티노종(adamantinomatous)은 라트케 주머니(Rathke pouch)의 배아 잔여물과 관련(CTNNB1 돌연변이), 유두종(papillary)은 뇌하수체 줄기 세포의 화생과 관련(BRAF V600E 돌연변이).
+
+**원인**:
+
+아다만티노종(adamantinomatous)은 라트케 주머니(Rathke pouch)의 배아 잔여물과 관련(CTNNB1 돌연변이), 유두종(papillary)은 뇌하수체 줄기 세포의 화생과 관련(BRAF V600E 돌연변이).
+
 - **기전**: 종양의 팽창으로 인한 시신경 교차 압박(시야 장애), 뇌하수체 압박(내분비 기능 저하), 제3뇌실 폐쇄(수두증 및 두개내압 상승) 유발.
 
 ## 2. 임상 양상 (Clinical Features)
@@ -32,7 +36,9 @@ sources: ["전향적 2상 연구 | https://doi.org/10.1056/NEJMoa2213329"]
 
 ## 3. 검사 (Lab & Imaging)
 - **CT**: 아다만티노종에서 석회화(calcification)가 흔함(90%).
-- **MRI**:
+
+**MRI**:
+
   종양의 위치와 주변 구조물(시신경, 뇌하수체, 시상하부)과의 관계 평가에 필수적.
   낭성 성분은 T1/T2 신호 강도가 다양, 조영 증강됨.
 - **호르몬 검사**: 기저 호르몬(ACTH, TSH, FSH/LH, GH, Prolactin) 및 요붕증 여부 확인.

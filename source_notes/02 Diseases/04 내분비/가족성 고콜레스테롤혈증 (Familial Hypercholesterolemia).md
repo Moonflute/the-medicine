@@ -29,7 +29,8 @@ content_updated_at: "2026-11-17"
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 조기 관상동맥 질환(premature CHD) 가족력, 고콜레스테롤혈증.
 
-* **P/E**
+**P/E**
+
   - 건 황색종(tendon xanthoma): 아킬레스건이나 손가락 신전건에 흔함.
   - 각막 환(corneal arcus): 45세 이전 발생 시 의심.
   - 황색판종(xanthelasma) 및 결절성 황색종(tuberous xanthoma).
@@ -45,18 +46,19 @@ content_updated_at: "2026-11-17"
 - 1차 친족에 대한 선별 검사(Cascade screening)가 필수적이다.
 
 ## 5. 치료 (Treatment)
-
 **가족 단위로 시작**:
-- 조기 ASCVD 위험을 설명하고, 1·2촌 혈족 cascade screening과 소아 평가를 연계한다.
-- 생활요법은 필요하지만 LDL 수용체 결함에 대한 약물치료를 대체하지 않는다.
+
+조기 ASCVD 위험을 설명하고, 1·2촌 혈족 cascade screening과 소아 평가를 연계한다. 생활요법은 필요하지만 LDL 수용체 결함에 대한 약물치료를 대체하지 않는다.
 
 **이형접합 FH**:
-- 최대 내약 용량 고강도 statin을 시작하고 LDL-C 목표·위험도에 따라 ezetimibe, PCSK9 억제제/siRNA 또는 bempedoic acid를 순차 추가한다.
-- 임상 ASCVD·매우 높은 LDL-C는 조기 전문의 의뢰 대상이다.
+
+최대 내약 용량 고강도 statin을 시작하고 LDL-C 목표·위험도에 따라 ezetimibe, PCSK9 억제제/siRNA 또는 bempedoic acid를 순차 추가한다. 임상 ASCVD·매우 높은 LDL-C는 조기 전문의 의뢰 대상이다.
 
 - **동형접합 FH**: lipid specialist 의뢰가 필요하며, LDL apheresis와 lomitapide·evinacumab 등 치료 접근성을 포함한 다중요법을 검토한다.
 - **안전·특수상황**: 임신 계획·임신 중에는 statin 등 금기/제한 약제를 사전에 조정하고, 간효소·근육 증상·순응도와 LDL 반응을 추적한다.
-- **약물 치료 단계적 접근**:
+
+**약물 치료 단계적 접근**:
+
   1. 1차: 최대 내약 용량 스타틴(statin) 및 에제티미브(ezetimibe).
   2. 2차: PCSK9 억제제, 벰페도익산(bempedoic acid) 추가 고려.
   3. 동형접합(Homozygous) FH: 로미타피드(lomitapide), 에비나쿠맙(evinacumab), 지질 성분 분리술(lipoprotein apheresis) 고려.

@@ -30,7 +30,8 @@ sources: ["CDC GAS 인두염 지침 | https://www.cdc.gov/group-a-strep/hcp/clin
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 갑작스러운 인후통, 발열, 두통, 연하곤란
 
-* **P/E**:
+**P/E**:
+
   편도선 비대 및 삼출물, 압통을 동반한 경부 림프절 종대, 구개 점상 출혈, 목젖 부종.
   기침, 콧물, 쉰 목소리 등은 바이러스성 인두염을 시사함.
 
@@ -44,7 +45,6 @@ sources: ["CDC GAS 인두염 지침 | https://www.cdc.gov/group-a-strep/hcp/clin
   임상 점수(발열, 삼출물, 기침 부재, 경부 림프절 종대)가 낮은 경우 추가 검사 불필요.
 
 ## 5. 치료
-
 * **항생제 치료**: 류마티스열 예방 및 증상 기간 단축을 위해 확진 시 항생제 투여를 원칙으로 함.
 * **약제 선택**: 페니실린계 항생제를 우선 고려하며, 알레르기 반응 여부에 따라 대체 항생제를 선택함.
 * **대증 요법**: 통증 및 발열 조절을 위해 아세트아미노펜 또는 NSAIDs를 병용함.
@@ -52,10 +52,8 @@ sources: ["CDC GAS 인두염 지침 | https://www.cdc.gov/group-a-strep/hcp/clin
 * **추적 관찰**: 증상 호전이 없거나 편도주위 농양 등 합병증 의심 시 상급 병원 진료를 권고함.
 
 **확인 후 처방:**
-- RADT 또는 배양 양성이면 penicillin/amoxicillin을 통상 10일 사용한다.
-- 3세 이상 소아의 RADT 음성은 배양으로 확인하되 성인에서는 음성 후 배양이 일상적으로 필요하지 않다.
-- 뚜렷한 기침·콧물 등 바이러스 양상에서는 경험적 항생제를 피한다.
-- 즉시형 penicillin 알레르기이면 cephalexin/cefadroxil을 피하고, 대체 macrolide·clindamycin은 지역 내성을 확인한다.
+
+RADT 또는 배양 양성이면 penicillin/amoxicillin을 통상 10일 사용한다. 3세 이상 소아의 RADT 음성은 배양으로 확인하되 성인에서는 음성 후 배양이 일상적으로 필요하지 않다. 뚜렷한 기침·콧물 등 바이러스 양상에서는 경험적 항생제를 피한다. 즉시형 penicillin 알레르기이면 cephalexin/cefadroxil을 피하고, 대체 macrolide·clindamycin은 지역 내성을 확인한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 류마티스열, 사구체신염, 편도주위 농양 등 발생 가능

@@ -34,7 +34,9 @@ sources: ["CDC | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-t
 ## 3. 검사 (Lab & Imaging)
 - **임상적 평가**: Centor score 또는 McIsaac score를 활용하여 세균성 편도염 가능성 평가.
 - **미생물 검사**: 신속 항원 검사(RADT) 및 인후 배양 검사(Throat culture)를 통해 GAS 감염 확인.
-- **영상 검사**:
+
+**영상 검사**:
+
   단순 편도염에는 불필요.
   편도주위농양 등 합병증 의심 시 경부 CT 시행.
 
@@ -50,9 +52,8 @@ sources: ["CDC | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-t
 - 손 씻기·개인 위생 등 감염 예방 교육을 제공하여 재발 위험을 감소시킴
 
 **항생제 확정**:
-- GAS 신속검사/배양 양성이면 penicillin 또는 amoxicillin을 통상 **10일** 사용한다.
-- 바이러스 소견이 뚜렷하면 검사·항생제를 일률 시행하지 않는다.
-- 소아의 음성 신속검사는 배양 확인을 고려한다.
+
+GAS 신속검사/배양 양성이면 penicillin 또는 amoxicillin을 통상 **10일** 사용한다. 바이러스 소견이 뚜렷하면 검사·항생제를 일률 시행하지 않는다. 소아의 음성 신속검사는 배양 확인을 고려한다.
 
 **소아 반복 감염의 수술 기준**:
 

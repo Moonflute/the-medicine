@@ -38,7 +38,6 @@ reviewed_at: "2026-07-30"
 - 섬망, 우울증, 가성치매 등 감별 진단.
 
 ## 5. 치료
-
 * **가역적 원인 교정**: 비타민 결핍, 갑상선 기능 저하, 전해질 불균형, 약물 부작용 등 내과적 원인을 우선적으로 평가하고 교정함.
 * **인지 재활 및 환경 조성**: 현실 지남력 훈련(ROT)과 회상 요법을 시행하고, 낙상 방지 등 환자의 안전을 위한 환경적 지지 체계를 구축함.
 * **보호자 교육 및 상담**: 질환의 경과와 증상 관리법을 교육하여 보호자의 부양 부담을 경감하고 정서적 지지를 제공함.
@@ -48,28 +47,41 @@ reviewed_at: "2026-07-30"
 - 원인 질환에 따라 가역적일 수 있으나, 퇴행성 질환은 점진적 악화 가능성 있음.
 - 합병증: 일상생활 수행 능력 저하, 낙상, 우울증, 섬망.
 
-*   **기억 항진 (Hypermnesia)**
-*   **건망증 (Amnesia)**
+**기억 항진 (Hypermnesia)**
+
+**건망증 (Amnesia)**
+
 * 전향성 기억상실 (Anterograde amnesia)
 * 후향성 기억상실 (Retrograde amnesia)
 * 심인성 기억상실 (Psychogenic amnesia)
-*   **기억 착오 (Paramnesia)**
+
+**기억 착오 (Paramnesia)**
+
 * 작화증 (Confabulation)
 * 회상 조작 (Memory distortion)
 * 병적 거짓말 (Pathological lying)
-*   **기시감 (Déjà vu)**
-*   **미시감 (Jamais vu)**
+
+**기시감 (Déjà vu)**
+
+**미시감 (Jamais vu)**
 
 출처 : Kaplan & Sadock's Synopsis of Psychiatry
 Last updated :
-*   **기억 항진 (Hypermnesia)**
-*   **건망증 (Amnesia)**
+
+**기억 항진 (Hypermnesia)**
+
+**건망증 (Amnesia)**
+
 * 전향성 기억상실 (Anterograde amnesia)
 * 후향성 기억상실 (Retrograde amnesia)
 * 심인성 기억상실 (Psychogenic amnesia)
-*   **기억 착오 (Paramnesia)**
+
+**기억 착오 (Paramnesia)**
+
 * 작화증 (Confabulation)
 * 회상 조작 (Memory distortion)
 * 병적 거짓말 (Pathological lying)
-*   **기시감 (Déjà vu)**
+
+**기시감 (Déjà vu)**
+
 * **미시감 (Jamais vu)**: 2026-05-18 — 본문 갱신 (codex fill)

@@ -39,13 +39,13 @@ sources: ["EULAR/PReS Still disease recommendations 2024 | https://pmc.ncbi.nlm.
 - 부기준은 인후통, 림프절병증 또는 비장비대, 약물독성·알레르기로 설명되지 않는 간기능 검사 이상, ANA 및 RF 음성이다.
 
 ## 5. 치료
-- 2024 EULAR/PReS 권고는 진단이 확립되면 IL-1 또는 IL-6 억제제를 가능한 일찍 시작하고, 필요 시 단기간 glucocorticoid를 병용하는 전략을 권고한다.
-- 장기간 스테로이드 의존을 줄이는 것이 중요하다.
+2024 EULAR/PReS 권고는 진단이 확립되면 IL-1 또는 IL-6 억제제를 가능한 일찍 시작하고, 필요 시 단기간 glucocorticoid를 병용하는 전략을 권고한다. 장기간 스테로이드 의존을 줄이는 것이 중요하다.
+
 - 교재의 전통적 단계 치료에서 NSAID는 관해 후 1–3개월간 지속할 수 있으나 약 20–25%만 반응해 대부분 glucocorticoid 또는 DMARD 병용이 필요하다고 기술한다.
-- 급성기 조절 또는 NSAID 불응 시 prednisolone 0.5–1.0 mg/kg/day를 고려한다.
-- 심근염, 심장눌림증, DIC, 대식세포활성화증후군, 폐고혈압 같은 치명적 합병증에는 methylprednisolone 충격요법을 사용할 수 있다.
-- 관절 증상 조절·스테로이드 감량을 위해 MTX를 포함한 DMARD 단독 또는 병합요법을 사용한다.
-- azathioprine, cyclosporine, tacrolimus, cyclophosphamide, leflunomide를 고려할 수 있다.
+
+급성기 조절 또는 NSAID 불응 시 prednisolone 0.5–1.0 mg/kg/day를 고려한다. 심근염, 심장눌림증, DIC, 대식세포활성화증후군, 폐고혈압 같은 치명적 합병증에는 methylprednisolone 충격요법을 사용할 수 있다.
+
+관절 증상 조절·스테로이드 감량을 위해 MTX를 포함한 DMARD 단독 또는 병합요법을 사용한다. azathioprine, cyclosporine, tacrolimus, cyclophosphamide, leflunomide를 고려할 수 있다.
 
 **교재에 제시된 생물학적 제제 선택**:
 - DMARD·glucocorticoid 불응: tocilizumab.

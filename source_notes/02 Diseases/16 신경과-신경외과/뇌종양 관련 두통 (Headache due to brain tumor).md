@@ -27,7 +27,8 @@ sources: ["SNO/EANO 권고 | https://doi.org/10.1093/neuonc/noab152"]
 - **기전**: 종양의 직접적인 통증 수용체 자극, 뇌압 상승(Intracranial pressure, ICP), 뇌척수액 순환 장애(수두증).
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**:
+**CC**:
+
   점진적으로 악화되는 두통.
   신경학적 증상(편마비, 감각 이상), 발작 동반 가능.
   아침에 심해지거나, 누운 자세에서 악화, Valsalva 수기(기침, 배변) 시 악화되는 경향.

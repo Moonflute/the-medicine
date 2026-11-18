@@ -35,7 +35,6 @@ content_updated_at: "2026-07-30"
   가역적 원인(저혈당, 저산소증 등)을 우선 배제.
 
 ## 5. 치료
-
 - **응급 처치 및 가역적 원인 교정**: 기도 유지, 호흡 및 순환 상태를 확보하고 저혈당, 저산소증, 전해질 불균형, 약물 중독 등 즉각적인 교정이 가능한 원인을 우선적으로 배제 및 치료한다.
 - **표준화된 신경학적 모니터링**: GCS 등 표준화된 도구를 사용하여 의식 수준의 변화를 주기적으로 평가하고, 진정제 사용이나 대사 상태 등 혼란 변수를 고려하여 추적 검사를 시행한다.
 
@@ -50,10 +49,17 @@ content_updated_at: "2026-07-30"
 
 출처 : Merck Manual Professional
 Last updated :
-*   **주의 장애 (Attention deficit)**
-*   **고양 상태 (Elevated mood)**
-*   **착란 (Confusion)**
-*   **몽롱 (Drowsiness)**
-*   **섬망 (Delirium)**
-*   **혼미 (Stupor)**
+
+**주의 장애 (Attention deficit)**
+
+**고양 상태 (Elevated mood)**
+
+**착란 (Confusion)**
+
+**몽롱 (Drowsiness)**
+
+**섬망 (Delirium)**
+
+**혼미 (Stupor)**
+
 * **혼수 (Coma)**: 2026-05-18 — 본문 갱신 (codex fill)

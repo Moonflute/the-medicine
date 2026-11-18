@@ -24,14 +24,16 @@ sources: ["IDSA 2026 | https://www.idsociety.org/practice-guideline/amr-guidance
 
 - **원인**: 정상 장내 세균총의 일부이나, 특정 병원성 균주(STEC 등)는 장관 감염을 유발하며, 요로 등 장관 외 부위에서 감염을 일으킬 수 있다.
 
-- **기전**:
+**기전**:
+
   균주에 따라 장독소 생성(ETEC), 장 점막 침투, 요로 상피세포 부착 등 다양한 기전을 통해 질병을 유발한다.
   특히 장출혈성 대장균(EHEC)은 시가 독소(Shiga toxin)를 생성하여 점막 및 혈관 내피세포를 손상시킨다.
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 요로 감염 (방광염, 신우신염), 위장염 (수양성 설사, 혈변, 복통), 패혈증, 수막염 (신생아)
 
-* **P/E**:
+**P/E**:
+
   위장염 시 심한 복부 경련, 혈변(출혈성 대장염).
   발열은 없거나 미열인 경우가 많음.
 
@@ -51,9 +53,8 @@ sources: ["IDSA 2026 | https://www.idsociety.org/practice-guideline/amr-guidance
 - 손 씻기·식품 위생을 교육하고, 회복 중에도 소변량·빈혈·혈소판 감소 등 HUS 소견을 확인한다.
 
 **ESBL에 따른 변경**:
-- ESBL 장관 외 침습성 감염·균혈증은 carbapenem을 우선 검토한다.
-- 안정되고 감수성이 확인되며 감염원이 조절되면 TMP-SMX/fluoroquinolone 경구 전환을 고려한다.
-- 단순 방광염은 감수성이 있으면 nitrofurantoin/TMP-SMX 등으로 치료할 수 있으며, ESBL이라는 이름만으로 모든 부위에 carbapenem을 쓰지 않는다.
+
+ESBL 장관 외 침습성 감염·균혈증은 carbapenem을 우선 검토한다. 안정되고 감수성이 확인되며 감염원이 조절되면 TMP-SMX/fluoroquinolone 경구 전환을 고려한다. 단순 방광염은 감수성이 있으면 nitrofurantoin/TMP-SMX 등으로 치료할 수 있으며, ESBL이라는 이름만으로 모든 부위에 carbapenem을 쓰지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 요로 감염은 재발이 흔함.

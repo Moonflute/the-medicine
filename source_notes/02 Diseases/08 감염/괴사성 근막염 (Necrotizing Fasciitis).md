@@ -21,16 +21,20 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 ## 1. 개요
 - **정의**: 근막과 피하조직을 침범하는 급성 괴사성 감염으로, 사망률이 매우 높은 중증 질환이다. 감염은 혈류 공급이 원활하지 않은 근막면을 따라 빠르게 확산된다.
 
-- **원인**: 주로 A군 사슬알균(Group A Streptococcus) 및 포도알균(Staphylococcus aureus)과 같은 그람양성균, 또는 그람음성균과 혐기성 세균이 혼합된 다균성 감염에 의해 발생한다. 피부 손상을 통해 세균이 침투하며, 당뇨병, 알코올 의존증, 간경변증 환자에서 호발한다. 간질환 환자의 해산물·해수 노출 뒤 발생한 경우 Vibrio 감염도 고려한다.
+**원인**:
+
+주로 A군 사슬알균(Group A Streptococcus) 및 포도알균(Staphylococcus aureus)과 같은 그람양성균, 또는 그람음성균과 혐기성 세균이 혼합된 다균성 감염에 의해 발생한다. 피부 손상을 통해 세균이 침투하며, 당뇨병, 알코올 의존증, 간경변증 환자에서 호발한다. 간질환 환자의 해산물·해수 노출 뒤 발생한 경우 Vibrio 감염도 고려한다.
 
 - **기전**: 세균이 근막층을 따라 빠르게 확산되며, 독소 생성 및 혈관 폐쇄(thrombosis)를 유발하여 조직 괴사와 허혈을 초래한다.
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**:
+**CC**:
+
   초기에는 병변 부위의 통증이 극심하나, 신경 손상으로 인해 이후 무통 상태가 될 수 있다.
   통증이 피부 병변의 범위보다 훨씬 심한 것이 특징이다.
 
-* **P/E**:
+**P/E**:
+
   부종, 홍반, 물집(bullae), 피부 괴사, 마찰음(crepitus, 피하 기종)이 나타날 수 있다.
   진행 시 패혈증, 빈맥, 발열 등 전신 증상이 동반된다. 자색 수포, 나무판 같은 경결, 의식 변화·저혈압이 나타날 수 있으며 초기 피부 변화가 적어도 급격히 진행할 수 있다.
 
@@ -50,9 +54,8 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 - 당뇨·면역저하 등 위험인자를 교정하고 반복 수술 시 괴사 진행·감염원 조절 여부를 재평가한다.
 
 **약제 변경**:
-- 초기에는 MRSA·그람음성·혐기균을 덮는 병합요법(예: vancomycin 또는 linezolid + piperacillin/tazobactam 또는 carbapenem)을 사용한다.
-- A군 연쇄상구균이 확인되면 penicillin+clindamycin으로 좁히는 것을 검토한다.
-- LRINEC 저점수나 가스가 없는 영상만으로 배제하지 않으며 수술을 지연하지 않는다.
+
+초기에는 MRSA·그람음성·혐기균을 덮는 병합요법(예: vancomycin 또는 linezolid + piperacillin/tazobactam 또는 carbapenem)을 사용한다. A군 연쇄상구균이 확인되면 penicillin+clindamycin으로 좁히는 것을 검토한다. LRINEC 저점수나 가스가 없는 영상만으로 배제하지 않으며 수술을 지연하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 사망률이 20~80%로 매우 높다.

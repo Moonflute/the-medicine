@@ -27,7 +27,9 @@ sources: ["FDA Itvisma | https://www.fda.gov/news-events/press-announcements/fda
 
 ## 2. 임상 양상 (Clinical Features)
 * **공통**: 지능은 정상이며, 근력 저하와 근육 위축이 근위부에서 두드러짐
-* **유형별 분류**:
+
+**유형별 분류**:
+
 * **Type 0 (선천성)**: 자궁 내 발병, 출생 직후 호흡 부전 및 사망
 * **Type I (Werdnig-Hoffmann)**: 6개월 이전 발병, 스스로 앉지 못함, 개구리 다리 자세, 혀 근섬유 다발 수축(fasciculation), 호흡 부전
 * **Type II (Dubowitz)**: 6~18개월 발병, 앉을 수는 있으나 보행 불가, 척추 측만증 및 호흡기 합병증 흔함
@@ -43,7 +45,6 @@ sources: ["FDA Itvisma | https://www.fda.gov/news-events/press-announcements/fda
 * 임상 증상 및 징후를 통한 유형 분류
 
 ## 5. 치료
-
 **질환 조절 치료**:
 - SMN 단백질 생성을 촉진하는 약물(Nusinersen, Onasemnogene abeparvovec, Risdiplam)을 조기에 투여하여 운동 기능 저하를 지연시킴.
 
@@ -52,10 +53,8 @@ sources: ["FDA Itvisma | https://www.fda.gov/news-events/press-announcements/fda
 * **다학제적 추적 관찰**: 척추 측만증 및 고관절 탈구 등 근골격계 합병증을 조기에 발견하기 위해 정기적인 정형외과적 검진 및 영상 평가를 시행함.
 
 **치료 선택 기준**:
-- 유전 진단 후 증상이 나타날 때까지 기다리지 않고 연령·SMN2 사본 수·운동/호흡 기능에 맞춰 치료를 서두른다.
-- 척수강내 nusinersen, 경구 risdiplam, AAV 유전자 대체치료는 투여 경로·기존 치료·간기능·항체·척추 접근성을 비교한다.
-- 정주 onasemnogene 제제와 척수강내 제제의 용량·연령 조건을 혼용하지 않는다.
-- FDA는 **2세 이상 SMN1 변이 확인** 환자의 척수강내 Itvisma를 2025년 승인했다.
+
+유전 진단 후 증상이 나타날 때까지 기다리지 않고 연령·SMN2 사본 수·운동/호흡 기능에 맞춰 치료를 서두른다. 척수강내 nusinersen, 경구 risdiplam, AAV 유전자 대체치료는 투여 경로·기존 치료·간기능·항체·척추 접근성을 비교한다. 정주 onasemnogene 제제와 척수강내 제제의 용량·연령 조건을 혼용하지 않는다. FDA는 **2세 이상 SMN1 변이 확인** 환자의 척수강내 Itvisma를 2025년 승인했다.
 
 **추가 치료의 조건**:
 - FDA는 2026년 **2세 이상이며 현재 SMN2 표적 치료를 받고 있는** 환자에게 근육 소실을 표적으로 하는 apitegromab(Isembyld)을 승인했다.

@@ -52,18 +52,18 @@ guideline_review_status: primary_source_reviewed
 - 연하 선별은 경구 섭취·약물 전 시행한다. 뇌영상·혈관영상, telemetry, 심초음파 및 장기 리듬 모니터링은 원인 분류와 이차예방 계획에 연결한다.
 
 ## 4. 진단
-- 급성 focal neurological deficit과 영상/임상으로 뇌출혈·mimic을 배제하여 AIS를 진단한다. large-vessel occlusion, 발병 시각/last known well, pre-stroke 기능, NIHSS 및 영상상 core/penumbra를 재관류 결정에 통합한다.
+급성 focal neurological deficit과 영상/임상으로 뇌출혈·mimic을 배제하여 AIS를 진단한다. large-vessel occlusion, 발병 시각/last known well, pre-stroke 기능, NIHSS 및 영상상 core/penumbra를 재관류 결정에 통합한다.
+
 - posterior circulation stroke는 NIHSS가 낮아도 심각할 수 있다. disabling deficit 여부는 점수만이 아니라 언어, 시야, 손기능, 보행 및 직업 기능에 미치는 영향으로 판단한다.
 
 ## 5. 치료 원칙
-- 적격한 disabling AIS 환자는 가능한 빨리 IV thrombolysis를 시행한다.
-- 표준 시간창 내 치료 가능 여부와 beyond-window 환자의 영상 기반 적격성은 지역 stroke protocol과 최신 지침에 따라 stroke team이 결정한다.
-- anterior circulation large-vessel occlusion에서는 EVT를 신속히 평가한다.
-- 시간창, baseline 기능, 혈관폐색 위치, core/penumbra를 고려하며, IV thrombolysis 적격인 환자에서 EVT 평가를 위해 IV 치료를 지연하지 않는다.
-- 혈압·산소화·체온·혈당을 관리하고, 저산소증·저혈압·발열·저혈당을 교정한다.
-- 재관류 전후 혈압 목표와 항혈전 투여는 사용한 재관류 치료 및 출혈 위험에 맞춰 protocol대로 관리한다.
-- 연하 확인 전 경구 투약·식이를 피하고, stroke unit 입원·조기 재활·VTE 예방·합병증 예방을 시행한다.
-- antiplatelet/anticoagulation, statin, 혈압·당뇨병 관리와 원인별 이차예방은 출혈 영상과 원인 평가 뒤 결정한다.
+적격한 disabling AIS 환자는 가능한 빨리 IV thrombolysis를 시행한다. 표준 시간창 내 치료 가능 여부와 beyond-window 환자의 영상 기반 적격성은 지역 stroke protocol과 최신 지침에 따라 stroke team이 결정한다.
+
+anterior circulation large-vessel occlusion에서는 EVT를 신속히 평가한다. 시간창, baseline 기능, 혈관폐색 위치, core/penumbra를 고려하며, IV thrombolysis 적격인 환자에서 EVT 평가를 위해 IV 치료를 지연하지 않는다.
+
+혈압·산소화·체온·혈당을 관리하고, 저산소증·저혈압·발열·저혈당을 교정한다. 재관류 전후 혈압 목표와 항혈전 투여는 사용한 재관류 치료 및 출혈 위험에 맞춰 protocol대로 관리한다.
+
+연하 확인 전 경구 투약·식이를 피하고, stroke unit 입원·조기 재활·VTE 예방·합병증 예방을 시행한다. antiplatelet/anticoagulation, statin, 혈압·당뇨병 관리와 원인별 이차예방은 출혈 영상과 원인 평가 뒤 결정한다.
 
 **정맥 혈전용해 선택**:
 
@@ -78,14 +78,15 @@ guideline_review_status: primary_source_reviewed
 - 4.5–9시간 또는 기상 뇌졸중은 적합한 관류영상/DWI–FLAIR 기준으로 선별한다.
 
 **혈전제거술 분기**:
-- ICA/M1 폐색의 0–6시간 표준 권고군은 NIHSS ≥6, 발병 전 mRS 0–1, **ASPECTS 3–10**이다.
-- 6–24시간에도 영상으로 선별하며, ASPECTS 3–5는 <80세·NIHSS ≥6·mRS 0–1·유의한 종괴효과 없음 등의 조건을 적용한다.
-- 작은 경색핵만 대상으로 한 과거 기준으로 일괄 배제하지 않는다.
+
+ICA/M1 폐색의 0–6시간 표준 권고군은 NIHSS ≥6, 발병 전 mRS 0–1, **ASPECTS 3–10**이다. 6–24시간에도 영상으로 선별하며, ASPECTS 3–5는 <80세·NIHSS ≥6·mRS 0–1·유의한 종괴효과 없음 등의 조건을 적용한다. 작은 경색핵만 대상으로 한 과거 기준으로 일괄 배제하지 않는다.
 
 **투여 전후 혈압·항혈전제**:
+
 - IVT 전 <185/110 mmHg, 이후 24시간 <180/105 mmHg를 유지한다.
 - IVT 뒤에는 통상 24시간 추적 영상에서 출혈을 배제한 후 항혈전제를 시작한다.
-- 성공적 EVT 후에도 SBP <140 mmHg로 강하게 낮추는 전략은 피한다.
+
+성공적 EVT 후에도 SBP <140 mmHg로 강하게 낮추는 전략은 피한다.
 
 ## 6. 예후 및 합병증
 - 출혈성 변환, 뇌부종, aspiration pneumonia, DVT/PE, 부정맥, 우울·인지장애가 초기 합병증이다. 신경학적 악화·두통·구토·의식 저하는 반복 영상과 재평가가 필요한 신호다.

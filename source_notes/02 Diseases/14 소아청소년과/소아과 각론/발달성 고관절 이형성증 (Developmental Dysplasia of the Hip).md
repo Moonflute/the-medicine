@@ -27,7 +27,9 @@ sources: ["AAOS | https://new.aaos.org/quality/quality-programs/pediatric-develo
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 다리 길이 차이, 절뚝거림, 오리걸음(보행기 아동)
-* **P/E**:
+
+**P/E**:
+
   대퇴 내측 피부 주름 비대칭, 고관절 외전 제한.
   Ortolani sign(탈구된 고관절을 정복), Barlow maneuver(고관절을 탈구시킴),
   Galeazzi sign(무릎 높이 차이), Trendelenburg sign 양성.
@@ -41,7 +43,6 @@ sources: ["AAOS | https://new.aaos.org/quality/quality-programs/pediatric-develo
 * 고위험군(둔위, 가족력, 여아)은 조기 선별 검사 권장
 
 ## 5. 치료
-
 * **조기 치료**: 진단 즉시 대퇴골두가 비구 내에 안정적으로 위치하도록 보조기 등을 통한 정복 및 유지 시행
 * **보조기 관리**: Pavlik harness 착용 시 피부 자극 및 신경 마비 여부를 정기적으로 확인하고 올바른 착용법 교육
 * **수술적 치료**: 보존적 치료에 반응하지 않거나 진단이 늦은 경우 도수 정복 또는 개방성 정복술 고려
@@ -49,10 +50,13 @@ sources: ["AAOS | https://new.aaos.org/quality/quality-programs/pediatric-develo
 * **전원 기준**: 정형외과 전문의의 진료가 필수적이며, 보조기 치료 중 호전이 없거나 탈구가 지속되는 경우 즉시 상급 기관 의뢰
 
 **연령·안정성에 따른 선택**:
-- 임상적으로 안정적인 경한 초음파 미성숙은 단기 영상 관찰이 가능하며 모든 경미한 이상에 즉시 보조기를 쓰지는 않는다.
+
+임상적으로 안정적인 경한 초음파 미성숙은 단기 영상 관찰이 가능하며 모든 경미한 이상에 즉시 보조기를 쓰지는 않는다.
+
 - 불안정/탈구된 **6개월 미만** 영아는 Pavlik harness 등 보조기를 우선 고려한다.
 - 정복이 유지되지 않거나 늦게 진단된 **6개월–2세**는 마취하 폐쇄정복·spica cast, 정복 불가능/잔여 이형성은 개방정복·절골술을 평가한다.
-- 반복 영상에서 정복되지 않는 보조기를 장기간 지속하지 않는다.
+
+반복 영상에서 정복되지 않는 보조기를 장기간 지속하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 진단 및 치료 시 예후 양호

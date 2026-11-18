@@ -43,7 +43,6 @@ sources: ["AHA ACC ADA ASN 2026 CKM syndrome guideline | https://professional.he
 - 임상 CVD가 없는 적격 성인은 PREVENT로 ASCVD·심부전·총 CVD 위험을 산출한다. ASCVD 위험과 총 CVD 위험을 혼용하지 않으며, 적용 연령과 국내 인구에서의 해석 한계를 확인한다.
 
 ## 4. 단계 평가
-
 | 단계 | 핵심 상태 | 관리 초점 |
 | --- | --- | --- |
 | 0 | CKM 위험인자 없음 | 건강 유지·위험인자 예방 |
@@ -56,22 +55,21 @@ sources: ["AHA ACC ADA ASN 2026 CKM syndrome guideline | https://professional.he
 - CKM 단계와 CKD G/A 분류는 서로 다른 체계다. 기존 CVD·신장 상태와 함께 기록한다.
 
 ## 5. 치료
-
 **기반**:
 - 식사·활동·금연·체중관리와 치료 접근성·비용·생활 여건을 함께 다룬다.
 - 필요 시 비만 약물·대사수술을 적응증에 맞춰 병행한다.
 
 **T2D**:
-- CVD 또는 높은 위험에서는 SGLT2 억제제·GLP-1 기반 치료의 심혈관·신장 이득을 고려한다.
-- 동반 HF·CKD·ASCVD·비만에 맞춰 약제를 고른다.
+
+CVD 또는 높은 위험에서는 SGLT2 억제제·GLP-1 기반 치료의 심혈관·신장 이득을 고려한다. 동반 HF·CKD·ASCVD·비만에 맞춰 약제를 고른다.
 
 **CKD**:
-- RAS 억제제·SGLT2 억제제를 해당 적응증에 적용하고, T2D와 잔여 알부민뇨에서는 비스테로이드성 MRA 또는 GLP-1 기반 치료를 검토한다.
-- eGFR·칼륨·허가 범위는 [[만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))]]를 참조한다.
+
+RAS 억제제·SGLT2 억제제를 해당 적응증에 적용하고, T2D와 잔여 알부민뇨에서는 비스테로이드성 MRA 또는 GLP-1 기반 치료를 검토한다. eGFR·칼륨·허가 범위는 [[만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))]]를 참조한다.
 
 **동반 CVD**:
-- [[이상지질혈증 (Dyslipidemia)]]·[[심부전]] 등 질환별 치료와 통합한다.
-- 약제 중복·저혈압·탈수·고칼륨혈증을 점검한다.
+
+[[이상지질혈증 (Dyslipidemia)]]·[[심부전]] 등 질환별 치료와 통합한다. 약제 중복·저혈압·탈수·고칼륨혈증을 점검한다.
 
 - **진료 조정**: 여러 분과가 공통 치료 목표와 추적 일정을 공유하고 조정 담당자를 정한다.
 

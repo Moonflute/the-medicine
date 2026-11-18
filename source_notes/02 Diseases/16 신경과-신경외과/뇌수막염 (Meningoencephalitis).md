@@ -29,16 +29,21 @@ sources: ["WHO 2025 | https://www.ncbi.nlm.nih.gov/books/NBK614844/"]
 신생아: Group B Streptococcus, E.coli, L.monocytogenes
 바이러스: Enterovirus > Herpes simplex virus
 기타: M.tuberculosis, 진균(Cryptococcus, Aspergillus), 기생충, 아메바(Naegleria fowleri 등)
-- **기전**:
+
+**기전**:
+
   병원체가 혈류를 통해 뇌수막으로 침투하거나, 인접 부위(부비동 등)의 감염이 직접 파급되어 발생.
   아메바성 뇌수막염은 오염된 담수 노출 후 후각 신경을 통해 침투함.
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**:
+**CC**:
+
   발열, 두통, 구토, 수막 자극 징후(목 뻣뻣함), 의식 저하, 발작.
   Petechiae는 N.meningitidis 시사.
   약물 유발 무균성 수막염, 선행 항생제, 접촉·여행력, 최근 외상·수술·shunt 및 면역 상태를 함께 확인한다.
-* **P/E**:
+
+**P/E**:
+
   수막 자극 징후(Kernig, Brudzinski sign).
   HSV 뇌염 시 측두엽 침범으로 인한 인격 변화, 기억력 장애, 발작 등이 동반될 수 있음.
 
@@ -56,13 +61,9 @@ sources: ["WHO 2025 | https://www.ncbi.nlm.nih.gov/books/NBK614844/"]
 - 결핵성 수막염은 서서히 진행하고 뇌신경 이상·수두증을 보일 수 있으며, TB PCR 음성만으로 배제하지 않는다. HSV 뇌염은 성격·언어 변화와 측두엽 병변을 보일 수 있고, 초기 PCR 음성이어도 의심이 높으면 재평가한다.
 
 ## 5. 치료
-
 **지역사회 세균성 수막염**:
-- ceftriaxone/cefotaxime을 신속 투여하고 지역 폐렴구균 내성에 따라 vancomycin을 추가한다.
-- **>60세·임신·면역저하** 등 Listeria 위험이면 ampicillin/amoxicillin을 추가한다.
-- 신생아는 별도 신생아 패혈증 경로를 적용하며 ceftriaxone 기반 성인 처방을 그대로 쓰지 않는다.
-- LP/CT 때문에 항생제를 지연하지 않는다.
-- 비유행성 세균성 수막염에서 dexamethasone은 가능하면 첫 항생제와 동시에 시작하고 CSF·균 결과에 따라 지속 여부를 정한다.
+
+ceftriaxone/cefotaxime을 신속 투여하고 지역 폐렴구균 내성에 따라 vancomycin을 추가한다. **>60세·임신·면역저하** 등 Listeria 위험이면 ampicillin/amoxicillin을 추가한다. 신생아는 별도 신생아 패혈증 경로를 적용하며 ceftriaxone 기반 성인 처방을 그대로 쓰지 않는다. LP/CT 때문에 항생제를 지연하지 않는다. 비유행성 세균성 수막염에서 dexamethasone은 가능하면 첫 항생제와 동시에 시작하고 CSF·균 결과에 따라 지속 여부를 정한다.
 
 - HSV 의심 시 즉시 IV acyclovir 시작하고 치료 반응을 모니터링
 - 결핵성 의심 시 항결핵제와 스테로이드를 병용하고, 전파 방지를 위해 격리 조치

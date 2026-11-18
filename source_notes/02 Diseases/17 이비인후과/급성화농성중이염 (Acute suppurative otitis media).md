@@ -26,23 +26,21 @@ sources: ["CPS | https://cps.ca/en/documents/position/acute-otitis-media"]
 - **원인**: Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis
 - **기전**: 상기도 감염 후 이관 기능 장애로 인한 중이강 내 음압 형성, 삼출물 저류 및 세균 증식
 
-
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 발열, 박동성 이통, 전음성 난청, 이명, 이루
-* **P/E**:
+
+**P/E**:
+
   이경 검사: 고막의 중등도~고도 팽윤(bulging), 발적, 충혈, 부종.
   고막운동도 검사상 B형(고막 움직임 감소)
-
 
 ## 3. 검사 (Lab & Imaging)
 - 진단은 임상적 증상과 이경 검사 소견을 바탕으로 함
 - 영상 검사(CT 등)는 두개내 합병증이나 측두골 합병증이 의심될 때만 시행
 
-
 ## 4. 진단 (Diagnosis)
 - 고막의 팽윤 및 발적과 함께 급성 이통이나 이루가 동반될 때 진단
 - 공기 이경 검사(Pneumatic otoscopy)가 가장 신뢰도 높은 진단 도구
-
 
 ## 5. 치료
 - 통증은 NSAIDs 또는 아세트아미노펜으로 조절하고, 필요 시 항생제를 시작한다.
@@ -52,15 +50,17 @@ sources: ["CPS | https://cps.ca/en/documents/position/acute-otitis-media"]
 - 예방 차원에서 폐렴구균·인플루엔자 백신 접종, 흡연 회피, 상기도 감염 시 적절한 관리가 중요하다.
 
 **소아 즉시 항생제 vs 관찰**:
-- ≥39°C 고열, 중증 이통/전신 상태, 유의한 증상 ≥48시간, 천공성 급성 이루는 즉시 치료를 지지한다.
+
+≥39°C 고열, 중증 이통/전신 상태, 유의한 증상 ≥48시간, 천공성 급성 이루는 즉시 치료를 지지한다.
+
 - 가벼운 경우는 연령·양측성·추적 가능성을 보고 24–48시간 관찰을 선택한다.
 - amoxicillin이 기본이며 최근 30일 복용·화농성 결막염·초기 치료 실패이면 amoxicillin–clavulanate를 검토한다.
-- 고막 자연 천공성 AOM은 환기관 이루와 구분하여 점이액만으로 전신 항생제를 대체하지 않는다.
+
+고막 자연 천공성 AOM은 환기관 이루와 구분하여 점이액만으로 전신 항생제를 대체하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 2~4주 내 완치
 - 합병증: 고막 천공, 유양돌기염, 미로염, 안면신경 마비, 두개내 농양 등
-
 
 출처 : StatPearls (Acute Otitis Media)
 Last updated :

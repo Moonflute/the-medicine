@@ -23,24 +23,22 @@ sources: ["AAN/ACRM/NIDILRR 지침 | https://www.aan.com/Guidelines/Home/GetGuid
 - **원인**: 저산소성 뇌손상, 외상성 뇌손상, 뇌졸중, 퇴행성 질환 등 심각한 대뇌 피질 손상을 유발하는 모든 원인.
 - **기전**: 대뇌 피질의 광범위한 기능 부전으로 인해 인지 및 의식 기능은 소실되나, 뇌간의 망상체(reticular activating system) 기능이 유지되어 수면-각성 주기가 나타남.
 
-
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 외부 환경에 대한 인지적 반응이 나타나지 않음 (의사소통 불가, 목적 있는 행동 없음).
-* **P/E**:
+
+**P/E**:
+
   심폐 기능, 혈압 조절, 수면 주기 조절 기능은 보존됨.
   자발적인 눈뜨기(eye opening)가 가능할 수 있으나 시각적 추적은 없음.
-
 
 ## 3. 검사 (Lab & Imaging)
 - 뇌 영상 검사(MRI, CT): 대뇌 피질의 광범위한 위축이나 손상 확인.
 - 뇌파 검사(EEG): 의식 수준에 따른 뇌파 변화 확인.
 - 기능적 영상 검사(fMRI, PET): 대사 활동 저하 확인.
 
-
 ## 4. 진단 (Diagnosis)
 - 임상적 진단: 의식 소실과 뇌간 기능 보존을 확인하며, 최소 1개월 이상 지속될 때 진단함.
 - 감별 진단: 뇌사(Brain death), 최소 의식 상태(Minimally conscious state), 감금 증후군(Locked-in syndrome)과 구분 필요.
-
 
 ## 5. 치료
 - 영양·수분 공급은 경장관 영양(PEG 등)으로 유지하고, 영양 상태와 전해질을 정기적으로 모니터링한다.
@@ -62,7 +60,6 @@ sources: ["AAN/ACRM/NIDILRR 지침 | https://www.aan.com/Guidelines/Home/GetGuid
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후: 원인 질환 및 지속 기간에 따라 다르며, 1년 이상 지속 시 회복 가능성이 매우 낮음.
 - 합병증: 폐렴, 요로 감염, 욕창, 심부정맥 혈전증 등 장기 와상 상태에 따른 합병증 주의.
-
 
 출처 : StatPearls (NCBI Bookshelf)
 Last updated :

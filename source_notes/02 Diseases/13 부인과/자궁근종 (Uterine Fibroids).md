@@ -30,12 +30,15 @@ sources: ["NICE NG88 | https://www.nice.org.uk/guidance/ng88/chapter/recommendat
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 월경과다(HMB), 비정상 자궁출혈(AUB), 골반통 및 압박감, 빈뇨, 변비, 불임
-* **특징**:
+
+**특징**:
+
   무증상인 경우가 많으나, 증상이 있는 경우 삶의 질 저하 및 빈혈 유발.
   위치에 따라 증상 상이(점막하 근종은 출혈, 장막하 근종은 압박 증상)
 
 ## 3. 검사 (Lab & Imaging)
-- **초음파(TVUS)**:
+**초음파(TVUS)**:
+
   1차 진단 도구.
   저에코성(hypoechoic) 종괴 및 음향 음영(acoustic shadowing) 관찰
 - **SIS/Hysteroscopy**: 자궁강 내 돌출 정도(FIGO 분류) 평가에 유용
@@ -46,7 +49,6 @@ sources: ["NICE NG88 | https://www.nice.org.uk/guidance/ng88/chapter/recommendat
 - 병력 청취 및 골반 진찰(불규칙한 자궁 윤곽 확인)
 
 ## 5. 치료
-
 - **경과 관찰**: 무증상인 경우 정기적인 골반 진찰 및 초음파를 통해 크기 변화와 증상 발생 여부를 추적 관찰함.
 
 **내과적 치료**:
