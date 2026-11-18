@@ -19,7 +19,8 @@ import { QbankReferenceToolbar } from "@/components/qbank-reference-workspace";
 import { ChatOptionalTools } from "@/components/chat-room";
 import { MockExamPanel } from "@/components/mock-exam-panel";
 import { QbankSessionClock } from "@/components/qbank-session-clock";
-import { readMockExam, type MockExamState } from "@/lib/mock-exam";
+import { compareMockSubjects, createMockExamSummary, readMockExam, type MockExamState } from "@/lib/mock-exam";
+import { PracticeResultAchievement } from "@/components/practice-result-achievement";
 import { isRoundTimeUp, practiceRoundLimitFromParams, remainingRoundMs, resumeRoundDeadline, type QbankRunningRoundClock } from "@/lib/qbank-round-timer";
 import { optionOrder, OPTION_LABELS } from "@/lib/qbank-option-order";
 import { qbankCombinedCopyText, qbankExplanationCopyText, qbankQuestionCopyText } from "@/lib/qbank-copy";
@@ -32,7 +33,7 @@ import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
-import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, practiceDeliveryIds, practiceFiltersFromParams, practiceMockExamTitle, practiceSourceQuestionId, practiceVersionIds, selectedPracticeExamKey, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, practiceDeliveryIds, practiceFiltersFromParams, practiceMockExamKey, practiceMockExams, practiceMockExamTitle, practiceSourceQuestionId, practiceVersionIds, selectedPracticeExamKey, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, Copy, Info, XCircle } from "lucide-react";
@@ -58,7 +59,7 @@ import type { QbankSessionContext } from "@/lib/qbank-active-session";
 import { markQbankSkipped, qbankPassIndex, readQbankSkipState, resolveQbankSkipped, type QbankSkipState } from "@/lib/qbank-skips";
 import { QbankSkippedNavigation, QbankSkipPassActions } from "@/components/qbank-skip-controls";
 
-type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">> & { practiceIds?: string[] };
+type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">> & { practiceIds?: string[]; practiceExamKey?: string; practiceExamTotal?: number };
 type SessionAnswer = QbankSessionAnswer;
 
 function isSessionQuestionTracked(question: SessionQuestion | undefined, ids: string[]): boolean {
@@ -226,10 +227,12 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
       return targetType === "disease" ? q.relatedDiseaseSlugs.some((slug) => (scope.length ? scope : [targetSlug]).includes(slug)) : q.relatedCcSlugs.includes(targetSlug);
     });
     const metadata = new Map(selection.map(question => [question.id, question]));
+    const roundCounts = new Map(practiceMockExams(privateIndex).map(exam => [exam.key, exam.count]));
     privateQuestions = (await loadPracticeQuestions(practiceDeliveryIds(selection, savedIds))).map(question => {
       const source = metadata.get(practiceSourceQuestionId(question.id));
       const practiceIds = source ? [...new Set([...practiceVersionIds(source), question.id])] : undefined;
-      return { ...question, bookDepartment: source?.bookDepartment, practiceIds };
+      const practiceExamKey = source ? practiceMockExamKey(source) : undefined;
+      return { ...question, bookDepartment: source?.bookDepartment, practiceIds, practiceExamKey, practiceExamTotal: practiceExamKey ? roundCounts.get(practiceExamKey) : undefined };
     });
   }
   const slugs = [...new Set(candidates.map((item) => item.specialtySlug))];
@@ -584,7 +587,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       result.correct += item.correct ? 1 : 0;
       summary.set(item.specialty, result);
     }
-    return [...summary.entries()].sort(([left], [right]) => left.localeCompare(right, "ko"));
+    return [...summary.entries()].sort(([left], [right]) => compareMockSubjects(left, right));
   }, [answers]);
 
   const showQuestion = useCallback((index: number) => {
@@ -631,6 +634,16 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     finishingRef.current = true;
     const timeUp = isRoundTimeUp(deadlineAt);
     try {
+      const roundKey = questions[0]?.practiceExamKey;
+      const submittedById = new Map(answers.map(answer => [answer.questionId, answer]));
+      const completeRound = roundKey && answers.length === questions.length
+        && questions[0]?.practiceExamTotal === questions.length
+        && questions.every(question => question.questionBank === "practice" && question.practiceExamKey === roundKey && submittedById.has(question.id));
+      const results = completeRound ? questions.map(question => {
+        const answer = submittedById.get(question.id)!;
+        return { ...answer, correctAnswer: question.answer, correctAnswers: correctAnswers(question) };
+      }) : undefined;
+      const durationMs = elapsedAt(elapsedClock, Date.now());
       saveQbankSession({
         id: `session-${sessionIdRef.current}`,
         startedAt: sessionStartedAt,
@@ -638,6 +651,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         questionIds: questions.map(item => item.id),
         correct: answers.filter(item => item.correct === true).length,
         total: answers.filter(item => item.correct !== null).length,
+        ...(results ? { mockExam: createMockExamSummary(practiceMockExamTitle(roundKey), results, durationMs === undefined ? undefined : durationMs / 1000) } : {}),
       });
     } catch {
       finishingRef.current = false;
@@ -651,7 +665,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     try { clearLocalActiveQbankSession(sessionIdRef.current ?? undefined); } catch { /* Result is already saved. */ }
     setFinishConfirm(false);
     setCompletion(timeUp ? "time-up" : "done");
-  }, [answers, completed, deadlineAt, questions, sessionStartedAt]);
+  }, [answers, completed, deadlineAt, elapsedClock, questions, sessionStartedAt]);
 
   useEffect(() => {
     if (!completed || !syncUserId || !sessionIdRef.current) return;
@@ -888,6 +902,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const rate = gradedCount ? Math.round((correctCount / gradedCount) * 100) : 0;
     return (
       <div className="space-y-5">
+        <PracticeResultAchievement sessionId={`session-${optionSessionId}`} fresh />
         <SkinPanel className="surface p-7 text-center" title="풀이 결과" ordinal={1}>
           <div className="eyebrow">{completion === "time-up" ? "제한시간 종료" : "Session complete"}</div>
           <h1 className="mt-3 text-3xl font-semibold">{correctCount} / {gradedCount}</h1>

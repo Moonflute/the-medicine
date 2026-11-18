@@ -15,6 +15,7 @@
 @import "./review-cards.css";
 @import "./qbank-analytics.css";
 @import "./qbank-memo.css";
+@import "./practice-achievements.css";
 
 :root {
   color-scheme: light;

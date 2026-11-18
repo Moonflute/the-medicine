@@ -5,6 +5,13 @@ export type MockExamResult = { questionId: string; selected?: QbankSelection; co
 export type MockExamState = { version: 1; title: string; startedAt: string; drafts: Record<string, QbankSelection>; flaggedIds: string[]; finishedAt?: string; results?: MockExamResult[] };
 
 export const MOCK_SUBJECTS = ["내과", "외과", "산부인과", "소아과"] as const;
+const mockSubjectRanks = new Map<string, number>(MOCK_SUBJECTS.map((subject, index) => [subject, index]));
+
+export function compareMockSubjects(left: string, right: string): number {
+  return (mockSubjectRanks.get(left) ?? MOCK_SUBJECTS.length) - (mockSubjectRanks.get(right) ?? MOCK_SUBJECTS.length)
+    || left.localeCompare(right, "ko");
+}
+
 export type MockExamSummary = {
   version: 1;
   title: string;

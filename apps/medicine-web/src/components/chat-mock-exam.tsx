@@ -7,7 +7,7 @@ import { ChatComposerContent } from "@/components/chat-room";
 import { DocumentToolbar } from "@/components/document-toolbar";
 import { SkinDocumentNotice } from "@/components/skin-document";
 import { QbankReferenceToolbar } from "@/components/qbank-reference-workspace";
-import { mockSubject, type MockExamState } from "@/lib/mock-exam";
+import { compareMockSubjects, mockSubject, type MockExamState } from "@/lib/mock-exam";
 import { selectedAnswers } from "@/lib/qbank-grading";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import type { QbankQuestion } from "@/lib/types";
@@ -62,7 +62,7 @@ export function ChatMockExamTools({ questions, exam, currentIndex, answered, mar
     flagged: flagged.has(question.id), skipped: !finished && skippedIds.includes(question.id), result: results.get(question.id),
   }));
   const visible = rows.filter(row => filter === "unanswered" ? !row.answers.length : filter === "flagged" ? row.flagged : filter === "skipped" ? row.skipped : filter === "wrong" ? row.result?.correct === false : true);
-  const subjects = [...new Set(visible.map(row => row.subject))];
+  const subjects = [...new Set(visible.map(row => row.subject))].sort(compareMockSubjects);
   const filters: Array<{ id: Filter; label: string; count: number }> = [
     { id: "all", label: "전체", count: questions.length },
     { id: "unanswered", label: "미응답", count: questions.length - answered },

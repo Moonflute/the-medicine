@@ -215,7 +215,7 @@ export function visiblePracticeFilters(filters: PracticeFilters, questions: Prac
   return { ...filters, years: [], examKey };
 }
 
-function practiceMockExamKey(question: PracticeIndex): string | undefined {
+export function practiceMockExamKey(question: PracticeIndex): string | undefined {
   if (isAuthoredPracticeMock(question)) return question.bookId;
   if (question.examYear === null) return undefined;
   if (question.examYear === 2026 && question.bookId === "practice-res2608") return RES26_EXAM_KEY;
