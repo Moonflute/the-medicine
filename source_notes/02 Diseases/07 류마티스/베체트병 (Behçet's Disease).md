@@ -68,13 +68,22 @@ sources: ["EULAR | https://doi.org/10.1136/annrheumdis-2018-213225"]
 - 눈·중추신경·혈관 중증 병변은 전신 steroid와 장기별 면역억제를 병용한다. 신경 베체트에서는 cyclosporine을 피한다.
 - 안전성 모니터링: 정기적인 혈액 검사(간·신장 기능, 혈구계), 감염 징후 평가 및 백신 상태 확인
 - 전문의 연계·추적: 안과·신경·혈관 전문의와 조기 협진; 3~6개월 간격으로 질환 활동도와 약물 부작용 평가.
-- 구강·생식기 궤양 및 피부 병변: 국소 glucocorticoid를 사용할 수 있고, 국소요법만으로 불충분하면 colchicine 0.6–1.2 mg/day를 투여한다. 두 치료에 반응하지 않으면 thalidomide, azathioprine, cyclosporine, infliximab 또는 etanercept를 고려할 수 있다.
-- 눈 병변: 초기에는 glucocorticoid 안약을 사용할 수 있다. 반응이 없으면 경구 glucocorticoid를 사용하며, 시력 저하 위험이 있는 후방 포도막염에는 고용량 전신 glucocorticoid와 면역억제제 또는 생물학적 제제를 사용한다.
+- 구강·생식기 궤양 및 피부 병변: 국소 glucocorticoid를 사용할 수 있고, 국소요법만으로 불충분하면 colchicine 0.6–1.2 mg/day를 투여한다.
+- 두 치료에 반응하지 않으면 thalidomide, azathioprine, cyclosporine, infliximab 또는 etanercept를 고려할 수 있다.
+- 눈 병변: 초기에는 glucocorticoid 안약을 사용할 수 있다.
+- 반응이 없으면 경구 glucocorticoid를 사용하며, 시력 저하 위험이 있는 후방 포도막염에는 고용량 전신 glucocorticoid와 면역억제제 또는 생물학적 제제를 사용한다.
 - 중추신경계 침범: 전신 glucocorticoid를 사용하고 azathioprine 또는 cyclophosphamide를 병용할 수 있다.
-- 정맥·동맥 혈전증: 표재성 정맥염이 경하면 대증 치료를 한다. 심부정맥혈전증 또는 동맥염처럼 중하면 고용량 glucocorticoid와 azathioprine 등의 면역억제제를 사용한다. 항응고제 추가 효과는 논란이 있다.
-- 혈관 수술: 파열 위험이 있는 동맥류는 수술이 필요할 수 있다. 다만 수술 후 재발, 이식편 혈전증, 접합부 동맥류가 흔할 수 있어 수술 여부를 신중히 결정한다.
+- 정맥·동맥 혈전증: 표재성 정맥염이 경하면 대증 치료를 한다.
+- 심부정맥혈전증 또는 동맥염처럼 중하면 고용량 glucocorticoid와 azathioprine 등의 면역억제제를 사용한다.
+- 항응고제 추가 효과는 논란이 있다.
+- 혈관 수술: 파열 위험이 있는 동맥류는 수술이 필요할 수 있다.
 
-- **치료 선택의 분기**: 후방 포도막염은 국소 안약 또는 전신 steroid 단독으로 유지하지 않고 azathioprine·단클론 TNF 억제제 등과 병용한다. 혈전에서는 혈관염 조절이 핵심이며 항응고 추가 전 폐동맥류와 출혈 위험을 확인한다. 폐동맥류는 고용량 steroid+cyclophosphamide를 우선 고려하고, 출혈·파열 위험은 긴급 중재와 함께 평가한다.
+다만 수술 후 재발, 이식편 혈전증, 접합부 동맥류가 흔할 수 있어 수술 여부를 신중히 결정한다.
+
+**치료 선택의 분기**:
+- 후방 포도막염은 국소 안약 또는 전신 steroid 단독으로 유지하지 않고 azathioprine·단클론 TNF 억제제 등과 병용한다.
+- 혈전에서는 혈관염 조절이 핵심이며 항응고 추가 전 폐동맥류와 출혈 위험을 확인한다.
+- 폐동맥류는 고용량 steroid+cyclophosphamide를 우선 고려하고, 출혈·파열 위험은 긴급 중재와 함께 평가한다.
 
 ## 6. 예후 및 합병증
 - 주요 합병증: 실명(포도막염), 장 천공(소화관 궤양), 혈관 폐쇄 및 동맥류(혈관 병변), 신경학적 장애(CNS 병변)

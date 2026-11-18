@@ -55,7 +55,8 @@ sources: ["VA/DoD: Chronic Insomnia Disorder and Obstructive Sleep Apnea (2025) 
 
 ## 최근 치료 변화
 
-AASM 2025 하지불안증후군 권고는 철 결핍·유발 요인 교정과 gabapentin 계열 등을 강조하며, 증상 증강 위험 때문에 도파민 작용제를 통상적인 기본 치료로 권고하지 않는다. REM 수면행동장애는 침실 안전 조치가 우선이고 melatonin·clonazepam은 낙상·인지·호흡 위험을 고려해 선택한다.
+- AASM 2025 하지불안증후군 권고는 철 결핍·유발 요인 교정과 gabapentin 계열 등을 강조하며, 증상 증강 위험 때문에 도파민 작용제를 통상적인 기본 치료로 권고하지 않는다.
+- REM 수면행동장애는 침실 안전 조치가 우선이고 melatonin·clonazepam은 낙상·인지·호흡 위험을 고려해 선택한다.
 
 ## 포함 질환
 - [[하지 불안 증후군 (Restless Leg Syndrome)]]

@@ -43,7 +43,8 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/chancroid.htm"]
   4. 임상 양상이 연성하감에 부합
 
 ## 5. 치료
-- 성인 CDC 요법은 **azithromycin 1 g 경구 1회 또는 ceftriaxone 250 mg IM 1회**가 선택지다. 대체 ciprofloxacin은 500 mg 하루 2회 **3일**, erythromycin은 500 mg 하루 3회 **7일**로, 모두 단회 요법인 것은 아니다.
+- 성인 CDC 요법은 **azithromycin 1 g 경구 1회 또는 ceftriaxone 250 mg IM 1회**가 선택지다.
+- 대체 ciprofloxacin은 500 mg 하루 2회 **3일**, erythromycin은 500 mg 하루 3회 **7일**로, 모두 단회 요법인 것은 아니다.
 - **3~7일에 재평가**하여 진단·복약·HIV·동반 감염·내성을 확인한다. 큰 부보는 항생제만으로 늦게 호전할 수 있어 흡인/절개배액을 검토한다.
 - 증상 발생 전 10일 동안의 성접촉자는 증상이 없어도 검사·치료한다. 임신·수유·HIV에서는 약제와 추적을 개별화한다.
 

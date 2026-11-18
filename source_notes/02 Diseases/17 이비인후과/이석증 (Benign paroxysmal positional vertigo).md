@@ -72,7 +72,11 @@ review_status: "guideline_enriched"
 
 ## 5. 치료
 - **이석증**
-    - 이석치환술(Particle repositioning maneuvers): Epley(후반고리관), Gufoni(수평반고리관, BBQ roll 대안), Semont/Gans(경추 문제 시 대안) 등.
+
+    **이석치환술(Particle repositioning maneuvers)**:
+    - 후반고리관: Epley.
+    - 수평반고리관: Gufoni(BBQ roll 대안).
+    - 경추 문제 시 대안: Semont/Gans.
     - 고령/허약 환자 고려사항: 경추/척추 문제, 관절염, 기동성 저하 시 베개 사용(흉추 신전 유도), 틸트 침대(Trendelenburg), 또는 Side lying test 등 변형 술기 적용.
     - 주의사항: 술기 전 경추 불안정성, 척수병증, 중증 경동맥 협착, 척추동맥 부전, 불안정한 심장 질환 등 금기사항 확인. 금기 시 전문가 의뢰 고려.
     - 약물: 전정억제제는 효과가 제한적이므로 권장되지 않음.

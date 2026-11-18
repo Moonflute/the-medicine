@@ -44,8 +44,10 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cer
 ## 5. 치료
 - 요도 염증을 확인하고 임균/클라미디아 NAAT를 시행한다. 성인 NGU의 기본 요법은 **doxycycline 100 mg 하루 2회 7일**이다.
 - 지속·재발이면 순응도·재노출·객관적 염증을 확인하고 M. genitalium·T. vaginalis 검사를 검토한다. 증상만 남았다고 항생제를 반복하지 않는다.
-- M. genitalium이 확인되면 내성 검사에 따른 순차 치료가 원칙이며, 내성 검사가 불가능한 적절한 경우 doxycycline 후 moxifloxacin을 검토한다. azithromycin 단회 반복을 만능 대안으로 쓰지 않는다.
-- 파트너 치료를 시행하고 치료 완료·증상 해소까지 성관계를 피한다. 모든 환자에게 **1~2주 조기 NAAT를 치료 성공 판정용으로 시행하지 않으며**, 확인된 STI는 재감염 확인을 위한 약 3개월 재검을 계획한다.
+- M. genitalium이 확인되면 내성 검사에 따른 순차 치료가 원칙이며, 내성 검사가 불가능한 적절한 경우 doxycycline 후 moxifloxacin을 검토한다.
+- azithromycin 단회 반복을 만능 대안으로 쓰지 않는다.
+- 파트너 치료를 시행하고 치료 완료·증상 해소까지 성관계를 피한다.
+- 모든 환자에게 **1~2주 조기 NAAT를 치료 성공 판정용으로 시행하지 않으며**, 확인된 STI는 재감염 확인을 위한 약 3개월 재검을 계획한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 적절한 치료 시 완치 가능.

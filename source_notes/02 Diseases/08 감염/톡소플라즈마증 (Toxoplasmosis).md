@@ -49,8 +49,14 @@ sources: ["NIH | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guideli
 - 치료 시작 전 및 진행 중에 혈액학적 부작용(골수 억제) 위험을 평가하고, 부작용 발생 시 즉시 치료 중단·대체 요법을 검토한다.
 - 예방 차원에서 고양이 분변 접촉을 피하고, 덜 익힌 육류 섭취를 삼가며, 임산부와 면역 저하 환자는 위생 관리와 식품 안전에 특별히 주의한다.
 
-- **HIV 뇌염의 반응·유지**: TMP-SMX 또는 pyrimethamine+sulfadiazine+leucovorin 등으로 통상 ≥6주 치료하고 임상·영상 반응 뒤 유지요법으로 전환한다. 첫 주 악화 또는 10–14일 내 호전이 없으면 CNS lymphoma 등 다른 진단과 생검을 평가한다. Steroid는 종괴효과·부종의 임상 적응증이 있을 때만 사용한다.
-- **예방 기준**: Toxoplasma IgG 양성이고 CD4 <100/μL인 HIV 환자는 TMP-SMX 예방을 적용한다. 단순 양성 항체만으로 모든 면역정상자를 치료하지 않는다.
+**HIV 뇌염의 반응·유지**:
+- TMP-SMX 또는 pyrimethamine+sulfadiazine+leucovorin 등으로 통상 ≥6주 치료하고 임상·영상 반응 뒤 유지요법으로 전환한다.
+- 첫 주 악화 또는 10–14일 내 호전이 없으면 CNS lymphoma 등 다른 진단과 생검을 평가한다.
+- Steroid는 종괴효과·부종의 임상 적응증이 있을 때만 사용한다.
+
+**예방 기준**:
+- Toxoplasma IgG 양성이고 CD4 <100/μL인 HIV 환자는 TMP-SMX 예방을 적용한다.
+- 단순 양성 항체만으로 모든 면역정상자를 치료하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 면역 저하 환자에서 중증 감염 시 치명적일 수 있다.

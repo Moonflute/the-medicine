@@ -45,8 +45,10 @@ sources: ["HSE 치료 지침 | https://assets.hse.ie/media/documents/Pityriasis_
 
 
 ## 5. 치료
-- 국소 ketoconazole·selenium sulfide 등으로 치료하며 제형별 도포 시간·횟수·기간을 따른다. 모든 제제를 2~3일만 사용하는 것으로 고정하지 않는다.
-- **광범위하거나 국소 치료 실패·빈번한 재발**이면 itraconazole·fluconazole 등 경구 azole을 고려하고 간질환·상호작용·임신 가능성을 확인한다. **경구 terbinafine은 어루러기에 효과가 없으며**, 경구 ketoconazole은 간독성 때문에 선택하지 않는다.
+- 국소 ketoconazole·selenium sulfide 등으로 치료하며 제형별 도포 시간·횟수·기간을 따른다.
+- 모든 제제를 2~3일만 사용하는 것으로 고정하지 않는다.
+- **광범위하거나 국소 치료 실패·빈번한 재발**이면 itraconazole·fluconazole 등 경구 azole을 고려하고 간질환·상호작용·임신 가능성을 확인한다.
+- **경구 terbinafine은 어루러기에 효과가 없으며**, 경구 ketoconazole은 간독성 때문에 선택하지 않는다.
 - 인설과 균학적 활동성이 사라진 뒤 색소만 남으면 즉시 치료 실패로 판정하지 않는다. 재발이 잦으면 간헐적 국소 예방 치료를 논의한다.
 
 ## 6. 예후 및 합병증 (Prognosis)

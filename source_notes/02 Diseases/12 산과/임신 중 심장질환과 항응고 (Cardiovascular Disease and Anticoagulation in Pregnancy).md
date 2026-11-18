@@ -17,7 +17,8 @@ sources: ["ESC: Cardiovascular Disease and Pregnancy Guideline, 2025 | https://w
 # 임신 중 심장질환과 항응고 (Cardiovascular Disease and Anticoagulation in Pregnancy)
 
 ## 위험 평가
-기저 심장질환·판막 종류, 기능, 이전 혈전과 사용 약물, 임신 주수를 평가한다. 고위험 환자는 Pregnancy Heart Team을 통해 산모와 태아 위험·분만 계획을 함께 결정한다.
+- 기저 심장질환·판막 종류, 기능, 이전 혈전과 사용 약물, 임신 주수를 평가한다.
+- 고위험 환자는 Pregnancy Heart Team을 통해 산모와 태아 위험·분만 계획을 함께 결정한다.
 
 ## 주산기심근병증과 재임신
 - 임신 말기나 분만 후 수개월 내 발생한 심부전에서 다른 원인이 뚜렷하지 않고 좌심실 박출률(LVEF)이 **45% 미만**이면 주산기심근병증을 의심한다. 심초음파와 원인 감별이 필요하다.
@@ -30,4 +31,5 @@ sources: ["ESC: Cardiovascular Disease and Pregnancy Guideline, 2025 | https://w
 - DOAC은 기계판막의 대체 항응고제가 아니다. 아스피린만으로 기계판막 항응고를 대신하지 않는다.
 
 ## 분만 계획
-분만 전 약제 전환·중단과 마취·재시작을 전문팀이 계획한다. “임신 중 항응고는 LMWH만 가능”, “38주에 모두 같은 방식으로 전환”이라는 과거 단순 규칙을 적용하지 않는다.
+- 분만 전 약제 전환·중단과 마취·재시작을 전문팀이 계획한다.
+- “임신 중 항응고는 LMWH만 가능”, “38주에 모두 같은 방식으로 전환”이라는 과거 단순 규칙을 적용하지 않는다.

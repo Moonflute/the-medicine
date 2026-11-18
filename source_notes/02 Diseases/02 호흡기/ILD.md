@@ -43,11 +43,16 @@ sources: ["ATS/ERS/JRS/ALAT. IPF Update and Progressive Pulmonary Fibrosis — 2
 - 생리적 진행은 예측 FVC의 절대값 ≥5%p 감소 또는 혈색소 보정 DLCO의 절대값 ≥10%p 감소이다. 빈혈·폐혈관질환 등 DLCO 감소의 다른 원인을 확인한다. PPF는 진행 표현형이지 새로운 단일 원인 진단이 아니다.
 
 ## 치료 선택
-- IPF는 nintedanib·pirfenidone 등 항섬유화 치료를 평가한다. 염증성 ILD의 면역억제 전략을 그대로 적용해 만성 prednisone/azathioprine 병합을 쓰지 않는다.
-- 비IPF PPF에서는 노출 제거·면역질환 치료 등 적절한 기본 관리를 시행한 뒤에도 진행하는 경우 nintedanib을 조건부 고려한다. 원인 질환 치료와 진행 억제를 함께 판단한다.
-- CTD 관련 ILD는 원인·중증도에 따라 mycophenolate, rituximab 등 면역치료를 선택한다. ACR/CHEST 2023 지침은 전신경화증 ILD의 1차 glucocorticoid 치료를 강하게 반대하며, 다른 CTD-ILD의 조건부 사용과 구분한다.
+- IPF는 nintedanib·pirfenidone 등 항섬유화 치료를 평가한다.
+- 염증성 ILD의 면역억제 전략을 그대로 적용해 만성 prednisone/azathioprine 병합을 쓰지 않는다.
+- 비IPF PPF에서는 노출 제거·면역질환 치료 등 적절한 기본 관리를 시행한 뒤에도 진행하는 경우 nintedanib을 조건부 고려한다.
+- 원인 질환 치료와 진행 억제를 함께 판단한다.
+- CTD 관련 ILD는 원인·중증도에 따라 mycophenolate, rituximab 등 면역치료를 선택한다.
+- ACR/CHEST 2023 지침은 전신경화증 ILD의 1차 glucocorticoid 치료를 강하게 반대하며, 다른 CTD-ILD의 조건부 사용과 구분한다.
 - 유육종증은 장기 손상·사망 위험 또는 삶의 질 저하가 치료 판단의 중심이다. 영상상 림프절 비대만으로 모든 환자에게 전신 스테로이드를 투여하지 않는다.
-- 2025년 미국 FDA는 PDE4 억제제 nerandomilast를 성인 IPF와 PPF에 허가했다. 이는 2022 지침 이후의 약제 선택지이며 기존 지침의 권고등급과 동일시하지 않는다. 국내 허가·급여와 병용·부작용은 별도 확인해야 한다.
+- 2025년 미국 FDA는 PDE4 억제제 nerandomilast를 성인 IPF와 PPF에 허가했다.
+
+이는 2022 지침 이후의 약제 선택지이며 기존 지침의 권고등급과 동일시하지 않는다. 국내 허가·급여와 병용·부작용은 별도 확인해야 한다.
 - 저산소증의 산소 치료, 예방접종, 폐재활, 금연과 적격 환자의 폐이식 평가를 약제 치료와 병행한다.
 
 ## 포함 질환

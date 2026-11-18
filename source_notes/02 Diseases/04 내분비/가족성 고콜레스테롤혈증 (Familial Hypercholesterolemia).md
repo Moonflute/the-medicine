@@ -45,8 +45,15 @@ content_updated_at: "2026-11-17"
 - 1차 친족에 대한 선별 검사(Cascade screening)가 필수적이다.
 
 ## 5. 치료 (Treatment)
-- **가족 단위로 시작**: 조기 ASCVD 위험을 설명하고, 1·2촌 혈족 cascade screening과 소아 평가를 연계한다. 생활요법은 필요하지만 LDL 수용체 결함에 대한 약물치료를 대체하지 않는다.
-- **이형접합 FH**: 최대 내약 용량 고강도 statin을 시작하고 LDL-C 목표·위험도에 따라 ezetimibe, PCSK9 억제제/siRNA 또는 bempedoic acid를 순차 추가한다. 임상 ASCVD·매우 높은 LDL-C는 조기 전문의 의뢰 대상이다.
+
+**가족 단위로 시작**:
+- 조기 ASCVD 위험을 설명하고, 1·2촌 혈족 cascade screening과 소아 평가를 연계한다.
+- 생활요법은 필요하지만 LDL 수용체 결함에 대한 약물치료를 대체하지 않는다.
+
+**이형접합 FH**:
+- 최대 내약 용량 고강도 statin을 시작하고 LDL-C 목표·위험도에 따라 ezetimibe, PCSK9 억제제/siRNA 또는 bempedoic acid를 순차 추가한다.
+- 임상 ASCVD·매우 높은 LDL-C는 조기 전문의 의뢰 대상이다.
+
 - **동형접합 FH**: lipid specialist 의뢰가 필요하며, LDL apheresis와 lomitapide·evinacumab 등 치료 접근성을 포함한 다중요법을 검토한다.
 - **안전·특수상황**: 임신 계획·임신 중에는 statin 등 금기/제한 약제를 사전에 조정하고, 간효소·근육 증상·순응도와 LDL 반응을 추적한다.
 - **약물 치료 단계적 접근**:
@@ -56,7 +63,11 @@ content_updated_at: "2026-11-17"
 - **치료 목표**: 심혈관 질환 예방을 위해 강화된 LDL-C 목표치 설정 및 지속적 모니터링.
 출처: Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association.
 
-- **치료 강화 판단**: LDL-C를 기저치에서 ≥50% 낮추는 반응과 위험군별 절대 목표를 함께 본다. 관상동맥질환 동반이면 국내 목표 <55 mg/dL을 적용하며, 충분한 최대 내약 statin·ezetimibe에도 목표 미달이면 PCSK9 기반 치료 등 추가 약제를 논의한다. LDL-C ≥190 mg/dL은 이차 원인을 배제한 뒤 FH 평가와 적극적 약물치료를 시작하는 중요한 기준이며, 단기 위험도 점수가 낮다고 치료를 미루지 않는다.
+**치료 강화 판단**:
+- LDL-C를 기저치에서 ≥50% 낮추는 반응과 위험군별 절대 목표를 함께 본다.
+- 관상동맥질환 동반: 국내 LDL-C 목표 **<55 mg/dL** 적용.
+- 최대 내약 statin·ezetimibe에도 목표 미달: PCSK9 기반 치료 등 추가 약제 논의.
+- LDL-C ≥190 mg/dL은 이차 원인을 배제한 뒤 FH 평가와 적극적 약물치료를 시작하는 중요한 기준이며, 단기 위험도 점수가 낮다고 치료를 미루지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적극적인 LDL-C 저하 치료를 통해 관상동맥 죽상경화증의 진행을 늦추거나 예방할 수 있다.

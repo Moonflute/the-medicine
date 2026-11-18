@@ -55,12 +55,20 @@ review_status: "guideline_enriched"
 - 근력저하의 감별에는 대사근병증(당원·지질저장질환, 미토콘드리아 근병증 등), 신경병증·근이영양증·신경근접합부 질환, 부종양증후군, 약물·알코올 관련 근병증, 감염성 근염, 내분비질환 및 섬유근통 등을 포함한다.
 
 ## 5. 치료
-- 활동성 근염은 **고용량 glucocorticoid와 조기 steroid-sparing 면역억제제**를 병용한다. 대부분 methotrexate가 1차 병용 선택이며 azathioprine, mycophenolate, tacrolimus/ciclosporin을 장기 유지와 장기침범에 맞춰 사용한다. 전체 영역의 활성도가 호전되면 대개 약 6주 이후부터 steroid를 점진 감량한다.
-- 중증·불응성 질환은 IVIG, rituximab 또는 cyclophosphamide를 고려한다. 중증 연하곤란이나 피부질환의 불응성에서도 IVIG/rituximab이 선택지가 된다.
-- 급속진행 ILD는 고용량 steroid에 cyclophosphamide 또는 rituximab을 조기에 병용하는 강한 면역억제를 고려한다. 만성 ILD는 steroid와 mycophenolate, azathioprine 또는 calcineurin inhibitor 등을 사용하고 PFT/HRCT로 반응을 추적한다.
-- 안정기부터 전문 물리·작업치료사가 감독하는 안전한 유산소·저항운동을 시행한다. 연하곤란은 언어·연하치료팀 평가와 흡인 예방을 병행한다. 광차단·피부치료, 골건강과 감염예방도 포함한다.
+- 활동성 근염은 **고용량 glucocorticoid와 조기 steroid-sparing 면역억제제**를 병용한다.
+- 대부분 methotrexate가 1차 병용 선택이며 azathioprine, mycophenolate, tacrolimus/ciclosporin을 장기 유지와 장기침범에 맞춰 사용한다.
+- 전체 영역의 활성도가 호전되면 대개 약 6주 이후부터 steroid를 점진 감량한다.
+- 중증·불응성 질환은 IVIG, rituximab 또는 cyclophosphamide를 고려한다.
+- 중증 연하곤란이나 피부질환의 불응성에서도 IVIG/rituximab이 선택지가 된다.
+- 급속진행 ILD는 고용량 steroid에 cyclophosphamide 또는 rituximab을 조기에 병용하는 강한 면역억제를 고려한다.
+- 만성 ILD는 steroid와 mycophenolate, azathioprine 또는 calcineurin inhibitor 등을 사용하고 PFT/HRCT로 반응을 추적한다.
+- 안정기부터 전문 물리·작업치료사가 감독하는 안전한 유산소·저항운동을 시행한다.
+- 연하곤란은 언어·연하치료팀 평가와 흡인 예방을 병행한다.
+- 광차단·피부치료, 골건강과 감염예방도 포함한다.
 - 봉입체근염은 면역억제 효과가 제한적이므로 운동·낙상예방·보조기구·연하 및 호흡 지지 중심으로 관리한다.
-- 치료 전후 각 근육군의 근력을 객관적으로 측정하고, 필요 시 흉부 영상, PFT, 식도조영술과 CK·aldolase·AST·LDH를 추적한다. 암 선별검사도 성별과 연령에 맞춰 시행한다. 염증이 심한 시기에는 관절가동범위를 유지하고, 호전됨에 따라 능동 운동을 늘린다.
+- 치료 전후 각 근육군의 근력을 객관적으로 측정하고, 필요 시 흉부 영상, PFT, 식도조영술과 CK·aldolase·AST·LDH를 추적한다.
+- 암 선별검사도 성별과 연령에 맞춰 시행한다.
+- 염증이 심한 시기에는 관절가동범위를 유지하고, 호전됨에 따라 능동 운동을 늘린다.
 
 ## 6. 예후 및 합병증
 - 반복 염증과 치료 지연은 근위축·지방대체와 장애를 남긴다. 급속진행 ILD, 흡인, 호흡근/심장 침범과 연관 암이 주요 예후인자다.

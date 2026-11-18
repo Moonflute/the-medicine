@@ -39,8 +39,10 @@ reviewed_at: "2026-07-30"
 - 저나트륨혈증, 간수치 상승 등은 보조 소견일 뿐 진단 검사가 아니다.
 
 ## 4. 치료 원칙
-- Legionnaires' disease는 폐렴의 중증도·지역 내성·입원 환경에 따라 CAP/HAP 지침에 맞춰 치료하며, Legionella-directed activity가 필요한 상황에서는 macrolide 또는 respiratory fluoroquinolone을 고려한다.
-- 약제 선택, 투여 경로, 기간은 중증도, 면역 상태, 임상 반응, QT 연장·약물 상호작용·신기능을 함께 고려한다. 중증 또는 면역저하 환자는 감염내과/호흡기 전문의 협진을 고려한다.
+- Legionnaires' disease: 폐렴 중증도·지역 내성·입원 환경에 맞춰 CAP/HAP 지침 적용.
+- Legionella-directed activity가 필요한 경우: macrolide 또는 respiratory fluoroquinolone 고려.
+- 약제 선택, 투여 경로, 기간은 중증도, 면역 상태, 임상 반응, QT 연장·약물 상호작용·신기능을 함께 고려한다.
+- 중증 또는 면역저하 환자는 감염내과/호흡기 전문의 협진을 고려한다.
 - Pontiac fever에는 항생제를 처방하지 않는다.
 
 ## 5. 감염관리 및 공중보건

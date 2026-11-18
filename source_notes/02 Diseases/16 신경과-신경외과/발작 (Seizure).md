@@ -55,9 +55,19 @@ sources: ["NICE NG217 | https://www.nice.org.uk/guidance/ng217/chapter/treating-
 
 
 ## 5. 치료
-- **5분 기준**: 경련이 **5분 이상 지속**하거나 회복 없이 반복되면 상태발작으로 치료한다. 기도·혈당·산소화 확인과 원인 교정을 병행하며 IV lorazepam 또는 접근 가능한 midazolam 등 benzodiazepine을 투여한다.
-- **다음 단계**: 첫 투여 후 5–10분에도 지속하면 한 차례 반복할 수 있다. 적정 benzodiazepine **2회에도 지속**하면 IV levetiracetam, fosphenytoin/phenytoin 또는 valproate를 사용한다. 지속 실패는 불응성 상태발작으로 중환자실·지속 EEG·마취제 치료를 평가한다. 호흡억제 감시와 함께 투여하며 용량 부족으로 지연하지 않는다.
-- 급성 원인 교정 후 장기 약의 필요성은 유발성 여부·재발 위험·발작 유형에 따라 결정한다. 국소 발작에는 lamotrigine/levetiracetam 등을, 순수 결신에는 ethosuximide 등을 선택하며 서로 다른 발작 유형에 같은 약제를 일괄 적용하지 않는다.
+
+**5분 기준**:
+- 경련이 **5분 이상 지속**하거나 회복 없이 반복되면 상태발작으로 치료한다.
+- 기도·혈당·산소화 확인과 원인 교정을 병행하며 IV lorazepam 또는 접근 가능한 midazolam 등 benzodiazepine을 투여한다.
+
+**다음 단계**:
+- 첫 투여 후 5–10분에도 지속하면 한 차례 반복할 수 있다.
+- 적정 benzodiazepine **2회에도 지속**하면 IV levetiracetam, fosphenytoin/phenytoin 또는 valproate를 사용한다.
+- 지속 실패는 불응성 상태발작으로 중환자실·지속 EEG·마취제 치료를 평가한다.
+- 호흡억제 감시와 함께 투여하며 용량 부족으로 지연하지 않는다.
+
+- 급성 원인 교정 후 장기 약의 필요성은 유발성 여부·재발 위험·발작 유형에 따라 결정한다.
+- 국소 발작에는 lamotrigine/levetiracetam 등을, 순수 결신에는 ethosuximide 등을 선택하며 서로 다른 발작 유형에 같은 약제를 일괄 적용하지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 유발 요인이 교정 가능한 경우 예후 양호

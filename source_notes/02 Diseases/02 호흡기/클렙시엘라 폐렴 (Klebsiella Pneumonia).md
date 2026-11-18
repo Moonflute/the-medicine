@@ -54,7 +54,10 @@ sources: ["IDSA 항균제 내성 그람음성균 지침 | https://www.idsociety.
 * 폐농양, 농흉 등 합병증 발생 시 영상 유도하 배액술이나 외과적 처치를 적극적으로 고려한다.
 * 고위험군(알코올 중독, 당뇨, 고령)은 중증 진행 위험을 반영해 치료 장소와 모니터링 강도를 결정한다.
 
-- ESBL 폐렴은 **meropenem/imipenem-cilastatin 등 carbapenem**을 우선한다. 중증·저알부민혈증에서는 ertapenem보다 이들 약제가 적절하다. 감수성으로 표시되어도 ESBL 폐렴에 piperacillin–tazobactam/cefepime을 일률 대체하지 않는다. CRE는 carbapenemase 유형에 따라 약제가 달라져 감수성·유전자 결과로 표적화한다.
+- ESBL 폐렴은 **meropenem/imipenem-cilastatin 등 carbapenem**을 우선한다.
+- 중증·저알부민혈증에서는 ertapenem보다 이들 약제가 적절하다.
+- 감수성으로 표시되어도 ESBL 폐렴에 piperacillin–tazobactam/cefepime을 일률 대체하지 않는다.
+- CRE는 carbapenemase 유형에 따라 약제가 달라져 감수성·유전자 결과로 표적화한다.
 - 당뇨·고령 자체가 자동 입원 기준은 아니며 산소화·혈역학·섭취·전체 중증도와 추적 가능성으로 결정한다.
 
 ## 6. 예후 및 합병증 (Prognosis)

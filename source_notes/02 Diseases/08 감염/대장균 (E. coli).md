@@ -50,7 +50,10 @@ sources: ["IDSA 2026 | https://www.idsociety.org/practice-guideline/amr-guidance
 - HUS 위험이 높은 소아·고령자는 혈액·신장 기능 검사를 24~48시간 간격으로 추적하고, 이상 소견 시 조기 전문 치료를 계획한다.
 - 손 씻기·식품 위생을 교육하고, 회복 중에도 소변량·빈혈·혈소판 감소 등 HUS 소견을 확인한다.
 
-- **ESBL에 따른 변경**: ESBL 장관 외 침습성 감염·균혈증은 carbapenem을 우선 검토한다. 안정되고 감수성이 확인되며 감염원이 조절되면 TMP-SMX/fluoroquinolone 경구 전환을 고려한다. 단순 방광염은 감수성이 있으면 nitrofurantoin/TMP-SMX 등으로 치료할 수 있으며, ESBL이라는 이름만으로 모든 부위에 carbapenem을 쓰지 않는다.
+**ESBL에 따른 변경**:
+- ESBL 장관 외 침습성 감염·균혈증은 carbapenem을 우선 검토한다.
+- 안정되고 감수성이 확인되며 감염원이 조절되면 TMP-SMX/fluoroquinolone 경구 전환을 고려한다.
+- 단순 방광염은 감수성이 있으면 nitrofurantoin/TMP-SMX 등으로 치료할 수 있으며, ESBL이라는 이름만으로 모든 부위에 carbapenem을 쓰지 않는다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 요로 감염은 재발이 흔함.

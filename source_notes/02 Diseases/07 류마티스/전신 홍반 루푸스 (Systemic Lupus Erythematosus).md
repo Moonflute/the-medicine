@@ -52,14 +52,34 @@ review_status: "guideline_enriched"
 - 2019 EULAR/ACR는 ANA ≥1:80을 진입기준으로 하고 최소 1개의 임상 항목과 총점 10점 이상을 요구하며, 각 영역에서는 최고 점수 하나만 계산한다. 영역별 점수는 발열(>38.3°C) 2, 혈액학(백혈구감소 3/혈소판감소 4/자가면역용혈 4), 신경정신(섬망 2/정신병 3/발작 5), 피부점막(비흉터성 탈모 2/구강궤양 2/아급성피부·원판상 4/급성피부 6), 장막(삼출 5/급성심막염 6), 관절 6, 신장(단백뇨(>0.5 g/day) 4/class II·V 8/class III·IV 10), aPL 2, 보체(C3 또는 C4 저하 3/둘 다 저하 4), SLE 특이항체(anti-Sm 또는 anti-dsDNA 6)이다. 각 항목은 한 번 이상 확인되면 되며 동시에 나타날 필요는 없다. 더 가능성 높은 다른 원인이 있으면 해당 항목을 계산하지 않는다.
 
 ## 5. 치료
-- **기본 치료**: 금기가 없으면 모든 환자에게 hydroxychloroquine(HCQ)을 권한다. 장기 목표용량은 실제체중 기준 ≤5 mg/kg/day(보통 최대 400 mg/day)이며 신기능·독성 위험에 따라 조정한다. 안과 기저검사 후 일반적으로 5년부터 매년 망막독성 선별을 시행하고 고위험군은 더 일찍 검사한다.
-- **Glucocorticoid는 최소 용량·최단 기간** 사용한다. 경증 피부·관절질환은 국소치료, HCQ와 필요 시 methotrexate/azathioprine 등 steroid-sparing 약제를 사용한다.
-- 중등도~중증 또는 장기위협 질환은 빠른 관해유도를 위해 glucocorticoid와 장기별 면역억제제(MMF, azathioprine, cyclophosphamide 등)를 병용하고, 불충분한 반응·반복 flare 또는 steroid 의존 시 belimumab, anifrolumab, rituximab 등 적절한 생물학제를 전문의가 선택한다.
-- Lupus nephritis는 class·중증도에 따라 glucocorticoid와 MMF/cyclophosphamide 기반 유도요법에 belimumab 또는 calcineurin inhibitor 병용을 고려하고, 반응 후 장기 유지치료를 시행한다. 치료반응은 단백뇨와 eGFR 추세로 평가한다.
-- 자외선 차단, 금연, 심혈관 위험 관리, 골건강, 감염 선별과 백신을 병행한다. 임신 전 질병활성도와 약물 안전성을 검토하고 teratogenic 약제는 충분한 기간 전에 전환한다. aPL·anti-Ro/La 결과에 따라 aspirin/heparin 및 태아 모니터링을 계획한다.
-- NSAID는 근골격계 증상·경한 장막염·발열에 사용할 수 있으나, 신혈류 감소·부종·단백뇨 등 약물독성이 루푸스 신염 악화와 혼동될 수 있고 두통·어지럼·우울 등은 CNS flare와 감별한다. cyclophosphamide 사용 시 골수억제·생식선 독성·출혈성 방광염 위험을 설명하고 CBC, 소변검사·혈뇨를 감시하며 충분한 수분 섭취와 필요 시 mesna를 사용한다. azathioprine은 위장관 증상, 골수억제, 과민반응성 간독성을 감시한다.
 
-- **치료 강화·감량 기준**: 유지 prednisone은 ≤5 mg/일을 목표로 하고 가능하면 중단한다. HCQ·국소 치료로 조절되지 않거나 이 수준으로 steroid를 줄일 수 없으면 장기별 면역억제제·생물학제를 추가한다. HCQ 목표는 실제체중 ≤5 mg/kg/일이며 망막·신장 위험에 따라 조정한다. 무증상 aPL 양성에서는 고위험 항체 프로파일과 출혈 위험에 따라 aspirin을 판단하고, 모든 항체 양성 환자에게 항응고하지 않는다.
+**기본 치료**:
+- 금기가 없으면 모든 환자에게 hydroxychloroquine(HCQ)을 권한다.
+- 장기 목표용량은 실제체중 기준 ≤5 mg/kg/day(보통 최대 400 mg/day)이며 신기능·독성 위험에 따라 조정한다.
+- 안과 기저검사 후 일반적으로 5년부터 매년 망막독성 선별을 시행하고 고위험군은 더 일찍 검사한다.
+
+- **Glucocorticoid는 최소 용량·최단 기간** 사용한다.
+- 경증 피부·관절질환은 국소치료, HCQ와 필요 시 methotrexate/azathioprine 등 steroid-sparing 약제를 사용한다.
+- 중등도~중증 또는 장기위협 질환: glucocorticoid＋장기별 면역억제제(MMF, azathioprine, cyclophosphamide 등)로 빠른 관해유도.
+- 불충분한 반응·반복 flare·steroid 의존: belimumab, anifrolumab, rituximab 등 적절한 생물학제 평가.
+
+생물학제는 전문의가 질환 상태에 맞춰 선택한다.
+- Lupus nephritis 유도요법: class·중증도에 따라 glucocorticoid＋MMF/cyclophosphamide 기반 치료.
+- 병용 선택: belimumab 또는 calcineurin inhibitor 고려.
+- 반응 후: 장기 유지치료 시행.
+- 치료반응은 단백뇨와 eGFR 추세로 평가한다.
+- 자외선 차단, 금연, 심혈관 위험 관리, 골건강, 감염 선별과 백신을 병행한다.
+- 임신 전 질병활성도와 약물 안전성을 검토하고 teratogenic 약제는 충분한 기간 전에 전환한다.
+- aPL·anti-Ro/La 결과에 따라 aspirin/heparin 및 태아 모니터링을 계획한다.
+- NSAID는 근골격계 증상·경한 장막염·발열에 사용할 수 있으나, 신혈류 감소·부종·단백뇨 등 약물독성이 루푸스 신염 악화와 혼동될 수 있고 두통·어지럼·우울 등은 CNS flare와 감별한다.
+- cyclophosphamide 사용 시 골수억제·생식선 독성·출혈성 방광염 위험을 설명하고 CBC, 소변검사·혈뇨를 감시하며 충분한 수분 섭취와 필요 시 mesna를 사용한다.
+- azathioprine은 위장관 증상, 골수억제, 과민반응성 간독성을 감시한다.
+
+**치료 강화·감량 기준**:
+- 유지 prednisone은 ≤5 mg/일을 목표로 하고 가능하면 중단한다.
+- HCQ·국소 치료로 조절되지 않거나 이 수준으로 steroid를 줄일 수 없으면 장기별 면역억제제·생물학제를 추가한다.
+- HCQ 목표는 실제체중 ≤5 mg/kg/일이며 망막·신장 위험에 따라 조정한다.
+- 무증상 aPL 양성에서는 고위험 항체 프로파일과 출혈 위험에 따라 aspirin을 판단하고, 모든 항체 양성 환자에게 항응고하지 않는다.
 
 ## 6. 예후 및 합병증
 - 관해와 재발을 반복한다. 신장·신경계 침범, 혈전성 APS, 감염과 심혈관질환이 주요 이환·사망 원인이며 누적 glucocorticoid는 골다공증, 당뇨, 감염과 장기손상을 증가시킨다.

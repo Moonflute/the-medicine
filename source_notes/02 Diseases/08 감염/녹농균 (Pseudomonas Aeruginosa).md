@@ -40,9 +40,20 @@ sources: ["IDSA AMR 2026 | https://www.idsociety.org/practice-guideline/amr-guid
 - 검체 배양을 통한 녹농균 동정
 
 ## 5. 치료
-- **감수성에 따른 좁히기**: 중증 감염 초기에는 이전 배양·내성 위험을 반영하고 필요 시 두 계열을 사용한다. 감수성 β-lactam이 확인되면 통상 유효 단독요법으로 좁히며 aminoglycoside를 독성 부담에도 계속 병합하지 않는다.
-- **내성 패턴**: 기존 항녹농균 β-lactam에 감수성이 있으면 적정 용량·연장주입을 검토한다. DTR이면 감염 부위와 감수성에 따라 ceftolozane/tazobactam, ceftazidime/avibactam, imipenem/relebactam 또는 cefiderocol 등으로 선택한다. 국내 허가·접근성을 확인한다.
-- Aminoglycoside는 혈중 농도·신/이독성, fluoroquinolone은 신기능·QT·건/신경 독성 등을 확인한다. Fluoroquinolone에 일상적인 혈중 농도·청력검사를 지시하지 않는다. 농양·감염 인공물은 배액·제거를 평가한다.
+
+**감수성에 따른 좁히기**:
+- 중증 감염 초기에는 이전 배양·내성 위험을 반영하고 필요 시 두 계열을 사용한다.
+- 감수성 β-lactam이 확인되면 통상 유효 단독요법으로 좁히며 aminoglycoside를 독성 부담에도 계속 병합하지 않는다.
+
+**내성 패턴**:
+- 기존 항녹농균 β-lactam에 감수성이 있으면 적정 용량·연장주입을 검토한다.
+- DTR이면 감염 부위와 감수성에 따라 ceftolozane/tazobactam, ceftazidime/avibactam, imipenem/relebactam 또는 cefiderocol 등으로 선택한다.
+
+국내 허가·접근성을 확인한다.
+
+- Aminoglycoside는 혈중 농도·신/이독성, fluoroquinolone은 신기능·QT·건/신경 독성 등을 확인한다.
+- Fluoroquinolone에 일상적인 혈중 농도·청력검사를 지시하지 않는다.
+- 농양·감염 인공물은 배액·제거를 평가한다.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 중증 감염 시 패혈증, 다발성 장기 부전, 사망 위험 증가.

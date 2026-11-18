@@ -51,7 +51,9 @@ sources: ["IDSA candidiasis guideline | https://www.idsociety.org/practice-guide
 
 
 ## 5. 치료
-- 식도 칸디다증은 전신 항진균 치료가 필요하다. 성인은 신기능·상호작용을 확인하여 fluconazole 200–400 mg/day를 14–21일 사용하는 지침을 적용한다. 경구 섭취가 불가능하면 정맥 fluconazole 또는 echinocandin 등 대체 경로를 검토한다.
+- 식도 칸디다증은 전신 항진균 치료가 필요하다.
+- 성인은 신기능·상호작용을 확인하여 fluconazole 200–400 mg/day를 14–21일 사용하는 지침을 적용한다.
+- 경구 섭취가 불가능하면 정맥 fluconazole 또는 echinocandin 등 대체 경로를 검토한다.
 - 치료 반응은 대개 첫 1주 내 확인되므로, 호전이 없거나 악화하면 예정된 치료 종료까지 기다리지 않고 진단·내성·복약 상태를 재평가한다.
 
 - 증상 및 내시경 소견에 따라 항진균제(경구 또는 정맥) 치료를 시작하고, 2주 이내 임상 호전 여부를 평가한다.
