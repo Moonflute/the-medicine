@@ -1,5 +1,5 @@
 ---
-content_updated_at: '2026-10-07'
+content_updated_at: "2026-11-18"
 aliases: []
 document_role: group_overview
 group_members:
@@ -31,7 +31,7 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
-sources: ["ASH 청소년·젊은 성인 ALL 초치료 지침, 2026 | https://www.hematology.org/-/media/hematology/files/clinicians/guidelines/all-in-ayas-2026/ash-all-aya-frontline-visual-summary.pdf", "ASH 고령 AML 초치료 지침, 2025: 공식 요약 | https://www.hematology.org/-/media/hematology/files/clinicians/guidelines/ash-guidelines-update-2025/aml-snapshot-final.pdf", "SITC 급성 백혈병 면역치료 지침 v2.0, 2026 | https://doi.org/10.1136/jitc-2026-015963", "ELN 성인 AML 진단·치료 권고, 2022 | https://ashpublications.org/blood/article/doi/10.1182/blood.2022016867/485817", "ELN 저강도 치료 AML 위험 분류, 2024 | https://ashpublications.org/blood/article/144/21/2169/517356/Genetic-risk-classification-for-adults-with-AML", "ELN AML MRD 개정 합의, 2025(2026 발행) | https://doi.org/10.1182/blood.2025031480", "ELN 성인 ALL 치료 권고, 2024 | https://ashpublications.org/blood/article/143/19/1903/514806/Management-of-ALL-in-adults-2024-ELN", "ELN CML 치료 권고, 2025 | https://www.leukemia-net.org/sites/leukemia-net/content/e58/e495/e496/e11522/Apperley_J.etal_Leukemia2025.2025EuropeanLeukemiaNetrecommendationsforthemanagementofchronicmyeloidleukemia.pdf", "ELN APL 관리 권고, 2019(응급 ATRA 근거) | https://pmc.ncbi.nlm.nih.gov/articles/PMC6509567/"]
+sources: ["ASH 청소년·젊은 성인 ALL 초치료 지침, 2026 | https://www.hematology.org/-/media/hematology/files/clinicians/guidelines/all-in-ayas-2026/ash-all-aya-frontline-visual-summary.pdf", "ASH 고령 AML 초치료 지침, 2025: 공식 요약 | https://www.hematology.org/-/media/hematology/files/clinicians/guidelines/ash-guidelines-update-2025/aml-snapshot-final.pdf", "SITC 급성 백혈병 면역치료 지침 v2.0, 2026 | https://doi.org/10.1136/jitc-2026-015963", "ELN 성인 AML 진단·치료 권고, 2022 | https://ashpublications.org/blood/article/doi/10.1182/blood.2022016867/485817", "ELN 저강도 치료 AML 위험 분류, 2024 | https://ashpublications.org/blood/article/144/21/2169/517356/Genetic-risk-classification-for-adults-with-AML", "ELN AML MRD 개정 합의, 2025(2026 발행) | https://doi.org/10.1182/blood.2025031480", "ELN 성인 ALL 치료 권고, 2024 | https://ashpublications.org/blood/article/143/19/1903/514806/Management-of-ALL-in-adults-2024-ELN", "ELN CML 치료 권고, 2025 | https://www.leukemia-net.org/sites/leukemia-net/content/e58/e495/e496/e11522/Apperley_J.etal_Leukemia2025.2025EuropeanLeukemiaNetrecommendationsforthemanagementofchronicmyeloidleukemia.pdf", "ELN APL 관리 권고, 2019(응급 ATRA 근거) | https://pmc.ncbi.nlm.nih.gov/articles/PMC6509567/", "ELN AML 진료지침 2022 | https://ashpublications.org/blood/article/140/12/1345/485851", "ELN CML 진료지침 2025 | https://www.nature.com/articles/s41375-025-02664-w", "NCI PDQ CLL 병기 | https://www.cancer.gov/types/leukemia/hp/cll-treatment-pdq"]
 ---
 분과 : [[혈액]]
 
@@ -53,6 +53,18 @@ sources: ["ASH 청소년·젊은 성인 ALL 초치료 지침, 2026 | https://www
 
 ## 4. 진단 (Diagnosis)
 - 급성 백혈병은 형태·면역표현형·유전검사를 통합해 진단한다. AML의 전통적인 모세포 ≥20% 기준에는 정의 유전 이상에 따른 예외가 있으며 WHO/ICC의 역치도 다르다. 20% 미만이라는 이유만으로 배제하지 않는다.
+
+**아형별로 다른 단계·위험도 체계**:
+
+| 아형 | 진단 뒤 기록할 분류 |
+| --- | --- |
+| AML | ELN 유전 위험군(유리·중간·불량), 관해·MRD, 재발/불응 상태 |
+| APL | 치료 전 WBC ≤10,000/μL / >10,000/μL의 비고위험 / 고위험 |
+| ALL | B/T 계열·유전형·중추신경 침범, 프로토콜별 초기 위험도와 MRD |
+| CML | 만성기·급성기 및 적용 분류의 가속기, BCR::ABL1 분자반응 |
+| CLL | Rai 0–IV 또는 Binet A–C, TP53·IGHV 및 활동성 질환 여부 |
+
+백혈병 전체에 공통된 I–IV 병기표는 없다. 형태·면역표현형·세포유전/분자검사로 아형을 확정한 후 해당 체계를 사용하며, 백혈구 수 하나만으로 진행 단계나 치료 강도를 정하지 않는다.
 
 ## 5. 치료
 - 급성 백혈병: 관해 유도 화학요법 시행 후 반응에 따라 조혈모세포 이식 여부를 평가하고, 치료 중 혈액학적 수치와 부작용을 정기적으로 모니터링한다.

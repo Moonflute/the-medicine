@@ -23,7 +23,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "source_reviewed_no_change"
 guideline_year: "2026"
-sources: ["NCCN Guideline Updates on Radiopharmaceutical Therapy for Prostate Cancer. | https://pubmed.ncbi.nlm.nih.gov/42185202/", "EAU 2026 국소 치료 | https://uroweb.org/guidelines/prostate-cancer/chapter/treatment", "AUA/SUO 2026 개정 | https://doi.org/10.1097/JU.0000000000005220", "ASCO 병용 치료 지침 | https://doi.org/10.1200/JCO.23.00155"]
+sources: ["NCCN Guideline Updates on Radiopharmaceutical Therapy for Prostate Cancer. | https://pubmed.ncbi.nlm.nih.gov/42185202/", "EAU 2026 국소 치료 | https://uroweb.org/guidelines/prostate-cancer/chapter/treatment", "AUA/SUO 2026 개정 | https://doi.org/10.1097/JU.0000000000005220", "ASCO 병용 치료 지침 | https://doi.org/10.1200/JCO.23.00155", "EAU 전립샘암 병기·위험군 분류 | https://uroweb.org/guidelines/prostate-cancer/chapter/classification-and-staging-systems"]
 
 ---
 분과 : [[비뇨기과]]
@@ -52,6 +52,27 @@ sources: ["NCCN Guideline Updates on Radiopharmaceutical Therapy for Prostate Ca
 * 조직검사를 통한 Gleason score 확인이 필수적.
 * ISUP Grade Group(1~5)을 통해 예후를 분류함.
 
+**진단 후 병기·조직등급·위험군**:
+
+| 구분 | 기준 |
+| --- | --- |
+| cT1 / cT2 | 직장수지검사에서 만져지지 않음 / 만져지지만 전립샘에 국한 |
+| cT3a / cT3b | 피막외 침범 / 정낭 침범 |
+| cT4 | 고정되거나 외요도괄약근·직장·골반벽 등 인접 구조 침범 |
+| N1 / M1 | 국소 골반 림프절 / 비국소 림프절(M1a), 뼈(M1b), 기타 장기(M1c) 전이 |
+| ISUP Grade Group 1–5 | 순서대로 Gleason ≤6, 3+4, 4+3, 8, 9–10 |
+
+EAU 임상 위험군의 **cT는 직장수지검사 기준**이며 MRI의 피막외 침범 소견은 별도로 기록한다. 양쪽 생검에서 암이 나왔다는 이유만으로 cT2c로 올리지 않는다.
+
+| EAU 위험군 | cN0 M0에서의 기준 |
+| --- | --- |
+| 저위험 | GG1, PSA <10 ng/mL, cT1–2를 모두 만족 |
+| 양호 중간위험 | cT1–2이면서 GG2·PSA <10 또는 GG1·PSA 10–20 |
+| 불량 중간위험 | cT1–2이면서 GG2·PSA 10–20 또는 GG3·PSA ≤20 |
+| 고위험 국소암 | cT1–2이면서 GG4–5 또는 PSA >20 |
+| 국소진행 | cT3–4 또는 cN+; PSA·GG와 무관 |
+
+서로 다른 위험 요소가 있으면 높은 위험군을 적용한다. **PI-RADS는 영상의 암 의심 정도**이며 TNM이나 Grade Group을 대신하지 않는다. 원격 전이는 위 국소암 위험군과 따로 분류한다.
 
 ## 5. 치료 (Treatment)
 

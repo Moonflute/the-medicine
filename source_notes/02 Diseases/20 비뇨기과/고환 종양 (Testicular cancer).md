@@ -21,7 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["EAU 고환암 2026 | https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management"]
+sources: ["EAU 고환암 2026 | https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management", "EAU 고환암 UICC 9판·IGCCCG 분류 | https://uroweb.org/guidelines/testicular-cancer/chapter/staging-amp-classification-systems", "NCI PDQ 고환암 TNMS 병기 | https://www.cancer.gov/types/testicular/hp/testicular-treatment-pdq"]
 ---
 분과 : [[비뇨기과]]
 
@@ -45,6 +45,33 @@ sources: ["EAU 고환암 2026 | https://uroweb.org/guidelines/testicular-cancer/
 * 신체 검진 및 초음파로 고환 내 종양 확인 후, 근치적 서혜부 고환절제술(Radical inguinal orchiectomy)을 통해 조직학적 확진.
 * 주의: 경음낭 생검(Trans-scrotal biopsy)은 암 전파 위험으로 금기.
 
+**TNM과 종양표지자 병기**:
+- 고환절제 후 CT상의 림프절·원격 전이와 AFP·β-hCG·LDH를 함께 평가한다. 수술 직후 상승 수치만으로 IS기를 확정하지 않고 표지자의 반감기에 따른 감소와 비종양성 상승 원인을 확인한다.
+- 임상 림프절 크기는 N1 ≤2 cm, N2 >2–5 cm, N3 >5 cm가 기본이다. 병리 N에는 양성 림프절 개수와 림프절외 침범도 반영한다.
+
+| S분류 | AFP(ng/mL) | β-hCG(IU/L) | LDH(정상 상한 대비) |
+| --- | --- | --- | --- |
+| S0 | 정상 | 정상 | 정상 |
+| S1 | <1,000 | <5,000 | <1.5배 |
+| S2 | 1,000–10,000 | 5,000–50,000 | 1.5–10배 |
+| S3 | >10,000 | >50,000 | >10배 |
+
+S1은 적어도 한 표지자가 비정상인 경우이며, 여러 표지자가 다르면 **가장 높은 S분류**를 적용한다.
+
+| 병기군 | 기준 |
+| --- | --- |
+| IA / IB | N0 M0 S0; 각각 pT1 / pT2–4 |
+| IS | N0 M0이지만 고환절제 후 표지자 상승이 지속되어 S1–3에 해당 |
+| IIA / IIB / IIC | M0 S0–1에서 각각 N1 / N2 / N3 |
+| III | 원격 전이, 또는 N+ M0이면서 S2–3 |
+
+**전이성 생식세포종의 IGCCCG 위험군**:
+- 비정상피종의 양호군: 고환/후복막 원발, 비폐성 내장 전이 없음, AFP <1,000·hCG <5,000·LDH <1.5배를 모두 만족한다.
+- 중간군: 위 원발 부위·전이 조건을 만족하면서 표지자 중 하나 이상이 S2 범위이고 S3는 없다.
+- 불량군: 종격동 원발, 비폐성 내장 전이, S3 범위 표지자 중 하나라도 있다.
+- 정상피종은 AFP 정상에서 비폐성 내장 전이가 없으면 양호군, 있으면 중간군이며 불량군은 없다. AFP 상승 시 혼합/비정상피종 성분을 재평가한다.
+
+IGCCCG에는 **항암 시작 직전 표지자**를 사용한다. 해부학적 병기와 항암 예후군을 별도로 기록한다.
 
 ## 5. 치료
 - 의심 고형 고환 종괴는 **서혜부 접근 근치 고환절제술**과 수술 전후 AFP·β-hCG·LDH, 흉복부 병기 평가가 기본이다.

@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases:
 - cervical cancer
 - 자궁경부암
@@ -23,7 +23,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ESGO·ESTRO·ESP 자궁경부암 진료지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10176411/", "ASCCP 자궁경부 AIS 실무 권고 | https://www.asccp.org/clinical-practice/practice-pearls/tips-for-best-practices-on-management-of-adenocarcinoma-in-situ-of-the-cervix-ais/", "ESMO 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13728282/", "FDA 국소 진행암 승인 | https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-chemoradiotherapy-figo-2014-stage-iii-iva-cervical-cancer", "대한부인종양학회 자궁경부암 진료지침(2024) | https://doi.org/10.3802/jgo.2024.35.e44", "ESGO/ESTRO/ESP 자궁경부암 지침(2023) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10247855/"]
+sources: ["ESGO·ESTRO·ESP 자궁경부암 진료지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10176411/", "ASCCP 자궁경부 AIS 실무 권고 | https://www.asccp.org/clinical-practice/practice-pearls/tips-for-best-practices-on-management-of-adenocarcinoma-in-situ-of-the-cervix-ais/", "ESMO 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13728282/", "FDA 국소 진행암 승인 | https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-chemoradiotherapy-figo-2014-stage-iii-iva-cervical-cancer", "대한부인종양학회 자궁경부암 진료지침(2024) | https://doi.org/10.3802/jgo.2024.35.e44", "ESGO/ESTRO/ESP 자궁경부암 지침(2023) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10247855/", "NCI PDQ 자궁경부암 병기 | https://www.cancer.gov/types/cervical/hp/cervical-treatment-pdq", "FIGO 자궁경부암 2025 update | https://pmc.ncbi.nlm.nih.gov/articles/PMC12411820/"]
 ---
 분과 : [[부인과]]
 
@@ -42,9 +42,29 @@ sources: ["ESGO·ESTRO·ESP 자궁경부암 진료지침 | https://pmc.ncbi.nlm.
 - **병기 설정**: 신체 진찰, 영상 검사 (MRI가 국소 침윤 평가에 우수, PET-CT는 림프절 및 원격 전이 평가에 유용)
 
 ## 4. 진단 (Diagnosis)
-- 조직학적 확진이 필수적이며, FIGO 병기 체계에 따라 분류
-- **FIGO 2018 림프절 병기**: 골반 림프절 전이는 IIIC1, 대동맥주위 림프절 전이는 IIIC2다. 영상 근거는 r, 병리 근거는 p를 붙인다(예: 수술 검체에서 골반 림프절 전이 → IIIC1p).
-- **미세침윤 경계**: 기질 침윤 깊이 ≤3 mm는 IA1, >3~≤5 mm는 IA2의 깊이 기준이다. 수평 너비를 IA 병기에 사용하지 않는다. 병리와 림프절 등 전체 병기를 함께 평가한다.
+- 조직검사로 침윤암을 확진하고, 진찰·골반 MRI와 림프절/원격 전이 평가를 종합하여 병기를 정한다.
+
+**FIGO 2018 병기(정정된 경계값 반영)**:
+
+| 병기 | 구분 기준 |
+| --- | --- |
+| IA1 | 현미경으로만 확인되는 암, 기질 침윤 깊이 ≤3 mm |
+| IA2 | 현미경으로만 확인되는 암, 침윤 >3–≤5 mm |
+| IB1 | 자궁경부 국한, 침윤 >5 mm, 최대 지름 ≤2 cm |
+| IB2 | 자궁경부 국한, 최대 지름 >2–≤4 cm |
+| IB3 | 자궁경부 국한, 최대 지름 >4 cm |
+| IIA1 / IIA2 | 질 상부 2/3까지 침범하고 자궁방조직 침범 없음. ≤4 cm / >4 cm |
+| IIB | 자궁방조직 침범, 골반벽에는 도달하지 않음 |
+| IIIA | 질 하부 1/3 침범, 골반벽 침범 없음 |
+| IIIB | 골반벽 침범 또는 종양에 의한 수신증·무기능 콩팥 |
+| IIIC1 / IIIC2 | 골반 림프절 / 대동맥주위 림프절 전이 |
+| IVA | 방광·직장 점막 침범 등 인접 골반 장기로 진행 |
+| IVB | 원격 전이 |
+
+- **병기 기록**: IIIC는 영상 근거에 r, 병리 근거에 p를 붙인다(예: IIIC1p). 고립종양세포만으로 IIIC로 올리지 않는다.
+- **경계 해석**: IA는 현미경적 병변이다. 수평 너비와 림프혈관공간침범(LVSI)은 IA 세부 병기를 바꾸지 않지만 치료 판단에는 중요하다. 자궁체부 연장 자체는 병기 결정에서 제외한다.
+- 방광의 수포성 부종만으로 IVA로 분류하지 않으며, 점막 침범은 조직으로 확인한다.
+- 치료 근거에서 사용하는 **FIGO 2014 III–IVA**와 현재의 **FIGO 2018 IIIC**는 범위가 같지 않으므로 해당 연구·약제의 병기 판본을 확인한다.
 
 ## 5. 치료
 

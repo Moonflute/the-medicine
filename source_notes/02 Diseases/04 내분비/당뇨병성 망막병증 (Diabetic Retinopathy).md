@@ -11,9 +11,9 @@ CC:
 - 시력 저하
 preprocessing_required: x
 last_studied: '2026-06-06'
-sources: ["대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide", "ADA 2026 Retinopathy, Neuropathy, and Foot Care | https://diabetesjournals.org/care/article/49/Supplement_1/S261/163919/12-Retinopathy-Neuropathy-and-Foot-Care-Standards"]
+sources: ["대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide", "ADA 2026 Retinopathy, Neuropathy, and Foot Care | https://diabetesjournals.org/care/article/49/Supplement_1/S261/163919/12-Retinopathy-Neuropathy-and-Foot-Care-Standards", "AAO 당뇨망막병증 진료지침 2025 | https://www.aaojournal.org/article/S0161-6420%2824%2900784-X/fulltext", "AOA 국제 임상 당뇨망막병증 척도 | https://www.aoa.org/AOA/Documents/Practice%20Management/Clinical%20Guidelines/EBO%20Guidelines/Eye%20Care%20of%20the%20Patient%20with%20Diabetes%20Mellitus%2C%20Second%20Edition.pdf"]
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-14'
+content_updated_at: "2026-11-18"
 guideline_year: "2026"
 disease_family: diabetes
 parent_disease: 당뇨병 (Diabetes Mellitus)
@@ -39,6 +39,19 @@ review_status: "guideline_enriched"
 ## 4. 진단
 - 안저 소견을 비증식성 당뇨병성 망막병증(NPDR), 당뇨병황반부종(DME), 증식성 당뇨병성 망막병증(PDR)으로 분류하고, 병변의 중심와 침범·시력·신생혈관과 출혈을 함께 평가한다.
 - 시력 저하가 있어도 백내장·굴절 이상·황반변성·망막혈관폐쇄 등 동반 안질환을 함께 감별한다.
+
+**국제 임상 중증도 분류**:
+
+| 단계 | 안저 기준 |
+| --- | --- |
+| 경도 NPDR | 미세동맥류만 있음 |
+| 중등도 NPDR | 미세동맥류보다 많은 병변이나 중증 기준에는 미달 |
+| 중증 NPDR | 신생혈관 없이 아래 4–2–1 기준 중 ≥1개 |
+| PDR | 망막/시신경유두 신생혈관 또는 유리체·망막앞 출혈 |
+
+**4–2–1 기준**: 네 사분면 각각 망막내 출혈 >20개, 두 사분면 이상 뚜렷한 정맥 염주, 한 사분면 이상 뚜렷한 망막내 미세혈관 이상(IRMA) 중 하나이다. 안저 사진 표준에 맞춰 안과에서 판정한다.
+
+DME는 어느 단계에서도 동반될 수 있으므로 **중심 침범 여부·OCT·교정시력**을 별도로 기록한다. 망막병증의 등급과 황반부종을 서로 배타적인 단계로 나누지 않는다.
 
 ## 5. 치료
 - 혈당·혈압·지질·신장 위험인자 관리는 모든 단계의 기본 치료다. 다만 시력 위협 망막병증은 전신 조절만 기다리지 않고 안과 치료를 병행한다.

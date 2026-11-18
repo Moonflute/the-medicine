@@ -24,7 +24,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ESGE 팽대부 종양 지침 | https://www.esge.com/endoscopic-management-of-ampullary-tumors-european-society-of-gastrointestinal-endoscopy-esge-guideline"]
+sources: ["ESGE 팽대부 종양 지침 | https://www.esge.com/endoscopic-management-of-ampullary-tumors-european-society-of-gastrointestinal-endoscopy-esge-guideline", "CAP 팽대부암 병리·TNM 프로토콜 2025 | https://www.cap.org/wp-content/uploads/documents/New-Cancer-Protocols-June-2025/Ampulla_4.3.0.0.REL_CAPCP.pdf?download=true", "NHS NDRS 팽대부암 병기 | https://digital.nhs.uk/ndrs/data/cancer-data-training-materials/staging-sheets/ampulla-of-vater"]
 ---
 분과 : [[소화기]]
 
@@ -58,6 +58,20 @@ sources: ["ESGE 팽대부 종양 지침 | https://www.esge.com/endoscopic-manage
 * 내시경 생검을 통한 조직학적 확진
 
 - **감별진단**: 총담관 담석, 만성 췌장염, 기타 팽대부 주위 악성 종양(췌장암, 담관암 등)과 감별이 필요하다.
+
+**원발 부위 확인 후 병기 적용**:
+- 팽대부 주위암에는 팽대부암·췌장암·원위부 담관암·십이지장암이 포함되며 각각 다른 TNM 체계를 사용한다.
+
+**팽대부 자체가 원발인 암의 T 기준(AJCC 8판)**:
+
+| T | 침윤 범위 |
+| --- | --- |
+| T1a / T1b | 팽대부·Oddi 괄약근 국한 / 괄약근 밖 또는 십이지장 점막하층 |
+| T2 | 십이지장 고유근층 |
+| T3a / T3b | 췌장 침윤 ≤0.5 cm / >0.5 cm 또는 췌장주위조직·십이지장 장막 침범 |
+| T4 | 복강동맥·상장간막동맥·총간동맥 침범 |
+
+국소 림프절 N1은 1–3개, N2는 ≥4개 전이다. N0M0이면 T1a는 IA, T1b–T2는 IB, T3a는 IIA, T3b는 IIB이다. T1–3 N1은 IIIA, T4 또는 N2는 IIIB, M1은 IV이다. 장형·췌담도형 조직아형과 절제연도 따로 기록한다.
 
 ## 5. 치료
 - **침윤암**은 원발 부위(팽대부·췌장·원위담관·십이지장), 원격전이, 혈관 침범과 전신 상태로 절제 가능성을 판단한다.

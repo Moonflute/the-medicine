@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -19,7 +19,7 @@ population: "general"
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["CDC STI | https://www.cdc.gov/std/treatment-guidelines/syphilis.htm", "신경매독 | https://www.cdc.gov/std/treatment-guidelines/neurosyphilis.htm"]
+sources: ["CDC STI | https://www.cdc.gov/std/treatment-guidelines/syphilis.htm", "신경매독 | https://www.cdc.gov/std/treatment-guidelines/neurosyphilis.htm", "CDC 잠복매독 기간 결정 | https://www.cdc.gov/std/treatment-guidelines/latent-syphilis.htm"]
 ---
 분과 : [[감염]]
 
@@ -52,6 +52,18 @@ sources: ["CDC STI | https://www.cdc.gov/std/treatment-guidelines/syphilis.htm",
 ## 4. 진단 (Diagnosis)
 - 병력 청취, 신체 검진 및 혈청학적 검사(선별 검사 후 확진 검사)를 통해 진단한다.
   신경 매독이 의심되는 경우 뇌척수액 검사를 추가한다.
+
+**병기 구분(CDC 기준)**:
+
+| 병기 | 기준 |
+| --- | --- |
+| 1기 | 감염 부위 궤양/경성하감 등 국소 초기 병변 |
+| 2기 | 전신 발진, 점막 병변·편평콘딜로마, 림프절병증 등 전신 증상 |
+| 조기 잠복 | 증상은 없으나 최근 1년 내 감염을 뒷받침하는 근거가 있음 |
+| 후기 잠복/기간 불명 | 증상은 없으며 감염 후 >1년 또는 감염 시점을 입증할 수 없음 |
+| 3기 | 고무종·심혈관 매독 등 후기 장기 병변 |
+
+조기 잠복의 근거는 지난 1년의 혈청전환·지속적인 비트레포네마 역가 ≥4배 상승, 명확한 1/2기 증상, 조기 매독 파트너 또는 노출이 그 기간으로 한정된 경우 등이다. **RPR/VDRL 역가가 높다는 이유만으로 조기 잠복으로 정하지 않는다.** 신경·안구·이매독은 어느 병기에서도 가능하며 별도 검사·치료 경로를 적용한다.
 
 ## 5. 치료
 

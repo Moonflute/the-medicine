@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases:
 - gynandroblastoma
 유형:
@@ -17,7 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ESMO 비상피성 난소종양 | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf"]
+sources: ["ESMO 비상피성 난소종양 | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf", "NCI PDQ 난소·난관암 FIGO 병기 | https://www.cancer.gov/types/ovarian/hp/ovarian-epithelial-treatment-pdq"]
 ---
 분과 : [[부인과]]
 
@@ -44,6 +44,18 @@ sources: ["ESMO 비상피성 난소종양 | https://data.esmo.org/guidelines/pdf
 ## 4. 진단 (Diagnosis)
 - 조직병리학적 검사가 확진의 표준
 - 두 가지 세포 성분이 모두 확인되어야 함
+
+**악성 난소·난관 종양의 FIGO 범위 분류**:
+
+| 병기 | 기준 |
+| --- | --- |
+| IA / IB | 일측 / 양측 난소·난관 국한, 피막 보존·표면 종양 없음·복수/세척액 음성 |
+| IC1 / IC2 / IC3 | 수술 중 유출 / 수술 전 파열 또는 표면 종양 / 복수·세척액 악성세포 |
+| II | 골반 내 다른 조직으로 확산 |
+| III | 골반 밖 복막 또는 후복막 림프절 전이 |
+| IV | 악성 흉수, 장기 실질 또는 복강 밖 원격 전이 |
+
+이 분류는 악성 종양의 범위에 적용하며, **양성 종양·초음파의 악성 의심 점수와 구분**한다. 조직형·등급과 잔존 종양을 병기와 별도로 기록한다. 골반 밖 복막 전이와 간·비장 실질 전이를 같은 IV기로 묶지 않는다.
 
 ## 5. 치료
 

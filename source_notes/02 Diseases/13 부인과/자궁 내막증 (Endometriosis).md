@@ -17,7 +17,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Diagnosis of Endometriosis. | https://pubmed.ncbi.nlm.nih.gov/41712950/", "ESHRE 자궁내막증 지침 | https://www.eshre.eu/Guideline/Endometriosis", "ACOG 부속기 염전 권고 | https://pubmed.ncbi.nlm.nih.gov/31348225/", "ESHRE 자궁내막증 진료지침 | https://pubmed.ncbi.nlm.nih.gov/35350465/", "ESHRE | https://pmc.ncbi.nlm.nih.gov/articles/PMC8951218/"]
+sources: ["Diagnosis of Endometriosis. | https://pubmed.ncbi.nlm.nih.gov/41712950/", "ESHRE 자궁내막증 지침 | https://www.eshre.eu/Guideline/Endometriosis", "ACOG 부속기 염전 권고 | https://pubmed.ncbi.nlm.nih.gov/31348225/", "ESHRE 자궁내막증 진료지침 | https://pubmed.ncbi.nlm.nih.gov/35350465/", "ESHRE | https://pmc.ncbi.nlm.nih.gov/articles/PMC8951218/", "ASRM 자궁내막증 수술 분류 원문 | https://pubmed.ncbi.nlm.nih.gov/9130884/", "World Endometriosis Society 분류 합의 | https://doi.org/10.1093/HUMREP/DEW293"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -45,6 +45,18 @@ content_updated_at: "2026-11-18"
 - 진단적 복강경 소견: "gunshot" 병변(검은색 반점), 유착, 난소 내막종
 - 조직검사: 자궁내막 선 및 기질 확인
 
+**수술 시 rASRM 병기**:
+
+| 병기 | 총점 |
+| --- | --- |
+| I, minimal | 1–5 |
+| II, mild | 6–15 |
+| III, moderate | 16–40 |
+| IV, severe | >40 |
+
+복막·난소 병변의 크기·깊이, 난소/난관 유착 및 더글라스와 폐쇄를 수술 소견으로 점수화한다. **낭종 지름 하나나 통증 점수로 병기를 정하지 않는다.** 깊은 장·방광·요관 침범은 위치·범위를 별도로 기록하거나 #Enzian 등으로 보완한다. 난임 예후는 연령·난소예비력·EFI 등을 함께 평가한다.
+
+병기와 통증 정도는 일치하지 않을 수 있다. 병기 번호를 얻기 위한 목적만으로 복강경을 필수 시행하지 않으며, 영상·증상에 따른 임상 진단과 경험적 치료가 가능하다.
 
 ## 5. 치료 (Treatment)
 - **통증 조절**: Progestin, GnRH agonist, 경구 피임약(OC), NSAIDs

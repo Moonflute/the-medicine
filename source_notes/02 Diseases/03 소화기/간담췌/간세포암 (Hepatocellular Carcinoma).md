@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -24,7 +24,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
-sources: ["대한간암학회·국립암센터 간세포암종 진료 가이드라인 | https://www.kasl.org/eng/guidelines/file/2022_Hepatocellular%20carcinoma%20%28KLCA-NCC%29.pdf", "KLCA–NCC 2022 | https://e-cmh.org/upload/pdf/cmh-2022-0294.pdf", "ASCO | https://ascopubs.org/doi/10.1200/JCO.23.02745", "FDA 2025 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-ipilimumab-unresectable-or-metastatic-hepatocellular-carcinoma", "AASLD | https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/", "REACH-2 | https://pubmed.ncbi.nlm.nih.gov/30665869/", "EASL 2025 | https://easlcampus.eu/sites/default/files/2025-02/EASL_CPG_Management_HCC.pdf", "NCCN Insights 2026 | https://doi.org/10.6004/jnccn.2026.0047", "KLCA-NCC 2022 진료지침 | https://www.e-jlc.org/journal/view.php?number=513", "KLCA-NCC 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9747269/", "KLCA TACE 권고 2023 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10366793/"]
+sources: ["대한간암학회·국립암센터 간세포암종 진료 가이드라인 | https://www.kasl.org/eng/guidelines/file/2022_Hepatocellular%20carcinoma%20%28KLCA-NCC%29.pdf", "KLCA–NCC 2022 | https://e-cmh.org/upload/pdf/cmh-2022-0294.pdf", "ASCO | https://ascopubs.org/doi/10.1200/JCO.23.02745", "FDA 2025 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-ipilimumab-unresectable-or-metastatic-hepatocellular-carcinoma", "AASLD | https://pmc.ncbi.nlm.nih.gov/articles/PMC10663390/", "REACH-2 | https://pubmed.ncbi.nlm.nih.gov/30665869/", "EASL 2025 | https://easlcampus.eu/sites/default/files/2025-02/EASL_CPG_Management_HCC.pdf", "NCCN Insights 2026 | https://doi.org/10.6004/jnccn.2026.0047", "KLCA-NCC 2022 진료지침 | https://www.e-jlc.org/journal/view.php?number=513", "KLCA-NCC 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9747269/", "KLCA TACE 권고 2023 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10366793/", "BCLC 병기·치료전략 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8866082/", "BCLC 병기·치료전략 2026 개정 | https://doi.org/10.1016/j.jhep.2025.10.020"]
 ---
 분과 : [[소화기]]
 
@@ -65,6 +65,18 @@ sources: ["대한간암학회·국립암센터 간세포암종 진료 가이드�
   만성 간 질환 환자에서 영상 검사(CT/MRI)상 전형적인 소견(동맥기 조영 증강, 피막 형성, 지연기 wash-out 등) 확인 시 진단.
   AFP 상승만으로 확진하지 않으며, AFP가 정상이어도 간세포암을 배제하지 않는다. 확진은 적용 대상에 맞는 영상 기준 또는 병리 소견에 따른다.
 - **감별진단**: 간세포 선종, 국소 결절 과형성(FNH), 간 혈관종, 간 전이암.
+
+**BCLC 병기: 종양 범위·간기능·수행능력을 함께 평가**:
+
+| 병기 | 기준 |
+| --- | --- |
+| 0, 매우 초기 | 단일 종양 ≤2 cm, 혈관 침범·간외 전이 없음, 간기능 보존, ECOG 0 |
+| A, 초기 | 단일 종양 또는 ≤3개이면서 각각 ≤3 cm, 혈관 침범·간외 전이 없음, 간기능 보존, ECOG 0 |
+| B, 중간 | A 범위를 넘는 다발 종양(>3개 또는 2–3개 중 >3 cm 병변), 혈관 침범·간외 전이 없음, 간기능 보존, ECOG 0 |
+| C, 진행 | 육안적 혈관 침범·간외 전이 또는 종양 관련 ECOG 1–2, 전신치료를 감당할 간기능 |
+| D, 말기 | 종양 관련 ECOG >2 또는 심한 간기능 저하가 있으며 간이식 대상이 되지 못함 |
+
+2026 BCLC 개정은 기본 병기 틀을 유지하며 중간 병기의 다발성 기준을 명확히 했다. 수행능력 저하가 종양 때문인지 다른 동반질환 때문인지 구분하고, 간기능은 Child-Pugh 숫자뿐 아니라 복수·황달·뇌병증과 이식 가능성을 함께 본다. **단일 큰 종양을 크기만으로 B로 올리지 않는다.** BCLC A와 이식의 Milan 기준은 서로 다른 기준이며, 같은 병기에서도 문맥고혈압·잔여 간용적·종양 위치에 따라 치료가 달라진다.
 
 ## 5. 치료
 

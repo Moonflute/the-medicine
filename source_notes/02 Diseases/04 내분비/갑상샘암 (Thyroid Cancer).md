@@ -25,9 +25,9 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["Korean Thyroid Association Guidelines on the Management of Differentiated Thyroid Cancers 2024 | https://www.ijthyroid.org/journal/view.php?number=202400002", "2025 Korean Thyroid Association Clinical Management Guideline on Active Surveillance for Low-Risk Papillary Thyroid Carcinoma | https://www.e-enm.org/journal/view.php?number=2461", "ATA 2025 | https://doi.org/10.1177/10507256251363120", "ATA 2025 요약 | https://doi.org/10.1177/10507256251390877", "ASCO 2026 | https://ascopubs.org/doi/10.1200/JCO-26-00235", "ATA MTC | https://doi.org/10.1089/thy.2014.0335", "ATA ATC | https://pmc.ncbi.nlm.nih.gov/articles/PMC8349723/"]
+sources: ["Korean Thyroid Association Guidelines on the Management of Differentiated Thyroid Cancers 2024 | https://www.ijthyroid.org/journal/view.php?number=202400002", "2025 Korean Thyroid Association Clinical Management Guideline on Active Surveillance for Low-Risk Papillary Thyroid Carcinoma | https://www.e-enm.org/journal/view.php?number=2461", "ATA 2025 | https://doi.org/10.1177/10507256251363120", "ATA 2025 요약 | https://doi.org/10.1177/10507256251390877", "ASCO 2026 | https://ascopubs.org/doi/10.1200/JCO-26-00235", "ATA MTC | https://doi.org/10.1089/thy.2014.0335", "ATA ATC | https://pmc.ncbi.nlm.nih.gov/articles/PMC8349723/", "NCI PDQ 갑상샘암 조직형별 병기 | https://www.cancer.gov/types/thyroid/hp/thyroid-treatment-pdq"]
 
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[내분비]]
 
@@ -76,6 +76,21 @@ content_updated_at: "2026-11-17"
 - **갑상샘암**: 초음파 소견 및 FNA 시행, 속질암은 RET 돌연변이 확인 및 갈색세포종 배제 필요
 - **갑상샘중독증 감별**: 그레이브스병(RAIU 증가)과 갑상샘염(RAIU 감소) 감별 중요
 - **불현성 갑상샘중독증**: TSH 감소, fT4 정상
+
+**분화갑상샘암 TNM과 나이별 병기(AJCC 8판)**:
+
+- **T1 / T2 / T3a**: 갑상샘 내 종양 ≤2 cm / >2–≤4 cm / >4 cm. T1a는 ≤1 cm이다.
+- **T3b / T4a / T4b**: 육안적 띠근육 침범 / 피하조직·후두·기관·식도·되돌이후두신경 침범 / 척추전근막 침범 또는 경동맥·종격동 혈관 포위. 현미경적 갑상샘외 침범만으로 T3가 되지는 않는다.
+- **N1a / N1b**: 중앙구획 VI·VII / 측경부 I–V 또는 인두후 림프절. M1은 원격 전이다.
+
+| 진단 당시 나이 | 병기 | 기준 |
+| --- | --- | --- |
+| <55세 | I / II | 모든 T·N에서 M0 / M1 |
+| ≥55세 | I | T1–2 N0/NX M0 |
+| ≥55세 | II | T1–2 N1 M0 또는 T3 모든 N M0 |
+| ≥55세 | III / IVA / IVB | T4a M0 / T4b M0 / 모든 T·N M1 |
+
+이 표는 **유두암·여포암 등 분화암**에 적용한다. TNM은 사망 위험 예측에 사용하고, 수술 후 재발 위험도·치료반응 분류는 별도로 평가하여 방사성요오드와 TSH 억제 강도를 정한다. 젊은 환자의 I기라도 림프절 전이·국소 침범이 없다는 뜻은 아니다.
 
 ## 5. 치료
 

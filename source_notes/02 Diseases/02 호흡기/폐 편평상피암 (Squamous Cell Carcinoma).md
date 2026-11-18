@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -23,7 +23,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["대한폐암학회 폐암진료지침 3판 (2023) | https://www.lungca.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&idx=1000000000000000003", "NCCN Guidelines® Insights: Non-Small Cell Lung Cancer, Version 7.2025 | https://pubmed.ncbi.nlm.nih.gov/40930154/", "NCI PDQ | https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq"]
+sources: ["대한폐암학회 폐암진료지침 3판 (2023) | https://www.lungca.or.kr/bbs/index.html?code=guideline&category=&gubun=&page=1&idx=1000000000000000003", "NCCN Guidelines® Insights: Non-Small Cell Lung Cancer, Version 7.2025 | https://pubmed.ncbi.nlm.nih.gov/40930154/", "NCI PDQ | https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq", "IASLC 폐암 TNM 9판 | https://www.iaslc.org/file/10871/download?token=DmNIDkWP"]
 
 ---
 분과 : [[호흡기]]
@@ -50,6 +50,34 @@ sources: ["대한폐암학회 폐암진료지침 3판 (2023) | https://www.lungc
 ## 4. 진단 (Diagnosis)
 - 조직 검사(생검)를 통해 편평상피암으로 확진.
   병기 결정을 위해 PET/CT 및 뇌 MRI 등이 추가될 수 있음.
+
+**폐암 TNM 9판(2025) 판정 기준**:
+
+| 항목 | 기준 |
+| --- | --- |
+| T1a / T1b / T1c | 최대 지름 ≤1 / >1–≤2 / >2–≤3 cm, 더 높은 T 침범 소견 없음 |
+| T2a / T2b | >3–≤4 / >4–≤5 cm. 장측흉막·주기관지 침범(기관분기부 제외), 폐문까지의 무기폐·폐쇄성 폐렴 등도 T2 기준 |
+| T3 | >5–≤7 cm 또는 흉벽·횡격신경·심낭 침범, 같은 엽의 별도 종양 결절 등 |
+| T4 | >7 cm 또는 종격동·심장/대혈관·기관분기부·척추·횡격막 등 침범, 같은 쪽 다른 엽의 별도 결절 |
+| N1 | 동측 폐내·기관지주위·폐문 림프절 |
+| N2a / N2b | 동측 종격동·기관분기하 림프절의 1개 station / 여러 station |
+| N3 | 반대쪽 종격동·폐문 또는 어느 쪽이든 사각근·쇄골상 림프절 |
+| M1a / M1b | 반대 폐 결절·흉막/심낭 결절 또는 악성 삼출 / 흉곽 밖 단일 전이 |
+| M1c1 / M1c2 | 흉곽 밖 다발 전이가 한 장기계 / 여러 장기계에 존재 |
+
+N0는 국소 림프절 전이 없음, M0는 원격 전이 없음이다. N2a/b는 **림프절 개수가 아니라 station 수**로 구분한다. 크기가 작아도 상위 T 침범 기준을 만족하면 해당 T를 적용한다.
+
+**M0에서 T·N 조합에 따른 병기군**:
+
+| T | N0 | N1 | N2a | N2b | N3 |
+| --- | --- | --- | --- | --- | --- |
+| T1 | IA | IIA | IIB | IIIA | IIIB |
+| T2a | IB | IIB | IIIA | IIIB | IIIB |
+| T2b | IIA | IIB | IIIA | IIIB | IIIB |
+| T3 | IIB | IIIA | IIIA | IIIB | IIIC |
+| T4 | IIIA | IIIA | IIIB | IIIB | IIIC |
+
+T1a/b/c N0는 IA1/IA2/IA3이다. M1a·M1b는 IVA, M1c1·M1c2는 IVB이다. 임상 병기(cTNM), 절제 후 병기(pTNM), 선행치료 후 병기(ypTNM)를 구분하고, 과거 임상시험의 7·8판 병기명을 9판에 그대로 대입하지 않는다.
 
 ## 5. 치료 (Treatment)
 

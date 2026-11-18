@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -24,7 +24,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["대한위암학회 위암 진료지침 | https://doi.org/10.5230/jgc.2025.25.e11", "대한위암학회 위암 진료지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11739648/", "ASCO 진행 위식도암 Living Guideline 2026.1.2 | https://doi.org/10.1200/JCO-26-01944", "FDA zolbetuximab | https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma", "국내 위암 진료지침 2024, 2025 발표 | https://www.jgc-online.org/DOIx.php?id=10.5230%2Fjgc.2025.25.e11", "ESGE MAPS III 2025 | https://www.esge.com/management-of-epithelial-precancerous-conditions-and-early-neoplasia-of-the-stomach-maps-iii-esge-ehmsg-esp-guideline-update-2025", "ESGE ESD 기술 검토 | https://www.esge.com/esd-techniques-and-technology-esge-technical-review"]
+sources: ["대한위암학회 위암 진료지침 | https://doi.org/10.5230/jgc.2025.25.e11", "대한위암학회 위암 진료지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11739648/", "ASCO 진행 위식도암 Living Guideline 2026.1.2 | https://doi.org/10.1200/JCO-26-01944", "FDA zolbetuximab | https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma", "국내 위암 진료지침 2024, 2025 발표 | https://www.jgc-online.org/DOIx.php?id=10.5230%2Fjgc.2025.25.e11", "ESGE MAPS III 2025 | https://www.esge.com/management-of-epithelial-precancerous-conditions-and-early-neoplasia-of-the-stomach-maps-iii-esge-ehmsg-esp-guideline-update-2025", "ESGE ESD 기술 검토 | https://www.esge.com/esd-techniques-and-technology-esge-technical-review", "NCI PDQ 위암 pTNM 병기 | https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq"]
 ---
 ## 1. 개요
 - 조기위암은 침윤 깊이로 정의하며 림프절 전이가 없다는 뜻은 아니다. 내시경 절제는 림프절 전이 위험이 충분히 낮고 국소 완전절제가 가능한 병변에서 위를 보존하기 위해 선택한다.
@@ -66,6 +66,22 @@ sources: ["대한위암학회 위암 진료지침 | https://doi.org/10.5230/jgc.
 
 - 내시경을 통한 종양 위치 및 육안적 형태 평가.
 - 조직검사를 통한 확진 및 분화도 확인.
+
+**침윤 깊이와 림프절 수(AJCC 8판)**:
+- **T1a / T1b**: 점막 고유판·점막근판 / 점막하층. **T2 / T3 / T4a / T4b**: 고유근층 / 장막하층 / 장막 / 인접 장기 침범.
+- **N1 / N2 / N3a / N3b**: 국소 림프절 1–2 / 3–6 / 7–15 / ≥16개 전이. N0는 전이 없음.
+
+**선행치료 없이 절제한 위암의 병리 병기군(pTNM, M0)**:
+
+| T | N0 | N1 | N2 | N3a | N3b |
+| --- | --- | --- | --- | --- | --- |
+| T1 | IA | IB | IIA | IIB | IIIB |
+| T2 | IB | IIA | IIB | IIIA | IIIB |
+| T3 | IIA | IIB | IIIA | IIIB | IIIC |
+| T4a | IIB | IIIA | IIIA | IIIB | IIIC |
+| T4b | IIIA | IIIB | IIIB | IIIC | IIIC |
+
+M1이면 모든 T·N에서 IV기이며, 원격 전이에는 복막 전이와 복막 세척세포검사 양성도 포함한다. **조기위암은 T1(점막·점막하층 국한)**을 뜻하므로 림프절 전이가 있어도 조기위암이라는 해부학적 정의에 해당할 수 있다. 조기위암을 곧바로 IA 또는 내시경 절제 가능과 동일시하지 않는다. 임상 병기와 선행치료 후 yp병기에는 각각의 병기군을 적용한다.
 
 ## 5. 치료
 

@@ -20,8 +20,8 @@ last_studied: '2026-06-06'
 clinical_priority: tier_3
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-content_updated_at: "2026-11-17"
-sources: ["eviQ TLS 관리 | https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/prophylaxis-and-treatment/108-prevention-of-tumour-lysis-syndrome"]
+content_updated_at: "2026-11-18"
+sources: ["eviQ TLS 관리 | https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/prophylaxis-and-treatment/108-prevention-of-tumour-lysis-syndrome", "NCI PDQ Lugano 병기 | https://www.cancer.gov/types/lymphoma/hp/aggressive-b-cell-lymphoma-treatment-pdq"]
 ---
 분과 : [[혈액]]
 
@@ -42,6 +42,17 @@ sources: ["eviQ TLS 관리 | https://www.eviq.org.au/clinical-resources/side-eff
 ## 4. 진단 (Diagnosis)
 - 림프절 조직 검사를 통한 병리 진단.
   형태학적, 면역표현형, 유전학적 특징을 종합하여 진단.
+
+**성인 림프종의 Lugano 병기**:
+
+| 병기 | 침범 범위 |
+| --- | --- |
+| I / IE | 한 림프절 영역·림프조직 / 림프절 없이 단일 림프절외 부위 |
+| II / IIE | 횡격막 같은 쪽의 ≥2개 림프절 영역 / 이에 연속되는 국소 림프절외 침범 |
+| III | 횡격막 양쪽의 림프절, 또는 횡격막 위 림프절과 비장 침범 |
+| IV | 골수·간·뇌척수액 등 파종성/비연속성 림프절외 침범 |
+
+병기와 별도로 **가장 큰 종괴의 크기, LDH, ECOG, 림프절외 침범 부위**를 기록한다. 큰 종괴(bulky)의 크기 기준은 조직형·치료 프로토콜에 따라 달라지며 II기라도 치료 강도가 달라질 수 있다. B증상은 원인 불명 >38°C 발열, 흠뻑 젖는 야간 발한, 6개월 내 >10% 체중감소이다. A/B 접미사는 주로 호지킨 림프종에 사용하고, 비호지킨에서는 증상 자체를 따로 기록한다.
 
 ## 5. 치료
 - 병리 재검토와 면역표현형·유전학적 분류를 신속히 확정하고, 혈액종양 전문팀과 치료 전략을 협의한다.

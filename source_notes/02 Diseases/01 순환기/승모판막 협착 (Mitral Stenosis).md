@@ -18,9 +18,9 @@ clinical_priority: "tier_2"
 review_status: "guideline_enriched"
 reviewed_at: "2026-07-16"
 guideline_year: "2025"
-sources: ["2025 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Valvular-Heart-Disease", "ESC 2025 | https://doi.org/10.1093/eurheartj/ehaf194", "2025 ESC/EACTS 판막질환 진료지침 | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/", "2025 ESC/EACTS 세부 권고 | https://academic.oup.com/ejcts/article/67/8/ezaf276/8242828"]
+sources: ["2025 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Valvular-Heart-Disease", "ESC 2025 | https://doi.org/10.1093/eurheartj/ehaf194", "2025 ESC/EACTS 판막질환 진료지침 | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/", "2025 ESC/EACTS 세부 권고 | https://academic.oup.com/ejcts/article/67/8/ezaf276/8242828", "ESC/EACTS 2025 승모판 협착 평가 | https://academic.oup.com/eurheartj/article/46/44/4635/8234488"]
 
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[순환기]]
 
@@ -60,6 +60,12 @@ content_updated_at: "2026-11-17"
 ## 4. 진단 (Diagnosis)
 - 임상 소견과 심초음파로 확진
 - 판막 면적이 1.5 cm² 이하이면 중증으로 평가
+
+**진단 시 중재 관련 중증도**:
+- 류마티스 MS는 **MVA ≤1.5 cm²이면 임상적으로 유의한 협착**으로 중재 가능성을 평가하며, ≤1.0 cm²는 매우 심한 협착 범위이다.
+- 평균 승모판 압력차는 심박수·박출량의 영향을 받으므로 측정 당시 심박수와 함께 기록한다. 압력차만으로 판막 면적을 대신하지 않는다.
+- 교련 유합·석회화·판막하 구조, 동반 MR, 좌심방 혈전, 폐동맥압과 증상을 함께 평가한다. 경피적 교련절개술 적합성은 면적뿐 아니라 **혈전 유무·MR 정도·판막 형태**로 결정한다.
+- 퇴행성 승모판륜 석회화에 의한 MS는 류마티스성 교련 유합과 구분하며 같은 시술 기준을 그대로 적용하지 않는다.
 
 ## 5. 치료 (Treatment)
 

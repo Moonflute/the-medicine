@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - Paget’s disease
 유형:
@@ -14,6 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NCI PDQ 유방암 Tis(Paget) 정의 | https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"]
 ---
 분과 : [[부인과]]
 
@@ -39,6 +40,11 @@ reviewed_at: "2026-07-30"
 ## 4. 진단 (Diagnosis)
 - 유두 피부 조직검사를 통한 파제트 세포 확인.
 - 기저 유방암 유무를 확인하기 위한 영상학적 평가 필수.
+
+**유방 Paget병의 병기 결정**:
+- 유두 Paget병만 있고 유방 실질의 DCIS·침윤암이 없으면 **Tis(Paget)**로 기록한다.
+- DCIS가 동반되면 DCIS에 따라, 침윤암이 있으면 **기저 침윤암의 크기·침범 범위와 림프절·원격 전이**에 따라 TNM을 정한다.
+- 유두의 습진 면적만으로 침윤암의 T나 IV기를 정하지 않는다. 유방촬영·초음파와 필요한 경우 MRI로 기저 병변을 찾고, 병리에서 침윤 여부를 확인한다.
 
 ## 5. 치료
 

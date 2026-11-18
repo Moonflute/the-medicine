@@ -18,7 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["NASPGHAN 임상보고 | https://naspghan.org/files/Management_of_Acute_Pancreatitis_in_the_Pediatric.33.pdf"]
+sources: ["NASPGHAN 임상보고 | https://naspghan.org/files/Management_of_Acute_Pancreatitis_in_the_Pediatric.33.pdf", "NASPGHAN 소아 급성 췌장염 분류 | https://www.naspghan.org/files/Classification_of_Acute_Pancreatitis_in_the.32%282%29.pdf"]
 ---
 분과 : [[소아청소년과]]
 
@@ -38,6 +38,18 @@ sources: ["NASPGHAN 임상보고 | https://naspghan.org/files/Management_of_Acut
 
 ## 4. 진단 (Diagnosis)
 * 전형적인 임상 증상, 혈청 췌장 효소 상승, 영상 검사 소견을 종합하여 진단 (Revised Atlanta Classification 기준 활용)
+
+**중증도 분류**:
+
+| 분류 | 기준 |
+| --- | --- |
+| 경증 | 장기부전도 국소·전신 합병증도 없음 |
+| 중등도 중증 | 48시간 이내 회복하는 일시적 장기부전, 또는 국소/전신 합병증; 지속 장기부전은 없음 |
+| 중증 | 한 장기 이상에서 장기부전이 >48시간 지속 |
+
+아밀라아제·리파아제의 상승 배수나 CT상 괴사만으로 중증을 정하지 않는다. 초기 장기부전이 있으면 지속 여부가 아직 불명확해도 중증 가능성에 맞춰 감시·치료하고 재분류한다.
+
+소아는 **NASPGHAN 분류와 연령에 맞는 장기부전 기준**을 사용한다. 성인의 크레아티닌·혈압 절대값이나 성인 예측 점수를 그대로 적용하지 않는다.
 
 ## 5. 치료
 

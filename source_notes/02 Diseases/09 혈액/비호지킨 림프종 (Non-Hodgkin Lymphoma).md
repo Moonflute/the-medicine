@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -22,6 +22,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NCI PDQ Lugano 병기 | https://www.cancer.gov/types/lymphoma/hp/aggressive-b-cell-lymphoma-treatment-pdq"]
 ---
 분과 : [[혈액]]
 
@@ -49,6 +50,17 @@ reviewed_at: "2026-07-30"
 - 조직 검사를 통해 확진하며, 면역표현형(Immunophenotyping), 세포유전학 및 분자유전학 검사를 통해 아형을 분류함.
   진단 시 HIV 및 간염 바이러스 선별 검사가 권장됨.
   Lugano 병기 분류 시스템을 사용함. PET 반응은 해당 아형의 FDG avidity와 임상·영상 맥락을 함께 해석한다.
+
+**성인 림프종의 Lugano 병기**:
+
+| 병기 | 침범 범위 |
+| --- | --- |
+| I / IE | 한 림프절 영역·림프조직 / 림프절 없이 단일 림프절외 부위 |
+| II / IIE | 횡격막 같은 쪽의 ≥2개 림프절 영역 / 이에 연속되는 국소 림프절외 침범 |
+| III | 횡격막 양쪽의 림프절, 또는 횡격막 위 림프절과 비장 침범 |
+| IV | 골수·간·뇌척수액 등 파종성/비연속성 림프절외 침범 |
+
+병기와 별도로 **가장 큰 종괴의 크기, LDH, ECOG, 림프절외 침범 부위**를 기록한다. 큰 종괴(bulky)의 크기 기준은 조직형·치료 프로토콜에 따라 달라지며 II기라도 치료 강도가 달라질 수 있다. B증상은 원인 불명 >38°C 발열, 흠뻑 젖는 야간 발한, 6개월 내 >10% 체중감소이다. A/B 접미사는 주로 호지킨 림프종에 사용하고, 비호지킨에서는 증상 자체를 따로 기록한다.
 
 ## 5. 치료
 - 증상이 없고 지연성인 경우, 정기적인 임상·영상·혈액 검사(예: LDH, β2‑마이크로글로불린)로 관찰하며 치료 시작 시점을 판단한다.

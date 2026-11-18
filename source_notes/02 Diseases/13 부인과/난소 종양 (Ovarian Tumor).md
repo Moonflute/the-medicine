@@ -16,7 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["폐경 전 | https://www.rcog.org.uk/for-the-public/browse-our-patient-information/ovarian-cysts-before-the-menopause/", "RCOG 2025 개정 | https://www.rcog.org.uk/media/4v3ncfib/gtg_34.pdf"]
+sources: ["폐경 전 | https://www.rcog.org.uk/for-the-public/browse-our-patient-information/ovarian-cysts-before-the-menopause/", "RCOG 2025 개정 | https://www.rcog.org.uk/media/4v3ncfib/gtg_34.pdf", "NCI PDQ 난소·난관암 FIGO 병기 | https://www.cancer.gov/types/ovarian/hp/ovarian-epithelial-treatment-pdq"]
 ---
 분과 : [[부인과]]
 
@@ -37,6 +37,18 @@ sources: ["폐경 전 | https://www.rcog.org.uk/for-the-public/browse-our-patien
 ## 4. 진단 (Diagnosis)
 - 초음파 소견을 바탕으로 악성 가능성 평가
 - 확진은 수술적 절제 후 조직검사를 통해 이루어짐
+
+**악성 난소·난관 종양의 FIGO 범위 분류**:
+
+| 병기 | 기준 |
+| --- | --- |
+| IA / IB | 일측 / 양측 난소·난관 국한, 피막 보존·표면 종양 없음·복수/세척액 음성 |
+| IC1 / IC2 / IC3 | 수술 중 유출 / 수술 전 파열 또는 표면 종양 / 복수·세척액 악성세포 |
+| II | 골반 내 다른 조직으로 확산 |
+| III | 골반 밖 복막 또는 후복막 림프절 전이 |
+| IV | 악성 흉수, 장기 실질 또는 복강 밖 원격 전이 |
+
+이 분류는 악성 종양의 범위에 적용하며, **양성 종양·초음파의 악성 의심 점수와 구분**한다. 조직형·등급과 잔존 종양을 병기와 별도로 기록한다. 골반 밖 복막 전이와 간·비장 실질 전이를 같은 IV기로 묶지 않는다.
 
 ## 5. 치료
 

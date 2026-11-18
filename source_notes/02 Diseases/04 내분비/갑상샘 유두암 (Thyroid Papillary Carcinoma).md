@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -22,7 +22,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ATA 2025 | https://doi.org/10.1177/10507256251363120", "ATA 2025 요약 | https://doi.org/10.1177/10507256251390877"]
+sources: ["ATA 2025 | https://doi.org/10.1177/10507256251363120", "ATA 2025 요약 | https://doi.org/10.1177/10507256251390877", "NCI PDQ 갑상샘암 조직형별 병기 | https://www.cancer.gov/types/thyroid/hp/thyroid-treatment-pdq"]
 ---
 분과 : [[내분비]]
 
@@ -47,6 +47,21 @@ sources: ["ATA 2025 | https://doi.org/10.1177/10507256251363120", "ATA 2025 요�
 
 ## 4. 진단 (Diagnosis)
 - 특징적인 핵의 변화(핵 내 세포질 봉입체, 핵 홈, Orphan Annie eye 핵 등)와 층판소체(psammoma body)가 발견된다.
+
+**분화갑상샘암 TNM과 나이별 병기(AJCC 8판)**:
+
+- **T1 / T2 / T3a**: 갑상샘 내 종양 ≤2 cm / >2–≤4 cm / >4 cm. T1a는 ≤1 cm이다.
+- **T3b / T4a / T4b**: 육안적 띠근육 침범 / 피하조직·후두·기관·식도·되돌이후두신경 침범 / 척추전근막 침범 또는 경동맥·종격동 혈관 포위. 현미경적 갑상샘외 침범만으로 T3가 되지는 않는다.
+- **N1a / N1b**: 중앙구획 VI·VII / 측경부 I–V 또는 인두후 림프절. M1은 원격 전이다.
+
+| 진단 당시 나이 | 병기 | 기준 |
+| --- | --- | --- |
+| <55세 | I / II | 모든 T·N에서 M0 / M1 |
+| ≥55세 | I | T1–2 N0/NX M0 |
+| ≥55세 | II | T1–2 N1 M0 또는 T3 모든 N M0 |
+| ≥55세 | III / IVA / IVB | T4a M0 / T4b M0 / 모든 T·N M1 |
+
+이 표는 **유두암·여포암 등 분화암**에 적용한다. TNM은 사망 위험 예측에 사용하고, 수술 후 재발 위험도·치료반응 분류는 별도로 평가하여 방사성요오드와 TSH 억제 강도를 정한다. 젊은 환자의 I기라도 림프절 전이·국소 침범이 없다는 뜻은 아니다.
 
 ## 5. 치료
 

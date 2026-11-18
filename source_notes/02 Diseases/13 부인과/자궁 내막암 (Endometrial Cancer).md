@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases:
 - endometrial cancer
 - 자궁 내막암
@@ -23,7 +23,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ESGO/ESTRO/ESP 2025 | https://guidelines.esgo.org/media/2025/09/ESGO-ESTRO-ESP-Guidelines-for-EC_-LO-July-2025.pdf", "ESGO/ESHRE/ESGE | https://pmc.ncbi.nlm.nih.gov/articles/PMC10392114/", "SEOM–GEICO 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/"]
+sources: ["ESGO/ESTRO/ESP 2025 | https://guidelines.esgo.org/media/2025/09/ESGO-ESTRO-ESP-Guidelines-for-EC_-LO-July-2025.pdf", "ESGO/ESHRE/ESGE | https://pmc.ncbi.nlm.nih.gov/articles/PMC10392114/", "SEOM–GEICO 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12630260/", "FIGO 자궁내막암 병기 2023 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10482588/"]
 ---
 분과 : [[부인과]]
 
@@ -46,7 +46,26 @@ sources: ["ESGO/ESTRO/ESP 2025 | https://guidelines.esgo.org/media/2025/09/ESGO-
 ## 4. 진단 (Diagnosis)
 - 선별 검사는 일반 인구에서 시행하지 않음.
 - 조직학적 확진이 필수적이며, 수술 후 병리 결과를 통해 최종 병기 결정.
-- **FIGO 2023**: 자궁경부 기질 침윤과 자궁경부 선조직에만 퍼진 경우를 구분한다. 선조직 침범만으로 병기 II가 되지 않는다. 저등급 자궁내막형, 근층 침윤 <50%, 림프혈관 침범이 없거나 국소적인 경우에는 IA2의 해부·조직학 기준에 해당한다.
+
+**FIGO 2023 병기**:
+
+| 병기 | 구분 기준 |
+| --- | --- |
+| IA1 | 비공격적 조직형이 용종·자궁내막에 국한 |
+| IA2 / IB | 비공격적 조직형, 근층 침윤 <50% / ≥50%, LVSI 없거나 국소적 |
+| IA3 | 아래 조건을 모두 만족하는 저등급 자궁내막양암의 자궁·난소 동시 침범 |
+| IC | 공격적 조직형이 용종·내막에만 국한, 근층 침윤 없음 |
+| IIA / IIB | 비공격적 조직형의 자궁경부 기질 침윤 / 광범위 LVSI |
+| IIC | 공격적 조직형에서 근층 침윤 있음 |
+| IIIA1 / IIIA2 | 난소·난관 침범(IA3 제외) / 자궁 장막하층·장막 침범 |
+| IIIB1 / IIIB2 | 질·자궁방조직 / 골반 복막 침범 |
+| IIIC1 / IIIC2 | 골반 / 신혈관 높이 이하 대동맥주위 림프절 전이 |
+| IVA / IVB / IVC | 방광·장 점막 / 골반 밖 복막 / 원격 장기 또는 신혈관보다 위 림프절 전이 |
+
+- **IA3 조건**: 저등급 자궁내막양암, 근층 침윤 <50%, 광범위 LVSI 없음, 다른 전이 없음, 난소는 일측 국한이며 피막 침범·파열 없음.
+- **조직형·LVSI**: 비공격적 조직형은 저등급(G1–2) 자궁내막양암이다. 고등급 자궁내막양암·장액성암·투명세포암 등은 공격적 조직형이다. FIGO 2023의 광범위 LVSI는 침범 혈관 ≥5개이다.
+- **림프절**: IIIC의 미세전이는 i, 거대전이는 ii로 구분한다. 고립종양세포는 pN0(i+)로 기록한다. 자궁경부 선 침범만으로 IIA가 되지는 않는다.
+- **분자 병기 보정**: 자궁체부·경부에 국한된 병원성 POLE 변이암은 IAm_POLEmut, 같은 범위에서 근층 침윤이 있는 p53abn 암은 IICm_p53abn으로 기록한다. MMRd·NSMP는 병기를 바꾸지 않으며, III–IV도 분자형만으로 낮추지 않는다.
 
 ## 5. 치료
 

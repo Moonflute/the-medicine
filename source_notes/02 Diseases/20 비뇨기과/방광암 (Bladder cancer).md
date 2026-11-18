@@ -21,7 +21,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Bladder Cancer, Version 1.2026, NCCN Clinical Practice Guidelines In Oncology. | https://pubmed.ncbi.nlm.nih.gov/42140269/", "EAU NMIBC | https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/disease-management", "EAU MIBC | https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer/chapter/disease-management", "EAU 전이성 치료 | https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer/chapter/metastatic-disease"]
+sources: ["Bladder Cancer, Version 1.2026, NCCN Clinical Practice Guidelines In Oncology. | https://pubmed.ncbi.nlm.nih.gov/42140269/", "EAU NMIBC | https://uroweb.org/guidelines/non-muscle-invasive-bladder-cancer/chapter/disease-management", "EAU MIBC | https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer/chapter/disease-management", "EAU 전이성 치료 | https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer/chapter/metastatic-disease", "NCI PDQ 방광암 TNM 병기 | https://www.cancer.gov/types/bladder/hp/bladder-treatment-pdq"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -45,6 +45,28 @@ content_updated_at: "2026-11-18"
 ## 4. 진단 (Diagnosis)
 * 방광경을 통한 시각적 확인 및 조직검사가 표준 진단법임.
 * TNM 병기 체계에 따라 근침습 여부와 전이 정도를 평가함.
+
+**침윤 깊이와 병기(AJCC 8판)**:
+
+| T분류 | 침범 범위 |
+| --- | --- |
+| Ta / Tis | 비침윤 유두상암 / 편평한 상피내암(CIS) |
+| T1 | 점막고유층 침윤, 배뇨근 침윤 없음 |
+| T2a / T2b | 배뇨근 안쪽 절반 / 바깥쪽 절반 침윤 |
+| T3 | 방광 주위 지방 침윤; a 현미경적, b 육안적 |
+| T4a / T4b | 전립샘 기질·정낭·자궁·질 / 골반벽·복벽 침범 |
+
+**Ta·Tis·T1은 비근침윤성(NMIBC), T2 이상은 근침윤성(MIBC)**이다. T1의 ‘침윤’을 근육 침윤으로 혼동하지 않는다. TURBT 검체에 배뇨근이 포함되었는지 확인한다.
+
+| 병기군 | 기준 |
+| --- | --- |
+| 0a / 0is / I / II | N0 M0에서 각각 Ta / Tis / T1 / T2 |
+| IIIA | T3–4a N0 또는 T1–4a N1, M0 |
+| IIIB | T1–4a N2–3 M0 |
+| IVA | T4b M0 또는 비국소 림프절 전이 M1a |
+| IVB | 림프절 이외의 원격 전이 M1b |
+
+N1은 진골반 내 단일 림프절, N2는 다발성 진골반 림프절, N3는 총장골 림프절이다. **CIS는 고등급 병변**이며 병기 0이라는 이유로 저위험으로 취급하지 않는다. NMIBC 재발·진행 위험군에는 등급, CIS, 크기·다발성·재발 여부를 추가한다.
 
 ## 5. 치료 (Treatment)
 

@@ -24,7 +24,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["EAU RCC 2026 | https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/disease-management"]
+sources: ["EAU RCC 2026 | https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/disease-management", "NCI PDQ 콩팥세포암 TNM 병기 | https://www.cancer.gov/types/kidney/hp/kidney-treatment-pdq"]
 ---
 분과 : [[비뇨기과]]
 
@@ -43,6 +43,25 @@ sources: ["EAU RCC 2026 | https://uroweb.org/guidelines/renal-cell-carcinoma/cha
 ## 4. 진단 (Diagnosis)
 * 영상 검사상 조영 증강되는 고형 종양 확인 시 진단.
   전이 여부 확인을 위해 흉부 CT 및 뼈 스캔 고려.
+
+**TNM 병기(AJCC 8판)**:
+
+| T분류 | 기준 |
+| --- | --- |
+| T1a / T1b | 콩팥 국한, 각각 ≤4 cm / >4–7 cm |
+| T2a / T2b | 콩팥 국한, 각각 >7–10 cm / >10 cm |
+| T3a | 콩팥정맥·분절정맥, 신우신배, 콩팥굴/콩팥주위 지방 침범; Gerota 근막 안쪽 |
+| T3b / T3c | 하대정맥 혈전이 횡격막 아래 / 횡격막 위까지 도달하거나 하대정맥벽 침범 |
+| T4 | Gerota 근막 바깥 침범; 동측 부신의 직접 침범 포함 |
+
+| 병기군 | 기준 |
+| --- | --- |
+| I | T1 N0 M0 |
+| II | T2 N0 M0 |
+| III | T3 N0–1 M0 또는 T1–2 N1 M0 |
+| IV | T4 M0 또는 모든 T/N의 M1 |
+
+정맥 종양혈전은 **T3** 소견이며 원격 전이와 동일하지 않다. 부신에 연속적으로 침윤한 경우와 떨어진 부신 전이도 구분한다. 병기 외에 조직형·WHO/ISUP 등급·절제연을 기록하고, 전이성 질환의 약제 선택에는 IMDC 위험군을 별도로 적용한다.
 
 ## 5. 치료
 - **국소 T1(≤7 cm, 신장 내 국한)**은 기술적으로 가능하면 부분 신절제술을 우선 검토한다.

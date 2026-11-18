@@ -16,7 +16,7 @@ content_updated_at: "2026-11-18"
 guideline_year: '2026'
 guideline_reviewed_at: '2026-10-20'
 guideline_review_status: primary_source_reviewed
-sources: ["2026 ESC Guidelines for the management of heart failure | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/", "2026 ESC Heart Failure 공식 교육 슬라이드 | https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9", "2026 ACC Expert Consensus Decision Pathway on HFpEF: 공식 핵심 요약 | https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Tools-and-Practice-Support/Clinical-Solutions/2026/B26070-HFpEF-Management-ECDP-Key-Takeaways.pdf", "FINEARTS-HF: ACC clinical trial summary | https://www.acc.org/latest-in-cardiology/clinical-trials/2024/08/29/20/16/finearts-hf", "2023 Focused Update of the 2021 ESC Heart Failure Guidelines | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/focused-update-on-heart-failure/", "FDA finerenone 2026 허가사항 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215341s011lbl.pdf"]
+sources: ["2026 ESC Guidelines for the management of heart failure | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/", "2026 ESC Heart Failure 공식 교육 슬라이드 | https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9", "2026 ACC Expert Consensus Decision Pathway on HFpEF: 공식 핵심 요약 | https://www.acc.org/-/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Tools-and-Practice-Support/Clinical-Solutions/2026/B26070-HFpEF-Management-ECDP-Key-Takeaways.pdf", "FINEARTS-HF: ACC clinical trial summary | https://www.acc.org/latest-in-cardiology/clinical-trials/2024/08/29/20/16/finearts-hf", "2023 Focused Update of the 2021 ESC Heart Failure Guidelines | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/focused-update-on-heart-failure/", "FDA finerenone 2026 허가사항 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215341s011lbl.pdf", "AHA 심부전 단계와 NYHA 기능등급 | https://www.heart.org/en/health-topics/heart-failure/what-is-heart-failure/classes-of-heart-failure", "ESC 심부전 기능등급 정의 | https://academic.oup.com/eurheartj/article/42/36/3599/6358045"]
 disease_family: heart_failure
 population: adult
 ---
@@ -38,6 +38,17 @@ population: adult
 - HFpEF는 증상/징후, LVEF ≥50%, 객관적 심장 구조·기능 이상 또는 충만압 상승의 증거를 함께 만족할 때 진단한다. 단순히 EF가 보존되었다는 이유만으로 호흡곤란을 HFpEF로 단정하지 않는다.
 - 2026 ACC는 H2FPEF 같은 임상 점수, 심초음파, natriuretic peptide를 통합하는 단계적 평가를 강조한다. 비만에서는 검사 민감도가 떨어질 수 있어 단일 검사만으로 확진·배제하지 않는다.
 - AF, 비만, CKD, 고령은 진단 지표의 해석을 바꾸므로, 빈혈·폐질환·허혈·판막질환·신장질환에 의한 체액 과다를 감별한다.
+
+**NYHA 기능등급**:
+
+| 등급 | 증상에 따른 활동 제한 |
+| --- | --- |
+| I | 일상 활동으로 증상이 발생하지 않음 |
+| II | 안정 시 편안하나 일상 활동으로 호흡곤란·피로·두근거림 발생 |
+| III | 안정 시 편안하나 일상 활동보다 적은 활동에도 증상 발생 |
+| IV | 안정 시에도 증상이 있거나 모든 신체 활동이 불편함 |
+
+현재 증상·활동능력을 기준으로 평가하며 EF 값만으로 등급을 매기지 않는다. 치료 후 바뀔 수 있어 평가 시점을 기록한다.
 
 ## 5. 치료
 - 울혈이 있으면 이뇨제로 증상을 완화하고, 체중·혈압·신기능·전해질을 보며 용량을 조절한다. 정상 체액 상태의 환자에게 관성적으로 이뇨제를 늘리지 않는다.

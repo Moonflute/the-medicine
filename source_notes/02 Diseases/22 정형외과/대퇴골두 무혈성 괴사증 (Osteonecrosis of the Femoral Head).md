@@ -15,7 +15,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Nontraumatic Osteonecrosis of the Femoral Head: An International Evidence-Based Clinical Practice Guideline. | https://pubmed.ncbi.nlm.nih.gov/41961916/", "ARCO 2026 진료지침 | https://www.aaos.org/globalassets/quality-and-practice-resources/external-quality-products/arco/arco-management-of-nontraumatic-osteonecrosis-ot-the-femoral-head.pdf"]
+sources: ["Nontraumatic Osteonecrosis of the Femoral Head: An International Evidence-Based Clinical Practice Guideline. | https://pubmed.ncbi.nlm.nih.gov/41961916/", "ARCO 2026 진료지침 | https://www.aaos.org/globalassets/quality-and-practice-resources/external-quality-products/arco/arco-management-of-nontraumatic-osteonecrosis-ot-the-femoral-head.pdf", "ARCO 2019 개정 병기 원문 | https://pubmed.ncbi.nlm.nih.gov/31866252/"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -48,6 +48,17 @@ content_updated_at: "2026-11-18"
 - 임상 증상과 MRI 소견을 종합하여 진단.
   Ficat 분류법 등을 통해 병기를 결정함.
 
+**ARCO 2019 영상 병기**:
+
+| 병기 | 기준 |
+| --- | --- |
+| I | X선 정상, MRI/골스캔에서 괴사 확인 |
+| II | X선상 경화·낭성 변화 등, 연골하/괴사 부위 골절이나 골두 함몰 없음 |
+| IIIA | 연골하 또는 괴사 부위 골절, 골두 함몰 깊이 ≤2 mm |
+| IIIB | 골절과 골두 함몰 >2 mm |
+| IV | 관절간격 감소·비구 변화·관절 파괴 등 이차성 관절염 |
+
+III기는 X선 또는 CT에서 골절을 확인한다. 치료 선택에는 병기 외에 **괴사 범위와 체중 부하 영역 침범, 증상·나이**를 함께 기록한다. Ficat과 ARCO의 같은 숫자를 동일 소견으로 간주하지 않고 사용 분류·판본을 명시한다.
 
 ## 5. 치료 (Treatment)
 - **ARCO I–II(골두 함몰 전)**에서는 증상, 병변 크기와 체중 부하면 침범을 함께 평가한다.

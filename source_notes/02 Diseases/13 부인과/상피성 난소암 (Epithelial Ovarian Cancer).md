@@ -23,9 +23,9 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 guideline_year: "2026"
-sources: ["ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer. | https://pubmed.ncbi.nlm.nih.gov/41741111/", "ESMO 초기 난소암 | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf", "ASCO 2025 | https://doi.org/10.1200/JCO-24-02589", "ASCO living guideline 2026 | https://doi.org/10.1200/JCO-26-02412", "ESMO 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/", "FDA 2026 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-paclitaxel-platinum-resistant-epithelial-ovarian-fallopian-tube-or", "ASCO 진행성 난소암 선행 항암 지침(2025) | https://pubmed.ncbi.nlm.nih.gov/39841949/", "FIGO 난소·난관·복막암 업데이트(2025) | https://onlinelibrary.wiley.com/doi/10.1002/ijgo.70282", "CA-125 상승에 따른 조기 항암 무작위시험 | https://pubmed.ncbi.nlm.nih.gov/20888993/"]
+sources: ["ESMO Clinical Practice Guideline Express Update on the management of epithelial ovarian cancer. | https://pubmed.ncbi.nlm.nih.gov/41741111/", "ESMO 초기 난소암 | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf", "ASCO 2025 | https://doi.org/10.1200/JCO-24-02589", "ASCO living guideline 2026 | https://doi.org/10.1200/JCO-26-02412", "ESMO 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12947637/", "FDA 2026 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-paclitaxel-platinum-resistant-epithelial-ovarian-fallopian-tube-or", "ASCO 진행성 난소암 선행 항암 지침(2025) | https://pubmed.ncbi.nlm.nih.gov/39841949/", "FIGO 난소·난관·복막암 업데이트(2025) | https://onlinelibrary.wiley.com/doi/10.1002/ijgo.70282", "CA-125 상승에 따른 조기 항암 무작위시험 | https://pubmed.ncbi.nlm.nih.gov/20888993/", "NCI PDQ 난소·난관·복막암 병기 | https://www.cancer.gov/types/ovarian/hp/ovarian-epithelial-treatment-pdq"]
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
@@ -46,6 +46,20 @@ review_status: "guideline_enriched"
 
 ## 4. 진단 (Diagnosis)
 - 수술적 병기 설정(Surgical staging)이 필수적이며, 임신 중이라도 의심 시 시행함
+
+**FIGO 난소·난관 병기(2014 체계)**:
+
+| 병기 | 구분 기준 |
+| --- | --- |
+| IA / IB | 일측 / 양측 난소·난관 국한. 피막 보존, 표면 종양 없음, 복수·세척액 악성세포 없음 |
+| IC1 / IC2 / IC3 | 수술 중 유출 / 수술 전 피막 파열 또는 표면 종양 / 복수·세척액 악성세포 |
+| IIA / IIB | 자궁·난관·난소로 골반 내 확산 / 그 밖의 골반 복막조직 침범 |
+| IIIA1 | 후복막 림프절만 전이: (i) 전이 병소 ≤10 mm, (ii) >10 mm |
+| IIIA2 | 골반 밖 복막의 현미경적 전이, 림프절 전이 유무 무관 |
+| IIIB / IIIC | 골반 밖 육안적 복막 전이의 최대 지름 ≤2 cm / >2 cm |
+| IVA / IVB | 악성세포가 확인된 흉수 / 장기 실질·복강 밖 장기 또는 림프절 전이 |
+
+간·비장 **표면** 전이와 **실질** 전이를 구분한다. 후자는 IVB이며, 단순 흉수만으로 IVA가 되지 않는다. 병기는 수술·병리 소견과 영상으로 정하고, 조직형·등급 및 잔존 종양을 따로 기록한다.
 
 ## 5. 치료
 

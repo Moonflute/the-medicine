@@ -13,9 +13,9 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 guideline_year: "2025"
-sources: ["Japanese Clinical Practice Guidelines 2022 for Gastrointestinal Stromal Tumor, English version published 2024 | https://pubmed.ncbi.nlm.nih.gov/38609732/", "GEIS Guidelines for gastrointestinal stromal tumors (2023) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/", "아시아 GIST 합의지침 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13525072/"]
+sources: ["Japanese Clinical Practice Guidelines 2022 for Gastrointestinal Stromal Tumor, English version published 2024 | https://pubmed.ncbi.nlm.nih.gov/38609732/", "GEIS Guidelines for gastrointestinal stromal tumors (2023) | https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/", "아시아 GIST 합의지침 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13525072/", "SEOM-GEIS GIST 위험도 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10425520/"]
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 ---
@@ -45,6 +45,16 @@ review_status: "guideline_enriched"
 ## 4. 진단 (Diagnosis)
 - 내시경 생검 및 영상 검사를 통해 진단하며, CD117(C-KIT) 및 DOG-1 발현이 병리 진단의 핵심임.
 
+**국한 GIST의 재발 위험도: modified NIH 기준**:
+
+| 위험 판단 | 크기·분열수·위치 기준 |
+| --- | --- |
+| 고위험, 위치 무관 | >10 cm, 또는 분열수 >10/5 mm², 또는 >5 cm이면서 분열수 >5/5 mm² |
+| 고위험, 위 이외 | ≤5 cm이면서 분열수 >5/5 mm², 또는 >5–≤10 cm이면서 분열수 ≤5/5 mm² |
+| 중간위험, 위 원발 | ≤5 cm이면서 분열수 6–10/5 mm², 또는 >5–≤10 cm이면서 분열수 ≤5/5 mm² |
+| 종양 파열 | 크기·분열수와 무관하게 매우 높은 재발 위험으로 평가 |
+
+종양의 크기·원발 위치·유사분열수·자발성/수술 중 파열을 모두 기록한다. **50 HPF를 무조건 5 mm²로 환산하지 않으며** 실제 현미경 면적에 맞춰 분열수를 보고한다. 이미 전이된 GIST에는 국한암의 수술 후 재발 위험표를 적용하지 않는다. KIT/PDGFRA 등 변이는 병기와 별개로 약제 감수성 판단에 필요하다.
 
 ## 5. 치료
 

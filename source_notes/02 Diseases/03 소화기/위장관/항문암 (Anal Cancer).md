@@ -18,7 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-18"
 guideline_year: "2026"
-sources: ["SEOM-GEMCAD-TTD clinical guidelines for anal cancer (2025). | https://pubmed.ncbi.nlm.nih.gov/41653360/", "ASTRO 항문암 지침 2025 | https://doi.org/10.1016/j.prro.2025.02.001", "FDA retifanlimab 허가사항 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761334s005lbl.pdf"]
+sources: ["SEOM-GEMCAD-TTD clinical guidelines for anal cancer (2025). | https://pubmed.ncbi.nlm.nih.gov/41653360/", "ASTRO 항문암 지침 2025 | https://doi.org/10.1016/j.prro.2025.02.001", "FDA retifanlimab 허가사항 | https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761334s005lbl.pdf", "AJCC 항문암 Version 9 변경 기준 | https://www.facs.org/media/gm0biit3/ajcc-anus-version-9_15min-2023webinar_kag_dmg.pdf", "NCI PDQ 항문암 T·N 정의 | https://www.cancer.gov/types/anal/hp/anal-treatment-pdq"]
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
@@ -49,6 +49,20 @@ review_status: "guideline_enriched"
 ## 4. 진단
 - 항문경 또는 직장경을 통한 생검으로 조직학적 확진(편평상피세포암 등)을 시행함.
 - HPV 감염 및 p16 과발현 여부는 예후 예측에 중요한 인자이며, p16 양성인 경우 생존율 및 치료 반응이 더 우수함.
+
+**항문 편평상피암 TNM과 병기(AJCC Version 9, 2023)**:
+- **T1 / T2 / T3**: 최대 지름 ≤2 / >2–≤5 / >5 cm. **T4**는 크기와 무관한 질·요도·방광 등 인접 장기 침범이다.
+- **N1**: 서혜·중직장·내장골·외장골 국소 림프절 전이. N0는 전이 없음이다.
+
+| 병기 | 조합(M0, IV 제외) |
+| --- | --- |
+| I / IIA | T1 N0 / T2 N0 |
+| IIB | T1–2 N1 |
+| IIIA | T3 N0–1 |
+| IIIB / IIIC | T4 N0 / T4 N1 |
+| IV | 원격 전이 M1 |
+
+**9판에서는 T1–2N1이 IIB, T3N0–1이 IIIA**이므로 8판 병기군과 혼용하지 않는다. 괄약근 침범 자체를 인접 장기 침범 T4로 간주하지 않는다. 항문 선암·흑색종은 이 편평상피암 표와 치료 경로를 그대로 적용하지 않는다.
 
 ## 5. 치료
 

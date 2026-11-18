@@ -21,7 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ESMO 2025 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7618628/"]
+sources: ["ESMO 2025 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7618628/", "NCI PDQ 피부 흑색종 AJCC 8판 | https://www.cancer.gov/types/skin/hp/melanoma-treatment-pdq"]
 ---
 분과 : [[피부과]]
 
@@ -54,6 +54,29 @@ sources: ["ESMO 2025 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7618628/"
 ## 4. 진단 (Diagnosis)
 * 임상적 ABCDE 평가 및 더모스코피(Dermoscopy)를 통한 선별.
 * 조직병리 검사를 통한 확진 및 Breslow 두께 측정.
+
+**피부 흑색종 AJCC 8판**:
+
+| T분류 | Breslow 두께·궤양 |
+| --- | --- |
+| Tis | 표피 내에 국한된 상피내 병변 |
+| T1a | <0.8 mm이고 궤양 없음 |
+| T1b | <0.8 mm이며 궤양 있음, 또는 0.8–1.0 mm(궤양 유무 무관) |
+| T2 / T3 / T4 | 각각 >1–2 mm / >2–4 mm / >4 mm |
+
+T2–4는 궤양이 없으면 a, 있으면 b를 붙인다. Clark level을 Breslow 두께 대신 T분류에 사용하지 않는다.
+
+| 병기군 | 기준 |
+| --- | --- |
+| 0 | Tis N0 M0 |
+| I | 얇은 국소암(T1 또는 T2a), N0 M0 |
+| IIA | T2b 또는 T3a, N0 M0 |
+| IIB | T3b 또는 T4a, N0 M0 |
+| IIC | T4b N0 M0 |
+| III | 국소 림프절 또는 microsatellite·satellite·in-transit 전이, M0 |
+| IV | 원격 전이 M1 |
+
+**임상병기(c)와 병리병기(p)를 구분**한다. 특히 T1b N0 M0는 임상 IB지만 병리 IA에 들어갈 수 있다. 감시림프절 결과로 N이 바뀌면 병기를 재평가하며, 병기 III 안에서는 전이 림프절 수·발견 방식과 원발 T를 함께 적용한다.
 
 ## 5. 치료
 - **절제 범위는 Breslow 두께에 따라 결정**한다.

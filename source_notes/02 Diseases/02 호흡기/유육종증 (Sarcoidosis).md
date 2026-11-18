@@ -17,7 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ERS 유육종증 치료 지침 | https://doi.org/10.1183/13993003.04079-2020", "PREDMETH 2025 | https://doi.org/10.1056/NEJMoa2501443"]
+sources: ["ERS 유육종증 치료 지침 | https://doi.org/10.1183/13993003.04079-2020", "PREDMETH 2025 | https://doi.org/10.1056/NEJMoa2501443", "대한결핵및호흡기학회 유육종증 진료지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12235296/"]
 ---
 분과 : [[호흡기]]
 
@@ -48,6 +48,18 @@ sources: ["ERS 유육종증 치료 지침 | https://doi.org/10.1183/13993003.040
 ## 4. 진단 (Diagnosis)
 * ACE (angiotensin-converting enzyme) level 상승 가능.
   * **조직 검사:** 비괴사성 상피 육아종(noncaseating epithelial granuloma) 확인 및 다른 육아종성 질환(결핵, 진균 등) 배제.
+
+**흉부 X선의 Scadding 병기**:
+
+| 병기 | 영상 소견 |
+| --- | --- |
+| 0 | 흉부 X선 정상 |
+| I | 양측 폐문 림프절 비대, 폐실질 침윤 없음 |
+| II | 폐문 림프절 비대와 폐실질 침윤 동반 |
+| III | 폐문 림프절 비대 없이 폐실질 침윤 |
+| IV | 폐섬유화 |
+
+이는 흉부 X선 분류이며 시간순 진행 단계나 전신 장기 침범 정도가 아니다. **폐기능(FVC·DLCO), 증상·산소화, 심장·신경·안구 침범**을 별도로 평가한다. 병기 번호만으로 스테로이드 시작 여부를 정하지 않는다.
 
 ## 5. 치료
 

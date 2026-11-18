@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -21,7 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ATA MTC | https://doi.org/10.1089/thy.2014.0335", "ASCO 2026 | https://ascopubs.org/doi/10.1200/JCO-26-00235"]
+sources: ["ATA MTC | https://doi.org/10.1089/thy.2014.0335", "ASCO 2026 | https://ascopubs.org/doi/10.1200/JCO-26-00235", "NCI PDQ 갑상샘암 조직형별 병기 | https://www.cancer.gov/types/thyroid/hp/thyroid-treatment-pdq"]
 ---
 분과 : [[내분비]]
 
@@ -48,6 +48,18 @@ sources: ["ATA MTC | https://doi.org/10.1089/thy.2014.0335", "ASCO 2026 | https:
 ## 4. 진단 (Diagnosis)
 - 갑상샘 결절에 대한 초음파 및 FNA로 진단하며, 칼시토닌 수치 상승이 특징적임.
 - 유전성 증후군(MEN 2A, 2B) 동반 여부를 확인하기 위해 가족력 조사 및 관련 질환(부갑상선기능항진증, 갈색세포종) 선별 검사가 필요함.
+
+**속질암 AJCC 8판 병기**:
+
+| 병기 | 기준 |
+| --- | --- |
+| I | T1(갑상샘 국한 ≤2 cm) N0 M0 |
+| II | T2–3 N0 M0: 국소 림프절 전이 없음 |
+| III | T1–3 N1a M0: 중앙구획 VI·VII 림프절 전이 |
+| IVA | T1–3 N1b M0 또는 T4a 모든 N M0 |
+| IVB / IVC | T4b 모든 N M0 / 모든 T·N M1 |
+
+T2는 갑상샘 국한 >2–4 cm, T3는 갑상샘 국한 >4 cm 또는 크기와 관계없는 육안적 띠근육 침범이다. N1b는 측경부·인두후 림프절 전이다. T4a는 피하조직·후두·기관·식도·되돌이후두신경으로의 육안적 침범, T4b는 척추전근막 침범 또는 경동맥·종격동 혈관 포위다. **55세 나이 기준을 적용하지 않는다.** Calcitonin·CEA의 수치/배가시간과 RET 변이는 병기와 별도로 기록하며, 수치 상승만으로 영상학적 원격 전이를 확정하지 않는다.
 
 ## 5. 치료
 

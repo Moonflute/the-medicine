@@ -20,7 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["NCI PDQ | https://www.cancer.gov/types/bone/hp/osteosarcoma-treatment-pdq"]
+sources: ["NCI PDQ | https://www.cancer.gov/types/bone/hp/osteosarcoma-treatment-pdq", "SIOP Europe 골육종 표준 진료 권고 | https://siope.eu/media/documents/escp-childhood-osteosarcoma.pdf"]
 ---
 분과 : [[소아청소년과]]
 
@@ -43,6 +43,16 @@ sources: ["NCI PDQ | https://www.cancer.gov/types/bone/hp/osteosarcoma-treatment
 ## 4. 진단 (Diagnosis)
 * 영상학적 소견과 조직검사를 통한 악성 골모세포 기질(malignant osteoid matrix) 확인으로 진단함.
 * 진단 시 약 10~20%에서 폐 전이가 동반됨.
+
+**진단 시 범위와 Enneking/MSTS 병기**:
+
+| 병기 | 조직등급·범위 |
+| --- | --- |
+| IA / IB | 저등급, 전이 없음; 각각 해부학적 구획 내 / 구획 밖 침범 |
+| IIA / IIB | 고등급, 전이 없음; 각각 구획 내 / 구획 밖 침범 |
+| III | 등급·국소 범위와 관계없이 전이 있음 |
+
+실제 소아 치료계획에는 **국소성/전이성 여부와 모든 병변의 절제 가능성**이 중요하다. 원발 뼈 전체와 인접 관절 MRI로 skip lesion·신경혈관 침범을 확인하고, 흉부 CT로 폐 전이, 전신 영상으로 다른 뼈 전이를 평가한다. ALP·LDH 상승만으로 전이성으로 분류하지 않는다. AJCC TNM의 병기 번호와 Enneking 병기 번호를 섞어 쓰지 않는다.
 
 ## 5. 치료
 

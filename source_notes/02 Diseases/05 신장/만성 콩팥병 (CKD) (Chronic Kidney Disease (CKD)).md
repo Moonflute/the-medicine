@@ -12,7 +12,7 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: tier_1
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-11-18"
 guideline_year: '2024'
 sources: ["KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease | https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf", "KDIGO 2024 CKD Guideline Executive Summary | https://kdigo.org/wp-content/uploads/2017/02/KDIGO-2024-CKD-Guideline-Executive-Summary.pdf"]
 disease_family: ckd
@@ -45,6 +45,25 @@ population: adult
 - 원인 불명, 비전형적 경과, 지속 혈뇨, 신증후군 범위 단백뇨, 유전질환 의심 또는 급격한 진행은 영상·면역학 검사·유전 평가·신장생검을 포함한 전문 평가를 고려한다.
 - 정상 크기의 신장만으로 CKD를 배제하지 않으며, 병력·기능 추세·요검사와 구조 평가를 함께 해석한다.
 - G3–G5에서는 eGFR와 UACR만으로도 위험 예측식(KFRE 등)을 활용해 신부전 위험을 정량화할 수 있다. 위험도는 추적 간격, 신장내과 의뢰, 다학제 진료 및 신대체요법 준비의 근거로 사용한다.
+
+**CGA 분류: 원인＋GFR 범주＋알부민뇨 범주**:
+
+| G범주 | eGFR(mL/min/1.73 m²) |
+| --- | --- |
+| G1 | ≥90 |
+| G2 | 60–89 |
+| G3a | 45–59 |
+| G3b | 30–44 |
+| G4 | 15–29 |
+| G5 | <15 |
+
+| A범주 | 소변 알부민/크레아티닌비(UACR, mg/g) |
+| --- | --- |
+| A1 | <30 |
+| A2 | 30–300 |
+| A3 | >300 |
+
+예: 당뇨병성 CKD G3bA3처럼 함께 기록한다. UACR은 총 단백/크레아티닌비와 동일하지 않으며, G1–G2만으로는 신장 손상 표지 없이 CKD라 부르지 않는다. G5는 신부전 범주이지 즉시 투석을 시작하라는 수치 기준은 아니다.
 
 ## 5. 치료
 - 원인질환 치료, 혈압·당뇨병·심혈관 위험인자 관리, 금연, 운동, 체중·염분 관리, 신독성 약물 회피를 함께 시행한다.

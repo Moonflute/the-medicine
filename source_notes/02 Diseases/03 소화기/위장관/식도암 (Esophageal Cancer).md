@@ -23,7 +23,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 content_updated_at: "2026-11-18"
 guideline_year: "2026"
-sources: ["SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of esophageal cancer (update 2025). | https://pubmed.ncbi.nlm.nih.gov/41784706/", "ESMO 식도암 지침 개정 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11889489/", "CheckMate 577 | https://doi.org/10.1056/NEJMoa2032125"]
+sources: ["SEOM-GEMCAD-TTD clinical guideline for the diagnosis and treatment of esophageal cancer (update 2025). | https://pubmed.ncbi.nlm.nih.gov/41784706/", "ESMO 식도암 지침 개정 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11889489/", "CheckMate 577 | https://doi.org/10.1056/NEJMoa2032125", "IASLC 식도암 TNM 정의 | https://www.iaslc.org/file/10871/download?token=DmNIDkWP"]
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
@@ -62,6 +62,19 @@ review_status: "guideline_enriched"
 ## 4. 진단
 - 식도위내시경을 통한 다발성 생검(6~8개 샘플 권장) 및 WHO 기준에 따른 조직학적 확진이 표준임.
 - 전신 상태(ECOG score), 신체 검진, 노인 평가(고령 환자의 경우) 및 영양 평가를 함께 시행해야 함.
+
+**TNM의 치료 관련 경계(AJCC 8판)**:
+
+| 구분 | 기준 |
+| --- | --- |
+| T1a / T1b | 점막 고유판·점막근판 / 점막하층 침윤 |
+| T2 / T3 | 고유근층 / 외막 침윤 |
+| T4a | 흉막·심낭·홀정맥·횡격막·복막 등 인접 구조 침범 |
+| T4b | 대동맥·척추체·기도 등 주요 구조 침범 |
+| N1 / N2 / N3 | 국소 림프절 1–2 / 3–6 / ≥7개 전이 |
+| M1 | 원격 전이: IVB |
+
+국소치료 여부를 가르는 **T1a와 T1b**, 절제 가능성을 가르는 **T4a와 T4b**를 우선 명시한다. T4b는 일반적으로 근치 절제가 어려운 국소 진행 상태다. I–IVA 세부 병기군은 편평상피암/선암, cTNM/pTNM/ypTNM에 따라 달라지므로 조직형·치료 시점에 맞는 표로 확정한다. pTNM에서는 등급과 편평상피암의 위치도 영향을 줄 수 있어 T 숫자만으로 병기를 단정하지 않는다.
 
 ## 5. 치료
 - **초기 단계(cT1 N0M0) 치료 전략**:

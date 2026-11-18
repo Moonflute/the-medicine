@@ -14,9 +14,9 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-30"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["2025 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/", "ESC 2025 | https://doi.org/10.1093/eurheartj/ehaf194"]
+sources: ["2025 ESC/EACTS Guidelines for the management of valvular heart disease | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/valvular-heart-disease/", "ESC 2025 | https://doi.org/10.1093/eurheartj/ehaf194", "ESC/EACTS 2025 판막질환 지침 | https://academic.oup.com/eurheartj/article/46/44/4635/8234488"]
 
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[순환기]]
 
@@ -46,8 +46,18 @@ content_updated_at: "2026-11-17"
   심도자술은 수술 전 관상동맥 질환 확인이나 초음파 결과가 불분명할 때 시행한다.
 
 ## 4. 진단 (Diagnosis)
-- 심장초음파를 통해 확진한다.
-  중증 AS는 판막 면적 < 1.0 cm², Vmax > 4 m/s, 평균 압력 차이 > 40 mmHg 등을 기준으로 평가한다.
+- 심초음파에서 판막 형태·석회화, 최고 혈류속도(Vmax), 평균압력차, 판막면적(AVA), LVEF·박출량을 통합해 확진·중증도를 평가한다.
+
+**중증 AS의 혈역학적 분류(ESC/EACTS 2025)**:
+
+| 유형 | 기준 |
+| --- | --- |
+| 고압력차 중증 | Vmax ≥4.0 m/s, 평균압력차 ≥40 mmHg, AVA ≤1.0 cm²(또는 ≤0.6 cm²/m²)를 통합해 확인 |
+| 저유량·저압력차, EF 감소 | AVA ≤1.0, 평균압력차 <40, SVi ≤35 mL/m², LVEF <50% |
+| 저유량·저압력차, EF 보존 | 위 AVA·압력차·SVi 조건과 LVEF ≥50% |
+| 정상유량·저압력차 | AVA ≤1.0, 평균압력차 <40, SVi >35; 측정 오차·실제 중증도를 재평가 |
+
+저압력차라는 이유만으로 중증을 배제하거나 AVA 하나로 확정하지 않는다. 혈압·도플러/LVOT 측정을 확인하고, EF 감소에서는 저용량 dobutamine 부하 심초음파, 불일치 소견에서는 CT 석회화 점수 등을 선택해 진성 중증과 가성 중증을 구분한다. **증상·운동검사와 LVEF**는 중재 시점을 정하는 별도 축이다.
 
 ## 5. 치료 (Treatment)
 - 약물치료로 협착 진행을 늦출 수는 없다. 유증상 중증 AS는 판막 교체가 근본 치료이다.

@@ -14,9 +14,9 @@ CC:
 - 체중감소/식욕부진
 - 피로
 clinical_priority: tier_1
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 guideline_year: '2026'
-sources: ["GOLD 2026 Report·Pocket Guide | https://goldcopd.org/2026-gold-report-and-pocket-guide/", "GOLD 2026 주요 개정 사항 | https://goldcopd.org/wp-content/uploads/2025/11/KEY-CHANGES-GOLD-2026-10Nov2025.pdf", "GOLD 2026 이탈리아어 공식 Pocket Guide | https://goldcopd.it/wp-content/uploads/2026/01/GOLD_Pocket_Guide_2026.pdf", "GOLD 2027 | https://goldcopd.org/wp-content/uploads/2026/11/GOLD-Report-2027-FINAL-v1.0-15Nov2026_Reduced_WMV.pdf"]
+sources: ["GOLD 2026 Report·Pocket Guide | https://goldcopd.org/2026-gold-report-and-pocket-guide/", "GOLD 2026 주요 개정 사항 | https://goldcopd.org/wp-content/uploads/2025/11/KEY-CHANGES-GOLD-2026-10Nov2025.pdf", "GOLD 2026 이탈리아어 공식 Pocket Guide | https://goldcopd.it/wp-content/uploads/2026/01/GOLD_Pocket_Guide_2026.pdf", "GOLD 2027 | https://goldcopd.org/wp-content/uploads/2026/11/GOLD-Report-2027-FINAL-v1.0-15Nov2026_Reduced_WMV.pdf", "GOLD 2026 Pocket Guide | https://goldcopd.org/wp-content/uploads/2026/01/GOLD-Pocket-Guide-2026-v1.1-20Nov2025_WMV2.pdf"]
 disease_family: copd
 population: adult
 guideline_reviewed_at: '2026-10-07'
@@ -40,6 +40,25 @@ guideline_review_status: primary_source_reviewed
 ## 4. 진단
 - 만성 호흡기 증상과 위험 노출이 있는 환자에서 spirometry로 지속적 기류 제한을 확인한다. 천식, 심부전, 기관지확장증, 결핵 후 폐질환을 감별한다.
 - 반복 악화, 젊은 연령 발병 또는 가족력은 alpha-1 antitrypsin 결핍 평가를 고려한다.
+
+**확진 후 기류제한 등급과 ABE군(GOLD 2026)**:
+
+| 폐기능 등급 | 기관지확장제 후 FEV₁, 예측치 대비 |
+| --- | --- |
+| GOLD 1 | ≥80% |
+| GOLD 2 | 50–<80% |
+| GOLD 3 | 30–<50% |
+| GOLD 4 | <30% |
+
+이는 FEV₁/FVC <0.70으로 COPD를 확인한 뒤 적용하는 **기류제한 정도**이며, 초기 흡입제 선택에 쓰는 ABE군과 다르다.
+
+| ABE군 | 지난 1년 악화·현재 증상 |
+| --- | --- |
+| A | 중등도·중증 악화 0회, CAT/CAAT <10(이 척도 미사용 시 mMRC 0–1) |
+| B | 중등도·중증 악화 0회, CAT/CAAT ≥10(이 척도 미사용 시 mMRC ≥2) |
+| E | 중등도 또는 중증 악화 ≥1회; 증상 점수와 무관 |
+
+증상 척도가 불일치하면 활동 제한과 포괄적 증상평가를 함께 해석한다. **2026 E군은 중등도 악화 1회도 포함**한다. 과거의 ‘중등도 ≥2회 또는 입원 ≥1회’를 그대로 사용하지 않는다. 이미 유지치료 중인 환자는 초기 ABE 처방표만 반복 적용하지 않고 호흡곤란·악화의 추적 알고리즘으로 조정한다.
 
 ## 5. 치료
 - 금연 치료, 백신, 신체활동·호흡재활과 흡입기 교육은 모든 단계의 기본이다.

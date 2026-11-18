@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases:
 - Fallopian tube tumor
 유형:
@@ -23,7 +23,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ASCO 수술 시점 | https://doi.org/10.1200/JCO-24-02589", "PARP 2026 | https://doi.org/10.1200/JCO-26-02412"]
+sources: ["ASCO 수술 시점 | https://doi.org/10.1200/JCO-24-02589", "PARP 2026 | https://doi.org/10.1200/JCO-26-02412", "NCI PDQ 난소·난관·복막암 병기 | https://www.cancer.gov/types/ovarian/hp/ovarian-epithelial-treatment-pdq"]
 ---
 분과 : [[부인과]]
 
@@ -42,6 +42,20 @@ sources: ["ASCO 수술 시점 | https://doi.org/10.1200/JCO-24-02589", "PARP 202
 
 ## 4. 진단 (Diagnosis)
 - 상피성 난소암과 유사하게 진단하며, 수술적 병리 조직 검사가 확진 방법임.
+
+**FIGO 난소·난관 병기(2014 체계)**:
+
+| 병기 | 구분 기준 |
+| --- | --- |
+| IA / IB | 일측 / 양측 난소·난관 국한. 피막 보존, 표면 종양 없음, 복수·세척액 악성세포 없음 |
+| IC1 / IC2 / IC3 | 수술 중 유출 / 수술 전 피막 파열 또는 표면 종양 / 복수·세척액 악성세포 |
+| IIA / IIB | 자궁·난관·난소로 골반 내 확산 / 그 밖의 골반 복막조직 침범 |
+| IIIA1 | 후복막 림프절만 전이: (i) 전이 병소 ≤10 mm, (ii) >10 mm |
+| IIIA2 | 골반 밖 복막의 현미경적 전이, 림프절 전이 유무 무관 |
+| IIIB / IIIC | 골반 밖 육안적 복막 전이의 최대 지름 ≤2 cm / >2 cm |
+| IVA / IVB | 악성세포가 확인된 흉수 / 장기 실질·복강 밖 장기 또는 림프절 전이 |
+
+간·비장 **표면** 전이와 **실질** 전이를 구분한다. 후자는 IVB이며, 단순 흉수만으로 IVA가 되지 않는다. 병기는 수술·병리 소견과 영상으로 정하고, 조직형·등급 및 잔존 종양을 따로 기록한다.
 
 ## 5. 치료
 

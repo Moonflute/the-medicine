@@ -20,9 +20,9 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_2"
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 guideline_year: "2026"
-sources: ["American Society of Hematology 2025 guidelines for treating newly diagnosed acute myeloid leukemia in older adults. | https://pubmed.ncbi.nlm.nih.gov/41321225/"]
+sources: ["American Society of Hematology 2025 guidelines for treating newly diagnosed acute myeloid leukemia in older adults. | https://pubmed.ncbi.nlm.nih.gov/41321225/", "ELN AML 진단·위험분류 2022 | https://ashpublications.org/blood/article/140/12/1345/485851"]
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 ---
@@ -52,6 +52,18 @@ review_status: "guideline_enriched"
 - 2016 WHO 틀은 반복 유전이상 AML, 골수형성이상 관련 변화, 치료 관련 골수종양, NOS, myeloid sarcoma, Down syndrome 관련 증식 및 ambiguous-lineage acute leukemia를 포함한 역사적 분류다.
 - 골수 검사에서 모세포 비율이 20% 이상일 때 진단.
   유전자 및 염색체 이상에 따라 분류하며, 최근에는 ICC/WHO 분류 체계에 따라 특정 유전자 변이 유무를 우선적으로 고려함.
+
+**ELN 2022 유전 위험군(집중 항암치료 기준의 대표 분류)**:
+
+| 위험군 | 주요 소견 |
+| --- | --- |
+| 유리 | t(8;21)/RUNX1::RUNX1T1, inv(16)·t(16;16)/CBFB::MYH11, FLT3-ITD 없는 NPM1 변이, CEBPA bZIP in-frame 변이 |
+| 중간 | 불량 위험 병변이 없는 FLT3-ITD, t(9;11)/MLLT3::KMT2A, 유리·불량 어느 군에도 속하지 않는 이상 |
+| 불량 | TP53 변이, 지정된 골수형성이상 관련 유전자 변이, 복합/단일염색체 핵형, -5/del(5q)·-7·17p 이상, 일부 KMT2A·MECOM 재배열 등 |
+
+**FLT3-ITD allelic ratio는 ELN 2022 위험군 기준에서 제외**되었다. NPM1 변이가 있어도 불량 위험 세포유전 이상이 동반되면 불량군이며, 유리 위험 AML의 동반 변이를 단독으로 읽어 위험군을 바꾸지 않는다. 표는 대표 기준이므로 전체 핵형·변이 조합의 우선순위로 확정한다.
+
+AML은 일반 고형암의 I–IV 병기 대신 유전 위험군, 치료 후 관해·MRD, 재발/불응 여부를 기록한다. ELN 2022는 집중 항암치료 자료 기반이며, 저강도 요법에는 해당 치료에 맞는 위험 모델을 적용한다. MRD 결과로 이식·공고치료 판단이 달라질 수 있다.
 
 ## 5. 치료
 - 유도·공고·이식 및 표적치료 선택은 최신 위험도·환자 적합성 지침을 우선한다.

@@ -14,7 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["NICE NG101 | https://www.nice.org.uk/guidance/ng101/chapter/Recommendations", "SSO/ASTRO/ASCO 절제연 합의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC5047939/"]
+sources: ["NICE NG101 | https://www.nice.org.uk/guidance/ng101/chapter/Recommendations", "SSO/ASTRO/ASCO 절제연 합의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC5047939/", "NCI PDQ 유방암 TNM·해부학적 병기 | https://www.cancer.gov/types/breast/hp/breast-treatment-pdq", "AJCC 유방암 8판 병기 교육자료 | https://www.facs.org/media/p2cmtbu2/8th-edition-breast-staging_handout.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -36,6 +36,17 @@ sources: ["NICE NG101 | https://www.nice.org.uk/guidance/ng101/chapter/Recommend
 ## 4. 진단 (Diagnosis)
 - 영상학적 의심 소견 후 조직 검사를 통해 확진.
   생검 결과 DCIS라도 최종 절제술 후 10~20%에서 침윤성 암이 발견될 수 있음을 인지해야 함.
+
+**상피내 병변과 침윤암의 경계**:
+
+| 병리 소견 | 병기 해석 |
+| --- | --- |
+| 순수 DCIS | 기저막을 넘어선 침윤 없음. Tis(DCIS) N0 M0이면 해부학적 0기 |
+| 미세침윤 | 최대 침윤 병소 ≤1 mm이면 T1mi. 순수 상피내암과 구분 |
+| 그보다 큰 침윤 | 침윤 부위 크기와 림프절·원격 전이로 침윤성 유방암 병기 적용 |
+| LCIS | AJCC 8판 TNM에서 제외되어 DCIS처럼 0기로 일괄 분류하지 않음 |
+
+BI-RADS는 **영상의 악성 의심도**, TNM은 **확진된 암의 범위**이므로 서로 대체하지 않는다. 침생검에서 DCIS로 나왔더라도 최종 절제 표본의 침윤 여부로 병기를 확정한다.
 
 ## 5. 치료
 

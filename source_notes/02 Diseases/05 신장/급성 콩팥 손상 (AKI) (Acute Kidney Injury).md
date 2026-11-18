@@ -15,9 +15,9 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2025"
-sources: ["Korean Society of Nephrology 2025 Evidence-Based Clinical Practice Guideline for Continuous Kidney Replacement Therapy | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10800000/", "KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury (AKI) and Acute Kidney Disease (AKD) | https://kdigo.org/guidelines/aki-akd/", "KDIGO 2025 conference conclusions | https://kdigo.org/wp-content/uploads/2025/12/KDIGO-AKI-AKD-Guideline-conference-conclusions.pdf"]
+sources: ["Korean Society of Nephrology 2025 Evidence-Based Clinical Practice Guideline for Continuous Kidney Replacement Therapy | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10800000/", "KDIGO 2026 Clinical Practice Guideline for Acute Kidney Injury (AKI) and Acute Kidney Disease (AKD) | https://kdigo.org/guidelines/aki-akd/", "KDIGO 2025 conference conclusions | https://kdigo.org/wp-content/uploads/2025/12/KDIGO-AKI-AKD-Guideline-conference-conclusions.pdf", "KDIGO AKI 확정 지침의 단계 정의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC4057151/", "KDIGO AKI/AKD 지침 개정 상태 | https://kdigo.org/guidelines/acute-kidney-injury/"]
 
-content_updated_at: "2026-07-16"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[신장]]
 
@@ -68,6 +68,15 @@ content_updated_at: "2026-07-16"
 - 신전성: BUN/Cr > 20, FE_Na < 1%
 - 신성: BUN/Cr < 15, FE_Na > 2%
 
+**KDIGO AKI 단계**:
+
+| 단계 | 혈청 크레아티닌 | 소변량 |
+| --- | --- | --- |
+| 1 | 기저치 1.5–1.9배 또는 48시간 내 ≥0.3 mg/dL 상승 | <0.5 mL/kg/h가 6–<12시간 |
+| 2 | 기저치 2.0–2.9배 | <0.5 mL/kg/h가 ≥12시간 |
+| 3 | 기저치 ≥3배, ≥4.0 mg/dL로 급성 상승, 또는 신대체요법 시작 | <0.3 mL/kg/h가 ≥24시간 또는 무뇨 ≥12시간 |
+
+크레아티닌·소변량 중 **더 높은 단계**를 적용한다. 기저치의 1.5배 상승은 최근 7일 안에 발생한 것으로 확인·추정되어야 하며, 안정적인 CKD의 크레아티닌 ≥4.0만으로 AKI 3단계를 진단하지 않는다. 18세 미만은 급성 eGFR <35 mL/min/1.73 m²도 3단계 기준이다. 단계가 높다는 이유만으로 투석을 자동 시작하지 않고 불응성 전해질·산염기·체액 이상과 요독증을 함께 판단한다.
 
 ## 5. 치료 (Treatment)
 - 원인 교정: 저혈량에는 반복적인 재평가 아래 등장성 수액을 사용하고, 폐부종·심부전·간경변 등 체액 과다 위험에서는 무분별한 수액을 피합니다.

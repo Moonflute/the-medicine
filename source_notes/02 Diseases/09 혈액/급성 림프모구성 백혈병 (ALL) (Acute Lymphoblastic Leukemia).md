@@ -22,9 +22,9 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["American Society of Hematology 2026 guidelines for frontline management of acute lymphoblastic leukemia in adolescents and young adults. | https://pubmed.ncbi.nlm.nih.gov/41670627/", "ASH 2026 AYA ALL 권고 | https://www.hematology.org/-/media/hematology/files/clinicians/guidelines/all-in-ayas-2026/ash-all-aya-frontline-visual-summary.pdf"]
+sources: ["American Society of Hematology 2026 guidelines for frontline management of acute lymphoblastic leukemia in adolescents and young adults. | https://pubmed.ncbi.nlm.nih.gov/41670627/", "ASH 2026 AYA ALL 권고 | https://www.hematology.org/-/media/hematology/files/clinicians/guidelines/all-in-ayas-2026/ash-all-aya-frontline-visual-summary.pdf", "ELN 성인 ALL 진단·위험평가 2024 | https://ashpublications.org/blood/article/143/19/1891/514792/Diagnosis-prognostic-factors-and-assessment-of-ALL"]
 
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[혈액]]
 
@@ -55,6 +55,12 @@ content_updated_at: "2026-11-17"
 ## 4. 진단 (Diagnosis)
 - 골수 검사에서 림프 모세포가 20% 이상일 때 진단.
   면역표현형 및 세포유전학적 검사를 통해 아형을 분류하고 예후를 평가함.
+
+**병기 대신 초기 위험도와 치료반응을 기록**:
+- 면역표현형으로 B/T 계열을 정하고 BCR::ABL1, KMT2A 등 유전형, 진단 시 WBC, 연령, 중추신경계 침범을 기록한다. 고형암의 I–IV 병기를 적용하지 않는다.
+- **MRD**는 관해유도 종료와 공고치료 후 등 프로토콜이 정한 시점에 측정한다. 흔히 **10⁻⁴(0.01%)** 수준을 중요한 판단 기준으로 사용하지만, 측정법·민감도·치료 시점과 정확한 수치를 함께 보고한다.
+- 형태학적 관해에서도 MRD가 남을 수 있다. 충분한 감도로 측정한 음성과 검사 감도가 부족한 음성을 구분한다.
+- 성인 ALL에는 모든 프로토콜에 공통인 단일 위험점수표가 없으며, 유전형과 MRD 경과를 함께 반영해 표적·면역치료와 이식 여부를 결정한다.
 
 ## 5. 치료 (Treatment)
 - 치료는 유도 뒤 공고/강화, 유지와 CNS 예방으로 이어진다.

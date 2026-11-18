@@ -27,7 +27,7 @@ review_status: "guideline_enriched"
 guideline_year: "2024"
 sources: ["'IHPBA-APHPBA clinical practice guidelines': international Delphi consensus recommendations for gallbladder cancer. | https://pubmed.ncbi.nlm.nih.gov/39191539/", "NCI PDQ | https://www.cancer.gov/types/gallbladder/hp/gallbladder-treatment-pdq", "NCI 담도암 PDQ | https://www.cancer.gov/types/liver/hp/bile-duct-treatment-pdq"]
 
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 ---
 ## 1. 개요
 - **정의**: 담낭에서 발생하는 악성 종양으로, 대부분 선암(adenocarcinoma)임. 담도계 암 중 가장 흔하며 고령 여성에서 호발함.
@@ -78,6 +78,23 @@ content_updated_at: "2026-11-17"
 - 선종성 용종: 악성 가능성 있음.
 - 콜레스테롤 용종, 염증성 용종: 대개 작고 다발성.
 - 선근종증: 초음파상 낭성(cystic) 부위 관찰.
+
+**담낭암 TNM과 병기(AJCC 8판)**:
+
+| T | 침윤 범위 |
+| --- | --- |
+| T1a / T1b | 고유판 / 근육층 |
+| T2a / T2b | 근육주위 결합조직: 복막측 / 간측. 장막 관통·간 침범 없음 |
+| T3 | 장막 관통, 간 직접 침범 또는 간 이외 인접 장기 1곳 침범 |
+| T4 | 주간문맥·간동맥 침범 또는 간 이외 인접 장기 ≥2곳 침범 |
+
+| 병기 | 조합(M0, M1 제외) |
+| --- | --- |
+| I / IIA / IIB | T1 N0 / T2a N0 / T2b N0 |
+| IIIA / IIIB | T3 N0 / T1–3 N1 |
+| IVA / IVB | T4 N0–1 / 모든 T N2 또는 M1 |
+
+N1은 국소 림프절 1–3개, N2는 ≥4개 전이다. 우연히 발견된 담낭암은 **T1a와 T1b를 구분**하고, 절제연·담즙 유출·잔존 병변을 확인해 추가 수술을 판단한다. T2b는 간측 결합조직 침범이며 간 실질 침범(T3)과 다르다.
 
 ## 5. 치료
 

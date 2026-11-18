@@ -162,8 +162,7 @@ function cleanupHeading(heading) {
 function normalizeLine(line) {
   return line
     .trim()
-    .replace(/^\-\s*/, "• ")
-    .replace(/^\*\s*/, "• ")
+    .replace(/^[-*]\s+/, "• ")
     .replace(/^\t+/, "")
     .trim();
 }

@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -22,6 +22,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ELN AML 진료지침 2022 | https://ashpublications.org/blood/article/140/12/1345/485851", "ELN CML 진료지침 2025 | https://www.nature.com/articles/s41375-025-02664-w", "NCI PDQ CLL 병기 | https://www.cancer.gov/types/leukemia/hp/cll-treatment-pdq"]
 ---
 분과 : [[혈액]]
 
@@ -44,6 +45,18 @@ reviewed_at: "2026-07-30"
 ## 4. 진단 (Diagnosis)
 - 골수 검사에서 모세포 비율이 20% 이상일 때 진단. 다만 반복 유전 이상이 확인된 일부 질환은 현행 분류에서 모세포 비율만으로 배제하지 않고 형태·면역표현형·염색체·분자 결과를 통합해 판단한다.
   형태학적, 세포화학적, 면역표현형 검사로 급성 골수성 백혈병 (AML)과 급성 림프모구성 백혈병 (ALL) 감별.
+
+**아형별로 다른 단계·위험도 체계**:
+
+| 아형 | 진단 뒤 기록할 분류 |
+| --- | --- |
+| AML | ELN 유전 위험군(유리·중간·불량), 관해·MRD, 재발/불응 상태 |
+| APL | 치료 전 WBC ≤10,000/μL / >10,000/μL의 비고위험 / 고위험 |
+| ALL | B/T 계열·유전형·중추신경 침범, 프로토콜별 초기 위험도와 MRD |
+| CML | 만성기·급성기 및 적용 분류의 가속기, BCR::ABL1 분자반응 |
+| CLL | Rai 0–IV 또는 Binet A–C, TP53·IGHV 및 활동성 질환 여부 |
+
+백혈병 전체에 공통된 I–IV 병기표는 없다. 형태·면역표현형·세포유전/분자검사로 아형을 확정한 후 해당 체계를 사용하며, 백혈구 수 하나만으로 진행 단계나 치료 강도를 정하지 않는다.
 
 ## 5. 치료
 - 관해 유도 요법: 고용량 화학요법으로 백혈병 세포를 제거하고 관해를 목표로 하며, 치료 중 감염·출혈 위험에 대비해 항생제·항진균제 등 지지 요법을 병행한다.

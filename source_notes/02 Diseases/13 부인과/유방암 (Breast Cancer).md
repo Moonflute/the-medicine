@@ -21,7 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["늑간상완신경 보존 무작위 연구 | https://pubmed.ncbi.nlm.nih.gov/33710131/", "ASCO HR+/HER2− 2026 | https://doi.org/10.1200/JCO-26-02034", "KEYNOTE-522 승인 조건 | https://www.asco.org/practice-policy/policy-issues-statements/asco-in-action/fda-approves-pembrolizumab-high-risk-early", "FDA 2026 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage", "영국 국가유방검진 정밀평가 지침 | https://www.gov.uk/government/publications/breast-screening-clinical-guidelines-for-screening-management/clinical-guidance-for-breast-cancer-screening-assessment"]
+sources: ["늑간상완신경 보존 무작위 연구 | https://pubmed.ncbi.nlm.nih.gov/33710131/", "ASCO HR+/HER2− 2026 | https://doi.org/10.1200/JCO-26-02034", "KEYNOTE-522 승인 조건 | https://www.asco.org/practice-policy/policy-issues-statements/asco-in-action/fda-approves-pembrolizumab-high-risk-early", "FDA 2026 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage", "영국 국가유방검진 정밀평가 지침 | https://www.gov.uk/government/publications/breast-screening-clinical-guidelines-for-screening-management/clinical-guidance-for-breast-cancer-screening-assessment", "NCI PDQ 유방암 TNM·해부학적 병기 | https://www.cancer.gov/types/breast/hp/breast-treatment-pdq", "AJCC 유방암 8판 병기 교육자료 | https://www.facs.org/media/p2cmtbu2/8th-edition-breast-staging_handout.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -62,6 +62,23 @@ sources: ["늑간상완신경 보존 무작위 연구 | https://pubmed.ncbi.nlm.
   40세 이상: 2년마다 유방 촬영술 권고.
 - **확진**: 신체 검진, 영상 검사, 조직 검사를 종합하여 확진.
 - **병기 및 분자 아형 평가**: TNM 병기, ER, PR, HER2 상태 확인.
+
+**TNM과 해부학적 병기(AJCC 8판)**:
+
+- **T**: T1 ≤2 cm(미세침윤 T1mi ≤1 mm), T2 >2–≤5 cm, T3 >5 cm. 흉벽 또는 병기 기준에 맞는 피부 침범은 크기와 무관하게 T4이며 염증성 유방암은 T4d다. 대흉근 침범만으로 T4a가 되지는 않는다.
+- **N**: 임상 N1은 움직이는 동측 액와절, N2는 고정·유착 액와절 또는 액와절 전이 없이 임상적으로 확인된 내유방절, N3는 쇄골하·쇄골상 또는 액와절과 내유방절의 동시 침범 등이다. 병리 액와절 개수는 pN1 1–3개, pN2 4–9개, pN3 ≥10개가 기준이며 위치에 따른 분류도 적용한다.
+
+| 병기 | TNM 조합(M0, IV 제외) |
+| --- | --- |
+| 0 / IA | Tis N0 / T1 N0 |
+| IB | T0–1 N1mi |
+| IIA | T0–1 N1 또는 T2 N0 |
+| IIB | T2 N1 또는 T3 N0 |
+| IIIA | T0–2 N2 또는 T3 N1–2 |
+| IIIB / IIIC | T4 N0–2 / 모든 T N3 |
+| IV | 모든 T·N에서 M1 |
+
+N1mi는 >0.2–≤2 mm의 림프절 미세전이다. ≤0.2 mm 고립종양세포는 pN0(i+)로 구분한다. **예후 병기**는 위 해부학적 병기에 조직등급·ER·PR·HER2를 더해 산정하므로 서로 같은 표가 아니다. 선행치료 전 cTNM과 치료 후 ypTNM을 각각 남긴다.
 
 ## 5. 치료
 

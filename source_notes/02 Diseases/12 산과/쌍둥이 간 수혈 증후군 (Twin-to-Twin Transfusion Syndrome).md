@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases:
 - TTTS
 - 쌍둥이 간 수혈 증후군
@@ -17,7 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["SMFM Consult 72, 2024 | https://pubmed.ncbi.nlm.nih.gov/39029545/"]
+sources: ["SMFM Consult 72, 2024 | https://pubmed.ncbi.nlm.nih.gov/39029545/", "ISUOG 2025 쌍태임신 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11788470/"]
 ---
 분과 : [[산과]]
 
@@ -36,13 +36,25 @@ sources: ["SMFM Consult 72, 2024 | https://pubmed.ncbi.nlm.nih.gov/39029545/"]
 ## 3. 검사 (Lab & Imaging)
 * **초음파 (USG)**
 - 최대 양수 수직 깊이(MVP):
-- 공여 태아(Donor): 2cm 미만 (양수과소증)
-- 수혈 태아(Recipient): 8cm 초과 (양수과다증)
+- 공여 태아(Donor): ≤2 cm (양수과소증)
+- 수혈 태아(Recipient): ≥8 cm (양수과다증); 주수별 기준은 아래 진단 문단에 따른다.
 - 도플러 검사: 제대동맥, 제대정맥, 정맥관 혈류 평가를 통해 병기 결정
 
 ## 4. 진단 (Diagnosis)
-* 단일 융모막성 임신에서 양수과소증(MVP <2cm)과 양수과다증(MVP >8cm)이 동시에 확인될 때 진단
-* Quintero 병기 분류를 통해 중증도 평가
+
+
+**초음파 진단과 Quintero 병기**:
+- 단일융모막 양막쌍태에서 공여아 DVP/MVP ≤2 cm와 수혈아 ≥8 cm의 양수 불균형을 확인한다. ISUOG가 설명하는 유럽 기준은 20주까지 ≥8 cm, 20주 초과에서 ≥10 cm를 적용하므로 사용 기준·주수를 명시한다.
+
+| 병기 | 양수과소–양수과다에 추가되는 소견 |
+| --- | --- |
+| I | 공여아 방광이 보이고 III·IV기 소견 없음 |
+| II | 공여아 방광이 보이지 않음; III·IV기 소견 없음 |
+| III | 한 태아 이상에서 제대동맥 이완기 혈류 소실/역전, 정맥관 a파 역전 또는 제대정맥 박동성 혈류 |
+| IV | 한 태아 이상에서 태아수종 |
+| V | 한 태아 또는 두 태아 사망 |
+
+더 높은 병기 소견이 있으면 그 병기를 적용한다. 병기가 반드시 I→V 순서로 진행하는 것은 아니며, 공여아 방광이 보여도 비정상 도플러가 있으면 III기가 가능하다. 주수, 산모 증상, 자궁경부 길이와 병기를 함께 태아치료센터에 전달한다.
 
 ## 5. 치료
 

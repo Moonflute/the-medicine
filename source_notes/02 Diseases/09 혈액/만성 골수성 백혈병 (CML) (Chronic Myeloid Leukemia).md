@@ -25,7 +25,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["[Recommendations from the GBMHM and the Fi-LMC for the diagnosis and management of chronic myeloid leukemia]. | https://pubmed.ncbi.nlm.nih.gov/40908230/", "ELN 2025 CML 권고 | https://www.nature.com/articles/s41375-025-02664-w"]
 
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[혈액]]
 
@@ -50,6 +50,18 @@ content_updated_at: "2026-11-17"
 ## 4. 진단 (Diagnosis)
 - 말초혈액 및 골수 검사 소견과 필라델피아 염색체 또는 BCR-ABL1 융합 유전자 확인으로 진단.
 - 가속기·급성기 평가는 blast 비율, basophil 증가, 혈소판 감소, 추가 세포유전학적 이상 및 임상 진행을 종합한다. 교재의 blast crisis 기준은 혈액 또는 골수 blast ≥20%이다.
+
+**질병 단계: 적용 분류를 함께 기록**:
+
+| ICC 2022 단계 | 대표 기준 |
+| --- | --- |
+| 만성기 | 말초혈액·골수 blast <10%, 가속기·급성기 기준 없음 |
+| 가속기 | blast 10–19%, 말초혈액 basophil ≥20%, 또는 지정된 추가 클론성 염색체 이상 |
+| 급성기 | 말초혈액 또는 골수 blast ≥20% 또는 골수외 모세포 종양 |
+
+WHO 2022는 가속기를 독립 단계로 두지 않고 만성기·급성기로 분류하며, blast 10–19%·호염기구 증가·고위험 염색체 이상 등을 진행 위험으로 평가한다. 따라서 ‘가속기’라고 기록할 때는 ICC/기존 WHO 등 사용 기준을 밝힌다. 림프모구 증가가 확인되면 낮은 비율에서도 림프계 급성 전환을 별도로 평가한다.
+
+단계와 **분자반응**은 다르다. BCR::ABL1 IS ≤0.1%는 주요 분자반응(MMR), ≤0.01%는 MR4, ≤0.0032%는 MR4.5이다. 질병 단계·ELTS 위험도와 치료 후 분자반응을 함께 추적한다.
 
 ## 5. 치료 (Treatment)
 - 치료 원칙: TKI(티로신 키나아제 억제제)를 기반으로 하며, 분자생물학적 모니터링 결과에 따라 치료 전략을 결정함.

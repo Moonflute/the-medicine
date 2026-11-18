@@ -19,7 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["AAD 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6652228/", "FDA 2025 승인 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-cemiplimab-rwlc-adjuvant-treatment-cutaneous-squamous-cell-carcinoma"]
+sources: ["AAD 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6652228/", "FDA 2025 승인 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-cemiplimab-rwlc-adjuvant-treatment-cutaneous-squamous-cell-carcinoma", "유럽 피부 편평세포암 합의지침 2026 | https://somera.org.mx/storage/resources/files/GpJKXgjatjtuoAhY32GYWyt8SVjSHdndShsoHIVP.pdf"]
 ---
 분과 : [[피부과]]
 
@@ -45,6 +45,18 @@ sources: ["AAD 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6652228/", "FDA
 * 임상적 의심 후 피부 생검을 통해 조직학적으로 확진함.
 * 기저세포암, 흑색종, 광선각화증 등과 감별이 필요함.
 
+**피부 편평세포암의 BWH 국소 위험 분류**:
+
+위험인자는 **지름 ≥2 cm, 저분화, 신경주위 침범(침범 신경 지름 ≥0.1 mm), 피하지방보다 깊은 침윤**의 네 가지이다.
+
+| BWH T분류 | 기준 |
+| --- | --- |
+| T1 | 위험인자 0개 |
+| T2a | 1개 |
+| T2b | 2–3개 |
+| T3 | 4개 또는 뼈 침범 |
+
+BWH는 국소 종양 위험을 세분하는 분류로, 림프절·원격 전이를 포함하는 전체 TNM 병기를 대신하지 않는다. 두경부 피부암에 AJCC TNM을 적용할 때는 해당 판본·부위를 명시한다. 면역억제, 재발, 입술·귀 등 부위와 신경 증상도 추가해 림프절 초음파/영상 필요성을 판단한다. 점막 편평세포암에는 이 피부암 분류를 적용하지 않는다.
 
 ## 5. 치료
 - **저위험 원발성 cSCC**는 대개 4~6 mm 임상 경계로 피하 지방층까지 절제하고 병리학적 절제면을 확인한다.

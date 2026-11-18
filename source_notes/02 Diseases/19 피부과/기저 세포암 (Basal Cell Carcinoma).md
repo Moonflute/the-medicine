@@ -19,7 +19,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Japanese Dermatological Association Guidelines: Clinical Questions of Guidelines for Basal Cell Carcinoma 2025. | https://pubmed.ncbi.nlm.nih.gov/41243455/", "S2k 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11626229/"]
+sources: ["Japanese Dermatological Association Guidelines: Clinical Questions of Guidelines for Basal Cell Carcinoma 2025. | https://pubmed.ncbi.nlm.nih.gov/41243455/", "S2k 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11626229/", "S2k 기저세포암 진료지침 2023 개정 | https://onlinelibrary.wiley.com/doi/10.1111/ddg.15566"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -50,6 +50,17 @@ content_updated_at: "2026-11-18"
 ## 4. 진단 (Diagnosis)
 * 임상적 의심 후 피부 생검을 통해 조직학적으로 확진.
 
+**재발 고위험 소견(S2k 분류)**:
+
+| 평가 항목 | 고위험에 해당하는 소견 |
+| --- | --- |
+| 위치·지름 | H구역 >6 mm, M구역 >10 mm, L구역 >20 mm |
+| 임상 | 경계 불명확, 재발 종양, 과거 방사선 조사 부위 |
+| 병리 | 침윤성·경화성·미세결절성·기저편평세포형, 신경주위 성장 |
+
+H구역은 코·눈꺼풀·눈 주위·입술·귀·관자·성기·손발 등, M구역은 나머지 얼굴·두피·목·정강이 앞, L구역은 그 외 몸통·팔다리이다. 위험 항목이 있으면 단순 저위험 병변으로 분류하지 않는다.
+
+일반적인 작은 기저세포암은 **재발 위험과 절제 가능성**이 처치 선택에 더 직접적이다. 깊은 조직·뼈 침범, 수술/방사선으로 국소 제어가 어려운 국소진행, 림프절·원격 전이는 따로 기록하며, 위 크기 기준을 곧바로 I–IV 병기 번호로 바꾸지 않는다.
 
 ## 5. 치료 (Treatment)
 - 생검으로 아형을 확인하고 위치·크기·경계·재발·면역저하·신경주위 침범을 평가한다.

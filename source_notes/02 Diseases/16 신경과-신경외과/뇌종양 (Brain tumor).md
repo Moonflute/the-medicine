@@ -1,5 +1,5 @@
 ---
-content_updated_at: '2026-10-07'
+content_updated_at: "2026-11-18"
 aliases:
 - 뇌종양
 유형:
@@ -33,7 +33,7 @@ group_members:
 - 혈관모세포종 (Hemangioblastoma)
 guideline_reviewed_at: '2026-10-07'
 guideline_review_status: primary_source_reviewed
-sources: ["EANO. Diagnosis and Treatment of Diffuse Gliomas of Adulthood — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7904519/", "EANO. Diagnosis and Management of Meningiomas — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/", "SNO/EANO. Anticonvulsant Prophylaxis in Newly Diagnosed Brain Tumors — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563323/", "EANO/ESMO. Neurological and Vascular Complications of Brain Tumours — 2021 | https://doi.org/10.1016/j.annonc.2020.11.003", "ASCO-SNO. Diffuse Astrocytic and Oligodendroglial Tumors: Rapid Recommendation Update — 2025 | https://ascopubs.org/doi/10.1200/JCO-25-00250", "ASCO-SNO-ASTRO. Treatment for Brain Metastases — 2021 온라인/2022 저널 발행 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/"]
+sources: ["EANO. Diagnosis and Treatment of Diffuse Gliomas of Adulthood — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7904519/", "EANO. Diagnosis and Management of Meningiomas — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/", "SNO/EANO. Anticonvulsant Prophylaxis in Newly Diagnosed Brain Tumors — 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563323/", "EANO/ESMO. Neurological and Vascular Complications of Brain Tumours — 2021 | https://doi.org/10.1016/j.annonc.2020.11.003", "ASCO-SNO. Diffuse Astrocytic and Oligodendroglial Tumors: Rapid Recommendation Update — 2025 | https://ascopubs.org/doi/10.1200/JCO-25-00250", "ASCO-SNO-ASTRO. Treatment for Brain Metastases — 2021 온라인/2022 저널 발행 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8917399/", "WHO CNS5 분류 요약 | https://academic.oup.com/neuro-oncology/article/23/8/1231/6311214", "NCI PDQ 성인 CNS 종양 | https://www.cancer.gov/types/brain/hp/adult-brain-treatment-pdq"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -50,6 +50,17 @@ sources: ["EANO. Diagnosis and Treatment of Diffuse Gliomas of Adulthood — 202
 - CT는 급성 출혈·석회화·응급 평가에 유용하다. 기능 MRI·확산텐서영상 등은 수술 계획에 선택적으로 사용한다.
 - 조직이 필요한 경우 최대한 안전한 절제 또는 생검으로 진단한다. 영상만으로 추적 가능한 전형적 무증상 수막종 등도 있어 모든 병변을 즉시 수술하는 것은 아니다.
 - 미만성 신경교종은 조직학과 IDH, 1p/19q 등 분자 소견을 통합한다. MGMT promoter methylation은 교모세포종의 temozolomide 치료 판단에 도움이 된다.
+
+**진단 후 분류: 병기와 WHO 등급의 구분**:
+
+| 종양군 | 진단에 기록할 분류 |
+| --- | --- |
+| 성인 미만성 신경교종 | IDH, 1p/19q와 조직학을 통합한 종양명·CNS WHO 등급 |
+| 교모세포종, IDH-wildtype | CNS WHO grade 4; IDH 변이형 성상세포종 grade 4와 구분 |
+| 수막종 | CNS WHO grade 1–3, 잔존 범위·증식 속도 |
+| 뇌전이 | 원발암의 병기, 뇌 병변 수·크기·총부피, 수막 전이 및 뇌외 질환 |
+
+대부분의 성인 원발성 뇌종양은 다른 장기암처럼 일률적인 TNM I–IV 병기로 나누지 않는다. **WHO grade 4는 원격 전이를 뜻하는 stage IV가 아니다.** 위치·신경기능·절제 가능성과 분자 소견을 함께 기록하고, 뇌척수액 파종 위험이 있는 특정 종양에는 해당 종양 전용 병기 평가를 적용한다.
 
 ## 4. 하위 질환의 감별
 

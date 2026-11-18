@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-18"
 aliases:
 - Krukenberg tumor
 - 크루켄버그 종양
@@ -18,6 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["NCI PDQ 위암 원격 전이 병기 | https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq", "NCI PDQ 대장암 M분류 | https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq"]
 ---
 분과 : [[부인과]]
 
@@ -40,6 +41,11 @@ reviewed_at: "2026-07-30"
 ## 4. 진단 (Diagnosis)
 - 원발암(위, 대장 등)에 대한 내시경 및 영상 검사 필수
 - 조직학적으로 점액을 함유한 반지세포(signet-ring cell) 확인이 특징적
+
+**원발 부위와 전이 병기**:
+- 난소 자체에서 생긴 원발암과 **다른 장기암의 난소 전이**를 구분하고 원발 부위·조직형·면역조직화학 결과를 기록한다.
+- 위암의 난소 전이는 M1·IV기이다. 대장암은 난소 외 전이 장기 수와 복막 전이 여부를 포함한 해당 TNM M분류를 적용한다.
+- 난소에만 보이거나 양측성이라는 이유로 원발성 난소암의 FIGO IA/IB를 붙이지 않는다. 원발암의 병기와 난소 병변의 증상·절제 가능성을 함께 치료계획에 반영한다.
 
 ## 5. 치료
 

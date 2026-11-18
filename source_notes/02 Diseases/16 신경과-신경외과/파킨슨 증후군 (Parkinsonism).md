@@ -14,7 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["NICE NG71 | https://www.nice.org.uk/guidance/ng71/chapter/Recommendations"]
+sources: ["NICE NG71 | https://www.nice.org.uk/guidance/ng71/chapter/Recommendations", "미국 VA Parkinson 센터 Hoehn–Yahr 정의 | https://www.parkinsons.va.gov/resources/HY.asp"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -36,6 +36,18 @@ sources: ["NICE NG71 | https://www.nice.org.uk/guidance/ng71/chapter/Recommendat
 ## 4. 진단 (Diagnosis)
 - 임상적 증상(4대 증상)을 바탕으로 진단하며, 파킨슨병의 경우 레보도파(levodopa) 투여에 대한 긍정적인 반응이 진단적 가치를 가짐.
 - 이차성 원인(뇌혈관 질환, 약물 복용력, 독성 노출 등)을 배제하는 과정이 필수적임.
+
+**파킨슨병의 Hoehn–Yahr 운동 단계**:
+
+| 단계 | 기준 |
+| --- | --- |
+| 1 | 한쪽 신체 침범 |
+| 2 | 양측 침범, 균형 장애 없음 |
+| 3 | 자세 불안정이 있지만 신체적으로 독립적 |
+| 4 | 심한 장애가 있으나 도움 없이 서거나 걸을 수 있음 |
+| 5 | 도움 없이는 휠체어/침상 생활 |
+
+수정 척도의 1.5는 편측＋몸통 침범, 2.5는 경한 양측 질환이며 pull test에서 회복 가능한 상태이다. 평가 당시 약효 **ON/OFF 상태**를 함께 기록한다. 이 척도는 파킨슨병의 운동·균형 장애를 표현하며 인지·비운동 증상이나 모든 이차성 파킨슨증의 예후를 대신하지 않는다. 약물·DBS 여부를 단계 숫자만으로 정하지 않는다.
 
 ## 5. 치료
 - 레보도파·도파민 효능제·MAO‑B 억제제 등 약물은 증상 완화 목표로 시작하고, 부작용(구역, 저혈압, 정신증 등) 발생 시 용량 조절 및 약물 교체를 검토한다.

@@ -20,7 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["NCCN 소장 선암 안내 2026 | https://vicc.org/sites/default/files/2026-10/small-bowel-patient.pdf"]
+sources: ["NCCN 소장 선암 안내 2026 | https://vicc.org/sites/default/files/2026-10/small-bowel-patient.pdf", "NCI PDQ 소장 선암 병기 | https://www.cancer.gov/types/small-intestine/hp/small-intestine-treatment-pdq"]
 ---
 분과 : [[소화기]]
 
@@ -48,6 +48,22 @@ sources: ["NCCN 소장 선암 안내 2026 | https://vicc.org/sites/default/files
 - 영상 검사 및 내시경을 통한 조직 검사로 확진.
 - 원인 불명의 소장 폐쇄나 출혈 시 수술적 탐색이 진단적 수단이 될 수 있음.
 
+**소장 선암 TNM 병기(AJCC 8판)**:
+
+| T·N | 기준 |
+| --- | --- |
+| T1 / T2 | 점막 고유판·점막하층 / 고유근층 침윤 |
+| T3 | 고유근층을 넘어 장막하층 또는 복막으로 덮이지 않은 주위조직 침윤 |
+| T4 | 장측복막 관통 또는 인접 장기·구조 침범 |
+| N1 / N2 | 국소 림프절 1–2개 / ≥3개 전이 |
+
+| 병기 | 조합 |
+| --- | --- |
+| I / IIA / IIB | T1–2 / T3 / T4, 모두 N0 M0 |
+| IIIA / IIIB | 모든 T, N1 / N2, M0 |
+| IV | 원격 전이 M1 |
+
+이 기준은 **선암**에 적용한다. 소장의 GIST·림프종·신경내분비종양에는 해당 조직형의 병기·위험도 체계를 사용한다.
 
 ## 5. 치료
 - 먼저 **선암·신경내분비종양·GIST·림프종**을 구분한다. 아래 기준은 소장 선암이며 조직형이 다른 종양은 해당 치료 경로를 따른다.

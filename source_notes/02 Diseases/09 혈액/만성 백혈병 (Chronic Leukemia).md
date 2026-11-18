@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -23,6 +23,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
+sources: ["ELN AML 진료지침 2022 | https://ashpublications.org/blood/article/140/12/1345/485851", "ELN CML 진료지침 2025 | https://www.nature.com/articles/s41375-025-02664-w", "NCI PDQ CLL 병기 | https://www.cancer.gov/types/leukemia/hp/cll-treatment-pdq"]
 ---
 분과 : [[혈액]]
 
@@ -46,6 +47,18 @@ reviewed_at: "2026-07-30"
 ## 4. 진단 (Diagnosis)
 - 말초혈액 및 골수 검사에서 특징적인 백혈구 증식 양상으로 진단.
   CLL은 말초혈액 내 단일클론 B림프구 수(≥5,000/μL)를 기준으로 진단.
+
+**아형별로 다른 단계·위험도 체계**:
+
+| 아형 | 진단 뒤 기록할 분류 |
+| --- | --- |
+| AML | ELN 유전 위험군(유리·중간·불량), 관해·MRD, 재발/불응 상태 |
+| APL | 치료 전 WBC ≤10,000/μL / >10,000/μL의 비고위험 / 고위험 |
+| ALL | B/T 계열·유전형·중추신경 침범, 프로토콜별 초기 위험도와 MRD |
+| CML | 만성기·급성기 및 적용 분류의 가속기, BCR::ABL1 분자반응 |
+| CLL | Rai 0–IV 또는 Binet A–C, TP53·IGHV 및 활동성 질환 여부 |
+
+백혈병 전체에 공통된 I–IV 병기표는 없다. 형태·면역표현형·세포유전/분자검사로 아형을 확정한 후 해당 체계를 사용하며, 백혈구 수 하나만으로 진행 단계나 치료 강도를 정하지 않는다.
 
 ## 5. 치료
 - CML: 티로신 키나아제 억제제(TKI) 지속 투여와 함께 혈액학적·분자학적 반응을 정기적으로 모니터링하고, 간·심장 부작용을 주의한다.

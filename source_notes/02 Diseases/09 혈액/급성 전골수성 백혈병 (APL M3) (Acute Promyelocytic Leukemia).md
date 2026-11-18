@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -21,7 +21,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ELN APL 권고 | https://doi.org/10.1182/blood-2019-01-894980", "ELN APL 권고 | https://pmc.ncbi.nlm.nih.gov/articles/6509567/"]
+sources: ["ELN APL 권고 | https://doi.org/10.1182/blood-2019-01-894980", "ELN APL 권고 | https://pmc.ncbi.nlm.nih.gov/articles/6509567/", "ELN APL 진료지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6509567/", "Onkopedia APL Sanz 위험분류 | https://www.onkopedia.com/en/onkopedia/guidelines/acute-promyelocytic-leukemia-apl"]
 ---
 분과 : [[혈액]]
 
@@ -48,6 +48,16 @@ sources: ["ELN APL 권고 | https://doi.org/10.1182/blood-2019-01-894980", "ELN 
 
 ## 4. 진단 (Diagnosis)
 - 형태학적 소견과 함께 t(15;17) 전위 또는 PML-RARα 융합 유전자를 확인하여 진단.
+
+**진단 당시 혈구수에 따른 Sanz 위험군**:
+
+| 위험군 | 치료 전 WBC | 치료 전 혈소판 |
+| --- | --- | --- |
+| 저위험 | ≤10,000/μL | >40,000/μL |
+| 중간위험 | ≤10,000/μL | ≤40,000/μL |
+| 고위험 | >10,000/μL | 무관 |
+
+현재 치료에서는 저·중간위험을 묶어 **비고위험군**으로 구분하는 경우가 많다. ATRA/ATO 시작 뒤 분화로 증가한 WBC를 이용하여 진단 당시 위험군을 다시 올리지 않는다. 이는 고형암의 I–IV 병기가 아닌 재발 위험 분류이며, 응고장애 정도·출혈·분화증후군 위험은 별도로 평가한다.
 
 ## 5. 치료
 - 응고장애 초기 출혈사망을 줄이기 위해 APL 의심 즉시 전문치료·지지요법을 시작한다.

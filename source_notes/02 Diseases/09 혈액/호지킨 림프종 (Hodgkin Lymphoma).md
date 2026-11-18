@@ -22,9 +22,9 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["American Society of Transplantation and Cellular Therapy Clinical Practice Recommendations for Transplantation in Classical Hodgkin Lymphoma. | https://pubmed.ncbi.nlm.nih.gov/41478324/", "FDA N-AVD 적응증 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-chemotherapy-previously-untreated-hodgkin-lymphoma", "NCI HL 치료 | https://www.cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq"]
+sources: ["American Society of Transplantation and Cellular Therapy Clinical Practice Recommendations for Transplantation in Classical Hodgkin Lymphoma. | https://pubmed.ncbi.nlm.nih.gov/41478324/", "FDA N-AVD 적응증 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-chemotherapy-previously-untreated-hodgkin-lymphoma", "NCI HL 치료 | https://www.cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq", "NCI PDQ Lugano 병기 | https://www.cancer.gov/types/lymphoma/hp/aggressive-b-cell-lymphoma-treatment-pdq"]
 
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[혈액]]
 
@@ -53,6 +53,17 @@ content_updated_at: "2026-11-17"
 - 조직 검사에서 리드-스턴버그 세포 확인으로 확진.
   Lugano 병기 분류 시스템을 사용하여 병기를 설정함.
 - 병기 외에도 bulky disease, B 증상, 염증 지표, 혈구 수 및 albumin을 환자의 전신 상태와 함께 평가해 위험도와 치료 강도를 논의한다.
+
+**성인 림프종의 Lugano 병기**:
+
+| 병기 | 침범 범위 |
+| --- | --- |
+| I / IE | 한 림프절 영역·림프조직 / 림프절 없이 단일 림프절외 부위 |
+| II / IIE | 횡격막 같은 쪽의 ≥2개 림프절 영역 / 이에 연속되는 국소 림프절외 침범 |
+| III | 횡격막 양쪽의 림프절, 또는 횡격막 위 림프절과 비장 침범 |
+| IV | 골수·간·뇌척수액 등 파종성/비연속성 림프절외 침범 |
+
+병기와 별도로 **가장 큰 종괴의 크기, LDH, ECOG, 림프절외 침범 부위**를 기록한다. 큰 종괴(bulky)의 크기 기준은 조직형·치료 프로토콜에 따라 달라지며 II기라도 치료 강도가 달라질 수 있다. B증상은 원인 불명 >38°C 발열, 흠뻑 젖는 야간 발한, 6개월 내 >10% 체중감소이다. A/B 접미사는 주로 호지킨 림프종에 사용하고, 비호지킨에서는 증상 자체를 따로 기록한다.
 
 ## 5. 치료 (Treatment)
 - 병기와 환자 상태에 따라 항암 화학요법(CTx)과 방사선 치료(RTx)를 조합함.

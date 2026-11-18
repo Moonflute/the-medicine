@@ -17,7 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ASCO-SNO 지침 | https://doi.org/10.1200/JCO.21.02036"]
+sources: ["ASCO-SNO 지침 | https://doi.org/10.1200/JCO.21.02036", "WHO CNS5 교모세포종 통합 진단 | https://academic.oup.com/neuro-oncology/article/23/8/1231/6311214"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -42,6 +42,12 @@ sources: ["ASCO-SNO 지침 | https://doi.org/10.1200/JCO.21.02036"]
 
 ## 4. 진단 (Diagnosis)
 - 영상학적 소견과 조직병리 검사를 종합하여 진단하며, 분자 유전학적 검사(IDH, MGMT, TERT 등)를 통해 예후를 평가함.
+
+**통합 진단과 CNS WHO 등급**:
+- 성인의 **IDH-wildtype 미만성 성상세포성 종양**에서 괴사 또는 미세혈관 증식이 있으면 교모세포종의 조직학적 기준에 해당한다.
+- 적절한 성인 종양 맥락에서 TERT promoter 변이, EGFR 증폭, 7번 염색체 전체 증가와 10번 전체 소실(+7/−10) 중 하나가 있으면 조직학적 괴사가 없어도 분자 기준의 교모세포종을 진단할 수 있다. 소아형·다른 분자 종양은 먼저 구분한다.
+- 통합 명칭은 **glioblastoma, IDH-wildtype, CNS WHO grade 4**이다. IDH 변이 종양은 astrocytoma, IDH-mutant로 분류하며 grade 4여도 같은 명칭을 쓰지 않는다.
+- MGMT promoter methylation은 temozolomide 반응 예측에 중요하지만 WHO 등급이나 원격 전이 병기 자체를 바꾸지 않는다. 수술 후 잔존·MRI 범위·신경기능을 별도로 기록한다.
 
 ## 5. 치료
 - 최대 안전 절제술 후 방사선 치료와 템졸로마이드를 병용하는 Stupp 프로토콜을 시행

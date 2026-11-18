@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases:
 - sertoli-leydig cell tumor
 유형:
@@ -17,7 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ESMO SLCT 치료 알고리즘 | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf"]
+sources: ["ESMO SLCT 치료 알고리즘 | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf", "NCI PDQ 난소·난관·복막암 병기 | https://www.cancer.gov/types/ovarian/hp/ovarian-epithelial-treatment-pdq"]
 ---
 분과 : [[부인과]]
 
@@ -37,6 +37,18 @@ sources: ["ESMO SLCT 치료 알고리즘 | https://data.esmo.org/guidelines/pdf/
 ## 4. 진단 (Diagnosis)
 - 조직병리학적 검사가 확진의 표준이다.
   세르톨리 세포와 라이디히 세포의 혼합 양상을 확인하며, 면역조직화학 염색을 통해 진단을 보조한다.
+
+**FIGO 병기와 조직형의 구분**:
+
+| 병기 | 기준 |
+| --- | --- |
+| IA / IB | 일측 / 양측 난소 국한, 피막 보존·표면 종양 없음·복수/세척액 음성 |
+| IC1 / IC2 / IC3 | 수술 중 유출 / 수술 전 파열 또는 표면 침범 / 복수·세척액 악성세포 |
+| II | 골반 내 다른 장기로 확산 |
+| III | 골반 밖 복막 또는 후복막 림프절 전이 |
+| IV | 악성 흉수, 장기 실질 또는 복강 밖 원격 전이 |
+
+병기는 **퍼진 범위**, 조직형·등급은 **종양의 생물학적 성격**이다. 같은 I기라도 조직형·등급·잔존 종양에 따라 감시와 항암치료 선택이 달라진다. 병기설정이 불충분하면 영상상 국한되어 보여도 확정 IA와 구분한다.
 
 ## 5. 치료
 

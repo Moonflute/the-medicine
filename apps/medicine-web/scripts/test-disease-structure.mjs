@@ -42,6 +42,66 @@ test('all 22 specialty outlines have valid disease links, no duplicate bullets p
  assert.equal(count,22);
 });
 const compile=(file,deps)=>{const compiledModule={exports:{}};vm.runInNewContext(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText,{exports:compiledModule.exports,module:compiledModule,require:n=>deps[n],process,Buffer});return compiledModule.exports;};
+test('section normalization preserves emphasis, separators, and negative values',()=>{
+ const body='## 치료\n**간이식 선택**:\n- **대상**: 기준 충족\n* **추적:** 설명\n**본문 전체 강조**\n-2.5\n---';
+ assert.deepEqual(plain(api.splitSections(body)[0].content),[
+  '**간이식 선택**:', '• **대상**: 기준 충족', '• **추적:** 설명', '**본문 전체 강조**', '-2.5', '---',
+ ]);
+});
+
+test('emphasis renders intact in raw and generated bullets with either colon placement',()=>{
+ const rich=compile('src/components/rich-text-lines.tsx',{
+  'react':React,'react/jsx-runtime':jsxRuntime,
+  'next/link':({children,...props})=>React.createElement('a',props,children),
+  '@/components/skin-document':{},
+ });
+ for(const prefix of ['', '- ', '* ', '1. ', '• ']){
+  for(const label of ['**치료:**', '**치료**:']){
+   const line=prefix+label+' **기준값**에 따라 선택한다.';
+   for(const lines of [[line],api.splitSections('## 치료\n'+line)[0].content]){
+    const html=renderToStaticMarkup(React.createElement(rich.RichTextLines,{lines,bulletStyle:'plain',presentation:'embedded'}));
+    assert.match(html,/<strong[^>]*>치료:?<\/strong>/,line);
+    assert.match(html,/<strong[^>]*>기준값<\/strong>/,line);
+    assert.ok(!html.includes('*'),line+' leaves an emphasis delimiter visible');
+   }
+  }
+  const caution=prefix+'**주의: 수치만으로 판단하지 않음**';
+  for(const lines of [[caution],api.splitSections('## 치료\n'+caution)[0].content]){
+   const html=renderToStaticMarkup(React.createElement(rich.RichTextLines,{lines,bulletStyle:'plain',presentation:'embedded'}));
+   assert.match(html,/<strong[^>]*>주의: 수치만으로 판단하지 않음<\/strong>/,caution);
+   assert.ok(!html.includes('*'),caution);
+  }
+ }
+ const hcc=diseases.find(d=>d.title==='간세포암 (Hepatocellular Carcinoma)');
+ const transplant=hcc.sections.find(s=>s.title.includes('치료')).content.find(line=>line.includes('간이식 선택'));
+ const html=renderToStaticMarkup(React.createElement(rich.RichTextLines,{lines:[transplant],presentation:'embedded'}));
+ assert.match(html,/<strong[^>]*>간이식 선택<\/strong>/);
+ assert.ok(!html.includes('*'));
+});
+
+test('diagnostic staging tables survive source normalization and rendering',()=>{
+ const rich=compile('src/components/rich-text-lines.tsx',{
+  'react':React,'react/jsx-runtime':jsxRuntime,
+  'next/link':({children,...props})=>React.createElement('a',props,children),
+  '@/components/skin-document':{},
+ });
+ for(const [title,criterion] of [
+  ['자궁경부암 (Cervical Cancer)','IIIC1 / IIIC2'],
+  ['폐암 (Lung Cancer)','N2a / N2b'],
+  ['만성 콩팥병 (CKD) (Chronic Kidney Disease (CKD))','G3b'],
+ ]){
+  const disease=diseases.find(d=>d.title===title);
+  assert.ok(disease,title);
+  const diagnosis=disease.sections.find(s=>s.title.includes('진단'));
+  assert.ok(diagnosis,title+' diagnosis');
+  const html=renderToStaticMarkup(React.createElement(rich.RichTextLines,{lines:diagnosis.content,presentation:'embedded'}));
+  assert.match(html,/<table[\s>]/,title);
+  assert.ok(html.includes(criterion),title+' missing criterion');
+  assert.ok(!html.includes('**'),title+' unrendered emphasis');
+  assert.ok(!html.includes('| ---'),title+' unrendered table divider');
+ }
+});
+
 test('rendered overview links retain their indentation',()=>{
  for(const theme of ['light','chat','messenger','sheet','terminal','mail','social','editor','pixel','notebook']) {
   const contact=compile('src/components/chat-contact.tsx',{'react':React,'react/jsx-runtime':jsxRuntime});

@@ -48,7 +48,7 @@ content_updated_at: "2026-11-17"
 
 - **진단 검사**
   - 소변검사(단백뇨, 혈뇨, 원주), 혈청 크레아티닌, eGFR, 항-dsDNA, 보체(C3, C4) 농도 측정.
-- **조직 검사 (Renal Biopsy)
+- **조직 검사 (Renal Biopsy)**
   - 확진 및 분류(Class I~VI)를 위해 필수적.
   - IF: Full house pattern (IgG, IgA, IgM, C3, C1q 양성).
   - LM/EM: 분류에 따라 메산지움 증식, 내피세포 증식, 기저막 비후, 초승달 형성 등 관찰.

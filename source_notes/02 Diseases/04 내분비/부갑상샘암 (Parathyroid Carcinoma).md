@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -11,6 +12,7 @@ CC:
 - 근력/감각이상
 preprocessing_required: x
 clinical_priority: "tier_2"
+sources: ["NHS NDRS 부갑상샘암 병기군의 제한 | https://digital.nhs.uk/ndrs/data/cancer-data-training-materials/staging-sheets-v9/parathyroid", "NCI PDQ 부갑상샘암 범위 평가 | https://www.cancer.gov/types/parathyroid/hp/parathyroid-treatment-pdq"]
 ---
 분과 : [[내분비]]
 
@@ -20,6 +22,12 @@ clinical_priority: "tier_2"
 ## 2. 진단
 - 혈관 또는 피막 침범, 림프절·원격 전이, 인접 구조물의 육안적 침범은 악성을 뒷받침한다.
 - 수술 전에는 고칼슘혈증의 중증도와 탈수·신기능·심전도 이상을 평가하고, 고칼슘혈증 위기는 입원하여 수액과 칼슘 저하 치료를 포함한 긴급 처치가 필요할 수 있다.
+
+**진단 후 범위 기록**:
+- 부갑상샘 국한 여부와 갑상샘·근육·되돌이후두신경·기도/식도 등 인접 구조 침범을 구분한다.
+- 경부 림프절과 폐·뼈·간 등 원격 전이, 수술 후 잔존·국소 재발을 기록한다.
+- 부갑상샘암은 일률적인 I–IV 병기군이 확립되어 있지 않으므로 **국소 범위·전이·절제 가능성**을 명시한다. 갑상샘암의 나이별 병기표를 적용하지 않는다.
+- Ca·PTH 상승은 호르몬 활성과 고칼슘혈증 위험을 보여 주지만, 그 수치만으로 원격 전이나 병기군을 결정하지 않는다.
 
 ## 3. 치료
 - 완전 절제가 유일한 근치 기회이므로, 수술 중 암이 의심되면 피막 파열을 피하면서 종양을 일괄 절제하는 원칙을 적용한다.

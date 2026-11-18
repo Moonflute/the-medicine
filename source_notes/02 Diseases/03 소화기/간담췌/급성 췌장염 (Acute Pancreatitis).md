@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -19,7 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-10-08"
-sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidelines-Highlights-Acute-Pancreatitis-2024-FINAL.pdf", "ACG 2024 급성 췌장염 진료지침 | https://pubmed.ncbi.nlm.nih.gov/38857482/"]
+sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidelines-Highlights-Acute-Pancreatitis-2024-FINAL.pdf", "ACG 2024 급성 췌장염 진료지침 | https://pubmed.ncbi.nlm.nih.gov/38857482/", "Revised Atlanta 국제 합의 | https://gut.bmj.com/content/62/1/102"]
 ---
 ## 1. 개요
 - 정의: 췌장의 소화 효소가 조기에 활성화되어 췌장 조직을 자가 소화시키며 발생하는 급성 염증 질환
@@ -43,6 +43,18 @@ sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidel
   2. 혈청 아밀라아제 또는 리파아제 수치가 정상 상한치의 3배 이상 상승
   3. 복부 CT 등 영상 검사에서 급성 췌장염에 합당한 소견
 - 감별진단: 위궤양 천공, 장간막 허혈, 담석 산통, 급성 담낭염, 심근경색 등
+
+**중증도 분류**:
+
+| 분류 | 기준 |
+| --- | --- |
+| 경증 | 장기부전도 국소·전신 합병증도 없음 |
+| 중등도 중증 | 48시간 이내 회복하는 일시적 장기부전, 또는 국소/전신 합병증; 지속 장기부전은 없음 |
+| 중증 | 한 장기 이상에서 장기부전이 >48시간 지속 |
+
+아밀라아제·리파아제의 상승 배수나 CT상 괴사만으로 중증을 정하지 않는다. 초기 장기부전이 있으면 지속 여부가 아직 불명확해도 중증 가능성에 맞춰 감시·치료하고 재분류한다.
+
+성인의 Revised Atlanta 분류에서 호흡기·신장·심혈관 중 **modified Marshall 점수 ≥2인 장기**가 있으면 장기부전이다. 48시간은 입원 뒤 합병증 감시를 늦추는 대기 기준이 아니다.
 
 ## 5. 치료
 

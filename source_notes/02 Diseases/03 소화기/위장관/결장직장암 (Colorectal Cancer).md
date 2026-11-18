@@ -25,7 +25,7 @@ review_status: "guideline_enriched"
 guideline_year: "2026"
 sources: ["Colorectal cancer screening: An update to the American Cancer Society guideline, 2026. | https://pubmed.ncbi.nlm.nih.gov/42200680/", "한국 직장암 다학제 진료지침 2.0 | https://doi.org/10.3393/ac.2025.01396.0199", "ASCO 국소 진행 직장암 지침 | https://doi.org/10.1200/JCO.24.01160", "ESGE 악성 대장폐쇄 스텐트 지침 | https://pubmed.ncbi.nlm.nih.gov/32259849/", "ASCO | https://doi.org/10.1200/JCO.21.02538", "NCI PDQ | https://www.cancer.gov/types/colorectal/hp/colon-treatment-pdq"]
 
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 ---
 ## 1. 개요
 - 역학: 남성에서 약간 더 흔하며, 95%는 선암(adenocarcinoma). 40~50세 이후 발병률 급증
@@ -61,6 +61,25 @@ content_updated_at: "2026-11-17"
 - 용종 치료 및 기준
 - 내시경적 절제(EMR/ESD): 조직학적 확인 전 우선 절제
 - 추가 수술 적응증: 점막하층 1/3 이상 침범, 저분화도(grade 3 이상), 림프혈관 침윤 존재 시
+
+**TNM 병기 기준(AJCC 8판)**:
+
+| 구분 | 기준 |
+| --- | --- |
+| Tis / T1 / T2 | 점막내암 / 점막하층 / 고유근층 침윤 |
+| T3 / T4a / T4b | 고유근층 밖 주위조직 / 장측복막 관통 / 인접 장기·구조 직접 침범 |
+| N1a / N1b / N1c | 림프절 1개 / 2–3개 / 림프절 전이 없이 주위조직 종양침착(tumor deposit) |
+| N2a / N2b | 국소 림프절 4–6개 / ≥7개 전이 |
+| M1a / M1b / M1c | 복막 전이 없이 원격 장기·부위 1곳 / ≥2곳 / 복막 전이(다른 전이 유무 무관) |
+
+| 병기 | 조합 |
+| --- | --- |
+| 0 / I | Tis N0 M0 / T1–2 N0 M0 |
+| IIA / IIB / IIC | T3 / T4a / T4b, 모두 N0 M0 |
+| III | N1–2 또는 N1c, M0 |
+| IVA / IVB / IVC | M1a / M1b / M1c |
+
+**III기 보조항암의 위험 구분**은 T1–3N1과 T4 또는 N2를 나누어 본다. 이는 IIIA/B/C 세부 병기와 동일한 분류가 아니다. 직장암은 골반 MRI로 중직장근막과의 거리·EMVI·외측 림프절을 추가 평가하고, 치료 전 cTNM과 선행치료 후 ypTNM을 구분한다.
 
 ## 5. 치료
 - 결장암: 수술적 절제(광범위 절제 및 림프절 곽청).

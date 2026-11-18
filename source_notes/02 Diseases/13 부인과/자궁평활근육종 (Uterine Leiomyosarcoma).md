@@ -9,7 +9,7 @@
 CC: []
 preprocessing_required: x
 reviewed_at: '2026-10-07'
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 review_status: targeted_source_reviewed_draft
 sources: ["NCI: Uterine Sarcoma Treatment PDQ | https://www.cancer.gov/types/uterine/hp/uterine-sarcoma-treatment-pdq", "NCI: Soft Tissue Sarcoma Treatment PDQ, leiomyosarcoma systemic therapy | https://www.cancer.gov/types/soft-tissue-sarcoma/hp/adult-soft-tissue-treatment-pdq", "GEIS 육종 지침 | https://doi.org/10.1177/17588359231157645", "DGGG/OEGGG/SGGG 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11975451/"]
 ---
@@ -18,6 +18,18 @@ sources: ["NCI: Uterine Sarcoma Treatment PDQ | https://www.cancer.gov/types/ute
 
 ## 진단과 병기
 자궁 근육에서 발생하는 악성 종양으로 자궁근종과는 별개다. 영상·증상만으로 모든 경우 수술 전에 구별하기 어려우며 병리 평가가 중요하다. 폐 등 원격 전이가 있으면 진행성 질환으로 평가한다.
+
+**FIGO 자궁 평활근육종 병기**:
+
+| 병기 | 기준 |
+| --- | --- |
+| IA / IB | 자궁 국한, 최대 지름 ≤5 cm / >5 cm |
+| IIA / IIB | 자궁 밖 골반 내 확산: 부속기 / 그 밖의 골반조직 |
+| IIIA / IIIB | 복부조직 침범 1곳 / 2곳 이상 |
+| IIIC | 골반 또는 대동맥주위 림프절 전이 |
+| IVA / IVB | 방광·직장 침범 / 원격 전이 |
+
+복강 안으로 종괴가 돌출되어 있는 것만으로 III기로 분류하지 않는다. 이 표는 평활근육종·자궁내막기질육종에 적용하며, **자궁 암육종은 자궁내막암 병기**를 사용한다.
 
 ## 치료 원칙
 

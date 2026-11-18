@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases:
 - granulosa-stromal cell tumor
 유형:
@@ -15,7 +15,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["ESMO | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf", "Belgian College of Oncology 난소암 지침 | https://collegeoncologie.be/wp-content/uploads/2022/06/National-guideline-ovarian-cancer-merged.pdf"]
+sources: ["ESMO | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_GynaecologicalCancers.pdf", "Belgian College of Oncology 난소암 지침 | https://collegeoncologie.be/wp-content/uploads/2022/06/National-guideline-ovarian-cancer-merged.pdf", "NCI PDQ 난소·난관·복막암 병기 | https://www.cancer.gov/types/ovarian/hp/ovarian-epithelial-treatment-pdq"]
 ---
 분과 : [[부인과]]
 
@@ -34,6 +34,18 @@ sources: ["ESMO | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_Gy
 ## 4. 진단 (Diagnosis)
 - 수술 병리로 과립세포종의 조직형을 확인하고 FIGO 난소암 병기를 적용한다.
 - 피막 보존·수술 중 유출(IC1)·수술 전 파열/표면 침범(IC2)·복수 또는 세척액 악성세포(IC3)를 구분한다. 피부 granular cell tumor의 Fanburg–Smith 기준을 적용하지 않는다.
+
+**FIGO 병기와 조직형의 구분**:
+
+| 병기 | 기준 |
+| --- | --- |
+| IA / IB | 일측 / 양측 난소 국한, 피막 보존·표면 종양 없음·복수/세척액 음성 |
+| IC1 / IC2 / IC3 | 수술 중 유출 / 수술 전 파열 또는 표면 침범 / 복수·세척액 악성세포 |
+| II | 골반 내 다른 장기로 확산 |
+| III | 골반 밖 복막 또는 후복막 림프절 전이 |
+| IV | 악성 흉수, 장기 실질 또는 복강 밖 원격 전이 |
+
+병기는 **퍼진 범위**, 조직형·등급은 **종양의 생물학적 성격**이다. 같은 I기라도 조직형·등급·잔존 종양에 따라 감시와 항암치료 선택이 달라진다. 병기설정이 불충분하면 영상상 국한되어 보여도 확정 IA와 구분한다.
 
 ## 5. 치료
 

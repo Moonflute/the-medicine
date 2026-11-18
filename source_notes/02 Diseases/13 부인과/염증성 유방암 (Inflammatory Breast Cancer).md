@@ -20,7 +20,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["NCI 염증성 유방암 | https://www.cancer.gov/types/breast/treatment/inflammatory-breast-cancer"]
+sources: ["NCI 염증성 유방암 | https://www.cancer.gov/types/breast/treatment/inflammatory-breast-cancer", "NCI PDQ 유방암 TNM·해부학적 병기 | https://www.cancer.gov/types/breast/hp/breast-treatment-pdq", "AJCC 유방암 8판 병기 교육자료 | https://www.facs.org/media/p2cmtbu2/8th-edition-breast-staging_handout.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -56,6 +56,11 @@ sources: ["NCI 염증성 유방암 | https://www.cancer.gov/types/breast/treatme
 ## 4. 진단 (Diagnosis)
 - 임상적 진단: 6개월 이내의 급격한 발병, 유방의 1/3 이상을 차지하는 발적 및 부종, 조직학적 침습성 암종 확인이 필수적임.
 
+**병기와 진단 구분**:
+- 임상적으로 빠르게 발생한 홍반·부종/오렌지껍질 피부가 유방의 ≥1/3을 침범하고, 증상 기간 ≤6개월이며 침윤성 암이 조직으로 확인되면 염증성 유방암을 평가한다. 진피 림프관 종양색전은 진단을 지지하지만 없어도 배제되지 않는다.
+- **T4d**: 종양 크기와 무관하게 적용한다.
+- **해부학적 IIIB**: T4d N0–2 M0. **IIIC**: T4d N3 M0. **IV**: M1.
+- 쇄골상 림프절 전이는 동측이면 N3에 해당하며, 그 자체로 원격 전이로 분류하지 않는다. 임상 병기와 ER·PR·HER2를 반영한 예후 병기를 구분한다.
 
 ## 5. 치료
 

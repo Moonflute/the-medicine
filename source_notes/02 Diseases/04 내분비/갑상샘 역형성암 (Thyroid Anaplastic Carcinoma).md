@@ -22,9 +22,9 @@ clinical_priority: "tier_2"
 review_status: "guideline_enriched"
 reviewed_at: "2026-07-16"
 guideline_year: "2024"
-sources: ["Korean Thyroid Association Guidelines on the Management of Differentiated Thyroid Cancers 2024 | https://www.ijthyroid.org/journal/view.php?number=202400002", "ATA 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8349723/", "ASCO 2026 | https://ascopubs.org/doi/10.1200/JCO-26-00235"]
+sources: ["Korean Thyroid Association Guidelines on the Management of Differentiated Thyroid Cancers 2024 | https://www.ijthyroid.org/journal/view.php?number=202400002", "ATA 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8349723/", "ASCO 2026 | https://ascopubs.org/doi/10.1200/JCO-26-00235", "NCI PDQ 갑상샘암 조직형별 병기 | https://www.cancer.gov/types/thyroid/hp/thyroid-treatment-pdq"]
 
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[내분비]]
 
@@ -50,6 +50,16 @@ content_updated_at: "2026-11-17"
 ## 4. 진단 (Diagnosis)
 - 임상적으로 빠르게 진행하는 목의 종괴가 특징이며, 조직 검사를 통해 확진함.
   모든 환자는 진단 시점에 4기(Stage IV)로 분류됨.
+
+**역형성암 AJCC 8판 세부 병기**:
+
+| 병기 | 기준 |
+| --- | --- |
+| IVA | 갑상샘 국한 T1–T3a, N0/NX, M0 |
+| IVB | T1–T3a N1 M0 또는 육안적 갑상샘외 침범 T3b–T4, 모든 N, M0 |
+| IVC | 모든 T·N에서 원격 전이 M1 |
+
+모든 역형성암이 IV기로 분류되지만, **IVA·IVB가 원격 전이를 뜻하지는 않는다**. 기도·식도·혈관 침범과 절제 가능성, BRAF V600E 등 치료 표적을 병기와 함께 신속히 확인한다. 분화암의 나이별 병기표를 적용하지 않는다.
 
 ## 5. 치료 (Treatment)
 

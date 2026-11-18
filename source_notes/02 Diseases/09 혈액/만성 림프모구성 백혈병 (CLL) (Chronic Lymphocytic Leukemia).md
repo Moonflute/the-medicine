@@ -24,9 +24,9 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["NCCN Guidelines® Insights: Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma, Version 2.2026. | https://pubmed.ncbi.nlm.nih.gov/41825137/", "iwCLL 치료 시작 기준 | https://ashpublications.org/blood/article/131/25/2745/37141/iwCLL-guidelines-for-diagnosis-indications-for"]
+sources: ["NCCN Guidelines® Insights: Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma, Version 2.2026. | https://pubmed.ncbi.nlm.nih.gov/41825137/", "iwCLL 치료 시작 기준 | https://ashpublications.org/blood/article/131/25/2745/37141/iwCLL-guidelines-for-diagnosis-indications-for", "NCI PDQ CLL Rai·Binet 병기 | https://www.cancer.gov/types/leukemia/hp/cll-treatment-pdq"]
 
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 ---
 분과 : [[혈액]]
 
@@ -53,6 +53,26 @@ content_updated_at: "2026-11-17"
 ## 4. 진단 (Diagnosis)
 - 말초혈액 내 클론성 B 림프구의 지속적인 증가(5,000/μL 이상)와 특징적인 면역표현형으로 진단.
   골수 검사는 필수적이지 않음.
+
+**Rai 병기**:
+
+| 병기 | 기준(CLL 확진 환자) |
+| --- | --- |
+| 0 | 림프구증가만 있고 림프절·간비장 비대, 빈혈·혈소판감소 없음 |
+| I | 림프절 비대, 간비장 비대 및 III–IV 혈구감소 없음 |
+| II | 간 또는 비장 비대, III–IV 혈구감소 없음 |
+| III | Hb <11 g/dL |
+| IV | 혈소판 <100,000/μL, 빈혈 유무 무관 |
+
+**Binet 병기**:
+
+| 병기 | 기준 |
+| --- | --- |
+| A | 침범 영역 <3곳, Hb ≥10 g/dL, 혈소판 ≥100,000/μL |
+| B | 침범 영역 ≥3곳, Hb ≥10 g/dL, 혈소판 ≥100,000/μL |
+| C | Hb <10 g/dL 또는 혈소판 <100,000/μL |
+
+영역은 경부·액와·서혜 림프절, 간, 비장의 5곳이며 양측 림프절은 같은 영역으로 센다. 빈혈·혈소판감소가 골수 침범인지 자가면역·출혈 등 다른 원인인지 확인한다. **Rai III의 Hb 11 기준과 치료 시작의 진행성 골수부전 Hb 10 기준은 다르다.** 병기만 아니라 진행 속도·증상·장기 위협, TP53/del(17p)·IGHV를 함께 판단한다.
 
 ## 5. 치료 (Treatment)
 - 관찰 요법 : 증상이 없거나 질병 진행의 증거가 없는 경우 경과관찰.

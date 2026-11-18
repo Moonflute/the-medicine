@@ -1,4 +1,5 @@
 ---
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -13,7 +14,7 @@ clinical_priority: "tier_2"
 review_status: "guideline_enriched"
 reviewed_at: "2026-07-30"
 guideline_year: "2024"
-sources: ["NICE NG148 Acute kidney injury: prevention, detection and management (updated 2024) | https://www.nice.org.uk/guidance/ng148", "KDIGO 2026 AKI/AKD guideline public review draft (not final) | https://kdigo.org/wp-content/uploads/2026/03/KDIGO-2026-AKI-AKD-Guideline-Public-Review-Draft-March-2026.pdf"]
+sources: ["NICE NG148 Acute kidney injury: prevention, detection and management (updated 2024) | https://www.nice.org.uk/guidance/ng148", "KDIGO 2026 AKI/AKD guideline public review draft (not final) | https://kdigo.org/wp-content/uploads/2026/03/KDIGO-2026-AKI-AKD-Guideline-Public-Review-Draft-March-2026.pdf", "KDIGO AKI 확정 지침의 단계 정의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC4057151/", "KDIGO AKI/AKD 지침 개정 상태 | https://kdigo.org/guidelines/acute-kidney-injury/"]
 
 ---
 분과 : [[신장]]
@@ -54,6 +55,15 @@ sources: ["NICE NG148 Acute kidney injury: prevention, detection and management 
 - BUN/Cr > 20 & FE_Na < 1% (신전성 AKI 시사)
 - KDIGO 기준에 따른 AKI 진단 (Cr 상승 또는 핍뇨)
 
+**KDIGO AKI 단계**:
+
+| 단계 | 혈청 크레아티닌 | 소변량 |
+| --- | --- | --- |
+| 1 | 기저치 1.5–1.9배 또는 48시간 내 ≥0.3 mg/dL 상승 | <0.5 mL/kg/h가 6–<12시간 |
+| 2 | 기저치 2.0–2.9배 | <0.5 mL/kg/h가 ≥12시간 |
+| 3 | 기저치 ≥3배, ≥4.0 mg/dL로 급성 상승, 또는 신대체요법 시작 | <0.3 mL/kg/h가 ≥24시간 또는 무뇨 ≥12시간 |
+
+크레아티닌·소변량 중 **더 높은 단계**를 적용한다. 기저치의 1.5배 상승은 최근 7일 안에 발생한 것으로 확인·추정되어야 하며, 안정적인 CKD의 크레아티닌 ≥4.0만으로 AKI 3단계를 진단하지 않는다. 18세 미만은 급성 eGFR <35 mL/min/1.73 m²도 3단계 기준이다. 단계가 높다는 이유만으로 투석을 자동 시작하지 않고 불응성 전해질·산염기·체액 이상과 요독증을 함께 판단한다.
 
 ## 5. 치료 (Treatment)
 

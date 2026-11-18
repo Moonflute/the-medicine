@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -12,7 +12,7 @@ CC:
 - 검진 이상
 preprocessing_required: x
 clinical_priority: "tier_2"
-sources: ["ESE/ENSAT | https://academic.oup.com/ejendo/article/179/4/G1/6655445"]
+sources: ["ESE/ENSAT | https://academic.oup.com/ejendo/article/179/4/G1/6655445", "ESE/ENSAT 부신피질암 지침 | https://ensat.org/wp-content/uploads/2025/12/ACC-guidelines.pdf", "ENSAT 병기 정의를 적용한 원저 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7564668/"]
 ---
 분과 : [[내분비]]
 
@@ -22,6 +22,17 @@ sources: ["ESE/ENSAT | https://academic.oup.com/ejendo/article/179/4/G1/6655445"
 ## 2. 평가
 - 부신 영상으로 국소 침범과 전이 가능성을 평가하고, 코르티솔·안드로겐·알도스테론 등 호르몬 과다와 갈색세포종 가능성을 수술 전 함께 평가한다.
 - 악성 의심 부신 종괴는 내분비·내분비외과·종양 다학제에서 절제 가능성과 수술 범위를 논의한다.
+
+**ENSAT 병기**:
+
+| 병기 | 기준 |
+| --- | --- |
+| I | 부신 국한, 최대 지름 ≤5 cm, N0 M0 |
+| II | 부신 국한, >5 cm, N0 M0 |
+| III | 주위조직·인접 장기 침범, 콩팥정맥/하대정맥 종양혈전 또는 국소 림프절 전이, M0 |
+| IV | 원격 전이 M1 |
+
+병리의 **Ki-67·Weiss 점수**, 절제 상태 **R0(절제연 음성)·R1(현미경적 양성)·R2(육안적 잔존)**를 병기와 따로 기록한다. 병기 III, R1, Ki-67 >10% 등은 보조 mitotane 논의에 중요한 재발 위험 소견이다. 종양 크기만으로 악성 확진이나 보조치료 여부를 정하지 않는다.
 
 ## 3. 치료
 - 국소화되어 완전 절제가 가능하면 종양의 파열을 피한 완전 수술 절제가 근치의 핵심이다.

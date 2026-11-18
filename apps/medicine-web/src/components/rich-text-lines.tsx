@@ -252,6 +252,11 @@ function splitLeadLabel(text: string) {
     return null;
   }
 
+  // A colon inside bold text belongs to that span, not to a separate lead label.
+  if ((match[1].match(/\*\*/g)?.length ?? 0) % 2 !== 0) {
+    return null;
+  }
+
   return {
     label: match[1],
     body: match[2],

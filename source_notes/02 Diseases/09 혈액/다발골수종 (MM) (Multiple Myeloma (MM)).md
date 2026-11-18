@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -19,7 +19,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["FDA 고위험 SMM 적응증 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-daratumumab-and-hyaluronidase-fihj-high-risk-smoldering-multiple-myeloma", "IMWG 활동성 골수종 기준 | https://www.myeloma.org/international-myeloma-working-group-imwg-criteria-diagnosis-multiple-myeloma", "International Myeloma Working Group 2023 renal impairment recommendations | https://pubmed.ncbi.nlm.nih.gov/37414019/"]
+sources: ["FDA 고위험 SMM 적응증 | https://www.fda.gov/drugs/cancer-approvals/fda-approves-daratumumab-and-hyaluronidase-fihj-high-risk-smoldering-multiple-myeloma", "IMWG 활동성 골수종 기준 | https://www.myeloma.org/international-myeloma-working-group-imwg-criteria-diagnosis-multiple-myeloma", "International Myeloma Working Group 2023 renal impairment recommendations | https://pubmed.ncbi.nlm.nih.gov/37414019/", "IMWG R-ISS 원저 | https://pmc.ncbi.nlm.nih.gov/articles/4846284/", "EMN R2-ISS 원저 | https://ascopubs.org/doi/10.1200/JCO.21.02614", "EMN R2-ISS 정정문 | https://ascopubs.org/doi/abs/10.1200/JCO.22.02228"]
 ---
 분과 : [[혈액]]
 
@@ -50,6 +50,23 @@ sources: ["FDA 고위험 SMM 적응증 | https://www.fda.gov/drugs/cancer-approv
 - 신기능 저하는 단순 CRAB 항목이 아니라 응급 평가가 필요한 장기 손상입니다. cast nephropathy, 탈수·고칼슘혈증·감염·약물/조영제 노출, 요산 관련 손상과 다른 단클론단백 관련 신질환을 함께 평가해 원인별 치료를 지체하지 않습니다.
 
 - 골수 조직 검사에서 클론성 형질세포 10% 이상 또는 조직학적으로 증명된 형질세포종과 함께 CRAB 증상 중 하나 이상 (Ca > 11mg/dL, Cr > 2.0mg/dL, Anemia, Bone lesion)이 있을 때 진단.
+
+**ISS와 R-ISS 병기**:
+
+| 체계·병기 | 기준 |
+| --- | --- |
+| ISS I | β2-microglobulin <3.5 mg/L 및 albumin ≥3.5 g/dL |
+| ISS II | ISS I·III에 해당하지 않음 |
+| ISS III | β2-microglobulin ≥5.5 mg/L |
+| R-ISS I | ISS I + 정상 LDH + 고위험 세포유전 이상 없음 |
+| R-ISS II | R-ISS I·III에 해당하지 않음 |
+| R-ISS III | ISS III + LDH 상승 또는 고위험 세포유전 이상 |
+
+R-ISS의 고위험 이상은 del(17p), t(4;14), t(14;16)이다. **ISS III라는 이유만으로 R-ISS III는 아니다.**
+
+**R2-ISS(2022)**는 ISS II 1점 또는 ISS III 1.5점에 del(17p)·t(4;14)·LDH 상승을 각각 1점, 1q gain/amplification을 0.5점 가산한다. I=0, II=0.5–1, III=1.5–2.5, IV=3–5점이다. ISS II와 III 점수를 동시에 더하지 않는다.
+
+병기는 **확진된 활동성 골수종의 예후 분류**다. 진단과 치료 시작은 클론성 형질세포/형질세포종에 골수종 유래 CRAB 또는 SLiM 기준을 결합해 판단하므로, ‘증상 없음’이나 낮은 ISS만으로 치료가 불필요하다고 판단하지 않는다.
 
 ## 5. 치료
 - 스몰더링 골수종은 위험도에 따라 관찰하거나 고위험군의 조기치료를 논의한다.

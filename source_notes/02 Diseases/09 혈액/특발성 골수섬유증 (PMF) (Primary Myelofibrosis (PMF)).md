@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases: []
 유형:
 - disease
@@ -17,7 +17,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["FDA pacritinib 적응증 | https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-adults-rare-form-bone-marrow-disorder", "국제 전문가 혈구감소 MF 권고 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11286526/"]
+sources: ["FDA pacritinib 적응증 | https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-adults-rare-form-bone-marrow-disorder", "국제 전문가 혈구감소 MF 권고 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11286526/", "DIPSS 연구군 예후점수 원저 | https://www.sciencedirect.com/science/article/pii/S0006497118544153"]
 ---
 분과 : [[혈액]]
 
@@ -44,6 +44,18 @@ sources: ["FDA pacritinib 적응증 | https://www.fda.gov/drugs/news-events-huma
 - 골수 생검상 섬유화 확인, 특징적인 말초혈액 소견, JAK2/CALR/MPL 돌연변이 확인.
   이차성 골수섬유증(악성 종양, 감염, 자가면역질환 등)을 배제하여 진단함.
 - 골수섬유화만으로 PMF를 진단하지 않으며, 다른 골수증식종양과 악성 침윤을 포함한 이차성 원인을 임상·조직·분자 소견으로 함께 감별한다.
+
+**DIPSS 위험도(질병 경과 중 재평가 가능)**:
+
+| 항목 | 점수 |
+| --- | --- |
+| Hb <10 g/dL | 2 |
+| 나이 >65세 | 1 |
+| WBC >25,000/μL | 1 |
+| 말초혈액 blast ≥1% | 1 |
+| 질병 관련 전신증상(발열·야간 발한·체중감소) | 1 |
+
+합계 **0점 저위험, 1–2점 중간-1, 3–4점 중간-2, 5–6점 고위험**이다. DIPSS-plus는 혈소판·수혈 의존·핵형을 추가하는 별도 계산법이며 동일한 총점표로 해석하지 않는다. 분자검사가 가능하면 MIPSS70+ 등도 함께 평가한다. 이식 여부는 점수뿐 아니라 연령·동반질환·공여자·환자 선호로 결정하며, 골수 섬유화 등급 자체를 임상 병기처럼 사용하지 않는다.
 
 ## 5. 치료
 - 증상이 있거나 비장 비대·빈혈이 진행된 경우 JAK 억제제 사용을 고려하고, 저위험군에서는 peginterferon alfa‑2a를 선택적으로 적용한다.

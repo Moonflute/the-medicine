@@ -12,11 +12,11 @@ CC:
 - 피로
 - 부종
 clinical_priority: tier_1
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 guideline_year: '2026'
 guideline_reviewed_at: '2026-10-20'
 guideline_review_status: primary_source_reviewed
-sources: ["2026 ESC Guidelines for the management of heart failure | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/", "2026 ESC Heart Failure 공식 교육 슬라이드 | https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9", "2024 ACC Expert Consensus Decision Pathway for Treatment of HFrEF: Key Points | https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2024/03/06/19/22/2024-acc-expert-consensus-hfref", "2023 Focused Update of the 2021 ESC Heart Failure Guidelines | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/focused-update-on-heart-failure/", "AHA/ACC/HFSA | https://www.jacc.org/doi/full/10.1016/j.jacc.2021.12.012"]
+sources: ["2026 ESC Guidelines for the management of heart failure | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure/", "2026 ESC Heart Failure 공식 교육 슬라이드 | https://dam-assets.escardio.org/download/b2e587389baa11f185de06bdfb3e4be9", "2024 ACC Expert Consensus Decision Pathway for Treatment of HFrEF: Key Points | https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2024/03/06/19/22/2024-acc-expert-consensus-hfref", "2023 Focused Update of the 2021 ESC Heart Failure Guidelines | https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/focused-update-on-heart-failure/", "AHA/ACC/HFSA | https://www.jacc.org/doi/full/10.1016/j.jacc.2021.12.012", "AHA 심부전 단계와 NYHA 기능등급 | https://www.heart.org/en/health-topics/heart-failure/what-is-heart-failure/classes-of-heart-failure", "ESC 심부전 기능등급 정의 | https://academic.oup.com/eurheartj/article/42/36/3599/6358045"]
 disease_family: heart_failure
 population: adult
 ---
@@ -38,6 +38,17 @@ population: adult
 ## 4. 진단
 - 전형적 증상·징후에 더해 심초음파상 LVEF <50%를 확인하여 HFrEF로 분류한다(2026 ESC). BNP/NT-proBNP 상승은 보조적이며, 낮은 수치가 항상 배제 검사는 아니다.
 - 새로 진단된 경우 허혈, 중증 판막질환, 지속성 빈맥, 독성·약물, 감염·심근염, 내분비·침윤성 심질환 등 가역적 원인을 적극적으로 찾는다.
+
+**NYHA 기능등급**:
+
+| 등급 | 증상에 따른 활동 제한 |
+| --- | --- |
+| I | 일상 활동으로 증상이 발생하지 않음 |
+| II | 안정 시 편안하나 일상 활동으로 호흡곤란·피로·두근거림 발생 |
+| III | 안정 시 편안하나 일상 활동보다 적은 활동에도 증상 발생 |
+| IV | 안정 시에도 증상이 있거나 모든 신체 활동이 불편함 |
+
+현재 증상·활동능력을 기준으로 평가하며 EF 값만으로 등급을 매기지 않는다. 치료 후 바뀔 수 있어 평가 시점을 기록한다.
 
 ## 5. 치료
 - 울혈이 있으면 loop diuretic으로 체액을 조절한다.

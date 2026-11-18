@@ -16,7 +16,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["AAOS | https://www.orthoinfo.org/en/diseases--conditions/perthes-disease"]
+sources: ["AAOS | https://www.orthoinfo.org/en/diseases--conditions/perthes-disease", "Herring 등의 수정 lateral pillar 원저 | https://pubmed.ncbi.nlm.nih.gov/15466719/"]
 ---
 분과 : [[소아청소년과]]
 
@@ -36,6 +36,19 @@ sources: ["AAOS | https://www.orthoinfo.org/en/diseases--conditions/perthes-dise
 ## 4. 진단 (Diagnosis)
 * 임상 증상 및 신체 진찰 소견
 * 영상 검사 (X-ray 및 MRI)를 통한 병기 분류 및 중증도 평가
+
+**영상 단계와 lateral pillar 분류**:
+- 진행 과정은 초기 괴사·경화, 분절화, 재골화, 치유/잔여 변형 단계로 기록한다.
+- **Herring 분류는 분절화기의 전후면 X선에서 외측 골주 높이**로 평가한다. 매우 초기 영상에서는 최종 등급을 확정하기 어렵다.
+
+| Herring군 | 외측 골주 소견 |
+| --- | --- |
+| A | 높이 소실 없음 |
+| B | 원래 높이의 >50% 유지 |
+| B/C 경계 | 높이가 약 50%이거나, >50%라도 좁고 골화가 불량해 B와 C 사이의 형태 |
+| C | 높이의 <50% 유지 |
+
+발병 연령, 고관절 외전·내회전, 외측 돌출과 hinge abduction, 정복/containment 가능성을 함께 평가한다. Herring군을 성인 무혈성괴사의 ARCO 병기로 바꿔 쓰거나 단독 수술 기준으로 삼지 않는다.
 
 ## 5. 치료
 

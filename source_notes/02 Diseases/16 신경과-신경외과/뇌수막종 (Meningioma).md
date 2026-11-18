@@ -18,7 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["EANO 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/"]
+sources: ["EANO 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/", "EANO 수막종 진료지침 | https://doi.org/10.1093/neuonc/noab150", "WHO CNS5 분류 요약 | https://academic.oup.com/neuro-oncology/article/23/8/1231/6311214", "수막종 WHO 2021 기준 병리 정리 | https://www.ajnr.org/content/ajnr/early/2024/06/06/ajnr.A8368.full.pdf"]
 ---
 분과 : [[신경과-신경외과]]
 
@@ -46,6 +46,17 @@ sources: ["EANO 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8563316/"]
 ## 4. 진단 (Diagnosis)
 - 영상학적 소견(MRI)을 바탕으로 진단하며, 필요 시 조직검사를 통해 WHO 등급(Grade 1~3)을 분류함.
 
+**CNS WHO 등급과 수술 범위**:
+
+| 등급 | 핵심 기준 |
+| --- | --- |
+| 1 | 2·3등급 기준에 해당하지 않는 조직학·분자 소견 |
+| 2 | 유사분열 4–19/10 HPF, 뇌실질 침범 또는 규정된 비정형 조직 소견 조합 등 |
+| 3 | 유사분열 ≥20/10 HPF, 명백한 역형성, TERT promoter 변이 또는 CDKN2A/B 동형접합 결실 |
+
+유사분열은 병리 표준 면적에 맞춰 평가한다. **TERT promoter 변이·CDKN2A/B 동형접합 결실은 조직 모양이 덜 공격적이어도 grade 3을 결정**할 수 있다. 영상의 dural tail만으로 조직등급을 정하지 않는다.
+
+WHO grade 1–3은 생물학적 등급이고, **Simpson I–V는 수술의 절제 범위**이다. 둘을 병기처럼 혼용하지 않는다. 잔존 종양, 재발·성장, 뇌부종 및 신경기능을 등급과 함께 기록해 추적·방사선치료를 결정한다.
 
 ## 5. 치료
 

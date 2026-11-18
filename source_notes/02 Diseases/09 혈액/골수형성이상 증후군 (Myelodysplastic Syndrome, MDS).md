@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-18"
 aliases:
 - MDS
 유형:
@@ -18,7 +18,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["Onkopedia MDS 치료 | https://www.onkopedia-guidelines.info/en/onkopedia/guidelines/myelodysplastic-neoplasms-mds/%40%40guideline/html/index.html"]
+sources: ["Onkopedia MDS 치료 | https://www.onkopedia-guidelines.info/en/onkopedia/guidelines/myelodysplastic-neoplasms-mds/%40%40guideline/html/index.html", "BSH MDS 진단·예후평가 지침 | https://onlinelibrary.wiley.com/doi/full/10.1111/bjh.17621", "MDS Europe 예후평가 | https://mds-europe.org/management/prognosis/workup", "일본혈액학회 MDS 위험분류 2024 | https://www.jshem.or.jp/gui-hemali/1_6.html"]
 ---
 분과 : [[혈액]]
 
@@ -45,8 +45,22 @@ sources: ["Onkopedia MDS 치료 | https://www.onkopedia-guidelines.info/en/onkop
 - 골수는 보통 정상~과세포성이지만 일부는 저세포성이다. dyserythropoiesis, ring sideroblast, 거대 혈소판·이형성 세포가 보일 수 있으며, 골수 blast 비율과 세포유전학은 위험도 평가의 핵심이다.
 
 ## 4. 진단 (Diagnosis)
-- 설명되지 않는 지속적인 혈구 감소증(6개월 이상)과 골수 내 이형성 소견, 골수 모세포 20% 미만을 종합하여 진단.
-  다른 원인(영양 결핍, 재생불량성 빈혈 등) 배제 필요.
+- 설명되지 않는 지속성 혈구감소에서 영양결핍·약제·감염 등 다른 원인을 배제하고, 골수 형태·세포유전·분자검사를 종합해 WHO/ICC 기준으로 진단한다. 모든 환자에서 6개월을 기다려야 하는 것은 아니다.
+- Blast 비율만으로 MDS/AML을 기계적으로 나누지 않으며, AML 정의 유전이상과 적용한 WHO/ICC 판본을 확인한다.
+
+**IPSS-R 위험군**:
+
+| 총점 | 위험군 |
+| --- | --- |
+| ≤1.5 | 매우 낮음 |
+| >1.5–3 | 낮음 |
+| >3–4.5 | 중간 |
+| >4.5–6 | 높음 |
+| >6 | 매우 높음 |
+
+점수는 **골수 blast %, 세포유전 위험군, Hb, 혈소판, ANC**로 계산한다. ‘중간’군 전체를 저위험으로 묶지 않으며, 치료 분류에서 IPSS-R ≤3.5와 >3.5를 나누는 체계도 있음을 명시한다.
+
+**IPSS-M**은 혈구·blast·세포유전 정보에 유전자 변이를 결합하는 별도 모델이다. 매우 낮음·낮음·중간-낮음·중간-높음·높음·매우 높음의 6군으로 보고하며, IPSS-R에 임의로 유전자 점수를 더하지 않는다. 위험점수와 수혈 의존·감염·출혈·진행 경과를 함께 치료 결정에 반영한다.
 
 ## 5. 치료
 - 저위험 MDS에서는 빈혈·혈소판·호중구 감소 정도에 따라 필요 시 적혈구·혈소판 수혈 및 성장인자(에리트로포이에틴, G‑CSF) 사용.

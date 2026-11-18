@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-11-16"
+content_updated_at: "2026-11-18"
 aliases:
 - phyllodes tumor
 유형:
@@ -14,7 +14,7 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
-sources: ["UK Association of Breast Surgery 엽상 종양 지침 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12374188/"]
+sources: ["UK Association of Breast Surgery 엽상 종양 지침 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12374188/", "WHO 유방종양 6판 2026 변경 요약 | https://onlinelibrary.wiley.com/doi/10.1111/his.70149", "UK ABS 엽상종양 진료 권고 2025 | https://associationofbreastsurgery.org.uk/media/a42jpi3b/phyllodes-guidance-2025.pdf"]
 ---
 분과 : [[부인과]]
 
@@ -45,6 +45,17 @@ sources: ["UK Association of Breast Surgery 엽상 종양 지침 2025 | https://
 - 영상학적 검사와 조직병리 검사를 종합하여 진단.
   조직학적 등급(양성, 경계성, 악성) 분류가 중요.
 
+**조직등급: 양성·경계성·악성**:
+
+| 등급 | 대표적 병리 소견 |
+| --- | --- |
+| 양성 | 낮은 기질 세포밀도·이형성, 대체로 밀어내는 경계, 기질 과성장 없음; 보통 유사분열 <5/10 HPF |
+| 경계성 | 양성과 악성 사이의 소견 조합; 보통 유사분열 5–9/10 HPF |
+| 악성 | 현저한 기질 이형성·세포밀도, 침윤성 경계, 기질 과성장, 높은 유사분열 활성의 조합 |
+
+WHO 유방종양 6판(2026)은 악성 등급의 다섯 항목인 **침윤성 경계, 현저하고 광범위한 기질 세포밀도, 현저한 기질 이형성, 기질 유사분열 ≥10/10 HPF, 기질 과성장** 중 ≥4개를 기준으로 제시한다. 유사분열 ≥10/10 HPF는 표준 시야면적에서 ≥5/mm²에 해당한다. 악성 이종성 성분 등 특수 소견은 병리 전문의가 별도로 판단한다.
+
+바늘생검 일부가 낮은 등급이어도 절제 검체의 충분한 표본으로 최종 등급을 정한다. **유사분열수 하나나 종양 지름만으로 등급을 확정하지 않으며**, 등급·절제연·재발/원격 전이를 각각 기록한다. 일반 침윤성 유방암의 림프절 중심 병기와 같은 방식으로 취급하지 않는다.
 
 ## 5. 치료
 
