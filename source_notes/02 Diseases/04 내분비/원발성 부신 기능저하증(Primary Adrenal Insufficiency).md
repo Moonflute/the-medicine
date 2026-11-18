@@ -24,15 +24,12 @@ sources: ["Endocrine Society | https://www.endocrine.org/clinical-practice-guide
 ## 1. 개요
 - **정의**: 부신피질의 기능이 점진적으로 저하되어 당질코르티코이드(glucocorticoid)와 무기질코르티코이드(mineralocorticoid)가 결핍되는 질환(애디슨병).
 
-**원인**:
-
-선진국에서는 자가면역 질환이 가장 흔하며, 그 외 결핵, 종양, 아밀로이드증, 출혈, 감염, 특정 약물(ketoconazole 등)에 의한 부신 파괴가 원인임. 소아에서는 선천성 부신 과형성증이 흔함.
-
-**기전**:
-
-  부신피질 파괴로 인한 호르몬 결핍 발생.
-  당질코르티코이드 결핍은 저혈압, 저혈당, 대사 장애를 유발하며, 무기질코르티코이드 결핍은 저나트륨혈증, 고칼륨혈증, 탈수 및 순환 허탈을 초래함.
-  ACTH 상승에 의한 피부 색소 침착이 특징적임.
+- **원인**: 선진국은 자가면역이 가장 흔함. 결핵·종양·아밀로이드·출혈·감염, ketoconazole 등 약물
+  - 소아: 선천 부신과형성 흔함
+- **기전**: 부신피질 손상/기능 저하 → 호르몬 결핍
+  - Glucocorticoid: 저혈압·저혈당·대사 장애
+  - Mineralocorticoid: 저Na·고K·탈수·순환 허탈
+  - ACTH 상승: 피부 색소침착
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 쇠약감, 피로, 기립성 저혈압, 식욕 부진, 오심, 구토, 설사.
@@ -49,18 +46,14 @@ sources: ["Endocrine Society | https://www.endocrine.org/clinical-practice-guide
 - **감별**: 이차성 부신 기능저하증(ACTH 저하 동반).
 
 ## 5. 치료
-**유지**:
-
-성인 hydrocortisone 보통 15–25 mg/일을 2–3회 분할하고, 알도스테론 결핍이면 fludrocortisone을 함께 사용한다. 체중·혈압·기립성 증상·부종·전해질과 필요 시 renin으로 조절하며, ACTH를 정상화하려 과량의 glucocorticoid를 투여하지 않는다.
-
-**위기·경구 복용 불가**:
-
-- 쇼크·심한 구토가 있으면 hydrocortisone 100 mg IV/IM 즉시 투여 후 200 mg/24시간과 등장성 수액을 투여한다.
-- 채혈은 치료를 지연하지 않는 범위에서 시행한다.
-
-**증량 기준**:
-
-발열·급성 질환에는 sick-day 증량, 큰 수술·중증 감염에는 비경구 stress dose를 적용한다. 응급 주사키트·스테로이드 카드와 보호자 교육을 제공한다. 확진된 영구적 부신부전에 매년 ACTH 자극검사를 일률적으로 반복하지 않는다.
+- **성인 유지**: hydrocortisone **15–25 mg/일, 2–3회**, aldosterone 결핍 시 fludrocortisone 병행
+  - 체중·혈압·기립 증상·부종·전해질, 필요 시 renin으로 조절
+  - ACTH 정상화만 위해 glucocorticoid 과량 투여하지 않음
+- **위기·경구 불가(쇼크·심한 구토)**: **hydrocortisone 100 mg IV/IM 즉시 → 200 mg/24시간** + 등장성 수액
+  - 채혈은 치료를 지연하지 않는 범위
+- **스트레스 증량**: 발열/급성 질환은 sick-day, 큰 수술·중증 감염은 비경구 stress dose
+  - 주사키트·steroid 카드·보호자 교육
+- **장기 추적**: 확진 영구 부신부전에 매년 ACTH 자극검사 일률 반복하지 않음
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 호르몬 대체 요법으로 정상적인 생활이 가능하나, 급성 부신 위기(Adrenal crisis)는 치명적일 수 있음.

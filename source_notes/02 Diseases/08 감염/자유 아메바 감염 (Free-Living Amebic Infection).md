@@ -49,28 +49,31 @@ sources: ["CDC Naegleria 치료 | https://www.cdc.gov/naegleria/hcp/clinical-car
   - 심한 안구 통증, 시력 저하, 광과민성 (주로 콘택트렌즈 사용자)
 
 ## 3. 검사 (Lab & Imaging)
-- 뇌척수액(CSF) 검사: 개방 압력 상승, 다핵구 증가, 단백질 상승, 포도당 저하
-- 현미경 검사: 신선한 CSF의 습식 도말(wet mount)에서 운동성 아메바 확인(냉장 금지)
-- 분자 진단: PCR(가장 정확한 진단법)
-- 영상: 뇌 MRI(부종, 뇌수막 조영 증강, 병변 확인)
+- **PAM의 CSF**: 개방압 상승·다핵구 증가·단백질 상승·포도당 저하
+  - 신선한 CSF 습식 도말에서 운동성 아메바 확인, 운동성 관찰용 검체 냉장 금지
+- **GAE**: CSF에서 아메바가 드물게 보이므로 음성만으로 배제 불가, 조직검사·PCR 등 필요
+- **분자진단**: CSF/조직의 PCR로 종 확인
+- **뇌 MRI**: 부종·수막 조영증강·병변 평가
 
 ## 4. 진단 (Diagnosis)
 - 임상적 의심이 가장 중요하며, 세균성 뇌수막염 치료에 반응하지 않는 경우 고려
 - 뇌척수액 PCR, 조직 생검(면역염색 포함)을 통해 확진
 
 ## 5. 치료
-- 조기 의심 시 즉시 CSF 및 PCR 검사를 시행하고, 신경중환자실에서 뇌압 관리와 함께 다제 병용 요법을 시작한다.
-
-**Naegleria PAM**과 **Acanthamoeba/Balamuthia 육아종성 뇌염**은 권장 병용 약제가 다르다. 모든 자유 아메바에 동일한 amphotericin 기반 요법을 적용하지 않고, 병원체 추정·PCR과 전문기관 자문으로 즉시 다제요법을 선택한다. 희귀 감염으로 표준요법 근거가 제한적이므로 최신 가용 약제·독성 및 투여 경로를 확인한다.
-
-- 아메바성 각막염은 국소 클로르헥시딘·PHMB 점안으로 초기 치료하고, 안과 전문의와 즉시 연계한다.
-- 치료 중 신경학적 상태·뇌압과 신장·간 기능 및 전해질을 추적하고, 악화 시 중환자·감염·신경 전문팀이 즉시 재평가한다.
+- **뇌염 의심**: 검체·PCR 신속 확보, 신경중환자 치료에서 뇌압 관리 + 다제요법
+- **약제 선택**: Naegleria PAM과 Acanthamoeba/Balamuthia GAE는 권장 조합이 다름
+  - 모든 자유아메바에 같은 amphotericin 기반 요법을 적용하지 않음
+  - 병원체 추정·PCR·전문기관 자문으로 즉시 결정
+  - 근거가 제한적인 희귀 감염이므로 최신 가용 약제·독성·경로 확인
+- **각막염**: chlorhexidine·PHMB 국소 점안, 즉시 안과 연계
+- **감시**: 신경 상태·뇌압, 신/간기능·전해질
+  - 악화 시 중환자·감염·신경팀 즉시 재평가
 
 ## 6. 예후 및 합병증 (Prognosis)
 - PAM은 매우 치명적(치사율 95~99% 이상)
 - GAE 역시 예후가 매우 불량, 조기 발견이 필수적
 
-출처 : StatPearls (Infections Caused by Free-Living Amebas, Naegleria Infection and PAM)
+출처 : StatPearls (Infections Caused by Free-Living Amebas, Naegleria Infection and PAM), [CDC DPDx 자유생활 아메바](https://www.cdc.gov/dpdx/freeLivingAmebic/index.html)
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

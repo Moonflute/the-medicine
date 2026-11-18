@@ -41,20 +41,31 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/chancroid.htm"]
 **다음 조건을 모두 만족할 때 추정 진단 가능:**
 
   1. 하나 이상의 통증성 생식기 궤양
-  2. 매독 검사(암시야 검사 또는 혈청 검사) 음성
+  2. 매독 검사 음성(암시야 검사 또는 적절한 검사, 혈청검사는 궤양 발생 후 최소 7–14일 시점의 결과 고려)
   3. 헤르페스(HSV) PCR 또는 배양 검사 음성
   4. 임상 양상이 연성하감에 부합
 
 ## 5. 치료
-성인 CDC 요법은 **azithromycin 1 g 경구 1회 또는 ceftriaxone 250 mg IM 1회**가 선택지다. 대체 ciprofloxacin은 500 mg 하루 2회 **3일**, erythromycin은 500 mg 하루 3회 **7일**로, 모두 단회 요법인 것은 아니다.
+**성인 CDC 항생제 선택**
 
-- **3~7일에 재평가**하여 진단·복약·HIV·동반 감염·내성을 확인한다. 큰 부보는 항생제만으로 늦게 호전할 수 있어 흡인/절개배액을 검토한다.
-- 증상 발생 전 10일 동안의 성접촉자는 증상이 없어도 검사·치료한다. 임신·수유·HIV에서는 약제와 추적을 개별화한다.
+| 약제 | 용량·기간 |
+| --- | --- |
+| Azithromycin | 1 g 경구 1회 |
+| Ceftriaxone | 250 mg IM 1회 |
+| Ciprofloxacin(대체) | 500 mg 하루 2회, 3일 |
+| Erythromycin(대체) | 500 mg 하루 3회, 7일 |
+
+- **재평가**: 3–7일에 진단·복약·HIV·동반 감염·내성 확인
+- **큰 부보**: 항생제만으로 늦게 호전할 수 있어 흡인·절개배액 검토
+- **파트너**: 증상 발생 전 10일 성접촉자는 무증상이어도 검사·치료
+- **임신·수유·HIV**: 약제·추적 개별화
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 항생제 치료 시 예후 양호
 - 합병증: 화농성 림프절염(부보), 누공 형성, 생식기 조직 파괴
 
 출처 : StatPearls (Chancroid)
+참고: [CDC: Chancroid](https://www.cdc.gov/std/treatment-guidelines/chancroid.htm)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

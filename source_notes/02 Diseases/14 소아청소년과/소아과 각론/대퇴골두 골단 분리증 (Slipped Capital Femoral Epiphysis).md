@@ -29,15 +29,12 @@ reviewed_at: "2026-07-30"
 * **신체 검진**: 고관절 내회전 제한, 고관절 굴곡 시 외회전이 강제로 일어나는 Drehmann 징후, 고관절 운동 범위 감소
 
 ## 3. 검사 (Lab & Imaging)
-**고관절 X-ray**:
-
-  양측 고관절 전후면(AP) 및 개구리 자세(frog-leg lateral) 촬영.
-  Klein 선(Klein's line)의 소실, 골단판 확장, 대퇴골 경부의 골단 전위 확인
-
-**추가 검사**:
-
-  진단이 불분명할 경우 MRI 고려.
-  10세 미만이나 저체중 환자에서는 내분비/신장 질환에 대한 혈액 검사 고려
+- **고관절 X-ray**: 양측 전후면(AP)과 측면 촬영
+  - 안정형: frog-leg lateral 가능
+  - 급성·불안정형: **cross-table lateral 사용**, frog-leg 자세로 강제 조작하지 않음
+  - 소견: Klein 선이 골단과 교차하지 않음, 골단판 확장·전위
+- **MRI**: 진단이 불분명하면 고려
+- **혈액 검사**: **10세 미만** 또는 저체중이면 내분비·신장 질환 평가 고려
 
 ## 4. 진단 (Diagnosis)
 * 임상 증상 및 신체 검진 소견
@@ -53,6 +50,6 @@ reviewed_at: "2026-07-30"
 * 조기 진단 및 수술 시 예후 양호
 - **합병증**: 대퇴골두 무혈성 괴사(특히 불안정형에서 위험 높음), 연골 용해, 대퇴비구 충돌 증후군, 조기 관절염
 
-출처 : StatPearls (Slipped Capital Femoral Epiphysis)
+출처 : StatPearls (Slipped Capital Femoral Epiphysis); [POSNA SCFE](https://posna.org/physician-education/study-guide/scfe-%28slipped-capital-femoral-epiphysis%29); [RCH SUFE 응급 지침](https://www.rch.org.au/clinicalguide/guideline_index/fractures/Slipped_upper_femoral_epiphysis_SUFE_-_Emergency_Department/)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

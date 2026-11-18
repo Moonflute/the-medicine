@@ -59,7 +59,8 @@ sources: ["NCCN Guideline Updates on Radiopharmaceutical Therapy for Prostate Ca
 | N1 / M1 | 국소 골반 림프절 / 비국소 림프절(M1a), 뼈(M1b), 기타 장기(M1c) 전이 |
 | ISUP Grade Group 1–5 | 순서대로 Gleason ≤6, 3+4, 4+3, 8, 9–10 |
 
-EAU 임상 위험군의 **cT는 직장수지검사 기준**이며 MRI의 피막외 침범 소견은 별도로 기록한다. 양쪽 생검에서 암이 나왔다는 이유만으로 cT2c로 올리지 않는다.
+- **EAU cT**: 직장수지검사 기준, MRI 피막외 침범은 별도 기록
+  - 양쪽 생검 양성만으로 cT2c로 올리지 않음
 
 | EAU 위험군 | cN0 M0에서의 기준 |
 | --- | --- |
@@ -69,36 +70,32 @@ EAU 임상 위험군의 **cT는 직장수지검사 기준**이며 MRI의 피막�
 | 고위험 국소암 | cT1–2이면서 GG4–5 또는 PSA >20 |
 | 국소진행 | cT3–4 또는 cN+; PSA·GG와 무관 |
 
-서로 다른 위험 요소가 있으면 높은 위험군을 적용한다. **PI-RADS는 영상의 암 의심 정도**이며 TNM이나 Grade Group을 대신하지 않는다. 원격 전이는 위 국소암 위험군과 따로 분류한다.
+- **위험 요소가 다름**: 높은 위험군 적용, 원격 전이는 국소암 위험군과 별도 분류
+- **PI-RADS**: 영상의 암 의심 정도. TNM·Grade Group을 대신하지 않음
 
 ## 5. 치료 (Treatment)
-**위험도·기대여명**:
-
-PSA, ISUP grade group(GG), cT 병기와 종양 범위를 함께 사용한다. 저위험의 전형은 PSA <10 ng/mL·GG1·cT1–T2a이다. 기대여명 **>10년인 저위험**은 active surveillance가 우선 선택이고, <10년·무증상은 증상 중심 watchful waiting을 고려한다. 두 관찰 전략은 추적 목적이 다르다.
-
-- 선택된 소량 **GG2**도 pattern 4 <10%, PSA <10, ≤cT2a 등 유리한 조건이면 감시를 논의할 수 있다.
-- 감시 중 PSA는 최소 6개월마다, MRI·재생검은 프로토콜에 따라 시행한다.
-
-**PSA 상승만으로 즉시 수술하지 않고** MRI/생검으로 재분류하여 치료 전환을 결정한다.
-
-**국소 근치 치료와 ADT**
-
-**국소 근치 치료**는 수술 또는 방사선을 선택한다. 불량 중간위험의 방사선에는 보통 **ADT 4~6개월**, 고위험/국소진행성에는 대개 **2~3년** 병용을 고려한다. 나이만으로 배제하지 않고 동반질환·기능·환자 선호를 반영한다.
-
-**전이성 호르몬 민감성 치료**
-
-**전이성 호르몬 민감성**은 치료 가능하면 ADT 단독보다 ADT+ARPI를 기본적으로 논의한다. 특히 새로 진단된 고용량 전이·항암치료 적합 환자에서는 ADT+docetaxel+abiraterone 또는 darolutamide 삼중치료를 검토한다.
-
-**거세저항성 진행 시 다음 약제 선택**:
-- 혈중 testosterone이 거세 수준인지 확인하고 ADT를 유지한다.
-- 이전 ARPI·taxane 노출을 확인한다.
-- BRCA/HRR·MSI/dMMR·PSMA 등 검사 결과와 증상을 반영한다.
-- PSA 하나만을 근거로 임상·영상 평가 없이 약제를 연속 교체하지 않는다.
+- **치료 선택**: PSA·ISUP GG·cT·종양 범위·기대여명 함께 평가
+  - 저위험은 위 EAU 표 적용. 기존 분류의 PSA <10·GG1·cT1–T2a와 범위를 혼용하지 않음
+- **Active surveillance**: 기대여명 **>10년인 저위험**에서 우선 선택
+  - 선택된 소량 GG2도 pattern 4 <10%·PSA <10·≤cT2a 등 유리한 조건이면 논의 가능
+  - PSA 최소 6개월마다, MRI·재생검은 프로토콜에 따라 시행
+  - PSA 상승만으로 즉시 수술하지 않고 MRI·생검 재분류 후 전환 결정
+- **Watchful waiting**: 기대여명 **<10년 + 무증상**이면 고려, 증상 중심 관리로 감시 목적이 다름
+- **국소 근치 치료**: 수술 또는 방사선, 동반질환·기능·선호 반영(나이만으로 배제하지 않음)
+  - 불량 중간위험의 방사선: 보통 **ADT 4–6개월** 병용
+  - 고위험·국소진행성: 대개 **ADT 2–3년** 병용
+- **전이성 호르몬 민감성**: 치료 가능하면 ADT + ARPI 기본 논의
+  - 새 진단 고용량 전이·항암 적합: ADT + docetaxel + abiraterone 또는 darolutamide 삼중치료 검토
+- **거세저항성 진행**
+  - Testosterone의 거세 수준 확인·ADT 유지
+  - 이전 ARPI·taxane 노출, BRCA/HRR·MSI/dMMR·PSMA 결과·증상 반영
+  - PSA만으로 임상·영상 평가 없이 약제 연속 교체 금지
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 발견 시 완치 가능성이 높음.
 * 치료 후 요실금, 발기부전 등의 합병증이 발생할 수 있음.
 
 출처 : StatPearls (Prostate Cancer, Localized Prostate Cancer)
+- [EAU: Prostate Cancer — classification and staging](https://uroweb.org/guidelines/prostate-cancer/chapter/classification-and-staging-systems)
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

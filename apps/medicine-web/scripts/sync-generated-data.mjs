@@ -472,8 +472,8 @@ function buildDiseases() {
     const raw = readText(filePath);
     const { frontmatter, body } = splitFrontmatter(raw);
     const specialty = path.relative(root, filePath).split(path.sep)[0];
-    const isSpecialtyOverview = path.basename(filePath, ".md") === specialty.replace(/^\d+\s*/, "");
-    const sections = splitSections(body, isSpecialtyOverview || readScalar(frontmatter["document_role"]) === "group_overview");
+    // Clinical criteria use indentation to distinguish alternatives and exceptions.
+    const sections = splitSections(body, true);
     const fileName = path.basename(filePath, ".md");
     const stat = fs.statSync(filePath);
     const contentUpdatedAt = readScalar(frontmatter["content_updated_at"]);

@@ -37,8 +37,9 @@ reviewed_at: "2026-07-30"
   드물게 육안으로 실 같은 충체를 확인 가능.
 
 ## 3. 검사 (Lab & Imaging)
-- 스코치 테이프 검사 (항문 주위에서 충란 채취, 이른 아침 시행 시 진단율 높음)
-- 5회 연속 음성 시 진단 배제 가능
+- **항문 테이프 검사**: 아침 기상 직후, 씻거나 배변하기 전에 충란 채취
+  - CDC는 **3일 연속 아침 검사** 권고
+- **음성 해석**: 채취 시점·방법과 임상 의심도를 확인, 반복 음성만으로 기계적으로 배제하지 않음
 
 ## 4. 진단 (Diagnosis)
 - 스코치 테이프 검사를 통해 현미경으로 충란을 확인하여 진단한다.
@@ -54,7 +55,7 @@ reviewed_at: "2026-07-30"
 - 예후는 매우 양호함.
 - 합병증: 2차 세균 감염, 여성의 경우 외음질염, 요로 감염, 드물게 충수염 발생 가능.
 
-출처 : StatPearls (Enterobius Vermicularis, 2026)
+출처 : StatPearls (Enterobius Vermicularis, 2026), [CDC 요충 진단](https://www.cdc.gov/pinworm/diagnosing/)
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

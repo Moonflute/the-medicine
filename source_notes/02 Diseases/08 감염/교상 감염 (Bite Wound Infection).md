@@ -31,4 +31,6 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 - 관절/골막 침범 가능성.
 - 면역저하·무비증·진행 간질환 또는 국소 부종.
 
-통상 3–5일 예방을 검토하며, 경구 amoxicillin/clavulanate가 흔한 1차 선택이다. 이미 감염이 있으면 예방 기간을 그대로 적용하지 않고 치료한다. 농양·건초/관절 침범은 배액·수술 평가를 병행한다.
+- **예방요법**: 보통 3–5일, 경구 amoxicillin/clavulanate가 흔한 1차 선택
+- **이미 감염됨**: 예방 기간을 그대로 적용하지 않고 감염 치료로 결정
+- **농양·건초/관절 침범**: 배액·수술 평가 병행

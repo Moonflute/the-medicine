@@ -26,10 +26,8 @@ content_updated_at: "2026-07-16"
 
 - **원인**: 태아 어깨의 전후방 위치가 골반 입구에서 고정되거나, 태아의 흉곽이 골반에 비해 상대적으로 큰 경우 발생
 
-**기전**:
-
-  태아의 전방 어깨가 치골 결합에, 혹은 드물게 후방 어깨가 천골 갑각(sacral promontory)에 걸려 만출이 지연됨.
-  태아 머리 만출 후 흉곽 압박으로 인한 제대 혈류 감소 및 폐 확장 제한으로 태아 가사 위험 증가
+- **기전**: 전방 어깨가 치골 결합에, 드물게 후방 어깨가 천골 갑각(sacral promontory)에 걸림
+  - 머리 만출 후 흉곽 압박 → 제대 혈류 감소·폐 확장 제한 → 태아 가사 위험
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 태아 머리 만출 후 어깨가 나오지 않음
@@ -48,16 +46,17 @@ content_updated_at: "2026-07-16"
 - 머리-몸통 만출 간격이 1분 이상 소요되는 경우 의심
 
 ## 5. 치료 (Treatment)
-- 즉각적인 팀 대응 및 시간 기록 필수.
-- 표준화된 알고리즘에 따른 단계적 수기 시행.
-- 맥로버트 수기(McRoberts maneuver) 및 치골 상부 압박(Suprapubic pressure)을 포함한 일차적 대응.
-- 추가적인 산과적 수기(후방 어깨 만출, Woods corkscrew maneuver 등) 시행.
-- 사건 발생 후 문서화, 디브리핑(debriefing), 산모와의 사후 상담(follow-up discussion) 권고.
+- **즉시 대응**: 팀 호출·역할 분담·시간 기록, 표준 알고리즘에 따라 단계적 수기
+- **일차 수기**: McRoberts maneuver·치골 상부 압박(suprapubic pressure)
+- **추가 수기**: 후방 어깨/팔 만출, Woods corkscrew maneuver 등
+- **피할 조작**: 과도한 견인·자궁저부 압박(fundal pressure)
+- **사후 관리**: 사건 문서화·의료진 디브리핑(debriefing)·산모 상담
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 태아 가사, 뇌 손상, 상완신경총 손상(brachial plexus injury), 쇄골 골절 등
 - 예후: 신속한 수기 시행 및 다학제적 대응을 통해 영구적 손상 예방 가능
 
 출처 : StatPearls (Shoulder Dystocia)
+- [RCOG Shoulder Dystocia](https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.70258)
 Last updated :
 2026-07-15 — 중복 본문 정리

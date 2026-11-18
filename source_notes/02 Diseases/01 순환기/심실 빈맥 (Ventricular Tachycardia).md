@@ -87,27 +87,26 @@ content_updated_at: "2026-11-18"
 - 저혈압, 급성 의식변화, 쇼크 징후, 허혈성 흉부 불편감 또는 급성 심부전이 동반되면 혈역학적으로 불안정한 빈맥으로 보고 즉시 전기적 치료를 준비한다.
 - Nonsustained VT: 구조적 심질환·심기능·원인과 증상에 따라 위험도를 평가한 뒤 관찰, 약물 또는 절제술/ICD 필요성을 정한다.
 
-**Sustained Monomorphic VT**
+- **지속성 단형성 VT**
+  - **혈역학적 불안정**: DC synchronized cardioversion
+  - **안정**: DC cardioversion(1차), amiodarone·procainamide·sotalol 등 항부정맥제
+- **지속성 다형성 VT**: 혈역학적 상태와 관계없이 제세동 1차
+  - **QT 정상**: amiodarone/lidocaine
+  - **QT 연장(TdP)**: 혈청 Mg가 정상이어도 magnesium
+  - **서맥**: isoproterenol/pacing
 
-  - 혈액역학적 불안정: DC synchronized cardioversion
-  - 혈액역학적 안정: DC cardioversion(1st line), 항부정맥제(Amiodarone, Procainamide, Sotalol)
+**만성기 치료·재발 및 심정지 예방**
 
-**Sustained Polymorphic VT**
-
-  - 혈액역학적 상태 무관: Defibrillation(1st line)
-  - 이후 치료: QT 정상 시 Amiodarone/Lidocaine, QT 연장(TdP) 시 Magnesium(혈청 Mg가 정상이어도 투여), 서맥 시 Isoproterenol/Pacing
-
-**만성기 치료(재발 방지 및 심정지 예방)**
-
-  - ICD 삽입: 심정지 생존자, 구조적 심질환 동반, 원인 불명 실신 등
-  - 약물치료: β-blocker(1st line), Amiodarone, Sotalol, CPVT 시 Flecainide 고려
-  - 전극도자절제술(Catheter ablation): 약물 치료 후에도 ICD shock이 반복되는 경우
-  - 구제 요법(Bailout): 약물 및 반복적 전극도자절제술로 조절되지 않는 난치성 심실 부정맥 환자에서 정위적 부정맥 방사선 절제술(STAR) 고려 가능
-  - 기타: Stellate ganglion block, Cardiac denervation(치료 불응성 반복 VT 시)
-
-NSVT는 증상 유무만으로 약제를 나열하지 않고 구조적 심질환·허혈·유전성 부정맥 및 EF를 평가한다. **원인 불명 넓은 QRS 빈맥에 verapamil/diltiazem을 투여하지 않는다.** 이들 약제는 확인된 특정 특발성 VT 등에서만 전문 판단하에 사용한다.
-
-ICD의 이차 예방은 **교정 가능한 일시적 원인으로 설명되지 않는 심정지/지속성 위험 VT**와 예상 생존·기능을 함께 판단한다. 구조적 심질환 또는 실신이 있다는 이유만으로 모두 ICD 적응증이 되는 것은 아니다.
+- **ICD 평가**: 심정지 생존자, 구조적 심질환·원인불명 실신 등에서 위험 평가
+  - **이차예방**: 교정 가능한 일시적 원인으로 설명되지 않는 심정지/지속성 위험 VT와 예상 생존·기능을 함께 판단
+  - 구조적 심질환·실신만으로 모두 적응증이 되는 것은 아님
+- **약물**: β-blocker 1차, amiodarone·sotalol; CPVT에서는 flecainide 고려
+- **전극도자절제술**: 약물 치료 후에도 ICD shock 반복 시
+- **구제 요법**: 약물·반복 절제술에도 불응하는 심실 부정맥에서 STAR(정위적 부정맥 방사선 절제술) 고려 가능
+- **기타**: 치료 불응 반복 VT에서 stellate ganglion block·cardiac denervation
+- **NSVT 평가**: 증상 유무만으로 약제를 나열하지 않고 구조적 심질환·허혈·유전성 부정맥·EF 확인
+- **Verapamil/diltiazem**: 원인 불명 넓은 QRS 빈맥에는 투여하지 않음
+  - 확인된 특정 특발성 VT 등에서만 전문 판단하 사용
 
 ## 6. 예후 및 합병증
 - 심실세동(VF) 등 심정지 리듬으로 이행 가능

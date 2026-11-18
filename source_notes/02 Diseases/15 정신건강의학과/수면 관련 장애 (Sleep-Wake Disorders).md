@@ -52,7 +52,8 @@ sources: ["VA/DoD: Chronic Insomnia Disorder and Obstructive Sleep Apnea (2025) 
 불면과 하지불안증후군에 PSG가 항상 필요한 것은 아니다. 무호흡·비정형 사건·기면증 등이 의심될 때 검사를 선택한다. 불면장애의 빈도·기간 기준을 모든 수면장애에 공통 적용하지 않는다.
 
 ## 최근 치료 변화
-AASM 2025 하지불안증후군 권고는 철 결핍·유발 요인 교정과 gabapentin 계열 등을 강조하며, 증상 증강 위험 때문에 도파민 작용제를 통상적인 기본 치료로 권고하지 않는다. REM 수면행동장애는 침실 안전 조치가 우선이고 melatonin·clonazepam은 낙상·인지·호흡 위험을 고려해 선택한다.
+- **하지불안증후군** (AASM 2025): 철 결핍·유발 요인 교정과 gabapentin 계열 등 강조; 증상 증강 위험으로 도파민 작용제의 통상적 사용은 권고하지 않음
+- **REM 수면행동장애**: 침실 안전 조치 우선; 낙상·인지·호흡 위험을 고려하여 melatonin·clonazepam 선택
 
 ## 포함 질환
 - [[하지 불안 증후군 (Restless Leg Syndrome)]]

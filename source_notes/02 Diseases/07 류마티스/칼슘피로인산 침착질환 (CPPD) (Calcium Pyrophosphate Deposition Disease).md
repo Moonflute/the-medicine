@@ -20,10 +20,10 @@ clinical_priority: tier_2
 # 칼슘피로인산 침착질환 (CPPD)
 
 ## 개요
-- CPP 결정이 관절 연골·섬유연골에 침착해 급성 또는 만성 염증성 관절염을 일으키는 질환이다. 급성 발작은 가성통풍이라고도 부른다.
-- 무릎과 손목이 흔하며, 고령·골관절염·유전성 혈색소침착증·부갑상샘기능항진증·저마그네슘혈증 등이 단서가 된다.
-
-CPPD는 calcium pyrophosphate dihydrate 결정이 연골의 세포주위 기질에 침착하는 질환으로, chondrocalcinosis 또는 pyrophosphate arthropathy라고도 한다. 급성 관절염으로 발현한 경우를 pseudogout라고 하며, 노인에서 가장 흔한 결정침착질환이다.
+- **정의**: Calcium pyrophosphate dihydrate(CPP) 결정이 연골·섬유연골의 세포주위 기질에 침착하는 질환. 급성·만성 염증성 관절염 유발
+  - 연골석회화(chondrocalcinosis)·pyrophosphate arthropathy로 기술되며 급성 발작은 가성통풍(pseudogout)
+- **호발**: 고령의 결정침착질환, 무릎·손목에 흔함
+- **연관 요인**: 골관절염·유전성 혈색소침착증·부갑상샘기능항진증·저마그네슘혈증
 
 ## 통풍과 감별
 | 항목 | CPPD | 통풍 |
@@ -33,9 +33,10 @@ CPPD는 calcium pyrophosphate dihydrate 결정이 연골의 세포주위 기질�
 | 영상 | 연골석회화(chondrocalcinosis) | 요산 침착·미란 |
 
 ## 진단·치료
-- 급성 단관절염에서는 감염 관절염을 먼저 배제하고, 가능하면 관절액에서 CPP 결정을 확인한다.
-- 활액에서 약한 양성 복굴절을 보이는 짧은 마름모꼴 결정을 확인하며, X선에서 chondrocalcinosis를 확인한다.
-- 급성 발작은 NSAID, 콜히친 또는 글루코코르티코이드를 환자 위험도에 맞춰 사용한다. 반복되거나 이른 연령에 발생하면 관련 대사질환을 평가한다.
+- **급성 단관절염**: 감염 관절염 우선 배제, 가능하면 관절액에서 짧은 마름모꼴·약한 양성 복굴절의 CPP 결정 확인
+- **영상**: X선에서 연골석회화 확인
+- **급성 발작 치료**: NSAID·colchicine·glucocorticoid 중 환자 위험도에 맞춰 선택
+- **반복 발작·이른 연령 발병**: 관련 대사질환 평가
 
 ## 관련 문서
 - [[통풍 (Gout)]]

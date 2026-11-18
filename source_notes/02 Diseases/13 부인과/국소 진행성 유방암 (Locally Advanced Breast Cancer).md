@@ -29,11 +29,8 @@ sources: ["Appraisal of Clinical Practice Guideline: Early and locally advanced 
 - **정의**: 원격 전이는 없으나 종양의 크기가 크거나(T3, T4), 림프절 침범이 광범위한(N2, N3) 유방암 상태.
 - **원인**: 유전적 요인(BRCA1/2 등), 호르몬 노출(조기 초경, 늦은 폐경, 호르몬 대체 요법), 비만, 음주, 방사선 노출 등.
 
-**기전**:
-
-  유관 또는 소엽 상피세포의 악성 변형 및 증식.
-  분자 아형(Luminal A/B, HER2-enriched, Basal-like)에 따라 예후와 치료 반응이 다름.
-- **특징**: 림프절 전이가 동반되나 원격 전이는 없는 상태로, 국소적으로 진행되어 수술적 절제가 즉각적으로 어려운 경우가 많음.
+- **기전**: 유관·소엽 상피의 악성 증식; Luminal A/B·HER2-enriched·Basal-like 등 분자 아형에 따라 반응·예후 차이
+- **특징**: 원격전이는 없으며 국소 침범·광범위 림프절 전이로 즉시 절제가 어려운 경우가 많음
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 5cm 이상의 종괴, 피부 침윤(peau d'orange), 궤양, 고정된 액와 림프절 비대.
@@ -49,13 +46,16 @@ sources: ["Appraisal of Clinical Practice Guideline: Early and locally advanced 
 
 **TNM과 해부학적 병기(AJCC 8판)**:
 
-**T**:
-
-T1 ≤2 cm(미세침윤 T1mi ≤1 mm), T2 >2–≤5 cm, T3 >5 cm. 흉벽 또는 병기 기준에 맞는 피부 침범은 크기와 무관하게 T4이며 염증성 유방암은 T4d다. 대흉근 침범만으로 T4a가 되지는 않는다.
-
-**N**:
-
-임상 N1은 움직이는 동측 액와절, N2는 고정·유착 액와절 또는 액와절 전이 없이 임상적으로 확인된 내유방절, N3는 쇄골하·쇄골상 또는 액와절과 내유방절의 동시 침범 등이다. 병리 액와절 개수는 pN1 1–3개, pN2 4–9개, pN3 ≥10개가 기준이며 위치에 따른 분류도 적용한다.
+- **T: 원발 종양**
+  - T1 ≤2 cm, 미세침윤 T1mi ≤1 mm
+  - T2 >2–≤5 cm, T3 >5 cm
+  - T4: 크기와 무관한 흉벽 또는 기준에 맞는 피부 침범; 염증성 유방암 T4d
+  - 대흉근 침범만으로 T4a가 되지는 않음
+- **cN: 임상 림프절**
+  - N1: 움직이는 동측 액와절
+  - N2: 고정·유착 액와절 또는 액와절 전이 없이 임상적으로 확인된 내유방절
+  - N3: 쇄골하·쇄골상 또는 액와절+내유방절 동시 침범 등
+- **pN: 병리 액와절 수**: pN1 1–3개, pN2 4–9개, pN3 ≥10개; 위치 기준도 적용
 
 | 병기 | TNM 조합(M0, IV 제외) |
 | --- | --- |
@@ -67,29 +67,36 @@ T1 ≤2 cm(미세침윤 T1mi ≤1 mm), T2 >2–≤5 cm, T3 >5 cm. 흉벽 또는 
 | IIIB / IIIC | T4 N0–2 / 모든 T N3 |
 | IV | 모든 T·N에서 M1 |
 
-N1mi는 >0.2–≤2 mm의 림프절 미세전이다. ≤0.2 mm 고립종양세포는 pN0(i+)로 구분한다. **예후 병기**는 위 해부학적 병기에 조직등급·ER·PR·HER2를 더해 산정하므로 서로 같은 표가 아니다. 선행치료 전 cTNM과 치료 후 ypTNM을 각각 남긴다.
+- **미세전이**: N1mi >0.2–≤2 mm; ≤0.2 mm 고립종양세포는 pN0(i+)
+- **예후 병기**: 해부학적 병기에 조직등급·ER·PR·HER2를 추가하므로 위 표와 구분
+- **치료 전후**: 선행치료 전 cTNM과 치료 후 ypTNM 각각 기록
 
 ## 5. 치료 (Treatment)
-- **선행 항암화학요법(Neoadjuvant CTx)**: 종양 크기를 줄여 수술 가능 상태로 전환(Downstaging).
-- **수술**: 변형 근치적 유방 절제술(Modified radical mastectomy) 또는 반응이 좋은 경우 유방 보존술 고려.
-- **보조 요법**: 수술 후 방사선 치료(Post-op RTx), 호르몬 치료, 표적 치료(HER2 양성 시), 추가 항암화학요법.
+**선행 전신치료**: 종양 축소·절제 가능성 확보
 
-**선행치료의 아형별 분기**:
+- **HER2 양성**: taxane + trastuzumab/pertuzumab 기반 요법 등
+- **고위험 삼중음성**: pembrolizumab + 항암 → 수술·보조 pembrolizumab 검토
+  - 조기 고위험 삼중음성에서는 PD-L1 양성이 필수 조건 아님
+- **HR+/HER2−**: 임상 위험·폐경 여부에 따라 항암 또는 선택적 선행 내분비치료
 
-HER2 양성은 taxane + trastuzumab/pertuzumab 기반 요법 등을, 고위험 삼중음성은 pembrolizumab + 항암 후 수술·보조 pembrolizumab을 검토한다. 조기 고위험 삼중음성의 면역치료에는 PD-L1 양성이 필수 조건이 아니다. HR+/HER2−에서는 임상 위험과 폐경 여부에 따라 항암 또는 선택적 선행 내분비치료를 결정한다.
+**HER2 치료의 2026 선택지** (FDA)
 
-**HER2 치료의 2026 선택지**:
+- **선행**: HER2 IHC 3+ 또는 ISH+인 II–III기에서 T-DXd → THP(taxane·trastuzumab·pertuzumab) 승인
+- **보조**: trastuzumab ± pertuzumab 및 taxane 선행치료 후 유방/액와에 침윤암 잔존 시 T-DXd 승인
+- 잔존암 위험·간질성 폐질환 위험·국내 승인/가용성을 반영해 T-DM1 등 기존 선택지와 비교
 
-IHC 3+ 또는 ISH+인 II–III기에는 T-DXd 후 THP 선행요법이 FDA 승인되었다. Trastuzumab ± pertuzumab 및 taxane 선행치료 후 유방/액와에 침윤암이 남으면 보조 T-DXd도 승인 선택지다. 잔존암의 위험, 간질성 폐질환 위험, 국내 승인·가용성을 반영하여 T-DM1 등 기존 선택지와 비교한다.
+**수술·보조치료**
 
-**수술 결정**:
-
-영상과 진찰에서 절제 가능성을 다시 평가한다. 치료 중 진행하면 즉시 원인·치료 변경을 검토하며, 임상 완전반응만으로 수술을 생략하지 않는다.
+- **수술 재평가**: 영상·진찰로 절제 가능성 판단; 치료 중 진행 시 원인·치료 변경 즉시 검토
+  - 임상 완전반응만으로 수술 생략하지 않음
+- **수술 범위**: 변형 근치적 유방절제 또는 반응이 좋은 경우 보존술 고려
+- **보조치료**: 수술 후 방사선·호르몬치료·HER2 표적치료·추가 항암을 병리·아형·반응에 따라 결정
 
 ## 6. 예후 및 합병증 (Prognosis)
-- 분자 아형 및 치료 반응도에 따라 예후가 결정됨.
-  국소 재발 및 원격 전이 위험이 높아 장기적인 추적 관찰이 필수적임.
+- **예후**: 분자 아형·치료 반응에 따라 차이
+- **추적**: 국소 재발·원격전이 위험을 고려한 장기 감시
 
 출처 : StatPearls (Breast Cancer, Breast Cancer Conservation Therapy)
+- [FDA 2026: T-DXd early-stage HER2-positive breast cancer](https://www.fda.gov/drugs/cancer-approvals/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

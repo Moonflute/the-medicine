@@ -26,13 +26,9 @@ sources: ["AAD 치료 | https://www.aad.org/public/diseases/a-z/lichen-planus-tr
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 소양증(가려움증), 구강 통증.
 
-**P/E**:
-
-  6P (Pruritic, Purple, Polygonal, Planar, Papule, Plaque).
-  병변 표면에 그물 모양의 흰 선인 위컴 선(Wickham striae)이 관찰됨.
-  쾨브너 현상(Koebner phenomenon)이 나타날 수 있음.
-  주로 손목 굴측, 하부 요추, 발목, 정강이에 호발.
-* **구강 병변**: 그물 모양(reticular)이 가장 흔하며, 미란성(erosive) 병변은 통증을 동반함.
+- **피부 소견**: 6P(Pruritic·Purple·Polygonal·Planar·Papule·Plaque), 흰 그물 모양 Wickham 선조, Koebner 현상 가능
+  - 손목 굴측·하부 요추·발목·정강이에 흔함
+- **구강**: 망상형이 흔하며 미란형은 통증 동반
 
 ## 3. 검사 (Lab & Imaging)
 * **조직검사**: 기저층의 액화 변성, 톱니 모양의 표피능(sawtooth rete ridges), 진피 상부의 띠 모양 림프구 침윤.
@@ -43,11 +39,14 @@ sources: ["AAD 치료 | https://www.aad.org/public/diseases/a-z/lichen-planus-tr
   약물 유발성 편평 태선과의 감별을 위해 약물 복용력 확인이 필수적임.
 
 ## 5. 치료
-국소 피부 병변은 강한 국소 corticosteroid로 치료하고 위축·반응을 평가한다. 광범위·심한 가려움 또는 국소 치료 실패는 광선치료·단기 전신 스테로이드·면역조절 치료를 검토한다.
-
-무증상 구강 망상형은 관찰 가능하지만 **통증·미란·섭취 장애**가 있으면 국소 corticosteroid 등으로 치료한다. 지속 궤양·경결·한쪽의 변화는 생검하여 이형성·SCC를 배제한다.
-
-두피의 흉터 탈모나 손발톱 손상은 비가역적 변형을 남길 수 있어 조기 전문 치료가 필요하다. 유발 약물·접촉 물질과 간염 위험을 평가하고 점막 병변은 장기 추적한다.
+- **국소 피부 병변**: 강한 국소 corticosteroid, 위축·반응 확인
+- **광범위·심한 소양증·국소 치료 실패**: 광선·단기 전신 스테로이드·면역조절 검토
+- **구강 병변**
+  - 무증상 망상형: 관찰 가능
+  - **통증·미란·섭취 장애**: 국소 corticosteroid 등 치료
+  - 지속 궤양·경결·편측 변화: 생검으로 이형성·SCC 배제
+- **두피 흉터탈모·손발톱 손상**: 비가역 변형 예방을 위한 조기 전문 치료
+- **원인·추적**: 유발약·접촉 물질·간염 위험 평가, 점막 병변 장기 추적
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 피부 병변은 대개 1~2년 내 자연 치유되나 색소 침착이 남을 수 있음.

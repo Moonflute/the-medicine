@@ -80,7 +80,7 @@ function getLabelOnly(body: string) {
   return match ? match[1] : null;
 }
 
-function parseBlocks(lines: string[]): ParsedBlock[] {
+function parseBlocks(lines: string[], groupBulletLabels = true): ParsedBlock[] {
   const blocks: ParsedBlock[] = [];
   let currentGroup: ParsedBlock | null = null;
 
@@ -119,7 +119,7 @@ function parseBlocks(lines: string[]): ParsedBlock[] {
       const body = stripBulletPrefix(trimmed);
       const labelOnly = getLabelOnly(body);
 
-      if (labelOnly) {
+      if (labelOnly && groupBulletLabels) {
         flushGroup();
         currentGroup = { type: "group", label: body, items: [] };
         continue;
@@ -304,7 +304,7 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
     return <figure className="my-4 overflow-hidden rounded-xl border border-slate-200 bg-slate-50"><Image src={documentImage[2]} alt={documentImage[1] || "첨부 이미지"} width={1600} height={900} className="max-h-[560px] w-full object-contain" /><figcaption className="border-t border-slate-200 bg-white px-3 py-2 text-xs text-slate-500">{documentImage[1]}</figcaption></figure>;
   }
 
-  if (isEmphasisLabelLine(trimmed)) {
+  if (!isBulletLine(trimmed) && isEmphasisLabelLine(trimmed)) {
     return renderEmphasisLabel(trimmed, termLinks, wikiLinks);
   }
 
@@ -407,7 +407,7 @@ export function RichTextLines({
   wikiLinks?: TermLink[];
   presentation?: "document" | "embedded";
 }) {
-  const blocks: SkinTextBlock[] = parseBlocks(lines).map((block) => ({
+  const blocks: SkinTextBlock[] = parseBlocks(lines, bulletStyle !== "plain").map((block) => ({
     kind: block.type === "group" ? "group" : block.type === "table" ? "table" : !block.line.trim() ? "space" : /^(?:#{3,4}\s|---$)/.test(block.line.trim()) ? "heading" : "text",
     label: block.type === "group" ? plainText(block.label).replace(/[:：]\s*$/, "") : undefined,
     content: block.type === "group"

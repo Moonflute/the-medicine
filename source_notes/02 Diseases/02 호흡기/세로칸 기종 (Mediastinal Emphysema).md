@@ -30,7 +30,7 @@ reviewed_at: "2026-07-30"
 * **P/E**: Hamman's sign (심장 박동에 동기화된 바스락거리는 소리) 청진.
 
 ## 3. 검사 (Lab & Imaging)
-  * **CXR, Chest CT:** 종격동 내 공기 음영 확인. CT가 가장 민감도가 높음.
+- **CXR, Chest CT:** 종격동 내 공기 음영 확인. CT가 가장 민감도가 높음.
 
 ## 4. 진단 (Diagnosis)
 - 임상 증상, 신체 검진, 영상 검사 (CXR, CT)를 통해 진단.

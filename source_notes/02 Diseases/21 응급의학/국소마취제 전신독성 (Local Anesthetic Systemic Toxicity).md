@@ -35,17 +35,29 @@ sources: ["ASRA: LAST checklist, 2020 | https://asra.com/docs/default-source/gui
 - 국소마취제 투여와 증상의 시간 관계로 의심하고 다른 원인을 함께 평가한다. 심한 알레르기 반응이나 미주신경성 실신과 무조건 같은 처치로 취급하지 않는다.
 
 ## 5. 치료
-- 마취제 투여를 멈추고 도움·LAST 구조 키트를 요청한다. 기도·산소화·환기를 확보하며 경련에는 benzodiazepine을 우선 검토한다.
+- **초기 대응**: 마취제 중단, 도움·LAST 구조 키트 요청
+  - 기도·산소화·환기 확보, 경련에는 benzodiazepine 우선
+- **20% lipid emulsion**: 중증·지속 악화에서 조기 고려, ASRA 알고리즘 적용
+  - Propofol로 lipid rescue를 대체하지 않음
+- **소생 약제**: 표준 ACLS와 선택·용량이 다름
+  - Epinephrine은 **<1 μg/kg로 시작** 고려
+  - Beta-blocker·calcium channel blocker·vasopressin·추가 국소마취제 회피
 
-중증·지속 악화에는 **20% lipid emulsion**을 조기에 고려하고 ASRA 체중별 bolus·주입 알고리즘을 따른다. Propofol을 lipid rescue 대체제로 쓰지 않는다.
+**ASRA 지질 구제 용량(20%)**
 
-LAST 소생술은 표준 ACLS와 약물 선택·용량이 다르다. Epinephrine은 적은 용량을 고려하며 beta-blocker·calcium channel blocker·vasopressin과 추가 국소마취제는 피한다.
+| 체중 | Bolus | 주입 |
+| --- | --- | --- |
+| <70 kg | 1.5 mL/kg를 2–3분에 | 0.25 mL/kg/min |
+| >70 kg | 약 100 mL를 2–3분에 | 약 250 mL를 15–20분에 |
 
-**ASRA 지질 구제 용량**:
-
-<70 kg은 20% 지질 1.5 mL/kg를 2~3분에 걸쳐 bolus 후 0.25 mL/kg/min 주입, >70 kg은 약 100 mL bolus 후 250 mL를 15~20분에 주입한다. 불안정 지속 시 bolus 반복·주입 속도 증량을 검토하며 **총량 약 12 mL/kg 한도**와 안정 후 추가 주입을 프로토콜로 관리한다.
-
-경련 뒤 최소 2시간, 심혈관 불안정 뒤 4~6시간 이상 등으로 관찰을 연장하고 심정지는 별도 중환자 관리를 한다. 저용량 epinephrine을 쓸 때는 **<1 μg/kg로 시작**을 고려한다.
+- **불안정 지속**: bolus 반복·주입 속도 증량 검토
+- **총량 한도**: 약 **12 mL/kg**
+- **안정 후**: 지질 주입을 15분 넘게 지속, 프로토콜로 관리
 
 ## 6. 예후 및 합병증
-- 안정 뒤에도 재발을 감시한다. ASRA는 경련 후 최소 2시간, 심혈관 불안정 뒤 4–6시간 관찰 경로를 제시하며 심정지 뒤에는 상태에 맞춘 관리가 필요하다.
+- **재발 감시**: 안정 후에도 관찰
+  - 경련 후 최소 **2시간**
+  - 심혈관 불안정 후 **4–6시간 이상**
+  - 심정지 후: 상태에 맞춘 중환자 관리
+
+참고: [ASRA LAST checklist](https://asra.com/news-publications/asra-updates/blog-landing/guidelines/2020/11/01/checklist-for-treatment-of-local-anesthetic-systemic-toxicity)

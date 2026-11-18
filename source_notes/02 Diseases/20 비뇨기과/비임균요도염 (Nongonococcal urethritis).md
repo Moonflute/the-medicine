@@ -21,9 +21,7 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cer
 ## 1. 개요
 - **정의:** 임균 이외의 원인균에 의해 발생하는 요도염으로, 성매개감염병(STI)의 일종임.
 
-**원인:**
-
-Chlamydia trachomatis가 가장 흔하며, Mycoplasma genitalium, Ureaplasma urealyticum, Trichomonas vaginalis 등이 원인이 됨.
+- **원인**: Chlamydia trachomatis가 흔하며 M. genitalium·U. urealyticum·T. vaginalis 등
 
 - **기전:** 요도 상피세포에 병원체가 부착 및 증식하여 염증 반응을 유발함.
 
@@ -42,12 +40,15 @@ Chlamydia trachomatis가 가장 흔하며, Mycoplasma genitalium, Ureaplasma ure
 * 임균성 요도염과의 감별이 중요함.
 
 ## 5. 치료
-- 요도 염증을 확인하고 임균/클라미디아 NAAT를 시행한다. 성인 NGU의 기본 요법은 **doxycycline 100 mg 하루 2회 7일**이다.
-- 지속·재발이면 순응도·재노출·객관적 염증을 확인하고 M. genitalium·T. vaginalis 검사를 검토한다. 증상만 남았다고 항생제를 반복하지 않는다.
-
-M. genitalium이 확인되면 내성 검사에 따른 순차 치료가 원칙이며, 내성 검사가 불가능한 적절한 경우 doxycycline 후 moxifloxacin을 검토한다. azithromycin 단회 반복을 만능 대안으로 쓰지 않는다.
-
-파트너 치료를 시행하고 치료 완료·증상 해소까지 성관계를 피한다. 모든 환자에게 **1~2주 조기 NAAT를 치료 성공 판정용으로 시행하지 않으며**, 확인된 STI는 재감염 확인을 위한 약 3개월 재검을 계획한다.
+- **성인 NGU 기본**: 요도 염증 확인·임균/클라미디아 NAAT, **doxycycline 100 mg 하루 2회 7일**
+- **지속·재발**: 순응도·재노출·객관적 염증 확인, M. genitalium·T. vaginalis 검사 검토
+  - 잔여 증상만으로 항생제 반복 금지
+- **M. genitalium 확인**: 내성검사 기반 순차 치료
+  - 검사 불가인 적절한 경우 doxycycline → moxifloxacin 검토
+  - Azithromycin 단회 반복을 만능 대안으로 사용하지 않음
+- **파트너 관리**: 치료, 양측 치료 완료·증상 해소까지 성관계 회피
+- **재검**: 일률적 **1–2주 조기 NAAT**로 치료 성공 판정하지 않음
+  - 확인된 STI는 재감염 확인을 위한 약 **3개월** 재검 계획
 
 ## 6. 예후 및 합병증 (Prognosis)
 * 적절한 치료 시 완치 가능.

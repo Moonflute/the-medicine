@@ -39,26 +39,25 @@ sources: ["ASAM 공동 감량 지침 2025 | https://www.asam.org/quality-care/cl
 - 약물 유발성 불안 및 신체 질환에 의한 불안 배제.
 
 ## 5. 치료
-- **장기 치료 전략**: 불안 장애의 일차 치료제로 SSRI 또는 SNRI를 우선 고려하며, 충분한 용량으로 최소 4~8주 이상 유지하여 효과를 평가함.
-- **벤조디아제핀 사용 원칙**: 의존성, 내성 및 금단 증상 예방을 위해 급성기 증상 완화를 목적으로 최소 용량을 최단기간 사용함.
-- **약물 중단 및 전환**: 벤조디아제핀 장기 복용 환자는 갑작스러운 중단 시 금단 증상 위험이 있으므로 점진적으로 감량함.
-- **환자 교육 및 모니터링**: 약물 복용 중 알코올 섭취 금지 및 졸음으로 인한 운전·기계 조작 주의를 교육하고, 인지 기능 저하 여부를 정기적으로 확인함.
-
-**Benzodiazepine 감량 속도**:
-
-장기 복용은 **2–4주마다 5–10%** 감량을 출발점으로 정하며 보통 2주당 25%를 넘기지 않는다. 금단·기저 불안 재발·복용 기간에 따라 더 느리게 줄인다. 고령·간질환에서 장시간 작용 약제로의 전환을 자동 적용하지 않는다.
+- **장기 치료**: SSRI·SNRI 우선 고려, 충분한 용량으로 최소 **4–8주** 유지 후 효과 평가
+- **Benzodiazepine(BZD)**: 급성 증상 완화에 최소 용량·최단기간 사용
+  - 장시간 작용: clonazepam, diazepam
+  - 중간 작용: lorazepam, oxazepam
+  - 단시간 작용: midazolam, alprazolam, triazolam
+- **BZD 감량**: 장기 복용 후 갑작스럽게 중단하지 않음
+  - 시작 속도: **2–4주마다 5–10%**, 보통 **2주당 25%**를 넘기지 않음
+  - 금단·불안 재발·복용 기간에 따라 더 느리게 감량
+  - 고령·간질환에서 장시간 작용 약제로 일률 전환하지 않음
+- **Buspirone**: BZD보다 진정·수면 효과가 적으며, 항경련 효과 없음
+- **Propranolol**: 수행 상황의 떨림·심계항진 등 신체 증상에 제한적으로 고려; 범불안장애·사회불안장애의 표준 일차약은 아님
+- **안전 교육**: 음주 피하기, 졸음 시 운전·기계 조작 주의, 인지기능 저하 확인
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 약물 치료와 인지행동치료 병행 시 예후 양호.
 - 장기 사용 시 의존성, 금단 증상, 인지 기능 저하 가능성.
 
 출처 : Merck Manual Professional
+출처 보완: [NICE 사회불안장애 권고](https://www.nice.org.uk/guidance/cg159/chapter/Recommendations), [FDA buspirone 처방정보](https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=f61184d1-e34a-4a84-9432-a7bacf09e818&type=display)
+
 Last updated :
-### Benzodiazepines (BZD)
-* **Long acting**: Clonazepam, Diazepam
-* **Intermediate acting**: Lorazepam, Oxazepam
-* **Short acting**: Midazolam, Alprazolam, Triazolam
-### Non-BZD
-* **Buspirone**: 진정, 수면, 항경련 작용 없음
-* **Propranolol**: 사회 공포증의 TOC (주로 GAD, SAD에 사용)
 2026-05-18 — 본문 갱신 (codex fill)

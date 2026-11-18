@@ -49,6 +49,24 @@ test('section normalization preserves emphasis, separators, and negative values'
  ]);
 });
 
+test('ordinary disease notes retain authored nested clinical criteria',()=>{
+ const crisis=diseases.find(d=>d.title==='고혈압성 위기 (Hypertensive Crisis)');
+ const treatment=crisis.sections.find(s=>s.title==='처치 원칙');
+ assert.ok(treatment.content.some(line=>/^  - \*\*첫 1시간\*\*/.test(line)));
+ assert.ok(treatment.content.some(line=>/^  - \*\*대동맥박리\*\*/.test(line)));
+ const rich=compile('src/components/rich-text-lines.tsx',{
+  'react':React,'react/jsx-runtime':jsxRuntime,
+  'next/link':({children,...props})=>React.createElement('a',props,children),
+  '@/components/skin-document':{},
+ });
+ const lines=api.splitSections('## 치료\n- **검사 선택**:\n  - **조건**: A\n    - 예외 B\n- **다음 항목**: C',true)[0].content;
+ const html=renderToStaticMarkup(React.createElement(rich.RichTextLines,{lines,bulletStyle:'plain',presentation:'embedded'}));
+ assert.deepEqual([...html.matchAll(/data-outline-depth="(\d+)"/g)].map(m=>m[1]),['0','1','2','0']);
+ assert.match(html,/<strong[^>]*>검사 선택<\/strong>/);
+ assert.ok(!html.includes('border-l border-slate-200 pl-4'),'sibling criteria must not be swallowed into a preceding label group');
+ assert.ok(!html.includes('**'));
+});
+
 test('emphasis renders intact in raw and generated bullets with either colon placement',()=>{
  const rich=compile('src/components/rich-text-lines.tsx',{
   'react':React,'react/jsx-runtime':jsxRuntime,

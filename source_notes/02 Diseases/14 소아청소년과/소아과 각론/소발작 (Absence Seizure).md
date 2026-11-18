@@ -35,7 +35,7 @@ reviewed_at: "2026-07-30"
 
 ## 3. 검사 (Lab & Imaging)
 * **EEG**: 양측성 동기화된 3Hz 스파이크-웨이브 복합체 (spike-wave complex)
-* **기타**: 진단 시 구조적 이상 확인을 위한 뇌 영상 검사 고려
+- **뇌 영상**: 전형적 소아 결신뇌전증(CAE)은 진단에 MRI가 필수는 아님; 비전형적 소견·다른 원인 의심 시 고려
 
 ## 4. 진단 (Diagnosis)
 * 임상 증상 및 EEG 소견을 통한 전기임상적 진단
@@ -43,7 +43,9 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 
-* **약물 선택**: Ethosuximide를 1차 치료제로 우선 고려하며, 전신 강직-간대 발작이 동반된 경우 Valproic acid를 선택함.
+- **약물 선택**
+  - 결신발작만 있음: ethosuximide 1차 고려
+  - 전신 강직간대발작 동반: valproic acid 고려
 * **금기 약물**: Phenytoin, Carbamazepine, Gabapentin, Vigabatrin 등은 발작을 악화시킬 수 있으므로 처방을 피함.
 * **모니터링**: 약물 치료 중 발작 빈도 감소 여부를 확인하고, 주의력 결핍이나 인지 기능 저하 등 동반 증상에 대한 정기적 평가를 시행함.
 * **전문의 의뢰**: 약물 치료에 반응하지 않는 난치성 발작이나 진단이 불분명한 경우 소아 신경 분과 전문의에게 의뢰함.
@@ -52,6 +54,8 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 * 치료 반응은 양호하나, 주의력 결핍, 인지 기능 저하, 정서적 문제 동반 가능
 * 성인기까지 지속되거나 전신 강직-간대 발작으로 이행될 수 있음
+
+출처: [ILAE 소아 결신뇌전증 진단](https://www.epilepsydiagnosis.org/syndrome/cae-diagcriteria.html)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

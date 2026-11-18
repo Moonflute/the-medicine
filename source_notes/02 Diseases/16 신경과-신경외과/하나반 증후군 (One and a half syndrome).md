@@ -18,23 +18,16 @@ reviewed_at: "2026-07-30"
 분과 : [[신경과-신경외과]]
 
 ## 1. 개요
-**정의**:
-
-  교뇌(pons)의 배측 피개(dorsal tegmentum) 병변으로 인해 발생하는 안구 운동 장애.
-  병변 측의 수평 주시 마비(ipsilateral horizontal gaze palsy)와 병변 측의 내직근 마비(ipsilateral internuclear ophthalmoplegia, INO)가 결합된 상태를 의미함.
+- **정의**: 교뇌 배측 피개 병변에 따른 **동측 수평 주시 마비 + 동측 핵간안근마비(INO)**
 
 - **원인**: 교뇌 피개부의 경색(Paramedian pontine infarction), 다발성 경화증(Multiple sclerosis), 종양, 출혈 등.
 
-**기전**:
-
-  교뇌의 외전신경핵(abducens nucleus) 또는 그 근처의 교뇌곁주시중추(PPRF)와,
-  외전신경핵에서 반대편 동안신경핵으로 향하는 내측종속(MLF)이 동시에 손상되어 발생함.
+- **기전**: 외전신경핵 또는 PPRF와 동측 내측종속(MLF)의 동시 손상
+  - MLF는 외전신경핵에서 반대편 동안신경핵으로 이어지는 수평 주시 연결에 관여
 
 ## 2. 임상 양상 (Clinical Features)
-**CC**:
-
-  병변 측으로의 수평 주시가 불가능하며, 병변 측 눈은 내전(adduction)이 안 됨.
-  결과적으로 병변 반대편 눈의 외전(abduction)만 가능함.
+- **수평 운동**: 병변 쪽으로 양안 주시 불가, 반대쪽 주시 시 병변 측 눈의 내전 불가
+  - 결과적으로 반대편 눈의 외전만 보존
 
 **P/E**
 

@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-10-21"
 aliases: []
 유형:
 - disease
@@ -12,8 +12,10 @@ CC:
 preprocessing_required: x
 last_studied: '2026-06-06'
 clinical_priority: "tier_3"
-review_status: "tier3_full_flash_35_enriched"
-reviewed_at: "2026-07-30"
+review_status: "guideline_enriched"
+reviewed_at: "2026-10-21"
+guideline_year: "2026"
+sources: ["IDSA ESCMID 2026 S. aureus bacteremia consensus statements, Part 1 | https://www.idsociety.org/practice-guideline/staphylococcus-aureus-bacteremia/"]
 ---
 분과 : [[감염]]
 
@@ -46,12 +48,41 @@ reviewed_at: "2026-07-30"
 - 검체 배양에서 포도알균 동정
 - 항생제 감수성 검사 (AST)를 통해 MSSA와 MRSA 구분
 
+### 황색포도알균 균혈증(SAB): IDSA/ESCMID 2026 합의문
+
+- **위험도 평가**: 단순 complicated/uncomplicated 대신 심부·전이성 감염 및 재발의 저위험/증가위험으로 평가
+  - 주요 위험요인: 지역사회 발생, 첫 양성 검체 후 ≥48시간 지속 양성, 심장내 장치
+  - 위험요인만으로 심부 감염이 확진되는 것은 아님
+- **추적 혈액배양**
+  - 성인: 첫 양성 혈액배양 **채취 48시간 후 최소 2세트**, 이후 음전까지 24–48시간마다 1–2세트
+  - 소아: 연령·체중에 맞는 채혈량 사용
+- **심초음파**
+  - 성인 SAB: TTE 시행
+  - TTE 음성이라도 심장내 장치, 판막질환/심내막염 과거력, 지속 균혈증, 색전 또는 서로 떨어진 다발 감염소가 있으면 TEE 시행
+  - 소아: 구조적 심질환·지속 균혈증·심내막염 의심 여부에 따라 적용
+- **감염소 탐색**: 증상별 영상 후에도 증가위험 환자의 감염소가 불명이면 FDG-PET/CT 또는 부위별 영상 조합 고려
+
 ## 5. 치료
-- 감염 부위의 배농 및 이물질 제거 등 source control를 우선 시행하고, 항생제 감수성 결과에 따라 MSSA는 페니실린계, MRSA는 반코마이신·답토마이신·리네졸리드 등으로 전환한다.
-- 반코마이신 등 신독성 항생제 사용 시 신기능 및 청력 모니터링을 정기적으로 시행한다.
-- 중증 감염·MRSA 의심 시 감염내과·외과 협진을 요청하고, 필요 시 외과적 절제·배액을 고려한다.
-- 치료 시작 후 48–72시간 내에 혈액·배양 재검사를 통해 치료 반응을 확인하고, 항생제 지속 여부를 재평가한다.
-- 인공 삽입물
+- **감염소 조절**: 농양 배액, 감염 카테터 제거, 인공 삽입물 감염 평가를 신속히 시행하고 감염내과와 협진한다.
+
+**항생제**
+
+- **선택**: 감염 부위·감수성에 맞춰 결정
+  - MSSA 균혈증: cefazolin 또는 항포도알균 penicillin(nafcillin/oxacillin 등)
+  - MRSA 균혈증: vancomycin 또는 daptomycin 등
+- **사용 시 주의**
+  - Linezolid를 균혈증의 동등한 일차약으로 나열하지 않음
+  - Daptomycin은 폐렴 치료에 사용하지 않음
+  - Vancomycin 노출량·신기능 모니터링
+
+**기간: 2026 합의문**
+
+- **성인 SAB에서 심부·전이성 감염 배제**: 적절한 평가가 이뤄졌으면 초기 위험도와 무관하게 **14일** 제안
+- **연장 고려**: 지속 균혈증, 불충분한 검사 또는 확인된 심부 감염
+- **시작점**: 이후 재양성이 없는 첫 음전 혈액배양 채취일
+  - 감염소 제거가 더 늦으면 그 날짜를 시작점으로 삼을 수 있음
+
+**근거 범위**: 2026 문서는 검사·위험도·기간에 관한 **합의문 Part 1**이며, MSSA/MRSA 항생제 선택 전체를 새로 대체한 지침은 아님.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 패혈증, 심내막염, 골수염, 농양 형성 등 중증 감염으로 진행 가능

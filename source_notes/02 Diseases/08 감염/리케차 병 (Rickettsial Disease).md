@@ -22,7 +22,7 @@ content_updated_at: "2026-07-30"
 ## 1. 개요
 - **정의**: 리케차 (Rickettsia) 속 세균에 의해 발생하는 감염성 질환으로, 주로 진드기, 이, 벼룩 등 절지동물 매개로 전파된다.
 
-- **원인**: 다양한 리케차 (Rickettsia) 속 세균 (예: R. rickettsii, R. typhi, Orientia tsutsugamushi 등)
+- **원인**: Rickettsia 속(R. rickettsii·R. typhi 등). 쯔쯔가무시병의 Orientia tsutsugamushi는 별도 속이며 리케차 관련 감염군에서 함께 다룸.
 
 - **기전**: 절지동물에 물려 균이 침투하면 혈관 내피세포를 감염시켜 전신적인 혈관염을 유발하며, 이로 인해 발진 및 장기 손상이 발생한다.
 

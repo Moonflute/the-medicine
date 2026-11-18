@@ -49,9 +49,11 @@ reviewed_at: "2026-07-30"
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 폐경 후 호르몬 변화에 따라 증상이 자연스럽게 호전된다.
-- 유방암 발생 위험을 직접적으로 높이지는 않으나, 정기적인 검진을 통한 추적 관찰이 필요하다.
+- 단순 섬유화·단순 낭종은 유방암 위험을 높이지 않음; 증식성·비정형 병변이 확인되면 해당 병리 위험도에 따라 평가
+- 연령·위험도에 맞는 유방 검진 유지
 
 
 출처 : Merck Manual Professional
+- [American Cancer Society: Fibrocystic Breast Changes](https://www.cancer.org/cancer/types/breast-cancer/non-cancerous-breast-conditions/fibrosis-and-simple-cysts-in-the-breast.html)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

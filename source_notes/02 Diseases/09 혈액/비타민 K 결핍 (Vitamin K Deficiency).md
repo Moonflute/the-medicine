@@ -33,29 +33,33 @@ sources: ["ACC 출혈 역전 지침 | https://www.jacc.org/doi/10.1016/j.jacc.20
 * **P/E**: 기저 질환에 따른 신체 소견 및 출혈 부위의 삼출.
 
 ## 3. 검사 (Lab & Imaging)
-- 프로트롬빈 시간 (PT) 연장 및 INR 상승 (가장 먼저, 가장 심하게 나타남).
-  활성화 부분 트롬보플라스틴 시간 (aPTT)은 경미하게 증가할 수 있음.
-  혈소판 수, 출혈 시간 (BT), 피브리노겐 농도는 정상.
+- **PT/INR**: 가장 먼저·뚜렷하게 연장/상승
+- **aPTT**: 경미한 연장 가능
+- **혈소판·출혈시간(BT)·fibrinogen**: 정상
 
 ## 4. 진단 (Diagnosis)
 - 위험군에서 비정상적 출혈 발생 시 의심.
   혈액 응고 검사 소견 확인.
-  비타민 K (phytonadione) 투여 후 PT/INR이 2~6시간 내 유의하게 감소하면 진단 확정.
+  정주 phytonadione 투여 후 PT/INR이 2~6시간 내 유의하게 감소하면 비타민 K 결핍을 지지.
 
 ## 5. 치료
-출혈이 없고 흡수가 가능하면 경구 vitamin K를 사용하며, 긴급 교정·흡수장애·중증 출혈은 느린 IV 투여를 고려한다. 피하 투여는 흡수·효과가 불확실하여 우선 경로로 권하지 않는다.
-
-중증 출혈은 vitamin K의 효과를 기다리지 않고 응고인자를 함께 보충한다. 특히 **warfarin 관련 중증 출혈**은 4인자 PCC+IV vitamin K를 우선하고 PCC가 없으면 혈장을 사용한다. 이 warfarin 역전 원칙을 모든 간질환성 INR 상승에 그대로 적용하지 않는다.
-
-- 신생아는 출생 직후 근육 주사로 비타민 K를 투여하여 출혈을 예방한다.
-- 치료 후 24–48시간 내 PT/INR을 재검사하여 정상화 여부를 확인하고, 지속적인 원인 관리가 필요하면 소화기·간 전문의에 의뢰한다.
-- 지방 흡수 장애, 장기 항생제 복용 등 결핍 위험 요인을 정기적으로 평가하고, 필요 시 장기 비타민 K 보충 계획을 수립한다.
+- **Vitamin K 경로**
+  - 출혈 없고 흡수 가능: 경구
+  - 긴급 교정·흡수장애·중증 출혈: 느린 IV 투여 고려
+  - 피하: 흡수·효과 불확실로 우선 경로로 권하지 않음
+- **중증 출혈**: vitamin K 효과를 기다리지 않고 응고인자 병행 보충
+  - Warfarin 관련: 4인자 PCC + IV vitamin K 우선, PCC 없으면 혈장
+  - 이 원칙을 모든 간질환성 INR 상승에 그대로 적용하지 않음
+- **신생아 예방**: 출생 직후 vitamin K 근육주사
+- **추적**: 치료 후 24–48시간 내 PT/INR 정상화 확인
+  - 지속 원인 관리 필요 시 소화기·간 전문의 의뢰
+  - 지방 흡수장애·장기 항생제 등 위험요인 재평가, 필요 시 장기 보충 계획
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 비타민 K 보충 시 예후 양호.
   치료 지연 시 심한 출혈 및 사망 위험.
 
-출처 : Merck Manual Professional
+출처 : [Merck Manual Professional: Vitamin K Deficiency](https://www.merckmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-k-deficiency)
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

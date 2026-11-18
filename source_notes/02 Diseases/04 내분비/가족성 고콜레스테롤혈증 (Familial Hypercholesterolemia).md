@@ -39,40 +39,29 @@ content_updated_at: "2026-11-17"
 - **혈액 검사**: 공복 지질 검사(LDL-C 상승, 중성지방은 대개 정상).
 - **유전자 검사**: 진단 확진, 가족 내 선별 검사(cascade screening) 촉진 및 진단 불확실 시 시행.
 - **기타**: 심장 초음파 및 혈관 영상(동맥경화 평가 및 위험도 계층화).
-출처: Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association.
 
 ## 4. 진단 (Diagnosis)
 - 임상적 진단 기준(Dutch Lipid Clinic Criteria 등)을 주로 사용하며, LDL-C 수치, 가족력, 황색종 유무 등을 종합하여 평가한다.
 - 1차 친족에 대한 선별 검사(Cascade screening)가 필수적이다.
 
 ## 5. 치료 (Treatment)
-**가족 단위로 시작**:
-
-조기 ASCVD 위험을 설명하고, 1·2촌 혈족 cascade screening과 소아 평가를 연계한다. 생활요법은 필요하지만 LDL 수용체 결함에 대한 약물치료를 대체하지 않는다.
-
-**이형접합 FH**:
-
-최대 내약 용량 고강도 statin을 시작하고 LDL-C 목표·위험도에 따라 ezetimibe, PCSK9 억제제/siRNA 또는 bempedoic acid를 순차 추가한다. 임상 ASCVD·매우 높은 LDL-C는 조기 전문의 의뢰 대상이다.
-
-- **동형접합 FH**: lipid specialist 의뢰가 필요하며, LDL apheresis와 lomitapide·evinacumab 등 치료 접근성을 포함한 다중요법을 검토한다.
-- **안전·특수상황**: 임신 계획·임신 중에는 statin 등 금기/제한 약제를 사전에 조정하고, 간효소·근육 증상·순응도와 LDL 반응을 추적한다.
-
-**약물 치료 단계적 접근**:
-
-  1. 1차: 최대 내약 용량 스타틴(statin) 및 에제티미브(ezetimibe).
-  2. 2차: PCSK9 억제제, 벰페도익산(bempedoic acid) 추가 고려.
-  3. 동형접합(Homozygous) FH: 로미타피드(lomitapide), 에비나쿠맙(evinacumab), 지질 성분 분리술(lipoprotein apheresis) 고려.
-- **치료 목표**: 심혈관 질환 예방을 위해 강화된 LDL-C 목표치 설정 및 지속적 모니터링.
-출처: Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association.
-
-**치료 강화 판단**:
-- LDL-C를 기저치에서 ≥50% 낮추는 반응과 위험군별 절대 목표를 함께 본다.
-- 관상동맥질환 동반: 국내 LDL-C 목표 **<55 mg/dL** 적용.
-- 최대 내약 statin·ezetimibe에도 목표 미달: PCSK9 기반 치료 등 추가 약제 논의.
-- LDL-C ≥190 mg/dL은 이차 원인을 배제한 뒤 FH 평가와 적극적 약물치료를 시작하는 중요한 기준이며, 단기 위험도 점수가 낮다고 치료를 미루지 않는다.
+- **가족 관리**: 조기 ASCVD 위험 설명, 1·2촌 cascade screening·소아 평가 연계
+  - 생활요법은 약물치료를 대체하지 않음
+- **이형접합 FH**: 최대 내약 고강도 statin, 목표·위험에 따라 ezetimibe 추가
+  - 목표 미달: PCSK9 억제제/siRNA·bempedoic acid 등 검토
+  - 임상 ASCVD·매우 높은 LDL-C: 조기 전문의 의뢰
+- **동형접합 FH**: lipid specialist 의뢰, LDL/lipoprotein apheresis·lomitapide·evinacumab 등 다중요법 및 접근성 검토
+- **목표·강화 기준**
+  - 기저 LDL-C 대비 **≥50% 감소**와 위험군별 절대 목표 함께 평가
+  - 관상동맥질환 동반: 국내 목표 **<55 mg/dL**
+  - **LDL-C ≥190 mg/dL**: 이차 원인 배제 후 FH 평가·적극 치료, 낮은 단기 위험점수만으로 미루지 않음
+- **안전·추적**: LDL 반응·순응도, 간효소·근육 증상
+  - 임신 계획/임신: statin 등 금기·제한 약제 사전 조정
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적극적인 LDL-C 저하 치료를 통해 관상동맥 죽상경화증의 진행을 늦추거나 예방할 수 있다.
+
+출처: Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association.
 
 Last updated :
 2024-07-30 — 초기 작성

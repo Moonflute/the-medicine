@@ -42,7 +42,9 @@ sources: ["NCI PDQ Lugano 병기 | https://www.cancer.gov/types/lymphoma/hp/aggr
 
 ## 4. 진단 (Diagnosis)
 - 병리 조직검사 및 면역표현형(TdT 양성, CD19/CD79a/PAX5 등 B-세포 마커 또는 CD3 등 T-세포 마커 발현)을 기반으로 확진한다.
-- 골수 검사: 골수 내 모세포 비율이 20% 미만일 때 LBL로 진단한다.
+- **ALL/LBL 구별**: 주된 침범 부위와 골수 blast를 함께 판단
+  - 골수 침범이 없거나 제한적인 종괴 중심 질환은 LBL에 해당
+  - <20% 기준을 사용하는 설명과 25%를 경계로 삼는 치료 프로토콜이 있으므로 적용 분류·프로토콜을 명시
 
 **성인 림프종의 Lugano 병기**:
 
@@ -53,9 +55,12 @@ sources: ["NCI PDQ Lugano 병기 | https://www.cancer.gov/types/lymphoma/hp/aggr
 | III | 횡격막 양쪽의 림프절, 또는 횡격막 위 림프절과 비장 침범 |
 | IV | 골수·간·뇌척수액 등 파종성/비연속성 림프절외 침범 |
 
-병기와 별도로 **가장 큰 종괴의 크기, LDH, ECOG, 림프절외 침범 부위**를 기록한다. 큰 종괴(bulky)의 크기 기준은 조직형·치료 프로토콜에 따라 달라지며 II기라도 치료 강도가 달라질 수 있다. B증상은 원인 불명 >38°C 발열, 흠뻑 젖는 야간 발한, 6개월 내 >10% 체중감소이다. A/B 접미사는 주로 호지킨 림프종에 사용하고, 비호지킨에서는 증상 자체를 따로 기록한다.
-
-소아에서는 St. Jude/Murphy 또는 IPNHLSS 등 소아 전용 병기와 해당 치료 프로토콜을 적용한다. 중추신경·골수 침범을 따로 확인하며, 성인 Lugano 병기만으로 항암 강도를 결정하지 않는다.
+- **별도 기록**: 최대 종괴 크기, LDH, ECOG, 림프절외 침범 부위
+  - Bulky 기준은 조직형·프로토콜별로 다르며 II기라도 치료 강도에 영향
+- **B증상**: 원인 불명 >38°C 발열, 흠뻑 젖는 야간 발한, 6개월 내 >10% 체중감소
+  - A/B 접미사는 주로 호지킨에 사용, 비호지킨은 증상 자체를 기록
+- **소아**: St. Jude/Murphy 또는 IPNHLSS 등 소아 전용 병기·치료 프로토콜 적용
+  - CNS·골수 침범을 별도 확인, 성인 Lugano만으로 치료 강도를 결정하지 않음
 
 ## 5. 치료
 
@@ -69,6 +74,6 @@ sources: ["NCI PDQ Lugano 병기 | https://www.cancer.gov/types/lymphoma/hp/aggr
 - 매우 공격적인 질환으로, 조기 진단과 즉각적인 치료가 예후를 결정한다.
 - 재발 모니터링이 필수적, 유전적 아형에 따라 예후가 다를 수 있다.
 
-출처 : StatPearls: Lymphoblastic Lymphoma
+출처 : StatPearls: Lymphoblastic Lymphoma; [NCI Childhood NHL](https://www.cancer.gov/types/lymphoma/hp/child-nhl-treatment-pdq); [CAP Lymphoid Neoplasms Protocol](https://documents.cap.org/protocols/Heme.Lymphoid.Bx.Res_1.0.0.0.REL_CAPCP_R.pdf)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

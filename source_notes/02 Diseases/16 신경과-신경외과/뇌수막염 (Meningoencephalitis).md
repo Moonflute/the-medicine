@@ -24,52 +24,47 @@ sources: ["WHO 2025 | https://www.ncbi.nlm.nih.gov/books/NBK614844/"]
 
 ## 1. 개요
 - **정의**: 뇌와 뇌수막의 염증
-- **원인**: 성인: S.pneumoniae, N.meningitidis, L.monocytogens
-유아: S.pneumoniae, N.meningitidis, H.influenzae
-신생아: Group B Streptococcus, E.coli, L.monocytogenes
-바이러스: Enterovirus > Herpes simplex virus
-기타: M.tuberculosis, 진균(Cryptococcus, Aspergillus), 기생충, 아메바(Naegleria fowleri 등)
-
-**기전**:
-
-  병원체가 혈류를 통해 뇌수막으로 침투하거나, 인접 부위(부비동 등)의 감염이 직접 파급되어 발생.
-  아메바성 뇌수막염은 오염된 담수 노출 후 후각 신경을 통해 침투함.
+- **세균성 원인**
+  - 성인: S. pneumoniae, N. meningitidis, L. monocytogenes
+  - 유아: S. pneumoniae, N. meningitidis, H. influenzae
+  - 신생아: Group B Streptococcus, E. coli, L. monocytogenes
+- **기타 원인**: enterovirus·HSV, 결핵균, 진균(Cryptococcus·Aspergillus), 기생충·아메바(Naegleria fowleri 등)
+- **기전**: 혈행성 전파 또는 부비동 등 인접 감염의 직접 파급
+  - Naegleria: 오염된 담수 노출 후 후각 신경을 통해 침투
 
 ## 2. 임상 양상 (Clinical Features)
-**CC**:
-
-  발열, 두통, 구토, 수막 자극 징후(목 뻣뻣함), 의식 저하, 발작.
-  Petechiae는 N.meningitidis 시사.
-  약물 유발 무균성 수막염, 선행 항생제, 접촉·여행력, 최근 외상·수술·shunt 및 면역 상태를 함께 확인한다.
-
-**P/E**:
-
-  수막 자극 징후(Kernig, Brudzinski sign).
-  HSV 뇌염 시 측두엽 침범으로 인한 인격 변화, 기억력 장애, 발작 등이 동반될 수 있음.
+- **증상**: 발열·두통·구토·목 경직, 의식 저하·발작
+- **수막 자극 징후**: Kernig·Brudzinski sign
+- **병원체 단서**: 점상출혈은 수막염균 시사; HSV는 측두엽 침범에 따른 인격·기억·언어 변화·발작
+- **병력**: 약물 유발 가능성, 선행 항생제, 접촉·여행력, 외상·수술·shunt, 면역 상태
 
 ## 3. 검사 (Lab & Imaging)
-- CSF 검사로 원인 병원체 유추.
-  세균성 수막염이 의심되면 혈액배양을 채취한 뒤 CT 또는 LP 지연 때문에 항균 치료를 미루지 않는다.
-- 세균성: 중성구 증가, 당 감소, 단백질 증가
-- 바이러스성: 림프구 증가, 당 정상, 단백질 정상~경미 증가
-- 결핵성: 림프구 증가, 당 감소, 단백질 현저히 증가
-- 아메바성: 젖은 도말(wet mount) 검사로 운동성 영양형 확인, PCR 진단
+- **CSF**: 세포수·당·단백질·배양·그람 염색·PCR
+- **치료 우선**: 세균성 의심 시 혈액배양 채취 후 치료 시작; CT·LP 지연으로 항균제를 미루지 않음
+
+| 원인 | 흔한 CSF 양상·검사 |
+| --- | --- |
+| 세균성 | 중성구 증가, 당 감소, 단백질 증가 |
+| 바이러스성 | 림프구 증가, 당 정상, 단백질 정상–경미 증가 |
+| 결핵성 | 림프구 증가, 당 감소, 단백질 현저히 증가 |
+| 아메바성 | Wet mount에서 운동성 영양형, PCR |
 
 ## 4. 진단 (Diagnosis)
-- CSF 분석(세포수, 당, 단백질, 배양, 그람 염색, PCR)이 핵심.
-  뇌 영상(MRI/CT)은 뇌부종, 수막 조영 증강, 농양 등을 확인하는 데 유용함.
-- 결핵성 수막염은 서서히 진행하고 뇌신경 이상·수두증을 보일 수 있으며, TB PCR 음성만으로 배제하지 않는다. HSV 뇌염은 성격·언어 변화와 측두엽 병변을 보일 수 있고, 초기 PCR 음성이어도 의심이 높으면 재평가한다.
+- **진단**: CSF와 임상 양상 종합; MRI/CT로 뇌부종·수막 조영 증강·농양 등 평가
+- **결핵성**: 서서히 진행, 뇌신경 이상·수두증 가능; TB PCR 음성만으로 배제하지 않음
+- **HSV 뇌염**: 성격·언어 변화·측두엽 병변; 초기 PCR 음성이어도 의심이 높으면 재평가
 
 ## 5. 치료
-**지역사회 세균성 수막염**:
-
-ceftriaxone/cefotaxime을 신속 투여하고 지역 폐렴구균 내성에 따라 vancomycin을 추가한다. **>60세·임신·면역저하** 등 Listeria 위험이면 ampicillin/amoxicillin을 추가한다. 신생아는 별도 신생아 패혈증 경로를 적용하며 ceftriaxone 기반 성인 처방을 그대로 쓰지 않는다. LP/CT 때문에 항생제를 지연하지 않는다. 비유행성 세균성 수막염에서 dexamethasone은 가능하면 첫 항생제와 동시에 시작하고 CSF·균 결과에 따라 지속 여부를 정한다.
-
-- HSV 의심 시 즉시 IV acyclovir 시작하고 치료 반응을 모니터링
-- 결핵성 의심 시 항결핵제와 스테로이드를 병용하고, 전파 방지를 위해 격리 조치
-- 아메바성 의심 시 Amphotericin B 기반 병용 요법을 신속히 시작하고 감염내과·신경외과 협진
-- 치료 후 CSF 재검사, 신경학적 추적 및 청력 검사 등 합병증 모니터링, 예방접종(수막염균) 권고
-- 적절한 치료에도 반응이 없거나 신경학적 악화가 있으면 뇌농양, 수두증 및 혈관 합병증을 재평가한다.
+- **지역사회 세균성 수막염**: ceftriaxone·cefotaxime 신속 투여, 지역 폐렴구균 내성에 따라 vancomycin 추가
+  - Listeria 위험(**>60세·임신·면역저하** 등): ampicillin·amoxicillin 추가
+  - 신생아: 별도 신생아 패혈증 경로 적용, 성인 ceftriaxone 처방을 그대로 사용하지 않음
+  - LP·CT 때문에 항생제를 지연하지 않음
+  - 비유행성 세균성 수막염: dexamethasone을 가능하면 첫 항생제와 동시에 시작, CSF·균 결과로 지속 여부 결정
+- **HSV 의심**: 즉시 IV acyclovir, 반응 모니터링
+- **결핵성 의심**: 항결핵제+steroid, 전파 위험에 맞는 격리
+- **아메바성 의심**: amphotericin B 기반 병용 요법 신속 시작, 감염내과·신경외과 협진
+- **추적·예방**: 신경학적 평가·청력 검사, 적응증에 따른 수막염균 예방접종
+  - 반응 부족·악화 시 CSF 재검 필요성 및 뇌농양·수두증·혈관 합병증 재평가
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료가 예후를 결정함.
@@ -77,6 +72,7 @@ ceftriaxone/cefotaxime을 신속 투여하고 지역 폐렴구균 내성에 따�
   아메바성 뇌수막염은 치명률이 매우 높음.
 
 출처 : Merck Manual Professional, StatPearls (Naegleria Infection)
+보완 출처: [WHO 수막염 지침 요약](https://www.ncbi.nlm.nih.gov/books/NBK614846/?report=printable)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 

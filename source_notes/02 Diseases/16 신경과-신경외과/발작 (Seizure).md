@@ -25,7 +25,8 @@ sources: ["NICE NG217 | https://www.nice.org.uk/guidance/ng217/chapter/treating-
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 부분 발작(국소 인식 발작, 국소 인식 손상 발작), 전신 발작(전신 강직 간대 발작, 근간대 발작, 결신 발작, 무긴장 발작)
-- 목격자로부터 전조, 초기 머리·눈 편위와 운동 시작 부위, 의식 보존·자동증·전파 양상 및 회복 과정을 기록한다. 가능하면 영상도 확보하되 처치를 지연하지 않는다.
+- **목격자 병력**: 전조, 초기 머리·눈 편위·운동 시작 부위, 의식·자동증·전파·회복 과정
+  - 가능하면 영상 확보, 처치를 지연하지 않음
 
 **P/E**
 
@@ -41,29 +42,29 @@ sources: ["NICE NG217 | https://www.nice.org.uk/guidance/ng217/chapter/treating-
 - **혈액 검사**: 전해질, 혈당, 약물 농도, 임신 테스트(가임기 여성)
 - **뇌영상(MRI/CT)**: 구조적 병변 확인(특히 40세 이상, 국소 신경학적 결손, 발열, 두부 외상 병력 시 필수)
 
-**뇌파(EEG)**:
-
-  뇌전증 진단 및 분류의 핵심 지표.
-  결신 발작 시 3-Hz 극서파(spike-and-wave) 관찰
+- **EEG**: 뇌전증 진단·분류 보조, 결신 발작은 **3-Hz 극서파**
 - 발작 후 국소 결손은 Todd 마비로 단정하지 않고 구조 병변을 영상으로 평가한다. 의식저하가 지속되면 비경련성 간질지속상태를 고려해 EEG를 평가한다.
 - 암 또는 이식 환자에서는 기회감염, 약물·대사 이상 및 구조적 원인을 함께 평가한다.
 - **요추 천자**: 감염 의심 시 고려
 
 ## 4. 진단 (Diagnosis)
 - 발작의 유발 요인(provoked) 여부 확인(전해질, 약물, 감염 등)
-- 뇌전증(Epilepsy): 유발 요인 없이 반복되는 비유발성 발작이 2회 이상 발생한 경우
+- **뇌전증**: >24시간 간격의 비유발·반사 발작 ≥2회, 또는 1회 후 10년 재발 위험 ≥60%, 또는 뇌전증 증후군 진단 중 하나
 - 감별 진단: 실신(syncope), 심인성 비뇌전증 발작(PNES), 수면 장애 등
 
 ## 5. 치료
-**5분 기준**:
-
-경련이 **5분 이상 지속**하거나 회복 없이 반복되면 상태발작으로 치료한다. 기도·혈당·산소화 확인과 원인 교정을 병행하며 IV lorazepam 또는 접근 가능한 midazolam 등 benzodiazepine을 투여한다.
-
-**다음 단계**:
-
-첫 투여 후 5–10분에도 지속하면 한 차례 반복할 수 있다. 적정 benzodiazepine **2회에도 지속**하면 IV levetiracetam, fosphenytoin/phenytoin 또는 valproate를 사용한다. 지속 실패는 불응성 상태발작으로 중환자실·지속 EEG·마취제 치료를 평가한다. 호흡억제 감시와 함께 투여하며 용량 부족으로 지연하지 않는다.
-
-급성 원인 교정 후 장기 약의 필요성은 유발성 여부·재발 위험·발작 유형에 따라 결정한다. 국소 발작에는 lamotrigine/levetiracetam 등을, 순수 결신에는 ethosuximide 등을 선택하며 서로 다른 발작 유형에 같은 약제를 일괄 적용하지 않는다.
+- **상태발작**: 경련 **≥5분** 또는 회복 없이 반복
+  - 기도·혈당·산소화 확인, 원인 교정
+  - IV lorazepam 또는 접근 가능한 midazolam 등 BZD
+- **지속 시**
+  - 첫 투여 후 **5–10분**에도 지속: BZD 한 차례 반복 가능
+  - 적정 BZD **2회**에도 지속: IV levetiracetam·fosphenytoin/phenytoin·valproate 중 선택
+  - 계속되면 불응성 상태발작: ICU·지속 EEG·마취제 치료 평가
+  - 호흡억제 감시, 용량 부족에 따른 지연 방지
+- **장기 ASM**: 급성 원인 교정 후 유발성 여부·재발 위험·발작 유형으로 결정
+  - 국소 발작: lamotrigine·levetiracetam 등
+  - 순수 결신: ethosuximide 등
+  - 서로 다른 유형에 같은 약제를 일괄 적용하지 않음
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 유발 요인이 교정 가능한 경우 예후 양호
@@ -72,4 +73,4 @@ sources: ["NICE NG217 | https://www.nice.org.uk/guidance/ng217/chapter/treating-
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
-출처: 삼성서울병원 메뉴얼
+출처: 삼성서울병원 메뉴얼, [ILAE 임상 정의](https://www.ilae.org/guidelines/guidelines-and-reports/a-practical-clinical-definition-of-epilepsy)

@@ -57,7 +57,10 @@ sources: ["IDSA — Treatment of Antimicrobial Resistant Gram-Negative Infection
 ## 감염원과 특수 노출 관리
 - 패혈증에서는 적절한 배양·초기 항균제와 감염원 조절을 병행한다. 배양 양성을 집락화와 구분하고, 안정화 뒤 경구 전환·범위 축소를 검토한다.
 
-Brucella는 장기 침범과 임신·연령에 따라 치료가 달라진다. 일반 성인의 비복잡성 감염은 doxycycline·rifampin 병용을 최소 6주 적용하며, RB51은 rifampin 내성을 고려한다. 의심 시 검사실에 미리 알린다.
+- **Brucella**: 장기 침범·임신·연령에 따라 치료 선택
+  - 일반 성인 비복잡성 감염: doxycycline + rifampin **최소 6주**
+  - RB51: rifampin 내성 고려
+  - 의심 시 검사실에 미리 알림
 
 - 빠르게 진행하는 조직 괴사는 검사 결과를 기다리며 항생제만 유지하지 말고 수술적 감염원 조절 필요성을 즉시 평가한다.
 

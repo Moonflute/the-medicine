@@ -27,6 +27,14 @@ reviewed_at: "2026-07-30"
 * **CC**: "자꾸 잊어버려요", "방금 한 일을 기억 못 해요", "과거 기억이 나지 않아요".
 * **P/E**: 인지기능 검사(MMSE, MoCA), 신경학적 검사, 정신상태 검사(MSE)를 통해 기억력 저하의 양상(단기/장기) 및 동반 증상 확인.
 
+**관련 용어**
+
+- 기억 항진(Hypermnesia)
+- 기억상실(Amnesia): 전향성(Anterograde)·후향성(Retrograde)·심인성(Psychogenic)
+- 기억 착오(Paramnesia), 작화증(Confabulation), 회상 조작(Memory distortion)
+- 기시감(Déjà vu)·미시감(Jamais vu)
+- 병적 거짓말(Pathological lying): 진술의 신뢰성 평가에서 함께 구분
+
 ## 3. 검사 (Lab & Imaging)
 - **신경심리검사**: 기억력, 주의력, 집행기능 등 정밀 평가.
 - **영상 검사**: 뇌 MRI/CT (뇌 위축, 병변 확인), PET (대사 기능 평가).
@@ -45,43 +53,8 @@ reviewed_at: "2026-07-30"
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 질환에 따라 가역적일 수 있으나, 퇴행성 질환은 점진적 악화 가능성 있음.
-- 합병증: 일상생활 수행 능력 저하, 낙상, 우울증, 섬망.
-
-**기억 항진 (Hypermnesia)**
-
-**건망증 (Amnesia)**
-
-* 전향성 기억상실 (Anterograde amnesia)
-* 후향성 기억상실 (Retrograde amnesia)
-* 심인성 기억상실 (Psychogenic amnesia)
-
-**기억 착오 (Paramnesia)**
-
-* 작화증 (Confabulation)
-* 회상 조작 (Memory distortion)
-* 병적 거짓말 (Pathological lying)
-
-**기시감 (Déjà vu)**
-
-**미시감 (Jamais vu)**
+- **합병증**: 일상 기능 저하·낙상·우울증·섬망
 
 출처 : Kaplan & Sadock's Synopsis of Psychiatry
 Last updated :
-
-**기억 항진 (Hypermnesia)**
-
-**건망증 (Amnesia)**
-
-* 전향성 기억상실 (Anterograde amnesia)
-* 후향성 기억상실 (Retrograde amnesia)
-* 심인성 기억상실 (Psychogenic amnesia)
-
-**기억 착오 (Paramnesia)**
-
-* 작화증 (Confabulation)
-* 회상 조작 (Memory distortion)
-* 병적 거짓말 (Pathological lying)
-
-**기시감 (Déjà vu)**
-
-* **미시감 (Jamais vu)**: 2026-05-18 — 본문 갱신 (codex fill)
+2026-05-18 — 본문 갱신 (codex fill)

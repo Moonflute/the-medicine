@@ -46,9 +46,10 @@ sources: ["VA/DoD: Management of PTSD and Acute Stress Disorder (2023) | https:/
 해리장애는 별도 진단군이다. 외상과 연관될 수 있지만 외상 병력 하나로 진단하지 않는다. 간질·두부 손상·중독 등도 감별한다.
 
 ## 근거 기반 치료
-VA/DoD 2023은 PTSD에서 지속 노출, 인지처리치료, EMDR 같은 외상 초점 심리치료를 우선 권고한다. 치료를 원하지 않거나 이용하기 어렵다면 sertraline·paroxetine·venlafaxine 등 근거 있는 약물을 논의한다.
-
-벤조디아제핀을 PTSD의 기본 치료로 사용하지 않는다. Prazosin은 PTSD 관련 악몽에는 고려할 수 있지만 PTSD 전체 증상을 치료하는 약으로 권고하지 않는다. 외상 직후 누구에게나 강제적인 단회 심리 디브리핑을 시행하지 않는다.
+- **PTSD 우선 치료** (VA/DoD 2023): 지속 노출·인지처리치료·EMDR 등 외상 초점 심리치료
+- **약물 대안**: 심리치료를 원하지 않거나 이용하기 어려우면 sertraline·paroxetine·venlafaxine 등 논의
+- **Prazosin**: PTSD 관련 악몽에 고려 가능, PTSD 전체 증상 치료약으로는 권고하지 않음
+- **피할 개입**: PTSD의 기본 치료로 benzodiazepine 사용, 외상 직후 일률적인 강제 단회 심리 디브리핑
 
 ## 추적과 기능 회복
 

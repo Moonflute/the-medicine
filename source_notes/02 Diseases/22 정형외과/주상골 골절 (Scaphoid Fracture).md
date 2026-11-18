@@ -28,37 +28,32 @@ sources: ["BSSH 주상골 골절 기준 | https://www.bssh.ac.uk/_userfiles/page
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 손목 통증 및 부종, 특히 엄지손가락 기저부 통증.
 
-**P/E**:
-
-  해부학적 코담배갑(snuff box) 압통이 특징적.
-  주상골 압박 검사(scaphoid compression test) 시 통증 유발.
+- **진찰**: 해부학적 코담배갑(snuffbox) 압통, 주상골 압박 통증
 
 ## 3. 검사 (Lab & Imaging)
-- **영상**: 손목 PA, lateral 및 scaphoid view(30도 신전, 20도 요측 편위) 촬영.
-
-**특이사항**:
-
-  초기 방사선 검사에서 골절이 보이지 않는 경우가 많음(최대 25%).
-  의심 시 7-14일 후 재촬영하거나 MRI(가장 민감도 높음) 시행.
+- **영상**: 손목 PA·측면·사면·척측 편위 주상골 전용 촬영
+- **초기 음성**: 골절이 보이지 않을 수 있음(최대 **25%**)
+  - 의심 시 고정 후 **7–14일** 재촬영 또는 MRI(높은 민감도)
 
 ## 4. 진단 (Diagnosis)
 - 임상적 의심이 중요하며, 방사선상 음성이라도 압통이 지속되면 골절에 준하여 고정 치료 필요.
 
 ## 5. 치료
-- 의심되지만 초기 X-ray가 음성이면 손목을 고정하고 MRI 등으로 확진한다. 확진된 골절은 CT로 전위·불안정성을 평가해 치료를 정한다.
-
-**주상골 허리 골절의 전위 <2 mm 또는 원위부 골절**은 석고 고정으로 치료할 수 있다. 안정 골절에서는 반드시 엄지를 포함할 필요는 없으며 부위·유합에 따라 기간을 조정한다.
-
-**허리 골절 >2 mm 전위, 전위가 있는 근위극 골절, 월상골 주위 탈구 동반**은 조기 수술 고정 대상이다. 약 2 mm 경계값, 근위극 무전위 골절, 불안정성은 CT와 전문 평가로 결정한다. 단순히 빠른 복귀 희망만으로 안정 골절을 모두 수술하지 않는다.
-
-- 임상·영상으로 유합을 확인한 뒤 부하를 늘리고 지연 유합/불유합은 추가 고정을 평가한다.
+- **의심 + 초기 X선 음성**: 손목 고정·MRI 등 확진
+- **확진 후**: CT로 전위·불안정성 평가
+- **석고 고려**: 허리 골절 **전위 <2 mm** 또는 원위부 골절
+  - 안정 골절은 엄지 포함 고정이 필수는 아님, 부위·유합별 기간 조정
+- **조기 수술**: 허리 **전위 >2 mm**·전위된 근위극·월상골 주위 탈구 동반
+  - 약 2 mm 경계·무전위 근위극·불안정성: CT·전문 평가
+  - 빠른 복귀 희망만으로 안정 골절 모두 수술하지 않음
+- **추적**: 임상·영상 유합 후 부하 증가, 지연/불유합은 추가 고정 검토
 
 ## 6. 예후 및 합병증 (Prognosis)
-**합병증**:
-
-  불유합(non-union) 및 무혈성 괴사(AVN, 특히 근위부 골절 시 위험 높음).
-  방치 시 SNAC(Scaphoid Nonunion Advanced Collapse) 관절염으로 진행 가능.
+- **불유합·무혈성 괴사**: 특히 근위부 위험
+- **미치료**: SNAC(Scaphoid Nonunion Advanced Collapse) 관절염 가능
 
 출처 : StatPearls (Scaphoid Wrist Fracture)
+- [BSSH: Scaphoid fracture standards](https://www.bssh.ac.uk/_userfiles/pages/files/professionals/Trauma%20standards/Scaphoid%20standards.pdf)
+- [Scaphoid imaging consensus, 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13710594/)
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

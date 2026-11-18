@@ -26,11 +26,12 @@ reviewed_at: "2026-07-30"
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 입안의 심한 통증, 궤양
 
-**분류**:
+| 유형 | 크기·특징 | 경과 |
+| --- | --- | --- |
+| 소아프타성(Minor) | 가장 흔함, **<10 mm** | **1~2주**, 흉터 없이 치유 |
+| 대아프타성(Major) | **≥10 mm** | **5~10주**, 흉터 가능 |
+| 포진형(Herpetiform) | 다수의 작은 궤양이 융합 | 병변 수·통증 평가 |
 
-  * 소아프타성(Minor): 가장 흔함, 5mm 미만, 1~2주 내 흉터 없이 치유
-  * 대아프타성(Major): 10mm 이상, 5~10주 지속, 흉터 남길 수 있음
-  * 포진형(Herpetiform): 다수의 작은 궤양이 융합되어 나타남
 * **P/E**: 경계가 명확한 궤양, 주변부 홍반성 테두리, 회백색 위막
 
 ## 3. 검사 (Lab & Imaging)
@@ -43,7 +44,8 @@ reviewed_at: "2026-07-30"
 
 ## 5. 치료
 * **대증 요법**: 자극적인 음식(맵고 짠 음식, 산성 과일 등)을 피하고 부드러운 식이를 권장하며, 구강 위생을 청결히 유지함.
-* **국소 치료**: 통증 완화 및 치유 촉진을 위해 국소 스테로이드 연고를 도포하고, 2차 세균 감염 예방을 위해 클로르헥시딘 가글을 병행함.
+- **국소 치료**: 통증·치유를 위해 국소 스테로이드
+  - Chlorhexidine 가글: 허가 연령과 뱉기 능력을 확인해 보조적으로 고려; 삼킬 위험이 있는 어린 소아에게 일률 처방하지 않음
 * **영양 관리**: 철분, 엽산, 비타민 B12 등 결핍이 의심되는 경우 이를 보충하여 재발 빈도를 관리함.
 * **추적 관찰 및 전원**: 궤양의 크기가 크거나 치유가 지연되는 경우, 혹은 전신 증상이 동반될 시 베체트병 등 기저 질환 감별을 위해 상급 병원 진료를 고려함.
 
@@ -52,6 +54,6 @@ reviewed_at: "2026-07-30"
 * 대부분 흉터 없이 치유되나, 대아프타성 등은 흉터가 남을 수 있음
 * 통증으로 인한 섭취 저하 및 탈수 주의
 
-출처 : StatPearls (Recurrent Aphthous Stomatitis)
+출처 : StatPearls (Recurrent Aphthous Stomatitis); [IARC 아프타성 궤양](https://screening.iarc.fr/atlasoral_list.php?cat=F10&lang=1); [NHS chlorhexidine 사용 대상](https://www.nhs.uk/medicines/chlorhexidine/who-can-and-cannot-use-chlorhexidine/)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

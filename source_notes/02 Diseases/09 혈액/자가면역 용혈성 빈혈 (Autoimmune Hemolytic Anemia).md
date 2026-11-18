@@ -28,11 +28,10 @@ review_status: "guideline_enriched"
 ## 1. 개요
 - **정의**: 자신의 적혈구에 대한 자가항체가 생성되어 적혈구가 파괴되는 용혈성 빈혈.
 - **원인**: 자가면역 질환 (루푸스 등), 림프증식성 질환, 약물, 감염 등과 연관되거나 특발성으로 발생.
-- **기전**: 직접 쿰스 검사 (Direct Coombs test) 양성으로 진단.
-  **온난 자가면역 용혈성 빈혈 (Warm AIHA)** : 자가 IgG 항체가 37°C 이상의 온도에서 적혈구와 반응하며, 주로 비장에서 혈관 외 용혈을 유발.
-  **한랭 자가면역 용혈성 빈혈 (Cold AIHA)** : 자가 IgM 항체가 37°C 미만에서 적혈구와 반응하며, 주로 보체 매개성 용혈을 유발.
-
-온난형은 특발성이거나 SLE, CLL, 림프종, 동종 조혈모세포이식 후 및 약물(cefotetan, ceftriaxone 등)과 연관될 수 있다. 한랭응집소병은 특발성 또는 EBV·CMV·Mycoplasma 감염, Waldenström macroglobulinemia·림프종과 연관될 수 있다.
+- **온난 AIHA**: 주로 IgG가 약 37°C에서 반응, 비장의 혈관 외 용혈
+  - 특발성 또는 SLE·CLL·림프종, allo-HSCT 후, 약물(cefotetan·ceftriaxone 등) 연관
+- **한랭 AIHA**: 주로 IgM이 낮은 온도에서 반응, 보체 매개 용혈
+  - 원발성 한랭응집소병 또는 EBV·CMV·Mycoplasma, Waldenström·림프종 등과 연관된 이차성 형태
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 빈혈 증상 (피로, 창백, 심한 경우 흉통, 실신, 심부전).
@@ -40,27 +39,27 @@ review_status: "guideline_enriched"
 - 급성 중증 AIHA는 수일 안에 심한 Hb 저하, 황달, 비장비대를 보일 수 있다. Evans syndrome(AIHA와 ITP 동반) 여부도 확인한다.
 
 ## 3. 검사 (Lab & Imaging)
-- 용혈성 빈혈의 일반적인 소견 (망상적혈구 증가, LDH 증가, 간접 빌리루빈 증가, 합토글로빈 감소).
-  직접 쿰스 검사 (Direct Coombs test) 양성.
-  Warm AIHA : IgG 양성 (C3d 동반 가능).
-  Cold AIHA : C3d 양성 (IgG는 대개 음성), 한랭 응집소 역가 증가.
+- **용혈 지표**: 망상적혈구·LDH·간접 bilirubin 증가, haptoglobin 감소
+- **DAT(직접 Coombs)**
+  - 온난형: IgG 양성, C3d 동반 가능
+  - 한랭형: C3d 양성·IgG 대개 음성, 한랭응집소 역가 증가
+- **도말**: spherocyte 관찰 가능
 
 ## 4. 진단 (Diagnosis)
-- 임상 양상과 직접 쿰스 검사 양성으로 진단.
-  말초혈액 도말검사에서 구상적혈구(spherocyte) 관찰 가능.
+- **진단**: 용혈 증거·임상 양상과 DAT 등 면역혈액학 검사를 종합
+  - DAT 음성 AIHA도 가능하므로 임상 의심이 높으면 추가 검사·다른 원인 감별
 
 ## 5. 치료 (Treatment)
-**공통** : 심각한 빈혈 시 수혈 (적합 혈액이 없더라도 생명 위협 시 시행).
-  **Warm AIHA** :
-    1차 치료: 글루코코르티코이드 (프레드니손 등).
-    불응성/재발 시: 리툭시맙, 비장 적출술, 면역억제제 (아자티오프린, 마이코페놀레이트 등), IVIG.
-    약물 유발성인 경우 원인 약물 중단.
-  **Cold AIHA** :
-    추위 노출 회피.
-    기저 질환 치료.
-    리툭시맙 (단독 또는 화학요법 병용), 보체 억제제 고려.
-
-중증 급성 AIHA는 응급상황이며 수혈 호환성 문제가 있을 수 있다. 생명을 위협하는 빈혈에서는 교차시험을 진행하면서 수혈을 지연하지 않되, 안정적이면 수혈 필요성을 신중히 판단한다. 매뉴얼의 온난형 1차 예시는 prednisolone 1 mg/kg/day이며, 재발·불응성에서는 rituximab 또는 비장절제술을 고려한다.
+- **중증 급성 빈혈**: 응급 평가, 혈액은행과 수혈 계획
+  - 생명 위협 시 교차시험을 진행하면서 수혈을 지연하지 않음
+  - 안정적이면 수혈 필요성을 신중히 판단
+- **온난 AIHA**
+  - 1차: glucocorticoid; 매뉴얼 예시 prednisolone 1 mg/kg/day
+  - 불응·재발: rituximab·비장절제, 면역억제제(azathioprine·mycophenolate 등)·IVIG 검토
+  - 약물 유발: 원인 약물 중단
+- **한랭 AIHA**
+  - 한랭 노출 회피·기저질환 치료
+  - Rituximab(단독/화학요법 병용), 보체 억제제 고려
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료에 반응하는 경우가 많으나, 재발 가능성 있음.
@@ -71,4 +70,4 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 2026-07-15 — 공식 지침 기반 Tier 2 보강
 
-출처: Merck Manual Professional (Autoimmune Hemolytic Anemia); 삼성서울병원 메뉴얼
+출처: Merck Manual Professional (Autoimmune Hemolytic Anemia); 삼성서울병원 메뉴얼; [ASH AIHA 진단 접근](https://pmc.ncbi.nlm.nih.gov/articles/PMC6246027/); [ASH AIHA 치료](https://doi.org/10.1182/blood-2016-11-693689)

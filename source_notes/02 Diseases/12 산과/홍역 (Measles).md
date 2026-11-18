@@ -29,10 +29,7 @@ sources: ["SMFM 임신 중 홍역 권고 | https://www.smfm.org/measles"]
 - **정의**: 홍역 바이러스(Measles virus)에 의한 급성 발열성 발진 질환으로, 전염성이 매우 강함.
 - **원인**: Paramyxoviridae과의 Morbillivirus(RNA 바이러스).
 
-**기전**:
-
-  호흡기 비말을 통해 전파되며, 림프구와 수지상세포를 감염시킨 후 전신으로 확산됨.
-  면역 억제를 유발하여 이차 세균 감염에 취약해짐.
+- **기전**: 공기전파로 감염 후 림프구·수지상세포를 통해 전신 확산; 면역 억제로 이차 세균 감염에 취약
 
 ## 2. 임상 양상 (Clinical Features)
 * **CC**: 고열, 기침, 콧물, 결막염(3C 증상).
@@ -51,19 +48,20 @@ sources: ["SMFM 임신 중 홍역 권고 | https://www.smfm.org/measles"]
 - 임상적 의심(발열 및 전신 발진)과 함께 RT-PCR 또는 IgM 항체 검사로 확진.
 
 ## 5. 치료
-- 대증 요법: 충분한 수분 공급과 해열제를 통한 보존적 치료를 시행함.
-
-비타민 A: 소아 홍역의 고용량 치료 기준을 임신부에게 적용하지 않는다. 홍역 치료에 쓰는 고용량 vitamin A는 임신 중 금기이며 영양결핍은 산과와 별도 평가한다.
-
-노출 후 예방: 면역 근거가 없는 임신부는 노출 6일 이내 IVIG 400 mg/kg 1회를 투여한다. 임신 중 MMR 생백신은 금기이며 비면역자는 산후 접종을 계획한다.
-
-- 격리 및 감염 관리: 발진 발생 후 4일까지 호흡기 격리를 유지하여 전파를 차단함.
-- 임산부 관리: 중증 합병증 위험이 높으므로 입원 치료 및 면밀한 모니터링을 시행함.
+- **대증 치료**: 수분·해열제 등 보존적 관리
+- **비타민 A**: 소아 홍역의 고용량 요법을 임신부에 적용하지 않음
+  - 임신 중 고용량 금기, 영양결핍은 산과와 별도 평가
+- **노출 후 예방**: 면역 근거 없는 임신부는 노출 6일 이내 IVIG 400 mg/kg 1회
+  - 임신 중 MMR 생백신 금기, 비면역자는 산후 접종 계획
+- **격리**: 발진 발생일을 0일로 하여 이후 4일까지 공기주의; 의료기관에서는 공기감염 격리 적용
+- **임신부 관리**: 중증 합병증 위험을 고려한 입원 치료·면밀한 감시
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 폐렴(사망의 주원인), 중이염, 설사, 뇌염(급성 파종성 뇌척수염, 아급성 경화성 전뇌염 등).
 - 예후: 대부분 회복되나 영유아, 임산부, 면역저하자에서 중증도 및 사망 위험 증가.
 
 출처 : StatPearls (Measles)
+- [ACOG: Measles outbreak management](https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2024/03/management-of-obstetric-gynecologic-patients-during-a-measles-outbreak)
+- [CDC: Clinical Overview of Measles](https://www.cdc.gov/measles/hcp/clinical-overview/)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

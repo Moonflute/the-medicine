@@ -46,10 +46,12 @@ content_updated_at: "2026-07-16"
   - 내분비계: 갑상선 기능 저하증.
 
 ## 3. 검사 (Lab & Imaging)
-* 산전 선별검사: 제1삼분기(NT 포함) 및 제2삼분기(Triple/Quad) 생화학 검사, 세포유전학적 선별검사(cfDNA)를 포함한 다양한 전략(Integrated, Contingent, Reflex screening) 활용 가능.
-* 확진: 융모막 융모 채취(CVS) 또는 양수 천자를 통한 핵형 분석.
-* 신생아기: 심장 초음파(선천성 심장 기형 확인), 갑상선 기능 검사.
-출처: Prenatal screening for trisomy 21 (Down syndrome) using first- and second-trimester biochemistry and nuchal translucency: A technical standard of the American College of Medical Genetics and Genomics (ACMG).
+- **산전 선별**
+  - 제1삼분기(NT 포함)·제2삼분기(Triple/Quad) 생화학 검사
+  - cfDNA 선별검사
+  - Integrated·Contingent·Reflex screening 등 전략 활용 가능
+- **확진검사**: 융모막 융모 채취(CVS) 또는 양수천자의 핵형 분석
+- **신생아 검사**: 심장초음파(선천성 심장 기형), 갑상선 기능
 
 ## 4. 진단 (Diagnosis)
 * 임상적 특징과 세포유전학적 검사(핵형 분석)를 통해 확진함.
@@ -63,5 +65,6 @@ content_updated_at: "2026-07-16"
 * 기대 수명은 크게 향상되었으나, 심장 기형, 백혈병, 조기 치매 등 평생에 걸친 건강 관리가 필요함.
 
 출처 : StatPearls (Down Syndrome)
+- ACMG: Prenatal screening for trisomy 21 (Down syndrome) using first- and second-trimester biochemistry and nuchal translucency: A technical standard of the American College of Medical Genetics and Genomics.
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

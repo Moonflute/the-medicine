@@ -35,13 +35,10 @@ reviewed_at: "2026-07-30"
 * **P/E**: 특이 소견 없음.
 
 ## 3. 검사 (Lab & Imaging)
-* **영상 검사:**
-- CXR/CT: 공동 내 이동 가능한 덩어리(fungus ball)가 관찰됨.
-- Air-crescent sign (공기 초승달 징후): 덩어리와 공동 벽 사이의 공기층.
-
-**Monod sign: 체위 변화에 따라 덩어리가 이동하는 소견.**
-
-  * **혈액/미생물 검사:** Aspergillus-specific IgG 항체 검사, 객담 또는 기관지폐포세척액(BAL) 진균 배양.
+- **CXR/CT**: 공동 내 이동 가능한 fungus ball
+  - Air-crescent sign: 덩어리와 공동 벽 사이 공기층
+  - Monod sign: 체위에 따라 덩어리가 이동
+- **혈액·미생물 검사**: Aspergillus 특이 IgG, 객담 또는 BAL 진균 배양
 
 ## 4. 진단 (Diagnosis)
 - 기존 폐 질환 병력, 특징적인 영상 소견(CT), Aspergillus 혈청학적 검사 또는 배양 결과를 종합하여 진단.
