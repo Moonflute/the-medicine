@@ -84,6 +84,21 @@ test('RES 26 is a separate round without changing the common 2026 year filter', 
   assert.deepEqual(ids.map(id => ({id})).sort(comparePracticeOrder).map(q => q.id), [ids[2], ids[1], ids[0]]);
  });
 
+test('authored rounds follow the archive and reopen from either launch mode without an exam year', () => {
+  const row = { id: 'past', bookId: 'past', bookSeries: '실전', examYear: 2025 };
+  const authored = ['mock-mini-2', 'mock-full-1', 'mock-mini-1'].map(bookId =>
+    ({ ...row, id: bookId, bookId, bookSeries: '창작 모의고사', examYear: null }));
+  const unknown = { ...row, id: 'undated', examYear: null };
+  const bank = [...authored, unknown, row];
+  assert.deepEqual(practiceMockExams(bank).map(r => r.label), ['2025년', '모의고사 1회', '미니 모의고사 1회', '미니 모의고사 2회']);
+  for (const mode of ['selection', 'practice-book']) {
+    const restored = practiceFiltersFromParams(new URLSearchParams({ practiceOnly: '1', mode, practiceExam: 'mock-mini-1' }));
+    assert.deepEqual(bank.filter(q => matchesPractice(q, restored)), [authored[2]]);
+  }
+  assert.deepEqual(bank.filter(q => matchesPractice(q, mockExamFilters(null, 'mock-full-1'))), [authored[1]]);
+  assert.deepEqual(bank.filter(q => matchesPractice(q, { books: [], specialties: [], years: ['unknown'] })), [unknown]);
+});
+
 test('a revised answer is scored independently from the historical accepted choices', () => {
   const original = {
     id: 'QB-EXAMPLE-1', gradingMode: 'multiple-exact', answer: null, acceptedAnswers: ['B', 'D'],
