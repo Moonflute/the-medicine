@@ -1,6 +1,7 @@
 import { readReviewCardRelations, type ReviewCardRelations } from "./review-card-relations";
 
 export type HomeReviewDisplay = "heart" | "cards";
+export type HomeReviewAnswerMode = "flip" | "expand";
 export type ReviewCardSource = { questionId: string; bank: string; label: string };
 
 export type ReviewCard = {

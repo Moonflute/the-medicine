@@ -8,6 +8,7 @@ import {
   REVIEW_CARD_LIMITS,
   draftMatchesReviewCard,
   sortReviewCards,
+  type HomeReviewAnswerMode,
   type HomeReviewDisplay,
   type ReviewCard,
   type ReviewCardDraft,
@@ -18,6 +19,7 @@ import { nextReviewAt, type ReviewConfidence } from "@/lib/review-schedule";
 type CardData = {
   account: string;
   display: HomeReviewDisplay;
+  homeAnswerMode: HomeReviewAnswerMode;
   cards: ReviewCard[] | null;
 };
 
@@ -25,6 +27,7 @@ type ReviewCardsContextValue = {
   account: string | null | undefined;
   cards: ReviewCard[] | null;
   display: HomeReviewDisplay | null;
+  homeAnswerMode: HomeReviewAnswerMode;
   loadError: boolean;
   saving: boolean;
   refresh: () => Promise<void>;
@@ -33,6 +36,7 @@ type ReviewCardsContextValue = {
   restoreCards: (cards: ReviewCard[]) => Promise<void>;
   setHomeHidden: (id: string, hidden: boolean) => Promise<void>;
   setHomeDisplay: (display: HomeReviewDisplay) => Promise<void>;
+  setHomeAnswerMode: (mode: HomeReviewAnswerMode) => Promise<void>;
   rateCard: (card: ReviewCard, confidence: ReviewConfidence) => Promise<void>;
 };
 
@@ -93,18 +97,24 @@ export function ReviewCardsProvider({ children, home = false }: { children: Reac
 
     try {
       let display: HomeReviewDisplay = "heart";
+      let homeAnswerMode: HomeReviewAnswerMode = "flip";
       if (home) {
         const { data: preference, error } = await client.from("user_preferences")
-          .select("home_review_display").eq("user_id", owner).maybeSingle();
+          .select("home_review_display,home_review_answer_mode").eq("user_id", owner).maybeSingle();
         if (error) throw error;
         if (!isCurrent()) return;
         display = preference?.home_review_display === "cards" ? "cards" : "heart";
-        setData(previous => previous?.account === owner && previous.display === display
-          ? previous : { account: owner, display, cards: null });
+        homeAnswerMode = preference?.home_review_answer_mode === "expand" ? "expand" : "flip";
+        setData(previous => {
+          if (previous?.account !== owner || previous.display !== display) {
+            return { account: owner, display, homeAnswerMode, cards: null };
+          }
+          return previous.homeAnswerMode === homeAnswerMode ? previous : { ...previous, homeAnswerMode };
+        });
       }
       const cards = home && display === "heart" ? null : await readCards(client, owner);
       if (isCurrent()) {
-        setData({ account: owner, display, cards });
+        setData({ account: owner, display, homeAnswerMode, cards });
         setLoadError(false);
       }
     } catch {
@@ -242,6 +252,14 @@ export function ReviewCardsProvider({ children, home = false }: { children: Reac
     void refresh();
   }
 
+  async function setHomeAnswerMode(homeAnswerMode: HomeReviewAnswerMode) {
+    await write(async (client, owner) => {
+      const { error } = await client.from("user_preferences")
+        .upsert({ user_id: owner, home_review_answer_mode: homeAnswerMode }, { onConflict: "user_id" });
+      if (error) throw error;
+    }, previous => ({ ...previous, homeAnswerMode }));
+  }
+
   function rateCard(card: ReviewCard, confidence: ReviewConfidence) {
     const now = new Date();
     const review_count = card.review_count + 1;
@@ -257,8 +275,9 @@ export function ReviewCardsProvider({ children, home = false }: { children: Reac
 
   return (
     <ReviewCardsContext.Provider value={{
-      account, cards: current?.cards ?? null, display: current?.display ?? null, loadError, saving,
-      refresh, saveCard, deleteCard, restoreCards, setHomeHidden, setHomeDisplay, rateCard,
+      account, cards: current?.cards ?? null, display: current?.display ?? null,
+      homeAnswerMode: current?.homeAnswerMode ?? "flip", loadError, saving,
+      refresh, saveCard, deleteCard, restoreCards, setHomeHidden, setHomeDisplay, setHomeAnswerMode, rateCard,
     }}>
       {children}
     </ReviewCardsContext.Provider>
