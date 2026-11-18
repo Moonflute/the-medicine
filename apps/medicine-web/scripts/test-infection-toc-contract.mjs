@@ -1,6 +1,16 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import test from "node:test";
 import { INFECTION_CORE_TOC, validateInfectionToc } from "./infection-toc-contract.mjs";
+import { buildDiseases, parseSpecialtyTocMarkdown } from "./sync-generated-data.mjs";
+
+test("the source TOC retains the reviewed hierarchy after note formatting", () => {
+  const source = fs.readFileSync(new URL("../../../source_notes/02 Diseases/08 감염/_목차.md", import.meta.url), "utf8");
+  const items = parseSpecialtyTocMarkdown(source);
+  const classifications = buildDiseases().filter(item => item.specialty === "08 감염").map(item => item.classification);
+  assert.doesNotThrow(() => validateInfectionToc(items.map(item => item.title), classifications));
+  assert.deepEqual(items.find(item => item.title === "혐기성균")?.path, ["기타 감염질환", "혐기성균"]);
+});
 
 test("the reviewed pathogen-centered TOC remains valid", () => {
   assert.deepEqual(validateInfectionToc(INFECTION_CORE_TOC), []);
