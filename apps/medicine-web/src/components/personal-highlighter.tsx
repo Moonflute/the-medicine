@@ -174,23 +174,26 @@ export function PersonalHighlighter() {
     };
     const hotkeys = (event: KeyboardEvent) => {
       if (event.key === "Escape") { setOpen(false); setMode("read"); return; }
-      if (event.key.toLowerCase() !== "h" || event.repeat || event.isComposing || event.defaultPrevented) return;
+      if (event.repeat || event.isComposing || event.defaultPrevented) return;
       if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || !scope || !slot || !user) return;
-      if (document.querySelector("dialog[open]")) return;
-      if (event.target instanceof Element && event.target.closest('input, textarea, select, [contenteditable], [role="textbox"]')) return;
+      const key = event.key.toLowerCase();
+      if (event.code !== "KeyH" && key !== "h" && key !== "ㅗ" && key !== "ᅩ") return;
+      if (document.querySelector('dialog[open], [role="dialog"][aria-modal="true"]')) return;
+      const editable = 'input, textarea, select, [contenteditable], [role="textbox"]';
+      if (document.activeElement?.closest(editable) || (event.target instanceof Element && event.target.closest(editable))) return;
       event.preventDefault();
       setMode(value => value === "pen" ? "read" : "pen");
     };
     document.addEventListener("selectionchange", selectionChanged);
     root?.addEventListener("pointerup", pointerUp);
     root?.addEventListener("click", click, true);
-    document.addEventListener("keydown", hotkeys);
+    window.addEventListener("keydown", hotkeys);
     return () => {
       window.clearTimeout(pointerTimer);
       document.documentElement.dataset.highlighterMode = "read";
       root?.removeAttribute("data-highlighter-active");
       document.removeEventListener("selectionchange", selectionChanged); root?.removeEventListener("pointerup", pointerUp);
-      root?.removeEventListener("click", click, true); document.removeEventListener("keydown", hotkeys);
+      root?.removeEventListener("click", click, true); window.removeEventListener("keydown", hotkeys);
     };
   }, [apply, capture, mode, scope, slot, user]);
 
@@ -229,7 +232,7 @@ export function PersonalHighlighter() {
       {!user ? <p className="text-xs leading-5 text-slate-600">Google 계정으로 로그인하면 표시가 내 계정에 저장됩니다.</p> : <>
         <div className="flex justify-between gap-2" role="group" aria-label="형광펜 색상">{HIGHLIGHT_COLORS.map(value => <button key={value} type="button" aria-label={COLORS[value].name + " 형광펜"} aria-pressed={color === value} title={COLORS[value].name} onClick={() => { setColor(value); if (selection.current) apply(false, value); }} className={`h-8 w-8 rounded-full border-2 ${color === value ? "border-slate-700 ring-2 ring-slate-200" : "border-transparent"}`} style={{ backgroundColor: COLORS[value].swatch }} />)}</div>
         <div className="mt-3 grid grid-cols-2 gap-1">
-          <button type="button" aria-pressed={mode === "pen"} className={button + (mode === "pen" ? " bg-amber-100" : "")} onClick={() => setMode(value => value === "pen" ? "read" : "pen")}><Highlighter size={15} />형광펜 모드</button>
+          <button type="button" aria-pressed={mode === "pen"} aria-keyshortcuts="H" className={button + (mode === "pen" ? " bg-amber-100" : "")} onClick={() => setMode(value => value === "pen" ? "read" : "pen")}><Highlighter size={15} />형광펜 모드</button>
           <button type="button" aria-pressed={mode === "erase"} className={button + (mode === "erase" ? " bg-slate-200" : "")} onClick={() => setMode(value => value === "erase" ? "read" : "erase")}><Eraser size={15} />지우개 모드</button>
           <button type="button" className={button} onClick={() => setMode("read")}><MousePointer2 size={15} />일반 읽기</button>
           <button type="button" className={button} onClick={() => apply(false)}><Highlighter size={15} />선택 부분 표시</button>
