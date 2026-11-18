@@ -279,6 +279,14 @@ export function practiceMockExams(questions: PracticeIndex[]) {
   });
 }
 
+export function practiceMockExamSections(questions: PracticeIndex[]) {
+  const exams = practiceMockExams(questions);
+  return [
+    { id: "archive", label: "연도별 문제", exams: exams.filter(exam => !authoredRound.test(exam.key)) },
+    { id: "authored", label: "모의고사", exams: exams.filter(exam => authoredRound.test(exam.key)) },
+  ].filter(section => section.exams.length > 0);
+}
+
 export function hasPracticeSelection(filters?: PracticeFilters): boolean {
   return Boolean(filters && (filters.books.length || filters.specialties.length || filters.years.length || filters.series?.length || filters.departments?.length || selectedPracticeExamKey(filters)));
 }

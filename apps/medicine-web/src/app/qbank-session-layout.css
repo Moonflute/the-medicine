@@ -1,3 +1,13 @@
+/* Round labels remain intact; reduce columns instead of splitting names. */
+.practice-round-picker { min-width:0; }
+.practice-round-section { margin-top:10px; min-width:0; }
+.practice-round-section + .practice-round-section { margin-top:16px; padding-top:14px; border-top:1px solid var(--line); }
+.practice-round-heading { margin:0 0 7px; color:var(--muted); font-size:12px; font-weight:600; }
+.practice-round-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(100%,9.5rem),1fr)); gap:6px; }
+.practice-round-section[data-round-kind="authored"] .practice-round-grid { grid-template-columns:repeat(auto-fill,minmax(min(100%,14rem),1fr)); }
+.practice-round-choice > .practice-round-name { flex-shrink:0; white-space:nowrap; font-size:13px; font-weight:600; line-height:1.4; }
+.practice-round-choice > .practice-round-count { flex-shrink:0; white-space:nowrap; font-size:11px; font-weight:400; line-height:1.4; font-variant-numeric:tabular-nums; }
+
 /* Keep session navigation and reference access on the same line. */
 .qbank-session-player > .qbank-session-progress { min-height:34px; gap:6px 12px; margin-block-end:10px; }
 .qbank-session-progress > a { flex-shrink:0; white-space:nowrap; }

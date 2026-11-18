@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceFiltersFromParams, practiceMockExams, practiceMockExamTitle, practiceTopicSections, isPracticeRevisionId, indexPracticeVersions, isListedQuestion, listedPracticeIds, practiceDeliveryIds, practiceVersionIds, visiblePracticeFilters, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
+import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceFiltersFromParams, practiceMockExams, practiceMockExamSections, practiceMockExamTitle, practiceTopicSections, isPracticeRevisionId, indexPracticeVersions, isListedQuestion, listedPracticeIds, practiceDeliveryIds, practiceVersionIds, visiblePracticeFilters, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
 import { gradeQuestion } from '../src/lib/qbank-grading.ts';
 
 test('selecting or clearing one theory group preserves other groups', () => {
@@ -114,6 +114,26 @@ test('authored rounds follow the archive and reopen from either launch mode with
   }
   assert.deepEqual(bank.filter(q => matchesPractice(q, mockExamFilters(null, 'mock-full-1'))), [authored[1]]);
   assert.deepEqual(bank.filter(q => matchesPractice(q, { books: [], specialties: [], years: ['unknown'] })), [unknown]);
+});
+
+test('round sections separate year-based exams from authored mocks without changing selection or counts', () => {
+  const past = { id: 'past', bookId: 'past', bookSeries: '실전', examYear: 2026 };
+  const res = { ...past, id: 'res', bookId: 'practice-res2608' };
+  const full = { ...past, id: 'full', bookId: 'mock-full-1', bookSeries: '창작 모의고사', examYear: null };
+  const mini = { ...full, id: 'mini', bookId: 'mock-mini-1' };
+  const bank = [mini, past, full, res, { ...full, id: 'full-2' }];
+  const sections = practiceMockExamSections(bank);
+  assert.deepEqual(sections.map(section => [section.id, section.label, section.exams.map(exam => [exam.key, exam.count])]), [
+    ['archive', '연도별 문제', [['2026-2', 1], ['2026', 1]]],
+    ['authored', '모의고사', [['mock-full-1', 2], ['mock-mini-1', 1]]],
+  ]);
+  assert.deepEqual(sections.flatMap(section => section.exams), practiceMockExams(bank));
+  for (const exam of sections.flatMap(section => section.exams)) {
+    assert.equal(bank.filter(q => matchesPractice(q, mockExamFilters(exam.year, exam.key))).length, exam.count);
+  }
+  assert.deepEqual(practiceMockExamSections([full, mini]).map(section => section.id), ['authored']);
+  assert.deepEqual(practiceMockExamSections([past]).map(section => section.id), ['archive']);
+  assert.deepEqual(practiceMockExamSections([]), []);
 });
 
 test('a revised answer is scored independently from the historical accepted choices', () => {
