@@ -4,7 +4,7 @@ import { PracticeStartControls } from "@/components/practice-start-controls";
 import { useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { PracticeFilters, PracticeIndex } from "@/lib/practice-selection";
-import { matchesPractice, toggleGroup, mockExamFilters, practiceMockExams, PRACTICE_DEPARTMENTS, practiceTopicSections, selectedPracticeExamKey } from "@/lib/practice-selection";
+import { isAuthoredPracticeMock, matchesPractice, toggleGroup, mockExamFilters, practiceMockExams, PRACTICE_DEPARTMENTS, practiceTopicSections, selectedPracticeExamKey } from "@/lib/practice-selection";
 
 type Dimension = "departments" | "specialties" | "years";
 const choices = [["random", "분과·조건 선택"], ["book", "회차 전체 풀기"]] as const;
@@ -43,7 +43,7 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
       <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={active?.key || "no-round"} total={active?.count ?? 0} questions={selection} filters={filters} exam={examMode} round label={active?.label} topControlsTarget={topControlsTarget} /></PickerFooter>
     </div>;
   }
-  const years = [...new Set(questions.map((q) => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
+  const years = [...new Set(questions.filter(q => !isAuthoredPracticeMock(q)).map(q => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
   const group = (key: Dimension, title: string, items: [string, string][]) => <fieldset className="mt-5">
     <legend className="font-semibold text-slate-900">{title}</legend>
     <div className={chat ? "chat-qbank-choice-list" : "mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 lg:grid-cols-4"}>{items.map(([id, label]) => {
@@ -75,10 +75,10 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
         })}
       </div>
     </details>
-    <details className={chat ? "chat-qbank-topics" : "mt-3 rounded-lg border border-slate-200 bg-slate-50/50 px-3"}>
+    {years.length > 0 && <details className={chat ? "chat-qbank-topics" : "mt-3 rounded-lg border border-slate-200 bg-slate-50/50 px-3"}>
       <summary className="cursor-pointer py-2.5 text-sm font-semibold text-slate-800 marker:text-teal-600">연도 선택{filters.years.length ? <span className="ml-2 text-xs font-normal text-slate-500">{filters.years.length}개 선택</span> : null}</summary>
       <div className="pb-3">{group("years", "출제년도", years.map((y) => [y, y === "unknown" ? "년도 미상 · BANK" : `${y}년`]))}</div>
-    </details>
+    </details>}
     <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={JSON.stringify(filters)} total={selection.length} questions={selection} filters={filters} topControlsTarget={topControlsTarget} /></PickerFooter>
   </div>;
 }

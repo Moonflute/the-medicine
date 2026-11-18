@@ -8,7 +8,7 @@ import { QbankStatsSetDialog, type StatsSetRequest, type StatsSetLauncher } from
 import { QbankMockHistory } from "@/components/qbank-mock-history";
 import { loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT, resetQbankProgressView, type QbankState } from "@/lib/qbank-store";
 import { loadPracticeIndex } from "@/lib/practice-bank";
-import { practiceTopicLabel, PRACTICE_DEPARTMENTS } from "@/lib/practice-selection";
+import { isAuthoredPracticeMock, isListedQuestion, listedPracticeIds, practiceMockExamLabel, practiceTopicLabel, PRACTICE_DEPARTMENTS } from "@/lib/practice-selection";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import type { QbankQuestionIndex } from "@/lib/types";
 
@@ -55,7 +55,7 @@ export function QbankAnalyticsClient() {
   const [practice, setPractice] = useState<AnalyticsQuestion[]>([]);
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState("");
-  const [privateMessage, setPrivateMessage] = useState("실전문제 접근 권한을 확인 중입니다.");
+  const [privateMessage, setPrivateMessage] = useState("실전문제 목록을 불러오는 중입니다.");
   const [bank, setBank] = useState("all");
   const [department, setDepartment] = useState("all");
   const [progressResetAt, setProgressResetAt] = useState<string | null>(null);
@@ -84,10 +84,11 @@ export function QbankAnalyticsClient() {
           const specialtyNumber = Number(q.specialty.match(/^\s*(\d{1,2})\b/)?.[1]);
           const subgroup = q.bookDepartment === "내과" && specialtyNumber >= 1 && specialtyNumber <= 10 ? practiceTopicLabel(q) : undefined;
           const departmentOrder = Math.max(0, PRACTICE_DEPARTMENTS.indexOf(q.bookDepartment as typeof PRACTICE_DEPARTMENTS[number])) * 0.01 + (q.bookDepartment === "내과" ? 0 : 10.5);
-          return { id: q.id, revisionIds: q.revisionIds, bank: "practice", department: q.bookDepartment, order: subgroup ? specialtyNumber : departmentOrder, topic: practiceTopicLabel(q), subgroup, label: `${q.examYear ?? "연도 미상"} · ${q.bookDepartment} · ${q.id.split("-").at(-1)?.replace(/^0+/, "") || "0"}번`, exam: `${q.examYear ?? "연도 미상"}` };
+          const exam = isAuthoredPracticeMock(q) ? practiceMockExamLabel(q.bookId) : String(q.examYear ?? "연도 미상");
+          return { id: q.id, sourceIds: q.sourceIds, revisionIds: q.revisionIds, bank: "practice", department: q.bookDepartment, order: subgroup ? specialtyNumber : departmentOrder, topic: practiceTopicLabel(q), subgroup, label: `${exam} · ${q.bookDepartment} · ${q.id.split("-").at(-1)?.replace(/^0+/, "") || "0"}번`, exam };
         }));
         setPrivateMessage(result.questions.length ? "" : result.message);
-      } catch { if (active && generation === current) setPrivateMessage("실전문제 통계를 불러오지 못했습니다. 로그인과 연결 상태를 확인해 주세요."); }
+      } catch { if (active && generation === current) setPrivateMessage("실전문제 통계를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요."); }
     };
     void refresh();
     const subscription = getSupabaseBrowserClient()?.auth.onAuthStateChange(() => {
@@ -97,6 +98,7 @@ export function QbankAnalyticsClient() {
     return () => { active = false; generation++; subscription?.unsubscribe(); };
   }, []);
   const catalog = useMemo(() => [...publicQuestions, ...practice], [publicQuestions, practice]);
+  const practiceIds = useMemo(() => listedPracticeIds(practice), [practice]);
   const departments = useMemo(() => {
     const ranks = new Map<string, number>();
     for (const q of catalog) if (bank === "all" || q.bank === bank) ranks.set(q.department, Math.min(ranks.get(q.department) ?? 999, q.order ?? 999));
@@ -114,7 +116,7 @@ export function QbankAnalyticsClient() {
   if (!stats || !loaded) return <SkinStatus kind={error ? "questionsError" : "statisticsLoading"} fallback={error || "풀이 기록을 정리하고 있습니다…"} detail={error || undefined} stage onRetry={error ? () => window.location.reload() : undefined} className="surface min-w-0 p-6 text-sm text-slate-600" />;
   const hasPractice = bank === "all" || bank === "practice";
   return <div className="space-y-5">
-    {setRequest && <QbankStatsSetDialog key={`${setRequest.kind}:${setRequest.title}`} request={setRequest} onClose={() => setSetRequest(null)} />}
+    {setRequest && setRequest.ids.every(id => isListedQuestion(id, practiceIds)) && <QbankStatsSetDialog key={`${setRequest.kind}:${setRequest.title}`} request={setRequest} onClose={() => setSetRequest(null)} />}
     <section className="surface min-w-0 p-4 sm:p-5"><div className="grid grid-cols-4 gap-1 rounded-lg bg-slate-100 p-1" aria-label="통계 문제 종류">{BANKS.map(([value, label]) => <button type="button" key={value} aria-pressed={bank === value} onClick={() => { setBank(value); setDepartment("all"); }} className={`rounded-md px-2 py-2.5 text-sm font-semibold ${bank === value ? "bg-white text-teal-800 shadow-sm" : "text-slate-500 hover:text-slate-900"}`}>{label}</button>)}</div>
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3"><label className="flex items-center gap-2 text-sm text-slate-600">과목<select value={department} onChange={e => setDepartment(e.target.value)} className="max-w-52 rounded-lg border border-slate-200 bg-white px-3 py-2"><option value="all">전체 과목</option>{departments.map(d => <option key={d}>{d}</option>)}</select></label><span className="text-xs text-slate-500">누적 기록 · 반복 풀이 포함 · 전원 정답 처리 포함</span></div>
       {(bank === "all" || bank === "practice") && privateMessage && <p className="mt-3 text-xs text-slate-500" role="status">{privateMessage}</p>}
@@ -124,8 +126,8 @@ export function QbankAnalyticsClient() {
     {!stats.attempted && <SkinStatus kind="recordsEmpty" fallback="이 범위의 풀이 기록이 아직 없습니다." className="rounded-xl border border-dashed border-teal-200 bg-teal-50/50 p-5 text-center text-sm text-slate-600" />}
     <section className="surface min-w-0 p-4 sm:p-5"><div className="flex flex-wrap items-center justify-between gap-3"><h2 className="font-semibold text-slate-900">분과별 진행 및 성적</h2><label className="flex items-center gap-2 text-xs text-slate-500">정렬<select value={sort} onChange={event => setSort(event.target.value as AnalyticsSort)} className="rounded-md border border-slate-200 bg-transparent px-2 py-2"><option value="default">기본 분과 순서</option><option value="accuracy">정답률 낮은 순</option><option value="wrong">미해결 오답 많은 순</option><option value="unattempted">현재 회독 미풀이 많은 순</option><option value="progress">진행률 낮은 순</option></select></label></div><p className="mt-2 text-xs text-slate-500">오답은 오답 목록에 남은 문항 · 미풀이는 현재 회독 기준입니다.</p><div className="mt-2">{bank === "practice" ? <PracticeDepartmentRows groups={sortAnalyticsGroups(stats.practiceGroups, sort).map(group => ({ ...group, children: sortAnalyticsGroups(group.children, sort) }))} onStart={setSetRequest} /> : <AnalyticsGroupRows groups={sortAnalyticsGroups(stats.groups, sort)} onStart={setSetRequest} />}</div></section>
     {bank === "all" && stats.practiceGroups.length > 0 && <section className="surface min-w-0 p-5 sm:p-6"><h2 className="font-semibold text-slate-900">실전문제 분과별 진행 및 성적</h2><p className="mt-2 text-xs text-slate-500">내과만 이론 분류 순서의 하위 분과를 함께 표시합니다.</p><div className="mt-3"><PracticeDepartmentRows groups={sortAnalyticsGroups(stats.practiceGroups, sort).map(group => ({ ...group, children: sortAnalyticsGroups(group.children, sort) }))} onStart={setSetRequest} /></div></section>}
-    {hasPractice && stats.exams.length > 0 && <section className="surface min-w-0 p-5 sm:p-6"><h2 className="font-semibold text-slate-900">실전문제 연도별 진행</h2><p className="mt-2 text-xs text-slate-500">실전문제의 연도별 진행률과 누적 정답률입니다.</p><div className="mt-3"><AnalyticsGroupRows groups={stats.exams} onStart={setSetRequest} /></div></section>}
-    {hasPractice && state && <QbankMockHistory sessions={state.sessions} onStart={setSetRequest} department={department} />}
+    {hasPractice && stats.exams.length > 0 && <section className="surface min-w-0 p-5 sm:p-6"><h2 className="font-semibold text-slate-900">실전문제 회차별 진행</h2><div className="mt-3"><AnalyticsGroupRows groups={stats.exams} onStart={setSetRequest} /></div></section>}
+    {hasPractice && state && <QbankMockHistory sessions={state.sessions} practiceIds={practiceIds} onStart={setSetRequest} department={department} />}
     <section className="surface min-w-0 p-5 sm:p-6"><div className="flex flex-wrap items-center justify-between gap-3"><h2 className="flex items-center gap-2 font-semibold text-slate-900"><RotateCcw className="h-5 w-5 text-rose-500" />복습할 오답</h2><button type="button" disabled={!stats.wrong.length} onClick={() => retry(stats.wrong.map(q => q.id))} className="secondary-action disabled:opacity-40">오답 {stats.wrong.length}문항 풀기</button></div><div className="mt-3 divide-y divide-slate-100">{stats.wrong.slice(0, 8).map(q => <button type="button" key={q.id} onClick={() => retry([q.id])} className="flex w-full items-center gap-3 py-3 text-left hover:text-teal-700"><div className="min-w-0 flex-1"><p className="truncate text-sm font-medium" title={q.label}>{q.label}</p><p className="mt-1 text-xs text-slate-500">{q.department} · {q.mistakes}회 오답 / {q.attempts}회 풀이 · {dateLabel(q.last)}</p></div><ArrowRight className="h-4 w-4 shrink-0" /></button>)}</div>{!stats.wrong.length && <SkinStatus kind="wrongEmpty" fallback="현재 복습할 오답이 없습니다." className="py-6 text-center text-sm text-slate-500" />}</section>
   </div>;
 }

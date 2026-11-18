@@ -52,6 +52,14 @@ export function practiceVersionIds(question: Pick<PracticeIndex, "id" | "revisio
   return [question.id, ...(question.revisionIds ?? [])];
 }
 
+export function listedPracticeIds(questions: Pick<PracticeIndex, "id" | "revisionIds" | "sourceIds">[]): Set<string> {
+  return new Set(questions.flatMap(q => [...practiceVersionIds(q), ...(q.sourceIds ?? [])]));
+}
+
+export function isListedQuestion(id: string, practiceIds: ReadonlySet<string>): boolean {
+  return !id.startsWith("QB-") || practiceIds.has(id);
+}
+
 export function practiceDeliveryIds(questions: PracticeIndex[], savedIds?: ReadonlySet<string>): string[] {
   if (!savedIds) return questions.map(question => question.revisionIds?.at(-1) ?? question.id);
   const sourceIds = new Set(questions.map(question => question.id));
@@ -195,8 +203,20 @@ export function practiceTopicSections(questions: PracticeIndex[], department: st
 const RES26_EXAM_KEY = "2026-2";
 const authoredRound = /^mock-(full|mini)-([1-9]\d*)$/;
 
+export function isAuthoredPracticeMock(question: PracticeIndex): boolean {
+  return question.bookSeries === "창작 모의고사" && authoredRound.test(question.bookId);
+}
+
+// A browser draft can outlive the account that selected a year or round.
+export function visiblePracticeFilters(filters: PracticeFilters, questions: PracticeIndex[]): PracticeFilters {
+  if (!questions.length || !questions.every(isAuthoredPracticeMock)) return filters;
+  const examKey = questions.some(q => q.bookId === filters.examKey) ? filters.examKey : undefined;
+  if (!filters.years.length && examKey === filters.examKey) return filters;
+  return { ...filters, years: [], examKey };
+}
+
 function practiceMockExamKey(question: PracticeIndex): string | undefined {
-  if (question.bookSeries === "창작 모의고사" && authoredRound.test(question.bookId)) return question.bookId;
+  if (isAuthoredPracticeMock(question)) return question.bookId;
   if (question.examYear === null) return undefined;
   if (question.examYear === 2026 && question.bookId === "practice-res2608") return RES26_EXAM_KEY;
   return String(question.examYear);
@@ -206,6 +226,12 @@ export function practiceMockExamLabel(key: string): string {
   const round = authoredRound.exec(key);
   if (round) return (round[1] === "mini" ? "미니 모의고사 " : "모의고사 ") + round[2] + "회";
   return key === RES26_EXAM_KEY ? key : `${key}년`;
+}
+
+export function practiceMockExamTitle(key?: string): string {
+  if (!key) return "실전 모의고사";
+  const label = practiceMockExamLabel(key);
+  return authoredRound.test(key) ? label : `${label} 모의고사`;
 }
 
 export function mockExamFilters(year: number | null, examKey = String(year)): PracticeFilters {

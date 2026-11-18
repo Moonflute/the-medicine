@@ -32,7 +32,7 @@ import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
-import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, practiceDeliveryIds, practiceFiltersFromParams, practiceMockExamLabel, practiceSourceQuestionId, practiceVersionIds, selectedPracticeExamKey, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, practiceDeliveryIds, practiceFiltersFromParams, practiceMockExamTitle, practiceSourceQuestionId, practiceVersionIds, selectedPracticeExamKey, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, Copy, Info, XCircle } from "lucide-react";
@@ -387,7 +387,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         }
         const requestedCount = resolveQbankSessionCount(requestedCountValue, filtered.length);
         const restoredQuestions = snapshot ? restoreQbankQuestionOrder(loaded, snapshot.questionIds) : [];
-        if (snapshot && restoredQuestions.length !== snapshot.questionIds.length) throw new Error("저장된 문제에 접근할 수 없습니다.");
+        if (snapshot && restoredQuestions.length !== snapshot.questionIds.length) throw new Error("저장된 문제 세트를 찾을 수 없습니다.");
         const selectedQuestions = snapshot ? restoredQuestions : mode === "practice-book"
           ? [...filtered].sort(comparePracticeOrder).slice(0, requestedCount)
           : mode === "selection" || mode === "related" || mode === "theory-linked"
@@ -401,7 +401,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         startRoundClock(snapshot ? resumeRoundDeadline(snapshot, startedAt) : minutes !== undefined ? startedAt + minutes * 60_000 : undefined);
         restoreElapsedClock(snapshot ? readElapsedMs(snapshot.elapsedMs) : 0, startedAt);
         const examKey = selectedPracticeExamKey(practiceFilters);
-        const examTitle = examKey ? `${practiceMockExamLabel(examKey)} 모의고사` : "실전 모의고사";
+        const examTitle = practiceMockExamTitle(examKey);
         setMockExam(snapshot ? readMockExam(snapshot.mockExam) : params.get("exam") === "1" ? { version: 1, title: examTitle, startedAt: new Date(startedAt).toISOString(), drafts: {}, flaggedIds: [] } : null);
         setOptionSessionId(sessionIdRef.current ?? "");
         setQuestions(selectedQuestions);
@@ -421,6 +421,16 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     return () => { cancelled = true; };
   }, [sessionStorageKey, specialties, startRoundClock, restoreElapsedClock]);
 
+  const reloadPracticeForAccountChange = useEffectEvent(() => {
+    if (questions.length && !questions.some(q => q.questionBank === "practice")) return;
+    if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
+    pendingCloudSessionRef.current = null;
+    finishingRef.current = true;
+    setQuestions([]);
+    setLoading(true);
+    window.location.reload();
+  });
+
   useEffect(() => {
     const supabase = getSupabaseBrowserClient();
     const remoteResume = waitingForRemoteResumeRef.current;
@@ -430,8 +440,12 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     };
     if (!supabase) { queueMicrotask(resumeFailed); return () => { active = false; }; }
 
+    let previousUser: string | null | undefined;
     const exitAuth = supabase.auth.onAuthStateChange((_event, session) => {
+      const userId = session?.user.id ?? null;
       exitAuthRef.current = session ? { userId: session.user.id, accessToken: session.access_token } : null;
+      if (previousUser !== undefined && previousUser !== userId) reloadPracticeForAccountChange();
+      previousUser = userId;
     });
 
     const applyRemote = (value: unknown) => {
@@ -510,7 +524,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       .then((loaded) => {
         if (cancelled || finishingRef.current || pausedRoundRef.current) return;
         const restoredQuestions = restoreQbankQuestionOrder(loaded, remoteActiveSession.questionIds);
-        if (restoredQuestions.length !== remoteActiveSession.questionIds.length || restoredQuestions.length === 0) throw new Error("저장된 문제에 접근할 수 없습니다.");
+        if (restoredQuestions.length !== remoteActiveSession.questionIds.length || restoredQuestions.length === 0) throw new Error("저장된 문제 세트를 찾을 수 없습니다.");
         const restoredIndex = Math.min(Math.max(remoteActiveSession.currentIndex, 0), restoredQuestions.length - 1);
         const restoredQuestion = restoredQuestions[restoredIndex];
         const restoredAnswer = remoteActiveSession.answers.find((item) => item.questionId === restoredQuestion.id);
@@ -544,7 +558,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         setQuestionProgress(state.progress[restoredQuestion.id] ?? null);
         appliedRemoteSessionVersionRef.current = remoteActiveSession.updatedAt;
       })
-      .catch((error) => { console.warn("Q-bank active session could not be restored.", error); if (!cancelled) setError("저장된 풀이를 복원하지 못했습니다. 로그인과 문제 접근 권한을 확인해 주세요."); })
+      .catch((error) => { console.warn("Q-bank active session could not be restored.", error); if (!cancelled) setError("저장된 문제 세트를 불러오지 못했습니다."); })
       .finally(() => { if (!cancelled) setLoading(false); window.setTimeout(() => { remoteSessionApplyingRef.current = false; }, 0); });
     return () => { cancelled = true; };
   }, [remoteActiveSession, specialties, startRoundClock, restoreElapsedClock]);
@@ -556,26 +570,6 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     title: current.id,
     href: studyQuestionHref(current.id),
   } : null, 30);
-  useEffect(() => {
-    if (!questions.some((q) => q.questionBank === "practice")) return;
-    const client = getSupabaseBrowserClient();
-    let ownerId: string | null | undefined = undefined;
-    const listener = client?.auth.onAuthStateChange((_event, session) => {
-      const nextId = session?.user.id ?? null;
-      if (ownerId === undefined && nextId) { ownerId = nextId; return; }
-      if (nextId && nextId === ownerId) return;
-      ownerId = nextId;
-      if (activeSessionTimerRef.current) window.clearTimeout(activeSessionTimerRef.current);
-      pendingCloudSessionRef.current = null;
-      liveRoundClockRef.current = undefined;
-      pausedRoundRef.current = null;
-      setSyncUserId(null);
-      setQuestions([]);
-      setRemoteActiveSession(null);
-      setError("로그인 상태가 변경되었습니다. 문제은행에서 다시 시작해주세요.");
-    });
-    return () => listener?.data.subscription.unsubscribe();
-  }, [questions]);
   const displayedOptions = current ? optionOrder(current, optionSessionId) : [];
   const questionIds = useMemo(() => questions.map(question => question.id), [questions]);
   const currentTheoryTargetHref = current ? theoryTargetHref(current) : null;

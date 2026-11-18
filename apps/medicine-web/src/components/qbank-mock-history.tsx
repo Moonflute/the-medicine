@@ -52,7 +52,7 @@ function ResultQuestion({ id, summary }: { id: string; summary: MockExamSummary 
     let active = true;
     void loadPracticeQuestions([id]).then(questions => {
       if (active) setData({ id, question: questions.find(question => question.id === id), error: questions.length ? undefined : "문제 원문을 찾을 수 없습니다." });
-    }).catch(() => { if (active) setData({ id, error: "문제 원문을 불러오지 못했습니다. 로그인과 접근 권한을 확인해 주세요." }); });
+    }).catch(() => { if (active) setData({ id, error: "문제 원문을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요." }); });
     return () => { active = false; };
   }, [id]);
   const result = summary.results.find(item => item.questionId === id)!;
@@ -89,17 +89,19 @@ function ResultDialog({ session, wrongOnly, onClose, onStart }: { session: Qbank
   </div></dialog>;
 }
 
-export function QbankMockHistory({ sessions, department, onStart }: { sessions: QbankSessionResult[]; department: string; onStart: StatsSetLauncher }) {
+export function QbankMockHistory({ sessions, practiceIds, department, onStart }: { sessions: QbankSessionResult[]; practiceIds: ReadonlySet<string>; department: string; onStart: StatsSetLauncher }) {
   const [page, setPage] = useState(0);
   const [detail, setDetail] = useState<{ session: QbankSessionResult; wrongOnly: boolean }>();
-  const history = sessions.filter(session => (session.mockExam || session.id.startsWith("mock-")) && (department === "all" || session.questionIds.some(id => mockSubject(id) === department)))
+  const history = sessions.filter(session => (session.mockExam || session.id.startsWith("mock-"))
+    && session.questionIds.length > 0 && session.questionIds.every(id => practiceIds.has(id))
+    && (department === "all" || session.questionIds.some(id => mockSubject(id) === department)))
     .sort((a, b) => b.completedAt.localeCompare(a.completedAt));
   const pages = Math.max(1, Math.ceil(history.length / 8));
   const currentPage = Math.min(page, pages - 1);
   const trends = history.slice(0, 20).reverse();
   return <section className="surface min-w-0 p-4 sm:p-5">
     <h2 className="font-semibold">모의고사 기록 <span className="text-xs font-normal text-slate-500">{history.length}회 · 제출 당시 기준</span></h2>
-    {detail && <ResultDialog key={`${detail.session.id}:${detail.wrongOnly}`} {...detail} onClose={() => setDetail(undefined)} onStart={onStart} />}
+    {detail && history.some(session => session.id === detail.session.id) && <ResultDialog key={`${detail.session.id}:${detail.wrongOnly}`} {...detail} onClose={() => setDetail(undefined)} onStart={onStart} />}
     {!history.length ? <p className="mt-3 text-sm text-slate-500">모의고사를 제출하면 기록이 표시됩니다. 즉시 해설 학습은 포함하지 않습니다.</p> : <>
       <details className="mt-3"><summary className="cursor-pointer text-sm font-medium">점수 추이 · 최근 {trends.length}회</summary><p className="mt-2 text-xs text-slate-500">회차마다 난이도와 문항 수가 다릅니다. 각 점은 응시 순서이며 합격 예측이나 난이도 보정은 하지 않습니다.</p><div className="qbank-mock-trends"><Trend sessions={trends} /><Trend sessions={trends} subjects /></div></details>
       <div className="qbank-history-list">{history.slice(currentPage * 8, currentPage * 8 + 8).map(session => {

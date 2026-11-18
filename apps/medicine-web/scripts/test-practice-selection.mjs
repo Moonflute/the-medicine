@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceFiltersFromParams, practiceMockExams, practiceTopicSections, isPracticeRevisionId, indexPracticeVersions, practiceDeliveryIds, practiceVersionIds, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
+import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceFiltersFromParams, practiceMockExams, practiceMockExamTitle, practiceTopicSections, isPracticeRevisionId, indexPracticeVersions, isListedQuestion, listedPracticeIds, practiceDeliveryIds, practiceVersionIds, visiblePracticeFilters, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
 import { gradeQuestion } from '../src/lib/qbank-grading.ts';
 
 test('selecting or clearing one theory group preserves other groups', () => {
@@ -18,6 +18,23 @@ test('practice selection intersects dimensions; year is exam year, not edition',
 test('invalid stored selections cannot become active filters', () => {
   assert.deepEqual(stringArray({ books: 'all' }), []);
   assert.deepEqual(stringArray(['valid', null, 42]), ['valid']);
+});
+
+test('a public catalogue drops saved past-exam filters and hides their sessions and revisions', () => {
+  const mock = { id: 'QB-MOCK-M01-IM-0001', bookSeries: '창작 모의고사', bookId: 'mock-mini-1', examYear: null };
+  const past = { id: 'QB-PAST', bookSeries: '실전', bookId: 'past', examYear: 2025, revisionIds: ['QB-REV-202611-PAST'], sourceIds: ['QB-OLD'] };
+  const draft = mockExamFilters(2025);
+  assert.deepEqual(visiblePracticeFilters(draft, [mock]), { ...draft, examKey: undefined, years: [] });
+  assert.equal(visiblePracticeFilters(draft, [past, mock]), draft);
+  const publicRound = mockExamFilters(null, mock.bookId);
+  assert.equal(visiblePracticeFilters(publicRound, [mock]), publicRound);
+  assert.equal(practiceMockExamTitle(mock.bookId), '미니 모의고사 1회');
+  assert.equal(practiceMockExamTitle('2025'), '2025년 모의고사');
+  const savedIds = [mock.id, past.id, ...past.revisionIds, ...past.sourceIds, 'theory-1'];
+  const guest = listedPracticeIds([mock]);
+  assert.deepEqual(savedIds.filter(id => isListedQuestion(id, guest)), [mock.id, 'theory-1']);
+  const approved = listedPracticeIds([mock, past]);
+  assert.ok(savedIds.every(id => isListedQuestion(id, approved)));
 });
 
  test('department-only, specialty-only and year-only selections work independently', () => {

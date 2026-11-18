@@ -21,6 +21,29 @@ const specialties = [
   { name: "02 호흡기", slug: "pulmonology", count: 10 },
 ];
 
+test("a signed-out learner can load a mock round and read its explanation", async () => {
+  const mock = { id: "QB-MOCK-M01-IM-0001", bookId: "mock-mini-1", bookSeries: "창작 모의고사" };
+  const client = {
+    auth: { getSession: async () => ({ data: { session: null } }) },
+    async rpc(name, args) {
+      if (name === "private_qbank_index") return { data: [mock] };
+      assert.equal(name, "private_qbank_questions");
+      assert.deepEqual(Array.from(args.requested_ids), [mock.id]);
+      return { data: [{ id: mock.id, explanation: "해설" }] };
+    },
+    from: () => assert.fail("Guests use only the public reads"),
+  };
+  const bank = compile("practice-bank.ts", {
+    "@/lib/supabase/client": { getSupabaseBrowserClient: () => client },
+    "@/lib/practice-selection": compile("practice-selection.ts"),
+  });
+  const { questions } = await bank.loadPracticeIndex();
+  assert.equal(questions[0].id, mock.id);
+  const delivered = await bank.loadPracticeQuestions([mock.id, "QB-REV-202611-PAST"]);
+  assert.equal(delivered.length, 1);
+  assert.equal(delivered[0].explanation, "해설");
+});
+
 test("related-theory context retains topic labels, counts and requested size", () => {
   const topics = [{ type: "disease", slug: "copd", title: "COPD", count: 12 }, { type: "cc", slug: "dyspnea", title: "호흡곤란", count: 4 }];
   const params = new URLSearchParams({ mode: "theory-linked", count: "10", sessionKind: "related-theory", sessionTitle: "관련 이론문제 풀이", sessionSummary: "COPD · 호흡곤란 · 10문항", topicMeta: JSON.stringify(topics) });

@@ -7,10 +7,11 @@ import { SkinPanel } from "@/components/skin-panel";
 import { SkinStatus } from "@/components/skin-status";
 
 import Link from "next/link";
+import { isAuthSessionMissingError } from "@supabase/supabase-js";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, Bookmark, CircleAlert, RotateCcw } from "lucide-react";
 import { PracticeBankPicker } from "@/components/practice-bank-picker";
-import { EMPTY_PRACTICE_FILTERS, matchesPractice, practiceSourceQuestionId, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { EMPTY_PRACTICE_FILTERS, isListedQuestion, listedPracticeIds, matchesPractice, practiceSourceQuestionId, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, visiblePracticeFilters, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { loadPracticeIndex } from "@/lib/practice-bank";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds } from "@/lib/qbank-store";
@@ -149,8 +150,10 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     chatPickerContent.current?.scrollTo({ top: 0 });
   };
   const [practice, setPractice] = useState<PracticeIndex[]>([]);
-  const [practiceMessage, setPracticeMessage] = useState("실전문제 접근 권한을 확인 중입니다.");
-  const [practiceFilters, setPracticeFilters] = useState<PracticeFilters>(EMPTY_PRACTICE_FILTERS);
+  const [practiceMessage, setPracticeMessage] = useState("실전문제 목록을 불러오는 중입니다.");
+  const defaultPracticeOrder = relatedTarget ? "random" : "book";
+  const [practiceDraft, setPracticeFilters] = useState<PracticeFilters>({ ...EMPTY_PRACTICE_FILTERS, order: defaultPracticeOrder });
+  const practiceFilters = useMemo(() => visiblePracticeFilters(practiceDraft, practice), [practiceDraft, practice]);
   const [loadedDraft, setLoadedDraft] = useState("");
   const draftKey = `medicine-qbank-picker-v2:${relatedTarget ? `${relatedTarget.type}:${relatedTarget.slug}` : "all"}`;
   const [theorySelections, setSelectedTheory] = useState<string[]>([]);
@@ -168,6 +171,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const [activeSessionError, setActiveSessionError] = useState<{ sessionId: string; message: string } | null>(null);
   const questionsById = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions]);
   const practiceById = useMemo(() => new Map(practice.map((question) => [question.id, question])), [practice]);
+  const practiceIds = useMemo(() => listedPracticeIds(practice), [practice]);
+  const visibleSessions = activeSessions.filter(session => session.questionIds.every(id => isListedQuestion(id, practiceIds)));
   const practiceTopicLabels = useMemo(() => new Map<string, string>(practice.flatMap((question) => [
     [practiceTopicKey(question), practiceTopicLabel(question)] as [string, string],
     [question.specialtySlug, question.specialty.replace(/^\d+\s*/, "")] as [string, string],
@@ -176,13 +181,13 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   useEffect(() => {
     const refresh = () => {
       const state = loadQbankState();
-      const distinctQuestions = (ids: string[]) => new Set(ids.map(practiceSourceQuestionId)).size;
+      const distinctQuestions = (ids: string[]) => new Set(ids.filter(id => isListedQuestion(id, practiceIds)).map(practiceSourceQuestionId)).size;
       setStats({ attempted: distinctQuestions(Object.keys(state.progress)), wrong: distinctQuestions(state.wrongIds), bookmarks: distinctQuestions(state.bookmarkIds) });
     };
     refresh();
     window.addEventListener(QBANK_CHANGE_EVENT, refresh);
     return () => window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
-  }, []);
+  }, [practiceIds]);
 
   useEffect(() => {
     let active = true;
@@ -194,30 +199,30 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     const restore = async () => {
       setActiveSessionSyncing(true);
       setActiveSessionSyncError("");
-      const { data: auth, error: authError } = await client.auth.getUser();
+      const { data: { user }, error: authError } = await client.auth.getUser();
       if (!active) return;
-      if (authError) throw authError;
-      if (!auth.user) return;
+      if (authError && !isAuthSessionMissingError(authError)) throw authError;
+      if (!user) return;
       const owner = window.localStorage.getItem(OWNER_KEY);
-      if (owner && owner !== auth.user.id) {
-        const accountSessions = await loadCloudActiveQbankSessionState(client, auth.user.id);
+      if (owner && owner !== user.id) {
+        const accountSessions = await loadCloudActiveQbankSessionState(client, user.id);
         if (!active) return;
         setActiveSessions(accountSessions.sessions.filter((session) => !session.mockExam?.finishedAt));
         setActiveSessionSyncError("이 기기의 다른 계정 기록은 제외했습니다. 현재 계정의 문제 세트만 표시합니다.");
         return;
       }
-      if (!owner) window.localStorage.setItem(OWNER_KEY, auth.user.id);
+      if (!owner) window.localStorage.setItem(OWNER_KEY, user.id);
 
-      const cloud = await loadCloudActiveQbankSessionState(client, auth.user.id);
+      const cloud = await loadCloudActiveQbankSessionState(client, user.id);
       if (!active) return;
       for (const sessionId of cloud.endedSessionIds) clearLocalActiveQbankSession(sessionId);
       const pending = planActiveQbankSessionSync(initialActiveSessions(), cloud.sessions, cloud.endedSessionIds);
       for (const session of cloud.sessions) if (!session.mockExam?.finishedAt) saveLocalActiveQbankSession(session);
       setActiveSessions(pending.sessions);
-      const uploads = await Promise.allSettled(pending.toUpload.map((session) => saveCloudActiveQbankSession(client, auth.user.id, session)));
+      const uploads = await Promise.allSettled(pending.toUpload.map((session) => saveCloudActiveQbankSession(client, user.id, session)));
       for (const result of uploads) if (result.status === "rejected") console.warn("Q-bank active session upload failed.", result.reason);
       if (!active) return;
-      const confirmed = pending.toUpload.length ? await loadCloudActiveQbankSessionState(client, auth.user.id) : cloud;
+      const confirmed = pending.toUpload.length ? await loadCloudActiveQbankSessionState(client, user.id) : cloud;
       if (!active) return;
       for (const sessionId of confirmed.endedSessionIds) clearLocalActiveQbankSession(sessionId);
       const reconciled = planActiveQbankSessionSync(initialActiveSessions(), confirmed.sessions, confirmed.endedSessionIds);
@@ -226,15 +231,15 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       if (reconciled.toUpload.length) {
         setActiveSessionSyncError("일부 문제 세트를 계정에 저장하지 못했습니다. 다시 시도해 주세요.");
       }
-      channel = client.channel(`qbank-active-sessions:${auth.user.id}`)
-        .on("postgres_changes", { event: "INSERT", schema: "public", table: "qbank_active_sessions", filter: `user_id=eq.${auth.user.id}` }, (payload) => {
+      channel = client.channel(`qbank-active-sessions:${user.id}`)
+        .on("postgres_changes", { event: "INSERT", schema: "public", table: "qbank_active_sessions", filter: `user_id=eq.${user.id}` }, (payload) => {
           const session = activeSessionFrom((payload.new as Record<string, unknown>).payload);
           if (session && !session.mockExam?.finishedAt) {
             saveLocalActiveQbankSession(session);
             setActiveSessions((items) => activeSessionsFrom([session, ...items]));
           }
         })
-        .on("postgres_changes", { event: "UPDATE", schema: "public", table: "qbank_active_sessions", filter: `user_id=eq.${auth.user.id}` }, (payload) => {
+        .on("postgres_changes", { event: "UPDATE", schema: "public", table: "qbank_active_sessions", filter: `user_id=eq.${user.id}` }, (payload) => {
           const row = payload.new as Record<string, unknown>;
           const sessionId = row.session_id;
           if (typeof sessionId === "string" && row.ended_at) {
@@ -293,7 +298,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     const refresh = async () => {
       const request = ++revision;
       setPractice([]);
-      setPracticeMessage("실전문제 접근 권한을 확인 중입니다.");
+      setPracticeMessage("실전문제 목록을 불러오는 중입니다.");
       try {
         const result = await loadPracticeIndex();
         if (active && request === revision) {
@@ -309,6 +314,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     void refresh();
     let refreshTimer: ReturnType<typeof setTimeout> | undefined;
     const listener = getSupabaseBrowserClient()?.auth.onAuthStateChange(() => {
+      revision++;
+      setPractice([]);
       clearTimeout(refreshTimer);
       refreshTimer = setTimeout(() => { if (active) void refresh(); }, 0);
     });
@@ -324,18 +331,19 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       setSelectedClinical(stringArray(saved?.clinical));
       setPracticeFilters({
         books: [], specialties: stringArray(saved?.practice?.specialties), years: stringArray(saved?.practice?.years),
-        series: [], departments: stringArray(saved?.practice?.departments), order: saved?.practice?.order === "book" ? "book" : "random",
+        series: [], departments: stringArray(saved?.practice?.departments),
+        order: saved?.practice?.order === "random" || saved?.practice?.order === "book" ? saved.practice.order : defaultPracticeOrder,
         examKey: saved?.practice?.order === "book" && typeof saved.practice.examKey === "string" ? saved.practice.examKey : undefined,
       });
       setTab(saved?.tab === "clinical" || saved?.tab === "practice" ? saved.tab : "theory");
       setCount(typeof saved?.count === "string" ? saved.count : "10");
     } catch { /* Storage is optional; in-memory selections remain available. */ }
     setLoadedDraft(draftKey);
-  }, [draftKey]);
+  }, [draftKey, defaultPracticeOrder]);
   useEffect(() => {
     if (loadedDraft !== draftKey) return;
-    try { sessionStorage.setItem(draftKey, JSON.stringify({ tab, theory: selectedTheory, clinical: selectedClinical, practice: practiceFilters, count })); } catch { /* Storage unavailable. */ }
-  }, [loadedDraft, draftKey, tab, selectedTheory, selectedClinical, practiceFilters, count]);
+    try { sessionStorage.setItem(draftKey, JSON.stringify({ tab, theory: selectedTheory, clinical: selectedClinical, practice: practiceDraft, count })); } catch { /* Storage unavailable. */ }
+  }, [loadedDraft, draftKey, tab, selectedTheory, selectedClinical, practiceDraft, count]);
   const availablePractice = useMemo(() => practice.filter((q) => !relatedTarget || (relatedTarget.type === "disease" ? q.relatedDiseaseSlugs.some((slug) => (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).includes(slug)) : q.relatedCcSlugs.includes(relatedTarget.slug))), [practice, relatedTarget]);
   const totalQuestions = questions.length + practice.length;
   const practiceCount = availablePractice.filter((q) => matchesPractice(q, practiceFilters)).length;
@@ -414,7 +422,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       bank={tab} onChooseBank={chooseBank} stats={stats} total={totalQuestions} quickCount={quickCount}
       endingSessionId={endingActiveSessionId} onEndSession={(id) => { const session = activeSessions.find((item) => item.sessionId === id); if (session) void endActiveSession(session); }}
       syncStatus={<>{activeSessionSyncError ? <SkinStatus kind="syncFailed" fallback={activeSessionSyncError} detail={activeSessionSyncError} onRetry={() => setActiveSessionSyncRevision((value) => value + 1)} className="chat-qbank-sync" /> : null}{activeSessionSyncing ? <SkinStatus kind="syncing" fallback="문제 세트 동기화 중…" inline className="chat-qbank-sync" /> : null}</>}
-      conversations={activeSessions.map((session) => ({
+      conversations={visibleSessions.map((session) => ({
         id: session.sessionId, title: activeSessionDescription(session, questionsById, practiceById, practiceTopicLabels),
         current: Math.min(session.currentIndex + 1, session.questionIds.length), total: session.questionIds.length, answers: session.answers.length,
         error: activeSessionError?.sessionId === session.sessionId ? <SkinStatus kind="saveError" fallback={activeSessionError.message} detail={activeSessionError.message} className="chat-qbank-sync" /> : undefined,
@@ -445,11 +453,11 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       </nav>
     </header> : null}
 
-    {!relatedTarget && (activeSessions.length > 0 || activeSessionSyncError) ? <SkinPanel className="space-y-1.5" label="진행 중인 문제 세트" title="진행 중인 문제 세트" ordinal={2}>
+    {!relatedTarget && (visibleSessions.length > 0 || activeSessionSyncError) ? <SkinPanel className="space-y-1.5" label="진행 중인 문제 세트" title="진행 중인 문제 세트" ordinal={2}>
       {activeSessionSyncError ? <SkinStatus kind="syncFailed" fallback={activeSessionSyncError} detail={activeSessionSyncError} onRetry={() => setActiveSessionSyncRevision((value) => value + 1)} className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-900" /> : null}
       {activeSessionSyncing ? <SkinStatus kind="syncing" fallback="문제 세트 동기화 중…" inline className="px-1 text-xs text-slate-500" /> : null}
       <div className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,18rem),1fr))] gap-2">
-        {activeSessions.map((activeSession, index) => {
+        {visibleSessions.map((activeSession, index) => {
           const topics = activeSession.context?.topics?.slice(0, 4).map((topic) => `${topic.title} ${topic.count}`).join(" · ");
           return <article key={activeSession.sessionId} className="flex min-w-0 items-center gap-2 rounded-lg border border-teal-200 bg-teal-50/60 px-2.5 py-1.5">
             <div className="min-w-0 flex-1 text-xs leading-4 text-teal-800">
