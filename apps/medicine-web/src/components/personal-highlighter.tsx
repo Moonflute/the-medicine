@@ -16,7 +16,19 @@ const COLORS: Record<HighlightColor, { name: string; swatch: string }> = {
 };
 type Scope = { key: string; root: HTMLElement };
 type Mode = "read" | "pen" | "erase";
+type QuestionGesture = { pointerId: number; before: Range | null; released?: Range };
 type HighlightApi = { registry: Map<string, unknown>; create: new (...ranges: Range[]) => unknown };
+const QUESTION_CONTROLS = 'button, a[href], summary, input, select, textarea, label, [role="button"], [role="link"]';
+
+function liveDocumentSelection(root: HTMLElement) {
+  const current = window.getSelection();
+  if (!current?.rangeCount || current.isCollapsed) return null;
+  const range = current.getRangeAt(0);
+  if (!root.contains(range.startContainer) || !root.contains(range.endContainer) ||
+    range.startContainer.parentElement?.closest("[data-highlight-ignore],dialog,[contenteditable=true],input,textarea")) return null;
+  return range;
+}
+
 function highlightApi(): HighlightApi | null {
   const registry = (CSS as unknown as { highlights?: Map<string, unknown> }).highlights;
   const create = (window as unknown as { Highlight?: HighlightApi["create"] }).Highlight;
@@ -118,11 +130,8 @@ export function PersonalHighlighter() {
   }, [rows, scope, user]);
 
   const capture = useCallback(() => {
-    const current = window.getSelection();
-    if (!scope || !current?.rangeCount || current.isCollapsed) return;
-    const range = current.getRangeAt(0);
-    if (scope.root.contains(range.startContainer) && scope.root.contains(range.endContainer) &&
-      !(range.startContainer.parentElement?.closest("[data-highlight-ignore],dialog,[contenteditable=true],input,textarea"))) selection.current = range.cloneRange();
+    const range = scope && liveDocumentSelection(scope.root);
+    if (range) selection.current = range.cloneRange();
   }, [scope]);
 
   const apply = useCallback((erase = false, chosenColor = color, reconnect?: PersonalHighlight) => {
@@ -160,17 +169,49 @@ export function PersonalHighlighter() {
   useEffect(() => {
     document.documentElement.dataset.highlighterMode = user ? mode : "read";
     const root = scope?.root;
-    root?.setAttribute("data-highlighter-active", user && mode !== "read" ? "true" : "false");
+    const active = Boolean(user && mode !== "read");
+    const question = scope?.key.startsWith("qbank:");
+    root?.setAttribute("data-highlighter-active", active ? "true" : "false");
     const selectionChanged = () => capture();
     let pointerTimer = 0;
-    const pointerUp = (event: PointerEvent) => {
-      if ((event.target as Element).closest?.("[data-highlight-ignore]")) return;
+    let questionGesture: QuestionGesture | null = null;
+    const newSelection = (gesture: QuestionGesture) => {
+      const range = root && liveDocumentSelection(root);
+      if (!range) return null;
+      const { before } = gesture;
+      if (before?.startContainer === range.startContainer && before.startOffset === range.startOffset &&
+        before.endContainer === range.endContainer && before.endOffset === range.endOffset) return null;
+      return range;
+    };
+    const pointerDown = (event: PointerEvent) => {
+      if (!root || !event.isPrimary || event.button !== 0) return;
       window.clearTimeout(pointerTimer);
-      if (user && mode !== "read") pointerTimer = window.setTimeout(() => apply(mode === "erase"), 60);
+      questionGesture = { pointerId: event.pointerId, before: liveDocumentSelection(root)?.cloneRange() ?? null };
+    };
+    const pointerUp = (event: PointerEvent) => {
+      if (!active || (event.target as Element | null)?.closest?.("[data-highlight-ignore]")) return;
+      window.clearTimeout(pointerTimer);
+      const gesture = questionGesture;
+      if (question && gesture?.pointerId !== event.pointerId) return;
+      if (gesture) gesture.released = newSelection(gesture)?.cloneRange();
+      pointerTimer = window.setTimeout(() => {
+        if (gesture) {
+          const range = newSelection(gesture) ?? gesture.released;
+          if (!range) return;
+          selection.current = range.cloneRange();
+        }
+        apply(mode === "erase");
+      }, 60);
     };
     const click = (event: MouseEvent) => {
-      if ((event.target as Element).closest?.("[data-highlight-ignore]")) return;
-      if (user && mode !== "read" && root?.contains(event.target as Node)) { event.preventDefault(); event.stopPropagation(); }
+      const gesture = questionGesture;
+      questionGesture = null;
+      const target = event.target instanceof Element ? event.target : null;
+      if (!active || !target || !root?.contains(target) || target.closest("[data-highlight-ignore]")) return;
+      if (question && target.closest(QUESTION_CONTROLS) &&
+        (event.detail === 0 || !gesture || !(gesture.released || newSelection(gesture)))) return;
+      event.preventDefault();
+      event.stopPropagation();
     };
     const hotkeys = (event: KeyboardEvent) => {
       if (event.key === "Escape") { setOpen(false); setMode("read"); return; }
@@ -185,6 +226,7 @@ export function PersonalHighlighter() {
       setMode(value => value === "pen" ? "read" : "pen");
     };
     document.addEventListener("selectionchange", selectionChanged);
+    if (question && active) root?.addEventListener("pointerdown", pointerDown, true);
     root?.addEventListener("pointerup", pointerUp);
     root?.addEventListener("click", click, true);
     window.addEventListener("keydown", hotkeys);
@@ -192,7 +234,8 @@ export function PersonalHighlighter() {
       window.clearTimeout(pointerTimer);
       document.documentElement.dataset.highlighterMode = "read";
       root?.removeAttribute("data-highlighter-active");
-      document.removeEventListener("selectionchange", selectionChanged); root?.removeEventListener("pointerup", pointerUp);
+      document.removeEventListener("selectionchange", selectionChanged);
+      root?.removeEventListener("pointerdown", pointerDown, true); root?.removeEventListener("pointerup", pointerUp);
       root?.removeEventListener("click", click, true); window.removeEventListener("keydown", hotkeys);
     };
   }, [apply, capture, mode, scope, slot, user]);
