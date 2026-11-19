@@ -228,6 +228,12 @@ export function practiceMockExamLabel(key: string): string {
   return key === RES26_EXAM_KEY ? key : `${key}년`;
 }
 
+/** Statistics and the picker must identify the same round, not just its year. */
+export function practiceQuestionExamLabel(question: PracticeIndex): string {
+  const key = practiceMockExamKey(question);
+  return key ? practiceMockExamLabel(key) : "연도 미상";
+}
+
 export function practiceMockExamTitle(key?: string): string {
   if (!key) return "실전 모의고사";
   const label = practiceMockExamLabel(key);

@@ -114,7 +114,7 @@ test('completion combines source aliases and revisions without double counting o
 
 test('blank mock submissions, bookmarks, drafts and progress placeholders do not count', () => {
   const state = coverageState(mini);
-  state.progress[mini[49].id] = { attempts: 2, lastCorrect: false };
+  state.progress[mini[49].id] = { attempts: 1, lastCorrect: false };
   state.sessions = [session('blank', mini, 0, {
     mockExam: { results: mini.map(q => ({ questionId: q.id, correct: false })) },
   })];
@@ -159,7 +159,7 @@ test('legacy completed rounds survive missing last answers and absent detailed s
     session('partial-2026', year2026.slice(0, 28), 14),
   ];
   const before = JSON.stringify(state);
-  assert.deepEqual([...completedPracticeExamKeys([...res26, ...year2025, ...year2026], state)], ['2026-2', '2025']);
+  assert.deepEqual([...completedPracticeExamKeys([...res26, ...year2025, ...year2026], state)], ['2026-2', '2025', '2026']);
   assert.equal(JSON.stringify(state), before);
 });
 
@@ -194,4 +194,30 @@ test('inaccessible, obsolete or non-round questions cannot create a completed ro
   assert.deepEqual([...completedPracticeExamKeys([], coverageState(hidden))], []);
   assert.deepEqual([...completedPracticeExamKeys([...mini, ...revisions], coverageState(hidden))], []);
   assert.deepEqual([...completedPracticeExamKeys([{ ...mini[0], bookId: 'bank', bookSeries: '실전', examYear: null }], coverageState(mini))], []);
+});
+
+test('all 100 historical attempts complete 2026 even with three missing choices and no full-round session', () => {
+  const original = round('past-2026', 100, 2026);
+  const state = coverageState(original, { progressResetAt: '2026-11-19T12:00:00Z' });
+  for (const q of [original[8], original[15], original[98]]) delete state.progress[q.id].lastAnswer;
+  state.sessions = [session('short-set-only', original.slice(0, 28), 14)];
+  const before = JSON.stringify(state);
+  assert.deepEqual([...completedPracticeExamKeys(original, state)], ['2026']);
+  assert.equal(JSON.stringify(state), before);
+  delete state.progress[original[99].id];
+  assert.deepEqual([...completedPracticeExamKeys(original, state)], []);
+});
+
+test('only automatic blank attempts do not complete a round, including repeated and revised blanks', () => {
+  const question = { ...mini[0], revisionIds: ['revised-' + mini[0].id] };
+  const state = coverageState([], {
+    progress: { [question.revisionIds[0]]: { attempts: 2 } },
+    sessions: [1, 2].map(i => session('blank-' + i, [question], 0, {
+      mockExam: { results: [{ questionId: question.revisionIds[0], correct: false }] },
+    })),
+  });
+  assert.deepEqual([...completedPracticeExamKeys([question], state)], []);
+  // A distinct legacy study attempt before the blank retries remains a lifetime attempt.
+  state.progress[question.id] = { attempts: 1 };
+  assert.deepEqual([...completedPracticeExamKeys([question], state)], ['mock-mini-1']);
 });

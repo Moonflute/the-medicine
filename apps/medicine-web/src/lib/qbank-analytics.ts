@@ -1,7 +1,7 @@
 import type { QbankState } from "./qbank-store";
 import { progressedInRound } from "./qbank-progress";
 
-export type AnalyticsQuestion = { id: string; bank: string; department: string; topic: string; label: string; exam?: string; order?: number; subgroup?: string; revisionIds?: string[] };
+export type AnalyticsQuestion = { id: string; bank: string; department: string; topic: string; label: string; exam?: string; order?: number; subgroup?: string; revisionIds?: string[]; sourceIds?: string[] };
 export type AnalyticsGroup = { key: string; total: number; attempted: number; progressed: number; attempts: number; correct: number; wrong: number; retryIds: string[]; unattemptedIds: string[]; order: number; latestCorrect: number; mastered: number };
 export type PracticeDepartmentGroup = AnalyticsGroup & { children: AnalyticsGroup[] };
 export type AnalyticsSort = "default" | "accuracy" | "wrong" | "unattempted" | "progress";
@@ -14,7 +14,7 @@ export function sortAnalyticsGroups<T extends AnalyticsGroup>(groups: T[], sort:
 export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: QbankState, bank = "all", department = "all", progressResetAt: string | null = null) {
   const catalog = [...new Map(questions.map(q => [q.id, q])).values()];
   const selected = catalog.filter(q => (bank === "all" || q.bank === bank) && (department === "all" || q.department === department));
-  const ids = new Set(selected.flatMap(q => [q.id, ...(q.revisionIds ?? [])]));
+  const ids = new Set(selected.flatMap(q => [q.id, ...(q.revisionIds ?? []), ...(q.sourceIds ?? [])]));
   const groups = new Map<string, AnalyticsGroup>();
   const topics = new Map<string, AnalyticsGroup>();
   const exams = new Map<string, AnalyticsGroup>();
@@ -40,7 +40,7 @@ export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: Qbank
   };
   for (const q of selected) {
     // Count one question slot, but keep both editions' actual recorded scores.
-    const versionIds = [q.id, ...(q.revisionIds ?? [])];
+    const versionIds = [...new Set([q.id, ...(q.revisionIds ?? []), ...(q.sourceIds ?? [])])];
     let p: QbankState["progress"][string] | undefined;
     let count = 0, right = 0;
     for (const id of versionIds) {

@@ -16,13 +16,18 @@ export function completedPracticeExamKeys(questions: PracticeIndex[], state: Pic
     for (const id of [...practiceVersionIds(question), ...(question.sourceIds ?? [])]) slots.set(id, { id: question.id, round });
   }
   const answered = new Set<string>();
+  const attemptsBySlot = new Map<string, number>();
+  const automaticBlanksBySlot = new Map<string, number>();
   const addAnswer = (id: string) => {
     const slot = slots.get(id);
     if (slot) answered.add(slot.id);
   };
   for (const [id, progress] of Object.entries(state.progress)) {
-    // Mock grading also records blank answers as attempts; those are not solved questions.
-    if (progress.attempts > 0 && isSelection(progress.lastAnswer)) addAnswer(id);
+    const slot = slots.get(id);
+    if (!slot || progress.attempts <= 0) continue;
+    // Legacy study submissions can retain an attempt without retaining a choice.
+    attemptsBySlot.set(slot.id, (attemptsBySlot.get(slot.id) ?? 0) + progress.attempts);
+    if (isSelection(progress.lastAnswer)) addAnswer(id);
   }
   for (const session of state.sessions) {
     // Immutable snapshots preserve earlier answers even if a later retry was left blank,
@@ -30,6 +35,11 @@ export function completedPracticeExamKeys(questions: PracticeIndex[], state: Pic
     if (session.mockExam) {
       for (const result of session.mockExam.results) {
         if (isSelection(result.selected)) addAnswer(result.questionId);
+        else {
+          // A saved mock snapshot explicitly identifies automatically graded blanks.
+          const slot = slots.get(result.questionId);
+          if (slot) automaticBlanksBySlot.set(slot.id, (automaticBlanksBySlot.get(slot.id) ?? 0) + 1);
+        }
       }
       continue;
     }
@@ -45,6 +55,9 @@ export function completedPracticeExamKeys(questions: PracticeIndex[], state: Pic
     const ids = new Set(savedSlots.flatMap(slot => slot ? [slot.id] : []));
     if (ids.size !== session.questionIds.length || ids.size !== rounds.get(round)?.size) continue;
     for (const id of ids) answered.add(id);
+  }
+  for (const [id, attempts] of attemptsBySlot) {
+    if (attempts > (automaticBlanksBySlot.get(id) ?? 0)) answered.add(id);
   }
   return new Set([...rounds].filter(([, ids]) => [...ids].every(id => answered.has(id))).map(([key]) => key));
 }

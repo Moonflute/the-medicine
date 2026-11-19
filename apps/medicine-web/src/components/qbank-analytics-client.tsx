@@ -8,7 +8,7 @@ import { QbankStatsSetDialog, type StatsSetRequest, type StatsSetLauncher } from
 import { QbankMockHistory } from "@/components/qbank-mock-history";
 import { loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT, resetQbankProgressView, type QbankState } from "@/lib/qbank-store";
 import { loadPracticeIndex } from "@/lib/practice-bank";
-import { isAuthoredPracticeMock, isListedQuestion, listedPracticeIds, practiceMockExamLabel, practiceTopicLabel, PRACTICE_DEPARTMENTS } from "@/lib/practice-selection";
+import { isListedQuestion, listedPracticeIds, practiceQuestionExamLabel, practiceTopicLabel, PRACTICE_DEPARTMENTS } from "@/lib/practice-selection";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import type { QbankQuestionIndex } from "@/lib/types";
 
@@ -84,7 +84,7 @@ export function QbankAnalyticsClient() {
           const specialtyNumber = Number(q.specialty.match(/^\s*(\d{1,2})\b/)?.[1]);
           const subgroup = q.bookDepartment === "내과" && specialtyNumber >= 1 && specialtyNumber <= 10 ? practiceTopicLabel(q) : undefined;
           const departmentOrder = Math.max(0, PRACTICE_DEPARTMENTS.indexOf(q.bookDepartment as typeof PRACTICE_DEPARTMENTS[number])) * 0.01 + (q.bookDepartment === "내과" ? 0 : 10.5);
-          const exam = isAuthoredPracticeMock(q) ? practiceMockExamLabel(q.bookId) : String(q.examYear ?? "연도 미상");
+          const exam = practiceQuestionExamLabel(q);
           return { id: q.id, sourceIds: q.sourceIds, revisionIds: q.revisionIds, bank: "practice", department: q.bookDepartment, order: subgroup ? specialtyNumber : departmentOrder, topic: practiceTopicLabel(q), subgroup, label: `${exam} · ${q.bookDepartment} · ${q.id.split("-").at(-1)?.replace(/^0+/, "") || "0"}번`, exam };
         }));
         setPrivateMessage(result.questions.length ? "" : result.message);

@@ -5,6 +5,7 @@ import ts from 'typescript';
 const compile = name => ts.transpileModule(fs.readFileSync(new URL(`../src/lib/${name}.ts`, import.meta.url), 'utf8'), {compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
 const url = code => `data:text/javascript;base64,${Buffer.from(code).toString('base64')}`;
 const { buildQbankAnalytics, readRetryIds, sortAnalyticsGroups } = await import(url(compile('qbank-analytics').replace('"./qbank-progress"', JSON.stringify(url(compile('qbank-progress'))))));
+const { practiceQuestionExamLabel } = await import(url(compile('practice-selection')));
 
 const catalog = [
   { id: 'a', bank: 'clinical', department: '내과', topic: '신장', label: 'a' },
@@ -113,4 +114,46 @@ test('sorting keeps each group IDs and counts unchanged and puts unseen accuracy
   assert.equal(sortAnalyticsGroups(groups,'progress')[0].key,'외과');
   assert.deepEqual(sortAnalyticsGroups(groups,'wrong').flatMap(g=>g.retryIds).sort(),['a','b','c']);
   assert.deepEqual(sortAnalyticsGroups(groups,'unattempted').flatMap(g=>g.unattemptedIds),['d']);
+});
+
+test('statistics split the original 2026 round from RES 26 and preserve each recorded score', () => {
+  const round = (bookId, count) => Array.from({ length: count }, (_, i) => ({
+    id: `QB-${bookId}-${i}`, bookId, bookSeries: '실전', bookDepartment: '내과', examYear: 2026,
+  }));
+  const original = [...round('perfect2026-im-gs', 60), ...round('perfect2026-pe-og', 40)];
+  const added = round('practice-res2608', 50);
+  const catalog = [...original, ...added].map(q => ({
+    id: q.id, bank: 'practice', department: q.bookDepartment, topic: '순환기', label: q.id, exam: practiceQuestionExamLabel(q),
+  }));
+  const progress = Object.fromEntries([...original, ...added].map((q, i) => [q.id, {
+    attempts: 1, correctAttempts: i < 70 ? 1 : 0, lastCorrect: i < 70,
+    lastAnswer: i < 97 || i >= 100 && i !== 131 ? 'A' : undefined,
+  }]));
+  const history = { ...state, progress, wrongIds: original.slice(70).map(q => q.id) };
+  const before = JSON.stringify(history);
+  const stats = buildQbankAnalytics(catalog, history, 'practice');
+  assert.deepEqual(stats.exams.map(g => [g.key, g.total, g.progressed]).sort(), [
+    ['2026-2', 50, 50], ['2026년', 100, 100],
+  ].sort());
+  assert.equal(stats.attempted, 150);
+  assert.equal(stats.attempts, 150);
+  assert.equal(stats.correct, 70);
+  assert.equal(JSON.stringify(history), before);
+  assert.equal(practiceQuestionExamLabel({ ...added[0], bookSeries: '창작 모의고사', bookId: 'mock-mini-1', examYear: null }), '미니 모의고사 1회');
+  assert.equal(practiceQuestionExamLabel({ ...added[0], examYear: null }), '연도 미상');
+});
+
+test('historical source aliases contribute to their own round once and retry through the canonical ID', () => {
+  const q = { id: 'canonical', sourceIds: ['old', 'old'], revisionIds: ['rev', 'rev'], bank: 'practice', department: '내과', topic: '순환기', label: 'q', exam: '2026-2' };
+  const saved = { ...state, progress: {
+    old: { attempts: 1, correctAttempts: 0, lastCorrect: false },
+    rev: { attempts: 1, correctAttempts: 1, lastCorrect: true },
+  }, wrongIds: ['old'], sessions: [{ id: 'legacy', completedAt: '2026-09-01', questionIds: ['old'], correct: 0, total: 1 }] };
+  const stats = buildQbankAnalytics([q], saved, 'practice');
+  assert.equal(stats.selected.length, 1);
+  assert.equal(stats.attempts, 2);
+  assert.equal(stats.correct, 1);
+  assert.equal(stats.exams[0].progressed, 1);
+  assert.deepEqual(stats.exams[0].retryIds, ['canonical']);
+  assert.equal(stats.sessions.length, 1);
 });
