@@ -7,6 +7,9 @@ const labels = `${marker}(?:\\s*(?:[,/·、]|및|와|과)\\s*${marker}|\\s+(?=[�
 const optionLine = new RegExp(`^\\s*(?:[-*•]\\s+)?(?:\\*\\*)?(?:보기\\s*|선택지\\s*)?(${labels})(?:\\s*번)?(?:\\*\\*)?\\s*([:：.)）]?)(?:\\*\\*)?(?:\\s+|$)(.*)$`);
 const optionSection = /^(오답\s*(?:해설|풀이|피하기|분석|포인트)|(?:보기|선택지)(?:별)?\s*(?:해설|풀이|분석)|정답\s*(?:및\s*)?해설)/;
 const sectionEnd = /^(?:[\[［【#]|출제\s*의도|심화\s*해설|핵심\s*(?:요약|정리)|참고|근거|추가\s*\)|해설\s*\d)/;
+const separateExample = /^(?:(?:추가|별도)\s*(?:예제|예시(?:\s*문항)?|문항)|추가\s*[:：]\s*다른\s*영상\s*상황)/;
+const exampleQuestion = /[?？]\s*(?:\d{4}\s*)?(?:기출(?:\s*변형)?|예제|연습\s*문제)\s*$/;
+const mainExplanation = /^(?:해설\s*[1-9]\d*(?:\s*[\]］】:：]|$)|본문항\s*해설)/;
 
 function plain(value: string): string {
   return value.replace(/\*\*/g, "").replace(/\s+/g, " ").trim();
@@ -28,12 +31,31 @@ export function practiceExplanationText(question: QbankQuestion): string {
   const answers = correctAnswers(question);
   let context: "wrong" | "correct" | "options" | undefined;
   let inFence = false;
+  let inSeparateExample = false;
   return text.replace(/\r\n?/g, "\n").split("\n").flatMap(line => {
     if (/^\s*```/.test(line)) { inFence = !inFence; context = undefined; return [line]; }
     if (inFence || /^\s*\|/.test(line)) return [line];
 
     const clean = line.trim().replace(/^(?:#{1,6}\s+|[-*•]\s+)/, "").replace(/\*\*/g, "");
     const unwrapped = clean.replace(/^[\[［【]\s*/, "");
+    // A secondary vignette has its own option numbering. Its later
+    // "정답 및 해설" / "오답피하기" headings must not reactivate the parent
+    // question's options. Resume only at an explicit main explanation boundary.
+    if (separateExample.test(unwrapped) || exampleQuestion.test(clean)) {
+      inSeparateExample = true;
+      context = undefined;
+      return [line];
+    }
+    if (inSeparateExample) {
+      if (!mainExplanation.test(unwrapped)) return [line];
+      inSeparateExample = false;
+      context = undefined;
+    }
+    const renderedTitle = line.trim().match(/^\*\*([A-E])\. (.+)\*\*$/);
+    if (renderedTitle && plain(renderedTitle[2]) === plain(question.options[renderedTitle[1] as QbankAnswer] ?? "")) {
+      if (context === "correct") context = undefined;
+      return [line];
+    }
     const section = unwrapped.match(optionSection);
     let candidate = line;
     let heading: string | undefined;

@@ -49,6 +49,7 @@ test('a correct-answer explanation does not relabel a subsequent numbered algori
   const result = format('정답 및 해설 ③ 정답 근거\n① 첫 평가\n② 둘째 평가\n③ 셋째 평가');
   assert.equal((result.match(/\*\*C\./g) ?? []).length, 1);
   assert.ok(result.endsWith('① 첫 평가\n② 둘째 평가\n③ 셋째 평가'));
+  assert.equal(format(result), result);
 });
 
 test('tables, code, other-bank explanations and a separate example are preserved', () => {
@@ -74,4 +75,35 @@ test('year rounds, authored mocks and revisions use the same presentation withou
     assert.equal(practiceExplanationText(question), '**B. 검사 둘**\n\n설명');
     assert.equal(JSON.stringify(question), before);
   }
+});
+
+test('a separate image scenario keeps its own labels even after nested answer headings', () => {
+  const extra = '[추가: 다른 영상 상황의 원문 해설]\n아래 번호는 별도 원문 보기의 번호입니다.\n정답 및 해설 ① 다른 영상의 정답\n오답피하기 ② 다른 영상의 오답\n③ 다른 영상의 보기\nA: 별도 보기 설명';
+  const result = format('정답 및 해설 ③ 본문항 설명\n\n' + extra);
+  assert.ok(result.endsWith(extra));
+  assert.equal((result.match(/\*\*[A-E]\./g) ?? []).length, 1);
+  assert.equal(format(result), result);
+});
+
+test('an embedded past-exam example cannot borrow the current question options', () => {
+  const extra = '다음 처치는? 2020 기출변형\n① 별도 보기 하나 ② 별도 보기 둘\n③ 별도 보기 셋\n정답 및 해설 ① 예제의 정답 이유\n오답피하기\n② 예제의 오답 이유\n3: 예제의 설명';
+  const result = format('오답피하기\n① 본문항 오답 설명\n' + extra);
+  assert.ok(result.endsWith(extra));
+  assert.equal((result.match(/\*\*[A-E]\./g) ?? []).length, 1);
+});
+
+test('explicit example scope ends at a main explanation, not at its own option commentary', () => {
+  const extra = '[추가 예제: 본문항과 다른 보기 번호]\n① 별도 보기\n정답 및 해설 ① 예제 해설\n오답피하기\n② 예제 오답';
+  for (const boundary of ['[본문항 해설 보충]', '[해설 2]']) {
+    const result = format(extra + '\n' + boundary + '\n보기별 해설\n① 본문항 보기 설명');
+    assert.ok(result.startsWith(extra));
+    assert.ok(result.endsWith('**A. 검사 하나**\n\n본문항 보기 설명'));
+    assert.equal(format(result), result);
+  }
+});
+
+test('reviewed source headings keep the first wrong option and grouped commentary together', () => {
+  const result = format('정답 및 해설\n세 번째 검사가 필요한 이유입니다.\n\n오답피하기\n① ② 두 검사가 불필요한 이유입니다.\n④ 다른 검사가 불필요한 이유입니다.');
+  assert.match(result, /오답피하기\n\*\*A\. 검사 하나\*\*\n\*\*B\. 검사 둘\*\*\n\n두 검사가 불필요한 이유입니다\./);
+  assert.ok(result.endsWith('**D. 검사 넷**\n\n다른 검사가 불필요한 이유입니다.'));
 });
