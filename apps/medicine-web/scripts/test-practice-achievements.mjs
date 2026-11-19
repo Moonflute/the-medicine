@@ -142,7 +142,50 @@ test('partial sessions contribute only actual answers, not their entire selected
   const second = session('second', mini, 0, { mockExam: { results: right } });
   assert.deepEqual([...completedPracticeExamKeys(mini, coverageState([], { sessions: [first] }))], []);
   assert.deepEqual([...completedPracticeExamKeys(mini, coverageState([], { sessions: [first, second] }))], ['mock-mini-1']);
-  assert.deepEqual([...completedPracticeExamKeys(mini, coverageState([], { sessions: [session('not-a-snapshot', mini, 10)] }))], []);
+  assert.deepEqual([...completedPracticeExamKeys(mini, coverageState([], { sessions: [session('not-a-snapshot', mini, 10, { total: 10 })] }))], []);
+});
+
+test('legacy completed rounds survive missing last answers and absent detailed snapshots', () => {
+  const res26 = round('practice-res2608', 50, 2026);
+  const year2025 = round('past', 50, 2025);
+  const year2026 = round('past-2026', 100, 2026);
+  const state = coverageState([...res26, ...year2025, ...year2026]);
+  delete state.progress[res26[31].id].lastAnswer;
+  for (const q of year2025.slice(0, 9)) delete state.progress[q.id].lastAnswer;
+  for (const q of year2026.slice(0, 3)) delete state.progress[q.id].lastAnswer;
+  state.sessions = [
+    session('legacy-res26', res26, 36),
+    session('legacy-2025', year2025, 18),
+    session('partial-2026', year2026.slice(0, 28), 14),
+  ];
+  const before = JSON.stringify(state);
+  assert.deepEqual([...completedPracticeExamKeys([...res26, ...year2025, ...year2026], state)], ['2026-2', '2025']);
+  assert.equal(JSON.stringify(state), before);
+});
+
+test('legacy fallback rejects incomplete, mixed, duplicate and invalid completion records', () => {
+  const all = [...mini, ...full];
+  const invalid = [
+    session('early', mini, 10, { total: 10 }),
+    session('short', mini.slice(0, 5), 5),
+    session('mixed', [...mini.slice(0, 25), ...full.slice(0, 25)], 20),
+    session('duplicates', Array(50).fill(mini[0]), 10),
+    session('unavailable', [{ id: 'not-listed' }, ...mini.slice(1)], 10),
+    session('invalid-date', mini, 20, { completedAt: '' }),
+    session('invalid-score', mini, 51),
+  ];
+  for (const saved of invalid) assert.deepEqual([...completedPracticeExamKeys(all, coverageState([], { sessions: [saved] }))], [], saved.id);
+});
+
+test('snapshot blanks remain incomplete; only a full legacy result can preserve older completion', () => {
+  const results = mini.map((q, i) => ({ questionId: q.id, selected: i ? 'A' : undefined, correct: false }));
+  const newer = session('newer-with-blank', mini, 0, { mockExam: { results } });
+  const state = coverageState([], { sessions: [newer] });
+  assert.deepEqual([...completedPracticeExamKeys(mini, state)], []);
+  const oldAliases = mini.map(q => ({ ...q, sourceIds: ['old-' + q.id] }));
+  const older = session('legacy-completed', oldAliases.map(q => ({ id: q.sourceIds[0] })), 0);
+  state.sessions.push(older);
+  assert.deepEqual([...completedPracticeExamKeys(oldAliases, state)], ['mock-mini-1']);
 });
 
 test('inaccessible, obsolete or non-round questions cannot create a completed round', () => {
