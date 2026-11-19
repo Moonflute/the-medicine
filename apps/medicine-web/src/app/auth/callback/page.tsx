@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { getSupabaseBrowserClient, isSupabaseConfigured } from "@/lib/supabase/client";
+import { getSupabaseBrowserClient, isSupabaseConfigured, sessionUsesGoogleOAuth } from "@/lib/supabase/client";
+import { notifyGoogleLogin } from "@/lib/google-login-notification";
 
 export default function AuthCallbackPage() {
   const router = useRouter();
@@ -17,6 +18,7 @@ export default function AuthCallbackPage() {
         setMessage(error?.message ?? "The sign-in session could not be confirmed. Please try again.");
         return;
       }
+      if (sessionUsesGoogleOAuth(data.session)) void notifyGoogleLogin(supabase, data.session.access_token);
       router.replace("/review");
     });
   }, [router]);

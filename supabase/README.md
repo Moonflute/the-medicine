@@ -69,7 +69,19 @@ Existing Edge Function secrets `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` are a
 
 Targeted checks: `node --experimental-strip-types --test scripts/test-device-login.mjs` from `apps/medicine-web`, plus lint/type checking. Authentication hashes and session credentials must never appear in logs or URLs.
 
-## 6. 실전 개정판 (2026-11)
+## 6. Google login notifications
+
+Apply the `google_login_notifications` migration and deploy `functions/google-login-notify` with `config.toml`. It reuses the device-login Telegram Vault secrets (or the existing Edge Function environment secrets); no new bot or browser-visible secret is needed.
+
+- Only the Google OAuth callback requests this alert. Restoring a saved session, refreshing a token, or refocusing the app does not request it.
+- The function validates the bearer with Auth, requires a recent OAuth authentication and a live matching session, and reads the name/email from Auth. Client-supplied names, times, recipients, and IDs are ignored.
+- Messages contain only the name, email, and original OAuth login time in `Asia/Seoul`. No IP address, login code, or token is sent. This includes the owner's Google logins and new users' first logins.
+- A service-role-only table deduplicates by session ID and leases each send attempt. There are at most three attempts; session deletion also deletes the notification record. Browser roles cannot read or modify it.
+- Notification errors never sign the user out or block navigation. The callback makes up to three background attempts for temporary failures. Telegram outages or closing the browser immediately can still prevent delivery; this is an operational notification, not a guaranteed audit log.
+
+Targeted check: `node --experimental-strip-types --test scripts/test-google-login-notification.mjs` from `apps/medicine-web`.
+
+## 7. 실전 개정판 (2026-11)
 
 The edition uses separate `QB-REV-202611-…` IDs under the existing approved-account policy. The original question bank, original grading, and saved results are not updated. The app offers **실전 문제 → 개정판** once the private edition rows are installed.
 

@@ -96,7 +96,7 @@ jobs:
         run: node --test scripts/test-learning-sync.mjs scripts/test-qbank-analytics.mjs scripts/test-qbank-memos.mjs scripts/test-review-card-recommendations.mjs
 
       - name: Verify temporary device login
-        run: node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test scripts/test-device-login.mjs
+        run: node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test scripts/test-device-login.mjs scripts/test-google-login-notification.mjs
 
       - name: Verify practice access administration
         run: node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --test scripts/test-qbank-access-admin.mjs

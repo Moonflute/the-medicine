@@ -11,3 +11,8 @@ entrypoint = "./functions/device-login/index.ts"
 # every privileged request, including when the project uses asymmetric JWTs.
 verify_jwt = false
 entrypoint = "./functions/qbank-access-admin/index.ts"
+
+[functions.google-login-notify]
+# Auth verifies the exact bearer in handler.ts; this also supports asymmetric JWTs.
+verify_jwt = false
+entrypoint = "./functions/google-login-notify/index.ts"
