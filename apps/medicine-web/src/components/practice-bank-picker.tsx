@@ -3,6 +3,7 @@
 import { PracticeStartControls } from "@/components/practice-start-controls";
 import { useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
+import { Check } from "lucide-react";
 import type { PracticeFilters, PracticeIndex } from "@/lib/practice-selection";
 import { isAuthoredPracticeMock, matchesPractice, toggleGroup, mockExamFilters, practiceMockExamSections, PRACTICE_DEPARTMENTS, practiceTopicSections, selectedPracticeExamKey } from "@/lib/practice-selection";
 
@@ -12,8 +13,9 @@ const choices = [["random", "분과·조건 선택"], ["book", "회차 전체 �
 function PickerFooter({ target, children }: { target?: HTMLDivElement | null; children: ReactNode }) {
   return target ? createPortal(children, target) : children;
 }
-export function PracticeBankPicker({ questions, filters, onChange, message, appearance = "default", footerTarget, topControlsTarget }: {
+export function PracticeBankPicker({ questions, filters, onChange, message, completedExamKeys, appearance = "default", footerTarget, topControlsTarget }: {
   questions: PracticeIndex[]; filters: PracticeFilters; onChange: (next: PracticeFilters) => void; message: string; appearance?: "default" | "chat";
+  completedExamKeys: ReadonlySet<string>;
   footerTarget?: HTMLDivElement | null; topControlsTarget?: HTMLDivElement | null;
 }) {
   const [examMode, setExamMode] = useState(true);
@@ -37,6 +39,7 @@ export function PracticeBankPicker({ questions, filters, onChange, message, appe
             return <label key={exam.key} className={`practice-round-choice flex min-h-9 min-w-0 cursor-pointer items-center gap-1.5 rounded-md border px-2 py-1 ${checked ? "border-teal-500 bg-teal-50 text-teal-950" : "border-slate-200 hover:border-teal-300"}`} data-checked={checked}>
               <input type="radio" name="practice-mock-exam" checked={checked} onChange={() => onChange(mockExamFilters(exam.year, exam.key))} className="h-3.5 w-3.5 shrink-0 accent-teal-600" />
               <span className="practice-round-name">{exam.label}</span>
+              {completedExamKeys.has(exam.key) ? <span className="practice-round-complete" role="img" aria-label="전체 문항 풀이 완료" title="모든 문항을 한 번 이상 풀었습니다."><Check size={16} strokeWidth={2.5} aria-hidden="true" /></span> : null}
               <span className="practice-round-count ml-auto text-slate-500">{exam.count.toLocaleString()}문항</span>
             </label>;
           })}</div>

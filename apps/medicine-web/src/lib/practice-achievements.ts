@@ -1,5 +1,38 @@
-import type { QbankSessionResult } from "./qbank-store";
+import type { QbankSessionResult, QbankState } from "./qbank-store";
+import { isSelection } from "./qbank-grading";
 import { practiceMockExamKey, practiceVersionIds, PRACTICE_REVISION_SERIES, type PracticeIndex } from "./practice-selection";
+
+/** Lifetime coverage is independent of accuracy, the current run and progress-view resets. */
+export function completedPracticeExamKeys(questions: PracticeIndex[], state: Pick<QbankState, "progress" | "sessions">): Set<string> {
+  const slots = new Map<string, string>();
+  const rounds = new Map<string, Set<string>>();
+  for (const question of questions) {
+    if (question.bookSeries === PRACTICE_REVISION_SERIES) continue;
+    const round = practiceMockExamKey(question);
+    if (!round) continue;
+    const ids = rounds.get(round) ?? new Set<string>();
+    ids.add(question.id);
+    rounds.set(round, ids);
+    for (const id of [...practiceVersionIds(question), ...(question.sourceIds ?? [])]) slots.set(id, question.id);
+  }
+  const answered = new Set<string>();
+  const addAnswer = (id: string) => {
+    const slot = slots.get(id);
+    if (slot) answered.add(slot);
+  };
+  for (const [id, progress] of Object.entries(state.progress)) {
+    // Mock grading also records blank answers as attempts; those are not solved questions.
+    if (progress.attempts > 0 && isSelection(progress.lastAnswer)) addAnswer(id);
+  }
+  for (const session of state.sessions) {
+    // Immutable snapshots preserve earlier answers even if a later retry was left blank,
+    // and include submitted questions that had no gradeable answer key.
+    for (const result of session.mockExam?.results ?? []) {
+      if (isSelection(result.selected)) addAnswer(result.questionId);
+    }
+  }
+  return new Set([...rounds].filter(([, ids]) => [...ids].every(id => answered.has(id))).map(([key]) => key));
+}
 
 export type PracticeAchievement = {
   score: number;

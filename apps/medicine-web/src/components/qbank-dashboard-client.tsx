@@ -13,6 +13,7 @@ import { ArrowLeft, Bookmark, CircleAlert, RotateCcw } from "lucide-react";
 import { PracticeBankPicker } from "@/components/practice-bank-picker";
 import { EMPTY_PRACTICE_FILTERS, isListedQuestion, listedPracticeIds, matchesPractice, practiceSourceQuestionId, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, visiblePracticeFilters, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { loadPracticeIndex } from "@/lib/practice-bank";
+import { completedPracticeExamKeys } from "@/lib/practice-achievements";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds } from "@/lib/qbank-store";
 import { QBANK_DEFAULT_COUNT, readQbankQuestionCount } from "@/lib/qbank-question-count";
@@ -163,6 +164,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const [showUnattemptedDialog, setShowUnattemptedDialog] = useState(false);
   const [unattemptedCount, setUnattemptedCount] = useState("10");
   const [stats, setStats] = useState({ attempted: 0, wrong: 0, bookmarks: 0 });
+  const [completedExamKeys, setCompletedExamKeys] = useState<ReadonlySet<string>>(() => new Set());
+  const [completionOwner, setCompletionOwner] = useState<string | null>();
   const [activeSessions, setActiveSessions] = useState<QbankActiveSession[]>([]);
   const [activeSessionSyncRevision, setActiveSessionSyncRevision] = useState(0);
   const [activeSessionSyncError, setActiveSessionSyncError] = useState("");
@@ -183,11 +186,17 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       const state = loadQbankState();
       const distinctQuestions = (ids: string[]) => new Set(ids.filter(id => isListedQuestion(id, practiceIds)).map(practiceSourceQuestionId)).size;
       setStats({ attempted: distinctQuestions(Object.keys(state.progress)), wrong: distinctQuestions(state.wrongIds), bookmarks: distinctQuestions(state.bookmarkIds) });
+      const owner = window.localStorage.getItem(OWNER_KEY);
+      setCompletedExamKeys(owner && owner !== completionOwner ? new Set() : completedPracticeExamKeys(practice, state));
     };
     refresh();
     window.addEventListener(QBANK_CHANGE_EVENT, refresh);
-    return () => window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
-  }, [practiceIds]);
+    window.addEventListener("storage", refresh);
+    return () => {
+      window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
+      window.removeEventListener("storage", refresh);
+    };
+  }, [practice, practiceIds, completionOwner]);
 
   useEffect(() => {
     let active = true;
@@ -202,6 +211,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       const { data: { user }, error: authError } = await client.auth.getUser();
       if (!active) return;
       if (authError && !isAuthSessionMissingError(authError)) throw authError;
+      setCompletionOwner(user?.id ?? null);
       if (!user) return;
       const owner = window.localStorage.getItem(OWNER_KEY);
       if (owner && owner !== user.id) {
@@ -260,7 +270,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       if (active) setActiveSessionSyncError("문제 세트 동기화에 실패했습니다. 네트워크를 확인하고 다시 시도해 주세요.");
     }).finally(() => { if (active) setActiveSessionSyncing(false); });
     const authListener = client.auth.onAuthStateChange((event) => {
-      if (event === "SIGNED_IN" || event === "SIGNED_OUT") window.setTimeout(() => { if (active) setActiveSessionSyncRevision((value) => value + 1); }, 0);
+      if (event === "SIGNED_IN" || event === "SIGNED_OUT") window.setTimeout(() => { if (active) { setCompletionOwner(undefined); setActiveSessionSyncRevision((value) => value + 1); } }, 0);
     });
     const refreshWhenVisible = () => { if (document.visibilityState === "visible") setActiveSessionSyncRevision((value) => value + 1); };
     document.addEventListener("visibilitychange", refreshWhenVisible);
@@ -414,7 +424,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       </div>
       <div role="tabpanel" id="panel-practice" aria-labelledby="tab-practice" hidden={tab !== "practice"} className="mt-6 space-y-3">
         {bankHeading("practice", "실전 문제", availablePractice.length)}
-        <PracticeBankPicker appearance={chatLayout ? "chat" : "default"} footerTarget={chatLayout ? chatPracticeFooter : undefined} topControlsTarget={tab === "practice" && loadedDraft === draftKey ? topControlsTarget : null} questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} />
+        <PracticeBankPicker appearance={chatLayout ? "chat" : "default"} footerTarget={chatLayout ? chatPracticeFooter : undefined} topControlsTarget={tab === "practice" && loadedDraft === draftKey ? topControlsTarget : null} questions={availablePractice} filters={practiceFilters} onChange={setPracticeFilters} message={practiceMessage} completedExamKeys={completedExamKeys} />
       </div></>;
   if (chatLayout) {
     return <ChatQbankLobby

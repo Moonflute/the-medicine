@@ -9,7 +9,9 @@ const moduleUrl = (path, imports = {}) => {
   return `data:text/javascript;base64,${Buffer.from(js).toString('base64')}`;
 };
 const selection = moduleUrl('../src/lib/practice-selection.ts');
-const { practiceAchievement } = await import(moduleUrl('../src/lib/practice-achievements.ts', { './practice-selection': selection }));
+const { practiceAchievement, completedPracticeExamKeys } = await import(moduleUrl('../src/lib/practice-achievements.ts', {
+  './practice-selection': selection, './qbank-grading': moduleUrl('../src/lib/qbank-grading.ts'),
+}));
 const { compareMockSubjects, MOCK_SUBJECTS } = await import(moduleUrl('../src/lib/mock-exam.ts', { './qbank-grading': moduleUrl('../src/lib/qbank-grading.ts') }));
 const round = (key, count, year = null) => Array.from({ length: count }, (_, i) => ({
   id: `QB-${key}-IM-${i}`, bookId: key, examYear: year, bookSeries: year === null ? '창작 모의고사' : '실전',
@@ -73,4 +75,80 @@ test('later records do not retroactively remove an achievement, and fractions ar
   assert.equal(practiceAchievement(current, [later, current], catalogue).overallRecord, true);
   const odd = round('mock-full-2', 101);
   assert.equal(practiceAchievement(session('fraction', odd, 40), [], odd).passed, false);
+});
+
+const coverageState = (questions, extra = {}) => ({
+  progress: Object.fromEntries(questions.map(q => [q.id, { questionId: q.id, attempts: 1, lastAnswer: 'B', lastCorrect: false }])),
+  sessions: [], ...extra,
+});
+
+test('round completion requires every distinct question, not correctness or repeated attempts', () => {
+  assert.deepEqual([...completedPracticeExamKeys(catalogue, coverageState([]))], []);
+  assert.deepEqual([...completedPracticeExamKeys(catalogue, coverageState(mini.slice(0, 49)))], []);
+  const repeated = coverageState(mini.slice(0, 49));
+  repeated.progress[mini[0].id].attempts = 500;
+  assert.deepEqual([...completedPracticeExamKeys(catalogue, repeated)], []);
+  assert.deepEqual([...completedPracticeExamKeys(catalogue, coverageState(mini))], ['mock-mini-1']);
+});
+
+test('original 2026 and RES 26 remain separate rounds, as do authored rounds', () => {
+  const original = round('past-2026', 2, 2026);
+  const res26 = round('practice-res2608', 2, 2026);
+  const all = [...original, ...res26, ...mini];
+  assert.deepEqual([...completedPracticeExamKeys(all, coverageState(original))], ['2026']);
+  assert.deepEqual([...completedPracticeExamKeys(all, coverageState(res26))], ['2026-2']);
+  assert.deepEqual([...completedPracticeExamKeys(all, coverageState([...res26, ...mini]))], ['2026-2', 'mock-mini-1']);
+});
+
+test('completion combines source aliases and revisions without double counting or mutating records', () => {
+  const changed = mini.map(q => ({ ...q, sourceIds: ['old-' + q.id], revisionIds: ['revision-' + q.id] }));
+  const answered = changed.map((q, i) => ({ id: i % 2 ? q.revisionIds[0] : q.sourceIds[0] }));
+  const state = coverageState(answered);
+  const before = JSON.stringify(state);
+  assert.deepEqual([...completedPracticeExamKeys(changed, state)], ['mock-mini-1']);
+  assert.equal(JSON.stringify(state), before);
+  delete state.progress[answered[49].id];
+  state.progress[changed[0].id] = { attempts: 500, lastAnswer: 'A' };
+  assert.deepEqual([...completedPracticeExamKeys(changed, state)], []);
+});
+
+test('blank mock submissions, bookmarks, drafts and progress placeholders do not count', () => {
+  const state = coverageState(mini);
+  state.progress[mini[49].id] = { attempts: 2, lastCorrect: false };
+  state.sessions = [session('blank', mini, 0, {
+    mockExam: { results: mini.map(q => ({ questionId: q.id, correct: false })) },
+  })];
+  state.bookmarkIds = [mini[49].id];
+  state.drafts = { [mini[49].id]: 'A' };
+  assert.deepEqual([...completedPracticeExamKeys(mini, state)], []);
+  state.progress[mini[49].id] = { attempts: 0, lastAnswer: 'A' };
+  assert.deepEqual([...completedPracticeExamKeys(mini, state)], []);
+});
+
+test('past submitted snapshots count ungraded answers and survive a newer incomplete retry', () => {
+  const results = mini.map(q => ({ questionId: q.id, selected: 'B', correct: null }));
+  const state = coverageState([], { sessions: [
+    session('retry', mini.slice(0, 2), 0, { mockExam: { results: [{ questionId: mini[0].id }] } }),
+    session('old-complete', mini, 0, { total: 0, mockExam: { results } }),
+  ], progressResetAt: '2026-11-19T00:00:00Z' });
+  assert.deepEqual([...completedPracticeExamKeys(catalogue, state)], ['mock-mini-1']);
+  assert.deepEqual([...completedPracticeExamKeys(catalogue, coverageState([]))], []);
+});
+
+test('partial sessions contribute only actual answers, not their entire selected question list', () => {
+  const left = mini.slice(0, 25).map(q => ({ questionId: q.id, selected: 'A' }));
+  const right = mini.slice(25).map(q => ({ questionId: q.id, selected: ['A', 'C'] }));
+  const first = session('first', mini, 0, { mockExam: { results: left } });
+  const second = session('second', mini, 0, { mockExam: { results: right } });
+  assert.deepEqual([...completedPracticeExamKeys(mini, coverageState([], { sessions: [first] }))], []);
+  assert.deepEqual([...completedPracticeExamKeys(mini, coverageState([], { sessions: [first, second] }))], ['mock-mini-1']);
+  assert.deepEqual([...completedPracticeExamKeys(mini, coverageState([], { sessions: [session('not-a-snapshot', mini, 10)] }))], []);
+});
+
+test('inaccessible, obsolete or non-round questions cannot create a completed round', () => {
+  const hidden = round('hidden', 2, 2000);
+  const revisions = mini.map(q => ({ ...q, id: 'rev-' + q.id, bookSeries: '실전 개정판' }));
+  assert.deepEqual([...completedPracticeExamKeys([], coverageState(hidden))], []);
+  assert.deepEqual([...completedPracticeExamKeys([...mini, ...revisions], coverageState(hidden))], []);
+  assert.deepEqual([...completedPracticeExamKeys([{ ...mini[0], bookId: 'bank', bookSeries: '실전', examYear: null }], coverageState(mini))], []);
 });

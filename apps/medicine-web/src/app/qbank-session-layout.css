@@ -6,6 +6,7 @@
 .practice-round-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(100%,9.5rem),1fr)); gap:6px; }
 .practice-round-section[data-round-kind="authored"] .practice-round-grid { grid-template-columns:repeat(auto-fill,minmax(min(100%,14rem),1fr)); }
 .practice-round-choice > .practice-round-name { flex-shrink:0; white-space:nowrap; font-size:13px; font-weight:600; line-height:1.4; }
+.practice-round-choice > .practice-round-complete { display:inline-flex; flex-shrink:0; color:var(--accent); }
 .practice-round-choice > .practice-round-count { flex-shrink:0; white-space:nowrap; font-size:11px; font-weight:400; line-height:1.4; font-variant-numeric:tabular-nums; }
 
 /* Keep session navigation and reference access on the same line. */
