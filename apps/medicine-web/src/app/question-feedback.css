@@ -28,6 +28,8 @@
 .qbank-feedback-resources:not([open]) > .qbank-feedback-resources-content { display:none; }
 .qbank-feedback .qbank-feedback-tools { margin-top:10px; padding-top:7px; gap:4px 8px; }
 .qbank-feedback-tools .qbank-copy-action { min-height:28px; padding:3px 5px; font-size:max(10px,.8em); }
+.qbank-feedback-next { margin-top:14px; border-top:1px solid var(--line); padding-top:12px; }
+.qbank-feedback-next .skin-q-send-label { display:inline; }
 
 /* Follow-up received messages share the selected chat font, including the status. */
 html:is([data-theme="chat"],[data-theme="messenger"]) .skin-question-chat .skin-q-response { margin:10px 0; }

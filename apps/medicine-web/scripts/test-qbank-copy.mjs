@@ -15,10 +15,12 @@ function compile(name, deps = {}) {
 const grading = compile('qbank-grading.ts');
 const options = compile('qbank-option-order.ts');
 const ocr = compile('ocr-paragraphs.ts');
+const explanation = compile('practice-explanation.ts', { './qbank-grading': grading });
 const { qbankQuestionCopyText, qbankExplanationCopyText, qbankCombinedCopyText } = compile('qbank-copy.ts', {
   './qbank-grading': grading,
   './qbank-option-order': options,
   './ocr-paragraphs': ocr,
+  './practice-explanation': explanation,
 });
 
 const question = {
@@ -47,4 +49,9 @@ test('scan copy uses the same reflowed text as the page', () => {
 test('ungraded and missing-explanation items remain meaningful', () => {
   const ungraded = { ...question, answer: null, ungradedReason: '정답 자료 없음', explanation: '' };
   assert.equal(qbankExplanationCopyText(ungraded, ['A']), '정답 자료 없음\n\n검증된 해설은 아직 준비되지 않았습니다.');
+});
+
+test('practice explanation copy includes the same option text as the explanation panel', () => {
+  const practice = { ...question, questionBank: 'practice', explanation: '오답해설\n② 두 번째 설명' };
+  assert.equal(qbankExplanationCopyText(practice, ['A', 'B', 'C']), '정답: A\n\n오답해설\n**B. 두 번째**\n\n두 번째 설명');
 });

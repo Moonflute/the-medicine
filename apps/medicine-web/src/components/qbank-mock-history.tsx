@@ -64,7 +64,7 @@ function ResultQuestion({ id, summary }: { id: string; summary: MockExamSummary 
       <p className="mt-3 whitespace-pre-line text-sm leading-7">{reflowOcrText(question.question)}</p>
       {question.figures?.map(figure => <PrivateQuestionImage key={figure.path} path={figure.path} alt={figure.alt} />)}
       <ul className="my-3 space-y-2 text-sm">{Object.entries(question.options).map(([key, text]) => <li key={key}>{key}. {text}</li>)}</ul>
-      <QbankExplanation text={question.explanation} reflow />
+      <QbankExplanation text={question.explanation} question={question} reflow />
       <p className="my-3 text-xs text-slate-500">답안·점수는 제출 당시 기록이며, 문제·해설은 현재 저장된 원문입니다.</p>
       <QbankReviewCardButton key={id} question={question} />
     </> : <p className="mt-3 text-sm" role="status">{data?.id === id && data.error ? data.error : "문제 원문을 불러오는 중…"}</p>}

@@ -1,6 +1,7 @@
 import { correctAnswers } from "./qbank-grading";
 import { OPTION_LABELS } from "./qbank-option-order";
 import { reflowOcrText } from "./ocr-paragraphs";
+import { practiceExplanationText } from "./practice-explanation";
 import type { QbankAnswer, QbankQuestion } from "./types";
 
 function visibleText(question: QbankQuestion, value: string): string {
@@ -22,7 +23,7 @@ export function qbankExplanationCopyText(question: QbankQuestion, displayedOptio
       ? `정답: ${correct.map((key) => labels === "source" ? key : OPTION_LABELS[displayedOptions.indexOf(key)] ?? key).join(", ")}`
       : question.ungradedReason || "정답 미확인 문항입니다.";
   const explanation = question.explanation
-    ? visibleText(question, question.explanation)
+    ? visibleText(question, practiceExplanationText(question))
     : "검증된 해설은 아직 준비되지 않았습니다.";
   return `${answer}\n\n${explanation}`.trim();
 }

@@ -74,6 +74,19 @@ for (const theme of themes.THEME_IDS) {
     first.props.onClick(); next.props.onClick();
     assert.equal(submittedCount, 1); assert.equal(nextCount, 1);
   });
+
+  test(`${theme}: the same next action also works below the complete explanation`, () => {
+    activeTheme = theme;
+    const actions = h(skin.SkinQuestionAction, { submitted: true, unknown: false, last: false, onSubmit() {}, onNext() {} });
+    const html = renderToStaticMarkup(h(skin.SkinQuestionWorkspace, {
+      question: h('p', null, 'QUESTION_MARKER'), choices: null,
+      response: h('div', { className: 'qbank-feedback' }, 'FEEDBACK_END', h('div', { className: 'qbank-feedback-next' }, actions)),
+      actions, copy: null, hint: '', answerText: 'B. answer', submitted: true, number: 1, total: 2,
+    }));
+    assert.equal((html.match(/aria-label="다음 문제"/g) ?? []).length, 2);
+    assert.ok(html.indexOf('qbank-feedback-next') > html.indexOf('FEEDBACK_END'));
+    assert.match(html, /qbank-feedback-next[^]*aria-label="다음 문제"/);
+  });
 }
 
 test('unknown answers, the last question and skip review retain their existing actions', () => {

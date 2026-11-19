@@ -684,6 +684,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       return;
     }
     showQuestion(index);
+    window.requestAnimationFrame(() => document.getElementById("qbank-question")?.scrollIntoView({ block: "start" }));
   }, [completed, finishConfirm, currentIndex, questionIds, skips, remaining.remaining.length, finish, showQuestion]);
 
   const skip = useCallback(() => {
@@ -918,6 +919,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     );
   }
 
+  const questionActions = skips.passComplete && skips.ids.length > 0
+    ? <QbankSkipPassActions count={skips.ids.length} onReview={reviewSkipped} onFinish={() => remaining.remaining.length ? setFinishConfirm(true) : finish()} />
+    : <SkinQuestionAction submitted={submitted} unknown={!selected} last={qbankPassIndex(questionIds, currentIndex, skips) < 0} nextLabel={qbankPassIndex(questionIds, currentIndex, skips) < 0 && skips.ids.length ? "건너뛴 문제 확인" : undefined} onSubmit={submit} onNext={next} onSkip={skip} />;
+
   return (
     <div className="qbank-session-player space-y-5">
       <div className="qbank-session-progress flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-slate-600">
@@ -960,7 +965,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         </div>
       </section>}
 
-      <ChatSenderProvider name={practiceQuestionLabel(current)}><article data-highlight-document={`qbank:${current.id}`} className="skin-q-article surface p-5 sm:p-7">
+      <ChatSenderProvider name={practiceQuestionLabel(current)}><article id="qbank-question" data-highlight-document={`qbank:${current.id}`} className="skin-q-article surface scroll-mt-20 p-5 sm:p-7">
         <DocumentToolbar title={`${currentIndex + 1}번 · ${practiceQuestionLabel(current)}`} className="document-toolbar--inset" metadata={<><span>{current.questionType}</span><span>{questionProgress ? `풀이 ${questionProgress.attempts}회 · 정답 ${questionProgress.correctAttempts}회${questionProgress.consecutiveCorrect > 1 ? ` · 연속 ${questionProgress.consecutiveCorrect}회` : ""}` : "첫 풀이"}</span>{roundClock && <span className="qbank-toolbar-timer">남은 시간 <QbankSessionClock roundClock={roundClock} isRunning={isRoundClockRunning} onExpire={finish} /></span>}</>}><QbankEditButton question={current} onSaved={payload => setQuestions(previous => previous.map(item => item.id === payload.id ? { ...item, ...payload } : item))} /><details className="relative"><summary className="secondary-action h-9 w-9 cursor-pointer list-none !px-0" aria-label="문제 ID 보기" title="문제 ID 보기"><Info className="h-4 w-4" /></summary><div className="absolute right-0 z-20 mt-2 w-64 rounded-lg border border-slate-200 bg-white p-3 shadow-lg"><p className="text-xs font-medium text-slate-500">문제 ID</p><div className="mt-1.5 flex items-center gap-2"><code className="min-w-0 flex-1 truncate rounded bg-slate-100 px-2 py-1.5 text-xs text-slate-700">{current.id}</code><button type="button" onClick={() => void navigator.clipboard?.writeText(current.id)} className="secondary-action h-8 w-8 shrink-0 !px-0" aria-label="문제 ID 복사" title="문제 ID 복사"><Copy className="h-3.5 w-3.5" /></button></div></div></details><button type="button" onClick={toggleBookmark} className="secondary-action h-9 w-9 !px-0" aria-label={bookmarked ? "북마크 해제" : "북마크 저장"} aria-pressed={bookmarked} title={bookmarked ? "북마크 해제" : "북마크 저장"}>
             {bookmarked ? <BookmarkCheck className="h-4 w-4 text-amber-600" /> : <Bookmark className="h-4 w-4" />}
           </button>
@@ -989,7 +994,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           <div className={`qbank-feedback mt-6 rounded-lg border p-4 lg:col-span-2 ${gradeQuestion(current, selected) === null ? "border-slate-200 bg-slate-50" : gradeQuestion(current, selected) ? "border-teal-200 bg-teal-50" : "border-rose-200 bg-rose-50"}`}>
             {wrongTracked ? <ChatOptionalTools><button type="button" onClick={dismissWrong} className="float-right rounded-md border border-slate-300 bg-white px-1.5 py-0.5 text-[10px] font-medium text-slate-600 transition hover:border-rose-300 hover:text-rose-700">오답 노트에서 제거</button></ChatOptionalTools> : null}
             <div className="qbank-feedback-status flex items-center gap-2 font-semibold">{gradeQuestion(current, selected) === null ? null : gradeQuestion(current, selected) ? <CheckCircle2 className="h-5 w-5 text-teal-700" /> : <XCircle className="h-5 w-5 text-rose-700" />}{gradeQuestion(current, selected) === null ? (current.ungradedReason || "정답 미확인 문항입니다. 채점과 오답 집계에서 제외됩니다.") : current.gradingMode === "all-credit" ? "전원 정답 처리 · 조건/보기 불완전" : gradeQuestion(current, selected) ? "정답입니다." : `정답은 ${correctAnswers(current).map(key => OPTION_LABELS[displayedOptions.indexOf(key)]).join(", ")}입니다.`}</div>
-            {current.explanation ? <QbankExplanation text={current.explanation} reflow={current.sourceSplit === "private-scan"} /> : <p className="qbank-feedback-body mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
+            {current.explanation ? <QbankExplanation text={current.explanation} question={current} reflow={current.sourceSplit === "private-scan"} /> : <p className="qbank-feedback-body mt-2 text-sm text-slate-600">검증된 해설은 아직 준비되지 않았습니다.</p>}
             <SkinQuestionReferences key={current.id} available={Boolean(current.evidenceReferences?.some(ref => ref.url.startsWith("https://")) || current.relatedDrugs?.length || current.relatedDocuments?.length || currentTheoryTargetHref || current.relatedDiseaseSlugs.length || current.relatedCcSlugs.length)}>
             {!!current.evidenceReferences?.length && <div className="qbank-feedback-links mt-3 flex flex-wrap gap-2">{current.evidenceReferences.filter(ref => ref.url.startsWith("https://")).map(ref => <a key={ref.url} href={ref.url} target="_blank" rel="noopener noreferrer" className="pill hover:border-teal-500">근거: {ref.title}</a>)}</div>}
             <DrugLinks drugs={current.relatedDrugs ?? []} />
@@ -1002,9 +1007,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
               <QbankCopyButton key={`explanation:${current.id}`} text={qbankExplanationCopyText(current, displayedOptions)} label="해설 복사" />
               <QbankCopyButton key={`both:${current.id}`} text={qbankCombinedCopyText(current, displayedOptions)} label="문제+해설 복사" title="문제와 보기 및 해설 텍스트 복사 · 이미지는 제외" />
             </ChatOptionalTools>
+            <div className="qbank-feedback-next">{questionActions}</div>
           </div>
         ) : null}
-          actions={skips.passComplete && skips.ids.length > 0 ? <QbankSkipPassActions count={skips.ids.length} onReview={reviewSkipped} onFinish={() => remaining.remaining.length ? setFinishConfirm(true) : finish()} /> : <SkinQuestionAction submitted={submitted} unknown={!selected} last={qbankPassIndex(questionIds, currentIndex, skips) < 0} nextLabel={qbankPassIndex(questionIds, currentIndex, skips) < 0 && skips.ids.length ? "건너뛴 문제 확인" : undefined} onSubmit={submit} onNext={next} onSkip={skip} />}
+          actions={questionActions}
         />
       </article></ChatSenderProvider>
     </div>
