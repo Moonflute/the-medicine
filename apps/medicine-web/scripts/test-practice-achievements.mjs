@@ -12,7 +12,7 @@ const selection = moduleUrl('../src/lib/practice-selection.ts');
 const { practiceAchievement, completedPracticeExamKeys } = await import(moduleUrl('../src/lib/practice-achievements.ts', {
   './practice-selection': selection, './qbank-grading': moduleUrl('../src/lib/qbank-grading.ts'),
 }));
-const { compareMockSubjects, MOCK_SUBJECTS } = await import(moduleUrl('../src/lib/mock-exam.ts', { './qbank-grading': moduleUrl('../src/lib/qbank-grading.ts') }));
+const { compareMockSubjects, MOCK_SUBJECTS, createMockExamSummary, readMockExamSummary } = await import(moduleUrl('../src/lib/mock-exam.ts', { './qbank-grading': moduleUrl('../src/lib/qbank-grading.ts') }));
 const round = (key, count, year = null) => Array.from({ length: count }, (_, i) => ({
   id: `QB-${key}-IM-${i}`, bookId: key, examYear: year, bookSeries: year === null ? '창작 모의고사' : '실전',
 }));
@@ -112,11 +112,11 @@ test('completion combines source aliases and revisions without double counting o
   assert.deepEqual([...completedPracticeExamKeys(changed, state)], []);
 });
 
-test('blank mock submissions, bookmarks, drafts and progress placeholders do not count', () => {
+test('blank attempts in partial mock sets, bookmarks, drafts and progress placeholders do not count', () => {
   const state = coverageState(mini);
   state.progress[mini[49].id] = { attempts: 1, lastCorrect: false };
-  state.sessions = [session('blank', mini, 0, {
-    mockExam: { results: mini.map(q => ({ questionId: q.id, correct: false })) },
+  state.sessions = [session('blank', mini.slice(-1), 0, {
+    mockExam: { results: [{ questionId: mini[49].id, correct: false }] },
   })];
   state.bookmarkIds = [mini[49].id];
   state.drafts = { [mini[49].id]: 'A' };
@@ -177,11 +177,13 @@ test('legacy fallback rejects incomplete, mixed, duplicate and invalid completio
   for (const saved of invalid) assert.deepEqual([...completedPracticeExamKeys(all, coverageState([], { sessions: [saved] }))], [], saved.id);
 });
 
-test('snapshot blanks remain incomplete; only a full legacy result can preserve older completion', () => {
+test('a submitted full-round snapshot counts as completed even when some answers are blank', () => {
   const results = mini.map((q, i) => ({ questionId: q.id, selected: i ? 'A' : undefined, correct: false }));
   const newer = session('newer-with-blank', mini, 0, { mockExam: { results } });
   const state = coverageState([], { sessions: [newer] });
-  assert.deepEqual([...completedPracticeExamKeys(mini, state)], []);
+  const before = JSON.stringify(state);
+  assert.deepEqual([...completedPracticeExamKeys(mini, state)], ['mock-mini-1']);
+  assert.equal(JSON.stringify(state), before);
   const oldAliases = mini.map(q => ({ ...q, sourceIds: ['old-' + q.id] }));
   const older = session('legacy-completed', oldAliases.map(q => ({ id: q.sourceIds[0] })), 0);
   state.sessions.push(older);
@@ -208,16 +210,63 @@ test('all 100 historical attempts complete 2026 even with three missing choices 
   assert.deepEqual([...completedPracticeExamKeys(original, state)], []);
 });
 
-test('only automatic blank attempts do not complete a round, including repeated and revised blanks', () => {
+test('automatic blanks in partial sets do not complete a round, including repeated and revised blanks', () => {
   const question = { ...mini[0], revisionIds: ['revised-' + mini[0].id] };
   const state = coverageState([], {
-    progress: { [question.revisionIds[0]]: { attempts: 2 } },
+    progress: { [question.revisionIds[0]]: { attempts: 2 }, [mini[1].id]: { attempts: 1, lastAnswer: 'A' } },
     sessions: [1, 2].map(i => session('blank-' + i, [question], 0, {
       mockExam: { results: [{ questionId: question.revisionIds[0], correct: false }] },
     })),
   });
-  assert.deepEqual([...completedPracticeExamKeys([question], state)], []);
+  const questions = [question, mini[1]];
+  assert.deepEqual([...completedPracticeExamKeys(questions, state)], []);
   // A distinct legacy study attempt before the blank retries remains a lifetime attempt.
   state.progress[question.id] = { attempts: 1 };
-  assert.deepEqual([...completedPracticeExamKeys([question], state)], ['mock-mini-1']);
+  assert.deepEqual([...completedPracticeExamKeys(questions, state)], ['mock-mini-1']);
+});
+
+test('the 81-question 2004 round is completed after submission with 71 answers and 10 blanks', () => {
+  const questions = round('past-2004', 81, 2004).map(q => ({
+    ...q, revisionIds: ['QB-REV-202611-' + q.id.slice(3)],
+  }));
+  const delivered = questions.map(q => ({ id: q.revisionIds[0] }));
+  const results = delivered.map((q, i) => ({
+    questionId: q.id, selected: i < 71 ? 'B' : undefined,
+    correct: i < 29, correctAnswer: 'B', specialty: '내과',
+  }));
+  const summary = readMockExamSummary(createMockExamSummary('2004년 모의고사', results));
+  assert.ok(summary);
+  assert.equal(summary.unansweredQuestionIds.length, 10);
+  const saved = session('2004-submitted', delivered, 29, { mockExam: summary });
+  const state = coverageState([], {
+    progress: Object.fromEntries(delivered.map((q, i) => [q.id, { attempts: 1, lastAnswer: i < 71 ? 'B' : undefined }])),
+    sessions: [saved],
+  });
+  const before = JSON.stringify(state);
+  assert.deepEqual([...completedPracticeExamKeys(questions, state)], ['2004']);
+  assert.equal(JSON.stringify(state), before);
+  assert.equal(saved.correct, 29);
+  assert.equal(saved.total, 81);
+});
+
+test('full-round submission is generic across years and mocks, including ungraded or unanswered items', () => {
+  for (const questions of [round('past-2007', 94, 2007), full, mini]) {
+    const results = questions.map(q => ({ questionId: q.id, selected: undefined, correct: null }));
+    const saved = session('submitted', questions, 0, { total: 0, mockExam: { results } });
+    assert.equal(completedPracticeExamKeys(questions, coverageState([], { sessions: [saved] })).size, 1);
+    assert.equal(completedPracticeExamKeys(questions, coverageState([], { drafts: { [questions[0].id]: 'A' } })).size, 0);
+  }
+});
+
+test('partial, mixed, mismatched, duplicate and undated snapshots cannot fake a submitted full round', () => {
+  const blank = questions => questions.map(q => ({ questionId: q.id, correct: false }));
+  const invalid = [
+    session('partial', mini.slice(0, 5), 0, { mockExam: { results: blank(mini.slice(0, 5)) } }),
+    session('missing-result', mini, 0, { mockExam: { results: blank(mini.slice(1)) } }),
+    session('other-results', mini, 0, { mockExam: { results: blank(full.slice(0, 50)) } }),
+    session('duplicate-results', mini, 0, { mockExam: { results: blank(Array(50).fill(mini[0])) } }),
+    session('mixed', [...mini.slice(0, 25), ...full.slice(0, 25)], 0, { mockExam: { results: blank([...mini.slice(0, 25), ...full.slice(0, 25)]) } }),
+    session('no-completion-date', mini, 0, { completedAt: '', mockExam: { results: blank(mini) } }),
+  ];
+  for (const saved of invalid) assert.deepEqual([...completedPracticeExamKeys([...mini, ...full], coverageState([], { sessions: [saved] }))], [], saved.id);
 });

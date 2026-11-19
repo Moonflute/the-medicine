@@ -39,7 +39,7 @@ export function PracticeBankPicker({ questions, filters, onChange, message, comp
             return <label key={exam.key} className={`practice-round-choice flex min-h-9 min-w-0 cursor-pointer items-center gap-1.5 rounded-md border px-2 py-1 ${checked ? "border-teal-500 bg-teal-50 text-teal-950" : "border-slate-200 hover:border-teal-300"}`} data-checked={checked}>
               <input type="radio" name="practice-mock-exam" checked={checked} onChange={() => onChange(mockExamFilters(exam.year, exam.key))} className="h-3.5 w-3.5 shrink-0 accent-teal-600" />
               <span className="practice-round-name">{exam.label}</span>
-              {completedExamKeys.has(exam.key) ? <span className="practice-round-complete" role="img" aria-label="전체 문항 풀이 완료" title="모든 문항을 한 번 이상 풀었습니다."><Check size={16} strokeWidth={2.5} aria-hidden="true" /></span> : null}
+              {completedExamKeys.has(exam.key) ? <span className="practice-round-complete" role="img" aria-label="회차 풀이 완료" title="전체 회차를 제출했거나, 모든 문항을 한 번 이상 풀었습니다."><Check size={16} strokeWidth={2.5} aria-hidden="true" /></span> : null}
               <span className="practice-round-count ml-auto text-slate-500">{exam.count.toLocaleString()}문항</span>
             </label>;
           })}</div>

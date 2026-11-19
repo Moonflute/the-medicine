@@ -2,7 +2,7 @@ import type { QbankSessionResult, QbankState } from "./qbank-store";
 import { isSelection } from "./qbank-grading";
 import { practiceMockExamKey, practiceVersionIds, PRACTICE_REVISION_SERIES, type PracticeIndex } from "./practice-selection";
 
-/** Lifetime coverage is independent of accuracy, the current run and progress-view resets. */
+/** A full-round submission or lifetime question coverage survives retries and progress resets. */
 export function completedPracticeExamKeys(questions: PracticeIndex[], state: Pick<QbankState, "progress" | "sessions">): Set<string> {
   const slots = new Map<string, { id: string; round: string }>();
   const rounds = new Map<string, Set<string>>();
@@ -41,19 +41,24 @@ export function completedPracticeExamKeys(questions: PracticeIndex[], state: Pic
           if (slot) automaticBlanksBySlot.set(slot.id, (automaticBlanksBySlot.get(slot.id) ?? 0) + 1);
         }
       }
-      continue;
     }
-    // Older completed rounds predate detailed snapshots. Retain that completion
-    // only when the saved total covers every distinct question of one whole round.
-    // A partial session's question list alone is never proof of completion.
-    if (!Number.isFinite(Date.parse(session.completedAt)) || !Number.isInteger(session.total) || session.total <= 0
-      || session.total !== session.questionIds.length || !Number.isInteger(session.correct)
+    // A submitted whole exam is complete even if it contains unanswered/omitted
+    // items. Drafts and partial sets are not full-round submissions.
+    if (!Number.isFinite(Date.parse(session.completedAt)) || !Number.isInteger(session.total) || session.total < 0
+      || session.total > session.questionIds.length || !Number.isInteger(session.correct)
       || session.correct < 0 || session.correct > session.total) continue;
+    if (session.mockExam ? session.mockExam.results.length !== session.questionIds.length : session.total !== session.questionIds.length) continue;
     const savedSlots = session.questionIds.map(id => slots.get(id));
     const round = savedSlots[0]?.round;
     if (!round || savedSlots.some(slot => !slot || slot.round !== round)) continue;
     const ids = new Set(savedSlots.flatMap(slot => slot ? [slot.id] : []));
     if (ids.size !== session.questionIds.length || ids.size !== rounds.get(round)?.size) continue;
+    if (session.mockExam) {
+      const resultSlots = session.mockExam.results.map(result => slots.get(result.questionId));
+      if (resultSlots.some(slot => !slot || slot.round !== round)) continue;
+      const resultIds = new Set(resultSlots.flatMap(slot => slot ? [slot.id] : []));
+      if (resultIds.size !== ids.size || [...resultIds].some(id => !ids.has(id))) continue;
+    }
     for (const id of ids) answered.add(id);
   }
   for (const [id, attempts] of attemptsBySlot) {
