@@ -1,6 +1,16 @@
 export const STUDY_FLOW_BUTTON_STORAGE_KEY = "medicine-study-flow-button-v1";
+export const STUDY_FLOW_BUTTON_POSITION_PROPERTY = "--flow-button-position";
+const POSITION_STORAGE_KEY = "medicine-study-flow-button-position-v1";
 
-export const studyFlowButtonInitScript = `(function(){var v="shown";try{if(localStorage.getItem(${JSON.stringify(STUDY_FLOW_BUTTON_STORAGE_KEY)})==="hidden")v="hidden"}catch(e){}document.documentElement.dataset.studyFlowButton=v})();`;
+export const studyFlowButtonInitScript = `(function(){
+  var root=document.documentElement,v="shown";
+  try{
+    if(localStorage.getItem(${JSON.stringify(STUDY_FLOW_BUTTON_STORAGE_KEY)})==="hidden")v="hidden";
+    var saved=localStorage.getItem(${JSON.stringify(POSITION_STORAGE_KEY)}),position=Number(saved);
+    if(saved&&Number.isFinite(position)&&position>=0&&position<=1)root.style.setProperty(${JSON.stringify(STUDY_FLOW_BUTTON_POSITION_PROPERTY)},position*100+"%");
+  }catch(e){}
+  root.dataset.studyFlowButton=v;
+})();`;
 
 const listeners = new Set<() => void>();
 
@@ -45,4 +55,10 @@ export function setStudyFlowButtonVisible(visible: boolean): boolean {
   catch { saved = false; }
   notify();
   return saved;
+}
+
+export function setStudyFlowButtonPosition(position: number) {
+  document.documentElement.style.setProperty(STUDY_FLOW_BUTTON_POSITION_PROPERTY, `${position * 100}%`);
+  try { window.localStorage.setItem(POSITION_STORAGE_KEY, String(position)); }
+  catch {}
 }

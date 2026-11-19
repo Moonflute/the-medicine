@@ -22,18 +22,50 @@
   --flow-row-radius: 8px;
   --flow-tab-radius: 999px;
   --flow-mini-radius: min(var(--flow-control-radius), 4px);
+  --flow-pane-top: calc(var(--app-header-height, 64px) + 10px);
+  --flow-pane-bottom: 16px;
   color: var(--foreground);
   font-size: 14px;
   line-height: 1.5;
 }
-.study-flow-toggle { position: fixed; z-index: 65; right: 0; top: 47%; display: flex; align-items: center; gap: 6px; padding: 11px 12px; border: 1px solid var(--flow-line); border-right: 0; border-radius: var(--flow-edge-radius) 0 0 var(--flow-edge-radius); background: var(--flow-toggle-bg, var(--surface)); color: var(--flow-toggle-text, var(--flow-accent)); box-shadow: 0 2px 12px #0002; font-size: 13px; font-weight: 600; }
+.study-flow-toggle-track {
+  --flow-track-top: var(--flow-toggle-track-top, var(--flow-pane-top));
+  position: fixed;
+  z-index: 65;
+  inset: var(--flow-track-top) var(--flow-toggle-right, 0px) var(--flow-pane-bottom) 0;
+  pointer-events: none;
+}
+.study-flow-toggle {
+  position: absolute;
+  right: 0;
+  top: var(--flow-button-position, var(--flow-toggle-default-y, max(0px, calc(47dvh - var(--flow-track-top)))));
+  transform: translateY(calc(-1 * var(--flow-button-position, 0%)));
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 11px 12px;
+  border: 1px solid var(--flow-line);
+  border-right: 0;
+  border-radius: var(--flow-edge-radius) 0 0 var(--flow-edge-radius);
+  background: var(--flow-toggle-bg, var(--surface));
+  color: var(--flow-toggle-text, var(--flow-accent));
+  box-shadow: 0 2px 12px #0002;
+  font-size: 13px;
+  font-weight: 600;
+  pointer-events: auto;
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
 .study-flow-toggle.is-open { display: none; }
 html[data-study-flow-button="hidden"] .study-flow-toggle { display: none; }
-.study-flow-drawer { position: fixed; z-index: 65; top: calc(var(--app-header-height, 64px) + 10px); bottom: 16px; right: 12px; width: min(540px, calc(100vw - 24px)); transform: translateX(calc(100% + 24px)); opacity: 0; visibility: hidden; pointer-events: none; }
+.study-flow-drawer { position: fixed; z-index: 65; top: var(--flow-pane-top); bottom: var(--flow-pane-bottom); right: 12px; width: min(540px, calc(100vw - 24px)); transform: translateX(calc(100% + 24px)); opacity: 0; visibility: hidden; pointer-events: none; }
 .study-flow-drawer.is-open { transform: translateX(0); opacity: 1; visibility: visible; pointer-events: auto; }
 .study-flow-panel { width: 100%; height: 100%; display: flex; flex-direction: column; min-height: 0; border: 1px solid var(--flow-line); border-radius: var(--flow-panel-radius); background: var(--surface); box-shadow: var(--flow-shadow); overflow: hidden; text-align: left; }
 .study-flow-host button, .study-flow-host input, .study-flow-host select, .study-flow-host textarea { font: inherit; letter-spacing: normal; }
 .study-flow-host button { cursor: pointer; }
+.study-flow-host .study-flow-toggle { cursor: grab; }
+.study-flow-host .study-flow-toggle[data-dragging="true"] { cursor: grabbing; }
 .study-flow-host button:disabled { opacity: .35; cursor: default; }
 .study-flow-host :is(button, select, input, textarea, a, [tabindex]):focus-visible { outline: 2px solid var(--flow-focus, var(--flow-accent)); outline-offset: 2px; }
 .study-flow-host :is(input, textarea)::placeholder { color: var(--flow-muted); opacity: 1; }
@@ -342,10 +374,11 @@ html[data-theme="notebook"] .study-reference-group { color: var(--notebook-blue)
   html:is([data-theme="sheet"], [data-theme="terminal"]) .study-flow-drawer, .atlas-shell .study-flow-drawer { left: 12px; }
 }
 @media (max-width: 1279px) {
-  .study-flow-drawer { bottom: calc(72px + env(safe-area-inset-bottom, 0px)); }
+  .study-flow-host { --flow-pane-bottom: calc(72px + env(safe-area-inset-bottom, 0px)); }
 }
 @media (max-width: 767px) {
-  .study-flow-drawer { top: calc(var(--app-header-height, 64px) + 6px); right: 6px; width: calc(100vw - 12px); }
+  .study-flow-host { --flow-pane-top: calc(var(--app-header-height, 64px) + 6px); }
+  .study-flow-drawer { right: 6px; width: calc(100vw - 12px); }
   .study-flow-panel { border-radius: min(12px, var(--flow-panel-radius)); }
   .study-flow-toggle { padding: 10px 9px; }
   .study-flow-toggle > span { display: none; }

@@ -153,7 +153,12 @@
 .neuro-atlas-columns h2 { font-size:17px; }
 .neuro-atlas-columns p { font-size:12px; }
 @media(min-width:1000px) and (min-height:640px) {
-  .clinical-shell .study-flow-toggle { top:calc((var(--app-header-height,64px) - 32px) / 2); right:148px; min-height:32px; padding:6px 8px; border-right:1px solid #cbd5e1; border-radius:6px; box-shadow:none; }
+  .clinical-shell .study-flow-host {
+    --flow-toggle-track-top:max(4px, env(safe-area-inset-top, 0px));
+    --flow-toggle-default-y:calc((var(--app-header-height,64px) - 32px) / 2 - var(--flow-toggle-track-top));
+    --flow-toggle-right:148px;
+  }
+  .clinical-shell .study-flow-toggle { min-height:32px; padding:6px 8px; border-right:1px solid #cbd5e1; border-radius:6px; box-shadow:none; }
   .clinical-shell .hub-layout { height:calc(100dvh - var(--app-header-height,64px) - 16px); }
   .clinical-shell .hub-tab-panel[data-hub-tab=atlas] { overflow:visible; }
   .clinical-route { height:calc(100dvh - var(--app-header-height,64px) - 16px); }
