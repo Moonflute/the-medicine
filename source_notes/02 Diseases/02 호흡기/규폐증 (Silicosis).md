@@ -53,7 +53,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 진행성 대량 섬유증(PMF), 폐결핵(silicotuberculosis), COPD, 폐암, 자가면역질환(류마티스 관절염, 전신경화증 등) 발생 위험 증가.
 
-출처 : Merck Manual Professional (Silicosis)
+## 출처
+- Merck Manual Professional (Silicosis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

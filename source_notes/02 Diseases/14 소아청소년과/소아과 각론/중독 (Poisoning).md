@@ -62,7 +62,9 @@ content_updated_at: "2026-11-18"
 * 독성 물질의 종류, 섭취량, 치료 시점에 따라 결정
 * 장기 손상(간부전, 신부전), 다발성 장기 부전, 사망 가능성
 
-출처 : Merck Manual Professional; [RCH Paracetamol poisoning](https://www.rch.org.au/clinicalguide/guideline_index/Paracetamol_Poisoning/)
+## 출처
+- Merck Manual Professional; [RCH Paracetamol poisoning](https://www.rch.org.au/clinicalguide/guideline_index/Paracetamol_Poisoning/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 2026-05-19 — 본문 갱신 (codex fill)

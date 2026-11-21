@@ -68,7 +68,8 @@ sources: ["SAHM 제한성 섭식장애 입원·재급식 권고 | https://adoles
 
 - **예후**: 의학적 합병증·자살에 따른 높은 사망률; 장기 추적·다학제 관리 필요
 
-출처: [SAHM 청소년·청년 제한적 섭식장애 관리](https://pmc.ncbi.nlm.nih.gov/articles/PMC10864000/)
+## 출처
+- [SAHM 청소년·청년 제한적 섭식장애 관리](https://pmc.ncbi.nlm.nih.gov/articles/PMC10864000/)
 
 Last updated :
 2026-05-20 — 본문 갱신 (codex fill)

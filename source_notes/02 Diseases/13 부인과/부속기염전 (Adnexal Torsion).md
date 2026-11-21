@@ -51,6 +51,8 @@ sources: ["ACOG 부속기 염전 | https://www.acog.org/clinical/clinical-guidan
 - **조기 처치**: 난소 기능 보존 가능
 - **지연 위험**: 난소 괴사·복막염·패혈증
 
-출처 : Merck Manual Professional, StatPearls
+## 출처
+- Merck Manual Professional, StatPearls
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

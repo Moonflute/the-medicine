@@ -58,7 +58,9 @@ reviewed_at: "2026-07-30"
 - 파킨슨병에 비해 진행 속도가 빠르고 예후가 불량함.
 - 보행 장애, 연하곤란, 반복적인 낙상으로 인한 합병증이 주요 사망 원인이 될 수 있음.
 
-출처 : StatPearls (Parkinson-Plus Syndrome)
-보완 출처: [MDS 분자영상의 감별 역할](https://www.movementdisorders.org/MDS/Scientific-Issues-Committee-Blog/MDS-SIC-Blog-What-Can-Molecular-Imaging-Offer-for-the-Differential-Diagnosis-of-Parkinsonism.htm)
+## 출처
+- StatPearls (Parkinson-Plus Syndrome)
+- [MDS 분자영상의 감별 역할](https://www.movementdisorders.org/MDS/Scientific-Issues-Committee-Blog/MDS-SIC-Blog-What-Can-Molecular-Imaging-Offer-for-the-Differential-Diagnosis-of-Parkinsonism.htm)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

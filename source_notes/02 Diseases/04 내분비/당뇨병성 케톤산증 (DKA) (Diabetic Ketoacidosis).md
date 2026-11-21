@@ -84,9 +84,13 @@ population: general
 - 적절한 치료 시 예후가 좋으나, 고령이나 동반 질환이 있는 경우 사망률이 증가한다.
   주요 합병증으로 뇌부종, 저혈당, 저칼륨혈증, 급성 신손상 등이 있다.
 
-출처 : StatPearls (Adult Diabetic Ketoacidosis, Euglycemic Diabetic Ketoacidosis); [고혈당 위기 합의 2024](https://doi.org/10.2337/dci24-0032); [ADA 2026 입원 진료](https://doi.org/10.2337/dc26-s016).
+
+분과 : [[내분비]]
+
+## 출처
+- StatPearls (Adult Diabetic Ketoacidosis, Euglycemic Diabetic Ketoacidosis); [고혈당 위기 합의 2024](https://doi.org/10.2337/dci24-0032); [ADA 2026 입원 진료](https://doi.org/10.2337/dc26-s016).
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
-분과 : [[내분비]]
 2026-07-15 — 중복 본문 정리

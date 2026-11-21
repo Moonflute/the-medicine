@@ -123,8 +123,10 @@ N1mi는 >0.2–≤2 mm의 림프절 미세전이다. ≤0.2 mm 고립종양세�
 - **예후**: 조기 발견 시 생존율이 높으나, 분자 아형과 병기에 따라 예후가 상이함.
 - **합병증**: 림프부종, 수술 부위 감염, 장기적인 심리적 부담 등이 있을 수 있음.
 
-출처 : StatPearls (Breast Cancer, Breast Cancer Conservation Therapy); 삼성서울병원 메뉴얼
-- 보완 출처: 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls (Breast Cancer, Breast Cancer Conservation Therapy); 삼성서울병원 메뉴얼
+- 삼성서울병원 외과 메뉴얼
 - [국가암정보센터: 국가암검진사업](https://www.cancer.go.kr/lay1/S1T261C262/contents.do)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

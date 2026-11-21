@@ -67,6 +67,8 @@ sources: ["AAP 2026 | https://doi.org/10.1542/peds.2026-077414"]
 - **예후**: 조기 진단 및 적절한 철분 보충 시 대부분 완전히 회복됨
 - **합병증**: 치료 지연 시 인지 기능 저하, 발달 장애, 면역 기능 저하 초래 가능
 
-출처 : StatPearls (Iron Deficiency and Microcytic Hypochromic Anemia)
+## 출처
+- StatPearls (Iron Deficiency and Microcytic Hypochromic Anemia)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

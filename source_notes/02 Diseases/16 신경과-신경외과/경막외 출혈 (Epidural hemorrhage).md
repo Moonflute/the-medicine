@@ -53,6 +53,8 @@ sources: ["Brain Trauma Foundation 수술 지침 | https://braintrauma.org/coma/
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 수술 시 예후가 좋으나, 치료가 지연될 경우 뇌탈출(herniation)로 인한 사망 위험이 높음.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

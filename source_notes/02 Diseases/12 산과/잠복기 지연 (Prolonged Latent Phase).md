@@ -68,7 +68,9 @@ sources: ["ACOG 분만 1·2기 지침 | https://doi.org/10.1097/AOG.000000000000
 - 태아 가사 (Fetal distress)
 - 제왕절개술 시행률 증가
 
-출처 : Williams Obstetrics
+## 출처
+- Williams Obstetrics
 - [ACOG 2024: First and Second Stage Labor Management](https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2024/01/first-and-second-stage-labor-management)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

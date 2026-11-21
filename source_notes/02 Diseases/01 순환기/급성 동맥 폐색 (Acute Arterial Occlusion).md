@@ -62,6 +62,6 @@ sources: ["AHA/ACC 급성 사지허혈 지침 2024 | https://doi.org/10.1161/CIR
 ## 6. 예후 및 합병증 (Prognosis)
 - 재관류 증후군(고칼륨혈증, 대사성 산증, 근육병증), 사지 절단, 영구적인 신경 손상 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional
-
-참고: 삼성서울병원 메뉴얼.
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼.

@@ -102,6 +102,6 @@ DAPT 기간·수술 시점은 스텐트 종류만으로 고정하지 않고 ACS 
 - 초기 합병증은 심실성 부정맥, 전도장애, 급성 심부전·폐부종, 심인성 쇼크, 기계적 합병증(유두근 파열, 심실중격 결손, 심실 자유벽 파열) 및 재허혈이다.
 - 퇴원 후에는 재발 MI, 출혈, 심부전, 부정맥, 우울·복약 중단을 추적한다. 갑작스러운 흉통 재발, 실신, 호흡곤란, 출혈 또는 흑색변은 즉시 평가가 필요하다.
 
-출처: ESC, *2023 Guidelines for the Management of Acute Coronary Syndromes*.
-
-참고: 삼성서울병원 메뉴얼.
+## 출처
+- ESC, *2023 Guidelines for the Management of Acute Coronary Syndromes*.
+- 삼성서울병원 메뉴얼.

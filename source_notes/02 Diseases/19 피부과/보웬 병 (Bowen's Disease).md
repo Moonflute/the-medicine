@@ -48,6 +48,8 @@ sources: ["BAD 2022 지침 | https://academic.oup.com/bjd/article/188/2/186/6788
 * 적절히 치료하면 예후가 좋으나, 방치 시 침습성 편평 세포암으로 진행할 위험이 있음.
   치료 후에도 재발 여부 및 새로운 병변 발생을 위해 정기적인 추적 관찰이 필요.
 
-출처 : StatPearls (Bowen's Disease)
+## 출처
+- StatPearls (Bowen's Disease)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

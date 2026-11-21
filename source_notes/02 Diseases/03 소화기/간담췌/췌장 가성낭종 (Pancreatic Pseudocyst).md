@@ -89,10 +89,11 @@ sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidel
 
 - **합병증**: 감염(농양), 출혈, 파열(복막염), 담관 폐쇄, 장 폐쇄 등이 발생할 수 있다.
 
-출처 : StatPearls (Pancreatic Pseudocyst)
-참고: [Revised Atlanta 분류](https://doi.org/10.1136/gutjnl-2012-302779)
+## 출처
+- StatPearls (Pancreatic Pseudocyst)
+- [Revised Atlanta 분류](https://doi.org/10.1136/gutjnl-2012-302779)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

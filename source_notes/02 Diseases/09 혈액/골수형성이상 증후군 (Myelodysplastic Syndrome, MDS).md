@@ -101,8 +101,10 @@ sources: ["Onkopedia MDS 치료 | https://www.onkopedia-guidelines.info/en/onkop
 - 급성 골수성 백혈병으로의 진행 위험이 있음.
   IPSS 및 R-IPSS를 통해 예후를 예측하며, 세포유전학적 이상(예: 5q 결손은 양호, -7은 불량)과 모세포 비율이 주요 인자임.
 
-출처 : StatPearls (Myelodysplastic Syndrome)
-보완 출처: 삼성서울병원 메뉴얼
+## 출처
+- StatPearls (Myelodysplastic Syndrome)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -54,6 +54,8 @@ sources: ["CPS 2026 | https://cps.ca/en/documents/position/acute-management-of-c
 * 대부분 자가 제한적 질환으로 예후가 좋음
 * 드물게 호흡 부전 발생 가능, 재발성 크룹은 기도 구조 이상 확인 필요
 
-출처 : StatPearls (Croup, 2025)
+## 출처
+- StatPearls (Croup, 2025)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -52,7 +52,8 @@ relation_to_parent: subtype
 - 만성 불면증은 우울증, 불안 장애, 고혈압, 당뇨 등 대사 질환의 위험을 높임.
 - 인지 기능 저하 및 삶의 질 악화 초래.
 
-출처: [AASM 불면장애 진단 요약](https://aasm.org/wp-content/uploads/2022/07/ProviderFS-Insomnia.pdf)
+## 출처
+- [AASM 불면장애 진단 요약](https://aasm.org/wp-content/uploads/2022/07/ProviderFS-Insomnia.pdf)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

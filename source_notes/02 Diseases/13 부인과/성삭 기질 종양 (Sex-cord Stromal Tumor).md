@@ -67,6 +67,8 @@ sources: ["ESMO 병기·조직형별 알고리즘 | https://data.esmo.org/guidel
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 양성 경과를 보이나, 일부 악성 종양의 경우 재발 가능성이 있어 장기적인 추적 관찰이 필요함
 
-출처 : StatPearls (Testicular Sex Cord–Stromal Tumors)
+## 출처
+- StatPearls (Testicular Sex Cord–Stromal Tumors)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

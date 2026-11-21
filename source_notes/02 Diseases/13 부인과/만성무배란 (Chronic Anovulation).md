@@ -55,7 +55,9 @@ sources: ["PCOS 지침 | https://integration.asrm.org/globalassets/_asrm/practic
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 자궁내막암 위험 증가(지속적인 에스트로겐 노출), 불임, 대사 증후군(당뇨, 고혈압).
 
-출처 : Williams Gynecology
+## 출처
+- Williams Gynecology
 - [ASRM 2024: Current evaluation of amenorrhea](https://www.asrm.org/practice-guidance/practice-committee-documents/current-evaluation-of-amenorrhea/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

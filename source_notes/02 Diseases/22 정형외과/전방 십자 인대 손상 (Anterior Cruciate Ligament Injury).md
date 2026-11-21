@@ -50,6 +50,8 @@ sources: ["AAOS ACL 지침 2022 | https://www.aaos.org/globalassets/quality-and-
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료와 재활이 이루어지지 않을 경우 만성적인 슬관절 불안정성, 반월상 연골판 손상 및 퇴행성 관절염으로 진행할 수 있음.
 
-출처 : StatPearls (Anterior Cruciate Ligament Knee Injury)
+## 출처
+- StatPearls (Anterior Cruciate Ligament Knee Injury)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

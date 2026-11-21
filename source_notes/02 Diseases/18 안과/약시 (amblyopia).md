@@ -56,8 +56,9 @@ content_updated_at: "2026-11-18"
 - 조기 발견 및 치료가 핵심(결정적 시기 내 치료 시 예후 양호).
 - 치료 시기를 놓칠 경우 영구적인 시력 저하 및 입체시 상실 발생.
 
-출처 : StatPearls (Amblyopia)
-보완 근거: [AAO/AAPOS 영유아·소아 시력 선별](https://www.aao.org/education/clinical-statement/vision-screening-infants-children-2022)
+## 출처
+- StatPearls (Amblyopia)
+- [AAO/AAPOS 영유아·소아 시력 선별](https://www.aao.org/education/clinical-statement/vision-screening-infants-children-2022)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

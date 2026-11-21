@@ -63,7 +63,9 @@ content_updated_at: "2026-11-18"
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 전립샘 농양, 패혈증, 만성 골반통증 증후군으로의 이행, 부고환염.
 
-출처 : StatPearls (Acute Bacterial Prostatitis, Chronic Prostatitis and Chronic Pelvic Pain Syndrome)
+## 출처
+- StatPearls (Acute Bacterial Prostatitis, Chronic Prostatitis and Chronic Pelvic Pain Syndrome)
 - [EAU: Urological Infections — bacterial prostatitis](https://uroweb.org/guidelines/urological-infections/chapter/the-guideline)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

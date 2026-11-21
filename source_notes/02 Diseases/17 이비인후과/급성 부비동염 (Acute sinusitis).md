@@ -51,7 +51,9 @@ sources: ["AAO-HNSF 2025 | https://doi.org/10.1002/ohn.1344"]
 - 대부분 보존적 치료로 호전됨.
 - 드물게 안와 주위 봉와직염, 두개내 합병증 등 발생 가능하므로 주의 깊은 관찰 필요.
 
-출처 : StatPearls (Acute Sinusitis)
-보완 출처: [AAO-HNSF 성인 부비동염 지침(2025)](https://www.entnet.org/wp-content/uploads/2025/07/CPG_ASU_SummaryGuide_V3.pdf)
+## 출처
+- StatPearls (Acute Sinusitis)
+- [AAO-HNSF 성인 부비동염 지침(2025)](https://www.entnet.org/wp-content/uploads/2025/07/CPG_ASU_SummaryGuide_V3.pdf)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

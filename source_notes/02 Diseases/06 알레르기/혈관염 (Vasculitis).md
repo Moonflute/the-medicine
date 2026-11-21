@@ -105,6 +105,7 @@ Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-보완 출처: 삼성서울병원 메뉴얼. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update를 대조. 2026-09-14 기존 목차 내 보완.
+## 출처
+- 삼성서울병원 메뉴얼. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update를 대조. 2026-09-14 기존 목차 내 보완.
 - 삼성서울병원 메뉴얼
 - [EULAR ANCA 연관 혈관염 지침 2022 개정](https://doi.org/10.1136/ard-2022-223764)

@@ -95,7 +95,9 @@ sources: ["NCCN Guideline Updates on Radiopharmaceutical Therapy for Prostate Ca
 * 조기 발견 시 완치 가능성이 높음.
 * 치료 후 요실금, 발기부전 등의 합병증이 발생할 수 있음.
 
-출처 : StatPearls (Prostate Cancer, Localized Prostate Cancer)
+## 출처
+- StatPearls (Prostate Cancer, Localized Prostate Cancer)
 - [EAU: Prostate Cancer — classification and staging](https://uroweb.org/guidelines/prostate-cancer/chapter/classification-and-staging-systems)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

@@ -66,6 +66,8 @@ sources: ["AHA/ACC 급성 PE 지침 2026 | https://doi.org/10.1016/j.jacc.2025.1
 - 조기 진단 및 치료가 사망률 감소에 결정적.
   우심실 부전 및 폐경색 등이 주요 합병증.
 
-출처 : StatPearls (Acute Pulmonary Embolism, Catheter-Directed Thrombolysis of Pulmonary Embolism)
+## 출처
+- StatPearls (Acute Pulmonary Embolism, Catheter-Directed Thrombolysis of Pulmonary Embolism)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

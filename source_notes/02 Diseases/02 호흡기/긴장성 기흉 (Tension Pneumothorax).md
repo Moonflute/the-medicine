@@ -60,7 +60,8 @@ sources: ["WSES/AAST 흉부외상 지침 2025 | https://pmc.ncbi.nlm.nih.gov/art
 - 신속한 진단과 치료가 이루어지지 않을 경우 심정지 및 사망에 이를 수 있음.
   주요 합병증으로 재팽창 폐부종, 흉관 삽입 관련 손상, 감염 등이 있음.
 
-출처 : StatPearls (Tension Pneumothorax, Acute Pneumothorax Evaluation and Treatment)
+## 출처
+- StatPearls (Tension Pneumothorax, Acute Pneumothorax Evaluation and Treatment)
 
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)

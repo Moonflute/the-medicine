@@ -46,5 +46,3 @@ IV형은 항체가 아니라 T세포 중심의 지연형 반응이다. 반응 �
 - [[스티븐스-존슨 증후군-독성 표피 괴사증 (SJS-TEN) (Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis (SJS-TEN))]]
 - [[약물 발진 호산구증 및 전신 증상 (DRESS) (Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS))]]
 - [[접촉피부염 (Contact Dermatitis)]]
-
-## 참고 자료

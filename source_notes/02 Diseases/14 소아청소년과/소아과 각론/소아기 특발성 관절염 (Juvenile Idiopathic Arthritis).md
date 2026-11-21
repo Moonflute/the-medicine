@@ -76,6 +76,8 @@ sources: ["ACR 2026 JIA — official recommendation summary | https://rheumatolo
 - **합병증**: 포도막염, 관절 구축, 성장 장애, 대식세포 활성화 증후군(MAS)
 - **예후**: 조기 진단 및 적극적인 면역 조절 치료 시 예후 개선 가능
 
-출처 : StatPearls (Juvenile Idiopathic Arthritis)
+## 출처
+- StatPearls (Juvenile Idiopathic Arthritis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

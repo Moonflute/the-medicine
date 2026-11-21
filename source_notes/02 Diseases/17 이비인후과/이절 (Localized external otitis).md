@@ -50,8 +50,9 @@ reviewed_at: "2026-07-30"
 - 적절한 치료 시 예후는 양호함.
 - 합병증으로 연조직염(cellulitis)이나 외이도 전체로의 염증 확산 가능성.
 
-출처 : StatPearls (Acute Otitis Media, 2023)
-보완 근거: [Merck — 외이도염과 이절](https://www.merckmanuals.com/professional/ear-nose-and-throat-disorders/external-ear-disorders/external-otitis-acute)
+## 출처
+- StatPearls (Acute Otitis Media, 2023)
+- [Merck — 외이도염과 이절](https://www.merckmanuals.com/professional/ear-nose-and-throat-disorders/external-ear-disorders/external-otitis-acute)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

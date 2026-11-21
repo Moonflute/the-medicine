@@ -54,7 +54,9 @@ sources: ["ACG SIBO 지침 2020 | https://doi.org/10.14309/AJG.0000000000000501"
 - 적절한 치료 시 예후가 좋으나, 기저 질환이 지속될 경우 재발률이 높음.
 - 합병증으로 심각한 영양실조, 장부전 등이 발생할 수 있음.
 
-출처 : StatPearls (Small Intestinal Bacterial Overgrowth)
+## 출처
+- StatPearls (Small Intestinal Bacterial Overgrowth)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -61,5 +61,3 @@ sources: ["ISHAM ABPA/ABPM 진단·분류·치료 개정 지침, 2024 | https://
 - [[폐흡충증 (Pulmonary Paragonimiasis)]]
 - [[알레르기성 기관지폐 아스페르길루스증 (ABPA) (Allergic Bronchopulmonary Aspergillosis)]]
 - [[처그-스트라우스 증후군 (Churg-Strauss Syndrome)]]
-
-## 참고 자료

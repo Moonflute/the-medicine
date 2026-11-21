@@ -52,7 +52,9 @@ sources: ["국제 Turner 지침 2024 | https://doi.org/10.1093/ejendo/lvae050", 
 ## 6. 예후 및 합병증 (Prognosis)
 - 심혈관 질환(대동맥 박리 등), 자가면역 질환, 난청, 불임 등의 위험이 높으므로 평생 관리가 필요함.
 
-출처 : StatPearls (Turner Syndrome)
+## 출처
+- StatPearls (Turner Syndrome)
 - [NLM MeSH: Madelung Deformity](https://meshb.nlm.nih.gov/record/ui?ui=C562398)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

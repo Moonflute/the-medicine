@@ -66,10 +66,11 @@ sources: ["Endocrine Society | https://www.endocrine.org/clinical-practice-guide
 - **합병증**: 신결석, 신석회화, 급성 신손상, 부정맥 등이 발생할 수 있다.
 - **예후**: 원인 질환의 교정 여부에 따라 다르며, 중증 고칼슘혈증은 적절한 치료가 지연될 경우 치명적일 수 있다.
 
-출처 : Merck Manual Professional (Hypercalcemia)
+## 출처
+- Merck Manual Professional (Hypercalcemia)
+- 삼성서울병원 메뉴얼. Endotext: Approach to Hypercalcemia를 대조. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. Endotext: Approach to Hypercalcemia를 대조. 2026-09-14 기존 목차 내 보완.

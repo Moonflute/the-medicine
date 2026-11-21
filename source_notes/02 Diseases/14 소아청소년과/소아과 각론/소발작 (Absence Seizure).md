@@ -55,7 +55,8 @@ reviewed_at: "2026-07-30"
 * 치료 반응은 양호하나, 주의력 결핍, 인지 기능 저하, 정서적 문제 동반 가능
 * 성인기까지 지속되거나 전신 강직-간대 발작으로 이행될 수 있음
 
-출처: [ILAE 소아 결신뇌전증 진단](https://www.epilepsydiagnosis.org/syndrome/cae-diagcriteria.html)
+## 출처
+- [ILAE 소아 결신뇌전증 진단](https://www.epilepsydiagnosis.org/syndrome/cae-diagcriteria.html)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

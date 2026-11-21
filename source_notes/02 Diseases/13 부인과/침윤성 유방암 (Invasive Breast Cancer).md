@@ -107,7 +107,8 @@ N1mi는 >0.2–≤2 mm의 림프절 미세전이다. ≤0.2 mm 고립종양세�
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 시 예후 양호, 분자형·병기에 따라 생존 차이; 치료 후 재발 감시 유지
 
-출처 : StatPearls (Breast Cancer, Breast Cancer Conservation Therapy)
+## 출처
+- StatPearls (Breast Cancer, Breast Cancer Conservation Therapy)
 
 Last updated :
 2026-07-15 — 중복 본문 정리

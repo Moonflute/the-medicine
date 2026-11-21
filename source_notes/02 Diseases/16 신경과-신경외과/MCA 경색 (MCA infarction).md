@@ -54,7 +54,9 @@ sources: ["AHA/ASA 2026 | https://doi.org/10.1161/STR.0000000000000513"]
 - 조기 재관류 여부가 예후의 핵심
 - 뇌부종으로 인한 뇌탈출(Herniation), 출혈성 변환, 흡인성 폐렴, 욕창 등 합병증 주의
 
-출처 : Merck Manual Professional, StatPearls
-보완 출처: [AHA/ASA 급성 허혈성 뇌졸중 지침(2026)](https://www.ahajournals.org/doi/10.1161/STR.0000000000000513)
+## 출처
+- Merck Manual Professional, StatPearls
+- [AHA/ASA 급성 허혈성 뇌졸중 지침(2026)](https://www.ahajournals.org/doi/10.1161/STR.0000000000000513)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

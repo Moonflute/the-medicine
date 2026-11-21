@@ -53,7 +53,9 @@ sources: ["ATA 산후 갑상샘염 | https://www.thyroid.org/postpartum-thyroidi
 - 대부분 자가 제한적(self-limiting) 경과를 보이나, 20~50%에서 영구적인 갑상샘기능저하증이 발생할 수 있다.
   다음 임신 시 재발률이 높다.
 
-출처 : StatPearls (Postpartum Thyroiditis); [ATA 임신·산후 지침 2026](https://doi.org/10.1177/10507256261445624).
+## 출처
+- StatPearls (Postpartum Thyroiditis); [ATA 임신·산후 지침 2026](https://doi.org/10.1177/10507256261445624).
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

@@ -61,7 +61,8 @@ content_updated_at: "2026-11-17"
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적극적인 LDL-C 저하 치료를 통해 관상동맥 죽상경화증의 진행을 늦추거나 예방할 수 있다.
 
-출처: Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association.
+## 출처
+- Update on familial hypercholesterolemia: An expert clinical consensus from the National Lipid Association.
 
 Last updated :
 2024-07-30 — 초기 작성

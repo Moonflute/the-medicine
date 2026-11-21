@@ -59,7 +59,9 @@ reviewed_at: "2026-07-30"
 - 적절한 치료 시 대개 수 시간 내에 호전됨.
 - 합병증: 심한 경우 급성 호흡부전으로 진행 가능.
 
-출처 : AABB(Association for the Advancement of Blood & Biotherapies) Technical Manual
+## 출처
+- AABB(Association for the Advancement of Blood & Biotherapies) Technical Manual
 - [ISBT/IHN/AABB TACO 감시 정의(2018)](https://www.isbtweb.org/static/19fed2c2-e257-42f5-9b2c2b51df1f87d4/TACO2018definitionMarch2019.pdf)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

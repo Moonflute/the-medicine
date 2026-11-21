@@ -50,7 +50,8 @@ relation_to_parent: subtype
 ## 6. 예후 및 합병증
 - 조기 개입 시 예후가 좋으나, 만성화될 경우 우울증, 물질 사용 장애, 사회적 기능 저하 및 대인관계 갈등이 동반될 가능성이 높음.
 
-출처: [VA National Center for PTSD: DSM-5 기준](https://www.ptsd.va.gov/professional/treat/essentials/dsm5_ptsd.asp)
+## 출처
+- [VA National Center for PTSD: DSM-5 기준](https://www.ptsd.va.gov/professional/treat/essentials/dsm5_ptsd.asp)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

@@ -78,7 +78,9 @@ review_status: "guideline_enriched"
 - **예후**: 간엽 종양으로 위치·크기·분열수에 따라 악성 잠재력 평가. 크고 분열수가 많을수록 불량
 - **치료 특성**: 방사선 효과는 제한적
 
-출처 : Merck Manual Professional (Gastrointestinal Stromal Tumors); [JSCO GIST 지침 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC11130037/); [GEIS 지침 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/).
+## 출처
+- Merck Manual Professional (Gastrointestinal Stromal Tumors); [JSCO GIST 지침 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC11130037/); [GEIS 지침 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10467260/).
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -51,6 +51,8 @@ sources: ["ASBrS/SBI 2025 | https://jamanetwork.com/journals/jamasurgery/fullart
 - **예후** 양성 종양으로 예후가 매우 좋음
 - **합병증** 복합 섬유선종(complex fibroadenoma)의 경우 유방암 위험도가 약간 증가할 수 있음
 
-출처 : StatPearls (Breast Fibroadenoma)
+## 출처
+- StatPearls (Breast Fibroadenoma)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

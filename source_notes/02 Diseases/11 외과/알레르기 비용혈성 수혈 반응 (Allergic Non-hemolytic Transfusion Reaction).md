@@ -55,6 +55,8 @@ sources: ["Lifeblood 수혈반응 관리 | https://www.lifeblood.com.au/health-p
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 경증 반응은 대개 항히스타민제로 빠르게 호전
 
-출처 : StatPearls (Managing Fresh-Frozen Plasma Transfusion Adverse Effects)
+## 출처
+- StatPearls (Managing Fresh-Frozen Plasma Transfusion Adverse Effects)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

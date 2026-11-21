@@ -81,4 +81,5 @@ Last updated :
 2026-07-15 — Japan Endocrine Society 2025 PPGL 지침 기반 보강
 2026-07-15 — 공식 지침 기반 Tier 2 보강
 
-보완 출처: 삼성서울병원 메뉴얼
+## 출처
+- 삼성서울병원 메뉴얼

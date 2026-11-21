@@ -70,9 +70,10 @@ sources: ["Merck Manual 장폐쇄 | https://www.merckmanuals.com/professional/ga
 ## 6. 예후 및 합병증 (Prognosis)
 * **수술 적응증**: 발열, 빈맥, 심한 압통, 복막 자극 징후, 영상학적 천공 소견.
 
-출처 : StatPearls (Large Bowel Obstruction)
+## 출처
+- StatPearls (Large Bowel Obstruction)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

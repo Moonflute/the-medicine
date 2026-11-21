@@ -48,6 +48,8 @@ reviewed_at: "2026-07-30"
 * 수술 후 예후는 일반적으로 양호함
 * 합병증: 문합부 누출, 협착, 장운동 기능 저하 등
 
-출처 : Nelson Textbook of Pediatrics
+## 출처
+- Nelson Textbook of Pediatrics
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

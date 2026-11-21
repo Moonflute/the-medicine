@@ -56,6 +56,8 @@ sources: ["AAD | https://www.aad.org/public/diseases/a-z/molluscum-contagiosum-t
   면역저하자에서는 병변이 크고 광범위하게 나타날 수 있음.
   이차 세균 감염은 드묾.
 
-출처 : StatPearls (Molluscum Contagiosum)
+## 출처
+- StatPearls (Molluscum Contagiosum)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

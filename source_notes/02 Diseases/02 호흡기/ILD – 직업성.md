@@ -45,5 +45,3 @@ sources: ["CDC/NIOSH 실리카 노출 증상·의학적 감시, 2026-10 현행 �
 ## 포함 질환
 - [[규폐증 (Silicosis)]]
 - [[석면폐증 (Asbestosis)]]
-
-## 참고 자료

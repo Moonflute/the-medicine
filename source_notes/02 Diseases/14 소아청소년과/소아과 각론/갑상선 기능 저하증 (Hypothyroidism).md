@@ -63,8 +63,10 @@ sources: ["ENDO-ERN 2020–2021 합의 | https://doi.org/10.1089/thy.2020.0333"]
 * 조기 진단 및 치료 시 정상적인 성장 및 신경 발달 가능
 * 치료 지연 시 영구적인 지능 저하 및 성장 장애 초래 가능
 
-출처 : StatPearls (Hypothyroidism, Congenital Hypothyroidism)
+## 출처
+- StatPearls (Hypothyroidism, Congenital Hypothyroidism)
 - [ENDO-ERN/ESPE/ESE: Congenital hypothyroidism consensus](https://pmc.ncbi.nlm.nih.gov/articles/PMC8001676/)
 - [Levothyroxine 투여·상호작용](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ceed5ff-fd41-4ebd-ade7-e31b135231c1)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -50,6 +50,8 @@ reviewed_at: "2026-07-30"
 * 조기 진단 및 수술 시 예후 양호
 - **합병증**: 대퇴골두 무혈성 괴사(특히 불안정형에서 위험 높음), 연골 용해, 대퇴비구 충돌 증후군, 조기 관절염
 
-출처 : StatPearls (Slipped Capital Femoral Epiphysis); [POSNA SCFE](https://posna.org/physician-education/study-guide/scfe-%28slipped-capital-femoral-epiphysis%29); [RCH SUFE 응급 지침](https://www.rch.org.au/clinicalguide/guideline_index/fractures/Slipped_upper_femoral_epiphysis_SUFE_-_Emergency_Department/)
+## 출처
+- StatPearls (Slipped Capital Femoral Epiphysis); [POSNA SCFE](https://posna.org/physician-education/study-guide/scfe-%28slipped-capital-femoral-epiphysis%29); [RCH SUFE 응급 지침](https://www.rch.org.au/clinicalguide/guideline_index/fractures/Slipped_upper_femoral_epiphysis_SUFE_-_Emergency_Department/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

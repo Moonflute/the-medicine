@@ -49,6 +49,8 @@ reviewed_at: "2026-07-30"
 * 만성 진행성 질환으로 완치는 어려우나 조기 치료 시 탈모 속도를 늦출 수 있음.
 * 심혈관 질환 및 대사 증후군과의 연관성이 보고됨.
 
-출처 : StatPearls (Androgenetic Alopecia, Alopecia)
+## 출처
+- StatPearls (Androgenetic Alopecia, Alopecia)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

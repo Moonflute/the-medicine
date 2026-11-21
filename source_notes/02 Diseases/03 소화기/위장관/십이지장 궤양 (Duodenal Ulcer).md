@@ -60,6 +60,6 @@ sources: ["ACG H. pylori 2024 | https://gi.org/journals-publications/ebgi/schoen
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 출혈, 천공, 위출구 폐색(Gastric outlet obstruction).
 
-출처 : StatPearls (Duodenal Ulcer)
-
-참고: 삼성서울병원 메뉴얼.
+## 출처
+- StatPearls (Duodenal Ulcer)
+- 삼성서울병원 메뉴얼.

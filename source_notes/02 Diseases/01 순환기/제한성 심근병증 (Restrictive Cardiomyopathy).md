@@ -72,8 +72,10 @@ reviewed_at: "2026-07-30"
 - 심부전, 부정맥, 전도 장애 발생 가능
 - 예후는 원인 질환과 진단 시점에 따라 다름
 
-출처 : Merck Manual Professional (Restrictive Cardiomyopathy)
+## 출처
+- Merck Manual Professional (Restrictive Cardiomyopathy)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-보완 출처: 삼성서울병원 메뉴얼

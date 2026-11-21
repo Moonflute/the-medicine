@@ -48,6 +48,8 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 재발률이 높으며, 장기적인 추적 관찰이 필요함.
 
-출처 : [EHS 장루 주위 탈장 예방·치료 지침](https://europeanherniasociety.eu/wp-content/uploads/2023/04/English_cov13178_ehs_parastomal_hernias_a5_en_10_lr_0.pdf)
+## 출처
+- [EHS 장루 주위 탈장 예방·치료 지침](https://europeanherniasociety.eu/wp-content/uploads/2023/04/English_cov13178_ehs_parastomal_hernias_a5_en_10_lr_0.pdf)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

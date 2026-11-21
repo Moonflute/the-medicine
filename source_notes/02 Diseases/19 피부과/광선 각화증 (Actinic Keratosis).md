@@ -54,7 +54,8 @@ sources: ["AAD 지침 | https://www.aad.org/member/clinical-quality/guidelines/a
 - **광선 입술염**: 침윤성 SCC로 진행하면 전이 위험 평가 중요
   - 입술 SCC에서 약 11% 전이 보고가 있으나, 광선 입술염 자체의 전이율이나 모든 입술암에 공통인 확률은 아님
 
-보완 근거: [AAD 광선각화증 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC12255292/), [광선 입술염과 입술 SCC 위험](https://www.ncbi.nlm.nih.gov/books/NBK551553/)
+## 출처
+- [AAD 광선각화증 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC12255292/), [광선 입술염과 입술 SCC 위험](https://www.ncbi.nlm.nih.gov/books/NBK551553/)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

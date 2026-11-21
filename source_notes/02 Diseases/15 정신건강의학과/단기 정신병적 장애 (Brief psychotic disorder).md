@@ -51,7 +51,8 @@ relation_to_parent: subtype
 - 예후: 일반적으로 예후가 좋으며, 증상이 갑자기 시작되고 스트레스 요인이 명확할수록 긍정적임.
 - 합병증: 증상 발현 기간 동안의 사회적 기능 저하 및 대인관계 문제 발생 가능.
 
-출처: [SAMHSA DSM-IV–DSM-5 정신병적 장애 기준 비교](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/)
+## 출처
+- [SAMHSA DSM-IV–DSM-5 정신병적 장애 기준 비교](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

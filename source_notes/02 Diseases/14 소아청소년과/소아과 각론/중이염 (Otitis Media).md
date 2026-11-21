@@ -78,7 +78,8 @@ sources: ["CPS 급성중이염 권고 | https://cps.ca/en/documents/position/acu
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 치료 시 예후가 좋으나, 적절한 치료가 이루어지지 않을 경우 만성 중이염, 고막 천공, 청력 손실, 유착성 중이염, 유양돌기염 등으로 진행 가능
 
-출처 : StatPearls (Acute Otitis Media)
+## 출처
+- StatPearls (Acute Otitis Media)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

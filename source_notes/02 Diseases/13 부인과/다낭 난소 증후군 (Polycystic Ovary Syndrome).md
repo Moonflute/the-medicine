@@ -63,7 +63,9 @@ sources: ["국제 PCOS 지침 2023 | https://integration.asrm.org/globalassets/_
 ## 6. 예후 및 합병증 (Prognosis)
 - 대사 증후군, 제2형 당뇨병, 심혈관 질환, 자궁 내막암, 비알코올성 지방간 질환 위험 증가
 
-출처 : StatPearls (Polycystic Ovarian Syndrome)
+## 출처
+- StatPearls (Polycystic Ovarian Syndrome)
 - [2023 International Evidence-based PCOS Guideline](https://academic.oup.com/jcem/article/108/10/2447/7242360)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

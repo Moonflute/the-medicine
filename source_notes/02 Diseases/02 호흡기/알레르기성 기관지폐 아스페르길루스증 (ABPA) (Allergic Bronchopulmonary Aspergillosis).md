@@ -68,7 +68,9 @@ sources: ["ISHAM ABPA 지침 2024 | https://doi.org/10.1183/13993003.00061-2024"
 - 합병증: 중심성 기관지확장증, 폐섬유화, 스테로이드 장기 사용에 따른 부작용(당뇨, 골다공증 등).
 - 경과: 급성기, 관해기, 재발기, 스테로이드 불응기, 섬유화 단계로 구분 가능.
 
-출처 : Merck Manual Professional (Allergic Bronchopulmonary Aspergillosis)
+## 출처
+- Merck Manual Professional (Allergic Bronchopulmonary Aspergillosis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-11 : 본문 갱신 (processed)

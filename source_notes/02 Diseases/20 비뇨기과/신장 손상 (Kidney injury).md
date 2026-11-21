@@ -50,6 +50,8 @@ sources: ["EAU 외상 지침 | https://uroweb.org/guidelines/urological-trauma/c
 * 조기 발견 및 원인 교정이 예후에 결정적임
 * 만성 신부전(CKD)으로의 이행 가능성 모니터링 필요
 
-출처 : EAU Urological Trauma guideline (2026)
+## 출처
+- EAU Urological Trauma guideline (2026)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

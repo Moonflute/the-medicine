@@ -92,7 +92,8 @@ review_status: "guideline_enriched"
 - **ARDS**: 기흉, 다발성 장기부전, 장기적인 폐 기능 저하 및 인지 기능 변화 가능성
 - **신생아 RDS**: 기관지 폐 이형성증(BPD), 동맥관 개존증(PDA), 감염, 미숙아 망막증
 
-출처: [Berlin ARDS 정의](https://pubmed.ncbi.nlm.nih.gov/22797452/); [유럽 신생아 RDS 2025 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC13038240/)
+## 출처
+- [Berlin ARDS 정의](https://pubmed.ncbi.nlm.nih.gov/22797452/); [유럽 신생아 RDS 2025 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC13038240/)
 
 Last updated :
 2026-05-11 : 본문 갱신 (processed)

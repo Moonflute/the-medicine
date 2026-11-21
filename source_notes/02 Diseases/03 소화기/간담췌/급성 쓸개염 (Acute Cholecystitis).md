@@ -99,9 +99,10 @@ sources: ["WSES 급성 담낭염 지침 2020 | https://pmc.ncbi.nlm.nih.gov/arti
 
 - **합병증**: 담낭 천공, 담낭 농양, 담낭 기종, 담석성 장 폐쇄, 담관염, 췌장염 등.
 
-출처 : Merck Manual Professional (Acute Cholecystitis)
+## 출처
+- Merck Manual Professional (Acute Cholecystitis)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

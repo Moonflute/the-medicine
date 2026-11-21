@@ -68,9 +68,10 @@ sources: ["IDSA 도관 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC4039170
 ## 6. 예후 및 합병증 (Prognosis)
 - 패혈증, 감염성 심내막염, 전이성 농양 형성 등의 합병증이 발생할 수 있으며, 조기 진단과 적절한 도관 제거가 예후에 결정적임.
 
-출처 : [IDSA 도관 관련 감염 지침(2009)](https://www.idsociety.org/practice-guideline/iv-catheter/)
+## 출처
+- [IDSA 도관 관련 감염 지침(2009)](https://www.idsociety.org/practice-guideline/iv-catheter/)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

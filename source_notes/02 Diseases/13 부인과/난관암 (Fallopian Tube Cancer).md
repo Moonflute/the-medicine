@@ -74,6 +74,8 @@ sources: ["ASCO 수술 시점 | https://doi.org/10.1200/JCO-24-02589", "PARP 202
 ## 6. 예후 및 합병증 (Prognosis)
 - 진단 시기에 따라 예후가 결정되며, 복강 내 파종 및 전이가 발생할 수 있음.
 
-출처 : StatPearls (Anatomy, Abdomen and Pelvis: Fallopian Tube)
+## 출처
+- StatPearls (Anatomy, Abdomen and Pelvis: Fallopian Tube)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

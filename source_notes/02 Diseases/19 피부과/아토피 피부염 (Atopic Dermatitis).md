@@ -69,6 +69,8 @@ sources: ["AAD 지침 및 2025 개정 | https://www.aad.org/member/clinical-qual
 - **아토피 행진**: 천식·알레르기비염 동반 가능
 - **합병증**: 이차 세균 감염(황색포도알균), 포진상 습진(Kaposi varicelliform eruption).
 
-출처 : StatPearls (Atopic Dermatitis)
+## 출처
+- StatPearls (Atopic Dermatitis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

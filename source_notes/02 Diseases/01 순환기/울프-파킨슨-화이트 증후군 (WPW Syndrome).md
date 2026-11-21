@@ -67,7 +67,9 @@ sources: ["ESC SVT 지침 2019 | https://doi.org/10.1093/eurheartj/ehz467"]
 ## 6. 예후 및 합병증 (Prognosis)
 - 부전도로를 통한 빠른 전도로 심방세동 발생 시 심실세동 및 급사의 위험이 있으므로 주의가 필요하다.
 
-출처 : Merck Manual Professional (Wolff-Parkinson-White Syndrome)
+## 출처
+- Merck Manual Professional (Wolff-Parkinson-White Syndrome)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

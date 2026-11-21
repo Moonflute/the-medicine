@@ -76,7 +76,9 @@ content_updated_at: "2026-11-16"
 ## 6. 예후 및 합병증 (Prognosis)
 - 요로 결석, 골다공증, 골절, 근육 위축 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional; 삼성서울병원 외과 메뉴얼; [KDIGO CKD-MBD 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6340919/).
+## 출처
+- Merck Manual Professional; 삼성서울병원 외과 메뉴얼; [KDIGO CKD-MBD 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6340919/).
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

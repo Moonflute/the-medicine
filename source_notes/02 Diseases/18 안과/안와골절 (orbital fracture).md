@@ -50,8 +50,9 @@ sources: ["AAO | https://eyewiki.aao.org/Orbital_Floor_Fracture"]
 - 신경 손상, 지속적인 복시, 안구 운동 장애, 영구적인 시력 손상 가능성
 - 조기 진단 및 적절한 수술적 개입 시 예후 양호
 
-출처 : StatPearls (Orbital Floor Fracture)
-보완 근거: [AO — 안와저 복원과 추적](https://surgeryreference.aofoundation.org/cmf/trauma/midface/orbit-floor/reconstruction), [AO — 관찰과 재영상](https://surgeryreference.aofoundation.org/cmf/trauma/midface/orbit-floor/observation)
+## 출처
+- StatPearls (Orbital Floor Fracture)
+- [AO — 안와저 복원과 추적](https://surgeryreference.aofoundation.org/cmf/trauma/midface/orbit-floor/reconstruction), [AO — 관찰과 재영상](https://surgeryreference.aofoundation.org/cmf/trauma/midface/orbit-floor/observation)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

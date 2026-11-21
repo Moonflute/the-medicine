@@ -49,6 +49,8 @@ sources: ["AAO 세균각막염 PPP | https://www.aao.org/education/preferred-pra
 - **합병증**: 각막 흉터, 천공, 녹내장, 백내장, 안내염 및 실명.
 - **예후**: 조기 진단과 적절한 항생제 치료가 시력 보존에 결정적임.
 
-출처 : StatPearls (Corneal Ulcer)
+## 출처
+- StatPearls (Corneal Ulcer)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

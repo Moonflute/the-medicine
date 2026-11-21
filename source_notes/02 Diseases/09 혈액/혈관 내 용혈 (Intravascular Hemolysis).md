@@ -46,7 +46,9 @@ content_updated_at: "2026-11-17"
 - **예후**: 기저 원인에 따라 다름
 - **합병증**: 급성 신손상·혈전증 등
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

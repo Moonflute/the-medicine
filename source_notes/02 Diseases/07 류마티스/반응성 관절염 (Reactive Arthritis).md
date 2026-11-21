@@ -75,11 +75,12 @@ reviewed_at: "2026-07-30"
   - ACR 2020은 적응증이 있으면 급성 발작 중 시작도 조건부 권고하므로 급성기를 일률적 금기로 보지 않음
   - Allopurinol: SJS/TEN 등 중증 피부 이상반응 주의
 
-출처 : Merck Manual Professional (Reactive Arthritis), [NIAMS 반응성 관절염 치료](https://www.niams.nih.gov/health-topics/reactive-arthritis/diagnosis-treatment-and-steps-to-take), [ACR 통풍 지침(2020)](https://doi.org/10.1002/art.41247)
+## 출처
+- Merck Manual Professional (Reactive Arthritis), [NIAMS 반응성 관절염 치료](https://www.niams.nih.gov/health-topics/reactive-arthritis/diagnosis-treatment-and-steps-to-take), [ACR 통풍 지침(2020)](https://doi.org/10.1002/art.41247)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-통합 출처: 삼성서울병원 메뉴얼

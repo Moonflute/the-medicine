@@ -80,7 +80,9 @@ sources: ["NCCN 소장 선암 안내 2026 | https://vicc.org/sites/default/files
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 장폐쇄·천공, 만성 출혈성 빈혈, 영양결핍
 
-출처 : Merck Manual Professional, StatPearls
+## 출처
+- Merck Manual Professional, StatPearls
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

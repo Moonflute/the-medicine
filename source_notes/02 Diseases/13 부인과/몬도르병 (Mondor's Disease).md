@@ -48,6 +48,8 @@ reviewed_at: "2026-07-30"
 - **예후**: 양호하며 대부분 후유증 없이 자연 치유됨.
 - **합병증**: 드물게 심부정맥 혈전증(DVT)으로 진행할 가능성이 있으나 매우 낮음.
 
-출처 : StatPearls (Mondor Disease)
+## 출처
+- StatPearls (Mondor Disease)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

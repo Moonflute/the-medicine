@@ -52,6 +52,8 @@ sources:
 - 적절한 관리 시 수일 내 호전됨
 - 합병증으로 유방염(mastitis)이나 유방 농양으로 진행할 수 있으므로 주의 깊은 관찰 필요
 
-출처 : StatPearls (Anatomy, Thorax, Breast)
+## 출처
+- StatPearls (Anatomy, Thorax, Breast)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

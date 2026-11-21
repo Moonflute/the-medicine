@@ -51,7 +51,9 @@ sources: ["ESGE 운동질환 지침 | https://www.esge.com/endoscopic-management
 
 - **예후**: 수술 후 즉각적인 증상 완화율은 높으나, 고령 환자가 많아 수술 전후 세심한 관리가 필요함.
 
-출처 : StatPearls (Zenker Diverticulum)
+## 출처
+- StatPearls (Zenker Diverticulum)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

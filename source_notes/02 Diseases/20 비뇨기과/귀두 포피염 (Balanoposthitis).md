@@ -49,7 +49,8 @@ reviewed_at: "2026-07-30"
 - 적절한 위생 관리와 치료로 대부분 호전
 - 합병증: 포경(phimosis), 요도 협착, 재발성 염증, 드물게 음경암과의 연관성
 
+## 출처
+- StatPearls (Balanoposthitis)
 
-출처 : StatPearls (Balanoposthitis)
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

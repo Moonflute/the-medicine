@@ -44,7 +44,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료가 지연될 경우 영구적인 신기능 저하 및 고혈압 발생 가능.
 
-출처 : StatPearls (Renal Artery Stenosis, Anatomy)
+## 출처
+- StatPearls (Renal Artery Stenosis, Anatomy)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

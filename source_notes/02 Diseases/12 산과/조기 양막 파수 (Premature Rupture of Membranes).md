@@ -64,6 +64,8 @@ sources: ["NICE NG25 | https://www.nice.org.uk/guidance/ng25/chapter/Recommendat
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 조산, 자궁 내 감염(융모양막염), 태반 조기 박리, 제대 압박, 폐 발달 부전.
 
-출처 : StatPearls (Preterm and Term Prelabor Rupture of Membranes)
+## 출처
+- StatPearls (Preterm and Term Prelabor Rupture of Membranes)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

@@ -46,6 +46,8 @@ reviewed_at: "2026-07-30"
 - 완치가 어렵고 만성적인 경과를 보임.
 - 보툴리눔 독소 주사로 증상 완화 및 기능 개선 가능.
 
-출처 : UpToDate, Movement Disorder Society Guidelines
+## 출처
+- UpToDate, Movement Disorder Society Guidelines
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

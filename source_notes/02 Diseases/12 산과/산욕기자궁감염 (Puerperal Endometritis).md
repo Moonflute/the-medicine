@@ -54,6 +54,8 @@ sources: ["WHO 주산기 감염 진료 권고 | https://www.who.int/publications
 * 조기 진단 및 치료 시 예후 양호.
 * 합병증: 골반 농양, 패혈증, 골반 혈전정맥염, 괴사성 근막염.
 
-출처 : StatPearls (Postpartum Infection)
+## 출처
+- StatPearls (Postpartum Infection)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

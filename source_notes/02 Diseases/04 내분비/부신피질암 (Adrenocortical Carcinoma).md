@@ -43,4 +43,5 @@ sources: ["ESE/ENSAT | https://academic.oup.com/ejendo/article/179/4/G1/6655445"
   - **I–II·R0·Ki-67 ≤10%**: 일률 투여하지 않고 위험·독성·선호 평가
 - **절제 불가·진행성**: 종양 부담·진행 속도에 따라 mitotane 단독 또는 etoposide–doxorubicin–cisplatin 병용
 
-출처: 삼성서울병원 외과 메뉴얼
+## 출처
+- 삼성서울병원 외과 메뉴얼

@@ -58,8 +58,9 @@ sources: ["EAU 급성 음낭 | https://uroweb.org/guidelines/paediatric-urology/
 * 6시간 이내 수술 시 고환 보존율이 매우 높으나, 12~24시간 경과 시 보존율 급격히 감소
 * 합병증: 고환 위축, 불임, 고환 상실
 
-출처 : StatPearls (Testicular Torsion)
-참고: [EAU: Acute scrotum](https://uroweb.org/guidelines/paediatric-urology/chapter/acute-scrotum)
+## 출처
+- StatPearls (Testicular Torsion)
+- [EAU: Acute scrotum](https://uroweb.org/guidelines/paediatric-urology/chapter/acute-scrotum)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

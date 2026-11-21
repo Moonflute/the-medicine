@@ -57,7 +57,9 @@ sources: ["ESE/Endocrine Society 2024 | https://www.endocrine.org/clinical-pract
 - 약물 중단 후 HPA 축의 회복에는 시간이 소요될 수 있다.
 - 합병증으로 골다공증, 고혈압, 당뇨병, 감염 위험 증가 등이 발생할 수 있으므로 지속적인 모니터링이 필요하다.
 
-출처 : StatPearls (Hypercortisolism); [ESE/Endocrine Society 2024 — Glucocorticoid-induced adrenal insufficiency](https://www.endocrine.org/clinical-practice-guidelines/glucocorticoid-induced-adrenal-insufficiency)
+## 출처
+- StatPearls (Hypercortisolism); [ESE/Endocrine Society 2024 — Glucocorticoid-induced adrenal insufficiency](https://www.endocrine.org/clinical-practice-guidelines/glucocorticoid-induced-adrenal-insufficiency)
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

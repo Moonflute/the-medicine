@@ -60,7 +60,9 @@ sources: ["AAO-HNSF 2020 | https://doi.org/10.1177/0194599820909438"]
 - **예후**: 현훈은 감소해도 난청은 진행 가능, 양측성으로 진행할 수 있음
 - **합병증**: 투마킨 이석 발작(Tumarkin's otolithic crisis), 삶의 질 저하, 우울 및 불안.
 
-출처 : StatPearls (Meniere Disease)
-보완 출처: [AAO-HNS 메니에르병 지침](https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1177/0194599820909438)
+## 출처
+- StatPearls (Meniere Disease)
+- [AAO-HNS 메니에르병 지침](https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1177/0194599820909438)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

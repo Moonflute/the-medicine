@@ -50,7 +50,8 @@ relation_to_parent: subtype
 - 예후: 대개 수일 내에 증상이 호전되나, 재발 방지를 위한 지속적인 금주가 필수적임.
 - 합병증: 만성 알코올 사용으로 인한 신체적 질환(간경화, 췌장염, 신경계 손상) 및 사회적 기능 저하.
 
-출처: [SAMHSA DSM-5 물질 유발 정신병적 장애 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/)
+## 출처
+- [SAMHSA DSM-5 물질 유발 정신병적 장애 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

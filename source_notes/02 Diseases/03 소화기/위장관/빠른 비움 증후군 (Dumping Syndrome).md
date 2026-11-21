@@ -50,7 +50,9 @@ sources: ["덤핑 증후군 국제 합의 | https://doi.org/10.1038/s41574-020-0
 - 대부분 식이 조절로 호전되나, 지속 시 영양 결핍 및 체중 감소 발생 가능
 - 후기 증후군 시 반복적인 저혈당으로 인한 일상생활 지장 초래
 
-출처 : StatPearls (Dumping Syndrome, 2026)
+## 출처
+- StatPearls (Dumping Syndrome, 2026)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

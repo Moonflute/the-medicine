@@ -74,7 +74,9 @@ content_updated_at: "2026-11-15"
 - 자궁 내 태아 사망, 신생아 이환율 및 사망률 증가
 - 장기적으로 신경 발달 장애 및 대사 질환 위험성 존재
 
-출처 : StatPearls (Fetal Growth Restriction)
+## 출처
+- StatPearls (Fetal Growth Restriction)
 - [SMFM Consult #52: Fetal growth restriction](https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

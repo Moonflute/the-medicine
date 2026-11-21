@@ -69,10 +69,11 @@ sources: ["AGA 난치성 변비 평가 2026 | https://gastro.org/clinical-guidan
 ## 6. 예후 및 합병증
 - 적절한 치료가 이루어지지 않을 경우 치핵, 치열, 대변 매복, 급성 장폐색, 변실금 등이 발생 가능.
 
-출처 : Merck Manual Professional (Constipation)
+## 출처
+- Merck Manual Professional (Constipation)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

@@ -100,7 +100,9 @@ sources: ["CDC STI | https://www.cdc.gov/std/treatment-guidelines/syphilis.htm",
 - **무치료**: 심각한 장기 손상·신경학적 후유증 가능
 - **치료 후**: 비트레포네마 역가를 추적. 조기 매독은 6–12개월의 ≥4배 감소 여부 등을 평가하되 후기·기간 불명은 더 긴 평가 기간을 적용
 
-출처 : Merck Manual Professional (Syphilis, Congenital Syphilis)
+## 출처
+- Merck Manual Professional (Syphilis, Congenital Syphilis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

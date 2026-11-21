@@ -53,7 +53,8 @@ sources: ["WSES 비장외상 합의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9
 ## 6. 예후 및 합병증 (Prognosis)
 - 비장 절제술 후에는 캡슐형 세균(폐렴구균, 수막구균, 헤모필루스 인플루엔자)에 의한 전격성 패혈증(OPSI) 위험이 증가하므로 예방접종이 필수적임.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

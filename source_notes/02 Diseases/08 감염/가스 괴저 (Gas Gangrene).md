@@ -50,9 +50,10 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 ## 6. 예후 및 합병증 (Prognosis)
 - 사망률이 높으며, 패혈증, 다발성 장기 부전, 사지 절단 등의 심각한 합병증을 초래할 수 있다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

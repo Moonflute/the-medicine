@@ -56,6 +56,8 @@ sources: ["CPS | https://cps.ca/en/documents/position/acute-otitis-media"]
 - 적절한 치료 시 2~4주 내 완치
 - 합병증: 고막 천공, 유양돌기염, 미로염, 안면신경 마비, 두개내 농양 등
 
-출처 : StatPearls (Acute Otitis Media)
+## 출처
+- StatPearls (Acute Otitis Media)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

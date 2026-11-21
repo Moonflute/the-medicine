@@ -115,9 +115,10 @@ sources: ["USMSTF 대장 병변 내시경 절제 권고 2020 | https://gastro.or
   - 시작: **40세와 가장 젊은 가족의 진단 나이보다 10년 이른 나이 중 빠른 때**, 통상 **5년 간격** 내시경
   - 실제 검사 결과·유전성 증후군이 있으면 별도 계획
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

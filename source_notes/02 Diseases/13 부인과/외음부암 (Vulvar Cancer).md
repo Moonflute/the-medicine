@@ -80,6 +80,8 @@ I–II는 국소 림프절 전이가 없어야 한다. III의 림프절은 고�
 - 종양 크기, 림프절 전이 여부, 절제면 상태가 재발의 주요 인자
 - 조기 진단 시 예후가 양호하며, 정기적인 추적 관찰이 필수적
 
-출처 : StatPearls (Vulvar Cancer)
+## 출처
+- StatPearls (Vulvar Cancer)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

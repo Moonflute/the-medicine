@@ -64,6 +64,8 @@ sources: ["Endocrine Society FHA 진료지침 | https://doi.org/10.1210/jc.2017-
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 질환에 따라 다르며, 장기적인 에스트로겐 결핍 시 골다공증 및 심혈관 질환 위험 증가 가능.
 
-출처 : StatPearls (Amenorrhea, Primary Amenorrhea)
+## 출처
+- StatPearls (Amenorrhea, Primary Amenorrhea)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

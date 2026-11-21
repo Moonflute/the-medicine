@@ -55,6 +55,8 @@ sources: ["FDA Waskyra | https://www.fda.gov/vaccines-blood-biologics/waskyra"]
 * 조혈모세포 이식 시 예후 개선 가능
 * 미치료 시 반복 감염, 중증 출혈, 악성 종양으로 인한 조기 사망 위험 높음
 
-출처 : StatPearls (Wiskott-Aldrich Syndrome)
+## 출처
+- StatPearls (Wiskott-Aldrich Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

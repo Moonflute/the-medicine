@@ -63,6 +63,8 @@ sources: ["FDA 소아 감기약 | https://www.fda.gov/consumers/consumer-updates
 * 대부분 1주일 내 자연 치유되는 자가 제한적 질환
 * 합병증: 이차 세균 감염(부비동염, 중이염, 폐렴 등) 발생 가능
 
-출처 : StatPearls (Upper Respiratory Tract Infections With Focus on The Common Cold)
+## 출처
+- StatPearls (Upper Respiratory Tract Infections With Focus on The Common Cold)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

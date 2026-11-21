@@ -93,6 +93,8 @@ sources: ["ESGO/ESTRO/ESP 2025 | https://guidelines.esgo.org/media/2025/09/ESGO-
 - 조기 발견 시 예후가 매우 좋음.
 - 진행성 암의 경우 재발 위험이 있으며, 수술 후 정기적인 추적 관찰이 중요.
 
-출처 : StatPearls (Endometrial Cancer)
+## 출처
+- StatPearls (Endometrial Cancer)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

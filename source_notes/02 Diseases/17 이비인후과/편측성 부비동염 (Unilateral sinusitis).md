@@ -60,6 +60,8 @@ sources: ["AAO-HNSF 성인 부비동염 지침 2025 | https://doi.org/10.1002/oh
 - 원인 질환에 따라 예후가 다르며, 악성 종양 배제가 중요함.
 - 합병증으로 안와 내 침범, 두개내 감염 등이 발생할 수 있으므로 주의 깊은 관찰 필요.
 
-출처 : StatPearls (Acute Sinusitis, Chronic Sinusitis)
+## 출처
+- StatPearls (Acute Sinusitis, Chronic Sinusitis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

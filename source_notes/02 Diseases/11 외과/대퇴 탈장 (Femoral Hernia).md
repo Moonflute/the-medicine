@@ -52,6 +52,8 @@ sources: ["HerniaSurge 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC5809582
 ## 6. 예후 및 합병증 (Prognosis)
 - 수술 후 재발률은 낮으나, 만성 통증, 수술 부위 감염, 장기 손상 등의 합병증 가능성 존재.
 
-출처 : StatPearls (Femoral Hernia)
+## 출처
+- StatPearls (Femoral Hernia)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

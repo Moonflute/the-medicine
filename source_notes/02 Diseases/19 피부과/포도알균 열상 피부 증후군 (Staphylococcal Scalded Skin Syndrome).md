@@ -48,8 +48,9 @@ reviewed_at: "2026-07-30"
 - **예후**: 적절히 치료하면 1–2주 내 흉터 없이 회복. 소아 사망률은 낮으나 성인은 기저질환에 따라 높음
 - **합병증**: 탈수, 전해질 불균형, 이차 세균 감염, 패혈증.
 
-출처 : StatPearls (Staphylococcal Scalded Skin Syndrome)
-참고: [SSSS review: epidermal cleavage level](https://pubmed.ncbi.nlm.nih.gov/24841497/)
+## 출처
+- StatPearls (Staphylococcal Scalded Skin Syndrome)
+- [SSSS review: epidermal cleavage level](https://pubmed.ncbi.nlm.nih.gov/24841497/)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

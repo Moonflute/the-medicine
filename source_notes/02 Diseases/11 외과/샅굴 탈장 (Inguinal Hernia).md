@@ -55,7 +55,9 @@ sources: ["HerniaSurge 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC5809582
 - **합병증**: 감돈, 교액, 만성 통증, 재발.
 - **추적**: 재발·만성 통증을 확인하며 활동 복귀와 위험요인 관리를 개별화
 
-출처 : StatPearls (Minimally Invasive Inguinal Hernia Repair, Open Inguinal Hernia Repair)
+## 출처
+- StatPearls (Minimally Invasive Inguinal Hernia Repair, Open Inguinal Hernia Repair)
 - [HerniaSurge 국제 서혜부탈장 지침: 회복·활동](https://pmc.ncbi.nlm.nih.gov/articles/PMC5809582/)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

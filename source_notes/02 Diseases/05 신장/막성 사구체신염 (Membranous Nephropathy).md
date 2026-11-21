@@ -70,9 +70,10 @@ content_updated_at: "2026-11-17"
 - 자연 경과와 관해 가능성은 원인, 항-PLA2R 항체, 단백뇨 및 신기능 추세에 따라 크게 달라 고정 비율로 예측하지 않는다.
 - 진행 위험은 지속적 단백뇨·저알부민혈증, eGFR 저하 또는 빠른 감소, 항-PLA2R 항체 활성도와 조직 만성 손상을 종합해 판단한다.
 
-출처 : Merck Manual Professional (Membranous Nephropathy)
+## 출처
+- Merck Manual Professional (Membranous Nephropathy)
+- 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.

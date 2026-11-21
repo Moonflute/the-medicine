@@ -54,6 +54,8 @@ sources: ["다학제 합의, 2023 | https://doi.org/10.1136/jnnp-2023-331166"]
 - 보존치료로 호전될 수 있으나 지속·재발도 가능; 2주 내 자연회복을 전제로 중재를 미루지 않음
 - 드물게 경막하 혈종, 뇌정맥동 혈전증 등 합병증 발생 가능
 
-출처 보완: [SIH 다학제 합의지침](https://jnnp.bmj.com/content/94/10/835)
+## 출처
+- [SIH 다학제 합의지침](https://jnnp.bmj.com/content/94/10/835)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

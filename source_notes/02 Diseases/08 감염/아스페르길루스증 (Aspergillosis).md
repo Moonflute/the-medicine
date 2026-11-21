@@ -77,9 +77,10 @@ sources: ["ISHAM 2024 | https://doi.org/10.1183/13993003.00061-2024"]
 - 침습성 아스페르길루스증은 면역 저하 환자에서 사망률이 매우 높음.
   기저 질환의 교정(면역 억제제 감량 등)이 필수적임.
 
-출처 : Merck Manual Professional (Aspergillosis, ABPA), [IDSA 아스페르길루스증 지침(2016)](https://www.idsociety.org/practice-guideline/aspergillosis/)
+## 출처
+- Merck Manual Professional (Aspergillosis, ABPA), [IDSA 아스페르길루스증 지침(2016)](https://www.idsociety.org/practice-guideline/aspergillosis/)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

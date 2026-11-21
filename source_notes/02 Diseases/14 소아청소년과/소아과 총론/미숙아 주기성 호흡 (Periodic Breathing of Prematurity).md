@@ -45,6 +45,8 @@ content_updated_at: "2026-07-30"
 * 대부분 미숙아의 성장에 따라 호흡 중추가 성숙해지면서 자연스럽게 호전됨
 * 드물게 병적 무호흡으로 진행될 수 있으므로 지속적인 모니터링 필요
 
-출처 : Merck Manual Professional; [AAP 신생아 수면·호흡](https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/Phases-of-Sleep.aspx)
+## 출처
+- Merck Manual Professional; [AAP 신생아 수면·호흡](https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/Phases-of-Sleep.aspx)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

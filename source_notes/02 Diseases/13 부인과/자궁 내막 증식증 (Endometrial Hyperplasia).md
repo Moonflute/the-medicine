@@ -54,6 +54,8 @@ sources: ["RCOG/BSGE 자궁내막증식증 진료지침 | https://www.rcog.org.u
 - 비정형 증식증은 자궁내막암으로 진행할 위험이 높음
 - 적절한 조기 진단 및 치료를 통해 암으로의 진행을 예방 가능
 
-출처 : StatPearls (Endometrial Hyperplasia)
+## 출처
+- StatPearls (Endometrial Hyperplasia)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

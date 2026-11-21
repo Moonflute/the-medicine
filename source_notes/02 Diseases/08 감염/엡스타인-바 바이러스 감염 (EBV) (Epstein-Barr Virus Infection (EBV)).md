@@ -59,9 +59,10 @@ reviewed_at: "2026-07-30"
   버킷 림프종, 비인두암, EBV 양성 점막피부궤양 등과 관련이 있다.
 - 기도 폐색 또는 심한 혈구감소는 긴급 평가가 필요하다. 지속·재발하는 전신 증상과 장기 침범은 항체 역가만으로 CAEBV를 단정하지 않고 전문 평가로 연결한다.
 
-출처 : StatPearls (EBV Positive Mucocutaneous Ulcer, EBV-Associated Myopericarditis)
+## 출처
+- StatPearls (EBV Positive Mucocutaneous Ulcer, EBV-Associated Myopericarditis)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

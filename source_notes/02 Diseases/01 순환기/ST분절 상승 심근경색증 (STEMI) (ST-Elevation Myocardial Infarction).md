@@ -128,6 +128,8 @@ content_updated_at: "2026-11-18"
 - **기본 관리**: 생활 습관 교정, 심장재활, 약물 유지, 조기 외래 추적
 - **치과 처치**: 일률적으로 6개월 금지하지 않으며, 긴급성·DAPT 중단 위험·출혈 위험을 심장내과와 치과가 함께 조정
 
-출처 : 2025 AHA/ACC ACS guideline, 2026 Korean ACS revascularization focus update, 2023 ESC ACS guideline
+## 출처
+- 2025 AHA/ACC ACS guideline, 2026 Korean ACS revascularization focus update, 2023 ESC ACS guideline
+
 Last updated :
 2026-07-30 — 최신 ACS 지침 기준으로 치료·추적관리 갱신

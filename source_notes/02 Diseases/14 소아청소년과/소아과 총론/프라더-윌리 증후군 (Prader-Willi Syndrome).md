@@ -57,6 +57,8 @@ sources: ["GeneReviews PWS | https://www.ncbi.nlm.nih.gov/books/NBK1330/", "FDA 
 - **합병증**: 제2형 당뇨병, 수면 무호흡증, 심혈관 질환, 골다공증
 * **관리**: 평생에 걸친 포괄적 관리 필요, 조기 개입 시 삶의 질 향상
 
-출처 : StatPearls (Prader-Willi Syndrome)
+## 출처
+- StatPearls (Prader-Willi Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

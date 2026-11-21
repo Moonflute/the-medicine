@@ -76,4 +76,5 @@ Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
 
-출처: Merck Manual Professional (Overview of Hemolytic Anemia, Autoimmune Hemolytic Anemia, Microangiopathic Hemolytic Anemia); 삼성서울병원 메뉴얼; [ICCS/ESCCA PNH 검사](https://doi.org/10.1002/cyto.b.21610)
+## 출처
+- Merck Manual Professional (Overview of Hemolytic Anemia, Autoimmune Hemolytic Anemia, Microangiopathic Hemolytic Anemia); 삼성서울병원 메뉴얼; [ICCS/ESCCA PNH 검사](https://doi.org/10.1002/cyto.b.21610)

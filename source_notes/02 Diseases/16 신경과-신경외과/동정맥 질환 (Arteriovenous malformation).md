@@ -58,7 +58,9 @@ sources: ["AHA/ASA 성명 | https://doi.org/10.1161/STR.0000000000000134"]
 - 연간 출혈 위험은 미파열 시 약 2%, 기출혈 병력이 있는 경우 약 4.5%로 보고됨.
   출혈 시 높은 사망률과 영구적 신경학적 후유증 발생 가능.
 
-출처 : StatPearls (Arteriovenous Malformations of the Central Nervous System)
-보완 출처: [AHA AVM 관리 자료](https://professional.heart.org/en/science-news/-/media/5e23f2c9b1264bda9d2da591b20db1b5.ashx)
+## 출처
+- StatPearls (Arteriovenous Malformations of the Central Nervous System)
+- [AHA AVM 관리 자료](https://professional.heart.org/en/science-news/-/media/5e23f2c9b1264bda9d2da591b20db1b5.ashx)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

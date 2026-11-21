@@ -47,6 +47,8 @@ reviewed_at: "2026-07-30"
 - **합병증**: 재발, 드물게 설하신경 손상 또는 기도 손상 가능성
 * **악성 변화**: 매우 드물게(1% 미만) 암종(주로 유두암)으로 발전할 수 있어 병리 검사 필수
 
-출처 : StatPearls (Thyroglossal Duct Cyst)
+## 출처
+- StatPearls (Thyroglossal Duct Cyst)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

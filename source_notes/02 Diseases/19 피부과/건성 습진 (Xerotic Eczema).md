@@ -50,6 +50,8 @@ reviewed_at: "2026-07-30"
 
 - **합병증**: 심한 균열의 통증·출혈, S. aureus 등 이차 세균 감염
 
-출처 : StatPearls (Asteatotic Eczema)
+## 출처
+- StatPearls (Asteatotic Eczema)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

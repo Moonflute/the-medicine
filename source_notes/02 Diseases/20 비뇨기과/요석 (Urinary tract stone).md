@@ -57,6 +57,8 @@ sources: ["EAU 요석 2026 | https://uroweb.org/guidelines/urolithiasis/chapter/
 * **합병증:** 요로 폐색에 의한 신기능 저하, 신우신염, 패혈증.
 * **예후:** 재발률이 높으므로 충분한 수분 섭취와 식이 조절을 통한 예방이 중요함.
 
-출처 : StatPearls (Complicated Urinary Tract Infections)
+## 출처
+- StatPearls (Complicated Urinary Tract Infections)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

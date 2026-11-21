@@ -54,8 +54,8 @@ reviewed_at: "2026-07-30"
 - 조기 진단 및 치료가 지능 발달 및 신경학적 예후에 결정적.
 - 합병증: 단락관 기능 부전(폐쇄, 감염), 과다 배액.
 
+## 출처
+- Merck Manual Professional
 
-
-출처 : Merck Manual Professional
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

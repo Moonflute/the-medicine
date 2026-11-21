@@ -55,7 +55,9 @@ reviewed_at: "2026-07-30"
 - 예후는 매우 양호, 대부분 수개월 내 자연 호전된다.
   재발률은 낮으나(약 3-4%), 드물게 혈구탐식성 림프조직구증(HLH)과 같은 합병증이 발생할 수 있으므로 주의 깊은 관찰이 필요하다.
 
-출처 : StatPearls (Kikuchi-Fujimoto Disease)
+## 출처
+- StatPearls (Kikuchi-Fujimoto Disease)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성

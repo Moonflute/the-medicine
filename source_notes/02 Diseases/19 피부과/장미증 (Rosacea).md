@@ -50,6 +50,8 @@ sources: ["AAD | https://www.aad.org/public/diseases/rosacea/treatment/diagnosis
 * 만성 질환으로 완치가 어렵고 재발이 잦음.
   방치 시 영구적인 흉터, 지속적 홍반, 안구 손상 및 심리적 고통(우울, 불안) 유발 가능.
 
-출처 : StatPearls (Rosacea, 2023)
+## 출처
+- StatPearls (Rosacea, 2023)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -52,6 +52,8 @@ sources: ["AAO PPP 2024 | https://www.aao.org/education/preferred-practice-patte
 - **합병증**: 각막 혼탁(흉터), 각막 천공, 녹내장, 백내장, 안내염 및 실명.
 - **예후**: 조기 진단 및 적절한 항생제 치료가 시력 보존에 필수적임.
 
-출처 : StatPearls (Corneal Ulcer)
+## 출처
+- StatPearls (Corneal Ulcer)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

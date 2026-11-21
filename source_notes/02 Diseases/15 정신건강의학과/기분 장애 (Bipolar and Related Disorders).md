@@ -69,5 +69,3 @@ group_members:
 - [[양극성 장애 (Bipolar Disorder)]]
 - [[정상 애도 반응 (Bereavement)]]
 - [[주요 우울 장애 (Major Depressive Disorder)]]
-
-## 참고 자료

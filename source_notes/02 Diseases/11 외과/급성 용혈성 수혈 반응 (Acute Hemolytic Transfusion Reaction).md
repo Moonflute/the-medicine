@@ -75,9 +75,10 @@ sources: ["급성 수혈반응 관리 | https://www.lifeblood.com.au/health-prof
 - 합병증: 급성 신장 손상, 파종성 혈관 내 응고(DIC), 쇼크, 사망.
 - 향후 심각한 반응을 피하기 위해 원인 항체 식별이 필수적이다.
 
-출처 : StatPearls
+## 출처
+- StatPearls
+- 삼성서울병원 메뉴얼
+- [CDC NHSN 혈액안전 감시 프로토콜: AHTR](https://beta.cdc.gov/nhsn/pdfs/biovigilance/bv-hv-protocol-current.pdf)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)
-
-참고: 삼성서울병원 메뉴얼
-- [CDC NHSN 혈액안전 감시 프로토콜: AHTR](https://beta.cdc.gov/nhsn/pdfs/biovigilance/bv-hv-protocol-current.pdf)

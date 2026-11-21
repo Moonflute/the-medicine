@@ -68,7 +68,9 @@ sources: ["AHA/ACC PAD 지침 2024 | https://doi.org/10.1161/CIR.000000000000125
 - 치료하지 않을 경우 하지 허혈, 궤양, 괴사 및 사지 절단으로 진행할 수 있다.
   심혈관 질환 동반율이 높으므로 전신적인 혈관 건강 관리가 필수적이다.
 
-출처 : StatPearls (Aortoiliac Occlusive Disease)
+## 출처
+- StatPearls (Aortoiliac Occlusive Disease)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

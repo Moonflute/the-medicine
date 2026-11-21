@@ -124,10 +124,11 @@ sources: ["ACG 2025 | https://webfiles.gi.org/GuidelineHighlights/UC-highlights-
 - **근치 수술**: 전결장직장절제술·회장낭-항문문합술(IPAA) 고려
 - **응급 수술**: 전신 상태에 따라 대장 아전절제·회장루를 단계적으로 시행하고 안정 후 회복적 수술 계획
 
-출처 : Merck Manual Professional (Ulcerative Colitis)
-출처 : 삼성서울병원 외과 메뉴얼
+## 출처
+- Merck Manual Professional (Ulcerative Colitis)
+- 삼성서울병원 외과 메뉴얼
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

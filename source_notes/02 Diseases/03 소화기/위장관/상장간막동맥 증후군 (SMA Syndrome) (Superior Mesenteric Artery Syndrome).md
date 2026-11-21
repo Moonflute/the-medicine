@@ -52,7 +52,9 @@ sources: ["성인 SMAS 임상 코호트 2026 | https://www.mdpi.com/1648-9144/62
 - **합병증**: 영양실조, 탈수, 전해질 불균형, 위 천공, 위장관 출혈.
 - **예후**: 조기 진단이 중요하며, 보존적 치료에 반응하지 않는 경우 수술적 치료의 성공률은 높음.
 
-출처 : StatPearls (Superior Mesenteric Artery Syndrome)
+## 출처
+- StatPearls (Superior Mesenteric Artery Syndrome)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

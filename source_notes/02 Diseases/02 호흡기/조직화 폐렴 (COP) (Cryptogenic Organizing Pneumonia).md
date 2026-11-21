@@ -51,9 +51,10 @@ sources: ["ERS/EULAR CTD-ILD 지침 2025 | https://publications.ersnet.org/conte
 - 전반적인 예후는 매우 양호하다.
   재발 가능성이 있으나 추가적인 스테로이드 치료에 잘 반응한다.
 
-출처 : Merck Manual Professional (Cryptogenic Organizing Pneumonia)
+## 출처
+- Merck Manual Professional (Cryptogenic Organizing Pneumonia)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 합본에서 분리 정리
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

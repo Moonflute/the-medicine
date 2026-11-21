@@ -52,7 +52,8 @@ relation_to_parent: subtype
 - 경과: 만성적인 경과를 보일 수 있으며, 적절한 치료가 없을 경우 우울증, 물질 남용, 사회적 고립 등의 합병증 발생 가능.
 - 예후: 조기 진단 및 꾸준한 약물/인지행동치료 시 예후가 개선됨.
 
-출처: [SAMHSA DSM-5 아동 정신장애 분류](https://www.ncbi.nlm.nih.gov/books/NBK519712/)
+## 출처
+- [SAMHSA DSM-5 아동 정신장애 분류](https://www.ncbi.nlm.nih.gov/books/NBK519712/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

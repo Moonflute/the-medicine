@@ -49,7 +49,9 @@ content_updated_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않으면 뇌수막염, 폐렴, 다발성 장기 부전 등 중증 합병증으로 진행하여 사망에 이를 수 있다.
 
-출처 : 질병관리청(KDCA), CDC
+## 출처
+- 질병관리청(KDCA), CDC
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

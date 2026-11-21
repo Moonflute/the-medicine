@@ -60,5 +60,3 @@ sources: ["Merck Manual: Somatic Symptom Disorder (2026 갱신) | https://www.me
 - [[인위성 장애 (Factitious Disorder)]]
 - [[전환 장애 (Conversion Disorder)]]
 - [[질병 불안 장애 (Illness Anxiety Disorder)]]
-
-## 참고 자료

@@ -81,5 +81,4 @@ sources: ["CDC 의료종사자 손 위생 권고 | https://www.cdc.gov/clean-han
 - SHEA/IDSA. 2021 Focused Update Guidelines on Management of *Clostridioides difficile* Infection in Adults.
 - CDC. C. diff clinical resources.
 - [EMA Zinplava 허가 정보](https://www.ema.europa.eu/en/medicines/human/EPAR/zinplava)
-
-참고: 삼성서울병원 메뉴얼.
+- 삼성서울병원 메뉴얼.

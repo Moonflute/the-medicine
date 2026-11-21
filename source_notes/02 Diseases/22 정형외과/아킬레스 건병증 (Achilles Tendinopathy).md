@@ -61,7 +61,7 @@ sources: ["JOSPT 중간부 아킬레스 건병증 2024 | https://doi.org/10.2519
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 보존적 치료로 호전되나, 만성적인 경우 건 파열의 위험이 증가할 수 있음.
 
-참고:
+## 출처
 - [AOPT: Midportion Achilles Tendinopathy guideline, 2024](https://www.orthopt.org/content/s/achilles-pain-stiffness-and-muscle-power-deficits-midportion-achilles-tendinopathy-revision-2024)
 - [Royal London Hospital test의 임상 검사 방법](https://pmc.ncbi.nlm.nih.gov/articles/PMC8037202/)
 - [아킬레스건 형성부의 해부 연구](https://openorthopaedicsjournal.com/VOLUME/11/PAGE/762/)

@@ -59,7 +59,9 @@ reviewed_at: "2026-07-30"
 - **예후**: 대체로 양호
 - **합병증**: 승모판 폐쇄부전, 감염성 심내막염, 심방세동, 건삭 파열; 드물게 치명적 부정맥
 
-출처 : Merck Manual Professional (Mitral Valve Prolapse)
+## 출처
+- Merck Manual Professional (Mitral Valve Prolapse)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

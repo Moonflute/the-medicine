@@ -70,7 +70,9 @@ sources: ["IDSA/AAN/ACR | https://www.idsociety.org/practice-guideline/lyme-dise
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 치료 시 예후가 좋으나, 치료하지 않을 경우 만성 관절염, 신경학적 후유증, 심장 합병증 발생 가능
 
-출처 : Merck Manual Professional (Lyme Disease), [AAN/ACR/IDSA 라임병 지침(2020)](https://www.idsociety.org/practice-guideline/lyme-disease/)
+## 출처
+- Merck Manual Professional (Lyme Disease), [AAN/ACR/IDSA 라임병 지침(2020)](https://www.idsociety.org/practice-guideline/lyme-disease/)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

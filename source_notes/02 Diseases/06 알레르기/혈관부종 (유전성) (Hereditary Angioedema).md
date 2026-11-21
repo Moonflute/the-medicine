@@ -58,10 +58,11 @@ sources: ["WAO 2025 지침, 2026 출판 | https://pmc.ncbi.nlm.nih.gov/articles/
 ## 6. 예후 및 합병증 (Prognosis)
 - 상기도 부종으로 인한 질식 위험이 있으나, 적절한 급성기 치료 및 예방 요법을 통해 예후를 개선할 수 있다.
 
-출처 : StatPearls (Hereditary Angioedema)
+## 출처
+- StatPearls (Hereditary Angioedema)
+- 삼성서울병원 메뉴얼
+- [WAO HAE 지침 2025](https://doi.org/10.1016/j.waojou.2026.101335).
+
 Last updated :
 2024-07-29 — 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼
-보완 근거: [WAO HAE 지침 2025](https://doi.org/10.1016/j.waojou.2026.101335).

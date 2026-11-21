@@ -55,6 +55,8 @@ sources: ["수술 후 복막염 관리 | https://infectionsinsurgery.org/post-op
 - **예후**: 조기 발견·적절한 배액이 중요
 - **합병증**: 패혈증·다장기 부전·사망 가능
 
-출처 : Merck Manual Professional, StatPearls
+## 출처
+- Merck Manual Professional, StatPearls
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

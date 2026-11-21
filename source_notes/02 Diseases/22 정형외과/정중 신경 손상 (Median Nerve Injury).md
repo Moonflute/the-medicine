@@ -57,7 +57,9 @@ sources: ["BOAST 말초신경 손상 | https://www.boa.ac.uk/resource/boast-peri
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 조기 치료 시 양호, 만성 압박은 영구 무지구 위축·감각저하 가능
 
-출처 : StatPearls: Median Nerve Injury
+## 출처
+- StatPearls: Median Nerve Injury
 - [NHS Scotland: Complex peripheral nerve injury](https://rightdecisions.scot.nhs.uk/north-of-scotland-major-trauma-guidelines/orthopaedicsplastics/complex-peripheral-nerve-injury/)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

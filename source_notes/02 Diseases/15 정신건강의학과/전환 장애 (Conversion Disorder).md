@@ -51,7 +51,8 @@ relation_to_parent: subtype
 ## 6. 예후 및 합병증
 - 급성으로 발생한 경우 예후가 비교적 좋으나, 만성적인 경과를 보일 경우 의료 시스템에 대한 의존도가 높아질 수 있음.
 
-출처: [기능성 신경학적 장애의 진단·치료](https://pubmed.ncbi.nlm.nih.gov/35858632/), [NHS FND 평가](https://www.uhb.nhs.uk/gps/referrals/referrals-by-specialty/neurology/functional-neurological-disorder-pathway/functional-neurological-disorder-faqs/)
+## 출처
+- [기능성 신경학적 장애의 진단·치료](https://pubmed.ncbi.nlm.nih.gov/35858632/), [NHS FND 평가](https://www.uhb.nhs.uk/gps/referrals/referrals-by-specialty/neurology/functional-neurological-disorder-pathway/functional-neurological-disorder-faqs/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

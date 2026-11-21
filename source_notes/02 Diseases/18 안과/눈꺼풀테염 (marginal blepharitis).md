@@ -49,7 +49,8 @@ reviewed_at: "2026-07-30"
 - 만성적인 경과를 보이며 재발이 잦음
 - 합병증: 결막염, 안구건조증, 각막염, 각막 신생혈관 및 궤양
 
+## 출처
+- StatPearls (Blepharitis)
 
-출처 : StatPearls (Blepharitis)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

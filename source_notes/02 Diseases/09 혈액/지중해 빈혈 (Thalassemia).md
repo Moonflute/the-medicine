@@ -52,7 +52,9 @@ sources: ["TIF 2025 수혈 지침 | https://www.ncbi.nlm.nih.gov/books/NBK614240
 - 중증형은 지속적인 수혈과 합병증 관리가 필수적임.
   철분 과부하로 인한 심부전, 간경변, 내분비 장애(성장 및 사춘기 지연) 등이 주요 합병증임.
 
-출처 : Merck Manual Professional (Thalassemias, 2026)
+## 출처
+- Merck Manual Professional (Thalassemias, 2026)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

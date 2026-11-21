@@ -60,9 +60,10 @@ sources: ["ATS/CDC/IDSA 감수성 결핵 지침 | https://www.idsociety.org/prac
 - 적절한 항결핵 치료 시 예후는 양호함.
   치료 지연 시 흉막 비후(pleural thickening)나 흉곽 내 유착으로 인한 폐 기능 제한이 발생할 수 있음.
 
-출처 : StatPearls (Pleurisy)
+## 출처
+- StatPearls (Pleurisy)
+- 삼성서울병원 메뉴얼. BTS Pleural Disease Guideline 2023, ATS/STS/STR 악성 흉수 진료지침, 대한결핵 및 호흡기학회 결핵진료지침 5판을 대조. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. BTS Pleural Disease Guideline 2023, ATS/STS/STR 악성 흉수 진료지침, 대한결핵 및 호흡기학회 결핵진료지침 5판을 대조. 2026-09-14 기존 목차 내 보완.

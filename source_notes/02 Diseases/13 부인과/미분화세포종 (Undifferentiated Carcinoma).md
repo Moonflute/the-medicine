@@ -71,7 +71,9 @@ sources: ["ESMO | https://data.esmo.org/guidelines/pdf/publicassets/ESMO_2023_Gy
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 항암 감수성이 높아 초기뿐 아니라 진행 병기에서도 완치 가능; 병기·잔존 종양·치료 반응에 따른 추적 필요
 
-출처 : NCCN Guidelines, UpToDate
+## 출처
+- NCCN Guidelines, UpToDate
 - [NCI: Ovarian Germ Cell Tumors Treatment](https://www.cancer.gov/types/ovarian/hp/ovarian-germ-cell-treatment-pdq)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

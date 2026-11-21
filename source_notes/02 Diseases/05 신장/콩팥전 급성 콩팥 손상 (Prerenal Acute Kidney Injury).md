@@ -69,7 +69,9 @@ sources: ["NICE NG148 Acute kidney injury: prevention, detection and management 
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 및 원인 교정 시 가역적이나, 지속 시 급성 세뇨관 괴사(ATN)로 진행하여 신기능 저하가 고착될 수 있음.
 
-출처 : StatPearls - Acute Kidney Injury
+## 출처
+- StatPearls - Acute Kidney Injury
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

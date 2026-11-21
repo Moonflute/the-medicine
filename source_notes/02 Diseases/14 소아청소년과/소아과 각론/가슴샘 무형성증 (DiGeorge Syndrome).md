@@ -60,6 +60,8 @@ sources: ["2023 면역관리 합의문 | https://doi.org/10.1007/s10875-022-0141
 ## 6. 예후 및 합병증 (Prognosis)
 * 면역 결핍은 연령 증가에 따라 일부 호전될 수 있으나, 심장 질환, 정신 질환, 발달 장애 등 다학제적 장기 추적 관찰이 필수적임
 
-출처 : StatPearls (DiGeorge Syndrome)
+## 출처
+- StatPearls (DiGeorge Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

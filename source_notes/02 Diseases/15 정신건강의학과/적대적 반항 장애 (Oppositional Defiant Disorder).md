@@ -54,7 +54,8 @@ relation_to_parent: subtype
 - 예후: 조기 개입 시 예후가 개선되나, 치료하지 않을 경우 품행 장애, 반사회적 인격 장애, 물질 남용, 우울증 등으로 이행될 위험이 높음.
 - 합병증: 법적 문제, 대인관계 갈등, 학업 중단 및 사회적 기능 저하.
 
-출처: [SAMHSA DSM-5 ODD 기준](https://www.ncbi.nlm.nih.gov/books/NBK519712/table/ch3.t14/)
+## 출처
+- [SAMHSA DSM-5 ODD 기준](https://www.ncbi.nlm.nih.gov/books/NBK519712/table/ch3.t14/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

@@ -77,9 +77,10 @@ content_updated_at: "2026-11-17"
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 질환에 따라 다르며, 치료하지 않을 경우 우심부전으로 진행하여 예후가 불량함.
 
-출처 : Merck Manual Professional (Pulmonary Hypertension)
+## 출처
+- Merck Manual Professional (Pulmonary Hypertension)
+- 삼성서울병원 메뉴얼. 2022 ESC/ERS 폐고혈압 진료지침, 2020 대한결핵및호흡기학회·대한심장학회 폐고혈압 진료지침 요약; 폐고혈압의 우심도자 확진, 원인군 분류 및 전문센터 치료 경로를 대조. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. 2022 ESC/ERS 폐고혈압 진료지침, 2020 대한결핵및호흡기학회·대한심장학회 폐고혈압 진료지침 요약; 폐고혈압의 우심도자 확진, 원인군 분류 및 전문센터 치료 경로를 대조. 2026-09-14 기존 목차 내 보완.

@@ -62,6 +62,8 @@ sources: ["NICE 뇌전증 지속상태 초기 치료 | https://www.nice.org.uk/g
 - **합병증**: 뇌 손상, 호흡 부전, 부정맥, 흡인성 폐렴, 횡문근 융해증
 - **예후**: 조기 치료가 사망률 및 신경학적 후유증 감소에 결정적
 
-출처 : StatPearls (Status Epilepticus); [ILAE 뇌전증 지속증 정의(2015)](https://www.ilae.org/guidelines/definition-and-classification/status-epilepticus-definition)
+## 출처
+- StatPearls (Status Epilepticus); [ILAE 뇌전증 지속증 정의(2015)](https://www.ilae.org/guidelines/definition-and-classification/status-epilepticus-definition)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

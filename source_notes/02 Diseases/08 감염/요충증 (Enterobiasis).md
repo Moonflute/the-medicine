@@ -55,7 +55,9 @@ reviewed_at: "2026-07-30"
 - 예후는 매우 양호함.
 - 합병증: 2차 세균 감염, 여성의 경우 외음질염, 요로 감염, 드물게 충수염 발생 가능.
 
-출처 : StatPearls (Enterobius Vermicularis, 2026), [CDC 요충 진단](https://www.cdc.gov/pinworm/diagnosing/)
+## 출처
+- StatPearls (Enterobius Vermicularis, 2026), [CDC 요충 진단](https://www.cdc.gov/pinworm/diagnosing/)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

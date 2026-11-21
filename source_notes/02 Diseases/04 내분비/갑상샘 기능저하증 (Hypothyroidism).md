@@ -80,10 +80,11 @@ review_status: "guideline_enriched"
   - 의식 저하·저체온·호흡 억제
   - 중환자 감시·지지 치료, **IV glucocorticoid를 갑상샘 호르몬보다 먼저 투여**하고 IV T4 중심 보충. T3 추가는 상태·심혈관 위험에 따라 전문팀 판단
 
-출처 : Merck Manual Professional (Hypothyroidism)
+## 출처
+- Merck Manual Professional (Hypothyroidism)
+- 삼성서울병원 메뉴얼; [NICE NG145](https://www.nice.org.uk/guidance/ng145/chapter/Recommendations); [ATA 기능저하 치료 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/).
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼; [NICE NG145](https://www.nice.org.uk/guidance/ng145/chapter/Recommendations); [ATA 기능저하 치료 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC4267409/).

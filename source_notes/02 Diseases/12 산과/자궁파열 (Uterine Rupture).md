@@ -62,6 +62,8 @@ reviewed_at: "2026-07-30"
 - 모성 및 태아 사망률이 높음
 - 합병증: 대량 출혈, DIC, 방광 손상, 자궁 절제에 따른 불임
 
-출처 : StatPearls (Uterine Rupture)
+## 출처
+- StatPearls (Uterine Rupture)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

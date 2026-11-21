@@ -56,6 +56,8 @@ sources: ["ACOG 2023 CPG | https://www.gynendo.ch/wp-content/uploads/2026/01/202
 - 증상은 폐경이나 난소 절제술 전까지 재발 가능
 - 치료하지 않을 경우 대인관계 문제, 삶의 질 저하, 심한 경우 자살 위험 증가 가능성
 
-출처 : StatPearls (Premenstrual Syndrome)
+## 출처
+- StatPearls (Premenstrual Syndrome)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

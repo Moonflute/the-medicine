@@ -73,6 +73,8 @@ sources: ["EAU VUR | https://uroweb.org/guidelines/paediatric-urology/chapter/ve
 * **합병증:** 역류성 신병증(reflux nephropathy), 고혈압, 만성 신부전.
 * **예후:** 조기 진단과 적절한 관리를 통해 신장 손상을 예방하고 신기능을 보존하는 것이 목표.
 
-출처 : StatPearls (Vesicoureteral Reflux, 2024)
+## 출처
+- StatPearls (Vesicoureteral Reflux, 2024)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

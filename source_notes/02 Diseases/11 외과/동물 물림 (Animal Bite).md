@@ -47,6 +47,8 @@ reviewed_at: "2026-07-30"
 - **합병증**: 봉와직염, 림프관염, 골수염, 패혈증, 광견병 등.
 - **예후**: 조기 세척 및 적절한 항생제 치료 시 대부분 양호하나, 심부 감염 시 장기적인 치료 필요.
 
-출처 : StatPearls (Animal Bites)
+## 출처
+- StatPearls (Animal Bites)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

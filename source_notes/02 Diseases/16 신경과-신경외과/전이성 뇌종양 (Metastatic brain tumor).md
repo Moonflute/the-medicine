@@ -68,6 +68,8 @@ sources: ["ASCO-SNO-ASTRO 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8917
 - 원발암의 종류, 전이 병변의 개수, 환자의 전신 상태(KPS 점수 등)에 따라 예후가 크게 달라짐.
   뇌부종으로 인한 뇌압 상승 및 신경학적 기능 저하가 주요 합병증임
 
-출처 : StatPearls (Anatomy, Head and Neck: Blood Brain Barrier)
+## 출처
+- StatPearls (Anatomy, Head and Neck: Blood Brain Barrier)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

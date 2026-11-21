@@ -64,7 +64,9 @@ sources: ["AAN/AES 첫 발작 지침 | https://doi.org/10.1212/WNL.0000000000001
   약물 저항성 환자는 수술적 평가를 통해 발작 소실을 기대할 수 있음.
   인지 기능 저하, 정신과적 동반 질환, 외상 등이 합병증으로 발생 가능.
 
-출처 : StatPearls (Epilepsy EEG, Epilepsy Surgery)
-보완 출처: [ILAE 임상 정의](https://www.ilae.org/guidelines/guidelines-and-reports/a-practical-clinical-definition-of-epilepsy)
+## 출처
+- StatPearls (Epilepsy EEG, Epilepsy Surgery)
+- [ILAE 임상 정의](https://www.ilae.org/guidelines/guidelines-and-reports/a-practical-clinical-definition-of-epilepsy)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

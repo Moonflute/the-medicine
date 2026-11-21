@@ -60,6 +60,8 @@ sources: ["FDA 최신 제품 문서 | https://www.fda.gov/media/184855/download"
 - **경과**: 진행성 질환이며 호흡 부전·심근병증이 주요 사망 원인
 - **생존**: 과거 무치료 환자는 20대 전후 사망이 흔했으나, 심폐 관리·치료 발전으로 생존 연장; 모든 환자에게 같은 수명을 적용하지 않음
 
-출처 : StatPearls (Duchenne Muscular Dystrophy); [NINDS 근디스트로피](https://www.ninds.nih.gov/health-information/disorders/muscular-dystrophy)
+## 출처
+- StatPearls (Duchenne Muscular Dystrophy); [NINDS 근디스트로피](https://www.ninds.nih.gov/health-information/disorders/muscular-dystrophy)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

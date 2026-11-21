@@ -64,7 +64,9 @@ sources: ["WSES Bologna 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC600698
 - 합병증: 패혈증, 탈수, 장 허혈, 괴사, 천공, 복막염.
 - 조기 진단 및 적절한 감압이 예후 결정의 핵심.
 
-출처 : StatPearls (Large Bowel Obstruction, Small Bowel Obstruction)
+## 출처
+- StatPearls (Large Bowel Obstruction, Small Bowel Obstruction)
 - [WSES Bologna ASBO guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC6006983/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

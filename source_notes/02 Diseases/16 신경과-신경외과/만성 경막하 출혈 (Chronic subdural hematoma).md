@@ -54,6 +54,8 @@ sources: ["SNIS 2026 | https://doi.org/10.1136/jnis-2026-024979"]
 - 조기 진단 및 수술 시 예후는 비교적 양호함.
 - 합병증: 재출혈, 뇌부종, 발작, 감염, 뇌압 상승에 따른 뇌탈출(herniation).
 
-출처 : StatPearls (Subdural Hematoma)
+## 출처
+- StatPearls (Subdural Hematoma)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

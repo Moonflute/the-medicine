@@ -45,6 +45,8 @@ sources: ["AAO 다래끼 치료 | https://www.aao.org/eye-health/diseases/chalaz
 - 대부분 수일 내에 자연 치유되거나 치료에 잘 반응함.
   드물게 봉와직염으로 진행할 수 있음.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

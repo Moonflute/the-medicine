@@ -56,6 +56,8 @@ sources: ["NICE 요실금·골반장기탈출병 지침 NG123 | https://www.nice
 - 합병증: 만성적인 질 점막 궤양, 감염, 요로 폐쇄, 배변 장애
 - 예후: 수술적 교정 후 대부분 호전되나, 골반저근 약화가 지속될 경우 재발 가능성 있음
 
-출처 : StatPearls (Uterine Arteries, Abnormal Uterine Bleeding)
+## 출처
+- StatPearls (Uterine Arteries, Abnormal Uterine Bleeding)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

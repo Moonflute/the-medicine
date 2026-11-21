@@ -85,8 +85,10 @@ sources: ["ERS 유육종증 치료 지침 | https://doi.org/10.1183/13993003.040
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 예후가 좋으나, 폐 섬유화나 심장 침범(부정맥, 심부전) 시 예후 불량할 수 있음.
 
-출처 : Merck Manual Professional (Sarcoidosis)
+## 출처
+- Merck Manual Professional (Sarcoidosis)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-보완 출처: 삼성서울병원 메뉴얼

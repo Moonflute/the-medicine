@@ -63,4 +63,5 @@ Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
 
-보완 출처: 삼성서울병원 메뉴얼; [RCPA — Diabetes insipidus](https://www.rcpa.edu.au/Manuals/RCPA-Manual/Clinical-Presentations-and-Diagnoses/D/Diabetes-insipidus)
+## 출처
+- 삼성서울병원 메뉴얼; [RCPA — Diabetes insipidus](https://www.rcpa.edu.au/Manuals/RCPA-Manual/Clinical-Presentations-and-Diagnoses/D/Diabetes-insipidus)

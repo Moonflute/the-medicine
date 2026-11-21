@@ -56,6 +56,8 @@ sources: ["NCI PDQ 유방암 Tis(Paget) 정의 | https://www.cancer.gov/types/br
 ## 6. 예후 및 합병증 (Prognosis)
 - 기저 유방암 병기가 예후를 결정하며 조기 진단·적절한 기저암 치료가 중요
 
-출처 : StatPearls (Mammary Paget Disease)
+## 출처
+- StatPearls (Mammary Paget Disease)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

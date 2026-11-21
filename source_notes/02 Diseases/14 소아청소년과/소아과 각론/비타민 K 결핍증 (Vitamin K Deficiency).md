@@ -55,6 +55,8 @@ sources: ["AAP 2022 | https://doi.org/10.1542/peds.2021-056036"]
 * 조기 진단 및 치료 시 예후 양호
 * 지연형 VKDB의 경우 두개내 출혈로 인한 신경학적 후유증 및 사망 위험 존재
 
-출처 : StatPearls (Vitamin K Deficiency); [AAP 신생아 비타민 K](https://publications.aap.org/pediatrics/article/149/3/e2021056036/184716/Prevention-of-Vitamin-K-Deficiency-Bleeding-in); [Phytonadione 제제 설명](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051)
+## 출처
+- StatPearls (Vitamin K Deficiency); [AAP 신생아 비타민 K](https://publications.aap.org/pediatrics/article/149/3/e2021056036/184716/Prevention-of-Vitamin-K-Deficiency-Bleeding-in); [Phytonadione 제제 설명](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8808230-2c44-44c6-8cab-8f29b6b34051)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

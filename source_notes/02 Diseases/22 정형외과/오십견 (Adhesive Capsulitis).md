@@ -53,6 +53,8 @@ reviewed_at: "2026-07-30"
   - 당뇨 등 기저질환에서 장기 경과·불량 예후 가능
   - 드물게 구축 잔존
 
-출처 : StatPearls (Adhesive Capsulitis)
+## 출처
+- StatPearls (Adhesive Capsulitis)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

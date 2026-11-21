@@ -70,7 +70,8 @@ sources: ["CDC 임상 안내 | https://www.cdc.gov/measles/hcp/clinical-overview
 - **합병증**: 폐렴(사망의 주요 원인), 중이염, 설사, 뇌염(급성 파종성 뇌척수염 등), 아급성 경화성 전뇌염(SSPE)
 * **예방**: MMR 백신 접종이 가장 효과적인 예방법 (2회 접종 권장)
 
-출처: [CDC 홍역 진료 질문](https://www.cdc.gov/measles/hcp/clinical-overview/questions.html)
+## 출처
+- [CDC 홍역 진료 질문](https://www.cdc.gov/measles/hcp/clinical-overview/questions.html)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

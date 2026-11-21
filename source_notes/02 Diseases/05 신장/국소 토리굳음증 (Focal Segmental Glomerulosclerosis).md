@@ -72,4 +72,5 @@ Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
 
-보완 출처: 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.
+## 출처
+- 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.

@@ -54,6 +54,8 @@ reviewed_at: "2026-07-30"
 - 예후는 원인 질환과 손상 범위에 따라 다양함.
   조기 진단과 적극적인 재활 치료가 기능 회복 및 삶의 질 향상에 중요함.
 
-출처 : StatPearls (Locked-in Syndrome)
+## 출처
+- StatPearls (Locked-in Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

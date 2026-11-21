@@ -77,7 +77,9 @@ content_updated_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 파열은 치명적, 수술 후에는 심근경색, 이식편 감염, 장 허혈 등의 합병증이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Abdominal Aortic Aneurysms)
+## 출처
+- Merck Manual Professional (Abdominal Aortic Aneurysms)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

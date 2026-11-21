@@ -85,9 +85,10 @@ content_updated_at: "2026-11-17"
 - **예후**: 조직 class에 따라 다르며 VI는 불량, CKD/말기 신부전 진행 가능
 - **말기 신부전**: 투석·신이식. 이식신 LN 재발은 기존 교재에서 2–4%로 보고
 
-출처 : Merck Manual Professional (Lupus Nephritis); 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional (Lupus Nephritis); 삼성서울병원 메뉴얼
+- 삼성서울병원 메뉴얼. KDIGO 2024 Lupus Nephritis guideline를 대조. 2026-09-14 기존 목차 내 보완. [ACR 2024 LN guideline](https://doi.org/10.1002/acr.25528).
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. KDIGO 2024 Lupus Nephritis guideline를 대조. 2026-09-14 기존 목차 내 보완. [ACR 2024 LN guideline](https://doi.org/10.1002/acr.25528).

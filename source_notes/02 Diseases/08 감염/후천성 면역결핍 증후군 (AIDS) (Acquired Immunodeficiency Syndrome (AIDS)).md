@@ -66,7 +66,9 @@ sources: ["NIH PCP | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-gui
 - 적절한 ART 치료 시 만성 질환으로 관리 가능, 기대 수명이 크게 향상된다.
 - 합병증: 폐렴, 결핵, 구강 칸디다증, 톡소플라즈마증, 비호지킨 림프종 등 기회 감염 및 악성 종양.
 
-출처 : StatPearls (HIV and AIDS, HIV-1 Encephalopathy and Aids Dementia Complex); 삼성서울병원 메뉴얼
+## 출처
+- StatPearls (HIV and AIDS, HIV-1 Encephalopathy and Aids Dementia Complex); 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

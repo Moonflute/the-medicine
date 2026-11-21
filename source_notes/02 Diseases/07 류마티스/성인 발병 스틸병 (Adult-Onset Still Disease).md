@@ -80,4 +80,5 @@ sources: ["EULAR/PReS Still disease recommendations 2024 | https://pmc.ncbi.nlm.
 - **불량 예후**: 초기 다발관절염, 어깨·고관절 등 근위 관절 침범, >2년 전신 스테로이드 필요
 - **주요 이환·사망 원인**: ARDS·간부전·간질지속상태·DIC·TTP
 
-출처 : 삼성서울병원 메뉴얼
+## 출처
+- 삼성서울병원 메뉴얼

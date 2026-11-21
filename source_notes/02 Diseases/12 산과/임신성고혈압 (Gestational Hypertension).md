@@ -91,5 +91,3 @@ guideline_review_status: primary_source_reviewed
 - [[전자간증 (Preeclampsia)]]
 - [[중증 전자간증 (Severe Pre-eclampsia)]]
 - [[HELLP 증후군 (HELLP Syndrome)]]
-
-## 참고 가이드라인

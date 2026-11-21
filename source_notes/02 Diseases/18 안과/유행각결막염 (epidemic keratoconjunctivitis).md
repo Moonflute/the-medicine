@@ -54,7 +54,8 @@ sources: ["AAO 결막염 권고 | https://www.aao.org/education/summary-benchmar
 - **예후**: 대부분 자연 치유되나 증상이 심할 경우 수주간 지속될 수 있음
 - **합병증**: 각막 상피하 혼탁(subepithelial infiltrates), 만성적인 안구 건조증, 드물게 각막 흉터로 인한 시력 저하
 
+## 출처
+- StatPearls (Keratoconjunctivitis)
 
-출처 : StatPearls (Keratoconjunctivitis)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

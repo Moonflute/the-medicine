@@ -65,6 +65,8 @@ sources: ["WHO | https://tbksp.who.int/en/node/1768", "CDC 소아 결핵 | https
 * 조기 진단 및 치료 시 예후 좋음
 * 치료 지연 시 폐 손상, 결핵성 수막염, 파종성 결핵 등 심각한 합병증 발생 가능
 
-출처 : StatPearls (CNS Tuberculosis, Abdominal Tuberculosis)
+## 출처
+- StatPearls (CNS Tuberculosis, Abdominal Tuberculosis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

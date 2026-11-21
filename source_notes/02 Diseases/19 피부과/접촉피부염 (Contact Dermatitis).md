@@ -75,8 +75,9 @@ reviewed_at: "2026-07-30"
 * 원인 물질 차단 시 대부분 호전되나, 지속 노출 시 만성화 및 삶의 질 저하 가능.
 * 재발이 흔하므로 지속적인 교육과 보호 장구 착용이 중요.
 
-출처 : StatPearls (Contact Dermatitis, 2023)
-보완 근거: [ESCD 첩포시험 지침 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13441402/)
+## 출처
+- StatPearls (Contact Dermatitis, 2023)
+- [ESCD 첩포시험 지침 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13441402/)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

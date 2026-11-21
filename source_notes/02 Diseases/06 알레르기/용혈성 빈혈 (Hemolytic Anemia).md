@@ -88,5 +88,6 @@ Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-출처: Merck Manual Professional (2026); 삼성서울병원 메뉴얼
-보완 근거: [ASH Cold agglutinin disease](https://pmc.ncbi.nlm.nih.gov/articles/PMC6142439/), [ASH PNH 진단·관리](https://pmc.ncbi.nlm.nih.gov/articles/PMC6142517/).
+## 출처
+- Merck Manual Professional (2026); 삼성서울병원 메뉴얼
+- [ASH Cold agglutinin disease](https://pmc.ncbi.nlm.nih.gov/articles/PMC6142439/), [ASH PNH 진단·관리](https://pmc.ncbi.nlm.nih.gov/articles/PMC6142517/).

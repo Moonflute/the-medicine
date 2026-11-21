@@ -61,7 +61,9 @@ sources: ["FIGO 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13505264/", "GTD
 ## 6. 예후 및 합병증 (Prognosis)
 - 임신 융모 종양 (GTN)으로 진행할 수 있는 전암성 병변이므로 지속적인 추적 관찰이 필수적임
 
-출처 : StatPearls (Hydatidiform Mole)
+## 출처
+- StatPearls (Hydatidiform Mole)
 - [NCI: Gestational Trophoblastic Disease Treatment](https://www.cancer.gov/types/gestational-trophoblastic/hp/gtd-treatment-pdq)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

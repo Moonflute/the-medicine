@@ -66,6 +66,6 @@ population: general
 - 저체온은 부정맥, aspiration, rhabdomyolysis, AKI, 폐부종과 신경학적 손상을 유발한다. 질식이 선행하지 않은 저체온 심정지는 장시간 소생 후에도 양호한 회복이 가능하다.
 - 동상은 조직괴사·절단, 만성 통증, 감각이상, 한랭과민과 관절기능장애를 남길 수 있다. 장기 상처관리, 재활과 금연·재노출 예방이 필요하다.
 
-출처 :
+## 출처
 - Tintinalli's Emergency Medicine Manual, 8e, Ch. 118.
 - Wilderness Medical Society Frostbite Guideline 2024 및 Accidental Hypothermia Guideline.

@@ -55,7 +55,9 @@ sources: ["CIRSE SVC stenting 지침 | https://eu-csite-storage-prod.s3.amazonaw
 - **예후**: 원인 질환에 따라 결정
 - **치명적 합병증**: 뇌부종, 후두부종에 따른 기도 폐쇄
 
-출처 : StatPearls (Superior Vena Cava Syndrome, 2026); 삼성서울병원 메뉴얼
+## 출처
+- StatPearls (Superior Vena Cava Syndrome, 2026); 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

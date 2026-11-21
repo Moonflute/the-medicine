@@ -57,6 +57,8 @@ sources: ["NICE 여성 요실금 지침 | https://www.nice.org.uk/guidance/ng123
 ## 6. 예후 및 합병증 (Prognosis)
 - 피부염, 낙상 위험 증가, 삶의 질 저하, 우울감 및 사회적 고립.
 
-출처 : StatPearls (Urinary Incontinence, Mixed Urinary Incontinence)
+## 출처
+- StatPearls (Urinary Incontinence, Mixed Urinary Incontinence)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

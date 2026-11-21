@@ -56,6 +56,8 @@ sources: ["NHS B12·엽산 치료 | https://www.nhs.uk/conditions/vitamin-b12-or
 * 조기 치료 시 신경 및 심혈관계 증상 회복 가능
 * 코르사코프 증후군 등 만성 신경계 손상은 영구적일 수 있음
 
-출처 : StatPearls (Vitamin B1 Deficiency)
+## 출처
+- StatPearls (Vitamin B1 Deficiency)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

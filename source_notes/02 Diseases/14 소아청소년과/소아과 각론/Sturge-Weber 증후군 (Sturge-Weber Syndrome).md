@@ -54,7 +54,7 @@ sources: ["다기관 합의 2025 | https://doi.org/10.1186/s13023-024-03527-w"]
 * 경련 조절 및 조기 진단이 예후에 중요
 * 합병증: 녹내장, 시력 상실, 진행성 신경학적 퇴행, 내분비 장애(성장호르몬 결핍 등)
 
-출처:
+## 출처
 - [Consensus statement: Sturge–Weber syndrome management](https://pmc.ncbi.nlm.nih.gov/articles/PMC9107097/)
 - [Report: Sturge–Weber syndrome without facial nevus](https://pubmed.ncbi.nlm.nih.gov/23661980/)
 

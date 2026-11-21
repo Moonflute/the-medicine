@@ -47,7 +47,9 @@ reviewed_at: "2026-07-30"
   - 자궁이식 후 출산 사례가 있으나 제한된 전문기관에서 이득·위험을 별도 평가
 - 동반된 신장, 골격계 기형에 대한 장기적 추적 관찰 필요.
 
-출처 : StatPearls: Embryology, Mullerian Ducts (Paramesonephric Ducts)
+## 출처
+- StatPearls: Embryology, Mullerian Ducts (Paramesonephric Ducts)
 - [ACOG: Müllerian Agenesis](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2018/01/mullerian-agenesis-diagnosis-management-and-treatment)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

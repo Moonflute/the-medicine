@@ -81,8 +81,10 @@ sources: ["ATA 2025 | https://doi.org/10.1177/10507256251363120", "ASCO 2026 | h
 - 유두암에 비해 원격 전이 빈도가 높아 예후가 다소 불량할 수 있으나, 조기 발견 시 생존율은 높다.
 - 주요 합병증으로 수술 후 부갑상샘 기능 저하증, 되돌이후두신경 손상에 의한 목소리 변화 등이 있다.
 
-출처 : StatPearls (Follicular Thyroid Cancer); [ATA 분화암 지침 2025](https://doi.org/10.1177/10507256251363120).
-- 보완 출처: 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls (Follicular Thyroid Cancer); [ATA 분화암 지침 2025](https://doi.org/10.1177/10507256251363120).
+- 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

@@ -67,8 +67,10 @@ sources: ["ESO 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8370086/", "CRE
 - 적절한 내과적 치료 시 연간 뇌졸중 위험을 약 1% 수준으로 감소 가능.
   주요 합병증은 재발성 뇌졸중 및 혈관 시술 관련 합병증(뇌졸중, 심근경색, 신경 손상).
 
-출처 : StatPearls (Asymptomatic/Symptomatic Carotid Artery Stenosis)
-보완 출처: 삼성서울병원 외과 메뉴얼
-보완 출처: [ESO 경동맥 재관류 지침](https://journals.sagepub.com/doi/10.1177/23969873211012121)
+## 출처
+- StatPearls (Asymptomatic/Symptomatic Carotid Artery Stenosis)
+- 삼성서울병원 외과 메뉴얼
+- [ESO 경동맥 재관류 지침](https://journals.sagepub.com/doi/10.1177/23969873211012121)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

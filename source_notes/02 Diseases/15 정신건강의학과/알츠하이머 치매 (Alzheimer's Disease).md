@@ -57,7 +57,8 @@ relation_to_parent: subtype
 - 예후: 완치는 불가능하나 증상 관리 및 진행 완화 가능. 점진적 악화 경향.
 - 합병증: 폐렴, 욕창, 영양실조 등 신체적 합병증으로 인한 사망 위험 증가.
 
-출처: [FDA LEQEMBI 2026 허가사항](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761375s001lbl.pdf)
+## 출처
+- [FDA LEQEMBI 2026 허가사항](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761375s001lbl.pdf)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

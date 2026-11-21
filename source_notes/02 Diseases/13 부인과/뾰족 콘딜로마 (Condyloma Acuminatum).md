@@ -58,7 +58,9 @@ sources: ["CDC 사마귀 | https://www.cdc.gov/std/treatment-guidelines/anogenit
 - 면역 저하 환자에서는 치료 반응이 낮고 재발이 잦음.
 - HPV 16, 18형 등 고위험군 동반 시 자궁경부암 등 악성 종양으로의 이행 가능성 주의.
 
-출처 : Merck Manual Professional (Human Papillomavirus Infection)
+## 출처
+- Merck Manual Professional (Human Papillomavirus Infection)
 - [CDC: HPV Infection](https://www.cdc.gov/std/treatment-guidelines/hpv.htm)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

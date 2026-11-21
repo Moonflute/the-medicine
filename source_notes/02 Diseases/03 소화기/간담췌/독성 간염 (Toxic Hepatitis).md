@@ -80,9 +80,10 @@ sources: ["AASLD 약물성 간손상 지침 | https://pmc.ncbi.nlm.nih.gov/artic
 
 - **합병증**: 전격성 간부전, 만성 간염으로의 이행(드물게), 간경변증(드물게) 등이 발생할 수 있다.
 
-출처 : StatPearls (Alcoholic-Associated Hepatitis, Autoimmune Hepatitis)
+## 출처
+- StatPearls (Alcoholic-Associated Hepatitis, Autoimmune Hepatitis)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

@@ -48,6 +48,8 @@ reviewed_at: "2026-07-30"
 - **예후**: 적절한 관리 시 매우 양호하며 자가 제한적
 - **합병증**: S. aureus 등 세균·진균의 이차 감염
 
-출처 : StatPearls (Diaper Dermatitis)
+## 출처
+- StatPearls (Diaper Dermatitis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

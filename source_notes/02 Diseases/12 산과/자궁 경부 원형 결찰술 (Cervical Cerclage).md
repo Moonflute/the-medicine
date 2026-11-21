@@ -68,8 +68,10 @@ content_updated_at: "2026-11-17"
 - **합병증**: 감염, 양막 파열, 수술 부위 열상, 마취 관련 합병증
 - **예후**: 조산 예방 효과가 있으나, 응급 결찰술의 경우 예방적 결찰술보다 예후가 불량할 수 있음
 
-출처 : StatPearls (Cervical Cerclage)
+## 출처
+- StatPearls (Cervical Cerclage)
 - [NICE NG25: Preterm labour and birth](https://www.nice.org.uk/guidance/ng25/chapter/recommendations)
 - [SMFM Consult #70: Short cervix](https://publications.smfm.org/publications/560-society-for-maternal-fetal-medicine-consult-series-70/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

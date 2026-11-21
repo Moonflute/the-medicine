@@ -60,6 +60,8 @@ sources: ["브라질 이과학회 권고, 2023 | https://pmc.ncbi.nlm.nih.gov/ar
 - 대부분 양성 경과를 보이나, 수술 후 안면 신경 마비, 청력 소실, 뇌척수액 누출 등의 합병증 가능성이 있음.
 - 완전 절제 시 재발률은 매우 낮음.
 
-출처 : StatPearls (Vestibular Schwannoma)
+## 출처
+- StatPearls (Vestibular Schwannoma)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

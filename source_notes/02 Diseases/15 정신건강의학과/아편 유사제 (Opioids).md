@@ -54,7 +54,8 @@ relation_to_parent: subtype
 - 예후: 조기 개입 및 장기적인 추적 관찰이 중요하며, 동반 질환이 있을 경우 예후가 불량할 수 있음.
 - 합병증: 호흡 억제(과다복용 시 치명적), 변비, 신체적 장기 손상, 사회적 기능 상실, 자살 및 사고 위험 증가.
 
-출처: [SAMHSA TIP 63: Buprenorphine](https://www.ncbi.nlm.nih.gov/books/NBK574909/)
+## 출처
+- [SAMHSA TIP 63: Buprenorphine](https://www.ncbi.nlm.nih.gov/books/NBK574909/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

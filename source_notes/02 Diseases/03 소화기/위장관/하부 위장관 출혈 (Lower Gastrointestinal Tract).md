@@ -61,9 +61,10 @@ sources: ["ESGE 하부 위장관 출혈 2021 | https://www.esge.com/diagnosis-an
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 보존적 치료 및 내시경적 지혈로 호전되나, 고령이나 기저질환이 있는 경우 재출혈 위험이 높음.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼; [ASGE 위장관 출혈 지혈 원칙](https://www.asge.org/home/resources/key-resources/blog/view/trainee-advisor/2026/08/19/gi-emergencies-for-the-trainee--a-practical-approach-to-upper-and-lower-gastrointestinal-bleeding).
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼; [ASGE 위장관 출혈 지혈 원칙](https://www.asge.org/home/resources/key-resources/blog/view/trainee-advisor/2026/08/19/gi-emergencies-for-the-trainee--a-practical-approach-to-upper-and-lower-gastrointestinal-bleeding).

@@ -63,7 +63,9 @@ content_updated_at: "2026-11-17"
 - 신장 용적(Total Kidney Volume)이 진행 예측의 가장 중요한 지표.
 - 주요 사망 원인: 심혈관 질환, 뇌동맥류 파열, 감염.
 
-출처 : Merck Manual Professional (ADPKD); KDIGO 2025; [ACR Appropriateness Criteria — ADPKD](https://pubmed.ncbi.nlm.nih.gov/41823938/)
+## 출처
+- Merck Manual Professional (ADPKD); KDIGO 2025; [ACR Appropriateness Criteria — ADPKD](https://pubmed.ncbi.nlm.nih.gov/41823938/)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

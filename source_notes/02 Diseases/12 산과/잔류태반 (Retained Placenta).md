@@ -58,6 +58,8 @@ sources: ["WHO 2025 잔류태반 권고 | https://www.ncbi.nlm.nih.gov/books/NBK
 - 산후 출혈(Postpartum hemorrhage) 및 감염 위험 증가
 - 적절한 처치 시 예후 양호
 
-출처 : StatPearls (Embryology, Placenta; Physiology, Placenta)
+## 출처
+- StatPearls (Embryology, Placenta; Physiology, Placenta)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

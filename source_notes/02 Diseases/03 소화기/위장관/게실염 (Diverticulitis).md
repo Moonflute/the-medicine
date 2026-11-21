@@ -64,9 +64,10 @@ sources: ["AGA 게실염 관리 | https://gastro.org/clinical-guidance/medical-m
 - **예후**: 대부분 내과적 치료로 호전되나 재발 가능
 - **합병증**: 누공(fistula), 장폐색, 농양
 
-출처 : Merck Manual Professional (Colonic Diverticulitis)
+## 출처
+- Merck Manual Professional (Colonic Diverticulitis)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

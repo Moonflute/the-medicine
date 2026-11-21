@@ -139,11 +139,12 @@ content_updated_at: "2026-11-17"
 - 섬유성 HP는 진행 시 IPF와 유사한 예후를 보일 수 있음.
 - RBILD는 금연 시 예후가 양호함.
 
-출처 : Merck Manual Professional (Overview of Interstitial Lung Disease, RBILD)
+## 출처
+- Merck Manual Professional (Overview of Interstitial Lung Disease, RBILD)
+- 삼성서울병원 메뉴얼. ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022, ERS/EULAR CTD-ILD 지침 2025, ERS ILD 공식 지침 목록을 대조. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022, ERS/EULAR CTD-ILD 지침 2025, ERS ILD 공식 지침 목록을 대조. 2026-09-14 기존 목차 내 보완.

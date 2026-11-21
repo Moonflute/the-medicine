@@ -45,6 +45,8 @@ content_updated_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 골반 농양, 패혈성 골반 혈전정맥염, 패혈증.
 
-출처 : Merck Manual Professional Edition
+## 출처
+- Merck Manual Professional Edition
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -61,5 +61,3 @@ sources: ["VA/DoD: First-Episode Psychosis and Schizophrenia (2023) | https://ww
 - [[조현병 (Schizophrenia)]]
 - [[조현양상장애 (Schizophreniform disorder)]]
 - [[조현정동장애 (Schizoaffective disorder)]]
-
-## 참고 자료

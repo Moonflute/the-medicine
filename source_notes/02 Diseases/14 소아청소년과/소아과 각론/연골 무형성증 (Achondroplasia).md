@@ -57,7 +57,8 @@ sources: ["FDA 2026 | https://www.fda.gov/drugs/news-events-human-drugs/fda-appr
 * 지능은 정상이나 일반인보다 기대 수명이 다소 짧을 수 있음
 * 영유아기 대공 협착에 의한 뇌간 압박 주의, 성인기 척추관 협착증 및 대사 질환 관리 필요
 
-출처: [NIH Achondroplasia](https://medlineplus.gov/genetics/condition/achondroplasia/)
+## 출처
+- [NIH Achondroplasia](https://medlineplus.gov/genetics/condition/achondroplasia/)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

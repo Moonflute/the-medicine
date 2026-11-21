@@ -61,7 +61,9 @@ sources: ["Endocrine Society 2025 | https://www.endocrine.org/clinical-practice-
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 혈압 조절 및 전해질 불균형 교정이 가능하나, 장기적인 고혈압 관리가 중요하다.
 
-출처 : Merck Manual Professional; [Endocrine Society PA 지침 2025](https://doi.org/10.1210/clinem/dgaf284).
+## 출처
+- Merck Manual Professional; [Endocrine Society PA 지침 2025](https://doi.org/10.1210/clinem/dgaf284).
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

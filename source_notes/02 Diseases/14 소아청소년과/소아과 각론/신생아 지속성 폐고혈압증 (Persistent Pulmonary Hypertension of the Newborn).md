@@ -59,6 +59,8 @@ sources: ["CPS | https://cps.ca/en/documents/position/inhaled-nitric-oxide"]
 * 조기 진단 및 적절한 중재가 예후 결정의 핵심
 * 합병증: 뇌 손상, 신장 손상, 폐 고혈압 지속, 사망 가능성
 
-출처 : StatPearls (Persistent Pulmonary Hypertension of the Newborn); [CPS 신생아 iNO](https://cps.ca/en/documents/position/inhaled-nitric-oxide)
+## 출처
+- StatPearls (Persistent Pulmonary Hypertension of the Newborn); [CPS 신생아 iNO](https://cps.ca/en/documents/position/inhaled-nitric-oxide)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

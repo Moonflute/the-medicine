@@ -68,7 +68,9 @@ sources: ["CDC Q fever 치료 | https://www.cdc.gov/q-fever/hcp/clinical-guidanc
 - 급성 큐열의 치명률은 낮으나, 만성 심내막염으로 진행 시 적절한 항생제 치료 없이는 치명적일 수 있다.
   치료 후에도 일부 환자에서 피로 증후군이 지속될 수 있다.
 
-출처 : Merck Manual Professional (Q Fever)
+## 출처
+- Merck Manual Professional (Q Fever)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -71,11 +71,12 @@ content_updated_at: "2026-11-17"
 - **예후**: 원인 질환의 교정 가능 여부에 따라 결정.
 - **합병증**: 뇌부종, 두개내압 상승, 삼투성 탈수초 증후군(치료 시 급격한 나트륨 교정으로 발생).
 
-출처 : Merck Manual Professional (SIADH)
+## 출처
+- Merck Manual Professional (SIADH)
+- 삼성서울병원 메뉴얼; [European hyponatraemia guideline](https://doi.org/10.1530/EJE-13-1020)
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-03 : 본문 갱신 (processed)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼; [European hyponatraemia guideline](https://doi.org/10.1530/EJE-13-1020)

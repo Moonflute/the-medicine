@@ -10,9 +10,60 @@ import * as lucide from 'lucide-react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import {createPortal} from 'react-dom';
 import * as api from './sync-generated-data.mjs';
+import { separateDiseaseReferences, isDiseaseReferenceSection } from './disease-references.mjs';
 const plain=x=>JSON.parse(JSON.stringify(x));
 const diseases=api.buildDiseases();
 const hierarchy=api.buildDiseaseHierarchy(diseases);
+test('references are separated only at explicit section headings and retain text-only citations',()=>{
+ const clinical={title:'예후 및 합병증',content:['- 참고: 요산석은 단순 촬영에서 보이지 않을 수 있음','- 재발 추적']};
+ const result=separateDiseaseReferences([clinical,{title:'출처',content:[
+  '출처: StatPearls (Von Willebrand Disease, 2026)',
+  '- [진단 지침](https://doi.org/10.1182/bloodadvances.2020003265)',
+  'Last updated :','2026-11-21 — 편집 기록',
+ ]}],[{label:'같은 진단 지침',url:'https://doi.org/10.1182/bloodadvances.2020003265/'},{label:'책으로 된 자료',url:''}]);
+ assert.deepEqual(result.sections,[clinical]);
+ assert.deepEqual(result.references,[
+  '- StatPearls (Von Willebrand Disease, 2026)',
+  '- [진단 지침](https://doi.org/10.1182/bloodadvances.2020003265)',
+  '- 책으로 된 자료',
+ ]);
+ assert.ok(!isDiseaseReferenceSection('참고할 임상 소견'));
+});
+test('source deduplication preserves citation context and distinct anchors',()=>{
+ const result=separateDiseaseReferences([{title:'참고 자료',content:[
+  '- 삼성서울병원 메뉴얼','보완 출처: 삼성서울병원 메뉴얼.',
+  '- [APL 권고](https://pmc.ncbi.nlm.nih.gov/articles/PMC6509567/)',
+  '- [APL 같은 원문](https://pmc.ncbi.nlm.nih.gov/articles/6509567/)',
+  '- [APL 권고](https://pmc.ncbi.nlm.nih.gov/articles/PMC6509567/)의 수술 전 평가 범위, 10쪽.',
+  '- [표 1](https://example.org/guideline#table-1)',
+  '- [표 2](https://example.org/guideline#table-2)',
+ ]}],[{label:'APL 메타데이터',url:'https://pmc.ncbi.nlm.nih.gov/articles/PMC6509567/'}]);
+ assert.equal(result.references.length,5);
+ assert.ok(result.references.some(line=>line.includes('수술 전 평가 범위, 10쪽')));
+ const linked=separateDiseaseReferences([{title:'출처',content:['- 기존 문헌명.']}],[{label:'기존 문헌명',url:'https://example.org/reference'}]);
+ assert.deepEqual(linked.references,['- [기존 문헌명.](https://example.org/reference)']);
+});
+test('disease source sections are absent from clinical content and vWD citations are complete',()=>{
+ for(const disease of diseases){
+  assert.ok(disease.sections.every(section=>!isDiseaseReferenceSection(section.title)),disease.title);
+  for(const section of disease.sections) for(const line of section.content) {
+   assert.ok(!/^(?:[-*]\s*)?(?:(?:보완|추가|통합|OCR)\s*)?출처(?:\s*보완)?\s*[:：]/.test(line.trim()),disease.title+': '+line);
+  }
+ }
+ const vwd=diseases.find(d=>d.title==='폰 빌레브란트병 (von Willebrand Disease, vWD)');
+ assert.equal(vwd.references.length,4);
+ assert.ok(vwd.references.some(line=>line.includes('StatPearls')));
+ for(const url of ['https://doi.org/10.1182/bloodadvances.2020003265','https://doi.org/10.1182/bloodadvances.2025016485','https://pmc.ncbi.nlm.nih.gov/articles/PMC7805326/'])assert.ok(vwd.references.some(line=>line.includes(url)),url);
+ assert.equal(vwd.sections.find(s=>s.title.includes('예후')).content.filter(line=>line.startsWith('- ')).length,3);
+ const urinary=diseases.find(d=>d.title==='요로감염');
+ assert.deepEqual(urinary.sections.find(s=>s.title==='포함 질환').content,[
+  '- [[급성 방광염 (Acute Cystitis)]]','- [[급성 신우신염 (Acute Pyelonephritis)]]',
+  '- [[기종성 신우신염 (Emphysematous Pyelonephritis)]]','- [[무증상 세균뇨 (Asymptomatic Bacteriuria)]]','- [[콩팥 농양 (Renal Abscess)]]',
+ ]);
+ assert.ok(urinary.references.some(line=>line.includes('삼성서울병원')));
+ const stone=diseases.find(d=>d.title==='요석 (Urinary tract stone)');
+ assert.ok(stone.sections.some(s=>s.content.some(line=>line.includes('요산석(uric acid stone)은 방사선 투과성'))));
+});
 test('block and flow metadata lists preserve levels and quoted commas',()=>{
  for(const raw of ['[간 질환, 간암]','["간 질환", "간암"]','\n- 간 질환\n- 간암'])assert.deepEqual(plain(api.readList(raw)),['간 질환','간암']);
  assert.deepEqual(plain(api.readList("['a, b', c]")),['a, b','c']);assert.deepEqual(plain(api.readList('[]')),[]);
@@ -42,6 +93,25 @@ test('all 22 specialty outlines have valid disease links, no duplicate bullets p
  assert.equal(count,22);
 });
 const compile=(file,deps)=>{const compiledModule={exports:{}};vm.runInNewContext(ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText,{exports:compiledModule.exports,module:compiledModule,require:n=>deps[n],process,Buffer});return compiledModule.exports;};
+test('reference footer renders named links and text citations without raw Markdown URLs',()=>{
+ const card=compile('src/components/disease-card.tsx',{'react':React,'react/jsx-runtime':jsxRuntime});
+ const html=renderToStaticMarkup(React.createElement(card.DiseaseReferences,{lines:[
+  '- StatPearls (*Von Willebrand Disease*, 2026)',
+  '- [**진단 지침**](https://doi.org/10.1182/bloodadvances.2020003265)',
+  '- [괄호가 있는 문헌](https://example.org/article(2026)) — 10쪽 참고',
+  ...separateDiseaseReferences([],[{label:'[Guideline title].',url:'https://example.org/brackets'}]).references,
+ ]}));
+ assert.match(html,/<details[^>]*aria-label="출처"/);
+ assert.match(html,/<summary[^>]*>출처<\/summary>/);
+ assert.match(html,/<em>Von Willebrand Disease<\/em>/);
+ assert.match(html,/<a[^>]*href="https:\/\/doi.org\/10.1182\/bloodadvances.2020003265"[^>]*><strong>진단 지침<\/strong><\/a>/);
+ assert.ok(html.includes('href="https://example.org/article(2026)"'));
+ assert.ok(html.includes('10쪽 참고'));
+ assert.match(html,/<a[^>]*href="https:\/\/example.org\/brackets"[^>]*>\[Guideline title\]\.<\/a>/);
+ assert.ok(!html.includes('](https://'));
+ assert.ok(!html.includes('**'));
+ assert.equal(renderToStaticMarkup(React.createElement(card.DiseaseReferences,{lines:[]})),'');
+});
 test('section normalization preserves emphasis, separators, and negative values',()=>{
  const body='## 치료\n**간이식 선택**:\n- **대상**: 기준 충족\n* **추적:** 설명\n**본문 전체 강조**\n-2.5\n---';
  assert.deepEqual(plain(api.splitSections(body)[0].content),[

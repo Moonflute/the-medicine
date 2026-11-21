@@ -153,8 +153,10 @@ sources: ["EULAR 2023 | https://doi.org/10.1136/ard-2023-224762", "2019 EULAR/AC
 - 경과: 만성 재발성.
 - 합병증: 루푸스 신염(Class IV 예후 불량), 감염, 심혈관 질환, 혈전증, 반복적 유산.
 
-출처 : Merck Manual Professional; 삼성서울병원 메뉴얼
-보완 근거: [EULAR/ACR SLE 분류 2019](https://doi.org/10.1002/art.40930), [EULAR SLE 치료 2023](https://doi.org/10.1136/ard-2023-224762), [APS 분류 2006](https://doi.org/10.1111/j.1538-7836.2006.01753.x), [AAO HCQ 망막 선별검사 2025 개정](https://www.aaojournal.org/article/S0161-6420%2825%2900709-2/fulltext).
+## 출처
+- Merck Manual Professional; 삼성서울병원 메뉴얼
+- [EULAR/ACR SLE 분류 2019](https://doi.org/10.1002/art.40930), [EULAR SLE 치료 2023](https://doi.org/10.1136/ard-2023-224762), [APS 분류 2006](https://doi.org/10.1111/j.1538-7836.2006.01753.x), [AAO HCQ 망막 선별검사 2025 개정](https://www.aaojournal.org/article/S0161-6420%2825%2900709-2/fulltext).
+
 Last updated :
 2024-07-29 — 초안 분리 정리
 2026-05-11 : 본문 갱신 (processed)

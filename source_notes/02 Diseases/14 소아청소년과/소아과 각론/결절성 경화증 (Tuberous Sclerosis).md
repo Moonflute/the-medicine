@@ -57,6 +57,8 @@ sources: ["국제 합의 2021 | https://www.tscalliance.org/wp-content/uploads/2
 * 뇌전증, 지능 저하, 신장 기능 부전, 폐 합병증 등이 주요 관리 대상
 * 정기적인 추적 관찰 및 가족 상담 필수
 
-출처 : StatPearls (Tuberous Sclerosis Complex)
+## 출처
+- StatPearls (Tuberous Sclerosis Complex)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

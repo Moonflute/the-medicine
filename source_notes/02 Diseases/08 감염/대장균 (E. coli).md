@@ -64,7 +64,9 @@ sources: ["IDSA 2026 | https://www.idsociety.org/practice-guideline/amr-guidance
 - 요로 감염은 재발이 흔함.
   장출혈성 대장균 감염 시 소아나 고령자에서 용혈성 요독 증후군(HUS)과 같은 치명적인 합병증이 발생할 수 있으므로 주의 깊은 관찰이 필요하다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -52,6 +52,8 @@ reviewed_at: "2026-07-30"
 - 산모: 출혈, 감염(자궁내막염, 상처 감염), 혈전색전증, 인접 장기 손상
 - 태아: 일시적 호흡 곤란, 수술 중 외상
 
-출처 : StatPearls (Anesthesia for Labor, Delivery, and Cesarean Section)
+## 출처
+- StatPearls (Anesthesia for Labor, Delivery, and Cesarean Section)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -62,7 +62,8 @@ sources: ["WSES 간 외상 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC710
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 담즙 누출, 간 농양, 가성 동맥류, 복강 내 출혈.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
 
 Last updated :
 2026-07-15 — 중복 본문 정리

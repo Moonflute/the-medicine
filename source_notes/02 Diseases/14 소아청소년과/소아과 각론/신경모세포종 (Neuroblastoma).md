@@ -74,7 +74,8 @@ sources: ["NCI PDQ | https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma
 * 연령(18개월 기준), MYCN 증폭 여부, 전이 유무가 예후를 결정함.
   고위험군은 여전히 예후가 불량하여 집중적인 다학제적 치료가 필요함.
 
-출처: [NCI 신경모세포종 PDQ](https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma-treatment-pdq)
+## 출처
+- [NCI 신경모세포종 PDQ](https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma-treatment-pdq)
 
 Last updated :
 2026-05-20 — 본문 갱신 (codex fill)

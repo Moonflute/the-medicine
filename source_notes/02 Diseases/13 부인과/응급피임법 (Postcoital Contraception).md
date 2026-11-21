@@ -58,6 +58,8 @@ sources: ["CDC 응급피임 2024 | https://www.cdc.gov/contraception/hcp/usspr/e
 - 부작용은 경미, 두통, 오심, 구토, 부정출혈 등이 나타날 수 있음.
 - 생리 주기가 7일 이상 지연될 경우 임신 여부 확인 필요.
 
-출처 : StatPearls (Postcoital Contraception)
+## 출처
+- StatPearls (Postcoital Contraception)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

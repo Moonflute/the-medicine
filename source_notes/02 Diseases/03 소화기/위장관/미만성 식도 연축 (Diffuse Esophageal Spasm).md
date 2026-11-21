@@ -56,9 +56,10 @@ sources: ["ESGE 운동질환 중재 지침 | https://www.esge.com/assets/downloa
 * **악화 인자**: 뜨겁거나 차가운 음료 섭취 시 통증 악화.
 - **합병증**: 식도 천공 (확장술 시 주의), 영양 불량, 삶의 질 저하.
 
-출처 : StatPearls (Diffuse Esophageal Spasm)
+## 출처
+- StatPearls (Diffuse Esophageal Spasm)
+- 삼성서울병원 메뉴얼; [Chicago Classification v4.0](https://pmc.ncbi.nlm.nih.gov/articles/PMC8034247/).
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-출처: 삼성서울병원 메뉴얼; [Chicago Classification v4.0](https://pmc.ncbi.nlm.nih.gov/articles/PMC8034247/).

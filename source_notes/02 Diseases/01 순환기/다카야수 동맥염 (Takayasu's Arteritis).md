@@ -90,10 +90,11 @@ sources: ["2021 ACR/Vasculitis Foundation 거대세포동맥염·다카야수동
 ## 6. 예후 및 합병증 (Prognosis)
 - 고혈압, 뇌졸중, 심근경색, 심부전, 시력 상실 등이 발생할 수 있으며, 재발률이 높아 장기적인 추적 관찰이 필수적이다.
 
-출처 : StatPearls (Takayasu Arteritis)
+## 출처
+- StatPearls (Takayasu Arteritis)
+- 삼성서울병원 메뉴얼. 2021 ACR/Vasculitis Foundation 거대세포동맥염·다카야수동맥염 진료지침, 2018 EULAR 대혈관염 관리 권고; 다카야수 동맥염의 영상 기반 평가, 초기 병용 면역억제 및 재관류 시점 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. 2021 ACR/Vasculitis Foundation 거대세포동맥염·다카야수동맥염 진료지침, 2018 EULAR 대혈관염 관리 권고; 다카야수 동맥염의 영상 기반 평가, 초기 병용 면역억제 및 재관류 시점 원칙을 대조. 2026-09-14 기존 목차 내 보완.
-- 삼성서울병원 메뉴얼

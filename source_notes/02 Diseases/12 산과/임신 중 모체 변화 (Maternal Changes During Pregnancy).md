@@ -53,6 +53,8 @@ reviewed_at: "2026-07-30"
 - 과응고 상태로 인한 심부정맥 혈전증(DVT) 위험 증가 주의.
 - 신장 기능 변화로 인한 요로 감염 및 신우신염 소인 증가.
 
-출처 : StatPearls (Physiology, Maternal Changes; Physiology, Pituitary Issues During Pregnancy)
+## 출처
+- StatPearls (Physiology, Maternal Changes; Physiology, Pituitary Issues During Pregnancy)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

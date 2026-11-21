@@ -53,7 +53,9 @@ sources: ["일본 iNPH 지침, 2021 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7
 - 조기 진단 및 치료 시 증상 호전 가능성이 높음.
   다만, 동반된 신경퇴행성 질환이 있을 경우 인지 기능 회복은 제한적일 수 있음.
 
-출처 : StatPearls (Idiopathic Normal Pressure Hydrocephalus)
-보완 출처: [iNPH 진료지침 제3판](https://pmc.ncbi.nlm.nih.gov/articles/PMC7905302/)
+## 출처
+- StatPearls (Idiopathic Normal Pressure Hydrocephalus)
+- [iNPH 진료지침 제3판](https://pmc.ncbi.nlm.nih.gov/articles/PMC7905302/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

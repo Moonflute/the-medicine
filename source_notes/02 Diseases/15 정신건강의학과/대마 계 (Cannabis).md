@@ -49,7 +49,8 @@ relation_to_parent: subtype
 - 예후: 조기 개입 및 장기적인 추적 관찰이 중요. 청소년기 사용 시작 시 의존성 위험 증가.
 - 합병증: 인지 기능 저하, 정신병적 증상 악화, 심혈관 부작용, 사회적 기능 저하, 사고 위험 증가.
 
-출처 : StatPearls (Cannabis Use Disorder, Cannabis Overview); [WHO 물질 사용 선별·단기 개입](https://www.who.int/activities/screening-and-brief-interventions-for-substance-use-problems)
+## 출처
+- StatPearls (Cannabis Use Disorder, Cannabis Overview); [WHO 물질 사용 선별·단기 개입](https://www.who.int/activities/screening-and-brief-interventions-for-substance-use-problems)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

@@ -57,6 +57,8 @@ sources: ["AAOS 측부 인대 손상 | https://www.orthoinfo.org/en/diseases--co
 - 조기 진단 및 적절한 재활 시 예후가 매우 좋음.
 - 합병증: 드물게 만성 불안정성, 관절 강직, 또는 손상 부위의 골화(Pellegrini-Stieda lesion) 발생 가능.
 
-출처 : StatPearls (Medial Collateral Ligament Knee Injury, Anatomy of Knee MCL)
+## 출처
+- StatPearls (Medial Collateral Ligament Knee Injury, Anatomy of Knee MCL)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

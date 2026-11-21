@@ -64,7 +64,9 @@ content_updated_at: "2026-07-16"
 ## 6. 예후 및 합병증 (Prognosis)
 * 기대 수명은 크게 향상되었으나, 심장 기형, 백혈병, 조기 치매 등 평생에 걸친 건강 관리가 필요함.
 
-출처 : StatPearls (Down Syndrome)
+## 출처
+- StatPearls (Down Syndrome)
 - ACMG: Prenatal screening for trisomy 21 (Down syndrome) using first- and second-trimester biochemistry and nuchal translucency: A technical standard of the American College of Medical Genetics and Genomics.
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

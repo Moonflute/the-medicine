@@ -45,7 +45,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 호르몬 보충·종양 위험 관리와 함께 장기 건강·생식 상담 필요
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
 - [NIH MedlinePlus: Swyer syndrome](https://medlineplus.gov/genetics/condition/swyer-syndrome/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

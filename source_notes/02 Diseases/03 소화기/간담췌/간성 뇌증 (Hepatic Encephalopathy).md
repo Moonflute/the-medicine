@@ -117,9 +117,10 @@ content_updated_at: "2026-11-18"
 
 - **합병증**: 뇌부종(급성 간부전 시), 흡인성 폐렴, 욕창, 영구적인 신경학적 손상.
 
-출처 : StatPearls (Hepatic Encephalopathy)
+## 출처
+- StatPearls (Hepatic Encephalopathy)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

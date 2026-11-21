@@ -52,6 +52,8 @@ sources: ["NHS 난소낭종 관리 | https://www.nhs.uk/conditions/ovarian-cyst/
 - **예후**: 대부분 보존치료로 호전; 대량출혈은 응급 수술 가능
 - **추적**: 재발 가능성 고려
 
-출처 : StatPearls (Ovarian Cyst)
+## 출처
+- StatPearls (Ovarian Cyst)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

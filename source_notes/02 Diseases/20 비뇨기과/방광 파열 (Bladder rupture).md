@@ -52,6 +52,8 @@ sources: ["AUA 외상 지침 | https://www.auanet.org/documents/Guidelines/PDF/c
 * 조기 진단 및 치료 시 예후 양호.
   합병증으로 골반 농양, 복강 내 감염, 신부전, 전해질 불균형, 요실금 등이 발생 가능.
 
-출처 : StatPearls (Bladder Rupture)
+## 출처
+- StatPearls (Bladder Rupture)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

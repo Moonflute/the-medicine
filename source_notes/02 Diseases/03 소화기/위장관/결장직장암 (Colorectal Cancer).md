@@ -107,7 +107,8 @@ content_updated_at: "2026-11-18"
 - 합병증: 장폐색, 천공, 출혈, 전이
 - **추적 관찰**: 수술 후 1년 내 대장내시경, 이후 3년·5년 주기. CEA와 CT/MRI로 재발 확인
 
-참고: Colorectal cancer screening: An update to the American Cancer Society guideline, 2026; [USMSTF 악성 대장 용종 관리 권고 2020](https://gastro.org/clinical-guidance/endoscopic-recognition-and-management-strategies-for-malignant-colorectal-polyps/).
+## 출처
+- Colorectal cancer screening: An update to the American Cancer Society guideline, 2026; [USMSTF 악성 대장 용종 관리 권고 2020](https://gastro.org/clinical-guidance/endoscopic-recognition-and-management-strategies-for-malignant-colorectal-polyps/).
 
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)

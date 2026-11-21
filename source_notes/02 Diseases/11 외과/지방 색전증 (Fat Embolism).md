@@ -49,6 +49,8 @@ reviewed_at: "2026-07-30"
 - 조기 진단과 적절한 보조적 치료가 예후를 결정함.
   다발성 장기 부전으로 진행 시 사망률이 증가할 수 있음.
 
-출처 : StatPearls (Fat Embolism)
+## 출처
+- StatPearls (Fat Embolism)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

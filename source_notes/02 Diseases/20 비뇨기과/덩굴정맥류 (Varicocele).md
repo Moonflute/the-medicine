@@ -51,8 +51,9 @@ content_updated_at: "2026-11-18"
 * 수술 후 정액 지표 개선 및 자연 임신율 향상 기대 가능.
   수술 후 약 3~6개월 경과 시 정액 지표의 유의미한 변화 확인.
 
-출처 : StatPearls (Varicocele, 2023)
-참고: [Korean consensus on varicocele diagnosis and treatment](https://pmc.ncbi.nlm.nih.gov/articles/PMC12505475/)
+## 출처
+- StatPearls (Varicocele, 2023)
+- [Korean consensus on varicocele diagnosis and treatment](https://pmc.ncbi.nlm.nih.gov/articles/PMC12505475/)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

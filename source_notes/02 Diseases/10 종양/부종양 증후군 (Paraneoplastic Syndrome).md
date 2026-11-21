@@ -86,6 +86,8 @@ reviewed_at: "2026-07-30"
 * 부종양 증후군의 예후는 원인 암의 종류, 치료 반응에 따라 달라짐.
 * 적절한 치료가 이루어지지 않을 경우 심각한 대사 이상, 신경학적 손상 등으로 생명에 위협이 될 수 있음.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

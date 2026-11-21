@@ -55,10 +55,11 @@ sources: ["ACG 하부위장관 출혈 지침 2023 교육자료 | https://webfile
 * **역학**: 고령층 하부 위장관 출혈의 가장 흔한 원인.
 - **게실 분포와 출혈원 구분**: 게실 자체는 서구에서 좌측(S상 결장), 한국 등 아시아에서 우측(상행 결장)에 흔함. 실제 출혈은 우측 기원이 많으므로 분포만으로 출혈 위치를 단정하지 않음
 
-출처 : Merck Manual Professional
-참고 가이드라인: [WGO 게실 질환](https://www.worldgastroenterology.org/guidelines/diverticular-disease/diverticular-disease-english)
+## 출처
+- Merck Manual Professional
+- [WGO 게실 질환](https://www.worldgastroenterology.org/guidelines/diverticular-disease/diverticular-disease-english)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

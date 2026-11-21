@@ -50,7 +50,9 @@ reviewed_at: "2026-07-30"
 - 예후는 매우 좋다.
   성장하면서 자연스럽게 사라지며, 심장 기능에 영향을 주지 않다.
 
-출처 : Nelson Textbook of Pediatrics
+## 출처
+- Nelson Textbook of Pediatrics
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

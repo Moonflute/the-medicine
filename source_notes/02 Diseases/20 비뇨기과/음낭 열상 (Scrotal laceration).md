@@ -57,9 +57,9 @@ reviewed_at: "2026-07-30"
 * **합병증:** 감염, 혈종 형성, 음낭 농양, 고환 위축.
 * **예후:** 적절한 변연절제술과 봉합 시 대부분 양호한 치유를 보임.
 
-
-
-출처 : Campbell-Walsh-Wein Urology, StatPearls
+## 출처
+- Campbell-Walsh-Wein Urology, StatPearls
 - [EAU: Urological Trauma — genital injury and follow-up](https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

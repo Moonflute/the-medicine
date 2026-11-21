@@ -60,9 +60,10 @@ sources: ["Society for Endocrinology | https://pmc.ncbi.nlm.nih.gov/articles/PMC
 - 뇌세포 탈수로 인한 신경학적 후유증(뇌출혈, 정맥 혈전증 등)
 - 급격한 교정 시 뇌부종 발생 가능
 
-출처 : Merck Manual Professional (Hypernatremia)
+## 출처
+- Merck Manual Professional (Hypernatremia)
+- 삼성서울병원 메뉴얼. Merck Manual Professional Hypernatremia을 대조. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. Merck Manual Professional Hypernatremia을 대조. 2026-09-14 기존 목차 내 보완.

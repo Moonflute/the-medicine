@@ -64,8 +64,9 @@ content_updated_at: "2026-11-18"
 * 합병증: 전격성 간부전, 만성 신부전, 자가면역 질환 발생 가능성.
 * 사망률: 약 10% 내외로, 조기 진단과 원인 약물 중단이 예후를 결정함.
 
-출처 : StatPearls (Drug-Induced Interstitial Nephritis), Merck Manual Professional
-보완 근거: [EAACI DRESS 진단·관리 입장문](https://pmc.ncbi.nlm.nih.gov/articles/PMC12210004/)
+## 출처
+- StatPearls (Drug-Induced Interstitial Nephritis), Merck Manual Professional
+- [EAACI DRESS 진단·관리 입장문](https://pmc.ncbi.nlm.nih.gov/articles/PMC12210004/)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -56,7 +56,9 @@ sources: ["CDC 감수성 결핵 치료 | https://www.cdc.gov/tb/hcp/treatment/tu
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료 지연 시 기관지 협착, 폐쇄성 폐질환, 무기폐 등이 발생할 수 있음.
 
-출처 : StatPearls (Tuberculosis Overview)
+## 출처
+- StatPearls (Tuberculosis Overview)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

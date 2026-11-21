@@ -66,6 +66,6 @@ population: general
 - 회복 후 수일에서 수주 뒤 기억·집중장애, 성격변화, 보행장애 등 지연성 신경정신 증후군이 나타날 수 있다.
 - 퇴원 시 지연 증상을 교육하고 약 2주 내 신경학적·인지 추적을 계획한다. 노출원 점검과 CO 경보기 등 재노출 예방을 안내한다.
 
-출처 :
+## 출처
 - Tintinalli's Emergency Medicine Manual, 8e, Ch. 127.
 - CDC, Clinical Guidance for Carbon Monoxide Poisoning, 2024.

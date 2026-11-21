@@ -52,7 +52,8 @@ reviewed_at: "2026-07-30"
 * 대부분 특별한 후유증 없이 자연 치유되는 자가 제한적 질환
 * 드물게 뇌염, 뇌수막뇌염, 심근염 등 합병증 발생 가능(특히 신생아나 면역저하자)
 
-출처: [CDC 바이러스성 뇌수막염](https://www.cdc.gov/meningitis/about/viral-meningitis.html); [IDSA 세균성 뇌수막염 진단 지침](https://academic.oup.com/cid/article/39/9/1267/402080)
+## 출처
+- [CDC 바이러스성 뇌수막염](https://www.cdc.gov/meningitis/about/viral-meningitis.html); [IDSA 세균성 뇌수막염 진단 지침](https://academic.oup.com/cid/article/39/9/1267/402080)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

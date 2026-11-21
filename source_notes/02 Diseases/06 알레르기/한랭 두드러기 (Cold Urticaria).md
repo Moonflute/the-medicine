@@ -50,7 +50,9 @@ sources: ["유발성 두드러기 합의 | https://doi.org/10.1111/all.16250"]
 - 만성 경과를 보일 수 있으며, 삶의 질에 큰 영향을 미칠 수 있다.
   심한 경우 아나필락시스 쇼크로 이어질 수 있으므로 환자 교육이 필수적이다.
 
-출처 : StatPearls (Chronic Urticaria)
+## 출처
+- StatPearls (Chronic Urticaria)
+
 Last updated :
 2024-07-29 — 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

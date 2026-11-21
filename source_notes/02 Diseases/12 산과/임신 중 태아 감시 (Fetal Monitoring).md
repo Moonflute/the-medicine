@@ -65,8 +65,10 @@ sources:
 ## 6. 예후 및 합병증 (Prognosis)
 - 지속적인 태아 감시는 태아 저산소증 및 산증 조기 발견에 도움을 주나, 불필요한 제왕절개율을 높일 수 있음
 
-출처 : StatPearls (Fetal Monitoring)
+## 출처
+- StatPearls (Fetal Monitoring)
 - [ACOG: Fetal Heart Tracings](https://www.acog.org/community/districts-and-sections/district-iv/whats-new/countdown-to-intern-year-week-4-fetal-heart-tracings)
 - [AHRQ: Electronic Fetal Monitoring](https://www.ahrq.gov/patient-safety/settings/labor-delivery/perinatal-care/modules/strategies/safe-electronic-tool.html)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

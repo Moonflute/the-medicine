@@ -104,4 +104,5 @@ Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-출처: Merck Manual Professional; 삼성서울병원 메뉴얼; [NIH ODS Folate](https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/); [NIH ODS Vitamin B12](https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/)
+## 출처
+- Merck Manual Professional; 삼성서울병원 메뉴얼; [NIH ODS Folate](https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/); [NIH ODS Vitamin B12](https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/)

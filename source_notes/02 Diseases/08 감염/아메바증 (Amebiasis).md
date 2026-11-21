@@ -54,7 +54,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 독성 거대결장, 장 천공, 간 농양 파열, 흉강 또는 복강 내 전파 등의 합병증이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Amebiasis)
+## 출처
+- Merck Manual Professional (Amebiasis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

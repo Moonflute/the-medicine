@@ -52,6 +52,8 @@ sources: ["CHOA 임상 경로 | https://www.choa.org/-/media/Files/Childrens/med
 * 조기 진단 및 치료가 중요
 * 합병증: 기도 폐쇄, 패혈증, 종격동염 등
 
-출처 : StatPearls (Retropharyngeal Abscess)
+## 출처
+- StatPearls (Retropharyngeal Abscess)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -94,9 +94,10 @@ sources: ["ELN APL 권고 | https://doi.org/10.1182/blood-2019-01-894980", "ELN 
 - 표적 치료제 도입으로 완치율이 매우 높음.
   초기 DIC로 인한 출혈이 주요 사망 원인.
 
-출처 : StatPearls (Acute Promyelocytic Leukemia)
+## 출처
+- StatPearls (Acute Promyelocytic Leukemia)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

@@ -66,8 +66,10 @@ sources: ["EASL-ERN 윌슨병 지침 2025 | https://easlcampus.eu/sites/default/
   치료 지연 시 간부전 및 신경학적 영구 손상으로 치명적일 수 있음.
 - **합병증**: 간경변증, 간세포암, 신경학적 영구 손상, 신장 기능 장애, 용혈성 빈혈.
 
-출처 : StatPearls (Wilson Disease, 2025)
-참고 가이드라인: [AASLD 윌슨병 2022](https://doi.org/10.1002/hep.32801)
+## 출처
+- StatPearls (Wilson Disease, 2025)
+- [AASLD 윌슨병 2022](https://doi.org/10.1002/hep.32801)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-11 : 본문 갱신 (processed)

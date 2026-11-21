@@ -50,7 +50,9 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 - 재발이 흔하며, 만성 림프부종을 유발할 수 있음.
 - 합병증으로 혈전정맥염, 농양, 괴저 등이 발생할 수 있음.
 
-출처 : Merck Manual Professional (Erysipelas)
+## 출처
+- Merck Manual Professional (Erysipelas)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

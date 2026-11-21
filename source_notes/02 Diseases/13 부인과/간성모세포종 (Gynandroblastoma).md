@@ -69,6 +69,8 @@ sources: ["ESMO 비상피성 난소종양 | https://data.esmo.org/guidelines/pdf
 - 대부분 양성 경과를 보임
 - 악성 가능성이 있으므로 정기적인 추적 관찰 필요
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

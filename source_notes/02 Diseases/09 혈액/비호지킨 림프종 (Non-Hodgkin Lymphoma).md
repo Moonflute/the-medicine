@@ -89,7 +89,9 @@ sources: ["NCI PDQ Lugano 병기 | https://www.cancer.gov/types/lymphoma/hp/aggr
   공격성 림프종은 급격히 진행하나 항암 치료에 반응이 좋아 완치 가능성이 있는 반면, 지연성 림프종은 완치가 어렵고 재발이 잦은 경향이 있음.
   치료 관련 합병증(종양 용해 증후군, 감염 등)에 대한 주의가 필요함.
 
-출처 : Merck Manual Professional (Non-Hodgkin Lymphomas); 삼성서울병원 메뉴얼; [NICE NG52 진단 권고](https://www.nice.org.uk/guidance/ng52/chapter/Recommendations)
+## 출처
+- Merck Manual Professional (Non-Hodgkin Lymphomas); 삼성서울병원 메뉴얼; [NICE NG52 진단 권고](https://www.nice.org.uk/guidance/ng52/chapter/Recommendations)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

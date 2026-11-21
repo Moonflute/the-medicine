@@ -82,8 +82,10 @@ sources: ["eviQ TLS 관리 | https://www.eviq.org.au/clinical-resources/side-eff
 ## 6. 예후 및 합병증 (Prognosis)
 * 급성 신손상, 치명적 부정맥, 다발성 장기 부전으로 진행 가능하므로 조기 발견 및 예방적 처치가 필수적임.
 
-출처: 삼성서울병원 메뉴얼
+## 출처
+- 삼성서울병원 메뉴얼
 - [eviQ: TLS 정의·위험 평가·예방](https://www.eviq.org.au/clinical-resources/side-effect-and-toxicity-management/prophylaxis-and-treatment/108-prevention-of-tumour-lysis-syndrome)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

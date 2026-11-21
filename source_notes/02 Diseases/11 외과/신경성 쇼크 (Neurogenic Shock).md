@@ -62,7 +62,8 @@ sources: ["AO Spine 혈역학 지침 2024 | https://pmc.ncbi.nlm.nih.gov/article
 - **예후**: 손상 정도(ASIA 척도) 및 치료 반응에 따라 결정.
 - **합병증**: 심한 저혈압 지속, 자율신경 반사부전(Autonomic dysreflexia), 심부정맥 혈전증(DVT), 욕창.
 
-출처 : StatPearls (Neurogenic Shock)
+## 출처
+- StatPearls (Neurogenic Shock)
 - [AO Spine 급성 척수손상 혈역학 관리 지침(2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10964888/)
 
 Last updated :

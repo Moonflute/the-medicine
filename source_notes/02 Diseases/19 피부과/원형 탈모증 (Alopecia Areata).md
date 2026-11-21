@@ -56,6 +56,8 @@ content_updated_at: "2026-11-18"
 * 1년 이내에 자연 치유되는 경우가 많으나, 재발이 잦은 만성 질환임.
 * 심리적 스트레스, 불안, 우울증이 동반될 수 있어 정서적 지지가 중요함.
 
-출처 : StatPearls (Alopecia Areata, 2024)
+## 출처
+- StatPearls (Alopecia Areata, 2024)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

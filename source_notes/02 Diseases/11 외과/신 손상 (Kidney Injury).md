@@ -88,9 +88,11 @@ reviewed_at: "2026-07-30"
 - **예후**: 원인 교정 시 회복 가능성이 있으나, 중증인 경우 만성 신질환으로 진행할 수 있음.
 - **합병증**: 고칼륨혈증, 대사성 산증, 폐부종, 요독성 심낭염 등이 발생할 수 있음.
 
-출처 : StatPearls (Acute Kidney Injury, Immune Checkpoint Inhibitor–Associated Acute Kidney Injury)
+## 출처
+- StatPearls (Acute Kidney Injury, Immune Checkpoint Inhibitor–Associated Acute Kidney Injury)
 - [EAU Urological Trauma](https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines)
 - [AUA Urotrauma Guideline](https://www.auanet.org/Documents/education/clinical-guidance/Urotrauma.pdf)
+
 Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)

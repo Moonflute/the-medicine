@@ -60,8 +60,10 @@ sources: ["SMFM 임신 중 홍역 권고 | https://www.smfm.org/measles"]
 - 합병증: 폐렴(사망의 주원인), 중이염, 설사, 뇌염(급성 파종성 뇌척수염, 아급성 경화성 전뇌염 등).
 - 예후: 대부분 회복되나 영유아, 임산부, 면역저하자에서 중증도 및 사망 위험 증가.
 
-출처 : StatPearls (Measles)
+## 출처
+- StatPearls (Measles)
 - [ACOG: Measles outbreak management](https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2024/03/management-of-obstetric-gynecologic-patients-during-a-measles-outbreak)
 - [CDC: Clinical Overview of Measles](https://www.cdc.gov/measles/hcp/clinical-overview/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

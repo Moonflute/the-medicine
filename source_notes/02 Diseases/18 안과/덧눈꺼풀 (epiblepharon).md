@@ -50,7 +50,8 @@ reviewed_at: "2026-07-30"
 - 예후: 대개 성장하면서 눈꺼풀 발달과 함께 자연 치유되는 경우가 많음
 - 합병증: 만성적인 각막 자극으로 인한 각막 찰과상, 각막 혼탁 및 흉터 형성 가능
 
+## 출처
+- Merck Manual Professional Edition
 
-출처 : Merck Manual Professional Edition
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

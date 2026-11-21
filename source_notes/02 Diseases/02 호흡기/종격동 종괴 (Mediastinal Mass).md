@@ -55,7 +55,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 종괴의 악성도와 위치에 따른 기도 및 혈관 압박 정도가 예후를 결정한다.
 
-출처 : Merck Manual Professional (Mediastinal Masses)
+## 출처
+- Merck Manual Professional (Mediastinal Masses)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -50,5 +50,5 @@ sources: ["Merck Manual Professional: Overview of Cardiomyopathies | https://www
 - [[제한성 심근병증 (Restrictive Cardiomyopathy)]]
 - [[타코츠보 심근병증 (Takotsubo Cardiomyopathy)]]
 
-
-보완 출처: 삼성서울병원 메뉴얼. International Expert Consensus: Takotsubo Syndrome Part I, International Expert Consensus: Takotsubo Syndrome Part II, 2024 International Expert Consensus Report; 심근병증의 형태별 단서, 타코츠보 증후군의 ACS 감별·합병증 평가·추적 원칙을 대조. 2026-09-15 기존 목차 내 보완.
+## 출처
+- 삼성서울병원 메뉴얼. International Expert Consensus: Takotsubo Syndrome Part I, International Expert Consensus: Takotsubo Syndrome Part II, 2024 International Expert Consensus Report; 심근병증의 형태별 단서, 타코츠보 증후군의 ACS 감별·합병증 평가·추적 원칙을 대조. 2026-09-15 기존 목차 내 보완.

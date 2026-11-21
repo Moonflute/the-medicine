@@ -76,7 +76,9 @@ sources: ["EASL 양성 간종양 지침 | https://easl.eu/wp-content/uploads/201
 
 - **합병증**: 매우 드물게 종양 내 출혈이나 파열이 발생할 수 있다.
 
-출처 : StatPearls: Focal Nodular Hyperplasia
+## 출처
+- StatPearls: Focal Nodular Hyperplasia
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)

@@ -76,9 +76,10 @@ sources: ["CDC Clinician Brief: Hemorrhagic Fever with Renal Syndrome | https://
 - **장기 추적**: 지속 단백뇨·혈압 상승·eGFR 저하
 - **드문 뇌하수체 후유증**: 지속 다뇨·호르몬 이상, 수개월–수년 뒤 지속 피로·저혈압 등 기능저하 단서가 있으면 평가
 
-출처 : StatPearls (Hemorrhagic Fever Renal Syndrome)
+## 출처
+- StatPearls (Hemorrhagic Fever Renal Syndrome)
+- 삼성서울병원 메뉴얼. CDC Clinician Brief: Hemorrhagic Fever with Renal Syndrome를 대조. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. CDC Clinician Brief: Hemorrhagic Fever with Renal Syndrome를 대조. 2026-09-14 기존 목차 내 보완.

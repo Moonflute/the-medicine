@@ -61,7 +61,9 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.h
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 불임, 골반 염증성 질환(PID), 파종성 임균 감염 (관절염, 피부 병변) 등의 합병증이 발생할 수 있다.
 
-출처 : CDC STD Treatment Guidelines
+## 출처
+- CDC STD Treatment Guidelines
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

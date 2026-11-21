@@ -50,7 +50,9 @@ reviewed_at: "2026-07-30"
 - **예후**: 조기 재활 중요, 사망 위험은 생후 첫 1년에 집중되며 생존 후에도 합병증 관리 필요
 - **합병증**: 지적 장애, 척추 측만증, 청력/시력 저하, 심장 및 신장 기형
 
-출처 : StatPearls (Cri Du Chat Syndrome)
+## 출처
+- StatPearls (Cri Du Chat Syndrome)
 - [NHGRI: Cri-du-chat syndrome](https://www.genome.gov/Genetic-Disorders/Cri-du-Chat)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

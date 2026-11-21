@@ -84,7 +84,9 @@ review_status: "guideline_enriched"
 - 기종성 신우신염: 당뇨 환자 등에서 가스 생성균 감염, 예후 불량. 긴급 항생제·배액을 평가하고 병변 범위와 반응에 따라 신절제 검토.
 - 기타: 패혈증, 쇼크, 신장 유두괴사, 영구적 신장 손상.
 
-출처 : StatPearls (Acute Pyelonephritis)
+## 출처
+- StatPearls (Acute Pyelonephritis)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-11 : 본문 갱신 (processed)

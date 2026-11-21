@@ -85,11 +85,11 @@ sources: ["Merck 담석증 | https://www.merckmanuals.com/professional/hepatic-a
 
 - **합병증**: 급성 담낭염, 만성 담낭염, 총담관 담석(CBD stone), 급성 담관염, 급성 췌장염, 담낭암(드물게), 담석성 장 폐쇄(Gallstone ileus) 등이 발생할 수 있음.
 
-출처 : StatPearls (Gallstones, Gallstone Ileus)
+## 출처
+- StatPearls (Gallstones, Gallstone Ileus)
+- 삼성서울병원 메뉴얼.
+- [제주 건강검진 담석 유병률 연구](https://pubmed.ncbi.nlm.nih.gov/29788702/), [Merck 담석증](https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/cholelithiasis), [Merck 급성 담낭염](https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/acute-cholecystitis)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.
-
-보완 근거: [제주 건강검진 담석 유병률 연구](https://pubmed.ncbi.nlm.nih.gov/29788702/), [Merck 담석증](https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/cholelithiasis), [Merck 급성 담낭염](https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/acute-cholecystitis)

@@ -74,8 +74,10 @@ review_status: "guideline_enriched"
 - 혈관형성이상: 무통성 소량 출혈이 특징
 - 듀라포이 병변: 대량 출혈 가능성, 1회 내시경으로 발견되지 않는 경우가 흔함
 
-출처 : StatPearls (Upper GI Bleeding, GI Bleeding Scan), ACG/ESGE Guidelines
+## 출처
+- StatPearls (Upper GI Bleeding, GI Bleeding Scan), ACG/ESGE Guidelines
 - [ESGE NVUGIH 2021](https://www.esge.com/assets/downloads/pdfs/guidelines/2021_a_1369_5274.pdf)
+
 Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)

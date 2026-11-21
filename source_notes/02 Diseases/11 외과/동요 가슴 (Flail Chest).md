@@ -55,6 +55,8 @@ sources: ["WSES/CWIS 2024 | https://link.springer.com/article/10.1186/s13017-024
 ## 6. 예후 및 합병증 (Prognosis)
 - 폐 타박상, 기흉, 혈흉, 폐렴, 호흡 부전 등이 주요 합병증.
 
-출처 : StatPearls (Flail Chest)
+## 출처
+- StatPearls (Flail Chest)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -48,7 +48,9 @@ reviewed_at: "2026-07-30"
 - 예후는 매우 우수, 대부분 신기능이 회복된다.
   단, 일부 환자에서 만성 콩팥병이나 급속 진행성 사구체신염으로 이행할 수 있다.
 
-출처 : Merck Manual Professional (Postinfectious Glomerulonephritis)
+## 출처
+- Merck Manual Professional (Postinfectious Glomerulonephritis)
+
 Last updated :
 2024-07-29 — 초안 분리 정리
 2026-05-18 — 본문 갱신 (codex fill)

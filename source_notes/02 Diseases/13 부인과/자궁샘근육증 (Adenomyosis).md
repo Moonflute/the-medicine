@@ -52,6 +52,8 @@ sources: ["NICE NG88 | https://www.nice.org.uk/guidance/ng88/chapter/recommendat
 - 자궁 구조 변형·염증으로 임신에 영향 가능, 개별 난임 기여도는 평가 필요
 - 폐경 후 증상 완화 경향
 
-출처 : StatPearls (Adenomyosis, Abnormal Uterine Bleeding)
+## 출처
+- StatPearls (Adenomyosis, Abnormal Uterine Bleeding)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -90,8 +90,10 @@ content_updated_at: "2026-11-18"
 - 원인 질환의 가역성에 따라 예후 결정
 - 합병증: 만성 콩팥병(CKD)으로의 이행, 전해질 장애, 심혈관계 합병증
 
-출처 : StatPearls - Acute Kidney Injury
-보완 근거: [KDIGO AKI guideline](https://kdigo.org/wp-content/uploads/2019/01/KDIGO-2012-AKI-Guideline-English.pdf), [KHA-CARI 생검 전 desmopressin 지침](https://www.cariguidelines.org/wp-content/uploads/CKD/CKD%20renal%20biopsy/3.%20KHACARI_RenalBiopsy_Desmopressin_Nov2019.pdf).
+## 출처
+- StatPearls - Acute Kidney Injury
+- [KDIGO AKI guideline](https://kdigo.org/wp-content/uploads/2019/01/KDIGO-2012-AKI-Guideline-English.pdf), [KHA-CARI 생검 전 desmopressin 지침](https://www.cariguidelines.org/wp-content/uploads/CKD/CKD%20renal%20biopsy/3.%20KHACARI_RenalBiopsy_Desmopressin_Nov2019.pdf).
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

@@ -54,6 +54,8 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/lgv.htm"]
 - 적절한 항생제 치료 시 완치 가능
 - 치료 지연 시 직장 협착, 누공, 만성 림프부종 등 영구적 손상 발생 가능
 
-출처 : StatPearls (Lymphogranuloma Venereum Infection)
+## 출처
+- StatPearls (Lymphogranuloma Venereum Infection)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

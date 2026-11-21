@@ -67,9 +67,10 @@ content_updated_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 수분 공급 및 치료가 이루어지지 않을 경우 심각한 탈수 및 고나트륨혈증 발생 가능.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

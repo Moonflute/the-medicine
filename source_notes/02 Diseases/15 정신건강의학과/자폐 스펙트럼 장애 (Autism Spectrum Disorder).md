@@ -53,7 +53,8 @@ relation_to_parent: subtype
 - 조기 개입 시 예후가 개선될 수 있으나, 평생에 걸쳐 기능적 지원이 필요할 수 있음.
 - 성인기까지 증상이 지속될 수 있으며, 다른 정신질환이 동반될 가능성이 높음.
 
-출처: [CDC 자폐 스펙트럼 진단 기준](https://www.cdc.gov/autism/hcp/diagnosis/index.html)
+## 출처
+- [CDC 자폐 스펙트럼 진단 기준](https://www.cdc.gov/autism/hcp/diagnosis/index.html)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

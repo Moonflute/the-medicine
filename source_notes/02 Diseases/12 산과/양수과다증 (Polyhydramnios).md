@@ -58,6 +58,8 @@ sources: ["SMFM 양수과다 권고 | https://publications.smfm.org/publications
 * 조기 진통, 조기 양막 파수, 태반 조기 박리, 제대 탈출 위험 증가.
 * 경증은 예후가 양호한 경우가 많음.
 
-출처 : StatPearls (Polyhydramnios)
+## 출처
+- StatPearls (Polyhydramnios)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

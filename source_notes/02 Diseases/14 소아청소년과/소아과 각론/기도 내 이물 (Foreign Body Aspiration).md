@@ -57,7 +57,8 @@ sources: ["2025 한국 심폐소생술 가이드라인 | https://kdca.go.kr/bbs/
 * 조기 제거 시 예후 좋음
 * 지연 시 기도 손상, 육아종 형성, 재발성 폐렴 등 합병증 발생 가능
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -69,9 +69,10 @@ sources: ["BSG gastric premalignant lesions 2019 | https://pmc.ncbi.nlm.nih.gov/
 - **선종**: 암 전구 병변
 - **과형성 용종**: 큰 크기(예: >2 cm)·이형성에서 악성 위험 증가. 위험 평가·절제 크기 기준을 2 cm 초과로 한정하지 않음
 
-출처 : StatPearls (Gastric Polyp)
+## 출처
+- StatPearls (Gastric Polyp)
+- 삼성서울병원 메뉴얼; [BSG 위 전암성 병변 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6709778/); [AGA 위 용종 관리 2026](https://pubmed.ncbi.nlm.nih.gov/41711625/).
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼; [BSG 위 전암성 병변 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6709778/); [AGA 위 용종 관리 2026](https://pubmed.ncbi.nlm.nih.gov/41711625/).

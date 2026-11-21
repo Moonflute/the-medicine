@@ -61,6 +61,8 @@ sources: ["EHS/AHS 배꼽 탈장 지침 | https://doi.org/10.1002/bjs.11489"]
 
 - **예후**: mesh 사용 시 수술 후 재발률이 낮음. 비만·흡연·당뇨 등이 결과에 영향
 
-출처 : StatPearls (Umbilical Hernia, Pediatric Umbilical Hernia)
+## 출처
+- StatPearls (Umbilical Hernia, Pediatric Umbilical Hernia)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

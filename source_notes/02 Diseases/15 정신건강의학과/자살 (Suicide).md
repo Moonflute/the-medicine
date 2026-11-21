@@ -48,8 +48,9 @@ reviewed_at: "2026-07-30"
 - **예후**: 적절한 조기 개입과 지속적인 추적 관찰이 재발 방지에 필수적.
 - **합병증**: 자살 시도로 인한 신체적 손상, 정신적 트라우마, 가족 및 주변인의 심리적 고통.
 
-출처 : StatPearls (Suicide Risk in Children and Adolescents; Suicide: Assessment and Management)
-추가 근거: [CDC 자살 정의](https://www.cdc.gov/suicide/facts/index.html), [NICE 중증 우울증 ECT](https://www.nice.org.uk/guidance/ng222/chapter/Recommendations)
+## 출처
+- StatPearls (Suicide Risk in Children and Adolescents; Suicide: Assessment and Management)
+- [CDC 자살 정의](https://www.cdc.gov/suicide/facts/index.html), [NICE 중증 우울증 ECT](https://www.nice.org.uk/guidance/ng222/chapter/Recommendations)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

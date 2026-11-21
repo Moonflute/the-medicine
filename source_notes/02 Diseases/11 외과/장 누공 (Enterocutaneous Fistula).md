@@ -55,6 +55,8 @@ sources: ["ASPEN/FELANPE 지침 | https://doi.org/10.1177/0148607116680792", "ES
 - 사망률은 6~33%로 다양하며, 패혈증이 주요 사망 원인.
 - 적절한 영양 공급과 보존적 치료 후 수술 시 80~95%에서 완치 가능.
 
-출처 : StatPearls (Enterocutaneous Fistula)
+## 출처
+- StatPearls (Enterocutaneous Fistula)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

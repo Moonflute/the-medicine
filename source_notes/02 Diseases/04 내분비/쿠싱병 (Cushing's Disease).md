@@ -64,9 +64,10 @@ content_updated_at: "2026-11-17"
 - **예후**: 미치료 시 치명적일 수 있으며, 수술 후에도 재발 가능 → 평생 추적
 - **합병증**: 골다공증·고혈압·당뇨·감염 취약성·우울증
 
-출처 : StatPearls (Cushing Disease)
+## 출처
+- StatPearls (Cushing Disease)
+- 삼성서울병원 메뉴얼; [Pituitary Society 2021 consensus](https://doi.org/10.1016/S2213-8587(21)00235-7)
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼; [Pituitary Society 2021 consensus](https://doi.org/10.1016/S2213-8587(21)00235-7)

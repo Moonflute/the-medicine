@@ -46,6 +46,8 @@ content_updated_at: "2026-07-30"
 - **예후**: 원인 질환의 회복 가능성에 좌우됨
 - **장기 관리**: 부동에 따른 욕창·폐렴·혈전증 예방
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -114,5 +114,3 @@ guideline_review_status: primary_source_reviewed
 - [[재생불량성 빈혈 (AA) (Aplastic Anemia (AA))]]
 - [[지중해 빈혈 (Thalassemia)]]
 - [[철 결핍 빈혈 (Iron Deficiency Anemia)]]
-
-## 참고 가이드라인

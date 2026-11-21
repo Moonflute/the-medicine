@@ -53,6 +53,8 @@ sources: ["JCIH 2019 및 2024 FAQ | https://www.jcih.org/posstatemts.htm/default
 - 조기 진단 및 개입(생후 3개월 이내)이 언어 및 인지 발달 예후에 결정적임.
 - 미치료 시 영구적인 언어 장애 및 학습 능력 저하 초래.
 
-출처 : StatPearls (Genetic Hearing Loss, Conductive Hearing Loss)
+## 출처
+- StatPearls (Genetic Hearing Loss, Conductive Hearing Loss)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

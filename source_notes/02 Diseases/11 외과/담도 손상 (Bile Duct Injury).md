@@ -68,7 +68,9 @@ sources: ["SAGES-AHPBA 2025 | https://www.sages.org/publications/guidelines/guid
 - 합병증: 담도 협착, 재발성 담관염, 간경변, 문맥압 항진증.
 - 조기 발견 및 숙련된 전문의에 의한 치료가 예후 개선에 필수적.
 
-출처 : StatPearls (Bile Duct Injury, Bile Duct Repair)
+## 출처
+- StatPearls (Bile Duct Injury, Bile Duct Repair)
 - [Tokyo Guidelines 2018: 안전한 담낭절제술](https://doi.org/10.1002/jhbp.517)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

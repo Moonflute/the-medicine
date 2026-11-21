@@ -106,5 +106,3 @@ sources: ["EANO. Diagnosis and Treatment of Diffuse Gliomas of Adulthood — 202
 - [[신경초종 (Schwannoma)]]
 - [[전이성 뇌종양 (Metastatic brain tumor)]]
 - [[혈관모세포종 (Hemangioblastoma)]]
-
-## 참고 가이드라인

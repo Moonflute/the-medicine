@@ -52,8 +52,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 음식을 인지, 운동 전후 식습관을 조절함으로써 예방 가능하다.
 
+## 출처
+- Merck Manual Professional
 
-출처 : Merck Manual Professional
 Last updated :
 2024-07-29 — 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

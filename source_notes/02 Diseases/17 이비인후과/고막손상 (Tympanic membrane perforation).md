@@ -49,7 +49,9 @@ reviewed_at: "2026-07-30"
   감염 방지가 중요
 - 합병증: 만성 중이염, 진주종, 유양돌기염, 진행성 난청, 드물게 두개내 합병증
 
-출처 : StatPearls (Tympanic Membrane Perforation, 2026)
+## 출처
+- StatPearls (Tympanic Membrane Perforation, 2026)
+
 Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)

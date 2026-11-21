@@ -89,4 +89,5 @@ population: adult
 - 치료되지 않은 LDL-C 상승은 관상동맥질환, 허혈성 뇌졸중, 말초동맥질환의 장기 위험을 높인다. TG가 매우 높으면 급성 췌장염 위험이 추가된다.
 - 조기 ASCVD 또는 FH가 의심되는 경우 가족 선별과 심혈관 전문 평가가 필요할 수 있다. 심한 복통·구토, 급성 흉통 또는 신경학적 결손은 각각 췌장염·급성 관상동맥 증후군·뇌졸중 평가가 필요한 증상이다.
 
-출처: Korean Society of Lipid and Atherosclerosis, *Korean Guidelines for the Management of Dyslipidemia*, [5th ed. (2022)](https://www.lipid.or.kr/reference/guideline.php); ESC/EAS focused update (2025); [ACC/AHA 2026](https://doi.org/10.1161/CIR.0000000000001423).
+## 출처
+- Korean Society of Lipid and Atherosclerosis, *Korean Guidelines for the Management of Dyslipidemia*, [5th ed. (2022)](https://www.lipid.or.kr/reference/guideline.php); ESC/EAS focused update (2025); [ACC/AHA 2026](https://doi.org/10.1161/CIR.0000000000001423).

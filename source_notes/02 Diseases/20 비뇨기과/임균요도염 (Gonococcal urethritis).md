@@ -55,6 +55,8 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/gonorrhea-adults.h
 * **합병증:** 부고환염, 전립선염, 요도 협착, 파종성 임균 감염(관절염, 피부 병변 등).
 * **예후:** 조기 진단 및 적절한 항생제 치료 시 완치율이 높음.
 
-출처 : StatPearls (Urethritis, Gonococcal Arthritis)
+## 출처
+- StatPearls (Urethritis, Gonococcal Arthritis)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

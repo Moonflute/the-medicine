@@ -64,7 +64,9 @@ reviewed_at: "2026-07-30"
 - **합병증**: DIC, 태반 조기 박리, 간 파열/혈종, 급성 신부전, 폐부종, 뇌출혈, 산모 및 태아 사망.
 - **재발**: 차기 임신 시 재발 위험 존재(약 19-27%).
 
-출처 : StatPearls (HELLP Syndrome)
+## 출처
+- StatPearls (HELLP Syndrome)
 - [ARUP Consult: HELLP 검사 기준](https://arupconsult.com/content/preeclampsia-testing)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

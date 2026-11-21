@@ -49,6 +49,8 @@ reviewed_at: "2026-07-30"
 - 조기 진단 및 적절한 호르몬 치료 시 이차 성징 발달 및 생식 능력 회복 가능.
 - 평생 지속적인 호르몬 관리가 필요할 수 있음.
 
-출처 : UpToDate, Merck Manual Professional
+## 출처
+- UpToDate, Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

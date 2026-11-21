@@ -48,7 +48,8 @@ relation_to_parent: subtype
 - 신경퇴행성 질환으로의 이행 가능성이 높으므로 장기적인 신경학적 추적 관찰 필요.
 - 만성적 수면 장애는 인지 기능 저하 및 삶의 질 악화를 초래함.
 
-출처: [AASM RBD 진단·관리 권고](https://aasm.org/resources/practiceparameters/pp_rbd.pdf), [AASM 2023 치료 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC10071384/)
+## 출처
+- [AASM RBD 진단·관리 권고](https://aasm.org/resources/practiceparameters/pp_rbd.pdf), [AASM 2023 치료 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC10071384/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

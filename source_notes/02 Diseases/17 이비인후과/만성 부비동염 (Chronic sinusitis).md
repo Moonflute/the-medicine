@@ -69,6 +69,8 @@ sources: ["AAO-HNSF 수술 지침, 2025 | https://doi.org/10.1002/ohn.1287", "EP
 - **합병증**: 안와 주위 봉와직염, 안와 농양, 골수염, 두개내 합병증(드묾)
 - **관리**: 장기적인 추적 관찰과 동반 질환 관리가 중요
 
-출처 : StatPearls (Chronic Sinusitis)
+## 출처
+- StatPearls (Chronic Sinusitis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

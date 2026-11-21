@@ -52,6 +52,8 @@ sources: ["SNO/EANO 권고 | https://doi.org/10.1093/neuonc/noab152"]
 - 종양의 종류, 위치, 병기에 따라 상이함.
 - 합병증으로 뇌탈출(herniation), 영구적 신경학적 결손, 뇌전증 발생 가능.
 
-출처 : StatPearls (Acute Headache)
+## 출처
+- StatPearls (Acute Headache)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -89,10 +89,11 @@ sources: ["ADQI/ICA 2024 | https://doi.org/10.1016/j.jhep.2024.03.031", "FDA ter
 
 - **합병증**: 다발성 장기 부전, 감염, 사망 등이 발생할 수 있다.
 
-출처 : StatPearls (Hepatorenal Syndrome)
+## 출처
+- StatPearls (Hepatorenal Syndrome)
+- 삼성서울병원 메뉴얼.
+- [ADQI/ICA 2024 합의문](https://pmc.ncbi.nlm.nih.gov/articles/11193657/)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.
-참고: [ADQI/ICA 2024 합의문](https://pmc.ncbi.nlm.nih.gov/articles/11193657/)

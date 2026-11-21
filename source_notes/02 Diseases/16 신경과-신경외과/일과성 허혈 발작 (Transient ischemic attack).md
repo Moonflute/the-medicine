@@ -57,6 +57,8 @@ sources: ["NICE NG128 | https://www.nice.org.uk/guidance/ng128/chapter/recommend
 - 뇌졸중의 강력한 경고 신호(특히 48시간 이내 위험도 높음)
 - 조기 진단 및 다학제적 예방 치료 시 뇌졸중 재발 위험을 80% 이상 감소 가능
 
-출처 : StatPearls (Transient Ischemic Attack)
+## 출처
+- StatPearls (Transient Ischemic Attack)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

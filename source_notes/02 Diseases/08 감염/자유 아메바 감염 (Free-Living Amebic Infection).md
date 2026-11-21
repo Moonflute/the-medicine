@@ -73,7 +73,9 @@ sources: ["CDC Naegleria 치료 | https://www.cdc.gov/naegleria/hcp/clinical-car
 - PAM은 매우 치명적(치사율 95~99% 이상)
 - GAE 역시 예후가 매우 불량, 조기 발견이 필수적
 
-출처 : StatPearls (Infections Caused by Free-Living Amebas, Naegleria Infection and PAM), [CDC DPDx 자유생활 아메바](https://www.cdc.gov/dpdx/freeLivingAmebic/index.html)
+## 출처
+- StatPearls (Infections Caused by Free-Living Amebas, Naegleria Infection and PAM), [CDC DPDx 자유생활 아메바](https://www.cdc.gov/dpdx/freeLivingAmebic/index.html)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

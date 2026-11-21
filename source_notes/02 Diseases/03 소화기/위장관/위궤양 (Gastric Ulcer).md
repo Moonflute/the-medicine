@@ -64,6 +64,6 @@ sources: ["ACG H. pylori 2024 | https://gi.org/journals-publications/ebgi/schoen
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 출혈, 천공, 관통, 위출구 폐색.
 
-출처 : StatPearls (Gastric Ulcer, 2023)
-
-참고: 삼성서울병원 메뉴얼; [ASGE 소화성 궤양 내시경 지침](https://www.asge.org/docs/default-source/education/practice_guidelines/doc-the-role-of-endoscopy-in-the-management-of-patientswith-peptic-ulcer-disease.pdf).
+## 출처
+- StatPearls (Gastric Ulcer, 2023)
+- 삼성서울병원 메뉴얼; [ASGE 소화성 궤양 내시경 지침](https://www.asge.org/docs/default-source/education/practice_guidelines/doc-the-role-of-endoscopy-in-the-management-of-patientswith-peptic-ulcer-disease.pdf).

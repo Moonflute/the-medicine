@@ -73,9 +73,11 @@ sources: ["IDSA 피부·연조직 감염 지침 | https://www.idsociety.org/prac
   - 배액관·카테터의 제거 가능 시점 매일 검토
   - 심부·장기/공간 감염 의심 시 영상 평가·감염원 조절을 지연하지 않음
 
-출처 : StatPearls: Postoperative Wound Infections
-보완 출처 : 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls: Postoperative Wound Infections
+- 삼성서울병원 외과 메뉴얼
 - [CDC/NHSN SSI](https://www.cdc.gov/nhsn/psc/ssi/)
 - [WHO Safe Surgery — SSI 기전](https://www.ncbi.nlm.nih.gov/books/NBK143246/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

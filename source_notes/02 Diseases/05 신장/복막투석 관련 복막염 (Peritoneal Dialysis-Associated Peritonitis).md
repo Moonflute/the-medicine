@@ -62,4 +62,5 @@ sources: ["ISPD peritonitis guideline recommendations: 2022 update on prevention
 - 복막염 중 복막 투과성 증가로 배액량이 줄 수 있으므로 체중, 입·출량, 부종·저혈압 등 체액 상태를 함께 추적한다.
 - 무균 교환법·손 위생, 재교육, exit-site/tunnel 이상 시 신속한 연락과 치료가 예방의 핵심이다.
 
-출처: 삼성서울병원 메뉴얼
+## 출처
+- 삼성서울병원 메뉴얼

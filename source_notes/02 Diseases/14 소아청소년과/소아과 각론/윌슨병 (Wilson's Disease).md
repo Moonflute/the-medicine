@@ -75,6 +75,8 @@ sources: ["AASLD 지침 | https://doi.org/10.1002/hep.32801"]
 * 조기 진단 및 평생에 걸친 약물 치료 시 예후 양호
 * 치료 지연 시 간경변, 치명적인 급성 간부전, 영구적인 신경학적 손상 발생 가능
 
-출처 : StatPearls (Wilson Disease); [AASLD Wilson 지침 2022](https://onlinelibrary.wiley.com/doi/full/10.1002/hep.32805); [EASL-ERN 2025](https://www.journal-of-hepatology.eu/article/S0168-8278%2824%2902706-5/fulltext)
+## 출처
+- StatPearls (Wilson Disease); [AASLD Wilson 지침 2022](https://onlinelibrary.wiley.com/doi/full/10.1002/hep.32805); [EASL-ERN 2025](https://www.journal-of-hepatology.eu/article/S0168-8278%2824%2902706-5/fulltext)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

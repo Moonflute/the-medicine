@@ -56,7 +56,9 @@ sources: ["ASCRS | https://www.fascrs.org/Web/Patients/Diseases-and-Conditions/A
 - **예후**: 보존적 치료로 대부분 호전되나 재발 가능성 있음
 - **합병증**: 출혈, 감돈(incarceration) 및 교액(strangulation), 혈전 형성, 수술 후 요폐, 항문 협착
 
-출처 : StatPearls (Internal Hemorrhoid)
+## 출처
+- StatPearls (Internal Hemorrhoid)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

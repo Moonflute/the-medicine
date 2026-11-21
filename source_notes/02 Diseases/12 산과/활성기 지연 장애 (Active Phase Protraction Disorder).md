@@ -69,7 +69,9 @@ sources: ["ACOG 2024 분만 관리 | https://doi.org/10.1097/AOG.000000000000544
 - 산모: 산후 출혈, 감염, 제왕절개술 위험 증가
 - 태아: 태아 가사, 신생아 저산소증 위험 증가
 
-출처 : Williams Obstetrics, 26th Edition
+## 출처
+- Williams Obstetrics, 26th Edition
 - [ACOG 2024: First and Second Stage Labor Management](https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2024/01/first-and-second-stage-labor-management)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

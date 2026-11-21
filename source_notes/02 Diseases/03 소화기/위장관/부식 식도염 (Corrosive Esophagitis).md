@@ -51,8 +51,9 @@ sources: ["WSES 식도 응급 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 식도 협착(stricture), 천공, 종격동염(mediastinitis), 식도-기관지 누공.
 
+## 출처
+- [WSES 식도 응급 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/).
 
-출처: [WSES 식도 응급 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/).
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

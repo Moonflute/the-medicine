@@ -138,8 +138,10 @@ content_updated_at: "2026-11-17"
   - 새로 발생/악화하는 통증 등 증상 변화는 단순 재발로 단정하지 않음
   - 의심 병변 평가, 필요 시 마취하 검사·생검·누공 소파
 
-출처 : Merck Manual Professional
-출처 : 삼성서울병원 외과 메뉴얼
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

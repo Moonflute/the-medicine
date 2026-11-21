@@ -50,7 +50,8 @@ reviewed_at: "2026-07-30"
 - 원인 질환의 경과에 따라 예후가 결정됨
 - 지속적인 저칼륨혈증 및 고혈압 조절 실패 시 심혈관계 합병증 위험 증가
 
-보완 출처: [Endocrine Society 2025 — aldosterone/renin 검사 전 약제 영향](https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2)
+## 출처
+- [Endocrine Society 2025 — aldosterone/renin 검사 전 약제 영향](https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2)
 
 Last updated :
 2026-05-03 : 본문 갱신 (processed)

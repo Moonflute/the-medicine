@@ -164,9 +164,11 @@ content_updated_at: "2026-11-18"
   - 저칼슘 증상·쉰 목소리: 부갑상샘/후두신경 평가, 증상·검사에 따른 신속 교정·의뢰
 - **갑상샘중독증 합병증**: 심부전·부정맥·주기적 마비·중독발작
 
-출처 : Merck Manual Professional (Thyroid Cancers); [ATA 갑상샘중독증 지침](https://doi.org/10.1089/thy.2016.0229).
+## 출처
+- Merck Manual Professional (Thyroid Cancers); [ATA 갑상샘중독증 지침](https://doi.org/10.1089/thy.2016.0229).
+- 삼성서울병원 메뉴얼
+- 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-- 보완 출처: 삼성서울병원 메뉴얼
-- 보완 출처: 삼성서울병원 외과 메뉴얼

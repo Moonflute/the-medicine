@@ -61,9 +61,11 @@ sources: ["NICE NG126 항-D 예방 권고 | https://www.nice.org.uk/guidance/ng1
 - **예후**: 대부분 신체적 회복은 양호; 반복 유산은 정밀 평가
 - **합병증**: 패혈유산 등 감염 주의
 
-출처 : StatPearls (Early Pregnancy Loss)
+## 출처
+- StatPearls (Early Pregnancy Loss)
 - [NICHD: Pregnancy Loss](https://www.nichd.nih.gov/health/topics/pregnancyloss)
 - [ACOG: Early Pregnancy Loss](https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2018/11/early-pregnancy-loss)
 - [NICE NG126: Diagnosis](https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

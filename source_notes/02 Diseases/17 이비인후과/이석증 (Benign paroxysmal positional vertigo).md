@@ -60,7 +60,9 @@ review_status: "guideline_enriched"
 ## 6. 예후 및 합병증
 - **경과**: 재발 가능성이 있으며 전정재활운동이 도움
 
-출처 : StatPearls (Benign Paroxysmal Positional Vertigo), Merck Manual Professional
+## 출처
+- StatPearls (Benign Paroxysmal Positional Vertigo), Merck Manual Professional
+
 Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)

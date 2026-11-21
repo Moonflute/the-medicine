@@ -42,7 +42,9 @@ content_updated_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 알칼리 치료를 하지 않을 경우 성장 장애 및 골질환이 악화될 수 있음.
 
-출처 : Merck Manual Professional (Renal Tubular Acidosis)
+## 출처
+- Merck Manual Professional (Renal Tubular Acidosis)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성 (특정 정보 없음)
 2026-05-18 — 본문 갱신 (codex fill)

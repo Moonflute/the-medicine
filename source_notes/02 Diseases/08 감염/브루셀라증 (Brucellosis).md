@@ -54,7 +54,9 @@ reviewed_at: "2026-07-30"
 - 만성 감염으로 진행될 수 있으며, 심내막염, 골수염(천장관절염, 척추염), 신경 브루셀라증, 고환염 등이 발생할 수 있다.
   치료 후에도 5~15%에서 재발할 수 있어 1년간 추적 관찰이 필요하다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

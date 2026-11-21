@@ -61,6 +61,8 @@ sources: ["NICE CG185 | https://www.nice.org.uk/guidance/cg185/chapter/Recommend
 * **Carbamazepine**: 혈액학적 부작용(백혈구 감소증), 피부 발진, 저나트륨혈증.
 * **Lamotrigine**: 피부 발진(스티븐스-존슨 증후군 주의), 어지럼증, 복시.
 
-출처 : StatPearls (Mood Stabilizers, Mood Disorder)
+## 출처
+- StatPearls (Mood Stabilizers, Mood Disorder)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

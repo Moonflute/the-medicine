@@ -59,8 +59,10 @@ sources: ["한국 골수증식종양 지침 | https://pmc.ncbi.nlm.nih.gov/artic
 - 주요 합병증은 혈전증.
   골수섬유증 또는 급성 골수성 백혈병으로 진행할 수 있음.
 
-출처 : Merck Manual Professional; [Onkopedia PV 지침](https://www.onkopedia-guidelines.info/en/onkopedia/guidelines/polycythaemia-vera-pv/%40%40guideline/html/index.html); [ELN 2021 세포감소치료 권고](https://pubmed.ncbi.nlm.nih.gov/35358444/)
-보완 출처: 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional; [Onkopedia PV 지침](https://www.onkopedia-guidelines.info/en/onkopedia/guidelines/polycythaemia-vera-pv/%40%40guideline/html/index.html); [ELN 2021 세포감소치료 권고](https://pubmed.ncbi.nlm.nih.gov/35358444/)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

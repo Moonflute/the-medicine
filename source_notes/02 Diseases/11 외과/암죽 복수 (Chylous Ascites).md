@@ -47,6 +47,8 @@ reviewed_at: "2026-07-30"
 - **예후**: 악성종양 등 원인 질환에 따라 결정
 - **합병증**: 지속 림프 소실에 따른 영양실조·면역저하
 
-출처 : StatPearls (Ascites)
+## 출처
+- StatPearls (Ascites)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

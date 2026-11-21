@@ -76,7 +76,9 @@ sources: ["EASL 양성 간종양 지침 | https://easl.eu/wp-content/uploads/201
 
 - **합병증**: 드물게 종양 내 출혈, 파열, 카사바흐-메리트 증후군(Kasabach-Merritt syndrome, 혈소판 감소증 및 응고 장애 동반) 등이 발생할 수 있다.
 
-출처 : StatPearls (Cavernous Hepatic Hemangioma)
+## 출처
+- StatPearls (Cavernous Hepatic Hemangioma)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)

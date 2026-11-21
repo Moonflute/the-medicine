@@ -58,6 +58,8 @@ sources: ["PIDS/IDSA 2023 | https://www.idsociety.org/practice-guideline/acute-b
 * 조기 진단 및 신속한 치료 시 예후가 좋음
 * 치료 지연 시 영구적인 관절 연골 손상, 관절 강직, 성장판 손상으로 인한 성장 장애 등 합병증 발생 가능
 
-출처 : StatPearls (Arthritis)
+## 출처
+- StatPearls (Arthritis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

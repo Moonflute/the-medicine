@@ -51,6 +51,8 @@ reviewed_at: "2026-07-30"
 - 노화에 따른 자연스러운 현상으로 완치는 어려우나 교정 도구를 통해 일상생활의 불편함을 해소 가능
 - 적절한 교정이 이루어지지 않을 경우 시각적 피로 및 삶의 질 저하 유발
 
-출처 : StatPearls (Presbyopia, Contact Lenses for Presbyopia)
+## 출처
+- StatPearls (Presbyopia, Contact Lenses for Presbyopia)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

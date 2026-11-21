@@ -63,6 +63,8 @@ content_updated_at: "2026-11-18"
 ## 6. 예후 및 합병증 (Prognosis)
 - 초기 진단과 조기 치료가 장기적인 장애 예방에 필수적, 재발 빈도와 신경학적 결손의 축적 정도에 따라 예후가 결정됨
 
-출처 보완: [2024 McDonald 진단기준 개정](https://pubmed.ncbi.nlm.nih.gov/40975101/)
+## 출처
+- [2024 McDonald 진단기준 개정](https://pubmed.ncbi.nlm.nih.gov/40975101/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

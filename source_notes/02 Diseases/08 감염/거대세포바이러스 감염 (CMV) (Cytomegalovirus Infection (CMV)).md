@@ -79,7 +79,9 @@ sources: ["국제 CMV 합의 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC121
 - 면역 저하 환자에서 중증 감염 및 사망 위험이 높다.
   선천성 CMV 감염은 신경학적 발달 지연 및 진행성 청력 손실을 유발할 수 있다.
 
-출처 : Merck Manual Professional (2026); 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional (2026); 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

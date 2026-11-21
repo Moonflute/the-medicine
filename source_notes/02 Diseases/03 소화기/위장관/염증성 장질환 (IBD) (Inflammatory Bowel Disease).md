@@ -71,5 +71,3 @@ guideline_review_status: primary_source_reviewed
 ## 포함 질환
 - [[궤양성 대장염 (UC) (Ulcerative Colitis)]]
 - [[크론병 (CD) (Crohn's Disease (CD))]]
-
-## 참고 가이드라인

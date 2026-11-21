@@ -68,8 +68,10 @@ sources: ["CDC IUD와 골반염 관리 | https://www.cdc.gov/contraception/hcp/u
 ## 6. 예후 및 합병증
 - **합병증**: 난임, 자궁외 임신, 만성 골반통, 난관-난소 농양, Fitz-Hugh-Curtis 증후군
 
-출처 : StatPearls (Pelvic Inflammatory Disease)
+## 출처
+- StatPearls (Pelvic Inflammatory Disease)
 - [CDC: Pelvic Inflammatory Disease](https://www.cdc.gov/std/treatment-guidelines/pid.htm)
+
 Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)

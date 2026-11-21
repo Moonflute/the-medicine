@@ -69,9 +69,11 @@ content_updated_at: "2026-11-17"
 - 대부분 양성으로 예후가 좋음.
   악성 결절은 조기 발견 및 수술 시 예후가 양호하나, 결절의 크기 및 악성도에 따라 개별화된 치료 필요.
 
-출처 : Merck Manual Professional (Approach to the Patient With a Thyroid Nodule); EFSUMB Guidelines on Multiparametric Ultrasound Thyroid Nodule Evaluation: PART I; [ETA 결절 지침 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10448590/).
+## 출처
+- Merck Manual Professional (Approach to the Patient With a Thyroid Nodule); EFSUMB Guidelines on Multiparametric Ultrasound Thyroid Nodule Evaluation: PART I; [ETA 결절 지침 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10448590/).
+- 삼성서울병원 메뉴얼
+- 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
-- 보완 출처: 삼성서울병원 메뉴얼
-- 보완 출처: 삼성서울병원 외과 메뉴얼

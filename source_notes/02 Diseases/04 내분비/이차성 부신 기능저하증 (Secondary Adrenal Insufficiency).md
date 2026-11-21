@@ -57,4 +57,6 @@ reviewed_at: "2026-07-30"
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
-- 보완 출처: 삼성서울병원 메뉴얼; [Endocrine Society — Hypopituitarism](https://www.endocrine.org/clinical-practice-guidelines/hormone-replacement-in-hypopituitarism)
+
+## 출처
+- 삼성서울병원 메뉴얼; [Endocrine Society — Hypopituitarism](https://www.endocrine.org/clinical-practice-guidelines/hormone-replacement-in-hypopituitarism)

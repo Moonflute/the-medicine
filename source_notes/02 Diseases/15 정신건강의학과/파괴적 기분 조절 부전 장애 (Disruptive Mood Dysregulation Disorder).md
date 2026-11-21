@@ -49,7 +49,8 @@ relation_to_parent: subtype
 ## 6. 예후 및 합병증
 - 조기 발견 및 개입 시 예후가 좋으나, 방치 시 성인기 우울장애나 불안장애로 이행 가능성 있음.
 
-출처: [NIMH DMDD](https://www.nimh.nih.gov/health/publications/disruptive-mood-dysregulation-disorder), [DSM-5 DMDD 기준 검토](https://pmc.ncbi.nlm.nih.gov/articles/PMC4254488/)
+## 출처
+- [NIMH DMDD](https://www.nimh.nih.gov/health/publications/disruptive-mood-dysregulation-disorder), [DSM-5 DMDD 기준 검토](https://pmc.ncbi.nlm.nih.gov/articles/PMC4254488/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

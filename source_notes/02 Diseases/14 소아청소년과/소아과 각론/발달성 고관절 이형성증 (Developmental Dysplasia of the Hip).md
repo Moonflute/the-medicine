@@ -55,6 +55,8 @@ sources: ["AAOS | https://new.aaos.org/quality/quality-programs/pediatric-develo
 * 조기 진단 및 치료 시 예후 양호
 * 치료 지연 시 지속적인 탈구, 조기 퇴행성 관절염 등 합병증 발생 가능
 
-출처 : StatPearls (Developmental Dysplasia of the Hip)
+## 출처
+- StatPearls (Developmental Dysplasia of the Hip)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

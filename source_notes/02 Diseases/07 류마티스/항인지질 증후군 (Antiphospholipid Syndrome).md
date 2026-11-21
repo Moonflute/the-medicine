@@ -66,7 +66,9 @@ sources: ["EULAR | https://doi.org/10.1136/annrheumdis-2019-215213"]
 ## 6. 예후 및 합병증 (Prognosis)
 - 반복적인 혈전 재발 위험이 높으며, 다장기 침범 시 예후가 불량할 수 있다.
 
-출처 : Merck Manual Professional (Antiphospholipid Syndrome); 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional (Antiphospholipid Syndrome); 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성

@@ -54,7 +54,9 @@ sources: ["FIGO 임신성 영양막질환 업데이트(2025) | https://pmc.ncbi.
 ## 6. 예후 및 합병증 (Prognosis)
 - 비침윤성 기태도 침습성 기태·융모암으로 진행 가능, 정기 β-hCG 추적 필수
 
-출처 : StatPearls (Hydatidiform Mole)
+## 출처
+- StatPearls (Hydatidiform Mole)
 - [NCI: Gestational Trophoblastic Disease Treatment](https://www.cancer.gov/types/gestational-trophoblastic/hp/gtd-treatment-pdq)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

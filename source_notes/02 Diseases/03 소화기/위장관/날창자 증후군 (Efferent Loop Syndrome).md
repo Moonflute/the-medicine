@@ -51,7 +51,9 @@ sources: ["ASGE 위십이지장 폐쇄 지침 | https://doi.org/10.1016/j.gie.20
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 수술 시 예후가 좋으나, 진단 지연 시 천공, 복막염, 패혈증으로 인한 높은 사망률을 보임.
 
-참고: StatPearls (Afferent Loop Syndrome, 감별); [Efferent loop syndrome 치료 원저](https://pmc.ncbi.nlm.nih.gov/articles/PMC3819560/); [Billroth II 후 날창자 폐쇄 증례](https://pmc.ncbi.nlm.nih.gov/articles/PMC6229179/).
+## 출처
+- StatPearls (Afferent Loop Syndrome, 감별); [Efferent loop syndrome 치료 원저](https://pmc.ncbi.nlm.nih.gov/articles/PMC3819560/); [Billroth II 후 날창자 폐쇄 증례](https://pmc.ncbi.nlm.nih.gov/articles/PMC6229179/).
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

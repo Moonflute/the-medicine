@@ -69,7 +69,7 @@ sources: ["ASRM 난임 평가 합의 | https://integration.asrm.org/practice-gui
 - **합병증**: 난소 과자극 증후군 (OHSS), 다태 임신, 자궁외 임신
 - **예후**: 여성 연령이 가장 중요한 인자(35세 이후 가임력 급격히 감소)
 
-출처:
+## 출처
 - [EAU: Male Infertility — WHO 6판 정액 참고값](https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/male-infertility)
 - [ASRM 2026: Fertility evaluation of infertile women](https://www.asrm.org/practice-guidance/practice-committee-documents/fertility-evaluation-of-infertile-women-a-committee-opinion-2026)
 

@@ -55,9 +55,10 @@ sources: ["유럽 다학제 지침 2020 | https://pmc.ncbi.nlm.nih.gov/articles/
 - 적절한 재개통술 시행 시 증상 완화 및 예후가 양호함.
   치료하지 않은 증상성 환자는 장경색 및 패혈증 위험이 매우 높음
 
-출처 : StatPearls (Chronic Mesenteric Ischemia)
+## 출처
+- StatPearls (Chronic Mesenteric Ischemia)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

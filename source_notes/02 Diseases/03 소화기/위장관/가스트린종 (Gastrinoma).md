@@ -59,9 +59,11 @@ sources: ["NCI 내분비·신경내분비종양 유전학 PDQ | https://www.canc
 - 종양의 완전 절제 여부가 예후를 결정함 (완전 절제 시 5년 생존율 >90%)
 - 약 50%에서 악성 종양의 성질을 띰
 
-출처 : Merck Manual Professional (Gastrinoma)
-보완 출처: 삼성서울병원 외과 메뉴얼
-참고 가이드라인: [ENETS 기능성 NET 2023](https://doi.org/10.1111/jne.13318), [Endocrine Society MEN1 지침](https://academic.oup.com/jcem/article/97/9/2990/2536740)
+## 출처
+- Merck Manual Professional (Gastrinoma)
+- 삼성서울병원 외과 메뉴얼
+- [ENETS 기능성 NET 2023](https://doi.org/10.1111/jne.13318), [Endocrine Society MEN1 지침](https://academic.oup.com/jcem/article/97/9/2990/2536740)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -58,7 +58,9 @@ sources: ["NICE NG239 | https://www.nice.org.uk/guidance/ng239/chapter/Recommend
   평생 보충 및 모니터링 필요.
   위암 발생 위험 증가로 인한 정기적 추적 관찰 권고.
 
-출처 : StatPearls (Pernicious Anemia)
+## 출처
+- StatPearls (Pernicious Anemia)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

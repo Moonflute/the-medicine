@@ -99,6 +99,8 @@ T2–4는 궤양이 없으면 a, 있으면 b를 붙인다. Clark level을 Breslo
 * **예후 인자**: Breslow 두께(침범 깊이), 궤양 유무, 림프절 전이 여부.
 - **합병증**: 국소 재발, 림프절 전이, 원격 전이(폐, 간, 뇌 등).
 
-출처 : StatPearls (Malignant Melanoma, Cutaneous Malignant Melanoma)
+## 출처
+- StatPearls (Malignant Melanoma, Cutaneous Malignant Melanoma)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

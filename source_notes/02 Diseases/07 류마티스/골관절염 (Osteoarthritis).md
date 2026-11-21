@@ -70,7 +70,9 @@ review_status: "guideline_enriched"
 - **예후**: 질병의 진행을 근본적으로 멈추는 방법은 없으며, 통증 완화와 기능 유지가 치료의 주된 목적이다.
 - **합병증**: 관절 변형, 운동 범위 제한, 관절 불안정성, 척추 침범 시 신경학적 증상(척추관 협착증 등)이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Osteoarthritis)
+## 출처
+- Merck Manual Professional (Osteoarthritis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성

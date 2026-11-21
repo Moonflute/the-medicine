@@ -62,7 +62,9 @@ content_updated_at: "2026-07-16"
 - 사망률이 높으며, 패혈증 및 다장기 부전이 주요 사망 원인이다.
 - 후유증: 안구 건조, 각막 흉터, 피부 색소 침착, 점막 유착, 호흡기 합병증 등이 남을 수 있다.
 
-출처 : Merck Manual Professional, StatPearls
+## 출처
+- Merck Manual Professional, StatPearls
+
 Last updated :
 2024-07-29 — 초안 분리 정리
 2026-05-18 — 본문 갱신 (codex fill)

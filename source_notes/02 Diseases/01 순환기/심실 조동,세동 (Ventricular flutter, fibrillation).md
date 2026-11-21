@@ -70,7 +70,9 @@ reviewed_at: "2026-07-30"
 - 생존자는 재발, 신경학적 손상, 혈역학적 불안정 위험이 있음.
 - 회복기에는 신체 기능, 인지, 심리사회적 요구와 재활·추적 계획을 평가해 지원한다.
 
-출처 : StatPearls: Ventricular Fibrillation (2026)
+## 출처
+- StatPearls: Ventricular Fibrillation (2026)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

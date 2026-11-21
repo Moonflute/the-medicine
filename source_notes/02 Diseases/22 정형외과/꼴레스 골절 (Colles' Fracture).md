@@ -56,6 +56,8 @@ sources: ["AAOS/ASSH 원위 요골 골절 지침 요약 | https://pubmed.ncbi.nl
 - **합병증**: 정중신경 손상(수근관 증후군), 건 파열(특히 장무지신근), 부정유합, 관절염.
 - **예후**: 조기 정복 및 적절한 고정이 중요하며, 고령 환자는 기능적 회복에 주의가 필요함.
 
-출처 : StatPearls (Colles Fracture)
+## 출처
+- StatPearls (Colles Fracture)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

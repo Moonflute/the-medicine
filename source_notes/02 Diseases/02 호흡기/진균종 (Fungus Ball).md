@@ -52,7 +52,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 폐 아스페르길루스증(CPA)으로 진행하거나 치명적인 대량 객혈이 발생할 수 있음.
 
-출처 : StatPearls (Aspergilloma)
+## 출처
+- StatPearls (Aspergilloma)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

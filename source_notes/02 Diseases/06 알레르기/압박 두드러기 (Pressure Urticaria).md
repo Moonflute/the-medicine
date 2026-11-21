@@ -53,8 +53,9 @@ sources: ["유발성 두드러기 합의 | https://doi.org/10.1111/all.16250"]
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 경과를 보일 수 있으며, 일상생활에 큰 영향을 줄 수 있다.
 
+## 출처
+- Merck Manual Professional
 
-출처 : Merck Manual Professional
 Last updated :
 2024-07-29 — 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

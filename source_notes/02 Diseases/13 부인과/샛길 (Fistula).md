@@ -47,7 +47,8 @@ reviewed_at: "2026-07-30"
 - 합병증: 재발성 감염, 만성 통증, 요실금 또는 변실금, 정신적 스트레스
 - 예후: 조기 발견 및 적절한 수술적 교정 시 예후가 양호하나, 방사선 치료 후 발생한 누공은 치유가 어려울 수 있음
 
-출처:
+## 출처
 - [SASGOG: Postoperative Urinary Fistulae](https://exxcellence.org/list-of-pearls/postoperative-urinary-fistulae/)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

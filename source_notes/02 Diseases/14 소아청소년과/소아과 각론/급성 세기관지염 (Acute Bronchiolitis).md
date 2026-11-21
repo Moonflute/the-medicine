@@ -62,7 +62,7 @@ sources: ["NICE 소아 세기관지염 지침 | https://www.nice.org.uk/guidance
 * 중증 시 호흡 부전 가능성
 * 반복적인 천명음 발생 시 추후 천식 발병 위험 증가 가능성
 
-출처:
+## 출처
 - [NICE: Bronchiolitis in children](https://www.nice.org.uk/guidance/ng9/chapter/recommendations)
 
 Last updated :

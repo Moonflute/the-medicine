@@ -94,9 +94,10 @@ content_updated_at: "2026-11-18"
   - 완전 관해 후 MRD 음성 여부가 핵심 예후 인자
 - **합병증**: 감염·출혈·종양용해증후군·CNS 재발
 
-출처 : Merck Manual Professional (Acute Lymphoblastic Leukemia)
+## 출처
+- Merck Manual Professional (Acute Lymphoblastic Leukemia)
+- 삼성서울병원 메뉴얼; [CAP Lymphoid Neoplasms Protocol](https://documents.cap.org/protocols/Heme.Lymphoid.Bx.Res_1.0.0.0.REL_CAPCP_R.pdf); [NCI Childhood NHL](https://www.cancer.gov/types/lymphoma/hp/child-nhl-treatment-pdq)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼; [CAP Lymphoid Neoplasms Protocol](https://documents.cap.org/protocols/Heme.Lymphoid.Bx.Res_1.0.0.0.REL_CAPCP_R.pdf); [NCI Childhood NHL](https://www.cancer.gov/types/lymphoma/hp/child-nhl-treatment-pdq)

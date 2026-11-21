@@ -57,7 +57,8 @@ relation_to_parent: subtype
 - 예후: 대개 청소년기를 지나며 증상이 완화되나, 일부는 성인기까지 지속됨.
 - 합병증: ADHD, 강박 장애, 불안 장애, 우울증 등 동반 질환 관리 중요.
 
-출처: [CDC 틱 장애 진단](https://www.cdc.gov/tourette-syndrome/diagnosis/index.html)
+## 출처
+- [CDC 틱 장애 진단](https://www.cdc.gov/tourette-syndrome/diagnosis/index.html)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

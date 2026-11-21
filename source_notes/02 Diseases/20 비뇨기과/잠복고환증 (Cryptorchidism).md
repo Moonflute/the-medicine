@@ -51,9 +51,10 @@ content_updated_at: "2026-07-16"
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 불임(특히 양측성인 경우 위험도 증가), 고환암(정상인보다 위험도 높음), 고환 염전, 서혜부 탈장.
-* **참고:** 수술 시기가 늦어질수록 정자 형성 기능 저하 및 고환암 위험이 증가할 수 있음.
 
+## 출처
+- ** 수술 시기가 늦어질수록 정자 형성 기능 저하 및 고환암 위험이 증가할 수 있음.
+- StatPearls (Cryptorchidism)
 
-출처 : StatPearls (Cryptorchidism)
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

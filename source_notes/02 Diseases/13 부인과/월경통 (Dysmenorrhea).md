@@ -59,7 +59,9 @@ sources: ["ACOG | https://doi.org/10.1097/AOG.0000000000002978"]
 - **일차성**: 연령 증가·출산 후 호전 경향
 - **이차성**: 원인 질환의 경과에 따름
 
-출처 : StatPearls (Dysmenorrhea)
+## 출처
+- StatPearls (Dysmenorrhea)
 - [ACOG: Dysmenorrhea and Endometriosis in the Adolescent](https://doi.org/10.1097/aog.0000000000002978)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

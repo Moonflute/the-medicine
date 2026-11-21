@@ -72,9 +72,10 @@ sources: ["폐 및 흉막 감염의 진단과 치료 임상진료지침 | https:
 
 - 대부분 항생제 치료에 반응하나, 치료 실패 시 농흉, 기관지 흉막루, 폐 괴저 등의 합병증이 발생할 수 있음.
 
-출처 : Merck Manual Professional (Lung Abscess)
+## 출처
+- Merck Manual Professional (Lung Abscess)
+- 삼성서울병원 메뉴얼. IDSA/ATS HAP/VAP 진료지침, BTS Pleural Disease Guideline 2023, IDSA 성인 CAP 진료지침을 대조하여 폐렴 분류, 배양 기반 항생제 축소, 흉막감염 배액 원칙을 갱신. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. IDSA/ATS HAP/VAP 진료지침, BTS Pleural Disease Guideline 2023, IDSA 성인 CAP 진료지침을 대조하여 폐렴 분류, 배양 기반 항생제 축소, 흉막감염 배액 원칙을 갱신. 2026-09-14 기존 목차 내 보완.

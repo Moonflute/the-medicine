@@ -48,7 +48,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 기저 질환의 예후에 따라 달라지며, 상기도 부종으로 인한 질식 위험이 있으므로 급성기 기도 확보가 중요하다.
 
-출처 : StatPearls: Acquired Angioedema
+## 출처
+- StatPearls: Acquired Angioedema
+
 Last updated :
 2024-07-29 — 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

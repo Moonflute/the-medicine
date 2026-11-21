@@ -88,7 +88,9 @@ sources: ["NICE 자궁외임신 및 유산 초기 진단·관리 지침(NG126) |
 - 조기 진단이 중요하며, 파열 시 복강 내 대량 출혈로 인한 쇼크 및 사망 위험 존재.
 - 향후 임신력 보존을 위한 적절한 관리가 필요함.
 
-출처 : StatPearls (Ectopic Pregnancy, Ectopic Pregnancy Ultrasound)
+## 출처
+- StatPearls (Ectopic Pregnancy, Ectopic Pregnancy Ultrasound)
 - [ACOG: Long-Acting Reversible Contraception](https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2017/11/long-acting-reversible-contraception-implants-and-intrauterine-devices)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

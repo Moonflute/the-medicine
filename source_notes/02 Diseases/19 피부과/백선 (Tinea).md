@@ -54,6 +54,8 @@ sources: ["AAD 백선 | https://www.aad.org/public/diseases/a-z/ringworm-treatme
 * 적절한 치료 시 예후가 좋으나, 치료 중단 시 재발 가능.
   합병증으로 이차 세균 감염, 영구적 탈모(흉터성 탈모), 염증성 반응(kerion) 등이 발생할 수 있음.
 
-출처 : StatPearls (Tinea Barbae, Tinea Capitis)
+## 출처
+- StatPearls (Tinea Barbae, Tinea Capitis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

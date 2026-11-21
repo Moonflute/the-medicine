@@ -73,4 +73,5 @@ sources: ["NICE NG217 | https://www.nice.org.uk/guidance/ng217/chapter/treating-
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 
-출처: 삼성서울병원 메뉴얼, [ILAE 임상 정의](https://www.ilae.org/guidelines/guidelines-and-reports/a-practical-clinical-definition-of-epilepsy)
+## 출처
+- 삼성서울병원 메뉴얼, [ILAE 임상 정의](https://www.ilae.org/guidelines/guidelines-and-reports/a-practical-clinical-definition-of-epilepsy)

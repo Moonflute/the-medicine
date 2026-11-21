@@ -50,8 +50,9 @@ sources: ["캐나다 선천성 횡격막 탈장 관리 지침 개정 | https://f
 * 폐 형성 부전 정도 및 폐 고혈압이 예후 결정
 * 합병증: 만성 폐질환, 폐 고혈압, 성장 지연, 위식도 역류 등
 
-출처 : StatPearls (Congenital Diaphragmatic Hernia, Anesthetic Considerations)
-출처 : 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls (Congenital Diaphragmatic Hernia, Anesthetic Considerations)
+- 삼성서울병원 외과 메뉴얼
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

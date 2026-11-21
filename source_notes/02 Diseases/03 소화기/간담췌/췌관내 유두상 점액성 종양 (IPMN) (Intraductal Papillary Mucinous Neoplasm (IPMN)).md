@@ -85,7 +85,9 @@ sources: ["Kyoto 2024 | https://doi.org/10.1016/j.pan.2023.12.009"]
 
 - **합병증**: 췌장암으로의 진행, 췌장염, 담관 폐쇄, 수술 후 췌장 누공 등이 발생할 수 있다.
 
-출처 : StatPearls (Intraductal Papillary Mucinous Neoplasm of the Pancreas)
+## 출처
+- StatPearls (Intraductal Papillary Mucinous Neoplasm of the Pancreas)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)

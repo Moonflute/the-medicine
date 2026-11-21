@@ -53,6 +53,8 @@ reviewed_at: "2026-07-30"
 * 섭취 중단 시 대부분의 증상은 가역적으로 회복됨
 * 만성적인 고용량 노출 시 간 섬유화, 간경변, 골다공증 등 영구적인 손상이 발생할 수 있음
 
-출처 : StatPearls (Vitamin A Toxicity)
+## 출처
+- StatPearls (Vitamin A Toxicity)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

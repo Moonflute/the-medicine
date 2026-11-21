@@ -54,6 +54,8 @@ sources: ["BOAST 말초신경 손상 | https://www.boa.ac.uk/resource/boast-peri
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료 시 예후가 양호하나, 방치 시 영구적인 근위축 및 손 기능 저하가 발생할 수 있음.
 
-출처 : StatPearls (Anatomy, Shoulder and Upper Limb, Ulnar Nerve)
+## 출처
+- StatPearls (Anatomy, Shoulder and Upper Limb, Ulnar Nerve)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

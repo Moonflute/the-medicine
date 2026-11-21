@@ -56,9 +56,10 @@ sources: ["WSES 구불창자 꼬임 지침 2023 | https://link.springer.com/arti
 
 - **치료 경과**: 비수술적 감압 후 재발률이 높아 전신 상태가 허락하면 선택적 절제술 고려. 천공 발생 시 즉각적인 응급 수술 필요
 
-출처 : StatPearls (Sigmoid Volvulus)
+## 출처
+- StatPearls (Sigmoid Volvulus)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

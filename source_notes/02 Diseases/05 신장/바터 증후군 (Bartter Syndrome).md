@@ -52,7 +52,9 @@ sources: ["ERKNet 합의 | https://www.erknet.org/fileadmin/Guidelines/Konrad_et
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료가 중요하며, 성장 지연 및 신석회화 등의 합병증 관리 필요.
 
-출처 : Merck Manual Professional (Bartter Syndrome and Gitelman Syndrome)
+## 출처
+- Merck Manual Professional (Bartter Syndrome and Gitelman Syndrome)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

@@ -80,4 +80,5 @@ Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-보완 출처: 삼성서울병원 메뉴얼; [Endocrine Society 원발성 부신부전 지침](https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency). ESE·Endocrine Society 글루코코르티코이드 유발 부신기능저하증 지침 2024을 대조. 2026-09-14 기존 목차 내 보완.
+## 출처
+- 삼성서울병원 메뉴얼; [Endocrine Society 원발성 부신부전 지침](https://www.endocrine.org/clinical-practice-guidelines/primary-adrenal-insufficiency). ESE·Endocrine Society 글루코코르티코이드 유발 부신기능저하증 지침 2024을 대조. 2026-09-14 기존 목차 내 보완.

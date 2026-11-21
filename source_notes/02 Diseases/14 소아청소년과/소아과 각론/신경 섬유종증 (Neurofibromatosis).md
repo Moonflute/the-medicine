@@ -72,6 +72,8 @@ sources: ["FDA 소아 종양 약제 | https://www.fda.gov/about-fda/oncology-cen
 * 증상의 심각도 및 침범 장기에 따라 다양함
 * 악성 말초 신경초 종양(MPNST) 등 악성 종양 발생 가능성에 대한 정기적 추적 관찰 필요
 
-출처 : StatPearls (Neurofibromatosis, Neurofibromatosis Type 1); [NF1 국제 진단 기준 2021](https://www.nature.com/articles/s41436-021-01170-5); [NF2·슈반종증 기준 2022](https://www.ctf.org/diagnostic-criteria/)
+## 출처
+- StatPearls (Neurofibromatosis, Neurofibromatosis Type 1); [NF1 국제 진단 기준 2021](https://www.nature.com/articles/s41436-021-01170-5); [NF2·슈반종증 기준 2022](https://www.ctf.org/diagnostic-criteria/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

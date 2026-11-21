@@ -51,4 +51,5 @@ sources: ["IDSA/ATS HAP/VAP 진료지침 | https://www.idsociety.org/practice-gu
   - VAP의 지역 MRSA 기준은 **10–20%**로 HAP와 다름
 - **초기 항녹농균제 병용**: 최근 IV 항생제·사망 고위험·기관지확장증 등 내성 그람음성균 위험 시 서로 다른 계열 병용 가능; 배양·감수성과 임상 안정 후 축소
 
-보완 출처: 삼성서울병원 메뉴얼. IDSA/ATS HAP/VAP 진료지침, BTS Pleural Disease Guideline 2023, IDSA 성인 CAP 진료지침을 대조하여 폐렴 분류, 배양 기반 항생제 축소, 흉막감염 배액 원칙을 갱신. 2026-09-14 기존 목차 내 보완.
+## 출처
+- 삼성서울병원 메뉴얼. IDSA/ATS HAP/VAP 진료지침, BTS Pleural Disease Guideline 2023, IDSA 성인 CAP 진료지침을 대조하여 폐렴 분류, 배양 기반 항생제 축소, 흉막감염 배액 원칙을 갱신. 2026-09-14 기존 목차 내 보완.

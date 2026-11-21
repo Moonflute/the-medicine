@@ -48,7 +48,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 양호하나, 균혈증 및 국소 감염 (골수염, 농양, 혈관염 등) 발생 가능
 
-출처 : CDC, Merck Manual Professional
+## 출처
+- CDC, Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

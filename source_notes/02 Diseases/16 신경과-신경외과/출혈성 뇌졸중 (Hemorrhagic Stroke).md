@@ -72,5 +72,3 @@ guideline_reviewed_at: '2026-10-21'
 - [[뇌내 출혈 (Intracerebral hemorrhage)]]
 - [[만성 경막하 출혈 (Chronic subdural hematoma)]]
 - [[지주막하 출혈 (Subarachnoid hemorrhage)]]
-
-## 참고 자료

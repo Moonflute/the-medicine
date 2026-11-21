@@ -90,7 +90,9 @@ content_updated_at: "2026-11-18"
 - **예후**: 대부분 완치 가능
 - **장기 추적**: 불임·이차암·심장독성·폐독성 등 치료 관련 합병증 감시
 
-출처 : Merck Manual Professional (Hodgkin Lymphoma)
+## 출처
+- Merck Manual Professional (Hodgkin Lymphoma)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

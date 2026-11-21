@@ -45,6 +45,8 @@ reviewed_at: "2026-07-30"
 - 원인 질환의 가역성에 따라 예후가 결정됨.
   감각 소실로 인한 보행 장애 및 낙상 위험이 높음.
 
-출처 : StatPearls (Central Cord Syndrome, Posterior Interosseous Nerve Syndrome)
+## 출처
+- StatPearls (Central Cord Syndrome, Posterior Interosseous Nerve Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

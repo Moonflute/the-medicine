@@ -54,7 +54,9 @@ sources: ["유럽 저나트륨 지침 | https://academic.oup.com/ejendo/article/
 ## 6. 예후 및 합병증 (Prognosis)
 - 저나트륨혈증이 심할 경우 발작, 혼수, 사망에 이를 수 있음.
 
-출처 : StatPearls (Primary Polydipsia)
+## 출처
+- StatPearls (Primary Polydipsia)
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

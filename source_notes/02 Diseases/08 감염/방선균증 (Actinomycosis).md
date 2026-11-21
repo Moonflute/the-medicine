@@ -64,7 +64,9 @@ reviewed_at: "2026-07-30"
 - 치료 반응은 서서히 나타나며, 조기 진단이 예후를 결정한다.
   치료 지연 시 광범위한 조직 파괴와 파종성 감염이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Actinomycosis)
+## 출처
+- Merck Manual Professional (Actinomycosis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

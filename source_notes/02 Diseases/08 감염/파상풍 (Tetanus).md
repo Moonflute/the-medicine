@@ -64,7 +64,9 @@ sources: ["CDC 파상풍 치료 | https://www.cdc.gov/tetanus/hcp/clinical-care/
 - 호흡근 마비 및 후두 경련으로 인한 호흡 부전이 가장 흔한 사망 원인이다.
   적절한 중환자 치료 시 회복 가능하나, 고령이나 잠복기가 짧은 경우 예후가 불량하다.
 
-출처 : Merck Manual Professional (Tetanus, 2025)
+## 출처
+- Merck Manual Professional (Tetanus, 2025)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

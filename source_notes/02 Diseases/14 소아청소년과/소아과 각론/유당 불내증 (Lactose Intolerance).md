@@ -55,6 +55,8 @@ sources: ["소아 대변 환원당·pH 검사 성능 연구 | https://pubmed.ncb
 * 식이 조절로 증상 완화 가능
 * 장기적인 유제품 회피 시 골밀도 감소(골감소증/골다공증) 및 영양 불량 주의
 
-출처 : StatPearls (Lactose Intolerance)
+## 출처
+- StatPearls (Lactose Intolerance)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

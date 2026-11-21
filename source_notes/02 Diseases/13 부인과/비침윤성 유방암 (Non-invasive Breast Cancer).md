@@ -69,7 +69,9 @@ BI-RADS는 **영상의 악성 의심도**, TNM은 **확진된 암의 범위**이
 - 조기 발견 시 예후가 매우 우수함.
 - 치료 후에도 반대측 유방을 포함한 재발 가능성이 있으므로 정기적인 영상 추적 관찰이 필수적임.
 
-출처 : StatPearls (Breast Cancer, Breast Cancer Conservation Therapy)
+## 출처
+- StatPearls (Breast Cancer, Breast Cancer Conservation Therapy)
 - [CAP: Breast Biomarker Reporting](https://documents.cap.org/documents/New-Cancer-Protocols-March-2025/Breast.Bmk_1.6.0.0.REL.CAPCP.pdf)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

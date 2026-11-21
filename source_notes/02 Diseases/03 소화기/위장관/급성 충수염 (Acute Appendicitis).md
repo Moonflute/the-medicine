@@ -55,6 +55,8 @@ content_updated_at: "2026-11-16"
 - 조기 진단 및 수술 시 예후가 좋음.
 - 합병증: 천공, 복막염, 농양 형성, 장폐색.
 
-출처 : StatPearls (Acute Abdomen); 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls (Acute Abdomen); 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

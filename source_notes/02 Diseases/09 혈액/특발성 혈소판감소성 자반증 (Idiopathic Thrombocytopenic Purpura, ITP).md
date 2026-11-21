@@ -73,9 +73,10 @@ sources: ["ASH 2019 치료 시작·입원 기준 | https://pmc.ncbi.nlm.nih.gov/
 - **경과**: 소아는 대부분 자연 회복, 성인은 만성화 경향
 - **주요 합병증**: 뇌출혈 등 심각한 출혈
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

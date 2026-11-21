@@ -65,6 +65,6 @@ sources: ["WSES Bologna 유착성 소장폐쇄 지침 2017 update | https://link
 * **수술 적응증**: 교액 소견(혈류 차단), 복막염 징후, 감돈(incarcerated) 탈장, 장꼬임, 장 괴사.
 * **마비창자막힘증**: 원인 질환 교정 및 보존적 치료 우선.
 
-출처 : StatPearls (Small Bowel Obstruction)
-
-참고: 삼성서울병원 메뉴얼.
+## 출처
+- StatPearls (Small Bowel Obstruction)
+- 삼성서울병원 메뉴얼.

@@ -51,6 +51,8 @@ reviewed_at: "2026-07-30"
 * 보통 6~8주 내에 자연 치유됨.
 * 드물게 이차 세균 감염이나 색소 침착이 발생할 수 있음.
 
-출처 : StatPearls (Pityriasis Rosea)
+## 출처
+- StatPearls (Pityriasis Rosea)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

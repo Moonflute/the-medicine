@@ -96,7 +96,9 @@ sources: ["Appraisal of Clinical Practice Guideline: Early and locally advanced 
 - **예후**: 분자 아형·치료 반응에 따라 차이
 - **추적**: 국소 재발·원격전이 위험을 고려한 장기 감시
 
-출처 : StatPearls (Breast Cancer, Breast Cancer Conservation Therapy)
+## 출처
+- StatPearls (Breast Cancer, Breast Cancer Conservation Therapy)
 - [FDA 2026: T-DXd early-stage HER2-positive breast cancer](https://www.fda.gov/drugs/cancer-approvals/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -74,8 +74,10 @@ sources: ["EASL–EASD–EASO 2024 | https://doi.org/10.1016/j.jhep.2024.04.031"
 
 - **합병증**: 간경변증, 간세포암(HCC), 간부전, 문맥 고혈압 및 관련 합병증 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional
-참고 가이드라인: [AASLD NAFLD 지침 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/)
+## 출처
+- Merck Manual Professional
+- [AASLD NAFLD 지침 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10735173/)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)

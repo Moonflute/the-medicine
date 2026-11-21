@@ -53,6 +53,8 @@ sources: ["WSES-AAST 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6907251/"
 ## 6. 예후 및 합병증 (Prognosis)
 - 십이지장 누공(duodenal fistula), 복강 내 농양, 췌장염 등이 발생할 수 있음.
 
-출처 : Sabiston Textbook of Surgery
+## 출처
+- Sabiston Textbook of Surgery
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -62,7 +62,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 농양 파열, 패혈증, 괴사성 근막염, 렘피에르 증후군(Lemierre syndrome) 등 치명적인 합병증이 발생할 수 있으므로 조기 진단과 적절한 처치가 중요하다.
 
-출처 : StatPearls (Anaerobic Infections)
+## 출처
+- StatPearls (Anaerobic Infections)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

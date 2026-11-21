@@ -61,6 +61,8 @@ sources: ["ASCCP 2023 업데이트 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10
 - 적절한 치료 시 예후가 매우 좋으며 침윤성 암으로의 진행을 효과적으로 예방 가능
 - 절제술 후 조산 위험성 등 임신 관련 합병증 가능성이 있으나, 질환 자체의 위험과 비교하여 결정
 
-출처 : StatPearls (Cervical Intraepithelial Neoplasia)
+## 출처
+- StatPearls (Cervical Intraepithelial Neoplasia)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

@@ -85,7 +85,9 @@ sources: ["EAU RCC 2026 | https://uroweb.org/guidelines/renal-cell-carcinoma/cha
 ## 6. 예후 및 합병증 (Prognosis)
 * **예후:** 병기에 따라 상이함. T1기 5년 생존율은 90% 이상이나, 원격 전이 시 예후가 불량함.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
 - [EAU: RCC — diagnostic evaluation](https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/diagnostic-evaluation)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

@@ -97,9 +97,10 @@ GOV2·IGV1은 위저부 정맥류로 묶어 치료 평가.
 
 - **합병증**: 출혈성 쇼크, 간성 뇌증 악화, 신부전(간신 증후군), 감염, 재출혈 등이 발생할 수 있다.
 
-출처 : StatPearls (Gastric Varices, Esophageal Varices)
+## 출처
+- StatPearls (Gastric Varices, Esophageal Varices)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

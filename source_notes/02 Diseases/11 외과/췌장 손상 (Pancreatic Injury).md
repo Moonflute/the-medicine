@@ -53,6 +53,8 @@ sources: ["WSES-AAST 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6907251/"
 ## 6. 예후 및 합병증 (Prognosis)
 - 주요 합병증: 췌장 누공(Pancreatic fistula), 가성 낭종(Pseudocyst), 췌장염, 복강 내 농양.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

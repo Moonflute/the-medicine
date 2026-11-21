@@ -51,6 +51,8 @@ sources: ["AAO 각막 질환 관리 기준 2025 | https://www.aao.org/education/
 - 대부분 적절한 치료로 호전되나, 원인에 따라 재발 가능성 있음
 - 심한 경우 각막 혼탁이나 시력 저하가 남을 수 있음
 
-출처 : StatPearls (Acanthamoeba Keratitis)
+## 출처
+- StatPearls (Acanthamoeba Keratitis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

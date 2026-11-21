@@ -64,6 +64,8 @@ sources: ["EAST 선택적 비수술 관찰 | https://www.east.org/education-reso
 - **합병증**: 지연 진단에 따른 복강 내 감염(농양), 장폐색, 누출, 다장기 부전.
 - **예후**: 손상 장기, 혈관 손상 여부, 초기 처치 속도에 따라 결정됨.
 
-출처 : StatPearls: Penetrating Abdominal Trauma
+## 출처
+- StatPearls: Penetrating Abdominal Trauma
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

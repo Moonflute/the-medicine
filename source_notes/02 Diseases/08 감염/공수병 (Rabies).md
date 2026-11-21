@@ -67,7 +67,9 @@ sources: ["CDC PEP | https://www.cdc.gov/rabies/hcp/clinical-care/post-exposure-
 ## 6. 예후 및 합병증 (Prognosis)
 - 임상 증상 발현 후에는 거의 100% 사망하며, 보통 3~10일 이내에 사망한다.
 
-출처 : Merck Manual Professional (Rabies)
+## 출처
+- Merck Manual Professional (Rabies)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

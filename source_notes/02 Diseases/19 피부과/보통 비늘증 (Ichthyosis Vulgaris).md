@@ -50,6 +50,8 @@ reviewed_at: "2026-07-30"
 - **예후**: 나이가 들면서 증상이 호전되는 경향이 있음.
 - **합병증**: 이차 세균 감염, 가려움증으로 인한 태선화, 아토피 질환 악화.
 
-출처 : StatPearls (Hereditary and Acquired Ichthyosis Vulgaris)
+## 출처
+- StatPearls (Hereditary and Acquired Ichthyosis Vulgaris)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

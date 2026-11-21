@@ -56,7 +56,8 @@ sources: ["WSES 식도 응급 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC
 - **합병증**: 종격동염, 농흉, 패혈증, 쇼크, 사망
 - **예후**: 진단이 24시간 이상 지연될 경우 사망률이 급격히 증가하므로 조기 진단과 치료가 핵심
 
-참고: [WSES 식도 응급 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/); [ACR 식도조영술 지침](https://gravitas.acr.org/PPTS/DownloadPreviewDocument?DocId=46&ReleaseId=2).
+## 출처
+- [WSES 식도 응급 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/); [ACR 식도조영술 지침](https://gravitas.acr.org/PPTS/DownloadPreviewDocument?DocId=46&ReleaseId=2).
 
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)

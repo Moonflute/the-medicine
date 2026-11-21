@@ -76,9 +76,10 @@ sources: ["ACG 상부출혈 지침 | https://doi.org/10.14309/ajg.00000000000012
 - 재출혈 및 사망률은 기저 질환 및 출혈 정도에 따라 다름.
   고령 및 동반 질환이 많을수록 예후가 불량함.
 
-출처 : StatPearls (Upper Gastrointestinal Bleeding)
+## 출처
+- StatPearls (Upper Gastrointestinal Bleeding)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

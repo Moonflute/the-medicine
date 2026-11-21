@@ -59,7 +59,9 @@ review_status: "guideline_enriched"
 - 흡인성 폐렴, 영양실조, 탈수, 삶의 질 저하.
 - 적절한 진단 및 원인 질환 교정이 예후에 중요.
 
-출처 : StatPearls (Dysphagia, 2023)
+## 출처
+- StatPearls (Dysphagia, 2023)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-11 : 본문 갱신 (processed)

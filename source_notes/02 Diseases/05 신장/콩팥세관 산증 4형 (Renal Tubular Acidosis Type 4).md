@@ -49,7 +49,9 @@ reviewed_at: "2026-07-30"
 - 기저 신기능 저하 정도에 따라 예후가 결정됨.
 - 고칼륨혈증의 적절한 관리가 중요함.
 
-출처 : UpToDate, Harrison's Principles of Internal Medicine
+## 출처
+- UpToDate, Harrison's Principles of Internal Medicine
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성 (특정 정보 없음)
 2026-05-18 — 본문 갱신 (codex fill)

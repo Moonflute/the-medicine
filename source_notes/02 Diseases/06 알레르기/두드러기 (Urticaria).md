@@ -61,10 +61,11 @@ content_updated_at: "2026-11-17"
 - 만성 두드러기는 수개월에서 수년까지 지속될 수 있으며 삶의 질에 큰 영향을 미칩니다.
   기도 폐쇄를 유발할 수 있는 혈관부종 동반 여부를 주의 깊게 관찰해야 한다.
 
-출처 : Merck Manual Professional
-보완 근거: [국제 두드러기 지침 2026](https://doi.org/10.1111/all.70210).
+## 출처
+- Merck Manual Professional
+- [국제 두드러기 지침 2026](https://doi.org/10.1111/all.70210).
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2024-07-29 — 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼

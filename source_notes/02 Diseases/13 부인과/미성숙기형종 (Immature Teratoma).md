@@ -64,6 +64,8 @@ sources: ["NCI | https://www.cancer.gov/types/ovarian/hp/ovarian-germ-cell-treat
 - **예후**: 종양의 조직학적 등급(Grade)과 병기에 따라 결정됨.
 - **합병증**: 난소 염전(torsion), 파열(rupture), 복막 내 신경교종증(gliomatosis peritonei) 등.
 
-출처 : StatPearls (Cystic Teratoma, Testicular Teratoma)
+## 출처
+- StatPearls (Cystic Teratoma, Testicular Teratoma)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

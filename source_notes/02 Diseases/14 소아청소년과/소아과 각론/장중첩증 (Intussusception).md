@@ -56,7 +56,9 @@ content_updated_at: "2026-07-16"
 * 합병증: 장 천공, 괴사, 복막염, 패혈증
 - **재발**: 정복 후 전체 약 **10%**; 초기 재발은 **24–48시간** 내 흔함(24시간 재발률 10%라는 뜻은 아님)
 
-출처 : StatPearls (Child Intussusception)
-출처 : 삼성서울병원 외과 메뉴얼; [RCH 장중첩증](https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/); [UPenn 소아과 장중첩증](https://www.med.upenn.edu/pedsinpractice/intussusception)
+## 출처
+- StatPearls (Child Intussusception)
+- 삼성서울병원 외과 메뉴얼; [RCH 장중첩증](https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/); [UPenn 소아과 장중첩증](https://www.med.upenn.edu/pedsinpractice/intussusception)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

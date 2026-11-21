@@ -53,6 +53,8 @@ reviewed_at: "2026-07-30"
 - **합병증**: 폐동맥 고혈압, Eisenmenger 증후군, 잔류 단락, 방실판막 역류, 부정맥
 - **예후**: 조기 수술 시 예후가 양호하나, 수술 시기가 늦어질 경우 폐혈관 질환으로 인한 예후 불량 가능성
 
-출처 : StatPearls (Atrioventricular Septal Defect); [AHA 선천심장병 유전적 기반](https://pmc.ncbi.nlm.nih.gov/articles/PMC6555769/)
+## 출처
+- StatPearls (Atrioventricular Septal Defect); [AHA 선천심장병 유전적 기반](https://pmc.ncbi.nlm.nih.gov/articles/PMC6555769/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

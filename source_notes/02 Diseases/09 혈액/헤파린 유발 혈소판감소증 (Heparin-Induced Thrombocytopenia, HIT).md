@@ -67,10 +67,11 @@ sources: ["ASH HIT 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6258919/"]
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 혈전증·사망 위험이 높아 신속한 진단과 헤파린 중단이 중요
 
-출처 : StatPearls: Heparin-Induced Thrombocytopenia (2026)
+## 출처
+- StatPearls: Heparin-Induced Thrombocytopenia (2026)
+- 삼성서울병원 외과 메뉴얼
+- [ASH HIT 진단·관리 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6258919/)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 외과 메뉴얼
-- [ASH HIT 진단·관리 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6258919/)

@@ -91,8 +91,10 @@ B형 간염 바이러스(HBV) 감염에 의해 발생한다. 오염된 혈액이
 
 - **합병증**: 만성 B형 간염으로의 이행, 전격성 간염 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional
-참고: [CDC HBV 검사 해석](https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/)
+## 출처
+- Merck Manual Professional
+- [CDC HBV 검사 해석](https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)

@@ -56,7 +56,9 @@ content_updated_at: "2026-07-16"
 - 합병증: 태아 가사, 뇌 손상, 상완신경총 손상(brachial plexus injury), 쇄골 골절 등
 - 예후: 신속한 수기 시행 및 다학제적 대응을 통해 영구적 손상 예방 가능
 
-출처 : StatPearls (Shoulder Dystocia)
+## 출처
+- StatPearls (Shoulder Dystocia)
 - [RCOG Shoulder Dystocia](https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.70258)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

@@ -53,6 +53,8 @@ sources: ["CDC | https://www.cdc.gov/mumps/hcp/vaccine-considerations/index.html
 - **합병증**: 무균성 뇌수막염, 고환염(사춘기 이후 남성), 난소염, 췌장염, 난청 등
 - **예후**: 대부분 자가 제한적(self-limited)으로 회복되나, 예방접종(MMR)이 가장 효과적인 예방책임
 
-출처 : StatPearls (Mumps, 2024); [CDC 볼거리 검사](https://www.cdc.gov/mumps/php/laboratories/)
+## 출처
+- StatPearls (Mumps, 2024); [CDC 볼거리 검사](https://www.cdc.gov/mumps/php/laboratories/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

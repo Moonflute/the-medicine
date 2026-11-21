@@ -51,4 +51,5 @@ sources: ["AASLD 복수 지침 | https://doi.org/10.1002/hep.31884"]
 - [[암죽 복수 (Chylous Ascites)]]
 - [[급성 복증 (Acute Abdomen)]]
 
-출처: 삼성서울병원 외과 메뉴얼
+## 출처
+- 삼성서울병원 외과 메뉴얼

@@ -86,8 +86,10 @@ sources: ["ATA 2025 | https://doi.org/10.1177/10507256251363120", "ATA 2025 요�
 - 전반적으로 예후가 매우 우수하다.
   고령, 큰 종양 크기, 갑상샘 외 침범 등이 불량한 예후 인자로 작용한다.
 
-출처 : StatPearls (Papillary Thyroid Carcinoma)
-- 보완 출처: 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls (Papillary Thyroid Carcinoma)
+- 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

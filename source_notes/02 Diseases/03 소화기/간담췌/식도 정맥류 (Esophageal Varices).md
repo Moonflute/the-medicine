@@ -99,9 +99,10 @@ sources: ["Baveno VII | https://pmc.ncbi.nlm.nih.gov/articles/PMC11090185/", "Ba
 
 - **합병증**: 출혈성 쇼크, 간성 뇌증, 감염(자발성 세균성 복막염 등), 신부전(간신 증후군) 등이 발생할 수 있다.
 
-출처 : StatPearls (Esophageal Varices)
+## 출처
+- StatPearls (Esophageal Varices)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

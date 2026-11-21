@@ -58,7 +58,9 @@ sources: ["PIDS/IDSA 2021 | https://academic.oup.com/jpids/article/10/8/801/6338
 * 조기 진단 및 치료 시 예후 좋음
 * 만성화, 관절 침범, 성장 장애 등 합병증 발생 가능
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
 - [PIDS/IDSA: Pediatric Acute Hematogenous Osteomyelitis](https://www.idsociety.org/practice-guideline/bone-and-joint-infections---osteomyelitis/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

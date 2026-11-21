@@ -52,7 +52,8 @@ sources: ["DermNet | https://dermnetnz.org/topics/nodular-vasculitis"]
 ## 6. 예후 및 합병증 (Prognosis)
 * 적절한 항결핵 치료 시 호전되나, 치료가 늦어질 경우 만성 궤양이나 반흔이 남을 수 있음.
 
+## 출처
+- Merck Manual Professional, StatPearls
 
-출처 : Merck Manual Professional, StatPearls
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

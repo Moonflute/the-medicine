@@ -50,9 +50,10 @@ reviewed_at: "2026-07-30"
 - 적절한 항생제 치료 시 빠르게 호전된다.
   치료하지 않으면 폐렴·ARDS, 뇌수막염, 급성 신손상, 심근염 및 다발성 장기 부전 등 중증 합병증으로 진행할 수 있다.
 
-출처 : 질병관리청(KDCA) 감염병 포털; [국내 진단기준 개정 안내](https://www.gangnam.go.kr/board/B_000001/1072465/view.do?mid=ID05_040101); [CDC Scrub Typhus](https://www.cdc.gov/typhus/hcp/clinical-overview/clinical-overview-of-scrub-typhus.html)
+## 출처
+- 질병관리청(KDCA) 감염병 포털; [국내 진단기준 개정 안내](https://www.gangnam.go.kr/board/B_000001/1072465/view.do?mid=ID05_040101); [CDC Scrub Typhus](https://www.cdc.gov/typhus/hcp/clinical-overview/clinical-overview-of-scrub-typhus.html)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

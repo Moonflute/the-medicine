@@ -51,7 +51,9 @@ reviewed_at: "2026-07-30"
 - 적절한 항생제 치료가 필수적, 치료하지 않을 경우 폐 및 파종성 감염은 치명적일 수 있다.
   면역 저하 환자에서 예후가 불량하며, 뇌 농양은 심각한 신경학적 후유증을 남길 수 있다.
 
-출처 : Merck Manual Professional (2025)
+## 출처
+- Merck Manual Professional (2025)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

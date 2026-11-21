@@ -58,6 +58,8 @@ sources: ["MSF 안구건조증 치료 | https://medicalguidelines.msf.org/en/vie
 * 조기 진단 및 치료 시 야맹증 등 초기 증상은 수주 내 회복 가능.
 * 각막 연화증으로 인한 각막 흉터 발생 시 영구적인 시력 손상 초래 가능.
 
-출처 : StatPearls (Vitamin A Deficiency, Vitamin A); [NIH ODS 비타민 A](https://ods.od.nih.gov/factsheets/vitamina-HealthProfessional/)
+## 출처
+- StatPearls (Vitamin A Deficiency, Vitamin A); [NIH ODS 비타민 A](https://ods.od.nih.gov/factsheets/vitamina-HealthProfessional/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

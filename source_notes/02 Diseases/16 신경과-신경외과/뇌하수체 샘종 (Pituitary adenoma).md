@@ -52,6 +52,8 @@ sources: ["Pituitary Society 2023 | https://www.nature.com/articles/s41574-023-0
 - 대부분 양성이나 거대샘종의 경우 시력 저하, 뇌하수체 기능 저하증 등의 합병증 발생 가능.
   장기적인 내분비 추적 관찰 필요.
 
-출처 : StatPearls (Pituitary Adenoma)
+## 출처
+- StatPearls (Pituitary Adenoma)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

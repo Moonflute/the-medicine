@@ -53,10 +53,11 @@ reviewed_at: "2026-07-30"
 - 원인 질환의 중증도와 예후가 직결됨.
 - Low T4 syndrome은 중증 환자에서 예후가 나쁨을 시사하는 지표로 활용 가능.
 
-출처 : StatPearls (Euthyroid Sick Syndrome, 2026)
+## 출처
+- StatPearls (Euthyroid Sick Syndrome, 2026)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

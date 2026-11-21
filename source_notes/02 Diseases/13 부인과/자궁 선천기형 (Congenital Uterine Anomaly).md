@@ -53,7 +53,9 @@ sources: ["ASRM 2024 | https://doi.org/10.1016/j.fertnstert.2024.02.033", "WHO 2
 ## 6. 예후 및 합병증 (Prognosis)
 - 기형의 종류에 따라 산과적 합병증(조산, 태아 위치 이상 등) 위험이 증가할 수 있음.
 
-출처 : StatPearls (Abnormal Uterine Bleeding, Anatomy of Uterine Arteries)
+## 출처
+- StatPearls (Abnormal Uterine Bleeding, Anatomy of Uterine Arteries)
 - [ASRM 2024: Diagnosis and treatment for uterine septum](https://www.asrm.org/practice-guidance/practice-committee-documents/evidence-based-diagnosis-and-treatment-for-uterine-septum-a-guideline-2024/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

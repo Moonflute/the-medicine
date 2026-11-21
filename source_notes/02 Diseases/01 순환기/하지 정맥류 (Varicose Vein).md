@@ -61,7 +61,9 @@ sources: ["NICE CG168 | https://www.nice.org.uk/guidance/cg168/chapter/recommend
 - 정맥성 정체 궤양, 피부염, 혈전 정맥염 등이 발생할 수 있다.
   치료 여부와 관계없이 새로운 정맥류가 발생할 수 있어 반복적인 치료가 필요할 수 있다.
 
-출처 : Merck Manual Professional (Varicose Veins)
+## 출처
+- Merck Manual Professional (Varicose Veins)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

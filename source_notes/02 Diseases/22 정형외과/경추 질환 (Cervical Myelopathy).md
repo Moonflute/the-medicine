@@ -55,7 +55,9 @@ sources: ["DCM 진료지침 | https://doi.org/10.1177/2192568217701914", "AO Spi
 - **미치료**: 점진적 기능 저하·마비 가능
 - **불량 예후 요인**: 증상 지속 **18개월 이상** 등
 
-출처 : StatPearls (Cervical Myelopathy)
+## 출처
+- StatPearls (Cervical Myelopathy)
 - [ACOEM: Cervical and Thoracic Spine Disorders — examination](https://www.dir.ca.gov/dwc/MTUS/ACOEM-Guidelines/Cervical-and-Thoracic-Spine-Disorders-Guideline.pdf)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

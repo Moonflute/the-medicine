@@ -2,7 +2,7 @@
 import { ChatSenderProvider } from "@/components/chat-contact";
 import atlasMappings from "@/generated/atlas-links.json";
 
-import { useMemo } from "react";
+import { Fragment, useMemo, type ReactNode } from "react";
 import Link from "next/link";
 import { SkinDocumentIntro, SkinDocumentSections, SkinQuickReference } from "@/components/skin-document";
 import { DocumentToolbar } from "@/components/document-toolbar";
@@ -15,6 +15,38 @@ import { DocumentEditButton } from "@/components/document-edit-button";
 import { ContentMetadata } from "@/components/content-metadata";
 import { useSkinTheme } from "@/components/theme-provider";
 import { SheetCellRow, type SheetIntroRow } from "@/components/sheet-workbook";
+
+function referenceText(text: string) {
+  return text.replace(/\\([\\[\]])/g, "$1").split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((part, index) =>
+    part.startsWith("**") ? <strong key={index}>{part.slice(2, -2)}</strong>
+      : part.startsWith("*") && part.endsWith("*") ? <em key={index}>{part.slice(1, -1)}</em>
+        : <Fragment key={index}>{part}</Fragment>,
+  );
+}
+
+function referenceContent(line: string) {
+  const text = line.replace(/^\s*[-*]\s+/, "");
+  const nodes: ReactNode[] = [];
+  let cursor = 0;
+  for (const match of text.matchAll(/\[((?:\\.|[^\\\]])+)\]\((https?:\/\/(?:[^\s()]|\([^\s()]*\))+)\)/g)) {
+    const index = match.index ?? 0;
+    nodes.push(<Fragment key={`text-${index}`}>{referenceText(text.slice(cursor, index))}</Fragment>);
+    nodes.push(<a key={`link-${index}`} href={match[2]} target="_blank" rel="noopener noreferrer" className="underline decoration-slate-300 underline-offset-4 hover:text-teal-700">{referenceText(match[1])}</a>);
+    cursor = index + match[0].length;
+  }
+  nodes.push(<Fragment key="tail">{referenceText(text.slice(cursor))}</Fragment>);
+  return nodes;
+}
+
+export function DiseaseReferences({ lines }: { lines: string[] }) {
+  if (!lines.length) return null;
+  return <details aria-label="출처" className="border-t border-slate-200 px-5 py-4 text-sm text-slate-600 sm:px-6">
+    <summary className="cursor-pointer font-medium text-slate-700">출처</summary>
+    <ul className="mt-3 list-disc space-y-2 pl-5">
+      {lines.map((line, index) => <li key={index} className="break-words leading-6">{referenceContent(line)}</li>)}
+    </ul>
+  </details>;
+}
 
 function stripEditorialLines(lines: string[]) {
   const cleaned: string[] = [];
@@ -61,7 +93,9 @@ export function DiseaseCard({
   const overview = note.overview?.slice(0, compact ? 3 : 6) ?? [];
   const contentMeta = note.contentMeta;
   const displayTitle = note.displayTitle || note.title;
-  const sourceLinks = contentMeta?.sources?.filter((source) => source.label && source.url) ?? [];
+  const references = note.references ?? (contentMeta?.sources ?? [])
+    .filter((source) => source.label)
+    .map((source) => source.url ? `- [${source.label.replace(/[\\[\]]/g, "\\$&")}](${source.url})` : `- ${source.label}`);
   const familyLinks = [
     { label: "상위 질환", value: note.familyMeta?.parentDisease },
     { label: "기준 문서", value: note.familyMeta?.canonicalDisease },
@@ -176,19 +210,8 @@ export function DiseaseCard({
         }))} />
       ) : null}
 
-      {!compact && sourceLinks.length > 0 ? (
-        <details className="border-t border-slate-200 px-5 py-4 text-sm text-slate-600 sm:px-6">
-          <summary className="cursor-pointer font-medium text-slate-700">출처 ({sourceLinks.length})</summary>
-          <ul className="mt-3 space-y-2">
-            {sourceLinks.map((source) => (
-              <li key={`${source.label}-${source.url}`}>
-                <a href={source.url} target="_blank" rel="noopener noreferrer" className="break-words underline decoration-slate-300 underline-offset-4 hover:text-teal-700">
-                  {source.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </details>
+      {!compact && references.length > 0 ? (
+        <DiseaseReferences lines={references} />
       ) : null}
 
     </article></ChatSenderProvider>

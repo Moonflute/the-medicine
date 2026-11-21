@@ -72,8 +72,9 @@ sources: ["NCI 치료 구분 | https://www.cancer.gov/types/ovarian/hp/ovarian-g
   - 방사선은 후기 독성 때문에 일상적인 보조치료로 사용하지 않음
 - **장기 합병증**: 재발, 내분비 기능 저하·불임 등 치료 관련 문제 감시
 
-출처:
+## 출처
 - [NCI: Ovarian Germ Cell Tumors Treatment](https://www.cancer.gov/types/ovarian/hp/ovarian-germ-cell-treatment-pdq)
 - [FIGO: Cancer of the ovary, fallopian tube, and peritoneum — 2025 update](https://pmc.ncbi.nlm.nih.gov/articles/PMC12411830/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -77,7 +77,9 @@ content_updated_at: "2026-07-16"
 - 경증은 자연 치유되기도 하나, 전격성 심근염으로 진행 시 치명적일 수 있다.
   만성으로 이행될 경우 확장성 심근병증, 심부전, 부정맥 등의 합병증이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Myocarditis)
+## 출처
+- Merck Manual Professional (Myocarditis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

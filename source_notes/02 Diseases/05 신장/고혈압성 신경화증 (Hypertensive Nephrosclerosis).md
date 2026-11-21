@@ -53,4 +53,5 @@ sources: ["KDIGO 2021 Blood Pressure in CKD Guideline | https://kdigo.org/guidel
 ## 6. 예후 및 합병증 (Prognosis)
 - 지속적 고혈압과 알부민뇨는 CKD 진행과 심부전·뇌졸중·심혈관 사건 위험을 높인다. 혈압, UACR, eGFR 및 칼륨을 위험도에 따라 추적하고, 진행성 CKD는 합병증 관리와 신대체요법 계획으로 연결한다.
 
-출처: 삼성서울병원 메뉴얼
+## 출처
+- 삼성서울병원 메뉴얼

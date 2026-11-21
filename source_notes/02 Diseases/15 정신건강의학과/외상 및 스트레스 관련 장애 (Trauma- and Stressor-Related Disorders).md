@@ -65,5 +65,3 @@ sources: ["VA/DoD: Management of PTSD and Acute Stress Disorder (2023) | https:/
 - [[외상 후 스트레스 장애 (PTSD)]]
 - [[이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)]]
 - [[적응 장애 (Adjustment Disorder)]]
-
-## 참고 자료

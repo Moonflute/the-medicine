@@ -48,7 +48,8 @@ relation_to_parent: subtype
 - 예후: 조기 발견 및 지속적인 약물 유지가 예후에 결정적임. 일부 환자는 조현병으로 이행될 수 있으므로 장기적인 추적 관찰이 필요함.
 - 합병증: 음성 증상이 심할수록 사회적 기능 회복이 어려울 수 있음.
 
-출처: [SAMHSA 조현양상장애 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/)
+## 출처
+- [SAMHSA 조현양상장애 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

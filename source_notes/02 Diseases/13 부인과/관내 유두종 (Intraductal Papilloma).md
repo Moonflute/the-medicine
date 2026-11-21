@@ -51,6 +51,8 @@ sources: ["ASBrS 고위험 병변 관리 | https://www.breastsurgeons.org/docs/s
 - **예후**: 대체로 매우 좋고 수술 후 재발률 낮음
 - **주의**: 드문 비정형 증식·암 동반 또는 진행 가능성을 고려해 정기 추적
 
-출처 : StatPearls (Intraductal Papilloma)
+## 출처
+- StatPearls (Intraductal Papilloma)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

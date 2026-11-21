@@ -69,7 +69,8 @@ sources: ["CDC | https://www.cdc.gov/chickenpox/hcp/clinical-guidance/index.html
   - **임신 중 수두 백신 금기**
 - **합병증**: 이차 세균 감염·폐렴·뇌염 등
 
-출처: [KDCA 수두 접종](https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1108&menuLv=1); [CDC 고위험 수두·VariZIG](https://www.cdc.gov/chickenpox/hcp/clinical-guidance/); [CDC 수두 백신](https://www.cdc.gov/chickenpox/hcp/vaccine-considerations/index.html)
+## 출처
+- [KDCA 수두 접종](https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuCd=1108&menuLv=1); [CDC 고위험 수두·VariZIG](https://www.cdc.gov/chickenpox/hcp/clinical-guidance/); [CDC 수두 백신](https://www.cdc.gov/chickenpox/hcp/vaccine-considerations/index.html)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

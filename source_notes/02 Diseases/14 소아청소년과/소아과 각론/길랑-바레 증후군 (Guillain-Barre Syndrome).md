@@ -54,6 +54,8 @@ sources: ["EAN/PNS 2023 | https://doi.org/10.1111/ene.16073"]
 * 대부분 단상성(monophasic) 경과를 보이며 회복되나, 회복 기간은 수개월 이상 소요될 수 있음
 * 호흡 부전, 자율 신경계 이상, 심부정맥 혈전증 등 합병증 주의
 
-출처 : StatPearls (Guillain-Barre Syndrome)
+## 출처
+- StatPearls (Guillain-Barre Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

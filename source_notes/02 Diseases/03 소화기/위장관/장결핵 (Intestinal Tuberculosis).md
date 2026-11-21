@@ -66,9 +66,10 @@ sources: ["CDC 결핵 검사·진단 | https://www.cdc.gov/tb/hcp/testing-diagno
 - 조기 진단 및 치료 시 예후 양호.
 - 합병증: 장폐색, 장천공, 누공 형성, 복막염.
 
-출처 : StatPearls (Abdominal Tuberculosis)
+## 출처
+- StatPearls (Abdominal Tuberculosis)
+- 삼성서울병원 메뉴얼. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. 2026-09-14 기존 목차 내 보완.

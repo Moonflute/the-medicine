@@ -50,6 +50,8 @@ reviewed_at: "2026-07-30"
 - **합병증**: 대퇴골두 무혈성 괴사(AVN), 외상 후 관절염, 좌골신경 손상, 재발성 탈구, 심부정맥 혈전증.
 - **예후**: 정복 시간이 지연될수록(특히 6시간 이상) 합병증 발생률이 급격히 증가함.
 
-출처 : StatPearls (Anterior Hip Dislocation, Posterior Hip Dislocation)
+## 출처
+- StatPearls (Anterior Hip Dislocation, Posterior Hip Dislocation)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

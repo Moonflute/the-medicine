@@ -56,7 +56,9 @@ sources: ["BSH 유전구형적혈구증 지침 | https://www.thebloodproject.com
 - **비장절제 후**: 용혈은 호전되지만 구형적혈구 형태는 지속
 - **합병증**: 담석·비장비대·재생불량성 위기
 
-출처 : Merck Manual Professional (Hereditary Spherocytosis and Hereditary Elliptocytosis)
+## 출처
+- Merck Manual Professional (Hereditary Spherocytosis and Hereditary Elliptocytosis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -62,7 +62,9 @@ sources: ["NICE NG88 | https://www.nice.org.uk/guidance/ng88/chapter/recommendat
 - **적색 변성**: 임신 중 흔, 통증 조절로 대증 치료
 - 평활근육종(leiomyosarcoma)은 대체로 별개 악성 종양이며, 근종이 통상 악성 전환한다고 설명하지 않음; 악성 의심 소견은 별도 평가
 
-출처 : StatPearls (Uterine Leiomyomata, Abnormal Uterine Bleeding)
+## 출처
+- StatPearls (Uterine Leiomyomata, Abnormal Uterine Bleeding)
 - [FIGO: The epidemiology and pathogenesis of uterine fibroids](https://obgyn.onlinelibrary.wiley.com/doi/10.1002/ijgo.70527)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -91,9 +91,10 @@ sources: ["CDC HAV 검사 | https://cdc.gov/hepatitis-a/hcp/diagnosis-testing/in
 
 - **합병증**: 드물게 전격성 간염, 담즙정체성 간염, 재발성 간염 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

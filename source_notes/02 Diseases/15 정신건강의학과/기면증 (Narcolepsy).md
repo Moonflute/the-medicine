@@ -59,7 +59,8 @@ relation_to_parent: subtype
 - 합병증: 대사 질환(비만), 심혈관 질환, 인지 기능 저하, 학업 및 사회적 기능 장애, 우울/불안.
 - 주의: 운전 등 위험한 작업 시 안전 지침 준수 필수.
 
-출처: [AASM MSLT/ICSD-3-TR 설명 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10985297/)
+## 출처
+- [AASM MSLT/ICSD-3-TR 설명 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10985297/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

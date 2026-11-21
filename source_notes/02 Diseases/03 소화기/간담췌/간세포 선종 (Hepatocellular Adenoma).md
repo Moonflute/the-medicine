@@ -68,7 +68,9 @@ sources: ["EASL | https://easl.eu/wp-content/uploads/2016/10/EASL-CPG-on-Managem
 
 - **합병증**: 종양 내 출혈, 파열, 악성화 등이 발생할 수 있다.
 
-출처 : StatPearls (Hepatocellular Adenoma)
+## 출처
+- StatPearls (Hepatocellular Adenoma)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)

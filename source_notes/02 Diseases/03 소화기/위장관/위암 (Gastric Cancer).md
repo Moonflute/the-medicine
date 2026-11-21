@@ -126,5 +126,6 @@ Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-보완 출처: 삼성서울병원 외과 메뉴얼; [국내 위암 진료지침 2024, 2025 발표](https://pmc.ncbi.nlm.nih.gov/articles/PMC11739648/); ESGE MAPS III 2025·ESD 기술 검토. 2026-09-14 기존 목차 내 보완.
-참고: [NCI 위암 PDQ](https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq); [국가암정보센터 2023 발생 통계](https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4666).
+## 출처
+- 삼성서울병원 외과 메뉴얼; [국내 위암 진료지침 2024, 2025 발표](https://pmc.ncbi.nlm.nih.gov/articles/PMC11739648/); ESGE MAPS III 2025·ESD 기술 검토. 2026-09-14 기존 목차 내 보완.
+- [NCI 위암 PDQ](https://www.cancer.gov/types/stomach/hp/stomach-treatment-pdq); [국가암정보센터 2023 발생 통계](https://www.cancer.go.kr/lay1/program/S1T211C213/cancer/view.do?cancer_seq=4661&menu_seq=4666).

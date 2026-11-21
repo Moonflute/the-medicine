@@ -105,7 +105,8 @@ sources: ["AASLD | https://www.aasld.org/sites/default/files/2022-04/PracticeGui
 
 - **합병증**: 간경변증, 간부전, 문맥 고혈압, 골다공증, 지용성 비타민 결핍, 말초 신경병증 등이 발생할 수 있음.
 
-참고 가이드라인: [AASLD PBC 진단 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC7041951/), [AASLD/AGA PBC 치료 지침 2026](https://doi.org/10.1097/HEP.0000000000001875)
+## 출처
+- [AASLD PBC 진단 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC7041951/), [AASLD/AGA PBC 치료 지침 2026](https://doi.org/10.1097/HEP.0000000000001875)
 
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충

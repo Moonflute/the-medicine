@@ -53,8 +53,9 @@ reviewed_at: "2026-07-30"
   고환 기능은 보존됨.
 * 괴사된 부속기는 시간이 지나면서 석회화되거나 자연 소실됨.
 
-출처 : StatPearls (Appendix Testis Torsion)
-참고: [EAU: Acute scrotum](https://uroweb.org/guidelines/paediatric-urology/chapter/acute-scrotum)
+## 출처
+- StatPearls (Appendix Testis Torsion)
+- [EAU: Acute scrotum](https://uroweb.org/guidelines/paediatric-urology/chapter/acute-scrotum)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

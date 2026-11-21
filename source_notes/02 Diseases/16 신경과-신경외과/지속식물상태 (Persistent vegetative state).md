@@ -54,6 +54,8 @@ sources: ["AAN/ACRM/NIDILRR 지침 | https://www.aan.com/Guidelines/Home/GetGuid
 - 예후: 원인 질환 및 지속 기간에 따라 다르며, 1년 이상 지속 시 회복 가능성이 매우 낮음.
 - 합병증: 폐렴, 요로 감염, 욕창, 심부정맥 혈전증 등 장기 와상 상태에 따른 합병증 주의.
 
-출처 : StatPearls (NCBI Bookshelf)
+## 출처
+- StatPearls (NCBI Bookshelf)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -65,7 +65,9 @@ sources: ["EAST 횡문근융해증 지침 | https://pubmed.ncbi.nlm.nih.gov/3483
 ## 6. 예후 및 합병증 (Prognosis)
 - 심부 조직 괴사, 구획증후군, 부정맥, 신부전, 신경학적 후유증 발생 가능.
 
-출처 : StatPearls (Burn Classification, Acute and Chronic Thermal Burn Evaluation and Management)
+## 출처
+- StatPearls (Burn Classification, Acute and Chronic Thermal Burn Evaluation and Management)
 - [Electrical injuries — NIOSH 기록](https://stacks.cdc.gov/view/cdc/180188)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

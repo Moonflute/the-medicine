@@ -52,8 +52,9 @@ sources: ["NICE NG151 | https://www.nice.org.uk/guidance/ng151/chapter/Recommend
 - **경과**: 동시성·이시성 다발 원발암 위험 증가
 - **관련 형태**: 피지선 종양이 동반되는 Muir–Torre 증후군 등
 
-출처 : StatPearls (Hereditary Nonpolyposis Colon Cancer; A Review of Hereditary Colorectal Cancers)
-참고: [GeneReviews: Lynch Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK1211/).
+## 출처
+- StatPearls (Hereditary Nonpolyposis Colon Cancer; A Review of Hereditary Colorectal Cancers)
+- [GeneReviews: Lynch Syndrome](https://www.ncbi.nlm.nih.gov/books/NBK1211/).
 
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)

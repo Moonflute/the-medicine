@@ -75,6 +75,8 @@ sources: ["폐경 전 | https://www.rcog.org.uk/for-the-public/browse-our-patien
 - 양성 종양은 예후가 좋으나, 악성 종양은 발견 시기에 따라 생존율 차이가 큼.
 - 합병증으로 염전, 파열, 출혈, 주변 장기 압박 등이 발생 가능.
 
-출처 : StatPearls (Ovarian Follicle Development)
+## 출처
+- StatPearls (Ovarian Follicle Development)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

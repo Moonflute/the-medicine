@@ -66,6 +66,8 @@ sources: ["AHA/ASA 2023 | https://doi.org/10.1161/STR.0000000000000436", "ESO/EA
 ## 6. 예후 및 합병증 (Prognosis)
 - 재출혈, 지연성 뇌 허혈(DCI), 수두증, 발작 등이 주요 합병증이며 높은 사망률과 이환율을 보임.
 
-출처 : StatPearls (Subarachnoid Hemorrhage)
+## 출처
+- StatPearls (Subarachnoid Hemorrhage)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

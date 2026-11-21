@@ -55,7 +55,9 @@ sources: ["ACOG hymenal variants | https://www.acog.org/clinical/clinical-guidan
 - 조기 진단 및 적절한 수술 시 예후가 좋음.
 - 합병증: 수술 후 재폐쇄, 골반염, 자궁내막증, 불임 가능성.
 
-출처 : StatPearls (Imperforate Hymen)
+## 출처
+- StatPearls (Imperforate Hymen)
 - [ACOG: Diagnosis and Management of Hymenal Variants](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2019/06/diagnosis-and-management-of-hymenal-variants)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

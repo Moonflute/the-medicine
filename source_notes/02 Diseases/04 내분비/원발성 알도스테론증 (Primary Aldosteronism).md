@@ -79,4 +79,5 @@ Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-참고: 삼성서울병원 메뉴얼; [Endocrine Society PA 지침 2025](https://doi.org/10.1210/clinem/dgaf284).
+## 출처
+- 삼성서울병원 메뉴얼; [Endocrine Society PA 지침 2025](https://doi.org/10.1210/clinem/dgaf284).

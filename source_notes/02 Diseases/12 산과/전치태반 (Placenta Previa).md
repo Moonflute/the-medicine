@@ -56,6 +56,8 @@ sources: ["RCOG 전치태반·유착태반 지침(2026) | https://pmc.ncbi.nlm.n
 - **합병증**: 산후 출혈, 태반 유착 스펙트럼(PAS), 조산, 태아 성장 제한, 모성 사망
 - **예후**: 대부분 제왕절개술로 분만하며, 이전 제왕절개 횟수가 많을수록 PAS 위험도 증가
 
-출처 : StatPearls (Placenta Previa)
+## 출처
+- StatPearls (Placenta Previa)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

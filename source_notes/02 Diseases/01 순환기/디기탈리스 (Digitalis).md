@@ -61,7 +61,9 @@ sources: ["Digoxin 독성 전문가 합의 2023 | https://pmc.ncbi.nlm.nih.gov/a
 ## 6. 예후 및 합병증 (Prognosis)
 - 좁은 치료적 지수(narrow therapeutic window)로 인해 독성 발생 시 치명적인 부정맥을 유발할 수 있음.
 
-출처 : StatPearls (Digoxin, Cardiac Glycoside and Digoxin Toxicity)
+## 출처
+- StatPearls (Digoxin, Cardiac Glycoside and Digoxin Toxicity)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

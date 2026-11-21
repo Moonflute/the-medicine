@@ -56,6 +56,8 @@ sources: ["FIGO PPH 권고 | https://doi.org/10.1002/ijgo.14116", "WHO/FIGO/ICM 
 - 산후 출혈의 주요 원인으로 산모 사망의 주요 요인 중 하나임.
 - 이전 산후 출혈 경험 시 재발 위험이 있음.
 
-출처 : StatPearls (Uterine Atony)
+## 출처
+- StatPearls (Uterine Atony)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -66,6 +66,8 @@ sources: ["ESO 2023 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10069176/", "AHA/
 - 진행성 질환으로 조기 진단 및 수술적 개입이 중요함.
   수술 후 뇌혈류 예비능 개선 여부가 예후의 핵심.
 
-출처 : StatPearls (Moyamoya Disease)
+## 출처
+- StatPearls (Moyamoya Disease)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -71,6 +71,8 @@ sources: ["SMFM Consult 72, 2024 | https://pubmed.ncbi.nlm.nih.gov/39029545/", "
 - 치료하지 않을 경우 태아 사망률이 매우 높음
 - 신경학적 손상, 조산, 태아 성장 지연 등의 합병증 발생 가능
 
-출처 : StatPearls (Twin-to-Twin Transfusion Syndrome)
+## 출처
+- StatPearls (Twin-to-Twin Transfusion Syndrome)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

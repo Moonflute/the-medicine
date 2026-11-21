@@ -55,6 +55,8 @@ reviewed_at: "2026-07-30"
 - 예후는 일반적으로 불량하며, 완전 마비 시 회복 가능성이 낮음.
 - 합병증으로 만성 통증, 경직, 배뇨/배변 장애, 욕창 등이 발생할 수 있음.
 
-출처 : StatPearls (Anterior Spinal Artery Syndrome)
+## 출처
+- StatPearls (Anterior Spinal Artery Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

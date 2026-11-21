@@ -56,7 +56,9 @@ sources: ["AASLD/AST/NASPGHAN 2026 소아 간이식 평가 | https://doi.org/10.
 - **예후**: 조기 진단 및 수술이 간 생존율을 결정하는 핵심 요소
 - **합병증**: 상행성 담도염, 문맥압 항진증, 성장 지연, 만성 간부전증
 
-출처 : StatPearls (Biliary Atresia)
+## 출처
+- StatPearls (Biliary Atresia)
 - [AAP: Identifying Biliary Atresia by 2–4 Weeks](https://publications.aap.org/pediatrics/article/155/3/e2024070077/201020/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

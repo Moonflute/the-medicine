@@ -55,7 +55,8 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 및 즉각적인 처치가 지연될 경우 치명적인 산후 출혈 및 쇼크 발생 가능.
 
+## 출처
+- StatPearls (Uterine Inversion)
 
-출처 : StatPearls (Uterine Inversion)
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

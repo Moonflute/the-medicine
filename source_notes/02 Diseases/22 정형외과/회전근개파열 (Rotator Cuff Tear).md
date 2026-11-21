@@ -65,6 +65,8 @@ content_updated_at: "2026-11-18"
 - **경과**: 보존치료로 호전 가능, 큰 파열·위축은 증상/기능·복구 가능성과 함께 수술 필요성 평가
 - **합병증**: 재파열·유착성 관절낭염
 
-출처 : StatPearls (Rotator Cuff Syndrome, Rotator Cuff Injury)
+## 출처
+- StatPearls (Rotator Cuff Syndrome, Rotator Cuff Injury)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

@@ -77,10 +77,11 @@ sources: ["ESGE biliary stricture management guideline | https://www.esge.com/gu
 - **합병증**: 담관염·췌장염·담석·담관암·문합부 협착
 - **즉시 재평가**: 발열·황달·복통 또는 간담도 수치 악화 시 정해진 추적 시점까지 기다리지 않음
 
-출처 : StatPearls (Choledochal Cyst)
-참고 가이드라인: [IAP 급성 췌장염 2025](https://doi.org/10.1016/j.pan.2025.04.020)
+## 출처
+- StatPearls (Choledochal Cyst)
+- [IAP 급성 췌장염 2025](https://doi.org/10.1016/j.pan.2025.04.020)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

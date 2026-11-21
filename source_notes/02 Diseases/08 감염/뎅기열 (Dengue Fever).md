@@ -70,7 +70,9 @@ sources: ["CDC | https://www.cdc.gov/dengue/hcp/clinical-care/index.html"]
 - 대부분 경미하게 회복되나, 혈장 누출로 인한 뎅기 쇼크 증후군(DSS)이나 중증 출혈 발생 시 사망률이 급격히 높아짐.
   조기 발견과 적절한 수액 치료가 예후를 결정함.
 
-출처 : StatPearls (Dengue Fever, 2026)
+## 출처
+- StatPearls (Dengue Fever, 2026)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

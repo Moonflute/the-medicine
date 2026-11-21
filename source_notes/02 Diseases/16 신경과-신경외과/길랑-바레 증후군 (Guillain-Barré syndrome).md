@@ -60,6 +60,8 @@ content_updated_at: "2026-07-16"
 - 대부분 회복되나 호흡 부전, 부정맥 등 치명적 합병증 발생 가능.
 - 일부 환자에서 치료 관련 변동(TRF)이 나타날 수 있음.
 
-출처 : StatPearls (Guillain-Barre Syndrome)
+## 출처
+- StatPearls (Guillain-Barre Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

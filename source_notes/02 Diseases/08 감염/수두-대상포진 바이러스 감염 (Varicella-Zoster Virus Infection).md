@@ -62,9 +62,10 @@ sources: ["CDC 중증 수두 지침 | https://www.cdc.gov/chickenpox/hcp/clinica
 **수두:** 폐렴(특히 성인에서 위험 증가), 뇌염, 이차 세균 감염 등이 발생할 수 있다.
 **대상포진:** 대상포진 후 신경통(postherpetic neuralgia)이 가장 흔한 합병증이다. 안구 침범 시 시력 손상 위험이 있다.
 
-출처 : StatPearls (Varicella-Zoster Virus), [CDC 수두 임상 개요](https://www.cdc.gov/chickenpox/hcp/clinical-overview/index.html)
+## 출처
+- StatPearls (Varicella-Zoster Virus), [CDC 수두 임상 개요](https://www.cdc.gov/chickenpox/hcp/clinical-overview/index.html)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

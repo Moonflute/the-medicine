@@ -85,6 +85,8 @@ sources: ["FIGO 2026 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13505264/", "국
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단·적절한 항암으로 예후가 좋으며 전이성에서도 높은 완치율
 
-출처 : StatPearls (Gestational Trophoblastic Disease)
+## 출처
+- StatPearls (Gestational Trophoblastic Disease)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

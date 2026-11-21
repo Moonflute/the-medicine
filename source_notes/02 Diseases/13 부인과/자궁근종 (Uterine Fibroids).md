@@ -59,6 +59,8 @@ sources: ["NICE NG88 | https://www.nice.org.uk/guidance/ng88/chapter/recommendat
 - 폐경 후 호르몬 감소로 크기 감소 경향
 - 합병증: 빈혈, 불임, 산과적 합병증(유산, 조산, 태반 이상)
 
-출처 : StatPearls (Uterine Leiomyomata, Fertility Sparing Management in Uterine Fibroids)
+## 출처
+- StatPearls (Uterine Leiomyomata, Fertility Sparing Management in Uterine Fibroids)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -75,8 +75,9 @@ sources: ["AAD 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6652228/", "FDA
   림프절이 가장 흔한 전이 부위임.
 * 합병증으로 국소 침윤, 통증, 기능 상실, 전이 등이 있음.
 
-출처 : StatPearls (Cutaneous Squamous Cell Carcinoma)
-참고: [AAD: Cutaneous squamous cell carcinoma guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC6652228/)
+## 출처
+- StatPearls (Cutaneous Squamous Cell Carcinoma)
+- [AAD: Cutaneous squamous cell carcinoma guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC6652228/)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

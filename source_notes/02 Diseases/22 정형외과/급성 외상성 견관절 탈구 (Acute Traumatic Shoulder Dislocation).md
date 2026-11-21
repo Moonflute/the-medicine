@@ -52,7 +52,9 @@ sources: ["캐나다 관절경학회 첫 전방 탈구 입장문 2025 | https://
 - **합병증**: 액와신경 손상, 회전근개 파열, 재발성 탈구, 관절와순 손상.
 - **예후**: 초기 정복 후 적절한 재활 치료가 중요하며, 젊은 연령일수록 재발률이 높음.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
 - [Defence Medical Command: Joint dislocations](https://cgo.mod.uk/clinical-guidelines-for-operations/treatment-guidelines/musculoskeletal/joint-dislocations/)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

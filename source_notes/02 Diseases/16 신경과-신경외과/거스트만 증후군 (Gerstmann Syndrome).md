@@ -54,6 +54,8 @@ reviewed_at: "2026-07-30"
 - 조기 진단 및 집중적인 재활 치료 시 증상 호전 가능성이 있음.
 - 증상이 심할 경우 일상생활 수행 능력에 심각한 제한이 발생할 수 있음.
 
-출처 : StatPearls (Gerstmann Syndrome)
+## 출처
+- StatPearls (Gerstmann Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

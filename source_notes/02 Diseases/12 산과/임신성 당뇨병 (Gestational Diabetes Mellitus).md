@@ -76,5 +76,4 @@ review_status: "guideline_enriched"
 - **신생아 관리**: 거대아·신생아 저혈당 등의 위험을 산과·소아과 계획에 반영
 
 ## 출처
-
 - [ADA 2026: Diagnosis and Classification of Diabetes](https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes)

@@ -57,6 +57,8 @@ sources: ["AO Spine/Praxis 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10964
 - 하지 기능이 상지보다 먼저 회복되는 경향이 있음.
 - 고령, 심한 척수 압박, MRI상 긴 T2 고신호 강도 병변은 불량한 예후와 관련됨.
 
-출처 : StatPearls (Central Cord Syndrome)
+## 출처
+- StatPearls (Central Cord Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

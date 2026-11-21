@@ -77,7 +77,9 @@ sources: ["ATS/ERS/JRS/ALAT PPF 지침 2022 | https://doi.org/10.1164/rccm.20220
 ## 6. 예후 및 합병증 (Prognosis)
 - 항원 회피 시 가역적일 수 있으나, 지속적인 노출 시 비가역적인 폐섬유화 및 호흡부전으로 진행할 수 있음.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -60,6 +60,8 @@ content_updated_at: "2026-11-18"
 - 합병증: 혈전색전증, 급성 신부전, 급성 호흡곤란 증후군(ARDS), 난소 염전
 - 예후: 대부분 자가 치유되나 중증 시 집중 치료 필요
 
-출처 : Merck Manual Professional, World Society of Abdominal Compartment Syndrome guidelines
+## 출처
+- Merck Manual Professional, World Society of Abdominal Compartment Syndrome guidelines
+
 Last updated :
 2026-07-15 — 중복 본문 정리

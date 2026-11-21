@@ -56,7 +56,9 @@ sources: ["BOAST 개방 골절 | https://www.boa.ac.uk/resource/boast-4-pdf.html
   - 확진 시 지체 없이 근막절개술
 - **기타**: 불유합, 부정유합, 관절염, 감염.
 
-출처 : StatPearls (5th Metatarsal Fracture, Ankle Fracture)
+## 출처
+- StatPearls (5th Metatarsal Fracture, Ankle Fracture)
 - [BOFAS: Compartment Syndrome](https://www.bofas.org.uk/hyperbook/trauma/compartment-syndrome)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

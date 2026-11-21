@@ -57,7 +57,9 @@ sources: ["**원인**: 리노바이러스가 가장 흔한 원인이며 코로�
 - 대부분 1주일 내외로 자연 치유된다.
   드물게 부비동염, 중이염, 천식/만성 기관지염의 악화가 발생할 수 있다.
 
-출처 : Merck Manual Professional (Common Cold), [FDA 소아 감기약 안내](https://www.fda.gov/consumers/consumer-updates/should-you-give-kids-medicine-coughs-and-colds)
+## 출처
+- Merck Manual Professional (Common Cold), [FDA 소아 감기약 안내](https://www.fda.gov/consumers/consumer-updates/should-you-give-kids-medicine-coughs-and-colds)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

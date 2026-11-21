@@ -59,7 +59,8 @@ sources: ["APA 섭식장애 지침 2023 | https://doi.org/10.1176/appi.ajp.23180
 - **예후**: 회복 가능하나 재발·사망률 증가와 연관
 - **합병증**: 식도 파열(Mallory-Weiss, Boerhaave), 위식도 역류질환, 치아 부식, 부정맥(저칼륨혈증), 변비, 췌장염.
 
-출처: [SAMHSA DSM-5 신경성폭식증 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t17/)
+## 출처
+- [SAMHSA DSM-5 신경성폭식증 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t17/)
 
 Last updated :
 2026-05-20 — 본문 갱신 (codex fill)

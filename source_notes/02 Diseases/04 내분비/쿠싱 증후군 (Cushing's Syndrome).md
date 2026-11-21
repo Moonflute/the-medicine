@@ -87,10 +87,11 @@ content_updated_at: "2026-07-17"
 - 치료하지 않을 경우 고혈압, 당뇨, 골다공증, 감염, 혈전증 등의 합병증으로 인한 사망률 증가.
 - 수술 후 HPA axis 억제 상태가 지속될 수 있어 부신기능저하증에 대한 주의가 필요함.
 
-출처 : StatPearls (Hypercortisolism)
+## 출처
+- StatPearls (Hypercortisolism)
+- 삼성서울병원 메뉴얼. 대한내분비학회 2024 쿠싱증후군 진단·관리 합의문, Endocrine Society 쿠싱증후군 진료지침을 대조. 2026-09-14 기존 목차 내 보완. [Pituitary Society 2021 consensus](https://doi.org/10.1016/S2213-8587(21)00235-7).
+
 Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. 대한내분비학회 2024 쿠싱증후군 진단·관리 합의문, Endocrine Society 쿠싱증후군 진료지침을 대조. 2026-09-14 기존 목차 내 보완. [Pituitary Society 2021 consensus](https://doi.org/10.1016/S2213-8587(21)00235-7).

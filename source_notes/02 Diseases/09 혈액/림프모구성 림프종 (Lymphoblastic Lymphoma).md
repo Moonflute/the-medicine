@@ -74,6 +74,8 @@ sources: ["NCI PDQ Lugano 병기 | https://www.cancer.gov/types/lymphoma/hp/aggr
 - 매우 공격적인 질환으로, 조기 진단과 즉각적인 치료가 예후를 결정한다.
 - 재발 모니터링이 필수적, 유전적 아형에 따라 예후가 다를 수 있다.
 
-출처 : StatPearls: Lymphoblastic Lymphoma; [NCI Childhood NHL](https://www.cancer.gov/types/lymphoma/hp/child-nhl-treatment-pdq); [CAP Lymphoid Neoplasms Protocol](https://documents.cap.org/protocols/Heme.Lymphoid.Bx.Res_1.0.0.0.REL_CAPCP_R.pdf)
+## 출처
+- StatPearls: Lymphoblastic Lymphoma; [NCI Childhood NHL](https://www.cancer.gov/types/lymphoma/hp/child-nhl-treatment-pdq); [CAP Lymphoid Neoplasms Protocol](https://documents.cap.org/protocols/Heme.Lymphoid.Bx.Res_1.0.0.0.REL_CAPCP_R.pdf)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

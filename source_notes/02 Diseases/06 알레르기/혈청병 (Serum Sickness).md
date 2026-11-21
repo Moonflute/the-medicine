@@ -51,7 +51,9 @@ reviewed_at: "2026-07-30"
 - 대개 원인 물질 중단 후 수 주 내에 저절로 회복되는 자가 제한적 질환이다.
   재노출 시 증상이 더 심해질 수 있으므로 원인 약물을 영구적으로 회피해야 한다.
 
-출처 : StatPearls (Serum Sickness)
+## 출처
+- StatPearls (Serum Sickness)
+
 Last updated :
 2024-07-29 — 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

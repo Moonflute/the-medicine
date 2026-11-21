@@ -56,6 +56,8 @@ sources: ["ABM | https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf", "ASBr
 - **예후**: 적절한 치료로 호전하나 재발 가능
 - **합병증**: 흉터·유방 비대칭·누공
 
-출처 : StatPearls (Breast Abscess)
+## 출처
+- StatPearls (Breast Abscess)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

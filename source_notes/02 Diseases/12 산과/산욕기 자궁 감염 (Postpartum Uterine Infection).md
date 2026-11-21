@@ -54,6 +54,8 @@ sources: ["WHO 주산기 감염 권고 | https://www.who.int/publications/i/item
 - 합병증: 골반 농양, 패혈성 골반 혈전정맥염(SPT), 패혈증, 괴사성 근막염
 - 조기 진단 및 적절한 항생제 치료 시 예후 양호
 
-출처 : StatPearls (Postpartum Infection)
+## 출처
+- StatPearls (Postpartum Infection)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

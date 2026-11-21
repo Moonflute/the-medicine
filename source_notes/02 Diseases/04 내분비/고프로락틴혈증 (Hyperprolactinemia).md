@@ -70,7 +70,9 @@ sources: ["Pituitary Society 국제 합의 2023 | https://www.nature.com/article
 - **임신 관련**: 미세선종은 임신 중 종양 성장 위험이 낮으나, 거대선종은 주의 필요
 - **합병증**: 골다공증, 불임, 종괴 효과에 의한 시력 저하 및 뇌하수체 기능 저하
 
-출처 : StatPearls, Hyperprolactinemia (2025)
+## 출처
+- StatPearls, Hyperprolactinemia (2025)
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-04-27 : 본문 갱신 (processed, openevidence)

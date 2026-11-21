@@ -83,9 +83,10 @@ content_updated_at: "2026-11-18"
 ## 6. 예후 및 합병증 (Prognosis)
 - 초기 삼출성 단계 이후 섬유증식성 단계로 진행될 수 있으며, 다장기 부전이 주요 사망 원인임.
 
-출처 : Merck Manual Professional (Acute Hypoxemic Respiratory Failure & ARDS)
+## 출처
+- Merck Manual Professional (Acute Hypoxemic Respiratory Failure & ARDS)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

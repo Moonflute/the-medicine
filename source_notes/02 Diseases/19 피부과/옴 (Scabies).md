@@ -62,8 +62,9 @@ sources: ["CDC | https://www.cdc.gov/scabies/hcp/clinical-care/"]
 * 적절한 치료 시 예후 양호.
 * 합병증: 2차 세균 감염(농가진, 봉와직염), 습진화, 결절성 옴.
 
-출처 : StatPearls (Scabies, 2026)
-보완 근거: [IACS 2020 진단 기준](https://pmc.ncbi.nlm.nih.gov/articles/PMC7687112/)
+## 출처
+- StatPearls (Scabies, 2026)
+- [IACS 2020 진단 기준](https://pmc.ncbi.nlm.nih.gov/articles/PMC7687112/)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

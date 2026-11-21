@@ -72,7 +72,9 @@ sources: ["NIH 성인 PCP | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clini
 - 치료하지 않으면 사망률이 매우 높다.
   면역 저하 환자(특히 CD4 수치 저하 등)에서는 TMP-SMX를 이용한 예방적 투여가 중요하다.
 
-출처 : StatPearls (Pneumocystis jirovecii Pneumonia); 삼성서울병원 메뉴얼
+## 출처
+- StatPearls (Pneumocystis jirovecii Pneumonia); 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

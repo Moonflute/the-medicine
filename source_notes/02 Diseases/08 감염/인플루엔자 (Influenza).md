@@ -72,9 +72,10 @@ sources: ["CDC 항바이러스 치료 | https://www.cdc.gov/flu/hcp/antivirals/s
 - 바이러스성 폐렴 또는 이차 세균성 폐렴, 라이 증후군 (Reye syndrome) 등의 합병증이 발생할 수 있다.
   매년 유행하는 바이러스주를 포함한 예방 접종이 권고되며, 계란 알레르기가 있는 경우에도 접종이 가능하다 (필요 시 의료진 감독 하에 시행).
 
-출처 : Merck Manual Professional (Influenza Vaccine)
+## 출처
+- Merck Manual Professional (Influenza Vaccine)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

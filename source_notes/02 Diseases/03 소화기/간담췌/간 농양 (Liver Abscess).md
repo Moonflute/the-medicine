@@ -95,10 +95,11 @@ sources: ["IDSA 복강 내 감염 평가 지침 2024 | https://www.idsociety.org
   진단 지연이나 면역저하 환자는 패혈증 등으로 사망률 증가.
 - **합병증**: 농양 파열(복막염), 패혈증, 흉막염, 농흉, 간 외 전이(뇌 농양, 안내염, 심내막염), 담도-장 누공.
 
-출처 : StatPearls (Liver Abscess, Amebic Liver Abscess)
+## 출처
+- StatPearls (Liver Abscess, Amebic Liver Abscess)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

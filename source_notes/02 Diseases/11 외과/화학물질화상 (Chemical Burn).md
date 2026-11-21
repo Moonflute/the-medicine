@@ -66,7 +66,9 @@ sources: ["CDC/NIOSH 불산 처치 | https://www.cdc.gov/niosh/ershdb/EmergencyR
 - **예후**: 물질·노출 범위에 따라 다르며, 안구 손상은 시력 상실 위험
 - **합병증**: 통증·흉터·구축·감염, 섭취 시 식도 협착
 
-출처 : StatPearls: Chemical Burns
+## 출처
+- StatPearls: Chemical Burns
 - [WSES Esophageal Emergencies](https://pmc.ncbi.nlm.nih.gov/articles/PMC6544956/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

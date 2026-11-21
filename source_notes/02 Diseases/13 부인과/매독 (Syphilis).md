@@ -84,6 +84,8 @@ sources: ["CDC 잠복매독 | https://www.cdc.gov/std/treatment-guidelines/laten
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료 시 완치 가능하나, 치료하지 않을 경우 수년에서 수십 년에 걸쳐 전신 장기 손상(심혈관, 신경계 등)을 유발함.
 
-출처 : StatPearls (Syphilis, Congenital and Maternal Syphilis)
+## 출처
+- StatPearls (Syphilis, Congenital and Maternal Syphilis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

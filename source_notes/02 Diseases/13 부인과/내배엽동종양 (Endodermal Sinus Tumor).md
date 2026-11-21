@@ -61,8 +61,10 @@ sources: ["NCI 난소 생식세포종양 PDQ | https://www.cancer.gov/types/ovar
 ## 6. 예후 및 합병증 (Prognosis)
 - 과거에는 예후가 불량했으나, 현재는 항암화학요법에 매우 민감하게 반응하여 조기 발견 시 완치율이 높다.
 
-출처 : NCCN Guidelines (Ovarian Cancer), Williams Gynecology
+## 출처
+- NCCN Guidelines (Ovarian Cancer), Williams Gynecology
 - [NSW ACI: Germ cell and sex cord stromal tumours](https://aci.health.nsw.gov.au/networks/gynaecological-oncology/resources/toolkit/ovarian-fallopian-tube-and-peritoneal/stromal)
 - [Orphanet: Malignant germ cell tumor of ovary](https://www.orpha.net/en/disease/detail/35807)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

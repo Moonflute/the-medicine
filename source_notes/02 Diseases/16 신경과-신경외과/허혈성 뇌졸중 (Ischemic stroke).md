@@ -127,5 +127,3 @@ guideline_review_status: primary_source_reviewed
 - [[일과성 허혈 발작 (Transient ischemic attack)]]
 - [[추골동맥-기저동맥 경색 (Vertebral artery - Basilar artery infarction)]]
 - [[하나반 증후군 (One and a half syndrome)]]
-
-## 참고 가이드라인

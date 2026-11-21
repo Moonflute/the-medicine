@@ -57,7 +57,9 @@ sources: ["RCOG Green-top 69, 2024 | https://doi.org/10.1111/1471-0528.17739"]
 - 예후: 조기 발견 및 적극적 관리가 중요하며, 재발률이 높음.
 - 합병증: 탈수, 전해질 불균형, 영양 결핍, 베르니케 뇌병증, 급성 신손상.
 
-출처 : StatPearls (Hyperemesis Gravidarum)
+## 출처
+- StatPearls (Hyperemesis Gravidarum)
 - [RCOG Green-top 69, 2024](https://doi.org/10.1111/1471-0528.17739)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

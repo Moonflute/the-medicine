@@ -58,6 +58,8 @@ sources: ["CDC 소아 외래 권고 | https://www.cdc.gov/antibiotic-use/hcp/cli
 ## 6. 예후 및 합병증 (Prognosis)
 * 대부분 보존적 치료로 호전되나, 드물게 안와 주위 농양, 뇌수막염 등 두개내/안와 합병증 발생 가능
 
-출처 : StatPearls (Acute Sinusitis)
+## 출처
+- StatPearls (Acute Sinusitis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -56,6 +56,8 @@ sources: ["GeneReviews AIS | https://www.ncbi.nlm.nih.gov/books/NBK1429/", "Endo
 - 미치료 시 생식샘 종양 발생 위험 증가.
 - 심리적 지지 및 다학제적 접근(내분비내과, 부인과, 비뇨의학과, 정신건강의학과)이 필수적.
 
-출처 : StatPearls (Androgen Insensitivity Syndrome)
+## 출처
+- StatPearls (Androgen Insensitivity Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

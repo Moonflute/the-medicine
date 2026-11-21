@@ -61,5 +61,3 @@ sources: ["AO Spine/Praxis 급성 척수손상 임상 가이드라인 개정 소
 - [[전 척수 증후군 (Anterior cord syndrome)]]
 - [[중심 척수 증후군 (Central cord syndrome)]]
 - [[후 척수 증후군 (Posterior cord syndrome)]]
-
-## 참고 자료

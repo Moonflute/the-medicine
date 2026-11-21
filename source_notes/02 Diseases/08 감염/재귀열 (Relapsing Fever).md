@@ -58,7 +58,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않으면 심근염, 간비대, 비장비대, 신경학적 합병증(수막염 등)이 발생할 수 있으며, 특히 이 매개형에서 치명률이 높다.
 
-출처 : Merck Manual Professional (Relapsing Fever), [CDC 이 매개 재귀열](https://www.cdc.gov/relapsing-fever/hcp/louse-borne-relapsing-fever/index.html), [CDC 연진드기 매개 재귀열](https://www.cdc.gov/relapsing-fever/hcp/soft-tick-relapsing-fever/index.html)
+## 출처
+- Merck Manual Professional (Relapsing Fever), [CDC 이 매개 재귀열](https://www.cdc.gov/relapsing-fever/hcp/louse-borne-relapsing-fever/index.html), [CDC 연진드기 매개 재귀열](https://www.cdc.gov/relapsing-fever/hcp/soft-tick-relapsing-fever/index.html)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

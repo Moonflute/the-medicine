@@ -48,6 +48,8 @@ reviewed_at: "2026-07-30"
 - 조기 발견 및 치료 시 예후가 좋음.
   방치 시 약시, 입체시 소실, 복시, 사회적/심리적 문제 발생 가능.
 
-출처 : StatPearls (Strabismus)
+## 출처
+- StatPearls (Strabismus)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

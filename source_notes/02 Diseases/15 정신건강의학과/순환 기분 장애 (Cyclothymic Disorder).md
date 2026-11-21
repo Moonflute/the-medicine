@@ -49,7 +49,8 @@ relation_to_parent: subtype
 - 예후: 적절한 치료 시 기능 회복이 가능하나, 방치 시 양극성 장애로 이행하거나 사회적 기능 저하 및 자살 위험 증가.
 - 합병증: 물질 사용 장애, 충동 조절 문제, 대인관계 갈등.
 
-출처: [APA 양극성장애·순환기분장애](https://www.psychiatry.org/patients-families/bipolar-disorders/what-are-bipolar-disorders/)
+## 출처
+- [APA 양극성장애·순환기분장애](https://www.psychiatry.org/patients-families/bipolar-disorders/what-are-bipolar-disorders/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

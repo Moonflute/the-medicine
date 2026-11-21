@@ -53,7 +53,8 @@ sources: ["RCH 열성경련 지침 | https://www.rch.org.au/clinicalguide/guidel
 * **재발 위험 인자**: 어린 연령(1세 미만), 복합 열성 경련, 가족력, 낮은 발열 온도
 * **뇌전증 이행**: 일반 인구와 큰 차이가 없으나, 복합형인 경우 위험도가 다소 높음
 
-출처: [RCH 열성경련](https://www.rch.org.au/clinicalguide/guideline_index/Febrile_seizure/)
+## 출처
+- [RCH 열성경련](https://www.rch.org.au/clinicalguide/guideline_index/Febrile_seizure/)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

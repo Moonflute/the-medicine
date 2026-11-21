@@ -49,8 +49,10 @@ sources: ["유발성 두드러기 합의 | https://doi.org/10.1111/all.16250"]
 - 만성적인 경과를 보이나 시간이 지나면서 자연 호전되는 경우가 많다.
   증상 조절을 통해 일상생활의 불편함을 최소화하는 것이 중요하다.
 
-출처 : Merck Manual Professional
-보완 근거: [콜린성 두드러기의 아세틸콜린 작용 연구](https://pubmed.ncbi.nlm.nih.gov/32565175/), [땀샘 CHRM3·AChE 연구](https://pubmed.ncbi.nlm.nih.gov/35967390/).
+## 출처
+- Merck Manual Professional
+- [콜린성 두드러기의 아세틸콜린 작용 연구](https://pubmed.ncbi.nlm.nih.gov/32565175/), [땀샘 CHRM3·AChE 연구](https://pubmed.ncbi.nlm.nih.gov/35967390/).
+
 Last updated :
 2024-07-29 — 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

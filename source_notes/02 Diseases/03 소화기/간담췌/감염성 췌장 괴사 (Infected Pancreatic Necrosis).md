@@ -77,8 +77,10 @@ sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidel
 
 - **합병증**: 패혈증, 다발성 장기 부전, 출혈, 췌장루, 장 폐쇄 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional
-참고: [AGA 췌장 괴사 관리](https://gastro.org/clinical-guidance/management-of-pancreatic-necrosis/)
+## 출처
+- Merck Manual Professional
+- [AGA 췌장 괴사 관리](https://gastro.org/clinical-guidance/management-of-pancreatic-necrosis/)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)

@@ -50,6 +50,8 @@ reviewed_at: "2026-07-30"
 * 가속기(HLH) 발생 시 높은 사망 위험
 * 신경학적 손상은 이식 후에도 진행될 수 있음
 
-출처 : StatPearls (Chediak-Higashi Syndrome)
+## 출처
+- StatPearls (Chediak-Higashi Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

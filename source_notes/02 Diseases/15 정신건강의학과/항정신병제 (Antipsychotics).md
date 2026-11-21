@@ -75,8 +75,9 @@ sources: ["APA 조현병 지침 | https://doi.org/10.1176/appi.ajp.2020.177901",
 ## 6. 예후 및 합병증 (Prognosis)
 - 대사 증후군, EPS, TD, NMS, QT 연장
 
-출처 : Merck Manual Professional Edition (Antipsychotic Medications)
-출처 보완: [FDA quetiapine 처방정보](https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c1d4ef59-bf58-44fe-9b46-1af42e2f7f8b), [APA 조현병 진료 평가 자료](https://psychiatryonline.org/doi/abs/10.1176/appi.focus.20200034)
+## 출처
+- Merck Manual Professional Edition (Antipsychotic Medications)
+- [FDA quetiapine 처방정보](https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c1d4ef59-bf58-44fe-9b46-1af42e2f7f8b), [APA 조현병 진료 평가 자료](https://psychiatryonline.org/doi/abs/10.1176/appi.focus.20200034)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

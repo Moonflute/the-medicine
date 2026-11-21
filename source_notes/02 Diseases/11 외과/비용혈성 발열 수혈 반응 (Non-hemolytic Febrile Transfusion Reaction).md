@@ -57,8 +57,10 @@ sources: ["Lifeblood 수혈반응 알고리즘 | https://www.lifeblood.com.au/he
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 대부분 양호하며 대증치료로 호전
 
-출처 : StatPearls (Hemolytic Transfusion Reaction)
+## 출처
+- StatPearls (Hemolytic Transfusion Reaction)
 - [Lifeblood FNHTR 평가·관리](https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/FNHTR)
 - [NZBS 혈액안전 보고: FNHTR 감시 정의](https://www.nzblood.co.nz/assets/Uploads/NZBS-Annual-Report-2024-Final-Low-Res.pdf)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

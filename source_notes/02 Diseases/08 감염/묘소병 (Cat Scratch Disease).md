@@ -55,7 +55,9 @@ sources: ["CDC 묘소병 치료 | https://www.cdc.gov/bartonella/hcp/clinical-ov
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 완전히 회복되나, 면역 저하 환자에서는 파종성 감염(간·비장 육아종성 질환), 혈관종증(bacillary angiomatosis), 간자색반병(peliosis hepatis) 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Cat-Scratch Disease)
+## 출처
+- Merck Manual Professional (Cat-Scratch Disease)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -49,7 +49,9 @@ reviewed_at: "2026-07-30"
 - 조기 진단 및 적절한 약물 치료 시 고혈압 및 전해질 불균형 조절 가능.
 - 치료하지 않을 경우 고혈압에 의한 심혈관계 합병증 위험 증가.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

@@ -61,6 +61,8 @@ sources: ["EAST 경부 관통상 지침 | https://www.east.org/education-resourc
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 기도 폐쇄, 뇌허혈(경동맥 손상 시), 식도 누공, 감염(종격동염), 신경 손상.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

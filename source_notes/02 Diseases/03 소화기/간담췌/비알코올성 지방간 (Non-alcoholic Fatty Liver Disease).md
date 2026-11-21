@@ -76,9 +76,10 @@ sources: ["EASL–EASD–EASO 2024 | https://doi.org/10.1016/j.jhep.2024.04.031"
 
 - **합병증**: 비알코올성 지방간염(NASH), 간경변증, 간세포암(HCC), 간부전, 만성 신장 질환 등.
 
-출처 : StatPearls (NAFLD, 2023)
+## 출처
+- StatPearls (NAFLD, 2023)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-출처 : 삼성서울병원 메뉴얼

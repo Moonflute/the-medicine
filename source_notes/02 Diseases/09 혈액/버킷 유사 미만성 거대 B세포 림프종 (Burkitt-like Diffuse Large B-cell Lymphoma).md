@@ -73,7 +73,9 @@ sources: ["eviQ TLS 관리 | https://www.eviq.org.au/clinical-resources/side-eff
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후는 재분류된 아형에 따라 다름; MYC/BCL2 재배열 등 고위험 질환은 공격적 경과·높은 재발 위험에 주의
 
-출처 : 2023 WHO Classification of Haematolymphoid Tumours; [WHO-HAEM5 분류 설명](https://doi.org/10.1038/s41375-022-01620-2); [ASH Double-hit/Double-expressor 구별](https://ashpublications.org/blood/article-abstract/130/5/590/36799)
+## 출처
+- 2023 WHO Classification of Haematolymphoid Tumours; [WHO-HAEM5 분류 설명](https://doi.org/10.1038/s41375-022-01620-2); [ASH Double-hit/Double-expressor 구별](https://ashpublications.org/blood/article-abstract/130/5/590/36799)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -54,7 +54,8 @@ reviewed_at: "2026-07-30"
 - **합병증**: 위식도 역류질환(GERD), 폐 발달 저하, 재발, 성장 장애.
 - **예후**: 조기 진단 및 수술적 교정이 중요하며, 성인 무증상 환자는 경과 관찰 가능하나 증상 발생 시 수술 고려.
 
+## 출처
+- StatPearls (Bochdalek Hernia, Congenital Diaphragmatic Hernia)
 
-출처 : StatPearls (Bochdalek Hernia, Congenital Diaphragmatic Hernia)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

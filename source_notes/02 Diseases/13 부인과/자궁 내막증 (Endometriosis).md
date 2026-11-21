@@ -83,7 +83,9 @@ content_updated_at: "2026-11-18"
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 골반통, 불임, 난소암 위험 증가, 재발 가능성 높음
 
-출처 : StatPearls (Endometriosis)
+## 출처
+- StatPearls (Endometriosis)
 - [NICE: Endometriosis diagnosis and management](https://www.nice.org.uk/guidance/ng73/chapter/Recommendations)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

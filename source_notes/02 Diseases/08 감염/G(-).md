@@ -75,5 +75,3 @@ sources: ["IDSA — Treatment of Antimicrobial Resistant Gram-Negative Infection
 - [[수막알균 (Meningococcus)]]
 - [[임균 감염 (Gonococcal Infection)]]
 - [[장티푸스 (Typhoid Fever)]]
-
-## 참고 가이드라인

@@ -59,6 +59,8 @@ sources: ["NICE NG59 | https://www.nice.org.uk/guidance/ng59/chapter/Recommendat
 - **경과**: 만성 가능, 재활·다학제 치료로 기능 개선
 - **드문 응급**: 마미증후군 등
 
-출처 : StatPearls (Lumbar Spinal Stenosis, Electrodiagnostic Evaluation of Spinal Stenosis)
+## 출처
+- StatPearls (Lumbar Spinal Stenosis, Electrodiagnostic Evaluation of Spinal Stenosis)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

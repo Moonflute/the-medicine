@@ -67,7 +67,9 @@ sources: ["CDC 보체 억제 치료 지침 | https://www.cdc.gov/meningococcal/h
 - 혈전증이 주요 사망 원인.
   골수형성이상 증후군(MDS) 또는 급성 골수성 백혈병(AML)으로 진행 가능성 존재.
 
-출처 : Merck Manual Professional (2026); [ICCS/ESCCA PNH 유세포검사 합의](https://doi.org/10.1002/cyto.b.21610)
+## 출처
+- Merck Manual Professional (2026); [ICCS/ESCCA PNH 유세포검사 합의](https://doi.org/10.1002/cyto.b.21610)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

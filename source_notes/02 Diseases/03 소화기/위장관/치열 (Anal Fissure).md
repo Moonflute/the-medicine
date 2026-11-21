@@ -48,7 +48,9 @@ sources: ["ASCRS 치열 진료지침 2023 | https://fascrs.org/ascrs/media/files
 ## 6. 예후 및 합병증 (Prognosis)
 - 급성은 보존적 치료로 호전되는 경우가 많다. 만성은 치료 반응과 괄약근 기능 위험에 따라 추가 치료를 선택한다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -50,6 +50,8 @@ reviewed_at: "2026-07-30"
 - **예후**: 사춘기에 접어들면서 자연 치유되는 경향이 있으나 일부는 성인기까지 지속됨
 - **합병증**: 쉴드 궤양, 각막 혼탁, 원추각막, 스테로이드 사용에 따른 녹내장 및 백내장
 
-출처 : StatPearls (Vernal Keratoconjunctivitis)
+## 출처
+- StatPearls (Vernal Keratoconjunctivitis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

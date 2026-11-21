@@ -89,9 +89,10 @@ content_updated_at: "2026-11-18"
 - 합병증: 고칼륨혈증, 대사성 산증, 폐부종, 요독성 심낭염
 - **조영 관련 손상 예방**: 위험도에 따라 전후 예방 수액 고려, 심부전·체액 과부하 위험에서는 용량 개별화
 
-출처 : Merck Manual Professional (AKI)
+## 출처
+- Merck Manual Professional (AKI)
+- 삼성서울병원 메뉴얼. KDIGO AKI/AKD guideline 및 KDIGO 2025 conference conclusions를 대조. 2026-09-14 기존 목차 내 보완. [ESUR — Renal adverse reactions](https://esur-cm.org/index.php/en/b-renal-adverse-reactions-2).
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. KDIGO AKI/AKD guideline 및 KDIGO 2025 conference conclusions를 대조. 2026-09-14 기존 목차 내 보완. [ESUR — Renal adverse reactions](https://esur-cm.org/index.php/en/b-renal-adverse-reactions-2).

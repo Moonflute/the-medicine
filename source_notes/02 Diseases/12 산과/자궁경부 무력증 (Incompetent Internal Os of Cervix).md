@@ -51,8 +51,10 @@ sources: ["SMFM 단태 짧은 경부 진료지침 | https://pubmed.ncbi.nlm.nih.
 ## 6. 예후 및 합병증 (Prognosis)
 - 조산 위험 증가, 조기 양막 파수, 융모양막염 가능성
 
-출처 : StatPearls (Cold Knife Conization of the Cervix)
+## 출처
+- StatPearls (Cold Knife Conization of the Cervix)
 - [SMFM Consult #70: Short cervix](https://publications.smfm.org/publications/560-society-for-maternal-fetal-medicine-consult-series-70/)
 - [NICE NG25: Preterm labour and birth](https://www.nice.org.uk/guidance/ng25/chapter/recommendations)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -52,8 +52,9 @@ reviewed_at: "2026-07-30"
 - 단순 섬유화·단순 낭종은 유방암 위험을 높이지 않음; 증식성·비정형 병변이 확인되면 해당 병리 위험도에 따라 평가
 - 연령·위험도에 맞는 유방 검진 유지
 
-
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
 - [American Cancer Society: Fibrocystic Breast Changes](https://www.cancer.org/cancer/types/breast-cancer/non-cancerous-breast-conditions/fibrosis-and-simple-cysts-in-the-breast.html)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

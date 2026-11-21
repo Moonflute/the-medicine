@@ -56,7 +56,9 @@ reviewed_at: "2026-07-30"
 - 대부분 경미, 자연 치유되나, 임산부 감염 시 태아의 소두증 및 뇌 기형을 유발할 수 있다.
   성인에서는 길랑-바레 증후군(Guillain-Barre syndrome)과 같은 신경학적 합병증이 보고된 바 있다.
 
-출처 : StatPearls (Zika Virus)
+## 출처
+- StatPearls (Zika Virus)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -55,6 +55,8 @@ reviewed_at: "2026-07-30"
 * **예후:** 수술적 치료 시 예후가 매우 좋음
 * **합병증:** 감염(pyocele), 혈종(hematocele), 재발, 고환 위축(드묾)
 
-출처 : StatPearls (Hydrocele, Filarial Hydrocele)
+## 출처
+- StatPearls (Hydrocele, Filarial Hydrocele)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

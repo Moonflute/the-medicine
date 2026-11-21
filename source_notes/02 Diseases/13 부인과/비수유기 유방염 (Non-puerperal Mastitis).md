@@ -60,7 +60,9 @@ sources: ["ASBrS/SBI/CAP 감염성·염증성 병변 지침, 2026 출판 | https
 - **경과**: 재발·만성 누공으로 삶의 질 저하 가능
 - **관리**: 정확한 원인 진단과 병변 유형에 맞는 치료·추적이 중요
 
-출처 : StatPearls (Acute Mastitis)
-- 보완 출처: 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls (Acute Mastitis)
+- 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

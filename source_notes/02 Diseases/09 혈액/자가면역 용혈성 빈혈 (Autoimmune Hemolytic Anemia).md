@@ -70,4 +70,5 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 2026-07-15 — 공식 지침 기반 Tier 2 보강
 
-출처: Merck Manual Professional (Autoimmune Hemolytic Anemia); 삼성서울병원 메뉴얼; [ASH AIHA 진단 접근](https://pmc.ncbi.nlm.nih.gov/articles/PMC6246027/); [ASH AIHA 치료](https://doi.org/10.1182/blood-2016-11-693689)
+## 출처
+- Merck Manual Professional (Autoimmune Hemolytic Anemia); 삼성서울병원 메뉴얼; [ASH AIHA 진단 접근](https://pmc.ncbi.nlm.nih.gov/articles/PMC6246027/); [ASH AIHA 치료](https://doi.org/10.1182/blood-2016-11-693689)

@@ -45,6 +45,8 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 물질 제거 시 대부분 호전되나, 만성화될 경우 각막 상피 손상이나 시력 저하 가능성 있음
 
-출처 : StatPearls (Allergic Conjunctivitis)
+## 출처
+- StatPearls (Allergic Conjunctivitis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -61,7 +61,9 @@ sources: ["SANJO 2023 | https://jbji.copernicus.org/articles/8/29/2023/jbji-8-29
 - 치료가 지연될 경우 관절 연골이 빠르게 파괴되어 영구적인 관절 손상 및 기능 상실을 초래할 수 있다.
   만성 감염 관절염으로 진행되거나 패혈증 등의 합병증이 발생할 수 있다.
 
-출처 : Merck Manual Professional; 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional; 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성

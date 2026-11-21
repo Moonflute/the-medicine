@@ -48,7 +48,9 @@ reviewed_at: "2026-07-30"
 - 제대 탈출의 위험이 있으므로 주의 깊은 모니터링 필요.
 - 대부분의 경우 태아 사지가 자연스럽게 후퇴하여 정상 분만이 가능하나, 난산으로 진행될 경우 제왕절개술이 필요함.
 
-출처 : StatPearls (Breech Presentation, Delivery: Face and Brow Presentation)
+## 출처
+- StatPearls (Breech Presentation, Delivery: Face and Brow Presentation)
 - [SASGOG/Exxcellence: Compound Malpresentations](https://www.exxcellence.org/list-of-pearls/management-of-brow-face-and-compound-malpresentations/)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

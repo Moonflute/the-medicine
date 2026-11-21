@@ -55,7 +55,9 @@ review_status: "guideline_enriched"
 * 조기 진단 및 신속한 치료가 신경 발달 예후에 결정적
 * 치료 지연 시 지능 저하 및 발달 장애 심화 가능성 높음
 
-출처 : 소아청소년과 임상 진료 지침; [ILAE 영아 뇌전증성 연축 증후군](https://www.epilepsydiagnosis.org/syndrome/west-syndrome-diagcriteria.html)
+## 출처
+- 소아청소년과 임상 진료 지침; [ILAE 영아 뇌전증성 연축 증후군](https://www.epilepsydiagnosis.org/syndrome/west-syndrome-diagcriteria.html)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 2026-07-15 — 공식 지침 기반 Tier 2 보강

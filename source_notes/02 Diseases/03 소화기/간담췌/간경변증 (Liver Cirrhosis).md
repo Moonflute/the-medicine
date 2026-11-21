@@ -173,5 +173,3 @@ CSPH가 없는 대상성 환자에게 같은 예방 목적으로 일괄 투여�
 - [[식도 정맥류 (Esophageal Varices)]]
 - [[위 정맥류 (Gastric Varices)]]
 - [[자발성 세균 복막염 (Spontaneous Bacterial Peritonitis)]]
-
-## 참고 가이드라인

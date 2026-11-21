@@ -53,7 +53,9 @@ sources: ["Mayo Clinic 담즙 역류 치료 | https://www.mayoclinic.org/disease
 - 수술적 교정 후 증상 호전 기대 가능
 - 만성 역류 시 위 점막 위축 및 암 발생 위험 증가 가능성
 
-출처 : Merck Manual Professional, 소화기학 교과서
+## 출처
+- Merck Manual Professional, 소화기학 교과서
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

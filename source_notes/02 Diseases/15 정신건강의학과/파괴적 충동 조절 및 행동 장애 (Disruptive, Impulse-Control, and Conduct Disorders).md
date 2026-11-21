@@ -62,5 +62,3 @@ group_members:
 - [[도벽 (Kleptomania)]]
 - [[방화광 (Pyromania)]]
 - [[적대적 반항 장애 (Oppositional Defiant Disorder)]]
-
-## 참고 자료

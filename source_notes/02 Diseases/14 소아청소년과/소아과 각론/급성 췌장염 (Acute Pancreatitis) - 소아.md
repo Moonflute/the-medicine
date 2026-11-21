@@ -70,7 +70,9 @@ sources: ["NASPGHAN 임상보고 | https://naspghan.org/files/Management_of_Acut
 * 경증은 대부분 수일 내 회복
 * 중증은 췌장 괴사, 감염, 전신 염증 반응 증후군(SIRS), 다발성 장기 부전으로 진행될 수 있으며 높은 사망률과 연관됨
 
-출처 : StatPearls (Acute Pancreatitis)
+## 출처
+- StatPearls (Acute Pancreatitis)
 - [NASPGHAN: Pediatric acute pancreatitis management](https://pmc.ncbi.nlm.nih.gov/articles/PMC5755713/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

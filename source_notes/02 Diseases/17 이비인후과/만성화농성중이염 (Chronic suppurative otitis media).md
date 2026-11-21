@@ -51,6 +51,8 @@ reviewed_at: "2026-07-30"
 - **합병증**: 난청(전음성/감각신경성), 고실경화증, 유양돌기염, 안면신경 마비, 뇌막염, 뇌농양 등 두개내 합병증
 - **예후**: 조기 진단 및 적절한 치료 시 양호하나, 방치 시 청력 저하 및 심각한 합병증 유발 가능
 
-출처 : StatPearls (Chronic Suppurative Otitis)
+## 출처
+- StatPearls (Chronic Suppurative Otitis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

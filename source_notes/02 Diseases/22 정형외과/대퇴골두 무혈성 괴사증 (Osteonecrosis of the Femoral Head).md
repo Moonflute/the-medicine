@@ -71,7 +71,8 @@ content_updated_at: "2026-11-18"
 - **예후**: 조기 발견 중요, 괴사 범위가 클수록 불량
   - 최종적으로 고관절 전치환술이 필요한 경우가 많음
 
-참고: [Stanford Medicine 25: Hip examination](https://med.stanford.edu/stanfordmedicine25/the25/HipRegionExam.html)
+## 출처
+- [Stanford Medicine 25: Hip examination](https://med.stanford.edu/stanfordmedicine25/the25/HipRegionExam.html)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

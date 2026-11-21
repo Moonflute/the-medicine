@@ -45,4 +45,5 @@ reviewed_at: 2026-09-22
 - [[심부 정맥 혈전증 및 폐색전증 (Deep Vein Thrombosis and Pulmonary Embolism)]]
 - [[창상 감염 (Wound Infection)]]
 
-출처: 삼성서울병원 외과 메뉴얼
+## 출처
+- 삼성서울병원 외과 메뉴얼

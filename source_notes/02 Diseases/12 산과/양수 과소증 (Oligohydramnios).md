@@ -58,6 +58,8 @@ sources: ["ACOG 의학적 적응증에 따른 분만 시기 | https://www.acog.o
 ## 6. 예후 및 합병증 (Prognosis)
 - 태아 폐 발달 저하(폐 형성 부전), 제대 압박으로 인한 태아 가사, 태아 성장 지연 및 신생아 이환율 증가와 관련됨.
 
-출처 : StatPearls (Oligohydramnios)
+## 출처
+- StatPearls (Oligohydramnios)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

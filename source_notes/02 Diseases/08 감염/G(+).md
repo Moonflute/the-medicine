@@ -64,5 +64,3 @@ sources: ["IDSA·ESCMID 2026년 9월 S. aureus 균혈증 합의문 | https://www
 - [[리스테리아 (Listeria)]]
 - [[사슬알균 인두염 (Streptococcal Pharyngitis)]]
 - [[연조직염 (Cellulitis)]]
-
-## 참고 가이드라인

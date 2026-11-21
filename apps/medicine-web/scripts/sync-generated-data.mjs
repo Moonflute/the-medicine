@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createSkillsManifest } from "./skills-manifest.mjs";
+import { separateDiseaseReferences } from "./disease-references.mjs";
 
 const APP_ROOT = process.env.INIT_CWD || process.cwd();
 const WORKSPACE_ROOT = path.resolve(APP_ROOT, "..", "..");
@@ -473,14 +474,15 @@ function buildDiseases() {
     const { frontmatter, body } = splitFrontmatter(raw);
     const specialty = path.relative(root, filePath).split(path.sep)[0];
     // Clinical criteria use indentation to distinguish alternatives and exceptions.
-    const sections = splitSections(body, true);
+    const sourceSections = splitSections(body, true);
     const fileName = path.basename(filePath, ".md");
     const stat = fs.statSync(filePath);
     const contentUpdatedAt = readScalar(frontmatter["content_updated_at"]);
     const reviewedAt = readScalar(frontmatter["reviewed_at"]);
     const reviewStatus = readScalar(frontmatter["review_status"]);
     const guidelineYear = readScalar(frontmatter["guideline_year"]);
-    const sources = parseSkillSources(frontmatter.sources);
+    const sources = parseSkillSources(frontmatter.sources, true);
+    const { sections, references } = separateDiseaseReferences(sourceSections, sources);
     const family = readScalar(frontmatter["disease_family"]);
     const parentDisease = readScalar(frontmatter["parent_disease"]);
     const relationToParent = readScalar(frontmatter["relation_to_parent"]);
@@ -515,6 +517,7 @@ function buildDiseases() {
       definition: extractDefinition(body),
       overview: buildStudyOverview(sections),
       sections,
+      references,
       updatedAt: stat.mtime.toISOString(),
       clinicalPriority: readScalar(frontmatter["clinical_priority"]) || readScalar(frontmatter["임상_우선순위"]),
       ...(documentRole ? { documentRole } : {}),
@@ -1299,7 +1302,7 @@ function buildAntibioticSpectrum(drugs, diseases, microbiology) {
   return { ...dataset, organisms, antibiotics };
 }
 
-function parseSkillSources(value) {
+function parseSkillSources(value, allowTextOnly = false) {
   const lines = readList(value).flatMap((line) => {
     const trimmed = line.trim();
     if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
@@ -1318,7 +1321,7 @@ function parseSkillSources(value) {
       const [label, ...urlParts] = line.split("|").map((part) => part.trim());
       return { label: label.replace(/^\[|\]$/g, "").trim(), url: urlParts.join("|").trim() };
     })
-    .filter((item) => item.label && item.url);
+    .filter((item) => item.label && (item.url || allowTextOnly));
 }
 
 function firstSkillSection(body, title) {

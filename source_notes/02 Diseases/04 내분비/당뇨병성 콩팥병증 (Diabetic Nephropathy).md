@@ -83,4 +83,5 @@ Last updated :
 분과 : [[내분비]]
 2026-07-15 — 중복 본문 정리
 
-보완 출처: 삼성서울병원 메뉴얼; [FDA finerenone 2026 처방정보](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215341s011lbl.pdf).
+## 출처
+- 삼성서울병원 메뉴얼; [FDA finerenone 2026 처방정보](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215341s011lbl.pdf).

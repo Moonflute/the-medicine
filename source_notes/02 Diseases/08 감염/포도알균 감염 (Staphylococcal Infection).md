@@ -88,7 +88,9 @@ sources: ["IDSA ESCMID 2026 S. aureus bacteremia consensus statements, Part 1 | 
 - 패혈증, 심내막염, 골수염, 농양 형성 등 중증 감염으로 진행 가능
 - 생물막 형성 시 항생제 치료가 어렵고 수술적 제거가 필요할 수 있음
 
-출처 : StatPearls (Staphylococcus aureus Infection, Methicillin-Resistant Staphylococcus aureus)
+## 출처
+- StatPearls (Staphylococcus aureus Infection, Methicillin-Resistant Staphylococcus aureus)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

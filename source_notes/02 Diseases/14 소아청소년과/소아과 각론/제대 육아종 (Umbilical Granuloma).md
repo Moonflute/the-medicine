@@ -46,6 +46,8 @@ sources: ["RCH 제대 육아종 의뢰 기준 | https://www.rch.org.au/kidsconne
 * 적절한 치료 후 대부분 완치됨
 * 드물게 감염이 동반될 수 있으므로 주의 깊은 관찰 필요
 
-출처 : StatPearls (Umbilical Cord)
+## 출처
+- StatPearls (Umbilical Cord)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

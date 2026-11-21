@@ -58,6 +58,8 @@ sources: ["국제 PCL 전문가 합의 2025 | https://pmc.ncbi.nlm.nih.gov/artic
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성적인 경우 퇴행성 관절염 위험 증가 가능성.
 
-출처 : StatPearls (Knee Posterior Cruciate Ligament)
+## 출처
+- StatPearls (Knee Posterior Cruciate Ligament)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

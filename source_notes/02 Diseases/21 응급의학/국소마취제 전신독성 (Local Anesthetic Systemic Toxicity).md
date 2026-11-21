@@ -60,4 +60,5 @@ sources: ["ASRA: LAST checklist, 2020 | https://asra.com/docs/default-source/gui
   - 심혈관 불안정 후 **4–6시간 이상**
   - 심정지 후: 상태에 맞춘 중환자 관리
 
-참고: [ASRA LAST checklist](https://asra.com/news-publications/asra-updates/blog-landing/guidelines/2020/11/01/checklist-for-treatment-of-local-anesthetic-systemic-toxicity)
+## 출처
+- [ASRA LAST checklist](https://asra.com/news-publications/asra-updates/blog-landing/guidelines/2020/11/01/checklist-for-treatment-of-local-anesthetic-systemic-toxicity)

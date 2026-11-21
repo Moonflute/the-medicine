@@ -53,8 +53,10 @@ sources: ["NICE 쌍태임신 지침 | https://www.nice.org.uk/guidance/ng137/cha
 - 제대 꼬임으로 인한 높은 태아 사망률.
 - 결합 쌍태아의 경우 장기 공유 정도에 따라 예후가 결정되며, 심장 공유 시 생존율 매우 낮음.
 
-출처 : StatPearls (Conjoined Twins)
+## 출처
+- StatPearls (Conjoined Twins)
 - [ISUOG Monoamniotic Twin Pregnancy](https://www.isuog.org/clinical-resources/patient-information-series/patient-information-pregnancy-conditions/multiple-pregnancies/monoamniotic-twin-pregnancy.html)
 - [ISUOG Monoamniotic Twin Pregnancies — 결합 쌍태아 구분](https://www.isuog.org/education/visuog/obstetrics/multiple-pregnancy/monoamniotic-twin-pregnancies.html)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

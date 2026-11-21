@@ -64,7 +64,9 @@ sources: ["NIH | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guideli
 ## 6. 예후 및 합병증 (Prognosis)
 - 면역 저하 환자에서 중추신경계 감염은 치명적일 수 있으며, 뇌부종으로 인한 신경학적 후유증이 발생할 수 있다.
 
-출처 : Merck Manual Professional (2026); 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional (2026); 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

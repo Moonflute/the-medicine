@@ -54,6 +54,8 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 출혈성 쇼크, 요로계 손상, 신경 손상(요천골 신경총), 장기 부전, 장기적인 장애.
 
-출처 : StatPearls (Pelvic Trauma)
+## 출처
+- StatPearls (Pelvic Trauma)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -57,6 +57,8 @@ reviewed_at: "2026-07-30"
 - **예후**: 대부분 2~4주 내 자연 회복, 피로감은 수개월 지속 가능
 - **합병증**: 비장 파열, 상기도 폐쇄, 신경계 합병증(뇌염, 길랑-바레 증후군 등), 혈액학적 이상(빈혈, 혈소판 감소증)
 
-출처 : StatPearls (Mononucleosis); [CDC EBV 검사](https://www.cdc.gov/epstein-barr/php/laboratories/index.html)
+## 출처
+- StatPearls (Mononucleosis); [CDC EBV 검사](https://www.cdc.gov/epstein-barr/php/laboratories/index.html)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -64,7 +64,8 @@ content_updated_at: "2026-11-17"
 - **예후**: 조기 치료가 회복에 중요. 완전 마비 후에는 회복이 어려울 수 있음
 - **합병증**: 치료 지연에 따른 영구적 신경 손상
 
-출처: [NICE NG234: 척추 전이·악성 척수압박 관리](https://www.nice.org.uk/guidance/ng234/chapter/recommendations)
+## 출처
+- [NICE NG234: 척추 전이·악성 척수압박 관리](https://www.nice.org.uk/guidance/ng234/chapter/recommendations)
 
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)

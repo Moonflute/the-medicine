@@ -53,6 +53,8 @@ sources: ["EBI 성인 방아쇠수지 유리술 | https://ebi.aomrc.org.uk/inter
 - **예후**: 적절한 치료 시 양호, 당뇨에서는 보존 반응이 낮을 수 있음
 - **합병증**: 수술 후 재발, 신경 손상, 활차 절개 후 건의 활주(bowstringing) 등이 드물게 발생 가능.
 
-출처 : StatPearls (Trigger Finger)
+## 출처
+- StatPearls (Trigger Finger)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

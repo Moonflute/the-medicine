@@ -89,9 +89,10 @@ sources: ["AASLD PSC 지침 | https://www.aasld.org/practice-guidelines/primary-
 
 - **합병증**: 간경변증, 담관암(10~20% 발생), 세균성 담관염, 담석증, 대장암(IBD 동반 시), 골다공증, 지용성 비타민 결핍 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Primary Sclerosing Cholangitis)
+## 출처
+- Merck Manual Professional (Primary Sclerosing Cholangitis)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

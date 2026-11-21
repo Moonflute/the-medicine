@@ -69,6 +69,8 @@ content_updated_at: "2026-11-18"
 ## 6. 예후 및 합병증 (Prognosis)
 - 골다공증, 심혈관 질환, 비뇨생식기계 위축 및 기능 저하
 
-출처 : StatPearls (Menopause, Genitourinary Syndrome of Menopause)
+## 출처
+- StatPearls (Menopause, Genitourinary Syndrome of Menopause)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

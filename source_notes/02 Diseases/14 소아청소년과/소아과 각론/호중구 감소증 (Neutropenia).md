@@ -73,6 +73,8 @@ content_updated_at: "2026-11-18"
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 원인·중증도에 따라 다양; 패혈증 등 치명적 감염 주의
 
-출처 : StatPearls (Neutropenia, Febrile Neutropenia); [소아 암/이식 FN 지침 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10022858/)
+## 출처
+- StatPearls (Neutropenia, Febrile Neutropenia); [소아 암/이식 FN 지침 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10022858/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

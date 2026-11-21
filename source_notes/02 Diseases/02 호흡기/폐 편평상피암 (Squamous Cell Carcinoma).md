@@ -102,7 +102,9 @@ sources: ["대한폐암학회 폐암진료지침 3판 (2023) | https://www.lungc
 - 중심성 위치로 인해 조기 발견이 가능할 수 있으나, 국소 침습 및 림프절 전이 가능성이 있음.
   고칼슘혈증 등 대사성 합병증에 대한 관리가 중요함.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -94,10 +94,11 @@ sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real
 
 - **합병증**: 패혈증, 간 농양, 췌장염, 담도성 간경변증, 담관암 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Choledocholithiasis and Cholangitis)
-참고 가이드라인: [TG18 급성 담관염 진단·중증도](https://doi.org/10.1002/jhbp.512)
+## 출처
+- Merck Manual Professional (Choledocholithiasis and Cholangitis)
+- [TG18 급성 담관염 진단·중증도](https://doi.org/10.1002/jhbp.512)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

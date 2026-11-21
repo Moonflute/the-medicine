@@ -80,7 +80,9 @@ sources: ["2025 Korean Thyroid Association Management Guidelines for Radioactive
 - 적절한 치료가 이루어지지 않을 경우 갑상샘중독증 위기(thyrotoxic crisis) 발생 가능.
 - 치료 후 갑상샘기능저하증이 발생할 수 있으며, 이 경우 레보티록신 보충이 필요함.
 
-출처 : StatPearls (Graves Disease, Graves Disease Orbital Decompression); [EUGOGO 안병증 지침](https://academic.oup.com/ejendo/article/185/4/G43/6654384).
+## 출처
+- StatPearls (Graves Disease, Graves Disease Orbital Decompression); [EUGOGO 안병증 지침](https://academic.oup.com/ejendo/article/185/4/G43/6654384).
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-03 : 본문 갱신 (processed)

@@ -54,7 +54,8 @@ relation_to_parent: subtype
 - 예후: 조기 진단 및 적절한 약물 치료 시 사망률은 약 1% 수준으로 감소함.
 - 합병증: 베르니케 뇌병증, 금단 발작, 알코올 환각증, 심각한 자율신경계 불안정.
 
-출처: [ASAM 알코올 금단 관리 지침](https://downloads.asam.org/sitefinity-production-blobs/docs/default-source/guidelines/awg-3-20-20.pdf)
+## 출처
+- [ASAM 알코올 금단 관리 지침](https://downloads.asam.org/sitefinity-production-blobs/docs/default-source/guidelines/awg-3-20-20.pdf)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

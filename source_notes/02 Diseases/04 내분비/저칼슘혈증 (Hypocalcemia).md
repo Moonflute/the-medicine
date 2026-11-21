@@ -72,7 +72,8 @@ sources: ["Society for Endocrinology | https://pmc.ncbi.nlm.nih.gov/articles/PMC
 - **중증 증상·테타니**: 응급 평가 및 정맥 칼슘 치료
   - 안정 후에도 칼슘·활성 vitamin D 보충, Ca·인·이온화 Ca에 따라 용량 조절
 
-출처: 삼성서울병원 외과 메뉴얼; [ESE 2025 — Chronic hypoparathyroidism](https://doi.org/10.1093/ejendo/lvaf222)
+## 출처
+- 삼성서울병원 외과 메뉴얼; [ESE 2025 — Chronic hypoparathyroidism](https://doi.org/10.1093/ejendo/lvaf222)
 
 Last updated :
 2026-05-11 : 본문 갱신 (processed)

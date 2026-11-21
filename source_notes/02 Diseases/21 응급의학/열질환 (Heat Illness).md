@@ -67,6 +67,6 @@ population: general
 - **합병증**: DIC·rhabdomyolysis·AKI·급성간부전·ARDS·부정맥·영구 신경손상
 - **퇴원 후**: 지연 간/신장 이상 확인, 증상·검사 회복과 단계적 열순응에 따라 운동 복귀
 
-출처 :
+## 출처
 - Tintinalli's Emergency Medicine Manual, 8e, Ch. 119.
 - Wilderness Medical Society Heat Illness Clinical Practice Guideline, 2024.

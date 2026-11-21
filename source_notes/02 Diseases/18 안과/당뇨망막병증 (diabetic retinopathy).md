@@ -42,5 +42,3 @@ review_status: "guideline_enriched"
 
 ## 6. 예후 및 합병증
 - 유리체출혈, 견인망막박리, 신생혈관녹내장과 시력 예후는 [[당뇨병성 망막병증 (Diabetic Retinopathy)]]에 통합해 갱신한다.
-
-## 출처

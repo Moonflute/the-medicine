@@ -84,6 +84,8 @@ content_updated_at: "2026-11-18"
 * 전이율은 매우 낮으나, 국소 침습성이 강해 방치 시 조직 파괴 및 변형을 초래함.
 * 5년 내 새로운 BCC 발생률이 약 40%에 달하므로 장기적인 추적 관찰이 필수적.
 
-출처 : StatPearls (Basal Cell Carcinoma)
+## 출처
+- StatPearls (Basal Cell Carcinoma)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

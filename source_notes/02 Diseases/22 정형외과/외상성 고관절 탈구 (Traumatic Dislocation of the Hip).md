@@ -52,6 +52,8 @@ sources: ["AAOS 고관절 탈구 | https://www.orthoinfo.org/diseases--condition
 - 조기 합병증: 좌골 신경 손상, 대퇴골두 골절, 비구 골절.
 - 후기 합병증: 대퇴골두 무혈성 괴사(AVN), 외상 후 고관절염.
 
-출처 : StatPearls (Traumatic Hip Dislocation)
+## 출처
+- StatPearls (Traumatic Hip Dislocation)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

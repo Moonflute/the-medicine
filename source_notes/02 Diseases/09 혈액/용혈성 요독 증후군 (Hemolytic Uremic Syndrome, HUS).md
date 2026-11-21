@@ -72,7 +72,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 소아에서 흔, 대부분 회복되나, 일부 환자는 만성 신부전으로 진행할 수 있음.
 
-출처 : Merck Manual Professional (Hemolytic-Uremic Syndrome); [IPNA aHUS·이차 TMA 권고 2026](https://doi.org/10.1007/s00467-026-07537-7)
+## 출처
+- Merck Manual Professional (Hemolytic-Uremic Syndrome); [IPNA aHUS·이차 TMA 권고 2026](https://doi.org/10.1007/s00467-026-07537-7)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

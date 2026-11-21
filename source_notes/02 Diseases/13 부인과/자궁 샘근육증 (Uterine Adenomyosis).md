@@ -55,6 +55,8 @@ sources: ["NICE NG88 | https://www.nice.org.uk/guidance/ng88/chapter/recommendat
 - 폐경 후 에스트로겐 자극 감소로 증상 호전 경향
 - 자궁근종, 자궁내막증 등과 동반되는 경우가 흔함
 
-출처 : StatPearls (Adenomyosis, Abnormal Uterine Bleeding)
+## 출처
+- StatPearls (Adenomyosis, Abnormal Uterine Bleeding)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

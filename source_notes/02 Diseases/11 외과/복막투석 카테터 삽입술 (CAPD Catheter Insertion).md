@@ -55,4 +55,5 @@ reviewed_at: 2026-09-22
 - [[자가 동정맥루 조성술 (Arteriovenous Fistula)]]
 - [[인조혈관 동정맥루 조성술 (Arteriovenous Graft)]]
 
-출처: 삼성서울병원 외과 메뉴얼
+## 출처
+- 삼성서울병원 외과 메뉴얼

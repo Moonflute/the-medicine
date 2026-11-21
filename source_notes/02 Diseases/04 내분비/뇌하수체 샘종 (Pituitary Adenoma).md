@@ -62,8 +62,10 @@ sources: ["Pituitary Society 2025 | https://www.nature.com/articles/s41574-025-0
   정기적인 호르몬 및 영상 추적 관찰 필요.
 - 추적 중 종양 성장, 새 시야 증상 또는 새 호르몬 결핍이 생기면 내분비·신경외과 재평가가 필요하다.
 
-출처 : StatPearls (Pituitary Adenoma)
+## 출처
+- StatPearls (Pituitary Adenoma)
 - 삼성서울병원 메뉴얼
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

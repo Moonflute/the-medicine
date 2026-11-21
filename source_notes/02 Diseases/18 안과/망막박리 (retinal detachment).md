@@ -54,6 +54,8 @@ sources: ["AAO PPP 2025 | https://www.aao.org/Assets/7d362287-0a40-430a-9fe7-fd4
 - 황반 침범 여부가 시력 예후의 핵심
 - 조기 수술이 중요하며, 방치 시 영구적인 시력 상실 및 안구 위축 가능
 
-출처 : StatPearls (Retinal Detachment, Retinal Traction Detachment)
+## 출처
+- StatPearls (Retinal Detachment, Retinal Traction Detachment)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -55,7 +55,8 @@ relation_to_parent: subtype
 - 예후: 점진적으로 악화되는 경과를 보이며, 낙상, 폐렴, 연하 곤란, 자율신경계 합병증 등이 주요 사망 원인임.
 - 관리: 다학제적 접근(신경과, 정신건강의학과, 재활의학과 등)이 필수적임.
 
-출처: [DLB Consortium 진단·관리 합의문](https://pmc.ncbi.nlm.nih.gov/articles/PMC5496518/)
+## 출처
+- [DLB Consortium 진단·관리 합의문](https://pmc.ncbi.nlm.nih.gov/articles/PMC5496518/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

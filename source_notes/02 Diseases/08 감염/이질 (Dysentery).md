@@ -53,7 +53,9 @@ reviewed_at: "2026-07-30"
 - **합병증**: 탈수, 전해질 불균형, 용혈성 요독 증후군(HUS), 반응성 관절염, 독성 거대결장
 - **예후**: 대부분 자가 제한적이나 고위험군에서는 적절한 치료가 예후 개선에 필수적
 
-출처 : StatPearls (Shigellosis, 2026)
+## 출처
+- StatPearls (Shigellosis, 2026)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

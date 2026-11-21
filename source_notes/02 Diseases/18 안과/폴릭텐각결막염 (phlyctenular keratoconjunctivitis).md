@@ -47,8 +47,9 @@ reviewed_at: "2026-07-30"
 - 적절한 치료 시 대개 잘 치유되나, 재발 가능성이 있음
 - 합병증: 각막 반흔, 각막 신생혈관, 시력 저하
 
-출처 : StatPearls (Keratoconjunctivitis)
-보완 근거: [미국 소아 폴릭텐각결막염 코호트](https://pmc.ncbi.nlm.nih.gov/articles/PMC10050225/), [원인 재평가 연구](https://pubmed.ncbi.nlm.nih.gov/10715381/)
+## 출처
+- StatPearls (Keratoconjunctivitis)
+- [미국 소아 폴릭텐각결막염 코호트](https://pmc.ncbi.nlm.nih.gov/articles/PMC10050225/), [원인 재평가 연구](https://pubmed.ncbi.nlm.nih.gov/10715381/)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

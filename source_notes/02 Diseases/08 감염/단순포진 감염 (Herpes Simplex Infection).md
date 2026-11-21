@@ -68,7 +68,9 @@ sources: ["CDC HSV 지침 | https://www.cdc.gov/std/treatment-guidelines/herpes.
 - 재발이 흔하며, 면역 저하 환자나 신생아에서는 뇌염, 파종성 감염 등 중증 합병증 및 사망 위험이 있음.
   조기 진단과 치료가 예후에 결정적임.
 
-출처 : StatPearls (Congenital Herpes Simplex, Herpes Simplex Encephalitis); 삼성서울병원 메뉴얼
+## 출처
+- StatPearls (Congenital Herpes Simplex, Herpes Simplex Encephalitis); 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

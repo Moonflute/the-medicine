@@ -77,7 +77,9 @@ sources: ["폐암 진료 가이드라인 2023 | https://www.lungcancer.or.kr/bbs
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 공격적인 암으로 진단 시 이미 전신 전이가 있는 경우가 많으며, 치료 반응은 좋으나 재발률이 높다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

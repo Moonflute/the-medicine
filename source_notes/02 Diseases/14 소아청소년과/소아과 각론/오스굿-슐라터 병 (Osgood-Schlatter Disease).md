@@ -44,6 +44,8 @@ reviewed_at: "2026-07-30"
 * 대부분 골단이 융합되면서 자연 치유됨 (수개월~2년 소요)
 * 드물게 경골 결절의 돌출이 남을 수 있으나 대부분 무증상
 
-출처 : StatPearls (Osgood-Schlatter Disease)
+## 출처
+- StatPearls (Osgood-Schlatter Disease)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

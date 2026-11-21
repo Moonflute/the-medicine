@@ -47,6 +47,8 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 상처 벌어짐(dehiscence), 피부 괴사, 감염(농양 형성), 만성 가성낭종.
 
-출처 : StatPearls (Postoperative Seroma Management)
+## 출처
+- StatPearls (Postoperative Seroma Management)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

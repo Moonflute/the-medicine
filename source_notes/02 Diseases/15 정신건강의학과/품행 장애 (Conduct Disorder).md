@@ -51,7 +51,8 @@ relation_to_parent: subtype
 - 예후: 조기 개입이 중요. 낮은 지능, 기능 부전적 가정 환경, 부모의 범죄 이력은 예후 불량 인자.
 - 합병증: 성인기 반사회적 인격 장애로 이행 가능성, 물질 남용, 법적 문제, 사회적 기능 저하.
 
-출처: [SAMHSA 품행장애 진단 기준](https://www.ncbi.nlm.nih.gov/books/NBK519712/)
+## 출처
+- [SAMHSA 품행장애 진단 기준](https://www.ncbi.nlm.nih.gov/books/NBK519712/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

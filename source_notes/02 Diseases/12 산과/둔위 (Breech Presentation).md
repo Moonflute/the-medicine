@@ -52,6 +52,8 @@ sources: ["NICE 제왕절개·ECV 권고 | https://www.nice.org.uk/guidance/ng19
 - 제대 탈출(cord prolapse) 위험이 두정위보다 높음(특히 불완전 둔위).
 - 분만 시 태아 손상 및 저산소증 위험 증가.
 
-출처 : StatPearls (Breech Presentation)
+## 출처
+- StatPearls (Breech Presentation)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

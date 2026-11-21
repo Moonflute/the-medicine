@@ -70,8 +70,10 @@ reviewed_at: "2026-07-30"
 
 - **합병증**: 복부 팽만으로 인한 호흡 곤란, 장 폐쇄, 영양 결핍, 감염 등이 발생할 수 있다.
 
-출처 : StatPearls (Ascites)
-참고: [BSG/BASL 복수 지침](https://gut.bmj.com/content/70/1/9), [NHS GGC 암 관련 복수](https://handbook.ggcmedicines.org.uk/guidelines/oncological-emergencies/malignant-related-ascites/)
+## 출처
+- StatPearls (Ascites)
+- [BSG/BASL 복수 지침](https://gut.bmj.com/content/70/1/9), [NHS GGC 암 관련 복수](https://handbook.ggcmedicines.org.uk/guidelines/oncological-emergencies/malignant-related-ascites/)
+
 Last updated :
 2024-07-30 — 일반 지식 기반 작성
 2026-05-18 — 본문 갱신 (codex fill)

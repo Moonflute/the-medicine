@@ -79,5 +79,3 @@ sources: ["NCI 호지킨 림프종 전문의용 PDQ, 2025 갱신 내용; 2026-10
 - [[버킷 림프종 (Burkitt's Lymphoma)]]
 - [[소림프구 림프종 (Small Lymphocytic Lymphoma)]]
 - [[여포성 림프종 (Follicular Lymphoma)]]
-
-## 참고 자료

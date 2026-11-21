@@ -91,10 +91,11 @@ sources: ["2022 천식 진료지침 | https://www.lungkorea.org/bbs/index.html?c
 - 적절한 약물 치료로 대부분 양호한 예후를 보임.
   조절되지 않는 경우 기도 재형성으로 인한 영구적 폐기능 저하 가능.
 
-출처 : Merck Manual Professional (Asthma, Wheezing and Asthma in Infants and Young Children)
+## 출처
+- Merck Manual Professional (Asthma, Wheezing and Asthma in Infants and Young Children)
+- 삼성서울병원 메뉴얼
+- [GINA 2026 요약 지침](https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼
-참고: [GINA 2026 요약 지침](https://ginasthma.org/wp-content/uploads/2026/07/GINA-Summary-Guide-2026-WEB-WMS.pdf)

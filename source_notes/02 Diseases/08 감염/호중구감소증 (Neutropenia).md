@@ -71,5 +71,3 @@ guideline_review_status: primary_source_reviewed
 
 ## 6. 합병증
 - 균혈증·패혈증·침습성 진균감염·호중구감소성 장염을 주의한다. 새로운 복통·설사·팽만은 장염과 복부 합병증 평가가 필요하다.
-
-## 참고 가이드라인

@@ -54,7 +54,9 @@ sources: ["ESGE 비정맥류 출혈 지침 | https://doi.org/10.1055/s-0034-1393
 - 진단: CXR, CT(종격동기종 및 염증 확인), 식도조영술(Gastrografin, barium)
 - 치료: 수술적 봉합 및 배액, 광범위 항생제 투여(파열이 작을 경우 보존적 치료 및 내시경적 clipping/stent 고려)
 
-출처 : Merck Manual Professional, Harrison 22e
+## 출처
+- Merck Manual Professional, Harrison 22e
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-11 : 본문 갱신 (processed)

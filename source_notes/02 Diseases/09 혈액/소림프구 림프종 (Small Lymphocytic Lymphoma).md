@@ -76,7 +76,8 @@ sources: ["iwCLL 지침 | https://ashpublications.org/blood/article/131/25/2745/
 ## 6. 예후 및 합병증 (Prognosis)
 - 저등급(Indolent) 림프종으로 경과가 완만하나, 재발 가능성이 높으므로 장기적인 추적 관찰이 필수적이다.
 
-출처: [iwCLL 2018 진단·치료 기준](https://doi.org/10.1182/blood-2017-09-806398); [EHA CLL/SLL 지침](https://doi.org/10.1002/hem3.70403)
+## 출처
+- [iwCLL 2018 진단·치료 기준](https://doi.org/10.1182/blood-2017-09-806398); [EHA CLL/SLL 지침](https://doi.org/10.1002/hem3.70403)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

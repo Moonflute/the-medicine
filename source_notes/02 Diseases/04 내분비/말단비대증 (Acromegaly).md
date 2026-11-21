@@ -66,8 +66,10 @@ content_updated_at: "2026-11-15"
 - 치료 실패 시 심혈관 질환 및 대사 합병증으로 인한 사망률 증가.
 - 방사선 치료 후 뇌하수체기능저하증 발생 가능성 있음.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-- 보완 출처: 삼성서울병원 메뉴얼

@@ -68,9 +68,10 @@ sources: ["WSES 급성 장간막 허혈 지침 2022 | https://doi.org/10.1186/s1
 ## 6. 예후 및 합병증 (Prognosis)
 - 장 괴사 발생 전 조기 진단 및 치료 시 예후가 좋으나, 괴사 발생 후에는 사망률이 매우 높음
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

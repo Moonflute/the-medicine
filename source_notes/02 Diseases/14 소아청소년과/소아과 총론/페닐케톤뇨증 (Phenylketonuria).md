@@ -58,6 +58,8 @@ content_updated_at: "2026-11-18"
 * 조기 진단 및 엄격한 식이 요법 시 정상적인 지능 발달 가능
 * 치료 지연 시 영구적인 신경학적 손상 및 지적 장애 초래
 
-출처 : StatPearls (Phenylketonuria)
+## 출처
+- StatPearls (Phenylketonuria)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

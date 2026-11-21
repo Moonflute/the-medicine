@@ -56,6 +56,8 @@ sources: ["NICE NG207 | https://www.nice.org.uk/guidance/ng207/chapter/recommend
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 자궁 과다 수축(tachysystole), 태아 심박수 이상, 산후 출혈, 융모 양막염, 제왕절개술로의 이행 가능성.
 
-출처 : StatPearls (Induction of Labor)
+## 출처
+- StatPearls (Induction of Labor)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

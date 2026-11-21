@@ -69,8 +69,9 @@ sources: ["AAN/AHS 2026 | https://doi.org/10.1111/head.70199", "NICE CG150 | htt
 - 대부분 양호하나 만성 편두통으로 이행될 수 있음.
   전조를 동반한 편두통은 뇌졸중 위험도가 다소 높을 수 있으므로 혈관 위험 인자 관리가 필요함.
 
-출처 : StatPearls (Basilar Migraine, Hemiplegic Migraine)
+## 출처
+- StatPearls (Basilar Migraine, Hemiplegic Migraine)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

@@ -49,7 +49,9 @@ reviewed_at: "2026-07-30"
 * 수술 후 예후 좋음
 * 합병증: 위장관 출혈(빈혈 유발), 장폐색(장중첩증, 섬유성 띠), 게실염 및 천공
 
-출처 : StatPearls (Meckel Diverticulum)
-보완 출처: 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls (Meckel Diverticulum)
+- 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

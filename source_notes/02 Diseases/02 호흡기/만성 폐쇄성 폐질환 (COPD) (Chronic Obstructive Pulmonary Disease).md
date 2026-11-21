@@ -127,6 +127,3 @@ guideline_review_status: primary_source_reviewed
 
 - 급성 악화에서 전신 steroid는 보통 짧은 과정으로 사용하며 장기 반복 처방을 기본 치료로 삼지 않는다.
 - 고탄산성 호흡부전의 환기는 산소만 올려 해결하려 하지 않고 혈액가스와 NIV 적응증을 평가한다.
-
-
-## 참고 가이드라인

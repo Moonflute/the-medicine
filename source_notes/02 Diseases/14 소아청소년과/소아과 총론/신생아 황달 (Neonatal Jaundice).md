@@ -77,6 +77,8 @@ sources: ["AAP 신생아 고빌리루빈혈증 지침 | https://doi.org/10.1542/
 - **합병증**: 빌리루빈 뇌병증(핵황달) 및 신경학적 후유증 발생 가능.
 - **예후**: 조기 발견 및 적절한 치료 시 예후가 좋으나, 병적 황달은 원인에 따라 관리 필요.
 
-출처 : StatPearls (Neonatal Jaundice)
+## 출처
+- StatPearls (Neonatal Jaundice)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

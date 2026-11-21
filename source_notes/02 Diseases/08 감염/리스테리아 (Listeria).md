@@ -64,7 +64,9 @@ sources: ["CDC Listeria 관리 | https://www.cdc.gov/listeria/hcp/clinical-care/
 - 임산부, 신생아, 면역 저하 환자에서 중증 감염 및 사망 위험이 높음.
   뇌간뇌염 등 중추신경계 침범 시 신경학적 후유증 가능성.
 
-출처 : StatPearls (Listeria monocytogenes Infection)
+## 출처
+- StatPearls (Listeria monocytogenes Infection)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -50,7 +50,9 @@ sources: ["ACOG 태아심박 지침 2025 | https://obgyn.wustl.edu/app/uploads/2
 - 조기 발견 및 처치 시 태아 예후 양호.
 - 방치 시 태아 가사(fetal distress), 뇌성마비, 태아 사망 위험 증가.
 
-출처 : Williams Obstetrics, 26th Edition
+## 출처
+- Williams Obstetrics, 26th Edition
 - [ACOG: Fetal Heart Tracings](https://www.acog.org/community/districts-and-sections/district-iv/whats-new/countdown-to-intern-year-week-4-fetal-heart-tracings)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

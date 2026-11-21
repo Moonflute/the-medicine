@@ -60,7 +60,9 @@ content_updated_at: "2026-11-17"
 - 도파민 작용제에 반응이 좋으나 장기 복용이 필요할 수 있음.
 - 합병증으로 골다공증(성선기능저하증에 의한), 시야 장애, 뇌하수체 기능 저하 등이 발생 가능.
 
-출처 : Merck Manual Professional (Prolactinoma); [Pituitary Society 2023](https://www.nature.com/articles/s41574-023-00886-5)
+## 출처
+- Merck Manual Professional (Prolactinoma); [Pituitary Society 2023](https://www.nature.com/articles/s41574-023-00886-5)
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

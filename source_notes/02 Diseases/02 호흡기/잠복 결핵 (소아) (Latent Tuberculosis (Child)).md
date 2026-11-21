@@ -63,7 +63,9 @@ sources: ["2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.ht
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 예방적 치료 시 활동성 결핵으로의 진행 위험을 크게 낮출 수 있음.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

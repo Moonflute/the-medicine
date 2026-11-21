@@ -51,6 +51,8 @@ sources: ["ONTT 결과 | https://jamanetwork.com/journals/jamaophthalmology/full
 - 대부분 수주에서 수개월 내에 부분적 또는 완전한 시력 회복을 보임.
   재발 가능성이 있으며, 다발성 경화증의 초기 징후일 수 있어 장기적인 추적 관찰이 필요함.
 
-출처 : StatPearls (Optic Neuritis)
+## 출처
+- StatPearls (Optic Neuritis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

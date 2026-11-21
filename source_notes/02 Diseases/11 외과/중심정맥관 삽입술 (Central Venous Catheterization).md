@@ -57,4 +57,6 @@ sources: ["Michigan Medicine 혈관 카테터 관련 혈류감염 지침 | https
 
 ## 관련 문서
 - [중심정맥관 Skills](/skills/c-line)
-- 출처: 삼성서울병원 외과 메뉴얼
+
+## 출처
+- 삼성서울병원 외과 메뉴얼

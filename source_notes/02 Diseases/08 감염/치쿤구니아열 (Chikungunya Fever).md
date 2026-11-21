@@ -58,7 +58,9 @@ sources: ["WHO 2025 arbovirus 지침 | https://www.ncbi.nlm.nih.gov/books/NBK616
 - **예후**: 치명률은 낮으나, 환자의 약 30~40%에서 수개월에서 수년간 지속되는 만성 관절통이 발생할 수 있음
 - **합병증**: 만성 관절염, 드물게 안과적 질환(포도막염 등)이나 신경학적 합병증 발생 가능
 
-출처 : StatPearls (Chikungunya Fever)
+## 출처
+- StatPearls (Chikungunya Fever)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

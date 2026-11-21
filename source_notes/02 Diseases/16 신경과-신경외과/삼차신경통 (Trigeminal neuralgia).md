@@ -45,6 +45,8 @@ reviewed_at: "2026-07-30"
 - 약물 치료로 초기 통증 조절은 가능하나 시간이 지나며 효과가 감소할 수 있음.
   수술적 치료는 높은 성공률을 보이나 청력 저하, 안면 마비 등의 합병증 위험 존재.
 
-출처 : StatPearls (Trigeminal Neuralgia)
+## 출처
+- StatPearls (Trigeminal Neuralgia)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

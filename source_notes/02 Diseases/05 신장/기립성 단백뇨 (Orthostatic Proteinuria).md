@@ -44,7 +44,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후는 매우 양호하며, 장기 추적 관찰 시 진행성 신질환으로 이행하는 경우는 드묾.
 
-출처 : StatPearls (Orthostatic Proteinuria)
+## 출처
+- StatPearls (Orthostatic Proteinuria)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

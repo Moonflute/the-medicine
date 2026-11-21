@@ -52,8 +52,10 @@ sources: ["BSSH 주상골 골절 기준 | https://www.bssh.ac.uk/_userfiles/page
 - **불유합·무혈성 괴사**: 특히 근위부 위험
 - **미치료**: SNAC(Scaphoid Nonunion Advanced Collapse) 관절염 가능
 
-출처 : StatPearls (Scaphoid Wrist Fracture)
+## 출처
+- StatPearls (Scaphoid Wrist Fracture)
 - [BSSH: Scaphoid fracture standards](https://www.bssh.ac.uk/_userfiles/pages/files/professionals/Trauma%20standards/Scaphoid%20standards.pdf)
 - [Scaphoid imaging consensus, 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13710594/)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

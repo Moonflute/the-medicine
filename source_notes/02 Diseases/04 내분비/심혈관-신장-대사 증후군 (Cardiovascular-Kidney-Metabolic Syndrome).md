@@ -68,5 +68,3 @@ sources: ["AHA ACC ADA ASN 2026 CKM syndrome guideline | https://professional.he
 ## 6. 예후 및 합병증
 - 주요 결과는 ASCVD 사건, 심부전, 신부전 및 기능·삶의 질 저하다. 단계 상승을 막는 것과 함께 위험인자 개선에 따른 단계 회귀를 목표로 한다.
 - 체중만이 아닌 혈압·지질·혈당·eGFR·UACR과 임상 사건을 추적한다.
-
-## 참고 지침

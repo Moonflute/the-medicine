@@ -64,8 +64,9 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/chancroid.htm"]
 - 적절한 항생제 치료 시 예후 양호
 - 합병증: 화농성 림프절염(부보), 누공 형성, 생식기 조직 파괴
 
-출처 : StatPearls (Chancroid)
-참고: [CDC: Chancroid](https://www.cdc.gov/std/treatment-guidelines/chancroid.htm)
+## 출처
+- StatPearls (Chancroid)
+- [CDC: Chancroid](https://www.cdc.gov/std/treatment-guidelines/chancroid.htm)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

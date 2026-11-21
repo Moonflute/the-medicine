@@ -72,7 +72,8 @@ sources: ["UK Association of Breast Surgery 엽상 종양 지침 2025 | https://
 - **예후**: 대체로 양호하나 등급에 따라 국소 재발 가능
 - **악성**: 드물게 폐·뼈 등 원격 전이
 
-출처 : StatPearls (Phyllodes Tumor of the Breast)
+## 출처
+- StatPearls (Phyllodes Tumor of the Breast)
 
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

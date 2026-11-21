@@ -48,8 +48,10 @@ sources: ["유발성 두드러기 합의 | https://doi.org/10.1111/all.16250"]
 ## 6. 예후 및 합병증 (Prognosis)
 - 대개 양호한 경과를 보이며, 만성 두드러기 중에서는 비교적 예후가 좋아 5~10년 내에 상당수에서 자연 관해된다.
 
-출처 : StatPearls (Dermatographism, 2023)
-보완 근거: [국제 두드러기 지침 2026](https://doi.org/10.1111/all.70210).
+## 출처
+- StatPearls (Dermatographism, 2023)
+- [국제 두드러기 지침 2026](https://doi.org/10.1111/all.70210).
+
 Last updated :
 2024-07-29 — 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

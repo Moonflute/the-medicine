@@ -97,9 +97,10 @@ sources: ["국내 H. pylori 진단·치료 지침 2025 개정판, 2026 발표 | 
   - 위 MALT 림프종도 연관 질환
   - 모든 감염자에서 위 경로로 필연적으로 진행하지는 않음
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼. 국내 H. pylori 진단·치료 지침 2025 개정판, 2026 발표, ACG 2024 제균 확인. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. 국내 H. pylori 진단·치료 지침 2025 개정판, 2026 발표, ACG 2024 제균 확인. 2026-09-14 기존 목차 내 보완.

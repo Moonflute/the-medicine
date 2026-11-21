@@ -57,10 +57,11 @@ sources: ["Canadian Blood Services 특수 제제 | https://professionaleducation
 - **예후**: 매우 높은 사망률
 - **주요 사망 원인**: 다장기 부전·감염
 
-출처 : StatPearls (Graft-Versus-Host Disease)
-Last updated :
-2026-07-15 — 중복 본문 정리 (Tier 3)
-
-참고: 삼성서울병원 메뉴얼
+## 출처
+- StatPearls (Graft-Versus-Host Disease)
+- 삼성서울병원 메뉴얼
 - [Lifeblood TA-GVHD 평가·예방](https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/TA-GVHD)
 - [NZBS TA-GVHD: 정상 면역 환자의 혈연 수혈 위험](https://www.nzblood.co.nz/healthcare-professionals/transfusion-medicine/transfusion-medicine-handbook/7-adverse-effects-of-transfusion/7-14-transfusion-associated-graft-versus-host-disease)
+
+Last updated :
+2026-07-15 — 중복 본문 정리 (Tier 3)

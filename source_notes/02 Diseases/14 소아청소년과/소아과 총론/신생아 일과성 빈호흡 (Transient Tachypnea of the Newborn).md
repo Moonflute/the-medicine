@@ -46,6 +46,8 @@ reviewed_at: "2026-07-30"
 * 예후는 매우 좋으며 대부분 72시간 이내 완전 회복
 * 드물게 소아기 천명이나 천식 발생 위험이 다소 증가할 수 있음
 
-출처 : StatPearls (Transient Tachypnea of the Newborn)
+## 출처
+- StatPearls (Transient Tachypnea of the Newborn)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

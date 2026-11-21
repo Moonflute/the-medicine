@@ -46,6 +46,8 @@ sources: ["EAU | https://uroweb.org/guidelines/paediatric-urology/chapter/phimos
 - 조기 치료 시 예후 양호.
 - 합병증: 귀두 괴사, 감염, 요도 손상.
 
-출처 : StatPearls (Paraphimosis)
+## 출처
+- StatPearls (Paraphimosis)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

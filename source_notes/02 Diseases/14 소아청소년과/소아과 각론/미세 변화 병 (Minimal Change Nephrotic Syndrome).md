@@ -67,7 +67,8 @@ sources: ["KDIGO 2025 | https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-
 * 예후: 스테로이드 반응 시 매우 양호
 * 합병증: 감염(면역글로불린 소실), 혈전증(항트롬빈 III 소실), 급성 신손상(저혈량증 시)
 
-출처: [KDIGO 소아 신증후군 2025](https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children.pdf); [IPNA 소아 스테로이드 감수성 신증후군](https://pubmed.ncbi.nlm.nih.gov/36269406/)
+## 출처
+- [KDIGO 소아 신증후군 2025](https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children.pdf); [IPNA 소아 스테로이드 감수성 신증후군](https://pubmed.ncbi.nlm.nih.gov/36269406/)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

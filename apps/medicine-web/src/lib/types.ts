@@ -31,6 +31,7 @@ export type DiseaseNote = {
   definition?: string;
   overview?: string[];
   sections: DiseaseSection[];
+  references?: string[];
   updatedAt: string;
   clinicalPriority?: string;
   documentRole?: string;

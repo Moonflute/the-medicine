@@ -56,7 +56,9 @@ reviewed_at: "2026-07-30"
 
 - **예후**: 조기 수술 시 사망률은 1% 미만으로 매우 낮음.
 
-출처 : Merck Manual Professional (Appendicitis)
+## 출처
+- Merck Manual Professional (Appendicitis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -33,4 +33,5 @@ sources: ["BC CDC B. cereus | https://www.bccdc.ca/Health-Info-Site/Pages/Bacill
 - **항생제**: 합병증 없는 독소형 식중독에는 사용하지 않음
   - 균혈증·안구감염 등 침습성 B. cereus 감염은 별도 항균치료 대상
 
-출처: 삼성서울병원 메뉴얼
+## 출처
+- 삼성서울병원 메뉴얼

@@ -47,6 +47,8 @@ reviewed_at: "2026-07-30"
 - **예후**: 완치는 불가능하며 점진적으로 진행
 - **합병증**: 인지 기능 저하, 치매 위험 증가, 사회적 고립, 우울감
 
-출처 : StatPearls (Presbycusis)
+## 출처
+- StatPearls (Presbycusis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

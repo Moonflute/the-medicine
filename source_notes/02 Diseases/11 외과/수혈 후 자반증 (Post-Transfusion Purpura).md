@@ -50,6 +50,8 @@ sources: ["호주 National Blood Authority IVIG 기준 | https://www.criteria.bl
 - 적절한 치료 시 대개 수주 내에 혈소판 수치가 정상으로 회복됨
 - 자가 제한적 경과를 보이나, 출혈 합병증에 대한 주의 필요
 
-출처 : UpToDate, 대한수혈학회 가이드라인
+## 출처
+- UpToDate, 대한수혈학회 가이드라인
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

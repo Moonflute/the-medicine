@@ -73,9 +73,10 @@ sources: ["2023 간질성폐질환(ILD) 임상진료지침 (2023년 1차 개정�
 - 진단 후 중앙 생존 기간은 약 3~5년으로 예후가 좋지 않음.
   폐암 발생 빈도가 높으며, 호흡 부전이 주된 사망 원인임.
 
-출처 : Merck Manual Professional (Idiopathic Pulmonary Fibrosis)
+## 출처
+- Merck Manual Professional (Idiopathic Pulmonary Fibrosis)
+- 삼성서울병원 메뉴얼. ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022, ERS/EULAR CTD-ILD 지침 2025, ERS ILD 공식 지침 목록을 대조. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. ATS/ERS/JRS/ALAT IPF·진행성 폐섬유화 지침 2022, ERS/EULAR CTD-ILD 지침 2025, ERS ILD 공식 지침 목록을 대조. 2026-09-14 기존 목차 내 보완.

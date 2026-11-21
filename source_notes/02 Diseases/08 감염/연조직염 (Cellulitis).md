@@ -59,7 +59,9 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 - 적절한 치료 시 예후는 우수하다.
   합병증으로 농양 형성, 괴사성 근막염, 패혈증 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Cellulitis); 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional (Cellulitis); 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

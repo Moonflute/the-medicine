@@ -59,10 +59,11 @@ sources: ["BSH DIC 치료 지침 | https://pubmed.ncbi.nlm.nih.gov/19222477/"]
 - **예후**: 기저 질환의 중증도에 따라 결정
 - **주요 사망 원인**: 다발성 장기 부전·심한 출혈·혈전증
 
-출처 : Merck Manual Professional (Disseminated Intravascular Coagulation)
+## 출처
+- Merck Manual Professional (Disseminated Intravascular Coagulation)
+- 삼성서울병원 메뉴얼
+- [Factor VIII와 ISTH 점수의 간질환 동반 DIC 감별 한계(2024 원저)](https://pubmed.ncbi.nlm.nih.gov/39004080/)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼
-- [Factor VIII와 ISTH 점수의 간질환 동반 DIC 감별 한계(2024 원저)](https://pubmed.ncbi.nlm.nih.gov/39004080/)

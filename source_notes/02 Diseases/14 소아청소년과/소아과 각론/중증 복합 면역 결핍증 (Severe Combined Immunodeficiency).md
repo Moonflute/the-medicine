@@ -54,6 +54,8 @@ reviewed_at: "2026-07-30"
 * 조기 진단 및 조혈모세포 이식이 생존의 핵심
 - **미치료**: 영아기(흔히 생후 1년 내) 치명적 감염 위험이 매우 높음
 
-출처 : StatPearls (Severe Combined Immunodeficiency); [IDF SCID](https://primaryimmune.org/understanding-primary-immunodeficiency/types-of-pi/severe-combined-immunodeficiency-scid)
+## 출처
+- StatPearls (Severe Combined Immunodeficiency); [IDF SCID](https://primaryimmune.org/understanding-primary-immunodeficiency/types-of-pi/severe-combined-immunodeficiency-scid)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

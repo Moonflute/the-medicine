@@ -61,6 +61,8 @@ sources: ["ASCO 2025 | https://doi.org/10.1200/JCO-24-02589", "ASCO PARP 2026 | 
 ## 6. 예후 및 합병증 (Prognosis)
 - 진단 시 병기에 따라 예후가 결정되며, 난소암과 유사한 경과를 보임.
 
-출처 : StatPearls (Fallopian Tube Anatomy and Clinical Significance)
+## 출처
+- StatPearls (Fallopian Tube Anatomy and Clinical Significance)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

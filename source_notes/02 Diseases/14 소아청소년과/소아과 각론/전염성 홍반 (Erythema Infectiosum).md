@@ -63,6 +63,8 @@ reviewed_at: "2026-07-30"
   - 만성 용혈성 빈혈 환자(겸상 적혈구 빈혈 등): 일시적 재생 불량성 위기(Transient Aplastic Crisis) 유발 가능
   - 면역 저하자: 만성 감염 및 지속적인 빈혈 발생 가능
 
-출처 : StatPearls (Erythema Infectiosum); [CDC Parvovirus B19](https://www.cdc.gov/infection-control/hcp/healthcare-personnel-epidemiology-control/parvovirus.html)
+## 출처
+- StatPearls (Erythema Infectiosum); [CDC Parvovirus B19](https://www.cdc.gov/infection-control/hcp/healthcare-personnel-epidemiology-control/parvovirus.html)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

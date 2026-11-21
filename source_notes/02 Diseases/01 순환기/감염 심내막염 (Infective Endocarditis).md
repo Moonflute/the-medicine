@@ -142,10 +142,11 @@ content_updated_at: "2026-11-17"
 
 - 고위험 환자(인공 판막, IE 과거력, 특정 선천성 심질환 등)가 고위험 시술(발치, 잇몸 이하 시술 등)을 받을 때 예방적 항생제를 투여한다.
 
-출처 : Merck Manual Professional (Infective Endocarditis)
+## 출처
+- Merck Manual Professional (Infective Endocarditis)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-04-29 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

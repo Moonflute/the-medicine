@@ -54,6 +54,8 @@ reviewed_at: "2026-07-30"
 * 대부분 흉터 없이 치유되나, 대아프타성 등은 흉터가 남을 수 있음
 * 통증으로 인한 섭취 저하 및 탈수 주의
 
-출처 : StatPearls (Recurrent Aphthous Stomatitis); [IARC 아프타성 궤양](https://screening.iarc.fr/atlasoral_list.php?cat=F10&lang=1); [NHS chlorhexidine 사용 대상](https://www.nhs.uk/medicines/chlorhexidine/who-can-and-cannot-use-chlorhexidine/)
+## 출처
+- StatPearls (Recurrent Aphthous Stomatitis); [IARC 아프타성 궤양](https://screening.iarc.fr/atlasoral_list.php?cat=F10&lang=1); [NHS chlorhexidine 사용 대상](https://www.nhs.uk/medicines/chlorhexidine/who-can-and-cannot-use-chlorhexidine/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

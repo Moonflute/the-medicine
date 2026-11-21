@@ -97,9 +97,13 @@ population: general
 - 고령 및 동반 질환으로 인해 DKA보다 사망률이 높을 수 있다.
   급격한 삼투압 교정 시 뇌부종이 발생할 수 있으므로 주의한다.
 
-출처 : StatPearls (Hyperosmolar Hyperglycemic Syndrome); [ADA 2026 입원 진료](https://doi.org/10.2337/dc26-s016); [고혈당 위기 합의 2024](https://doi.org/10.2337/dci24-0032).
+
+분과 : [[내분비]]
+
+## 출처
+- StatPearls (Hyperosmolar Hyperglycemic Syndrome); [ADA 2026 입원 진료](https://doi.org/10.2337/dc26-s016); [고혈당 위기 합의 2024](https://doi.org/10.2337/dci24-0032).
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
-분과 : [[내분비]]
 2026-07-15 — 중복 본문 정리

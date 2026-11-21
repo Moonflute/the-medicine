@@ -53,7 +53,8 @@ relation_to_parent: subtype
 - 예후: 조기 발견 및 지속적인 약물 유지가 예후에 결정적임. 음성 증상이 심할수록 사회적 기능 회복이 어려움.
 - 합병증: 높은 자살 위험(5~10%), 대사 증후군, 물질 남용, 사회적 고립 및 실업.
 
-출처: [SAMHSA 정신병적 장애 진단 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/)
+## 출처
+- [SAMHSA 정신병적 장애 진단 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

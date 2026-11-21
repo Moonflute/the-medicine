@@ -54,7 +54,9 @@ sources: ["성인 입원 환자 요폐 평가·도뇨 알고리즘 | https://pub
 - 조기 치료 시 신기능 회복 가능.
 - 만성 폐색 시 신부전, 신우신염, 패혈증으로 진행 가능.
 
-출처 : StatPearls: Complicated Urinary Tract Infections
+## 출처
+- StatPearls: Complicated Urinary Tract Infections
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

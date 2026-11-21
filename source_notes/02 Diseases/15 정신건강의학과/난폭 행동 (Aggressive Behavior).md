@@ -54,6 +54,8 @@ sources: ["NICE NG10 | https://www.nice.org.uk/guidance/ng10/chapter/Recommendat
 - 예후: 기저 질환의 조절 여부와 사회적 지지 체계에 따라 상이함.
 - 합병증: 법적 문제, 신체적 부상, 사회적 고립, 치료 순응도 저하.
 
-출처 : StatPearls (Behavior Modification), Merck Manual Professional
+## 출처
+- StatPearls (Behavior Modification), Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -60,7 +60,7 @@ sources: ["국내 성매개감염 진료지침 2023 | https://www.uti.or.kr/incl
 - **남성**: 전립선염·부고환염 가능
 - **기타**: HIV 및 기타 성매개 감염병의 획득 및 전파 위험을 높임.
 
-출처:
+## 출처
 - [CDC: Trichomoniasis](https://www.cdc.gov/std/treatment-guidelines/trichomoniasis.htm)
 
 Last updated :

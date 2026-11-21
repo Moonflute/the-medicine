@@ -58,7 +58,8 @@ sources: ["CDC VVC | https://www.cdc.gov/std/treatment-guidelines/candidiasis.ht
 - 대부분 적절한 항진균제 치료로 호전됨.
 - 재발성 칸디다 질염의 경우 장기적인 관리 및 전문의 상담 필요.
 
-출처 : StatPearls (Candidiasis)
+## 출처
+- StatPearls (Candidiasis)
 
 Last updated :
 2026-05-20 — 본문 갱신 (codex fill)

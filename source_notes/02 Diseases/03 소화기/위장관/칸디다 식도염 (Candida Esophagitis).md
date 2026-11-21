@@ -54,9 +54,10 @@ sources: ["IDSA candidiasis guideline | https://www.idsociety.org/practice-guide
 - 적절한 항진균제 치료 시 예후는 양호함.
   치료 지연 시 식도 협착, 천공, 전신 파종성 감염으로 진행 가능.
 
-출처 : StatPearls (Candida auris, Drug-Induced Esophagitis)
+## 출처
+- StatPearls (Candida auris, Drug-Induced Esophagitis)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

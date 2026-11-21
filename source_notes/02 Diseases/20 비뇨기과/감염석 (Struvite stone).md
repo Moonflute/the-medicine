@@ -56,6 +56,8 @@ sources: ["EAU 감염석 대사·재발 관리 | https://uroweb.org/guidelines/u
 * **합병증:** 만성 신우신염, 신부전, 패혈증, 드물게 신우의 편평상피세포암 발생 가능
 * **재발:** 잔류 파편이 있을 경우 재발률이 매우 높음(약 85%)
 
-출처 : StatPearls (Struvite and Triple Phosphate Renal Calculi)
+## 출처
+- StatPearls (Struvite and Triple Phosphate Renal Calculi)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

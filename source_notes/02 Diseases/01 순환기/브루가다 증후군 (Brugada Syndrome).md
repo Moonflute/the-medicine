@@ -57,7 +57,9 @@ content_updated_at: "2026-11-18"
 ## 6. 예후 및 합병증 (Prognosis)
 - 심실 부정맥으로 인한 급사 위험이 높으므로 가족 선별 검사가 권장된다.
 
-출처 : Merck Manual Professional (Brugada Syndrome)
+## 출처
+- Merck Manual Professional (Brugada Syndrome)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

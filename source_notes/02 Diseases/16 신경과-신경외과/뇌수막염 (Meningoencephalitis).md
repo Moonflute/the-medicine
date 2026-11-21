@@ -71,9 +71,10 @@ sources: ["WHO 2025 | https://www.ncbi.nlm.nih.gov/books/NBK614844/"]
   세균성 뇌수막염은 적절한 치료에도 불구, 신경학적 후유증(청력 소실, 인지 기능 저하, 발작)이 남을 수 있음.
   아메바성 뇌수막염은 치명률이 매우 높음.
 
-출처 : Merck Manual Professional, StatPearls (Naegleria Infection)
-보완 출처: [WHO 수막염 지침 요약](https://www.ncbi.nlm.nih.gov/books/NBK614846/?report=printable)
+## 출처
+- Merck Manual Professional, StatPearls (Naegleria Infection)
+- [WHO 수막염 지침 요약](https://www.ncbi.nlm.nih.gov/books/NBK614846/?report=printable)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

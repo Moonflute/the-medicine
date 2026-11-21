@@ -58,7 +58,9 @@ sources: ["CDC cervicitis | https://www.cdc.gov/std/treatment-guidelines/urethri
 - 합병증: 골반염(PID), 자궁내막염, 불임, 만성 골반통.
 - 재감염 추적은 위 확인/의심 원인균 기준으로 시행
 
-출처 : StatPearls (Cervicitis, 2025)
+## 출처
+- StatPearls (Cervicitis, 2025)
 - [CDC: Urethritis and Cervicitis](https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

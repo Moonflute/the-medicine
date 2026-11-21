@@ -51,7 +51,8 @@ relation_to_parent: subtype
 - 예후: 금연 시 구강 병변의 호전 가능성이 있으나, 장기 사용 시 구강암, 식도암, 위암 등 악성 종양 위험 증가.
 - 합병증: 구강 점막의 이형성증, 편평상피세포암, 심혈관 질환, 만성 폐쇄성 폐질환(COPD).
 
-출처 : Merck Manual Professional, StatPearls (Smokeless Tobacco Oral Pathology); [ADA 구강암 평가 지침](https://www.ada.org/resources/research/science/evidence-based-dental-research/oral-cancer-guideline/)
+## 출처
+- Merck Manual Professional, StatPearls (Smokeless Tobacco Oral Pathology); [ADA 구강암 평가 지침](https://www.ada.org/resources/research/science/evidence-based-dental-research/oral-cancer-guideline/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

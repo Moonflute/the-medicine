@@ -50,6 +50,8 @@ sources: ["WSES/CWIS 2024 | https://link.springer.com/article/10.1186/s13017-024
 - 합병증: 무기폐, 폐렴(통증으로 인한 호흡 제한 시 발생), 기흉, 혈흉, 폐좌상.
 - 고령자에서 다발성 골절 시 사망률이 높음.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-07-15 — 중복 본문 정리

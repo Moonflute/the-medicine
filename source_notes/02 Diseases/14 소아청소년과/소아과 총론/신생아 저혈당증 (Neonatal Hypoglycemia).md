@@ -67,6 +67,8 @@ sources: ["CPS 신생아 저혈당 권고, 2025 갱신 | https://cps.ca/en/docum
 * 조기 발견 및 적절한 치료 시 예후가 좋음.
 * 지속적 또는 중증 저혈당은 뇌 손상, 발달 장애 등 신경학적 후유증을 초래할 수 있음.
 
-출처 : StatPearls (Neonatal Hypoglycemia)
+## 출처
+- StatPearls (Neonatal Hypoglycemia)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

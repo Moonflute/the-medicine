@@ -57,6 +57,8 @@ reviewed_at: "2026-07-30"
 - 뇌간 기능 부전 및 뇌사로 진행될 수 있는 치명적인 상태임.
   조기 발견과 신속한 감압이 신경학적 예후 개선의 핵심.
 
-출처 : StatPearls (Brain Herniation)
+## 출처
+- StatPearls (Brain Herniation)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

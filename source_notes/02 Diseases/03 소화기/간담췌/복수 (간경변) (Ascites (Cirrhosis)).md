@@ -100,10 +100,11 @@ sources: ["KASL 복수 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6166105
 
 자발성 세균 복막염(Spontaneous Bacterial Peritonitis, SBP), 간신 증후군(Hepatorenal Syndrome, HRS), 배꼽 탈장, 흉수 등이 발생할 수 있음.
 
-출처 : Merck Manual Professional (Cirrhosis)
-참고 가이드라인: [AASLD 복수·SBP·HRS 지침](https://www.aasld.org/practice-guidelines/diagnosis-evaluation-and-management-ascites-spontaneous-bacterial-peritonitis)
+## 출처
+- Merck Manual Professional (Cirrhosis)
+- [AASLD 복수·SBP·HRS 지침](https://www.aasld.org/practice-guidelines/diagnosis-evaluation-and-management-ascites-spontaneous-bacterial-peritonitis)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

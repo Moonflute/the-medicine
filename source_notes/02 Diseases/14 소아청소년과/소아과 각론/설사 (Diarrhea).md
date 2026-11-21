@@ -66,6 +66,8 @@ sources: ["NICE CG84 | https://www.nice.org.uk/guidance/CG84/chapter/recommendat
 ## 6. 예후 및 합병증 (Prognosis)
 * 대부분 자가 제한적이나, 심한 탈수, 전해질 불균형, 패혈증, 용혈성 요독 증후군(HUS) 등 합병증 주의
 
-출처 : StatPearls (Diarrhea, Bacterial Diarrhea)
+## 출처
+- StatPearls (Diarrhea, Bacterial Diarrhea)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -61,6 +61,8 @@ sources: ["CDC | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-t
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 자연 치유되나, 세균성 감염 시 편도주위농양, 급성 류마티스열, 사구체신염 등의 합병증 주의.
 
-출처 보완: [CDC GAS 인두염 권고](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html)
+## 출처
+- [CDC GAS 인두염 권고](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html)
+
 Last updated :
 2026-05-20 — 본문 갱신 (codex fill)

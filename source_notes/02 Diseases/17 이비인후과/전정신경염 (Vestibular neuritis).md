@@ -47,6 +47,8 @@ reviewed_at: "2026-07-30"
 - 대부분 수주 내에 자연적으로 호전됨
 - 일부 환자에서 만성적인 자세 불안정이나 어지럼증이 남을 수 있음
 
-출처 : StatPearls (Neuroanatomy, Nucleus Vestibular)
+## 출처
+- StatPearls (Neuroanatomy, Nucleus Vestibular)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

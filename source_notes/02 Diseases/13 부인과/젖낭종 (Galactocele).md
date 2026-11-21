@@ -44,6 +44,8 @@ reviewed_at: "2026-07-30"
 - 대부분 양호, 자연 소실됨
 - 합병증으로 낭종 내 감염(농양 형성) 가능
 
-출처 : StatPearls (Galactocele)
+## 출처
+- StatPearls (Galactocele)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

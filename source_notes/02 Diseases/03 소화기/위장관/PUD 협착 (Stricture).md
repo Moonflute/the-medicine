@@ -54,8 +54,10 @@ sources: ["ASGE 위십이지장 폐쇄 지침 | https://doi.org/10.1016/j.gie.20
 ## 6. 예후 및 합병증 (Prognosis)
 - 영양 결핍, 전해질 불균형(저염소성 대사성 알칼리증), 흡인성 폐렴
 
-출처 : Merck Manual Professional
-참고 가이드라인: [ACG 위마비 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9373497/)
+## 출처
+- Merck Manual Professional
+- [ACG 위마비 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9373497/)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

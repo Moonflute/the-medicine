@@ -59,7 +59,9 @@ content_updated_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 치료가 중요하며, 지연 시 패혈증이나 만성 신장 질환으로 진행 가능.
 
-출처 : StatPearls (Renal Abscess)
+## 출처
+- StatPearls (Renal Abscess)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성 (일반 의학 지식 보충)
 2026-05-18 — 본문 갱신 (codex fill)

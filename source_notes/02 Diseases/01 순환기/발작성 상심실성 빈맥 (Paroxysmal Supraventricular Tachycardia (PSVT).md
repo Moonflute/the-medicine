@@ -76,7 +76,9 @@ sources: ["AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitat
 - 적절한 치료 시 예후는 양호함.
 - 지속적인 빈맥 시 빈맥 유발성 심근병증 및 심부전 발생 가능.
 
-출처 : Merck Manual Professional (Reentrant Paroxysmal Supraventricular Tachycardias)
+## 출처
+- Merck Manual Professional (Reentrant Paroxysmal Supraventricular Tachycardias)
+
 Last updated :
 2026-05-10 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -67,7 +67,9 @@ sources: ["NIH | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guideli
 - 면역 저하 환자에서 중증 감염 시 치명적일 수 있다.
   선천성 톡소플라즈마증은 신경학적 발달 지연, 시력 손상, 뇌전증 등을 유발할 수 있으며, 수년 후 지연성 합병증이 나타나기도 한다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

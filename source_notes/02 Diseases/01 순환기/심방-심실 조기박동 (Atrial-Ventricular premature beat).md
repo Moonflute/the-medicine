@@ -71,8 +71,10 @@ sources: ["ESC 심실부정맥 지침 2022 | https://www.acc.org/latest-in-cardi
 ## 6. 예후 및 합병증
 - **합병증**: 심부전, 혈전색전증(뇌졸중 등), 빈맥 유발성 심근병증(Tachycardia-induced cardiomyopathy).
 
-출처 : StatPearls (Premature Atrial Contractions, Premature Ventricular Complex)
-보완 출처: 삼성서울병원 메뉴얼
+## 출처
+- StatPearls (Premature Atrial Contractions, Premature Ventricular Complex)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-10 : 본문 갱신 (processed)

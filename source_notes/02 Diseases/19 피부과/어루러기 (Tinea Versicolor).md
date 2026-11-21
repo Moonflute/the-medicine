@@ -53,6 +53,8 @@ sources: ["HSE 치료 지침 | https://assets.hse.ie/media/documents/Pityriasis_
 * 치료에 잘 반응하나 재발률이 높음.
   전염성은 없음.
 
-출처 : StatPearls (Tinea Versicolor)
+## 출처
+- StatPearls (Tinea Versicolor)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -50,6 +50,8 @@ sources: ["ACOG 태아심박 감시 2025 | https://obgyn.wustl.edu/app/uploads/2
 - 간헐적 변동감속은 대개 양성.
 - 반복적 변동감속은 태아 산증, 저산소증과 연관될 수 있으므로 주의 깊은 관찰 필요.
 
-출처 : StatPearls (Variable Decelerations)
+## 출처
+- StatPearls (Variable Decelerations)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

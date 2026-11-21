@@ -132,5 +132,3 @@ guideline_review_status: primary_source_reviewed
 
 ## 포함 질환
 - [[고혈압성 위기 (Hypertensive Crisis)]]
-
-## 참고 가이드라인

@@ -59,7 +59,9 @@ sources: ["NICE 초기 유산 관리 | https://www.nice.org.uk/guidance/ng126/ch
 ## 6. 예후 및 합병증 (Prognosis)
 - 합병증: 감염(Septic abortion), 출혈, 자궁 내 유착(Asherman syndrome), 파종성 혈관내 응고(DIC, 드묾).
 
-출처 : StatPearls (Abortion, Abortion Complications)
+## 출처
+- StatPearls (Abortion, Abortion Complications)
 - [NICE NG126: 초기 임신의 생존 여부 진단](https://www.nice.org.uk/guidance/NG126/chapter/diagnosis-of-viable-intrauterine-pregnancy-and-of-tubal-ectopic-pregnancy)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

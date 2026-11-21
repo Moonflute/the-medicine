@@ -47,9 +47,10 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 예후가 양호하나, 빈도가 잦을 경우 만성 긴장형 두통으로 이행될 수 있음.
 
-출처 : StatPearls (Muscle Contraction Tension Headache)
-보완 출처: [ICHD-3 삽화성 기준](https://ichd-3.org/2-tension-type-headache/2-2-frequent-episodic-tension-type-headache/), [만성 기준](https://ichd-3.org/2-tension-type-headache/2-3-chronic-tension-type-headache/)
+## 출처
+- StatPearls (Muscle Contraction Tension Headache)
+- [ICHD-3 삽화성 기준](https://ichd-3.org/2-tension-type-headache/2-2-frequent-episodic-tension-type-headache/), [만성 기준](https://ichd-3.org/2-tension-type-headache/2-3-chronic-tension-type-headache/)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

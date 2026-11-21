@@ -56,7 +56,9 @@ sources: ["BSG 식도 확장 지침 | https://gut.bmj.com/content/67/6/1000"]
 - 적절한 치료를 통해 내강 개통성을 회복하여 증상 완화 가능.
 - 재발 가능성이 있으므로 정기적인 추적 관찰 필요.
 
-출처 : StatPearls (Esophageal Stricture)
+## 출처
+- StatPearls (Esophageal Stricture)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

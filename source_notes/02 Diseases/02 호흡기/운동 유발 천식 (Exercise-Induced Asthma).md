@@ -66,7 +66,9 @@ sources: ["GINA 2026 | https://ginasthma.org/wp-content/uploads/2026/07/GINA-Sum
 - 적절한 관리 시 운동 능력을 유지할 수 있음.
   방치할 경우 운동 회피로 인한 체력 저하 및 비만이 발생할 수 있음.
 
-출처 : StatPearls (Exercise-Induced Bronchoconstriction)
+## 출처
+- StatPearls (Exercise-Induced Bronchoconstriction)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

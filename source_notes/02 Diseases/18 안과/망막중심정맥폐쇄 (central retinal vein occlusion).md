@@ -58,8 +58,9 @@ sources: ["RCOphth 지침 | https://www.nature.com/articles/s41433-022-02007-4"]
 - **합병증:** 황반 부종(시력 저하의 주원인), 신생 혈관 녹내장(홍채 신생혈관), 유리체 출혈, 망막 신생혈관
 - **예후:** 허혈형의 경우 신생 혈관 녹내장 발생 위험이 높으며 예후가 불량함
 
-출처 : StatPearls (Central Retinal Vein Occlusion)
-보완 근거: [RCOphth 망막정맥폐쇄 지침 요약](https://www.nature.com/articles/s41433-022-02007-4)
+## 출처
+- StatPearls (Central Retinal Vein Occlusion)
+- [RCOphth 망막정맥폐쇄 지침 요약](https://www.nature.com/articles/s41433-022-02007-4)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

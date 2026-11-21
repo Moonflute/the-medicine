@@ -48,7 +48,9 @@ sources: ["ADA Standards of Care 2026: Glycemic Goals, Hypoglycemia, and Hypergl
 ## 6. 예후 및 합병증 (Prognosis)
 - 확인된 야간 저혈당은 인슐린·식사·활동 조정으로 예방한다.
 
-출처 : StatPearls (Somogyi Phenomenon); ADA Standards of Care 2026: Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises — CGM 확인·개별 치료 원칙.
+## 출처
+- StatPearls (Somogyi Phenomenon); ADA Standards of Care 2026: Glycemic Goals, Hypoglycemia, and Hyperglycemic Crises — CGM 확인·개별 치료 원칙.
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

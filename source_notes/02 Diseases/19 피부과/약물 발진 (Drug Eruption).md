@@ -56,8 +56,9 @@ reviewed_at: "2026-07-30"
 * 원인 약물 중단 시 대부분 수일 내지 수주 내 호전.
 * 중증 반응(SJS/TEN)은 치명적일 수 있어 조기 발견이 중요함.
 
-출처 : StatPearls (Adverse Drug Reactions)
+## 출처
+- StatPearls (Adverse Drug Reactions)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼

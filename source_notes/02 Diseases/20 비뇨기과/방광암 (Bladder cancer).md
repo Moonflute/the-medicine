@@ -105,8 +105,9 @@ content_updated_at: "2026-11-18"
 * NMIBC는 재발률이 높으나 생존율이 양호함.
   MIBC는 침습 깊이와 병기에 따라 예후가 결정되며, 전이 시 예후가 불량함.
 
-출처 : StatPearls (Bladder Cancer)
-참고: [NCI: Bladder Cancer Treatment PDQ](https://www.cancer.gov/types/bladder/hp/bladder-treatment-pdq)
+## 출처
+- StatPearls (Bladder Cancer)
+- [NCI: Bladder Cancer Treatment PDQ](https://www.cancer.gov/types/bladder/hp/bladder-treatment-pdq)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

@@ -90,4 +90,6 @@ sources: ["NICE NG158 | https://www.nice.org.uk/guidance/ng158/chapter/recommend
 Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-보완 출처: 삼성서울병원 외과 메뉴얼
+
+## 출처
+- 삼성서울병원 외과 메뉴얼

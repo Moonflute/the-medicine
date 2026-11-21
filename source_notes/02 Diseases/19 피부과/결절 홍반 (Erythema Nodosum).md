@@ -49,6 +49,8 @@ reviewed_at: "2026-07-30"
 * 예후는 양호하며 대개 수주 내에 자연 치유됨.
 * 흉터나 색소 침착 없이 회복되나, 재발 가능성이 있음.
 
-출처 : StatPearls (Erythema Nodosum)
+## 출처
+- StatPearls (Erythema Nodosum)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

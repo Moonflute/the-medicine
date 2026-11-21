@@ -52,6 +52,8 @@ sources: ["AO 상완골 간부 비수술 치료 | https://surgeryreference.aofou
 - **합병증**: 요골신경 마비(가장 흔함), 불유합(nonunion), 부정유합(malunion), 감염.
 - **예후**: 대부분 양호하나, 신경 손상 시 회복까지 장기간이 소요될 수 있음.
 
-출처 : StatPearls (Proximal Humerus Fracture)
+## 출처
+- StatPearls (Proximal Humerus Fracture)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

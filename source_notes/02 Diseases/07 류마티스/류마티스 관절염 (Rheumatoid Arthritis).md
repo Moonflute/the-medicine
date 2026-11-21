@@ -202,4 +202,5 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 2026-09-15 — 삼성서울병원 메뉴얼 OCR 통합본 작성 (Terra)
 
-출처 : 삼성서울병원 메뉴얼. [ACR RA 치료 지침(2021)](https://doi.org/10.1002/acr.24596), [ACR/EULAR 관해 기준 개정(2022)](https://ard.bmj.com/content/82/1/74), [EULAR RA 치료 개정(2025, 2026 출판)](https://doi.org/10.1016/j.ard.2026.01.023). Smolen JS, et al. EULAR RA management recommendations. Ann Rheum Dis. 2020;79:685–699. doi:10.1136/annrheumdis-2019-216655
+## 출처
+- 삼성서울병원 메뉴얼. [ACR RA 치료 지침(2021)](https://doi.org/10.1002/acr.24596), [ACR/EULAR 관해 기준 개정(2022)](https://ard.bmj.com/content/82/1/74), [EULAR RA 치료 개정(2025, 2026 출판)](https://doi.org/10.1016/j.ard.2026.01.023). Smolen JS, et al. EULAR RA management recommendations. Ann Rheum Dis. 2020;79:685–699. doi:10.1136/annrheumdis-2019-216655

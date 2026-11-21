@@ -65,7 +65,7 @@ content_updated_at: "2026-11-17"
 - 조산은 신생아 이환율 및 사망률의 주요 원인
 - 정확한 진단과 적절한 관리를 통해 신생아 예후 개선 가능
 
-출처:
+## 출처
 - [ACOG Practice Bulletin 171: Management of Preterm Labor](https://doi.org/10.1097/aog.0000000000001711)
 - [StatPearls: Preterm Labor — WAPM-PMF 기준 비교](https://www.ncbi.nlm.nih.gov/sites/books/NBK536939/)
 

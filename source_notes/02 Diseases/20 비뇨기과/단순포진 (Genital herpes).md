@@ -56,6 +56,8 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/herpes.htm"]
 * **예후:** 완치는 없으나 항바이러스제로 증상 조절 및 전파 위험 감소 가능.
 * **합병증:** 무균성 뇌수막염, HIV 감염 위험 증가, 신생아 감염(수직 감염 시 치명적).
 
-출처 : StatPearls (Herpes Simplex Type 2); 삼성서울병원 메뉴얼
+## 출처
+- StatPearls (Herpes Simplex Type 2); 삼성서울병원 메뉴얼
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

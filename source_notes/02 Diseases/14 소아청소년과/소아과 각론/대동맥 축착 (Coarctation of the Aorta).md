@@ -62,6 +62,8 @@ sources: ["AHA 소아 중재 권고 | https://doi.org/10.1161/CIR.0b013e31821b1f
 * 조기 진단 및 치료 시 예후 양호
 * 미치료 시 고혈압, 좌심실 비대, 대동맥 박리, 뇌출혈, 심부전 등 발생 가능
 
-출처 : StatPearls (Coarctation of the Aorta)
+## 출처
+- StatPearls (Coarctation of the Aorta)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

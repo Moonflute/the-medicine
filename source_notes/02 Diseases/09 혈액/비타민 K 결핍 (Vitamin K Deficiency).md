@@ -59,7 +59,9 @@ sources: ["ACC 출혈 역전 지침 | https://www.jacc.org/doi/10.1016/j.jacc.20
 - 적절한 비타민 K 보충 시 예후 양호.
   치료 지연 시 심한 출혈 및 사망 위험.
 
-출처 : [Merck Manual Professional: Vitamin K Deficiency](https://www.merckmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-k-deficiency)
+## 출처
+- [Merck Manual Professional: Vitamin K Deficiency](https://www.merckmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-k-deficiency)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

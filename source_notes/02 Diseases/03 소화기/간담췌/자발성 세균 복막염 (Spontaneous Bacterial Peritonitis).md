@@ -88,9 +88,10 @@ sources: ["KASL 복수·SBP 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC61
 
 - **합병증**: 간신 증후군(Hepatorenal syndrome), 패혈증, 간성 뇌증 악화 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional (2025)
+## 출처
+- Merck Manual Professional (2025)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

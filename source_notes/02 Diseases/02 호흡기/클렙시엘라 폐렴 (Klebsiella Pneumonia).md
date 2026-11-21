@@ -63,7 +63,9 @@ sources: ["IDSA 항균제 내성 그람음성균 지침 | https://www.idsociety.
 - 알코올 중독, 당뇨, 고령 환자에서 예후가 불량, 사망률이 높다.
   주요 합병증으로 균혈증, 폐농양, 농흉이 있다.
 
-출처 : StatPearls (Klebsiella Pneumonia)
+## 출처
+- StatPearls (Klebsiella Pneumonia)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -71,7 +71,7 @@ population: general
 - **회복 계획**: 재활·통증·인지/정신건강·사회복귀 조기 계획
   - 외상 후 스트레스·자살위험·폭력/학대 연관성 평가
 
-출처 :
+## 출처
 - Tintinalli's Emergency Medicine Manual, 8e, Ch. 156-168.
 - NICE NG39, Major Trauma: Assessment and Initial Management.
 - WHO-ICRC, Basic Emergency Care.

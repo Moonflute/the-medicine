@@ -52,7 +52,9 @@ reviewed_at: "2026-07-30"
 - 다발성 장기 부전 (multiple organ failure)이 발생할 수 있으며, 치명률이 높다.
   고령, 기저 질환(악성 종양 등), 초기 혈소판 감소 정도가 예후와 관련이 있다.
 
-출처 : Emerging Infectious Disease (2020), [질병관리청 SFTS](https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5233)
+## 출처
+- Emerging Infectious Disease (2020), [질병관리청 SFTS](https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5233)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

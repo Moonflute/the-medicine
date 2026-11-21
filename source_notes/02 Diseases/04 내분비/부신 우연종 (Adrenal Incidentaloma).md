@@ -73,4 +73,5 @@ Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-참고: 삼성서울병원 메뉴얼; [ESE 부신 우연종 지침 2023](https://academic.oup.com/ejendo/article/189/1/G1/7198474).
+## 출처
+- 삼성서울병원 메뉴얼; [ESE 부신 우연종 지침 2023](https://academic.oup.com/ejendo/article/189/1/G1/7198474).

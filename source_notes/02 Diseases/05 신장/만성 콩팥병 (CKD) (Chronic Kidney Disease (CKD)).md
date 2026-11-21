@@ -166,6 +166,6 @@ eGFR 단위는 mL/min/1.73m²이며, 아래 대상은 혈당 조절 상태만으
 - CKD는 신부전뿐 아니라 심혈관질환, 고칼륨혈증, 대사성 산증, 빈혈, CKD-MBD, 감염·약물 부작용 위험을 높인다. eGFR 감소와 알부민뇨 증가는 이러한 위험을 함께 높인다.
 - 지속적인 eGFR 저하 또는 알부민뇨 상승은 치료 순응도, 혈압·당뇨병, 약물, 요로폐쇄 및 새로운 사구체 질환을 재평가할 신호다. 투석·이식 교육 및 혈관접근 준비는 말기까지 미루지 않고 예측 위험과 환자 목표에 맞춰 시작한다.
 
-출처: KDIGO, *2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease*; KDIGO 2024 Executive Summary.
-
-보완 출처: 삼성서울병원 메뉴얼. KDIGO 2024 CKD guideline를 대조. 2026-09-14 기존 목차 내 보완.
+## 출처
+- KDIGO, *2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease*; KDIGO 2024 Executive Summary.
+- 삼성서울병원 메뉴얼. KDIGO 2024 CKD guideline를 대조. 2026-09-14 기존 목차 내 보완.

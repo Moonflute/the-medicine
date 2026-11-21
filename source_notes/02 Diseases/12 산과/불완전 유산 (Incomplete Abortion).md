@@ -54,6 +54,8 @@ sources: ["NICE 유산 치료 | https://www.nice.org.uk/guidance/ng126/chapter/m
 - **합병증**: 과다 출혈, 감염(패혈성 유산), 자궁 내 유착.
 - **예후**: 적절한 처치 시 대부분 양호함.
 
-출처 : StatPearls (Abortion, Abortion Complications)
+## 출처
+- StatPearls (Abortion, Abortion Complications)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

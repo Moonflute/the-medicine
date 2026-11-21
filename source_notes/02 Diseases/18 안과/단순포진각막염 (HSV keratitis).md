@@ -52,8 +52,9 @@ sources: ["AAO 치료지침 | https://www.aao.org/education/clinical-statement/h
 - 반복적인 재발로 인한 각막 혼탁, 신생혈관 형성, 시력 저하가 발생할 수 있음.
 - 심한 경우 각막 천공이나 실명에 이를 수 있어 장기적인 관리가 필요함.
 
-출처 : Merck Manual Professional
-보완 근거: [AAO — HSV 각막염 치료 지침](https://www.aao.org/education/clinical-statement/herpes-simplex-virus-keratitis-treatment-guideline)
+## 출처
+- Merck Manual Professional
+- [AAO — HSV 각막염 치료 지침](https://www.aao.org/education/clinical-statement/herpes-simplex-virus-keratitis-treatment-guideline)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

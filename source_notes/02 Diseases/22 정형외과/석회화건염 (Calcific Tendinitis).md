@@ -50,6 +50,8 @@ sources: ["JOSPT 회전근개 건병증 지침 2025 | https://doi.org/10.2519/jo
 - **경과**: 대개 보존치료로 호전, 흡수기에는 심한 통증 가능
 - **만성화**: 회전근개 건병증으로 진행 가능
 
-출처 : StatPearls (Proximal Biceps Tendinitis and Tendinopathy)
+## 출처
+- StatPearls (Proximal Biceps Tendinitis and Tendinopathy)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

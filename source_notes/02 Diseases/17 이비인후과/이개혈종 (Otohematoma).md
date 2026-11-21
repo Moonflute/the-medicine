@@ -46,6 +46,8 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 감염, 연골막염(chondritis), 혈종 재발, 영구적인 연골 변형(꽃양배추 귀)
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

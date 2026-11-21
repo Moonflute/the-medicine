@@ -57,6 +57,8 @@ sources: ["FDA 승인 검토 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9669093/
 - 수술 후 예후는 대체로 양호, 재발률은 25% 미만.
   VHL 환자는 다발성 병변 가능성이 높아 정기적인 MRI 추적 관찰이 필수적.
 
-출처 : StatPearls (Hemangioblastoma, 2026)
+## 출처
+- StatPearls (Hemangioblastoma, 2026)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

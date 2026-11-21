@@ -92,9 +92,10 @@ sources: ["ASGE | https://www.asge.org/home/resources/publications/guidelines/as
 
 - **합병증**: 급성 담관염, 급성 췌장염, 담도성 간경변증, 패혈증 등이 발생할 수 있다.
 
-출처 : StatPearls (Bile Duct Injury, Bile Duct Repair)
+## 출처
+- StatPearls (Bile Duct Injury, Bile Duct Repair)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

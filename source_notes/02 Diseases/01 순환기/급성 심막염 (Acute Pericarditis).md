@@ -80,7 +80,9 @@ content_updated_at: "2026-11-17"
 ## 6. 예후 및 합병증 (Prognosis)
 - 심장 눌림증, 교착 심막염(constrictive pericarditis) 등으로 진행할 수 있음.
 
-출처 : Merck Manual Professional, ESC Guidelines
+## 출처
+- Merck Manual Professional, ESC Guidelines
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

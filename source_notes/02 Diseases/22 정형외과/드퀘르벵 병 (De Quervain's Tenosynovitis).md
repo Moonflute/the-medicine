@@ -53,6 +53,8 @@ sources: ["BSSH 드퀘르벵병 | https://www.bssh.ac.uk/patients/conditions/19/
 - 대부분 보존적 치료로 호전됨.
 - 수술 시 합병증으로 요골 신경 감각지 손상, 건 아탈구 등이 발생할 수 있음.
 
-출처 : StatPearls (De Quervain Tenosynovitis)
+## 출처
+- StatPearls (De Quervain Tenosynovitis)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

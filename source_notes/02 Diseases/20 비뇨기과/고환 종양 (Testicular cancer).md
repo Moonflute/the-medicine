@@ -92,6 +92,8 @@ IGCCCG에는 **항암 시작 직전 표지자**를 사용한다. 해부학적 �
 * 조기 발견 시 5년 생존율 95% 이상으로 예후가 매우 우수함.
 * 합병증: 불임 가능성(정자 은행 고려), 치료 후 재발 가능성.
 
-출처 : StatPearls (Testicular Cancer, 2023)
+## 출처
+- StatPearls (Testicular Cancer, 2023)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

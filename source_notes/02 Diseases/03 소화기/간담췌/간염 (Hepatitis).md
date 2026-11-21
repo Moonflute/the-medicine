@@ -89,5 +89,3 @@ guideline_review_status: primary_source_reviewed
 - [[만성 B형 간염 (Chronic Hepatitis B (HBV))]]
 - [[자가면역 간염 (Autoimmune Hepatitis)]]
 - [[전격성 간염 (Fulminant Hepatitis)]]
-
-## 참고 가이드라인

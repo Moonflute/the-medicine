@@ -50,6 +50,8 @@ sources: ["NCI 유방의 양성 변화 | https://www.cancer.gov/types/breast/bre
 ## 6. 예후 및 합병증 (Prognosis)
 - 단순 낭종은 예후 양호; 재발 시 영상·진찰로 악성 의심 소견 재평가
 
-출처 : StatPearls (Breast Cyst)
+## 출처
+- StatPearls (Breast Cyst)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

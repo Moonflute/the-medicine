@@ -45,7 +45,9 @@ content_updated_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 태아 저산소증이나 신경학적 손상과 관련이 없는 양성 반응임.
 
-출처 : StatPearls (Early Decelerations)
+## 출처
+- StatPearls (Early Decelerations)
 - [AHRQ: Electronic Fetal Monitoring](https://www.ahrq.gov/patient-safety/settings/labor-delivery/perinatal-care/modules/strategies/safe-electronic-tool.html)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -51,7 +51,8 @@ relation_to_parent: subtype
 - **예후**: 소아에서는 성장하며 감소하는 경우가 많으나 성인까지 지속·재발 가능
 - **합병증**: 낙상·외상, 수면 방해와 가족의 부담; 위험도에 따라 추적
 
-출처: [AASM 몽유병·혼돈 각성·야경증](https://sleepeducation.org/sleepwalking-confusional-arousals-sleep-terrors/), [APA 사건수면](https://www.psychiatry.org/news-room/apa-blogs/sleepwalking-and-other-parasomnias/)
+## 출처
+- [AASM 몽유병·혼돈 각성·야경증](https://sleepeducation.org/sleepwalking-confusional-arousals-sleep-terrors/), [APA 사건수면](https://www.psychiatry.org/news-room/apa-blogs/sleepwalking-and-other-parasomnias/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

@@ -52,6 +52,8 @@ sources: ["RCOG 산전 출혈 지침 | https://www.rcog.org.uk/guidance/browse-a
 - **산모**: 출혈성 쇼크, DIC, 신부전, 자궁-태반 혈종(uteroplacental apoplexy), Sheehan 증후군
 - **태아**: 조산, 저체중아, 태아 가사, 사산
 
-출처 : StatPearls (Placental Abruption)
+## 출처
+- StatPearls (Placental Abruption)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

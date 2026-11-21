@@ -55,7 +55,9 @@ review_status: "guideline_enriched"
 - 합병증: 흡인성 폐렴, 영양실조, 체중 감소, 삶의 질 저하
 - 예후: 원인 질환에 따라 다르며, 조기 진단 및 치료가 중요함
 
-출처 : StatPearls (Dysphagia, Diffuse Esophageal Spasm)
+## 출처
+- StatPearls (Dysphagia, Diffuse Esophageal Spasm)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

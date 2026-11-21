@@ -52,7 +52,9 @@ sources: ["WSES–AAST 항문직장 응급 지침 2021 | https://pmc.ncbi.nlm.ni
 - 감돈(incarceration)이나 심한 탈출 시 통증 발생 가능.
   적절한 수술적 교정이 필요함.
 
-출처 : Merck Manual Professional (Rectal Prolapse and Procidentia)
+## 출처
+- Merck Manual Professional (Rectal Prolapse and Procidentia)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

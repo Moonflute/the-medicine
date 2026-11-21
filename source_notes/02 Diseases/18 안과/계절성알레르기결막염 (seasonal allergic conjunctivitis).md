@@ -52,7 +52,8 @@ reviewed_at: "2026-07-30"
 - 대부분 양성 경과를 보이나, 지속적인 눈 비빔은 각막 난시 유발 및 각막 상피 손상을 초래할 수 있음
 - 드물게 만성적인 염증으로 인해 시력 저하를 유발하는 각결막염으로 진행 가능
 
+## 출처
+- StatPearls (Allergic Conjunctivitis)
 
-출처 : StatPearls (Allergic Conjunctivitis)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

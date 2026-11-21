@@ -62,7 +62,8 @@ content_updated_at: "2026-11-15"
 - **경과**: 꾸준한 관리 필요; 적절한 조절제 사용으로 증상 완화·폐기능 저하 예방 가능
 * 조절되지 않을 경우 성장 지연, 영구적인 기도 재형성, 심각한 천식 발작 등 합병증 발생 가능
 
-출처: [GINA 2026 전략 보고서](https://ginasthma.org/wp-content/uploads/2026/05/GINA-2026-Strategy-Report-WMS.pdf)
+## 출처
+- [GINA 2026 전략 보고서](https://ginasthma.org/wp-content/uploads/2026/05/GINA-2026-Strategy-Report-WMS.pdf)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -57,6 +57,8 @@ sources: ["AHA 2025 특수상황 소생 지침 | https://cpr.heart.org/en/resusc
 - **예후**: 조기 발견·즉각적인 처치가 생존에 중요
 - **합병증**: 뇌졸중·심근경색·다장기 부전
 
-출처 : StatPearls (Acute Pulmonary Embolism, Air Leak)
+## 출처
+- StatPearls (Acute Pulmonary Embolism, Air Leak)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

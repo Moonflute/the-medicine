@@ -79,7 +79,9 @@ content_updated_at: "2026-11-17"
 - 대동맥 파열, 심장 눌림증, 뇌졸중, 심근경색, 신부전 등 치명적인 합병증이 발생할 수 있다.
   장기적으로는 혈압 조절과 주기적인 영상 추적 관찰이 필요하다.
 
-출처 : Merck Manual Professional (Aortic Dissection)
+## 출처
+- Merck Manual Professional (Aortic Dissection)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

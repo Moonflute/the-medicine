@@ -55,6 +55,8 @@ sources: ["ESHRE/ASRM 조기난소부전 진료지침 | https://pmc.ncbi.nlm.nih
 - 골다공증, 심혈관 질환 위험 증가.
 - 심리적 지지 및 장기적인 호르몬 관리 필요.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

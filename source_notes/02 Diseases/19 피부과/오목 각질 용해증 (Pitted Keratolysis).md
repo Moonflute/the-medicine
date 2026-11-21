@@ -43,6 +43,8 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 * 적절한 위생 관리와 항생제 치료로 완치 가능하며, 재발 방지를 위해 건조한 환경 유지가 중요함.
 
-출처 : Merck Manuals Professional Edition
+## 출처
+- Merck Manuals Professional Edition
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

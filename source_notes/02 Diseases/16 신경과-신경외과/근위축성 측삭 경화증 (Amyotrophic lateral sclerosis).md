@@ -58,7 +58,9 @@ sources: ["EAN 2024 | https://doi.org/10.1111/ene.16264", "NICE NG42 | https://w
 - 진행성 질환으로, 호흡근 마비가 주요 사망 원인임.
   증상 발현 후 평균 생존 기간은 개인차가 크나, 조기 진단과 다학제적 관리가 중요함.
 
-출처 : StatPearls (Amyotrophic Lateral Sclerosis)
-보완 출처: [Gold Coast 기준과 EMG 역할](https://pn.bmj.com/content/early/2022/02/23/practneurol-2021-003256?versioned=true)
+## 출처
+- StatPearls (Amyotrophic Lateral Sclerosis)
+- [Gold Coast 기준과 EMG 역할](https://pn.bmj.com/content/early/2022/02/23/practneurol-2021-003256?versioned=true)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

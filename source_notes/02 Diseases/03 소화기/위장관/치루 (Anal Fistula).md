@@ -53,7 +53,9 @@ sources: ["ASCRS 항문농양·치루 지침 2022 | https://doi.org/10.1097/DCR.
 - 적절한 수술 후 대부분 완치되나, 복잡성 치루의 경우 재발 가능성이 있음.
 - 합병증: 변실금(괄약근 손상 시), 재발, 상처 치유 지연.
 
-출처 : StatPearls (Anal Fissures, Anal Carcinoma); 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls (Anal Fissures, Anal Carcinoma); 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

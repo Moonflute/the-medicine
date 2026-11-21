@@ -65,7 +65,9 @@ sources: ["ACOG 임신 UTI 합의 | https://www.acog.org/clinical/clinical-guida
 - 대부분의 환자에서 합병증 없이 경과함.
   불필요한 항생제 사용은 항생제 내성균주를 유발할 수 있음.
 
-출처 : StatPearls (Asymptomatic Bacteriuria)
+## 출처
+- StatPearls (Asymptomatic Bacteriuria)
 - [IDSA ASB 2019](https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

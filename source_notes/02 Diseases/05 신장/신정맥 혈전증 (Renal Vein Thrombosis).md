@@ -50,7 +50,9 @@ reviewed_at: "2026-07-30"
 - 적절한 치료 시 예후는 대체로 양호함.
 - 주요 합병증으로 폐색전증 및 기저 질환(악성 종양 등) 관련 합병증이 발생할 수 있음.
 
-출처 : Merck Manual Professional (Renal Vein Thrombosis)
+## 출처
+- Merck Manual Professional (Renal Vein Thrombosis)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

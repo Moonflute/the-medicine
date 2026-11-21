@@ -58,6 +58,8 @@ Aminoglycoside 계열 항생제(streptomycin, gentamicin 등), Loop diuretics(fu
 - **예후**: 약물 중단 후에도 손상이 진행될 수 있으며, 청력 회복은 제한적인 경우가 많음
 - **합병증**: 영구적인 감각신경성 난청, 만성 이명, 평형기능 저하
 
-출처 : StatPearls (Conductive Hearing Loss), Merck Manual Professional
+## 출처
+- StatPearls (Conductive Hearing Loss), Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

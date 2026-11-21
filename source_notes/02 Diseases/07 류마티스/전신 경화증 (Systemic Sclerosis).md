@@ -134,5 +134,6 @@ Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-출처 : Merck Manual Professional (Systemic Sclerosis), [ACR/EULAR 분류 기준(2013)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3930146/), [EULAR 치료 권고 2023 개정](https://ard.bmj.com/content/early/2024/10/17/ard-2024-226430)
+## 출처
+- Merck Manual Professional (Systemic Sclerosis), [ACR/EULAR 분류 기준(2013)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3930146/), [EULAR 치료 권고 2023 개정](https://ard.bmj.com/content/early/2024/10/17/ard-2024-226430)
 - 삼성서울병원 메뉴얼

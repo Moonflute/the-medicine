@@ -67,4 +67,5 @@ Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-보완 출처: 삼성서울병원 메뉴얼. ACG Achalasia guideline와 대조. 기존 SAGES/POEM 권고는 유지함. 2026-09-14 기존 목차 내 부분 보완.
+## 출처
+- 삼성서울병원 메뉴얼. ACG Achalasia guideline와 대조. 기존 SAGES/POEM 권고는 유지함. 2026-09-14 기존 목차 내 부분 보완.

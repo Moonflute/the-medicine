@@ -93,8 +93,10 @@ sources: ["ELN AML 진료지침 2022 | https://ashpublications.org/blood/article
   - 초기 초음파는 비특이적, 문맥혈류 역전은 늦게 나타날 수 있어 정상 소견만으로 배제하지 않음
 - **만성 GVHD 추적**: 구강·안구 건조, 피부 경화, 지속 호흡기 증상 등 장기별 확인
 
-출처 : StatPearls (Acute Lymphocytic Leukemia, Acute Myeloid Leukemia)
-보완 출처: 삼성서울병원 메뉴얼
+## 출처
+- StatPearls (Acute Lymphocytic Leukemia, Acute Myeloid Leukemia)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

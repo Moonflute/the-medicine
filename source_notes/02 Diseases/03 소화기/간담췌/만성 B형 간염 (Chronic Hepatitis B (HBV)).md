@@ -188,11 +188,12 @@ content_updated_at: "2026-11-15"
 
 HBV/HDV 동반 감염은 임상 경과를 악화시킬 수 있어 별도의 HDV 치료 평가가 필요하다. Peg-interferon-α의 사용 가능성은 간기능과 금기 등을 확인하여 판단하며, 비대상성 간경변에서는 사용하지 않는다.
 
-출처 : Merck Manual Professional (Neonatal Hepatitis B Virus Infection)
+## 출처
+- Merck Manual Professional (Neonatal Hepatitis B Virus Infection)
+- 삼성서울병원 메뉴얼.
+- [KASL/EALA 만성 B형 간염 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.
-참고 가이드라인: [KASL/EALA 만성 B형 간염 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/)

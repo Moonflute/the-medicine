@@ -56,6 +56,8 @@ sources: ["ABM Protocol 36 | https://www.bfmed.org/assets/ABM%20Protocol%20%2336
 - 적절한 치료 시 예후는 좋으나 재발 가능성이 있음.
 - 합병증으로 흉터, 유방 비대칭, 통증, 누공 등이 발생할 수 있음.
 
-출처 : StatPearls (Breast Abscess)
+## 출처
+- StatPearls (Breast Abscess)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

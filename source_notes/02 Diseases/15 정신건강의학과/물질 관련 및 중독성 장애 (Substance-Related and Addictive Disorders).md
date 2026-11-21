@@ -77,5 +77,3 @@ sources: ["ASAM 알코올 금단관리 가이드라인, 2020 | https://www.asam.
 - [[알코올 유발 정신병적 장애 (Alcohol-Induced Psychotic Disorder)]]
 - [[자극제 (Stimulants)]]
 - [[진정제, 수면제 (Sedatives, Hypnotics)]]
-
-## 참고 자료

@@ -55,6 +55,8 @@ sources: ["ABM Protocol 36 | https://www.bfmed.org/assets/ABM%20Protocol%20%2336
 - 적절한 치료 시 예후는 양호함.
 - 합병증으로 유방 농양(breast abscess)이 발생할 수 있음.
 
-출처 : StatPearls (Acute Mastitis)
+## 출처
+- StatPearls (Acute Mastitis)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -52,6 +52,7 @@ relation_to_parent: subtype
 ## 6. 예후 및 합병증
 - 조기 평가와 동반 질환·안전 위험의 동시 관리가 기능 회복과 재발 예방에 중요하다.
 
-출처: [AASM RLS 치료 지침(2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/)
+## 출처
+- [AASM RLS 치료 지침(2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/)
 
 2026-07-24 — 독립 질환 문서 수동 보강 (원문 분리 후 임상 내용 정리).

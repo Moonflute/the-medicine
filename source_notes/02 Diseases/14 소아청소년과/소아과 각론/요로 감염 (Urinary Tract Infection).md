@@ -80,7 +80,8 @@ content_updated_at: "2026-11-18"
 - 조기 치료 시 예후 양호
 - 치료 지연 시 신 반흔, 만성 신부전, 패혈증 등 합병증 발생 가능
 
-출처 : StatPearls (Complicated/Recurrent UTIs)
+## 출처
+- StatPearls (Complicated/Recurrent UTIs)
 
 Last updated :
 2026-05-11 : 본문 갱신 (processed)

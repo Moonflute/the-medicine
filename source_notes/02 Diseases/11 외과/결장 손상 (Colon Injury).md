@@ -57,6 +57,8 @@ sources: ["WSES 장손상 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8896
 - **합병증**: 수술 부위 감염(SSI), 복강 내 농양, 문합부 누출, 장폐색.
 - **예후**: 손상 정도, 진단 및 수술의 지연 여부, 동반 손상 유무에 따라 결정됨.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

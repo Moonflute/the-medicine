@@ -52,7 +52,9 @@ sources: ["GTFCC 콜레라 치료 기준 | https://www.choleraoutbreak.org/book-
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료하지 않을 경우 심한 탈수와 대사성 산증으로 사망률이 50%를 상회하나, 적절한 수액 치료 시 사망률은 1% 미만으로 감소한다.
 
-출처 : Merck Manual Professional (Cholera)
+## 출처
+- Merck Manual Professional (Cholera)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

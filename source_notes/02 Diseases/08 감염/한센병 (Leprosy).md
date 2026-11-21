@@ -55,7 +55,9 @@ sources: ["WHO 한센병 지침 | https://iris.who.int/bitstream/handle/10665/27
 - 치료하지 않으면 영구적인 신경 손상, 신체 변형, 안구 손상 및 장애를 초래할 수 있다.
   조기 진단 및 치료 시 완치 가능하며, 항생제 치료는 진행을 멈추나 이미 발생한 신경 손상을 되돌리지는 못한다.
 
-출처 : Merck Manual Professional (Leprosy)
+## 출처
+- Merck Manual Professional (Leprosy)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

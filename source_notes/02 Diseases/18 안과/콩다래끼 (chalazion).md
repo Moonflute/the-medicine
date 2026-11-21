@@ -49,6 +49,8 @@ sources: ["AAO 콩다래끼 관리 | https://www.aao.org/eyenet/article/chalazio
 - 예후는 양호함
 - 합병증: 난시 유발(큰 결절이 각막 압박 시), 안검 변형, 재발
 
-출처 : StatPearls (Chalazion)
+## 출처
+- StatPearls (Chalazion)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

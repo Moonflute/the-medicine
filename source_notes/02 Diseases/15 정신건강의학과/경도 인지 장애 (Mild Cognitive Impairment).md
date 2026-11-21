@@ -54,7 +54,8 @@ relation_to_parent: subtype
   - 고령·심한 기억 저하·뚜렷한 영상 위축이면 진행 위험 증가
 - 관리: 정기적인 추적 관찰을 통해 인지 기능 변화를 모니터링하고 기능적 독립성을 유지하도록 지원.
 
-출처: [Alzheimer’s Association DETeCD-ADRD](https://pmc.ncbi.nlm.nih.gov/articles/PMC12173843/)
+## 출처
+- [Alzheimer’s Association DETeCD-ADRD](https://pmc.ncbi.nlm.nih.gov/articles/PMC12173843/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

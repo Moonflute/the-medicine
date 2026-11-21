@@ -125,5 +125,3 @@ ELN 2025 CML은 TKI 내약성·동반질환·분자 반응 추세와 환자 목�
 - [[급성 전골수성 백혈병 (APL M3) (Acute Promyelocytic Leukemia)]]
 - [[만성 골수성 백혈병 (CML) (Chronic Myeloid Leukemia)]]
 - [[만성 림프모구성 백혈병 (CLL) (Chronic Lymphocytic Leukemia)]]
-
-## 참고 가이드라인

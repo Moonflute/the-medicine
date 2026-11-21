@@ -49,6 +49,8 @@ reviewed_at: "2026-07-30"
 * 최종 성인 키는 유전적으로 결정된 범위 내에 도달함
 * 특별한 합병증 없음
 
-출처 : StatPearls (Short Stature)
+## 출처
+- StatPearls (Short Stature)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

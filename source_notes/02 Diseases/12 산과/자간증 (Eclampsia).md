@@ -67,9 +67,11 @@ sources: ["ACOG Practice Bulletin: Gestational Hypertension and Preeclampsia (re
 - **산후 발생**: 산후 자간증은 흔히 48시간 이내 발생하고 첫 1주가 고위험 시기
   - 산후 2–6주에도 늦게 발생할 수 있어 퇴원 후 위험 증상 교육·추적 필요
 
-출처 : StatPearls (Eclampsia, Ocular Manifestations of Preeclampsia)
+## 출처
+- StatPearls (Eclampsia, Ocular Manifestations of Preeclampsia)
 - [NICE NG133: Hypertension in pregnancy](https://www.nice.org.uk/guidance/ng133/chapter/recommendations)
 - [Queensland: Hypertension and pregnancy](https://www.health.qld.gov.au/__data/assets/pdf_file/0034/139948/g-hdp.pdf)
 - [SASGOG: Postpartum Eclampsia](https://exxcellence.org/list-of-pearls/postpartum-eclampsia/)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

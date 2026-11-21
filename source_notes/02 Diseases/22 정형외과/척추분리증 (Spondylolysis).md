@@ -48,6 +48,8 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 안정적인 경과를 보이나, 척추전방전위증으로 진행하거나 추간공 협착증(foraminal stenosis)의 위험 인자가 될 수 있음.
 
-출처 : StatPearls (NCBI Bookshelf), Merck Manual Professional
+## 출처
+- StatPearls (NCBI Bookshelf), Merck Manual Professional
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

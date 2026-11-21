@@ -55,6 +55,8 @@ sources: ["SASGOG 안면위·전액위 관리 | https://www.exxcellence.org/list
 - 합병증: 분만 지연, 태아 가사, 신생아 안면 부종 및 기도 부종(호흡 곤란 유발 가능).
 - 제왕절개율 및 NICU 입원율이 일반 두정위보다 높음.
 
-출처 : StatPearls (Delivery, Face and Brow Presentation)
+## 출처
+- StatPearls (Delivery, Face and Brow Presentation)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

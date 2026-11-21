@@ -59,6 +59,8 @@ sources: ["BOAST 말초신경 손상 | https://www.boa.ac.uk/resource/boast-peri
 - 급성 압박성 손상의 예후는 양호하며, 3~4개월 내 90% 이상 회복.
 - 합병증: 신경 유착, 근위축, 불완전 회복.
 
-출처 : StatPearls (Radial Nerve Injury)
+## 출처
+- StatPearls (Radial Nerve Injury)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

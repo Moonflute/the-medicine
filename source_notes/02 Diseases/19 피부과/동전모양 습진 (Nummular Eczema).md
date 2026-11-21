@@ -48,6 +48,8 @@ reviewed_at: "2026-07-30"
 * 만성적이고 재발하는 경향이 있음.
 * 긁음으로 인한 이차 세균 감염 주의.
 
-출처 : StatPearls (Eczema, Asteatotic Eczema)
+## 출처
+- StatPearls (Eczema, Asteatotic Eczema)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

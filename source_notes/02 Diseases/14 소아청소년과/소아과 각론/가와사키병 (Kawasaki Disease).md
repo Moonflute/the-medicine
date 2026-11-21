@@ -65,6 +65,8 @@ sources: ["AHA 2024 | https://doi.org/10.1161/CIR.0000000000001295", "AHA 가와
 * 조기 치료 시 관상동맥류 발생 위험 감소
 * 합병증: 관상동맥류, 심근 경색, 심근염, 판막 역류 등
 
-출처 : StatPearls (Kawasaki Disease)
+## 출처
+- StatPearls (Kawasaki Disease)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

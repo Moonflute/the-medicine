@@ -59,8 +59,10 @@ sources: ["AGA 위마비 지침 2025 | https://gastro.org/clinical-guidance/clin
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성적인 경과를 보일 수 있으며, 영양 결핍 및 혈당 조절의 어려움이 동반될 수 있음.
 
-출처 : StatPearls (Gastric Emptying Scan)
-보완 출처: 삼성서울병원 외과 메뉴얼; [AGA 위마비 지침 2025](https://gastro.org/clinical-guidance/clinical-guidance-on-the-management-of-gastroparesis/); [AGA 검사 기준 보충자료](https://aga-fileuploader-bucket.s3.us-east-2.amazonaws.com/AGA%20Gastroparesis%20Guideline%20Supplemental%20Document%202025-04-15-3.pdf); [NIDDK 검사 안내](https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/diagnosis).
+## 출처
+- StatPearls (Gastric Emptying Scan)
+- 삼성서울병원 외과 메뉴얼; [AGA 위마비 지침 2025](https://gastro.org/clinical-guidance/clinical-guidance-on-the-management-of-gastroparesis/); [AGA 검사 기준 보충자료](https://aga-fileuploader-bucket.s3.us-east-2.amazonaws.com/AGA%20Gastroparesis%20Guideline%20Supplemental%20Document%202025-04-15-3.pdf); [NIDDK 검사 안내](https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/diagnosis).
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

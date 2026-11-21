@@ -81,6 +81,6 @@ sources: ["NIDDK 게실질환 정의·합병증 | https://www.niddk.nih.gov/heal
 
 - 합병증: 게실 출혈, 게실염, 농양, 천공, 복막염, 누공, 장 폐쇄 및 협착
 
-출처 : Merck Manual Professional (Diverticular Disease, Meckel Diverticulum)
-
-참고: 삼성서울병원 메뉴얼.
+## 출처
+- Merck Manual Professional (Diverticular Disease, Meckel Diverticulum)
+- 삼성서울병원 메뉴얼.

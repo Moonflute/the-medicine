@@ -62,5 +62,3 @@ sources: ["NICE CG103: Delirium (2023 갱신) | https://www.nice.org.uk/guidance
 - [[치매 (Dementia)]]
 - [[섬망 (Delirium)]]
 - [[일과성 전체 기억 상실 (Transient Global Amnesia)]]
-
-## 참고 자료

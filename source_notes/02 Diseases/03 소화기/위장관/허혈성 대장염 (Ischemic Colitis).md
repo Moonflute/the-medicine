@@ -57,9 +57,10 @@ sources: ["ACG 대장 허혈 지침 | https://acgcdn.gi.org/wp-content/uploads/2
 - **합병증**: 만성 분절성 대장염·협착, 괴저·전격성 전대장염
   - 통증·설사·출혈 지속 또는 폐색 증상 발생 시 재평가
 
-출처 : Merck Manual Professional (Ischemic Colitis)
+## 출처
+- Merck Manual Professional (Ischemic Colitis)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

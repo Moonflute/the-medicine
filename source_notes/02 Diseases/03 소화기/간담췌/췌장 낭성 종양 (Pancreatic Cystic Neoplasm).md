@@ -75,7 +75,9 @@ sources: ["유럽 낭성종양 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PM
 
 - **합병증**: 췌장암으로의 진행, 췌장염, 담관 폐쇄, 감염, 출혈 등이 발생할 수 있다.
 
-출처 : StatPearls (Mucinous Cystic Pancreatic Neoplasms)
+## 출처
+- StatPearls (Mucinous Cystic Pancreatic Neoplasms)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)

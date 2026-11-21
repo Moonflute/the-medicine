@@ -60,8 +60,10 @@ reviewed_at: "2026-07-30"
 - 만성적인 갑상샘 조직 파괴로 인해 점진적인 기능 저하 발생 가능.
 - 적절한 호르몬 보충 요법을 통해 정상적인 갑상샘 기능 유지 가능.
 
-출처 : StatPearls: Hashimoto Thyroiditis (2026)
-- 보완 출처: 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls: Hashimoto Thyroiditis (2026)
+- 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)

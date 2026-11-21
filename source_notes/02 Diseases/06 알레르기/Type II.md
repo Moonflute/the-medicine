@@ -40,5 +40,3 @@ II형 과민반응은 세포 표면·기저막·수용체에 대한 IgG 또는 I
 ## 포함 질환
 - [[그레이브스병 (Graves' Disease)]]
 - [[자가면역 용혈성 빈혈 (Autoimmune Hemolytic Anemia)]]
-
-## 참고 자료

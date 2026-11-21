@@ -45,6 +45,8 @@ sources: ["CPS 발열 영아 | https://cps.ca/en/documents/position/management-o
 * 수분 보충 후 대부분 특별한 문제 없이 호전됨
 * 심한 탈수 시 전해질 불균형 주의 필요
 
-출처 : 임상 소아과학(Nelson Textbook of Pediatrics)
+## 출처
+- 임상 소아과학(Nelson Textbook of Pediatrics)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

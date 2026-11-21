@@ -57,8 +57,9 @@ content_updated_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료 참여·순응도와 환자의 심리적 대처 능력(ego strength 등)이 예후에 영향
 
-출처 : StatPearls (Erikson's Stages of Psychosocial Development)
-추가 근거: [AGPA 집단 정신치료 진료 원칙](https://agpa.org/guidelines-ethics/practice-guidelines-for-group-psychotherapy-2/)
+## 출처
+- StatPearls (Erikson's Stages of Psychosocial Development)
+- [AGPA 집단 정신치료 진료 원칙](https://agpa.org/guidelines-ethics/practice-guidelines-for-group-psychotherapy-2/)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

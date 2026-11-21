@@ -76,8 +76,10 @@ content_updated_at: "2026-11-15"
 - **기타**: 급성 신손상(AKI) 및 만성 신부전으로의 진행.
 - **갑작스러운 신기능 저하**: 원래 사구체 질환의 진행으로만 판단하지 않고, 이뇨제 관련 저혈량, 약물 유발 간질신염, 신정맥 혈전증, 감염, 요로 폐쇄 및 새로 동반된 급속 진행 사구체염을 평가한다.
 
-출처 : Merck Manual Professional (Overview of Nephrotic Syndrome)
-추가 출처: 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional (Overview of Nephrotic Syndrome)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-11 : 본문 갱신 (processed)

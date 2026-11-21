@@ -52,7 +52,9 @@ sources: ["다학제 암죽가슴증 합의 2024 | https://doi.org/10.1183/13993
 ## 6. 예후 및 합병증 (Prognosis)
 - 지속적인 암죽 유출 시 영양 결핍, 면역 저하(림프구 소실) 및 탈수 발생 가능.
 
-출처 : StatPearls (Chylothorax)
+## 출처
+- StatPearls (Chylothorax)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

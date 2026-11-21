@@ -46,7 +46,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 분만 지연, 태아 곤란증, 안면 및 두부 부종, 기도 부종 등.
 
-출처 : StatPearls (Delivery, Face and Brow Presentation)
+## 출처
+- StatPearls (Delivery, Face and Brow Presentation)
 - [Labour Ward Manual: Malpositions and malpresentations](https://elsevier-elibrary.com/contents/fullcontent/58788/epubcontent_v2/OEBPS/B9780443102523500237.htm)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

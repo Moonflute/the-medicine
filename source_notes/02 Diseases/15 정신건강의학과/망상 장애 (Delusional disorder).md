@@ -57,7 +57,8 @@ relation_to_parent: subtype
 - 예후: 조기 발견 및 지속적인 약물 순응도가 예후에 결정적임. 약 50%에서 약물 치료에 좋은 반응을 보임.
 - 합병증: 망상으로 인한 사회적 고립, 대인관계 갈등, 법적 문제(스토킹, 고소 등), 우울증 등이 발생할 수 있음.
 
-출처: [SAMHSA DSM-IV–DSM-5 정신병적 장애 기준 비교](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/)
+## 출처
+- [SAMHSA DSM-IV–DSM-5 정신병적 장애 기준 비교](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

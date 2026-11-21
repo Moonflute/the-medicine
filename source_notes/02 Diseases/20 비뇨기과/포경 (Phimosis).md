@@ -50,7 +50,9 @@ sources: ["EAU | https://uroweb.org/guidelines/paediatric-urology/chapter/phimos
 * 생리적 포경은 대부분 성인이 되기 전 자연 치유됨
 * 병적 포경 방치 시 반복적인 귀두포피염, 요로 폐색, 배뇨 장애 발생 가능
 
-출처 : StatPearls (Phimosis)
+## 출처
+- StatPearls (Phimosis)
 - [EAU: Phimosis and penile skin abnormalities](https://uroweb.org/guidelines/paediatric-urology/chapter/phimosis-and-other-abnormalities-of-the-penile-skin)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

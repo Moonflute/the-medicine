@@ -53,7 +53,8 @@ relation_to_parent: subtype
 - 합병증: 학습 장애, 반항성 장애, 품행 장애, 물질 남용, 정서적 불안.
 - 예후: 조기 발견 및 적절한 개입이 중요하며, 성인기까지 증상이 지속될 경우 체계적인 관리와 상담이 필요함.
 
-출처: [CDC ADHD 임상 기준](https://www.cdc.gov/adhd/hcp/clinical-care/index.html)
+## 출처
+- [CDC ADHD 임상 기준](https://www.cdc.gov/adhd/hcp/clinical-care/index.html)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

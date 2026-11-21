@@ -69,6 +69,8 @@ sources: ["ASCO-SNO 지침 | https://doi.org/10.1200/JCO.21.02036", "WHO CNS5 �
 - 매우 불량하며, 표준 치료 후에도 중앙 생존 기간은 약 15개월 내외임.
   재발이 흔, 다학제적 접근이 필수적임.
 
-출처 : StatPearls (Glioblastoma Multiforme)
+## 출처
+- StatPearls (Glioblastoma Multiforme)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

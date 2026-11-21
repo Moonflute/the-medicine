@@ -52,8 +52,10 @@ reviewed_at: "2026-07-30"
 - **예후**: 동반된 심장 기형 및 염색체 이상 유무에 따라 결정
 - **합병증**: 문합부 누출(anastomotic leak), 식도 협착, 위식도 역류, 기관연화증, 재발성 누공
 
-출처 : StatPearls (Esophageal Atresia)
-출처 : 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls (Esophageal Atresia)
+- 삼성서울병원 외과 메뉴얼
 - [신생아 수술질환 지침: 식도폐쇄](https://platform.who.int/docs/default-source/mca-documents/policy-documents/guideline/SWZ-MN-48-01-GUIDELINE-2018-eng-Clinical-neonatal-guidelines-2018.pdf)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

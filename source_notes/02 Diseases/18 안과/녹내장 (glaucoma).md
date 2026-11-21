@@ -72,8 +72,9 @@ content_updated_at: "2026-11-18"
 - 실명 가능성이 있는 질환으로, 조기 진단 및 꾸준한 안압 관리가 필수적임.
 - 치료로 기존 손상을 되돌릴 수는 없으나 진행을 억제할 수 있음.
 
-출처 : StatPearls (Glaucoma, Acute Angle-Closure Glaucoma)
-보완 근거: [EGS — 시신경유두 임상 평가](https://eugs.org/news/clinical-examination-of-the-optic-nerve-head-2019-09-30-pearl?grayscale=true)
+## 출처
+- StatPearls (Glaucoma, Acute Angle-Closure Glaucoma)
+- [EGS — 시신경유두 임상 평가](https://eugs.org/news/clinical-examination-of-the-optic-nerve-head-2019-09-30-pearl?grayscale=true)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

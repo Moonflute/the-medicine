@@ -92,7 +92,8 @@ sources: ["NCI PDQ | https://www.cancer.gov/types/kidney/hp/wilms-treatment-pdq"
   - 불량 조직형·1p/16q 결손 등은 불량 예후와 연관
 - **합병증**: 치료 후 이차 악성 종양 발생 위험, 방사선 치료에 따른 골다공증 및 장기 기능 저하, 항암제 독성(심장, 청력, 신경병증 등)에 대한 추적 관찰이 필요함.
 
-출처: [NCI Wilms tumor PDQ](https://www.cancer.gov/types/kidney/hp/wilms-treatment-pdq)
+## 출처
+- [NCI Wilms tumor PDQ](https://www.cancer.gov/types/kidney/hp/wilms-treatment-pdq)
 
 Last updated :
 2026-05-20 — 본문 갱신 (codex fill)

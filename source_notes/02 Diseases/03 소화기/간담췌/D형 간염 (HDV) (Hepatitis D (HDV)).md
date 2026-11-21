@@ -74,9 +74,10 @@ content_updated_at: "2026-11-18"
 
 - **합병증**: 간경변증, 간부전, 간세포암(HCC), 전격성 간염 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

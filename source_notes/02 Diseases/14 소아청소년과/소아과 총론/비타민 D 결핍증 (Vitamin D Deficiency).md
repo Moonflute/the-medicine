@@ -64,7 +64,8 @@ sources: ["Global Consensus on Nutritional Rickets | https://pmc.ncbi.nlm.nih.go
 * 조기 진단 및 치료 시 정상적인 뼈 성장 회복 가능.
 * 치료 지연 시 영구적인 골격 변형, 성장 장애, 골절 위험 증가.
 
-출처: [영양성 구루병 국제 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC4880117/)
+## 출처
+- [영양성 구루병 국제 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC4880117/)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

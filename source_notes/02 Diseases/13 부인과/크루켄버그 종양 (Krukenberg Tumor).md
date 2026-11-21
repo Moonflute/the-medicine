@@ -56,6 +56,8 @@ sources: ["NCI PDQ 위암 원격 전이 병기 | https://www.cancer.gov/types/st
 - 예후는 불량, 원발암의 종류 및 병기에 따라 다름
 - 원발암과 전이암의 완전 절제 시 생존율 개선 보고됨
 
-출처 : StatPearls (Krukenberg Tumor)
+## 출처
+- StatPearls (Krukenberg Tumor)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

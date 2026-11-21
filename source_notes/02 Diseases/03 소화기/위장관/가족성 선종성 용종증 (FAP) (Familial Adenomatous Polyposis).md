@@ -64,8 +64,10 @@ review_status: "guideline_enriched"
 - **고전적 FAP의 대장암 위험**: 예방 치료가 없으면 평생 위험이 거의 100%에 달하며 평균 발생 연령은 약 40세. 모든 환자가 40세 전에 발생한다는 뜻은 아님
 - 십이지장암 등 장외 암종 발생 위험 증가
 
-출처 : Merck Manual Professional (Familial Adenomatous Polyposis)
-참고: [EHTG–ESCP 용종증 지침 2024](https://doi.org/10.1093/bjs/znae070), [ASCRS 유전성 대장암 안내](https://fascrs.org/Web/Patients/Diseases-and-Conditions/A-Z/Hereditary-Colorectal-Cancer-Expanded-Information.aspx)
+## 출처
+- Merck Manual Professional (Familial Adenomatous Polyposis)
+- [EHTG–ESCP 용종증 지침 2024](https://doi.org/10.1093/bjs/znae070), [ASCRS 유전성 대장암 안내](https://fascrs.org/Web/Patients/Diseases-and-Conditions/A-Z/Hereditary-Colorectal-Cancer-Expanded-Information.aspx)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

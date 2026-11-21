@@ -67,7 +67,9 @@ sources: ["NICE NG71 | https://www.nice.org.uk/guidance/ng71/chapter/Recommendat
 ## 6. 예후 및 합병증 (Prognosis)
 - 진행성 질환으로, 다학제적 접근(신경과, 재활의학과, 간호 등)을 통해 운동 및 비운동 증상을 관리하여 합병증을 예방, 기능을 보존하는 것이 중요함.
 
-출처 : StatPearls (Parkinsonism)
-보완 출처: [MDS 파킨슨병 임상 진단기준](https://pubmed.ncbi.nlm.nih.gov/26474316/)
+## 출처
+- StatPearls (Parkinsonism)
+- [MDS 파킨슨병 임상 진단기준](https://pubmed.ncbi.nlm.nih.gov/26474316/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

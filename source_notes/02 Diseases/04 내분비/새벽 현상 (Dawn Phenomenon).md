@@ -47,7 +47,8 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 조절이 이루어지지 않을 경우 HbA1c 상승 및 장기적인 심혈관 합병증 위험이 증가할 수 있다.
 
-참고: [제2형 당뇨 CGM 연구: 소모기 반동의 근거 한계](https://pmc.ncbi.nlm.nih.gov/articles/PMC9553369/).
+## 출처
+- [제2형 당뇨 CGM 연구: 소모기 반동의 근거 한계](https://pmc.ncbi.nlm.nih.gov/articles/PMC9553369/).
 
 Last updated :
 2024-07-30 — 초기 작성

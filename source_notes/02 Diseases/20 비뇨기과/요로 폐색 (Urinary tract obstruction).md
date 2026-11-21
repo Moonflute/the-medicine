@@ -70,6 +70,8 @@ sources: ["EAU 요석 응급 관리 | https://uroweb.org/guidelines/urolithiasis
 * **합병증:** 신우신염, 패혈증, 만성 신부전, 신결석 재발.
 * **예후:** 폐색의 지속 기간과 감염 동반 여부에 따라 결정되며, 조기 감압 시 신기능 회복 가능.
 
-출처 : StatPearls (Complicated Urinary Tract Infections)
+## 출처
+- StatPearls (Complicated Urinary Tract Infections)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

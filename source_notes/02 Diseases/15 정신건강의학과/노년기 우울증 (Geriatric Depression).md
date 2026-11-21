@@ -51,6 +51,8 @@ reviewed_at: "2026-07-30"
 - **경과**: 재발·만성화가 흔하고 동반 신체 질환으로 삶의 질 저하
 - **추적**: 자살 위험을 지속적으로 평가
 
-출처 : StatPearls (Depression)
+## 출처
+- StatPearls (Depression)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

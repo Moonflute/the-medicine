@@ -48,6 +48,8 @@ sources: ["WHO 만삭 이후 분만유도 권고(2022) | https://www.ncbi.nlm.ni
 * **태아**: 태변 흡입 증후군, 거대아, 주산기 사망률 증가.
 * **산모**: 난산, 제왕절개술 빈도 증가, 산도 열상.
 
-출처 : ACOG Practice Bulletin, Merck Manual Professional
+## 출처
+- ACOG Practice Bulletin, Merck Manual Professional
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

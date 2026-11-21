@@ -49,7 +49,9 @@ reviewed_at: "2026-07-30"
 - 적절한 수액 보충 시 예후 양호
 - 합병증: 탈수, 전해질 불균형, 대사성 산증
 
-출처 : Merck Manual Professional, StatPearls
+## 출처
+- Merck Manual Professional, StatPearls
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

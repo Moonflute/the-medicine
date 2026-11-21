@@ -56,6 +56,8 @@ content_updated_at: "2026-11-18"
 ## 6. 예후 및 합병증 (Prognosis)
 - 신경 압박으로 인한 만성 통증, 신경학적 결손, 척추관 협착증으로 진행 가능.
 
-출처 : StatPearls (Spondylolisthesis)
+## 출처
+- StatPearls (Spondylolisthesis)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

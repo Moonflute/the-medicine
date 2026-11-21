@@ -54,7 +54,9 @@ sources: ["ASGE 폐쇄 치료 지침 | https://doi.org/10.1016/j.gie.2020.07.063
 - 조기 진단 및 수술 시 예후 양호.
 - 진단 지연 시 천공, 복막염, 패혈증으로 인한 높은 사망률(30~60%) 보고.
 
-출처 : StatPearls (Afferent Loop Syndrome)
+## 출처
+- StatPearls (Afferent Loop Syndrome)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

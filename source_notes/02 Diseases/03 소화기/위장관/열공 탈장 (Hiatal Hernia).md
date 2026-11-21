@@ -54,7 +54,9 @@ reviewed_at: "2026-07-30"
 - 합병증: 위식도 역류질환, 드물게 위장관 출혈
 - 식도옆형 탈장은 감돈(incarceration) 및 교액(strangulation) 위험이 있어 주의 필요
 
-출처 : Merck Manual Professional (Hiatus Hernia)
+## 출처
+- Merck Manual Professional (Hiatus Hernia)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

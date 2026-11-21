@@ -62,7 +62,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 대증 치료 시 2~4일 내 회복 가능하나, 중증 시 사망률이 높음(약 12% 이상)
 
-출처 : StatPearls (Transfusion-Related Acute Lung Injury)
+## 출처
+- StatPearls (Transfusion-Related Acute Lung Injury)
 - [TRALI 정의 개정 국제 합의(2019)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6850655/)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

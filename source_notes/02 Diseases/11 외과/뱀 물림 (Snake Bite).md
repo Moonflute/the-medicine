@@ -68,6 +68,8 @@ sources: ["JTS 뱀독 치료 지침 2026 | https://jts.health.mil/assets/docs/cp
 - 조기 치료 시 예후 양호.
 - 합병증: 구획 증후군, 호흡 부전, 횡문근 융해, 신부전, 영구적 신경 손상.
 
-출처 : StatPearls (Coral Snake Toxicity, Evaluation and Treatment of Snake Envenomations)
+## 출처
+- StatPearls (Coral Snake Toxicity, Evaluation and Treatment of Snake Envenomations)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

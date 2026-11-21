@@ -50,7 +50,8 @@ relation_to_parent: subtype
 - 만성적인 경과를 보일 수 있으며, 증상에 대한 불안이 증상을 악화시키는 악순환이 발생할 수 있음.
 - 우울증, 불안 장애 등 공존 질환에 대한 지속적인 관리가 필요함.
 
-출처 : Merck Manual Professional, DSM-5-TR
+## 출처
+- Merck Manual Professional, DSM-5-TR
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

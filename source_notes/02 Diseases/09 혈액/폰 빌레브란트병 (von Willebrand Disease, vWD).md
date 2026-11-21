@@ -62,9 +62,11 @@ sources: ["ASH/ISTH/NHF/WFH 관리 지침 | https://pmc.ncbi.nlm.nih.gov/article
 - **중증형(type 3)**: 관절 출혈 등 심각한 합병증 위험
 - **약물 주의**: 아스피린 등 NSAIDs는 출혈 위험을 높이므로 피함
 
-출처 : StatPearls (Von Willebrand Disease, 2026)
+## 출처
+- StatPearls (Von Willebrand Disease, 2026)
 - [ASH/ISTH/NHF/WFH vWD 진단 지침(2021)](https://doi.org/10.1182/bloodadvances.2020003265)
 - [vWD 진단과 선별검사의 한계](https://doi.org/10.1182/bloodadvances.2025016485)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

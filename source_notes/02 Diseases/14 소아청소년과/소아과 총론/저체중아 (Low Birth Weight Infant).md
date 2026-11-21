@@ -53,6 +53,8 @@ sources: ["WHO 미숙아·저체중아 관리 권고 | https://www.ncbi.nlm.nih.
 * 미숙 정도 및 합병증 발생 여부에 따라 예후가 결정됨
 * 장기적인 신경 발달 및 성장 추적 관찰 필수
 
-출처 : StatPearls (Bayley Scales of Infant and Toddler Development); [WHO 미숙아·저체중아](https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health/preterm-and-low-birth-weight/)
+## 출처
+- StatPearls (Bayley Scales of Infant and Toddler Development); [WHO 미숙아·저체중아](https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health/preterm-and-low-birth-weight/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

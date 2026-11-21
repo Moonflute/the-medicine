@@ -46,6 +46,8 @@ reviewed_at: "2026-07-30"
 - 합병증: 반복적 유산, 조산, 태반 유착(placenta accreta) 등 산과적 합병증 위험 증가.
 - 예후: 중증일수록 임신 성공률이 낮으며, 수술 후에도 내막 기능 회복이 지연될 수 있음.
 
-출처 : StatPearls (Asherman Syndrome)
+## 출처
+- StatPearls (Asherman Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

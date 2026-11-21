@@ -57,8 +57,9 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/epididymitis.htm"]
 * 적절한 항생제 치료 시 대부분 호전됨.
   합병증으로 부고환 농양, 고환 위축, 만성 통증, 불임 등이 발생할 수 있음.
 
-출처 : Merck Manual Professional
-참고: [CDC: Epididymitis](https://www.cdc.gov/std/treatment-guidelines/epididymitis.htm)
+## 출처
+- Merck Manual Professional
+- [CDC: Epididymitis](https://www.cdc.gov/std/treatment-guidelines/epididymitis.htm)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

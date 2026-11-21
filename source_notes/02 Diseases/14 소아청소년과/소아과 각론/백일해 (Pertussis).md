@@ -58,6 +58,8 @@ sources: ["CDC 2026 | https://www.cdc.gov/pertussis/hcp/clinical-care/index.html
 * 영아(특히 6개월 미만)는 폐렴, 무호흡, 뇌병증, 폐동맥 고혈압 등 심각한 합병증 및 사망 위험이 높음
 * 예방 접종(DTaP, Tdap)이 가장 효과적인 예방 수단이며, 임신부 Tdap 접종을 통해 영아 보호 가능
 
-출처 : StatPearls (Pertussis, DTaP Vaccine)
+## 출처
+- StatPearls (Pertussis, DTaP Vaccine)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

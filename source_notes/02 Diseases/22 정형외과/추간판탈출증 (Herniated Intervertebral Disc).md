@@ -55,6 +55,8 @@ sources: ["NICE NG59 | https://www.nice.org.uk/guidance/ng59/chapter/Recommendat
 - **예후**: 대개 보존치료로 호전
 - **합병증**: 만성 통증·신경 결손·마미증후군
 
-출처 : StatPearls (Anatomy, Back, Intervertebral Discs; Annular Disc Tear)
+## 출처
+- StatPearls (Anatomy, Back, Intervertebral Discs; Annular Disc Tear)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

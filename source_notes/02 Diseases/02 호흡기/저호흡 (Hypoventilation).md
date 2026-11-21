@@ -56,7 +56,9 @@ sources: ["ATS OHS 지침 | https://doi.org/10.1164/rccm.201905-1071ST"]
 - 치료하지 않을 경우 폐동맥 고혈압, 우심실 비대, 심부전으로 진행될 수 있음.
   조기 진단 및 양압기 치료가 중요.
 
-출처 : StatPearls (Obesity-Hypoventilation Syndrome)
+## 출처
+- StatPearls (Obesity-Hypoventilation Syndrome)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -53,6 +53,8 @@ sources: ["RCOphth 2022 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9046155/"]
 - **예후**: 자연 호전되는 경우도 있으나, 황반 부종 및 허혈 정도에 따라 시력 예후 결정
 - **합병증**: 황반 부종, 망막/유두 신생 혈관, 유리체 출혈, 견인 망막 박리, 신생 혈관 녹내장
 
-출처 : StatPearls (Branch Retinal Vein Occlusion)
+## 출처
+- StatPearls (Branch Retinal Vein Occlusion)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

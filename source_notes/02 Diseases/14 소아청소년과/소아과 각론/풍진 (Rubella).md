@@ -53,7 +53,8 @@ reviewed_at: "2026-07-30"
   - 가임기 여성: IgG 면역 확인 후 감수성자 접종, 이후 **4주간 임신 회피**
   - **임신 중 MMR 금기**; 비면역 임신부는 산후 접종 계획
 
-출처: [CDC 풍진 혈청검사](https://www.cdc.gov/rubella/php/laboratories/serology-testing.html)
+## 출처
+- [CDC 풍진 혈청검사](https://www.cdc.gov/rubella/php/laboratories/serology-testing.html)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

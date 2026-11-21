@@ -66,9 +66,10 @@ sources: ["2025 ESC 심근염·심막염 진료지침 | https://academic.oup.com
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료가 지연될 경우 심인성 쇼크(cardiogenic shock) 및 사망에 이를 수 있다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼. 2025 ESC 심근염·심막염 진료지침, ESC 응급 심장초음파 합의문; 심장눌림의 혈역학적 진단, 초음파 소견 및 긴급 배액 원칙을 대조. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. 2025 ESC 심근염·심막염 진료지침, ESC 응급 심장초음파 합의문; 심장눌림의 혈역학적 진단, 초음파 소견 및 긴급 배액 원칙을 대조. 2026-09-14 기존 목차 내 보완.

@@ -68,6 +68,8 @@ sources: ["NCI 염증성 유방암 | https://www.cancer.gov/types/breast/treatme
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 공격적 경과·조기 재발 위험 높음; 다학제 치료 후 보고된 5년 생존율 30~70%로 병기·집단에 따라 차이
 
-출처 : StatPearls (Inflammatory Breast Cancer)
+## 출처
+- StatPearls (Inflammatory Breast Cancer)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

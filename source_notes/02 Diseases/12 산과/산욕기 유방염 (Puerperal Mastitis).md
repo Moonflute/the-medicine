@@ -52,6 +52,8 @@ sources: ["ABM 2022 | https://www.bfmed.org/assets/ABM%20Protocol%20%2336.pdf"]
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 예후가 좋으나, 치료 지연 시 유방 농양으로 진행될 수 있음.
 
-출처 : StatPearls (Acute Mastitis)
+## 출처
+- StatPearls (Acute Mastitis)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

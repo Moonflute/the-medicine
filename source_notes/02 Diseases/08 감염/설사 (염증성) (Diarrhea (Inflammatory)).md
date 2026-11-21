@@ -51,9 +51,10 @@ reviewed_at: "2026-07-30"
 - 대부분 보존적 치료로 호전되나, 탈수 및 전해질 불균형 주의
 - 드물게 용혈성 요독 증후군(HUS) 등 합병증 발생 가능
 
-출처 : Merck Manual Professional (Gastrointestinal Disorders), [IDSA 감염성 설사 지침(2017)](https://www.idsociety.org/practice-guideline/infectious-diarrhea/)
+## 출처
+- Merck Manual Professional (Gastrointestinal Disorders), [IDSA 감염성 설사 지침(2017)](https://www.idsociety.org/practice-guideline/infectious-diarrhea/)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-출처: 삼성서울병원 메뉴얼

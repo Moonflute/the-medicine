@@ -64,8 +64,9 @@ sources: ["ASCIA 2026 | https://www.allergy.org.au/images/ASCIA_HP_Guidelines_Ac
 - 대부분 국소 반응으로 수일 내 호전.
 - 드물게 아나필락시스에 의한 치명적 결과 발생 가능.
 
-출처:
+## 출처
 - [ASCIA 아나필락시스 급성 관리 지침](https://www.allergy.org.au/hp/anaphylaxis/acute-management-guidelines)
 - [ASCIA 벌독 면역치료](https://www.allergy.org.au/patients/allergy-treatments/venom-immunotherapy-faqs)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

@@ -48,6 +48,8 @@ reviewed_at: "2026-07-30"
 * 대부분 후유증 없이 회복되나 재발 가능성 있음
 * Legg-Calve-Perthes 병, 대퇴골두 골단 분리증, 화농성 관절염 등과 감별 필요
 
-출처 : StatPearls (Septic Arthritis of the Pediatric Hip)
+## 출처
+- StatPearls (Septic Arthritis of the Pediatric Hip)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

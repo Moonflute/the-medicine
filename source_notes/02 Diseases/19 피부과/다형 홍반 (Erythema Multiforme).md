@@ -51,6 +51,8 @@ sources: ["DermNet | https://dermnetnz.org/topics/erythema-multiforme"]
 * 대부분 2주 이내에 자연 치유되는 양호한 경과를 보임.
 * 드물게 점막 침범으로 인한 탈수나 섭취 장애가 발생할 수 있음.
 
-출처 : StatPearls (Erythema Multiforme)
+## 출처
+- StatPearls (Erythema Multiforme)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

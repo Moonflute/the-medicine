@@ -59,7 +59,8 @@ sources: ["IDSA 2019 | https://www.idsociety.org/practice-guideline/asymptomatic
 - 대부분의 환자는 치료 없이도 합병증이 발생하지 않음
 - 불필요한 항생제 사용은 항생제 내성균주 발생의 주요 원인이 됨
 
-보완 출처: [IDSA 2019 — Asymptomatic bacteriuria](https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/)
+## 출처
+- [IDSA 2019 — Asymptomatic bacteriuria](https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/)
 
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성

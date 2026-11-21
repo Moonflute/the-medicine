@@ -57,6 +57,8 @@ sources: ["CBS 결핍 진단·치료 지침 | https://doi.org/10.1007/s10545-016
 * 조기 진단 및 치료(특히 비타민 B6 반응성 확인) 시 예후 개선 가능
 * 치료하지 않을 경우 혈전색전증으로 인한 조기 사망 위험 증가
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

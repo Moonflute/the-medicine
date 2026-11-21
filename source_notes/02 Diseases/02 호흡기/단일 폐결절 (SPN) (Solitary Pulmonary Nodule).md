@@ -68,7 +68,8 @@ sources: ["Fleischner Society | https://doi.org/10.1148/radiol.2017161659"]
 - 원인 질환에 따라 상이함.
   악성 결절의 경우 조기 발견 및 절제가 예후에 결정적임.
 
-참고: [BTS 폐결절 평가·관리 지침](https://www.brit-thoracic.org.uk/document-library/guidelines/pulmonary-nodules/bts-guidelines-for-the-investigation-and-management-of-pulmonary-nodules/)
+## 출처
+- [BTS 폐결절 평가·관리 지침](https://www.brit-thoracic.org.uk/document-library/guidelines/pulmonary-nodules/bts-guidelines-for-the-investigation-and-management-of-pulmonary-nodules/)
 
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)

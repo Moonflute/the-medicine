@@ -60,7 +60,8 @@ content_updated_at: "2026-11-17"
 - 급성 신손상(AKI) 발생 가능성 높음 (15~55%)
 - 치명적인 전해질 불균형 및 다발성 장기 부전 위험
 
-출처 : Merck Manual Professional (Rhabdomyolysis)
+## 출처
+- Merck Manual Professional (Rhabdomyolysis)
 
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성

@@ -73,9 +73,10 @@ sources: ["2026 브라질 학회 지침 | https://pmc.ncbi.nlm.nih.gov/articles/
 ## 6. 예후 및 합병증 (Prognosis)
 - 면역 저하 환자에서 전신 칸디다증은 치명적일 수 있으며, 조기 진단과 적절한 항진균제 투여가 중요하다.
 
-출처 : Merck Manual Professional (Candidiasis, Mucocutaneous Candidiasis, Chronic Mucocutaneous Candidiasis)
+## 출처
+- Merck Manual Professional (Candidiasis, Mucocutaneous Candidiasis, Chronic Mucocutaneous Candidiasis)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

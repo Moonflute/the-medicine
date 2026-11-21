@@ -51,6 +51,8 @@ sources: ["DermNet | https://dermnetnz.org/topics/miliaria"]
 * 대부분 환경 개선 시 자연 치유됨.
 * 합병증: 이차 세균 감염, 무한증(anhidrosis)으로 인한 체온 조절 장애 및 열 피로.
 
-출처 : StatPearls (Miliaria)
+## 출처
+- StatPearls (Miliaria)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

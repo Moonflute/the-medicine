@@ -52,6 +52,8 @@ sources: ["AAD 치료 | https://www.aad.org/public/diseases/a-z/lichen-planus-tr
 * 피부 병변은 대개 1~2년 내 자연 치유되나 색소 침착이 남을 수 있음.
   구강 병변은 만성 경과를 보이며 재발이 잦음.
 
-출처 : StatPearls (Lichen Planus, Oral Lichen Planus)
+## 출처
+- StatPearls (Lichen Planus, Oral Lichen Planus)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

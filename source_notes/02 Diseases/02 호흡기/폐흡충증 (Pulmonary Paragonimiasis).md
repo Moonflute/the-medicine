@@ -62,7 +62,9 @@ sources: ["CDC 폐흡충증 | https://www.cdc.gov/paragonimus/hcp/clinical-overv
 ## 6. 예후 및 합병증
 - **합병증**: 기흉, 흉막 삼출, 폐외 장기 침범(뇌, 복부, 피하).
 
-출처 : CDC Parasites - Paragonimiasis
+## 출처
+- CDC Parasites - Paragonimiasis
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-11 : 본문 갱신 (processed)

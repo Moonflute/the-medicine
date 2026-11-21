@@ -59,7 +59,9 @@ sources: ["CDC 임상 지침 | https://www.cdc.gov/leptospirosis/hcp/clinical-ov
 ## 6. 예후 및 합병증 (Prognosis)
 - 중증 형태인 Weil's disease는 사망률이 높으며, 신부전, 간부전, 폐출혈, 심근염 등의 합병증이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Leptospirosis); 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional (Leptospirosis); 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

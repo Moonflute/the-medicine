@@ -65,9 +65,10 @@ reviewed_at: "2026-07-30"
 - 급성 산혈증은 심혈관계 불안정 및 부정맥 유발
 - 만성 산혈증은 골밀도 감소(골연화증, 골다공증) 유발
 
-출처 : Merck Manual Professional (Metabolic Acidosis, Respiratory Acidosis, Lactic Acidosis)
+## 출처
+- Merck Manual Professional (Metabolic Acidosis, Respiratory Acidosis, Lactic Acidosis)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

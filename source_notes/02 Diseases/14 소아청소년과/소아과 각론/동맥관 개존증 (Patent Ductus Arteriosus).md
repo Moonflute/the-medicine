@@ -52,6 +52,8 @@ sources: ["AAP 미숙아 동맥관 개존 임상보고서 2025 | https://doi.org
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 괴사성 장염(NEC), 기관지폐이형성증(BPD), 심부전, 폐고혈압, 감염성 심내막염
 
-출처 : StatPearls (Patent Ductus Arteriosus, Anesthesia for Patients With PDA)
+## 출처
+- StatPearls (Patent Ductus Arteriosus, Anesthesia for Patients With PDA)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

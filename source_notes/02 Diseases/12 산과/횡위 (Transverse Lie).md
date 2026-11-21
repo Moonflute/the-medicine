@@ -49,6 +49,8 @@ sources: ["MSF 외회전술 권고 | https://medicalguidelines.msf.org/en/viewpo
 ## 6. 예후 및 합병증 (Prognosis)
 - 제대 탈출, 난산, 자궁 파열 등의 위험이 있음.
 
-출처 : Williams Obstetrics
+## 출처
+- Williams Obstetrics
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

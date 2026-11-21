@@ -51,7 +51,9 @@ reviewed_at: "2026-07-30"
 - 조기 발견 및 원인 제거 시 가역적 회복 가능.
 - 치료 지연 시 세관 위축 및 간질 섬유화로 인한 만성 콩팥병(CKD)으로 진행 가능.
 
-출처 : StatPearls: Allergic and Drug-Induced Interstitial Nephritis
+## 출처
+- StatPearls: Allergic and Drug-Induced Interstitial Nephritis
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

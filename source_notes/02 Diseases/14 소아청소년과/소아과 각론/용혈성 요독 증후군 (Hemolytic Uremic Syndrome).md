@@ -63,6 +63,8 @@ sources: ["PCH HUS 경로 | https://www.pch.health.wa.gov.au/For-health-professi
 * 조기 진단 및 치료가 중요
 * 만성 신부전, 고혈압, 신경학적 후유증 등 발생 가능
 
-출처 : StatPearls (Hemolytic Uremic Syndrome)
+## 출처
+- StatPearls (Hemolytic Uremic Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

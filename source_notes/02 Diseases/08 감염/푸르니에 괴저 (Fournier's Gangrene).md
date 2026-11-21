@@ -54,7 +54,9 @@ reviewed_at: "2026-07-30"
 - 사망률이 약 40%에 달하는 치명적인 질환이다.
   패혈증, 다발성 장기 부전, 요도 협착 등의 합병증이 발생할 수 있으며, 조기 수술적 개입이 예후를 결정짓는 가장 중요한 요소이다.
 
-출처 : StatPearls (Fournier Gangrene)
+## 출처
+- StatPearls (Fournier Gangrene)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

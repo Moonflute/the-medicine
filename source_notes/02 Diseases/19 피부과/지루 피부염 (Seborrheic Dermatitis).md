@@ -52,6 +52,8 @@ sources: ["AAD | https://www.aad.org/public/diseases/a-z/seborrheic-dermatitis-t
 * 만성적인 재발성 질환으로 완치보다는 증상 조절이 목표.
 * 이차적인 세균 감염이나 가려움증으로 인한 삶의 질 저하 가능.
 
-출처 : StatPearls (Seborrheic Dermatitis)
+## 출처
+- StatPearls (Seborrheic Dermatitis)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

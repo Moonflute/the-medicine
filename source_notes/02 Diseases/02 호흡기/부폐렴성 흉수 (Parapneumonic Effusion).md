@@ -61,9 +61,10 @@ sources: ["BTS 2023 | https://thorax.bmj.com/content/78/Suppl_3/s1", "IDSA/ATS H
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 지연될 경우 흉막 유착, 농흉(empyema)으로 진행될 수 있음.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

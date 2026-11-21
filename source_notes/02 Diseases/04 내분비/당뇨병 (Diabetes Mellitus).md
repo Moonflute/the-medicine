@@ -154,6 +154,5 @@ ADA 2026은 인슐린 치료 성인뿐 아니라 저혈당을 유발할 수 있�
 - [[제1형 당뇨병 (Type 1 Diabetes Mellitus)]]
 - [[제2형 당뇨병 (Type 2 Diabetes Mellitus)]]
 
-## 참고 가이드라인
-
+## 출처
 - [ADA 2026 진단·분류](https://doi.org/10.2337/dc26-S002)

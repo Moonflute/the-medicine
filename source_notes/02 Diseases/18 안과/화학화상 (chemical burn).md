@@ -54,6 +54,8 @@ sources: ["AAO 화학 손상 | https://eyewiki.aao.org/Chemical_%28Alkali_and_Ac
 - 손상 정도에 따라 각막 흉터, 신생혈관 형성, 안구 건조증, 영구적인 시력 손상 가능성
 - 중증의 경우 안구 천공이나 실명 위험
 
-출처 : StatPearls (Chemical Burns)
+## 출처
+- StatPearls (Chemical Burns)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

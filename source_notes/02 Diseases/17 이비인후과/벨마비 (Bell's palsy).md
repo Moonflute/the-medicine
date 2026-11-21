@@ -53,6 +53,8 @@ sources: ["AAO-HNSF | https://doi.org/10.1177/0194599813505967", "소아 Bell �
 - **예후**: 많은 환아가 자연 회복하며 회복 속도는 중증도에 따라 다르다. 눈이 완전히 감기지 않으면 나이와 관계없이 각막 보호가 필요하다.
 - **합병증**: 불완전 회복 시 연합운동(synkinesis), 안면 경련 발생 가능 (물리치료 및 보톡스 치료 고려)
 
-출처 : StatPearls (Bell Palsy)
+## 출처
+- StatPearls (Bell Palsy)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

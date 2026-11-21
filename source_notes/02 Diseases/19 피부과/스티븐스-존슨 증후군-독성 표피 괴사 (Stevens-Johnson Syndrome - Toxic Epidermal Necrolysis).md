@@ -66,8 +66,9 @@ sources: ["S3 2024 지침 | https://doi.org/10.1111/ddg.15515", "일본 2025 보
 - **예후**: SCORTEN으로 사망 위험 예측. 주요 사망 원인은 패혈증·다장기부전
 - **합병증**: 안구 건조, 각막 흉터, 실명, 피부 색소 침착, 식도 협착, 호흡기 후유증 등.
 
-출처 : StatPearls (Stevens-Johnson Syndrome)
+## 출처
+- StatPearls (Stevens-Johnson Syndrome)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼

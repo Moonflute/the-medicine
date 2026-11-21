@@ -60,4 +60,5 @@ reviewed_at: "2026-07-26"
 - 문합부 누출: [[문합부 누출 (Anastomotic Leak)]]
 - 쇼크·출혈 상황: [[패혈성 쇼크 (Septic Shock)]], [[위장관 출혈 (Gastrointestinal Bleeding)]]
 
-출처 : WHO Surgical Safety Checklist, WHO Global Guidelines for the Prevention of Surgical Site Infection, CDC Guideline for the Prevention of Surgical Site Infection
+## 출처
+- WHO Surgical Safety Checklist, WHO Global Guidelines for the Prevention of Surgical Site Infection, CDC Guideline for the Prevention of Surgical Site Infection

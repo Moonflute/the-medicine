@@ -52,6 +52,6 @@ sources: ["BOASt: Diagnosis and management of compartment syndrome of the extrem
 - **합병증 감시**: 근괴사·신경/신기능 손상·상처 문제
 - **감압 후**: 조직 생존성·재수술·연부조직 관리 계획 기록
 
-참고:
+## 출처
 - [BOAST: Compartment syndrome](https://www.boa.ac.uk/resource/boast-10-pdf.html)
 - [AAOS: Acute Compartment Syndrome, 2025](https://www.aaos.org/quality/quality-programs/acute-compartment-syndrome/)

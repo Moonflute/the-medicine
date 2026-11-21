@@ -102,7 +102,9 @@ content_updated_at: "2026-11-18"
 - 조기 발견 시 예후가 좋으나, 진단 당시 진행성인 경우가 많아 5년 생존율은 병기에 따라 차이가 큼.
   뇌 전이 및 흉막 전이 등이 주요 예후 인자임.
 
-출처 : StatPearls (Lung Adenocarcinoma, 2026)
+## 출처
+- StatPearls (Lung Adenocarcinoma, 2026)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

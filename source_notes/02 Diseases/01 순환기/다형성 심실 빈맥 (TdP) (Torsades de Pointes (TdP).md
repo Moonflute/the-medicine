@@ -54,7 +54,9 @@ sources: ["AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitat
 ## 6. 예후 및 합병증 (Prognosis)
 - 심실세동으로 진행되어 급사할 수 있다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

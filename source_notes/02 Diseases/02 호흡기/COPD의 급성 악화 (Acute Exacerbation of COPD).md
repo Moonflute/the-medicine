@@ -70,9 +70,10 @@ content_updated_at: "2026-11-17"
 - 급성 악화 빈도가 높을수록 예후가 불량함.
 - 호흡 부전, 폐렴, 부정맥 등의 합병증 발생 가능.
 
-출처 : Merck Manual Professional (COPD, Treatment of Acute COPD Exacerbation)
+## 출처
+- Merck Manual Professional (COPD, Treatment of Acute COPD Exacerbation)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

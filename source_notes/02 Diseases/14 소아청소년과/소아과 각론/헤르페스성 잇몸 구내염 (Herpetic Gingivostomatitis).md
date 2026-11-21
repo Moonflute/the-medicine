@@ -53,6 +53,8 @@ sources: ["RCH HSV gingivostomatitis 지침 | https://www.rch.org.au/clinicalgui
 - **예후**: 대부분 2~3주 내에 흉터 없이 자연 치유되는 자가 제한적 질환
 - **합병증**: 탈수, 헤르페스성 손발톱주위염(Herpetic whitlow), 재발성 구순포진(Herpes labialis), 드물게 뇌염
 
-출처 : StatPearls (Herpetic Gingivostomatitis); [RCH HSV 구내염](https://www.rch.org.au/clinicalguide/guideline_index/HSV_Gingivostomatitis/)
+## 출처
+- StatPearls (Herpetic Gingivostomatitis); [RCH HSV 구내염](https://www.rch.org.au/clinicalguide/guideline_index/HSV_Gingivostomatitis/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

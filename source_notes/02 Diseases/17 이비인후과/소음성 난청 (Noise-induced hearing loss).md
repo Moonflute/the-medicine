@@ -51,7 +51,8 @@ reviewed_at: "2026-07-30"
 - 비가역적인 감각신경성 난청으로 진행 가능
 - 초기 예방 및 조기 발견이 중요
 
+## 출처
+- StatPearls (Noise Exposure and Hearing Loss)
 
-출처 : StatPearls (Noise Exposure and Hearing Loss)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

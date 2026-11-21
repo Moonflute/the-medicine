@@ -52,6 +52,8 @@ sources: ["AAO 안구 외상 | https://eyewiki.aao.org/Pre-Ophthalmologist_Manag
 - 단순 이물질 제거 시 예후 양호
 - 합병증: 각막 궤양, 감염성 각막염, 반흔 형성, 시력 저하
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

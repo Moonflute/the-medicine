@@ -70,6 +70,8 @@ WHO grade 1–3은 생물학적 등급이고, **Simpson I–V는 수술의 절�
 - 대부분 양성(Grade 1)으로 예후가 좋으나, 종양의 등급과 절제 범위에 따라 재발률이 달라짐.
   고등급 종양은 재발 및 악성 변형 위험이 높음.
 
-출처 : StatPearls (Meningioma, Intraventricular Meningioma)
+## 출처
+- StatPearls (Meningioma, Intraventricular Meningioma)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

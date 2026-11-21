@@ -67,7 +67,9 @@ sources: ["2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.ht
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 늦어질 경우 급성 호흡곤란 증후군(ARDS), 다장기 부전, 결핵성 뇌수막염 등으로 진행할 수 있음.
 
-출처 : StatPearls (Miliary Tuberculosis)
+## 출처
+- StatPearls (Miliary Tuberculosis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

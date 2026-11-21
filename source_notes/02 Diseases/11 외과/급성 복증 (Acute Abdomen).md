@@ -61,6 +61,8 @@ sources: ["WSES 응급외과 주술기 관리 | https://pmc.ncbi.nlm.nih.gov/art
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 적절한 처치가 지연될 경우 패혈증, 다장기 부전, 사망 위험 증가.
 
-출처 : StatPearls (Acute Abdomen); 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls (Acute Abdomen); 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2026-07-15 — 중복 본문 정리

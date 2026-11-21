@@ -72,7 +72,9 @@ content_updated_at: "2026-11-17"
 - 적절한 치료가 없으면 치명적일 수 있음.
   기저 면역저하 상태에 따라 예후가 결정되며, 예방적 항생제 투여가 고위험군에서 중요함.
 
-출처 : StatPearls (Pneumocystis jirovecii Pneumonia); 삼성서울병원 메뉴얼
+## 출처
+- StatPearls (Pneumocystis jirovecii Pneumonia); 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

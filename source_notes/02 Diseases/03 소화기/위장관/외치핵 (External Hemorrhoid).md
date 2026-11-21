@@ -50,7 +50,9 @@ reviewed_at: "2026-07-30"
 - **예후**: 보존적 치료로 호전 가능하나 재발 가능성 있음.
 - **합병증**: 혈전 형성, 감염, 통증, 드물게 실금.
 
-출처 : StatPearls (External Hemorrhoid); [ASCRS 치핵 지침 2024](https://doi.org/10.1097/DCR.0000000000003276).
+## 출처
+- StatPearls (External Hemorrhoid); [ASCRS 치핵 지침 2024](https://doi.org/10.1097/DCR.0000000000003276).
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

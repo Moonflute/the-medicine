@@ -53,7 +53,9 @@ reviewed_at: "2026-07-30"
 - **예후**: 기형의 높이, 동반 기형(특히 척추/신경계) 유무에 따라 결정
 - **합병증**: 변실금, 변비, 재발성 누공, 항문 협착, 요로 감염
 
-출처 : StatPearls (Imperforate Anus)
-출처 : 삼성서울병원 외과 메뉴얼
+## 출처
+- StatPearls (Imperforate Anus)
+- 삼성서울병원 외과 메뉴얼
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

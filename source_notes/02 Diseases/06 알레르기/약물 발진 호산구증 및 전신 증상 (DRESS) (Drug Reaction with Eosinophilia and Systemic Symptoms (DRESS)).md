@@ -54,7 +54,9 @@ sources: ["French national protocol for diagnosis and management of drug reactio
 ## 6. 예후 및 합병증 (Prognosis)
 - 사망률은 약 10% 내외로 보고되며, 간/신장/심장 합병증과 재발 모니터링이 중요하다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2024-07-29 — 초안 분리 정리
 2026-05-18 — 본문 갱신 (codex fill)

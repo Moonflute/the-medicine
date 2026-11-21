@@ -47,6 +47,8 @@ reviewed_at: "2026-07-30"
 - **예후**: 대체로 우수, 최종 키는 유전적 잠재력 범위에 도달
 - **합병증**: 신체적 합병증은 없으나, 사춘기 지연으로 인한 일시적인 심리적 스트레스 가능
 
-출처 : StatPearls (Constitutional Growth Delay)
+## 출처
+- StatPearls (Constitutional Growth Delay)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

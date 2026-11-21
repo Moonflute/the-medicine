@@ -56,8 +56,9 @@ sources: ["ASAM 공동 감량 지침 2025 | https://www.asam.org/quality-care/cl
 - 적절한 약물 치료와 인지행동치료 병행 시 예후 양호.
 - 장기 사용 시 의존성, 금단 증상, 인지 기능 저하 가능성.
 
-출처 : Merck Manual Professional
-출처 보완: [NICE 사회불안장애 권고](https://www.nice.org.uk/guidance/cg159/chapter/Recommendations), [FDA buspirone 처방정보](https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=f61184d1-e34a-4a84-9432-a7bacf09e818&type=display)
+## 출처
+- Merck Manual Professional
+- [NICE 사회불안장애 권고](https://www.nice.org.uk/guidance/cg159/chapter/Recommendations), [FDA buspirone 처방정보](https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=f61184d1-e34a-4a84-9432-a7bacf09e818&type=display)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -56,7 +56,9 @@ sources: ["IDSA AMR 2026 | https://www.idsociety.org/practice-guideline/amr-guid
 - 중증 감염 시 패혈증, 다발성 장기 부전, 사망 위험 증가.
 - 합병증: 골수염, 패혈성 관절염, 뇌신경 마비(악성 외이도염 시), 만성 폐 감염(낭포성 섬유증 환자).
 
-출처 : StatPearls (Pseudomonas aeruginosa Infections, 2023)
+## 출처
+- StatPearls (Pseudomonas aeruginosa Infections, 2023)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

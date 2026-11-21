@@ -68,7 +68,9 @@ Mycoplasma pneumoniae, Chlamydia pneumoniae, Legionella species가 주요 원인
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 외래 치료로 호전되나, 고령자나 기저질환자는 중증 폐렴, ARDS, 패혈성 쇼크로 진행할 수 있다.
 
-출처 : StatPearls (Atypical Bacterial Pneumonia)
+## 출처
+- StatPearls (Atypical Bacterial Pneumonia)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

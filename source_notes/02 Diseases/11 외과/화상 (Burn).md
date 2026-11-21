@@ -102,5 +102,3 @@ sources: ["ABA 화상 쇼크 소생술 지침, 2024 | https://guidance.nattrauma
 - [[화학물질화상 (Chemical Burn)]]
 - [[흡입화상 (Inhalation Burn)]]
 - [[전기 화상 (Electrical Burn)]]
-
-## 참고 가이드라인

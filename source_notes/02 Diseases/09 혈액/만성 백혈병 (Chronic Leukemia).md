@@ -78,7 +78,9 @@ sources: ["ELN AML 진료지침 2022 | https://ashpublications.org/blood/article
   CML은 급성기(Blast crisis)로 진행 가능.
   CLL은 리히터 변형(Richter's transformation)을 통해 고등급 림프종으로 변환될 수 있음.
 
-출처 : StatPearls (Chronic Lymphocytic Leukemia)
+## 출처
+- StatPearls (Chronic Lymphocytic Leukemia)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

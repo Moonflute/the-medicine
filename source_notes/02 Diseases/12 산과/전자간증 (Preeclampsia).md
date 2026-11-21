@@ -71,7 +71,9 @@ sources: ["NICE 임신 중 고혈압 진단·관리 NG133 | https://www.nice.org
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 자간증(Eclampsia), HELLP 증후군, 뇌졸중, 태반 조기 박리, 태아 성장 제한 및 조산.
 
-출처 : StatPearls (Preeclampsia, Ocular Manifestations of Preeclampsia)
+## 출처
+- StatPearls (Preeclampsia, Ocular Manifestations of Preeclampsia)
 - [ACOG: Hypertensive Disorders](https://www.acog.org/community/districts-and-sections/district-iv/whats-new/countdown-to-intern-year-week-3-hypertensive-disorders)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

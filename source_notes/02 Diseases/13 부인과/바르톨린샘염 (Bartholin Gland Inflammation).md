@@ -48,6 +48,8 @@ reviewed_at: "2026-07-30"
 - 적절한 배액술 시행 시 예후는 양호함.
 - 합병증: 재발, 출혈, 감염, 드물게 누공 형성.
 
-출처 : StatPearls (Bartholin Gland Cyst, Anatomy of Bartholin Gland)
+## 출처
+- StatPearls (Bartholin Gland Cyst, Anatomy of Bartholin Gland)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

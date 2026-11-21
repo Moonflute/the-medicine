@@ -67,9 +67,10 @@ review_status: "guideline_enriched"
 - 적절한 치료 시 예후는 양호함
 - 치료하지 않을 경우 신우신염(Pyelonephritis)으로 진행 가능
 
-출처 : StatPearls: Acute Cystitis
+## 출처
+- StatPearls: Acute Cystitis
+- 삼성서울병원 메뉴얼; [EAU 2026 Urological infections](https://uroweb.org/guidelines/urological-infections/chapter/the-guideline)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼; [EAU 2026 Urological infections](https://uroweb.org/guidelines/urological-infections/chapter/the-guideline)

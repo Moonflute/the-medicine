@@ -60,7 +60,8 @@ sources: ["European Society of Endocrinology Clinical Practice Guideline on Adre
 ## 6. 예후 및 합병증 (Prognosis)
 - 양성 선종은 대체로 예후가 좋으나 전체 부신 종괴의 예후는 조직형·병기·호르몬 과다에 따라 다름
 
-참고: [ESE 부신 우연종 지침 2023](https://academic.oup.com/ejendo/article/189/1/G1/7198474).
+## 출처
+- [ESE 부신 우연종 지침 2023](https://academic.oup.com/ejendo/article/189/1/G1/7198474).
 
 Last updated :
 2024-07-30 — 초기 작성

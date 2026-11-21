@@ -61,6 +61,8 @@ sources: ["CPS 신생아 HSV | https://cps.ca/en/documents/position/prevention-m
 * 면역 상태 및 침범 부위에 따라 예후 상이
 * 신경계 합병증 (뇌염, 뇌수막염, 발달 지연 등) 발생 가능
 
-출처 : StatPearls (Congenital Herpes Simplex, Herpes Simplex Encephalitis)
+## 출처
+- StatPearls (Congenital Herpes Simplex, Herpes Simplex Encephalitis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -83,8 +83,10 @@ sources: ["FDA pacritinib 적응증 | https://www.fda.gov/drugs/news-events-huma
 - **예후**: 다양하며, 진행성 질환에서 급성 골수성 백혈병으로 진행 가능(약 30%)
 - **합병증**: 빈혈·혈소판감소증·비장비대·감염·출혈
 
-출처 : Merck Manual Professional (Primary Myelofibrosis)
-보완 출처: 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional (Primary Myelofibrosis)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -80,4 +80,5 @@ document_role: "canonical"
 - **주요 합병증**: 조기 사망, 재발 VTE, 주요 출혈, CTEPH
 - **CTEPH·재발 PE 평가**: 지속 호흡곤란·운동저하·실신
 
-출처: ESC, *2019 Guidelines on Acute Pulmonary Embolism*.
+## 출처
+- ESC, *2019 Guidelines on Acute Pulmonary Embolism*.

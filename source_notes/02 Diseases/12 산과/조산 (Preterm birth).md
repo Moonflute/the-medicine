@@ -72,9 +72,11 @@ content_updated_at: "2026-11-17"
 ## 6. 예후 및 합병증 (Prognosis)
 - 조산은 신생아 이환율 및 사망률의 주요 원인임.
 
-출처 : StatPearls (Preterm Labor)
+## 출처
+- StatPearls (Preterm Labor)
 - [WHO: Preterm birth](https://www.who.int/news-room/fact-sheets/detail/preterm-birth/)
 - [ACOG: Management of Preterm Labor](https://doi.org/10.1097/aog.0000000000001711)
 - [AACC: Laboratory Testing for Preterm Delivery](https://academic.oup.com/jalm/article/6/4/1032/6285189)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

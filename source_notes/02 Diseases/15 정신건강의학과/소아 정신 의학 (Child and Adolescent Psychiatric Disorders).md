@@ -65,5 +65,3 @@ group_members:
 - [[자폐 스펙트럼 장애 (Autism Spectrum Disorder)]]
 - [[주의력 결핍 과다 행동 장애 (ADHD)]]
 - [[지적 장애 (Intellectual Disability)]]
-
-## 참고 자료

@@ -54,7 +54,8 @@ sources: ["BSI/UKPIN 2022 | https://discovery.ucl.ac.uk/id/eprint/10159866/1/Bri
 * 지속적인 면역글로불린 보충으로 감염 빈도 감소 및 삶의 질 개선 가능
 * 만성 폐 질환(기관지 확장증), 자가면역 질환, 위장관 장애 등의 합병증 주의
 
-출처: [AAAAI 이차성 저감마글로불린혈증 지침](https://pubmed.ncbi.nlm.nih.gov/35176351/); [AAAAI 선천면역이상 2025](https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/2025-Inborn-errors-of-immunity-pp.pdf)
+## 출처
+- [AAAAI 이차성 저감마글로불린혈증 지침](https://pubmed.ncbi.nlm.nih.gov/35176351/); [AAAAI 선천면역이상 2025](https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/2025-Inborn-errors-of-immunity-pp.pdf)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

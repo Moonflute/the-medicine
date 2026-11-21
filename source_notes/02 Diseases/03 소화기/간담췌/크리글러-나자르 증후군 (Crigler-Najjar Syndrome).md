@@ -77,7 +77,9 @@ sources: ["유전성 고빌리루빈혈증 전문가 합의 2025 | https://doi.o
 
 - **합병증**: 핵황달, 뇌 손상, 발달 지연, 청력 손실, 경련 등이 주요 합병증이다.
 
-출처 : StatPearls (Crigler-Najjar Syndrome)
+## 출처
+- StatPearls (Crigler-Najjar Syndrome)
+
 Last updated :
 2024-07-30 — 일반 지식 기반 작성
 2026-05-18 — 본문 갱신 (codex fill)

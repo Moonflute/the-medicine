@@ -52,6 +52,8 @@ sources: ["국제 PLC 합의문 2025 | https://pubmed.ncbi.nlm.nih.gov/40414466/
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 이루어지지 않을 경우 만성적인 내반 불안정성 및 퇴행성 관절염 발생 가능.
 
-출처 : StatPearls (Lateral Collateral Ligament Knee Injury)
+## 출처
+- StatPearls (Lateral Collateral Ligament Knee Injury)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

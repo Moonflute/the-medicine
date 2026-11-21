@@ -51,8 +51,9 @@ sources: ["AAO-HNSF 지침 | https://doi.org/10.1177/0194599813517083"]
 - 적절한 치료 시 예후는 양호함
 - 합병증: 만성 외이도염으로의 이행, 이개 주위 연조직염, 악성(괴사성) 외이도염(당뇨나 면역저하자에서 주의)
 
-출처 : StatPearls (Acute Otitis Media, Otitis Externa context)
-보완 근거: [AAO-HNS 급성 외이도염 지침](https://pubmed.ncbi.nlm.nih.gov/24491310/)
+## 출처
+- StatPearls (Acute Otitis Media, Otitis Externa context)
+- [AAO-HNS 급성 외이도염 지침](https://pubmed.ncbi.nlm.nih.gov/24491310/)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -64,7 +64,8 @@ sources: ["FDA Itvisma | https://www.fda.gov/news-events/press-announcements/fda
 * 발병 연령이 빠를수록 예후가 불량함
 * 주요 사망 원인은 호흡 부전 및 흡인성 폐렴 등 호흡기 합병증
 
-출처: [FDA 신규 약제 승인 2026](https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026)
+## 출처
+- [FDA 신규 약제 승인 2026](https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

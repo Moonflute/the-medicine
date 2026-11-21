@@ -51,7 +51,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 만성 신질환, 정맥 혈전증, 빈혈(지속적 혈뇨 시) 발생 가능
 
-출처 : StatPearls (Nutcracker Syndrome and Left Renal Vein Entrapment)
+## 출처
+- StatPearls (Nutcracker Syndrome and Left Renal Vein Entrapment)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

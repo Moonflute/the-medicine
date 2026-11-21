@@ -95,7 +95,9 @@ content_updated_at: "2026-11-18"
 ## 6. 예후 및 합병증 (Prognosis)
 - 증상 발현 후 치료하지 않으면 심부전, 부정맥, 급사 위험이 매우 높다.
 
-출처 : Merck Manual Professional (Aortic Stenosis)
+## 출처
+- Merck Manual Professional (Aortic Stenosis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -49,6 +49,8 @@ sources: ["AAO PUK | https://eyewiki.aao.org/Peripheral_Ulcerative_Keratitis"]
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 늦어질 경우 각막 천공, 안내염, 시력 상실 등의 심각한 합병증 발생 가능.
 
-출처 : StatPearls (Corneal Ulcer)
+## 출처
+- StatPearls (Corneal Ulcer)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

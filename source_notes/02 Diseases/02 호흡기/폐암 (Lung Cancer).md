@@ -133,5 +133,6 @@ Last updated :
 2026-04-29 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-보완 출처: 삼성서울병원 메뉴얼
-참고: [보건복지부 국가암검진사업](https://www.mohw.go.kr/menu.es?mid=a10706050300)
+## 출처
+- 삼성서울병원 메뉴얼
+- [보건복지부 국가암검진사업](https://www.mohw.go.kr/menu.es?mid=a10706050300)

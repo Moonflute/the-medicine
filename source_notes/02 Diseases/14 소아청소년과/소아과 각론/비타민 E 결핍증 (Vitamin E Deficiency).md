@@ -49,6 +49,8 @@ reviewed_at: "2026-07-30"
 * 조기 진단 및 치료 시 증상 호전 가능
 * 치료가 지연될 경우 신경계 손상 등 영구적인 후유증이 남을 수 있음
 
-출처 : StatPearls (Vitamin E Deficiency)
+## 출처
+- StatPearls (Vitamin E Deficiency)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

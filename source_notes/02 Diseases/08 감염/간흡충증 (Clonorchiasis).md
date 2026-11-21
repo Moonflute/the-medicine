@@ -57,7 +57,9 @@ reviewed_at: "2026-07-30"
 - 만성 감염은 담관 주위 섬유화를 거쳐 담관암 발생 위험을 크게 증가시킨다.
   민물고기를 충분히 익혀 먹는 것이 가장 중요한 예방법이다.
 
-출처 : Merck Manual Professional (Clonorchiasis), [CDC DPDx](https://www.cdc.gov/dpdx/clonorchiasis/index.html), [CDC 임상 개요](https://www.cdc.gov/liver-flukes/hcp/clinical-overview-clonorchis/)
+## 출처
+- Merck Manual Professional (Clonorchiasis), [CDC DPDx](https://www.cdc.gov/dpdx/clonorchiasis/index.html), [CDC 임상 개요](https://www.cdc.gov/liver-flukes/hcp/clinical-overview-clonorchis/)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

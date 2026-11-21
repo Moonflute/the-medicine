@@ -57,5 +57,3 @@ sources: ["ISUOG 쌍태 임신 초음파 실무지침, 2025 | https://www.isuog.
 ## 포함 질환
 - [[단일 양막성 쌍태 임신 (Monoamniotic Twins)]]
 - [[쌍둥이 간 수혈 증후군 (Twin-to-Twin Transfusion Syndrome)]]
-
-## 참고 자료

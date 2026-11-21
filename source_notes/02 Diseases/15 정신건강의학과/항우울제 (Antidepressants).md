@@ -66,6 +66,8 @@ sources: ["NICE NG222 | https://www.nice.org.uk/guidance/ng222/chapter/recommend
 - **예후**: 적절한 치료 시 70–80%에서 증상 호전
 - **합병증**: 세로토닌 증후군, 항콜린성 부작용, 성기능 장애, 체중 증가
 
-출처 : StatPearls (Antidepressants, Tricyclic Antidepressants)
+## 출처
+- StatPearls (Antidepressants, Tricyclic Antidepressants)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -79,10 +79,8 @@ population: general
 - **예후 요인**: 원인 교정 가능성·저관류 기간·동반질환·초기 치료 반응
 - **생존 후**: 인지/신체기능·중환자실 후 증후군 평가, 재활·추적 계획
 
-출처 :
+## 출처
 - Tintinalli's Emergency Medicine Manual, 8e, Ch. 5, 19 및 원인별 응급 chapter.
 - ESICM, Circulatory Shock and Hemodynamic Monitoring Guideline 2025.
-
-보완 출처:
 - 삼성서울병원 메뉴얼. AHA 2025 급성 관상동맥증후군 지침 핵심, 급성 MI 관련 심인성 쇼크의 진단·범인혈관 재관류·기계적 합병증 탐색 원칙을 대조. 2026-09-14 기존 목차 내 보완.
 - 삼성서울병원 메뉴얼. ESICM 순환성 쇼크·혈역학 감시 지침 2025를 대조. 2026-09-14 기존 목차 내 보완.

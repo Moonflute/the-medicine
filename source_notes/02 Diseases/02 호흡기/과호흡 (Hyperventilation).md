@@ -55,7 +55,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 기저 심리적 질환의 적절한 관리가 중요함.
 
-출처 : Merck Manual Professional (Hyperventilation Syndrome)
+## 출처
+- Merck Manual Professional (Hyperventilation Syndrome)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

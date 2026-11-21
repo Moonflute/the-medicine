@@ -57,7 +57,9 @@ reviewed_at: "2026-07-30"
 - 중증 폐렴, 급성 신부전, 파종성 혈관내 응고(DIC), 사망에 이를 수 있음
 - 고령자 및 기저질환자(당뇨, 만성 심/폐/신질환)에서 중증도 및 치명률이 높음
 
-출처 : Merck Manual Professional (Coronaviruses and Acute Respiratory Syndromes)
+## 출처
+- Merck Manual Professional (Coronaviruses and Acute Respiratory Syndromes)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

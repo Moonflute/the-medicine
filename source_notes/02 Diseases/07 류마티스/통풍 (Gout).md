@@ -141,6 +141,6 @@ Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 2026-09-15 — Samsung 내과학 8판 OCR 963–965쪽 통합 (Codex)
 
-출처:
+## 출처
 - 삼성서울병원 메뉴얼
 - [ACR 통풍 관리 지침(2020)](https://doi.org/10.1002/art.41247)

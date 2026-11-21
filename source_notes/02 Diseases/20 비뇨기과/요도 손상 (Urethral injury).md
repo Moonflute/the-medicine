@@ -49,8 +49,9 @@ sources: ["AUA 외상 지침 | https://www.auanet.org/documents/Guidelines/PDF/c
 * **합병증:** 요도 협착(stricture), 발기 부전, 요실금, 요도피부 누공.
 * **예후:** 협착 발생률이 높으므로 장기적인 추적 관찰 필요.
 
-출처 : StatPearls (Urethral Injury)
-참고: [EAU: Urological Trauma](https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines)
+## 출처
+- StatPearls (Urethral Injury)
+- [EAU: Urological Trauma](https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

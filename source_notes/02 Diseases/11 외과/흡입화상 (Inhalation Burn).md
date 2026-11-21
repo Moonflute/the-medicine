@@ -59,7 +59,8 @@ sources: ["AHA 특수상황 소생술 2025 | https://cpr.heart.org/en/resuscitat
 - **합병증**: 폐렴, 급성 호흡곤란 증후군(ARDS), 기도 폐쇄, 패혈증.
 - **예후**: 화상 면적(TBSA), 흡입 손상 여부, 연령이 주요 사망률 예측 인자임.
 
-출처 : StatPearls (Acute and Chronic Thermal Burn Evaluation and Management)
+## 출처
+- StatPearls (Acute and Chronic Thermal Burn Evaluation and Management)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

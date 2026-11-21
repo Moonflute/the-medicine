@@ -48,7 +48,9 @@ sources: ["Canadian Stroke Best Practices | https://www.strokebestpractices.ca/r
 ## 6. 예후 및 합병증 (Prognosis)
 - 대혈관 뇌졸중에 비해 초기 예후는 양호한 편이나, 재발 방지를 위한 지속적인 위험 인자 관리가 필수적임.
 
-출처 : UpToDate, 대한뇌졸중학회 진료지침
-보완 출처: [순수 감각 뇌졸중의 임상·영상 연구](https://pubmed.ncbi.nlm.nih.gov/1615549/)
+## 출처
+- UpToDate, 대한뇌졸중학회 진료지침
+- [순수 감각 뇌졸중의 임상·영상 연구](https://pubmed.ncbi.nlm.nih.gov/1615549/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

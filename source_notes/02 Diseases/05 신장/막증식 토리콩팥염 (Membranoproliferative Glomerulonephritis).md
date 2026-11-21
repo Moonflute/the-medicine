@@ -63,9 +63,10 @@ sources: ["KDIGO 2021 Glomerular Diseases guideline | https://kdigo.org/guidelin
 - **조기 평가**: 신증후군·급격한 기능 저하·활동성 염증 병변 시 신장내과
 - **예후**: 원인·조직 분류에 따라 다양
 
-출처 : Merck Manual Professional (2026)
+## 출처
+- Merck Manual Professional (2026)
+- 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.

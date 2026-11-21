@@ -68,6 +68,8 @@ sources: ["FDA 공지 | https://www.fda.gov/vaccines-blood-biologics/safety-avai
 - **합병증:** 뇌부종, 폐쇄성 수두증, 뇌탈출, 재출혈, 흡인성 폐렴.
 - **예후:** 출혈량, 위치, 환자의 의식 수준(GCS) 및 연령에 따라 결정.
 
-출처 : Merck Manual Professional, StatPearls (Cerebellar Hemorrhage)
+## 출처
+- Merck Manual Professional, StatPearls (Cerebellar Hemorrhage)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

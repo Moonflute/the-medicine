@@ -48,6 +48,8 @@ sources: ["AUA 외상 지침 | https://www.auanet.org/documents/Guidelines/PDF/c
 * 조기 수술 시 고환 기능 보존 가능성이 높음.
   지연 시 고환 위축, 감염, 만성 통증 발생 가능.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

@@ -61,6 +61,8 @@ content_updated_at: "2026-07-16"
 - **합병증**: 심부전, 부정맥(심방세동, 심방조동, WPW 증후군), 역설적 색전증(ASD/PFO 동반 시)
 - **예후**: 증상 발현 시기에 따라 다양하며, 중증인 경우 신생아기 사망률이 높음
 
-출처 : StatPearls (Ebstein Anomaly and Malformation); [AATS Ebstein 합의 2025](https://pubmed.ncbi.nlm.nih.gov/40317284/)
+## 출처
+- StatPearls (Ebstein Anomaly and Malformation); [AATS Ebstein 합의 2025](https://pubmed.ncbi.nlm.nih.gov/40317284/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

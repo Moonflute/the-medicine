@@ -60,9 +60,11 @@ sources: ["AHA 2025 임신 심정지 알고리즘 | https://cpr.heart.org/-/medi
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 높은 사망률을 보이며, 생존자도 신경학적 손상, 다장기 부전 등 심각한 후유증이 남을 수 있음.
 
-출처 : StatPearls (Amniotic Fluid Embolism)
+## 출처
+- StatPearls (Amniotic Fluid Embolism)
 - [SMFM AFE diagnosis and management](https://publications.smfm.org/publications/581-society-for-maternal-fetal-medicine-clinical-guidelines-9/)
 - [AFE 연구용 증례 정의](https://pmc.ncbi.nlm.nih.gov/articles/PMC5072279/)
 - [ASE Right Heart 2025](https://doi.org/10.1016/j.echo.2025.01.006)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

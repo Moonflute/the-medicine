@@ -92,5 +92,3 @@ guideline_review_status: primary_source_reviewed
 - [[독성 알코올]]
 - [[생물 독소]]
 - [[약물 및 화학물질 중독]]
-
-## 참고 가이드라인

@@ -61,6 +61,8 @@ BI-RADS는 **영상의 악성 의심도**, TNM은 **확진된 암의 범위**이
 ## 6. 예후 및 합병증 (Prognosis)
 - 침윤성 유방암으로 진행할 위험이 있으므로 장기적인 추적 관찰이 중요함.
 
-출처 : StatPearls (Breast Ductal Carcinoma in Situ)
+## 출처
+- StatPearls (Breast Ductal Carcinoma in Situ)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

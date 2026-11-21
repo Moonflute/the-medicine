@@ -52,9 +52,10 @@ sources: ["ATS/ERS/JRS/ALAT | https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/"
 - 조직검사상 섬유화 정도가 심할수록 예후가 불량하다.
 - 세포성 병변 위주인 경우 치료 반응이 좋고 생존율이 높으나, 섬유화가 진행되면 예후가 악화된다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 합본에서 분리 정리
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

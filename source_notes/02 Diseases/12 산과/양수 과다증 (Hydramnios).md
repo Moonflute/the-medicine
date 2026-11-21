@@ -63,6 +63,8 @@ sources: ["SMFM Consult 46 | https://publications.smfm.org/publications/263-soci
 - 조기 진통, 조기 양막 파수, 태반 조기 박리, 제대 탈출 위험 증가
 - 자궁 이완증에 의한 산후 출혈 위험
 
-출처 : StatPearls (Polyhydramnios)
+## 출처
+- StatPearls (Polyhydramnios)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

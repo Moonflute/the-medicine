@@ -77,6 +77,6 @@ sources: ["AHA/ACC PAD 지침 2024 | https://doi.org/10.1161/CIR.000000000000125
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료가 이루어지지 않을 경우 사지 허혈, 난치성 궤양, 괴사로 인한 사지 절단 위험이 증가하며, 전신적인 동맥경화증의 징후로 심혈관 질환에 의한 사망률이 높다.
 
-출처 : ESC Guidelines on Peripheral Arterial Diseases
-
-참고: 삼성서울병원 메뉴얼.
+## 출처
+- ESC Guidelines on Peripheral Arterial Diseases
+- 삼성서울병원 메뉴얼.

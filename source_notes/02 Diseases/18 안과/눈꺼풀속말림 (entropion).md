@@ -53,6 +53,8 @@ reviewed_at: "2026-07-30"
 - 적절한 수술적 교정 시 예후가 좋음.
 - 방치 시 각막 궤양, 혼탁 등 영구적인 시력 손상을 초래할 수 있음.
 
-출처 : StatPearls (Entropion, Entropion Eyelid Reconstruction)
+## 출처
+- StatPearls (Entropion, Entropion Eyelid Reconstruction)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

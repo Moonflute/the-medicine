@@ -103,5 +103,3 @@ guideline_review_status: primary_source_reviewed
 - [[잠복 결핵 (소아) (Latent Tuberculosis (Child))]]
 - [[좁쌀 결핵 (Miliary Tuberculosis)]]
 - [[진균종 (Fungus Ball)]]
-
-## 참고 가이드라인

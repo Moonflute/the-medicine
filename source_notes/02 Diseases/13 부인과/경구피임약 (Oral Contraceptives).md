@@ -65,7 +65,9 @@ sources: ["CDC CHC 2024 | https://www.cdc.gov/contraception/hcp/usspr/combined-h
 - 합병증: 혈전색전증, 유방 압통, 오심, 돌파출혈.
 - 예후: 복용 중단 시 가임력은 즉시 회복됨.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
 - [CDC: U.S. MEC — Combined Hormonal Contraceptives](https://www.cdc.gov/contraception/hcp/usmec/combined-hormonal-contraceptives.html)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

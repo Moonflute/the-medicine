@@ -53,6 +53,8 @@ reviewed_at: "2026-07-30"
 * 수술 후 예후는 대체로 양호하나, 장기적인 배변 기능 추적 관찰 필요
 * 주요 합병증: 장염(HAEC), 변실금, 변비 재발
 
-출처 : StatPearls (Hirschsprung Disease)
+## 출처
+- StatPearls (Hirschsprung Disease)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

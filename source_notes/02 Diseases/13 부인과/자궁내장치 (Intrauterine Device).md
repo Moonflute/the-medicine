@@ -54,8 +54,10 @@ sources: ["CDC IUD 2024 | https://www.cdc.gov/contraception/hcp/usspr/intrauteri
 ## 6. 예후 및 합병증 (Prognosis)
 - **부작용**: 월경 패턴 변화(구리: 과다, 레보노르게스트렐: 감소/무월경), 통증, 천공(드묾), 탈출, 골반염.
 
-출처 : StatPearls (Intrauterine Device Placement and Removal)
+## 출처
+- StatPearls (Intrauterine Device Placement and Removal)
 - [CDC: Intrauterine Contraception](https://www.cdc.gov/contraception/hcp/usspr/intrauterine-contraception.html)
 - [CDC: Reasonably certain a patient is not pregnant](https://www.cdc.gov/contraception/hcp/usspr/not-pregnant.html)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

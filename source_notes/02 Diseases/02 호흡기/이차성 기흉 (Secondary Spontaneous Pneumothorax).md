@@ -60,7 +60,9 @@ sources: ["BTS 흉막질환 지침 2023 | https://doi.org/10.1136/thorax-2022-21
 - 원발성 기흉에 비해 이환율과 사망률이 높으며, 기저 질환으로 인해 예후가 더 나쁘다.
   재발 위험이 존재하므로 주의 깊은 추적 관찰이 필요하다.
 
-출처 : StatPearls (Spontaneous Pneumothorax)
+## 출처
+- StatPearls (Spontaneous Pneumothorax)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

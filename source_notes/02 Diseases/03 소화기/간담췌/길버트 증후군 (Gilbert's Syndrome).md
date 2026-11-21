@@ -75,7 +75,9 @@ sources: ["NHS 길버트 증후군 | https://www.nhs.uk/conditions/gilberts-synd
   색소성 담석의 발생 위험이 다소 증가할 수 있다.
   진행성 간 질환으로 이행하지 않는다.
 
-출처 : StatPearls: Gilbert Syndrome
+## 출처
+- StatPearls: Gilbert Syndrome
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)

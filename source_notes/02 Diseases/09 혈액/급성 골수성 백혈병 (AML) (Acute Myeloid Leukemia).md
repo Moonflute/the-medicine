@@ -123,10 +123,11 @@ review_status: "guideline_enriched"
 - **MRD**: 유세포·분자검사로 추적, 2017 반응표와 현재 질환·검사법별 표준을 구별
 - **합병증 감시**: 감염·출혈·종양용해증후군(TLS), 빈혈·혈소판 감소 관련 합병증, 고백혈구증 관련 leukostasis
 
-출처 : Merck Manual Professional (Acute Myeloid Leukemia)
+## 출처
+- Merck Manual Professional (Acute Myeloid Leukemia)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
 2026-07-15 — 공식 지침 기반 Tier 2 보강
-
-출처: 삼성서울병원 메뉴얼

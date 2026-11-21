@@ -54,7 +54,8 @@ relation_to_parent: subtype
 - 합병증: 대인관계 갈등, 직업적 손실, 자해 또는 타해 위험.
 - **평가**: 신체·재산 손상 여부와 언어적 폭발의 빈도·기능 영향을 함께 확인
 
-출처: [APA 충동조절장애](https://www.psychiatry.org/patients-families/disruptive-impulse-control-and-conduct-disorders/what-are-disruptive-impulse-control-and-conduct); [SAMHSA DSM-5 기준 비교](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t18/)
+## 출처
+- [APA 충동조절장애](https://www.psychiatry.org/patients-families/disruptive-impulse-control-and-conduct-disorders/what-are-disruptive-impulse-control-and-conduct); [SAMHSA DSM-5 기준 비교](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t18/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

@@ -100,8 +100,10 @@ sources: ["ASH 2026 AA 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC1354690
 - **합병증**: 골수형성이상 증후군(MDS) 또는 급성 골수성 백혈병(AML)으로 진행 가능성.
 - **판코니 빈혈**: 선천성 기형 동반 가능성 높으며, 백혈병 등 암 발생 위험 증가.
 
-출처 : Merck Manual Professional (Aplastic Anemia); [BSH AA 진단·관리 2024](https://doi.org/10.1111/bjh.19236)
-보완 출처: 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional (Aplastic Anemia); [BSH AA 진단·관리 2024](https://doi.org/10.1111/bjh.19236)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-03 : 본문 갱신 (processed)

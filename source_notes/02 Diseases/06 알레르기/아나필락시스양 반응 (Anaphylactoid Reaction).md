@@ -48,10 +48,10 @@ content_updated_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 물질을 회피하는 것이 중요하며, 재발 방지를 위해 약물 알레르기 이력을 기록, 관리해야 한다.
 
+## 출처
+- StatPearls (Cutaneous Adverse Drug Reaction)
+- [WAO Anaphylaxis Guidance 2020](https://www.worldallergyorganizationjournal.org/article/S1939-4551%2820%2930375-6/fulltext).
 
-
-출처 : StatPearls (Cutaneous Adverse Drug Reaction)
-보완 근거: [WAO Anaphylaxis Guidance 2020](https://www.worldallergyorganizationjournal.org/article/S1939-4551%2820%2930375-6/fulltext).
 Last updated :
 2024-07-29 — 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

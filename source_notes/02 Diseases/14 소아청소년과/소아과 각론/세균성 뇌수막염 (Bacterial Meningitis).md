@@ -73,6 +73,8 @@ content_updated_at: "2026-11-18"
 - **예후**: 조기 진단·치료가 중요하며 사망 위험은 연령·원인균·중증도에 따라 다름
 * 합병증: 경막하 삼출, 뇌 농양, 뇌 손상, 청력 소실, 인지 기능 저하 등
 
-출처 : StatPearls (Bacterial Meningitis); [NICE 세균성 뇌수막염](https://www.nice.org.uk/guidance/NG240/chapter/recommendations)
+## 출처
+- StatPearls (Bacterial Meningitis); [NICE 세균성 뇌수막염](https://www.nice.org.uk/guidance/NG240/chapter/recommendations)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

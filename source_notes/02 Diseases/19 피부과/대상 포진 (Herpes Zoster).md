@@ -65,8 +65,9 @@ sources: ["NIH VZV 치료 지침—면역저하 환자 | https://clinicalinfo.hi
 - **합병증**: 대상포진 후 신경통(PHN, 발진 시작 후 90일 넘게 지속되는 통증), 이차 세균 감염, 안구 합병증(각막염, 포도막염), 뇌신경 마비.
 * **예방**: 50세 이상 성인에서 재조합 대상포진 백신 접종 권장.
 
-출처 : StatPearls (Herpes Zoster, Herpes Zoster Ophthalmicus)
-보완 근거: [CDC — 대상포진 임상 개요·PHN](https://www.cdc.gov/shingles/hcp/clinical-signs/index.html)
+## 출처
+- StatPearls (Herpes Zoster, Herpes Zoster Ophthalmicus)
+- [CDC — 대상포진 임상 개요·PHN](https://www.cdc.gov/shingles/hcp/clinical-signs/index.html)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

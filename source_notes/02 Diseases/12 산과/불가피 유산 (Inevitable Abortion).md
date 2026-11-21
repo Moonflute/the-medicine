@@ -52,7 +52,9 @@ sources: ["RCOG 초기 유산 관리 | https://www.rcog.org.uk/for-the-public/br
 - 합병증: 출혈, 감염(패혈성 유산), 불완전 유산
 - 적절한 처치 시 대부분 양호한 예후
 
-출처 : StatPearls (Abortion, Abortion Complications)
+## 출처
+- StatPearls (Abortion, Abortion Complications)
 - [MSD: Spontaneous Abortion](https://www.msdmanuals.com/professional/gynecology-and-obstetrics/early-pregnancy-disorders/spontaneous-abortion)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

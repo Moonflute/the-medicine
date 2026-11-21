@@ -45,7 +45,9 @@ reviewed_at: "2026-07-30"
 - 만성적인 경과를 보일 수 있으나, 생명을 위협하는 질환은 아님.
 - 이뇨제 남용으로 인한 전해질 불균형 및 저혈압 주의.
 
-출처 : Harrison's Principles of Internal Medicine, 일반 의학 지식
+## 출처
+- Harrison's Principles of Internal Medicine, 일반 의학 지식
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성 (일반 의학 지식 보충)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -117,9 +117,10 @@ sources: ["EASL AIH 지침 2025 | https://easlcampus.eu/sites/default/files/2025
   간경변증, 간부전, 문맥 고혈압(식도 정맥류 출혈 등), 간세포암 등이 발생할 수 있음.
   임신 중에는 질환이 악화될 수 있으므로 최적의 상태에서 임신을 계획해야 함.
 
-출처 : StatPearls (Autoimmune Hepatitis, Autoimmune Hepatitis and Pregnancy)
+## 출처
+- StatPearls (Autoimmune Hepatitis, Autoimmune Hepatitis and Pregnancy)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

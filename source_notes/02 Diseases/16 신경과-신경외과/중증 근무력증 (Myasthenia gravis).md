@@ -70,7 +70,9 @@ content_updated_at: "2026-11-18"
 - 호흡근 마비로 인한 '근무력성 위기(Myasthenic crisis)'는 응급 상황으로 인공호흡기 치료가 필요할 수 있음.
   장기적인 면역억제제 사용에 따른 부작용 주의.
 
-출처 : StatPearls (Myasthenia Gravis, Anesthesia for Patients With Myasthenia Gravis)
-보완 출처: [MGFA 임상 분류](https://myasthenia.org/Portals/0/MGFA%20Classification.pdf)
+## 출처
+- StatPearls (Myasthenia Gravis, Anesthesia for Patients With Myasthenia Gravis)
+- [MGFA 임상 분류](https://myasthenia.org/Portals/0/MGFA%20Classification.pdf)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

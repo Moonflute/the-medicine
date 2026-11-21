@@ -61,7 +61,9 @@ content_updated_at: "2026-11-18"
 - **합병증**: 폐부종, 파종성 혈관내 응고(DIC), 신부전, 췌장염, 모체 및 태아 사망.
 - **추후 관리**: 산모와 신생아 모두 LCHAD 결핍에 대한 유전자 검사 권장.
 
-출처 : StatPearls (Acute Fatty Liver of Pregnancy)
+## 출처
+- StatPearls (Acute Fatty Liver of Pregnancy)
 - [ACOG: 임신·수유 중 진단 영상](https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/10/guidelines-for-diagnostic-imaging-during-pregnancy-and-lactation)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -61,7 +61,7 @@ sources: ["RCOG 37b | https://www.rcog.org.uk/media/wj2lpco5/gtg-37b-1.pdf"]
 - **합병증**: 폐색전증(PE), 혈전후 증후군(Post-thrombotic syndrome).
 - **예후**: 조기 진단 및 적절한 항응고 치료 시 사망률 및 이환율 감소.
 
-출처:
+## 출처
 - [ASH VTE in Pregnancy](https://pmc.ncbi.nlm.nih.gov/articles/PMC6258928/)
 - [RCOG 37b: Acute VTE in Pregnancy](https://www.rcog.org.uk/media/wj2lpco5/gtg-37b-1.pdf)
 

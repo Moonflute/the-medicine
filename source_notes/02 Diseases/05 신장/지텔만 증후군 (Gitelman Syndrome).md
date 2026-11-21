@@ -51,7 +51,9 @@ reviewed_at: "2026-07-30"
 - 일반적으로 만성 신부전으로 진행하지 않음.
 - 전해질 불균형에 따른 근육 증상 관리 중요.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

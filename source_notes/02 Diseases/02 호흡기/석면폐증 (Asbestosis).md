@@ -60,7 +60,9 @@ sources: ["ATS 석면 관련 질환 관리 권고 | https://www.thoracic.org/sta
 - 수년에 걸쳐 서서히 진행.
   폐암(특히 흡연과 상승 작용) 및 악성 중피종 발생 위험이 현저히 증가함.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

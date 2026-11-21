@@ -56,7 +56,9 @@ review_status: "guideline_enriched"
 - 합병증: 대량 출혈, 천공, 복막염.
 - 예후: 기저 질환의 중증도에 따라 결정되며, 조기 예방이 중요함.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 2026-07-15 — 공식 지침 기반 Tier 2 보강

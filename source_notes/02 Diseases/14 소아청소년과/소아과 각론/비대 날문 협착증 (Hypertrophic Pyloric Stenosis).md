@@ -48,6 +48,8 @@ reviewed_at: "2026-07-30"
 * 조기 진단 및 수술 시 예후 매우 좋음
 * 합병증: 수술 후 일시적인 구토가 지속될 수 있으나 대부분 호전됨
 
-출처 : StatPearls (Pyloric Stenosis)
+## 출처
+- StatPearls (Pyloric Stenosis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

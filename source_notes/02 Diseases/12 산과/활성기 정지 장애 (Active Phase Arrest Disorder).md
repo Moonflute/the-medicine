@@ -69,7 +69,9 @@ sources: ["ACOG 2024 | https://doi.org/10.1097/AOG.0000000000005447"]
 - 산모: 산후 출혈, 감염, 자궁 파열 위험 증가
 - 태아: 태아 가사, 신생아 가사, 상완 신경총 손상 등 외상 위험
 
-출처 : Williams Obstetrics, 26th Edition
+## 출처
+- Williams Obstetrics, 26th Edition
 - [ACOG 2024: First and Second Stage Labor Management](https://www.acog.org/clinical/clinical-guidance/clinical-practice-guideline/articles/2024/01/first-and-second-stage-labor-management)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

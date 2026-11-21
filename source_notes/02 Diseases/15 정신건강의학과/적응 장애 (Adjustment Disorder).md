@@ -50,7 +50,8 @@ relation_to_parent: subtype
 - 예후: 적절한 개입 시 대개 수개월 내에 회복됨.
 - 합병증: 만성화될 경우 우울장애, 불안장애, 물질 사용 장애 등으로 이행될 위험이 있음.
 
-출처: [SAMHSA DSM-5 적응장애 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t19/)
+## 출처
+- [SAMHSA DSM-5 적응장애 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t19/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

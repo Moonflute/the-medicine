@@ -56,7 +56,8 @@ sources: ["AAOS CTS 2024 | https://www.aaos.org/globalassets/quality-and-practic
 - **초기**: 보존치료 반응 양호
 - **미치료**: 영구 신경 손상·근위축 가능, 수술 후에도 재발 가능
 
-참고: [AAOS: Carpal Tunnel Syndrome guideline, 2024](https://www.aaos.org/quality/quality-programs/carpal-tunnel-syndrome/)
+## 출처
+- [AAOS: Carpal Tunnel Syndrome guideline, 2024](https://www.aaos.org/quality/quality-programs/carpal-tunnel-syndrome/)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

@@ -55,7 +55,9 @@ content_updated_at: "2026-07-17"
 - 일부는 자연적으로 정상화되나, 일부는 현성 갑상샘 기능저하증으로 진행할 수 있다.
 - 심혈관 질환, 심부전, 이상지질혈증의 위험이 증가할 수 있다.
 
-출처 : StatPearls (Subclinical Hypothyroidism); [NICE NG145](https://www.nice.org.uk/guidance/ng145/chapter/Recommendations).
+## 출처
+- StatPearls (Subclinical Hypothyroidism); [NICE NG145](https://www.nice.org.uk/guidance/ng145/chapter/Recommendations).
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

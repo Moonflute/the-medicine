@@ -48,7 +48,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 예후는 매우 양호하며, 대부분 소아기 내에 자연적으로 호전된다.
 
-출처 : StatPearls (Pulmonary Artery Banding)
+## 출처
+- StatPearls (Pulmonary Artery Banding)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

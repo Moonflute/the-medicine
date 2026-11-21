@@ -48,7 +48,8 @@ sources: ["WSACS 합의 정의·관리 | https://www.wsacs.org/wp-content/upload
 - 조기 발견 및 치료 시 장기 부전은 가역적일 수 있음.
 - 치료 지연 시 다장기 부전 및 사망률 증가.
 
-출처 : StatPearls (Abdominal Compartment Syndrome)
+## 출처
+- StatPearls (Abdominal Compartment Syndrome)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

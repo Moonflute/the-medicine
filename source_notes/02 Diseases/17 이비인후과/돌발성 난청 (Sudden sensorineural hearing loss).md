@@ -53,6 +53,8 @@ sources: ["AAO-HNSF 2019 | https://pubmed.ncbi.nlm.nih.gov/31369349/"]
 - 발병 초기 치료가 중요하며, 2주 이내 치료 시작 시 예후가 좋음
 - 불완전 회복 시 보청기 또는 인공와우 등 청각 재활 고려
 
-출처 : StatPearls (Sudden sensorineural hearing loss, 2023)
+## 출처
+- StatPearls (Sudden sensorineural hearing loss, 2023)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

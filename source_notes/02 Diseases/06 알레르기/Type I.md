@@ -81,5 +81,3 @@ guideline_review_status: primary_source_reviewed
 - [[약물 알레르기 (Drug Allergy)]]
 - [[음식 알레르기 (Food Allergy)]]
 - [[음식 의존 운동 유발 아나필락시스 (Food-Dependent Exercise-Induced Anaphylaxis)]]
-
-## 참고 가이드라인

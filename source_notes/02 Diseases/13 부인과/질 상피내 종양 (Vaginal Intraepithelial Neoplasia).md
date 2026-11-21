@@ -56,7 +56,9 @@ sources: ["ESGO/ISSVD/ECSVD/EFC 2023 | https://pmc.ncbi.nlm.nih.gov/articles/PMC
 - 적절한 치료 후에도 재발 가능성이 있으므로 정기적인 추적 관찰이 필수적임.
 - 치료하지 않을 경우 침윤성 질암으로 진행할 위험이 있음.
 
-출처 : StatPearls (Cervical Intraepithelial Neoplasia)
+## 출처
+- StatPearls (Cervical Intraepithelial Neoplasia)
 - [ASCCP: Abnormal vaginal cytology and HPV tests](https://www.asccp.org/clinical-practice/practice-pearls/tips-for-best-practices-on-management-of-abnormal-vaginal-cytology-and-hpv-tests/)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

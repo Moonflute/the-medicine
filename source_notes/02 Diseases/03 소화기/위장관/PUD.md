@@ -53,5 +53,3 @@ sources: ["ACG 2024 H. pylori 제균 지침 요약 | https://gi.org/wp-content/u
 - [[가스트린종 (Gastrinoma)]]
 - [[십이지장 궤양 (Duodenal Ulcer)]]
 - [[위궤양 (Gastric Ulcer)]]
-
-## 참고 가이드라인

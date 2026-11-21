@@ -58,7 +58,9 @@ sources: ["ERS/EACTS/ESTS 2024 | https://doi.org/10.1183/13993003.00797-2023", "
 - 재발률이 약 30% 정도로 높음.
   금연이 재발 방지에 중요함.
 
-출처 : StatPearls (Spontaneous Pneumothorax)
+## 출처
+- StatPearls (Spontaneous Pneumothorax)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

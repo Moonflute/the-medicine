@@ -51,7 +51,8 @@ relation_to_parent: subtype
 - 예후: 대부분 양성 경과를 보이며, 신경학적 후유증은 거의 없음.
 - 합병증: 드물게 재발 가능성이 있으나, 장기적인 인지 기능 저하로 이어지지 않음.
 
-출처 : StatPearls (Transient Global Amnesia)
+## 출처
+- StatPearls (Transient Global Amnesia)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

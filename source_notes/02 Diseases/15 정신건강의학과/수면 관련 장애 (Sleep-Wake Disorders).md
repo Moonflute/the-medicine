@@ -65,5 +65,3 @@ sources: ["VA/DoD: Chronic Insomnia Disorder and Obstructive Sleep Apnea (2025) 
 - [[수면 무호흡증 (Sleep Apnea Syndrome)]]
 - [[악몽 (Nightmare)]]
 - [[일주기 리듬 수면 각성 장애 (Circadian Rhythm Sleep-Wake Disorder)]]
-
-## 참고 자료

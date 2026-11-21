@@ -55,7 +55,9 @@ review_status: "guideline_enriched"
 * 자연 퇴행 가능성이 있으나 시간이 오래 걸림(약 2년 내 65% 자연 소실).
 * 예방: HPV 백신 접종이 가장 효과적인 예방법.
 
-출처 : StatPearls (Condylomata Acuminata)
+## 출처
+- StatPearls (Condylomata Acuminata)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)
 2026-07-15 — 공식 지침 기반 Tier 2 보강

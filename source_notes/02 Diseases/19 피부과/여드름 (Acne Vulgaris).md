@@ -54,6 +54,8 @@ sources: ["NICE NG198 | https://www.nice.org.uk/guidance/ng198/chapter/Recommend
 * 적절한 치료가 없을 경우 영구적인 흉터(위축성 또는 비후성) 및 염증 후 색소 침착 발생 가능.
   심리적 영향(우울, 불안) 동반 가능.
 
-출처 : StatPearls (Acne Vulgaris)
+## 출처
+- StatPearls (Acne Vulgaris)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

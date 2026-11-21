@@ -64,7 +64,9 @@ sources: ["CDC 장티푸스 지침 | https://www.cdc.gov/yellow-book/hcp/travel-
 - 장 천공, 장 출혈, 담낭염, 골수염, 뇌수막염 등의 합병증이 발생할 수 있음.
   적절한 치료 시 치명률은 1% 미만.
 
-출처 : Merck Manual Professional (Typhoid Fever)
+## 출처
+- Merck Manual Professional (Typhoid Fever)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

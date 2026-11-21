@@ -52,8 +52,9 @@ sources: ["BAUS 합의 | https://doi.org/10.1111/bju.15404"]
 * **합병증:** 요종, 농양, 요관 협착, 신기능 저하, 요관질루(ureterovaginal fistula).
 * **예후:** 조기 발견 및 치료 시 예후가 좋음. 지연 시 합병증 발생률 증가.
 
-출처 : StatPearls (Ureteral Injury)
-참고: [EAU: Urological Trauma](https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines)
+## 출처
+- StatPearls (Ureteral Injury)
+- [EAU: Urological Trauma](https://uroweb.org/guidelines/urological-trauma/chapter/urogenital-trauma-guidelines)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

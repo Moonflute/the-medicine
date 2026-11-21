@@ -56,6 +56,8 @@ sources: ["NICE CG145 | https://www.nice.org.uk/guidance/cg145/chapter/Recommend
 * 장애 정도와 동반 질환에 따라 예후가 다양하며, 성인기까지 지속적인 관리 필요
 * 주요 합병증: 흡인성 폐렴, 통증, 골다공증, 척추 변형, 영양 불균형
 
-출처 : StatPearls (Cerebral Palsy, Anesthetic Considerations in Patients With Cerebral Palsy)
+## 출처
+- StatPearls (Cerebral Palsy, Anesthetic Considerations in Patients With Cerebral Palsy)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

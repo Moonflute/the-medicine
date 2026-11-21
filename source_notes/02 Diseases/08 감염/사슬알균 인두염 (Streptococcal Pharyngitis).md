@@ -60,7 +60,9 @@ sources: ["CDC GAS 인두염 지침 | https://www.cdc.gov/group-a-strep/hcp/clin
 - 류마티스열·사구체신염·편도주위 농양 등 합병증 가능
 - 복귀는 단순 증상 호전만이 아니라 항생제 투여 시간·해열 조건을 함께 확인
 
-출처 : Merck Manual Professional, IDSA Guidelines
+## 출처
+- Merck Manual Professional, IDSA Guidelines
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

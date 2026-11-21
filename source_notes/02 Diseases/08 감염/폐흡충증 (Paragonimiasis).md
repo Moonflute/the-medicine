@@ -57,7 +57,9 @@ reviewed_at: "2026-07-30"
 - 폐 이외의 장기(뇌, 피부 등) 침범이 가능하며, 만성 감염 시 폐 섬유화, 기관지 확장증 등이 발생할 수 있다.
   예방을 위해 민물 갑각류를 충분히 익혀 먹는 것이 중요하다.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

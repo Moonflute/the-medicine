@@ -104,7 +104,9 @@ review_status: "guideline_enriched"
 - **CA-125 추적**: 수치 단독 상승만으로 바로 항암을 시작하는 생존 이득은 입증되지 않음
   - 수치 추세·증상, 필요한 영상으로 임상 재발 여부 판단
 
-출처 : StatPearls (Epithelial Ovarian Cancer)
+## 출처
+- StatPearls (Epithelial Ovarian Cancer)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 2026-07-15 — ESMO 2026 지침 기반 Tier 2 보강

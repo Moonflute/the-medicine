@@ -66,6 +66,6 @@ population: general
 - 합병증은 감염, 잔류 이물, 상처 벌어짐, 비후성 반흔, 감각·운동 기능저하와 파상풍이다.
 - 퇴원 시 상처 청결·드레싱, 활동 제한, 봉합사 제거 시점과 발열·농·진행성 통증·감각저하·출혈 시 즉시 재평가 기준을 설명한다.
 
-출처 :
+## 출처
 - Tintinalli's Emergency Medicine Manual, 8e, Ch. 9-16.
 - CDC, Clinical Guidance for Wound Management to Prevent Tetanus, 2025.

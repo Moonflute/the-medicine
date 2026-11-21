@@ -57,6 +57,8 @@ sources: ["BTF 지침 | https://braintrauma.org/coma/guidelines/severe-tbi"]
 ## 6. 예후 및 합병증 (Prognosis)
 - 뇌허혈, 뇌탈출(Subfalcine, Uncal, Tonsillar 등)로 인한 치명적 결과 가능성.
 
-출처 : StatPearls (Increased Intracranial Pressure, Intracranial Pressure Monitoring)
+## 출처
+- StatPearls (Increased Intracranial Pressure, Intracranial Pressure Monitoring)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

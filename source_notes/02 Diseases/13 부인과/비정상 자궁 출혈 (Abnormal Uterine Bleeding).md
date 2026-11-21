@@ -62,6 +62,8 @@ content_updated_at: "2026-11-18"
 - 기저 원인에 따라 예후가 다름
 - 합병증: 철결핍성 빈혈, 내막 증식증 및 암 위험 증가(무배란성 출혈 시)
 
-출처 : StatPearls (Abnormal Uterine Bleeding)
+## 출처
+- StatPearls (Abnormal Uterine Bleeding)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

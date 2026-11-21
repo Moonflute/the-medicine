@@ -58,7 +58,9 @@ sources: ["EAST 횡격막 손상 지침 | https://www.east.org/education-resourc
 - **합병증**: 장기 괴사, 장폐색, 재발성 탈장, 호흡 부전.
 - **예후**: 조기 진단 및 수술적 교정이 이루어지면 예후가 양호하나, 진단이 지연될 경우 장기 감돈 및 괴사로 인해 사망률이 증가함.
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
 - [EAST 가로막 손상 평가·관리 지침](https://www.east.org/education-resources/practice-management-guidelines/details/diaphragmatic-injury-evaluation-and-management-of)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

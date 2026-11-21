@@ -112,12 +112,13 @@ sources: ["ACR SAA SPARTAN 2026 axial spondyloarthritis — official summary | h
 - 척추 강직으로 인한 운동 범위 제한 및 척추 변형(후만증).
 - 포도막염, 염증성 장질환, 심혈관계 질환, 척추 골절 위험 증가.
 
-출처 : Merck Manual Professional (Ankylosing Spondylitis), ASAS-EULAR recommendations
+## 출처
+- Merck Manual Professional (Ankylosing Spondylitis), ASAS-EULAR recommendations
+- 삼성서울병원 메뉴얼
+- [ASAS handbook](https://www.asas-group.org/wp-content/uploads/2020/07/ASAS-handbook.pdf).
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-통합 출처: 삼성서울병원 메뉴얼
-보완 근거: [ASAS handbook](https://www.asas-group.org/wp-content/uploads/2020/07/ASAS-handbook.pdf).

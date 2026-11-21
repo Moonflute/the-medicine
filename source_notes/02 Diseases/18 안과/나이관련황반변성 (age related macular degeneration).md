@@ -57,6 +57,8 @@ content_updated_at: "2026-11-18"
 - 적절한 치료가 없을 경우 비가역적인 중심 시력 상실 및 실명 위험
 - 정기적인 모니터링을 통한 조기 발견 및 치료가 시력 보존에 필수적
 
-출처 : StatPearls: Wet Age-Related Macular Degeneration (AMD)
+## 출처
+- StatPearls: Wet Age-Related Macular Degeneration (AMD)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

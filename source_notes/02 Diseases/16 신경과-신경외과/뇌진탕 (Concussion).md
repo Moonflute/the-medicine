@@ -50,6 +50,8 @@ reviewed_at: "2026-07-30"
 - **예후**: 대부분 1-4주 이내에 완전 회복.
 - **합병증**: 뇌진탕 후 증후군(PCS), 제2충격 증후군(Second-impact syndrome), 만성 외상성 뇌병증(CTE) 가능성.
 
-출처 : StatPearls (Concussion)
+## 출처
+- StatPearls (Concussion)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

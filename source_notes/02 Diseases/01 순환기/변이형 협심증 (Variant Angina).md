@@ -52,9 +52,10 @@ sources: ["ESC 2024 만성 관상동맥증후군 지침 | https://www.escardio.o
 ## 6. 예후 및 합병증 (Prognosis)
 - 부정맥, 심근경색 등이 발생할 수 있으므로 적절한 약물 치료와 추적 관찰이 중요하다.
 
-출처 : StatPearls (Chest Pain: Evaluation and Exclusion of Myocardial Infarction and Angina)
+## 출처
+- StatPearls (Chest Pain: Evaluation and Exclusion of Myocardial Infarction and Angina)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

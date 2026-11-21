@@ -66,6 +66,8 @@ sources: ["AAP 2024 Red Book 기반 경로 | https://www.aap.org/en/patient-care
 * 조기 치료 시 예후가 좋으나, 치료 지연 시 영구적인 신경학적 손상, 난청, 치아 및 골격 기형 발생 가능
 * 미치료 시 사산, 조산, 저체중아 출산 위험 증가
 
-출처 : StatPearls (Congenital and Maternal Syphilis); [CDC 선천매독](https://www.cdc.gov/std/treatment-guidelines/congenital-syphilis.htm); [AAP 선천매독 평가·치료](https://www.aap.org/en/patient-care/congenital-syphilis/congenital-syphilis-evaluation-and-treatment-guide/)
+## 출처
+- StatPearls (Congenital and Maternal Syphilis); [CDC 선천매독](https://www.cdc.gov/std/treatment-guidelines/congenital-syphilis.htm); [AAP 선천매독 평가·치료](https://www.aap.org/en/patient-care/congenital-syphilis/congenital-syphilis-evaluation-and-treatment-guide/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

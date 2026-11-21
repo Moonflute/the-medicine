@@ -78,4 +78,5 @@ Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
 
-보완 출처: 삼성서울병원 메뉴얼, [CDC 말라리아 진단](https://www.cdc.gov/malaria/hcp/clinical-guidance/evaluation-diagnosis.html)
+## 출처
+- 삼성서울병원 메뉴얼, [CDC 말라리아 진단](https://www.cdc.gov/malaria/hcp/clinical-guidance/evaluation-diagnosis.html)

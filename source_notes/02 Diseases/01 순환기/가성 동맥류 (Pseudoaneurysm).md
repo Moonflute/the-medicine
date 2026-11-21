@@ -51,7 +51,9 @@ sources: ["ACC 도관 후 대퇴동맥 가성동맥류 관리 | https://www.acc.
 - **합병증**: 파열, 혈전증, 원위부 색전증, 신경 압박, 만성 통증, 감염.
 - **예후**: 조기 발견 및 치료 시 양호하나, 방치 시 파열 및 사지 허혈 위험이 있음.
 
-출처 : StatPearls (Pseudoaneurysm, Femoral Artery Pseudoaneurysm)
+## 출처
+- StatPearls (Pseudoaneurysm, Femoral Artery Pseudoaneurysm)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-10 : 본문 갱신 (Merck Manual)

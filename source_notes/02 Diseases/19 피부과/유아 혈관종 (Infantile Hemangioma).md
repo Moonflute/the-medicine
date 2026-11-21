@@ -58,8 +58,9 @@ sources: ["AAP 지침 | https://publications.aap.org/pediatrics/article/143/1/e2
 * 대부분 5~7세경에 상당 부분 퇴축됨.
 * 잔여 피부 변화(위축, 모세혈관 확장, 흉터)가 남을 수 있음.
 
-출처 : StatPearls (Infantile Hemangioma, Periocular Capillary Infantile Hemangiomas)
-보완 근거: [AAP 유아혈관종 지침](https://publications.aap.org/pediatrics/article/143/1/e20183475/37268/Clinical-Practice-Guideline-for-the-Management-of), [AAP 임상 개요](https://publications.aap.org/pediatriccare/article/doi/10.1542/aap.ppcqr.396482/150/Infantile-Hemangiomas)
+## 출처
+- StatPearls (Infantile Hemangioma, Periocular Capillary Infantile Hemangiomas)
+- [AAP 유아혈관종 지침](https://publications.aap.org/pediatrics/article/143/1/e20183475/37268/Clinical-Practice-Guideline-for-the-Management-of), [AAP 임상 개요](https://publications.aap.org/pediatriccare/article/doi/10.1542/aap.ppcqr.396482/150/Infantile-Hemangiomas)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

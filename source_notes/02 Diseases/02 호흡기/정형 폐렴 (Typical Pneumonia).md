@@ -69,7 +69,9 @@ sources: ["지역사회획득 폐렴 진료지침 (2024) | https://www.ksid.or.k
 - 적절한 항생제 치료에도 불구, 고령자나 기저 질환이 있는 경우 사망률이 높음.
   주요 합병증으로 흉수, 농흉, 폐농양, 패혈증 등이 발생할 수 있음.
 
-출처 : StatPearls (Typical Bacterial Pneumonia)
+## 출처
+- StatPearls (Typical Bacterial Pneumonia)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

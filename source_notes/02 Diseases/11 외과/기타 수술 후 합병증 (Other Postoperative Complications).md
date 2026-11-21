@@ -52,7 +52,8 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 * 조기 발견 및 적절한 중재 시 예후가 양호하나, 패혈증이나 다장기 부전으로 진행 시 사망률 증가.
 
+## 출처
+- StatPearls (Abortion Complications, Bariatric Surgery Complications)
 
-출처 : StatPearls (Abortion Complications, Bariatric Surgery Complications)
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

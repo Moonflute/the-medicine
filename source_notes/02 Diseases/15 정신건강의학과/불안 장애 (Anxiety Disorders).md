@@ -70,5 +70,3 @@ group_members:
 - [[공황 장애 (Panic Disorder)]]
 - [[범 불안 장애 (Generalized Anxiety Disorder)]]
 - [[사회 불안 장애 (Social Anxiety Disorder)]]
-
-## 참고 자료

@@ -65,6 +65,8 @@ sources: ["WSES 2022 | https://doi.org/10.1186/s13017-022-00457-5", "AAST 장기
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 지연성 파열, 복강 내 농양, 지라 절제 후 패혈증(OPSI, Overwhelming Post-Splenectomy Infection).
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

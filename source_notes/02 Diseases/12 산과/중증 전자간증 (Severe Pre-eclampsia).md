@@ -72,7 +72,9 @@ content_updated_at: "2026-11-17"
 ## 6. 예후 및 합병증 (Prognosis)
 - **합병증**: 자간증(Eclampsia), HELLP 증후군, 태반 조기 박리, 뇌출혈, 폐부종, 신부전, 태아 성장 제한 및 조산.
 
-출처 : StatPearls (Eclampsia, Preeclampsia)
+## 출처
+- StatPearls (Eclampsia, Preeclampsia)
 - [ACOG: Hypertensive Disorders](https://www.acog.org/community/districts-and-sections/district-iv/whats-new/countdown-to-intern-year-week-3-hypertensive-disorders)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -65,9 +65,11 @@ content_updated_at: "2026-07-16"
 - **예후**: 적절한 예방 치료 시 정상적인 삶 가능
 - **합병증**: 관절 손상, 응고인자 억제제(alloantibody) 발생
 
-출처 : Merck Manual Professional (Hemophilia)
+## 출처
+- Merck Manual Professional (Hemophilia)
 - [WFH 혈우병 관리 지침](https://doi.org/10.1111/hae.14046)
 - [혈우병 진단·중증도(CDC)](https://www.cdc.gov/hemophilia/testing/)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

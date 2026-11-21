@@ -65,6 +65,8 @@ sources: ["Endocrine Society | https://doi.org/10.1210/jc.2018-01865", "FDA | ht
 * 조기 진단 및 적절한 호르몬 치료 시 정상적인 성장 및 생식 기능 유지 가능
 * 치료 지연 시 염분 소실 위기(생명 위협), 저신장, 불임, 대사 질환 등 발생 가능
 
-출처 : StatPearls (Congenital Adrenal Hyperplasia)
+## 출처
+- StatPearls (Congenital Adrenal Hyperplasia)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

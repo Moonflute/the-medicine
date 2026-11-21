@@ -55,6 +55,8 @@ reviewed_at: "2026-07-30"
 - 원인 질환에 따라 가역적일 수 있으나, 퇴행성 질환은 점진적 악화 가능성 있음.
 - **합병증**: 일상 기능 저하·낙상·우울증·섬망
 
-출처 : Kaplan & Sadock's Synopsis of Psychiatry
+## 출처
+- Kaplan & Sadock's Synopsis of Psychiatry
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

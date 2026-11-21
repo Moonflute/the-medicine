@@ -96,10 +96,10 @@ sources: ["AASLD ALF position paper 2011 | https://www.aasld.org/sites/default/f
   - 이식 없이 회복할 가능성은 원인·중증도에 따라 다름. 생존 시 간기능이 완전히 회복되기도 함
 - **합병증**: 간성 뇌증·뇌부종·응고장애·감염·간신 증후군·다발성 장기부전
 
-참고 가이드라인: [AASLD 급성 간부전](https://www.aasld.org/practice-guidelines/management-acute-liver-failure), [ACG 알코올 관련 간질환](https://pmc.ncbi.nlm.nih.gov/articles/PMC11040545/)
+## 출처
+- [AASLD 급성 간부전](https://www.aasld.org/practice-guidelines/management-acute-liver-failure), [ACG 알코올 관련 간질환](https://pmc.ncbi.nlm.nih.gov/articles/PMC11040545/)
+- 삼성서울병원 메뉴얼.
 
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

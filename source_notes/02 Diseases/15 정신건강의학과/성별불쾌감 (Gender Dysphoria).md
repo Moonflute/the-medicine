@@ -60,7 +60,8 @@ content_updated_at: "2026-11-18"
 - 적절한 지지 체계와 치료가 제공되지 않을 경우 우울, 불안, 자살 위험이 높음.
 - 조기 개입과 사회적 수용성 증대가 예후 개선에 중요함.
 
-출처: [APA 성별불쾌감](https://www.psychiatry.org/patients-families/gender-dysphoria/what-is-gender-dysphoria)
+## 출처
+- [APA 성별불쾌감](https://www.psychiatry.org/patients-families/gender-dysphoria/what-is-gender-dysphoria)
 
 Last updated :
 2026-05-20 — 본문 갱신 (codex fill)

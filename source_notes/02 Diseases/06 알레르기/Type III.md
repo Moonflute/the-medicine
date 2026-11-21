@@ -47,5 +47,3 @@ III형 반응은 항원·항체 복합체의 조직 침착과 보체 활성화�
 - [[혈청병 (Serum Sickness)]]
 - [[연쇄상구균 감염 후 사구체신염 (PSGN) (Post-Streptococcal Glomerulonephritis (PSGN))]]
 - [[전신 홍반 루푸스 (SLE) (Systemic Lupus Erythematosus (SLE))]]
-
-## 참고 자료

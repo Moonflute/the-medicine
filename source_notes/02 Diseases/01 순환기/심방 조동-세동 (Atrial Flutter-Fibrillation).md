@@ -95,4 +95,5 @@ population: adult
 - 주요 합병증은 허혈성 뇌졸중·전신색전증, 심부전 악화, 빈맥유발 심근병증, 입원 및 치료 관련 출혈이다.
 - 새로운 신경학적 결손, 지속되는 흉통, 실신, 급성 호흡곤란 또는 저혈압은 즉시 응급 평가가 필요하다. 항응고 중 임상적으로 의미 있는 출혈, 신기능 급변 또는 시술 계획이 생기면 항응고 전략을 재평가한다.
 
-출처: ESC, *2024 Guidelines for the Management of Atrial Fibrillation*.
+## 출처
+- ESC, *2024 Guidelines for the Management of Atrial Fibrillation*.

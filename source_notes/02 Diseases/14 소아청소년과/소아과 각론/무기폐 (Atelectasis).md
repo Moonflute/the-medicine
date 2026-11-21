@@ -50,6 +50,8 @@ reviewed_at: "2026-07-30"
 - **합병증**: 폐렴, 저산소혈증, 호흡 부전, 폐 섬유화
 - **예후**: 원인 질환 및 기저 질환에 따라 상이하며, 조기 발견 및 관리가 중요
 
-출처 : StatPearls (Atelectasis)
+## 출처
+- StatPearls (Atelectasis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

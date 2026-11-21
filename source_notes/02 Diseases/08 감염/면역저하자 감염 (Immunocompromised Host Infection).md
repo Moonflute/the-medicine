@@ -77,7 +77,9 @@ sources: ["IDSA 호중구감소 감염 지침 | https://academic.oup.com/cid/art
 ## 6. 예후 및 합병증 (Prognosis)
 - 패혈증, 패혈성 쇼크, 다발성 장기 부전으로 빠르게 진행할 수 있어 치명률이 높음.
 
-출처 : Merck Manual Professional, IDSA Guidelines
+## 출처
+- Merck Manual Professional, IDSA Guidelines
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

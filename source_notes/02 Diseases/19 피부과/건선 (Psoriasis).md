@@ -61,6 +61,8 @@ content_updated_at: "2026-11-18"
 - **예후**: 완치가 어려운 만성 질환으로 호전과 악화를 반복함.
 - **합병증**: 건선 관절염, 대사 증후군, 심혈관 질환, 우울증 등 동반 질환 위험 증가.
 
-출처 : StatPearls (Psoriasis, Generalized Pustular Psoriasis)
+## 출처
+- StatPearls (Psoriasis, Generalized Pustular Psoriasis)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -58,8 +58,9 @@ content_updated_at: "2026-11-18"
 ## 6. 예후 및 합병증 (Prognosis)
 * **합병증:** 급성 요폐, 방광 결석, 재발성 요로 감염, 만성 신부전(고압성 요폐 시).
 
-출처 : StatPearls (Benign Prostatic Hyperplasia)
-참고: [EAU: Male LUTS diagnostic evaluation](https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation)
+## 출처
+- StatPearls (Benign Prostatic Hyperplasia)
+- [EAU: Male LUTS diagnostic evaluation](https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/diagnostic-evaluation)
 
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

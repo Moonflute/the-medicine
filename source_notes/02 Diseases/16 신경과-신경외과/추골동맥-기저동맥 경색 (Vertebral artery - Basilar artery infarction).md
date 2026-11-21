@@ -68,6 +68,8 @@ sources: ["AHA/ASA 2026 | https://doi.org/10.1161/STR.0000000000000513"]
   조기 재개통 여부가 예후를 결정하는 핵심 인자
 - 합병증: 흡인성 폐렴, 심부정맥 혈전증, 욕창, 재발성 뇌졸중
 
-출처 : StatPearls (Basilar Artery Occlusion, 2026)
+## 출처
+- StatPearls (Basilar Artery Occlusion, 2026)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

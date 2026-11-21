@@ -55,8 +55,9 @@ sources: ["AHA 성명 | https://doi.org/10.1161/STR.0000000000000366", "TenCRAOS
 - 예후는 일반적으로 불량, 영구적인 시력 손상 가능성이 높음.
 - 합병증으로 신생혈관 녹내장 등이 발생할 수 있음.
 
-출처 : StatPearls (Central Retinal Artery Occlusion, Hyperbaric Treatment of CRAO)
-보완 근거: [TenCRAOS 무작위시험](https://www.nejm.org/doi/full/10.1056/NEJMoa2508515)
+## 출처
+- StatPearls (Central Retinal Artery Occlusion, Hyperbaric Treatment of CRAO)
+- [TenCRAOS 무작위시험](https://www.nejm.org/doi/full/10.1056/NEJMoa2508515)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

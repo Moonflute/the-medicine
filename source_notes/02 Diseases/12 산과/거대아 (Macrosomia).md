@@ -56,7 +56,9 @@ sources: ["ACOG 거대아 지침 | https://www.acog.org/clinical/clinical-guidan
 - **산모**: 산도 열상, 산후 출혈, 제왕절개율 증가.
 - **태아**: 어깨 난산(shoulder dystocia), 상완신경총 손상(brachial plexus injury), 쇄골 골절, 신생아 저혈당, 사망률 증가.
 
-출처 : StatPearls (Macrosomia)
+## 출처
+- StatPearls (Macrosomia)
 - [RANZCOG Macrosomia](https://ranzcog.edu.au/wp-content/uploads/2022/05/Diagnosis-and-management-of-suspected-fetal-macrosomia.pdf)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

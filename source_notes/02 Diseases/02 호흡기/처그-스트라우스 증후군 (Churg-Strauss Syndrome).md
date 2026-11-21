@@ -62,7 +62,9 @@ content_updated_at: "2026-11-18"
 - 심장 침범(심근염)은 주요 사망 원인 중 하나임.
   조기 진단 및 치료를 통해 장기 손상을 예방하는 것이 중요함.
 
-출처 : StatPearls (Eosinophilic Granulomatosis With Polyangiitis)
+## 출처
+- StatPearls (Eosinophilic Granulomatosis With Polyangiitis)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

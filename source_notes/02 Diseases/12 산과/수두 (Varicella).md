@@ -69,6 +69,8 @@ sources: ["CDC 고위험군 수두 임상 지침 | https://www.cdc.gov/chickenpo
 - 합병증: 이차 세균 감염, 폐렴, 뇌염 등.
   면역저하자에서 치명적일 수 있음.
 
-출처 : StatPearls (Varicella-Zoster Virus, Varicella Vaccine)
+## 출처
+- StatPearls (Varicella-Zoster Virus, Varicella Vaccine)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

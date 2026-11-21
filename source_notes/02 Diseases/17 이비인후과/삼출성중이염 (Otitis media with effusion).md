@@ -52,6 +52,8 @@ sources: ["AAO-HNSF 2022 | https://doi.org/10.1177/01945998211065662"]
 - 대부분 자연 회복되나, 재발이 잦을 수 있음.
   장기화 시 고막 위축, 유착성 중이염, 진주종성 중이염 등으로 진행할 가능성 있음.
 
-출처 : StatPearls (Otitis Media With Effusion)
+## 출처
+- StatPearls (Otitis Media With Effusion)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

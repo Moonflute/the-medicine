@@ -49,6 +49,8 @@ reviewed_at: "2026-07-30"
 - 약 75~80%는 1년 이내에 보존적 치료로 호전됨.
 - 합병증: 만성 통증, 보행 장애, 드물게 근막 파열.
 
-출처 : StatPearls (Plantar Fasciitis)
+## 출처
+- StatPearls (Plantar Fasciitis)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

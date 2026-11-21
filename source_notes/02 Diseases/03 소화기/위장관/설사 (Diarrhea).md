@@ -103,10 +103,11 @@ sources: ["IDSA 감염성 설사 지침 | https://www.idsociety.org/practice-gui
 - 거짓막대장염(PMC)
 - 용혈성 요독 증후군(HUS)
 
-출처 : Merck Manual Professional (Diarrhea, Traveler's Diarrhea)
+## 출처
+- Merck Manual Professional (Diarrhea, Traveler's Diarrhea)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

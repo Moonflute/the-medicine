@@ -122,9 +122,10 @@ R-ISS의 고위험 이상은 del(17p), t(4;14), t(14;16)이다. **ISS III라는 
 - **경과**: 완치가 어렵고 재발이 흔함
 - **합병증**: 신부전·골절·감염·고칼슘혈증
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼. International Myeloma Working Group 2023 renal impairment recommendations를 대조. 2026-09-14 기존 목차 내 보완.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. International Myeloma Working Group 2023 renal impairment recommendations를 대조. 2026-09-14 기존 목차 내 보완.

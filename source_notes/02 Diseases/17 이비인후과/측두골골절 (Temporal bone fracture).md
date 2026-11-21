@@ -56,6 +56,8 @@ sources: ["AAST 2024 | https://doi.org/10.1136/tsaco-2023-001304"]
 - **합병증**: 안면신경 마비, 감각신경성/전음성 난청, 현훈, 뇌척수액 누출, 뇌막염
 - **예후**: 대부분의 안면 마비는 불완전 마비로 자연 회복되는 경우가 많으나, 완전 마비 시 예후가 불량할 수 있음
 
-출처 : StatPearls (Temporal Fracture)
+## 출처
+- StatPearls (Temporal Fracture)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

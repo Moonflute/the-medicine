@@ -53,7 +53,9 @@ sources: ["ESPEN 만성 장부전 지침 2023 | https://doi.org/10.1016/j.clnu.2
   - 소장이 **100 cm 미만** 남으면 평생 TPN이 필요할 수 있으나 길이만으로 단정하지 않음
   - 회장·회맹판 절제 시 증상이 더 심할 수 있음
 
-출처 : Merck Manual Professional (Short Bowel Syndrome)
+## 출처
+- Merck Manual Professional (Short Bowel Syndrome)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

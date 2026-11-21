@@ -59,6 +59,8 @@ sources: ["ESGO/ISSVD 합의 | https://pmc.ncbi.nlm.nih.gov/articles/PMC9279839/
 - 치료 후 재발률이 높으며, 미치료 시 외음부암 진행 가능
 - 장기적인 추적 관찰(6~12개월 간격)이 필요함.
 
-출처 : StatPearls (Vulvar Intraepithelial Neoplasia)
+## 출처
+- StatPearls (Vulvar Intraepithelial Neoplasia)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

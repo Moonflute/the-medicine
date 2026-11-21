@@ -52,7 +52,9 @@ sources: ["CDC 풍진 감시·임신 노출 평가 | https://www.cdc.gov/surv-ma
 - 예방: 가임기 여성의 풍진 백신 접종(임신 중 접종 금기, 접종 후 1개월간 피임).
 - 합병증: 영구적인 청력 손실, 시력 장애, 심장 기형으로 인한 만성 질환.
 
-출처 : CDC Pink Book, ACOG Practice Bulletin
+## 출처
+- CDC Pink Book, ACOG Practice Bulletin
 - [CDC Rubella Clinical Overview](https://www.cdc.gov/rubella/hcp/clinical-overview/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

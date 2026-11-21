@@ -51,6 +51,8 @@ sources: ["AHA/ASA 2026 | https://doi.org/10.1161/STR.0000000000000513"]
 - 조기 재관류 여부가 예후를 결정하는 핵심 요소
 - 시야 결손이나 인지 기능 장애가 후유증으로 남을 수 있음
 
-출처 : UpToDate, Harrison's Principles of Internal Medicine
+## 출처
+- UpToDate, Harrison's Principles of Internal Medicine
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

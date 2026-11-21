@@ -87,5 +87,6 @@ population: adult
 ## 6. 예후 및 합병증
 - biphasic 반응, 기도부종 재발, 쇼크·부정맥 및 aspiration이 주요 우려다. 퇴원 후 원인 확인 전까지 의심 유발 인자를 피하고, 재노출 위험과 자기주사 사용법을 교육한다.
 
-출처: [RCUK Emergency Treatment of Anaphylaxis 2021](https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis/emergency-treatment-anaphylactic-reactions), [WAO Anaphylaxis Guidance 2020](https://www.worldallergyorganizationjournal.org/article/S1939-4551%2820%2930375-6/fulltext).
-OCR 출처: 삼성서울병원 메뉴얼
+## 출처
+- [RCUK Emergency Treatment of Anaphylaxis 2021](https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis/emergency-treatment-anaphylactic-reactions), [WAO Anaphylaxis Guidance 2020](https://www.worldallergyorganizationjournal.org/article/S1939-4551%2820%2930375-6/fulltext).
+- 삼성서울병원 메뉴얼

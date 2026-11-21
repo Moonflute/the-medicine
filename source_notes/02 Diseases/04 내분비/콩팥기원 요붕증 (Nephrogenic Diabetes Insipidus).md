@@ -52,9 +52,10 @@ reviewed_at: "2026-07-30"
 - 적절한 수분 공급이 이루어지지 않을 경우 탈수 및 전해질 불균형 발생 가능.
 - 가역적 원인(약물, 전해질 이상)은 교정 시 호전될 수 있음.
 
-출처 : StatPearls (Arginine Vasopressin Disorder)
+## 출처
+- StatPearls (Arginine Vasopressin Disorder)
+- 삼성서울병원 메뉴얼; [RCPA — Diabetes insipidus](https://www.rcpa.edu.au/Manuals/RCPA-Manual/Clinical-Presentations-and-Diagnoses/D/Diabetes-insipidus)
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼; [RCPA — Diabetes insipidus](https://www.rcpa.edu.au/Manuals/RCPA-Manual/Clinical-Presentations-and-Diagnoses/D/Diabetes-insipidus)

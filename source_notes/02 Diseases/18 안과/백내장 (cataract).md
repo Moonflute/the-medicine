@@ -48,6 +48,8 @@ sources: ["NICE NG77 | https://www.nice.org.uk/guidance/ng77/chapter/recommendat
 - **합병증**: 후낭 혼탁(PCO), 낭포성 황반부종, 안내염(드묾), 망막 박리(드묾)
 - **예후**: 대부분 수술 후 시력 개선 효과가 매우 우수함
 
-출처 : StatPearls (Cataract, Cataract Surgery)
+## 출처
+- StatPearls (Cataract, Cataract Surgery)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

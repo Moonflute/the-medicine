@@ -90,4 +90,6 @@ content_updated_at: "2026-11-17"
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-보완 출처: 삼성서울병원 메뉴얼. 2024 AHA/ACC HCM Guideline의 돌연사 위험평가와 대조.
+
+## 출처
+- 삼성서울병원 메뉴얼. 2024 AHA/ACC HCM Guideline의 돌연사 위험평가와 대조.

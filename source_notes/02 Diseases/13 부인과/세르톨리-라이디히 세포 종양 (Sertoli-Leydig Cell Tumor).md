@@ -62,6 +62,8 @@ sources: ["ESMO SLCT 치료 알고리즘 | https://data.esmo.org/guidelines/pdf/
 ## 6. 예후 및 합병증 (Prognosis)
 - 대체로 양호하나 악성 경과 가능; 정기 재발 감시 필요
 
-출처 : Merck Manual Professional
+## 출처
+- Merck Manual Professional
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

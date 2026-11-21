@@ -59,7 +59,9 @@ sources: ["AAN/AAP/CNS/SCCM 2023 | https://doi.org/10.1212/WNL.0000000000207740"
 ## 6. 예후 및 합병증 (Prognosis)
 - 사망률 100%.
 
-출처 : StatPearls (Brain Death)
-보완 출처: [국내 뇌사판정 기준](https://www.law.go.kr/LSW/flDownload.do?bylClsCd=110201&flSeq=151746575&gubun=), [장기이식법 제21조](https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0021&lsiSeq=290657&urlMode=lsScJoRltInfoR), [AAN 등 공동지침(2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10791061/)
+## 출처
+- StatPearls (Brain Death)
+- [국내 뇌사판정 기준](https://www.law.go.kr/LSW/flDownload.do?bylClsCd=110201&flSeq=151746575&gubun=), [장기이식법 제21조](https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0021&lsiSeq=290657&urlMode=lsScJoRltInfoR), [AAN 등 공동지침(2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10791061/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

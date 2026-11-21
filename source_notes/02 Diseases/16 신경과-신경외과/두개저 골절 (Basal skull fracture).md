@@ -60,7 +60,9 @@ sources: ["AAST 외상 항생제 합의, 2024 | https://doi.org/10.1136/tsaco-20
 - **합병증**: 뇌수막염, 뇌척수액 누출, 뇌신경 마비, 뇌출혈
 - **예후**: 골절 자체보다는 동반된 뇌손상 정도에 따라 결정됨
 
-출처 : StatPearls (Anatomy, Head and Neck, Skull)
-보완 출처: [NICE 두부외상 관찰·재평가 권고](https://www.nice.org.uk/guidance/NG232/chapter/recommendations)
+## 출처
+- StatPearls (Anatomy, Head and Neck, Skull)
+- [NICE 두부외상 관찰·재평가 권고](https://www.nice.org.uk/guidance/NG232/chapter/recommendations)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

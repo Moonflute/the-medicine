@@ -63,9 +63,10 @@ sources: ["BTS Pleural Disease Guideline 2023 | https://thorax.bmj.com/content/7
 - 진단 후 중앙 생존 기간은 약 3~12개월로 예후가 불량함.
   흉막 유착이나 폐 확장 부전(trapped lung) 등이 합병될 수 있음.
 
-출처 : StatPearls (Malignant Pleural Effusion)
+## 출처
+- StatPearls (Malignant Pleural Effusion)
+- 삼성서울병원 메뉴얼.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-참고: 삼성서울병원 메뉴얼.

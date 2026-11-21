@@ -59,7 +59,9 @@ reviewed_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 다장기 부전(MODS)으로 진행 시 사망률이 매우 높음(최대 50% 이상).
 
-출처 : StatPearls (Septic Shock)
+## 출처
+- StatPearls (Septic Shock)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-07-15 — 중복 본문 정리
-보완 출처: 삼성서울병원 메뉴얼

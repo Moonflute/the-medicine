@@ -54,7 +54,8 @@ sources: ["AGA 2023 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10335308/"]
 ## 6. 예후 및 합병증 (Prognosis)
 - 급성 포르피린증은 적절한 관리 시 예후가 양호하나, 반복적인 발작은 만성 신장 질환, 간경변, 간세포암의 위험을 높일 수 있다.
 
-보완 출처: [NIDDK — Porphyria](https://www.niddk.nih.gov/health-information/liver-disease/porphyria); [AGA 2023](https://gastro.org/clinical-guidance/diagnosis-and-management-of-acute-hepatic-porphyrias-ahp/)
+## 출처
+- [NIDDK — Porphyria](https://www.niddk.nih.gov/health-information/liver-disease/porphyria); [AGA 2023](https://gastro.org/clinical-guidance/diagnosis-and-management-of-acute-hepatic-porphyrias-ahp/)
 
 Last updated :
 2024-07-30 — 초기 작성

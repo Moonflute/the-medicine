@@ -69,8 +69,10 @@ sources: ["WSES 담도 손상 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC
 
 - **합병증**: 담즙종, 복막염, 농양, 패혈증, 담관 협착 등이 발생할 수 있다.
 
-출처 : StatPearls (Anatomy, Abdomen and Pelvis: Biliary Ducts)
-참고 가이드라인: [WSES 담도 손상 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC8190978/)
+## 출처
+- StatPearls (Anatomy, Abdomen and Pelvis: Biliary Ducts)
+- [WSES 담도 손상 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC8190978/)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)

@@ -56,7 +56,9 @@ sources: ["CDC PSGN | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/po
 - 소아의 경우 대부분 2주 내 자연치유.
 - 현미경적 혈뇨는 수개월에서 1년까지 지속될 수 있음.
 
-출처 : Merck Manual Professional; [CDC — PSGN](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html)
+## 출처
+- Merck Manual Professional; [CDC — PSGN](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

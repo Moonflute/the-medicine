@@ -64,6 +64,8 @@ content_updated_at: "2026-11-17"
 - 산모: 산도 열상, 산후 출혈.
 - 태아: 상완신경총 손상, 골절, 저산소증 및 질식.
 
-출처 : StatPearls (Shoulder Dystocia), ACOG Guidelines
+## 출처
+- StatPearls (Shoulder Dystocia), ACOG Guidelines
+
 Last updated :
 2026-07-15 — 중복 본문 정리

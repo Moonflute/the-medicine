@@ -51,6 +51,8 @@ reviewed_at: "2026-07-30"
 
 - **합병증**: 열성 경련이 가장 흔함; 면역저하 환자는 뇌염 등 중증 합병증 가능
 
-출처 : StatPearls (Roseola Infantum)
+## 출처
+- StatPearls (Roseola Infantum)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

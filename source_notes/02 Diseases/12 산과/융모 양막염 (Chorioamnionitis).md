@@ -60,7 +60,9 @@ sources: ["ACOG 자궁내 감염 관리 | https://www.acog.org/clinical/clinical
 - **모체 합병증**: 자궁내막염, 산후 출혈, 패혈증, 제왕절개술 위험 증가.
 - **태아 합병증**: 조산, 신생아 패혈증, 뇌성마비, 호흡곤란 증후군, 신경학적 발달 장애.
 
-출처 : StatPearls (Chorioamnionitis)
+## 출처
+- StatPearls (Chorioamnionitis)
 - [ACOG 2024 Intraamniotic Infection Criteria](https://doi.org/10.1097/aog.0000000000005593)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

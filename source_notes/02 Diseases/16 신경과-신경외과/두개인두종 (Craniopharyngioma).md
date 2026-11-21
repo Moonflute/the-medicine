@@ -58,6 +58,8 @@ sources: ["전향적 2상 연구 | https://doi.org/10.1056/NEJMoa2213329"]
 ## 6. 예후 및 합병증 (Prognosis)
 - 완전 절제 후에도 뇌하수체 기능 저하, 시력 손상, 시상하부 비만, 신경인지 기능 장애 등 장기적인 합병증 발생 가능성이 높아 다학제적 추적 관찰이 중요함.
 
-출처 : StatPearls (Craniopharyngioma, 2025)
+## 출처
+- StatPearls (Craniopharyngioma, 2025)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

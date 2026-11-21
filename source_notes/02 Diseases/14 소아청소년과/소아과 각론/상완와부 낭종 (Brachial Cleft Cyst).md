@@ -46,6 +46,8 @@ reviewed_at: "2026-07-30"
 * 불완전 절제 시 재발 가능성 있음
 * 감염 반복 시 농양 형성 및 누공 발생 가능
 
-출처 : StatPearls (Head and Neck Anatomy)
+## 출처
+- StatPearls (Head and Neck Anatomy)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

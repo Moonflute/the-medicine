@@ -49,7 +49,8 @@ relation_to_parent: subtype
 - 예후: 청소년기를 지나며 증상이 완화되는 경우가 많으나, 일부는 성인기까지 지속됨.
 - 합병증: ADHD, 강박장애(OCD), 불안장애, 우울증 등 공존 질환의 조기 발견 및 관리가 중요.
 
-출처: [CDC 뚜렛증후군 진단](https://www.cdc.gov/tourette-syndrome/diagnosis/)
+## 출처
+- [CDC 뚜렛증후군 진단](https://www.cdc.gov/tourette-syndrome/diagnosis/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

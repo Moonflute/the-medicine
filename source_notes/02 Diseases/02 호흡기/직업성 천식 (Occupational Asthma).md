@@ -60,7 +60,9 @@ sources: ["GINA 2026 | https://ginasthma.org/wp-content/uploads/2026/07/GINA-Sum
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 진단 및 원인 물질 회피 시 예후가 좋으나, 노출이 지속될 경우 영구적인 기도 폐쇄 및 만성 천식으로 진행할 수 있음.
 
-출처 : StatPearls (Allergic and Environmentally Induced Asthma)
+## 출처
+- StatPearls (Allergic and Environmentally Induced Asthma)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

@@ -48,6 +48,8 @@ reviewed_at: "2026-07-30"
 * 원인 질환에 따라 예후가 매우 다양함
 * 만성 간염, 간경변증, 간부전으로 진행 가능
 
-출처 : StatPearls, Merck Manual Professional; [AASLD 영아 담즙정체 평가](https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/approach-cholestatic-infant)
+## 출처
+- StatPearls, Merck Manual Professional; [AASLD 영아 담즙정체 평가](https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/approach-cholestatic-infant)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

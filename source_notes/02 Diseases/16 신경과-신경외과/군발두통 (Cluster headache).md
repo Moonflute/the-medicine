@@ -57,7 +57,9 @@ sources: ["EAN 군발두통 지침, 2023 | https://doi.org/10.1111/ene.15956"]
 - 대부분 수주에서 수개월간 지속되는 군발기(cluster period)와 수개월에서 수년간의 관해기를 반복함.
   만성 군발두통으로 이행할 경우 약물 저항성이 나타날 수 있음.
 
-출처 : StatPearls (Cluster Headache)
-보완 출처: [ICHD-3 군발두통 기준](https://ichd-3.org/3-trigeminal-autonomic-cephalalgias/3-1-cluster-headache/)
+## 출처
+- StatPearls (Cluster Headache)
+- [ICHD-3 군발두통 기준](https://ichd-3.org/3-trigeminal-autonomic-cephalalgias/3-1-cluster-headache/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

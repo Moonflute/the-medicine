@@ -52,7 +52,8 @@ relation_to_parent: subtype
 - 조기 발견 및 적절한 개입이 기능 향상과 사회적 적응에 필수적임.
 - 방치 시 성인기까지 지속되는 기능 저하 및 이차적인 정신질환 발생 위험 증가.
 
-출처 : StatPearls (Intellectual Disability, 2026); [APA 지적 장애](https://www.psychiatry.org/patients-families/intellectual-disability/what-is-intellectual-disability/)
+## 출처
+- StatPearls (Intellectual Disability, 2026); [APA 지적 장애](https://www.psychiatry.org/patients-families/intellectual-disability/what-is-intellectual-disability/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

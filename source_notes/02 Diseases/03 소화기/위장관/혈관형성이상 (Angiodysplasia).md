@@ -50,7 +50,9 @@ sources: ["OCEAN 무작위시험 2024 | https://pubmed.ncbi.nlm.nih.gov/38158089
 - 대부분 자연적으로 멈추나 재발 가능성이 있음.
   고령 및 동반 질환이 있는 경우 출혈 위험이 높음.
 
-출처 : StatPearls (Angiodysplasia)
+## 출처
+- StatPearls (Angiodysplasia)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

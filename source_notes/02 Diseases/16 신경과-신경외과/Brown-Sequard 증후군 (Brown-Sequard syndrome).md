@@ -52,6 +52,8 @@ sources: ["AO Spine/Praxis 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10964
 - 불완전 척수 손상 중 예후가 비교적 좋은 편에 속함.
 - 상당수의 환자가 보행 기능을 회복하며, 재활을 통해 일상생활 복귀 가능성이 높음.
 
-출처 : StatPearls (Brown-Séquard Syndrome)
+## 출처
+- StatPearls (Brown-Séquard Syndrome)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

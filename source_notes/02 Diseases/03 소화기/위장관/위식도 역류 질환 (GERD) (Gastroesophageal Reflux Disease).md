@@ -77,10 +77,11 @@ review_status: "guideline_enriched"
 - **합병증**: 식도염, 식도 궤양, 소화성 협착, 바렛 식도, 식도 선암 등이 발생할 수 있다.
 - **예후**: 대부분 생활 습관 교정과 약물 치료로 조절되나, 난치성인 경우 정밀 검사를 통해 다른 질환과의 감별이 필요하다.
 
-출처 : Merck Manual Professional (GERD)
+## 출처
+- Merck Manual Professional (GERD)
+- 삼성서울병원 메뉴얼. ACG GERD 2022와 진단·복용 시점·유지요법을 대조함. 2026-09-14 기존 목차 내 부분 보완.
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼. ACG GERD 2022와 진단·복용 시점·유지요법을 대조함. 2026-09-14 기존 목차 내 부분 보완.

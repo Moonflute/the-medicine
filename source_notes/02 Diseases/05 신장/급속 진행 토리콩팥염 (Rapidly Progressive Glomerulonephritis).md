@@ -77,7 +77,9 @@ content_updated_at: "2026-11-17"
 - 조기 치료 시 예후 개선 가능
 - 고령, 핍뇨성 신부전, 광범위한 반월체 형성 시 예후 불량
 
-출처 : Merck Manual Professional (RPGN); 삼성서울병원 메뉴얼
+## 출처
+- Merck Manual Professional (RPGN); 삼성서울병원 메뉴얼
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

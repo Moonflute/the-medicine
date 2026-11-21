@@ -55,7 +55,8 @@ relation_to_parent: subtype
 - 예후: 만성적이고 재발이 잦은 질환으로, 장기적인 추적 관찰과 다학제적 지원이 필수적임.
 - 합병증: 간경화, 췌장염, 심혈관 질환(부정맥, 심근병증), Wernicke-Korsakoff 증후군, 각종 암 발생 위험 증가.
 
-출처: [Acamprosate 미국 허가사항](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1cfe4675-766f-4f1a-b1a8-96bbdacfcfa5)
+## 출처
+- [Acamprosate 미국 허가사항](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1cfe4675-766f-4f1a-b1a8-96bbdacfcfa5)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

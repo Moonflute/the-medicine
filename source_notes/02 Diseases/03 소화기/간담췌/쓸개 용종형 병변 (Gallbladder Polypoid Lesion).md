@@ -84,7 +84,9 @@ sources: ["KSAR 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11794292/"]
 
 - **합병증**: 담낭암으로의 진행, 담낭염, 담석 형성 등이 발생할 수 있다.
 
-출처 : StatPearls (Anatomy, Abdomen and Pelvis: Gallbladder)
+## 출처
+- StatPearls (Anatomy, Abdomen and Pelvis: Gallbladder)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)

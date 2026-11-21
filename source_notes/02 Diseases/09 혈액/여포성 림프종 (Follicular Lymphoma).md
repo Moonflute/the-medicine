@@ -76,7 +76,8 @@ sources: ["EHA 2026 여포성 림프종 지침 | https://pmc.ncbi.nlm.nih.gov/ar
 - 진행은 느리지만 재발이 잦은 만성 질환의 경과를 보인다.
 - 고등급 림프종(예: DLBCL)으로의 형질전환 가능성이 있으며, 이 경우 예후가 불량하다.
 
-출처: [WHO-HAEM5 림프계 종양 분류](https://doi.org/10.1038/s41375-022-01620-2)
+## 출처
+- [WHO-HAEM5 림프계 종양 분류](https://doi.org/10.1038/s41375-022-01620-2)
 
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

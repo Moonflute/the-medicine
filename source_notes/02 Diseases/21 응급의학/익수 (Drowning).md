@@ -65,6 +65,6 @@ population: general
 - **퇴원 평가**: 안정 의식·정상 호흡/SpO2·관찰 중 무악화 확인
 - **퇴원 교육**: 호흡곤란·기침 악화·발열 시 즉시 재평가, 유발 원인·예방 안내
 
-출처 :
+## 출처
 - Tintinalli's Emergency Medicine Manual, 8e, Ch. 124.
 - AHA/AAP Focused Update on Resuscitation Following Drowning, 2024.

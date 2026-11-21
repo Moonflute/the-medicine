@@ -60,7 +60,9 @@ sources: ["SMFM 태아 빈혈 지침 | https://publications.smfm.org/publication
 - **감작 위험 상황**: 유산·자궁외임신·양수검사 등은 주수·상황별 기준으로 판단
   - 임신 12주 미만 유산·임신중지에 일률적으로 적용하지 않고 해당 지침과 개별 상황에 따라 결정
 
-출처 : Merck Manual Professional; [ACOG Rh Factor](https://www.acog.org/womens-health/faqs/the-rh-factor-how-it-can-affect-your-pregnancy); [ACOG 2024 초기 임신손실 RhIg 개정](https://doi.org/10.1097/aog.0000000000005733)
+## 출처
+- Merck Manual Professional; [ACOG Rh Factor](https://www.acog.org/womens-health/faqs/the-rh-factor-how-it-can-affect-your-pregnancy); [ACOG 2024 초기 임신손실 RhIg 개정](https://doi.org/10.1097/aog.0000000000005733)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 2026-05-19 — 본문 갱신 (codex fill)

@@ -51,7 +51,9 @@ sources: ["Endocrine Society 쿠싱 치료 | https://www.endocrine.org/clinical-
 - 원인 종양의 악성도에 따라 예후가 결정된다.
   고코르티솔혈증에 의한 감염, 고혈압, 당뇨병 등의 합병증 관리가 중요하다.
 
-출처 : Merck Manual Professional; [Endocrine Society: 이소성 ACTH 종양](https://academic.oup.com/jes/article/9/2/bvae194/7997017).
+## 출처
+- Merck Manual Professional; [Endocrine Society: 이소성 ACTH 종양](https://academic.oup.com/jes/article/9/2/bvae194/7997017).
+
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)

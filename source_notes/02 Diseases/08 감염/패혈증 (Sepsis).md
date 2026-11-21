@@ -73,6 +73,6 @@ population: adult
 ## 6. 예후 및 합병증
 - ARDS, AKI, DIC, 심근억제, ICU-acquired weakness, 인지·정신후유증이 발생할 수 있다. 퇴원 전에는 원인, 항생제 계획, 기능·인지·정신 증상 및 재활·추적 계획을 인계한다.
 
-출처: Surviving Sepsis Campaign, *Adult Guidelines 2026*.
-
-보완 출처: 삼성서울병원 메뉴얼. Surviving Sepsis Campaign 성인 지침 2026을 대조. 2026-09-14 기존 목차 내 보완.
+## 출처
+- Surviving Sepsis Campaign, *Adult Guidelines 2026*.
+- 삼성서울병원 메뉴얼. Surviving Sepsis Campaign 성인 지침 2026을 대조. 2026-09-14 기존 목차 내 보완.

@@ -61,9 +61,10 @@ sources: ["NICE NG148 Acute kidney injury: prevention, detection and management 
 - 조기 발견 및 폐쇄 해제 시 신기능 회복 가능
 - 장기 폐쇄 시 영구적인 신손상 및 만성 콩팥병(CKD)으로 진행 가능
 
-출처 : StatPearls: Acute Kidney Injury
+## 출처
+- StatPearls: Acute Kidney Injury
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

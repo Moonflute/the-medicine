@@ -77,4 +77,5 @@ Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 
-보완 출처: 삼성서울병원 메뉴얼; [AGA IDA 내시경 권고](https://gastro.org/news/aga-recommends-bidirectional-endoscopy-for-most-patients-with-iron-deficiency-anemia/); [AGA 철결핍 치료 업데이트](https://gastro.org/clinical-guidance/management-of-iron-deficiency-anemia/)
+## 출처
+- 삼성서울병원 메뉴얼; [AGA IDA 내시경 권고](https://gastro.org/news/aga-recommends-bidirectional-endoscopy-for-most-patients-with-iron-deficiency-anemia/); [AGA 철결핍 치료 업데이트](https://gastro.org/clinical-guidance/management-of-iron-deficiency-anemia/)

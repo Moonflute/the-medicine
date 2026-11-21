@@ -63,6 +63,8 @@ sources: ["AHA/ASA ICH 지침 | https://doi.org/10.1161/STR.0000000000000407"]
 - 조기 진단 및 치료 여부에 따라 예후가 결정됨.
 - 주요 합병증: 뇌부종, 출혈성 변환, 뇌전증, 신경학적 후유증(장애).
 
-출처 : StatPearls (Cerebrovascular Disease)
+## 출처
+- StatPearls (Cerebrovascular Disease)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

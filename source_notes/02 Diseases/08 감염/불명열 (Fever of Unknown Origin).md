@@ -56,9 +56,10 @@ reviewed_at: "2026-07-30"
 - 원인 질환에 따라 다양함
 - 약 10%의 환자에서는 끝까지 원인이 밝혀지지 않으나, 대개 자연 치유되거나 예후가 양호함
 
-출처 : Merck Manual Professional (Fever of Unknown Origin), [FUO 국제 합의 권고(2024)](https://academic.oup.com/ofid/article/11/7/ofae298/7689389)
+## 출처
+- Merck Manual Professional (Fever of Unknown Origin), [FUO 국제 합의 권고(2024)](https://academic.oup.com/ofid/article/11/7/ofae298/7689389)
+- 삼성서울병원 메뉴얼
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
-
-보완 출처: 삼성서울병원 메뉴얼

@@ -53,6 +53,8 @@ sources: ["AAO-HNSF 2020 | https://doi.org/10.1177/0194599819889955"]
 - 합병증: 재출혈, 비중격 천공, 감염(부비동염, 독성 쇼크 증후군), 기도 폐쇄(후방 패킹 시)
 - 관리: 지혈 후 비강 보습(생리식염수 스프레이), 코 후비기 금지, 기저질환(혈압 등) 조절
 
-출처 : StatPearls (Epistaxis, Anterior Epistaxis Nasal Pack)
+## 출처
+- StatPearls (Epistaxis, Anterior Epistaxis Nasal Pack)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -56,6 +56,8 @@ sources: ["NICE NG126 | https://www.nice.org.uk/guidance/ng126/chapter/managemen
 - 많은 경우 정상 임신으로 진행되나, 일부는 자연 유산으로 진행될 수 있음.
 - 유산으로 진행 시 통증 및 출혈량 증가, 자궁경부 개대 등의 증상이 나타남.
 
-출처 : StatPearls (Abortion, Abortion Complications)
+## 출처
+- StatPearls (Abortion, Abortion Complications)
+
 Last updated :
 2026-07-15 — 중복 본문 정리 (Tier 3)

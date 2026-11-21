@@ -56,6 +56,8 @@ sources: ["BTF 수술 지침 | https://braintrauma.org/coma/guidelines/surgical"
 - **합병증**: 뇌부종, 뇌탈출, 뇌수두증, 외상 후 경련, 장기적인 신경인지 및 운동 기능 장애
 - **예후**: 초기 손상 정도와 적절한 감압 수술 여부에 따라 결정됨
 
-출처 : StatPearls (Subdural Hematoma)
+## 출처
+- StatPearls (Subdural Hematoma)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

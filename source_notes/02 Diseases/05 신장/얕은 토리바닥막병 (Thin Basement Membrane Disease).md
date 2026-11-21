@@ -47,7 +47,9 @@ reviewed_at: "2026-07-30"
 - 단독 혈뇨·정상 신기능에서는 경과가 양호한 경우가 많음
 - COL4 변이 관련 CKD/신부전 위험은 0이 아니므로 단백뇨·고혈압·eGFR 저하 추적
 
-출처 : Merck Manual Professional; [ERKNet/ERA/ESPN Alport guideline 2024](https://doi.org/10.1093/ndt/gfae265)
+## 출처
+- Merck Manual Professional; [ERKNet/ERA/ESPN Alport guideline 2024](https://doi.org/10.1093/ndt/gfae265)
+
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)

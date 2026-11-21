@@ -74,6 +74,8 @@ sources: ["2026 공동 지침 | https://doi.org/10.1002/jpn3.70447"]
 * 기질적 원인 시 근본적인 수술적 또는 내과적 치료 필요
 * 합병증: 치열, 치질, 직장 탈출증, 분변 매복, 유분증(소아)
 
-출처 : StatPearls (Constipation, Opioid-Induced Constipation); [Rome Foundation 소아 Rome IV](https://theromefoundation.org/rome-iv/rome-iv-criteria/); [RCH 소아 변비 검사 지침](https://www.rch.org.au/clinicalguide/guideline_index/constipation/)
+## 출처
+- StatPearls (Constipation, Opioid-Induced Constipation); [Rome Foundation 소아 Rome IV](https://theromefoundation.org/rome-iv/rome-iv-criteria/); [RCH 소아 변비 검사 지침](https://www.rch.org.au/clinicalguide/guideline_index/constipation/)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

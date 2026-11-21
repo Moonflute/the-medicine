@@ -54,6 +54,8 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cer
 * 적절한 치료 시 완치 가능.
 * 치료 지연 시 부고환염, 전립선염, 불임, 골반염(여성) 등의 합병증 발생 가능.
 
-출처 : StatPearls (Urethritis)
+## 출처
+- StatPearls (Urethritis)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

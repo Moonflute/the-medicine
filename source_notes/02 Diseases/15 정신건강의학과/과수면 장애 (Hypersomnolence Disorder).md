@@ -53,7 +53,8 @@ relation_to_parent: subtype
 ## 6. 예후 및 합병증
 - 만성적인 주간 졸음은 업무/학업 수행 능력 저하, 교통사고 위험 증가, 삶의 질 저하를 초래함.
 
-출처: [SAMHSA 과수면장애 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t35/)
+## 출처
+- [SAMHSA 과수면장애 기준](https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t35/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

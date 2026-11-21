@@ -50,7 +50,9 @@ sources: ["ESC ACS 지침 2023 | https://doi.org/10.1093/eurheartj/ehad191"]
 ## 6. 예후 및 합병증 (Prognosis)
 - 심인성 쇼크, 심부전, 방실차단(AV block) 등이 발생할 수 있다.
 
-출처 : StatPearls (Infarct Avid Imaging Study)
+## 출처
+- StatPearls (Infarct Avid Imaging Study)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

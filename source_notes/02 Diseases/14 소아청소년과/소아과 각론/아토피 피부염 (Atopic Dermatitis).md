@@ -61,6 +61,8 @@ sources: ["NICE NG190 | https://www.nice.org.uk/guidance/ng190/chapter/Recommend
 * 만성적 재발성 경과를 보이나 성장하며 호전되는 경향 있음
 - **합병증**: 이차 세균 감염(황색포도알균 등), Kaposi 수두양 발진, 천식 및 알레르기 비염 동반(아토피 행진)
 
-출처 : StatPearls Atopic Dermatitis
+## 출처
+- StatPearls Atopic Dermatitis
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

@@ -48,4 +48,5 @@ sources: ["ACG 2025 | https://gi.org/journals-publications/ebgi/eluri_feb2025/"]
 ## 6. 예후 및 합병증 (Prognosis)
 - 재발성 경과를 보일 수 있으며 음식 매복과 섬유성 협착이 주요 합병증이다. 증상 호전 후에도 유지치료와 재평가를 계획한다.
 
-출처: 삼성서울병원 메뉴얼.
+## 출처
+- 삼성서울병원 메뉴얼.

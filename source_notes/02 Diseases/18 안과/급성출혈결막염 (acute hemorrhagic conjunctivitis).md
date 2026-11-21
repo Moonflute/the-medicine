@@ -50,6 +50,8 @@ sources: ["AAO 결막염 권고 | https://www.aao.org/education/summary-benchmar
 - 대부분 1~2주 내에 자연 치유
 - 드물게 각막염이나 신경학적 합병증(사지 마비 등)이 발생할 수 있으므로 주의 관찰
 
-출처 : 질병관리청 감염병포털
+## 출처
+- 질병관리청 감염병포털
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

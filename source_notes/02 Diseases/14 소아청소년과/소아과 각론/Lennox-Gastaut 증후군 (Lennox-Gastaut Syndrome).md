@@ -54,7 +54,7 @@ sources: ["NICE NG217 | https://www.nice.org.uk/guidance/ng217/chapter/6-Treatin
 * 치료 저항성이 강하며, 인지 기능 저하 및 발달 퇴행이 지속되는 경우가 많음
 * 조기 진단 및 다학제적 관리를 통한 삶의 질 개선이 중요
 
-출처:
+## 출처
 - [ILAE: Lennox–Gastaut diagnostic criteria](https://www.epilepsydiagnosis.org/syndrome/lgs-diagcriteria.html)
 
 Last updated :

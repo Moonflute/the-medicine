@@ -59,7 +59,9 @@ sources: ["CDC Campylobacter 지침 | https://www.cdc.gov/campylobacter/hcp/clin
 ## 6. 예후 및 합병증 (Prognosis)
 - 길랑-바레 증후군 (Guillain-Barré syndrome), 반응성 관절염, 포도막염, 용혈성 빈혈, 용혈성 요독 증후군 등이 발생할 수 있다.
 
-출처 : Merck Manual Professional (Campylobacter Infections)
+## 출처
+- Merck Manual Professional (Campylobacter Infections)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

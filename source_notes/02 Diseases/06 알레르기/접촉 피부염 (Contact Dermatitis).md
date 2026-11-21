@@ -51,8 +51,10 @@ content_updated_at: "2026-07-30"
 ## 6. 예후 및 합병증 (Prognosis)
 - 원인 물질 회피 시 예후가 좋으나, 반복 노출 시 만성 습진화되거나 자가습진화(id reaction)가 발생할 수 있다.
 
-출처 : Merck Manual Professional (Contact Dermatitis)
-보완 근거: [BAD 접촉피부염 지침 2017](https://academic.oup.com/bjd/article/176/2/317/6601881).
+## 출처
+- Merck Manual Professional (Contact Dermatitis)
+- [BAD 접촉피부염 지침 2017](https://academic.oup.com/bjd/article/176/2/317/6601881).
+
 Last updated :
 2024-07-29 — 초안 분리 정리
 2026-05-18 — 본문 갱신 (codex fill)

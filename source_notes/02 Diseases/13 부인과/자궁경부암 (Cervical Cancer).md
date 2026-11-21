@@ -104,6 +104,8 @@ sources: ["ESGO·ESTRO·ESP 자궁경부암 진료지침 | https://pmc.ncbi.nlm.
 ## 6. 예후 및 합병증 (Prognosis)
 - 조기 발견 시 예후가 좋으나, 진행성 병기에서는 림프절 전이 여부가 예후의 핵심 인자임
 
-출처 : StatPearls (Cervical Cancer, 2026)
+## 출처
+- StatPearls (Cervical Cancer, 2026)
+
 Last updated :
 2026-07-15 — 중복 본문 정리

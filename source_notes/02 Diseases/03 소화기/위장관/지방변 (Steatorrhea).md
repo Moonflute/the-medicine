@@ -56,7 +56,9 @@ sources: ["유럽 췌장 외분비부전 지침 | https://pmc.ncbi.nlm.nih.gov/a
 - 기저 질환의 조절 여부에 따라 예후가 결정됨
 - 영양 결핍, 골다공증, 지용성 비타민 결핍증 등의 합병증 발생 가능
 
-출처 : StatPearls (Steatorrhea, 2023); [Mayo 대변 지방 검사](https://www.mayocliniclabs.com/test-catalog/overview/607701); [AGA EPI 지침](https://gastro.org/clinical-guidance/epidemiology-evaluation-management-exocrine-pancreatic-insufficiency/).
+## 출처
+- StatPearls (Steatorrhea, 2023); [Mayo 대변 지방 검사](https://www.mayocliniclabs.com/test-catalog/overview/607701); [AGA EPI 지침](https://gastro.org/clinical-guidance/epidemiology-evaluation-management-exocrine-pancreatic-insufficiency/).
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)

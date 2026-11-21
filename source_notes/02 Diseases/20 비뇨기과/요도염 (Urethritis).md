@@ -51,7 +51,9 @@ sources: ["CDC | https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cer
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료 시 대부분 완치되나, 방치 시 부고환염, 전립선염, 불임, 골반염(여성) 등의 합병증 발생 가능.
 
-출처 : StatPearls (Urethritis, 2024)
+## 출처
+- StatPearls (Urethritis, 2024)
 - [CDC: Urethritis and Cervicitis](https://www.cdc.gov/std/treatment-guidelines/urethritis-and-cervicitis.htm)
+
 Last updated :
 2026-05-19 — 본문 갱신 (codex fill)

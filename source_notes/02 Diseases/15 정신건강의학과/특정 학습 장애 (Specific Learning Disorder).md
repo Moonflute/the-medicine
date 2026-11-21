@@ -51,7 +51,8 @@ relation_to_parent: subtype
 - 예후: 조기 발견 및 맞춤형 개입 시 학업적 성취 및 기능적 독립 가능.
 - 합병증: 학업 중단, 우울증, 불안 장애, 대인관계 갈등, 낮은 자존감.
 
-출처: [APA 특정 학습장애](https://www.psychiatry.org/patients-families/specific-learning-disorder/what-is-specific-learning-disorder)
+## 출처
+- [APA 특정 학습장애](https://www.psychiatry.org/patients-families/specific-learning-disorder/what-is-specific-learning-disorder)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

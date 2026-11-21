@@ -63,6 +63,8 @@ content_updated_at: "2026-11-17"
 - **합병증**: 복강 내 패혈증, 지연성 비장 파열, 진단 및 치료 지연, 부적절한 소생술로 인한 장기 부전.
 - **예후**: 다발성 장기 손상 및 쇼크 동반 시 사망률이 증가할 수 있으나, 조기 진단 및 외상 센터의 체계적 접근으로 예후 개선 중.
 
-출처 : StatPearls (Blunt Abdominal Trauma)
+## 출처
+- StatPearls (Blunt Abdominal Trauma)
+
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)

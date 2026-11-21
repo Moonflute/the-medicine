@@ -55,7 +55,8 @@ relation_to_parent: subtype
 - 조기 발견 및 개입 시 예후가 개선됨.
 - 방치 시 성인기 대인관계 문제, 고위험 행동, 물질 남용, 법적 문제 발생 가능성 증가.
 
-출처: [CEBC DSM-5 반응성 애착장애 기준](https://www.cebc4cw.org/dsm-5-criteria-for-reactive-attachment-disorder-rad/)
+## 출처
+- [CEBC DSM-5 반응성 애착장애 기준](https://www.cebc4cw.org/dsm-5-criteria-for-reactive-attachment-disorder-rad/)
 
 Last updated :
 2026-07-23 — 본문 갱신 (codex fill)

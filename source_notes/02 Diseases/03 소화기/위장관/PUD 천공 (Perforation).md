@@ -51,7 +51,9 @@ content_updated_at: "2026-07-17"
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료가 지연될 경우 복막염, 패혈증, 다장기 부전으로 인한 높은 사망률을 보임
 
-출처 : Merck Manual Professional (Acute Perforation of the Gastrointestinal Tract)
+## 출처
+- Merck Manual Professional (Acute Perforation of the Gastrointestinal Tract)
+
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
