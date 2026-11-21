@@ -32,6 +32,22 @@ mocks['@/components/pixel-ui'] = load('components/pixel-ui.tsx');
 mocks['@/components/qbank-skip-controls'] = load('components/qbank-skip-controls.tsx');
 const skin = load('components/skin-question.tsx');
 const { QbankProgressFilters } = load('components/qbank-progress-filters.tsx');
+const { QbankQuestionNumbers } = load('components/qbank-question-numbers.tsx');
+
+test('all numbers opens a labeled native dialog without rendering the closed grid', () => {
+  const html = renderToStaticMarkup(h(QbankQuestionNumbers, {
+    questionIds: ['q1', 'q2'], currentIndex: 0, answers: new Map([['q1', { correct: true }]]),
+    drafts: {}, selected: null, skippedIds: [], onMove() {},
+  }));
+  const id = html.match(/aria-controls="([^"]+)"/)?.[1];
+  assert.ok(id);
+  assert.ok(html.includes('aria-haspopup="dialog"'));
+  assert.ok(html.includes(`<dialog id="${id}" class="qbank-number-dialog" aria-labelledby="${id}-title"`));
+  assert.ok(html.includes(`<h2 id="${id}-title">전체 번호</h2>`));
+  assert.match(html, /제출 1\/2/);
+  assert.match(html, /aria-label="전체 번호 닫기"/);
+  assert.doesNotMatch(html, /qbank-number-cell/);
+});
 
 test('compact progress checkboxes switch between unattempted and wrong instead of combining them', () => {
   let value = 'all';

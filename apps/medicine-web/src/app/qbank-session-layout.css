@@ -15,6 +15,56 @@
 .qbank-session-progress > .qbank-reference-toolbar { flex-shrink:0; order:1; margin:0 0 0 auto; }
 .qbank-session-progress > :is(.qbank-skipped-navigation,[aria-label="문제 번호 이동"]) { order:2; }
 .qbank-session-progress-track { min-width:40px; }
+
+/* Native top layer: independent of sticky toolbars and split-pane clipping. */
+.qbank-number-dialog {
+  --number-inline-clearance:max(.75rem,env(safe-area-inset-left,0px),env(safe-area-inset-right,0px));
+  --number-block-clearance:max(.75rem,env(safe-area-inset-top,0px),env(safe-area-inset-bottom,0px));
+  position:fixed;
+  inset:0;
+  margin:auto;
+  width:min(calc(100% - 2 * var(--number-inline-clearance)), max(17rem,calc(var(--qbank-number-columns) * 2.35rem + 2.5rem)));
+  max-width:none;
+  max-height:min(32rem,calc(100dvh - 2 * var(--number-block-clearance)));
+  padding:0;
+  overflow:hidden;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:var(--surface);
+  color:var(--foreground);
+  box-shadow:0 12px 40px rgb(0 0 0 / .22);
+}
+.qbank-number-dialog[open] { display:flex; flex-direction:column; }
+.qbank-number-dialog::backdrop { background:rgb(15 23 42 / .42); }
+html:has(.qbank-number-dialog) { scrollbar-gutter:stable; }
+html:has(.qbank-number-dialog[open]) { overflow:hidden; }
+.qbank-number-heading { display:flex; flex:none; flex-wrap:wrap; align-items:center; gap:4px 9px; padding:5px 9px 5px 12px; border-bottom:1px solid var(--line); }
+.qbank-number-heading h2 { margin:0; font-size:14px; font-weight:650; }
+.qbank-number-heading span { color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums; white-space:nowrap; }
+.qbank-number-close { display:grid; flex:none; width:36px; height:36px; margin-inline-start:auto; place-items:center; border-radius:6px; color:var(--muted); cursor:pointer; }
+.qbank-number-close:hover { background:var(--surface-subtle); color:var(--foreground); }
+.qbank-number-grid { display:grid; min-height:0; grid-template-columns:repeat(auto-fill,minmax(min(100%,2.25rem),1fr)); align-content:start; gap:.25rem; overflow:auto; overscroll-behavior:contain; padding:.75rem; }
+.qbank-number-cell { display:grid; place-items:center; min-height:2rem; min-width:0; padding:0; border:1px solid var(--line); border-radius:6px; background:var(--surface); color:var(--muted); font-size:.8125rem; line-height:1.2; font-variant-numeric:tabular-nums; cursor:pointer; }
+.qbank-number-cell[data-status="omitted"] { background:var(--surface-subtle); }
+.qbank-number-cell[data-status="correct"] { --number-tone:light-dark(#0f766e,#5eead4); }
+.qbank-number-cell[data-status="wrong"] { --number-tone:light-dark(#be123c,#fda4af); }
+.qbank-number-cell[data-status="skipped"] { --number-tone:light-dark(#92400e,#fcd34d); }
+.qbank-number-cell[data-status="draft"] { --number-tone:light-dark(#1d4ed8,#93c5fd); }
+.qbank-number-cell:is([data-status="correct"],[data-status="wrong"],[data-status="skipped"],[data-status="draft"]) { color:var(--number-tone); border-color:color-mix(in srgb,var(--number-tone) 30%,var(--line)); background:color-mix(in srgb,var(--number-tone) 9%,var(--surface)); }
+.qbank-number-cell:hover { border-color:var(--primary); }
+.qbank-number-cell[aria-current="step"] { border-color:var(--primary); box-shadow:inset 0 0 0 1px var(--primary); font-weight:700; }
+:is(.qbank-number-trigger,.qbank-number-dialog button):focus-visible { outline:2px solid var(--primary); outline-offset:1px; }
+html:is([data-theme="sheet"],[data-theme="terminal"],[data-theme="editor"],[data-theme="pixel"]) :is(.qbank-number-dialog,.qbank-number-cell,.qbank-number-close,.qbank-number-trigger) { border-radius:2px; }
+html[data-theme="pixel"] .qbank-number-dialog { border:2px solid var(--pixel-ink); box-shadow:4px 4px 0 #24314955; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .qbank-number-dialog { background:var(--chat-chrome); color:var(--chat-text); font-family:var(--chat-font-family); }
+@media (min-width:50rem) {
+  .qbank-number-grid { grid-template-columns:repeat(var(--qbank-number-columns),minmax(0,1fr)); }
+}
+@media (pointer:coarse) {
+  .qbank-number-cell { min-height:2.375rem; }
+  .qbank-number-close { width:40px; height:40px; }
+}
+
 .chat-attachment-actions .qbank-reference-toolbar { margin:0; }
 .chat-attachment-actions .qbank-reference-toolbar button { width:auto; min-height:36px; }
 .chat-tools-grid .qbank-reference-toolbar { display:contents; }

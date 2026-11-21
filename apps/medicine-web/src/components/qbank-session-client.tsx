@@ -59,6 +59,7 @@ import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession, saveCl
 import type { QbankSessionContext } from "@/lib/qbank-active-session";
 import { markQbankSkipped, qbankPassIndex, readQbankSkipState, resolveQbankSkipped, type QbankSkipState } from "@/lib/qbank-skips";
 import { QbankSkippedNavigation, QbankSkipPassActions } from "@/components/qbank-skip-controls";
+import { QbankQuestionNumbers } from "@/components/qbank-question-numbers";
 
 type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">> & { practiceIds?: string[]; practiceExamKey?: string; practiceExamTotal?: number };
 type SessionAnswer = QbankSessionAnswer;
@@ -941,18 +942,10 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           </select>
           <button type="button" className="h-9 rounded-md border border-slate-300 bg-white px-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50 disabled:opacity-40" disabled={qbankPassIndex(questionIds, currentIndex, skips, -1) < 0} onClick={previous}>이전</button>
           <button type="button" className="h-9 rounded-md border border-slate-300 bg-white px-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50 disabled:opacity-40" disabled={qbankPassIndex(questionIds, currentIndex, skips) < 0} onClick={() => showQuestion(qbankPassIndex(questionIds, currentIndex, skips))}>다음</button>
-          <details className="relative">
-            <summary className="cursor-pointer list-none rounded-md border border-slate-300 bg-white px-2.5 py-2 text-xs font-medium text-slate-600 hover:bg-slate-50">전체 번호</summary>
-            <div className="absolute right-0 z-10 mt-2 grid max-h-64 w-[calc(100vw-2rem)] max-w-[38.5rem] grid-cols-[repeat(8,minmax(0,1fr))] gap-1 overflow-y-auto rounded-lg border border-slate-200 bg-white p-3 shadow-lg sm:grid-cols-[repeat(12,minmax(0,1fr))] lg:grid-cols-[repeat(20,minmax(0,1fr))]">
-              {questions.map((question, index) => {
-                const answer = answersById.get(question.id);
-                const chosen = index === currentIndex ? selected : drafts[question.id];
-                const skipped = skips.ids.includes(question.id);
-                const status = answer ? answer.correct === null ? "채점 제외" : answer.correct ? "정답" : "오답" : skipped ? "건너뜀" : chosen ? "선택 중" : "미응답";
-                return <button key={question.id} type="button" aria-current={index === currentIndex ? "step" : undefined} aria-label={`${index + 1}번 · ${status}`} title={`${index + 1}번 · ${status}`} onClick={() => showQuestion(index)} className={`h-[27px] w-full min-w-0 rounded-md border p-0 text-[11px] tabular-nums ${index === currentIndex ? "ring-2 ring-teal-600 ring-offset-1" : ""} ${answer ? answer.correct === null ? "border-slate-200 bg-slate-100" : answer.correct ? "border-teal-200 bg-teal-50 text-teal-800" : "border-rose-200 bg-rose-50 text-rose-800" : skipped ? "border-amber-400 bg-amber-50 text-amber-900" : chosen ? "border-blue-200 bg-blue-50 text-blue-800" : "border-slate-200 bg-white text-slate-600"}`}>{index + 1}</button>;
-              })}
-            </div>
-          </details>
+          <QbankQuestionNumbers questionIds={questionIds} currentIndex={currentIndex} answers={answersById} drafts={drafts} selected={selected} skippedIds={skips.ids} onMove={index => {
+            setFinishConfirm(false);
+            showQuestion(index);
+          }} />
           <span className="text-xs text-slate-500">제출 {answers.length}/{questions.length}</span>
         </div></ChatOptionalTools>
       }</div>
