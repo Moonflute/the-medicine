@@ -1,31 +1,38 @@
 "use client";
 
-import { useEffect, useReducer, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { QbankStartBar } from "@/components/qbank-start-bar";
-import { practiceVersionIds, selectedPracticeExamKey, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { QbankProgressFilters } from "@/components/qbank-progress-filters";
+import { selectedPracticeExamKey, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { createQbankProgressMatcher, qbankQuestionProgressIds, type QbankProgressFilter } from "@/lib/qbank-progress-filter";
 import { QBANK_ROUND_DEFAULT_MINUTES, QBANK_ROUND_MAX_MINUTES, readRoundLimitMinutes } from "@/lib/qbank-round-timer";
-import { isQbankProgressedInCurrentView, loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT } from "@/lib/qbank-store";
+import { loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT, type QbankState } from "@/lib/qbank-store";
 
 export function PracticeStartControls({ total, questions, filters, exam = false, round = false, label, appearance = "default", topControlsTarget }: {
   total: number; questions: PracticeIndex[]; filters: PracticeFilters; exam?: boolean; round?: boolean; label?: string;
   appearance?: "default" | "chat"; topControlsTarget?: HTMLDivElement | null;
 }) {
   const [count, setCount] = useState(() => String(total));
-  const [unattemptedOnly, setUnattemptedOnly] = useState(false);
+  const [progressFilter, setProgressFilter] = useState<QbankProgressFilter>("all");
+  const [progressState, setProgressState] = useState<Pick<QbankState, "progress" | "wrongIds">>({ progress: {}, wrongIds: [] });
+  const [resetAt, setResetAt] = useState<string | null>(null);
   const [timeLimitEnabled, setTimeLimitEnabled] = useState(false);
   const [timeLimit, setTimeLimit] = useState(String(QBANK_ROUND_DEFAULT_MINUTES));
-  const [, refreshProgress] = useReducer((value: number) => value + 1, 0);
   useEffect(() => {
-    const refresh = () => refreshProgress();
+    const refresh = () => {
+      setProgressState(loadQbankState());
+      setResetAt(loadQbankProgressViewResetAt());
+    };
+    refresh();
     window.addEventListener(QBANK_CHANGE_EVENT, refresh);
-    return () => window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
+    window.addEventListener("storage", refresh);
+    return () => {
+      window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
+      window.removeEventListener("storage", refresh);
+    };
   }, []);
-  const countRemaining = () => {
-    const state = loadQbankState();
-    const resetAt = loadQbankProgressViewResetAt();
-    return questions.filter(question => !practiceVersionIds(question).some(id => isQbankProgressedInCurrentView(state.progress[id], resetAt))).length;
-  };
-  const available = unattemptedOnly ? countRemaining() : total;
+  const matchesProgress = useMemo(() => createQbankProgressMatcher(progressState, progressFilter, resetAt), [progressState, progressFilter, resetAt]);
+  const available = progressFilter === "all" ? total : questions.filter(question => matchesProgress(qbankQuestionProgressIds(question))).length;
   const valid = available > 0 && /^\d+$/.test(count) && Number(count) >= 1 && Number(count) <= available;
   const timed = round && timeLimitEnabled;
   const minutes = timed ? readRoundLimitMinutes(timeLimit) : undefined;
@@ -33,7 +40,7 @@ export function PracticeStartControls({ total, questions, filters, exam = false,
   const href = (ordered: boolean) => {
     const params = new URLSearchParams({ mode: ordered ? "practice-book" : "selection", practiceOnly: "1", count, practiceSeries: (filters.series ?? []).join(","), practiceDepartments: (filters.departments ?? []).join(","), practiceSpecialties: filters.specialties.join(","), practiceYears: filters.years.join(","), practiceBooks: filters.books.join(",") });
     if (round || ordered) params.set("practiceExam", round ? selectedPracticeExamKey(filters) ?? "" : "");
-    if (unattemptedOnly) params.set("practiceUnattempted", "1");
+    if (progressFilter !== "all") params.set("progress", progressFilter);
     if (exam) params.set("exam", "1");
     if (minutes !== undefined) {
       params.set("practiceRound", "1");
@@ -43,7 +50,7 @@ export function PracticeStartControls({ total, questions, filters, exam = false,
   };
   return <QbankStartBar
     label={label ? `${label} 실전문제 시작` : "실전문제 시작"}
-    summary={`${unattemptedOnly ? "미풀이" : "선택"} ${available.toLocaleString()}문항`}
+    summary={`${progressFilter === "wrong" ? "미해결 오답" : progressFilter === "unattempted" ? "미풀이" : "선택"} ${available.toLocaleString()}문항`}
     count={count}
     max={available}
     onCountChange={setCount}
@@ -51,16 +58,12 @@ export function PracticeStartControls({ total, questions, filters, exam = false,
     error={!valid && available > 0 ? `1~${available.toLocaleString()} 사이의 정수를 입력하세요.` : undefined}
     appearance={appearance}
     topControlsTarget={topControlsTarget}
-    options={<><label className="inline-flex cursor-pointer items-center gap-1 whitespace-nowrap">
-      <input type="checkbox" checked={unattemptedOnly} onChange={(event) => {
-        const next = event.target.checked;
-        if (next) {
-          const remaining = countRemaining();
-          if (remaining > 0 && Number(count) > remaining) setCount(String(remaining));
-        }
-        setUnattemptedOnly(next);
-      }} className="size-3.5 accent-teal-600" />미풀이만
-    </label>
+    options={<><QbankProgressFilters value={progressFilter} onChange={next => {
+      const matchesNext = createQbankProgressMatcher(progressState, next, resetAt);
+      const remaining = questions.filter(question => matchesNext(qbankQuestionProgressIds(question))).length;
+      if (remaining > 0 && (Number(count) > remaining || Number(count) < 1)) setCount(String(remaining));
+      setProgressFilter(next);
+    }} />
     {round && <label className="inline-flex cursor-pointer items-center gap-1 whitespace-nowrap">
       <input type="checkbox" disabled={total === 0} checked={timeLimitEnabled} onChange={event => setTimeLimitEnabled(event.target.checked)} className="size-3.5 accent-teal-600" />제한시간 사용
     </label>}

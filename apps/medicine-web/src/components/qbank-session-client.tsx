@@ -54,6 +54,7 @@ import { QbankEditButton } from "@/components/qbank-edit-button";
 import { RelatedTheoryLauncher } from "@/components/related-theory-launcher";
 import { filterRelatedTheoryQuestions, parseRelatedTheoryTopicKeys, relatedTheoryTopicKey, type RelatedTheoryTopic } from "@/lib/qbank-related-theory";
 import { qbankSessionContextFromParams } from "@/lib/qbank-session-context";
+import { createQbankProgressMatcher, qbankProgressFilterFromParams, qbankQuestionProgressIds, type QbankProgressFilter } from "@/lib/qbank-progress-filter";
 import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession, saveCloudActiveQbankSession, saveCloudActiveQbankSessionOnPageExit } from "@/lib/qbank-active-session-cloud";
 import type { QbankSessionContext } from "@/lib/qbank-active-session";
 import { markQbankSkipped, qbankPassIndex, readQbankSkipState, resolveQbankSkipped, type QbankSkipState } from "@/lib/qbank-skips";
@@ -146,7 +147,7 @@ function DrugLinks({ drugs }: { drugs: QbankQuestion["relatedDrugs"] }) {
   return <div className="qbank-feedback-drugs mt-3"><p className="mb-1.5 text-xs font-semibold text-slate-600">관련 약물</p><div className="qbank-feedback-links flex flex-wrap gap-2">{drugs.map((drug) => <Link key={drug.slug} href={`/drugs/${drug.slug}`} className="pill hover:border-teal-500">{drug.title}</Link>)}</div></div>;
 }
 
-async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters, practiceUnattemptedOnly = false, relatedTopicKeys = ""): Promise<SessionQuestion[]> {
+async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string, specialty: string, disease: string, targetIds?: Set<string>, theorySpecialties = "", clinicalSpecialties = "", targetType = "", targetSlug = "", targetSlugs = "", practiceFilters?: PracticeFilters, progressFilter: QbankProgressFilter = "all", relatedTopicKeys = ""): Promise<SessionQuestion[]> {
   if (mode === "study-flow" && !targetIds?.size) throw new Error("연결된 문제 정보를 확인하지 못했습니다.");
   if (mode === "retry" && !targetIds?.size) throw new Error("재풀이 목록이 만료되었습니다. 결과 화면이나 학습 통계에서 다시 선택해 주세요.");
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
@@ -205,23 +206,25 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
     ));
   }
   if ((mode === "all" || mode === "study-flow") && targetIds) candidates = candidates.filter(item => targetIds.has(item.id));
+  const state = loadQbankState();
+  const resetAt = loadQbankProgressViewResetAt();
+  const matchesProgress = createQbankProgressMatcher(state, ["selection", "related", "practice-book"].includes(mode) ? progressFilter : "all", resetAt);
+  candidates = candidates.filter(item => matchesProgress([item.id]));
   let privateQuestions: SessionQuestion[] = [];
   const wantsPrivate = hasPracticeSelection(practiceFilters) || (mode === "all" && !targetIds) || ["unattempted", "wrong", "bookmarks"].includes(mode) || (["all", "retry", "study-flow"].includes(mode) && [...(targetIds ?? [])].some(id => id.startsWith("QB-")));
   if (wantsPrivate) {
-    const state = loadQbankState();
     const trackedIds = targetIds ?? (mode === "wrong" ? new Set(state.wrongIds) : mode === "bookmarks" ? new Set(state.bookmarkIds) : undefined);
     const trackedSources = new Set([...(trackedIds ?? [])].map(practiceSourceQuestionId));
     // Saved sessions pass "all" with explicit IDs. Do not substitute content
     // into a draft, historical score, or bookmark stored for an old version.
     const savedIds = mode === "all" ? targetIds : undefined;
     const { questions: privateIndex } = await loadPracticeIndex(!savedIds);
-    const resetAt = loadQbankProgressViewResetAt();
     const selection = privateIndex.filter((q) => {
       if (mode === "wrong" || mode === "bookmarks" || mode === "retry") return trackedSources.has(q.id);
       if (mode === "all" || mode === "study-flow") return targetIds ? trackedSources.has(q.id) : true;
       if (mode === "unattempted") return !practiceVersionIds(q).some(id => isQbankProgressedInCurrentView(state.progress[id], resetAt));
       if (!practiceFilters || !matchesPractice(q, practiceFilters)) return false;
-      if (practiceUnattemptedOnly && practiceVersionIds(q).some(id => isQbankProgressedInCurrentView(state.progress[id], resetAt))) return false;
+      if (!matchesProgress(qbankQuestionProgressIds(q))) return false;
       if (mode !== "related") return true;
       const scope = targetSlugs.split(",").filter(Boolean);
       return targetType === "disease" ? q.relatedDiseaseSlugs.some((slug) => (scope.length ? scope : [targetSlug]).includes(slug)) : q.relatedCcSlugs.includes(targetSlug);
@@ -340,7 +343,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const targetSlug = params.get("target") || "";
     const targetSlugs = params.get("targets") || "";
     const relatedTopicKeys = params.get("relatedTopics") || "";
-    const practiceUnattemptedOnly = params.get("practiceUnattempted") === "1";
+    const progressFilter = qbankProgressFilterFromParams(params);
     const requestedContext = qbankSessionContextFromParams(params, specialties);
     const requestedCountValue = params.get("count") || (mode === "disease" ? "all" : "10");
     const storageKey = sessionStorageKey();
@@ -377,7 +380,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     const savedQuestionIds = snapshot ? new Set(snapshot.questionIds) : undefined;
     const practiceFilters = practiceFiltersFromParams(params);
     const request = savedQuestionIds ? loadQuestions(specialties, "all", "all", "", savedQuestionIds)
-      : loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, practiceFilters, practiceUnattemptedOnly, relatedTopicKeys);
+      : loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, practiceFilters, progressFilter, relatedTopicKeys);
     void request
       .then((loaded) => {
         if (cancelled || remoteSessionApplyingRef.current || appliedRemoteSessionVersionRef.current) return;

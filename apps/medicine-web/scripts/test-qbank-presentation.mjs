@@ -31,6 +31,25 @@ mocks['@/components/concept-question'] = load('components/concept-question.tsx')
 mocks['@/components/pixel-ui'] = load('components/pixel-ui.tsx');
 mocks['@/components/qbank-skip-controls'] = load('components/qbank-skip-controls.tsx');
 const skin = load('components/skin-question.tsx');
+const { QbankProgressFilters } = load('components/qbank-progress-filters.tsx');
+
+test('compact progress checkboxes switch between unattempted and wrong instead of combining them', () => {
+  let value = 'all';
+  const controls = () => QbankProgressFilters({ value, onChange: next => { value = next; } }).props.children.map(label => label.props.children[0]);
+  controls()[0].props.onChange({ target: { checked: true } });
+  assert.equal(value, 'unattempted');
+  assert.deepEqual(Array.from(controls(), input => input.props.checked), [true, false]);
+  controls()[1].props.onChange({ target: { checked: true } });
+  assert.equal(value, 'wrong');
+  assert.deepEqual(Array.from(controls(), input => input.props.checked), [false, true]);
+  controls()[1].props.onChange({ target: { checked: false } });
+  assert.equal(value, 'all');
+  const html = renderToStaticMarkup(h(QbankProgressFilters, { value: 'wrong', onChange() {} }));
+  assert.match(html, /aria-label="풀이 상태 필터"/);
+  assert.match(html, /선택 범위의 미해결 오답만 풀기/);
+  assert.match(html, /미풀이만/);
+  assert.match(html, /오답만/);
+});
 
 for (const theme of themes.THEME_IDS) {
   test(`${theme}: reference resources start expanded and carry reference-link scope`, () => {

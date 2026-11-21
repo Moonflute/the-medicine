@@ -1,5 +1,6 @@
 import { activeSessionFrom, type QbankSessionContext, type QbankSessionTopic } from "./qbank-active-session";
 import { practiceFiltersFromParams, practiceMockExamLabel, practiceMockExamTitle, selectedPracticeExamKey } from "./practice-selection";
+import { qbankProgressFilterFromParams } from "./qbank-progress-filter";
 import type { QbankSpecialtySummary } from "./types";
 
 function values(value: string | null): string[] {
@@ -40,6 +41,7 @@ export function qbankSessionContextFromParams(params: URLSearchParams, specialti
   const explicitSummary = params.get("sessionSummary")?.trim();
   const topics = readTopicMeta(params.get("topicMeta"));
   const requestedCount = /^\d+$/.test(params.get("count") ?? "") ? Number(params.get("count")) : undefined;
+  const progressFilter = qbankProgressFilterFromParams(params);
   const theoryNames = selectedSpecialtyNames(params.get("theory"), specialties);
   const clinicalNames = selectedSpecialtyNames(params.get("clinical"), specialties);
   const examKey = selectedPracticeExamKey(practiceFiltersFromParams(params));
@@ -53,7 +55,8 @@ export function qbankSessionContextFromParams(params: URLSearchParams, specialti
   if (theoryNames.length) settings.push(`이론 ${compact(theoryNames)}`);
   if (clinicalNames.length) settings.push(`임상 ${compact(clinicalNames)}`);
   if (practiceLabels.length) settings.push(`실전 ${compact(practiceLabels)}`);
-  if (params.get("practiceUnattempted") === "1") settings.push("미풀이만");
+  if (progressFilter === "unattempted") settings.push("미풀이만");
+  if (progressFilter === "wrong") settings.push("오답만");
   if (requestedCount) settings.push(`${requestedCount}문항`);
 
   let kind = explicitKind || mode;
@@ -80,7 +83,8 @@ export function qbankSessionContextFromParams(params: URLSearchParams, specialti
     ...(settings.length ? { settings } : {}),
     ...(requestedCount ? { requestedCount } : {}),
     order: mode === "practice-book" ? "book" : "random",
-    ...(params.get("practiceUnattempted") === "1" ? { unattempted: true } : {}),
+    ...(progressFilter === "unattempted" ? { unattempted: true } : {}),
+    ...(progressFilter === "wrong" ? { wrongOnly: true } : {}),
   };
   // Reuse the persisted-session parser so URL-provided display text receives
   // exactly the same bounds and validation as restored local/cloud metadata.

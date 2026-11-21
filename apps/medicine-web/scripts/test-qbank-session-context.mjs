@@ -15,7 +15,9 @@ const compile = (name, deps = {}) => {
 const grading = compile("qbank-grading.ts");
 const mockExam = compile("mock-exam.ts", { "./qbank-grading": grading });
 const activeSession = compile("qbank-active-session.ts", { "./qbank-grading": grading, "./mock-exam": mockExam, "./qbank-round-timer": compile("qbank-round-timer.ts"), "./qbank-elapsed-time": compile("qbank-elapsed-time.ts"), "./qbank-skips": compile("qbank-skips.ts") });
-const { qbankSessionContextFromParams } = compile("qbank-session-context.ts", { "./qbank-active-session": activeSession, "./practice-selection": compile("practice-selection.ts") });
+const practiceSelection = compile("practice-selection.ts");
+const progressFilters = compile("qbank-progress-filter.ts", { "./practice-selection": practiceSelection, "./qbank-progress": compile("qbank-progress.ts") });
+const { qbankSessionContextFromParams } = compile("qbank-session-context.ts", { "./qbank-active-session": activeSession, "./practice-selection": practiceSelection, "./qbank-progress-filter": progressFilters });
 const specialties = [
   { name: "01 순환기", slug: "cardiology", count: 10 },
   { name: "02 호흡기", slug: "pulmonology", count: 10 },
@@ -91,4 +93,93 @@ test("a shuffled mock round keeps the 2026-2 label in its saved context", () => 
   assert.equal(context.title, "2026-2 모의고사");
   assert.equal(context.summary, "실전 2026-2 · 50문항");
   assert.equal(context.order, "random");
+});
+
+test("wrong-only selection retains scope and filter labels when resumed", () => {
+  for (const scope of [{ theory: "disease:cardiology" }, { clinical: "pulmonology" }, { practiceOnly: "1", practiceYears: "2026", practiceDepartments: "내과" }]) {
+    const context = qbankSessionContextFromParams(new URLSearchParams({ mode: "selection", progress: "wrong", count: "5", ...scope }), specialties);
+    assert.equal(context.kind, "selection");
+    assert.equal(context.wrongOnly, true);
+    assert.equal(context.unattempted, undefined);
+    assert.match(context.summary, /오답만 · 5문항/);
+    const restored = activeSession.activeSessionFrom({ sessionId: "wrong-set", updatedAt: new Date(0).toISOString(), questionIds: ["q1"], answers: [], context });
+    assert.equal(restored.context.wrongOnly, true);
+    assert.equal(restored.context.summary, context.summary);
+  }
+});
+
+test("progress filters support legacy URLs and never combine unattempted with wrong", () => {
+  assert.equal(progressFilters.qbankProgressFilterFromParams(new URLSearchParams()), "all");
+  assert.equal(progressFilters.qbankProgressFilterFromParams(new URLSearchParams("practiceUnattempted=1")), "unattempted");
+  assert.equal(progressFilters.qbankProgressFilterFromParams(new URLSearchParams("progress=wrong&practiceUnattempted=1")), "wrong");
+  assert.equal(progressFilters.readQbankProgressFilter("invalid"), "all");
+});
+
+const attempt = (id, correct, time) => ({ questionId: id, attempts: 1, correctAttempts: Number(correct), lastCorrect: correct, lastAttemptedAt: time });
+test("wrong-only contains only unresolved questions; current-round resets affect only unattempted", () => {
+  const old = "2026-11-01T00:00:00Z", recent = "2026-11-21T00:00:00Z";
+  const state = { wrongIds: ["theory-wrong", "clinical-fixed", "manual"], progress: {
+    "theory-wrong": attempt("theory-wrong", false, old),
+    "clinical-fixed": attempt("clinical-fixed", true, recent),
+  } };
+  const ids = ["theory-wrong", "clinical-fixed", "manual", "never"];
+  const selected = (filter, resetAt = null) => ids.filter(id => progressFilters.createQbankProgressMatcher(state, filter, resetAt)([id]));
+  assert.deepEqual(selected("wrong"), ["theory-wrong", "manual"]);
+  assert.deepEqual(selected("wrong", "2026-11-10T00:00:00Z"), ["theory-wrong", "manual"]);
+  assert.deepEqual(selected("unattempted"), ["manual", "never"]);
+  assert.deepEqual(selected("unattempted", "2026-11-10T00:00:00Z"), ["theory-wrong", "manual", "never"]);
+  assert.deepEqual(selected("all"), ids);
+});
+
+test("practice aliases and revisions share their latest answer for wrong filtering", () => {
+  const question = { id: "QB-R-2024-IM-0001", revisionIds: ["QB-REV-202611-R-2024-IM-0001"], sourceIds: ["QB-P-2024-IM-0001"] };
+  const ids = progressFilters.qbankQuestionProgressIds(question);
+  const state = { wrongIds: [question.sourceIds[0]], progress: {
+    [question.sourceIds[0]]: attempt(question.sourceIds[0], false, "2026-11-01T00:00:00Z"),
+    [question.revisionIds[0]]: attempt(question.revisionIds[0], true, "2026-11-02T00:00:00Z"),
+  } };
+  assert.equal(progressFilters.createQbankProgressMatcher(state, "wrong", null)(ids), false);
+  state.progress[question.id] = attempt(question.id, false, "2026-11-03T00:00:00Z");
+  assert.equal(progressFilters.createQbankProgressMatcher(state, "wrong", null)(ids), true);
+  assert.equal(progressFilters.createQbankProgressMatcher(state, "wrong", null)(["QB-R-2024-GS-0001"]), false);
+  assert.equal(progressFilters.createQbankProgressMatcher(state, "unattempted", null)(ids), false);
+});
+
+test("session loading intersects wrong status with theory, clinical, subject and round selections, but not saved sets", async () => {
+  const publicQuestions = [
+    { id: "theory-wrong", questionBank: "theory", targetType: "disease", specialtySlug: "cardiology" },
+    { id: "theory-fixed", questionBank: "theory", targetType: "disease", specialtySlug: "cardiology" },
+    { id: "clinical-wrong", questionBank: "clinical", specialtySlug: "pulmonology" },
+    { id: "clinical-outside", questionBank: "clinical", specialtySlug: "cardiology" },
+  ];
+  const privateQuestions = [
+    { id: "QB-R-2026-IM-0001", examYear: 2026, bookDepartment: "내과" },
+    { id: "QB-R-2026-GS-0001", examYear: 2026, bookDepartment: "외과" },
+    { id: "QB-R-2025-IM-0001", examYear: 2025, bookDepartment: "내과" },
+  ].map(q => ({ ...q, bookId: "practice-r", bookSeries: "R", relatedDiseaseSlugs: [], relatedCcSlugs: [] }));
+  const all = [...publicQuestions, ...privateQuestions];
+  const state = { wrongIds: all.map(q => q.id), progress: { "theory-fixed": attempt("theory-fixed", true, "2026-11-21T00:00:00Z") } };
+  const source = fs.readFileSync(new URL("../src/components/qbank-session-client.tsx", import.meta.url), "utf8");
+  const parsed = ts.createSourceFile("session.tsx", source, ts.ScriptTarget.Latest, true, ts.ScriptKind.TSX);
+  const loader = parsed.statements.find(node => ts.isFunctionDeclaration(node) && node.name?.text === "loadQuestions");
+  assert.ok(loader, "Exercise the production session loader, not a copy of its filtering");
+  const context = {
+    ...practiceSelection, ...progressFilters, ...compile("qbank-theory-selection.ts"),
+    process: { env: {} },
+    loadQbankState: () => state, loadQbankProgressViewResetAt: () => null,
+    fetchJson: async url => url.endsWith("/index.json") ? publicQuestions : publicQuestions.filter(q => url.endsWith(`/${q.specialtySlug}.json`)),
+    loadPracticeIndex: async () => ({ questions: privateQuestions }),
+    loadPracticeQuestions: async ids => privateQuestions.filter(q => ids.includes(q.id)),
+  };
+  vm.runInNewContext(ts.transpileModule(loader.getText(parsed), { compilerOptions: { target: ts.ScriptTarget.ES2022 } }).outputText, context);
+  const filters = { books: [], specialties: [], years: ["2026"], departments: ["내과"] };
+  const selected = await context.loadQuestions(specialties, "selection", "all", "", undefined, "disease:cardiology", "pulmonology", "", "", "", filters, "wrong");
+  assert.deepEqual(Array.from(selected, q => q.id), ["theory-wrong", "clinical-wrong", "QB-R-2026-IM-0001"]);
+  const round = await context.loadQuestions(specialties, "practice-book", "all", "", undefined, "", "", "", "", "", { ...filters, departments: [], examKey: "2026" }, "wrong");
+  assert.deepEqual(Array.from(round, q => q.id), ["QB-R-2026-IM-0001", "QB-R-2026-GS-0001"]);
+  for (const q of selected) state.progress[q.id] = attempt(q.id, true, "2026-11-22T00:00:00Z");
+  const empty = await context.loadQuestions(specialties, "selection", "all", "", undefined, "disease:cardiology", "pulmonology", "", "", "", filters, "wrong");
+  assert.equal(empty.length, 0);
+  const resumed = await context.loadQuestions(specialties, "all", "all", "", new Set(selected.map(q => q.id)));
+  assert.deepEqual(Array.from(resumed, q => q.id), Array.from(selected, q => q.id));
 });

@@ -2,6 +2,7 @@
 
 import { ChatQbankLobby } from "@/components/chat-qbank-lobby";
 import { QbankStartBar } from "@/components/qbank-start-bar";
+import { QbankProgressFilters } from "@/components/qbank-progress-filters";
 import { useSkinTheme } from "@/components/theme-provider";
 import { SkinPanel } from "@/components/skin-panel";
 import { SkinStatus } from "@/components/skin-status";
@@ -15,7 +16,8 @@ import { EMPTY_PRACTICE_FILTERS, isListedQuestion, listedPracticeIds, matchesPra
 import { loadPracticeIndex } from "@/lib/practice-bank";
 import { completedPracticeExamKeys } from "@/lib/practice-achievements";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
-import { loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds } from "@/lib/qbank-store";
+import { loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds, type QbankState } from "@/lib/qbank-store";
+import { createQbankProgressMatcher, qbankQuestionProgressIds, readQbankProgressFilter, type QbankProgressFilter } from "@/lib/qbank-progress-filter";
 import { QBANK_DEFAULT_COUNT, readQbankQuestionCount } from "@/lib/qbank-question-count";
 import { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSessions, planActiveQbankSessionSync, remapLocalActiveQbankSession, saveLocalActiveQbankSession, type QbankActiveSession } from "@/lib/qbank-active-session";
 import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession, saveCloudActiveQbankSession } from "@/lib/qbank-active-session-cloud";
@@ -161,6 +163,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const selectedTheory = useMemo(() => normalizeTheorySelections(theorySelections, availableQuestions), [theorySelections, availableQuestions]);
   const [selectedClinical, setSelectedClinical] = useState<string[]>([]);
   const [count, setCount] = useState("10");
+  const [progressFilter, setProgressFilter] = useState<QbankProgressFilter>("all");
+  const [progressState, setProgressState] = useState<Pick<QbankState, "progress" | "wrongIds">>({ progress: {}, wrongIds: [] });
+  const [resetAt, setResetAt] = useState<string | null>(null);
   const [showUnattemptedDialog, setShowUnattemptedDialog] = useState(false);
   const [unattemptedCount, setUnattemptedCount] = useState("10");
   const [stats, setStats] = useState({ attempted: 0, wrong: 0, bookmarks: 0 });
@@ -184,6 +189,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   useEffect(() => {
     const refresh = () => {
       const state = loadQbankState();
+      setProgressState(state);
+      setResetAt(loadQbankProgressViewResetAt());
       const distinctQuestions = (ids: string[]) => new Set(ids.filter(id => isListedQuestion(id, practiceIds)).map(practiceSourceQuestionId)).size;
       setStats({ attempted: distinctQuestions(Object.keys(state.progress)), wrong: distinctQuestions(state.wrongIds), bookmarks: distinctQuestions(state.bookmarkIds) });
       const owner = window.localStorage.getItem(OWNER_KEY);
@@ -347,14 +354,16 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       });
       setTab(saved?.tab === "clinical" || saved?.tab === "practice" ? saved.tab : "theory");
       setCount(typeof saved?.count === "string" ? saved.count : "10");
+      setProgressFilter(readQbankProgressFilter(saved?.progressFilter));
     } catch { /* Storage is optional; in-memory selections remain available. */ }
     setLoadedDraft(draftKey);
   }, [draftKey, defaultPracticeOrder]);
   useEffect(() => {
     if (loadedDraft !== draftKey) return;
-    try { sessionStorage.setItem(draftKey, JSON.stringify({ tab, theory: selectedTheory, clinical: selectedClinical, practice: practiceDraft, count })); } catch { /* Storage unavailable. */ }
-  }, [loadedDraft, draftKey, tab, selectedTheory, selectedClinical, practiceDraft, count]);
+    try { sessionStorage.setItem(draftKey, JSON.stringify({ tab, theory: selectedTheory, clinical: selectedClinical, practice: practiceDraft, count, progressFilter })); } catch { /* Storage unavailable. */ }
+  }, [loadedDraft, draftKey, tab, selectedTheory, selectedClinical, practiceDraft, count, progressFilter]);
   const availablePractice = useMemo(() => practice.filter((q) => !relatedTarget || (relatedTarget.type === "disease" ? q.relatedDiseaseSlugs.some((slug) => (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).includes(slug)) : q.relatedCcSlugs.includes(relatedTarget.slug))), [practice, relatedTarget]);
+  const matchesProgress = useMemo(() => createQbankProgressMatcher(progressState, progressFilter, resetAt), [progressState, progressFilter, resetAt]);
   const totalQuestions = questions.length + practice.length;
   const practiceCount = availablePractice.filter((q) => matchesPractice(q, practiceFilters)).length;
   const selectedTheoryCount = availableQuestions.filter((q) => q.questionBank === "theory" && selectedTheory.includes(theorySelectionKey(q))).length;
@@ -363,9 +372,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const includeClinical = true;
   const includePractice = practiceFilters.order !== "book";
   const randomSources = [
-    { label: "이론", count: includeTheory ? selectedTheoryCount : 0 },
-    { label: "임상", count: includeClinical ? selectedClinicalCount : 0 },
-    { label: "실전", count: includePractice ? practiceCount : 0 },
+    { label: "이론", count: includeTheory ? availableQuestions.filter(q => q.questionBank === "theory" && selectedTheory.includes(theorySelectionKey(q)) && matchesProgress([q.id])).length : 0 },
+    { label: "임상", count: includeClinical ? availableQuestions.filter(q => q.questionBank === "clinical" && selectedClinical.includes(q.specialtySlug) && matchesProgress([q.id])).length : 0 },
+    { label: "실전", count: includePractice ? availablePractice.filter(q => matchesPractice(q, practiceFilters) && matchesProgress(qbankQuestionProgressIds(q))).length : 0 },
   ].filter(source => source.count > 0);
   const randomPool = randomSources.reduce((sum, source) => sum + source.count, 0);
   const requestedCount = readQbankQuestionCount(count);
@@ -383,6 +392,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     practiceSpecialties: includePractice ? practiceFilters.specialties.join(",") : "",
     practiceYears: includePractice ? practiceFilters.years.join(",") : "",
   });
+  if (progressFilter !== "all") sessionParams.set("progress", progressFilter);
   if (relatedTarget) {
     sessionParams.set("targetType", relatedTarget.type);
     sessionParams.set("target", relatedTarget.slug);
@@ -393,10 +403,12 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const randomStartEnabled = drawCount > 0;
   const randomStartBar = tab !== "practice" ? <QbankStartBar
     label="랜덤풀이 시작"
-    summary={`${randomSources.length === 1 ? randomSources[0].label : "선택"} ${randomPool.toLocaleString()}문항`}
+    summary={`${progressFilter === "wrong" ? "미해결 오답" : progressFilter === "unattempted" ? "미풀이" : randomSources.length === 1 ? randomSources[0].label : "선택"} ${randomPool.toLocaleString()}문항`}
     count={count}
-    max={randomPool || undefined}
+    max={randomPool}
     onCountChange={setCount}
+    disabled={randomPool === 0}
+    options={<QbankProgressFilters value={progressFilter} onChange={setProgressFilter} />}
     error={requestedCount === undefined && randomPool > 0 ? "문항 수는 1 이상의 정수로 입력하세요." : undefined}
     actions={[{ label: randomStartEnabled ? `${drawCount}문항 랜덤 시작` : "랜덤 시작", topLabel: "시작", href: randomStartEnabled ? sessionHref : undefined }]}
     topControlsTarget={loadedDraft === draftKey ? topControlsTarget : null}

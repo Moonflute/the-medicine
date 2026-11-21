@@ -16,6 +16,7 @@ export type QbankSessionContext = {
   requestedCount?: number;
   order?: "random" | "book";
   unattempted?: boolean;
+  wrongOnly?: boolean;
 };
 export type QbankSessionSnapshot = {
   skips?: QbankSkipState;
@@ -79,6 +80,7 @@ function readSessionContext(value: unknown): QbankSessionContext | undefined {
     : undefined;
   const order = candidate.order === "random" || candidate.order === "book" ? candidate.order : undefined;
   const unattempted = typeof candidate.unattempted === "boolean" ? candidate.unattempted : undefined;
+  const wrongOnly = typeof candidate.wrongOnly === "boolean" ? candidate.wrongOnly : undefined;
 
   return {
     kind,
@@ -89,6 +91,7 @@ function readSessionContext(value: unknown): QbankSessionContext | undefined {
     ...(requestedCount ? { requestedCount } : {}),
     ...(order ? { order } : {}),
     ...(unattempted !== undefined ? { unattempted } : {}),
+    ...(wrongOnly !== undefined ? { wrongOnly } : {}),
   };
 }
 
