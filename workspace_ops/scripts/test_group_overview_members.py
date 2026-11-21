@@ -20,6 +20,12 @@ class GroupMembershipTests(unittest.TestCase):
   out=replace_included_section(body,['B'])
   self.assertIn('Keep this',out);self.assertIn('Keep treatment',out);self.assertNotIn('[[A]]',out)
   self.assertEqual(replace_included_section(out,['B']),out)
+ def test_empty_included_section_before_references_is_stable(self):
+  body='## 개요\nKeep this\n\n## 포함 질환\n\n## 출처\n- Reference\n'
+  self.assertEqual(replace_included_section(body,[]),body)
+  populated=replace_included_section(body,['A'])
+  self.assertIn('- [[A]]\n\n## 출처\n- Reference',populated)
+  self.assertEqual(replace_included_section(populated,[]),body)
  def test_all_current_sources_are_stable(self):
   diseases=json.loads((ROOT/'_webapp/data/diseases.json').read_text(encoding='utf8'))
   hierarchy=json.loads((ROOT/'_webapp/data/disease-hierarchy.json').read_text(encoding='utf8'));by={d['slug']:d for d in diseases}

@@ -48,8 +48,8 @@ def replace_list(frontmatter: str, key: str, values: list[str]) -> str:
 
 
 def replace_included_section(body: str, values: list[str]) -> str:
-    block = "## 포함 질환\n" + "\n".join(f"- [[{value}]]" for value in values) + "\n"
-    pattern = r"(?ms)^## 포함 질환\s*\n.*?(?=^## |\Z)"
+    block = "\n".join(["## 포함 질환", *[f"- [[{value}]]" for value in values]]) + "\n"
+    pattern = r"(?ms)^## 포함 질환[ \t]*\n.*?(?=^## |\Z)"
     if re.search(pattern, body):
         return re.sub(pattern, block + "\n", body, count=1).rstrip() + "\n"
     return body.rstrip() + "\n\n" + block
