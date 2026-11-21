@@ -6,6 +6,7 @@ const compile = name => ts.transpileModule(fs.readFileSync(new URL(`../src/lib/$
 const url = code => `data:text/javascript;base64,${Buffer.from(code).toString('base64')}`;
 const { buildQbankAnalytics, readRetryIds, sortAnalyticsGroups } = await import(url(compile('qbank-analytics').replace('"./qbank-progress"', JSON.stringify(url(compile('qbank-progress'))))));
 const { practiceQuestionExamLabel } = await import(url(compile('practice-selection')));
+const { isUnresolvedQbankWrong } = await import(url(compile('qbank-wrong').replace('"./practice-selection"', JSON.stringify(url(compile('practice-selection'))))));
 
 const catalog = [
   { id: 'a', bank: 'clinical', department: '내과', topic: '신장', label: 'a' },
@@ -24,7 +25,7 @@ const state = {
 test('separates unresolved, recovered and repeated errors; ignores inaccessible questions', () => {
   const s = buildQbankAnalytics(catalog, state);
   assert.equal(s.attempts, 6); assert.equal(s.correct, 2); assert.equal(s.attempted, 3);
-  assert.equal(s.recovered, 1); assert.deepEqual(s.wrong.map(q => q.id), ['a', 'b', 'c']);
+  assert.equal(s.recovered, 1); assert.deepEqual(s.wrong.map(q => q.id), ['a', 'c']);
   assert.deepEqual(s.repeated.map(q => q.id), ['a']);
 });
 test('filters bank and source department; excludes unattempted from accuracy', () => {
@@ -52,7 +53,9 @@ test('practice versions share a progress slot without regrading recorded attempt
   assert.equal(s.attempts, 3);
   assert.equal(s.correct, 1);
   assert.equal(s.latestCorrect, 1);
-  assert.deepEqual(s.wrong.map(q => q.id), ['c']);
+  assert.deepEqual(s.wrong.map(q => q.id), []);
+  assert.equal(s.groups[0].wrong, 0);
+  assert.deepEqual(s.groups[0].retryIds, []);
   assert.deepEqual(s.sessions.map(row => [row.questionIds, row.correct]), [[['rev-c'], 1], [['c'], 0]]);
   assert.equal(augmented.progress.c.lastCorrect, false);
 });
@@ -112,7 +115,7 @@ test('sorting keeps each group IDs and counts unchanged and puts unseen accuracy
   assert.equal(sortAnalyticsGroups(groups,'unattempted')[0].key,'외과');
   assert.equal(sortAnalyticsGroups(groups,'accuracy')[0].key,'외과');
   assert.equal(sortAnalyticsGroups(groups,'progress')[0].key,'외과');
-  assert.deepEqual(sortAnalyticsGroups(groups,'wrong').flatMap(g=>g.retryIds).sort(),['a','b','c']);
+  assert.deepEqual(sortAnalyticsGroups(groups,'wrong').flatMap(g=>g.retryIds).sort(),['a','c']);
   assert.deepEqual(sortAnalyticsGroups(groups,'unattempted').flatMap(g=>g.unattemptedIds),['d']);
 });
 
@@ -146,8 +149,8 @@ test('statistics split the original 2026 round from RES 26 and preserve each rec
 test('historical source aliases contribute to their own round once and retry through the canonical ID', () => {
   const q = { id: 'canonical', sourceIds: ['old', 'old'], revisionIds: ['rev', 'rev'], bank: 'practice', department: '내과', topic: '순환기', label: 'q', exam: '2026-2' };
   const saved = { ...state, progress: {
-    old: { attempts: 1, correctAttempts: 0, lastCorrect: false },
-    rev: { attempts: 1, correctAttempts: 1, lastCorrect: true },
+    old: { attempts: 1, correctAttempts: 0, lastCorrect: false, lastAttemptedAt: '2026-11-20' },
+    rev: { attempts: 1, correctAttempts: 1, lastCorrect: true, lastAttemptedAt: '2026-11-19' },
   }, wrongIds: ['old'], sessions: [{ id: 'legacy', completedAt: '2026-09-01', questionIds: ['old'], correct: 0, total: 1 }] };
   const stats = buildQbankAnalytics([q], saved, 'practice');
   assert.equal(stats.selected.length, 1);
@@ -156,4 +159,33 @@ test('historical source aliases contribute to their own round once and retry thr
   assert.equal(stats.exams[0].progressed, 1);
   assert.deepEqual(stats.exams[0].retryIds, ['canonical']);
   assert.equal(stats.sessions.length, 1);
+});
+
+test('latest correct retry resolves parent and internal subgroup counts without erasing history', () => {
+  const q = { id: 'new', sourceIds: ['old'], bank: 'practice', department: '내과', subgroup: '순환기', topic: '순환기', label: 'q' };
+  const progress = {
+    old: { attempts: 2, correctAttempts: 0, lastCorrect: false, lastAttemptedAt: '2026-11-19' },
+    new: { attempts: 1, correctAttempts: 1, lastCorrect: true, lastAttemptedAt: '2026-11-20' },
+  };
+  const saved = { ...state, progress, wrongIds: ['old'], bookmarkIds: ['old'] };
+  const before = JSON.stringify(saved);
+  const stats = buildQbankAnalytics([q], saved);
+  assert.equal(stats.attempts, 3);
+  assert.equal(stats.correct, 1);
+  assert.equal(stats.wrong.length, 0);
+  assert.equal(stats.practiceGroups[0].wrong, 0);
+  assert.equal(stats.practiceGroups[0].children[0].wrong, 0);
+  assert.equal(JSON.stringify(saved), before);
+});
+
+test('statistics launcher accepts canonical IDs whose wrong attempt belongs to a revision, then excludes a correct retry', () => {
+  const original = 'QB-PF2026-V01-IM-1', revision = 'QB-REV-202611-PF2026-V01-IM-1';
+  const saved = { ...state, progress: {
+    [original]: { attempts: 1, correctAttempts: 1, lastCorrect: true, lastAttemptedAt: '2026-11-19' },
+    [revision]: { attempts: 1, correctAttempts: 0, lastCorrect: false, lastAttemptedAt: '2026-11-20' },
+  }, wrongIds: [revision] };
+  assert.equal(isUnresolvedQbankWrong(saved, [original, revision]), true);
+  saved.progress[revision] = { attempts: 2, correctAttempts: 1, lastCorrect: true, lastAttemptedAt: '2026-11-21' };
+  assert.equal(isUnresolvedQbankWrong(saved, [original, revision]), false);
+  assert.equal(isUnresolvedQbankWrong(saved, ['unrelated']), false);
 });

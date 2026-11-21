@@ -3,7 +3,7 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 import { loadRecentItems, loadReviewCoverage, loadReviewItems, replaceReviewSyncData, type RecentReviewItem, type ReviewCoverageItem, type ReviewItem } from "./review-store";
 import { loadQbankProgressViewResetAt, loadQbankState, replaceQbankSyncData } from "./qbank-store";
 import { coverageFromRow, coverageRow, itemFromRow, key, mergeCoverage, mergeQbank, mergeReviewItems, qbankStateFromRows, questionRows, recentFromRow, reviewRow, sessionRow } from "./learning-sync-data";
-import { acknowledgeWrite, identity, overlayPending, OWNER_KEY, pendingWrites, publishSyncStatus, queueChangedRows, readAllPages, rowKey, SYNC_TABLES, type SyncRow, type SyncTable } from "./learning-sync-outbox";
+import { acknowledgeWrite, enqueueRows, identity, overlayPending, OWNER_KEY, pendingWrites, publishSyncStatus, queueChangedRows, readAllPages, rowKey, SYNC_TABLES, type SyncRow, type SyncTable } from "./learning-sync-outbox";
 
 export const MIGRATION_PREFIX = "medicine-learning-migrated-v2:";
 type Snapshot = Record<SyncTable, SyncRow[]>;
@@ -69,8 +69,26 @@ export async function synchronizeLearning(client: Pick<SupabaseClient, "from">, 
     seedMigration(remote);
     window.localStorage.setItem(marker, "queued");
   }
-  const pending = pendingWrites();
-  const combined = Object.fromEntries(SYNC_TABLES.map(table => [table, overlayPending(remote[table], table, pending)])) as Snapshot;
+  let pending = pendingWrites();
+  let combined = Object.fromEntries(SYNC_TABLES.map(table => [table, overlayPending(remote[table], table, pending)])) as Snapshot;
+  const unresolved = new Set(qbankStateFromRows(combined.qbank_question_progress, []).wrongIds);
+  const remoteWrong = new Set(remote.qbank_question_progress.filter(row => row.wrong_marked === true).map(row => row.question_id));
+  const repairs = combined.qbank_question_progress.filter(row =>
+    (row.wrong_marked === true || remoteWrong.has(row.question_id)) && !unresolved.has(String(row.question_id))
+  ).map(row => ({
+    question_id: row.question_id, wrong_marked: false,
+    // Carry the observed attempt boundary so a later offline repair cannot
+    // clear a new wrong answer on the next sync. No counters/history are reset.
+    last_attempted_at: row.last_attempted_at ?? null,
+    last_correct: row.last_correct ?? null,
+    last_answer: row.last_answer ?? null,
+    consecutive_correct: row.consecutive_correct ?? 0,
+  }));
+  if (repairs.length) {
+    enqueueRows("qbank_question_progress", repairs);
+    pending = pendingWrites();
+    combined = Object.fromEntries(SYNC_TABLES.map(table => [table, overlayPending(remote[table], table, pending)])) as Snapshot;
+  }
   const data = decode(combined);
   mergeActivityRows(combined.qbank_activity_daily);
   data.qbank.dailyActivity = loadActivity();

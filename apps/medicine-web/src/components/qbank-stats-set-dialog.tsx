@@ -2,11 +2,12 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { isQbankProgressedInCurrentView, loadQbankState } from "@/lib/qbank-store";
+import { isUnresolvedQbankWrong } from "@/lib/qbank-wrong";
 
 export type StatsSetRequest = { ids: string[]; title: string; kind: "wrong" | "unattempted" | "snapshot" };
 export type StatsSetLauncher = (request: StatsSetRequest) => void;
 
-export function QbankStatsSetDialog({ request, onClose }: { request: StatsSetRequest; onClose: () => void }) {
+export function QbankStatsSetDialog({ request, onClose, questions }: { request: StatsSetRequest; onClose: () => void; questions: Array<{ id: string; revisionIds?: string[]; sourceIds?: string[] }> }) {
   const router = useRouter();
   const dialog = useRef<HTMLDialogElement>(null);
   const [count, setCount] = useState(String(Math.min(20, request.ids.length)));
@@ -17,8 +18,8 @@ export function QbankStatsSetDialog({ request, onClose }: { request: StatsSetReq
     if (!Number.isInteger(requestedCount) || requestedCount < 1) return;
     try {
       const state = loadQbankState();
-      const wrong = new Set(state.wrongIds);
-      const ids = [...new Set(request.ids)].filter(id => request.kind === "wrong" ? wrong.has(id) : request.kind === "unattempted" ? !isQbankProgressedInCurrentView(state.progress[id]) : true);
+      const versions = new Map(questions.map(q => [q.id, [q.id, ...(q.revisionIds ?? []), ...(q.sourceIds ?? [])]]));
+      const ids = [...new Set(request.ids)].filter(id => request.kind === "wrong" ? isUnresolvedQbankWrong(state, versions.get(id) ?? [id]) : request.kind === "unattempted" ? !isQbankProgressedInCurrentView(state.progress[id]) : true);
       if (!ids.length) { setError("현재 이 범위에 남은 문항이 없습니다."); return; }
       const key = `qbank-retry-${crypto.randomUUID()}`;
       sessionStorage.setItem(key, JSON.stringify(ids));

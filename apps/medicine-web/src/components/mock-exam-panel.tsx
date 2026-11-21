@@ -35,7 +35,7 @@ import { markQbankSkipped, qbankPassIndex, resolveQbankSkipped, type QbankSkipSt
 import { QbankSkipButton, QbankSkippedNavigation, QbankSkipPassActions } from "@/components/qbank-skip-controls";
 
 export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundClock, elapsedClock, isRunning, onChange, onMove, skips, onSkipsChange }: {
-  questions: QbankQuestion[]; exam: MockExamState; sessionId: string; currentIndex: number; roundClock?: QbankRunningRoundClock;
+  questions: Array<QbankQuestion & { practiceIds?: string[] }>; exam: MockExamState; sessionId: string; currentIndex: number; roundClock?: QbankRunningRoundClock;
   elapsedClock?: QbankElapsedClock;
   isRunning: (clock: QbankRunningRoundClock) => boolean;
   onChange: (state: MockExamState) => void; onMove: (index: number) => void;
@@ -98,7 +98,8 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundC
       const finishedAt = new Date(deadlineAt === undefined ? now : Math.min(now, deadlineAt)).toISOString();
       const durationMs = elapsedAt(elapsedClock, Date.parse(finishedAt));
       const summary = createMockExamSummary(exam.title, results, durationMs === undefined ? undefined : durationMs / 1000);
-      recordMockExam({ id: `mock-${sessionId}`, startedAt: exam.startedAt, completedAt: finishedAt, questionIds: questions.map(q => q.id), correct: summary.correct, total: summary.graded, mockExam: summary }, results);
+      const versions = new Map(questions.map(question => [question.id, question.practiceIds]));
+      recordMockExam({ id: `mock-${sessionId}`, startedAt: exam.startedAt, completedAt: finishedAt, questionIds: questions.map(q => q.id), correct: summary.correct, total: summary.graded, mockExam: summary }, results.map(result => ({ ...result, versions: versions.get(result.questionId) })));
       setFreshResultSession(sessionId);
       onChange({ ...exam, finishedAt, results }); setConfirm(false);
     } catch { submitting.current = false; setError("결과를 저장하지 못했습니다. 저장 공간을 확인한 뒤 다시 제출해 주세요."); }

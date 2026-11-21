@@ -230,7 +230,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
     const roundCounts = new Map(practiceMockExams(privateIndex).map(exam => [exam.key, exam.count]));
     privateQuestions = (await loadPracticeQuestions(practiceDeliveryIds(selection, savedIds))).map(question => {
       const source = metadata.get(practiceSourceQuestionId(question.id));
-      const practiceIds = source ? [...new Set([...practiceVersionIds(source), question.id])] : undefined;
+      const practiceIds = source ? [...new Set([...practiceVersionIds(source), ...(source.sourceIds ?? []), question.id])] : undefined;
       const practiceExamKey = source ? practiceMockExamKey(source) : undefined;
       return { ...question, bookDepartment: source?.bookDepartment, practiceIds, practiceExamKey, practiceExamTotal: practiceExamKey ? roundCounts.get(practiceExamKey) : undefined };
     });
@@ -620,7 +620,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   const submit = useCallback(() => {
     if (mockExam || !current || submitted || isRoundTimeUp(deadlineAt)) return;
     const correct = gradeQuestion(current, selected);
-    const progress = correct !== null ? recordQbankAttempt(current.id, selected ?? undefined, correct) : null;
+    const progress = correct !== null ? recordQbankAttempt(current.id, selected ?? undefined, correct, current.practiceIds) : null;
     setWrongTracked(isSessionQuestionTracked(current, loadQbankState().wrongIds));
     setQuestionProgress(progress);
     setAnswers((items) => [...items, { questionId: current.id, selected: selected ?? undefined, correct, specialty: practiceQuestionLabel(current) }]);

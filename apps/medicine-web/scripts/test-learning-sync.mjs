@@ -259,3 +259,100 @@ test("Korean midnight, year change, leap day and calendar dates agree regardless
   assert.equal(h.activity.loadActivity()["2026-12-31"].correct, 1);
   assert.equal(h.activity.loadActivity()["2027-01-01"].attempts, 1);
 });
+
+test("correct retries resolve all question banks; new wrong answers re-enter without changing bookmarks", () => {
+  const h = harness();
+  for (const id of ["theory-test", "medqa-test", "QB-PF2026-V01-IM-1"]) {
+    h.qbank.recordQbankAttempt(id, "A", false);
+    h.qbank.toggleQbankBookmark(id);
+    assert.ok(h.qbank.loadQbankState().wrongIds.includes(id));
+    h.qbank.recordQbankAttempt(id, "B", true);
+    let state = h.qbank.loadQbankState();
+    assert.equal(state.wrongIds.includes(id), false);
+    assert.equal(state.bookmarkIds.includes(id), true);
+    assert.equal(state.progress[id].attempts, 2);
+    assert.equal(state.progress[id].correctAttempts, 1);
+    h.qbank.recordQbankAttempt(id, undefined, false);
+    state = h.qbank.loadQbankState();
+    assert.equal(state.wrongIds.includes(id), true);
+    assert.equal(state.progress[id].attempts, 3);
+    assert.equal(state.progress[id].correctAttempts, 1);
+  }
+});
+
+test("mock submission resolves correct retries and source aliases but never grades excluded questions", () => {
+  const h = harness();
+  for (const id of ["old", "excluded", "wrong"]) h.qbank.recordQbankAttempt(id, "A", false);
+  const result = {id:"mock-retry",startedAt:"2026-11-20",completedAt:"2026-11-21",questionIds:["new","excluded","wrong"],correct:1,total:2};
+  const outcomes = [{questionId:"new",correct:true,selected:"B",versions:["old"]},{questionId:"excluded",correct:null},{questionId:"wrong",correct:false}];
+  h.qbank.recordMockExam(result, outcomes);
+  h.qbank.recordMockExam(result, outcomes);
+  const state = h.qbank.loadQbankState();
+  assert.equal(state.wrongIds.includes("old"), false);
+  assert.equal(state.wrongIds.includes("excluded"), true);
+  assert.equal(state.wrongIds.includes("wrong"), true);
+  assert.equal(state.progress.old.lastCorrect, false);
+  assert.equal(state.progress.new.attempts, 1);
+  assert.equal(state.progress.excluded.attempts, 1);
+  assert.equal(state.sessions.length, 1);
+});
+
+test("legacy resolved wrong flags are repaired locally and remotely without changing scores or bookmarks", async () => {
+  const h = harness(), api = server(h.outbox);
+  const original = "QB-PF2026-V01-IM-1", revision = "QB-REV-202611-PF2026-V01-IM-1";
+  api.tables.qbank_question_progress = [
+    {user_id:"u1",question_id:"theory-old",attempts:5,correct_attempts:3,last_correct:true,last_answer:"B",last_attempted_at:"2026-11-21T01:00:00Z",wrong_marked:true,bookmarked:true},
+    {user_id:"u1",question_id:original,attempts:2,correct_attempts:0,last_correct:false,last_attempted_at:"2026-11-19T01:00:00Z",wrong_marked:true,bookmarked:true},
+    {user_id:"u1",question_id:revision,attempts:1,correct_attempts:1,last_correct:true,last_attempted_at:"2026-11-20T01:00:00Z",wrong_marked:true},
+    {user_id:"u1",question_id:"unknown",attempts:2,correct_attempts:1,wrong_marked:true},
+  ];
+  h.storage.setItem(`${h.engine.MIGRATION_PREFIX}u1`, "done");
+  await h.engine.synchronizeLearning(api.client,"u1",()=>true);
+  const state=h.qbank.loadQbankState();
+  assert.equal(state.wrongIds.join(), "unknown");
+  assert.equal(state.progress[original].lastCorrect, false);
+  assert.equal(state.progress[original].attempts, 2);
+  assert.equal(state.progress[revision].correctAttempts, 1);
+  assert.equal(state.bookmarkIds.length, 2);
+  for (const row of api.tables.qbank_question_progress) assert.equal(row.wrong_marked, row.question_id === "unknown");
+  assert.equal(api.tables.qbank_question_progress[0].attempts, 5);
+  const fresh=harness();
+  await fresh.engine.synchronizeLearning(api.client,"u1",()=>true);
+  assert.equal(fresh.qbank.loadQbankState().wrongIds.join(), "unknown");
+  assert.equal(fresh.qbank.loadQbankState().bookmarkIds.length, 2);
+});
+
+test("offline old wrong answers cannot undo newer correct answers, and old repairs cannot clear newer wrong answers", async () => {
+  for (const newerCorrect of [true, false]) {
+    const h=harness(), api=server(h.outbox);
+    h.storage.setItem(`${h.engine.MIGRATION_PREFIX}u1`,"done");
+    api.tables.qbank_question_progress=[{user_id:"u1",question_id:"q1",attempts:5,correct_attempts:3,last_correct:newerCorrect,last_answer:"C",last_attempted_at:"2026-11-21T02:00:00Z",wrong_marked:!newerCorrect,bookmarked:false}];
+    h.outbox.enqueueRows("qbank_question_progress",[{question_id:"q1",attempts:2,correct_attempts:1,last_correct:!newerCorrect,last_answer:"B",last_attempted_at:"2026-11-20T02:00:00Z",wrong_marked:newerCorrect,bookmarked:true}]);
+    await h.engine.synchronizeLearning(api.client,"u1",()=>true);
+    const row=api.tables.qbank_question_progress[0];
+    assert.equal(row.last_correct,newerCorrect);
+    assert.equal(row.wrong_marked,!newerCorrect);
+    assert.equal(row.last_answer,"C");
+    assert.equal(row.attempts,5);
+    assert.equal(row.correct_attempts,3);
+    assert.equal(row.bookmarked,true);
+    assert.equal(h.qbank.loadQbankState().wrongIds.includes("q1"),!newerCorrect);
+  }
+});
+
+test("legacy local correct answers and newer revision attempts clear stale flags immediately on load", () => {
+  const h=harness();
+  const original="QB-PF2026-V01-IM-1", revision="QB-REV-202611-PF2026-V01-IM-1";
+  const state={version:1,progress:{
+    old:{questionId:"old",attempts:2,correctAttempts:1,lastCorrect:true,lastAttemptedAt:"2026-11-21"},
+    [original]:{questionId:original,attempts:2,correctAttempts:0,lastCorrect:false,lastAttemptedAt:"2026-11-19"},
+    [revision]:{questionId:revision,attempts:1,correctAttempts:1,lastCorrect:true,lastAttemptedAt:"2026-11-20"},
+  },wrongIds:["old",original],bookmarkIds:[original],sessions:[],dailyActivity:{}};
+  h.storage.setItem("medicine-web-qbank-v1",JSON.stringify(state));
+  const current=h.qbank.loadQbankState();
+  assert.equal(current.wrongIds.length,0);
+  assert.equal(current.progress[original].attempts,2);
+  assert.equal(current.bookmarkIds[0],original);
+  h.qbank.recordQbankAttempt(revision,"A",false);
+  assert.equal(h.qbank.loadQbankState().wrongIds.join(),revision);
+});

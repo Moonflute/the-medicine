@@ -74,6 +74,18 @@ export function overlayPending(remote: SyncRow[], table: SyncTable, writes: Pend
     const id = rowKey(table, entry.row);
     const previous = rows.get(id) ?? {};
     const merged = { ...previous, ...entry.row };
+    if (table === "qbank_question_progress") {
+      const remoteAttempt = Date.parse(String(previous.last_attempted_at ?? ""));
+      const pendingAttempt = Date.parse(String(entry.row.last_attempted_at ?? ""));
+      if (Number.isFinite(remoteAttempt) && Number.isFinite(pendingAttempt) && remoteAttempt > pendingAttempt) {
+        // A delayed offline answer/repair must not resurrect an older wrong
+        // answer or clear a newer one. Independent bookmark edits still merge.
+        for (const field of ["last_attempted_at", "last_answer", "last_correct", "consecutive_correct", "wrong_marked"]) {
+          merged[field] = previous[field];
+        }
+      }
+      if (merged.last_correct === true) merged.wrong_marked = false;
+    }
     if (table === "user_preferences" && typeof previous.qbank_progress_reset_at === "string" && typeof merged.qbank_progress_reset_at === "string") {
       merged.qbank_progress_reset_at = new Date(Math.max(Date.parse(previous.qbank_progress_reset_at), Date.parse(merged.qbank_progress_reset_at))).toISOString();
     }

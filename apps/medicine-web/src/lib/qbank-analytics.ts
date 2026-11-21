@@ -54,7 +54,7 @@ export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: Qbank
       }
       if (progress.lastAttemptedAt && typeof progress.lastCorrect === "boolean") recentResults.push({ last: progress.lastAttemptedAt, correct: progress.lastCorrect });
     }
-    const latestWrong = versionIds.some(id => wrongIds.has(id));
+    const latestWrong = p?.lastCorrect !== true && versionIds.some(id => wrongIds.has(id));
     const mistakes = count - right;
     const isProgressed = progressedInRound(p, progressResetAt);
     attempts += count; correct += right;

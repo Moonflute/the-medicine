@@ -4,6 +4,7 @@ import { queueChangedRows } from "./learning-sync-outbox";
 import { questionRows, sessionRow } from "./learning-sync-data";
 import type { QbankSelection } from "@/lib/types";
 import { progressedInRound } from "./qbank-progress";
+import { unresolvedQbankWrongIds } from "./qbank-wrong";
 import { createMockExamSummary, readMockExamSummary, type MockExamSummary } from "./mock-exam";
 
 export type QbankProgress = {
@@ -74,7 +75,7 @@ export function loadQbankState(): QbankState {
     if (!value || value.version !== 1) { initializeActivity({}); return {...emptyState(), dailyActivity: loadActivity()}; }
     const sessions = Array.isArray(value.sessions) ? value.sessions.map(session => ({ ...session, mockExam: readMockExamSummary(session.mockExam) })) : [];
     initializeActivity(loadDailyActivity(value.dailyActivity, sessions));
-    return {
+    const state: QbankState = {
       version: 1,
       progress: value.progress && typeof value.progress === "object" ? value.progress : {},
       wrongIds: Array.isArray(value.wrongIds) ? value.wrongIds.filter((item): item is string => typeof item === "string") : [],
@@ -83,6 +84,7 @@ export function loadQbankState(): QbankState {
       dailyActivity: loadActivity(),
       progressResetAt: value.progressResetAt ?? loadQbankProgressViewResetAt(),
     };
+    return { ...state, wrongIds: unresolvedQbankWrongIds(state) };
   } catch {
     return emptyState();
   }
@@ -109,6 +111,7 @@ export function isQbankProgressedInCurrentView(progress?: QbankProgress, resetAt
 }
 
 export function saveQbankState(state: QbankState, source: "local" | "remote" = "local") {
+  state = { ...state, wrongIds: unresolvedQbankWrongIds(state) };
   if (source === "local") {
     const previous = loadQbankState();
     queueChangedRows("qbank_question_progress", questionRows(previous), questionRows(state));
@@ -120,7 +123,7 @@ export function saveQbankState(state: QbankState, source: "local" | "remote" = "
   window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: { source } }));
 }
 
-function applyAttempt(state: QbankState, questionId: string, answer: QbankSelection | undefined, correct: boolean) {
+function applyAttempt(state: QbankState, questionId: string, answer: QbankSelection | undefined, correct: boolean, versions: string[] = []) {
   const previous = state.progress[questionId] ?? {
     questionId,
     attempts: 0,
@@ -137,25 +140,26 @@ function applyAttempt(state: QbankState, questionId: string, answer: QbankSelect
     lastAttemptedAt: new Date().toISOString(),
   };
   state.progress[questionId] = next;
+  const equivalentIds = new Set([questionId, ...versions]);
   state.wrongIds = correct
-    ? state.wrongIds
+    ? state.wrongIds.filter(id => !equivalentIds.has(id))
     : [...new Set([...state.wrongIds, questionId])];
   recordActivity(correct);
   state.dailyActivity = loadActivity();
   return next;
 }
 
-export function recordQbankAttempt(questionId: string, answer: QbankSelection | undefined, correct: boolean) {
+export function recordQbankAttempt(questionId: string, answer: QbankSelection | undefined, correct: boolean, versions: string[] = []) {
   const state = loadQbankState();
-  const next = applyAttempt(state, questionId, answer, correct);
+  const next = applyAttempt(state, questionId, answer, correct, versions);
   saveQbankState(state);
   return next;
 }
 
-export function recordMockExam(result: QbankSessionResult, outcomes: Array<{ questionId: string; selected?: QbankSelection; correct: boolean | null }>) {
+export function recordMockExam(result: QbankSessionResult, outcomes: Array<{ questionId: string; selected?: QbankSelection; correct: boolean | null; versions?: string[] }>) {
   const state = loadQbankState();
   if (state.sessions.some(s => s.id === result.id)) return;
-  for (const item of outcomes) if (item.correct !== null) applyAttempt(state, item.questionId, item.selected, item.correct);
+  for (const item of outcomes) if (item.correct !== null) applyAttempt(state, item.questionId, item.selected, item.correct, item.versions);
   state.sessions = [result, ...state.sessions];
   saveQbankState(state);
 }

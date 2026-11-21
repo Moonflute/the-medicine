@@ -3,6 +3,7 @@ import { encodeSelection, decodeSelection } from "./qbank-grading";
 import type { RecentReviewItem, ReviewCatalogItem, ReviewCoverageItem, ReviewDomain, ReviewItem } from "./review-store";
 import type { QbankSessionResult, QbankState } from "./qbank-store";
 import { readMockExamSummary } from "./mock-exam";
+import { unresolvedQbankWrongIds } from "./qbank-wrong";
 type Metadata = Pick<ReviewCatalogItem, "title" | "href" | "category" | "summary" | "categories">;
 type Row = Record<string, unknown>;
 
@@ -146,7 +147,7 @@ export function qbankStateFromRows(progressRows: Row[], sessionRows: Row[], pref
     const daily = state.dailyActivity[day] ?? { attempts: 0, correct: 0 };
     state.dailyActivity[day] = { attempts: daily.attempts + session.total, correct: daily.correct + session.correct };
   }
-  return state;
+  return { ...state, wrongIds: unresolvedQbankWrongIds(state) };
 }
 
 export function mergeQbank(local: QbankState, remote: QbankState): QbankState {
@@ -181,7 +182,7 @@ export function mergeQbank(local: QbankState, remote: QbankState): QbankState {
     const current = state.dailyActivity[day];
     state.dailyActivity[day] = { attempts: Math.max(daily.attempts, current?.attempts ?? 0), correct: Math.max(daily.correct, current?.correct ?? 0) };
   }
-  return state;
+  return { ...state, wrongIds: unresolvedQbankWrongIds(state) };
 }
 
 
@@ -192,9 +193,10 @@ export function coverageRow(item: ReviewCoverageItem, recent?: RecentReviewItem)
   return { domain: item.type, content_id: item.id, first_viewed_at: item.firstViewedAt, last_viewed_at: item.lastViewedAt, view_count: item.viewCount, ...(recent ? {metadata: metadataFromItem(recent)} : {}) };
 }
 export function questionRows(state: QbankState): Row[] {
+  const wrongIds = new Set(unresolvedQbankWrongIds(state));
   return [...new Set([...Object.keys(state.progress), ...state.wrongIds, ...state.bookmarkIds])].map(questionId => {
     const progress = state.progress[questionId];
-    return { question_id: questionId, attempts: progress?.attempts ?? 0, correct_attempts: progress?.correctAttempts ?? 0, consecutive_correct: progress?.consecutiveCorrect ?? 0, last_answer: encodeSelection(progress?.lastAnswer), last_correct: progress?.lastCorrect ?? null, last_attempted_at: progress?.lastAttemptedAt ?? null, wrong_marked: state.wrongIds.includes(questionId), bookmarked: state.bookmarkIds.includes(questionId) };
+    return { question_id: questionId, attempts: progress?.attempts ?? 0, correct_attempts: progress?.correctAttempts ?? 0, consecutive_correct: progress?.consecutiveCorrect ?? 0, last_answer: encodeSelection(progress?.lastAnswer), last_correct: progress?.lastCorrect ?? null, last_attempted_at: progress?.lastAttemptedAt ?? null, wrong_marked: wrongIds.has(questionId), bookmarked: state.bookmarkIds.includes(questionId) };
   });
 }
 export function sessionRow(session: QbankSessionResult): Row {
