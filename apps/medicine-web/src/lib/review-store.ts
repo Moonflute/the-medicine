@@ -63,10 +63,33 @@ function emitChange(source: "local" | "remote" = "local") {
   window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: { source } }));
 }
 
-function catalogKey(type: string, id: string) {
+export function reviewItemKey(type: string, id: string) {
   return `${type}|${id}`;
 }
 
+export function loadReviewBookmarkKeys(): ReadonlySet<string> {
+  if (typeof window === "undefined") return new Set();
+  try {
+    if (window.localStorage.getItem(STORAGE_KEY) !== null) {
+      return new Set(enrichItems(readArray<ReviewItem>(STORAGE_KEY), []).map(item => reviewItemKey(item.type, item.id)));
+    }
+    return new Set(readArray<string>(LEGACY_STORAGE_KEY).filter(id => typeof id === "string").map(id => reviewItemKey("disease", id)));
+  } catch {
+    return new Set();
+  }
+}
+
+export function subscribeReviewBookmarks(listener: () => void) {
+  function onStorage(event: StorageEvent) {
+    if (event.key === STORAGE_KEY || event.key === LEGACY_STORAGE_KEY || event.key === null) listener();
+  }
+  window.addEventListener(CHANGE_EVENT, listener);
+  window.addEventListener("storage", onStorage);
+  return () => {
+    window.removeEventListener(CHANGE_EVENT, listener);
+    window.removeEventListener("storage", onStorage);
+  };
+}
 
 export function loadReviewCoverage(catalog: ReviewCatalogItem[] = []): Record<string, ReviewCoverageItem> {
   if (typeof window === "undefined") return {};
@@ -81,7 +104,7 @@ export function loadReviewCoverage(catalog: ReviewCatalogItem[] = []): Record<st
   if (Object.keys(coverage).length === 0) {
     for (const item of readArray<RecentReviewItem>(RECENT_KEY)) {
       if (!isReviewDomain(item.type) || typeof item.id !== "string" || typeof item.viewedAt !== "string") continue;
-      coverage[catalogKey(item.type, item.id)] = {
+      coverage[reviewItemKey(item.type, item.id)] = {
         type: item.type,
         id: item.id,
         firstViewedAt: item.viewedAt,
@@ -94,16 +117,16 @@ export function loadReviewCoverage(catalog: ReviewCatalogItem[] = []): Record<st
   }
 
   if (catalog.length === 0) return coverage;
-  const allowed = new Set(catalog.map((item) => catalogKey(item.type, item.id)));
+  const allowed = new Set(catalog.map((item) => reviewItemKey(item.type, item.id)));
   return Object.fromEntries(Object.entries(coverage).filter(([key]) => allowed.has(key)));
 }
 
 function enrichItems(items: ReviewItem[], catalog: ReviewCatalogItem[]) {
-  const catalogByKey = new Map(catalog.map((item) => [catalogKey(item.type, item.id), item]));
+  const catalogByKey = new Map(catalog.map((item) => [reviewItemKey(item.type, item.id), item]));
   return items
     .filter((item) => item && typeof item.id === "string" && isReviewDomain(item.type))
-    .filter((item) => catalog.length === 0 || catalogByKey.has(catalogKey(item.type, item.id)))
-    .map((item) => ({ ...item, ...(catalogByKey.get(catalogKey(item.type, item.id)) ?? {}) }));
+    .filter((item) => catalog.length === 0 || catalogByKey.has(reviewItemKey(item.type, item.id)))
+    .map((item) => ({ ...item, ...(catalogByKey.get(reviewItemKey(item.type, item.id)) ?? {}) }));
 }
 
 export function loadReviewItems(catalog: ReviewCatalogItem[] = []): ReviewItem[] {
@@ -179,9 +202,9 @@ export function isDue(item: ReviewItem, now = new Date()) {
 }
 
 export function loadRecentItems(catalog: ReviewCatalogItem[] = []): RecentReviewItem[] {
-  const allowed = new Set(catalog.map((item) => catalogKey(item.type, item.id)));
+  const allowed = new Set(catalog.map((item) => reviewItemKey(item.type, item.id)));
   return readArray<RecentReviewItem>(RECENT_KEY).filter(
-    (item) => isReviewDomain(item.type) && (catalog.length === 0 || allowed.has(catalogKey(item.type, item.id))),
+    (item) => isReviewDomain(item.type) && (catalog.length === 0 || allowed.has(reviewItemKey(item.type, item.id))),
   );
 }
 
@@ -197,7 +220,7 @@ export function trackRecentItem(item: ReviewCatalogItem) {
   window.localStorage.setItem(RECENT_KEY, JSON.stringify(next));
 
   const coverage = loadReviewCoverage();
-  const key = catalogKey(item.type, item.id);
+  const key = reviewItemKey(item.type, item.id);
   const previous = coverage[key];
   const dateKey = studyDateKey(now);
   coverage[key] = {

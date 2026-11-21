@@ -105,6 +105,9 @@ html[data-theme="terminal"] .skin-frame .skin-console-dock > :is(a,button) { dis
 .skin-entry--terminal .skin-entry-copy strong { font-size:13px; font-weight:400; }
 .skin-entry--terminal:hover { background:#151515; }
 .skin-entry[data-active="true"] { outline:2px solid var(--primary); outline-offset:-2px; }
+.review-bookmark-mark, .skin-entry > .review-bookmark-mark { flex:none; color:var(--primary); }
+html[data-theme="mail"] .review-bookmark-mark { color:#986200; }
+html[data-theme="social"] .review-bookmark-mark { color:var(--foreground); }
 .skin-frame .grid:has(> .skin-category) { grid-template-columns:minmax(0,1fr); gap:18px; }
 .skin-category--sheet { padding:0; background:#fff; }
 .skin-category--sheet .skin-directory-heading { margin:0; padding:9px 10px; background:#e8f0eb; border:1px solid #c9d5cc; }

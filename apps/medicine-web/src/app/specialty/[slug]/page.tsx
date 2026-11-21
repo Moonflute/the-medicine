@@ -1,11 +1,12 @@
 import { SkinEntry } from "@/components/skin-entry";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { CalendarDays, CheckCircle2, ChevronRight } from "lucide-react";
+import { CalendarDays, CheckCircle2 } from "lucide-react";
 import { ParentPageFab } from "@/components/parent-page-fab";
 import { InfectionToolEntry } from "@/components/infection-tool-entry";
 import { MaternalChildToolEntry } from "@/components/maternal-child-tool-entry";
 import { NervousSystemToolEntry } from "@/components/nervous-system-tool-entry";
+import { ReviewBookmarkMark, ReviewBookmarkScope } from "@/components/review-bookmark-mark";
 import { getDiseasesBySpecialty, getSpecialties, getSpecialtyRoadmap, getSpecialtyToc, isSpecialtyIndexDisease } from "@/lib/webdb";
 
 const THIRD_LEVEL_MIN_ITEMS = 4;
@@ -262,6 +263,7 @@ function DiseaseLinks({ notes, specialtyLabel }: { notes: DiseaseNote[]; special
         <SkinEntry title={note.displayTitle || note.title} summary={note.definition || note.overview?.[0]} meta={specialtyLabel}
           key={note.slug}
           href={`/disease/${note.slug}`}
+          bookmark={{ type: "disease", id: note.slug }}
           className={`flex items-center justify-between rounded-lg border px-4 py-3 transition ${note.groupOverview ? "border-teal-200 bg-teal-50/80 hover:border-teal-400 hover:bg-teal-50" : "border-slate-200 bg-slate-50 hover:border-slate-300 hover:bg-white"}`}
         >
           <span className="min-w-0 pr-3">
@@ -270,7 +272,6 @@ function DiseaseLinks({ notes, specialtyLabel }: { notes: DiseaseNote[]; special
               <span className="mt-1 block text-xs text-slate-500">{note.specialty.replace(/^\d+\s*/, "").trim()}</span>
             ) : null}
           </span>
-          <ChevronRight className="h-4 w-4 shrink-0 text-slate-400" />
         </SkinEntry>
       ))}
     </div>
@@ -296,7 +297,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
   const roadmap = getSpecialtyRoadmap(slug);
 
   return (
-    <div className="space-y-6">
+    <ReviewBookmarkScope><div className="space-y-6">
       <header className="rounded-lg border border-slate-200 bg-white/80 p-6 shadow-sm backdrop-blur sm:p-8">
         <div className="text-xs uppercase  text-slate-500">Specialty</div>
         <div className="mt-3 flex flex-wrap items-center gap-3">
@@ -304,9 +305,10 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
           {specialtyOverviewNote ? (
             <Link
               href={`/disease/${specialtyOverviewNote.slug}`}
-              className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium uppercase  text-slate-600 transition hover:border-slate-300 hover:bg-white hover:text-slate-950"
+              className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium uppercase  text-slate-600 transition hover:border-slate-300 hover:bg-white hover:text-slate-950"
             >
               {specialtyLabel} overview
+              <ReviewBookmarkMark item={{ type: "disease", id: specialtyOverviewNote.slug }} />
             </Link>
           ) : null}
         </div>
@@ -357,7 +359,7 @@ export default async function SpecialtyDetailPage(props: { params: Promise<{ slu
         ))}
       </div>
       <ParentPageFab href="/specialties" />
-    </div>
+    </div></ReviewBookmarkScope>
   );
 }
 
