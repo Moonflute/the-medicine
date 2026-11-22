@@ -120,6 +120,6 @@ export function PixelQuestionWorkspace({ question, choices, response, actions, c
       <section className="pixel-command-window" aria-label="답안 커맨드"><div className="pixel-dialogue-heading"><strong>{submitted ? "선택한 커맨드" : "어떻게 할까?"}</strong><span>{mode === "mock" ? "선택 시 저장" : "COMMAND"}</span></div>{choices}</section>
     </div>
     <div className="pixel-battle-actions">{actions}</div>
-    {submitted ? <section className="pixel-dialogue pixel-battle-response" aria-label="해설" aria-live="polite"><div className="pixel-dialogue-heading"><strong>전투 로그</strong><span>RESULT</span></div><p className="pixel-answer-log">▶ {answerText || "모르겠습니다."}</p><div className="skin-q-response">{response}</div></section> : null}
+    {submitted ? <section className="pixel-dialogue pixel-battle-response" aria-label="해설" aria-live="polite"><div className="pixel-dialogue-heading"><strong>전투 로그</strong><span>RESULT</span></div><p className="pixel-answer-log"><span className="qbank-reading-text">▶ {answerText || "모르겠습니다."}</span></p><div className="skin-q-response">{response}</div></section> : null}
   </div>;
 }

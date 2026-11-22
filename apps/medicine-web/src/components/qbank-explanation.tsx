@@ -8,6 +8,6 @@ export function QbankExplanation({ text, question, reflow = false }: { text: str
   const withOptions = question ? practiceExplanationText({ ...question, explanation: text }) : text;
   const content = reflow ? reflowOcrText(withOptions) : withOptions;
   return <div data-highlight-block="explanation" className="qbank-feedback-body qbank-explanation">
-    <RichTextLines lines={content.replace(/\r\n?/g, "\n").split("\n")} presentation="embedded" bulletStyle="plain" className="space-y-2.5" />
+    <RichTextLines lines={content.replace(/\r\n?/g, "\n").split("\n")} presentation="embedded" bulletStyle="plain" className="qbank-reading-text space-y-2.5" />
   </div>;
 }

@@ -281,7 +281,7 @@ function renderParagraph(text: string, className: string, termLinks: TermLink[],
 function renderEmphasisLabel(text: string, termLinks: TermLink[], wikiLinks: TermLink[]) {
   return (
     <div className="pt-1">
-      <div className="text-[15px] font-semibold leading-7 text-slate-950">
+      <div className="rich-text-emphasis text-[15px] font-semibold leading-7 text-slate-950">
         {renderInline(normalizeLabelText(text), termLinks, wikiLinks)}
       </div>
     </div>
@@ -351,7 +351,7 @@ function renderLine(line: string, bulletStyle: BulletStyle, termLinks: TermLink[
 function renderGroup(label: string, items: string[], termLinks: TermLink[], wikiLinks: TermLink[]) {
   return (
     <div className="space-y-2 rounded-lg bg-white/45 px-3 py-2">
-      <div className="text-[15px] font-semibold leading-7 text-slate-950">
+      <div className="rich-text-emphasis text-[15px] font-semibold leading-7 text-slate-950">
         {renderInline(label.replace(/[:：]\s*$/, ""), termLinks, wikiLinks)}
       </div>
       <div className="space-y-2 border-l border-slate-200 pl-4">

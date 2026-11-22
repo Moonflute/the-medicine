@@ -16,6 +16,30 @@
 .qbank-session-progress > :is(.qbank-skipped-navigation,[aria-label="문제 번호 이동"]) { order:2; }
 .qbank-session-progress-track { min-width:40px; }
 
+/* Scale reading text from each theme's own base, without resizing its controls. */
+html[data-qbank-text-size="small"] .skin-q-article { --qbank-reading-scale:.9; }
+html[data-qbank-text-size="large"] .skin-q-article { --qbank-reading-scale:1.2; }
+html[data-qbank-text-size="extra-large"] .skin-q-article { --qbank-reading-scale:1.4; }
+.skin-q-article .qbank-reading-text { font-size:calc(1em * var(--qbank-reading-scale,1)); overflow-wrap:anywhere; }
+.skin-q-article .qbank-explanation .rich-text-emphasis { font-size:calc(15px * var(--qbank-reading-scale,1)); }
+html:is([data-theme="chat"],[data-theme="messenger"]) .skin-q-article .skin-q-response .qbank-explanation p { font-size:inherit; line-height:inherit; }
+html:is([data-qbank-text-size="large"],[data-qbank-text-size="extra-large"]) .skin-q-article :is(.qbank-reading-text,.qbank-explanation .rich-text-emphasis) { line-height:1.65; }
+
+.qbank-text-size-trigger .qbank-text-size-glyph { font-size:15px; font-weight:700; line-height:1; }
+.chat-tools-grid .chat-attachment-actions > .qbank-text-size-trigger > .qbank-text-size-glyph { display:block; font-size:20px; }
+.qbank-compact-dialog.qbank-text-size-dialog { width:min(17rem,calc(100% - 24px)); }
+.qbank-text-size-dialog > header { display:flex; justify-content:space-between; align-items:center; gap:8px; padding:5px 9px 5px 12px; border-bottom:1px solid var(--line); }
+.qbank-text-size-dialog h2 { font-size:14px; font-weight:650; }
+.qbank-text-size-close { display:grid; place-items:center; width:2.25rem; height:2.25rem; color:var(--muted); cursor:pointer; }
+.qbank-text-size-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px; padding:12px; }
+.qbank-text-size-options > button { min-height:2.5rem; padding:4px; border:1px solid var(--line); border-radius:6px; color:var(--foreground); font-size:.8125rem; font-weight:600; cursor:pointer; }
+.qbank-text-size-options > button:hover { background:var(--surface-subtle); }
+.qbank-text-size-options > button[aria-pressed="true"] { border-color:var(--primary); background:color-mix(in srgb,var(--primary) 12%,var(--surface)); color:var(--primary); }
+:is(.qbank-text-size-trigger,.qbank-text-size-dialog button):focus-visible { outline:2px solid var(--primary); outline-offset:1px; }
+html:is([data-theme="sheet"],[data-theme="terminal"],[data-theme="editor"],[data-theme="pixel"]) :is(.qbank-compact-dialog.qbank-text-size-dialog,.qbank-text-size-options > button) { border-radius:2px; }
+html[data-theme="pixel"] .qbank-compact-dialog.qbank-text-size-dialog { border:2px solid var(--pixel-ink); box-shadow:4px 4px 0 #24314955; }
+html:is([data-theme="chat"],[data-theme="messenger"]) .qbank-compact-dialog.qbank-text-size-dialog { background:var(--chat-chrome); color:var(--chat-text); font-family:var(--chat-font-family); }
+
 /* Native top layer: independent of sticky toolbars and split-pane clipping. */
 .qbank-number-dialog {
   --number-inline-clearance:max(.75rem,env(safe-area-inset-left,0px),env(safe-area-inset-right,0px));

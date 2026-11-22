@@ -7,6 +7,7 @@ import { ChatComposerContent } from "@/components/chat-room";
 import { DocumentToolbar } from "@/components/document-toolbar";
 import { SkinDocumentNotice } from "@/components/skin-document";
 import { QbankReferenceToolbar } from "@/components/qbank-reference-workspace";
+import { QbankTextSizeButton } from "@/components/qbank-text-size-button";
 import { compareMockSubjects, mockSubject, type MockExamState } from "@/lib/mock-exam";
 import { selectedAnswers } from "@/lib/qbank-grading";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
@@ -86,6 +87,7 @@ export function ChatMockExamTools({ questions, exam, currentIndex, answered, mar
     <h1 className="sr-only">{exam.title}</h1>
     <DocumentToolbar title={subject}>
       <QbankReferenceToolbar />
+      <QbankTextSizeButton />
       <button type="button" aria-label="답안표" aria-haspopup="dialog" onClick={openSheet}><ClipboardList size={22} /></button>
       {!finished && <button type="button" aria-label={flagged.has(current.id) ? "보류 해제" : "보류"} aria-pressed={flagged.has(current.id)} onClick={onToggleFlag}><Flag size={22} /></button>}
       {!finished && selectedAnswers(exam.drafts[current.id]).length > 0 && <button type="button" aria-label="답 선택 지우기" onClick={onClearAnswer}><Eraser size={22} /></button>}

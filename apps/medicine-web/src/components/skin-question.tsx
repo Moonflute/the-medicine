@@ -29,7 +29,7 @@ export function SkinQuestionChoices({ choices, disabled, onSelect }: { choices: 
       className={special ? "skin-q-choice" : `flex w-full items-start gap-3 rounded-lg border px-4 py-3.5 text-left transition ${choice.correct ? "border-teal-500 bg-teal-50 text-teal-950" : choice.wrong ? "border-rose-400 bg-rose-50 text-rose-950" : choice.selected ? "border-blue-500 bg-blue-50" : "border-slate-200 bg-white hover:border-slate-400"}`}>
       {theme === "sheet" ? <span className="skin-q-choice-label">{index + 2}</span> : null}
       <span className={special ? "skin-q-choice-label shrink-0 whitespace-nowrap" : "shrink-0 whitespace-nowrap font-semibold"}>{theme === "terminal" ? `[${index + 1}] ${choice.label}.` : theme === "editor" ? `${choice.label}:` : theme === "social" ? choice.label : `${choice.label}.`}</span>
-      <span data-highlight-block={`option:${choice.key}`} className="min-w-0 break-words">{choice.text}</span>
+      <span data-highlight-block={`option:${choice.key}`} className="qbank-reading-text min-w-0 break-words">{choice.text}</span>
       {special ? <span className="skin-q-choice-state">{choice.correct ? "정답" : choice.wrong ? "오답" : choice.selected ? "✓" : ""}</span> : null}
     </button>)}
   </div>;
@@ -62,7 +62,7 @@ export function SkinQuestionWorkspace({ question, choices, response, actions, co
   if (theme === "chat") return <div className="skin-question-workspace skin-question-chat" data-question-skin="chat">
     <div className="chat-message-date">{mode === "mock" ? "실전 대화" : "문제 대화"} · {number} / {total}{progressTools}</div>
     <div className="skin-q-received"><span className="skin-message-avatar" aria-hidden="true">{senderName.slice(0, 1)}</span><div className="chat-question-message"><span className="skin-message-sender">{senderName}</span><div className="skin-message-bubble">{question}{hintNode}</div></div></div>
-    {submitted ? <><div className="skin-q-sent" aria-label="보낸 답안"><div>{answerText || "모르겠습니다."}</div><small>전송됨</small></div><div className="skin-q-response" aria-live="polite">{response}</div></> : null}
+    {submitted ? <><div className="skin-q-sent" aria-label="보낸 답안"><div><span className="qbank-reading-text">{answerText || "모르겠습니다."}</span></div><small>전송됨</small></div><div className="skin-q-response" aria-live="polite">{response}</div></> : null}
     {submitted ? <details className="chat-answer-history"><summary>보기 다시 보기</summary>{choices}</details> : <div className="chat-reply-choices"><span className="sr-only">보낼 답을 선택하세요{mode === "mock" ? ". 선택한 답은 자동으로 저장됩니다." : ". 입력창의 전송 버튼으로 제출합니다."}</span>{choices}</div>}
     <ChatComposerContent area="tools"><div className="document-toolbar-actions chat-attachment-actions">{copy}</div></ChatComposerContent>
     <ChatComposerContent area="draft"><span className="chat-answer-draft" data-empty={!answerText} aria-live="polite">{submitted ? "답장을 보냈어요." : answerText || "답장 선택"}</span></ChatComposerContent>
@@ -73,7 +73,7 @@ export function SkinQuestionWorkspace({ question, choices, response, actions, co
     <div className="skin-q-grid-row"><span className="skin-q-row-number">1</span><span className="skin-q-row-label">문제</span><div className="skin-q-row-content">{question}{hintNode}<div className="mt-2 flex justify-end">{copy}</div></div></div>
     {choices}
     <div className="skin-q-actions">{actions}</div>
-    {submitted ? <div className="skin-q-grid-row"><span className="skin-q-row-number">{choicesCount + 2}</span><span className="skin-q-row-label">결과</span><div className="skin-q-row-content"><p className="mb-2 text-xs text-slate-500">입력: {answerText || "미응답"}</p><div className="skin-q-response" aria-live="polite">{response}</div></div></div> : null}
+    {submitted ? <div className="skin-q-grid-row"><span className="skin-q-row-number">{choicesCount + 2}</span><span className="skin-q-row-label">결과</span><div className="skin-q-row-content"><p className="mb-2 text-xs text-slate-500"><span className="qbank-reading-text">입력: {answerText || "미응답"}</span></p><div className="skin-q-response" aria-live="polite">{response}</div></div></div> : null}
   </div>;
   if (theme === "terminal") return <div className="skin-question-workspace skin-question-console" data-question-skin="terminal">
     <div className="skin-q-console-title"><span>QBANK / QUESTION_{String(number).padStart(3, "0")}</span><span>{number}/{total}</span></div>

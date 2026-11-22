@@ -33,6 +33,18 @@ mocks['@/components/qbank-skip-controls'] = load('components/qbank-skip-controls
 const skin = load('components/skin-question.tsx');
 const { QbankProgressFilters } = load('components/qbank-progress-filters.tsx');
 const { QbankQuestionNumbers } = load('components/qbank-question-numbers.tsx');
+const { QbankTextSizeButton } = load('components/qbank-text-size-button.tsx');
+
+test('the compact reading-size control exposes four choices and is placed before the info tool', () => {
+  const html = renderToStaticMarkup(h(QbankTextSizeButton));
+  assert.match(html, /aria-label="글자 크기"[^>]*aria-haspopup="dialog"/);
+  assert.match(html, /qbank-text-size-glyph[^>]*>가<\/span>/);
+  assert.match(html, />작게<\/button>[^]*aria-pressed="true">기본<\/button>[^]*>크게<\/button>[^]*>아주 크게<\/button>/);
+  for (const file of ['qbank-session-client.tsx', 'mock-exam-panel.tsx']) {
+    const source = fs.readFileSync(new URL(`../src/components/${file}`, import.meta.url), 'utf8');
+    assert.match(source, /<QbankTextSizeButton \/>\s*<details[^>]*><summary[^>]*aria-label="문제 ID 보기"/);
+  }
+});
 
 test('all numbers opens a labeled native dialog without rendering the closed grid', () => {
   const html = renderToStaticMarkup(h(QbankQuestionNumbers, {
