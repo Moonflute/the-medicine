@@ -10,7 +10,9 @@ import { DocumentToc } from "@/components/document-toc";
 import { DiseaseSectionIcon } from "@/components/disease-section-icon";
 import type { DiseaseNote, TermLink } from "@/lib/webdb";
 import { RichTextLines } from "@/components/rich-text-lines";
+import { ReviewCardCreateButton } from "@/components/review-card-create-button";
 import { ReviewSaveButton } from "@/components/review-save-button";
+import type { ReviewCardSpecialty } from "@/lib/review-card-relations";
 import { DocumentEditButton } from "@/components/document-edit-button";
 import { ContentMetadata } from "@/components/content-metadata";
 import { useSkinTheme } from "@/components/theme-provider";
@@ -73,6 +75,7 @@ export function DiseaseCard({
   diseaseLinks = [],
   hideOverview = false,
   relatedQbankHref,
+  reviewSpecialty,
 }: {
   note: DiseaseNote;
   compact?: boolean;
@@ -80,6 +83,7 @@ export function DiseaseCard({
   diseaseLinks?: TermLink[];
   hideOverview?: boolean;
   relatedQbankHref?: string;
+  reviewSpecialty?: ReviewCardSpecialty;
 }) {
   const { theme } = useSkinTheme();
   const sheet = theme === "sheet" && !compact;
@@ -210,9 +214,15 @@ export function DiseaseCard({
         }))} />
       ) : null}
 
-      {!compact && references.length > 0 ? (
+      {expanded ? <>
+        <footer className="flex flex-wrap items-center gap-y-2 px-5 py-3 sm:px-6" data-highlight-ignore>
+          <ReviewCardCreateButton key={note.slug} initialRelations={{
+            specialties: reviewSpecialty ? [reviewSpecialty] : [],
+            documents: [{ href: reviewItem.href, title: reviewItem.title.slice(0, 300) }],
+          }} />
+        </footer>
         <DiseaseReferences lines={references} />
-      ) : null}
+      </> : null}
 
     </article></ChatSenderProvider>
   );

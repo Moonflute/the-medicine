@@ -63,7 +63,9 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
   const relations = getClinicalRelationsFor("disease", note.id);
   const infectionPathways = getInfectionPathwaysForDisease(note.slug);
   const relatedQbankCount = getQbankCountForTarget("disease", note.slug);
-  const infectionSpecialty = getSpecialties().find((item) => item.name.replace(/^\d+\s*/, "").trim() === "감염");
+  const specialties = getSpecialties();
+  const primarySpecialty = specialties.find(item => item.name === note.specialty);
+  const infectionSpecialty = specialties.find((item) => item.name.replace(/^\d+\s*/, "").trim() === "감염");
   const diseaseSequence = getDiseaseSequence(note);
   const currentIndex = diseaseSequence.findIndex((item) => item.slug === note.slug);
   const previousDisease = currentIndex > 0 ? diseaseSequence[currentIndex - 1] : undefined;
@@ -86,6 +88,7 @@ export default async function DiseaseDetailPage(props: { params: Promise<{ slug:
         ccLinks={ccLinks}
         diseaseLinks={diseaseLinks}
         hideOverview={isSpecialtyOverview}
+        reviewSpecialty={primarySpecialty ? { id: primarySpecialty.slug, label: primarySpecialty.name.replace(/^\d+\s+/, "").trim() } : undefined}
         relatedQbankHref={relatedQbankCount > 0 ? `/review/qbank/related?targetType=disease&target=${encodeURIComponent(note.slug)}&label=${encodeURIComponent(note.displayTitle || note.title)}` : undefined}
       />
       {infectionSpecialty && infectionPathways.length > 0 ? <DiseaseInfectionPanel pathways={infectionPathways} spectrum={getAntibioticSpectrum()} specialtySlug={infectionSpecialty.slug} /> : null}

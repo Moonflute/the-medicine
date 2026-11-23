@@ -8,6 +8,8 @@
 }
 
 .review-cards-page { max-width: 68rem; }
+.review-card-create-trigger { font-size: 0.75rem; min-height: 2.5rem; }
+.review-card-create-status { margin-inline-start: 0.5rem; color: var(--primary); font-size: 0.75rem; }
 .review-card-back { margin-bottom: 0.6rem; }
 .review-card-heading, .review-card-toolbar, .review-card-list-footer {
   display: flex;

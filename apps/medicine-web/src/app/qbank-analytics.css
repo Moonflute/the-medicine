@@ -1,4 +1,4 @@
-.qbank-compact-dialog {
+.qbank-compact-dialog, .review-card-create-dialog {
   margin: auto;
   width: min(38rem, calc(100vw - 2rem));
   max-height: calc(100dvh - 2rem);
@@ -11,10 +11,9 @@
   border-radius: 12px;
   box-shadow: 0 12px 45px rgb(0 0 0 / .2);
 }
-.qbank-compact-dialog::backdrop { background: rgb(15 23 42 / .45); }
-.qbank-compact-dialog .review-card-panel { border: 0; }
-.qbank-compact-dialog .primary-action, .qbank-compact-dialog .secondary-action { min-height: 2.75rem; }
-.qbank-add-review-card { font-size: .75rem; min-height: 2.5rem; }
+:is(.qbank-compact-dialog, .review-card-create-dialog)::backdrop { background: rgb(15 23 42 / .45); }
+:is(.qbank-compact-dialog, .review-card-create-dialog) .review-card-panel { border: 0; }
+:is(.qbank-compact-dialog, .review-card-create-dialog) :is(.primary-action, .secondary-action) { min-height: 2.75rem; }
 .qbank-stats-row { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; padding: .65rem 0; }
 .qbank-stats-row-main { flex: 1 1 16rem; min-width: 0; }
 .qbank-stats-row-values { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .8rem; font-size: .75rem; color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -41,6 +40,6 @@
 .qbank-result-buttons button[aria-pressed="true"] { outline: 2px solid var(--primary); outline-offset: 1px; }
 @media (min-width: 64rem) { .qbank-mock-trends { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 40rem) {
-  .qbank-card-dialog { margin-bottom: 0; width: 100%; max-height: 92dvh; border-radius: 12px 12px 0 0; padding-bottom: env(safe-area-inset-bottom); }
+  .review-card-create-dialog { margin-bottom: 0; width: 100%; max-height: 92dvh; border-radius: 12px 12px 0 0; padding-bottom: env(safe-area-inset-bottom); }
   .qbank-stats-row-values { justify-content: flex-start; width: 100%; }
 }
