@@ -67,7 +67,7 @@ function SkinFrameContent({ theme, pathname, headerRef, version, children, conve
     </Link>)}
   </nav>;
 
-  return <div className={special ? `skin-frame skin-frame--${theme}` : "mx-auto flex min-h-screen max-w-[1680px]"} data-conversation={conversation || inChatRoom} data-chat-room={inChatRoom} data-immersive={immersive}>
+  return <div className={special ? `skin-frame skin-frame--${theme}` : "flex min-h-screen w-full min-w-0"} data-conversation={conversation || inChatRoom} data-chat-room={inChatRoom} data-immersive={immersive}>
     {!special || theme === "chat" || concept ? <aside className={special ? `skin-desktop-rail skin-desktop-rail--${theme}` : "app-sidebar sticky top-0 hidden h-screen w-64 shrink-0 self-start border-r border-slate-200 bg-slate-950 px-4 py-5 text-slate-100 xl:block"} aria-label={special ? theme === "editor" ? "파일 탐색기" : theme === "mail" ? "메일 폴더" : "앱 탐색" : undefined}>
       {concept ? <ConceptDesktopRail theme={theme} pathname={pathname} menuOpen={menuOpen} onMenu={toggleMenu} onNavigate={closeMenu} /> : theme === "chat" ? <>
         <Link href="/" className="chat-desktop-brand" aria-label="홈으로" onClick={closeMenu}><MessageCircle size={27} aria-hidden="true" /></Link>

@@ -280,19 +280,20 @@ html[data-theme="notebook"] .study-flow-toggle { border:0; border-left:2px solid
 .skin-frame--notebook[data-immersive="true"] .skin-frame-body { max-width:none; --notebook-page-left:16px; --notebook-page-right:16px; --notebook-margin-x:5px; }
 html[data-theme="notebook"] .skin-frame[data-immersive="true"] .skin-page { padding-block:12px; }
 
-/* Wide pages carry attached left-edge index tabs. Split/reference panes and
+/* Wide pages start at the viewport's left edge with their index tabs attached.
+   Keep the paper's reading width without centering its navigation. Split/reference panes and
    interactive workspaces keep their compact navigation and full working width. */
 @media screen and (min-width:1100px) {
   .skin-frame--notebook[data-immersive="false"]:not(:where([data-qbank-reference="true"] *,.qbank-workspace[data-split="true"] *)) {
     --notebook-index-width:68px;
     padding-left:var(--notebook-index-width);
   }
-  .skin-frame--notebook[data-immersive="false"]:not(:where([data-qbank-reference="true"] *,.qbank-workspace[data-split="true"] *)) > .skin-frame-body { border-left:1px solid var(--notebook-rule); }
+  .skin-frame--notebook[data-immersive="false"]:not(:where([data-qbank-reference="true"] *,.qbank-workspace[data-split="true"] *)) > .skin-frame-body { margin-inline:0; border-left:1px solid var(--notebook-rule); }
   .skin-frame--notebook[data-immersive="false"]:not(:where([data-qbank-reference="true"] *,.qbank-workspace[data-split="true"] *)) > .skin-frame-body > .notebook-navigation {
     position:fixed;
     top:74px;
     bottom:auto;
-    left:max(4px,calc((100% - 1180px - var(--notebook-index-width)) / 2 + 4px));
+    left:4px;
     z-index:35;
     flex-direction:column;
     gap:6px;
