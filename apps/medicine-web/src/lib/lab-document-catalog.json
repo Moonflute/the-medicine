@@ -447,6 +447,9 @@
   "99 기타 검사/02 내시경검사/EGD (Esophagogastroduodenoscopy).md": {
     "kind": "imaging"
   },
+  "99 기타 검사/02 내시경검사/ERCP (Endoscopic Retrograde Cholangiopancreatography).md": {
+    "kind": "imaging"
+  },
   "99 기타 검사/03 병리·세포검사/병리·세포검사.md": {
     "kind": "index"
   },
