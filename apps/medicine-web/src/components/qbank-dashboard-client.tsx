@@ -19,6 +19,7 @@ import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import { loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT, remapQbankQuestionIds, type QbankState } from "@/lib/qbank-store";
 import { createQbankProgressMatcher, qbankQuestionProgressIds, readQbankProgressFilter, type QbankProgressFilter } from "@/lib/qbank-progress-filter";
 import { QBANK_DEFAULT_COUNT, readQbankQuestionCount } from "@/lib/qbank-question-count";
+import { qbankStatsHref } from "@/lib/qbank-stats-route";
 import { activeSessionFrom, activeSessionsFrom, clearLocalActiveQbankSession, loadLocalActiveQbankSessions, planActiveQbankSessionSync, remapLocalActiveQbankSession, saveLocalActiveQbankSession, type QbankActiveSession } from "@/lib/qbank-active-session";
 import { loadCloudActiveQbankSessionState, removeCloudActiveQbankSession, saveCloudActiveQbankSession } from "@/lib/qbank-active-session-cloud";
 import { OWNER_KEY } from "@/lib/learning-sync-outbox";
@@ -471,7 +472,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       </div>
       <nav aria-label="문제 풀기 이동" className="flex flex-wrap items-center gap-2">
         <Link href="/review" className="secondary-action min-h-8 gap-1.5 px-2.5 py-1 text-xs"><ArrowLeft className="h-3.5 w-3.5" />REVIEW로 돌아가기</Link>
-        <Link href="/review/qbank/stats" className="primary-action min-h-8 px-2.5 py-1 text-xs">학습 통계</Link>
+        <Link href={qbankStatsHref(tab)} className="primary-action min-h-8 px-2.5 py-1 text-xs">학습 통계</Link>
       </nav>
     </header> : null}
 

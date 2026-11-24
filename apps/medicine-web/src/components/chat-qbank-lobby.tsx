@@ -6,6 +6,7 @@ import { createPortal } from "react-dom";
 import { BarChart3, Bookmark, ChevronLeft, Ellipsis, Plus, RotateCcw, X } from "lucide-react";
 import { useChatRoom } from "@/components/chat-room";
 import { readQbankQuestionCount } from "@/lib/qbank-question-count";
+import { qbankStatsHref } from "@/lib/qbank-stats-route";
 
 type Bank = "theory" | "clinical" | "practice";
 type Conversation = {
@@ -96,7 +97,7 @@ export function ChatQbankLobby({ banks, bank, onChooseBank, conversations, syncS
     <ChatQbankDialog dialogRef={picker} title="새 문제 대화" picker>{children}</ChatQbankDialog>
     <ChatQbankDialog dialogRef={more} title="문제 대화 더보기">
       <dl className="chat-qbank-stats"><div><dt>전체 문제</dt><dd>{total.toLocaleString()}</dd></div><div><dt>풀이 완료</dt><dd>{stats.attempted.toLocaleString()}</dd></div><div><dt>오답</dt><dd>{stats.wrong.toLocaleString()}</dd></div></dl>
-      <Link href="/review/qbank/stats" className="chat-qbank-menu-link"><BarChart3 size={20} />학습 통계</Link>
+      <Link href={qbankStatsHref(bank)} className="chat-qbank-menu-link"><BarChart3 size={20} />학습 통계</Link>
       <Link href="/review" className="chat-qbank-menu-link"><Bookmark size={20} />복습 목록</Link>
     </ChatQbankDialog>
     <ChatQbankDialog dialogRef={unattempted} title="미풀이 문제">

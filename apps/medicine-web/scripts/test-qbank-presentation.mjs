@@ -34,11 +34,21 @@ const skin = load('components/skin-question.tsx');
 const { QbankProgressFilters } = load('components/qbank-progress-filters.tsx');
 const { QbankQuestionNumbers } = load('components/qbank-question-numbers.tsx');
 const { QbankTextSizeButton } = load('components/qbank-text-size-button.tsx');
+const { qbankStatsHref, qbankStatsInitialBank } = load('lib/qbank-stats-route.ts');
 
 mocks['./study-date'] = mocks['@/lib/study-date'] = load('lib/study-date.ts');
 const activityCalendar = mocks['@/lib/study-calendar'] = load('lib/study-calendar.ts');
 const { QbankActivityBars } = mocks['@/components/qbank-activity-bars'] = load('components/qbank-activity-bars.tsx');
 const { QbankAccuracyRadar, QbankPracticeAccuracyRadar } = load('components/qbank-accuracy-radar.tsx');
+
+test('practice opens statistics with its bank selected, while ordinary links keep the all-bank default', () => {
+  const href = qbankStatsHref('practice');
+  assert.equal(href, '/review/qbank/stats?bank=practice');
+  assert.equal(qbankStatsInitialBank(new URLSearchParams(href.split('?')[1])), 'practice');
+  for (const bank of ['theory', 'clinical']) assert.equal(qbankStatsHref(bank), '/review/qbank/stats');
+  assert.equal(qbankStatsInitialBank(new URLSearchParams()), 'all');
+  assert.equal(qbankStatsInitialBank(new URLSearchParams('bank=unknown')), 'all');
+});
 
 test('question activity is the first statistics section and is no longer a Review tab', (context) => {
   const previousTheme = activeTheme;

@@ -1,9 +1,11 @@
 "use client";
 
-import { useEffect, useId, useMemo, useState } from "react";
+import { Suspense, useEffect, useId, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { SkinStatus } from "@/components/skin-status";
 import { ArrowRight, List as ListIcon, Radar, RotateCcw } from "lucide-react";
 import { buildQbankAnalytics, sortAnalyticsGroups, type AnalyticsSort, type AnalyticsGroup, type AnalyticsQuestion, type PracticeDepartmentGroup } from "@/lib/qbank-analytics";
+import { qbankStatsInitialBank } from "@/lib/qbank-stats-route";
 import { QbankStatsSetDialog, type StatsSetRequest, type StatsSetLauncher } from "@/components/qbank-stats-set-dialog";
 import { QbankAccuracyRadar, QbankPracticeAccuracyRadar } from "@/components/qbank-accuracy-radar";
 import { QbankMockHistory } from "@/components/qbank-mock-history";
@@ -14,6 +16,7 @@ import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import type { QbankQuestionIndex } from "@/lib/types";
 
 const BANKS = [["all", "전체"], ["theory", "이론문제"], ["clinical", "임상문제"], ["practice", "실전문제"]] as const;
+type StatsBank = (typeof BANKS)[number][0];
 const clean = (s: string) => s.replace(/^\d+\s*/, "");
 const percent = (n: number, d: number) => d ? `${Math.round(n / d * 100)}%` : "—";
 const dateLabel = (value: string) => { const d = new Date(value); return Number.isNaN(d.getTime()) ? "날짜 없음" : d.toLocaleDateString("ko-KR", { month: "short", day: "numeric" }); };
@@ -78,7 +81,20 @@ function DepartmentPerformance({ title, scope, sort, onSort, onStart, descriptio
   </section>;
 }
 
+function AnalyticsLoading({ error }: { error?: string }) {
+  return <SkinStatus kind={error ? "questionsError" : "statisticsLoading"} fallback={error || "풀이 기록을 정리하고 있습니다…"} detail={error || undefined} stage onRetry={error ? () => window.location.reload() : undefined} className="surface min-w-0 p-6 text-sm text-slate-600" />;
+}
+
 export function QbankAnalyticsClient() {
+  return <Suspense fallback={<AnalyticsLoading />}><QbankAnalyticsRoute /></Suspense>;
+}
+
+function QbankAnalyticsRoute() {
+  const initialBank = qbankStatsInitialBank(useSearchParams());
+  return <QbankAnalytics key={initialBank} initialBank={initialBank} />;
+}
+
+function QbankAnalytics({ initialBank }: { initialBank: StatsBank }) {
   const [setRequest, setSetRequest] = useState<StatsSetRequest | null>(null);
   const [sort, setSort] = useState<AnalyticsSort>("default");
   const [state, setState] = useState<QbankState | null>(null);
@@ -87,7 +103,7 @@ export function QbankAnalyticsClient() {
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState("");
   const [privateMessage, setPrivateMessage] = useState("실전문제 목록을 불러오는 중입니다.");
-  const [bank, setBank] = useState("all");
+  const [bank, setBank] = useState(initialBank);
   const [department, setDepartment] = useState("all");
   const [progressResetAt, setProgressResetAt] = useState<string | null>(null);
   useEffect(() => {
@@ -147,7 +163,7 @@ export function QbankAnalyticsClient() {
     if (!window.confirm("진행률만 처음부터 다시 계산할까요? 기존 정답·오답·북마크·풀이 기록은 유지됩니다.")) return;
     setProgressResetAt(resetQbankProgressView());
   }
-  if (!stats || !loaded) return <SkinStatus kind={error ? "questionsError" : "statisticsLoading"} fallback={error || "풀이 기록을 정리하고 있습니다…"} detail={error || undefined} stage onRetry={error ? () => window.location.reload() : undefined} className="surface min-w-0 p-6 text-sm text-slate-600" />;
+  if (!stats || !loaded) return <AnalyticsLoading error={error} />;
   const hasPractice = bank === "all" || bank === "practice";
   return <div className="space-y-5">
     {setRequest && setRequest.ids.every(id => isListedQuestion(id, practiceIds)) && <QbankStatsSetDialog key={`${setRequest.kind}:${setRequest.title}`} request={setRequest} questions={catalog} onClose={() => setSetRequest(null)} />}
