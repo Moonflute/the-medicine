@@ -13,6 +13,8 @@ reviewed_at: "2026-10-07"
 content_updated_at: "2026-10-07"
 guideline_year: "2025"
 sources:
+- 서울대학교병원 내과 매뉴얼 6판(2022), 중환자 4장 922–924쪽.
+- 중환자 RSI 케타민과 에토미데이트 무작위시험 | https://pubmed.ncbi.nlm.nih.gov/41369227/
 - DAS: Unanticipated Difficult Tracheal Intubation in Adults, 2025 | https://doi.org/10.1016/j.bja.2025.10.006
 - SCCM: Rapid Sequence Intubation in the Critically Ill Adult Patient, 2023 | https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-rapid-sequence-intubation
 - Levitan et al.: Laryngeal View During Laryngoscopy, Randomized Trial, 2006 | https://doi.org/10.1016/j.annemergmed.2006.01.013
@@ -51,8 +53,3 @@ sources:
 ## 합병증·사후 관리
 - 저산소증·저혈압·흡인·기도 외상과 식도·주기관지 삽관을 감시합니다. 환자 이동·자세 변경 뒤 위치와 고정을 재확인합니다.
 - 진정·진통, 인공호흡기 설정과 혈역학을 이어서 관리하며 시도 횟수·기구·튜브 깊이·확인 방법·어려웠던 점을 기록하고 인계합니다.
-
-## 출처
-- 서울대학교병원 내과 매뉴얼 6판(2022), 중환자 4장 922–924쪽.
-- [SCCM 중환자 빠른 연속 기관삽관 지침](https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-rapid-sequence-intubation)
-- [중환자 RSI 케타민과 에토미데이트 무작위시험](https://pubmed.ncbi.nlm.nih.gov/41369227/)

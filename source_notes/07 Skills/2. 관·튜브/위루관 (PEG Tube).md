@@ -10,6 +10,9 @@ icon_name: "GitCommit"
 order: 8
 video_url: "https://www.youtube.com/embed/svsKicfKogA"
 sources:
+- 서울대학교병원 내과 매뉴얼 6판(2022), 노인병 2장 960–963쪽.
+- ASGE 위루관 진료지침 | https://pubmed.ncbi.nlm.nih.gov/39520459/
+- 대한소화기내시경학회 PEG 진료지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10393568/
 - NHS: Care of a PEG Feeding Tube | https://www.kentcht.nhs.uk/leaflet/care-of-a-peg-feeding-tube/
 ---
 
@@ -75,8 +78,3 @@ Warning: 새 PEG가 빠졌거나 외부 길이가 갑자기 변하고 심한 복
 
 ### 피부 관리와 기록
 stoma를 세정해 완전히 건조시키고 bumper 아래 피부를 확인합니다. 외부 길이, 삽입부, flush·feeding·약물, intake, 환자 반응과 이상 보고를 기록합니다.
-
-## 출처
-- 서울대학교병원 내과 매뉴얼 6판(2022), 노인병 2장 960–963쪽.
-- [ASGE 위루관 진료지침](https://pubmed.ncbi.nlm.nih.gov/39520459/)
-- [대한소화기내시경학회 PEG 진료지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC10393568/)

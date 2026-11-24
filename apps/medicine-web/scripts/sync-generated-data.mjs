@@ -1465,7 +1465,7 @@ function buildSkills() {
           supplies: firstSkillSection(body, "Supplies").length ? firstSkillSection(body, "Supplies") : extractNestedSection(body, /^준비물$/),
           complications: firstSkillSection(body, "Complications").length ? firstSkillSection(body, "Complications") : extractNestedSection(body, /^합병증$/),
           precautions: firstSkillSection(body, "Precautions").length ? firstSkillSection(body, "Precautions") : extractNestedSection(body, /^주의사항$/),
-          sources: parseSkillSources(frontmatter.sources),
+          sources: parseSkillSources(frontmatter.sources, true),
           videoUrl: readScalar(frontmatter.video_url) || null,
           steps: extractSkillSteps(body),
         },

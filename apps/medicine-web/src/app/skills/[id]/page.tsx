@@ -93,7 +93,9 @@ export default async function SkillDetailPage(props: { params: Promise<{ id: str
         <span className="mr-2 font-medium">출처</span>
         {skill.sources.map((source, index) => <span key={`${source.label}-${source.url}`}>
           {index > 0 ? <span aria-hidden="true" className="mx-2">·</span> : null}
-          <a href={source.url} target="_blank" rel="noopener noreferrer" className="underline decoration-slate-300 underline-offset-2 hover:text-teal-700">{source.label}</a>
+          {source.url
+            ? <a href={source.url} target="_blank" rel="noopener noreferrer" className="underline decoration-slate-300 underline-offset-2 hover:text-teal-700">{source.label}</a>
+            : source.label}
         </span>)}
       </footer> : null}
       <ParentPageFab href={`/skills/category/${skill.categoryId}`} />

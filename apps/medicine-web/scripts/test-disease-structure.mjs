@@ -51,9 +51,9 @@ test('disease source sections are absent from clinical content and vWD citations
   }
  }
  const vwd=diseases.find(d=>d.title==='폰 빌레브란트병 (von Willebrand Disease, vWD)');
- assert.equal(vwd.references.length,4);
  assert.ok(vwd.references.some(line=>line.includes('StatPearls')));
- for(const url of ['https://doi.org/10.1182/bloodadvances.2020003265','https://doi.org/10.1182/bloodadvances.2025016485','https://pmc.ncbi.nlm.nih.gov/articles/PMC7805326/'])assert.ok(vwd.references.some(line=>line.includes(url)),url);
+ assert.ok(vwd.references.some(line=>line.includes('서울대학교병원 내과 매뉴얼 6판')));
+ for(const url of ['https://doi.org/10.1182/bloodadvances.2020003265','https://doi.org/10.1182/bloodadvances.2025016485','https://pmc.ncbi.nlm.nih.gov/articles/PMC7805326/','https://doi.org/10.1182/bloodadvances.2020003264'])assert.ok(vwd.references.some(line=>line.includes(url)),url);
  assert.equal(vwd.sections.find(s=>s.title.includes('예후')).content.filter(line=>line.startsWith('- ')).length,3);
  const urinary=diseases.find(d=>d.title==='요로감염');
  assert.deepEqual(urinary.sections.find(s=>s.title==='포함 질환').content,[

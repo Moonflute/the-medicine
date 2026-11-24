@@ -13,6 +13,8 @@ reviewed_at: "2026-10-08"
 content_updated_at: "2026-10-08"
 guideline_year: "2025"
 sources:
+- 서울대학교병원 내과 매뉴얼 6판(2022), 소화기 14장 298쪽과 감염 12장 819쪽.
+- 삼성서울병원 메뉴얼
 - CDC: Sharps Safety Program Resources | https://www.cdc.gov/infection-control/hcp/sharps-safety/index.html
 - CDC: Management of Potentially Infectious Exposures and Illnesses | https://www.cdc.gov/infection-control/hcp/healthcare-personnel-infrastructure-routine-practices/exposure-managment.html
 - US PHS and CDC: Occupational HIV Exposure and PEP Guidelines, 2025 | https://stacks.cdc.gov/view/cdc/183609/cdc_183609_DS1.pdf
@@ -100,11 +102,3 @@ PEP 복용법, 흔한 부작용, 놓친 용량 대처, 약물상호작용과 추
 미국 USPHS 2025 직업성 노출 지침은 노출 12주에 HIV Ag/Ab와 HIV NAT를 최종 검사로 권고합니다. PEP 첫 투약이 단회 노출 후 24시간을 넘었거나 복용을 놓쳤다면 4–6주 중간 검사를 추가합니다. 국내 기관 지침에 따라 일정과 검사 경로를 확인합니다.
 
 HCV 감염원이 RNA 양성이거나, 항체 양성인데 RNA 결과가 없거나, 감염원 검사가 불가능하여 추적이 필요한 경우에는 노출 3–6주에 HCV RNA를 검사합니다. 이후 4–6개월에 anti-HCV를 검사하고 양성이면 RNA를 확인합니다. 기초 항체 양성·RNA 음성인 노출자는 항체 대신 RNA로 추적합니다. 간염 증상이 나타나면 예정일을 기다리지 않고 평가합니다.
-
-참고: 삼성서울병원 메뉴얼.
-- [CDC 의료인 HCV 노출 후 검사](https://www.cdc.gov/hepatitis-c/hcp/infection-control/index.html)
-
-## 출처
-- SNUH Manual of Medicine 6판(2022), 소화기 14장, 298쪽. [CDC 의료인의 HBV 노출 후 관리](https://www.cdc.gov/hepatitis-b/hcp/infection-control/index.html).
-- 서울대학교병원 내과 매뉴얼 6판(2022), 감염 12장 819쪽.
-- [미 USPHS 2025 의료인 HIV 직업 노출 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC12616222/).
