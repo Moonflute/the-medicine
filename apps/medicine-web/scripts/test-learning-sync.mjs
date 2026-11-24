@@ -260,6 +260,27 @@ test("Korean midnight, year change, leap day and calendar dates agree regardless
   assert.equal(h.activity.loadActivity()["2027-01-01"].attempts, 1);
 });
 
+test("activity bar data keeps one point per elapsed day and splits the same total into correct and wrong", () => {
+  const { calendar } = harness();
+  const now = new Date("2026-11-23T15:00:00Z");
+  const month = calendar.activityCalendar("month", now);
+  const days = calendar.activityDays(month.days, {
+    "2026-11-22": { attempts: 10, correct: 6 },
+    "2026-11-24": { attempts: 5, correct: 5 },
+    "2026-11-25": { attempts: 30, correct: 30 },
+  });
+  assert.equal(days.length, 24);
+  assert.deepEqual(Array.from(days.slice(-3), d => [d.key, d.attempts, d.wrong, d.correct]), [
+    ["2026-11-22", 10, 4, 6], ["2026-11-23", 0, 0, 0], ["2026-11-24", 5, 0, 5],
+  ]);
+  assert.equal(calendar.activityBarScale(days).max, 10);
+  assert.deepEqual(Array.from(calendar.activityBarScale(days).ticks), [0, 5, 10]);
+  const leap = calendar.activityDays(calendar.activityCalendar("year", now, 2024).days, {});
+  assert.equal(leap.length, 366);
+  assert.equal(leap.find(d => d.key === "2024-02-29").attempts, 0);
+  assert.equal(calendar.activityBarScale(leap).max, 1);
+});
+
 test("correct retries resolve all question banks; new wrong answers re-enter without changing bookmarks", () => {
   const h = harness();
   for (const id of ["theory-test", "medqa-test", "QB-PF2026-V01-IM-1"]) {

@@ -35,6 +35,73 @@ const { QbankProgressFilters } = load('components/qbank-progress-filters.tsx');
 const { QbankQuestionNumbers } = load('components/qbank-question-numbers.tsx');
 const { QbankTextSizeButton } = load('components/qbank-text-size-button.tsx');
 
+mocks['./study-date'] = mocks['@/lib/study-date'] = load('lib/study-date.ts');
+const activityCalendar = mocks['@/lib/study-calendar'] = load('lib/study-calendar.ts');
+const { QbankActivityBars } = mocks['@/components/qbank-activity-bars'] = load('components/qbank-activity-bars.tsx');
+const { QbankAccuracyRadar, QbankPracticeAccuracyRadar } = load('components/qbank-accuracy-radar.tsx');
+
+test('question activity is the first statistics section and is no longer a Review tab', (context) => {
+  const previousTheme = activeTheme;
+  context.after(() => { activeTheme = previousTheme; });
+  mocks['@/components/skin-panel'] = load('components/skin-panel.tsx');
+  mocks['@/lib/qbank-store'] = { loadQbankState: () => ({ dailyActivity: {} }), QBANK_CHANGE_EVENT: 'qbank-change' };
+  mocks['@/components/qbank-activity-heatmap'] = load('components/qbank-activity-heatmap.tsx');
+  mocks['@/components/qbank-analytics-client'] = { QbankAnalyticsClient: () => h('div', { 'data-analytics': true }) };
+  mocks['@/components/skin-entry'] = {};
+  mocks['@/components/skin-status'] = { SkinStatus: ({ fallback }) => h('p', null, fallback) };
+  mocks['@/lib/review-store'] = {};
+  const { default: StatsPage } = load('app/review/qbank/stats/page.tsx');
+  const { ReviewPageClient } = load('components/review-page-client.tsx');
+
+  for (const theme of ['light', 'pixel']) {
+    activeTheme = theme;
+    const stats = renderToStaticMarkup(h(StatsPage));
+    assert.match(stats, /학습 통계[^]*aria-label="문제풀이 기록"[^]*히트맵<\/button>[^]*막대그래프<\/button>[^]*data-analytics/);
+    const review = renderToStaticMarkup(h(ReviewPageClient, { catalog: [] }));
+    assert.match(review, /aria-pressed="true"[^>]*>저장<\/button>[^]*>최근<\/button>/);
+    assert.doesNotMatch(review, /진도|문제풀이 기록/);
+  }
+});
+
+test('the radar uses cumulative accuracy and keeps an unattempted axis distinct from zero percent', () => {
+  const groups = [
+    { key: '순환기', attempts: 10, correct: 6 },
+    { key: '호흡기', attempts: 2, correct: 0 },
+    { key: '외과', attempts: 0, correct: 0 },
+    { key: '신장', attempts: 5, correct: 5 },
+  ];
+  const html = renderToStaticMarkup(h(QbankAccuracyRadar, { groups }));
+  assert.match(html, /100%<\/text>/);
+  assert.match(html, /순환기 · 60% \(6\/10\)/);
+  assert.match(html, /호흡기 · 0% \(0\/2\)/);
+  assert.match(html, /외과<\/span><strong>기록 없음<\/strong>/);
+  assert.equal((html.match(/class="qbank-radar-point"/g) ?? []).length, 3);
+  assert.doesNotMatch(html, /class="qbank-radar-area"/);
+  assert.match(renderToStaticMarkup(h(QbankAccuracyRadar, { groups: groups.filter(group => group.attempts) })), /class="qbank-radar-area"/);
+});
+
+test('a practice radar keeps the subject total and its nested internal-medicine axes separate', () => {
+  const internal = { key: '내과', attempts: 8, correct: 4, children: [{ key: '호흡기', attempts: 4, correct: 3 }] };
+  const surgery = { key: '외과', attempts: 3, correct: 3, children: [] };
+  const subjects = renderToStaticMarkup(h(QbankPracticeAccuracyRadar, { groups: [internal, surgery] }));
+  assert.match(subjects, /실전 과목별 정답률 방사형 그래프/);
+  assert.match(subjects, /내과 · 50% \(4\/8\)/);
+  assert.match(subjects, /내과 세부 분과<\/button>/);
+  assert.doesNotMatch(subjects, /호흡기 · 75%/);
+  const details = renderToStaticMarkup(h(QbankPracticeAccuracyRadar, { groups: [internal] }));
+  assert.match(details, /내과 세부 분과 정답률 방사형 그래프/);
+  assert.match(details, /호흡기 · 75% \(3\/4\)/);
+});
+
+test('daily activity stacks correct above wrong and displays a distinct control for a zero day', () => {
+  const calendar = activityCalendar.activityCalendar('week', new Date('2026-11-23T15:00:00Z'));
+  const days = activityCalendar.activityDays(calendar.days, { '2026-11-22': { attempts: 10, correct: 6 } });
+  const html = renderToStaticMarkup(h(QbankActivityBars, { days, range: 'week', title: '이번 주', dayProps: () => ({}) }));
+  assert.match(html, /2026-11-22 · 풀이 10개 · 오답 4개 · 정답 6개[^]*qbank-activity-correct" style="height:60%"[^]*qbank-activity-wrong" style="height:40%"/);
+  assert.match(html, /2026-11-23 · 풀이 0개 · 오답 0개 · 정답 0개"><\/button>/);
+  assert.equal((html.match(/class="qbank-activity-bar"/g) ?? []).length, 3);
+});
+
 test('the compact reading-size control exposes four choices and is placed before the info tool', () => {
   const html = renderToStaticMarkup(h(QbankTextSizeButton));
   assert.match(html, /aria-label="글자 크기"[^>]*aria-haspopup="dialog"/);

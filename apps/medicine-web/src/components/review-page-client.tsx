@@ -6,7 +6,6 @@ import { SkinStatus } from "@/components/skin-status";
 import type { SkinStatusKind } from "@/lib/skin-status";
 import { useEffect, useMemo, useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
-import { QbankRangeActivityHeatmap } from "@/components/qbank-activity-heatmap";
 import {
   loadRecentItems,
   loadReviewItems,
@@ -19,7 +18,7 @@ import {
   type ReviewItem,
 } from "@/lib/review-store";
 
-type Tab = "saved" | "recent" | "activity";
+type Tab = "saved" | "recent";
 
 const TYPE_LABELS: Record<string, string> = {
   disease: "질병",
@@ -37,7 +36,7 @@ function formatDate(value?: string) {
 export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) {
   const [items, setItems] = useState<ReviewItem[]>([]);
   const [recent, setRecent] = useState<RecentReviewItem[]>([]);
-  const [tab, setTab] = useState<Tab>("activity");
+  const [tab, setTab] = useState<Tab>("saved");
   const [revealed, setRevealed] = useState<Set<string>>(new Set());
   const [message, setMessage] = useState<{ kind: SkinStatusKind; text: string; detail: string } | null>(null);
 
@@ -50,7 +49,7 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
     window.addEventListener(REVIEW_CHANGE_EVENT, refresh);
     return () => window.removeEventListener(REVIEW_CHANGE_EVENT, refresh);
   }, [catalog]);
-  const current: Array<ReviewItem | RecentReviewItem> = tab === "activity" ? [] : tab === "saved" ? items : recent;
+  const current: Array<ReviewItem | RecentReviewItem> = tab === "saved" ? items : recent;
   const savedKeys = useMemo(() => new Set(items.map((item) => `${item.type}|${item.id}`)), [items]);
 
   function toggleReveal(item: ReviewCatalogItem) {
@@ -80,7 +79,6 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
       <section className="flex flex-wrap items-center justify-between gap-3">
         <div className="review-page-tabs inline-flex rounded-lg border border-slate-200 bg-white p-1" role="group" aria-label="복습 목록 선택">
           {([
-            ["activity", "진도"],
             ["saved", "저장"],
             ["recent", "최근"],
           ] as Array<[Tab, string]>).map(([key, label]) => (
@@ -93,9 +91,7 @@ export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) 
 
       {message ? <SkinStatus kind={message.kind} fallback={message.text} detail={message.detail} className="rounded-lg border border-teal-200 bg-teal-50 px-4 py-3 text-sm text-teal-900" /> : null}
 
-      {tab === "activity" ? (
-        <QbankRangeActivityHeatmap />
-      ) : current.length === 0 ? (
+      {current.length === 0 ? (
         <SkinStatus kind={tab === "recent" ? "recentEmpty" : "savedEmpty"} stage className="rounded-lg border border-dashed border-slate-300 bg-white/70 p-10 text-center text-slate-600"
           fallback={tab === "recent" ? "최근 본 항목이 없습니다." : "복습할 항목이 없습니다. 상세 페이지의 복습 저장 버튼을 사용하세요."} />
       ) : (

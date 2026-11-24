@@ -2,6 +2,7 @@ import { studyDayStart } from "./study-date";
 import type { QbankDailyActivity } from "./qbank-store";
 export type RangeKey = "week" | "month" | "year";
 export type DayCell = { date: Date; key: string; col: number; row: number; inRange: boolean; future: boolean };
+export type ActivityDay = DayCell & QbankDailyActivity & { wrong: number };
 
 function dateKey(date: Date) {
   return date.toISOString().slice(0, 10);
@@ -36,6 +37,22 @@ export function activityCalendar(range: RangeKey, now = new Date(), year?: numbe
     return { date, key: dateKey(date), col: verticalWeekdays ? Math.floor(index / 7) : index % 7, row: verticalWeekdays ? index % 7 : Math.floor(index / 7), inRange: date >= start && date <= end, future: date > today };
   });
   return { days, columns: Math.ceil(length / 7), title: range === "week" ? "\uc774\ubc88 \uc8fc" : range === "month" ? `${today.getUTCMonth() + 1}\uc6d4` : `${year ?? today.getUTCFullYear()}\ub144` };
+}
+
+export function activityDays(days: readonly DayCell[], activity: Readonly<Record<string, QbankDailyActivity>>): ActivityDay[] {
+  return days.filter(day => day.inRange && !day.future).map(day => {
+    const { attempts, correct } = activity[day.key] ?? { attempts: 0, correct: 0 };
+    return { ...day, attempts, correct, wrong: Math.max(0, attempts - correct) };
+  });
+}
+
+export function activityBarScale(days: readonly Pick<ActivityDay, "attempts">[]) {
+  const peak = Math.max(0, ...days.map(day => day.attempts));
+  const target = Math.max(1, peak / 4);
+  const magnitude = 10 ** Math.floor(Math.log10(target));
+  const step = ([1, 2, 5, 10].find(value => value * magnitude >= target) ?? 10) * magnitude;
+  const levels = Math.max(1, Math.ceil(peak / step));
+  return { max: levels * step, ticks: Array.from({ length: levels + 1 }, (_, index) => index * step) };
 }
 
 export function activityStreak(activity: Record<string, QbankDailyActivity>, now = new Date()) {

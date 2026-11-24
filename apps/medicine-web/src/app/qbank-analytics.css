@@ -43,3 +43,53 @@
   .review-card-create-dialog { margin-bottom: 0; width: 100%; max-height: 92dvh; border-radius: 12px 12px 0 0; padding-bottom: env(safe-area-inset-bottom); }
   .qbank-stats-row-values { justify-content: flex-start; width: 100%; }
 }
+.qbank-activity-bars {
+  --activity-plot-height: 8.25rem;
+  display: flex;
+  gap: .45rem;
+  min-width: 0;
+  margin-top: .5rem;
+  padding-top: .5rem;
+  color: var(--muted);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+.qbank-activity-bar-axis { position:relative; flex:none; min-width:3ch; height:var(--activity-plot-height); text-align:right; }
+.qbank-activity-bar-tick { position:absolute; inset-inline-end:0; transform:translateY(50%); }
+.qbank-activity-bar-scroll { flex:1; min-width:0; overflow-x:auto; padding-top:.5px; padding-bottom:4px; }
+.qbank-activity-bar-track { --activity-day-width:.625rem; position:relative; display:grid; grid-template-columns:repeat(var(--activity-day-count),minmax(0,1fr)); min-width:calc(var(--activity-day-count) * var(--activity-day-width)); min-height:calc(var(--activity-plot-height) + 1.4rem); }
+.qbank-activity-bar-track[data-range="week"] { --activity-day-width:1.75rem; }
+.qbank-activity-bar-track[data-range="year"] { --activity-day-width:.875rem; }
+.qbank-activity-bar-guides { position:absolute; inset:0 0 auto; height:var(--activity-plot-height); pointer-events:none; }
+.qbank-activity-bar-guides > span { position:absolute; inset-inline:0; border-top:1px solid var(--line); }
+.qbank-activity-bar-day { position:relative; min-width:0; }
+.qbank-activity-bar { display:flex; flex-direction:column; justify-content:flex-end; align-items:center; width:100%; height:var(--activity-plot-height); padding:0; cursor:pointer; }
+.qbank-activity-bar:is(:hover,[aria-describedby]) { background:var(--surface-subtle); }
+.qbank-activity-bar:focus-visible { outline:2px solid var(--primary); outline-offset:-2px; }
+.qbank-activity-segment { display:block; flex:none; width:min(calc(100% - 2px),2.25rem); }
+.qbank-activity-correct { background:light-dark(#15803d,#4ade80); }
+.qbank-activity-wrong { background:light-dark(#dc2626,#fb7185); }
+.qbank-activity-bar-date { display:block; padding-top:4px; font-size:10px; text-align:center; white-space:nowrap; }
+.qbank-activity-bar-track[data-range="year"] .qbank-activity-bar-date { text-align:left; }
+
+.qbank-radar { min-width:0; margin:0; }
+.qbank-radar-caption { display:flex; align-items:baseline; gap:8px; color:var(--foreground); font-size:13px; font-weight:650; }
+.qbank-radar-caption > span { color:var(--muted); font-size:11px; font-weight:400; }
+.qbank-radar-layout { display:grid; min-width:0; align-items:center; gap:8px 18px; }
+.qbank-radar-plot { display:block; width:100%; max-width:420px; margin-inline:auto; }
+.qbank-radar-grid,.qbank-radar-axis { fill:none; stroke:var(--line); stroke-width:1; vector-effect:non-scaling-stroke; }
+.qbank-radar-axis[data-empty="true"] { stroke-dasharray:3 3; }
+.qbank-radar-area { fill:color-mix(in srgb,var(--primary) 19%,transparent); }
+.qbank-radar-area,.qbank-radar-line { stroke:var(--primary); stroke-width:1.8; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
+.qbank-radar-point { fill:var(--primary); stroke:var(--surface); stroke-width:1.4; vector-effect:non-scaling-stroke; }
+.qbank-radar-tick { fill:var(--muted); stroke:var(--surface); stroke-width:2.5; stroke-linejoin:round; paint-order:stroke; font-size:10px; }
+.qbank-radar-label { fill:var(--foreground); font-size:13px; font-weight:650; }
+.qbank-radar-label[data-empty="true"] { fill:var(--muted); }
+.qbank-radar-values { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,7.5rem),1fr)); align-items:start; gap:2px 12px; margin:0; padding:0; list-style:none; }
+.qbank-radar-values > li { display:flex; min-width:0; align-items:baseline; gap:5px; padding:4px 0; border-bottom:1px solid var(--line); font-size:12px; }
+.qbank-radar-index { flex:none; min-width:1.6em; color:var(--muted); font-size:10px; font-variant-numeric:tabular-nums; }
+.qbank-radar-name { min-width:0; flex:1; overflow-wrap:anywhere; }
+.qbank-radar-values strong { flex:none; color:var(--primary); font-variant-numeric:tabular-nums; }
+.qbank-radar-values > li[data-empty="true"] strong { color:var(--muted); font-size:10px; font-weight:400; }
+.qbank-radar-empty { padding:18px 0; color:var(--muted); font-size:13px; }
+@media (min-width:48rem) { .qbank-radar-layout { grid-template-columns:minmax(0,420px) minmax(0,1fr); } }

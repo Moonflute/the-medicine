@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useId, useMemo, useState } from "react";
 import { SkinStatus } from "@/components/skin-status";
-import { ArrowRight, RotateCcw } from "lucide-react";
+import { ArrowRight, List as ListIcon, Radar, RotateCcw } from "lucide-react";
 import { buildQbankAnalytics, sortAnalyticsGroups, type AnalyticsSort, type AnalyticsGroup, type AnalyticsQuestion, type PracticeDepartmentGroup } from "@/lib/qbank-analytics";
 import { QbankStatsSetDialog, type StatsSetRequest, type StatsSetLauncher } from "@/components/qbank-stats-set-dialog";
+import { QbankAccuracyRadar, QbankPracticeAccuracyRadar } from "@/components/qbank-accuracy-radar";
 import { QbankMockHistory } from "@/components/qbank-mock-history";
 import { loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT, resetQbankProgressView, type QbankState } from "@/lib/qbank-store";
 import { loadPracticeIndex } from "@/lib/practice-bank";
@@ -45,6 +46,36 @@ function AnalyticsGroupRows({ groups, onStart }: { groups: AnalyticsGroup[]; onS
 
 function PracticeDepartmentRows({ groups, onStart }: { groups: PracticeDepartmentGroup[]; onStart: StatsSetLauncher }) {
   return <div className="divide-y divide-slate-100">{groups.map((group) => <div key={group.key}><AnalyticsProgressRow group={group} onStart={onStart} />{group.children.map((child) => <AnalyticsProgressRow key={child.key} group={child} onStart={onStart} nested />)}</div>)}</div>;
+}
+
+type DepartmentScope = { kind: "general"; groups: AnalyticsGroup[] } | { kind: "practice"; groups: PracticeDepartmentGroup[] };
+
+function DepartmentPerformance({ title, scope, sort, onSort, onStart, description = "오답은 다시 맞히면 자동으로 제외됩니다. 미풀이는 현재 회독 기준입니다." }: {
+  title: string; scope: DepartmentScope; sort: AnalyticsSort; onSort?: (value: AnalyticsSort) => void; onStart: StatsSetLauncher; description?: string;
+}) {
+  const [graph, setGraph] = useState(false);
+  const bodyId = useId();
+  return <section className="surface min-w-0 p-4 sm:p-5" aria-label={title}>
+    <div className="flex flex-wrap items-center justify-between gap-3">
+      <h2 className="font-semibold text-slate-900">{title}</h2>
+      <div className="flex flex-wrap items-center gap-2">
+        {!graph && onSort && <label className="flex items-center gap-2 text-xs text-slate-500">정렬<select value={sort} onChange={event => onSort(event.target.value as AnalyticsSort)} className="rounded-md border border-slate-200 bg-transparent px-2 py-2"><option value="default">기본 분과 순서</option><option value="accuracy">정답률 낮은 순</option><option value="wrong">미해결 오답 많은 순</option><option value="unattempted">현재 회독 미풀이 많은 순</option><option value="progress">진행률 낮은 순</option></select></label>}
+        <button type="button" className="secondary-action whitespace-nowrap px-2.5 py-1.5 text-xs" aria-controls={bodyId} onClick={() => setGraph(value => !value)}>
+          {graph ? <><ListIcon size={15} aria-hidden="true" />목록으로 보기</> : <><Radar size={15} aria-hidden="true" />그래프로 보기</>}
+        </button>
+      </div>
+    </div>
+    <div id={bodyId} className="mt-2">
+      {graph ? scope.kind === "practice" ? <QbankPracticeAccuracyRadar groups={scope.groups} /> : <QbankAccuracyRadar groups={scope.groups} /> : <>
+        <p className="text-xs text-slate-500">{description}</p>
+        <div className="mt-2">
+          {scope.kind === "practice"
+            ? <PracticeDepartmentRows groups={sortAnalyticsGroups(scope.groups, sort).map(group => ({ ...group, children: sortAnalyticsGroups(group.children, sort) }))} onStart={onStart} />
+            : <AnalyticsGroupRows groups={sortAnalyticsGroups(scope.groups, sort)} onStart={onStart} />}
+        </div>
+      </>}
+    </div>
+  </section>;
 }
 
 export function QbankAnalyticsClient() {
@@ -124,8 +155,8 @@ export function QbankAnalyticsClient() {
     {error && <SkinStatus kind="saveError" fallback={error} detail={error} className="text-sm text-rose-700" />}
     <section className="surface min-w-0 p-4 sm:p-5"><div className="flex flex-wrap items-center gap-x-6 gap-y-3"><div><span className="text-xs text-slate-500">현재 회독</span><p className="font-semibold tabular-nums text-slate-950">{stats.progressed}/{stats.selected.length} · {percent(stats.progressed, stats.selected.length)}</p></div><div><span className="text-xs text-slate-500">누적 정답률</span><p className="font-semibold tabular-nums text-slate-950">{percent(stats.correct, stats.attempts)} <span className="text-xs font-normal text-slate-500">{stats.correct}/{stats.attempts}</span></p></div><div><span className="text-xs text-slate-500">최근 {stats.recentTotal || 30}문항</span><p className="font-semibold tabular-nums text-slate-950">{percent(stats.recentCorrect, stats.recentTotal)}</p></div><div><span className="text-xs text-slate-500">미해결 오답</span><p className="font-semibold tabular-nums text-rose-700">{stats.wrong.length}문항</p></div><button type="button" onClick={resetProgress} className="ml-auto text-xs font-medium text-slate-500 underline underline-offset-4 hover:text-teal-800">진행률 초기화</button></div>{progressResetAt && <p className="mt-3 text-xs text-slate-500">{dateLabel(progressResetAt)} 이후 풀이를 진행률에 반영 중입니다. 정답·오답·북마크와 풀이 기록은 유지됩니다.</p>}</section>
     {!stats.attempted && <SkinStatus kind="recordsEmpty" fallback="이 범위의 풀이 기록이 아직 없습니다." className="rounded-xl border border-dashed border-teal-200 bg-teal-50/50 p-5 text-center text-sm text-slate-600" />}
-    <section className="surface min-w-0 p-4 sm:p-5"><div className="flex flex-wrap items-center justify-between gap-3"><h2 className="font-semibold text-slate-900">분과별 진행 및 성적</h2><label className="flex items-center gap-2 text-xs text-slate-500">정렬<select value={sort} onChange={event => setSort(event.target.value as AnalyticsSort)} className="rounded-md border border-slate-200 bg-transparent px-2 py-2"><option value="default">기본 분과 순서</option><option value="accuracy">정답률 낮은 순</option><option value="wrong">미해결 오답 많은 순</option><option value="unattempted">현재 회독 미풀이 많은 순</option><option value="progress">진행률 낮은 순</option></select></label></div><p className="mt-2 text-xs text-slate-500">오답은 다시 맞히면 자동으로 제외됩니다. 미풀이는 현재 회독 기준입니다.</p><div className="mt-2">{bank === "practice" ? <PracticeDepartmentRows groups={sortAnalyticsGroups(stats.practiceGroups, sort).map(group => ({ ...group, children: sortAnalyticsGroups(group.children, sort) }))} onStart={setSetRequest} /> : <AnalyticsGroupRows groups={sortAnalyticsGroups(stats.groups, sort)} onStart={setSetRequest} />}</div></section>
-    {bank === "all" && stats.practiceGroups.length > 0 && <section className="surface min-w-0 p-5 sm:p-6"><h2 className="font-semibold text-slate-900">실전문제 분과별 진행 및 성적</h2><p className="mt-2 text-xs text-slate-500">내과만 이론 분류 순서의 하위 분과를 함께 표시합니다.</p><div className="mt-3"><PracticeDepartmentRows groups={sortAnalyticsGroups(stats.practiceGroups, sort).map(group => ({ ...group, children: sortAnalyticsGroups(group.children, sort) }))} onStart={setSetRequest} /></div></section>}
+    <DepartmentPerformance title="분과별 진행 및 성적" scope={bank === "practice" ? { kind: "practice", groups: stats.practiceGroups } : { kind: "general", groups: stats.groups }} sort={sort} onSort={setSort} onStart={setSetRequest} />
+    {bank === "all" && stats.practiceGroups.length > 0 && <DepartmentPerformance title="실전문제 분과별 진행 및 성적" scope={{ kind: "practice", groups: stats.practiceGroups }} description="내과만 이론 분류 순서의 하위 분과를 함께 표시합니다." sort={sort} onStart={setSetRequest} />}
     {hasPractice && stats.exams.length > 0 && <section className="surface min-w-0 p-5 sm:p-6"><h2 className="font-semibold text-slate-900">실전문제 회차별 진행</h2><div className="mt-3"><AnalyticsGroupRows groups={stats.exams} onStart={setSetRequest} /></div></section>}
     {hasPractice && state && <QbankMockHistory sessions={state.sessions} practiceIds={practiceIds} onStart={setSetRequest} department={department} />}
     <section className="surface min-w-0 p-5 sm:p-6"><div className="flex flex-wrap items-center justify-between gap-3"><h2 className="flex items-center gap-2 font-semibold text-slate-900"><RotateCcw className="h-5 w-5 text-rose-500" />복습할 오답</h2><button type="button" disabled={!stats.wrong.length} onClick={() => retry(stats.wrong.map(q => q.id))} className="secondary-action disabled:opacity-40">오답 {stats.wrong.length}문항 풀기</button></div><div className="mt-3 divide-y divide-slate-100">{stats.wrong.slice(0, 8).map(q => <button type="button" key={q.id} onClick={() => retry([q.id])} className="flex w-full items-center gap-3 py-3 text-left hover:text-teal-700"><div className="min-w-0 flex-1"><p className="truncate text-sm font-medium" title={q.label}>{q.label}</p><p className="mt-1 text-xs text-slate-500">{q.department} · {q.mistakes}회 오답 / {q.attempts}회 풀이 · {dateLabel(q.last)}</p></div><ArrowRight className="h-4 w-4 shrink-0" /></button>)}</div>{!stats.wrong.length && <SkinStatus kind="wrongEmpty" fallback="현재 복습할 오답이 없습니다." className="py-6 text-center text-sm text-slate-500" />}</section>
