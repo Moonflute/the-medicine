@@ -41,7 +41,8 @@ sources: ["ASH HIT 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6258919/"]
 ## 4. 진단 (Diagnosis)
 - **4Ts 점수**: 혈소판감소 정도·발생 시점·혈전·다른 원인으로 검사 전 가능성 평가
   - 0–3점: 낮음 / 4–5점: 중간 / 6–8점: 높음
-- **확진 평가**: 임상 가능성과 항체 면역검사·기능검사(SRA)를 종합
+- **4Ts 주요 2점 조건**: 혈소판 >50% 감소 및 최저치 ≥20,000/μL, 시작 5–10일째 또는 최근 30일 이내 노출 후 1일 내, 새 확진 혈전·피부괴사·급성 전신반응, 다른 원인 없음(각 항목 0–2점)
+- **확진 평가**: 임상 가능성과 PF4 면역검사·기능검사(SRA)를 종합
 - **4점 이상**: 확진 결과를 기다리지 않고 헤파린 중단·비헤파린 항응고 검토
 
 ## 5. 치료
@@ -55,7 +56,9 @@ sources: ["ASH HIT 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6258919/"]
 
 **약제·기간·추적**
 
-- **약제 선택**: argatroban·bivalirudin·fondaparinux·선택된 DOAC 중 신장/간 기능·안정성·시술 필요에 따라 결정
+- **약제 선택**
+  - 중환자·긴급 시술 가능성: 단시간 작용의 IV **argatroban** 또는 **bivalirudin**. Argatroban은 간기능 저하에서 감량·대안, bivalirudin은 신기능에 따른 조정
+  - 안정적이고 중대한 출혈·장기 위협 혈전이 없으면 **fondaparinux** 또는 적합한 DOAC 검토. 신기능·투여 금기 확인
 - **Warfarin**: 통상 **혈소판 ≥150,000/μL 회복 전 시작하지 않음**
   - 이미 복용 중인 급성 HIT: 중단·vitamin K 검토
 - **혈소판 수혈**: 활동성 출혈 등 특별한 사유 없으면 일률적으로 시행하지 않음
@@ -67,11 +70,12 @@ sources: ["ASH HIT 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6258919/"]
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 혈전증·사망 위험이 높아 신속한 진단과 헤파린 중단이 중요
 
+Last updated :
+2026-04-03 — 본문 갱신 (Gemini fill)
+2026-05-18 — 본문 갱신 (codex fill)
+
 ## 출처
 - StatPearls: Heparin-Induced Thrombocytopenia (2026)
 - 삼성서울병원 외과 메뉴얼
 - [ASH HIT 진단·관리 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6258919/)
-
-Last updated :
-2026-04-03 — 본문 갱신 (Gemini fill)
-2026-05-18 — 본문 갱신 (codex fill)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 9장 426–433쪽.

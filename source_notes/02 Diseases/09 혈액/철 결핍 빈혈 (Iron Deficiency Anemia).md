@@ -50,7 +50,9 @@ sources: ["AGA Clinical Practice Update: Management of Iron Deficiency Anemia | 
 
 ## 4. 진단
 - 병력, 임상 양상, 혈액 검사 소견 종합.
-- 페리틴 수치는 체내 저장철을 반영하는 가장 민감한 지표임.
+- **Ferritin ≤30 ng/mL**: 성인 철결핍을 지지(ASH 2026). 월경과다·증상·위험인자에서는 **≤50 ng/mL**도 임상적으로 의미 있을 수 있음
+  - 이미 빈혈이 있고 위장관 원인을 평가할 때 AGA는 **<45 ng/mL** 기준 사용
+  - 염증·CKD에서는 ferritin이 높아질 수 있어 TSAT·CRP 등과 함께 해석
 - 빈혈의 원인(특히 만성 출혈)을 찾는 것이 진단 과정의 핵심임.
 
 - **소구성 빈혈 감별**
@@ -59,12 +61,13 @@ sources: ["AGA Clinical Practice Update: Management of Iron Deficiency Anemia | 
   - 지중해빈혈: target cell·Hb 전기영동 이상
 
 ## 5. 치료
-- **원인 교정**: 출혈 등 원인 치료, 위장관 출혈 의심 시 내시경 전문 평가
-- **경구 철**: 제제·원소철 용량을 내약성에 따라 개별화
-  - AGA 업데이트: 하루 1회를 넘기지 않으며 일부는 격일 고려
+- **원인 교정**: 월경과다·약물·위장관 출혈·흡수장애 평가. 원인 불명 성인 남성·폐경 후 여성은 상부내시경과 대장내시경 평가
+  - 폐경 전에도 월경만으로 설명되지 않거나 위험 소견이 있으면 내시경 검토
+- **경구 철**: 황산철(ferrous sulfate) 등 **원소철 50–100 mg 하루 1회**를 대표 시작량으로 적용. 위장 부작용이면 격일 복용 또는 제제 조정
   - 공복은 흡수에 유리, 변비·복통 등 부작용 시 시간/제제 조정 또는 식사와 함께 복용
   - Vitamin C는 흡수 촉진, PPI/H2 차단제·tetracycline은 감소 가능
-- **정주 철 고려**: IBD, 지속 위장관 출혈, 경구 불내성, 경구 시험 후 ferritin 미개선 또는 흡수 기대가 낮은 경우
+- **정주 철 고려**: 활동성 IBD·흡수장애, 경구 불내성·반응 부족, 지속 출혈 또는 빠른 보충 필요
+  - 제제별 총 필요량·1회 한도·투여 간격 확인. Ferric carboxymaltose 반복 투여 또는 위험군은 저인산혈증 감시
 - **반응·기간**: 시작 2–4주 후 Hb·ferritin 확인, 약 1개월 시점 철 지표·원인 교정 여부도 재평가
   - Hb 정상화 후 최소 3개월 이상 저장철 보충 지속, 이후 반응·원인에 따라 기간 조정
 
@@ -79,3 +82,7 @@ Last updated :
 
 ## 출처
 - 삼성서울병원 메뉴얼; [AGA IDA 내시경 권고](https://gastro.org/news/aga-recommends-bidirectional-endoscopy-for-most-patients-with-iron-deficiency-anemia/); [AGA 철결핍 치료 업데이트](https://gastro.org/clinical-guidance/management-of-iron-deficiency-anemia/)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 8장 416–425쪽.
+- [ASH 철결핍 진단 2026](https://doi.org/10.1182/bloodadvances.2025015950)
+- [AGA 위장관 원인 평가](https://doi.org/10.1053/j.gastro.2020.06.046)
+- [BSG 성인 철결핍 빈혈](https://doi.org/10.1136/gutjnl-2021-325210)

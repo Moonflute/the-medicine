@@ -60,7 +60,9 @@ sources: ["ISHAM 2024 | https://doi.org/10.1183/13993003.00061-2024"]
 - **ABPA**: 천식·낭성섬유증 등 기저 상태, 반복 악화와 특징적 혈청·영상 기준을 종합
 
 ## 5. 치료
-- **침습성**: voriconazole·isavuconazole 등 항진균제 + 가능한 면역저하 교정/면역억제제 감량
+- **침습성 폐 아스페르길루스증**: 보리코나졸(voriconazole), 대안은 이사부코나졸(isavuconazole) 또는 리포좀 암포테리신 B(liposomal amphotericin B). 감수성·상호작용·간·신기능과 기존 azole 예방력을 반영.
+  - 보리코나졸 정주 성인 예: 6 mg/kg 12시간 간격 2회 후 4 mg/kg 12시간 간격. 농도·간기능·시각/신경 증상과 CYP 상호작용 확인.
+  - 최소 6–12주가 일반적. 면역억제 기간·부위·반응에 따라 연장하며 가능한 위험인자를 교정.
 - **Aspergilloma**
   - 무증상: 경과 관찰 우선
   - 대량 객혈 등 증상: 수술 절제 또는 기관지동맥색전술 검토
@@ -77,10 +79,12 @@ sources: ["ISHAM 2024 | https://doi.org/10.1183/13993003.00061-2024"]
 - 침습성 아스페르길루스증은 면역 저하 환자에서 사망률이 매우 높음.
   기저 질환의 교정(면역 억제제 감량 등)이 필수적임.
 
-## 출처
-- Merck Manual Professional (Aspergillosis, ABPA), [IDSA 아스페르길루스증 지침(2016)](https://www.idsociety.org/practice-guideline/aspergillosis/)
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Aspergillosis, ABPA), [IDSA 아스페르길루스증 지침(2016)](https://www.idsociety.org/practice-guideline/aspergillosis/)
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 감염 7–8장 792·804쪽.
+- [IDSA 아스페르길루스증 지침](https://www.idsociety.org/practice-guideline/aspergillosis/), [ATS 2025 침습성 폐 아스페르길루스증 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC11755356/).

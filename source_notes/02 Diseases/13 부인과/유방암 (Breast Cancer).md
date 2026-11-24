@@ -114,6 +114,17 @@ N1mi는 >0.2–≤2 mm의 림프절 미세전이다. ≤0.2 mm 고립종양세�
   - 위험·독성·국내 사용 조건 확인
   - T-DXd 중 새 기침·호흡곤란: 간질성 폐질환 평가·약제 보류
 
+**HR 양성 내분비치료**
+
+- **조기암·폐경 전**: tamoxifen **5년**을 기본으로 재발 위험에 따라 연장. 고위험이면 난소기능억제 + tamoxifen 또는 aromatase inhibitor(AI) 검토
+- **조기암·폐경 후**: letrozole·anastrozole 등 AI 또는 tamoxifen 후 AI 전환. 보통 **최소 5년**, 림프절 전이·재발 위험과 골건강을 고려해 총 **7–10년** 검토
+- **전이성 HR+/HER2−**: 내분비치료 + CDK4/6 억제제(예: letrozole + ribociclib). 폐경 전에는 난소기능억제 병행. 내장 위기·급속 장기기능 저하는 빠른 반응이 필요한 요법을 종양팀과 결정
+
+**전이성 HER2 양성·삼중음성**
+
+- **HER2 양성**: 1차 trastuzumab deruxtecan(T-DXd) + pertuzumab은 미국 FDA 2025 승인 옵션. Trastuzumab + pertuzumab + taxane도 치료 선택지. 폐독성·이전 노출에 따라 선택
+- **삼중음성 + PD-L1 CPS ≥10**: pembrolizumab + 항암요법 1차 검토. 이전 치료와 생식세포 BRCA 등 분자 결과를 후속 약제에 반영
+
 **수술 후 관리**
 
 - **림프부종**: 상지 운동·피부 관리 교육
@@ -123,10 +134,14 @@ N1mi는 >0.2–≤2 mm의 림프절 미세전이다. ≤0.2 mm 고립종양세�
 - **예후**: 조기 발견 시 생존율이 높으나, 분자 아형과 병기에 따라 예후가 상이함.
 - **합병증**: 림프부종, 수술 부위 감염, 장기적인 심리적 부담 등이 있을 수 있음.
 
+Last updated :
+2026-05-18 — 본문 갱신 (codex fill)
+
 ## 출처
 - StatPearls (Breast Cancer, Breast Cancer Conservation Therapy); 삼성서울병원 메뉴얼
 - 삼성서울병원 외과 메뉴얼
 - [국가암정보센터: 국가암검진사업](https://www.cancer.go.kr/lay1/S1T261C262/contents.do)
-
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 6장 400–409쪽.
+- [ASCO 조기 HR+/HER2− 유방암 2026](https://doi.org/10.1200/JCO-26-02034)
+- [ASCO 전이성 HR+/HER2− 치료](https://doi.org/10.1200/JCO.21.01392)
+- [FDA HER2 양성 전이성 유방암의 T-DXd + pertuzumab](https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-fam-trastuzumab-deruxtecan-nxki-pertuzumab-unresectable-or-metastatic-her2-positive)

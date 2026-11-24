@@ -16,7 +16,7 @@ clinical_priority: "tier_2"
 reviewed_at: "2026-10-08"
 review_status: "guideline_enriched"
 guideline_year: "2026"
-sources: ["Society of Critical Care Medicine Guidelines for the Administration of Neuromuscular Blockade in Adults With Acute Respiratory Distress Syndrome. | https://pubmed.ncbi.nlm.nih.gov/41773929/", "급성호흡곤란증후군(ARDS) 임상진료지침 | https://www.ksccm.org/bbs/index.html?code=guideline&category=&gubun=&page=1&mode=view&idx=12", "An Update on Management of Adult Patients with Acute Respiratory Distress Syndrome: An Official American Thoracic Society Clinical Practice Guideline | https://www.atsjournals.org/doi/full/10.1164/rccm.202309-1666ST", "ESICM ARDS 지침 2023 | https://doi.org/10.1007/s00134-023-07050-7", "ATS ARDS 지침 2024 | https://doi.org/10.1164/rccm.202311-2011ST", "AARC 자발호흡시험 임상진료지침 | https://pubmed.ncbi.nlm.nih.gov/38844105/"]
+sources: ["Society of Critical Care Medicine Guidelines for the Administration of Neuromuscular Blockade in Adults With Acute Respiratory Distress Syndrome. | https://pubmed.ncbi.nlm.nih.gov/41773929/", "급성호흡곤란증후군(ARDS) 임상진료지침 | https://www.ksccm.org/bbs/index.html?code=guideline&category=&gubun=&page=1&mode=view&idx=12", "An Update on Management of Adult Patients with Acute Respiratory Distress Syndrome: An Official American Thoracic Society Clinical Practice Guideline | https://doi.org/10.1164/rccm.202303-0558WS", "ESICM ARDS 지침 2023 | https://doi.org/10.1007/s00134-023-07050-7", "ATS ARDS 지침 2024 | https://doi.org/10.1164/rccm.202311-2011ST", "AARC 자발호흡시험 임상진료지침 | https://pubmed.ncbi.nlm.nih.gov/38443142/"]
 
 content_updated_at: "2026-11-18"
 ---
@@ -30,12 +30,8 @@ content_updated_at: "2026-11-18"
 - **기전**: 염증 반응으로 인한 사이토카인 방출 → 폐포 상피 및 모세혈관 내피 손상 → 폐포 내 삼출물 및 부종 → 폐포 허탈 및 환기-관류 불균형(V/Q mismatch) → 중증 저산소혈증.
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**: 급성 호흡곤란, 빈호흡, 불안, 청색증.
-
-**P/E**:
-
-  청진 시 양측성 수포음(crackles)이 흔히 관찰됨.
-  중증 시 의식 변화나 빈맥 동반 가능.
+- **증상**: 급성 호흡곤란, 불안, 중증에서는 의식 변화
+- **진찰**: 빈호흡·호흡 보조근 사용, 양측 수포음, 청색증·빈맥
 
 ## 3. 검사 (Lab & Imaging)
 * **ABGA**: 저산소혈증 확인 (PaO2/FiO2 비율로 중증도 평가).
@@ -43,22 +39,16 @@ content_updated_at: "2026-11-18"
 * **기타**: 심인성 폐부종 배제를 위한 심초음파 고려.
 
 ## 4. 진단 (Diagnosis)
-**Berlin definition (베를린 정의) 기준**
+- **산소화**: PaO₂/FiO₂ **≤300 mmHg**와 적절한 호흡지원 조건을 확인
+- **동반 요건**: 선행 손상 또는 호흡 증상 발생·악화 후 **1주 이내**, 영상에서 양측 폐 음영, 심부전·체액 과부하만으로 설명되지 않는 폐부종. 흉수·무기폐·결절만으로 설명되는 음영은 제외
+- **Berlin 기준**: 흉부 X선·CT와 PaO₂/FiO₂ 사용. 경증은 PEEP 또는 CPAP ≥5 cmH₂O, 중등도·중증은 PEEP ≥5 cmH₂O에서 분류
+- **Global 정의**: 숙련자가 시행한 폐초음파의 양측 이상도 인정. 비삽관 환자는 고유량 비강산소 **≥30 L/min** 또는 NIV/CPAP의 호기말압력 **≥5 cmH₂O**에서 PaO₂/FiO₂ ≤300 또는 SpO₂/FiO₂ ≤315이면 요건 충족. SpO₂는 신뢰할 만한 파형이고 **≤97%**일 때 적용
 
-**진단 확인**:
-
-급성 발병 시점, 양측 폐침윤, 심인성 폐부종만으로 설명되지 않는 호흡부전, PEEP/CPAP 조건에서의 산소화 저하를 함께 확인하고, 패혈증·폐렴·흡인·수혈 관련 손상 등 촉발 원인을 동시에 찾는다.
-
-* 호흡 증상이 1주 이내에 발생하거나 악화됨.
-* CXR/CT상 양측 폐 음영 확인 (흉수, 폐허탈 등으로 완전히 설명되지 않음).
-* 심부전이나 체액 과부하로 완전히 설명되지 않는 호흡 부전.
-
-**저산소혈증 (PaO2/FiO2):**
-
-* Mild: 200-300 mmHg
-* Moderate: 100-200 mmHg
-* Severe: < 100 mmHg
-    (모두 PEEP 또는 CPAP ≥ 5 cm H2O 조건 하에 측정)
+| 삽관 환자의 중증도, PEEP ≥5 cmH₂O | PaO₂/FiO₂ (mmHg) | SpO₂/FiO₂ (Global 정의) |
+| --- | --- | --- |
+| 경증 | 200 초과–300 이하 | 235 초과–315 이하 |
+| 중등도 | 100 초과–200 이하 | 148 초과–235 이하 |
+| 중증 | 100 이하 | 148 이하 |
 
 ## 5. 치료 (Treatment)
 - **원인·체액 관리**: 감염·흡인·수혈반응 교정, 쇼크 안정 후 보존적 체액 전략 고려
@@ -70,23 +60,27 @@ content_updated_at: "2026-11-18"
   - 지속적 recruitment maneuver를 일상적으로 시행하지 않음
 - **복와위**: 중증 ARDS에서 조기 장시간 적용 가능성 평가
   - 폐보호 환기·PEEP 최적화 후에도 **PaO₂/FiO₂ <150 mmHg**이면 조기 **연속 16시간 이상** 전략 고려
-- **신경근차단**: 초기 중증의 심한 비동조·산소화 실패 등 선택된 상황에서 최소 필요 기간
-  - 모든 환자에게 일률적 지속주입하지 않음
-- **난치성 저산소혈증/환기 부전**: 복와위·적절한 PEEP·폐보호 환기 후에도 지속하고 가역 원인·회복 가능성이 있으면 경험 있는 중환자·VV-ECMO센터와 조기 협의
-  - 복와위 가능성 확인 없이 산소 요구량만으로 ECMO를 결정하지 않음
-  - 일상적 recruitment maneuver·흡입 혈관확장제에 의존하지 않음
-- **전신 corticosteroid**: 금기·감염 위험·원인 질환을 검토해 선택적 고려
-  - 모든 환자에게 동일 투여하거나 일괄 배제하지 않음
+- **신경근차단**: PaO₂/FiO₂ **<150**에서 적절한 진정에도 저산소혈증이 지속되거나 목표 환기가 어려우면 시스아트라쿠륨(cisatracurium) 등 고려. 충분한 진통·진정 확보 후 시작하고 필요성을 자주 재평가
+- **VV-ECMO**: 폐보호 환기·적절한 PEEP·가능한 복와위에도 PaO₂/FiO₂ **<80** 또는 심한 호흡성 산증(**pH <7.25, PaCO₂ ≥60 mmHg**)이 지속되고 회복·이식 가능성이 있으면 센터에 조기 의뢰
+  - 침습적 환기 기간, 출혈·항응고 위험, 신경학적 예후를 함께 평가
+- **전신 스테로이드**: 원인·시점·감염과 고혈당 위험을 검토해 선별
+  - 초기 중등도·중증 비COVID ARDS 연구에서는 덱사메타손(dexamethasone) **20 mg IV/일 5일 → 10 mg/일 5일**(먼저 발관하면 종료)을 사용. 기저 원인별 처방과 적응증에 맞춰 선택
 - **회복·이탈 평가**: 매일 원인 호전, 진정·통증 조절, 혈역학 안정, 자발 호흡능력, 산소화·환기, 기침·분비물 배출·기도보호를 종합하여 자발호흡시험·발관 판단
   - RSBI 또는 산소화 수치 하나만으로 이탈·발관을 결정하지 않음
 
 ## 6. 예후 및 합병증 (Prognosis)
-- 초기 삼출성 단계 이후 섬유증식성 단계로 진행될 수 있으며, 다장기 부전이 주요 사망 원인임.
-
-## 출처
-- Merck Manual Professional (Acute Hypoxemic Respiratory Failure & ARDS)
-- 삼성서울병원 메뉴얼.
+- **급성기**: 압력손상·기흉, 다장기부전, 과도한 진정·부동과 관련한 근력 저하를 감시
+- **회복기**: 폐기능이 회복되어도 운동능력·인지·기분 장애가 남을 수 있어 재활·퇴원 후 추적에 반영
 
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Acute Hypoxemic Respiratory Failure & ARDS)
+- 삼성서울병원 메뉴얼.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 중환자 2장 912–916쪽.
+- [ARDS Global 정의(2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10870872/)
+- [SCCM ARDS 신경근차단 지침(2026)](https://sccm.org/clinical-resources/guidelines/guidelines/guidelines-for-the-administration-of-neuromuscular-blockade)
+- [ELSO 성인 VV-ECMO 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC8315725/)
+- [DEXA-ARDS 무작위시험](https://pubmed.ncbi.nlm.nih.gov/32043986/)

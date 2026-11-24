@@ -30,9 +30,9 @@ sources: ["ACG H. pylori 2024 | https://gi.org/journals-publications/ebgi/schoen
   - NSAIDs: COX-1/COX-2 억제 → 프로스타글란딘 감소·점막 보호 저하
 
 ## 2. 임상 양상 (Clinical Features)
-- **CC**: 명치 통증이 흔하며 공복 악화·식후 완화 경향. 오심·구토·속쓰림 동반 가능
+- **증상**: 명치 통증이 흔하며 공복 악화·식후 완화 경향. 오심·구토·속쓰림 동반 가능
   - 식사와의 관계만으로 궤양 유무를 확정하지 않음
-- **P/E**: 상복부 압통, 출혈 시 빈혈·창백·흑색변·토혈
+- **진찰**: 상복부 압통, 출혈 시 빈혈·창백·흑색변·토혈
 - **합병증 단서**: 증상이 약해도 출혈·천공·폐색 가능. 급격한 복통·반복 구토·출혈 확인
 
 ## 3. 검사 (Lab & Imaging)
@@ -45,7 +45,8 @@ sources: ["ACG H. pylori 2024 | https://gi.org/journals-publications/ebgi/schoen
 - **확진**: 내시경에서 궤양 직접 확인, H. pylori 감염 여부 평가
 
 ## 5. 치료
-- **약물**: PPI, H. pylori 양성이면 이전 항생제·내성/감수성·국내 지침에 맞춘 제균
+- **산 억제**: 합병증이 없는 경우 오메프라졸(omeprazole) **20 mg** 또는 판토프라졸(pantoprazole) **40 mg** 하루 1회 식전, 대체로 **4주**. NSAID 지속·큰 궤양·합병증에서는 기간을 개별화.
+  - H. pylori 양성이면 [[H.pylori 감염 (H.pylori Infection)|국내 기준에 따른 제균]] 병행.
   - NSAID 최소화, 꼭 필요하면 PPI 병용. 금연·금주, 규칙적 식사·스트레스 관리
 - **제균 성공 확인**: 다음을 **모두 충족한 시점**에 검사
   - 항생제 종료 후 최소 **4주**
@@ -63,3 +64,4 @@ sources: ["ACG H. pylori 2024 | https://gi.org/journals-publications/ebgi/schoen
 ## 출처
 - StatPearls (Duodenal Ulcer)
 - 삼성서울병원 메뉴얼.
+- SNUH Manual of Medicine 6판(2022), 소화기 5장, 251–255쪽. [국내 H. pylori 지침 2025 개정판](https://doi.org/10.1111/hel.70149).

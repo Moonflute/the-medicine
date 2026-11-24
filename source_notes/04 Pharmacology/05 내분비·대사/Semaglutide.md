@@ -40,8 +40,10 @@ sources_ref: "openFDA drug label API (US)"
 - 경구제는 공복 상태에서 물(최대 120ml)과 함께 복용하며, 복용 후 최소 30분간 음식, 음료, 다른 약물 섭취를 금한다.
 - 정제는 통째로 삼켜야 하며 분할, 분쇄, 저작하거나 용해해서는 안 된다.
 - 주사제와 경구제는 mg 단위로 상호 대체가 불가능하다.
-- 초기 30일간은 저용량으로 시작하여 위장관 부작용을 최소화하며, 이후 혈당 조절 상태에 따라 단계적으로 증량한다.
-- 용량을 놓친 경우, 다음 날 정해진 시간에 복용하며 이중 복용하지 않는다.
+- **제2형 당뇨병 주사제(Ozempic)**: 0.25 mg 주 1회 4주 후 0.5 mg. 추가 혈당 조절이 필요하면 각 용량을 최소 4주 사용한 뒤 1 mg, 필요 시 2 mg까지 증량(미국 허가사항)
+  - 누락한 지 5일 이내이면 투여하고, 5일을 넘으면 건너뛰고 다음 예정일에 투여
+- **경구 리벨서스(Rybelsus)**: 3 mg/일 30일 → 7 mg/일, 이후 30일 이상 경과 후 필요 시 14 mg/일
+  - 다른 경구 제형도 있으므로 제품명·함량 확인. 경구제를 놓치면 다음 날 정규 용량 복용
 
 #### 적응증
 - 제2형 당뇨병 성인의 혈당 조절 개선 (식이 및 운동 요법 보조)
@@ -81,3 +83,6 @@ sources_ref: "openFDA drug label API (US)"
 ## 출처
 - openFDA drug label API (US)
 - 공식 제품 처방 정보 (Prescribing Information)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 2–3장 473–484쪽.
+- [미국 주사 semaglutide 허가사항](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79)
+- [미국 경구 semaglutide 허가사항](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98)

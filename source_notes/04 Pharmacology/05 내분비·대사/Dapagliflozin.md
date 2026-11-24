@@ -38,10 +38,8 @@ sources_ref: "openFDA drug label API (US)"
 - 제1형 당뇨병 환자의 혈당 조절 목적으로는 권장하지 않는다.
 
 #### 용법/용량
-- 일반적인 권장 용량은 1일 1회 10mg 경구 투여이다.
-- eGFR 45 mL/min/1.73m² 이상인 경우 혈당 조절 목적으로 5mg으로 시작하여 10mg까지 증량 가능하다.
-- eGFR 25~45 mL/min/1.73m² 범위에서는 10mg을 투여한다.
-- eGFR 25 미만인 경우 신규 투여는 권장하지 않으나, 기존 복용 환자는 심·신장 보호를 위해 10mg 유지가 가능하다.
+- **심부전·CKD**: eGFR ≥25 mL/min/1.73m²에서 **10 mg 1일 1회** 시작. 치료 중 eGFR가 25 미만으로 낮아지면 이전 용량을 유지할 수 있음(미국 허가사항)
+- **혈당 조절**: eGFR ≥45에서 5 mg 1일 1회로 시작하고 필요 시 10 mg으로 증량. eGFR <45에서는 혈당 강하 목적으로 권고하지 않음
 - 대수술이나 장기간 금식이 필요한 경우 최소 3일 전부터 일시 중단한다.
 
 #### 적응증
@@ -79,3 +77,5 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 2–3장 473–484쪽.
+- [미국 dapagliflozin 허가사항](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72ad22ae-efe6-4cd6-a302-98aaee423d69)

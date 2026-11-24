@@ -6,10 +6,13 @@ import type { TermLink } from "@/lib/webdb";
 
 type BulletStyle = "plain" | "card";
 
+type FlowStep = { text: string; children: FlowStep[] };
+
 type ParsedBlock =
   | { type: "line"; line: string }
   | { type: "group"; label: string; items: string[] }
-  | { type: "table"; headers: string[]; rows: string[][] };
+  | { type: "table"; headers: string[]; rows: string[][] }
+  | { type: "flowchart"; title: string; steps: FlowStep[] };
 
 const BULLET_PATTERN = /^(?:[-*]|[0-9]+\.)\s+/;
 
@@ -80,6 +83,22 @@ function getLabelOnly(body: string) {
   return match ? match[1] : null;
 }
 
+function parseFlowSteps(lines: string[]): FlowStep[] | null {
+  const roots: FlowStep[] = [];
+  const parents: FlowStep[] = [];
+  for (const line of lines) {
+    const row = /^((?:>){1,6})\s+(.+)$/.exec(line.trim());
+    if (!row) return null;
+    const depth = row[1].length;
+    if (depth > parents.length + 1 || (depth === 1 && roots.length > 0)) return null;
+    const step = { text: row[2], children: [] };
+    const siblings = depth === 1 ? roots : parents[depth - 2].children;
+    siblings.push(step);
+    parents.splice(depth - 1, parents.length, step);
+  }
+  return roots[0]?.children.length ? roots : null;
+}
+
 function parseBlocks(lines: string[], groupBulletLabels = true): ParsedBlock[] {
   const blocks: ParsedBlock[] = [];
   let currentGroup: ParsedBlock | null = null;
@@ -94,6 +113,20 @@ function parseBlocks(lines: string[], groupBulletLabels = true): ParsedBlock[] {
   for (let index = 0; index < lines.length; index += 1) {
     const line = lines[index];
     const trimmed = (typeof line === "string" ? line : String(line ?? "")).trim();
+
+    if (trimmed === "```flowchart") {
+      const end = lines.findIndex((item, position) => position > index && item.trim() === "```");
+      if (end > index + 2) {
+        const title = lines[index + 1].trim();
+        const steps = parseFlowSteps(lines.slice(index + 2, end));
+        if (title && steps) {
+          flushGroup();
+          blocks.push({ type: "flowchart", title, steps });
+          index = end;
+          continue;
+        }
+      }
+    }
 
     if (isTableRow(trimmed) && isTableDivider(String(lines[index + 1] ?? ""))) {
       flushGroup();
@@ -392,6 +425,19 @@ function renderTable(headers: string[], rows: string[][], termLinks: TermLink[],
   );
 }
 
+function FlowSteps({ steps, termLinks, wikiLinks }: { steps: FlowStep[]; termLinks: TermLink[]; wikiLinks: TermLink[] }) {
+  return (
+    <ul role="list">
+      {steps.map((step, index) => (
+        <li key={index}>
+          <div className="note-flowchart-step">{renderInline(step.text, termLinks, wikiLinks)}</div>
+          {step.children.length > 0 && <FlowSteps steps={step.children} termLinks={termLinks} wikiLinks={wikiLinks} />}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 export function RichTextLines({
   lines,
   className = "space-y-2.5 text-sm text-slate-700",
@@ -407,15 +453,28 @@ export function RichTextLines({
   wikiLinks?: TermLink[];
   presentation?: "document" | "embedded";
 }) {
-  const blocks: SkinTextBlock[] = parseBlocks(lines, bulletStyle !== "plain").map((block) => ({
-    kind: block.type === "group" ? "group" : block.type === "table" ? "table" : !block.line.trim() ? "space" : /^(?:#{3,4}\s|---$)/.test(block.line.trim()) ? "heading" : "text",
-    label: block.type === "group" ? plainText(block.label).replace(/[:：]\s*$/, "") : undefined,
-    content: block.type === "group"
-      ? renderGroup(block.label, block.items, termLinks, wikiLinks)
-      : block.type === "table"
-        ? renderTable(block.headers, block.rows, termLinks, wikiLinks)
-        : renderLine(block.line, bulletStyle, termLinks, wikiLinks),
-  }));
+  const blocks: SkinTextBlock[] = parseBlocks(lines, bulletStyle !== "plain").map((block) => {
+    switch (block.type) {
+      case "flowchart":
+        return {
+          kind: "text",
+          label: block.title,
+          content: <figure className="note-flowchart">
+            <figcaption>{block.title}</figcaption>
+            <FlowSteps steps={block.steps} termLinks={termLinks} wikiLinks={wikiLinks} />
+          </figure>,
+        };
+      case "group":
+        return { kind: "group", label: plainText(block.label).replace(/[:：]\s*$/, ""), content: renderGroup(block.label, block.items, termLinks, wikiLinks) };
+      case "table":
+        return { kind: "table", content: renderTable(block.headers, block.rows, termLinks, wikiLinks) };
+      case "line":
+        return {
+          kind: !block.line.trim() ? "space" : /^(?:#{3,4}\s|---$)/.test(block.line.trim()) ? "heading" : "text",
+          content: renderLine(block.line, bulletStyle, termLinks, wikiLinks),
+        };
+    }
+  });
   if (presentation === "embedded") {
     return <div className={className}>{blocks.map((block, index) => <div key={index}>{block.content}</div>)}</div>;
   }

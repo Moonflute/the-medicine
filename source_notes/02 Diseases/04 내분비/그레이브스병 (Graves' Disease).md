@@ -58,15 +58,17 @@ sources: ["2025 Korean Thyroid Association Management Guidelines for Radioactive
 - 임상 양상과 갑상샘기능검사 결과가 갑상샘중독증에 부합하고, TRAb(TSI) 양성인 경우 확진.
 
 ## 5. 치료
-- **항갑상샘제**: TPO 억제, methimazole이 1차
-  - PTU: 임신 제1삼분기 또는 갑상샘중독발작에서 사용
+- **메티마졸(methimazole)**: 비임신 성인의 1차 약제. fT4가 정상 상한의 **1–1.5배: 5–10 mg/일**, **1.5–2배: 10–20 mg/일**, **2–3배: 30–40 mg/일**을 참고하고 T3·증상·갑상샘 크기로 조정
+  - 시작 **2–6주** 뒤 fT4/T3에 따라 감량·조정. 초기 TSH는 계속 억제될 수 있음
+  - 프로필티오우라실(propylthiouracil, PTU): 치료가 필요한 임신 제1삼분기에서 우선 고려. 제2삼분기 이후 약제 유지·전환은 간독성·기형 위험과 조절 상태에 따라 재평가
+  - 갑상샘 폭풍 용량은 [[갑상샘 기능항진증 (Hyperthyroidism)]] 참조
   - 간염·무과립구증 주의. **발열·인후통 시 중단 후 즉시 CBC**
   - 보통 **12–18개월** 후 TSH·TRAb 정상 시 중단 검토
   - TRAb 양성 지속/재발: 저용량 장기 유지 또는 RAI·수술, 위험·선호 반영
 - **RAI**: 갑상샘 세포 파괴, 이후 기능저하 시 levothyroxine 보충
   - **임신·수유 금기**, 활동성 중등도–중증 안병증에서 피함
 - **전절제술**: 매우 큰 갑상샘종·압박, 악성 의심, 항갑상샘제 사용 불가, 빠른 확정 치료 필요 시 논의
-- **β 차단제(propranolol·atenolol)**: 두근거림 등 증상 조절
+- **β 차단제**: 예를 들어 프로프라놀롤(propranolol) 10–40 mg을 하루 3–4회, 심박·혈압에 맞춰 조정. 서맥·저혈압·천식·비보상 심부전에서는 투여 적합성 확인
 
 **안병증**
 
@@ -80,10 +82,13 @@ sources: ["2025 Korean Thyroid Association Management Guidelines for Radioactive
 - 적절한 치료가 이루어지지 않을 경우 갑상샘중독증 위기(thyrotoxic crisis) 발생 가능.
 - 치료 후 갑상샘기능저하증이 발생할 수 있으며, 이 경우 레보티록신 보충이 필요함.
 
-## 출처
-- StatPearls (Graves Disease, Graves Disease Orbital Decompression); [EUGOGO 안병증 지침](https://academic.oup.com/ejendo/article/185/4/G43/6654384).
-
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Graves Disease, Graves Disease Orbital Decompression); [EUGOGO 안병증 지침](https://academic.oup.com/ejendo/article/185/4/G43/6654384).
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 11장 528–533쪽.
+- [ATA 갑상샘중독증](https://doi.org/10.1089/thy.2016.0229)
+- [ATA 2026 임신·산후](https://doi.org/10.1177/10507256261445624)

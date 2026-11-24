@@ -39,6 +39,8 @@ sources: ["CDC 의료종사자 손 위생 권고 | https://www.cdc.gov/clean-han
 ## 4. 치료 원칙
 **성인 초기 비전격성 CDI**
 
+- **중증도**: 백혈구 **≥15,000/µL** 또는 Cr **>1.5 mg/dL**이면 중증 분류를 지지한다. 기저 CKD·면역저하와 추세도 평가. 전격성 소견이 없으면 아래 비전격성 요법을 적용.
+
 - **우선 고려**: fidaxomicin **200 mg 경구 하루 2회, 10일**
 - **대안**: 접근성·자원에 따라 vancomycin **125 mg 경구 하루 4회, 10일**
 - 경증·중등도에 metronidazole을 일률적 1차로 선택하던 과거 표를 적용하지 않음
@@ -47,7 +49,7 @@ sources: ["CDC 의료종사자 손 위생 권고 | https://www.cdc.gov/clean-han
 
 - **기준**: 저혈압·쇼크, 장마비 또는 거대결장
 - **요법**: vancomycin **500 mg 경구/비위관 하루 4회** + metronidazole **500 mg IV 매 8시간**
-  - 장마비: 직장 vancomycin 추가를 전문팀과 검토
+  - **장마비**: 반코마이신(vancomycin) **500 mg/0.9% 생리식염수 약 100 mL, 6시간마다 직장 저류 관장** 추가를 전문팀과 검토. 조기 외과 평가를 병행.
 - **외과 평가**: 조기 협진, 비전격성 용법을 그대로 적용하거나 수술 평가를 지연하지 않음
   - 세부 수술 적응증은 최신 지침·현지 프로토콜에 따라 판단
 
@@ -82,3 +84,4 @@ sources: ["CDC 의료종사자 손 위생 권고 | https://www.cdc.gov/clean-han
 - CDC. C. diff clinical resources.
 - [EMA Zinplava 허가 정보](https://www.ema.europa.eu/en/medicines/human/EPAR/zinplava)
 - 삼성서울병원 메뉴얼.
+- SNUH Manual of Medicine 6판(2022), 소화기 2장, 239쪽. [IDSA/SHEA 성인 C. difficile 치료 업데이트](https://www.idsociety.org/practice-guideline/clostridioides-difficile-2021-focused-update/).

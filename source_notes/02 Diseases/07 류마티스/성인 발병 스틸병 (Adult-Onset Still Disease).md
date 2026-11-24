@@ -59,7 +59,9 @@ sources: ["EULAR/PReS Still disease recommendations 2024 | https://pmc.ncbi.nlm.
 - **초기 치료(EULAR/PReS 2024)**: 진단 확립 후 IL-1 또는 IL-6 억제제를 가능한 일찍 시작
   - 필요 시 단기 glucocorticoid 병용, 장기 스테로이드 의존 최소화
 - **Glucocorticoid**: 급성기 조절 등에 prednisolone 0.5–1.0 mg/kg/day 고려
-  - 심근염·심장눌림증·DIC·대식세포활성화증후군·폐고혈압 등 치명적 합병증: methylprednisolone 충격요법 고려
+  - 심근염·심장눌림증·DIC·폐고혈압 등 치명적 합병증: methylprednisolone 충격요법 고려.
+- **대식세포활성화증후군(MAS)**: 지속 고열과 빠른 ferritin 상승, 하강하는 혈구·fibrinogen, AST·중성지방 상승 시 응급 평가. 고용량 스테로이드에 아나킨라(anakinra)·사이클로스포린(cyclosporine) 등 조기 병합 검토.
+  - 스테로이드 반응 부족·불내성 또는 반복 MAS는 에마팔루맙(emapalumab)이 미국에서 허가. 활동성 감염 평가, 항균 예방 및 국내 사용 가능 여부 확인.
 - **DMARD**: 관절 증상 조절·스테로이드 감량을 위해 MTX 등 단독 또는 병합
   - 선택지: azathioprine·cyclosporine·tacrolimus·cyclophosphamide·leflunomide
 
@@ -82,3 +84,5 @@ sources: ["EULAR/PReS Still disease recommendations 2024 | https://pmc.ncbi.nlm.
 
 ## 출처
 - 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 류마티스 12장 897–900쪽.
+- [EULAR/PReS 스틸병 지침](https://doi.org/10.1136/ard-2024-225851), [FDA 에마팔루맙 제품설명서](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761107s022lbl.pdf).

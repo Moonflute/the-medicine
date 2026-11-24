@@ -33,15 +33,8 @@ sources: ["AASLD ALF position paper 2011 | https://www.aasld.org/sites/default/f
 - **초기 원칙**: 원인에 따라 치료·회복 가능성이 달라 원인 규명과 이식 평가를 동시에 진행
 
 ## 2. 임상 양상 (Clinical Features)
-**CC**:
-
-  황달이 급격히 진행되며, 의식 변화가 빠르게 나타남.
-  초기에는 피로, 오심, 구토 등이 있으나, 수일에서 수주 내에 간성 뇌증이 진행되어 혼수 및 뇌부종으로 악화될 수 있음.
-
-**P/E**:
-
-  심한 황달, 간 크기 감소, 의식 수준 저하, 지남력 장애, 손떨림(flapping tremor) 등이 관찰된다.
-  출혈 경향이나 복수, 부종이 동반될 수 있다.
+- **증상**: 피로·오심·구토에서 황달·수면 변화·혼돈으로 진행. 뇌증은 수시간에 악화 가능
+- **진찰**: 지남력·의식 수준, 날개짓떨림(asterixis), 황달·출혈·복수, 저혈당·혈압 확인. 혼수로 진행하면 기도와 뇌부종 평가
 
 ## 3. 검사 (Lab & Imaging)
 - **병력**: 약물·아세트아미노펜·한약·보충제, 감염 위험, 저혈압·저산소증·과거 간질환
@@ -55,7 +48,7 @@ sources: ["AASLD ALF position paper 2011 | https://www.aasld.org/sites/default/f
 
 ## 4. 진단 (Diagnosis)
 
-- **진단**: 급성 간손상 + 응고장애(PT/INR 연장) + 간성 뇌증을 종합
+- **급성 간부전 기준**: 대체로 기존 간경변이 없는 환자에서 **26주 이내** 발생한 급성 간손상 + **INR ≥1.5** + **간성 뇌증**. 윌슨병 등은 기저 섬유화가 있어도 급성 간부전으로 발현할 수 있음.
 - **의식 변화 감별**: 저혈당·진정제·감염·뇌혈관 질환 등
 - **만성 간질환의 급성 악화와 구분**: 과거 간질환, 약물 독성 등 원인 평가
 - **뇌증 없는 응고장애**: 급성 간염에서도 악화 가능성을 면밀히 관찰
@@ -65,8 +58,9 @@ sources: ["AASLD ALF position paper 2011 | https://www.aasld.org/sites/default/f
 **중환자 감시와 원인 치료**
 
 - **유발 약제**: 의심 약제 중단
-- **아세트아미노펜 손상**: N-acetylcysteine 신속 투여
-  - 비아세트아미노펜성 급성 간부전의 초기에도 전문팀이 사용 고려
+- **아세트아미노펜 손상**: 아세틸시스테인(N-acetylcysteine, NAC) 신속 투여. 대표 정주 요법 **150 mg/kg 1시간 → 50 mg/kg 4시간 → 100 mg/kg 16시간**.
+  - **중단 판단(ACMT 2026)**: 21시간 뒤 APAP **<10 µg/mL**, AST/ALT가 기저치 또는 최고치 대비 **25–50% 감소**, **INR <2.0**, Cr·젖산·pH 등 예후 지표 호전이 모두 확인되어야 함. 미충족 시 전문팀과 주입 연장.
+  - **비아세트아미노펜성** 초기 급성 간부전에서도 간 전문팀이 NAC를 검토.
 - **허혈성 손상**: 관류·산소 공급과 원인 교정
 - **HBV·HSV**: 원인별 항바이러스 치료 평가
 - **자가면역성**: 감염·중증도에 따라 면역억제 판단
@@ -75,7 +69,7 @@ sources: ["AASLD ALF position paper 2011 | https://www.aasld.org/sites/default/f
 **장기지지·합병증**
 
 - **심한 뇌증**: 기도 보호·침상 머리 올림·반복 신경학적 평가, 발작 신속 치료
-  - 두개내압 상승 시 고장성 식염수·mannitol 등은 Na·신기능·혈역학 감시하 사용
+  - **뇌부종/두개내압 상승**: 중환자실에서 고장성 식염수 또는 만니톨(mannitol) **0.5–1 g/kg** 정주 검토. Na·혈청 삼투질농도·신기능·관류를 면밀히 감시.
 - **감염**: 지속 감시, 의심 시 신속 검사·치료
 - **응고장애**: 출혈·시술 예정이 없으면 INR 정상화만을 위해 혈장·혈소판을 일률 투여하지 않음
 - **신장·순환**: 적절한 혈량·관류 유지, 신독성 약제 회피
@@ -84,7 +78,14 @@ sources: ["AASLD ALF position paper 2011 | https://www.aasld.org/sites/default/f
 
 **간이식·추적**
 
-- 회복 불가능 또는 뇌증·INR 상승 지속 시 즉시 이식 평가·전문 의뢰
+- **조기 이식 평가**: 진단 즉시 이식센터와 협의. 아래 예후 기준은 긴급성 평가에 사용.
+
+| King's College 평가 | 긴급성을 지지하는 소견 |
+| --- | --- |
+| 아세트아미노펜 | 소생 후 동맥 pH **<7.30**, 또는 **INR >6.5 + Cr >3.4 mg/dL + 3–4단계 뇌증** 모두. 소생 뒤 지속 젖산 **>3 mmol/L**도 고위험 |
+| 기타 원인 | **INR >6.5** 단독, 또는 불량 병인·나이 **<10세 또는 >40세**·황달부터 뇌증까지 **>7일**·**INR >3.5**·총 빌리루빈 **>17.5 mg/dL** 중 3개 |
+
+- 국내 등록·배정은 현행 KONOS 기준과 이식팀 판단을 따름.
 - 이식 전후 응고·신기능·감염 감시, 재발 예방을 위한 접종·알코올/원인 약물 회피 교육
 
 ## 6. 예후 및 합병증 (Prognosis)
@@ -96,10 +97,11 @@ sources: ["AASLD ALF position paper 2011 | https://www.aasld.org/sites/default/f
   - 이식 없이 회복할 가능성은 원인·중증도에 따라 다름. 생존 시 간기능이 완전히 회복되기도 함
 - **합병증**: 간성 뇌증·뇌부종·응고장애·감염·간신 증후군·다발성 장기부전
 
-## 출처
-- [AASLD 급성 간부전](https://www.aasld.org/practice-guidelines/management-acute-liver-failure), [ACG 알코올 관련 간질환](https://pmc.ncbi.nlm.nih.gov/articles/PMC11040545/)
-- 삼성서울병원 메뉴얼.
-
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- [AASLD 급성 간부전](https://www.aasld.org/practice-guidelines/management-acute-liver-failure), [ACG 알코올 관련 간질환](https://pmc.ncbi.nlm.nih.gov/articles/PMC11040545/)
+- 삼성서울병원 메뉴얼.
+- SNUH Manual of Medicine 6판(2022), 소화기 15장, 304–309쪽. [ACG 급성 간부전 교육자료](https://webfiles.gi.org/links/virtgrandround/Week29ACGVGRShinginaLiverFailure.pdf), [ACMT NAC 지속·중단 기준(2026)](https://www.acmt.net/wp-content/uploads/2026/01/ACMT-Duration-of-IV-NAC-STATEMENT-1_21_26.pdf).

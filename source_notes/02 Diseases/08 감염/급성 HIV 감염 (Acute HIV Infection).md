@@ -22,5 +22,9 @@ clinical_priority: tier_1
 
 **ART 시작·선택**:
 - 내성검사용 검체를 확보하되 결과가 나올 때까지 ART를 지연하지 않는다.
-- 일반적으로 bictegravir 또는 dolutegravir 기반 3제요법 등을 선택하며 HBV·신기능·임신·상호작용을 반영한다.
+- 신속 시작에는 빅테그라비르/TAF/FTC 또는 돌루테그라비르(dolutegravir) 기반 3제요법을 고려. HBV·신기능·임신·이전 PrEP·내성 위험을 확인.
+
+## 출처
+- 서울대학교병원 내과 매뉴얼 6판(2022), 감염 12장 817–819쪽.
+- [질병관리청 2026 HIV/AIDS 관리지침](https://www.kdca.go.kr/bbs/kdca/55/305040/download.do), [NIH HIV 초기 ART 지침](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/what-start-initial-combination-regimens).
 - **장기지속 cabotegravir PrEP 노출 후 감염**이면 integrase 내성 가능성이 있어 결과 확인 전 boosted darunavir+2 NRTI 등 별도 초기 요법을 전문팀과 선택한다.

@@ -40,12 +40,11 @@ content_updated_at: "2026-11-18"
   EGFR, ALK, KRAS 등 다양한 유전자 변이가 관여함.
 
 ## 2. 임상 양상 (Clinical Features)
-- **주요 증상**: 초기에는 무증상·우연 발견이 흔함; 진행 시 기침·호흡곤란·흉통·객혈
-- **동반 양상**: 비대성 폐골관절병증이 다른 폐암보다 흔하고 뇌 전이 빈도가 높음
-- **진찰**: 진행 시 흉수·림프절 종대·상대정맥 증후군·호너 증후군 가능
+- **증상**: 초기에는 무증상·우연 발견이 흔함. 진행 시 기침·호흡곤란·흉통·객혈, 뇌 전이에 따른 신경 증상 가능
+- **진찰**: 비대성 폐골관절병증, 진행 시 흉수·림프절 종대·상대정맥 증후군·호너 증후군 가능
 
 ## 3. 검사 (Lab & Imaging)
-- **기본 영상**: 흉부 CT
+- **흉부 CT**: 말초 고형·간유리·부분고형 결절로 보일 수 있음. 부분고형은 전체 크기와 고형 성분을 따로 기록
 - **병기 평가**: PET/CT·뇌 MRI
 - **조직검사**: 확진에 필수
 - **NGS**: EGFR exon 20 삽입 등을 포함한 정밀 분자 프로파일링을 위해 적극 권장
@@ -53,6 +52,7 @@ content_updated_at: "2026-11-18"
 ## 4. 진단 (Diagnosis)
 - 조직 검사를 통해 확진하며, TTF-1 및 Napsin A 면역염색이 진단에 도움을 줌.
   2021 WHO 분류에 따라 침습성 정도와 조직학적 패턴을 구분함.
+- **초기 병리 감별**: 단일 종양 **≤3 cm**에서 순수 lepidic 성장만 보이면 상피내선암, lepidic 우세이며 침습부 **≤5 mm**이면 최소침습선암 평가. 전체 절제 표본으로 침습을 확인하며 소생검만으로 확정하지 않음
 
 **폐암 TNM 9판(2025) 판정 기준**:
 
@@ -92,7 +92,8 @@ content_updated_at: "2026-11-18"
 - **전이성 선암 치료 전**: 광범위 분자검사·PD-L1 확보
 - **표적 변이 있음**: 해당 표적요법 우선 평가
   - EGFR exon 19 deletion/L858R, ALK/ROS1/RET/NTRK 융합, BRAF V600E, MET exon 14 skipping 등
-  - EGFR exon 20 insertion: 흔한 EGFR 변이와 감수성이 달라 별도 요법 적용; amivantamab 등 표적치료의 임상적 이점
+  - **EGFR exon 19 결실·exon 21 L858R**: 오시머티닙(osimertinib) 기반 치료 검토
+  - **EGFR exon 20 삽입**: 첫 전신요법에서 아미반타맙(amivantamab) + 카보플라틴(carboplatin) + 페메트렉시드(pemetrexed) 등 별도 접근. 환자 상태·국내 허가에 따라 결정
 - **표적 변이 없음**: 수행능력·금기를 고려해 PD-L1별 선택
   - **≥50%**: 면역 단독 또는 항암 병합
   - **<50%**: 대개 platinum+pemetrexed+면역치료 등
@@ -103,6 +104,8 @@ content_updated_at: "2026-11-18"
   뇌 전이 및 흉막 전이 등이 주요 예후 인자임.
 
 ## 출처
+- SNUH Manual of Medicine 6판(2022), 호흡기 5장, 31–39쪽. 영상·조직·병기와 표적 검사.
+- [FDA EGFR exon 20 삽입의 아미반타맙 적응증](https://www.fda.gov/drugs/cancer-approvals/fda-approves-amivantamab-vmjw-egfr-exon-20-insertion-mutated-non-small-cell-lung-cancer-indications)
 - StatPearls (Lung Adenocarcinoma, 2026)
 
 Last updated :

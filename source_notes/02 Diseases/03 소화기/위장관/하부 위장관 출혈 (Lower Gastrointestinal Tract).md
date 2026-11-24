@@ -27,11 +27,11 @@ sources: ["ESGE 하부 위장관 출혈 2021 | https://www.esge.com/diagnosis-an
 - **기전**: 혈관벽의 손상, 점막의 궤양화 또는 신생물에 의한 침습으로 인해 혈관이 노출되어 발생.
 
 ## 2. 임상 양상 (Clinical Features)
-- **CC**: 혈변(hematochezia), 흑색변(melena)
+- **증상**: 혈변(hematochezia), 흑색변(melena)
   - 갑작스러운 무통성 출혈: 게실 등. 혈성 설사·뒤무직: 대장염 등. 증상만으로 출혈원 확정 불가
   - 흑색변·빠른 혈변은 위치 예외가 있어 불안정 시 상부 출혈도 평가
 - **병력**: 횟수·최근 출혈 시점, 복통·설사, 항혈전제·NSAID, 최근 내시경·수술·방사선 치료
-- **P/E**: 빈맥·저혈압 등 혈역학 상태, DRE로 혈변 확인
+- **진찰**: 빈맥·저혈압 등 혈역학 상태, DRE로 혈변 확인
 
 ## 3. 검사 (Lab & Imaging)
 - **혈액**: CBC 추세·응고·전해질·신기능, 혈액형·교차시험(수혈 준비)
@@ -48,7 +48,8 @@ sources: ["ESGE 하부 위장관 출혈 2021 | https://www.esge.com/diagnosis-an
   상부 위장관 출혈을 배제하기 위해 필요 시 위내시경을 먼저 시행할 수 있음.
 
 ## 5. 치료
-- **초기 처치**: 수액·필요 수혈로 안정화, 활력징후·혈변량 감시
+- **초기 처치**: 수액·필요 수혈로 안정화, 활력·혈변량 감시. 안정적이면 **Hb <7 g/dL** 기준이 일반적이며 심혈관질환·진행 출혈은 개별화.
+- **저위험 외래 평가**: 출혈 멎고 활력·Hb가 안정적이며 추적 가능하면 Oakland **≤8점**을 참고. 단독으로 퇴원을 결정하지 않음.
 - **내시경 지혈**: 장정결 후 입원 중 시행, 모든 환자에게 **24시간 이내** 검사를 요구하지 않음
   - 불안정·지속 출혈: 소생·CTA·중재 우선
   - 클립·전기소작 등 병변에 맞게 선택. 에피네프린은 보조 수단이며 최종 단독 지혈로 사용하지 않음
@@ -61,10 +62,11 @@ sources: ["ESGE 하부 위장관 출혈 2021 | https://www.esge.com/diagnosis-an
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 보존적 치료 및 내시경적 지혈로 호전되나, 고령이나 기저질환이 있는 경우 재출혈 위험이 높음.
 
-## 출처
-- Merck Manual Professional
-- 삼성서울병원 메뉴얼; [ASGE 위장관 출혈 지혈 원칙](https://www.asge.org/home/resources/key-resources/blog/view/trainee-advisor/2026/08/19/gi-emergencies-for-the-trainee--a-practical-approach-to-upper-and-lower-gastrointestinal-bleeding).
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼; [ASGE 위장관 출혈 지혈 원칙](https://www.asge.org/home/resources/key-resources/blog/view/trainee-advisor/2026/08/19/gi-emergencies-for-the-trainee--a-practical-approach-to-upper-and-lower-gastrointestinal-bleeding).
+- SNUH Manual of Medicine 6판(2022), 소화기 6장, 257–260쪽. [ACG 하부위장관 출혈 지침(2023)](https://pubmed.ncbi.nlm.nih.gov/36735555/), [ESGE 소장내시경 지침](https://www.esge.com/small-bowel-ce-and-dae-for-diagnosis-and-treatment-of-sb-update-2022).

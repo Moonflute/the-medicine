@@ -27,9 +27,9 @@ sources: ["ESGE 운동질환 중재 지침 | https://www.esge.com/assets/downloa
 - **기전**: 비정상적 조기·경련성 수축으로 음식물 이동 장애. 하부식도괄약근 이완은 정상이며 HRM 기준으로 판단
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**: 가슴통증 (비심장성 흉통, 쥐어짜는 듯한 느낌), 삼킴곤란 (고형식 및 유동식 모두), 역류, 인후 이물감 (Globus sensation).
+- **증상**: 가슴통증 (비심장성 흉통, 쥐어짜는 듯한 느낌), 삼킴곤란 (고형식 및 유동식 모두), 역류, 인후 이물감 (Globus sensation).
 
-* **P/E**: 특이 소견 없음.
+- **진찰**: 특이 소견 없음.
 
 ## 3. 검사 (Lab & Imaging)
 - **고해상도 식도내압검사(HRM)**: 진단 표준
@@ -47,7 +47,10 @@ sources: ["ESGE 운동질환 중재 지침 | https://www.esge.com/assets/downloa
 
 ## 5. 치료
 - **치료 전 확인**: 심장성 흉통·기계적 협착 배제, 증상과 HRM 소견의 일치 확인. 무증상 검사 이상만으로 시술하지 않음
-- **증상별 약물**: 역류는 산 억제, 경련성 통증은 CCB·질산염, 통증 과민성은 신경조절제 검토
+- **증상별 약물**
+  - **역류 동반**: PPI 시험. 최근 오피오이드 사용은 연축·유출로 폐쇄를 유발할 수 있어 조정 가능성 확인.
+  - **경련성 통증·연하곤란**: 딜티아젬(diltiazem) 등 평활근 이완 약제 또는 단기 질산염을 내약성과 제한된 치료 근거를 고려해 선택.
+  - **비심장성 흉통·내장 과민 우세**: 저용량 삼환계 등 신경조절제 검토.
   - 내약성·저혈압·두통·약물 상호작용 확인
 - **중재**: 약물 무반응만으로 풍선확장·보툴리눔 독소·POEM을 일괄 적용하지 않음
   - 심한 지속성 연하곤란·체중 감소와 객관적 병변의 연관성이 확인된 선별 환자에서 전문 운동질환팀이 이득·역류 위험 평가
@@ -56,10 +59,11 @@ sources: ["ESGE 운동질환 중재 지침 | https://www.esge.com/assets/downloa
 * **악화 인자**: 뜨겁거나 차가운 음료 섭취 시 통증 악화.
 - **합병증**: 식도 천공 (확장술 시 주의), 영양 불량, 삶의 질 저하.
 
-## 출처
-- StatPearls (Diffuse Esophageal Spasm)
-- 삼성서울병원 메뉴얼; [Chicago Classification v4.0](https://pmc.ncbi.nlm.nih.gov/articles/PMC8034247/).
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Diffuse Esophageal Spasm)
+- 삼성서울병원 메뉴얼; [Chicago Classification v4.0](https://pmc.ncbi.nlm.nih.gov/articles/PMC8034247/).
+- SNUH Manual of Medicine 6판(2022), 소화기 7장, 264–266쪽. [Chicago Classification v4.0](https://pmc.ncbi.nlm.nih.gov/articles/PMC8034247/).

@@ -60,7 +60,8 @@ sources: ["WHO 2025 | https://www.ncbi.nlm.nih.gov/books/NBK614844/"]
   - 신생아: 별도 신생아 패혈증 경로 적용, 성인 ceftriaxone 처방을 그대로 사용하지 않음
   - LP·CT 때문에 항생제를 지연하지 않음
   - 비유행성 세균성 수막염: dexamethasone을 가능하면 첫 항생제와 동시에 시작, CSF·균 결과로 지속 여부 결정
-- **HSV 의심**: 즉시 IV acyclovir, 반응 모니터링
+- **의료관련·신경외과 수술/션트 이후**: 반코마이신(vancomycin) + 세페핌(cefepime)·세프타지딤(ceftazidime)·메로페넴(meropenem) 중 기관 내성과 감수성에 맞는 항녹농균 β-lactam. 감염 션트·기구 제거 여부를 신경외과와 평가.
+- **HSV 의심**: 아시클로버(acyclovir) IV 즉시 시작. 정상 신기능 성인은 10 mg/kg 8시간 간격, 확진 시 대개 14–21일. 신기능·수분 상태 확인.
 - **결핵성 의심**: 항결핵제+steroid, 전파 위험에 맞는 격리
 - **아메바성 의심**: amphotericin B 기반 병용 요법 신속 시작, 감염내과·신경외과 협진
 - **추적·예방**: 신경학적 평가·청력 검사, 적응증에 따른 수막염균 예방접종
@@ -71,10 +72,12 @@ sources: ["WHO 2025 | https://www.ncbi.nlm.nih.gov/books/NBK614844/"]
   세균성 뇌수막염은 적절한 치료에도 불구, 신경학적 후유증(청력 소실, 인지 기능 저하, 발작)이 남을 수 있음.
   아메바성 뇌수막염은 치명률이 매우 높음.
 
+Last updated :
+2026-05-18 — 본문 갱신 (codex fill)
+
 ## 출처
 - Merck Manual Professional, StatPearls (Naegleria Infection)
 - [WHO 수막염 지침 요약](https://www.ncbi.nlm.nih.gov/books/NBK614846/?report=printable)
 - 삼성서울병원 메뉴얼
-
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 감염 3·7장 771·791쪽.
+- [IDSA 의료관련 뇌실염·수막염 지침](https://www.idsociety.org/practice-guideline/healthcare-associated-ventriculitis-and-meningitis/).

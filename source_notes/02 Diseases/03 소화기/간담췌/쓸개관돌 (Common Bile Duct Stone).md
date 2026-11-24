@@ -64,7 +64,7 @@ sources: ["ASGE | https://www.asge.org/home/resources/publications/guidelines/as
 - **직접 ERCP 고려 고위험**: 다음 중 하나
   - 영상상 총담관 결석
   - 상행성 담관염
-  - **총 bilirubin >4 mg/dL + 담관 확장**(담낭이 있는 성인 **>6 mm**)
+  - **총 bilirubin >4 mg/dL + 담관 확장**: 담낭이 있는 성인 **>6 mm**, 담낭절제 후 **>8 mm** 기준 참고
 - **중간 위험**: 간수치 이상·**>55세**·담관 확장 등만 있으면 MRCP/EUS 또는 수술 중 담도검사로 먼저 확인
   - bilirubin >4 단독을 고위험으로 해석하지 않음
   - 단순 통증·황달만으로 즉시 ERCP를 자동 결정하지 않음
@@ -78,7 +78,7 @@ sources: ["ASGE | https://www.asge.org/home/resources/publications/guidelines/as
   - 내시경과 수술 중 제거의 선택·시점은 결석 특성, 담낭 상태, 환자 안정성·전문성에 따라 결정
 - **큰 결석·매복·어려운 해부학적 접근**: 전문팀에서 다음 방법을 선택적으로 검토
   - 괄약근 절개 후 큰 풍선확장, 기계적·관내 쇄석
-  - 일시적 스텐트, 수술·경피 접근
+  - 일시적 스텐트, 수술·경피 접근. 스텐트 삽입 시 제거·교환 일정을 정함
   - 단일 기법·반복 시술을 모든 환자에 일률 적용하지 않음
 - **동반 담낭 결석**: 담관 청결 후 담낭절제 시점을 담관염·췌장염 중증도, 수술 위험·자원에 따라 계획
 - **시술 후 추적**: 증상·간담도 혈액검사와 필요한 영상으로 담도 청결·재폐쇄·합병증 평가
@@ -92,10 +92,12 @@ sources: ["ASGE | https://www.asge.org/home/resources/publications/guidelines/as
 
 - **합병증**: 급성 담관염, 급성 췌장염, 담도성 간경변증, 패혈증 등이 발생할 수 있다.
 
-## 출처
-- StatPearls (Bile Duct Injury, Bile Duct Repair)
-- 삼성서울병원 메뉴얼.
-
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Bile Duct Injury, Bile Duct Repair)
+- 삼성서울병원 메뉴얼.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 3부 20장 340–344쪽.
+- [ASGE 총담관 결석 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/)

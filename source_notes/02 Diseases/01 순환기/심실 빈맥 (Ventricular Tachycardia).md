@@ -46,14 +46,13 @@ content_updated_at: "2026-11-18"
   - Incessant VT: 종결 후 즉시 재발하는 VT
 
 ## 2. 임상 양상
-- 주호소: 의식저하, 어지러움, 실신, 심정지
-- 기타 증상: 두근거림, 흉통, 호흡곤란
-- 혈액역학적 상태: 비정상적 심실 수축 및 심실 충만 감소로 인한 저혈압 또는 혈압 측정 불가
+- **증상**: 두근거림·흉통·호흡곤란, 어지러움·실신
+- **진찰**: 저혈압·저관류·의식저하. 맥박이 없으면 즉시 심정지 경로
 
 ## 3. 검사
 **심전도(ECG) 특징**
 
-- Wide QRS tachycardia: QRS duration > 120 ms
+- 넓은 QRS 빈맥: QRS **≥120 ms**. 정상에 가까운 폭의 섬유속 VT도 가능
 - Regular RR interval (Irregular 시 WPW + AF 의심)
 - AV dissociation: P파와 QRS군이 독립적 주기
 - Capture beat, Fusion beat 존재
@@ -89,7 +88,7 @@ content_updated_at: "2026-11-18"
 
 - **지속성 단형성 VT**
   - **혈역학적 불안정**: DC synchronized cardioversion
-  - **안정**: DC cardioversion(1차), amiodarone·procainamide·sotalol 등 항부정맥제
+  - **안정**: 감시·심장전문의 평가하 동기화 전환 또는 정주 항부정맥제. 아미오다론(amiodarone) **150 mg을 10분에 걸쳐 정주**하는 전략을 검토하며, 프로카인아미드(procainamide)는 QT 연장·심부전이 있으면 피함
 - **지속성 다형성 VT**: 혈역학적 상태와 관계없이 제세동 1차
   - **QT 정상**: amiodarone/lidocaine
   - **QT 연장(TdP)**: 혈청 Mg가 정상이어도 magnesium
@@ -112,6 +111,10 @@ content_updated_at: "2026-11-18"
 - 심실세동(VF) 등 심정지 리듬으로 이행 가능
 - 구조적 심질환 동반 시 예후 불량
 - Idiopathic VT는 상대적으로 예후가 양호함
+
+## 출처
+- SNUH Manual of Medicine 6판(2022), 순환기 7–8장, 144–145·158–161쪽. 넓은 QRS·VT 감별과 치료.
+- [AHA 성인 전문소생술 2025](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support)
 
 Last updated :
 2026-05-10 : 본문 갱신 (processed)

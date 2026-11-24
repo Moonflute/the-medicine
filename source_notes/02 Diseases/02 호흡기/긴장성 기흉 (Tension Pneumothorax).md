@@ -33,9 +33,9 @@ sources: ["WSES/AAST 흉부외상 지침 2025 | https://pmc.ncbi.nlm.nih.gov/art
 - **기전**: 흡기 시 유입된 공기가 호기 시 배출되지 않음 → 흉강 내 양압이 심장·대혈관 압박 → 정맥 환류·심박출량 감소 → 순환 허탈
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**: 심한 호흡곤란, 흉통, 빈호흡, 빈맥, 저혈압, 의식 저하.
-
-* **P/E**: 환측의 호흡음 소실, 과다공명음(hyperresonance), 경정맥 확장, 기관 편위(tracheal deviation)가 관찰될 수 있음.
+- **증상**: 갑작스러운 심한 호흡곤란·흉통
+- **진찰**: 편측 호흡음 소실·과공명과 함께 빈호흡·빈맥·저혈압·의식 저하. 기관 편위나 경정맥 확장은 늦거나 뚜렷하지 않을 수 있음
+  - 양압환기 중 갑작스러운 기도압 상승, 산소화·혈압 저하는 중요한 단서
 
 ## 3. 검사 (Lab & Imaging)
 * **진단:** 임상적 진단이 우선임. 영상 검사를 기다리느라 치료를 지연해서는 안 됨.
@@ -61,6 +61,7 @@ sources: ["WSES/AAST 흉부외상 지침 2025 | https://pmc.ncbi.nlm.nih.gov/art
   주요 합병증으로 재팽창 폐부종, 흉관 삽입 관련 손상, 감염 등이 있음.
 
 ## 출처
+- SNUH Manual of Medicine 6판(2022), 호흡기 7장, 51쪽. 긴장성 기흉과 양압환기.
 - StatPearls (Tension Pneumothorax, Acute Pneumothorax Evaluation and Treatment)
 
 Last updated :

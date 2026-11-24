@@ -94,13 +94,14 @@ sources: ["ACR SAA SPARTAN 2026 axial spondyloarthritis — official summary | h
 근거 범위: ACR/SAA/SPARTAN 2026 공식 권고 요약(정식 논문 출판 전 자료).
 
 - **초기**: 운동·물리치료 + NSAID, 위장관·신장 위험 평가
-  - ASDAS/BASDAI, CRP/ESR·기능 추적
-- **지속 활성 질환**: 첫 생물학제로 TNF 억제제 또는 IL-17 억제제를 동등하게 고려
+  - **활성도**: ASDAS <1.3 비활성, 1.3–<2.1 낮음, 2.1–3.5 높음, >3.5 매우 높음. 통증·기능·CRP와 함께 추적.
+- **지속 활성 질환**: 충분한 운동·NSAID에도 조절되지 않으면 첫 생물학제로 TNF 억제제 또는 IL-17 억제제 고려.
+  - ASAS–EULAR는 **ASDAS ≥2.1**, NSAID ≥2개 사용 실패, CRP 상승·MRI 염증·영상학적 천장관절염 중 객관적 근거를 함께 평가. 국내 급여 기준은 구분.
   - JAK 억제제보다 우선하는 조건부 권고
   - JAK 억제제는 표적 합성 DMARD
 - **동반질환별 선택**
-  - 재발성 포도막염·IBD: 단클론항체 TNF 억제제 선호
-  - 건선: IL-17 억제제 고려, 장질환 여부 함께 평가
+  - 재발성 포도막염 또는 활동성 IBD: 아달리무맙(adalimumab)·인플릭시맙(infliximab) 등 단클론 TNF 억제제 선호. 활동성 IBD에서 IL-17 억제제는 피함.
+  - 건선이 두드러지면 세쿠키누맙(secukinumab) 등 IL-17 억제제 고려.
 - **반응 불충분**
   - 첫 표적치료 실패: 다른 기전 전환 고려
   - ≥2계열 실패: 순응도·잔존 염증·비염증성 통증·동반질환 재평가
@@ -112,13 +113,15 @@ sources: ["ACR SAA SPARTAN 2026 axial spondyloarthritis — official summary | h
 - 척추 강직으로 인한 운동 범위 제한 및 척추 변형(후만증).
 - 포도막염, 염증성 장질환, 심혈관계 질환, 척추 골절 위험 증가.
 
-## 출처
-- Merck Manual Professional (Ankylosing Spondylitis), ASAS-EULAR recommendations
-- 삼성서울병원 메뉴얼
-- [ASAS handbook](https://www.asas-group.org/wp-content/uploads/2020/07/ASAS-handbook.pdf).
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Ankylosing Spondylitis), ASAS-EULAR recommendations
+- 삼성서울병원 메뉴얼
+- [ASAS handbook](https://www.asas-group.org/wp-content/uploads/2020/07/ASAS-handbook.pdf).
+- 서울대학교병원 내과 매뉴얼 6판(2022), 류마티스 5장 854–859쪽.
+- [ASAS–EULAR 축성 척추관절염 지침](https://doi.org/10.1136/ard-2022-223296), [ACR 2026 공식 요약](https://assets.contentstack.io/v3/assets/bltee37abb6b278ab2c/blt424f1e71604af245/axspa-guideline-summary-2026.pdf).

@@ -47,7 +47,19 @@ sources: ["EAU RCC 2026 | https://uroweb.org/guidelines/renal-cell-carcinoma/cha
 - **전이 평가**: 흉부 CT 등 위험별 검사
   - 뼈 스캔은 일률적 병기검사로 시행하지 않고 관련 증상·검사 이상 시 고려
 
-**TNM 병기(AJCC 8판)**:
+**낭성 종괴(Bosniak v2019, 조영 CT 또는 MRI)**
+
+| 범주 | 핵심 영상 소견 |
+| --- | --- |
+| I / II | 얇고 매끈한 벽(≤2 mm)으로 단순 낭종 또는 소수(1–3개)의 얇은 격벽 등 양성 소견 |
+| IIF | 매끈하고 조영되는 벽/격벽 3 mm 또는 조영되는 얇은 격벽 ≥4개 등 |
+| III | 조영되는 두꺼운(≥4 mm) 또는 불규칙한 벽/격벽. 조영 결절은 없음 |
+| IV | 조영 결절이 있음 |
+
+- I/II는 보통 추적이 필요 없고, IIF는 6–12개월 내 재영상 후 안정 시 연 1회, 총 약 5년 추적을 고려.
+- III/IV는 비뇨의학과 평가. CUA 2023은 ≤2 cm 능동감시, >2–4 cm 감시 또는 수술, >4 cm 수술 우선을 제안. 기대여명·수술 위험과 신기능 고려.
+
+**TNM 병기(AJCC 8판)**
 
 | T분류 | 기준 |
 | --- | --- |
@@ -76,18 +88,24 @@ sources: ["EAU RCC 2026 | https://uroweb.org/guidelines/renal-cell-carcinoma/cha
 - **능동감시·소작술**: 작은 신종괴 + 고령·허약·높은 경쟁 사망위험이면 논의
   - 소작 전 생검, 성장·증상·공격적 조직 소견 시 중재 전환
 - **수술 후 보조 pembrolizumab**: clear-cell RCC의 KEYNOTE-564 해당 고위험군 검토
-  - pT2 G4/육종양, pT3·pT4, pN+, 제한 전이 완전 절제 후 M1 NED
+  - pT2 G4/육종양, pT3·pT4, pN+, 또는 신절제 시점부터 **1년 이내** 제한 전이까지 완전 절제한 M1 NED
+  - 적합하면 수술 후 회복과 재병기 평가 뒤 **최대 1년** 투여 검토
   - 모든 T1 완전 절제 환자에게 투여하지 않음
-- **전이성**: 조직형·IMDC·치료 가능성에 따라 ICI + VEGFR-TKI 또는 nivolumab + ipilimumab 등
+- **전이성 투명세포암**: **pembrolizumab + axitinib**, **nivolumab + cabozantinib** 등 ICI + VEGFR-TKI를 검토. **IMDC 중간·불량위험**은 nivolumab + ipilimumab도 선택 가능
+  - 비투명세포암은 조직형별로 결정. 유두상에서는 cabozantinib 등 검토
   - 전신 치료 필요 + 무증상 원발: 즉시 감축 신절제를 일률 시행하지 않음
   - IMDC 불량위험은 특히 피하고 약물 반응 후 재평가
 
 ## 6. 예후 및 합병증 (Prognosis)
 * **예후:** 병기에 따라 상이함. T1기 5년 생존율은 90% 이상이나, 원격 전이 시 예후가 불량함.
 
+Last updated :
+2026-05-19 — 본문 갱신 (codex fill)
+
 ## 출처
 - Merck Manual Professional
 - [EAU: RCC — diagnostic evaluation](https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/diagnostic-evaluation)
-
-Last updated :
-2026-05-19 — 본문 갱신 (codex fill)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 6장 400–409쪽.
+- [EAU 신세포암 치료](https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/disease-management)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 12장 748–751쪽.
+- [CUA 낭성 신종괴 지침, Bosniak v2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC10263289/).

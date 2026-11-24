@@ -27,15 +27,15 @@ sources: ["ESGE 비정맥류 출혈 지침 | https://doi.org/10.1055/s-0034-1393
 - **감별 진단**: 식도 전층 파열인 [[뵈르하브 증후군 (Boerhaave Syndrome)]]과 구분 필요
 
 ## 2. 임상 양상
-- **주요 증상**: 토혈, 흑색변
+- **증상**: 토혈, 흑색변
 - **선행 요인**: 심한 구역, 구토(주로 음주 후), 심한 기침
-- **신체 검사**: 상복부 압통 가능
+- **진찰**: 상복부 압통 가능. 저혈압·빈맥은 출혈량 평가, 피하기종·호흡곤란·발열이나 심한 흉통은 전층 파열 의심
 
 ## 3. 검사
 - **상부위장관 내시경(EGD)**: 위식도 접합부에 종축(longitudinal)으로 찢어진 점막 열상 확인
 
 ## 4. 진단
-- 토혈 및 흑색변 등 상부위장관 출혈 증상에 따른 진단적 접근으로 EGD 시행
+- 토혈·흑색변과 위식도 접합부 종축 점막 열상을 상부내시경으로 확인. 심한 흉통·쇼크와 전층 파열이 의심되면 조영 CT 및 외과 평가를 우선.
 
 ## 5. 치료
 - **초기 처치**: 혈역학 안정화, 필요 시 수혈·산 억제. 출혈이 멎고 안정적인 단순 열상은 보존 치료 가능
@@ -54,10 +54,11 @@ sources: ["ESGE 비정맥류 출혈 지침 | https://doi.org/10.1055/s-0034-1393
 - 진단: CXR, CT(종격동기종 및 염증 확인), 식도조영술(Gastrografin, barium)
 - 치료: 수술적 봉합 및 배액, 광범위 항생제 투여(파열이 작을 경우 보존적 치료 및 내시경적 clipping/stent 고려)
 
-## 출처
-- Merck Manual Professional, Harrison 22e
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional, Harrison 22e
+- SNUH Manual of Medicine 6판(2022), 소화기 6장, 256쪽. [ESGE 비정맥류 상부 출혈 지침](https://www.esge.com/endoscopic-diagnosis-and-management-of-nonvariceal-upper-gastrointestinal-hemorrhage-esge-update-2021).

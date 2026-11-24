@@ -40,17 +40,8 @@ sources: ["EASL AIH 지침 2025 | https://easlcampus.eu/sites/default/files/2025
   지속적인 염증은 계면 간염(interface hepatitis)을 거쳐 간경변증으로 이어짐.
 
 ## 2. 임상 양상 (Clinical Features)
-**CC**:
-
-  피로, 권태감, 식욕 부진, 황달, 복통, 관절통 등이 흔함.
-  약 25%는 무증상.
-  드물게 급성 간부전으로 발현하기도 함.
-  갑상선염, 류마티스 관절염, 궤양성 대장염 등 다른 자가면역 질환 동반 가능.
-
-**P/E**:
-
-  간비대(78%), 황달(69%)이 가장 흔한 신체 검진 소견.
-  진행된 경우 비장비대, 복수, 간성 뇌증 등 간경변증 징후가 나타날 수 있음.
+- **증상**: 무증상부터 피로, 식욕부진, 황달·복통·관절통까지 다양. 급성 간부전으로 발현할 수 있으며 갑상선염 등 자가면역질환 동반 가능
+- **진찰**: 간비대·황달, 진행 시 비장비대·복수·의식 변화
 
 ## 3. 검사 (Lab & Imaging)
 - **혈액 검사**: AST/ALT·IgG 중심의 감마글로불린 상승, ANA·SMA·anti-LKM1 등 자가항체
@@ -74,7 +65,7 @@ sources: ["EASL AIH 지침 2025 | https://easlcampus.eu/sites/default/files/2025
 - **판정**: 총점 **≥6 probable**, **≥7 definite AIH**
 - **해석**: 임상 증상·자가항체·IgG·생검을 종합하는 보조 도구
   - 급성 발현·약물 유발 자가면역 유사 간염·동반 간질환에서 신중히 해석
-  - PBC·PSC 소견이 있으면 단순 배제하지 않고 중첩 형태 평가
+  - **AIH–PBC 중첩**: 담즙정체·AMA·담관 손상과 함께 ALT **≥5×ULN**, IgG **≥2×ULN** 또는 SMA 양성, 조직상 계면 간염 등을 확인. 점수만으로 결정하지 않고 중등도 이상 계면 간염 또는 담관 소견을 병리로 평가.
 - **감별**: 바이러스 간염(A·B·C·D·E), 약물성 간염, 윌슨병·비알코올성 지방간염, PBC·PSC 등
 
 ## 5. 치료
@@ -82,7 +73,8 @@ sources: ["EASL AIH 지침 2025 | https://easlcampus.eu/sites/default/files/2025
 
 - **목표**: 증상 호전 + **AST/ALT·IgG 정상화**
 - **EASL 2025 초기 요법**: predniso(lo)ne **0.5–1 mg/kg/일 + azathioprine 또는 MMF 1.5–2 g/일**
-  - Azathioprine 전 혈구·TPMT/NUDT15 관련 위험·황달 정도 확인
+  - 아자티오프린(azathioprine)은 혈구·TPMT/NUDT15·황달 확인 후 선택. EASL은 빌리루빈 **<6 mg/dL**이면 스테로이드 시작 후 약 **2주**에 **50 mg/일**부터, 반응·독성에 따라 **1–2 mg/kg/일** 범위 검토.
+  - **급성 중증**: 뇌증 없는 급성 중증에서 스테로이드 반응을 조기에 확인하고, INR·빌리루빈이 호전되지 않거나 뇌증이 생기면 즉시 이식 평가. 중증 황달·비대상 상태에서 아자티오프린 도입은 보류·개별화.
   - MMF는 azathioprine 실패 후에만 사용하는 약이 아님. 국내 가용성과 임신·피임 조건 확인
   - 환자 상태에 따라 prednisone 단독 또는 병용을 선택하며 반응을 평가
 - **Budesonide**: 일반적 1차 요법이 아니며 **간경변에서 금기**(EASL 2025)
@@ -117,10 +109,11 @@ sources: ["EASL AIH 지침 2025 | https://easlcampus.eu/sites/default/files/2025
   간경변증, 간부전, 문맥 고혈압(식도 정맥류 출혈 등), 간세포암 등이 발생할 수 있음.
   임신 중에는 질환이 악화될 수 있으므로 최적의 상태에서 임신을 계획해야 함.
 
-## 출처
-- StatPearls (Autoimmune Hepatitis, Autoimmune Hepatitis and Pregnancy)
-- 삼성서울병원 메뉴얼.
-
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Autoimmune Hepatitis, Autoimmune Hepatitis and Pregnancy)
+- 삼성서울병원 메뉴얼.
+- SNUH Manual of Medicine 6판(2022), 소화기 17장, 316–318쪽. [EASL 자가면역 간염 지침(2025)](https://www.journal-of-hepatology.eu/article/S0168-8278%2825%2900173-4/fulltext).

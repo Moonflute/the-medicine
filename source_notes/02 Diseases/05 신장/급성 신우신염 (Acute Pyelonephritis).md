@@ -42,8 +42,8 @@ review_status: "guideline_enriched"
 - **원인균**: E. coli(가장 흔함), Klebsiella, Proteus, Pseudomonas, Enterococci, Staphylococci 등
 
 ## 2. 임상 양상
-- **주호소**: 고열(종종 39.4°C 이상), 오한, 옆구리 통증(flank pain), 갈비척추각 압통(CVAT)
-- **동반 증상**: 오심, 구토, 식욕부진, 배뇨통, 빈뇨, 절박뇨
+- **증상**: 발열·오한·옆구리 통증, 구역·구토. 배뇨통·빈뇨가 동반되거나 없을 수 있음.
+- **진찰**: 갈비척추각 압통, 탈수, 관류·의식 변화, 폐쇄·패혈증 단서.
 
 - **비전형 발현**: 소아는 발열·섭식장애, 고령자는 의식변화·섬망 가능
 
@@ -73,9 +73,10 @@ review_status: "guideline_enriched"
   - 중증: IV fluoroquinolone·3세대 cephalosporin·piperacillin-tazobactam·carbapenem 등을 위험에 맞춰 선택
   - 감염된 폐쇄 요로: 항생제와 함께 긴급 배액을 비뇨기과와 상의
 - **임신**: 3세대 cephalosporin 등 안전한 약제, fluoroquinolone·tetracycline 회피
-- **피할 약제**: nitrofurantoin은 신장 조직 침투가 낮아 신우신염 치료에 사용하지 않음
+- **피할 약제**: 니트로푸란토인(nitrofurantoin)·경구 포스포마이신(fosfomycin)은 신장 실질 감염 치료용으로 사용하지 않음.
 - **반응·전환**
-  - 배양/감수성·임상 반응으로 좁은 범위 약제 선택, 총 기간 개별화
+  - 배양/감수성·반응에 맞춰 좁은 범위로 전환. 호전되는 성인에서 유효 항생제 시작일 기준 fluoroquinolone **5–7일**, 다른 계열 **7일**을 고려(IDSA 2025). 약제별 근거·흡수/조직 농도를 확인.
+  - 임신, 배액되지 않은 폐쇄·농양, 중증 패혈증·면역저하, 전립선염 의심은 별도 기준 및 임상 반응에 따라 기간 연장 검토.
   - 경구 가능 + 임상 호전 + 감수성 약제 확보: 정주에서 경구로 전환
   - 48–72시간에도 발열 지속·악화: 폐쇄·농양 영상 재평가
 
@@ -84,10 +85,12 @@ review_status: "guideline_enriched"
 - 기종성 신우신염: 당뇨 환자 등에서 가스 생성균 감염, 예후 불량. 긴급 항생제·배액을 평가하고 병변 범위와 반응에 따라 신절제 검토.
 - 기타: 패혈증, 쇼크, 신장 유두괴사, 영구적 신장 손상.
 
-## 출처
-- StatPearls (Acute Pyelonephritis)
-
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Acute Pyelonephritis)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 11장 741–747쪽.
+- [IDSA 복합 요로감염 2025](https://www.idsociety.org/practice-guideline/complicated-urinary-tract-infections), [EAU 요로감염 2026](https://uroweb.org/guidelines/urological-infections/chapter/the-guideline).

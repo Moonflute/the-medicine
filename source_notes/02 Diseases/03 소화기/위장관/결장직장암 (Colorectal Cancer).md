@@ -38,21 +38,23 @@ content_updated_at: "2026-11-18"
   - 유전성 비용종성 대장암(HNPCC, Lynch syndrome): DNA mismatch repair 유전자(hMSH2, hMLH1 등) 손상, MSI 발생, 근위부 결장에 호발, 난소·자궁·위암 동반 가능
 
 ## 2. 임상 양상
-- 일반적 증상: 혈변, 배변 습관의 변화, 복부 종괴, 체중 감소, 피로, 빈혈
+- **증상**: 혈변, 배변 습관 변화, 체중 감소·피로. 위치에 따라 빈혈이나 장폐색으로 발현.
 
 **위치별 특징**
 
   - 근위부(맹장, 상행결장): 빈혈, 대변 잠혈, 피로(대변이 액체 상태라 폐쇄 증상이 늦게 나타남)
   - 원위부(하행결장, S상결장, 직장): 변비, 복통, 혈변, 잔변감, 가는 변(대변이 단단해져 폐쇄 증상 빈번)
-- 신체검사: 직장수지검사(DRE)로 종괴 확인, 직장 선반(rectal shelf, 복막 전이 시 직장-방광/자궁와에 만져지는 종괴) 확인
+- **진찰**: 직장수지검사(DRE)로 종괴 확인, 직장 선반(rectal shelf, 복막 전이 시 직장-방광/자궁와에 만져지는 종괴) 확인
 
 ## 3. 검사
-- **선별검사 대상**: 평균 위험군 45–75세, 기대여명 10년 이상에서 권고 (ACS 2026)
+- **국내 국가암검진**: **50세 이상** 남녀 대상 매년 분변잠혈검사, 양성이면 대장내시경.
+- **미국 ACS 2026 선별 권고**: 평균 위험군 45–75세, 기대여명 10년 이상에서 권고
   - **대장내시경**: 10년 주기, 표준 검사
   - **분변 검사**: 고감도 FIT 또는 구아이아크 기반 잠혈검사는 매년, 차세대 다중표적 분변 DNA(mt-sDNA)·RNA(mt-sRNA) 검사는 3년 주기
   - **혈액 검사**: 선호되는 선별검사를 거부하거나 완료하지 못할 때만 고려
   - 비대장내시경 검사 양성 시 **6개월 이내 대장내시경**으로 확진·후속 조치
-- **진단·병기 검사**: 대장내시경·조직검사, 복부/흉부/골반 CT, MRI, PET, 내시경초음파(EUS)
+- **진단·병기**: 대장내시경·생검, 흉부/복부/골반 CT. 직장암은 고해상도 골반 MRI, 간전이 감별·절제 계획에는 간 MRI. PET는 추가 정보가 근치 치료를 바꿀 때 선택.
+- **종양 MMR/MSI**: 새 결장직장암에서 선별해 Lynch 가능성, 보조치료 및 면역항암제 선택에 반영.
 - **CEA**: 수술 전후·재발 추적용, 선별검사로 사용하지 않음
 
 ## 4. 진단
@@ -86,6 +88,7 @@ content_updated_at: "2026-11-18"
   - 유경성 용종의 고위험 소견: 저분화, 림프혈관 침윤 또는 **종양과 절제연 간 거리 ≤1 mm**
   - 고위험 소견·불완전 절제 시 추가 종양학적 수술을 평가. '점막하층 1/3'만으로 모든 형태의 수술 여부를 정하지 않음
 - **결장암**: 광범위 절제·림프절 곽청 후 III기 및 고위험 II기에서 보조항암 평가
+  - **III기 보조항암**: 적합하면 FOLFOX(5-FU·류코보린·옥살리플라틴) 또는 CAPOX(카페시타빈·옥살리플라틴). **T1–3 N1**은 3개월 CAPOX 등을 검토, **T4 또는 N2**는 6개월을 우선 평가. 신경병증·신기능·치료 내약성 반영.
   - **II기 T4**: 보조항암 적극 권고
   - **II기 추가 위험요인**: 검사 림프절 <12개, 림프혈관/신경 침범, 장폐쇄·천공, 저분화 또는 고등급 tumor budding
   - 위험요인 없는 II기: 일상적인 보조항암 시행하지 않음
@@ -96,8 +99,10 @@ content_updated_at: "2026-11-18"
   - 일부 저위험은 선행 방사선 생략 검토, dMMR/MSI-H는 면역치료 가능성 별도 평가
 - **전이성 대장암(Stage IV)**: 다학제에서 전신치료와 완전 절제·국소치료 가능성 평가
   - 항암제: 5-FU, capecitabine, irinotecan, oxaliplatin 등. 표적치료제: bevacizumab, cetuximab 등
-  - **MSI-H/dMMR**: 면역치료 우선 평가
-  - **MSS/pMMR**: RAS/BRAF 등 분자형과 원발 위치 반영. Cetuximab/panitumumab은 RAS wild-type 확인
+  - **MSI-H/dMMR**: pembrolizumab 또는 nivolumab + ipilimumab 등 1차 면역치료 평가
+  - **MSS/pMMR, 좌측 원발 + RAS wild-type**: cetuximab/panitumumab + 이중 항암요법 검토. 우측 원발이나 RAS 변이는 보통 bevacizumab 기반 병용 검토
+  - **BRAF V600E**: 미국 FDA 2026의 encorafenib + cetuximab + fluorouracil 기반 항암요법을 1차 선택지로 검토. 국내 허가·급여 확인
+  - **진행 후**: 이전 oxaliplatin·irinotecan 노출, RAS/BRAF·HER2 등 분자 결과에 따라 다른 골격과 표적치료 선택
   - 간·폐 전이가 있어도 완전 절제/국소치료가 가능하면 전신치료만으로 고정하지 않고 재평가
 - **악성 대장폐색**: 천공 없는 안정적 좌측 폐쇄에서 스텐트를 수술 가교·완화 목적으로 선별 사용
   - 응급 절제·장루와 비교해 치료 목표·천공 위험·기관 시술 경험 고려
@@ -107,10 +112,14 @@ content_updated_at: "2026-11-18"
 - 합병증: 장폐색, 천공, 출혈, 전이
 - **추적 관찰**: 수술 후 1년 내 대장내시경, 이후 3년·5년 주기. CEA와 CT/MRI로 재발 확인
 
-## 출처
-- Colorectal cancer screening: An update to the American Cancer Society guideline, 2026; [USMSTF 악성 대장 용종 관리 권고 2020](https://gastro.org/clinical-guidance/endoscopic-recognition-and-management-strategies-for-malignant-colorectal-polyps/).
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Colorectal cancer screening: An update to the American Cancer Society guideline, 2026; [USMSTF 악성 대장 용종 관리 권고 2020](https://gastro.org/clinical-guidance/endoscopic-recognition-and-management-strategies-for-malignant-colorectal-polyps/).
+- SNUH Manual of Medicine 6판(2022), 소화기 10장, 275–279쪽. [한국 결장암 진료지침](https://doi.org/10.3393/ac.2024.00059.0008), [ASCO 3기 보조항암 기간](https://doi.org/10.1200/JCO.19.00281), [국가암검진](https://cancer.go.kr/lay1/S1T261C262/contents.do).
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 6장 400–409쪽.
+- [FDA MSI-H/dMMR의 nivolumab + ipilimumab](https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-ipilimumab-unresectable-or-metastatic-msi-h-or-dmmr-colorectal-cancer)
+- [FDA BRAF V600E의 encorafenib 병합](https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-encorafenib-metastatic-colorectal-cancer-braf-v600e-mutation)

@@ -32,8 +32,8 @@ content_updated_at: "2026-11-17"
 - **기전**: 사구체 벽 손상 → Bowman 주머니 내 단백질/세포 유출 → 반월체·사구체 파괴
 
 ## 2. 임상 양상 (Clinical Features)
-- **CC**: 쇠약·피로·발열·오심/구토·식욕부진·관절통, 혈뇨 및 진행 시 핍뇨
-- **P/E**: 부종, 고혈압은 드물 수 있음. 폐출혈 시 객혈 가능(anti-GBM 등)
+- **증상**: 혈뇨·핍뇨, 피로·발열·식욕저하·관절통. 객혈·호흡곤란은 폐포출혈 단서.
+- **진찰**: 부종·혈압 상승, 산소저하·폐수포음, 자반·비강 병변 및 신경 이상 확인.
 
 ## 3. 검사 (Lab & Imaging)
 - **혈액 검사**: 혈청 크레아티닌, ANCA, Anti-GBM 항체, 항핵항체(ANA), 보체(C3, C4) 수치 확인.
@@ -59,8 +59,9 @@ content_updated_at: "2026-11-17"
   - 혈액/소변·보체·ANCA·anti-GBM 채취, 가능하면 생검
   - 장기위협 폐신증후군은 검사 결과만 기다리며 치료를 지연하지 않음
 - **원인별 유도치료**
-  - ANCA 혈관염: glucocorticoid + rituximab 또는 cyclophosphamide
-  - Anti-GBM: glucocorticoid + cyclophosphamide + 혈장교환 긴급 검토
+  - **ANCA 혈관염**: glucocorticoid + 리툭시맙(rituximab) 또는 사이클로포스파미드(cyclophosphamide). 재발·PR3 양성·생식독성 우려는 리툭시맙을 선호. Cr >4 mg/dL의 중증 신장 침범은 cyclophosphamide 또는 리툭시맙과의 병합을 고려.
+  - **Anti-GBM**: glucocorticoid + cyclophosphamide + 혈장교환을 긴급 검토. 혈장교환은 항체가 검출되지 않을 때까지 시행하는 것이 원칙.
+    - 내원 시 투석 의존이고 충분한 생검에서 100% 반월체 또는 >50% 전반성 사구체경화, 폐출혈이 없는 경우는 회복 가능성과 치료 위해를 고려해 면역치료 보류를 검토.
   - 감염성 사구체염·루푸스 등: 각 원인별 경로·KDIGO 지침 적용
 - **ANCA의 혈장교환 고려 조건**
   - Cr >3.4 mg/dL, 투석 필요 또는 빠른 Cr 상승
@@ -77,9 +78,11 @@ content_updated_at: "2026-11-17"
 - 조기 치료 시 예후 개선 가능
 - 고령, 핍뇨성 신부전, 광범위한 반월체 형성 시 예후 불량
 
-## 출처
-- Merck Manual Professional (RPGN); 삼성서울병원 메뉴얼
-
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (RPGN); 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 10장 724–740쪽.
+- [KDIGO ANCA 혈관염 2024](https://kdigo.org/guidelines/anca-associated-vasculitis/), [KDIGO 사구체질환 지침, anti-GBM](https://kdigo.org/guidelines/gd/).

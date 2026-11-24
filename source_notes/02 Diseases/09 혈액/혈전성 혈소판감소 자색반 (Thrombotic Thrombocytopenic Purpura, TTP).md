@@ -47,15 +47,16 @@ sources: ["ISTH 2025 TTP 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC13470
 ## 5. 치료
 **초기 치료·면역성 TTP**
 
-- **높은 임상 가능성**: 혈액내과와 협진하여 결과를 기다리지 않고 TPE + 고용량 steroid 시작
+- **높은 임상 가능성**: ADAMTS13 활성·억제 항체 검체를 첫 혈장 투여·TPE 전에 채취하고, 결과를 기다리지 않고 혈액내과와 **TPE + 고용량 steroid** 시작
 - **추가 치료**: rituximab으로 자가항체 억제 고려, caplacizumab 추가 평가
-  - 혈소판이 회복돼도 ADAMTS13 저활성이 지속되면 caplacizumab 종료 시점을 신중히 판단
+  - Caplacizumab: 매일 TPE와 함께 시작하고 마지막 교환 후 보통 **30일** 지속. ADAMTS13 저활성이 지속되면 연장·출혈 위험 평가
   - 면역치료 병행
 
 **선천성 TTP**
 
 - **관해기 예방(ISTH 2025)**: recombinant ADAMTS13을 혈장 주입보다 우선 권고
-- Rituximab·steroid를 일률적으로 적용하지 않음
+- **Recombinant ADAMTS13 추적**: 2026 FDA 경고에 따라 예상 활성 회복이 없거나 적정량에도 재악화하면 중화항체를 검사하고 대체 치료 협의
+- Rituximab·steroid는 면역성 TTP에서 사용
 
 **공통 관리**
 
@@ -73,3 +74,6 @@ Last updated :
 
 ## 출처
 - 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 9장 426–433쪽.
+- [ISTH TTP 지침 개정 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC13470878/)
+- [FDA recombinant ADAMTS13 중화항체 경고 2026](https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-takes-action-new-boxed-warning-adzynma-enzyme-replacement-therapy-congenital-thrombotic)

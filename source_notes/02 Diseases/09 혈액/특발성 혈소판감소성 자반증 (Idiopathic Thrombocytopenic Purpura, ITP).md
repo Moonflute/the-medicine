@@ -53,12 +53,13 @@ sources: ["ASH 2019 치료 시작·입원 기준 | https://pmc.ncbi.nlm.nih.gov/
 - **치료가 필요한 성인 원발성 ITP**: 짧은 스테로이드 + rituximab 또는 혈소판생성 촉진제 병용을 조건부 제안
   - 접근성·독성·환자 선호 반영
   - 진단이 불확실하면 **≤2주 steroid ± IVIG** 반응을 먼저 평가 가능
-- **스테로이드 기간**: 총 노출 **≤6주**를 목표로 제한
+- **스테로이드 예**: dexamethasone **40 mg/일 × 4일** 또는 prednisolone **0.5–2 mg/kg/일**. 감량을 포함한 총 노출을 보통 **≤6주**로 제한
 
 **응급 출혈**
 
 - **생명 위협 출혈**: 두개강내 출혈·대량출혈 등은 혈소판 수치와 무관하게 입원 치료
-  - IVIG + 고용량 steroid, 필요한 혈소판 수혈·국소 지혈을 즉시 병행
+  - 고용량 IV steroid + **IVIG 1 g/kg**(필요 시 다음 날 반복) + 혈소판 수혈·출혈원 조절을 신속히 병행
+  - 혈액내과와 조기 romiplostim 등 TPO-RA 및 tranexamic acid 병용 검토. 출혈 위치와 혈전·약제 금기를 반영
   - 혈소판 **≤5,000/μL**만을 응급 병용요법의 유일한 기준으로 삼지 않음
 
 **추가 치료**
@@ -73,10 +74,13 @@ sources: ["ASH 2019 치료 시작·입원 기준 | https://pmc.ncbi.nlm.nih.gov/
 - **경과**: 소아는 대부분 자연 회복, 성인은 만성화 경향
 - **주요 합병증**: 뇌출혈 등 심각한 출혈
 
-## 출처
-- Merck Manual Professional
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 9장 426–433쪽.
+- [ASH 성인 ITP 초치료·2차 치료 2026](https://pubmed.ncbi.nlm.nih.gov/42617047/)
+- [중증 ITP 응급 출혈 지침 2026](https://doi.org/10.1182/bloodadvances.2025018818)

@@ -37,11 +37,11 @@ review_status: "guideline_enriched"
 
 ## 3. 검사
 - **혈액**: 대개 정상, 다른 질환 감별 시 시행
-- **X-ray**: 비대칭 관절강 협소, 변연부 골극, 연골하 골경화·낭종
+- **X-ray**: 필요 시 체중부하 무릎 영상에서 관절강 협소와 변연 골극, 연골하 경화·낭종을 평가.
 - **관절액**: 투명·높은 점도의 비염증성 소견, **WBC ≤2,000/mm³**
 
 ## 4. 진단
-- **진단**: 고령 환자의 서서히 진행하는 관절통과 특징적 X-ray 소견 종합
+- **임상 진단**: ≥45세, 활동과 연관되는 관절통, 조조강직 없음 또는 ≤30분이면 전형적으로 임상 진단. 급격한 악화·뜨겁고 부은 관절·외상 등 비전형 소견은 영상/관절액 등 추가 평가.
 - **해석**: 증상 정도와 영상 소견의 불일치가 흔함
 
 ## 5. 치료
@@ -64,17 +64,19 @@ review_status: "guideline_enriched"
   - Glucosamine·chondroitin: 손을 포함한 OA에서 강하게 반대
   - 무릎·고관절 PRP·줄기세포 주사: 강하게 반대
   - Opioid·관절내 hyaluronic acid: 조건부 반대
-- **수술**: 적절한 보존적 치료에도 통증·기능장애 지속 시 관절치환술 상담
+- **수술**: 운동·체중·약물 등 적절한 보존적 치료에도 통증·기능장애가 삶을 크게 제한하면 치환술 의뢰. 영상 단계·연령·BMI만으로 일률 배제하지 않음.
 
 ## 6. 예후 및 합병증
 - **예후**: 질병의 진행을 근본적으로 멈추는 방법은 없으며, 통증 완화와 기능 유지가 치료의 주된 목적이다.
 - **합병증**: 관절 변형, 운동 범위 제한, 관절 불안정성, 척추 침범 시 신경학적 증상(척추관 협착증 등)이 발생할 수 있다.
-
-## 출처
-- Merck Manual Professional (Osteoarthritis)
 
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Osteoarthritis)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 류마티스 3장 846–848쪽.
+- [NICE 골관절염 NG226](https://www.nice.org.uk/guidance/ng226/chapter/Recommendations), [ACR 골관절염 2026 공식 요약](https://rheumatology.org/osteoarthritis-guideline).

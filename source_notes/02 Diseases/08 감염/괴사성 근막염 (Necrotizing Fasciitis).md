@@ -47,7 +47,8 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 - **수술**: 즉시 탐색·괴사조직 절제, 필요 시 반복 수술
 - **경험적 항생제**: MRSA·그람음성·혐기균을 포함하는 IV 병합
   - 예: **(vancomycin 또는 linezolid) + (piperacillin/tazobactam 또는 carbapenem)**
-- **표적화**: 배양 결과에 따라 조정. GAS 확인 시 **penicillin + clindamycin** 검토
+- **표적화**: 수술 심부 검체·혈액배양에 따라 축소. A군 사슬알균 확인 시 **페니실린 G(penicillin G) + 클린다마이신(clindamycin)**으로 치료와 독소 억제.
+- **치료 종료 판단**: 추가 괴사조직 절제가 불필요하고 임상 호전 및 48–72시간 무열일 때 검토. 균혈증·골수염은 별도 기간.
 - **쇼크·장기 지지**: 수액·혈압 유지, 중환자실 혈역학/호흡 모니터링
   - 필요 시 승압제·산소·기계환기
 - **재평가**: 반복 수술 시 괴사 진행·감염원 조절 확인, 당뇨·면역저하 등 위험인자 관리
@@ -56,9 +57,11 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 - 사망률이 20~80%로 매우 높다.
   패혈증, 다발성 장기 부전, 사지 절단, 심각한 흉터 등의 합병증이 발생할 수 있다.
 
-## 출처
-- StatPearls (Necrotizing Fasciitis); 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Necrotizing Fasciitis); 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 감염 3장 769–773쪽.
+- [IDSA 피부·연조직 감염 지침](https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/).

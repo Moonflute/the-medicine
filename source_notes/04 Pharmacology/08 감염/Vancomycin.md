@@ -36,12 +36,12 @@ review_status: draft
 ## 임상 정보
 - MRSA bacteremia, endocarditis, osteomyelitis, hospital-acquired pneumonia, severe skin/soft tissue infection에서 핵심 약물입니다.
 - 경구 vancomycin은 전신 흡수를 기대하지 않으며, C. difficile colitis 치료 목적으로만 사용합니다.
-- 현재는 trough 단독보다 AUC/MIC 기반 모니터링 개념이 더 중요합니다.
+- **중증 MRSA 정주 치료**: MIC 1 mg/L를 가정하면 24시간 AUC 목표 **400–600 mg·h/L**. 가능한 24–48시간 내 평가하며 trough 15–20 mg/L만을 목표로 하지 않습니다.
 
 #### 용법/용량
 - 전신 감염에서는 보통 `15-20 mg/kg IV q8-12h`로 시작합니다.
 - loading dose는 중증 감염에서 실제 체중 기준으로 더 높게 사용할 수 있습니다.
-- infusion-related reaction 예방을 위해 충분히 천천히 주입합니다.
+- **주입 반응 예방**: 제품 기준의 속도를 확인하고 60분 이상 천천히 정주합니다. 고용량은 더 오래 주입합니다.
 - 신기능에 따라 투여 간격과 유지 용량을 조절합니다.
 - 경구 제형은 C. difficile infection 치료에 적응증별 용량을 따릅니다.
 
@@ -83,3 +83,5 @@ review_status: draft
 ## 출처
 - openFDA / 공식 vancomycin label 계열 자료.
 - MRSA 중증 감염과 C. difficile 치료의 일반적 임상 운용 원칙을 반영함.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 감염 8장 795–805쪽.
+- [ASHP·IDSA·PIDS·SIDP 중증 MRSA 반코마이신 TDM 합의](https://academic.oup.com/ajhp/article/77/11/835/5810200).

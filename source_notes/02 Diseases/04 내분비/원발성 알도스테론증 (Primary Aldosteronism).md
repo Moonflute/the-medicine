@@ -46,7 +46,8 @@ sources: ["2023 Korean Endocrine Society Consensus Guidelines for the Diagnosis 
 ## 3. 검사
 - **선별 대상**: 모든 고혈압 환자에서 PA 선별 조건부 제안, 자원·실행 가능성 고려 (Endocrine Society 2025)
 - **검사**: aldosterone + renin(PRA 또는 농도), ARR·K
-  - 절대 aldosterone·renin 억제와 검사실 단위/절단값 함께 해석, 비율 단독 확진/배제 불가
+  - **선별 양성의 예**: PRA **≤1 ng/mL/h**와 aldosterone **≥10 ng/dL**(면역검사), **ARR >20**(ng/dL ÷ ng/mL/h). LC-MS/MS는 aldosterone 약 **≥7.5 ng/dL**부터 고려하며 ARR 절단값도 다름
+  - 오전 앉은 자세, 염분 제한 없이 채혈. 저칼륨은 알도스테론을 낮출 수 있으므로 교정 후 필요 시 재검
 - **전제**: 저K 교정, 혈압약·염분·자세·채혈시간·신기능 영향 기록
   - 약 중단/대체는 안전한 경우만 계획, 위험한 고혈압에서 일률 중단하지 않음
 - **확인 검사**: 임상 확률·수술 계획·심장/신장 위험에 따라 반복 ARR·억제검사 선택
@@ -55,7 +56,19 @@ sources: ["2023 Korean Endocrine Society Consensus Guidelines for the Diagnosis 
   - CT 결절만으로 분비의 일측성 단정하지 않음
 
 ## 4. 진단
-- 고혈압 환자에서 저칼륨혈증이 동반된 경우 의심(단, 정상 칼륨 수치인 경우도 많음)
+- **고혈압 + 억제된 레닌 + 부적절한 알도스테론 증가**. 정상 K여도 흔히 발생
+
+```flowchart
+원발성 알도스테론증의 진단과 치료 선택
+> 고혈압 → 알도스테론·레닌·K 확인
+>> 음성이나 저칼륨·저항성 등 의심이 높음 → 약물·K 교정 후 반복
+>> 양성, 수술을 원하지 않거나 부적합 → MRA 치료 검토
+>> 양성, 수술을 원하고 적합 → 필요 시 억제검사 후 부신 CT·AVS
+>>> 일측 분비 → 일측 부신절제
+>>> 양측 또는 측성 불명 → MRA
+```
+
+- 중증 저레닌·뚜렷한 알도스테론 과다에서는 억제검사를 생략할 수 있음. **<35세**, 뚜렷한 저K·알도스테론 과다, **>1 cm 일측 선종**이 일치하는 일부는 AVS 생략 검토
 
 **감별 진단:**
 
@@ -63,9 +76,9 @@ sources: ["2023 Korean Endocrine Society Consensus Guidelines for the Diagnosis 
 - 레닌 및 알도스테론 감소: 쿠싱 증후군, Liddle 증후군, 감초 섭취 등
 
 ## 5. 치료
-- **일측성 기능 분비·수술 적합/희망**: 복강경 부신절제, 완치 가능성 높음. 대부분 후보에서 AVS로 확인
+- **일측성 기능 분비·수술 적합/희망**: 복강경 부신절제. K와 혈압은 흔히 호전되며 일부는 항고혈압제가 계속 필요. 대부분 수술 후보에서 AVS로 확인
 - **양측성·측성 불명확·수술 비선호/부적합**: MRA
-  - Spironolactone 우선, 여성형유방 등 성호르몬 부작용 시 eplerenone
+  - 스피로놀락톤(spironolactone) **12.5–25 mg/일**부터 시작하고 혈압·K·신기능에 따라 증량. 성호르몬 관련 부작용 시 에플레레논(eplerenone) 고려
   - K·신기능·혈압 감시, **혈압 미조절 + renin 억제 지속**이면 증량 검토
 - **기타 약제**: amiloride 등 칼륨 보존제
 - **GRA**: glucocorticoid 치료
@@ -81,3 +94,5 @@ Last updated :
 
 ## 출처
 - 삼성서울병원 메뉴얼; [Endocrine Society PA 지침 2025](https://doi.org/10.1210/clinem/dgaf284).
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 17장 560–566쪽.
+- [Endocrine Society 2025 원발성 알도스테론증](https://www.endocrine.org/clinical-practice-guidelines/primary-aldosteronism-2)

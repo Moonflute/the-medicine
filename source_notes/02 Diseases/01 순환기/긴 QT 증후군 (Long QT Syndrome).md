@@ -37,13 +37,8 @@ content_updated_at: "2026-11-18"
   조기 후탈분극(early afterdepolarization)이 발생하여 TdP 유발
 
 ## 2. 임상 양상 (Clinical Features)
-**CC**:
-
-  대부분 무증상
-  TdP 발생 시 두근거림, 실신, 경련(간질로 오인 가능)
-  심실세동으로 진행 시 급사 가능
-
-* **P/E**: 특이 소견 없음.
+- **증상**: 무증상 또는 두근거림·실신·경련. 심실세동으로 진행하면 급사 가능
+- **진찰**: 발작 사이에는 대개 정상. 사건 중 맥박·관류를 확인
 
 ## 3. 검사 (Lab & Imaging)
 - **12유도 ECG**: 보정 QT 간격(QTc) 연장을 반복 확인
@@ -54,8 +49,8 @@ content_updated_at: "2026-11-18"
   - 임상적 LQTS에서는 유전상담·검사 고려
 
 ## 4. 진단 (Diagnosis)
-- 심전도상 QTc 연장, 임상 증상, 가족력을 종합하여 진단
-- Schwartz 점수 체계로 진단 확률 평가
+- **선천성 LQTS 기준**: 이차 원인을 배제한 뒤 반복 12유도 ECG의 **QTc ≥480 ms** 또는 **Schwartz 점수 >3**이면 진단 근거. 적합한 병원성 변이도 진단 근거
+- 부정맥성 실신·심정지나 급사 가족력이 있으면 경계 QTc라도 전문 평가
 - 원인 불명의 심정지나 실신 환자에서 감별 필요
 
 ## 5. 치료 (Treatment)
@@ -75,6 +70,10 @@ content_updated_at: "2026-11-18"
 ## 6. 예후 및 합병증 (Prognosis)
 - 적절한 치료를 받지 않으면 TdP 및 급사 위험 증가
 - 가족 내 선별 검사(cascade screening) 중요
+
+## 출처
+- SNUH Manual of Medicine 6판(2022), 순환기 7–8장, 139·159–160쪽. QT 보정·심실성 부정맥 위험.
+- [ESC 심실성 부정맥 및 심장돌연사 예방 지침](https://academic.oup.com/eurheartj/article/43/40/3997/6675633)
 
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)

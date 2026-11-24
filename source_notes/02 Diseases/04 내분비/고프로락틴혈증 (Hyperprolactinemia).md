@@ -52,7 +52,8 @@ sources: ["Pituitary Society 국제 합의 2023 | https://www.nature.com/article
 ## 4. 진단
 **진단 기준**:
 
-고프로락틴혈증은 검사실 정상 상한을 넘는 PRL 상승을 확인하는 것이며, 모든 경우 MRI상 종양이 있는 것은 아니다. 경미한 상승은 채혈 스트레스·macroprolactin 등을 확인한다.
+- **기준**: PRL이 검사실 정상 상한 초과. 경미하면 채혈 스트레스·임신·운동·약물 영향을 확인하고 재측정
+- 무증상 경도 상승은 macroprolactin을, 큰 종괴에 비해 값이 낮으면 **희석검사로 hook effect**를 확인. 원인 불명 지속 상승은 뇌하수체 MRI
 
 - **감별진단**: 약물, 임신, 갑상샘기능저하증, 신부전, 간경화, 뇌하수체 줄기 압박 병변 배제
 
@@ -70,12 +71,14 @@ sources: ["Pituitary Society 국제 합의 2023 | https://www.nature.com/article
 - **임신 관련**: 미세선종은 임신 중 종양 성장 위험이 낮으나, 거대선종은 주의 필요
 - **합병증**: 골다공증, 불임, 종괴 효과에 의한 시력 저하 및 뇌하수체 기능 저하
 
-## 출처
-- StatPearls, Hyperprolactinemia (2025)
-
 Last updated :
 2024-07-30 — 초기 작성
 2026-04-27 : 본문 갱신 (processed, openevidence)
 2026-05-03 : 본문 갱신 (processed)
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls, Hyperprolactinemia (2025)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 14장 544–550쪽.
+- [Pituitary Society 2023 프로락틴종](https://doi.org/10.1038/s41574-023-00886-5)

@@ -23,8 +23,8 @@ sources: ["CDC PSGN | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/po
 - **기전**: 항원-항체 복합체 침착 또는 사구체 내 항원 결합 → 보체 활성·염증
 
 ## 2. 임상 양상 (Clinical Features)
-- **CC**: 감염 후 1–3주(피부는 3–6주)에 콜라색/적갈색 혈뇨
-- **P/E**: 안면 중심 부종·고혈압·체중 증가·핍뇨
+- **증상**: 인두염 후 약 10일 또는 피부 감염 후 수주에 콜라색 혈뇨·핍뇨·체중 증가. 감염과 거의 동시에 혈뇨가 생기면 IgAN 감별.
+- **진찰**: 안검 부종·고혈압. 심하면 폐부종·고혈압성 뇌병증 평가.
 
 ## 3. 검사 (Lab & Imaging)
 - 소변검사: 혈뇨(적혈구 원주), 단백뇨.
@@ -46,7 +46,7 @@ sources: ["CDC PSGN | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/po
 
 ## 5. 치료
 - **지지 치료**: 염분/수분·이뇨제·항고혈압제로 부종/혈압 관리, 전해질·신기능 추적
-- **항생제**: 잔존 GAS 제거·전파 감소 목적
+- **항생제**: 잔존 GAS 제거·전파 감소를 위해 페니실린(penicillin) 계열 사용. 알레르기와 이전 치료 확인.
   - 이미 생긴 면역매개 신염을 항생제만으로 되돌리는 것은 아님, 면역억제는 통상 사용하지 않음
 - **중증**: 요독증·불응성 고혈압·폐부종 → 즉시 신장전문의, 투석 필요성 평가
 - **추적**: C3·혈뇨·단백뇨·Cr 회복
@@ -56,9 +56,11 @@ sources: ["CDC PSGN | https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/po
 - 소아의 경우 대부분 2주 내 자연치유.
 - 현미경적 혈뇨는 수개월에서 1년까지 지속될 수 있음.
 
-## 출처
-- Merck Manual Professional; [CDC — PSGN](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html)
-
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional; [CDC — PSGN](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 10장 724–740쪽.
+- [CDC 연쇄상구균 감염 후 사구체신염](https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/post-streptococcal-glomerulonephritis.html).

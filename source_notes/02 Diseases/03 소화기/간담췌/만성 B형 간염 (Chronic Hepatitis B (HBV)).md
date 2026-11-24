@@ -110,7 +110,8 @@ content_updated_at: "2026-11-15"
 **치료 시작과 약제 선택**
 
 - **목표**: HBV 증식·염증 억제, 섬유화·간경변·간세포암 예방과 생존율 향상
-- **경구 핵산유사체**: 1차 약제는 tenofovir(TDF·TAF) 또는 entecavir
+- **경구 핵산유사체**: 초치료 성인의 대표 용량은 엔테카비르(entecavir) **0.5 mg/일**, 테노포비르 디소프록실(TDF) **300 mg/일**, 테노포비르 알라페나미드(TAF) **25 mg/일**. 신기능·기존 내성·간기능에 따라 조정.
+  - TDF 사용 시 eGFR·인·요단백/당 및 골 위험 확인. 신장·골 위험이 크면 TAF 또는 엔테카비르 등 대안을 평가.
   - 복용이 편하고 억제 효과가 강하지만 장기 복용이 필요한 경우가 많음
   - DNA 억제만으로 임의 중단하지 않음
 - **Peginterferon alfa-2a**: 선택된 대상성 성인에서 **48주** 치료 고려
@@ -161,7 +162,7 @@ content_updated_at: "2026-11-15"
 **주산기·이식 후 재발·재활성화 예방**
 
 - **HBsAg 양성 산모의 신생아**: 출생 직후 가급적 **12시간 이내 HBIG + 백신**을 서로 다른 부위에 투여, 이후 접종·항원·항체 추적 완료
-  - 산모 HBV DNA **≥200,000 IU/mL**이면 전파 감소 목적의 항바이러스 예방 별도 평가
+  - 산모 HBV DNA **≥200,000 IU/mL**이면 **임신 24–32주**에 TDF **300 mg/일** 또는 TAF **25 mg/일** 시작 검토. 수직감염 예방 목적이면 출산 후 **2–12주**에 지속 여부를 결정. 산모 자체 치료 적응증이 있으면 계속하며, 중단 시 산후 ALT·HBV DNA 상승을 추적.
   - 산모 치료는 신생아 예방접종을 대체하지 않음
 - **HBV 관련 간이식 후**: 강력한 경구 핵산유사체 기반 재발 예방 지속
   - HBIG 병합·기간은 이식 전 DNA, 간암·HDV/HIV 동반, 복약 이행·재발 위험에 따라 이식팀 결정
@@ -188,12 +189,13 @@ content_updated_at: "2026-11-15"
 
 HBV/HDV 동반 감염은 임상 경과를 악화시킬 수 있어 별도의 HDV 치료 평가가 필요하다. Peg-interferon-α의 사용 가능성은 간기능과 금기 등을 확인하여 판단하며, 비대상성 간경변에서는 사용하지 않는다.
 
-## 출처
-- Merck Manual Professional (Neonatal Hepatitis B Virus Infection)
-- 삼성서울병원 메뉴얼.
-- [KASL/EALA 만성 B형 간염 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/)
-
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Neonatal Hepatitis B Virus Infection)
+- 삼성서울병원 메뉴얼.
+- [KASL/EALA 만성 B형 간염 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/)
+- SNUH Manual of Medicine 6판(2022), 소화기 14장, 297–303쪽. [대한간학회 B형 간염 지침(2026)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/).

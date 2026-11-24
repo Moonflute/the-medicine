@@ -28,9 +28,9 @@ sources: ["WSES 구불창자 꼬임 지침 2023 | https://link.springer.com/arti
 - **기전**: 폐쇄 루프(closed loop)로 가스 축적·팽창 발생. 정맥 환류 장애 → 허혈·세균 전위 → 괴사·천공으로 진행 가능
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**: 급성 복통, 복부 팽만, 구토, 변비, 배변 중단.
+- **증상**: 급성 복통, 복부 팽만, 구토, 변비, 배변 중단.
 
-- **P/E**: 복부 팽만·타진 시 고음(tympanic note), 직장수지검사에서 비어 있는 직장. 허혈·천공 시 반발통·복막 자극 징후
+- **진찰**: 복부 팽만·타진 시 고음(tympanic note), 직장수지검사에서 비어 있는 직장. 허혈·천공 시 반발통·복막 자극 징후
 
 ## 3. 검사 (Lab & Imaging)
 - **복부 X-ray (AXR)**: Coffee bean sign, Kidney bean sign, 근위부 대장 확장.
@@ -43,7 +43,7 @@ sources: ["WSES 구불창자 꼬임 지침 2023 | https://link.springer.com/arti
 ## 5. 치료
 - **초기 안정화**: 수액·전해질 교정, 비위관 삽입 등
 - **내시경 해소·감압**: 허혈·천공·복막염이 의심되지 않으면 유연 내시경으로 시행
-  - 점막 생존성 평가, 성공 후 감압관 유치 고려
+  - 꼬인 지점을 지나 점막 생존성을 확인하고 성공 후 감압관 유치 고려. 시술 중 괴사·천공이 확인되면 중단하고 수술 경로.
 - **응급 수술**: 내시경 해소 실패 또는 허혈·괴사·천공 의심 시 평가
   - 구불창자 절제 및 환자 상태에 맞는 술식(하트만술 등) 선택
   - 수술 전후 감염·전해질 관리
@@ -56,10 +56,11 @@ sources: ["WSES 구불창자 꼬임 지침 2023 | https://link.springer.com/arti
 
 - **치료 경과**: 비수술적 감압 후 재발률이 높아 전신 상태가 허락하면 선택적 절제술 고려. 천공 발생 시 즉각적인 응급 수술 필요
 
-## 출처
-- StatPearls (Sigmoid Volvulus)
-- 삼성서울병원 메뉴얼.
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Sigmoid Volvulus)
+- 삼성서울병원 메뉴얼.
+- SNUH Manual of Medicine 6판(2022), 소화기 11장, 282쪽. [WSES 구불창자 꼬임 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC10186802/).

@@ -46,7 +46,7 @@ review_status: "guideline_enriched"
 - **도말**: spherocyte 관찰 가능
 
 ## 4. 진단 (Diagnosis)
-- **진단**: 용혈 증거·임상 양상과 DAT 등 면역혈액학 검사를 종합
+- **진단**: 용혈 소견과 DAT를 종합. 온난형은 **IgG ± C3d**, 한랭응집소병은 **C3d 우세**가 전형적이며 응집소 검사와 기저질환을 확인
   - DAT 음성 AIHA도 가능하므로 임상 의심이 높으면 추가 검사·다른 원인 감별
 
 ## 5. 치료 (Treatment)
@@ -54,12 +54,13 @@ review_status: "guideline_enriched"
   - 생명 위협 시 교차시험을 진행하면서 수혈을 지연하지 않음
   - 안정적이면 수혈 필요성을 신중히 판단
 - **온난 AIHA**
-  - 1차: glucocorticoid; 매뉴얼 예시 prednisolone 1 mg/kg/day
-  - 불응·재발: rituximab·비장절제, 면역억제제(azathioprine·mycophenolate 등)·IVIG 검토
+  - **1차**: prednisolone **1 mg/kg/일**, 보통 **2–3주 반응**을 보고 감량 시작
+  - 중증·불충분 반응·재발에는 **rituximab**(예: **375 mg/m² 주 1회, 4회**) 검토. 투여 전 B형간염 검사와 재활성화 예방 평가
+  - 반복 불응: 비장절제, mycophenolate 등 후속 치료 협의
   - 약물 유발: 원인 약물 중단
 - **한랭 AIHA**
   - 한랭 노출 회피·기저질환 치료
-  - Rituximab(단독/화학요법 병용), 보체 억제제 고려
+  - 증상성 한랭응집소병: rituximab 기반 치료 또는 용혈 억제를 위한 **sutimlimab** 검토. 전신 스테로이드 반응은 대체로 낮음
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료에 반응하는 경우가 많으나, 재발 가능성 있음.
@@ -72,3 +73,5 @@ Last updated :
 
 ## 출처
 - Merck Manual Professional (Autoimmune Hemolytic Anemia); 삼성서울병원 메뉴얼; [ASH AIHA 진단 접근](https://pmc.ncbi.nlm.nih.gov/articles/PMC6246027/); [ASH AIHA 치료](https://doi.org/10.1182/blood-2016-11-693689)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 8장 416–425쪽.
+- [호주·뉴질랜드 AIHA 진료 합의 2026](https://doi.org/10.1111/imj.70656)

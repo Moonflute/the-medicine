@@ -76,17 +76,18 @@ sources: ["FDA pacritinib 적응증 | https://www.fda.gov/drugs/news-events-huma
 
 - **빈혈**: 심하면 적혈구 수혈. 필요 시 에리스로포이에틴·다나졸 등 보조 요법
 - **선택적 약제**: 저위험군에서 peginterferon alfa-2a, 일부 혈소판감소 환자에서 저용량 thalidomide+prednisolone 고려
-- **동종 HSCT**: 유일한 완치 목적 치료. 적합한 연령·건강 상태이면 전문센터에 의뢰하며, 적합한 젊은 환자는 조기 평가
+- **동종 HSCT**: 적합한 **DIPSS 중간-2·고위험**, 고위험 분자점수나 진행성 혈구감소에서 조기 평가. 연령만으로 결정하지 않고 동반질환·공여자·이식 위험을 반영
 - **추적**: Hb·혈소판·백혈구와 비장 크기. 감염·출혈 감시 및 예방접종
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 다양하며, 진행성 질환에서 급성 골수성 백혈병으로 진행 가능(약 30%)
 - **합병증**: 빈혈·혈소판감소증·비장비대·감염·출혈
 
-## 출처
-- Merck Manual Professional (Primary Myelofibrosis)
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Primary Myelofibrosis)
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 11장 448쪽.

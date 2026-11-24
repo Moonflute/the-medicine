@@ -62,7 +62,7 @@ review_status: draft
 
 #### 상호작용
 - NSAIDs, 살리실산염: 메토트렉세이트 혈중 농도 상승 및 독성 위험 증가
-- 항생제(페니실린, 설폰아미드 등): 혈중 농도 상승 가능
+- TMP-SMX 병용은 항엽산·골수독성이 더해질 수 있어 대안 확인. 일부 페니실린·설폰아미드도 약물 노출·독성에 유의.
 - 간독성/신독성 약물: 병용 시 해당 장기 독성 위험 증가
 - 아산화질소(Nitrous oxide): 엽산 대사 경로 저해로 독성 증폭, 병용 회피
 - 엽산 보충제: 종양 치료 시 효과를 감소시킬 수 있으므로 처방에 따라 복용
@@ -79,7 +79,7 @@ review_status: draft
 - 생식 독성: 가임기 여성 및 남성은 투여 중 및 투여 후 일정 기간(여성 6개월, 남성 3개월) 피임 필수
 - 감염: 면역 억제로 인한 중증 감염 위험
 - 생백신 접종 권장하지 않음
-- 모니터링: 혈액 검사(CBC), 간 기능 검사, 폐 기능 및 감염 징후를 주기적으로 시행
+- CBC·간기능·Cr을 시작 전, 시작·증량기에 더 자주 확인. 새 마른기침·발열·호흡곤란은 약을 보류하고 감염과 메토트렉세이트 폐렴을 감별.
 
 #### 비고
 - 효과 발현이 수주에서 수개월까지 걸릴 수 있으나 장기적인 질병 조절에 필수적이다.
@@ -93,3 +93,5 @@ review_status: draft
 참고: 삼성서울병원 메뉴얼.
 - [AGA 크론병 약물치료 지침 2025, 2026년 3월 재검토](https://gastro.org/clinical-guidance/pharmacological-management-of-moderate-to-severe-crohns-disease/)
 - [용량·감시 상세](https://pmc.ncbi.nlm.nih.gov/articles/PMC13218589/)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 류마티스 2장 834–835쪽.
+- [FDA Methotrexate 제품설명서](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/008085s072lbl.pdf).

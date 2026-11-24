@@ -58,7 +58,7 @@ sources: ["KDIGO 2026 Anemia in CKD guideline | https://kdigo.org/guidelines/ane
 - **ESA**: 신장질환·항암치료 등 기저질환별 적응증 적용
   - 내인성 EPO 수치만으로 결정하지 않음
   - 철 상태 확보 후 고혈압·혈전 등 안전성 확인
-  - 항암 관련 빈혈은 해당 종양 지침 적용
+  - **항암 관련 빈혈**: 비근치 목적 골수억제 항암 중 **Hb <10 g/dL**이면 수혈 대안으로 ESA 검토. 근치 목적 항암에는 일반적으로 적용하지 않고 혈전 위험을 고려
 - **의뢰·추적**: 중등도 이상 또는 증상 악화 시 혈액내과, CBC·철대사를 질환·치료에 맞춰 추적
 - **수혈**: 조직 저산소증·생리적 손상·증상으로 개별화
   - 안정 입원 환자의 Hb 7–8 g/dL 부근은 참고점이며 단독 지표가 아님
@@ -97,3 +97,5 @@ Last updated :
 
 ## 출처
 - Merck Manual Professional (Anemia of Chronic Disease); KDIGO anemia in CKD guideline; 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 8장 416–425쪽.
+- [ASCO·ASH 항암 관련 빈혈](https://doi.org/10.1200/JCO.18.02142)

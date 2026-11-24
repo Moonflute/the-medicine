@@ -39,14 +39,14 @@ sources: ["NICE NG239 | https://www.nice.org.uk/guidance/ng239/chapter/Recommend
 - **항체**: anti-intrinsic factor(특이도 높음), anti-parietal cell
 
 ## 4. 진단 (Diagnosis)
-- 혈청 비타민 B12 농도 측정 및 항내인자항체 검사.
-  필요 시 위내시경을 통해 위축성 위염 확인 및 위암 위험도 평가.
+- **원인 검사**: B12 결핍과 위 몸통 위축이 의심되면 **항내인자항체**. 음성이어도 의심되면 항벽세포항체·gastrin 또는 위내시경의 위 몸통 생검 검토
+- **새로 진단한 악성 빈혈**: 최근 내시경이 없다면 자가면역성 위염 확인과 위암·위 신경내분비종양 위험 평가를 위해 위내시경·부위별 생검 검토
 
 ## 5. 치료
 - **평생 B12 보충**: 자가면역성 위염은 비가역적 흡수장애; NICE는 평생 근육주사 권고
   - 중증 신경 증상·흡수/복약 신뢰성 저하 시 경구 전환을 우선하지 않음
 - **치료 시작**: 신경 이상·거대적혈모구성 빈혈이 의심되면 검사 결과 때문에 지연하지 않음
-- **주사 일정·반응**: 제제별 초기/유지 일정, 증상·CBC·망상적혈구로 평가
+- **주사 일정·반응**: 예를 들어 hydroxocobalamin **1 mg IM** 초기 보충 후 보통 **2–3개월마다** 유지. 신경 증상·제제에 따라 간격 조정. 증상·CBC·망상적혈구로 반응 평가
   - 주사 중 높아진 B12만 보고 중단하거나 반복 B12 수치만으로 용량을 조절하지 않음
 - **초기 추적**: 대개 3개월 이내, 중증이면 더 일찍
   - 호전 부족: 철/엽산 동반 결핍·진단·투여 간격 재평가
@@ -58,9 +58,12 @@ sources: ["NICE NG239 | https://www.nice.org.uk/guidance/ng239/chapter/Recommend
   평생 보충 및 모니터링 필요.
   위암 발생 위험 증가로 인한 정기적 추적 관찰 권고.
 
-## 출처
-- StatPearls (Pernicious Anemia)
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Pernicious Anemia)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 8장 416–425쪽.
+- [NICE 비타민 B12 결핍 NG239](https://www.nice.org.uk/guidance/ng239/chapter/recommendations)
+- [NHS 비타민 B12 결핍 치료](https://www.nhs.uk/conditions/vitamin-b12-or-folate-deficiency-anaemia/treatment/)

@@ -77,7 +77,8 @@ review_status: "guideline_enriched"
 
 - **ILD**: 호흡기 증상·비정상 청진/PFT·고위험 항체가 있으면 PFT(DLCO 포함)·HRCT
 - **암**: 모든 성인에서 연령·성별 기본 검진 확인
-  - 고령 발병·남성·연하곤란·피부괴사·급속 발병·치료저항성·anti-TIF1-γ/NXP2 등 고위험: 흉부·복부·골반 CT 등 확대검진 고려
+  - IMACS: 발병 >40세, 피부근염, anti-TIF1-γ/NXP2, 중등도–중증 연하곤란·피부괴사·지속 고활성은 고위험 요소.
+  - 고위험 요소 ≥2개는 진단 시 기본+확대 검진을 시행하고 이후 3년간 매년 기본 검진을 고려. 확대 영상은 적응증·위험에 따라 선택.
 
 ## 4. 진단
 - **아형 진단**: 근력저하·피부소견, 효소·항체, MRI/EMG·조직병리를 통합
@@ -94,14 +95,15 @@ review_status: "guideline_enriched"
 **활동성 근염**
 
 - **초기**: 고용량 glucocorticoid + 조기 steroid-sparing 면역억제제
-  - 대부분 MTX를 1차 병용 선택. 장기침범·유지 치료에 따라 azathioprine·mycophenolate·tacrolimus/ciclosporin 선택
+  - 피부·근육 중심은 메토트렉세이트(methotrexate)·아자티오프린(azathioprine) 등. ILD가 동반되면 미코페놀레이트(mycophenolate)·타크로리무스(tacrolimus) 등 폐 침범에 맞는 약제로 선택.
   - 전반적 활성도 호전 시 대개 약 6주 이후부터 스테로이드 점진 감량
 - **중증·불응성**: IVIG·rituximab·cyclophosphamide 고려
   - 중증 연하곤란·불응성 피부질환에서도 IVIG/rituximab이 선택지
 
 **폐 침범·봉입체근염**
 
-- **급속진행 ILD**: 고용량 스테로이드 + cyclophosphamide 또는 rituximab 조기 병용 등 강한 면역억제 고려
+- **급속진행 ILD**: 중환자·류마티스·호흡기팀 응급 평가. 감염을 병렬 평가하며 고용량 스테로이드와 면역억제제를 조기 병합.
+  - 항-MDA5 의심·확인이면 초기 삼제치료를 조건부 고려(예: 스테로이드 + CNI + cyclophosphamide 등). 신장·감염 위험과 폐 진행 속도에 맞춰 rituximab 등 대안 검토.
 - **만성 ILD**: 스테로이드 + mycophenolate·azathioprine·calcineurin inhibitor 등, PFT/HRCT로 추적
 - **봉입체근염**: 면역억제 효과가 제한적이므로 운동·낙상예방·보조기구·연하/호흡 지지 중심
 
@@ -128,3 +130,7 @@ Last updated :
 2026-07-15 — 공식 지침 기반 Tier 2 보강
 
 - 삼성서울병원 메뉴얼
+
+## 출처
+- 서울대학교병원 내과 매뉴얼 6판(2022), 류마티스 9장 880–885쪽.
+- [IMACS 근염 연관 암 선별](https://www.nature.com/articles/s41584-023-01045-w), [ACR/CHEST 자가면역 류마티스질환 ILD 치료](https://doi.org/10.1002/art.42861).

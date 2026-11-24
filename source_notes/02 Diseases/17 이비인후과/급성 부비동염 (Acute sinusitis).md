@@ -31,7 +31,7 @@ sources: ["AAO-HNSF 2025 | https://doi.org/10.1002/ohn.1344"]
 
 ## 3. 검사 (Lab & Imaging)
 - **진단**: 임상적 진단이 원칙.
-- **영상 검사**: 단순 방사선 촬영(Water's, Caldwell's view)은 제한적, 합병증 의심 시 CT 촬영 고려.
+- **영상 검사**: 비합병성에서는 일상적으로 시행하지 않음. 안와·두개내 합병증이나 다른 진단 의심 시 CT/MRI를 검토.
 
 ## 4. 진단 (Diagnosis)
 - **성인 급성 비부비동염**: 화농성 비루와 **비폐색 또는 안면 통증·압박·충만감** 동반
@@ -42,18 +42,20 @@ sources: ["AAO-HNSF 2025 | https://doi.org/10.1002/ohn.1344"]
 - **증상 완화**: 비강 세척·온습포·수분 섭취, 적절한 습도·비강 관리
 - **성인 비합병성 ABRS**: 추적 가능하면 진단 후 **3–5일 관찰** 제안
   - 호전 없거나 악화하면 항생제 시작
-  - Amoxicillin ± clavulanate **5–7일**이 기본
+  - 아목시실린(amoxicillin) ± 클라불란산(clavulanate) **5–7일**. 예: 정상 신기능 성인의 amoxicillin/clavulanate **875/125 mg 1일 2회**. 최근 항생제·내성 위험·알레르기·신기능에 따라 선택
   - 적절한 항생제에도 **3–5일** 호전이 없으면 진단·내성·합병증 재평가 후 변경
 - **관찰 제외**: 중증·면역저하·안와/두개내 합병증
-- **긴급 의뢰**: 안구통증·시각 변화·심한 안면 부종 등 합병증 의심
+- **긴급 의뢰**: 안구운동통·복시·시력 저하·안구 돌출, 심한 두통·수막자극·신경학적 이상
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 대부분 보존적 치료로 호전됨.
 - 드물게 안와 주위 봉와직염, 두개내 합병증 등 발생 가능하므로 주의 깊은 관찰 필요.
 
+Last updated :
+2026-05-18 — 본문 갱신 (codex fill)
+
 ## 출처
 - StatPearls (Acute Sinusitis)
 - [AAO-HNSF 성인 부비동염 지침(2025)](https://www.entnet.org/wp-content/uploads/2025/07/CPG_ASU_SummaryGuide_V3.pdf)
-
-Last updated :
-2026-05-18 — 본문 갱신 (codex fill)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 6부 3장 598–605쪽.
+- [AAO-HNSF 2025 성인 부비동염](https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/cpg-adult-sinusitis/)

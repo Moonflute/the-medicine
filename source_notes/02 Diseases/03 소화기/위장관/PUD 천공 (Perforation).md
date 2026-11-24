@@ -12,8 +12,8 @@ last_studied: '2026-06-06'
 clinical_priority: "tier_2"
 reviewed_at: "2026-07-16"
 review_status: "guideline_enriched"
-guideline_year: "2026"
-sources: ["Contemporary algorithm for nasal septal perforation repair. | https://pubmed.ncbi.nlm.nih.gov/42285297/"]
+guideline_year: "2020"
+sources: ["WSES 천공 및 출혈 소화성 궤양 지침 | https://doi.org/10.1186/s13017-019-0283-9"]
 
 content_updated_at: "2026-07-17"
 ---
@@ -27,9 +27,9 @@ content_updated_at: "2026-07-17"
 - **기전**: 궤양의 침식으로 위장관 벽의 전층이 손상되어 복막염 및 패혈증을 유발
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**: 갑작스럽고 심한 복통(급성 복증), 복부 압통, 반발 압통, 복벽 강직(배 굳음)
+- **증상**: 갑작스러운 심한 상복부 통증. 고령·면역저하·봉쇄 천공에서는 전형적이지 않을 수 있음
 
-* **P/E**: 복부 전반의 압통 및 반발 압통, 장음 감소 또는 소실, 쇼크 징후(빈맥, 저혈압)
+- **진찰**: 미만성 압통·강직 등 복막 자극, 장음 감소, 빈맥·저혈압 확인
 
 ## 3. 검사 (Lab & Imaging)
 - **복부·흉부 X-ray**: 횡격막 아래 유리 공기 확인
@@ -38,11 +38,12 @@ content_updated_at: "2026-07-17"
   - 전형적 복막염 + 불안정성이 있으면 영상 지연 때문에 외과 평가를 늦추지 않음
 
 ## 4. 진단 (Diagnosis)
-- 임상 증상(급성 복통, 복막 자극 징후)과 영상 검사(복부 CT 등)에서 확인되는 복강 내 유리 공기를 통해 진단
+- **진단**: 급성 통증·복막 자극과 CT상 소화관 벽 결손, 유리 공기·액체 또는 조영제 누출을 종합. 단순 촬영에 유리 공기가 없어도 천공을 배제하지 않음.
 
 ## 5. 치료 (Treatment)
 - **초기 처치**: 금식, 정주 수액·통증 조절, 광범위 항생제·위산 억제, 필요 시 비위관 등 위장관 감압
-  - 원인균·내성 위험·신기능에 따라 항생제 조정
+  - 일반 지역사회 감염은 세프트리악손(ceftriaxone) **2 g 정주 하루 1회** + 메트로니다졸(metronidazole) **500 mg 정주 8시간마다** 등을 검토. 쇼크·의료관련/내성 위험이면 원내 지침에 따른 광범위 요법을 사용하고 신기능·배양으로 조정.
+  - 신속한 수술적 원인 통제 후 안정되고 다른 감염이 없으면 대체로 **3–5일**의 단기 항균제 치료를 검토.
 - **긴급 수술 평가**: 복막염·불안정성·지속 누출
   - 응급 수술이 원칙이며 환자 상태·천공 부위에 따라 단순 봉합·패치 봉합·위절제 등 결정
 - **비수술 관찰**: 누출이 봉쇄되고 전신 상태가 안정적인 엄선 환자에서만 고려
@@ -51,9 +52,10 @@ content_updated_at: "2026-07-17"
 ## 6. 예후 및 합병증 (Prognosis)
 - 치료가 지연될 경우 복막염, 패혈증, 다장기 부전으로 인한 높은 사망률을 보임
 
-## 출처
-- Merck Manual Professional (Acute Perforation of the Gastrointestinal Tract)
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Acute Perforation of the Gastrointestinal Tract)
+- SNUH Manual of Medicine 6판(2022), 소화기 5장, 253–255쪽. [WSES 천공 및 출혈 소화성 궤양 지침](https://doi.org/10.1186/s13017-019-0283-9).

@@ -69,7 +69,8 @@ content_updated_at: "2026-11-18"
 **고전적 HL의 일차 치료**
 
 - **초기 국한 병기**: 위험 인자·PET 반응에 따라 항암 ± 국소 방사선치료
-- **III–IV기**: nivolumab + AVD 등 현대적 일차 요법을 우선 검토
+- **III–IV기**: nivolumab + AVD 등 일차 요법을 우선 검토. Nivolumab 부적합 시 brentuximab vedotin + AVD 등과 비교
+  - 예후 평가(IPS): albumin <4 g/dL, Hb <10.5 g/dL, 남성, 나이 ≥45세, IV기, WBC ≥15,000/μL, 림프구 <600/μL 또는 <8%에 각 1점
   - N-AVD 미국 FDA 적응증은 2026년 미치료 III–IV기·**≥12세**로 확대. 국내 허가·급여 별도 확인
   - ABVD를 모든 병기의 유일한 표준으로 적용하지 않음
 
@@ -90,9 +91,12 @@ content_updated_at: "2026-11-18"
 - **예후**: 대부분 완치 가능
 - **장기 추적**: 불임·이차암·심장독성·폐독성 등 치료 관련 합병증 감시
 
-## 출처
-- Merck Manual Professional (Hodgkin Lymphoma)
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Hodgkin Lymphoma)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 7장 410–415쪽.
+- [ESMO 림프종 진료지침](https://doi.org/10.1016/j.annonc.2025.07.014)
+- [FDA nivolumab + AVD](https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-chemotherapy-previously-untreated-hodgkin-lymphoma)

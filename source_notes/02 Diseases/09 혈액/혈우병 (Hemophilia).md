@@ -53,23 +53,25 @@ content_updated_at: "2026-07-16"
 | 경증 | >5–<40% | 수술·발치 등 침습 처치 후 출혈 |
 
 ## 5. 치료 (Treatment)
-- **응고인자 보충**: 출혈 의심 시 즉시 투여
-  - 혈우병 A: 재조합 VIII 제제 선호
-  - 혈우병 B: 재조합 IX 제제
-- **경증 A형**: DDAVP로 VIII 수치의 일시적 상승 유도 가능
+- **응고인자 보충**: 두개내·기도 등 중증 출혈 의심 시 검사나 영상 전에 즉시 투여
+  - **A형**: FVIII 목표 상승치(IU/dL) × 체중(kg) × 0.5로 초기 단위 추산. 두개내 출혈 등은 초기 **80–100 IU/dL** 목표를 적용하는 프로토콜이 흔함
+  - **B형**: FIX 제품별 회수율·반감기로 용량을 계산. 부위·출혈 정도에 따라 목표 농도와 반복 간격 결정
+- **경증 A형**: 반응을 확인한 경우 desmopressin **0.3 μg/kg IV** 저속 주입. 수분 제한·Na 감시. B형에는 효과 없음
 - **보조 치료**: 구강 점막 출혈 등에 tranexamic acid 등 항섬유소용해제
-- **그 밖의 선택지**: emicizumab 등 비인자 치료제·유전자 치료
+- **예방요법**: 중증 출혈 표현형에서 정기 FVIII/FIX 또는 적합한 A형에서 emicizumab 등 비인자 예방요법
+- **억제인자 + emicizumab 투여 중 급성 출혈**: 고반응 VIII 억제인자가 있으면 **rFVIIa** 우선 검토. aPCC는 TMA·혈전 위험으로 전문팀 지시 없이 사용하지 않음
 - **약물 주의**: 아스피린·NSAIDs 등 혈소판 기능 억제 약물
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후**: 적절한 예방 치료 시 정상적인 삶 가능
 - **합병증**: 관절 손상, 응고인자 억제제(alloantibody) 발생
 
+Last updated :
+2026-04-03 — 본문 갱신 (Gemini fill)
+2026-05-18 — 본문 갱신 (codex fill)
+
 ## 출처
 - Merck Manual Professional (Hemophilia)
 - [WFH 혈우병 관리 지침](https://doi.org/10.1111/hae.14046)
 - [혈우병 진단·중증도(CDC)](https://www.cdc.gov/hemophilia/testing/)
-
-Last updated :
-2026-04-03 — 본문 갱신 (Gemini fill)
-2026-05-18 — 본문 갱신 (codex fill)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 9장 426–433쪽.

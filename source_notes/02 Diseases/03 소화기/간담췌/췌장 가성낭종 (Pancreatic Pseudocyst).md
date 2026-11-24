@@ -64,7 +64,7 @@ sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidel
 **진단 기준**
 
 * 췌장염 또는 외상 병력
-* 영상 검사에서 경계가 명확한 액체 저류 확인
+* 영상(CT·MRI)에서 보통 4주 이후 형성된 뚜렷한 벽과 균질한 액체 저류. 고형 괴사 성분이 있으면 WON 평가
 * 낭종액 검사(필요 시)에서 높은 아밀라아제 수치 및 낮은 CEA 수치
 
 - **감별진단**: 췌장 낭성 종양(IPMN, 점액성 낭성 종양 등), 췌장 농양, 구역성 췌장 괴사(WON) 등과 감별이 중요하다.
@@ -78,7 +78,7 @@ sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidel
   - 출혈·패혈증 등 불안정 시 긴급 원인 조절을 지연하지 않음
 - **방법**: 해부학·췌관 연결·내용물·시술 경험에 따라 EUS 유도 내시경, 경피 또는 수술 배액
   - 내시경 불가·실패·해부학적 부적합이면 경피·외과적 배액 검토
-  - 감염·출혈 의심 시 배양·혈관 평가와 원인 조절 포함
+  - 감염 의심 시 배액·배양. 새 출혈이나 혈성 저류는 가성동맥류 여부를 조영 CT로 평가하고, 확인 시 혈관 중재팀과 지혈을 먼저 협의
 - **진단 불확실**: 가성낭종 자체를 암 전이 위험 병변으로 설명하지 않음. 낭성 종양 의심 시 진단 재평가
 
 ## 6. 예후 및 합병증 (Prognosis)
@@ -89,11 +89,14 @@ sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidel
 
 - **합병증**: 감염(농양), 출혈, 파열(복막염), 담관 폐쇄, 장 폐쇄 등이 발생할 수 있다.
 
+Last updated :
+2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
+2026-05-18 — 본문 갱신 (codex fill)
+
 ## 출처
 - StatPearls (Pancreatic Pseudocyst)
 - [Revised Atlanta 분류](https://doi.org/10.1136/gutjnl-2012-302779)
 - 삼성서울병원 메뉴얼.
-
-Last updated :
-2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
-2026-05-18 — 본문 갱신 (codex fill)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 3부 21장 345–351쪽.
+- [IAP 2025 급성 췌장염 지침](https://doi.org/10.1016/j.pan.2025.04.020)
+- [Revised Atlanta 분류](https://doi.org/10.1136/gutjnl-2012-302779)

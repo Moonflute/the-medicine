@@ -41,7 +41,7 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
   - 영상·배양 결과 또는 고압산소 치료를 위해 응급 수술을 지연하지 않음
 - **수술**: 가능한 한 빨리 광범위 절개·괴사 조직 제거
 - **항생제**
-  - 원인 미확인: MRSA·그람음성·혐기균을 포함하는 광범위 정주 요법
+  - 원인 미확인: 반코마이신(vancomycin) + 피페라실린/타조박탐(piperacillin/tazobactam) 또는 카바페넴 등으로 초기 MRSA·그람음성·혐기균을 포함.
   - Clostridium 근괴사 확인: **penicillin G + clindamycin**
 - **수술 후**: 중환자실에서 혈역학·발열·혈압 등 감시
   - 반응 부족·진행 의심: 즉시 재탐색/추가 절제 평가, 감염내과 협진
@@ -50,10 +50,12 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 ## 6. 예후 및 합병증 (Prognosis)
 - 사망률이 높으며, 패혈증, 다발성 장기 부전, 사지 절단 등의 심각한 합병증을 초래할 수 있다.
 
-## 출처
-- Merck Manual Professional
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 감염 3장 769–773쪽.
+- [IDSA 피부·연조직 감염 지침](https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/).

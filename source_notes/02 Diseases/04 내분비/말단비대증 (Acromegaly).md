@@ -55,21 +55,24 @@ content_updated_at: "2026-11-15"
 ## 5. 치료
 - **절제 가능**: 경접형동/나비뼈경유(transsphenoidal) 수술 우선, 이후 IGF-1/GH·영상으로 잔존/재발 평가
 - **잔존 질환·수술 부적합**: 종양 크기·동반질환·생화학 반응에 따라 약제 선택
-  - Somatostatin 수용체 리간드: octreotide·lanreotide·pasireotide
-  - GH 수용체 길항제: pegvisomant
-  - Dopamine 작용제: cabergoline
+  - **옥트레오타이드(octreotide) 장기주사·란레오타이드(lanreotide)**: 수술 후 분비와 잔존 종양 억제를 함께 목표로 할 때 흔한 첫 약제
+  - **페그비소만트(pegvisomant)**: IGF-1 지속 상승, 특히 당뇨·고혈당이 있어 파시레오타이드가 불리할 때 검토. IGF-1·간기능·종양 MRI 추적
+  - **파시레오타이드(pasireotide)**: 1세대 약제에 불충분하고 종양 억제도 필요할 때 검토. 고혈당 위험 확인
+  - **카베르골린(cabergoline)**: IGF-1 경도 상승 또는 PRL 동반 분비에서 고려
 - **수술·약물로 조절 불가**: 방사선 고려
-- **목표**: 수치 정상화와 심혈관·대사·수면 합병증 감소
+- **목표·추적**: 수술 **약 12주 후** IGF-1로 초기 관해 판단. 혈압·당대사·심장·수면무호흡·관절 문제도 치료
 
 ## 6. 예후 및 합병증
 - 수술 후 GH 및 IGF-1 수치가 정상화되면 관해로 판단.
 - 치료 실패 시 심혈관 질환 및 대사 합병증으로 인한 사망률 증가.
 - 방사선 치료 후 뇌하수체기능저하증 발생 가능성 있음.
 
-## 출처
-- Merck Manual Professional
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2026-05-03 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 14장 544–550쪽.
+- [말단비대증 진단·관해 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC10837217/)

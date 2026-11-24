@@ -53,7 +53,8 @@ sources: ["Society for Endocrinology | https://pmc.ncbi.nlm.nih.gov/articles/PMC
 
 ## 5. 치료
 - **정주 칼슘**: 성인 보정 Ca <1.9 mmol/L(약 7.6 mg/dL), 또는 수치와 무관하게 테타니·경련·부정맥 등 증상 시
-  - Calcium gluconate 투여, 동반 저Mg 교정
+  - **10% 칼슘 글루코네이트(calcium gluconate) 10–20 mL**를 5% 포도당 50–100 mL에 희석해 ECG 감시하 약 10분 정주. 증상·이온화 Ca에 따라 반복 또는 지속 주입. 저Mg 동시 교정
+  - 중탄산염·인산과 같은 라인으로 혼합하지 않음
   - ECG·Ca·Mg를 초기 반응에 따라 빈번히 재평가. 안정화 전 24–48시간 간격만으로 감시하지 않음
   - 중환자·산염기 이상: 보정 총 Ca와 함께 이온화 Ca 평가
 - **경구 유지**: 무증상 경증 또는 급성기 안정 후 칼슘 + 원인별 vitamin D/활성 vitamin D
@@ -72,9 +73,10 @@ sources: ["Society for Endocrinology | https://pmc.ncbi.nlm.nih.gov/articles/PMC
 - **중증 증상·테타니**: 응급 평가 및 정맥 칼슘 치료
   - 안정 후에도 칼슘·활성 vitamin D 보충, Ca·인·이온화 Ca에 따라 용량 조절
 
-## 출처
-- 삼성서울병원 외과 메뉴얼; [ESE 2025 — Chronic hypoparathyroidism](https://doi.org/10.1093/ejendo/lvaf222)
-
 Last updated :
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- 삼성서울병원 외과 메뉴얼; [ESE 2025 — Chronic hypoparathyroidism](https://doi.org/10.1093/ejendo/lvaf222)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 18장 567–572쪽.

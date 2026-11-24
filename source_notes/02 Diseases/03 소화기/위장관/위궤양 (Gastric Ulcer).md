@@ -29,8 +29,8 @@ sources: ["ACG H. pylori 2024 | https://gi.org/journals-publications/ebgi/schoen
 - **기전**: 위산·펩신과 방어 인자(프로스타글란딘·점액·중탄산염·혈류)의 불균형. NSAIDs는 프로스타글란딘 합성 억제로 방어 약화
 
 ## 2. 임상 양상 (Clinical Features)
-- **CC**: 명치 통증(식후 악화 경향), 소화불량·조기 포만·오심·구토·속쓰림, 출혈 시 흑색변·토혈
-- **P/E**: 상복부 압통이 흔함
+- **증상**: 명치 통증(식후 악화 경향), 소화불량·조기 포만·오심·구토·속쓰림, 출혈 시 흑색변·토혈
+- **진찰**: 상복부 압통이 흔함
 - **해석**: 통증 유무·식사 관계만으로 확진/배제하지 않음. NSAID 궤양은 무증상이다 출혈·천공으로 처음 나타날 수 있음
 
 ## 3. 검사 (Lab & Imaging)
@@ -49,12 +49,12 @@ sources: ["ACG H. pylori 2024 | https://gi.org/journals-publications/ebgi/schoen
 | 반흔기 S1/S2 | 적색 / 백색 반흔 |
 
 ## 5. 치료
-- **산 억제**: PPI **8주**로 궤양 치유 목표
+- **산 억제**: 오메프라졸(omeprazole) **20 mg** 또는 판토프라졸(pantoprazole) **40 mg**을 하루 1회 식전에 사용하는 등 표준 용량 PPI **약 8주**로 치유 목표
 - **H. pylori 양성**: 이전 항생제 노출·내성/감수성·국내 지침에 맞춘 제균. Clarithromycin 3제를 일률 선택하지 않음
   - **성공 확인**: 항생제 종료 후 **≥4주**와 PPI/P-CAB 중단 후 **≥2주를 모두 충족**한 시점에 검사
 - **NSAID 궤양**: 원인 약제 가능하면 중단, 지속 필요 시 PPI 등 위 보호 치료
   - 고령·과거 궤양·고용량/복수 NSAID·항응고/항혈소판/스테로이드 병용 위험 확인
-  - 심혈관 위험까지 고려해 NSAID 종류·PPI 병용 결정
+  - **고위험·NSAID 필수**: 위장관 위험과 심혈관 위험을 함께 확인해 PPI 병용. 심혈관 위험이 낮고 위장관 위험이 높으면 셀레콕시브(celecoxib) 등 선택적 COX-2 억제제도 검토. 과거 궤양 출혈이면 NSAID 회피가 우선이며 불가피할 때 PPI 병용.
 - **치유 확인**: 통상 **8–12주 내과 치료 후** 추적 내시경, 미치유 병변 재생검. 치료 종료 후 다시 8–12주를 기다린다는 뜻이 아님
 - **합병증·수술**: 출혈·천공·폐색 의심 시 신속한 소화기·외과 평가
   - 난치성, 조절되지 않는 출혈, 천공·지속 폐쇄 등에서 수술 검토
@@ -67,3 +67,4 @@ sources: ["ACG H. pylori 2024 | https://gi.org/journals-publications/ebgi/schoen
 ## 출처
 - StatPearls (Gastric Ulcer, 2023)
 - 삼성서울병원 메뉴얼; [ASGE 소화성 궤양 내시경 지침](https://www.asge.org/docs/default-source/education/practice_guidelines/doc-the-role-of-endoscopy-in-the-management-of-patientswith-peptic-ulcer-disease.pdf).
+- SNUH Manual of Medicine 6판(2022), 소화기 5장, 251–255쪽. [국내 H. pylori 지침 2025 개정판](https://doi.org/10.1111/hel.70149).

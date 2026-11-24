@@ -48,16 +48,18 @@ content_updated_at: "2026-07-17"
   - **3개월 간격 두 번 TSH ≥10 mIU/L**: levothyroxine 고려
   - 참고 상한 초과–**<10**, 지속 상승·증상 있는 **65세 미만**: **6개월** 치료 시험 고려
   - 고령·심혈관질환: 효과와 과잉 치료 위험 비교, 신중 결정
-- **임신·임신 계획/난임**: 산부인과·내분비와 별도 기준 적용
+- **임신**: 삼분기·검사실별 참고치를 적용. 경도 상승은 짧은 간격 재검으로 지속성을 확인하고 특히 첫 삼분기 치료를 개별 검토. ATA 2026은 경도 무증상 기능저하의 투약 판단에 TPOAb 양성 여부만을 적용하지 않음
 - **비치료 시에도** TSH/fT4·증상 추적
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 일부는 자연적으로 정상화되나, 일부는 현성 갑상샘 기능저하증으로 진행할 수 있다.
 - 심혈관 질환, 심부전, 이상지질혈증의 위험이 증가할 수 있다.
 
-## 출처
-- StatPearls (Subclinical Hypothyroidism); [NICE NG145](https://www.nice.org.uk/guidance/ng145/chapter/Recommendations).
-
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Subclinical Hypothyroidism); [NICE NG145](https://www.nice.org.uk/guidance/ng145/chapter/Recommendations).
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 12장 534–538쪽.
+- [ATA 2026 임신·산후](https://doi.org/10.1177/10507256261445624)

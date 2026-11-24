@@ -43,18 +43,8 @@ sources: ["AASLD | https://www.aasld.org/sites/default/files/2022-04/PracticeGui
   지속적인 담관 파괴는 간 섬유화를 유발하고, 결국 간경변증 및 간부전으로 진행함.
 
 ## 2. 임상 양상 (Clinical Features)
-**CC**:
-
-  약 절반은 무증상으로 발견.
-  가장 흔한 증상은 피로감, 소양증(가려움증).
-  소양증은 다른 증상보다 수개월~수년 앞서 나타날 수 있음.
-  진행 시 황달, 체중 감소, 지방변(지방 흡수 장애), 구강 건조, 안구 건조 등이 나타날 수 있음.
-  쇼그렌 증후군, 전신 경화증, 갑상선 질환 등 다른 자가면역 질환 동반이 흔함.
-
-**P/E**:
-
-  간비대, 비장비대, 황달, 피부 색소 침착, 황색종(xanthelasma) 등이 관찰될 수 있음.
-  진행 시 문맥 고혈압, 간경변증 징후가 나타남.
+- **증상**: 무증상이 흔하며 피로·소양감이 먼저 나타날 수 있음. 진행하면 황달·체중 감소·지방변, 쇼그렌 등 동반 시 안구·구강 건조
+- **진찰**: 황달, 긁은 자국·색소 침착, 황색종, 간비대. 비장비대·복수는 진행성 질환 단서
 
 ## 3. 검사 (Lab & Imaging)
 - **혈액 검사**: ALP·GGT 상승의 담즙정체 패턴, IgM 상승 가능. AMA는 **90~95%** 양성
@@ -93,7 +83,7 @@ sources: ["AASLD | https://www.aasld.org/sites/default/files/2022-04/PracticeGui
 
 **증상·영양·이식**
 
-- **소양증**: cholestyramine 등 사용, UDCA·다른 약과 복용 간격 확보
+- **소양증**: 콜레스티라민(cholestyramine) **4 g/일**부터, 반응에 따라 최대 **16 g/일** 분할. UDCA·다른 경구약은 콜레스티라민의 **≥1시간 전 또는 ≥4시간 후**로 분리. 불응·불내성은 전문팀에서 간기능과 상호작용을 보고 다음 약제 선택.
 - **지방변·진행 담즙정체**: 지용성 비타민 결핍·골건강 평가
 - **이식 평가**: 비대상성 간경변·진행 간부전 또는 난치성 소양증
 
@@ -105,9 +95,10 @@ sources: ["AASLD | https://www.aasld.org/sites/default/files/2022-04/PracticeGui
 
 - **합병증**: 간경변증, 간부전, 문맥 고혈압, 골다공증, 지용성 비타민 결핍, 말초 신경병증 등이 발생할 수 있음.
 
-## 출처
-- [AASLD PBC 진단 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC7041951/), [AASLD/AGA PBC 치료 지침 2026](https://doi.org/10.1097/HEP.0000000000001875)
-
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- [AASLD PBC 진단 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC7041951/), [AASLD/AGA PBC 치료 지침 2026](https://doi.org/10.1097/HEP.0000000000001875)
+- SNUH Manual of Medicine 6판(2022), 소화기 17장, 316–318쪽. [AASLD 담즙정체 소양증 치료](https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/scratching-itch-management-pruritus-cholestatic).

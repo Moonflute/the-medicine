@@ -36,7 +36,7 @@ sources: ["KDIGO 2021 Glomerular Diseases guideline | https://kdigo.org/guidelin
 | 유형 | 침착/보체 경로 |
 | --- | --- |
 | 면역복합체 매개 | 면역글로불린·보체 침착, 고전 경로 활성·C4 감소 가능 |
-| 보체 매개(C3 사구체병증 등) | C3 우세 침착, 대체 경로 활성·C3 감소/C4 정상 가능 |
+| 보체 매개(C3 사구체병증 등) | IF에서 C3가 다른 면역 반응물보다 ≥2단계 강하게 침착. 대체 경로 활성·C3 감소/C4 정상 가능 |
 | 침착물 없음 | TMA 등과 연관 |
 
 **조직학적 특징**
@@ -46,6 +46,7 @@ sources: ["KDIGO 2021 Glomerular Diseases guideline | https://kdigo.org/guidelin
 
 ## 4. 진단 (Diagnosis)
 - **확인**: 신생검의 IF·EM으로 면역복합체/보체 매개/침착물 없는 패턴 구분
+- **C3 사구체병증(C3G)**: IF의 C3 우세와 전자현미경 침착 위치·형태로 dense deposit disease와 C3 glomerulonephritis를 구분. 감염 관련 GN이 비슷할 수 있어 감염·저보체 경과 확인.
 - **원인 감별**: C3/C4·혈액/면역검사
   - 감염: HBV/HCV·HIV·심내막염·농양
   - 자가면역, 단클론감마병증·혈액종양, 보체 이상
@@ -55,7 +56,8 @@ sources: ["KDIGO 2021 Glomerular Diseases guideline | https://kdigo.org/guidelin
 - **원인 치료**: 감염·자가면역·단클론단백 관련 질환을 우선 치료
 - **신보호**: 혈압·단백뇨·체액 관리, 동반질환·저혈압 위험·신기능에 맞춰 목표 설정
 - **면역억제**: 원인·조직 활동성·단백뇨/eGFR 경과에 따라 신장내과가 선택
-  - 감염성 MPGN에 면역억제를 먼저 시작하지 않음
+  - 감염성 MPGN에는 원인 감염의 치료 우선. 중등도–중증 C3G에서 단클론단백 관련 질환 등이 없으면 미코페놀레이트(mycophenolate) + glucocorticoid를 고려.
+- **보체 표적 치료**: 진행 위험에서 전문센터와 검토. 미국에서 입타코판(iptacopan)은 성인 C3G의 단백뇨 감소, 페그세타코플란(pegcetacoplan)은 ≥12세 C3G 또는 일차성 면역복합체 MPGN에서 단백뇨와 신기능 저하 감소에 승인. 국내 허가와 피막세균 예방접종·감염 위험 확인.
 - **진행성 신부전**: 신대체요법·이식 계획 논의
 
 ## 6. 예후 및 합병증 (Prognosis)
@@ -63,10 +65,12 @@ sources: ["KDIGO 2021 Glomerular Diseases guideline | https://kdigo.org/guidelin
 - **조기 평가**: 신증후군·급격한 기능 저하·활동성 염증 병변 시 신장내과
 - **예후**: 원인·조직 분류에 따라 다양
 
-## 출처
-- Merck Manual Professional (2026)
-- 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.
-
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (2026)
+- 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 10장 724–740쪽.
+- [KDIGO 사구체질환 지침](https://kdigo.org/guidelines/gd/), [미 FDA 페그세타코플란 제품설명서](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215014s012lbl.pdf), [미 FDA 입타코판 제품설명서](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/218276s007lbl.pdf).

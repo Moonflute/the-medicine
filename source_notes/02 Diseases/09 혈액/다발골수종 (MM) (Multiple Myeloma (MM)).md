@@ -98,9 +98,12 @@ R-ISS의 고위험 이상은 del(17p), t(4;14), t(14;16)이다. **ISS III라는 
 - **스몰더링 골수종(SMM)**
   - 저위험: 통상 관찰
   - 고위험: 조기치료 논의 가능; 미국 FDA는 2025년 daratumumab 피하요법 승인
-  - 고위험 정의·기대 이득·국내 허가/급여 확인, 무증상이라는 이유만으로 모두 관찰하지 않음
-- **이식 계획**: 적합한 환자는 조혈모세포 채집·고용량 화학요법·자가이식을 전문팀과 평가
-  - 신부전·골절 위험이 높은 젊은 환자 등도 혈액·이식팀에 치료 계획 의뢰
+  - **20/2/20 위험평가**: 골수 형질세포 >20%, 혈청 M단백 >2 g/dL, FLC 비 >20 중 **2개 이상**은 대표 고위험. 치료 선택은 임상시험·허가 기준을 개별 확인
+- **이식 적합**: daratumumab + bortezomib + lenalidomide + dexamethasone(D-VRd) 등 유도 → 조혈모세포 채집 → 고용량 melphalan·자가이식 → lenalidomide 기반 유지 검토
+- **이식 부적합**: daratumumab + lenalidomide + dexamethasone(D-Rd) 등. 허약도·CrCl·신경병증에 따라 강도 조정
+- **치료 중 예방·검사**
+  - Lenalidomide: 신기능에 따른 용량과 혈전 예방 평가. Bortezomib: 말초신경병증 및 대상포진 예방 확인
+  - Daratumumab: 첫 투여 전 혈액형·항체선별과 혈액은행 통보. 간접항글로불린 교차시험에 간섭 가능
 
 **신장·고칼슘혈증 지지치료**
 
@@ -122,10 +125,12 @@ R-ISS의 고위험 이상은 del(17p), t(4;14), t(14;16)이다. **ISS III라는 
 - **경과**: 완치가 어렵고 재발이 흔함
 - **합병증**: 신부전·골절·감염·고칼슘혈증
 
-## 출처
-- Merck Manual Professional
-- 삼성서울병원 메뉴얼. International Myeloma Working Group 2023 renal impairment recommendations를 대조. 2026-09-14 기존 목차 내 보완.
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional
+- 삼성서울병원 메뉴얼. International Myeloma Working Group 2023 renal impairment recommendations를 대조. 2026-09-14 기존 목차 내 보완.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 11장 444–447쪽.
+- [EHA·EMN 골수종 지침](https://doi.org/10.1038/s41571-025-01041-x)

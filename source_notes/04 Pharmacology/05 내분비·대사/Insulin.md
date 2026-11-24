@@ -14,12 +14,12 @@
 - `prandial insulin`: 식후 혈당 조절을 담당한다.
 - `correction insulin`: 목표보다 높은 혈당을 추가로 교정한다.
 - 제1형 당뇨병은 보통 `basal + prandial` 구조가 필요하다.
-- 제2형 당뇨병은 `basal 먼저 시작` 후 필요하면 prandial 또는 premix 전략을 추가한다.
+- 제2형 당뇨병은 인슐린이 필요할 때 기저부터 시작해 공복혈당에 맞춰 조정한다. 공복혈당이 목표에 도달한 뒤 식후 고혈당이 남으면 GLP-1 기반 치료나 식전 인슐린 추가를 검토한다.
 
 ## 제형별 핵심
 - [[InsulinRegular]]: 식전 30분 투여 개념이 중요하고, `IV 사용 가능`해서 DKA, hyperkalemia protocol에서 핵심이다.
 - [[InsulinNph]]: 비용 면에서는 장점이 있지만 peak가 있어 야간 저혈당과 변동성에 주의한다.
-- [[InsulinAspart]], [[InsulinLispro]]: rapid-acting analog로 식사 직전 또는 직후 사용이 가능해 외래 basal-bolus regimen에서 자주 쓴다.
+- [[InsulinAspart]], [[InsulinLispro]]: 식사 인슐린. 일반 aspart는 식사 5–10분 전, 일반 lispro는 15분 이내 전 또는 직후. 속효성을 높인 제형은 투여 시간과 펌프 호환성이 다를 수 있음.
 - [[InsulinGlargine]], [[InsulinDegludec]]: basal insulin의 중심축이며, `혼합 금지`, `IV 금지`를 기본 원칙으로 본다.
 
 ## 처방 포인트
@@ -38,4 +38,7 @@
 ## 같이 보면 좋은 노트
 - [[_index/당뇨 - 인슐린]]
 
-보완 출처: 삼성서울병원 메뉴얼
+## 출처
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 2–3장 473–484쪽.
+- [ADA 2026 약물치료](https://doi.org/10.2337/dc26-s009)

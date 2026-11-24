@@ -85,6 +85,7 @@ GOV2·IGV1은 위저부 정맥류로 묶어 치료 평가.
 - **위저부 정맥류(GOV2·IGV1)**: 내시경 cyanoacrylate(CYA) 접착제 폐쇄술을 주요 치료로 고려
   - 출혈 상태, 위신단락 등 접근 가능한 우회혈관, 기관 경험에 따라 중재 선택
 - **IGV2**: 위치·해부학에 따라 개별 평가
+  - **확정 치료**: GOV2·IGV1 지혈과 동시에 중재팀과 조기 **TIPS ± 정맥류 색전** 검토. TIPS 금기·고위험이고 접근 가능한 위신단락이 있으면 BRTO/PARTO 평가
 - **EUS 유도 혈관 치료**: CYA 단독 또는 코일 색전술과 병용
   - 코일은 접착제 지지체(scaffold)로 작용하여 색전 위험 감소에 도움
 - **내시경 치료 불가·실패**: BRTO/PARTO 또는 TIPS 협의
@@ -97,10 +98,12 @@ GOV2·IGV1은 위저부 정맥류로 묶어 치료 평가.
 
 - **합병증**: 출혈성 쇼크, 간성 뇌증 악화, 신부전(간신 증후군), 감염, 재출혈 등이 발생할 수 있다.
 
-## 출처
-- StatPearls (Gastric Varices, Esophageal Varices)
-- 삼성서울병원 메뉴얼.
-
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Gastric Varices, Esophageal Varices)
+- 삼성서울병원 메뉴얼.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 3부 18장 326–328쪽.
+- [Baveno VIII 2026](https://doi.org/10.1016/j.jhep.2026.07.030)

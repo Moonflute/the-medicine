@@ -41,7 +41,7 @@ reviewed_at: "2026-07-30"
 
 ## 4. 진단 (Diagnosis)
 - 혈청 ACTH와 코르티솔 수치 확인.
-- ACTH 자극 검사를 통해 H-P-A 축의 기능 평가.
+- 최근 뇌하수체 수술·출혈 뒤 약 4–6주는 코신트로핀 자극에 정상 반응할 수 있음. 임상·오전 코르티솔을 함께 보고 치료·재검 시점 결정
 - 뇌하수체 및 시상하부 병변 확인을 위한 영상 검사.
 
 ## 5. 치료
@@ -60,3 +60,5 @@ Last updated :
 
 ## 출처
 - 삼성서울병원 메뉴얼; [Endocrine Society — Hypopituitarism](https://www.endocrine.org/clinical-practice-guidelines/hormone-replacement-in-hypopituitarism)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 15장 551–554쪽.
+- [Endocrine Society 뇌하수체기능저하](https://www.endocrine.org/clinical-practice-guidelines/hormone-replacement-in-hypopituitarism)

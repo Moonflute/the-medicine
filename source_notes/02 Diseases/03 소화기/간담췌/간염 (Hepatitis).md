@@ -34,10 +34,12 @@ guideline_review_status: primary_source_reviewed
 - 간염은 바이러스, 알코올·대사, 약물·독성, 자가면역 등 다양한 원인으로 발생하는 간 염증이다. 급성 경과와 만성 경과를 구분하며, 만성 HBV는 HBsAg의 6개월 이상 지속 여부를 확인한다.
 
 ## 2. 임상 양상
-- 무증상부터 피로, 식욕저하, 구역·구토, 우상복부 불편감, 황달까지 다양하다. 의식 변화, 출혈 경향, 저혈압·저혈당은 급성 간부전 가능성을 시사한다.
+- **증상**: 무증상부터 피로·식욕저하·구역/구토·우상복부 불편, 진한 소변·황달까지 다양. 급성 간부전에서는 의식 변화 가능.
+- **진찰**: 황달·간비대·압통, 출혈·저혈압·저혈당 확인. 만성 경과에서는 비장비대·복수·거미혈관종 등 확인.
 
 ## 3. 검사
-- AST/ALT, bilirubin, ALP, albumin, PT/INR를 확인하고 원인에 따라 HAV·HBV·HCV 등 혈청검사, 약물·음주력, 자가항체 및 초음파를 선택한다.
+- **급성 평가**: AST/ALT·ALP·빌리루빈·알부민·PT/INR. 바이러스 의심 시 IgM anti-HAV, HBsAg + IgM anti-HBc, anti-HCV + HCV RNA. 최근 HCV 노출은 항체 음성이어도 RNA 확인. HEV 노출·원인 불명·면역저하에서는 IgM anti-HEV/HEV RNA를 검토.
+- **만성 평가**: HBV DNA/HCV RNA, 간탄성도·비침습적 섬유화, 간암 감시 적응증과 A/B형 면역 확인.
 
 ## 4. 진단
 - 간세포성 손상과 담즙정체 양상을 구분하고, 바이러스·자가면역·약물성·허혈성·대사성 원인을 체계적으로 감별한다. AST/ALT가 매우 높거나 INR 상승이 있으면 중증도를 즉시 판단한다.
@@ -89,3 +91,6 @@ guideline_review_status: primary_source_reviewed
 - [[만성 B형 간염 (Chronic Hepatitis B (HBV))]]
 - [[자가면역 간염 (Autoimmune Hepatitis)]]
 - [[전격성 간염 (Fulminant Hepatitis)]]
+
+## 출처
+- SNUH Manual of Medicine 6판(2022), 소화기 14장, 297–303쪽. [대한간학회 B형 간염 지침(2026)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13430407/).

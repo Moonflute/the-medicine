@@ -42,9 +42,9 @@ content_updated_at: "2026-11-16"
 - 기타: 단순 방사선 검사에서 골막 하 흡수(subperiosteal resorption)나 골염(osteitis fibrosa cystica) 소견이 관찰될 수 있다.
 
 ## 4. 진단 (Diagnosis)
-- 혈청 칼슘과 PTH 농도를 측정하여 진단한다.
-  고칼슘혈증 상태에서 PTH가 부적절하게 높거나 정상 범위인 경우 의심한다.
-- 일차성과 가족성 저칼슘뇨 고칼슘혈증(FHH)을 감별하기 위해 24시간 소변 칼슘 검사를 시행할 수 있다.
+- **고칼슘형 일차성**: 교정 총 Ca 또는 이온화 Ca 상승과 높거나 부적절하게 정상인 PTH가 **최소 2주 간격 두 번** 확인됨
+- **가족성 저칼슘뇨 고칼슘혈증(FHH)**: 24시간 소변으로 Ca/Cr 청소율비를 계산. **<0.01**이면 시사하나 CKD·비타민 D 결핍·티아지드 등도 소변 Ca를 낮출 수 있음. 젊은 연령·가족력은 유전 평가 고려
+- **장기 평가**: 25(OH)D·eGFR, DXA(요추·고관절과 원위부 요골 1/3), 필요 시 척추골절·신결석 영상. 초음파·sestamibi는 수술 계획 시 위치 확인용
 
 ## 5. 치료 (Treatment)
 **일차성: 부갑상샘 절제술이 근본 치료**
@@ -59,7 +59,8 @@ content_updated_at: "2026-11-16"
 - **<50세**
 
 - **비수술 관리**: 수술 불가 또는 관찰이 적절한 무증상 환자에서 수분·활동·적절한 Ca 섭취
-  - 고Ca: cinacalcet / 골다공증: bisphosphonate 등 고려
+  - 고칼슘: 시나칼세트(cinacalcet). 골다공증: 알렌드로네이트(alendronate) 등 항흡수제. 두 목표가 모두 중요하면 병용 적합성 평가
+  - 비수술 추적: 보통 Ca·25(OH)D·신기능은 매년, DXA는 1–2년마다. 절제 뒤 저Ca·저인·저Mg가 지속되면 hungry bone 증후군 평가
 
 **신부전 관련 이차성·삼차성**
 
@@ -76,9 +77,11 @@ content_updated_at: "2026-11-16"
 ## 6. 예후 및 합병증 (Prognosis)
 - 요로 결석, 골다공증, 골절, 근육 위축 등이 발생할 수 있다.
 
-## 출처
-- Merck Manual Professional; 삼성서울병원 외과 메뉴얼; [KDIGO CKD-MBD 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6340919/).
-
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional; 삼성서울병원 외과 메뉴얼; [KDIGO CKD-MBD 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC6340919/).
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 18장 567–572쪽.
+- [제5차 국제워크숍 일차성 부갑상샘항진증](https://doi.org/10.1002/jbmr.4677)

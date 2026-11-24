@@ -45,7 +45,7 @@ sources: ["Consensus document on the diagnosis, management, and treatment of chr
   대부분 무증상.
   증상이 있는 경우 피로, 권태감, 식욕부진, 우상복부 불편감 등이 나타날 수 있음.
 
-**신체검사**:
+**진찰**:
 
   초기에는 특이 소견 없음.
   진행 시 간경변증 징후(거미혈관종, 수장홍반, 비장비대, 복수, 황달, 간성 뇌증 등) 관찰.
@@ -73,8 +73,6 @@ sources: ["Consensus document on the diagnosis, management, and treatment of chr
 - **추가 평가**: 간 섬유화(비침습적 검사 선호), HBV·HIV 동시 감염
 - **유전자형 검사**: 예정 요법·간경변·치료 이력에 따라 필요성 판단. 범유전자형 간편 치료의 모든 환자에서 필수는 아님
 
-간 섬유화 정도 평가(비침습적 검사 선호), B형 간염 및 HIV 동시 감염 여부 확인. 유전자형 검사의 필요성은 예정 요법·간경변·치료 이력에 따라 판단하며, 범유전자형 간편 치료의 모든 환자에서 필수로 요구하지 않는다.
-
 - **감별진단**: 알코올성 간 질환, 비알코올성 지방간 질환, 자가면역 간염, 기타 바이러스성 간염.
 
 ## 5. 치료
@@ -90,8 +88,8 @@ sources: ["Consensus document on the diagnosis, management, and treatment of chr
 **간기능·치료력에 따른 요법 선택**
 
 - **치료 경험이 없고 비대상화가 없는 성인**: 대표 범유전자형 요법
-  - Glecaprevir/pibrentasvir **8주**
-  - Sofosbuvir/velpatasvir(SOF/VEL) **12주**
+  - **글레카프레비르/피브렌타스비르(glecaprevir/pibrentasvir) 300/120 mg** 하루 1회 음식과 함께, **8주**.
+  - **소포스부비르/벨파타스비르(sofosbuvir/velpatasvir) 400/100 mg** 하루 1회, **12주**. 위산 억제제와 복용 조건·상호작용 확인.
   - 간경변·유전자형 3형에서 SOF/VEL 선택 시 NS5A Y93H 등 해당 알고리즘의 추가 조건 확인
 - **현재 Child-Pugh ≥7점(B/C) 또는 비대상화 병력**: NS3 단백분해효소 억제제 포함 요법 사용하지 않음
   - 전문센터에서 SOF/VEL 기반 치료 선택
@@ -118,3 +116,4 @@ Last updated :
 
 ## 출처
 - 삼성서울병원 메뉴얼.
+- SNUH Manual of Medicine 6판(2022), 소화기 14장, 297–303쪽. [대한간학회 C형 간염 지침(2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12835810/).

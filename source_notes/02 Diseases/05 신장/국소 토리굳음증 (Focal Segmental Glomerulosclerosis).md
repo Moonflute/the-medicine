@@ -54,10 +54,11 @@ content_updated_at: "2026-11-17"
 - **원인 교정**: 이차성은 약물 중단·체중 감량 등 우선
   - 이차성·유전성 또는 신증후군 없는 FSGS에 면역억제를 일률 적용하지 않음
 - **원발성 + 신증후군**
-  - 초기: glucocorticoid, 금기·불내약 등 환자 위험에 따라 CNI 고려
+  - 초기: 프레드니손(prednisone) 또는 프레드니솔론(prednisolone) 1 mg/kg/일(최대 80 mg/일)이 대표적. 고용량 사용이 곤란하면 타크로리무스(tacrolimus)·사이클로스포린(cyclosporine) 고려.
   - 고용량 steroid: 관해 도달 또는 최대 16주까지 반응·내약성을 보며 사용
   - 무반응: 무기한 연장하지 않고 원발성 여부·steroid 저항성을 재평가, tacrolimus/cyclosporine 최소 6개월 시도
   - CNI 반응: 재발 감소를 위해 통상 ≥12개월 유지
+- **신증후군 없는 FSGS**: 미국에서 ≥8세에 스파센탄(sparsentan)이 단백뇨 감소 목적으로 승인(2026). ACEi/ARB와 병용하지 않고 간기능·혈압·K·부종·임신 위험을 확인. 국내 허가·접근성에 따라 판단.
 - **반응 불충분·재발**: 복약·감염/약물 노출·진단 타당성·유전성 원인 재평가 후 치료 개별화
 - **안전 감시**: 단백뇨·eGFR·약물 독성, CNI 사용 시 신독성·혈압·농도
   - 임신 계획·감염 위험을 약제 선택에 반영
@@ -74,3 +75,5 @@ Last updated :
 
 ## 출처
 - 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 10장 724–740쪽.
+- [FDA Filspari 2026 제품설명서](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/216403s006lbl.pdf).

@@ -76,7 +76,7 @@ sources: ["Onkopedia MDS 치료 | https://www.onkopedia-guidelines.info/en/onkop
 **위험도별 접근**
 
 - **저위험**: 빈혈·혈소판·호중구 감소 정도에 따라 적혈구/혈소판 수혈, 성장인자(EPO·G-CSF) 등 지지요법
-- **고위험**: 저메틸화제, 이식센터 조기 연계
+- **고위험**: azacitidine 등 저메틸화제 시작과 이식센터 조기 연계. 이식이 어려운 경우와 가교치료의 목표를 구분
   - 혈구 수 하나가 아니라 IPSS-R/IPSS-M, blast·세포유전/분자 이상·임상 경과로 판단
 - **이식 평가**: 고위험 및 진행성 저위험에서 조기에 시행
   - HSCT는 완치 가능 치료이나 연령·동반질환에 따른 치료 위험 고려
@@ -85,7 +85,8 @@ sources: ["Onkopedia MDS 치료 | https://www.onkopedia-guidelines.info/en/onkop
 
 - **ESA**: 증상성 빈혈에서 내인성 EPO **<500 U/L**, 특히 **<200 U/L**와 낮은 수혈 요구량이면 반응 가능성이 높음
 - **대안 검토**: EPO가 높거나 충분한 ESA에도 무반응이면 무기한 증량하지 않음
-  - 수혈 부담·ring sideroblast/SF3B1·del(5q)에 따라 luspatercept, lenalidomide 등 선택
+  - **적혈구 수혈 의존**: luspatercept 검토. Ring sideroblast/SF3B1 및 이전 ESA를 반영
+  - **Imetelstat(미국 FDA)**: 저위험~IPSS 중간-1, **8주간 적혈구 ≥4단위** 필요 + ESA 불응·반응 소실·부적합에서 검토. 혈구감소·간기능 감시
 - **Lenalidomide**: 5q 결손에서 고려, 혈전·심혈관 위험 사전 평가
   - del(5q)라도 TP53·blast 증가가 있으면 위험도 재평가
 
@@ -101,10 +102,12 @@ sources: ["Onkopedia MDS 치료 | https://www.onkopedia-guidelines.info/en/onkop
 - 급성 골수성 백혈병으로의 진행 위험이 있음.
   IPSS 및 R-IPSS를 통해 예후를 예측하며, 세포유전학적 이상(예: 5q 결손은 양호, -7은 불량)과 모세포 비율이 주요 인자임.
 
-## 출처
-- StatPearls (Myelodysplastic Syndrome)
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Myelodysplastic Syndrome)
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 11장 442–443쪽.
+- [FDA imetelstat](https://www.fda.gov/drugs/cancer-approvals/fda-approves-imetelstat-low-intermediate-1-risk-myelodysplastic-syndromes-transfusion-dependent)

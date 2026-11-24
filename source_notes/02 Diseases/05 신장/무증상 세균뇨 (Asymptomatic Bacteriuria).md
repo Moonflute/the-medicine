@@ -51,7 +51,7 @@ sources: ["IDSA 2019 | https://www.idsociety.org/practice-guideline/asymptomatic
 - **일상적 치료 불필요**: 무증상 비임신 성인·고령·당뇨·척수손상·유치도뇨관
   - 농뇨·배양 양성만으로 항생제 사용하지 않음
   - 신장이식 >1개월: 일상적 선별·치료 비권고
-  - 첫 1개월: 근거 불충분, 이식팀 개별 판단. 3개월까지 일괄 치료하지 않음
+  - 이식 첫 1개월과 고위험 호중구감소증에서는 선별·치료 근거가 충분하지 않아 개별 판단. 발열성 호중구감소증의 응급 평가·경험적 치료는 별도 기준.
 - **다른 경로로 평가**: 발열·혈역학 불안정·요로 증상 있으면 실제 UTI 및 다른 감염원 확인
 - **치료 후 재배양**: 임신·시술 맥락·재발 증상에 따라 결정
 
@@ -59,10 +59,11 @@ sources: ["IDSA 2019 | https://www.idsociety.org/practice-guideline/asymptomatic
 - 대부분의 환자는 치료 없이도 합병증이 발생하지 않음
 - 불필요한 항생제 사용은 항생제 내성균주 발생의 주요 원인이 됨
 
-## 출처
-- [IDSA 2019 — Asymptomatic bacteriuria](https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/)
-
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- [IDSA 2019 — Asymptomatic bacteriuria](https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 11장 741–747쪽.

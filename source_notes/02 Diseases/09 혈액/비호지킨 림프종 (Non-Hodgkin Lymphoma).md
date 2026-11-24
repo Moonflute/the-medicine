@@ -79,8 +79,11 @@ sources: ["NCI PDQ Lugano 병기 | https://www.cancer.gov/types/lymphoma/hp/aggr
 
 ## 5. 치료
 - **무증상 지연성 림프종**: 임상·영상·혈액검사(LDH·β2-microglobulin 등)로 관찰하며 치료 시점 판단
-- **공격성 림프종**: 아형별 항암·면역요법(R-CHOP 기반 등), 필요 시 방사선 병행
-  - 감염·골수억제 모니터링
+- **DLBCL**: R-CHOP 기반 요법. 적합한 진행성 **IPI 2–5점**은 **polatuzumab vedotin + R-CHP 6주기**도 우선 검토
+  - **IPI**: 나이 >60세, LDH 정상 상한 초과, ECOG ≥2, III–IV기, 림프절외 침범 >1곳에 각 1점
+  - 초기 불응 또는 **12개월 내 재발**: 적합하면 2차 CAR-T 평가. 늦은 재발은 구제요법 반응과 자가이식 가능성 평가
+- **기타 공격성 아형**: 전신 역형성 대세포 림프종은 brentuximab vedotin + CHP, 림프절외 NK/T세포는 asparaginase 기반 요법 등 아형별 접근
+- **Anti-CD20 예정**: HBsAg·anti-HBc·anti-HBs 확인. HBsAg 또는 anti-HBc 양성은 entecavir/tenofovir 예방과 HBV DNA 추적을 협의하고 종료 후 **최소 12개월**을 기준으로 조정
 - **재발·불응**: 전문 혈액종양센터에서 아형·초치료 후 진행까지 기간·장기기능·표적 항원으로 구제요법 선택
   - BTKi·CAR-T·조혈모세포이식 등은 모든 NHL에 공통인 순차 목록이 아님
 
@@ -89,9 +92,13 @@ sources: ["NCI PDQ Lugano 병기 | https://www.cancer.gov/types/lymphoma/hp/aggr
   공격성 림프종은 급격히 진행하나 항암 치료에 반응이 좋아 완치 가능성이 있는 반면, 지연성 림프종은 완치가 어렵고 재발이 잦은 경향이 있음.
   치료 관련 합병증(종양 용해 증후군, 감염 등)에 대한 주의가 필요함.
 
-## 출처
-- Merck Manual Professional (Non-Hodgkin Lymphomas); 삼성서울병원 메뉴얼; [NICE NG52 진단 권고](https://www.nice.org.uk/guidance/ng52/chapter/Recommendations)
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Non-Hodgkin Lymphomas); 삼성서울병원 메뉴얼; [NICE NG52 진단 권고](https://www.nice.org.uk/guidance/ng52/chapter/Recommendations)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 7장 410–415쪽.
+- [ESMO 림프종 진료지침](https://doi.org/10.1016/j.annonc.2025.07.014)
+- [EHA 거대 B세포 림프종](https://doi.org/10.1002/hem3.70207)
+- [ASCO 항암 전 HBV 평가](https://doi.org/10.1200/JCO.20.01757)

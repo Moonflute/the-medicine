@@ -47,7 +47,8 @@ content_updated_at: "2026-11-17"
 ## 5. 치료 (Treatment)
 - **관찰 가능**: 무증상 작은 종양은 성선기능·크기 추적
 - **도파민 작용제(DA)**: 표준 약물치료, 효능·내약성 면에서 cabergoline을 bromocriptine보다 우선 권고
-  - PRL·증상, 종양 크기 감소를 위한 추적 MRI 평가
+  - 카베르골린(cabergoline) **0.25 mg 주 2회** 등 저용량부터 시작하고 PRL·증상·어지럼/구역에 따라 증량. 브로모크립틴(bromocriptine)은 불내성·특수 상황에서 고려
+  - 거대종양은 보통 **3–6개월**에 MRI, 시야 이상이 있으면 더 일찍 안과 추적. 충동조절 문제·기립저혈압, 고용량 장기 사용 시 판막 평가 필요성 확인
 - **수술 검토**: 약물 저항성/불내성, 급격히 악화하는 압박·시야 증상, 낭성 병변 등에서 개별 판단
   - 작고 비침윤성 종양: 경험 많은 센터에서 처음부터 장기 약물치료와 수술의 완치 가능성·합병증 비교 가능
   - 시야장애가 있어도 급격한 악화가 없으면 약물에 빠르게 반응할 수 있어 압박만으로 즉시 수술하지 않음
@@ -60,9 +61,11 @@ content_updated_at: "2026-11-17"
 - 도파민 작용제에 반응이 좋으나 장기 복용이 필요할 수 있음.
 - 합병증으로 골다공증(성선기능저하증에 의한), 시야 장애, 뇌하수체 기능 저하 등이 발생 가능.
 
-## 출처
-- Merck Manual Professional (Prolactinoma); [Pituitary Society 2023](https://www.nature.com/articles/s41574-023-00886-5)
-
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Prolactinoma); [Pituitary Society 2023](https://www.nature.com/articles/s41574-023-00886-5)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 14장 544–550쪽.
+- [Pituitary Society 2023 프로락틴종](https://doi.org/10.1038/s41574-023-00886-5)

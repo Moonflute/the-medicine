@@ -33,7 +33,8 @@ sources: ["ACG 2024 H. pylori 제균 지침 요약 | https://gi.org/wp-content/u
 | 적절한 치료에도 재발·다발 궤양과 설사 | gastrinoma 등 | 약물·제균 실패를 먼저 확인하고 산 분비·gastrin 해석 |
 
 ## H. pylori는 치료 후 확인까지
-- **ACG 2024 경험적 선택**: 감수성 미확인 시 clarithromycin·levofloxacin 요법을 피하고, 최적화 bismuth 4제 **14일** 등 검토
+- **국내 2025 개정 지침**: 클래리스로마이신 감수성 검사가 가능하면 맞춤 3제/비스무스 4제. 검사 없이 시작할 때는 4제요법을 우선 검토. 용량은 [[H.pylori 감염 (H.pylori Infection)]] 참고
+- **ACG 2024 경험적 선택**:  감수성 미확인 시 clarithromycin·levofloxacin 요법을 피하고, 최적화 bismuth 4제 **14일** 등 검토
   - 지역 내성·기존 항생제·알레르기 반영
   - 북미 요법을 국내 내성·급여와 무관하게 그대로 적용하지 않음
 - **제균 성공 확인**: 모든 치료 후 요소호기·대변항원 또는 적절한 조직검사
@@ -53,3 +54,6 @@ sources: ["ACG 2024 H. pylori 제균 지침 요약 | https://gi.org/wp-content/u
 - [[가스트린종 (Gastrinoma)]]
 - [[십이지장 궤양 (Duodenal Ulcer)]]
 - [[위궤양 (Gastric Ulcer)]]
+
+## 출처
+- SNUH Manual of Medicine 6판(2022), 소화기 5장, 251–255쪽. [국내 H. pylori 지침 2025 개정판](https://doi.org/10.1111/hel.70149).

@@ -39,7 +39,18 @@ sources: ["BSH DIC 치료 지침 | https://pubmed.ncbi.nlm.nih.gov/19222477/"]
 - **추적**: 검사 추세와 임상 경과를 함께 평가. 단일 수치만으로 치료 필요성을 결정하지 않음
 
 ## 4. 진단 (Diagnosis)
-- **진단**: 임상 양상과 응고검사 소견을 종합하며 ISTH 점수 활용
+- **진단**: 유발질환과 급변하는 혈소판·PT·D-dimer·fibrinogen을 종합. 초기 fibrinogen이 정상이어도 소모의 추세를 확인
+
+**ISTH 2025 현성 DIC 점수**
+
+| 항목 | 점수 |
+| --- | --- |
+| 혈소판 | <50,000/μL 2점, 50,000–<100,000/μL 1점 |
+| D-dimer | 정상 상한 >7배 3점, >3–7배 2점 |
+| PT 연장 | ≥6초 2점, 3–<6초 1점 |
+| Fibrinogen | <100 mg/dL 1점 |
+
+- **합계 ≥5**: 적절한 유발 상황에서 현성 DIC에 합당. 초기 패혈증성 응고장애는 SIC 및 반복검사로 평가
 - **간질환과 감별**: Factor VIII 수치나 ISTH 점수만으로 확실히 구분하기 어려움. 기저 간질환과 DIC 유발 원인·임상 경과를 함께 평가
 
 ## 5. 치료
@@ -59,11 +70,13 @@ sources: ["BSH DIC 치료 지침 | https://pubmed.ncbi.nlm.nih.gov/19222477/"]
 - **예후**: 기저 질환의 중증도에 따라 결정
 - **주요 사망 원인**: 다발성 장기 부전·심한 출혈·혈전증
 
+Last updated :
+2026-04-03 — 본문 갱신 (Gemini fill)
+2026-05-18 — 본문 갱신 (codex fill)
+
 ## 출처
 - Merck Manual Professional (Disseminated Intravascular Coagulation)
 - 삼성서울병원 메뉴얼
 - [Factor VIII와 ISTH 점수의 간질환 동반 DIC 감별 한계(2024 원저)](https://pubmed.ncbi.nlm.nih.gov/39004080/)
-
-Last updated :
-2026-04-03 — 본문 갱신 (Gemini fill)
-2026-05-18 — 본문 갱신 (codex fill)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 9장 426–433쪽.
+- [ISTH 현성 DIC 정의·점수 개정 2025](https://www.jthjournal.org/article/S1538-7836%2825%2900220-X/fulltext)

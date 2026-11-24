@@ -42,7 +42,7 @@ sources: ["Endocrine Society | https://www.endocrine.org/clinical-practice-guide
 - **영상 검사**: 부신 CT/MRI를 통해 부신 위축(자가면역), 석회화 또는 비대(결핵/감염) 확인.
 
 ## 4. 진단 (Diagnosis)
-- **확진**: ACTH 자극 검사(Cosyntropin 250mcg 투여 후 코르티솔 반응 저하).
+- **확진**: 코신트로핀(cosyntropin) **250 µg** 자극 뒤 검사법별 코르티솔 반응 저하. 코르티솔 저하와 **ACTH 정상상한의 >2배**, 높은 레닌·낮은 알도스테론은 일차성을 지지. 21-수산화효소 항체로 자가면역 원인 평가
 - **감별**: 이차성 부신 기능저하증(ACTH 저하 동반).
 
 ## 5. 치료
@@ -61,3 +61,7 @@ sources: ["Endocrine Society | https://www.endocrine.org/clinical-practice-guide
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 15장 551–554쪽.
+- [Endocrine Society 일차성 부신부전](https://doi.org/10.1210/jc.2015-1710)

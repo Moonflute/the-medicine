@@ -62,8 +62,8 @@ sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real
 
 | 영역 | 소견 |
 | --- | --- |
-| A. 전신 염증 | 발열·오한 또는 백혈구·CRP 등 염증 소견 |
-| B. 담즙정체 | 황달 또는 bilirubin·ALP·GGT 등 간검사 이상 |
+| A. 전신 염증 | >38°C 또는 오한, WBC <4,000 또는 >10,000/mm³, CRP ≥1 mg/dL 중 하나 |
+| B. 담즙정체 | 총 bilirubin ≥2 mg/dL 또는 ALP·GGT·AST·ALT 중 하나가 정상 상한의 >1.5배 |
 | C. 영상 | 담관 확장 또는 결석·협착 등 폐쇄 원인 |
 
 - **의심**: A + (B 또는 C)
@@ -72,15 +72,35 @@ sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real
 - 패혈증·장기기능 저하 시 완전한 검사 결과를 기다리며 배액을 지연하지 않음
 - **감별진단**: 급성 담낭염·췌장염, 간농양, 담관암 등
 
+**TG18 중증도**
+
+| 등급 | 기준 |
+| --- | --- |
+| III, 중증 | 장기장애 ≥1개: 승압제 필요한 저혈압(dopamine ≥5 μg/kg/분 또는 norepinephrine 사용), 의식 장애, PaO₂/FiO₂ <300, 핍뇨 또는 Cr >2 mg/dL, INR >1.5, 혈소판 <10만/mm³ |
+| II, 중등도 | WBC >12,000 또는 <4,000/mm³, 체온 ≥39°C, 나이 ≥75세, 총 bilirubin ≥5 mg/dL, albumin <정상 하한의 0.7배 중 ≥2개 |
+| I, 경증 | II·III의 조건을 충족하지 않음 |
+
 ## 5. 치료 (Treatment)
 
 - **초기 소생·항생제**: 산소화·정맥로·수액·혈압 지지, 통증·전해질 교정과 배양 채취
-  - 지역 감수성·의료노출·신기능에 맞춘 경험적 항생제 시작
+  - 지역사회 획득·경증/중등도: **ceftriaxone 2 g IV 24시간마다**. 담도–장 문합 시 **metronidazole 500 mg IV 8시간마다** 추가
+  - 장기장애·의료관련 감염: **piperacillin/tazobactam** 등 항녹농균 제제. 쇼크 및 ESBL 위험이 높으면 **meropenem** 검토
+  - 혈액·담즙 배양에 따라 축소. 성공적 배액 뒤 보통 **4–7일**을 기준으로, 잔류 폐쇄·농양·균혈증에 따라 조정
 - **담도 배액**: 감염원 통제의 핵심. ERCP 우선 고려
   - 중등도 이상 또는 항생제·수액에 호전이 없으면 서두름
   - 일반적으로 **48시간 이내 내시경 배액** 제안(ASGE)
   - 쇼크·의식 변화·호흡/신장/응고 이상이면 장기지지와 응급 배액. 48시간을 기다리는 기한으로 해석하지 않음
   - ERCP 실패·접근 불가 시 PTBD·EUS 유도·수술 배액을 전문팀과 결정
+```flowchart
+급성 담관염의 배액 결정
+> 소생·배양·항생제 시작과 동시에 중증도 평가
+>> III 또는 쇼크 → 장기지지와 가능한 한 빠른 배액
+>> II → 조기 ERCP 배액
+>> I → 초기 치료 반응·잔류 폐쇄 평가
+>>> 호전 없거나 폐쇄 지속 → ERCP 배액
+>>> 호전·폐쇄 해소 → 원인 치료 계획
+```
+
 - **담석성 폐쇄**: 안정적이면 같은 ERCP에서 결석 제거 가능
   - 매우 불안정하면 우선 배액 후 확정 치료
   - 담낭절제 시점은 중증도·수술 위험·자원에 따라 계획
@@ -94,11 +114,15 @@ sources: ["EASL-AASLD Delphi consensus statement on surrogate endpoints and real
 
 - **합병증**: 패혈증, 간 농양, 췌장염, 담도성 간경변증, 담관암 등이 발생할 수 있다.
 
+Last updated :
+2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
+2026-05-18 — 본문 갱신 (codex fill)
+
 ## 출처
 - Merck Manual Professional (Choledocholithiasis and Cholangitis)
 - [TG18 급성 담관염 진단·중증도](https://doi.org/10.1002/jhbp.512)
 - 삼성서울병원 메뉴얼.
-
-Last updated :
-2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
-2026-05-18 — 본문 갱신 (codex fill)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 3부 20장 340–344쪽.
+- [대한감염학회·대한항균요법학회 복강내 감염 지침](https://doi.org/10.3947/ic.2022.0156)
+- [TG18 담도감염 항균치료](https://doi.org/10.1002/jhbp.518)
+- [ASGE 담관염 배액 지침](https://doi.org/10.1016/j.gie.2020.12.032)

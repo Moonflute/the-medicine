@@ -42,7 +42,7 @@ sources: ["Endocrine Society | https://www.endocrine.org/clinical-practice-guide
 - **진성 상승 확인**: 반복 총 Ca(알부민 동시) 또는 이온화 Ca
   - 보정 Ca는 추정치, 임상과 불일치 시 이온화 Ca 확인
 - **PTH 높음/부적절하게 정상**: 일차성 부갑상샘항진증 vs FHH
-  - 24시간 소변 Ca 등으로 감별
+  - 24시간 소변 Ca/Cr 청소율비 **<0.01**이면 FHH를 시사. CKD·비타민 D 결핍·티아지드의 영향을 확인
 - **PTH 억제**: 악성종양·비타민 D/육아종성 질환·약물·내분비 원인 평가
   - PTHrP: 체액성 악성종양 고칼슘혈증
   - 1,25(OH)2D: 육아종성 질환·림프종 등 calcitriol 매개 원인
@@ -54,7 +54,7 @@ sources: ["Endocrine Society | https://www.endocrine.org/clinical-practice-guide
 - **급성 중증/증상성**: 등장성 수액으로 저혈량 교정, 심부전·신부전은 과부하 면밀 감시
   - 이뇨제: 충분한 체액 회복 후 **체액 과다 시에만** 고려
 - **악성종양 관련 Ca >14 mg/dL**: 수액 + calcitonin + IV bisphosphonate 또는 denosumab
-  - Calcitonin: 빠른 가교 효과, **48–72시간까지만** 사용
+  - 칼시토닌(calcitonin) **4단위/kg 피하 또는 근육, 12시간마다**로 시작. 항흡수제 효과가 나타날 때까지 **48–72시간**만 사용
   - 골흡수 억제제: 원인·신기능과 느린 효과 발현 고려
   - IV bisphosphonate: 신기능에 따른 제제·용량·주입 속도 선택
   - Denosumab: 중증 저칼슘혈증 감시
@@ -66,11 +66,12 @@ sources: ["Endocrine Society | https://www.endocrine.org/clinical-practice-guide
 - **합병증**: 신결석, 신석회화, 급성 신손상, 부정맥 등이 발생할 수 있다.
 - **예후**: 원인 질환의 교정 여부에 따라 다르며, 중증 고칼슘혈증은 적절한 치료가 지연될 경우 치명적일 수 있다.
 
-## 출처
-- Merck Manual Professional (Hypercalcemia)
-- 삼성서울병원 메뉴얼. Endotext: Approach to Hypercalcemia를 대조. 2026-09-14 기존 목차 내 보완.
-
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Hypercalcemia)
+- 삼성서울병원 메뉴얼. Endotext: Approach to Hypercalcemia를 대조. 2026-09-14 기존 목차 내 보완.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 18장 567–572쪽.

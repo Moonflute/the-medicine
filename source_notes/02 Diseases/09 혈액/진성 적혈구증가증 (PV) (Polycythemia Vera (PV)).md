@@ -37,7 +37,7 @@ sources: ["한국 골수증식종양 지침 | https://pmc.ncbi.nlm.nih.gov/artic
 - **혈청 EPO**: 감소
 
 ## 4. 진단 (Diagnosis)
-- Hb/Hct 증가, JAK2 돌연변이 확인, EPO 감소 등을 종합하여 진단 (WHO 진단 기준).
+- **진단의 첫 역치**: 남성 **Hb >16.5 g/dL 또는 Hct >49%**, 여성 **Hb >16.0 g/dL 또는 Hct >48%**. 골수 범골수증식, JAK2 V617F/exon 12 및 낮은 EPO를 조합해 진단
 
 - **상대적 증가**: 탈수·이뇨제 등 혈장량 감소 평가
 - **이차성 증가**: 흡연·저산소증·수면무호흡·심폐질환, 신장질환·EPO 분비 종양, androgen/재조합 EPO 노출
@@ -46,7 +46,7 @@ sources: ["한국 골수증식종양 지침 | https://pmc.ncbi.nlm.nih.gov/artic
 ## 5. 치료
 - **사혈**: Hct **<45%** 유지, 혈전 위험·증상·혈구 수로 간격 개별화
   - 사혈 후 ferritin 저하만으로 철분을 무조건 보충하지 않음
-- **저용량 aspirin**: 혈전 예방, 활동성 출혈·후천성 VWF 이상 등 금기가 없는 경우
+- **저용량 aspirin 75–100 mg/일**: 활동성 출혈·후천성 VWF 이상 등 금기가 없으면 혈전 예방
 - **세포감소치료**
   - 고위험(여기서는 ≥60세 또는 혈전 병력): hydroxyurea 등 사용
   - 혈전 병력 없는 <60세도 사혈 불내성/빈번한 필요, 진행성 비장비대, 지속 증상·조절되지 않는 혈구 증가면 interferon/hydroxyurea 등 검토
@@ -59,10 +59,11 @@ sources: ["한국 골수증식종양 지침 | https://pmc.ncbi.nlm.nih.gov/artic
 - 주요 합병증은 혈전증.
   골수섬유증 또는 급성 골수성 백혈병으로 진행할 수 있음.
 
-## 출처
-- Merck Manual Professional; [Onkopedia PV 지침](https://www.onkopedia-guidelines.info/en/onkopedia/guidelines/polycythaemia-vera-pv/%40%40guideline/html/index.html); [ELN 2021 세포감소치료 권고](https://pubmed.ncbi.nlm.nih.gov/35358444/)
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional; [Onkopedia PV 지침](https://www.onkopedia-guidelines.info/en/onkopedia/guidelines/polycythaemia-vera-pv/%40%40guideline/html/index.html); [ELN 2021 세포감소치료 권고](https://pubmed.ncbi.nlm.nih.gov/35358444/)
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 11장 448쪽.

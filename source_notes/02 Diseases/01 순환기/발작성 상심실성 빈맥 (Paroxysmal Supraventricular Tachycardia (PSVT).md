@@ -37,11 +37,8 @@ sources: ["AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitat
 - **WPW 증후군**: 부전도로가 존재하며 AVRT의 주요 기질
 
 ## 2. 임상 양상
-**주요 증상**:
-
-  갑자기 발생하는 심계항진(두근거림).
-  수 분에서 수 시간 지속되며, 호흡곤란, 흉부 불편감, 어지러움, 실신 등이 동반될 수 있음.
-- **기타**: 영아의 경우 수유 곤란, 무기력증, 심부전 증상으로 나타날 수 있음.
+- **증상**: 갑작스러운 두근거림이 수분~수시간 이어지며, 호흡곤란·흉부 불편감·어지러움·실신 가능. 영아에서는 수유곤란·무기력 가능
+- **진찰**: 빠르고 대개 규칙적인 맥. 혈압·관류·폐울혈 확인
 
 ## 3. 검사
 - **공통 ECG**: 규칙적 빈맥 **120-250회/분**, 대개 좁은 QRS
@@ -61,9 +58,10 @@ sources: ["AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitat
 ## 5. 치료
 - **혈역학적 불안정**: 즉시 동기화 심율동전환
 - **혈역학적 안정**: 미주신경 자극법 우선, 실패 시 약물 치료
-  - **규칙적 좁은 QRS 빈맥**: adenosine **6 mg 급속 IV 후 flush**, 필요 시 **12 mg**
+  - **규칙적 좁은 QRS 빈맥**: 변형 발살바 수기에 반응하지 않으면 아데노신(adenosine) **6 mg 급속 정맥 + 생리식염수**, 필요 시 **12 mg**. 투여 전후 지속 심전도를 기록
   - **Adenosine 금지**: 불규칙·다형성 넓은 QRS 빈맥, 전흥분 AF
   - 심한 천식/기관지연축, 심장이식, 중심정맥 투여, 상호작용은 금기·용량 별도 검토
+  - 아데노신 부적합·불응이면 전흥분이 없고 혈압·심기능이 유지되는 환자에서 딜티아젬(diltiazem) 또는 베라파밀(verapamil) 등을 검토
 - **AF 동반 WPW**: 베라파밀·디기탈리스·베타차단제 등 AV결절 차단제 엄격히 금기
   - 부전도로 전도를 가속하여 치명적일 수 있음
 - **재발성 PSVT**: 전극도자절제술(RFCA)이 근본 치료
@@ -77,6 +75,8 @@ sources: ["AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitat
 - 지속적인 빈맥 시 빈맥 유발성 심근병증 및 심부전 발생 가능.
 
 ## 출처
+- SNUH Manual of Medicine 6판(2022), 순환기 7–8장, 142–143·151–152쪽. AVNRT/AVRT 단서와 약물·절제술.
+- [AHA 성인 전문소생술 2025](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-advanced-life-support)
 - Merck Manual Professional (Reentrant Paroxysmal Supraventricular Tachycardias)
 
 Last updated :

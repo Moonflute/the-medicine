@@ -47,13 +47,13 @@ sources: ["Society for Endocrinology 입원 관리 | https://pmc.ncbi.nlm.nih.go
 - 뇌 MRI의 후엽 고신호 소실 또는 줄기 이상은 원인 평가에 도움이 되지만, 영상 소견만으로 중추성 요붕증을 확정하거나 배제하지 않는다.
 
 ## 5. 치료
-- **확진된 AVP 결핍**: desmopressin을 소변량·갈증·Na·투여 경로에 맞춰 조절
+- **확진된 AVP 결핍**: 데스모프레신(desmopressin)을 증상·Na에 맞춰 조절. 경구제는 예를 들어 0.05 mg으로 시작해 개별 조정. 경구·비강·주사 함량을 같은 단위량으로 바꾸지 않음
   - Na 저하·체중 증가·다뇨 소실: 과량 투여/과음 확인
   - 안정 시 계획적으로 수분 배출 시간 확보
 - **고Na·의식저하·수분 접근 불가**: 입원, 순환혈량·자유수분 결손 교정
-  - 알려진 AVP 결핍 환자의 desmopressin 누락 방지
+  - 순환혈량 회복을 우선. 확진 환자에서 다량의 묽은 소변이 계속되면 데스모프레신 **1–2 µg IV/IM**을 면밀한 Na·소변량 감시하 고려. 소변량이 다시 증가하는지 보고 다음 용량 결정
   - 수액·약제 동시 투여 시 급격한 Na 하강 감시
-- **수술 후 일과성 결핍**: 회복·다상성 반응을 보며 지속 투여 필요성 재평가
+- **수술 후**: 다뇨 → 항이뇨기와 저Na → 다시 다뇨의 삼상 반응 가능. 소변량·Na에 따라 필요 시 투여하고 회복 여부 재평가. 스테로이드 보충 뒤 숨어 있던 다뇨가 드러날 수 있음
   - 성인 중추성 요붕증에 thiazide를 일률적으로 추가하지 않음
 
 ## 6. 예후 및 합병증 (Prognosis)
@@ -65,3 +65,5 @@ Last updated :
 
 ## 출처
 - 삼성서울병원 메뉴얼; [RCPA — Diabetes insipidus](https://www.rcpa.edu.au/Manuals/RCPA-Manual/Clinical-Presentations-and-Diagnoses/D/Diabetes-insipidus)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 14장 544–550쪽.
+- [Society for Endocrinology 입원 AVP 결핍](https://doi.org/10.1530/EC-18-0154)

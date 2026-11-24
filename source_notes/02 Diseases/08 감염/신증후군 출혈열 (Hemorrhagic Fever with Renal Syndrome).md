@@ -35,16 +35,16 @@ sources: ["CDC Clinician Brief: Hemorrhagic Fever with Renal Syndrome | https://
   바이러스가 혈관 내피세포를 감염시켜 혈관 투과성을 높이고, 면역 반응(사이토카인 폭풍) 및 응고계 활성화를 통해 신장 손상과 출혈을 유발한다.
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**: 발열, 근육통, 두통, 출혈 경향, 핍뇨/다뇨(신부전).
+- **증상**: 발열·두통·근육통, 복통·구토, 핍뇨 또는 회복기 다뇨.
+- **진찰**: 안면 홍조·결막 충혈, 점상출혈, 혈압·관류·부종. 전형적 단계가 모두 나타나지 않을 수 있음.
 
-**P/E**:
-
-전형적으로 5단계(발열기, 저혈압기, 핍뇨기, 다뇨기, 회복기)를 거친다.
-
-  - 발열기: 고열, 안면 및 흉부 충혈, 결막 출혈.
-  - 저혈압기: 쇼크, 출혈성 경향.
-  - 핍뇨기: 신부전, 고질소혈증, 전해질 불균형.
-  - 다뇨기: 신기능 회복 과정에서의 다뇨.
+| 경과 | 관찰할 변화 |
+| --- | --- |
+| 발열기 | 발열·통증, 단백뇨·혈소판감소 |
+| 저혈압기 | 혈관 누출, 혈압 저하·출혈, Hct 상승 가능 |
+| 핍뇨기 | Cr 상승, 고K·산증·울혈 |
+| 다뇨기 | 소변 증가에 따른 체액·전해질 손실 |
+| 회복기 | 신기능 회복과 잔여 단백뇨·혈압 추적 |
 
 ## 3. 검사 (Lab & Imaging)
 - **연속 평가**: 혈압·말초관류·소변량·체중, 혈소판·Hct·creatinine/eGFR·칼륨·산염기
@@ -66,7 +66,8 @@ sources: ["CDC Clinician Brief: Hemorrhagic Fever with Renal Syndrome | https://
   - 혈액제제: 실제 출혈·시술·응고 상태에 따라 선택, 일률 예방 투여하지 않음
 - **신대체요법**: 불응성 고칼륨혈증·산증, 난치성 체액 과부하/폐부종, 요독 합병증
   - 단일 creatinine 수치가 아닌 임상 상태로 즉시 판단
-- **전원**: 쇼크·폐부종·DIC 등은 중환자 치료 가능 기관 평가
+- **전원**: 쇼크·폐부종·DIC 등은 중환자 치료 가능 기관 평가.
+- **리바비린(ribavirin)**: 조기에 시작한 일부 연구에서 이득이 보고됨. 중증 한탄바이러스형 의심 초기에 감염내과와 적응증·국내 가용성을 검토하고 장기 지지치료는 즉시 시행.
 - **예방**: 야외에서 설치류 배설물 접촉 회피, 유행지역·고위험군에 예방수칙·조기 진료 교육
 
 ## 6. 예후 및 합병증 (Prognosis)
@@ -76,10 +77,12 @@ sources: ["CDC Clinician Brief: Hemorrhagic Fever with Renal Syndrome | https://
 - **장기 추적**: 지속 단백뇨·혈압 상승·eGFR 저하
 - **드문 뇌하수체 후유증**: 지속 다뇨·호르몬 이상, 수개월–수년 뒤 지속 피로·저혈압 등 기능저하 단서가 있으면 평가
 
-## 출처
-- StatPearls (Hemorrhagic Fever Renal Syndrome)
-- 삼성서울병원 메뉴얼. CDC Clinician Brief: Hemorrhagic Fever with Renal Syndrome를 대조. 2026-09-14 기존 목차 내 보완.
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Hemorrhagic Fever Renal Syndrome)
+- 삼성서울병원 메뉴얼. CDC Clinician Brief: Hemorrhagic Fever with Renal Syndrome를 대조. 2026-09-14 기존 목차 내 보완.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 13장 759–760쪽.
+- [CDC 신증후군 출혈열 임상 가이드](https://www.cdc.gov/hantavirus/hcp/clinical-overview/hfrs.html).

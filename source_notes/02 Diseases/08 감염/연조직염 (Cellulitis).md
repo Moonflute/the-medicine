@@ -45,9 +45,10 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 
 ## 5. 치료
 - **초기 항생제**: 비화농성/화농성·전신독성에 맞춰 선택
-  - 비화농성·전신독성 없음: 사슬알균 중심
-  - 관통상·MRSA 병력/집락·주사약물·SIRS: MRSA 범위 추가 검토
-- **농양**: 절개·배농 우선. 환부 거상·안정/고정·청결 유지
+  - **경증 비화농성**: 세팔렉신(cephalexin) 등 경구 1세대 세팔로스포린. 경구가 어렵거나 중등도이면 세파졸린(cefazolin) 정주 등.
+  - **MRSA 위험(관통상·과거 MRSA·주사약물·SIRS)**: 입원 정주가 필요하면 반코마이신(vancomycin) 등 사슬알균과 MRSA에 모두 유효한 약제.
+- **농양**: 절개·배농 우선. 전신 소견·면역저하·치료 실패가 있으면 감수성에 따른 TMP-SMX·독시사이클린(doxycycline) 등 추가. 동반 비화농성 연조직염은 사슬알균 범위도 확인.
+- **지지치료**: 환부 거상·안정·청결, 부종과 피부 균열 교정.
 - **기간**: 단순 감염은 호전 시 약 5일, 불충분하면 연장·원인 재평가
 - **초기 재평가**: 24–48시간 미호전, 전신 악화·넓은 출혈반·심한 통증이면 심부 감염 확인
   - 입원·외과/감염내과 협진 검토
@@ -59,9 +60,11 @@ sources: ["IDSA | https://www.idsociety.org/practice-guideline/skin-and-soft-tis
 - 적절한 치료 시 예후는 우수하다.
   합병증으로 농양 형성, 괴사성 근막염, 패혈증 등이 발생할 수 있다.
 
-## 출처
-- Merck Manual Professional (Cellulitis); 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Cellulitis); 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 감염 3장 769–773쪽.
+- [IDSA 피부·연조직 감염 지침](https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/).

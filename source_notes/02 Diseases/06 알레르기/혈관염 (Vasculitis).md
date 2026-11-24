@@ -59,7 +59,7 @@ sources: ["EULAR recommendations for the management of ANCA-associated vasculiti
   - 혈관벽 염증·섬유소성 괴사·백혈구 파쇄 확인
   - GPA 신장: pauci-immune GN 가능
   - PAN: 장기 생검이 어려우면 동맥조영술의 내장 동맥류·폐색 활용; HBV 검사 포함
-  - GCA: 측두동맥 생검에서 분절성 병변 고려
+  - GCA: 숙련된 기관에서는 측두·액와동맥 초음파 우선(EULAR), 접근성·판독과 사전 확률에 따라 측두동맥 생검·추가 영상. 시력 위협이면 평가와 치료를 병행.
   - 모든 환자에서 가능하지 않으며, 장기위협 AAV의 치료를 생검 결과 대기 때문에 지연하지 않음
 
 ## 4. 진단
@@ -77,19 +77,28 @@ sources: ["EULAR recommendations for the management of ANCA-associated vasculiti
 | EGPA | 천식·알레르기비염/부비동염, 호산구·IgE 증가, 폐 침윤·다발성 단신경염·자반; MPO/p-ANCA 양성일 수 있으나 필수 아님 |
 | IgA 혈관염 | 비혈소판감소성 하지 자반과 복통·관절염·신장침범 또는 IgA 침착 생검 중 하나 이상을 함께 평가 |
 
-소혈관염은 ANCA 연관(GPA·MPA·EGPA)과 비ANCA 연관(IgA 혈관염·cryoglobulinemia 등)을 구별한다.
+```flowchart
+혈관염이 의심될 때 검사 선택
+> 시력저하·객혈/저산소·Cr 급상승·장허혈·새 신경 결손 우선 평가
+>> 두통·턱 파행·시각 이상 또는 맥박/혈압 비대칭 → 대혈관 영상·GCA 초음파/생검
+>> 장기 경색·고혈압·다발성 단신경염 → 중혈관 영상/생검, HBV 등 감별
+>> 자반·활동성 요침사·폐출혈 → PR3·MPO-ANCA, anti-GBM·보체 및 장기별 생검
+>>> IgA·한랭글로불린·감염 등 면역복합체 단서 동시 평가
+```
 
 ## 5. 치료
 - **장기·생명 위협 GPA/MPA**: 고용량 glucocorticoid + rituximab 또는 cyclophosphamide로 신속한 관해 유도
   - 신부전·폐출혈 등은 입원, 류마티스·신장내과 협진
-  - 혈장교환은 선택된 상황에서 개별 검토
-- **비장기위협 AAV·기타 혈관염**: 아형·침범 장기·재발 위험에 따라 스테로이드·면역조절 치료 선택
+  - 혈장교환은 Cr >3.4 mg/dL·급격 악화/투석, 저산소성 폐포출혈 또는 anti-GBM 중복 등에서 검토.
+  - **아바코판(avacopan)**: 2026년 EU 허가 취소, 미 FDA 허가 철회 제안·중증 간손상 경고. 현지 허가와 투여 중 환자의 대체치료는 전문팀에서 확인.
+- **비장기위협 GPA**: 신·간 기능과 폐·신장 위험을 확인하고 메토트렉세이트(methotrexate) + 스테로이드 등 고려. 관해 후 리툭시맙 또는 아자티오프린(azathioprine) 등으로 유지.
 - **PAN**: 장기 침범·예후인자에 따라 스테로이드 단독 또는 cyclophosphamide 기반 관해 유도
   - HBV 관련이면 항바이러스 치료 함께 계획
-- **EGPA**: 중증도에 따라 스테로이드 중심 치료, 중증 다장기 침범·불응성은 추가 면역억제
-- **GCA의 시력 증상**: 지연 없이 즉시 glucocorticoid와 응급 평가
+- **EGPA**: 장기 위협(심장·신장·중증 신경병증 등)은 스테로이드 + cyclophosphamide 또는 rituximab. 재발·불응성 비장기위협형은 메폴리주맙(mepolizumab) 등 검토.
+- **GCA**: 시력 위협은 당일 응급 평가와 정주 methylprednisolone을 고려. 그 외 고용량 경구 스테로이드로 시작하고, 재발·스테로이드 독성 위험이 크면 토실리주맙(tocilizumab) 병합 검토.
+- **타카야수 동맥염**: 활동성이면 스테로이드 + MTX·아자티오프린 등 조기 병합. 불응·재발은 TNF 억제제를 고려하고 재관류는 허혈 긴급성과 염증 활성도를 함께 평가.
 - **중혈관염의 장허혈**: 응급 평가
-- **IgA 혈관염**: 대개 지지요법, 중증 장기 침범은 전문 평가
+- **IgA 혈관염**: 증상 치료와 혈압·요검사·Cr 추적. 성인에서 단백뇨 ≥0.5 g/일이 >4주 지속, 신기능 저하 또는 급속 진행 소견이면 신생검 고려. 신염 예방 목적의 일률적 스테로이드는 권고하지 않음.
 - **면역억제 안전관리**: 감염·예방접종·결핵/HBV 위험, 임신 계획·장기 기능 확인
   - PJP 예방·골 보호 검토
   - 관해 후 재발·감염·독성을 추적해 유지요법·감량 조정
@@ -109,3 +118,6 @@ Last updated :
 - 삼성서울병원 메뉴얼. EULAR recommendations for the management of ANCA-associated vasculitis: 2022 update를 대조. 2026-09-14 기존 목차 내 보완.
 - 삼성서울병원 메뉴얼
 - [EULAR ANCA 연관 혈관염 지침 2022 개정](https://doi.org/10.1136/ard-2022-223764)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 류마티스 10장 886–892쪽.
+- [EULAR 대혈관염 영상 개정](https://ard.bmj.com/content/83/6/741), [ACR/VF GCA·타카야수](https://doi.org/10.1002/art.41774), [KDIGO IgA 혈관염 2025](https://kdigo.org/guidelines/iga-nephropathy/).
+- [EMA 아바코판 심사 및 EU 결정](https://www.ema.europa.eu/en/medicines/human/referrals/tavneos), [FDA 아바코판 철회 제안](https://www.fda.gov/drugs/drug-alerts-and-statements/cder-proposes-withdraw-approval-tavneos).

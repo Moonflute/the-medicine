@@ -26,7 +26,7 @@ sources:
 
 - CSF, synovial fluid, pleural fluid와 deep tissue의 신속한 초기 평가
 - positive blood culture bottle의 organism morphology 보고
-- 하기도 검체의 염증과 구강 오염 가능성 평가
+- 하기도 검체의 염증과 구강 오염 가능성 평가. 객담에서 많은 편평상피세포는 타액 오염 단서. 호중구·상피세포 분포와 검사실 검체 채택 기준을 함께 해석.
 - yeast와 일부 fungal element의 신속 검출
 
 ## 한계
@@ -38,3 +38,4 @@ sources:
 ## 출처
 
 - [IDSA/ASM Guide to Utilization of the Microbiology Laboratory](https://www.idsociety.org/practice-guideline/laboratory-diagnosis-of-infectious-diseases/)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 감염 6장 784–786쪽.

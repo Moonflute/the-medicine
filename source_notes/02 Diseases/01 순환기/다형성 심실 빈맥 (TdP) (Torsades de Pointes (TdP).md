@@ -30,15 +30,14 @@ sources: ["AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitat
 심근 재분극의 지연으로 인해 조기 탈분극(early afterdepolarization)이 발생하여 트리거가 형성되고, 심근의 재분극 분산(dispersion of repolarization)이 심해지면서 빈맥이 유지된다.
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**: 어지럼증, 실신, 심계항진 등이 나타날 수 있으며, 심실세동으로 진행될 경우 급사할 수 있다.
-
-* **P/E**: 없음
+- **증상**: 갑작스러운 두근거림·어지러움·실신
+- **진찰**: 발작 중 저혈압·의식저하 또는 무맥. 발작 사이에는 특이 소견이 없을 수 있음
 
 ## 3. 검사 (Lab & Imaging)
 - 심전도(EKG)에서 긴 QT 간격 이후 QRS파의 파형이 주기적으로 변화하는 양상이 관찰된다.
 
 ## 4. 진단 (Diagnosis)
-- 심전도 소견을 통해 진단한다.
+- **진단 기준**: 빈맥 직전·직후 QT 연장과 축·진폭이 회전하는 다형성 VT. QT가 정상인 다형성 VT는 급성 허혈 등 다른 원인 경로 평가
 
 ## 5. 치료
 - **제세동**: 혈역학적 불안정 시 즉시 직류 제세동
@@ -55,6 +54,7 @@ sources: ["AHA 성인 전문소생술 2025 | https://cpr.heart.org/en/resuscitat
 - 심실세동으로 진행되어 급사할 수 있다.
 
 ## 출처
+- SNUH Manual of Medicine 6판(2022), 순환기 8장, 159쪽. QT 연장 관련 다형성 빈맥 치료.
 - Merck Manual Professional
 
 Last updated :

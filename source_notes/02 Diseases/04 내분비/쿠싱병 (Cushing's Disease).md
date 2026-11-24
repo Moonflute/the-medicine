@@ -46,7 +46,7 @@ content_updated_at: "2026-11-17"
 
 ## 4. 진단 (Diagnosis)
 - 고코르티솔혈증 확인 후 ACTH 의존성 여부를 판단하고, 뇌하수체 기원임을 입증하는 과정이 필요함.
-- 비침습 검사와 MRI 결과가 불일치하면 경험 있는 전문센터에서 IPSS를 선택적으로 검토한다. IPSS의 좌우 차이는 병변의 좌우 위치를 정하는 근거로는 신뢰도가 낮다.
+- MRI 음성·**<6 mm** 작은 병변 또는 비침습 검사 불일치 시 전문센터에서 IPSS 검토. 생화학 소견과 일치하는 **≥10 mm** 병변은 대개 생략 가능. IPSS의 좌우 차이는 병변의 좌우 위치를 정하는 근거로는 신뢰도가 낮다.
 
 ## 5. 치료 (Treatment)
 - **1차 치료**: 나비뼈경유절제술(TSS)
@@ -64,10 +64,12 @@ content_updated_at: "2026-11-17"
 - **예후**: 미치료 시 치명적일 수 있으며, 수술 후에도 재발 가능 → 평생 추적
 - **합병증**: 골다공증·고혈압·당뇨·감염 취약성·우울증
 
-## 출처
-- StatPearls (Cushing Disease)
-- 삼성서울병원 메뉴얼; [Pituitary Society 2021 consensus](https://doi.org/10.1016/S2213-8587(21)00235-7)
-
 Last updated :
 2024-07-30 — 초기 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Cushing Disease)
+- 삼성서울병원 메뉴얼; [Pituitary Society 2021 consensus](https://doi.org/10.1016/S2213-8587(21)00235-7)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 16장 555–559쪽.
+- [쿠싱병 진료 합의](https://pmc.ncbi.nlm.nih.gov/articles/PMC8743006/)

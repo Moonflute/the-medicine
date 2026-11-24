@@ -61,6 +61,7 @@ sources:
 
 ### 저산소혈증의 A–a gradient 해석
 
+- **계산**: 해수면·실내 공기에서 A–a O₂ ≈ **150 − PaCO₂/0.8 − PaO₂**(mmHg). 산소를 공급 중이면 실제 FiO₂와 기압으로 폐포 산소분압을 추정. 정상 범위는 연령에 따라 증가
 - 저산소혈증에서 정상 A–a gradient는 저환기 또는 낮은 흡입 산소분압을 시사하며, PaCO2 상승은 저환기를 뒷받침한다. A–a gradient 증가는 V/Q 불일치, 확산장애 또는 shunt를 시사하며 임상·영상과 함께 원인을 찾는다.
 - 산소 공급에 PaO2가 뚜렷이 개선되면 V/Q 불일치가 흔한 기전이고, 충분한 산소에도 개선이 제한되면 shunt를 고려한다. 혼합 기전이 흔하므로 이 반응만으로 확진하지 않는다.
 
@@ -96,5 +97,6 @@ sources:
 
 ## 9. 출처
 
+- SNUH Manual of Medicine 6판(2022), 호흡기 1·11장, 6·79쪽. 폐포 가스 방정식과 A–a O₂ 해석.
 - [MedlinePlus: Blood Gases](https://medlineplus.gov/lab-tests/blood-gases/)
 - 보완 출처: 삼성서울병원 메뉴얼

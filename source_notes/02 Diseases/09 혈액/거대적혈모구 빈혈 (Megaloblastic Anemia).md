@@ -80,14 +80,17 @@ B12는 저장량이 많아 결핍 증상이 나타나기까지 수년이 걸릴 
 - **골수**: 대개 과세포성, erythroid hyperplasia 및 비효율 조혈
 
 ## 4. 진단
-- 병력, 신체검진, 혈액 검사, 말초혈액 도말 소견 종합.
+- **단서**: 대구성 빈혈, 낮은 망상적혈구, 거대타원적혈구·과분엽 호중구. 감각이상·실조가 있으면 MCV가 정상이어도 B12 결핍 평가
+- **B12 검사**: 총 B12 **<180 pg/mL**이면 결핍, **180–350 pg/mL**는 경계(NICE, 검사실 기준 우선). 불확실하면 methylmalonic acid를 확인하고 신기능 영향 고려
+- **감별**: Homocysteine은 B12·엽산 결핍 모두 상승 가능. 심한 혈구감소·비전형 도말 또는 보충에도 무반응이면 MDS 등 평가
 - 악성빈혈 의심 시: 식도위내시경(위축성 위염 확인), 항내인자항체(anti-IF Ab) 검사.
 
 ## 5. 치료
 - **엽산 보충 전**: B12 결핍 여부 먼저 확인
   - 엽산 단독으로 혈액학적 소견이 호전돼도 B12 관련 신경 손상은 진행 가능
-- **B12 결핍**: cyanocobalamin 근육주사
-  - 매뉴얼 예시: cobalamin 1 mg 매주 8회 → 매월 유지
+- **B12 결핍**: 신경 증상·비가역적 흡수장애이면 검체 채취 뒤 결과를 기다리지 말고 근육주사 시작
+  - Hydroxocobalamin 1 mg IM을 신경 증상에서는 보통 격일 초기 투여, 다른 제제의 초기·유지 간격은 별도 확인
+  - 식이성 또는 경구 적합군: cyanocobalamin 등 **≥1 mg/일 경구** 검토
 - **엽산 결핍**: 경구 보충; 매뉴얼 예시 1 mg 매일
 - **반응 평가**: 4~6주마다 혈액학적 지표·증상 확인 후 용량·기간 조정
   - 한 달 뒤 반응 없음: 진단·흡수장애·동반질환 재검토
@@ -106,3 +109,5 @@ Last updated :
 
 ## 출처
 - Merck Manual Professional; 삼성서울병원 메뉴얼; [NIH ODS Folate](https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/); [NIH ODS Vitamin B12](https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 8장 416–425쪽.
+- [NICE 비타민 B12 결핍 NG239](https://www.nice.org.uk/guidance/ng239/chapter/recommendations)

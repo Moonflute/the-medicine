@@ -82,7 +82,8 @@ sources: ["EULAR | https://doi.org/10.1136/annrheumdis-2018-213225"]
 | 혈관 발현 | 1 |
 | Pathergy 양성(검사 선택 사항) | 1 |
 
-- **판정**: 총점 ≥4점. 다른 질환으로 더 잘 설명되지 않는지 확인하며, 분류 기준만으로 임상 진단을 대신하지 않음
+- **판정**: 총점 ≥4점. 다른 질환으로 더 잘 설명되지 않는지 확인하며, 분류 기준만으로 임상 진단을 대신하지 않음.
+- **장 침범**: 회맹부에 경계 뚜렷하고 깊은 둥근 궤양이 한두 개 또는 소수이면 의심. 내시경·필요 시 장 영상으로 범위·합병증을 확인하고 크론병·감염(장결핵 등)·NSAID 손상을 감별.
 
 ## 5. 치료
 **점막·피부·관절**
@@ -95,7 +96,7 @@ sources: ["EULAR | https://doi.org/10.1136/annrheumdis-2018-213225"]
 **안구·신경계**
 
 - **전방에 국한된 눈 병변**: 스테로이드 안약, 반응·중증도에 따라 전신 치료 평가
-- **후방 포도막염·시력 위협**: 고용량 전신 스테로이드 + azathioprine·단클론 TNF 억제제 등
+- **후방 포도막염·시력 위협**: 당일 안과 평가와 고용량 전신 스테로이드. 시력 위협이면 인플릭시맙(infliximab) 등 단클론 TNF 억제제를 초기부터 고려(EULAR 2025). 병변과 중증도에 따라 아자티오프린(azathioprine) 등 병합.
   - 국소 안약 또는 전신 스테로이드 단독으로 유지하지 않음
 - **중추신경계 침범**: 전신 스테로이드 + azathioprine 또는 cyclophosphamide 고려
   - **Cyclosporine 회피**
@@ -109,6 +110,11 @@ sources: ["EULAR | https://doi.org/10.1136/annrheumdis-2018-213225"]
   - 출혈·파열 위험 시 긴급 중재 함께 평가
 - **혈관 수술**: 파열 위험 동맥류 등에서 필요할 수 있으나 재발·이식편 혈전·접합부 동맥류 위험을 고려해 결정
 
+**장 침범**
+
+- 경증은 메살라진(mesalazine) 등, 지속·중등도 이상은 단기 스테로이드와 아자티오프린(azathioprine) 등. 중증·깊은 궤양·표준 치료 불응에서 인플릭시맙(infliximab) 또는 아달리무맙(adalimumab) 조기 검토.
+- 천공·대량 출혈·폐쇄·농양은 외과 평가와 감염원 조절 우선.
+
 **추적·안전성**
 
 - **협진**: 안과·신경·혈관 전문의와 조기 연계
@@ -120,12 +126,14 @@ sources: ["EULAR | https://doi.org/10.1136/annrheumdis-2018-213225"]
 - 예후: 남성 환자에서 상대적으로 불량한 경과를 보임
 - 만성 재발성 포도막염은 심각한 후유증을 남길 수 있고, 동맥류는 동맥 폐색보다 더 나쁜 예후를 보인다.
 
-## 출처
-- Harrison 22e, EULAR guideline 2018; 삼성서울병원 메뉴얼. International Team for the Revision of the International Criteria for Behçet's Disease. ICBD, J Eur Acad Dermatol Venereol. 2014;28:338–347. doi:10.1111/jdv.12107
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
 2026-09-15 — 삼성내과학 OCR 통합본 작성 (Terra)
+
+## 출처
+- Harrison 22e, EULAR guideline 2018; 삼성서울병원 메뉴얼. International Team for the Revision of the International Criteria for Behçet's Disease. ICBD, J Eur Acad Dermatol Venereol. 2014;28:338–347. doi:10.1111/jdv.12107
+- 서울대학교병원 내과 매뉴얼 6판(2022), 류마티스 11장 893–896쪽.
+- [EULAR 베체트 2025 개정](https://doi.org/10.1016/j.ard.2026.02.009), [BAD·BSR 베체트 진료지침 2025](https://doi.org/10.1093/rheumatology/keaf521).

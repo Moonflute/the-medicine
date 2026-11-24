@@ -47,7 +47,7 @@ reviewed_at: "2026-07-30"
 - **보조**: 혈청학·영상 소견. 혈청항체만으로 현재 감염과 과거 감염을 구별하기 어려움
 
 ## 5. 치료
-- **구충제**: praziquantel 1차, albendazole 대체요법 고려
+- **프라지콴텔(praziquantel)**: 예를 들어 **25 mg/kg 경구 하루 3회, 2일**(CDC). 불가 시 알벤다졸(albendazole)을 전문팀과 검토
 - **치료 확인**: 대변 충란 소실 여부 확인, 필요 시 재치료
 - **합병증**: 담도 폐쇄·중증 합병증 의심 시 소화기·감염내과/외과 신속 평가
 - **추적**: 치료 후 3–6개월 재감염·잔여 병변 확인, 만성 담도 손상·담관암 위험에 따라 추적 계획
@@ -57,9 +57,11 @@ reviewed_at: "2026-07-30"
 - 만성 감염은 담관 주위 섬유화를 거쳐 담관암 발생 위험을 크게 증가시킨다.
   민물고기를 충분히 익혀 먹는 것이 가장 중요한 예방법이다.
 
-## 출처
-- Merck Manual Professional (Clonorchiasis), [CDC DPDx](https://www.cdc.gov/dpdx/clonorchiasis/index.html), [CDC 임상 개요](https://www.cdc.gov/liver-flukes/hcp/clinical-overview-clonorchis/)
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Clonorchiasis), [CDC DPDx](https://www.cdc.gov/dpdx/clonorchiasis/index.html), [CDC 임상 개요](https://www.cdc.gov/liver-flukes/hcp/clinical-overview-clonorchis/)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 6부 7장 628–635쪽.
+- [CDC 간흡충 치료](https://www.cdc.gov/liver-flukes/hcp/clinical-overview-clonorchis/index.html)

@@ -33,10 +33,10 @@ sources_ref: "openFDA drug label API (US)"
 - 제2형 당뇨병 환자에서 심혈관 질환 이환율 및 사망률 감소 효과는 입증되지 않았다.
 
 #### 용법/용량
-- 식사와 함께 복용하여 생체 이용률을 최적화한다.
+- 음식의 영향은 제형별로 달라 제품별 복용법을 따름
 - 원발성 고콜레스테롤혈증/혼합형 이상지질혈증: 1일 1회 160mg 투여
 - 중증 고중성지방혈증: 1일 1회 54~160mg 투여 (최대 160mg)
-- 신장애 환자: 1일 1회 54mg으로 시작
+- **eGFR 30–<60 mL/min/1.73m²**: 제형별 저용량으로 시작(예: 해당 정제 54 mg/일, Tricor 48 mg/일). 신기능·TG를 확인한 뒤 필요 시 증량
 - 고령자: 신기능에 따라 용량 결정
 
 #### 적응증
@@ -44,7 +44,7 @@ sources_ref: "openFDA drug label API (US)"
 - 성인의 중증 고중성지방혈증 치료
 
 #### 금기증
-- 중증 신장애 (투석 환자 포함)
+- **eGFR <30 mL/min/1.73m²** 또는 투석
 - 활동성 간질환 (원발성 담즙성 간경변 포함)
 - 기존 담낭 질환
 - 페노피브레이트에 대한 과민반응
@@ -79,3 +79,5 @@ sources_ref: "openFDA drug label API (US)"
 
 ## 출처
 - openFDA drug label API (US)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 8장 514–518쪽.
+- [미국 fenofibrate 제형별 허가 예시](https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=b693e68d-f812-4993-54b6-852e3517c344&type=pdf)

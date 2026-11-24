@@ -31,14 +31,14 @@ sources: ["2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.ht
 - **기전**: 결핵균이 체내에 침입한 후 면역 체계에 의해 억제되어 증식하지 않고 휴면 상태로 존재하는 것.
 
 ## 2. 임상 양상 (Clinical Features)
-* **CC**: 무증상.
-
-* **P/E**: 특이 소견 없음.
+- **증상**: 무증상. 기침·발열·체중 감소·야간발한은 활동성 결핵 단서
+- **진찰**: 잠복감염 자체의 특이 소견 없음
 
 ## 3. 검사 (Lab & Imaging)
 - **TST(투베르쿨린 피부반응)**: 결핵균 항원에 대한 지연형 과민반응 확인; BCG 접종·NTM 감염에서 위양성 가능
 - **IGRA(인터페론 감마 분비)**: 결핵균 특이 항원에 대한 T세포 반응을 혈액으로 측정; BCG 영향이 더 적음
 - **공통 한계**: 두 검사 모두 활동성·잠복결핵을 구별하지 못함
+- **최근 노출**: 마지막 노출 뒤 초기 검사가 음성이면 창기간을 고려해 **8–10주**에 다시 검사. 면역저하·HIV 등 고위험은 활동성 배제 후 예방치료 필요성을 조기 판단
 
 ## 4. 진단 (Diagnosis)
 - 활동성 결핵을 배제한 상태에서 TST 또는 IGRA 양성 반응이 확인될 때 진단.
@@ -49,7 +49,9 @@ sources: ["2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.ht
 - **우선 치료 대상**: 최근 접촉자, HIV/면역억제 치료 예정·장기이식 후보, 규폐증 등 진행 고위험 감염자
   - 국내 지침·약제감수성·노출원 내성 확인
 - **요법 선택**: 단기 rifamycin 기반 요법 우선 고려
-  - 3개월 INH+rifapentine, 4개월 rifampin, 3개월 INH+rifampin
+  - **3HP**: 이소니아지드(isoniazid) + 리파펜틴(rifapentine), 주 1회 **12회**. 임신·약제 상호작용·노출원 내성을 평가
+  - **4R**: 리팜핀(rifampin) 매일 **4개월**. 이소니아지드 내성·리팜핀 감수성 노출에서 고려
+  - **3HR**: 이소니아지드 + 리팜핀 매일 **3개월**
   - Rifamycin 부적합: 6H/9H 대안
   - 실제 약제·용량·관찰 기준은 국내 결핵지침 적용
 - **상호작용**: 처방 전 전체 약물 확인; rifamycin은 항레트로바이러스제·항응고제·항경련제·호르몬 피임 등과 상호작용
@@ -63,6 +65,8 @@ sources: ["2024 결핵진료지침 5판 | https://www.lungkorea.org/bbs/index.ht
 - 적절한 치료 시 활동성 결핵으로의 진행 위험을 크게 낮출 수 있음.
 
 ## 출처
+- SNUH Manual of Medicine 6판(2022), 호흡기 9장, 71–73쪽, 그림 1-26. 노출 후 검사와 요법 비교.
+- [CDC 잠복결핵감염 치료](https://www.cdc.gov/tb/hcp/treatment/latent-tuberculosis-infection.html)
 - Merck Manual Professional
 
 Last updated :

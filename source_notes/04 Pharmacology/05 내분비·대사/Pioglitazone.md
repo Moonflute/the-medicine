@@ -40,7 +40,7 @@ review_status: draft
 
 #### 용법/용량
 - 초기 용량: 1일 1회 15mg 또는 30mg으로 시작합니다.
-- 심부전 환자(NYHA Class I/II): 초기 용량은 1일 1회 15mg으로 제한합니다.
+- 심부전 병력이 있고 사용이 적절한 경우 초기 15 mg/일. 현재 증상성 심부전에서는 피함
 - 용량 조절: 혈당 반응에 따라 15mg씩 증량 가능하며, 최대 1일 45mg까지 투여합니다.
 - 식사와 관계없이 복용 가능합니다.
 - 강력한 CYP2C8 억제제(예: 젬피브로질)와 병용 시 최대 용량은 1일 15mg으로 제한합니다.
@@ -50,7 +50,7 @@ review_status: draft
 - 제1형 당뇨병이나 당뇨병성 케톤산증 치료에는 사용하지 않습니다.
 
 #### 금기증
-- NYHA Class III 또는 IV에 해당하는 심부전 환자
+- NYHA III–IV 심부전에서 신규 시작 금기
 - 피오글리타존 또는 성분에 과민증이 있는 환자
 
 #### 상호작용
@@ -79,3 +79,5 @@ review_status: draft
 
 ## 출처
 - openFDA drug label API (US)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 2–3장 473–484쪽.
+- [미국 pioglitazone 허가사항](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=72b46a1e-d9ea-4a47-95ef-5eae96ef1e7f)

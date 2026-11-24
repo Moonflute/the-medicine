@@ -36,7 +36,7 @@ Mycoplasma pneumoniae, Chlamydia pneumoniae, Legionella species가 주요 원인
   폐 실질의 염증을 유발하며, 전형적 폐렴보다 경과가 완만할 수 있으나 중증으로 진행될 수 있다.
 
 ## 2. 임상 양상 (Clinical Features)
-- **주요 증상**: 서서히 시작되는 미열·두통·근육통·인후통이 선행; 대개 건성 기침이며 야간 악화 가능
+- **증상**: 미열·두통·근육통·인후통이 선행할 수 있고, 대개 건성 기침이며 야간 악화 가능
 - **원인별 단서**
   - Legionella: 오염된 물(냉각탑·가습기 등) 노출, 설사·복통, 저나트륨혈증
   - Mycoplasma: 학교·군대 등 단체 생활 중 발생, 피부 발진 등 폐외 증상
@@ -45,7 +45,7 @@ Mycoplasma pneumoniae, Chlamydia pneumoniae, Legionella species가 주요 원인
 
 ## 3. 검사 (Lab & Imaging)
 * CXR/CT: 폐엽성 경화보다는 간질성 또는 기관지 폐렴 양상이 흔함.
-* Legionella: 소변 항원 검사(L. pneumophila serogroup 1), PCR.
+* **레지오넬라 검사**: 중증 CAP 또는 여행·집단발생 등 역학 단서에서 소변항원과 호흡기 PCR/배양 검토. 소변항원은 주로 L. pneumophila 혈청군 1을 검출
 * Mycoplasma/Chlamydia: 호흡기 검체 PCR이 진단에 유용.
 * Pneumocystis: 면역저하자에서 의심 시 BAL 검체로 염색(GMS 등) 또는 PCR 시행.
 
@@ -55,7 +55,8 @@ Mycoplasma pneumoniae, Chlamydia pneumoniae, Legionella species가 주요 원인
   전형적 세균성 폐렴과 달리 그람 염색에서 원인균이 확인되지 않는 경우가 많다.
 
 ## 5. 치료
-- **항생제 선택**: 원인·연령·임신·QT·상호작용에 따라 macrolide, doxycycline 또는 호흡기 fluoroquinolone
+- **항생제 선택**: 원인·연령·임신·QT·상호작용에 따라 아지트로마이신(azithromycin)·독시사이클린(doxycycline) 등을 선택
+  - 중증 레지오넬라 의심·확인 시 아지트로마이신 또는 레보플록사신(levofloxacin)을 조건에 맞춰 검토. 중증 CAP에서 초기에는 정형균 포괄도 유지
   - 임상 양상만으로 ‘비정형’을 확정해 폐렴구균 치료를 생략하지 않음
   - 입원 CAP: 적절한 beta-lactam 병용 등 적용
 - **반응 확인**: 외래 치료 후 **48–72시간 내 호전 추세** 평가
@@ -69,6 +70,8 @@ Mycoplasma pneumoniae, Chlamydia pneumoniae, Legionella species가 주요 원인
 - 대부분 외래 치료로 호전되나, 고령자나 기저질환자는 중증 폐렴, ARDS, 패혈성 쇼크로 진행할 수 있다.
 
 ## 출처
+- SNUH Manual of Medicine 6판(2022), 호흡기 8장, 55–60쪽. 역학적 단서와 검사 선택.
+- [ATS/IDSA 성인 CAP 지침](https://www.idsociety.org/practice-guideline/community-acquired-pneumonia-cap-in-adults/)
 - StatPearls (Atypical Bacterial Pneumonia)
 
 Last updated :

@@ -98,7 +98,7 @@ review_status: "guideline_enriched"
 
 **표적치료**
 
-- **FLT3 변이**: 전통적 유도·공고에 FLT3 억제제 병용 권고
+- **FLT3 변이**: 집중 유도·공고에 **midostaurin**(ITD 또는 TKD) 검토. **FLT3-ITD**는 **quizartinib** 기반 유도·공고·유지도 선택지. 재발·불응 FLT3 변이는 **gilteritinib** 평가
 - **IDH1 변이**: azacitidine + ivosidenib 고려
 - **IDH2 변이**: azacitidine 단독 또는 HMA + venetoclax가 enasidenib 병용보다 선호될 수 있음
 
@@ -110,7 +110,10 @@ review_status: "guideline_enriched"
 - **관해 후**: 공고가 없으면 재발 위험이 높음
   - 예후 불량·이식 적합 환자: allo-HCT 권고, graft-versus-leukemia 효과·유지치료 적합성 평가
   - 이식 비대상: 추가 공고요법
-- **지지요법**: 항백혈병 치료 중단 후에도 증상 완화를 위한 적혈구 수혈 지원 권고
+- **백혈구정체 응급**: 높은 WBC와 새 저산소증·신경 증상은 절대 수치와 관계없이 세포감량을 서두름
+  - Hydroxyurea 또는 조기 유도요법과 TLS 예방·응고 모니터링. 백혈구 제거술은 증상·치료 지연 위험을 전문팀에서 평가하고 APL에는 피함
+  - 조절되지 않은 고백혈구 정체에서는 적혈구 수혈을 제한적으로 판단
+- **지지요법**: 항백혈병 치료 중단 후에도 증상 완화를 위한 적혈구 수혈 지원 검토
 
 ## 6. 예후 및 합병증 (Prognosis)
 - **예후 인자**: 연령, de novo/secondary AML, 초기 백혈구 수, 골수외 질환, 세포유전·분자 이상
@@ -123,11 +126,14 @@ review_status: "guideline_enriched"
 - **MRD**: 유세포·분자검사로 추적, 2017 반응표와 현재 질환·검사법별 표준을 구별
 - **합병증 감시**: 감염·출혈·종양용해증후군(TLS), 빈혈·혈소판 감소 관련 합병증, 고백혈구증 관련 leukostasis
 
-## 출처
-- Merck Manual Professional (Acute Myeloid Leukemia)
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
 2026-07-15 — 공식 지침 기반 Tier 2 보강
+
+## 출처
+- Merck Manual Professional (Acute Myeloid Leukemia)
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 11장 438–441쪽.
+- [ELN 성인 AML 2022](https://doi.org/10.1182/blood.2022016867)
+- [FDA FLT3-ITD AML의 quizartinib](https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-quizartinib-newly-diagnosed-acute-myeloid-leukemia)

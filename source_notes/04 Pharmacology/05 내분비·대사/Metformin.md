@@ -40,11 +40,11 @@ review_status: draft
 - 제1형 당뇨병 환자에게는 권장되지 않음
 
 #### 용법/용량
-- 식사와 함께 1일 2회 경구 투여
-- 환자의 치료 반응 및 내약성에 따라 개별화
-- eGFR 30 mL/min/1.73 m² 미만: 사용 금기
-- eGFR 30~45 mL/min/1.73 m²: 사용 권장되지 않음
-- 요오드화 조영제 사용 시: eGFR 30~60 mL/min/1.73 m² 환자나 간질환, 심부전, 알코올 중독 환자는 조영제 투여 시점 또는 그 이전에 일시 중단 필요
+- **시작**: 속방형은 식사와 함께 500 mg 1일 1–2회부터 내약성에 맞춰 증량. 서방형은 제품별 복용 횟수 확인
+- **신기능**: eGFR 30–<45 mL/min/1.73m²에서 신규 시작은 피함. 기존 사용자는 이 범위에서 총 1,000 mg/일 이하로 감량을 검토하고, eGFR <30이면 중단
+- **요오드 조영제**: 제품 허가·기관 지침 확인
+  - 미국 허가사항: eGFR 30–60, 간질환·심부전·알코올중독 병력 또는 동맥 내 투여 시 투여 전이나 당일 중단. 48시간 후 eGFR가 안정적이면 재개
+  - ACR: AKI가 없고 eGFR ≥30인 환자의 정맥 내 투여는 중단 없이 진행 가능
 
 #### 적응증
 - 제2형 당뇨병 성인 환자의 혈당 조절 개선
@@ -84,3 +84,7 @@ review_status: draft
 ## 출처
 - openFDA drug label API (US)
 - 내부 약리학 템플릿
+- 서울대학교병원 내과 매뉴얼 6판(2022), 5부 2–3장 473–484쪽.
+- [미국 metformin 허가사항](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=17050df5-9e95-4e1b-ac75-34add289b139)
+- [ACR 조영제 지침](https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Contrast-Manual)
+- [ADA·KDIGO 당뇨병 및 CKD 합의문](https://doi.org/10.2337/dci22-0027)

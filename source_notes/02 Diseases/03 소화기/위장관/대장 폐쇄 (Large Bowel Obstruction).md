@@ -28,9 +28,9 @@ sources: ["Merck Manual 장폐쇄 | https://www.merckmanuals.com/professional/ga
   - 회맹판이 닫힌 상태에서는 폐쇄 루프(closed-loop)를 형성해 천공 위험 증가
 
 ## 2. 임상 양상 (Clinical Features)
-- **CC**: 복부 팽만·복통, 구토, 배변·가스 배출 중단
+- **증상**: 복부 팽만·복통, 구토, 배변·가스 배출 중단
   - 구토는 소장폐쇄보다 덜 흔하고 늦게 나타날 수 있음. 구토 유무만으로 대장폐쇄를 배제하거나 소장폐쇄로 단정하지 않음
-- **P/E**: 팽만·고창음·장음 변화. 반발통·강직 등 복막 자극 징후는 허혈·천공 시사
+- **진찰**: 팽만·고창음·장음 변화. 반발통·강직 등 복막 자극 징후는 허혈·천공 시사
 
 ## 3. 검사 (Lab & Imaging)
 - **복부 X-ray**: 대장 팽만·공기-액체 층
@@ -48,7 +48,8 @@ sources: ["Merck Manual 장폐쇄 | https://www.merckmanuals.com/professional/ga
 
 **원인에 따른 치료**
 
-- **ACPO**: 합병증 없으면 원인 약물·전해질 이상·감염 교정 후 보존 치료 반응 관찰
+- **ACPO**: 복막염·허혈 없음, 맹장 직경 **<12 cm**이면 원인 약물·전해질·감염 교정, 금식·감압 후 반복 진찰과 영상으로 경과 관찰(대체로 **48–72시간**).
+  - 확대가 진행하거나 **≥12 cm**, 통증·압통 증가, 발열이면 보존 치료만 계속하지 않고 긴급 감압·외과 필요성을 평가.
   - 무반응 또는 감압 필요 시 금기를 확인하고 **네오스티그민 2 mg IV, 3–5분에 걸쳐 투여**를 전문팀과 고려. 기계적 폐쇄에 적용하지 않음
   - 지속 심장 리듬·호흡 감시, 서맥에 대비해 아트로핀 준비. 서맥·기관지경련 위험 사전 평가
   - 약물 부적합·실패 시 내시경 감압, 천공·복막염 시 수술 우선
@@ -70,10 +71,11 @@ sources: ["Merck Manual 장폐쇄 | https://www.merckmanuals.com/professional/ga
 ## 6. 예후 및 합병증 (Prognosis)
 * **수술 적응증**: 발열, 빈맥, 심한 압통, 복막 자극 징후, 영상학적 천공 소견.
 
-## 출처
-- StatPearls (Large Bowel Obstruction)
-- 삼성서울병원 메뉴얼.
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Large Bowel Obstruction)
+- 삼성서울병원 메뉴얼.
+- SNUH Manual of Medicine 6판(2022), 소화기 11장, 280–282쪽. [ASGE 급성 대장 가성폐쇄·염전 지침](https://www.asge.org/docs/default-source/guidelines/american-society-for-gastrointestinal-endoscopy-guideline-on-the-role-of-endoscopy-in-the-management-of-acute-colonic-pseudo-obstruction-and-colonic-volvulus-2020-february-gie.pdf).

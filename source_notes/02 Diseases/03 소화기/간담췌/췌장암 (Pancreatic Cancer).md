@@ -91,8 +91,9 @@ sources: ["NCI PDQ | https://www.cancer.gov/types/pancreatic/hp/pancreatic-treat
 
 ## 5. 치료
 - **절제 가능**: 위치에 따라 췌십이지장절제술(Whipple) 또는 원위부 절제
-  - 다학제에서 선행치료 여부·수술·수술 후 전신치료 계획, 수술 적합성 재평가
-- **경계 절제 가능**: 선행 전신치료 후 재평가
+  - 회복 후 보조항암 **총 6개월** 계획. **ECOG 0–1**이고 장기기능이 양호하면 **mFOLFIRINOX**, 고강도 치료가 부적합하면 gemcitabine + capecitabine 등 검토
+- **경계 절제 가능**: 조직 확인 후 mFOLFIRINOX 또는 gemcitabine + nab-paclitaxel 등 선행치료 → 전이·혈관 관계와 절제 가능성 재평가
+- **국소 진행**: 전신치료 후 전이 없이 반응한 일부는 전문팀에서 전환 수술 가능성 평가
 - **절제 불가·전이**: 수행능력·장기기능·신경병증 위험·환자 목표에 따라 FOLFIRINOX, gemcitabine+nab-paclitaxel 등 선택
   - FOLFIRINOX/NALIRIFOX 등 고강도 병합: 주로 **ECOG 0–1 + 충분한 장기기능**에서 검토
   - 허약·장기기능 저하: 저강도 요법 또는 증상 중심 치료
@@ -115,3 +116,5 @@ Last updated :
 
 ## 출처
 - 삼성서울병원 메뉴얼.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 3부 22장 352–358쪽.
+- [Pan-Asian ESMO 췌장암 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC12546840/)

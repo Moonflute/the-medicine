@@ -53,7 +53,8 @@ sources: ["EULAR | https://doi.org/10.1136/annrheumdis-2019-216114"]
   - Schirmer: 하안검 검사지의 젖은 길이 **≤5 mm/5분**이면 양성
   - Ocular staining score: 객관적 안구건조 평가
 - **침샘 평가**: 초음파, 타액 분비량, 이하선 조영술, 신티그래피, 소타액선 생검
-  - 생검: 정상 선방조직을 대치하는 림프구 침윤·국소 타액선염
+  - 생검: 소타액선의 국소 림프구성 염증. Focus는 대개 단핵구 ≥50개 집합이며, 4 mm²당 focus 수를 계산.
+  - 신장 침범 의심: Cr·전해질·HCO₃⁻·소변검사. 저K를 동반한 정상 AG 산증이면 원위 RTA 평가.
 
 ## 4. 진단 (Diagnosis)
 - **진단**: 임상·혈청·안과·조직검사를 종합. ACR/EULAR 기준은 분류를 돕지만 임상 판단을 대신하지 않음.
@@ -85,7 +86,7 @@ sources: ["EULAR | https://doi.org/10.1136/annrheumdis-2019-216114"]
 - **안구 건조**: 인공눈물·점안제 정기 사용
   - 악화 시 안과에서 누점 폐쇄·cyclosporine 점안 등 평가
 - **구강 건조**: 충분한 수분, 무설탕 껌, 구강 위생·정기 치과검진으로 충치 예방
-  - 잔여 분비기능 있음: **pilocarpine 5 mg 하루 3회** 또는 **cevimeline 30 mg 하루 3회** 고려
+  - 잔여 분비기능 있음: 필로카르핀(pilocarpine) 5 mg 1일 1회부터 내약에 따라 1일 3회로 증량, 또는 세비멜린(cevimeline) 30 mg 1일 3회 고려. 발한·심혈관 이상·조절 안 되는 천식 등 확인.
   - 분비기능 소실이 심함: 인공타액 중심
 - **약물 검토**: 이뇨제·항고혈압제·항우울제 등 건조를 악화할 수 있는 약제 주의
 
@@ -93,7 +94,8 @@ sources: ["EULAR | https://doi.org/10.1136/annrheumdis-2019-216114"]
 
 - **관절통·관절염**: NSAID, 필요 시 hydroxychloroquine 고려
   - HCQ 사용 시 안과·간·혈액학적 부작용 감시
-- **활동성 혈관염·ILD·신장 등 중요 장기 침범**: 중증도에 따라 스테로이드·면역억제제 선택
+- **활동성 혈관염·ILD·신장 등 중요 장기 침범**: 장기 중증도에 맞춰 스테로이드·면역억제제. 심한 한랭글로불린혈증성 혈관염은 리툭시맙(rituximab) 등 검토.
+- **림프종 평가**: 지속·비대칭 침샘 비대, 림프절 증대, 촉지 자반·낮은 C4·한랭글로불린 등이 있으면 영상·혈액내과 및 조직 평가.
   - **건조·피로만으로 전신 스테로이드나 생물학제를 시작하지 않음**
 - **추적**: 완치보다 증상 조절·장기 손상 예방에 초점. 건조 증상, 치과·안과 손상, 전신 활성도에 맞춰 평가
 
@@ -112,3 +114,5 @@ Last updated :
 - Merck Manual Professional (Keratoconjunctivitis Sicca)
 - 삼성서울병원 메뉴얼
 - Shiboski CH, et al. 2016 ACR/EULAR Classification Criteria for Primary Sjögren's Syndrome. *Arthritis Rheumatol.* 2017;69:35–45. doi:10.1002/art.39859.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 류마티스 7장 871–873쪽.
+- [BSR 쇼그렌병 관리 지침](https://doi.org/10.1093/rheumatology/keae152).

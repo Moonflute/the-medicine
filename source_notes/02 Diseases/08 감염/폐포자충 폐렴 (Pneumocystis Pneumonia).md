@@ -53,10 +53,10 @@ sources: ["NIH 성인 PCP | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clini
 ## 5. 치료
 **치료**
 
-- **HIV 관련 PCP**: TMP-SMX 21일
+- **HIV 관련 PCP**: TMP-SMX **21일**. 치료 용량은 TMP 성분 **15–20 mg/kg/일**을 분할. 중등도–중증은 정주로 시작하고 호전 후 경구 전환, 경증–중등도는 경구 가능.
 - **HIV PCP의 보조 steroid**: 실내공기 PaO₂ <70 mmHg 또는 A–a 차 ≥35 mmHg이면 항균제 시작 72시간 이내 병용
   - 비HIV PCP의 모든 저산소 환자에게 이 근거를 일률적으로 확대하지 않음
-- **대체요법**: 설파제 알레르기·TMP-SMX 불내성이면 atovaquone, pentamidine, primaquine + clindamycin 등 선택
+- **대체요법**: 경증–중등도는 아토바쿠온(atovaquone) 등, 중등도–중증은 클린다마이신(clindamycin) + 프리마퀸(primaquine) 또는 정주 펜타미딘(pentamidine). G6PD·흡수·전해질과 독성 고려.
 - **약물 안전성**: 신기능·혈액학적 이상·피부 반응 정기 확인
   - TMP-SMX: 고칼륨혈증·호중구감소·간장애 추적
   - Dapsone 또는 primaquine 전: G6PD 결핍 확인
@@ -64,7 +64,8 @@ sources: ["NIH 성인 PCP | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clini
 
 **예방**
 
-- **HIV 일차 예방**: CD4 <100/μL 또는 CD4 100–200/μL이면서 HIV RNA 검출
+- **HIV 일차 예방**: ART 미시작·시작 시 CD4 <200/µL. 이미 ART 중이면 CD4 <100/µL(바이러스량 무관), 또는 CD4 100–200/µL에서 HIV RNA가 지속 검출될 때.
+  - TMP-SMX 1정 매일(SS 80/400 mg 또는 DS 160/800 mg)이 대표적. ART로 CD4 ≥200/µL가 ≥3개월 유지되면 중단 고려.
 - **PCP 후 이차 예방**: 유지하며, ART로 CD4 ≥200/μL가 ≥3개월 지속되면 중단 검토
 - **비HIV 예방**: 면역억제 종류·용량·기간 등 별도 위험으로 판단
 
@@ -72,9 +73,11 @@ sources: ["NIH 성인 PCP | https://clinicalinfo.hiv.gov/en/guidelines/hiv-clini
 - 치료하지 않으면 사망률이 매우 높다.
   면역 저하 환자(특히 CD4 수치 저하 등)에서는 TMP-SMX를 이용한 예방적 투여가 중요하다.
 
-## 출처
-- StatPearls (Pneumocystis jirovecii Pneumonia); 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Pneumocystis jirovecii Pneumonia); 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 감염 7장 793쪽.
+- [NIH HIV 성인 PCP 지침](https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-opportunistic-infections/pneumocystis).

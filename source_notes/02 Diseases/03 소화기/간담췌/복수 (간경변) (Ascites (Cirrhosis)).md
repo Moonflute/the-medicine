@@ -56,6 +56,7 @@ sources: ["KASL 복수 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6166105
 | <1.1 g/dL | 복막 악성종양·결핵 등 감염, 췌장성 복수·신증후군 등 평가 |
 
 - **해석 주의**: SAAG는 단백 농도에 따른 누출액/삼출액 분류와 다름
+  - **SAAG ≥1.1 g/dL + 복수 단백 ≥2.5 g/dL**: 경정맥압·심초음파 등으로 심장성 복수 평가
   - 신증후군 복수는 누출액이어도 SAAG <1.1 g/dL 가능
   - 총단백·세포 수·배양, 영상·병력을 함께 해석. 복합 원인이나 임상상 불일치 시 재평가
 
@@ -67,7 +68,7 @@ sources: ["KASL 복수 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6166105
   - 대표 병용 비율 **100:40 mg**, 최대 **400/160 mg/일**
   - 신기능·Na/K·혈압·반응에 따라 단계적으로 조절
 - **반응 추적**: 매일 체중, 부종·복부 팽만, 소변량, 신기능·전해질 확인
-  - 말초부종이 없으면 체중 감소를 대체로 **0.5 kg/일 이하**로 유지
+  - 체중 감소: 말초부종 없으면 하루 **≤0.5 kg**, 부종 동반 시 보통 **≤1 kg**를 목표로 조정
   - 소변 나트륨은 섭취·이뇨 반응의 보조 자료. 한 번의 수치로 식이 불이행을 단정하거나 자동 증량하지 않음
   - 시작·증량 후 검사 간격은 안정성·입원 여부에 따라 조정
 - **감량·중단**: AKI, 심한 전해질 이상, 뇌증 악화 또는 **Na <125 mmol/L**
@@ -100,11 +101,13 @@ sources: ["KASL 복수 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC6166105
 
 자발성 세균 복막염(Spontaneous Bacterial Peritonitis, SBP), 간신 증후군(Hepatorenal Syndrome, HRS), 배꼽 탈장, 흉수 등이 발생할 수 있음.
 
+Last updated :
+2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
+2026-05-18 — 본문 갱신 (codex fill)
+
 ## 출처
 - Merck Manual Professional (Cirrhosis)
 - [AASLD 복수·SBP·HRS 지침](https://www.aasld.org/practice-guidelines/diagnosis-evaluation-and-management-ascites-spontaneous-bacterial-peritonitis)
 - 삼성서울병원 메뉴얼.
-
-Last updated :
-2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
-2026-05-18 — 본문 갱신 (codex fill)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 3부 18장 322–325쪽.
+- [대한간학회 간경변 복수·합병증 2026](https://doi.org/10.3350/cmh.2026.0281)

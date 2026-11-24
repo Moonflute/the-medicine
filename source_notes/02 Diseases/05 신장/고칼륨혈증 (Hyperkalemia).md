@@ -21,7 +21,7 @@ sources: ["2023 Korean Society of Nephrology Consensus Guideline for the Managem
 분과 : [[신장]]
 
 ## 1. 개요
-- **정의**: 혈청 K >5.5 mEq/L
+- **정의**: 혈청 K가 검사실 정상 상한 초과. 응급 분류는 **5.5–5.9 경도, 6.0–6.4 중등도, ≥6.5 mmol/L 중증**
 - **원인**
   - 배설 감소: AKI·CKD·저aldosterone, ACEi/ARB·NSAID·K 보존 이뇨제
   - 세포 밖 이동: 산증·인슐린 결핍·횡문근융해·종양용해
@@ -29,8 +29,9 @@ sources: ["2023 Korean Society of Nephrology Consensus Guideline for the Managem
 - **기전**: 주로 신장 배설 저하, 세포 밖 유출이 동반될 수 있음
 
 ## 2. 임상 양상 (Clinical Features)
-- **CC**: 대개 무증상, 근력저하 가능
-- **심장 독성**: peaked T·PR 연장·QRS 확장·P파 소실·sine wave, 심실세동/심정지
+- **증상**: 대개 무증상, 근력 저하·심계항진·실신 가능
+- **진찰**: 근력·반사 저하, 서맥·불규칙한 맥박
+- **심전도**: peaked T·PR 연장·QRS 확장·P파 소실·sine wave, 심실세동/심정지
 
 ## 3. 검사 (Lab & Imaging)
 - 혈청 전해질(K, BUN, Cr) 측정
@@ -46,25 +47,28 @@ sources: ["2023 Korean Society of Nephrology Consensus Guideline for the Managem
 - **긴급도**
   - K ≥6.5 mmol/L: ECG가 정상이어도 응급 평가·심전도 감시·세포 내 이동 치료
   - K 6.0–6.4: AKI·급상승·전신 상태·ECG에 따라 즉시 치료
-- **막 안정화**: 독성 ECG 변화 시 IV calcium 우선
+- **막 안정화**: 독성 ECG 변화 시 **10% 칼슘 글루코네이트(calcium gluconate) 30 mL IV/10분**. 심정지·심정지 직전은 **10% 염화칼슘(calcium chloride) 10 mL IV/5분** 고려. 제제·농도를 구분하고 ECG 재평가
 - **세포 내 이동**: insulin-glucose, 흡입 β2 작용제
-  - UKKA 성인 예: soluble insulin 10 U + glucose 25 g IV
+  - 성인 **regular insulin 10단위 + 포도당 25 g IV**. 시작 혈당 **<126 mg/dL**이면 저혈당 방지를 위해 10% 포도당 50 mL/h 5시간 추가 고려
+  - 살부타몰(salbutamol) **10–20 mg 흡입**은 보조. 중증에서 단독 투여하지 않음
   - 저체중·신부전·낮은 시작 혈당: 저혈당 위험을 반영한 기관 프로토콜 적용
   - 체내 K를 제거하지 않아 반등 가능 → K·혈당·ECG 반복 감시
   - 혈당 최소 6시간, K 초기 약 1–2시간 및 이후 재상승 시점 확인
 - **K 제거**
   - 소변이 나오고 저혈량이 아닌 환자: loop 이뇨제 고려
   - 급성 중증·난치성 또는 신부전: 조기 투석팀 상의
-  - 경구 결합제(예: sodium polystyrene sulfonate): 발현 속도·장관 안전성 고려, 응급 단독 처치로 의존하지 않음
+  - 지르코늄사이클로규산나트륨(sodium zirconium cyclosilicate) 등 경구 결합제는 제거를 돕는 보조 옵션. 체액 과다·경구 투여 가능 여부 확인. 중증에서 칼슘·이동 치료·투석을 지연하지 않음
 - **재발 예방**: 안정 후 유발 약물·식이·산증·변비 재평가
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 치명적인 부정맥 발생 위험
 
-## 출처
-- Merck Manual Professional (Hyperkalemia)
-- 삼성서울병원 메뉴얼. 2023 Korean Society of Nephrology consensus guideline를 대조. 2026-09-14 기존 목차 내 보완. [UKKA 2023](https://guidelines.ukkidney.org/hyperkalaemia/).
-
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Hyperkalemia)
+- 삼성서울병원 메뉴얼. 2023 Korean Society of Nephrology consensus guideline를 대조. 2026-09-14 기존 목차 내 보완. [UKKA 2023](https://guidelines.ukkidney.org/hyperkalaemia/).
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 3장 654–668쪽.
+- [UKKA 성인 급성 고칼륨혈증](https://www.ukkidney.org/health-professionals/guidelines/treatment-acute-hyperkalaemia-adults-0)

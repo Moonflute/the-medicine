@@ -36,9 +36,8 @@ sources: ["폐암 진료 가이드라인 2023 | https://www.lungcancer.or.kr/bbs
 - **기전**: 주로 중심 기도 (central airway)에서 발생하며, 빠르게 성장하고 조기에 전이되는 경향이 있다.
 
 ## 2. 임상 양상 (Clinical Features)
-- **주요 증상**: 기침·호흡곤란·흉통·객혈
-- **부종양 증후군**: SIADH에 의한 저나트륨혈증, ACTH 분비에 의한 쿠싱 증후군 등이 흔함
-- **진찰**: 상대정맥 증후군·림프절 종대 등
+- **증상**: 기침·호흡곤란·흉통·객혈. SIADH·이소성 ACTH 또는 신경계 부종양 증후군이 동반될 수 있음
+- **진찰**: 안면·상지 부종과 경정맥 확장은 상대정맥 증후군 단서. 쇄골상 림프절·근력 저하 확인
 
 ## 3. 검사 (Lab & Imaging)
 - **영상 검사:** 흉부 X-ray, 흉부 CT (종격동 림프절 침범 확인).
@@ -65,21 +64,29 @@ sources: ["폐암 진료 가이드라인 2023 | https://www.lungcancer.or.kr/bbs
   - 절제 후 platinum+etoposide 보조치료 검토
   - 대부분의 소세포암에 수술을 일반화하지 않음
 - **제한기**
-  - 수행능력·장기기능 적합: platinum+etoposide + 흉부 방사선 동시치료
+  - 수행능력·장기기능 적합: 시스플라틴(cisplatin) + 에토포시드(etoposide)와 흉부 방사선 동시치료. 시스플라틴 부적합 시 카보플라틴(carboplatin) 고려
   - 동시치료 불내성: 순차치료 검토
-  - 동시 항암방사선 후 진행 없는 성인: durvalumab 공고치료 평가
-- **확장기**: 적합 환자에서 platinum+etoposide+atezolizumab 또는 durvalumab → 유지 면역치료
+  - 동시 백금 기반 항암방사선 후 진행 없는 성인: 더발루맙(durvalumab) 공고치료 평가
+- **확장기**: 적합 환자에서 백금 제제·에토포시드와 아테졸리주맙(atezolizumab) 또는 더발루맙(durvalumab) → 유지 면역치료
   - 면역치료 금기·수행능력·장기기능에 따라 조정
+  - **Carboplatin + etoposide + atezolizumab** 유도 후 진행 없음: **lurbinectedin + atezolizumab** 유지 옵션(미국 FDA 2025). 골수억제와 국내 사용 조건 확인
 - **뇌 관리**: 반응·나이·인지기능·MRI 추적 가능성에 따라 PCI 또는 MRI 감시 논의
   - PCI는 이미 생긴 뇌전이 치료와 구분
-- **재발**: 이전 반응·무치료 기간·독성·수행능력에 따라 재도전·후속약제·임상시험 선택
+- **재발**: 이전 반응·무치료 기간·독성·수행능력에 따라 백금 재도전·후속약제 선택
+  - **확장기, 백금 치료 중·후 진행**: tarlatamab(미국 FDA 정식 승인), topotecan·lurbinectedin 등 검토
+  - Tarlatamab: 초기 단계 증량과 **사이토카인방출증후군·신경독성** 감시가 가능한 환경에서 투여
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 매우 공격적인 암으로 진단 시 이미 전신 전이가 있는 경우가 많으며, 치료 반응은 좋으나 재발률이 높다.
 
-## 출처
-- Merck Manual Professional
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- SNUH Manual of Medicine 6판(2022), 호흡기 5장, 35–37쪽. 제한기·확장기 분류와 방사선치료.
+- [FDA 제한기 소세포폐암 더발루맙 적응증](https://www.fda.gov/drugs/cancer-approvals/fda-approves-durvalumab-limited-stage-small-cell-lung-cancer)
+- Merck Manual Professional
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 6장 400–409쪽.
+- [IMforte 유지치료](https://pubmed.ncbi.nlm.nih.gov/40473449/)
+- [FDA tarlatamab](https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-tarlatamab-dlle-extensive-stage-small-cell-lung-cancer)

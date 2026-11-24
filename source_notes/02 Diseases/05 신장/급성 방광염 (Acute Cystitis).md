@@ -31,8 +31,8 @@ review_status: "guideline_enriched"
 - **기전**: 요도 주위 세균이 상행해 방광 상피에 부착·침입
 
 ## 2. 임상 양상
-- **CC**: 빈뇨·절박뇨·배뇨통(FUND), 하복부 통증/불쾌감
-- **동반 소견**: 혈뇨·혼탁뇨·치골상부 압통, 발열·오한 등 전신 증상은 대개 없음
+- **증상**: 빈뇨·절박뇨·배뇨통, 하복부 불편감·혈뇨.
+- **진찰**: 치골상부 압통 가능. 발열·오한·갈비척추각 압통이 있으면 전신/상부 UTI 감별.
 
 ## 3. 검사
 - **요검사**: 농뇨·nitrite 양성은 진단에 도움
@@ -53,24 +53,27 @@ review_status: "guideline_enriched"
 - **선택 원칙**: 국소/전신 범위, 요로 이상·임신·면역저하, 지역 내성·최근 배양·알레르기·신기능 고려
   - 배양 확인 후 좁은 범위로 조정, 증상 완화 병행
 - **비임신 성인 여성의 국소 방광염**
-  - Nitrofurantoin: 제형에 맞춰 통상 5일
+  - 니트로푸란토인(nitrofurantoin): 제형에 맞춰 통상 5일. 예: monohydrate/macrocrystal 100 mg 1일 2회.
   - Fosfomycin trometamol: 3 g 단회
-  - TMP-SMX: 지역 E. coli 내성 <20% 또는 감수성 확인 시
+  - TMP-SMX: 지역 E. coli 내성 <20% 또는 감수성 확인 시 160/800 mg 1일 2회, 3일.
   - 대안이 부적합하면 감수성·위험에 따라 2/3세대 cephalosporin 등 검토. Fluoroquinolone은 통상 우선 선택하지 않음
 - **적용 제한**
   - Nitrofurantoin: eGFR <30 mL/min/1.73m²에서 회피
   - 발열·옆구리 통증: nitrofurantoin/경구 fosfomycin으로 신우신염을 치료하지 않음
   - 남성·임신·전립선 침범·전신 감염: 별도 약제/기간 기준. 임신은 cephalosporin 등 안전성·감수성 반영
-- **재평가**: 지속·악화 또는 새 발열/옆구리 통증 → 내성균·신우신염·폐쇄·다른 진단 확인
+- **재평가**: 지속·악화 또는 새 발열/옆구리 통증 → 내성균·신우신염·폐쇄·다른 진단 확인.
+- **재발성 국소 방광염**: 6개월에 ≥2회 등 반복되고 증상·농뇨·배양이 일치하는지 확인. 폐경이행기·폐경 후에는 질 에스트로겐, 일부는 메테나민(methenamine hippurate)을 고려. 필요 시 배양 기반 저용량 지속 또는 성관계 후 항생제 예방을 논의.
 
 ## 6. 예후 및 합병증
 - 적절한 치료 시 예후는 양호함
 - 치료하지 않을 경우 신우신염(Pyelonephritis)으로 진행 가능
 
-## 출처
-- StatPearls: Acute Cystitis
-- 삼성서울병원 메뉴얼; [EAU 2026 Urological infections](https://uroweb.org/guidelines/urological-infections/chapter/the-guideline)
-
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls: Acute Cystitis
+- 삼성서울병원 메뉴얼; [EAU 2026 Urological infections](https://uroweb.org/guidelines/urological-infections/chapter/the-guideline)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 11장 741–747쪽.
+- [AUA 여성 재발성 요로감염 2025](https://doi.org/10.1097/JU.0000000000004723).

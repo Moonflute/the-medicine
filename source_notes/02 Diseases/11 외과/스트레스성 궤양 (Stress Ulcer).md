@@ -42,9 +42,9 @@ review_status: "guideline_enriched"
 - **적응증**: 응고장애·쇼크·만성 간질환이 있는 중환자
   - 경장영양 중이라도 고위험이면 권고
   - 경장영양을 받는 저위험군에는 권고하지 않음
-- **약제**: sucralfate보다 **PPI 또는 H2RA** 우선
-  - 고용량보다 저용량 사용
-  - 경장/정맥 경로는 임상적 가용성에 따라 결정
+- **약제**: 저용량 PPI 또는 H₂ 차단제. 예: 판토프라졸(pantoprazole) **40 mg 1일 1회**, 파모티딘(famotidine) **20 mg 1일 2회**(신기능에 따라 감량)
+  - 경장 투여 가능 여부에 따라 경로 선택. 예방 용량과 활동성 출혈 지혈 후 요법을 구분
+  - 기계환기 단독은 예방 치료의 독립 기준으로 근거가 확실하지 않음
 - **중단**: UGIB 위험요인 해소 시
   - ICU 입원 전부터 복용했더라도 명확한 적응증이 없으면 중단
 
@@ -56,9 +56,11 @@ review_status: "guideline_enriched"
 - 합병증: 대량 출혈, 천공, 복막염.
 - 예후: 기저 질환의 중증도에 따라 결정되며, 조기 예방이 중요함.
 
-## 출처
-- Merck Manual Professional
-
 Last updated :
 2026-05-18 — 본문 갱신 (codex fill)
 2026-07-15 — 공식 지침 기반 Tier 2 보강
+
+## 출처
+- Merck Manual Professional
+- 서울대학교병원 내과 매뉴얼 6판(2022), 중환자 5장 925–930쪽.
+- [SCCM/ASHP 스트레스 관련 위장관 출혈 예방 지침](https://sccm.org/clinical-resources/guidelines/guidelines/sccm-ashp-guideline-prevention-of-ugib)

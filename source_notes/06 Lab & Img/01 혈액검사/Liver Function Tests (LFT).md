@@ -80,6 +80,18 @@ R = (ALT / ALT 상한) ÷ (ALP / ALP 상한)
 - 임신 중 간수치 이상과 고혈압·혈소판감소·용혈 소견
 
 ## 5. 다음 검사와 행동
+
+```flowchart
+간검사 이상에서 다음 검사
+> 이전 결과와 약제·음주 확인, AST/ALT·ALP·빌리루빈 분획·PT/INR 평가
+>> INR 상승·저혈당·의식 변화 → 급성 간부전 긴급 평가
+>> 간세포 손상 우세 → 바이러스·약제·음주, 필요 시 혈관·자가면역 검사
+>>> AST/ALT 약 1,000 IU/L 이상 또는 급격히 상승 → 저관류·아세트아미노펜·급성 간염 평가
+>> ALP 우세 → GGT로 간담도 기원 확인, 우상복부 초음파
+>>> 담관 확장·발열/황달 → 폐쇄·담관염, 담도 배액 평가
+>>> 지속 상승·담관 확장 없음 → 약제·PBC/PSC·침윤성 원인 평가
+>> 빌리루빈만 상승 → 직접/간접 분획에 따라 용혈·포합·담즙 배설 평가
+```
 - 간 종괴나 간세포암이 의심될 때 AFP는 보조 정보로 해석한다. AFP가 정상이어도 간세포암을 배제할 수 없고, 높은 수치만으로 확진하지 않는다. 위험군·병변 특성을 고려해 다상 조영 CT 또는 MRI로 평가하고, 영상 진단 기준의 적용 대상이 아니거나 불확실한 경우 전문 진료에서 조직검사 필요성을 판단한다.
 
 - 지속적인 간세포 손상 패턴에서는 바이러스·음주·약물 평가와 함께 iron·transferrin saturation·ferritin으로 철 과부하를 평가하고, ANA·ASMA와 globulin/IgG로 자가면역 간질환의 단서를 확인한다. 단일 양성 검사만으로 원인을 확정하지 않고 임상 맥락과 후속 검사를 종합한다.
@@ -112,3 +124,4 @@ R = (ALT / ALT 상한) ÷ (ALP / ALP 상한)
 - [AASLD PBC 진단 권고](https://pmc.ncbi.nlm.nih.gov/articles/PMC7041951/)
 - [AASLD PSC 지침](https://aasldpubs.onlinelibrary.wiley.com/doi/10.1002/hep.32771)
 - [Merck Manual: Ischemic Hepatitis](https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/vascular-disorders-of-the-liver/ischemic-hepatitis)
+- SNUH Manual of Medicine 6판(2022), 소화기 13장, 294–296쪽. [ACG 간검사 이상 평가](https://gi.org/guideline/evaluation-of-abnormal-liver-chemistries/).

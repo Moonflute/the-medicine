@@ -61,22 +61,25 @@ sources: ["2026 브라질 학회 지침 | https://pmc.ncbi.nlm.nih.gov/articles/
 - **의심 시**: 발열·전신 증상·면역저하 등을 평가하고 즉시 감염내과 의뢰
   - 혈액배양·β-D-glucan 등 전신 평가, 균종·감수성에 따라 치료 조정
   - 호흡기 Candida 배양 양성만으로 침습성 감염 치료를 시작하지 않음
-- **초기 약제**: echinocandin 우선 고려
-- **Fluconazole 경구 전환**: 임상적으로 안정되고, 감수성 균·반복 배양 음전·감염원 조절이 확보된 경우 검토
+- **초기 약제**: 성인 칸디다혈증은 미카펀진(micafungin) 100 mg IV 매일 또는 카스포펀진(caspofungin) 70 mg 부하 후 50 mg IV 매일 등 에키노칸딘 우선. 기존 azole 노출·균종·장기별 약물 도달을 확인.
+- **감염원 조절**: 혈관 도관이 원인으로 의심되고 안전하게 가능하면 조기 제거. 복강 농양은 배액·수술 검토.
+- **플루코나졸(fluconazole) 경구 전환**: 초기 치료 약 5일 이후, 혈역학 안정·배양 음전·감수성·감염원 조절·경구 흡수가 확보되면 검토. 지속 호중구감소 등 고위험 상태는 개별 판단.
 - **치료 기간**: 반복 배양으로 음전 확인
   - 심부 파종 없는 혈류감염: 지속 음전 시작과 증상 소실을 기준으로 최소 14일
   - 안구·심내막·골 침범: 별도 약제·장기간 치료 필요
 - **파종 평가**
   - 호중구 회복기의 지속 발열·ALP 상승·간비장 다발 작은 농양: 간비칸디다증 고려
-  - 혈류감염 호전 후에도 시력 흐림·안통·암점: 안구 파종 평가
+  - 시력 흐림·안통·암점은 즉시 안과 평가. 지속 칸디다혈증·면역억제·증상을 보고하기 어려운 환자의 안저검사 여부도 협의.
 
 ## 6. 예후 및 합병증 (Prognosis)
 - 면역 저하 환자에서 전신 칸디다증은 치명적일 수 있으며, 조기 진단과 적절한 항진균제 투여가 중요하다.
 
-## 출처
-- Merck Manual Professional (Candidiasis, Mucocutaneous Candidiasis, Chronic Mucocutaneous Candidiasis)
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Candidiasis, Mucocutaneous Candidiasis, Chronic Mucocutaneous Candidiasis)
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 감염 7–8장 792·803–804쪽.
+- [ECMM·ISHAM·ASM 칸디다증 국제 지침 2025](https://pubmed.ncbi.nlm.nih.gov/39956121/).

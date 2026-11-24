@@ -65,15 +65,15 @@ content_updated_at: "2026-11-17"
   - 혈압/단백뇨의 RAS 차단: 임신 가능성·eGFR·K·혈압 반영
 - **Class I/II**: 보통 신염 자체의 면역억제는 불필요, HCQ·혈압/단백뇨 관리
 - **Class III/IV(±V)**
-  - 유도: glucocorticoid + MMF 또는 cyclophosphamide 기반
-  - Belimumab/CNI 추가: 단백뇨·신기능·독성 위험에 따라 선택
-  - CNI는 eGFR >45 mL/min/1.73m² 등 비교적 보존된 신기능에서 고려, 낮은 eGFR은 신독성 별도 판단
+  - 기본 유도: glucocorticoid + 미코페놀레이트 모페틸(MMF, 2–3 g/일) 또는 저용량 사이클로포스파미드(cyclophosphamide, IV 500 mg을 2주 간격으로 6회)가 대표적.
+  - **벨리무맙(belimumab) 병합**: 재발성 또는 진행 고위험인 경우 MMF나 저용량 cyclophosphamide 기반에 추가 고려.
+  - **CNI 병합**: eGFR >45 mL/min/1.73m²이고 신증후군 범위 단백뇨가 뚜렷한 경우 MMF + 보클로스포린(voclosporin) 또는 타크로리무스(tacrolimus) 등을 고려. 낮은 eGFR에서 신독성 평가.
   - 유지: MMF 또는 azathioprine, 임신 계획·내약성·재발 위험 반영
-- **순수 Class V**: 단백뇨·신증후군·신기능 경과에 따라 보존/면역억제 선택
+- **순수 Class V**: 단백뇨가 적고 안정적이면 RAS 차단 등 신보호·추적. UPCR ≥1 g/g이면 ACR은 glucocorticoid + MMF + CNI를 조건부 권고. 신기능·혈전/부종·약제 독성을 함께 평가.
   - 증식성 병변 동반 시 해당 경로로 치료
 - **반응 평가**: 단백뇨·요침사 호전 및 안정된 신기능
   - 완전 반응 목표: 통상 6–12개월 내 UPCR <0.5 g/g + 안정/호전 신기능, 더 오래 걸릴 수 있음
-  - 부분/무반응: 순응도·약물 노출·만성 손상·TMA 확인, 필요 시 재생검 후 변경
+  - 부분 반응: 단백뇨 ≥50% 감소 및 UPCR <3 g/g, 신기능이 안정/호전. 6–12개월에 부분 또는 완전 반응이 없으면 복약·약물 노출·만성 손상·TMA를 확인하고 필요 시 재생검.
 - **유지·임신**: 증식성 LN의 초기+유지 면역억제 대체로 ≥36개월
   - 한 번의 단백뇨 정상화만으로 중단하지 않음
   - 임신 계획: 안정화 후 MMF를 azathioprine 등 적합한 약제로 사전 전환, 류마티스·신장·산과 상담
@@ -85,10 +85,12 @@ content_updated_at: "2026-11-17"
 - **예후**: 조직 class에 따라 다르며 VI는 불량, CKD/말기 신부전 진행 가능
 - **말기 신부전**: 투석·신이식. 이식신 LN 재발은 기존 교재에서 2–4%로 보고
 
-## 출처
-- Merck Manual Professional (Lupus Nephritis); 삼성서울병원 메뉴얼
-- 삼성서울병원 메뉴얼. KDIGO 2024 Lupus Nephritis guideline를 대조. 2026-09-14 기존 목차 내 보완. [ACR 2024 LN guideline](https://doi.org/10.1002/acr.25528).
-
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Lupus Nephritis); 삼성서울병원 메뉴얼
+- 삼성서울병원 메뉴얼. KDIGO 2024 Lupus Nephritis guideline를 대조. 2026-09-14 기존 목차 내 보완. [ACR 2024 LN guideline](https://doi.org/10.1002/acr.25528).
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 10장 724–740쪽.
+- [KDIGO 루푸스 콩팥염 2024](https://kdigo.org/guidelines/lupus-nephritis/), [ACR 루푸스 콩팥염 지침](https://rheumatology.org/lupus-guideline).

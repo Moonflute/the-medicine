@@ -43,6 +43,8 @@ reviewed_at: 2026-09-22
 - tube 크기·깊이, 기도 평가, 사용 장비·약물, 삽관 확인 방법, 시도 횟수와 합병증을 기록한다.
 
 ## 관련 문서
+- [[기관삽관과 응급 기도관리 (Emergency Airway Management)]]
+- [[호흡부전 (Respiratory Failure)]]
 
 ## 출처
 - 삼성서울병원 외과 메뉴얼

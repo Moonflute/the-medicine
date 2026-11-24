@@ -48,7 +48,7 @@ sources: ["CDC 보체 억제 치료 지침 | https://www.cdc.gov/meningococcal/h
 
 ## 4. 진단 (Diagnosis)
 - **표준 진단**: 말초혈액 유세포분석으로 GPI 관련 단백질 결핍 확인
-  - 적혈구의 CD55·CD59, 백혈구의 FLAER 기반 검사 등을 적절히 조합
+  - 적혈구 CD55·CD59와 백혈구의 FLAER 기반 검사 등을 조합. 최근 수혈·심한 용혈로 적혈구 클론이 실제보다 작게 측정될 수 있어 과립구·단핵구 클론 함께 확인
 
 ## 5. 치료
 - **관찰**: 무증상·작은 클론이면 정기 혈액검사·클론 비율 추적
@@ -59,7 +59,7 @@ sources: ["CDC 보체 억제 치료 지침 | https://www.cdc.gov/meningococcal/h
 
 **보체 억제 전후 감염 예방**
 
-- **MenACWY·MenB 접종**: 가능하면 첫 투여 **≥2주 전** 완료, 치료 중에도 예방접종 관리
+- **MenACWY·MenB 접종**: 가능하면 첫 투여 **≥2주 전** 완료. 지속 치료 시 추가접종은 국가·기관 일정 적용(예: CDC MenACWY **5년마다**, MenB **기초 접종 1년 뒤부터 2–3년마다**)
 - **지연 불가한 용혈·혈전 위험**: 접종·항균 예방을 포함한 계획하에 시작 가능
 - **발열·패혈증 징후**: 접종 후에도 수막알균 위험이 남으므로 즉시 평가
 
@@ -67,9 +67,11 @@ sources: ["CDC 보체 억제 치료 지침 | https://www.cdc.gov/meningococcal/h
 - 혈전증이 주요 사망 원인.
   골수형성이상 증후군(MDS) 또는 급성 골수성 백혈병(AML)으로 진행 가능성 존재.
 
-## 출처
-- Merck Manual Professional (2026); [ICCS/ESCCA PNH 유세포검사 합의](https://doi.org/10.1002/cyto.b.21610)
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (2026); [ICCS/ESCCA PNH 유세포검사 합의](https://doi.org/10.1002/cyto.b.21610)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 8장 416–425쪽.
+- [CDC 보체억제제 사용 시 수막알균 예방](https://www.cdc.gov/meningococcal/hcp/clinical-guidance/complement-inhibitor.html)

@@ -53,7 +53,7 @@ sources: ["NICE NG148 Acute kidney injury: prevention, detection and management 
 - **원인 치료**: BPH·요도협착·결석·종양/후복막섬유화·신경인성 방광 구분
   - 폐쇄성 신우신염/패혈증: 항생제와 배액 병행; 항생제 투여만으로 배액을 지연하지 않음
 - **감압 후 감시**: 일시적 혈뇨·저혈압·폐쇄 후 다뇨에 주의
-  - 초기 소변량·활력징후·체중·Na/K/Mg/Cr를 자주 확인, 손실·울혈에 맞춰 수분·전해질 보충
+  - **폐쇄 후 다뇨**: >200 mL/h가 2시간 연속 또는 >3 L/24시간. 소변량·활력징후·체중·Na/K/Mg/인·Cr 추적, 탈수와 울혈에 맞춰 손실의 일부 보충.
   - 도뇨관 반복 clamp는 표준 처치가 아님
 - **신장내과 협진**: 신기능 미회복, 고K·산증·폐부종·요독 증상 시 신대체요법 적응증 평가
 
@@ -61,10 +61,11 @@ sources: ["NICE NG148 Acute kidney injury: prevention, detection and management 
 - 조기 발견 및 폐쇄 해제 시 신기능 회복 가능
 - 장기 폐쇄 시 영구적인 신손상 및 만성 콩팥병(CKD)으로 진행 가능
 
-## 출처
-- StatPearls: Acute Kidney Injury
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2024-07-30 — PPT 원문 기반 초안 작성
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls: Acute Kidney Injury
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 5장 677–688쪽.

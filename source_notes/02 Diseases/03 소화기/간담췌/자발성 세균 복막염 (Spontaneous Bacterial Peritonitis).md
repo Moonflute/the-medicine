@@ -55,13 +55,15 @@ sources: ["KASL 복수·SBP 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC61
   - 총 WBC가 아닌 PMN 절대수 사용
   - 배양 음성이어도 다른 감염원을 평가하면서 SBP에 준해 경험적 항생제 시작
 - **PMN <250개/mm³**: 발열·복통/압통·설명되지 않는 신기능 악화·뇌증 등 감염 의심 시 배양 대기 중 경험적 치료 필요성 판단
-- **감별진단**: 장 천공 등 이차성 세균 복막염, 결핵성·암성 복막염
+- **이차성 세균 복막염 의심**: 다균종 배양, 적절한 치료 뒤 PMN 감소 부족, 국소 복막자극 등 → CT와 감염원 조절 평가
+- **기타 감별**: 결핵성·암성 복막염
 
 ## 5. 치료
 **감염 치료·반응 평가**
 
 - **경험적 항생제**: 진단 즉시 시작
-  - 지역사회 획득: ceftriaxone·cefotaxime 등 정주 3세대 세팔로스포린으로 보통 **5–7일**
+  - 지역사회 획득·내성 위험 낮음: **ceftriaxone 2 g IV 24시간마다** 또는 **cefotaxime 2 g IV 6–8시간마다**, 보통 **5–7일**
+  - 병원 획득·다제내성 위험: 최근 배양과 지역 내성에 따라 piperacillin/tazobactam 또는 meropenem 등으로 시작 범위 결정
   - 병원 내 감염 여부, 이전 항생제·내성균 병력·지역 내성·중증도에 따라 선택
   - 배양·감수성·임상 반응·합병증에 따라 조정. PMN의 소폭 감소만으로 종료하지 않음
 - **재천자**: 반응 부족·이차성 복막염 의심 시 약 **48시간**에 고려
@@ -75,7 +77,8 @@ sources: ["KASL 복수·SBP 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC61
 - **간경변 + 위장관 출혈**: ceftriaxone **1 g/일 정주**의 단기 감염 예방
   - 장기 예방 처방과 구분하며 같은 목적으로 계속하지 않음
 - **1차 예방**: 복수 단백 **<1.5 g/dL**이면서 다음 위험이 동반된 경우 검토
-  - 중증 간부전 또는 신기능 장애·저나트륨혈증
+  - 중증 간부전: **Child-Pugh ≥9점 및 bilirubin ≥3 mg/dL**
+  - 신기능 장애·저나트륨혈증: **Cr ≥1.2 mg/dL, BUN ≥25 mg/dL, Na <130 mmol/L** 중 하나
 - **재발 예방**: SBP 회복 후 평가
 - **예방 약제**: norfloxacin·ciprofloxacin 또는 TMP-SMX 등을 내성·금기·가용성에 따라 선택
   - Rifaximin을 모든 환자의 표준 단독 예방제로 간주하지 않음
@@ -88,10 +91,12 @@ sources: ["KASL 복수·SBP 지침 | https://pmc.ncbi.nlm.nih.gov/articles/PMC61
 
 - **합병증**: 간신 증후군(Hepatorenal syndrome), 패혈증, 간성 뇌증 악화 등이 발생할 수 있다.
 
-## 출처
-- Merck Manual Professional (2025)
-- 삼성서울병원 메뉴얼.
-
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (2025)
+- 삼성서울병원 메뉴얼.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 3부 18장 325–326쪽.
+- [대한간학회 간경변 복수·합병증 2026](https://doi.org/10.3350/cmh.2026.0281)

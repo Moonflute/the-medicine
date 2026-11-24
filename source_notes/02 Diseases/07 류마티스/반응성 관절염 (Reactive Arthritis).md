@@ -64,7 +64,8 @@ reviewed_at: "2026-07-30"
   - 지속적·중증 관절염에서 sulfasalazine·methotrexate 등 DMARD 고려. 기간만으로 자동 시작하지 않음
 - **관절 외 증상**: 눈·구강·피부 침범 시 안과·치과·피부과 협진
 - **추적**: 초기 2–4주 간격으로 증상·CRP/ESR 평가. HLA-B27 양성이면 재발·만성화에 대한 장기 추적 계획
-- **원인 감염**: 성매개 감염·장염을 적절히 치료하고 안전한 성관계·위생 관리 교육
+- **감염 치료**: 활동성 클라미디아는 독시사이클린(doxycycline) 등 감염 지침으로 치료하고 파트너도 평가. 이미 호전된 장염 뒤 관절염만 지속되면 항생제를 일률 연장하지 않음.
+- **소수 관절 지속**: 감염 관절염 배제 후 관절 내 스테로이드 고려. 통증·눈부심·시력 변화가 동반되면 포도막염을 당일 평가.
 
 ## 6. 예후 및 합병증
 - **반응성 관절염**: 대부분 3–4개월 내 호전. HLA-B27 양성에서 재발·만성 척추관절염으로 이행 가능
@@ -75,12 +76,14 @@ reviewed_at: "2026-07-30"
   - ACR 2020은 적응증이 있으면 급성 발작 중 시작도 조건부 권고하므로 급성기를 일률적 금기로 보지 않음
   - Allopurinol: SJS/TEN 등 중증 피부 이상반응 주의
 
-## 출처
-- Merck Manual Professional (Reactive Arthritis), [NIAMS 반응성 관절염 치료](https://www.niams.nih.gov/health-topics/reactive-arthritis/diagnosis-treatment-and-steps-to-take), [ACR 통풍 지침(2020)](https://doi.org/10.1002/art.41247)
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2024-05-15 — 초기 작성
 2026-05-11 : 본문 갱신 (processed)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Reactive Arthritis), [NIAMS 반응성 관절염 치료](https://www.niams.nih.gov/health-topics/reactive-arthritis/diagnosis-treatment-and-steps-to-take), [ACR 통풍 지침(2020)](https://doi.org/10.1002/art.41247)
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 류마티스 5장 854–859쪽.
+- [CDC 클라미디아 치료 지침](https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm).

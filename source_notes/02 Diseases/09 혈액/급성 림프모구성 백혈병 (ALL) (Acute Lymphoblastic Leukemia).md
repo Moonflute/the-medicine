@@ -70,7 +70,9 @@ content_updated_at: "2026-11-18"
 ## 5. 치료 (Treatment)
 - **치료 과정**: 완전 관해를 목표로 유도 → 공고/강화 → 유지, CNS 예방 병행
 - **AYA 일차 치료**: asparaginase를 포함한 pediatric-inspired 요법을 전통적 성인 프로토콜보다 권고
-- **Ph+**: TKI 추가 권고
+- **Ph+ B-ALL**: dasatinib·ponatinib 등 BCR::ABL1 TKI를 항암 또는 blinatumomab 기반 프로토콜에 병합. T315I·동맥혈전 위험과 MRD를 반영
+- **재발·불응 B-ALL**: CD19 양성이면 blinatumomab 또는 CAR-T, CD22 양성이면 inotuzumab ozogamicin 등 검토
+  - Blinatumomab·CAR-T: 사이토카인방출증후군·신경독성. Inotuzumab: 간 sinusoidal obstruction syndrome 위험, 이식 예정이면 특히 주의
 - **이식**: 고위험 또는 초기 반응 불충분 시 allo-HCT 고려
   - AYA의 첫 관해기에 일률적으로 권고하지 않음
 - **CNS 예방·치료**: 위험도에 따라 고용량 methotrexate·cytarabine 및 intrathecal 치료
@@ -94,10 +96,13 @@ content_updated_at: "2026-11-18"
   - 완전 관해 후 MRD 음성 여부가 핵심 예후 인자
 - **합병증**: 감염·출혈·종양용해증후군·CNS 재발
 
-## 출처
-- Merck Manual Professional (Acute Lymphoblastic Leukemia)
-- 삼성서울병원 메뉴얼; [CAP Lymphoid Neoplasms Protocol](https://documents.cap.org/protocols/Heme.Lymphoid.Bx.Res_1.0.0.0.REL_CAPCP_R.pdf); [NCI Childhood NHL](https://www.cancer.gov/types/lymphoma/hp/child-nhl-treatment-pdq)
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional (Acute Lymphoblastic Leukemia)
+- 삼성서울병원 메뉴얼; [CAP Lymphoid Neoplasms Protocol](https://documents.cap.org/protocols/Heme.Lymphoid.Bx.Res_1.0.0.0.REL_CAPCP_R.pdf); [NCI Childhood NHL](https://www.cancer.gov/types/lymphoma/hp/child-nhl-treatment-pdq)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 11장 449쪽.
+- [ELN 성인 ALL 치료](https://doi.org/10.1182/blood.2023023568)
+- [ASH 청소년·젊은 성인 ALL 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13366240/)

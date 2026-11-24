@@ -40,7 +40,8 @@ sources: ["ISPD Catheter-related Infection Recommendations: 2023 Update | https:
 
 ## 5. 치료 (Treatment)
 - **항균치료**: 배양 채취 후 지역 감수성·이전 보균/감염·중증도로 경험적 선택, 결과 후 좁혀 치료
-  - 출구·터널 반복 진찰, Pseudomonas 등 고위험 균은 PD팀과 긴밀 관리
+  - 안정적인 출구 감염은 S. aureus를 포함하는 경구 세팔렉신(cephalexin) 등을 우선 고려. 이전 MRSA·녹농균 이력은 경험적 선택에 반영.
+  - 감수성이 있는 Pseudomonas는 시프로플록사신(ciprofloxacin) 등을 선택. 약물 용량·상호작용과 동시 항진균 예방을 확인하고 1주 내 출구·터널 재진찰.
 - **기간**
   - 단순 출구 감염: 약 1주에 완전 호전 시 7–10일로 단축 가능
   - Pseudomonas 출구 감염·모든 터널 감염: 효과적인 항생제 ≥3주
@@ -54,3 +55,5 @@ sources: ["ISPD Catheter-related Infection Recommendations: 2023 Update | https:
 
 ## 출처
 - 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 8장 703–713쪽.
+- [ISPD 카테터 관련 감염 지침 2023](https://doi.org/10.1177/08968608231172740).

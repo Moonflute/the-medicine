@@ -24,8 +24,8 @@ sources: ["KDIGO 2021 | https://kdigo.org/wp-content/uploads/2021/10/KDIGO-2021-
 - **기전**: 여과장벽 변화에 따른 선택적 알부민 소실, 전하장벽 변화가 관여하는 것으로 추정
 
 ## 2. 임상 양상 (Clinical Features)
-- **CC**: 갑작스러운 부종·다량 단백뇨
-- **P/E**: 전신 부종, 고혈압·질소혈증은 대개 없음. 성인은 미세혈뇨 동반 가능
+- **증상**: 갑작스러운 부종·체중 증가·거품뇨.
+- **진찰**: 안검·전신 함요부종과 체액 상태 확인. 성인은 미세혈뇨·AKI 동반 가능.
 
 ## 3. 검사 (Lab & Imaging)
 - **소변 검사**: 신증후군 범위의 단백뇨(주로 알부민), 비신염성 요침사(non-nephritic urine sediment).
@@ -39,11 +39,12 @@ sources: ["KDIGO 2021 | https://kdigo.org/wp-content/uploads/2021/10/KDIGO-2021-
 - **소아**: 전형적 갑작스러운 신증후군·정상 신기능이면 생검 없이 치료 시작 가능
 
 ## 5. 치료
-- **성인 관해 유도**: glucocorticoid의 이득·감염/대사 위험을 신장내과에서 평가
+- **성인 관해 유도**: 프레드니손(prednisone) 또는 프레드니솔론(prednisolone) **1 mg/kg/일(최대 80 mg/일)**이 대표적. 감염·당대사·골 위험을 평가.
   - 고용량은 관해 또는 최대 16주까지, 완전 관해 약 2주 후부터 감량
   - 소아보다 반응이 느릴 수 있으며 소아의 판정 기간과 혼용하지 않음
 - **16주에도 무관해**: 같은 고용량을 지속하지 않고 복약·병리 표본 한계·FSGS 재평가
-- **잦은 재발·steroid 의존/불응**: 진단 재검토 후 누적 독성·생식 계획에 따라 CNI·rituximab·cyclophosphamide·mycophenolate 등 선택
+- **잦은 재발·스테로이드 의존**: 리툭시맙(rituximab), 사이클로포스파미드(cyclophosphamide), CNI 또는 미코페놀레이트(mycophenolate). 이전 반응·누적 스테로이드 독성·감염 및 생식 계획으로 선택.
+- **스테로이드 사용 곤란**: 중증 당뇨·정신과 부작용 위험 등에서 CNI·cyclophosphamide·mycophenolate 기반 대안을 전문의와 검토.
 - **부종**: 저염식·신중한 이뇨, 체중·혈압·신기능으로 저혈량·AKI·전해질 이상 감시
 
 ## 6. 예후 및 합병증 (Prognosis)
@@ -57,3 +58,5 @@ Last updated :
 
 ## 출처
 - 삼성서울병원 메뉴얼. KDIGO 2021 Glomerular Diseases guideline를 대조. 2026-09-14 기존 목차 내 보완.
+- 서울대학교병원 내과 매뉴얼 6판(2022), 신장 10장 724–740쪽.
+- [KDIGO 사구체질환 지침, 성인 미세변화병](https://kdigo.org/guidelines/gd/).

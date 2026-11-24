@@ -40,6 +40,8 @@ sources: ["ASH/ISTH/NHF/WFH 관리 지침 | https://pmc.ncbi.nlm.nih.gov/article
   - VWF **<0.30 IU/mL(30 IU/dL)**: 출혈 유무와 무관하게 진단 기준
   - 비정상 출혈이 있으면 **<0.50 IU/mL** 적용
   - 검사실 정상 하한이 <0.50 IU/mL이면 해당 하한 적용
+- **Type 2 의심**: 혈소판 의존 VWF 활성/항원 비율 **<0.7**이면 2A·2B·2M 감별 검사. FVIII가 두드러지게 낮으면 2N과 혈우병 A 감별
+- **검사 시점**: 급성 출혈·감염·임신에서는 VWF가 상승할 수 있어 안정 상태 재검 검토
 
 ## 5. 치료
 **DDAVP**
@@ -47,6 +49,7 @@ sources: ["ASH/ISTH/NHF/WFH 관리 지침 | https://pmc.ncbi.nlm.nih.gov/article
 - **대상**: 주로 type 1에서 반응을 확인해 사용. 기저 VWF **<0.30 IU/mL**이면 시험 투여 후 결정
 - **피해야 할 경우**: type 3은 효과 없음, type 2B는 혈소판감소 위험
   - 활동성 심혈관질환·경련질환·2세 미만 등에서도 금기/위험 평가
+- **시험 투여**: desmopressin **0.3 μg/kg IV(최대 20 μg)**. 투여 전·약 **30–60분·4시간**에 VWF 활성·항원과 FVIII를 측정
 - **투여 시 관리**: 수분 제한·Na 감시로 저나트륨혈증 예방
 
 **수술·출혈 시 지혈**
@@ -62,11 +65,13 @@ sources: ["ASH/ISTH/NHF/WFH 관리 지침 | https://pmc.ncbi.nlm.nih.gov/article
 - **중증형(type 3)**: 관절 출혈 등 심각한 합병증 위험
 - **약물 주의**: 아스피린 등 NSAIDs는 출혈 위험을 높이므로 피함
 
+Last updated :
+2026-04-03 — 본문 갱신 (Gemini fill)
+2026-05-18 — 본문 갱신 (codex fill)
+
 ## 출처
 - StatPearls (Von Willebrand Disease, 2026)
 - [ASH/ISTH/NHF/WFH vWD 진단 지침(2021)](https://doi.org/10.1182/bloodadvances.2020003265)
 - [vWD 진단과 선별검사의 한계](https://doi.org/10.1182/bloodadvances.2025016485)
-
-Last updated :
-2026-04-03 — 본문 갱신 (Gemini fill)
-2026-05-18 — 본문 갱신 (codex fill)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 9장 426–433쪽.
+- [ASH·ISTH·NHF·WFH vWD 치료](https://doi.org/10.1182/bloodadvances.2020003264)

@@ -83,8 +83,9 @@ BCR-ABL1 융합 유전자는 비정상적인 티로신 키나아제 (tyrosine ki
 | MR4.5 | ≤0.0032% |
 
 ## 5. 치료 (Treatment)
-- **기본 치료**: imatinib 등 BCR::ABL1 TKI
-  - 병기·동반질환·내성 변이·분자반응에 따라 선택·변경
+- **만성기 1차**: imatinib **400 mg/일**, dasatinib **100 mg/일**, nilotinib **300 mg 1일 2회** 등. Bosutinib·asciminib은 환자 조건과 허가에 맞춰 선택
+  - **흉수·폐동맥고혈압 위험**: dasatinib 회피 검토. **동맥혈전·QT 위험**: nilotinib·ponatinib은 특히 신중
+  - **T315I 변이**: ponatinib 또는 asciminib을 이전 약제·혈관 위험에 따라 평가. 다제 내성·급성기 전환은 동종이식 평가
   - CBC·비장 크기·세포유전·국제표준 BCR::ABL1 정량을 연계해 정기 평가
 - **진행·저항성 재평가**: 치료/출혈로 설명되지 않는 진행성 빈혈, blast·basophil 증가, 혈소판 감소, 비장비대 악화
   - 내성 변이 검사 후 약제 변경 등 전략 조정
@@ -124,3 +125,5 @@ Last updated :
 
 ## 출처
 - 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 11장 443–444쪽.
+- [ELN CML 2025](https://doi.org/10.1038/s41375-025-02664-w)

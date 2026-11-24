@@ -78,14 +78,15 @@ sources: ["ELN APL 권고 | https://doi.org/10.1182/blood-2019-01-894980", "ELN 
 
 - **진단 시 WBC ≤10,000/μL**: 비고위험군, ATRA + ATO가 대표 표준
 - **진단 시 WBC >10,000/μL**: ATRA/ATO + 세포감량 또는 ATRA + 항암요법 등 고위험 프로토콜
-  - 치료 후 분화에 따른 WBC 증가로 진단 시 위험군을 다시 올리지 않음
+  - 치료 후 분화에 따른 WBC 증가로 진단 시 위험군을 다시 올리지 않음. 필요 시 hydroxyurea 등 세포감량을 검토하고 백혈구 제거술은 피함
 
 **합병증·추적**
 
 - **분화증후군 의심**: 발열, 체중 증가·부종, 흉심낭삼출, 호흡곤란, 저혈압·장기부전
   - Dexamethasone **10 mg IV 12시간마다** 즉시 시작
   - 중증이면 ATRA/ATO 일시 중단 검토, 감염·심부전 동시 감별
-- **ATO 중 QTc >500 ms**: 보류, 전해질 교정·병용약 검토 후 회복 여부로 재개
+- **ATO 중 QTc**: 기저·치료 중 심전도와 **K >4.0 mEq/L, Mg >1.8 mg/dL** 유지. QT 연장 약제와 상호작용 확인
+  - ELN은 **QTc >500 ms**이면 ATO 보류, 교정 후 약 **460 ms**로 회복 시 감량 재개 검토. 실제 보류·재개는 제제 허가·기관 기준을 적용
 - **정기 확인**: WBC·혈소판·PT/aPTT·fibrinogen 등으로 반응·합병증 평가
 - **전문센터·장기 추적**: 고위험·합병증 시 전원, 종료 후 재발 감시
 
@@ -94,10 +95,12 @@ sources: ["ELN APL 권고 | https://doi.org/10.1182/blood-2019-01-894980", "ELN 
 - 표적 치료제 도입으로 완치율이 매우 높음.
   초기 DIC로 인한 출혈이 주요 사망 원인.
 
-## 출처
-- StatPearls (Acute Promyelocytic Leukemia)
-- 삼성서울병원 메뉴얼
-
 Last updated :
 2026-04-03 — 본문 갱신 (Gemini fill)
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- StatPearls (Acute Promyelocytic Leukemia)
+- 삼성서울병원 메뉴얼
+- 서울대학교병원 내과 매뉴얼 6판(2022), 4부 11장 441쪽.
+- [ELN APL](https://doi.org/10.1182/blood-2019-01-894980)

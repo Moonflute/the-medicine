@@ -61,8 +61,9 @@ sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidel
 - **감별**: 무균 괴사, 췌장 농양, 가성낭종 감염 등
 
 ## 5. 치료
-- **감염 의심**: 즉시 광범위 항생제와 패혈증·다장기부전 집중 지지치료
-  - 무균 괴사에 예방 항생제를 일률적으로 사용하지 않음
+- **감염 의심**: 패혈증 지지치료와 괴사 조직에 침투하는 경험적 IV 항생제 시작
+  - **Meropenem**: 중증·내성 그람음성균 위험에서 선택 예. 지역 내성과 신기능을 반영하고, 배액·혈액 배양으로 항생제 범위 축소
+  - 무균 괴사에 예방적 항생제, 감염성 괴사에 일상적 예방 항진균제는 사용하지 않음
 - **중재 시점**: 안정적이면 항생제·지지치료로 가능한 한 **≥4주** 기다려 괴사벽 성숙 후 시행
   - 목적: 침습 처치 합병증 감소
   - 조절되지 않는 패혈증·장 허혈/천공·출혈: 조기 중재 사유
@@ -77,10 +78,13 @@ sources: ["ACG 2024 | https://webfiles.gi.org/links/journals/AJG-Clinical-Guidel
 
 - **합병증**: 패혈증, 다발성 장기 부전, 출혈, 췌장루, 장 폐쇄 등이 발생할 수 있다.
 
-## 출처
-- Merck Manual Professional
-- [AGA 췌장 괴사 관리](https://gastro.org/clinical-guidance/management-of-pancreatic-necrosis/)
-
 Last updated :
 2024-07-30 — PPT 원문 기반 작성 및 일반 지식 보충
 2026-05-18 — 본문 갱신 (codex fill)
+
+## 출처
+- Merck Manual Professional
+- [AGA 췌장 괴사 관리](https://gastro.org/clinical-guidance/management-of-pancreatic-necrosis/)
+- 서울대학교병원 내과 매뉴얼 6판(2022), 3부 21장 345–351쪽.
+- [IAP 2025 급성 췌장염 지침](https://doi.org/10.1016/j.pan.2025.04.020)
+- [AGA 췌장 괴사 관리](https://pubmed.ncbi.nlm.nih.gov/31479658/)

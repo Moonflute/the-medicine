@@ -130,7 +130,7 @@ sources: ["The Italian Society for Rheumatology guidelines for the treatment of 
   - 초기 경증: hydroxychloroquine 또는 sulfasalazine 고려
 - **치료 변경(EULAR 2025, 2026 출판)**
   - **3개월 내 충분한 호전 없음 또는 6개월 내 목표 미달**: bDMARD 추가 검토
-  - 불량 예후 인자 유무에 따라 생물학제 도입을 지연하던 이전 분기는 제거
+  - csDMARD를 충분히 사용했는데 목표에 미달하면 예후 인자와 별개로 bDMARD 추가를 고려.
   - JAK 억제제: MACE·암·혈전·감염 위험을 평가한 뒤 선택
   - 첫 b/tsDMARD 실패: 같은 기전 또는 다른 기전 약제로 변경
 - **추적·감량**: 관절통·조조강직·피로·활막염·ESR/CRP로 반응 평가
@@ -153,7 +153,8 @@ sources: ["The Italian Society for Rheumatology guidelines for the treatment of 
   - ACR 2021: 4–6주 내 ≥15 mg/week로 증량 권고(조건부)
   - 유지 용량은 보통 15–25 mg/week 범위에서 반응·독성에 따라 결정
 - **엽산**: folic acid 1 mg/day 병용 → 구내염·탈모·골수억제 감소
-- **모니터링**: 초기 3–4개월 매월 CBC, 간기능 등 확인. 골수억제·간독성·간질성 폐렴·위장관 부작용 및 B/C형 간염 평가
+- **모니터링**: 시작·증량기에는 CBC·간기능·Cr을 자주 확인하고 안정 후 간격을 조정. B/C형 간염 선별, 임신·중증 신장애·간질환·감염 위험을 평가.
+  - 새 발열·마른기침·호흡곤란에는 메토트렉세이트(methotrexate) 중단 후 감염·약제 폐렴·RA 관련 ILD를 감별. TMP-SMX 병용은 골수억제 위험.
 - **임신 계획**: 기형 유발 위험 때문에 임신 3개월 전 중단
 
 **그 밖의 csDMARD**
@@ -162,7 +163,7 @@ sources: ["The Italian Society for Rheumatology guidelines for the treatment of 
 
 | 약제 | 용량 | 주요 주의사항 |
 | --- | --- | --- |
-| Hydroxychloroquine | 200–400 mg/day, ≤5 mg/kg/day | 매년 안과검사·망막병증 감시 |
+| Hydroxychloroquine | 200–400 mg/day, 실제 체중 기준 ≤5 mg/kg/일 | 시작 초기 안저·OCT·FAF. 고위험은 조기 연례 추적, 저위험은 첫 5년 내 연례검사를 유예 가능(AAO 2025). |
 | Sulfasalazine | 1,000–3,000 mg/day | 설사·복통, 남성 불임, 무과립구증 등 혈액학적 독성 |
 | Leflunomide | 10–20 mg/day | 간독성·기형 유발, 신기능 저하 시 사용 적합성 검토 |
 | Cyclosporine·tacrolimus | 난치성 질환에서 개별 결정 | DMARD와 유사한 효과이나 독성이 커 제한적으로 고려 |
@@ -188,7 +189,16 @@ sources: ["The Italian Society for Rheumatology guidelines for the treatment of 
 - **Rituximab**: 주입 반응 예방을 위해 glucocorticoid·chlorpheniramine·acetaminophen 전처치
   - 필요한 예방접종은 주입 4주 전 시행. 드물게 진행성 다초점 백질뇌병증 발생
 - **Tocilizumab**: 간수치·백혈구·혈소판·콜레스테롤 감시
-- **JAK 억제제**: 감염·악성종양 및 심혈관·혈전 위험에 유의
+- **JAK 억제제**: 고령·흡연·ASCVD·암·VTE 위험 및 중증 감염력을 확인. 위험이 높으면 적합한 bDMARD 우선. 허가에 따른 이전 치료 요건 확인.
+- **생물학제 전**: HBV 표지자(HBsAg/anti-HBc/anti-HBs), 결핵과 예방접종 확인. HBV 재활성화 고위험인 리툭시맙(rituximab)은 HBsAg 음성·anti-HBc 양성에서도 예방 항바이러스제 필요성 평가.
+
+**선택적 고관절·무릎 인공관절술**
+
+- **유지 가능**: 메토트렉세이트(methotrexate), 하이드록시클로로퀸(hydroxychloroquine), 설파살라진(sulfasalazine), 레플루노마이드(leflunomide). 활동성 감염·장기 독성은 개별 조정
+- **생물학적 DMARD**: 일반적으로 예정된 한 회를 건너뛰고 투여 간격이 지난 시점에 수술. 예: 매주 에타너셉트(etanercept)는 마지막 투여 후 2주차, 격주 아달리무맙(adalimumab)은 3주차
+- **JAK 억제제**: 토파시티닙·바리시티닙·유파다시티닙은 수술 전 **3일간 보류**. 혈전·감염 위험도 별도로 평가
+- **재개**: 봉합부 치유, 봉합사 제거, 배액·뚜렷한 홍반/부종·활동성 감염이 없는 경우. 통상 약 **14일**에 재평가
+- **마취 준비**: 목 통증, 신경 증상·경추 침범 이력이나 제한된 움직임이 있으면 경추 불안정과 기도 전략을 미리 평가
 
 ## 6. 예후 및 합병증
 - 만성적인 관절 변형 및 기능 장애 발생 가능.
@@ -204,3 +214,7 @@ Last updated :
 
 ## 출처
 - 삼성서울병원 메뉴얼. [ACR RA 치료 지침(2021)](https://doi.org/10.1002/acr.24596), [ACR/EULAR 관해 기준 개정(2022)](https://ard.bmj.com/content/82/1/74), [EULAR RA 치료 개정(2025, 2026 출판)](https://doi.org/10.1016/j.ard.2026.01.023). Smolen JS, et al. EULAR RA management recommendations. Ann Rheum Dis. 2020;79:685–699. doi:10.1136/annrheumdis-2019-216655
+- 서울대학교병원 내과 매뉴얼 6판(2022), 류마티스 2·4장 832–839·849–853쪽.
+- [AAO 하이드록시클로로퀸 망막병증 선별 2025 개정](https://www.aao.org/Assets/ca005314-383a-4c1b-bcfc-b8e4bb00a02c/639098636376870000/recommendations-on-screening-for-hyd).
+- 서울대학교병원 내과 매뉴얼 6판(2022), 수술 전 컨설트 9장 1021–1023쪽.
+- [ACR/AAHKS 인공관절술 전후 항류마티스 약제 지침](https://doi.org/10.1002/acr.24893)

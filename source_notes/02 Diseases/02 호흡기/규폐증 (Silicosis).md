@@ -28,16 +28,15 @@ reviewed_at: "2026-07-30"
 - **기전**: 흡입된 규소 입자를 폐포 대식세포가 탐식하여 염증 매개체와 사이토카인을 방출하고, 이로 인해 섬유아세포가 활성화되어 특징적인 규폐 결절(silicotic nodule)이 형성됨.
 
 ## 2. 임상 양상 (Clinical Features)
-- **만성 규폐증**: 대개 수십 년 잠복기 후 서서히 진행하는 호흡곤란·기침
-- **급성 규폐증**: 고농도 노출 후 수개월~수년 내 급격한 호흡곤란·체중 감소·피로
-
-* **P/E**: 진행된 경우 폐음에서 수포음(crackles)이 들릴 수 있으며, 호흡부전 및 우심부전 징후가 나타날 수 있음.
+- **증상**: 만성은 긴 잠복기 뒤 서서히 진행하는 호흡곤란·기침, 급성은 고농도 노출 후 수개월~수년 이내 빠른 호흡곤란·체중 감소·피로
+- **진찰**: 진행하면 수포음, 저산소혈증 및 폐성심·우심부전 소견
 
 ## 3. 검사 (Lab & Imaging)
 - **흉부 X-ray/CT**
   - 상엽 우세 **1~3mm** 망상결절성 음영(reticulonodular opacities)
-  - 폐문 림프절의 eggshell calcification 흔함
-  - **PMF**: 결절 융합으로 거대 음영 형성
+  - 폐문 림프절의 달걀껍질 모양 석회화는 노출 맥락에서 지지 소견
+  - **진행성 대량 섬유화(PMF)**: 결절이 합쳐져 **>1 cm**의 큰 음영 형성
+- **결핵 평가**: 기저 위험이 높아 진단 시 검사 여부를 판단하고 노출·지역 기준에 따라 추적. 새 공동·발열·야간발한·체중 감소는 활동성 결핵 평가
 - **폐기능**: 병기에 따라 정상 가능; 진행하면 제한성·폐쇄성·혼합성 장애 및 DLCO 감소
 
 ## 4. 진단 (Diagnosis)
@@ -54,6 +53,8 @@ reviewed_at: "2026-07-30"
 - 진행성 대량 섬유증(PMF), 폐결핵(silicotuberculosis), COPD, 폐암, 자가면역질환(류마티스 관절염, 전신경화증 등) 발생 위험 증가.
 
 ## 출처
+- SNUH Manual of Medicine 6판(2022), 호흡기 6장, 45–46쪽. 고농도 노출, PMF와 결핵 위험.
+- [CDC/NIOSH 규폐증 영상 기준과 감시](https://www.cdc.gov/niosh/surveillance/respiratorydisease/silicosis-reporting.html)
 - Merck Manual Professional (Silicosis)
 
 Last updated :
