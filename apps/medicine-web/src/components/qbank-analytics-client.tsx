@@ -98,7 +98,10 @@ export function QbankAnalyticsClient() {
   useEffect(() => {
     const controller = new AbortController();
     fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/generated/qbank/index.json`, { signal: controller.signal }).then(r => { if (!r.ok) throw new Error(); return r.json(); }).then((items: QbankQuestionIndex[]) => {
-      setPublicQuestions(items.map(q => ({ id: q.id, bank: q.questionBank, department: clean(q.specialty), order: Number(q.specialty.match(/^\d+/)?.[0] ?? 999), topic: relatedTopic(q), label: `${relatedTopic(q)} · ${q.id}` })));
+      setPublicQuestions(items.map(q => {
+        const topic = relatedTopic(q);
+        return { id: q.id, bank: q.questionBank, department: clean(q.specialty), order: Number(q.specialty.match(/^\d+/)?.[0] ?? 999), topic, label: topic };
+      }));
       setLoaded(true);
     }).catch(() => { if (!controller.signal.aborted) setError("문제 목록을 불러오지 못했습니다. 새로고침해 주세요."); });
     return () => controller.abort();
