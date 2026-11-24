@@ -104,6 +104,23 @@ test('daily activity stacks correct above wrong and displays a distinct control 
   assert.equal((html.match(/class="qbank-activity-bar"/g) ?? []).length, 3);
 });
 
+test('daily accuracy uses a fixed right axis, aligns to the bars and breaks at days with no answers', () => {
+  const calendar = activityCalendar.activityCalendar('week', new Date('2026-11-25T15:00:00Z'));
+  const days = activityCalendar.activityDays(calendar.days, {
+    '2026-11-22': { attempts: 10, correct: 8 },
+    '2026-11-23': { attempts: 2, correct: 0 },
+    '2026-11-25': { attempts: 1, correct: 1 },
+  });
+  const html = renderToStaticMarkup(h(QbankActivityBars, { days, range: 'week', title: '이번 주', dayProps: () => ({}) }));
+  assert.match(html, /qbank-activity-rate-axis[^]*bottom:0%">0%[^]*bottom:100%">100%/);
+  assert.match(html, /qbank-activity-rate-line" x1="7\.143%" y1="20%" x2="21\.429%" y2="100%"/);
+  assert.equal((html.match(/class="qbank-activity-rate-line"/g) ?? []).length, 1);
+  assert.equal((html.match(/class="qbank-activity-rate-dot"/g) ?? []).length, 3);
+  assert.match(html, /2026-11-23 · 풀이 2개 · 오답 2개 · 정답 0개 · 정답률 0%/);
+  assert.match(html, /2026-11-24 · 풀이 0개 · 오답 0개 · 정답 0개"><\/button>/);
+  assert.match(html, /2026-11-25 · 풀이 1개 · 오답 0개 · 정답 1개 · 정답률 100%/);
+});
+
 test('the compact reading-size control exposes four choices and is placed before the info tool', () => {
   const html = renderToStaticMarkup(h(QbankTextSizeButton));
   assert.match(html, /aria-label="글자 크기"[^>]*aria-haspopup="dialog"/);

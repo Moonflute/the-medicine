@@ -148,8 +148,11 @@ function ActivityChart({ range, calendar, activity, days, view }: {
   {selection && selectedDay ? createPortal(<div id={tooltipId} role="tooltip" className="pointer-events-none fixed z-[70] rounded-lg border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-[11px] leading-5 text-[var(--muted)] shadow-md" style={{ left: selection.left, width: selection.width, top: selection.top, bottom: selection.bottom }}>
     <span aria-hidden="true" className={`absolute h-2 w-2 rotate-45 bg-[var(--surface)] ${selection.above ? "-bottom-[5px] border-r border-b" : "-top-[5px] border-l border-t"} border-[var(--line)]`} style={{ left: selection.anchorOffset - 4 }} />
     <div className="font-semibold text-[var(--foreground)]">{selectedDay.date.toLocaleDateString("ko-KR", { month: "long", day: "numeric", weekday: "short", timeZone: "UTC" })}</div>
-    <div>풀이 {selectedDay.attempts}개 · <span className={selectedDay.correct > 0 ? "qbank-activity-correct-text" : undefined}>정답 {selectedDay.correct}개</span></div>
-    <div><span className={selectedDay.wrong > 0 ? "qbank-activity-wrong-text" : undefined}>오답 {selectedDay.wrong}개</span>{selectedDay.attempts > 0 ? ` · 정답률 ${Math.round(selectedDay.correct / selectedDay.attempts * 100)}%` : ""}</div>
+    <div>풀이 {selectedDay.attempts}개 · <span className={selectedDay.wrong > 0 ? "qbank-activity-wrong-text" : undefined}>오답 {selectedDay.wrong}개</span></div>
+    {selectedDay.accuracyPercent !== null && <div>
+      <span className={selectedDay.correct > 0 ? "qbank-activity-correct-text" : undefined}>{selectedDay.correct}/{selectedDay.attempts} 정답</span>
+      {" · "}<span className="qbank-activity-rate-text">{Math.round(selectedDay.accuracyPercent)}%</span>
+    </div>}
   </div>, document.body) : null}
 </div>;
 }
@@ -192,9 +195,13 @@ export function QbankRangeActivityHeatmap({ compact = false }: { compact?: boole
     <div className="mt-5"><ActivityChart key={`${view}:${range}:${year}:${today}`} range={range} calendar={calendar} activity={activity} days={visible} view={view} /></div>
     <div className="mt-2 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500">
       <span>활동일 {activeDays}일</span>
-      {view === "bars" ? <div className="flex items-center gap-3">
+      {view === "bars" ? <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
         <span className="flex items-center gap-1.5"><span className="qbank-activity-wrong h-3 w-3 rounded-sm" aria-hidden="true" />오답</span>
         <span className="flex items-center gap-1.5"><span className="qbank-activity-correct h-3 w-3 rounded-sm" aria-hidden="true" />정답</span>
+        <span className="flex items-center gap-1.5"><svg width={16} height={12} aria-hidden="true">
+          <line className="qbank-activity-rate-line" x1={1} y1={6} x2={15} y2={6} />
+          <circle className="qbank-activity-rate-dot" cx={8} cy={6} r={2.75} />
+        </svg>정답률</span>
       </div> : <div className="flex items-center gap-1.5"><span>적음</span>{[0, 3, 10, 20, 40].map((value) => <span key={value} className="h-3 w-3 rounded-[3px]" style={{ backgroundColor: fill(value) }} />)}<span>많음</span></div>}
     </div>
   </SkinPanel>;

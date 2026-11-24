@@ -72,6 +72,7 @@
 .qbank-activity-switch > button:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; }
 .qbank-activity-bars {
   --activity-plot-height: 8.25rem;
+  --activity-plot-inset: 4px;
   display: flex;
   gap: .45rem;
   min-width: 0;
@@ -81,9 +82,12 @@
   font-size: 11px;
   font-variant-numeric: tabular-nums;
 }
-.qbank-activity-bar-axis { position:relative; flex:none; min-width:3ch; height:var(--activity-plot-height); text-align:right; }
+.qbank-activity-bar-axis { position:relative; flex:none; min-width:3ch; height:var(--activity-plot-height); margin-top:var(--activity-plot-inset); text-align:right; }
 .qbank-activity-bar-tick { position:absolute; inset-inline-end:0; transform:translateY(50%); }
-.qbank-activity-bar-scroll { flex:1; min-width:0; overflow-x:auto; padding-top:.5px; padding-bottom:4px; }
+.qbank-activity-rate-axis,.qbank-activity-rate-text { color:light-dark(#6d28d9,#d8b4fe); }
+.qbank-activity-rate-axis { text-align:left; }
+.qbank-activity-rate-axis .qbank-activity-bar-tick { inset-inline:0 auto; }
+.qbank-activity-bar-scroll { flex:1; min-width:0; overflow-x:auto; padding-top:var(--activity-plot-inset); padding-bottom:4px; }
 .qbank-activity-bar-track { --activity-day-width:.625rem; position:relative; display:grid; grid-template-columns:repeat(var(--activity-day-count),minmax(0,1fr)); min-width:calc(var(--activity-day-count) * var(--activity-day-width)); min-height:calc(var(--activity-plot-height) + 1.4rem); }
 .qbank-activity-bar-track[data-range="week"] { --activity-day-width:1.75rem; }
 .qbank-activity-bar-track[data-range="year"] { --activity-day-width:.875rem; }
@@ -100,6 +104,9 @@
 .qbank-activity-wrong-text { color:light-dark(#b91c1c,#fca5a5); }
 .qbank-activity-bar-date { display:block; padding-top:4px; font-size:10px; text-align:center; white-space:nowrap; }
 .qbank-activity-bar-track[data-range="year"] .qbank-activity-bar-date { text-align:left; }
+.qbank-activity-rate-plot { position:absolute; inset:0 0 auto; z-index:1; width:100%; height:var(--activity-plot-height); overflow:visible; pointer-events:none; }
+.qbank-activity-rate-line { stroke:light-dark(#7c3aed,#d8b4fe); stroke-width:1.8; stroke-linecap:round; }
+.qbank-activity-rate-dot { fill:light-dark(#7c3aed,#d8b4fe); stroke:var(--surface); stroke-width:1; }
 
 .qbank-radar { min-width:0; margin:0; }
 .qbank-radar-caption { display:flex; align-items:baseline; gap:8px; color:var(--foreground); font-size:13px; font-weight:650; }

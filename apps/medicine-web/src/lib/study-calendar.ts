@@ -2,7 +2,7 @@ import { studyDayStart } from "./study-date";
 import type { QbankDailyActivity } from "./qbank-store";
 export type RangeKey = "week" | "month" | "year";
 export type DayCell = { date: Date; key: string; col: number; row: number; inRange: boolean; future: boolean };
-export type ActivityDay = DayCell & QbankDailyActivity & { wrong: number };
+export type ActivityDay = DayCell & QbankDailyActivity & { wrong: number; accuracyPercent: number | null };
 
 function dateKey(date: Date) {
   return date.toISOString().slice(0, 10);
@@ -42,7 +42,8 @@ export function activityCalendar(range: RangeKey, now = new Date(), year?: numbe
 export function activityDays(days: readonly DayCell[], activity: Readonly<Record<string, QbankDailyActivity>>): ActivityDay[] {
   return days.filter(day => day.inRange && !day.future).map(day => {
     const { attempts, correct } = activity[day.key] ?? { attempts: 0, correct: 0 };
-    return { ...day, attempts, correct, wrong: Math.max(0, attempts - correct) };
+    const accuracyPercent = attempts > 0 ? Math.min(100, Math.max(0, 100 * correct / attempts)) : null;
+    return { ...day, attempts, correct, wrong: Math.max(0, attempts - correct), accuracyPercent };
   });
 }
 
