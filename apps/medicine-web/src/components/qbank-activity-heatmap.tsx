@@ -13,6 +13,7 @@ import { loadQbankState, QBANK_CHANGE_EVENT, type QbankDailyActivity } from "@/l
 type ActivityCalendar = ReturnType<typeof calendarFor>;
 type ActivityView = "heatmap" | "bars";
 const views: ReadonlyArray<[ActivityView, string]> = [["heatmap", "히트맵"], ["bars", "막대그래프"]];
+const ranges: ReadonlyArray<[RangeKey, string]> = [["week", "주"], ["month", "월"], ["year", "연"]];
 const weekdayLabels = ["일", "월", "화", "수", "목", "금", "토"];
 
 function fill(attempts: number) {
@@ -146,7 +147,9 @@ function ActivityChart({ range, calendar, activity, days, view }: {
       : <CalendarSvg range={range} calendar={calendar} activity={activity} dayProps={dayProps} />}
   {selection && selectedDay ? createPortal(<div id={tooltipId} role="tooltip" className="pointer-events-none fixed z-[70] rounded-lg border border-[var(--line)] bg-[var(--surface)] px-2.5 py-2 text-[11px] leading-5 text-[var(--muted)] shadow-md" style={{ left: selection.left, width: selection.width, top: selection.top, bottom: selection.bottom }}>
     <span aria-hidden="true" className={`absolute h-2 w-2 rotate-45 bg-[var(--surface)] ${selection.above ? "-bottom-[5px] border-r border-b" : "-top-[5px] border-l border-t"} border-[var(--line)]`} style={{ left: selection.anchorOffset - 4 }} />
-    <div className="font-semibold text-[var(--foreground)]">{selectedDay.date.toLocaleDateString("ko-KR", { month: "long", day: "numeric", weekday: "short", timeZone: "UTC" })}</div><div>풀이 {selectedDay.attempts}개 · 정답 {selectedDay.correct}개</div><div className={selectedDay.wrong > 0 ? "text-rose-600" : undefined}>오답 {selectedDay.wrong}개{selectedDay.attempts > 0 ? ` · 정답률 ${Math.round(selectedDay.correct / selectedDay.attempts * 100)}%` : ""}</div>
+    <div className="font-semibold text-[var(--foreground)]">{selectedDay.date.toLocaleDateString("ko-KR", { month: "long", day: "numeric", weekday: "short", timeZone: "UTC" })}</div>
+    <div>풀이 {selectedDay.attempts}개 · <span className={selectedDay.correct > 0 ? "qbank-activity-correct-text" : undefined}>정답 {selectedDay.correct}개</span></div>
+    <div><span className={selectedDay.wrong > 0 ? "qbank-activity-wrong-text" : undefined}>오답 {selectedDay.wrong}개</span>{selectedDay.attempts > 0 ? ` · 정답률 ${Math.round(selectedDay.correct / selectedDay.attempts * 100)}%` : ""}</div>
   </div>, document.body) : null}
 </div>;
 }
@@ -178,10 +181,12 @@ export function QbankRangeActivityHeatmap({ compact = false }: { compact?: boole
       <div><div className="flex items-center gap-2 text-sm font-semibold text-teal-800"><Activity className="h-5 w-5" />{"\ubb38\uc81c\ud480\uc774 \ud65c\ub3d9"}</div><h2 className="mt-2 text-xl font-semibold text-slate-950">{calendar.title}</h2></div>
       <div className="flex flex-wrap items-center gap-x-3 gap-y-2"><div className="grid grid-cols-3 gap-4 text-right text-sm"><div><div className="text-xs text-slate-500">{"\ud480\uc774"}</div><div className="font-semibold">{attempts.toLocaleString()}</div></div><div><div className="text-xs text-slate-500">{"\uc815\ub2f5\ub960"}</div><div className="font-semibold">{rate}%</div></div><div><div className="text-xs text-slate-500">{"\uc5f0\uc18d"}</div><div className="font-semibold">{streak(activity)}{"\uc77c"}</div></div></div>
         {range === "year" && years.length > 1 && <select aria-label="학습 활동 연도" value={year} onChange={event => setSelectedYear(Number(event.target.value))} className="rounded-md border border-slate-200 bg-white px-2 py-1.5 text-xs">{years.map(value => <option key={value} value={value}>{value}년</option>)}</select>}
-        <div className="inline-flex rounded-lg border border-slate-200 bg-slate-100 p-1" role="group" aria-label="문제풀이 활동 보기">
-          {views.map(([key, label]) => <button key={key} type="button" aria-pressed={view === key} onClick={() => setView(key)} className={`rounded-md px-2.5 py-1.5 text-xs font-semibold whitespace-nowrap ${view === key ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}>{label}</button>)}
+        <div className="qbank-activity-switch" role="group" aria-label="문제풀이 활동 보기">
+          {views.map(([key, label]) => <button key={key} type="button" aria-pressed={view === key} onClick={() => setView(key)}>{label}</button>)}
         </div>
-        <div className="inline-flex rounded-lg border border-slate-200 bg-slate-100 p-1" role="tablist" aria-label="\ubb38\uc81c\ud480\uc774 \ud65c\ub3d9 \uae30\uac04">{([['week', '\uc8fc'], ['month', '\uc6d4'], ['year', '\uc5f0']] as Array<[RangeKey, string]>).map(([key, label]) => <button key={key} type="button" role="tab" aria-selected={range === key} onClick={() => setRange(key)} className={`rounded-md px-3 py-1.5 text-xs font-semibold ${range === key ? "bg-white text-teal-800 shadow-sm" : "text-slate-600"}`}>{label}</button>)}</div>
+        <div className="qbank-activity-switch" role="group" aria-label="문제풀이 활동 기간">
+          {ranges.map(([key, label]) => <button key={key} type="button" aria-pressed={range === key} onClick={() => setRange(key)}>{label}</button>)}
+        </div>
       </div>
     </div>
     <div className="mt-5"><ActivityChart key={`${view}:${range}:${year}:${today}`} range={range} calendar={calendar} activity={activity} days={visible} view={view} /></div>

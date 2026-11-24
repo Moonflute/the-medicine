@@ -57,6 +57,8 @@ test('question activity is the first statistics section and is no longer a Revie
     activeTheme = theme;
     const stats = renderToStaticMarkup(h(StatsPage));
     assert.match(stats, /학습 통계[^]*aria-label="문제풀이 기록"[^]*히트맵<\/button>[^]*막대그래프<\/button>[^]*data-analytics/);
+    assert.equal((stats.match(/class="qbank-activity-switch"/g) ?? []).length, 2);
+    assert.match(stats, /aria-label="문제풀이 활동 기간">[^]*aria-pressed="false">주<\/button>[^]*aria-pressed="false">월<\/button>[^]*aria-pressed="true">연<\/button>/);
     const review = renderToStaticMarkup(h(ReviewPageClient, { catalog: [] }));
     assert.match(review, /aria-pressed="true"[^>]*>저장<\/button>[^]*>최근<\/button>/);
     assert.doesNotMatch(review, /진도|문제풀이 기록/);
