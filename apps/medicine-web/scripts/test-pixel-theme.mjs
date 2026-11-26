@@ -39,8 +39,8 @@ const question = compile("src/components/skin-question.tsx", {
   "@/components/chat-room": {}, "@/components/concept-question": {}, "@/components/qbank-skip-controls": {},
 });
 
-test("enemy cels include every mood and motion, with unchanged original slime pixels", async () => {
-  for (const name of [...encounters.PIXEL_ENEMIES.filter(name => name !== "slime"), "slime-moods"]) {
+test("native slime cels preserve every original pixel and add the mood rows", async () => {
+  for (const name of ["slime-moods"]) {
     const sheet = sharp(`public/themes/pixel/${name}.png`);
     const meta = await sheet.metadata();
     assert.equal(meta.width, 256, name);
@@ -57,6 +57,30 @@ test("enemy cels include every mood and motion, with unchanged original slime pi
   const original = await sharp("public/themes/pixel/slime.png").raw().toBuffer();
   const extended = await sharp("public/themes/pixel/slime-moods.png").extract({ left: 0, top: 0, width: 256, height: 96 }).raw().toBuffer();
   assert.deepEqual(extended, original, "new moods preserve the complete original silhouette and animation");
+});
+
+test("concept enemies retain square frames and complete idle, attack, hit and stern loops", async () => {
+  for (const name of encounters.PIXEL_ENEMIES.filter(name => name !== "slime")) {
+    const sheet = sharp(`public/themes/pixel/${name}-v2.webp`);
+    const meta = await sheet.metadata();
+    assert.equal(meta.width, 512, name);
+    assert.equal(meta.height, 512, name);
+    assert.ok(meta.hasAlpha, name);
+    assert.ok(fs.statSync(`public/themes/pixel/${name}-v2.webp`).size < 250_000, `${name} transfer size`);
+    for (let row = 0; row < 4; row++) {
+      const frames = await Promise.all(Array.from({ length: 4 }, (_, frame) => sheet.clone().extract({ left: frame * 128, top: row * 128, width: 128, height: 128 }).ensureAlpha().raw().toBuffer()));
+      assert.equal(new Set(frames.map(frame => frame.toString("base64"))).size, 4, `${name} row ${row} distinct poses`);
+      for (const frame of frames) {
+        let visible = 0, clipped = 0;
+        for (let y = 0; y < 128; y++) for (let x = 0; x < 128; x++) if (frame[(y * 128 + x) * 4 + 3] > 200) {
+          visible++;
+          if (x < 2 || x > 125 || y < 2 || y > 125) clipped++;
+        }
+        assert.ok(visible > 2000, `${name}: an empty/undersized character cel`);
+        assert.equal(clipped, 0, `${name}: cel bleeds into its neighbour`);
+      }
+    }
+  }
 });
 
 test("opponents stay tied to question identity; repeated misses only change subtle threat", () => {
@@ -81,12 +105,22 @@ test("opponents stay tied to question identity; repeated misses only change subt
   assert.equal(threat(NaN, Infinity, -2), "calm");
 });
 
-test("every enemy uses full mood rows and both session modes pass stable IDs", () => {
+test("sprite frame counts and mood rows follow the active art sheet in every outcome", () => {
   for (const name of encounters.PIXEL_ENEMIES) {
     const html = render(pixel.PixelDancer, { name, threat: "danger", pose: "hit" });
-    assert.match(html, /background-size:800% 900%/);
-    assert.match(html, /--pixel-mood-row:6/);
-    assert.match(html, new RegExp(`/themes/pixel/${name === "slime" ? "slime-moods" : name}\\.png`));
+    if (name === "slime") {
+      assert.match(html, /background-size:800% 900%/);
+      assert.match(html, /--pixel-mood-row:6/);
+      assert.match(html, /\/themes\/pixel\/slime-moods\.png/);
+    } else {
+      assert.match(html, /background-size:400% 400%/);
+      assert.match(html, /--pixel-mood-row:0/);
+      assert.match(html, /--pixel-frame-count:4/);
+      assert.match(html, /--pixel-last-frame:3/);
+      assert.match(html, new RegExp(`/themes/pixel/${name}-v2\\.webp`));
+      for (const pose of ["dance", "still"]) assert.match(render(pixel.PixelDancer, { name, threat: "danger", pose }), /--pixel-mood-row:3/);
+      assert.match(render(pixel.PixelDancer, { name, threat: "danger", pose: "cheer" }), /--pixel-mood-row:0/);
+    }
   }
   for (const file of ["qbank-session-client", "mock-exam-panel"]) {
     assert.match(fs.readFileSync(`src/components/${file}.tsx`, "utf8"), /<SkinQuestionWorkspace questionId=\{current\.id\}/);

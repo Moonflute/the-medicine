@@ -164,11 +164,12 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
 .pixel-battler--opponent { right:0; transform-origin:50% 90%; }
 .pixel-battle-party .pixel-sprite { --pixel-frame-size:var(--pixel-battle-size); display:block; width:var(--pixel-frame-size); height:var(--pixel-frame-size); }
 .pixel-turn-label { color:var(--pixel-gold); font:10px/1.5 Consolas,monospace; letter-spacing:.5px; }
-/* Native 32px cels: eight poses per row, dance / cheer / hit. Only pixels move. */
-.pixel-dancer { --pixel-frame-size:32px; --pixel-mood-row:0; background-size:800% 300%; background-position:0 calc(var(--pixel-frame-size) * var(--pixel-mood-row) * -1); background-repeat:no-repeat; contain:paint; }
-.pixel-dancer[data-pose="dance"] { animation:pixel-dance-cels 960ms steps(8,end) infinite; }
-.pixel-dancer[data-pose="cheer"] { background-position-y:calc(var(--pixel-frame-size) * (var(--pixel-mood-row) + 1) * -1); animation:pixel-result-cels 630ms steps(7,end) forwards; }
-.pixel-dancer[data-pose="hit"] { background-position-y:calc(var(--pixel-frame-size) * (var(--pixel-mood-row) + 2) * -1); animation:pixel-result-cels 630ms steps(7,end) forwards; }
+/* Native cels use eight columns; concept sheets use four. The stage size stays fixed. */
+.pixel-dancer { --pixel-frame-size:32px; --pixel-mood-row:0; --pixel-frame-count:8; --pixel-last-frame:7; --pixel-result-duration:630ms; background-size:800% 300%; background-position:0 calc(var(--pixel-frame-size) * var(--pixel-mood-row) * -1); background-repeat:no-repeat; contain:paint; }
+.pixel-dancer[data-pose="dance"] { animation:pixel-dance-cels 960ms steps(var(--pixel-frame-count),end) infinite; }
+.pixel-dancer[data-pose="cheer"] { background-position-y:calc(var(--pixel-frame-size) * (var(--pixel-mood-row) + 1) * -1); animation:pixel-result-cels var(--pixel-result-duration) steps(var(--pixel-last-frame),end) forwards; }
+.pixel-dancer[data-pose="hit"] { background-position-y:calc(var(--pixel-frame-size) * (var(--pixel-mood-row) + 2) * -1); animation:pixel-result-cels var(--pixel-result-duration) steps(var(--pixel-last-frame),end) forwards; }
+.pixel-dancer[data-art="concept"][data-threat="alert"] { filter:brightness(.96) contrast(1.06); }
 .pixel-dancer[data-color="sky"] { filter:hue-rotate(55deg) saturate(.85); }
 .pixel-dancer[data-color="lilac"] { filter:hue-rotate(125deg) saturate(.75); }
 .pixel-dancer[data-color="peach"] { filter:hue-rotate(245deg) saturate(.78); }
@@ -215,8 +216,8 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
 @keyframes pixel-golem-stomp { 0%,100% { transform:translateY(0); } 40% { transform:translateY(-4px); } 70% { transform:translateY(2px); } }
 @keyframes pixel-ghost-vanish { 0% { opacity:1; transform:translateY(0); } 40% { opacity:.5; transform:translateY(-3px); } 70% { opacity:.8; } 100% { opacity:0; transform:translateY(-12px); } }
 @keyframes pixel-enemy-topple { 0% { opacity:1; transform:translate(0,0); } 40% { opacity:.6; transform:translate(3px,-2px) rotate(8deg); } 100% { opacity:0; transform:translate(7px,12px) rotate(24deg) scale(.8,.6); } }
-@keyframes pixel-dance-cels { to { background-position-x:calc(var(--pixel-frame-size) * -8); } }
-@keyframes pixel-result-cels { to { background-position-x:calc(var(--pixel-frame-size) * -7); } }
+@keyframes pixel-dance-cels { to { background-position-x:calc(var(--pixel-frame-size) * var(--pixel-frame-count) * -1); } }
+@keyframes pixel-result-cels { to { background-position-x:calc(var(--pixel-frame-size) * var(--pixel-last-frame) * -1); } }
 @keyframes pixel-enemy-enter { 0% { transform:translateX(120%); } 75% { transform:translateX(-4px); } 100% { transform:translateX(0); } }
 @keyframes pixel-hero-fire { 0%,100% { transform:translateX(0); } 40% { transform:translateX(3px) rotate(-3deg); } 65% { transform:translateX(-4px); } }
 @keyframes pixel-enemy-strike { 0%,100% { transform:translateX(0); } 45% { transform:translateX(-10px) scale(1.08,.9); } }
@@ -230,7 +231,7 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
   .pixel-title-party .pixel-sprite,.pixel-battle-party * { animation:none !important; }
   .pixel-battle-shot,.pixel-battle-muzzle,.pixel-battle-impact,.pixel-battle-callout { display:none; }
   .pixel-battle[data-outcome="correct"] .pixel-battler--opponent { opacity:.25; }
-  .pixel-dancer[data-pose="cheer"],.pixel-dancer[data-pose="hit"] { background-position-x:calc(var(--pixel-frame-size) * -7); }
+  .pixel-dancer[data-pose="cheer"],.pixel-dancer[data-pose="hit"] { background-position-x:calc(var(--pixel-frame-size) * var(--pixel-last-frame) * -1); }
 }
 /* Keep answer choices below the question at every viewport width. */
 .pixel-battle-panels { display:grid; grid-template-columns:minmax(0,1fr); gap:16px; align-items:start; }

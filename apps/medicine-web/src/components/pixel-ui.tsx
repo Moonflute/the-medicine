@@ -5,7 +5,7 @@ import { useState, type CSSProperties, type ReactNode } from "react";
 import { pixelEncounter, type PixelEnemy, type PixelThreat } from "@/lib/pixel-encounter";
 import { loadQbankState } from "@/lib/qbank-store";
 
-// Small original SVG icons stay static; animated characters use editable pixel cels.
+// Original icons/slime keep their native cels; new enemies use the approved concept art sheets.
 const sprites = {
   hero: ["...kkkk.....", "..kggggk....", "..kyyyyk....", "..kykyk.....", "...yyyy.....", "..kmmmmk....", ".kkmwwmkk...", ".y.mwwm.y...", "...mmmm.....", "...k..k.....", "..kk..kk....", "............"],
   slime: ["............", "............", "....kkkk....", "..kkmmmmkk..", ".kmmmmmmmmk.", ".kmmkmmkmmk.", "kmmmwmmwmmmk", "kmmmmmmmmmmk", "kmmkmmmmkmmk", ".kmmkkkkmmk.", "..kkkkkkkk..", "............"],
@@ -27,9 +27,11 @@ export function PixelDancer({ name, pose = "dance", className = "", threat = "ca
   threat?: PixelThreat; color?: "mint" | "sky" | "lilac" | "peach";
 }) {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-  const expanded = name !== "medic" && (name !== "slime" || threat !== "calm");
-  const file = name === "slime" && expanded ? "slime-moods" : name;
-  return <span className={`pixel-sprite pixel-dancer ${className}`} data-pose={pose} data-enemy={name} data-color={name === "slime" ? color : undefined} data-threat={threat} aria-hidden="true" style={{ backgroundImage: `url("${basePath}/themes/pixel/${file}.png")`, backgroundSize: expanded ? "800% 900%" : undefined, "--pixel-mood-row": expanded ? threat === "danger" ? 6 : threat === "alert" ? 3 : 0 : 0 } as CSSProperties} />;
+  const concept = name !== "medic" && name !== "slime";
+  const expanded = name === "slime" && threat !== "calm";
+  const file = concept ? `${name}-v2.webp` : `${expanded ? "slime-moods" : name}.png`;
+  const moodRow = concept ? threat === "danger" && (pose === "dance" || pose === "still") ? 3 : 0 : expanded ? threat === "danger" ? 6 : 3 : 0;
+  return <span className={`pixel-sprite pixel-dancer ${className}`} data-pose={pose} data-art={concept ? "concept" : "native"} data-enemy={name} data-color={name === "slime" ? color : undefined} data-threat={threat} aria-hidden="true" style={{ backgroundImage: `url("${basePath}/themes/pixel/${file}")`, backgroundSize: concept ? "400% 400%" : expanded ? "800% 900%" : undefined, "--pixel-mood-row": moodRow, "--pixel-frame-count": concept ? 4 : 8, "--pixel-last-frame": concept ? 3 : 7, "--pixel-result-duration": concept ? "360ms" : "630ms" } as CSSProperties} />;
 }
 
 const letters: Record<string, string[]> = {
