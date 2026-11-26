@@ -165,10 +165,13 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
 .pixel-battle-party .pixel-sprite { --pixel-frame-size:var(--pixel-battle-size); display:block; width:var(--pixel-frame-size); height:var(--pixel-frame-size); }
 .pixel-turn-label { color:var(--pixel-gold); font:10px/1.5 Consolas,monospace; letter-spacing:.5px; }
 /* Native 32px cels: eight poses per row, dance / cheer / hit. Only pixels move. */
-.pixel-dancer { --pixel-frame-size:32px; background-size:800% 300%; background-position:0 0; background-repeat:no-repeat; contain:paint; }
+.pixel-dancer { --pixel-frame-size:32px; --pixel-mood-row:0; background-size:800% 300%; background-position:0 calc(var(--pixel-frame-size) * var(--pixel-mood-row) * -1); background-repeat:no-repeat; contain:paint; }
 .pixel-dancer[data-pose="dance"] { animation:pixel-dance-cels 960ms steps(8,end) infinite; }
-.pixel-dancer[data-pose="cheer"] { background-position-y:calc(var(--pixel-frame-size) * -1); animation:pixel-result-cels 630ms steps(7,end) forwards; }
-.pixel-dancer[data-pose="hit"] { background-position-y:calc(var(--pixel-frame-size) * -2); animation:pixel-result-cels 630ms steps(7,end) forwards; }
+.pixel-dancer[data-pose="cheer"] { background-position-y:calc(var(--pixel-frame-size) * (var(--pixel-mood-row) + 1) * -1); animation:pixel-result-cels 630ms steps(7,end) forwards; }
+.pixel-dancer[data-pose="hit"] { background-position-y:calc(var(--pixel-frame-size) * (var(--pixel-mood-row) + 2) * -1); animation:pixel-result-cels 630ms steps(7,end) forwards; }
+.pixel-dancer[data-color="sky"] { filter:hue-rotate(55deg) saturate(.85); }
+.pixel-dancer[data-color="lilac"] { filter:hue-rotate(125deg) saturate(.75); }
+.pixel-dancer[data-color="peach"] { filter:hue-rotate(245deg) saturate(.78); }
 /* Attack at 180ms, impact at 540ms, then defeat/recovery. The reading layout stays fixed. */
 .pixel-battle-shot { position:absolute; left:calc(var(--pixel-battle-size) * .65); right:calc(var(--pixel-battle-size) * .5); top:calc(8px + var(--pixel-battle-size) * .56); height:6px; z-index:2; }
 .pixel-battle-shot[data-direction="left"] { transform:scaleX(-1); }
@@ -195,6 +198,23 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
 .pixel-battle[data-outcome="wrong"] .pixel-hero { animation-delay:540ms; }
 .pixel-battle[data-outcome="wrong"] .pixel-turn-label { color:#edb29a; }
 .pixel-battle[data-outcome="wrong"] .pixel-battle-response { border-left-color:#ae7960; }
+/* Species share the same compact stage; only their cels and attack effects vary. */
+.pixel-battle[data-outcome="wrong"] .pixel-battle-party[data-enemy="ghost"] { --pixel-shot-color:#b8deea; }
+.pixel-battle[data-outcome="wrong"] .pixel-battle-party[data-enemy="bat"] { --pixel-shot-color:#b49cc3; }
+.pixel-battle[data-outcome="wrong"] .pixel-battle-party[data-enemy="golem"] { --pixel-shot-color:#aab3aa; }
+.pixel-battle[data-outcome="wrong"] .pixel-battle-party[data-enemy="goblin"] { --pixel-shot-color:#a77e4e; }
+.pixel-battle[data-outcome="wrong"] .pixel-battle-party[data-enemy="skeleton"] { --pixel-shot-color:#d1e0e3; }
+.pixel-battle[data-outcome="wrong"] .pixel-battle-party[data-enemy="golem"] .pixel-projectile { width:8px; height:8px; background:var(--pixel-shot-color); box-shadow:-4px 2px #738577; }
+.pixel-battle[data-outcome="wrong"] .pixel-battle-party[data-enemy="bat"] .pixel-battler--opponent { animation-name:pixel-bat-swoop; }
+.pixel-battle[data-outcome="wrong"] .pixel-battle-party[data-enemy="ghost"] .pixel-battler--opponent { animation-name:pixel-ghost-dash; }
+.pixel-battle[data-outcome="wrong"] .pixel-battle-party[data-enemy="golem"] .pixel-battler--opponent { animation-name:pixel-golem-stomp; }
+.pixel-battle[data-outcome="correct"] .pixel-battle-party[data-enemy="ghost"] .pixel-battler--opponent { animation-name:pixel-ghost-vanish; }
+.pixel-battle[data-outcome="correct"] .pixel-battle-party:is([data-enemy="bat"],[data-enemy="skeleton"]) .pixel-battler--opponent { animation-name:pixel-enemy-topple; }
+@keyframes pixel-bat-swoop { 0%,100% { transform:translate(0,0); } 35% { transform:translate(-5px,-4px); } 65% { transform:translate(-12px,3px); } }
+@keyframes pixel-ghost-dash { 0%,100% { transform:translateX(0); opacity:1; } 50% { transform:translateX(-12px); opacity:.65; } }
+@keyframes pixel-golem-stomp { 0%,100% { transform:translateY(0); } 40% { transform:translateY(-4px); } 70% { transform:translateY(2px); } }
+@keyframes pixel-ghost-vanish { 0% { opacity:1; transform:translateY(0); } 40% { opacity:.5; transform:translateY(-3px); } 70% { opacity:.8; } 100% { opacity:0; transform:translateY(-12px); } }
+@keyframes pixel-enemy-topple { 0% { opacity:1; transform:translate(0,0); } 40% { opacity:.6; transform:translate(3px,-2px) rotate(8deg); } 100% { opacity:0; transform:translate(7px,12px) rotate(24deg) scale(.8,.6); } }
 @keyframes pixel-dance-cels { to { background-position-x:calc(var(--pixel-frame-size) * -8); } }
 @keyframes pixel-result-cels { to { background-position-x:calc(var(--pixel-frame-size) * -7); } }
 @keyframes pixel-enemy-enter { 0% { transform:translateX(120%); } 75% { transform:translateX(-4px); } 100% { transform:translateX(0); } }

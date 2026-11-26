@@ -47,16 +47,16 @@ export function SkinQuestionAction({ submitted, unknown, last, onSubmit, onNext,
   return <div className="qbank-question-actions">{!submitted && onSkip && <QbankSkipButton onSkip={onSkip} />}<button type="button" onClick={submitted ? onNext : onSubmit} title={submitted && nextLabel ? nextLabel : label} aria-label={submitted ? nextLabel ?? (last ? "결과 보기" : "다음 문제") : unknown ? "모름으로 제출" : "답안 제출"} className="primary-action"><span className="skin-q-send-label">{submitted && nextLabel ? nextLabel : label}</span>{submitted ? <ChevronRight size={16} /> : theme === "chat" ? <SkinQuestionSendIcon /> : null}</button></div>;
 }
 
-export function SkinQuestionWorkspace({ question, choices, response, actions, copy, hint, answerText, submitted, number, total, mode = "study", sourceTitle = "문제은행", choicesCount = 5, correct = null, progressTools }: {
+export function SkinQuestionWorkspace({ question, choices, response, actions, copy, hint, answerText, submitted, number, total, mode = "study", sourceTitle = "문제은행", choicesCount = 5, correct = null, progressTools, questionId }: {
   question: ReactNode; choices: ReactNode; response: ReactNode; actions: ReactNode; copy: ReactNode;
   hint: string; answerText: string; submitted: boolean; number: number; total: number;
   mode?: "study" | "mock"; sourceTitle?: string; choicesCount?: number; correct?: boolean | null;
-  progressTools?: ReactNode;
+  progressTools?: ReactNode; questionId?: string;
 }) {
   const { theme } = useSkinTheme();
   const senderName = useChatSenderName(sourceTitle);
   if (theme === "notebook") return <NotebookQuestionWorkspace question={question} choices={choices} response={response} actions={actions} copy={copy} hint={hint} submitted={submitted} number={number} total={total} mode={mode} sourceTitle={senderName} correct={correct} />;
-  if (theme === "pixel") return <PixelQuestionWorkspace question={question} choices={choices} response={response} actions={actions} copy={copy} hint={hint} answerText={answerText} submitted={submitted} number={number} total={total} mode={mode} sourceTitle={senderName} correct={correct} />;
+  if (theme === "pixel") return <PixelQuestionWorkspace key={questionId ?? `${mode}:${sourceTitle}:${number}`} questionId={questionId} question={question} choices={choices} response={response} actions={actions} copy={copy} hint={hint} answerText={answerText} submitted={submitted} number={number} total={total} mode={mode} sourceTitle={senderName} correct={correct} />;
   if (isConceptTheme(theme)) return <ConceptQuestionWorkspace theme={theme} question={question} choices={choices} response={response} actions={actions} copy={copy} hint={hint} answerText={answerText} submitted={submitted} number={number} total={total} mode={mode} sourceTitle={senderName} choicesCount={choicesCount} />;
   const hintNode = hint ? <p className="mt-5 text-sm font-medium text-teal-700">{hint}</p> : null;
   if (theme === "chat") return <div className="skin-question-workspace skin-question-chat" data-question-skin="chat">

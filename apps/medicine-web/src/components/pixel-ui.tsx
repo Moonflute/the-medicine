@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import type { ReactNode } from "react";
+import { useState, type CSSProperties, type ReactNode } from "react";
+import { pixelEncounter, type PixelEnemy, type PixelThreat } from "@/lib/pixel-encounter";
+import { loadQbankState } from "@/lib/qbank-store";
 
-// Small original SVG icons stay static; the two animated characters use editable pixel cels.
+// Small original SVG icons stay static; animated characters use editable pixel cels.
 const sprites = {
   hero: ["...kkkk.....", "..kggggk....", "..kyyyyk....", "..kykyk.....", "...yyyy.....", "..kmmmmk....", ".kkmwwmkk...", ".y.mwwm.y...", "...mmmm.....", "...k..k.....", "..kk..kk....", "............"],
   slime: ["............", "............", "....kkkk....", "..kkmmmmkk..", ".kmmmmmmmmk.", ".kmmkmmkmmk.", "kmmmwmmwmmmk", "kmmmmmmmmmmk", "kmmkmmmmkmmk", ".kmmkkkkmmk.", "..kkkkkkkk..", "............"],
@@ -20,11 +22,14 @@ export function PixelSprite({ name, className = "" }: { name: PixelSpriteName; c
   return <svg className={`pixel-sprite ${className}`} viewBox="0 0 12 12" shapeRendering="crispEdges" aria-hidden="true" focusable="false">{sprites[name].flatMap((row, y) => [...row].map((color, x) => color === "." ? null : <rect key={`${x}-${y}`} x={x} y={y} width="1" height="1" fill={colors[color]} />))}</svg>;
 }
 
-export function PixelDancer({ name, pose = "dance", className = "" }: {
-  name: "medic" | "slime"; pose?: "dance" | "cheer" | "hit" | "still"; className?: string;
+export function PixelDancer({ name, pose = "dance", className = "", threat = "calm", color = "mint" }: {
+  name: "medic" | PixelEnemy; pose?: "dance" | "cheer" | "hit" | "still"; className?: string;
+  threat?: PixelThreat; color?: "mint" | "sky" | "lilac" | "peach";
 }) {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-  return <span className={`pixel-sprite pixel-dancer ${className}`} data-pose={pose} aria-hidden="true" style={{ backgroundImage: `url("${basePath}/themes/pixel/${name}.png")` }} />;
+  const expanded = name !== "medic" && (name !== "slime" || threat !== "calm");
+  const file = name === "slime" && expanded ? "slime-moods" : name;
+  return <span className={`pixel-sprite pixel-dancer ${className}`} data-pose={pose} data-enemy={name} data-color={name === "slime" ? color : undefined} data-threat={threat} aria-hidden="true" style={{ backgroundImage: `url("${basePath}/themes/pixel/${file}.png")`, backgroundSize: expanded ? "800% 900%" : undefined, "--pixel-mood-row": expanded ? threat === "danger" ? 6 : threat === "alert" ? 3 : 0 : 0 } as CSSProperties} />;
 }
 
 const letters: Record<string, string[]> = {
@@ -92,20 +97,24 @@ export function PixelDocumentOutline({ sections }: { sections: { id: string; tit
   </details>;
 }
 
-export function PixelQuestionWorkspace({ question, choices, response, actions, copy, hint, answerText, submitted, number, total, mode, sourceTitle, correct = null }: {
+export function PixelQuestionWorkspace({ question, choices, response, actions, copy, hint, answerText, submitted, number, total, mode, sourceTitle, correct = null, questionId }: {
   question: ReactNode; choices: ReactNode; response: ReactNode; actions: ReactNode; copy: ReactNode;
   hint: string; answerText: string; submitted: boolean; number: number; total: number;
-  mode: "study" | "mock"; sourceTitle: string; correct?: boolean | null;
+  mode: "study" | "mock"; sourceTitle: string; correct?: boolean | null; questionId?: string;
 }) {
+  // The session mounts after questions load on the client. Snapshot on entry, before
+  // grading writes progress, so a hit never changes the opponent mid-animation.
+  const id = questionId ?? `${mode}:${sourceTitle}:${number}`;
+  const [encounter] = useState(() => pixelEncounter(id, loadQbankState().progress[id]));
   const outcome = !submitted ? "idle" : correct === true ? "correct" : correct === false ? "wrong" : "ungraded";
   const turnLabel = outcome === "correct" ? "정답! · CLEAR" : outcome === "wrong" ? "앗! 다시 도전" : submitted ? "TURN END" : "YOUR TURN";
   const fighting = outcome === "correct" || outcome === "wrong";
   return <div className="pixel-battle skin-question-workspace" data-question-skin="pixel" data-submitted={submitted} data-outcome={outcome}>
     <div className="pixel-battle-scene">
       <div className="pixel-battle-hud"><p className="pixel-battle-caption"><span className="pixel-eyebrow">{mode === "mock" ? "MOCK BATTLE" : "QUESTION BATTLE"}</span><span className="pixel-turn-label">{turnLabel}</span></p><div><strong>ROUND {String(number).padStart(2, "0")}</strong><span>{number} / {total}</span></div><progress aria-label="현재 문제 위치" value={number} max={Math.max(total, number, 1)} /></div>
-      <div key={`${mode}:${number}:${outcome}`} className="pixel-battle-party" aria-hidden="true">
+      <div key={`${id}:${outcome}`} className="pixel-battle-party" data-enemy={encounter.enemy} data-threat={encounter.threat} aria-hidden="true">
         <span className="pixel-battler pixel-battler--hero"><PixelDancer name="medic" pose={outcome === "correct" ? "cheer" : outcome === "wrong" ? "hit" : outcome === "idle" ? "dance" : "still"} className="pixel-hero" /></span>
-        <span className="pixel-battler pixel-battler--opponent"><PixelDancer name="slime" pose={outcome === "correct" ? "hit" : outcome === "wrong" ? "cheer" : outcome === "idle" ? "dance" : "still"} className="pixel-opponent" /></span>
+        <span className="pixel-battler pixel-battler--opponent"><PixelDancer name={encounter.enemy} color={encounter.color} threat={encounter.threat} pose={outcome === "correct" ? "hit" : outcome === "wrong" ? "cheer" : outcome === "idle" ? "dance" : "still"} className="pixel-opponent" /></span>
         {fighting ? <>
           <span className="pixel-battle-shot" data-direction={outcome === "correct" ? "right" : "left"}><span className="pixel-projectile-flight"><span className="pixel-projectile" /></span></span>
           <span className="pixel-battle-muzzle" data-side={outcome === "correct" ? "hero" : "opponent"} />

@@ -973,7 +973,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
           <QbankMemoButton questionId={current.id} open={memoQuestion === current.id} onToggle={() => setMemoQuestion(previous => previous === current.id ? undefined : current.id)} panelId="qbank-personal-memo" />
         </DocumentToolbar>
         {memoQuestion === current.id && <QbankMemoPanel key={current.id} questionId={current.id} panelId="qbank-personal-memo" onClose={() => setMemoQuestion(undefined)} />}
-        <SkinQuestionWorkspace sourceTitle={practiceQuestionLabel(current)} number={currentIndex + 1} total={questions.length} submitted={submitted} choicesCount={displayedOptions.length} correct={submitted ? gradeQuestion(current, selected) : null}
+        <SkinQuestionWorkspace questionId={current.id} sourceTitle={practiceQuestionLabel(current)} number={currentIndex + 1} total={questions.length} submitted={submitted} choicesCount={displayedOptions.length} correct={submitted ? gradeQuestion(current, selected) : null}
           progressTools={<QbankSkippedNavigation questions={questions} state={skips} currentIndex={currentIndex} onMove={showQuestion} onReview={reviewSkipped} onShowAll={showAll} chatOnly />}
           hint={selectionHint(current)}
           answerText={displayedOptions.filter(key => selectedAnswers(selected).includes(key)).map(key => `${OPTION_LABELS[displayedOptions.indexOf(key)]}. ${current.options[key] ?? ""}`).join("\n")}

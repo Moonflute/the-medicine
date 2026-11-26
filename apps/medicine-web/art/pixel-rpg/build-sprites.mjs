@@ -13,7 +13,7 @@ const palette = {
   hair: "#41546a", white: "#fff7dc", coat: "#dce9d3", seam: "#98b7a8",
   mint: "#77d6a4", green: "#3d987c", dark: "#246658", gold: "#f4ce72",
 };
-function canvas() {
+export function canvas() {
   const pixels = Buffer.alloc(size * size * 4);
   const dot = (x, y, color) => {
     x = Math.round(x); y = Math.round(y);
@@ -38,7 +38,7 @@ function canvas() {
 }
 
 // Hips lead, head follows a frame later. Feet stay on the same floor throughout dance.
-const beat = [
+export const beat = [
   { hip: -1, head: 0, down: 0 }, { hip: -2, head: -1, down: 1 },
   { hip: -1, head: -2, down: 2 }, { hip: 0, head: -1, down: 0 },
   { hip: 1, head: 0, down: 0 }, { hip: 2, head: 1, down: 1 },
@@ -106,7 +106,7 @@ function medic(state, frame) {
   return c.pixels;
 }
 
-function slime(state, frame) {
+export function slime(state, frame) {
   const c = canvas();
   const pose = beat[frame];
   const dance = state === "dance";
@@ -147,14 +147,13 @@ function chunk(type, body) {
   const header = Buffer.alloc(6); header.writeUInt32LE(body.length + 6); header.writeUInt16LE(type, 4);
   return Buffer.concat([header, body]);
 }
-function aseprite(draw) {
-  const tags = ["dance", "cheer", "hit"];
+export function aseprite(draw, tags = ["dance", "cheer", "hit"]) {
   const frames = tags.flatMap((state, row) => Array.from({ length: 8 }, (_, index) => {
     const chunks = [];
     if (row === 0 && index === 0) {
       const layer = Buffer.alloc(16); layer.writeUInt16LE(1); layer[12] = 255;
       chunks.push(chunk(0x2004, Buffer.concat([layer, string("Original pixel cels")])));
-      const tagHeader = Buffer.alloc(10); tagHeader.writeUInt16LE(3);
+      const tagHeader = Buffer.alloc(10); tagHeader.writeUInt16LE(tags.length);
       chunks.push(chunk(0x2018, Buffer.concat([tagHeader, ...tags.map((name, tag) => {
         const entry = Buffer.alloc(17); entry.writeUInt16LE(tag * 8); entry.writeUInt16LE(tag * 8 + 7, 2);
         entry[13] = 119; entry[14] = 214; entry[15] = 164;
@@ -164,7 +163,7 @@ function aseprite(draw) {
     const cel = Buffer.alloc(20); cel[6] = 255; cel.writeUInt16LE(2, 7); cel.writeUInt16LE(size, 16); cel.writeUInt16LE(size, 18);
     chunks.push(chunk(0x2005, Buffer.concat([cel, deflateSync(draw(state, index))])));
     const header = Buffer.alloc(16); header.writeUInt32LE(16 + chunks.reduce((sum, b) => sum + b.length, 0));
-    header.writeUInt16LE(0xf1fa, 4); header.writeUInt16LE(chunks.length, 6); header.writeUInt16LE(state === "dance" ? 120 : 90, 8);
+    header.writeUInt16LE(0xf1fa, 4); header.writeUInt16LE(chunks.length, 6); header.writeUInt16LE(state.endsWith("dance") ? 120 : 90, 8);
     return Buffer.concat([header, ...chunks]);
   }));
   const header = Buffer.alloc(128); header.writeUInt32LE(128 + frames.reduce((sum, b) => sum + b.length, 0));
@@ -173,15 +172,17 @@ function aseprite(draw) {
   return Buffer.concat([header, ...frames]);
 }
 
-const libreSprite = process.argv[2];
-if (!libreSprite) throw new Error("Pass the LibreSprite executable path to regenerate cels and PNG sheets.");
-const output = path.resolve(directory, "../../public/themes/pixel");
-fs.mkdirSync(output, { recursive: true });
-for (const [name, draw] of Object.entries({ medic, slime })) {
-  const source = path.join(directory, `${name}.ase`);
-  fs.writeFileSync(source, aseprite(draw));
-  const result = spawnSync(libreSprite, ["--batch", source, "--sheet-type", "rows", "--sheet-width", "256", "--sheet-height", "96", "--sheet", path.join(output, `${name}.png`)], { encoding: "utf8", windowsHide: true });
-  if (result.error) throw result.error;
-  if (result.status !== 0) throw new Error(`LibreSprite export failed: ${name} (${result.status})\n${result.stderr}\n${result.stdout}`);
-  console.log(`Exported ${name}: 24 original 32×32 cels, 256×96 PNG.`);
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  const libreSprite = process.argv[2];
+  if (!libreSprite) throw new Error("Pass the LibreSprite executable path to regenerate cels and PNG sheets.");
+  const output = path.resolve(directory, "../../public/themes/pixel");
+  fs.mkdirSync(output, { recursive: true });
+  for (const [name, draw] of Object.entries({ medic, slime })) {
+    const source = path.join(directory, `${name}.ase`);
+    fs.writeFileSync(source, aseprite(draw));
+    const result = spawnSync(libreSprite, ["--batch", source, "--sheet-type", "rows", "--sheet-width", "256", "--sheet-height", "96", "--sheet", path.join(output, `${name}.png`)], { encoding: "utf8", windowsHide: true });
+    if (result.error) throw result.error;
+    if (result.status !== 0) throw new Error(`LibreSprite export failed: ${name} (${result.status})\n${result.stderr}\n${result.stdout}`);
+    console.log(`Exported ${name}: 24 original 32×32 cels, 256×96 PNG.`);
+  }
 }

@@ -22,10 +22,13 @@ const compile = (file, deps = {}) => {
   return compiledModule.exports;
 };
 const themes = compile("src/lib/themes.ts");
+const encounters = compile("src/lib/pixel-encounter.ts");
 const deps = {
   react: React, "react/jsx-runtime": jsxRuntime, "lucide-react": lucide,
   "next/link": ({ children, ...props }) => React.createElement("a", props, children),
   "@/lib/themes": themes,
+  "@/lib/pixel-encounter": encounters,
+  "@/lib/qbank-store": { loadQbankState: () => ({ progress: {} }) },
   "@/components/theme-provider": { useSkinTheme: () => ({ theme: "pixel" }) },
 };
 const pixel = compile("src/components/pixel-ui.tsx", deps);
@@ -34,6 +37,60 @@ const question = compile("src/components/skin-question.tsx", {
   "@/components/notebook-ui": {},
   "@/components/chat-contact": { useChatSenderName: value => value },
   "@/components/chat-room": {}, "@/components/concept-question": {}, "@/components/qbank-skip-controls": {},
+});
+
+test("enemy cels include every mood and motion, with unchanged original slime pixels", async () => {
+  for (const name of [...encounters.PIXEL_ENEMIES.filter(name => name !== "slime"), "slime-moods"]) {
+    const sheet = sharp(`public/themes/pixel/${name}.png`);
+    const meta = await sheet.metadata();
+    assert.equal(meta.width, 256, name);
+    assert.equal(meta.height, 288, name);
+    assert.ok(meta.hasAlpha, name);
+    for (let row = 0; row < 9; row++) {
+      const cels = await Promise.all(Array.from({ length: 8 }, (_, frame) => sheet.clone().extract({ left: frame * 32, top: row * 32, width: 32, height: 32 }).raw().toBuffer()));
+      assert.ok(new Set(cels.map(cel => cel.toString("base64"))).size >= 6, `${name} row ${row} needs articulated poses`);
+      for (const cel of cels) assert.ok(cel.some((value, index) => index % 4 === 3 && value === 255), `${name} has an empty cel`);
+    }
+    const ase = fs.readFileSync(`art/pixel-rpg/${name}.ase`);
+    assert.equal(ase.readUInt16LE(6), 72, `${name} editable source frame count`);
+  }
+  const original = await sharp("public/themes/pixel/slime.png").raw().toBuffer();
+  const extended = await sharp("public/themes/pixel/slime-moods.png").extract({ left: 0, top: 0, width: 256, height: 96 }).raw().toBuffer();
+  assert.deepEqual(extended, original, "new moods preserve the complete original silhouette and animation");
+});
+
+test("opponents stay tied to question identity; repeated misses only change subtle threat", () => {
+  const seenEnemies = new Set(), seenColors = new Set();
+  for (let i = 0; i < 300; i++) {
+    const id = `QB-2026-${i}`;
+    const initial = encounters.pixelEncounter(id);
+    const repeat = encounters.pixelEncounter(id, { attempts: 8, correctAttempts: 2, consecutiveCorrect: 0 });
+    assert.equal(initial.enemy, repeat.enemy);
+    assert.equal(initial.color, repeat.color);
+    seenEnemies.add(initial.enemy); seenColors.add(initial.color);
+  }
+  assert.equal(seenEnemies.size, 7);
+  assert.equal(seenColors.size, 4);
+  const threat = (attempts, correctAttempts = 0, consecutiveCorrect = 0) => encounters.pixelThreat({ attempts, correctAttempts, consecutiveCorrect });
+  assert.equal(threat(0), "calm");
+  assert.equal(threat(1), "calm");
+  assert.equal(threat(2), "alert");
+  assert.equal(threat(4), "danger");
+  assert.equal(threat(5, 1, 1), "alert");
+  assert.equal(threat(6, 2, 2), "calm");
+  assert.equal(threat(NaN, Infinity, -2), "calm");
+});
+
+test("every enemy uses full mood rows and both session modes pass stable IDs", () => {
+  for (const name of encounters.PIXEL_ENEMIES) {
+    const html = render(pixel.PixelDancer, { name, threat: "danger", pose: "hit" });
+    assert.match(html, /background-size:800% 900%/);
+    assert.match(html, /--pixel-mood-row:6/);
+    assert.match(html, new RegExp(`/themes/pixel/${name === "slime" ? "slime-moods" : name}\\.png`));
+  }
+  for (const file of ["qbank-session-client", "mock-exam-panel"]) {
+    assert.match(fs.readFileSync(`src/components/${file}.tsx`, "utf8"), /<SkinQuestionWorkspace questionId=\{current\.id\}/);
+  }
 });
 const render = (Component, props) => renderToStaticMarkup(React.createElement(Component, props));
 
