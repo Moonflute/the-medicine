@@ -15,6 +15,7 @@ const mocks = {
   '@/components/chat-contact': { useChatSenderName: name => name },
   '@/components/chat-room': { ChatComposerContent: ({ area, children }) => h('div', { 'data-composer-area': area }, children) },
   '@/components/concept-document': { ConceptProfile: ({ children }) => h('div', null, children) },
+  '@/lib/qbank-store': { loadQbankState: () => ({ progress: {}, dailyActivity: {} }), QBANK_CHANGE_EVENT: 'qbank-change' },
   'next/link': ({ children, ...props }) => h('a', props, children),
 };
 function load(relativePath) {
@@ -28,6 +29,7 @@ const themes = mocks['@/lib/themes'] = load('lib/themes.ts');
 mocks['@/lib/skin-navigation'] = load('lib/skin-navigation.ts');
 mocks['@/components/notebook-ui'] = load('components/notebook-ui.tsx');
 mocks['@/components/concept-question'] = load('components/concept-question.tsx');
+mocks['@/lib/pixel-encounter'] = load('lib/pixel-encounter.ts');
 mocks['@/components/pixel-ui'] = load('components/pixel-ui.tsx');
 mocks['@/components/qbank-skip-controls'] = load('components/qbank-skip-controls.tsx');
 const skin = load('components/skin-question.tsx');
