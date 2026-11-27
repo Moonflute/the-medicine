@@ -59,25 +59,35 @@ test("native slime cels preserve every original pixel and add the mood rows", as
   assert.deepEqual(extended, original, "new moods preserve the complete original silhouette and animation");
 });
 
-test("concept enemies retain square frames and complete idle, attack, hit and stern loops", async () => {
+test("concept enemies pack eight dance cels and retain the complete combat artwork", async () => {
   for (const name of encounters.PIXEL_ENEMIES.filter(name => name !== "slime")) {
-    const sheet = sharp(`public/themes/pixel/${name}-v2.webp`);
+    const sheet = sharp(`public/themes/pixel/${name}-v3.webp`);
     const meta = await sheet.metadata();
-    assert.equal(meta.width, 512, name);
+    assert.equal(meta.width, 1024, name);
     assert.equal(meta.height, 512, name);
     assert.ok(meta.hasAlpha, name);
-    assert.ok(fs.statSync(`public/themes/pixel/${name}-v2.webp`).size < 250_000, `${name} transfer size`);
+    assert.ok(fs.statSync(`public/themes/pixel/${name}-v3.webp`).size < 450_000, `${name} transfer size`);
     for (let row = 0; row < 4; row++) {
-      const frames = await Promise.all(Array.from({ length: 4 }, (_, frame) => sheet.clone().extract({ left: frame * 128, top: row * 128, width: 128, height: 128 }).ensureAlpha().raw().toBuffer()));
-      assert.equal(new Set(frames.map(frame => frame.toString("base64"))).size, 4, `${name} row ${row} distinct poses`);
+      const count = row < 2 ? 8 : 4;
+      const frames = await Promise.all(Array.from({ length: count }, (_, frame) => sheet.clone().extract({ left: frame * 128, top: row * 128, width: 128, height: 128 }).ensureAlpha().raw().toBuffer()));
+      assert.equal(new Set(frames.map(frame => frame.toString("base64"))).size, count, `${name} row ${row} distinct poses`);
       for (const frame of frames) {
-        let visible = 0, clipped = 0;
+        let visible = 0, clipped = 0, bottom = -1;
         for (let y = 0; y < 128; y++) for (let x = 0; x < 128; x++) if (frame[(y * 128 + x) * 4 + 3] > 200) {
           visible++;
+          bottom = y;
           if (x < 2 || x > 125 || y < 2 || y > 125) clipped++;
         }
         assert.ok(visible > 2000, `${name}: an empty/undersized character cel`);
         assert.equal(clipped, 0, `${name}: cel bleeds into its neighbour`);
+        if (row < 2 && name !== "bat" && name !== "ghost") assert.equal(bottom, 116, `${name}: planted feet drift between cels`);
+      }
+    }
+    for (let row = 0; row < 2; row++) {
+      const original = await sharp(`public/themes/pixel/${name}-v2.webp`).extract({ left: 0, top: (row + 1) * 128, width: 512, height: 128 }).raw().toBuffer();
+      const packed = await sheet.clone().extract({ left: 0, top: (row + 2) * 128, width: 512, height: 128 }).raw().toBuffer();
+      for (let offset = 0; offset < original.length; offset += 4) if (original[offset + 3] === 255) {
+        assert.deepEqual(packed.subarray(offset, offset + 4), original.subarray(offset, offset + 4), `${name}: combat art changed`);
       }
     }
   }
@@ -113,13 +123,19 @@ test("sprite frame counts and mood rows follow the active art sheet in every out
       assert.match(html, /--pixel-mood-row:6/);
       assert.match(html, /\/themes\/pixel\/slime-moods\.png/);
     } else {
-      assert.match(html, /background-size:400% 400%/);
-      assert.match(html, /--pixel-mood-row:0/);
+      assert.match(html, /background-size:800% 400%/);
+      assert.match(html, /--pixel-mood-row:1/);
       assert.match(html, /--pixel-frame-count:4/);
       assert.match(html, /--pixel-last-frame:3/);
-      assert.match(html, new RegExp(`/themes/pixel/${name}-v2\\.webp`));
-      for (const pose of ["dance", "still"]) assert.match(render(pixel.PixelDancer, { name, threat: "danger", pose }), /--pixel-mood-row:3/);
-      assert.match(render(pixel.PixelDancer, { name, threat: "danger", pose: "cheer" }), /--pixel-mood-row:0/);
+      assert.match(html, new RegExp(`/themes/pixel/${name}-v3\\.webp`));
+      for (const pose of ["dance", "still"]) {
+        const idle = render(pixel.PixelDancer, { name, threat: "danger", pose });
+        assert.match(idle, /--pixel-mood-row:1/);
+        assert.match(idle, /--pixel-frame-count:8/);
+        assert.match(idle, /--pixel-last-frame:7/);
+        assert.match(render(pixel.PixelDancer, { name, threat: "calm", pose }), /--pixel-mood-row:0/);
+      }
+      assert.match(render(pixel.PixelDancer, { name, threat: "danger", pose: "cheer" }), /--pixel-mood-row:1/);
     }
   }
   for (const file of ["qbank-session-client", "mock-exam-panel"]) {

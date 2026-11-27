@@ -164,9 +164,10 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
 .pixel-battler--opponent { right:0; transform-origin:50% 90%; }
 .pixel-battle-party .pixel-sprite { --pixel-frame-size:var(--pixel-battle-size); display:block; width:var(--pixel-frame-size); height:var(--pixel-frame-size); }
 .pixel-turn-label { color:var(--pixel-gold); font:10px/1.5 Consolas,monospace; letter-spacing:.5px; }
-/* Native cels use eight columns; concept sheets use four. The stage size stays fixed. */
+/* Every idle loop uses eight cels on the same beat; concept attacks use four cels. */
 .pixel-dancer { --pixel-frame-size:32px; --pixel-mood-row:0; --pixel-frame-count:8; --pixel-last-frame:7; --pixel-result-duration:630ms; background-size:800% 300%; background-position:0 calc(var(--pixel-frame-size) * var(--pixel-mood-row) * -1); background-repeat:no-repeat; contain:paint; }
 .pixel-dancer[data-pose="dance"] { animation:pixel-dance-cels 960ms steps(var(--pixel-frame-count),end) infinite; }
+.pixel-dancer[data-enemy="bat"][data-pose="dance"] { animation:pixel-dance-cels 960ms steps(8,end) infinite,pixel-bat-idle-arc 960ms steps(2,end) infinite; }
 .pixel-dancer[data-pose="cheer"] { background-position-y:calc(var(--pixel-frame-size) * (var(--pixel-mood-row) + 1) * -1); animation:pixel-result-cels var(--pixel-result-duration) steps(var(--pixel-last-frame),end) forwards; }
 .pixel-dancer[data-pose="hit"] { background-position-y:calc(var(--pixel-frame-size) * (var(--pixel-mood-row) + 2) * -1); animation:pixel-result-cels var(--pixel-result-duration) steps(var(--pixel-last-frame),end) forwards; }
 .pixel-dancer[data-art="concept"][data-threat="alert"] { filter:brightness(.96) contrast(1.06); }
@@ -212,6 +213,8 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
 .pixel-battle[data-outcome="correct"] .pixel-battle-party[data-enemy="ghost"] .pixel-battler--opponent { animation-name:pixel-ghost-vanish; }
 .pixel-battle[data-outcome="correct"] .pixel-battle-party:is([data-enemy="bat"],[data-enemy="skeleton"]) .pixel-battler--opponent { animation-name:pixel-enemy-topple; }
 @keyframes pixel-bat-swoop { 0%,100% { transform:translate(0,0); } 35% { transform:translate(-5px,-4px); } 65% { transform:translate(-12px,3px); } }
+/* An inward-facing arch fits inside the existing stage at desktop and mobile sizes. */
+@keyframes pixel-bat-idle-arc { 0%,100% { transform:translate(-12.5%,0); } 25%,75% { transform:translate(-6.25%,-6.25%); } 50% { transform:translate(0,0); } }
 @keyframes pixel-ghost-dash { 0%,100% { transform:translateX(0); opacity:1; } 50% { transform:translateX(-12px); opacity:.65; } }
 @keyframes pixel-golem-stomp { 0%,100% { transform:translateY(0); } 40% { transform:translateY(-4px); } 70% { transform:translateY(2px); } }
 @keyframes pixel-ghost-vanish { 0% { opacity:1; transform:translateY(0); } 40% { opacity:.5; transform:translateY(-3px); } 70% { opacity:.8; } 100% { opacity:0; transform:translateY(-12px); } }

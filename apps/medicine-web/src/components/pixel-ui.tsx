@@ -28,10 +28,13 @@ export function PixelDancer({ name, pose = "dance", className = "", threat = "ca
 }) {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const concept = name !== "medic" && name !== "slime";
+  const idle = pose === "dance" || pose === "still";
   const expanded = name === "slime" && threat !== "calm";
-  const file = concept ? `${name}-v2.webp` : `${expanded ? "slime-moods" : name}.png`;
-  const moodRow = concept ? threat === "danger" && (pose === "dance" || pose === "still") ? 3 : 0 : expanded ? threat === "danger" ? 6 : 3 : 0;
-  return <span className={`pixel-sprite pixel-dancer ${className}`} data-pose={pose} data-art={concept ? "concept" : "native"} data-enemy={name} data-color={name === "slime" ? color : undefined} data-threat={threat} aria-hidden="true" style={{ backgroundImage: `url("${basePath}/themes/pixel/${file}")`, backgroundSize: concept ? "400% 400%" : expanded ? "800% 900%" : undefined, "--pixel-mood-row": moodRow, "--pixel-frame-count": concept ? 4 : 8, "--pixel-last-frame": concept ? 3 : 7, "--pixel-result-duration": concept ? "360ms" : "630ms" } as CSSProperties} />;
+  const file = concept ? `${name}-v3.webp` : `${expanded ? "slime-moods" : name}.png`;
+  // Concept rows: calm dance, stern dance, attack, hit. Keep all outcomes in one asset.
+  const moodRow = concept ? idle ? threat === "danger" ? 1 : 0 : 1 : expanded ? threat === "danger" ? 6 : 3 : 0;
+  const frameCount = concept && !idle ? 4 : 8;
+  return <span className={`pixel-sprite pixel-dancer ${className}`} data-pose={pose} data-art={concept ? "concept" : "native"} data-enemy={name} data-color={name === "slime" ? color : undefined} data-threat={threat} aria-hidden="true" style={{ backgroundImage: `url("${basePath}/themes/pixel/${file}")`, backgroundSize: concept ? "800% 400%" : expanded ? "800% 900%" : undefined, "--pixel-mood-row": moodRow, "--pixel-frame-count": frameCount, "--pixel-last-frame": frameCount - 1, "--pixel-result-duration": concept ? "360ms" : "630ms" } as CSSProperties} />;
 }
 
 const letters: Record<string, string[]> = {
