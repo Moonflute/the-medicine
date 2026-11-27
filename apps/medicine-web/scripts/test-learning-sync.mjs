@@ -181,6 +181,20 @@ test("mock snapshots retain submitted answers, excluded questions, subject grade
   assert.equal(b.mock.readMockExamSummary({version:1,title:"bad",results:[{}]}),undefined);
 });
 
+test("additional rounds grade by the stored department rather than the picker group or ID", () => {
+  const { mock } = harness();
+  const questions = [
+    {id:"QB-EXAMPLE-P01-Q023",archiveRoundKey:"2026L-7",bookDepartment:"내과",answer:"A",options:{A:"a",B:"b"}},
+    {id:"QB-EXAMPLE-P02-Q051",archiveRoundKey:"2026L-7",bookDepartment:"정신건강의학과",answer:"B",options:{A:"a",B:"b"}},
+  ];
+  const results = mock.gradeMockExam(questions, {[questions[0].id]:"A"});
+  const summary = mock.createMockExamSummary("추가 회차", results);
+  assert.equal(results.map(result => result.specialty).join(), "내과,정신건강의학과");
+  assert.equal(summary.subjects["내과"].correct, 1);
+  assert.equal(summary.subjects["정신건강의학과"].total, 1);
+  assert.equal(summary.subjects["기타 분과"], undefined);
+});
+
 test("round reset syncs without deleting wrong queues, attempts or other preferences", async () => {
   const a=harness(),b=harness(),api=server(a.outbox);
   a.qbank.recordQbankAttempt("q1","A",false);

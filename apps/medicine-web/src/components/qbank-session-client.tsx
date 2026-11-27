@@ -34,7 +34,7 @@ import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
 import { QUESTION_BOOKMARKS_HREF } from "@/lib/qbank-bookmarks";
-import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, practiceDeliveryIds, practiceFiltersFromParams, practiceMockExamKey, practiceMockExams, practiceMockExamTitle, practiceSourceQuestionId, practiceVersionIds, selectedPracticeExamKey, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, practiceDeliveryIds, practiceFiltersFromParams, practiceMockExamKey, practiceMockExams, practiceMockExamTitle, practiceSourceQuestionId, practiceVersionIds, selectedPracticeExamKey, type PracticeFilters } from "@/lib/practice-selection";
 import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, Copy, Info, XCircle } from "lucide-react";
@@ -63,7 +63,7 @@ import { QbankSkippedNavigation, QbankSkipPassActions } from "@/components/qbank
 import { QbankQuestionNumbers } from "@/components/qbank-question-numbers";
 import { QbankTextSizeButton } from "@/components/qbank-text-size-button";
 
-type SessionQuestion = QbankQuestion & Partial<Pick<PracticeIndex, "bookDepartment">> & { practiceIds?: string[]; practiceExamKey?: string; practiceExamTotal?: number };
+type SessionQuestion = QbankQuestion & { practiceIds?: string[]; practiceExamKey?: string; practiceExamTotal?: number };
 type SessionAnswer = QbankSessionAnswer;
 
 function isSessionQuestionTracked(question: SessionQuestion | undefined, ids: string[]): boolean {
@@ -238,7 +238,7 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
       const source = metadata.get(practiceSourceQuestionId(question.id));
       const practiceIds = source ? [...new Set([...practiceVersionIds(source), ...(source.sourceIds ?? []), question.id])] : undefined;
       const practiceExamKey = source ? practiceMockExamKey(source) : undefined;
-      return { ...question, bookDepartment: source?.bookDepartment, practiceIds, practiceExamKey, practiceExamTotal: practiceExamKey ? roundCounts.get(practiceExamKey) : undefined };
+      return { ...question, bookDepartment: source?.bookDepartment ?? question.bookDepartment, practiceIds, practiceExamKey, practiceExamTotal: practiceExamKey ? roundCounts.get(practiceExamKey) : undefined };
     });
   }
   const slugs = [...new Set(candidates.map((item) => item.specialtySlug))];
@@ -985,7 +985,7 @@ export function QbankSessionClient({ specialties, bookmarkId }: { specialties: Q
           <div>
             <p data-highlight-block="question" className={`${current.figures?.length ? "" : "mt-6 "}whitespace-pre-line text-[15px] leading-7 text-slate-900 sm:text-base`}><span className="qbank-reading-text">{current.sourceSplit === "private-scan" ? reflowOcrText(current.question) : current.question}</span></p>
           </div>
-          {current.figures?.length ? <aside className="space-y-4">{current.figures.map((figure, index) => <figure key={figure.path} className="overflow-hidden rounded-lg border border-slate-200 bg-slate-50 p-2"><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="px-1 pt-2 text-xs text-slate-500">{isPracticeRevisionId(current.id) ? figure.alt : `그림 ${index + 1}`}</figcaption></figure>)}</aside> : null}
+          {current.figures?.length ? <aside className="space-y-4">{current.figures.map((figure, index) => <figure key={figure.path} className="overflow-hidden rounded-lg border border-slate-200 bg-slate-50 p-2"><PrivateQuestionImage path={figure.path} alt={figure.alt} /><figcaption className="px-1 pt-2 text-xs text-slate-500">{figure.caption ?? (isPracticeRevisionId(current.id) ? figure.alt : `그림 ${index + 1}`)}</figcaption></figure>)}</aside> : null}
         </div>}
           choices={<SkinQuestionChoices disabled={submitted} onSelect={chooseOption} choices={displayedOptions.map((key, position) => ({
             key, label: OPTION_LABELS[position],

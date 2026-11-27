@@ -94,7 +94,8 @@ export function QbankMockHistory({ sessions, practiceIds, department, onStart }:
   const [detail, setDetail] = useState<{ session: QbankSessionResult; wrongOnly: boolean }>();
   const history = sessions.filter(session => (session.mockExam || session.id.startsWith("mock-"))
     && session.questionIds.length > 0 && session.questionIds.every(id => practiceIds.has(id))
-    && (department === "all" || session.questionIds.some(id => mockSubject(id) === department)))
+    && (department === "all" || session.mockExam?.results.some(result => result.specialty === department)
+      || session.questionIds.some(id => mockSubject(id) === department)))
     .sort((a, b) => b.completedAt.localeCompare(a.completedAt));
   const pages = Math.max(1, Math.ceil(history.length / 8));
   const currentPage = Math.min(page, pages - 1);

@@ -419,6 +419,8 @@ export type QbankQuestion = {
   sourcePath: string;
   source: string;
   sourceSplit: "train" | "validation" | "test" | string;
+  archiveRoundKey?: string;
+  bookDepartment?: string;
   specialty: string;
   specialtySlug: string;
   relatedDiseaseTerms: string[];
@@ -439,7 +441,7 @@ export type QbankQuestion = {
   targetType: "disease" | "cc" | "drug" | string;
   targetSlug: string;
   targetTitle?: string;
-  figures?: Array<{ path: string; alt: string }>;
+  figures?: Array<{ path: string; alt: string; caption?: string }>;
   relatedDocuments?: Array<{ type: RelatedTheoryDocument["type"] | "drug"; slug: string; title: string }>;
   relatedTheoryQuestionIds?: string[];
 };

@@ -5,7 +5,7 @@ import { useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { Check } from "lucide-react";
 import type { PracticeFilters, PracticeIndex } from "@/lib/practice-selection";
-import { isAuthoredPracticeMock, matchesPractice, toggleGroup, mockExamFilters, practiceMockExamSections, PRACTICE_DEPARTMENTS, practiceTopicSections, selectedPracticeExamKey } from "@/lib/practice-selection";
+import { isAuthoredPracticeMock, matchesPractice, toggleGroup, mockExamFilters, practiceMockExamSections, PRACTICE_DEPARTMENTS, practiceTopicSections, selectedPracticeExamKey, visiblePracticeDepartments } from "@/lib/practice-selection";
 
 type Dimension = "departments" | "specialties" | "years";
 const choices = [["random", "분과·조건 선택"], ["book", "회차 전체 풀기"]] as const;
@@ -66,7 +66,7 @@ export function PracticeBankPicker({ questions, filters, onChange, message, comp
   </fieldset>;
   return <div className={chat ? "chat-qbank-practice" : undefined}>
     {modes}
-    {group("departments", "과목", PRACTICE_DEPARTMENTS.map((d) => [d, d]))}
+    {group("departments", "과목", visiblePracticeDepartments(questions).map((d) => [d, d]))}
     <details className={chat ? "chat-qbank-topics" : "mt-3 rounded-lg border border-slate-200 bg-slate-50/50 px-3"}>
       <summary className="cursor-pointer py-2.5 text-sm font-semibold text-slate-800 marker:text-teal-600">세부 주제{filters.specialties.length ? <span className="ml-2 text-xs font-normal text-slate-500">{filters.specialties.length}개 선택</span> : null}</summary>
       <div className="pb-3">

@@ -8,7 +8,7 @@ import { DocumentToolbar } from "@/components/document-toolbar";
 import { SkinDocumentNotice } from "@/components/skin-document";
 import { QbankReferenceToolbar } from "@/components/qbank-reference-workspace";
 import { QbankTextSizeButton } from "@/components/qbank-text-size-button";
-import { compareMockSubjects, mockSubject, type MockExamState } from "@/lib/mock-exam";
+import { compareMockSubjects, mockQuestionSubject, type MockExamState } from "@/lib/mock-exam";
 import { selectedAnswers } from "@/lib/qbank-grading";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import type { QbankQuestion } from "@/lib/types";
@@ -53,12 +53,12 @@ export function ChatMockExamTools({ questions, exam, currentIndex, answered, mar
   const list = useRef<HTMLDivElement>(null);
   const [filter, setFilter] = useState<Filter>("all");
   const current = questions[currentIndex];
-  const subject = mockSubject(current.id);
+  const subject = mockQuestionSubject(current);
   const finished = Boolean(exam.finishedAt);
   const flagged = new Set(exam.flaggedIds);
   const results = new Map(exam.results?.map(result => [result.questionId, result]));
   const rows = questions.map((question, index) => ({
-    question, index, subject: mockSubject(question.id),
+    question, index, subject: mockQuestionSubject(question),
     answers: selectedAnswers(exam.drafts[question.id]),
     flagged: flagged.has(question.id), skipped: !finished && skippedIds.includes(question.id), result: results.get(question.id),
   }));

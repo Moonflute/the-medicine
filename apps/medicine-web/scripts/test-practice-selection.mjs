@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceFiltersFromParams, practiceMockExams, practiceMockExamSections, practiceMockExamTitle, practiceTopicSections, isPracticeRevisionId, indexPracticeVersions, isListedQuestion, listedPracticeIds, practiceDeliveryIds, practiceVersionIds, visiblePracticeFilters, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
+import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceFiltersFromParams, practiceMockExams, practiceMockExamSections, practiceMockExamTitle, practiceTopicSections, isPracticeRevisionId, indexPracticeVersions, isListedQuestion, listedPracticeIds, practiceDeliveryIds, practiceVersionIds, visiblePracticeDepartments, visiblePracticeFilters, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
 import { gradeQuestion } from '../src/lib/qbank-grading.ts';
 
 test('selecting or clearing one theory group preserves other groups', () => {
@@ -161,4 +161,32 @@ test('internal-medicine detail topics mirror only theory specialties 01 through 
     practiceTopicSections(rows, '내과').flatMap(section => section.topics).map(([key, label]) => [key, label]),
     [['내과:cardiology', '순환기'], ['내과:hematology', '혈액']],
   );
+});
+
+test('additional archives have their own round and only group non-core subjects in the picker', () => {
+  const older = { id: 'older', bookDepartment: '내과', bookId: 'year', bookSeries: '실전', examYear: 2026 };
+  const res = { ...older, id: 'res', bookId: 'practice-res2608' };
+  const mock = { ...older, id: 'mock', bookId: 'mock-full-1', bookSeries: '창작 모의고사', examYear: null };
+  const extra = { ...older, id: 'extra', bookId: 'separate-archive', archiveRoundKey: '2026L-7' };
+  const psych = { ...extra, id: 'psychiatry', bookDepartment: '정신건강의학과' };
+  const previousPsych = { ...res, bookDepartment: psych.bookDepartment };
+  const bank = [older, res, extra, psych, mock];
+  assert.deepEqual(practiceMockExamSections(bank).map(({ id, label, exams }) => [id, label, exams.map(q => q.key)]), [
+    ['archive', '연도별 문제', ['2026-2', '2026']],
+    ['additional-archive', '연도별 문제2', [extra.archiveRoundKey]],
+    ['authored', '모의고사', ['mock-full-1']],
+  ]);
+  assert.deepEqual(bank.filter(q => matchesPractice(q, mockExamFilters(2026, extra.archiveRoundKey))), [extra, psych]);
+  assert.deepEqual(bank.filter(q => matchesPractice(q, mockExamFilters(2026))), [older]);
+  const reloaded = practiceFiltersFromParams(new URLSearchParams({ practiceOnly: '1', mode: 'practice-book', practiceExam: extra.archiveRoundKey, practiceYears: '2026' }));
+  assert.deepEqual(bank.filter(q => matchesPractice(q, reloaded)), [extra, psych]);
+  const other = { books: [], specialties: [], years: [], departments: ['기타 분과'] };
+  assert.deepEqual([...bank, previousPsych].filter(q => matchesPractice(q, other)), [psych]);
+  assert.equal(psych.bookDepartment, '정신건강의학과');
+  assert.equal(visiblePracticeDepartments(bank).at(-1), '기타 분과');
+  const visible = [older, res, mock];
+  assert.equal(visiblePracticeDepartments(visible).includes('기타 분과'), false);
+  assert.equal(practiceMockExamSections(visible).some(section => section.id === 'additional-archive'), false);
+  assert.deepEqual(visiblePracticeFilters(mockExamFilters(2026, extra.archiveRoundKey), visible), { ...mockExamFilters(2026, extra.archiveRoundKey), years: [], examKey: undefined });
+  assert.deepEqual(visiblePracticeFilters(other, visible), { ...other, departments: [] });
 });

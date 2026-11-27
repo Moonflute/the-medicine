@@ -69,6 +69,10 @@ export function mockSubject(id: string): string {
   return ({ IM: "내과", GS: "외과", OG: "산부인과", PE: "소아과" } as Record<string, string>)[id.match(/-(IM|GS|OG|PE)-/)?.[1] ?? ""] ?? "기타";
 }
 
+export function mockQuestionSubject(question: Pick<QbankQuestion, "id" | "archiveRoundKey" | "bookDepartment">): string {
+  return (question.archiveRoundKey ? question.bookDepartment?.trim() : undefined) || mockSubject(question.id);
+}
+
 export function gradeMockExam(questions: QbankQuestion[], drafts: Record<string, QbankSelection>): MockExamResult[] {
-  return questions.map(q => ({ questionId: q.id, selected: isSelection(drafts[q.id]) ? drafts[q.id] : undefined, correct: gradeQuestion(q, drafts[q.id]), correctAnswer: q.answer, correctAnswers: correctAnswers(q), specialty: mockSubject(q.id) }));
+  return questions.map(q => ({ questionId: q.id, selected: isSelection(drafts[q.id]) ? drafts[q.id] : undefined, correct: gradeQuestion(q, drafts[q.id]), correctAnswer: q.answer, correctAnswers: correctAnswers(q), specialty: mockQuestionSubject(q) }));
 }
