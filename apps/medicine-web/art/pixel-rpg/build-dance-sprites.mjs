@@ -6,6 +6,8 @@ import sharp from "sharp";
 
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const frameSize = 128;
+// The medic starts its leftward anticipation at frame 0, not at the left downbeat.
+const danceOrder = [7, 0, 1, 2, 3, 4, 5, 6];
 for (const name of ["mushroom", "ghost", "golem", "skeleton", "bat", "goblin"]) {
   const source = path.join(directory, "v3", `${name}.png`);
   const metadata = await sharp(source).metadata();
@@ -14,7 +16,8 @@ for (const name of ["mushroom", "ghost", "golem", "skeleton", "bat", "goblin"]) 
   const combat = path.resolve(directory, "../../public/themes/pixel", `${name}-v2.webp`);
   const cels = [];
   for (let index = 0; index < 16; index++) {
-    let cel = await sharp(dance).extract({ left: (index % 4) * frameSize, top: Math.floor(index / 4) * frameSize, width: frameSize, height: frameSize }).toBuffer();
+    const sourceIndex = Math.floor(index / 8) * 8 + danceOrder[index % 8];
+    let cel = await sharp(dance).extract({ left: (sourceIndex % 4) * frameSize, top: Math.floor(sourceIndex / 4) * frameSize, width: frameSize, height: frameSize }).toBuffer();
     if (name !== "bat" && name !== "ghost") {
       // Register the generated feet to one baseline without rescaling or redrawing any pixels.
       const pixels = await sharp(cel).ensureAlpha().raw().toBuffer();
@@ -40,7 +43,7 @@ for (const name of ["mushroom", "ghost", "golem", "skeleton", "bat", "goblin"]) 
       top: (row + 2) * frameSize,
     });
   }
-  const target = path.resolve(directory, "../../public/themes/pixel", `${name}-v3.webp`);
+  const target = path.resolve(directory, "../../public/themes/pixel", `${name}-v4.webp`);
   await sharp({ create: { width: frameSize * 8, height: frameSize * 4, channels: 4, background: "#00000000" } }).composite(cels).webp({ lossless: true, effort: 6 }).toFile(target);
   console.log(`${name}: 8 calm + 8 stern + 4 attack + 4 hit cels; ${fs.statSync(target).size} bytes`);
 }

@@ -30,7 +30,7 @@ export function PixelDancer({ name, pose = "dance", className = "", threat = "ca
   const concept = name !== "medic" && name !== "slime";
   const idle = pose === "dance" || pose === "still";
   const expanded = name === "slime" && threat !== "calm";
-  const file = concept ? `${name}-v3.webp` : `${expanded ? "slime-moods" : name}.png`;
+  const file = concept ? `${name}-v4.webp` : `${expanded ? "slime-moods" : name}.png`;
   // Concept rows: calm dance, stern dance, attack, hit. Keep all outcomes in one asset.
   const moodRow = concept ? idle ? threat === "danger" ? 1 : 0 : 1 : expanded ? threat === "danger" ? 6 : 3 : 0;
   const frameCount = concept && !idle ? 4 : 8;

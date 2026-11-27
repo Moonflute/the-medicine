@@ -60,17 +60,28 @@ test("native slime cels preserve every original pixel and add the mood rows", as
 });
 
 test("concept enemies pack eight dance cels and retain the complete combat artwork", async () => {
+  const visiblePixels = pixels => {
+    const copy = Buffer.from(pixels);
+    // Lossless WebP may discard RGB hidden under zero alpha; those are not drawn.
+    for (let offset = 0; offset < copy.length; offset += 4) if (copy[offset + 3] === 0) copy.fill(0, offset, offset + 3);
+    return copy;
+  };
   for (const name of encounters.PIXEL_ENEMIES.filter(name => name !== "slime")) {
-    const sheet = sharp(`public/themes/pixel/${name}-v3.webp`);
+    const sheet = sharp(`public/themes/pixel/${name}-v4.webp`);
     const meta = await sheet.metadata();
     assert.equal(meta.width, 1024, name);
     assert.equal(meta.height, 512, name);
     assert.ok(meta.hasAlpha, name);
-    assert.ok(fs.statSync(`public/themes/pixel/${name}-v3.webp`).size < 450_000, `${name} transfer size`);
+    assert.ok(fs.statSync(`public/themes/pixel/${name}-v4.webp`).size < 450_000, `${name} transfer size`);
     for (let row = 0; row < 4; row++) {
       const count = row < 2 ? 8 : 4;
       const frames = await Promise.all(Array.from({ length: count }, (_, frame) => sheet.clone().extract({ left: frame * 128, top: row * 128, width: 128, height: 128 }).ensureAlpha().raw().toBuffer()));
       assert.equal(new Set(frames.map(frame => frame.toString("base64"))).size, count, `${name} row ${row} distinct poses`);
+      if (row < 2) for (let frame = 0; frame < 8; frame++) {
+        const originalFrame = [7, 0, 1, 2, 3, 4, 5, 6][frame];
+        const original = await sharp(`public/themes/pixel/${name}-v3.webp`).extract({ left: originalFrame * 128, top: row * 128, width: 128, height: 128 }).raw().toBuffer();
+        assert.deepEqual(visiblePixels(frames[frame]), visiblePixels(original), `${name}: phase correction must preserve the approved pixels`);
+      }
       for (const frame of frames) {
         let visible = 0, clipped = 0, bottom = -1;
         for (let y = 0; y < 128; y++) for (let x = 0; x < 128; x++) if (frame[(y * 128 + x) * 4 + 3] > 200) {
@@ -127,7 +138,7 @@ test("sprite frame counts and mood rows follow the active art sheet in every out
       assert.match(html, /--pixel-mood-row:1/);
       assert.match(html, /--pixel-frame-count:4/);
       assert.match(html, /--pixel-last-frame:3/);
-      assert.match(html, new RegExp(`/themes/pixel/${name}-v3\\.webp`));
+      assert.match(html, new RegExp(`/themes/pixel/${name}-v4\\.webp`));
       for (const pose of ["dance", "still"]) {
         const idle = render(pixel.PixelDancer, { name, threat: "danger", pose });
         assert.match(idle, /--pixel-mood-row:1/);

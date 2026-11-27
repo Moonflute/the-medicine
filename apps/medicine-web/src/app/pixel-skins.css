@@ -164,10 +164,13 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
 .pixel-battler--opponent { right:0; transform-origin:50% 90%; }
 .pixel-battle-party .pixel-sprite { --pixel-frame-size:var(--pixel-battle-size); display:block; width:var(--pixel-frame-size); height:var(--pixel-frame-size); }
 .pixel-turn-label { color:var(--pixel-gold); font:10px/1.5 Consolas,monospace; letter-spacing:.5px; }
-/* Every idle loop uses eight cels on the same beat; concept attacks use four cels. */
+/* One inherited clock drives both dancers, including the bat's path. */
+.pixel-title-party,.pixel-battle[data-outcome="idle"] .pixel-battle-party { --pixel-dance-frame:0; --pixel-head:0; --pixel-down:0; animation:pixel-party-beat 960ms steps(1,end) infinite; }
 .pixel-dancer { --pixel-frame-size:32px; --pixel-mood-row:0; --pixel-frame-count:8; --pixel-last-frame:7; --pixel-result-duration:630ms; background-size:800% 300%; background-position:0 calc(var(--pixel-frame-size) * var(--pixel-mood-row) * -1); background-repeat:no-repeat; contain:paint; }
-.pixel-dancer[data-pose="dance"] { animation:pixel-dance-cels 960ms steps(var(--pixel-frame-count),end) infinite; }
-.pixel-dancer[data-enemy="bat"][data-pose="dance"] { animation:pixel-dance-cels 960ms steps(8,end) infinite,pixel-bat-idle-arc 960ms steps(2,end) infinite; }
+.pixel-dancer[data-pose="dance"] { background-position-x:calc(var(--pixel-frame-size) * var(--pixel-dance-frame,0) * -1); }
+/* Match the medic's small left/right head travel even for broad, nearly symmetric enemies. */
+.pixel-dancer[data-art="concept"][data-pose="dance"] { transform:translateX(calc(var(--pixel-head,0) * var(--pixel-frame-size) / 32)); }
+.pixel-dancer[data-enemy="bat"][data-pose="dance"] { transform:translate(calc((var(--pixel-head,0) - 2) * var(--pixel-frame-size) / 32),calc((var(--pixel-down,0) - 2) * var(--pixel-frame-size) / 32)); }
 .pixel-dancer[data-pose="cheer"] { background-position-y:calc(var(--pixel-frame-size) * (var(--pixel-mood-row) + 1) * -1); animation:pixel-result-cels var(--pixel-result-duration) steps(var(--pixel-last-frame),end) forwards; }
 .pixel-dancer[data-pose="hit"] { background-position-y:calc(var(--pixel-frame-size) * (var(--pixel-mood-row) + 2) * -1); animation:pixel-result-cels var(--pixel-result-duration) steps(var(--pixel-last-frame),end) forwards; }
 .pixel-dancer[data-art="concept"][data-threat="alert"] { filter:brightness(.96) contrast(1.06); }
@@ -213,13 +216,21 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
 .pixel-battle[data-outcome="correct"] .pixel-battle-party[data-enemy="ghost"] .pixel-battler--opponent { animation-name:pixel-ghost-vanish; }
 .pixel-battle[data-outcome="correct"] .pixel-battle-party:is([data-enemy="bat"],[data-enemy="skeleton"]) .pixel-battler--opponent { animation-name:pixel-enemy-topple; }
 @keyframes pixel-bat-swoop { 0%,100% { transform:translate(0,0); } 35% { transform:translate(-5px,-4px); } 65% { transform:translate(-12px,3px); } }
-/* An inward-facing arch fits inside the existing stage at desktop and mobile sizes. */
-@keyframes pixel-bat-idle-arc { 0%,100% { transform:translate(-12.5%,0); } 25%,75% { transform:translate(-6.25%,-6.25%); } 50% { transform:translate(0,0); } }
 @keyframes pixel-ghost-dash { 0%,100% { transform:translateX(0); opacity:1; } 50% { transform:translateX(-12px); opacity:.65; } }
 @keyframes pixel-golem-stomp { 0%,100% { transform:translateY(0); } 40% { transform:translateY(-4px); } 70% { transform:translateY(2px); } }
 @keyframes pixel-ghost-vanish { 0% { opacity:1; transform:translateY(0); } 40% { opacity:.5; transform:translateY(-3px); } 70% { opacity:.8; } 100% { opacity:0; transform:translateY(-12px); } }
 @keyframes pixel-enemy-topple { 0% { opacity:1; transform:translate(0,0); } 40% { opacity:.6; transform:translate(3px,-2px) rotate(8deg); } 100% { opacity:0; transform:translate(7px,12px) rotate(24deg) scale(.8,.6); } }
-@keyframes pixel-dance-cels { to { background-position-x:calc(var(--pixel-frame-size) * var(--pixel-frame-count) * -1); } }
+/* Match the native medic's head lag and knee dips at 240ms and 720ms. */
+@keyframes pixel-party-beat {
+  0%,100% { --pixel-dance-frame:0; --pixel-head:0; --pixel-down:0; }
+  12.5% { --pixel-dance-frame:1; --pixel-head:-1; --pixel-down:1; }
+  25% { --pixel-dance-frame:2; --pixel-head:-2; --pixel-down:2; }
+  37.5% { --pixel-dance-frame:3; --pixel-head:-1; --pixel-down:0; }
+  50% { --pixel-dance-frame:4; --pixel-head:0; --pixel-down:0; }
+  62.5% { --pixel-dance-frame:5; --pixel-head:1; --pixel-down:1; }
+  75% { --pixel-dance-frame:6; --pixel-head:2; --pixel-down:2; }
+  87.5% { --pixel-dance-frame:7; --pixel-head:1; --pixel-down:0; }
+}
 @keyframes pixel-result-cels { to { background-position-x:calc(var(--pixel-frame-size) * var(--pixel-last-frame) * -1); } }
 @keyframes pixel-enemy-enter { 0% { transform:translateX(120%); } 75% { transform:translateX(-4px); } 100% { transform:translateX(0); } }
 @keyframes pixel-hero-fire { 0%,100% { transform:translateX(0); } 40% { transform:translateX(3px) rotate(-3deg); } 65% { transform:translateX(-4px); } }
@@ -231,7 +242,8 @@ html[data-theme="pixel"] .skin-q-article { border:0; background:transparent; pad
 @keyframes pixel-hero-hurt { 0%,100% { transform:translateX(0); opacity:1; } 20% { transform:translate(-6px,-2px) rotate(-7deg); opacity:.5; } 45% { transform:translateX(3px) rotate(4deg); opacity:1; } 70% { transform:translateX(-2px); opacity:.7; } }
 @keyframes pixel-battle-callout { 0% { transform:translateY(4px); opacity:0; } 20%,65% { opacity:1; } 100% { transform:translateY(-4px); opacity:0; } }
 @media(prefers-reduced-motion:reduce) {
-  .pixel-title-party .pixel-sprite,.pixel-battle-party * { animation:none !important; }
+  .pixel-title-party,.pixel-battle-party,.pixel-title-party .pixel-sprite,.pixel-battle-party * { animation:none !important; }
+  .pixel-dancer[data-pose="dance"] { transform:none !important; }
   .pixel-battle-shot,.pixel-battle-muzzle,.pixel-battle-impact,.pixel-battle-callout { display:none; }
   .pixel-battle[data-outcome="correct"] .pixel-battler--opponent { opacity:.25; }
   .pixel-dancer[data-pose="cheer"],.pixel-dancer[data-pose="hit"] { background-position-x:calc(var(--pixel-frame-size) * var(--pixel-last-frame) * -1); }
