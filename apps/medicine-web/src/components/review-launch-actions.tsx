@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Headphones, Layers2, ListChecks, Settings2, Shuffle } from "lucide-react";
+import { ArrowRight, Bookmark, Headphones, Layers2, ListChecks, Settings2, Shuffle } from "lucide-react";
 import { Children, type ReactNode } from "react";
 import { useSkinTheme } from "@/components/theme-provider";
 
 const actions = {
   qbank: { number: 1, code: "QBANK", label: "문제", title: "문제 풀기", summary: "이론·임상 Q-bank 문제 풀기", icon: ListChecks },
+  bookmarks: { number: 2, code: "BOOKMARKS", label: "저장", title: "북마크", summary: "저장한 문서와 문항을 봅니다.", icon: Bookmark },
   random: { number: 2, code: "RANDOM", label: "랜덤", title: "랜덤 페이지 학습", summary: "선택한 섹션에서 임의의 페이지를 열어 복습합니다.", icon: Shuffle },
   audio: { number: 3, code: "AUDIO", label: "청취", title: "청취 모드", summary: "팟캐스트처럼 틀어놓고 듣습니다.", icon: Headphones },
   cards: { number: 4, code: "CARDS", label: "카드", title: "복습카드", summary: "내 카드로 답을 떠올리고 복습합니다.", icon: Layers2 },

@@ -112,7 +112,8 @@ test("bookmark removal does not overwrite newer server answers; recent-session h
   h.storage.setItem("medicine-web-qbank-v1", JSON.stringify({version:1,progress:{},sessions:[],dailyActivity:{"2025-01-01":{attempts:42,correct:30}}}));
   h.qbank.toggleQbankBookmark("q1");
   await h.engine.synchronizeLearning(api.client, "u1", () => true);
-  h.qbank.toggleQbankBookmark("q1");
+  h.qbank.removeQbankBookmarks(["q1"]);
+  h.qbank.removeQbankBookmarks(["q1"]);
   Object.assign(api.tables.qbank_question_progress[0], {attempts: 5, last_answer: "C", last_correct: true, consecutive_correct: 3});
   await h.engine.synchronizeLearning(api.client, "u1", () => true);
   assert.equal(api.tables.qbank_question_progress[0].bookmarked, false);

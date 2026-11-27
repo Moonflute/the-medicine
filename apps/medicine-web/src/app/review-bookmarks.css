@@ -1,0 +1,56 @@
+.review-bookmarks-page { max-width: 55rem; }
+.review-bookmarks-content { display: grid; gap: 0.75rem; }
+.review-bookmarks-tabs {
+  display: flex;
+  justify-self: start;
+  gap: 0.2rem;
+  padding: 0.2rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+.review-bookmarks-tabs a {
+  display: grid;
+  place-items: center;
+  min-height: 2.5rem;
+  padding-inline: 0.9rem;
+  border-radius: 5px;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+.review-bookmarks-tabs a[aria-current] {
+  background: var(--surface-subtle);
+  color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--line);
+  font-weight: 650;
+}
+.review-bookmarks-list {
+  margin: 0;
+  padding: 0 clamp(0.6rem, 2vw, 1rem);
+  list-style: none;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+.review-bookmark-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.5rem;
+}
+.review-bookmark-row + .review-bookmark-row { border-top: 1px solid var(--line); }
+.review-bookmark-title {
+  display: flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding-block: 0.45rem;
+  color: var(--foreground);
+  font-size: 0.875rem;
+  overflow-wrap: anywhere;
+}
+a.review-bookmark-title:hover { color: var(--primary); text-decoration: underline; text-underline-offset: 0.2em; }
+.review-bookmark-row button { min-height: 2.75rem; padding-inline: 0.3rem; color: var(--muted); font-size: 0.75rem; white-space: nowrap; }
+.review-bookmark-row button:hover { color: var(--foreground); text-decoration: underline; text-underline-offset: 0.2em; }
+.review-bookmarks-content :is(a, button):focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.review-bookmarks-message { color: var(--muted); font-size: 0.875rem; }
+html:is([data-theme="sheet"], [data-theme="terminal"], [data-theme="editor"], [data-theme="pixel"]) :is(.review-bookmarks-list, .review-bookmarks-tabs, .review-bookmarks-tabs a) { border-radius: 2px; }

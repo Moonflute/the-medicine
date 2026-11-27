@@ -33,6 +33,7 @@ import { readRetryIds } from "@/lib/qbank-analytics";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
+import { QUESTION_BOOKMARKS_HREF } from "@/lib/qbank-bookmarks";
 import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, practiceDeliveryIds, practiceFiltersFromParams, practiceMockExamKey, practiceMockExams, practiceMockExamTitle, practiceSourceQuestionId, practiceVersionIds, selectedPracticeExamKey, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
@@ -247,7 +248,9 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
   return [...shards.flat().filter((item) => ids.has(item.id)), ...privateQuestions];
 }
 
-export function QbankSessionClient({ specialties }: { specialties: QbankSpecialtySummary[] }) {
+export function QbankSessionClient({ specialties, bookmarkId }: { specialties: QbankSpecialtySummary[]; bookmarkId?: string }) {
+  const returnHref = bookmarkId === undefined ? "/review/qbank" : QUESTION_BOOKMARKS_HREF;
+  const returnLabel = bookmarkId === undefined ? "문제은행" : "북마크";
   const [mockExam, setMockExam] = useState<MockExamState | null>(null);
   const [roundClock, setRoundClock] = useState<QbankRunningRoundClock>();
   const deadlineAt = roundClock?.deadlineAt;
@@ -381,7 +384,8 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
     // Resume the original set by ID; filters such as '미풀이만' would now exclude answered questions.
     const savedQuestionIds = snapshot ? new Set(snapshot.questionIds) : undefined;
     const practiceFilters = practiceFiltersFromParams(params);
-    const request = savedQuestionIds ? loadQuestions(specialties, "all", "all", "", savedQuestionIds)
+    const exactIds = savedQuestionIds ?? (bookmarkId === undefined ? undefined : new Set(bookmarkId ? [bookmarkId] : []));
+    const request = exactIds ? loadQuestions(specialties, "all", "all", "", exactIds)
       : loadQuestions(specialties, mode, specialty, disease, targetIds, theorySpecialties, clinicalSpecialties, targetType, targetSlug, targetSlugs, practiceFilters, progressFilter, relatedTopicKeys);
     void request
       .then((loaded) => {
@@ -427,7 +431,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
       .catch((reason: unknown) => { if (!cancelled && !remoteSessionApplyingRef.current) setError(reason instanceof Error ? reason.message : "문제 데이터를 불러오지 못했습니다."); })
       .finally(() => { if (!cancelled && !remoteSessionApplyingRef.current) setLoading(false); });
     return () => { cancelled = true; };
-  }, [sessionStorageKey, specialties, startRoundClock, restoreElapsedClock]);
+  }, [bookmarkId, sessionStorageKey, specialties, startRoundClock, restoreElapsedClock]);
 
   const reloadPracticeForAccountChange = useEffectEvent(() => {
     if (questions.length && !questions.some(q => q.questionBank === "practice")) return;
@@ -897,7 +901,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   if (questions.length === 0) return (
     <div className="surface p-8 text-center">
       <SkinStatus kind="questionsEmpty" fallback="조건에 맞는 문제가 없습니다." className="text-slate-600" />
-      <Link href="/review/qbank" className="secondary-action mt-4">문제은행으로 돌아가기</Link>
+      <Link href={returnHref} className="secondary-action mt-4">{bookmarkId === undefined ? "문제은행으로 돌아가기" : "북마크로 돌아가기"}</Link>
     </div>
   );
 
@@ -917,7 +921,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
         </SkinPanel>
         <div className="flex flex-wrap justify-center gap-3">
           <Link href="/review/qbank/stats" className="secondary-action">학습 통계</Link>
-          <Link href="/review/qbank" className="secondary-action"><ArrowLeft className="h-4 w-4" />문제은행</Link>
+          <Link href={returnHref} className="secondary-action"><ArrowLeft className="h-4 w-4" />{returnLabel}</Link>
           <SessionRetryActions ids={sessionWrongIds(answers)} />
         </div>
       </div>
@@ -931,7 +935,7 @@ export function QbankSessionClient({ specialties }: { specialties: QbankSpecialt
   return (
     <div className="qbank-session-player space-y-5">
       <div className="qbank-session-progress flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-slate-600">
-        <Link href="/review/qbank" className="inline-flex items-center gap-1 hover:text-teal-700"><ArrowLeft className="h-4 w-4" />나가기</Link>
+        <Link href={returnHref} className="inline-flex items-center gap-1 hover:text-teal-700"><ArrowLeft className="h-4 w-4" />나가기</Link>
         <div className="qbank-session-progress-track h-2 min-w-28 flex-1 max-w-md overflow-hidden rounded-full bg-slate-200"><div className="h-full bg-teal-600 transition-all" style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }} /></div>
         <span className="qbank-session-position tabular-nums whitespace-nowrap">{currentIndex + 1} / {questions.length}</span>
         <ChatOptionalTools><QbankReferenceToolbar /></ChatOptionalTools>

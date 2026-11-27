@@ -180,6 +180,12 @@ export function toggleReviewItem(item: ReviewCatalogItem) {
   return true;
 }
 
+export function removeReviewItem(type: ReviewDomain, id: string) {
+  const items = loadReviewItems();
+  const remaining = items.filter(item => item.type !== type || item.id !== id);
+  if (remaining.length !== items.length) saveReviewItems(remaining);
+}
+
 export function rateReviewItem(type: ReviewDomain, id: string, confidence: ReviewConfidence) {
   const now = new Date();
   const items = loadReviewItems();

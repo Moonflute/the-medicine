@@ -16,6 +16,7 @@ const grading = compile("qbank-grading.ts");
 const mockExam = compile("mock-exam.ts", { "./qbank-grading": grading });
 const activeSession = compile("qbank-active-session.ts", { "./qbank-grading": grading, "./mock-exam": mockExam, "./qbank-round-timer": compile("qbank-round-timer.ts"), "./qbank-elapsed-time": compile("qbank-elapsed-time.ts"), "./qbank-skips": compile("qbank-skips.ts") });
 const practiceSelection = compile("practice-selection.ts");
+const { questionBookmarkRows, questionBookmarkIdFromParams } = compile("qbank-bookmarks.ts", { "./practice-selection": practiceSelection });
 const progressFilters = compile("qbank-progress-filter.ts", { "./practice-selection": practiceSelection, "./qbank-progress": compile("qbank-progress.ts") });
 const { qbankSessionContextFromParams } = compile("qbank-session-context.ts", { "./qbank-active-session": activeSession, "./practice-selection": practiceSelection, "./qbank-progress-filter": progressFilters });
 const specialties = [
@@ -85,6 +86,25 @@ test("practice, wrong and bookmark sessions receive specific labels", () => {
   assert.match(practice.summary, /2025년/);
   assert.equal(qbankSessionContextFromParams(new URLSearchParams({ mode: "wrong", count: "20" }), specialties).title, "오답 다시 풀기");
   assert.equal(qbankSessionContextFromParams(new URLSearchParams({ mode: "bookmarks", count: "20" }), specialties).title, "북마크 문제 풀이");
+});
+
+test("bookmark rows open the saved version, group source aliases, and leave unavailable questions removable", () => {
+  const original = "QB-R-2026-IM-0001";
+  const revision = "QB-REV-202611-R-2026-IM-0001";
+  const alias = "QB-OLDER-2026-IM-0001";
+  const missing = "QB-HIDDEN-2026-IM-0002";
+  const practice = [{ id: original, bookDepartment: "내과", examYear: 2026, revisionIds: [revision], sourceIds: [alias] }];
+  const rows = questionBookmarkRows([alias, revision, "theory-one", missing, "theory-one"], new Map([["theory-one", "문제 첫 줄"]]), practice);
+  assert.deepEqual(Array.from(rows, row => row.id), [original, "theory-one", missing]);
+  assert.equal(rows[0].title, "2026년 · 내과 · 1번");
+  assert.deepEqual(Array.from(rows[0].bookmarkIds), [original, revision, alias]);
+  assert.equal(questionBookmarkIdFromParams(new URL(rows[0].href, "https://example.test").searchParams), revision);
+  assert.equal(questionBookmarkIdFromParams(new URL(questionBookmarkRows([alias], undefined, practice)[0].href, "https://example.test").searchParams), original);
+  assert.equal(rows[1].title, "문제 첫 줄");
+  assert.equal(rows[2].href, undefined);
+  assert.deepEqual(Array.from(rows[2].bookmarkIds), [missing]);
+  assert.equal(questionBookmarkIdFromParams(new URLSearchParams("mode=bookmarks&count=10")), undefined);
+  assert.equal(questionBookmarkIdFromParams(new URLSearchParams("mode=bookmarks&id=bad%2Fid")), "");
 });
 
 test("a shuffled mock round keeps the 2026-2 label in its saved context", () => {

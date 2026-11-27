@@ -1,146 +1,117 @@
 "use client";
 
-import { SkinEntry } from "@/components/skin-entry";
-import { SkinPanel } from "@/components/skin-panel";
-import { SkinStatus } from "@/components/skin-status";
-import type { SkinStatusKind } from "@/lib/skin-status";
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
-import { Eye, EyeOff } from "lucide-react";
+import { loadPracticeIndex } from "@/lib/practice-bank";
+import type { PracticeIndex } from "@/lib/practice-selection";
+import { loadPublicQuestionBookmarkTitles, QUESTION_BOOKMARKS_HREF, questionBookmarkRows } from "@/lib/qbank-bookmarks";
+import { loadQbankState, removeQbankBookmarks, subscribeQbankBookmarks } from "@/lib/qbank-store";
 import {
-  loadRecentItems,
   loadReviewItems,
-  rateReviewItem,
-  REVIEW_CHANGE_EVENT,
-  toggleReviewItem,
-  type RecentReviewItem,
+  removeReviewItem,
+  reviewItemKey,
+  subscribeReviewBookmarks,
   type ReviewCatalogItem,
-  type ReviewConfidence,
   type ReviewItem,
 } from "@/lib/review-store";
+import { getSupabaseBrowserClient, isSupabaseConfigured } from "@/lib/supabase/client";
 
-type Tab = "saved" | "recent";
-
-const TYPE_LABELS: Record<string, string> = {
-  disease: "질병",
-  cc: "CC",
-  drug: "약물",
-  lab: "검사",
-  skill: "술기",
-};
-
-function formatDate(value?: string) {
-  if (!value) return "-";
-  return new Intl.DateTimeFormat("ko-KR", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }).format(new Date(value));
+function BookmarkRow({ title, href, onRemove }: { title: string; href?: string; onRemove: () => void }) {
+  return <li className="review-bookmark-row">
+    {href ? <Link className="review-bookmark-title" href={href} prefetch={false}>{title}</Link>
+      : <span className="review-bookmark-title">{title}</span>}
+    <button type="button" aria-label={`${title} 저장 해제`} onClick={onRemove}>저장 해제</button>
+  </li>;
 }
 
-export function ReviewPageClient({ catalog }: { catalog: ReviewCatalogItem[] }) {
-  const [items, setItems] = useState<ReviewItem[]>([]);
-  const [recent, setRecent] = useState<RecentReviewItem[]>([]);
-  const [tab, setTab] = useState<Tab>("saved");
-  const [revealed, setRevealed] = useState<Set<string>>(new Set());
-  const [message, setMessage] = useState<{ kind: SkinStatusKind; text: string; detail: string } | null>(null);
+function DocumentBookmarks({ catalog }: { catalog: ReviewCatalogItem[] }) {
+  const [items, setItems] = useState<ReviewItem[]>();
+  useEffect(() => {
+    const refresh = () => setItems(loadReviewItems(catalog));
+    const unsubscribe = subscribeReviewBookmarks(refresh);
+    refresh();
+    return unsubscribe;
+  }, [catalog]);
+  if (!items?.length) return <p className="review-bookmarks-message" role="status">{items ? "북마크한 문서가 없어요." : "북마크를 불러오는 중이에요."}</p>;
+  return <ul className="review-bookmarks-list" aria-label="북마크한 문서">
+    {items.map(item => <BookmarkRow key={reviewItemKey(item.type, item.id)} title={item.title} href={item.href}
+      onRemove={() => removeReviewItem(item.type, item.id)} />)}
+  </ul>;
+}
+
+type TitleResult<T> = { data: T; failed?: false } | { data?: undefined; failed: true };
+
+function QuestionBookmarks() {
+  const [ids, setIds] = useState<string[]>();
+  const [publicTitles, setPublicTitles] = useState<TitleResult<ReadonlyMap<string, string>>>();
+  const [owner, setOwner] = useState<string | null | undefined>(() => isSupabaseConfigured() ? undefined : null);
+  const [practiceResult, setPracticeResult] = useState<{ owner: string | null; result: TitleResult<PracticeIndex[]> }>();
+  const [retry, setRetry] = useState(0);
+  const needsPublic = Boolean(ids?.some(id => !id.startsWith("QB-")));
+  const needsPractice = Boolean(ids?.some(id => id.startsWith("QB-")));
+  const practiceTitles = practiceResult?.owner === owner ? practiceResult?.result : undefined;
 
   useEffect(() => {
     const refresh = () => {
-      setItems(loadReviewItems(catalog));
-      setRecent(loadRecentItems(catalog));
+      const next = loadQbankState().bookmarkIds;
+      setIds(previous => previous?.length === next.length && next.every((id, index) => id === previous[index]) ? previous : next);
     };
+    const unsubscribe = subscribeQbankBookmarks(refresh);
     refresh();
-    window.addEventListener(REVIEW_CHANGE_EVENT, refresh);
-    return () => window.removeEventListener(REVIEW_CHANGE_EVENT, refresh);
-  }, [catalog]);
-  const current: Array<ReviewItem | RecentReviewItem> = tab === "saved" ? items : recent;
-  const savedKeys = useMemo(() => new Set(items.map((item) => `${item.type}|${item.id}`)), [items]);
+    return unsubscribe;
+  }, []);
 
-  function toggleReveal(item: ReviewCatalogItem) {
-    const key = `${item.type}|${item.id}`;
-    setRevealed((currentSet) => {
-      const next = new Set(currentSet);
-      if (next.has(key)) next.delete(key);
-      else next.add(key);
-      return next;
+  useEffect(() => {
+    if (!needsPublic) return;
+    let active = true;
+    void loadPublicQuestionBookmarkTitles().then(data => { if (active) setPublicTitles({ data }); },
+      () => { if (active) setPublicTitles({ failed: true }); });
+    return () => { active = false; };
+  }, [needsPublic, retry]);
+
+  useEffect(() => {
+    const listener = getSupabaseBrowserClient()?.auth.onAuthStateChange((_event, session) => setOwner(session?.user.id ?? null));
+    return () => listener?.data.subscription.unsubscribe();
+  }, []);
+
+  useEffect(() => {
+    if (!needsPractice || owner === undefined) return;
+    let active = true;
+    void loadPracticeIndex().then(({ questions }) => {
+      if (active) setPracticeResult({ owner, result: { data: questions } });
+    }, () => {
+      if (active) setPracticeResult({ owner, result: { failed: true } });
     });
-  }
+    return () => { active = false; };
+  }, [needsPractice, owner, retry]);
 
-  function rate(item: ReviewItem, confidence: ReviewConfidence) {
-    rateReviewItem(item.type, item.id, confidence);
-    setMessage({ kind: "recorded", text: `${item.title}: ${confidence}로 기록했습니다.`, detail: `${item.title} · ${confidence}` });
-  }
+  const rows = useMemo(() => ids ? questionBookmarkRows(ids, publicTitles?.data, practiceTitles?.data) : [], [ids, publicTitles, practiceTitles]);
+  if (!ids?.length) return <p className="review-bookmarks-message" role="status">{ids ? "북마크한 문항이 없어요." : "북마크를 불러오는 중이에요."}</p>;
+  const loading = (needsPublic && !publicTitles) || (needsPractice && !practiceTitles);
+  const failed = (needsPublic && publicTitles?.failed) || (needsPractice && practiceTitles?.failed);
+  return <>
+    {loading ? <p className="review-bookmarks-message" role="status">문항 이름을 불러오는 중이에요.</p> : null}
+    {!loading && failed ? <p className="review-bookmarks-message" role="status">일부 문항 이름을 불러오지 못했어요.{" "}
+      <button type="button" className="review-card-link" onClick={() => {
+        setPublicTitles(undefined);
+        setPracticeResult(undefined);
+        setRetry(value => value + 1);
+      }}>다시 시도</button>
+    </p> : null}
+    <ul className="review-bookmarks-list" aria-label="북마크한 문항">
+      {rows.map(row => <BookmarkRow key={row.id} title={row.title} href={row.href} onRemove={() => removeQbankBookmarks(row.bookmarkIds)} />)}
+    </ul>
+  </>;
+}
 
-  function toggleSaved(item: ReviewCatalogItem) {
-    const nowSaved = toggleReviewItem(item);
-    setItems(loadReviewItems(catalog));
-    setMessage({ kind: nowSaved ? "saved" : "removed", text: nowSaved ? `${item.title}: 복습 목록에 저장했습니다.` : `${item.title}: 복습 목록에서 제거했습니다.`, detail: item.title });
-  }
-
-
-  return (
-    <div className="space-y-5">
-      <section className="flex flex-wrap items-center justify-between gap-3">
-        <div className="review-page-tabs inline-flex rounded-lg border border-slate-200 bg-white p-1" role="group" aria-label="복습 목록 선택">
-          {([
-            ["saved", "저장"],
-            ["recent", "최근"],
-          ] as Array<[Tab, string]>).map(([key, label]) => (
-            <button key={key} type="button" aria-pressed={tab === key} onClick={() => setTab(key)} className={`rounded-md px-3 py-2 text-sm font-medium ${tab === key ? "bg-teal-600 text-white" : "text-slate-600"}`}>
-              {label}
-            </button>
-          ))}
-        </div>
-      </section>
-
-      {message ? <SkinStatus kind={message.kind} fallback={message.text} detail={message.detail} className="rounded-lg border border-teal-200 bg-teal-50 px-4 py-3 text-sm text-teal-900" /> : null}
-
-      {current.length === 0 ? (
-        <SkinStatus kind={tab === "recent" ? "recentEmpty" : "savedEmpty"} stage className="rounded-lg border border-dashed border-slate-300 bg-white/70 p-10 text-center text-slate-600"
-          fallback={tab === "recent" ? "최근 본 항목이 없습니다." : "복습할 항목이 없습니다. 상세 페이지의 복습 저장 버튼을 사용하세요."} />
-      ) : (
-        <div className="grid gap-4">
-          {current.map((item, index) => {
-            const key = `${item.type}|${item.id}`;
-            const isSaved = savedKeys.has(key);
-            const isRevealed = revealed.has(key);
-            const reviewItem = "savedAt" in item ? item : null;
-            return (
-              <SkinPanel key={key} title={tab === "saved" ? "저장 자료" : "최근 열람"} ordinal={index + 1} className="rounded-lg border border-slate-200 bg-white/85 p-5 shadow-sm">
-                <div className="flex flex-wrap items-start justify-between gap-3">
-                  <div>
-                    <div className="flex flex-wrap gap-2 text-xs text-slate-500">
-                      <span className="pill">{TYPE_LABELS[item.type] ?? item.type}</span>
-                      <span className="pill">{item.category}</span>
-                    </div>
-                    <SkinEntry href={item.href} title={item.title} meta={item.category} ordinal={index + 1} className="mt-3 block text-xl font-semibold text-slate-950 hover:text-teal-700">{item.title}</SkinEntry>
-                  </div>
-                  <div className="flex gap-2">
-                    <button type="button" onClick={() => toggleReveal(item)} className="secondary-action">
-                      {isRevealed ? <Eye className="h-4 w-4" /> : <EyeOff className="h-4 w-4" />}
-                      {isRevealed ? "핵심 가리기" : "핵심 보기"}
-                    </button>
-                    <button type="button" onClick={() => toggleSaved(item)} className="secondary-action">{isSaved ? "저장 해제" : "저장"}</button>
-                  </div>
-                </div>
-
-                <div className={`mt-4 rounded-lg border px-4 py-3 text-sm leading-6 ${isRevealed ? "border-slate-200 bg-slate-50 text-slate-700" : "border-dashed border-slate-300 bg-slate-100 text-slate-400"}`}>
-                  {isRevealed ? item.summary || "정리된 핵심 요약이 없습니다." : "핵심 내용을 먼저 떠올린 뒤 ‘핵심 보기’를 누르세요."}
-                </div>
-
-                {reviewItem ? (
-                  <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-slate-200 pt-4">
-                    <div className="text-xs text-slate-500">
-                      복습 {reviewItem.reviewCount}회 · 최근 {formatDate(reviewItem.lastReviewedAt)} · 다음 {formatDate(reviewItem.nextReviewAt)}
-                    </div>
-                    <div className="flex gap-2">
-                      <button type="button" onClick={() => rate(reviewItem, "again")} className="rounded-md border border-rose-200 bg-rose-50 px-3 py-2 text-xs font-medium text-rose-800">Again</button>
-                      <button type="button" onClick={() => rate(reviewItem, "hard")} className="rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-xs font-medium text-amber-800">Hard</button>
-                      <button type="button" onClick={() => rate(reviewItem, "good")} className="rounded-md border border-teal-200 bg-teal-50 px-3 py-2 text-xs font-medium text-teal-800">Good</button>
-                    </div>
-                  </div>
-                ) : null}
-              </SkinPanel>
-            );
-          })}
-        </div>
-      )}
-    </div>
-  );
+export function ReviewBookmarksClient({ catalog }: { catalog: ReviewCatalogItem[] }) {
+  const questionTab = useSearchParams().get("tab") === "questions";
+  return <div className="review-bookmarks-content">
+    <nav className="review-bookmarks-tabs" aria-label="북마크 종류">
+      <Link href="/review/bookmarks" scroll={false} aria-current={!questionTab ? "page" : undefined}>문서</Link>
+      <Link href={QUESTION_BOOKMARKS_HREF} scroll={false} aria-current={questionTab ? "page" : undefined}>문항</Link>
+    </nav>
+    {questionTab ? <QuestionBookmarks /> : <DocumentBookmarks catalog={catalog} />}
+  </div>;
 }

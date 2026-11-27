@@ -175,6 +175,25 @@ export function toggleQbankBookmark(questionId: string, versions: string[] = [])
   return !saved;
 }
 
+export function removeQbankBookmarks(questionIds: readonly string[]) {
+  const state = loadQbankState();
+  const removed = new Set(questionIds);
+  const bookmarkIds = state.bookmarkIds.filter(id => !removed.has(id));
+  if (bookmarkIds.length !== state.bookmarkIds.length) saveQbankState({ ...state, bookmarkIds });
+}
+
+export function subscribeQbankBookmarks(listener: () => void) {
+  function onStorage(event: StorageEvent) {
+    if (event.key === STORAGE_KEY || event.key === null) listener();
+  }
+  window.addEventListener(CHANGE_EVENT, listener);
+  window.addEventListener("storage", onStorage);
+  return () => {
+    window.removeEventListener(CHANGE_EVENT, listener);
+    window.removeEventListener("storage", onStorage);
+  };
+}
+
 export function removeQbankWrong(questionId: string, versions: string[] = []) {
   const state = loadQbankState();
   const equivalentIds = new Set([questionId, ...versions]);

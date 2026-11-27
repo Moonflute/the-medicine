@@ -1693,7 +1693,7 @@ function buildQbank({ write = true, cleanStale = true } = {}) {
     grouped.set(question.specialty, values);
   }
   if (write) ensureDir(PUBLIC_QBANK_ROOT);
-  const expectedFiles = new Set(["index.json", "specialties.json"]);
+  const expectedFiles = new Set(["index.json", "specialties.json", "bookmark-titles.json"]);
   const specialties = [...grouped.entries()].map(([name, items]) => {
     const slug = toSlug(name);
     const fileName = `${slug}.json`;
@@ -1723,6 +1723,14 @@ function buildQbank({ write = true, cleanStale = true } = {}) {
   if (!write) return { index, specialties, questions };
   writePublicQbankJson("index.json", index);
   writePublicQbankJson("specialties.json", specialties);
+  writePublicQbankJson("bookmark-titles.json", Object.fromEntries(questions
+    .filter(item => item.questionBank === "clinical" || item.questionBank === "theory")
+    .map(item => {
+      const stem = item.question.replace(/\s+/g, " ").trim() || item.targetTitle || item.id;
+      const firstSentence = stem.match(/^.{1,90}?[.!?。](?=\s|$)/u)?.[0] ?? stem;
+      const chars = Array.from(firstSentence);
+      return [item.id, chars.length > 90 ? `${chars.slice(0, 89).join("").trimEnd()}…` : firstSentence];
+    })));
   for (const entry of cleanStale ? fs.readdirSync(PUBLIC_QBANK_ROOT, { withFileTypes: true }) : []) {
     if (entry.isFile() && entry.name.endsWith(".json") && !expectedFiles.has(entry.name)) {
       fs.rmSync(path.join(PUBLIC_QBANK_ROOT, entry.name));
