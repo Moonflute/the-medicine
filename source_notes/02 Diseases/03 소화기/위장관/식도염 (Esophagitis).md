@@ -12,12 +12,12 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "호산구성 식도염 (Eosinophilic Esophagitis)"
-- "약제성 식도염 (Pill-induced Esophagitis)"
-- "칸디다 식도염 (Candida Esophagitis)"
-- "거대세포바이러스 식도염 (CMV Esophagitis)"
-- "단순포진 식도염 (HSV Esophagitis)"
-- "부식 식도염 (Corrosive Esophagitis)"
+- 거대세포바이러스 식도염 (CMV Esophagitis)
+- 단순포진 식도염 (HSV Esophagitis)
+- 부식 식도염 (Corrosive Esophagitis)
+- 약제성 식도염 (Pill-induced Esophagitis)
+- 칸디다 식도염 (Candida Esophagitis)
+- 호산구성 식도염 (Eosinophilic Esophagitis)
 ---
 분과 : [[소화기]]
 
@@ -52,12 +52,12 @@ group_members:
 - **추적**: 호산구성은 증상만으로 관해를 판단하기 어려워 내시경·조직 반응을 확인. 지속 삼킴곤란은 협착·재발·다른 원인을 평가.
 
 ## 포함 질환
-- [[호산구성 식도염 (Eosinophilic Esophagitis)]]
-- [[약제성 식도염 (Pill-induced Esophagitis)]]
-- [[칸디다 식도염 (Candida Esophagitis)]]
 - [[거대세포바이러스 식도염 (CMV Esophagitis)]]
 - [[단순포진 식도염 (HSV Esophagitis)]]
 - [[부식 식도염 (Corrosive Esophagitis)]]
+- [[약제성 식도염 (Pill-induced Esophagitis)]]
+- [[칸디다 식도염 (Candida Esophagitis)]]
+- [[호산구성 식도염 (Eosinophilic Esophagitis)]]
 
 ## 출처
 - [ACG 호산구성 식도염 진단과 치료 (2025)](https://gi.org/wp-content/uploads/2024/12/EOE-highlights.pdf)

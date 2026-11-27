@@ -13,10 +13,10 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "섬유선종 (Fibroadenoma)"
-- "유방 낭종 (Breast Cyst)"
-- "섬유낭성변화 (Fibrocystic Change)"
-- "관내 유두종 (Intraductal Papilloma)"
+- 관내 유두종 (Intraductal Papilloma)
+- 섬유낭성변화 (Fibrocystic Change)
+- 섬유선종 (Fibroadenoma)
+- 유방 낭종 (Breast Cyst)
 ---
 분과 : [[부인과]]
 
@@ -49,10 +49,10 @@ group_members:
 - **추적**: 영상 범주와 진찰이 일치하는지 확인한 뒤 추적 간격을 정함. 새로 자라거나 고정되는 덩이·피부/유두 변화는 재평가.
 
 ## 포함 질환
+- [[관내 유두종 (Intraductal Papilloma)]]
+- [[섬유낭성변화 (Fibrocystic Change)]]
 - [[섬유선종 (Fibroadenoma)]]
 - [[유방 낭종 (Breast Cyst)]]
-- [[섬유낭성변화 (Fibrocystic Change)]]
-- [[관내 유두종 (Intraductal Papilloma)]]
 
 ## 출처
 - [ACR 촉지 유방 종괴 영상 적절성 기준](https://acsearch.acr.org/docs/69495/Narrative)

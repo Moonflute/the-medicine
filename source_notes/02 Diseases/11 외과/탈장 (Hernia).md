@@ -19,11 +19,11 @@ review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 document_role: "group_overview"
 group_members:
-- "샅굴 탈장 (Inguinal Hernia)"
-- "대퇴 탈장 (Femoral Hernia)"
-- "배꼽 탈장 (Umbilical Hernia)"
-- "복벽 탈장 (Ventral and Abdominal Wall Hernias)"
-- "장루 주위 탈장 (Parastomal Hernia)"
+- 대퇴 탈장 (Femoral Hernia)
+- 배꼽 탈장 (Umbilical Hernia)
+- 복벽 탈장 (Ventral and Abdominal Wall Hernias)
+- 샅굴 탈장 (Inguinal Hernia)
+- 장루 주위 탈장 (Parastomal Hernia)
 ---
 분과 : [[외과]]
 
@@ -58,10 +58,10 @@ group_members:
 - **횡격막**: 재발·위식도 역류, 소아의 폐 발달·폐고혈압·성장 문제를 추적.
 
 ## 포함 질환
-- [[샅굴 탈장 (Inguinal Hernia)]]
 - [[대퇴 탈장 (Femoral Hernia)]]
 - [[배꼽 탈장 (Umbilical Hernia)]]
 - [[복벽 탈장 (Ventral and Abdominal Wall Hernias)]]
+- [[샅굴 탈장 (Inguinal Hernia)]]
 - [[장루 주위 탈장 (Parastomal Hernia)]]
 
 ## 출처

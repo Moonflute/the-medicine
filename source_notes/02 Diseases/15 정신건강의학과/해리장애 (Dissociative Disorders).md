@@ -13,10 +13,10 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "해리성 기억 상실 (Dissociative Amnesia)"
-- "해리성 둔주 (Dissociative Fugue)"
-- "해리성 주체 장애 (Dissociative Identity Disorder)"
-- "이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)"
+- 해리성 기억 상실 (Dissociative Amnesia)
+- 해리성 둔주 (Dissociative Fugue)
+- 해리성 주체 장애 (Dissociative Identity Disorder)
+- 이인성 장애·비현실감 장애 (Depersonalization·Derealization Disorder)
 ---
 분과 : [[정신건강의학과]]
 

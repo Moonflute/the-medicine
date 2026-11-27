@@ -13,9 +13,9 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "급성 부비동염 (Acute sinusitis)"
-- "만성 부비동염 (Chronic sinusitis)"
-- "편측성 부비동염 (Unilateral sinusitis)"
+- 편측성 부비동염 (Unilateral sinusitis)
+- 급성 부비동염 (Acute sinusitis)
+- 만성 부비동염 (Chronic sinusitis)
 ---
 분과 : [[이비인후과]]
 
@@ -46,9 +46,9 @@ group_members:
 - **추적**: 기간과 반복 횟수, 코막힘·후각·기능을 기록. 반복 항생제에도 지속되거나 일측성이 계속되면 원인을 다시 확인.
 
 ## 포함 질환
+- [[편측성 부비동염 (Unilateral sinusitis)]]
 - [[급성 부비동염 (Acute sinusitis)]]
 - [[만성 부비동염 (Chronic sinusitis)]]
-- [[편측성 부비동염 (Unilateral sinusitis)]]
 
 ## 출처
 - [AAO-HNSF 성인 부비동염 갱신 지침 (2025)](https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/cpg-adult-sinusitis/)

@@ -13,11 +13,11 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "강박 장애 (Obsessive-Compulsive Disorder, OCD)"
-- "신체이형장애 (Body Dysmorphic Disorder)"
-- "저장장애 (Hoarding Disorder)"
-- "발모장애 (Trichotillomania)"
-- "피부뜯기기장애 (Excoriation Disorder)"
+- 피부뜯기기장애 (Excoriation Disorder)
+- 강박 장애 (Obsessive-Compulsive Disorder, OCD)
+- 발모장애 (Trichotillomania)
+- 신체이형장애 (Body Dysmorphic Disorder)
+- 저장장애 (Hoarding Disorder)
 ---
 분과 : [[정신건강의학과]]
 
@@ -49,11 +49,11 @@ group_members:
 - **추적**: 반복 행동 빈도와 시간, 회피·가족 적응 행동, 일상 기능·자해 위험과 약 부작용을 확인. 처음 치료가 충분하지 않으면 진단·치료 강도와 병행 치료를 재평가.
 
 ## 포함 질환
+- [[피부뜯기기장애 (Excoriation Disorder)]]
 - [[강박 장애 (Obsessive-Compulsive Disorder, OCD)]]
+- [[발모장애 (Trichotillomania)]]
 - [[신체이형장애 (Body Dysmorphic Disorder)]]
 - [[저장장애 (Hoarding Disorder)]]
-- [[발모장애 (Trichotillomania)]]
-- [[피부뜯기기장애 (Excoriation Disorder)]]
 
 ## 출처
 - [NICE CG31 강박장애·신체이형장애 치료](https://www.nice.org.uk/guidance/cg31/chapter/Recommendations)

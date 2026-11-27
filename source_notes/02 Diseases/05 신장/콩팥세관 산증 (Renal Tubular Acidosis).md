@@ -14,9 +14,9 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "콩팥세관 산증 1형 (Renal Tubular Acidosis Type 1)"
-- "콩팥세관 산증 2형 (Renal Tubular Acidosis Type 2)"
-- "콩팥세관 산증 4형 (Renal Tubular Acidosis Type 4)"
+- 콩팥세관 산증 1형 (Renal Tubular Acidosis Type 1)
+- 콩팥세관 산증 2형 (Renal Tubular Acidosis Type 2)
+- 콩팥세관 산증 4형 (Renal Tubular Acidosis Type 4)
 ---
 분과 : [[신장]]
 

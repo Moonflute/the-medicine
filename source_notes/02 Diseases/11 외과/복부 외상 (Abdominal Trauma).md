@@ -13,12 +13,12 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "관통상 복부외상 (Penetrating Abdominal Injury)"
-- "둔상 복부외상 (Blunt Abdominal Trauma)"
-- "간 손상 (Liver Injury)"
-- "비장 손상 (Splenic Injury)"
-- "신 손상 (Kidney Injury)"
-- "췌장 손상 (Pancreatic Injury)"
+- 관통상 복부외상 (Penetrating Abdominal Injury)
+- 간 손상 (Liver Injury)
+- 비장 손상 (Splenic Injury)
+- 둔상 복부외상 (Blunt Abdominal Trauma)
+- 췌장 손상 (Pancreatic Injury)
+- 신 손상 (Kidney Injury)
 ---
 분과 : [[외과]]
 
@@ -49,11 +49,11 @@ group_members:
 
 ## 포함 질환
 - [[관통상 복부외상 (Penetrating Abdominal Injury)]]
-- [[둔상 복부외상 (Blunt Abdominal Trauma)]]
 - [[간 손상 (Liver Injury)]]
 - [[비장 손상 (Splenic Injury)]]
-- [[신 손상 (Kidney Injury)]]
+- [[둔상 복부외상 (Blunt Abdominal Trauma)]]
 - [[췌장 손상 (Pancreatic Injury)]]
+- [[신 손상 (Kidney Injury)]]
 
 ## 출처
 - [WSES 둔상·관통상 장 손상 지침](https://pmc.ncbi.nlm.nih.gov/articles/PMC8896237/)

@@ -15,12 +15,12 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "지속신대체요법 (Continuous Kidney Replacement Therapy)"
-- "복막투석 관련 복막염 (Peritoneal Dialysis-Associated Peritonitis)"
-- "투석불균형증후군 (Dialysis Disequilibrium Syndrome)"
-- "투석 혈관접근 감염 (Hemodialysis Access Infection)"
-- "투석 중 저혈압 (Intradialytic Hypotension)"
-- "신장이식과 이식신 합병증 (Kidney Transplantation and Graft Complications)"
+- 투석 중 저혈압 (Intradialytic Hypotension)
+- 투석 혈관접근 감염 (Hemodialysis Access Infection)
+- 투석불균형증후군 (Dialysis Disequilibrium Syndrome)
+- 복막투석 관련 복막염 (Peritoneal Dialysis-Associated Peritonitis)
+- 신장이식과 이식신 합병증 (Kidney Transplantation and Graft Complications)
+- 지속신대체요법 (Continuous Kidney Replacement Therapy)
 ---
 분과 : [[신장]]
 
@@ -54,12 +54,12 @@ group_members:
 - **추적**: 혈압·목표 체중·영양과 K·산염기, 투석 적절성·접근로 기능을 확인. 혼탁 투석액·복통, 혈관접근 통증·발열, 이식신 기능 악화는 신속 평가.
 
 ## 포함 질환
-- [[지속신대체요법 (Continuous Kidney Replacement Therapy)]]
-- [[복막투석 관련 복막염 (Peritoneal Dialysis-Associated Peritonitis)]]
-- [[투석불균형증후군 (Dialysis Disequilibrium Syndrome)]]
-- [[투석 혈관접근 감염 (Hemodialysis Access Infection)]]
 - [[투석 중 저혈압 (Intradialytic Hypotension)]]
+- [[투석 혈관접근 감염 (Hemodialysis Access Infection)]]
+- [[투석불균형증후군 (Dialysis Disequilibrium Syndrome)]]
+- [[복막투석 관련 복막염 (Peritoneal Dialysis-Associated Peritonitis)]]
 - [[신장이식과 이식신 합병증 (Kidney Transplantation and Graft Complications)]]
+- [[지속신대체요법 (Continuous Kidney Replacement Therapy)]]
 
 ## 출처
 - [KDIGO 2024 만성 콩팥병 지침, 대체요법 시기와 방식](https://kdigo.org/guidelines/ckd-evaluation-and-management/)

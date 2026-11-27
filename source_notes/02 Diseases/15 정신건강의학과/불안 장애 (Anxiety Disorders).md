@@ -24,11 +24,11 @@ sources: ["NICE CG113: Generalised Anxiety Disorder and Panic Disorder (2020 갱
 content_updated_at: "2026-11-27"
 guideline_reviewed_at: '2026-10-08'
 group_members:
-- "특정 공포증 (Specific Phobia)"
-- "광장 공포증 (Agoraphobia)"
-- "공황 장애 (Panic Disorder)"
-- "범 불안 장애 (Generalized Anxiety Disorder)"
-- "사회 불안 장애 (Social Anxiety Disorder)"
+- 특정 공포증 (Specific Phobia)
+- 광장 공포증 (Agoraphobia)
+- 공황 장애 (Panic Disorder)
+- 범 불안 장애 (Generalized Anxiety Disorder)
+- 사회 불안 장애 (Social Anxiety Disorder)
 document_role: "group_overview"
 ---
 # 불안 장애

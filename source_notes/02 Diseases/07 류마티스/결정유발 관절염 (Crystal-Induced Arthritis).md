@@ -14,8 +14,8 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "통풍 (Gout)"
-- "칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease)"
+- 통풍 (Gout)
+- 칼슘피로인산 침착질환 (CPPD) (Calcium Pyrophosphate Deposition Disease)
 ---
 분과 : [[류마티스]]
 

@@ -15,9 +15,9 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "진성 적혈구증가증 (PV) (Polycythemia Vera (PV))"
-- "본태성 혈소판증가증 (ET) (Essential Thrombocythemia (ET))"
-- "특발성 골수섬유증 (PMF) (Primary Myelofibrosis (PMF))"
+- 특발성 골수섬유증 (PMF) (Primary Myelofibrosis (PMF))
+- 본태성 혈소판증가증 (ET) (Essential Thrombocythemia (ET))
+- 진성 적혈구증가증 (PV) (Polycythemia Vera (PV))
 ---
 분과 : [[혈액]]
 
@@ -49,9 +49,9 @@ group_members:
 - **추적**: CBC·비장·전신 증상과 혈전·출혈, 심혈관 위험을 관리. 혈구감소 증가·아세포 상승은 섬유화 진행 또는 급성백혈병 전환 평가.
 
 ## 포함 질환
-- [[진성 적혈구증가증 (PV) (Polycythemia Vera (PV))]]
-- [[본태성 혈소판증가증 (ET) (Essential Thrombocythemia (ET))]]
 - [[특발성 골수섬유증 (PMF) (Primary Myelofibrosis (PMF))]]
+- [[본태성 혈소판증가증 (ET) (Essential Thrombocythemia (ET))]]
+- [[진성 적혈구증가증 (PV) (Polycythemia Vera (PV))]]
 
 ## 출처
 - [ICC 골수증식종양 분류 기준](https://pmc.ncbi.nlm.nih.gov/articles/PMC9852206/)

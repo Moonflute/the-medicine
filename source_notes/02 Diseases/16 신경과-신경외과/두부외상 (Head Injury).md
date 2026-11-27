@@ -13,11 +13,11 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "뇌진탕 (Concussion)"
-- "두개저 골절 (Basal skull fracture)"
-- "경막외 출혈 (Epidural hemorrhage)"
-- "급성 경막하 출혈 (Acute subdural hematoma)"
-- "만성 경막하 출혈 (Chronic subdural hematoma)"
+- 경막외 출혈 (Epidural hemorrhage)
+- 급성 경막하 출혈 (Acute subdural hematoma)
+- 뇌진탕 (Concussion)
+- 두개저 골절 (Basal skull fracture)
+- 만성 경막하 출혈 (Chronic subdural hematoma)
 ---
 분과 : [[신경과-신경외과]]
 
@@ -51,10 +51,10 @@ group_members:
 - **추적**: 새 졸림·악화 두통·반복 구토·경련·마비가 생기면 응급 재평가. 지속 어지럼·인지·수면·두통과 학교·직장 복귀를 확인.
 
 ## 포함 질환
-- [[뇌진탕 (Concussion)]]
-- [[두개저 골절 (Basal skull fracture)]]
 - [[경막외 출혈 (Epidural hemorrhage)]]
 - [[급성 경막하 출혈 (Acute subdural hematoma)]]
+- [[뇌진탕 (Concussion)]]
+- [[두개저 골절 (Basal skull fracture)]]
 - [[만성 경막하 출혈 (Chronic subdural hematoma)]]
 
 ## 출처

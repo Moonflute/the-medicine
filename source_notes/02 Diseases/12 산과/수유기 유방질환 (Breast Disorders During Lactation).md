@@ -14,12 +14,12 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "산욕기 유방 울혈 (Puerperal Breast Engorgement)"
-- "산욕기 유방염 (Puerperal Mastitis)"
-- "산욕기 유방 농양 (Puerperal Breast Abscess)"
-- "수유기 유방염 (Lactational Mastitis)"
-- "유방 농양 (Breast Abscess)"
-- "젖낭종 (Galactocele)"
+- 산욕기 유방 농양 (Puerperal Breast Abscess)
+- 산욕기 유방 울혈 (Puerperal Breast Engorgement)
+- 산욕기 유방염 (Puerperal Mastitis)
+- 수유기 유방염 (Lactational Mastitis)
+- 유방 농양 (Breast Abscess)
+- 젖낭종 (Galactocele)
 ---
 분과 : [[산과]]
 
@@ -52,9 +52,9 @@ group_members:
 - **추적**: 통증·열·발적과 종괴 소실 확인. 같은 자리에서 반복되거나 치료 후 남는 덩이·피부 변화가 있으면 영상과 유방 전문 평가.
 
 ## 포함 질환
+- [[산욕기 유방 농양 (Puerperal Breast Abscess)]]
 - [[산욕기 유방 울혈 (Puerperal Breast Engorgement)]]
 - [[산욕기 유방염 (Puerperal Mastitis)]]
-- [[산욕기 유방 농양 (Puerperal Breast Abscess)]]
 - [[수유기 유방염 (Lactational Mastitis)]]
 - [[유방 농양 (Breast Abscess)]]
 - [[젖낭종 (Galactocele)]]

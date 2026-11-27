@@ -14,9 +14,9 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "고환염전 (Testicular torsion)"
-- "고환 수염전 (Appendix testis torsion)"
-- "급성 부고환염 (Acute epididymitis)"
+- 급성 부고환염 (Acute epididymitis)
+- 고환 수염전 (Appendix testis torsion)
+- 고환염전 (Testicular torsion)
 ---
 분과 : [[비뇨기과]]
 
@@ -48,9 +48,9 @@ group_members:
 - **추적**: 염전 뒤 고환 위축·기능을 추적. 부고환염은 처치 후 **72시간** 내 호전이 없거나 종괴가 남으면 농양·종양·염전 등 재평가.
 
 ## 포함 질환
-- [[고환염전 (Testicular torsion)]]
-- [[고환 수염전 (Appendix testis torsion)]]
 - [[급성 부고환염 (Acute epididymitis)]]
+- [[고환 수염전 (Appendix testis torsion)]]
+- [[고환염전 (Testicular torsion)]]
 
 ## 출처
 - [EAU 소아 비뇨기과 지침, 급성 음낭통과 염전](https://uroweb.org/guidelines/paediatric-urology/chapter/acute-scrotum)

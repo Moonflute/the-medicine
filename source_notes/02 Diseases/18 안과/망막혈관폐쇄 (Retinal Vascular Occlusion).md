@@ -13,9 +13,9 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "망막중심동맥폐쇄 (central retinal artery occlusion)"
-- "망막중심정맥폐쇄 (central retinal vein occlusion)"
-- "망막분지정맥폐쇄 (branch retinal vein occlusion)"
+- 망막분지정맥폐쇄 (branch retinal vein occlusion)
+- 망막중심동맥폐쇄 (central retinal artery occlusion)
+- 망막중심정맥폐쇄 (central retinal vein occlusion)
 ---
 분과 : [[안과]]
 
@@ -46,9 +46,9 @@ group_members:
 - **추적**: 동맥 폐쇄는 후속 뇌졸중·심혈관 위험을 평가. 정맥 폐쇄는 황반부종 재발, 홍채/망막 신생혈관과 신생혈관 녹내장을 추적.
 
 ## 포함 질환
+- [[망막분지정맥폐쇄 (branch retinal vein occlusion)]]
 - [[망막중심동맥폐쇄 (central retinal artery occlusion)]]
 - [[망막중심정맥폐쇄 (central retinal vein occlusion)]]
-- [[망막분지정맥폐쇄 (branch retinal vein occlusion)]]
 
 ## 출처
 - [AHA 망막중심동맥폐쇄 관리 성명](https://doi.org/10.1161/STR.0000000000000366)

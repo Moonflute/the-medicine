@@ -14,8 +14,8 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "혈전성 혈소판감소 자색반 (Thrombotic Thrombocytopenic Purpura, TTP)"
-- "용혈성 요독 증후군 (Hemolytic Uremic Syndrome, HUS)"
+- 혈전성 혈소판감소 자색반 (Thrombotic Thrombocytopenic Purpura, TTP)
+- 용혈성 요독 증후군 (Hemolytic Uremic Syndrome, HUS)
 ---
 분과 : [[혈액]]
 

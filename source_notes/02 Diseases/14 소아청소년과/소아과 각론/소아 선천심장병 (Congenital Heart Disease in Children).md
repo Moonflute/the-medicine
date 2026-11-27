@@ -14,12 +14,12 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "심방 중격 결손 (Atrial Septal Defect)"
-- "심실 중격 결손 (Ventricular Septal Defect)"
-- "동맥관 개존증 (Patent Ductus Arteriosus)"
-- "팔로 사징 (Tetralogy of Fallot)"
-- "대혈관 전위 (Transposition of the Great Arteries)"
-- "동맥관 의존 선천심장병 (Duct-Dependent Congenital Heart Disease)"
+- 동맥관 개존증 (Patent Ductus Arteriosus)
+- 동맥관 의존 선천심장병 (Duct-Dependent Congenital Heart Disease)
+- 대혈관 전위 (Transposition of the Great Arteries)
+- 심방 중격 결손 (Atrial Septal Defect)
+- 심실 중격 결손 (Ventricular Septal Defect)
+- 팔로 사징 (Tetralogy of Fallot)
 ---
 분과 : [[소아청소년과]]
 
@@ -52,12 +52,12 @@ group_members:
 - **추적**: 성장·수유, 산소화·심기능·폐고혈압을 확인. 수술·시술 후 잔여 협착/단락, 부정맥과 장기 운동능력·성인 선천심장 진료 전환을 평가.
 
 ## 포함 질환
+- [[동맥관 개존증 (Patent Ductus Arteriosus)]]
+- [[동맥관 의존 선천심장병 (Duct-Dependent Congenital Heart Disease)]]
+- [[대혈관 전위 (Transposition of the Great Arteries)]]
 - [[심방 중격 결손 (Atrial Septal Defect)]]
 - [[심실 중격 결손 (Ventricular Septal Defect)]]
-- [[동맥관 개존증 (Patent Ductus Arteriosus)]]
 - [[팔로 사징 (Tetralogy of Fallot)]]
-- [[대혈관 전위 (Transposition of the Great Arteries)]]
-- [[동맥관 의존 선천심장병 (Duct-Dependent Congenital Heart Disease)]]
 
 ## 출처
 - [AAP 신생아 중증 선천심장병 산소포화도 선별 (2025)](https://doi.org/10.1542/peds.2024-069667)

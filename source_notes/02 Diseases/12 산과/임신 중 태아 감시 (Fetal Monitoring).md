@@ -22,11 +22,11 @@ sources:
 - "ACOG 분만 중 태아심박동 감시 지침(2025) | https://obgyn.wustl.edu/app/uploads/2025/09/acog_clinical_practice_guideline_no_.22.pdf"
 document_role: "group_overview"
 group_members:
-- "초기감속 (Early Deceleration)"
-- "변동감속 (Variable Deceleration)"
-- "후기감속 (Late Deceleration)"
-- "태아 성장 지연 (Fetal Growth Restriction)"
-- "거대아 (Macrosomia)"
+- 태아 성장 지연 (Fetal Growth Restriction)
+- 후기감속 (Late Deceleration)
+- 거대아 (Macrosomia)
+- 변동감속 (Variable Deceleration)
+- 초기감속 (Early Deceleration)
 ---
 분과 : [[산과]]
 
@@ -109,11 +109,11 @@ group_members:
 - **주의**: 연속 감시는 저산소 위험의 발견에 도움이 되지만 저위험 분만에서 개입을 늘릴 수 있음. 파형 하나만으로 신생아 손상을 확정하지 않음.
 
 ## 포함 질환
-- [[초기감속 (Early Deceleration)]]
-- [[변동감속 (Variable Deceleration)]]
-- [[후기감속 (Late Deceleration)]]
 - [[태아 성장 지연 (Fetal Growth Restriction)]]
+- [[후기감속 (Late Deceleration)]]
 - [[거대아 (Macrosomia)]]
+- [[변동감속 (Variable Deceleration)]]
+- [[초기감속 (Early Deceleration)]]
 
 ## 출처
 - StatPearls (Fetal Monitoring)

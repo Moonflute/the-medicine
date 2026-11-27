@@ -13,10 +13,10 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "세균성 질염 (Bacterial Vaginosis)"
-- "칸디다 (Vulvovaginal Candidiasis)"
-- "트리코모나스 (Trichomoniasis)"
-- "위축성 질염 (Atrophic Vaginitis)"
+- 트리코모나스 (Trichomoniasis)
+- 칸디다 (Vulvovaginal Candidiasis)
+- 세균성 질염 (Bacterial Vaginosis)
+- 위축성 질염 (Atrophic Vaginitis)
 ---
 분과 : [[부인과]]
 
@@ -50,9 +50,9 @@ group_members:
 - **추적**: 지속·재발 시 검체로 원인을 재확인하고 혼합 감염·자극/피부질환을 평가. 트리코모나스는 여성에서 치료 약 **3개월 뒤** 재검 권고.
 
 ## 포함 질환
-- [[세균성 질염 (Bacterial Vaginosis)]]
-- [[칸디다 (Vulvovaginal Candidiasis)]]
 - [[트리코모나스 (Trichomoniasis)]]
+- [[칸디다 (Vulvovaginal Candidiasis)]]
+- [[세균성 질염 (Bacterial Vaginosis)]]
 - [[위축성 질염 (Atrophic Vaginitis)]]
 
 ## 출처

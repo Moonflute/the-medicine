@@ -13,11 +13,11 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "돌발성 난청 (Sudden sensorineural hearing loss)"
-- "노인성 난청 (Presbycusis)"
-- "소음성 난청 (Noise-induced hearing loss)"
-- "이독성 약물 난청 (Ototoxic drug-induced hearing loss)"
-- "유아 난청 (Congenital hearing loss)"
+- 노인성 난청 (Presbycusis)
+- 돌발성 난청 (Sudden sensorineural hearing loss)
+- 소음성 난청 (Noise-induced hearing loss)
+- 유아 난청 (Congenital hearing loss)
+- 이독성 약물 난청 (Ototoxic drug-induced hearing loss)
 ---
 분과 : [[이비인후과]]
 
@@ -47,11 +47,11 @@ group_members:
 - **추적**: 치료 후 청력과 어음 이해, 이명·균형, 생활 기능과 언어 발달을 확인. 진행성·비대칭 난청은 원인 재평가.
 
 ## 포함 질환
-- [[돌발성 난청 (Sudden sensorineural hearing loss)]]
 - [[노인성 난청 (Presbycusis)]]
+- [[돌발성 난청 (Sudden sensorineural hearing loss)]]
 - [[소음성 난청 (Noise-induced hearing loss)]]
-- [[이독성 약물 난청 (Ototoxic drug-induced hearing loss)]]
 - [[유아 난청 (Congenital hearing loss)]]
+- [[이독성 약물 난청 (Ototoxic drug-induced hearing loss)]]
 
 ## 출처
 - [AAO-HNSF 돌발성 난청 지침 갱신](https://pubmed.ncbi.nlm.nih.gov/31369349/)

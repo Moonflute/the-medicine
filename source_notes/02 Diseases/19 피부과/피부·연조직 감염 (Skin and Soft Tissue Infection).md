@@ -14,11 +14,11 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "농가진 (Impetigo)"
-- "단독 (Erysipelas)"
-- "연조직염 (Cellulitis)"
-- "괴사성 근막염 (Necrotizing Fasciitis)"
-- "푸르니에 괴저 (Fournier's Gangrene)"
+- 푸르니에 괴저 (Fournier's Gangrene)
+- 괴사성 근막염 (Necrotizing Fasciitis)
+- 단독 (Erysipelas)
+- 연조직염 (Cellulitis)
+- 농가진 (Impetigo)
 ---
 분과 : [[피부과]]
 
@@ -53,11 +53,11 @@ group_members:
 - **재발 예방**: 피부 장벽과 발 무좀·부종, 당뇨를 관리. 반복 농양은 국소 구조 원인 등을 확인.
 
 ## 포함 질환
-- [[농가진 (Impetigo)]]
+- [[푸르니에 괴저 (Fournier's Gangrene)]]
+- [[괴사성 근막염 (Necrotizing Fasciitis)]]
 - [[단독 (Erysipelas)]]
 - [[연조직염 (Cellulitis)]]
-- [[괴사성 근막염 (Necrotizing Fasciitis)]]
-- [[푸르니에 괴저 (Fournier's Gangrene)]]
+- [[농가진 (Impetigo)]]
 
 ## 출처
 - [IDSA 피부·연조직 감염 진단 및 치료 지침](https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/)

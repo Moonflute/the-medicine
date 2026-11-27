@@ -14,11 +14,11 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "전방 십자 인대 손상 (Anterior Cruciate Ligament Injury)"
-- "후방 십자 인대 손상 (Posterior Cruciate Ligament Injury)"
-- "내측 측부 인대 손상 (Medial Collateral Ligament Injury)"
-- "외측 측부 인대 손상 (Lateral Collateral Ligament Injury)"
-- "반월 연골판 손상 (Meniscus Injury)"
+- 후방 십자 인대 손상 (Posterior Cruciate Ligament Injury)
+- 내측 측부 인대 손상 (Medial Collateral Ligament Injury)
+- 반월 연골판 손상 (Meniscus Injury)
+- 외측 측부 인대 손상 (Lateral Collateral Ligament Injury)
+- 전방 십자 인대 손상 (Anterior Cruciate Ligament Injury)
 ---
 분과 : [[정형외과]]
 
@@ -51,11 +51,11 @@ group_members:
 - **추적**: 부종·신전/굴곡, 근력·기능 검사와 불안정이 호전되는지 평가. 재부상·관절연골 손상과 장기 골관절염 위험을 확인.
 
 ## 포함 질환
-- [[전방 십자 인대 손상 (Anterior Cruciate Ligament Injury)]]
 - [[후방 십자 인대 손상 (Posterior Cruciate Ligament Injury)]]
 - [[내측 측부 인대 손상 (Medial Collateral Ligament Injury)]]
-- [[외측 측부 인대 손상 (Lateral Collateral Ligament Injury)]]
 - [[반월 연골판 손상 (Meniscus Injury)]]
+- [[외측 측부 인대 손상 (Lateral Collateral Ligament Injury)]]
+- [[전방 십자 인대 손상 (Anterior Cruciate Ligament Injury)]]
 
 ## 출처
 - [AAOS 전방십자인대 손상 진료지침 (2022)](https://www.aaos.org/globalassets/quality-and-practice-resources/anterior-cruciate-ligament-injuries/acl-cpg.pdf)

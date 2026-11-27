@@ -14,9 +14,9 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "이석증 (Benign paroxysmal positional vertigo)"
-- "전정신경염 (Vestibular neuritis)"
-- "메니에르병 (Meniere's disease)"
+- 메니에르병 (Meniere's disease)
+- 이석증 (Benign paroxysmal positional vertigo)
+- 전정신경염 (Vestibular neuritis)
 ---
 분과 : [[이비인후과]]
 
@@ -51,9 +51,9 @@ group_members:
 - **추적**: 재발과 낙상 위험, 지속 불균형·청력·생활 기능을 확인. 체위 교정 후에도 특징이 달라지거나 증상이 남으면 진단 재평가.
 
 ## 포함 질환
+- [[메니에르병 (Meniere's disease)]]
 - [[이석증 (Benign paroxysmal positional vertigo)]]
 - [[전정신경염 (Vestibular neuritis)]]
-- [[메니에르병 (Meniere's disease)]]
 
 ## 출처
 - [AAO-HNSF 양성돌발두위현훈 진료지침](https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/bppv/)

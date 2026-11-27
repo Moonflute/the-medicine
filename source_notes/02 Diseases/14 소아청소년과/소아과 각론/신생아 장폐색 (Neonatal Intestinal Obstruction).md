@@ -13,11 +13,11 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "선천성 십이지장 폐쇄증 (Congenital Duodenal Obstruction)"
-- "선천성 공장-회장폐쇄증 (Congenital Jejunoileal Atresia)"
-- "중간창자꼬임 (Midgut Volvulus)"
-- "선천 거대 결장증 (Congenital Aganglionic Megacolon)"
-- "쇄항 (Imperforate Anus)"
+- 선천성 공장-회장폐쇄증 (Congenital Jejunoileal Atresia)
+- 선천성 십이지장 폐쇄증 (Congenital Duodenal Obstruction)
+- 쇄항 (Imperforate Anus)
+- 중간창자꼬임 (Midgut Volvulus)
+- 선천 거대 결장증 (Congenital Aganglionic Megacolon)
 ---
 분과 : [[소아청소년과]]
 
@@ -51,11 +51,11 @@ group_members:
 - **추적**: 장 절제 범위와 수유·성장, 담즙정체·단장증후군, 장이음부 합병증과 수술 후 유착성 폐색을 확인.
 
 ## 포함 질환
-- [[선천성 십이지장 폐쇄증 (Congenital Duodenal Obstruction)]]
 - [[선천성 공장-회장폐쇄증 (Congenital Jejunoileal Atresia)]]
+- [[선천성 십이지장 폐쇄증 (Congenital Duodenal Obstruction)]]
+- [[쇄항 (Imperforate Anus)]]
 - [[중간창자꼬임 (Midgut Volvulus)]]
 - [[선천 거대 결장증 (Congenital Aganglionic Megacolon)]]
-- [[쇄항 (Imperforate Anus)]]
 
 ## 출처
 - [ACR 신생아·영아 구토 영상 적절성 기준](https://acsearch.acr.org/docs/69445/Narrative/)

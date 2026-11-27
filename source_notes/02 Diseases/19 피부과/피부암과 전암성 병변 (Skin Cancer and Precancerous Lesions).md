@@ -14,11 +14,11 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "기저 세포암 (Basal Cell Carcinoma)"
-- "편평 세포암 (Squamous Cell Carcinoma)"
-- "악성 흑색종 (Malignant Melanoma)"
-- "보웬 병 (Bowen's Disease)"
-- "광선 각화증 (Actinic Keratosis)"
+- 편평 세포암 (Squamous Cell Carcinoma)
+- 광선 각화증 (Actinic Keratosis)
+- 기저 세포암 (Basal Cell Carcinoma)
+- 보웬 병 (Bowen's Disease)
+- 악성 흑색종 (Malignant Melanoma)
 ---
 분과 : [[피부과]]
 
@@ -51,11 +51,11 @@ group_members:
 - **추적**: 절제 부위 재발·새 피부암, 자외선 차단과 자가 점검을 안내. 고위험 편평세포암과 흑색종은 병기별 림프절·전신 추적.
 
 ## 포함 질환
-- [[기저 세포암 (Basal Cell Carcinoma)]]
 - [[편평 세포암 (Squamous Cell Carcinoma)]]
-- [[악성 흑색종 (Malignant Melanoma)]]
-- [[보웬 병 (Bowen's Disease)]]
 - [[광선 각화증 (Actinic Keratosis)]]
+- [[기저 세포암 (Basal Cell Carcinoma)]]
+- [[보웬 병 (Bowen's Disease)]]
+- [[악성 흑색종 (Malignant Melanoma)]]
 
 ## 출처
 - [AAD 기저세포암 지침](https://www.aad.org/member/clinical-quality/guidelines/bcc)

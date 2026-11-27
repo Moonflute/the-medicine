@@ -13,11 +13,11 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "소발작 (Absence Seizure)"
-- "양성 롤란딕 뇌전증 (Benign Rolandic Epilepsy)"
-- "영아 연축 (Infantile Spasm)"
-- "청소년 근간대성 뇌전증 (Juvenile Myoclonic Epilepsy)"
-- "Lennox-Gastaut 증후군 (Lennox-Gastaut Syndrome)"
+- 소발작 (Absence Seizure)
+- 양성 롤란딕 뇌전증 (Benign Rolandic Epilepsy)
+- 영아 연축 (Infantile Spasm)
+- 청소년 근간대성 뇌전증 (Juvenile Myoclonic Epilepsy)
+- Lennox-Gastaut 증후군 (Lennox-Gastaut Syndrome)
 ---
 분과 : [[소아청소년과]]
 

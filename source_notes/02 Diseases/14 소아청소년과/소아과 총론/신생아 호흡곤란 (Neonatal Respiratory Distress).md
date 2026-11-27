@@ -13,10 +13,10 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "호흡곤란 증후군 (Respiratory Distress Syndrome)"
-- "신생아 일과성 빈호흡 (Transient Tachypnea of the Newborn)"
-- "태변 흡인 증후군 (Meconium Aspiration Syndrome)"
-- "신생아 지속성 폐고혈압증 (Persistent Pulmonary Hypertension of the Newborn)"
+- 신생아 지속성 폐고혈압증 (Persistent Pulmonary Hypertension of the Newborn)
+- 신생아 일과성 빈호흡 (Transient Tachypnea of the Newborn)
+- 태변 흡인 증후군 (Meconium Aspiration Syndrome)
+- 호흡곤란 증후군 (Respiratory Distress Syndrome)
 ---
 분과 : [[소아청소년과]]
 
@@ -53,10 +53,10 @@ group_members:
 - **추적**: 산소 요구·호흡 노력·수유가 안정되는지 확인. 원인에 따라 기흉·지속 산소 요구, 미숙아 만성 폐질환이나 심한 저산소증 후 발달을 추적.
 
 ## 포함 질환
-- [[호흡곤란 증후군 (Respiratory Distress Syndrome)]]
+- [[신생아 지속성 폐고혈압증 (Persistent Pulmonary Hypertension of the Newborn)]]
 - [[신생아 일과성 빈호흡 (Transient Tachypnea of the Newborn)]]
 - [[태변 흡인 증후군 (Meconium Aspiration Syndrome)]]
-- [[신생아 지속성 폐고혈압증 (Persistent Pulmonary Hypertension of the Newborn)]]
+- [[호흡곤란 증후군 (Respiratory Distress Syndrome)]]
 
 ## 출처
 - [유럽 신생아 RDS 합의 (2025, 2026 발표)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13038240/)

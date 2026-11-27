@@ -14,9 +14,9 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "신경성식욕부진증 (Anorexia Nervosa)"
-- "신경성폭식증 (Bulimia Nervosa)"
-- "폭식증 (Binge Eating Disorder)"
+- 폭식증 (Binge Eating Disorder)
+- 신경성폭식증 (Bulimia Nervosa)
+- 신경성식욕부진증 (Anorexia Nervosa)
 ---
 분과 : [[정신건강의학과]]
 
@@ -50,9 +50,9 @@ group_members:
 - **추적**: 성장·월경·골 건강, 전해질·심혈관 합병증, 행동 변화와 정신건강. 재발 신호와 회복 지표를 환자·가족과 함께 정함.
 
 ## 포함 질환
-- [[신경성식욕부진증 (Anorexia Nervosa)]]
-- [[신경성폭식증 (Bulimia Nervosa)]]
 - [[폭식증 (Binge Eating Disorder)]]
+- [[신경성폭식증 (Bulimia Nervosa)]]
+- [[신경성식욕부진증 (Anorexia Nervosa)]]
 
 ## 출처
 - [NICE NG69 급식·섭식 장애 진단과 치료](https://www.nice.org.uk/guidance/ng69/chapter/recommendations)

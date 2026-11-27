@@ -13,11 +13,11 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "하시모토 갑상샘염 (Hashimoto's Thyroiditis)"
-- "아급성 갑상샘염 (Subacute Thyroiditis)"
-- "무통성 갑상샘염 (Silent Thyroiditis)"
-- "무통성 산후 갑상샘염 (Painless Postpartum Thyroiditis)"
-- "리델 갑상샘염 (Riedel Thyroiditis)"
+- 하시모토 갑상샘염 (Hashimoto's Thyroiditis)
+- 리델 갑상샘염 (Riedel Thyroiditis)
+- 무통성 갑상샘염 (Silent Thyroiditis)
+- 무통성 산후 갑상샘염 (Painless Postpartum Thyroiditis)
+- 아급성 갑상샘염 (Subacute Thyroiditis)
 ---
 분과 : [[내분비]]
 
@@ -51,10 +51,10 @@ group_members:
 
 ## 포함 질환
 - [[하시모토 갑상샘염 (Hashimoto's Thyroiditis)]]
-- [[아급성 갑상샘염 (Subacute Thyroiditis)]]
+- [[리델 갑상샘염 (Riedel Thyroiditis)]]
 - [[무통성 갑상샘염 (Silent Thyroiditis)]]
 - [[무통성 산후 갑상샘염 (Painless Postpartum Thyroiditis)]]
-- [[리델 갑상샘염 (Riedel Thyroiditis)]]
+- [[아급성 갑상샘염 (Subacute Thyroiditis)]]
 
 ## 출처
 - [ATA 갑상샘염의 원인·증상·기간별 치료](https://www.thyroid.org/thyroiditis/)

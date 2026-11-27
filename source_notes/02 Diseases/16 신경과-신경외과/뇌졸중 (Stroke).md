@@ -13,8 +13,8 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "허혈성 뇌졸중 (Ischemic stroke)"
-- "출혈성 뇌졸중 (Hemorrhagic Stroke)"
+- 출혈성 뇌졸중 (Hemorrhagic Stroke)
+- 허혈성 뇌졸중 (Ischemic stroke)
 ---
 분과 : [[신경과-신경외과]]
 
@@ -50,8 +50,8 @@ group_members:
 - **회복과 예방**: 조기 재활·연하 평가, 원인에 따른 항혈소판/항응고 판단 및 혈압·지질·당뇨·금연 관리. 출혈 후 항혈전제 재개는 출혈 위치·원인과 적응증에 맞춰 결정.
 
 ## 포함 질환
-- [[허혈성 뇌졸중 (Ischemic stroke)]]
 - [[출혈성 뇌졸중 (Hemorrhagic Stroke)]]
+- [[허혈성 뇌졸중 (Ischemic stroke)]]
 
 ## 출처
 - [AHA/ASA 급성 허혈성 뇌졸중 초기 관리 (2026)](https://doi.org/10.1161/STR.0000000000000513)

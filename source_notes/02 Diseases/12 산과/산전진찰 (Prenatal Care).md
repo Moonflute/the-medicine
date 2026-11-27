@@ -15,7 +15,7 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "다운증후군 (Down Syndrome)"
+- 다운증후군 (Down Syndrome)
 ---
 분과 : [[산과]]
 

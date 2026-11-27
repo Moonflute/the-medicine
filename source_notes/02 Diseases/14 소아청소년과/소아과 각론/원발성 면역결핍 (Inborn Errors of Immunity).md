@@ -15,11 +15,11 @@ clinical_priority: "tier_2"
 content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
-- "중증 복합 면역 결핍증 (Severe Combined Immunodeficiency)"
-- "고IgM 증후군 (Hyper-IgM Syndrome)"
-- "범저감마글로불린혈증 (Panhypogammaglobulinemia)"
-- "만성 육아종성 질환 (Chronic Granulomatous Disease)"
-- "Wiskott-Aldrich 증후군 (Wiskott-Aldrich Syndrome)"
+- 고IgM 증후군 (Hyper-IgM Syndrome)
+- 만성 육아종성 질환 (Chronic Granulomatous Disease)
+- 범저감마글로불린혈증 (Panhypogammaglobulinemia)
+- 중증 복합 면역 결핍증 (Severe Combined Immunodeficiency)
+- Wiskott-Aldrich 증후군 (Wiskott-Aldrich Syndrome)
 ---
 분과 : [[소아청소년과]]
 
@@ -53,10 +53,10 @@ group_members:
 - **추적**: 성장·폐기능과 기관지확장증, 만성 감염·자가면역·종양 위험을 유형별로 확인. 유전 상담과 형제의 평가를 논의.
 
 ## 포함 질환
-- [[중증 복합 면역 결핍증 (Severe Combined Immunodeficiency)]]
 - [[고IgM 증후군 (Hyper-IgM Syndrome)]]
-- [[범저감마글로불린혈증 (Panhypogammaglobulinemia)]]
 - [[만성 육아종성 질환 (Chronic Granulomatous Disease)]]
+- [[범저감마글로불린혈증 (Panhypogammaglobulinemia)]]
+- [[중증 복합 면역 결핍증 (Severe Combined Immunodeficiency)]]
 - [[Wiskott-Aldrich 증후군 (Wiskott-Aldrich Syndrome)]]
 
 ## 출처
