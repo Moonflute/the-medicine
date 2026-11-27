@@ -7,7 +7,7 @@ const compile=(name,deps={})=>{const compiledModule={exports:{}};vm.runInNewCont
 const grading=compile('qbank-grading.ts');
 const {remainingQuestions,restoreQbankQuestionOrder,sessionWrongIds}=compile('qbank-session-results.ts',{'./qbank-grading':grading});
 const {readQbankQuestionCount,resolveQbankSessionCount}=compile('qbank-question-count.ts');
-const {readRetryIds}=compile('qbank-analytics.ts');
+const {readRetryIds}=compile('qbank-analytics.ts',{'./practice-statistics':compile('practice-statistics.ts')});
 test('last submitted question does not hide earlier unanswered or draft answers',()=>{const r=remainingQuestions(['a','b','c'],[{questionId:'c'}],{a:'A'},'c','B');assert.equal(r.remaining.length,2);assert.equal(r.remaining[0].index,0);assert.equal(r.unanswered,1);assert.equal(r.unsubmitted,1);});
 test('submitted ungraded questions are complete and cleared current drafts stay empty',()=>{const r=remainingQuestions(['a','b'],[{questionId:'b',correct:null}],{a:'A'},'a',null);assert.equal(r.unanswered,1);assert.equal(r.unsubmitted,0);});
 test('fully submitted session has no remaining questions',()=>{assert.equal(remainingQuestions(['a'],[{questionId:'a'}],{}).remaining.length,0);});

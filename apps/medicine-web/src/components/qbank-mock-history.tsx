@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { MOCK_SUBJECTS, mockSubject, type MockExamSummary } from "@/lib/mock-exam";
+import { createMockExamSummary, MOCK_SUBJECTS, mockSubject, type MockExamSummary } from "@/lib/mock-exam";
 import type { QbankSessionResult } from "@/lib/qbank-store";
+import { practiceStatisticsScore, type PracticeStatisticsScore } from "@/lib/practice-statistics";
 import { selectedAnswers } from "@/lib/qbank-grading";
 import { loadPracticeQuestions } from "@/lib/practice-bank";
 import { reflowOcrText } from "@/lib/ocr-paragraphs";
@@ -15,6 +16,16 @@ import type { QbankQuestion } from "@/lib/types";
 const accuracy = (correct: number, total: number) => total ? `${Math.round(correct / total * 100)}%` : "—";
 const date = (value: string) => new Date(value).toLocaleDateString("ko-KR", { year: "2-digit", month: "numeric", day: "numeric" });
 const colors = ["#0d9488", "#6366f1", "#d97706", "#e11d48"];
+const scoreLabel = (score?: PracticeStatisticsScore) => score
+  ? `${score.correct}/${score.total} · ${accuracy(score.correct, score.total)}` : "집계 점수 없음";
+function recordedStatistics(session: QbankSessionResult, excludedIds: ReadonlySet<string>) {
+  const score = practiceStatisticsScore(session, excludedIds);
+  const raw = session.mockExam;
+  const summary = score && raw && score.excluded
+    ? createMockExamSummary(raw.title, raw.results.filter(result => !excludedIds.has(result.questionId)), raw.durationSeconds)
+    : score ? raw : undefined;
+  return { score, summary };
+}
 function title(session: QbankSessionResult) {
   if (session.mockExam) return session.mockExam.title.replace(/^[PR]\s+(?=\d{4})/, "");
   const years = [...new Set(session.questionIds.map(id => id.match(/(?:19|20)\d{2}/)?.[0]).filter(Boolean))];
@@ -71,17 +82,18 @@ function ResultQuestion({ id, summary }: { id: string; summary: MockExamSummary 
   </div>;
 }
 
-function ResultDialog({ session, wrongOnly, onClose, onStart }: { session: QbankSessionResult; wrongOnly: boolean; onClose: () => void; onStart: StatsSetLauncher }) {
+function ResultDialog({ session, statistics, wrongOnly, onClose, onStart }: { session: QbankSessionResult; statistics: ReturnType<typeof recordedStatistics>; wrongOnly: boolean; onClose: () => void; onStart: StatsSetLauncher }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const summary = session.mockExam;
+  const { score, summary: scoredSummary } = statistics;
   const results = summary?.results.filter(result => !wrongOnly || result.correct === false) ?? [];
   const [selected, setSelected] = useState(results[0]?.questionId);
   useEffect(() => { dialog.current?.showModal(); }, []);
   return <dialog ref={dialog} className="qbank-compact-dialog qbank-mock-detail" aria-label="모의고사 결과" onCancel={event => { event.preventDefault(); onClose(); }}><div className="review-card-panel">
     <div className="flex items-center justify-between gap-3"><h2 className="font-semibold">{title(session)} · {wrongOnly ? "오답 보기" : "결과 보기"}</h2><button type="button" className="secondary-action" onClick={onClose}>닫기</button></div>
-    <p className="mt-3 text-sm">{date(session.completedAt)} · {session.correct}/{session.total} · {accuracy(session.correct, session.total)}</p>
-    <SubjectScores summary={summary} />
-    {summary ? <><p className="mb-3 text-xs text-slate-500">전체 {summary.total}문항 · 미응답 {summary.unansweredQuestionIds.length} · 채점 제외 {summary.omittedQuestionIds.length}</p>
+    <p className="mt-3 text-sm">{date(session.completedAt)} · {scoreLabel(score)}{score?.excluded ? ` · 기타 분과 ${score.excluded}문항 통계 제외` : ""}</p>
+    <SubjectScores summary={scoredSummary} />
+    {summary ? <>{scoredSummary ? <p className="mb-3 text-xs text-slate-500">{score?.excluded ? "통계 대상" : "전체"} {scoredSummary.total}문항 · 미응답 {scoredSummary.unansweredQuestionIds.length} · 채점 제외 {scoredSummary.omittedQuestionIds.length}</p> : null}
       <div className="qbank-result-buttons">{results.map(result => <button type="button" key={result.questionId} aria-label={`${summary.results.indexOf(result) + 1}번 ${result.correct === null ? "채점 제외" : result.correct ? "정답" : "오답"}`} data-result={result.correct === null ? "omitted" : result.correct ? "correct" : "wrong"} aria-pressed={selected === result.questionId} onClick={() => setSelected(result.questionId)}>{summary.results.indexOf(result) + 1}</button>)}</div>
       {selected && <ResultQuestion id={selected} summary={summary} />}
       <div className="qbank-history-actions mt-4"><button type="button" disabled={!summary.wrongQuestionIds.length} onClick={() => { onClose(); onStart({ ids: summary.wrongQuestionIds, title: `${title(session)} 오답 다시 풀기`, kind: "snapshot" }); }}>당시 오답 {summary.wrongQuestionIds.length}문항 다시 풀기</button></div>
@@ -89,27 +101,35 @@ function ResultDialog({ session, wrongOnly, onClose, onStart }: { session: Qbank
   </div></dialog>;
 }
 
-export function QbankMockHistory({ sessions, practiceIds, department, onStart }: { sessions: QbankSessionResult[]; practiceIds: ReadonlySet<string>; department: string; onStart: StatsSetLauncher }) {
+export function QbankMockHistory({ sessions, practiceIds, excludedPracticeIds, department, onStart }: { sessions: QbankSessionResult[]; practiceIds: ReadonlySet<string>; excludedPracticeIds: ReadonlySet<string>; department: string; onStart: StatsSetLauncher }) {
   const [page, setPage] = useState(0);
   const [detail, setDetail] = useState<{ session: QbankSessionResult; wrongOnly: boolean }>();
   const history = sessions.filter(session => (session.mockExam || session.id.startsWith("mock-"))
     && session.questionIds.length > 0 && session.questionIds.every(id => practiceIds.has(id))
-    && (department === "all" || session.mockExam?.results.some(result => result.specialty === department)
-      || session.questionIds.some(id => mockSubject(id) === department)))
+    && (department === "all" || session.mockExam?.results.some(result => !excludedPracticeIds.has(result.questionId) && result.specialty === department)
+      || session.questionIds.some(id => !excludedPracticeIds.has(id) && mockSubject(id) === department)))
     .sort((a, b) => b.completedAt.localeCompare(a.completedAt));
   const pages = Math.max(1, Math.ceil(history.length / 8));
   const currentPage = Math.min(page, pages - 1);
-  const trends = history.slice(0, 20).reverse();
+  const visibleHistory = history.slice(currentPage * 8, currentPage * 8 + 8);
+  const latestHistory = history.slice(0, 20).reverse();
+  const statistics = new Map([...new Set([...visibleHistory, ...latestHistory])].map(session => [session.id, recordedStatistics(session, excludedPracticeIds)]));
+  const trends = latestHistory.map(session => {
+    const stats = statistics.get(session.id);
+    return { ...session, correct: stats?.score?.correct ?? 0, total: stats?.score?.total ?? 0, mockExam: stats?.summary };
+  });
   return <section className="surface min-w-0 p-4 sm:p-5">
     <h2 className="font-semibold">모의고사 기록 <span className="text-xs font-normal text-slate-500">{history.length}회 · 제출 당시 기준</span></h2>
-    {detail && history.some(session => session.id === detail.session.id) && <ResultDialog key={`${detail.session.id}:${detail.wrongOnly}`} {...detail} onClose={() => setDetail(undefined)} onStart={onStart} />}
+    {detail && history.some(session => session.id === detail.session.id) && <ResultDialog key={`${detail.session.id}:${detail.wrongOnly}`} {...detail} statistics={recordedStatistics(detail.session, excludedPracticeIds)} onClose={() => setDetail(undefined)} onStart={onStart} />}
     {!history.length ? <p className="mt-3 text-sm text-slate-500">모의고사를 제출하면 기록이 표시됩니다. 즉시 해설 학습은 포함하지 않습니다.</p> : <>
       <details className="mt-3"><summary className="cursor-pointer text-sm font-medium">점수 추이 · 최근 {trends.length}회</summary><p className="mt-2 text-xs text-slate-500">회차마다 난이도와 문항 수가 다릅니다. 각 점은 응시 순서이며 합격 예측이나 난이도 보정은 하지 않습니다.</p><div className="qbank-mock-trends"><Trend sessions={trends} /><Trend sessions={trends} subjects /></div></details>
-      <div className="qbank-history-list">{history.slice(currentPage * 8, currentPage * 8 + 8).map(session => {
+      <div className="qbank-history-list">{visibleHistory.map(session => {
         const summary = session.mockExam;
-        return <article key={session.id} className="qbank-history-record"><div className="flex flex-wrap items-baseline justify-between gap-2"><p className="text-sm font-semibold">{date(session.completedAt)} · {title(session)}</p><p className="text-sm font-semibold tabular-nums">{session.correct}/{session.total} · {accuracy(session.correct, session.total)}</p></div>
-          <SubjectScores summary={summary} />
-          <p className="mb-2 text-xs text-slate-500">소요시간 {summary?.durationSeconds === undefined ? "자료 없음" : `${Math.floor(summary.durationSeconds / 60)}분 ${summary.durationSeconds % 60}초`} · 미응답 {summary ? summary.unansweredQuestionIds.length : "자료 없음"} · 채점 제외 {summary ? summary.omittedQuestionIds.length : "자료 없음"}</p>
+        const stats = statistics.get(session.id);
+        const scoredSummary = stats?.summary;
+        return <article key={session.id} className="qbank-history-record"><div className="flex flex-wrap items-baseline justify-between gap-2"><p className="text-sm font-semibold">{date(session.completedAt)} · {title(session)}</p><p className="text-sm font-semibold tabular-nums">{scoreLabel(stats?.score)}</p></div>
+          <SubjectScores summary={scoredSummary} />
+          <p className="mb-2 text-xs text-slate-500">소요시간 {summary?.durationSeconds === undefined ? "자료 없음" : `${Math.floor(summary.durationSeconds / 60)}분 ${summary.durationSeconds % 60}초`} · 미응답 {scoredSummary?.unansweredQuestionIds.length ?? "자료 없음"} · 채점 제외 {scoredSummary?.omittedQuestionIds.length ?? "자료 없음"}</p>
           <div className="qbank-history-actions"><button type="button" onClick={() => setDetail({ session, wrongOnly: false })}>결과 보기</button><button type="button" disabled={!summary?.wrongQuestionIds.length} onClick={() => setDetail({ session, wrongOnly: true })}>오답 보기</button><button type="button" disabled={!summary?.wrongQuestionIds.length} onClick={() => summary && onStart({ ids: summary.wrongQuestionIds, title: `${title(session)} 오답 다시 풀기`, kind: "snapshot" })}>오답 다시 풀기{summary ? ` ${summary.wrongQuestionIds.length}` : ""}</button></div>
         </article>;
       })}</div>

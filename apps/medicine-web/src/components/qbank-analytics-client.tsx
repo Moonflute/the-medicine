@@ -11,7 +11,7 @@ import { QbankAccuracyRadar, QbankPracticeAccuracyRadar } from "@/components/qba
 import { QbankMockHistory } from "@/components/qbank-mock-history";
 import { loadQbankProgressViewResetAt, loadQbankState, QBANK_CHANGE_EVENT, resetQbankProgressView, type QbankState } from "@/lib/qbank-store";
 import { loadPracticeIndex } from "@/lib/practice-bank";
-import { isListedQuestion, listedPracticeIds, practiceQuestionExamLabel, practiceTopicLabel, PRACTICE_DEPARTMENTS } from "@/lib/practice-selection";
+import { countsTowardPracticeStats, isListedQuestion, listedPracticeIds, practiceQuestionExamLabel, practiceTopicLabel, PRACTICE_DEPARTMENTS } from "@/lib/practice-selection";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import type { QbankQuestionIndex } from "@/lib/types";
 
@@ -135,7 +135,7 @@ function QbankAnalytics({ initialBank }: { initialBank: StatsBank }) {
           const subgroup = q.bookDepartment === "내과" && specialtyNumber >= 1 && specialtyNumber <= 10 ? practiceTopicLabel(q) : undefined;
           const departmentOrder = Math.max(0, PRACTICE_DEPARTMENTS.indexOf(q.bookDepartment as typeof PRACTICE_DEPARTMENTS[number])) * 0.01 + (q.bookDepartment === "내과" ? 0 : 10.5);
           const exam = practiceQuestionExamLabel(q);
-          return { id: q.id, sourceIds: q.sourceIds, revisionIds: q.revisionIds, bank: "practice", department: q.bookDepartment, order: subgroup ? specialtyNumber : departmentOrder, topic: practiceTopicLabel(q), subgroup, label: `${exam} · ${q.bookDepartment} · ${q.id.split("-").at(-1)?.replace(/^0+/, "") || "0"}번`, exam };
+          return { id: q.id, sourceIds: q.sourceIds, revisionIds: q.revisionIds, bank: "practice", department: q.bookDepartment, order: subgroup ? specialtyNumber : departmentOrder, topic: practiceTopicLabel(q), subgroup, label: `${exam} · ${q.bookDepartment} · ${q.id.split("-").at(-1)?.replace(/^0+/, "") || "0"}번`, exam, excludedFromPracticeStats: !countsTowardPracticeStats(q) };
         }));
         setPrivateMessage(result.questions.length ? "" : result.message);
       } catch { if (active && generation === current) setPrivateMessage("실전문제 통계를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요."); }
@@ -149,9 +149,10 @@ function QbankAnalytics({ initialBank }: { initialBank: StatsBank }) {
   }, []);
   const catalog = useMemo(() => [...publicQuestions, ...practice], [publicQuestions, practice]);
   const practiceIds = useMemo(() => listedPracticeIds(practice), [practice]);
+  const excludedPracticeIds = useMemo(() => listedPracticeIds(practice.filter(question => question.excludedFromPracticeStats)), [practice]);
   const departments = useMemo(() => {
     const ranks = new Map<string, number>();
-    for (const q of catalog) if (bank === "all" || q.bank === bank) ranks.set(q.department, Math.min(ranks.get(q.department) ?? 999, q.order ?? 999));
+    for (const q of catalog) if (!q.excludedFromPracticeStats && (bank === "all" || q.bank === bank)) ranks.set(q.department, Math.min(ranks.get(q.department) ?? 999, q.order ?? 999));
     return [...ranks.keys()].sort((a, b) => ranks.get(a)! - ranks.get(b)! || a.localeCompare(b, "ko"));
   }, [catalog, bank]);
   const stats = useMemo(() => state ? buildQbankAnalytics(catalog, state, bank, department, progressResetAt) : null, [catalog, state, bank, department, progressResetAt]);
@@ -170,6 +171,7 @@ function QbankAnalytics({ initialBank }: { initialBank: StatsBank }) {
     <section className="surface min-w-0 p-4 sm:p-5"><div className="grid grid-cols-4 gap-1 rounded-lg bg-slate-100 p-1" aria-label="통계 문제 종류">{BANKS.map(([value, label]) => <button type="button" key={value} aria-pressed={bank === value} onClick={() => { setBank(value); setDepartment("all"); }} className={`rounded-md px-2 py-2.5 text-sm font-semibold ${bank === value ? "bg-white text-teal-800 shadow-sm" : "text-slate-500 hover:text-slate-900"}`}>{label}</button>)}</div>
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3"><label className="flex items-center gap-2 text-sm text-slate-600">과목<select value={department} onChange={e => setDepartment(e.target.value)} className="max-w-52 rounded-lg border border-slate-200 bg-white px-3 py-2"><option value="all">전체 과목</option>{departments.map(d => <option key={d}>{d}</option>)}</select></label><span className="text-xs text-slate-500">누적 기록 · 반복 풀이 포함 · 전원 정답 처리 포함</span></div>
       {(bank === "all" || bank === "practice") && privateMessage && <p className="mt-3 text-xs text-slate-500" role="status">{privateMessage}</p>}
+      {hasPractice && excludedPracticeIds.size > 0 && <p className="mt-2 text-xs text-slate-500">연도별 문제2의 기타 분과는 연습용으로, 회독과 성적 통계에 포함하지 않습니다.</p>}
     </section>
     {error && <SkinStatus kind="saveError" fallback={error} detail={error} className="text-sm text-rose-700" />}
     <section className="surface min-w-0 p-4 sm:p-5"><div className="flex flex-wrap items-center gap-x-6 gap-y-3"><div><span className="text-xs text-slate-500">현재 회독</span><p className="font-semibold tabular-nums text-slate-950">{stats.progressed}/{stats.selected.length} · {percent(stats.progressed, stats.selected.length)}</p></div><div><span className="text-xs text-slate-500">누적 정답률</span><p className="font-semibold tabular-nums text-slate-950">{percent(stats.correct, stats.attempts)} <span className="text-xs font-normal text-slate-500">{stats.correct}/{stats.attempts}</span></p></div><div><span className="text-xs text-slate-500">최근 {stats.recentTotal || 30}문항</span><p className="font-semibold tabular-nums text-slate-950">{percent(stats.recentCorrect, stats.recentTotal)}</p></div><div><span className="text-xs text-slate-500">미해결 오답</span><p className="font-semibold tabular-nums text-rose-700">{stats.wrong.length}문항</p></div><button type="button" onClick={resetProgress} className="ml-auto text-xs font-medium text-slate-500 underline underline-offset-4 hover:text-teal-800">진행률 초기화</button></div>{progressResetAt && <p className="mt-3 text-xs text-slate-500">{dateLabel(progressResetAt)} 이후 풀이를 진행률에 반영 중입니다. 정답·오답·북마크와 풀이 기록은 유지됩니다.</p>}</section>
@@ -177,7 +179,7 @@ function QbankAnalytics({ initialBank }: { initialBank: StatsBank }) {
     <DepartmentPerformance title="분과별 진행 및 성적" scope={bank === "practice" ? { kind: "practice", groups: stats.practiceGroups } : { kind: "general", groups: stats.groups }} sort={sort} onSort={setSort} onStart={setSetRequest} />
     {bank === "all" && stats.practiceGroups.length > 0 && <DepartmentPerformance title="실전문제 분과별 진행 및 성적" scope={{ kind: "practice", groups: stats.practiceGroups }} description="내과만 이론 분류 순서의 하위 분과를 함께 표시합니다." sort={sort} onStart={setSetRequest} />}
     {hasPractice && stats.exams.length > 0 && <section className="surface min-w-0 p-5 sm:p-6"><h2 className="font-semibold text-slate-900">실전문제 회차별 진행</h2><div className="mt-3"><AnalyticsGroupRows groups={stats.exams} onStart={setSetRequest} /></div></section>}
-    {hasPractice && state && <QbankMockHistory sessions={state.sessions} practiceIds={practiceIds} onStart={setSetRequest} department={department} />}
+    {hasPractice && state && <QbankMockHistory sessions={state.sessions} practiceIds={practiceIds} excludedPracticeIds={excludedPracticeIds} onStart={setSetRequest} department={department} />}
     <section className="surface min-w-0 p-5 sm:p-6"><div className="flex flex-wrap items-center justify-between gap-3"><h2 className="flex items-center gap-2 font-semibold text-slate-900"><RotateCcw className="h-5 w-5 text-rose-500" />복습할 오답</h2><button type="button" disabled={!stats.wrong.length} onClick={() => retry(stats.wrong.map(q => q.id))} className="secondary-action disabled:opacity-40">오답 {stats.wrong.length}문항 풀기</button></div><div className="mt-3 divide-y divide-slate-100">{stats.wrong.slice(0, 8).map(q => <button type="button" key={q.id} onClick={() => retry([q.id])} className="flex w-full items-center gap-3 py-3 text-left hover:text-teal-700"><div className="min-w-0 flex-1"><p className="truncate text-sm font-medium" title={q.label}>{q.label}</p><p className="mt-1 text-xs text-slate-500">{q.department} · {q.mistakes}회 오답 / {q.attempts}회 풀이 · {dateLabel(q.last)}</p></div><ArrowRight className="h-4 w-4 shrink-0" /></button>)}</div>{!stats.wrong.length && <SkinStatus kind="wrongEmpty" fallback="현재 복습할 오답이 없습니다." className="py-6 text-center text-sm text-slate-500" />}</section>
   </div>;
 }

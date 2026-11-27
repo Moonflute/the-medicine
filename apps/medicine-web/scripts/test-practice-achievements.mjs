@@ -9,8 +9,10 @@ const moduleUrl = (path, imports = {}) => {
   return `data:text/javascript;base64,${Buffer.from(js).toString('base64')}`;
 };
 const selection = moduleUrl('../src/lib/practice-selection.ts');
+const { countsTowardPracticeStats } = await import(selection);
 const { practiceAchievement, completedPracticeExamKeys } = await import(moduleUrl('../src/lib/practice-achievements.ts', {
   './practice-selection': selection, './qbank-grading': moduleUrl('../src/lib/qbank-grading.ts'),
+  './practice-statistics': moduleUrl('../src/lib/practice-statistics.ts'),
 }));
 const { compareMockSubjects, MOCK_SUBJECTS, createMockExamSummary, readMockExamSummary } = await import(moduleUrl('../src/lib/mock-exam.ts', { './qbank-grading': moduleUrl('../src/lib/qbank-grading.ts') }));
 const round = (key, count, year = null) => Array.from({ length: count }, (_, i) => ({
@@ -98,6 +100,34 @@ test('original 2026 and RES 26 remain separate rounds, as do authored rounds', (
   assert.deepEqual([...completedPracticeExamKeys(all, coverageState(original))], ['2026']);
   assert.deepEqual([...completedPracticeExamKeys(all, coverageState(res26))], ['2026-2']);
   assert.deepEqual([...completedPracticeExamKeys(all, coverageState([...res26, ...mini]))], ['2026-2', 'mock-mini-1']);
+});
+
+test('supplemental rounds complete and pass on the core subjects, regardless of optional results', () => {
+  const archiveRoundKey = '2026L-7';
+  const rows = round('supplemental', 294, 2026).map((q, i) => ({
+    ...q, archiveRoundKey, bookDepartment: i < 225 ? MOCK_SUBJECTS[i % MOCK_SUBJECTS.length] : '정신건강의학과',
+  }));
+  const counted = rows.filter(countsTowardPracticeStats);
+  const optional = rows.filter(q => !countsTowardPracticeStats(q));
+  assert.equal(counted.length, 225);
+  assert.equal(optional.length, 69);
+  assert.equal(countsTowardPracticeStats({ ...optional[0], archiveRoundKey: undefined }), true);
+  const attempt = (id, mainCorrect, otherCorrect) => {
+    const results = rows.map((q, i) => ({ questionId: q.id, selected: 'A', correct: i < 225 ? i < mainCorrect : i < 225 + otherCorrect }));
+    return session(id, rows, mainCorrect + otherCorrect, { mockExam: { results } });
+  };
+  const failed = attempt('failed', 89, 69);
+  const passed = attempt('passed', 90, 0);
+  const originalJson = JSON.stringify([failed, passed]);
+  assert.equal(practiceAchievement(failed, [], rows).passed, false);
+  assert.deepEqual(practiceAchievement(passed, [failed], rows), { score: 40, passed: true, roundRecord: true, overallRecord: true });
+  assert.equal(practiceAchievement(session('only-core', counted, 90), [], rows).passed, true);
+  assert.equal(practiceAchievement(session('only-other', optional, 69), [], rows), null);
+  assert.equal(practiceAchievement({ ...passed, mockExam: undefined }, [], rows), null);
+  assert.deepEqual([...completedPracticeExamKeys(rows, coverageState(counted))], [archiveRoundKey]);
+  assert.deepEqual([...completedPracticeExamKeys(rows, coverageState([...counted.slice(1), ...optional]))], []);
+  assert.deepEqual([...completedPracticeExamKeys(rows, coverageState([], { sessions: [passed] }))], [archiveRoundKey]);
+  assert.equal(JSON.stringify([failed, passed]), originalJson);
 });
 
 test('completion combines source aliases and revisions without double counting or mutating records', () => {

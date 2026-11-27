@@ -5,7 +5,7 @@ import { useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { Check } from "lucide-react";
 import type { PracticeFilters, PracticeIndex } from "@/lib/practice-selection";
-import { matchesPractice, toggleGroup, mockExamFilters, practiceFilterRoundKey, practiceMockExamSections, PRACTICE_DEPARTMENTS, practiceTopicSections, selectedPracticeExamKey, selectedPracticeFilterRoundKeys, visiblePracticeDepartments } from "@/lib/practice-selection";
+import { countsTowardPracticeStats, matchesPractice, toggleGroup, mockExamFilters, practiceFilterRoundKey, practiceMockExamKey, practiceMockExamSections, PRACTICE_DEPARTMENTS, practiceTopicSections, selectedPracticeExamKey, selectedPracticeFilterRoundKeys, visiblePracticeDepartments } from "@/lib/practice-selection";
 
 type Dimension = "departments" | "specialties" | "roundKeys";
 const choices = [["random", "분과·조건 선택"], ["book", "회차 전체 풀기"]] as const;
@@ -27,6 +27,7 @@ export function PracticeBankPicker({ questions, filters, onChange, message, comp
   const modes = <fieldset className={chat ? "chat-qbank-modes" : "flex flex-wrap gap-4"}><legend className="mb-2 font-semibold">문제 선택 방식</legend>{choices.map(([value, label]) => <label key={value} className="flex items-center gap-2"><input type="radio" name="practice-order" checked={mode === value} onChange={() => onChange({ books: [], series: [], departments: [], specialties: [], years: [], order: value })} />{label}</label>)}</fieldset>;
   if (ordered) {
     const examSections = practiceMockExamSections(questions);
+    const optionalRoundKeys = new Set(questions.filter(question => !countsTowardPracticeStats(question)).map(practiceMockExamKey));
     const examKey = selectedPracticeExamKey(filters);
     const active = examSections.flatMap(section => section.exams).find((exam) => exam.key === examKey);
     return <div className={chat ? "chat-qbank-practice" : undefined}>
@@ -39,7 +40,7 @@ export function PracticeBankPicker({ questions, filters, onChange, message, comp
             return <label key={exam.key} className={`practice-round-choice flex min-h-9 min-w-0 cursor-pointer items-center gap-1.5 rounded-md border px-2 py-1 ${checked ? "border-teal-500 bg-teal-50 text-teal-950" : "border-slate-200 hover:border-teal-300"}`} data-checked={checked}>
               <input type="radio" name="practice-mock-exam" checked={checked} onChange={() => onChange(mockExamFilters(exam.year, exam.key))} className="h-3.5 w-3.5 shrink-0 accent-teal-600" />
               <span className="practice-round-name">{exam.label}</span>
-              {completedExamKeys.has(exam.key) ? <span className="practice-round-complete" role="img" aria-label="회차 풀이 완료" title="전체 회차를 제출했거나, 모든 문항을 한 번 이상 풀었습니다."><Check size={16} strokeWidth={2.5} aria-hidden="true" /></span> : null}
+              {completedExamKeys.has(exam.key) ? <span className="practice-round-complete" role="img" aria-label={optionalRoundKeys.has(exam.key) ? "회차 통계 대상 풀이 완료" : "회차 풀이 완료"} title={optionalRoundKeys.has(exam.key) ? "내과·외과·산부인과·소아과 문항의 회독을 완료했습니다." : "전체 회차를 제출했거나, 모든 문항을 한 번 이상 풀었습니다."}><Check size={16} strokeWidth={2.5} aria-hidden="true" /></span> : null}
               <span className="practice-round-count ml-auto text-slate-500">{exam.count.toLocaleString()}문항</span>
             </label>;
           })}</div>

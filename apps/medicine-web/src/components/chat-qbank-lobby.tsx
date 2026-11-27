@@ -36,7 +36,7 @@ function ChatQbankDialog({ dialogRef, title, children, picker = false }: DialogP
 export function ChatQbankLobby({ banks, bank, onChooseBank, conversations, syncStatus, endingSessionId, onEndSession, stats, total, quickCount, children }: {
   banks: Array<{ id: Bank; label: string; selected: number }>; bank: Bank; onChooseBank: (bank: Bank) => void;
   conversations: Conversation[]; syncStatus: ReactNode; endingSessionId: string;
-  onEndSession: (id: string) => void; stats: { attempted: number; wrong: number; bookmarks: number };
+  onEndSession: (id: string) => void; stats: { attempted: number; wrong: number; reviewWrong: number; bookmarks: number };
   total: number; quickCount: number; children: ReactNode;
 }) {
   const room = useChatRoom();
@@ -86,7 +86,7 @@ export function ChatQbankLobby({ banks, bank, onChooseBank, conversations, syncS
       </button>
       <Link href={`/review/qbank/session?mode=wrong&count=${quickCount}`} className="chat-qbank-contact">
         <span className="chat-qbank-utility-avatar" aria-hidden="true"><RotateCcw size={23} /></span>
-        <span className="chat-qbank-contact-copy"><strong>오답 노트</strong><span>틀린 문제 다시 살펴보기</span></span><span className="chat-qbank-unread">{stats.wrong.toLocaleString()}</span>
+        <span className="chat-qbank-contact-copy"><strong>오답 노트</strong><span>틀린 문제 다시 살펴보기</span></span><span className="chat-qbank-unread">{stats.reviewWrong.toLocaleString()}</span>
       </Link>
       <Link href={`/review/qbank/session?mode=bookmarks&count=${quickCount}`} className="chat-qbank-contact">
         <span className="chat-qbank-utility-avatar" aria-hidden="true"><Bookmark size={22} /></span>

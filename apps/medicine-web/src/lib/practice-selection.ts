@@ -84,8 +84,13 @@ function additionalPracticeRound(question: PracticeIndex): string | undefined {
 }
 
 function isOtherAdditionalPracticeDepartment(question: PracticeIndex): boolean {
-  return Boolean(additionalPracticeRound(question)
-    && !PRACTICE_DEPARTMENTS.some(department => department === question.bookDepartment));
+  return Boolean(additionalPracticeRound(question) && !countsTowardPracticeStats(question));
+}
+
+/** Non-core subjects in supplemental archives remain available for practice only. */
+export function countsTowardPracticeStats(question: { archiveRoundKey?: string; bookDepartment?: string }): boolean {
+  return !question.archiveRoundKey || !additionalArchiveKey.test(question.archiveRoundKey)
+    || PRACTICE_DEPARTMENTS.some(department => department === question.bookDepartment);
 }
 
 export function visiblePracticeDepartments(questions: PracticeIndex[]): readonly string[] {

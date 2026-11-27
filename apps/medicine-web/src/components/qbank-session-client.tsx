@@ -34,7 +34,8 @@ import { reflowOcrText } from "@/lib/ocr-paragraphs";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { loadPracticeIndex, loadPracticeQuestions } from "@/lib/practice-bank";
 import { QUESTION_BOOKMARKS_HREF } from "@/lib/qbank-bookmarks";
-import { matchesPractice, hasPracticeSelection, comparePracticeOrder, isPracticeRevisionId, practiceDeliveryIds, practiceFiltersFromParams, practiceMockExamKey, practiceMockExams, practiceMockExamTitle, practiceSourceQuestionId, practiceVersionIds, selectedPracticeExamKey, type PracticeFilters } from "@/lib/practice-selection";
+import { matchesPractice, hasPracticeSelection, comparePracticeOrder, countsTowardPracticeStats, isPracticeRevisionId, practiceDeliveryIds, practiceFiltersFromParams, practiceMockExamKey, practiceMockExams, practiceMockExamTitle, practiceSourceQuestionId, practiceVersionIds, selectedPracticeExamKey, type PracticeFilters } from "@/lib/practice-selection";
+import { gradeTotals } from "@/lib/practice-statistics";
 import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
 import type { RealtimeChannel } from "@supabase/supabase-js";
 import { ArrowLeft, Bookmark, BookmarkCheck, CheckCircle2, Copy, Info, XCircle } from "lucide-react";
@@ -63,7 +64,7 @@ import { QbankSkippedNavigation, QbankSkipPassActions } from "@/components/qbank
 import { QbankQuestionNumbers } from "@/components/qbank-question-numbers";
 import { QbankTextSizeButton } from "@/components/qbank-text-size-button";
 
-type SessionQuestion = QbankQuestion & { practiceIds?: string[]; practiceExamKey?: string; practiceExamTotal?: number };
+type SessionQuestion = QbankQuestion & { practiceIds?: string[]; practiceExamKey?: string; practiceExamScoredTotal?: number };
 type SessionAnswer = QbankSessionAnswer;
 
 function isSessionQuestionTracked(question: SessionQuestion | undefined, ids: string[]): boolean {
@@ -233,12 +234,12 @@ async function loadQuestions(specialties: QbankSpecialtySummary[], mode: string,
       return targetType === "disease" ? q.relatedDiseaseSlugs.some((slug) => (scope.length ? scope : [targetSlug]).includes(slug)) : q.relatedCcSlugs.includes(targetSlug);
     });
     const metadata = new Map(selection.map(question => [question.id, question]));
-    const roundCounts = new Map(practiceMockExams(privateIndex).map(exam => [exam.key, exam.count]));
+    const roundCounts = new Map(practiceMockExams(privateIndex.filter(countsTowardPracticeStats)).map(exam => [exam.key, exam.count]));
     privateQuestions = (await loadPracticeQuestions(practiceDeliveryIds(selection, savedIds))).map(question => {
       const source = metadata.get(practiceSourceQuestionId(question.id));
       const practiceIds = source ? [...new Set([...practiceVersionIds(source), ...(source.sourceIds ?? []), question.id])] : undefined;
       const practiceExamKey = source ? practiceMockExamKey(source) : undefined;
-      return { ...question, bookDepartment: source?.bookDepartment ?? question.bookDepartment, practiceIds, practiceExamKey, practiceExamTotal: practiceExamKey ? roundCounts.get(practiceExamKey) : undefined };
+      return { ...question, bookDepartment: source?.bookDepartment ?? question.bookDepartment, practiceIds, practiceExamKey, practiceExamScoredTotal: practiceExamKey ? roundCounts.get(practiceExamKey) : undefined };
     });
   }
   const slugs = [...new Set(candidates.map((item) => item.specialtySlug))];
@@ -586,18 +587,7 @@ export function QbankSessionClient({ specialties, bookmarkId }: { specialties: Q
   const questionIds = useMemo(() => questions.map(question => question.id), [questions]);
   const currentTheoryTargetHref = current ? theoryTargetHref(current) : null;
   const answersById = useMemo(() => new Map(answers.map((answer) => [answer.questionId, answer])), [answers]);
-  const correctCount = useMemo(() => answers.filter((item) => item.correct).length, [answers]);
-  const specialtyResults = useMemo(() => {
-    const summary = new Map<string, { correct: number; total: number }>();
-    for (const item of answers) {
-      if (item.correct === null) continue;
-      const result = summary.get(item.specialty) ?? { correct: 0, total: 0 };
-      result.total += 1;
-      result.correct += item.correct ? 1 : 0;
-      summary.set(item.specialty, result);
-    }
-    return [...summary.entries()].sort(([left], [right]) => compareMockSubjects(left, right));
-  }, [answers]);
+  const excludedPracticeIds = useMemo(() => new Set(questions.filter(question => question.questionBank === "practice" && !countsTowardPracticeStats(question)).map(question => question.id)), [questions]);
 
   const showQuestion = useCallback((index: number) => {
     const question = questions[index];
@@ -645,11 +635,14 @@ export function QbankSessionClient({ specialties, bookmarkId }: { specialties: Q
     try {
       const roundKey = questions[0]?.practiceExamKey;
       const submittedById = new Map(answers.map(answer => [answer.questionId, answer]));
-      const completeRound = roundKey && answers.length === questions.length
-        && questions[0]?.practiceExamTotal === questions.length
-        && questions.every(question => question.questionBank === "practice" && question.practiceExamKey === roundKey && submittedById.has(question.id));
+      const counted = questions.filter(question => !excludedPracticeIds.has(question.id));
+      const completeRound = roundKey && counted.length > 0 && questions[0]?.practiceExamScoredTotal === counted.length
+        && questions.every(question => question.questionBank === "practice" && question.practiceExamKey === roundKey)
+        && counted.every(question => submittedById.has(question.id));
       const results = completeRound ? questions.map(question => {
-        const answer = submittedById.get(question.id)!;
+        // Optional questions left blank in an immediate-feedback session must
+        // remain ungraded, even though the scored round is complete.
+        const answer = submittedById.get(question.id) ?? { questionId: question.id, correct: null, specialty: practiceQuestionLabel(question) };
         return { ...answer, correctAnswer: question.answer, correctAnswers: correctAnswers(question) };
       }) : undefined;
       const durationMs = elapsedAt(elapsedClock, Date.now());
@@ -674,7 +667,7 @@ export function QbankSessionClient({ specialties, bookmarkId }: { specialties: Q
     try { clearLocalActiveQbankSession(sessionIdRef.current ?? undefined); } catch { /* Result is already saved. */ }
     setFinishConfirm(false);
     setCompletion(timeUp ? "time-up" : "done");
-  }, [answers, completed, deadlineAt, elapsedClock, questions, sessionStartedAt]);
+  }, [answers, completed, deadlineAt, elapsedClock, excludedPracticeIds, questions, sessionStartedAt]);
 
   useEffect(() => {
     if (!completed || !syncUserId || !sessionIdRef.current) return;
@@ -908,16 +901,28 @@ export function QbankSessionClient({ specialties, bookmarkId }: { specialties: Q
   if (mockExam) return <MockExamPanel questions={questions} exam={mockExam} sessionId={optionSessionId} currentIndex={currentIndex} roundClock={roundClock} elapsedClock={elapsedClock} isRunning={isRoundClockRunning} onChange={setMockExam} onMove={setCurrentIndex} skips={skips} onSkipsChange={setSkips} />;
 
   if (completed) {
-    const gradedCount = answers.filter((item) => item.correct !== null).length;
-    const rate = gradedCount ? Math.round((correctCount / gradedCount) * 100) : 0;
+    const scoredAnswers = answers.filter(answer => !excludedPracticeIds.has(answer.questionId));
+    const { correct: correctCount, total: gradedCount } = gradeTotals(scoredAnswers);
+    const summary = new Map<string, { correct: number; total: number }>();
+    for (const item of scoredAnswers) {
+      if (item.correct === null) continue;
+      const result = summary.get(item.specialty) ?? { correct: 0, total: 0 };
+      result.total++;
+      if (item.correct) result.correct++;
+      summary.set(item.specialty, result);
+    }
+    const specialtyResults = [...summary.entries()].sort(([left], [right]) => compareMockSubjects(left, right));
+    const pending = excludedPracticeIds.size ? remainingQuestions(questionIds.filter(id => !excludedPracticeIds.has(id)), scoredAnswers, drafts, current?.id, selected) : remaining;
+    const rate = gradedCount ? `${Math.round((correctCount / gradedCount) * 100)}%` : "—";
     return (
       <div className="space-y-5">
         <PracticeResultAchievement sessionId={`session-${optionSessionId}`} fresh />
         <SkinPanel className="surface p-7 text-center" title="풀이 결과" ordinal={1}>
           <div className="eyebrow">{completion === "time-up" ? "제한시간 종료" : "Session complete"}</div>
-          <h1 className="mt-3 text-3xl font-semibold">{correctCount} / {gradedCount}</h1>
+          <h1 className="mt-3 text-3xl font-semibold">{excludedPracticeIds.size === questions.length ? "통계 대상 없음" : `${correctCount} / ${gradedCount}`}</h1>
           {specialtyResults.length > 0 ? <div className="mx-auto mt-5 max-w-md rounded-lg border border-slate-200 bg-white p-3 text-left text-sm">{specialtyResults.map(([specialty, result]) => <div key={specialty} className="flex justify-between gap-4 py-1"><span>{specialty}</span><span>{result.correct}/{result.total}</span></div>)}</div> : null}
-          <p className="mt-2 text-slate-600">정답률 {rate}% · 채점 제외 {answers.length - gradedCount}문항{remaining.remaining.length > 0 ? ` · 미응답 ${remaining.unanswered}문항 · 선택 후 미제출 ${remaining.unsubmitted}문항` : ""}</p>
+          <p className="mt-2 text-slate-600">정답률 {rate} · 채점 제외 {scoredAnswers.length - gradedCount}문항{pending.remaining.length > 0 ? ` · 미응답 ${pending.unanswered}문항 · 선택 후 미제출 ${pending.unsubmitted}문항` : ""}</p>
+          {excludedPracticeIds.size > 0 && <p className="mt-2 text-sm text-slate-500">기타 분과 {excludedPracticeIds.size}문항은 연습용이며 성적 통계에서 제외됩니다.</p>}
         </SkinPanel>
         <div className="flex flex-wrap justify-center gap-3">
           <Link href="/review/qbank/stats" className="secondary-action">학습 통계</Link>

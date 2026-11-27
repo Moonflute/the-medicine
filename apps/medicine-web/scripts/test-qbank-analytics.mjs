@@ -4,7 +4,9 @@ import fs from 'node:fs';
 import ts from 'typescript';
 const compile = name => ts.transpileModule(fs.readFileSync(new URL(`../src/lib/${name}.ts`, import.meta.url), 'utf8'), {compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
 const url = code => `data:text/javascript;base64,${Buffer.from(code).toString('base64')}`;
-const { buildQbankAnalytics, readRetryIds, sortAnalyticsGroups } = await import(url(compile('qbank-analytics').replace('"./qbank-progress"', JSON.stringify(url(compile('qbank-progress'))))));
+const { buildQbankAnalytics, readRetryIds, sortAnalyticsGroups } = await import(url(compile('qbank-analytics')
+  .replace('"./qbank-progress"', JSON.stringify(url(compile('qbank-progress'))))
+  .replace('"./practice-statistics"', JSON.stringify(url(compile('practice-statistics'))))));
 const { practiceQuestionExamLabel } = await import(url(compile('practice-selection')));
 const { isUnresolvedQbankWrong } = await import(url(compile('qbank-wrong').replace('"./practice-selection"', JSON.stringify(url(compile('practice-selection'))))));
 
@@ -27,6 +29,30 @@ test('separates unresolved, recovered and repeated errors; ignores inaccessible 
   assert.equal(s.attempts, 6); assert.equal(s.correct, 2); assert.equal(s.attempted, 3);
   assert.equal(s.recovered, 1); assert.deepEqual(s.wrong.map(q => q.id), ['a', 'c']);
   assert.deepEqual(s.repeated.map(q => q.id), ['a']);
+});
+
+test('optional practice excludes both counts and outcomes, while recalculating mixed supplemental snapshots', () => {
+  const base = { bank: 'practice', exam: '추가 회차', department: '내과', label: '내과', topic: '신장' };
+  const included = { ...base, id: 'core' };
+  const optional = { ...base, id: 'optional', sourceIds: ['old-optional'], department: '안과', excludedFromPracticeStats: true };
+  const snapshot = { id: 'set', startedAt: '2026-11-27T09:00:00Z', completedAt: '2026-11-27T10:00:00Z', correct: 1, total: 2, questionIds: ['core', 'old-optional'],
+    mockExam: { results: [{ questionId: 'core', correct: false }, { questionId: 'old-optional', correct: true }] } };
+  const data = { ...state, progress: {
+    core: { attempts: 1, correctAttempts: 0, lastCorrect: false, lastAttemptedAt: snapshot.completedAt },
+    'old-optional': { attempts: 99, correctAttempts: 99, lastCorrect: true, lastAttemptedAt: snapshot.completedAt },
+  }, wrongIds: ['core', 'optional'], sessions: [snapshot, { ...snapshot, id: 'unverifiable', mockExam: undefined }] };
+  const stats = buildQbankAnalytics([included, optional], data, 'practice');
+  assert.deepEqual(stats.selected.map(q => q.id), ['core']);
+  assert.equal(stats.progressed, 1);
+  assert.equal(stats.exams[0].total, 1);
+  assert.equal(stats.attempts, 1);
+  assert.equal(stats.correct, 0);
+  assert.equal(stats.recentTotal, 1);
+  assert.deepEqual(stats.wrong.map(q => q.id), ['core']);
+  assert.deepEqual(stats.sessions.map(({ id, correct, total }) => [id, correct, total]), [['set', 0, 1]]);
+  assert.equal(snapshot.correct, 1);
+  assert.equal(snapshot.total, 2);
+  assert.equal(snapshot.mockExam.results.length, 2);
 });
 test('filters bank and source department; excludes unattempted from accuracy', () => {
   const s = buildQbankAnalytics(catalog, state, 'practice', '외과');

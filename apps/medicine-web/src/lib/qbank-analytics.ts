@@ -1,7 +1,8 @@
 import type { QbankState } from "./qbank-store";
 import { progressedInRound } from "./qbank-progress";
+import { practiceStatisticsScore } from "./practice-statistics";
 
-export type AnalyticsQuestion = { id: string; bank: string; department: string; topic: string; label: string; exam?: string; order?: number; subgroup?: string; revisionIds?: string[]; sourceIds?: string[] };
+export type AnalyticsQuestion = { id: string; bank: string; department: string; topic: string; label: string; exam?: string; order?: number; subgroup?: string; revisionIds?: string[]; sourceIds?: string[]; excludedFromPracticeStats?: boolean };
 export type AnalyticsGroup = { key: string; total: number; attempted: number; progressed: number; attempts: number; correct: number; wrong: number; retryIds: string[]; unattemptedIds: string[]; order: number; latestCorrect: number; mastered: number };
 export type PracticeDepartmentGroup = AnalyticsGroup & { children: AnalyticsGroup[] };
 export type AnalyticsSort = "default" | "accuracy" | "wrong" | "unattempted" | "progress";
@@ -13,7 +14,8 @@ export function sortAnalyticsGroups<T extends AnalyticsGroup>(groups: T[], sort:
 }
 export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: QbankState, bank = "all", department = "all", progressResetAt: string | null = null) {
   const catalog = [...new Map(questions.map(q => [q.id, q])).values()];
-  const selected = catalog.filter(q => (bank === "all" || q.bank === bank) && (department === "all" || q.department === department));
+  const excludedIds = new Set(catalog.filter(q => q.excludedFromPracticeStats).flatMap(q => [q.id, ...(q.revisionIds ?? []), ...(q.sourceIds ?? [])]));
+  const selected = catalog.filter(q => !q.excludedFromPracticeStats && (bank === "all" || q.bank === bank) && (department === "all" || q.department === department));
   const ids = new Set(selected.flatMap(q => [q.id, ...(q.revisionIds ?? []), ...(q.sourceIds ?? [])]));
   const groups = new Map<string, AnalyticsGroup>();
   const topics = new Map<string, AnalyticsGroup>();
@@ -74,8 +76,13 @@ export function buildQbankAnalytics(questions: AnalyticsQuestion[], state: Qbank
   }
   wrong.sort((a, b) => b.mistakes - a.mistakes || a.last.localeCompare(b.last) || a.id.localeCompare(b.id));
   const weak = [...topics.values()].filter(g => g.wrong > 0).sort((a, b) => Number(b.attempted >= 5) - Number(a.attempted >= 5) || b.wrong - a.wrong || a.correct / a.attempts - b.correct / b.attempts);
-  // Mixed sessions cannot be apportioned without per-answer historical events.
-  const sessions = state.sessions.filter(s => s.total > 0 && s.questionIds.length > 0 && s.questionIds.every(id => ids.has(id))).sort((a, b) => b.completedAt.localeCompare(a.completedAt)).slice(0, 10);
+  // Keep the existing scope check. Optional practice items do not disqualify
+  // a session if its submitted snapshot can be scored without those items.
+  const sessions = state.sessions.flatMap(session => {
+    if (!session.questionIds.some(id => ids.has(id)) || session.questionIds.some(id => !ids.has(id) && !excludedIds.has(id))) return [];
+    const score = practiceStatisticsScore(session, excludedIds);
+    return score && score.total > 0 ? [{ ...session, correct: score.correct, total: score.total }] : [];
+  }).sort((a, b) => b.completedAt.localeCompare(a.completedAt)).slice(0, 10);
   const recent = sessions.slice(0, 5), previous = sessions.slice(5, 10);
   const rate = (items: typeof sessions) => items.length ? Math.round(100 * items.reduce((sum, s) => sum + s.correct, 0) / items.reduce((sum, s) => sum + s.total, 0)) : null;
   const currentRate = rate(recent), previousRate = rate(previous);

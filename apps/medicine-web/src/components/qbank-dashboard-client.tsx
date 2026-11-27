@@ -12,7 +12,7 @@ import { isAuthSessionMissingError } from "@supabase/supabase-js";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, Bookmark, CircleAlert, RotateCcw } from "lucide-react";
 import { PracticeBankPicker } from "@/components/practice-bank-picker";
-import { EMPTY_PRACTICE_FILTERS, isListedQuestion, listedPracticeIds, matchesPractice, practiceSourceQuestionId, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, visiblePracticeFilters, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
+import { EMPTY_PRACTICE_FILTERS, countsTowardPracticeStats, isListedQuestion, listedPracticeIds, matchesPractice, practiceSourceQuestionId, practiceTopicKey, practiceTopicLabel, stringArray, toggleGroup, visiblePracticeFilters, type PracticeFilters, type PracticeIndex } from "@/lib/practice-selection";
 import { loadPracticeIndex } from "@/lib/practice-bank";
 import { completedPracticeExamKeys } from "@/lib/practice-achievements";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
@@ -169,7 +169,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const [resetAt, setResetAt] = useState<string | null>(null);
   const [showUnattemptedDialog, setShowUnattemptedDialog] = useState(false);
   const [unattemptedCount, setUnattemptedCount] = useState("10");
-  const [stats, setStats] = useState({ attempted: 0, wrong: 0, bookmarks: 0 });
+  const [stats, setStats] = useState({ attempted: 0, wrong: 0, reviewWrong: 0, bookmarks: 0 });
   const [completedExamKeys, setCompletedExamKeys] = useState<ReadonlySet<string>>(() => new Set());
   const [completionOwner, setCompletionOwner] = useState<string | null>();
   const [activeSessions, setActiveSessions] = useState<QbankActiveSession[]>([]);
@@ -181,6 +181,8 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   const questionsById = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions]);
   const practiceById = useMemo(() => new Map(practice.map((question) => [question.id, question])), [practice]);
   const practiceIds = useMemo(() => listedPracticeIds(practice), [practice]);
+  const optionalPractice = useMemo(() => practice.filter(question => !countsTowardPracticeStats(question)), [practice]);
+  const optionalPracticeIds = useMemo(() => listedPracticeIds(optionalPractice), [optionalPractice]);
   const visibleSessions = activeSessions.filter(session => session.questionIds.every(id => isListedQuestion(id, practiceIds)));
   const practiceTopicLabels = useMemo(() => new Map<string, string>(practice.flatMap((question) => [
     [practiceTopicKey(question), practiceTopicLabel(question)] as [string, string],
@@ -192,8 +194,9 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       const state = loadQbankState();
       setProgressState(state);
       setResetAt(loadQbankProgressViewResetAt());
-      const distinctQuestions = (ids: string[]) => new Set(ids.filter(id => isListedQuestion(id, practiceIds)).map(practiceSourceQuestionId)).size;
-      setStats({ attempted: distinctQuestions(Object.keys(state.progress)), wrong: distinctQuestions(state.wrongIds), bookmarks: distinctQuestions(state.bookmarkIds) });
+      const distinctQuestions = (ids: string[], onlyCounted = false) => new Set(ids.filter(id => isListedQuestion(id, practiceIds)
+        && (!onlyCounted || !optionalPracticeIds.has(id))).map(practiceSourceQuestionId)).size;
+      setStats({ attempted: distinctQuestions(Object.keys(state.progress), true), wrong: distinctQuestions(state.wrongIds, true), reviewWrong: distinctQuestions(state.wrongIds), bookmarks: distinctQuestions(state.bookmarkIds) });
       const owner = window.localStorage.getItem(OWNER_KEY);
       setCompletedExamKeys(owner && owner !== completionOwner ? new Set() : completedPracticeExamKeys(practice, state));
     };
@@ -204,7 +207,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       window.removeEventListener(QBANK_CHANGE_EVENT, refresh);
       window.removeEventListener("storage", refresh);
     };
-  }, [practice, practiceIds, completionOwner]);
+  }, [practice, practiceIds, optionalPracticeIds, completionOwner]);
 
   useEffect(() => {
     let active = true;
@@ -366,7 +369,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
   }, [loadedDraft, draftKey, tab, selectedTheory, selectedClinical, practiceDraft, count, progressFilter]);
   const availablePractice = useMemo(() => practice.filter((q) => !relatedTarget || (relatedTarget.type === "disease" ? q.relatedDiseaseSlugs.some((slug) => (relatedTarget.scopeSlugs ?? [relatedTarget.slug]).includes(slug)) : q.relatedCcSlugs.includes(relatedTarget.slug))), [practice, relatedTarget]);
   const matchesProgress = useMemo(() => createQbankProgressMatcher(progressState, progressFilter, resetAt), [progressState, progressFilter, resetAt]);
-  const totalQuestions = questions.length + practice.length;
+  const totalQuestions = questions.length + practice.length - optionalPractice.length;
   const practiceCount = availablePractice.filter((q) => matchesPractice(q, practiceFilters)).length;
   const selectedTheoryCount = availableQuestions.filter((q) => q.questionBank === "theory" && selectedTheory.includes(theorySelectionKey(q))).length;
   const selectedClinicalCount = availableQuestions.filter((q) => q.questionBank === "clinical" && selectedClinical.includes(q.specialtySlug)).length;
@@ -512,7 +515,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
 
     {!relatedTarget ? <SkinPanel className="grid gap-2 sm:grid-cols-3" title="빠른 실행" ordinal={5}>
       <button type="button" onClick={() => setShowUnattemptedDialog(true)} className="list-tile flex items-center gap-2.5 px-3.5 py-3 text-left"><RotateCcw className="h-4 w-4 shrink-0 text-teal-700" /><h3 className="font-semibold">미풀이 문제</h3></button>
-      <Link href={`/review/qbank/session?mode=wrong&count=${quickCount}`} className="list-tile flex items-center gap-2.5 px-3.5 py-3"><CircleAlert className="h-4 w-4 shrink-0 text-rose-700" /><h3 className="font-semibold">오답 다시 풀기</h3><span className="ml-auto text-xs tabular-nums text-slate-500">{stats.wrong}개</span></Link>
+      <Link href={`/review/qbank/session?mode=wrong&count=${quickCount}`} className="list-tile flex items-center gap-2.5 px-3.5 py-3"><CircleAlert className="h-4 w-4 shrink-0 text-rose-700" /><h3 className="font-semibold">오답 다시 풀기</h3><span className="ml-auto text-xs tabular-nums text-slate-500">{stats.reviewWrong}개</span></Link>
       <Link href={`/review/qbank/session?mode=bookmarks&count=${quickCount}`} className="list-tile flex items-center gap-2.5 px-3.5 py-3"><Bookmark className="h-4 w-4 shrink-0 text-amber-700" /><h3 className="font-semibold">북마크</h3><span className="ml-auto text-xs tabular-nums text-slate-500">{stats.bookmarks}개</span></Link>
     </SkinPanel> : null}
 

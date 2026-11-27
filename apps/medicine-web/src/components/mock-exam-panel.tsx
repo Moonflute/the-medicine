@@ -19,6 +19,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Check, ChevronLeft, ChevronRight, Flag, Info } from "lucide-react";
 import { PrivateQuestionImage } from "@/components/private-question-image";
 import { compareMockSubjects, createMockExamSummary, gradeMockExam, mockQuestionSubject, type MockExamState } from "@/lib/mock-exam";
+import { countsTowardPracticeStats } from "@/lib/practice-selection";
+import { gradeTotals } from "@/lib/practice-statistics";
 import { PracticeResultAchievement } from "@/components/practice-result-achievement";
 import { elapsedAt, type QbankElapsedClock } from "@/lib/qbank-elapsed-time";
 import { isRoundTimeUp, type QbankRunningRoundClock } from "@/lib/qbank-round-timer";
@@ -62,8 +64,15 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundC
   const timeUp = Boolean(exam.finishedAt && isRoundTimeUp(deadlineAt, Date.parse(exam.finishedAt)));
   const clock = !roundClock || countdown ? <QbankSessionClock roundClock={roundClock} elapsedClock={elapsedClock} startedAt={exam.startedAt} finishedAt={exam.finishedAt} isRunning={isRunning} onExpire={finish} /> : null;
   const subjects = [...new Set(questions.map(mockQuestionSubject))].sort(compareMockSubjects);
-  const correct = exam.results?.filter(r => r.correct === true).length ?? 0;
-  const graded = exam.results?.filter(r => r.correct !== null).length ?? 0;
+  const scoredQuestions = finished ? questions.filter(countsTowardPracticeStats) : [];
+  const scoredIds = new Set(scoredQuestions.map(question => question.id));
+  const scoredResults = exam.results?.filter(row => scoredIds.has(row.questionId)) ?? [];
+  const { correct, total: graded } = gradeTotals(scoredResults);
+  const statsExcluded = questions.length - scoredQuestions.length;
+  const statsUnanswered = scoredQuestions.filter(question => !exam.drafts[question.id]).length;
+  const scoreSubjects = [...new Set(scoredQuestions.map(mockQuestionSubject))].sort(compareMockSubjects).map(subject => ({
+    subject, ...gradeTotals(scoredResults.filter(result => result.specialty === subject)),
+  }));
   const questionIds = questions.map(question => question.id);
   const previousIndex = qbankPassIndex(questionIds, currentIndex, finished ? { ...skips, reviewing: false } : skips, -1);
   const nextIndex = qbankPassIndex(questionIds, currentIndex, finished ? { ...skips, reviewing: false } : skips);
@@ -172,7 +181,15 @@ export function MockExamPanel({ questions, exam, sessionId, currentIndex, roundC
     {error && (!chatLayout || !confirm) && <p role="alert" className="text-sm text-rose-700">{error}</p>}
     {finished && <PracticeResultAchievement key={sessionId} sessionId={`mock-${sessionId}`} fresh={freshResultSession === sessionId} />}
     {!chatLayout && confirm && !finished && <section role="region" aria-label="제출 확인" className="rounded-xl border border-amber-300 bg-amber-50 p-5"><h2 className="font-semibold">답안을 제출하고 채점할까요?</h2><p className="mt-2 text-sm">미응답 {questions.length - answered}문항 · 보류 {marked}문항 · 건너뜀 {skips.ids.length}문항입니다. 전원 정답 문항을 제외한 채점 가능한 미응답은 오답으로 처리되며 제출 후 답을 바꿀 수 없습니다.</p><div className="mt-4 flex flex-wrap gap-2"><button type="button" className="primary-action" onClick={finish}>제출하고 채점</button><button type="button" className="secondary-action" onClick={() => setConfirm(false)}>계속 풀기</button></div></section>}
-    {finished && (chatLayout ? <ChatMockExamResult subject={currentSubject} correct={correct} graded={graded} unanswered={questions.length - answered} omitted={questions.length - graded} scores={subjects.map(subject => { const rs = exam.results?.filter(r => r.specialty === subject && r.correct !== null) ?? []; return { subject, correct: rs.filter(r => r.correct).length, total: rs.length }; })} review={review} onToggleReview={() => setReview(!review)}><SessionRetryActions ids={sessionWrongIds(exam.results ?? [])} /></ChatMockExamResult> : <SkinPanel className="surface p-6" title="채점 결과" ordinal={2}><p className="text-sm text-slate-500">모의고사 결과</p><p className="mt-2 text-3xl font-bold">{correct} / {graded} <span className="text-lg font-medium text-teal-700">{graded ? Math.round(correct / graded * 100) : 0}%</span></p><p className="mt-2 text-xs text-slate-500">미응답 {questions.length - answered}문항 · 채점 제외 {questions.length - graded}문항</p><div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4">{subjects.map(subject => { const rs = exam.results?.filter(r => r.specialty === subject && r.correct !== null) ?? []; return <div key={subject} className="rounded-lg bg-slate-50 p-3 text-sm"><span className="block text-slate-500">{subject}</span><span className="font-semibold">{rs.filter(r => r.correct).length}/{rs.length}</span></div>; })}</div><button type="button" className="secondary-action mt-4" onClick={() => setReview(!review)}>{review ? "해설 접기" : "문제·해설 확인"}</button><div className="mt-3"><SessionRetryActions ids={sessionWrongIds(exam.results ?? [])} /></div></SkinPanel>)}
+    {finished && (chatLayout ? <ChatMockExamResult subject={currentSubject} correct={correct} graded={graded} unanswered={statsUnanswered} omitted={scoredQuestions.length - graded} scores={scoreSubjects} review={review} onToggleReview={() => setReview(!review)}><SessionRetryActions ids={sessionWrongIds(exam.results ?? [])} /></ChatMockExamResult> : <SkinPanel className="surface p-6" title="채점 결과" ordinal={2}>
+      <p className="text-sm text-slate-500">모의고사 결과</p>
+      <p className="mt-2 text-3xl font-bold">{correct} / {graded} <span className="text-lg font-medium text-teal-700">{graded ? Math.round(correct / graded * 100) : 0}%</span></p>
+      <p className="mt-2 text-xs text-slate-500">미응답 {statsUnanswered}문항 · 채점 제외 {scoredQuestions.length - graded}문항</p>
+      <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4">{scoreSubjects.map(({ subject, correct, total }) => <div key={subject} className="rounded-lg bg-slate-50 p-3 text-sm"><span className="block text-slate-500">{subject}</span><span className="font-semibold">{correct}/{total}</span></div>)}</div>
+      <button type="button" className="secondary-action mt-4" onClick={() => setReview(!review)}>{review ? "해설 접기" : "문제·해설 확인"}</button>
+      <div className="mt-3"><SessionRetryActions ids={sessionWrongIds(exam.results ?? [])} /></div>
+    </SkinPanel>)}
+    {finished && statsExcluded > 0 && <p className="px-2 text-sm text-slate-500">기타 분과 {statsExcluded}문항은 연습용이며 성적 통계에서 제외됩니다.</p>}
     <div className={chatLayout ? "chat-mock-layout" : theme === "notebook" ? "notebook-mock-layout" : theme === "pixel" ? "pixel-mock-layout" : "grid items-start gap-5 xl:grid-cols-[minmax(0,1fr)_320px]"}>
       {(!finished || review) && <ChatSenderProvider name={currentSubject}><article data-highlight-document={`qbank:${current.id}`} id="mock-question" className="skin-q-article surface min-w-0 scroll-mt-20 p-5 sm:p-7">
         {!chatLayout && <DocumentToolbar title={`${currentIndex + 1}번 · ${currentSubject}`} className="document-toolbar--inset" metadata={<><span>{current.questionType}</span><span className="qbank-session-position">{currentIndex + 1} / {questions.length}</span></>}>
