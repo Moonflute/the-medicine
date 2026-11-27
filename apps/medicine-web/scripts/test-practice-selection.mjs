@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceFiltersFromParams, practiceMockExams, practiceMockExamSections, practiceMockExamTitle, practiceTopicSections, isPracticeRevisionId, indexPracticeVersions, isListedQuestion, listedPracticeIds, practiceDeliveryIds, practiceVersionIds, visiblePracticeDepartments, visiblePracticeFilters, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
+import { matchesPractice, toggleGroup, stringArray, comparePracticeOrder, mockExamFilters, practiceFiltersFromParams, practiceMockExams, practiceMockExamSections, practiceMockExamTitle, practiceTopicSections, isPracticeRevisionId, indexPracticeVersions, isListedQuestion, listedPracticeIds, practiceDeliveryIds, practiceVersionIds, selectedPracticeExamKey, selectedPracticeFilterRoundKeys, visiblePracticeDepartments, visiblePracticeFilters, PRACTICE_REVISION_SERIES } from '../src/lib/practice-selection.ts';
 import { gradeQuestion } from '../src/lib/qbank-grading.ts';
 
 test('selecting or clearing one theory group preserves other groups', () => {
@@ -189,4 +189,42 @@ test('additional archives have their own round and only group non-core subjects 
   assert.equal(practiceMockExamSections(visible).some(section => section.id === 'additional-archive'), false);
   assert.deepEqual(visiblePracticeFilters(mockExamFilters(2026, extra.archiveRoundKey), visible), { ...mockExamFilters(2026, extra.archiveRoundKey), years: [], examKey: undefined });
   assert.deepEqual(visiblePracticeFilters(other, visible), { ...other, departments: [] });
+});
+
+test('condition filters select exact rounds, combine within the dimension, and intersect with departments', () => {
+  const past = { id: 'past', bookId: 'past', bookSeries: '실전', examYear: 2026, bookDepartment: '내과', specialty: '01 순환기', specialtySlug: 'cardiology' };
+  const res = { ...past, id: 'res', bookId: 'practice-res2608' };
+  const extra = { ...past, id: 'extra', bookId: 'archive', archiveRoundKey: '2026L-7' };
+  const psych = { ...extra, id: 'psych', bookDepartment: '정신건강의학과', specialty: '15 정신건강의학과', specialtySlug: 'psychiatry' };
+  const undated = { ...past, id: 'undated', examYear: null };
+  const mock = { ...undated, id: 'mock', bookId: 'mock-full-1', bookSeries: '창작 모의고사' };
+  const bank = [past, res, extra, psych, undated, mock];
+  const empty = { books: [], specialties: [], years: [] };
+  const select = (filters) => bank.filter(question => matchesPractice(question, filters));
+  assert.deepEqual(practiceMockExamSections(bank, { includeUndated: true }).map(({ label, exams }) => [label, exams.map(r => r.key)]), [
+    ['연도별 문제', ['2026-2', '2026', 'unknown']],
+    ['연도별 문제2', [extra.archiveRoundKey]],
+    ['모의고사', [mock.bookId]],
+  ]);
+  assert.equal(practiceMockExams(bank).some(exam => exam.key === 'unknown'), false);
+  assert.deepEqual(select({ ...empty, roundKeys: ['2026'] }), [past]);
+  assert.deepEqual(select({ ...empty, roundKeys: ['2026-2'] }), [res]);
+  assert.deepEqual(select({ ...empty, roundKeys: [extra.archiveRoundKey], departments: ['기타 분과'] }), [psych]);
+  assert.deepEqual(select({ ...empty, roundKeys: ['2026', extra.archiveRoundKey], specialties: ['내과:cardiology'] }), [past, extra]);
+  assert.deepEqual(select({ ...empty, roundKeys: ['unknown'] }), [undated]);
+  assert.deepEqual(select({ ...empty, roundKeys: [mock.bookId] }), [mock]);
+  const legacy = { ...empty, years: ['2026'] };
+  assert.deepEqual(select(legacy), [past, res, extra, psych]);
+  assert.deepEqual(selectedPracticeFilterRoundKeys(legacy, bank), ['2026', '2026-2', extra.archiveRoundKey]);
+  const draft = { ...empty, roundKeys: ['2026', extra.archiveRoundKey, mock.bookId] };
+  assert.deepEqual(visiblePracticeFilters(draft, [mock]).roundKeys, [mock.bookId]);
+  assert.deepEqual(practiceMockExamSections([mock], { includeUndated: true }).map(section => section.id), ['authored']);
+  for (const mode of ['selection', 'practice-book']) {
+    const params = new URLSearchParams({ mode, practiceOnly: '1', practiceRoundKeys: `2026-2,${extra.archiveRoundKey},2026-2,invalid`, practiceDepartments: '내과' });
+    if (mode === 'practice-book') params.set('practiceExam', '');
+    const filters = practiceFiltersFromParams(params);
+    assert.deepEqual(filters.roundKeys, ['2026-2', extra.archiveRoundKey]);
+    assert.equal(selectedPracticeExamKey(filters), undefined);
+    assert.deepEqual(select(filters), [res, extra]);
+  }
 });

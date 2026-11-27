@@ -115,6 +115,17 @@ test("a shuffled mock round keeps the 2026-2 label in its saved context", () => 
   assert.equal(context.order, "random");
 });
 
+test("condition sessions keep exact round labels in the title and summary", () => {
+  const params = new URLSearchParams({ mode: "practice-book", practiceOnly: "1", practiceExam: "", practiceRoundKeys: "2026L-7", practiceDepartments: "외과", count: "10" });
+  const single = qbankSessionContextFromParams(params, specialties);
+  assert.equal(single.title, "2026L-7 실전문제 풀이");
+  assert.equal(single.summary, "실전 2026L-7 · 외과 · 10문항");
+  params.set("practiceRoundKeys", "2026,2026-2");
+  const multi = qbankSessionContextFromParams(params, specialties);
+  assert.equal(multi.title, "실전문제 풀이");
+  assert.equal(multi.summary, "실전 2026년 · 2026-2 · 외과 · 10문항");
+});
+
 test("wrong-only selection retains scope and filter labels when resumed", () => {
   for (const scope of [{ theory: "disease:cardiology" }, { clinical: "pulmonology" }, { practiceOnly: "1", practiceYears: "2026", practiceDepartments: "내과" }]) {
     const context = qbankSessionContextFromParams(new URLSearchParams({ mode: "selection", progress: "wrong", count: "5", ...scope }), specialties);

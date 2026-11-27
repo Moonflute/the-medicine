@@ -13,7 +13,7 @@ export function readRoundLimitMinutes(value: string | null): number | undefined 
 export function practiceRoundLimitFromParams(params: URLSearchParams): number | undefined {
   const mode = params.get("mode");
   if (params.get("practiceRound") !== "1" || params.get("practiceOnly") !== "1" || (mode !== "practice-book" && mode !== "selection")) return undefined;
-  if (!/^\d{4}$/.test(params.get("practiceYears") ?? "") || ["practiceSeries", "practiceDepartments", "practiceSpecialties", "practiceBooks", "theory", "clinical"].some(key => params.get(key))) return undefined;
+  if (!/^\d{4}$/.test(params.get("practiceYears") ?? "") || ["practiceSeries", "practiceDepartments", "practiceSpecialties", "practiceBooks", "practiceRoundKeys", "theory", "clinical"].some(key => params.get(key))) return undefined;
   return readRoundLimitMinutes(params.get("timeLimit"));
 }
 

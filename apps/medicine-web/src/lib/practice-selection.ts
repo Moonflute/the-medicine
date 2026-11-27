@@ -20,7 +20,12 @@ export type PracticeIndex = {
   revisionIds?: string[];
 };
 
-export type PracticeFilters = { books: string[]; specialties: string[]; years: string[]; series?: string[]; departments?: string[]; order?: "random" | "book"; examKey?: string };
+export type PracticeFilters = {
+  books: string[]; specialties: string[]; years: string[]; series?: string[]; departments?: string[];
+  order?: "random" | "book"; examKey?: string;
+  /** Exact, multiselect rounds for the department/condition picker. */
+  roundKeys?: string[];
+};
 export type PracticeTopicSection = { id: string; title: string; topics: Array<[string, string]> };
 export const EMPTY_PRACTICE_FILTERS: PracticeFilters = { books: [], specialties: [], years: [] };
 export const PRACTICE_REVISION_SERIES = "실전 개정판";
@@ -221,7 +226,12 @@ export function practiceTopicSections(questions: PracticeIndex[], department: st
 }
 
 const RES26_EXAM_KEY = "2026-2";
+const UNDATED_ROUND_KEY = "unknown";
 const authoredRound = /^mock-(full|mini)-([1-9]\d*)$/;
+
+function isPracticeExamKey(key: string): boolean {
+  return key === RES26_EXAM_KEY || /^\d{4}$/.test(key) || authoredRound.test(key) || additionalArchiveKey.test(key);
+}
 
 export function isAuthoredPracticeMock(question: PracticeIndex): boolean {
   return question.bookSeries === "창작 모의고사" && authoredRound.test(question.bookId);
@@ -229,6 +239,11 @@ export function isAuthoredPracticeMock(question: PracticeIndex): boolean {
 
 // A browser draft can outlive the account that selected a year or round.
 export function visiblePracticeFilters(filters: PracticeFilters, questions: PracticeIndex[]): PracticeFilters {
+  if (filters.roundKeys?.length) {
+    const visibleKeys = new Set(questions.filter(question => question.bookSeries !== PRACTICE_REVISION_SERIES).map(practiceFilterRoundKey));
+    const roundKeys = filters.roundKeys.filter(key => visibleKeys.has(key));
+    if (roundKeys.length !== filters.roundKeys.length) filters = { ...filters, roundKeys };
+  }
   const hideAdditionalRound = Boolean(filters.examKey && additionalArchiveKey.test(filters.examKey)
     && !questions.some(question => additionalPracticeRound(question) === filters.examKey));
   const hideOtherDepartment = Boolean(filters.departments?.includes(OTHER_PRACTICE_DEPARTMENT)
@@ -255,7 +270,20 @@ export function practiceMockExamKey(question: PracticeIndex): string | undefined
   return String(question.examYear);
 }
 
+export function practiceFilterRoundKey(question: PracticeIndex): string {
+  return practiceMockExamKey(question) ?? UNDATED_ROUND_KEY;
+}
+
+export function selectedPracticeFilterRoundKeys(filters: PracticeFilters, questions: PracticeIndex[]): string[] {
+  if (filters.roundKeys?.length) return filters.roundKeys;
+  if (!filters.years.length) return [];
+  // Keep old year-based drafts working. An old year can cover multiple rounds.
+  return [...new Set(questions.filter(question => question.bookSeries !== PRACTICE_REVISION_SERIES
+    && matchesPracticeYear(question, filters.years)).map(practiceFilterRoundKey))];
+}
+
 export function practiceMockExamLabel(key: string): string {
+  if (key === UNDATED_ROUND_KEY) return "연도 미상 · BANK";
   const round = authoredRound.exec(key);
   if (round) return (round[1] === "mini" ? "미니 모의고사 " : "모의고사 ") + round[2] + "회";
   return key === RES26_EXAM_KEY || additionalArchiveKey.test(key) ? key : `${key}년`;
@@ -278,17 +306,19 @@ export function mockExamFilters(year: number | null, examKey = String(year)): Pr
 }
 
 export function selectedPracticeExamKey(filters: PracticeFilters): string | undefined {
-  if (filters.examKey && (filters.examKey === RES26_EXAM_KEY || /^\d{4}$/.test(filters.examKey) || authoredRound.test(filters.examKey) || additionalArchiveKey.test(filters.examKey))) return filters.examKey;
+  if (filters.examKey && isPracticeExamKey(filters.examKey)) return filters.examKey;
   // Restore a year-only round selected before rounds had their own key.
-  if (filters.order !== "book" || filters.years.length !== 1 || filters.books.length || filters.specialties.length || filters.series?.length || filters.departments?.length) return undefined;
+  if (filters.order !== "book" || filters.years.length !== 1 || filters.roundKeys?.length || filters.books.length || filters.specialties.length || filters.series?.length || filters.departments?.length) return undefined;
   return /^\d{4}$/.test(filters.years[0]) ? filters.years[0] : undefined;
 }
 
 export function practiceFiltersFromParams(params: URLSearchParams): PracticeFilters {
   const values = (name: string) => (params.get(name) ?? "").split(",").filter(Boolean);
+  const roundKeys = [...new Set(values("practiceRoundKeys").filter(key => key === UNDATED_ROUND_KEY || isPracticeExamKey(key)))];
   const filters: PracticeFilters = {
     books: values("practiceBooks"), specialties: values("practiceSpecialties"),
     years: values("practiceYears"), series: values("practiceSeries"), departments: values("practiceDepartments"),
+    ...(roundKeys.length ? { roundKeys } : {}),
   };
   if (params.get("practiceOnly") !== "1") return filters;
   const examKey = params.get("practiceExam");
@@ -318,17 +348,27 @@ export function practiceMockExams(questions: PracticeIndex[]) {
   });
 }
 
-export function practiceMockExamSections(questions: PracticeIndex[]) {
+export function practiceMockExamSections(questions: PracticeIndex[], { includeUndated = false } = {}) {
   const exams = practiceMockExams(questions);
+  const archive = exams.filter(exam => !authoredRound.test(exam.key) && !additionalArchiveKey.test(exam.key));
+  if (includeUndated) {
+    const count = questions.filter(question => question.bookSeries !== PRACTICE_REVISION_SERIES
+      && practiceFilterRoundKey(question) === UNDATED_ROUND_KEY).length;
+    if (count) archive.push({ key: UNDATED_ROUND_KEY, year: null, label: practiceMockExamLabel(UNDATED_ROUND_KEY), count });
+  }
   return [
-    { id: "archive", label: "연도별 문제", exams: exams.filter(exam => !authoredRound.test(exam.key) && !additionalArchiveKey.test(exam.key)) },
+    { id: "archive", label: "연도별 문제", exams: archive },
     { id: "additional-archive", label: "연도별 문제2", exams: exams.filter(exam => additionalArchiveKey.test(exam.key)) },
     { id: "authored", label: "모의고사", exams: exams.filter(exam => authoredRound.test(exam.key)) },
   ].filter(section => section.exams.length > 0);
 }
 
 export function hasPracticeSelection(filters?: PracticeFilters): boolean {
-  return Boolean(filters && (filters.books.length || filters.specialties.length || filters.years.length || filters.series?.length || filters.departments?.length || selectedPracticeExamKey(filters)));
+  return Boolean(filters && (filters.books.length || filters.specialties.length || filters.years.length || filters.roundKeys?.length || filters.series?.length || filters.departments?.length || selectedPracticeExamKey(filters)));
+}
+
+function matchesPracticeYear(question: PracticeIndex, years: string[]): boolean {
+  return question.bookSeries !== "창작 모의고사" && years.includes(question.examYear === null ? UNDATED_ROUND_KEY : String(question.examYear));
 }
 
 // Empty dimensions are unrestricted; an untouched picker selects nothing.
@@ -337,6 +377,7 @@ export function matchesPractice(question: PracticeIndex, filters: PracticeFilter
   return hasPracticeSelection(filters)
     && question.bookSeries !== PRACTICE_REVISION_SERIES
     && (!examKey || practiceMockExamKey(question) === examKey)
+    && (!filters.roundKeys?.length || filters.roundKeys.includes(practiceFilterRoundKey(question)))
     && (!filters.books.length || filters.books.includes(question.bookId))
     && (!filters.series?.length || filters.series.includes(question.bookSeries)
       || Boolean(question.revisionIds?.length && filters.series.includes(PRACTICE_REVISION_SERIES)))
@@ -346,7 +387,7 @@ export function matchesPractice(question: PracticeIndex, filters: PracticeFilter
         : question.bookDepartment !== OTHER_PRACTICE_DEPARTMENT && filters.departments.includes(question.bookDepartment)
     ))
     && (!filters.specialties.length || (filters.specialties.includes(practiceTopicKey(question)) || filters.specialties.includes(question.specialtySlug)))
-    && (!filters.years.length || (question.bookSeries !== "창작 모의고사" && filters.years.includes(question.examYear === null ? "unknown" : String(question.examYear))));
+    && (!filters.years.length || matchesPracticeYear(question, filters.years));
 }
 
 // IDs encode source volume, original subject, year section, and printed number.

@@ -39,6 +39,7 @@ export function PracticeStartControls({ total, questions, filters, exam = false,
   const canStart = valid && (!timed || minutes !== undefined);
   const href = (ordered: boolean) => {
     const params = new URLSearchParams({ mode: ordered ? "practice-book" : "selection", practiceOnly: "1", count, practiceSeries: (filters.series ?? []).join(","), practiceDepartments: (filters.departments ?? []).join(","), practiceSpecialties: filters.specialties.join(","), practiceYears: filters.years.join(","), practiceBooks: filters.books.join(",") });
+    if (filters.roundKeys?.length) params.set("practiceRoundKeys", filters.roundKeys.join(","));
     if (round || ordered) params.set("practiceExam", round ? selectedPracticeExamKey(filters) ?? "" : "");
     if (progressFilter !== "all") params.set("progress", progressFilter);
     if (exam) params.set("exam", "1");

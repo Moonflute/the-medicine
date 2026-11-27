@@ -350,6 +350,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
       setPracticeFilters({
         books: [], specialties: stringArray(saved?.practice?.specialties), years: stringArray(saved?.practice?.years),
         series: [], departments: stringArray(saved?.practice?.departments),
+        roundKeys: stringArray(saved?.practice?.roundKeys),
         order: saved?.practice?.order === "random" || saved?.practice?.order === "book" ? saved.practice.order : defaultPracticeOrder,
         examKey: saved?.practice?.order === "book" && typeof saved.practice.examKey === "string" ? saved.practice.examKey : undefined,
       });
@@ -392,6 +393,7 @@ export function QbankDashboardClient({ questions, relatedTarget }: { questions: 
     practiceBooks: includePractice ? practiceFilters.books.join(",") : "",
     practiceSpecialties: includePractice ? practiceFilters.specialties.join(",") : "",
     practiceYears: includePractice ? practiceFilters.years.join(",") : "",
+    practiceRoundKeys: includePractice ? (practiceFilters.roundKeys ?? []).join(",") : "",
   });
   if (progressFilter !== "all") sessionParams.set("progress", progressFilter);
   if (relatedTarget) {

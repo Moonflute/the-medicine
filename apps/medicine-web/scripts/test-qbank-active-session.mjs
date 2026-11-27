@@ -78,7 +78,7 @@ test('time limits are only accepted for an explicitly timed practice round', () 
   assert.equal(read(), 60);
   assert.equal(read({ mode: 'selection', timeLimit: '15' }), 15);
   for (const overrides of [
-    { practiceRound: '0' }, { practiceOnly: '0' }, { mode: 'related' }, { practiceYears: '2026,2025' },
+    { practiceRound: '0' }, { practiceOnly: '0' }, { mode: 'related' }, { practiceYears: '2026,2025' }, { practiceRoundKeys: '2026-2' },
     { practiceDepartments: '내과' }, { theory: 'cardiology' }, { timeLimit: '0' }, { timeLimit: '0.5' }, { timeLimit: '361' },
   ]) assert.equal(read(overrides), undefined);
 });

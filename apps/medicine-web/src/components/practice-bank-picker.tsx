@@ -5,9 +5,9 @@ import { useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { Check } from "lucide-react";
 import type { PracticeFilters, PracticeIndex } from "@/lib/practice-selection";
-import { isAuthoredPracticeMock, matchesPractice, toggleGroup, mockExamFilters, practiceMockExamSections, PRACTICE_DEPARTMENTS, practiceTopicSections, selectedPracticeExamKey, visiblePracticeDepartments } from "@/lib/practice-selection";
+import { matchesPractice, toggleGroup, mockExamFilters, practiceFilterRoundKey, practiceMockExamSections, PRACTICE_DEPARTMENTS, practiceTopicSections, selectedPracticeExamKey, selectedPracticeFilterRoundKeys, visiblePracticeDepartments } from "@/lib/practice-selection";
 
-type Dimension = "departments" | "specialties" | "years";
+type Dimension = "departments" | "specialties" | "roundKeys";
 const choices = [["random", "분과·조건 선택"], ["book", "회차 전체 풀기"]] as const;
 
 function PickerFooter({ target, children }: { target?: HTMLDivElement | null; children: ReactNode }) {
@@ -49,24 +49,41 @@ export function PracticeBankPicker({ questions, filters, onChange, message, comp
       <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={active?.key || "no-round"} total={active?.count ?? 0} questions={selection} filters={filters} exam={examMode} round label={active?.label} topControlsTarget={topControlsTarget} /></PickerFooter>
     </div>;
   }
-  const years = [...new Set(questions.filter(q => !isAuthoredPracticeMock(q)).map(q => q.examYear === null ? "unknown" : String(q.examYear)))].sort((a, b) => b.localeCompare(a));
-  const group = (key: Dimension, title: string, items: [string, string][]) => <fieldset className="mt-5">
-    <legend className="font-semibold text-slate-900">{title}</legend>
-    <div className={chat ? "chat-qbank-choice-list" : "mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 lg:grid-cols-4"}>{items.map(([id, label]) => {
-      const checked = (filters[key] ?? []).includes(id);
-      const total = questions.filter((q) => matchesPractice(q, { ...filters, books: [], [key]: [id] })).length;
-      return <label key={id} className={chat ? "chat-qbank-choice" : `flex min-h-11 cursor-pointer items-center gap-1.5 rounded-lg border px-2.5 py-2 text-[13px] leading-5 transition-colors sm:px-3 sm:text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700 hover:border-teal-300"}`} data-checked={checked}>
-        {chat ? <span className="skin-contact-avatar" aria-hidden="true" /> : null}
-        <input type="checkbox" className="h-4 w-4 shrink-0 accent-teal-600" checked={checked} onChange={() => {
-          const next = { ...filters, books: [], [key]: toggleGroup(filters[key] ?? [], [id]) };
-          onChange(next);
-        }} /><span className="min-w-0 font-medium">{label}</span><span className="ml-auto shrink-0 text-[11px] tabular-nums text-slate-500">{total.toLocaleString()}</span>
-      </label>;
-    })}</div>
-  </fieldset>;
+  const roundSections = practiceMockExamSections(questions, { includeUndated: true });
+  const activeRoundKeys = selectedPracticeFilterRoundKeys(filters, questions);
+  const roundScope = { ...filters, books: [], years: [], roundKeys: roundSections.flatMap(section => section.exams.map(exam => exam.key)) };
+  const roundCounts = new Map<string, number>();
+  for (const question of questions) {
+    if (!matchesPractice(question, roundScope)) continue;
+    const key = practiceFilterRoundKey(question);
+    roundCounts.set(key, (roundCounts.get(key) ?? 0) + 1);
+  }
+  const group = (key: Dimension, title: string, items: [string, string][]) => {
+    const isRound = key === "roundKeys";
+    const selected = isRound ? activeRoundKeys : filters[key] ?? [];
+    const update = (ids: string[]) => onChange({ ...filters, books: [], ...(isRound ? { years: [] } : {}), [key]: toggleGroup(selected, ids) });
+    const allSelected = items.every(([id]) => selected.includes(id));
+    const groupAction = allSelected ? "전체 해제" : "전체 선택";
+    return <fieldset className="mt-5">
+      <legend className="font-semibold text-slate-900">{title}</legend>
+      {isRound && items.length > 1 ? <button type="button" className="secondary-action mt-1 text-xs" aria-label={`${title} ${groupAction}`} onClick={() => update(items.map(([id]) => id))}>{groupAction}</button> : null}
+      <div className={chat ? "chat-qbank-choice-list" : "mt-3 grid grid-cols-2 gap-1.5 sm:gap-2 lg:grid-cols-4"}>{items.map(([id, label]) => {
+        const checked = selected.includes(id);
+        const total = isRound ? roundCounts.get(id) ?? 0 : questions.filter((q) => matchesPractice(q, { ...filters, books: [], [key]: [id] })).length;
+        return <label key={id} className={chat ? "chat-qbank-choice" : `flex min-h-11 cursor-pointer items-center gap-1.5 rounded-lg border px-2.5 py-2 text-[13px] leading-5 transition-colors sm:px-3 sm:text-sm ${checked ? "border-teal-400 bg-teal-50 text-teal-950" : "border-slate-200 bg-white text-slate-700 hover:border-teal-300"}`} data-checked={checked}>
+          {chat ? <span className="skin-contact-avatar" aria-hidden="true" /> : null}
+          <input type="checkbox" className="h-4 w-4 shrink-0 accent-teal-600" checked={checked} onChange={() => update([id])} /><span className="min-w-0 font-medium">{label}</span><span className="ml-auto shrink-0 text-[11px] tabular-nums text-slate-500">{total.toLocaleString()}</span>
+        </label>;
+      })}</div>
+    </fieldset>;
+  };
   return <div className={chat ? "chat-qbank-practice" : undefined}>
     {modes}
     {group("departments", "과목", visiblePracticeDepartments(questions).map((d) => [d, d]))}
+    {roundSections.length ? <details className={chat ? "chat-qbank-topics" : "mt-3 rounded-lg border border-slate-200 bg-slate-50/50 px-3"}>
+      <summary className="cursor-pointer py-2.5 text-sm font-semibold text-slate-800 marker:text-teal-600">출처·회차 선택{activeRoundKeys.length ? <span className="ml-2 text-xs font-normal text-slate-500">{activeRoundKeys.length}개 선택</span> : null}</summary>
+      <div className="pb-3">{roundSections.map(section => <div key={section.id}>{group("roundKeys", section.label, section.exams.map(exam => [exam.key, exam.label]))}</div>)}</div>
+    </details> : null}
     <details className={chat ? "chat-qbank-topics" : "mt-3 rounded-lg border border-slate-200 bg-slate-50/50 px-3"}>
       <summary className="cursor-pointer py-2.5 text-sm font-semibold text-slate-800 marker:text-teal-600">세부 주제{filters.specialties.length ? <span className="ml-2 text-xs font-normal text-slate-500">{filters.specialties.length}개 선택</span> : null}</summary>
       <div className="pb-3">
@@ -81,10 +98,6 @@ export function PracticeBankPicker({ questions, filters, onChange, message, comp
         })}
       </div>
     </details>
-    {years.length > 0 && <details className={chat ? "chat-qbank-topics" : "mt-3 rounded-lg border border-slate-200 bg-slate-50/50 px-3"}>
-      <summary className="cursor-pointer py-2.5 text-sm font-semibold text-slate-800 marker:text-teal-600">연도 선택{filters.years.length ? <span className="ml-2 text-xs font-normal text-slate-500">{filters.years.length}개 선택</span> : null}</summary>
-      <div className="pb-3">{group("years", "출제년도", years.map((y) => [y, y === "unknown" ? "년도 미상 · BANK" : `${y}년`]))}</div>
-    </details>}
     <PickerFooter target={chat ? footerTarget : null}><PracticeStartControls appearance={appearance} key={JSON.stringify(filters)} total={selection.length} questions={selection} filters={filters} topControlsTarget={topControlsTarget} /></PickerFooter>
   </div>;
 }
