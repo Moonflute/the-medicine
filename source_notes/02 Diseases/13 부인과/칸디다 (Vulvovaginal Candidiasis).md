@@ -7,7 +7,8 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 질·골반 감염
+- "질·골반 감염"
+- "질염"
 CC:
 - 가려움증
 preprocessing_required: x

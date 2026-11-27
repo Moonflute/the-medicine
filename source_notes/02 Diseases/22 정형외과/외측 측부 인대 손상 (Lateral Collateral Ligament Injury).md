@@ -6,7 +6,8 @@ aliases:
 - disease
 계통: 정형외과
 분류:
-- Knee
+- "Knee"
+- "무릎 인대·반월연골 손상"
 CC:
 - 부종
 - 출혈

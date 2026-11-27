@@ -17,6 +17,7 @@ clinical_priority: "tier_3"
 review_status: "tier3_full_flash_35_enriched"
 reviewed_at: "2026-07-30"
 sources: ["AAO 요약 권고 | https://www.aao.org/education/summary-benchmark-detail/cornea-external-disease-summary-benchmarks-2020"]
+display_title: "결막염 (Conjunctivitis)"
 ---
 분과 : [[안과]]
 

@@ -1,5 +1,5 @@
 ---
-content_updated_at: "2026-07-30"
+content_updated_at: "2026-11-27"
 aliases:
 - cardiomyopathy
 유형:
@@ -37,6 +37,9 @@ sources: ["Merck Manual Professional: Overview of Cardiomyopathies | https://www
 ## 4. 진단
 - 허혈성·판막성·고혈압성 심장질환과 구분하고, 형태별 진단 기준 및 가족력·침윤성 질환·약물/독성 노출을 함께 평가한다.
 
+- **표현형과 원인**: 확장성에서 진행성 수축기 기능 저하나 심실성 부정맥, 비후성에서 운동 중 실신·가족력·동적 유출로 폐쇄, 제한성에서 울혈·양심방 확장과 침윤/저장 질환을 확인.
+- **타코츠보**: 급성 흉통·ECG/표지자 이상은 ACS 경로로 평가. 한 관상동맥 영역으로 설명되지 않는 일시적 벽운동 이상과 추적 회복을 함께 확인.
+
 ## 5. 치료
 
 - **심부전 및 증상 관리**: 심초음파상 박출률과 증상 정도에 따라 표준 약물 치료를 시행하고, 체액 저류 조절 및 생활 습관 교정을 병행한다.
@@ -52,6 +55,8 @@ sources: ["Merck Manual Professional: Overview of Cardiomyopathies | https://www
 - [[비후성 심근병증 (Hypertrophic Cardiomyopathy)]]
 - [[제한성 심근병증 (Restrictive Cardiomyopathy)]]
 - [[타코츠보 심근병증 (Takotsubo Cardiomyopathy)]]
+
+- **추적**: 심기능·증상·부정맥 위험을 표현형에 맞춰 반복 평가. 유전성 의심 시 1차 친족의 ECG·심초음파와 유전 상담을 계획. 타코츠보에서도 기능 회복과 재발을 확인.
 
 ## 출처
 - 삼성서울병원 메뉴얼. International Expert Consensus: Takotsubo Syndrome Part I, International Expert Consensus: Takotsubo Syndrome Part II, 2024 International Expert Consensus Report; 심근병증의 형태별 단서, 타코츠보 증후군의 ACS 감별·합병증 평가·추적 원칙을 대조. 2026-09-15 기존 목차 내 보완.

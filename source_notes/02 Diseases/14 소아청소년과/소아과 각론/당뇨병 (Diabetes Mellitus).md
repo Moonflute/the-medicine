@@ -17,7 +17,7 @@ preprocessing_required: x
 last_studied: '2026-06-06'
 sources: ["대한당뇨병학회 2025 제9판 당뇨병 진료지침 | https://diabetes.or.kr/bbs/?code=guide", "ADA 2026 Children and Adolescents | https://diabetesjournals.org/care/article/49/Supplement_1/S297/163923/14-Children-and-Adolescents-Standards-of-Care-in", "ISPAD Clinical Practice Consensus Guidelines 2024 | https://www.ispad.org/resources/ispad-clinical-practice-consensus-guidelines/2024-cpcg.html"]
 clinical_priority: "tier_2"
-content_updated_at: '2026-07-15'
+content_updated_at: "2026-11-27"
 guideline_year: "2026"
 disease_family: diabetes
 parent_disease: "당뇨병 (Diabetes Mellitus)"
@@ -49,7 +49,10 @@ review_status: "guideline_enriched"
   - 유형·발병 기간·사춘기에 따라 소아 지침의 선별 시점 적용
 
 ## 4. 진단
-- **진단 기준**: [[당뇨병 (Diabetes Mellitus)]]의 혈당/HbA1c 기준 적용; 증상성 고혈당·케톤증은 재검 때문에 치료를 지연하지 않음
+- **진단 기준**: 다음 중 하나. 명백한 증상성 고혈당·위기가 없으면 비정상 결과 2개로 확인.
+  - 공복 혈장 포도당 **≥126 mg/dL**, OGTT 2시간 혈장 포도당 **≥200 mg/dL**, 표준화 검사 HbA1c **≥6.5%**.
+  - 전형적인 고혈당 증상 또는 고혈당 위기 + 무작위 혈장 포도당 **≥200 mg/dL**.
+- **새 제1형 의심**: 급성 발병에서는 HbA1c에 의존하지 않고 혈장 포도당과 케톤·가스 검사로 평가. 고혈당·케톤산증의 처치를 재검으로 지연하지 않음.
 - **유형 감별**: 체형만으로 구분하지 않고 자가면역·케톤증·인슐린 결핍·가족력·비만/인슐린저항성·경과 종합
   - 단일유전자·췌장질환·약물 유발 원인도 감별
 
@@ -64,7 +67,7 @@ review_status: "guideline_enriched"
 - **초기 치료**: 진단 시 생활중재와 약물치료 함께 시작
   - 무증상 & HbA1c **<8.5%**: 금기가 없으면 metformin 우선
   - HbA1c **≥8.5%**의 뚜렷한 고혈당, 산증 없음: metformin 증량과 장시간형 인슐린 시작
-  - 케톤산증: 피하 또는 정주 인슐린으로 즉시 치료
+  - **케톤산증**: 소아 DKA 경로로 수액·전해질과 지속 정주 인슐린을 관리. 산증이 회복되면 피하 치료로 전환.
 - **혈당 목표**: 저혈당 위험이 낮으면 HbA1c **<6.5%** 고려, 최소 **3개월마다** 평가
 - **목표 미달**: 연령·국내 허가·동반질환에 따라 GLP-1 수용체작용제, SGLT2 억제제, 인슐린 병용을 소아내분비팀에서 조정
 
@@ -79,3 +82,5 @@ review_status: "guideline_enriched"
 
 ## 출처
 - 삼성서울병원 메뉴얼
+
+- [ADA 2026 소아청소년 당뇨병 진료 기준](https://doi.org/10.2337/dc26-s014)

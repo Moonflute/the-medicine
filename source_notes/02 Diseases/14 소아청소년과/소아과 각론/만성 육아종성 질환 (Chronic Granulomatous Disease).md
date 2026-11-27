@@ -6,8 +6,8 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아과각론
-- 면역계
+- "소아과각론"
+- "원발성 면역결핍"
 CC:
 - 성장 지연
 preprocessing_required: x

@@ -1,7 +1,7 @@
 ---
 aliases:
-- 강박 및 관련 장애
-- 불안 장애
+- "불안 장애"
+- "불안장애"
 유형:
 - disease
 계통: 정신건강의학과
@@ -21,18 +21,24 @@ review_status: "guideline_enriched"
 guideline_year: "2020"
 sources: ["NICE CG113: Generalised Anxiety Disorder and Panic Disorder (2020 갱신) | https://www.nice.org.uk/guidance/cg113/chapter/Recommendations", "NICE CG159: Social Anxiety Disorder (2013; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg159/chapter/recommendations", "NICE CG31: Obsessive-Compulsive Disorder (2005; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/cg31/chapter/Recommendations"]
 
-content_updated_at: '2026-10-08'
+content_updated_at: "2026-11-27"
 guideline_reviewed_at: '2026-10-08'
 group_members:
-- 특정 공포증 (Specific Phobia)
-- 피부뜯기기장애 (Excoriation Disorder)
-- 광장 공포증 (Agoraphobia)
-- 강박 장애 (Obsessive-Compulsive Disorder, OCD)
-- 공황 장애 (Panic Disorder)
-- 범 불안 장애 (Generalized Anxiety Disorder)
-- 사회 불안 장애 (Social Anxiety Disorder)
+- "특정 공포증 (Specific Phobia)"
+- "광장 공포증 (Agoraphobia)"
+- "공황 장애 (Panic Disorder)"
+- "범 불안 장애 (Generalized Anxiety Disorder)"
+- "사회 불안 장애 (Social Anxiety Disorder)"
+document_role: "group_overview"
 ---
 # 불안 장애
+
+## 개요
+- **범위**: 위협에 대한 두려움·걱정과 회피가 지속되어 기능을 떨어뜨리는 질환군. 예상하지 못한 발작, 지속 걱정, 특정 상황 공포의 차이를 확인.
+
+## 임상 양상
+- **증상**: 불안과 함께 두근거림·떨림·과호흡·위장 불편, 수면 저하, 교통·학교·대인관계 회피.
+- **진찰**: 정신상태 진찰로 불안 유발 상황·관련 생각·회피를 평가. 신체검사와 활력징후로 부정맥·갑상샘 및 호흡기 원인의 단서도 확인.
 
 ## 불안의 대상·시간 경과·회피를 구분
 
@@ -62,11 +68,13 @@ group_members:
 - **Benzodiazepine**: 장기 기본 치료로 삼지 않으며 의존·낙상·인지 영향에 주의
 - **무반응**: 적절한 치료 기간 후에도 반응이 없으면 진단·복약·동반 질환 재평가
 
+## 예후 및 합병증
+- **추적**: 발작 빈도보다 회피·일상기능과 동반 우울·수면·물질 사용의 변화를 확인. 치료 반응이 있으면 효과가 유지되는 기간과 감량·재발 대응 계획을 논의.
+- **관련 감별**: 반복 사고·의례·피부 뜯기 등은 [[강박 및 관련 장애 (Obsessive-Compulsive and Related Disorders)]] 참조.
+
 ## 포함 질환
 - [[특정 공포증 (Specific Phobia)]]
-- [[피부뜯기기장애 (Excoriation Disorder)]]
 - [[광장 공포증 (Agoraphobia)]]
-- [[강박 장애 (Obsessive-Compulsive Disorder, OCD)]]
 - [[공황 장애 (Panic Disorder)]]
 - [[범 불안 장애 (Generalized Anxiety Disorder)]]
 - [[사회 불안 장애 (Social Anxiety Disorder)]]

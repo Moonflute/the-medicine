@@ -7,8 +7,8 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아과각론
-- 심혈관
+- "소아과각론"
+- "소아 선천심장병"
 CC:
 - 청색증
 preprocessing_required: x

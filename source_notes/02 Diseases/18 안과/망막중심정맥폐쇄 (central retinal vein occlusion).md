@@ -6,7 +6,8 @@ aliases:
 - disease
 계통: 안과
 분류:
-- 망막질환
+- "망막질환"
+- "망막혈관폐쇄"
 CC:
 - 시력 저하
 preprocessing_required: x

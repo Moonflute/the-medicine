@@ -4,8 +4,9 @@ aliases:
   - Riedel thyroiditis
 category: 내분비
 분류:
-  - 갑상샘 질환
-  - 갑상샘염
+- "갑상샘 질환"
+- "갑상샘염"
+- "갑상샘염"
 clinical_priority: tier_3
 sources: ["Riedel 갑상샘염 치료 증례 및 근거 검토 2025 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12311430/"]
 ---

@@ -4,7 +4,8 @@ aliases: []
 - disease
 계통: 신장
 분류:
-- 세관기능장애
+- "세관기능장애"
+- "콩팥세관 산증"
 CC:
 - 피로
 preprocessing_required: x

@@ -5,7 +5,8 @@ aliases: []
 - disease
 계통: 내분비
 분류:
-- 갑상샘 질환
+- "갑상샘 질환"
+- "갑상샘염"
 CC:
 - 피로
 preprocessing_required: x

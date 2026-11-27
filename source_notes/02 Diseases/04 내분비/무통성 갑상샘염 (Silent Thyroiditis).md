@@ -5,8 +5,9 @@ aliases:
   - painless thyroiditis
 category: 내분비
 분류:
-  - 갑상샘 질환
-  - 갑상샘염
+- "갑상샘 질환"
+- "갑상샘염"
+- "갑상샘염"
 clinical_priority: tier_2
 sources: ["ATA 갑상샘염 | https://www.thyroid.org/thyroiditis/"]
 ---

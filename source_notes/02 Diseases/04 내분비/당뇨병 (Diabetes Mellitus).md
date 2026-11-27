@@ -12,7 +12,7 @@ CC:
 - 피로
 - 시야 흐림
 clinical_priority: tier_1
-content_updated_at: "2026-11-17"
+content_updated_at: "2026-11-27"
 guideline_year: "2026"
 sources: ["ADA Standards of Care in Diabetes (2026), 제2장 진단·제9장 약물치료 | https://professional.diabetes.org/standards-of-care", "ADA 제9장 Pharmacologic Approaches to Glycemic Treatment (2026) | https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment", "ADA 제2장 Diagnosis and Classification (2026) | https://diabetesjournals.org/care/article/49/Supplement_1/S27/163926/2-Diagnosis-and-Classification-of-Diabetes", "대한당뇨병학회 당뇨병 진료지침 (2025): 국내 적용 | https://diabetes.or.kr/bbs/?code=guide", "KDIGO CKD 지침 (2024): 동반 콩팥병 | https://kdigo.org/guidelines/ckd-evaluation-and-management/", "ADA 2026 | https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/"]
 disease_family: diabetes
@@ -135,9 +135,13 @@ guideline_review_status: primary_source_reviewed
 - 무증상이고 위험인자가 잘 조절되는 환자에게 관상동맥질환 선별검사를 일률적으로 시행하지 않는다. 설명되지 않는 호흡곤란·흉부 불편, 혈관질환 징후 또는 ECG 이상이 있으면 임상 평가를 진행한다.
 - 고중성지방혈증에서는 혈당 조절 불량, 음주, 약물과 다른 이차 요인을 함께 확인하며, 약제 부작용·비용·투여 부담을 포함한 복약순응도를 매 방문 재평가한다.
 
-**합병증별 연결 문서**
+**급성 합병증**
 
-- [[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]], [[고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)]], [[저혈당 (Hypoglycemia)]]은 별도 응급 알고리즘으로 관리한다.
+- **[[당뇨병성 케톤산증 (DKA) (Diabetic Ketoacidosis)]]**: 케톤증 + 대사성 산증. 구토·복통·쿠스마울 호흡이 단서. 수액과 K 평가/보충 후 상태에 맞춰 인슐린, 유발 요인 치료.
+- **[[고삼투압성 고혈당 상태 (HHS) (Hyperosmolar Hyperglycemic State)]]**: 심한 탈수·고삼투압과 의식 변화. 수액을 우선하고 K·삼투압의 교정 속도를 감시하며 인슐린을 조정. DKA와 혼합 가능.
+- **[[저혈당 (Hypoglycemia)]]**: 발한·떨림·혼돈·경련. 의식이 명료하고 삼킬 수 있으면 빠르게 흡수되는 포도당, 삼킬 수 없으면 정주 포도당 또는 글루카곤(glucagon) 구조 치료.
+
+**장기 합병증 연결**
 
 - 신장: [[당뇨병성 콩팥병증 (Diabetic Nephropathy)]]
 - 신경: [[당뇨병성 신경병증 (Diabetic Neuropathy)]]
@@ -180,3 +184,5 @@ ADA 2026은 인슐린 치료 성인뿐 아니라 저혈당을 유발할 수 있�
 - [ADA 2026 당뇨병 합병증](https://doi.org/10.2337/dc26-s012)
 - 서울대학교병원 내과 매뉴얼 6판(2022), 수술 전 컨설트 5장 1006–1011쪽.
 - [다학회 GLP-1 수술 전후 관리](https://pmc.ncbi.nlm.nih.gov/articles/PMC11666732/)
+
+- [ADA 등 성인 고혈당 위기 합의문 (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11343900/)

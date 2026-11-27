@@ -6,8 +6,8 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아과각론
-- 신경계
+- "소아과각론"
+- "소아 뇌전증"
 CC:
 - 검진 이상
 preprocessing_required: x

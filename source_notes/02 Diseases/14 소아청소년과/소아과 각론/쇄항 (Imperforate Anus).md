@@ -7,8 +7,8 @@ aliases:
 - disease
 계통: 소아청소년과
 분류:
-- 소아과각론
-- 소화기
+- "소아과각론"
+- "신생아 장폐색"
 CC:
 - 복부 팽만
 preprocessing_required: x

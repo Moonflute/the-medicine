@@ -6,7 +6,8 @@ aliases:
 - disease
 계통: 피부과
 분류:
-- 피부 종양
+- "피부 종양"
+- "피부암과 전암성 병변"
 CC:
 - 피부 변화
 preprocessing_required: x

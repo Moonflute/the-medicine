@@ -6,7 +6,8 @@ aliases:
 - disease
 계통: 부인과
 분류:
-- 유방 질환
+- "유방 질환"
+- "양성 유방 질환"
 CC:
 - 유방통
 preprocessing_required: x

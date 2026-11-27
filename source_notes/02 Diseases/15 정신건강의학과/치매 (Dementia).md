@@ -17,7 +17,7 @@ review_status: "guideline_enriched"
 guideline_year: "2025"
 sources: ["NICE NG97: Dementia, Assessment and Management (2018; 2026-10 현행 확인) | https://www.nice.org.uk/guidance/ng97/chapter/Recommendations", "Alzheimer's Association DETeCD-ADRD: Assessment Instruments (2024/2025) | https://pmc.ncbi.nlm.nih.gov/articles/PMC11772712/", "FDA: Additional Earlier MRI Monitoring for Leqembi (2025 안전성 공지) | https://www.fda.gov/drugs/drug-safety-communications/fda-recommend-additional-earlier-mri-monitoring-patients-alzheimers-disease-taking-leqembi-lecanemab"]
 
-content_updated_at: '2026-10-08'
+content_updated_at: "2026-11-27"
 document_role: "group_overview"
 group_members:
 - 혈관성 치매 (Vascular Dementia)
@@ -27,6 +27,13 @@ group_members:
 guideline_reviewed_at: '2026-10-08'
 ---
 # 치매
+
+## 개요
+- **정의**: 여러 원인에 의한 후천성 인지기능 저하로 독립적인 일상생활이 어려워진 상태. 단일 인지검사 점수보다 이전 수준과 기능 저하를 함께 확인.
+
+## 임상 양상
+- **증상**: 반복 질문·길 찾기 어려움, 계획·언어·판단·행동 변화. 발병 속도와 일의 순서, 기분과 수면, 평소와 다른 행동을 보호자에게도 확인.
+- **진찰**: 주의력·언어·집행기능과 걸음걸이·파킨슨증·국소신경 소견, 청각·시각. 급격한 주의력 변화는 섬망 평가.
 
 ## 독립적 생활을 방해하는 인지 저하
 
@@ -56,6 +63,10 @@ guideline_reviewed_at: '2026-10-08'
 - **선정·설명**: 기대 효과·주입 부담, APOE ε4·MRI·항응고제·ARIA 위험을 전문팀과 평가
 - **MRI 감시**: FDA 2025 공지에서 lecanemab **제3회 주입 전** 감시 추가; 제제·투여 방식별 현행 허가 일정 확인
 - **새 두통·혼돈·국소 증상**: 뇌졸중처럼 보이는 ARIA 가능성, 즉시 평가
+
+## 예후 및 합병증
+- **기능의 경과**: 초기에는 약·금전·교통 관리, 진행하면 식사·위생·이동·연하까지 도움이 필요할 수 있음. 병인과 진행 속도에 맞춰 지원을 늘림.
+- **추적**: 낙상·돌봄자 부담·영양·운전과 배회 안전을 확인. 낯선 환경이나 감염 뒤 급변 시 섬망 등 가역적 원인을 다시 평가하고 돌봄 계획과 의사결정 지원을 논의.
 
 ## 포함 질환
 - [[혈관성 치매 (Vascular Dementia)]]
